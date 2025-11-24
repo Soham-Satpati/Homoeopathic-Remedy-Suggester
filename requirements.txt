@@ -3,5 +3,6 @@ pandas
 sentence-transformers
 DateTime
 pypi-json
+reportlab
 
 
