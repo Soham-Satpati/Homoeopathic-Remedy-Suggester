@@ -1,0 +1,118 @@
+Cluster_ID,Remedy,Chapter,Symptom,Area,Modalities
+0,Sulphur,Joints,Rheumatic fever with stiff small joints,"Small joints, hip, back","Swollen, painful to touch and pressure, fever in evening after exertion, lame gait due to hip pain, worse in morning and cold damp weather, better from warmth"
+0,Ferrum Phosphoricum,Joints,Rheumatic fever with stiff small joints,"Small joints, hip","Swollen, painful to touch and pressure, fever in evening after exertion, lame gait due to hip pain, worse in morning and cold damp weather, better from warmth"
+0,Kali Muriaticum,Joints,Rheumatic fever with stiff small joints,"Small joints, hip","Swollen, painful to touch and pressure, fever in evening after exertion, lame gait due to hip pain, worse in morning and cold damp weather, better from warmth"
+0,Natrum Sulphuricum,Joints,Rheumatic fever with stiff small joints,"Small joints, hip","Swollen, painful to touch and pressure, fever in evening after exertion, lame gait due to hip pain, worse in morning and cold damp weather, better from warmth"
+0,Kali Carbonicum,Joints,Rheumatic fever with stiff small joints,"Small joints, hip, back","Swollen, painful to touch and pressure, fever in evening after exertion, lame gait due to hip pain, worse in morning and cold damp weather, better from warmth"
+0,Kali Sulphuricum,Joints,Rheumatic fever with stiff small joints,"Small joints, hip, back","Swollen, painful to touch and pressure, fever in evening after exertion, lame gait due to hip pain, worse in morning and cold damp weather, better from warmth"
+0,Phytolacca,Joints,Rheumatic fever with stiff small joints,"Small joints, hip, back","Swollen, painful to touch and pressure, fever in evening after exertion, lame gait due to hip pain, worse in morning and cold damp weather, better from warmth"
+1,Pulsatilla,Joints,Pain in limbs,"Right hand, limbs","Drawing tensive pain in right hand, shifting rapidly in limbs"
+1,Pulsatilla,General,Chilly patient,General,"Amelioration in open air, desires cold food"
+1,Pulsatilla,General,Profuse sweat,General,Offensive odor
+1,Pulsatilla,Skin,Acne,"Forehead, cheeks, nape, back",Occasional itching
+1,Pulsatilla,Skin,Itching on soles,Soles of both legs,Bleeds slightly after scratching
+1,Pulsatilla,Respiratory,Recurrent common cold with dyspnoea,Respiratory,"Aggravated by exposure to cold, symptoms disappear after allopathy"
+1,Pulsatilla,Abdomen,Vomiting tendency,Abdomen,"During fever, after rich food"
+1,Pulsatilla,Abdomen,Irregular stool,Abdomen,"Hard stool, not clear"
+1,Pulsatilla,Neurological,Trembling of hands,Hands,During fever
+1,Arnica Montana,General,Lack of strength,General,"In both legs, feeble feeling, unable to walk properly without help"
+1,Arnica Montana,General,Sweat in axilla,General,Bad odor in sweat
+1,Arnica Montana,Abdomen,Occasional acidity,Abdomen,With heaviness of abdomen
+1,Arnica Montana,Abdomen,Constipation,Abdomen,"Hard, knotty stool"
+1,Arnica Montana,Head,Frontal headache,Head,"Better lying down with head low, heat on vertex"
+1,Arnica Montana,Nose,Stoppage of left nose,Nose,None
+1,Arnica Montana,Throat,Occasional throat pain,Throat,Better by gurgling
+1,Arnica Montana,Skin,Eruptions on right palm,Right palm,None
+1,Natrum Carbonicum,Joints,Tendency for ankle dislocation or sprain,Ankle,Removed by treatment
+1,Ferrum Metallicum,Joints,Pain and stiffness,Left shoulder,"Persistent despite treatment, partial relief"
+1,Rhus Toxicodendron,Joints,Pain and stiffness,Left shoulder,"Persistent despite treatment, partial relief"
+1,Bryonia,Joints,Rheumatic fever with joint pain and swelling,"Joints, muscles","Worse from motion, fever 102°F"
+1,Bryonia,General,Great weakness,General,Chill and shivering of body
+1,Bryonia,General,Great thirst,General,None
+1,Bryonia,Head,Violent headache,Head,None
+1,Bryonia,Throat,Dryness and constriction,Throat,Pain extending to ears
+1,Bryonia,Urine,"Scanty, hot, yellow urine",Urine,None
+1,Gelsemium,Joints,Rheumatic fever with joint pain and swelling,"Joints, muscles","Worse from motion, fever 102°F"
+1,Gelsemium,General,Great weakness,General,Chill and shivering of body
+1,Gelsemium,Head,Violent headache,Head,None
+1,Gelsemium,Throat,Dryness and constriction,Throat,Pain extending to ears
+1,Gelsemium,Urine,"Scanty, hot, yellow urine",Urine,None
+1,Kali Muriaticum,Joints,Rheumatic fever with joint pain and swelling,"Joints, muscles","Worse from motion, fever 102°F"
+1,Natrum Sulphuricum,Joints,Rheumatic fever with joint pain and swelling,"Joints, muscles","Worse from motion, fever 102°F"
+1,Natrum Sulphuricum,General,Chilly patient,General,"Tendency to catch cold easily, disturbed sleep due to polyarthralgia"
+1,Natrum Sulphuricum,General,Profuse thirst,General,Drinks small quantities frequently
+1,Natrum Sulphuricum,General,Addiction to chewing tobacco,General,None
+1,Natrum Sulphuricum,Digestive,Mucoid stool,Digestive,"Early morning, very offensive"
+1,Natrum Sulphuricum,Digestive,Dirty tongue and halitosis,Mouth,"Tongue coated white at base, halitosis throughout the day"
+1,Natrum Sulphuricum,Urine,Clear urine,Urine,No burning or difficulty
+1,Kalmia,General,Debility,General,"Much anaemic, exhaustion, worse from motion, chilliness"
+1,Kalmia,Extremities,"Numbness and flying, shifting pains","Hands, feet, body",None
+1,Kalmia,Head,Headache at vertex,Head,None
+1,Kalmia,Female,Profuse menstruation,Female reproductive,None
+1,Kalmia,Cardiovascular,Palpitation and tachycardia,Heart,None
+1,Kalmia,Abdomen,Wind in stomach and abdomen,Abdomen,None
+1,China,General,Debility,General,"Much anaemic, exhaustion, worse from motion, chilliness"
+1,China,Extremities,"Numbness and flying, shifting pains","Hands, feet, body",None
+1,China,Head,Headache at vertex,Head,None
+1,China,Female,Profuse menstruation,Female reproductive,None
+1,China,Cardiovascular,Palpitation and tachycardia,Heart,None
+1,China,Abdomen,Wind in stomach and abdomen,Abdomen,None
+1,Kali Phosphoricum,General,Debility,General,"Much anaemic, exhaustion, worse from motion, chilliness"
+1,Natrum Muriaticum,General,Debility,General,"Much anaemic, exhaustion, worse from motion, chilliness"
+1,Natrum Phosphoricum,General,Debility,General,"Much anaemic, exhaustion, worse from motion, chilliness"
+1,Kali Carbonicum,Abdomen,Constipation,Abdomen,Painful bleeding fissure of anus
+1,Kali Carbonicum,General,Desire for sweets,General,None
+1,Colchicum,Abdomen,Constipation,Abdomen,Painful bleeding fissure of anus
+1,Colchicum,General,Desire for sweets,General,None
+1,Staphysagria,General,Disturbed sleep,General,Due to pain
+1,Staphysagria,General,Alcohol addiction,General,"Rum or brandy weekly, worsens symptoms when stopped"
+1,Staphysagria,Sexual,Pain during intercourse,Penis,"Pain more on ejaculation, suppressed to satisfy wife"
+1,Staphysagria,Cardiovascular,Palpitation and paralysis,"Heart, left side of body","Developed at age 58 after insult, resolved after 1 month of conventional treatment"
+1,Thuja Occidentalis,General,Chilly patient,General,"Persistent sleeplessness, frightful dreams especially of dead persons"
+2,Arnica Montana,Joints,Chronic rheumatic arthritis,Joints,"Worse in cold wet air, overdrugged with allopathy, recurring attacks, swelling and pain after exertion"
+2,Sulphur,Joints,Chronic rheumatic arthritis,Joints,"Worse in cold wet air, overdrugged with allopathy, recurring attacks"
+2,Bryonia,Joints,Chronic rheumatic arthritis,Joints,"Worse in cold wet air, overdrugged with allopathy, recurring attacks"
+2,Ferrum Phosphoricum,Joints,Chronic rheumatic arthritis,Joints,"Worse in cold wet air, overdrugged with allopathy, recurring attacks"
+2,Kali Muriaticum,Joints,Chronic rheumatic arthritis,Joints,"Worse in cold wet air, overdrugged with allopathy, recurring attacks"
+2,Colchicum,Joints,Chronic rheumatic arthritis,Joints,"Worse in cold wet air, overdrugged with allopathy, recurring attacks"
+2,Calcarea Fluorica,Joints,Chronic rheumatic arthritis,Joints,"Worse in cold wet air, overdrugged with allopathy, recurring attacks"
+2,Kali Sulphuricum,Joints,Chronic rheumatic arthritis,Joints,"Worse in cold wet air, overdrugged with allopathy, recurring attacks"
+2,Phytolacca,Joints,Chronic rheumatic arthritis,Joints,"Worse in cold wet air, overdrugged with allopathy, recurring attacks"
+2,Ruta,Joints,Chronic rheumatic arthritis,Joints,"Worse in cold wet air, overdrugged with allopathy, recurring attacks, swelling and pain after exertion"
+2,Cimicifuga,Joints,Chronic rheumatic arthritis,Joints,"Worse in cold wet air, overdrugged with allopathy, recurring attacks"
+2,Guaiacum,Joints,Chronic rheumatic arthritis,Joints,"Worse in cold wet air, overdrugged with allopathy, recurring attacks"
+NOISE,Pulsatilla,Joints,Recurrent dislocation of right shoulder joint,Right shoulder,"Originally occurred while playing tennis, aggravated during playing, slight swelling with pain"
+NOISE,Pulsatilla,General,Increased appetite,General,"Desires meat, egg, salty, sour, cold food; aversions to fish, milk; aggravation from brinjal"
+NOISE,Pulsatilla,Mental,Anger,Mind,"Restless, timid, sympathetic, fear of failure, weeps easily"
+NOISE,Pulsatilla,Female,Menstrual issues,Female reproductive,"Regular, average quantity, 4 days duration, pain in lower abdomen at onset, bright blood with black clots"
+NOISE,Arnica Montana,Joints,Rheumatoid arthritis,"Lower extremities, lumbo-sacral region, ankles","Pain with heaviness and numbness, more in left leg, ascending from ankle to loin, sore and tender to touch, aggravation from walking, sitting, new and full moon, cold weather, amelioration by rest, lying down, hot application, pain comes gradually after walking with short steps"
+NOISE,Arnica Montana,General,Hot patient,General,"Likes winter and open air, desires sweet, sour, salty, fish, bitter, milk, vegetables, cold drinks, ice cream, meat, egg"
+NOISE,Arnica Montana,Mental,Anger and obstinacy,Mind,"Silent habit, absent-minded, desires company, disgusted with life due to pain, weeping mood, consolation ameliorates, fear of noise, accidents, failures"
+NOISE,Arnica Montana,Female,Dysmenorrhoea,Female reproductive,"Occasional pain during menses, regular, 4 days duration, red color"
+NOISE,Arnica Montana,Respiratory,Bronchospasm and cold allergy,Respiratory,"Since age 14, worse change of weather, inhaling dust, fumes, smoke, washing face, sneezing, running nose, tickling in throat, spasm worse evening and 2 a.m., dry cough daytime, occasional whitish-yellowish phlegm, heaviness in chest, wheezing, head bends backwards ameliorates, hereditary (maternal side)"
+NOISE,Arnica Montana,Neurological,Giddiness,Neurological,"Started with pain in spinal cord and upper body, bending forward from waist"
+NOISE,Secale Cornutum,Extremities,Sluggish circulation with coldness,"Extremities, fingers","Peculiar shiny wrinkly effect on skin of left ring finger, progressing to right hand ring and little fingers"
+NOISE,Carbo Vegetabilis,Extremities,Sluggish circulation with coldness,"Extremities, fingers, calves, legs","Pain in calves and legs after exertion, cramps after ploughing or walking, shiny wrinkly skin on fingers, improved to normal skin and circulation, restored ability to wear ring, improved warmth and health of left finger"
+NOISE,Carbo Vegetabilis,Extremities,Arterial blockage,"Extremities, fingers, toes","History of amputations for dry gangrene of toes, shrivelled fingers and toes, restored normal circulation and health"
+NOISE,Sulphur,Joints,Rheumatism,Major joints,"Reddish rash, slightly itching and burning around affected joints, patient not chilly, regular appetite and evacuations"
+NOISE,Sulphur,Joints,Rheumatism and arthritis,"Fingers, wrists, ankles, toes","Stiffness, swelling, pain, worse in cold air, winter, motion, morning, better from warmth"
+NOISE,Aurum Muriaticum Natronatum,Female,Infertility,Female reproductive,"No menstrual period since March 1982, positive pregnancy test in June 1982, first pregnancy after 15 years of marriage, normal delivery of healthy boy at age 42"
+NOISE,Ornithogalum,Abdomen,Stomach cancer,Stomach,"Writhing in agony, unable to retain food long, better by warm foods, worse by cold drinks, pains worse at night, spreading to hands and between shoulders, visible bulging beneath diaphragm to scrobiculus cordis"
+NOISE,Myristica Sebifera,Joints,Inflammation with pus,"Knee, shoulder","Knee inflammation with doughy swelling, pus in joint, ankylosed knee post-treatment; shoulder joint full of pus, painful spot on scapula, no suppuration after 10 days, normal joint size"
+NOISE,Calcarea Hypophosphorosa,Joints,Abscesses around knee joint,"Knee, tibia","Multiple abscesses, ulceration attacking tibia, half eaten off, ragged necrosed bone protruding, patient emaciated, no appetite, pale, complete recovery except bent tibia"
+NOISE,Rhus Toxicodendron,Joints,Rheumatoid arthritis,"Cervical region, lumbo-sacral region, proximal interphalangeal joints (PIP), distal interphalangeal joint (DIJ)","Pricking pain in cervical region (left side), stiffness, pain in lumbo-sacral region extending to both lower extremities, pain in PIP joints of both hands, nodes in joints with unbearable pain, worse after lifting heavy weight, worse since humiliation incident, no improvement with acute prescription"
+NOISE,Bryonia,Joints,Rheumatoid arthritis,"Cervical region, lumbo-sacral region, proximal interphalangeal joints (PIP), distal interphalangeal joint (DIJ)","Pricking pain in cervical region (left side), stiffness, pain in lumbo-sacral region extending to both lower extremities, pain in PIP joints of both hands, nodes in joints with unbearable pain, mild improvement in lumbar pain, cervical pain and PIP pain increased"
+NOISE,Ferrum Phosphoricum,Joints,Rheumatic fever with joint pain and swelling,"Joints, muscles","Worse from motion, fever 102°F"
+NOISE,Natrum Sulphuricum,Joints,Rheumatoid arthritis,"Proximal interphalangeal (PIP), metacarpophalangeal (MCP), wrist, elbow, ankle, metatarsophalangeal (MTP) joints","Pain, swelling, severe morning stiffness, symmetrical involvement, aggravates in morning, cold and rainy weather, no joint deformity, gradual reduction in intensity during the day"
+NOISE,Natrum Sulphuricum,General,Poor appetite,General,"Frequent spells of indigestion, uses allopathic medication, desire for sweet, sour, meat, aversion to milk, intolerance to fish and aquatic vegetables causing dyspepsia and increased articular pain"
+NOISE,Natrum Sulphuricum,Mental,Irritability and impulsiveness,Mind,"Tendency to throw things, abuse others, suicidal inclination, introverted, disinclination to speak, good memory"
+NOISE,Calcarea Phosphorica,General,Debility,General,"Much anaemic, exhaustion, worse from motion, chilliness"
+NOISE,Kali Carbonicum,Joints,Rheumatism and arthritis,"Fingers, wrists, ankles, toes","Stiffness, swelling, pain, worse in cold air, winter, motion, morning, better from warmth"
+NOISE,Colchicum,Joints,Rheumatism and arthritis,"Fingers, wrists, ankles, toes","Stiffness, swelling, pain, worse in cold air, winter, motion, morning, better from warmth"
+NOISE,Calcarea Fluorica,Joints,Rheumatism and arthritis,"Fingers, wrists, ankles, toes","Stiffness, swelling, pain, worse in cold air, winter, motion, morning, better from warmth"
+NOISE,Cimicifuga,Joints,Rheumatoid arthritis,"Cervical region, lumbo-sacral region, proximal interphalangeal joints (PIP), distal interphalangeal joint (DIJ)","Pricking pain in cervical region (left side), stiffness, pain in lumbo-sacral region extending to both lower extremities, pain in PIP joints of both hands, nodes in joints with unbearable pain, 25% improvement but symptoms persist"
+NOISE,Staphysagria,Joints,Rheumatoid arthritis,"Cervical region, lumbo-sacral region, proximal interphalangeal joints (PIP), distal interphalangeal joint (DIJ)","Pricking pain in cervical region (left side), stiffness, pain in lumbo-sacral region extending to both lower extremities, pain in PIP joints of both hands, nodes in joints with unbearable pain, worse after lifting heavy weight, worse since humiliation incident, swelling in DIJ of left index finger, swan neck deformity, tenderness in swelling and PIP joints, marked improvement with constitutional treatment, reduced node formation, 75% symptom reduction, DAS-28 ESR reduced from 4.8 to 2.5 (remission)"
+NOISE,Staphysagria,General,Hot patient,General,"Desires open air, aggravated by lying on left side, ameliorated by lying on right side, good appetite, thirst for 5 liters/day, no dryness"
+NOISE,Staphysagria,Mental,Suppression of anger and emotions,Mind,"Sentimental, yielding, loyal, courageous, suicidal tendency, feels betrayed, workaholic, complaints after mortification"
+NOISE,Staphysagria,Ear,Blockage of left ear,Ear,"Triggered by increased neck pain, no history of CSOM, ASOM, or tinnitus"
+NOISE,Thuja Occidentalis,Joints,Rheumatoid arthritis,"Proximal interphalangeal (PIP), metacarpophalangeal (MCP), wrist, elbow, ankle, metatarsophalangeal (MTP) joints","Persistent pain in elbow and ankle, left side more painful, worse at rest and during damp weather, especially rainfall, marked improvement in pain and stiffness, no swelling in joints, patient able to pursue daily activities without pain"

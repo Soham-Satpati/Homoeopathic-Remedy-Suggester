@@ -1,0 +1,125 @@
+2025-11-13 14:11:37,141 [INFO] Loaded 33 remedies from Case_studies_combined.json
+2025-11-13 14:11:37,145 [INFO] Prepared 117 symptom entries
+2025-11-13 14:11:37,146 [INFO] Model saved to case_studies_model.pkl
+2025-11-13 14:11:37,151 [INFO] Preprocessing features for remedy_modalities
+2025-11-13 14:11:37,165 [INFO] Cached features to cache_features_remedy_modalities.pkl | Shape: (117, 299)
+2025-11-13 14:11:37,165 [INFO] Fitting HDBSCAN (min_cluster_size=6, metric=hamming)
+2025-11-13 14:11:37,207 [INFO] HDBSCAN found 3 clusters + noise
+2025-11-13 14:11:37,213 [INFO] Silhouette Score: 0.368
+2025-11-13 14:11:37,235 [INFO] 3 clusters | 1 high-quality
+2025-11-13 14:11:37,255 [INFO] Saved 117 rows to clusters_remedy_modalities.csv
+2025-11-13 14:11:37,258 [INFO] Loading cached features from cache_features_remedy_modalities.pkl
+2025-11-13 14:11:52,973 [INFO] UMAP plots saved: Case_studies_combined_remedy_modalities_umap.png + .html
+2025-11-13 14:11:52,975 [INFO] Streamlit app generated: streamlit_app.py
+2025-11-13 14:11:52,978 [INFO] Preprocessing features for remedy_area_modalities
+2025-11-13 14:11:52,983 [INFO] Cached features to cache_features_remedy_area_modalities.pkl | Shape: (117, 339)
+2025-11-13 14:11:52,984 [INFO] Fitting HDBSCAN (min_cluster_size=6, metric=hamming)
+2025-11-13 14:11:53,004 [INFO] HDBSCAN found 3 clusters + noise
+2025-11-13 14:11:53,006 [INFO] Silhouette Score: 0.295
+2025-11-13 14:11:53,013 [INFO] 3 clusters | 1 high-quality
+2025-11-13 14:11:53,020 [INFO] Saved 117 rows to clusters_remedy_area_modalities.csv
+2025-11-13 14:11:53,027 [INFO] Loading cached features from cache_features_remedy_area_modalities.pkl
+2025-11-13 14:11:54,126 [INFO] UMAP plots saved: Case_studies_combined_remedy_area_modalities_umap.png + .html
+2025-11-13 14:11:54,128 [INFO] Streamlit app generated: streamlit_app.py
+2025-11-13 14:11:54,156 [INFO] Loaded 125 remedies from rheumatic.json
+2025-11-13 14:11:54,277 [INFO] Prepared 4604 symptom entries
+2025-11-13 14:11:54,286 [INFO] Model saved to rheumatic_model.pkl
+2025-11-13 14:11:54,293 [INFO] Loading cached features from cache_features_remedy_modalities.pkl
+2025-11-13 14:11:54,294 [INFO] Fitting HDBSCAN (min_cluster_size=6, metric=hamming)
+2025-11-13 14:11:54,309 [INFO] HDBSCAN found 3 clusters + noise
+2025-11-13 14:14:45,284 [INFO] Loaded 33 remedies from Case_studies_combined.json
+2025-11-13 14:14:45,287 [INFO] Prepared 117 symptom entries
+2025-11-13 14:14:45,288 [INFO] Model saved to case_studies_model.pkl
+2025-11-13 14:14:45,289 [INFO] Loading cached features from cache_features_remedy_modalities.pkl
+2025-11-13 14:14:45,290 [INFO] Fitting HDBSCAN (min_cluster_size=6, metric=hamming)
+2025-11-13 14:14:45,308 [INFO] HDBSCAN found 3 clusters + noise
+2025-11-13 14:14:45,311 [INFO] Silhouette Score: 0.368
+2025-11-13 14:14:45,316 [INFO] 3 clusters | 1 high-quality
+2025-11-13 14:14:45,326 [INFO] Saved 117 rows to clusters_remedy_modalities.csv
+2025-11-13 14:14:45,331 [INFO] Loading cached features from cache_features_remedy_modalities.pkl
+2025-11-13 14:14:55,029 [INFO] UMAP plots saved: Case_studies_combined_remedy_modalities_umap.png + .html
+2025-11-13 14:14:55,033 [INFO] Streamlit app generated: streamlit_app.py
+2025-11-13 14:14:55,035 [INFO] Loading cached features from cache_features_remedy_area_modalities.pkl
+2025-11-13 14:14:55,036 [INFO] Fitting HDBSCAN (min_cluster_size=6, metric=hamming)
+2025-11-13 14:14:55,058 [INFO] HDBSCAN found 3 clusters + noise
+2025-11-13 14:14:55,062 [INFO] Silhouette Score: 0.295
+2025-11-13 14:14:55,068 [INFO] 3 clusters | 1 high-quality
+2025-11-13 14:14:55,080 [INFO] Saved 117 rows to clusters_remedy_area_modalities.csv
+2025-11-13 14:14:55,090 [INFO] Loading cached features from cache_features_remedy_area_modalities.pkl
+2025-11-13 14:14:55,884 [INFO] UMAP plots saved: Case_studies_combined_remedy_area_modalities_umap.png + .html
+2025-11-13 14:14:55,888 [INFO] Streamlit app generated: streamlit_app.py
+2025-11-13 14:14:55,908 [INFO] Loaded 125 remedies from rheumatic.json
+2025-11-13 14:14:55,927 [INFO] Prepared 4604 symptom entries
+2025-11-13 14:14:56,111 [INFO] Model saved to rheumatic_model.pkl
+2025-11-13 14:14:56,120 [INFO] Loading cached features from cache_features_remedy_modalities.pkl
+2025-11-13 14:14:56,123 [INFO] Fitting HDBSCAN (min_cluster_size=6, metric=hamming)
+2025-11-13 14:14:56,145 [INFO] HDBSCAN found 3 clusters + noise
+2025-11-13 14:16:56,760 [INFO] Loaded 33 remedies from Case_studies_combined.json
+2025-11-13 14:16:56,764 [INFO] Prepared 117 symptom entries
+2025-11-13 14:16:56,772 [INFO] Loading cached features: cache_features_remedy_modalities.pkl
+2025-11-13 14:16:56,773 [INFO] Fitting HDBSCAN (min_cluster_size=6, metric=hamming)
+2025-11-13 14:16:56,795 [INFO] HDBSCAN completed: 3 clusters, 68 noise points
+2025-11-13 14:16:56,806 [INFO] Silhouette Score: 0.368
+2025-11-13 14:16:56,828 [INFO] 3 clusters | 1 high-quality
+2025-11-13 14:16:56,843 [INFO] Loading cached features: cache_features_remedy_modalities.pkl
+2025-11-13 14:19:49,051 [INFO] Loaded 33 remedies from Case_studies_combined.json
+2025-11-13 14:19:49,054 [INFO] Prepared 117 symptom entries
+2025-11-13 14:19:49,055 [INFO] Model saved: case_studies_model.pkl
+2025-11-13 14:19:49,059 [INFO] Loading cached features: cache_features_remedy_modalities.pkl
+2025-11-13 14:19:49,061 [INFO] Fitting HDBSCAN (min_cluster_size=6)
+2025-11-13 14:19:49,081 [INFO] HDBSCAN: 3 clusters, 68 noise points
+2025-11-13 14:19:49,090 [INFO] Silhouette Score: 0.368
+2025-11-13 14:19:49,102 [INFO] 3 clusters | 1 high-quality
+2025-11-13 14:19:49,110 [INFO] Saved 117 rows to clusters_remedy_modalities.csv
+2025-11-13 14:19:49,112 [INFO] Loading cached features: cache_features_remedy_modalities.pkl
+2025-11-13 14:19:59,615 [INFO] Plots saved: Case_studies_combined_remedy_modalities_umap.png + .html
+2025-11-13 14:19:59,617 [INFO] Streamlit app generated: streamlit_app.py
+2025-11-13 14:19:59,618 [INFO] Loading cached features: cache_features_remedy_area_modalities.pkl
+2025-11-13 14:19:59,619 [INFO] Fitting HDBSCAN (min_cluster_size=6)
+2025-11-13 14:19:59,637 [INFO] HDBSCAN: 3 clusters, 57 noise points
+2025-11-13 14:19:59,640 [INFO] Silhouette Score: 0.295
+2025-11-13 14:19:59,644 [INFO] 3 clusters | 1 high-quality
+2025-11-13 14:19:59,650 [INFO] Saved 117 rows to clusters_remedy_area_modalities.csv
+2025-11-13 14:19:59,654 [INFO] Loading cached features: cache_features_remedy_area_modalities.pkl
+2025-11-13 14:20:00,642 [INFO] Plots saved: Case_studies_combined_remedy_area_modalities_umap.png + .html
+2025-11-13 14:20:00,644 [INFO] Streamlit app generated: streamlit_app.py
+2025-11-13 14:20:00,663 [INFO] Loaded 125 remedies from rheumatic.json
+2025-11-13 14:20:00,681 [INFO] Prepared 4604 symptom entries
+2025-11-13 14:20:00,795 [INFO] Model saved: rheumatic_model.pkl
+2025-11-13 14:20:00,799 [INFO] Loading cached features: cache_features_remedy_modalities.pkl
+2025-11-13 14:20:00,801 [INFO] Fitting HDBSCAN (min_cluster_size=6)
+2025-11-13 14:20:00,816 [INFO] HDBSCAN: 3 clusters, 68 noise points
+2025-11-13 14:22:00,449 [INFO] Loaded 33 remedies from Case_studies_combined.json
+2025-11-13 14:22:00,454 [INFO] Prepared 117 symptoms
+2025-11-13 14:22:00,454 [INFO] Model saved: case_studies_model.pkl
+2025-11-13 14:22:00,459 [INFO] Preprocessing: remedy_modalities
+2025-11-13 14:22:00,469 [INFO] Cached: cache_Case_studies_combined_json_remedy_modalities.pkl | Shape: (117, 309)
+2025-11-13 14:22:00,470 [INFO] Fitting HDBSCAN (min_cluster_size=6)
+2025-11-13 14:22:00,496 [INFO] HDBSCAN: 3 clusters, 49 noise
+2025-11-13 14:22:00,502 [INFO] Silhouette: 0.349
+2025-11-13 14:22:00,515 [INFO] 3 clusters | 1 high-quality
+2025-11-13 14:22:00,521 [INFO] Saved 117 rows to clusters_remedy_modalities.csv
+2025-11-13 14:22:00,524 [INFO] Loading cached features: cache_Case_studies_combined_json_remedy_modalities.pkl
+2025-11-13 14:22:10,875 [INFO] Plots saved: Case_studies_combined_remedy_modalities_umap.png + .html
+2025-11-13 14:22:10,880 [INFO] Streamlit app generated
+2025-11-13 14:22:10,883 [INFO] Preprocessing: remedy_area_modalities
+2025-11-13 14:22:10,888 [INFO] Cached: cache_Case_studies_combined_json_remedy_area_modalities.pkl | Shape: (117, 349)
+2025-11-13 14:22:10,890 [INFO] Fitting HDBSCAN (min_cluster_size=6)
+2025-11-13 14:22:10,911 [INFO] HDBSCAN: 3 clusters, 35 noise
+2025-11-13 14:22:10,915 [INFO] Silhouette: 0.273
+2025-11-13 14:22:10,919 [INFO] 3 clusters | 1 high-quality
+2025-11-13 14:22:10,925 [INFO] Saved 117 rows to clusters_remedy_area_modalities.csv
+2025-11-13 14:22:10,928 [INFO] Loading cached features: cache_Case_studies_combined_json_remedy_area_modalities.pkl
+2025-11-13 14:22:12,059 [INFO] Plots saved: Case_studies_combined_remedy_area_modalities_umap.png + .html
+2025-11-13 14:22:12,063 [INFO] Streamlit app generated
+2025-11-13 14:22:12,085 [INFO] Loaded 125 remedies from rheumatic.json
+2025-11-13 14:22:12,211 [INFO] Prepared 4604 symptoms
+2025-11-13 14:22:12,219 [INFO] Model saved: rheumatic_model.pkl
+2025-11-13 14:22:12,227 [INFO] Preprocessing: remedy_modalities
+2025-11-13 14:22:12,300 [INFO] Cached: cache_rheumatic_json_remedy_modalities.pkl | Shape: (4604, 661)
+2025-11-13 14:22:12,302 [INFO] Fitting HDBSCAN (min_cluster_size=6)
+2025-11-13 14:22:26,414 [INFO] HDBSCAN: 120 clusters, 26 noise
+2025-11-13 14:22:26,932 [INFO] Silhouette: 0.893
+2025-11-13 14:22:27,215 [INFO] 120 clusters | 1 high-quality
+2025-11-13 14:22:27,264 [INFO] Saved 4604 rows to clusters_remedy_modalities.csv
+2025-11-13 14:22:27,269 [INFO] Loading cached features: cache_rheumatic_json_remedy_modalities.pkl

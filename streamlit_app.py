@@ -1,0 +1,519 @@
+import streamlit as st
+import pandas as pd
+
+st.set_page_config(page_title="HoRUS 3", layout="wide")
+st.title("HoRUS 3 - AI-Generated Rubrics")
+
+clusters = [
+  {
+    "cluster_id": 1,
+    "size": 63,
+    "unique_remedies": 18,
+    "unique_categories": 15,
+    "remedies": [
+      "Pulsatilla",
+      "Arnica Montana",
+      "Natrum Carbonicum",
+      "Ferrum Metallicum",
+      "Rhus Toxicodendron",
+      "Bryonia",
+      "Gelsemium",
+      "Kali Muriaticum",
+      "Natrum Sulphuricum",
+      "Kalmia",
+      "China",
+      "Kali Phosphoricum",
+      "Natrum Muriaticum",
+      "Natrum Phosphoricum",
+      "Kali Carbonicum",
+      "Colchicum",
+      "Staphysagria",
+      "Thuja Occidentalis"
+    ],
+    "categories": [
+      "Joints",
+      "General",
+      "Skin",
+      "Respiratory",
+      "Abdomen",
+      "Neurological",
+      "Head",
+      "Nose",
+      "Throat",
+      "Urine",
+      "Digestive",
+      "Extremities",
+      "Female",
+      "Cardiovascular",
+      "Sexual"
+    ],
+    "symptoms": [
+      {
+        "remedy": "Pulsatilla",
+        "category": "Joints",
+        "symptom": "Pain in limbs",
+        "area": "Right hand, limbs",
+        "modalities": "Drawing tensive pain in right hand, shifting rapidly in limbs"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "General",
+        "symptom": "Chilly patient",
+        "area": "General",
+        "modalities": "Amelioration in open air, desires cold food"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "General",
+        "symptom": "Profuse sweat",
+        "area": "General",
+        "modalities": "Offensive odor"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "Skin",
+        "symptom": "Acne",
+        "area": "Forehead, cheeks, nape, back",
+        "modalities": "Occasional itching"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "Skin",
+        "symptom": "Itching on soles",
+        "area": "Soles of both legs",
+        "modalities": "Bleeds slightly after scratching"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "Respiratory",
+        "symptom": "Recurrent common cold with dyspnoea",
+        "area": "Respiratory",
+        "modalities": "Aggravated by exposure to cold, symptoms disappear after allopathy"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "Abdomen",
+        "symptom": "Vomiting tendency",
+        "area": "Abdomen",
+        "modalities": "During fever, after rich food"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "Abdomen",
+        "symptom": "Irregular stool",
+        "area": "Abdomen",
+        "modalities": "Hard stool, not clear"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "Neurological",
+        "symptom": "Trembling of hands",
+        "area": "Hands",
+        "modalities": "During fever"
+      },
+      {
+        "remedy": "Arnica Montana",
+        "category": "General",
+        "symptom": "Lack of strength",
+        "area": "General",
+        "modalities": "In both legs, feeble feeling, unable to walk properly without help"
+      },
+      {
+        "remedy": "Arnica Montana",
+        "category": "General",
+        "symptom": "Sweat in axilla",
+        "area": "General",
+        "modalities": "Bad odor in sweat"
+      },
+      {
+        "remedy": "Arnica Montana",
+        "category": "Abdomen",
+        "symptom": "Occasional acidity",
+        "area": "Abdomen",
+        "modalities": "With heaviness of abdomen"
+      },
+      {
+        "remedy": "Arnica Montana",
+        "category": "Abdomen",
+        "symptom": "Constipation",
+        "area": "Abdomen",
+        "modalities": "Hard, knotty stool"
+      },
+      {
+        "remedy": "Arnica Montana",
+        "category": "Head",
+        "symptom": "Frontal headache",
+        "area": "Head",
+        "modalities": "Better lying down with head low, heat on vertex"
+      },
+      {
+        "remedy": "Arnica Montana",
+        "category": "Nose",
+        "symptom": "Stoppage of left nose",
+        "area": "Nose",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Arnica Montana",
+        "category": "Throat",
+        "symptom": "Occasional throat pain",
+        "area": "Throat",
+        "modalities": "Better by gurgling"
+      },
+      {
+        "remedy": "Arnica Montana",
+        "category": "Skin",
+        "symptom": "Eruptions on right palm",
+        "area": "Right palm",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Natrum Carbonicum",
+        "category": "Joints",
+        "symptom": "Tendency for ankle dislocation or sprain",
+        "area": "Ankle",
+        "modalities": "Removed by treatment"
+      },
+      {
+        "remedy": "Ferrum Metallicum",
+        "category": "Joints",
+        "symptom": "Pain and stiffness",
+        "area": "Left shoulder",
+        "modalities": "Persistent despite treatment, partial relief"
+      },
+      {
+        "remedy": "Rhus Toxicodendron",
+        "category": "Joints",
+        "symptom": "Pain and stiffness",
+        "area": "Left shoulder",
+        "modalities": "Persistent despite treatment, partial relief"
+      },
+      {
+        "remedy": "Bryonia",
+        "category": "Joints",
+        "symptom": "Rheumatic fever with joint pain and swelling",
+        "area": "Joints, muscles",
+        "modalities": "Worse from motion, fever 102°F"
+      },
+      {
+        "remedy": "Bryonia",
+        "category": "General",
+        "symptom": "Great weakness",
+        "area": "General",
+        "modalities": "Chill and shivering of body"
+      },
+      {
+        "remedy": "Bryonia",
+        "category": "General",
+        "symptom": "Great thirst",
+        "area": "General",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Bryonia",
+        "category": "Head",
+        "symptom": "Violent headache",
+        "area": "Head",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Bryonia",
+        "category": "Throat",
+        "symptom": "Dryness and constriction",
+        "area": "Throat",
+        "modalities": "Pain extending to ears"
+      },
+      {
+        "remedy": "Bryonia",
+        "category": "Urine",
+        "symptom": "Scanty, hot, yellow urine",
+        "area": "Urine",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Gelsemium",
+        "category": "Joints",
+        "symptom": "Rheumatic fever with joint pain and swelling",
+        "area": "Joints, muscles",
+        "modalities": "Worse from motion, fever 102°F"
+      },
+      {
+        "remedy": "Gelsemium",
+        "category": "General",
+        "symptom": "Great weakness",
+        "area": "General",
+        "modalities": "Chill and shivering of body"
+      },
+      {
+        "remedy": "Gelsemium",
+        "category": "Head",
+        "symptom": "Violent headache",
+        "area": "Head",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Gelsemium",
+        "category": "Throat",
+        "symptom": "Dryness and constriction",
+        "area": "Throat",
+        "modalities": "Pain extending to ears"
+      },
+      {
+        "remedy": "Gelsemium",
+        "category": "Urine",
+        "symptom": "Scanty, hot, yellow urine",
+        "area": "Urine",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Kali Muriaticum",
+        "category": "Joints",
+        "symptom": "Rheumatic fever with joint pain and swelling",
+        "area": "Joints, muscles",
+        "modalities": "Worse from motion, fever 102°F"
+      },
+      {
+        "remedy": "Natrum Sulphuricum",
+        "category": "Joints",
+        "symptom": "Rheumatic fever with joint pain and swelling",
+        "area": "Joints, muscles",
+        "modalities": "Worse from motion, fever 102°F"
+      },
+      {
+        "remedy": "Natrum Sulphuricum",
+        "category": "General",
+        "symptom": "Chilly patient",
+        "area": "General",
+        "modalities": "Tendency to catch cold easily, disturbed sleep due to polyarthralgia"
+      },
+      {
+        "remedy": "Natrum Sulphuricum",
+        "category": "General",
+        "symptom": "Profuse thirst",
+        "area": "General",
+        "modalities": "Drinks small quantities frequently"
+      },
+      {
+        "remedy": "Natrum Sulphuricum",
+        "category": "General",
+        "symptom": "Addiction to chewing tobacco",
+        "area": "General",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Natrum Sulphuricum",
+        "category": "Digestive",
+        "symptom": "Mucoid stool",
+        "area": "Digestive",
+        "modalities": "Early morning, very offensive"
+      },
+      {
+        "remedy": "Natrum Sulphuricum",
+        "category": "Digestive",
+        "symptom": "Dirty tongue and halitosis",
+        "area": "Mouth",
+        "modalities": "Tongue coated white at base, halitosis throughout the day"
+      },
+      {
+        "remedy": "Natrum Sulphuricum",
+        "category": "Urine",
+        "symptom": "Clear urine",
+        "area": "Urine",
+        "modalities": "No burning or difficulty"
+      },
+      {
+        "remedy": "Kalmia",
+        "category": "General",
+        "symptom": "Debility",
+        "area": "General",
+        "modalities": "Much anaemic, exhaustion, worse from motion, chilliness"
+      },
+      {
+        "remedy": "Kalmia",
+        "category": "Extremities",
+        "symptom": "Numbness and flying, shifting pains",
+        "area": "Hands, feet, body",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Kalmia",
+        "category": "Head",
+        "symptom": "Headache at vertex",
+        "area": "Head",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Kalmia",
+        "category": "Female",
+        "symptom": "Profuse menstruation",
+        "area": "Female reproductive",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Kalmia",
+        "category": "Cardiovascular",
+        "symptom": "Palpitation and tachycardia",
+        "area": "Heart",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Kalmia",
+        "category": "Abdomen",
+        "symptom": "Wind in stomach and abdomen",
+        "area": "Abdomen",
+        "modalities": "None"
+      },
+      {
+        "remedy": "China",
+        "category": "General",
+        "symptom": "Debility",
+        "area": "General",
+        "modalities": "Much anaemic, exhaustion, worse from motion, chilliness"
+      },
+      {
+        "remedy": "China",
+        "category": "Extremities",
+        "symptom": "Numbness and flying, shifting pains",
+        "area": "Hands, feet, body",
+        "modalities": "None"
+      },
+      {
+        "remedy": "China",
+        "category": "Head",
+        "symptom": "Headache at vertex",
+        "area": "Head",
+        "modalities": "None"
+      },
+      {
+        "remedy": "China",
+        "category": "Female",
+        "symptom": "Profuse menstruation",
+        "area": "Female reproductive",
+        "modalities": "None"
+      },
+      {
+        "remedy": "China",
+        "category": "Cardiovascular",
+        "symptom": "Palpitation and tachycardia",
+        "area": "Heart",
+        "modalities": "None"
+      },
+      {
+        "remedy": "China",
+        "category": "Abdomen",
+        "symptom": "Wind in stomach and abdomen",
+        "area": "Abdomen",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Kali Phosphoricum",
+        "category": "General",
+        "symptom": "Debility",
+        "area": "General",
+        "modalities": "Much anaemic, exhaustion, worse from motion, chilliness"
+      },
+      {
+        "remedy": "Natrum Muriaticum",
+        "category": "General",
+        "symptom": "Debility",
+        "area": "General",
+        "modalities": "Much anaemic, exhaustion, worse from motion, chilliness"
+      },
+      {
+        "remedy": "Natrum Phosphoricum",
+        "category": "General",
+        "symptom": "Debility",
+        "area": "General",
+        "modalities": "Much anaemic, exhaustion, worse from motion, chilliness"
+      },
+      {
+        "remedy": "Kali Carbonicum",
+        "category": "Abdomen",
+        "symptom": "Constipation",
+        "area": "Abdomen",
+        "modalities": "Painful bleeding fissure of anus"
+      },
+      {
+        "remedy": "Kali Carbonicum",
+        "category": "General",
+        "symptom": "Desire for sweets",
+        "area": "General",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Colchicum",
+        "category": "Abdomen",
+        "symptom": "Constipation",
+        "area": "Abdomen",
+        "modalities": "Painful bleeding fissure of anus"
+      },
+      {
+        "remedy": "Colchicum",
+        "category": "General",
+        "symptom": "Desire for sweets",
+        "area": "General",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Staphysagria",
+        "category": "General",
+        "symptom": "Disturbed sleep",
+        "area": "General",
+        "modalities": "Due to pain"
+      },
+      {
+        "remedy": "Staphysagria",
+        "category": "General",
+        "symptom": "Alcohol addiction",
+        "area": "General",
+        "modalities": "Rum or brandy weekly, worsens symptoms when stopped"
+      },
+      {
+        "remedy": "Staphysagria",
+        "category": "Sexual",
+        "symptom": "Pain during intercourse",
+        "area": "Penis",
+        "modalities": "Pain more on ejaculation, suppressed to satisfy wife"
+      },
+      {
+        "remedy": "Staphysagria",
+        "category": "Cardiovascular",
+        "symptom": "Palpitation and paralysis",
+        "area": "Heart, left side of body",
+        "modalities": "Developed at age 58 after insult, resolved after 1 month of conventional treatment"
+      },
+      {
+        "remedy": "Thuja Occidentalis",
+        "category": "General",
+        "symptom": "Chilly patient",
+        "area": "General",
+        "modalities": "Persistent sleeplessness, frightful dreams especially of dead persons"
+      }
+    ]
+  }
+]
+
+data = []
+for c in clusters:
+    for s in c['symptoms']:
+        data.append({
+            "Cluster": c['cluster_id'],
+            "Remedy": s['remedy'],
+            "Chapter": s['category'],
+            "Symptom": s['symptom'],
+            "Area": s['area'],
+            "Modalities": s['modalities']
+        })
+
+df = pd.DataFrame(data)
+st.success(f"Loaded {len(df)} symptoms in {len(clusters)} rubrics")
+
+cluster = st.selectbox("Filter", ["All"] + sorted(df['Cluster'].unique().tolist()))
+if cluster != "All":
+    filtered = df[df['Cluster'] == cluster]
+    st.write(f"**Rubric {cluster}** - {len(filtered)} symptoms")
+    st.dataframe(filtered, use_container_width=True)
+else:
+    st.dataframe(df, use_container_width=True)
+
+st.download_button("Download", df.to_csv(index=False).encode(), "HORUS_Rubrics.csv")

@@ -1,0 +1,1402 @@
+{
+  "Pulsatilla": {
+    "Joints": [
+      {
+        "symptom": "Recurrent dislocation of right shoulder joint",
+        "labels": {
+          "Area": "Right shoulder",
+          "Intensity/Severity": "High",
+          "Modalities": "Originally occurred while playing tennis, aggravated during playing, slight swelling with pain",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 2 doses each"
+      },
+      {
+        "symptom": "Pain in limbs",
+        "labels": {
+          "Area": "Right hand, limbs",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Drawing tensive pain in right hand, shifting rapidly in limbs",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 2 doses each"
+      }
+    ],
+    "General": [
+      {
+        "symptom": "Chilly patient",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Amelioration in open air, desires cold food",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 2 doses each"
+      },
+      {
+        "symptom": "Increased appetite",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Desires meat, egg, salty, sour, cold food; aversions to fish, milk; aggravation from brinjal",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 2 doses each"
+      },
+      {
+        "symptom": "Profuse sweat",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Offensive odor",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 2 doses each"
+      }
+    ],
+    "Mental": [
+      {
+        "symptom": "Anger",
+        "labels": {
+          "Area": "Mind",
+          "Intensity/Severity": "High",
+          "Modalities": "Restless, timid, sympathetic, fear of failure, weeps easily",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 2 doses each"
+      }
+    ],
+    "Female": [
+      {
+        "symptom": "Menstrual issues",
+        "labels": {
+          "Area": "Female reproductive",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Regular, average quantity, 4 days duration, pain in lower abdomen at onset, bright blood with black clots",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 2 doses each"
+      }
+    ],
+    "Skin": [
+      {
+        "symptom": "Acne",
+        "labels": {
+          "Area": "Forehead, cheeks, nape, back",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Occasional itching",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 2 doses each"
+      },
+      {
+        "symptom": "Itching on soles",
+        "labels": {
+          "Area": "Soles of both legs",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Bleeds slightly after scratching",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 2 doses each"
+      }
+    ],
+    "Respiratory": [
+      {
+        "symptom": "Recurrent common cold with dyspnoea",
+        "labels": {
+          "Area": "Respiratory",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Aggravated by exposure to cold, symptoms disappear after allopathy",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 2 doses each"
+      }
+    ],
+    "Abdomen": [
+      {
+        "symptom": "Vomiting tendency",
+        "labels": {
+          "Area": "Abdomen",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "During fever, after rich food",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 2 doses each"
+      },
+      {
+        "symptom": "Irregular stool",
+        "labels": {
+          "Area": "Abdomen",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Hard stool, not clear",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 2 doses each"
+      }
+    ],
+    "Neurological": [
+      {
+        "symptom": "Trembling of hands",
+        "labels": {
+          "Area": "Hands",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "During fever",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 2 doses each"
+      }
+    ]
+  },
+  "Arnica Montana": {
+    "Joints": [
+      {
+        "symptom": "Rheumatoid arthritis",
+        "labels": {
+          "Area": "Lower extremities, lumbo-sacral region, ankles",
+          "Intensity/Severity": "High",
+          "Modalities": "Pain with heaviness and numbness, more in left leg, ascending from ankle to loin, sore and tender to touch, aggravation from walking, sitting, new and full moon, cold weather, amelioration by rest, lying down, hot application, pain comes gradually after walking with short steps",
+          "Extension": "Lumbo-sacral region, back"
+        },
+        "dose": "200C, 1M, 10M, 1 dose each"
+      },
+      {
+        "symptom": "Chronic rheumatic arthritis",
+        "labels": {
+          "Area": "Joints",
+          "Intensity/Severity": "High",
+          "Modalities": "Worse in cold wet air, overdrugged with allopathy, recurring attacks, swelling and pain after exertion",
+          "Extension": "None"
+        },
+        "dose": "30, as needed"
+      }
+    ],
+    "General": [
+      {
+        "symptom": "Hot patient",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Likes winter and open air, desires sweet, sour, salty, fish, bitter, milk, vegetables, cold drinks, ice cream, meat, egg",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 10M, 1 dose each"
+      },
+      {
+        "symptom": "Lack of strength",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "High",
+          "Modalities": "In both legs, feeble feeling, unable to walk properly without help",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 10M, 1 dose each"
+      },
+      {
+        "symptom": "Sweat in axilla",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Bad odor in sweat",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 10M, 1 dose each"
+      }
+    ],
+    "Mental": [
+      {
+        "symptom": "Anger and obstinacy",
+        "labels": {
+          "Area": "Mind",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Silent habit, absent-minded, desires company, disgusted with life due to pain, weeping mood, consolation ameliorates, fear of noise, accidents, failures",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 10M, 1 dose each"
+      }
+    ],
+    "Female": [
+      {
+     "symptom": "Dysmenorrhoea",
+        "labels": {
+          "Area": "Female reproductive",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Occasional pain during menses, regular, 4 days duration, red color",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 10M, 1 dose each"
+      }
+    ],
+    "Respiratory": [
+      {
+        "symptom": "Bronchospasm and cold allergy",
+        "labels": {
+          "Area": "Respiratory",
+          "Intensity/Severity": "High",
+          "Modalities": "Since age 14, worse change of weather, inhaling dust, fumes, smoke, washing face, sneezing, running nose, tickling in throat, spasm worse evening and 2 a.m., dry cough daytime, occasional whitish-yellowish phlegm, heaviness in chest, wheezing, head bends backwards ameliorates, hereditary (maternal side)",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 10M, 1 dose each"
+      }
+    ],
+    "Abdomen": [
+      {
+        "symptom": "Occasional acidity",
+        "labels": {
+          "Area": "Abdomen",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "With heaviness of abdomen",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 10M, 1 dose each"
+      },
+      {
+        "symptom": "Constipation",
+        "labels": {
+          "Area": "Abdomen",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Hard, knotty stool",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 10M, 1 dose each"
+      }
+    ],
+    "Head": [
+      {
+        "symptom": "Frontal headache",
+        "labels": {
+          "Area": "Head",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Better lying down with head low, heat on vertex",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 10M, 1 dose each"
+      }
+    ],
+    "Nose": [
+      {
+        "symptom": "Stoppage of left nose",
+        "labels": {
+          "Area": "Nose",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 10M, 1 dose each"
+      }
+    ],
+    "Throat": [
+      {
+        "symptom": "Occasional throat pain",
+        "labels": {
+          "Area": "Throat",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Better by gurgling",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 10M, 1 dose each"
+      }
+    ],
+    "Skin": [
+      {
+        "symptom": "Eruptions on right palm",
+        "labels": {
+          "Area": "Right palm",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 10M, 1 dose each"
+      }
+    ],
+    "Neurological": [
+      {
+        "symptom": "Giddiness",
+        "labels": {
+          "Area": "Neurological",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Started with pain in spinal cord and upper body, bending forward from waist",
+          "Extension": "None"
+        },
+        "dose": "200C, 1M, 10M, 1 dose each"
+      }
+    ]
+  },
+  "Secale Cornutum": {
+    "Extremities": [
+      {
+        "symptom": "Sluggish circulation with coldness",
+        "labels": {
+          "Area": "Extremities, fingers",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Peculiar shiny wrinkly effect on skin of left ring finger, progressing to right hand ring and little fingers",
+          "Extension": "None"
+        },
+        "dose": "30, daily"
+      }
+    ]
+  },
+  "Carbo Vegetabilis": {
+    "Extremities": [
+      {
+        "symptom": "Sluggish circulation with coldness",
+        "labels": {
+          "Area": "Extremities, fingers, calves, legs",
+          "Intensity/Severity": "High",
+          "Modalities": "Pain in calves and legs after exertion, cramps after ploughing or walking, shiny wrinkly skin on fingers, improved to normal skin and circulation, restored ability to wear ring, improved warmth and health of left finger",
+          "Extension": "None"
+        },
+        "dose": "30, daily for years"
+      },
+      {
+        "symptom": "Arterial blockage",
+        "labels": {
+          "Area": "Extremities, fingers, toes",
+          "Intensity/Severity": "High",
+          "Modalities": "History of amputations for dry gangrene of toes, shrivelled fingers and toes, restored normal circulation and health",
+          "Extension": "None"
+        },
+        "dose": "30, daily for 6-7 years"
+      }
+    ]
+  },
+  "Natrum Carbonicum": {
+    "Joints": [
+      {
+        "symptom": "Tendency for ankle dislocation or sprain",
+        "labels": {
+          "Area": "Ankle",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Removed by treatment",
+          "Extension": "None"
+        },
+        "dose": "1000, single dose"
+      }
+    ]
+  },
+  "Sulphur": {
+    "Joints": [
+      {
+        "symptom": "Rheumatism",
+        "labels": {
+          "Area": "Major joints",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Reddish rash, slightly itching and burning around affected joints, patient not chilly, regular appetite and evacuations",
+          "Extension": "None"
+        },
+        "dose": "6, daily for over 10 years; 200, one dose every week; 200, one dose every 2 weeks"
+      },
+      {
+        "symptom": "Rheumatism and arthritis",
+        "labels": {
+          "Area": "Fingers, wrists, ankles, toes",
+          "Intensity/Severity": "High",
+          "Modalities": "Stiffness, swelling, pain, worse in cold air, winter, motion, morning, better from warmth",
+          "Extension": "None"
+        },
+        "dose": "200, one dose every 2 weeks"
+      },
+      {
+        "symptom": "Rheumatic fever with stiff small joints",
+        "labels": {
+          "Area": "Small joints, hip, back",
+          "Intensity/Severity": "High",
+          "Modalities": "Swollen, painful to touch and pressure, fever in evening after exertion, lame gait due to hip pain, worse in morning and cold damp weather, better from warmth",
+          "Extension": "None"
+        },
+        "dose": "200, one dose every week"
+      },
+      {
+        "symptom": "Chronic rheumatic arthritis",
+        "labels": {
+          "Area": "Joints",
+          "Intensity/Severity": "High",
+          "Modalities": "Worse in cold wet air, overdrugged with allopathy, recurring attacks",
+          "Extension": "None"
+        },
+        "dose": "200, one dose as intercurrent"
+      }
+    ]
+  },
+  "Aurum Muriaticum Natronatum": {
+    "Female": [
+      {
+        "symptom": "Infertility",
+        "labels": {
+          "Area": "Female reproductive",
+          "Intensity/Severity": "High",
+          "Modalities": "No menstrual period since March 1982, positive pregnancy test in June 1982, first pregnancy after 15 years of marriage, normal delivery of healthy boy at age 42",
+          "Extension": "None"
+        },
+        "dose": "6x, regularly from November 1979"
+      }
+    ]
+  },
+  "Ornithogalum": {
+    "Abdomen": [
+      {
+        "symptom": "Stomach cancer",
+        "labels": {
+          "Area": "Stomach",
+          "Intensity/Severity": "High",
+          "Modalities": "Writhing in agony, unable to retain food long, better by warm foods, worse by cold drinks, pains worse at night, spreading to hands and between shoulders, visible bulging beneath diaphragm to scrobiculus cordis",
+          "Extension": "Hands, between shoulders"
+        },
+        "dose": "Single dose"
+      }
+    ]
+  },
+  "Myristica Sebifera": {
+    "Joints": [
+      {
+        "symptom": "Inflammation with pus",
+        "labels": {
+          "Area": "Knee, shoulder",
+          "Intensity/Severity": "High",
+          "Modalities": "Knee inflammation with doughy swelling, pus in joint, ankylosed knee post-treatment; shoulder joint full of pus, painful spot on scapula, no suppuration after 10 days, normal joint size",
+          "Extension": "None"
+        },
+        "dose": "3x, 5 drops three times daily for months"
+      }
+    ]
+  },
+  "Calcarea Hypophosphorosa": {
+    "Joints": [
+      {
+        "symptom": "Abscesses around knee joint",
+        "labels": {
+          "Area": "Knee, tibia",
+          "Intensity/Severity": "High",
+          "Modalities": "Multiple abscesses, ulceration attacking tibia, half eaten off, ragged necrosed bone protruding, patient emaciated, no appetite, pale, complete recovery except bent tibia",
+          "Extension": "Tibia"
+        },
+        "dose": "1st trituration, 1 grain daily"
+      }
+    ]
+  },
+  "Ferrum Metallicum": {
+    "Joints": [
+      {
+        "symptom": "Pain and stiffness",
+        "labels": {
+          "Area": "Left shoulder",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Persistent despite treatment, partial relief",
+          "Extension": "None"
+        },
+        "dose": "Not specified"
+      }
+    ]
+  },
+  "Rhus Toxicodendron": {
+    "Joints": [
+      {
+        "symptom": "Pain and stiffness",
+        "labels": {
+          "Area": "Left shoulder",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Persistent despite treatment, partial relief",
+          "Extension": "None"
+        },
+        "dose": "Not specified"
+      },
+      {
+        "symptom": "Rheumatoid arthritis",
+        "labels": {
+          "Area": "Cervical region, lumbo-sacral region, proximal interphalangeal joints (PIP), distal interphalangeal joint (DIJ)",
+          "Intensity/Severity": "High",
+          "Modalities": "Pricking pain in cervical region (left side), stiffness, pain in lumbo-sacral region extending to both lower extremities, pain in PIP joints of both hands, nodes in joints with unbearable pain, worse after lifting heavy weight, worse since humiliation incident, no improvement with acute prescription",
+          "Extension": "Lower extremities, both shoulders"
+        },
+        "dose": "Not specified, acute prescription"
+      }
+    ]
+  },
+  "Bryonia": {
+    "Joints": [
+      {
+        "symptom": "Rheumatic fever with joint pain and swelling",
+        "labels": {
+          "Area": "Joints, muscles",
+          "Intensity/Severity": "High",
+          "Modalities": "Worse from motion, fever 102°F",
+          "Extension": "None"
+        },
+        "dose": "30, every 2 hours; Not specified, acute prescription"
+      },
+      {
+        "symptom": "Chronic rheumatic arthritis",
+        "labels": {
+          "Area": "Joints",
+          "Intensity/Severity": "High",
+          "Modalities": "Worse in cold wet air, overdrugged with allopathy, recurring attacks",
+          "Extension": "None"
+        },
+        "dose": "30, every 4 hours"
+      },
+      {
+        "symptom": "Rheumatoid arthritis",
+        "labels": {
+          "Area": "Cervical region, lumbo-sacral region, proximal interphalangeal joints (PIP), distal interphalangeal joint (DIJ)",
+          "Intensity/Severity": "High",
+          "Modalities": "Pricking pain in cervical region (left side), stiffness, pain in lumbo-sacral region extending to both lower extremities, pain in PIP joints of both hands, nodes in joints with unbearable pain, mild improvement in lumbar pain, cervical pain and PIP pain increased",
+          "Extension": "Lower extremities, both shoulders"
+        },
+        "dose": "Not specified, acute prescription"
+      }
+    ],
+    "General": [
+      {
+        "symptom": "Great weakness",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "High",
+          "Modalities": "Chill and shivering of body",
+          "Extension": "None"
+        },
+        "dose": "30, every 2 hours"
+      },
+      {
+        "symptom": "Great thirst",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "High",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "30, every 2 hours"
+      }
+    ],
+    "Head": [
+      {
+        "symptom": "Violent headache",
+        "labels": {
+          "Area": "Head",
+          "Intensity/Severity": "High",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "30, every 2 hours"
+      }
+    ],
+    "Throat": [
+      {
+        "symptom": "Dryness and constriction",
+        "labels": {
+          "Area": "Throat",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Pain extending to ears",
+          "Extension": "Ears"
+        },
+        "dose": "30, every 2 hours"
+      }
+    ],
+    "Urine": [
+      {
+        "symptom": "Scanty, hot, yellow urine",
+        "labels": {
+          "Area": "Urine",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "30, every 2 hours"
+      }
+    ]
+  },
+  "Gelsemium": {
+    "Joints": [
+      {
+        "symptom": "Rheumatic fever with joint pain and swelling",
+        "labels": {
+          "Area": "Joints, muscles",
+          "Intensity/Severity": "High",
+          "Modalities": "Worse from motion, fever 102°F",
+          "Extension": "None"
+        },
+        "dose": "30, every 2 hours"
+      }
+    ],
+    "General": [
+      {
+        "symptom": "Great weakness",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "High",
+          "Modalities": "Chill and shivering of body",
+          "Extension": "None"
+        },
+        "dose": "30, every 2 hours"
+      }
+    ],
+    "Head": [
+      {
+        "symptom": "Violent headache",
+        "labels": {
+          "Area": "Head",
+          "Intensity/Severity": "High",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "30, every 2 hours"
+      }
+    ],
+    "Throat": [
+      {
+        "symptom": "Dryness and constriction",
+        "labels": {
+          "Area": "Throat",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Pain extending to ears",
+          "Extension": "Ears"
+        },
+        "dose": "30, every 2 hours"
+      }
+    ],
+    "Urine": [
+      {
+        "symptom": "Scanty, hot, yellow urine",
+        "labels": {
+          "Area": "Urine",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "30, every 2 hours"
+      }
+    ]
+  },
+  "Ferrum Phosphoricum": {
+    "Joints": [
+      {
+        "symptom": "Rheumatic fever with joint pain and swelling",
+        "labels": {
+          "Area": "Joints, muscles",
+          "Intensity/Severity": "High",
+          "Modalities": "Worse from motion, fever 102°F",
+          "Extension": "None"
+        },
+        "dose": "6x, every 2 hours"
+      },
+      {
+        "symptom": "Rheumatic fever with stiff small joints",
+        "labels": {
+          "Area": "Small joints, hip",
+          "Intensity/Severity": "High",
+          "Modalities": "Swollen, painful to touch and pressure, fever in evening after exertion, lame gait due to hip pain, worse in morning and cold damp weather, better from warmth",
+          "Extension": "None"
+        },
+        "dose": "6x, every 3-4 hours"
+      },
+      {
+        "symptom": "Chronic rheumatic arthritis",
+        "labels": {
+          "Area": "Joints",
+          "Intensity/Severity": "High",
+          "Modalities": "Worse in cold wet air, overdrugged with allopathy, recurring attacks",
+          "Extension": "None"
+        },
+        "dose": "6x, for 3-4 days"
+      }
+    ]
+  },
+  "Kali Muriaticum": {
+    "Joints": [
+      {
+        "symptom": "Rheumatic fever with joint pain and swelling",
+        "labels": {
+          "Area": "Joints, muscles",
+          "Intensity/Severity": "High",
+          "Modalities": "Worse from motion, fever 102°F",
+          "Extension": "None"
+        },
+        "dose": "6x, every 2 hours"
+      },
+      {
+        "symptom": "Rheumatic fever with stiff small joints",
+        "labels": {
+          "Area": "Small joints, hip",
+          "Intensity/Severity": "High",
+          "Modalities": "Swollen, painful to touch and pressure, fever in evening after exertion, lame gait due to hip pain, worse in morning and cold damp weather, better from warmth",
+          "Extension": "None"
+        },
+        "dose": "6x, every 3-4 hours"
+      },
+      {
+        "symptom": "Chronic rheumatic arthritis",
+        "labels": {
+          "Area": "Joints",
+          "Intensity/Severity": "High",
+          "Modalities": "Worse in cold wet air, overdrugged with allopathy, recurring attacks",
+          "Extension": "None"
+        },
+        "dose": "6x, for 3-4 days"
+      }
+    ]
+  },
+  "Natrum Sulphuricum": {
+    "Joints": [
+      {
+        "symptom": "Rheumatoid arthritis",
+        "labels": {
+          "Area": "Proximal interphalangeal (PIP), metacarpophalangeal (MCP), wrist, elbow, ankle, metatarsophalangeal (MTP) joints",
+          "Intensity/Severity": "High",
+          "Modalities": "Pain, swelling, severe morning stiffness, symmetrical involvement, aggravates in morning, cold and rainy weather, no joint deformity, gradual reduction in intensity during the day",
+          "Extension": "Symmetrical involvement of joints"
+        },
+        "dose": "LM potency, 1 globule of number 10 in 100 ml of distilled water, 16 doses once daily for 256 days; 6x, for 3-4 days"
+      },
+      {
+        "symptom": "Rheumatic fever with joint pain and swelling",
+        "labels": {
+          "Area": "Joints, muscles",
+          "Intensity/Severity": "High",
+          "Modalities": "Worse from motion, fever 102°F",
+          "Extension": "None"
+        },
+        "dose": "6x, every 2 hours"
+      },
+      {
+        "symptom": "Rheumatic fever with stiff small joints",
+        "labels": {
+          "Area": "Small joints, hip",
+          "Intensity/Severity": "High",
+          "Modalities": "Swollen, painful to touch and pressure, fever in evening after exertion, lame gait due to hip pain, worse in morning and cold damp weather, better from warmth",
+          "Extension": "None"
+        },
+        "dose": "6x, every 3-4 hours"
+      }
+    ],
+    "General": [
+      {
+        "symptom": "Chilly patient",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Tendency to catch cold easily, disturbed sleep due to polyarthralgia",
+          "Extension": "None"
+        },
+        "dose": "LM potency, 1 globule of number 10 in 100 ml of distilled water, 16 doses once daily for 256 days"
+      },
+      {
+        "symptom": "Poor appetite",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Frequent spells of indigestion, uses allopathic medication, desire for sweet, sour, meat, aversion to milk, intolerance to fish and aquatic vegetables causing dyspepsia and increased articular pain",
+          "Extension": "None"
+        },
+        "dose": "LM potency, 1 globule of number 10 in 100 ml of distilled water, 16 doses once daily for 256 days"
+      },
+      {
+        "symptom": "Profuse thirst",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "High",
+          "Modalities": "Drinks small quantities frequently",
+          "Extension": "None"
+        },
+        "dose": "LM potency, 1 globule of number 10 in 100 ml of distilled water, 16 doses once daily for 256 days"
+      },
+      {
+        "symptom": "Addiction to chewing tobacco",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "LM potency, 1 globule of number 10 in 100 ml of distilled water, 16 doses once daily for 256 days"
+      }
+    ],
+    "Mental": [
+      {
+        "symptom": "Irritability and impulsiveness",
+        "labels": {
+          "Area": "Mind",
+          "Intensity/Severity": "High",
+          "Modalities": "Tendency to throw things, abuse others, suicidal inclination, introverted, disinclination to speak, good memory",
+          "Extension": "None"
+        },
+        "dose": "LM potency, 1 globule of number 10 in 100 ml of distilled water, 16 doses once daily for 256 days"
+      }
+    ],
+    "Digestive": [
+      {
+        "symptom": "Mucoid stool",
+        "labels": {
+          "Area": "Digestive",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Early morning, very offensive",
+          "Extension": "None"
+        },
+        "dose": "LM potency, 1 globule of number 10 in 100 ml of distilled water, 16 doses once daily for 256 days"
+      },
+      {
+        "symptom": "Dirty tongue and halitosis",
+        "labels": {
+          "Area": "Mouth",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Tongue coated white at base, halitosis throughout the day",
+          "Extension": "None"
+        },
+        "dose": "LM potency, 1 globule of number 10 in 100 ml of distilled water, 16 doses once daily for 256 days"
+      }
+    ],
+    "Urine": [
+      {
+        "symptom": "Clear urine",
+        "labels": {
+          "Area": "Urine",
+          "Intensity/Severity": "Low",
+          "Modalities": "No burning or difficulty",
+          "Extension": "None"
+        },
+        "dose": "LM potency, 1 globule of number 10 in 100 ml of distilled water, 16 doses once daily for 256 days"
+      }
+    ]
+  },
+  "Kalmia": {
+    "General": [
+      {
+        "symptom": "Debility",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "High",
+          "Modalities": "Much anaemic, exhaustion, worse from motion, chilliness",
+          "Extension": "None"
+        },
+        "dose": "30, morning and evening"
+      }
+    ],
+    "Extremities": [
+      {
+        "symptom": "Numbness and flying, shifting pains",
+        "labels": {
+          "Area": "Hands, feet, body",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "30, morning and evening"
+      }
+    ],
+    "Head": [
+      {
+        "symptom": "Headache at vertex",
+        "labels": {
+          "Area": "Head",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "30, morning and evening"
+      }
+    ],
+    "Female": [
+      {
+        "symptom": "Profuse menstruation",
+        "labels": {
+          "Area": "Female reproductive",
+          "Intensity/Severity": "High",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "30, morning and evening"
+      }
+    ],
+    "Cardiovascular": [
+      {
+        "symptom": "Palpitation and tachycardia",
+        "labels": {
+          "Area": "Heart",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "30, morning and evening"
+      }
+    ],
+    "Abdomen": [
+      {
+        "symptom": "Wind in stomach and abdomen",
+        "labels": {
+          "Area": "Abdomen",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "30, morning and evening"
+      }
+    ]
+  },
+  "China": {
+    "General": [
+      {
+        "symptom": "Debility",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "High",
+          "Modalities": "Much anaemic, exhaustion, worse from motion, chilliness",
+          "Extension": "None"
+        },
+        "dose": "30, after meals"
+      }
+    ],
+    "Extremities": [
+      {
+        "symptom": "Numbness and flying, shifting pains",
+        "labels": {
+          "Area": "Hands, feet, body",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "30, after meals"
+      }
+    ],
+    "Head": [
+      {
+        "symptom": "Headache at vertex",
+        "labels": {
+          "Area": "Head",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "30, after meals"
+      }
+    ],
+    "Female": [
+      {
+        "symptom": "Profuse menstruation",
+        "labels": {
+          "Area": "Female reproductive",
+          "Intensity/Severity": "High",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "30, after meals"
+      }
+    ],
+    "Cardiovascular": [
+      {
+        "symptom": "Palpitation and tachycardia",
+        "labels": {
+          "Area": "Heart",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "30, after meals"
+      }
+    ],
+    "Abdomen": [
+      {
+        "symptom": "Wind in stomach and abdomen",
+        "labels": {
+          "Area": "Abdomen",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "30, after meals"
+      }
+    ]
+  },
+  "Calcarea Phosphorica": {
+    "General": [
+      {
+        "symptom": "Debility",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "High",
+          "Modalities": "Much anaemic, exhaustion, worse from motion, chilliness",
+          "Extension": "None"
+        },
+        "dose": "6x, every 30 minutes after China"
+      }
+    ]
+  },
+  "Kali Phosphoricum": {
+    "General": [
+      {
+        "symptom": "Debility",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "High",
+          "Modalities": "Much anaemic, exhaustion, worse from motion, chilliness",
+          "Extension": "None"
+        },
+        "dose": "6x, every 30 minutes after China"
+      }
+    ]
+  },
+  "Natrum Muriaticum": {
+    "General": [
+      {
+        "symptom": "Debility",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "High",
+          "Modalities": "Much anaemic, exhaustion, worse from motion, chilliness",
+          "Extension": "None"
+        },
+        "dose": "6x, every 30 minutes after China"
+      }
+    ]
+  },
+  "Natrum Phosphoricum": {
+    "General": [
+      {
+        "symptom": "Debility",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "High",
+          "Modalities": "Much anaemic, exhaustion, worse from motion, chilliness",
+          "Extension": "None"
+        },
+        "dose": "6x, every 30 minutes after China"
+      }
+    ]
+  },
+  "Kali Carbonicum": {
+    "Joints": [
+      {
+        "symptom": "Rheumatism and arthritis",
+        "labels": {
+          "Area": "Fingers, wrists, ankles, toes",
+          "Intensity/Severity": "High",
+          "Modalities": "Stiffness, swelling, pain, worse in cold air, winter, motion, morning, better from warmth",
+          "Extension": "None"
+        },
+        "dose": "30, morning and evening"
+      },
+      {
+        "symptom": "Rheumatic fever with stiff small joints",
+        "labels": {
+          "Area": "Small joints, hip, back",
+          "Intensity/Severity": "High",
+          "Modalities": "Swollen, painful to touch and pressure, fever in evening after exertion, lame gait due to hip pain, worse in morning and cold damp weather, better from warmth",
+          "Extension": "None"
+        },
+        "dose": "30, morning and evening"
+      }
+    ],
+    "Abdomen": [
+      {
+        "symptom": "Constipation",
+        "labels": {
+          "Area": "Abdomen",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Painful bleeding fissure of anus",
+          "Extension": "None"
+        },
+        "dose": "30, morning and evening"
+      }
+    ],
+    "General": [
+      {
+        "symptom": "Desire for sweets",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "30, morning and evening"
+      }
+    ]
+  },
+  "Colchicum": {
+    "Joints": [
+      {
+        "symptom": "Rheumatism and arthritis",
+        "labels": {
+          "Area": "Fingers, wrists, ankles, toes",
+          "Intensity/Severity": "High",
+          "Modalities": "Stiffness, swelling, pain, worse in cold air, winter, motion, morning, better from warmth",
+          "Extension": "None"
+        },
+        "dose": "30, every 2-3 hours; 30, every 4 hours"
+      },
+      {
+        "symptom": "Chronic rheumatic arthritis",
+        "labels": {
+          "Area": "Joints",
+          "Intensity/Severity": "High",
+          "Modalities": "Worse in cold wet air, overdrugged with allopathy, recurring attacks",
+          "Extension": "None"
+        },
+        "dose": "30, every 4 hours"
+      }
+    ],
+    "Abdomen": [
+      {
+        "symptom": "Constipation",
+        "labels": {
+          "Area": "Abdomen",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Painful bleeding fissure of anus",
+          "Extension": "None"
+        },
+        "dose": "30, every 2-3 hours"
+      }
+    ],
+    "General": [
+      {
+        "symptom": "Desire for sweets",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "None",
+          "Extension": "None"
+        },
+        "dose": "30, every 2-3 hours"
+      }
+    ]
+  },
+  "Calcarea Fluorica": {
+    "Joints": [
+      {
+        "symptom": "Rheumatism and arthritis",
+        "labels": {
+          "Area": "Fingers, wrists, ankles, toes",
+          "Intensity/Severity": "High",
+          "Modalities": "Stiffness, swelling, pain, worse in cold air, winter, motion, morning, better from warmth",
+          "Extension": "None"
+        },
+        "dose": "6x, every 2-3 hours; 6x, for 15 days"
+      },
+      {
+        "symptom": "Chronic rheumatic arthritis",
+        "labels": {
+          "Area": "Joints",
+          "Intensity/Severity": "High",
+          "Modalities": "Worse in cold wet air, overdrugged with allopathy, recurring attacks",
+          "Extension": "None"
+        },
+        "dose": "6x, for 15 days"
+      }
+    ]
+  },
+  "Kali Sulphuricum": {
+    "Joints": [
+      {
+        "symptom": "Rheumatic fever with stiff small joints",
+        "labels": {
+          "Area": "Small joints, hip, back",
+          "Intensity/Severity": "High",
+          "Modalities": "Swollen, painful to touch and pressure, fever in evening after exertion, lame gait due to hip pain, worse in morning and cold damp weather, better from warmth",
+          "Extension": "None"
+        },
+        "dose": "6x, every 3-4 hours"
+      },
+      {
+        "symptom": "Chronic rheumatic arthritis",
+        "labels": {
+          "Area": "Joints",
+          "Intensity/Severity": "High",
+          "Modalities": "Worse in cold wet air, overdrugged with allopathy, recurring attacks",
+          "Extension": "None"
+        },
+        "dose": "6x, for 3-4 days"
+      }
+    ]
+  },
+  "Phytolacca": {
+    "Joints": [
+      {
+        "symptom": "Rheumatic fever with stiff small joints",
+        "labels": {
+          "Area": "Small joints, hip, back",
+          "Intensity/Severity": "High",
+          "Modalities": "Swollen, painful to touch and pressure, fever in evening after exertion, lame gait due to hip pain, worse in morning and cold damp weather, better from warmth",
+          "Extension": "None"
+        },
+        "dose": "30, every 3-4 hours"
+      },
+      {
+        "symptom": "Chronic rheumatic arthritis",
+        "labels": {
+          "Area": "Joints",
+          "Intensity/Severity": "High",
+          "Modalities": "Worse in cold wet air, overdrugged with allopathy, recurring attacks",
+          "Extension": "None"
+        },
+        "dose": "30, for 15 days"
+      }
+    ]
+  },
+  "Ruta": {
+    "Joints": [
+      {
+        "symptom": "Chronic rheumatic arthritis",
+        "labels": {
+          "Area": "Joints",
+          "Intensity/Severity": "High",
+          "Modalities": "Worse in cold wet air, overdrugged with allopathy, recurring attacks, swelling and pain after exertion",
+          "Extension": "None"
+        },
+        "dose": "30, for 15 days and as needed"
+      }
+    ]
+  },
+  "Cimicifuga": {
+    "Joints": [
+      {
+        "symptom": "Chronic rheumatic arthritis",
+        "labels": {
+          "Area": "Joints",
+          "Intensity/Severity": "High",
+          "Modalities": "Worse in cold wet air, overdrugged with allopathy, recurring attacks",
+          "Extension": "None"
+        },
+        "dose": "30, every 4 hours; Not specified, acute prescription"
+      },
+      {
+        "symptom": "Rheumatoid arthritis",
+        "labels": {
+          "Area": "Cervical region, lumbo-sacral region, proximal interphalangeal joints (PIP), distal interphalangeal joint (DIJ)",
+          "Intensity/Severity": "High",
+          "Modalities": "Pricking pain in cervical region (left side), stiffness, pain in lumbo-sacral region extending to both lower extremities, pain in PIP joints of both hands, nodes in joints with unbearable pain, 25% improvement but symptoms persist",
+          "Extension": "Lower extremities, both shoulders"
+        },
+        "dose": "Not specified, acute prescription"
+      }
+    ]
+  },
+  "Guaiacum": {
+    "Joints": [
+      {
+        "symptom": "Chronic rheumatic arthritis",
+        "labels": {
+          "Area": "Joints",
+          "Intensity/Severity": "High",
+          "Modalities": "Worse in cold wet air, overdrugged with allopathy, recurring attacks",
+          "Extension": "None"
+        },
+        "dose": "30, every 4 hours"
+      }
+    ]
+  },
+  "Staphysagria": {
+    "Joints": [
+      {
+        "symptom": "Rheumatoid arthritis",
+        "labels": {
+          "Area": "Cervical region, lumbo-sacral region, proximal interphalangeal joints (PIP), distal interphalangeal joint (DIJ)",
+          "Intensity/Severity": "High",
+          "Modalities": "Pricking pain in cervical region (left side), stiffness, pain in lumbo-sacral region extending to both lower extremities, pain in PIP joints of both hands, nodes in joints with unbearable pain, worse after lifting heavy weight, worse since humiliation incident, swelling in DIJ of left index finger, swan neck deformity, tenderness in swelling and PIP joints, marked improvement with constitutional treatment, reduced node formation, 75% symptom reduction, DAS-28 ESR reduced from 4.8 to 2.5 (remission)",
+          "Extension": "Lower extremities, both shoulders"
+        },
+        "dose": "200, alternate days; 1M, daily doses"
+      }
+    ],
+    "General": [
+      {
+        "symptom": "Hot patient",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Desires open air, aggravated by lying on left side, ameliorated by lying on right side, good appetite, thirst for 5 liters/day, no dryness",
+          "Extension": "None"
+        },
+        "dose": "200, alternate days; 1M, daily doses"
+      },
+      {
+        "symptom": "Disturbed sleep",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Due to pain",
+          "Extension": "None"
+        },
+        "dose": "200, alternate days; 1M, daily doses"
+      },
+      {
+        "symptom": "Alcohol addiction",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Rum or brandy weekly, worsens symptoms when stopped",
+          "Extension": "None"
+        },
+        "dose": "200, alternate days; 1M, daily doses"
+      }
+    ],
+    "Mental": [
+      {
+        "symptom": "Suppression of anger and emotions",
+        "labels": {
+          "Area": "Mind",
+          "Intensity/Severity": "High",
+          "Modalities": "Sentimental, yielding, loyal, courageous, suicidal tendency, feels betrayed, workaholic, complaints after mortification",
+          "Extension": "None"
+        },
+        "dose": "200, alternate days; 1M, daily doses"
+      }
+    ],
+    "Sexual": [
+      {
+        "symptom": "Pain during intercourse",
+        "labels": {
+          "Area": "Penis",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Pain more on ejaculation, suppressed to satisfy wife",
+          "Extension": "None"
+        },
+        "dose": "200, alternate days; 1M, daily doses"
+      }
+    ],
+    "Cardiovascular": [
+      {
+        "symptom": "Palpitation and paralysis",
+        "labels": {
+          "Area": "Heart, left side of body",
+          "Intensity/Severity": "High",
+          "Modalities": "Developed at age 58 after insult, resolved after 1 month of conventional treatment",
+          "Extension": "Whole left side of body"
+        },
+        "dose": "200, alternate days; 1M, daily doses"
+      }
+    ],
+    "Ear": [
+      {
+        "symptom": "Blockage of left ear",
+        "labels": {
+          "Area": "Ear",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Triggered by increased neck pain, no history of CSOM, ASOM, or tinnitus",
+          "Extension": "None"
+        },
+        "dose": "200, alternate days; 1M, daily doses"
+      }
+    ]
+  },
+  "Thuja Occidentalis": {
+    "Joints": [
+      {
+        "symptom": "Rheumatoid arthritis",
+        "labels": {
+          "Area": "Proximal interphalangeal (PIP), metacarpophalangeal (MCP), wrist, elbow, ankle, metatarsophalangeal (MTP) joints",
+          "Intensity/Severity": "High",
+          "Modalities": "Persistent pain in elbow and ankle, left side more painful, worse at rest and during damp weather, especially rainfall, marked improvement in pain and stiffness, no swelling in joints, patient able to pursue daily activities without pain",
+          "Extension": "Symmetrical involvement of joints"
+        },
+        "dose": "LM potency, 1 globule in 100 ml of distilled water, one teaspoonful in the morning without stroke for 192 days"
+      }
+    ],
+    "General": [
+      {
+        "symptom": "Chilly patient",
+        "labels": {
+          "Area": "General",
+          "Intensity/Severity": "Moderate",
+          "Modalities": "Persistent sleeplessness, frightful dreams especially of dead persons",
+          "Extension": "None"
+        },
+        "dose": "LM potency, 1 globule in 100 ml of distilled water, one teaspoonful in the morning without stroke for 192 days"
+      }
+    ]
+  }
+}

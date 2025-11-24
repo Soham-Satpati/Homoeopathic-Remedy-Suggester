@@ -1,0 +1,6 @@
+streamlit
+pickle
+pandas
+sentence_transformers
+DateTime
+pypi-json

@@ -1,0 +1,197 @@
+[
+  {
+    "cluster_id": 118,
+    "size": 25,
+    "unique_remedies": 3,
+    "unique_categories": 5,
+    "remedies": [
+      "aesculus hipp curiosidadocastanum",
+      "menyanthes trifoliata",
+      "osmium"
+    ],
+    "categories": [
+      "superior extremities",
+      "concomitants",
+      "extremities in general",
+      "inferior extremities",
+      "neck and back"
+    ],
+    "symptoms": [
+      {
+        "remedy": "aesculus hipp curiosidadocastanum",
+        "category": "superior extremities",
+        "symptom": "cracked hand skin",
+        "area": null,
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "concomitants",
+        "symptom": "coldness of abdomen",
+        "area": "abdomen",
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "concomitants",
+        "symptom": "icy coldness of hands and feet",
+        "area": "hands",
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "concomitants",
+        "symptom": "warmth of rest of the body",
+        "area": null,
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "concomitants",
+        "symptom": "anxiety about heart",
+        "area": null,
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "concomitants",
+        "symptom": "apprehension of evil",
+        "area": null,
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "extremities in general",
+        "symptom": "stinging pinching cramping pains",
+        "area": null,
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "inferior extremities",
+        "symptom": "stitching contractive pain in region of hip joint",
+        "area": null,
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "inferior extremities",
+        "symptom": "legs spasmodically jerked upward when sitting",
+        "area": "legs",
+        "modalities": "when sitting"
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "inferior extremities",
+        "symptom": "pain better by motion and pressure",
+        "area": null,
+        "modalities": "better by motion and pressure"
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "inferior extremities",
+        "symptom": "pain better by motion and pressure",
+        "area": null,
+        "modalities": "better by motion and pressure"
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "inferior extremities",
+        "symptom": "cramp-like pain in muscles of right leg",
+        "area": null,
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "inferior extremities",
+        "symptom": "painful spasmodic jerking of lower limbs in gouty people",
+        "area": null,
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "inferior extremities",
+        "symptom": "calcareous deposits in joints",
+        "area": null,
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "neck and back",
+        "symptom": "stiffness in muscles of neck and throat",
+        "area": "neck",
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "neck and back",
+        "symptom": "dull boring stitches in left shoulder blade",
+        "area": "neck and back",
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "neck and back",
+        "symptom": "bruised pain in small of back",
+        "area": "small of back",
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "neck and back",
+        "symptom": "bruised pain worse stooping and walking",
+        "area": "neck and back",
+        "modalities": "worse stooping and walking"
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "neck and back",
+        "symptom": "pain in back when sitting still",
+        "area": "back",
+        "modalities": "when sitting still"
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "neck and back",
+        "symptom": "pain disappears on touching it",
+        "area": "neck and back",
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "superior extremities",
+        "symptom": "muscular twitches in right upper arm",
+        "area": null,
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "superior extremities",
+        "symptom": "cramp-like pain in muscles of left forearm extending to palm of hand",
+        "area": null,
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "superior extremities",
+        "symptom": "tension and paralytic tearing in arms hands and fingers",
+        "area": "fingers",
+        "modalities": null
+      },
+      {
+        "remedy": "menyanthes trifoliata",
+        "category": "superior extremities",
+        "symptom": "spasmodic stiffness of arms and fingers",
+        "area": "fingers",
+        "modalities": null
+      },
+      {
+        "remedy": "osmium",
+        "category": "concomitants",
+        "symptom": "irritation of respiratory passages",
+        "area": null,
+        "modalities": null
+      }
+    ]
+  }
+]

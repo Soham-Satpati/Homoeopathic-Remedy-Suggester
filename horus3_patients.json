@@ -1,0 +1,70 @@
+{
+  "PT-001": [
+    {
+      "timestamp": "2025-11-20 16:16",
+      "core": [
+        "morning joint stiffness with cracking sensation",
+        "aching knees worse in damp cold weather",
+        "lower-back pain relieved by slow continued movement but worse after inactivity",
+        "swollen and tender finger joints with reduced grip strength",
+        "shifting joint pains from knees to ankles",
+        "muscle soreness after minimal exertion",
+        "heaviness in limbs especially in the evening",
+        "irritability during pain episodes",
+        "difficulty concentrating when joint stiffness increases",
+        "mild anxiety about worsening mobility",
+        "mental fatigue disproportionate to physical activity",
+        "restlessness when pain worsens at night",
+        "fatigue that increases after exposure to cold wind",
+        "sluggishness on waking despite adequate sleep",
+        "symptoms aggravated by cold and damp conditions",
+        "temporary relief with warmth and gentle stretching",
+        "periodic worsening of symptoms at night or early morning"
+      ],
+      "pattern": [],
+      "top10": [
+        [
+          "actea spicata",
+          12
+        ],
+        [
+          "sepia",
+          12
+        ],
+        [
+          "medorrhinum",
+          12
+        ],
+        [
+          "carbo vegetabilis",
+          12
+        ],
+        [
+          "petroleum",
+          12
+        ],
+        [
+          "nux moschata",
+          11
+        ],
+        [
+          "chamomilla",
+          11
+        ],
+        [
+          "capsicum",
+          11
+        ],
+        [
+          "cimicifuga",
+          11
+        ],
+        [
+          "nitric acid",
+          11
+        ]
+      ],
+      "mode": "expansion"
+    }
+  ]
+}

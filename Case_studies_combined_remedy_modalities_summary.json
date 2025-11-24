@@ -1,0 +1,260 @@
+[
+  {
+    "cluster_id": 1,
+    "size": 32,
+    "unique_remedies": 10,
+    "unique_categories": 12,
+    "remedies": [
+      "Pulsatilla",
+      "Arnica Montana",
+      "Bryonia",
+      "Gelsemium",
+      "Natrum Sulphuricum",
+      "Kalmia",
+      "China",
+      "Kali Carbonicum",
+      "Colchicum",
+      "Staphysagria"
+    ],
+    "categories": [
+      "General",
+      "Skin",
+      "Neurological",
+      "Nose",
+      "Joints",
+      "Head",
+      "Urine",
+      "Throat",
+      "Extremities",
+      "Female",
+      "Cardiovascular",
+      "Abdomen"
+    ],
+    "symptoms": [
+      {
+        "remedy": "Pulsatilla",
+        "category": "General",
+        "symptom": "Profuse sweat",
+        "area": "General",
+        "modalities": "Offensive odor"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "Skin",
+        "symptom": "Acne",
+        "area": "Forehead, cheeks, nape, back",
+        "modalities": "Occasional itching"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "Skin",
+        "symptom": "Itching on soles",
+        "area": "Soles of both legs",
+        "modalities": "Bleeds slightly after scratching"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "Neurological",
+        "symptom": "Trembling of hands",
+        "area": "Hands",
+        "modalities": "During fever"
+      },
+      {
+        "remedy": "Arnica Montana",
+        "category": "Nose",
+        "symptom": "Stoppage of left nose",
+        "area": "Nose",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Arnica Montana",
+        "category": "Skin",
+        "symptom": "Eruptions on right palm",
+        "area": "Right palm",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Bryonia",
+        "category": "Joints",
+        "symptom": "Rheumatic fever with joint pain and swelling",
+        "area": "Joints, muscles",
+        "modalities": "Worse from motion, fever 102\u00b0F"
+      },
+      {
+        "remedy": "Bryonia",
+        "category": "General",
+        "symptom": "Great thirst",
+        "area": "General",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Bryonia",
+        "category": "Head",
+        "symptom": "Violent headache",
+        "area": "Head",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Bryonia",
+        "category": "Urine",
+        "symptom": "Scanty, hot, yellow urine",
+        "area": "Urine",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Gelsemium",
+        "category": "Joints",
+        "symptom": "Rheumatic fever with joint pain and swelling",
+        "area": "Joints, muscles",
+        "modalities": "Worse from motion, fever 102\u00b0F"
+      },
+      {
+        "remedy": "Gelsemium",
+        "category": "Head",
+        "symptom": "Violent headache",
+        "area": "Head",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Gelsemium",
+        "category": "Throat",
+        "symptom": "Dryness and constriction",
+        "area": "Throat",
+        "modalities": "Pain extending to ears"
+      },
+      {
+        "remedy": "Gelsemium",
+        "category": "Urine",
+        "symptom": "Scanty, hot, yellow urine",
+        "area": "Urine",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Natrum Sulphuricum",
+        "category": "Joints",
+        "symptom": "Rheumatic fever with joint pain and swelling",
+        "area": "Joints, muscles",
+        "modalities": "Worse from motion, fever 102\u00b0F"
+      },
+      {
+        "remedy": "Natrum Sulphuricum",
+        "category": "General",
+        "symptom": "Profuse thirst",
+        "area": "General",
+        "modalities": "Drinks small quantities frequently"
+      },
+      {
+        "remedy": "Natrum Sulphuricum",
+        "category": "General",
+        "symptom": "Addiction to chewing tobacco",
+        "area": "General",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Kalmia",
+        "category": "Extremities",
+        "symptom": "Numbness and flying, shifting pains",
+        "area": "Hands, feet, body",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Kalmia",
+        "category": "Head",
+        "symptom": "Headache at vertex",
+        "area": "Head",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Kalmia",
+        "category": "Female",
+        "symptom": "Profuse menstruation",
+        "area": "Female reproductive",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Kalmia",
+        "category": "Cardiovascular",
+        "symptom": "Palpitation and tachycardia",
+        "area": "Heart",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Kalmia",
+        "category": "Abdomen",
+        "symptom": "Wind in stomach and abdomen",
+        "area": "Abdomen",
+        "modalities": "None"
+      },
+      {
+        "remedy": "China",
+        "category": "Extremities",
+        "symptom": "Numbness and flying, shifting pains",
+        "area": "Hands, feet, body",
+        "modalities": "None"
+      },
+      {
+        "remedy": "China",
+        "category": "Head",
+        "symptom": "Headache at vertex",
+        "area": "Head",
+        "modalities": "None"
+      },
+      {
+        "remedy": "China",
+        "category": "Female",
+        "symptom": "Profuse menstruation",
+        "area": "Female reproductive",
+        "modalities": "None"
+      },
+      {
+        "remedy": "China",
+        "category": "Cardiovascular",
+        "symptom": "Palpitation and tachycardia",
+        "area": "Heart",
+        "modalities": "None"
+      },
+      {
+        "remedy": "China",
+        "category": "Abdomen",
+        "symptom": "Wind in stomach and abdomen",
+        "area": "Abdomen",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Kali Carbonicum",
+        "category": "Abdomen",
+        "symptom": "Constipation",
+        "area": "Abdomen",
+        "modalities": "Painful bleeding fissure of anus"
+      },
+      {
+        "remedy": "Kali Carbonicum",
+        "category": "General",
+        "symptom": "Desire for sweets",
+        "area": "General",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Colchicum",
+        "category": "Abdomen",
+        "symptom": "Constipation",
+        "area": "Abdomen",
+        "modalities": "Painful bleeding fissure of anus"
+      },
+      {
+        "remedy": "Colchicum",
+        "category": "General",
+        "symptom": "Desire for sweets",
+        "area": "General",
+        "modalities": "None"
+      },
+      {
+        "remedy": "Staphysagria",
+        "category": "General",
+        "symptom": "Disturbed sleep",
+        "area": "General",
+        "modalities": "Due to pain"
+      }
+    ]
+  }
+]
