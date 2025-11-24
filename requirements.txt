@@ -1,6 +1,7 @@
 streamlit
 pickle
 pandas
-sentence_transformers
+sentence-transformers
 DateTime
 pypi-json
+
