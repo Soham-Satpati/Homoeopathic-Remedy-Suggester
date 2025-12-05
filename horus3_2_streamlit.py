@@ -146,7 +146,7 @@ with tab1:
         st.sidebar.success("Weights locked for this case")
 
     # =============================================
-    # THREE SYMPTOM CATEGORIES
+    # STEP 1: THREE SYMPTOM CATEGORIES
     # =============================================
     st.header("1. Enter Patient Symptoms")
     col1, col2, col3 = st.columns(3)
@@ -160,7 +160,7 @@ with tab1:
         st.subheader("General Symptoms")
         general_txt = st.text_area("e.g. worse cold, thirstless, desires company", height=140, key="gen")
 
-    # NEW: Three navigation buttons after initial entry
+    # NEW: Three navigation buttons after entering symptoms
     if st.session_state.step == 1:
         st.markdown("---")
         st.subheader("Choose Next Action")
@@ -224,7 +224,7 @@ with tab1:
         st.stop()
 
     # =============================================
-    # REFINEMENT WITH CHAPTER MATCHES
+    # STEP 2: REFINEMENT WITH CHAPTER MATCHES
     # =============================================
     if st.session_state.step >= 2:
         st.header("2. Refine Symptoms (Optional)")
@@ -251,18 +251,6 @@ with tab1:
                         if sc > 0.58 and rubric not in seen:
                             chapter_matches[chap].append((rubric, float(sc), user_sym))
                             seen.add(rubric)
-
-        chapter_stats = {chap: len(items) for chap, items in chapter_matches.items() if items}
-        sorted_chapters = sorted(chapter_stats.items(), key=lambda x: x[1], reverse=True)
-
-        if sorted_chapters:
-            st.write(f"**{len(sorted_chapters)} chapters** have matching rubrics:")
-            cols = st.columns(4)
-            for i, (chap, count) in enumerate(sorted_chapters):
-                with cols[i % 4]:
-                    st.metric(chap.title(), f"{count} matches")
-        else:
-            st.info("No strong matches found — using original symptoms")
 
         st.markdown("---")
         refined_count = 0
@@ -294,7 +282,7 @@ with tab1:
         st.session_state.selected_keywords = core_symptoms
         st.success(f"**{len(core_symptoms)} core symptoms ready** ({refined_count} refined)")
 
-        # NEW: Button to proceed to pattern discovery after refinement
+        # NEW: Button to continue after refinement
         if st.session_state.step == 2:
             st.markdown("---")
             btn_col1, btn_col2 = st.columns(2)
@@ -312,7 +300,7 @@ with tab1:
             st.stop()
 
     # =============================================
-    # HIDDEN PATTERN DISCOVERY (FULLY WORKING)
+    # STEP 3: HIDDEN PATTERN DISCOVERY (FULLY WORKING)
     # =============================================
     if st.session_state.step >= 3:
         st.divider()
@@ -369,7 +357,7 @@ with tab1:
             st.stop()
 
     # =============================================
-    # FINAL REPORT — COVERAGE + WEIGHTED
+    # STEP 4: FINAL REPORT — COVERAGE + WEIGHTED
     # =============================================
     if st.session_state.step >= 4:
         st.divider()
