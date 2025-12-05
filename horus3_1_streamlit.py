@@ -146,7 +146,7 @@ with tab1:
         st.sidebar.success("Weights locked for this case")
 
     # =============================================
-    # STEP 1: THREE SYMPTOM CATEGORIES
+    # THREE SYMPTOM CATEGORIES
     # =============================================
     st.header("1. Enter Patient Symptoms")
     col1, col2, col3 = st.columns(3)
@@ -160,14 +160,14 @@ with tab1:
         st.subheader("General Symptoms")
         general_txt = st.text_area("e.g. worse cold, thirstless, desires company", height=140, key="gen")
 
-    # NEW: Three navigation buttons after Step 1
+    # NEW: Three navigation buttons after initial entry
     if st.session_state.step == 1:
         st.markdown("---")
-        st.subheader("Choose Next Step")
+        st.subheader("Choose Next Action")
         btn_col1, btn_col2, btn_col3 = st.columns(3)
         
         with btn_col1:
-            if st.button("🔍 Step 2: Refine Symptoms", type="primary", use_container_width=True):
+            if st.button("🔍 Refine Symptoms", type="primary", use_container_width=True):
                 phys = [s.strip() for s in physical_txt.replace('\n', ',').split(',') if s.strip()]
                 psych = [s.strip() for s in psycho_txt.replace('\n', ',').split(',') if s.strip()]
                 gen = [s.strip() for s in general_txt.replace('\n', ',').split(',') if s.strip()]
@@ -184,7 +184,7 @@ with tab1:
                 st.rerun()
         
         with btn_col2:
-            if st.button("🔬 Step 3: Discover Patterns", type="primary", use_container_width=True):
+            if st.button("🔬 Discover Patterns", type="primary", use_container_width=True):
                 phys = [s.strip() for s in physical_txt.replace('\n', ',').split(',') if s.strip()]
                 psych = [s.strip() for s in psycho_txt.replace('\n', ',').split(',') if s.strip()]
                 gen = [s.strip() for s in general_txt.replace('\n', ',').split(',') if s.strip()]
@@ -203,7 +203,7 @@ with tab1:
                 st.rerun()
         
         with btn_col3:
-            if st.button("📊 Step 4: Generate Report", type="primary", use_container_width=True):
+            if st.button("📊 Generate Report", type="primary", use_container_width=True):
                 phys = [s.strip() for s in physical_txt.replace('\n', ',').split(',') if s.strip()]
                 psych = [s.strip() for s in psycho_txt.replace('\n', ',').split(',') if s.strip()]
                 gen = [s.strip() for s in general_txt.replace('\n', ',').split(',') if s.strip()]
@@ -224,7 +224,7 @@ with tab1:
         st.stop()
 
     # =============================================
-    # STEP 2: REFINEMENT WITH CHAPTER MATCHES
+    # REFINEMENT WITH CHAPTER MATCHES
     # =============================================
     if st.session_state.step >= 2:
         st.header("2. Refine Symptoms (Optional)")
@@ -294,25 +294,25 @@ with tab1:
         st.session_state.selected_keywords = core_symptoms
         st.success(f"**{len(core_symptoms)} core symptoms ready** ({refined_count} refined)")
 
-        # NEW: Button to proceed to Step 3 after Step 2
+        # NEW: Button to proceed to pattern discovery after refinement
         if st.session_state.step == 2:
             st.markdown("---")
             btn_col1, btn_col2 = st.columns(2)
             
             with btn_col1:
-                if st.button("🔬 Continue to Step 3: Discover Patterns", type="primary", use_container_width=True):
+                if st.button("🔬 Continue to Discover Patterns", type="primary", use_container_width=True):
                     st.session_state.step = 3
                     st.rerun()
             
             with btn_col2:
-                if st.button("📊 Skip to Step 4: Generate Report", type="secondary", use_container_width=True):
+                if st.button("📊 Skip to Generate Report", type="secondary", use_container_width=True):
                     st.session_state.step = 4
                     st.rerun()
             
             st.stop()
 
     # =============================================
-    # STEP 3: HIDDEN PATTERN DISCOVERY (FULLY WORKING)
+    # HIDDEN PATTERN DISCOVERY (FULLY WORKING)
     # =============================================
     if st.session_state.step >= 3:
         st.divider()
@@ -359,17 +359,17 @@ with tab1:
                 st.session_state.report_generated = False
                 st.rerun()
         
-        # Button to proceed to Step 4
+        # Button to proceed to final report
         if st.session_state.step == 3:
             st.markdown("---")
-            if st.button("📊 Continue to Step 4: Generate Report", type="primary", use_container_width=True):
+            if st.button("📊 Continue to Generate Report", type="primary", use_container_width=True):
                 st.session_state.step = 4
                 st.rerun()
             
             st.stop()
 
     # =============================================
-    # STEP 4: FINAL REPORT — COVERAGE + WEIGHTED
+    # FINAL REPORT — COVERAGE + WEIGHTED
     # =============================================
     if st.session_state.step >= 4:
         st.divider()
