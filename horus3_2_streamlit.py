@@ -115,7 +115,7 @@ if 'initialized' not in st.session_state:
         "physical": [], "psychological": [], "generals": [],
         "refined_keywords": {},
         "selected_pattern_symptoms": [],
-        "pattern_frequencies": {},
+        "pattern_frequencies": {},  # Track pattern frequencies
         "modalities": defaultdict(lambda: {"worse": [], "better": []}),
         "rhe_weight": 0.5, "case_weight": 0.5,
         "weights_locked": False,
@@ -265,7 +265,13 @@ with tab1:
         cat_choice = st.selectbox("Add to category", ["Physical", "Psychological", "General"])
         if st.button("Import Bulk Symptoms"):
             bulk_syms = [s.strip() for s in bulk_txt.replace('\n', ',').split(',') if s.strip()]
-            target = cat_choice.lower()
+            # Map category names to session state keys
+            category_map = {
+                "Physical": "physical",
+                "Psychological": "psychological",
+                "General": "generals"  # Note: plural!
+            }
+            target = category_map[cat_choice]
             current = getattr(st.session_state, target, [])
             current.extend(bulk_syms)
             setattr(st.session_state, target, current)
@@ -461,7 +467,8 @@ with tab1:
                         cluster_size = len(cluster_df)
                         
                         if min_size <= cluster_size <= max_size:
-                            frequency = min(100, cluster_size * 2)
+                            # Simulate frequency data (in production, this would come from cluster metadata)
+                            frequency = min(100, cluster_size * 2)  # Larger clusters = higher frequency
                             
                             if frequency >= confidence_threshold:
                                 seen_clusters.add(cid)
@@ -562,6 +569,7 @@ with tab1:
                             st.metric("Core Coverage", f"{count}/{len(core)}")
                         
                         with col_context:
+                            # Add remedy context
                             if rem.lower() in REMEDY_CONTEXT:
                                 ctx = REMEDY_CONTEXT[rem.lower()]
                                 st.caption(f"💡 **{ctx['thumb']}**")
@@ -617,216 +625,284 @@ with tab1:
                     "top10": top10,
                     "notes": notes,
                     "weights": {"rheumatic": st.session_state.rhe_weight, "cases": st.session_state.case_weight},
-                    "mode": "expansion" if only_core else "weighted"
+                    "mode": "expansion" if only_core else "weighted+patterns"
                 })
                 st.session_state.report_generated = True
+                st.success("✅ Case saved to history")
 
-            # PDF Export
-            st.markdown("---")
-            st.subheader("📄 Export Report")
-            
-            def create_pdf():
-                tmp = tempfile.NamedTemporaryFile(delete=False, suffix=".pdf")
-                doc = SimpleDocTemplate(tmp.name, pagesize=A4)
+            # Enhanced PDF Download
+            def create_enhanced_pdf():
+                buffer = tempfile.NamedTemporaryFile(delete=False, suffix=".pdf")
+                doc = SimpleDocTemplate(buffer.name, pagesize=A4, rightMargin=50, leftMargin=50, topMargin=80, bottomMargin=70)
                 styles = getSampleStyleSheet()
-                story = []
                 
-                # Header
-                title_style = ParagraphStyle('CustomTitle', parent=styles['Heading1'], 
-                                            fontSize=18, textColor=colors.HexColor('#1f77b4'), spaceAfter=12)
-                story.append(Paragraph("HoRUS 3 — Clinical Report", title_style))
-                story.append(Spacer(1, 0.2*inch))
+                # Custom styles
+                title_style = ParagraphStyle(
+                    'CustomTitle',
+                    parent=styles['Title'],
+                    fontSize=24,
+                    textColor=colors.HexColor('#1f77b4'),
+                    spaceAfter=30
+                )
                 
-                # Patient Info
-                info_data = [
-                    ["Patient ID:", st.session_state.patient_id],
-                    ["Date:", datetime.now().strftime("%Y-%m-%d %H:%M")],
-                    ["Analysis Mode:", "Semantic Expansion" if only_core else "Weighted Repertorization"],
-                    ["Dataset Weights:", f"Rheumatic {st.session_state.rhe_weight:.2f} | Cases {st.session_state.case_weight:.2f}"]
+                elements = [
+                    Paragraph("HoRUS 3 — Clinical Report", title_style),
+                    Spacer(1, 12),
+                    Paragraph(f"<b>Patient ID:</b> {st.session_state.patient_id}", styles['Normal']),
+                    Paragraph(f"<b>Date Generated:</b> {datetime.now().strftime('%d %B %Y, %H:%M')}", styles['Normal']),
+                    Paragraph(f"<b>Analysis Mode:</b> {'Semantic Expansion Coverage' if only_core else 'Weighted Repertorization + Patterns'}", styles['Normal']),
+                    Paragraph(f"<b>Dataset Weights:</b> Rheumatic {st.session_state.rhe_weight:.2f} | Case Studies {st.session_state.case_weight:.2f}", styles['Normal']),
+                    Spacer(1, 20),
                 ]
-                info_table = Table(info_data, colWidths=[2*inch, 4*inch])
-                info_table.setStyle(TableStyle([
-                    ('BACKGROUND', (0, 0), (0, -1), colors.lightgrey),
-                    ('TEXTCOLOR', (0, 0), (-1, -1), colors.black),
-                    ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
-                    ('FONTNAME', (0, 0), (0, -1), 'Helvetica-Bold'),
-                    ('FONTSIZE', (0, 0), (-1, -1), 10),
-                    ('BOTTOMPADDING', (0, 0), (-1, -1), 8),
-                    ('GRID', (0, 0), (-1, -1), 0.5, colors.grey)
-                ]))
-                story.append(info_table)
-                story.append(Spacer(1, 0.3*inch))
                 
-                # Core Symptoms
-                story.append(Paragraph("<b>Core Symptoms:</b>", styles['Heading2']))
-                story.append(Spacer(1, 0.1*inch))
-                for sym in core:
-                    story.append(Paragraph(f"• {sym}", styles['BodyText']))
-                story.append(Spacer(1, 0.2*inch))
+                # Case presentation summary
+                elements.append(Paragraph("<b>Clinical Presentation</b>", styles['Heading2']))
+                elements.append(Spacer(1, 6))
                 
-                # Pattern Symptoms
-                if pattern:
-                    story.append(Paragraph("<b>Pattern-Derived Symptoms:</b>", styles['Heading2']))
-                    story.append(Spacer(1, 0.1*inch))
-                    for sym in pattern:
-                        story.append(Paragraph(f"• {sym}", styles['BodyText']))
-                    story.append(Spacer(1, 0.2*inch))
+                if st.session_state.physical:
+                    elements.append(Paragraph(f"<b>Physical:</b> {', '.join(st.session_state.physical[:5])}", styles['Normal']))
+                if st.session_state.psychological:
+                    elements.append(Paragraph(f"<b>Psychological:</b> {', '.join(st.session_state.psychological[:5])}", styles['Normal']))
+                if st.session_state.generals:
+                    elements.append(Paragraph(f"<b>General:</b> {', '.join(st.session_state.generals[:5])}", styles['Normal']))
                 
-                # Modalities
-                if st.session_state.modalities:
-                    story.append(Paragraph("<b>Modalities:</b>", styles['Heading2']))
-                    story.append(Spacer(1, 0.1*inch))
-                    for sym, mods in st.session_state.modalities.items():
-                        if mods["worse"] or mods["better"]:
-                            story.append(Paragraph(f"<b>{sym}</b>", styles['BodyText']))
-                            if mods["worse"]:
-                                story.append(Paragraph(f"  Worse: {', '.join(mods['worse'])}", styles['BodyText']))
-                            if mods["better"]:
-                                story.append(Paragraph(f"  Better: {', '.join(mods['better'])}", styles['BodyText']))
-                    story.append(Spacer(1, 0.2*inch))
+                elements.append(Spacer(1, 20))
+                elements.append(Paragraph("<b>Top 10 Remedies</b>", styles['Heading2']))
+                elements.append(Spacer(1, 12))
                 
-                # Top Remedies
-                story.append(Paragraph("<b>Top 10 Remedies:</b>", styles['Heading2']))
-                story.append(Spacer(1, 0.1*inch))
+                # Create table for top remedies
+                table_data = [["Rank", "Remedy", "Score", "Context"]]
+                for i, (r, v) in enumerate(top10[:10], 1):
+                    val = f"{v}/{len(core)}" if only_core else f"{v:.3f}"
+                    context = REMEDY_CONTEXT.get(r.lower(), {}).get('thumb', '-')[:40]
+                    table_data.append([str(i), r.upper(), val, context])
                 
-                remedy_data = [["Rank", "Remedy", "Score/Coverage"]]
-                for i, (rem, val) in enumerate(top10, 1):
-                    score_str = f"{val}/{len(core)}" if only_core else f"{val:.3f}"
-                    remedy_data.append([str(i), rem.upper(), score_str])
-                
-                remedy_table = Table(remedy_data, colWidths=[0.7*inch, 2*inch, 1.5*inch])
+                remedy_table = Table(table_data, colWidths=[0.6*inch, 1.5*inch, 1*inch, 3*inch])
                 remedy_table.setStyle(TableStyle([
                     ('BACKGROUND', (0, 0), (-1, 0), colors.grey),
                     ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
                     ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
                     ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
-                    ('FONTSIZE', (0, 0), (-1, -1), 9),
-                    ('BOTTOMPADDING', (0, 0), (-1, -1), 6),
-                    ('GRID', (0, 0), (-1, -1), 0.5, colors.grey),
-                    ('ROWBACKGROUNDS', (0, 1), (-1, -1), [colors.white, colors.lightgrey])
+                    ('FONTSIZE', (0, 0), (-1, 0), 12),
+                    ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
+                    ('BACKGROUND', (0, 1), (-1, -1), colors.beige),
+                    ('GRID', (0, 0), (-1, -1), 1, colors.black),
+                    ('FONTSIZE', (0, 1), (-1, -1), 9),
                 ]))
-                story.append(remedy_table)
-                story.append(Spacer(1, 0.3*inch))
+                elements.append(remedy_table)
                 
-                # Clinical Notes
+                # Top 3 remedy details
+                elements.append(Spacer(1, 20))
+                elements.append(Paragraph("<b>Top 3 Remedy Details</b>", styles['Heading2']))
+                for i, (rem, _) in enumerate(top10[:3], 1):
+                    elements.append(Spacer(1, 10))
+                    elements.append(Paragraph(f"<b>{i}. {rem.upper()}</b>", styles['Heading3']))
+                    if rem.lower() in REMEDY_CONTEXT:
+                        ctx = REMEDY_CONTEXT[rem.lower()]
+                        elements.append(Paragraph(f"<i>{ctx['thumb']}</i>", styles['Normal']))
+                        elements.append(Paragraph(f"Follows well: {', '.join(ctx['follows'])}", styles['Normal']))
+                        elements.append(Paragraph(f"Antidoted by: {', '.join(ctx['antidoted'])}", styles['Normal']))
+                
+                # Clinical notes
                 if notes:
-                    story.append(Paragraph("<b>Clinical Notes:</b>", styles['Heading2']))
-                    story.append(Spacer(1, 0.1*inch))
-                    story.append(Paragraph(notes, styles['BodyText']))
+                    elements.append(Spacer(1, 20))
+                    elements.append(Paragraph("<b>Clinical Notes</b>", styles['Heading2']))
+                    elements.append(Paragraph(notes, styles['Normal']))
                 
-                doc.build(story)
-                return tmp.name
+                doc.build(elements)
+                return buffer.name
+
+            pdf_path = create_enhanced_pdf()
+            with open(pdf_path, "rb") as f:
+                st.download_button(
+                    "📥 Download Enhanced Clinical Report (PDF)",
+                    f.read(),
+                    f"HoRUS3_{st.session_state.patient_id}_{datetime.now().strftime('%Y%m%d_%H%M')}.pdf",
+                    "application/pdf",
+                    use_container_width=True
+                )
             
-            if st.button("📥 Download PDF Report", type="primary", use_container_width=True):
-                pdf_path = create_pdf()
-                with open(pdf_path, "rb") as f:
-                    st.download_button(
-                        "💾 Save PDF",
-                        f.read(),
-                        file_name=f"HoRUS3_Report_{st.session_state.patient_id}_{datetime.now().strftime('%Y%m%d_%H%M')}.pdf",
-                        mime="application/pdf",
-                        use_container_width=True
-                    )
-                os.unlink(pdf_path)
-        
+            # New case button
+            st.markdown("---")
+            if st.button("🔄 Start New Case", type="secondary", use_container_width=True):
+                # Reset to step 1
+                st.session_state.step = 1
+                st.session_state.physical = []
+                st.session_state.psychological = []
+                st.session_state.generals = []
+                st.session_state.refined_keywords = {}
+                st.session_state.selected_pattern_symptoms = []
+                st.session_state.pattern_accumulator = []
+                st.session_state.case_notes = ""
+                st.session_state.report_generated = False
+                st.rerun()
+
         generate_report()
-        
-        st.markdown("---")
-        if st.button("🔄 Start New Case", type="secondary", use_container_width=True):
-            for key in ["physical", "psychological", "generals", "refined_keywords", 
-                       "selected_pattern_symptoms", "pattern_accumulator", "case_notes"]:
-                if key in st.session_state:
-                    if isinstance(st.session_state[key], list):
-                        st.session_state[key] = []
-                    elif isinstance(st.session_state[key], dict):
-                        st.session_state[key] = {}
-                    else:
-                        st.session_state[key] = ""
-            st.session_state.step = 1
-            st.session_state.patient_mode = "new"
-            st.session_state.patient_id = ""
-            st.session_state.report_generated = False
-            st.rerun()
 
 # =============================================
-# PATIENT HISTORY TAB
+# ENHANCED HISTORY TAB
 # =============================================
 with tab2:
-    st.title("📚 Patient History & Records")
+    st.header("📚 Patient History")
     
     patients = load_patients()
-    
-    if not patients:
-        st.info("No patient records found. Create your first case in the Patient Case tab!")
-        st.stop()
-    
-    # Search and filter
-    col_search, col_sort = st.columns([3, 1])
-    with col_search:
-        search_term = st.text_input("🔍 Search patients", placeholder="Enter patient ID or date...")
-    with col_sort:
-        sort_order = st.selectbox("Sort by", ["Recent First", "Oldest First", "Patient ID"])
-    
-    # Filter patients
-    filtered = {k: v for k, v in patients.items() 
-                if not search_term or search_term.upper() in k.upper()}
-    
-    # Sort
-    if sort_order == "Recent First":
-        sorted_patients = sorted(filtered.items(), 
-                                key=lambda x: x[1][-1]['timestamp'] if x[1] else "", 
-                                reverse=True)
-    elif sort_order == "Oldest First":
-        sorted_patients = sorted(filtered.items(), 
-                                key=lambda x: x[1][0]['timestamp'] if x[1] else "")
-    else:
-        sorted_patients = sorted(filtered.items())
-    
-    st.write(f"**{len(sorted_patients)} patient(s) found**")
-    st.markdown("---")
-    
-    # Display patient cards
-    for pid, records in sorted_patients:
-        with st.expander(f"👤 **{pid}** — {len(records)} visit(s)", expanded=False):
-            for i, rec in enumerate(records, 1):
-                st.markdown(f"### Visit {i} — {rec['timestamp']}")
-                
-                col_info1, col_info2 = st.columns(2)
-                with col_info1:
-                    st.metric("Core Symptoms", len(rec.get('core', [])))
-                    st.metric("Pattern Symptoms", len(rec.get('pattern', [])))
-                with col_info2:
-                    st.metric("Analysis Mode", rec.get('mode', 'N/A').title())
-                    weights = rec.get('weights', {})
-                    st.caption(f"Weights: R{weights.get('rheumatic', 0):.2f} / C{weights.get('cases', 0):.2f}")
-                
-                # Symptoms
-                with st.expander("View Symptoms", expanded=False):
-                    st.markdown("**Core Symptoms:**")
-                    for sym in rec.get('core', []):
-                        st.text(f"• {sym}")
-                    
-                    if rec.get('pattern'):
-                        st.markdown("**Pattern Symptoms:**")
-                        for sym in rec['pattern']:
-                            st.text(f"• {sym}")
-                
-                # Top remedies
-                with st.expander("Top Remedies", expanded=False):
-                    top10 = rec.get('top10', [])
-                    for j, (rem, score) in enumerate(top10[:5], 1):
-                        if isinstance(score, float):
-                            st.text(f"{j}. {rem.upper()} — {score:.3f}")
-                        else:
-                            st.text(f"{j}. {rem.upper()} — {score}")
-                
-                # Notes
-                if rec.get('notes'):
-                    with st.expander("Clinical Notes", expanded=False):
-                        st.text(rec['notes'])
-                
+    if patients:
+        # Search functionality
+        search_patient = st.text_input("🔍 Search patient history", placeholder="Type patient ID...")
+        patient_list = sorted(patients.keys())
+        if search_patient:
+            patient_list = [p for p in patient_list if search_patient.upper() in p.upper()]
+        
+        pid = st.selectbox("Select Patient", [""] + patient_list, key="hist_pid")
+        
+        if pid:
+            cases = patients[pid]
+            st.success(f"**{len(cases)} case(s)** on record for {pid}")
+            
+            # Show full top 10 toggle
+            show_full = st.checkbox("Show full Top 10 (default: Top 5)", value=False)
+            limit = 10 if show_full else 5
+            
+            # Case comparison option
+            if len(cases) >= 2:
                 st.markdown("---")
+                st.subheader("📊 Compare Cases")
+                col_c1, col_c2 = st.columns(2)
+                with col_c1:
+                    case1_idx = st.selectbox("First case", range(len(cases)), 
+                                            format_func=lambda x: cases[x]['timestamp'])
+                with col_c2:
+                    case2_idx = st.selectbox("Second case", range(len(cases)), 
+                                            format_func=lambda x: cases[x]['timestamp'],
+                                            index=min(1, len(cases)-1))
+                
+                if st.button("Compare Selected Cases"):
+                    case1 = cases[case1_idx]
+                    case2 = cases[case2_idx]
+                    
+                    st.markdown("### Comparison Results")
+                    
+                    # Create comparison table
+                    comp_data = []
+                    remedies1 = {r[0]: (i+1, r[1]) for i, r in enumerate(case1.get('top10', [])[:10])}
+                    remedies2 = {r[0]: (i+1, r[1]) for i, r in enumerate(case2.get('top10', [])[:10])}
+                    
+                    all_remedies = set(remedies1.keys()) | set(remedies2.keys())
+                    
+                    for rem in sorted(all_remedies):
+                        rank1, score1 = remedies1.get(rem, ('-', '-'))
+                        rank2, score2 = remedies2.get(rem, ('-', '-'))
+                        
+                        change = ""
+                        if rank1 != '-' and rank2 != '-':
+                            diff = rank1 - rank2
+                            if diff > 0:
+                                change = f"⬆️ +{diff}"
+                            elif diff < 0:
+                                change = f"⬇️ {diff}"
+                            else:
+                                change = "➡️ same"
+                        elif rank1 == '-':
+                            change = "🆕 new"
+                        elif rank2 == '-':
+                            change = "❌ dropped"
+                        
+                        comp_data.append({
+                            "Remedy": rem.upper(),
+                            f"Case 1 ({case1['timestamp']})": f"#{rank1}" if rank1 != '-' else '-',
+                            f"Case 2 ({case2['timestamp']})": f"#{rank2}" if rank2 != '-' else '-',
+                            "Change": change
+                        })
+                    
+                    st.dataframe(pd.DataFrame(comp_data), use_container_width=True, hide_index=True)
+            
+            st.markdown("---")
+            st.subheader("Case History")
+            
+            # Display cases in reverse chronological order
+            for idx, case in enumerate(reversed(cases)):
+                mode = "Expansion" if case.get("mode", "").startswith("expansion") else "Weighted + Patterns"
+                weights_info = case.get("weights", {})
+                weight_str = f"Rhe: {weights_info.get('rheumatic', 0.5):.2f} | Cases: {weights_info.get('cases', 0.5):.2f}" if weights_info else ""
+                
+                with st.expander(f"📅 {case['timestamp']} — {mode} {weight_str}", expanded=(idx==0)):
+                    # Display core symptoms
+                    if case.get('core'):
+                        st.markdown("**Core Symptoms:**")
+                        st.write(", ".join(case['core'][:10]))
+                    
+                    # Display pattern symptoms if present
+                    if case.get('pattern'):
+                        st.markdown("**Pattern Symptoms Added:**")
+                        st.write(", ".join(case['pattern'][:5]))
+                    
+                    st.markdown(f"**Top {limit} Remedies:**")
+                    for i, item in enumerate(case.get("top10", [])[:limit]):
+                        rem = item[0].upper()
+                        val = f"{item[1]}/{len(case.get('core',[]))}" if "expansion" in case.get("mode","") else f"{item[1]:.2f}"
+                        
+                        # Add context inline
+                        context = ""
+                        if rem.lower() in REMEDY_CONTEXT:
+                            context = f" — {REMEDY_CONTEXT[rem.lower()]['thumb']}"
+                        
+                        st.write(f"**{i+1}. {rem}** — {val}{context}")
+                    
+                    # Display notes if present
+                    if case.get('notes'):
+                        st.markdown("**Clinical Notes:**")
+                        st.info(case['notes'])
+        
+        # Bulk export option
+        st.markdown("---")
+        st.subheader("📤 Export Options")
+        
+        col_e1, col_e2 = st.columns(2)
+        with col_e1:
+            if st.button("Export All Patient Data (JSON)", use_container_width=True):
+                json_data = json.dumps(patients, indent=2)
+                st.download_button(
+                    "Download JSON",
+                    json_data,
+                    f"horus3_all_patients_{datetime.now().strftime('%Y%m%d')}.json",
+                    "application/json",
+                    use_container_width=True
+                )
+        
+        with col_e2:
+            if pid and st.button("Export Single Patient (JSON)", use_container_width=True):
+                patient_data = {pid: patients[pid]}
+                json_data = json.dumps(patient_data, indent=2)
+                st.download_button(
+                    "Download JSON",
+                    json_data,
+                    f"horus3_{pid}_{datetime.now().strftime('%Y%m%d')}.json",
+                    "application/json",
+                    use_container_width=True
+                )
+        
+        st.markdown("---")
+        if st.button("🗑️ Clear All History", type="secondary"):
+            if st.checkbox("⚠️ Confirm permanent deletion of ALL patient records"):
+                if os.path.exists(HISTORY_FILE):
+                    os.remove(HISTORY_FILE)
+                st.success("✅ All history cleared")
+                st.rerun()
+    else:
+        st.info("📭 No patient history yet. Complete a case to build your database.")
 
-st.sidebar.markdown("---")
-st.sidebar.caption("HoRUS 3 Ultra Clinical Edition")
-st.sidebar.caption("v3.0 — Enhanced with QoL features")
+# =============================================
+# KEYBOARD SHORTCUTS HELPER
+# =============================================
+with st.sidebar:
+    st.markdown("---")
+    with st.expander("⌨️ Keyboard Shortcuts"):
+        st.markdown("""
+        **Coming Soon:**
+        - `Ctrl+R` — Refine symptoms
+        - `Ctrl+P` — Generate report
+        - `Ctrl+N` — New patient
+        - `Ctrl+S` — Save/Export
+        
+        *Note: Browser-based shortcuts require additional implementation*
+        """)
