@@ -311,7 +311,14 @@ with tab1:
         with st.expander("Find associated symptoms from real case clusters", expanded=True):
             st.markdown("**HoRUS analyzes thousands of real cases to reveal hidden concomitant symptoms**")
             rarity = st.radio("Pattern Type", ["Common", "Uncommon", "Rare"], horizontal=True)
-            min_size = {"Common": 25, "Uncommon": 12, "Rare": 0}[rarity]
+            
+            # Define mutually exclusive size ranges
+            size_ranges = {
+                "Common": (25, float('inf')),
+                "Uncommon": (12, 24),
+                "Rare": (0, 11)
+            }
+            min_size, max_size = size_ranges[rarity]
 
             found_clusters = []
             seen_clusters = set()
@@ -324,7 +331,10 @@ with tab1:
                         if cid in {'NOISE', '-1'} or cid in seen_clusters:
                             continue
                         cluster_df = df[df['Cluster_ID'] == cid]
-                        if len(cluster_df) >= min_size or rarity == "Rare":
+                        cluster_size = len(cluster_df)
+                        
+                        # Check if cluster falls within the selected size range
+                        if min_size <= cluster_size <= max_size:
                             seen_clusters.add(cid)
                             symptoms = cluster_df['Symptom'].tolist()
                             found_clusters.append([s for s in symptoms if s not in core_symptoms])
