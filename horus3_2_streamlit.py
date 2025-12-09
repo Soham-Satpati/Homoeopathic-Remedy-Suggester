@@ -115,6 +115,7 @@ if 'initialized' not in st.session_state:
         "physical": [], "psychological": [], "generals": [],
         "refined_keywords": {},
         "selected_pattern_symptoms": [],
+        "pattern_frequencies": {},  # Track pattern frequencies
         "modalities": defaultdict(lambda: {"worse": [], "better": []}),
         "rhe_weight": 0.5, "case_weight": 0.5,
         "weights_locked": False,
@@ -483,8 +484,8 @@ with tab1:
             if found_clusters:
                 st.write(f"**{len(found_clusters)} clinical pattern(s) discovered**")
                 
-                for i, cluster in enumerate(found_clusters[:8]):
-                    with st.expander(f"Pattern {i+1} — {len(cluster)} symptoms"):
+                for i, (cluster, freq) in enumerate(found_clusters[:8]):
+                    with st.expander(f"Pattern {i+1} — {len(cluster)} symptoms | 📊 {freq}% frequency"):
                         choices = st.multiselect(
                             "Add to case",
                             [s for s in cluster if s not in st.session_state.pattern_accumulator],
