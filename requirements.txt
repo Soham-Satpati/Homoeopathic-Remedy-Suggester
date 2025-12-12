@@ -4,5 +4,4 @@ sentence-transformers
 DateTime
 pypi-json
 reportlab
-
-
+google-generativeai
