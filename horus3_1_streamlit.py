@@ -1,908 +1,847 @@
-# HORUS3_ULTRA_CLINICAL_FINAL_WITH_QOL_ENHANCEMENTS.py
+"""
+HoRUS 3 — Clinical Homeopathic Intelligence
+Streamlit Cloud deployment with GitHub-backed patient storage.
+
+Secrets required (set in Streamlit Cloud → App settings → Secrets):
+    GEMINI_API_KEY   = "AIza..."
+    GITHUB_TOKEN     = "github_pat_..."   # fine-grained PAT, contents: read+write
+    GITHUB_REPO      = "owner/repo-name"
+    GITHUB_FILE_PATH = "data/horus3_patients.json"   # path inside the repo
+
+Requirements (requirements.txt):
+    streamlit
+    google-generativeai
+    sentence-transformers
+    reportlab
+    PyGithub
+"""
+
 import streamlit as st
 import pandas as pd
 import pickle
 import numpy as np
 from sentence_transformers import SentenceTransformer, util
 import os
-from collections import defaultdict, Counter
+import json
+import base64
+import tempfile
+from collections import defaultdict
+from datetime import datetime
+
+import google.generativeai as genai
+from github import Github, GithubException
 from reportlab.lib.pagesizes import A4
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
+from reportlab.platypus import (
+    SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, HRFlowable
+)
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import inch
 from reportlab.lib import colors
-import tempfile
-import json
-from datetime import datetime
 
-st.set_page_config(page_title="HoRUS 3 — Clinical Genius", layout="wide")
+# ─────────────────────────────────────────────
+# PAGE CONFIG
+# ─────────────────────────────────────────────
+st.set_page_config(
+    page_title="HoRUS 3",
+    page_icon="⚕",
+    layout="centered",
+    initial_sidebar_state="collapsed",
+)
 
-# =============================================
-# MODALITIES & DATA
-# =============================================
-MODALITIES = {
-    "worse": ["cold", "damp", "motion", "night", "touch", "pressure", "rest", "heat", "lying", "standing", "sitting", "warm"],
-    "better": ["motion", "warmth", "rest", "pressure", "open air", "rubbing", "lying", "cold", "warm applications", "walking", "sitting"]
-}
-
-# Remedy context data (simplified materia medica)
-REMEDY_CONTEXT = {
-    "arnica": {"follows": ["Rhus-t", "Calc"], "antidoted": ["Camph"], "thumb": "Trauma, bruising, soreness"},
-    "rhus-t": {"follows": ["Arn", "Bry"], "antidoted": ["Bell"], "thumb": "Restlessness, worse rest, better motion"},
-    "bryonia": {"follows": ["Rhus-t", "Arn"], "antidoted": ["Acon"], "thumb": "Worse motion, better rest, irritable"},
-    "pulsatilla": {"follows": ["Kali-s", "Sil"], "antidoted": ["Cham"], "thumb": "Changeable, mild, desires company"},
-    "sulphur": {"follows": ["Acon", "Ars"], "antidoted": ["Lyc"], "thumb": "Burning, untidy, worse heat"},
-}
-
-@st.cache_resource
-def load_system():
-    model = SentenceTransformer('all-MiniLM-L6-v2')
-    with open("case_studies_model.pkl", "rb") as f:
-        case_dict = pickle.load(f)
-    with open("rheumatic_model.pkl", "rb") as f:
-        rhe_dict = pickle.load(f)
-    
-    clusters = {}
-    for name in ["remedy_modalities", "remedy_area_modalities", "remedy_area"]:
-        file = f"clusters_{name}.csv"
-        if os.path.exists(file):
-            df = pd.read_csv(file)
-            df['Cluster_ID'] = df['Cluster_ID'].astype(str)
-            clusters[name] = df
-
-    chapters = defaultdict(list)
-    for data in [case_dict, rhe_dict]:
-        for sym, chap in data.get('categories', {}).items():
-            chapters[chap].append(sym)
-    s2r = {**case_dict.get('symptom_to_remedies', {}), **rhe_dict.get('symptom_to_remedies', {})}
-    
-    return {
-        'model': model,
-        'chapters': dict(chapters),
-        'clusters': clusters,
-        's2r': s2r,
-        'rhe_dict': rhe_dict
+# ─────────────────────────────────────────────
+# STYLES
+# ─────────────────────────────────────────────
+st.markdown("""
+<style>
+    #MainMenu, footer, header { visibility: hidden; }
+    .block-container { padding: 2.5rem 2rem 4rem; max-width: 780px; }
+    html, body, [class*="css"] { font-family: 'Inter', -apple-system, sans-serif; }
+    h1 { font-size: 1.5rem !important; font-weight: 500 !important; letter-spacing: -0.02em; }
+    h2 { font-size: 1.1rem !important; font-weight: 500 !important; margin-top: 2rem !important; }
+    h3 { font-size: 0.95rem !important; font-weight: 500 !important; color: #555 !important; }
+    .stButton > button {
+        border: 1px solid #d0d0d0 !important; background: white !important;
+        color: #111 !important; border-radius: 6px !important;
+        font-size: 0.85rem !important; padding: 0.45rem 1.1rem !important;
+        transition: background 0.15s, border-color 0.15s;
     }
+    .stButton > button:hover { background: #f5f5f5 !important; border-color: #aaa !important; }
+    .stButton > button[kind="primary"] {
+        background: #111 !important; color: white !important; border-color: #111 !important;
+    }
+    .stButton > button[kind="primary"]:hover { background: #333 !important; }
+    .stTextInput > div > div > input, .stTextArea textarea {
+        border: 1px solid #d0d0d0 !important; border-radius: 6px !important;
+        font-size: 0.9rem !important;
+    }
+    .stTextArea textarea { min-height: 180px !important; line-height: 1.7 !important; }
+    .step-pill {
+        display: inline-block; font-size: 0.7rem; font-weight: 500;
+        letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 10px;
+        border-radius: 20px; border: 1px solid #d0d0d0; color: #555; margin-bottom: 0.75rem;
+    }
+    .step-pill.active { background: #111; color: white; border-color: #111; }
+    .remedy-card {
+        border: 1px solid #e0e0e0; border-radius: 8px;
+        padding: 1.1rem 1.3rem; margin-bottom: 0.75rem; background: white;
+    }
+    .remedy-primary { border-left: 3px solid #111; }
+    .remedy-name { font-size: 1rem; font-weight: 500; margin-bottom: 0.3rem; }
+    .remedy-role {
+        display: inline-block; font-size: 0.7rem; padding: 2px 8px;
+        border-radius: 20px; background: #f0f0f0; color: #444;
+        margin-left: 8px; text-transform: capitalize;
+    }
+    .remedy-rationale { font-size: 0.88rem; color: #444; line-height: 1.65; margin-top: 0.5rem; }
+    .remedy-meta { font-size: 0.8rem; color: #777; margin-top: 0.5rem; }
+    .sym-tag {
+        display: inline-block; font-size: 0.8rem; padding: 3px 10px;
+        border-radius: 4px; margin: 3px; background: #f5f5f5;
+        color: #333; border: 1px solid #e0e0e0;
+    }
+    .sym-worse { background: #fff5f5; border-color: #fcc; color: #900; }
+    .sym-better { background: #f0fff4; border-color: #9e9; color: #2a5; }
+    .section-label {
+        font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em;
+        text-transform: uppercase; color: #888;
+        margin-bottom: 0.6rem; margin-top: 1.5rem;
+    }
+    hr { border: none; border-top: 1px solid #eee; margin: 1.5rem 0; }
+    .patient-badge {
+        font-size: 0.75rem; color: #888; border: 1px solid #e8e8e8;
+        border-radius: 4px; padding: 3px 10px;
+        display: inline-block; margin-bottom: 1rem;
+    }
+    .info-box {
+        background: #f9f9f9; border: 1px solid #eee; border-radius: 6px;
+        padding: 0.9rem 1.1rem; font-size: 0.85rem; color: #555;
+        line-height: 1.65; margin: 0.75rem 0;
+    }
+    .monitor-item {
+        font-size: 0.88rem; color: #333; padding: 0.4rem 0;
+        border-bottom: 1px solid #f0f0f0; line-height: 1.55;
+    }
+    .monitor-item:last-child { border-bottom: none; }
+    .streamlit-expanderHeader { font-size: 0.88rem !important; }
+    div[data-baseweb="select"] { font-size: 0.88rem !important; }
+</style>
+""", unsafe_allow_html=True)
 
-data = load_system()
-model = data['model']
-chapters = data['chapters']
-clusters = data['clusters']
-s2r_global = data['s2r']
-rhe_dict = data['rhe_dict']
-
-# =============================================
-# HISTORY & SESSION STATE
-# =============================================
-HISTORY_FILE = "horus3_patients.json"
-
-def load_patients():
-    if not os.path.exists(HISTORY_FILE):
-        with open(HISTORY_FILE, "w", encoding="utf-8") as f:
-            json.dump({}, f, indent=2)
+# ─────────────────────────────────────────────
+# SECRETS — read once at startup
+# ─────────────────────────────────────────────
+def _secret(key: str, fallback: str = "") -> str:
+    """Read from st.secrets; return fallback if missing (e.g. local dev)."""
     try:
-        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except:
+        return st.secrets[key]
+    except (KeyError, FileNotFoundError):
+        return fallback
+
+GEMINI_API_KEY   = _secret("GEMINI_API_KEY")
+GITHUB_TOKEN     = _secret("GITHUB_TOKEN")
+GITHUB_REPO      = _secret("GITHUB_REPO")       # "owner/repo"
+GITHUB_FILE_PATH = _secret("GITHUB_FILE_PATH", "data/horus3_patients.json")
+
+# Configure Gemini once at module load; no user input needed.
+if GEMINI_API_KEY:
+    genai.configure(api_key=GEMINI_API_KEY)
+
+GEMINI_READY = bool(GEMINI_API_KEY)
+
+# ─────────────────────────────────────────────
+# GITHUB-BACKED PATIENT STORAGE
+# ─────────────────────────────────────────────
+@st.cache_resource(show_spinner=False)
+def _gh_repo():
+    """Return a PyGithub Repository object, cached for the session."""
+    if not GITHUB_TOKEN or not GITHUB_REPO:
+        return None
+    try:
+        g = Github(GITHUB_TOKEN)
+        return g.get_repo(GITHUB_REPO)
+    except Exception:
+        return None
+
+
+def load_patients() -> dict:
+    """
+    Fetch horus3_patients.json from GitHub.
+    Falls back to an empty dict if the file doesn't exist yet or on any error.
+    """
+    repo = _gh_repo()
+    if repo is None:
+        return {}
+    try:
+        contents = repo.get_contents(GITHUB_FILE_PATH)
+        raw = base64.b64decode(contents.content).decode("utf-8")
+        return json.loads(raw)
+    except GithubException as e:
+        if e.status == 404:
+            return {}           # file doesn't exist yet — first run
+        st.warning(f"GitHub read error: {e.data.get('message', e)}")
+        return {}
+    except Exception as e:
+        st.warning(f"Could not load patient history: {e}")
         return {}
 
-def save_patient_once(pid, data):
+
+def save_patients(patients: dict) -> bool:
+    """
+    Write the full patients dict back to GitHub as a single JSON file.
+    Creates the file on first save, updates (with the correct SHA) on subsequent saves.
+    Returns True on success.
+    """
+    repo = _gh_repo()
+    if repo is None:
+        st.error("GitHub not configured — case not saved. Check GITHUB_TOKEN and GITHUB_REPO in secrets.")
+        return False
+
+    payload = json.dumps(patients, indent=2, ensure_ascii=False)
+    commit_msg = f"HoRUS3 update — {datetime.now().strftime('%Y-%m-%d %H:%M')}"
+
+    try:
+        try:
+            existing = repo.get_contents(GITHUB_FILE_PATH)
+            repo.update_file(
+                path=GITHUB_FILE_PATH,
+                message=commit_msg,
+                content=payload,
+                sha=existing.sha,
+            )
+        except GithubException as e:
+            if e.status == 404:
+                # First save — create the file (and any parent dirs implicitly)
+                repo.create_file(
+                    path=GITHUB_FILE_PATH,
+                    message=commit_msg,
+                    content=payload,
+                )
+            else:
+                raise
+        return True
+    except Exception as e:
+        st.error(f"GitHub write error: {e}")
+        return False
+
+
+def save_case(pid: str, case_data: dict):
+    """Append one case to the patient record and push to GitHub."""
     patients = load_patients()
     patients.setdefault(pid, [])
-    patients[pid].append({"timestamp": datetime.now().strftime("%Y-%m-%d %H:%M"), **data})
-    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
-        json.dump(patients, f, indent=2)
-
-def auto_generate_patient_id():
-    """Generate next available patient ID"""
-    patients = load_patients()
-    today = datetime.now().strftime("%Y")
-    prefix = f"PT-{today}-"
-    existing_nums = []
-    for pid in patients.keys():
-        if pid.startswith(prefix):
-            try:
-                num = int(pid.split('-')[-1])
-                existing_nums.append(num)
-            except:
-                pass
-    next_num = max(existing_nums, default=0) + 1
-    return f"{prefix}{next_num:03d}"
-
-if 'initialized' not in st.session_state:
-    st.session_state.update({
-        "step": 1,
-        "physical": [], "psychological": [], "generals": [],
-        "refined_keywords": {},
-        "selected_pattern_symptoms": [],
-        "pattern_frequencies": {},  # Track pattern frequencies
-        "modalities": defaultdict(lambda: {"worse": [], "better": []}),
-        "rhe_weight": 0.5, "case_weight": 0.5,
-        "weights_locked": False,
-        "patient_id": "", "patient_mode": "new",
-        "report_generated": False,
-        "case_notes": "",
-        "initialized": True
+    patients[pid].append({
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        **case_data,
     })
+    save_patients(patients)
 
-# =============================================
-# SIDEBAR: NAVIGATION & WEIGHTS
-# =============================================
-st.sidebar.title("🧭 Navigation")
-nav_steps = ["1. Enter Symptoms", "2. Refine Symptoms", "3. Discover Patterns", "4. Generate Report"]
-current_step_idx = st.session_state.step - 1
 
-for i, step_name in enumerate(nav_steps):
-    if i < current_step_idx:
-        st.sidebar.success(f"✓ {step_name}")
-    elif i == current_step_idx:
-        st.sidebar.info(f"→ {step_name}")
-    else:
-        st.sidebar.text(f"  {step_name}")
+def next_patient_id() -> str:
+    patients = load_patients()
+    year = datetime.now().year
+    prefix = f"PT-{year}-"
+    nums = [
+        int(k.split("-")[-1])
+        for k in patients
+        if k.startswith(prefix) and k.split("-")[-1].isdigit()
+    ]
+    return f"{prefix}{(max(nums, default=0) + 1):03d}"
 
-st.sidebar.markdown("---")
-st.sidebar.header("⚖️ Dataset Weights")
-st.sidebar.caption("📘 Higher Rheumatic = Traditional texts emphasis\n📊 Higher Case Studies = Real clinical outcomes")
 
-if not st.session_state.weights_locked:
-    rhe_w = st.sidebar.slider("Rheumatic Dataset", 0.0, 1.0, st.session_state.rhe_weight, 0.05, key="rhe_slider")
-    case_w = round(1.0 - rhe_w, 2)
-    st.session_state.rhe_weight = rhe_w
-    st.session_state.case_weight = case_w
-    st.sidebar.write(f"Case Studies: **{case_w:.2f}** (auto-synced)")
-    if st.sidebar.button("🔒 Lock Weights", type="primary"):
-        st.session_state.weights_locked = True
-        st.rerun()
-else:
-    st.sidebar.success(f"🔒 Locked: Rheumatic {st.session_state.rhe_weight:.2f} | Cases {st.session_state.case_weight:.2f}")
-    if st.sidebar.button("🔓 Unlock Weights"):
-        st.session_state.weights_locked = False
-        st.rerun()
+# ─────────────────────────────────────────────
+# ML SYSTEM (pkl files — optional)
+# ─────────────────────────────────────────────
+@st.cache_resource(show_spinner=False)
+def load_system():
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+    s2r = {}
+    chapters = defaultdict(list)
+    for fname in ["case_studies_model.pkl", "rheumatic_model.pkl"]:
+        if os.path.exists(fname):
+            with open(fname, "rb") as f:
+                d = pickle.load(f)
+            for sym, chap in d.get("categories", {}).items():
+                chapters[chap].append(sym)
+            s2r.update(d.get("symptom_to_remedies", {}))
+    clusters = {}
+    for name in ["remedy_modalities", "remedy_area_modalities", "remedy_area"]:
+        fpath = f"clusters_{name}.csv"
+        if os.path.exists(fpath):
+            df = pd.read_csv(fpath)
+            df["Cluster_ID"] = df["Cluster_ID"].astype(str)
+            clusters[name] = df
+    return {"model": model, "s2r": s2r, "chapters": dict(chapters), "clusters": clusters}
 
-# =============================================
-# TABS
-# =============================================
-tab1, tab2 = st.tabs(["📋 Patient Case", "📚 Patient History"])
 
-with tab1:
-    st.title("HoRUS 3")
-    st.markdown("### **True Clinical Remedy Intelligence — Enhanced Edition**")
+system_data = None
+try:
+    system_data = load_system()
+except Exception:
+    pass  # Gemini covers the core clinical logic even without pkl files
 
-    # =============================================
-    # PATIENT SELECTION
-    # =============================================
-    st.header("👤 Patient Management")
-    c1, c2 = st.columns(2)
-    with c1:
-        if st.button("➕ New Patient", type="primary", use_container_width=True):
-            st.session_state.patient_mode = "new"
-            st.session_state.patient_id = ""
-            st.session_state.step = 1
-            st.rerun()
-    with c2:
-        if st.button("📂 Former Patient", type="secondary", use_container_width=True):
-            st.session_state.patient_mode = "former"
-            st.rerun()
+# ─────────────────────────────────────────────
+# GEMINI HELPERS
+# ─────────────────────────────────────────────
+def gemini_categorise(raw_text: str) -> dict:
+    system = """You are a classical homeopathic repertorisation assistant.
+Read the patient's description and return ONLY valid JSON — no markdown, no preamble.
 
-    if st.session_state.patient_mode == "new":
-        col_a, col_b = st.columns([3, 1])
-        with col_a:
-            pid = st.text_input("Enter Patient ID (or leave blank for auto-generate)", placeholder="PT-2025-001")
-        with col_b:
-            st.write("")
-            st.write("")
-            if st.button("🔄 Auto-Generate", use_container_width=True):
-                st.session_state.patient_id = auto_generate_patient_id()
-                st.rerun()
-        if pid:
-            st.session_state.patient_id = pid.strip().upper()
-        elif not st.session_state.patient_id:
-            st.session_state.patient_id = auto_generate_patient_id()
-    else:
-        patients_list = sorted(load_patients().keys())
-        search = st.text_input("🔍 Search Patient", placeholder="Type to filter...")
-        if search:
-            patients_list = [p for p in patients_list if search.upper() in p.upper()]
-        sel = st.selectbox("Select Patient", [""] + patients_list)
-        if sel:
-            st.session_state.patient_id = sel
+Rules:
+- Split symptoms into physical, psychological, and general categories.
+- For each symptom extract worse[] and better[] modalities.
+- Keep symptom text concise but clinically precise.
+- Identify the dominant miasmatic tendency (psoric / sycotic / syphilitic / tubercular / mixed).
+- List any concomitants (symptoms that appear together).
+- Write a one-sentence clinical_summary capturing the case essence.
 
-    if not st.session_state.patient_id:
-        st.stop()
-    st.success(f"✅ Active Patient: **{st.session_state.patient_id}**")
+JSON shape (return exactly this, nothing else):
+{
+  "physical": [{"symptom": "...", "worse": ["..."], "better": ["..."]}],
+  "psychological": [{"symptom": "...", "worse": ["..."], "better": ["..."]}],
+  "general": [{"symptom": "...", "worse": ["..."], "better": ["..."]}],
+  "miasm": "...",
+  "concomitants": ["..."],
+  "clinical_summary": "..."
+}"""
+    model = genai.GenerativeModel(model_name="gemini-2.0-flash", system_instruction=system)
+    response = model.generate_content(
+        f"Patient describes: {raw_text}",
+        generation_config=genai.GenerationConfig(temperature=0.2, max_output_tokens=3000),
+    )
+    raw = response.text.strip().lstrip("```json").lstrip("```").rstrip("```").strip()
+    return json.loads(raw)
 
-    # =============================================
-    # SYMPTOM ENTRY WITH DYNAMIC LISTS
-    # =============================================
-    st.header("1. 📝 Enter Patient Symptoms")
-    
-    def add_symptom_interface(category, key_prefix):
-        """Dynamic symptom entry with tags"""
-        current_symptoms = getattr(st.session_state, category, [])
-        
-        col_input, col_add = st.columns([4, 1])
-        with col_input:
-            new_symptom = st.text_input(
-                f"Add {category.title()} Symptom",
-                placeholder=f"Type and press Add...",
-                key=f"{key_prefix}_input"
-            )
-        with col_add:
-            st.write("")
-            st.write("")
-            if st.button("➕ Add", key=f"{key_prefix}_btn", use_container_width=True):
-                if new_symptom.strip():
-                    current_symptoms.append(new_symptom.strip())
-                    setattr(st.session_state, category, current_symptoms)
-                    st.rerun()
-        
-        if current_symptoms:
-            st.caption(f"**{len(current_symptoms)} symptom(s) entered:**")
-            for i, sym in enumerate(current_symptoms):
-                col_sym, col_del = st.columns([5, 1])
-                with col_sym:
-                    st.text(f"• {sym}")
-                with col_del:
-                    if st.button("🗑️", key=f"{key_prefix}_del_{i}"):
-                        current_symptoms.pop(i)
-                        setattr(st.session_state, category, current_symptoms)
-                        st.rerun()
 
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.subheader("🏥 Physical Symptoms")
-        add_symptom_interface("physical", "phys")
-    with col2:
-        st.subheader("🧠 Psychological Symptoms")
-        add_symptom_interface("psychological", "psych")
-    with col3:
-        st.subheader("🌡️ General Symptoms")
-        add_symptom_interface("generals", "gen")
+def gemini_report(patient_id: str, categorised: dict) -> dict:
+    lines = []
+    for cat in ("physical", "psychological", "general"):
+        for s in categorised.get(cat, []):
+            worse  = ", ".join(s.get("worse",  [])) or "—"
+            better = ", ".join(s.get("better", [])) or "—"
+            lines.append(f"[{cat.title()}] {s['symptom']} | ↓ {worse} | ↑ {better}")
 
-    # Alternative: Bulk text entry
-    with st.expander("💡 Or paste symptoms in bulk (comma/line separated)"):
-        bulk_txt = st.text_area("Paste symptoms here", height=100, key="bulk_input")
-        cat_choice = st.selectbox("Add to category", ["Physical", "Psychological", "General"])
-        if st.button("Import Bulk Symptoms"):
-            bulk_syms = [s.strip() for s in bulk_txt.replace('\n', ',').split(',') if s.strip()]
-            # Map category names to session state keys
-            category_map = {
-                "Physical": "physical",
-                "Psychological": "psychological",
-                "General": "generals"  # Note: plural!
-            }
-            target = category_map[cat_choice]
-            current = getattr(st.session_state, target, [])
-            current.extend(bulk_syms)
-            setattr(st.session_state, target, current)
-            st.success(f"Added {len(bulk_syms)} symptoms to {cat_choice}")
-            st.rerun()
+    system = """You are an experienced classical homeopath writing a comprehensive treatment plan.
 
-    # Navigation buttons
-    if st.session_state.step == 1:
-        total_syms = len(st.session_state.physical) + len(st.session_state.psychological) + len(st.session_state.generals)
-        if total_syms == 0:
-            st.warning("⚠️ Please enter at least one symptom to continue")
-            st.stop()
-        
-        st.markdown("---")
-        st.subheader("Choose Next Action")
-        btn_col1, btn_col2, btn_col3 = st.columns(3)
-        
-        with btn_col1:
-            if st.button("🔍 Refine Symptoms", type="primary", use_container_width=True):
-                st.session_state.step = 2
-                st.session_state.refined_keywords = {}
-                st.session_state.selected_pattern_symptoms = []
-                st.session_state.report_generated = False
-                st.rerun()
-        
-        with btn_col2:
-            if st.button("🔬 Discover Patterns", type="primary", use_container_width=True):
-                st.session_state.selected_keywords = st.session_state.physical + st.session_state.psychological + st.session_state.generals
-                st.session_state.step = 3
-                st.session_state.refined_keywords = {}
-                st.session_state.selected_pattern_symptoms = []
-                st.session_state.report_generated = False
-                st.rerun()
-        
-        with btn_col3:
-            if st.button("📊 Generate Report", type="primary", use_container_width=True):
-                st.session_state.selected_keywords = st.session_state.physical + st.session_state.psychological + st.session_state.generals
-                st.session_state.step = 4
-                st.session_state.refined_keywords = {}
-                st.session_state.selected_pattern_symptoms = []
-                st.session_state.report_generated = False
-                st.rerun()
-        
-        st.stop()
+Rules:
+- Never suggest dosages, potencies, or repetition schedules — only remedy names.
+- Justify every remedy with specific symptoms from this case.
+- Be clinically precise. Reference the totality, miasm, and modalities.
+- Return ONLY valid JSON, no markdown, no preamble.
 
-    # =============================================
-    # REFINEMENT WITH CHAPTER MATCHES
-    # =============================================
-    if st.session_state.step >= 2:
-        st.header("2. 🔍 Refine Symptoms")
+JSON shape (return exactly this):
+{
+  "primaryRemedy": {
+    "name": "...",
+    "why": "Detailed paragraph — mind, body, generals, modalities from this patient's symptoms.",
+    "keyIndications": ["specific symptom → remedy keynote", "..."],
+    "followedBy": ["Remedy A", "Remedy B"]
+  },
+  "secondaryRemedies": [
+    {"name": "...", "role": "complementary|intercurrent|acute|anti-miasmatic",
+     "rationale": "Why this remedy fits this case."}
+  ],
+  "miasmaticAnalysis": "Paragraph on miasmatic background and how it shapes the prescription.",
+  "caseEssence": "The fundamental disturbance — strange, rare, peculiar features pointing to the simillimum.",
+  "remedyRelationships": "Planned remedy sequence — what follows what, what antidotes what, and why.",
+  "monitoringPoints": ["Observable sign to watch", "..."]
+}"""
 
-        all_user_symptoms = (
-            [("Physical", s) for s in st.session_state.physical] +
-            [("Psychological", s) for s in st.session_state.psychological] +
-            [("Generals", s) for s in st.session_state.generals]
+    prompt = (
+        f"Patient: {patient_id}\n"
+        f"Miasm: {categorised.get('miasm','unknown')}\n"
+        f"Summary: {categorised.get('clinical_summary','')}\n"
+        f"Concomitants: {', '.join(categorised.get('concomitants',[])) or 'none'}\n\n"
+        f"Symptoms:\n" + "\n".join(lines)
+    )
+    model = genai.GenerativeModel(model_name="gemini-2.0-flash", system_instruction=system)
+    response = model.generate_content(
+        prompt,
+        generation_config=genai.GenerationConfig(temperature=0.3, max_output_tokens=4000),
+    )
+    raw = response.text.strip().lstrip("```json").lstrip("```").rstrip("```").strip()
+    return json.loads(raw)
+
+
+# ─────────────────────────────────────────────
+# PDF GENERATION
+# ─────────────────────────────────────────────
+def build_pdf(patient_id: str, categorised: dict, report: dict) -> bytes:
+    buf = tempfile.NamedTemporaryFile(delete=False, suffix=".pdf")
+    doc = SimpleDocTemplate(
+        buf.name, pagesize=A4,
+        rightMargin=55, leftMargin=55, topMargin=70, bottomMargin=60,
+    )
+    styles = getSampleStyleSheet()
+    S = lambda name, **kw: ParagraphStyle(name, parent=styles["Normal"], **kw)
+
+    title_s  = S("T",  fontSize=18, fontName="Helvetica-Bold", textColor=colors.HexColor("#111"), spaceAfter=4)
+    sub_s    = S("Su", fontSize=9,  textColor=colors.HexColor("#888"), spaceAfter=20)
+    label_s  = S("Lb", fontSize=7,  fontName="Helvetica-Bold", textColor=colors.HexColor("#999"),
+                 spaceBefore=14, spaceAfter=5, leading=10)
+    body_s   = S("Bd", fontSize=10, textColor=colors.HexColor("#222"), leading=16, spaceAfter=8)
+    rem_s    = S("RN", fontSize=12, fontName="Helvetica-Bold", textColor=colors.HexColor("#111"), spaceAfter=3)
+    bullet_s = S("Bl", fontSize=10, textColor=colors.HexColor("#333"), leading=14, leftIndent=12, spaceAfter=3)
+    small_s  = S("Sm", fontSize=9,  textColor=colors.HexColor("#666"), leading=13)
+    foot_s   = S("Ft", fontSize=7,  textColor=colors.HexColor("#aaa"))
+
+    elems = [
+        Paragraph("HoRUS 3 — Treatment Plan", title_s),
+        Paragraph(f"Patient {patient_id} &nbsp;·&nbsp; {datetime.now().strftime('%d %B %Y')}", sub_s),
+        HRFlowable(width="100%", thickness=0.5, color=colors.HexColor("#ddd"), spaceAfter=14),
+        Paragraph("CASE ESSENCE", label_s),
+        Paragraph(report.get("caseEssence", ""), body_s),
+        Paragraph("MIASMATIC PICTURE", label_s),
+        Paragraph(report.get("miasmaticAnalysis", ""), body_s),
+    ]
+
+    # Symptom table
+    elems.append(Paragraph("SYMPTOM SUMMARY", label_s))
+    rows = [["Category", "Symptom", "↓ Worse", "↑ Better"]]
+    for cat in ("physical", "psychological", "general"):
+        for s in categorised.get(cat, []):
+            rows.append([
+                cat.title(), s["symptom"][:60],
+                ", ".join(s.get("worse", []))[:40] or "—",
+                ", ".join(s.get("better", []))[:40] or "—",
+            ])
+    if len(rows) > 1:
+        t = Table(rows, colWidths=[1*inch, 2.4*inch, 1.5*inch, 1.5*inch])
+        t.setStyle(TableStyle([
+            ("BACKGROUND",     (0,0), (-1,0), colors.HexColor("#111")),
+            ("TEXTCOLOR",      (0,0), (-1,0), colors.white),
+            ("FONTNAME",       (0,0), (-1,0), "Helvetica-Bold"),
+            ("FONTSIZE",       (0,0), (-1,-1), 8),
+            ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.white, colors.HexColor("#f9f9f9")]),
+            ("GRID",           (0,0), (-1,-1), 0.3, colors.HexColor("#ddd")),
+            ("TOPPADDING",     (0,0), (-1,-1), 5),
+            ("BOTTOMPADDING",  (0,0), (-1,-1), 5),
+            ("LEFTPADDING",    (0,0), (-1,-1), 6),
+            ("VALIGN",         (0,0), (-1,-1), "TOP"),
+        ]))
+        elems += [t, Spacer(1, 14)]
+
+    # Primary remedy
+    pr = report.get("primaryRemedy", {})
+    elems += [Paragraph("SIMILLIMUM", label_s), Paragraph(pr.get("name",""), rem_s), Paragraph(pr.get("why",""), body_s)]
+    if pr.get("keyIndications"):
+        elems.append(Paragraph("Key indications in this case:", small_s))
+        for ind in pr["keyIndications"]:
+            elems.append(Paragraph(f"• {ind}", bullet_s))
+    if pr.get("followedBy"):
+        elems.append(Paragraph(f"Followed well by: {', '.join(pr['followedBy'])}", small_s))
+    elems.append(Spacer(1, 10))
+
+    # Secondary remedies
+    for rem in report.get("secondaryRemedies", []):
+        elems += [
+            Paragraph("SUPPORTING REMEDIES", label_s),
+            Paragraph(f"{rem['name']}  <font size='8' color='#888'>[{rem.get('role','').upper()}]</font>", rem_s),
+            Paragraph(rem.get("rationale",""), body_s),
+        ]
+
+    if report.get("remedyRelationships"):
+        elems += [Paragraph("REMEDY SEQUENCE", label_s), Paragraph(report["remedyRelationships"], body_s)]
+
+    for pt in report.get("monitoringPoints", []):
+        elems.append(Paragraph(f"• {pt}", bullet_s))
+
+    elems += [
+        Spacer(1, 20),
+        HRFlowable(width="100%", thickness=0.3, color=colors.HexColor("#ddd"), spaceAfter=6),
+        Paragraph("For clinical reference only. Prescribing decisions rest with the practitioner.", foot_s),
+    ]
+    doc.build(elems)
+    with open(buf.name, "rb") as f:
+        return f.read()
+
+
+# ─────────────────────────────────────────────
+# HTML HELPERS
+# ─────────────────────────────────────────────
+def sym_tags(items, cls="sym-tag"):
+    return " ".join(f'<span class="{cls}">{i}</span>' for i in items if i)
+
+
+def render_symptom_category(label, symptoms):
+    if not symptoms:
+        return
+    st.markdown(f'<div class="section-label">{label}</div>', unsafe_allow_html=True)
+    for s in symptoms:
+        worse  = sym_tags(s.get("worse",  []), "sym-tag sym-worse")
+        better = sym_tags(s.get("better", []), "sym-tag sym-better")
+        mod = ""
+        if worse:  mod += f'<div style="margin-top:4px">↓ {worse}</div>'
+        if better: mod += f'<div style="margin-top:2px">↑ {better}</div>'
+        st.markdown(
+            f'<div class="remedy-card" style="padding:0.75rem 1rem;margin-bottom:6px">'
+            f'<div style="font-size:0.9rem;font-weight:500;color:#111">{s["symptom"]}</div>'
+            f'<div style="font-size:0.8rem;color:#888">{mod}</div></div>',
+            unsafe_allow_html=True,
         )
 
-        # Quick action buttons
-        action_col1, action_col2 = st.columns(2)
-        with action_col1:
-            if st.button("✅ Use All As-Is (Skip Refinement)", use_container_width=True):
-                st.session_state.selected_keywords = [s for _, s in all_user_symptoms]
-                st.session_state.step = 3
-                st.rerun()
-        with action_col2:
-            refine_count = sum(1 for s in all_user_symptoms if all_user_symptoms[1] in st.session_state.refined_keywords)
-            st.metric("Refined So Far", f"{len(st.session_state.refined_keywords)}/{len(all_user_symptoms)}")
 
-        # Precompute matches
-        chapter_matches = defaultdict(list)
-        with st.spinner("🔍 Searching repertory..."):
-            for chap, symlist in chapters.items():
-                if len(symlist) < 5: continue
-                emb_r = model.encode(symlist, convert_to_tensor=True)
-                seen = set()
-                for _, user_sym in all_user_symptoms:
-                    emb_s = model.encode(user_sym, convert_to_tensor=True)
-                    scores = util.cos_sim(emb_s, emb_r)[0]
-                    topk = scores.topk(min(15, len(scores)))
-                    for sc, idx in zip(topk.values.tolist(), topk.indices.tolist()):
-                        rubric = symlist[idx]
-                        if sc > 0.58 and rubric not in seen:
-                            chapter_matches[chap].append((rubric, float(sc), user_sym))
-                            seen.add(rubric)
+# ─────────────────────────────────────────────
+# SESSION STATE
+# ─────────────────────────────────────────────
+defaults = {
+    "step": "intake",
+    "patient_id": "",
+    "raw_symptoms": "",
+    "categorised": None,
+    "report": None,
+    "case_saved": False,
+}
+for k, v in defaults.items():
+    if k not in st.session_state:
+        st.session_state[k] = v
 
-        st.markdown("---")
-        for category, symptom in all_user_symptoms:
-            key = f"{category}_{symptom}"
-            has_matches = any(orig == symptom for chap, matches in chapter_matches.items() for rubric, sc, orig in matches)
-            
-            expand_default = not has_matches or symptom not in st.session_state.refined_keywords
-            
-            with st.expander(f"**{category}** → {symptom} {'✓' if symptom in st.session_state.refined_keywords else '⚪'}", expanded=expand_default):
-                if not has_matches:
-                    st.info("ℹ️ No close matches found in repertory — keeping original symptom")
-                    continue
-                
-                options = ["→ Keep original symptom (no refinement)"]
-                relevant = []
-                for chap, matches in chapter_matches.items():
-                    for rubric, sc, orig in matches:
-                        if orig == symptom:
-                            relevant.append(f"{rubric} ({sc:.2f}) — {chap}")
-                options += sorted(set(relevant), key=lambda x: float(x.split('(')[1].split(')')[0]), reverse=True)[:15]
+if not st.session_state.patient_id:
+    st.session_state.patient_id = next_patient_id()
 
-                chosen = st.selectbox("Refine this symptom", options, key=f"ref_{key}")
-                if chosen and "Keep original" not in chosen:
-                    rubric = chosen.split(" (")[0]
-                    st.session_state.refined_keywords[symptom] = rubric
+# ─────────────────────────────────────────────
+# STARTUP CHECKS — shown only when secrets missing
+# ─────────────────────────────────────────────
+missing = []
+if not GEMINI_API_KEY:   missing.append("`GEMINI_API_KEY`")
+if not GITHUB_TOKEN:     missing.append("`GITHUB_TOKEN`")
+if not GITHUB_REPO:      missing.append("`GITHUB_REPO`")
 
-        # Modalities Summary Section
-        if st.session_state.refined_keywords:
-            st.markdown("---")
-            st.subheader("🌡️ Modalities Summary (Optional)")
-            st.caption("Add worse/better modifiers for refined symptoms")
-            
-            for orig_sym, refined_sym in st.session_state.refined_keywords.items():
-                with st.expander(f"Modalities for: {refined_sym}"):
-                    c1, c2 = st.columns(2)
-                    worse = c1.multiselect("Worse", MODALITIES["worse"], 
-                                          default=st.session_state.modalities[refined_sym]["worse"],
-                                          key=f"w_sum_{refined_sym}")
-                    better = c2.multiselect("Better", MODALITIES["better"],
-                                           default=st.session_state.modalities[refined_sym]["better"],
-                                           key=f"b_sum_{refined_sym}")
-                    
-                    # Conflict detection
-                    conflicts = set(worse) & set(better)
-                    if conflicts:
-                        st.warning(f"⚠️ Conflicting modalities: {', '.join(conflicts)}")
-                    
-                    st.session_state.modalities[refined_sym] = {"worse": worse, "better": better}
+if missing:
+    st.error(
+        f"**Missing secrets:** {', '.join(missing)}  \n"
+        "Go to **Streamlit Cloud → your app → Settings → Secrets** and add them. "
+        "See the `secrets.toml.example` in the repo for the exact format."
+    )
+    st.stop()
 
-        core_symptoms = [st.session_state.refined_keywords.get(s, s) for _, s in all_user_symptoms]
-        st.session_state.selected_keywords = core_symptoms
-        
-        refined_count = len(st.session_state.refined_keywords)
-        st.success(f"✅ **{len(core_symptoms)} core symptoms ready** ({refined_count} refined)")
+# ─────────────────────────────────────────────
+# HEADER
+# ─────────────────────────────────────────────
+st.markdown("# ⚕ HoRUS 3")
+st.markdown(
+    '<p style="color:#888;font-size:0.9rem;margin-top:-0.75rem;margin-bottom:1.5rem">'
+    "Clinical homeopathic intelligence</p>",
+    unsafe_allow_html=True,
+)
 
-        if st.session_state.step == 2:
-            st.markdown("---")
-            btn_col1, btn_col2 = st.columns(2)
-            
-            with btn_col1:
-                if st.button("🔬 Continue to Discover Patterns", type="primary", use_container_width=True):
-                    st.session_state.step = 3
-                    st.rerun()
-            
-            with btn_col2:
-                if st.button("📊 Skip to Generate Report", type="secondary", use_container_width=True):
-                    st.session_state.step = 4
-                    st.rerun()
-            
-            st.stop()
+STEPS       = ["intake", "analysis", "report"]
+STEP_LABELS = ["Intake", "Categorisation", "Report"]
+step_idx = STEPS.index(st.session_state.step)
+cols_prog = st.columns(len(STEPS))
+for i, (col, lbl) in enumerate(zip(cols_prog, STEP_LABELS)):
+    with col:
+        cls   = "step-pill active" if i == step_idx else "step-pill"
+        check = "✓ " if i < step_idx else ""
+        st.markdown(f'<span class="{cls}">{check}{lbl}</span>', unsafe_allow_html=True)
 
-    # =============================================
-    # PATTERN DISCOVERY WITH CONFIDENCE FILTER
-    # =============================================
-    if st.session_state.step >= 3:
-        st.divider()
-        st.subheader("3. 🔬 Discover Hidden Clinical Patterns")
+st.markdown('<hr style="margin-bottom:1.5rem">', unsafe_allow_html=True)
 
-        core_symptoms = st.session_state.selected_keywords
+# ─────────────────────────────────────────────
+# SIDEBAR — patient management + history
+# ─────────────────────────────────────────────
+with st.sidebar:
+    st.markdown("### Patient")
+    new_pid = st.text_input("Patient ID", value=st.session_state.patient_id)
+    if new_pid.strip().upper() != st.session_state.patient_id:
+        st.session_state.patient_id = new_pid.strip().upper()
+    if st.button("↺  Generate new ID"):
+        st.session_state.patient_id = next_patient_id()
+        st.rerun()
 
-        with st.expander("Find associated symptoms from real case clusters", expanded=True):
-            st.markdown("**HoRUS analyzes thousands of real cases to reveal hidden concomitant symptoms**")
-            
-            col_rarity, col_confidence = st.columns(2)
-            with col_rarity:
-                rarity = st.radio("Pattern Type", ["Common", "Uncommon", "Rare"], horizontal=True)
-            with col_confidence:
-                confidence_threshold = st.slider("Confidence Filter (%)", 0, 100, 50, 5,
-                                                help="Higher = only show patterns from more cases")
-            
-            size_ranges = {
-                "Common": (25, float('inf')),
-                "Uncommon": (12, 24),
-                "Rare": (0, 11)
-            }
-            min_size, max_size = size_ranges[rarity]
+    st.divider()
 
-            found_clusters = []
-            seen_clusters = set()
-
-            for _, df in clusters.items():
-                for keyword in core_symptoms:
-                    rows = df[df['Symptom'].str.contains(keyword, case=False, na=False)]
-                    for _, row in rows.iterrows():
-                        cid = str(row['Cluster_ID'])
-                        if cid in {'NOISE', '-1'} or cid in seen_clusters:
-                            continue
-                        cluster_df = df[df['Cluster_ID'] == cid]
-                        cluster_size = len(cluster_df)
-                        
-                        if min_size <= cluster_size <= max_size:
-                            # Simulate frequency data (in production, this would come from cluster metadata)
-                            frequency = min(100, cluster_size * 2)  # Larger clusters = higher frequency
-                            
-                            if frequency >= confidence_threshold:
-                                seen_clusters.add(cid)
-                                symptoms = cluster_df['Symptom'].tolist()
-                                pattern_syms = [s for s in symptoms if s not in core_symptoms]
-                                found_clusters.append((pattern_syms, frequency))
-                                st.session_state.pattern_frequencies[cid] = frequency
-
-            # Track added symptoms
-            if 'pattern_accumulator' not in st.session_state:
-                st.session_state.pattern_accumulator = []
-
-            if found_clusters:
-                st.write(f"**{len(found_clusters)} clinical pattern(s) discovered**")
-                
-                for i, (cluster, freq) in enumerate(found_clusters[:8]):
-                    with st.expander(f"Pattern {i+1} — {len(cluster)} symptoms | 📊 {freq}% frequency"):
-                        choices = st.multiselect(
-                            "Add to case",
-                            [s for s in cluster if s not in st.session_state.pattern_accumulator],
-                            key=f"add_cluster_{i}"
-                        )
-                        if choices:
-                            st.session_state.pattern_accumulator.extend(choices)
-            else:
-                st.info("No patterns match current filters. Try adjusting rarity or confidence threshold.")
-
-            # Show accumulator
-            if st.session_state.pattern_accumulator:
-                st.markdown("---")
-                st.subheader("📋 Added Patterns Summary")
-                st.caption(f"**{len(set(st.session_state.pattern_accumulator))} unique symptoms** selected from patterns:")
-                for sym in sorted(set(st.session_state.pattern_accumulator)):
-                    st.text(f"• {sym}")
-
-            if st.button("✅ Update Case with Selected Patterns", type="primary", use_container_width=True):
-                st.session_state.selected_pattern_symptoms = list(set(st.session_state.pattern_accumulator))
-                st.session_state.step = 4
-                st.session_state.report_generated = False
-                st.rerun()
-        
-        if st.session_state.step == 3:
-            st.markdown("---")
-            if st.button("📊 Continue to Generate Report (without patterns)", type="secondary", use_container_width=True):
-                st.session_state.step = 4
-                st.rerun()
-            
-            st.stop()
-
-    # =============================================
-    # FINAL REPORT WITH ENHANCED CONTEXT
-    # =============================================
-    if st.session_state.step >= 4:
-        st.divider()
-        st.header("4. 📊 Final Clinical Report")
-
-        def generate_report():
-            core = st.session_state.selected_keywords
-            pattern = st.session_state.selected_pattern_symptoms
-            all_syms = core + pattern
-            only_core = len(pattern) == 0
-
-            top10 = []
-            expanded = set()
-
-            if only_core:
-                st.subheader("Top 10 Remedies — Semantic Expansion Coverage")
-                st.info("AI expands your refined symptoms and ranks by true clinical coverage")
-
-                for c in core:
-                    c_emb = model.encode(c, convert_to_tensor=True)
-                    for syms in chapters.values():
-                        if len(syms) < 10: continue
-                        emb_batch = model.encode(syms, convert_to_tensor=True)
-                        scores = util.cos_sim(c_emb, emb_batch)[0]
-                        for score, sym in zip(scores.tolist(), syms):
-                            if score > 0.65:
-                                expanded.add(sym)
-
-                coverage = defaultdict(int)
-                for remedy in {r for d in s2r_global.values() for r in d}:
-                    for c in core:
-                        if c in s2r_global and remedy in s2r_global[c]:
-                            coverage[remedy] += 1
-                        else:
-                            for exp in expanded:
-                                if exp in s2r_global and remedy in s2r_global[exp]:
-                                    if any(w in exp.lower() for w in c.lower().split() if len(w) > 2):
-                                        coverage[remedy] += 1
-                                        break
-                top10 = sorted(coverage.items(), key=lambda x: x[1], reverse=True)[:10]
-
-                for i, (rem, count) in enumerate(top10, 1):
-                    with st.expander(f"**{i}. {rem.upper()}** — Covers {count}/{len(core)} core symptoms", expanded=(i <= 3)):
-                        col_metric, col_context = st.columns([1, 2])
-                        
-                        with col_metric:
-                            st.metric("Core Coverage", f"{count}/{len(core)}")
-                        
-                        with col_context:
-                            # Add remedy context
-                            if rem.lower() in REMEDY_CONTEXT:
-                                ctx = REMEDY_CONTEXT[rem.lower()]
-                                st.caption(f"💡 **{ctx['thumb']}**")
-                                st.caption(f"▶️ Follows: {', '.join(ctx['follows'])}")
-                                st.caption(f"⊗ Antidoted: {', '.join(ctx['antidoted'])}")
-                        
-                        st.markdown("**Symptom Coverage:**")
-                        for c in core:
-                            covered = (c in s2r_global and rem in s2r_global[c]) or \
-                                      any(rem in s2r_global.get(e,{}) for e in expanded if any(w in e.lower() for w in c.lower().split() if len(w)>2))
-                            st.write(f"{'✅' if covered else '❌'} {c}")
-
-            else:
-                st.subheader("Top 10 Remedies — Classical Weighted Repertorization + Patterns")
-                scores = defaultdict(float)
-                for sym in all_syms:
-                    if sym in s2r_global:
-                        for rem, sc in s2r_global[sym].items():
-                            w = st.session_state.rhe_weight if sym in rhe_dict.get('symptom_to_remedies', {}) else st.session_state.case_weight
-                            scores[rem] += sc * w
-                top10 = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:10]
-                
-                for i, (rem, sc) in enumerate(top10, 1):
-                    with st.expander(f"**{i}. {rem.upper()}** — {sc:.3f}", expanded=(i <= 3)):
-                        col_metric, col_context = st.columns([1, 2])
-                        
-                        with col_metric:
-                            st.metric("Score", f"{sc:.3f}")
-                        
-                        with col_context:
-                            if rem.lower() in REMEDY_CONTEXT:
-                                ctx = REMEDY_CONTEXT[rem.lower()]
-                                st.caption(f"💡 **{ctx['thumb']}**")
-                                st.caption(f"▶️ Follows: {', '.join(ctx['follows'])}")
-                                st.caption(f"⊗ Antidoted: {', '.join(ctx['antidoted'])}")
-
-            # Case notes
-            st.markdown("---")
-            st.subheader("📝 Clinical Notes (Optional)")
-            notes = st.text_area(
-                "Add follow-up notes, remedy response, or observations",
-                value=st.session_state.case_notes,
-                height=100,
-                placeholder="e.g., Patient responded well to Nat-m, followed with Sulphur after 3 weeks..."
-            )
-            st.session_state.case_notes = notes
-
-            # Save case
-            if not st.session_state.report_generated:
-                save_patient_once(st.session_state.patient_id, {
-                    "core": core,
-                    "pattern": pattern,
-                    "top10": top10,
-                    "notes": notes,
-                    "weights": {"rheumatic": st.session_state.rhe_weight, "cases": st.session_state.case_weight},
-                    "mode": "expansion" if only_core else "weighted+patterns"
-                })
-                st.session_state.report_generated = True
-                st.success("✅ Case saved to history")
-
-            # Enhanced PDF Download
-            def create_enhanced_pdf():
-                buffer = tempfile.NamedTemporaryFile(delete=False, suffix=".pdf")
-                doc = SimpleDocTemplate(buffer.name, pagesize=A4, rightMargin=50, leftMargin=50, topMargin=80, bottomMargin=70)
-                styles = getSampleStyleSheet()
-                
-                # Custom styles
-                title_style = ParagraphStyle(
-                    'CustomTitle',
-                    parent=styles['Title'],
-                    fontSize=24,
-                    textColor=colors.HexColor('#1f77b4'),
-                    spaceAfter=30
-                )
-                
-                elements = [
-                    Paragraph("HoRUS 3 — Clinical Report", title_style),
-                    Spacer(1, 12),
-                    Paragraph(f"<b>Patient ID:</b> {st.session_state.patient_id}", styles['Normal']),
-                    Paragraph(f"<b>Date Generated:</b> {datetime.now().strftime('%d %B %Y, %H:%M')}", styles['Normal']),
-                    Paragraph(f"<b>Analysis Mode:</b> {'Semantic Expansion Coverage' if only_core else 'Weighted Repertorization + Patterns'}", styles['Normal']),
-                    Paragraph(f"<b>Dataset Weights:</b> Rheumatic {st.session_state.rhe_weight:.2f} | Case Studies {st.session_state.case_weight:.2f}", styles['Normal']),
-                    Spacer(1, 20),
-                ]
-                
-                # Case presentation summary
-                elements.append(Paragraph("<b>Clinical Presentation</b>", styles['Heading2']))
-                elements.append(Spacer(1, 6))
-                
-                if st.session_state.physical:
-                    elements.append(Paragraph(f"<b>Physical:</b> {', '.join(st.session_state.physical[:5])}", styles['Normal']))
-                if st.session_state.psychological:
-                    elements.append(Paragraph(f"<b>Psychological:</b> {', '.join(st.session_state.psychological[:5])}", styles['Normal']))
-                if st.session_state.generals:
-                    elements.append(Paragraph(f"<b>General:</b> {', '.join(st.session_state.generals[:5])}", styles['Normal']))
-                
-                elements.append(Spacer(1, 20))
-                elements.append(Paragraph("<b>Top 10 Remedies</b>", styles['Heading2']))
-                elements.append(Spacer(1, 12))
-                
-                # Create table for top remedies
-                table_data = [["Rank", "Remedy", "Score", "Context"]]
-                for i, (r, v) in enumerate(top10[:10], 1):
-                    val = f"{v}/{len(core)}" if only_core else f"{v:.3f}"
-                    context = REMEDY_CONTEXT.get(r.lower(), {}).get('thumb', '-')[:40]
-                    table_data.append([str(i), r.upper(), val, context])
-                
-                remedy_table = Table(table_data, colWidths=[0.6*inch, 1.5*inch, 1*inch, 3*inch])
-                remedy_table.setStyle(TableStyle([
-                    ('BACKGROUND', (0, 0), (-1, 0), colors.grey),
-                    ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
-                    ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
-                    ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
-                    ('FONTSIZE', (0, 0), (-1, 0), 12),
-                    ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
-                    ('BACKGROUND', (0, 1), (-1, -1), colors.beige),
-                    ('GRID', (0, 0), (-1, -1), 1, colors.black),
-                    ('FONTSIZE', (0, 1), (-1, -1), 9),
-                ]))
-                elements.append(remedy_table)
-                
-                # Top 3 remedy details
-                elements.append(Spacer(1, 20))
-                elements.append(Paragraph("<b>Top 3 Remedy Details</b>", styles['Heading2']))
-                for i, (rem, _) in enumerate(top10[:3], 1):
-                    elements.append(Spacer(1, 10))
-                    elements.append(Paragraph(f"<b>{i}. {rem.upper()}</b>", styles['Heading3']))
-                    if rem.lower() in REMEDY_CONTEXT:
-                        ctx = REMEDY_CONTEXT[rem.lower()]
-                        elements.append(Paragraph(f"<i>{ctx['thumb']}</i>", styles['Normal']))
-                        elements.append(Paragraph(f"Follows well: {', '.join(ctx['follows'])}", styles['Normal']))
-                        elements.append(Paragraph(f"Antidoted by: {', '.join(ctx['antidoted'])}", styles['Normal']))
-                
-                # Clinical notes
-                if notes:
-                    elements.append(Spacer(1, 20))
-                    elements.append(Paragraph("<b>Clinical Notes</b>", styles['Heading2']))
-                    elements.append(Paragraph(notes, styles['Normal']))
-                
-                doc.build(elements)
-                return buffer.name
-
-            pdf_path = create_enhanced_pdf()
-            with open(pdf_path, "rb") as f:
-                st.download_button(
-                    "📥 Download Enhanced Clinical Report (PDF)",
-                    f.read(),
-                    f"HoRUS3_{st.session_state.patient_id}_{datetime.now().strftime('%Y%m%d_%H%M')}.pdf",
-                    "application/pdf",
-                    use_container_width=True
-                )
-            
-            # New case button
-            st.markdown("---")
-            if st.button("🔄 Start New Case", type="secondary", use_container_width=True):
-                # Reset to step 1
-                st.session_state.step = 1
-                st.session_state.physical = []
-                st.session_state.psychological = []
-                st.session_state.generals = []
-                st.session_state.refined_keywords = {}
-                st.session_state.selected_pattern_symptoms = []
-                st.session_state.pattern_accumulator = []
-                st.session_state.case_notes = ""
-                st.session_state.report_generated = False
-                st.rerun()
-
-        generate_report()
-
-# =============================================
-# ENHANCED HISTORY TAB
-# =============================================
-with tab2:
-    st.header("📚 Patient History")
-    
+    st.markdown("### History")
     patients = load_patients()
     if patients:
-        # Search functionality
-        search_patient = st.text_input("🔍 Search patient history", placeholder="Type patient ID...")
-        patient_list = sorted(patients.keys())
-        if search_patient:
-            patient_list = [p for p in patient_list if search_patient.upper() in p.upper()]
-        
-        pid = st.selectbox("Select Patient", [""] + patient_list, key="hist_pid")
-        
-        if pid:
-            cases = patients[pid]
-            st.success(f"**{len(cases)} case(s)** on record for {pid}")
-            
-            # Show full top 10 toggle
-            show_full = st.checkbox("Show full Top 10 (default: Top 5)", value=False)
-            limit = 10 if show_full else 5
-            
-            # Case comparison option
-            if len(cases) >= 2:
-                st.markdown("---")
-                st.subheader("📊 Compare Cases")
-                col_c1, col_c2 = st.columns(2)
-                with col_c1:
-                    case1_idx = st.selectbox("First case", range(len(cases)), 
-                                            format_func=lambda x: cases[x]['timestamp'])
-                with col_c2:
-                    case2_idx = st.selectbox("Second case", range(len(cases)), 
-                                            format_func=lambda x: cases[x]['timestamp'],
-                                            index=min(1, len(cases)-1))
-                
-                if st.button("Compare Selected Cases"):
-                    case1 = cases[case1_idx]
-                    case2 = cases[case2_idx]
-                    
-                    st.markdown("### Comparison Results")
-                    
-                    # Create comparison table
-                    comp_data = []
-                    remedies1 = {r[0]: (i+1, r[1]) for i, r in enumerate(case1.get('top10', [])[:10])}
-                    remedies2 = {r[0]: (i+1, r[1]) for i, r in enumerate(case2.get('top10', [])[:10])}
-                    
-                    all_remedies = set(remedies1.keys()) | set(remedies2.keys())
-                    
-                    for rem in sorted(all_remedies):
-                        rank1, score1 = remedies1.get(rem, ('-', '-'))
-                        rank2, score2 = remedies2.get(rem, ('-', '-'))
-                        
-                        change = ""
-                        if rank1 != '-' and rank2 != '-':
-                            diff = rank1 - rank2
-                            if diff > 0:
-                                change = f"⬆️ +{diff}"
-                            elif diff < 0:
-                                change = f"⬇️ {diff}"
-                            else:
-                                change = "➡️ same"
-                        elif rank1 == '-':
-                            change = "🆕 new"
-                        elif rank2 == '-':
-                            change = "❌ dropped"
-                        
-                        comp_data.append({
-                            "Remedy": rem.upper(),
-                            f"Case 1 ({case1['timestamp']})": f"#{rank1}" if rank1 != '-' else '-',
-                            f"Case 2 ({case2['timestamp']})": f"#{rank2}" if rank2 != '-' else '-',
-                            "Change": change
-                        })
-                    
-                    st.dataframe(pd.DataFrame(comp_data), use_container_width=True, hide_index=True)
-            
-            st.markdown("---")
-            st.subheader("Case History")
-            
-            # Display cases in reverse chronological order
-            for idx, case in enumerate(reversed(cases)):
-                mode = "Expansion" if case.get("mode", "").startswith("expansion") else "Weighted + Patterns"
-                weights_info = case.get("weights", {})
-                weight_str = f"Rhe: {weights_info.get('rheumatic', 0.5):.2f} | Cases: {weights_info.get('cases', 0.5):.2f}" if weights_info else ""
-                
-                with st.expander(f"📅 {case['timestamp']} — {mode} {weight_str}", expanded=(idx==0)):
-                    # Display core symptoms
-                    if case.get('core'):
-                        st.markdown("**Core Symptoms:**")
-                        st.write(", ".join(case['core'][:10]))
-                    
-                    # Display pattern symptoms if present
-                    if case.get('pattern'):
-                        st.markdown("**Pattern Symptoms Added:**")
-                        st.write(", ".join(case['pattern'][:5]))
-                    
-                    st.markdown(f"**Top {limit} Remedies:**")
-                    for i, item in enumerate(case.get("top10", [])[:limit]):
-                        rem = item[0].upper()
-                        val = f"{item[1]}/{len(case.get('core',[]))}" if "expansion" in case.get("mode","") else f"{item[1]:.2f}"
-                        
-                        # Add context inline
-                        context = ""
-                        if rem.lower() in REMEDY_CONTEXT:
-                            context = f" — {REMEDY_CONTEXT[rem.lower()]['thumb']}"
-                        
-                        st.write(f"**{i+1}. {rem}** — {val}{context}")
-                    
-                    # Display notes if present
-                    if case.get('notes'):
-                        st.markdown("**Clinical Notes:**")
-                        st.info(case['notes'])
-        
-        # Bulk export option
-        st.markdown("---")
-        st.subheader("📤 Export Options")
-        
-        col_e1, col_e2 = st.columns(2)
-        with col_e1:
-            if st.button("Export All Patient Data (JSON)", use_container_width=True):
-                json_data = json.dumps(patients, indent=2)
-                st.download_button(
-                    "Download JSON",
-                    json_data,
-                    f"horus3_all_patients_{datetime.now().strftime('%Y%m%d')}.json",
-                    "application/json",
-                    use_container_width=True
-                )
-        
-        with col_e2:
-            if pid and st.button("Export Single Patient (JSON)", use_container_width=True):
-                patient_data = {pid: patients[pid]}
-                json_data = json.dumps(patient_data, indent=2)
-                st.download_button(
-                    "Download JSON",
-                    json_data,
-                    f"horus3_{pid}_{datetime.now().strftime('%Y%m%d')}.json",
-                    "application/json",
-                    use_container_width=True
-                )
-        
-        st.markdown("---")
-        if st.button("🗑️ Clear All History", type="secondary"):
-            if st.checkbox("⚠️ Confirm permanent deletion of ALL patient records"):
-                if os.path.exists(HISTORY_FILE):
-                    os.remove(HISTORY_FILE)
-                st.success("✅ All history cleared")
-                st.rerun()
+        pid_sel = st.selectbox("Load patient", ["—"] + sorted(patients.keys()), key="hist_sel")
+        if pid_sel and pid_sel != "—":
+            cases = patients[pid_sel]
+            st.markdown(f"**{len(cases)} case(s)**")
+            for c in reversed(cases):
+                with st.expander(c["timestamp"]):
+                    for i, r in enumerate(c.get("top_remedies", [])[:5], 1):
+                        st.markdown(f"{i}. **{r}**")
+                    if c.get("clinical_notes"):
+                        st.caption(c["clinical_notes"])
     else:
-        st.info("📭 No patient history yet. Complete a case to build your database.")
+        st.caption("No history yet.")
 
-# =============================================
-# KEYBOARD SHORTCUTS HELPER
-# =============================================
-with st.sidebar:
-    st.markdown("---")
-    with st.expander("⌨️ Keyboard Shortcuts"):
-        st.markdown("""
-        **Coming Soon:**
-        - `Ctrl+R` — Refine symptoms
-        - `Ctrl+P` — Generate report
-        - `Ctrl+N` — New patient
-        - `Ctrl+S` — Save/Export
-        
-        *Note: Browser-based shortcuts require additional implementation*
-        """)
+    st.divider()
+    if st.button("↺  Start new case", use_container_width=True):
+        for k in ("step", "raw_symptoms", "categorised", "report", "case_saved"):
+            st.session_state[k] = defaults[k]
+        st.session_state.step = "intake"
+        st.session_state.patient_id = next_patient_id()
+        st.rerun()
+
+
+# ─────────────────────────────────────────────
+# STEP 1 — INTAKE
+# ─────────────────────────────────────────────
+if st.session_state.step == "intake":
+    st.markdown(
+        f'<div class="patient-badge">Patient {st.session_state.patient_id}</div>',
+        unsafe_allow_html=True,
+    )
+    st.markdown("#### Describe the patient's symptoms")
+    st.markdown(
+        '<p style="font-size:0.85rem;color:#777;margin-top:-0.5rem;margin-bottom:1rem">'
+        "Write freely — physical complaints, mental state, what makes things worse or better, "
+        "time of day, thermal preferences, sleep, appetite, any relevant details.</p>",
+        unsafe_allow_html=True,
+    )
+
+    raw = st.text_area(
+        label="Symptoms",
+        value=st.session_state.raw_symptoms,
+        height=220,
+        placeholder=(
+            "Example: Sharp throbbing headache above the left eye for 3 days, "
+            "worse in cold air and any touch, better lying still in a dark room. "
+            "Very anxious, restless at night, fear of being alone. "
+            "Profuse sweating during sleep, thirsty for cold water in large sips. "
+            "Burning sensation in stomach after meals, better from warm drinks. "
+            "Generally chilly but cannot tolerate a stuffy room..."
+        ),
+        label_visibility="collapsed",
+    )
+    st.session_state.raw_symptoms = raw
+
+    st.markdown(
+        '<div class="info-box">The AI will categorise these symptoms into physical, '
+        "psychological, and general groups with their modalities. "
+        "You can review and edit the result before generating the treatment plan.</div>",
+        unsafe_allow_html=True,
+    )
+
+    if st.button("Analyse symptoms →", type="primary", disabled=not raw.strip(), use_container_width=True):
+        with st.spinner("Parsing symptoms…"):
+            try:
+                result = gemini_categorise(raw)
+                st.session_state.categorised = result
+                st.session_state.step = "analysis"
+                st.rerun()
+            except json.JSONDecodeError as e:
+                st.error(f"Could not parse AI response — try rephrasing. ({e})")
+            except Exception as e:
+                st.error(f"Error: {e}")
+
+
+# ─────────────────────────────────────────────
+# STEP 2 — CATEGORISATION REVIEW
+# ─────────────────────────────────────────────
+elif st.session_state.step == "analysis":
+    cat = st.session_state.categorised
+
+    st.markdown(
+        f'<div class="patient-badge">Patient {st.session_state.patient_id}</div>',
+        unsafe_allow_html=True,
+    )
+
+    if cat.get("clinical_summary"):
+        st.markdown(
+            f'<div class="info-box" style="border-left:3px solid #111;padding-left:1rem">'
+            f'<strong>Case essence</strong><br>{cat["clinical_summary"]}</div>',
+            unsafe_allow_html=True,
+        )
+
+    meta_cols = st.columns(2)
+    with meta_cols[0]:
+        if cat.get("miasm"):
+            st.markdown(
+                f'<span class="sym-tag" style="background:#f0f0f0">Miasm: {cat["miasm"]}</span>',
+                unsafe_allow_html=True,
+            )
+    with meta_cols[1]:
+        if cat.get("concomitants"):
+            st.markdown(
+                f'<span style="font-size:0.8rem;color:#777">'
+                f'Concomitants: {", ".join(cat["concomitants"])}</span>',
+                unsafe_allow_html=True,
+            )
+
+    st.markdown('<div style="margin-top:1rem"></div>', unsafe_allow_html=True)
+    render_symptom_category("Physical",      cat.get("physical",      []))
+    render_symptom_category("Psychological", cat.get("psychological", []))
+    render_symptom_category("General",       cat.get("general",       []))
+
+    with st.expander("✎  Edit categorised symptoms (optional)"):
+        st.caption("Edit symptom text or modalities directly.")
+        for cat_key, cat_label in [
+            ("physical", "Physical"), ("psychological", "Psychological"), ("general", "General")
+        ]:
+            st.markdown(f"**{cat_label}**")
+            edited = []
+            for idx, s in enumerate(cat.get(cat_key, [])):
+                c1, c2, c3 = st.columns([3, 2, 2])
+                sym = c1.text_input("Symptom", value=s["symptom"],
+                                    key=f"edit_{cat_key}_{idx}_sym", label_visibility="collapsed")
+                w   = c2.text_input("↓ Worse",  value=", ".join(s.get("worse",  [])),
+                                    key=f"edit_{cat_key}_{idx}_w",   label_visibility="collapsed")
+                b   = c3.text_input("↑ Better", value=", ".join(s.get("better", [])),
+                                    key=f"edit_{cat_key}_{idx}_b",   label_visibility="collapsed")
+                edited.append({
+                    "symptom": sym,
+                    "worse":  [x.strip() for x in w.split(",") if x.strip()],
+                    "better": [x.strip() for x in b.split(",") if x.strip()],
+                })
+            cat[cat_key] = edited
+        st.session_state.categorised = cat
+
+    st.markdown('<hr style="margin:1.5rem 0">', unsafe_allow_html=True)
+    btn_col1, btn_col2 = st.columns([1, 3])
+    with btn_col1:
+        if st.button("← Back"):
+            st.session_state.step = "intake"
+            st.rerun()
+    with btn_col2:
+        if st.button("Generate treatment plan →", type="primary", use_container_width=True):
+            with st.spinner("Composing treatment plan…"):
+                try:
+                    rpt = gemini_report(st.session_state.patient_id, st.session_state.categorised)
+                    st.session_state.report = rpt
+                    st.session_state.step = "report"
+                    st.session_state.case_saved = False
+                    st.rerun()
+                except json.JSONDecodeError as e:
+                    st.error(f"Could not parse report response. ({e})")
+                except Exception as e:
+                    st.error(f"Error: {e}")
+
+
+# ─────────────────────────────────────────────
+# STEP 3 — TREATMENT PLAN
+# ─────────────────────────────────────────────
+elif st.session_state.step == "report":
+    rpt = st.session_state.report
+    cat = st.session_state.categorised
+    pid = st.session_state.patient_id
+
+    if not rpt:
+        st.error("No report found — please go back.")
+        st.stop()
+
+    # Save once to GitHub
+    if not st.session_state.case_saved:
+        top_remedies = [rpt["primaryRemedy"]["name"]] + [
+            r["name"] for r in rpt.get("secondaryRemedies", [])
+        ]
+        with st.spinner("Saving case to GitHub…"):
+            save_case(pid, {
+                "raw_symptoms":  st.session_state.raw_symptoms,
+                "categorised":   cat,
+                "top_remedies":  top_remedies,
+                "clinical_notes": rpt.get("caseEssence", ""),
+            })
+        st.session_state.case_saved = True
+
+    st.markdown(
+        f'<div class="patient-badge">Patient {pid} &nbsp;·&nbsp; '
+        f'{datetime.now().strftime("%d %B %Y")}</div>',
+        unsafe_allow_html=True,
+    )
+    st.markdown("## Treatment Plan")
+
+    if rpt.get("caseEssence"):
+        st.markdown(
+            f'<div class="info-box" style="border-left:3px solid #111;padding-left:1rem">'
+            f'<strong>Case essence</strong><br>{rpt["caseEssence"]}</div>',
+            unsafe_allow_html=True,
+        )
+
+    if rpt.get("miasmaticAnalysis"):
+        st.markdown('<div class="section-label">Miasmatic picture</div>', unsafe_allow_html=True)
+        st.markdown(
+            f'<p style="font-size:0.9rem;color:#333;line-height:1.7">{rpt["miasmaticAnalysis"]}</p>',
+            unsafe_allow_html=True,
+        )
+
+    pr = rpt.get("primaryRemedy", {})
+    st.markdown('<div class="section-label">Simillimum</div>', unsafe_allow_html=True)
+
+    followed_html = ""
+    if pr.get("followedBy"):
+        followed_html = f'<div class="remedy-meta">Followed well by: {", ".join(pr["followedBy"])}</div>'
+
+    indications_html = ""
+    if pr.get("keyIndications"):
+        items = "".join(f"<li>{i}</li>" for i in pr["keyIndications"])
+        indications_html = (
+            f'<div class="remedy-meta" style="margin-top:0.6rem">'
+            f'<strong>Key indications in this case</strong>'
+            f'<ul style="margin:0.3rem 0 0 1rem;padding:0;font-size:0.85rem;color:#444">{items}</ul>'
+            f'</div>'
+        )
+
+    st.markdown(
+        f'<div class="remedy-card remedy-primary">'
+        f'<div class="remedy-name">{pr.get("name","")}</div>'
+        f'<div class="remedy-rationale">{pr.get("why","")}</div>'
+        f'{indications_html}{followed_html}</div>',
+        unsafe_allow_html=True,
+    )
+
+    secs = rpt.get("secondaryRemedies", [])
+    if secs:
+        st.markdown('<div class="section-label">Supporting remedies</div>', unsafe_allow_html=True)
+        for rem in secs:
+            role_badge = f'<span class="remedy-role">{rem.get("role","")}</span>'
+            st.markdown(
+                f'<div class="remedy-card">'
+                f'<div class="remedy-name">{rem["name"]}{role_badge}</div>'
+                f'<div class="remedy-rationale">{rem.get("rationale","")}</div></div>',
+                unsafe_allow_html=True,
+            )
+
+    if rpt.get("remedyRelationships"):
+        st.markdown('<div class="section-label">Remedy sequence & relationships</div>', unsafe_allow_html=True)
+        st.markdown(
+            f'<p style="font-size:0.9rem;color:#333;line-height:1.7">{rpt["remedyRelationships"]}</p>',
+            unsafe_allow_html=True,
+        )
+
+    mon = rpt.get("monitoringPoints", [])
+    if mon:
+        st.markdown('<div class="section-label">What to monitor</div>', unsafe_allow_html=True)
+        items_html = "".join(f'<div class="monitor-item">• {pt}</div>' for pt in mon)
+        st.markdown(f'<div class="info-box" style="padding:0.6rem 1rem">{items_html}</div>',
+                    unsafe_allow_html=True)
+
+    with st.expander("Full symptom categorisation"):
+        render_symptom_category("Physical",      cat.get("physical",      []))
+        render_symptom_category("Psychological", cat.get("psychological", []))
+        render_symptom_category("General",       cat.get("general",       []))
+
+    st.markdown('<hr style="margin:1.5rem 0">', unsafe_allow_html=True)
+    act1, act2, act3 = st.columns(3)
+
+    with act1:
+        if st.button("← Back to categorisation"):
+            st.session_state.step = "analysis"
+            st.rerun()
+
+    with act2:
+        try:
+            pdf_bytes = build_pdf(pid, cat, rpt)
+            st.download_button(
+                label="↓ Download PDF",
+                data=pdf_bytes,
+                file_name=f"HoRUS3_{pid}_{datetime.now().strftime('%Y%m%d')}.pdf",
+                mime="application/pdf",
+                use_container_width=True,
+            )
+        except Exception as e:
+            st.error(f"PDF error: {e}")
+
+    with act3:
+        if st.button("↺  New case", use_container_width=True):
+            for k in ("step", "raw_symptoms", "categorised", "report", "case_saved"):
+                st.session_state[k] = defaults[k]
+            st.session_state.step = "intake"
+            st.session_state.patient_id = next_patient_id()
+            st.rerun()
+
+    st.markdown(
+        '<p style="font-size:0.75rem;color:#bbb;margin-top:1rem;text-align:center">'
+        "For clinical reference only. Prescribing decisions rest with the practitioner.</p>",
+        unsafe_allow_html=True,
+    )
