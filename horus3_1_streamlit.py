@@ -302,7 +302,7 @@ JSON shape (return exactly this, nothing else):
   "concomitants": ["..."],
   "clinical_summary": "..."
 }"""
-    model = genai.GenerativeModel(model_name="gemini-2.0-flash", system_instruction=system)
+    model = genai.GenerativeModel(model_name="gemini-1.5-flash", system_instruction=system)
     response = model.generate_content(
         f"Patient describes: {raw_text}",
         generation_config=genai.GenerationConfig(temperature=0.2, max_output_tokens=3000),
@@ -352,7 +352,7 @@ JSON shape (return exactly this):
         f"Concomitants: {', '.join(categorised.get('concomitants',[])) or 'none'}\n\n"
         f"Symptoms:\n" + "\n".join(lines)
     )
-    model = genai.GenerativeModel(model_name="gemini-2.0-flash", system_instruction=system)
+    model = genai.GenerativeModel(model_name="gemini-1.5-flash", system_instruction=system)
     response = model.generate_content(
         prompt,
         generation_config=genai.GenerationConfig(temperature=0.3, max_output_tokens=4000),
