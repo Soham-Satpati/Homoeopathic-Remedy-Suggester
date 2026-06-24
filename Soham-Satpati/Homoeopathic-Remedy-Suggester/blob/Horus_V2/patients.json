@@ -85,5 +85,85 @@
       ],
       "clinical_notes": "The essence is a 'sensitive, depleted nervous system' struggling to maintain equilibrium under the weight of responsibility. The strange, rare, and peculiar feature is the combination of a chilly constitution with a strong desire for cold drinks, coupled with a headache that is specifically tied to the exhaustion of the intellect."
     }
+  ],
+  "PT-2026-002": [
+    {
+      "timestamp": "2026-06-24 13:01",
+      "raw_symptoms": "For the past several months, I have been experiencing frequent headaches with a dull, throbbing pain in my forehead, especially in the late afternoon and after mental exertion. I often feel tired despite sleeping for 7–8 hours, and I wake up during the night with difficulty falling back asleep. I have occasional acidity, bloating after meals, and a tendency to crave sweets and cold drinks. My appetite decreases when I am stressed, and I become anxious about work and daily responsibilities. I am easily irritated by noise and feel mentally overwhelmed at times. I also tend to feel cold more easily than others, and my symptoms seem to worsen during damp weather but improve with light exercise and fresh air.",
+      "categorised": {
+        "physical": [
+          {
+            "symptom": "Frontal throbbing headache",
+            "worse": [
+              "late afternoon",
+              "mental exertion"
+            ],
+            "better": []
+          },
+          {
+            "symptom": "Acidity and bloating",
+            "worse": [
+              "after meals"
+            ],
+            "better": []
+          },
+          {
+            "symptom": "Cravings",
+            "worse": [],
+            "better": [
+              "sweets",
+              "cold drinks"
+            ]
+          }
+        ],
+        "psychological": [
+          {
+            "symptom": "Anxiety regarding work and responsibilities",
+            "worse": [
+              "stress"
+            ],
+            "better": []
+          },
+          {
+            "symptom": "Irritability to noise and mental overwhelm",
+            "worse": [
+              "stress"
+            ],
+            "better": []
+          }
+        ],
+        "general": [
+          {
+            "symptom": "Fatigue and sleep disturbance",
+            "worse": [
+              "waking at night"
+            ],
+            "better": []
+          },
+          {
+            "symptom": "Chilly constitution",
+            "worse": [
+              "damp weather"
+            ],
+            "better": [
+              "light exercise",
+              "fresh air"
+            ]
+          }
+        ],
+        "miasm": "Tubercular",
+        "concomitants": [
+          "Appetite loss during stress",
+          "Sleep disturbance associated with mental fatigue"
+        ],
+        "clinical_summary": "A tubercular-miasmatic case characterized by mental exhaustion, anxiety, and digestive disturbances, showing a distinct sensitivity to damp weather and improvement through movement."
+      },
+      "top_remedies": [
+        "Phosphorus",
+        "Calcarea Phosphorica",
+        "Nux Vomica"
+      ],
+      "clinical_notes": "The fundamental disturbance is a nervous system depletion manifesting as a 'leaky' boundary between mental stress and physical digestion. The strange, rare, and peculiar feature is the combination of a chilly constitution that nonetheless craves cold drinks, coupled with the specific modality of improvement through light exercise despite profound mental fatigue."
+    }
   ]
 }
