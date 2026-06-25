@@ -1,6 +1,12 @@
 {
   "PT-2026-001": {
-    "details": {},
+    "details": {
+      "name": "Sam",
+      "age": "27",
+      "gender": "Male",
+      "occupation": "Abc",
+      "contact": "55555"
+    },
     "cases": [
       {
         "timestamp": "2026-06-25 09:59",
