@@ -1,1 +1,70 @@
-{}
+{
+  "PT-2026-001": {
+    "details": {},
+    "cases": [
+      {
+        "timestamp": "2026-06-25 10:58",
+        "raw_symptoms": "Patient have fever from 6 days and runny nose. Also has pain in stomach and experiencing vomiting after food. ",
+        "categorised": {
+          "physical": [
+            {
+              "symptom": "Fever",
+              "worse": [
+                "6 days duration"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Coryza (runny nose)",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Gastric pain",
+              "worse": [
+                "eating"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Vomiting",
+              "worse": [
+                "after food"
+              ],
+              "better": []
+            }
+          ],
+          "psychological": [],
+          "general": [
+            {
+              "symptom": "Acute febrile state with gastrointestinal disturbance",
+              "worse": [
+                "food intake"
+              ],
+              "better": []
+            }
+          ],
+          "miasm": "Psoric",
+          "concomitants": [
+            "Vomiting occurring specifically after food intake during a febrile state"
+          ],
+          "clinical_summary": "An acute case presenting with a six-day febrile illness accompanied by catarrhal symptoms and gastric irritability manifesting as post-prandial emesis."
+        },
+        "top_remedies": [
+          "Ipecacuanha",
+          "Arsenicum Album",
+          "Nux Vomica"
+        ],
+        "clinical_notes": "The fundamental disturbance is a state of acute gastric intolerance during a febrile process, where the stomach rejects all intake. The strange, rare, and peculiar feature is the specific modality of vomiting occurring immediately post-prandial during the febrile state, indicating a spasmodic contraction of the stomach lining.",
+        "patient_details": {
+          "name": "",
+          "age": "",
+          "gender": "",
+          "occupation": "",
+          "contact": ""
+        },
+        "analysis_mode": "case_studies"
+      }
+    ]
+  }
+}
