@@ -165,5 +165,74 @@
       ],
       "clinical_notes": "The fundamental disturbance is a nervous system depletion manifesting as a 'leaky' boundary between mental stress and physical digestion. The strange, rare, and peculiar feature is the combination of a chilly constitution that nonetheless craves cold drinks, coupled with the specific modality of improvement through light exercise despite profound mental fatigue."
     }
+  ],
+  "PT-2026-003": [
+    {
+      "timestamp": "2026-06-25 08:57",
+      "raw_symptoms": "“Doctor, for the past few months I’ve been feeling unusually tired and weak, even after a full night’s sleep. I often get headaches in the afternoon, and there is a dull heaviness in my forehead. My digestion is irregular—I feel bloated after meals and sometimes have acidity, especially in the evening. I am also more irritable than usual and find it difficult to concentrate on my work. My sleep is disturbed because I wake up around 3 or 4 a.m. and struggle to fall asleep again. I tend to feel worse in cold weather and when I am under stress, but I feel somewhat better after resting and drinking warm beverages.”\n",
+      "categorised": {
+        "physical": [
+          {
+            "symptom": "Headache, dull heaviness in forehead",
+            "worse": [
+              "afternoon"
+            ],
+            "better": [
+              "rest"
+            ]
+          },
+          {
+            "symptom": "Digestive bloating and acidity",
+            "worse": [
+              "after meals",
+              "evening"
+            ],
+            "better": [
+              "warm beverages"
+            ]
+          }
+        ],
+        "psychological": [
+          {
+            "symptom": "Irritability and difficulty concentrating",
+            "worse": [
+              "stress"
+            ],
+            "better": []
+          }
+        ],
+        "general": [
+          {
+            "symptom": "Fatigue and weakness",
+            "worse": [
+              "cold weather",
+              "stress"
+            ],
+            "better": [
+              "rest"
+            ]
+          },
+          {
+            "symptom": "Disturbed sleep, early morning waking",
+            "worse": [
+              "3-4 a.m."
+            ],
+            "better": []
+          }
+        ],
+        "miasm": "Psoric",
+        "concomitants": [
+          "Early morning waking associated with digestive discomfort",
+          "Irritability linked to afternoon headaches"
+        ],
+        "clinical_summary": "A state of chronic fatigue and digestive disturbance characterized by early morning waking, afternoon headaches, and increased sensitivity to cold and stress."
+      },
+      "top_remedies": [
+        "Nux Vomica",
+        "Sulphur",
+        "Sepia"
+      ],
+      "clinical_notes": "The fundamental disturbance is a state of nervous and digestive hyper-reactivity. The 'strange, rare, and peculiar' feature is the specific synchronization of the 3-4 a.m. waking with digestive discomfort, pointing to a liver-stomach axis imbalance triggered by stress and cold, which Nux Vomica uniquely covers."
+    }
   ]
 }
