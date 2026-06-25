@@ -299,6 +299,15 @@ def save_patient_details(pid: str, details: dict) -> bool:
     return save_patients(patients)
 
 
+def delete_patient(pid: str) -> bool:
+    """Remove a patient and all their cases from GitHub."""
+    patients = load_patients()
+    if pid not in patients:
+        return False
+    del patients[pid]
+    return save_patients(patients)
+
+
 def get_patient_details(pid: str) -> dict:
     patients = load_patients()
     record = patients.get(pid, {})
@@ -652,7 +661,7 @@ st.markdown(
 # ─────────────────────────────────────────────
 # MAIN TABS
 # ─────────────────────────────────────────────
-tab_intake, tab_patients = st.tabs(["📋  New Case", "👥  All Patients"])
+tab_intake, tab_patients, tab_future = st.tabs(["📋  New Case", "👥  All Patients", "🔬  Future Symptoms"])
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -1295,16 +1304,46 @@ with tab_patients:
 
                 # Load into new case button
                 st.markdown('<div style="margin-top:0.75rem"></div>', unsafe_allow_html=True)
-                if st.button(f"📋  New case for {pid}", key=f"new_case_{pid}"):
-                    for k in ("step", "raw_symptoms", "categorised", "report", "case_saved"):
-                        st.session_state[k] = defaults[k]
-                    st.session_state.step = "intake"
-                    st.session_state.patient_id = pid
-                    st.session_state.patient_details = row["details"]
-                    st.rerun()
+                btn_c1, btn_c2 = st.columns([3, 1])
+                with btn_c1:
+                    if st.button(f"📋  New case for {pid}", key=f"new_case_{pid}"):
+                        for k in ("step", "raw_symptoms", "categorised", "report", "case_saved"):
+                            st.session_state[k] = defaults[k]
+                        st.session_state.step = "intake"
+                        st.session_state.patient_id = pid
+                        st.session_state.patient_details = row["details"]
+                        st.rerun()
+                with btn_c2:
+                    confirm_key = f"confirm_delete_{pid}"
+                    if st.session_state.get(confirm_key):
+                        if st.button(f"⚠️ Confirm delete", key=f"do_delete_{pid}", type="primary"):
+                            with st.spinner("Deleting…"):
+                                ok = delete_patient(pid)
+                            if ok:
+                                st.session_state[confirm_key] = False
+                                st.success(f"Patient {pid} deleted.")
+                                st.rerun()
+                    else:
+                        if st.button(f"🗑 Delete", key=f"del_{pid}"):
+                            st.session_state[confirm_key] = True
+                            st.rerun()
 
+
+# ═══════════════════════════════════════════════════════════════
+# TAB 3 — FUTURE SYMPTOMS (PLACEHOLDER)
+# ═══════════════════════════════════════════════════════════════
+with tab_future:
+    st.markdown("## Future Symptoms")
     st.markdown(
-        '<p style="font-size:0.75rem;color:#ddd;margin-top:2rem;text-align:center">'
-        "For clinical reference only.</p>",
+        '<div class="info-box" style="text-align:center;padding:2.5rem 2rem">'
+        '<div style="font-size:2rem;margin-bottom:0.75rem">🔬</div>'
+        '<div style="font-weight:500;color:#111;margin-bottom:0.5rem">Coming Soon</div>'
+        '<div style="font-size:0.85rem;color:#888;line-height:1.7">'
+        'This section will surface AI-suggested follow-up symptoms, '
+        'predictive miasmatic progressions, and repertory cross-references '
+        'based on the patient\'s case history.<br><br>'
+        '<span style="font-size:0.78rem;color:#bbb">Placeholder — under development</span>'
+        '</div>'
+        '</div>',
         unsafe_allow_html=True,
     )
