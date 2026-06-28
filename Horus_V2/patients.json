@@ -1,6 +1,12 @@
 {
   "PT-2026-002": {
-    "details": {},
+    "details": {
+      "name": "Soham",
+      "age": "34",
+      "gender": "Male",
+      "occupation": "ABC",
+      "contact": "555555"
+    },
     "cases": [
       {
         "timestamp": "2026-06-28 23:28",
