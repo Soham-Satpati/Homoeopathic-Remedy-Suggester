@@ -1,1 +1,107 @@
-{}
+{
+  "PT-2026-001": {
+    "details": {},
+    "cases": [
+      {
+        "timestamp": "2026-06-28 23:17",
+        "raw_symptoms": "For the last three months, I've been feeling constantly tired, even after a full night's sleep. I wake up with a dull headache almost every morning, and by afternoon I become mentally exhausted and unable to concentrate. I often have bloating and acidity after eating, especially if I eat spicy or oily foods, and sometimes I feel nauseous. My sleep is restless because I wake up around 3 or 4 a.m. and find it difficult to fall asleep again. I've also become more anxious than usual, worrying about small things, and I get irritable very easily. I tend to feel chilly even when others are comfortable, and I crave sweets but they seem to make my stomach feel worse. Overall, I just don't feel like myself and my energy and mood have both been steadily declining",
+        "categorised": {
+          "physical": [
+            {
+              "symptom": "Dull morning headache",
+              "worse": [
+                "waking"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Gastric bloating and acidity",
+              "worse": [
+                "spicy food",
+                "oily food",
+                "sweets"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Nausea",
+              "worse": [
+                "after eating"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Chilly constitution",
+              "worse": [
+                "cold environment"
+              ],
+              "better": [
+                "warmth"
+              ]
+            }
+          ],
+          "psychological": [
+            {
+              "symptom": "Mental exhaustion and inability to concentrate",
+              "worse": [
+                "afternoon"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Anxiety and irritability",
+              "worse": [
+                "small matters"
+              ],
+              "better": []
+            }
+          ],
+          "general": [
+            {
+              "symptom": "Chronic fatigue",
+              "worse": [
+                "morning"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Restless sleep with early morning waking",
+              "worse": [
+                "3:00 AM to 4:00 AM"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Craving sweets",
+              "worse": [
+                "aggravation of stomach symptoms"
+              ],
+              "better": []
+            }
+          ],
+          "miasm": "Psora-Sycotic",
+          "concomitants": [
+            "Early morning waking with morning headache",
+            "Digestive disturbance following sweet cravings",
+            "Mental fatigue coupled with irritability"
+          ],
+          "clinical_summary": "The patient presents with a Nux-vomica or Lycopodium-like picture characterized by early morning waking, digestive intolerance to rich foods, and a state of mental irritability and fatigue, suggesting a need for a remedy covering hepatic-gastric congestion and nervous exhaustion."
+        },
+        "top_remedies": [
+          "Nux vomica",
+          "Lycopodium",
+          "Calcarea carbonica"
+        ],
+        "clinical_notes": "The fundamental disturbance is a state of 'nervous and digestive bankruptcy' caused by over-stimulation and poor dietary habits. The strange, rare, and peculiar feature is the nausea that is temporarily relieved by eating, coupled with the specific timing of the 3:00 AM awakening, which points directly to the Nux vomica hepatic-nervous axis.",
+        "patient_details": {
+          "name": "Soham",
+          "age": "34",
+          "gender": "Male",
+          "occupation": "ABC",
+          "contact": "555555"
+        },
+        "analysis_mode": "materia_medica"
+      }
+    ]
+  }
+}
