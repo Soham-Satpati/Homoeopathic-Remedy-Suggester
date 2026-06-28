@@ -1,0 +1,235 @@
+### Cluster 103 — Symptoms (15)
+Symptom,Frequency
+rheumatism of hips,1
+compare apis bivonia dulcamara,1
+stitching pain worse at night,1
+gouty pains in knees,1
+severe pains sidewise through pelvis,1
+pains darting from right to left,2
+pain in sacrum worse at night,1
+stitching pain in left elbow,1
+gouty affections,2
+pain in left shoulder worse in morning,1
+severe pain in sacrum,1
+pain in left shoulder worse on waking,1
+sudden appearance of pains in rheumatic and gouty conditions,1
+pain in sacrum worse by motion,1
+stitching pain in left forearm,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+formica rufa,15
+hepar sulphuris,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+sudden appearance of pains in rheumatic and gouty conditions,rheumatism of hips,1.0,1
+sudden appearance of pains in rheumatic and gouty conditions,compare apis bivonia dulcamara,1.0,1
+sudden appearance of pains in rheumatic and gouty conditions,stitching pain worse at night,1.0,1
+sudden appearance of pains in rheumatic and gouty conditions,gouty pains in knees,1.0,1
+sudden appearance of pains in rheumatic and gouty conditions,severe pains sidewise through pelvis,1.0,1
+sudden appearance of pains in rheumatic and gouty conditions,pains darting from right to left,1.0,1
+sudden appearance of pains in rheumatic and gouty conditions,pain in sacrum worse at night,1.0,1
+sudden appearance of pains in rheumatic and gouty conditions,stitching pain in left elbow,1.0,1
+sudden appearance of pains in rheumatic and gouty conditions,gouty affections,1.0,1
+sudden appearance of pains in rheumatic and gouty conditions,pain in left shoulder worse in morning,1.0,1
+sudden appearance of pains in rheumatic and gouty conditions,severe pain in sacrum,1.0,1
+sudden appearance of pains in rheumatic and gouty conditions,pain in left shoulder worse on waking,1.0,1
+sudden appearance of pains in rheumatic and gouty conditions,pain in sacrum worse by motion,1.0,1
+sudden appearance of pains in rheumatic and gouty conditions,stitching pain in left forearm,1.0,1
+rheumatism of hips,compare apis bivonia dulcamara,1.0,1
+rheumatism of hips,stitching pain worse at night,1.0,1
+rheumatism of hips,gouty pains in knees,1.0,1
+rheumatism of hips,severe pains sidewise through pelvis,1.0,1
+rheumatism of hips,pains darting from right to left,1.0,1
+rheumatism of hips,pain in sacrum worse at night,1.0,1
+rheumatism of hips,stitching pain in left elbow,1.0,1
+rheumatism of hips,gouty affections,1.0,1
+rheumatism of hips,pain in left shoulder worse in morning,1.0,1
+rheumatism of hips,severe pain in sacrum,1.0,1
+rheumatism of hips,pain in left shoulder worse on waking,1.0,1
+rheumatism of hips,sudden appearance of pains in rheumatic and gouty conditions,1.0,1
+rheumatism of hips,pain in sacrum worse by motion,1.0,1
+rheumatism of hips,stitching pain in left forearm,1.0,1
+stitching pain worse at night,rheumatism of hips,1.0,1
+stitching pain worse at night,compare apis bivonia dulcamara,1.0,1
+stitching pain worse at night,gouty pains in knees,1.0,1
+stitching pain worse at night,severe pains sidewise through pelvis,1.0,1
+stitching pain worse at night,pains darting from right to left,1.0,1
+stitching pain worse at night,pain in sacrum worse at night,1.0,1
+stitching pain worse at night,stitching pain in left elbow,1.0,1
+stitching pain worse at night,gouty affections,1.0,1
+stitching pain worse at night,pain in left shoulder worse in morning,1.0,1
+stitching pain worse at night,severe pain in sacrum,1.0,1
+stitching pain worse at night,pain in left shoulder worse on waking,1.0,1
+stitching pain worse at night,sudden appearance of pains in rheumatic and gouty conditions,1.0,1
+stitching pain worse at night,pain in sacrum worse by motion,1.0,1
+stitching pain worse at night,stitching pain in left forearm,1.0,1
+pain in sacrum worse by motion,rheumatism of hips,1.0,1
+pain in sacrum worse by motion,compare apis bivonia dulcamara,1.0,1
+pain in sacrum worse by motion,stitching pain worse at night,1.0,1
+pain in sacrum worse by motion,gouty pains in knees,1.0,1
+pain in sacrum worse by motion,severe pains sidewise through pelvis,1.0,1
+pain in sacrum worse by motion,pains darting from right to left,1.0,1
+pain in sacrum worse by motion,pain in sacrum worse at night,1.0,1
+pain in sacrum worse by motion,stitching pain in left elbow,1.0,1
+pain in sacrum worse by motion,gouty affections,1.0,1
+pain in sacrum worse by motion,pain in left shoulder worse in morning,1.0,1
+pain in sacrum worse by motion,severe pain in sacrum,1.0,1
+pain in sacrum worse by motion,pain in left shoulder worse on waking,1.0,1
+pain in sacrum worse by motion,sudden appearance of pains in rheumatic and gouty conditions,1.0,1
+pain in sacrum worse by motion,stitching pain in left forearm,1.0,1
+pains darting from right to left,rheumatism of hips,1.0,1
+pains darting from right to left,compare apis bivonia dulcamara,1.0,1
+pains darting from right to left,stitching pain worse at night,1.0,1
+pains darting from right to left,gouty pains in knees,1.0,1
+pains darting from right to left,severe pains sidewise through pelvis,1.0,1
+pains darting from right to left,pain in sacrum worse at night,1.0,1
+pains darting from right to left,stitching pain in left elbow,1.0,1
+pains darting from right to left,gouty affections,1.0,1
+pains darting from right to left,pain in left shoulder worse in morning,1.0,1
+pains darting from right to left,severe pain in sacrum,1.0,1
+pains darting from right to left,pain in left shoulder worse on waking,1.0,1
+pains darting from right to left,sudden appearance of pains in rheumatic and gouty conditions,1.0,1
+pains darting from right to left,pain in sacrum worse by motion,1.0,1
+pains darting from right to left,stitching pain in left forearm,1.0,1
+pain in left shoulder worse on waking,rheumatism of hips,1.0,1
+pain in left shoulder worse on waking,compare apis bivonia dulcamara,1.0,1
+pain in left shoulder worse on waking,stitching pain worse at night,1.0,1
+pain in left shoulder worse on waking,gouty pains in knees,1.0,1
+pain in left shoulder worse on waking,severe pains sidewise through pelvis,1.0,1
+pain in left shoulder worse on waking,pains darting from right to left,1.0,1
+pain in left shoulder worse on waking,pain in sacrum worse at night,1.0,1
+pain in left shoulder worse on waking,stitching pain in left elbow,1.0,1
+pain in left shoulder worse on waking,gouty affections,1.0,1
+pain in left shoulder worse on waking,pain in left shoulder worse in morning,1.0,1
+pain in left shoulder worse on waking,severe pain in sacrum,1.0,1
+pain in left shoulder worse on waking,sudden appearance of pains in rheumatic and gouty conditions,1.0,1
+pain in left shoulder worse on waking,pain in sacrum worse by motion,1.0,1
+pain in left shoulder worse on waking,stitching pain in left forearm,1.0,1
+stitching pain in left forearm,rheumatism of hips,1.0,1
+stitching pain in left forearm,compare apis bivonia dulcamara,1.0,1
+stitching pain in left forearm,stitching pain worse at night,1.0,1
+stitching pain in left forearm,gouty pains in knees,1.0,1
+stitching pain in left forearm,severe pains sidewise through pelvis,1.0,1
+stitching pain in left forearm,pains darting from right to left,1.0,1
+stitching pain in left forearm,pain in sacrum worse at night,1.0,1
+stitching pain in left forearm,stitching pain in left elbow,1.0,1
+stitching pain in left forearm,gouty affections,1.0,1
+stitching pain in left forearm,pain in left shoulder worse in morning,1.0,1
+stitching pain in left forearm,severe pain in sacrum,1.0,1
+stitching pain in left forearm,pain in left shoulder worse on waking,1.0,1
+stitching pain in left forearm,sudden appearance of pains in rheumatic and gouty conditions,1.0,1
+stitching pain in left forearm,pain in sacrum worse by motion,1.0,1
+pain in left shoulder worse in morning,rheumatism of hips,1.0,1
+pain in left shoulder worse in morning,compare apis bivonia dulcamara,1.0,1
+pain in left shoulder worse in morning,stitching pain worse at night,1.0,1
+pain in left shoulder worse in morning,gouty pains in knees,1.0,1
+pain in left shoulder worse in morning,severe pains sidewise through pelvis,1.0,1
+pain in left shoulder worse in morning,pains darting from right to left,1.0,1
+pain in left shoulder worse in morning,pain in sacrum worse at night,1.0,1
+pain in left shoulder worse in morning,stitching pain in left elbow,1.0,1
+pain in left shoulder worse in morning,gouty affections,1.0,1
+pain in left shoulder worse in morning,severe pain in sacrum,1.0,1
+pain in left shoulder worse in morning,pain in left shoulder worse on waking,1.0,1
+pain in left shoulder worse in morning,sudden appearance of pains in rheumatic and gouty conditions,1.0,1
+pain in left shoulder worse in morning,pain in sacrum worse by motion,1.0,1
+pain in left shoulder worse in morning,stitching pain in left forearm,1.0,1
+pain in sacrum worse at night,rheumatism of hips,1.0,1
+pain in sacrum worse at night,compare apis bivonia dulcamara,1.0,1
+pain in sacrum worse at night,stitching pain worse at night,1.0,1
+pain in sacrum worse at night,gouty pains in knees,1.0,1
+pain in sacrum worse at night,severe pains sidewise through pelvis,1.0,1
+pain in sacrum worse at night,pains darting from right to left,1.0,1
+pain in sacrum worse at night,stitching pain in left elbow,1.0,1
+pain in sacrum worse at night,gouty affections,1.0,1
+pain in sacrum worse at night,pain in left shoulder worse in morning,1.0,1
+pain in sacrum worse at night,severe pain in sacrum,1.0,1
+pain in sacrum worse at night,pain in left shoulder worse on waking,1.0,1
+pain in sacrum worse at night,sudden appearance of pains in rheumatic and gouty conditions,1.0,1
+pain in sacrum worse at night,pain in sacrum worse by motion,1.0,1
+pain in sacrum worse at night,stitching pain in left forearm,1.0,1
+gouty pains in knees,rheumatism of hips,1.0,1
+gouty pains in knees,compare apis bivonia dulcamara,1.0,1
+gouty pains in knees,stitching pain worse at night,1.0,1
+gouty pains in knees,severe pains sidewise through pelvis,1.0,1
+gouty pains in knees,pains darting from right to left,1.0,1
+gouty pains in knees,pain in sacrum worse at night,1.0,1
+gouty pains in knees,stitching pain in left elbow,1.0,1
+gouty pains in knees,gouty affections,1.0,1
+gouty pains in knees,pain in left shoulder worse in morning,1.0,1
+gouty pains in knees,severe pain in sacrum,1.0,1
+gouty pains in knees,pain in left shoulder worse on waking,1.0,1
+gouty pains in knees,sudden appearance of pains in rheumatic and gouty conditions,1.0,1
+gouty pains in knees,pain in sacrum worse by motion,1.0,1
+gouty pains in knees,stitching pain in left forearm,1.0,1
+severe pains sidewise through pelvis,rheumatism of hips,1.0,1
+severe pains sidewise through pelvis,compare apis bivonia dulcamara,1.0,1
+severe pains sidewise through pelvis,stitching pain worse at night,1.0,1
+severe pains sidewise through pelvis,gouty pains in knees,1.0,1
+severe pains sidewise through pelvis,pains darting from right to left,1.0,1
+severe pains sidewise through pelvis,pain in sacrum worse at night,1.0,1
+severe pains sidewise through pelvis,stitching pain in left elbow,1.0,1
+severe pains sidewise through pelvis,gouty affections,1.0,1
+severe pains sidewise through pelvis,pain in left shoulder worse in morning,1.0,1
+severe pains sidewise through pelvis,severe pain in sacrum,1.0,1
+severe pains sidewise through pelvis,pain in left shoulder worse on waking,1.0,1
+severe pains sidewise through pelvis,sudden appearance of pains in rheumatic and gouty conditions,1.0,1
+severe pains sidewise through pelvis,pain in sacrum worse by motion,1.0,1
+severe pains sidewise through pelvis,stitching pain in left forearm,1.0,1
+severe pain in sacrum,rheumatism of hips,1.0,1
+severe pain in sacrum,compare apis bivonia dulcamara,1.0,1
+severe pain in sacrum,stitching pain worse at night,1.0,1
+severe pain in sacrum,gouty pains in knees,1.0,1
+severe pain in sacrum,severe pains sidewise through pelvis,1.0,1
+severe pain in sacrum,pains darting from right to left,1.0,1
+severe pain in sacrum,pain in sacrum worse at night,1.0,1
+severe pain in sacrum,stitching pain in left elbow,1.0,1
+severe pain in sacrum,gouty affections,1.0,1
+severe pain in sacrum,pain in left shoulder worse in morning,1.0,1
+severe pain in sacrum,pain in left shoulder worse on waking,1.0,1
+severe pain in sacrum,sudden appearance of pains in rheumatic and gouty conditions,1.0,1
+severe pain in sacrum,pain in sacrum worse by motion,1.0,1
+severe pain in sacrum,stitching pain in left forearm,1.0,1
+compare apis bivonia dulcamara,rheumatism of hips,1.0,1
+compare apis bivonia dulcamara,stitching pain worse at night,1.0,1
+compare apis bivonia dulcamara,gouty pains in knees,1.0,1
+compare apis bivonia dulcamara,severe pains sidewise through pelvis,1.0,1
+compare apis bivonia dulcamara,pains darting from right to left,1.0,1
+compare apis bivonia dulcamara,pain in sacrum worse at night,1.0,1
+compare apis bivonia dulcamara,stitching pain in left elbow,1.0,1
+compare apis bivonia dulcamara,gouty affections,1.0,1
+compare apis bivonia dulcamara,pain in left shoulder worse in morning,1.0,1
+compare apis bivonia dulcamara,severe pain in sacrum,1.0,1
+compare apis bivonia dulcamara,pain in left shoulder worse on waking,1.0,1
+compare apis bivonia dulcamara,sudden appearance of pains in rheumatic and gouty conditions,1.0,1
+compare apis bivonia dulcamara,pain in sacrum worse by motion,1.0,1
+compare apis bivonia dulcamara,stitching pain in left forearm,1.0,1
+stitching pain in left elbow,rheumatism of hips,1.0,1
+stitching pain in left elbow,compare apis bivonia dulcamara,1.0,1
+stitching pain in left elbow,stitching pain worse at night,1.0,1
+stitching pain in left elbow,gouty pains in knees,1.0,1
+stitching pain in left elbow,severe pains sidewise through pelvis,1.0,1
+stitching pain in left elbow,pains darting from right to left,1.0,1
+stitching pain in left elbow,pain in sacrum worse at night,1.0,1
+stitching pain in left elbow,gouty affections,1.0,1
+stitching pain in left elbow,pain in left shoulder worse in morning,1.0,1
+stitching pain in left elbow,severe pain in sacrum,1.0,1
+stitching pain in left elbow,pain in left shoulder worse on waking,1.0,1
+stitching pain in left elbow,sudden appearance of pains in rheumatic and gouty conditions,1.0,1
+stitching pain in left elbow,pain in sacrum worse by motion,1.0,1
+stitching pain in left elbow,stitching pain in left forearm,1.0,1
+gouty affections,rheumatism of hips,0.5,1
+gouty affections,compare apis bivonia dulcamara,0.5,1
+gouty affections,stitching pain worse at night,0.5,1
+gouty affections,gouty pains in knees,0.5,1
+gouty affections,severe pains sidewise through pelvis,0.5,1
+gouty affections,pains darting from right to left,0.5,1
+gouty affections,pain in sacrum worse at night,0.5,1
+gouty affections,stitching pain in left elbow,0.5,1
+gouty affections,pain in left shoulder worse in morning,0.5,1
+gouty affections,severe pain in sacrum,0.5,1
+gouty affections,pain in left shoulder worse on waking,0.5,1
+gouty affections,sudden appearance of pains in rheumatic and gouty conditions,0.5,1
+gouty affections,pain in sacrum worse by motion,0.5,1
+gouty affections,stitching pain in left forearm,0.5,1

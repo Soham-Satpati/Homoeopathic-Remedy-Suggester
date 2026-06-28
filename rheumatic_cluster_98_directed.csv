@@ -1,0 +1,109 @@
+### Cluster 98 — Symptoms (10)
+Symptom,Frequency
+violent pain in sacrum,1
+bruised pain in sacrum,1
+gouty affections with gastric troubles,1
+pain in soles like walking on needles,1
+white-coated tongue,1
+pain in knees,1
+worse in warmth,1
+eructations tasting of food,1
+worse after bathing,1
+loss of appetite,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+antimonium crudum,10
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+violent pain in sacrum,bruised pain in sacrum,1.0,1
+violent pain in sacrum,gouty affections with gastric troubles,1.0,1
+violent pain in sacrum,pain in soles like walking on needles,1.0,1
+violent pain in sacrum,white-coated tongue,1.0,1
+violent pain in sacrum,pain in knees,1.0,1
+violent pain in sacrum,worse in warmth,1.0,1
+violent pain in sacrum,eructations tasting of food,1.0,1
+violent pain in sacrum,worse after bathing,1.0,1
+violent pain in sacrum,loss of appetite,1.0,1
+loss of appetite,violent pain in sacrum,1.0,1
+loss of appetite,bruised pain in sacrum,1.0,1
+loss of appetite,gouty affections with gastric troubles,1.0,1
+loss of appetite,pain in soles like walking on needles,1.0,1
+loss of appetite,white-coated tongue,1.0,1
+loss of appetite,pain in knees,1.0,1
+loss of appetite,worse in warmth,1.0,1
+loss of appetite,eructations tasting of food,1.0,1
+loss of appetite,worse after bathing,1.0,1
+bruised pain in sacrum,violent pain in sacrum,1.0,1
+bruised pain in sacrum,gouty affections with gastric troubles,1.0,1
+bruised pain in sacrum,pain in soles like walking on needles,1.0,1
+bruised pain in sacrum,white-coated tongue,1.0,1
+bruised pain in sacrum,pain in knees,1.0,1
+bruised pain in sacrum,worse in warmth,1.0,1
+bruised pain in sacrum,eructations tasting of food,1.0,1
+bruised pain in sacrum,worse after bathing,1.0,1
+bruised pain in sacrum,loss of appetite,1.0,1
+pain in knees,violent pain in sacrum,1.0,1
+pain in knees,bruised pain in sacrum,1.0,1
+pain in knees,gouty affections with gastric troubles,1.0,1
+pain in knees,pain in soles like walking on needles,1.0,1
+pain in knees,white-coated tongue,1.0,1
+pain in knees,worse in warmth,1.0,1
+pain in knees,eructations tasting of food,1.0,1
+pain in knees,worse after bathing,1.0,1
+pain in knees,loss of appetite,1.0,1
+worse after bathing,violent pain in sacrum,1.0,1
+worse after bathing,bruised pain in sacrum,1.0,1
+worse after bathing,gouty affections with gastric troubles,1.0,1
+worse after bathing,pain in soles like walking on needles,1.0,1
+worse after bathing,white-coated tongue,1.0,1
+worse after bathing,pain in knees,1.0,1
+worse after bathing,worse in warmth,1.0,1
+worse after bathing,eructations tasting of food,1.0,1
+worse after bathing,loss of appetite,1.0,1
+pain in soles like walking on needles,violent pain in sacrum,1.0,1
+pain in soles like walking on needles,bruised pain in sacrum,1.0,1
+pain in soles like walking on needles,gouty affections with gastric troubles,1.0,1
+pain in soles like walking on needles,white-coated tongue,1.0,1
+pain in soles like walking on needles,pain in knees,1.0,1
+pain in soles like walking on needles,worse in warmth,1.0,1
+pain in soles like walking on needles,eructations tasting of food,1.0,1
+pain in soles like walking on needles,worse after bathing,1.0,1
+pain in soles like walking on needles,loss of appetite,1.0,1
+white-coated tongue,violent pain in sacrum,1.0,1
+white-coated tongue,bruised pain in sacrum,1.0,1
+white-coated tongue,gouty affections with gastric troubles,1.0,1
+white-coated tongue,pain in soles like walking on needles,1.0,1
+white-coated tongue,pain in knees,1.0,1
+white-coated tongue,worse in warmth,1.0,1
+white-coated tongue,eructations tasting of food,1.0,1
+white-coated tongue,worse after bathing,1.0,1
+white-coated tongue,loss of appetite,1.0,1
+worse in warmth,violent pain in sacrum,1.0,1
+worse in warmth,bruised pain in sacrum,1.0,1
+worse in warmth,gouty affections with gastric troubles,1.0,1
+worse in warmth,pain in soles like walking on needles,1.0,1
+worse in warmth,white-coated tongue,1.0,1
+worse in warmth,pain in knees,1.0,1
+worse in warmth,eructations tasting of food,1.0,1
+worse in warmth,worse after bathing,1.0,1
+worse in warmth,loss of appetite,1.0,1
+gouty affections with gastric troubles,violent pain in sacrum,1.0,1
+gouty affections with gastric troubles,bruised pain in sacrum,1.0,1
+gouty affections with gastric troubles,pain in soles like walking on needles,1.0,1
+gouty affections with gastric troubles,white-coated tongue,1.0,1
+gouty affections with gastric troubles,pain in knees,1.0,1
+gouty affections with gastric troubles,worse in warmth,1.0,1
+gouty affections with gastric troubles,eructations tasting of food,1.0,1
+gouty affections with gastric troubles,worse after bathing,1.0,1
+gouty affections with gastric troubles,loss of appetite,1.0,1
+eructations tasting of food,violent pain in sacrum,1.0,1
+eructations tasting of food,bruised pain in sacrum,1.0,1
+eructations tasting of food,gouty affections with gastric troubles,1.0,1
+eructations tasting of food,pain in soles like walking on needles,1.0,1
+eructations tasting of food,white-coated tongue,1.0,1
+eructations tasting of food,pain in knees,1.0,1
+eructations tasting of food,worse in warmth,1.0,1
+eructations tasting of food,worse after bathing,1.0,1
+eructations tasting of food,loss of appetite,1.0,1

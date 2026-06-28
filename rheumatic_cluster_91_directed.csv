@@ -1,0 +1,2925 @@
+### Cluster 91 — Symptoms (54)
+Symptom,Frequency
+redness,1
+sharp darting pains in shoulder,1
+darting pains in arms,1
+sharp lancinating pains in shoulder,1
+heat of joints,1
+darting pains in toes,1
+dry hacking cough,1
+rheumatism in right shoulder joint,1
+raising the patella,1
+tickle left side of trachea,1
+stiffness of feet,1
+nose stuffed up,1
+sharp darting pains in fingers,1
+sharp lancinating pains in fingers,1
+sharp darting pains involving every joint,1
+cannot put on coat,1
+rheumatism of large joints,1
+rheumatism of joints with large amount of serous fluid,1
+rheumatic inflammation of right ankle joint,1
+great anxiety about the heart,1
+rheumatism in deltoid,1
+much swelling about knee joint,1
+pains dull,1
+darting pains in fingers,1
+powerless if attempts to move,1
+alternates with characteristic cough,1
+improved during day,1
+constant pain,1
+sharp lancinating pains in elbow,1
+hands swollen,1
+severe rheumatic inflammation of knee joint,1
+sharp lancinating pains involving every joint,1
+restless nights,1
+darting pains in joints,1
+swollen,1
+sudden pain through chest to spinal column,1
+circumscribed redness of joints,1
+worse during day,1
+strange sensation as if floating in the air,1
+wrists swollen,1
+stiffness of hands,1
+pains heavy,1
+soreness to touch,1
+darting pains in thighs,1
+sharp darting pains in knee joints,1
+sharp lancinating pains in knee joints,1
+much effusion into joints,1
+very painful,1
+excessive dryness of soft palate,1
+redness followed by effusion,1
+rheumatism in triceps,1
+sharp darting pains in elbow,1
+rheumatism of wrist joints,1
+extending to forearm,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+sticta pulmonaria,54
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+stiffness of feet,redness,1.0,1
+stiffness of feet,sharp darting pains in shoulder,1.0,1
+stiffness of feet,darting pains in arms,1.0,1
+stiffness of feet,sharp lancinating pains in shoulder,1.0,1
+stiffness of feet,heat of joints,1.0,1
+stiffness of feet,darting pains in toes,1.0,1
+stiffness of feet,dry hacking cough,1.0,1
+stiffness of feet,rheumatism in right shoulder joint,1.0,1
+stiffness of feet,raising the patella,1.0,1
+stiffness of feet,tickle left side of trachea,1.0,1
+stiffness of feet,nose stuffed up,1.0,1
+stiffness of feet,sharp darting pains in fingers,1.0,1
+stiffness of feet,sharp lancinating pains in fingers,1.0,1
+stiffness of feet,sharp darting pains involving every joint,1.0,1
+stiffness of feet,cannot put on coat,1.0,1
+stiffness of feet,rheumatism of large joints,1.0,1
+stiffness of feet,rheumatism of joints with large amount of serous fluid,1.0,1
+stiffness of feet,rheumatic inflammation of right ankle joint,1.0,1
+stiffness of feet,great anxiety about the heart,1.0,1
+stiffness of feet,rheumatism in deltoid,1.0,1
+stiffness of feet,much swelling about knee joint,1.0,1
+stiffness of feet,pains dull,1.0,1
+stiffness of feet,darting pains in fingers,1.0,1
+stiffness of feet,powerless if attempts to move,1.0,1
+stiffness of feet,alternates with characteristic cough,1.0,1
+stiffness of feet,improved during day,1.0,1
+stiffness of feet,constant pain,1.0,1
+stiffness of feet,sharp lancinating pains in elbow,1.0,1
+stiffness of feet,hands swollen,1.0,1
+stiffness of feet,severe rheumatic inflammation of knee joint,1.0,1
+stiffness of feet,sharp lancinating pains involving every joint,1.0,1
+stiffness of feet,restless nights,1.0,1
+stiffness of feet,darting pains in joints,1.0,1
+stiffness of feet,swollen,1.0,1
+stiffness of feet,sudden pain through chest to spinal column,1.0,1
+stiffness of feet,circumscribed redness of joints,1.0,1
+stiffness of feet,worse during day,1.0,1
+stiffness of feet,strange sensation as if floating in the air,1.0,1
+stiffness of feet,wrists swollen,1.0,1
+stiffness of feet,stiffness of hands,1.0,1
+stiffness of feet,pains heavy,1.0,1
+stiffness of feet,soreness to touch,1.0,1
+stiffness of feet,darting pains in thighs,1.0,1
+stiffness of feet,sharp darting pains in knee joints,1.0,1
+stiffness of feet,sharp lancinating pains in knee joints,1.0,1
+stiffness of feet,much effusion into joints,1.0,1
+stiffness of feet,very painful,1.0,1
+stiffness of feet,excessive dryness of soft palate,1.0,1
+stiffness of feet,redness followed by effusion,1.0,1
+stiffness of feet,rheumatism in triceps,1.0,1
+stiffness of feet,sharp darting pains in elbow,1.0,1
+stiffness of feet,rheumatism of wrist joints,1.0,1
+stiffness of feet,extending to forearm,1.0,1
+nose stuffed up,redness,1.0,1
+nose stuffed up,sharp darting pains in shoulder,1.0,1
+nose stuffed up,darting pains in arms,1.0,1
+nose stuffed up,sharp lancinating pains in shoulder,1.0,1
+nose stuffed up,heat of joints,1.0,1
+nose stuffed up,darting pains in toes,1.0,1
+nose stuffed up,dry hacking cough,1.0,1
+nose stuffed up,rheumatism in right shoulder joint,1.0,1
+nose stuffed up,raising the patella,1.0,1
+nose stuffed up,tickle left side of trachea,1.0,1
+nose stuffed up,stiffness of feet,1.0,1
+nose stuffed up,sharp darting pains in fingers,1.0,1
+nose stuffed up,sharp lancinating pains in fingers,1.0,1
+nose stuffed up,sharp darting pains involving every joint,1.0,1
+nose stuffed up,cannot put on coat,1.0,1
+nose stuffed up,rheumatism of large joints,1.0,1
+nose stuffed up,rheumatism of joints with large amount of serous fluid,1.0,1
+nose stuffed up,rheumatic inflammation of right ankle joint,1.0,1
+nose stuffed up,great anxiety about the heart,1.0,1
+nose stuffed up,rheumatism in deltoid,1.0,1
+nose stuffed up,much swelling about knee joint,1.0,1
+nose stuffed up,pains dull,1.0,1
+nose stuffed up,darting pains in fingers,1.0,1
+nose stuffed up,powerless if attempts to move,1.0,1
+nose stuffed up,alternates with characteristic cough,1.0,1
+nose stuffed up,improved during day,1.0,1
+nose stuffed up,constant pain,1.0,1
+nose stuffed up,sharp lancinating pains in elbow,1.0,1
+nose stuffed up,hands swollen,1.0,1
+nose stuffed up,severe rheumatic inflammation of knee joint,1.0,1
+nose stuffed up,sharp lancinating pains involving every joint,1.0,1
+nose stuffed up,restless nights,1.0,1
+nose stuffed up,darting pains in joints,1.0,1
+nose stuffed up,swollen,1.0,1
+nose stuffed up,sudden pain through chest to spinal column,1.0,1
+nose stuffed up,circumscribed redness of joints,1.0,1
+nose stuffed up,worse during day,1.0,1
+nose stuffed up,strange sensation as if floating in the air,1.0,1
+nose stuffed up,wrists swollen,1.0,1
+nose stuffed up,stiffness of hands,1.0,1
+nose stuffed up,pains heavy,1.0,1
+nose stuffed up,soreness to touch,1.0,1
+nose stuffed up,darting pains in thighs,1.0,1
+nose stuffed up,sharp darting pains in knee joints,1.0,1
+nose stuffed up,sharp lancinating pains in knee joints,1.0,1
+nose stuffed up,much effusion into joints,1.0,1
+nose stuffed up,very painful,1.0,1
+nose stuffed up,excessive dryness of soft palate,1.0,1
+nose stuffed up,redness followed by effusion,1.0,1
+nose stuffed up,rheumatism in triceps,1.0,1
+nose stuffed up,sharp darting pains in elbow,1.0,1
+nose stuffed up,rheumatism of wrist joints,1.0,1
+nose stuffed up,extending to forearm,1.0,1
+sharp lancinating pains in elbow,redness,1.0,1
+sharp lancinating pains in elbow,sharp darting pains in shoulder,1.0,1
+sharp lancinating pains in elbow,darting pains in arms,1.0,1
+sharp lancinating pains in elbow,sharp lancinating pains in shoulder,1.0,1
+sharp lancinating pains in elbow,heat of joints,1.0,1
+sharp lancinating pains in elbow,darting pains in toes,1.0,1
+sharp lancinating pains in elbow,dry hacking cough,1.0,1
+sharp lancinating pains in elbow,rheumatism in right shoulder joint,1.0,1
+sharp lancinating pains in elbow,raising the patella,1.0,1
+sharp lancinating pains in elbow,tickle left side of trachea,1.0,1
+sharp lancinating pains in elbow,stiffness of feet,1.0,1
+sharp lancinating pains in elbow,nose stuffed up,1.0,1
+sharp lancinating pains in elbow,sharp darting pains in fingers,1.0,1
+sharp lancinating pains in elbow,sharp lancinating pains in fingers,1.0,1
+sharp lancinating pains in elbow,sharp darting pains involving every joint,1.0,1
+sharp lancinating pains in elbow,cannot put on coat,1.0,1
+sharp lancinating pains in elbow,rheumatism of large joints,1.0,1
+sharp lancinating pains in elbow,rheumatism of joints with large amount of serous fluid,1.0,1
+sharp lancinating pains in elbow,rheumatic inflammation of right ankle joint,1.0,1
+sharp lancinating pains in elbow,great anxiety about the heart,1.0,1
+sharp lancinating pains in elbow,rheumatism in deltoid,1.0,1
+sharp lancinating pains in elbow,much swelling about knee joint,1.0,1
+sharp lancinating pains in elbow,pains dull,1.0,1
+sharp lancinating pains in elbow,darting pains in fingers,1.0,1
+sharp lancinating pains in elbow,powerless if attempts to move,1.0,1
+sharp lancinating pains in elbow,alternates with characteristic cough,1.0,1
+sharp lancinating pains in elbow,improved during day,1.0,1
+sharp lancinating pains in elbow,constant pain,1.0,1
+sharp lancinating pains in elbow,hands swollen,1.0,1
+sharp lancinating pains in elbow,severe rheumatic inflammation of knee joint,1.0,1
+sharp lancinating pains in elbow,sharp lancinating pains involving every joint,1.0,1
+sharp lancinating pains in elbow,restless nights,1.0,1
+sharp lancinating pains in elbow,darting pains in joints,1.0,1
+sharp lancinating pains in elbow,swollen,1.0,1
+sharp lancinating pains in elbow,sudden pain through chest to spinal column,1.0,1
+sharp lancinating pains in elbow,circumscribed redness of joints,1.0,1
+sharp lancinating pains in elbow,worse during day,1.0,1
+sharp lancinating pains in elbow,strange sensation as if floating in the air,1.0,1
+sharp lancinating pains in elbow,wrists swollen,1.0,1
+sharp lancinating pains in elbow,stiffness of hands,1.0,1
+sharp lancinating pains in elbow,pains heavy,1.0,1
+sharp lancinating pains in elbow,soreness to touch,1.0,1
+sharp lancinating pains in elbow,darting pains in thighs,1.0,1
+sharp lancinating pains in elbow,sharp darting pains in knee joints,1.0,1
+sharp lancinating pains in elbow,sharp lancinating pains in knee joints,1.0,1
+sharp lancinating pains in elbow,much effusion into joints,1.0,1
+sharp lancinating pains in elbow,very painful,1.0,1
+sharp lancinating pains in elbow,excessive dryness of soft palate,1.0,1
+sharp lancinating pains in elbow,redness followed by effusion,1.0,1
+sharp lancinating pains in elbow,rheumatism in triceps,1.0,1
+sharp lancinating pains in elbow,sharp darting pains in elbow,1.0,1
+sharp lancinating pains in elbow,rheumatism of wrist joints,1.0,1
+sharp lancinating pains in elbow,extending to forearm,1.0,1
+rheumatism in triceps,redness,1.0,1
+rheumatism in triceps,sharp darting pains in shoulder,1.0,1
+rheumatism in triceps,darting pains in arms,1.0,1
+rheumatism in triceps,sharp lancinating pains in shoulder,1.0,1
+rheumatism in triceps,heat of joints,1.0,1
+rheumatism in triceps,darting pains in toes,1.0,1
+rheumatism in triceps,dry hacking cough,1.0,1
+rheumatism in triceps,rheumatism in right shoulder joint,1.0,1
+rheumatism in triceps,raising the patella,1.0,1
+rheumatism in triceps,tickle left side of trachea,1.0,1
+rheumatism in triceps,stiffness of feet,1.0,1
+rheumatism in triceps,nose stuffed up,1.0,1
+rheumatism in triceps,sharp darting pains in fingers,1.0,1
+rheumatism in triceps,sharp lancinating pains in fingers,1.0,1
+rheumatism in triceps,sharp darting pains involving every joint,1.0,1
+rheumatism in triceps,cannot put on coat,1.0,1
+rheumatism in triceps,rheumatism of large joints,1.0,1
+rheumatism in triceps,rheumatism of joints with large amount of serous fluid,1.0,1
+rheumatism in triceps,rheumatic inflammation of right ankle joint,1.0,1
+rheumatism in triceps,great anxiety about the heart,1.0,1
+rheumatism in triceps,rheumatism in deltoid,1.0,1
+rheumatism in triceps,much swelling about knee joint,1.0,1
+rheumatism in triceps,pains dull,1.0,1
+rheumatism in triceps,darting pains in fingers,1.0,1
+rheumatism in triceps,powerless if attempts to move,1.0,1
+rheumatism in triceps,alternates with characteristic cough,1.0,1
+rheumatism in triceps,improved during day,1.0,1
+rheumatism in triceps,constant pain,1.0,1
+rheumatism in triceps,sharp lancinating pains in elbow,1.0,1
+rheumatism in triceps,hands swollen,1.0,1
+rheumatism in triceps,severe rheumatic inflammation of knee joint,1.0,1
+rheumatism in triceps,sharp lancinating pains involving every joint,1.0,1
+rheumatism in triceps,restless nights,1.0,1
+rheumatism in triceps,darting pains in joints,1.0,1
+rheumatism in triceps,swollen,1.0,1
+rheumatism in triceps,sudden pain through chest to spinal column,1.0,1
+rheumatism in triceps,circumscribed redness of joints,1.0,1
+rheumatism in triceps,worse during day,1.0,1
+rheumatism in triceps,strange sensation as if floating in the air,1.0,1
+rheumatism in triceps,wrists swollen,1.0,1
+rheumatism in triceps,stiffness of hands,1.0,1
+rheumatism in triceps,pains heavy,1.0,1
+rheumatism in triceps,soreness to touch,1.0,1
+rheumatism in triceps,darting pains in thighs,1.0,1
+rheumatism in triceps,sharp darting pains in knee joints,1.0,1
+rheumatism in triceps,sharp lancinating pains in knee joints,1.0,1
+rheumatism in triceps,much effusion into joints,1.0,1
+rheumatism in triceps,very painful,1.0,1
+rheumatism in triceps,excessive dryness of soft palate,1.0,1
+rheumatism in triceps,redness followed by effusion,1.0,1
+rheumatism in triceps,sharp darting pains in elbow,1.0,1
+rheumatism in triceps,rheumatism of wrist joints,1.0,1
+rheumatism in triceps,extending to forearm,1.0,1
+rheumatism of wrist joints,redness,1.0,1
+rheumatism of wrist joints,sharp darting pains in shoulder,1.0,1
+rheumatism of wrist joints,darting pains in arms,1.0,1
+rheumatism of wrist joints,sharp lancinating pains in shoulder,1.0,1
+rheumatism of wrist joints,heat of joints,1.0,1
+rheumatism of wrist joints,darting pains in toes,1.0,1
+rheumatism of wrist joints,dry hacking cough,1.0,1
+rheumatism of wrist joints,rheumatism in right shoulder joint,1.0,1
+rheumatism of wrist joints,raising the patella,1.0,1
+rheumatism of wrist joints,tickle left side of trachea,1.0,1
+rheumatism of wrist joints,stiffness of feet,1.0,1
+rheumatism of wrist joints,nose stuffed up,1.0,1
+rheumatism of wrist joints,sharp darting pains in fingers,1.0,1
+rheumatism of wrist joints,sharp lancinating pains in fingers,1.0,1
+rheumatism of wrist joints,sharp darting pains involving every joint,1.0,1
+rheumatism of wrist joints,cannot put on coat,1.0,1
+rheumatism of wrist joints,rheumatism of large joints,1.0,1
+rheumatism of wrist joints,rheumatism of joints with large amount of serous fluid,1.0,1
+rheumatism of wrist joints,rheumatic inflammation of right ankle joint,1.0,1
+rheumatism of wrist joints,great anxiety about the heart,1.0,1
+rheumatism of wrist joints,rheumatism in deltoid,1.0,1
+rheumatism of wrist joints,much swelling about knee joint,1.0,1
+rheumatism of wrist joints,pains dull,1.0,1
+rheumatism of wrist joints,darting pains in fingers,1.0,1
+rheumatism of wrist joints,powerless if attempts to move,1.0,1
+rheumatism of wrist joints,alternates with characteristic cough,1.0,1
+rheumatism of wrist joints,improved during day,1.0,1
+rheumatism of wrist joints,constant pain,1.0,1
+rheumatism of wrist joints,sharp lancinating pains in elbow,1.0,1
+rheumatism of wrist joints,hands swollen,1.0,1
+rheumatism of wrist joints,severe rheumatic inflammation of knee joint,1.0,1
+rheumatism of wrist joints,sharp lancinating pains involving every joint,1.0,1
+rheumatism of wrist joints,restless nights,1.0,1
+rheumatism of wrist joints,darting pains in joints,1.0,1
+rheumatism of wrist joints,swollen,1.0,1
+rheumatism of wrist joints,sudden pain through chest to spinal column,1.0,1
+rheumatism of wrist joints,circumscribed redness of joints,1.0,1
+rheumatism of wrist joints,worse during day,1.0,1
+rheumatism of wrist joints,strange sensation as if floating in the air,1.0,1
+rheumatism of wrist joints,wrists swollen,1.0,1
+rheumatism of wrist joints,stiffness of hands,1.0,1
+rheumatism of wrist joints,pains heavy,1.0,1
+rheumatism of wrist joints,soreness to touch,1.0,1
+rheumatism of wrist joints,darting pains in thighs,1.0,1
+rheumatism of wrist joints,sharp darting pains in knee joints,1.0,1
+rheumatism of wrist joints,sharp lancinating pains in knee joints,1.0,1
+rheumatism of wrist joints,much effusion into joints,1.0,1
+rheumatism of wrist joints,very painful,1.0,1
+rheumatism of wrist joints,excessive dryness of soft palate,1.0,1
+rheumatism of wrist joints,redness followed by effusion,1.0,1
+rheumatism of wrist joints,rheumatism in triceps,1.0,1
+rheumatism of wrist joints,sharp darting pains in elbow,1.0,1
+rheumatism of wrist joints,extending to forearm,1.0,1
+heat of joints,redness,1.0,1
+heat of joints,sharp darting pains in shoulder,1.0,1
+heat of joints,darting pains in arms,1.0,1
+heat of joints,sharp lancinating pains in shoulder,1.0,1
+heat of joints,darting pains in toes,1.0,1
+heat of joints,dry hacking cough,1.0,1
+heat of joints,rheumatism in right shoulder joint,1.0,1
+heat of joints,raising the patella,1.0,1
+heat of joints,tickle left side of trachea,1.0,1
+heat of joints,stiffness of feet,1.0,1
+heat of joints,nose stuffed up,1.0,1
+heat of joints,sharp darting pains in fingers,1.0,1
+heat of joints,sharp lancinating pains in fingers,1.0,1
+heat of joints,sharp darting pains involving every joint,1.0,1
+heat of joints,cannot put on coat,1.0,1
+heat of joints,rheumatism of large joints,1.0,1
+heat of joints,rheumatism of joints with large amount of serous fluid,1.0,1
+heat of joints,rheumatic inflammation of right ankle joint,1.0,1
+heat of joints,great anxiety about the heart,1.0,1
+heat of joints,rheumatism in deltoid,1.0,1
+heat of joints,much swelling about knee joint,1.0,1
+heat of joints,pains dull,1.0,1
+heat of joints,darting pains in fingers,1.0,1
+heat of joints,powerless if attempts to move,1.0,1
+heat of joints,alternates with characteristic cough,1.0,1
+heat of joints,improved during day,1.0,1
+heat of joints,constant pain,1.0,1
+heat of joints,sharp lancinating pains in elbow,1.0,1
+heat of joints,hands swollen,1.0,1
+heat of joints,severe rheumatic inflammation of knee joint,1.0,1
+heat of joints,sharp lancinating pains involving every joint,1.0,1
+heat of joints,restless nights,1.0,1
+heat of joints,darting pains in joints,1.0,1
+heat of joints,swollen,1.0,1
+heat of joints,sudden pain through chest to spinal column,1.0,1
+heat of joints,circumscribed redness of joints,1.0,1
+heat of joints,worse during day,1.0,1
+heat of joints,strange sensation as if floating in the air,1.0,1
+heat of joints,wrists swollen,1.0,1
+heat of joints,stiffness of hands,1.0,1
+heat of joints,pains heavy,1.0,1
+heat of joints,soreness to touch,1.0,1
+heat of joints,darting pains in thighs,1.0,1
+heat of joints,sharp darting pains in knee joints,1.0,1
+heat of joints,sharp lancinating pains in knee joints,1.0,1
+heat of joints,much effusion into joints,1.0,1
+heat of joints,very painful,1.0,1
+heat of joints,excessive dryness of soft palate,1.0,1
+heat of joints,redness followed by effusion,1.0,1
+heat of joints,rheumatism in triceps,1.0,1
+heat of joints,sharp darting pains in elbow,1.0,1
+heat of joints,rheumatism of wrist joints,1.0,1
+heat of joints,extending to forearm,1.0,1
+cannot put on coat,redness,1.0,1
+cannot put on coat,sharp darting pains in shoulder,1.0,1
+cannot put on coat,darting pains in arms,1.0,1
+cannot put on coat,sharp lancinating pains in shoulder,1.0,1
+cannot put on coat,heat of joints,1.0,1
+cannot put on coat,darting pains in toes,1.0,1
+cannot put on coat,dry hacking cough,1.0,1
+cannot put on coat,rheumatism in right shoulder joint,1.0,1
+cannot put on coat,raising the patella,1.0,1
+cannot put on coat,tickle left side of trachea,1.0,1
+cannot put on coat,stiffness of feet,1.0,1
+cannot put on coat,nose stuffed up,1.0,1
+cannot put on coat,sharp darting pains in fingers,1.0,1
+cannot put on coat,sharp lancinating pains in fingers,1.0,1
+cannot put on coat,sharp darting pains involving every joint,1.0,1
+cannot put on coat,rheumatism of large joints,1.0,1
+cannot put on coat,rheumatism of joints with large amount of serous fluid,1.0,1
+cannot put on coat,rheumatic inflammation of right ankle joint,1.0,1
+cannot put on coat,great anxiety about the heart,1.0,1
+cannot put on coat,rheumatism in deltoid,1.0,1
+cannot put on coat,much swelling about knee joint,1.0,1
+cannot put on coat,pains dull,1.0,1
+cannot put on coat,darting pains in fingers,1.0,1
+cannot put on coat,powerless if attempts to move,1.0,1
+cannot put on coat,alternates with characteristic cough,1.0,1
+cannot put on coat,improved during day,1.0,1
+cannot put on coat,constant pain,1.0,1
+cannot put on coat,sharp lancinating pains in elbow,1.0,1
+cannot put on coat,hands swollen,1.0,1
+cannot put on coat,severe rheumatic inflammation of knee joint,1.0,1
+cannot put on coat,sharp lancinating pains involving every joint,1.0,1
+cannot put on coat,restless nights,1.0,1
+cannot put on coat,darting pains in joints,1.0,1
+cannot put on coat,swollen,1.0,1
+cannot put on coat,sudden pain through chest to spinal column,1.0,1
+cannot put on coat,circumscribed redness of joints,1.0,1
+cannot put on coat,worse during day,1.0,1
+cannot put on coat,strange sensation as if floating in the air,1.0,1
+cannot put on coat,wrists swollen,1.0,1
+cannot put on coat,stiffness of hands,1.0,1
+cannot put on coat,pains heavy,1.0,1
+cannot put on coat,soreness to touch,1.0,1
+cannot put on coat,darting pains in thighs,1.0,1
+cannot put on coat,sharp darting pains in knee joints,1.0,1
+cannot put on coat,sharp lancinating pains in knee joints,1.0,1
+cannot put on coat,much effusion into joints,1.0,1
+cannot put on coat,very painful,1.0,1
+cannot put on coat,excessive dryness of soft palate,1.0,1
+cannot put on coat,redness followed by effusion,1.0,1
+cannot put on coat,rheumatism in triceps,1.0,1
+cannot put on coat,sharp darting pains in elbow,1.0,1
+cannot put on coat,rheumatism of wrist joints,1.0,1
+cannot put on coat,extending to forearm,1.0,1
+sharp darting pains involving every joint,redness,1.0,1
+sharp darting pains involving every joint,sharp darting pains in shoulder,1.0,1
+sharp darting pains involving every joint,darting pains in arms,1.0,1
+sharp darting pains involving every joint,sharp lancinating pains in shoulder,1.0,1
+sharp darting pains involving every joint,heat of joints,1.0,1
+sharp darting pains involving every joint,darting pains in toes,1.0,1
+sharp darting pains involving every joint,dry hacking cough,1.0,1
+sharp darting pains involving every joint,rheumatism in right shoulder joint,1.0,1
+sharp darting pains involving every joint,raising the patella,1.0,1
+sharp darting pains involving every joint,tickle left side of trachea,1.0,1
+sharp darting pains involving every joint,stiffness of feet,1.0,1
+sharp darting pains involving every joint,nose stuffed up,1.0,1
+sharp darting pains involving every joint,sharp darting pains in fingers,1.0,1
+sharp darting pains involving every joint,sharp lancinating pains in fingers,1.0,1
+sharp darting pains involving every joint,cannot put on coat,1.0,1
+sharp darting pains involving every joint,rheumatism of large joints,1.0,1
+sharp darting pains involving every joint,rheumatism of joints with large amount of serous fluid,1.0,1
+sharp darting pains involving every joint,rheumatic inflammation of right ankle joint,1.0,1
+sharp darting pains involving every joint,great anxiety about the heart,1.0,1
+sharp darting pains involving every joint,rheumatism in deltoid,1.0,1
+sharp darting pains involving every joint,much swelling about knee joint,1.0,1
+sharp darting pains involving every joint,pains dull,1.0,1
+sharp darting pains involving every joint,darting pains in fingers,1.0,1
+sharp darting pains involving every joint,powerless if attempts to move,1.0,1
+sharp darting pains involving every joint,alternates with characteristic cough,1.0,1
+sharp darting pains involving every joint,improved during day,1.0,1
+sharp darting pains involving every joint,constant pain,1.0,1
+sharp darting pains involving every joint,sharp lancinating pains in elbow,1.0,1
+sharp darting pains involving every joint,hands swollen,1.0,1
+sharp darting pains involving every joint,severe rheumatic inflammation of knee joint,1.0,1
+sharp darting pains involving every joint,sharp lancinating pains involving every joint,1.0,1
+sharp darting pains involving every joint,restless nights,1.0,1
+sharp darting pains involving every joint,darting pains in joints,1.0,1
+sharp darting pains involving every joint,swollen,1.0,1
+sharp darting pains involving every joint,sudden pain through chest to spinal column,1.0,1
+sharp darting pains involving every joint,circumscribed redness of joints,1.0,1
+sharp darting pains involving every joint,worse during day,1.0,1
+sharp darting pains involving every joint,strange sensation as if floating in the air,1.0,1
+sharp darting pains involving every joint,wrists swollen,1.0,1
+sharp darting pains involving every joint,stiffness of hands,1.0,1
+sharp darting pains involving every joint,pains heavy,1.0,1
+sharp darting pains involving every joint,soreness to touch,1.0,1
+sharp darting pains involving every joint,darting pains in thighs,1.0,1
+sharp darting pains involving every joint,sharp darting pains in knee joints,1.0,1
+sharp darting pains involving every joint,sharp lancinating pains in knee joints,1.0,1
+sharp darting pains involving every joint,much effusion into joints,1.0,1
+sharp darting pains involving every joint,very painful,1.0,1
+sharp darting pains involving every joint,excessive dryness of soft palate,1.0,1
+sharp darting pains involving every joint,redness followed by effusion,1.0,1
+sharp darting pains involving every joint,rheumatism in triceps,1.0,1
+sharp darting pains involving every joint,sharp darting pains in elbow,1.0,1
+sharp darting pains involving every joint,rheumatism of wrist joints,1.0,1
+sharp darting pains involving every joint,extending to forearm,1.0,1
+dry hacking cough,redness,1.0,1
+dry hacking cough,sharp darting pains in shoulder,1.0,1
+dry hacking cough,darting pains in arms,1.0,1
+dry hacking cough,sharp lancinating pains in shoulder,1.0,1
+dry hacking cough,heat of joints,1.0,1
+dry hacking cough,darting pains in toes,1.0,1
+dry hacking cough,rheumatism in right shoulder joint,1.0,1
+dry hacking cough,raising the patella,1.0,1
+dry hacking cough,tickle left side of trachea,1.0,1
+dry hacking cough,stiffness of feet,1.0,1
+dry hacking cough,nose stuffed up,1.0,1
+dry hacking cough,sharp darting pains in fingers,1.0,1
+dry hacking cough,sharp lancinating pains in fingers,1.0,1
+dry hacking cough,sharp darting pains involving every joint,1.0,1
+dry hacking cough,cannot put on coat,1.0,1
+dry hacking cough,rheumatism of large joints,1.0,1
+dry hacking cough,rheumatism of joints with large amount of serous fluid,1.0,1
+dry hacking cough,rheumatic inflammation of right ankle joint,1.0,1
+dry hacking cough,great anxiety about the heart,1.0,1
+dry hacking cough,rheumatism in deltoid,1.0,1
+dry hacking cough,much swelling about knee joint,1.0,1
+dry hacking cough,pains dull,1.0,1
+dry hacking cough,darting pains in fingers,1.0,1
+dry hacking cough,powerless if attempts to move,1.0,1
+dry hacking cough,alternates with characteristic cough,1.0,1
+dry hacking cough,improved during day,1.0,1
+dry hacking cough,constant pain,1.0,1
+dry hacking cough,sharp lancinating pains in elbow,1.0,1
+dry hacking cough,hands swollen,1.0,1
+dry hacking cough,severe rheumatic inflammation of knee joint,1.0,1
+dry hacking cough,sharp lancinating pains involving every joint,1.0,1
+dry hacking cough,restless nights,1.0,1
+dry hacking cough,darting pains in joints,1.0,1
+dry hacking cough,swollen,1.0,1
+dry hacking cough,sudden pain through chest to spinal column,1.0,1
+dry hacking cough,circumscribed redness of joints,1.0,1
+dry hacking cough,worse during day,1.0,1
+dry hacking cough,strange sensation as if floating in the air,1.0,1
+dry hacking cough,wrists swollen,1.0,1
+dry hacking cough,stiffness of hands,1.0,1
+dry hacking cough,pains heavy,1.0,1
+dry hacking cough,soreness to touch,1.0,1
+dry hacking cough,darting pains in thighs,1.0,1
+dry hacking cough,sharp darting pains in knee joints,1.0,1
+dry hacking cough,sharp lancinating pains in knee joints,1.0,1
+dry hacking cough,much effusion into joints,1.0,1
+dry hacking cough,very painful,1.0,1
+dry hacking cough,excessive dryness of soft palate,1.0,1
+dry hacking cough,redness followed by effusion,1.0,1
+dry hacking cough,rheumatism in triceps,1.0,1
+dry hacking cough,sharp darting pains in elbow,1.0,1
+dry hacking cough,rheumatism of wrist joints,1.0,1
+dry hacking cough,extending to forearm,1.0,1
+wrists swollen,redness,1.0,1
+wrists swollen,sharp darting pains in shoulder,1.0,1
+wrists swollen,darting pains in arms,1.0,1
+wrists swollen,sharp lancinating pains in shoulder,1.0,1
+wrists swollen,heat of joints,1.0,1
+wrists swollen,darting pains in toes,1.0,1
+wrists swollen,dry hacking cough,1.0,1
+wrists swollen,rheumatism in right shoulder joint,1.0,1
+wrists swollen,raising the patella,1.0,1
+wrists swollen,tickle left side of trachea,1.0,1
+wrists swollen,stiffness of feet,1.0,1
+wrists swollen,nose stuffed up,1.0,1
+wrists swollen,sharp darting pains in fingers,1.0,1
+wrists swollen,sharp lancinating pains in fingers,1.0,1
+wrists swollen,sharp darting pains involving every joint,1.0,1
+wrists swollen,cannot put on coat,1.0,1
+wrists swollen,rheumatism of large joints,1.0,1
+wrists swollen,rheumatism of joints with large amount of serous fluid,1.0,1
+wrists swollen,rheumatic inflammation of right ankle joint,1.0,1
+wrists swollen,great anxiety about the heart,1.0,1
+wrists swollen,rheumatism in deltoid,1.0,1
+wrists swollen,much swelling about knee joint,1.0,1
+wrists swollen,pains dull,1.0,1
+wrists swollen,darting pains in fingers,1.0,1
+wrists swollen,powerless if attempts to move,1.0,1
+wrists swollen,alternates with characteristic cough,1.0,1
+wrists swollen,improved during day,1.0,1
+wrists swollen,constant pain,1.0,1
+wrists swollen,sharp lancinating pains in elbow,1.0,1
+wrists swollen,hands swollen,1.0,1
+wrists swollen,severe rheumatic inflammation of knee joint,1.0,1
+wrists swollen,sharp lancinating pains involving every joint,1.0,1
+wrists swollen,restless nights,1.0,1
+wrists swollen,darting pains in joints,1.0,1
+wrists swollen,swollen,1.0,1
+wrists swollen,sudden pain through chest to spinal column,1.0,1
+wrists swollen,circumscribed redness of joints,1.0,1
+wrists swollen,worse during day,1.0,1
+wrists swollen,strange sensation as if floating in the air,1.0,1
+wrists swollen,stiffness of hands,1.0,1
+wrists swollen,pains heavy,1.0,1
+wrists swollen,soreness to touch,1.0,1
+wrists swollen,darting pains in thighs,1.0,1
+wrists swollen,sharp darting pains in knee joints,1.0,1
+wrists swollen,sharp lancinating pains in knee joints,1.0,1
+wrists swollen,much effusion into joints,1.0,1
+wrists swollen,very painful,1.0,1
+wrists swollen,excessive dryness of soft palate,1.0,1
+wrists swollen,redness followed by effusion,1.0,1
+wrists swollen,rheumatism in triceps,1.0,1
+wrists swollen,sharp darting pains in elbow,1.0,1
+wrists swollen,rheumatism of wrist joints,1.0,1
+wrists swollen,extending to forearm,1.0,1
+darting pains in arms,redness,1.0,1
+darting pains in arms,sharp darting pains in shoulder,1.0,1
+darting pains in arms,sharp lancinating pains in shoulder,1.0,1
+darting pains in arms,heat of joints,1.0,1
+darting pains in arms,darting pains in toes,1.0,1
+darting pains in arms,dry hacking cough,1.0,1
+darting pains in arms,rheumatism in right shoulder joint,1.0,1
+darting pains in arms,raising the patella,1.0,1
+darting pains in arms,tickle left side of trachea,1.0,1
+darting pains in arms,stiffness of feet,1.0,1
+darting pains in arms,nose stuffed up,1.0,1
+darting pains in arms,sharp darting pains in fingers,1.0,1
+darting pains in arms,sharp lancinating pains in fingers,1.0,1
+darting pains in arms,sharp darting pains involving every joint,1.0,1
+darting pains in arms,cannot put on coat,1.0,1
+darting pains in arms,rheumatism of large joints,1.0,1
+darting pains in arms,rheumatism of joints with large amount of serous fluid,1.0,1
+darting pains in arms,rheumatic inflammation of right ankle joint,1.0,1
+darting pains in arms,great anxiety about the heart,1.0,1
+darting pains in arms,rheumatism in deltoid,1.0,1
+darting pains in arms,much swelling about knee joint,1.0,1
+darting pains in arms,pains dull,1.0,1
+darting pains in arms,darting pains in fingers,1.0,1
+darting pains in arms,powerless if attempts to move,1.0,1
+darting pains in arms,alternates with characteristic cough,1.0,1
+darting pains in arms,improved during day,1.0,1
+darting pains in arms,constant pain,1.0,1
+darting pains in arms,sharp lancinating pains in elbow,1.0,1
+darting pains in arms,hands swollen,1.0,1
+darting pains in arms,severe rheumatic inflammation of knee joint,1.0,1
+darting pains in arms,sharp lancinating pains involving every joint,1.0,1
+darting pains in arms,restless nights,1.0,1
+darting pains in arms,darting pains in joints,1.0,1
+darting pains in arms,swollen,1.0,1
+darting pains in arms,sudden pain through chest to spinal column,1.0,1
+darting pains in arms,circumscribed redness of joints,1.0,1
+darting pains in arms,worse during day,1.0,1
+darting pains in arms,strange sensation as if floating in the air,1.0,1
+darting pains in arms,wrists swollen,1.0,1
+darting pains in arms,stiffness of hands,1.0,1
+darting pains in arms,pains heavy,1.0,1
+darting pains in arms,soreness to touch,1.0,1
+darting pains in arms,darting pains in thighs,1.0,1
+darting pains in arms,sharp darting pains in knee joints,1.0,1
+darting pains in arms,sharp lancinating pains in knee joints,1.0,1
+darting pains in arms,much effusion into joints,1.0,1
+darting pains in arms,very painful,1.0,1
+darting pains in arms,excessive dryness of soft palate,1.0,1
+darting pains in arms,redness followed by effusion,1.0,1
+darting pains in arms,rheumatism in triceps,1.0,1
+darting pains in arms,sharp darting pains in elbow,1.0,1
+darting pains in arms,rheumatism of wrist joints,1.0,1
+darting pains in arms,extending to forearm,1.0,1
+rheumatism in deltoid,redness,1.0,1
+rheumatism in deltoid,sharp darting pains in shoulder,1.0,1
+rheumatism in deltoid,darting pains in arms,1.0,1
+rheumatism in deltoid,sharp lancinating pains in shoulder,1.0,1
+rheumatism in deltoid,heat of joints,1.0,1
+rheumatism in deltoid,darting pains in toes,1.0,1
+rheumatism in deltoid,dry hacking cough,1.0,1
+rheumatism in deltoid,rheumatism in right shoulder joint,1.0,1
+rheumatism in deltoid,raising the patella,1.0,1
+rheumatism in deltoid,tickle left side of trachea,1.0,1
+rheumatism in deltoid,stiffness of feet,1.0,1
+rheumatism in deltoid,nose stuffed up,1.0,1
+rheumatism in deltoid,sharp darting pains in fingers,1.0,1
+rheumatism in deltoid,sharp lancinating pains in fingers,1.0,1
+rheumatism in deltoid,sharp darting pains involving every joint,1.0,1
+rheumatism in deltoid,cannot put on coat,1.0,1
+rheumatism in deltoid,rheumatism of large joints,1.0,1
+rheumatism in deltoid,rheumatism of joints with large amount of serous fluid,1.0,1
+rheumatism in deltoid,rheumatic inflammation of right ankle joint,1.0,1
+rheumatism in deltoid,great anxiety about the heart,1.0,1
+rheumatism in deltoid,much swelling about knee joint,1.0,1
+rheumatism in deltoid,pains dull,1.0,1
+rheumatism in deltoid,darting pains in fingers,1.0,1
+rheumatism in deltoid,powerless if attempts to move,1.0,1
+rheumatism in deltoid,alternates with characteristic cough,1.0,1
+rheumatism in deltoid,improved during day,1.0,1
+rheumatism in deltoid,constant pain,1.0,1
+rheumatism in deltoid,sharp lancinating pains in elbow,1.0,1
+rheumatism in deltoid,hands swollen,1.0,1
+rheumatism in deltoid,severe rheumatic inflammation of knee joint,1.0,1
+rheumatism in deltoid,sharp lancinating pains involving every joint,1.0,1
+rheumatism in deltoid,restless nights,1.0,1
+rheumatism in deltoid,darting pains in joints,1.0,1
+rheumatism in deltoid,swollen,1.0,1
+rheumatism in deltoid,sudden pain through chest to spinal column,1.0,1
+rheumatism in deltoid,circumscribed redness of joints,1.0,1
+rheumatism in deltoid,worse during day,1.0,1
+rheumatism in deltoid,strange sensation as if floating in the air,1.0,1
+rheumatism in deltoid,wrists swollen,1.0,1
+rheumatism in deltoid,stiffness of hands,1.0,1
+rheumatism in deltoid,pains heavy,1.0,1
+rheumatism in deltoid,soreness to touch,1.0,1
+rheumatism in deltoid,darting pains in thighs,1.0,1
+rheumatism in deltoid,sharp darting pains in knee joints,1.0,1
+rheumatism in deltoid,sharp lancinating pains in knee joints,1.0,1
+rheumatism in deltoid,much effusion into joints,1.0,1
+rheumatism in deltoid,very painful,1.0,1
+rheumatism in deltoid,excessive dryness of soft palate,1.0,1
+rheumatism in deltoid,redness followed by effusion,1.0,1
+rheumatism in deltoid,rheumatism in triceps,1.0,1
+rheumatism in deltoid,sharp darting pains in elbow,1.0,1
+rheumatism in deltoid,rheumatism of wrist joints,1.0,1
+rheumatism in deltoid,extending to forearm,1.0,1
+darting pains in thighs,redness,1.0,1
+darting pains in thighs,sharp darting pains in shoulder,1.0,1
+darting pains in thighs,darting pains in arms,1.0,1
+darting pains in thighs,sharp lancinating pains in shoulder,1.0,1
+darting pains in thighs,heat of joints,1.0,1
+darting pains in thighs,darting pains in toes,1.0,1
+darting pains in thighs,dry hacking cough,1.0,1
+darting pains in thighs,rheumatism in right shoulder joint,1.0,1
+darting pains in thighs,raising the patella,1.0,1
+darting pains in thighs,tickle left side of trachea,1.0,1
+darting pains in thighs,stiffness of feet,1.0,1
+darting pains in thighs,nose stuffed up,1.0,1
+darting pains in thighs,sharp darting pains in fingers,1.0,1
+darting pains in thighs,sharp lancinating pains in fingers,1.0,1
+darting pains in thighs,sharp darting pains involving every joint,1.0,1
+darting pains in thighs,cannot put on coat,1.0,1
+darting pains in thighs,rheumatism of large joints,1.0,1
+darting pains in thighs,rheumatism of joints with large amount of serous fluid,1.0,1
+darting pains in thighs,rheumatic inflammation of right ankle joint,1.0,1
+darting pains in thighs,great anxiety about the heart,1.0,1
+darting pains in thighs,rheumatism in deltoid,1.0,1
+darting pains in thighs,much swelling about knee joint,1.0,1
+darting pains in thighs,pains dull,1.0,1
+darting pains in thighs,darting pains in fingers,1.0,1
+darting pains in thighs,powerless if attempts to move,1.0,1
+darting pains in thighs,alternates with characteristic cough,1.0,1
+darting pains in thighs,improved during day,1.0,1
+darting pains in thighs,constant pain,1.0,1
+darting pains in thighs,sharp lancinating pains in elbow,1.0,1
+darting pains in thighs,hands swollen,1.0,1
+darting pains in thighs,severe rheumatic inflammation of knee joint,1.0,1
+darting pains in thighs,sharp lancinating pains involving every joint,1.0,1
+darting pains in thighs,restless nights,1.0,1
+darting pains in thighs,darting pains in joints,1.0,1
+darting pains in thighs,swollen,1.0,1
+darting pains in thighs,sudden pain through chest to spinal column,1.0,1
+darting pains in thighs,circumscribed redness of joints,1.0,1
+darting pains in thighs,worse during day,1.0,1
+darting pains in thighs,strange sensation as if floating in the air,1.0,1
+darting pains in thighs,wrists swollen,1.0,1
+darting pains in thighs,stiffness of hands,1.0,1
+darting pains in thighs,pains heavy,1.0,1
+darting pains in thighs,soreness to touch,1.0,1
+darting pains in thighs,sharp darting pains in knee joints,1.0,1
+darting pains in thighs,sharp lancinating pains in knee joints,1.0,1
+darting pains in thighs,much effusion into joints,1.0,1
+darting pains in thighs,very painful,1.0,1
+darting pains in thighs,excessive dryness of soft palate,1.0,1
+darting pains in thighs,redness followed by effusion,1.0,1
+darting pains in thighs,rheumatism in triceps,1.0,1
+darting pains in thighs,sharp darting pains in elbow,1.0,1
+darting pains in thighs,rheumatism of wrist joints,1.0,1
+darting pains in thighs,extending to forearm,1.0,1
+excessive dryness of soft palate,redness,1.0,1
+excessive dryness of soft palate,sharp darting pains in shoulder,1.0,1
+excessive dryness of soft palate,darting pains in arms,1.0,1
+excessive dryness of soft palate,sharp lancinating pains in shoulder,1.0,1
+excessive dryness of soft palate,heat of joints,1.0,1
+excessive dryness of soft palate,darting pains in toes,1.0,1
+excessive dryness of soft palate,dry hacking cough,1.0,1
+excessive dryness of soft palate,rheumatism in right shoulder joint,1.0,1
+excessive dryness of soft palate,raising the patella,1.0,1
+excessive dryness of soft palate,tickle left side of trachea,1.0,1
+excessive dryness of soft palate,stiffness of feet,1.0,1
+excessive dryness of soft palate,nose stuffed up,1.0,1
+excessive dryness of soft palate,sharp darting pains in fingers,1.0,1
+excessive dryness of soft palate,sharp lancinating pains in fingers,1.0,1
+excessive dryness of soft palate,sharp darting pains involving every joint,1.0,1
+excessive dryness of soft palate,cannot put on coat,1.0,1
+excessive dryness of soft palate,rheumatism of large joints,1.0,1
+excessive dryness of soft palate,rheumatism of joints with large amount of serous fluid,1.0,1
+excessive dryness of soft palate,rheumatic inflammation of right ankle joint,1.0,1
+excessive dryness of soft palate,great anxiety about the heart,1.0,1
+excessive dryness of soft palate,rheumatism in deltoid,1.0,1
+excessive dryness of soft palate,much swelling about knee joint,1.0,1
+excessive dryness of soft palate,pains dull,1.0,1
+excessive dryness of soft palate,darting pains in fingers,1.0,1
+excessive dryness of soft palate,powerless if attempts to move,1.0,1
+excessive dryness of soft palate,alternates with characteristic cough,1.0,1
+excessive dryness of soft palate,improved during day,1.0,1
+excessive dryness of soft palate,constant pain,1.0,1
+excessive dryness of soft palate,sharp lancinating pains in elbow,1.0,1
+excessive dryness of soft palate,hands swollen,1.0,1
+excessive dryness of soft palate,severe rheumatic inflammation of knee joint,1.0,1
+excessive dryness of soft palate,sharp lancinating pains involving every joint,1.0,1
+excessive dryness of soft palate,restless nights,1.0,1
+excessive dryness of soft palate,darting pains in joints,1.0,1
+excessive dryness of soft palate,swollen,1.0,1
+excessive dryness of soft palate,sudden pain through chest to spinal column,1.0,1
+excessive dryness of soft palate,circumscribed redness of joints,1.0,1
+excessive dryness of soft palate,worse during day,1.0,1
+excessive dryness of soft palate,strange sensation as if floating in the air,1.0,1
+excessive dryness of soft palate,wrists swollen,1.0,1
+excessive dryness of soft palate,stiffness of hands,1.0,1
+excessive dryness of soft palate,pains heavy,1.0,1
+excessive dryness of soft palate,soreness to touch,1.0,1
+excessive dryness of soft palate,darting pains in thighs,1.0,1
+excessive dryness of soft palate,sharp darting pains in knee joints,1.0,1
+excessive dryness of soft palate,sharp lancinating pains in knee joints,1.0,1
+excessive dryness of soft palate,much effusion into joints,1.0,1
+excessive dryness of soft palate,very painful,1.0,1
+excessive dryness of soft palate,redness followed by effusion,1.0,1
+excessive dryness of soft palate,rheumatism in triceps,1.0,1
+excessive dryness of soft palate,sharp darting pains in elbow,1.0,1
+excessive dryness of soft palate,rheumatism of wrist joints,1.0,1
+excessive dryness of soft palate,extending to forearm,1.0,1
+rheumatic inflammation of right ankle joint,redness,1.0,1
+rheumatic inflammation of right ankle joint,sharp darting pains in shoulder,1.0,1
+rheumatic inflammation of right ankle joint,darting pains in arms,1.0,1
+rheumatic inflammation of right ankle joint,sharp lancinating pains in shoulder,1.0,1
+rheumatic inflammation of right ankle joint,heat of joints,1.0,1
+rheumatic inflammation of right ankle joint,darting pains in toes,1.0,1
+rheumatic inflammation of right ankle joint,dry hacking cough,1.0,1
+rheumatic inflammation of right ankle joint,rheumatism in right shoulder joint,1.0,1
+rheumatic inflammation of right ankle joint,raising the patella,1.0,1
+rheumatic inflammation of right ankle joint,tickle left side of trachea,1.0,1
+rheumatic inflammation of right ankle joint,stiffness of feet,1.0,1
+rheumatic inflammation of right ankle joint,nose stuffed up,1.0,1
+rheumatic inflammation of right ankle joint,sharp darting pains in fingers,1.0,1
+rheumatic inflammation of right ankle joint,sharp lancinating pains in fingers,1.0,1
+rheumatic inflammation of right ankle joint,sharp darting pains involving every joint,1.0,1
+rheumatic inflammation of right ankle joint,cannot put on coat,1.0,1
+rheumatic inflammation of right ankle joint,rheumatism of large joints,1.0,1
+rheumatic inflammation of right ankle joint,rheumatism of joints with large amount of serous fluid,1.0,1
+rheumatic inflammation of right ankle joint,great anxiety about the heart,1.0,1
+rheumatic inflammation of right ankle joint,rheumatism in deltoid,1.0,1
+rheumatic inflammation of right ankle joint,much swelling about knee joint,1.0,1
+rheumatic inflammation of right ankle joint,pains dull,1.0,1
+rheumatic inflammation of right ankle joint,darting pains in fingers,1.0,1
+rheumatic inflammation of right ankle joint,powerless if attempts to move,1.0,1
+rheumatic inflammation of right ankle joint,alternates with characteristic cough,1.0,1
+rheumatic inflammation of right ankle joint,improved during day,1.0,1
+rheumatic inflammation of right ankle joint,constant pain,1.0,1
+rheumatic inflammation of right ankle joint,sharp lancinating pains in elbow,1.0,1
+rheumatic inflammation of right ankle joint,hands swollen,1.0,1
+rheumatic inflammation of right ankle joint,severe rheumatic inflammation of knee joint,1.0,1
+rheumatic inflammation of right ankle joint,sharp lancinating pains involving every joint,1.0,1
+rheumatic inflammation of right ankle joint,restless nights,1.0,1
+rheumatic inflammation of right ankle joint,darting pains in joints,1.0,1
+rheumatic inflammation of right ankle joint,swollen,1.0,1
+rheumatic inflammation of right ankle joint,sudden pain through chest to spinal column,1.0,1
+rheumatic inflammation of right ankle joint,circumscribed redness of joints,1.0,1
+rheumatic inflammation of right ankle joint,worse during day,1.0,1
+rheumatic inflammation of right ankle joint,strange sensation as if floating in the air,1.0,1
+rheumatic inflammation of right ankle joint,wrists swollen,1.0,1
+rheumatic inflammation of right ankle joint,stiffness of hands,1.0,1
+rheumatic inflammation of right ankle joint,pains heavy,1.0,1
+rheumatic inflammation of right ankle joint,soreness to touch,1.0,1
+rheumatic inflammation of right ankle joint,darting pains in thighs,1.0,1
+rheumatic inflammation of right ankle joint,sharp darting pains in knee joints,1.0,1
+rheumatic inflammation of right ankle joint,sharp lancinating pains in knee joints,1.0,1
+rheumatic inflammation of right ankle joint,much effusion into joints,1.0,1
+rheumatic inflammation of right ankle joint,very painful,1.0,1
+rheumatic inflammation of right ankle joint,excessive dryness of soft palate,1.0,1
+rheumatic inflammation of right ankle joint,redness followed by effusion,1.0,1
+rheumatic inflammation of right ankle joint,rheumatism in triceps,1.0,1
+rheumatic inflammation of right ankle joint,sharp darting pains in elbow,1.0,1
+rheumatic inflammation of right ankle joint,rheumatism of wrist joints,1.0,1
+rheumatic inflammation of right ankle joint,extending to forearm,1.0,1
+sharp lancinating pains involving every joint,redness,1.0,1
+sharp lancinating pains involving every joint,sharp darting pains in shoulder,1.0,1
+sharp lancinating pains involving every joint,darting pains in arms,1.0,1
+sharp lancinating pains involving every joint,sharp lancinating pains in shoulder,1.0,1
+sharp lancinating pains involving every joint,heat of joints,1.0,1
+sharp lancinating pains involving every joint,darting pains in toes,1.0,1
+sharp lancinating pains involving every joint,dry hacking cough,1.0,1
+sharp lancinating pains involving every joint,rheumatism in right shoulder joint,1.0,1
+sharp lancinating pains involving every joint,raising the patella,1.0,1
+sharp lancinating pains involving every joint,tickle left side of trachea,1.0,1
+sharp lancinating pains involving every joint,stiffness of feet,1.0,1
+sharp lancinating pains involving every joint,nose stuffed up,1.0,1
+sharp lancinating pains involving every joint,sharp darting pains in fingers,1.0,1
+sharp lancinating pains involving every joint,sharp lancinating pains in fingers,1.0,1
+sharp lancinating pains involving every joint,sharp darting pains involving every joint,1.0,1
+sharp lancinating pains involving every joint,cannot put on coat,1.0,1
+sharp lancinating pains involving every joint,rheumatism of large joints,1.0,1
+sharp lancinating pains involving every joint,rheumatism of joints with large amount of serous fluid,1.0,1
+sharp lancinating pains involving every joint,rheumatic inflammation of right ankle joint,1.0,1
+sharp lancinating pains involving every joint,great anxiety about the heart,1.0,1
+sharp lancinating pains involving every joint,rheumatism in deltoid,1.0,1
+sharp lancinating pains involving every joint,much swelling about knee joint,1.0,1
+sharp lancinating pains involving every joint,pains dull,1.0,1
+sharp lancinating pains involving every joint,darting pains in fingers,1.0,1
+sharp lancinating pains involving every joint,powerless if attempts to move,1.0,1
+sharp lancinating pains involving every joint,alternates with characteristic cough,1.0,1
+sharp lancinating pains involving every joint,improved during day,1.0,1
+sharp lancinating pains involving every joint,constant pain,1.0,1
+sharp lancinating pains involving every joint,sharp lancinating pains in elbow,1.0,1
+sharp lancinating pains involving every joint,hands swollen,1.0,1
+sharp lancinating pains involving every joint,severe rheumatic inflammation of knee joint,1.0,1
+sharp lancinating pains involving every joint,restless nights,1.0,1
+sharp lancinating pains involving every joint,darting pains in joints,1.0,1
+sharp lancinating pains involving every joint,swollen,1.0,1
+sharp lancinating pains involving every joint,sudden pain through chest to spinal column,1.0,1
+sharp lancinating pains involving every joint,circumscribed redness of joints,1.0,1
+sharp lancinating pains involving every joint,worse during day,1.0,1
+sharp lancinating pains involving every joint,strange sensation as if floating in the air,1.0,1
+sharp lancinating pains involving every joint,wrists swollen,1.0,1
+sharp lancinating pains involving every joint,stiffness of hands,1.0,1
+sharp lancinating pains involving every joint,pains heavy,1.0,1
+sharp lancinating pains involving every joint,soreness to touch,1.0,1
+sharp lancinating pains involving every joint,darting pains in thighs,1.0,1
+sharp lancinating pains involving every joint,sharp darting pains in knee joints,1.0,1
+sharp lancinating pains involving every joint,sharp lancinating pains in knee joints,1.0,1
+sharp lancinating pains involving every joint,much effusion into joints,1.0,1
+sharp lancinating pains involving every joint,very painful,1.0,1
+sharp lancinating pains involving every joint,excessive dryness of soft palate,1.0,1
+sharp lancinating pains involving every joint,redness followed by effusion,1.0,1
+sharp lancinating pains involving every joint,rheumatism in triceps,1.0,1
+sharp lancinating pains involving every joint,sharp darting pains in elbow,1.0,1
+sharp lancinating pains involving every joint,rheumatism of wrist joints,1.0,1
+sharp lancinating pains involving every joint,extending to forearm,1.0,1
+extending to forearm,redness,1.0,1
+extending to forearm,sharp darting pains in shoulder,1.0,1
+extending to forearm,darting pains in arms,1.0,1
+extending to forearm,sharp lancinating pains in shoulder,1.0,1
+extending to forearm,heat of joints,1.0,1
+extending to forearm,darting pains in toes,1.0,1
+extending to forearm,dry hacking cough,1.0,1
+extending to forearm,rheumatism in right shoulder joint,1.0,1
+extending to forearm,raising the patella,1.0,1
+extending to forearm,tickle left side of trachea,1.0,1
+extending to forearm,stiffness of feet,1.0,1
+extending to forearm,nose stuffed up,1.0,1
+extending to forearm,sharp darting pains in fingers,1.0,1
+extending to forearm,sharp lancinating pains in fingers,1.0,1
+extending to forearm,sharp darting pains involving every joint,1.0,1
+extending to forearm,cannot put on coat,1.0,1
+extending to forearm,rheumatism of large joints,1.0,1
+extending to forearm,rheumatism of joints with large amount of serous fluid,1.0,1
+extending to forearm,rheumatic inflammation of right ankle joint,1.0,1
+extending to forearm,great anxiety about the heart,1.0,1
+extending to forearm,rheumatism in deltoid,1.0,1
+extending to forearm,much swelling about knee joint,1.0,1
+extending to forearm,pains dull,1.0,1
+extending to forearm,darting pains in fingers,1.0,1
+extending to forearm,powerless if attempts to move,1.0,1
+extending to forearm,alternates with characteristic cough,1.0,1
+extending to forearm,improved during day,1.0,1
+extending to forearm,constant pain,1.0,1
+extending to forearm,sharp lancinating pains in elbow,1.0,1
+extending to forearm,hands swollen,1.0,1
+extending to forearm,severe rheumatic inflammation of knee joint,1.0,1
+extending to forearm,sharp lancinating pains involving every joint,1.0,1
+extending to forearm,restless nights,1.0,1
+extending to forearm,darting pains in joints,1.0,1
+extending to forearm,swollen,1.0,1
+extending to forearm,sudden pain through chest to spinal column,1.0,1
+extending to forearm,circumscribed redness of joints,1.0,1
+extending to forearm,worse during day,1.0,1
+extending to forearm,strange sensation as if floating in the air,1.0,1
+extending to forearm,wrists swollen,1.0,1
+extending to forearm,stiffness of hands,1.0,1
+extending to forearm,pains heavy,1.0,1
+extending to forearm,soreness to touch,1.0,1
+extending to forearm,darting pains in thighs,1.0,1
+extending to forearm,sharp darting pains in knee joints,1.0,1
+extending to forearm,sharp lancinating pains in knee joints,1.0,1
+extending to forearm,much effusion into joints,1.0,1
+extending to forearm,very painful,1.0,1
+extending to forearm,excessive dryness of soft palate,1.0,1
+extending to forearm,redness followed by effusion,1.0,1
+extending to forearm,rheumatism in triceps,1.0,1
+extending to forearm,sharp darting pains in elbow,1.0,1
+extending to forearm,rheumatism of wrist joints,1.0,1
+restless nights,redness,1.0,1
+restless nights,sharp darting pains in shoulder,1.0,1
+restless nights,darting pains in arms,1.0,1
+restless nights,sharp lancinating pains in shoulder,1.0,1
+restless nights,heat of joints,1.0,1
+restless nights,darting pains in toes,1.0,1
+restless nights,dry hacking cough,1.0,1
+restless nights,rheumatism in right shoulder joint,1.0,1
+restless nights,raising the patella,1.0,1
+restless nights,tickle left side of trachea,1.0,1
+restless nights,stiffness of feet,1.0,1
+restless nights,nose stuffed up,1.0,1
+restless nights,sharp darting pains in fingers,1.0,1
+restless nights,sharp lancinating pains in fingers,1.0,1
+restless nights,sharp darting pains involving every joint,1.0,1
+restless nights,cannot put on coat,1.0,1
+restless nights,rheumatism of large joints,1.0,1
+restless nights,rheumatism of joints with large amount of serous fluid,1.0,1
+restless nights,rheumatic inflammation of right ankle joint,1.0,1
+restless nights,great anxiety about the heart,1.0,1
+restless nights,rheumatism in deltoid,1.0,1
+restless nights,much swelling about knee joint,1.0,1
+restless nights,pains dull,1.0,1
+restless nights,darting pains in fingers,1.0,1
+restless nights,powerless if attempts to move,1.0,1
+restless nights,alternates with characteristic cough,1.0,1
+restless nights,improved during day,1.0,1
+restless nights,constant pain,1.0,1
+restless nights,sharp lancinating pains in elbow,1.0,1
+restless nights,hands swollen,1.0,1
+restless nights,severe rheumatic inflammation of knee joint,1.0,1
+restless nights,sharp lancinating pains involving every joint,1.0,1
+restless nights,darting pains in joints,1.0,1
+restless nights,swollen,1.0,1
+restless nights,sudden pain through chest to spinal column,1.0,1
+restless nights,circumscribed redness of joints,1.0,1
+restless nights,worse during day,1.0,1
+restless nights,strange sensation as if floating in the air,1.0,1
+restless nights,wrists swollen,1.0,1
+restless nights,stiffness of hands,1.0,1
+restless nights,pains heavy,1.0,1
+restless nights,soreness to touch,1.0,1
+restless nights,darting pains in thighs,1.0,1
+restless nights,sharp darting pains in knee joints,1.0,1
+restless nights,sharp lancinating pains in knee joints,1.0,1
+restless nights,much effusion into joints,1.0,1
+restless nights,very painful,1.0,1
+restless nights,excessive dryness of soft palate,1.0,1
+restless nights,redness followed by effusion,1.0,1
+restless nights,rheumatism in triceps,1.0,1
+restless nights,sharp darting pains in elbow,1.0,1
+restless nights,rheumatism of wrist joints,1.0,1
+restless nights,extending to forearm,1.0,1
+stiffness of hands,redness,1.0,1
+stiffness of hands,sharp darting pains in shoulder,1.0,1
+stiffness of hands,darting pains in arms,1.0,1
+stiffness of hands,sharp lancinating pains in shoulder,1.0,1
+stiffness of hands,heat of joints,1.0,1
+stiffness of hands,darting pains in toes,1.0,1
+stiffness of hands,dry hacking cough,1.0,1
+stiffness of hands,rheumatism in right shoulder joint,1.0,1
+stiffness of hands,raising the patella,1.0,1
+stiffness of hands,tickle left side of trachea,1.0,1
+stiffness of hands,stiffness of feet,1.0,1
+stiffness of hands,nose stuffed up,1.0,1
+stiffness of hands,sharp darting pains in fingers,1.0,1
+stiffness of hands,sharp lancinating pains in fingers,1.0,1
+stiffness of hands,sharp darting pains involving every joint,1.0,1
+stiffness of hands,cannot put on coat,1.0,1
+stiffness of hands,rheumatism of large joints,1.0,1
+stiffness of hands,rheumatism of joints with large amount of serous fluid,1.0,1
+stiffness of hands,rheumatic inflammation of right ankle joint,1.0,1
+stiffness of hands,great anxiety about the heart,1.0,1
+stiffness of hands,rheumatism in deltoid,1.0,1
+stiffness of hands,much swelling about knee joint,1.0,1
+stiffness of hands,pains dull,1.0,1
+stiffness of hands,darting pains in fingers,1.0,1
+stiffness of hands,powerless if attempts to move,1.0,1
+stiffness of hands,alternates with characteristic cough,1.0,1
+stiffness of hands,improved during day,1.0,1
+stiffness of hands,constant pain,1.0,1
+stiffness of hands,sharp lancinating pains in elbow,1.0,1
+stiffness of hands,hands swollen,1.0,1
+stiffness of hands,severe rheumatic inflammation of knee joint,1.0,1
+stiffness of hands,sharp lancinating pains involving every joint,1.0,1
+stiffness of hands,restless nights,1.0,1
+stiffness of hands,darting pains in joints,1.0,1
+stiffness of hands,swollen,1.0,1
+stiffness of hands,sudden pain through chest to spinal column,1.0,1
+stiffness of hands,circumscribed redness of joints,1.0,1
+stiffness of hands,worse during day,1.0,1
+stiffness of hands,strange sensation as if floating in the air,1.0,1
+stiffness of hands,wrists swollen,1.0,1
+stiffness of hands,pains heavy,1.0,1
+stiffness of hands,soreness to touch,1.0,1
+stiffness of hands,darting pains in thighs,1.0,1
+stiffness of hands,sharp darting pains in knee joints,1.0,1
+stiffness of hands,sharp lancinating pains in knee joints,1.0,1
+stiffness of hands,much effusion into joints,1.0,1
+stiffness of hands,very painful,1.0,1
+stiffness of hands,excessive dryness of soft palate,1.0,1
+stiffness of hands,redness followed by effusion,1.0,1
+stiffness of hands,rheumatism in triceps,1.0,1
+stiffness of hands,sharp darting pains in elbow,1.0,1
+stiffness of hands,rheumatism of wrist joints,1.0,1
+stiffness of hands,extending to forearm,1.0,1
+sharp darting pains in fingers,redness,1.0,1
+sharp darting pains in fingers,sharp darting pains in shoulder,1.0,1
+sharp darting pains in fingers,darting pains in arms,1.0,1
+sharp darting pains in fingers,sharp lancinating pains in shoulder,1.0,1
+sharp darting pains in fingers,heat of joints,1.0,1
+sharp darting pains in fingers,darting pains in toes,1.0,1
+sharp darting pains in fingers,dry hacking cough,1.0,1
+sharp darting pains in fingers,rheumatism in right shoulder joint,1.0,1
+sharp darting pains in fingers,raising the patella,1.0,1
+sharp darting pains in fingers,tickle left side of trachea,1.0,1
+sharp darting pains in fingers,stiffness of feet,1.0,1
+sharp darting pains in fingers,nose stuffed up,1.0,1
+sharp darting pains in fingers,sharp lancinating pains in fingers,1.0,1
+sharp darting pains in fingers,sharp darting pains involving every joint,1.0,1
+sharp darting pains in fingers,cannot put on coat,1.0,1
+sharp darting pains in fingers,rheumatism of large joints,1.0,1
+sharp darting pains in fingers,rheumatism of joints with large amount of serous fluid,1.0,1
+sharp darting pains in fingers,rheumatic inflammation of right ankle joint,1.0,1
+sharp darting pains in fingers,great anxiety about the heart,1.0,1
+sharp darting pains in fingers,rheumatism in deltoid,1.0,1
+sharp darting pains in fingers,much swelling about knee joint,1.0,1
+sharp darting pains in fingers,pains dull,1.0,1
+sharp darting pains in fingers,darting pains in fingers,1.0,1
+sharp darting pains in fingers,powerless if attempts to move,1.0,1
+sharp darting pains in fingers,alternates with characteristic cough,1.0,1
+sharp darting pains in fingers,improved during day,1.0,1
+sharp darting pains in fingers,constant pain,1.0,1
+sharp darting pains in fingers,sharp lancinating pains in elbow,1.0,1
+sharp darting pains in fingers,hands swollen,1.0,1
+sharp darting pains in fingers,severe rheumatic inflammation of knee joint,1.0,1
+sharp darting pains in fingers,sharp lancinating pains involving every joint,1.0,1
+sharp darting pains in fingers,restless nights,1.0,1
+sharp darting pains in fingers,darting pains in joints,1.0,1
+sharp darting pains in fingers,swollen,1.0,1
+sharp darting pains in fingers,sudden pain through chest to spinal column,1.0,1
+sharp darting pains in fingers,circumscribed redness of joints,1.0,1
+sharp darting pains in fingers,worse during day,1.0,1
+sharp darting pains in fingers,strange sensation as if floating in the air,1.0,1
+sharp darting pains in fingers,wrists swollen,1.0,1
+sharp darting pains in fingers,stiffness of hands,1.0,1
+sharp darting pains in fingers,pains heavy,1.0,1
+sharp darting pains in fingers,soreness to touch,1.0,1
+sharp darting pains in fingers,darting pains in thighs,1.0,1
+sharp darting pains in fingers,sharp darting pains in knee joints,1.0,1
+sharp darting pains in fingers,sharp lancinating pains in knee joints,1.0,1
+sharp darting pains in fingers,much effusion into joints,1.0,1
+sharp darting pains in fingers,very painful,1.0,1
+sharp darting pains in fingers,excessive dryness of soft palate,1.0,1
+sharp darting pains in fingers,redness followed by effusion,1.0,1
+sharp darting pains in fingers,rheumatism in triceps,1.0,1
+sharp darting pains in fingers,sharp darting pains in elbow,1.0,1
+sharp darting pains in fingers,rheumatism of wrist joints,1.0,1
+sharp darting pains in fingers,extending to forearm,1.0,1
+worse during day,redness,1.0,1
+worse during day,sharp darting pains in shoulder,1.0,1
+worse during day,darting pains in arms,1.0,1
+worse during day,sharp lancinating pains in shoulder,1.0,1
+worse during day,heat of joints,1.0,1
+worse during day,darting pains in toes,1.0,1
+worse during day,dry hacking cough,1.0,1
+worse during day,rheumatism in right shoulder joint,1.0,1
+worse during day,raising the patella,1.0,1
+worse during day,tickle left side of trachea,1.0,1
+worse during day,stiffness of feet,1.0,1
+worse during day,nose stuffed up,1.0,1
+worse during day,sharp darting pains in fingers,1.0,1
+worse during day,sharp lancinating pains in fingers,1.0,1
+worse during day,sharp darting pains involving every joint,1.0,1
+worse during day,cannot put on coat,1.0,1
+worse during day,rheumatism of large joints,1.0,1
+worse during day,rheumatism of joints with large amount of serous fluid,1.0,1
+worse during day,rheumatic inflammation of right ankle joint,1.0,1
+worse during day,great anxiety about the heart,1.0,1
+worse during day,rheumatism in deltoid,1.0,1
+worse during day,much swelling about knee joint,1.0,1
+worse during day,pains dull,1.0,1
+worse during day,darting pains in fingers,1.0,1
+worse during day,powerless if attempts to move,1.0,1
+worse during day,alternates with characteristic cough,1.0,1
+worse during day,improved during day,1.0,1
+worse during day,constant pain,1.0,1
+worse during day,sharp lancinating pains in elbow,1.0,1
+worse during day,hands swollen,1.0,1
+worse during day,severe rheumatic inflammation of knee joint,1.0,1
+worse during day,sharp lancinating pains involving every joint,1.0,1
+worse during day,restless nights,1.0,1
+worse during day,darting pains in joints,1.0,1
+worse during day,swollen,1.0,1
+worse during day,sudden pain through chest to spinal column,1.0,1
+worse during day,circumscribed redness of joints,1.0,1
+worse during day,strange sensation as if floating in the air,1.0,1
+worse during day,wrists swollen,1.0,1
+worse during day,stiffness of hands,1.0,1
+worse during day,pains heavy,1.0,1
+worse during day,soreness to touch,1.0,1
+worse during day,darting pains in thighs,1.0,1
+worse during day,sharp darting pains in knee joints,1.0,1
+worse during day,sharp lancinating pains in knee joints,1.0,1
+worse during day,much effusion into joints,1.0,1
+worse during day,very painful,1.0,1
+worse during day,excessive dryness of soft palate,1.0,1
+worse during day,redness followed by effusion,1.0,1
+worse during day,rheumatism in triceps,1.0,1
+worse during day,sharp darting pains in elbow,1.0,1
+worse during day,rheumatism of wrist joints,1.0,1
+worse during day,extending to forearm,1.0,1
+sharp darting pains in knee joints,redness,1.0,1
+sharp darting pains in knee joints,sharp darting pains in shoulder,1.0,1
+sharp darting pains in knee joints,darting pains in arms,1.0,1
+sharp darting pains in knee joints,sharp lancinating pains in shoulder,1.0,1
+sharp darting pains in knee joints,heat of joints,1.0,1
+sharp darting pains in knee joints,darting pains in toes,1.0,1
+sharp darting pains in knee joints,dry hacking cough,1.0,1
+sharp darting pains in knee joints,rheumatism in right shoulder joint,1.0,1
+sharp darting pains in knee joints,raising the patella,1.0,1
+sharp darting pains in knee joints,tickle left side of trachea,1.0,1
+sharp darting pains in knee joints,stiffness of feet,1.0,1
+sharp darting pains in knee joints,nose stuffed up,1.0,1
+sharp darting pains in knee joints,sharp darting pains in fingers,1.0,1
+sharp darting pains in knee joints,sharp lancinating pains in fingers,1.0,1
+sharp darting pains in knee joints,sharp darting pains involving every joint,1.0,1
+sharp darting pains in knee joints,cannot put on coat,1.0,1
+sharp darting pains in knee joints,rheumatism of large joints,1.0,1
+sharp darting pains in knee joints,rheumatism of joints with large amount of serous fluid,1.0,1
+sharp darting pains in knee joints,rheumatic inflammation of right ankle joint,1.0,1
+sharp darting pains in knee joints,great anxiety about the heart,1.0,1
+sharp darting pains in knee joints,rheumatism in deltoid,1.0,1
+sharp darting pains in knee joints,much swelling about knee joint,1.0,1
+sharp darting pains in knee joints,pains dull,1.0,1
+sharp darting pains in knee joints,darting pains in fingers,1.0,1
+sharp darting pains in knee joints,powerless if attempts to move,1.0,1
+sharp darting pains in knee joints,alternates with characteristic cough,1.0,1
+sharp darting pains in knee joints,improved during day,1.0,1
+sharp darting pains in knee joints,constant pain,1.0,1
+sharp darting pains in knee joints,sharp lancinating pains in elbow,1.0,1
+sharp darting pains in knee joints,hands swollen,1.0,1
+sharp darting pains in knee joints,severe rheumatic inflammation of knee joint,1.0,1
+sharp darting pains in knee joints,sharp lancinating pains involving every joint,1.0,1
+sharp darting pains in knee joints,restless nights,1.0,1
+sharp darting pains in knee joints,darting pains in joints,1.0,1
+sharp darting pains in knee joints,swollen,1.0,1
+sharp darting pains in knee joints,sudden pain through chest to spinal column,1.0,1
+sharp darting pains in knee joints,circumscribed redness of joints,1.0,1
+sharp darting pains in knee joints,worse during day,1.0,1
+sharp darting pains in knee joints,strange sensation as if floating in the air,1.0,1
+sharp darting pains in knee joints,wrists swollen,1.0,1
+sharp darting pains in knee joints,stiffness of hands,1.0,1
+sharp darting pains in knee joints,pains heavy,1.0,1
+sharp darting pains in knee joints,soreness to touch,1.0,1
+sharp darting pains in knee joints,darting pains in thighs,1.0,1
+sharp darting pains in knee joints,sharp lancinating pains in knee joints,1.0,1
+sharp darting pains in knee joints,much effusion into joints,1.0,1
+sharp darting pains in knee joints,very painful,1.0,1
+sharp darting pains in knee joints,excessive dryness of soft palate,1.0,1
+sharp darting pains in knee joints,redness followed by effusion,1.0,1
+sharp darting pains in knee joints,rheumatism in triceps,1.0,1
+sharp darting pains in knee joints,sharp darting pains in elbow,1.0,1
+sharp darting pains in knee joints,rheumatism of wrist joints,1.0,1
+sharp darting pains in knee joints,extending to forearm,1.0,1
+pains heavy,redness,1.0,1
+pains heavy,sharp darting pains in shoulder,1.0,1
+pains heavy,darting pains in arms,1.0,1
+pains heavy,sharp lancinating pains in shoulder,1.0,1
+pains heavy,heat of joints,1.0,1
+pains heavy,darting pains in toes,1.0,1
+pains heavy,dry hacking cough,1.0,1
+pains heavy,rheumatism in right shoulder joint,1.0,1
+pains heavy,raising the patella,1.0,1
+pains heavy,tickle left side of trachea,1.0,1
+pains heavy,stiffness of feet,1.0,1
+pains heavy,nose stuffed up,1.0,1
+pains heavy,sharp darting pains in fingers,1.0,1
+pains heavy,sharp lancinating pains in fingers,1.0,1
+pains heavy,sharp darting pains involving every joint,1.0,1
+pains heavy,cannot put on coat,1.0,1
+pains heavy,rheumatism of large joints,1.0,1
+pains heavy,rheumatism of joints with large amount of serous fluid,1.0,1
+pains heavy,rheumatic inflammation of right ankle joint,1.0,1
+pains heavy,great anxiety about the heart,1.0,1
+pains heavy,rheumatism in deltoid,1.0,1
+pains heavy,much swelling about knee joint,1.0,1
+pains heavy,pains dull,1.0,1
+pains heavy,darting pains in fingers,1.0,1
+pains heavy,powerless if attempts to move,1.0,1
+pains heavy,alternates with characteristic cough,1.0,1
+pains heavy,improved during day,1.0,1
+pains heavy,constant pain,1.0,1
+pains heavy,sharp lancinating pains in elbow,1.0,1
+pains heavy,hands swollen,1.0,1
+pains heavy,severe rheumatic inflammation of knee joint,1.0,1
+pains heavy,sharp lancinating pains involving every joint,1.0,1
+pains heavy,restless nights,1.0,1
+pains heavy,darting pains in joints,1.0,1
+pains heavy,swollen,1.0,1
+pains heavy,sudden pain through chest to spinal column,1.0,1
+pains heavy,circumscribed redness of joints,1.0,1
+pains heavy,worse during day,1.0,1
+pains heavy,strange sensation as if floating in the air,1.0,1
+pains heavy,wrists swollen,1.0,1
+pains heavy,stiffness of hands,1.0,1
+pains heavy,soreness to touch,1.0,1
+pains heavy,darting pains in thighs,1.0,1
+pains heavy,sharp darting pains in knee joints,1.0,1
+pains heavy,sharp lancinating pains in knee joints,1.0,1
+pains heavy,much effusion into joints,1.0,1
+pains heavy,very painful,1.0,1
+pains heavy,excessive dryness of soft palate,1.0,1
+pains heavy,redness followed by effusion,1.0,1
+pains heavy,rheumatism in triceps,1.0,1
+pains heavy,sharp darting pains in elbow,1.0,1
+pains heavy,rheumatism of wrist joints,1.0,1
+pains heavy,extending to forearm,1.0,1
+rheumatism in right shoulder joint,redness,1.0,1
+rheumatism in right shoulder joint,sharp darting pains in shoulder,1.0,1
+rheumatism in right shoulder joint,darting pains in arms,1.0,1
+rheumatism in right shoulder joint,sharp lancinating pains in shoulder,1.0,1
+rheumatism in right shoulder joint,heat of joints,1.0,1
+rheumatism in right shoulder joint,darting pains in toes,1.0,1
+rheumatism in right shoulder joint,dry hacking cough,1.0,1
+rheumatism in right shoulder joint,raising the patella,1.0,1
+rheumatism in right shoulder joint,tickle left side of trachea,1.0,1
+rheumatism in right shoulder joint,stiffness of feet,1.0,1
+rheumatism in right shoulder joint,nose stuffed up,1.0,1
+rheumatism in right shoulder joint,sharp darting pains in fingers,1.0,1
+rheumatism in right shoulder joint,sharp lancinating pains in fingers,1.0,1
+rheumatism in right shoulder joint,sharp darting pains involving every joint,1.0,1
+rheumatism in right shoulder joint,cannot put on coat,1.0,1
+rheumatism in right shoulder joint,rheumatism of large joints,1.0,1
+rheumatism in right shoulder joint,rheumatism of joints with large amount of serous fluid,1.0,1
+rheumatism in right shoulder joint,rheumatic inflammation of right ankle joint,1.0,1
+rheumatism in right shoulder joint,great anxiety about the heart,1.0,1
+rheumatism in right shoulder joint,rheumatism in deltoid,1.0,1
+rheumatism in right shoulder joint,much swelling about knee joint,1.0,1
+rheumatism in right shoulder joint,pains dull,1.0,1
+rheumatism in right shoulder joint,darting pains in fingers,1.0,1
+rheumatism in right shoulder joint,powerless if attempts to move,1.0,1
+rheumatism in right shoulder joint,alternates with characteristic cough,1.0,1
+rheumatism in right shoulder joint,improved during day,1.0,1
+rheumatism in right shoulder joint,constant pain,1.0,1
+rheumatism in right shoulder joint,sharp lancinating pains in elbow,1.0,1
+rheumatism in right shoulder joint,hands swollen,1.0,1
+rheumatism in right shoulder joint,severe rheumatic inflammation of knee joint,1.0,1
+rheumatism in right shoulder joint,sharp lancinating pains involving every joint,1.0,1
+rheumatism in right shoulder joint,restless nights,1.0,1
+rheumatism in right shoulder joint,darting pains in joints,1.0,1
+rheumatism in right shoulder joint,swollen,1.0,1
+rheumatism in right shoulder joint,sudden pain through chest to spinal column,1.0,1
+rheumatism in right shoulder joint,circumscribed redness of joints,1.0,1
+rheumatism in right shoulder joint,worse during day,1.0,1
+rheumatism in right shoulder joint,strange sensation as if floating in the air,1.0,1
+rheumatism in right shoulder joint,wrists swollen,1.0,1
+rheumatism in right shoulder joint,stiffness of hands,1.0,1
+rheumatism in right shoulder joint,pains heavy,1.0,1
+rheumatism in right shoulder joint,soreness to touch,1.0,1
+rheumatism in right shoulder joint,darting pains in thighs,1.0,1
+rheumatism in right shoulder joint,sharp darting pains in knee joints,1.0,1
+rheumatism in right shoulder joint,sharp lancinating pains in knee joints,1.0,1
+rheumatism in right shoulder joint,much effusion into joints,1.0,1
+rheumatism in right shoulder joint,very painful,1.0,1
+rheumatism in right shoulder joint,excessive dryness of soft palate,1.0,1
+rheumatism in right shoulder joint,redness followed by effusion,1.0,1
+rheumatism in right shoulder joint,rheumatism in triceps,1.0,1
+rheumatism in right shoulder joint,sharp darting pains in elbow,1.0,1
+rheumatism in right shoulder joint,rheumatism of wrist joints,1.0,1
+rheumatism in right shoulder joint,extending to forearm,1.0,1
+pains dull,redness,1.0,1
+pains dull,sharp darting pains in shoulder,1.0,1
+pains dull,darting pains in arms,1.0,1
+pains dull,sharp lancinating pains in shoulder,1.0,1
+pains dull,heat of joints,1.0,1
+pains dull,darting pains in toes,1.0,1
+pains dull,dry hacking cough,1.0,1
+pains dull,rheumatism in right shoulder joint,1.0,1
+pains dull,raising the patella,1.0,1
+pains dull,tickle left side of trachea,1.0,1
+pains dull,stiffness of feet,1.0,1
+pains dull,nose stuffed up,1.0,1
+pains dull,sharp darting pains in fingers,1.0,1
+pains dull,sharp lancinating pains in fingers,1.0,1
+pains dull,sharp darting pains involving every joint,1.0,1
+pains dull,cannot put on coat,1.0,1
+pains dull,rheumatism of large joints,1.0,1
+pains dull,rheumatism of joints with large amount of serous fluid,1.0,1
+pains dull,rheumatic inflammation of right ankle joint,1.0,1
+pains dull,great anxiety about the heart,1.0,1
+pains dull,rheumatism in deltoid,1.0,1
+pains dull,much swelling about knee joint,1.0,1
+pains dull,darting pains in fingers,1.0,1
+pains dull,powerless if attempts to move,1.0,1
+pains dull,alternates with characteristic cough,1.0,1
+pains dull,improved during day,1.0,1
+pains dull,constant pain,1.0,1
+pains dull,sharp lancinating pains in elbow,1.0,1
+pains dull,hands swollen,1.0,1
+pains dull,severe rheumatic inflammation of knee joint,1.0,1
+pains dull,sharp lancinating pains involving every joint,1.0,1
+pains dull,restless nights,1.0,1
+pains dull,darting pains in joints,1.0,1
+pains dull,swollen,1.0,1
+pains dull,sudden pain through chest to spinal column,1.0,1
+pains dull,circumscribed redness of joints,1.0,1
+pains dull,worse during day,1.0,1
+pains dull,strange sensation as if floating in the air,1.0,1
+pains dull,wrists swollen,1.0,1
+pains dull,stiffness of hands,1.0,1
+pains dull,pains heavy,1.0,1
+pains dull,soreness to touch,1.0,1
+pains dull,darting pains in thighs,1.0,1
+pains dull,sharp darting pains in knee joints,1.0,1
+pains dull,sharp lancinating pains in knee joints,1.0,1
+pains dull,much effusion into joints,1.0,1
+pains dull,very painful,1.0,1
+pains dull,excessive dryness of soft palate,1.0,1
+pains dull,redness followed by effusion,1.0,1
+pains dull,rheumatism in triceps,1.0,1
+pains dull,sharp darting pains in elbow,1.0,1
+pains dull,rheumatism of wrist joints,1.0,1
+pains dull,extending to forearm,1.0,1
+raising the patella,redness,1.0,1
+raising the patella,sharp darting pains in shoulder,1.0,1
+raising the patella,darting pains in arms,1.0,1
+raising the patella,sharp lancinating pains in shoulder,1.0,1
+raising the patella,heat of joints,1.0,1
+raising the patella,darting pains in toes,1.0,1
+raising the patella,dry hacking cough,1.0,1
+raising the patella,rheumatism in right shoulder joint,1.0,1
+raising the patella,tickle left side of trachea,1.0,1
+raising the patella,stiffness of feet,1.0,1
+raising the patella,nose stuffed up,1.0,1
+raising the patella,sharp darting pains in fingers,1.0,1
+raising the patella,sharp lancinating pains in fingers,1.0,1
+raising the patella,sharp darting pains involving every joint,1.0,1
+raising the patella,cannot put on coat,1.0,1
+raising the patella,rheumatism of large joints,1.0,1
+raising the patella,rheumatism of joints with large amount of serous fluid,1.0,1
+raising the patella,rheumatic inflammation of right ankle joint,1.0,1
+raising the patella,great anxiety about the heart,1.0,1
+raising the patella,rheumatism in deltoid,1.0,1
+raising the patella,much swelling about knee joint,1.0,1
+raising the patella,pains dull,1.0,1
+raising the patella,darting pains in fingers,1.0,1
+raising the patella,powerless if attempts to move,1.0,1
+raising the patella,alternates with characteristic cough,1.0,1
+raising the patella,improved during day,1.0,1
+raising the patella,constant pain,1.0,1
+raising the patella,sharp lancinating pains in elbow,1.0,1
+raising the patella,hands swollen,1.0,1
+raising the patella,severe rheumatic inflammation of knee joint,1.0,1
+raising the patella,sharp lancinating pains involving every joint,1.0,1
+raising the patella,restless nights,1.0,1
+raising the patella,darting pains in joints,1.0,1
+raising the patella,swollen,1.0,1
+raising the patella,sudden pain through chest to spinal column,1.0,1
+raising the patella,circumscribed redness of joints,1.0,1
+raising the patella,worse during day,1.0,1
+raising the patella,strange sensation as if floating in the air,1.0,1
+raising the patella,wrists swollen,1.0,1
+raising the patella,stiffness of hands,1.0,1
+raising the patella,pains heavy,1.0,1
+raising the patella,soreness to touch,1.0,1
+raising the patella,darting pains in thighs,1.0,1
+raising the patella,sharp darting pains in knee joints,1.0,1
+raising the patella,sharp lancinating pains in knee joints,1.0,1
+raising the patella,much effusion into joints,1.0,1
+raising the patella,very painful,1.0,1
+raising the patella,excessive dryness of soft palate,1.0,1
+raising the patella,redness followed by effusion,1.0,1
+raising the patella,rheumatism in triceps,1.0,1
+raising the patella,sharp darting pains in elbow,1.0,1
+raising the patella,rheumatism of wrist joints,1.0,1
+raising the patella,extending to forearm,1.0,1
+sharp darting pains in shoulder,redness,1.0,1
+sharp darting pains in shoulder,darting pains in arms,1.0,1
+sharp darting pains in shoulder,sharp lancinating pains in shoulder,1.0,1
+sharp darting pains in shoulder,heat of joints,1.0,1
+sharp darting pains in shoulder,darting pains in toes,1.0,1
+sharp darting pains in shoulder,dry hacking cough,1.0,1
+sharp darting pains in shoulder,rheumatism in right shoulder joint,1.0,1
+sharp darting pains in shoulder,raising the patella,1.0,1
+sharp darting pains in shoulder,tickle left side of trachea,1.0,1
+sharp darting pains in shoulder,stiffness of feet,1.0,1
+sharp darting pains in shoulder,nose stuffed up,1.0,1
+sharp darting pains in shoulder,sharp darting pains in fingers,1.0,1
+sharp darting pains in shoulder,sharp lancinating pains in fingers,1.0,1
+sharp darting pains in shoulder,sharp darting pains involving every joint,1.0,1
+sharp darting pains in shoulder,cannot put on coat,1.0,1
+sharp darting pains in shoulder,rheumatism of large joints,1.0,1
+sharp darting pains in shoulder,rheumatism of joints with large amount of serous fluid,1.0,1
+sharp darting pains in shoulder,rheumatic inflammation of right ankle joint,1.0,1
+sharp darting pains in shoulder,great anxiety about the heart,1.0,1
+sharp darting pains in shoulder,rheumatism in deltoid,1.0,1
+sharp darting pains in shoulder,much swelling about knee joint,1.0,1
+sharp darting pains in shoulder,pains dull,1.0,1
+sharp darting pains in shoulder,darting pains in fingers,1.0,1
+sharp darting pains in shoulder,powerless if attempts to move,1.0,1
+sharp darting pains in shoulder,alternates with characteristic cough,1.0,1
+sharp darting pains in shoulder,improved during day,1.0,1
+sharp darting pains in shoulder,constant pain,1.0,1
+sharp darting pains in shoulder,sharp lancinating pains in elbow,1.0,1
+sharp darting pains in shoulder,hands swollen,1.0,1
+sharp darting pains in shoulder,severe rheumatic inflammation of knee joint,1.0,1
+sharp darting pains in shoulder,sharp lancinating pains involving every joint,1.0,1
+sharp darting pains in shoulder,restless nights,1.0,1
+sharp darting pains in shoulder,darting pains in joints,1.0,1
+sharp darting pains in shoulder,swollen,1.0,1
+sharp darting pains in shoulder,sudden pain through chest to spinal column,1.0,1
+sharp darting pains in shoulder,circumscribed redness of joints,1.0,1
+sharp darting pains in shoulder,worse during day,1.0,1
+sharp darting pains in shoulder,strange sensation as if floating in the air,1.0,1
+sharp darting pains in shoulder,wrists swollen,1.0,1
+sharp darting pains in shoulder,stiffness of hands,1.0,1
+sharp darting pains in shoulder,pains heavy,1.0,1
+sharp darting pains in shoulder,soreness to touch,1.0,1
+sharp darting pains in shoulder,darting pains in thighs,1.0,1
+sharp darting pains in shoulder,sharp darting pains in knee joints,1.0,1
+sharp darting pains in shoulder,sharp lancinating pains in knee joints,1.0,1
+sharp darting pains in shoulder,much effusion into joints,1.0,1
+sharp darting pains in shoulder,very painful,1.0,1
+sharp darting pains in shoulder,excessive dryness of soft palate,1.0,1
+sharp darting pains in shoulder,redness followed by effusion,1.0,1
+sharp darting pains in shoulder,rheumatism in triceps,1.0,1
+sharp darting pains in shoulder,sharp darting pains in elbow,1.0,1
+sharp darting pains in shoulder,rheumatism of wrist joints,1.0,1
+sharp darting pains in shoulder,extending to forearm,1.0,1
+hands swollen,redness,1.0,1
+hands swollen,sharp darting pains in shoulder,1.0,1
+hands swollen,darting pains in arms,1.0,1
+hands swollen,sharp lancinating pains in shoulder,1.0,1
+hands swollen,heat of joints,1.0,1
+hands swollen,darting pains in toes,1.0,1
+hands swollen,dry hacking cough,1.0,1
+hands swollen,rheumatism in right shoulder joint,1.0,1
+hands swollen,raising the patella,1.0,1
+hands swollen,tickle left side of trachea,1.0,1
+hands swollen,stiffness of feet,1.0,1
+hands swollen,nose stuffed up,1.0,1
+hands swollen,sharp darting pains in fingers,1.0,1
+hands swollen,sharp lancinating pains in fingers,1.0,1
+hands swollen,sharp darting pains involving every joint,1.0,1
+hands swollen,cannot put on coat,1.0,1
+hands swollen,rheumatism of large joints,1.0,1
+hands swollen,rheumatism of joints with large amount of serous fluid,1.0,1
+hands swollen,rheumatic inflammation of right ankle joint,1.0,1
+hands swollen,great anxiety about the heart,1.0,1
+hands swollen,rheumatism in deltoid,1.0,1
+hands swollen,much swelling about knee joint,1.0,1
+hands swollen,pains dull,1.0,1
+hands swollen,darting pains in fingers,1.0,1
+hands swollen,powerless if attempts to move,1.0,1
+hands swollen,alternates with characteristic cough,1.0,1
+hands swollen,improved during day,1.0,1
+hands swollen,constant pain,1.0,1
+hands swollen,sharp lancinating pains in elbow,1.0,1
+hands swollen,severe rheumatic inflammation of knee joint,1.0,1
+hands swollen,sharp lancinating pains involving every joint,1.0,1
+hands swollen,restless nights,1.0,1
+hands swollen,darting pains in joints,1.0,1
+hands swollen,swollen,1.0,1
+hands swollen,sudden pain through chest to spinal column,1.0,1
+hands swollen,circumscribed redness of joints,1.0,1
+hands swollen,worse during day,1.0,1
+hands swollen,strange sensation as if floating in the air,1.0,1
+hands swollen,wrists swollen,1.0,1
+hands swollen,stiffness of hands,1.0,1
+hands swollen,pains heavy,1.0,1
+hands swollen,soreness to touch,1.0,1
+hands swollen,darting pains in thighs,1.0,1
+hands swollen,sharp darting pains in knee joints,1.0,1
+hands swollen,sharp lancinating pains in knee joints,1.0,1
+hands swollen,much effusion into joints,1.0,1
+hands swollen,very painful,1.0,1
+hands swollen,excessive dryness of soft palate,1.0,1
+hands swollen,redness followed by effusion,1.0,1
+hands swollen,rheumatism in triceps,1.0,1
+hands swollen,sharp darting pains in elbow,1.0,1
+hands swollen,rheumatism of wrist joints,1.0,1
+hands swollen,extending to forearm,1.0,1
+sudden pain through chest to spinal column,redness,1.0,1
+sudden pain through chest to spinal column,sharp darting pains in shoulder,1.0,1
+sudden pain through chest to spinal column,darting pains in arms,1.0,1
+sudden pain through chest to spinal column,sharp lancinating pains in shoulder,1.0,1
+sudden pain through chest to spinal column,heat of joints,1.0,1
+sudden pain through chest to spinal column,darting pains in toes,1.0,1
+sudden pain through chest to spinal column,dry hacking cough,1.0,1
+sudden pain through chest to spinal column,rheumatism in right shoulder joint,1.0,1
+sudden pain through chest to spinal column,raising the patella,1.0,1
+sudden pain through chest to spinal column,tickle left side of trachea,1.0,1
+sudden pain through chest to spinal column,stiffness of feet,1.0,1
+sudden pain through chest to spinal column,nose stuffed up,1.0,1
+sudden pain through chest to spinal column,sharp darting pains in fingers,1.0,1
+sudden pain through chest to spinal column,sharp lancinating pains in fingers,1.0,1
+sudden pain through chest to spinal column,sharp darting pains involving every joint,1.0,1
+sudden pain through chest to spinal column,cannot put on coat,1.0,1
+sudden pain through chest to spinal column,rheumatism of large joints,1.0,1
+sudden pain through chest to spinal column,rheumatism of joints with large amount of serous fluid,1.0,1
+sudden pain through chest to spinal column,rheumatic inflammation of right ankle joint,1.0,1
+sudden pain through chest to spinal column,great anxiety about the heart,1.0,1
+sudden pain through chest to spinal column,rheumatism in deltoid,1.0,1
+sudden pain through chest to spinal column,much swelling about knee joint,1.0,1
+sudden pain through chest to spinal column,pains dull,1.0,1
+sudden pain through chest to spinal column,darting pains in fingers,1.0,1
+sudden pain through chest to spinal column,powerless if attempts to move,1.0,1
+sudden pain through chest to spinal column,alternates with characteristic cough,1.0,1
+sudden pain through chest to spinal column,improved during day,1.0,1
+sudden pain through chest to spinal column,constant pain,1.0,1
+sudden pain through chest to spinal column,sharp lancinating pains in elbow,1.0,1
+sudden pain through chest to spinal column,hands swollen,1.0,1
+sudden pain through chest to spinal column,severe rheumatic inflammation of knee joint,1.0,1
+sudden pain through chest to spinal column,sharp lancinating pains involving every joint,1.0,1
+sudden pain through chest to spinal column,restless nights,1.0,1
+sudden pain through chest to spinal column,darting pains in joints,1.0,1
+sudden pain through chest to spinal column,swollen,1.0,1
+sudden pain through chest to spinal column,circumscribed redness of joints,1.0,1
+sudden pain through chest to spinal column,worse during day,1.0,1
+sudden pain through chest to spinal column,strange sensation as if floating in the air,1.0,1
+sudden pain through chest to spinal column,wrists swollen,1.0,1
+sudden pain through chest to spinal column,stiffness of hands,1.0,1
+sudden pain through chest to spinal column,pains heavy,1.0,1
+sudden pain through chest to spinal column,soreness to touch,1.0,1
+sudden pain through chest to spinal column,darting pains in thighs,1.0,1
+sudden pain through chest to spinal column,sharp darting pains in knee joints,1.0,1
+sudden pain through chest to spinal column,sharp lancinating pains in knee joints,1.0,1
+sudden pain through chest to spinal column,much effusion into joints,1.0,1
+sudden pain through chest to spinal column,very painful,1.0,1
+sudden pain through chest to spinal column,excessive dryness of soft palate,1.0,1
+sudden pain through chest to spinal column,redness followed by effusion,1.0,1
+sudden pain through chest to spinal column,rheumatism in triceps,1.0,1
+sudden pain through chest to spinal column,sharp darting pains in elbow,1.0,1
+sudden pain through chest to spinal column,rheumatism of wrist joints,1.0,1
+sudden pain through chest to spinal column,extending to forearm,1.0,1
+alternates with characteristic cough,redness,1.0,1
+alternates with characteristic cough,sharp darting pains in shoulder,1.0,1
+alternates with characteristic cough,darting pains in arms,1.0,1
+alternates with characteristic cough,sharp lancinating pains in shoulder,1.0,1
+alternates with characteristic cough,heat of joints,1.0,1
+alternates with characteristic cough,darting pains in toes,1.0,1
+alternates with characteristic cough,dry hacking cough,1.0,1
+alternates with characteristic cough,rheumatism in right shoulder joint,1.0,1
+alternates with characteristic cough,raising the patella,1.0,1
+alternates with characteristic cough,tickle left side of trachea,1.0,1
+alternates with characteristic cough,stiffness of feet,1.0,1
+alternates with characteristic cough,nose stuffed up,1.0,1
+alternates with characteristic cough,sharp darting pains in fingers,1.0,1
+alternates with characteristic cough,sharp lancinating pains in fingers,1.0,1
+alternates with characteristic cough,sharp darting pains involving every joint,1.0,1
+alternates with characteristic cough,cannot put on coat,1.0,1
+alternates with characteristic cough,rheumatism of large joints,1.0,1
+alternates with characteristic cough,rheumatism of joints with large amount of serous fluid,1.0,1
+alternates with characteristic cough,rheumatic inflammation of right ankle joint,1.0,1
+alternates with characteristic cough,great anxiety about the heart,1.0,1
+alternates with characteristic cough,rheumatism in deltoid,1.0,1
+alternates with characteristic cough,much swelling about knee joint,1.0,1
+alternates with characteristic cough,pains dull,1.0,1
+alternates with characteristic cough,darting pains in fingers,1.0,1
+alternates with characteristic cough,powerless if attempts to move,1.0,1
+alternates with characteristic cough,improved during day,1.0,1
+alternates with characteristic cough,constant pain,1.0,1
+alternates with characteristic cough,sharp lancinating pains in elbow,1.0,1
+alternates with characteristic cough,hands swollen,1.0,1
+alternates with characteristic cough,severe rheumatic inflammation of knee joint,1.0,1
+alternates with characteristic cough,sharp lancinating pains involving every joint,1.0,1
+alternates with characteristic cough,restless nights,1.0,1
+alternates with characteristic cough,darting pains in joints,1.0,1
+alternates with characteristic cough,swollen,1.0,1
+alternates with characteristic cough,sudden pain through chest to spinal column,1.0,1
+alternates with characteristic cough,circumscribed redness of joints,1.0,1
+alternates with characteristic cough,worse during day,1.0,1
+alternates with characteristic cough,strange sensation as if floating in the air,1.0,1
+alternates with characteristic cough,wrists swollen,1.0,1
+alternates with characteristic cough,stiffness of hands,1.0,1
+alternates with characteristic cough,pains heavy,1.0,1
+alternates with characteristic cough,soreness to touch,1.0,1
+alternates with characteristic cough,darting pains in thighs,1.0,1
+alternates with characteristic cough,sharp darting pains in knee joints,1.0,1
+alternates with characteristic cough,sharp lancinating pains in knee joints,1.0,1
+alternates with characteristic cough,much effusion into joints,1.0,1
+alternates with characteristic cough,very painful,1.0,1
+alternates with characteristic cough,excessive dryness of soft palate,1.0,1
+alternates with characteristic cough,redness followed by effusion,1.0,1
+alternates with characteristic cough,rheumatism in triceps,1.0,1
+alternates with characteristic cough,sharp darting pains in elbow,1.0,1
+alternates with characteristic cough,rheumatism of wrist joints,1.0,1
+alternates with characteristic cough,extending to forearm,1.0,1
+sharp lancinating pains in knee joints,redness,1.0,1
+sharp lancinating pains in knee joints,sharp darting pains in shoulder,1.0,1
+sharp lancinating pains in knee joints,darting pains in arms,1.0,1
+sharp lancinating pains in knee joints,sharp lancinating pains in shoulder,1.0,1
+sharp lancinating pains in knee joints,heat of joints,1.0,1
+sharp lancinating pains in knee joints,darting pains in toes,1.0,1
+sharp lancinating pains in knee joints,dry hacking cough,1.0,1
+sharp lancinating pains in knee joints,rheumatism in right shoulder joint,1.0,1
+sharp lancinating pains in knee joints,raising the patella,1.0,1
+sharp lancinating pains in knee joints,tickle left side of trachea,1.0,1
+sharp lancinating pains in knee joints,stiffness of feet,1.0,1
+sharp lancinating pains in knee joints,nose stuffed up,1.0,1
+sharp lancinating pains in knee joints,sharp darting pains in fingers,1.0,1
+sharp lancinating pains in knee joints,sharp lancinating pains in fingers,1.0,1
+sharp lancinating pains in knee joints,sharp darting pains involving every joint,1.0,1
+sharp lancinating pains in knee joints,cannot put on coat,1.0,1
+sharp lancinating pains in knee joints,rheumatism of large joints,1.0,1
+sharp lancinating pains in knee joints,rheumatism of joints with large amount of serous fluid,1.0,1
+sharp lancinating pains in knee joints,rheumatic inflammation of right ankle joint,1.0,1
+sharp lancinating pains in knee joints,great anxiety about the heart,1.0,1
+sharp lancinating pains in knee joints,rheumatism in deltoid,1.0,1
+sharp lancinating pains in knee joints,much swelling about knee joint,1.0,1
+sharp lancinating pains in knee joints,pains dull,1.0,1
+sharp lancinating pains in knee joints,darting pains in fingers,1.0,1
+sharp lancinating pains in knee joints,powerless if attempts to move,1.0,1
+sharp lancinating pains in knee joints,alternates with characteristic cough,1.0,1
+sharp lancinating pains in knee joints,improved during day,1.0,1
+sharp lancinating pains in knee joints,constant pain,1.0,1
+sharp lancinating pains in knee joints,sharp lancinating pains in elbow,1.0,1
+sharp lancinating pains in knee joints,hands swollen,1.0,1
+sharp lancinating pains in knee joints,severe rheumatic inflammation of knee joint,1.0,1
+sharp lancinating pains in knee joints,sharp lancinating pains involving every joint,1.0,1
+sharp lancinating pains in knee joints,restless nights,1.0,1
+sharp lancinating pains in knee joints,darting pains in joints,1.0,1
+sharp lancinating pains in knee joints,swollen,1.0,1
+sharp lancinating pains in knee joints,sudden pain through chest to spinal column,1.0,1
+sharp lancinating pains in knee joints,circumscribed redness of joints,1.0,1
+sharp lancinating pains in knee joints,worse during day,1.0,1
+sharp lancinating pains in knee joints,strange sensation as if floating in the air,1.0,1
+sharp lancinating pains in knee joints,wrists swollen,1.0,1
+sharp lancinating pains in knee joints,stiffness of hands,1.0,1
+sharp lancinating pains in knee joints,pains heavy,1.0,1
+sharp lancinating pains in knee joints,soreness to touch,1.0,1
+sharp lancinating pains in knee joints,darting pains in thighs,1.0,1
+sharp lancinating pains in knee joints,sharp darting pains in knee joints,1.0,1
+sharp lancinating pains in knee joints,much effusion into joints,1.0,1
+sharp lancinating pains in knee joints,very painful,1.0,1
+sharp lancinating pains in knee joints,excessive dryness of soft palate,1.0,1
+sharp lancinating pains in knee joints,redness followed by effusion,1.0,1
+sharp lancinating pains in knee joints,rheumatism in triceps,1.0,1
+sharp lancinating pains in knee joints,sharp darting pains in elbow,1.0,1
+sharp lancinating pains in knee joints,rheumatism of wrist joints,1.0,1
+sharp lancinating pains in knee joints,extending to forearm,1.0,1
+improved during day,redness,1.0,1
+improved during day,sharp darting pains in shoulder,1.0,1
+improved during day,darting pains in arms,1.0,1
+improved during day,sharp lancinating pains in shoulder,1.0,1
+improved during day,heat of joints,1.0,1
+improved during day,darting pains in toes,1.0,1
+improved during day,dry hacking cough,1.0,1
+improved during day,rheumatism in right shoulder joint,1.0,1
+improved during day,raising the patella,1.0,1
+improved during day,tickle left side of trachea,1.0,1
+improved during day,stiffness of feet,1.0,1
+improved during day,nose stuffed up,1.0,1
+improved during day,sharp darting pains in fingers,1.0,1
+improved during day,sharp lancinating pains in fingers,1.0,1
+improved during day,sharp darting pains involving every joint,1.0,1
+improved during day,cannot put on coat,1.0,1
+improved during day,rheumatism of large joints,1.0,1
+improved during day,rheumatism of joints with large amount of serous fluid,1.0,1
+improved during day,rheumatic inflammation of right ankle joint,1.0,1
+improved during day,great anxiety about the heart,1.0,1
+improved during day,rheumatism in deltoid,1.0,1
+improved during day,much swelling about knee joint,1.0,1
+improved during day,pains dull,1.0,1
+improved during day,darting pains in fingers,1.0,1
+improved during day,powerless if attempts to move,1.0,1
+improved during day,alternates with characteristic cough,1.0,1
+improved during day,constant pain,1.0,1
+improved during day,sharp lancinating pains in elbow,1.0,1
+improved during day,hands swollen,1.0,1
+improved during day,severe rheumatic inflammation of knee joint,1.0,1
+improved during day,sharp lancinating pains involving every joint,1.0,1
+improved during day,restless nights,1.0,1
+improved during day,darting pains in joints,1.0,1
+improved during day,swollen,1.0,1
+improved during day,sudden pain through chest to spinal column,1.0,1
+improved during day,circumscribed redness of joints,1.0,1
+improved during day,worse during day,1.0,1
+improved during day,strange sensation as if floating in the air,1.0,1
+improved during day,wrists swollen,1.0,1
+improved during day,stiffness of hands,1.0,1
+improved during day,pains heavy,1.0,1
+improved during day,soreness to touch,1.0,1
+improved during day,darting pains in thighs,1.0,1
+improved during day,sharp darting pains in knee joints,1.0,1
+improved during day,sharp lancinating pains in knee joints,1.0,1
+improved during day,much effusion into joints,1.0,1
+improved during day,very painful,1.0,1
+improved during day,excessive dryness of soft palate,1.0,1
+improved during day,redness followed by effusion,1.0,1
+improved during day,rheumatism in triceps,1.0,1
+improved during day,sharp darting pains in elbow,1.0,1
+improved during day,rheumatism of wrist joints,1.0,1
+improved during day,extending to forearm,1.0,1
+darting pains in fingers,redness,1.0,1
+darting pains in fingers,sharp darting pains in shoulder,1.0,1
+darting pains in fingers,darting pains in arms,1.0,1
+darting pains in fingers,sharp lancinating pains in shoulder,1.0,1
+darting pains in fingers,heat of joints,1.0,1
+darting pains in fingers,darting pains in toes,1.0,1
+darting pains in fingers,dry hacking cough,1.0,1
+darting pains in fingers,rheumatism in right shoulder joint,1.0,1
+darting pains in fingers,raising the patella,1.0,1
+darting pains in fingers,tickle left side of trachea,1.0,1
+darting pains in fingers,stiffness of feet,1.0,1
+darting pains in fingers,nose stuffed up,1.0,1
+darting pains in fingers,sharp darting pains in fingers,1.0,1
+darting pains in fingers,sharp lancinating pains in fingers,1.0,1
+darting pains in fingers,sharp darting pains involving every joint,1.0,1
+darting pains in fingers,cannot put on coat,1.0,1
+darting pains in fingers,rheumatism of large joints,1.0,1
+darting pains in fingers,rheumatism of joints with large amount of serous fluid,1.0,1
+darting pains in fingers,rheumatic inflammation of right ankle joint,1.0,1
+darting pains in fingers,great anxiety about the heart,1.0,1
+darting pains in fingers,rheumatism in deltoid,1.0,1
+darting pains in fingers,much swelling about knee joint,1.0,1
+darting pains in fingers,pains dull,1.0,1
+darting pains in fingers,powerless if attempts to move,1.0,1
+darting pains in fingers,alternates with characteristic cough,1.0,1
+darting pains in fingers,improved during day,1.0,1
+darting pains in fingers,constant pain,1.0,1
+darting pains in fingers,sharp lancinating pains in elbow,1.0,1
+darting pains in fingers,hands swollen,1.0,1
+darting pains in fingers,severe rheumatic inflammation of knee joint,1.0,1
+darting pains in fingers,sharp lancinating pains involving every joint,1.0,1
+darting pains in fingers,restless nights,1.0,1
+darting pains in fingers,darting pains in joints,1.0,1
+darting pains in fingers,swollen,1.0,1
+darting pains in fingers,sudden pain through chest to spinal column,1.0,1
+darting pains in fingers,circumscribed redness of joints,1.0,1
+darting pains in fingers,worse during day,1.0,1
+darting pains in fingers,strange sensation as if floating in the air,1.0,1
+darting pains in fingers,wrists swollen,1.0,1
+darting pains in fingers,stiffness of hands,1.0,1
+darting pains in fingers,pains heavy,1.0,1
+darting pains in fingers,soreness to touch,1.0,1
+darting pains in fingers,darting pains in thighs,1.0,1
+darting pains in fingers,sharp darting pains in knee joints,1.0,1
+darting pains in fingers,sharp lancinating pains in knee joints,1.0,1
+darting pains in fingers,much effusion into joints,1.0,1
+darting pains in fingers,very painful,1.0,1
+darting pains in fingers,excessive dryness of soft palate,1.0,1
+darting pains in fingers,redness followed by effusion,1.0,1
+darting pains in fingers,rheumatism in triceps,1.0,1
+darting pains in fingers,sharp darting pains in elbow,1.0,1
+darting pains in fingers,rheumatism of wrist joints,1.0,1
+darting pains in fingers,extending to forearm,1.0,1
+very painful,redness,1.0,1
+very painful,sharp darting pains in shoulder,1.0,1
+very painful,darting pains in arms,1.0,1
+very painful,sharp lancinating pains in shoulder,1.0,1
+very painful,heat of joints,1.0,1
+very painful,darting pains in toes,1.0,1
+very painful,dry hacking cough,1.0,1
+very painful,rheumatism in right shoulder joint,1.0,1
+very painful,raising the patella,1.0,1
+very painful,tickle left side of trachea,1.0,1
+very painful,stiffness of feet,1.0,1
+very painful,nose stuffed up,1.0,1
+very painful,sharp darting pains in fingers,1.0,1
+very painful,sharp lancinating pains in fingers,1.0,1
+very painful,sharp darting pains involving every joint,1.0,1
+very painful,cannot put on coat,1.0,1
+very painful,rheumatism of large joints,1.0,1
+very painful,rheumatism of joints with large amount of serous fluid,1.0,1
+very painful,rheumatic inflammation of right ankle joint,1.0,1
+very painful,great anxiety about the heart,1.0,1
+very painful,rheumatism in deltoid,1.0,1
+very painful,much swelling about knee joint,1.0,1
+very painful,pains dull,1.0,1
+very painful,darting pains in fingers,1.0,1
+very painful,powerless if attempts to move,1.0,1
+very painful,alternates with characteristic cough,1.0,1
+very painful,improved during day,1.0,1
+very painful,constant pain,1.0,1
+very painful,sharp lancinating pains in elbow,1.0,1
+very painful,hands swollen,1.0,1
+very painful,severe rheumatic inflammation of knee joint,1.0,1
+very painful,sharp lancinating pains involving every joint,1.0,1
+very painful,restless nights,1.0,1
+very painful,darting pains in joints,1.0,1
+very painful,swollen,1.0,1
+very painful,sudden pain through chest to spinal column,1.0,1
+very painful,circumscribed redness of joints,1.0,1
+very painful,worse during day,1.0,1
+very painful,strange sensation as if floating in the air,1.0,1
+very painful,wrists swollen,1.0,1
+very painful,stiffness of hands,1.0,1
+very painful,pains heavy,1.0,1
+very painful,soreness to touch,1.0,1
+very painful,darting pains in thighs,1.0,1
+very painful,sharp darting pains in knee joints,1.0,1
+very painful,sharp lancinating pains in knee joints,1.0,1
+very painful,much effusion into joints,1.0,1
+very painful,excessive dryness of soft palate,1.0,1
+very painful,redness followed by effusion,1.0,1
+very painful,rheumatism in triceps,1.0,1
+very painful,sharp darting pains in elbow,1.0,1
+very painful,rheumatism of wrist joints,1.0,1
+very painful,extending to forearm,1.0,1
+much effusion into joints,redness,1.0,1
+much effusion into joints,sharp darting pains in shoulder,1.0,1
+much effusion into joints,darting pains in arms,1.0,1
+much effusion into joints,sharp lancinating pains in shoulder,1.0,1
+much effusion into joints,heat of joints,1.0,1
+much effusion into joints,darting pains in toes,1.0,1
+much effusion into joints,dry hacking cough,1.0,1
+much effusion into joints,rheumatism in right shoulder joint,1.0,1
+much effusion into joints,raising the patella,1.0,1
+much effusion into joints,tickle left side of trachea,1.0,1
+much effusion into joints,stiffness of feet,1.0,1
+much effusion into joints,nose stuffed up,1.0,1
+much effusion into joints,sharp darting pains in fingers,1.0,1
+much effusion into joints,sharp lancinating pains in fingers,1.0,1
+much effusion into joints,sharp darting pains involving every joint,1.0,1
+much effusion into joints,cannot put on coat,1.0,1
+much effusion into joints,rheumatism of large joints,1.0,1
+much effusion into joints,rheumatism of joints with large amount of serous fluid,1.0,1
+much effusion into joints,rheumatic inflammation of right ankle joint,1.0,1
+much effusion into joints,great anxiety about the heart,1.0,1
+much effusion into joints,rheumatism in deltoid,1.0,1
+much effusion into joints,much swelling about knee joint,1.0,1
+much effusion into joints,pains dull,1.0,1
+much effusion into joints,darting pains in fingers,1.0,1
+much effusion into joints,powerless if attempts to move,1.0,1
+much effusion into joints,alternates with characteristic cough,1.0,1
+much effusion into joints,improved during day,1.0,1
+much effusion into joints,constant pain,1.0,1
+much effusion into joints,sharp lancinating pains in elbow,1.0,1
+much effusion into joints,hands swollen,1.0,1
+much effusion into joints,severe rheumatic inflammation of knee joint,1.0,1
+much effusion into joints,sharp lancinating pains involving every joint,1.0,1
+much effusion into joints,restless nights,1.0,1
+much effusion into joints,darting pains in joints,1.0,1
+much effusion into joints,swollen,1.0,1
+much effusion into joints,sudden pain through chest to spinal column,1.0,1
+much effusion into joints,circumscribed redness of joints,1.0,1
+much effusion into joints,worse during day,1.0,1
+much effusion into joints,strange sensation as if floating in the air,1.0,1
+much effusion into joints,wrists swollen,1.0,1
+much effusion into joints,stiffness of hands,1.0,1
+much effusion into joints,pains heavy,1.0,1
+much effusion into joints,soreness to touch,1.0,1
+much effusion into joints,darting pains in thighs,1.0,1
+much effusion into joints,sharp darting pains in knee joints,1.0,1
+much effusion into joints,sharp lancinating pains in knee joints,1.0,1
+much effusion into joints,very painful,1.0,1
+much effusion into joints,excessive dryness of soft palate,1.0,1
+much effusion into joints,redness followed by effusion,1.0,1
+much effusion into joints,rheumatism in triceps,1.0,1
+much effusion into joints,sharp darting pains in elbow,1.0,1
+much effusion into joints,rheumatism of wrist joints,1.0,1
+much effusion into joints,extending to forearm,1.0,1
+constant pain,redness,1.0,1
+constant pain,sharp darting pains in shoulder,1.0,1
+constant pain,darting pains in arms,1.0,1
+constant pain,sharp lancinating pains in shoulder,1.0,1
+constant pain,heat of joints,1.0,1
+constant pain,darting pains in toes,1.0,1
+constant pain,dry hacking cough,1.0,1
+constant pain,rheumatism in right shoulder joint,1.0,1
+constant pain,raising the patella,1.0,1
+constant pain,tickle left side of trachea,1.0,1
+constant pain,stiffness of feet,1.0,1
+constant pain,nose stuffed up,1.0,1
+constant pain,sharp darting pains in fingers,1.0,1
+constant pain,sharp lancinating pains in fingers,1.0,1
+constant pain,sharp darting pains involving every joint,1.0,1
+constant pain,cannot put on coat,1.0,1
+constant pain,rheumatism of large joints,1.0,1
+constant pain,rheumatism of joints with large amount of serous fluid,1.0,1
+constant pain,rheumatic inflammation of right ankle joint,1.0,1
+constant pain,great anxiety about the heart,1.0,1
+constant pain,rheumatism in deltoid,1.0,1
+constant pain,much swelling about knee joint,1.0,1
+constant pain,pains dull,1.0,1
+constant pain,darting pains in fingers,1.0,1
+constant pain,powerless if attempts to move,1.0,1
+constant pain,alternates with characteristic cough,1.0,1
+constant pain,improved during day,1.0,1
+constant pain,sharp lancinating pains in elbow,1.0,1
+constant pain,hands swollen,1.0,1
+constant pain,severe rheumatic inflammation of knee joint,1.0,1
+constant pain,sharp lancinating pains involving every joint,1.0,1
+constant pain,restless nights,1.0,1
+constant pain,darting pains in joints,1.0,1
+constant pain,swollen,1.0,1
+constant pain,sudden pain through chest to spinal column,1.0,1
+constant pain,circumscribed redness of joints,1.0,1
+constant pain,worse during day,1.0,1
+constant pain,strange sensation as if floating in the air,1.0,1
+constant pain,wrists swollen,1.0,1
+constant pain,stiffness of hands,1.0,1
+constant pain,pains heavy,1.0,1
+constant pain,soreness to touch,1.0,1
+constant pain,darting pains in thighs,1.0,1
+constant pain,sharp darting pains in knee joints,1.0,1
+constant pain,sharp lancinating pains in knee joints,1.0,1
+constant pain,much effusion into joints,1.0,1
+constant pain,very painful,1.0,1
+constant pain,excessive dryness of soft palate,1.0,1
+constant pain,redness followed by effusion,1.0,1
+constant pain,rheumatism in triceps,1.0,1
+constant pain,sharp darting pains in elbow,1.0,1
+constant pain,rheumatism of wrist joints,1.0,1
+constant pain,extending to forearm,1.0,1
+great anxiety about the heart,redness,1.0,1
+great anxiety about the heart,sharp darting pains in shoulder,1.0,1
+great anxiety about the heart,darting pains in arms,1.0,1
+great anxiety about the heart,sharp lancinating pains in shoulder,1.0,1
+great anxiety about the heart,heat of joints,1.0,1
+great anxiety about the heart,darting pains in toes,1.0,1
+great anxiety about the heart,dry hacking cough,1.0,1
+great anxiety about the heart,rheumatism in right shoulder joint,1.0,1
+great anxiety about the heart,raising the patella,1.0,1
+great anxiety about the heart,tickle left side of trachea,1.0,1
+great anxiety about the heart,stiffness of feet,1.0,1
+great anxiety about the heart,nose stuffed up,1.0,1
+great anxiety about the heart,sharp darting pains in fingers,1.0,1
+great anxiety about the heart,sharp lancinating pains in fingers,1.0,1
+great anxiety about the heart,sharp darting pains involving every joint,1.0,1
+great anxiety about the heart,cannot put on coat,1.0,1
+great anxiety about the heart,rheumatism of large joints,1.0,1
+great anxiety about the heart,rheumatism of joints with large amount of serous fluid,1.0,1
+great anxiety about the heart,rheumatic inflammation of right ankle joint,1.0,1
+great anxiety about the heart,rheumatism in deltoid,1.0,1
+great anxiety about the heart,much swelling about knee joint,1.0,1
+great anxiety about the heart,pains dull,1.0,1
+great anxiety about the heart,darting pains in fingers,1.0,1
+great anxiety about the heart,powerless if attempts to move,1.0,1
+great anxiety about the heart,alternates with characteristic cough,1.0,1
+great anxiety about the heart,improved during day,1.0,1
+great anxiety about the heart,constant pain,1.0,1
+great anxiety about the heart,sharp lancinating pains in elbow,1.0,1
+great anxiety about the heart,hands swollen,1.0,1
+great anxiety about the heart,severe rheumatic inflammation of knee joint,1.0,1
+great anxiety about the heart,sharp lancinating pains involving every joint,1.0,1
+great anxiety about the heart,restless nights,1.0,1
+great anxiety about the heart,darting pains in joints,1.0,1
+great anxiety about the heart,swollen,1.0,1
+great anxiety about the heart,sudden pain through chest to spinal column,1.0,1
+great anxiety about the heart,circumscribed redness of joints,1.0,1
+great anxiety about the heart,worse during day,1.0,1
+great anxiety about the heart,strange sensation as if floating in the air,1.0,1
+great anxiety about the heart,wrists swollen,1.0,1
+great anxiety about the heart,stiffness of hands,1.0,1
+great anxiety about the heart,pains heavy,1.0,1
+great anxiety about the heart,soreness to touch,1.0,1
+great anxiety about the heart,darting pains in thighs,1.0,1
+great anxiety about the heart,sharp darting pains in knee joints,1.0,1
+great anxiety about the heart,sharp lancinating pains in knee joints,1.0,1
+great anxiety about the heart,much effusion into joints,1.0,1
+great anxiety about the heart,very painful,1.0,1
+great anxiety about the heart,excessive dryness of soft palate,1.0,1
+great anxiety about the heart,redness followed by effusion,1.0,1
+great anxiety about the heart,rheumatism in triceps,1.0,1
+great anxiety about the heart,sharp darting pains in elbow,1.0,1
+great anxiety about the heart,rheumatism of wrist joints,1.0,1
+great anxiety about the heart,extending to forearm,1.0,1
+swollen,redness,1.0,1
+swollen,sharp darting pains in shoulder,1.0,1
+swollen,darting pains in arms,1.0,1
+swollen,sharp lancinating pains in shoulder,1.0,1
+swollen,heat of joints,1.0,1
+swollen,darting pains in toes,1.0,1
+swollen,dry hacking cough,1.0,1
+swollen,rheumatism in right shoulder joint,1.0,1
+swollen,raising the patella,1.0,1
+swollen,tickle left side of trachea,1.0,1
+swollen,stiffness of feet,1.0,1
+swollen,nose stuffed up,1.0,1
+swollen,sharp darting pains in fingers,1.0,1
+swollen,sharp lancinating pains in fingers,1.0,1
+swollen,sharp darting pains involving every joint,1.0,1
+swollen,cannot put on coat,1.0,1
+swollen,rheumatism of large joints,1.0,1
+swollen,rheumatism of joints with large amount of serous fluid,1.0,1
+swollen,rheumatic inflammation of right ankle joint,1.0,1
+swollen,great anxiety about the heart,1.0,1
+swollen,rheumatism in deltoid,1.0,1
+swollen,much swelling about knee joint,1.0,1
+swollen,pains dull,1.0,1
+swollen,darting pains in fingers,1.0,1
+swollen,powerless if attempts to move,1.0,1
+swollen,alternates with characteristic cough,1.0,1
+swollen,improved during day,1.0,1
+swollen,constant pain,1.0,1
+swollen,sharp lancinating pains in elbow,1.0,1
+swollen,hands swollen,1.0,1
+swollen,severe rheumatic inflammation of knee joint,1.0,1
+swollen,sharp lancinating pains involving every joint,1.0,1
+swollen,restless nights,1.0,1
+swollen,darting pains in joints,1.0,1
+swollen,sudden pain through chest to spinal column,1.0,1
+swollen,circumscribed redness of joints,1.0,1
+swollen,worse during day,1.0,1
+swollen,strange sensation as if floating in the air,1.0,1
+swollen,wrists swollen,1.0,1
+swollen,stiffness of hands,1.0,1
+swollen,pains heavy,1.0,1
+swollen,soreness to touch,1.0,1
+swollen,darting pains in thighs,1.0,1
+swollen,sharp darting pains in knee joints,1.0,1
+swollen,sharp lancinating pains in knee joints,1.0,1
+swollen,much effusion into joints,1.0,1
+swollen,very painful,1.0,1
+swollen,excessive dryness of soft palate,1.0,1
+swollen,redness followed by effusion,1.0,1
+swollen,rheumatism in triceps,1.0,1
+swollen,sharp darting pains in elbow,1.0,1
+swollen,rheumatism of wrist joints,1.0,1
+swollen,extending to forearm,1.0,1
+redness followed by effusion,redness,1.0,1
+redness followed by effusion,sharp darting pains in shoulder,1.0,1
+redness followed by effusion,darting pains in arms,1.0,1
+redness followed by effusion,sharp lancinating pains in shoulder,1.0,1
+redness followed by effusion,heat of joints,1.0,1
+redness followed by effusion,darting pains in toes,1.0,1
+redness followed by effusion,dry hacking cough,1.0,1
+redness followed by effusion,rheumatism in right shoulder joint,1.0,1
+redness followed by effusion,raising the patella,1.0,1
+redness followed by effusion,tickle left side of trachea,1.0,1
+redness followed by effusion,stiffness of feet,1.0,1
+redness followed by effusion,nose stuffed up,1.0,1
+redness followed by effusion,sharp darting pains in fingers,1.0,1
+redness followed by effusion,sharp lancinating pains in fingers,1.0,1
+redness followed by effusion,sharp darting pains involving every joint,1.0,1
+redness followed by effusion,cannot put on coat,1.0,1
+redness followed by effusion,rheumatism of large joints,1.0,1
+redness followed by effusion,rheumatism of joints with large amount of serous fluid,1.0,1
+redness followed by effusion,rheumatic inflammation of right ankle joint,1.0,1
+redness followed by effusion,great anxiety about the heart,1.0,1
+redness followed by effusion,rheumatism in deltoid,1.0,1
+redness followed by effusion,much swelling about knee joint,1.0,1
+redness followed by effusion,pains dull,1.0,1
+redness followed by effusion,darting pains in fingers,1.0,1
+redness followed by effusion,powerless if attempts to move,1.0,1
+redness followed by effusion,alternates with characteristic cough,1.0,1
+redness followed by effusion,improved during day,1.0,1
+redness followed by effusion,constant pain,1.0,1
+redness followed by effusion,sharp lancinating pains in elbow,1.0,1
+redness followed by effusion,hands swollen,1.0,1
+redness followed by effusion,severe rheumatic inflammation of knee joint,1.0,1
+redness followed by effusion,sharp lancinating pains involving every joint,1.0,1
+redness followed by effusion,restless nights,1.0,1
+redness followed by effusion,darting pains in joints,1.0,1
+redness followed by effusion,swollen,1.0,1
+redness followed by effusion,sudden pain through chest to spinal column,1.0,1
+redness followed by effusion,circumscribed redness of joints,1.0,1
+redness followed by effusion,worse during day,1.0,1
+redness followed by effusion,strange sensation as if floating in the air,1.0,1
+redness followed by effusion,wrists swollen,1.0,1
+redness followed by effusion,stiffness of hands,1.0,1
+redness followed by effusion,pains heavy,1.0,1
+redness followed by effusion,soreness to touch,1.0,1
+redness followed by effusion,darting pains in thighs,1.0,1
+redness followed by effusion,sharp darting pains in knee joints,1.0,1
+redness followed by effusion,sharp lancinating pains in knee joints,1.0,1
+redness followed by effusion,much effusion into joints,1.0,1
+redness followed by effusion,very painful,1.0,1
+redness followed by effusion,excessive dryness of soft palate,1.0,1
+redness followed by effusion,rheumatism in triceps,1.0,1
+redness followed by effusion,sharp darting pains in elbow,1.0,1
+redness followed by effusion,rheumatism of wrist joints,1.0,1
+redness followed by effusion,extending to forearm,1.0,1
+rheumatism of large joints,redness,1.0,1
+rheumatism of large joints,sharp darting pains in shoulder,1.0,1
+rheumatism of large joints,darting pains in arms,1.0,1
+rheumatism of large joints,sharp lancinating pains in shoulder,1.0,1
+rheumatism of large joints,heat of joints,1.0,1
+rheumatism of large joints,darting pains in toes,1.0,1
+rheumatism of large joints,dry hacking cough,1.0,1
+rheumatism of large joints,rheumatism in right shoulder joint,1.0,1
+rheumatism of large joints,raising the patella,1.0,1
+rheumatism of large joints,tickle left side of trachea,1.0,1
+rheumatism of large joints,stiffness of feet,1.0,1
+rheumatism of large joints,nose stuffed up,1.0,1
+rheumatism of large joints,sharp darting pains in fingers,1.0,1
+rheumatism of large joints,sharp lancinating pains in fingers,1.0,1
+rheumatism of large joints,sharp darting pains involving every joint,1.0,1
+rheumatism of large joints,cannot put on coat,1.0,1
+rheumatism of large joints,rheumatism of joints with large amount of serous fluid,1.0,1
+rheumatism of large joints,rheumatic inflammation of right ankle joint,1.0,1
+rheumatism of large joints,great anxiety about the heart,1.0,1
+rheumatism of large joints,rheumatism in deltoid,1.0,1
+rheumatism of large joints,much swelling about knee joint,1.0,1
+rheumatism of large joints,pains dull,1.0,1
+rheumatism of large joints,darting pains in fingers,1.0,1
+rheumatism of large joints,powerless if attempts to move,1.0,1
+rheumatism of large joints,alternates with characteristic cough,1.0,1
+rheumatism of large joints,improved during day,1.0,1
+rheumatism of large joints,constant pain,1.0,1
+rheumatism of large joints,sharp lancinating pains in elbow,1.0,1
+rheumatism of large joints,hands swollen,1.0,1
+rheumatism of large joints,severe rheumatic inflammation of knee joint,1.0,1
+rheumatism of large joints,sharp lancinating pains involving every joint,1.0,1
+rheumatism of large joints,restless nights,1.0,1
+rheumatism of large joints,darting pains in joints,1.0,1
+rheumatism of large joints,swollen,1.0,1
+rheumatism of large joints,sudden pain through chest to spinal column,1.0,1
+rheumatism of large joints,circumscribed redness of joints,1.0,1
+rheumatism of large joints,worse during day,1.0,1
+rheumatism of large joints,strange sensation as if floating in the air,1.0,1
+rheumatism of large joints,wrists swollen,1.0,1
+rheumatism of large joints,stiffness of hands,1.0,1
+rheumatism of large joints,pains heavy,1.0,1
+rheumatism of large joints,soreness to touch,1.0,1
+rheumatism of large joints,darting pains in thighs,1.0,1
+rheumatism of large joints,sharp darting pains in knee joints,1.0,1
+rheumatism of large joints,sharp lancinating pains in knee joints,1.0,1
+rheumatism of large joints,much effusion into joints,1.0,1
+rheumatism of large joints,very painful,1.0,1
+rheumatism of large joints,excessive dryness of soft palate,1.0,1
+rheumatism of large joints,redness followed by effusion,1.0,1
+rheumatism of large joints,rheumatism in triceps,1.0,1
+rheumatism of large joints,sharp darting pains in elbow,1.0,1
+rheumatism of large joints,rheumatism of wrist joints,1.0,1
+rheumatism of large joints,extending to forearm,1.0,1
+tickle left side of trachea,redness,1.0,1
+tickle left side of trachea,sharp darting pains in shoulder,1.0,1
+tickle left side of trachea,darting pains in arms,1.0,1
+tickle left side of trachea,sharp lancinating pains in shoulder,1.0,1
+tickle left side of trachea,heat of joints,1.0,1
+tickle left side of trachea,darting pains in toes,1.0,1
+tickle left side of trachea,dry hacking cough,1.0,1
+tickle left side of trachea,rheumatism in right shoulder joint,1.0,1
+tickle left side of trachea,raising the patella,1.0,1
+tickle left side of trachea,stiffness of feet,1.0,1
+tickle left side of trachea,nose stuffed up,1.0,1
+tickle left side of trachea,sharp darting pains in fingers,1.0,1
+tickle left side of trachea,sharp lancinating pains in fingers,1.0,1
+tickle left side of trachea,sharp darting pains involving every joint,1.0,1
+tickle left side of trachea,cannot put on coat,1.0,1
+tickle left side of trachea,rheumatism of large joints,1.0,1
+tickle left side of trachea,rheumatism of joints with large amount of serous fluid,1.0,1
+tickle left side of trachea,rheumatic inflammation of right ankle joint,1.0,1
+tickle left side of trachea,great anxiety about the heart,1.0,1
+tickle left side of trachea,rheumatism in deltoid,1.0,1
+tickle left side of trachea,much swelling about knee joint,1.0,1
+tickle left side of trachea,pains dull,1.0,1
+tickle left side of trachea,darting pains in fingers,1.0,1
+tickle left side of trachea,powerless if attempts to move,1.0,1
+tickle left side of trachea,alternates with characteristic cough,1.0,1
+tickle left side of trachea,improved during day,1.0,1
+tickle left side of trachea,constant pain,1.0,1
+tickle left side of trachea,sharp lancinating pains in elbow,1.0,1
+tickle left side of trachea,hands swollen,1.0,1
+tickle left side of trachea,severe rheumatic inflammation of knee joint,1.0,1
+tickle left side of trachea,sharp lancinating pains involving every joint,1.0,1
+tickle left side of trachea,restless nights,1.0,1
+tickle left side of trachea,darting pains in joints,1.0,1
+tickle left side of trachea,swollen,1.0,1
+tickle left side of trachea,sudden pain through chest to spinal column,1.0,1
+tickle left side of trachea,circumscribed redness of joints,1.0,1
+tickle left side of trachea,worse during day,1.0,1
+tickle left side of trachea,strange sensation as if floating in the air,1.0,1
+tickle left side of trachea,wrists swollen,1.0,1
+tickle left side of trachea,stiffness of hands,1.0,1
+tickle left side of trachea,pains heavy,1.0,1
+tickle left side of trachea,soreness to touch,1.0,1
+tickle left side of trachea,darting pains in thighs,1.0,1
+tickle left side of trachea,sharp darting pains in knee joints,1.0,1
+tickle left side of trachea,sharp lancinating pains in knee joints,1.0,1
+tickle left side of trachea,much effusion into joints,1.0,1
+tickle left side of trachea,very painful,1.0,1
+tickle left side of trachea,excessive dryness of soft palate,1.0,1
+tickle left side of trachea,redness followed by effusion,1.0,1
+tickle left side of trachea,rheumatism in triceps,1.0,1
+tickle left side of trachea,sharp darting pains in elbow,1.0,1
+tickle left side of trachea,rheumatism of wrist joints,1.0,1
+tickle left side of trachea,extending to forearm,1.0,1
+rheumatism of joints with large amount of serous fluid,redness,1.0,1
+rheumatism of joints with large amount of serous fluid,sharp darting pains in shoulder,1.0,1
+rheumatism of joints with large amount of serous fluid,darting pains in arms,1.0,1
+rheumatism of joints with large amount of serous fluid,sharp lancinating pains in shoulder,1.0,1
+rheumatism of joints with large amount of serous fluid,heat of joints,1.0,1
+rheumatism of joints with large amount of serous fluid,darting pains in toes,1.0,1
+rheumatism of joints with large amount of serous fluid,dry hacking cough,1.0,1
+rheumatism of joints with large amount of serous fluid,rheumatism in right shoulder joint,1.0,1
+rheumatism of joints with large amount of serous fluid,raising the patella,1.0,1
+rheumatism of joints with large amount of serous fluid,tickle left side of trachea,1.0,1
+rheumatism of joints with large amount of serous fluid,stiffness of feet,1.0,1
+rheumatism of joints with large amount of serous fluid,nose stuffed up,1.0,1
+rheumatism of joints with large amount of serous fluid,sharp darting pains in fingers,1.0,1
+rheumatism of joints with large amount of serous fluid,sharp lancinating pains in fingers,1.0,1
+rheumatism of joints with large amount of serous fluid,sharp darting pains involving every joint,1.0,1
+rheumatism of joints with large amount of serous fluid,cannot put on coat,1.0,1
+rheumatism of joints with large amount of serous fluid,rheumatism of large joints,1.0,1
+rheumatism of joints with large amount of serous fluid,rheumatic inflammation of right ankle joint,1.0,1
+rheumatism of joints with large amount of serous fluid,great anxiety about the heart,1.0,1
+rheumatism of joints with large amount of serous fluid,rheumatism in deltoid,1.0,1
+rheumatism of joints with large amount of serous fluid,much swelling about knee joint,1.0,1
+rheumatism of joints with large amount of serous fluid,pains dull,1.0,1
+rheumatism of joints with large amount of serous fluid,darting pains in fingers,1.0,1
+rheumatism of joints with large amount of serous fluid,powerless if attempts to move,1.0,1
+rheumatism of joints with large amount of serous fluid,alternates with characteristic cough,1.0,1
+rheumatism of joints with large amount of serous fluid,improved during day,1.0,1
+rheumatism of joints with large amount of serous fluid,constant pain,1.0,1
+rheumatism of joints with large amount of serous fluid,sharp lancinating pains in elbow,1.0,1
+rheumatism of joints with large amount of serous fluid,hands swollen,1.0,1
+rheumatism of joints with large amount of serous fluid,severe rheumatic inflammation of knee joint,1.0,1
+rheumatism of joints with large amount of serous fluid,sharp lancinating pains involving every joint,1.0,1
+rheumatism of joints with large amount of serous fluid,restless nights,1.0,1
+rheumatism of joints with large amount of serous fluid,darting pains in joints,1.0,1
+rheumatism of joints with large amount of serous fluid,swollen,1.0,1
+rheumatism of joints with large amount of serous fluid,sudden pain through chest to spinal column,1.0,1
+rheumatism of joints with large amount of serous fluid,circumscribed redness of joints,1.0,1
+rheumatism of joints with large amount of serous fluid,worse during day,1.0,1
+rheumatism of joints with large amount of serous fluid,strange sensation as if floating in the air,1.0,1
+rheumatism of joints with large amount of serous fluid,wrists swollen,1.0,1
+rheumatism of joints with large amount of serous fluid,stiffness of hands,1.0,1
+rheumatism of joints with large amount of serous fluid,pains heavy,1.0,1
+rheumatism of joints with large amount of serous fluid,soreness to touch,1.0,1
+rheumatism of joints with large amount of serous fluid,darting pains in thighs,1.0,1
+rheumatism of joints with large amount of serous fluid,sharp darting pains in knee joints,1.0,1
+rheumatism of joints with large amount of serous fluid,sharp lancinating pains in knee joints,1.0,1
+rheumatism of joints with large amount of serous fluid,much effusion into joints,1.0,1
+rheumatism of joints with large amount of serous fluid,very painful,1.0,1
+rheumatism of joints with large amount of serous fluid,excessive dryness of soft palate,1.0,1
+rheumatism of joints with large amount of serous fluid,redness followed by effusion,1.0,1
+rheumatism of joints with large amount of serous fluid,rheumatism in triceps,1.0,1
+rheumatism of joints with large amount of serous fluid,sharp darting pains in elbow,1.0,1
+rheumatism of joints with large amount of serous fluid,rheumatism of wrist joints,1.0,1
+rheumatism of joints with large amount of serous fluid,extending to forearm,1.0,1
+powerless if attempts to move,redness,1.0,1
+powerless if attempts to move,sharp darting pains in shoulder,1.0,1
+powerless if attempts to move,darting pains in arms,1.0,1
+powerless if attempts to move,sharp lancinating pains in shoulder,1.0,1
+powerless if attempts to move,heat of joints,1.0,1
+powerless if attempts to move,darting pains in toes,1.0,1
+powerless if attempts to move,dry hacking cough,1.0,1
+powerless if attempts to move,rheumatism in right shoulder joint,1.0,1
+powerless if attempts to move,raising the patella,1.0,1
+powerless if attempts to move,tickle left side of trachea,1.0,1
+powerless if attempts to move,stiffness of feet,1.0,1
+powerless if attempts to move,nose stuffed up,1.0,1
+powerless if attempts to move,sharp darting pains in fingers,1.0,1
+powerless if attempts to move,sharp lancinating pains in fingers,1.0,1
+powerless if attempts to move,sharp darting pains involving every joint,1.0,1
+powerless if attempts to move,cannot put on coat,1.0,1
+powerless if attempts to move,rheumatism of large joints,1.0,1
+powerless if attempts to move,rheumatism of joints with large amount of serous fluid,1.0,1
+powerless if attempts to move,rheumatic inflammation of right ankle joint,1.0,1
+powerless if attempts to move,great anxiety about the heart,1.0,1
+powerless if attempts to move,rheumatism in deltoid,1.0,1
+powerless if attempts to move,much swelling about knee joint,1.0,1
+powerless if attempts to move,pains dull,1.0,1
+powerless if attempts to move,darting pains in fingers,1.0,1
+powerless if attempts to move,alternates with characteristic cough,1.0,1
+powerless if attempts to move,improved during day,1.0,1
+powerless if attempts to move,constant pain,1.0,1
+powerless if attempts to move,sharp lancinating pains in elbow,1.0,1
+powerless if attempts to move,hands swollen,1.0,1
+powerless if attempts to move,severe rheumatic inflammation of knee joint,1.0,1
+powerless if attempts to move,sharp lancinating pains involving every joint,1.0,1
+powerless if attempts to move,restless nights,1.0,1
+powerless if attempts to move,darting pains in joints,1.0,1
+powerless if attempts to move,swollen,1.0,1
+powerless if attempts to move,sudden pain through chest to spinal column,1.0,1
+powerless if attempts to move,circumscribed redness of joints,1.0,1
+powerless if attempts to move,worse during day,1.0,1
+powerless if attempts to move,strange sensation as if floating in the air,1.0,1
+powerless if attempts to move,wrists swollen,1.0,1
+powerless if attempts to move,stiffness of hands,1.0,1
+powerless if attempts to move,pains heavy,1.0,1
+powerless if attempts to move,soreness to touch,1.0,1
+powerless if attempts to move,darting pains in thighs,1.0,1
+powerless if attempts to move,sharp darting pains in knee joints,1.0,1
+powerless if attempts to move,sharp lancinating pains in knee joints,1.0,1
+powerless if attempts to move,much effusion into joints,1.0,1
+powerless if attempts to move,very painful,1.0,1
+powerless if attempts to move,excessive dryness of soft palate,1.0,1
+powerless if attempts to move,redness followed by effusion,1.0,1
+powerless if attempts to move,rheumatism in triceps,1.0,1
+powerless if attempts to move,sharp darting pains in elbow,1.0,1
+powerless if attempts to move,rheumatism of wrist joints,1.0,1
+powerless if attempts to move,extending to forearm,1.0,1
+severe rheumatic inflammation of knee joint,redness,1.0,1
+severe rheumatic inflammation of knee joint,sharp darting pains in shoulder,1.0,1
+severe rheumatic inflammation of knee joint,darting pains in arms,1.0,1
+severe rheumatic inflammation of knee joint,sharp lancinating pains in shoulder,1.0,1
+severe rheumatic inflammation of knee joint,heat of joints,1.0,1
+severe rheumatic inflammation of knee joint,darting pains in toes,1.0,1
+severe rheumatic inflammation of knee joint,dry hacking cough,1.0,1
+severe rheumatic inflammation of knee joint,rheumatism in right shoulder joint,1.0,1
+severe rheumatic inflammation of knee joint,raising the patella,1.0,1
+severe rheumatic inflammation of knee joint,tickle left side of trachea,1.0,1
+severe rheumatic inflammation of knee joint,stiffness of feet,1.0,1
+severe rheumatic inflammation of knee joint,nose stuffed up,1.0,1
+severe rheumatic inflammation of knee joint,sharp darting pains in fingers,1.0,1
+severe rheumatic inflammation of knee joint,sharp lancinating pains in fingers,1.0,1
+severe rheumatic inflammation of knee joint,sharp darting pains involving every joint,1.0,1
+severe rheumatic inflammation of knee joint,cannot put on coat,1.0,1
+severe rheumatic inflammation of knee joint,rheumatism of large joints,1.0,1
+severe rheumatic inflammation of knee joint,rheumatism of joints with large amount of serous fluid,1.0,1
+severe rheumatic inflammation of knee joint,rheumatic inflammation of right ankle joint,1.0,1
+severe rheumatic inflammation of knee joint,great anxiety about the heart,1.0,1
+severe rheumatic inflammation of knee joint,rheumatism in deltoid,1.0,1
+severe rheumatic inflammation of knee joint,much swelling about knee joint,1.0,1
+severe rheumatic inflammation of knee joint,pains dull,1.0,1
+severe rheumatic inflammation of knee joint,darting pains in fingers,1.0,1
+severe rheumatic inflammation of knee joint,powerless if attempts to move,1.0,1
+severe rheumatic inflammation of knee joint,alternates with characteristic cough,1.0,1
+severe rheumatic inflammation of knee joint,improved during day,1.0,1
+severe rheumatic inflammation of knee joint,constant pain,1.0,1
+severe rheumatic inflammation of knee joint,sharp lancinating pains in elbow,1.0,1
+severe rheumatic inflammation of knee joint,hands swollen,1.0,1
+severe rheumatic inflammation of knee joint,sharp lancinating pains involving every joint,1.0,1
+severe rheumatic inflammation of knee joint,restless nights,1.0,1
+severe rheumatic inflammation of knee joint,darting pains in joints,1.0,1
+severe rheumatic inflammation of knee joint,swollen,1.0,1
+severe rheumatic inflammation of knee joint,sudden pain through chest to spinal column,1.0,1
+severe rheumatic inflammation of knee joint,circumscribed redness of joints,1.0,1
+severe rheumatic inflammation of knee joint,worse during day,1.0,1
+severe rheumatic inflammation of knee joint,strange sensation as if floating in the air,1.0,1
+severe rheumatic inflammation of knee joint,wrists swollen,1.0,1
+severe rheumatic inflammation of knee joint,stiffness of hands,1.0,1
+severe rheumatic inflammation of knee joint,pains heavy,1.0,1
+severe rheumatic inflammation of knee joint,soreness to touch,1.0,1
+severe rheumatic inflammation of knee joint,darting pains in thighs,1.0,1
+severe rheumatic inflammation of knee joint,sharp darting pains in knee joints,1.0,1
+severe rheumatic inflammation of knee joint,sharp lancinating pains in knee joints,1.0,1
+severe rheumatic inflammation of knee joint,much effusion into joints,1.0,1
+severe rheumatic inflammation of knee joint,very painful,1.0,1
+severe rheumatic inflammation of knee joint,excessive dryness of soft palate,1.0,1
+severe rheumatic inflammation of knee joint,redness followed by effusion,1.0,1
+severe rheumatic inflammation of knee joint,rheumatism in triceps,1.0,1
+severe rheumatic inflammation of knee joint,sharp darting pains in elbow,1.0,1
+severe rheumatic inflammation of knee joint,rheumatism of wrist joints,1.0,1
+severe rheumatic inflammation of knee joint,extending to forearm,1.0,1
+darting pains in joints,redness,1.0,1
+darting pains in joints,sharp darting pains in shoulder,1.0,1
+darting pains in joints,darting pains in arms,1.0,1
+darting pains in joints,sharp lancinating pains in shoulder,1.0,1
+darting pains in joints,heat of joints,1.0,1
+darting pains in joints,darting pains in toes,1.0,1
+darting pains in joints,dry hacking cough,1.0,1
+darting pains in joints,rheumatism in right shoulder joint,1.0,1
+darting pains in joints,raising the patella,1.0,1
+darting pains in joints,tickle left side of trachea,1.0,1
+darting pains in joints,stiffness of feet,1.0,1
+darting pains in joints,nose stuffed up,1.0,1
+darting pains in joints,sharp darting pains in fingers,1.0,1
+darting pains in joints,sharp lancinating pains in fingers,1.0,1
+darting pains in joints,sharp darting pains involving every joint,1.0,1
+darting pains in joints,cannot put on coat,1.0,1
+darting pains in joints,rheumatism of large joints,1.0,1
+darting pains in joints,rheumatism of joints with large amount of serous fluid,1.0,1
+darting pains in joints,rheumatic inflammation of right ankle joint,1.0,1
+darting pains in joints,great anxiety about the heart,1.0,1
+darting pains in joints,rheumatism in deltoid,1.0,1
+darting pains in joints,much swelling about knee joint,1.0,1
+darting pains in joints,pains dull,1.0,1
+darting pains in joints,darting pains in fingers,1.0,1
+darting pains in joints,powerless if attempts to move,1.0,1
+darting pains in joints,alternates with characteristic cough,1.0,1
+darting pains in joints,improved during day,1.0,1
+darting pains in joints,constant pain,1.0,1
+darting pains in joints,sharp lancinating pains in elbow,1.0,1
+darting pains in joints,hands swollen,1.0,1
+darting pains in joints,severe rheumatic inflammation of knee joint,1.0,1
+darting pains in joints,sharp lancinating pains involving every joint,1.0,1
+darting pains in joints,restless nights,1.0,1
+darting pains in joints,swollen,1.0,1
+darting pains in joints,sudden pain through chest to spinal column,1.0,1
+darting pains in joints,circumscribed redness of joints,1.0,1
+darting pains in joints,worse during day,1.0,1
+darting pains in joints,strange sensation as if floating in the air,1.0,1
+darting pains in joints,wrists swollen,1.0,1
+darting pains in joints,stiffness of hands,1.0,1
+darting pains in joints,pains heavy,1.0,1
+darting pains in joints,soreness to touch,1.0,1
+darting pains in joints,darting pains in thighs,1.0,1
+darting pains in joints,sharp darting pains in knee joints,1.0,1
+darting pains in joints,sharp lancinating pains in knee joints,1.0,1
+darting pains in joints,much effusion into joints,1.0,1
+darting pains in joints,very painful,1.0,1
+darting pains in joints,excessive dryness of soft palate,1.0,1
+darting pains in joints,redness followed by effusion,1.0,1
+darting pains in joints,rheumatism in triceps,1.0,1
+darting pains in joints,sharp darting pains in elbow,1.0,1
+darting pains in joints,rheumatism of wrist joints,1.0,1
+darting pains in joints,extending to forearm,1.0,1
+circumscribed redness of joints,redness,1.0,1
+circumscribed redness of joints,sharp darting pains in shoulder,1.0,1
+circumscribed redness of joints,darting pains in arms,1.0,1
+circumscribed redness of joints,sharp lancinating pains in shoulder,1.0,1
+circumscribed redness of joints,heat of joints,1.0,1
+circumscribed redness of joints,darting pains in toes,1.0,1
+circumscribed redness of joints,dry hacking cough,1.0,1
+circumscribed redness of joints,rheumatism in right shoulder joint,1.0,1
+circumscribed redness of joints,raising the patella,1.0,1
+circumscribed redness of joints,tickle left side of trachea,1.0,1
+circumscribed redness of joints,stiffness of feet,1.0,1
+circumscribed redness of joints,nose stuffed up,1.0,1
+circumscribed redness of joints,sharp darting pains in fingers,1.0,1
+circumscribed redness of joints,sharp lancinating pains in fingers,1.0,1
+circumscribed redness of joints,sharp darting pains involving every joint,1.0,1
+circumscribed redness of joints,cannot put on coat,1.0,1
+circumscribed redness of joints,rheumatism of large joints,1.0,1
+circumscribed redness of joints,rheumatism of joints with large amount of serous fluid,1.0,1
+circumscribed redness of joints,rheumatic inflammation of right ankle joint,1.0,1
+circumscribed redness of joints,great anxiety about the heart,1.0,1
+circumscribed redness of joints,rheumatism in deltoid,1.0,1
+circumscribed redness of joints,much swelling about knee joint,1.0,1
+circumscribed redness of joints,pains dull,1.0,1
+circumscribed redness of joints,darting pains in fingers,1.0,1
+circumscribed redness of joints,powerless if attempts to move,1.0,1
+circumscribed redness of joints,alternates with characteristic cough,1.0,1
+circumscribed redness of joints,improved during day,1.0,1
+circumscribed redness of joints,constant pain,1.0,1
+circumscribed redness of joints,sharp lancinating pains in elbow,1.0,1
+circumscribed redness of joints,hands swollen,1.0,1
+circumscribed redness of joints,severe rheumatic inflammation of knee joint,1.0,1
+circumscribed redness of joints,sharp lancinating pains involving every joint,1.0,1
+circumscribed redness of joints,restless nights,1.0,1
+circumscribed redness of joints,darting pains in joints,1.0,1
+circumscribed redness of joints,swollen,1.0,1
+circumscribed redness of joints,sudden pain through chest to spinal column,1.0,1
+circumscribed redness of joints,worse during day,1.0,1
+circumscribed redness of joints,strange sensation as if floating in the air,1.0,1
+circumscribed redness of joints,wrists swollen,1.0,1
+circumscribed redness of joints,stiffness of hands,1.0,1
+circumscribed redness of joints,pains heavy,1.0,1
+circumscribed redness of joints,soreness to touch,1.0,1
+circumscribed redness of joints,darting pains in thighs,1.0,1
+circumscribed redness of joints,sharp darting pains in knee joints,1.0,1
+circumscribed redness of joints,sharp lancinating pains in knee joints,1.0,1
+circumscribed redness of joints,much effusion into joints,1.0,1
+circumscribed redness of joints,very painful,1.0,1
+circumscribed redness of joints,excessive dryness of soft palate,1.0,1
+circumscribed redness of joints,redness followed by effusion,1.0,1
+circumscribed redness of joints,rheumatism in triceps,1.0,1
+circumscribed redness of joints,sharp darting pains in elbow,1.0,1
+circumscribed redness of joints,rheumatism of wrist joints,1.0,1
+circumscribed redness of joints,extending to forearm,1.0,1
+darting pains in toes,redness,1.0,1
+darting pains in toes,sharp darting pains in shoulder,1.0,1
+darting pains in toes,darting pains in arms,1.0,1
+darting pains in toes,sharp lancinating pains in shoulder,1.0,1
+darting pains in toes,heat of joints,1.0,1
+darting pains in toes,dry hacking cough,1.0,1
+darting pains in toes,rheumatism in right shoulder joint,1.0,1
+darting pains in toes,raising the patella,1.0,1
+darting pains in toes,tickle left side of trachea,1.0,1
+darting pains in toes,stiffness of feet,1.0,1
+darting pains in toes,nose stuffed up,1.0,1
+darting pains in toes,sharp darting pains in fingers,1.0,1
+darting pains in toes,sharp lancinating pains in fingers,1.0,1
+darting pains in toes,sharp darting pains involving every joint,1.0,1
+darting pains in toes,cannot put on coat,1.0,1
+darting pains in toes,rheumatism of large joints,1.0,1
+darting pains in toes,rheumatism of joints with large amount of serous fluid,1.0,1
+darting pains in toes,rheumatic inflammation of right ankle joint,1.0,1
+darting pains in toes,great anxiety about the heart,1.0,1
+darting pains in toes,rheumatism in deltoid,1.0,1
+darting pains in toes,much swelling about knee joint,1.0,1
+darting pains in toes,pains dull,1.0,1
+darting pains in toes,darting pains in fingers,1.0,1
+darting pains in toes,powerless if attempts to move,1.0,1
+darting pains in toes,alternates with characteristic cough,1.0,1
+darting pains in toes,improved during day,1.0,1
+darting pains in toes,constant pain,1.0,1
+darting pains in toes,sharp lancinating pains in elbow,1.0,1
+darting pains in toes,hands swollen,1.0,1
+darting pains in toes,severe rheumatic inflammation of knee joint,1.0,1
+darting pains in toes,sharp lancinating pains involving every joint,1.0,1
+darting pains in toes,restless nights,1.0,1
+darting pains in toes,darting pains in joints,1.0,1
+darting pains in toes,swollen,1.0,1
+darting pains in toes,sudden pain through chest to spinal column,1.0,1
+darting pains in toes,circumscribed redness of joints,1.0,1
+darting pains in toes,worse during day,1.0,1
+darting pains in toes,strange sensation as if floating in the air,1.0,1
+darting pains in toes,wrists swollen,1.0,1
+darting pains in toes,stiffness of hands,1.0,1
+darting pains in toes,pains heavy,1.0,1
+darting pains in toes,soreness to touch,1.0,1
+darting pains in toes,darting pains in thighs,1.0,1
+darting pains in toes,sharp darting pains in knee joints,1.0,1
+darting pains in toes,sharp lancinating pains in knee joints,1.0,1
+darting pains in toes,much effusion into joints,1.0,1
+darting pains in toes,very painful,1.0,1
+darting pains in toes,excessive dryness of soft palate,1.0,1
+darting pains in toes,redness followed by effusion,1.0,1
+darting pains in toes,rheumatism in triceps,1.0,1
+darting pains in toes,sharp darting pains in elbow,1.0,1
+darting pains in toes,rheumatism of wrist joints,1.0,1
+darting pains in toes,extending to forearm,1.0,1
+sharp lancinating pains in fingers,redness,1.0,1
+sharp lancinating pains in fingers,sharp darting pains in shoulder,1.0,1
+sharp lancinating pains in fingers,darting pains in arms,1.0,1
+sharp lancinating pains in fingers,sharp lancinating pains in shoulder,1.0,1
+sharp lancinating pains in fingers,heat of joints,1.0,1
+sharp lancinating pains in fingers,darting pains in toes,1.0,1
+sharp lancinating pains in fingers,dry hacking cough,1.0,1
+sharp lancinating pains in fingers,rheumatism in right shoulder joint,1.0,1
+sharp lancinating pains in fingers,raising the patella,1.0,1
+sharp lancinating pains in fingers,tickle left side of trachea,1.0,1
+sharp lancinating pains in fingers,stiffness of feet,1.0,1
+sharp lancinating pains in fingers,nose stuffed up,1.0,1
+sharp lancinating pains in fingers,sharp darting pains in fingers,1.0,1
+sharp lancinating pains in fingers,sharp darting pains involving every joint,1.0,1
+sharp lancinating pains in fingers,cannot put on coat,1.0,1
+sharp lancinating pains in fingers,rheumatism of large joints,1.0,1
+sharp lancinating pains in fingers,rheumatism of joints with large amount of serous fluid,1.0,1
+sharp lancinating pains in fingers,rheumatic inflammation of right ankle joint,1.0,1
+sharp lancinating pains in fingers,great anxiety about the heart,1.0,1
+sharp lancinating pains in fingers,rheumatism in deltoid,1.0,1
+sharp lancinating pains in fingers,much swelling about knee joint,1.0,1
+sharp lancinating pains in fingers,pains dull,1.0,1
+sharp lancinating pains in fingers,darting pains in fingers,1.0,1
+sharp lancinating pains in fingers,powerless if attempts to move,1.0,1
+sharp lancinating pains in fingers,alternates with characteristic cough,1.0,1
+sharp lancinating pains in fingers,improved during day,1.0,1
+sharp lancinating pains in fingers,constant pain,1.0,1
+sharp lancinating pains in fingers,sharp lancinating pains in elbow,1.0,1
+sharp lancinating pains in fingers,hands swollen,1.0,1
+sharp lancinating pains in fingers,severe rheumatic inflammation of knee joint,1.0,1
+sharp lancinating pains in fingers,sharp lancinating pains involving every joint,1.0,1
+sharp lancinating pains in fingers,restless nights,1.0,1
+sharp lancinating pains in fingers,darting pains in joints,1.0,1
+sharp lancinating pains in fingers,swollen,1.0,1
+sharp lancinating pains in fingers,sudden pain through chest to spinal column,1.0,1
+sharp lancinating pains in fingers,circumscribed redness of joints,1.0,1
+sharp lancinating pains in fingers,worse during day,1.0,1
+sharp lancinating pains in fingers,strange sensation as if floating in the air,1.0,1
+sharp lancinating pains in fingers,wrists swollen,1.0,1
+sharp lancinating pains in fingers,stiffness of hands,1.0,1
+sharp lancinating pains in fingers,pains heavy,1.0,1
+sharp lancinating pains in fingers,soreness to touch,1.0,1
+sharp lancinating pains in fingers,darting pains in thighs,1.0,1
+sharp lancinating pains in fingers,sharp darting pains in knee joints,1.0,1
+sharp lancinating pains in fingers,sharp lancinating pains in knee joints,1.0,1
+sharp lancinating pains in fingers,much effusion into joints,1.0,1
+sharp lancinating pains in fingers,very painful,1.0,1
+sharp lancinating pains in fingers,excessive dryness of soft palate,1.0,1
+sharp lancinating pains in fingers,redness followed by effusion,1.0,1
+sharp lancinating pains in fingers,rheumatism in triceps,1.0,1
+sharp lancinating pains in fingers,sharp darting pains in elbow,1.0,1
+sharp lancinating pains in fingers,rheumatism of wrist joints,1.0,1
+sharp lancinating pains in fingers,extending to forearm,1.0,1
+sharp darting pains in elbow,redness,1.0,1
+sharp darting pains in elbow,sharp darting pains in shoulder,1.0,1
+sharp darting pains in elbow,darting pains in arms,1.0,1
+sharp darting pains in elbow,sharp lancinating pains in shoulder,1.0,1
+sharp darting pains in elbow,heat of joints,1.0,1
+sharp darting pains in elbow,darting pains in toes,1.0,1
+sharp darting pains in elbow,dry hacking cough,1.0,1
+sharp darting pains in elbow,rheumatism in right shoulder joint,1.0,1
+sharp darting pains in elbow,raising the patella,1.0,1
+sharp darting pains in elbow,tickle left side of trachea,1.0,1
+sharp darting pains in elbow,stiffness of feet,1.0,1
+sharp darting pains in elbow,nose stuffed up,1.0,1
+sharp darting pains in elbow,sharp darting pains in fingers,1.0,1
+sharp darting pains in elbow,sharp lancinating pains in fingers,1.0,1
+sharp darting pains in elbow,sharp darting pains involving every joint,1.0,1
+sharp darting pains in elbow,cannot put on coat,1.0,1
+sharp darting pains in elbow,rheumatism of large joints,1.0,1
+sharp darting pains in elbow,rheumatism of joints with large amount of serous fluid,1.0,1
+sharp darting pains in elbow,rheumatic inflammation of right ankle joint,1.0,1
+sharp darting pains in elbow,great anxiety about the heart,1.0,1
+sharp darting pains in elbow,rheumatism in deltoid,1.0,1
+sharp darting pains in elbow,much swelling about knee joint,1.0,1
+sharp darting pains in elbow,pains dull,1.0,1
+sharp darting pains in elbow,darting pains in fingers,1.0,1
+sharp darting pains in elbow,powerless if attempts to move,1.0,1
+sharp darting pains in elbow,alternates with characteristic cough,1.0,1
+sharp darting pains in elbow,improved during day,1.0,1
+sharp darting pains in elbow,constant pain,1.0,1
+sharp darting pains in elbow,sharp lancinating pains in elbow,1.0,1
+sharp darting pains in elbow,hands swollen,1.0,1
+sharp darting pains in elbow,severe rheumatic inflammation of knee joint,1.0,1
+sharp darting pains in elbow,sharp lancinating pains involving every joint,1.0,1
+sharp darting pains in elbow,restless nights,1.0,1
+sharp darting pains in elbow,darting pains in joints,1.0,1
+sharp darting pains in elbow,swollen,1.0,1
+sharp darting pains in elbow,sudden pain through chest to spinal column,1.0,1
+sharp darting pains in elbow,circumscribed redness of joints,1.0,1
+sharp darting pains in elbow,worse during day,1.0,1
+sharp darting pains in elbow,strange sensation as if floating in the air,1.0,1
+sharp darting pains in elbow,wrists swollen,1.0,1
+sharp darting pains in elbow,stiffness of hands,1.0,1
+sharp darting pains in elbow,pains heavy,1.0,1
+sharp darting pains in elbow,soreness to touch,1.0,1
+sharp darting pains in elbow,darting pains in thighs,1.0,1
+sharp darting pains in elbow,sharp darting pains in knee joints,1.0,1
+sharp darting pains in elbow,sharp lancinating pains in knee joints,1.0,1
+sharp darting pains in elbow,much effusion into joints,1.0,1
+sharp darting pains in elbow,very painful,1.0,1
+sharp darting pains in elbow,excessive dryness of soft palate,1.0,1
+sharp darting pains in elbow,redness followed by effusion,1.0,1
+sharp darting pains in elbow,rheumatism in triceps,1.0,1
+sharp darting pains in elbow,rheumatism of wrist joints,1.0,1
+sharp darting pains in elbow,extending to forearm,1.0,1
+soreness to touch,redness,1.0,1
+soreness to touch,sharp darting pains in shoulder,1.0,1
+soreness to touch,darting pains in arms,1.0,1
+soreness to touch,sharp lancinating pains in shoulder,1.0,1
+soreness to touch,heat of joints,1.0,1
+soreness to touch,darting pains in toes,1.0,1
+soreness to touch,dry hacking cough,1.0,1
+soreness to touch,rheumatism in right shoulder joint,1.0,1
+soreness to touch,raising the patella,1.0,1
+soreness to touch,tickle left side of trachea,1.0,1
+soreness to touch,stiffness of feet,1.0,1
+soreness to touch,nose stuffed up,1.0,1
+soreness to touch,sharp darting pains in fingers,1.0,1
+soreness to touch,sharp lancinating pains in fingers,1.0,1
+soreness to touch,sharp darting pains involving every joint,1.0,1
+soreness to touch,cannot put on coat,1.0,1
+soreness to touch,rheumatism of large joints,1.0,1
+soreness to touch,rheumatism of joints with large amount of serous fluid,1.0,1
+soreness to touch,rheumatic inflammation of right ankle joint,1.0,1
+soreness to touch,great anxiety about the heart,1.0,1
+soreness to touch,rheumatism in deltoid,1.0,1
+soreness to touch,much swelling about knee joint,1.0,1
+soreness to touch,pains dull,1.0,1
+soreness to touch,darting pains in fingers,1.0,1
+soreness to touch,powerless if attempts to move,1.0,1
+soreness to touch,alternates with characteristic cough,1.0,1
+soreness to touch,improved during day,1.0,1
+soreness to touch,constant pain,1.0,1
+soreness to touch,sharp lancinating pains in elbow,1.0,1
+soreness to touch,hands swollen,1.0,1
+soreness to touch,severe rheumatic inflammation of knee joint,1.0,1
+soreness to touch,sharp lancinating pains involving every joint,1.0,1
+soreness to touch,restless nights,1.0,1
+soreness to touch,darting pains in joints,1.0,1
+soreness to touch,swollen,1.0,1
+soreness to touch,sudden pain through chest to spinal column,1.0,1
+soreness to touch,circumscribed redness of joints,1.0,1
+soreness to touch,worse during day,1.0,1
+soreness to touch,strange sensation as if floating in the air,1.0,1
+soreness to touch,wrists swollen,1.0,1
+soreness to touch,stiffness of hands,1.0,1
+soreness to touch,pains heavy,1.0,1
+soreness to touch,darting pains in thighs,1.0,1
+soreness to touch,sharp darting pains in knee joints,1.0,1
+soreness to touch,sharp lancinating pains in knee joints,1.0,1
+soreness to touch,much effusion into joints,1.0,1
+soreness to touch,very painful,1.0,1
+soreness to touch,excessive dryness of soft palate,1.0,1
+soreness to touch,redness followed by effusion,1.0,1
+soreness to touch,rheumatism in triceps,1.0,1
+soreness to touch,sharp darting pains in elbow,1.0,1
+soreness to touch,rheumatism of wrist joints,1.0,1
+soreness to touch,extending to forearm,1.0,1
+redness,sharp darting pains in shoulder,1.0,1
+redness,darting pains in arms,1.0,1
+redness,sharp lancinating pains in shoulder,1.0,1
+redness,heat of joints,1.0,1
+redness,darting pains in toes,1.0,1
+redness,dry hacking cough,1.0,1
+redness,rheumatism in right shoulder joint,1.0,1
+redness,raising the patella,1.0,1
+redness,tickle left side of trachea,1.0,1
+redness,stiffness of feet,1.0,1
+redness,nose stuffed up,1.0,1
+redness,sharp darting pains in fingers,1.0,1
+redness,sharp lancinating pains in fingers,1.0,1
+redness,sharp darting pains involving every joint,1.0,1
+redness,cannot put on coat,1.0,1
+redness,rheumatism of large joints,1.0,1
+redness,rheumatism of joints with large amount of serous fluid,1.0,1
+redness,rheumatic inflammation of right ankle joint,1.0,1
+redness,great anxiety about the heart,1.0,1
+redness,rheumatism in deltoid,1.0,1
+redness,much swelling about knee joint,1.0,1
+redness,pains dull,1.0,1
+redness,darting pains in fingers,1.0,1
+redness,powerless if attempts to move,1.0,1
+redness,alternates with characteristic cough,1.0,1
+redness,improved during day,1.0,1
+redness,constant pain,1.0,1
+redness,sharp lancinating pains in elbow,1.0,1
+redness,hands swollen,1.0,1
+redness,severe rheumatic inflammation of knee joint,1.0,1
+redness,sharp lancinating pains involving every joint,1.0,1
+redness,restless nights,1.0,1
+redness,darting pains in joints,1.0,1
+redness,swollen,1.0,1
+redness,sudden pain through chest to spinal column,1.0,1
+redness,circumscribed redness of joints,1.0,1
+redness,worse during day,1.0,1
+redness,strange sensation as if floating in the air,1.0,1
+redness,wrists swollen,1.0,1
+redness,stiffness of hands,1.0,1
+redness,pains heavy,1.0,1
+redness,soreness to touch,1.0,1
+redness,darting pains in thighs,1.0,1
+redness,sharp darting pains in knee joints,1.0,1
+redness,sharp lancinating pains in knee joints,1.0,1
+redness,much effusion into joints,1.0,1
+redness,very painful,1.0,1
+redness,excessive dryness of soft palate,1.0,1
+redness,redness followed by effusion,1.0,1
+redness,rheumatism in triceps,1.0,1
+redness,sharp darting pains in elbow,1.0,1
+redness,rheumatism of wrist joints,1.0,1
+redness,extending to forearm,1.0,1
+much swelling about knee joint,redness,1.0,1
+much swelling about knee joint,sharp darting pains in shoulder,1.0,1
+much swelling about knee joint,darting pains in arms,1.0,1
+much swelling about knee joint,sharp lancinating pains in shoulder,1.0,1
+much swelling about knee joint,heat of joints,1.0,1
+much swelling about knee joint,darting pains in toes,1.0,1
+much swelling about knee joint,dry hacking cough,1.0,1
+much swelling about knee joint,rheumatism in right shoulder joint,1.0,1
+much swelling about knee joint,raising the patella,1.0,1
+much swelling about knee joint,tickle left side of trachea,1.0,1
+much swelling about knee joint,stiffness of feet,1.0,1
+much swelling about knee joint,nose stuffed up,1.0,1
+much swelling about knee joint,sharp darting pains in fingers,1.0,1
+much swelling about knee joint,sharp lancinating pains in fingers,1.0,1
+much swelling about knee joint,sharp darting pains involving every joint,1.0,1
+much swelling about knee joint,cannot put on coat,1.0,1
+much swelling about knee joint,rheumatism of large joints,1.0,1
+much swelling about knee joint,rheumatism of joints with large amount of serous fluid,1.0,1
+much swelling about knee joint,rheumatic inflammation of right ankle joint,1.0,1
+much swelling about knee joint,great anxiety about the heart,1.0,1
+much swelling about knee joint,rheumatism in deltoid,1.0,1
+much swelling about knee joint,pains dull,1.0,1
+much swelling about knee joint,darting pains in fingers,1.0,1
+much swelling about knee joint,powerless if attempts to move,1.0,1
+much swelling about knee joint,alternates with characteristic cough,1.0,1
+much swelling about knee joint,improved during day,1.0,1
+much swelling about knee joint,constant pain,1.0,1
+much swelling about knee joint,sharp lancinating pains in elbow,1.0,1
+much swelling about knee joint,hands swollen,1.0,1
+much swelling about knee joint,severe rheumatic inflammation of knee joint,1.0,1
+much swelling about knee joint,sharp lancinating pains involving every joint,1.0,1
+much swelling about knee joint,restless nights,1.0,1
+much swelling about knee joint,darting pains in joints,1.0,1
+much swelling about knee joint,swollen,1.0,1
+much swelling about knee joint,sudden pain through chest to spinal column,1.0,1
+much swelling about knee joint,circumscribed redness of joints,1.0,1
+much swelling about knee joint,worse during day,1.0,1
+much swelling about knee joint,strange sensation as if floating in the air,1.0,1
+much swelling about knee joint,wrists swollen,1.0,1
+much swelling about knee joint,stiffness of hands,1.0,1
+much swelling about knee joint,pains heavy,1.0,1
+much swelling about knee joint,soreness to touch,1.0,1
+much swelling about knee joint,darting pains in thighs,1.0,1
+much swelling about knee joint,sharp darting pains in knee joints,1.0,1
+much swelling about knee joint,sharp lancinating pains in knee joints,1.0,1
+much swelling about knee joint,much effusion into joints,1.0,1
+much swelling about knee joint,very painful,1.0,1
+much swelling about knee joint,excessive dryness of soft palate,1.0,1
+much swelling about knee joint,redness followed by effusion,1.0,1
+much swelling about knee joint,rheumatism in triceps,1.0,1
+much swelling about knee joint,sharp darting pains in elbow,1.0,1
+much swelling about knee joint,rheumatism of wrist joints,1.0,1
+much swelling about knee joint,extending to forearm,1.0,1
+strange sensation as if floating in the air,redness,1.0,1
+strange sensation as if floating in the air,sharp darting pains in shoulder,1.0,1
+strange sensation as if floating in the air,darting pains in arms,1.0,1
+strange sensation as if floating in the air,sharp lancinating pains in shoulder,1.0,1
+strange sensation as if floating in the air,heat of joints,1.0,1
+strange sensation as if floating in the air,darting pains in toes,1.0,1
+strange sensation as if floating in the air,dry hacking cough,1.0,1
+strange sensation as if floating in the air,rheumatism in right shoulder joint,1.0,1
+strange sensation as if floating in the air,raising the patella,1.0,1
+strange sensation as if floating in the air,tickle left side of trachea,1.0,1
+strange sensation as if floating in the air,stiffness of feet,1.0,1
+strange sensation as if floating in the air,nose stuffed up,1.0,1
+strange sensation as if floating in the air,sharp darting pains in fingers,1.0,1
+strange sensation as if floating in the air,sharp lancinating pains in fingers,1.0,1
+strange sensation as if floating in the air,sharp darting pains involving every joint,1.0,1
+strange sensation as if floating in the air,cannot put on coat,1.0,1
+strange sensation as if floating in the air,rheumatism of large joints,1.0,1
+strange sensation as if floating in the air,rheumatism of joints with large amount of serous fluid,1.0,1
+strange sensation as if floating in the air,rheumatic inflammation of right ankle joint,1.0,1
+strange sensation as if floating in the air,great anxiety about the heart,1.0,1
+strange sensation as if floating in the air,rheumatism in deltoid,1.0,1
+strange sensation as if floating in the air,much swelling about knee joint,1.0,1
+strange sensation as if floating in the air,pains dull,1.0,1
+strange sensation as if floating in the air,darting pains in fingers,1.0,1
+strange sensation as if floating in the air,powerless if attempts to move,1.0,1
+strange sensation as if floating in the air,alternates with characteristic cough,1.0,1
+strange sensation as if floating in the air,improved during day,1.0,1
+strange sensation as if floating in the air,constant pain,1.0,1
+strange sensation as if floating in the air,sharp lancinating pains in elbow,1.0,1
+strange sensation as if floating in the air,hands swollen,1.0,1
+strange sensation as if floating in the air,severe rheumatic inflammation of knee joint,1.0,1
+strange sensation as if floating in the air,sharp lancinating pains involving every joint,1.0,1
+strange sensation as if floating in the air,restless nights,1.0,1
+strange sensation as if floating in the air,darting pains in joints,1.0,1
+strange sensation as if floating in the air,swollen,1.0,1
+strange sensation as if floating in the air,sudden pain through chest to spinal column,1.0,1
+strange sensation as if floating in the air,circumscribed redness of joints,1.0,1
+strange sensation as if floating in the air,worse during day,1.0,1
+strange sensation as if floating in the air,wrists swollen,1.0,1
+strange sensation as if floating in the air,stiffness of hands,1.0,1
+strange sensation as if floating in the air,pains heavy,1.0,1
+strange sensation as if floating in the air,soreness to touch,1.0,1
+strange sensation as if floating in the air,darting pains in thighs,1.0,1
+strange sensation as if floating in the air,sharp darting pains in knee joints,1.0,1
+strange sensation as if floating in the air,sharp lancinating pains in knee joints,1.0,1
+strange sensation as if floating in the air,much effusion into joints,1.0,1
+strange sensation as if floating in the air,very painful,1.0,1
+strange sensation as if floating in the air,excessive dryness of soft palate,1.0,1
+strange sensation as if floating in the air,redness followed by effusion,1.0,1
+strange sensation as if floating in the air,rheumatism in triceps,1.0,1
+strange sensation as if floating in the air,sharp darting pains in elbow,1.0,1
+strange sensation as if floating in the air,rheumatism of wrist joints,1.0,1
+strange sensation as if floating in the air,extending to forearm,1.0,1
+sharp lancinating pains in shoulder,redness,1.0,1
+sharp lancinating pains in shoulder,sharp darting pains in shoulder,1.0,1
+sharp lancinating pains in shoulder,darting pains in arms,1.0,1
+sharp lancinating pains in shoulder,heat of joints,1.0,1
+sharp lancinating pains in shoulder,darting pains in toes,1.0,1
+sharp lancinating pains in shoulder,dry hacking cough,1.0,1
+sharp lancinating pains in shoulder,rheumatism in right shoulder joint,1.0,1
+sharp lancinating pains in shoulder,raising the patella,1.0,1
+sharp lancinating pains in shoulder,tickle left side of trachea,1.0,1
+sharp lancinating pains in shoulder,stiffness of feet,1.0,1
+sharp lancinating pains in shoulder,nose stuffed up,1.0,1
+sharp lancinating pains in shoulder,sharp darting pains in fingers,1.0,1
+sharp lancinating pains in shoulder,sharp lancinating pains in fingers,1.0,1
+sharp lancinating pains in shoulder,sharp darting pains involving every joint,1.0,1
+sharp lancinating pains in shoulder,cannot put on coat,1.0,1
+sharp lancinating pains in shoulder,rheumatism of large joints,1.0,1
+sharp lancinating pains in shoulder,rheumatism of joints with large amount of serous fluid,1.0,1
+sharp lancinating pains in shoulder,rheumatic inflammation of right ankle joint,1.0,1
+sharp lancinating pains in shoulder,great anxiety about the heart,1.0,1
+sharp lancinating pains in shoulder,rheumatism in deltoid,1.0,1
+sharp lancinating pains in shoulder,much swelling about knee joint,1.0,1
+sharp lancinating pains in shoulder,pains dull,1.0,1
+sharp lancinating pains in shoulder,darting pains in fingers,1.0,1
+sharp lancinating pains in shoulder,powerless if attempts to move,1.0,1
+sharp lancinating pains in shoulder,alternates with characteristic cough,1.0,1
+sharp lancinating pains in shoulder,improved during day,1.0,1
+sharp lancinating pains in shoulder,constant pain,1.0,1
+sharp lancinating pains in shoulder,sharp lancinating pains in elbow,1.0,1
+sharp lancinating pains in shoulder,hands swollen,1.0,1
+sharp lancinating pains in shoulder,severe rheumatic inflammation of knee joint,1.0,1
+sharp lancinating pains in shoulder,sharp lancinating pains involving every joint,1.0,1
+sharp lancinating pains in shoulder,restless nights,1.0,1
+sharp lancinating pains in shoulder,darting pains in joints,1.0,1
+sharp lancinating pains in shoulder,swollen,1.0,1
+sharp lancinating pains in shoulder,sudden pain through chest to spinal column,1.0,1
+sharp lancinating pains in shoulder,circumscribed redness of joints,1.0,1
+sharp lancinating pains in shoulder,worse during day,1.0,1
+sharp lancinating pains in shoulder,strange sensation as if floating in the air,1.0,1
+sharp lancinating pains in shoulder,wrists swollen,1.0,1
+sharp lancinating pains in shoulder,stiffness of hands,1.0,1
+sharp lancinating pains in shoulder,pains heavy,1.0,1
+sharp lancinating pains in shoulder,soreness to touch,1.0,1
+sharp lancinating pains in shoulder,darting pains in thighs,1.0,1
+sharp lancinating pains in shoulder,sharp darting pains in knee joints,1.0,1
+sharp lancinating pains in shoulder,sharp lancinating pains in knee joints,1.0,1
+sharp lancinating pains in shoulder,much effusion into joints,1.0,1
+sharp lancinating pains in shoulder,very painful,1.0,1
+sharp lancinating pains in shoulder,excessive dryness of soft palate,1.0,1
+sharp lancinating pains in shoulder,redness followed by effusion,1.0,1
+sharp lancinating pains in shoulder,rheumatism in triceps,1.0,1
+sharp lancinating pains in shoulder,sharp darting pains in elbow,1.0,1
+sharp lancinating pains in shoulder,rheumatism of wrist joints,1.0,1
+sharp lancinating pains in shoulder,extending to forearm,1.0,1

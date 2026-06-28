@@ -1,0 +1,909 @@
+### Cluster 100 — Symptoms (30)
+Symptom,Frequency
+stiffness better by stretching,1
+suitable for syphilitic subjects after mercury abuse,1
+aching in sacrum better by bending backward,1
+pain in nape extending through head to forehead,1
+aching in left upper arm,1
+violent boring pain in temples,1
+aching better by motion,2
+stiffness in right elbow,1
+stiffness worse when quiet,1
+aching in sacrum better by stretching,1
+pain in os coccyx sore to touch,1
+aching in lumbar region better by stretching,1
+aching in sacrum better by pressure,1
+aching better by stretching,2
+stiffness in right arm,1
+pain in os coccyx worse by motion,1
+stiffness worse at night,1
+pain in third cervical vertebra,1
+suitable for hard drinkers with poor livers,1
+aching in lumbar region better by pressure,1
+nape of neck stiff,1
+stiffness better by motion,1
+violent boring pain in vertex,1
+suitable for old broken down persons,1
+stiffness in right forearm,1
+lameness of back,1
+pain in os coccyx extends to bladder on pressure,1
+follows arsenic well in hard drinkers with ascites,1
+compare kali c rhus ruta sil,1
+aching in lumbar region better by bending backward,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+fluoricum acidum,30
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+suitable for hard drinkers with poor livers,stiffness better by stretching,1.0,1
+suitable for hard drinkers with poor livers,suitable for syphilitic subjects after mercury abuse,1.0,1
+suitable for hard drinkers with poor livers,aching in sacrum better by bending backward,1.0,1
+suitable for hard drinkers with poor livers,pain in nape extending through head to forehead,1.0,1
+suitable for hard drinkers with poor livers,aching in left upper arm,1.0,1
+suitable for hard drinkers with poor livers,violent boring pain in temples,1.0,1
+suitable for hard drinkers with poor livers,aching better by motion,1.0,1
+suitable for hard drinkers with poor livers,stiffness in right elbow,1.0,1
+suitable for hard drinkers with poor livers,stiffness worse when quiet,1.0,1
+suitable for hard drinkers with poor livers,aching in sacrum better by stretching,1.0,1
+suitable for hard drinkers with poor livers,pain in os coccyx sore to touch,1.0,1
+suitable for hard drinkers with poor livers,aching in lumbar region better by stretching,1.0,1
+suitable for hard drinkers with poor livers,aching in sacrum better by pressure,1.0,1
+suitable for hard drinkers with poor livers,aching better by stretching,1.0,1
+suitable for hard drinkers with poor livers,stiffness in right arm,1.0,1
+suitable for hard drinkers with poor livers,pain in os coccyx worse by motion,1.0,1
+suitable for hard drinkers with poor livers,stiffness worse at night,1.0,1
+suitable for hard drinkers with poor livers,pain in third cervical vertebra,1.0,1
+suitable for hard drinkers with poor livers,aching in lumbar region better by pressure,1.0,1
+suitable for hard drinkers with poor livers,nape of neck stiff,1.0,1
+suitable for hard drinkers with poor livers,stiffness better by motion,1.0,1
+suitable for hard drinkers with poor livers,violent boring pain in vertex,1.0,1
+suitable for hard drinkers with poor livers,suitable for old broken down persons,1.0,1
+suitable for hard drinkers with poor livers,stiffness in right forearm,1.0,1
+suitable for hard drinkers with poor livers,lameness of back,1.0,1
+suitable for hard drinkers with poor livers,pain in os coccyx extends to bladder on pressure,1.0,1
+suitable for hard drinkers with poor livers,follows arsenic well in hard drinkers with ascites,1.0,1
+suitable for hard drinkers with poor livers,compare kali c rhus ruta sil,1.0,1
+suitable for hard drinkers with poor livers,aching in lumbar region better by bending backward,1.0,1
+suitable for syphilitic subjects after mercury abuse,stiffness better by stretching,1.0,1
+suitable for syphilitic subjects after mercury abuse,aching in sacrum better by bending backward,1.0,1
+suitable for syphilitic subjects after mercury abuse,pain in nape extending through head to forehead,1.0,1
+suitable for syphilitic subjects after mercury abuse,aching in left upper arm,1.0,1
+suitable for syphilitic subjects after mercury abuse,violent boring pain in temples,1.0,1
+suitable for syphilitic subjects after mercury abuse,aching better by motion,1.0,1
+suitable for syphilitic subjects after mercury abuse,stiffness in right elbow,1.0,1
+suitable for syphilitic subjects after mercury abuse,stiffness worse when quiet,1.0,1
+suitable for syphilitic subjects after mercury abuse,aching in sacrum better by stretching,1.0,1
+suitable for syphilitic subjects after mercury abuse,pain in os coccyx sore to touch,1.0,1
+suitable for syphilitic subjects after mercury abuse,aching in lumbar region better by stretching,1.0,1
+suitable for syphilitic subjects after mercury abuse,aching in sacrum better by pressure,1.0,1
+suitable for syphilitic subjects after mercury abuse,aching better by stretching,1.0,1
+suitable for syphilitic subjects after mercury abuse,stiffness in right arm,1.0,1
+suitable for syphilitic subjects after mercury abuse,pain in os coccyx worse by motion,1.0,1
+suitable for syphilitic subjects after mercury abuse,stiffness worse at night,1.0,1
+suitable for syphilitic subjects after mercury abuse,pain in third cervical vertebra,1.0,1
+suitable for syphilitic subjects after mercury abuse,suitable for hard drinkers with poor livers,1.0,1
+suitable for syphilitic subjects after mercury abuse,aching in lumbar region better by pressure,1.0,1
+suitable for syphilitic subjects after mercury abuse,nape of neck stiff,1.0,1
+suitable for syphilitic subjects after mercury abuse,stiffness better by motion,1.0,1
+suitable for syphilitic subjects after mercury abuse,violent boring pain in vertex,1.0,1
+suitable for syphilitic subjects after mercury abuse,suitable for old broken down persons,1.0,1
+suitable for syphilitic subjects after mercury abuse,stiffness in right forearm,1.0,1
+suitable for syphilitic subjects after mercury abuse,lameness of back,1.0,1
+suitable for syphilitic subjects after mercury abuse,pain in os coccyx extends to bladder on pressure,1.0,1
+suitable for syphilitic subjects after mercury abuse,follows arsenic well in hard drinkers with ascites,1.0,1
+suitable for syphilitic subjects after mercury abuse,compare kali c rhus ruta sil,1.0,1
+suitable for syphilitic subjects after mercury abuse,aching in lumbar region better by bending backward,1.0,1
+pain in nape extending through head to forehead,stiffness better by stretching,1.0,1
+pain in nape extending through head to forehead,suitable for syphilitic subjects after mercury abuse,1.0,1
+pain in nape extending through head to forehead,aching in sacrum better by bending backward,1.0,1
+pain in nape extending through head to forehead,aching in left upper arm,1.0,1
+pain in nape extending through head to forehead,violent boring pain in temples,1.0,1
+pain in nape extending through head to forehead,aching better by motion,1.0,1
+pain in nape extending through head to forehead,stiffness in right elbow,1.0,1
+pain in nape extending through head to forehead,stiffness worse when quiet,1.0,1
+pain in nape extending through head to forehead,aching in sacrum better by stretching,1.0,1
+pain in nape extending through head to forehead,pain in os coccyx sore to touch,1.0,1
+pain in nape extending through head to forehead,aching in lumbar region better by stretching,1.0,1
+pain in nape extending through head to forehead,aching in sacrum better by pressure,1.0,1
+pain in nape extending through head to forehead,aching better by stretching,1.0,1
+pain in nape extending through head to forehead,stiffness in right arm,1.0,1
+pain in nape extending through head to forehead,pain in os coccyx worse by motion,1.0,1
+pain in nape extending through head to forehead,stiffness worse at night,1.0,1
+pain in nape extending through head to forehead,pain in third cervical vertebra,1.0,1
+pain in nape extending through head to forehead,suitable for hard drinkers with poor livers,1.0,1
+pain in nape extending through head to forehead,aching in lumbar region better by pressure,1.0,1
+pain in nape extending through head to forehead,nape of neck stiff,1.0,1
+pain in nape extending through head to forehead,stiffness better by motion,1.0,1
+pain in nape extending through head to forehead,violent boring pain in vertex,1.0,1
+pain in nape extending through head to forehead,suitable for old broken down persons,1.0,1
+pain in nape extending through head to forehead,stiffness in right forearm,1.0,1
+pain in nape extending through head to forehead,lameness of back,1.0,1
+pain in nape extending through head to forehead,pain in os coccyx extends to bladder on pressure,1.0,1
+pain in nape extending through head to forehead,follows arsenic well in hard drinkers with ascites,1.0,1
+pain in nape extending through head to forehead,compare kali c rhus ruta sil,1.0,1
+pain in nape extending through head to forehead,aching in lumbar region better by bending backward,1.0,1
+nape of neck stiff,stiffness better by stretching,1.0,1
+nape of neck stiff,suitable for syphilitic subjects after mercury abuse,1.0,1
+nape of neck stiff,aching in sacrum better by bending backward,1.0,1
+nape of neck stiff,pain in nape extending through head to forehead,1.0,1
+nape of neck stiff,aching in left upper arm,1.0,1
+nape of neck stiff,violent boring pain in temples,1.0,1
+nape of neck stiff,aching better by motion,1.0,1
+nape of neck stiff,stiffness in right elbow,1.0,1
+nape of neck stiff,stiffness worse when quiet,1.0,1
+nape of neck stiff,aching in sacrum better by stretching,1.0,1
+nape of neck stiff,pain in os coccyx sore to touch,1.0,1
+nape of neck stiff,aching in lumbar region better by stretching,1.0,1
+nape of neck stiff,aching in sacrum better by pressure,1.0,1
+nape of neck stiff,aching better by stretching,1.0,1
+nape of neck stiff,stiffness in right arm,1.0,1
+nape of neck stiff,pain in os coccyx worse by motion,1.0,1
+nape of neck stiff,stiffness worse at night,1.0,1
+nape of neck stiff,pain in third cervical vertebra,1.0,1
+nape of neck stiff,suitable for hard drinkers with poor livers,1.0,1
+nape of neck stiff,aching in lumbar region better by pressure,1.0,1
+nape of neck stiff,stiffness better by motion,1.0,1
+nape of neck stiff,violent boring pain in vertex,1.0,1
+nape of neck stiff,suitable for old broken down persons,1.0,1
+nape of neck stiff,stiffness in right forearm,1.0,1
+nape of neck stiff,lameness of back,1.0,1
+nape of neck stiff,pain in os coccyx extends to bladder on pressure,1.0,1
+nape of neck stiff,follows arsenic well in hard drinkers with ascites,1.0,1
+nape of neck stiff,compare kali c rhus ruta sil,1.0,1
+nape of neck stiff,aching in lumbar region better by bending backward,1.0,1
+pain in os coccyx sore to touch,stiffness better by stretching,1.0,1
+pain in os coccyx sore to touch,suitable for syphilitic subjects after mercury abuse,1.0,1
+pain in os coccyx sore to touch,aching in sacrum better by bending backward,1.0,1
+pain in os coccyx sore to touch,pain in nape extending through head to forehead,1.0,1
+pain in os coccyx sore to touch,aching in left upper arm,1.0,1
+pain in os coccyx sore to touch,violent boring pain in temples,1.0,1
+pain in os coccyx sore to touch,aching better by motion,1.0,1
+pain in os coccyx sore to touch,stiffness in right elbow,1.0,1
+pain in os coccyx sore to touch,stiffness worse when quiet,1.0,1
+pain in os coccyx sore to touch,aching in sacrum better by stretching,1.0,1
+pain in os coccyx sore to touch,aching in lumbar region better by stretching,1.0,1
+pain in os coccyx sore to touch,aching in sacrum better by pressure,1.0,1
+pain in os coccyx sore to touch,aching better by stretching,1.0,1
+pain in os coccyx sore to touch,stiffness in right arm,1.0,1
+pain in os coccyx sore to touch,pain in os coccyx worse by motion,1.0,1
+pain in os coccyx sore to touch,stiffness worse at night,1.0,1
+pain in os coccyx sore to touch,pain in third cervical vertebra,1.0,1
+pain in os coccyx sore to touch,suitable for hard drinkers with poor livers,1.0,1
+pain in os coccyx sore to touch,aching in lumbar region better by pressure,1.0,1
+pain in os coccyx sore to touch,nape of neck stiff,1.0,1
+pain in os coccyx sore to touch,stiffness better by motion,1.0,1
+pain in os coccyx sore to touch,violent boring pain in vertex,1.0,1
+pain in os coccyx sore to touch,suitable for old broken down persons,1.0,1
+pain in os coccyx sore to touch,stiffness in right forearm,1.0,1
+pain in os coccyx sore to touch,lameness of back,1.0,1
+pain in os coccyx sore to touch,pain in os coccyx extends to bladder on pressure,1.0,1
+pain in os coccyx sore to touch,follows arsenic well in hard drinkers with ascites,1.0,1
+pain in os coccyx sore to touch,compare kali c rhus ruta sil,1.0,1
+pain in os coccyx sore to touch,aching in lumbar region better by bending backward,1.0,1
+aching in lumbar region better by stretching,stiffness better by stretching,1.0,1
+aching in lumbar region better by stretching,suitable for syphilitic subjects after mercury abuse,1.0,1
+aching in lumbar region better by stretching,aching in sacrum better by bending backward,1.0,1
+aching in lumbar region better by stretching,pain in nape extending through head to forehead,1.0,1
+aching in lumbar region better by stretching,aching in left upper arm,1.0,1
+aching in lumbar region better by stretching,violent boring pain in temples,1.0,1
+aching in lumbar region better by stretching,aching better by motion,1.0,1
+aching in lumbar region better by stretching,stiffness in right elbow,1.0,1
+aching in lumbar region better by stretching,stiffness worse when quiet,1.0,1
+aching in lumbar region better by stretching,aching in sacrum better by stretching,1.0,1
+aching in lumbar region better by stretching,pain in os coccyx sore to touch,1.0,1
+aching in lumbar region better by stretching,aching in sacrum better by pressure,1.0,1
+aching in lumbar region better by stretching,aching better by stretching,1.0,1
+aching in lumbar region better by stretching,stiffness in right arm,1.0,1
+aching in lumbar region better by stretching,pain in os coccyx worse by motion,1.0,1
+aching in lumbar region better by stretching,stiffness worse at night,1.0,1
+aching in lumbar region better by stretching,pain in third cervical vertebra,1.0,1
+aching in lumbar region better by stretching,suitable for hard drinkers with poor livers,1.0,1
+aching in lumbar region better by stretching,aching in lumbar region better by pressure,1.0,1
+aching in lumbar region better by stretching,nape of neck stiff,1.0,1
+aching in lumbar region better by stretching,stiffness better by motion,1.0,1
+aching in lumbar region better by stretching,violent boring pain in vertex,1.0,1
+aching in lumbar region better by stretching,suitable for old broken down persons,1.0,1
+aching in lumbar region better by stretching,stiffness in right forearm,1.0,1
+aching in lumbar region better by stretching,lameness of back,1.0,1
+aching in lumbar region better by stretching,pain in os coccyx extends to bladder on pressure,1.0,1
+aching in lumbar region better by stretching,follows arsenic well in hard drinkers with ascites,1.0,1
+aching in lumbar region better by stretching,compare kali c rhus ruta sil,1.0,1
+aching in lumbar region better by stretching,aching in lumbar region better by bending backward,1.0,1
+aching in sacrum better by bending backward,stiffness better by stretching,1.0,1
+aching in sacrum better by bending backward,suitable for syphilitic subjects after mercury abuse,1.0,1
+aching in sacrum better by bending backward,pain in nape extending through head to forehead,1.0,1
+aching in sacrum better by bending backward,aching in left upper arm,1.0,1
+aching in sacrum better by bending backward,violent boring pain in temples,1.0,1
+aching in sacrum better by bending backward,aching better by motion,1.0,1
+aching in sacrum better by bending backward,stiffness in right elbow,1.0,1
+aching in sacrum better by bending backward,stiffness worse when quiet,1.0,1
+aching in sacrum better by bending backward,aching in sacrum better by stretching,1.0,1
+aching in sacrum better by bending backward,pain in os coccyx sore to touch,1.0,1
+aching in sacrum better by bending backward,aching in lumbar region better by stretching,1.0,1
+aching in sacrum better by bending backward,aching in sacrum better by pressure,1.0,1
+aching in sacrum better by bending backward,aching better by stretching,1.0,1
+aching in sacrum better by bending backward,stiffness in right arm,1.0,1
+aching in sacrum better by bending backward,pain in os coccyx worse by motion,1.0,1
+aching in sacrum better by bending backward,stiffness worse at night,1.0,1
+aching in sacrum better by bending backward,pain in third cervical vertebra,1.0,1
+aching in sacrum better by bending backward,suitable for hard drinkers with poor livers,1.0,1
+aching in sacrum better by bending backward,aching in lumbar region better by pressure,1.0,1
+aching in sacrum better by bending backward,nape of neck stiff,1.0,1
+aching in sacrum better by bending backward,stiffness better by motion,1.0,1
+aching in sacrum better by bending backward,violent boring pain in vertex,1.0,1
+aching in sacrum better by bending backward,suitable for old broken down persons,1.0,1
+aching in sacrum better by bending backward,stiffness in right forearm,1.0,1
+aching in sacrum better by bending backward,lameness of back,1.0,1
+aching in sacrum better by bending backward,pain in os coccyx extends to bladder on pressure,1.0,1
+aching in sacrum better by bending backward,follows arsenic well in hard drinkers with ascites,1.0,1
+aching in sacrum better by bending backward,compare kali c rhus ruta sil,1.0,1
+aching in sacrum better by bending backward,aching in lumbar region better by bending backward,1.0,1
+suitable for old broken down persons,stiffness better by stretching,1.0,1
+suitable for old broken down persons,suitable for syphilitic subjects after mercury abuse,1.0,1
+suitable for old broken down persons,aching in sacrum better by bending backward,1.0,1
+suitable for old broken down persons,pain in nape extending through head to forehead,1.0,1
+suitable for old broken down persons,aching in left upper arm,1.0,1
+suitable for old broken down persons,violent boring pain in temples,1.0,1
+suitable for old broken down persons,aching better by motion,1.0,1
+suitable for old broken down persons,stiffness in right elbow,1.0,1
+suitable for old broken down persons,stiffness worse when quiet,1.0,1
+suitable for old broken down persons,aching in sacrum better by stretching,1.0,1
+suitable for old broken down persons,pain in os coccyx sore to touch,1.0,1
+suitable for old broken down persons,aching in lumbar region better by stretching,1.0,1
+suitable for old broken down persons,aching in sacrum better by pressure,1.0,1
+suitable for old broken down persons,aching better by stretching,1.0,1
+suitable for old broken down persons,stiffness in right arm,1.0,1
+suitable for old broken down persons,pain in os coccyx worse by motion,1.0,1
+suitable for old broken down persons,stiffness worse at night,1.0,1
+suitable for old broken down persons,pain in third cervical vertebra,1.0,1
+suitable for old broken down persons,suitable for hard drinkers with poor livers,1.0,1
+suitable for old broken down persons,aching in lumbar region better by pressure,1.0,1
+suitable for old broken down persons,nape of neck stiff,1.0,1
+suitable for old broken down persons,stiffness better by motion,1.0,1
+suitable for old broken down persons,violent boring pain in vertex,1.0,1
+suitable for old broken down persons,stiffness in right forearm,1.0,1
+suitable for old broken down persons,lameness of back,1.0,1
+suitable for old broken down persons,pain in os coccyx extends to bladder on pressure,1.0,1
+suitable for old broken down persons,follows arsenic well in hard drinkers with ascites,1.0,1
+suitable for old broken down persons,compare kali c rhus ruta sil,1.0,1
+suitable for old broken down persons,aching in lumbar region better by bending backward,1.0,1
+stiffness in right forearm,stiffness better by stretching,1.0,1
+stiffness in right forearm,suitable for syphilitic subjects after mercury abuse,1.0,1
+stiffness in right forearm,aching in sacrum better by bending backward,1.0,1
+stiffness in right forearm,pain in nape extending through head to forehead,1.0,1
+stiffness in right forearm,aching in left upper arm,1.0,1
+stiffness in right forearm,violent boring pain in temples,1.0,1
+stiffness in right forearm,aching better by motion,1.0,1
+stiffness in right forearm,stiffness in right elbow,1.0,1
+stiffness in right forearm,stiffness worse when quiet,1.0,1
+stiffness in right forearm,aching in sacrum better by stretching,1.0,1
+stiffness in right forearm,pain in os coccyx sore to touch,1.0,1
+stiffness in right forearm,aching in lumbar region better by stretching,1.0,1
+stiffness in right forearm,aching in sacrum better by pressure,1.0,1
+stiffness in right forearm,aching better by stretching,1.0,1
+stiffness in right forearm,stiffness in right arm,1.0,1
+stiffness in right forearm,pain in os coccyx worse by motion,1.0,1
+stiffness in right forearm,stiffness worse at night,1.0,1
+stiffness in right forearm,pain in third cervical vertebra,1.0,1
+stiffness in right forearm,suitable for hard drinkers with poor livers,1.0,1
+stiffness in right forearm,aching in lumbar region better by pressure,1.0,1
+stiffness in right forearm,nape of neck stiff,1.0,1
+stiffness in right forearm,stiffness better by motion,1.0,1
+stiffness in right forearm,violent boring pain in vertex,1.0,1
+stiffness in right forearm,suitable for old broken down persons,1.0,1
+stiffness in right forearm,lameness of back,1.0,1
+stiffness in right forearm,pain in os coccyx extends to bladder on pressure,1.0,1
+stiffness in right forearm,follows arsenic well in hard drinkers with ascites,1.0,1
+stiffness in right forearm,compare kali c rhus ruta sil,1.0,1
+stiffness in right forearm,aching in lumbar region better by bending backward,1.0,1
+stiffness worse when quiet,stiffness better by stretching,1.0,1
+stiffness worse when quiet,suitable for syphilitic subjects after mercury abuse,1.0,1
+stiffness worse when quiet,aching in sacrum better by bending backward,1.0,1
+stiffness worse when quiet,pain in nape extending through head to forehead,1.0,1
+stiffness worse when quiet,aching in left upper arm,1.0,1
+stiffness worse when quiet,violent boring pain in temples,1.0,1
+stiffness worse when quiet,aching better by motion,1.0,1
+stiffness worse when quiet,stiffness in right elbow,1.0,1
+stiffness worse when quiet,aching in sacrum better by stretching,1.0,1
+stiffness worse when quiet,pain in os coccyx sore to touch,1.0,1
+stiffness worse when quiet,aching in lumbar region better by stretching,1.0,1
+stiffness worse when quiet,aching in sacrum better by pressure,1.0,1
+stiffness worse when quiet,aching better by stretching,1.0,1
+stiffness worse when quiet,stiffness in right arm,1.0,1
+stiffness worse when quiet,pain in os coccyx worse by motion,1.0,1
+stiffness worse when quiet,stiffness worse at night,1.0,1
+stiffness worse when quiet,pain in third cervical vertebra,1.0,1
+stiffness worse when quiet,suitable for hard drinkers with poor livers,1.0,1
+stiffness worse when quiet,aching in lumbar region better by pressure,1.0,1
+stiffness worse when quiet,nape of neck stiff,1.0,1
+stiffness worse when quiet,stiffness better by motion,1.0,1
+stiffness worse when quiet,violent boring pain in vertex,1.0,1
+stiffness worse when quiet,suitable for old broken down persons,1.0,1
+stiffness worse when quiet,stiffness in right forearm,1.0,1
+stiffness worse when quiet,lameness of back,1.0,1
+stiffness worse when quiet,pain in os coccyx extends to bladder on pressure,1.0,1
+stiffness worse when quiet,follows arsenic well in hard drinkers with ascites,1.0,1
+stiffness worse when quiet,compare kali c rhus ruta sil,1.0,1
+stiffness worse when quiet,aching in lumbar region better by bending backward,1.0,1
+pain in third cervical vertebra,stiffness better by stretching,1.0,1
+pain in third cervical vertebra,suitable for syphilitic subjects after mercury abuse,1.0,1
+pain in third cervical vertebra,aching in sacrum better by bending backward,1.0,1
+pain in third cervical vertebra,pain in nape extending through head to forehead,1.0,1
+pain in third cervical vertebra,aching in left upper arm,1.0,1
+pain in third cervical vertebra,violent boring pain in temples,1.0,1
+pain in third cervical vertebra,aching better by motion,1.0,1
+pain in third cervical vertebra,stiffness in right elbow,1.0,1
+pain in third cervical vertebra,stiffness worse when quiet,1.0,1
+pain in third cervical vertebra,aching in sacrum better by stretching,1.0,1
+pain in third cervical vertebra,pain in os coccyx sore to touch,1.0,1
+pain in third cervical vertebra,aching in lumbar region better by stretching,1.0,1
+pain in third cervical vertebra,aching in sacrum better by pressure,1.0,1
+pain in third cervical vertebra,aching better by stretching,1.0,1
+pain in third cervical vertebra,stiffness in right arm,1.0,1
+pain in third cervical vertebra,pain in os coccyx worse by motion,1.0,1
+pain in third cervical vertebra,stiffness worse at night,1.0,1
+pain in third cervical vertebra,suitable for hard drinkers with poor livers,1.0,1
+pain in third cervical vertebra,aching in lumbar region better by pressure,1.0,1
+pain in third cervical vertebra,nape of neck stiff,1.0,1
+pain in third cervical vertebra,stiffness better by motion,1.0,1
+pain in third cervical vertebra,violent boring pain in vertex,1.0,1
+pain in third cervical vertebra,suitable for old broken down persons,1.0,1
+pain in third cervical vertebra,stiffness in right forearm,1.0,1
+pain in third cervical vertebra,lameness of back,1.0,1
+pain in third cervical vertebra,pain in os coccyx extends to bladder on pressure,1.0,1
+pain in third cervical vertebra,follows arsenic well in hard drinkers with ascites,1.0,1
+pain in third cervical vertebra,compare kali c rhus ruta sil,1.0,1
+pain in third cervical vertebra,aching in lumbar region better by bending backward,1.0,1
+stiffness in right elbow,stiffness better by stretching,1.0,1
+stiffness in right elbow,suitable for syphilitic subjects after mercury abuse,1.0,1
+stiffness in right elbow,aching in sacrum better by bending backward,1.0,1
+stiffness in right elbow,pain in nape extending through head to forehead,1.0,1
+stiffness in right elbow,aching in left upper arm,1.0,1
+stiffness in right elbow,violent boring pain in temples,1.0,1
+stiffness in right elbow,aching better by motion,1.0,1
+stiffness in right elbow,stiffness worse when quiet,1.0,1
+stiffness in right elbow,aching in sacrum better by stretching,1.0,1
+stiffness in right elbow,pain in os coccyx sore to touch,1.0,1
+stiffness in right elbow,aching in lumbar region better by stretching,1.0,1
+stiffness in right elbow,aching in sacrum better by pressure,1.0,1
+stiffness in right elbow,aching better by stretching,1.0,1
+stiffness in right elbow,stiffness in right arm,1.0,1
+stiffness in right elbow,pain in os coccyx worse by motion,1.0,1
+stiffness in right elbow,stiffness worse at night,1.0,1
+stiffness in right elbow,pain in third cervical vertebra,1.0,1
+stiffness in right elbow,suitable for hard drinkers with poor livers,1.0,1
+stiffness in right elbow,aching in lumbar region better by pressure,1.0,1
+stiffness in right elbow,nape of neck stiff,1.0,1
+stiffness in right elbow,stiffness better by motion,1.0,1
+stiffness in right elbow,violent boring pain in vertex,1.0,1
+stiffness in right elbow,suitable for old broken down persons,1.0,1
+stiffness in right elbow,stiffness in right forearm,1.0,1
+stiffness in right elbow,lameness of back,1.0,1
+stiffness in right elbow,pain in os coccyx extends to bladder on pressure,1.0,1
+stiffness in right elbow,follows arsenic well in hard drinkers with ascites,1.0,1
+stiffness in right elbow,compare kali c rhus ruta sil,1.0,1
+stiffness in right elbow,aching in lumbar region better by bending backward,1.0,1
+aching in sacrum better by stretching,stiffness better by stretching,1.0,1
+aching in sacrum better by stretching,suitable for syphilitic subjects after mercury abuse,1.0,1
+aching in sacrum better by stretching,aching in sacrum better by bending backward,1.0,1
+aching in sacrum better by stretching,pain in nape extending through head to forehead,1.0,1
+aching in sacrum better by stretching,aching in left upper arm,1.0,1
+aching in sacrum better by stretching,violent boring pain in temples,1.0,1
+aching in sacrum better by stretching,aching better by motion,1.0,1
+aching in sacrum better by stretching,stiffness in right elbow,1.0,1
+aching in sacrum better by stretching,stiffness worse when quiet,1.0,1
+aching in sacrum better by stretching,pain in os coccyx sore to touch,1.0,1
+aching in sacrum better by stretching,aching in lumbar region better by stretching,1.0,1
+aching in sacrum better by stretching,aching in sacrum better by pressure,1.0,1
+aching in sacrum better by stretching,aching better by stretching,1.0,1
+aching in sacrum better by stretching,stiffness in right arm,1.0,1
+aching in sacrum better by stretching,pain in os coccyx worse by motion,1.0,1
+aching in sacrum better by stretching,stiffness worse at night,1.0,1
+aching in sacrum better by stretching,pain in third cervical vertebra,1.0,1
+aching in sacrum better by stretching,suitable for hard drinkers with poor livers,1.0,1
+aching in sacrum better by stretching,aching in lumbar region better by pressure,1.0,1
+aching in sacrum better by stretching,nape of neck stiff,1.0,1
+aching in sacrum better by stretching,stiffness better by motion,1.0,1
+aching in sacrum better by stretching,violent boring pain in vertex,1.0,1
+aching in sacrum better by stretching,suitable for old broken down persons,1.0,1
+aching in sacrum better by stretching,stiffness in right forearm,1.0,1
+aching in sacrum better by stretching,lameness of back,1.0,1
+aching in sacrum better by stretching,pain in os coccyx extends to bladder on pressure,1.0,1
+aching in sacrum better by stretching,follows arsenic well in hard drinkers with ascites,1.0,1
+aching in sacrum better by stretching,compare kali c rhus ruta sil,1.0,1
+aching in sacrum better by stretching,aching in lumbar region better by bending backward,1.0,1
+stiffness in right arm,stiffness better by stretching,1.0,1
+stiffness in right arm,suitable for syphilitic subjects after mercury abuse,1.0,1
+stiffness in right arm,aching in sacrum better by bending backward,1.0,1
+stiffness in right arm,pain in nape extending through head to forehead,1.0,1
+stiffness in right arm,aching in left upper arm,1.0,1
+stiffness in right arm,violent boring pain in temples,1.0,1
+stiffness in right arm,aching better by motion,1.0,1
+stiffness in right arm,stiffness in right elbow,1.0,1
+stiffness in right arm,stiffness worse when quiet,1.0,1
+stiffness in right arm,aching in sacrum better by stretching,1.0,1
+stiffness in right arm,pain in os coccyx sore to touch,1.0,1
+stiffness in right arm,aching in lumbar region better by stretching,1.0,1
+stiffness in right arm,aching in sacrum better by pressure,1.0,1
+stiffness in right arm,aching better by stretching,1.0,1
+stiffness in right arm,pain in os coccyx worse by motion,1.0,1
+stiffness in right arm,stiffness worse at night,1.0,1
+stiffness in right arm,pain in third cervical vertebra,1.0,1
+stiffness in right arm,suitable for hard drinkers with poor livers,1.0,1
+stiffness in right arm,aching in lumbar region better by pressure,1.0,1
+stiffness in right arm,nape of neck stiff,1.0,1
+stiffness in right arm,stiffness better by motion,1.0,1
+stiffness in right arm,violent boring pain in vertex,1.0,1
+stiffness in right arm,suitable for old broken down persons,1.0,1
+stiffness in right arm,stiffness in right forearm,1.0,1
+stiffness in right arm,lameness of back,1.0,1
+stiffness in right arm,pain in os coccyx extends to bladder on pressure,1.0,1
+stiffness in right arm,follows arsenic well in hard drinkers with ascites,1.0,1
+stiffness in right arm,compare kali c rhus ruta sil,1.0,1
+stiffness in right arm,aching in lumbar region better by bending backward,1.0,1
+pain in os coccyx worse by motion,stiffness better by stretching,1.0,1
+pain in os coccyx worse by motion,suitable for syphilitic subjects after mercury abuse,1.0,1
+pain in os coccyx worse by motion,aching in sacrum better by bending backward,1.0,1
+pain in os coccyx worse by motion,pain in nape extending through head to forehead,1.0,1
+pain in os coccyx worse by motion,aching in left upper arm,1.0,1
+pain in os coccyx worse by motion,violent boring pain in temples,1.0,1
+pain in os coccyx worse by motion,aching better by motion,1.0,1
+pain in os coccyx worse by motion,stiffness in right elbow,1.0,1
+pain in os coccyx worse by motion,stiffness worse when quiet,1.0,1
+pain in os coccyx worse by motion,aching in sacrum better by stretching,1.0,1
+pain in os coccyx worse by motion,pain in os coccyx sore to touch,1.0,1
+pain in os coccyx worse by motion,aching in lumbar region better by stretching,1.0,1
+pain in os coccyx worse by motion,aching in sacrum better by pressure,1.0,1
+pain in os coccyx worse by motion,aching better by stretching,1.0,1
+pain in os coccyx worse by motion,stiffness in right arm,1.0,1
+pain in os coccyx worse by motion,stiffness worse at night,1.0,1
+pain in os coccyx worse by motion,pain in third cervical vertebra,1.0,1
+pain in os coccyx worse by motion,suitable for hard drinkers with poor livers,1.0,1
+pain in os coccyx worse by motion,aching in lumbar region better by pressure,1.0,1
+pain in os coccyx worse by motion,nape of neck stiff,1.0,1
+pain in os coccyx worse by motion,stiffness better by motion,1.0,1
+pain in os coccyx worse by motion,violent boring pain in vertex,1.0,1
+pain in os coccyx worse by motion,suitable for old broken down persons,1.0,1
+pain in os coccyx worse by motion,stiffness in right forearm,1.0,1
+pain in os coccyx worse by motion,lameness of back,1.0,1
+pain in os coccyx worse by motion,pain in os coccyx extends to bladder on pressure,1.0,1
+pain in os coccyx worse by motion,follows arsenic well in hard drinkers with ascites,1.0,1
+pain in os coccyx worse by motion,compare kali c rhus ruta sil,1.0,1
+pain in os coccyx worse by motion,aching in lumbar region better by bending backward,1.0,1
+follows arsenic well in hard drinkers with ascites,stiffness better by stretching,1.0,1
+follows arsenic well in hard drinkers with ascites,suitable for syphilitic subjects after mercury abuse,1.0,1
+follows arsenic well in hard drinkers with ascites,aching in sacrum better by bending backward,1.0,1
+follows arsenic well in hard drinkers with ascites,pain in nape extending through head to forehead,1.0,1
+follows arsenic well in hard drinkers with ascites,aching in left upper arm,1.0,1
+follows arsenic well in hard drinkers with ascites,violent boring pain in temples,1.0,1
+follows arsenic well in hard drinkers with ascites,aching better by motion,1.0,1
+follows arsenic well in hard drinkers with ascites,stiffness in right elbow,1.0,1
+follows arsenic well in hard drinkers with ascites,stiffness worse when quiet,1.0,1
+follows arsenic well in hard drinkers with ascites,aching in sacrum better by stretching,1.0,1
+follows arsenic well in hard drinkers with ascites,pain in os coccyx sore to touch,1.0,1
+follows arsenic well in hard drinkers with ascites,aching in lumbar region better by stretching,1.0,1
+follows arsenic well in hard drinkers with ascites,aching in sacrum better by pressure,1.0,1
+follows arsenic well in hard drinkers with ascites,aching better by stretching,1.0,1
+follows arsenic well in hard drinkers with ascites,stiffness in right arm,1.0,1
+follows arsenic well in hard drinkers with ascites,pain in os coccyx worse by motion,1.0,1
+follows arsenic well in hard drinkers with ascites,stiffness worse at night,1.0,1
+follows arsenic well in hard drinkers with ascites,pain in third cervical vertebra,1.0,1
+follows arsenic well in hard drinkers with ascites,suitable for hard drinkers with poor livers,1.0,1
+follows arsenic well in hard drinkers with ascites,aching in lumbar region better by pressure,1.0,1
+follows arsenic well in hard drinkers with ascites,nape of neck stiff,1.0,1
+follows arsenic well in hard drinkers with ascites,stiffness better by motion,1.0,1
+follows arsenic well in hard drinkers with ascites,violent boring pain in vertex,1.0,1
+follows arsenic well in hard drinkers with ascites,suitable for old broken down persons,1.0,1
+follows arsenic well in hard drinkers with ascites,stiffness in right forearm,1.0,1
+follows arsenic well in hard drinkers with ascites,lameness of back,1.0,1
+follows arsenic well in hard drinkers with ascites,pain in os coccyx extends to bladder on pressure,1.0,1
+follows arsenic well in hard drinkers with ascites,compare kali c rhus ruta sil,1.0,1
+follows arsenic well in hard drinkers with ascites,aching in lumbar region better by bending backward,1.0,1
+aching in sacrum better by pressure,stiffness better by stretching,1.0,1
+aching in sacrum better by pressure,suitable for syphilitic subjects after mercury abuse,1.0,1
+aching in sacrum better by pressure,aching in sacrum better by bending backward,1.0,1
+aching in sacrum better by pressure,pain in nape extending through head to forehead,1.0,1
+aching in sacrum better by pressure,aching in left upper arm,1.0,1
+aching in sacrum better by pressure,violent boring pain in temples,1.0,1
+aching in sacrum better by pressure,aching better by motion,1.0,1
+aching in sacrum better by pressure,stiffness in right elbow,1.0,1
+aching in sacrum better by pressure,stiffness worse when quiet,1.0,1
+aching in sacrum better by pressure,aching in sacrum better by stretching,1.0,1
+aching in sacrum better by pressure,pain in os coccyx sore to touch,1.0,1
+aching in sacrum better by pressure,aching in lumbar region better by stretching,1.0,1
+aching in sacrum better by pressure,aching better by stretching,1.0,1
+aching in sacrum better by pressure,stiffness in right arm,1.0,1
+aching in sacrum better by pressure,pain in os coccyx worse by motion,1.0,1
+aching in sacrum better by pressure,stiffness worse at night,1.0,1
+aching in sacrum better by pressure,pain in third cervical vertebra,1.0,1
+aching in sacrum better by pressure,suitable for hard drinkers with poor livers,1.0,1
+aching in sacrum better by pressure,aching in lumbar region better by pressure,1.0,1
+aching in sacrum better by pressure,nape of neck stiff,1.0,1
+aching in sacrum better by pressure,stiffness better by motion,1.0,1
+aching in sacrum better by pressure,violent boring pain in vertex,1.0,1
+aching in sacrum better by pressure,suitable for old broken down persons,1.0,1
+aching in sacrum better by pressure,stiffness in right forearm,1.0,1
+aching in sacrum better by pressure,lameness of back,1.0,1
+aching in sacrum better by pressure,pain in os coccyx extends to bladder on pressure,1.0,1
+aching in sacrum better by pressure,follows arsenic well in hard drinkers with ascites,1.0,1
+aching in sacrum better by pressure,compare kali c rhus ruta sil,1.0,1
+aching in sacrum better by pressure,aching in lumbar region better by bending backward,1.0,1
+aching better by motion,stiffness better by stretching,1.0,1
+aching better by motion,suitable for syphilitic subjects after mercury abuse,1.0,1
+aching better by motion,aching in sacrum better by bending backward,1.0,1
+aching better by motion,pain in nape extending through head to forehead,1.0,1
+aching better by motion,aching in left upper arm,1.0,1
+aching better by motion,violent boring pain in temples,1.0,1
+aching better by motion,stiffness in right elbow,1.0,1
+aching better by motion,stiffness worse when quiet,1.0,1
+aching better by motion,aching in sacrum better by stretching,1.0,1
+aching better by motion,pain in os coccyx sore to touch,1.0,1
+aching better by motion,aching in lumbar region better by stretching,1.0,1
+aching better by motion,aching in sacrum better by pressure,1.0,1
+aching better by motion,aching better by stretching,1.0,1
+aching better by motion,stiffness in right arm,1.0,1
+aching better by motion,pain in os coccyx worse by motion,1.0,1
+aching better by motion,stiffness worse at night,1.0,1
+aching better by motion,pain in third cervical vertebra,1.0,1
+aching better by motion,suitable for hard drinkers with poor livers,1.0,1
+aching better by motion,aching in lumbar region better by pressure,1.0,1
+aching better by motion,nape of neck stiff,1.0,1
+aching better by motion,stiffness better by motion,1.0,1
+aching better by motion,violent boring pain in vertex,1.0,1
+aching better by motion,suitable for old broken down persons,1.0,1
+aching better by motion,stiffness in right forearm,1.0,1
+aching better by motion,lameness of back,1.0,1
+aching better by motion,pain in os coccyx extends to bladder on pressure,1.0,1
+aching better by motion,follows arsenic well in hard drinkers with ascites,1.0,1
+aching better by motion,compare kali c rhus ruta sil,1.0,1
+aching better by motion,aching in lumbar region better by bending backward,1.0,1
+stiffness better by motion,stiffness better by stretching,1.0,1
+stiffness better by motion,suitable for syphilitic subjects after mercury abuse,1.0,1
+stiffness better by motion,aching in sacrum better by bending backward,1.0,1
+stiffness better by motion,pain in nape extending through head to forehead,1.0,1
+stiffness better by motion,aching in left upper arm,1.0,1
+stiffness better by motion,violent boring pain in temples,1.0,1
+stiffness better by motion,aching better by motion,1.0,1
+stiffness better by motion,stiffness in right elbow,1.0,1
+stiffness better by motion,stiffness worse when quiet,1.0,1
+stiffness better by motion,aching in sacrum better by stretching,1.0,1
+stiffness better by motion,pain in os coccyx sore to touch,1.0,1
+stiffness better by motion,aching in lumbar region better by stretching,1.0,1
+stiffness better by motion,aching in sacrum better by pressure,1.0,1
+stiffness better by motion,aching better by stretching,1.0,1
+stiffness better by motion,stiffness in right arm,1.0,1
+stiffness better by motion,pain in os coccyx worse by motion,1.0,1
+stiffness better by motion,stiffness worse at night,1.0,1
+stiffness better by motion,pain in third cervical vertebra,1.0,1
+stiffness better by motion,suitable for hard drinkers with poor livers,1.0,1
+stiffness better by motion,aching in lumbar region better by pressure,1.0,1
+stiffness better by motion,nape of neck stiff,1.0,1
+stiffness better by motion,violent boring pain in vertex,1.0,1
+stiffness better by motion,suitable for old broken down persons,1.0,1
+stiffness better by motion,stiffness in right forearm,1.0,1
+stiffness better by motion,lameness of back,1.0,1
+stiffness better by motion,pain in os coccyx extends to bladder on pressure,1.0,1
+stiffness better by motion,follows arsenic well in hard drinkers with ascites,1.0,1
+stiffness better by motion,compare kali c rhus ruta sil,1.0,1
+stiffness better by motion,aching in lumbar region better by bending backward,1.0,1
+violent boring pain in vertex,stiffness better by stretching,1.0,1
+violent boring pain in vertex,suitable for syphilitic subjects after mercury abuse,1.0,1
+violent boring pain in vertex,aching in sacrum better by bending backward,1.0,1
+violent boring pain in vertex,pain in nape extending through head to forehead,1.0,1
+violent boring pain in vertex,aching in left upper arm,1.0,1
+violent boring pain in vertex,violent boring pain in temples,1.0,1
+violent boring pain in vertex,aching better by motion,1.0,1
+violent boring pain in vertex,stiffness in right elbow,1.0,1
+violent boring pain in vertex,stiffness worse when quiet,1.0,1
+violent boring pain in vertex,aching in sacrum better by stretching,1.0,1
+violent boring pain in vertex,pain in os coccyx sore to touch,1.0,1
+violent boring pain in vertex,aching in lumbar region better by stretching,1.0,1
+violent boring pain in vertex,aching in sacrum better by pressure,1.0,1
+violent boring pain in vertex,aching better by stretching,1.0,1
+violent boring pain in vertex,stiffness in right arm,1.0,1
+violent boring pain in vertex,pain in os coccyx worse by motion,1.0,1
+violent boring pain in vertex,stiffness worse at night,1.0,1
+violent boring pain in vertex,pain in third cervical vertebra,1.0,1
+violent boring pain in vertex,suitable for hard drinkers with poor livers,1.0,1
+violent boring pain in vertex,aching in lumbar region better by pressure,1.0,1
+violent boring pain in vertex,nape of neck stiff,1.0,1
+violent boring pain in vertex,stiffness better by motion,1.0,1
+violent boring pain in vertex,suitable for old broken down persons,1.0,1
+violent boring pain in vertex,stiffness in right forearm,1.0,1
+violent boring pain in vertex,lameness of back,1.0,1
+violent boring pain in vertex,pain in os coccyx extends to bladder on pressure,1.0,1
+violent boring pain in vertex,follows arsenic well in hard drinkers with ascites,1.0,1
+violent boring pain in vertex,compare kali c rhus ruta sil,1.0,1
+violent boring pain in vertex,aching in lumbar region better by bending backward,1.0,1
+violent boring pain in temples,stiffness better by stretching,1.0,1
+violent boring pain in temples,suitable for syphilitic subjects after mercury abuse,1.0,1
+violent boring pain in temples,aching in sacrum better by bending backward,1.0,1
+violent boring pain in temples,pain in nape extending through head to forehead,1.0,1
+violent boring pain in temples,aching in left upper arm,1.0,1
+violent boring pain in temples,aching better by motion,1.0,1
+violent boring pain in temples,stiffness in right elbow,1.0,1
+violent boring pain in temples,stiffness worse when quiet,1.0,1
+violent boring pain in temples,aching in sacrum better by stretching,1.0,1
+violent boring pain in temples,pain in os coccyx sore to touch,1.0,1
+violent boring pain in temples,aching in lumbar region better by stretching,1.0,1
+violent boring pain in temples,aching in sacrum better by pressure,1.0,1
+violent boring pain in temples,aching better by stretching,1.0,1
+violent boring pain in temples,stiffness in right arm,1.0,1
+violent boring pain in temples,pain in os coccyx worse by motion,1.0,1
+violent boring pain in temples,stiffness worse at night,1.0,1
+violent boring pain in temples,pain in third cervical vertebra,1.0,1
+violent boring pain in temples,suitable for hard drinkers with poor livers,1.0,1
+violent boring pain in temples,aching in lumbar region better by pressure,1.0,1
+violent boring pain in temples,nape of neck stiff,1.0,1
+violent boring pain in temples,stiffness better by motion,1.0,1
+violent boring pain in temples,violent boring pain in vertex,1.0,1
+violent boring pain in temples,suitable for old broken down persons,1.0,1
+violent boring pain in temples,stiffness in right forearm,1.0,1
+violent boring pain in temples,lameness of back,1.0,1
+violent boring pain in temples,pain in os coccyx extends to bladder on pressure,1.0,1
+violent boring pain in temples,follows arsenic well in hard drinkers with ascites,1.0,1
+violent boring pain in temples,compare kali c rhus ruta sil,1.0,1
+violent boring pain in temples,aching in lumbar region better by bending backward,1.0,1
+aching in lumbar region better by bending backward,stiffness better by stretching,1.0,1
+aching in lumbar region better by bending backward,suitable for syphilitic subjects after mercury abuse,1.0,1
+aching in lumbar region better by bending backward,aching in sacrum better by bending backward,1.0,1
+aching in lumbar region better by bending backward,pain in nape extending through head to forehead,1.0,1
+aching in lumbar region better by bending backward,aching in left upper arm,1.0,1
+aching in lumbar region better by bending backward,violent boring pain in temples,1.0,1
+aching in lumbar region better by bending backward,aching better by motion,1.0,1
+aching in lumbar region better by bending backward,stiffness in right elbow,1.0,1
+aching in lumbar region better by bending backward,stiffness worse when quiet,1.0,1
+aching in lumbar region better by bending backward,aching in sacrum better by stretching,1.0,1
+aching in lumbar region better by bending backward,pain in os coccyx sore to touch,1.0,1
+aching in lumbar region better by bending backward,aching in lumbar region better by stretching,1.0,1
+aching in lumbar region better by bending backward,aching in sacrum better by pressure,1.0,1
+aching in lumbar region better by bending backward,aching better by stretching,1.0,1
+aching in lumbar region better by bending backward,stiffness in right arm,1.0,1
+aching in lumbar region better by bending backward,pain in os coccyx worse by motion,1.0,1
+aching in lumbar region better by bending backward,stiffness worse at night,1.0,1
+aching in lumbar region better by bending backward,pain in third cervical vertebra,1.0,1
+aching in lumbar region better by bending backward,suitable for hard drinkers with poor livers,1.0,1
+aching in lumbar region better by bending backward,aching in lumbar region better by pressure,1.0,1
+aching in lumbar region better by bending backward,nape of neck stiff,1.0,1
+aching in lumbar region better by bending backward,stiffness better by motion,1.0,1
+aching in lumbar region better by bending backward,violent boring pain in vertex,1.0,1
+aching in lumbar region better by bending backward,suitable for old broken down persons,1.0,1
+aching in lumbar region better by bending backward,stiffness in right forearm,1.0,1
+aching in lumbar region better by bending backward,lameness of back,1.0,1
+aching in lumbar region better by bending backward,pain in os coccyx extends to bladder on pressure,1.0,1
+aching in lumbar region better by bending backward,follows arsenic well in hard drinkers with ascites,1.0,1
+aching in lumbar region better by bending backward,compare kali c rhus ruta sil,1.0,1
+compare kali c rhus ruta sil,stiffness better by stretching,1.0,1
+compare kali c rhus ruta sil,suitable for syphilitic subjects after mercury abuse,1.0,1
+compare kali c rhus ruta sil,aching in sacrum better by bending backward,1.0,1
+compare kali c rhus ruta sil,pain in nape extending through head to forehead,1.0,1
+compare kali c rhus ruta sil,aching in left upper arm,1.0,1
+compare kali c rhus ruta sil,violent boring pain in temples,1.0,1
+compare kali c rhus ruta sil,aching better by motion,1.0,1
+compare kali c rhus ruta sil,stiffness in right elbow,1.0,1
+compare kali c rhus ruta sil,stiffness worse when quiet,1.0,1
+compare kali c rhus ruta sil,aching in sacrum better by stretching,1.0,1
+compare kali c rhus ruta sil,pain in os coccyx sore to touch,1.0,1
+compare kali c rhus ruta sil,aching in lumbar region better by stretching,1.0,1
+compare kali c rhus ruta sil,aching in sacrum better by pressure,1.0,1
+compare kali c rhus ruta sil,aching better by stretching,1.0,1
+compare kali c rhus ruta sil,stiffness in right arm,1.0,1
+compare kali c rhus ruta sil,pain in os coccyx worse by motion,1.0,1
+compare kali c rhus ruta sil,stiffness worse at night,1.0,1
+compare kali c rhus ruta sil,pain in third cervical vertebra,1.0,1
+compare kali c rhus ruta sil,suitable for hard drinkers with poor livers,1.0,1
+compare kali c rhus ruta sil,aching in lumbar region better by pressure,1.0,1
+compare kali c rhus ruta sil,nape of neck stiff,1.0,1
+compare kali c rhus ruta sil,stiffness better by motion,1.0,1
+compare kali c rhus ruta sil,violent boring pain in vertex,1.0,1
+compare kali c rhus ruta sil,suitable for old broken down persons,1.0,1
+compare kali c rhus ruta sil,stiffness in right forearm,1.0,1
+compare kali c rhus ruta sil,lameness of back,1.0,1
+compare kali c rhus ruta sil,pain in os coccyx extends to bladder on pressure,1.0,1
+compare kali c rhus ruta sil,follows arsenic well in hard drinkers with ascites,1.0,1
+compare kali c rhus ruta sil,aching in lumbar region better by bending backward,1.0,1
+pain in os coccyx extends to bladder on pressure,stiffness better by stretching,1.0,1
+pain in os coccyx extends to bladder on pressure,suitable for syphilitic subjects after mercury abuse,1.0,1
+pain in os coccyx extends to bladder on pressure,aching in sacrum better by bending backward,1.0,1
+pain in os coccyx extends to bladder on pressure,pain in nape extending through head to forehead,1.0,1
+pain in os coccyx extends to bladder on pressure,aching in left upper arm,1.0,1
+pain in os coccyx extends to bladder on pressure,violent boring pain in temples,1.0,1
+pain in os coccyx extends to bladder on pressure,aching better by motion,1.0,1
+pain in os coccyx extends to bladder on pressure,stiffness in right elbow,1.0,1
+pain in os coccyx extends to bladder on pressure,stiffness worse when quiet,1.0,1
+pain in os coccyx extends to bladder on pressure,aching in sacrum better by stretching,1.0,1
+pain in os coccyx extends to bladder on pressure,pain in os coccyx sore to touch,1.0,1
+pain in os coccyx extends to bladder on pressure,aching in lumbar region better by stretching,1.0,1
+pain in os coccyx extends to bladder on pressure,aching in sacrum better by pressure,1.0,1
+pain in os coccyx extends to bladder on pressure,aching better by stretching,1.0,1
+pain in os coccyx extends to bladder on pressure,stiffness in right arm,1.0,1
+pain in os coccyx extends to bladder on pressure,pain in os coccyx worse by motion,1.0,1
+pain in os coccyx extends to bladder on pressure,stiffness worse at night,1.0,1
+pain in os coccyx extends to bladder on pressure,pain in third cervical vertebra,1.0,1
+pain in os coccyx extends to bladder on pressure,suitable for hard drinkers with poor livers,1.0,1
+pain in os coccyx extends to bladder on pressure,aching in lumbar region better by pressure,1.0,1
+pain in os coccyx extends to bladder on pressure,nape of neck stiff,1.0,1
+pain in os coccyx extends to bladder on pressure,stiffness better by motion,1.0,1
+pain in os coccyx extends to bladder on pressure,violent boring pain in vertex,1.0,1
+pain in os coccyx extends to bladder on pressure,suitable for old broken down persons,1.0,1
+pain in os coccyx extends to bladder on pressure,stiffness in right forearm,1.0,1
+pain in os coccyx extends to bladder on pressure,lameness of back,1.0,1
+pain in os coccyx extends to bladder on pressure,follows arsenic well in hard drinkers with ascites,1.0,1
+pain in os coccyx extends to bladder on pressure,compare kali c rhus ruta sil,1.0,1
+pain in os coccyx extends to bladder on pressure,aching in lumbar region better by bending backward,1.0,1
+stiffness worse at night,stiffness better by stretching,1.0,1
+stiffness worse at night,suitable for syphilitic subjects after mercury abuse,1.0,1
+stiffness worse at night,aching in sacrum better by bending backward,1.0,1
+stiffness worse at night,pain in nape extending through head to forehead,1.0,1
+stiffness worse at night,aching in left upper arm,1.0,1
+stiffness worse at night,violent boring pain in temples,1.0,1
+stiffness worse at night,aching better by motion,1.0,1
+stiffness worse at night,stiffness in right elbow,1.0,1
+stiffness worse at night,stiffness worse when quiet,1.0,1
+stiffness worse at night,aching in sacrum better by stretching,1.0,1
+stiffness worse at night,pain in os coccyx sore to touch,1.0,1
+stiffness worse at night,aching in lumbar region better by stretching,1.0,1
+stiffness worse at night,aching in sacrum better by pressure,1.0,1
+stiffness worse at night,aching better by stretching,1.0,1
+stiffness worse at night,stiffness in right arm,1.0,1
+stiffness worse at night,pain in os coccyx worse by motion,1.0,1
+stiffness worse at night,pain in third cervical vertebra,1.0,1
+stiffness worse at night,suitable for hard drinkers with poor livers,1.0,1
+stiffness worse at night,aching in lumbar region better by pressure,1.0,1
+stiffness worse at night,nape of neck stiff,1.0,1
+stiffness worse at night,stiffness better by motion,1.0,1
+stiffness worse at night,violent boring pain in vertex,1.0,1
+stiffness worse at night,suitable for old broken down persons,1.0,1
+stiffness worse at night,stiffness in right forearm,1.0,1
+stiffness worse at night,lameness of back,1.0,1
+stiffness worse at night,pain in os coccyx extends to bladder on pressure,1.0,1
+stiffness worse at night,follows arsenic well in hard drinkers with ascites,1.0,1
+stiffness worse at night,compare kali c rhus ruta sil,1.0,1
+stiffness worse at night,aching in lumbar region better by bending backward,1.0,1
+aching better by stretching,stiffness better by stretching,1.0,1
+aching better by stretching,suitable for syphilitic subjects after mercury abuse,1.0,1
+aching better by stretching,aching in sacrum better by bending backward,1.0,1
+aching better by stretching,pain in nape extending through head to forehead,1.0,1
+aching better by stretching,aching in left upper arm,1.0,1
+aching better by stretching,violent boring pain in temples,1.0,1
+aching better by stretching,aching better by motion,1.0,1
+aching better by stretching,stiffness in right elbow,1.0,1
+aching better by stretching,stiffness worse when quiet,1.0,1
+aching better by stretching,aching in sacrum better by stretching,1.0,1
+aching better by stretching,pain in os coccyx sore to touch,1.0,1
+aching better by stretching,aching in lumbar region better by stretching,1.0,1
+aching better by stretching,aching in sacrum better by pressure,1.0,1
+aching better by stretching,stiffness in right arm,1.0,1
+aching better by stretching,pain in os coccyx worse by motion,1.0,1
+aching better by stretching,stiffness worse at night,1.0,1
+aching better by stretching,pain in third cervical vertebra,1.0,1
+aching better by stretching,suitable for hard drinkers with poor livers,1.0,1
+aching better by stretching,aching in lumbar region better by pressure,1.0,1
+aching better by stretching,nape of neck stiff,1.0,1
+aching better by stretching,stiffness better by motion,1.0,1
+aching better by stretching,violent boring pain in vertex,1.0,1
+aching better by stretching,suitable for old broken down persons,1.0,1
+aching better by stretching,stiffness in right forearm,1.0,1
+aching better by stretching,lameness of back,1.0,1
+aching better by stretching,pain in os coccyx extends to bladder on pressure,1.0,1
+aching better by stretching,follows arsenic well in hard drinkers with ascites,1.0,1
+aching better by stretching,compare kali c rhus ruta sil,1.0,1
+aching better by stretching,aching in lumbar region better by bending backward,1.0,1
+aching in lumbar region better by pressure,stiffness better by stretching,1.0,1
+aching in lumbar region better by pressure,suitable for syphilitic subjects after mercury abuse,1.0,1
+aching in lumbar region better by pressure,aching in sacrum better by bending backward,1.0,1
+aching in lumbar region better by pressure,pain in nape extending through head to forehead,1.0,1
+aching in lumbar region better by pressure,aching in left upper arm,1.0,1
+aching in lumbar region better by pressure,violent boring pain in temples,1.0,1
+aching in lumbar region better by pressure,aching better by motion,1.0,1
+aching in lumbar region better by pressure,stiffness in right elbow,1.0,1
+aching in lumbar region better by pressure,stiffness worse when quiet,1.0,1
+aching in lumbar region better by pressure,aching in sacrum better by stretching,1.0,1
+aching in lumbar region better by pressure,pain in os coccyx sore to touch,1.0,1
+aching in lumbar region better by pressure,aching in lumbar region better by stretching,1.0,1
+aching in lumbar region better by pressure,aching in sacrum better by pressure,1.0,1
+aching in lumbar region better by pressure,aching better by stretching,1.0,1
+aching in lumbar region better by pressure,stiffness in right arm,1.0,1
+aching in lumbar region better by pressure,pain in os coccyx worse by motion,1.0,1
+aching in lumbar region better by pressure,stiffness worse at night,1.0,1
+aching in lumbar region better by pressure,pain in third cervical vertebra,1.0,1
+aching in lumbar region better by pressure,suitable for hard drinkers with poor livers,1.0,1
+aching in lumbar region better by pressure,nape of neck stiff,1.0,1
+aching in lumbar region better by pressure,stiffness better by motion,1.0,1
+aching in lumbar region better by pressure,violent boring pain in vertex,1.0,1
+aching in lumbar region better by pressure,suitable for old broken down persons,1.0,1
+aching in lumbar region better by pressure,stiffness in right forearm,1.0,1
+aching in lumbar region better by pressure,lameness of back,1.0,1
+aching in lumbar region better by pressure,pain in os coccyx extends to bladder on pressure,1.0,1
+aching in lumbar region better by pressure,follows arsenic well in hard drinkers with ascites,1.0,1
+aching in lumbar region better by pressure,compare kali c rhus ruta sil,1.0,1
+aching in lumbar region better by pressure,aching in lumbar region better by bending backward,1.0,1
+aching in left upper arm,stiffness better by stretching,1.0,1
+aching in left upper arm,suitable for syphilitic subjects after mercury abuse,1.0,1
+aching in left upper arm,aching in sacrum better by bending backward,1.0,1
+aching in left upper arm,pain in nape extending through head to forehead,1.0,1
+aching in left upper arm,violent boring pain in temples,1.0,1
+aching in left upper arm,aching better by motion,1.0,1
+aching in left upper arm,stiffness in right elbow,1.0,1
+aching in left upper arm,stiffness worse when quiet,1.0,1
+aching in left upper arm,aching in sacrum better by stretching,1.0,1
+aching in left upper arm,pain in os coccyx sore to touch,1.0,1
+aching in left upper arm,aching in lumbar region better by stretching,1.0,1
+aching in left upper arm,aching in sacrum better by pressure,1.0,1
+aching in left upper arm,aching better by stretching,1.0,1
+aching in left upper arm,stiffness in right arm,1.0,1
+aching in left upper arm,pain in os coccyx worse by motion,1.0,1
+aching in left upper arm,stiffness worse at night,1.0,1
+aching in left upper arm,pain in third cervical vertebra,1.0,1
+aching in left upper arm,suitable for hard drinkers with poor livers,1.0,1
+aching in left upper arm,aching in lumbar region better by pressure,1.0,1
+aching in left upper arm,nape of neck stiff,1.0,1
+aching in left upper arm,stiffness better by motion,1.0,1
+aching in left upper arm,violent boring pain in vertex,1.0,1
+aching in left upper arm,suitable for old broken down persons,1.0,1
+aching in left upper arm,stiffness in right forearm,1.0,1
+aching in left upper arm,lameness of back,1.0,1
+aching in left upper arm,pain in os coccyx extends to bladder on pressure,1.0,1
+aching in left upper arm,follows arsenic well in hard drinkers with ascites,1.0,1
+aching in left upper arm,compare kali c rhus ruta sil,1.0,1
+aching in left upper arm,aching in lumbar region better by bending backward,1.0,1
+lameness of back,stiffness better by stretching,1.0,1
+lameness of back,suitable for syphilitic subjects after mercury abuse,1.0,1
+lameness of back,aching in sacrum better by bending backward,1.0,1
+lameness of back,pain in nape extending through head to forehead,1.0,1
+lameness of back,aching in left upper arm,1.0,1
+lameness of back,violent boring pain in temples,1.0,1
+lameness of back,aching better by motion,1.0,1
+lameness of back,stiffness in right elbow,1.0,1
+lameness of back,stiffness worse when quiet,1.0,1
+lameness of back,aching in sacrum better by stretching,1.0,1
+lameness of back,pain in os coccyx sore to touch,1.0,1
+lameness of back,aching in lumbar region better by stretching,1.0,1
+lameness of back,aching in sacrum better by pressure,1.0,1
+lameness of back,aching better by stretching,1.0,1
+lameness of back,stiffness in right arm,1.0,1
+lameness of back,pain in os coccyx worse by motion,1.0,1
+lameness of back,stiffness worse at night,1.0,1
+lameness of back,pain in third cervical vertebra,1.0,1
+lameness of back,suitable for hard drinkers with poor livers,1.0,1
+lameness of back,aching in lumbar region better by pressure,1.0,1
+lameness of back,nape of neck stiff,1.0,1
+lameness of back,stiffness better by motion,1.0,1
+lameness of back,violent boring pain in vertex,1.0,1
+lameness of back,suitable for old broken down persons,1.0,1
+lameness of back,stiffness in right forearm,1.0,1
+lameness of back,pain in os coccyx extends to bladder on pressure,1.0,1
+lameness of back,follows arsenic well in hard drinkers with ascites,1.0,1
+lameness of back,compare kali c rhus ruta sil,1.0,1
+lameness of back,aching in lumbar region better by bending backward,1.0,1
+stiffness better by stretching,suitable for syphilitic subjects after mercury abuse,1.0,1
+stiffness better by stretching,aching in sacrum better by bending backward,1.0,1
+stiffness better by stretching,pain in nape extending through head to forehead,1.0,1
+stiffness better by stretching,aching in left upper arm,1.0,1
+stiffness better by stretching,violent boring pain in temples,1.0,1
+stiffness better by stretching,aching better by motion,1.0,1
+stiffness better by stretching,stiffness in right elbow,1.0,1
+stiffness better by stretching,stiffness worse when quiet,1.0,1
+stiffness better by stretching,aching in sacrum better by stretching,1.0,1
+stiffness better by stretching,pain in os coccyx sore to touch,1.0,1
+stiffness better by stretching,aching in lumbar region better by stretching,1.0,1
+stiffness better by stretching,aching in sacrum better by pressure,1.0,1
+stiffness better by stretching,aching better by stretching,1.0,1
+stiffness better by stretching,stiffness in right arm,1.0,1
+stiffness better by stretching,pain in os coccyx worse by motion,1.0,1
+stiffness better by stretching,stiffness worse at night,1.0,1
+stiffness better by stretching,pain in third cervical vertebra,1.0,1
+stiffness better by stretching,suitable for hard drinkers with poor livers,1.0,1
+stiffness better by stretching,aching in lumbar region better by pressure,1.0,1
+stiffness better by stretching,nape of neck stiff,1.0,1
+stiffness better by stretching,stiffness better by motion,1.0,1
+stiffness better by stretching,violent boring pain in vertex,1.0,1
+stiffness better by stretching,suitable for old broken down persons,1.0,1
+stiffness better by stretching,stiffness in right forearm,1.0,1
+stiffness better by stretching,lameness of back,1.0,1
+stiffness better by stretching,pain in os coccyx extends to bladder on pressure,1.0,1
+stiffness better by stretching,follows arsenic well in hard drinkers with ascites,1.0,1
+stiffness better by stretching,compare kali c rhus ruta sil,1.0,1
+stiffness better by stretching,aching in lumbar region better by bending backward,1.0,1

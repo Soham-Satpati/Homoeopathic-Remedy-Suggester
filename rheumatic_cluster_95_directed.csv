@@ -1,0 +1,58 @@
+### Cluster 95 — Symptoms (7)
+Symptom,Frequency
+coldness in back,1
+icy cold feet,1
+rheumatism with icy coldness,1
+sudden collapse,1
+rheumatic pains with coldness,1
+icy cold hands,1
+extreme weakness,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+camphora,7
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+coldness in back,icy cold feet,1.0,1
+coldness in back,rheumatism with icy coldness,1.0,1
+coldness in back,sudden collapse,1.0,1
+coldness in back,rheumatic pains with coldness,1.0,1
+coldness in back,icy cold hands,1.0,1
+coldness in back,extreme weakness,1.0,1
+extreme weakness,coldness in back,1.0,1
+extreme weakness,icy cold feet,1.0,1
+extreme weakness,rheumatism with icy coldness,1.0,1
+extreme weakness,sudden collapse,1.0,1
+extreme weakness,rheumatic pains with coldness,1.0,1
+extreme weakness,icy cold hands,1.0,1
+icy cold feet,coldness in back,1.0,1
+icy cold feet,rheumatism with icy coldness,1.0,1
+icy cold feet,sudden collapse,1.0,1
+icy cold feet,rheumatic pains with coldness,1.0,1
+icy cold feet,icy cold hands,1.0,1
+icy cold feet,extreme weakness,1.0,1
+sudden collapse,coldness in back,1.0,1
+sudden collapse,icy cold feet,1.0,1
+sudden collapse,rheumatism with icy coldness,1.0,1
+sudden collapse,rheumatic pains with coldness,1.0,1
+sudden collapse,icy cold hands,1.0,1
+sudden collapse,extreme weakness,1.0,1
+rheumatic pains with coldness,coldness in back,1.0,1
+rheumatic pains with coldness,icy cold feet,1.0,1
+rheumatic pains with coldness,rheumatism with icy coldness,1.0,1
+rheumatic pains with coldness,sudden collapse,1.0,1
+rheumatic pains with coldness,icy cold hands,1.0,1
+rheumatic pains with coldness,extreme weakness,1.0,1
+rheumatism with icy coldness,coldness in back,1.0,1
+rheumatism with icy coldness,icy cold feet,1.0,1
+rheumatism with icy coldness,sudden collapse,1.0,1
+rheumatism with icy coldness,rheumatic pains with coldness,1.0,1
+rheumatism with icy coldness,icy cold hands,1.0,1
+rheumatism with icy coldness,extreme weakness,1.0,1
+icy cold hands,coldness in back,1.0,1
+icy cold hands,icy cold feet,1.0,1
+icy cold hands,rheumatism with icy coldness,1.0,1
+icy cold hands,sudden collapse,1.0,1
+icy cold hands,rheumatic pains with coldness,1.0,1
+icy cold hands,extreme weakness,1.0,1

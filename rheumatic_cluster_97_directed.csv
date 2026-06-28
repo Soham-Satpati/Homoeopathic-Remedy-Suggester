@@ -1,0 +1,225 @@
+### Cluster 97 — Symptoms (18)
+Symptom,Frequency
+vomiting,2
+aching in neck,1
+rapid pulse,2
+acute rheumatism,2
+congestive headache,1
+fullness in head,1
+severe pains,2
+great prostration,1
+worse right arm,1
+rheumatism of legs,1
+pains in shoulders,1
+severe pains driving to despair,1
+pains in back,1
+collapse,1
+cold sweat on forehead,1
+cold sweat,1
+rheumatism of arms,1
+cramp-like pains in calves,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+veratrum album,13
+veratrum viride,7
+antimonium crudum,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+pains in back,great prostration,1.0,1
+pains in back,worse right arm,1.0,1
+pains in back,rheumatism of legs,1.0,1
+pains in back,pains in shoulders,1.0,1
+pains in back,severe pains driving to despair,1.0,1
+pains in back,acute rheumatism,1.0,1
+pains in back,collapse,1.0,1
+pains in back,cold sweat on forehead,1.0,1
+pains in back,cold sweat,1.0,1
+pains in back,rheumatism of arms,1.0,1
+pains in back,cramp-like pains in calves,1.0,1
+pains in back,severe pains,1.0,1
+severe pains driving to despair,great prostration,1.0,1
+severe pains driving to despair,worse right arm,1.0,1
+severe pains driving to despair,rheumatism of legs,1.0,1
+severe pains driving to despair,pains in shoulders,1.0,1
+severe pains driving to despair,pains in back,1.0,1
+severe pains driving to despair,acute rheumatism,1.0,1
+severe pains driving to despair,collapse,1.0,1
+severe pains driving to despair,cold sweat on forehead,1.0,1
+severe pains driving to despair,cold sweat,1.0,1
+severe pains driving to despair,rheumatism of arms,1.0,1
+severe pains driving to despair,cramp-like pains in calves,1.0,1
+severe pains driving to despair,severe pains,1.0,1
+great prostration,worse right arm,1.0,1
+great prostration,rheumatism of legs,1.0,1
+great prostration,pains in shoulders,1.0,1
+great prostration,severe pains driving to despair,1.0,1
+great prostration,pains in back,1.0,1
+great prostration,acute rheumatism,1.0,1
+great prostration,collapse,1.0,1
+great prostration,cold sweat on forehead,1.0,1
+great prostration,cold sweat,1.0,1
+great prostration,rheumatism of arms,1.0,1
+great prostration,cramp-like pains in calves,1.0,1
+great prostration,severe pains,1.0,1
+rheumatism of legs,great prostration,1.0,1
+rheumatism of legs,worse right arm,1.0,1
+rheumatism of legs,pains in shoulders,1.0,1
+rheumatism of legs,severe pains driving to despair,1.0,1
+rheumatism of legs,pains in back,1.0,1
+rheumatism of legs,acute rheumatism,1.0,1
+rheumatism of legs,collapse,1.0,1
+rheumatism of legs,cold sweat on forehead,1.0,1
+rheumatism of legs,cold sweat,1.0,1
+rheumatism of legs,rheumatism of arms,1.0,1
+rheumatism of legs,cramp-like pains in calves,1.0,1
+rheumatism of legs,severe pains,1.0,1
+fullness in head,aching in neck,1.0,1
+fullness in head,rapid pulse,1.0,1
+fullness in head,acute rheumatism,1.0,1
+fullness in head,congestive headache,1.0,1
+fullness in head,vomiting,1.0,1
+fullness in head,severe pains,1.0,1
+cramp-like pains in calves,great prostration,1.0,1
+cramp-like pains in calves,worse right arm,1.0,1
+cramp-like pains in calves,rheumatism of legs,1.0,1
+cramp-like pains in calves,pains in shoulders,1.0,1
+cramp-like pains in calves,severe pains driving to despair,1.0,1
+cramp-like pains in calves,pains in back,1.0,1
+cramp-like pains in calves,acute rheumatism,1.0,1
+cramp-like pains in calves,collapse,1.0,1
+cramp-like pains in calves,cold sweat on forehead,1.0,1
+cramp-like pains in calves,cold sweat,1.0,1
+cramp-like pains in calves,rheumatism of arms,1.0,1
+cramp-like pains in calves,severe pains,1.0,1
+pains in shoulders,great prostration,1.0,1
+pains in shoulders,worse right arm,1.0,1
+pains in shoulders,rheumatism of legs,1.0,1
+pains in shoulders,severe pains driving to despair,1.0,1
+pains in shoulders,pains in back,1.0,1
+pains in shoulders,acute rheumatism,1.0,1
+pains in shoulders,collapse,1.0,1
+pains in shoulders,cold sweat on forehead,1.0,1
+pains in shoulders,cold sweat,1.0,1
+pains in shoulders,rheumatism of arms,1.0,1
+pains in shoulders,cramp-like pains in calves,1.0,1
+pains in shoulders,severe pains,1.0,1
+rapid pulse,aching in neck,1.0,1
+rapid pulse,acute rheumatism,1.0,1
+rapid pulse,congestive headache,1.0,1
+rapid pulse,vomiting,1.0,1
+rapid pulse,fullness in head,1.0,1
+rapid pulse,severe pains,1.0,1
+vomiting,aching in neck,0.5,1
+vomiting,rapid pulse,0.5,1
+vomiting,acute rheumatism,0.5,1
+vomiting,congestive headache,0.5,1
+vomiting,fullness in head,0.5,1
+vomiting,severe pains,0.5,1
+worse right arm,great prostration,1.0,1
+worse right arm,rheumatism of legs,1.0,1
+worse right arm,pains in shoulders,1.0,1
+worse right arm,severe pains driving to despair,1.0,1
+worse right arm,pains in back,1.0,1
+worse right arm,acute rheumatism,1.0,1
+worse right arm,collapse,1.0,1
+worse right arm,cold sweat on forehead,1.0,1
+worse right arm,cold sweat,1.0,1
+worse right arm,rheumatism of arms,1.0,1
+worse right arm,cramp-like pains in calves,1.0,1
+worse right arm,severe pains,1.0,1
+collapse,great prostration,1.0,1
+collapse,worse right arm,1.0,1
+collapse,rheumatism of legs,1.0,1
+collapse,pains in shoulders,1.0,1
+collapse,severe pains driving to despair,1.0,1
+collapse,pains in back,1.0,1
+collapse,acute rheumatism,1.0,1
+collapse,cold sweat on forehead,1.0,1
+collapse,cold sweat,1.0,1
+collapse,rheumatism of arms,1.0,1
+collapse,cramp-like pains in calves,1.0,1
+collapse,severe pains,1.0,1
+rheumatism of arms,great prostration,1.0,1
+rheumatism of arms,worse right arm,1.0,1
+rheumatism of arms,rheumatism of legs,1.0,1
+rheumatism of arms,pains in shoulders,1.0,1
+rheumatism of arms,severe pains driving to despair,1.0,1
+rheumatism of arms,pains in back,1.0,1
+rheumatism of arms,acute rheumatism,1.0,1
+rheumatism of arms,collapse,1.0,1
+rheumatism of arms,cold sweat on forehead,1.0,1
+rheumatism of arms,cold sweat,1.0,1
+rheumatism of arms,cramp-like pains in calves,1.0,1
+rheumatism of arms,severe pains,1.0,1
+aching in neck,rapid pulse,1.0,1
+aching in neck,acute rheumatism,1.0,1
+aching in neck,congestive headache,1.0,1
+aching in neck,vomiting,1.0,1
+aching in neck,fullness in head,1.0,1
+aching in neck,severe pains,1.0,1
+severe pains,aching in neck,0.5,1
+severe pains,great prostration,0.5,1
+severe pains,worse right arm,0.5,1
+severe pains,rheumatism of legs,0.5,1
+severe pains,pains in shoulders,0.5,1
+severe pains,severe pains driving to despair,0.5,1
+severe pains,pains in back,0.5,1
+severe pains,rapid pulse,0.5,1
+severe pains,acute rheumatism,1.0,2
+severe pains,collapse,0.5,1
+severe pains,cold sweat on forehead,0.5,1
+severe pains,cold sweat,0.5,1
+severe pains,rheumatism of arms,0.5,1
+severe pains,congestive headache,0.5,1
+severe pains,vomiting,0.5,1
+severe pains,cramp-like pains in calves,0.5,1
+severe pains,fullness in head,0.5,1
+congestive headache,aching in neck,1.0,1
+congestive headache,rapid pulse,1.0,1
+congestive headache,acute rheumatism,1.0,1
+congestive headache,vomiting,1.0,1
+congestive headache,fullness in head,1.0,1
+congestive headache,severe pains,1.0,1
+cold sweat,great prostration,1.0,1
+cold sweat,worse right arm,1.0,1
+cold sweat,rheumatism of legs,1.0,1
+cold sweat,pains in shoulders,1.0,1
+cold sweat,severe pains driving to despair,1.0,1
+cold sweat,pains in back,1.0,1
+cold sweat,acute rheumatism,1.0,1
+cold sweat,collapse,1.0,1
+cold sweat,cold sweat on forehead,1.0,1
+cold sweat,rheumatism of arms,1.0,1
+cold sweat,cramp-like pains in calves,1.0,1
+cold sweat,severe pains,1.0,1
+cold sweat on forehead,great prostration,1.0,1
+cold sweat on forehead,worse right arm,1.0,1
+cold sweat on forehead,rheumatism of legs,1.0,1
+cold sweat on forehead,pains in shoulders,1.0,1
+cold sweat on forehead,severe pains driving to despair,1.0,1
+cold sweat on forehead,pains in back,1.0,1
+cold sweat on forehead,acute rheumatism,1.0,1
+cold sweat on forehead,collapse,1.0,1
+cold sweat on forehead,cold sweat,1.0,1
+cold sweat on forehead,rheumatism of arms,1.0,1
+cold sweat on forehead,cramp-like pains in calves,1.0,1
+cold sweat on forehead,severe pains,1.0,1
+acute rheumatism,aching in neck,0.5,1
+acute rheumatism,great prostration,0.5,1
+acute rheumatism,worse right arm,0.5,1
+acute rheumatism,rheumatism of legs,0.5,1
+acute rheumatism,pains in shoulders,0.5,1
+acute rheumatism,severe pains driving to despair,0.5,1
+acute rheumatism,pains in back,0.5,1
+acute rheumatism,rapid pulse,0.5,1
+acute rheumatism,collapse,0.5,1
+acute rheumatism,cold sweat on forehead,0.5,1
+acute rheumatism,cold sweat,0.5,1
+acute rheumatism,rheumatism of arms,0.5,1
+acute rheumatism,congestive headache,0.5,1
+acute rheumatism,vomiting,0.5,1
+acute rheumatism,cramp-like pains in calves,0.5,1
+acute rheumatism,fullness in head,0.5,1
+acute rheumatism,severe pains,1.0,2

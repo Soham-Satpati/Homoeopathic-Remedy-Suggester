@@ -1,0 +1,3034 @@
+### Cluster 92 — Symptoms (55)
+Symptom,Frequency
+rheumatic stiffness,1
+pains gouty in small joints of hands,1
+pain as if broken in small of back,1
+pain in morning in bed,1
+especially sacral joints,1
+lachrymation constant,1
+all done after much hard work,1
+pain as from a sprain in right shoulder,1
+worse on touch,1
+stitches in knee,1
+pressure in neck,1
+chronic gout,1
+tearing pain while sitting,1
+stitches in knee joints,1
+sensation of burning stitches in hollows of knees,1
+especially of left index,1
+many nodes on parts,1
+ailments from mortification,1
+crural neuralgic pain stinging,1
+nervous weakness,1
+tearing pain in muscles of another leg,2
+violent pressing in left shoulder joint,1
+phalanges of fingers affected,1
+crural neuralgic pain during motion,1
+paralytic drawing pain in first joints of fingers,1
+pains gouty in small joints of feet,1
+tearing pain while standing,1
+pain only on motion,1
+eyes feel as if very dry,1
+arthritic nodes on fingers,1
+tension in neck,1
+pains extend into teeth,1
+drawing in neck,1
+not improved by any motion,1
+dull sticking pain in shoulder joint,1
+gouty rheumatic pains,1
+skin affections alternating with pains in joints,1
+everything is sore,1
+eyes burn on least exertion,1
+exceedingly severe pain in right leg,1
+worse by motion,1
+of dissipated men,1
+arthritic nodes of joints,1
+shifting pains,1
+styes,1
+especially hip joints,1
+aching when walking,1
+aching pain around hip joint,1
+all limbs affected,1
+aching when sitting,1
+all joints of back stiff in morning,1
+crural neuralgic pain stitching,1
+especially shoulder joints,1
+of debilitated men,1
+pain as after overlifting,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+staphisagria,55
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+phalanges of fingers affected,rheumatic stiffness,1.0,1
+phalanges of fingers affected,pains gouty in small joints of hands,1.0,1
+phalanges of fingers affected,pain as if broken in small of back,1.0,1
+phalanges of fingers affected,pain in morning in bed,1.0,1
+phalanges of fingers affected,especially sacral joints,1.0,1
+phalanges of fingers affected,lachrymation constant,1.0,1
+phalanges of fingers affected,all done after much hard work,1.0,1
+phalanges of fingers affected,pain as from a sprain in right shoulder,1.0,1
+phalanges of fingers affected,worse on touch,1.0,1
+phalanges of fingers affected,stitches in knee,1.0,1
+phalanges of fingers affected,pressure in neck,1.0,1
+phalanges of fingers affected,chronic gout,1.0,1
+phalanges of fingers affected,tearing pain while sitting,1.0,1
+phalanges of fingers affected,stitches in knee joints,1.0,1
+phalanges of fingers affected,sensation of burning stitches in hollows of knees,1.0,1
+phalanges of fingers affected,especially of left index,1.0,1
+phalanges of fingers affected,many nodes on parts,1.0,1
+phalanges of fingers affected,ailments from mortification,1.0,1
+phalanges of fingers affected,crural neuralgic pain stinging,1.0,1
+phalanges of fingers affected,nervous weakness,1.0,1
+phalanges of fingers affected,tearing pain in muscles of another leg,1.0,1
+phalanges of fingers affected,violent pressing in left shoulder joint,1.0,1
+phalanges of fingers affected,crural neuralgic pain during motion,1.0,1
+phalanges of fingers affected,paralytic drawing pain in first joints of fingers,1.0,1
+phalanges of fingers affected,pains gouty in small joints of feet,1.0,1
+phalanges of fingers affected,tearing pain while standing,1.0,1
+phalanges of fingers affected,pain only on motion,1.0,1
+phalanges of fingers affected,eyes feel as if very dry,1.0,1
+phalanges of fingers affected,arthritic nodes on fingers,1.0,1
+phalanges of fingers affected,tension in neck,1.0,1
+phalanges of fingers affected,pains extend into teeth,1.0,1
+phalanges of fingers affected,drawing in neck,1.0,1
+phalanges of fingers affected,not improved by any motion,1.0,1
+phalanges of fingers affected,dull sticking pain in shoulder joint,1.0,1
+phalanges of fingers affected,gouty rheumatic pains,1.0,1
+phalanges of fingers affected,skin affections alternating with pains in joints,1.0,1
+phalanges of fingers affected,everything is sore,1.0,1
+phalanges of fingers affected,eyes burn on least exertion,1.0,1
+phalanges of fingers affected,exceedingly severe pain in right leg,1.0,1
+phalanges of fingers affected,worse by motion,1.0,1
+phalanges of fingers affected,of dissipated men,1.0,1
+phalanges of fingers affected,arthritic nodes of joints,1.0,1
+phalanges of fingers affected,shifting pains,1.0,1
+phalanges of fingers affected,styes,1.0,1
+phalanges of fingers affected,especially hip joints,1.0,1
+phalanges of fingers affected,aching when walking,1.0,1
+phalanges of fingers affected,aching pain around hip joint,1.0,1
+phalanges of fingers affected,all limbs affected,1.0,1
+phalanges of fingers affected,aching when sitting,1.0,1
+phalanges of fingers affected,all joints of back stiff in morning,1.0,1
+phalanges of fingers affected,crural neuralgic pain stitching,1.0,1
+phalanges of fingers affected,especially shoulder joints,1.0,1
+phalanges of fingers affected,of debilitated men,1.0,1
+phalanges of fingers affected,pain as after overlifting,1.0,1
+rheumatic stiffness,pains gouty in small joints of hands,1.0,1
+rheumatic stiffness,pain as if broken in small of back,1.0,1
+rheumatic stiffness,pain in morning in bed,1.0,1
+rheumatic stiffness,especially sacral joints,1.0,1
+rheumatic stiffness,lachrymation constant,1.0,1
+rheumatic stiffness,all done after much hard work,1.0,1
+rheumatic stiffness,pain as from a sprain in right shoulder,1.0,1
+rheumatic stiffness,worse on touch,1.0,1
+rheumatic stiffness,stitches in knee,1.0,1
+rheumatic stiffness,pressure in neck,1.0,1
+rheumatic stiffness,chronic gout,1.0,1
+rheumatic stiffness,tearing pain while sitting,1.0,1
+rheumatic stiffness,stitches in knee joints,1.0,1
+rheumatic stiffness,sensation of burning stitches in hollows of knees,1.0,1
+rheumatic stiffness,especially of left index,1.0,1
+rheumatic stiffness,many nodes on parts,1.0,1
+rheumatic stiffness,ailments from mortification,1.0,1
+rheumatic stiffness,crural neuralgic pain stinging,1.0,1
+rheumatic stiffness,nervous weakness,1.0,1
+rheumatic stiffness,tearing pain in muscles of another leg,1.0,1
+rheumatic stiffness,violent pressing in left shoulder joint,1.0,1
+rheumatic stiffness,phalanges of fingers affected,1.0,1
+rheumatic stiffness,crural neuralgic pain during motion,1.0,1
+rheumatic stiffness,paralytic drawing pain in first joints of fingers,1.0,1
+rheumatic stiffness,pains gouty in small joints of feet,1.0,1
+rheumatic stiffness,tearing pain while standing,1.0,1
+rheumatic stiffness,pain only on motion,1.0,1
+rheumatic stiffness,eyes feel as if very dry,1.0,1
+rheumatic stiffness,arthritic nodes on fingers,1.0,1
+rheumatic stiffness,tension in neck,1.0,1
+rheumatic stiffness,pains extend into teeth,1.0,1
+rheumatic stiffness,drawing in neck,1.0,1
+rheumatic stiffness,not improved by any motion,1.0,1
+rheumatic stiffness,dull sticking pain in shoulder joint,1.0,1
+rheumatic stiffness,gouty rheumatic pains,1.0,1
+rheumatic stiffness,skin affections alternating with pains in joints,1.0,1
+rheumatic stiffness,everything is sore,1.0,1
+rheumatic stiffness,eyes burn on least exertion,1.0,1
+rheumatic stiffness,exceedingly severe pain in right leg,1.0,1
+rheumatic stiffness,worse by motion,1.0,1
+rheumatic stiffness,of dissipated men,1.0,1
+rheumatic stiffness,arthritic nodes of joints,1.0,1
+rheumatic stiffness,shifting pains,1.0,1
+rheumatic stiffness,styes,1.0,1
+rheumatic stiffness,especially hip joints,1.0,1
+rheumatic stiffness,aching when walking,1.0,1
+rheumatic stiffness,aching pain around hip joint,1.0,1
+rheumatic stiffness,all limbs affected,1.0,1
+rheumatic stiffness,aching when sitting,1.0,1
+rheumatic stiffness,all joints of back stiff in morning,1.0,1
+rheumatic stiffness,crural neuralgic pain stitching,1.0,1
+rheumatic stiffness,especially shoulder joints,1.0,1
+rheumatic stiffness,of debilitated men,1.0,1
+rheumatic stiffness,pain as after overlifting,1.0,1
+especially shoulder joints,rheumatic stiffness,1.0,1
+especially shoulder joints,pains gouty in small joints of hands,1.0,1
+especially shoulder joints,pain as if broken in small of back,1.0,1
+especially shoulder joints,pain in morning in bed,1.0,1
+especially shoulder joints,especially sacral joints,1.0,1
+especially shoulder joints,lachrymation constant,1.0,1
+especially shoulder joints,all done after much hard work,1.0,1
+especially shoulder joints,pain as from a sprain in right shoulder,1.0,1
+especially shoulder joints,worse on touch,1.0,1
+especially shoulder joints,stitches in knee,1.0,1
+especially shoulder joints,pressure in neck,1.0,1
+especially shoulder joints,chronic gout,1.0,1
+especially shoulder joints,tearing pain while sitting,1.0,1
+especially shoulder joints,stitches in knee joints,1.0,1
+especially shoulder joints,sensation of burning stitches in hollows of knees,1.0,1
+especially shoulder joints,especially of left index,1.0,1
+especially shoulder joints,many nodes on parts,1.0,1
+especially shoulder joints,ailments from mortification,1.0,1
+especially shoulder joints,crural neuralgic pain stinging,1.0,1
+especially shoulder joints,nervous weakness,1.0,1
+especially shoulder joints,tearing pain in muscles of another leg,1.0,1
+especially shoulder joints,violent pressing in left shoulder joint,1.0,1
+especially shoulder joints,phalanges of fingers affected,1.0,1
+especially shoulder joints,crural neuralgic pain during motion,1.0,1
+especially shoulder joints,paralytic drawing pain in first joints of fingers,1.0,1
+especially shoulder joints,pains gouty in small joints of feet,1.0,1
+especially shoulder joints,tearing pain while standing,1.0,1
+especially shoulder joints,pain only on motion,1.0,1
+especially shoulder joints,eyes feel as if very dry,1.0,1
+especially shoulder joints,arthritic nodes on fingers,1.0,1
+especially shoulder joints,tension in neck,1.0,1
+especially shoulder joints,pains extend into teeth,1.0,1
+especially shoulder joints,drawing in neck,1.0,1
+especially shoulder joints,not improved by any motion,1.0,1
+especially shoulder joints,dull sticking pain in shoulder joint,1.0,1
+especially shoulder joints,gouty rheumatic pains,1.0,1
+especially shoulder joints,skin affections alternating with pains in joints,1.0,1
+especially shoulder joints,everything is sore,1.0,1
+especially shoulder joints,eyes burn on least exertion,1.0,1
+especially shoulder joints,exceedingly severe pain in right leg,1.0,1
+especially shoulder joints,worse by motion,1.0,1
+especially shoulder joints,of dissipated men,1.0,1
+especially shoulder joints,arthritic nodes of joints,1.0,1
+especially shoulder joints,shifting pains,1.0,1
+especially shoulder joints,styes,1.0,1
+especially shoulder joints,especially hip joints,1.0,1
+especially shoulder joints,aching when walking,1.0,1
+especially shoulder joints,aching pain around hip joint,1.0,1
+especially shoulder joints,all limbs affected,1.0,1
+especially shoulder joints,aching when sitting,1.0,1
+especially shoulder joints,all joints of back stiff in morning,1.0,1
+especially shoulder joints,crural neuralgic pain stitching,1.0,1
+especially shoulder joints,of debilitated men,1.0,1
+especially shoulder joints,pain as after overlifting,1.0,1
+pain as if broken in small of back,rheumatic stiffness,1.0,1
+pain as if broken in small of back,pains gouty in small joints of hands,1.0,1
+pain as if broken in small of back,pain in morning in bed,1.0,1
+pain as if broken in small of back,especially sacral joints,1.0,1
+pain as if broken in small of back,lachrymation constant,1.0,1
+pain as if broken in small of back,all done after much hard work,1.0,1
+pain as if broken in small of back,pain as from a sprain in right shoulder,1.0,1
+pain as if broken in small of back,worse on touch,1.0,1
+pain as if broken in small of back,stitches in knee,1.0,1
+pain as if broken in small of back,pressure in neck,1.0,1
+pain as if broken in small of back,chronic gout,1.0,1
+pain as if broken in small of back,tearing pain while sitting,1.0,1
+pain as if broken in small of back,stitches in knee joints,1.0,1
+pain as if broken in small of back,sensation of burning stitches in hollows of knees,1.0,1
+pain as if broken in small of back,especially of left index,1.0,1
+pain as if broken in small of back,many nodes on parts,1.0,1
+pain as if broken in small of back,ailments from mortification,1.0,1
+pain as if broken in small of back,crural neuralgic pain stinging,1.0,1
+pain as if broken in small of back,nervous weakness,1.0,1
+pain as if broken in small of back,tearing pain in muscles of another leg,1.0,1
+pain as if broken in small of back,violent pressing in left shoulder joint,1.0,1
+pain as if broken in small of back,phalanges of fingers affected,1.0,1
+pain as if broken in small of back,crural neuralgic pain during motion,1.0,1
+pain as if broken in small of back,paralytic drawing pain in first joints of fingers,1.0,1
+pain as if broken in small of back,pains gouty in small joints of feet,1.0,1
+pain as if broken in small of back,tearing pain while standing,1.0,1
+pain as if broken in small of back,pain only on motion,1.0,1
+pain as if broken in small of back,eyes feel as if very dry,1.0,1
+pain as if broken in small of back,arthritic nodes on fingers,1.0,1
+pain as if broken in small of back,tension in neck,1.0,1
+pain as if broken in small of back,pains extend into teeth,1.0,1
+pain as if broken in small of back,drawing in neck,1.0,1
+pain as if broken in small of back,not improved by any motion,1.0,1
+pain as if broken in small of back,dull sticking pain in shoulder joint,1.0,1
+pain as if broken in small of back,gouty rheumatic pains,1.0,1
+pain as if broken in small of back,skin affections alternating with pains in joints,1.0,1
+pain as if broken in small of back,everything is sore,1.0,1
+pain as if broken in small of back,eyes burn on least exertion,1.0,1
+pain as if broken in small of back,exceedingly severe pain in right leg,1.0,1
+pain as if broken in small of back,worse by motion,1.0,1
+pain as if broken in small of back,of dissipated men,1.0,1
+pain as if broken in small of back,arthritic nodes of joints,1.0,1
+pain as if broken in small of back,shifting pains,1.0,1
+pain as if broken in small of back,styes,1.0,1
+pain as if broken in small of back,especially hip joints,1.0,1
+pain as if broken in small of back,aching when walking,1.0,1
+pain as if broken in small of back,aching pain around hip joint,1.0,1
+pain as if broken in small of back,all limbs affected,1.0,1
+pain as if broken in small of back,aching when sitting,1.0,1
+pain as if broken in small of back,all joints of back stiff in morning,1.0,1
+pain as if broken in small of back,crural neuralgic pain stitching,1.0,1
+pain as if broken in small of back,especially shoulder joints,1.0,1
+pain as if broken in small of back,of debilitated men,1.0,1
+pain as if broken in small of back,pain as after overlifting,1.0,1
+pain only on motion,rheumatic stiffness,1.0,1
+pain only on motion,pains gouty in small joints of hands,1.0,1
+pain only on motion,pain as if broken in small of back,1.0,1
+pain only on motion,pain in morning in bed,1.0,1
+pain only on motion,especially sacral joints,1.0,1
+pain only on motion,lachrymation constant,1.0,1
+pain only on motion,all done after much hard work,1.0,1
+pain only on motion,pain as from a sprain in right shoulder,1.0,1
+pain only on motion,worse on touch,1.0,1
+pain only on motion,stitches in knee,1.0,1
+pain only on motion,pressure in neck,1.0,1
+pain only on motion,chronic gout,1.0,1
+pain only on motion,tearing pain while sitting,1.0,1
+pain only on motion,stitches in knee joints,1.0,1
+pain only on motion,sensation of burning stitches in hollows of knees,1.0,1
+pain only on motion,especially of left index,1.0,1
+pain only on motion,many nodes on parts,1.0,1
+pain only on motion,ailments from mortification,1.0,1
+pain only on motion,crural neuralgic pain stinging,1.0,1
+pain only on motion,nervous weakness,1.0,1
+pain only on motion,tearing pain in muscles of another leg,1.0,1
+pain only on motion,violent pressing in left shoulder joint,1.0,1
+pain only on motion,phalanges of fingers affected,1.0,1
+pain only on motion,crural neuralgic pain during motion,1.0,1
+pain only on motion,paralytic drawing pain in first joints of fingers,1.0,1
+pain only on motion,pains gouty in small joints of feet,1.0,1
+pain only on motion,tearing pain while standing,1.0,1
+pain only on motion,eyes feel as if very dry,1.0,1
+pain only on motion,arthritic nodes on fingers,1.0,1
+pain only on motion,tension in neck,1.0,1
+pain only on motion,pains extend into teeth,1.0,1
+pain only on motion,drawing in neck,1.0,1
+pain only on motion,not improved by any motion,1.0,1
+pain only on motion,dull sticking pain in shoulder joint,1.0,1
+pain only on motion,gouty rheumatic pains,1.0,1
+pain only on motion,skin affections alternating with pains in joints,1.0,1
+pain only on motion,everything is sore,1.0,1
+pain only on motion,eyes burn on least exertion,1.0,1
+pain only on motion,exceedingly severe pain in right leg,1.0,1
+pain only on motion,worse by motion,1.0,1
+pain only on motion,of dissipated men,1.0,1
+pain only on motion,arthritic nodes of joints,1.0,1
+pain only on motion,shifting pains,1.0,1
+pain only on motion,styes,1.0,1
+pain only on motion,especially hip joints,1.0,1
+pain only on motion,aching when walking,1.0,1
+pain only on motion,aching pain around hip joint,1.0,1
+pain only on motion,all limbs affected,1.0,1
+pain only on motion,aching when sitting,1.0,1
+pain only on motion,all joints of back stiff in morning,1.0,1
+pain only on motion,crural neuralgic pain stitching,1.0,1
+pain only on motion,especially shoulder joints,1.0,1
+pain only on motion,of debilitated men,1.0,1
+pain only on motion,pain as after overlifting,1.0,1
+arthritic nodes on fingers,rheumatic stiffness,1.0,1
+arthritic nodes on fingers,pains gouty in small joints of hands,1.0,1
+arthritic nodes on fingers,pain as if broken in small of back,1.0,1
+arthritic nodes on fingers,pain in morning in bed,1.0,1
+arthritic nodes on fingers,especially sacral joints,1.0,1
+arthritic nodes on fingers,lachrymation constant,1.0,1
+arthritic nodes on fingers,all done after much hard work,1.0,1
+arthritic nodes on fingers,pain as from a sprain in right shoulder,1.0,1
+arthritic nodes on fingers,worse on touch,1.0,1
+arthritic nodes on fingers,stitches in knee,1.0,1
+arthritic nodes on fingers,pressure in neck,1.0,1
+arthritic nodes on fingers,chronic gout,1.0,1
+arthritic nodes on fingers,tearing pain while sitting,1.0,1
+arthritic nodes on fingers,stitches in knee joints,1.0,1
+arthritic nodes on fingers,sensation of burning stitches in hollows of knees,1.0,1
+arthritic nodes on fingers,especially of left index,1.0,1
+arthritic nodes on fingers,many nodes on parts,1.0,1
+arthritic nodes on fingers,ailments from mortification,1.0,1
+arthritic nodes on fingers,crural neuralgic pain stinging,1.0,1
+arthritic nodes on fingers,nervous weakness,1.0,1
+arthritic nodes on fingers,tearing pain in muscles of another leg,1.0,1
+arthritic nodes on fingers,violent pressing in left shoulder joint,1.0,1
+arthritic nodes on fingers,phalanges of fingers affected,1.0,1
+arthritic nodes on fingers,crural neuralgic pain during motion,1.0,1
+arthritic nodes on fingers,paralytic drawing pain in first joints of fingers,1.0,1
+arthritic nodes on fingers,pains gouty in small joints of feet,1.0,1
+arthritic nodes on fingers,tearing pain while standing,1.0,1
+arthritic nodes on fingers,pain only on motion,1.0,1
+arthritic nodes on fingers,eyes feel as if very dry,1.0,1
+arthritic nodes on fingers,tension in neck,1.0,1
+arthritic nodes on fingers,pains extend into teeth,1.0,1
+arthritic nodes on fingers,drawing in neck,1.0,1
+arthritic nodes on fingers,not improved by any motion,1.0,1
+arthritic nodes on fingers,dull sticking pain in shoulder joint,1.0,1
+arthritic nodes on fingers,gouty rheumatic pains,1.0,1
+arthritic nodes on fingers,skin affections alternating with pains in joints,1.0,1
+arthritic nodes on fingers,everything is sore,1.0,1
+arthritic nodes on fingers,eyes burn on least exertion,1.0,1
+arthritic nodes on fingers,exceedingly severe pain in right leg,1.0,1
+arthritic nodes on fingers,worse by motion,1.0,1
+arthritic nodes on fingers,of dissipated men,1.0,1
+arthritic nodes on fingers,arthritic nodes of joints,1.0,1
+arthritic nodes on fingers,shifting pains,1.0,1
+arthritic nodes on fingers,styes,1.0,1
+arthritic nodes on fingers,especially hip joints,1.0,1
+arthritic nodes on fingers,aching when walking,1.0,1
+arthritic nodes on fingers,aching pain around hip joint,1.0,1
+arthritic nodes on fingers,all limbs affected,1.0,1
+arthritic nodes on fingers,aching when sitting,1.0,1
+arthritic nodes on fingers,all joints of back stiff in morning,1.0,1
+arthritic nodes on fingers,crural neuralgic pain stitching,1.0,1
+arthritic nodes on fingers,especially shoulder joints,1.0,1
+arthritic nodes on fingers,of debilitated men,1.0,1
+arthritic nodes on fingers,pain as after overlifting,1.0,1
+all joints of back stiff in morning,rheumatic stiffness,1.0,1
+all joints of back stiff in morning,pains gouty in small joints of hands,1.0,1
+all joints of back stiff in morning,pain as if broken in small of back,1.0,1
+all joints of back stiff in morning,pain in morning in bed,1.0,1
+all joints of back stiff in morning,especially sacral joints,1.0,1
+all joints of back stiff in morning,lachrymation constant,1.0,1
+all joints of back stiff in morning,all done after much hard work,1.0,1
+all joints of back stiff in morning,pain as from a sprain in right shoulder,1.0,1
+all joints of back stiff in morning,worse on touch,1.0,1
+all joints of back stiff in morning,stitches in knee,1.0,1
+all joints of back stiff in morning,pressure in neck,1.0,1
+all joints of back stiff in morning,chronic gout,1.0,1
+all joints of back stiff in morning,tearing pain while sitting,1.0,1
+all joints of back stiff in morning,stitches in knee joints,1.0,1
+all joints of back stiff in morning,sensation of burning stitches in hollows of knees,1.0,1
+all joints of back stiff in morning,especially of left index,1.0,1
+all joints of back stiff in morning,many nodes on parts,1.0,1
+all joints of back stiff in morning,ailments from mortification,1.0,1
+all joints of back stiff in morning,crural neuralgic pain stinging,1.0,1
+all joints of back stiff in morning,nervous weakness,1.0,1
+all joints of back stiff in morning,tearing pain in muscles of another leg,1.0,1
+all joints of back stiff in morning,violent pressing in left shoulder joint,1.0,1
+all joints of back stiff in morning,phalanges of fingers affected,1.0,1
+all joints of back stiff in morning,crural neuralgic pain during motion,1.0,1
+all joints of back stiff in morning,paralytic drawing pain in first joints of fingers,1.0,1
+all joints of back stiff in morning,pains gouty in small joints of feet,1.0,1
+all joints of back stiff in morning,tearing pain while standing,1.0,1
+all joints of back stiff in morning,pain only on motion,1.0,1
+all joints of back stiff in morning,eyes feel as if very dry,1.0,1
+all joints of back stiff in morning,arthritic nodes on fingers,1.0,1
+all joints of back stiff in morning,tension in neck,1.0,1
+all joints of back stiff in morning,pains extend into teeth,1.0,1
+all joints of back stiff in morning,drawing in neck,1.0,1
+all joints of back stiff in morning,not improved by any motion,1.0,1
+all joints of back stiff in morning,dull sticking pain in shoulder joint,1.0,1
+all joints of back stiff in morning,gouty rheumatic pains,1.0,1
+all joints of back stiff in morning,skin affections alternating with pains in joints,1.0,1
+all joints of back stiff in morning,everything is sore,1.0,1
+all joints of back stiff in morning,eyes burn on least exertion,1.0,1
+all joints of back stiff in morning,exceedingly severe pain in right leg,1.0,1
+all joints of back stiff in morning,worse by motion,1.0,1
+all joints of back stiff in morning,of dissipated men,1.0,1
+all joints of back stiff in morning,arthritic nodes of joints,1.0,1
+all joints of back stiff in morning,shifting pains,1.0,1
+all joints of back stiff in morning,styes,1.0,1
+all joints of back stiff in morning,especially hip joints,1.0,1
+all joints of back stiff in morning,aching when walking,1.0,1
+all joints of back stiff in morning,aching pain around hip joint,1.0,1
+all joints of back stiff in morning,all limbs affected,1.0,1
+all joints of back stiff in morning,aching when sitting,1.0,1
+all joints of back stiff in morning,crural neuralgic pain stitching,1.0,1
+all joints of back stiff in morning,especially shoulder joints,1.0,1
+all joints of back stiff in morning,of debilitated men,1.0,1
+all joints of back stiff in morning,pain as after overlifting,1.0,1
+worse by motion,rheumatic stiffness,1.0,1
+worse by motion,pains gouty in small joints of hands,1.0,1
+worse by motion,pain as if broken in small of back,1.0,1
+worse by motion,pain in morning in bed,1.0,1
+worse by motion,especially sacral joints,1.0,1
+worse by motion,lachrymation constant,1.0,1
+worse by motion,all done after much hard work,1.0,1
+worse by motion,pain as from a sprain in right shoulder,1.0,1
+worse by motion,worse on touch,1.0,1
+worse by motion,stitches in knee,1.0,1
+worse by motion,pressure in neck,1.0,1
+worse by motion,chronic gout,1.0,1
+worse by motion,tearing pain while sitting,1.0,1
+worse by motion,stitches in knee joints,1.0,1
+worse by motion,sensation of burning stitches in hollows of knees,1.0,1
+worse by motion,especially of left index,1.0,1
+worse by motion,many nodes on parts,1.0,1
+worse by motion,ailments from mortification,1.0,1
+worse by motion,crural neuralgic pain stinging,1.0,1
+worse by motion,nervous weakness,1.0,1
+worse by motion,tearing pain in muscles of another leg,1.0,1
+worse by motion,violent pressing in left shoulder joint,1.0,1
+worse by motion,phalanges of fingers affected,1.0,1
+worse by motion,crural neuralgic pain during motion,1.0,1
+worse by motion,paralytic drawing pain in first joints of fingers,1.0,1
+worse by motion,pains gouty in small joints of feet,1.0,1
+worse by motion,tearing pain while standing,1.0,1
+worse by motion,pain only on motion,1.0,1
+worse by motion,eyes feel as if very dry,1.0,1
+worse by motion,arthritic nodes on fingers,1.0,1
+worse by motion,tension in neck,1.0,1
+worse by motion,pains extend into teeth,1.0,1
+worse by motion,drawing in neck,1.0,1
+worse by motion,not improved by any motion,1.0,1
+worse by motion,dull sticking pain in shoulder joint,1.0,1
+worse by motion,gouty rheumatic pains,1.0,1
+worse by motion,skin affections alternating with pains in joints,1.0,1
+worse by motion,everything is sore,1.0,1
+worse by motion,eyes burn on least exertion,1.0,1
+worse by motion,exceedingly severe pain in right leg,1.0,1
+worse by motion,of dissipated men,1.0,1
+worse by motion,arthritic nodes of joints,1.0,1
+worse by motion,shifting pains,1.0,1
+worse by motion,styes,1.0,1
+worse by motion,especially hip joints,1.0,1
+worse by motion,aching when walking,1.0,1
+worse by motion,aching pain around hip joint,1.0,1
+worse by motion,all limbs affected,1.0,1
+worse by motion,aching when sitting,1.0,1
+worse by motion,all joints of back stiff in morning,1.0,1
+worse by motion,crural neuralgic pain stitching,1.0,1
+worse by motion,especially shoulder joints,1.0,1
+worse by motion,of debilitated men,1.0,1
+worse by motion,pain as after overlifting,1.0,1
+pressure in neck,rheumatic stiffness,1.0,1
+pressure in neck,pains gouty in small joints of hands,1.0,1
+pressure in neck,pain as if broken in small of back,1.0,1
+pressure in neck,pain in morning in bed,1.0,1
+pressure in neck,especially sacral joints,1.0,1
+pressure in neck,lachrymation constant,1.0,1
+pressure in neck,all done after much hard work,1.0,1
+pressure in neck,pain as from a sprain in right shoulder,1.0,1
+pressure in neck,worse on touch,1.0,1
+pressure in neck,stitches in knee,1.0,1
+pressure in neck,chronic gout,1.0,1
+pressure in neck,tearing pain while sitting,1.0,1
+pressure in neck,stitches in knee joints,1.0,1
+pressure in neck,sensation of burning stitches in hollows of knees,1.0,1
+pressure in neck,especially of left index,1.0,1
+pressure in neck,many nodes on parts,1.0,1
+pressure in neck,ailments from mortification,1.0,1
+pressure in neck,crural neuralgic pain stinging,1.0,1
+pressure in neck,nervous weakness,1.0,1
+pressure in neck,tearing pain in muscles of another leg,1.0,1
+pressure in neck,violent pressing in left shoulder joint,1.0,1
+pressure in neck,phalanges of fingers affected,1.0,1
+pressure in neck,crural neuralgic pain during motion,1.0,1
+pressure in neck,paralytic drawing pain in first joints of fingers,1.0,1
+pressure in neck,pains gouty in small joints of feet,1.0,1
+pressure in neck,tearing pain while standing,1.0,1
+pressure in neck,pain only on motion,1.0,1
+pressure in neck,eyes feel as if very dry,1.0,1
+pressure in neck,arthritic nodes on fingers,1.0,1
+pressure in neck,tension in neck,1.0,1
+pressure in neck,pains extend into teeth,1.0,1
+pressure in neck,drawing in neck,1.0,1
+pressure in neck,not improved by any motion,1.0,1
+pressure in neck,dull sticking pain in shoulder joint,1.0,1
+pressure in neck,gouty rheumatic pains,1.0,1
+pressure in neck,skin affections alternating with pains in joints,1.0,1
+pressure in neck,everything is sore,1.0,1
+pressure in neck,eyes burn on least exertion,1.0,1
+pressure in neck,exceedingly severe pain in right leg,1.0,1
+pressure in neck,worse by motion,1.0,1
+pressure in neck,of dissipated men,1.0,1
+pressure in neck,arthritic nodes of joints,1.0,1
+pressure in neck,shifting pains,1.0,1
+pressure in neck,styes,1.0,1
+pressure in neck,especially hip joints,1.0,1
+pressure in neck,aching when walking,1.0,1
+pressure in neck,aching pain around hip joint,1.0,1
+pressure in neck,all limbs affected,1.0,1
+pressure in neck,aching when sitting,1.0,1
+pressure in neck,all joints of back stiff in morning,1.0,1
+pressure in neck,crural neuralgic pain stitching,1.0,1
+pressure in neck,especially shoulder joints,1.0,1
+pressure in neck,of debilitated men,1.0,1
+pressure in neck,pain as after overlifting,1.0,1
+paralytic drawing pain in first joints of fingers,rheumatic stiffness,1.0,1
+paralytic drawing pain in first joints of fingers,pains gouty in small joints of hands,1.0,1
+paralytic drawing pain in first joints of fingers,pain as if broken in small of back,1.0,1
+paralytic drawing pain in first joints of fingers,pain in morning in bed,1.0,1
+paralytic drawing pain in first joints of fingers,especially sacral joints,1.0,1
+paralytic drawing pain in first joints of fingers,lachrymation constant,1.0,1
+paralytic drawing pain in first joints of fingers,all done after much hard work,1.0,1
+paralytic drawing pain in first joints of fingers,pain as from a sprain in right shoulder,1.0,1
+paralytic drawing pain in first joints of fingers,worse on touch,1.0,1
+paralytic drawing pain in first joints of fingers,stitches in knee,1.0,1
+paralytic drawing pain in first joints of fingers,pressure in neck,1.0,1
+paralytic drawing pain in first joints of fingers,chronic gout,1.0,1
+paralytic drawing pain in first joints of fingers,tearing pain while sitting,1.0,1
+paralytic drawing pain in first joints of fingers,stitches in knee joints,1.0,1
+paralytic drawing pain in first joints of fingers,sensation of burning stitches in hollows of knees,1.0,1
+paralytic drawing pain in first joints of fingers,especially of left index,1.0,1
+paralytic drawing pain in first joints of fingers,many nodes on parts,1.0,1
+paralytic drawing pain in first joints of fingers,ailments from mortification,1.0,1
+paralytic drawing pain in first joints of fingers,crural neuralgic pain stinging,1.0,1
+paralytic drawing pain in first joints of fingers,nervous weakness,1.0,1
+paralytic drawing pain in first joints of fingers,tearing pain in muscles of another leg,1.0,1
+paralytic drawing pain in first joints of fingers,violent pressing in left shoulder joint,1.0,1
+paralytic drawing pain in first joints of fingers,phalanges of fingers affected,1.0,1
+paralytic drawing pain in first joints of fingers,crural neuralgic pain during motion,1.0,1
+paralytic drawing pain in first joints of fingers,pains gouty in small joints of feet,1.0,1
+paralytic drawing pain in first joints of fingers,tearing pain while standing,1.0,1
+paralytic drawing pain in first joints of fingers,pain only on motion,1.0,1
+paralytic drawing pain in first joints of fingers,eyes feel as if very dry,1.0,1
+paralytic drawing pain in first joints of fingers,arthritic nodes on fingers,1.0,1
+paralytic drawing pain in first joints of fingers,tension in neck,1.0,1
+paralytic drawing pain in first joints of fingers,pains extend into teeth,1.0,1
+paralytic drawing pain in first joints of fingers,drawing in neck,1.0,1
+paralytic drawing pain in first joints of fingers,not improved by any motion,1.0,1
+paralytic drawing pain in first joints of fingers,dull sticking pain in shoulder joint,1.0,1
+paralytic drawing pain in first joints of fingers,gouty rheumatic pains,1.0,1
+paralytic drawing pain in first joints of fingers,skin affections alternating with pains in joints,1.0,1
+paralytic drawing pain in first joints of fingers,everything is sore,1.0,1
+paralytic drawing pain in first joints of fingers,eyes burn on least exertion,1.0,1
+paralytic drawing pain in first joints of fingers,exceedingly severe pain in right leg,1.0,1
+paralytic drawing pain in first joints of fingers,worse by motion,1.0,1
+paralytic drawing pain in first joints of fingers,of dissipated men,1.0,1
+paralytic drawing pain in first joints of fingers,arthritic nodes of joints,1.0,1
+paralytic drawing pain in first joints of fingers,shifting pains,1.0,1
+paralytic drawing pain in first joints of fingers,styes,1.0,1
+paralytic drawing pain in first joints of fingers,especially hip joints,1.0,1
+paralytic drawing pain in first joints of fingers,aching when walking,1.0,1
+paralytic drawing pain in first joints of fingers,aching pain around hip joint,1.0,1
+paralytic drawing pain in first joints of fingers,all limbs affected,1.0,1
+paralytic drawing pain in first joints of fingers,aching when sitting,1.0,1
+paralytic drawing pain in first joints of fingers,all joints of back stiff in morning,1.0,1
+paralytic drawing pain in first joints of fingers,crural neuralgic pain stitching,1.0,1
+paralytic drawing pain in first joints of fingers,especially shoulder joints,1.0,1
+paralytic drawing pain in first joints of fingers,of debilitated men,1.0,1
+paralytic drawing pain in first joints of fingers,pain as after overlifting,1.0,1
+drawing in neck,rheumatic stiffness,1.0,1
+drawing in neck,pains gouty in small joints of hands,1.0,1
+drawing in neck,pain as if broken in small of back,1.0,1
+drawing in neck,pain in morning in bed,1.0,1
+drawing in neck,especially sacral joints,1.0,1
+drawing in neck,lachrymation constant,1.0,1
+drawing in neck,all done after much hard work,1.0,1
+drawing in neck,pain as from a sprain in right shoulder,1.0,1
+drawing in neck,worse on touch,1.0,1
+drawing in neck,stitches in knee,1.0,1
+drawing in neck,pressure in neck,1.0,1
+drawing in neck,chronic gout,1.0,1
+drawing in neck,tearing pain while sitting,1.0,1
+drawing in neck,stitches in knee joints,1.0,1
+drawing in neck,sensation of burning stitches in hollows of knees,1.0,1
+drawing in neck,especially of left index,1.0,1
+drawing in neck,many nodes on parts,1.0,1
+drawing in neck,ailments from mortification,1.0,1
+drawing in neck,crural neuralgic pain stinging,1.0,1
+drawing in neck,nervous weakness,1.0,1
+drawing in neck,tearing pain in muscles of another leg,1.0,1
+drawing in neck,violent pressing in left shoulder joint,1.0,1
+drawing in neck,phalanges of fingers affected,1.0,1
+drawing in neck,crural neuralgic pain during motion,1.0,1
+drawing in neck,paralytic drawing pain in first joints of fingers,1.0,1
+drawing in neck,pains gouty in small joints of feet,1.0,1
+drawing in neck,tearing pain while standing,1.0,1
+drawing in neck,pain only on motion,1.0,1
+drawing in neck,eyes feel as if very dry,1.0,1
+drawing in neck,arthritic nodes on fingers,1.0,1
+drawing in neck,tension in neck,1.0,1
+drawing in neck,pains extend into teeth,1.0,1
+drawing in neck,not improved by any motion,1.0,1
+drawing in neck,dull sticking pain in shoulder joint,1.0,1
+drawing in neck,gouty rheumatic pains,1.0,1
+drawing in neck,skin affections alternating with pains in joints,1.0,1
+drawing in neck,everything is sore,1.0,1
+drawing in neck,eyes burn on least exertion,1.0,1
+drawing in neck,exceedingly severe pain in right leg,1.0,1
+drawing in neck,worse by motion,1.0,1
+drawing in neck,of dissipated men,1.0,1
+drawing in neck,arthritic nodes of joints,1.0,1
+drawing in neck,shifting pains,1.0,1
+drawing in neck,styes,1.0,1
+drawing in neck,especially hip joints,1.0,1
+drawing in neck,aching when walking,1.0,1
+drawing in neck,aching pain around hip joint,1.0,1
+drawing in neck,all limbs affected,1.0,1
+drawing in neck,aching when sitting,1.0,1
+drawing in neck,all joints of back stiff in morning,1.0,1
+drawing in neck,crural neuralgic pain stitching,1.0,1
+drawing in neck,especially shoulder joints,1.0,1
+drawing in neck,of debilitated men,1.0,1
+drawing in neck,pain as after overlifting,1.0,1
+everything is sore,rheumatic stiffness,1.0,1
+everything is sore,pains gouty in small joints of hands,1.0,1
+everything is sore,pain as if broken in small of back,1.0,1
+everything is sore,pain in morning in bed,1.0,1
+everything is sore,especially sacral joints,1.0,1
+everything is sore,lachrymation constant,1.0,1
+everything is sore,all done after much hard work,1.0,1
+everything is sore,pain as from a sprain in right shoulder,1.0,1
+everything is sore,worse on touch,1.0,1
+everything is sore,stitches in knee,1.0,1
+everything is sore,pressure in neck,1.0,1
+everything is sore,chronic gout,1.0,1
+everything is sore,tearing pain while sitting,1.0,1
+everything is sore,stitches in knee joints,1.0,1
+everything is sore,sensation of burning stitches in hollows of knees,1.0,1
+everything is sore,especially of left index,1.0,1
+everything is sore,many nodes on parts,1.0,1
+everything is sore,ailments from mortification,1.0,1
+everything is sore,crural neuralgic pain stinging,1.0,1
+everything is sore,nervous weakness,1.0,1
+everything is sore,tearing pain in muscles of another leg,1.0,1
+everything is sore,violent pressing in left shoulder joint,1.0,1
+everything is sore,phalanges of fingers affected,1.0,1
+everything is sore,crural neuralgic pain during motion,1.0,1
+everything is sore,paralytic drawing pain in first joints of fingers,1.0,1
+everything is sore,pains gouty in small joints of feet,1.0,1
+everything is sore,tearing pain while standing,1.0,1
+everything is sore,pain only on motion,1.0,1
+everything is sore,eyes feel as if very dry,1.0,1
+everything is sore,arthritic nodes on fingers,1.0,1
+everything is sore,tension in neck,1.0,1
+everything is sore,pains extend into teeth,1.0,1
+everything is sore,drawing in neck,1.0,1
+everything is sore,not improved by any motion,1.0,1
+everything is sore,dull sticking pain in shoulder joint,1.0,1
+everything is sore,gouty rheumatic pains,1.0,1
+everything is sore,skin affections alternating with pains in joints,1.0,1
+everything is sore,eyes burn on least exertion,1.0,1
+everything is sore,exceedingly severe pain in right leg,1.0,1
+everything is sore,worse by motion,1.0,1
+everything is sore,of dissipated men,1.0,1
+everything is sore,arthritic nodes of joints,1.0,1
+everything is sore,shifting pains,1.0,1
+everything is sore,styes,1.0,1
+everything is sore,especially hip joints,1.0,1
+everything is sore,aching when walking,1.0,1
+everything is sore,aching pain around hip joint,1.0,1
+everything is sore,all limbs affected,1.0,1
+everything is sore,aching when sitting,1.0,1
+everything is sore,all joints of back stiff in morning,1.0,1
+everything is sore,crural neuralgic pain stitching,1.0,1
+everything is sore,especially shoulder joints,1.0,1
+everything is sore,of debilitated men,1.0,1
+everything is sore,pain as after overlifting,1.0,1
+crural neuralgic pain stinging,rheumatic stiffness,1.0,1
+crural neuralgic pain stinging,pains gouty in small joints of hands,1.0,1
+crural neuralgic pain stinging,pain as if broken in small of back,1.0,1
+crural neuralgic pain stinging,pain in morning in bed,1.0,1
+crural neuralgic pain stinging,especially sacral joints,1.0,1
+crural neuralgic pain stinging,lachrymation constant,1.0,1
+crural neuralgic pain stinging,all done after much hard work,1.0,1
+crural neuralgic pain stinging,pain as from a sprain in right shoulder,1.0,1
+crural neuralgic pain stinging,worse on touch,1.0,1
+crural neuralgic pain stinging,stitches in knee,1.0,1
+crural neuralgic pain stinging,pressure in neck,1.0,1
+crural neuralgic pain stinging,chronic gout,1.0,1
+crural neuralgic pain stinging,tearing pain while sitting,1.0,1
+crural neuralgic pain stinging,stitches in knee joints,1.0,1
+crural neuralgic pain stinging,sensation of burning stitches in hollows of knees,1.0,1
+crural neuralgic pain stinging,especially of left index,1.0,1
+crural neuralgic pain stinging,many nodes on parts,1.0,1
+crural neuralgic pain stinging,ailments from mortification,1.0,1
+crural neuralgic pain stinging,nervous weakness,1.0,1
+crural neuralgic pain stinging,tearing pain in muscles of another leg,1.0,1
+crural neuralgic pain stinging,violent pressing in left shoulder joint,1.0,1
+crural neuralgic pain stinging,phalanges of fingers affected,1.0,1
+crural neuralgic pain stinging,crural neuralgic pain during motion,1.0,1
+crural neuralgic pain stinging,paralytic drawing pain in first joints of fingers,1.0,1
+crural neuralgic pain stinging,pains gouty in small joints of feet,1.0,1
+crural neuralgic pain stinging,tearing pain while standing,1.0,1
+crural neuralgic pain stinging,pain only on motion,1.0,1
+crural neuralgic pain stinging,eyes feel as if very dry,1.0,1
+crural neuralgic pain stinging,arthritic nodes on fingers,1.0,1
+crural neuralgic pain stinging,tension in neck,1.0,1
+crural neuralgic pain stinging,pains extend into teeth,1.0,1
+crural neuralgic pain stinging,drawing in neck,1.0,1
+crural neuralgic pain stinging,not improved by any motion,1.0,1
+crural neuralgic pain stinging,dull sticking pain in shoulder joint,1.0,1
+crural neuralgic pain stinging,gouty rheumatic pains,1.0,1
+crural neuralgic pain stinging,skin affections alternating with pains in joints,1.0,1
+crural neuralgic pain stinging,everything is sore,1.0,1
+crural neuralgic pain stinging,eyes burn on least exertion,1.0,1
+crural neuralgic pain stinging,exceedingly severe pain in right leg,1.0,1
+crural neuralgic pain stinging,worse by motion,1.0,1
+crural neuralgic pain stinging,of dissipated men,1.0,1
+crural neuralgic pain stinging,arthritic nodes of joints,1.0,1
+crural neuralgic pain stinging,shifting pains,1.0,1
+crural neuralgic pain stinging,styes,1.0,1
+crural neuralgic pain stinging,especially hip joints,1.0,1
+crural neuralgic pain stinging,aching when walking,1.0,1
+crural neuralgic pain stinging,aching pain around hip joint,1.0,1
+crural neuralgic pain stinging,all limbs affected,1.0,1
+crural neuralgic pain stinging,aching when sitting,1.0,1
+crural neuralgic pain stinging,all joints of back stiff in morning,1.0,1
+crural neuralgic pain stinging,crural neuralgic pain stitching,1.0,1
+crural neuralgic pain stinging,especially shoulder joints,1.0,1
+crural neuralgic pain stinging,of debilitated men,1.0,1
+crural neuralgic pain stinging,pain as after overlifting,1.0,1
+all done after much hard work,rheumatic stiffness,1.0,1
+all done after much hard work,pains gouty in small joints of hands,1.0,1
+all done after much hard work,pain as if broken in small of back,1.0,1
+all done after much hard work,pain in morning in bed,1.0,1
+all done after much hard work,especially sacral joints,1.0,1
+all done after much hard work,lachrymation constant,1.0,1
+all done after much hard work,pain as from a sprain in right shoulder,1.0,1
+all done after much hard work,worse on touch,1.0,1
+all done after much hard work,stitches in knee,1.0,1
+all done after much hard work,pressure in neck,1.0,1
+all done after much hard work,chronic gout,1.0,1
+all done after much hard work,tearing pain while sitting,1.0,1
+all done after much hard work,stitches in knee joints,1.0,1
+all done after much hard work,sensation of burning stitches in hollows of knees,1.0,1
+all done after much hard work,especially of left index,1.0,1
+all done after much hard work,many nodes on parts,1.0,1
+all done after much hard work,ailments from mortification,1.0,1
+all done after much hard work,crural neuralgic pain stinging,1.0,1
+all done after much hard work,nervous weakness,1.0,1
+all done after much hard work,tearing pain in muscles of another leg,1.0,1
+all done after much hard work,violent pressing in left shoulder joint,1.0,1
+all done after much hard work,phalanges of fingers affected,1.0,1
+all done after much hard work,crural neuralgic pain during motion,1.0,1
+all done after much hard work,paralytic drawing pain in first joints of fingers,1.0,1
+all done after much hard work,pains gouty in small joints of feet,1.0,1
+all done after much hard work,tearing pain while standing,1.0,1
+all done after much hard work,pain only on motion,1.0,1
+all done after much hard work,eyes feel as if very dry,1.0,1
+all done after much hard work,arthritic nodes on fingers,1.0,1
+all done after much hard work,tension in neck,1.0,1
+all done after much hard work,pains extend into teeth,1.0,1
+all done after much hard work,drawing in neck,1.0,1
+all done after much hard work,not improved by any motion,1.0,1
+all done after much hard work,dull sticking pain in shoulder joint,1.0,1
+all done after much hard work,gouty rheumatic pains,1.0,1
+all done after much hard work,skin affections alternating with pains in joints,1.0,1
+all done after much hard work,everything is sore,1.0,1
+all done after much hard work,eyes burn on least exertion,1.0,1
+all done after much hard work,exceedingly severe pain in right leg,1.0,1
+all done after much hard work,worse by motion,1.0,1
+all done after much hard work,of dissipated men,1.0,1
+all done after much hard work,arthritic nodes of joints,1.0,1
+all done after much hard work,shifting pains,1.0,1
+all done after much hard work,styes,1.0,1
+all done after much hard work,especially hip joints,1.0,1
+all done after much hard work,aching when walking,1.0,1
+all done after much hard work,aching pain around hip joint,1.0,1
+all done after much hard work,all limbs affected,1.0,1
+all done after much hard work,aching when sitting,1.0,1
+all done after much hard work,all joints of back stiff in morning,1.0,1
+all done after much hard work,crural neuralgic pain stitching,1.0,1
+all done after much hard work,especially shoulder joints,1.0,1
+all done after much hard work,of debilitated men,1.0,1
+all done after much hard work,pain as after overlifting,1.0,1
+crural neuralgic pain stitching,rheumatic stiffness,1.0,1
+crural neuralgic pain stitching,pains gouty in small joints of hands,1.0,1
+crural neuralgic pain stitching,pain as if broken in small of back,1.0,1
+crural neuralgic pain stitching,pain in morning in bed,1.0,1
+crural neuralgic pain stitching,especially sacral joints,1.0,1
+crural neuralgic pain stitching,lachrymation constant,1.0,1
+crural neuralgic pain stitching,all done after much hard work,1.0,1
+crural neuralgic pain stitching,pain as from a sprain in right shoulder,1.0,1
+crural neuralgic pain stitching,worse on touch,1.0,1
+crural neuralgic pain stitching,stitches in knee,1.0,1
+crural neuralgic pain stitching,pressure in neck,1.0,1
+crural neuralgic pain stitching,chronic gout,1.0,1
+crural neuralgic pain stitching,tearing pain while sitting,1.0,1
+crural neuralgic pain stitching,stitches in knee joints,1.0,1
+crural neuralgic pain stitching,sensation of burning stitches in hollows of knees,1.0,1
+crural neuralgic pain stitching,especially of left index,1.0,1
+crural neuralgic pain stitching,many nodes on parts,1.0,1
+crural neuralgic pain stitching,ailments from mortification,1.0,1
+crural neuralgic pain stitching,crural neuralgic pain stinging,1.0,1
+crural neuralgic pain stitching,nervous weakness,1.0,1
+crural neuralgic pain stitching,tearing pain in muscles of another leg,1.0,1
+crural neuralgic pain stitching,violent pressing in left shoulder joint,1.0,1
+crural neuralgic pain stitching,phalanges of fingers affected,1.0,1
+crural neuralgic pain stitching,crural neuralgic pain during motion,1.0,1
+crural neuralgic pain stitching,paralytic drawing pain in first joints of fingers,1.0,1
+crural neuralgic pain stitching,pains gouty in small joints of feet,1.0,1
+crural neuralgic pain stitching,tearing pain while standing,1.0,1
+crural neuralgic pain stitching,pain only on motion,1.0,1
+crural neuralgic pain stitching,eyes feel as if very dry,1.0,1
+crural neuralgic pain stitching,arthritic nodes on fingers,1.0,1
+crural neuralgic pain stitching,tension in neck,1.0,1
+crural neuralgic pain stitching,pains extend into teeth,1.0,1
+crural neuralgic pain stitching,drawing in neck,1.0,1
+crural neuralgic pain stitching,not improved by any motion,1.0,1
+crural neuralgic pain stitching,dull sticking pain in shoulder joint,1.0,1
+crural neuralgic pain stitching,gouty rheumatic pains,1.0,1
+crural neuralgic pain stitching,skin affections alternating with pains in joints,1.0,1
+crural neuralgic pain stitching,everything is sore,1.0,1
+crural neuralgic pain stitching,eyes burn on least exertion,1.0,1
+crural neuralgic pain stitching,exceedingly severe pain in right leg,1.0,1
+crural neuralgic pain stitching,worse by motion,1.0,1
+crural neuralgic pain stitching,of dissipated men,1.0,1
+crural neuralgic pain stitching,arthritic nodes of joints,1.0,1
+crural neuralgic pain stitching,shifting pains,1.0,1
+crural neuralgic pain stitching,styes,1.0,1
+crural neuralgic pain stitching,especially hip joints,1.0,1
+crural neuralgic pain stitching,aching when walking,1.0,1
+crural neuralgic pain stitching,aching pain around hip joint,1.0,1
+crural neuralgic pain stitching,all limbs affected,1.0,1
+crural neuralgic pain stitching,aching when sitting,1.0,1
+crural neuralgic pain stitching,all joints of back stiff in morning,1.0,1
+crural neuralgic pain stitching,especially shoulder joints,1.0,1
+crural neuralgic pain stitching,of debilitated men,1.0,1
+crural neuralgic pain stitching,pain as after overlifting,1.0,1
+of dissipated men,rheumatic stiffness,1.0,1
+of dissipated men,pains gouty in small joints of hands,1.0,1
+of dissipated men,pain as if broken in small of back,1.0,1
+of dissipated men,pain in morning in bed,1.0,1
+of dissipated men,especially sacral joints,1.0,1
+of dissipated men,lachrymation constant,1.0,1
+of dissipated men,all done after much hard work,1.0,1
+of dissipated men,pain as from a sprain in right shoulder,1.0,1
+of dissipated men,worse on touch,1.0,1
+of dissipated men,stitches in knee,1.0,1
+of dissipated men,pressure in neck,1.0,1
+of dissipated men,chronic gout,1.0,1
+of dissipated men,tearing pain while sitting,1.0,1
+of dissipated men,stitches in knee joints,1.0,1
+of dissipated men,sensation of burning stitches in hollows of knees,1.0,1
+of dissipated men,especially of left index,1.0,1
+of dissipated men,many nodes on parts,1.0,1
+of dissipated men,ailments from mortification,1.0,1
+of dissipated men,crural neuralgic pain stinging,1.0,1
+of dissipated men,nervous weakness,1.0,1
+of dissipated men,tearing pain in muscles of another leg,1.0,1
+of dissipated men,violent pressing in left shoulder joint,1.0,1
+of dissipated men,phalanges of fingers affected,1.0,1
+of dissipated men,crural neuralgic pain during motion,1.0,1
+of dissipated men,paralytic drawing pain in first joints of fingers,1.0,1
+of dissipated men,pains gouty in small joints of feet,1.0,1
+of dissipated men,tearing pain while standing,1.0,1
+of dissipated men,pain only on motion,1.0,1
+of dissipated men,eyes feel as if very dry,1.0,1
+of dissipated men,arthritic nodes on fingers,1.0,1
+of dissipated men,tension in neck,1.0,1
+of dissipated men,pains extend into teeth,1.0,1
+of dissipated men,drawing in neck,1.0,1
+of dissipated men,not improved by any motion,1.0,1
+of dissipated men,dull sticking pain in shoulder joint,1.0,1
+of dissipated men,gouty rheumatic pains,1.0,1
+of dissipated men,skin affections alternating with pains in joints,1.0,1
+of dissipated men,everything is sore,1.0,1
+of dissipated men,eyes burn on least exertion,1.0,1
+of dissipated men,exceedingly severe pain in right leg,1.0,1
+of dissipated men,worse by motion,1.0,1
+of dissipated men,arthritic nodes of joints,1.0,1
+of dissipated men,shifting pains,1.0,1
+of dissipated men,styes,1.0,1
+of dissipated men,especially hip joints,1.0,1
+of dissipated men,aching when walking,1.0,1
+of dissipated men,aching pain around hip joint,1.0,1
+of dissipated men,all limbs affected,1.0,1
+of dissipated men,aching when sitting,1.0,1
+of dissipated men,all joints of back stiff in morning,1.0,1
+of dissipated men,crural neuralgic pain stitching,1.0,1
+of dissipated men,especially shoulder joints,1.0,1
+of dissipated men,of debilitated men,1.0,1
+of dissipated men,pain as after overlifting,1.0,1
+stitches in knee,rheumatic stiffness,1.0,1
+stitches in knee,pains gouty in small joints of hands,1.0,1
+stitches in knee,pain as if broken in small of back,1.0,1
+stitches in knee,pain in morning in bed,1.0,1
+stitches in knee,especially sacral joints,1.0,1
+stitches in knee,lachrymation constant,1.0,1
+stitches in knee,all done after much hard work,1.0,1
+stitches in knee,pain as from a sprain in right shoulder,1.0,1
+stitches in knee,worse on touch,1.0,1
+stitches in knee,pressure in neck,1.0,1
+stitches in knee,chronic gout,1.0,1
+stitches in knee,tearing pain while sitting,1.0,1
+stitches in knee,stitches in knee joints,1.0,1
+stitches in knee,sensation of burning stitches in hollows of knees,1.0,1
+stitches in knee,especially of left index,1.0,1
+stitches in knee,many nodes on parts,1.0,1
+stitches in knee,ailments from mortification,1.0,1
+stitches in knee,crural neuralgic pain stinging,1.0,1
+stitches in knee,nervous weakness,1.0,1
+stitches in knee,tearing pain in muscles of another leg,1.0,1
+stitches in knee,violent pressing in left shoulder joint,1.0,1
+stitches in knee,phalanges of fingers affected,1.0,1
+stitches in knee,crural neuralgic pain during motion,1.0,1
+stitches in knee,paralytic drawing pain in first joints of fingers,1.0,1
+stitches in knee,pains gouty in small joints of feet,1.0,1
+stitches in knee,tearing pain while standing,1.0,1
+stitches in knee,pain only on motion,1.0,1
+stitches in knee,eyes feel as if very dry,1.0,1
+stitches in knee,arthritic nodes on fingers,1.0,1
+stitches in knee,tension in neck,1.0,1
+stitches in knee,pains extend into teeth,1.0,1
+stitches in knee,drawing in neck,1.0,1
+stitches in knee,not improved by any motion,1.0,1
+stitches in knee,dull sticking pain in shoulder joint,1.0,1
+stitches in knee,gouty rheumatic pains,1.0,1
+stitches in knee,skin affections alternating with pains in joints,1.0,1
+stitches in knee,everything is sore,1.0,1
+stitches in knee,eyes burn on least exertion,1.0,1
+stitches in knee,exceedingly severe pain in right leg,1.0,1
+stitches in knee,worse by motion,1.0,1
+stitches in knee,of dissipated men,1.0,1
+stitches in knee,arthritic nodes of joints,1.0,1
+stitches in knee,shifting pains,1.0,1
+stitches in knee,styes,1.0,1
+stitches in knee,especially hip joints,1.0,1
+stitches in knee,aching when walking,1.0,1
+stitches in knee,aching pain around hip joint,1.0,1
+stitches in knee,all limbs affected,1.0,1
+stitches in knee,aching when sitting,1.0,1
+stitches in knee,all joints of back stiff in morning,1.0,1
+stitches in knee,crural neuralgic pain stitching,1.0,1
+stitches in knee,especially shoulder joints,1.0,1
+stitches in knee,of debilitated men,1.0,1
+stitches in knee,pain as after overlifting,1.0,1
+gouty rheumatic pains,rheumatic stiffness,1.0,1
+gouty rheumatic pains,pains gouty in small joints of hands,1.0,1
+gouty rheumatic pains,pain as if broken in small of back,1.0,1
+gouty rheumatic pains,pain in morning in bed,1.0,1
+gouty rheumatic pains,especially sacral joints,1.0,1
+gouty rheumatic pains,lachrymation constant,1.0,1
+gouty rheumatic pains,all done after much hard work,1.0,1
+gouty rheumatic pains,pain as from a sprain in right shoulder,1.0,1
+gouty rheumatic pains,worse on touch,1.0,1
+gouty rheumatic pains,stitches in knee,1.0,1
+gouty rheumatic pains,pressure in neck,1.0,1
+gouty rheumatic pains,chronic gout,1.0,1
+gouty rheumatic pains,tearing pain while sitting,1.0,1
+gouty rheumatic pains,stitches in knee joints,1.0,1
+gouty rheumatic pains,sensation of burning stitches in hollows of knees,1.0,1
+gouty rheumatic pains,especially of left index,1.0,1
+gouty rheumatic pains,many nodes on parts,1.0,1
+gouty rheumatic pains,ailments from mortification,1.0,1
+gouty rheumatic pains,crural neuralgic pain stinging,1.0,1
+gouty rheumatic pains,nervous weakness,1.0,1
+gouty rheumatic pains,tearing pain in muscles of another leg,1.0,1
+gouty rheumatic pains,violent pressing in left shoulder joint,1.0,1
+gouty rheumatic pains,phalanges of fingers affected,1.0,1
+gouty rheumatic pains,crural neuralgic pain during motion,1.0,1
+gouty rheumatic pains,paralytic drawing pain in first joints of fingers,1.0,1
+gouty rheumatic pains,pains gouty in small joints of feet,1.0,1
+gouty rheumatic pains,tearing pain while standing,1.0,1
+gouty rheumatic pains,pain only on motion,1.0,1
+gouty rheumatic pains,eyes feel as if very dry,1.0,1
+gouty rheumatic pains,arthritic nodes on fingers,1.0,1
+gouty rheumatic pains,tension in neck,1.0,1
+gouty rheumatic pains,pains extend into teeth,1.0,1
+gouty rheumatic pains,drawing in neck,1.0,1
+gouty rheumatic pains,not improved by any motion,1.0,1
+gouty rheumatic pains,dull sticking pain in shoulder joint,1.0,1
+gouty rheumatic pains,skin affections alternating with pains in joints,1.0,1
+gouty rheumatic pains,everything is sore,1.0,1
+gouty rheumatic pains,eyes burn on least exertion,1.0,1
+gouty rheumatic pains,exceedingly severe pain in right leg,1.0,1
+gouty rheumatic pains,worse by motion,1.0,1
+gouty rheumatic pains,of dissipated men,1.0,1
+gouty rheumatic pains,arthritic nodes of joints,1.0,1
+gouty rheumatic pains,shifting pains,1.0,1
+gouty rheumatic pains,styes,1.0,1
+gouty rheumatic pains,especially hip joints,1.0,1
+gouty rheumatic pains,aching when walking,1.0,1
+gouty rheumatic pains,aching pain around hip joint,1.0,1
+gouty rheumatic pains,all limbs affected,1.0,1
+gouty rheumatic pains,aching when sitting,1.0,1
+gouty rheumatic pains,all joints of back stiff in morning,1.0,1
+gouty rheumatic pains,crural neuralgic pain stitching,1.0,1
+gouty rheumatic pains,especially shoulder joints,1.0,1
+gouty rheumatic pains,of debilitated men,1.0,1
+gouty rheumatic pains,pain as after overlifting,1.0,1
+styes,rheumatic stiffness,1.0,1
+styes,pains gouty in small joints of hands,1.0,1
+styes,pain as if broken in small of back,1.0,1
+styes,pain in morning in bed,1.0,1
+styes,especially sacral joints,1.0,1
+styes,lachrymation constant,1.0,1
+styes,all done after much hard work,1.0,1
+styes,pain as from a sprain in right shoulder,1.0,1
+styes,worse on touch,1.0,1
+styes,stitches in knee,1.0,1
+styes,pressure in neck,1.0,1
+styes,chronic gout,1.0,1
+styes,tearing pain while sitting,1.0,1
+styes,stitches in knee joints,1.0,1
+styes,sensation of burning stitches in hollows of knees,1.0,1
+styes,especially of left index,1.0,1
+styes,many nodes on parts,1.0,1
+styes,ailments from mortification,1.0,1
+styes,crural neuralgic pain stinging,1.0,1
+styes,nervous weakness,1.0,1
+styes,tearing pain in muscles of another leg,1.0,1
+styes,violent pressing in left shoulder joint,1.0,1
+styes,phalanges of fingers affected,1.0,1
+styes,crural neuralgic pain during motion,1.0,1
+styes,paralytic drawing pain in first joints of fingers,1.0,1
+styes,pains gouty in small joints of feet,1.0,1
+styes,tearing pain while standing,1.0,1
+styes,pain only on motion,1.0,1
+styes,eyes feel as if very dry,1.0,1
+styes,arthritic nodes on fingers,1.0,1
+styes,tension in neck,1.0,1
+styes,pains extend into teeth,1.0,1
+styes,drawing in neck,1.0,1
+styes,not improved by any motion,1.0,1
+styes,dull sticking pain in shoulder joint,1.0,1
+styes,gouty rheumatic pains,1.0,1
+styes,skin affections alternating with pains in joints,1.0,1
+styes,everything is sore,1.0,1
+styes,eyes burn on least exertion,1.0,1
+styes,exceedingly severe pain in right leg,1.0,1
+styes,worse by motion,1.0,1
+styes,of dissipated men,1.0,1
+styes,arthritic nodes of joints,1.0,1
+styes,shifting pains,1.0,1
+styes,especially hip joints,1.0,1
+styes,aching when walking,1.0,1
+styes,aching pain around hip joint,1.0,1
+styes,all limbs affected,1.0,1
+styes,aching when sitting,1.0,1
+styes,all joints of back stiff in morning,1.0,1
+styes,crural neuralgic pain stitching,1.0,1
+styes,especially shoulder joints,1.0,1
+styes,of debilitated men,1.0,1
+styes,pain as after overlifting,1.0,1
+sensation of burning stitches in hollows of knees,rheumatic stiffness,1.0,1
+sensation of burning stitches in hollows of knees,pains gouty in small joints of hands,1.0,1
+sensation of burning stitches in hollows of knees,pain as if broken in small of back,1.0,1
+sensation of burning stitches in hollows of knees,pain in morning in bed,1.0,1
+sensation of burning stitches in hollows of knees,especially sacral joints,1.0,1
+sensation of burning stitches in hollows of knees,lachrymation constant,1.0,1
+sensation of burning stitches in hollows of knees,all done after much hard work,1.0,1
+sensation of burning stitches in hollows of knees,pain as from a sprain in right shoulder,1.0,1
+sensation of burning stitches in hollows of knees,worse on touch,1.0,1
+sensation of burning stitches in hollows of knees,stitches in knee,1.0,1
+sensation of burning stitches in hollows of knees,pressure in neck,1.0,1
+sensation of burning stitches in hollows of knees,chronic gout,1.0,1
+sensation of burning stitches in hollows of knees,tearing pain while sitting,1.0,1
+sensation of burning stitches in hollows of knees,stitches in knee joints,1.0,1
+sensation of burning stitches in hollows of knees,especially of left index,1.0,1
+sensation of burning stitches in hollows of knees,many nodes on parts,1.0,1
+sensation of burning stitches in hollows of knees,ailments from mortification,1.0,1
+sensation of burning stitches in hollows of knees,crural neuralgic pain stinging,1.0,1
+sensation of burning stitches in hollows of knees,nervous weakness,1.0,1
+sensation of burning stitches in hollows of knees,tearing pain in muscles of another leg,1.0,1
+sensation of burning stitches in hollows of knees,violent pressing in left shoulder joint,1.0,1
+sensation of burning stitches in hollows of knees,phalanges of fingers affected,1.0,1
+sensation of burning stitches in hollows of knees,crural neuralgic pain during motion,1.0,1
+sensation of burning stitches in hollows of knees,paralytic drawing pain in first joints of fingers,1.0,1
+sensation of burning stitches in hollows of knees,pains gouty in small joints of feet,1.0,1
+sensation of burning stitches in hollows of knees,tearing pain while standing,1.0,1
+sensation of burning stitches in hollows of knees,pain only on motion,1.0,1
+sensation of burning stitches in hollows of knees,eyes feel as if very dry,1.0,1
+sensation of burning stitches in hollows of knees,arthritic nodes on fingers,1.0,1
+sensation of burning stitches in hollows of knees,tension in neck,1.0,1
+sensation of burning stitches in hollows of knees,pains extend into teeth,1.0,1
+sensation of burning stitches in hollows of knees,drawing in neck,1.0,1
+sensation of burning stitches in hollows of knees,not improved by any motion,1.0,1
+sensation of burning stitches in hollows of knees,dull sticking pain in shoulder joint,1.0,1
+sensation of burning stitches in hollows of knees,gouty rheumatic pains,1.0,1
+sensation of burning stitches in hollows of knees,skin affections alternating with pains in joints,1.0,1
+sensation of burning stitches in hollows of knees,everything is sore,1.0,1
+sensation of burning stitches in hollows of knees,eyes burn on least exertion,1.0,1
+sensation of burning stitches in hollows of knees,exceedingly severe pain in right leg,1.0,1
+sensation of burning stitches in hollows of knees,worse by motion,1.0,1
+sensation of burning stitches in hollows of knees,of dissipated men,1.0,1
+sensation of burning stitches in hollows of knees,arthritic nodes of joints,1.0,1
+sensation of burning stitches in hollows of knees,shifting pains,1.0,1
+sensation of burning stitches in hollows of knees,styes,1.0,1
+sensation of burning stitches in hollows of knees,especially hip joints,1.0,1
+sensation of burning stitches in hollows of knees,aching when walking,1.0,1
+sensation of burning stitches in hollows of knees,aching pain around hip joint,1.0,1
+sensation of burning stitches in hollows of knees,all limbs affected,1.0,1
+sensation of burning stitches in hollows of knees,aching when sitting,1.0,1
+sensation of burning stitches in hollows of knees,all joints of back stiff in morning,1.0,1
+sensation of burning stitches in hollows of knees,crural neuralgic pain stitching,1.0,1
+sensation of burning stitches in hollows of knees,especially shoulder joints,1.0,1
+sensation of burning stitches in hollows of knees,of debilitated men,1.0,1
+sensation of burning stitches in hollows of knees,pain as after overlifting,1.0,1
+especially hip joints,rheumatic stiffness,1.0,1
+especially hip joints,pains gouty in small joints of hands,1.0,1
+especially hip joints,pain as if broken in small of back,1.0,1
+especially hip joints,pain in morning in bed,1.0,1
+especially hip joints,especially sacral joints,1.0,1
+especially hip joints,lachrymation constant,1.0,1
+especially hip joints,all done after much hard work,1.0,1
+especially hip joints,pain as from a sprain in right shoulder,1.0,1
+especially hip joints,worse on touch,1.0,1
+especially hip joints,stitches in knee,1.0,1
+especially hip joints,pressure in neck,1.0,1
+especially hip joints,chronic gout,1.0,1
+especially hip joints,tearing pain while sitting,1.0,1
+especially hip joints,stitches in knee joints,1.0,1
+especially hip joints,sensation of burning stitches in hollows of knees,1.0,1
+especially hip joints,especially of left index,1.0,1
+especially hip joints,many nodes on parts,1.0,1
+especially hip joints,ailments from mortification,1.0,1
+especially hip joints,crural neuralgic pain stinging,1.0,1
+especially hip joints,nervous weakness,1.0,1
+especially hip joints,tearing pain in muscles of another leg,1.0,1
+especially hip joints,violent pressing in left shoulder joint,1.0,1
+especially hip joints,phalanges of fingers affected,1.0,1
+especially hip joints,crural neuralgic pain during motion,1.0,1
+especially hip joints,paralytic drawing pain in first joints of fingers,1.0,1
+especially hip joints,pains gouty in small joints of feet,1.0,1
+especially hip joints,tearing pain while standing,1.0,1
+especially hip joints,pain only on motion,1.0,1
+especially hip joints,eyes feel as if very dry,1.0,1
+especially hip joints,arthritic nodes on fingers,1.0,1
+especially hip joints,tension in neck,1.0,1
+especially hip joints,pains extend into teeth,1.0,1
+especially hip joints,drawing in neck,1.0,1
+especially hip joints,not improved by any motion,1.0,1
+especially hip joints,dull sticking pain in shoulder joint,1.0,1
+especially hip joints,gouty rheumatic pains,1.0,1
+especially hip joints,skin affections alternating with pains in joints,1.0,1
+especially hip joints,everything is sore,1.0,1
+especially hip joints,eyes burn on least exertion,1.0,1
+especially hip joints,exceedingly severe pain in right leg,1.0,1
+especially hip joints,worse by motion,1.0,1
+especially hip joints,of dissipated men,1.0,1
+especially hip joints,arthritic nodes of joints,1.0,1
+especially hip joints,shifting pains,1.0,1
+especially hip joints,styes,1.0,1
+especially hip joints,aching when walking,1.0,1
+especially hip joints,aching pain around hip joint,1.0,1
+especially hip joints,all limbs affected,1.0,1
+especially hip joints,aching when sitting,1.0,1
+especially hip joints,all joints of back stiff in morning,1.0,1
+especially hip joints,crural neuralgic pain stitching,1.0,1
+especially hip joints,especially shoulder joints,1.0,1
+especially hip joints,of debilitated men,1.0,1
+especially hip joints,pain as after overlifting,1.0,1
+especially sacral joints,rheumatic stiffness,1.0,1
+especially sacral joints,pains gouty in small joints of hands,1.0,1
+especially sacral joints,pain as if broken in small of back,1.0,1
+especially sacral joints,pain in morning in bed,1.0,1
+especially sacral joints,lachrymation constant,1.0,1
+especially sacral joints,all done after much hard work,1.0,1
+especially sacral joints,pain as from a sprain in right shoulder,1.0,1
+especially sacral joints,worse on touch,1.0,1
+especially sacral joints,stitches in knee,1.0,1
+especially sacral joints,pressure in neck,1.0,1
+especially sacral joints,chronic gout,1.0,1
+especially sacral joints,tearing pain while sitting,1.0,1
+especially sacral joints,stitches in knee joints,1.0,1
+especially sacral joints,sensation of burning stitches in hollows of knees,1.0,1
+especially sacral joints,especially of left index,1.0,1
+especially sacral joints,many nodes on parts,1.0,1
+especially sacral joints,ailments from mortification,1.0,1
+especially sacral joints,crural neuralgic pain stinging,1.0,1
+especially sacral joints,nervous weakness,1.0,1
+especially sacral joints,tearing pain in muscles of another leg,1.0,1
+especially sacral joints,violent pressing in left shoulder joint,1.0,1
+especially sacral joints,phalanges of fingers affected,1.0,1
+especially sacral joints,crural neuralgic pain during motion,1.0,1
+especially sacral joints,paralytic drawing pain in first joints of fingers,1.0,1
+especially sacral joints,pains gouty in small joints of feet,1.0,1
+especially sacral joints,tearing pain while standing,1.0,1
+especially sacral joints,pain only on motion,1.0,1
+especially sacral joints,eyes feel as if very dry,1.0,1
+especially sacral joints,arthritic nodes on fingers,1.0,1
+especially sacral joints,tension in neck,1.0,1
+especially sacral joints,pains extend into teeth,1.0,1
+especially sacral joints,drawing in neck,1.0,1
+especially sacral joints,not improved by any motion,1.0,1
+especially sacral joints,dull sticking pain in shoulder joint,1.0,1
+especially sacral joints,gouty rheumatic pains,1.0,1
+especially sacral joints,skin affections alternating with pains in joints,1.0,1
+especially sacral joints,everything is sore,1.0,1
+especially sacral joints,eyes burn on least exertion,1.0,1
+especially sacral joints,exceedingly severe pain in right leg,1.0,1
+especially sacral joints,worse by motion,1.0,1
+especially sacral joints,of dissipated men,1.0,1
+especially sacral joints,arthritic nodes of joints,1.0,1
+especially sacral joints,shifting pains,1.0,1
+especially sacral joints,styes,1.0,1
+especially sacral joints,especially hip joints,1.0,1
+especially sacral joints,aching when walking,1.0,1
+especially sacral joints,aching pain around hip joint,1.0,1
+especially sacral joints,all limbs affected,1.0,1
+especially sacral joints,aching when sitting,1.0,1
+especially sacral joints,all joints of back stiff in morning,1.0,1
+especially sacral joints,crural neuralgic pain stitching,1.0,1
+especially sacral joints,especially shoulder joints,1.0,1
+especially sacral joints,of debilitated men,1.0,1
+especially sacral joints,pain as after overlifting,1.0,1
+not improved by any motion,rheumatic stiffness,1.0,1
+not improved by any motion,pains gouty in small joints of hands,1.0,1
+not improved by any motion,pain as if broken in small of back,1.0,1
+not improved by any motion,pain in morning in bed,1.0,1
+not improved by any motion,especially sacral joints,1.0,1
+not improved by any motion,lachrymation constant,1.0,1
+not improved by any motion,all done after much hard work,1.0,1
+not improved by any motion,pain as from a sprain in right shoulder,1.0,1
+not improved by any motion,worse on touch,1.0,1
+not improved by any motion,stitches in knee,1.0,1
+not improved by any motion,pressure in neck,1.0,1
+not improved by any motion,chronic gout,1.0,1
+not improved by any motion,tearing pain while sitting,1.0,1
+not improved by any motion,stitches in knee joints,1.0,1
+not improved by any motion,sensation of burning stitches in hollows of knees,1.0,1
+not improved by any motion,especially of left index,1.0,1
+not improved by any motion,many nodes on parts,1.0,1
+not improved by any motion,ailments from mortification,1.0,1
+not improved by any motion,crural neuralgic pain stinging,1.0,1
+not improved by any motion,nervous weakness,1.0,1
+not improved by any motion,tearing pain in muscles of another leg,1.0,1
+not improved by any motion,violent pressing in left shoulder joint,1.0,1
+not improved by any motion,phalanges of fingers affected,1.0,1
+not improved by any motion,crural neuralgic pain during motion,1.0,1
+not improved by any motion,paralytic drawing pain in first joints of fingers,1.0,1
+not improved by any motion,pains gouty in small joints of feet,1.0,1
+not improved by any motion,tearing pain while standing,1.0,1
+not improved by any motion,pain only on motion,1.0,1
+not improved by any motion,eyes feel as if very dry,1.0,1
+not improved by any motion,arthritic nodes on fingers,1.0,1
+not improved by any motion,tension in neck,1.0,1
+not improved by any motion,pains extend into teeth,1.0,1
+not improved by any motion,drawing in neck,1.0,1
+not improved by any motion,dull sticking pain in shoulder joint,1.0,1
+not improved by any motion,gouty rheumatic pains,1.0,1
+not improved by any motion,skin affections alternating with pains in joints,1.0,1
+not improved by any motion,everything is sore,1.0,1
+not improved by any motion,eyes burn on least exertion,1.0,1
+not improved by any motion,exceedingly severe pain in right leg,1.0,1
+not improved by any motion,worse by motion,1.0,1
+not improved by any motion,of dissipated men,1.0,1
+not improved by any motion,arthritic nodes of joints,1.0,1
+not improved by any motion,shifting pains,1.0,1
+not improved by any motion,styes,1.0,1
+not improved by any motion,especially hip joints,1.0,1
+not improved by any motion,aching when walking,1.0,1
+not improved by any motion,aching pain around hip joint,1.0,1
+not improved by any motion,all limbs affected,1.0,1
+not improved by any motion,aching when sitting,1.0,1
+not improved by any motion,all joints of back stiff in morning,1.0,1
+not improved by any motion,crural neuralgic pain stitching,1.0,1
+not improved by any motion,especially shoulder joints,1.0,1
+not improved by any motion,of debilitated men,1.0,1
+not improved by any motion,pain as after overlifting,1.0,1
+of debilitated men,rheumatic stiffness,1.0,1
+of debilitated men,pains gouty in small joints of hands,1.0,1
+of debilitated men,pain as if broken in small of back,1.0,1
+of debilitated men,pain in morning in bed,1.0,1
+of debilitated men,especially sacral joints,1.0,1
+of debilitated men,lachrymation constant,1.0,1
+of debilitated men,all done after much hard work,1.0,1
+of debilitated men,pain as from a sprain in right shoulder,1.0,1
+of debilitated men,worse on touch,1.0,1
+of debilitated men,stitches in knee,1.0,1
+of debilitated men,pressure in neck,1.0,1
+of debilitated men,chronic gout,1.0,1
+of debilitated men,tearing pain while sitting,1.0,1
+of debilitated men,stitches in knee joints,1.0,1
+of debilitated men,sensation of burning stitches in hollows of knees,1.0,1
+of debilitated men,especially of left index,1.0,1
+of debilitated men,many nodes on parts,1.0,1
+of debilitated men,ailments from mortification,1.0,1
+of debilitated men,crural neuralgic pain stinging,1.0,1
+of debilitated men,nervous weakness,1.0,1
+of debilitated men,tearing pain in muscles of another leg,1.0,1
+of debilitated men,violent pressing in left shoulder joint,1.0,1
+of debilitated men,phalanges of fingers affected,1.0,1
+of debilitated men,crural neuralgic pain during motion,1.0,1
+of debilitated men,paralytic drawing pain in first joints of fingers,1.0,1
+of debilitated men,pains gouty in small joints of feet,1.0,1
+of debilitated men,tearing pain while standing,1.0,1
+of debilitated men,pain only on motion,1.0,1
+of debilitated men,eyes feel as if very dry,1.0,1
+of debilitated men,arthritic nodes on fingers,1.0,1
+of debilitated men,tension in neck,1.0,1
+of debilitated men,pains extend into teeth,1.0,1
+of debilitated men,drawing in neck,1.0,1
+of debilitated men,not improved by any motion,1.0,1
+of debilitated men,dull sticking pain in shoulder joint,1.0,1
+of debilitated men,gouty rheumatic pains,1.0,1
+of debilitated men,skin affections alternating with pains in joints,1.0,1
+of debilitated men,everything is sore,1.0,1
+of debilitated men,eyes burn on least exertion,1.0,1
+of debilitated men,exceedingly severe pain in right leg,1.0,1
+of debilitated men,worse by motion,1.0,1
+of debilitated men,of dissipated men,1.0,1
+of debilitated men,arthritic nodes of joints,1.0,1
+of debilitated men,shifting pains,1.0,1
+of debilitated men,styes,1.0,1
+of debilitated men,especially hip joints,1.0,1
+of debilitated men,aching when walking,1.0,1
+of debilitated men,aching pain around hip joint,1.0,1
+of debilitated men,all limbs affected,1.0,1
+of debilitated men,aching when sitting,1.0,1
+of debilitated men,all joints of back stiff in morning,1.0,1
+of debilitated men,crural neuralgic pain stitching,1.0,1
+of debilitated men,especially shoulder joints,1.0,1
+of debilitated men,pain as after overlifting,1.0,1
+pains extend into teeth,rheumatic stiffness,1.0,1
+pains extend into teeth,pains gouty in small joints of hands,1.0,1
+pains extend into teeth,pain as if broken in small of back,1.0,1
+pains extend into teeth,pain in morning in bed,1.0,1
+pains extend into teeth,especially sacral joints,1.0,1
+pains extend into teeth,lachrymation constant,1.0,1
+pains extend into teeth,all done after much hard work,1.0,1
+pains extend into teeth,pain as from a sprain in right shoulder,1.0,1
+pains extend into teeth,worse on touch,1.0,1
+pains extend into teeth,stitches in knee,1.0,1
+pains extend into teeth,pressure in neck,1.0,1
+pains extend into teeth,chronic gout,1.0,1
+pains extend into teeth,tearing pain while sitting,1.0,1
+pains extend into teeth,stitches in knee joints,1.0,1
+pains extend into teeth,sensation of burning stitches in hollows of knees,1.0,1
+pains extend into teeth,especially of left index,1.0,1
+pains extend into teeth,many nodes on parts,1.0,1
+pains extend into teeth,ailments from mortification,1.0,1
+pains extend into teeth,crural neuralgic pain stinging,1.0,1
+pains extend into teeth,nervous weakness,1.0,1
+pains extend into teeth,tearing pain in muscles of another leg,1.0,1
+pains extend into teeth,violent pressing in left shoulder joint,1.0,1
+pains extend into teeth,phalanges of fingers affected,1.0,1
+pains extend into teeth,crural neuralgic pain during motion,1.0,1
+pains extend into teeth,paralytic drawing pain in first joints of fingers,1.0,1
+pains extend into teeth,pains gouty in small joints of feet,1.0,1
+pains extend into teeth,tearing pain while standing,1.0,1
+pains extend into teeth,pain only on motion,1.0,1
+pains extend into teeth,eyes feel as if very dry,1.0,1
+pains extend into teeth,arthritic nodes on fingers,1.0,1
+pains extend into teeth,tension in neck,1.0,1
+pains extend into teeth,drawing in neck,1.0,1
+pains extend into teeth,not improved by any motion,1.0,1
+pains extend into teeth,dull sticking pain in shoulder joint,1.0,1
+pains extend into teeth,gouty rheumatic pains,1.0,1
+pains extend into teeth,skin affections alternating with pains in joints,1.0,1
+pains extend into teeth,everything is sore,1.0,1
+pains extend into teeth,eyes burn on least exertion,1.0,1
+pains extend into teeth,exceedingly severe pain in right leg,1.0,1
+pains extend into teeth,worse by motion,1.0,1
+pains extend into teeth,of dissipated men,1.0,1
+pains extend into teeth,arthritic nodes of joints,1.0,1
+pains extend into teeth,shifting pains,1.0,1
+pains extend into teeth,styes,1.0,1
+pains extend into teeth,especially hip joints,1.0,1
+pains extend into teeth,aching when walking,1.0,1
+pains extend into teeth,aching pain around hip joint,1.0,1
+pains extend into teeth,all limbs affected,1.0,1
+pains extend into teeth,aching when sitting,1.0,1
+pains extend into teeth,all joints of back stiff in morning,1.0,1
+pains extend into teeth,crural neuralgic pain stitching,1.0,1
+pains extend into teeth,especially shoulder joints,1.0,1
+pains extend into teeth,of debilitated men,1.0,1
+pains extend into teeth,pain as after overlifting,1.0,1
+aching pain around hip joint,rheumatic stiffness,1.0,1
+aching pain around hip joint,pains gouty in small joints of hands,1.0,1
+aching pain around hip joint,pain as if broken in small of back,1.0,1
+aching pain around hip joint,pain in morning in bed,1.0,1
+aching pain around hip joint,especially sacral joints,1.0,1
+aching pain around hip joint,lachrymation constant,1.0,1
+aching pain around hip joint,all done after much hard work,1.0,1
+aching pain around hip joint,pain as from a sprain in right shoulder,1.0,1
+aching pain around hip joint,worse on touch,1.0,1
+aching pain around hip joint,stitches in knee,1.0,1
+aching pain around hip joint,pressure in neck,1.0,1
+aching pain around hip joint,chronic gout,1.0,1
+aching pain around hip joint,tearing pain while sitting,1.0,1
+aching pain around hip joint,stitches in knee joints,1.0,1
+aching pain around hip joint,sensation of burning stitches in hollows of knees,1.0,1
+aching pain around hip joint,especially of left index,1.0,1
+aching pain around hip joint,many nodes on parts,1.0,1
+aching pain around hip joint,ailments from mortification,1.0,1
+aching pain around hip joint,crural neuralgic pain stinging,1.0,1
+aching pain around hip joint,nervous weakness,1.0,1
+aching pain around hip joint,tearing pain in muscles of another leg,1.0,1
+aching pain around hip joint,violent pressing in left shoulder joint,1.0,1
+aching pain around hip joint,phalanges of fingers affected,1.0,1
+aching pain around hip joint,crural neuralgic pain during motion,1.0,1
+aching pain around hip joint,paralytic drawing pain in first joints of fingers,1.0,1
+aching pain around hip joint,pains gouty in small joints of feet,1.0,1
+aching pain around hip joint,tearing pain while standing,1.0,1
+aching pain around hip joint,pain only on motion,1.0,1
+aching pain around hip joint,eyes feel as if very dry,1.0,1
+aching pain around hip joint,arthritic nodes on fingers,1.0,1
+aching pain around hip joint,tension in neck,1.0,1
+aching pain around hip joint,pains extend into teeth,1.0,1
+aching pain around hip joint,drawing in neck,1.0,1
+aching pain around hip joint,not improved by any motion,1.0,1
+aching pain around hip joint,dull sticking pain in shoulder joint,1.0,1
+aching pain around hip joint,gouty rheumatic pains,1.0,1
+aching pain around hip joint,skin affections alternating with pains in joints,1.0,1
+aching pain around hip joint,everything is sore,1.0,1
+aching pain around hip joint,eyes burn on least exertion,1.0,1
+aching pain around hip joint,exceedingly severe pain in right leg,1.0,1
+aching pain around hip joint,worse by motion,1.0,1
+aching pain around hip joint,of dissipated men,1.0,1
+aching pain around hip joint,arthritic nodes of joints,1.0,1
+aching pain around hip joint,shifting pains,1.0,1
+aching pain around hip joint,styes,1.0,1
+aching pain around hip joint,especially hip joints,1.0,1
+aching pain around hip joint,aching when walking,1.0,1
+aching pain around hip joint,all limbs affected,1.0,1
+aching pain around hip joint,aching when sitting,1.0,1
+aching pain around hip joint,all joints of back stiff in morning,1.0,1
+aching pain around hip joint,crural neuralgic pain stitching,1.0,1
+aching pain around hip joint,especially shoulder joints,1.0,1
+aching pain around hip joint,of debilitated men,1.0,1
+aching pain around hip joint,pain as after overlifting,1.0,1
+pain in morning in bed,rheumatic stiffness,1.0,1
+pain in morning in bed,pains gouty in small joints of hands,1.0,1
+pain in morning in bed,pain as if broken in small of back,1.0,1
+pain in morning in bed,especially sacral joints,1.0,1
+pain in morning in bed,lachrymation constant,1.0,1
+pain in morning in bed,all done after much hard work,1.0,1
+pain in morning in bed,pain as from a sprain in right shoulder,1.0,1
+pain in morning in bed,worse on touch,1.0,1
+pain in morning in bed,stitches in knee,1.0,1
+pain in morning in bed,pressure in neck,1.0,1
+pain in morning in bed,chronic gout,1.0,1
+pain in morning in bed,tearing pain while sitting,1.0,1
+pain in morning in bed,stitches in knee joints,1.0,1
+pain in morning in bed,sensation of burning stitches in hollows of knees,1.0,1
+pain in morning in bed,especially of left index,1.0,1
+pain in morning in bed,many nodes on parts,1.0,1
+pain in morning in bed,ailments from mortification,1.0,1
+pain in morning in bed,crural neuralgic pain stinging,1.0,1
+pain in morning in bed,nervous weakness,1.0,1
+pain in morning in bed,tearing pain in muscles of another leg,1.0,1
+pain in morning in bed,violent pressing in left shoulder joint,1.0,1
+pain in morning in bed,phalanges of fingers affected,1.0,1
+pain in morning in bed,crural neuralgic pain during motion,1.0,1
+pain in morning in bed,paralytic drawing pain in first joints of fingers,1.0,1
+pain in morning in bed,pains gouty in small joints of feet,1.0,1
+pain in morning in bed,tearing pain while standing,1.0,1
+pain in morning in bed,pain only on motion,1.0,1
+pain in morning in bed,eyes feel as if very dry,1.0,1
+pain in morning in bed,arthritic nodes on fingers,1.0,1
+pain in morning in bed,tension in neck,1.0,1
+pain in morning in bed,pains extend into teeth,1.0,1
+pain in morning in bed,drawing in neck,1.0,1
+pain in morning in bed,not improved by any motion,1.0,1
+pain in morning in bed,dull sticking pain in shoulder joint,1.0,1
+pain in morning in bed,gouty rheumatic pains,1.0,1
+pain in morning in bed,skin affections alternating with pains in joints,1.0,1
+pain in morning in bed,everything is sore,1.0,1
+pain in morning in bed,eyes burn on least exertion,1.0,1
+pain in morning in bed,exceedingly severe pain in right leg,1.0,1
+pain in morning in bed,worse by motion,1.0,1
+pain in morning in bed,of dissipated men,1.0,1
+pain in morning in bed,arthritic nodes of joints,1.0,1
+pain in morning in bed,shifting pains,1.0,1
+pain in morning in bed,styes,1.0,1
+pain in morning in bed,especially hip joints,1.0,1
+pain in morning in bed,aching when walking,1.0,1
+pain in morning in bed,aching pain around hip joint,1.0,1
+pain in morning in bed,all limbs affected,1.0,1
+pain in morning in bed,aching when sitting,1.0,1
+pain in morning in bed,all joints of back stiff in morning,1.0,1
+pain in morning in bed,crural neuralgic pain stitching,1.0,1
+pain in morning in bed,especially shoulder joints,1.0,1
+pain in morning in bed,of debilitated men,1.0,1
+pain in morning in bed,pain as after overlifting,1.0,1
+especially of left index,rheumatic stiffness,1.0,1
+especially of left index,pains gouty in small joints of hands,1.0,1
+especially of left index,pain as if broken in small of back,1.0,1
+especially of left index,pain in morning in bed,1.0,1
+especially of left index,especially sacral joints,1.0,1
+especially of left index,lachrymation constant,1.0,1
+especially of left index,all done after much hard work,1.0,1
+especially of left index,pain as from a sprain in right shoulder,1.0,1
+especially of left index,worse on touch,1.0,1
+especially of left index,stitches in knee,1.0,1
+especially of left index,pressure in neck,1.0,1
+especially of left index,chronic gout,1.0,1
+especially of left index,tearing pain while sitting,1.0,1
+especially of left index,stitches in knee joints,1.0,1
+especially of left index,sensation of burning stitches in hollows of knees,1.0,1
+especially of left index,many nodes on parts,1.0,1
+especially of left index,ailments from mortification,1.0,1
+especially of left index,crural neuralgic pain stinging,1.0,1
+especially of left index,nervous weakness,1.0,1
+especially of left index,tearing pain in muscles of another leg,1.0,1
+especially of left index,violent pressing in left shoulder joint,1.0,1
+especially of left index,phalanges of fingers affected,1.0,1
+especially of left index,crural neuralgic pain during motion,1.0,1
+especially of left index,paralytic drawing pain in first joints of fingers,1.0,1
+especially of left index,pains gouty in small joints of feet,1.0,1
+especially of left index,tearing pain while standing,1.0,1
+especially of left index,pain only on motion,1.0,1
+especially of left index,eyes feel as if very dry,1.0,1
+especially of left index,arthritic nodes on fingers,1.0,1
+especially of left index,tension in neck,1.0,1
+especially of left index,pains extend into teeth,1.0,1
+especially of left index,drawing in neck,1.0,1
+especially of left index,not improved by any motion,1.0,1
+especially of left index,dull sticking pain in shoulder joint,1.0,1
+especially of left index,gouty rheumatic pains,1.0,1
+especially of left index,skin affections alternating with pains in joints,1.0,1
+especially of left index,everything is sore,1.0,1
+especially of left index,eyes burn on least exertion,1.0,1
+especially of left index,exceedingly severe pain in right leg,1.0,1
+especially of left index,worse by motion,1.0,1
+especially of left index,of dissipated men,1.0,1
+especially of left index,arthritic nodes of joints,1.0,1
+especially of left index,shifting pains,1.0,1
+especially of left index,styes,1.0,1
+especially of left index,especially hip joints,1.0,1
+especially of left index,aching when walking,1.0,1
+especially of left index,aching pain around hip joint,1.0,1
+especially of left index,all limbs affected,1.0,1
+especially of left index,aching when sitting,1.0,1
+especially of left index,all joints of back stiff in morning,1.0,1
+especially of left index,crural neuralgic pain stitching,1.0,1
+especially of left index,especially shoulder joints,1.0,1
+especially of left index,of debilitated men,1.0,1
+especially of left index,pain as after overlifting,1.0,1
+lachrymation constant,rheumatic stiffness,1.0,1
+lachrymation constant,pains gouty in small joints of hands,1.0,1
+lachrymation constant,pain as if broken in small of back,1.0,1
+lachrymation constant,pain in morning in bed,1.0,1
+lachrymation constant,especially sacral joints,1.0,1
+lachrymation constant,all done after much hard work,1.0,1
+lachrymation constant,pain as from a sprain in right shoulder,1.0,1
+lachrymation constant,worse on touch,1.0,1
+lachrymation constant,stitches in knee,1.0,1
+lachrymation constant,pressure in neck,1.0,1
+lachrymation constant,chronic gout,1.0,1
+lachrymation constant,tearing pain while sitting,1.0,1
+lachrymation constant,stitches in knee joints,1.0,1
+lachrymation constant,sensation of burning stitches in hollows of knees,1.0,1
+lachrymation constant,especially of left index,1.0,1
+lachrymation constant,many nodes on parts,1.0,1
+lachrymation constant,ailments from mortification,1.0,1
+lachrymation constant,crural neuralgic pain stinging,1.0,1
+lachrymation constant,nervous weakness,1.0,1
+lachrymation constant,tearing pain in muscles of another leg,1.0,1
+lachrymation constant,violent pressing in left shoulder joint,1.0,1
+lachrymation constant,phalanges of fingers affected,1.0,1
+lachrymation constant,crural neuralgic pain during motion,1.0,1
+lachrymation constant,paralytic drawing pain in first joints of fingers,1.0,1
+lachrymation constant,pains gouty in small joints of feet,1.0,1
+lachrymation constant,tearing pain while standing,1.0,1
+lachrymation constant,pain only on motion,1.0,1
+lachrymation constant,eyes feel as if very dry,1.0,1
+lachrymation constant,arthritic nodes on fingers,1.0,1
+lachrymation constant,tension in neck,1.0,1
+lachrymation constant,pains extend into teeth,1.0,1
+lachrymation constant,drawing in neck,1.0,1
+lachrymation constant,not improved by any motion,1.0,1
+lachrymation constant,dull sticking pain in shoulder joint,1.0,1
+lachrymation constant,gouty rheumatic pains,1.0,1
+lachrymation constant,skin affections alternating with pains in joints,1.0,1
+lachrymation constant,everything is sore,1.0,1
+lachrymation constant,eyes burn on least exertion,1.0,1
+lachrymation constant,exceedingly severe pain in right leg,1.0,1
+lachrymation constant,worse by motion,1.0,1
+lachrymation constant,of dissipated men,1.0,1
+lachrymation constant,arthritic nodes of joints,1.0,1
+lachrymation constant,shifting pains,1.0,1
+lachrymation constant,styes,1.0,1
+lachrymation constant,especially hip joints,1.0,1
+lachrymation constant,aching when walking,1.0,1
+lachrymation constant,aching pain around hip joint,1.0,1
+lachrymation constant,all limbs affected,1.0,1
+lachrymation constant,aching when sitting,1.0,1
+lachrymation constant,all joints of back stiff in morning,1.0,1
+lachrymation constant,crural neuralgic pain stitching,1.0,1
+lachrymation constant,especially shoulder joints,1.0,1
+lachrymation constant,of debilitated men,1.0,1
+lachrymation constant,pain as after overlifting,1.0,1
+exceedingly severe pain in right leg,rheumatic stiffness,1.0,1
+exceedingly severe pain in right leg,pains gouty in small joints of hands,1.0,1
+exceedingly severe pain in right leg,pain as if broken in small of back,1.0,1
+exceedingly severe pain in right leg,pain in morning in bed,1.0,1
+exceedingly severe pain in right leg,especially sacral joints,1.0,1
+exceedingly severe pain in right leg,lachrymation constant,1.0,1
+exceedingly severe pain in right leg,all done after much hard work,1.0,1
+exceedingly severe pain in right leg,pain as from a sprain in right shoulder,1.0,1
+exceedingly severe pain in right leg,worse on touch,1.0,1
+exceedingly severe pain in right leg,stitches in knee,1.0,1
+exceedingly severe pain in right leg,pressure in neck,1.0,1
+exceedingly severe pain in right leg,chronic gout,1.0,1
+exceedingly severe pain in right leg,tearing pain while sitting,1.0,1
+exceedingly severe pain in right leg,stitches in knee joints,1.0,1
+exceedingly severe pain in right leg,sensation of burning stitches in hollows of knees,1.0,1
+exceedingly severe pain in right leg,especially of left index,1.0,1
+exceedingly severe pain in right leg,many nodes on parts,1.0,1
+exceedingly severe pain in right leg,ailments from mortification,1.0,1
+exceedingly severe pain in right leg,crural neuralgic pain stinging,1.0,1
+exceedingly severe pain in right leg,nervous weakness,1.0,1
+exceedingly severe pain in right leg,tearing pain in muscles of another leg,1.0,1
+exceedingly severe pain in right leg,violent pressing in left shoulder joint,1.0,1
+exceedingly severe pain in right leg,phalanges of fingers affected,1.0,1
+exceedingly severe pain in right leg,crural neuralgic pain during motion,1.0,1
+exceedingly severe pain in right leg,paralytic drawing pain in first joints of fingers,1.0,1
+exceedingly severe pain in right leg,pains gouty in small joints of feet,1.0,1
+exceedingly severe pain in right leg,tearing pain while standing,1.0,1
+exceedingly severe pain in right leg,pain only on motion,1.0,1
+exceedingly severe pain in right leg,eyes feel as if very dry,1.0,1
+exceedingly severe pain in right leg,arthritic nodes on fingers,1.0,1
+exceedingly severe pain in right leg,tension in neck,1.0,1
+exceedingly severe pain in right leg,pains extend into teeth,1.0,1
+exceedingly severe pain in right leg,drawing in neck,1.0,1
+exceedingly severe pain in right leg,not improved by any motion,1.0,1
+exceedingly severe pain in right leg,dull sticking pain in shoulder joint,1.0,1
+exceedingly severe pain in right leg,gouty rheumatic pains,1.0,1
+exceedingly severe pain in right leg,skin affections alternating with pains in joints,1.0,1
+exceedingly severe pain in right leg,everything is sore,1.0,1
+exceedingly severe pain in right leg,eyes burn on least exertion,1.0,1
+exceedingly severe pain in right leg,worse by motion,1.0,1
+exceedingly severe pain in right leg,of dissipated men,1.0,1
+exceedingly severe pain in right leg,arthritic nodes of joints,1.0,1
+exceedingly severe pain in right leg,shifting pains,1.0,1
+exceedingly severe pain in right leg,styes,1.0,1
+exceedingly severe pain in right leg,especially hip joints,1.0,1
+exceedingly severe pain in right leg,aching when walking,1.0,1
+exceedingly severe pain in right leg,aching pain around hip joint,1.0,1
+exceedingly severe pain in right leg,all limbs affected,1.0,1
+exceedingly severe pain in right leg,aching when sitting,1.0,1
+exceedingly severe pain in right leg,all joints of back stiff in morning,1.0,1
+exceedingly severe pain in right leg,crural neuralgic pain stitching,1.0,1
+exceedingly severe pain in right leg,especially shoulder joints,1.0,1
+exceedingly severe pain in right leg,of debilitated men,1.0,1
+exceedingly severe pain in right leg,pain as after overlifting,1.0,1
+arthritic nodes of joints,rheumatic stiffness,1.0,1
+arthritic nodes of joints,pains gouty in small joints of hands,1.0,1
+arthritic nodes of joints,pain as if broken in small of back,1.0,1
+arthritic nodes of joints,pain in morning in bed,1.0,1
+arthritic nodes of joints,especially sacral joints,1.0,1
+arthritic nodes of joints,lachrymation constant,1.0,1
+arthritic nodes of joints,all done after much hard work,1.0,1
+arthritic nodes of joints,pain as from a sprain in right shoulder,1.0,1
+arthritic nodes of joints,worse on touch,1.0,1
+arthritic nodes of joints,stitches in knee,1.0,1
+arthritic nodes of joints,pressure in neck,1.0,1
+arthritic nodes of joints,chronic gout,1.0,1
+arthritic nodes of joints,tearing pain while sitting,1.0,1
+arthritic nodes of joints,stitches in knee joints,1.0,1
+arthritic nodes of joints,sensation of burning stitches in hollows of knees,1.0,1
+arthritic nodes of joints,especially of left index,1.0,1
+arthritic nodes of joints,many nodes on parts,1.0,1
+arthritic nodes of joints,ailments from mortification,1.0,1
+arthritic nodes of joints,crural neuralgic pain stinging,1.0,1
+arthritic nodes of joints,nervous weakness,1.0,1
+arthritic nodes of joints,tearing pain in muscles of another leg,1.0,1
+arthritic nodes of joints,violent pressing in left shoulder joint,1.0,1
+arthritic nodes of joints,phalanges of fingers affected,1.0,1
+arthritic nodes of joints,crural neuralgic pain during motion,1.0,1
+arthritic nodes of joints,paralytic drawing pain in first joints of fingers,1.0,1
+arthritic nodes of joints,pains gouty in small joints of feet,1.0,1
+arthritic nodes of joints,tearing pain while standing,1.0,1
+arthritic nodes of joints,pain only on motion,1.0,1
+arthritic nodes of joints,eyes feel as if very dry,1.0,1
+arthritic nodes of joints,arthritic nodes on fingers,1.0,1
+arthritic nodes of joints,tension in neck,1.0,1
+arthritic nodes of joints,pains extend into teeth,1.0,1
+arthritic nodes of joints,drawing in neck,1.0,1
+arthritic nodes of joints,not improved by any motion,1.0,1
+arthritic nodes of joints,dull sticking pain in shoulder joint,1.0,1
+arthritic nodes of joints,gouty rheumatic pains,1.0,1
+arthritic nodes of joints,skin affections alternating with pains in joints,1.0,1
+arthritic nodes of joints,everything is sore,1.0,1
+arthritic nodes of joints,eyes burn on least exertion,1.0,1
+arthritic nodes of joints,exceedingly severe pain in right leg,1.0,1
+arthritic nodes of joints,worse by motion,1.0,1
+arthritic nodes of joints,of dissipated men,1.0,1
+arthritic nodes of joints,shifting pains,1.0,1
+arthritic nodes of joints,styes,1.0,1
+arthritic nodes of joints,especially hip joints,1.0,1
+arthritic nodes of joints,aching when walking,1.0,1
+arthritic nodes of joints,aching pain around hip joint,1.0,1
+arthritic nodes of joints,all limbs affected,1.0,1
+arthritic nodes of joints,aching when sitting,1.0,1
+arthritic nodes of joints,all joints of back stiff in morning,1.0,1
+arthritic nodes of joints,crural neuralgic pain stitching,1.0,1
+arthritic nodes of joints,especially shoulder joints,1.0,1
+arthritic nodes of joints,of debilitated men,1.0,1
+arthritic nodes of joints,pain as after overlifting,1.0,1
+skin affections alternating with pains in joints,rheumatic stiffness,1.0,1
+skin affections alternating with pains in joints,pains gouty in small joints of hands,1.0,1
+skin affections alternating with pains in joints,pain as if broken in small of back,1.0,1
+skin affections alternating with pains in joints,pain in morning in bed,1.0,1
+skin affections alternating with pains in joints,especially sacral joints,1.0,1
+skin affections alternating with pains in joints,lachrymation constant,1.0,1
+skin affections alternating with pains in joints,all done after much hard work,1.0,1
+skin affections alternating with pains in joints,pain as from a sprain in right shoulder,1.0,1
+skin affections alternating with pains in joints,worse on touch,1.0,1
+skin affections alternating with pains in joints,stitches in knee,1.0,1
+skin affections alternating with pains in joints,pressure in neck,1.0,1
+skin affections alternating with pains in joints,chronic gout,1.0,1
+skin affections alternating with pains in joints,tearing pain while sitting,1.0,1
+skin affections alternating with pains in joints,stitches in knee joints,1.0,1
+skin affections alternating with pains in joints,sensation of burning stitches in hollows of knees,1.0,1
+skin affections alternating with pains in joints,especially of left index,1.0,1
+skin affections alternating with pains in joints,many nodes on parts,1.0,1
+skin affections alternating with pains in joints,ailments from mortification,1.0,1
+skin affections alternating with pains in joints,crural neuralgic pain stinging,1.0,1
+skin affections alternating with pains in joints,nervous weakness,1.0,1
+skin affections alternating with pains in joints,tearing pain in muscles of another leg,1.0,1
+skin affections alternating with pains in joints,violent pressing in left shoulder joint,1.0,1
+skin affections alternating with pains in joints,phalanges of fingers affected,1.0,1
+skin affections alternating with pains in joints,crural neuralgic pain during motion,1.0,1
+skin affections alternating with pains in joints,paralytic drawing pain in first joints of fingers,1.0,1
+skin affections alternating with pains in joints,pains gouty in small joints of feet,1.0,1
+skin affections alternating with pains in joints,tearing pain while standing,1.0,1
+skin affections alternating with pains in joints,pain only on motion,1.0,1
+skin affections alternating with pains in joints,eyes feel as if very dry,1.0,1
+skin affections alternating with pains in joints,arthritic nodes on fingers,1.0,1
+skin affections alternating with pains in joints,tension in neck,1.0,1
+skin affections alternating with pains in joints,pains extend into teeth,1.0,1
+skin affections alternating with pains in joints,drawing in neck,1.0,1
+skin affections alternating with pains in joints,not improved by any motion,1.0,1
+skin affections alternating with pains in joints,dull sticking pain in shoulder joint,1.0,1
+skin affections alternating with pains in joints,gouty rheumatic pains,1.0,1
+skin affections alternating with pains in joints,everything is sore,1.0,1
+skin affections alternating with pains in joints,eyes burn on least exertion,1.0,1
+skin affections alternating with pains in joints,exceedingly severe pain in right leg,1.0,1
+skin affections alternating with pains in joints,worse by motion,1.0,1
+skin affections alternating with pains in joints,of dissipated men,1.0,1
+skin affections alternating with pains in joints,arthritic nodes of joints,1.0,1
+skin affections alternating with pains in joints,shifting pains,1.0,1
+skin affections alternating with pains in joints,styes,1.0,1
+skin affections alternating with pains in joints,especially hip joints,1.0,1
+skin affections alternating with pains in joints,aching when walking,1.0,1
+skin affections alternating with pains in joints,aching pain around hip joint,1.0,1
+skin affections alternating with pains in joints,all limbs affected,1.0,1
+skin affections alternating with pains in joints,aching when sitting,1.0,1
+skin affections alternating with pains in joints,all joints of back stiff in morning,1.0,1
+skin affections alternating with pains in joints,crural neuralgic pain stitching,1.0,1
+skin affections alternating with pains in joints,especially shoulder joints,1.0,1
+skin affections alternating with pains in joints,of debilitated men,1.0,1
+skin affections alternating with pains in joints,pain as after overlifting,1.0,1
+pains gouty in small joints of hands,rheumatic stiffness,1.0,1
+pains gouty in small joints of hands,pain as if broken in small of back,1.0,1
+pains gouty in small joints of hands,pain in morning in bed,1.0,1
+pains gouty in small joints of hands,especially sacral joints,1.0,1
+pains gouty in small joints of hands,lachrymation constant,1.0,1
+pains gouty in small joints of hands,all done after much hard work,1.0,1
+pains gouty in small joints of hands,pain as from a sprain in right shoulder,1.0,1
+pains gouty in small joints of hands,worse on touch,1.0,1
+pains gouty in small joints of hands,stitches in knee,1.0,1
+pains gouty in small joints of hands,pressure in neck,1.0,1
+pains gouty in small joints of hands,chronic gout,1.0,1
+pains gouty in small joints of hands,tearing pain while sitting,1.0,1
+pains gouty in small joints of hands,stitches in knee joints,1.0,1
+pains gouty in small joints of hands,sensation of burning stitches in hollows of knees,1.0,1
+pains gouty in small joints of hands,especially of left index,1.0,1
+pains gouty in small joints of hands,many nodes on parts,1.0,1
+pains gouty in small joints of hands,ailments from mortification,1.0,1
+pains gouty in small joints of hands,crural neuralgic pain stinging,1.0,1
+pains gouty in small joints of hands,nervous weakness,1.0,1
+pains gouty in small joints of hands,tearing pain in muscles of another leg,1.0,1
+pains gouty in small joints of hands,violent pressing in left shoulder joint,1.0,1
+pains gouty in small joints of hands,phalanges of fingers affected,1.0,1
+pains gouty in small joints of hands,crural neuralgic pain during motion,1.0,1
+pains gouty in small joints of hands,paralytic drawing pain in first joints of fingers,1.0,1
+pains gouty in small joints of hands,pains gouty in small joints of feet,1.0,1
+pains gouty in small joints of hands,tearing pain while standing,1.0,1
+pains gouty in small joints of hands,pain only on motion,1.0,1
+pains gouty in small joints of hands,eyes feel as if very dry,1.0,1
+pains gouty in small joints of hands,arthritic nodes on fingers,1.0,1
+pains gouty in small joints of hands,tension in neck,1.0,1
+pains gouty in small joints of hands,pains extend into teeth,1.0,1
+pains gouty in small joints of hands,drawing in neck,1.0,1
+pains gouty in small joints of hands,not improved by any motion,1.0,1
+pains gouty in small joints of hands,dull sticking pain in shoulder joint,1.0,1
+pains gouty in small joints of hands,gouty rheumatic pains,1.0,1
+pains gouty in small joints of hands,skin affections alternating with pains in joints,1.0,1
+pains gouty in small joints of hands,everything is sore,1.0,1
+pains gouty in small joints of hands,eyes burn on least exertion,1.0,1
+pains gouty in small joints of hands,exceedingly severe pain in right leg,1.0,1
+pains gouty in small joints of hands,worse by motion,1.0,1
+pains gouty in small joints of hands,of dissipated men,1.0,1
+pains gouty in small joints of hands,arthritic nodes of joints,1.0,1
+pains gouty in small joints of hands,shifting pains,1.0,1
+pains gouty in small joints of hands,styes,1.0,1
+pains gouty in small joints of hands,especially hip joints,1.0,1
+pains gouty in small joints of hands,aching when walking,1.0,1
+pains gouty in small joints of hands,aching pain around hip joint,1.0,1
+pains gouty in small joints of hands,all limbs affected,1.0,1
+pains gouty in small joints of hands,aching when sitting,1.0,1
+pains gouty in small joints of hands,all joints of back stiff in morning,1.0,1
+pains gouty in small joints of hands,crural neuralgic pain stitching,1.0,1
+pains gouty in small joints of hands,especially shoulder joints,1.0,1
+pains gouty in small joints of hands,of debilitated men,1.0,1
+pains gouty in small joints of hands,pain as after overlifting,1.0,1
+shifting pains,rheumatic stiffness,1.0,1
+shifting pains,pains gouty in small joints of hands,1.0,1
+shifting pains,pain as if broken in small of back,1.0,1
+shifting pains,pain in morning in bed,1.0,1
+shifting pains,especially sacral joints,1.0,1
+shifting pains,lachrymation constant,1.0,1
+shifting pains,all done after much hard work,1.0,1
+shifting pains,pain as from a sprain in right shoulder,1.0,1
+shifting pains,worse on touch,1.0,1
+shifting pains,stitches in knee,1.0,1
+shifting pains,pressure in neck,1.0,1
+shifting pains,chronic gout,1.0,1
+shifting pains,tearing pain while sitting,1.0,1
+shifting pains,stitches in knee joints,1.0,1
+shifting pains,sensation of burning stitches in hollows of knees,1.0,1
+shifting pains,especially of left index,1.0,1
+shifting pains,many nodes on parts,1.0,1
+shifting pains,ailments from mortification,1.0,1
+shifting pains,crural neuralgic pain stinging,1.0,1
+shifting pains,nervous weakness,1.0,1
+shifting pains,tearing pain in muscles of another leg,1.0,1
+shifting pains,violent pressing in left shoulder joint,1.0,1
+shifting pains,phalanges of fingers affected,1.0,1
+shifting pains,crural neuralgic pain during motion,1.0,1
+shifting pains,paralytic drawing pain in first joints of fingers,1.0,1
+shifting pains,pains gouty in small joints of feet,1.0,1
+shifting pains,tearing pain while standing,1.0,1
+shifting pains,pain only on motion,1.0,1
+shifting pains,eyes feel as if very dry,1.0,1
+shifting pains,arthritic nodes on fingers,1.0,1
+shifting pains,tension in neck,1.0,1
+shifting pains,pains extend into teeth,1.0,1
+shifting pains,drawing in neck,1.0,1
+shifting pains,not improved by any motion,1.0,1
+shifting pains,dull sticking pain in shoulder joint,1.0,1
+shifting pains,gouty rheumatic pains,1.0,1
+shifting pains,skin affections alternating with pains in joints,1.0,1
+shifting pains,everything is sore,1.0,1
+shifting pains,eyes burn on least exertion,1.0,1
+shifting pains,exceedingly severe pain in right leg,1.0,1
+shifting pains,worse by motion,1.0,1
+shifting pains,of dissipated men,1.0,1
+shifting pains,arthritic nodes of joints,1.0,1
+shifting pains,styes,1.0,1
+shifting pains,especially hip joints,1.0,1
+shifting pains,aching when walking,1.0,1
+shifting pains,aching pain around hip joint,1.0,1
+shifting pains,all limbs affected,1.0,1
+shifting pains,aching when sitting,1.0,1
+shifting pains,all joints of back stiff in morning,1.0,1
+shifting pains,crural neuralgic pain stitching,1.0,1
+shifting pains,especially shoulder joints,1.0,1
+shifting pains,of debilitated men,1.0,1
+shifting pains,pain as after overlifting,1.0,1
+pains gouty in small joints of feet,rheumatic stiffness,1.0,1
+pains gouty in small joints of feet,pains gouty in small joints of hands,1.0,1
+pains gouty in small joints of feet,pain as if broken in small of back,1.0,1
+pains gouty in small joints of feet,pain in morning in bed,1.0,1
+pains gouty in small joints of feet,especially sacral joints,1.0,1
+pains gouty in small joints of feet,lachrymation constant,1.0,1
+pains gouty in small joints of feet,all done after much hard work,1.0,1
+pains gouty in small joints of feet,pain as from a sprain in right shoulder,1.0,1
+pains gouty in small joints of feet,worse on touch,1.0,1
+pains gouty in small joints of feet,stitches in knee,1.0,1
+pains gouty in small joints of feet,pressure in neck,1.0,1
+pains gouty in small joints of feet,chronic gout,1.0,1
+pains gouty in small joints of feet,tearing pain while sitting,1.0,1
+pains gouty in small joints of feet,stitches in knee joints,1.0,1
+pains gouty in small joints of feet,sensation of burning stitches in hollows of knees,1.0,1
+pains gouty in small joints of feet,especially of left index,1.0,1
+pains gouty in small joints of feet,many nodes on parts,1.0,1
+pains gouty in small joints of feet,ailments from mortification,1.0,1
+pains gouty in small joints of feet,crural neuralgic pain stinging,1.0,1
+pains gouty in small joints of feet,nervous weakness,1.0,1
+pains gouty in small joints of feet,tearing pain in muscles of another leg,1.0,1
+pains gouty in small joints of feet,violent pressing in left shoulder joint,1.0,1
+pains gouty in small joints of feet,phalanges of fingers affected,1.0,1
+pains gouty in small joints of feet,crural neuralgic pain during motion,1.0,1
+pains gouty in small joints of feet,paralytic drawing pain in first joints of fingers,1.0,1
+pains gouty in small joints of feet,tearing pain while standing,1.0,1
+pains gouty in small joints of feet,pain only on motion,1.0,1
+pains gouty in small joints of feet,eyes feel as if very dry,1.0,1
+pains gouty in small joints of feet,arthritic nodes on fingers,1.0,1
+pains gouty in small joints of feet,tension in neck,1.0,1
+pains gouty in small joints of feet,pains extend into teeth,1.0,1
+pains gouty in small joints of feet,drawing in neck,1.0,1
+pains gouty in small joints of feet,not improved by any motion,1.0,1
+pains gouty in small joints of feet,dull sticking pain in shoulder joint,1.0,1
+pains gouty in small joints of feet,gouty rheumatic pains,1.0,1
+pains gouty in small joints of feet,skin affections alternating with pains in joints,1.0,1
+pains gouty in small joints of feet,everything is sore,1.0,1
+pains gouty in small joints of feet,eyes burn on least exertion,1.0,1
+pains gouty in small joints of feet,exceedingly severe pain in right leg,1.0,1
+pains gouty in small joints of feet,worse by motion,1.0,1
+pains gouty in small joints of feet,of dissipated men,1.0,1
+pains gouty in small joints of feet,arthritic nodes of joints,1.0,1
+pains gouty in small joints of feet,shifting pains,1.0,1
+pains gouty in small joints of feet,styes,1.0,1
+pains gouty in small joints of feet,especially hip joints,1.0,1
+pains gouty in small joints of feet,aching when walking,1.0,1
+pains gouty in small joints of feet,aching pain around hip joint,1.0,1
+pains gouty in small joints of feet,all limbs affected,1.0,1
+pains gouty in small joints of feet,aching when sitting,1.0,1
+pains gouty in small joints of feet,all joints of back stiff in morning,1.0,1
+pains gouty in small joints of feet,crural neuralgic pain stitching,1.0,1
+pains gouty in small joints of feet,especially shoulder joints,1.0,1
+pains gouty in small joints of feet,of debilitated men,1.0,1
+pains gouty in small joints of feet,pain as after overlifting,1.0,1
+all limbs affected,rheumatic stiffness,1.0,1
+all limbs affected,pains gouty in small joints of hands,1.0,1
+all limbs affected,pain as if broken in small of back,1.0,1
+all limbs affected,pain in morning in bed,1.0,1
+all limbs affected,especially sacral joints,1.0,1
+all limbs affected,lachrymation constant,1.0,1
+all limbs affected,all done after much hard work,1.0,1
+all limbs affected,pain as from a sprain in right shoulder,1.0,1
+all limbs affected,worse on touch,1.0,1
+all limbs affected,stitches in knee,1.0,1
+all limbs affected,pressure in neck,1.0,1
+all limbs affected,chronic gout,1.0,1
+all limbs affected,tearing pain while sitting,1.0,1
+all limbs affected,stitches in knee joints,1.0,1
+all limbs affected,sensation of burning stitches in hollows of knees,1.0,1
+all limbs affected,especially of left index,1.0,1
+all limbs affected,many nodes on parts,1.0,1
+all limbs affected,ailments from mortification,1.0,1
+all limbs affected,crural neuralgic pain stinging,1.0,1
+all limbs affected,nervous weakness,1.0,1
+all limbs affected,tearing pain in muscles of another leg,1.0,1
+all limbs affected,violent pressing in left shoulder joint,1.0,1
+all limbs affected,phalanges of fingers affected,1.0,1
+all limbs affected,crural neuralgic pain during motion,1.0,1
+all limbs affected,paralytic drawing pain in first joints of fingers,1.0,1
+all limbs affected,pains gouty in small joints of feet,1.0,1
+all limbs affected,tearing pain while standing,1.0,1
+all limbs affected,pain only on motion,1.0,1
+all limbs affected,eyes feel as if very dry,1.0,1
+all limbs affected,arthritic nodes on fingers,1.0,1
+all limbs affected,tension in neck,1.0,1
+all limbs affected,pains extend into teeth,1.0,1
+all limbs affected,drawing in neck,1.0,1
+all limbs affected,not improved by any motion,1.0,1
+all limbs affected,dull sticking pain in shoulder joint,1.0,1
+all limbs affected,gouty rheumatic pains,1.0,1
+all limbs affected,skin affections alternating with pains in joints,1.0,1
+all limbs affected,everything is sore,1.0,1
+all limbs affected,eyes burn on least exertion,1.0,1
+all limbs affected,exceedingly severe pain in right leg,1.0,1
+all limbs affected,worse by motion,1.0,1
+all limbs affected,of dissipated men,1.0,1
+all limbs affected,arthritic nodes of joints,1.0,1
+all limbs affected,shifting pains,1.0,1
+all limbs affected,styes,1.0,1
+all limbs affected,especially hip joints,1.0,1
+all limbs affected,aching when walking,1.0,1
+all limbs affected,aching pain around hip joint,1.0,1
+all limbs affected,aching when sitting,1.0,1
+all limbs affected,all joints of back stiff in morning,1.0,1
+all limbs affected,crural neuralgic pain stitching,1.0,1
+all limbs affected,especially shoulder joints,1.0,1
+all limbs affected,of debilitated men,1.0,1
+all limbs affected,pain as after overlifting,1.0,1
+chronic gout,rheumatic stiffness,1.0,1
+chronic gout,pains gouty in small joints of hands,1.0,1
+chronic gout,pain as if broken in small of back,1.0,1
+chronic gout,pain in morning in bed,1.0,1
+chronic gout,especially sacral joints,1.0,1
+chronic gout,lachrymation constant,1.0,1
+chronic gout,all done after much hard work,1.0,1
+chronic gout,pain as from a sprain in right shoulder,1.0,1
+chronic gout,worse on touch,1.0,1
+chronic gout,stitches in knee,1.0,1
+chronic gout,pressure in neck,1.0,1
+chronic gout,tearing pain while sitting,1.0,1
+chronic gout,stitches in knee joints,1.0,1
+chronic gout,sensation of burning stitches in hollows of knees,1.0,1
+chronic gout,especially of left index,1.0,1
+chronic gout,many nodes on parts,1.0,1
+chronic gout,ailments from mortification,1.0,1
+chronic gout,crural neuralgic pain stinging,1.0,1
+chronic gout,nervous weakness,1.0,1
+chronic gout,tearing pain in muscles of another leg,1.0,1
+chronic gout,violent pressing in left shoulder joint,1.0,1
+chronic gout,phalanges of fingers affected,1.0,1
+chronic gout,crural neuralgic pain during motion,1.0,1
+chronic gout,paralytic drawing pain in first joints of fingers,1.0,1
+chronic gout,pains gouty in small joints of feet,1.0,1
+chronic gout,tearing pain while standing,1.0,1
+chronic gout,pain only on motion,1.0,1
+chronic gout,eyes feel as if very dry,1.0,1
+chronic gout,arthritic nodes on fingers,1.0,1
+chronic gout,tension in neck,1.0,1
+chronic gout,pains extend into teeth,1.0,1
+chronic gout,drawing in neck,1.0,1
+chronic gout,not improved by any motion,1.0,1
+chronic gout,dull sticking pain in shoulder joint,1.0,1
+chronic gout,gouty rheumatic pains,1.0,1
+chronic gout,skin affections alternating with pains in joints,1.0,1
+chronic gout,everything is sore,1.0,1
+chronic gout,eyes burn on least exertion,1.0,1
+chronic gout,exceedingly severe pain in right leg,1.0,1
+chronic gout,worse by motion,1.0,1
+chronic gout,of dissipated men,1.0,1
+chronic gout,arthritic nodes of joints,1.0,1
+chronic gout,shifting pains,1.0,1
+chronic gout,styes,1.0,1
+chronic gout,especially hip joints,1.0,1
+chronic gout,aching when walking,1.0,1
+chronic gout,aching pain around hip joint,1.0,1
+chronic gout,all limbs affected,1.0,1
+chronic gout,aching when sitting,1.0,1
+chronic gout,all joints of back stiff in morning,1.0,1
+chronic gout,crural neuralgic pain stitching,1.0,1
+chronic gout,especially shoulder joints,1.0,1
+chronic gout,of debilitated men,1.0,1
+chronic gout,pain as after overlifting,1.0,1
+pain as from a sprain in right shoulder,rheumatic stiffness,1.0,1
+pain as from a sprain in right shoulder,pains gouty in small joints of hands,1.0,1
+pain as from a sprain in right shoulder,pain as if broken in small of back,1.0,1
+pain as from a sprain in right shoulder,pain in morning in bed,1.0,1
+pain as from a sprain in right shoulder,especially sacral joints,1.0,1
+pain as from a sprain in right shoulder,lachrymation constant,1.0,1
+pain as from a sprain in right shoulder,all done after much hard work,1.0,1
+pain as from a sprain in right shoulder,worse on touch,1.0,1
+pain as from a sprain in right shoulder,stitches in knee,1.0,1
+pain as from a sprain in right shoulder,pressure in neck,1.0,1
+pain as from a sprain in right shoulder,chronic gout,1.0,1
+pain as from a sprain in right shoulder,tearing pain while sitting,1.0,1
+pain as from a sprain in right shoulder,stitches in knee joints,1.0,1
+pain as from a sprain in right shoulder,sensation of burning stitches in hollows of knees,1.0,1
+pain as from a sprain in right shoulder,especially of left index,1.0,1
+pain as from a sprain in right shoulder,many nodes on parts,1.0,1
+pain as from a sprain in right shoulder,ailments from mortification,1.0,1
+pain as from a sprain in right shoulder,crural neuralgic pain stinging,1.0,1
+pain as from a sprain in right shoulder,nervous weakness,1.0,1
+pain as from a sprain in right shoulder,tearing pain in muscles of another leg,1.0,1
+pain as from a sprain in right shoulder,violent pressing in left shoulder joint,1.0,1
+pain as from a sprain in right shoulder,phalanges of fingers affected,1.0,1
+pain as from a sprain in right shoulder,crural neuralgic pain during motion,1.0,1
+pain as from a sprain in right shoulder,paralytic drawing pain in first joints of fingers,1.0,1
+pain as from a sprain in right shoulder,pains gouty in small joints of feet,1.0,1
+pain as from a sprain in right shoulder,tearing pain while standing,1.0,1
+pain as from a sprain in right shoulder,pain only on motion,1.0,1
+pain as from a sprain in right shoulder,eyes feel as if very dry,1.0,1
+pain as from a sprain in right shoulder,arthritic nodes on fingers,1.0,1
+pain as from a sprain in right shoulder,tension in neck,1.0,1
+pain as from a sprain in right shoulder,pains extend into teeth,1.0,1
+pain as from a sprain in right shoulder,drawing in neck,1.0,1
+pain as from a sprain in right shoulder,not improved by any motion,1.0,1
+pain as from a sprain in right shoulder,dull sticking pain in shoulder joint,1.0,1
+pain as from a sprain in right shoulder,gouty rheumatic pains,1.0,1
+pain as from a sprain in right shoulder,skin affections alternating with pains in joints,1.0,1
+pain as from a sprain in right shoulder,everything is sore,1.0,1
+pain as from a sprain in right shoulder,eyes burn on least exertion,1.0,1
+pain as from a sprain in right shoulder,exceedingly severe pain in right leg,1.0,1
+pain as from a sprain in right shoulder,worse by motion,1.0,1
+pain as from a sprain in right shoulder,of dissipated men,1.0,1
+pain as from a sprain in right shoulder,arthritic nodes of joints,1.0,1
+pain as from a sprain in right shoulder,shifting pains,1.0,1
+pain as from a sprain in right shoulder,styes,1.0,1
+pain as from a sprain in right shoulder,especially hip joints,1.0,1
+pain as from a sprain in right shoulder,aching when walking,1.0,1
+pain as from a sprain in right shoulder,aching pain around hip joint,1.0,1
+pain as from a sprain in right shoulder,all limbs affected,1.0,1
+pain as from a sprain in right shoulder,aching when sitting,1.0,1
+pain as from a sprain in right shoulder,all joints of back stiff in morning,1.0,1
+pain as from a sprain in right shoulder,crural neuralgic pain stitching,1.0,1
+pain as from a sprain in right shoulder,especially shoulder joints,1.0,1
+pain as from a sprain in right shoulder,of debilitated men,1.0,1
+pain as from a sprain in right shoulder,pain as after overlifting,1.0,1
+aching when sitting,rheumatic stiffness,1.0,1
+aching when sitting,pains gouty in small joints of hands,1.0,1
+aching when sitting,pain as if broken in small of back,1.0,1
+aching when sitting,pain in morning in bed,1.0,1
+aching when sitting,especially sacral joints,1.0,1
+aching when sitting,lachrymation constant,1.0,1
+aching when sitting,all done after much hard work,1.0,1
+aching when sitting,pain as from a sprain in right shoulder,1.0,1
+aching when sitting,worse on touch,1.0,1
+aching when sitting,stitches in knee,1.0,1
+aching when sitting,pressure in neck,1.0,1
+aching when sitting,chronic gout,1.0,1
+aching when sitting,tearing pain while sitting,1.0,1
+aching when sitting,stitches in knee joints,1.0,1
+aching when sitting,sensation of burning stitches in hollows of knees,1.0,1
+aching when sitting,especially of left index,1.0,1
+aching when sitting,many nodes on parts,1.0,1
+aching when sitting,ailments from mortification,1.0,1
+aching when sitting,crural neuralgic pain stinging,1.0,1
+aching when sitting,nervous weakness,1.0,1
+aching when sitting,tearing pain in muscles of another leg,1.0,1
+aching when sitting,violent pressing in left shoulder joint,1.0,1
+aching when sitting,phalanges of fingers affected,1.0,1
+aching when sitting,crural neuralgic pain during motion,1.0,1
+aching when sitting,paralytic drawing pain in first joints of fingers,1.0,1
+aching when sitting,pains gouty in small joints of feet,1.0,1
+aching when sitting,tearing pain while standing,1.0,1
+aching when sitting,pain only on motion,1.0,1
+aching when sitting,eyes feel as if very dry,1.0,1
+aching when sitting,arthritic nodes on fingers,1.0,1
+aching when sitting,tension in neck,1.0,1
+aching when sitting,pains extend into teeth,1.0,1
+aching when sitting,drawing in neck,1.0,1
+aching when sitting,not improved by any motion,1.0,1
+aching when sitting,dull sticking pain in shoulder joint,1.0,1
+aching when sitting,gouty rheumatic pains,1.0,1
+aching when sitting,skin affections alternating with pains in joints,1.0,1
+aching when sitting,everything is sore,1.0,1
+aching when sitting,eyes burn on least exertion,1.0,1
+aching when sitting,exceedingly severe pain in right leg,1.0,1
+aching when sitting,worse by motion,1.0,1
+aching when sitting,of dissipated men,1.0,1
+aching when sitting,arthritic nodes of joints,1.0,1
+aching when sitting,shifting pains,1.0,1
+aching when sitting,styes,1.0,1
+aching when sitting,especially hip joints,1.0,1
+aching when sitting,aching when walking,1.0,1
+aching when sitting,aching pain around hip joint,1.0,1
+aching when sitting,all limbs affected,1.0,1
+aching when sitting,all joints of back stiff in morning,1.0,1
+aching when sitting,crural neuralgic pain stitching,1.0,1
+aching when sitting,especially shoulder joints,1.0,1
+aching when sitting,of debilitated men,1.0,1
+aching when sitting,pain as after overlifting,1.0,1
+many nodes on parts,rheumatic stiffness,1.0,1
+many nodes on parts,pains gouty in small joints of hands,1.0,1
+many nodes on parts,pain as if broken in small of back,1.0,1
+many nodes on parts,pain in morning in bed,1.0,1
+many nodes on parts,especially sacral joints,1.0,1
+many nodes on parts,lachrymation constant,1.0,1
+many nodes on parts,all done after much hard work,1.0,1
+many nodes on parts,pain as from a sprain in right shoulder,1.0,1
+many nodes on parts,worse on touch,1.0,1
+many nodes on parts,stitches in knee,1.0,1
+many nodes on parts,pressure in neck,1.0,1
+many nodes on parts,chronic gout,1.0,1
+many nodes on parts,tearing pain while sitting,1.0,1
+many nodes on parts,stitches in knee joints,1.0,1
+many nodes on parts,sensation of burning stitches in hollows of knees,1.0,1
+many nodes on parts,especially of left index,1.0,1
+many nodes on parts,ailments from mortification,1.0,1
+many nodes on parts,crural neuralgic pain stinging,1.0,1
+many nodes on parts,nervous weakness,1.0,1
+many nodes on parts,tearing pain in muscles of another leg,1.0,1
+many nodes on parts,violent pressing in left shoulder joint,1.0,1
+many nodes on parts,phalanges of fingers affected,1.0,1
+many nodes on parts,crural neuralgic pain during motion,1.0,1
+many nodes on parts,paralytic drawing pain in first joints of fingers,1.0,1
+many nodes on parts,pains gouty in small joints of feet,1.0,1
+many nodes on parts,tearing pain while standing,1.0,1
+many nodes on parts,pain only on motion,1.0,1
+many nodes on parts,eyes feel as if very dry,1.0,1
+many nodes on parts,arthritic nodes on fingers,1.0,1
+many nodes on parts,tension in neck,1.0,1
+many nodes on parts,pains extend into teeth,1.0,1
+many nodes on parts,drawing in neck,1.0,1
+many nodes on parts,not improved by any motion,1.0,1
+many nodes on parts,dull sticking pain in shoulder joint,1.0,1
+many nodes on parts,gouty rheumatic pains,1.0,1
+many nodes on parts,skin affections alternating with pains in joints,1.0,1
+many nodes on parts,everything is sore,1.0,1
+many nodes on parts,eyes burn on least exertion,1.0,1
+many nodes on parts,exceedingly severe pain in right leg,1.0,1
+many nodes on parts,worse by motion,1.0,1
+many nodes on parts,of dissipated men,1.0,1
+many nodes on parts,arthritic nodes of joints,1.0,1
+many nodes on parts,shifting pains,1.0,1
+many nodes on parts,styes,1.0,1
+many nodes on parts,especially hip joints,1.0,1
+many nodes on parts,aching when walking,1.0,1
+many nodes on parts,aching pain around hip joint,1.0,1
+many nodes on parts,all limbs affected,1.0,1
+many nodes on parts,aching when sitting,1.0,1
+many nodes on parts,all joints of back stiff in morning,1.0,1
+many nodes on parts,crural neuralgic pain stitching,1.0,1
+many nodes on parts,especially shoulder joints,1.0,1
+many nodes on parts,of debilitated men,1.0,1
+many nodes on parts,pain as after overlifting,1.0,1
+worse on touch,rheumatic stiffness,1.0,1
+worse on touch,pains gouty in small joints of hands,1.0,1
+worse on touch,pain as if broken in small of back,1.0,1
+worse on touch,pain in morning in bed,1.0,1
+worse on touch,especially sacral joints,1.0,1
+worse on touch,lachrymation constant,1.0,1
+worse on touch,all done after much hard work,1.0,1
+worse on touch,pain as from a sprain in right shoulder,1.0,1
+worse on touch,stitches in knee,1.0,1
+worse on touch,pressure in neck,1.0,1
+worse on touch,chronic gout,1.0,1
+worse on touch,tearing pain while sitting,1.0,1
+worse on touch,stitches in knee joints,1.0,1
+worse on touch,sensation of burning stitches in hollows of knees,1.0,1
+worse on touch,especially of left index,1.0,1
+worse on touch,many nodes on parts,1.0,1
+worse on touch,ailments from mortification,1.0,1
+worse on touch,crural neuralgic pain stinging,1.0,1
+worse on touch,nervous weakness,1.0,1
+worse on touch,tearing pain in muscles of another leg,1.0,1
+worse on touch,violent pressing in left shoulder joint,1.0,1
+worse on touch,phalanges of fingers affected,1.0,1
+worse on touch,crural neuralgic pain during motion,1.0,1
+worse on touch,paralytic drawing pain in first joints of fingers,1.0,1
+worse on touch,pains gouty in small joints of feet,1.0,1
+worse on touch,tearing pain while standing,1.0,1
+worse on touch,pain only on motion,1.0,1
+worse on touch,eyes feel as if very dry,1.0,1
+worse on touch,arthritic nodes on fingers,1.0,1
+worse on touch,tension in neck,1.0,1
+worse on touch,pains extend into teeth,1.0,1
+worse on touch,drawing in neck,1.0,1
+worse on touch,not improved by any motion,1.0,1
+worse on touch,dull sticking pain in shoulder joint,1.0,1
+worse on touch,gouty rheumatic pains,1.0,1
+worse on touch,skin affections alternating with pains in joints,1.0,1
+worse on touch,everything is sore,1.0,1
+worse on touch,eyes burn on least exertion,1.0,1
+worse on touch,exceedingly severe pain in right leg,1.0,1
+worse on touch,worse by motion,1.0,1
+worse on touch,of dissipated men,1.0,1
+worse on touch,arthritic nodes of joints,1.0,1
+worse on touch,shifting pains,1.0,1
+worse on touch,styes,1.0,1
+worse on touch,especially hip joints,1.0,1
+worse on touch,aching when walking,1.0,1
+worse on touch,aching pain around hip joint,1.0,1
+worse on touch,all limbs affected,1.0,1
+worse on touch,aching when sitting,1.0,1
+worse on touch,all joints of back stiff in morning,1.0,1
+worse on touch,crural neuralgic pain stitching,1.0,1
+worse on touch,especially shoulder joints,1.0,1
+worse on touch,of debilitated men,1.0,1
+worse on touch,pain as after overlifting,1.0,1
+tearing pain while standing,rheumatic stiffness,1.0,1
+tearing pain while standing,pains gouty in small joints of hands,1.0,1
+tearing pain while standing,pain as if broken in small of back,1.0,1
+tearing pain while standing,pain in morning in bed,1.0,1
+tearing pain while standing,especially sacral joints,1.0,1
+tearing pain while standing,lachrymation constant,1.0,1
+tearing pain while standing,all done after much hard work,1.0,1
+tearing pain while standing,pain as from a sprain in right shoulder,1.0,1
+tearing pain while standing,worse on touch,1.0,1
+tearing pain while standing,stitches in knee,1.0,1
+tearing pain while standing,pressure in neck,1.0,1
+tearing pain while standing,chronic gout,1.0,1
+tearing pain while standing,tearing pain while sitting,1.0,1
+tearing pain while standing,stitches in knee joints,1.0,1
+tearing pain while standing,sensation of burning stitches in hollows of knees,1.0,1
+tearing pain while standing,especially of left index,1.0,1
+tearing pain while standing,many nodes on parts,1.0,1
+tearing pain while standing,ailments from mortification,1.0,1
+tearing pain while standing,crural neuralgic pain stinging,1.0,1
+tearing pain while standing,nervous weakness,1.0,1
+tearing pain while standing,tearing pain in muscles of another leg,1.0,1
+tearing pain while standing,violent pressing in left shoulder joint,1.0,1
+tearing pain while standing,phalanges of fingers affected,1.0,1
+tearing pain while standing,crural neuralgic pain during motion,1.0,1
+tearing pain while standing,paralytic drawing pain in first joints of fingers,1.0,1
+tearing pain while standing,pains gouty in small joints of feet,1.0,1
+tearing pain while standing,pain only on motion,1.0,1
+tearing pain while standing,eyes feel as if very dry,1.0,1
+tearing pain while standing,arthritic nodes on fingers,1.0,1
+tearing pain while standing,tension in neck,1.0,1
+tearing pain while standing,pains extend into teeth,1.0,1
+tearing pain while standing,drawing in neck,1.0,1
+tearing pain while standing,not improved by any motion,1.0,1
+tearing pain while standing,dull sticking pain in shoulder joint,1.0,1
+tearing pain while standing,gouty rheumatic pains,1.0,1
+tearing pain while standing,skin affections alternating with pains in joints,1.0,1
+tearing pain while standing,everything is sore,1.0,1
+tearing pain while standing,eyes burn on least exertion,1.0,1
+tearing pain while standing,exceedingly severe pain in right leg,1.0,1
+tearing pain while standing,worse by motion,1.0,1
+tearing pain while standing,of dissipated men,1.0,1
+tearing pain while standing,arthritic nodes of joints,1.0,1
+tearing pain while standing,shifting pains,1.0,1
+tearing pain while standing,styes,1.0,1
+tearing pain while standing,especially hip joints,1.0,1
+tearing pain while standing,aching when walking,1.0,1
+tearing pain while standing,aching pain around hip joint,1.0,1
+tearing pain while standing,all limbs affected,1.0,1
+tearing pain while standing,aching when sitting,1.0,1
+tearing pain while standing,all joints of back stiff in morning,1.0,1
+tearing pain while standing,crural neuralgic pain stitching,1.0,1
+tearing pain while standing,especially shoulder joints,1.0,1
+tearing pain while standing,of debilitated men,1.0,1
+tearing pain while standing,pain as after overlifting,1.0,1
+ailments from mortification,rheumatic stiffness,1.0,1
+ailments from mortification,pains gouty in small joints of hands,1.0,1
+ailments from mortification,pain as if broken in small of back,1.0,1
+ailments from mortification,pain in morning in bed,1.0,1
+ailments from mortification,especially sacral joints,1.0,1
+ailments from mortification,lachrymation constant,1.0,1
+ailments from mortification,all done after much hard work,1.0,1
+ailments from mortification,pain as from a sprain in right shoulder,1.0,1
+ailments from mortification,worse on touch,1.0,1
+ailments from mortification,stitches in knee,1.0,1
+ailments from mortification,pressure in neck,1.0,1
+ailments from mortification,chronic gout,1.0,1
+ailments from mortification,tearing pain while sitting,1.0,1
+ailments from mortification,stitches in knee joints,1.0,1
+ailments from mortification,sensation of burning stitches in hollows of knees,1.0,1
+ailments from mortification,especially of left index,1.0,1
+ailments from mortification,many nodes on parts,1.0,1
+ailments from mortification,crural neuralgic pain stinging,1.0,1
+ailments from mortification,nervous weakness,1.0,1
+ailments from mortification,tearing pain in muscles of another leg,1.0,1
+ailments from mortification,violent pressing in left shoulder joint,1.0,1
+ailments from mortification,phalanges of fingers affected,1.0,1
+ailments from mortification,crural neuralgic pain during motion,1.0,1
+ailments from mortification,paralytic drawing pain in first joints of fingers,1.0,1
+ailments from mortification,pains gouty in small joints of feet,1.0,1
+ailments from mortification,tearing pain while standing,1.0,1
+ailments from mortification,pain only on motion,1.0,1
+ailments from mortification,eyes feel as if very dry,1.0,1
+ailments from mortification,arthritic nodes on fingers,1.0,1
+ailments from mortification,tension in neck,1.0,1
+ailments from mortification,pains extend into teeth,1.0,1
+ailments from mortification,drawing in neck,1.0,1
+ailments from mortification,not improved by any motion,1.0,1
+ailments from mortification,dull sticking pain in shoulder joint,1.0,1
+ailments from mortification,gouty rheumatic pains,1.0,1
+ailments from mortification,skin affections alternating with pains in joints,1.0,1
+ailments from mortification,everything is sore,1.0,1
+ailments from mortification,eyes burn on least exertion,1.0,1
+ailments from mortification,exceedingly severe pain in right leg,1.0,1
+ailments from mortification,worse by motion,1.0,1
+ailments from mortification,of dissipated men,1.0,1
+ailments from mortification,arthritic nodes of joints,1.0,1
+ailments from mortification,shifting pains,1.0,1
+ailments from mortification,styes,1.0,1
+ailments from mortification,especially hip joints,1.0,1
+ailments from mortification,aching when walking,1.0,1
+ailments from mortification,aching pain around hip joint,1.0,1
+ailments from mortification,all limbs affected,1.0,1
+ailments from mortification,aching when sitting,1.0,1
+ailments from mortification,all joints of back stiff in morning,1.0,1
+ailments from mortification,crural neuralgic pain stitching,1.0,1
+ailments from mortification,especially shoulder joints,1.0,1
+ailments from mortification,of debilitated men,1.0,1
+ailments from mortification,pain as after overlifting,1.0,1
+tearing pain in muscles of another leg,rheumatic stiffness,1.0,1
+tearing pain in muscles of another leg,pains gouty in small joints of hands,1.0,1
+tearing pain in muscles of another leg,pain as if broken in small of back,1.0,1
+tearing pain in muscles of another leg,pain in morning in bed,1.0,1
+tearing pain in muscles of another leg,especially sacral joints,1.0,1
+tearing pain in muscles of another leg,lachrymation constant,1.0,1
+tearing pain in muscles of another leg,all done after much hard work,1.0,1
+tearing pain in muscles of another leg,pain as from a sprain in right shoulder,1.0,1
+tearing pain in muscles of another leg,worse on touch,1.0,1
+tearing pain in muscles of another leg,stitches in knee,1.0,1
+tearing pain in muscles of another leg,pressure in neck,1.0,1
+tearing pain in muscles of another leg,chronic gout,1.0,1
+tearing pain in muscles of another leg,tearing pain while sitting,1.0,1
+tearing pain in muscles of another leg,stitches in knee joints,1.0,1
+tearing pain in muscles of another leg,sensation of burning stitches in hollows of knees,1.0,1
+tearing pain in muscles of another leg,especially of left index,1.0,1
+tearing pain in muscles of another leg,many nodes on parts,1.0,1
+tearing pain in muscles of another leg,ailments from mortification,1.0,1
+tearing pain in muscles of another leg,crural neuralgic pain stinging,1.0,1
+tearing pain in muscles of another leg,nervous weakness,1.0,1
+tearing pain in muscles of another leg,violent pressing in left shoulder joint,1.0,1
+tearing pain in muscles of another leg,phalanges of fingers affected,1.0,1
+tearing pain in muscles of another leg,crural neuralgic pain during motion,1.0,1
+tearing pain in muscles of another leg,paralytic drawing pain in first joints of fingers,1.0,1
+tearing pain in muscles of another leg,pains gouty in small joints of feet,1.0,1
+tearing pain in muscles of another leg,tearing pain while standing,1.0,1
+tearing pain in muscles of another leg,pain only on motion,1.0,1
+tearing pain in muscles of another leg,eyes feel as if very dry,1.0,1
+tearing pain in muscles of another leg,arthritic nodes on fingers,1.0,1
+tearing pain in muscles of another leg,tension in neck,1.0,1
+tearing pain in muscles of another leg,pains extend into teeth,1.0,1
+tearing pain in muscles of another leg,drawing in neck,1.0,1
+tearing pain in muscles of another leg,not improved by any motion,1.0,1
+tearing pain in muscles of another leg,dull sticking pain in shoulder joint,1.0,1
+tearing pain in muscles of another leg,gouty rheumatic pains,1.0,1
+tearing pain in muscles of another leg,skin affections alternating with pains in joints,1.0,1
+tearing pain in muscles of another leg,everything is sore,1.0,1
+tearing pain in muscles of another leg,eyes burn on least exertion,1.0,1
+tearing pain in muscles of another leg,exceedingly severe pain in right leg,1.0,1
+tearing pain in muscles of another leg,worse by motion,1.0,1
+tearing pain in muscles of another leg,of dissipated men,1.0,1
+tearing pain in muscles of another leg,arthritic nodes of joints,1.0,1
+tearing pain in muscles of another leg,shifting pains,1.0,1
+tearing pain in muscles of another leg,styes,1.0,1
+tearing pain in muscles of another leg,especially hip joints,1.0,1
+tearing pain in muscles of another leg,aching when walking,1.0,1
+tearing pain in muscles of another leg,aching pain around hip joint,1.0,1
+tearing pain in muscles of another leg,all limbs affected,1.0,1
+tearing pain in muscles of another leg,aching when sitting,1.0,1
+tearing pain in muscles of another leg,all joints of back stiff in morning,1.0,1
+tearing pain in muscles of another leg,crural neuralgic pain stitching,1.0,1
+tearing pain in muscles of another leg,especially shoulder joints,1.0,1
+tearing pain in muscles of another leg,of debilitated men,1.0,1
+tearing pain in muscles of another leg,pain as after overlifting,1.0,1
+aching when walking,rheumatic stiffness,1.0,1
+aching when walking,pains gouty in small joints of hands,1.0,1
+aching when walking,pain as if broken in small of back,1.0,1
+aching when walking,pain in morning in bed,1.0,1
+aching when walking,especially sacral joints,1.0,1
+aching when walking,lachrymation constant,1.0,1
+aching when walking,all done after much hard work,1.0,1
+aching when walking,pain as from a sprain in right shoulder,1.0,1
+aching when walking,worse on touch,1.0,1
+aching when walking,stitches in knee,1.0,1
+aching when walking,pressure in neck,1.0,1
+aching when walking,chronic gout,1.0,1
+aching when walking,tearing pain while sitting,1.0,1
+aching when walking,stitches in knee joints,1.0,1
+aching when walking,sensation of burning stitches in hollows of knees,1.0,1
+aching when walking,especially of left index,1.0,1
+aching when walking,many nodes on parts,1.0,1
+aching when walking,ailments from mortification,1.0,1
+aching when walking,crural neuralgic pain stinging,1.0,1
+aching when walking,nervous weakness,1.0,1
+aching when walking,tearing pain in muscles of another leg,1.0,1
+aching when walking,violent pressing in left shoulder joint,1.0,1
+aching when walking,phalanges of fingers affected,1.0,1
+aching when walking,crural neuralgic pain during motion,1.0,1
+aching when walking,paralytic drawing pain in first joints of fingers,1.0,1
+aching when walking,pains gouty in small joints of feet,1.0,1
+aching when walking,tearing pain while standing,1.0,1
+aching when walking,pain only on motion,1.0,1
+aching when walking,eyes feel as if very dry,1.0,1
+aching when walking,arthritic nodes on fingers,1.0,1
+aching when walking,tension in neck,1.0,1
+aching when walking,pains extend into teeth,1.0,1
+aching when walking,drawing in neck,1.0,1
+aching when walking,not improved by any motion,1.0,1
+aching when walking,dull sticking pain in shoulder joint,1.0,1
+aching when walking,gouty rheumatic pains,1.0,1
+aching when walking,skin affections alternating with pains in joints,1.0,1
+aching when walking,everything is sore,1.0,1
+aching when walking,eyes burn on least exertion,1.0,1
+aching when walking,exceedingly severe pain in right leg,1.0,1
+aching when walking,worse by motion,1.0,1
+aching when walking,of dissipated men,1.0,1
+aching when walking,arthritic nodes of joints,1.0,1
+aching when walking,shifting pains,1.0,1
+aching when walking,styes,1.0,1
+aching when walking,especially hip joints,1.0,1
+aching when walking,aching pain around hip joint,1.0,1
+aching when walking,all limbs affected,1.0,1
+aching when walking,aching when sitting,1.0,1
+aching when walking,all joints of back stiff in morning,1.0,1
+aching when walking,crural neuralgic pain stitching,1.0,1
+aching when walking,especially shoulder joints,1.0,1
+aching when walking,of debilitated men,1.0,1
+aching when walking,pain as after overlifting,1.0,1
+eyes burn on least exertion,rheumatic stiffness,1.0,1
+eyes burn on least exertion,pains gouty in small joints of hands,1.0,1
+eyes burn on least exertion,pain as if broken in small of back,1.0,1
+eyes burn on least exertion,pain in morning in bed,1.0,1
+eyes burn on least exertion,especially sacral joints,1.0,1
+eyes burn on least exertion,lachrymation constant,1.0,1
+eyes burn on least exertion,all done after much hard work,1.0,1
+eyes burn on least exertion,pain as from a sprain in right shoulder,1.0,1
+eyes burn on least exertion,worse on touch,1.0,1
+eyes burn on least exertion,stitches in knee,1.0,1
+eyes burn on least exertion,pressure in neck,1.0,1
+eyes burn on least exertion,chronic gout,1.0,1
+eyes burn on least exertion,tearing pain while sitting,1.0,1
+eyes burn on least exertion,stitches in knee joints,1.0,1
+eyes burn on least exertion,sensation of burning stitches in hollows of knees,1.0,1
+eyes burn on least exertion,especially of left index,1.0,1
+eyes burn on least exertion,many nodes on parts,1.0,1
+eyes burn on least exertion,ailments from mortification,1.0,1
+eyes burn on least exertion,crural neuralgic pain stinging,1.0,1
+eyes burn on least exertion,nervous weakness,1.0,1
+eyes burn on least exertion,tearing pain in muscles of another leg,1.0,1
+eyes burn on least exertion,violent pressing in left shoulder joint,1.0,1
+eyes burn on least exertion,phalanges of fingers affected,1.0,1
+eyes burn on least exertion,crural neuralgic pain during motion,1.0,1
+eyes burn on least exertion,paralytic drawing pain in first joints of fingers,1.0,1
+eyes burn on least exertion,pains gouty in small joints of feet,1.0,1
+eyes burn on least exertion,tearing pain while standing,1.0,1
+eyes burn on least exertion,pain only on motion,1.0,1
+eyes burn on least exertion,eyes feel as if very dry,1.0,1
+eyes burn on least exertion,arthritic nodes on fingers,1.0,1
+eyes burn on least exertion,tension in neck,1.0,1
+eyes burn on least exertion,pains extend into teeth,1.0,1
+eyes burn on least exertion,drawing in neck,1.0,1
+eyes burn on least exertion,not improved by any motion,1.0,1
+eyes burn on least exertion,dull sticking pain in shoulder joint,1.0,1
+eyes burn on least exertion,gouty rheumatic pains,1.0,1
+eyes burn on least exertion,skin affections alternating with pains in joints,1.0,1
+eyes burn on least exertion,everything is sore,1.0,1
+eyes burn on least exertion,exceedingly severe pain in right leg,1.0,1
+eyes burn on least exertion,worse by motion,1.0,1
+eyes burn on least exertion,of dissipated men,1.0,1
+eyes burn on least exertion,arthritic nodes of joints,1.0,1
+eyes burn on least exertion,shifting pains,1.0,1
+eyes burn on least exertion,styes,1.0,1
+eyes burn on least exertion,especially hip joints,1.0,1
+eyes burn on least exertion,aching when walking,1.0,1
+eyes burn on least exertion,aching pain around hip joint,1.0,1
+eyes burn on least exertion,all limbs affected,1.0,1
+eyes burn on least exertion,aching when sitting,1.0,1
+eyes burn on least exertion,all joints of back stiff in morning,1.0,1
+eyes burn on least exertion,crural neuralgic pain stitching,1.0,1
+eyes burn on least exertion,especially shoulder joints,1.0,1
+eyes burn on least exertion,of debilitated men,1.0,1
+eyes burn on least exertion,pain as after overlifting,1.0,1
+stitches in knee joints,rheumatic stiffness,1.0,1
+stitches in knee joints,pains gouty in small joints of hands,1.0,1
+stitches in knee joints,pain as if broken in small of back,1.0,1
+stitches in knee joints,pain in morning in bed,1.0,1
+stitches in knee joints,especially sacral joints,1.0,1
+stitches in knee joints,lachrymation constant,1.0,1
+stitches in knee joints,all done after much hard work,1.0,1
+stitches in knee joints,pain as from a sprain in right shoulder,1.0,1
+stitches in knee joints,worse on touch,1.0,1
+stitches in knee joints,stitches in knee,1.0,1
+stitches in knee joints,pressure in neck,1.0,1
+stitches in knee joints,chronic gout,1.0,1
+stitches in knee joints,tearing pain while sitting,1.0,1
+stitches in knee joints,sensation of burning stitches in hollows of knees,1.0,1
+stitches in knee joints,especially of left index,1.0,1
+stitches in knee joints,many nodes on parts,1.0,1
+stitches in knee joints,ailments from mortification,1.0,1
+stitches in knee joints,crural neuralgic pain stinging,1.0,1
+stitches in knee joints,nervous weakness,1.0,1
+stitches in knee joints,tearing pain in muscles of another leg,1.0,1
+stitches in knee joints,violent pressing in left shoulder joint,1.0,1
+stitches in knee joints,phalanges of fingers affected,1.0,1
+stitches in knee joints,crural neuralgic pain during motion,1.0,1
+stitches in knee joints,paralytic drawing pain in first joints of fingers,1.0,1
+stitches in knee joints,pains gouty in small joints of feet,1.0,1
+stitches in knee joints,tearing pain while standing,1.0,1
+stitches in knee joints,pain only on motion,1.0,1
+stitches in knee joints,eyes feel as if very dry,1.0,1
+stitches in knee joints,arthritic nodes on fingers,1.0,1
+stitches in knee joints,tension in neck,1.0,1
+stitches in knee joints,pains extend into teeth,1.0,1
+stitches in knee joints,drawing in neck,1.0,1
+stitches in knee joints,not improved by any motion,1.0,1
+stitches in knee joints,dull sticking pain in shoulder joint,1.0,1
+stitches in knee joints,gouty rheumatic pains,1.0,1
+stitches in knee joints,skin affections alternating with pains in joints,1.0,1
+stitches in knee joints,everything is sore,1.0,1
+stitches in knee joints,eyes burn on least exertion,1.0,1
+stitches in knee joints,exceedingly severe pain in right leg,1.0,1
+stitches in knee joints,worse by motion,1.0,1
+stitches in knee joints,of dissipated men,1.0,1
+stitches in knee joints,arthritic nodes of joints,1.0,1
+stitches in knee joints,shifting pains,1.0,1
+stitches in knee joints,styes,1.0,1
+stitches in knee joints,especially hip joints,1.0,1
+stitches in knee joints,aching when walking,1.0,1
+stitches in knee joints,aching pain around hip joint,1.0,1
+stitches in knee joints,all limbs affected,1.0,1
+stitches in knee joints,aching when sitting,1.0,1
+stitches in knee joints,all joints of back stiff in morning,1.0,1
+stitches in knee joints,crural neuralgic pain stitching,1.0,1
+stitches in knee joints,especially shoulder joints,1.0,1
+stitches in knee joints,of debilitated men,1.0,1
+stitches in knee joints,pain as after overlifting,1.0,1
+pain as after overlifting,rheumatic stiffness,1.0,1
+pain as after overlifting,pains gouty in small joints of hands,1.0,1
+pain as after overlifting,pain as if broken in small of back,1.0,1
+pain as after overlifting,pain in morning in bed,1.0,1
+pain as after overlifting,especially sacral joints,1.0,1
+pain as after overlifting,lachrymation constant,1.0,1
+pain as after overlifting,all done after much hard work,1.0,1
+pain as after overlifting,pain as from a sprain in right shoulder,1.0,1
+pain as after overlifting,worse on touch,1.0,1
+pain as after overlifting,stitches in knee,1.0,1
+pain as after overlifting,pressure in neck,1.0,1
+pain as after overlifting,chronic gout,1.0,1
+pain as after overlifting,tearing pain while sitting,1.0,1
+pain as after overlifting,stitches in knee joints,1.0,1
+pain as after overlifting,sensation of burning stitches in hollows of knees,1.0,1
+pain as after overlifting,especially of left index,1.0,1
+pain as after overlifting,many nodes on parts,1.0,1
+pain as after overlifting,ailments from mortification,1.0,1
+pain as after overlifting,crural neuralgic pain stinging,1.0,1
+pain as after overlifting,nervous weakness,1.0,1
+pain as after overlifting,tearing pain in muscles of another leg,1.0,1
+pain as after overlifting,violent pressing in left shoulder joint,1.0,1
+pain as after overlifting,phalanges of fingers affected,1.0,1
+pain as after overlifting,crural neuralgic pain during motion,1.0,1
+pain as after overlifting,paralytic drawing pain in first joints of fingers,1.0,1
+pain as after overlifting,pains gouty in small joints of feet,1.0,1
+pain as after overlifting,tearing pain while standing,1.0,1
+pain as after overlifting,pain only on motion,1.0,1
+pain as after overlifting,eyes feel as if very dry,1.0,1
+pain as after overlifting,arthritic nodes on fingers,1.0,1
+pain as after overlifting,tension in neck,1.0,1
+pain as after overlifting,pains extend into teeth,1.0,1
+pain as after overlifting,drawing in neck,1.0,1
+pain as after overlifting,not improved by any motion,1.0,1
+pain as after overlifting,dull sticking pain in shoulder joint,1.0,1
+pain as after overlifting,gouty rheumatic pains,1.0,1
+pain as after overlifting,skin affections alternating with pains in joints,1.0,1
+pain as after overlifting,everything is sore,1.0,1
+pain as after overlifting,eyes burn on least exertion,1.0,1
+pain as after overlifting,exceedingly severe pain in right leg,1.0,1
+pain as after overlifting,worse by motion,1.0,1
+pain as after overlifting,of dissipated men,1.0,1
+pain as after overlifting,arthritic nodes of joints,1.0,1
+pain as after overlifting,shifting pains,1.0,1
+pain as after overlifting,styes,1.0,1
+pain as after overlifting,especially hip joints,1.0,1
+pain as after overlifting,aching when walking,1.0,1
+pain as after overlifting,aching pain around hip joint,1.0,1
+pain as after overlifting,all limbs affected,1.0,1
+pain as after overlifting,aching when sitting,1.0,1
+pain as after overlifting,all joints of back stiff in morning,1.0,1
+pain as after overlifting,crural neuralgic pain stitching,1.0,1
+pain as after overlifting,especially shoulder joints,1.0,1
+pain as after overlifting,of debilitated men,1.0,1
+tension in neck,rheumatic stiffness,1.0,1
+tension in neck,pains gouty in small joints of hands,1.0,1
+tension in neck,pain as if broken in small of back,1.0,1
+tension in neck,pain in morning in bed,1.0,1
+tension in neck,especially sacral joints,1.0,1
+tension in neck,lachrymation constant,1.0,1
+tension in neck,all done after much hard work,1.0,1
+tension in neck,pain as from a sprain in right shoulder,1.0,1
+tension in neck,worse on touch,1.0,1
+tension in neck,stitches in knee,1.0,1
+tension in neck,pressure in neck,1.0,1
+tension in neck,chronic gout,1.0,1
+tension in neck,tearing pain while sitting,1.0,1
+tension in neck,stitches in knee joints,1.0,1
+tension in neck,sensation of burning stitches in hollows of knees,1.0,1
+tension in neck,especially of left index,1.0,1
+tension in neck,many nodes on parts,1.0,1
+tension in neck,ailments from mortification,1.0,1
+tension in neck,crural neuralgic pain stinging,1.0,1
+tension in neck,nervous weakness,1.0,1
+tension in neck,tearing pain in muscles of another leg,1.0,1
+tension in neck,violent pressing in left shoulder joint,1.0,1
+tension in neck,phalanges of fingers affected,1.0,1
+tension in neck,crural neuralgic pain during motion,1.0,1
+tension in neck,paralytic drawing pain in first joints of fingers,1.0,1
+tension in neck,pains gouty in small joints of feet,1.0,1
+tension in neck,tearing pain while standing,1.0,1
+tension in neck,pain only on motion,1.0,1
+tension in neck,eyes feel as if very dry,1.0,1
+tension in neck,arthritic nodes on fingers,1.0,1
+tension in neck,pains extend into teeth,1.0,1
+tension in neck,drawing in neck,1.0,1
+tension in neck,not improved by any motion,1.0,1
+tension in neck,dull sticking pain in shoulder joint,1.0,1
+tension in neck,gouty rheumatic pains,1.0,1
+tension in neck,skin affections alternating with pains in joints,1.0,1
+tension in neck,everything is sore,1.0,1
+tension in neck,eyes burn on least exertion,1.0,1
+tension in neck,exceedingly severe pain in right leg,1.0,1
+tension in neck,worse by motion,1.0,1
+tension in neck,of dissipated men,1.0,1
+tension in neck,arthritic nodes of joints,1.0,1
+tension in neck,shifting pains,1.0,1
+tension in neck,styes,1.0,1
+tension in neck,especially hip joints,1.0,1
+tension in neck,aching when walking,1.0,1
+tension in neck,aching pain around hip joint,1.0,1
+tension in neck,all limbs affected,1.0,1
+tension in neck,aching when sitting,1.0,1
+tension in neck,all joints of back stiff in morning,1.0,1
+tension in neck,crural neuralgic pain stitching,1.0,1
+tension in neck,especially shoulder joints,1.0,1
+tension in neck,of debilitated men,1.0,1
+tension in neck,pain as after overlifting,1.0,1
+dull sticking pain in shoulder joint,rheumatic stiffness,1.0,1
+dull sticking pain in shoulder joint,pains gouty in small joints of hands,1.0,1
+dull sticking pain in shoulder joint,pain as if broken in small of back,1.0,1
+dull sticking pain in shoulder joint,pain in morning in bed,1.0,1
+dull sticking pain in shoulder joint,especially sacral joints,1.0,1
+dull sticking pain in shoulder joint,lachrymation constant,1.0,1
+dull sticking pain in shoulder joint,all done after much hard work,1.0,1
+dull sticking pain in shoulder joint,pain as from a sprain in right shoulder,1.0,1
+dull sticking pain in shoulder joint,worse on touch,1.0,1
+dull sticking pain in shoulder joint,stitches in knee,1.0,1
+dull sticking pain in shoulder joint,pressure in neck,1.0,1
+dull sticking pain in shoulder joint,chronic gout,1.0,1
+dull sticking pain in shoulder joint,tearing pain while sitting,1.0,1
+dull sticking pain in shoulder joint,stitches in knee joints,1.0,1
+dull sticking pain in shoulder joint,sensation of burning stitches in hollows of knees,1.0,1
+dull sticking pain in shoulder joint,especially of left index,1.0,1
+dull sticking pain in shoulder joint,many nodes on parts,1.0,1
+dull sticking pain in shoulder joint,ailments from mortification,1.0,1
+dull sticking pain in shoulder joint,crural neuralgic pain stinging,1.0,1
+dull sticking pain in shoulder joint,nervous weakness,1.0,1
+dull sticking pain in shoulder joint,tearing pain in muscles of another leg,1.0,1
+dull sticking pain in shoulder joint,violent pressing in left shoulder joint,1.0,1
+dull sticking pain in shoulder joint,phalanges of fingers affected,1.0,1
+dull sticking pain in shoulder joint,crural neuralgic pain during motion,1.0,1
+dull sticking pain in shoulder joint,paralytic drawing pain in first joints of fingers,1.0,1
+dull sticking pain in shoulder joint,pains gouty in small joints of feet,1.0,1
+dull sticking pain in shoulder joint,tearing pain while standing,1.0,1
+dull sticking pain in shoulder joint,pain only on motion,1.0,1
+dull sticking pain in shoulder joint,eyes feel as if very dry,1.0,1
+dull sticking pain in shoulder joint,arthritic nodes on fingers,1.0,1
+dull sticking pain in shoulder joint,tension in neck,1.0,1
+dull sticking pain in shoulder joint,pains extend into teeth,1.0,1
+dull sticking pain in shoulder joint,drawing in neck,1.0,1
+dull sticking pain in shoulder joint,not improved by any motion,1.0,1
+dull sticking pain in shoulder joint,gouty rheumatic pains,1.0,1
+dull sticking pain in shoulder joint,skin affections alternating with pains in joints,1.0,1
+dull sticking pain in shoulder joint,everything is sore,1.0,1
+dull sticking pain in shoulder joint,eyes burn on least exertion,1.0,1
+dull sticking pain in shoulder joint,exceedingly severe pain in right leg,1.0,1
+dull sticking pain in shoulder joint,worse by motion,1.0,1
+dull sticking pain in shoulder joint,of dissipated men,1.0,1
+dull sticking pain in shoulder joint,arthritic nodes of joints,1.0,1
+dull sticking pain in shoulder joint,shifting pains,1.0,1
+dull sticking pain in shoulder joint,styes,1.0,1
+dull sticking pain in shoulder joint,especially hip joints,1.0,1
+dull sticking pain in shoulder joint,aching when walking,1.0,1
+dull sticking pain in shoulder joint,aching pain around hip joint,1.0,1
+dull sticking pain in shoulder joint,all limbs affected,1.0,1
+dull sticking pain in shoulder joint,aching when sitting,1.0,1
+dull sticking pain in shoulder joint,all joints of back stiff in morning,1.0,1
+dull sticking pain in shoulder joint,crural neuralgic pain stitching,1.0,1
+dull sticking pain in shoulder joint,especially shoulder joints,1.0,1
+dull sticking pain in shoulder joint,of debilitated men,1.0,1
+dull sticking pain in shoulder joint,pain as after overlifting,1.0,1
+violent pressing in left shoulder joint,rheumatic stiffness,1.0,1
+violent pressing in left shoulder joint,pains gouty in small joints of hands,1.0,1
+violent pressing in left shoulder joint,pain as if broken in small of back,1.0,1
+violent pressing in left shoulder joint,pain in morning in bed,1.0,1
+violent pressing in left shoulder joint,especially sacral joints,1.0,1
+violent pressing in left shoulder joint,lachrymation constant,1.0,1
+violent pressing in left shoulder joint,all done after much hard work,1.0,1
+violent pressing in left shoulder joint,pain as from a sprain in right shoulder,1.0,1
+violent pressing in left shoulder joint,worse on touch,1.0,1
+violent pressing in left shoulder joint,stitches in knee,1.0,1
+violent pressing in left shoulder joint,pressure in neck,1.0,1
+violent pressing in left shoulder joint,chronic gout,1.0,1
+violent pressing in left shoulder joint,tearing pain while sitting,1.0,1
+violent pressing in left shoulder joint,stitches in knee joints,1.0,1
+violent pressing in left shoulder joint,sensation of burning stitches in hollows of knees,1.0,1
+violent pressing in left shoulder joint,especially of left index,1.0,1
+violent pressing in left shoulder joint,many nodes on parts,1.0,1
+violent pressing in left shoulder joint,ailments from mortification,1.0,1
+violent pressing in left shoulder joint,crural neuralgic pain stinging,1.0,1
+violent pressing in left shoulder joint,nervous weakness,1.0,1
+violent pressing in left shoulder joint,tearing pain in muscles of another leg,1.0,1
+violent pressing in left shoulder joint,phalanges of fingers affected,1.0,1
+violent pressing in left shoulder joint,crural neuralgic pain during motion,1.0,1
+violent pressing in left shoulder joint,paralytic drawing pain in first joints of fingers,1.0,1
+violent pressing in left shoulder joint,pains gouty in small joints of feet,1.0,1
+violent pressing in left shoulder joint,tearing pain while standing,1.0,1
+violent pressing in left shoulder joint,pain only on motion,1.0,1
+violent pressing in left shoulder joint,eyes feel as if very dry,1.0,1
+violent pressing in left shoulder joint,arthritic nodes on fingers,1.0,1
+violent pressing in left shoulder joint,tension in neck,1.0,1
+violent pressing in left shoulder joint,pains extend into teeth,1.0,1
+violent pressing in left shoulder joint,drawing in neck,1.0,1
+violent pressing in left shoulder joint,not improved by any motion,1.0,1
+violent pressing in left shoulder joint,dull sticking pain in shoulder joint,1.0,1
+violent pressing in left shoulder joint,gouty rheumatic pains,1.0,1
+violent pressing in left shoulder joint,skin affections alternating with pains in joints,1.0,1
+violent pressing in left shoulder joint,everything is sore,1.0,1
+violent pressing in left shoulder joint,eyes burn on least exertion,1.0,1
+violent pressing in left shoulder joint,exceedingly severe pain in right leg,1.0,1
+violent pressing in left shoulder joint,worse by motion,1.0,1
+violent pressing in left shoulder joint,of dissipated men,1.0,1
+violent pressing in left shoulder joint,arthritic nodes of joints,1.0,1
+violent pressing in left shoulder joint,shifting pains,1.0,1
+violent pressing in left shoulder joint,styes,1.0,1
+violent pressing in left shoulder joint,especially hip joints,1.0,1
+violent pressing in left shoulder joint,aching when walking,1.0,1
+violent pressing in left shoulder joint,aching pain around hip joint,1.0,1
+violent pressing in left shoulder joint,all limbs affected,1.0,1
+violent pressing in left shoulder joint,aching when sitting,1.0,1
+violent pressing in left shoulder joint,all joints of back stiff in morning,1.0,1
+violent pressing in left shoulder joint,crural neuralgic pain stitching,1.0,1
+violent pressing in left shoulder joint,especially shoulder joints,1.0,1
+violent pressing in left shoulder joint,of debilitated men,1.0,1
+violent pressing in left shoulder joint,pain as after overlifting,1.0,1
+eyes feel as if very dry,rheumatic stiffness,1.0,1
+eyes feel as if very dry,pains gouty in small joints of hands,1.0,1
+eyes feel as if very dry,pain as if broken in small of back,1.0,1
+eyes feel as if very dry,pain in morning in bed,1.0,1
+eyes feel as if very dry,especially sacral joints,1.0,1
+eyes feel as if very dry,lachrymation constant,1.0,1
+eyes feel as if very dry,all done after much hard work,1.0,1
+eyes feel as if very dry,pain as from a sprain in right shoulder,1.0,1
+eyes feel as if very dry,worse on touch,1.0,1
+eyes feel as if very dry,stitches in knee,1.0,1
+eyes feel as if very dry,pressure in neck,1.0,1
+eyes feel as if very dry,chronic gout,1.0,1
+eyes feel as if very dry,tearing pain while sitting,1.0,1
+eyes feel as if very dry,stitches in knee joints,1.0,1
+eyes feel as if very dry,sensation of burning stitches in hollows of knees,1.0,1
+eyes feel as if very dry,especially of left index,1.0,1
+eyes feel as if very dry,many nodes on parts,1.0,1
+eyes feel as if very dry,ailments from mortification,1.0,1
+eyes feel as if very dry,crural neuralgic pain stinging,1.0,1
+eyes feel as if very dry,nervous weakness,1.0,1
+eyes feel as if very dry,tearing pain in muscles of another leg,1.0,1
+eyes feel as if very dry,violent pressing in left shoulder joint,1.0,1
+eyes feel as if very dry,phalanges of fingers affected,1.0,1
+eyes feel as if very dry,crural neuralgic pain during motion,1.0,1
+eyes feel as if very dry,paralytic drawing pain in first joints of fingers,1.0,1
+eyes feel as if very dry,pains gouty in small joints of feet,1.0,1
+eyes feel as if very dry,tearing pain while standing,1.0,1
+eyes feel as if very dry,pain only on motion,1.0,1
+eyes feel as if very dry,arthritic nodes on fingers,1.0,1
+eyes feel as if very dry,tension in neck,1.0,1
+eyes feel as if very dry,pains extend into teeth,1.0,1
+eyes feel as if very dry,drawing in neck,1.0,1
+eyes feel as if very dry,not improved by any motion,1.0,1
+eyes feel as if very dry,dull sticking pain in shoulder joint,1.0,1
+eyes feel as if very dry,gouty rheumatic pains,1.0,1
+eyes feel as if very dry,skin affections alternating with pains in joints,1.0,1
+eyes feel as if very dry,everything is sore,1.0,1
+eyes feel as if very dry,eyes burn on least exertion,1.0,1
+eyes feel as if very dry,exceedingly severe pain in right leg,1.0,1
+eyes feel as if very dry,worse by motion,1.0,1
+eyes feel as if very dry,of dissipated men,1.0,1
+eyes feel as if very dry,arthritic nodes of joints,1.0,1
+eyes feel as if very dry,shifting pains,1.0,1
+eyes feel as if very dry,styes,1.0,1
+eyes feel as if very dry,especially hip joints,1.0,1
+eyes feel as if very dry,aching when walking,1.0,1
+eyes feel as if very dry,aching pain around hip joint,1.0,1
+eyes feel as if very dry,all limbs affected,1.0,1
+eyes feel as if very dry,aching when sitting,1.0,1
+eyes feel as if very dry,all joints of back stiff in morning,1.0,1
+eyes feel as if very dry,crural neuralgic pain stitching,1.0,1
+eyes feel as if very dry,especially shoulder joints,1.0,1
+eyes feel as if very dry,of debilitated men,1.0,1
+eyes feel as if very dry,pain as after overlifting,1.0,1
+crural neuralgic pain during motion,rheumatic stiffness,1.0,1
+crural neuralgic pain during motion,pains gouty in small joints of hands,1.0,1
+crural neuralgic pain during motion,pain as if broken in small of back,1.0,1
+crural neuralgic pain during motion,pain in morning in bed,1.0,1
+crural neuralgic pain during motion,especially sacral joints,1.0,1
+crural neuralgic pain during motion,lachrymation constant,1.0,1
+crural neuralgic pain during motion,all done after much hard work,1.0,1
+crural neuralgic pain during motion,pain as from a sprain in right shoulder,1.0,1
+crural neuralgic pain during motion,worse on touch,1.0,1
+crural neuralgic pain during motion,stitches in knee,1.0,1
+crural neuralgic pain during motion,pressure in neck,1.0,1
+crural neuralgic pain during motion,chronic gout,1.0,1
+crural neuralgic pain during motion,tearing pain while sitting,1.0,1
+crural neuralgic pain during motion,stitches in knee joints,1.0,1
+crural neuralgic pain during motion,sensation of burning stitches in hollows of knees,1.0,1
+crural neuralgic pain during motion,especially of left index,1.0,1
+crural neuralgic pain during motion,many nodes on parts,1.0,1
+crural neuralgic pain during motion,ailments from mortification,1.0,1
+crural neuralgic pain during motion,crural neuralgic pain stinging,1.0,1
+crural neuralgic pain during motion,nervous weakness,1.0,1
+crural neuralgic pain during motion,tearing pain in muscles of another leg,1.0,1
+crural neuralgic pain during motion,violent pressing in left shoulder joint,1.0,1
+crural neuralgic pain during motion,phalanges of fingers affected,1.0,1
+crural neuralgic pain during motion,paralytic drawing pain in first joints of fingers,1.0,1
+crural neuralgic pain during motion,pains gouty in small joints of feet,1.0,1
+crural neuralgic pain during motion,tearing pain while standing,1.0,1
+crural neuralgic pain during motion,pain only on motion,1.0,1
+crural neuralgic pain during motion,eyes feel as if very dry,1.0,1
+crural neuralgic pain during motion,arthritic nodes on fingers,1.0,1
+crural neuralgic pain during motion,tension in neck,1.0,1
+crural neuralgic pain during motion,pains extend into teeth,1.0,1
+crural neuralgic pain during motion,drawing in neck,1.0,1
+crural neuralgic pain during motion,not improved by any motion,1.0,1
+crural neuralgic pain during motion,dull sticking pain in shoulder joint,1.0,1
+crural neuralgic pain during motion,gouty rheumatic pains,1.0,1
+crural neuralgic pain during motion,skin affections alternating with pains in joints,1.0,1
+crural neuralgic pain during motion,everything is sore,1.0,1
+crural neuralgic pain during motion,eyes burn on least exertion,1.0,1
+crural neuralgic pain during motion,exceedingly severe pain in right leg,1.0,1
+crural neuralgic pain during motion,worse by motion,1.0,1
+crural neuralgic pain during motion,of dissipated men,1.0,1
+crural neuralgic pain during motion,arthritic nodes of joints,1.0,1
+crural neuralgic pain during motion,shifting pains,1.0,1
+crural neuralgic pain during motion,styes,1.0,1
+crural neuralgic pain during motion,especially hip joints,1.0,1
+crural neuralgic pain during motion,aching when walking,1.0,1
+crural neuralgic pain during motion,aching pain around hip joint,1.0,1
+crural neuralgic pain during motion,all limbs affected,1.0,1
+crural neuralgic pain during motion,aching when sitting,1.0,1
+crural neuralgic pain during motion,all joints of back stiff in morning,1.0,1
+crural neuralgic pain during motion,crural neuralgic pain stitching,1.0,1
+crural neuralgic pain during motion,especially shoulder joints,1.0,1
+crural neuralgic pain during motion,of debilitated men,1.0,1
+crural neuralgic pain during motion,pain as after overlifting,1.0,1
+nervous weakness,rheumatic stiffness,1.0,1
+nervous weakness,pains gouty in small joints of hands,1.0,1
+nervous weakness,pain as if broken in small of back,1.0,1
+nervous weakness,pain in morning in bed,1.0,1
+nervous weakness,especially sacral joints,1.0,1
+nervous weakness,lachrymation constant,1.0,1
+nervous weakness,all done after much hard work,1.0,1
+nervous weakness,pain as from a sprain in right shoulder,1.0,1
+nervous weakness,worse on touch,1.0,1
+nervous weakness,stitches in knee,1.0,1
+nervous weakness,pressure in neck,1.0,1
+nervous weakness,chronic gout,1.0,1
+nervous weakness,tearing pain while sitting,1.0,1
+nervous weakness,stitches in knee joints,1.0,1
+nervous weakness,sensation of burning stitches in hollows of knees,1.0,1
+nervous weakness,especially of left index,1.0,1
+nervous weakness,many nodes on parts,1.0,1
+nervous weakness,ailments from mortification,1.0,1
+nervous weakness,crural neuralgic pain stinging,1.0,1
+nervous weakness,tearing pain in muscles of another leg,1.0,1
+nervous weakness,violent pressing in left shoulder joint,1.0,1
+nervous weakness,phalanges of fingers affected,1.0,1
+nervous weakness,crural neuralgic pain during motion,1.0,1
+nervous weakness,paralytic drawing pain in first joints of fingers,1.0,1
+nervous weakness,pains gouty in small joints of feet,1.0,1
+nervous weakness,tearing pain while standing,1.0,1
+nervous weakness,pain only on motion,1.0,1
+nervous weakness,eyes feel as if very dry,1.0,1
+nervous weakness,arthritic nodes on fingers,1.0,1
+nervous weakness,tension in neck,1.0,1
+nervous weakness,pains extend into teeth,1.0,1
+nervous weakness,drawing in neck,1.0,1
+nervous weakness,not improved by any motion,1.0,1
+nervous weakness,dull sticking pain in shoulder joint,1.0,1
+nervous weakness,gouty rheumatic pains,1.0,1
+nervous weakness,skin affections alternating with pains in joints,1.0,1
+nervous weakness,everything is sore,1.0,1
+nervous weakness,eyes burn on least exertion,1.0,1
+nervous weakness,exceedingly severe pain in right leg,1.0,1
+nervous weakness,worse by motion,1.0,1
+nervous weakness,of dissipated men,1.0,1
+nervous weakness,arthritic nodes of joints,1.0,1
+nervous weakness,shifting pains,1.0,1
+nervous weakness,styes,1.0,1
+nervous weakness,especially hip joints,1.0,1
+nervous weakness,aching when walking,1.0,1
+nervous weakness,aching pain around hip joint,1.0,1
+nervous weakness,all limbs affected,1.0,1
+nervous weakness,aching when sitting,1.0,1
+nervous weakness,all joints of back stiff in morning,1.0,1
+nervous weakness,crural neuralgic pain stitching,1.0,1
+nervous weakness,especially shoulder joints,1.0,1
+nervous weakness,of debilitated men,1.0,1
+nervous weakness,pain as after overlifting,1.0,1
+tearing pain while sitting,rheumatic stiffness,1.0,1
+tearing pain while sitting,pains gouty in small joints of hands,1.0,1
+tearing pain while sitting,pain as if broken in small of back,1.0,1
+tearing pain while sitting,pain in morning in bed,1.0,1
+tearing pain while sitting,especially sacral joints,1.0,1
+tearing pain while sitting,lachrymation constant,1.0,1
+tearing pain while sitting,all done after much hard work,1.0,1
+tearing pain while sitting,pain as from a sprain in right shoulder,1.0,1
+tearing pain while sitting,worse on touch,1.0,1
+tearing pain while sitting,stitches in knee,1.0,1
+tearing pain while sitting,pressure in neck,1.0,1
+tearing pain while sitting,chronic gout,1.0,1
+tearing pain while sitting,stitches in knee joints,1.0,1
+tearing pain while sitting,sensation of burning stitches in hollows of knees,1.0,1
+tearing pain while sitting,especially of left index,1.0,1
+tearing pain while sitting,many nodes on parts,1.0,1
+tearing pain while sitting,ailments from mortification,1.0,1
+tearing pain while sitting,crural neuralgic pain stinging,1.0,1
+tearing pain while sitting,nervous weakness,1.0,1
+tearing pain while sitting,tearing pain in muscles of another leg,1.0,1
+tearing pain while sitting,violent pressing in left shoulder joint,1.0,1
+tearing pain while sitting,phalanges of fingers affected,1.0,1
+tearing pain while sitting,crural neuralgic pain during motion,1.0,1
+tearing pain while sitting,paralytic drawing pain in first joints of fingers,1.0,1
+tearing pain while sitting,pains gouty in small joints of feet,1.0,1
+tearing pain while sitting,tearing pain while standing,1.0,1
+tearing pain while sitting,pain only on motion,1.0,1
+tearing pain while sitting,eyes feel as if very dry,1.0,1
+tearing pain while sitting,arthritic nodes on fingers,1.0,1
+tearing pain while sitting,tension in neck,1.0,1
+tearing pain while sitting,pains extend into teeth,1.0,1
+tearing pain while sitting,drawing in neck,1.0,1
+tearing pain while sitting,not improved by any motion,1.0,1
+tearing pain while sitting,dull sticking pain in shoulder joint,1.0,1
+tearing pain while sitting,gouty rheumatic pains,1.0,1
+tearing pain while sitting,skin affections alternating with pains in joints,1.0,1
+tearing pain while sitting,everything is sore,1.0,1
+tearing pain while sitting,eyes burn on least exertion,1.0,1
+tearing pain while sitting,exceedingly severe pain in right leg,1.0,1
+tearing pain while sitting,worse by motion,1.0,1
+tearing pain while sitting,of dissipated men,1.0,1
+tearing pain while sitting,arthritic nodes of joints,1.0,1
+tearing pain while sitting,shifting pains,1.0,1
+tearing pain while sitting,styes,1.0,1
+tearing pain while sitting,especially hip joints,1.0,1
+tearing pain while sitting,aching when walking,1.0,1
+tearing pain while sitting,aching pain around hip joint,1.0,1
+tearing pain while sitting,all limbs affected,1.0,1
+tearing pain while sitting,aching when sitting,1.0,1
+tearing pain while sitting,all joints of back stiff in morning,1.0,1
+tearing pain while sitting,crural neuralgic pain stitching,1.0,1
+tearing pain while sitting,especially shoulder joints,1.0,1
+tearing pain while sitting,of debilitated men,1.0,1
+tearing pain while sitting,pain as after overlifting,1.0,1

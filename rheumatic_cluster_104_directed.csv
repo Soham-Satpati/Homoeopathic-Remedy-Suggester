@@ -1,0 +1,34 @@
+### Cluster 104 — Symptoms (5)
+Symptom,Frequency
+grief,1
+sighing,1
+emotional sensitivity,1
+compare natrum muriaticum pulsatilla,1
+rheumatic troubles with nervous temperament,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+ignatia amara,5
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+grief,sighing,1.0,1
+grief,emotional sensitivity,1.0,1
+grief,compare natrum muriaticum pulsatilla,1.0,1
+grief,rheumatic troubles with nervous temperament,1.0,1
+rheumatic troubles with nervous temperament,grief,1.0,1
+rheumatic troubles with nervous temperament,sighing,1.0,1
+rheumatic troubles with nervous temperament,emotional sensitivity,1.0,1
+rheumatic troubles with nervous temperament,compare natrum muriaticum pulsatilla,1.0,1
+compare natrum muriaticum pulsatilla,grief,1.0,1
+compare natrum muriaticum pulsatilla,sighing,1.0,1
+compare natrum muriaticum pulsatilla,emotional sensitivity,1.0,1
+compare natrum muriaticum pulsatilla,rheumatic troubles with nervous temperament,1.0,1
+sighing,grief,1.0,1
+sighing,emotional sensitivity,1.0,1
+sighing,compare natrum muriaticum pulsatilla,1.0,1
+sighing,rheumatic troubles with nervous temperament,1.0,1
+emotional sensitivity,grief,1.0,1
+emotional sensitivity,sighing,1.0,1
+emotional sensitivity,compare natrum muriaticum pulsatilla,1.0,1
+emotional sensitivity,rheumatic troubles with nervous temperament,1.0,1

@@ -1,0 +1,636 @@
+### Cluster 101 — Symptoms (25)
+Symptom,Frequency
+aching in lower limbs,2
+aching worse in morning,5
+fever without thirst,1
+severe pain in neck worse on motion,1
+desire to lie down,1
+complete muscular relaxation,1
+headache better by urination,1
+drowsiness,1
+aversion to motion,1
+occipital headache,1
+compare baptisia conium,1
+aching in shoulder muscles,1
+aching in back worse in morning,1
+confused mental state,1
+great languor,1
+muscular soreness after cold or influenza,1
+chilliness up and down back,1
+dimness of sight,1
+blurred vision,1
+aching in arm muscles,1
+diplopia,1
+stupid mental state,1
+rheumatic pains after cold or influenza,1
+severe pain in neck muscles,1
+heaviness of eyelids,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+gelsemium,25
+fluoricum acidum,1
+ignatia amara,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+aching in lower limbs,fever without thirst,0.5,1
+aching in lower limbs,severe pain in neck worse on motion,0.5,1
+aching in lower limbs,desire to lie down,0.5,1
+aching in lower limbs,complete muscular relaxation,0.5,1
+aching in lower limbs,headache better by urination,0.5,1
+aching in lower limbs,drowsiness,0.5,1
+aching in lower limbs,aversion to motion,0.5,1
+aching in lower limbs,occipital headache,0.5,1
+aching in lower limbs,compare baptisia conium,0.5,1
+aching in lower limbs,aching in shoulder muscles,0.5,1
+aching in lower limbs,aching in back worse in morning,0.5,1
+aching in lower limbs,confused mental state,0.5,1
+aching in lower limbs,great languor,0.5,1
+aching in lower limbs,muscular soreness after cold or influenza,0.5,1
+aching in lower limbs,chilliness up and down back,0.5,1
+aching in lower limbs,dimness of sight,0.5,1
+aching in lower limbs,aching worse in morning,0.5,1
+aching in lower limbs,blurred vision,0.5,1
+aching in lower limbs,aching in arm muscles,0.5,1
+aching in lower limbs,diplopia,0.5,1
+aching in lower limbs,stupid mental state,0.5,1
+aching in lower limbs,rheumatic pains after cold or influenza,0.5,1
+aching in lower limbs,severe pain in neck muscles,0.5,1
+aching in lower limbs,heaviness of eyelids,0.5,1
+drowsiness,fever without thirst,1.0,1
+drowsiness,severe pain in neck worse on motion,1.0,1
+drowsiness,desire to lie down,1.0,1
+drowsiness,complete muscular relaxation,1.0,1
+drowsiness,headache better by urination,1.0,1
+drowsiness,aversion to motion,1.0,1
+drowsiness,occipital headache,1.0,1
+drowsiness,compare baptisia conium,1.0,1
+drowsiness,aching in lower limbs,1.0,1
+drowsiness,aching in shoulder muscles,1.0,1
+drowsiness,aching in back worse in morning,1.0,1
+drowsiness,confused mental state,1.0,1
+drowsiness,great languor,1.0,1
+drowsiness,muscular soreness after cold or influenza,1.0,1
+drowsiness,chilliness up and down back,1.0,1
+drowsiness,dimness of sight,1.0,1
+drowsiness,aching worse in morning,1.0,1
+drowsiness,blurred vision,1.0,1
+drowsiness,aching in arm muscles,1.0,1
+drowsiness,diplopia,1.0,1
+drowsiness,stupid mental state,1.0,1
+drowsiness,rheumatic pains after cold or influenza,1.0,1
+drowsiness,severe pain in neck muscles,1.0,1
+drowsiness,heaviness of eyelids,1.0,1
+rheumatic pains after cold or influenza,fever without thirst,1.0,1
+rheumatic pains after cold or influenza,severe pain in neck worse on motion,1.0,1
+rheumatic pains after cold or influenza,desire to lie down,1.0,1
+rheumatic pains after cold or influenza,complete muscular relaxation,1.0,1
+rheumatic pains after cold or influenza,headache better by urination,1.0,1
+rheumatic pains after cold or influenza,drowsiness,1.0,1
+rheumatic pains after cold or influenza,aversion to motion,1.0,1
+rheumatic pains after cold or influenza,occipital headache,1.0,1
+rheumatic pains after cold or influenza,compare baptisia conium,1.0,1
+rheumatic pains after cold or influenza,aching in lower limbs,1.0,1
+rheumatic pains after cold or influenza,aching in shoulder muscles,1.0,1
+rheumatic pains after cold or influenza,aching in back worse in morning,1.0,1
+rheumatic pains after cold or influenza,confused mental state,1.0,1
+rheumatic pains after cold or influenza,great languor,1.0,1
+rheumatic pains after cold or influenza,muscular soreness after cold or influenza,1.0,1
+rheumatic pains after cold or influenza,chilliness up and down back,1.0,1
+rheumatic pains after cold or influenza,dimness of sight,1.0,1
+rheumatic pains after cold or influenza,aching worse in morning,1.0,1
+rheumatic pains after cold or influenza,blurred vision,1.0,1
+rheumatic pains after cold or influenza,aching in arm muscles,1.0,1
+rheumatic pains after cold or influenza,diplopia,1.0,1
+rheumatic pains after cold or influenza,stupid mental state,1.0,1
+rheumatic pains after cold or influenza,severe pain in neck muscles,1.0,1
+rheumatic pains after cold or influenza,heaviness of eyelids,1.0,1
+severe pain in neck muscles,fever without thirst,1.0,1
+severe pain in neck muscles,severe pain in neck worse on motion,1.0,1
+severe pain in neck muscles,desire to lie down,1.0,1
+severe pain in neck muscles,complete muscular relaxation,1.0,1
+severe pain in neck muscles,headache better by urination,1.0,1
+severe pain in neck muscles,drowsiness,1.0,1
+severe pain in neck muscles,aversion to motion,1.0,1
+severe pain in neck muscles,occipital headache,1.0,1
+severe pain in neck muscles,compare baptisia conium,1.0,1
+severe pain in neck muscles,aching in lower limbs,1.0,1
+severe pain in neck muscles,aching in shoulder muscles,1.0,1
+severe pain in neck muscles,aching in back worse in morning,1.0,1
+severe pain in neck muscles,confused mental state,1.0,1
+severe pain in neck muscles,great languor,1.0,1
+severe pain in neck muscles,muscular soreness after cold or influenza,1.0,1
+severe pain in neck muscles,chilliness up and down back,1.0,1
+severe pain in neck muscles,dimness of sight,1.0,1
+severe pain in neck muscles,aching worse in morning,1.0,1
+severe pain in neck muscles,blurred vision,1.0,1
+severe pain in neck muscles,aching in arm muscles,1.0,1
+severe pain in neck muscles,diplopia,1.0,1
+severe pain in neck muscles,stupid mental state,1.0,1
+severe pain in neck muscles,rheumatic pains after cold or influenza,1.0,1
+severe pain in neck muscles,heaviness of eyelids,1.0,1
+occipital headache,fever without thirst,1.0,1
+occipital headache,severe pain in neck worse on motion,1.0,1
+occipital headache,desire to lie down,1.0,1
+occipital headache,complete muscular relaxation,1.0,1
+occipital headache,headache better by urination,1.0,1
+occipital headache,drowsiness,1.0,1
+occipital headache,aversion to motion,1.0,1
+occipital headache,compare baptisia conium,1.0,1
+occipital headache,aching in lower limbs,1.0,1
+occipital headache,aching in shoulder muscles,1.0,1
+occipital headache,aching in back worse in morning,1.0,1
+occipital headache,confused mental state,1.0,1
+occipital headache,great languor,1.0,1
+occipital headache,muscular soreness after cold or influenza,1.0,1
+occipital headache,chilliness up and down back,1.0,1
+occipital headache,dimness of sight,1.0,1
+occipital headache,aching worse in morning,1.0,1
+occipital headache,blurred vision,1.0,1
+occipital headache,aching in arm muscles,1.0,1
+occipital headache,diplopia,1.0,1
+occipital headache,stupid mental state,1.0,1
+occipital headache,rheumatic pains after cold or influenza,1.0,1
+occipital headache,severe pain in neck muscles,1.0,1
+occipital headache,heaviness of eyelids,1.0,1
+dimness of sight,fever without thirst,1.0,1
+dimness of sight,severe pain in neck worse on motion,1.0,1
+dimness of sight,desire to lie down,1.0,1
+dimness of sight,complete muscular relaxation,1.0,1
+dimness of sight,headache better by urination,1.0,1
+dimness of sight,drowsiness,1.0,1
+dimness of sight,aversion to motion,1.0,1
+dimness of sight,occipital headache,1.0,1
+dimness of sight,compare baptisia conium,1.0,1
+dimness of sight,aching in lower limbs,1.0,1
+dimness of sight,aching in shoulder muscles,1.0,1
+dimness of sight,aching in back worse in morning,1.0,1
+dimness of sight,confused mental state,1.0,1
+dimness of sight,great languor,1.0,1
+dimness of sight,muscular soreness after cold or influenza,1.0,1
+dimness of sight,chilliness up and down back,1.0,1
+dimness of sight,aching worse in morning,1.0,1
+dimness of sight,blurred vision,1.0,1
+dimness of sight,aching in arm muscles,1.0,1
+dimness of sight,diplopia,1.0,1
+dimness of sight,stupid mental state,1.0,1
+dimness of sight,rheumatic pains after cold or influenza,1.0,1
+dimness of sight,severe pain in neck muscles,1.0,1
+dimness of sight,heaviness of eyelids,1.0,1
+aching in shoulder muscles,fever without thirst,1.0,1
+aching in shoulder muscles,severe pain in neck worse on motion,1.0,1
+aching in shoulder muscles,desire to lie down,1.0,1
+aching in shoulder muscles,complete muscular relaxation,1.0,1
+aching in shoulder muscles,headache better by urination,1.0,1
+aching in shoulder muscles,drowsiness,1.0,1
+aching in shoulder muscles,aversion to motion,1.0,1
+aching in shoulder muscles,occipital headache,1.0,1
+aching in shoulder muscles,compare baptisia conium,1.0,1
+aching in shoulder muscles,aching in lower limbs,1.0,1
+aching in shoulder muscles,aching in back worse in morning,1.0,1
+aching in shoulder muscles,confused mental state,1.0,1
+aching in shoulder muscles,great languor,1.0,1
+aching in shoulder muscles,muscular soreness after cold or influenza,1.0,1
+aching in shoulder muscles,chilliness up and down back,1.0,1
+aching in shoulder muscles,dimness of sight,1.0,1
+aching in shoulder muscles,aching worse in morning,1.0,1
+aching in shoulder muscles,blurred vision,1.0,1
+aching in shoulder muscles,aching in arm muscles,1.0,1
+aching in shoulder muscles,diplopia,1.0,1
+aching in shoulder muscles,stupid mental state,1.0,1
+aching in shoulder muscles,rheumatic pains after cold or influenza,1.0,1
+aching in shoulder muscles,severe pain in neck muscles,1.0,1
+aching in shoulder muscles,heaviness of eyelids,1.0,1
+aversion to motion,fever without thirst,1.0,1
+aversion to motion,severe pain in neck worse on motion,1.0,1
+aversion to motion,desire to lie down,1.0,1
+aversion to motion,complete muscular relaxation,1.0,1
+aversion to motion,headache better by urination,1.0,1
+aversion to motion,drowsiness,1.0,1
+aversion to motion,occipital headache,1.0,1
+aversion to motion,compare baptisia conium,1.0,1
+aversion to motion,aching in lower limbs,1.0,1
+aversion to motion,aching in shoulder muscles,1.0,1
+aversion to motion,aching in back worse in morning,1.0,1
+aversion to motion,confused mental state,1.0,1
+aversion to motion,great languor,1.0,1
+aversion to motion,muscular soreness after cold or influenza,1.0,1
+aversion to motion,chilliness up and down back,1.0,1
+aversion to motion,dimness of sight,1.0,1
+aversion to motion,aching worse in morning,1.0,1
+aversion to motion,blurred vision,1.0,1
+aversion to motion,aching in arm muscles,1.0,1
+aversion to motion,diplopia,1.0,1
+aversion to motion,stupid mental state,1.0,1
+aversion to motion,rheumatic pains after cold or influenza,1.0,1
+aversion to motion,severe pain in neck muscles,1.0,1
+aversion to motion,heaviness of eyelids,1.0,1
+aching worse in morning,fever without thirst,0.5,1
+aching worse in morning,severe pain in neck worse on motion,0.5,1
+aching worse in morning,desire to lie down,0.5,1
+aching worse in morning,complete muscular relaxation,0.5,1
+aching worse in morning,headache better by urination,0.5,1
+aching worse in morning,drowsiness,0.5,1
+aching worse in morning,aversion to motion,0.5,1
+aching worse in morning,occipital headache,0.5,1
+aching worse in morning,compare baptisia conium,0.5,1
+aching worse in morning,aching in lower limbs,0.5,1
+aching worse in morning,aching in shoulder muscles,0.5,1
+aching worse in morning,aching in back worse in morning,0.5,1
+aching worse in morning,confused mental state,0.5,1
+aching worse in morning,great languor,0.5,1
+aching worse in morning,muscular soreness after cold or influenza,0.5,1
+aching worse in morning,chilliness up and down back,0.5,1
+aching worse in morning,dimness of sight,0.5,1
+aching worse in morning,blurred vision,0.5,1
+aching worse in morning,aching in arm muscles,0.5,1
+aching worse in morning,diplopia,0.5,1
+aching worse in morning,stupid mental state,0.5,1
+aching worse in morning,rheumatic pains after cold or influenza,0.5,1
+aching worse in morning,severe pain in neck muscles,0.5,1
+aching worse in morning,heaviness of eyelids,0.5,1
+blurred vision,fever without thirst,1.0,1
+blurred vision,severe pain in neck worse on motion,1.0,1
+blurred vision,desire to lie down,1.0,1
+blurred vision,complete muscular relaxation,1.0,1
+blurred vision,headache better by urination,1.0,1
+blurred vision,drowsiness,1.0,1
+blurred vision,aversion to motion,1.0,1
+blurred vision,occipital headache,1.0,1
+blurred vision,compare baptisia conium,1.0,1
+blurred vision,aching in lower limbs,1.0,1
+blurred vision,aching in shoulder muscles,1.0,1
+blurred vision,aching in back worse in morning,1.0,1
+blurred vision,confused mental state,1.0,1
+blurred vision,great languor,1.0,1
+blurred vision,muscular soreness after cold or influenza,1.0,1
+blurred vision,chilliness up and down back,1.0,1
+blurred vision,dimness of sight,1.0,1
+blurred vision,aching worse in morning,1.0,1
+blurred vision,aching in arm muscles,1.0,1
+blurred vision,diplopia,1.0,1
+blurred vision,stupid mental state,1.0,1
+blurred vision,rheumatic pains after cold or influenza,1.0,1
+blurred vision,severe pain in neck muscles,1.0,1
+blurred vision,heaviness of eyelids,1.0,1
+chilliness up and down back,fever without thirst,1.0,1
+chilliness up and down back,severe pain in neck worse on motion,1.0,1
+chilliness up and down back,desire to lie down,1.0,1
+chilliness up and down back,complete muscular relaxation,1.0,1
+chilliness up and down back,headache better by urination,1.0,1
+chilliness up and down back,drowsiness,1.0,1
+chilliness up and down back,aversion to motion,1.0,1
+chilliness up and down back,occipital headache,1.0,1
+chilliness up and down back,compare baptisia conium,1.0,1
+chilliness up and down back,aching in lower limbs,1.0,1
+chilliness up and down back,aching in shoulder muscles,1.0,1
+chilliness up and down back,aching in back worse in morning,1.0,1
+chilliness up and down back,confused mental state,1.0,1
+chilliness up and down back,great languor,1.0,1
+chilliness up and down back,muscular soreness after cold or influenza,1.0,1
+chilliness up and down back,dimness of sight,1.0,1
+chilliness up and down back,aching worse in morning,1.0,1
+chilliness up and down back,blurred vision,1.0,1
+chilliness up and down back,aching in arm muscles,1.0,1
+chilliness up and down back,diplopia,1.0,1
+chilliness up and down back,stupid mental state,1.0,1
+chilliness up and down back,rheumatic pains after cold or influenza,1.0,1
+chilliness up and down back,severe pain in neck muscles,1.0,1
+chilliness up and down back,heaviness of eyelids,1.0,1
+confused mental state,fever without thirst,1.0,1
+confused mental state,severe pain in neck worse on motion,1.0,1
+confused mental state,desire to lie down,1.0,1
+confused mental state,complete muscular relaxation,1.0,1
+confused mental state,headache better by urination,1.0,1
+confused mental state,drowsiness,1.0,1
+confused mental state,aversion to motion,1.0,1
+confused mental state,occipital headache,1.0,1
+confused mental state,compare baptisia conium,1.0,1
+confused mental state,aching in lower limbs,1.0,1
+confused mental state,aching in shoulder muscles,1.0,1
+confused mental state,aching in back worse in morning,1.0,1
+confused mental state,great languor,1.0,1
+confused mental state,muscular soreness after cold or influenza,1.0,1
+confused mental state,chilliness up and down back,1.0,1
+confused mental state,dimness of sight,1.0,1
+confused mental state,aching worse in morning,1.0,1
+confused mental state,blurred vision,1.0,1
+confused mental state,aching in arm muscles,1.0,1
+confused mental state,diplopia,1.0,1
+confused mental state,stupid mental state,1.0,1
+confused mental state,rheumatic pains after cold or influenza,1.0,1
+confused mental state,severe pain in neck muscles,1.0,1
+confused mental state,heaviness of eyelids,1.0,1
+diplopia,fever without thirst,1.0,1
+diplopia,severe pain in neck worse on motion,1.0,1
+diplopia,desire to lie down,1.0,1
+diplopia,complete muscular relaxation,1.0,1
+diplopia,headache better by urination,1.0,1
+diplopia,drowsiness,1.0,1
+diplopia,aversion to motion,1.0,1
+diplopia,occipital headache,1.0,1
+diplopia,compare baptisia conium,1.0,1
+diplopia,aching in lower limbs,1.0,1
+diplopia,aching in shoulder muscles,1.0,1
+diplopia,aching in back worse in morning,1.0,1
+diplopia,confused mental state,1.0,1
+diplopia,great languor,1.0,1
+diplopia,muscular soreness after cold or influenza,1.0,1
+diplopia,chilliness up and down back,1.0,1
+diplopia,dimness of sight,1.0,1
+diplopia,aching worse in morning,1.0,1
+diplopia,blurred vision,1.0,1
+diplopia,aching in arm muscles,1.0,1
+diplopia,stupid mental state,1.0,1
+diplopia,rheumatic pains after cold or influenza,1.0,1
+diplopia,severe pain in neck muscles,1.0,1
+diplopia,heaviness of eyelids,1.0,1
+complete muscular relaxation,fever without thirst,1.0,1
+complete muscular relaxation,severe pain in neck worse on motion,1.0,1
+complete muscular relaxation,desire to lie down,1.0,1
+complete muscular relaxation,headache better by urination,1.0,1
+complete muscular relaxation,drowsiness,1.0,1
+complete muscular relaxation,aversion to motion,1.0,1
+complete muscular relaxation,occipital headache,1.0,1
+complete muscular relaxation,compare baptisia conium,1.0,1
+complete muscular relaxation,aching in lower limbs,1.0,1
+complete muscular relaxation,aching in shoulder muscles,1.0,1
+complete muscular relaxation,aching in back worse in morning,1.0,1
+complete muscular relaxation,confused mental state,1.0,1
+complete muscular relaxation,great languor,1.0,1
+complete muscular relaxation,muscular soreness after cold or influenza,1.0,1
+complete muscular relaxation,chilliness up and down back,1.0,1
+complete muscular relaxation,dimness of sight,1.0,1
+complete muscular relaxation,aching worse in morning,1.0,1
+complete muscular relaxation,blurred vision,1.0,1
+complete muscular relaxation,aching in arm muscles,1.0,1
+complete muscular relaxation,diplopia,1.0,1
+complete muscular relaxation,stupid mental state,1.0,1
+complete muscular relaxation,rheumatic pains after cold or influenza,1.0,1
+complete muscular relaxation,severe pain in neck muscles,1.0,1
+complete muscular relaxation,heaviness of eyelids,1.0,1
+fever without thirst,severe pain in neck worse on motion,1.0,1
+fever without thirst,desire to lie down,1.0,1
+fever without thirst,complete muscular relaxation,1.0,1
+fever without thirst,headache better by urination,1.0,1
+fever without thirst,drowsiness,1.0,1
+fever without thirst,aversion to motion,1.0,1
+fever without thirst,occipital headache,1.0,1
+fever without thirst,compare baptisia conium,1.0,1
+fever without thirst,aching in lower limbs,1.0,1
+fever without thirst,aching in shoulder muscles,1.0,1
+fever without thirst,aching in back worse in morning,1.0,1
+fever without thirst,confused mental state,1.0,1
+fever without thirst,great languor,1.0,1
+fever without thirst,muscular soreness after cold or influenza,1.0,1
+fever without thirst,chilliness up and down back,1.0,1
+fever without thirst,dimness of sight,1.0,1
+fever without thirst,aching worse in morning,1.0,1
+fever without thirst,blurred vision,1.0,1
+fever without thirst,aching in arm muscles,1.0,1
+fever without thirst,diplopia,1.0,1
+fever without thirst,stupid mental state,1.0,1
+fever without thirst,rheumatic pains after cold or influenza,1.0,1
+fever without thirst,severe pain in neck muscles,1.0,1
+fever without thirst,heaviness of eyelids,1.0,1
+stupid mental state,fever without thirst,1.0,1
+stupid mental state,severe pain in neck worse on motion,1.0,1
+stupid mental state,desire to lie down,1.0,1
+stupid mental state,complete muscular relaxation,1.0,1
+stupid mental state,headache better by urination,1.0,1
+stupid mental state,drowsiness,1.0,1
+stupid mental state,aversion to motion,1.0,1
+stupid mental state,occipital headache,1.0,1
+stupid mental state,compare baptisia conium,1.0,1
+stupid mental state,aching in lower limbs,1.0,1
+stupid mental state,aching in shoulder muscles,1.0,1
+stupid mental state,aching in back worse in morning,1.0,1
+stupid mental state,confused mental state,1.0,1
+stupid mental state,great languor,1.0,1
+stupid mental state,muscular soreness after cold or influenza,1.0,1
+stupid mental state,chilliness up and down back,1.0,1
+stupid mental state,dimness of sight,1.0,1
+stupid mental state,aching worse in morning,1.0,1
+stupid mental state,blurred vision,1.0,1
+stupid mental state,aching in arm muscles,1.0,1
+stupid mental state,diplopia,1.0,1
+stupid mental state,rheumatic pains after cold or influenza,1.0,1
+stupid mental state,severe pain in neck muscles,1.0,1
+stupid mental state,heaviness of eyelids,1.0,1
+heaviness of eyelids,fever without thirst,1.0,1
+heaviness of eyelids,severe pain in neck worse on motion,1.0,1
+heaviness of eyelids,desire to lie down,1.0,1
+heaviness of eyelids,complete muscular relaxation,1.0,1
+heaviness of eyelids,headache better by urination,1.0,1
+heaviness of eyelids,drowsiness,1.0,1
+heaviness of eyelids,aversion to motion,1.0,1
+heaviness of eyelids,occipital headache,1.0,1
+heaviness of eyelids,compare baptisia conium,1.0,1
+heaviness of eyelids,aching in lower limbs,1.0,1
+heaviness of eyelids,aching in shoulder muscles,1.0,1
+heaviness of eyelids,aching in back worse in morning,1.0,1
+heaviness of eyelids,confused mental state,1.0,1
+heaviness of eyelids,great languor,1.0,1
+heaviness of eyelids,muscular soreness after cold or influenza,1.0,1
+heaviness of eyelids,chilliness up and down back,1.0,1
+heaviness of eyelids,dimness of sight,1.0,1
+heaviness of eyelids,aching worse in morning,1.0,1
+heaviness of eyelids,blurred vision,1.0,1
+heaviness of eyelids,aching in arm muscles,1.0,1
+heaviness of eyelids,diplopia,1.0,1
+heaviness of eyelids,stupid mental state,1.0,1
+heaviness of eyelids,rheumatic pains after cold or influenza,1.0,1
+heaviness of eyelids,severe pain in neck muscles,1.0,1
+severe pain in neck worse on motion,fever without thirst,1.0,1
+severe pain in neck worse on motion,desire to lie down,1.0,1
+severe pain in neck worse on motion,complete muscular relaxation,1.0,1
+severe pain in neck worse on motion,headache better by urination,1.0,1
+severe pain in neck worse on motion,drowsiness,1.0,1
+severe pain in neck worse on motion,aversion to motion,1.0,1
+severe pain in neck worse on motion,occipital headache,1.0,1
+severe pain in neck worse on motion,compare baptisia conium,1.0,1
+severe pain in neck worse on motion,aching in lower limbs,1.0,1
+severe pain in neck worse on motion,aching in shoulder muscles,1.0,1
+severe pain in neck worse on motion,aching in back worse in morning,1.0,1
+severe pain in neck worse on motion,confused mental state,1.0,1
+severe pain in neck worse on motion,great languor,1.0,1
+severe pain in neck worse on motion,muscular soreness after cold or influenza,1.0,1
+severe pain in neck worse on motion,chilliness up and down back,1.0,1
+severe pain in neck worse on motion,dimness of sight,1.0,1
+severe pain in neck worse on motion,aching worse in morning,1.0,1
+severe pain in neck worse on motion,blurred vision,1.0,1
+severe pain in neck worse on motion,aching in arm muscles,1.0,1
+severe pain in neck worse on motion,diplopia,1.0,1
+severe pain in neck worse on motion,stupid mental state,1.0,1
+severe pain in neck worse on motion,rheumatic pains after cold or influenza,1.0,1
+severe pain in neck worse on motion,severe pain in neck muscles,1.0,1
+severe pain in neck worse on motion,heaviness of eyelids,1.0,1
+great languor,fever without thirst,1.0,1
+great languor,severe pain in neck worse on motion,1.0,1
+great languor,desire to lie down,1.0,1
+great languor,complete muscular relaxation,1.0,1
+great languor,headache better by urination,1.0,1
+great languor,drowsiness,1.0,1
+great languor,aversion to motion,1.0,1
+great languor,occipital headache,1.0,1
+great languor,compare baptisia conium,1.0,1
+great languor,aching in lower limbs,1.0,1
+great languor,aching in shoulder muscles,1.0,1
+great languor,aching in back worse in morning,1.0,1
+great languor,confused mental state,1.0,1
+great languor,muscular soreness after cold or influenza,1.0,1
+great languor,chilliness up and down back,1.0,1
+great languor,dimness of sight,1.0,1
+great languor,aching worse in morning,1.0,1
+great languor,blurred vision,1.0,1
+great languor,aching in arm muscles,1.0,1
+great languor,diplopia,1.0,1
+great languor,stupid mental state,1.0,1
+great languor,rheumatic pains after cold or influenza,1.0,1
+great languor,severe pain in neck muscles,1.0,1
+great languor,heaviness of eyelids,1.0,1
+compare baptisia conium,fever without thirst,1.0,1
+compare baptisia conium,severe pain in neck worse on motion,1.0,1
+compare baptisia conium,desire to lie down,1.0,1
+compare baptisia conium,complete muscular relaxation,1.0,1
+compare baptisia conium,headache better by urination,1.0,1
+compare baptisia conium,drowsiness,1.0,1
+compare baptisia conium,aversion to motion,1.0,1
+compare baptisia conium,occipital headache,1.0,1
+compare baptisia conium,aching in lower limbs,1.0,1
+compare baptisia conium,aching in shoulder muscles,1.0,1
+compare baptisia conium,aching in back worse in morning,1.0,1
+compare baptisia conium,confused mental state,1.0,1
+compare baptisia conium,great languor,1.0,1
+compare baptisia conium,muscular soreness after cold or influenza,1.0,1
+compare baptisia conium,chilliness up and down back,1.0,1
+compare baptisia conium,dimness of sight,1.0,1
+compare baptisia conium,aching worse in morning,1.0,1
+compare baptisia conium,blurred vision,1.0,1
+compare baptisia conium,aching in arm muscles,1.0,1
+compare baptisia conium,diplopia,1.0,1
+compare baptisia conium,stupid mental state,1.0,1
+compare baptisia conium,rheumatic pains after cold or influenza,1.0,1
+compare baptisia conium,severe pain in neck muscles,1.0,1
+compare baptisia conium,heaviness of eyelids,1.0,1
+aching in back worse in morning,fever without thirst,1.0,1
+aching in back worse in morning,severe pain in neck worse on motion,1.0,1
+aching in back worse in morning,desire to lie down,1.0,1
+aching in back worse in morning,complete muscular relaxation,1.0,1
+aching in back worse in morning,headache better by urination,1.0,1
+aching in back worse in morning,drowsiness,1.0,1
+aching in back worse in morning,aversion to motion,1.0,1
+aching in back worse in morning,occipital headache,1.0,1
+aching in back worse in morning,compare baptisia conium,1.0,1
+aching in back worse in morning,aching in lower limbs,1.0,1
+aching in back worse in morning,aching in shoulder muscles,1.0,1
+aching in back worse in morning,confused mental state,1.0,1
+aching in back worse in morning,great languor,1.0,1
+aching in back worse in morning,muscular soreness after cold or influenza,1.0,1
+aching in back worse in morning,chilliness up and down back,1.0,1
+aching in back worse in morning,dimness of sight,1.0,1
+aching in back worse in morning,aching worse in morning,1.0,1
+aching in back worse in morning,blurred vision,1.0,1
+aching in back worse in morning,aching in arm muscles,1.0,1
+aching in back worse in morning,diplopia,1.0,1
+aching in back worse in morning,stupid mental state,1.0,1
+aching in back worse in morning,rheumatic pains after cold or influenza,1.0,1
+aching in back worse in morning,severe pain in neck muscles,1.0,1
+aching in back worse in morning,heaviness of eyelids,1.0,1
+desire to lie down,fever without thirst,1.0,1
+desire to lie down,severe pain in neck worse on motion,1.0,1
+desire to lie down,complete muscular relaxation,1.0,1
+desire to lie down,headache better by urination,1.0,1
+desire to lie down,drowsiness,1.0,1
+desire to lie down,aversion to motion,1.0,1
+desire to lie down,occipital headache,1.0,1
+desire to lie down,compare baptisia conium,1.0,1
+desire to lie down,aching in lower limbs,1.0,1
+desire to lie down,aching in shoulder muscles,1.0,1
+desire to lie down,aching in back worse in morning,1.0,1
+desire to lie down,confused mental state,1.0,1
+desire to lie down,great languor,1.0,1
+desire to lie down,muscular soreness after cold or influenza,1.0,1
+desire to lie down,chilliness up and down back,1.0,1
+desire to lie down,dimness of sight,1.0,1
+desire to lie down,aching worse in morning,1.0,1
+desire to lie down,blurred vision,1.0,1
+desire to lie down,aching in arm muscles,1.0,1
+desire to lie down,diplopia,1.0,1
+desire to lie down,stupid mental state,1.0,1
+desire to lie down,rheumatic pains after cold or influenza,1.0,1
+desire to lie down,severe pain in neck muscles,1.0,1
+desire to lie down,heaviness of eyelids,1.0,1
+muscular soreness after cold or influenza,fever without thirst,1.0,1
+muscular soreness after cold or influenza,severe pain in neck worse on motion,1.0,1
+muscular soreness after cold or influenza,desire to lie down,1.0,1
+muscular soreness after cold or influenza,complete muscular relaxation,1.0,1
+muscular soreness after cold or influenza,headache better by urination,1.0,1
+muscular soreness after cold or influenza,drowsiness,1.0,1
+muscular soreness after cold or influenza,aversion to motion,1.0,1
+muscular soreness after cold or influenza,occipital headache,1.0,1
+muscular soreness after cold or influenza,compare baptisia conium,1.0,1
+muscular soreness after cold or influenza,aching in lower limbs,1.0,1
+muscular soreness after cold or influenza,aching in shoulder muscles,1.0,1
+muscular soreness after cold or influenza,aching in back worse in morning,1.0,1
+muscular soreness after cold or influenza,confused mental state,1.0,1
+muscular soreness after cold or influenza,great languor,1.0,1
+muscular soreness after cold or influenza,chilliness up and down back,1.0,1
+muscular soreness after cold or influenza,dimness of sight,1.0,1
+muscular soreness after cold or influenza,aching worse in morning,1.0,1
+muscular soreness after cold or influenza,blurred vision,1.0,1
+muscular soreness after cold or influenza,aching in arm muscles,1.0,1
+muscular soreness after cold or influenza,diplopia,1.0,1
+muscular soreness after cold or influenza,stupid mental state,1.0,1
+muscular soreness after cold or influenza,rheumatic pains after cold or influenza,1.0,1
+muscular soreness after cold or influenza,severe pain in neck muscles,1.0,1
+muscular soreness after cold or influenza,heaviness of eyelids,1.0,1
+aching in arm muscles,fever without thirst,1.0,1
+aching in arm muscles,severe pain in neck worse on motion,1.0,1
+aching in arm muscles,desire to lie down,1.0,1
+aching in arm muscles,complete muscular relaxation,1.0,1
+aching in arm muscles,headache better by urination,1.0,1
+aching in arm muscles,drowsiness,1.0,1
+aching in arm muscles,aversion to motion,1.0,1
+aching in arm muscles,occipital headache,1.0,1
+aching in arm muscles,compare baptisia conium,1.0,1
+aching in arm muscles,aching in lower limbs,1.0,1
+aching in arm muscles,aching in shoulder muscles,1.0,1
+aching in arm muscles,aching in back worse in morning,1.0,1
+aching in arm muscles,confused mental state,1.0,1
+aching in arm muscles,great languor,1.0,1
+aching in arm muscles,muscular soreness after cold or influenza,1.0,1
+aching in arm muscles,chilliness up and down back,1.0,1
+aching in arm muscles,dimness of sight,1.0,1
+aching in arm muscles,aching worse in morning,1.0,1
+aching in arm muscles,blurred vision,1.0,1
+aching in arm muscles,diplopia,1.0,1
+aching in arm muscles,stupid mental state,1.0,1
+aching in arm muscles,rheumatic pains after cold or influenza,1.0,1
+aching in arm muscles,severe pain in neck muscles,1.0,1
+aching in arm muscles,heaviness of eyelids,1.0,1
+headache better by urination,fever without thirst,1.0,1
+headache better by urination,severe pain in neck worse on motion,1.0,1
+headache better by urination,desire to lie down,1.0,1
+headache better by urination,complete muscular relaxation,1.0,1
+headache better by urination,drowsiness,1.0,1
+headache better by urination,aversion to motion,1.0,1
+headache better by urination,occipital headache,1.0,1
+headache better by urination,compare baptisia conium,1.0,1
+headache better by urination,aching in lower limbs,1.0,1
+headache better by urination,aching in shoulder muscles,1.0,1
+headache better by urination,aching in back worse in morning,1.0,1
+headache better by urination,confused mental state,1.0,1
+headache better by urination,great languor,1.0,1
+headache better by urination,muscular soreness after cold or influenza,1.0,1
+headache better by urination,chilliness up and down back,1.0,1
+headache better by urination,dimness of sight,1.0,1
+headache better by urination,aching worse in morning,1.0,1
+headache better by urination,blurred vision,1.0,1
+headache better by urination,aching in arm muscles,1.0,1
+headache better by urination,diplopia,1.0,1
+headache better by urination,stupid mental state,1.0,1
+headache better by urination,rheumatic pains after cold or influenza,1.0,1
+headache better by urination,severe pain in neck muscles,1.0,1
+headache better by urination,heaviness of eyelids,1.0,1

@@ -1,0 +1,59 @@
+### Cluster 96 — Symptoms (7)
+Symptom,Frequency
+rheumatism in chilly patients,1
+tearing pain in lumbar region,1
+craving for eggs,1
+cramping in calves,2
+rheumatic pains worse cold,1
+gouty swellings,1
+fatigue,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+calcarea carbonica,7
+camphora,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+rheumatic pains worse cold,rheumatism in chilly patients,1.0,1
+rheumatic pains worse cold,tearing pain in lumbar region,1.0,1
+rheumatic pains worse cold,craving for eggs,1.0,1
+rheumatic pains worse cold,cramping in calves,1.0,1
+rheumatic pains worse cold,gouty swellings,1.0,1
+rheumatic pains worse cold,fatigue,1.0,1
+craving for eggs,rheumatism in chilly patients,1.0,1
+craving for eggs,tearing pain in lumbar region,1.0,1
+craving for eggs,cramping in calves,1.0,1
+craving for eggs,rheumatic pains worse cold,1.0,1
+craving for eggs,gouty swellings,1.0,1
+craving for eggs,fatigue,1.0,1
+fatigue,rheumatism in chilly patients,1.0,1
+fatigue,tearing pain in lumbar region,1.0,1
+fatigue,craving for eggs,1.0,1
+fatigue,cramping in calves,1.0,1
+fatigue,rheumatic pains worse cold,1.0,1
+fatigue,gouty swellings,1.0,1
+gouty swellings,rheumatism in chilly patients,1.0,1
+gouty swellings,tearing pain in lumbar region,1.0,1
+gouty swellings,craving for eggs,1.0,1
+gouty swellings,cramping in calves,1.0,1
+gouty swellings,rheumatic pains worse cold,1.0,1
+gouty swellings,fatigue,1.0,1
+rheumatism in chilly patients,tearing pain in lumbar region,1.0,1
+rheumatism in chilly patients,craving for eggs,1.0,1
+rheumatism in chilly patients,cramping in calves,1.0,1
+rheumatism in chilly patients,rheumatic pains worse cold,1.0,1
+rheumatism in chilly patients,gouty swellings,1.0,1
+rheumatism in chilly patients,fatigue,1.0,1
+tearing pain in lumbar region,rheumatism in chilly patients,1.0,1
+tearing pain in lumbar region,craving for eggs,1.0,1
+tearing pain in lumbar region,cramping in calves,1.0,1
+tearing pain in lumbar region,rheumatic pains worse cold,1.0,1
+tearing pain in lumbar region,gouty swellings,1.0,1
+tearing pain in lumbar region,fatigue,1.0,1
+cramping in calves,rheumatism in chilly patients,0.5,1
+cramping in calves,tearing pain in lumbar region,0.5,1
+cramping in calves,craving for eggs,0.5,1
+cramping in calves,rheumatic pains worse cold,0.5,1
+cramping in calves,gouty swellings,0.5,1
+cramping in calves,fatigue,0.5,1

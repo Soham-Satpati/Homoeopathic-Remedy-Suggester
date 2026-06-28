@@ -1,0 +1,1168 @@
+### Cluster 93 — Symptoms (34)
+Symptom,Frequency
+hemorrhoids,2
+arthritic ophthalmia,2
+pressure in back as from a stone,2
+can neither sit nor lie with comfort,1
+irritable temper,1
+intolerance of light,1
+muscles of neck painful when moving head,1
+cramp in calves at night,1
+aching in back with great sensitiveness to touch,1
+tearing pain in limbs,1
+rheumatic pain in deltoid,1
+oversensitiveness to external impressions,1
+old gouty subjects with rheumatic ophthalmia,1
+pain in back compelling him to bend forward,1
+aching pains and anguish in region of heart,1
+compelled to walk about,1
+rheumatic pain in back worse at night,1
+great weariness and relaxation of lower limbs,1
+drawing pains in muscles of arm,1
+pains in small of back as if a band were drawn tightly around waist,1
+pressive pain in elbow joint,1
+aversion to coffee and tobacco,1
+great weakness in knee joints,1
+lids very red and sensitive to touch,1
+rheumatism of large muscles of trunk and limbs,1
+stinging pain in knee,1
+bruised pains in limbs,1
+rheumatism of large muscles of shoulder and neck,1
+rheumatism of hip and knee joints,1
+pains in knee as if crushed,1
+gastric derangements,1
+bitter taste in mouth,1
+at beginning of rheumatic ophthalmia,1
+tearing pains in eyes,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+nux vomica,34
+aesculus hippocastanum,1
+staphisagria,1
+oniscus,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+compelled to walk about,hemorrhoids,1.0,1
+compelled to walk about,can neither sit nor lie with comfort,1.0,1
+compelled to walk about,irritable temper,1.0,1
+compelled to walk about,intolerance of light,1.0,1
+compelled to walk about,muscles of neck painful when moving head,1.0,1
+compelled to walk about,cramp in calves at night,1.0,1
+compelled to walk about,arthritic ophthalmia,1.0,1
+compelled to walk about,aching in back with great sensitiveness to touch,1.0,1
+compelled to walk about,tearing pain in limbs,1.0,1
+compelled to walk about,rheumatic pain in deltoid,1.0,1
+compelled to walk about,oversensitiveness to external impressions,1.0,1
+compelled to walk about,old gouty subjects with rheumatic ophthalmia,1.0,1
+compelled to walk about,pressure in back as from a stone,1.0,1
+compelled to walk about,pain in back compelling him to bend forward,1.0,1
+compelled to walk about,aching pains and anguish in region of heart,1.0,1
+compelled to walk about,rheumatic pain in back worse at night,1.0,1
+compelled to walk about,great weariness and relaxation of lower limbs,1.0,1
+compelled to walk about,drawing pains in muscles of arm,1.0,1
+compelled to walk about,pains in small of back as if a band were drawn tightly around waist,1.0,1
+compelled to walk about,pressive pain in elbow joint,1.0,1
+compelled to walk about,aversion to coffee and tobacco,1.0,1
+compelled to walk about,great weakness in knee joints,1.0,1
+compelled to walk about,lids very red and sensitive to touch,1.0,1
+compelled to walk about,rheumatism of large muscles of trunk and limbs,1.0,1
+compelled to walk about,stinging pain in knee,1.0,1
+compelled to walk about,bruised pains in limbs,1.0,1
+compelled to walk about,rheumatism of large muscles of shoulder and neck,1.0,1
+compelled to walk about,rheumatism of hip and knee joints,1.0,1
+compelled to walk about,pains in knee as if crushed,1.0,1
+compelled to walk about,gastric derangements,1.0,1
+compelled to walk about,bitter taste in mouth,1.0,1
+compelled to walk about,at beginning of rheumatic ophthalmia,1.0,1
+compelled to walk about,tearing pains in eyes,1.0,1
+pressure in back as from a stone,hemorrhoids,0.5,1
+pressure in back as from a stone,can neither sit nor lie with comfort,0.5,1
+pressure in back as from a stone,irritable temper,0.5,1
+pressure in back as from a stone,intolerance of light,0.5,1
+pressure in back as from a stone,muscles of neck painful when moving head,0.5,1
+pressure in back as from a stone,cramp in calves at night,0.5,1
+pressure in back as from a stone,arthritic ophthalmia,0.5,1
+pressure in back as from a stone,aching in back with great sensitiveness to touch,0.5,1
+pressure in back as from a stone,tearing pain in limbs,0.5,1
+pressure in back as from a stone,rheumatic pain in deltoid,0.5,1
+pressure in back as from a stone,oversensitiveness to external impressions,0.5,1
+pressure in back as from a stone,old gouty subjects with rheumatic ophthalmia,0.5,1
+pressure in back as from a stone,pain in back compelling him to bend forward,0.5,1
+pressure in back as from a stone,aching pains and anguish in region of heart,0.5,1
+pressure in back as from a stone,compelled to walk about,0.5,1
+pressure in back as from a stone,rheumatic pain in back worse at night,0.5,1
+pressure in back as from a stone,great weariness and relaxation of lower limbs,0.5,1
+pressure in back as from a stone,drawing pains in muscles of arm,0.5,1
+pressure in back as from a stone,pains in small of back as if a band were drawn tightly around waist,0.5,1
+pressure in back as from a stone,pressive pain in elbow joint,0.5,1
+pressure in back as from a stone,aversion to coffee and tobacco,0.5,1
+pressure in back as from a stone,great weakness in knee joints,0.5,1
+pressure in back as from a stone,lids very red and sensitive to touch,0.5,1
+pressure in back as from a stone,rheumatism of large muscles of trunk and limbs,0.5,1
+pressure in back as from a stone,stinging pain in knee,0.5,1
+pressure in back as from a stone,bruised pains in limbs,0.5,1
+pressure in back as from a stone,rheumatism of large muscles of shoulder and neck,0.5,1
+pressure in back as from a stone,rheumatism of hip and knee joints,0.5,1
+pressure in back as from a stone,pains in knee as if crushed,0.5,1
+pressure in back as from a stone,gastric derangements,0.5,1
+pressure in back as from a stone,bitter taste in mouth,0.5,1
+pressure in back as from a stone,at beginning of rheumatic ophthalmia,0.5,1
+pressure in back as from a stone,tearing pains in eyes,0.5,1
+rheumatic pain in deltoid,hemorrhoids,1.0,1
+rheumatic pain in deltoid,can neither sit nor lie with comfort,1.0,1
+rheumatic pain in deltoid,irritable temper,1.0,1
+rheumatic pain in deltoid,intolerance of light,1.0,1
+rheumatic pain in deltoid,muscles of neck painful when moving head,1.0,1
+rheumatic pain in deltoid,cramp in calves at night,1.0,1
+rheumatic pain in deltoid,arthritic ophthalmia,1.0,1
+rheumatic pain in deltoid,aching in back with great sensitiveness to touch,1.0,1
+rheumatic pain in deltoid,tearing pain in limbs,1.0,1
+rheumatic pain in deltoid,oversensitiveness to external impressions,1.0,1
+rheumatic pain in deltoid,old gouty subjects with rheumatic ophthalmia,1.0,1
+rheumatic pain in deltoid,pressure in back as from a stone,1.0,1
+rheumatic pain in deltoid,pain in back compelling him to bend forward,1.0,1
+rheumatic pain in deltoid,aching pains and anguish in region of heart,1.0,1
+rheumatic pain in deltoid,compelled to walk about,1.0,1
+rheumatic pain in deltoid,rheumatic pain in back worse at night,1.0,1
+rheumatic pain in deltoid,great weariness and relaxation of lower limbs,1.0,1
+rheumatic pain in deltoid,drawing pains in muscles of arm,1.0,1
+rheumatic pain in deltoid,pains in small of back as if a band were drawn tightly around waist,1.0,1
+rheumatic pain in deltoid,pressive pain in elbow joint,1.0,1
+rheumatic pain in deltoid,aversion to coffee and tobacco,1.0,1
+rheumatic pain in deltoid,great weakness in knee joints,1.0,1
+rheumatic pain in deltoid,lids very red and sensitive to touch,1.0,1
+rheumatic pain in deltoid,rheumatism of large muscles of trunk and limbs,1.0,1
+rheumatic pain in deltoid,stinging pain in knee,1.0,1
+rheumatic pain in deltoid,bruised pains in limbs,1.0,1
+rheumatic pain in deltoid,rheumatism of large muscles of shoulder and neck,1.0,1
+rheumatic pain in deltoid,rheumatism of hip and knee joints,1.0,1
+rheumatic pain in deltoid,pains in knee as if crushed,1.0,1
+rheumatic pain in deltoid,gastric derangements,1.0,1
+rheumatic pain in deltoid,bitter taste in mouth,1.0,1
+rheumatic pain in deltoid,at beginning of rheumatic ophthalmia,1.0,1
+rheumatic pain in deltoid,tearing pains in eyes,1.0,1
+oversensitiveness to external impressions,hemorrhoids,1.0,1
+oversensitiveness to external impressions,can neither sit nor lie with comfort,1.0,1
+oversensitiveness to external impressions,irritable temper,1.0,1
+oversensitiveness to external impressions,intolerance of light,1.0,1
+oversensitiveness to external impressions,muscles of neck painful when moving head,1.0,1
+oversensitiveness to external impressions,cramp in calves at night,1.0,1
+oversensitiveness to external impressions,arthritic ophthalmia,1.0,1
+oversensitiveness to external impressions,aching in back with great sensitiveness to touch,1.0,1
+oversensitiveness to external impressions,tearing pain in limbs,1.0,1
+oversensitiveness to external impressions,rheumatic pain in deltoid,1.0,1
+oversensitiveness to external impressions,old gouty subjects with rheumatic ophthalmia,1.0,1
+oversensitiveness to external impressions,pressure in back as from a stone,1.0,1
+oversensitiveness to external impressions,pain in back compelling him to bend forward,1.0,1
+oversensitiveness to external impressions,aching pains and anguish in region of heart,1.0,1
+oversensitiveness to external impressions,compelled to walk about,1.0,1
+oversensitiveness to external impressions,rheumatic pain in back worse at night,1.0,1
+oversensitiveness to external impressions,great weariness and relaxation of lower limbs,1.0,1
+oversensitiveness to external impressions,drawing pains in muscles of arm,1.0,1
+oversensitiveness to external impressions,pains in small of back as if a band were drawn tightly around waist,1.0,1
+oversensitiveness to external impressions,pressive pain in elbow joint,1.0,1
+oversensitiveness to external impressions,aversion to coffee and tobacco,1.0,1
+oversensitiveness to external impressions,great weakness in knee joints,1.0,1
+oversensitiveness to external impressions,lids very red and sensitive to touch,1.0,1
+oversensitiveness to external impressions,rheumatism of large muscles of trunk and limbs,1.0,1
+oversensitiveness to external impressions,stinging pain in knee,1.0,1
+oversensitiveness to external impressions,bruised pains in limbs,1.0,1
+oversensitiveness to external impressions,rheumatism of large muscles of shoulder and neck,1.0,1
+oversensitiveness to external impressions,rheumatism of hip and knee joints,1.0,1
+oversensitiveness to external impressions,pains in knee as if crushed,1.0,1
+oversensitiveness to external impressions,gastric derangements,1.0,1
+oversensitiveness to external impressions,bitter taste in mouth,1.0,1
+oversensitiveness to external impressions,at beginning of rheumatic ophthalmia,1.0,1
+oversensitiveness to external impressions,tearing pains in eyes,1.0,1
+old gouty subjects with rheumatic ophthalmia,hemorrhoids,1.0,1
+old gouty subjects with rheumatic ophthalmia,can neither sit nor lie with comfort,1.0,1
+old gouty subjects with rheumatic ophthalmia,irritable temper,1.0,1
+old gouty subjects with rheumatic ophthalmia,intolerance of light,1.0,1
+old gouty subjects with rheumatic ophthalmia,muscles of neck painful when moving head,1.0,1
+old gouty subjects with rheumatic ophthalmia,cramp in calves at night,1.0,1
+old gouty subjects with rheumatic ophthalmia,arthritic ophthalmia,1.0,1
+old gouty subjects with rheumatic ophthalmia,aching in back with great sensitiveness to touch,1.0,1
+old gouty subjects with rheumatic ophthalmia,tearing pain in limbs,1.0,1
+old gouty subjects with rheumatic ophthalmia,rheumatic pain in deltoid,1.0,1
+old gouty subjects with rheumatic ophthalmia,oversensitiveness to external impressions,1.0,1
+old gouty subjects with rheumatic ophthalmia,pressure in back as from a stone,1.0,1
+old gouty subjects with rheumatic ophthalmia,pain in back compelling him to bend forward,1.0,1
+old gouty subjects with rheumatic ophthalmia,aching pains and anguish in region of heart,1.0,1
+old gouty subjects with rheumatic ophthalmia,compelled to walk about,1.0,1
+old gouty subjects with rheumatic ophthalmia,rheumatic pain in back worse at night,1.0,1
+old gouty subjects with rheumatic ophthalmia,great weariness and relaxation of lower limbs,1.0,1
+old gouty subjects with rheumatic ophthalmia,drawing pains in muscles of arm,1.0,1
+old gouty subjects with rheumatic ophthalmia,pains in small of back as if a band were drawn tightly around waist,1.0,1
+old gouty subjects with rheumatic ophthalmia,pressive pain in elbow joint,1.0,1
+old gouty subjects with rheumatic ophthalmia,aversion to coffee and tobacco,1.0,1
+old gouty subjects with rheumatic ophthalmia,great weakness in knee joints,1.0,1
+old gouty subjects with rheumatic ophthalmia,lids very red and sensitive to touch,1.0,1
+old gouty subjects with rheumatic ophthalmia,rheumatism of large muscles of trunk and limbs,1.0,1
+old gouty subjects with rheumatic ophthalmia,stinging pain in knee,1.0,1
+old gouty subjects with rheumatic ophthalmia,bruised pains in limbs,1.0,1
+old gouty subjects with rheumatic ophthalmia,rheumatism of large muscles of shoulder and neck,1.0,1
+old gouty subjects with rheumatic ophthalmia,rheumatism of hip and knee joints,1.0,1
+old gouty subjects with rheumatic ophthalmia,pains in knee as if crushed,1.0,1
+old gouty subjects with rheumatic ophthalmia,gastric derangements,1.0,1
+old gouty subjects with rheumatic ophthalmia,bitter taste in mouth,1.0,1
+old gouty subjects with rheumatic ophthalmia,at beginning of rheumatic ophthalmia,1.0,1
+old gouty subjects with rheumatic ophthalmia,tearing pains in eyes,1.0,1
+aversion to coffee and tobacco,hemorrhoids,1.0,1
+aversion to coffee and tobacco,can neither sit nor lie with comfort,1.0,1
+aversion to coffee and tobacco,irritable temper,1.0,1
+aversion to coffee and tobacco,intolerance of light,1.0,1
+aversion to coffee and tobacco,muscles of neck painful when moving head,1.0,1
+aversion to coffee and tobacco,cramp in calves at night,1.0,1
+aversion to coffee and tobacco,arthritic ophthalmia,1.0,1
+aversion to coffee and tobacco,aching in back with great sensitiveness to touch,1.0,1
+aversion to coffee and tobacco,tearing pain in limbs,1.0,1
+aversion to coffee and tobacco,rheumatic pain in deltoid,1.0,1
+aversion to coffee and tobacco,oversensitiveness to external impressions,1.0,1
+aversion to coffee and tobacco,old gouty subjects with rheumatic ophthalmia,1.0,1
+aversion to coffee and tobacco,pressure in back as from a stone,1.0,1
+aversion to coffee and tobacco,pain in back compelling him to bend forward,1.0,1
+aversion to coffee and tobacco,aching pains and anguish in region of heart,1.0,1
+aversion to coffee and tobacco,compelled to walk about,1.0,1
+aversion to coffee and tobacco,rheumatic pain in back worse at night,1.0,1
+aversion to coffee and tobacco,great weariness and relaxation of lower limbs,1.0,1
+aversion to coffee and tobacco,drawing pains in muscles of arm,1.0,1
+aversion to coffee and tobacco,pains in small of back as if a band were drawn tightly around waist,1.0,1
+aversion to coffee and tobacco,pressive pain in elbow joint,1.0,1
+aversion to coffee and tobacco,great weakness in knee joints,1.0,1
+aversion to coffee and tobacco,lids very red and sensitive to touch,1.0,1
+aversion to coffee and tobacco,rheumatism of large muscles of trunk and limbs,1.0,1
+aversion to coffee and tobacco,stinging pain in knee,1.0,1
+aversion to coffee and tobacco,bruised pains in limbs,1.0,1
+aversion to coffee and tobacco,rheumatism of large muscles of shoulder and neck,1.0,1
+aversion to coffee and tobacco,rheumatism of hip and knee joints,1.0,1
+aversion to coffee and tobacco,pains in knee as if crushed,1.0,1
+aversion to coffee and tobacco,gastric derangements,1.0,1
+aversion to coffee and tobacco,bitter taste in mouth,1.0,1
+aversion to coffee and tobacco,at beginning of rheumatic ophthalmia,1.0,1
+aversion to coffee and tobacco,tearing pains in eyes,1.0,1
+irritable temper,hemorrhoids,1.0,1
+irritable temper,can neither sit nor lie with comfort,1.0,1
+irritable temper,intolerance of light,1.0,1
+irritable temper,muscles of neck painful when moving head,1.0,1
+irritable temper,cramp in calves at night,1.0,1
+irritable temper,arthritic ophthalmia,1.0,1
+irritable temper,aching in back with great sensitiveness to touch,1.0,1
+irritable temper,tearing pain in limbs,1.0,1
+irritable temper,rheumatic pain in deltoid,1.0,1
+irritable temper,oversensitiveness to external impressions,1.0,1
+irritable temper,old gouty subjects with rheumatic ophthalmia,1.0,1
+irritable temper,pressure in back as from a stone,1.0,1
+irritable temper,pain in back compelling him to bend forward,1.0,1
+irritable temper,aching pains and anguish in region of heart,1.0,1
+irritable temper,compelled to walk about,1.0,1
+irritable temper,rheumatic pain in back worse at night,1.0,1
+irritable temper,great weariness and relaxation of lower limbs,1.0,1
+irritable temper,drawing pains in muscles of arm,1.0,1
+irritable temper,pains in small of back as if a band were drawn tightly around waist,1.0,1
+irritable temper,pressive pain in elbow joint,1.0,1
+irritable temper,aversion to coffee and tobacco,1.0,1
+irritable temper,great weakness in knee joints,1.0,1
+irritable temper,lids very red and sensitive to touch,1.0,1
+irritable temper,rheumatism of large muscles of trunk and limbs,1.0,1
+irritable temper,stinging pain in knee,1.0,1
+irritable temper,bruised pains in limbs,1.0,1
+irritable temper,rheumatism of large muscles of shoulder and neck,1.0,1
+irritable temper,rheumatism of hip and knee joints,1.0,1
+irritable temper,pains in knee as if crushed,1.0,1
+irritable temper,gastric derangements,1.0,1
+irritable temper,bitter taste in mouth,1.0,1
+irritable temper,at beginning of rheumatic ophthalmia,1.0,1
+irritable temper,tearing pains in eyes,1.0,1
+hemorrhoids,can neither sit nor lie with comfort,0.5,1
+hemorrhoids,irritable temper,0.5,1
+hemorrhoids,intolerance of light,0.5,1
+hemorrhoids,muscles of neck painful when moving head,0.5,1
+hemorrhoids,cramp in calves at night,0.5,1
+hemorrhoids,arthritic ophthalmia,0.5,1
+hemorrhoids,aching in back with great sensitiveness to touch,0.5,1
+hemorrhoids,tearing pain in limbs,0.5,1
+hemorrhoids,rheumatic pain in deltoid,0.5,1
+hemorrhoids,oversensitiveness to external impressions,0.5,1
+hemorrhoids,old gouty subjects with rheumatic ophthalmia,0.5,1
+hemorrhoids,pressure in back as from a stone,0.5,1
+hemorrhoids,pain in back compelling him to bend forward,0.5,1
+hemorrhoids,aching pains and anguish in region of heart,0.5,1
+hemorrhoids,compelled to walk about,0.5,1
+hemorrhoids,rheumatic pain in back worse at night,0.5,1
+hemorrhoids,great weariness and relaxation of lower limbs,0.5,1
+hemorrhoids,drawing pains in muscles of arm,0.5,1
+hemorrhoids,pains in small of back as if a band were drawn tightly around waist,0.5,1
+hemorrhoids,pressive pain in elbow joint,0.5,1
+hemorrhoids,aversion to coffee and tobacco,0.5,1
+hemorrhoids,great weakness in knee joints,0.5,1
+hemorrhoids,lids very red and sensitive to touch,0.5,1
+hemorrhoids,rheumatism of large muscles of trunk and limbs,0.5,1
+hemorrhoids,stinging pain in knee,0.5,1
+hemorrhoids,bruised pains in limbs,0.5,1
+hemorrhoids,rheumatism of large muscles of shoulder and neck,0.5,1
+hemorrhoids,rheumatism of hip and knee joints,0.5,1
+hemorrhoids,pains in knee as if crushed,0.5,1
+hemorrhoids,gastric derangements,0.5,1
+hemorrhoids,bitter taste in mouth,0.5,1
+hemorrhoids,at beginning of rheumatic ophthalmia,0.5,1
+hemorrhoids,tearing pains in eyes,0.5,1
+intolerance of light,hemorrhoids,1.0,1
+intolerance of light,can neither sit nor lie with comfort,1.0,1
+intolerance of light,irritable temper,1.0,1
+intolerance of light,muscles of neck painful when moving head,1.0,1
+intolerance of light,cramp in calves at night,1.0,1
+intolerance of light,arthritic ophthalmia,1.0,1
+intolerance of light,aching in back with great sensitiveness to touch,1.0,1
+intolerance of light,tearing pain in limbs,1.0,1
+intolerance of light,rheumatic pain in deltoid,1.0,1
+intolerance of light,oversensitiveness to external impressions,1.0,1
+intolerance of light,old gouty subjects with rheumatic ophthalmia,1.0,1
+intolerance of light,pressure in back as from a stone,1.0,1
+intolerance of light,pain in back compelling him to bend forward,1.0,1
+intolerance of light,aching pains and anguish in region of heart,1.0,1
+intolerance of light,compelled to walk about,1.0,1
+intolerance of light,rheumatic pain in back worse at night,1.0,1
+intolerance of light,great weariness and relaxation of lower limbs,1.0,1
+intolerance of light,drawing pains in muscles of arm,1.0,1
+intolerance of light,pains in small of back as if a band were drawn tightly around waist,1.0,1
+intolerance of light,pressive pain in elbow joint,1.0,1
+intolerance of light,aversion to coffee and tobacco,1.0,1
+intolerance of light,great weakness in knee joints,1.0,1
+intolerance of light,lids very red and sensitive to touch,1.0,1
+intolerance of light,rheumatism of large muscles of trunk and limbs,1.0,1
+intolerance of light,stinging pain in knee,1.0,1
+intolerance of light,bruised pains in limbs,1.0,1
+intolerance of light,rheumatism of large muscles of shoulder and neck,1.0,1
+intolerance of light,rheumatism of hip and knee joints,1.0,1
+intolerance of light,pains in knee as if crushed,1.0,1
+intolerance of light,gastric derangements,1.0,1
+intolerance of light,bitter taste in mouth,1.0,1
+intolerance of light,at beginning of rheumatic ophthalmia,1.0,1
+intolerance of light,tearing pains in eyes,1.0,1
+pains in small of back as if a band were drawn tightly around waist,hemorrhoids,1.0,1
+pains in small of back as if a band were drawn tightly around waist,can neither sit nor lie with comfort,1.0,1
+pains in small of back as if a band were drawn tightly around waist,irritable temper,1.0,1
+pains in small of back as if a band were drawn tightly around waist,intolerance of light,1.0,1
+pains in small of back as if a band were drawn tightly around waist,muscles of neck painful when moving head,1.0,1
+pains in small of back as if a band were drawn tightly around waist,cramp in calves at night,1.0,1
+pains in small of back as if a band were drawn tightly around waist,arthritic ophthalmia,1.0,1
+pains in small of back as if a band were drawn tightly around waist,aching in back with great sensitiveness to touch,1.0,1
+pains in small of back as if a band were drawn tightly around waist,tearing pain in limbs,1.0,1
+pains in small of back as if a band were drawn tightly around waist,rheumatic pain in deltoid,1.0,1
+pains in small of back as if a band were drawn tightly around waist,oversensitiveness to external impressions,1.0,1
+pains in small of back as if a band were drawn tightly around waist,old gouty subjects with rheumatic ophthalmia,1.0,1
+pains in small of back as if a band were drawn tightly around waist,pressure in back as from a stone,1.0,1
+pains in small of back as if a band were drawn tightly around waist,pain in back compelling him to bend forward,1.0,1
+pains in small of back as if a band were drawn tightly around waist,aching pains and anguish in region of heart,1.0,1
+pains in small of back as if a band were drawn tightly around waist,compelled to walk about,1.0,1
+pains in small of back as if a band were drawn tightly around waist,rheumatic pain in back worse at night,1.0,1
+pains in small of back as if a band were drawn tightly around waist,great weariness and relaxation of lower limbs,1.0,1
+pains in small of back as if a band were drawn tightly around waist,drawing pains in muscles of arm,1.0,1
+pains in small of back as if a band were drawn tightly around waist,pressive pain in elbow joint,1.0,1
+pains in small of back as if a band were drawn tightly around waist,aversion to coffee and tobacco,1.0,1
+pains in small of back as if a band were drawn tightly around waist,great weakness in knee joints,1.0,1
+pains in small of back as if a band were drawn tightly around waist,lids very red and sensitive to touch,1.0,1
+pains in small of back as if a band were drawn tightly around waist,rheumatism of large muscles of trunk and limbs,1.0,1
+pains in small of back as if a band were drawn tightly around waist,stinging pain in knee,1.0,1
+pains in small of back as if a band were drawn tightly around waist,bruised pains in limbs,1.0,1
+pains in small of back as if a band were drawn tightly around waist,rheumatism of large muscles of shoulder and neck,1.0,1
+pains in small of back as if a band were drawn tightly around waist,rheumatism of hip and knee joints,1.0,1
+pains in small of back as if a band were drawn tightly around waist,pains in knee as if crushed,1.0,1
+pains in small of back as if a band were drawn tightly around waist,gastric derangements,1.0,1
+pains in small of back as if a band were drawn tightly around waist,bitter taste in mouth,1.0,1
+pains in small of back as if a band were drawn tightly around waist,at beginning of rheumatic ophthalmia,1.0,1
+pains in small of back as if a band were drawn tightly around waist,tearing pains in eyes,1.0,1
+great weakness in knee joints,hemorrhoids,1.0,1
+great weakness in knee joints,can neither sit nor lie with comfort,1.0,1
+great weakness in knee joints,irritable temper,1.0,1
+great weakness in knee joints,intolerance of light,1.0,1
+great weakness in knee joints,muscles of neck painful when moving head,1.0,1
+great weakness in knee joints,cramp in calves at night,1.0,1
+great weakness in knee joints,arthritic ophthalmia,1.0,1
+great weakness in knee joints,aching in back with great sensitiveness to touch,1.0,1
+great weakness in knee joints,tearing pain in limbs,1.0,1
+great weakness in knee joints,rheumatic pain in deltoid,1.0,1
+great weakness in knee joints,oversensitiveness to external impressions,1.0,1
+great weakness in knee joints,old gouty subjects with rheumatic ophthalmia,1.0,1
+great weakness in knee joints,pressure in back as from a stone,1.0,1
+great weakness in knee joints,pain in back compelling him to bend forward,1.0,1
+great weakness in knee joints,aching pains and anguish in region of heart,1.0,1
+great weakness in knee joints,compelled to walk about,1.0,1
+great weakness in knee joints,rheumatic pain in back worse at night,1.0,1
+great weakness in knee joints,great weariness and relaxation of lower limbs,1.0,1
+great weakness in knee joints,drawing pains in muscles of arm,1.0,1
+great weakness in knee joints,pains in small of back as if a band were drawn tightly around waist,1.0,1
+great weakness in knee joints,pressive pain in elbow joint,1.0,1
+great weakness in knee joints,aversion to coffee and tobacco,1.0,1
+great weakness in knee joints,lids very red and sensitive to touch,1.0,1
+great weakness in knee joints,rheumatism of large muscles of trunk and limbs,1.0,1
+great weakness in knee joints,stinging pain in knee,1.0,1
+great weakness in knee joints,bruised pains in limbs,1.0,1
+great weakness in knee joints,rheumatism of large muscles of shoulder and neck,1.0,1
+great weakness in knee joints,rheumatism of hip and knee joints,1.0,1
+great weakness in knee joints,pains in knee as if crushed,1.0,1
+great weakness in knee joints,gastric derangements,1.0,1
+great weakness in knee joints,bitter taste in mouth,1.0,1
+great weakness in knee joints,at beginning of rheumatic ophthalmia,1.0,1
+great weakness in knee joints,tearing pains in eyes,1.0,1
+rheumatism of large muscles of trunk and limbs,hemorrhoids,1.0,1
+rheumatism of large muscles of trunk and limbs,can neither sit nor lie with comfort,1.0,1
+rheumatism of large muscles of trunk and limbs,irritable temper,1.0,1
+rheumatism of large muscles of trunk and limbs,intolerance of light,1.0,1
+rheumatism of large muscles of trunk and limbs,muscles of neck painful when moving head,1.0,1
+rheumatism of large muscles of trunk and limbs,cramp in calves at night,1.0,1
+rheumatism of large muscles of trunk and limbs,arthritic ophthalmia,1.0,1
+rheumatism of large muscles of trunk and limbs,aching in back with great sensitiveness to touch,1.0,1
+rheumatism of large muscles of trunk and limbs,tearing pain in limbs,1.0,1
+rheumatism of large muscles of trunk and limbs,rheumatic pain in deltoid,1.0,1
+rheumatism of large muscles of trunk and limbs,oversensitiveness to external impressions,1.0,1
+rheumatism of large muscles of trunk and limbs,old gouty subjects with rheumatic ophthalmia,1.0,1
+rheumatism of large muscles of trunk and limbs,pressure in back as from a stone,1.0,1
+rheumatism of large muscles of trunk and limbs,pain in back compelling him to bend forward,1.0,1
+rheumatism of large muscles of trunk and limbs,aching pains and anguish in region of heart,1.0,1
+rheumatism of large muscles of trunk and limbs,compelled to walk about,1.0,1
+rheumatism of large muscles of trunk and limbs,rheumatic pain in back worse at night,1.0,1
+rheumatism of large muscles of trunk and limbs,great weariness and relaxation of lower limbs,1.0,1
+rheumatism of large muscles of trunk and limbs,drawing pains in muscles of arm,1.0,1
+rheumatism of large muscles of trunk and limbs,pains in small of back as if a band were drawn tightly around waist,1.0,1
+rheumatism of large muscles of trunk and limbs,pressive pain in elbow joint,1.0,1
+rheumatism of large muscles of trunk and limbs,aversion to coffee and tobacco,1.0,1
+rheumatism of large muscles of trunk and limbs,great weakness in knee joints,1.0,1
+rheumatism of large muscles of trunk and limbs,lids very red and sensitive to touch,1.0,1
+rheumatism of large muscles of trunk and limbs,stinging pain in knee,1.0,1
+rheumatism of large muscles of trunk and limbs,bruised pains in limbs,1.0,1
+rheumatism of large muscles of trunk and limbs,rheumatism of large muscles of shoulder and neck,1.0,1
+rheumatism of large muscles of trunk and limbs,rheumatism of hip and knee joints,1.0,1
+rheumatism of large muscles of trunk and limbs,pains in knee as if crushed,1.0,1
+rheumatism of large muscles of trunk and limbs,gastric derangements,1.0,1
+rheumatism of large muscles of trunk and limbs,bitter taste in mouth,1.0,1
+rheumatism of large muscles of trunk and limbs,at beginning of rheumatic ophthalmia,1.0,1
+rheumatism of large muscles of trunk and limbs,tearing pains in eyes,1.0,1
+rheumatism of large muscles of shoulder and neck,hemorrhoids,1.0,1
+rheumatism of large muscles of shoulder and neck,can neither sit nor lie with comfort,1.0,1
+rheumatism of large muscles of shoulder and neck,irritable temper,1.0,1
+rheumatism of large muscles of shoulder and neck,intolerance of light,1.0,1
+rheumatism of large muscles of shoulder and neck,muscles of neck painful when moving head,1.0,1
+rheumatism of large muscles of shoulder and neck,cramp in calves at night,1.0,1
+rheumatism of large muscles of shoulder and neck,arthritic ophthalmia,1.0,1
+rheumatism of large muscles of shoulder and neck,aching in back with great sensitiveness to touch,1.0,1
+rheumatism of large muscles of shoulder and neck,tearing pain in limbs,1.0,1
+rheumatism of large muscles of shoulder and neck,rheumatic pain in deltoid,1.0,1
+rheumatism of large muscles of shoulder and neck,oversensitiveness to external impressions,1.0,1
+rheumatism of large muscles of shoulder and neck,old gouty subjects with rheumatic ophthalmia,1.0,1
+rheumatism of large muscles of shoulder and neck,pressure in back as from a stone,1.0,1
+rheumatism of large muscles of shoulder and neck,pain in back compelling him to bend forward,1.0,1
+rheumatism of large muscles of shoulder and neck,aching pains and anguish in region of heart,1.0,1
+rheumatism of large muscles of shoulder and neck,compelled to walk about,1.0,1
+rheumatism of large muscles of shoulder and neck,rheumatic pain in back worse at night,1.0,1
+rheumatism of large muscles of shoulder and neck,great weariness and relaxation of lower limbs,1.0,1
+rheumatism of large muscles of shoulder and neck,drawing pains in muscles of arm,1.0,1
+rheumatism of large muscles of shoulder and neck,pains in small of back as if a band were drawn tightly around waist,1.0,1
+rheumatism of large muscles of shoulder and neck,pressive pain in elbow joint,1.0,1
+rheumatism of large muscles of shoulder and neck,aversion to coffee and tobacco,1.0,1
+rheumatism of large muscles of shoulder and neck,great weakness in knee joints,1.0,1
+rheumatism of large muscles of shoulder and neck,lids very red and sensitive to touch,1.0,1
+rheumatism of large muscles of shoulder and neck,rheumatism of large muscles of trunk and limbs,1.0,1
+rheumatism of large muscles of shoulder and neck,stinging pain in knee,1.0,1
+rheumatism of large muscles of shoulder and neck,bruised pains in limbs,1.0,1
+rheumatism of large muscles of shoulder and neck,rheumatism of hip and knee joints,1.0,1
+rheumatism of large muscles of shoulder and neck,pains in knee as if crushed,1.0,1
+rheumatism of large muscles of shoulder and neck,gastric derangements,1.0,1
+rheumatism of large muscles of shoulder and neck,bitter taste in mouth,1.0,1
+rheumatism of large muscles of shoulder and neck,at beginning of rheumatic ophthalmia,1.0,1
+rheumatism of large muscles of shoulder and neck,tearing pains in eyes,1.0,1
+stinging pain in knee,hemorrhoids,1.0,1
+stinging pain in knee,can neither sit nor lie with comfort,1.0,1
+stinging pain in knee,irritable temper,1.0,1
+stinging pain in knee,intolerance of light,1.0,1
+stinging pain in knee,muscles of neck painful when moving head,1.0,1
+stinging pain in knee,cramp in calves at night,1.0,1
+stinging pain in knee,arthritic ophthalmia,1.0,1
+stinging pain in knee,aching in back with great sensitiveness to touch,1.0,1
+stinging pain in knee,tearing pain in limbs,1.0,1
+stinging pain in knee,rheumatic pain in deltoid,1.0,1
+stinging pain in knee,oversensitiveness to external impressions,1.0,1
+stinging pain in knee,old gouty subjects with rheumatic ophthalmia,1.0,1
+stinging pain in knee,pressure in back as from a stone,1.0,1
+stinging pain in knee,pain in back compelling him to bend forward,1.0,1
+stinging pain in knee,aching pains and anguish in region of heart,1.0,1
+stinging pain in knee,compelled to walk about,1.0,1
+stinging pain in knee,rheumatic pain in back worse at night,1.0,1
+stinging pain in knee,great weariness and relaxation of lower limbs,1.0,1
+stinging pain in knee,drawing pains in muscles of arm,1.0,1
+stinging pain in knee,pains in small of back as if a band were drawn tightly around waist,1.0,1
+stinging pain in knee,pressive pain in elbow joint,1.0,1
+stinging pain in knee,aversion to coffee and tobacco,1.0,1
+stinging pain in knee,great weakness in knee joints,1.0,1
+stinging pain in knee,lids very red and sensitive to touch,1.0,1
+stinging pain in knee,rheumatism of large muscles of trunk and limbs,1.0,1
+stinging pain in knee,bruised pains in limbs,1.0,1
+stinging pain in knee,rheumatism of large muscles of shoulder and neck,1.0,1
+stinging pain in knee,rheumatism of hip and knee joints,1.0,1
+stinging pain in knee,pains in knee as if crushed,1.0,1
+stinging pain in knee,gastric derangements,1.0,1
+stinging pain in knee,bitter taste in mouth,1.0,1
+stinging pain in knee,at beginning of rheumatic ophthalmia,1.0,1
+stinging pain in knee,tearing pains in eyes,1.0,1
+can neither sit nor lie with comfort,hemorrhoids,1.0,1
+can neither sit nor lie with comfort,irritable temper,1.0,1
+can neither sit nor lie with comfort,intolerance of light,1.0,1
+can neither sit nor lie with comfort,muscles of neck painful when moving head,1.0,1
+can neither sit nor lie with comfort,cramp in calves at night,1.0,1
+can neither sit nor lie with comfort,arthritic ophthalmia,1.0,1
+can neither sit nor lie with comfort,aching in back with great sensitiveness to touch,1.0,1
+can neither sit nor lie with comfort,tearing pain in limbs,1.0,1
+can neither sit nor lie with comfort,rheumatic pain in deltoid,1.0,1
+can neither sit nor lie with comfort,oversensitiveness to external impressions,1.0,1
+can neither sit nor lie with comfort,old gouty subjects with rheumatic ophthalmia,1.0,1
+can neither sit nor lie with comfort,pressure in back as from a stone,1.0,1
+can neither sit nor lie with comfort,pain in back compelling him to bend forward,1.0,1
+can neither sit nor lie with comfort,aching pains and anguish in region of heart,1.0,1
+can neither sit nor lie with comfort,compelled to walk about,1.0,1
+can neither sit nor lie with comfort,rheumatic pain in back worse at night,1.0,1
+can neither sit nor lie with comfort,great weariness and relaxation of lower limbs,1.0,1
+can neither sit nor lie with comfort,drawing pains in muscles of arm,1.0,1
+can neither sit nor lie with comfort,pains in small of back as if a band were drawn tightly around waist,1.0,1
+can neither sit nor lie with comfort,pressive pain in elbow joint,1.0,1
+can neither sit nor lie with comfort,aversion to coffee and tobacco,1.0,1
+can neither sit nor lie with comfort,great weakness in knee joints,1.0,1
+can neither sit nor lie with comfort,lids very red and sensitive to touch,1.0,1
+can neither sit nor lie with comfort,rheumatism of large muscles of trunk and limbs,1.0,1
+can neither sit nor lie with comfort,stinging pain in knee,1.0,1
+can neither sit nor lie with comfort,bruised pains in limbs,1.0,1
+can neither sit nor lie with comfort,rheumatism of large muscles of shoulder and neck,1.0,1
+can neither sit nor lie with comfort,rheumatism of hip and knee joints,1.0,1
+can neither sit nor lie with comfort,pains in knee as if crushed,1.0,1
+can neither sit nor lie with comfort,gastric derangements,1.0,1
+can neither sit nor lie with comfort,bitter taste in mouth,1.0,1
+can neither sit nor lie with comfort,at beginning of rheumatic ophthalmia,1.0,1
+can neither sit nor lie with comfort,tearing pains in eyes,1.0,1
+tearing pain in limbs,hemorrhoids,1.0,1
+tearing pain in limbs,can neither sit nor lie with comfort,1.0,1
+tearing pain in limbs,irritable temper,1.0,1
+tearing pain in limbs,intolerance of light,1.0,1
+tearing pain in limbs,muscles of neck painful when moving head,1.0,1
+tearing pain in limbs,cramp in calves at night,1.0,1
+tearing pain in limbs,arthritic ophthalmia,1.0,1
+tearing pain in limbs,aching in back with great sensitiveness to touch,1.0,1
+tearing pain in limbs,rheumatic pain in deltoid,1.0,1
+tearing pain in limbs,oversensitiveness to external impressions,1.0,1
+tearing pain in limbs,old gouty subjects with rheumatic ophthalmia,1.0,1
+tearing pain in limbs,pressure in back as from a stone,1.0,1
+tearing pain in limbs,pain in back compelling him to bend forward,1.0,1
+tearing pain in limbs,aching pains and anguish in region of heart,1.0,1
+tearing pain in limbs,compelled to walk about,1.0,1
+tearing pain in limbs,rheumatic pain in back worse at night,1.0,1
+tearing pain in limbs,great weariness and relaxation of lower limbs,1.0,1
+tearing pain in limbs,drawing pains in muscles of arm,1.0,1
+tearing pain in limbs,pains in small of back as if a band were drawn tightly around waist,1.0,1
+tearing pain in limbs,pressive pain in elbow joint,1.0,1
+tearing pain in limbs,aversion to coffee and tobacco,1.0,1
+tearing pain in limbs,great weakness in knee joints,1.0,1
+tearing pain in limbs,lids very red and sensitive to touch,1.0,1
+tearing pain in limbs,rheumatism of large muscles of trunk and limbs,1.0,1
+tearing pain in limbs,stinging pain in knee,1.0,1
+tearing pain in limbs,bruised pains in limbs,1.0,1
+tearing pain in limbs,rheumatism of large muscles of shoulder and neck,1.0,1
+tearing pain in limbs,rheumatism of hip and knee joints,1.0,1
+tearing pain in limbs,pains in knee as if crushed,1.0,1
+tearing pain in limbs,gastric derangements,1.0,1
+tearing pain in limbs,bitter taste in mouth,1.0,1
+tearing pain in limbs,at beginning of rheumatic ophthalmia,1.0,1
+tearing pain in limbs,tearing pains in eyes,1.0,1
+lids very red and sensitive to touch,hemorrhoids,1.0,1
+lids very red and sensitive to touch,can neither sit nor lie with comfort,1.0,1
+lids very red and sensitive to touch,irritable temper,1.0,1
+lids very red and sensitive to touch,intolerance of light,1.0,1
+lids very red and sensitive to touch,muscles of neck painful when moving head,1.0,1
+lids very red and sensitive to touch,cramp in calves at night,1.0,1
+lids very red and sensitive to touch,arthritic ophthalmia,1.0,1
+lids very red and sensitive to touch,aching in back with great sensitiveness to touch,1.0,1
+lids very red and sensitive to touch,tearing pain in limbs,1.0,1
+lids very red and sensitive to touch,rheumatic pain in deltoid,1.0,1
+lids very red and sensitive to touch,oversensitiveness to external impressions,1.0,1
+lids very red and sensitive to touch,old gouty subjects with rheumatic ophthalmia,1.0,1
+lids very red and sensitive to touch,pressure in back as from a stone,1.0,1
+lids very red and sensitive to touch,pain in back compelling him to bend forward,1.0,1
+lids very red and sensitive to touch,aching pains and anguish in region of heart,1.0,1
+lids very red and sensitive to touch,compelled to walk about,1.0,1
+lids very red and sensitive to touch,rheumatic pain in back worse at night,1.0,1
+lids very red and sensitive to touch,great weariness and relaxation of lower limbs,1.0,1
+lids very red and sensitive to touch,drawing pains in muscles of arm,1.0,1
+lids very red and sensitive to touch,pains in small of back as if a band were drawn tightly around waist,1.0,1
+lids very red and sensitive to touch,pressive pain in elbow joint,1.0,1
+lids very red and sensitive to touch,aversion to coffee and tobacco,1.0,1
+lids very red and sensitive to touch,great weakness in knee joints,1.0,1
+lids very red and sensitive to touch,rheumatism of large muscles of trunk and limbs,1.0,1
+lids very red and sensitive to touch,stinging pain in knee,1.0,1
+lids very red and sensitive to touch,bruised pains in limbs,1.0,1
+lids very red and sensitive to touch,rheumatism of large muscles of shoulder and neck,1.0,1
+lids very red and sensitive to touch,rheumatism of hip and knee joints,1.0,1
+lids very red and sensitive to touch,pains in knee as if crushed,1.0,1
+lids very red and sensitive to touch,gastric derangements,1.0,1
+lids very red and sensitive to touch,bitter taste in mouth,1.0,1
+lids very red and sensitive to touch,at beginning of rheumatic ophthalmia,1.0,1
+lids very red and sensitive to touch,tearing pains in eyes,1.0,1
+rheumatic pain in back worse at night,hemorrhoids,1.0,1
+rheumatic pain in back worse at night,can neither sit nor lie with comfort,1.0,1
+rheumatic pain in back worse at night,irritable temper,1.0,1
+rheumatic pain in back worse at night,intolerance of light,1.0,1
+rheumatic pain in back worse at night,muscles of neck painful when moving head,1.0,1
+rheumatic pain in back worse at night,cramp in calves at night,1.0,1
+rheumatic pain in back worse at night,arthritic ophthalmia,1.0,1
+rheumatic pain in back worse at night,aching in back with great sensitiveness to touch,1.0,1
+rheumatic pain in back worse at night,tearing pain in limbs,1.0,1
+rheumatic pain in back worse at night,rheumatic pain in deltoid,1.0,1
+rheumatic pain in back worse at night,oversensitiveness to external impressions,1.0,1
+rheumatic pain in back worse at night,old gouty subjects with rheumatic ophthalmia,1.0,1
+rheumatic pain in back worse at night,pressure in back as from a stone,1.0,1
+rheumatic pain in back worse at night,pain in back compelling him to bend forward,1.0,1
+rheumatic pain in back worse at night,aching pains and anguish in region of heart,1.0,1
+rheumatic pain in back worse at night,compelled to walk about,1.0,1
+rheumatic pain in back worse at night,great weariness and relaxation of lower limbs,1.0,1
+rheumatic pain in back worse at night,drawing pains in muscles of arm,1.0,1
+rheumatic pain in back worse at night,pains in small of back as if a band were drawn tightly around waist,1.0,1
+rheumatic pain in back worse at night,pressive pain in elbow joint,1.0,1
+rheumatic pain in back worse at night,aversion to coffee and tobacco,1.0,1
+rheumatic pain in back worse at night,great weakness in knee joints,1.0,1
+rheumatic pain in back worse at night,lids very red and sensitive to touch,1.0,1
+rheumatic pain in back worse at night,rheumatism of large muscles of trunk and limbs,1.0,1
+rheumatic pain in back worse at night,stinging pain in knee,1.0,1
+rheumatic pain in back worse at night,bruised pains in limbs,1.0,1
+rheumatic pain in back worse at night,rheumatism of large muscles of shoulder and neck,1.0,1
+rheumatic pain in back worse at night,rheumatism of hip and knee joints,1.0,1
+rheumatic pain in back worse at night,pains in knee as if crushed,1.0,1
+rheumatic pain in back worse at night,gastric derangements,1.0,1
+rheumatic pain in back worse at night,bitter taste in mouth,1.0,1
+rheumatic pain in back worse at night,at beginning of rheumatic ophthalmia,1.0,1
+rheumatic pain in back worse at night,tearing pains in eyes,1.0,1
+gastric derangements,hemorrhoids,1.0,1
+gastric derangements,can neither sit nor lie with comfort,1.0,1
+gastric derangements,irritable temper,1.0,1
+gastric derangements,intolerance of light,1.0,1
+gastric derangements,muscles of neck painful when moving head,1.0,1
+gastric derangements,cramp in calves at night,1.0,1
+gastric derangements,arthritic ophthalmia,1.0,1
+gastric derangements,aching in back with great sensitiveness to touch,1.0,1
+gastric derangements,tearing pain in limbs,1.0,1
+gastric derangements,rheumatic pain in deltoid,1.0,1
+gastric derangements,oversensitiveness to external impressions,1.0,1
+gastric derangements,old gouty subjects with rheumatic ophthalmia,1.0,1
+gastric derangements,pressure in back as from a stone,1.0,1
+gastric derangements,pain in back compelling him to bend forward,1.0,1
+gastric derangements,aching pains and anguish in region of heart,1.0,1
+gastric derangements,compelled to walk about,1.0,1
+gastric derangements,rheumatic pain in back worse at night,1.0,1
+gastric derangements,great weariness and relaxation of lower limbs,1.0,1
+gastric derangements,drawing pains in muscles of arm,1.0,1
+gastric derangements,pains in small of back as if a band were drawn tightly around waist,1.0,1
+gastric derangements,pressive pain in elbow joint,1.0,1
+gastric derangements,aversion to coffee and tobacco,1.0,1
+gastric derangements,great weakness in knee joints,1.0,1
+gastric derangements,lids very red and sensitive to touch,1.0,1
+gastric derangements,rheumatism of large muscles of trunk and limbs,1.0,1
+gastric derangements,stinging pain in knee,1.0,1
+gastric derangements,bruised pains in limbs,1.0,1
+gastric derangements,rheumatism of large muscles of shoulder and neck,1.0,1
+gastric derangements,rheumatism of hip and knee joints,1.0,1
+gastric derangements,pains in knee as if crushed,1.0,1
+gastric derangements,bitter taste in mouth,1.0,1
+gastric derangements,at beginning of rheumatic ophthalmia,1.0,1
+gastric derangements,tearing pains in eyes,1.0,1
+bitter taste in mouth,hemorrhoids,1.0,1
+bitter taste in mouth,can neither sit nor lie with comfort,1.0,1
+bitter taste in mouth,irritable temper,1.0,1
+bitter taste in mouth,intolerance of light,1.0,1
+bitter taste in mouth,muscles of neck painful when moving head,1.0,1
+bitter taste in mouth,cramp in calves at night,1.0,1
+bitter taste in mouth,arthritic ophthalmia,1.0,1
+bitter taste in mouth,aching in back with great sensitiveness to touch,1.0,1
+bitter taste in mouth,tearing pain in limbs,1.0,1
+bitter taste in mouth,rheumatic pain in deltoid,1.0,1
+bitter taste in mouth,oversensitiveness to external impressions,1.0,1
+bitter taste in mouth,old gouty subjects with rheumatic ophthalmia,1.0,1
+bitter taste in mouth,pressure in back as from a stone,1.0,1
+bitter taste in mouth,pain in back compelling him to bend forward,1.0,1
+bitter taste in mouth,aching pains and anguish in region of heart,1.0,1
+bitter taste in mouth,compelled to walk about,1.0,1
+bitter taste in mouth,rheumatic pain in back worse at night,1.0,1
+bitter taste in mouth,great weariness and relaxation of lower limbs,1.0,1
+bitter taste in mouth,drawing pains in muscles of arm,1.0,1
+bitter taste in mouth,pains in small of back as if a band were drawn tightly around waist,1.0,1
+bitter taste in mouth,pressive pain in elbow joint,1.0,1
+bitter taste in mouth,aversion to coffee and tobacco,1.0,1
+bitter taste in mouth,great weakness in knee joints,1.0,1
+bitter taste in mouth,lids very red and sensitive to touch,1.0,1
+bitter taste in mouth,rheumatism of large muscles of trunk and limbs,1.0,1
+bitter taste in mouth,stinging pain in knee,1.0,1
+bitter taste in mouth,bruised pains in limbs,1.0,1
+bitter taste in mouth,rheumatism of large muscles of shoulder and neck,1.0,1
+bitter taste in mouth,rheumatism of hip and knee joints,1.0,1
+bitter taste in mouth,pains in knee as if crushed,1.0,1
+bitter taste in mouth,gastric derangements,1.0,1
+bitter taste in mouth,at beginning of rheumatic ophthalmia,1.0,1
+bitter taste in mouth,tearing pains in eyes,1.0,1
+great weariness and relaxation of lower limbs,hemorrhoids,1.0,1
+great weariness and relaxation of lower limbs,can neither sit nor lie with comfort,1.0,1
+great weariness and relaxation of lower limbs,irritable temper,1.0,1
+great weariness and relaxation of lower limbs,intolerance of light,1.0,1
+great weariness and relaxation of lower limbs,muscles of neck painful when moving head,1.0,1
+great weariness and relaxation of lower limbs,cramp in calves at night,1.0,1
+great weariness and relaxation of lower limbs,arthritic ophthalmia,1.0,1
+great weariness and relaxation of lower limbs,aching in back with great sensitiveness to touch,1.0,1
+great weariness and relaxation of lower limbs,tearing pain in limbs,1.0,1
+great weariness and relaxation of lower limbs,rheumatic pain in deltoid,1.0,1
+great weariness and relaxation of lower limbs,oversensitiveness to external impressions,1.0,1
+great weariness and relaxation of lower limbs,old gouty subjects with rheumatic ophthalmia,1.0,1
+great weariness and relaxation of lower limbs,pressure in back as from a stone,1.0,1
+great weariness and relaxation of lower limbs,pain in back compelling him to bend forward,1.0,1
+great weariness and relaxation of lower limbs,aching pains and anguish in region of heart,1.0,1
+great weariness and relaxation of lower limbs,compelled to walk about,1.0,1
+great weariness and relaxation of lower limbs,rheumatic pain in back worse at night,1.0,1
+great weariness and relaxation of lower limbs,drawing pains in muscles of arm,1.0,1
+great weariness and relaxation of lower limbs,pains in small of back as if a band were drawn tightly around waist,1.0,1
+great weariness and relaxation of lower limbs,pressive pain in elbow joint,1.0,1
+great weariness and relaxation of lower limbs,aversion to coffee and tobacco,1.0,1
+great weariness and relaxation of lower limbs,great weakness in knee joints,1.0,1
+great weariness and relaxation of lower limbs,lids very red and sensitive to touch,1.0,1
+great weariness and relaxation of lower limbs,rheumatism of large muscles of trunk and limbs,1.0,1
+great weariness and relaxation of lower limbs,stinging pain in knee,1.0,1
+great weariness and relaxation of lower limbs,bruised pains in limbs,1.0,1
+great weariness and relaxation of lower limbs,rheumatism of large muscles of shoulder and neck,1.0,1
+great weariness and relaxation of lower limbs,rheumatism of hip and knee joints,1.0,1
+great weariness and relaxation of lower limbs,pains in knee as if crushed,1.0,1
+great weariness and relaxation of lower limbs,gastric derangements,1.0,1
+great weariness and relaxation of lower limbs,bitter taste in mouth,1.0,1
+great weariness and relaxation of lower limbs,at beginning of rheumatic ophthalmia,1.0,1
+great weariness and relaxation of lower limbs,tearing pains in eyes,1.0,1
+bruised pains in limbs,hemorrhoids,1.0,1
+bruised pains in limbs,can neither sit nor lie with comfort,1.0,1
+bruised pains in limbs,irritable temper,1.0,1
+bruised pains in limbs,intolerance of light,1.0,1
+bruised pains in limbs,muscles of neck painful when moving head,1.0,1
+bruised pains in limbs,cramp in calves at night,1.0,1
+bruised pains in limbs,arthritic ophthalmia,1.0,1
+bruised pains in limbs,aching in back with great sensitiveness to touch,1.0,1
+bruised pains in limbs,tearing pain in limbs,1.0,1
+bruised pains in limbs,rheumatic pain in deltoid,1.0,1
+bruised pains in limbs,oversensitiveness to external impressions,1.0,1
+bruised pains in limbs,old gouty subjects with rheumatic ophthalmia,1.0,1
+bruised pains in limbs,pressure in back as from a stone,1.0,1
+bruised pains in limbs,pain in back compelling him to bend forward,1.0,1
+bruised pains in limbs,aching pains and anguish in region of heart,1.0,1
+bruised pains in limbs,compelled to walk about,1.0,1
+bruised pains in limbs,rheumatic pain in back worse at night,1.0,1
+bruised pains in limbs,great weariness and relaxation of lower limbs,1.0,1
+bruised pains in limbs,drawing pains in muscles of arm,1.0,1
+bruised pains in limbs,pains in small of back as if a band were drawn tightly around waist,1.0,1
+bruised pains in limbs,pressive pain in elbow joint,1.0,1
+bruised pains in limbs,aversion to coffee and tobacco,1.0,1
+bruised pains in limbs,great weakness in knee joints,1.0,1
+bruised pains in limbs,lids very red and sensitive to touch,1.0,1
+bruised pains in limbs,rheumatism of large muscles of trunk and limbs,1.0,1
+bruised pains in limbs,stinging pain in knee,1.0,1
+bruised pains in limbs,rheumatism of large muscles of shoulder and neck,1.0,1
+bruised pains in limbs,rheumatism of hip and knee joints,1.0,1
+bruised pains in limbs,pains in knee as if crushed,1.0,1
+bruised pains in limbs,gastric derangements,1.0,1
+bruised pains in limbs,bitter taste in mouth,1.0,1
+bruised pains in limbs,at beginning of rheumatic ophthalmia,1.0,1
+bruised pains in limbs,tearing pains in eyes,1.0,1
+tearing pains in eyes,hemorrhoids,1.0,1
+tearing pains in eyes,can neither sit nor lie with comfort,1.0,1
+tearing pains in eyes,irritable temper,1.0,1
+tearing pains in eyes,intolerance of light,1.0,1
+tearing pains in eyes,muscles of neck painful when moving head,1.0,1
+tearing pains in eyes,cramp in calves at night,1.0,1
+tearing pains in eyes,arthritic ophthalmia,1.0,1
+tearing pains in eyes,aching in back with great sensitiveness to touch,1.0,1
+tearing pains in eyes,tearing pain in limbs,1.0,1
+tearing pains in eyes,rheumatic pain in deltoid,1.0,1
+tearing pains in eyes,oversensitiveness to external impressions,1.0,1
+tearing pains in eyes,old gouty subjects with rheumatic ophthalmia,1.0,1
+tearing pains in eyes,pressure in back as from a stone,1.0,1
+tearing pains in eyes,pain in back compelling him to bend forward,1.0,1
+tearing pains in eyes,aching pains and anguish in region of heart,1.0,1
+tearing pains in eyes,compelled to walk about,1.0,1
+tearing pains in eyes,rheumatic pain in back worse at night,1.0,1
+tearing pains in eyes,great weariness and relaxation of lower limbs,1.0,1
+tearing pains in eyes,drawing pains in muscles of arm,1.0,1
+tearing pains in eyes,pains in small of back as if a band were drawn tightly around waist,1.0,1
+tearing pains in eyes,pressive pain in elbow joint,1.0,1
+tearing pains in eyes,aversion to coffee and tobacco,1.0,1
+tearing pains in eyes,great weakness in knee joints,1.0,1
+tearing pains in eyes,lids very red and sensitive to touch,1.0,1
+tearing pains in eyes,rheumatism of large muscles of trunk and limbs,1.0,1
+tearing pains in eyes,stinging pain in knee,1.0,1
+tearing pains in eyes,bruised pains in limbs,1.0,1
+tearing pains in eyes,rheumatism of large muscles of shoulder and neck,1.0,1
+tearing pains in eyes,rheumatism of hip and knee joints,1.0,1
+tearing pains in eyes,pains in knee as if crushed,1.0,1
+tearing pains in eyes,gastric derangements,1.0,1
+tearing pains in eyes,bitter taste in mouth,1.0,1
+tearing pains in eyes,at beginning of rheumatic ophthalmia,1.0,1
+pressive pain in elbow joint,hemorrhoids,1.0,1
+pressive pain in elbow joint,can neither sit nor lie with comfort,1.0,1
+pressive pain in elbow joint,irritable temper,1.0,1
+pressive pain in elbow joint,intolerance of light,1.0,1
+pressive pain in elbow joint,muscles of neck painful when moving head,1.0,1
+pressive pain in elbow joint,cramp in calves at night,1.0,1
+pressive pain in elbow joint,arthritic ophthalmia,1.0,1
+pressive pain in elbow joint,aching in back with great sensitiveness to touch,1.0,1
+pressive pain in elbow joint,tearing pain in limbs,1.0,1
+pressive pain in elbow joint,rheumatic pain in deltoid,1.0,1
+pressive pain in elbow joint,oversensitiveness to external impressions,1.0,1
+pressive pain in elbow joint,old gouty subjects with rheumatic ophthalmia,1.0,1
+pressive pain in elbow joint,pressure in back as from a stone,1.0,1
+pressive pain in elbow joint,pain in back compelling him to bend forward,1.0,1
+pressive pain in elbow joint,aching pains and anguish in region of heart,1.0,1
+pressive pain in elbow joint,compelled to walk about,1.0,1
+pressive pain in elbow joint,rheumatic pain in back worse at night,1.0,1
+pressive pain in elbow joint,great weariness and relaxation of lower limbs,1.0,1
+pressive pain in elbow joint,drawing pains in muscles of arm,1.0,1
+pressive pain in elbow joint,pains in small of back as if a band were drawn tightly around waist,1.0,1
+pressive pain in elbow joint,aversion to coffee and tobacco,1.0,1
+pressive pain in elbow joint,great weakness in knee joints,1.0,1
+pressive pain in elbow joint,lids very red and sensitive to touch,1.0,1
+pressive pain in elbow joint,rheumatism of large muscles of trunk and limbs,1.0,1
+pressive pain in elbow joint,stinging pain in knee,1.0,1
+pressive pain in elbow joint,bruised pains in limbs,1.0,1
+pressive pain in elbow joint,rheumatism of large muscles of shoulder and neck,1.0,1
+pressive pain in elbow joint,rheumatism of hip and knee joints,1.0,1
+pressive pain in elbow joint,pains in knee as if crushed,1.0,1
+pressive pain in elbow joint,gastric derangements,1.0,1
+pressive pain in elbow joint,bitter taste in mouth,1.0,1
+pressive pain in elbow joint,at beginning of rheumatic ophthalmia,1.0,1
+pressive pain in elbow joint,tearing pains in eyes,1.0,1
+pains in knee as if crushed,hemorrhoids,1.0,1
+pains in knee as if crushed,can neither sit nor lie with comfort,1.0,1
+pains in knee as if crushed,irritable temper,1.0,1
+pains in knee as if crushed,intolerance of light,1.0,1
+pains in knee as if crushed,muscles of neck painful when moving head,1.0,1
+pains in knee as if crushed,cramp in calves at night,1.0,1
+pains in knee as if crushed,arthritic ophthalmia,1.0,1
+pains in knee as if crushed,aching in back with great sensitiveness to touch,1.0,1
+pains in knee as if crushed,tearing pain in limbs,1.0,1
+pains in knee as if crushed,rheumatic pain in deltoid,1.0,1
+pains in knee as if crushed,oversensitiveness to external impressions,1.0,1
+pains in knee as if crushed,old gouty subjects with rheumatic ophthalmia,1.0,1
+pains in knee as if crushed,pressure in back as from a stone,1.0,1
+pains in knee as if crushed,pain in back compelling him to bend forward,1.0,1
+pains in knee as if crushed,aching pains and anguish in region of heart,1.0,1
+pains in knee as if crushed,compelled to walk about,1.0,1
+pains in knee as if crushed,rheumatic pain in back worse at night,1.0,1
+pains in knee as if crushed,great weariness and relaxation of lower limbs,1.0,1
+pains in knee as if crushed,drawing pains in muscles of arm,1.0,1
+pains in knee as if crushed,pains in small of back as if a band were drawn tightly around waist,1.0,1
+pains in knee as if crushed,pressive pain in elbow joint,1.0,1
+pains in knee as if crushed,aversion to coffee and tobacco,1.0,1
+pains in knee as if crushed,great weakness in knee joints,1.0,1
+pains in knee as if crushed,lids very red and sensitive to touch,1.0,1
+pains in knee as if crushed,rheumatism of large muscles of trunk and limbs,1.0,1
+pains in knee as if crushed,stinging pain in knee,1.0,1
+pains in knee as if crushed,bruised pains in limbs,1.0,1
+pains in knee as if crushed,rheumatism of large muscles of shoulder and neck,1.0,1
+pains in knee as if crushed,rheumatism of hip and knee joints,1.0,1
+pains in knee as if crushed,gastric derangements,1.0,1
+pains in knee as if crushed,bitter taste in mouth,1.0,1
+pains in knee as if crushed,at beginning of rheumatic ophthalmia,1.0,1
+pains in knee as if crushed,tearing pains in eyes,1.0,1
+arthritic ophthalmia,hemorrhoids,0.5,1
+arthritic ophthalmia,can neither sit nor lie with comfort,0.5,1
+arthritic ophthalmia,irritable temper,0.5,1
+arthritic ophthalmia,intolerance of light,0.5,1
+arthritic ophthalmia,muscles of neck painful when moving head,0.5,1
+arthritic ophthalmia,cramp in calves at night,0.5,1
+arthritic ophthalmia,aching in back with great sensitiveness to touch,0.5,1
+arthritic ophthalmia,tearing pain in limbs,0.5,1
+arthritic ophthalmia,rheumatic pain in deltoid,0.5,1
+arthritic ophthalmia,oversensitiveness to external impressions,0.5,1
+arthritic ophthalmia,old gouty subjects with rheumatic ophthalmia,0.5,1
+arthritic ophthalmia,pressure in back as from a stone,0.5,1
+arthritic ophthalmia,pain in back compelling him to bend forward,0.5,1
+arthritic ophthalmia,aching pains and anguish in region of heart,0.5,1
+arthritic ophthalmia,compelled to walk about,0.5,1
+arthritic ophthalmia,rheumatic pain in back worse at night,0.5,1
+arthritic ophthalmia,great weariness and relaxation of lower limbs,0.5,1
+arthritic ophthalmia,drawing pains in muscles of arm,0.5,1
+arthritic ophthalmia,pains in small of back as if a band were drawn tightly around waist,0.5,1
+arthritic ophthalmia,pressive pain in elbow joint,0.5,1
+arthritic ophthalmia,aversion to coffee and tobacco,0.5,1
+arthritic ophthalmia,great weakness in knee joints,0.5,1
+arthritic ophthalmia,lids very red and sensitive to touch,0.5,1
+arthritic ophthalmia,rheumatism of large muscles of trunk and limbs,0.5,1
+arthritic ophthalmia,stinging pain in knee,0.5,1
+arthritic ophthalmia,bruised pains in limbs,0.5,1
+arthritic ophthalmia,rheumatism of large muscles of shoulder and neck,0.5,1
+arthritic ophthalmia,rheumatism of hip and knee joints,0.5,1
+arthritic ophthalmia,pains in knee as if crushed,0.5,1
+arthritic ophthalmia,gastric derangements,0.5,1
+arthritic ophthalmia,bitter taste in mouth,0.5,1
+arthritic ophthalmia,at beginning of rheumatic ophthalmia,0.5,1
+arthritic ophthalmia,tearing pains in eyes,0.5,1
+pain in back compelling him to bend forward,hemorrhoids,1.0,1
+pain in back compelling him to bend forward,can neither sit nor lie with comfort,1.0,1
+pain in back compelling him to bend forward,irritable temper,1.0,1
+pain in back compelling him to bend forward,intolerance of light,1.0,1
+pain in back compelling him to bend forward,muscles of neck painful when moving head,1.0,1
+pain in back compelling him to bend forward,cramp in calves at night,1.0,1
+pain in back compelling him to bend forward,arthritic ophthalmia,1.0,1
+pain in back compelling him to bend forward,aching in back with great sensitiveness to touch,1.0,1
+pain in back compelling him to bend forward,tearing pain in limbs,1.0,1
+pain in back compelling him to bend forward,rheumatic pain in deltoid,1.0,1
+pain in back compelling him to bend forward,oversensitiveness to external impressions,1.0,1
+pain in back compelling him to bend forward,old gouty subjects with rheumatic ophthalmia,1.0,1
+pain in back compelling him to bend forward,pressure in back as from a stone,1.0,1
+pain in back compelling him to bend forward,aching pains and anguish in region of heart,1.0,1
+pain in back compelling him to bend forward,compelled to walk about,1.0,1
+pain in back compelling him to bend forward,rheumatic pain in back worse at night,1.0,1
+pain in back compelling him to bend forward,great weariness and relaxation of lower limbs,1.0,1
+pain in back compelling him to bend forward,drawing pains in muscles of arm,1.0,1
+pain in back compelling him to bend forward,pains in small of back as if a band were drawn tightly around waist,1.0,1
+pain in back compelling him to bend forward,pressive pain in elbow joint,1.0,1
+pain in back compelling him to bend forward,aversion to coffee and tobacco,1.0,1
+pain in back compelling him to bend forward,great weakness in knee joints,1.0,1
+pain in back compelling him to bend forward,lids very red and sensitive to touch,1.0,1
+pain in back compelling him to bend forward,rheumatism of large muscles of trunk and limbs,1.0,1
+pain in back compelling him to bend forward,stinging pain in knee,1.0,1
+pain in back compelling him to bend forward,bruised pains in limbs,1.0,1
+pain in back compelling him to bend forward,rheumatism of large muscles of shoulder and neck,1.0,1
+pain in back compelling him to bend forward,rheumatism of hip and knee joints,1.0,1
+pain in back compelling him to bend forward,pains in knee as if crushed,1.0,1
+pain in back compelling him to bend forward,gastric derangements,1.0,1
+pain in back compelling him to bend forward,bitter taste in mouth,1.0,1
+pain in back compelling him to bend forward,at beginning of rheumatic ophthalmia,1.0,1
+pain in back compelling him to bend forward,tearing pains in eyes,1.0,1
+drawing pains in muscles of arm,hemorrhoids,1.0,1
+drawing pains in muscles of arm,can neither sit nor lie with comfort,1.0,1
+drawing pains in muscles of arm,irritable temper,1.0,1
+drawing pains in muscles of arm,intolerance of light,1.0,1
+drawing pains in muscles of arm,muscles of neck painful when moving head,1.0,1
+drawing pains in muscles of arm,cramp in calves at night,1.0,1
+drawing pains in muscles of arm,arthritic ophthalmia,1.0,1
+drawing pains in muscles of arm,aching in back with great sensitiveness to touch,1.0,1
+drawing pains in muscles of arm,tearing pain in limbs,1.0,1
+drawing pains in muscles of arm,rheumatic pain in deltoid,1.0,1
+drawing pains in muscles of arm,oversensitiveness to external impressions,1.0,1
+drawing pains in muscles of arm,old gouty subjects with rheumatic ophthalmia,1.0,1
+drawing pains in muscles of arm,pressure in back as from a stone,1.0,1
+drawing pains in muscles of arm,pain in back compelling him to bend forward,1.0,1
+drawing pains in muscles of arm,aching pains and anguish in region of heart,1.0,1
+drawing pains in muscles of arm,compelled to walk about,1.0,1
+drawing pains in muscles of arm,rheumatic pain in back worse at night,1.0,1
+drawing pains in muscles of arm,great weariness and relaxation of lower limbs,1.0,1
+drawing pains in muscles of arm,pains in small of back as if a band were drawn tightly around waist,1.0,1
+drawing pains in muscles of arm,pressive pain in elbow joint,1.0,1
+drawing pains in muscles of arm,aversion to coffee and tobacco,1.0,1
+drawing pains in muscles of arm,great weakness in knee joints,1.0,1
+drawing pains in muscles of arm,lids very red and sensitive to touch,1.0,1
+drawing pains in muscles of arm,rheumatism of large muscles of trunk and limbs,1.0,1
+drawing pains in muscles of arm,stinging pain in knee,1.0,1
+drawing pains in muscles of arm,bruised pains in limbs,1.0,1
+drawing pains in muscles of arm,rheumatism of large muscles of shoulder and neck,1.0,1
+drawing pains in muscles of arm,rheumatism of hip and knee joints,1.0,1
+drawing pains in muscles of arm,pains in knee as if crushed,1.0,1
+drawing pains in muscles of arm,gastric derangements,1.0,1
+drawing pains in muscles of arm,bitter taste in mouth,1.0,1
+drawing pains in muscles of arm,at beginning of rheumatic ophthalmia,1.0,1
+drawing pains in muscles of arm,tearing pains in eyes,1.0,1
+aching pains and anguish in region of heart,hemorrhoids,1.0,1
+aching pains and anguish in region of heart,can neither sit nor lie with comfort,1.0,1
+aching pains and anguish in region of heart,irritable temper,1.0,1
+aching pains and anguish in region of heart,intolerance of light,1.0,1
+aching pains and anguish in region of heart,muscles of neck painful when moving head,1.0,1
+aching pains and anguish in region of heart,cramp in calves at night,1.0,1
+aching pains and anguish in region of heart,arthritic ophthalmia,1.0,1
+aching pains and anguish in region of heart,aching in back with great sensitiveness to touch,1.0,1
+aching pains and anguish in region of heart,tearing pain in limbs,1.0,1
+aching pains and anguish in region of heart,rheumatic pain in deltoid,1.0,1
+aching pains and anguish in region of heart,oversensitiveness to external impressions,1.0,1
+aching pains and anguish in region of heart,old gouty subjects with rheumatic ophthalmia,1.0,1
+aching pains and anguish in region of heart,pressure in back as from a stone,1.0,1
+aching pains and anguish in region of heart,pain in back compelling him to bend forward,1.0,1
+aching pains and anguish in region of heart,compelled to walk about,1.0,1
+aching pains and anguish in region of heart,rheumatic pain in back worse at night,1.0,1
+aching pains and anguish in region of heart,great weariness and relaxation of lower limbs,1.0,1
+aching pains and anguish in region of heart,drawing pains in muscles of arm,1.0,1
+aching pains and anguish in region of heart,pains in small of back as if a band were drawn tightly around waist,1.0,1
+aching pains and anguish in region of heart,pressive pain in elbow joint,1.0,1
+aching pains and anguish in region of heart,aversion to coffee and tobacco,1.0,1
+aching pains and anguish in region of heart,great weakness in knee joints,1.0,1
+aching pains and anguish in region of heart,lids very red and sensitive to touch,1.0,1
+aching pains and anguish in region of heart,rheumatism of large muscles of trunk and limbs,1.0,1
+aching pains and anguish in region of heart,stinging pain in knee,1.0,1
+aching pains and anguish in region of heart,bruised pains in limbs,1.0,1
+aching pains and anguish in region of heart,rheumatism of large muscles of shoulder and neck,1.0,1
+aching pains and anguish in region of heart,rheumatism of hip and knee joints,1.0,1
+aching pains and anguish in region of heart,pains in knee as if crushed,1.0,1
+aching pains and anguish in region of heart,gastric derangements,1.0,1
+aching pains and anguish in region of heart,bitter taste in mouth,1.0,1
+aching pains and anguish in region of heart,at beginning of rheumatic ophthalmia,1.0,1
+aching pains and anguish in region of heart,tearing pains in eyes,1.0,1
+rheumatism of hip and knee joints,hemorrhoids,1.0,1
+rheumatism of hip and knee joints,can neither sit nor lie with comfort,1.0,1
+rheumatism of hip and knee joints,irritable temper,1.0,1
+rheumatism of hip and knee joints,intolerance of light,1.0,1
+rheumatism of hip and knee joints,muscles of neck painful when moving head,1.0,1
+rheumatism of hip and knee joints,cramp in calves at night,1.0,1
+rheumatism of hip and knee joints,arthritic ophthalmia,1.0,1
+rheumatism of hip and knee joints,aching in back with great sensitiveness to touch,1.0,1
+rheumatism of hip and knee joints,tearing pain in limbs,1.0,1
+rheumatism of hip and knee joints,rheumatic pain in deltoid,1.0,1
+rheumatism of hip and knee joints,oversensitiveness to external impressions,1.0,1
+rheumatism of hip and knee joints,old gouty subjects with rheumatic ophthalmia,1.0,1
+rheumatism of hip and knee joints,pressure in back as from a stone,1.0,1
+rheumatism of hip and knee joints,pain in back compelling him to bend forward,1.0,1
+rheumatism of hip and knee joints,aching pains and anguish in region of heart,1.0,1
+rheumatism of hip and knee joints,compelled to walk about,1.0,1
+rheumatism of hip and knee joints,rheumatic pain in back worse at night,1.0,1
+rheumatism of hip and knee joints,great weariness and relaxation of lower limbs,1.0,1
+rheumatism of hip and knee joints,drawing pains in muscles of arm,1.0,1
+rheumatism of hip and knee joints,pains in small of back as if a band were drawn tightly around waist,1.0,1
+rheumatism of hip and knee joints,pressive pain in elbow joint,1.0,1
+rheumatism of hip and knee joints,aversion to coffee and tobacco,1.0,1
+rheumatism of hip and knee joints,great weakness in knee joints,1.0,1
+rheumatism of hip and knee joints,lids very red and sensitive to touch,1.0,1
+rheumatism of hip and knee joints,rheumatism of large muscles of trunk and limbs,1.0,1
+rheumatism of hip and knee joints,stinging pain in knee,1.0,1
+rheumatism of hip and knee joints,bruised pains in limbs,1.0,1
+rheumatism of hip and knee joints,rheumatism of large muscles of shoulder and neck,1.0,1
+rheumatism of hip and knee joints,pains in knee as if crushed,1.0,1
+rheumatism of hip and knee joints,gastric derangements,1.0,1
+rheumatism of hip and knee joints,bitter taste in mouth,1.0,1
+rheumatism of hip and knee joints,at beginning of rheumatic ophthalmia,1.0,1
+rheumatism of hip and knee joints,tearing pains in eyes,1.0,1
+aching in back with great sensitiveness to touch,hemorrhoids,1.0,1
+aching in back with great sensitiveness to touch,can neither sit nor lie with comfort,1.0,1
+aching in back with great sensitiveness to touch,irritable temper,1.0,1
+aching in back with great sensitiveness to touch,intolerance of light,1.0,1
+aching in back with great sensitiveness to touch,muscles of neck painful when moving head,1.0,1
+aching in back with great sensitiveness to touch,cramp in calves at night,1.0,1
+aching in back with great sensitiveness to touch,arthritic ophthalmia,1.0,1
+aching in back with great sensitiveness to touch,tearing pain in limbs,1.0,1
+aching in back with great sensitiveness to touch,rheumatic pain in deltoid,1.0,1
+aching in back with great sensitiveness to touch,oversensitiveness to external impressions,1.0,1
+aching in back with great sensitiveness to touch,old gouty subjects with rheumatic ophthalmia,1.0,1
+aching in back with great sensitiveness to touch,pressure in back as from a stone,1.0,1
+aching in back with great sensitiveness to touch,pain in back compelling him to bend forward,1.0,1
+aching in back with great sensitiveness to touch,aching pains and anguish in region of heart,1.0,1
+aching in back with great sensitiveness to touch,compelled to walk about,1.0,1
+aching in back with great sensitiveness to touch,rheumatic pain in back worse at night,1.0,1
+aching in back with great sensitiveness to touch,great weariness and relaxation of lower limbs,1.0,1
+aching in back with great sensitiveness to touch,drawing pains in muscles of arm,1.0,1
+aching in back with great sensitiveness to touch,pains in small of back as if a band were drawn tightly around waist,1.0,1
+aching in back with great sensitiveness to touch,pressive pain in elbow joint,1.0,1
+aching in back with great sensitiveness to touch,aversion to coffee and tobacco,1.0,1
+aching in back with great sensitiveness to touch,great weakness in knee joints,1.0,1
+aching in back with great sensitiveness to touch,lids very red and sensitive to touch,1.0,1
+aching in back with great sensitiveness to touch,rheumatism of large muscles of trunk and limbs,1.0,1
+aching in back with great sensitiveness to touch,stinging pain in knee,1.0,1
+aching in back with great sensitiveness to touch,bruised pains in limbs,1.0,1
+aching in back with great sensitiveness to touch,rheumatism of large muscles of shoulder and neck,1.0,1
+aching in back with great sensitiveness to touch,rheumatism of hip and knee joints,1.0,1
+aching in back with great sensitiveness to touch,pains in knee as if crushed,1.0,1
+aching in back with great sensitiveness to touch,gastric derangements,1.0,1
+aching in back with great sensitiveness to touch,bitter taste in mouth,1.0,1
+aching in back with great sensitiveness to touch,at beginning of rheumatic ophthalmia,1.0,1
+aching in back with great sensitiveness to touch,tearing pains in eyes,1.0,1
+at beginning of rheumatic ophthalmia,hemorrhoids,1.0,1
+at beginning of rheumatic ophthalmia,can neither sit nor lie with comfort,1.0,1
+at beginning of rheumatic ophthalmia,irritable temper,1.0,1
+at beginning of rheumatic ophthalmia,intolerance of light,1.0,1
+at beginning of rheumatic ophthalmia,muscles of neck painful when moving head,1.0,1
+at beginning of rheumatic ophthalmia,cramp in calves at night,1.0,1
+at beginning of rheumatic ophthalmia,arthritic ophthalmia,1.0,1
+at beginning of rheumatic ophthalmia,aching in back with great sensitiveness to touch,1.0,1
+at beginning of rheumatic ophthalmia,tearing pain in limbs,1.0,1
+at beginning of rheumatic ophthalmia,rheumatic pain in deltoid,1.0,1
+at beginning of rheumatic ophthalmia,oversensitiveness to external impressions,1.0,1
+at beginning of rheumatic ophthalmia,old gouty subjects with rheumatic ophthalmia,1.0,1
+at beginning of rheumatic ophthalmia,pressure in back as from a stone,1.0,1
+at beginning of rheumatic ophthalmia,pain in back compelling him to bend forward,1.0,1
+at beginning of rheumatic ophthalmia,aching pains and anguish in region of heart,1.0,1
+at beginning of rheumatic ophthalmia,compelled to walk about,1.0,1
+at beginning of rheumatic ophthalmia,rheumatic pain in back worse at night,1.0,1
+at beginning of rheumatic ophthalmia,great weariness and relaxation of lower limbs,1.0,1
+at beginning of rheumatic ophthalmia,drawing pains in muscles of arm,1.0,1
+at beginning of rheumatic ophthalmia,pains in small of back as if a band were drawn tightly around waist,1.0,1
+at beginning of rheumatic ophthalmia,pressive pain in elbow joint,1.0,1
+at beginning of rheumatic ophthalmia,aversion to coffee and tobacco,1.0,1
+at beginning of rheumatic ophthalmia,great weakness in knee joints,1.0,1
+at beginning of rheumatic ophthalmia,lids very red and sensitive to touch,1.0,1
+at beginning of rheumatic ophthalmia,rheumatism of large muscles of trunk and limbs,1.0,1
+at beginning of rheumatic ophthalmia,stinging pain in knee,1.0,1
+at beginning of rheumatic ophthalmia,bruised pains in limbs,1.0,1
+at beginning of rheumatic ophthalmia,rheumatism of large muscles of shoulder and neck,1.0,1
+at beginning of rheumatic ophthalmia,rheumatism of hip and knee joints,1.0,1
+at beginning of rheumatic ophthalmia,pains in knee as if crushed,1.0,1
+at beginning of rheumatic ophthalmia,gastric derangements,1.0,1
+at beginning of rheumatic ophthalmia,bitter taste in mouth,1.0,1
+at beginning of rheumatic ophthalmia,tearing pains in eyes,1.0,1
+cramp in calves at night,hemorrhoids,1.0,1
+cramp in calves at night,can neither sit nor lie with comfort,1.0,1
+cramp in calves at night,irritable temper,1.0,1
+cramp in calves at night,intolerance of light,1.0,1
+cramp in calves at night,muscles of neck painful when moving head,1.0,1
+cramp in calves at night,arthritic ophthalmia,1.0,1
+cramp in calves at night,aching in back with great sensitiveness to touch,1.0,1
+cramp in calves at night,tearing pain in limbs,1.0,1
+cramp in calves at night,rheumatic pain in deltoid,1.0,1
+cramp in calves at night,oversensitiveness to external impressions,1.0,1
+cramp in calves at night,old gouty subjects with rheumatic ophthalmia,1.0,1
+cramp in calves at night,pressure in back as from a stone,1.0,1
+cramp in calves at night,pain in back compelling him to bend forward,1.0,1
+cramp in calves at night,aching pains and anguish in region of heart,1.0,1
+cramp in calves at night,compelled to walk about,1.0,1
+cramp in calves at night,rheumatic pain in back worse at night,1.0,1
+cramp in calves at night,great weariness and relaxation of lower limbs,1.0,1
+cramp in calves at night,drawing pains in muscles of arm,1.0,1
+cramp in calves at night,pains in small of back as if a band were drawn tightly around waist,1.0,1
+cramp in calves at night,pressive pain in elbow joint,1.0,1
+cramp in calves at night,aversion to coffee and tobacco,1.0,1
+cramp in calves at night,great weakness in knee joints,1.0,1
+cramp in calves at night,lids very red and sensitive to touch,1.0,1
+cramp in calves at night,rheumatism of large muscles of trunk and limbs,1.0,1
+cramp in calves at night,stinging pain in knee,1.0,1
+cramp in calves at night,bruised pains in limbs,1.0,1
+cramp in calves at night,rheumatism of large muscles of shoulder and neck,1.0,1
+cramp in calves at night,rheumatism of hip and knee joints,1.0,1
+cramp in calves at night,pains in knee as if crushed,1.0,1
+cramp in calves at night,gastric derangements,1.0,1
+cramp in calves at night,bitter taste in mouth,1.0,1
+cramp in calves at night,at beginning of rheumatic ophthalmia,1.0,1
+cramp in calves at night,tearing pains in eyes,1.0,1
+muscles of neck painful when moving head,hemorrhoids,1.0,1
+muscles of neck painful when moving head,can neither sit nor lie with comfort,1.0,1
+muscles of neck painful when moving head,irritable temper,1.0,1
+muscles of neck painful when moving head,intolerance of light,1.0,1
+muscles of neck painful when moving head,cramp in calves at night,1.0,1
+muscles of neck painful when moving head,arthritic ophthalmia,1.0,1
+muscles of neck painful when moving head,aching in back with great sensitiveness to touch,1.0,1
+muscles of neck painful when moving head,tearing pain in limbs,1.0,1
+muscles of neck painful when moving head,rheumatic pain in deltoid,1.0,1
+muscles of neck painful when moving head,oversensitiveness to external impressions,1.0,1
+muscles of neck painful when moving head,old gouty subjects with rheumatic ophthalmia,1.0,1
+muscles of neck painful when moving head,pressure in back as from a stone,1.0,1
+muscles of neck painful when moving head,pain in back compelling him to bend forward,1.0,1
+muscles of neck painful when moving head,aching pains and anguish in region of heart,1.0,1
+muscles of neck painful when moving head,compelled to walk about,1.0,1
+muscles of neck painful when moving head,rheumatic pain in back worse at night,1.0,1
+muscles of neck painful when moving head,great weariness and relaxation of lower limbs,1.0,1
+muscles of neck painful when moving head,drawing pains in muscles of arm,1.0,1
+muscles of neck painful when moving head,pains in small of back as if a band were drawn tightly around waist,1.0,1
+muscles of neck painful when moving head,pressive pain in elbow joint,1.0,1
+muscles of neck painful when moving head,aversion to coffee and tobacco,1.0,1
+muscles of neck painful when moving head,great weakness in knee joints,1.0,1
+muscles of neck painful when moving head,lids very red and sensitive to touch,1.0,1
+muscles of neck painful when moving head,rheumatism of large muscles of trunk and limbs,1.0,1
+muscles of neck painful when moving head,stinging pain in knee,1.0,1
+muscles of neck painful when moving head,bruised pains in limbs,1.0,1
+muscles of neck painful when moving head,rheumatism of large muscles of shoulder and neck,1.0,1
+muscles of neck painful when moving head,rheumatism of hip and knee joints,1.0,1
+muscles of neck painful when moving head,pains in knee as if crushed,1.0,1
+muscles of neck painful when moving head,gastric derangements,1.0,1
+muscles of neck painful when moving head,bitter taste in mouth,1.0,1
+muscles of neck painful when moving head,at beginning of rheumatic ophthalmia,1.0,1
+muscles of neck painful when moving head,tearing pains in eyes,1.0,1
