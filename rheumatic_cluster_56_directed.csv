@@ -1,0 +1,1531 @@
+### Cluster 56 — Symptoms (39)
+Symptom,Frequency
+stitches in patella,1
+deep-seated gnawing pains in bones and tendons of legs,1
+drawing pains in arms and hands,1
+neuralgic pains especially back,1
+stiff neck,1
+stinging pains in swollen finger joints,1
+sticking as from splinters worse by touch,1
+heart beat intermits every fourth beat,1
+pains in back extending down thighs,1
+rheumatic pains in left hand with a powerless feeling,1
+pain across buttock causing limping,1
+palpitation with anguish,1
+contraction of joints,1
+cracking in ankle when walking,1
+after the abuse of mercury,2
+bruised aching pain in right shoulder and arm,1
+sticking pain,1
+stitches in sacral region,1
+can lie only on abdomen,1
+cramp-like stiffness of back and body,1
+diseases showing marked syphilitic or scrofulous states,1
+drawing pain in all the limbs,1
+nightly pains,1
+painful in knees as if leg were swollen,1
+rheumatic pains in forearms and fingers,1
+redness and heat in ball of great toe,1
+rheumatic and arthritic pains in hip joints,1
+drawing pain in small of back,1
+inflammation of periosteum,1
+soreness of neck from least cold,1
+syphilitic nodes on shin bones,1
+syphilitic bone pains,1
+tearing pains in bones of legs worse at night,1
+rheumatic pains in limbs from taking cold,1
+rheumatic pains in legs and feet,1
+soreness along periosteum of tibia,1
+nervous palpitation,2
+tension and pressure pain in right hip,1
+syphilitic rheumatism of arms and fingers,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+nitric acid,39
+magnesia phosphorica,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+cracking in ankle when walking,stitches in patella,1.0,1
+cracking in ankle when walking,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+cracking in ankle when walking,drawing pains in arms and hands,1.0,1
+cracking in ankle when walking,neuralgic pains especially back,1.0,1
+cracking in ankle when walking,stiff neck,1.0,1
+cracking in ankle when walking,stinging pains in swollen finger joints,1.0,1
+cracking in ankle when walking,sticking as from splinters worse by touch,1.0,1
+cracking in ankle when walking,heart beat intermits every fourth beat,1.0,1
+cracking in ankle when walking,pains in back extending down thighs,1.0,1
+cracking in ankle when walking,rheumatic pains in left hand with a powerless feeling,1.0,1
+cracking in ankle when walking,pain across buttock causing limping,1.0,1
+cracking in ankle when walking,palpitation with anguish,1.0,1
+cracking in ankle when walking,contraction of joints,1.0,1
+cracking in ankle when walking,after the abuse of mercury,1.0,1
+cracking in ankle when walking,bruised aching pain in right shoulder and arm,1.0,1
+cracking in ankle when walking,sticking pain,1.0,1
+cracking in ankle when walking,stitches in sacral region,1.0,1
+cracking in ankle when walking,can lie only on abdomen,1.0,1
+cracking in ankle when walking,cramp-like stiffness of back and body,1.0,1
+cracking in ankle when walking,diseases showing marked syphilitic or scrofulous states,1.0,1
+cracking in ankle when walking,drawing pain in all the limbs,1.0,1
+cracking in ankle when walking,nightly pains,1.0,1
+cracking in ankle when walking,painful in knees as if leg were swollen,1.0,1
+cracking in ankle when walking,rheumatic pains in forearms and fingers,1.0,1
+cracking in ankle when walking,redness and heat in ball of great toe,1.0,1
+cracking in ankle when walking,rheumatic and arthritic pains in hip joints,1.0,1
+cracking in ankle when walking,drawing pain in small of back,1.0,1
+cracking in ankle when walking,inflammation of periosteum,1.0,1
+cracking in ankle when walking,soreness of neck from least cold,1.0,1
+cracking in ankle when walking,syphilitic nodes on shin bones,1.0,1
+cracking in ankle when walking,syphilitic bone pains,1.0,1
+cracking in ankle when walking,tearing pains in bones of legs worse at night,1.0,1
+cracking in ankle when walking,rheumatic pains in limbs from taking cold,1.0,1
+cracking in ankle when walking,rheumatic pains in legs and feet,1.0,1
+cracking in ankle when walking,soreness along periosteum of tibia,1.0,1
+cracking in ankle when walking,nervous palpitation,1.0,1
+cracking in ankle when walking,tension and pressure pain in right hip,1.0,1
+cracking in ankle when walking,syphilitic rheumatism of arms and fingers,1.0,1
+syphilitic rheumatism of arms and fingers,stitches in patella,1.0,1
+syphilitic rheumatism of arms and fingers,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+syphilitic rheumatism of arms and fingers,drawing pains in arms and hands,1.0,1
+syphilitic rheumatism of arms and fingers,neuralgic pains especially back,1.0,1
+syphilitic rheumatism of arms and fingers,stiff neck,1.0,1
+syphilitic rheumatism of arms and fingers,stinging pains in swollen finger joints,1.0,1
+syphilitic rheumatism of arms and fingers,sticking as from splinters worse by touch,1.0,1
+syphilitic rheumatism of arms and fingers,heart beat intermits every fourth beat,1.0,1
+syphilitic rheumatism of arms and fingers,pains in back extending down thighs,1.0,1
+syphilitic rheumatism of arms and fingers,rheumatic pains in left hand with a powerless feeling,1.0,1
+syphilitic rheumatism of arms and fingers,pain across buttock causing limping,1.0,1
+syphilitic rheumatism of arms and fingers,palpitation with anguish,1.0,1
+syphilitic rheumatism of arms and fingers,contraction of joints,1.0,1
+syphilitic rheumatism of arms and fingers,cracking in ankle when walking,1.0,1
+syphilitic rheumatism of arms and fingers,after the abuse of mercury,1.0,1
+syphilitic rheumatism of arms and fingers,bruised aching pain in right shoulder and arm,1.0,1
+syphilitic rheumatism of arms and fingers,sticking pain,1.0,1
+syphilitic rheumatism of arms and fingers,stitches in sacral region,1.0,1
+syphilitic rheumatism of arms and fingers,can lie only on abdomen,1.0,1
+syphilitic rheumatism of arms and fingers,cramp-like stiffness of back and body,1.0,1
+syphilitic rheumatism of arms and fingers,diseases showing marked syphilitic or scrofulous states,1.0,1
+syphilitic rheumatism of arms and fingers,drawing pain in all the limbs,1.0,1
+syphilitic rheumatism of arms and fingers,nightly pains,1.0,1
+syphilitic rheumatism of arms and fingers,painful in knees as if leg were swollen,1.0,1
+syphilitic rheumatism of arms and fingers,rheumatic pains in forearms and fingers,1.0,1
+syphilitic rheumatism of arms and fingers,redness and heat in ball of great toe,1.0,1
+syphilitic rheumatism of arms and fingers,rheumatic and arthritic pains in hip joints,1.0,1
+syphilitic rheumatism of arms and fingers,drawing pain in small of back,1.0,1
+syphilitic rheumatism of arms and fingers,inflammation of periosteum,1.0,1
+syphilitic rheumatism of arms and fingers,soreness of neck from least cold,1.0,1
+syphilitic rheumatism of arms and fingers,syphilitic nodes on shin bones,1.0,1
+syphilitic rheumatism of arms and fingers,syphilitic bone pains,1.0,1
+syphilitic rheumatism of arms and fingers,tearing pains in bones of legs worse at night,1.0,1
+syphilitic rheumatism of arms and fingers,rheumatic pains in limbs from taking cold,1.0,1
+syphilitic rheumatism of arms and fingers,rheumatic pains in legs and feet,1.0,1
+syphilitic rheumatism of arms and fingers,soreness along periosteum of tibia,1.0,1
+syphilitic rheumatism of arms and fingers,nervous palpitation,1.0,1
+syphilitic rheumatism of arms and fingers,tension and pressure pain in right hip,1.0,1
+stitches in patella,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+stitches in patella,drawing pains in arms and hands,1.0,1
+stitches in patella,neuralgic pains especially back,1.0,1
+stitches in patella,stiff neck,1.0,1
+stitches in patella,stinging pains in swollen finger joints,1.0,1
+stitches in patella,sticking as from splinters worse by touch,1.0,1
+stitches in patella,heart beat intermits every fourth beat,1.0,1
+stitches in patella,pains in back extending down thighs,1.0,1
+stitches in patella,rheumatic pains in left hand with a powerless feeling,1.0,1
+stitches in patella,pain across buttock causing limping,1.0,1
+stitches in patella,palpitation with anguish,1.0,1
+stitches in patella,contraction of joints,1.0,1
+stitches in patella,cracking in ankle when walking,1.0,1
+stitches in patella,after the abuse of mercury,1.0,1
+stitches in patella,bruised aching pain in right shoulder and arm,1.0,1
+stitches in patella,sticking pain,1.0,1
+stitches in patella,stitches in sacral region,1.0,1
+stitches in patella,can lie only on abdomen,1.0,1
+stitches in patella,cramp-like stiffness of back and body,1.0,1
+stitches in patella,diseases showing marked syphilitic or scrofulous states,1.0,1
+stitches in patella,drawing pain in all the limbs,1.0,1
+stitches in patella,nightly pains,1.0,1
+stitches in patella,painful in knees as if leg were swollen,1.0,1
+stitches in patella,rheumatic pains in forearms and fingers,1.0,1
+stitches in patella,redness and heat in ball of great toe,1.0,1
+stitches in patella,rheumatic and arthritic pains in hip joints,1.0,1
+stitches in patella,drawing pain in small of back,1.0,1
+stitches in patella,inflammation of periosteum,1.0,1
+stitches in patella,soreness of neck from least cold,1.0,1
+stitches in patella,syphilitic nodes on shin bones,1.0,1
+stitches in patella,syphilitic bone pains,1.0,1
+stitches in patella,tearing pains in bones of legs worse at night,1.0,1
+stitches in patella,rheumatic pains in limbs from taking cold,1.0,1
+stitches in patella,rheumatic pains in legs and feet,1.0,1
+stitches in patella,soreness along periosteum of tibia,1.0,1
+stitches in patella,nervous palpitation,1.0,1
+stitches in patella,tension and pressure pain in right hip,1.0,1
+stitches in patella,syphilitic rheumatism of arms and fingers,1.0,1
+pain across buttock causing limping,stitches in patella,1.0,1
+pain across buttock causing limping,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+pain across buttock causing limping,drawing pains in arms and hands,1.0,1
+pain across buttock causing limping,neuralgic pains especially back,1.0,1
+pain across buttock causing limping,stiff neck,1.0,1
+pain across buttock causing limping,stinging pains in swollen finger joints,1.0,1
+pain across buttock causing limping,sticking as from splinters worse by touch,1.0,1
+pain across buttock causing limping,heart beat intermits every fourth beat,1.0,1
+pain across buttock causing limping,pains in back extending down thighs,1.0,1
+pain across buttock causing limping,rheumatic pains in left hand with a powerless feeling,1.0,1
+pain across buttock causing limping,palpitation with anguish,1.0,1
+pain across buttock causing limping,contraction of joints,1.0,1
+pain across buttock causing limping,cracking in ankle when walking,1.0,1
+pain across buttock causing limping,after the abuse of mercury,1.0,1
+pain across buttock causing limping,bruised aching pain in right shoulder and arm,1.0,1
+pain across buttock causing limping,sticking pain,1.0,1
+pain across buttock causing limping,stitches in sacral region,1.0,1
+pain across buttock causing limping,can lie only on abdomen,1.0,1
+pain across buttock causing limping,cramp-like stiffness of back and body,1.0,1
+pain across buttock causing limping,diseases showing marked syphilitic or scrofulous states,1.0,1
+pain across buttock causing limping,drawing pain in all the limbs,1.0,1
+pain across buttock causing limping,nightly pains,1.0,1
+pain across buttock causing limping,painful in knees as if leg were swollen,1.0,1
+pain across buttock causing limping,rheumatic pains in forearms and fingers,1.0,1
+pain across buttock causing limping,redness and heat in ball of great toe,1.0,1
+pain across buttock causing limping,rheumatic and arthritic pains in hip joints,1.0,1
+pain across buttock causing limping,drawing pain in small of back,1.0,1
+pain across buttock causing limping,inflammation of periosteum,1.0,1
+pain across buttock causing limping,soreness of neck from least cold,1.0,1
+pain across buttock causing limping,syphilitic nodes on shin bones,1.0,1
+pain across buttock causing limping,syphilitic bone pains,1.0,1
+pain across buttock causing limping,tearing pains in bones of legs worse at night,1.0,1
+pain across buttock causing limping,rheumatic pains in limbs from taking cold,1.0,1
+pain across buttock causing limping,rheumatic pains in legs and feet,1.0,1
+pain across buttock causing limping,soreness along periosteum of tibia,1.0,1
+pain across buttock causing limping,nervous palpitation,1.0,1
+pain across buttock causing limping,tension and pressure pain in right hip,1.0,1
+pain across buttock causing limping,syphilitic rheumatism of arms and fingers,1.0,1
+rheumatic and arthritic pains in hip joints,stitches in patella,1.0,1
+rheumatic and arthritic pains in hip joints,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+rheumatic and arthritic pains in hip joints,drawing pains in arms and hands,1.0,1
+rheumatic and arthritic pains in hip joints,neuralgic pains especially back,1.0,1
+rheumatic and arthritic pains in hip joints,stiff neck,1.0,1
+rheumatic and arthritic pains in hip joints,stinging pains in swollen finger joints,1.0,1
+rheumatic and arthritic pains in hip joints,sticking as from splinters worse by touch,1.0,1
+rheumatic and arthritic pains in hip joints,heart beat intermits every fourth beat,1.0,1
+rheumatic and arthritic pains in hip joints,pains in back extending down thighs,1.0,1
+rheumatic and arthritic pains in hip joints,rheumatic pains in left hand with a powerless feeling,1.0,1
+rheumatic and arthritic pains in hip joints,pain across buttock causing limping,1.0,1
+rheumatic and arthritic pains in hip joints,palpitation with anguish,1.0,1
+rheumatic and arthritic pains in hip joints,contraction of joints,1.0,1
+rheumatic and arthritic pains in hip joints,cracking in ankle when walking,1.0,1
+rheumatic and arthritic pains in hip joints,after the abuse of mercury,1.0,1
+rheumatic and arthritic pains in hip joints,bruised aching pain in right shoulder and arm,1.0,1
+rheumatic and arthritic pains in hip joints,sticking pain,1.0,1
+rheumatic and arthritic pains in hip joints,stitches in sacral region,1.0,1
+rheumatic and arthritic pains in hip joints,can lie only on abdomen,1.0,1
+rheumatic and arthritic pains in hip joints,cramp-like stiffness of back and body,1.0,1
+rheumatic and arthritic pains in hip joints,diseases showing marked syphilitic or scrofulous states,1.0,1
+rheumatic and arthritic pains in hip joints,drawing pain in all the limbs,1.0,1
+rheumatic and arthritic pains in hip joints,nightly pains,1.0,1
+rheumatic and arthritic pains in hip joints,painful in knees as if leg were swollen,1.0,1
+rheumatic and arthritic pains in hip joints,rheumatic pains in forearms and fingers,1.0,1
+rheumatic and arthritic pains in hip joints,redness and heat in ball of great toe,1.0,1
+rheumatic and arthritic pains in hip joints,drawing pain in small of back,1.0,1
+rheumatic and arthritic pains in hip joints,inflammation of periosteum,1.0,1
+rheumatic and arthritic pains in hip joints,soreness of neck from least cold,1.0,1
+rheumatic and arthritic pains in hip joints,syphilitic nodes on shin bones,1.0,1
+rheumatic and arthritic pains in hip joints,syphilitic bone pains,1.0,1
+rheumatic and arthritic pains in hip joints,tearing pains in bones of legs worse at night,1.0,1
+rheumatic and arthritic pains in hip joints,rheumatic pains in limbs from taking cold,1.0,1
+rheumatic and arthritic pains in hip joints,rheumatic pains in legs and feet,1.0,1
+rheumatic and arthritic pains in hip joints,soreness along periosteum of tibia,1.0,1
+rheumatic and arthritic pains in hip joints,nervous palpitation,1.0,1
+rheumatic and arthritic pains in hip joints,tension and pressure pain in right hip,1.0,1
+rheumatic and arthritic pains in hip joints,syphilitic rheumatism of arms and fingers,1.0,1
+neuralgic pains especially back,stitches in patella,1.0,1
+neuralgic pains especially back,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+neuralgic pains especially back,drawing pains in arms and hands,1.0,1
+neuralgic pains especially back,stiff neck,1.0,1
+neuralgic pains especially back,stinging pains in swollen finger joints,1.0,1
+neuralgic pains especially back,sticking as from splinters worse by touch,1.0,1
+neuralgic pains especially back,heart beat intermits every fourth beat,1.0,1
+neuralgic pains especially back,pains in back extending down thighs,1.0,1
+neuralgic pains especially back,rheumatic pains in left hand with a powerless feeling,1.0,1
+neuralgic pains especially back,pain across buttock causing limping,1.0,1
+neuralgic pains especially back,palpitation with anguish,1.0,1
+neuralgic pains especially back,contraction of joints,1.0,1
+neuralgic pains especially back,cracking in ankle when walking,1.0,1
+neuralgic pains especially back,after the abuse of mercury,1.0,1
+neuralgic pains especially back,bruised aching pain in right shoulder and arm,1.0,1
+neuralgic pains especially back,sticking pain,1.0,1
+neuralgic pains especially back,stitches in sacral region,1.0,1
+neuralgic pains especially back,can lie only on abdomen,1.0,1
+neuralgic pains especially back,cramp-like stiffness of back and body,1.0,1
+neuralgic pains especially back,diseases showing marked syphilitic or scrofulous states,1.0,1
+neuralgic pains especially back,drawing pain in all the limbs,1.0,1
+neuralgic pains especially back,nightly pains,1.0,1
+neuralgic pains especially back,painful in knees as if leg were swollen,1.0,1
+neuralgic pains especially back,rheumatic pains in forearms and fingers,1.0,1
+neuralgic pains especially back,redness and heat in ball of great toe,1.0,1
+neuralgic pains especially back,rheumatic and arthritic pains in hip joints,1.0,1
+neuralgic pains especially back,drawing pain in small of back,1.0,1
+neuralgic pains especially back,inflammation of periosteum,1.0,1
+neuralgic pains especially back,soreness of neck from least cold,1.0,1
+neuralgic pains especially back,syphilitic nodes on shin bones,1.0,1
+neuralgic pains especially back,syphilitic bone pains,1.0,1
+neuralgic pains especially back,tearing pains in bones of legs worse at night,1.0,1
+neuralgic pains especially back,rheumatic pains in limbs from taking cold,1.0,1
+neuralgic pains especially back,rheumatic pains in legs and feet,1.0,1
+neuralgic pains especially back,soreness along periosteum of tibia,1.0,1
+neuralgic pains especially back,nervous palpitation,1.0,1
+neuralgic pains especially back,tension and pressure pain in right hip,1.0,1
+neuralgic pains especially back,syphilitic rheumatism of arms and fingers,1.0,1
+after the abuse of mercury,stitches in patella,1.0,1
+after the abuse of mercury,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+after the abuse of mercury,drawing pains in arms and hands,1.0,1
+after the abuse of mercury,neuralgic pains especially back,1.0,1
+after the abuse of mercury,stiff neck,1.0,1
+after the abuse of mercury,stinging pains in swollen finger joints,1.0,1
+after the abuse of mercury,sticking as from splinters worse by touch,1.0,1
+after the abuse of mercury,heart beat intermits every fourth beat,1.0,1
+after the abuse of mercury,pains in back extending down thighs,1.0,1
+after the abuse of mercury,rheumatic pains in left hand with a powerless feeling,1.0,1
+after the abuse of mercury,pain across buttock causing limping,1.0,1
+after the abuse of mercury,palpitation with anguish,1.0,1
+after the abuse of mercury,contraction of joints,1.0,1
+after the abuse of mercury,cracking in ankle when walking,1.0,1
+after the abuse of mercury,bruised aching pain in right shoulder and arm,1.0,1
+after the abuse of mercury,sticking pain,1.0,1
+after the abuse of mercury,stitches in sacral region,1.0,1
+after the abuse of mercury,can lie only on abdomen,1.0,1
+after the abuse of mercury,cramp-like stiffness of back and body,1.0,1
+after the abuse of mercury,diseases showing marked syphilitic or scrofulous states,1.0,1
+after the abuse of mercury,drawing pain in all the limbs,1.0,1
+after the abuse of mercury,nightly pains,1.0,1
+after the abuse of mercury,painful in knees as if leg were swollen,1.0,1
+after the abuse of mercury,rheumatic pains in forearms and fingers,1.0,1
+after the abuse of mercury,redness and heat in ball of great toe,1.0,1
+after the abuse of mercury,rheumatic and arthritic pains in hip joints,1.0,1
+after the abuse of mercury,drawing pain in small of back,1.0,1
+after the abuse of mercury,inflammation of periosteum,1.0,1
+after the abuse of mercury,soreness of neck from least cold,1.0,1
+after the abuse of mercury,syphilitic nodes on shin bones,1.0,1
+after the abuse of mercury,syphilitic bone pains,1.0,1
+after the abuse of mercury,tearing pains in bones of legs worse at night,1.0,1
+after the abuse of mercury,rheumatic pains in limbs from taking cold,1.0,1
+after the abuse of mercury,rheumatic pains in legs and feet,1.0,1
+after the abuse of mercury,soreness along periosteum of tibia,1.0,1
+after the abuse of mercury,nervous palpitation,1.0,1
+after the abuse of mercury,tension and pressure pain in right hip,1.0,1
+after the abuse of mercury,syphilitic rheumatism of arms and fingers,1.0,1
+painful in knees as if leg were swollen,stitches in patella,1.0,1
+painful in knees as if leg were swollen,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+painful in knees as if leg were swollen,drawing pains in arms and hands,1.0,1
+painful in knees as if leg were swollen,neuralgic pains especially back,1.0,1
+painful in knees as if leg were swollen,stiff neck,1.0,1
+painful in knees as if leg were swollen,stinging pains in swollen finger joints,1.0,1
+painful in knees as if leg were swollen,sticking as from splinters worse by touch,1.0,1
+painful in knees as if leg were swollen,heart beat intermits every fourth beat,1.0,1
+painful in knees as if leg were swollen,pains in back extending down thighs,1.0,1
+painful in knees as if leg were swollen,rheumatic pains in left hand with a powerless feeling,1.0,1
+painful in knees as if leg were swollen,pain across buttock causing limping,1.0,1
+painful in knees as if leg were swollen,palpitation with anguish,1.0,1
+painful in knees as if leg were swollen,contraction of joints,1.0,1
+painful in knees as if leg were swollen,cracking in ankle when walking,1.0,1
+painful in knees as if leg were swollen,after the abuse of mercury,1.0,1
+painful in knees as if leg were swollen,bruised aching pain in right shoulder and arm,1.0,1
+painful in knees as if leg were swollen,sticking pain,1.0,1
+painful in knees as if leg were swollen,stitches in sacral region,1.0,1
+painful in knees as if leg were swollen,can lie only on abdomen,1.0,1
+painful in knees as if leg were swollen,cramp-like stiffness of back and body,1.0,1
+painful in knees as if leg were swollen,diseases showing marked syphilitic or scrofulous states,1.0,1
+painful in knees as if leg were swollen,drawing pain in all the limbs,1.0,1
+painful in knees as if leg were swollen,nightly pains,1.0,1
+painful in knees as if leg were swollen,rheumatic pains in forearms and fingers,1.0,1
+painful in knees as if leg were swollen,redness and heat in ball of great toe,1.0,1
+painful in knees as if leg were swollen,rheumatic and arthritic pains in hip joints,1.0,1
+painful in knees as if leg were swollen,drawing pain in small of back,1.0,1
+painful in knees as if leg were swollen,inflammation of periosteum,1.0,1
+painful in knees as if leg were swollen,soreness of neck from least cold,1.0,1
+painful in knees as if leg were swollen,syphilitic nodes on shin bones,1.0,1
+painful in knees as if leg were swollen,syphilitic bone pains,1.0,1
+painful in knees as if leg were swollen,tearing pains in bones of legs worse at night,1.0,1
+painful in knees as if leg were swollen,rheumatic pains in limbs from taking cold,1.0,1
+painful in knees as if leg were swollen,rheumatic pains in legs and feet,1.0,1
+painful in knees as if leg were swollen,soreness along periosteum of tibia,1.0,1
+painful in knees as if leg were swollen,nervous palpitation,1.0,1
+painful in knees as if leg were swollen,tension and pressure pain in right hip,1.0,1
+painful in knees as if leg were swollen,syphilitic rheumatism of arms and fingers,1.0,1
+sticking pain,stitches in patella,1.0,1
+sticking pain,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+sticking pain,drawing pains in arms and hands,1.0,1
+sticking pain,neuralgic pains especially back,1.0,1
+sticking pain,stiff neck,1.0,1
+sticking pain,stinging pains in swollen finger joints,1.0,1
+sticking pain,sticking as from splinters worse by touch,1.0,1
+sticking pain,heart beat intermits every fourth beat,1.0,1
+sticking pain,pains in back extending down thighs,1.0,1
+sticking pain,rheumatic pains in left hand with a powerless feeling,1.0,1
+sticking pain,pain across buttock causing limping,1.0,1
+sticking pain,palpitation with anguish,1.0,1
+sticking pain,contraction of joints,1.0,1
+sticking pain,cracking in ankle when walking,1.0,1
+sticking pain,after the abuse of mercury,1.0,1
+sticking pain,bruised aching pain in right shoulder and arm,1.0,1
+sticking pain,stitches in sacral region,1.0,1
+sticking pain,can lie only on abdomen,1.0,1
+sticking pain,cramp-like stiffness of back and body,1.0,1
+sticking pain,diseases showing marked syphilitic or scrofulous states,1.0,1
+sticking pain,drawing pain in all the limbs,1.0,1
+sticking pain,nightly pains,1.0,1
+sticking pain,painful in knees as if leg were swollen,1.0,1
+sticking pain,rheumatic pains in forearms and fingers,1.0,1
+sticking pain,redness and heat in ball of great toe,1.0,1
+sticking pain,rheumatic and arthritic pains in hip joints,1.0,1
+sticking pain,drawing pain in small of back,1.0,1
+sticking pain,inflammation of periosteum,1.0,1
+sticking pain,soreness of neck from least cold,1.0,1
+sticking pain,syphilitic nodes on shin bones,1.0,1
+sticking pain,syphilitic bone pains,1.0,1
+sticking pain,tearing pains in bones of legs worse at night,1.0,1
+sticking pain,rheumatic pains in limbs from taking cold,1.0,1
+sticking pain,rheumatic pains in legs and feet,1.0,1
+sticking pain,soreness along periosteum of tibia,1.0,1
+sticking pain,nervous palpitation,1.0,1
+sticking pain,tension and pressure pain in right hip,1.0,1
+sticking pain,syphilitic rheumatism of arms and fingers,1.0,1
+palpitation with anguish,stitches in patella,1.0,1
+palpitation with anguish,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+palpitation with anguish,drawing pains in arms and hands,1.0,1
+palpitation with anguish,neuralgic pains especially back,1.0,1
+palpitation with anguish,stiff neck,1.0,1
+palpitation with anguish,stinging pains in swollen finger joints,1.0,1
+palpitation with anguish,sticking as from splinters worse by touch,1.0,1
+palpitation with anguish,heart beat intermits every fourth beat,1.0,1
+palpitation with anguish,pains in back extending down thighs,1.0,1
+palpitation with anguish,rheumatic pains in left hand with a powerless feeling,1.0,1
+palpitation with anguish,pain across buttock causing limping,1.0,1
+palpitation with anguish,contraction of joints,1.0,1
+palpitation with anguish,cracking in ankle when walking,1.0,1
+palpitation with anguish,after the abuse of mercury,1.0,1
+palpitation with anguish,bruised aching pain in right shoulder and arm,1.0,1
+palpitation with anguish,sticking pain,1.0,1
+palpitation with anguish,stitches in sacral region,1.0,1
+palpitation with anguish,can lie only on abdomen,1.0,1
+palpitation with anguish,cramp-like stiffness of back and body,1.0,1
+palpitation with anguish,diseases showing marked syphilitic or scrofulous states,1.0,1
+palpitation with anguish,drawing pain in all the limbs,1.0,1
+palpitation with anguish,nightly pains,1.0,1
+palpitation with anguish,painful in knees as if leg were swollen,1.0,1
+palpitation with anguish,rheumatic pains in forearms and fingers,1.0,1
+palpitation with anguish,redness and heat in ball of great toe,1.0,1
+palpitation with anguish,rheumatic and arthritic pains in hip joints,1.0,1
+palpitation with anguish,drawing pain in small of back,1.0,1
+palpitation with anguish,inflammation of periosteum,1.0,1
+palpitation with anguish,soreness of neck from least cold,1.0,1
+palpitation with anguish,syphilitic nodes on shin bones,1.0,1
+palpitation with anguish,syphilitic bone pains,1.0,1
+palpitation with anguish,tearing pains in bones of legs worse at night,1.0,1
+palpitation with anguish,rheumatic pains in limbs from taking cold,1.0,1
+palpitation with anguish,rheumatic pains in legs and feet,1.0,1
+palpitation with anguish,soreness along periosteum of tibia,1.0,1
+palpitation with anguish,nervous palpitation,1.0,1
+palpitation with anguish,tension and pressure pain in right hip,1.0,1
+palpitation with anguish,syphilitic rheumatism of arms and fingers,1.0,1
+tearing pains in bones of legs worse at night,stitches in patella,1.0,1
+tearing pains in bones of legs worse at night,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+tearing pains in bones of legs worse at night,drawing pains in arms and hands,1.0,1
+tearing pains in bones of legs worse at night,neuralgic pains especially back,1.0,1
+tearing pains in bones of legs worse at night,stiff neck,1.0,1
+tearing pains in bones of legs worse at night,stinging pains in swollen finger joints,1.0,1
+tearing pains in bones of legs worse at night,sticking as from splinters worse by touch,1.0,1
+tearing pains in bones of legs worse at night,heart beat intermits every fourth beat,1.0,1
+tearing pains in bones of legs worse at night,pains in back extending down thighs,1.0,1
+tearing pains in bones of legs worse at night,rheumatic pains in left hand with a powerless feeling,1.0,1
+tearing pains in bones of legs worse at night,pain across buttock causing limping,1.0,1
+tearing pains in bones of legs worse at night,palpitation with anguish,1.0,1
+tearing pains in bones of legs worse at night,contraction of joints,1.0,1
+tearing pains in bones of legs worse at night,cracking in ankle when walking,1.0,1
+tearing pains in bones of legs worse at night,after the abuse of mercury,1.0,1
+tearing pains in bones of legs worse at night,bruised aching pain in right shoulder and arm,1.0,1
+tearing pains in bones of legs worse at night,sticking pain,1.0,1
+tearing pains in bones of legs worse at night,stitches in sacral region,1.0,1
+tearing pains in bones of legs worse at night,can lie only on abdomen,1.0,1
+tearing pains in bones of legs worse at night,cramp-like stiffness of back and body,1.0,1
+tearing pains in bones of legs worse at night,diseases showing marked syphilitic or scrofulous states,1.0,1
+tearing pains in bones of legs worse at night,drawing pain in all the limbs,1.0,1
+tearing pains in bones of legs worse at night,nightly pains,1.0,1
+tearing pains in bones of legs worse at night,painful in knees as if leg were swollen,1.0,1
+tearing pains in bones of legs worse at night,rheumatic pains in forearms and fingers,1.0,1
+tearing pains in bones of legs worse at night,redness and heat in ball of great toe,1.0,1
+tearing pains in bones of legs worse at night,rheumatic and arthritic pains in hip joints,1.0,1
+tearing pains in bones of legs worse at night,drawing pain in small of back,1.0,1
+tearing pains in bones of legs worse at night,inflammation of periosteum,1.0,1
+tearing pains in bones of legs worse at night,soreness of neck from least cold,1.0,1
+tearing pains in bones of legs worse at night,syphilitic nodes on shin bones,1.0,1
+tearing pains in bones of legs worse at night,syphilitic bone pains,1.0,1
+tearing pains in bones of legs worse at night,rheumatic pains in limbs from taking cold,1.0,1
+tearing pains in bones of legs worse at night,rheumatic pains in legs and feet,1.0,1
+tearing pains in bones of legs worse at night,soreness along periosteum of tibia,1.0,1
+tearing pains in bones of legs worse at night,nervous palpitation,1.0,1
+tearing pains in bones of legs worse at night,tension and pressure pain in right hip,1.0,1
+tearing pains in bones of legs worse at night,syphilitic rheumatism of arms and fingers,1.0,1
+rheumatic pains in limbs from taking cold,stitches in patella,1.0,1
+rheumatic pains in limbs from taking cold,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+rheumatic pains in limbs from taking cold,drawing pains in arms and hands,1.0,1
+rheumatic pains in limbs from taking cold,neuralgic pains especially back,1.0,1
+rheumatic pains in limbs from taking cold,stiff neck,1.0,1
+rheumatic pains in limbs from taking cold,stinging pains in swollen finger joints,1.0,1
+rheumatic pains in limbs from taking cold,sticking as from splinters worse by touch,1.0,1
+rheumatic pains in limbs from taking cold,heart beat intermits every fourth beat,1.0,1
+rheumatic pains in limbs from taking cold,pains in back extending down thighs,1.0,1
+rheumatic pains in limbs from taking cold,rheumatic pains in left hand with a powerless feeling,1.0,1
+rheumatic pains in limbs from taking cold,pain across buttock causing limping,1.0,1
+rheumatic pains in limbs from taking cold,palpitation with anguish,1.0,1
+rheumatic pains in limbs from taking cold,contraction of joints,1.0,1
+rheumatic pains in limbs from taking cold,cracking in ankle when walking,1.0,1
+rheumatic pains in limbs from taking cold,after the abuse of mercury,1.0,1
+rheumatic pains in limbs from taking cold,bruised aching pain in right shoulder and arm,1.0,1
+rheumatic pains in limbs from taking cold,sticking pain,1.0,1
+rheumatic pains in limbs from taking cold,stitches in sacral region,1.0,1
+rheumatic pains in limbs from taking cold,can lie only on abdomen,1.0,1
+rheumatic pains in limbs from taking cold,cramp-like stiffness of back and body,1.0,1
+rheumatic pains in limbs from taking cold,diseases showing marked syphilitic or scrofulous states,1.0,1
+rheumatic pains in limbs from taking cold,drawing pain in all the limbs,1.0,1
+rheumatic pains in limbs from taking cold,nightly pains,1.0,1
+rheumatic pains in limbs from taking cold,painful in knees as if leg were swollen,1.0,1
+rheumatic pains in limbs from taking cold,rheumatic pains in forearms and fingers,1.0,1
+rheumatic pains in limbs from taking cold,redness and heat in ball of great toe,1.0,1
+rheumatic pains in limbs from taking cold,rheumatic and arthritic pains in hip joints,1.0,1
+rheumatic pains in limbs from taking cold,drawing pain in small of back,1.0,1
+rheumatic pains in limbs from taking cold,inflammation of periosteum,1.0,1
+rheumatic pains in limbs from taking cold,soreness of neck from least cold,1.0,1
+rheumatic pains in limbs from taking cold,syphilitic nodes on shin bones,1.0,1
+rheumatic pains in limbs from taking cold,syphilitic bone pains,1.0,1
+rheumatic pains in limbs from taking cold,tearing pains in bones of legs worse at night,1.0,1
+rheumatic pains in limbs from taking cold,rheumatic pains in legs and feet,1.0,1
+rheumatic pains in limbs from taking cold,soreness along periosteum of tibia,1.0,1
+rheumatic pains in limbs from taking cold,nervous palpitation,1.0,1
+rheumatic pains in limbs from taking cold,tension and pressure pain in right hip,1.0,1
+rheumatic pains in limbs from taking cold,syphilitic rheumatism of arms and fingers,1.0,1
+stiff neck,stitches in patella,1.0,1
+stiff neck,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+stiff neck,drawing pains in arms and hands,1.0,1
+stiff neck,neuralgic pains especially back,1.0,1
+stiff neck,stinging pains in swollen finger joints,1.0,1
+stiff neck,sticking as from splinters worse by touch,1.0,1
+stiff neck,heart beat intermits every fourth beat,1.0,1
+stiff neck,pains in back extending down thighs,1.0,1
+stiff neck,rheumatic pains in left hand with a powerless feeling,1.0,1
+stiff neck,pain across buttock causing limping,1.0,1
+stiff neck,palpitation with anguish,1.0,1
+stiff neck,contraction of joints,1.0,1
+stiff neck,cracking in ankle when walking,1.0,1
+stiff neck,after the abuse of mercury,1.0,1
+stiff neck,bruised aching pain in right shoulder and arm,1.0,1
+stiff neck,sticking pain,1.0,1
+stiff neck,stitches in sacral region,1.0,1
+stiff neck,can lie only on abdomen,1.0,1
+stiff neck,cramp-like stiffness of back and body,1.0,1
+stiff neck,diseases showing marked syphilitic or scrofulous states,1.0,1
+stiff neck,drawing pain in all the limbs,1.0,1
+stiff neck,nightly pains,1.0,1
+stiff neck,painful in knees as if leg were swollen,1.0,1
+stiff neck,rheumatic pains in forearms and fingers,1.0,1
+stiff neck,redness and heat in ball of great toe,1.0,1
+stiff neck,rheumatic and arthritic pains in hip joints,1.0,1
+stiff neck,drawing pain in small of back,1.0,1
+stiff neck,inflammation of periosteum,1.0,1
+stiff neck,soreness of neck from least cold,1.0,1
+stiff neck,syphilitic nodes on shin bones,1.0,1
+stiff neck,syphilitic bone pains,1.0,1
+stiff neck,tearing pains in bones of legs worse at night,1.0,1
+stiff neck,rheumatic pains in limbs from taking cold,1.0,1
+stiff neck,rheumatic pains in legs and feet,1.0,1
+stiff neck,soreness along periosteum of tibia,1.0,1
+stiff neck,nervous palpitation,1.0,1
+stiff neck,tension and pressure pain in right hip,1.0,1
+stiff neck,syphilitic rheumatism of arms and fingers,1.0,1
+rheumatic pains in left hand with a powerless feeling,stitches in patella,1.0,1
+rheumatic pains in left hand with a powerless feeling,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+rheumatic pains in left hand with a powerless feeling,drawing pains in arms and hands,1.0,1
+rheumatic pains in left hand with a powerless feeling,neuralgic pains especially back,1.0,1
+rheumatic pains in left hand with a powerless feeling,stiff neck,1.0,1
+rheumatic pains in left hand with a powerless feeling,stinging pains in swollen finger joints,1.0,1
+rheumatic pains in left hand with a powerless feeling,sticking as from splinters worse by touch,1.0,1
+rheumatic pains in left hand with a powerless feeling,heart beat intermits every fourth beat,1.0,1
+rheumatic pains in left hand with a powerless feeling,pains in back extending down thighs,1.0,1
+rheumatic pains in left hand with a powerless feeling,pain across buttock causing limping,1.0,1
+rheumatic pains in left hand with a powerless feeling,palpitation with anguish,1.0,1
+rheumatic pains in left hand with a powerless feeling,contraction of joints,1.0,1
+rheumatic pains in left hand with a powerless feeling,cracking in ankle when walking,1.0,1
+rheumatic pains in left hand with a powerless feeling,after the abuse of mercury,1.0,1
+rheumatic pains in left hand with a powerless feeling,bruised aching pain in right shoulder and arm,1.0,1
+rheumatic pains in left hand with a powerless feeling,sticking pain,1.0,1
+rheumatic pains in left hand with a powerless feeling,stitches in sacral region,1.0,1
+rheumatic pains in left hand with a powerless feeling,can lie only on abdomen,1.0,1
+rheumatic pains in left hand with a powerless feeling,cramp-like stiffness of back and body,1.0,1
+rheumatic pains in left hand with a powerless feeling,diseases showing marked syphilitic or scrofulous states,1.0,1
+rheumatic pains in left hand with a powerless feeling,drawing pain in all the limbs,1.0,1
+rheumatic pains in left hand with a powerless feeling,nightly pains,1.0,1
+rheumatic pains in left hand with a powerless feeling,painful in knees as if leg were swollen,1.0,1
+rheumatic pains in left hand with a powerless feeling,rheumatic pains in forearms and fingers,1.0,1
+rheumatic pains in left hand with a powerless feeling,redness and heat in ball of great toe,1.0,1
+rheumatic pains in left hand with a powerless feeling,rheumatic and arthritic pains in hip joints,1.0,1
+rheumatic pains in left hand with a powerless feeling,drawing pain in small of back,1.0,1
+rheumatic pains in left hand with a powerless feeling,inflammation of periosteum,1.0,1
+rheumatic pains in left hand with a powerless feeling,soreness of neck from least cold,1.0,1
+rheumatic pains in left hand with a powerless feeling,syphilitic nodes on shin bones,1.0,1
+rheumatic pains in left hand with a powerless feeling,syphilitic bone pains,1.0,1
+rheumatic pains in left hand with a powerless feeling,tearing pains in bones of legs worse at night,1.0,1
+rheumatic pains in left hand with a powerless feeling,rheumatic pains in limbs from taking cold,1.0,1
+rheumatic pains in left hand with a powerless feeling,rheumatic pains in legs and feet,1.0,1
+rheumatic pains in left hand with a powerless feeling,soreness along periosteum of tibia,1.0,1
+rheumatic pains in left hand with a powerless feeling,nervous palpitation,1.0,1
+rheumatic pains in left hand with a powerless feeling,tension and pressure pain in right hip,1.0,1
+rheumatic pains in left hand with a powerless feeling,syphilitic rheumatism of arms and fingers,1.0,1
+contraction of joints,stitches in patella,1.0,1
+contraction of joints,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+contraction of joints,drawing pains in arms and hands,1.0,1
+contraction of joints,neuralgic pains especially back,1.0,1
+contraction of joints,stiff neck,1.0,1
+contraction of joints,stinging pains in swollen finger joints,1.0,1
+contraction of joints,sticking as from splinters worse by touch,1.0,1
+contraction of joints,heart beat intermits every fourth beat,1.0,1
+contraction of joints,pains in back extending down thighs,1.0,1
+contraction of joints,rheumatic pains in left hand with a powerless feeling,1.0,1
+contraction of joints,pain across buttock causing limping,1.0,1
+contraction of joints,palpitation with anguish,1.0,1
+contraction of joints,cracking in ankle when walking,1.0,1
+contraction of joints,after the abuse of mercury,1.0,1
+contraction of joints,bruised aching pain in right shoulder and arm,1.0,1
+contraction of joints,sticking pain,1.0,1
+contraction of joints,stitches in sacral region,1.0,1
+contraction of joints,can lie only on abdomen,1.0,1
+contraction of joints,cramp-like stiffness of back and body,1.0,1
+contraction of joints,diseases showing marked syphilitic or scrofulous states,1.0,1
+contraction of joints,drawing pain in all the limbs,1.0,1
+contraction of joints,nightly pains,1.0,1
+contraction of joints,painful in knees as if leg were swollen,1.0,1
+contraction of joints,rheumatic pains in forearms and fingers,1.0,1
+contraction of joints,redness and heat in ball of great toe,1.0,1
+contraction of joints,rheumatic and arthritic pains in hip joints,1.0,1
+contraction of joints,drawing pain in small of back,1.0,1
+contraction of joints,inflammation of periosteum,1.0,1
+contraction of joints,soreness of neck from least cold,1.0,1
+contraction of joints,syphilitic nodes on shin bones,1.0,1
+contraction of joints,syphilitic bone pains,1.0,1
+contraction of joints,tearing pains in bones of legs worse at night,1.0,1
+contraction of joints,rheumatic pains in limbs from taking cold,1.0,1
+contraction of joints,rheumatic pains in legs and feet,1.0,1
+contraction of joints,soreness along periosteum of tibia,1.0,1
+contraction of joints,nervous palpitation,1.0,1
+contraction of joints,tension and pressure pain in right hip,1.0,1
+contraction of joints,syphilitic rheumatism of arms and fingers,1.0,1
+diseases showing marked syphilitic or scrofulous states,stitches in patella,1.0,1
+diseases showing marked syphilitic or scrofulous states,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+diseases showing marked syphilitic or scrofulous states,drawing pains in arms and hands,1.0,1
+diseases showing marked syphilitic or scrofulous states,neuralgic pains especially back,1.0,1
+diseases showing marked syphilitic or scrofulous states,stiff neck,1.0,1
+diseases showing marked syphilitic or scrofulous states,stinging pains in swollen finger joints,1.0,1
+diseases showing marked syphilitic or scrofulous states,sticking as from splinters worse by touch,1.0,1
+diseases showing marked syphilitic or scrofulous states,heart beat intermits every fourth beat,1.0,1
+diseases showing marked syphilitic or scrofulous states,pains in back extending down thighs,1.0,1
+diseases showing marked syphilitic or scrofulous states,rheumatic pains in left hand with a powerless feeling,1.0,1
+diseases showing marked syphilitic or scrofulous states,pain across buttock causing limping,1.0,1
+diseases showing marked syphilitic or scrofulous states,palpitation with anguish,1.0,1
+diseases showing marked syphilitic or scrofulous states,contraction of joints,1.0,1
+diseases showing marked syphilitic or scrofulous states,cracking in ankle when walking,1.0,1
+diseases showing marked syphilitic or scrofulous states,after the abuse of mercury,1.0,1
+diseases showing marked syphilitic or scrofulous states,bruised aching pain in right shoulder and arm,1.0,1
+diseases showing marked syphilitic or scrofulous states,sticking pain,1.0,1
+diseases showing marked syphilitic or scrofulous states,stitches in sacral region,1.0,1
+diseases showing marked syphilitic or scrofulous states,can lie only on abdomen,1.0,1
+diseases showing marked syphilitic or scrofulous states,cramp-like stiffness of back and body,1.0,1
+diseases showing marked syphilitic or scrofulous states,drawing pain in all the limbs,1.0,1
+diseases showing marked syphilitic or scrofulous states,nightly pains,1.0,1
+diseases showing marked syphilitic or scrofulous states,painful in knees as if leg were swollen,1.0,1
+diseases showing marked syphilitic or scrofulous states,rheumatic pains in forearms and fingers,1.0,1
+diseases showing marked syphilitic or scrofulous states,redness and heat in ball of great toe,1.0,1
+diseases showing marked syphilitic or scrofulous states,rheumatic and arthritic pains in hip joints,1.0,1
+diseases showing marked syphilitic or scrofulous states,drawing pain in small of back,1.0,1
+diseases showing marked syphilitic or scrofulous states,inflammation of periosteum,1.0,1
+diseases showing marked syphilitic or scrofulous states,soreness of neck from least cold,1.0,1
+diseases showing marked syphilitic or scrofulous states,syphilitic nodes on shin bones,1.0,1
+diseases showing marked syphilitic or scrofulous states,syphilitic bone pains,1.0,1
+diseases showing marked syphilitic or scrofulous states,tearing pains in bones of legs worse at night,1.0,1
+diseases showing marked syphilitic or scrofulous states,rheumatic pains in limbs from taking cold,1.0,1
+diseases showing marked syphilitic or scrofulous states,rheumatic pains in legs and feet,1.0,1
+diseases showing marked syphilitic or scrofulous states,soreness along periosteum of tibia,1.0,1
+diseases showing marked syphilitic or scrofulous states,nervous palpitation,1.0,1
+diseases showing marked syphilitic or scrofulous states,tension and pressure pain in right hip,1.0,1
+diseases showing marked syphilitic or scrofulous states,syphilitic rheumatism of arms and fingers,1.0,1
+rheumatic pains in legs and feet,stitches in patella,1.0,1
+rheumatic pains in legs and feet,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+rheumatic pains in legs and feet,drawing pains in arms and hands,1.0,1
+rheumatic pains in legs and feet,neuralgic pains especially back,1.0,1
+rheumatic pains in legs and feet,stiff neck,1.0,1
+rheumatic pains in legs and feet,stinging pains in swollen finger joints,1.0,1
+rheumatic pains in legs and feet,sticking as from splinters worse by touch,1.0,1
+rheumatic pains in legs and feet,heart beat intermits every fourth beat,1.0,1
+rheumatic pains in legs and feet,pains in back extending down thighs,1.0,1
+rheumatic pains in legs and feet,rheumatic pains in left hand with a powerless feeling,1.0,1
+rheumatic pains in legs and feet,pain across buttock causing limping,1.0,1
+rheumatic pains in legs and feet,palpitation with anguish,1.0,1
+rheumatic pains in legs and feet,contraction of joints,1.0,1
+rheumatic pains in legs and feet,cracking in ankle when walking,1.0,1
+rheumatic pains in legs and feet,after the abuse of mercury,1.0,1
+rheumatic pains in legs and feet,bruised aching pain in right shoulder and arm,1.0,1
+rheumatic pains in legs and feet,sticking pain,1.0,1
+rheumatic pains in legs and feet,stitches in sacral region,1.0,1
+rheumatic pains in legs and feet,can lie only on abdomen,1.0,1
+rheumatic pains in legs and feet,cramp-like stiffness of back and body,1.0,1
+rheumatic pains in legs and feet,diseases showing marked syphilitic or scrofulous states,1.0,1
+rheumatic pains in legs and feet,drawing pain in all the limbs,1.0,1
+rheumatic pains in legs and feet,nightly pains,1.0,1
+rheumatic pains in legs and feet,painful in knees as if leg were swollen,1.0,1
+rheumatic pains in legs and feet,rheumatic pains in forearms and fingers,1.0,1
+rheumatic pains in legs and feet,redness and heat in ball of great toe,1.0,1
+rheumatic pains in legs and feet,rheumatic and arthritic pains in hip joints,1.0,1
+rheumatic pains in legs and feet,drawing pain in small of back,1.0,1
+rheumatic pains in legs and feet,inflammation of periosteum,1.0,1
+rheumatic pains in legs and feet,soreness of neck from least cold,1.0,1
+rheumatic pains in legs and feet,syphilitic nodes on shin bones,1.0,1
+rheumatic pains in legs and feet,syphilitic bone pains,1.0,1
+rheumatic pains in legs and feet,tearing pains in bones of legs worse at night,1.0,1
+rheumatic pains in legs and feet,rheumatic pains in limbs from taking cold,1.0,1
+rheumatic pains in legs and feet,soreness along periosteum of tibia,1.0,1
+rheumatic pains in legs and feet,nervous palpitation,1.0,1
+rheumatic pains in legs and feet,tension and pressure pain in right hip,1.0,1
+rheumatic pains in legs and feet,syphilitic rheumatism of arms and fingers,1.0,1
+sticking as from splinters worse by touch,stitches in patella,1.0,1
+sticking as from splinters worse by touch,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+sticking as from splinters worse by touch,drawing pains in arms and hands,1.0,1
+sticking as from splinters worse by touch,neuralgic pains especially back,1.0,1
+sticking as from splinters worse by touch,stiff neck,1.0,1
+sticking as from splinters worse by touch,stinging pains in swollen finger joints,1.0,1
+sticking as from splinters worse by touch,heart beat intermits every fourth beat,1.0,1
+sticking as from splinters worse by touch,pains in back extending down thighs,1.0,1
+sticking as from splinters worse by touch,rheumatic pains in left hand with a powerless feeling,1.0,1
+sticking as from splinters worse by touch,pain across buttock causing limping,1.0,1
+sticking as from splinters worse by touch,palpitation with anguish,1.0,1
+sticking as from splinters worse by touch,contraction of joints,1.0,1
+sticking as from splinters worse by touch,cracking in ankle when walking,1.0,1
+sticking as from splinters worse by touch,after the abuse of mercury,1.0,1
+sticking as from splinters worse by touch,bruised aching pain in right shoulder and arm,1.0,1
+sticking as from splinters worse by touch,sticking pain,1.0,1
+sticking as from splinters worse by touch,stitches in sacral region,1.0,1
+sticking as from splinters worse by touch,can lie only on abdomen,1.0,1
+sticking as from splinters worse by touch,cramp-like stiffness of back and body,1.0,1
+sticking as from splinters worse by touch,diseases showing marked syphilitic or scrofulous states,1.0,1
+sticking as from splinters worse by touch,drawing pain in all the limbs,1.0,1
+sticking as from splinters worse by touch,nightly pains,1.0,1
+sticking as from splinters worse by touch,painful in knees as if leg were swollen,1.0,1
+sticking as from splinters worse by touch,rheumatic pains in forearms and fingers,1.0,1
+sticking as from splinters worse by touch,redness and heat in ball of great toe,1.0,1
+sticking as from splinters worse by touch,rheumatic and arthritic pains in hip joints,1.0,1
+sticking as from splinters worse by touch,drawing pain in small of back,1.0,1
+sticking as from splinters worse by touch,inflammation of periosteum,1.0,1
+sticking as from splinters worse by touch,soreness of neck from least cold,1.0,1
+sticking as from splinters worse by touch,syphilitic nodes on shin bones,1.0,1
+sticking as from splinters worse by touch,syphilitic bone pains,1.0,1
+sticking as from splinters worse by touch,tearing pains in bones of legs worse at night,1.0,1
+sticking as from splinters worse by touch,rheumatic pains in limbs from taking cold,1.0,1
+sticking as from splinters worse by touch,rheumatic pains in legs and feet,1.0,1
+sticking as from splinters worse by touch,soreness along periosteum of tibia,1.0,1
+sticking as from splinters worse by touch,nervous palpitation,1.0,1
+sticking as from splinters worse by touch,tension and pressure pain in right hip,1.0,1
+sticking as from splinters worse by touch,syphilitic rheumatism of arms and fingers,1.0,1
+bruised aching pain in right shoulder and arm,stitches in patella,1.0,1
+bruised aching pain in right shoulder and arm,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+bruised aching pain in right shoulder and arm,drawing pains in arms and hands,1.0,1
+bruised aching pain in right shoulder and arm,neuralgic pains especially back,1.0,1
+bruised aching pain in right shoulder and arm,stiff neck,1.0,1
+bruised aching pain in right shoulder and arm,stinging pains in swollen finger joints,1.0,1
+bruised aching pain in right shoulder and arm,sticking as from splinters worse by touch,1.0,1
+bruised aching pain in right shoulder and arm,heart beat intermits every fourth beat,1.0,1
+bruised aching pain in right shoulder and arm,pains in back extending down thighs,1.0,1
+bruised aching pain in right shoulder and arm,rheumatic pains in left hand with a powerless feeling,1.0,1
+bruised aching pain in right shoulder and arm,pain across buttock causing limping,1.0,1
+bruised aching pain in right shoulder and arm,palpitation with anguish,1.0,1
+bruised aching pain in right shoulder and arm,contraction of joints,1.0,1
+bruised aching pain in right shoulder and arm,cracking in ankle when walking,1.0,1
+bruised aching pain in right shoulder and arm,after the abuse of mercury,1.0,1
+bruised aching pain in right shoulder and arm,sticking pain,1.0,1
+bruised aching pain in right shoulder and arm,stitches in sacral region,1.0,1
+bruised aching pain in right shoulder and arm,can lie only on abdomen,1.0,1
+bruised aching pain in right shoulder and arm,cramp-like stiffness of back and body,1.0,1
+bruised aching pain in right shoulder and arm,diseases showing marked syphilitic or scrofulous states,1.0,1
+bruised aching pain in right shoulder and arm,drawing pain in all the limbs,1.0,1
+bruised aching pain in right shoulder and arm,nightly pains,1.0,1
+bruised aching pain in right shoulder and arm,painful in knees as if leg were swollen,1.0,1
+bruised aching pain in right shoulder and arm,rheumatic pains in forearms and fingers,1.0,1
+bruised aching pain in right shoulder and arm,redness and heat in ball of great toe,1.0,1
+bruised aching pain in right shoulder and arm,rheumatic and arthritic pains in hip joints,1.0,1
+bruised aching pain in right shoulder and arm,drawing pain in small of back,1.0,1
+bruised aching pain in right shoulder and arm,inflammation of periosteum,1.0,1
+bruised aching pain in right shoulder and arm,soreness of neck from least cold,1.0,1
+bruised aching pain in right shoulder and arm,syphilitic nodes on shin bones,1.0,1
+bruised aching pain in right shoulder and arm,syphilitic bone pains,1.0,1
+bruised aching pain in right shoulder and arm,tearing pains in bones of legs worse at night,1.0,1
+bruised aching pain in right shoulder and arm,rheumatic pains in limbs from taking cold,1.0,1
+bruised aching pain in right shoulder and arm,rheumatic pains in legs and feet,1.0,1
+bruised aching pain in right shoulder and arm,soreness along periosteum of tibia,1.0,1
+bruised aching pain in right shoulder and arm,nervous palpitation,1.0,1
+bruised aching pain in right shoulder and arm,tension and pressure pain in right hip,1.0,1
+bruised aching pain in right shoulder and arm,syphilitic rheumatism of arms and fingers,1.0,1
+cramp-like stiffness of back and body,stitches in patella,1.0,1
+cramp-like stiffness of back and body,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+cramp-like stiffness of back and body,drawing pains in arms and hands,1.0,1
+cramp-like stiffness of back and body,neuralgic pains especially back,1.0,1
+cramp-like stiffness of back and body,stiff neck,1.0,1
+cramp-like stiffness of back and body,stinging pains in swollen finger joints,1.0,1
+cramp-like stiffness of back and body,sticking as from splinters worse by touch,1.0,1
+cramp-like stiffness of back and body,heart beat intermits every fourth beat,1.0,1
+cramp-like stiffness of back and body,pains in back extending down thighs,1.0,1
+cramp-like stiffness of back and body,rheumatic pains in left hand with a powerless feeling,1.0,1
+cramp-like stiffness of back and body,pain across buttock causing limping,1.0,1
+cramp-like stiffness of back and body,palpitation with anguish,1.0,1
+cramp-like stiffness of back and body,contraction of joints,1.0,1
+cramp-like stiffness of back and body,cracking in ankle when walking,1.0,1
+cramp-like stiffness of back and body,after the abuse of mercury,1.0,1
+cramp-like stiffness of back and body,bruised aching pain in right shoulder and arm,1.0,1
+cramp-like stiffness of back and body,sticking pain,1.0,1
+cramp-like stiffness of back and body,stitches in sacral region,1.0,1
+cramp-like stiffness of back and body,can lie only on abdomen,1.0,1
+cramp-like stiffness of back and body,diseases showing marked syphilitic or scrofulous states,1.0,1
+cramp-like stiffness of back and body,drawing pain in all the limbs,1.0,1
+cramp-like stiffness of back and body,nightly pains,1.0,1
+cramp-like stiffness of back and body,painful in knees as if leg were swollen,1.0,1
+cramp-like stiffness of back and body,rheumatic pains in forearms and fingers,1.0,1
+cramp-like stiffness of back and body,redness and heat in ball of great toe,1.0,1
+cramp-like stiffness of back and body,rheumatic and arthritic pains in hip joints,1.0,1
+cramp-like stiffness of back and body,drawing pain in small of back,1.0,1
+cramp-like stiffness of back and body,inflammation of periosteum,1.0,1
+cramp-like stiffness of back and body,soreness of neck from least cold,1.0,1
+cramp-like stiffness of back and body,syphilitic nodes on shin bones,1.0,1
+cramp-like stiffness of back and body,syphilitic bone pains,1.0,1
+cramp-like stiffness of back and body,tearing pains in bones of legs worse at night,1.0,1
+cramp-like stiffness of back and body,rheumatic pains in limbs from taking cold,1.0,1
+cramp-like stiffness of back and body,rheumatic pains in legs and feet,1.0,1
+cramp-like stiffness of back and body,soreness along periosteum of tibia,1.0,1
+cramp-like stiffness of back and body,nervous palpitation,1.0,1
+cramp-like stiffness of back and body,tension and pressure pain in right hip,1.0,1
+cramp-like stiffness of back and body,syphilitic rheumatism of arms and fingers,1.0,1
+tension and pressure pain in right hip,stitches in patella,1.0,1
+tension and pressure pain in right hip,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+tension and pressure pain in right hip,drawing pains in arms and hands,1.0,1
+tension and pressure pain in right hip,neuralgic pains especially back,1.0,1
+tension and pressure pain in right hip,stiff neck,1.0,1
+tension and pressure pain in right hip,stinging pains in swollen finger joints,1.0,1
+tension and pressure pain in right hip,sticking as from splinters worse by touch,1.0,1
+tension and pressure pain in right hip,heart beat intermits every fourth beat,1.0,1
+tension and pressure pain in right hip,pains in back extending down thighs,1.0,1
+tension and pressure pain in right hip,rheumatic pains in left hand with a powerless feeling,1.0,1
+tension and pressure pain in right hip,pain across buttock causing limping,1.0,1
+tension and pressure pain in right hip,palpitation with anguish,1.0,1
+tension and pressure pain in right hip,contraction of joints,1.0,1
+tension and pressure pain in right hip,cracking in ankle when walking,1.0,1
+tension and pressure pain in right hip,after the abuse of mercury,1.0,1
+tension and pressure pain in right hip,bruised aching pain in right shoulder and arm,1.0,1
+tension and pressure pain in right hip,sticking pain,1.0,1
+tension and pressure pain in right hip,stitches in sacral region,1.0,1
+tension and pressure pain in right hip,can lie only on abdomen,1.0,1
+tension and pressure pain in right hip,cramp-like stiffness of back and body,1.0,1
+tension and pressure pain in right hip,diseases showing marked syphilitic or scrofulous states,1.0,1
+tension and pressure pain in right hip,drawing pain in all the limbs,1.0,1
+tension and pressure pain in right hip,nightly pains,1.0,1
+tension and pressure pain in right hip,painful in knees as if leg were swollen,1.0,1
+tension and pressure pain in right hip,rheumatic pains in forearms and fingers,1.0,1
+tension and pressure pain in right hip,redness and heat in ball of great toe,1.0,1
+tension and pressure pain in right hip,rheumatic and arthritic pains in hip joints,1.0,1
+tension and pressure pain in right hip,drawing pain in small of back,1.0,1
+tension and pressure pain in right hip,inflammation of periosteum,1.0,1
+tension and pressure pain in right hip,soreness of neck from least cold,1.0,1
+tension and pressure pain in right hip,syphilitic nodes on shin bones,1.0,1
+tension and pressure pain in right hip,syphilitic bone pains,1.0,1
+tension and pressure pain in right hip,tearing pains in bones of legs worse at night,1.0,1
+tension and pressure pain in right hip,rheumatic pains in limbs from taking cold,1.0,1
+tension and pressure pain in right hip,rheumatic pains in legs and feet,1.0,1
+tension and pressure pain in right hip,soreness along periosteum of tibia,1.0,1
+tension and pressure pain in right hip,nervous palpitation,1.0,1
+tension and pressure pain in right hip,syphilitic rheumatism of arms and fingers,1.0,1
+rheumatic pains in forearms and fingers,stitches in patella,1.0,1
+rheumatic pains in forearms and fingers,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+rheumatic pains in forearms and fingers,drawing pains in arms and hands,1.0,1
+rheumatic pains in forearms and fingers,neuralgic pains especially back,1.0,1
+rheumatic pains in forearms and fingers,stiff neck,1.0,1
+rheumatic pains in forearms and fingers,stinging pains in swollen finger joints,1.0,1
+rheumatic pains in forearms and fingers,sticking as from splinters worse by touch,1.0,1
+rheumatic pains in forearms and fingers,heart beat intermits every fourth beat,1.0,1
+rheumatic pains in forearms and fingers,pains in back extending down thighs,1.0,1
+rheumatic pains in forearms and fingers,rheumatic pains in left hand with a powerless feeling,1.0,1
+rheumatic pains in forearms and fingers,pain across buttock causing limping,1.0,1
+rheumatic pains in forearms and fingers,palpitation with anguish,1.0,1
+rheumatic pains in forearms and fingers,contraction of joints,1.0,1
+rheumatic pains in forearms and fingers,cracking in ankle when walking,1.0,1
+rheumatic pains in forearms and fingers,after the abuse of mercury,1.0,1
+rheumatic pains in forearms and fingers,bruised aching pain in right shoulder and arm,1.0,1
+rheumatic pains in forearms and fingers,sticking pain,1.0,1
+rheumatic pains in forearms and fingers,stitches in sacral region,1.0,1
+rheumatic pains in forearms and fingers,can lie only on abdomen,1.0,1
+rheumatic pains in forearms and fingers,cramp-like stiffness of back and body,1.0,1
+rheumatic pains in forearms and fingers,diseases showing marked syphilitic or scrofulous states,1.0,1
+rheumatic pains in forearms and fingers,drawing pain in all the limbs,1.0,1
+rheumatic pains in forearms and fingers,nightly pains,1.0,1
+rheumatic pains in forearms and fingers,painful in knees as if leg were swollen,1.0,1
+rheumatic pains in forearms and fingers,redness and heat in ball of great toe,1.0,1
+rheumatic pains in forearms and fingers,rheumatic and arthritic pains in hip joints,1.0,1
+rheumatic pains in forearms and fingers,drawing pain in small of back,1.0,1
+rheumatic pains in forearms and fingers,inflammation of periosteum,1.0,1
+rheumatic pains in forearms and fingers,soreness of neck from least cold,1.0,1
+rheumatic pains in forearms and fingers,syphilitic nodes on shin bones,1.0,1
+rheumatic pains in forearms and fingers,syphilitic bone pains,1.0,1
+rheumatic pains in forearms and fingers,tearing pains in bones of legs worse at night,1.0,1
+rheumatic pains in forearms and fingers,rheumatic pains in limbs from taking cold,1.0,1
+rheumatic pains in forearms and fingers,rheumatic pains in legs and feet,1.0,1
+rheumatic pains in forearms and fingers,soreness along periosteum of tibia,1.0,1
+rheumatic pains in forearms and fingers,nervous palpitation,1.0,1
+rheumatic pains in forearms and fingers,tension and pressure pain in right hip,1.0,1
+rheumatic pains in forearms and fingers,syphilitic rheumatism of arms and fingers,1.0,1
+syphilitic bone pains,stitches in patella,1.0,1
+syphilitic bone pains,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+syphilitic bone pains,drawing pains in arms and hands,1.0,1
+syphilitic bone pains,neuralgic pains especially back,1.0,1
+syphilitic bone pains,stiff neck,1.0,1
+syphilitic bone pains,stinging pains in swollen finger joints,1.0,1
+syphilitic bone pains,sticking as from splinters worse by touch,1.0,1
+syphilitic bone pains,heart beat intermits every fourth beat,1.0,1
+syphilitic bone pains,pains in back extending down thighs,1.0,1
+syphilitic bone pains,rheumatic pains in left hand with a powerless feeling,1.0,1
+syphilitic bone pains,pain across buttock causing limping,1.0,1
+syphilitic bone pains,palpitation with anguish,1.0,1
+syphilitic bone pains,contraction of joints,1.0,1
+syphilitic bone pains,cracking in ankle when walking,1.0,1
+syphilitic bone pains,after the abuse of mercury,1.0,1
+syphilitic bone pains,bruised aching pain in right shoulder and arm,1.0,1
+syphilitic bone pains,sticking pain,1.0,1
+syphilitic bone pains,stitches in sacral region,1.0,1
+syphilitic bone pains,can lie only on abdomen,1.0,1
+syphilitic bone pains,cramp-like stiffness of back and body,1.0,1
+syphilitic bone pains,diseases showing marked syphilitic or scrofulous states,1.0,1
+syphilitic bone pains,drawing pain in all the limbs,1.0,1
+syphilitic bone pains,nightly pains,1.0,1
+syphilitic bone pains,painful in knees as if leg were swollen,1.0,1
+syphilitic bone pains,rheumatic pains in forearms and fingers,1.0,1
+syphilitic bone pains,redness and heat in ball of great toe,1.0,1
+syphilitic bone pains,rheumatic and arthritic pains in hip joints,1.0,1
+syphilitic bone pains,drawing pain in small of back,1.0,1
+syphilitic bone pains,inflammation of periosteum,1.0,1
+syphilitic bone pains,soreness of neck from least cold,1.0,1
+syphilitic bone pains,syphilitic nodes on shin bones,1.0,1
+syphilitic bone pains,tearing pains in bones of legs worse at night,1.0,1
+syphilitic bone pains,rheumatic pains in limbs from taking cold,1.0,1
+syphilitic bone pains,rheumatic pains in legs and feet,1.0,1
+syphilitic bone pains,soreness along periosteum of tibia,1.0,1
+syphilitic bone pains,nervous palpitation,1.0,1
+syphilitic bone pains,tension and pressure pain in right hip,1.0,1
+syphilitic bone pains,syphilitic rheumatism of arms and fingers,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,stitches in patella,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,drawing pains in arms and hands,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,neuralgic pains especially back,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,stiff neck,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,stinging pains in swollen finger joints,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,sticking as from splinters worse by touch,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,heart beat intermits every fourth beat,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,pains in back extending down thighs,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,rheumatic pains in left hand with a powerless feeling,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,pain across buttock causing limping,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,palpitation with anguish,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,contraction of joints,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,cracking in ankle when walking,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,after the abuse of mercury,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,bruised aching pain in right shoulder and arm,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,sticking pain,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,stitches in sacral region,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,can lie only on abdomen,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,cramp-like stiffness of back and body,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,diseases showing marked syphilitic or scrofulous states,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,drawing pain in all the limbs,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,nightly pains,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,painful in knees as if leg were swollen,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,rheumatic pains in forearms and fingers,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,redness and heat in ball of great toe,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,rheumatic and arthritic pains in hip joints,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,drawing pain in small of back,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,inflammation of periosteum,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,soreness of neck from least cold,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,syphilitic nodes on shin bones,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,syphilitic bone pains,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,tearing pains in bones of legs worse at night,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,rheumatic pains in limbs from taking cold,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,rheumatic pains in legs and feet,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,soreness along periosteum of tibia,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,nervous palpitation,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,tension and pressure pain in right hip,1.0,1
+deep-seated gnawing pains in bones and tendons of legs,syphilitic rheumatism of arms and fingers,1.0,1
+drawing pain in all the limbs,stitches in patella,1.0,1
+drawing pain in all the limbs,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+drawing pain in all the limbs,drawing pains in arms and hands,1.0,1
+drawing pain in all the limbs,neuralgic pains especially back,1.0,1
+drawing pain in all the limbs,stiff neck,1.0,1
+drawing pain in all the limbs,stinging pains in swollen finger joints,1.0,1
+drawing pain in all the limbs,sticking as from splinters worse by touch,1.0,1
+drawing pain in all the limbs,heart beat intermits every fourth beat,1.0,1
+drawing pain in all the limbs,pains in back extending down thighs,1.0,1
+drawing pain in all the limbs,rheumatic pains in left hand with a powerless feeling,1.0,1
+drawing pain in all the limbs,pain across buttock causing limping,1.0,1
+drawing pain in all the limbs,palpitation with anguish,1.0,1
+drawing pain in all the limbs,contraction of joints,1.0,1
+drawing pain in all the limbs,cracking in ankle when walking,1.0,1
+drawing pain in all the limbs,after the abuse of mercury,1.0,1
+drawing pain in all the limbs,bruised aching pain in right shoulder and arm,1.0,1
+drawing pain in all the limbs,sticking pain,1.0,1
+drawing pain in all the limbs,stitches in sacral region,1.0,1
+drawing pain in all the limbs,can lie only on abdomen,1.0,1
+drawing pain in all the limbs,cramp-like stiffness of back and body,1.0,1
+drawing pain in all the limbs,diseases showing marked syphilitic or scrofulous states,1.0,1
+drawing pain in all the limbs,nightly pains,1.0,1
+drawing pain in all the limbs,painful in knees as if leg were swollen,1.0,1
+drawing pain in all the limbs,rheumatic pains in forearms and fingers,1.0,1
+drawing pain in all the limbs,redness and heat in ball of great toe,1.0,1
+drawing pain in all the limbs,rheumatic and arthritic pains in hip joints,1.0,1
+drawing pain in all the limbs,drawing pain in small of back,1.0,1
+drawing pain in all the limbs,inflammation of periosteum,1.0,1
+drawing pain in all the limbs,soreness of neck from least cold,1.0,1
+drawing pain in all the limbs,syphilitic nodes on shin bones,1.0,1
+drawing pain in all the limbs,syphilitic bone pains,1.0,1
+drawing pain in all the limbs,tearing pains in bones of legs worse at night,1.0,1
+drawing pain in all the limbs,rheumatic pains in limbs from taking cold,1.0,1
+drawing pain in all the limbs,rheumatic pains in legs and feet,1.0,1
+drawing pain in all the limbs,soreness along periosteum of tibia,1.0,1
+drawing pain in all the limbs,nervous palpitation,1.0,1
+drawing pain in all the limbs,tension and pressure pain in right hip,1.0,1
+drawing pain in all the limbs,syphilitic rheumatism of arms and fingers,1.0,1
+syphilitic nodes on shin bones,stitches in patella,1.0,1
+syphilitic nodes on shin bones,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+syphilitic nodes on shin bones,drawing pains in arms and hands,1.0,1
+syphilitic nodes on shin bones,neuralgic pains especially back,1.0,1
+syphilitic nodes on shin bones,stiff neck,1.0,1
+syphilitic nodes on shin bones,stinging pains in swollen finger joints,1.0,1
+syphilitic nodes on shin bones,sticking as from splinters worse by touch,1.0,1
+syphilitic nodes on shin bones,heart beat intermits every fourth beat,1.0,1
+syphilitic nodes on shin bones,pains in back extending down thighs,1.0,1
+syphilitic nodes on shin bones,rheumatic pains in left hand with a powerless feeling,1.0,1
+syphilitic nodes on shin bones,pain across buttock causing limping,1.0,1
+syphilitic nodes on shin bones,palpitation with anguish,1.0,1
+syphilitic nodes on shin bones,contraction of joints,1.0,1
+syphilitic nodes on shin bones,cracking in ankle when walking,1.0,1
+syphilitic nodes on shin bones,after the abuse of mercury,1.0,1
+syphilitic nodes on shin bones,bruised aching pain in right shoulder and arm,1.0,1
+syphilitic nodes on shin bones,sticking pain,1.0,1
+syphilitic nodes on shin bones,stitches in sacral region,1.0,1
+syphilitic nodes on shin bones,can lie only on abdomen,1.0,1
+syphilitic nodes on shin bones,cramp-like stiffness of back and body,1.0,1
+syphilitic nodes on shin bones,diseases showing marked syphilitic or scrofulous states,1.0,1
+syphilitic nodes on shin bones,drawing pain in all the limbs,1.0,1
+syphilitic nodes on shin bones,nightly pains,1.0,1
+syphilitic nodes on shin bones,painful in knees as if leg were swollen,1.0,1
+syphilitic nodes on shin bones,rheumatic pains in forearms and fingers,1.0,1
+syphilitic nodes on shin bones,redness and heat in ball of great toe,1.0,1
+syphilitic nodes on shin bones,rheumatic and arthritic pains in hip joints,1.0,1
+syphilitic nodes on shin bones,drawing pain in small of back,1.0,1
+syphilitic nodes on shin bones,inflammation of periosteum,1.0,1
+syphilitic nodes on shin bones,soreness of neck from least cold,1.0,1
+syphilitic nodes on shin bones,syphilitic bone pains,1.0,1
+syphilitic nodes on shin bones,tearing pains in bones of legs worse at night,1.0,1
+syphilitic nodes on shin bones,rheumatic pains in limbs from taking cold,1.0,1
+syphilitic nodes on shin bones,rheumatic pains in legs and feet,1.0,1
+syphilitic nodes on shin bones,soreness along periosteum of tibia,1.0,1
+syphilitic nodes on shin bones,nervous palpitation,1.0,1
+syphilitic nodes on shin bones,tension and pressure pain in right hip,1.0,1
+syphilitic nodes on shin bones,syphilitic rheumatism of arms and fingers,1.0,1
+drawing pains in arms and hands,stitches in patella,1.0,1
+drawing pains in arms and hands,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+drawing pains in arms and hands,neuralgic pains especially back,1.0,1
+drawing pains in arms and hands,stiff neck,1.0,1
+drawing pains in arms and hands,stinging pains in swollen finger joints,1.0,1
+drawing pains in arms and hands,sticking as from splinters worse by touch,1.0,1
+drawing pains in arms and hands,heart beat intermits every fourth beat,1.0,1
+drawing pains in arms and hands,pains in back extending down thighs,1.0,1
+drawing pains in arms and hands,rheumatic pains in left hand with a powerless feeling,1.0,1
+drawing pains in arms and hands,pain across buttock causing limping,1.0,1
+drawing pains in arms and hands,palpitation with anguish,1.0,1
+drawing pains in arms and hands,contraction of joints,1.0,1
+drawing pains in arms and hands,cracking in ankle when walking,1.0,1
+drawing pains in arms and hands,after the abuse of mercury,1.0,1
+drawing pains in arms and hands,bruised aching pain in right shoulder and arm,1.0,1
+drawing pains in arms and hands,sticking pain,1.0,1
+drawing pains in arms and hands,stitches in sacral region,1.0,1
+drawing pains in arms and hands,can lie only on abdomen,1.0,1
+drawing pains in arms and hands,cramp-like stiffness of back and body,1.0,1
+drawing pains in arms and hands,diseases showing marked syphilitic or scrofulous states,1.0,1
+drawing pains in arms and hands,drawing pain in all the limbs,1.0,1
+drawing pains in arms and hands,nightly pains,1.0,1
+drawing pains in arms and hands,painful in knees as if leg were swollen,1.0,1
+drawing pains in arms and hands,rheumatic pains in forearms and fingers,1.0,1
+drawing pains in arms and hands,redness and heat in ball of great toe,1.0,1
+drawing pains in arms and hands,rheumatic and arthritic pains in hip joints,1.0,1
+drawing pains in arms and hands,drawing pain in small of back,1.0,1
+drawing pains in arms and hands,inflammation of periosteum,1.0,1
+drawing pains in arms and hands,soreness of neck from least cold,1.0,1
+drawing pains in arms and hands,syphilitic nodes on shin bones,1.0,1
+drawing pains in arms and hands,syphilitic bone pains,1.0,1
+drawing pains in arms and hands,tearing pains in bones of legs worse at night,1.0,1
+drawing pains in arms and hands,rheumatic pains in limbs from taking cold,1.0,1
+drawing pains in arms and hands,rheumatic pains in legs and feet,1.0,1
+drawing pains in arms and hands,soreness along periosteum of tibia,1.0,1
+drawing pains in arms and hands,nervous palpitation,1.0,1
+drawing pains in arms and hands,tension and pressure pain in right hip,1.0,1
+drawing pains in arms and hands,syphilitic rheumatism of arms and fingers,1.0,1
+can lie only on abdomen,stitches in patella,1.0,1
+can lie only on abdomen,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+can lie only on abdomen,drawing pains in arms and hands,1.0,1
+can lie only on abdomen,neuralgic pains especially back,1.0,1
+can lie only on abdomen,stiff neck,1.0,1
+can lie only on abdomen,stinging pains in swollen finger joints,1.0,1
+can lie only on abdomen,sticking as from splinters worse by touch,1.0,1
+can lie only on abdomen,heart beat intermits every fourth beat,1.0,1
+can lie only on abdomen,pains in back extending down thighs,1.0,1
+can lie only on abdomen,rheumatic pains in left hand with a powerless feeling,1.0,1
+can lie only on abdomen,pain across buttock causing limping,1.0,1
+can lie only on abdomen,palpitation with anguish,1.0,1
+can lie only on abdomen,contraction of joints,1.0,1
+can lie only on abdomen,cracking in ankle when walking,1.0,1
+can lie only on abdomen,after the abuse of mercury,1.0,1
+can lie only on abdomen,bruised aching pain in right shoulder and arm,1.0,1
+can lie only on abdomen,sticking pain,1.0,1
+can lie only on abdomen,stitches in sacral region,1.0,1
+can lie only on abdomen,cramp-like stiffness of back and body,1.0,1
+can lie only on abdomen,diseases showing marked syphilitic or scrofulous states,1.0,1
+can lie only on abdomen,drawing pain in all the limbs,1.0,1
+can lie only on abdomen,nightly pains,1.0,1
+can lie only on abdomen,painful in knees as if leg were swollen,1.0,1
+can lie only on abdomen,rheumatic pains in forearms and fingers,1.0,1
+can lie only on abdomen,redness and heat in ball of great toe,1.0,1
+can lie only on abdomen,rheumatic and arthritic pains in hip joints,1.0,1
+can lie only on abdomen,drawing pain in small of back,1.0,1
+can lie only on abdomen,inflammation of periosteum,1.0,1
+can lie only on abdomen,soreness of neck from least cold,1.0,1
+can lie only on abdomen,syphilitic nodes on shin bones,1.0,1
+can lie only on abdomen,syphilitic bone pains,1.0,1
+can lie only on abdomen,tearing pains in bones of legs worse at night,1.0,1
+can lie only on abdomen,rheumatic pains in limbs from taking cold,1.0,1
+can lie only on abdomen,rheumatic pains in legs and feet,1.0,1
+can lie only on abdomen,soreness along periosteum of tibia,1.0,1
+can lie only on abdomen,nervous palpitation,1.0,1
+can lie only on abdomen,tension and pressure pain in right hip,1.0,1
+can lie only on abdomen,syphilitic rheumatism of arms and fingers,1.0,1
+nightly pains,stitches in patella,1.0,1
+nightly pains,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+nightly pains,drawing pains in arms and hands,1.0,1
+nightly pains,neuralgic pains especially back,1.0,1
+nightly pains,stiff neck,1.0,1
+nightly pains,stinging pains in swollen finger joints,1.0,1
+nightly pains,sticking as from splinters worse by touch,1.0,1
+nightly pains,heart beat intermits every fourth beat,1.0,1
+nightly pains,pains in back extending down thighs,1.0,1
+nightly pains,rheumatic pains in left hand with a powerless feeling,1.0,1
+nightly pains,pain across buttock causing limping,1.0,1
+nightly pains,palpitation with anguish,1.0,1
+nightly pains,contraction of joints,1.0,1
+nightly pains,cracking in ankle when walking,1.0,1
+nightly pains,after the abuse of mercury,1.0,1
+nightly pains,bruised aching pain in right shoulder and arm,1.0,1
+nightly pains,sticking pain,1.0,1
+nightly pains,stitches in sacral region,1.0,1
+nightly pains,can lie only on abdomen,1.0,1
+nightly pains,cramp-like stiffness of back and body,1.0,1
+nightly pains,diseases showing marked syphilitic or scrofulous states,1.0,1
+nightly pains,drawing pain in all the limbs,1.0,1
+nightly pains,painful in knees as if leg were swollen,1.0,1
+nightly pains,rheumatic pains in forearms and fingers,1.0,1
+nightly pains,redness and heat in ball of great toe,1.0,1
+nightly pains,rheumatic and arthritic pains in hip joints,1.0,1
+nightly pains,drawing pain in small of back,1.0,1
+nightly pains,inflammation of periosteum,1.0,1
+nightly pains,soreness of neck from least cold,1.0,1
+nightly pains,syphilitic nodes on shin bones,1.0,1
+nightly pains,syphilitic bone pains,1.0,1
+nightly pains,tearing pains in bones of legs worse at night,1.0,1
+nightly pains,rheumatic pains in limbs from taking cold,1.0,1
+nightly pains,rheumatic pains in legs and feet,1.0,1
+nightly pains,soreness along periosteum of tibia,1.0,1
+nightly pains,nervous palpitation,1.0,1
+nightly pains,tension and pressure pain in right hip,1.0,1
+nightly pains,syphilitic rheumatism of arms and fingers,1.0,1
+heart beat intermits every fourth beat,stitches in patella,1.0,1
+heart beat intermits every fourth beat,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+heart beat intermits every fourth beat,drawing pains in arms and hands,1.0,1
+heart beat intermits every fourth beat,neuralgic pains especially back,1.0,1
+heart beat intermits every fourth beat,stiff neck,1.0,1
+heart beat intermits every fourth beat,stinging pains in swollen finger joints,1.0,1
+heart beat intermits every fourth beat,sticking as from splinters worse by touch,1.0,1
+heart beat intermits every fourth beat,pains in back extending down thighs,1.0,1
+heart beat intermits every fourth beat,rheumatic pains in left hand with a powerless feeling,1.0,1
+heart beat intermits every fourth beat,pain across buttock causing limping,1.0,1
+heart beat intermits every fourth beat,palpitation with anguish,1.0,1
+heart beat intermits every fourth beat,contraction of joints,1.0,1
+heart beat intermits every fourth beat,cracking in ankle when walking,1.0,1
+heart beat intermits every fourth beat,after the abuse of mercury,1.0,1
+heart beat intermits every fourth beat,bruised aching pain in right shoulder and arm,1.0,1
+heart beat intermits every fourth beat,sticking pain,1.0,1
+heart beat intermits every fourth beat,stitches in sacral region,1.0,1
+heart beat intermits every fourth beat,can lie only on abdomen,1.0,1
+heart beat intermits every fourth beat,cramp-like stiffness of back and body,1.0,1
+heart beat intermits every fourth beat,diseases showing marked syphilitic or scrofulous states,1.0,1
+heart beat intermits every fourth beat,drawing pain in all the limbs,1.0,1
+heart beat intermits every fourth beat,nightly pains,1.0,1
+heart beat intermits every fourth beat,painful in knees as if leg were swollen,1.0,1
+heart beat intermits every fourth beat,rheumatic pains in forearms and fingers,1.0,1
+heart beat intermits every fourth beat,redness and heat in ball of great toe,1.0,1
+heart beat intermits every fourth beat,rheumatic and arthritic pains in hip joints,1.0,1
+heart beat intermits every fourth beat,drawing pain in small of back,1.0,1
+heart beat intermits every fourth beat,inflammation of periosteum,1.0,1
+heart beat intermits every fourth beat,soreness of neck from least cold,1.0,1
+heart beat intermits every fourth beat,syphilitic nodes on shin bones,1.0,1
+heart beat intermits every fourth beat,syphilitic bone pains,1.0,1
+heart beat intermits every fourth beat,tearing pains in bones of legs worse at night,1.0,1
+heart beat intermits every fourth beat,rheumatic pains in limbs from taking cold,1.0,1
+heart beat intermits every fourth beat,rheumatic pains in legs and feet,1.0,1
+heart beat intermits every fourth beat,soreness along periosteum of tibia,1.0,1
+heart beat intermits every fourth beat,nervous palpitation,1.0,1
+heart beat intermits every fourth beat,tension and pressure pain in right hip,1.0,1
+heart beat intermits every fourth beat,syphilitic rheumatism of arms and fingers,1.0,1
+soreness of neck from least cold,stitches in patella,1.0,1
+soreness of neck from least cold,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+soreness of neck from least cold,drawing pains in arms and hands,1.0,1
+soreness of neck from least cold,neuralgic pains especially back,1.0,1
+soreness of neck from least cold,stiff neck,1.0,1
+soreness of neck from least cold,stinging pains in swollen finger joints,1.0,1
+soreness of neck from least cold,sticking as from splinters worse by touch,1.0,1
+soreness of neck from least cold,heart beat intermits every fourth beat,1.0,1
+soreness of neck from least cold,pains in back extending down thighs,1.0,1
+soreness of neck from least cold,rheumatic pains in left hand with a powerless feeling,1.0,1
+soreness of neck from least cold,pain across buttock causing limping,1.0,1
+soreness of neck from least cold,palpitation with anguish,1.0,1
+soreness of neck from least cold,contraction of joints,1.0,1
+soreness of neck from least cold,cracking in ankle when walking,1.0,1
+soreness of neck from least cold,after the abuse of mercury,1.0,1
+soreness of neck from least cold,bruised aching pain in right shoulder and arm,1.0,1
+soreness of neck from least cold,sticking pain,1.0,1
+soreness of neck from least cold,stitches in sacral region,1.0,1
+soreness of neck from least cold,can lie only on abdomen,1.0,1
+soreness of neck from least cold,cramp-like stiffness of back and body,1.0,1
+soreness of neck from least cold,diseases showing marked syphilitic or scrofulous states,1.0,1
+soreness of neck from least cold,drawing pain in all the limbs,1.0,1
+soreness of neck from least cold,nightly pains,1.0,1
+soreness of neck from least cold,painful in knees as if leg were swollen,1.0,1
+soreness of neck from least cold,rheumatic pains in forearms and fingers,1.0,1
+soreness of neck from least cold,redness and heat in ball of great toe,1.0,1
+soreness of neck from least cold,rheumatic and arthritic pains in hip joints,1.0,1
+soreness of neck from least cold,drawing pain in small of back,1.0,1
+soreness of neck from least cold,inflammation of periosteum,1.0,1
+soreness of neck from least cold,syphilitic nodes on shin bones,1.0,1
+soreness of neck from least cold,syphilitic bone pains,1.0,1
+soreness of neck from least cold,tearing pains in bones of legs worse at night,1.0,1
+soreness of neck from least cold,rheumatic pains in limbs from taking cold,1.0,1
+soreness of neck from least cold,rheumatic pains in legs and feet,1.0,1
+soreness of neck from least cold,soreness along periosteum of tibia,1.0,1
+soreness of neck from least cold,nervous palpitation,1.0,1
+soreness of neck from least cold,tension and pressure pain in right hip,1.0,1
+soreness of neck from least cold,syphilitic rheumatism of arms and fingers,1.0,1
+nervous palpitation,stitches in patella,0.5,1
+nervous palpitation,deep-seated gnawing pains in bones and tendons of legs,0.5,1
+nervous palpitation,drawing pains in arms and hands,0.5,1
+nervous palpitation,neuralgic pains especially back,0.5,1
+nervous palpitation,stiff neck,0.5,1
+nervous palpitation,stinging pains in swollen finger joints,0.5,1
+nervous palpitation,sticking as from splinters worse by touch,0.5,1
+nervous palpitation,heart beat intermits every fourth beat,0.5,1
+nervous palpitation,pains in back extending down thighs,0.5,1
+nervous palpitation,rheumatic pains in left hand with a powerless feeling,0.5,1
+nervous palpitation,pain across buttock causing limping,0.5,1
+nervous palpitation,palpitation with anguish,0.5,1
+nervous palpitation,contraction of joints,0.5,1
+nervous palpitation,cracking in ankle when walking,0.5,1
+nervous palpitation,after the abuse of mercury,0.5,1
+nervous palpitation,bruised aching pain in right shoulder and arm,0.5,1
+nervous palpitation,sticking pain,0.5,1
+nervous palpitation,stitches in sacral region,0.5,1
+nervous palpitation,can lie only on abdomen,0.5,1
+nervous palpitation,cramp-like stiffness of back and body,0.5,1
+nervous palpitation,diseases showing marked syphilitic or scrofulous states,0.5,1
+nervous palpitation,drawing pain in all the limbs,0.5,1
+nervous palpitation,nightly pains,0.5,1
+nervous palpitation,painful in knees as if leg were swollen,0.5,1
+nervous palpitation,rheumatic pains in forearms and fingers,0.5,1
+nervous palpitation,redness and heat in ball of great toe,0.5,1
+nervous palpitation,rheumatic and arthritic pains in hip joints,0.5,1
+nervous palpitation,drawing pain in small of back,0.5,1
+nervous palpitation,inflammation of periosteum,0.5,1
+nervous palpitation,soreness of neck from least cold,0.5,1
+nervous palpitation,syphilitic nodes on shin bones,0.5,1
+nervous palpitation,syphilitic bone pains,0.5,1
+nervous palpitation,tearing pains in bones of legs worse at night,0.5,1
+nervous palpitation,rheumatic pains in limbs from taking cold,0.5,1
+nervous palpitation,rheumatic pains in legs and feet,0.5,1
+nervous palpitation,soreness along periosteum of tibia,0.5,1
+nervous palpitation,tension and pressure pain in right hip,0.5,1
+nervous palpitation,syphilitic rheumatism of arms and fingers,0.5,1
+inflammation of periosteum,stitches in patella,1.0,1
+inflammation of periosteum,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+inflammation of periosteum,drawing pains in arms and hands,1.0,1
+inflammation of periosteum,neuralgic pains especially back,1.0,1
+inflammation of periosteum,stiff neck,1.0,1
+inflammation of periosteum,stinging pains in swollen finger joints,1.0,1
+inflammation of periosteum,sticking as from splinters worse by touch,1.0,1
+inflammation of periosteum,heart beat intermits every fourth beat,1.0,1
+inflammation of periosteum,pains in back extending down thighs,1.0,1
+inflammation of periosteum,rheumatic pains in left hand with a powerless feeling,1.0,1
+inflammation of periosteum,pain across buttock causing limping,1.0,1
+inflammation of periosteum,palpitation with anguish,1.0,1
+inflammation of periosteum,contraction of joints,1.0,1
+inflammation of periosteum,cracking in ankle when walking,1.0,1
+inflammation of periosteum,after the abuse of mercury,1.0,1
+inflammation of periosteum,bruised aching pain in right shoulder and arm,1.0,1
+inflammation of periosteum,sticking pain,1.0,1
+inflammation of periosteum,stitches in sacral region,1.0,1
+inflammation of periosteum,can lie only on abdomen,1.0,1
+inflammation of periosteum,cramp-like stiffness of back and body,1.0,1
+inflammation of periosteum,diseases showing marked syphilitic or scrofulous states,1.0,1
+inflammation of periosteum,drawing pain in all the limbs,1.0,1
+inflammation of periosteum,nightly pains,1.0,1
+inflammation of periosteum,painful in knees as if leg were swollen,1.0,1
+inflammation of periosteum,rheumatic pains in forearms and fingers,1.0,1
+inflammation of periosteum,redness and heat in ball of great toe,1.0,1
+inflammation of periosteum,rheumatic and arthritic pains in hip joints,1.0,1
+inflammation of periosteum,drawing pain in small of back,1.0,1
+inflammation of periosteum,soreness of neck from least cold,1.0,1
+inflammation of periosteum,syphilitic nodes on shin bones,1.0,1
+inflammation of periosteum,syphilitic bone pains,1.0,1
+inflammation of periosteum,tearing pains in bones of legs worse at night,1.0,1
+inflammation of periosteum,rheumatic pains in limbs from taking cold,1.0,1
+inflammation of periosteum,rheumatic pains in legs and feet,1.0,1
+inflammation of periosteum,soreness along periosteum of tibia,1.0,1
+inflammation of periosteum,nervous palpitation,1.0,1
+inflammation of periosteum,tension and pressure pain in right hip,1.0,1
+inflammation of periosteum,syphilitic rheumatism of arms and fingers,1.0,1
+stitches in sacral region,stitches in patella,1.0,1
+stitches in sacral region,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+stitches in sacral region,drawing pains in arms and hands,1.0,1
+stitches in sacral region,neuralgic pains especially back,1.0,1
+stitches in sacral region,stiff neck,1.0,1
+stitches in sacral region,stinging pains in swollen finger joints,1.0,1
+stitches in sacral region,sticking as from splinters worse by touch,1.0,1
+stitches in sacral region,heart beat intermits every fourth beat,1.0,1
+stitches in sacral region,pains in back extending down thighs,1.0,1
+stitches in sacral region,rheumatic pains in left hand with a powerless feeling,1.0,1
+stitches in sacral region,pain across buttock causing limping,1.0,1
+stitches in sacral region,palpitation with anguish,1.0,1
+stitches in sacral region,contraction of joints,1.0,1
+stitches in sacral region,cracking in ankle when walking,1.0,1
+stitches in sacral region,after the abuse of mercury,1.0,1
+stitches in sacral region,bruised aching pain in right shoulder and arm,1.0,1
+stitches in sacral region,sticking pain,1.0,1
+stitches in sacral region,can lie only on abdomen,1.0,1
+stitches in sacral region,cramp-like stiffness of back and body,1.0,1
+stitches in sacral region,diseases showing marked syphilitic or scrofulous states,1.0,1
+stitches in sacral region,drawing pain in all the limbs,1.0,1
+stitches in sacral region,nightly pains,1.0,1
+stitches in sacral region,painful in knees as if leg were swollen,1.0,1
+stitches in sacral region,rheumatic pains in forearms and fingers,1.0,1
+stitches in sacral region,redness and heat in ball of great toe,1.0,1
+stitches in sacral region,rheumatic and arthritic pains in hip joints,1.0,1
+stitches in sacral region,drawing pain in small of back,1.0,1
+stitches in sacral region,inflammation of periosteum,1.0,1
+stitches in sacral region,soreness of neck from least cold,1.0,1
+stitches in sacral region,syphilitic nodes on shin bones,1.0,1
+stitches in sacral region,syphilitic bone pains,1.0,1
+stitches in sacral region,tearing pains in bones of legs worse at night,1.0,1
+stitches in sacral region,rheumatic pains in limbs from taking cold,1.0,1
+stitches in sacral region,rheumatic pains in legs and feet,1.0,1
+stitches in sacral region,soreness along periosteum of tibia,1.0,1
+stitches in sacral region,nervous palpitation,1.0,1
+stitches in sacral region,tension and pressure pain in right hip,1.0,1
+stitches in sacral region,syphilitic rheumatism of arms and fingers,1.0,1
+drawing pain in small of back,stitches in patella,1.0,1
+drawing pain in small of back,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+drawing pain in small of back,drawing pains in arms and hands,1.0,1
+drawing pain in small of back,neuralgic pains especially back,1.0,1
+drawing pain in small of back,stiff neck,1.0,1
+drawing pain in small of back,stinging pains in swollen finger joints,1.0,1
+drawing pain in small of back,sticking as from splinters worse by touch,1.0,1
+drawing pain in small of back,heart beat intermits every fourth beat,1.0,1
+drawing pain in small of back,pains in back extending down thighs,1.0,1
+drawing pain in small of back,rheumatic pains in left hand with a powerless feeling,1.0,1
+drawing pain in small of back,pain across buttock causing limping,1.0,1
+drawing pain in small of back,palpitation with anguish,1.0,1
+drawing pain in small of back,contraction of joints,1.0,1
+drawing pain in small of back,cracking in ankle when walking,1.0,1
+drawing pain in small of back,after the abuse of mercury,1.0,1
+drawing pain in small of back,bruised aching pain in right shoulder and arm,1.0,1
+drawing pain in small of back,sticking pain,1.0,1
+drawing pain in small of back,stitches in sacral region,1.0,1
+drawing pain in small of back,can lie only on abdomen,1.0,1
+drawing pain in small of back,cramp-like stiffness of back and body,1.0,1
+drawing pain in small of back,diseases showing marked syphilitic or scrofulous states,1.0,1
+drawing pain in small of back,drawing pain in all the limbs,1.0,1
+drawing pain in small of back,nightly pains,1.0,1
+drawing pain in small of back,painful in knees as if leg were swollen,1.0,1
+drawing pain in small of back,rheumatic pains in forearms and fingers,1.0,1
+drawing pain in small of back,redness and heat in ball of great toe,1.0,1
+drawing pain in small of back,rheumatic and arthritic pains in hip joints,1.0,1
+drawing pain in small of back,inflammation of periosteum,1.0,1
+drawing pain in small of back,soreness of neck from least cold,1.0,1
+drawing pain in small of back,syphilitic nodes on shin bones,1.0,1
+drawing pain in small of back,syphilitic bone pains,1.0,1
+drawing pain in small of back,tearing pains in bones of legs worse at night,1.0,1
+drawing pain in small of back,rheumatic pains in limbs from taking cold,1.0,1
+drawing pain in small of back,rheumatic pains in legs and feet,1.0,1
+drawing pain in small of back,soreness along periosteum of tibia,1.0,1
+drawing pain in small of back,nervous palpitation,1.0,1
+drawing pain in small of back,tension and pressure pain in right hip,1.0,1
+drawing pain in small of back,syphilitic rheumatism of arms and fingers,1.0,1
+redness and heat in ball of great toe,stitches in patella,1.0,1
+redness and heat in ball of great toe,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+redness and heat in ball of great toe,drawing pains in arms and hands,1.0,1
+redness and heat in ball of great toe,neuralgic pains especially back,1.0,1
+redness and heat in ball of great toe,stiff neck,1.0,1
+redness and heat in ball of great toe,stinging pains in swollen finger joints,1.0,1
+redness and heat in ball of great toe,sticking as from splinters worse by touch,1.0,1
+redness and heat in ball of great toe,heart beat intermits every fourth beat,1.0,1
+redness and heat in ball of great toe,pains in back extending down thighs,1.0,1
+redness and heat in ball of great toe,rheumatic pains in left hand with a powerless feeling,1.0,1
+redness and heat in ball of great toe,pain across buttock causing limping,1.0,1
+redness and heat in ball of great toe,palpitation with anguish,1.0,1
+redness and heat in ball of great toe,contraction of joints,1.0,1
+redness and heat in ball of great toe,cracking in ankle when walking,1.0,1
+redness and heat in ball of great toe,after the abuse of mercury,1.0,1
+redness and heat in ball of great toe,bruised aching pain in right shoulder and arm,1.0,1
+redness and heat in ball of great toe,sticking pain,1.0,1
+redness and heat in ball of great toe,stitches in sacral region,1.0,1
+redness and heat in ball of great toe,can lie only on abdomen,1.0,1
+redness and heat in ball of great toe,cramp-like stiffness of back and body,1.0,1
+redness and heat in ball of great toe,diseases showing marked syphilitic or scrofulous states,1.0,1
+redness and heat in ball of great toe,drawing pain in all the limbs,1.0,1
+redness and heat in ball of great toe,nightly pains,1.0,1
+redness and heat in ball of great toe,painful in knees as if leg were swollen,1.0,1
+redness and heat in ball of great toe,rheumatic pains in forearms and fingers,1.0,1
+redness and heat in ball of great toe,rheumatic and arthritic pains in hip joints,1.0,1
+redness and heat in ball of great toe,drawing pain in small of back,1.0,1
+redness and heat in ball of great toe,inflammation of periosteum,1.0,1
+redness and heat in ball of great toe,soreness of neck from least cold,1.0,1
+redness and heat in ball of great toe,syphilitic nodes on shin bones,1.0,1
+redness and heat in ball of great toe,syphilitic bone pains,1.0,1
+redness and heat in ball of great toe,tearing pains in bones of legs worse at night,1.0,1
+redness and heat in ball of great toe,rheumatic pains in limbs from taking cold,1.0,1
+redness and heat in ball of great toe,rheumatic pains in legs and feet,1.0,1
+redness and heat in ball of great toe,soreness along periosteum of tibia,1.0,1
+redness and heat in ball of great toe,nervous palpitation,1.0,1
+redness and heat in ball of great toe,tension and pressure pain in right hip,1.0,1
+redness and heat in ball of great toe,syphilitic rheumatism of arms and fingers,1.0,1
+pains in back extending down thighs,stitches in patella,1.0,1
+pains in back extending down thighs,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+pains in back extending down thighs,drawing pains in arms and hands,1.0,1
+pains in back extending down thighs,neuralgic pains especially back,1.0,1
+pains in back extending down thighs,stiff neck,1.0,1
+pains in back extending down thighs,stinging pains in swollen finger joints,1.0,1
+pains in back extending down thighs,sticking as from splinters worse by touch,1.0,1
+pains in back extending down thighs,heart beat intermits every fourth beat,1.0,1
+pains in back extending down thighs,rheumatic pains in left hand with a powerless feeling,1.0,1
+pains in back extending down thighs,pain across buttock causing limping,1.0,1
+pains in back extending down thighs,palpitation with anguish,1.0,1
+pains in back extending down thighs,contraction of joints,1.0,1
+pains in back extending down thighs,cracking in ankle when walking,1.0,1
+pains in back extending down thighs,after the abuse of mercury,1.0,1
+pains in back extending down thighs,bruised aching pain in right shoulder and arm,1.0,1
+pains in back extending down thighs,sticking pain,1.0,1
+pains in back extending down thighs,stitches in sacral region,1.0,1
+pains in back extending down thighs,can lie only on abdomen,1.0,1
+pains in back extending down thighs,cramp-like stiffness of back and body,1.0,1
+pains in back extending down thighs,diseases showing marked syphilitic or scrofulous states,1.0,1
+pains in back extending down thighs,drawing pain in all the limbs,1.0,1
+pains in back extending down thighs,nightly pains,1.0,1
+pains in back extending down thighs,painful in knees as if leg were swollen,1.0,1
+pains in back extending down thighs,rheumatic pains in forearms and fingers,1.0,1
+pains in back extending down thighs,redness and heat in ball of great toe,1.0,1
+pains in back extending down thighs,rheumatic and arthritic pains in hip joints,1.0,1
+pains in back extending down thighs,drawing pain in small of back,1.0,1
+pains in back extending down thighs,inflammation of periosteum,1.0,1
+pains in back extending down thighs,soreness of neck from least cold,1.0,1
+pains in back extending down thighs,syphilitic nodes on shin bones,1.0,1
+pains in back extending down thighs,syphilitic bone pains,1.0,1
+pains in back extending down thighs,tearing pains in bones of legs worse at night,1.0,1
+pains in back extending down thighs,rheumatic pains in limbs from taking cold,1.0,1
+pains in back extending down thighs,rheumatic pains in legs and feet,1.0,1
+pains in back extending down thighs,soreness along periosteum of tibia,1.0,1
+pains in back extending down thighs,nervous palpitation,1.0,1
+pains in back extending down thighs,tension and pressure pain in right hip,1.0,1
+pains in back extending down thighs,syphilitic rheumatism of arms and fingers,1.0,1
+stinging pains in swollen finger joints,stitches in patella,1.0,1
+stinging pains in swollen finger joints,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+stinging pains in swollen finger joints,drawing pains in arms and hands,1.0,1
+stinging pains in swollen finger joints,neuralgic pains especially back,1.0,1
+stinging pains in swollen finger joints,stiff neck,1.0,1
+stinging pains in swollen finger joints,sticking as from splinters worse by touch,1.0,1
+stinging pains in swollen finger joints,heart beat intermits every fourth beat,1.0,1
+stinging pains in swollen finger joints,pains in back extending down thighs,1.0,1
+stinging pains in swollen finger joints,rheumatic pains in left hand with a powerless feeling,1.0,1
+stinging pains in swollen finger joints,pain across buttock causing limping,1.0,1
+stinging pains in swollen finger joints,palpitation with anguish,1.0,1
+stinging pains in swollen finger joints,contraction of joints,1.0,1
+stinging pains in swollen finger joints,cracking in ankle when walking,1.0,1
+stinging pains in swollen finger joints,after the abuse of mercury,1.0,1
+stinging pains in swollen finger joints,bruised aching pain in right shoulder and arm,1.0,1
+stinging pains in swollen finger joints,sticking pain,1.0,1
+stinging pains in swollen finger joints,stitches in sacral region,1.0,1
+stinging pains in swollen finger joints,can lie only on abdomen,1.0,1
+stinging pains in swollen finger joints,cramp-like stiffness of back and body,1.0,1
+stinging pains in swollen finger joints,diseases showing marked syphilitic or scrofulous states,1.0,1
+stinging pains in swollen finger joints,drawing pain in all the limbs,1.0,1
+stinging pains in swollen finger joints,nightly pains,1.0,1
+stinging pains in swollen finger joints,painful in knees as if leg were swollen,1.0,1
+stinging pains in swollen finger joints,rheumatic pains in forearms and fingers,1.0,1
+stinging pains in swollen finger joints,redness and heat in ball of great toe,1.0,1
+stinging pains in swollen finger joints,rheumatic and arthritic pains in hip joints,1.0,1
+stinging pains in swollen finger joints,drawing pain in small of back,1.0,1
+stinging pains in swollen finger joints,inflammation of periosteum,1.0,1
+stinging pains in swollen finger joints,soreness of neck from least cold,1.0,1
+stinging pains in swollen finger joints,syphilitic nodes on shin bones,1.0,1
+stinging pains in swollen finger joints,syphilitic bone pains,1.0,1
+stinging pains in swollen finger joints,tearing pains in bones of legs worse at night,1.0,1
+stinging pains in swollen finger joints,rheumatic pains in limbs from taking cold,1.0,1
+stinging pains in swollen finger joints,rheumatic pains in legs and feet,1.0,1
+stinging pains in swollen finger joints,soreness along periosteum of tibia,1.0,1
+stinging pains in swollen finger joints,nervous palpitation,1.0,1
+stinging pains in swollen finger joints,tension and pressure pain in right hip,1.0,1
+stinging pains in swollen finger joints,syphilitic rheumatism of arms and fingers,1.0,1
+soreness along periosteum of tibia,stitches in patella,1.0,1
+soreness along periosteum of tibia,deep-seated gnawing pains in bones and tendons of legs,1.0,1
+soreness along periosteum of tibia,drawing pains in arms and hands,1.0,1
+soreness along periosteum of tibia,neuralgic pains especially back,1.0,1
+soreness along periosteum of tibia,stiff neck,1.0,1
+soreness along periosteum of tibia,stinging pains in swollen finger joints,1.0,1
+soreness along periosteum of tibia,sticking as from splinters worse by touch,1.0,1
+soreness along periosteum of tibia,heart beat intermits every fourth beat,1.0,1
+soreness along periosteum of tibia,pains in back extending down thighs,1.0,1
+soreness along periosteum of tibia,rheumatic pains in left hand with a powerless feeling,1.0,1
+soreness along periosteum of tibia,pain across buttock causing limping,1.0,1
+soreness along periosteum of tibia,palpitation with anguish,1.0,1
+soreness along periosteum of tibia,contraction of joints,1.0,1
+soreness along periosteum of tibia,cracking in ankle when walking,1.0,1
+soreness along periosteum of tibia,after the abuse of mercury,1.0,1
+soreness along periosteum of tibia,bruised aching pain in right shoulder and arm,1.0,1
+soreness along periosteum of tibia,sticking pain,1.0,1
+soreness along periosteum of tibia,stitches in sacral region,1.0,1
+soreness along periosteum of tibia,can lie only on abdomen,1.0,1
+soreness along periosteum of tibia,cramp-like stiffness of back and body,1.0,1
+soreness along periosteum of tibia,diseases showing marked syphilitic or scrofulous states,1.0,1
+soreness along periosteum of tibia,drawing pain in all the limbs,1.0,1
+soreness along periosteum of tibia,nightly pains,1.0,1
+soreness along periosteum of tibia,painful in knees as if leg were swollen,1.0,1
+soreness along periosteum of tibia,rheumatic pains in forearms and fingers,1.0,1
+soreness along periosteum of tibia,redness and heat in ball of great toe,1.0,1
+soreness along periosteum of tibia,rheumatic and arthritic pains in hip joints,1.0,1
+soreness along periosteum of tibia,drawing pain in small of back,1.0,1
+soreness along periosteum of tibia,inflammation of periosteum,1.0,1
+soreness along periosteum of tibia,soreness of neck from least cold,1.0,1
+soreness along periosteum of tibia,syphilitic nodes on shin bones,1.0,1
+soreness along periosteum of tibia,syphilitic bone pains,1.0,1
+soreness along periosteum of tibia,tearing pains in bones of legs worse at night,1.0,1
+soreness along periosteum of tibia,rheumatic pains in limbs from taking cold,1.0,1
+soreness along periosteum of tibia,rheumatic pains in legs and feet,1.0,1
+soreness along periosteum of tibia,nervous palpitation,1.0,1
+soreness along periosteum of tibia,tension and pressure pain in right hip,1.0,1
+soreness along periosteum of tibia,syphilitic rheumatism of arms and fingers,1.0,1

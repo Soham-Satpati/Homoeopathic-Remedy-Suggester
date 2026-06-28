@@ -1,0 +1,1532 @@
+### Cluster 46 — Symptoms (39)
+Symptom,Frequency
+tearing pain in right arm,2
+cramps in legs nightly,1
+tearing in hips,1
+loss of muscular power in small of back,1
+menorrhagia,1
+numb legs,1
+muscle spasm,1
+tearing pains in right hands,1
+nervous temperaments with hysteria,1
+left lower limbs most affected,1
+tearing in nates,1
+painful tension in lumbar muscles,1
+tearing pains in right elbow,1
+spasmodic cough,1
+tearing pains in right hip joint,2
+sexual dysfunction,1
+sprained sensation in right shoulder,1
+tearing in left shoulder joint,1
+dull kidney pain,1
+contraction in right thigh,1
+rheumatic pains in right back side,1
+cramps in hands when grasping,1
+cramps in calves nightly,1
+tearing in ankles,1
+lancinating in thumb tips,1
+weak fingers at night,1
+tearing rheumatic pains in all limbs,1
+burning in left scapula,1
+lancinating in finger tips,1
+tearing pains in right shoulder,1
+gouty pains in left great toe,1
+drawing in thumbs,1
+stitches in small of back,2
+right upper limbs most affected,1
+tearing pain in left leg,1
+tearing pains in right forearm,1
+weary limbs,1
+tearing in thumb tips,1
+hysterical,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+ambra grisea,39
+chelidonium,1
+niccolum,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+tearing rheumatic pains in all limbs,cramps in legs nightly,1.0,1
+tearing rheumatic pains in all limbs,tearing in hips,1.0,1
+tearing rheumatic pains in all limbs,loss of muscular power in small of back,1.0,1
+tearing rheumatic pains in all limbs,menorrhagia,1.0,1
+tearing rheumatic pains in all limbs,numb legs,1.0,1
+tearing rheumatic pains in all limbs,muscle spasm,1.0,1
+tearing rheumatic pains in all limbs,tearing pains in right hands,1.0,1
+tearing rheumatic pains in all limbs,nervous temperaments with hysteria,1.0,1
+tearing rheumatic pains in all limbs,left lower limbs most affected,1.0,1
+tearing rheumatic pains in all limbs,tearing in nates,1.0,1
+tearing rheumatic pains in all limbs,painful tension in lumbar muscles,1.0,1
+tearing rheumatic pains in all limbs,tearing pains in right elbow,1.0,1
+tearing rheumatic pains in all limbs,spasmodic cough,1.0,1
+tearing rheumatic pains in all limbs,tearing pains in right hip joint,1.0,1
+tearing rheumatic pains in all limbs,sexual dysfunction,1.0,1
+tearing rheumatic pains in all limbs,sprained sensation in right shoulder,1.0,1
+tearing rheumatic pains in all limbs,tearing pain in right arm,1.0,1
+tearing rheumatic pains in all limbs,tearing in left shoulder joint,1.0,1
+tearing rheumatic pains in all limbs,dull kidney pain,1.0,1
+tearing rheumatic pains in all limbs,contraction in right thigh,1.0,1
+tearing rheumatic pains in all limbs,rheumatic pains in right back side,1.0,1
+tearing rheumatic pains in all limbs,cramps in hands when grasping,1.0,1
+tearing rheumatic pains in all limbs,cramps in calves nightly,1.0,1
+tearing rheumatic pains in all limbs,tearing in ankles,1.0,1
+tearing rheumatic pains in all limbs,lancinating in thumb tips,1.0,1
+tearing rheumatic pains in all limbs,weak fingers at night,1.0,1
+tearing rheumatic pains in all limbs,burning in left scapula,1.0,1
+tearing rheumatic pains in all limbs,lancinating in finger tips,1.0,1
+tearing rheumatic pains in all limbs,tearing pains in right shoulder,1.0,1
+tearing rheumatic pains in all limbs,gouty pains in left great toe,1.0,1
+tearing rheumatic pains in all limbs,drawing in thumbs,1.0,1
+tearing rheumatic pains in all limbs,stitches in small of back,1.0,1
+tearing rheumatic pains in all limbs,right upper limbs most affected,1.0,1
+tearing rheumatic pains in all limbs,tearing pain in left leg,1.0,1
+tearing rheumatic pains in all limbs,tearing pains in right forearm,1.0,1
+tearing rheumatic pains in all limbs,weary limbs,1.0,1
+tearing rheumatic pains in all limbs,tearing in thumb tips,1.0,1
+tearing rheumatic pains in all limbs,hysterical,1.0,1
+loss of muscular power in small of back,cramps in legs nightly,1.0,1
+loss of muscular power in small of back,tearing in hips,1.0,1
+loss of muscular power in small of back,menorrhagia,1.0,1
+loss of muscular power in small of back,numb legs,1.0,1
+loss of muscular power in small of back,muscle spasm,1.0,1
+loss of muscular power in small of back,tearing pains in right hands,1.0,1
+loss of muscular power in small of back,nervous temperaments with hysteria,1.0,1
+loss of muscular power in small of back,left lower limbs most affected,1.0,1
+loss of muscular power in small of back,tearing in nates,1.0,1
+loss of muscular power in small of back,painful tension in lumbar muscles,1.0,1
+loss of muscular power in small of back,tearing pains in right elbow,1.0,1
+loss of muscular power in small of back,spasmodic cough,1.0,1
+loss of muscular power in small of back,tearing pains in right hip joint,1.0,1
+loss of muscular power in small of back,sexual dysfunction,1.0,1
+loss of muscular power in small of back,sprained sensation in right shoulder,1.0,1
+loss of muscular power in small of back,tearing pain in right arm,1.0,1
+loss of muscular power in small of back,tearing in left shoulder joint,1.0,1
+loss of muscular power in small of back,dull kidney pain,1.0,1
+loss of muscular power in small of back,contraction in right thigh,1.0,1
+loss of muscular power in small of back,rheumatic pains in right back side,1.0,1
+loss of muscular power in small of back,cramps in hands when grasping,1.0,1
+loss of muscular power in small of back,cramps in calves nightly,1.0,1
+loss of muscular power in small of back,tearing in ankles,1.0,1
+loss of muscular power in small of back,lancinating in thumb tips,1.0,1
+loss of muscular power in small of back,weak fingers at night,1.0,1
+loss of muscular power in small of back,tearing rheumatic pains in all limbs,1.0,1
+loss of muscular power in small of back,burning in left scapula,1.0,1
+loss of muscular power in small of back,lancinating in finger tips,1.0,1
+loss of muscular power in small of back,tearing pains in right shoulder,1.0,1
+loss of muscular power in small of back,gouty pains in left great toe,1.0,1
+loss of muscular power in small of back,drawing in thumbs,1.0,1
+loss of muscular power in small of back,stitches in small of back,1.0,1
+loss of muscular power in small of back,right upper limbs most affected,1.0,1
+loss of muscular power in small of back,tearing pain in left leg,1.0,1
+loss of muscular power in small of back,tearing pains in right forearm,1.0,1
+loss of muscular power in small of back,weary limbs,1.0,1
+loss of muscular power in small of back,tearing in thumb tips,1.0,1
+loss of muscular power in small of back,hysterical,1.0,1
+tearing in nates,cramps in legs nightly,1.0,1
+tearing in nates,tearing in hips,1.0,1
+tearing in nates,loss of muscular power in small of back,1.0,1
+tearing in nates,menorrhagia,1.0,1
+tearing in nates,numb legs,1.0,1
+tearing in nates,muscle spasm,1.0,1
+tearing in nates,tearing pains in right hands,1.0,1
+tearing in nates,nervous temperaments with hysteria,1.0,1
+tearing in nates,left lower limbs most affected,1.0,1
+tearing in nates,painful tension in lumbar muscles,1.0,1
+tearing in nates,tearing pains in right elbow,1.0,1
+tearing in nates,spasmodic cough,1.0,1
+tearing in nates,tearing pains in right hip joint,1.0,1
+tearing in nates,sexual dysfunction,1.0,1
+tearing in nates,sprained sensation in right shoulder,1.0,1
+tearing in nates,tearing pain in right arm,1.0,1
+tearing in nates,tearing in left shoulder joint,1.0,1
+tearing in nates,dull kidney pain,1.0,1
+tearing in nates,contraction in right thigh,1.0,1
+tearing in nates,rheumatic pains in right back side,1.0,1
+tearing in nates,cramps in hands when grasping,1.0,1
+tearing in nates,cramps in calves nightly,1.0,1
+tearing in nates,tearing in ankles,1.0,1
+tearing in nates,lancinating in thumb tips,1.0,1
+tearing in nates,weak fingers at night,1.0,1
+tearing in nates,tearing rheumatic pains in all limbs,1.0,1
+tearing in nates,burning in left scapula,1.0,1
+tearing in nates,lancinating in finger tips,1.0,1
+tearing in nates,tearing pains in right shoulder,1.0,1
+tearing in nates,gouty pains in left great toe,1.0,1
+tearing in nates,drawing in thumbs,1.0,1
+tearing in nates,stitches in small of back,1.0,1
+tearing in nates,right upper limbs most affected,1.0,1
+tearing in nates,tearing pain in left leg,1.0,1
+tearing in nates,tearing pains in right forearm,1.0,1
+tearing in nates,weary limbs,1.0,1
+tearing in nates,tearing in thumb tips,1.0,1
+tearing in nates,hysterical,1.0,1
+painful tension in lumbar muscles,cramps in legs nightly,1.0,1
+painful tension in lumbar muscles,tearing in hips,1.0,1
+painful tension in lumbar muscles,loss of muscular power in small of back,1.0,1
+painful tension in lumbar muscles,menorrhagia,1.0,1
+painful tension in lumbar muscles,numb legs,1.0,1
+painful tension in lumbar muscles,muscle spasm,1.0,1
+painful tension in lumbar muscles,tearing pains in right hands,1.0,1
+painful tension in lumbar muscles,nervous temperaments with hysteria,1.0,1
+painful tension in lumbar muscles,left lower limbs most affected,1.0,1
+painful tension in lumbar muscles,tearing in nates,1.0,1
+painful tension in lumbar muscles,tearing pains in right elbow,1.0,1
+painful tension in lumbar muscles,spasmodic cough,1.0,1
+painful tension in lumbar muscles,tearing pains in right hip joint,1.0,1
+painful tension in lumbar muscles,sexual dysfunction,1.0,1
+painful tension in lumbar muscles,sprained sensation in right shoulder,1.0,1
+painful tension in lumbar muscles,tearing pain in right arm,1.0,1
+painful tension in lumbar muscles,tearing in left shoulder joint,1.0,1
+painful tension in lumbar muscles,dull kidney pain,1.0,1
+painful tension in lumbar muscles,contraction in right thigh,1.0,1
+painful tension in lumbar muscles,rheumatic pains in right back side,1.0,1
+painful tension in lumbar muscles,cramps in hands when grasping,1.0,1
+painful tension in lumbar muscles,cramps in calves nightly,1.0,1
+painful tension in lumbar muscles,tearing in ankles,1.0,1
+painful tension in lumbar muscles,lancinating in thumb tips,1.0,1
+painful tension in lumbar muscles,weak fingers at night,1.0,1
+painful tension in lumbar muscles,tearing rheumatic pains in all limbs,1.0,1
+painful tension in lumbar muscles,burning in left scapula,1.0,1
+painful tension in lumbar muscles,lancinating in finger tips,1.0,1
+painful tension in lumbar muscles,tearing pains in right shoulder,1.0,1
+painful tension in lumbar muscles,gouty pains in left great toe,1.0,1
+painful tension in lumbar muscles,drawing in thumbs,1.0,1
+painful tension in lumbar muscles,stitches in small of back,1.0,1
+painful tension in lumbar muscles,right upper limbs most affected,1.0,1
+painful tension in lumbar muscles,tearing pain in left leg,1.0,1
+painful tension in lumbar muscles,tearing pains in right forearm,1.0,1
+painful tension in lumbar muscles,weary limbs,1.0,1
+painful tension in lumbar muscles,tearing in thumb tips,1.0,1
+painful tension in lumbar muscles,hysterical,1.0,1
+tearing pains in right elbow,cramps in legs nightly,1.0,1
+tearing pains in right elbow,tearing in hips,1.0,1
+tearing pains in right elbow,loss of muscular power in small of back,1.0,1
+tearing pains in right elbow,menorrhagia,1.0,1
+tearing pains in right elbow,numb legs,1.0,1
+tearing pains in right elbow,muscle spasm,1.0,1
+tearing pains in right elbow,tearing pains in right hands,1.0,1
+tearing pains in right elbow,nervous temperaments with hysteria,1.0,1
+tearing pains in right elbow,left lower limbs most affected,1.0,1
+tearing pains in right elbow,tearing in nates,1.0,1
+tearing pains in right elbow,painful tension in lumbar muscles,1.0,1
+tearing pains in right elbow,spasmodic cough,1.0,1
+tearing pains in right elbow,tearing pains in right hip joint,1.0,1
+tearing pains in right elbow,sexual dysfunction,1.0,1
+tearing pains in right elbow,sprained sensation in right shoulder,1.0,1
+tearing pains in right elbow,tearing pain in right arm,1.0,1
+tearing pains in right elbow,tearing in left shoulder joint,1.0,1
+tearing pains in right elbow,dull kidney pain,1.0,1
+tearing pains in right elbow,contraction in right thigh,1.0,1
+tearing pains in right elbow,rheumatic pains in right back side,1.0,1
+tearing pains in right elbow,cramps in hands when grasping,1.0,1
+tearing pains in right elbow,cramps in calves nightly,1.0,1
+tearing pains in right elbow,tearing in ankles,1.0,1
+tearing pains in right elbow,lancinating in thumb tips,1.0,1
+tearing pains in right elbow,weak fingers at night,1.0,1
+tearing pains in right elbow,tearing rheumatic pains in all limbs,1.0,1
+tearing pains in right elbow,burning in left scapula,1.0,1
+tearing pains in right elbow,lancinating in finger tips,1.0,1
+tearing pains in right elbow,tearing pains in right shoulder,1.0,1
+tearing pains in right elbow,gouty pains in left great toe,1.0,1
+tearing pains in right elbow,drawing in thumbs,1.0,1
+tearing pains in right elbow,stitches in small of back,1.0,1
+tearing pains in right elbow,right upper limbs most affected,1.0,1
+tearing pains in right elbow,tearing pain in left leg,1.0,1
+tearing pains in right elbow,tearing pains in right forearm,1.0,1
+tearing pains in right elbow,weary limbs,1.0,1
+tearing pains in right elbow,tearing in thumb tips,1.0,1
+tearing pains in right elbow,hysterical,1.0,1
+weary limbs,cramps in legs nightly,1.0,1
+weary limbs,tearing in hips,1.0,1
+weary limbs,loss of muscular power in small of back,1.0,1
+weary limbs,menorrhagia,1.0,1
+weary limbs,numb legs,1.0,1
+weary limbs,muscle spasm,1.0,1
+weary limbs,tearing pains in right hands,1.0,1
+weary limbs,nervous temperaments with hysteria,1.0,1
+weary limbs,left lower limbs most affected,1.0,1
+weary limbs,tearing in nates,1.0,1
+weary limbs,painful tension in lumbar muscles,1.0,1
+weary limbs,tearing pains in right elbow,1.0,1
+weary limbs,spasmodic cough,1.0,1
+weary limbs,tearing pains in right hip joint,1.0,1
+weary limbs,sexual dysfunction,1.0,1
+weary limbs,sprained sensation in right shoulder,1.0,1
+weary limbs,tearing pain in right arm,1.0,1
+weary limbs,tearing in left shoulder joint,1.0,1
+weary limbs,dull kidney pain,1.0,1
+weary limbs,contraction in right thigh,1.0,1
+weary limbs,rheumatic pains in right back side,1.0,1
+weary limbs,cramps in hands when grasping,1.0,1
+weary limbs,cramps in calves nightly,1.0,1
+weary limbs,tearing in ankles,1.0,1
+weary limbs,lancinating in thumb tips,1.0,1
+weary limbs,weak fingers at night,1.0,1
+weary limbs,tearing rheumatic pains in all limbs,1.0,1
+weary limbs,burning in left scapula,1.0,1
+weary limbs,lancinating in finger tips,1.0,1
+weary limbs,tearing pains in right shoulder,1.0,1
+weary limbs,gouty pains in left great toe,1.0,1
+weary limbs,drawing in thumbs,1.0,1
+weary limbs,stitches in small of back,1.0,1
+weary limbs,right upper limbs most affected,1.0,1
+weary limbs,tearing pain in left leg,1.0,1
+weary limbs,tearing pains in right forearm,1.0,1
+weary limbs,tearing in thumb tips,1.0,1
+weary limbs,hysterical,1.0,1
+tearing pains in right shoulder,cramps in legs nightly,1.0,1
+tearing pains in right shoulder,tearing in hips,1.0,1
+tearing pains in right shoulder,loss of muscular power in small of back,1.0,1
+tearing pains in right shoulder,menorrhagia,1.0,1
+tearing pains in right shoulder,numb legs,1.0,1
+tearing pains in right shoulder,muscle spasm,1.0,1
+tearing pains in right shoulder,tearing pains in right hands,1.0,1
+tearing pains in right shoulder,nervous temperaments with hysteria,1.0,1
+tearing pains in right shoulder,left lower limbs most affected,1.0,1
+tearing pains in right shoulder,tearing in nates,1.0,1
+tearing pains in right shoulder,painful tension in lumbar muscles,1.0,1
+tearing pains in right shoulder,tearing pains in right elbow,1.0,1
+tearing pains in right shoulder,spasmodic cough,1.0,1
+tearing pains in right shoulder,tearing pains in right hip joint,1.0,1
+tearing pains in right shoulder,sexual dysfunction,1.0,1
+tearing pains in right shoulder,sprained sensation in right shoulder,1.0,1
+tearing pains in right shoulder,tearing pain in right arm,1.0,1
+tearing pains in right shoulder,tearing in left shoulder joint,1.0,1
+tearing pains in right shoulder,dull kidney pain,1.0,1
+tearing pains in right shoulder,contraction in right thigh,1.0,1
+tearing pains in right shoulder,rheumatic pains in right back side,1.0,1
+tearing pains in right shoulder,cramps in hands when grasping,1.0,1
+tearing pains in right shoulder,cramps in calves nightly,1.0,1
+tearing pains in right shoulder,tearing in ankles,1.0,1
+tearing pains in right shoulder,lancinating in thumb tips,1.0,1
+tearing pains in right shoulder,weak fingers at night,1.0,1
+tearing pains in right shoulder,tearing rheumatic pains in all limbs,1.0,1
+tearing pains in right shoulder,burning in left scapula,1.0,1
+tearing pains in right shoulder,lancinating in finger tips,1.0,1
+tearing pains in right shoulder,gouty pains in left great toe,1.0,1
+tearing pains in right shoulder,drawing in thumbs,1.0,1
+tearing pains in right shoulder,stitches in small of back,1.0,1
+tearing pains in right shoulder,right upper limbs most affected,1.0,1
+tearing pains in right shoulder,tearing pain in left leg,1.0,1
+tearing pains in right shoulder,tearing pains in right forearm,1.0,1
+tearing pains in right shoulder,weary limbs,1.0,1
+tearing pains in right shoulder,tearing in thumb tips,1.0,1
+tearing pains in right shoulder,hysterical,1.0,1
+contraction in right thigh,cramps in legs nightly,1.0,1
+contraction in right thigh,tearing in hips,1.0,1
+contraction in right thigh,loss of muscular power in small of back,1.0,1
+contraction in right thigh,menorrhagia,1.0,1
+contraction in right thigh,numb legs,1.0,1
+contraction in right thigh,muscle spasm,1.0,1
+contraction in right thigh,tearing pains in right hands,1.0,1
+contraction in right thigh,nervous temperaments with hysteria,1.0,1
+contraction in right thigh,left lower limbs most affected,1.0,1
+contraction in right thigh,tearing in nates,1.0,1
+contraction in right thigh,painful tension in lumbar muscles,1.0,1
+contraction in right thigh,tearing pains in right elbow,1.0,1
+contraction in right thigh,spasmodic cough,1.0,1
+contraction in right thigh,tearing pains in right hip joint,1.0,1
+contraction in right thigh,sexual dysfunction,1.0,1
+contraction in right thigh,sprained sensation in right shoulder,1.0,1
+contraction in right thigh,tearing pain in right arm,1.0,1
+contraction in right thigh,tearing in left shoulder joint,1.0,1
+contraction in right thigh,dull kidney pain,1.0,1
+contraction in right thigh,rheumatic pains in right back side,1.0,1
+contraction in right thigh,cramps in hands when grasping,1.0,1
+contraction in right thigh,cramps in calves nightly,1.0,1
+contraction in right thigh,tearing in ankles,1.0,1
+contraction in right thigh,lancinating in thumb tips,1.0,1
+contraction in right thigh,weak fingers at night,1.0,1
+contraction in right thigh,tearing rheumatic pains in all limbs,1.0,1
+contraction in right thigh,burning in left scapula,1.0,1
+contraction in right thigh,lancinating in finger tips,1.0,1
+contraction in right thigh,tearing pains in right shoulder,1.0,1
+contraction in right thigh,gouty pains in left great toe,1.0,1
+contraction in right thigh,drawing in thumbs,1.0,1
+contraction in right thigh,stitches in small of back,1.0,1
+contraction in right thigh,right upper limbs most affected,1.0,1
+contraction in right thigh,tearing pain in left leg,1.0,1
+contraction in right thigh,tearing pains in right forearm,1.0,1
+contraction in right thigh,weary limbs,1.0,1
+contraction in right thigh,tearing in thumb tips,1.0,1
+contraction in right thigh,hysterical,1.0,1
+cramps in calves nightly,cramps in legs nightly,1.0,1
+cramps in calves nightly,tearing in hips,1.0,1
+cramps in calves nightly,loss of muscular power in small of back,1.0,1
+cramps in calves nightly,menorrhagia,1.0,1
+cramps in calves nightly,numb legs,1.0,1
+cramps in calves nightly,muscle spasm,1.0,1
+cramps in calves nightly,tearing pains in right hands,1.0,1
+cramps in calves nightly,nervous temperaments with hysteria,1.0,1
+cramps in calves nightly,left lower limbs most affected,1.0,1
+cramps in calves nightly,tearing in nates,1.0,1
+cramps in calves nightly,painful tension in lumbar muscles,1.0,1
+cramps in calves nightly,tearing pains in right elbow,1.0,1
+cramps in calves nightly,spasmodic cough,1.0,1
+cramps in calves nightly,tearing pains in right hip joint,1.0,1
+cramps in calves nightly,sexual dysfunction,1.0,1
+cramps in calves nightly,sprained sensation in right shoulder,1.0,1
+cramps in calves nightly,tearing pain in right arm,1.0,1
+cramps in calves nightly,tearing in left shoulder joint,1.0,1
+cramps in calves nightly,dull kidney pain,1.0,1
+cramps in calves nightly,contraction in right thigh,1.0,1
+cramps in calves nightly,rheumatic pains in right back side,1.0,1
+cramps in calves nightly,cramps in hands when grasping,1.0,1
+cramps in calves nightly,tearing in ankles,1.0,1
+cramps in calves nightly,lancinating in thumb tips,1.0,1
+cramps in calves nightly,weak fingers at night,1.0,1
+cramps in calves nightly,tearing rheumatic pains in all limbs,1.0,1
+cramps in calves nightly,burning in left scapula,1.0,1
+cramps in calves nightly,lancinating in finger tips,1.0,1
+cramps in calves nightly,tearing pains in right shoulder,1.0,1
+cramps in calves nightly,gouty pains in left great toe,1.0,1
+cramps in calves nightly,drawing in thumbs,1.0,1
+cramps in calves nightly,stitches in small of back,1.0,1
+cramps in calves nightly,right upper limbs most affected,1.0,1
+cramps in calves nightly,tearing pain in left leg,1.0,1
+cramps in calves nightly,tearing pains in right forearm,1.0,1
+cramps in calves nightly,weary limbs,1.0,1
+cramps in calves nightly,tearing in thumb tips,1.0,1
+cramps in calves nightly,hysterical,1.0,1
+weak fingers at night,cramps in legs nightly,1.0,1
+weak fingers at night,tearing in hips,1.0,1
+weak fingers at night,loss of muscular power in small of back,1.0,1
+weak fingers at night,menorrhagia,1.0,1
+weak fingers at night,numb legs,1.0,1
+weak fingers at night,muscle spasm,1.0,1
+weak fingers at night,tearing pains in right hands,1.0,1
+weak fingers at night,nervous temperaments with hysteria,1.0,1
+weak fingers at night,left lower limbs most affected,1.0,1
+weak fingers at night,tearing in nates,1.0,1
+weak fingers at night,painful tension in lumbar muscles,1.0,1
+weak fingers at night,tearing pains in right elbow,1.0,1
+weak fingers at night,spasmodic cough,1.0,1
+weak fingers at night,tearing pains in right hip joint,1.0,1
+weak fingers at night,sexual dysfunction,1.0,1
+weak fingers at night,sprained sensation in right shoulder,1.0,1
+weak fingers at night,tearing pain in right arm,1.0,1
+weak fingers at night,tearing in left shoulder joint,1.0,1
+weak fingers at night,dull kidney pain,1.0,1
+weak fingers at night,contraction in right thigh,1.0,1
+weak fingers at night,rheumatic pains in right back side,1.0,1
+weak fingers at night,cramps in hands when grasping,1.0,1
+weak fingers at night,cramps in calves nightly,1.0,1
+weak fingers at night,tearing in ankles,1.0,1
+weak fingers at night,lancinating in thumb tips,1.0,1
+weak fingers at night,tearing rheumatic pains in all limbs,1.0,1
+weak fingers at night,burning in left scapula,1.0,1
+weak fingers at night,lancinating in finger tips,1.0,1
+weak fingers at night,tearing pains in right shoulder,1.0,1
+weak fingers at night,gouty pains in left great toe,1.0,1
+weak fingers at night,drawing in thumbs,1.0,1
+weak fingers at night,stitches in small of back,1.0,1
+weak fingers at night,right upper limbs most affected,1.0,1
+weak fingers at night,tearing pain in left leg,1.0,1
+weak fingers at night,tearing pains in right forearm,1.0,1
+weak fingers at night,weary limbs,1.0,1
+weak fingers at night,tearing in thumb tips,1.0,1
+weak fingers at night,hysterical,1.0,1
+menorrhagia,cramps in legs nightly,1.0,1
+menorrhagia,tearing in hips,1.0,1
+menorrhagia,loss of muscular power in small of back,1.0,1
+menorrhagia,numb legs,1.0,1
+menorrhagia,muscle spasm,1.0,1
+menorrhagia,tearing pains in right hands,1.0,1
+menorrhagia,nervous temperaments with hysteria,1.0,1
+menorrhagia,left lower limbs most affected,1.0,1
+menorrhagia,tearing in nates,1.0,1
+menorrhagia,painful tension in lumbar muscles,1.0,1
+menorrhagia,tearing pains in right elbow,1.0,1
+menorrhagia,spasmodic cough,1.0,1
+menorrhagia,tearing pains in right hip joint,1.0,1
+menorrhagia,sexual dysfunction,1.0,1
+menorrhagia,sprained sensation in right shoulder,1.0,1
+menorrhagia,tearing pain in right arm,1.0,1
+menorrhagia,tearing in left shoulder joint,1.0,1
+menorrhagia,dull kidney pain,1.0,1
+menorrhagia,contraction in right thigh,1.0,1
+menorrhagia,rheumatic pains in right back side,1.0,1
+menorrhagia,cramps in hands when grasping,1.0,1
+menorrhagia,cramps in calves nightly,1.0,1
+menorrhagia,tearing in ankles,1.0,1
+menorrhagia,lancinating in thumb tips,1.0,1
+menorrhagia,weak fingers at night,1.0,1
+menorrhagia,tearing rheumatic pains in all limbs,1.0,1
+menorrhagia,burning in left scapula,1.0,1
+menorrhagia,lancinating in finger tips,1.0,1
+menorrhagia,tearing pains in right shoulder,1.0,1
+menorrhagia,gouty pains in left great toe,1.0,1
+menorrhagia,drawing in thumbs,1.0,1
+menorrhagia,stitches in small of back,1.0,1
+menorrhagia,right upper limbs most affected,1.0,1
+menorrhagia,tearing pain in left leg,1.0,1
+menorrhagia,tearing pains in right forearm,1.0,1
+menorrhagia,weary limbs,1.0,1
+menorrhagia,tearing in thumb tips,1.0,1
+menorrhagia,hysterical,1.0,1
+dull kidney pain,cramps in legs nightly,1.0,1
+dull kidney pain,tearing in hips,1.0,1
+dull kidney pain,loss of muscular power in small of back,1.0,1
+dull kidney pain,menorrhagia,1.0,1
+dull kidney pain,numb legs,1.0,1
+dull kidney pain,muscle spasm,1.0,1
+dull kidney pain,tearing pains in right hands,1.0,1
+dull kidney pain,nervous temperaments with hysteria,1.0,1
+dull kidney pain,left lower limbs most affected,1.0,1
+dull kidney pain,tearing in nates,1.0,1
+dull kidney pain,painful tension in lumbar muscles,1.0,1
+dull kidney pain,tearing pains in right elbow,1.0,1
+dull kidney pain,spasmodic cough,1.0,1
+dull kidney pain,tearing pains in right hip joint,1.0,1
+dull kidney pain,sexual dysfunction,1.0,1
+dull kidney pain,sprained sensation in right shoulder,1.0,1
+dull kidney pain,tearing pain in right arm,1.0,1
+dull kidney pain,tearing in left shoulder joint,1.0,1
+dull kidney pain,contraction in right thigh,1.0,1
+dull kidney pain,rheumatic pains in right back side,1.0,1
+dull kidney pain,cramps in hands when grasping,1.0,1
+dull kidney pain,cramps in calves nightly,1.0,1
+dull kidney pain,tearing in ankles,1.0,1
+dull kidney pain,lancinating in thumb tips,1.0,1
+dull kidney pain,weak fingers at night,1.0,1
+dull kidney pain,tearing rheumatic pains in all limbs,1.0,1
+dull kidney pain,burning in left scapula,1.0,1
+dull kidney pain,lancinating in finger tips,1.0,1
+dull kidney pain,tearing pains in right shoulder,1.0,1
+dull kidney pain,gouty pains in left great toe,1.0,1
+dull kidney pain,drawing in thumbs,1.0,1
+dull kidney pain,stitches in small of back,1.0,1
+dull kidney pain,right upper limbs most affected,1.0,1
+dull kidney pain,tearing pain in left leg,1.0,1
+dull kidney pain,tearing pains in right forearm,1.0,1
+dull kidney pain,weary limbs,1.0,1
+dull kidney pain,tearing in thumb tips,1.0,1
+dull kidney pain,hysterical,1.0,1
+tearing pain in right arm,cramps in legs nightly,0.5,1
+tearing pain in right arm,tearing in hips,0.5,1
+tearing pain in right arm,loss of muscular power in small of back,0.5,1
+tearing pain in right arm,menorrhagia,0.5,1
+tearing pain in right arm,numb legs,0.5,1
+tearing pain in right arm,muscle spasm,0.5,1
+tearing pain in right arm,tearing pains in right hands,0.5,1
+tearing pain in right arm,nervous temperaments with hysteria,0.5,1
+tearing pain in right arm,left lower limbs most affected,0.5,1
+tearing pain in right arm,tearing in nates,0.5,1
+tearing pain in right arm,painful tension in lumbar muscles,0.5,1
+tearing pain in right arm,tearing pains in right elbow,0.5,1
+tearing pain in right arm,spasmodic cough,0.5,1
+tearing pain in right arm,tearing pains in right hip joint,0.5,1
+tearing pain in right arm,sexual dysfunction,0.5,1
+tearing pain in right arm,sprained sensation in right shoulder,0.5,1
+tearing pain in right arm,tearing in left shoulder joint,0.5,1
+tearing pain in right arm,dull kidney pain,0.5,1
+tearing pain in right arm,contraction in right thigh,0.5,1
+tearing pain in right arm,rheumatic pains in right back side,0.5,1
+tearing pain in right arm,cramps in hands when grasping,0.5,1
+tearing pain in right arm,cramps in calves nightly,0.5,1
+tearing pain in right arm,tearing in ankles,0.5,1
+tearing pain in right arm,lancinating in thumb tips,0.5,1
+tearing pain in right arm,weak fingers at night,0.5,1
+tearing pain in right arm,tearing rheumatic pains in all limbs,0.5,1
+tearing pain in right arm,burning in left scapula,0.5,1
+tearing pain in right arm,lancinating in finger tips,0.5,1
+tearing pain in right arm,tearing pains in right shoulder,0.5,1
+tearing pain in right arm,gouty pains in left great toe,0.5,1
+tearing pain in right arm,drawing in thumbs,0.5,1
+tearing pain in right arm,stitches in small of back,0.5,1
+tearing pain in right arm,right upper limbs most affected,0.5,1
+tearing pain in right arm,tearing pain in left leg,0.5,1
+tearing pain in right arm,tearing pains in right forearm,0.5,1
+tearing pain in right arm,weary limbs,0.5,1
+tearing pain in right arm,tearing in thumb tips,0.5,1
+tearing pain in right arm,hysterical,0.5,1
+cramps in legs nightly,tearing in hips,1.0,1
+cramps in legs nightly,loss of muscular power in small of back,1.0,1
+cramps in legs nightly,menorrhagia,1.0,1
+cramps in legs nightly,numb legs,1.0,1
+cramps in legs nightly,muscle spasm,1.0,1
+cramps in legs nightly,tearing pains in right hands,1.0,1
+cramps in legs nightly,nervous temperaments with hysteria,1.0,1
+cramps in legs nightly,left lower limbs most affected,1.0,1
+cramps in legs nightly,tearing in nates,1.0,1
+cramps in legs nightly,painful tension in lumbar muscles,1.0,1
+cramps in legs nightly,tearing pains in right elbow,1.0,1
+cramps in legs nightly,spasmodic cough,1.0,1
+cramps in legs nightly,tearing pains in right hip joint,1.0,1
+cramps in legs nightly,sexual dysfunction,1.0,1
+cramps in legs nightly,sprained sensation in right shoulder,1.0,1
+cramps in legs nightly,tearing pain in right arm,1.0,1
+cramps in legs nightly,tearing in left shoulder joint,1.0,1
+cramps in legs nightly,dull kidney pain,1.0,1
+cramps in legs nightly,contraction in right thigh,1.0,1
+cramps in legs nightly,rheumatic pains in right back side,1.0,1
+cramps in legs nightly,cramps in hands when grasping,1.0,1
+cramps in legs nightly,cramps in calves nightly,1.0,1
+cramps in legs nightly,tearing in ankles,1.0,1
+cramps in legs nightly,lancinating in thumb tips,1.0,1
+cramps in legs nightly,weak fingers at night,1.0,1
+cramps in legs nightly,tearing rheumatic pains in all limbs,1.0,1
+cramps in legs nightly,burning in left scapula,1.0,1
+cramps in legs nightly,lancinating in finger tips,1.0,1
+cramps in legs nightly,tearing pains in right shoulder,1.0,1
+cramps in legs nightly,gouty pains in left great toe,1.0,1
+cramps in legs nightly,drawing in thumbs,1.0,1
+cramps in legs nightly,stitches in small of back,1.0,1
+cramps in legs nightly,right upper limbs most affected,1.0,1
+cramps in legs nightly,tearing pain in left leg,1.0,1
+cramps in legs nightly,tearing pains in right forearm,1.0,1
+cramps in legs nightly,weary limbs,1.0,1
+cramps in legs nightly,tearing in thumb tips,1.0,1
+cramps in legs nightly,hysterical,1.0,1
+lancinating in thumb tips,cramps in legs nightly,1.0,1
+lancinating in thumb tips,tearing in hips,1.0,1
+lancinating in thumb tips,loss of muscular power in small of back,1.0,1
+lancinating in thumb tips,menorrhagia,1.0,1
+lancinating in thumb tips,numb legs,1.0,1
+lancinating in thumb tips,muscle spasm,1.0,1
+lancinating in thumb tips,tearing pains in right hands,1.0,1
+lancinating in thumb tips,nervous temperaments with hysteria,1.0,1
+lancinating in thumb tips,left lower limbs most affected,1.0,1
+lancinating in thumb tips,tearing in nates,1.0,1
+lancinating in thumb tips,painful tension in lumbar muscles,1.0,1
+lancinating in thumb tips,tearing pains in right elbow,1.0,1
+lancinating in thumb tips,spasmodic cough,1.0,1
+lancinating in thumb tips,tearing pains in right hip joint,1.0,1
+lancinating in thumb tips,sexual dysfunction,1.0,1
+lancinating in thumb tips,sprained sensation in right shoulder,1.0,1
+lancinating in thumb tips,tearing pain in right arm,1.0,1
+lancinating in thumb tips,tearing in left shoulder joint,1.0,1
+lancinating in thumb tips,dull kidney pain,1.0,1
+lancinating in thumb tips,contraction in right thigh,1.0,1
+lancinating in thumb tips,rheumatic pains in right back side,1.0,1
+lancinating in thumb tips,cramps in hands when grasping,1.0,1
+lancinating in thumb tips,cramps in calves nightly,1.0,1
+lancinating in thumb tips,tearing in ankles,1.0,1
+lancinating in thumb tips,weak fingers at night,1.0,1
+lancinating in thumb tips,tearing rheumatic pains in all limbs,1.0,1
+lancinating in thumb tips,burning in left scapula,1.0,1
+lancinating in thumb tips,lancinating in finger tips,1.0,1
+lancinating in thumb tips,tearing pains in right shoulder,1.0,1
+lancinating in thumb tips,gouty pains in left great toe,1.0,1
+lancinating in thumb tips,drawing in thumbs,1.0,1
+lancinating in thumb tips,stitches in small of back,1.0,1
+lancinating in thumb tips,right upper limbs most affected,1.0,1
+lancinating in thumb tips,tearing pain in left leg,1.0,1
+lancinating in thumb tips,tearing pains in right forearm,1.0,1
+lancinating in thumb tips,weary limbs,1.0,1
+lancinating in thumb tips,tearing in thumb tips,1.0,1
+lancinating in thumb tips,hysterical,1.0,1
+cramps in hands when grasping,cramps in legs nightly,1.0,1
+cramps in hands when grasping,tearing in hips,1.0,1
+cramps in hands when grasping,loss of muscular power in small of back,1.0,1
+cramps in hands when grasping,menorrhagia,1.0,1
+cramps in hands when grasping,numb legs,1.0,1
+cramps in hands when grasping,muscle spasm,1.0,1
+cramps in hands when grasping,tearing pains in right hands,1.0,1
+cramps in hands when grasping,nervous temperaments with hysteria,1.0,1
+cramps in hands when grasping,left lower limbs most affected,1.0,1
+cramps in hands when grasping,tearing in nates,1.0,1
+cramps in hands when grasping,painful tension in lumbar muscles,1.0,1
+cramps in hands when grasping,tearing pains in right elbow,1.0,1
+cramps in hands when grasping,spasmodic cough,1.0,1
+cramps in hands when grasping,tearing pains in right hip joint,1.0,1
+cramps in hands when grasping,sexual dysfunction,1.0,1
+cramps in hands when grasping,sprained sensation in right shoulder,1.0,1
+cramps in hands when grasping,tearing pain in right arm,1.0,1
+cramps in hands when grasping,tearing in left shoulder joint,1.0,1
+cramps in hands when grasping,dull kidney pain,1.0,1
+cramps in hands when grasping,contraction in right thigh,1.0,1
+cramps in hands when grasping,rheumatic pains in right back side,1.0,1
+cramps in hands when grasping,cramps in calves nightly,1.0,1
+cramps in hands when grasping,tearing in ankles,1.0,1
+cramps in hands when grasping,lancinating in thumb tips,1.0,1
+cramps in hands when grasping,weak fingers at night,1.0,1
+cramps in hands when grasping,tearing rheumatic pains in all limbs,1.0,1
+cramps in hands when grasping,burning in left scapula,1.0,1
+cramps in hands when grasping,lancinating in finger tips,1.0,1
+cramps in hands when grasping,tearing pains in right shoulder,1.0,1
+cramps in hands when grasping,gouty pains in left great toe,1.0,1
+cramps in hands when grasping,drawing in thumbs,1.0,1
+cramps in hands when grasping,stitches in small of back,1.0,1
+cramps in hands when grasping,right upper limbs most affected,1.0,1
+cramps in hands when grasping,tearing pain in left leg,1.0,1
+cramps in hands when grasping,tearing pains in right forearm,1.0,1
+cramps in hands when grasping,weary limbs,1.0,1
+cramps in hands when grasping,tearing in thumb tips,1.0,1
+cramps in hands when grasping,hysterical,1.0,1
+burning in left scapula,cramps in legs nightly,1.0,1
+burning in left scapula,tearing in hips,1.0,1
+burning in left scapula,loss of muscular power in small of back,1.0,1
+burning in left scapula,menorrhagia,1.0,1
+burning in left scapula,numb legs,1.0,1
+burning in left scapula,muscle spasm,1.0,1
+burning in left scapula,tearing pains in right hands,1.0,1
+burning in left scapula,nervous temperaments with hysteria,1.0,1
+burning in left scapula,left lower limbs most affected,1.0,1
+burning in left scapula,tearing in nates,1.0,1
+burning in left scapula,painful tension in lumbar muscles,1.0,1
+burning in left scapula,tearing pains in right elbow,1.0,1
+burning in left scapula,spasmodic cough,1.0,1
+burning in left scapula,tearing pains in right hip joint,1.0,1
+burning in left scapula,sexual dysfunction,1.0,1
+burning in left scapula,sprained sensation in right shoulder,1.0,1
+burning in left scapula,tearing pain in right arm,1.0,1
+burning in left scapula,tearing in left shoulder joint,1.0,1
+burning in left scapula,dull kidney pain,1.0,1
+burning in left scapula,contraction in right thigh,1.0,1
+burning in left scapula,rheumatic pains in right back side,1.0,1
+burning in left scapula,cramps in hands when grasping,1.0,1
+burning in left scapula,cramps in calves nightly,1.0,1
+burning in left scapula,tearing in ankles,1.0,1
+burning in left scapula,lancinating in thumb tips,1.0,1
+burning in left scapula,weak fingers at night,1.0,1
+burning in left scapula,tearing rheumatic pains in all limbs,1.0,1
+burning in left scapula,lancinating in finger tips,1.0,1
+burning in left scapula,tearing pains in right shoulder,1.0,1
+burning in left scapula,gouty pains in left great toe,1.0,1
+burning in left scapula,drawing in thumbs,1.0,1
+burning in left scapula,stitches in small of back,1.0,1
+burning in left scapula,right upper limbs most affected,1.0,1
+burning in left scapula,tearing pain in left leg,1.0,1
+burning in left scapula,tearing pains in right forearm,1.0,1
+burning in left scapula,weary limbs,1.0,1
+burning in left scapula,tearing in thumb tips,1.0,1
+burning in left scapula,hysterical,1.0,1
+sprained sensation in right shoulder,cramps in legs nightly,1.0,1
+sprained sensation in right shoulder,tearing in hips,1.0,1
+sprained sensation in right shoulder,loss of muscular power in small of back,1.0,1
+sprained sensation in right shoulder,menorrhagia,1.0,1
+sprained sensation in right shoulder,numb legs,1.0,1
+sprained sensation in right shoulder,muscle spasm,1.0,1
+sprained sensation in right shoulder,tearing pains in right hands,1.0,1
+sprained sensation in right shoulder,nervous temperaments with hysteria,1.0,1
+sprained sensation in right shoulder,left lower limbs most affected,1.0,1
+sprained sensation in right shoulder,tearing in nates,1.0,1
+sprained sensation in right shoulder,painful tension in lumbar muscles,1.0,1
+sprained sensation in right shoulder,tearing pains in right elbow,1.0,1
+sprained sensation in right shoulder,spasmodic cough,1.0,1
+sprained sensation in right shoulder,tearing pains in right hip joint,1.0,1
+sprained sensation in right shoulder,sexual dysfunction,1.0,1
+sprained sensation in right shoulder,tearing pain in right arm,1.0,1
+sprained sensation in right shoulder,tearing in left shoulder joint,1.0,1
+sprained sensation in right shoulder,dull kidney pain,1.0,1
+sprained sensation in right shoulder,contraction in right thigh,1.0,1
+sprained sensation in right shoulder,rheumatic pains in right back side,1.0,1
+sprained sensation in right shoulder,cramps in hands when grasping,1.0,1
+sprained sensation in right shoulder,cramps in calves nightly,1.0,1
+sprained sensation in right shoulder,tearing in ankles,1.0,1
+sprained sensation in right shoulder,lancinating in thumb tips,1.0,1
+sprained sensation in right shoulder,weak fingers at night,1.0,1
+sprained sensation in right shoulder,tearing rheumatic pains in all limbs,1.0,1
+sprained sensation in right shoulder,burning in left scapula,1.0,1
+sprained sensation in right shoulder,lancinating in finger tips,1.0,1
+sprained sensation in right shoulder,tearing pains in right shoulder,1.0,1
+sprained sensation in right shoulder,gouty pains in left great toe,1.0,1
+sprained sensation in right shoulder,drawing in thumbs,1.0,1
+sprained sensation in right shoulder,stitches in small of back,1.0,1
+sprained sensation in right shoulder,right upper limbs most affected,1.0,1
+sprained sensation in right shoulder,tearing pain in left leg,1.0,1
+sprained sensation in right shoulder,tearing pains in right forearm,1.0,1
+sprained sensation in right shoulder,weary limbs,1.0,1
+sprained sensation in right shoulder,tearing in thumb tips,1.0,1
+sprained sensation in right shoulder,hysterical,1.0,1
+right upper limbs most affected,cramps in legs nightly,1.0,1
+right upper limbs most affected,tearing in hips,1.0,1
+right upper limbs most affected,loss of muscular power in small of back,1.0,1
+right upper limbs most affected,menorrhagia,1.0,1
+right upper limbs most affected,numb legs,1.0,1
+right upper limbs most affected,muscle spasm,1.0,1
+right upper limbs most affected,tearing pains in right hands,1.0,1
+right upper limbs most affected,nervous temperaments with hysteria,1.0,1
+right upper limbs most affected,left lower limbs most affected,1.0,1
+right upper limbs most affected,tearing in nates,1.0,1
+right upper limbs most affected,painful tension in lumbar muscles,1.0,1
+right upper limbs most affected,tearing pains in right elbow,1.0,1
+right upper limbs most affected,spasmodic cough,1.0,1
+right upper limbs most affected,tearing pains in right hip joint,1.0,1
+right upper limbs most affected,sexual dysfunction,1.0,1
+right upper limbs most affected,sprained sensation in right shoulder,1.0,1
+right upper limbs most affected,tearing pain in right arm,1.0,1
+right upper limbs most affected,tearing in left shoulder joint,1.0,1
+right upper limbs most affected,dull kidney pain,1.0,1
+right upper limbs most affected,contraction in right thigh,1.0,1
+right upper limbs most affected,rheumatic pains in right back side,1.0,1
+right upper limbs most affected,cramps in hands when grasping,1.0,1
+right upper limbs most affected,cramps in calves nightly,1.0,1
+right upper limbs most affected,tearing in ankles,1.0,1
+right upper limbs most affected,lancinating in thumb tips,1.0,1
+right upper limbs most affected,weak fingers at night,1.0,1
+right upper limbs most affected,tearing rheumatic pains in all limbs,1.0,1
+right upper limbs most affected,burning in left scapula,1.0,1
+right upper limbs most affected,lancinating in finger tips,1.0,1
+right upper limbs most affected,tearing pains in right shoulder,1.0,1
+right upper limbs most affected,gouty pains in left great toe,1.0,1
+right upper limbs most affected,drawing in thumbs,1.0,1
+right upper limbs most affected,stitches in small of back,1.0,1
+right upper limbs most affected,tearing pain in left leg,1.0,1
+right upper limbs most affected,tearing pains in right forearm,1.0,1
+right upper limbs most affected,weary limbs,1.0,1
+right upper limbs most affected,tearing in thumb tips,1.0,1
+right upper limbs most affected,hysterical,1.0,1
+tearing in left shoulder joint,cramps in legs nightly,1.0,1
+tearing in left shoulder joint,tearing in hips,1.0,1
+tearing in left shoulder joint,loss of muscular power in small of back,1.0,1
+tearing in left shoulder joint,menorrhagia,1.0,1
+tearing in left shoulder joint,numb legs,1.0,1
+tearing in left shoulder joint,muscle spasm,1.0,1
+tearing in left shoulder joint,tearing pains in right hands,1.0,1
+tearing in left shoulder joint,nervous temperaments with hysteria,1.0,1
+tearing in left shoulder joint,left lower limbs most affected,1.0,1
+tearing in left shoulder joint,tearing in nates,1.0,1
+tearing in left shoulder joint,painful tension in lumbar muscles,1.0,1
+tearing in left shoulder joint,tearing pains in right elbow,1.0,1
+tearing in left shoulder joint,spasmodic cough,1.0,1
+tearing in left shoulder joint,tearing pains in right hip joint,1.0,1
+tearing in left shoulder joint,sexual dysfunction,1.0,1
+tearing in left shoulder joint,sprained sensation in right shoulder,1.0,1
+tearing in left shoulder joint,tearing pain in right arm,1.0,1
+tearing in left shoulder joint,dull kidney pain,1.0,1
+tearing in left shoulder joint,contraction in right thigh,1.0,1
+tearing in left shoulder joint,rheumatic pains in right back side,1.0,1
+tearing in left shoulder joint,cramps in hands when grasping,1.0,1
+tearing in left shoulder joint,cramps in calves nightly,1.0,1
+tearing in left shoulder joint,tearing in ankles,1.0,1
+tearing in left shoulder joint,lancinating in thumb tips,1.0,1
+tearing in left shoulder joint,weak fingers at night,1.0,1
+tearing in left shoulder joint,tearing rheumatic pains in all limbs,1.0,1
+tearing in left shoulder joint,burning in left scapula,1.0,1
+tearing in left shoulder joint,lancinating in finger tips,1.0,1
+tearing in left shoulder joint,tearing pains in right shoulder,1.0,1
+tearing in left shoulder joint,gouty pains in left great toe,1.0,1
+tearing in left shoulder joint,drawing in thumbs,1.0,1
+tearing in left shoulder joint,stitches in small of back,1.0,1
+tearing in left shoulder joint,right upper limbs most affected,1.0,1
+tearing in left shoulder joint,tearing pain in left leg,1.0,1
+tearing in left shoulder joint,tearing pains in right forearm,1.0,1
+tearing in left shoulder joint,weary limbs,1.0,1
+tearing in left shoulder joint,tearing in thumb tips,1.0,1
+tearing in left shoulder joint,hysterical,1.0,1
+sexual dysfunction,cramps in legs nightly,1.0,1
+sexual dysfunction,tearing in hips,1.0,1
+sexual dysfunction,loss of muscular power in small of back,1.0,1
+sexual dysfunction,menorrhagia,1.0,1
+sexual dysfunction,numb legs,1.0,1
+sexual dysfunction,muscle spasm,1.0,1
+sexual dysfunction,tearing pains in right hands,1.0,1
+sexual dysfunction,nervous temperaments with hysteria,1.0,1
+sexual dysfunction,left lower limbs most affected,1.0,1
+sexual dysfunction,tearing in nates,1.0,1
+sexual dysfunction,painful tension in lumbar muscles,1.0,1
+sexual dysfunction,tearing pains in right elbow,1.0,1
+sexual dysfunction,spasmodic cough,1.0,1
+sexual dysfunction,tearing pains in right hip joint,1.0,1
+sexual dysfunction,sprained sensation in right shoulder,1.0,1
+sexual dysfunction,tearing pain in right arm,1.0,1
+sexual dysfunction,tearing in left shoulder joint,1.0,1
+sexual dysfunction,dull kidney pain,1.0,1
+sexual dysfunction,contraction in right thigh,1.0,1
+sexual dysfunction,rheumatic pains in right back side,1.0,1
+sexual dysfunction,cramps in hands when grasping,1.0,1
+sexual dysfunction,cramps in calves nightly,1.0,1
+sexual dysfunction,tearing in ankles,1.0,1
+sexual dysfunction,lancinating in thumb tips,1.0,1
+sexual dysfunction,weak fingers at night,1.0,1
+sexual dysfunction,tearing rheumatic pains in all limbs,1.0,1
+sexual dysfunction,burning in left scapula,1.0,1
+sexual dysfunction,lancinating in finger tips,1.0,1
+sexual dysfunction,tearing pains in right shoulder,1.0,1
+sexual dysfunction,gouty pains in left great toe,1.0,1
+sexual dysfunction,drawing in thumbs,1.0,1
+sexual dysfunction,stitches in small of back,1.0,1
+sexual dysfunction,right upper limbs most affected,1.0,1
+sexual dysfunction,tearing pain in left leg,1.0,1
+sexual dysfunction,tearing pains in right forearm,1.0,1
+sexual dysfunction,weary limbs,1.0,1
+sexual dysfunction,tearing in thumb tips,1.0,1
+sexual dysfunction,hysterical,1.0,1
+rheumatic pains in right back side,cramps in legs nightly,1.0,1
+rheumatic pains in right back side,tearing in hips,1.0,1
+rheumatic pains in right back side,loss of muscular power in small of back,1.0,1
+rheumatic pains in right back side,menorrhagia,1.0,1
+rheumatic pains in right back side,numb legs,1.0,1
+rheumatic pains in right back side,muscle spasm,1.0,1
+rheumatic pains in right back side,tearing pains in right hands,1.0,1
+rheumatic pains in right back side,nervous temperaments with hysteria,1.0,1
+rheumatic pains in right back side,left lower limbs most affected,1.0,1
+rheumatic pains in right back side,tearing in nates,1.0,1
+rheumatic pains in right back side,painful tension in lumbar muscles,1.0,1
+rheumatic pains in right back side,tearing pains in right elbow,1.0,1
+rheumatic pains in right back side,spasmodic cough,1.0,1
+rheumatic pains in right back side,tearing pains in right hip joint,1.0,1
+rheumatic pains in right back side,sexual dysfunction,1.0,1
+rheumatic pains in right back side,sprained sensation in right shoulder,1.0,1
+rheumatic pains in right back side,tearing pain in right arm,1.0,1
+rheumatic pains in right back side,tearing in left shoulder joint,1.0,1
+rheumatic pains in right back side,dull kidney pain,1.0,1
+rheumatic pains in right back side,contraction in right thigh,1.0,1
+rheumatic pains in right back side,cramps in hands when grasping,1.0,1
+rheumatic pains in right back side,cramps in calves nightly,1.0,1
+rheumatic pains in right back side,tearing in ankles,1.0,1
+rheumatic pains in right back side,lancinating in thumb tips,1.0,1
+rheumatic pains in right back side,weak fingers at night,1.0,1
+rheumatic pains in right back side,tearing rheumatic pains in all limbs,1.0,1
+rheumatic pains in right back side,burning in left scapula,1.0,1
+rheumatic pains in right back side,lancinating in finger tips,1.0,1
+rheumatic pains in right back side,tearing pains in right shoulder,1.0,1
+rheumatic pains in right back side,gouty pains in left great toe,1.0,1
+rheumatic pains in right back side,drawing in thumbs,1.0,1
+rheumatic pains in right back side,stitches in small of back,1.0,1
+rheumatic pains in right back side,right upper limbs most affected,1.0,1
+rheumatic pains in right back side,tearing pain in left leg,1.0,1
+rheumatic pains in right back side,tearing pains in right forearm,1.0,1
+rheumatic pains in right back side,weary limbs,1.0,1
+rheumatic pains in right back side,tearing in thumb tips,1.0,1
+rheumatic pains in right back side,hysterical,1.0,1
+gouty pains in left great toe,cramps in legs nightly,1.0,1
+gouty pains in left great toe,tearing in hips,1.0,1
+gouty pains in left great toe,loss of muscular power in small of back,1.0,1
+gouty pains in left great toe,menorrhagia,1.0,1
+gouty pains in left great toe,numb legs,1.0,1
+gouty pains in left great toe,muscle spasm,1.0,1
+gouty pains in left great toe,tearing pains in right hands,1.0,1
+gouty pains in left great toe,nervous temperaments with hysteria,1.0,1
+gouty pains in left great toe,left lower limbs most affected,1.0,1
+gouty pains in left great toe,tearing in nates,1.0,1
+gouty pains in left great toe,painful tension in lumbar muscles,1.0,1
+gouty pains in left great toe,tearing pains in right elbow,1.0,1
+gouty pains in left great toe,spasmodic cough,1.0,1
+gouty pains in left great toe,tearing pains in right hip joint,1.0,1
+gouty pains in left great toe,sexual dysfunction,1.0,1
+gouty pains in left great toe,sprained sensation in right shoulder,1.0,1
+gouty pains in left great toe,tearing pain in right arm,1.0,1
+gouty pains in left great toe,tearing in left shoulder joint,1.0,1
+gouty pains in left great toe,dull kidney pain,1.0,1
+gouty pains in left great toe,contraction in right thigh,1.0,1
+gouty pains in left great toe,rheumatic pains in right back side,1.0,1
+gouty pains in left great toe,cramps in hands when grasping,1.0,1
+gouty pains in left great toe,cramps in calves nightly,1.0,1
+gouty pains in left great toe,tearing in ankles,1.0,1
+gouty pains in left great toe,lancinating in thumb tips,1.0,1
+gouty pains in left great toe,weak fingers at night,1.0,1
+gouty pains in left great toe,tearing rheumatic pains in all limbs,1.0,1
+gouty pains in left great toe,burning in left scapula,1.0,1
+gouty pains in left great toe,lancinating in finger tips,1.0,1
+gouty pains in left great toe,tearing pains in right shoulder,1.0,1
+gouty pains in left great toe,drawing in thumbs,1.0,1
+gouty pains in left great toe,stitches in small of back,1.0,1
+gouty pains in left great toe,right upper limbs most affected,1.0,1
+gouty pains in left great toe,tearing pain in left leg,1.0,1
+gouty pains in left great toe,tearing pains in right forearm,1.0,1
+gouty pains in left great toe,weary limbs,1.0,1
+gouty pains in left great toe,tearing in thumb tips,1.0,1
+gouty pains in left great toe,hysterical,1.0,1
+hysterical,cramps in legs nightly,1.0,1
+hysterical,tearing in hips,1.0,1
+hysterical,loss of muscular power in small of back,1.0,1
+hysterical,menorrhagia,1.0,1
+hysterical,numb legs,1.0,1
+hysterical,muscle spasm,1.0,1
+hysterical,tearing pains in right hands,1.0,1
+hysterical,nervous temperaments with hysteria,1.0,1
+hysterical,left lower limbs most affected,1.0,1
+hysterical,tearing in nates,1.0,1
+hysterical,painful tension in lumbar muscles,1.0,1
+hysterical,tearing pains in right elbow,1.0,1
+hysterical,spasmodic cough,1.0,1
+hysterical,tearing pains in right hip joint,1.0,1
+hysterical,sexual dysfunction,1.0,1
+hysterical,sprained sensation in right shoulder,1.0,1
+hysterical,tearing pain in right arm,1.0,1
+hysterical,tearing in left shoulder joint,1.0,1
+hysterical,dull kidney pain,1.0,1
+hysterical,contraction in right thigh,1.0,1
+hysterical,rheumatic pains in right back side,1.0,1
+hysterical,cramps in hands when grasping,1.0,1
+hysterical,cramps in calves nightly,1.0,1
+hysterical,tearing in ankles,1.0,1
+hysterical,lancinating in thumb tips,1.0,1
+hysterical,weak fingers at night,1.0,1
+hysterical,tearing rheumatic pains in all limbs,1.0,1
+hysterical,burning in left scapula,1.0,1
+hysterical,lancinating in finger tips,1.0,1
+hysterical,tearing pains in right shoulder,1.0,1
+hysterical,gouty pains in left great toe,1.0,1
+hysterical,drawing in thumbs,1.0,1
+hysterical,stitches in small of back,1.0,1
+hysterical,right upper limbs most affected,1.0,1
+hysterical,tearing pain in left leg,1.0,1
+hysterical,tearing pains in right forearm,1.0,1
+hysterical,weary limbs,1.0,1
+hysterical,tearing in thumb tips,1.0,1
+lancinating in finger tips,cramps in legs nightly,1.0,1
+lancinating in finger tips,tearing in hips,1.0,1
+lancinating in finger tips,loss of muscular power in small of back,1.0,1
+lancinating in finger tips,menorrhagia,1.0,1
+lancinating in finger tips,numb legs,1.0,1
+lancinating in finger tips,muscle spasm,1.0,1
+lancinating in finger tips,tearing pains in right hands,1.0,1
+lancinating in finger tips,nervous temperaments with hysteria,1.0,1
+lancinating in finger tips,left lower limbs most affected,1.0,1
+lancinating in finger tips,tearing in nates,1.0,1
+lancinating in finger tips,painful tension in lumbar muscles,1.0,1
+lancinating in finger tips,tearing pains in right elbow,1.0,1
+lancinating in finger tips,spasmodic cough,1.0,1
+lancinating in finger tips,tearing pains in right hip joint,1.0,1
+lancinating in finger tips,sexual dysfunction,1.0,1
+lancinating in finger tips,sprained sensation in right shoulder,1.0,1
+lancinating in finger tips,tearing pain in right arm,1.0,1
+lancinating in finger tips,tearing in left shoulder joint,1.0,1
+lancinating in finger tips,dull kidney pain,1.0,1
+lancinating in finger tips,contraction in right thigh,1.0,1
+lancinating in finger tips,rheumatic pains in right back side,1.0,1
+lancinating in finger tips,cramps in hands when grasping,1.0,1
+lancinating in finger tips,cramps in calves nightly,1.0,1
+lancinating in finger tips,tearing in ankles,1.0,1
+lancinating in finger tips,lancinating in thumb tips,1.0,1
+lancinating in finger tips,weak fingers at night,1.0,1
+lancinating in finger tips,tearing rheumatic pains in all limbs,1.0,1
+lancinating in finger tips,burning in left scapula,1.0,1
+lancinating in finger tips,tearing pains in right shoulder,1.0,1
+lancinating in finger tips,gouty pains in left great toe,1.0,1
+lancinating in finger tips,drawing in thumbs,1.0,1
+lancinating in finger tips,stitches in small of back,1.0,1
+lancinating in finger tips,right upper limbs most affected,1.0,1
+lancinating in finger tips,tearing pain in left leg,1.0,1
+lancinating in finger tips,tearing pains in right forearm,1.0,1
+lancinating in finger tips,weary limbs,1.0,1
+lancinating in finger tips,tearing in thumb tips,1.0,1
+lancinating in finger tips,hysterical,1.0,1
+muscle spasm,cramps in legs nightly,1.0,1
+muscle spasm,tearing in hips,1.0,1
+muscle spasm,loss of muscular power in small of back,1.0,1
+muscle spasm,menorrhagia,1.0,1
+muscle spasm,numb legs,1.0,1
+muscle spasm,tearing pains in right hands,1.0,1
+muscle spasm,nervous temperaments with hysteria,1.0,1
+muscle spasm,left lower limbs most affected,1.0,1
+muscle spasm,tearing in nates,1.0,1
+muscle spasm,painful tension in lumbar muscles,1.0,1
+muscle spasm,tearing pains in right elbow,1.0,1
+muscle spasm,spasmodic cough,1.0,1
+muscle spasm,tearing pains in right hip joint,1.0,1
+muscle spasm,sexual dysfunction,1.0,1
+muscle spasm,sprained sensation in right shoulder,1.0,1
+muscle spasm,tearing pain in right arm,1.0,1
+muscle spasm,tearing in left shoulder joint,1.0,1
+muscle spasm,dull kidney pain,1.0,1
+muscle spasm,contraction in right thigh,1.0,1
+muscle spasm,rheumatic pains in right back side,1.0,1
+muscle spasm,cramps in hands when grasping,1.0,1
+muscle spasm,cramps in calves nightly,1.0,1
+muscle spasm,tearing in ankles,1.0,1
+muscle spasm,lancinating in thumb tips,1.0,1
+muscle spasm,weak fingers at night,1.0,1
+muscle spasm,tearing rheumatic pains in all limbs,1.0,1
+muscle spasm,burning in left scapula,1.0,1
+muscle spasm,lancinating in finger tips,1.0,1
+muscle spasm,tearing pains in right shoulder,1.0,1
+muscle spasm,gouty pains in left great toe,1.0,1
+muscle spasm,drawing in thumbs,1.0,1
+muscle spasm,stitches in small of back,1.0,1
+muscle spasm,right upper limbs most affected,1.0,1
+muscle spasm,tearing pain in left leg,1.0,1
+muscle spasm,tearing pains in right forearm,1.0,1
+muscle spasm,weary limbs,1.0,1
+muscle spasm,tearing in thumb tips,1.0,1
+muscle spasm,hysterical,1.0,1
+numb legs,cramps in legs nightly,1.0,1
+numb legs,tearing in hips,1.0,1
+numb legs,loss of muscular power in small of back,1.0,1
+numb legs,menorrhagia,1.0,1
+numb legs,muscle spasm,1.0,1
+numb legs,tearing pains in right hands,1.0,1
+numb legs,nervous temperaments with hysteria,1.0,1
+numb legs,left lower limbs most affected,1.0,1
+numb legs,tearing in nates,1.0,1
+numb legs,painful tension in lumbar muscles,1.0,1
+numb legs,tearing pains in right elbow,1.0,1
+numb legs,spasmodic cough,1.0,1
+numb legs,tearing pains in right hip joint,1.0,1
+numb legs,sexual dysfunction,1.0,1
+numb legs,sprained sensation in right shoulder,1.0,1
+numb legs,tearing pain in right arm,1.0,1
+numb legs,tearing in left shoulder joint,1.0,1
+numb legs,dull kidney pain,1.0,1
+numb legs,contraction in right thigh,1.0,1
+numb legs,rheumatic pains in right back side,1.0,1
+numb legs,cramps in hands when grasping,1.0,1
+numb legs,cramps in calves nightly,1.0,1
+numb legs,tearing in ankles,1.0,1
+numb legs,lancinating in thumb tips,1.0,1
+numb legs,weak fingers at night,1.0,1
+numb legs,tearing rheumatic pains in all limbs,1.0,1
+numb legs,burning in left scapula,1.0,1
+numb legs,lancinating in finger tips,1.0,1
+numb legs,tearing pains in right shoulder,1.0,1
+numb legs,gouty pains in left great toe,1.0,1
+numb legs,drawing in thumbs,1.0,1
+numb legs,stitches in small of back,1.0,1
+numb legs,right upper limbs most affected,1.0,1
+numb legs,tearing pain in left leg,1.0,1
+numb legs,tearing pains in right forearm,1.0,1
+numb legs,weary limbs,1.0,1
+numb legs,tearing in thumb tips,1.0,1
+numb legs,hysterical,1.0,1
+stitches in small of back,cramps in legs nightly,0.5,1
+stitches in small of back,tearing in hips,0.5,1
+stitches in small of back,loss of muscular power in small of back,0.5,1
+stitches in small of back,menorrhagia,0.5,1
+stitches in small of back,numb legs,0.5,1
+stitches in small of back,muscle spasm,0.5,1
+stitches in small of back,tearing pains in right hands,0.5,1
+stitches in small of back,nervous temperaments with hysteria,0.5,1
+stitches in small of back,left lower limbs most affected,0.5,1
+stitches in small of back,tearing in nates,0.5,1
+stitches in small of back,painful tension in lumbar muscles,0.5,1
+stitches in small of back,tearing pains in right elbow,0.5,1
+stitches in small of back,spasmodic cough,0.5,1
+stitches in small of back,tearing pains in right hip joint,0.5,1
+stitches in small of back,sexual dysfunction,0.5,1
+stitches in small of back,sprained sensation in right shoulder,0.5,1
+stitches in small of back,tearing pain in right arm,0.5,1
+stitches in small of back,tearing in left shoulder joint,0.5,1
+stitches in small of back,dull kidney pain,0.5,1
+stitches in small of back,contraction in right thigh,0.5,1
+stitches in small of back,rheumatic pains in right back side,0.5,1
+stitches in small of back,cramps in hands when grasping,0.5,1
+stitches in small of back,cramps in calves nightly,0.5,1
+stitches in small of back,tearing in ankles,0.5,1
+stitches in small of back,lancinating in thumb tips,0.5,1
+stitches in small of back,weak fingers at night,0.5,1
+stitches in small of back,tearing rheumatic pains in all limbs,0.5,1
+stitches in small of back,burning in left scapula,0.5,1
+stitches in small of back,lancinating in finger tips,0.5,1
+stitches in small of back,tearing pains in right shoulder,0.5,1
+stitches in small of back,gouty pains in left great toe,0.5,1
+stitches in small of back,drawing in thumbs,0.5,1
+stitches in small of back,right upper limbs most affected,0.5,1
+stitches in small of back,tearing pain in left leg,0.5,1
+stitches in small of back,tearing pains in right forearm,0.5,1
+stitches in small of back,weary limbs,0.5,1
+stitches in small of back,tearing in thumb tips,0.5,1
+stitches in small of back,hysterical,0.5,1
+tearing pain in left leg,cramps in legs nightly,1.0,1
+tearing pain in left leg,tearing in hips,1.0,1
+tearing pain in left leg,loss of muscular power in small of back,1.0,1
+tearing pain in left leg,menorrhagia,1.0,1
+tearing pain in left leg,numb legs,1.0,1
+tearing pain in left leg,muscle spasm,1.0,1
+tearing pain in left leg,tearing pains in right hands,1.0,1
+tearing pain in left leg,nervous temperaments with hysteria,1.0,1
+tearing pain in left leg,left lower limbs most affected,1.0,1
+tearing pain in left leg,tearing in nates,1.0,1
+tearing pain in left leg,painful tension in lumbar muscles,1.0,1
+tearing pain in left leg,tearing pains in right elbow,1.0,1
+tearing pain in left leg,spasmodic cough,1.0,1
+tearing pain in left leg,tearing pains in right hip joint,1.0,1
+tearing pain in left leg,sexual dysfunction,1.0,1
+tearing pain in left leg,sprained sensation in right shoulder,1.0,1
+tearing pain in left leg,tearing pain in right arm,1.0,1
+tearing pain in left leg,tearing in left shoulder joint,1.0,1
+tearing pain in left leg,dull kidney pain,1.0,1
+tearing pain in left leg,contraction in right thigh,1.0,1
+tearing pain in left leg,rheumatic pains in right back side,1.0,1
+tearing pain in left leg,cramps in hands when grasping,1.0,1
+tearing pain in left leg,cramps in calves nightly,1.0,1
+tearing pain in left leg,tearing in ankles,1.0,1
+tearing pain in left leg,lancinating in thumb tips,1.0,1
+tearing pain in left leg,weak fingers at night,1.0,1
+tearing pain in left leg,tearing rheumatic pains in all limbs,1.0,1
+tearing pain in left leg,burning in left scapula,1.0,1
+tearing pain in left leg,lancinating in finger tips,1.0,1
+tearing pain in left leg,tearing pains in right shoulder,1.0,1
+tearing pain in left leg,gouty pains in left great toe,1.0,1
+tearing pain in left leg,drawing in thumbs,1.0,1
+tearing pain in left leg,stitches in small of back,1.0,1
+tearing pain in left leg,right upper limbs most affected,1.0,1
+tearing pain in left leg,tearing pains in right forearm,1.0,1
+tearing pain in left leg,weary limbs,1.0,1
+tearing pain in left leg,tearing in thumb tips,1.0,1
+tearing pain in left leg,hysterical,1.0,1
+nervous temperaments with hysteria,cramps in legs nightly,1.0,1
+nervous temperaments with hysteria,tearing in hips,1.0,1
+nervous temperaments with hysteria,loss of muscular power in small of back,1.0,1
+nervous temperaments with hysteria,menorrhagia,1.0,1
+nervous temperaments with hysteria,numb legs,1.0,1
+nervous temperaments with hysteria,muscle spasm,1.0,1
+nervous temperaments with hysteria,tearing pains in right hands,1.0,1
+nervous temperaments with hysteria,left lower limbs most affected,1.0,1
+nervous temperaments with hysteria,tearing in nates,1.0,1
+nervous temperaments with hysteria,painful tension in lumbar muscles,1.0,1
+nervous temperaments with hysteria,tearing pains in right elbow,1.0,1
+nervous temperaments with hysteria,spasmodic cough,1.0,1
+nervous temperaments with hysteria,tearing pains in right hip joint,1.0,1
+nervous temperaments with hysteria,sexual dysfunction,1.0,1
+nervous temperaments with hysteria,sprained sensation in right shoulder,1.0,1
+nervous temperaments with hysteria,tearing pain in right arm,1.0,1
+nervous temperaments with hysteria,tearing in left shoulder joint,1.0,1
+nervous temperaments with hysteria,dull kidney pain,1.0,1
+nervous temperaments with hysteria,contraction in right thigh,1.0,1
+nervous temperaments with hysteria,rheumatic pains in right back side,1.0,1
+nervous temperaments with hysteria,cramps in hands when grasping,1.0,1
+nervous temperaments with hysteria,cramps in calves nightly,1.0,1
+nervous temperaments with hysteria,tearing in ankles,1.0,1
+nervous temperaments with hysteria,lancinating in thumb tips,1.0,1
+nervous temperaments with hysteria,weak fingers at night,1.0,1
+nervous temperaments with hysteria,tearing rheumatic pains in all limbs,1.0,1
+nervous temperaments with hysteria,burning in left scapula,1.0,1
+nervous temperaments with hysteria,lancinating in finger tips,1.0,1
+nervous temperaments with hysteria,tearing pains in right shoulder,1.0,1
+nervous temperaments with hysteria,gouty pains in left great toe,1.0,1
+nervous temperaments with hysteria,drawing in thumbs,1.0,1
+nervous temperaments with hysteria,stitches in small of back,1.0,1
+nervous temperaments with hysteria,right upper limbs most affected,1.0,1
+nervous temperaments with hysteria,tearing pain in left leg,1.0,1
+nervous temperaments with hysteria,tearing pains in right forearm,1.0,1
+nervous temperaments with hysteria,weary limbs,1.0,1
+nervous temperaments with hysteria,tearing in thumb tips,1.0,1
+nervous temperaments with hysteria,hysterical,1.0,1
+tearing pains in right forearm,cramps in legs nightly,1.0,1
+tearing pains in right forearm,tearing in hips,1.0,1
+tearing pains in right forearm,loss of muscular power in small of back,1.0,1
+tearing pains in right forearm,menorrhagia,1.0,1
+tearing pains in right forearm,numb legs,1.0,1
+tearing pains in right forearm,muscle spasm,1.0,1
+tearing pains in right forearm,tearing pains in right hands,1.0,1
+tearing pains in right forearm,nervous temperaments with hysteria,1.0,1
+tearing pains in right forearm,left lower limbs most affected,1.0,1
+tearing pains in right forearm,tearing in nates,1.0,1
+tearing pains in right forearm,painful tension in lumbar muscles,1.0,1
+tearing pains in right forearm,tearing pains in right elbow,1.0,1
+tearing pains in right forearm,spasmodic cough,1.0,1
+tearing pains in right forearm,tearing pains in right hip joint,1.0,1
+tearing pains in right forearm,sexual dysfunction,1.0,1
+tearing pains in right forearm,sprained sensation in right shoulder,1.0,1
+tearing pains in right forearm,tearing pain in right arm,1.0,1
+tearing pains in right forearm,tearing in left shoulder joint,1.0,1
+tearing pains in right forearm,dull kidney pain,1.0,1
+tearing pains in right forearm,contraction in right thigh,1.0,1
+tearing pains in right forearm,rheumatic pains in right back side,1.0,1
+tearing pains in right forearm,cramps in hands when grasping,1.0,1
+tearing pains in right forearm,cramps in calves nightly,1.0,1
+tearing pains in right forearm,tearing in ankles,1.0,1
+tearing pains in right forearm,lancinating in thumb tips,1.0,1
+tearing pains in right forearm,weak fingers at night,1.0,1
+tearing pains in right forearm,tearing rheumatic pains in all limbs,1.0,1
+tearing pains in right forearm,burning in left scapula,1.0,1
+tearing pains in right forearm,lancinating in finger tips,1.0,1
+tearing pains in right forearm,tearing pains in right shoulder,1.0,1
+tearing pains in right forearm,gouty pains in left great toe,1.0,1
+tearing pains in right forearm,drawing in thumbs,1.0,1
+tearing pains in right forearm,stitches in small of back,1.0,1
+tearing pains in right forearm,right upper limbs most affected,1.0,1
+tearing pains in right forearm,tearing pain in left leg,1.0,1
+tearing pains in right forearm,weary limbs,1.0,1
+tearing pains in right forearm,tearing in thumb tips,1.0,1
+tearing pains in right forearm,hysterical,1.0,1
+drawing in thumbs,cramps in legs nightly,1.0,1
+drawing in thumbs,tearing in hips,1.0,1
+drawing in thumbs,loss of muscular power in small of back,1.0,1
+drawing in thumbs,menorrhagia,1.0,1
+drawing in thumbs,numb legs,1.0,1
+drawing in thumbs,muscle spasm,1.0,1
+drawing in thumbs,tearing pains in right hands,1.0,1
+drawing in thumbs,nervous temperaments with hysteria,1.0,1
+drawing in thumbs,left lower limbs most affected,1.0,1
+drawing in thumbs,tearing in nates,1.0,1
+drawing in thumbs,painful tension in lumbar muscles,1.0,1
+drawing in thumbs,tearing pains in right elbow,1.0,1
+drawing in thumbs,spasmodic cough,1.0,1
+drawing in thumbs,tearing pains in right hip joint,1.0,1
+drawing in thumbs,sexual dysfunction,1.0,1
+drawing in thumbs,sprained sensation in right shoulder,1.0,1
+drawing in thumbs,tearing pain in right arm,1.0,1
+drawing in thumbs,tearing in left shoulder joint,1.0,1
+drawing in thumbs,dull kidney pain,1.0,1
+drawing in thumbs,contraction in right thigh,1.0,1
+drawing in thumbs,rheumatic pains in right back side,1.0,1
+drawing in thumbs,cramps in hands when grasping,1.0,1
+drawing in thumbs,cramps in calves nightly,1.0,1
+drawing in thumbs,tearing in ankles,1.0,1
+drawing in thumbs,lancinating in thumb tips,1.0,1
+drawing in thumbs,weak fingers at night,1.0,1
+drawing in thumbs,tearing rheumatic pains in all limbs,1.0,1
+drawing in thumbs,burning in left scapula,1.0,1
+drawing in thumbs,lancinating in finger tips,1.0,1
+drawing in thumbs,tearing pains in right shoulder,1.0,1
+drawing in thumbs,gouty pains in left great toe,1.0,1
+drawing in thumbs,stitches in small of back,1.0,1
+drawing in thumbs,right upper limbs most affected,1.0,1
+drawing in thumbs,tearing pain in left leg,1.0,1
+drawing in thumbs,tearing pains in right forearm,1.0,1
+drawing in thumbs,weary limbs,1.0,1
+drawing in thumbs,tearing in thumb tips,1.0,1
+drawing in thumbs,hysterical,1.0,1
+tearing in ankles,cramps in legs nightly,1.0,1
+tearing in ankles,tearing in hips,1.0,1
+tearing in ankles,loss of muscular power in small of back,1.0,1
+tearing in ankles,menorrhagia,1.0,1
+tearing in ankles,numb legs,1.0,1
+tearing in ankles,muscle spasm,1.0,1
+tearing in ankles,tearing pains in right hands,1.0,1
+tearing in ankles,nervous temperaments with hysteria,1.0,1
+tearing in ankles,left lower limbs most affected,1.0,1
+tearing in ankles,tearing in nates,1.0,1
+tearing in ankles,painful tension in lumbar muscles,1.0,1
+tearing in ankles,tearing pains in right elbow,1.0,1
+tearing in ankles,spasmodic cough,1.0,1
+tearing in ankles,tearing pains in right hip joint,1.0,1
+tearing in ankles,sexual dysfunction,1.0,1
+tearing in ankles,sprained sensation in right shoulder,1.0,1
+tearing in ankles,tearing pain in right arm,1.0,1
+tearing in ankles,tearing in left shoulder joint,1.0,1
+tearing in ankles,dull kidney pain,1.0,1
+tearing in ankles,contraction in right thigh,1.0,1
+tearing in ankles,rheumatic pains in right back side,1.0,1
+tearing in ankles,cramps in hands when grasping,1.0,1
+tearing in ankles,cramps in calves nightly,1.0,1
+tearing in ankles,lancinating in thumb tips,1.0,1
+tearing in ankles,weak fingers at night,1.0,1
+tearing in ankles,tearing rheumatic pains in all limbs,1.0,1
+tearing in ankles,burning in left scapula,1.0,1
+tearing in ankles,lancinating in finger tips,1.0,1
+tearing in ankles,tearing pains in right shoulder,1.0,1
+tearing in ankles,gouty pains in left great toe,1.0,1
+tearing in ankles,drawing in thumbs,1.0,1
+tearing in ankles,stitches in small of back,1.0,1
+tearing in ankles,right upper limbs most affected,1.0,1
+tearing in ankles,tearing pain in left leg,1.0,1
+tearing in ankles,tearing pains in right forearm,1.0,1
+tearing in ankles,weary limbs,1.0,1
+tearing in ankles,tearing in thumb tips,1.0,1
+tearing in ankles,hysterical,1.0,1
+tearing pains in right hands,cramps in legs nightly,1.0,1
+tearing pains in right hands,tearing in hips,1.0,1
+tearing pains in right hands,loss of muscular power in small of back,1.0,1
+tearing pains in right hands,menorrhagia,1.0,1
+tearing pains in right hands,numb legs,1.0,1
+tearing pains in right hands,muscle spasm,1.0,1
+tearing pains in right hands,nervous temperaments with hysteria,1.0,1
+tearing pains in right hands,left lower limbs most affected,1.0,1
+tearing pains in right hands,tearing in nates,1.0,1
+tearing pains in right hands,painful tension in lumbar muscles,1.0,1
+tearing pains in right hands,tearing pains in right elbow,1.0,1
+tearing pains in right hands,spasmodic cough,1.0,1
+tearing pains in right hands,tearing pains in right hip joint,1.0,1
+tearing pains in right hands,sexual dysfunction,1.0,1
+tearing pains in right hands,sprained sensation in right shoulder,1.0,1
+tearing pains in right hands,tearing pain in right arm,1.0,1
+tearing pains in right hands,tearing in left shoulder joint,1.0,1
+tearing pains in right hands,dull kidney pain,1.0,1
+tearing pains in right hands,contraction in right thigh,1.0,1
+tearing pains in right hands,rheumatic pains in right back side,1.0,1
+tearing pains in right hands,cramps in hands when grasping,1.0,1
+tearing pains in right hands,cramps in calves nightly,1.0,1
+tearing pains in right hands,tearing in ankles,1.0,1
+tearing pains in right hands,lancinating in thumb tips,1.0,1
+tearing pains in right hands,weak fingers at night,1.0,1
+tearing pains in right hands,tearing rheumatic pains in all limbs,1.0,1
+tearing pains in right hands,burning in left scapula,1.0,1
+tearing pains in right hands,lancinating in finger tips,1.0,1
+tearing pains in right hands,tearing pains in right shoulder,1.0,1
+tearing pains in right hands,gouty pains in left great toe,1.0,1
+tearing pains in right hands,drawing in thumbs,1.0,1
+tearing pains in right hands,stitches in small of back,1.0,1
+tearing pains in right hands,right upper limbs most affected,1.0,1
+tearing pains in right hands,tearing pain in left leg,1.0,1
+tearing pains in right hands,tearing pains in right forearm,1.0,1
+tearing pains in right hands,weary limbs,1.0,1
+tearing pains in right hands,tearing in thumb tips,1.0,1
+tearing pains in right hands,hysterical,1.0,1
+tearing pains in right hip joint,cramps in legs nightly,1.0,1
+tearing pains in right hip joint,tearing in hips,1.0,1
+tearing pains in right hip joint,loss of muscular power in small of back,1.0,1
+tearing pains in right hip joint,menorrhagia,1.0,1
+tearing pains in right hip joint,numb legs,1.0,1
+tearing pains in right hip joint,muscle spasm,1.0,1
+tearing pains in right hip joint,tearing pains in right hands,1.0,1
+tearing pains in right hip joint,nervous temperaments with hysteria,1.0,1
+tearing pains in right hip joint,left lower limbs most affected,1.0,1
+tearing pains in right hip joint,tearing in nates,1.0,1
+tearing pains in right hip joint,painful tension in lumbar muscles,1.0,1
+tearing pains in right hip joint,tearing pains in right elbow,1.0,1
+tearing pains in right hip joint,spasmodic cough,1.0,1
+tearing pains in right hip joint,sexual dysfunction,1.0,1
+tearing pains in right hip joint,sprained sensation in right shoulder,1.0,1
+tearing pains in right hip joint,tearing pain in right arm,1.0,1
+tearing pains in right hip joint,tearing in left shoulder joint,1.0,1
+tearing pains in right hip joint,dull kidney pain,1.0,1
+tearing pains in right hip joint,contraction in right thigh,1.0,1
+tearing pains in right hip joint,rheumatic pains in right back side,1.0,1
+tearing pains in right hip joint,cramps in hands when grasping,1.0,1
+tearing pains in right hip joint,cramps in calves nightly,1.0,1
+tearing pains in right hip joint,tearing in ankles,1.0,1
+tearing pains in right hip joint,lancinating in thumb tips,1.0,1
+tearing pains in right hip joint,weak fingers at night,1.0,1
+tearing pains in right hip joint,tearing rheumatic pains in all limbs,1.0,1
+tearing pains in right hip joint,burning in left scapula,1.0,1
+tearing pains in right hip joint,lancinating in finger tips,1.0,1
+tearing pains in right hip joint,tearing pains in right shoulder,1.0,1
+tearing pains in right hip joint,gouty pains in left great toe,1.0,1
+tearing pains in right hip joint,drawing in thumbs,1.0,1
+tearing pains in right hip joint,stitches in small of back,1.0,1
+tearing pains in right hip joint,right upper limbs most affected,1.0,1
+tearing pains in right hip joint,tearing pain in left leg,1.0,1
+tearing pains in right hip joint,tearing pains in right forearm,1.0,1
+tearing pains in right hip joint,weary limbs,1.0,1
+tearing pains in right hip joint,tearing in thumb tips,1.0,1
+tearing pains in right hip joint,hysterical,1.0,1
+spasmodic cough,cramps in legs nightly,1.0,1
+spasmodic cough,tearing in hips,1.0,1
+spasmodic cough,loss of muscular power in small of back,1.0,1
+spasmodic cough,menorrhagia,1.0,1
+spasmodic cough,numb legs,1.0,1
+spasmodic cough,muscle spasm,1.0,1
+spasmodic cough,tearing pains in right hands,1.0,1
+spasmodic cough,nervous temperaments with hysteria,1.0,1
+spasmodic cough,left lower limbs most affected,1.0,1
+spasmodic cough,tearing in nates,1.0,1
+spasmodic cough,painful tension in lumbar muscles,1.0,1
+spasmodic cough,tearing pains in right elbow,1.0,1
+spasmodic cough,tearing pains in right hip joint,1.0,1
+spasmodic cough,sexual dysfunction,1.0,1
+spasmodic cough,sprained sensation in right shoulder,1.0,1
+spasmodic cough,tearing pain in right arm,1.0,1
+spasmodic cough,tearing in left shoulder joint,1.0,1
+spasmodic cough,dull kidney pain,1.0,1
+spasmodic cough,contraction in right thigh,1.0,1
+spasmodic cough,rheumatic pains in right back side,1.0,1
+spasmodic cough,cramps in hands when grasping,1.0,1
+spasmodic cough,cramps in calves nightly,1.0,1
+spasmodic cough,tearing in ankles,1.0,1
+spasmodic cough,lancinating in thumb tips,1.0,1
+spasmodic cough,weak fingers at night,1.0,1
+spasmodic cough,tearing rheumatic pains in all limbs,1.0,1
+spasmodic cough,burning in left scapula,1.0,1
+spasmodic cough,lancinating in finger tips,1.0,1
+spasmodic cough,tearing pains in right shoulder,1.0,1
+spasmodic cough,gouty pains in left great toe,1.0,1
+spasmodic cough,drawing in thumbs,1.0,1
+spasmodic cough,stitches in small of back,1.0,1
+spasmodic cough,right upper limbs most affected,1.0,1
+spasmodic cough,tearing pain in left leg,1.0,1
+spasmodic cough,tearing pains in right forearm,1.0,1
+spasmodic cough,weary limbs,1.0,1
+spasmodic cough,tearing in thumb tips,1.0,1
+spasmodic cough,hysterical,1.0,1
+tearing in thumb tips,cramps in legs nightly,1.0,1
+tearing in thumb tips,tearing in hips,1.0,1
+tearing in thumb tips,loss of muscular power in small of back,1.0,1
+tearing in thumb tips,menorrhagia,1.0,1
+tearing in thumb tips,numb legs,1.0,1
+tearing in thumb tips,muscle spasm,1.0,1
+tearing in thumb tips,tearing pains in right hands,1.0,1
+tearing in thumb tips,nervous temperaments with hysteria,1.0,1
+tearing in thumb tips,left lower limbs most affected,1.0,1
+tearing in thumb tips,tearing in nates,1.0,1
+tearing in thumb tips,painful tension in lumbar muscles,1.0,1
+tearing in thumb tips,tearing pains in right elbow,1.0,1
+tearing in thumb tips,spasmodic cough,1.0,1
+tearing in thumb tips,tearing pains in right hip joint,1.0,1
+tearing in thumb tips,sexual dysfunction,1.0,1
+tearing in thumb tips,sprained sensation in right shoulder,1.0,1
+tearing in thumb tips,tearing pain in right arm,1.0,1
+tearing in thumb tips,tearing in left shoulder joint,1.0,1
+tearing in thumb tips,dull kidney pain,1.0,1
+tearing in thumb tips,contraction in right thigh,1.0,1
+tearing in thumb tips,rheumatic pains in right back side,1.0,1
+tearing in thumb tips,cramps in hands when grasping,1.0,1
+tearing in thumb tips,cramps in calves nightly,1.0,1
+tearing in thumb tips,tearing in ankles,1.0,1
+tearing in thumb tips,lancinating in thumb tips,1.0,1
+tearing in thumb tips,weak fingers at night,1.0,1
+tearing in thumb tips,tearing rheumatic pains in all limbs,1.0,1
+tearing in thumb tips,burning in left scapula,1.0,1
+tearing in thumb tips,lancinating in finger tips,1.0,1
+tearing in thumb tips,tearing pains in right shoulder,1.0,1
+tearing in thumb tips,gouty pains in left great toe,1.0,1
+tearing in thumb tips,drawing in thumbs,1.0,1
+tearing in thumb tips,stitches in small of back,1.0,1
+tearing in thumb tips,right upper limbs most affected,1.0,1
+tearing in thumb tips,tearing pain in left leg,1.0,1
+tearing in thumb tips,tearing pains in right forearm,1.0,1
+tearing in thumb tips,weary limbs,1.0,1
+tearing in thumb tips,hysterical,1.0,1
+tearing in hips,cramps in legs nightly,1.0,1
+tearing in hips,loss of muscular power in small of back,1.0,1
+tearing in hips,menorrhagia,1.0,1
+tearing in hips,numb legs,1.0,1
+tearing in hips,muscle spasm,1.0,1
+tearing in hips,tearing pains in right hands,1.0,1
+tearing in hips,nervous temperaments with hysteria,1.0,1
+tearing in hips,left lower limbs most affected,1.0,1
+tearing in hips,tearing in nates,1.0,1
+tearing in hips,painful tension in lumbar muscles,1.0,1
+tearing in hips,tearing pains in right elbow,1.0,1
+tearing in hips,spasmodic cough,1.0,1
+tearing in hips,tearing pains in right hip joint,1.0,1
+tearing in hips,sexual dysfunction,1.0,1
+tearing in hips,sprained sensation in right shoulder,1.0,1
+tearing in hips,tearing pain in right arm,1.0,1
+tearing in hips,tearing in left shoulder joint,1.0,1
+tearing in hips,dull kidney pain,1.0,1
+tearing in hips,contraction in right thigh,1.0,1
+tearing in hips,rheumatic pains in right back side,1.0,1
+tearing in hips,cramps in hands when grasping,1.0,1
+tearing in hips,cramps in calves nightly,1.0,1
+tearing in hips,tearing in ankles,1.0,1
+tearing in hips,lancinating in thumb tips,1.0,1
+tearing in hips,weak fingers at night,1.0,1
+tearing in hips,tearing rheumatic pains in all limbs,1.0,1
+tearing in hips,burning in left scapula,1.0,1
+tearing in hips,lancinating in finger tips,1.0,1
+tearing in hips,tearing pains in right shoulder,1.0,1
+tearing in hips,gouty pains in left great toe,1.0,1
+tearing in hips,drawing in thumbs,1.0,1
+tearing in hips,stitches in small of back,1.0,1
+tearing in hips,right upper limbs most affected,1.0,1
+tearing in hips,tearing pain in left leg,1.0,1
+tearing in hips,tearing pains in right forearm,1.0,1
+tearing in hips,weary limbs,1.0,1
+tearing in hips,tearing in thumb tips,1.0,1
+tearing in hips,hysterical,1.0,1
+left lower limbs most affected,cramps in legs nightly,1.0,1
+left lower limbs most affected,tearing in hips,1.0,1
+left lower limbs most affected,loss of muscular power in small of back,1.0,1
+left lower limbs most affected,menorrhagia,1.0,1
+left lower limbs most affected,numb legs,1.0,1
+left lower limbs most affected,muscle spasm,1.0,1
+left lower limbs most affected,tearing pains in right hands,1.0,1
+left lower limbs most affected,nervous temperaments with hysteria,1.0,1
+left lower limbs most affected,tearing in nates,1.0,1
+left lower limbs most affected,painful tension in lumbar muscles,1.0,1
+left lower limbs most affected,tearing pains in right elbow,1.0,1
+left lower limbs most affected,spasmodic cough,1.0,1
+left lower limbs most affected,tearing pains in right hip joint,1.0,1
+left lower limbs most affected,sexual dysfunction,1.0,1
+left lower limbs most affected,sprained sensation in right shoulder,1.0,1
+left lower limbs most affected,tearing pain in right arm,1.0,1
+left lower limbs most affected,tearing in left shoulder joint,1.0,1
+left lower limbs most affected,dull kidney pain,1.0,1
+left lower limbs most affected,contraction in right thigh,1.0,1
+left lower limbs most affected,rheumatic pains in right back side,1.0,1
+left lower limbs most affected,cramps in hands when grasping,1.0,1
+left lower limbs most affected,cramps in calves nightly,1.0,1
+left lower limbs most affected,tearing in ankles,1.0,1
+left lower limbs most affected,lancinating in thumb tips,1.0,1
+left lower limbs most affected,weak fingers at night,1.0,1
+left lower limbs most affected,tearing rheumatic pains in all limbs,1.0,1
+left lower limbs most affected,burning in left scapula,1.0,1
+left lower limbs most affected,lancinating in finger tips,1.0,1
+left lower limbs most affected,tearing pains in right shoulder,1.0,1
+left lower limbs most affected,gouty pains in left great toe,1.0,1
+left lower limbs most affected,drawing in thumbs,1.0,1
+left lower limbs most affected,stitches in small of back,1.0,1
+left lower limbs most affected,right upper limbs most affected,1.0,1
+left lower limbs most affected,tearing pain in left leg,1.0,1
+left lower limbs most affected,tearing pains in right forearm,1.0,1
+left lower limbs most affected,weary limbs,1.0,1
+left lower limbs most affected,tearing in thumb tips,1.0,1
+left lower limbs most affected,hysterical,1.0,1

@@ -1,0 +1,1774 @@
+### Cluster 36 — Symptoms (42)
+Symptom,Frequency
+swelling of finger joints,2
+rheumatic endocarditis,1
+gasping respiration,1
+stitches in muscles,1
+painful stiffness of muscles of neck,1
+severe stitches in internal muscles of forearm,1
+redness of finger joints,1
+boring pain at elbow,1
+oppressed respiration,1
+spasms of acute cardiac pain,1
+drawing stitches in hands,1
+drawing stitches in forearms,1
+tension of cervical muscles,1
+painful sensation of stiffness in left side of neck,1
+cardiac symptoms,1
+every excitement increases condition,1
+fibrous deposits on valves of heart,1
+feeling of lameness from right knee to hip,1
+trembling in all the limbs,1
+muscular twitching about left shoulder joint,1
+especially right side,1
+feels as if suffocated,1
+valvular insufficiency,1
+dull stitch in right lumbar muscles,1
+metastasis to heart of rheumatism of lumbar region,1
+worse on bending head,1
+stinging pressing in precordial region,1
+cramp-like pain in ball of thumb,1
+awakens with trembling,1
+pain in upper arms with chills,1
+pain,1
+awakens in a fright,1
+induration,1
+loud blowing with each beat,1
+awakens with fear,1
+waking with sense of suffocation,1
+drawing pain from lower portion of right foot to thigh,1
+tension on bending finger joints,1
+inability to lie down,1
+back of neck snaps on stooping,1
+frequent waking with a start,1
+boring from body outward,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+spongia,42
+caulophyllum,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+severe stitches in internal muscles of forearm,rheumatic endocarditis,1.0,1
+severe stitches in internal muscles of forearm,gasping respiration,1.0,1
+severe stitches in internal muscles of forearm,stitches in muscles,1.0,1
+severe stitches in internal muscles of forearm,painful stiffness of muscles of neck,1.0,1
+severe stitches in internal muscles of forearm,redness of finger joints,1.0,1
+severe stitches in internal muscles of forearm,boring pain at elbow,1.0,1
+severe stitches in internal muscles of forearm,swelling of finger joints,1.0,1
+severe stitches in internal muscles of forearm,oppressed respiration,1.0,1
+severe stitches in internal muscles of forearm,spasms of acute cardiac pain,1.0,1
+severe stitches in internal muscles of forearm,drawing stitches in hands,1.0,1
+severe stitches in internal muscles of forearm,drawing stitches in forearms,1.0,1
+severe stitches in internal muscles of forearm,tension of cervical muscles,1.0,1
+severe stitches in internal muscles of forearm,painful sensation of stiffness in left side of neck,1.0,1
+severe stitches in internal muscles of forearm,cardiac symptoms,1.0,1
+severe stitches in internal muscles of forearm,every excitement increases condition,1.0,1
+severe stitches in internal muscles of forearm,fibrous deposits on valves of heart,1.0,1
+severe stitches in internal muscles of forearm,feeling of lameness from right knee to hip,1.0,1
+severe stitches in internal muscles of forearm,trembling in all the limbs,1.0,1
+severe stitches in internal muscles of forearm,muscular twitching about left shoulder joint,1.0,1
+severe stitches in internal muscles of forearm,especially right side,1.0,1
+severe stitches in internal muscles of forearm,feels as if suffocated,1.0,1
+severe stitches in internal muscles of forearm,valvular insufficiency,1.0,1
+severe stitches in internal muscles of forearm,dull stitch in right lumbar muscles,1.0,1
+severe stitches in internal muscles of forearm,metastasis to heart of rheumatism of lumbar region,1.0,1
+severe stitches in internal muscles of forearm,worse on bending head,1.0,1
+severe stitches in internal muscles of forearm,stinging pressing in precordial region,1.0,1
+severe stitches in internal muscles of forearm,cramp-like pain in ball of thumb,1.0,1
+severe stitches in internal muscles of forearm,awakens with trembling,1.0,1
+severe stitches in internal muscles of forearm,pain in upper arms with chills,1.0,1
+severe stitches in internal muscles of forearm,pain,1.0,1
+severe stitches in internal muscles of forearm,awakens in a fright,1.0,1
+severe stitches in internal muscles of forearm,induration,1.0,1
+severe stitches in internal muscles of forearm,loud blowing with each beat,1.0,1
+severe stitches in internal muscles of forearm,awakens with fear,1.0,1
+severe stitches in internal muscles of forearm,waking with sense of suffocation,1.0,1
+severe stitches in internal muscles of forearm,drawing pain from lower portion of right foot to thigh,1.0,1
+severe stitches in internal muscles of forearm,tension on bending finger joints,1.0,1
+severe stitches in internal muscles of forearm,inability to lie down,1.0,1
+severe stitches in internal muscles of forearm,back of neck snaps on stooping,1.0,1
+severe stitches in internal muscles of forearm,frequent waking with a start,1.0,1
+severe stitches in internal muscles of forearm,boring from body outward,1.0,1
+metastasis to heart of rheumatism of lumbar region,rheumatic endocarditis,1.0,1
+metastasis to heart of rheumatism of lumbar region,gasping respiration,1.0,1
+metastasis to heart of rheumatism of lumbar region,stitches in muscles,1.0,1
+metastasis to heart of rheumatism of lumbar region,painful stiffness of muscles of neck,1.0,1
+metastasis to heart of rheumatism of lumbar region,severe stitches in internal muscles of forearm,1.0,1
+metastasis to heart of rheumatism of lumbar region,redness of finger joints,1.0,1
+metastasis to heart of rheumatism of lumbar region,boring pain at elbow,1.0,1
+metastasis to heart of rheumatism of lumbar region,swelling of finger joints,1.0,1
+metastasis to heart of rheumatism of lumbar region,oppressed respiration,1.0,1
+metastasis to heart of rheumatism of lumbar region,spasms of acute cardiac pain,1.0,1
+metastasis to heart of rheumatism of lumbar region,drawing stitches in hands,1.0,1
+metastasis to heart of rheumatism of lumbar region,drawing stitches in forearms,1.0,1
+metastasis to heart of rheumatism of lumbar region,tension of cervical muscles,1.0,1
+metastasis to heart of rheumatism of lumbar region,painful sensation of stiffness in left side of neck,1.0,1
+metastasis to heart of rheumatism of lumbar region,cardiac symptoms,1.0,1
+metastasis to heart of rheumatism of lumbar region,every excitement increases condition,1.0,1
+metastasis to heart of rheumatism of lumbar region,fibrous deposits on valves of heart,1.0,1
+metastasis to heart of rheumatism of lumbar region,feeling of lameness from right knee to hip,1.0,1
+metastasis to heart of rheumatism of lumbar region,trembling in all the limbs,1.0,1
+metastasis to heart of rheumatism of lumbar region,muscular twitching about left shoulder joint,1.0,1
+metastasis to heart of rheumatism of lumbar region,especially right side,1.0,1
+metastasis to heart of rheumatism of lumbar region,feels as if suffocated,1.0,1
+metastasis to heart of rheumatism of lumbar region,valvular insufficiency,1.0,1
+metastasis to heart of rheumatism of lumbar region,dull stitch in right lumbar muscles,1.0,1
+metastasis to heart of rheumatism of lumbar region,worse on bending head,1.0,1
+metastasis to heart of rheumatism of lumbar region,stinging pressing in precordial region,1.0,1
+metastasis to heart of rheumatism of lumbar region,cramp-like pain in ball of thumb,1.0,1
+metastasis to heart of rheumatism of lumbar region,awakens with trembling,1.0,1
+metastasis to heart of rheumatism of lumbar region,pain in upper arms with chills,1.0,1
+metastasis to heart of rheumatism of lumbar region,pain,1.0,1
+metastasis to heart of rheumatism of lumbar region,awakens in a fright,1.0,1
+metastasis to heart of rheumatism of lumbar region,induration,1.0,1
+metastasis to heart of rheumatism of lumbar region,loud blowing with each beat,1.0,1
+metastasis to heart of rheumatism of lumbar region,awakens with fear,1.0,1
+metastasis to heart of rheumatism of lumbar region,waking with sense of suffocation,1.0,1
+metastasis to heart of rheumatism of lumbar region,drawing pain from lower portion of right foot to thigh,1.0,1
+metastasis to heart of rheumatism of lumbar region,tension on bending finger joints,1.0,1
+metastasis to heart of rheumatism of lumbar region,inability to lie down,1.0,1
+metastasis to heart of rheumatism of lumbar region,back of neck snaps on stooping,1.0,1
+metastasis to heart of rheumatism of lumbar region,frequent waking with a start,1.0,1
+metastasis to heart of rheumatism of lumbar region,boring from body outward,1.0,1
+back of neck snaps on stooping,rheumatic endocarditis,1.0,1
+back of neck snaps on stooping,gasping respiration,1.0,1
+back of neck snaps on stooping,stitches in muscles,1.0,1
+back of neck snaps on stooping,painful stiffness of muscles of neck,1.0,1
+back of neck snaps on stooping,severe stitches in internal muscles of forearm,1.0,1
+back of neck snaps on stooping,redness of finger joints,1.0,1
+back of neck snaps on stooping,boring pain at elbow,1.0,1
+back of neck snaps on stooping,swelling of finger joints,1.0,1
+back of neck snaps on stooping,oppressed respiration,1.0,1
+back of neck snaps on stooping,spasms of acute cardiac pain,1.0,1
+back of neck snaps on stooping,drawing stitches in hands,1.0,1
+back of neck snaps on stooping,drawing stitches in forearms,1.0,1
+back of neck snaps on stooping,tension of cervical muscles,1.0,1
+back of neck snaps on stooping,painful sensation of stiffness in left side of neck,1.0,1
+back of neck snaps on stooping,cardiac symptoms,1.0,1
+back of neck snaps on stooping,every excitement increases condition,1.0,1
+back of neck snaps on stooping,fibrous deposits on valves of heart,1.0,1
+back of neck snaps on stooping,feeling of lameness from right knee to hip,1.0,1
+back of neck snaps on stooping,trembling in all the limbs,1.0,1
+back of neck snaps on stooping,muscular twitching about left shoulder joint,1.0,1
+back of neck snaps on stooping,especially right side,1.0,1
+back of neck snaps on stooping,feels as if suffocated,1.0,1
+back of neck snaps on stooping,valvular insufficiency,1.0,1
+back of neck snaps on stooping,dull stitch in right lumbar muscles,1.0,1
+back of neck snaps on stooping,metastasis to heart of rheumatism of lumbar region,1.0,1
+back of neck snaps on stooping,worse on bending head,1.0,1
+back of neck snaps on stooping,stinging pressing in precordial region,1.0,1
+back of neck snaps on stooping,cramp-like pain in ball of thumb,1.0,1
+back of neck snaps on stooping,awakens with trembling,1.0,1
+back of neck snaps on stooping,pain in upper arms with chills,1.0,1
+back of neck snaps on stooping,pain,1.0,1
+back of neck snaps on stooping,awakens in a fright,1.0,1
+back of neck snaps on stooping,induration,1.0,1
+back of neck snaps on stooping,loud blowing with each beat,1.0,1
+back of neck snaps on stooping,awakens with fear,1.0,1
+back of neck snaps on stooping,waking with sense of suffocation,1.0,1
+back of neck snaps on stooping,drawing pain from lower portion of right foot to thigh,1.0,1
+back of neck snaps on stooping,tension on bending finger joints,1.0,1
+back of neck snaps on stooping,inability to lie down,1.0,1
+back of neck snaps on stooping,frequent waking with a start,1.0,1
+back of neck snaps on stooping,boring from body outward,1.0,1
+drawing stitches in hands,rheumatic endocarditis,1.0,1
+drawing stitches in hands,gasping respiration,1.0,1
+drawing stitches in hands,stitches in muscles,1.0,1
+drawing stitches in hands,painful stiffness of muscles of neck,1.0,1
+drawing stitches in hands,severe stitches in internal muscles of forearm,1.0,1
+drawing stitches in hands,redness of finger joints,1.0,1
+drawing stitches in hands,boring pain at elbow,1.0,1
+drawing stitches in hands,swelling of finger joints,1.0,1
+drawing stitches in hands,oppressed respiration,1.0,1
+drawing stitches in hands,spasms of acute cardiac pain,1.0,1
+drawing stitches in hands,drawing stitches in forearms,1.0,1
+drawing stitches in hands,tension of cervical muscles,1.0,1
+drawing stitches in hands,painful sensation of stiffness in left side of neck,1.0,1
+drawing stitches in hands,cardiac symptoms,1.0,1
+drawing stitches in hands,every excitement increases condition,1.0,1
+drawing stitches in hands,fibrous deposits on valves of heart,1.0,1
+drawing stitches in hands,feeling of lameness from right knee to hip,1.0,1
+drawing stitches in hands,trembling in all the limbs,1.0,1
+drawing stitches in hands,muscular twitching about left shoulder joint,1.0,1
+drawing stitches in hands,especially right side,1.0,1
+drawing stitches in hands,feels as if suffocated,1.0,1
+drawing stitches in hands,valvular insufficiency,1.0,1
+drawing stitches in hands,dull stitch in right lumbar muscles,1.0,1
+drawing stitches in hands,metastasis to heart of rheumatism of lumbar region,1.0,1
+drawing stitches in hands,worse on bending head,1.0,1
+drawing stitches in hands,stinging pressing in precordial region,1.0,1
+drawing stitches in hands,cramp-like pain in ball of thumb,1.0,1
+drawing stitches in hands,awakens with trembling,1.0,1
+drawing stitches in hands,pain in upper arms with chills,1.0,1
+drawing stitches in hands,pain,1.0,1
+drawing stitches in hands,awakens in a fright,1.0,1
+drawing stitches in hands,induration,1.0,1
+drawing stitches in hands,loud blowing with each beat,1.0,1
+drawing stitches in hands,awakens with fear,1.0,1
+drawing stitches in hands,waking with sense of suffocation,1.0,1
+drawing stitches in hands,drawing pain from lower portion of right foot to thigh,1.0,1
+drawing stitches in hands,tension on bending finger joints,1.0,1
+drawing stitches in hands,inability to lie down,1.0,1
+drawing stitches in hands,back of neck snaps on stooping,1.0,1
+drawing stitches in hands,frequent waking with a start,1.0,1
+drawing stitches in hands,boring from body outward,1.0,1
+swelling of finger joints,rheumatic endocarditis,0.5,1
+swelling of finger joints,gasping respiration,0.5,1
+swelling of finger joints,stitches in muscles,0.5,1
+swelling of finger joints,painful stiffness of muscles of neck,0.5,1
+swelling of finger joints,severe stitches in internal muscles of forearm,0.5,1
+swelling of finger joints,redness of finger joints,0.5,1
+swelling of finger joints,boring pain at elbow,0.5,1
+swelling of finger joints,oppressed respiration,0.5,1
+swelling of finger joints,spasms of acute cardiac pain,0.5,1
+swelling of finger joints,drawing stitches in hands,0.5,1
+swelling of finger joints,drawing stitches in forearms,0.5,1
+swelling of finger joints,tension of cervical muscles,0.5,1
+swelling of finger joints,painful sensation of stiffness in left side of neck,0.5,1
+swelling of finger joints,cardiac symptoms,0.5,1
+swelling of finger joints,every excitement increases condition,0.5,1
+swelling of finger joints,fibrous deposits on valves of heart,0.5,1
+swelling of finger joints,feeling of lameness from right knee to hip,0.5,1
+swelling of finger joints,trembling in all the limbs,0.5,1
+swelling of finger joints,muscular twitching about left shoulder joint,0.5,1
+swelling of finger joints,especially right side,0.5,1
+swelling of finger joints,feels as if suffocated,0.5,1
+swelling of finger joints,valvular insufficiency,0.5,1
+swelling of finger joints,dull stitch in right lumbar muscles,0.5,1
+swelling of finger joints,metastasis to heart of rheumatism of lumbar region,0.5,1
+swelling of finger joints,worse on bending head,0.5,1
+swelling of finger joints,stinging pressing in precordial region,0.5,1
+swelling of finger joints,cramp-like pain in ball of thumb,0.5,1
+swelling of finger joints,awakens with trembling,0.5,1
+swelling of finger joints,pain in upper arms with chills,0.5,1
+swelling of finger joints,pain,0.5,1
+swelling of finger joints,awakens in a fright,0.5,1
+swelling of finger joints,induration,0.5,1
+swelling of finger joints,loud blowing with each beat,0.5,1
+swelling of finger joints,awakens with fear,0.5,1
+swelling of finger joints,waking with sense of suffocation,0.5,1
+swelling of finger joints,drawing pain from lower portion of right foot to thigh,0.5,1
+swelling of finger joints,tension on bending finger joints,0.5,1
+swelling of finger joints,inability to lie down,0.5,1
+swelling of finger joints,back of neck snaps on stooping,0.5,1
+swelling of finger joints,frequent waking with a start,0.5,1
+swelling of finger joints,boring from body outward,0.5,1
+dull stitch in right lumbar muscles,rheumatic endocarditis,1.0,1
+dull stitch in right lumbar muscles,gasping respiration,1.0,1
+dull stitch in right lumbar muscles,stitches in muscles,1.0,1
+dull stitch in right lumbar muscles,painful stiffness of muscles of neck,1.0,1
+dull stitch in right lumbar muscles,severe stitches in internal muscles of forearm,1.0,1
+dull stitch in right lumbar muscles,redness of finger joints,1.0,1
+dull stitch in right lumbar muscles,boring pain at elbow,1.0,1
+dull stitch in right lumbar muscles,swelling of finger joints,1.0,1
+dull stitch in right lumbar muscles,oppressed respiration,1.0,1
+dull stitch in right lumbar muscles,spasms of acute cardiac pain,1.0,1
+dull stitch in right lumbar muscles,drawing stitches in hands,1.0,1
+dull stitch in right lumbar muscles,drawing stitches in forearms,1.0,1
+dull stitch in right lumbar muscles,tension of cervical muscles,1.0,1
+dull stitch in right lumbar muscles,painful sensation of stiffness in left side of neck,1.0,1
+dull stitch in right lumbar muscles,cardiac symptoms,1.0,1
+dull stitch in right lumbar muscles,every excitement increases condition,1.0,1
+dull stitch in right lumbar muscles,fibrous deposits on valves of heart,1.0,1
+dull stitch in right lumbar muscles,feeling of lameness from right knee to hip,1.0,1
+dull stitch in right lumbar muscles,trembling in all the limbs,1.0,1
+dull stitch in right lumbar muscles,muscular twitching about left shoulder joint,1.0,1
+dull stitch in right lumbar muscles,especially right side,1.0,1
+dull stitch in right lumbar muscles,feels as if suffocated,1.0,1
+dull stitch in right lumbar muscles,valvular insufficiency,1.0,1
+dull stitch in right lumbar muscles,metastasis to heart of rheumatism of lumbar region,1.0,1
+dull stitch in right lumbar muscles,worse on bending head,1.0,1
+dull stitch in right lumbar muscles,stinging pressing in precordial region,1.0,1
+dull stitch in right lumbar muscles,cramp-like pain in ball of thumb,1.0,1
+dull stitch in right lumbar muscles,awakens with trembling,1.0,1
+dull stitch in right lumbar muscles,pain in upper arms with chills,1.0,1
+dull stitch in right lumbar muscles,pain,1.0,1
+dull stitch in right lumbar muscles,awakens in a fright,1.0,1
+dull stitch in right lumbar muscles,induration,1.0,1
+dull stitch in right lumbar muscles,loud blowing with each beat,1.0,1
+dull stitch in right lumbar muscles,awakens with fear,1.0,1
+dull stitch in right lumbar muscles,waking with sense of suffocation,1.0,1
+dull stitch in right lumbar muscles,drawing pain from lower portion of right foot to thigh,1.0,1
+dull stitch in right lumbar muscles,tension on bending finger joints,1.0,1
+dull stitch in right lumbar muscles,inability to lie down,1.0,1
+dull stitch in right lumbar muscles,back of neck snaps on stooping,1.0,1
+dull stitch in right lumbar muscles,frequent waking with a start,1.0,1
+dull stitch in right lumbar muscles,boring from body outward,1.0,1
+awakens with trembling,rheumatic endocarditis,1.0,1
+awakens with trembling,gasping respiration,1.0,1
+awakens with trembling,stitches in muscles,1.0,1
+awakens with trembling,painful stiffness of muscles of neck,1.0,1
+awakens with trembling,severe stitches in internal muscles of forearm,1.0,1
+awakens with trembling,redness of finger joints,1.0,1
+awakens with trembling,boring pain at elbow,1.0,1
+awakens with trembling,swelling of finger joints,1.0,1
+awakens with trembling,oppressed respiration,1.0,1
+awakens with trembling,spasms of acute cardiac pain,1.0,1
+awakens with trembling,drawing stitches in hands,1.0,1
+awakens with trembling,drawing stitches in forearms,1.0,1
+awakens with trembling,tension of cervical muscles,1.0,1
+awakens with trembling,painful sensation of stiffness in left side of neck,1.0,1
+awakens with trembling,cardiac symptoms,1.0,1
+awakens with trembling,every excitement increases condition,1.0,1
+awakens with trembling,fibrous deposits on valves of heart,1.0,1
+awakens with trembling,feeling of lameness from right knee to hip,1.0,1
+awakens with trembling,trembling in all the limbs,1.0,1
+awakens with trembling,muscular twitching about left shoulder joint,1.0,1
+awakens with trembling,especially right side,1.0,1
+awakens with trembling,feels as if suffocated,1.0,1
+awakens with trembling,valvular insufficiency,1.0,1
+awakens with trembling,dull stitch in right lumbar muscles,1.0,1
+awakens with trembling,metastasis to heart of rheumatism of lumbar region,1.0,1
+awakens with trembling,worse on bending head,1.0,1
+awakens with trembling,stinging pressing in precordial region,1.0,1
+awakens with trembling,cramp-like pain in ball of thumb,1.0,1
+awakens with trembling,pain in upper arms with chills,1.0,1
+awakens with trembling,pain,1.0,1
+awakens with trembling,awakens in a fright,1.0,1
+awakens with trembling,induration,1.0,1
+awakens with trembling,loud blowing with each beat,1.0,1
+awakens with trembling,awakens with fear,1.0,1
+awakens with trembling,waking with sense of suffocation,1.0,1
+awakens with trembling,drawing pain from lower portion of right foot to thigh,1.0,1
+awakens with trembling,tension on bending finger joints,1.0,1
+awakens with trembling,inability to lie down,1.0,1
+awakens with trembling,back of neck snaps on stooping,1.0,1
+awakens with trembling,frequent waking with a start,1.0,1
+awakens with trembling,boring from body outward,1.0,1
+redness of finger joints,rheumatic endocarditis,1.0,1
+redness of finger joints,gasping respiration,1.0,1
+redness of finger joints,stitches in muscles,1.0,1
+redness of finger joints,painful stiffness of muscles of neck,1.0,1
+redness of finger joints,severe stitches in internal muscles of forearm,1.0,1
+redness of finger joints,boring pain at elbow,1.0,1
+redness of finger joints,swelling of finger joints,1.0,1
+redness of finger joints,oppressed respiration,1.0,1
+redness of finger joints,spasms of acute cardiac pain,1.0,1
+redness of finger joints,drawing stitches in hands,1.0,1
+redness of finger joints,drawing stitches in forearms,1.0,1
+redness of finger joints,tension of cervical muscles,1.0,1
+redness of finger joints,painful sensation of stiffness in left side of neck,1.0,1
+redness of finger joints,cardiac symptoms,1.0,1
+redness of finger joints,every excitement increases condition,1.0,1
+redness of finger joints,fibrous deposits on valves of heart,1.0,1
+redness of finger joints,feeling of lameness from right knee to hip,1.0,1
+redness of finger joints,trembling in all the limbs,1.0,1
+redness of finger joints,muscular twitching about left shoulder joint,1.0,1
+redness of finger joints,especially right side,1.0,1
+redness of finger joints,feels as if suffocated,1.0,1
+redness of finger joints,valvular insufficiency,1.0,1
+redness of finger joints,dull stitch in right lumbar muscles,1.0,1
+redness of finger joints,metastasis to heart of rheumatism of lumbar region,1.0,1
+redness of finger joints,worse on bending head,1.0,1
+redness of finger joints,stinging pressing in precordial region,1.0,1
+redness of finger joints,cramp-like pain in ball of thumb,1.0,1
+redness of finger joints,awakens with trembling,1.0,1
+redness of finger joints,pain in upper arms with chills,1.0,1
+redness of finger joints,pain,1.0,1
+redness of finger joints,awakens in a fright,1.0,1
+redness of finger joints,induration,1.0,1
+redness of finger joints,loud blowing with each beat,1.0,1
+redness of finger joints,awakens with fear,1.0,1
+redness of finger joints,waking with sense of suffocation,1.0,1
+redness of finger joints,drawing pain from lower portion of right foot to thigh,1.0,1
+redness of finger joints,tension on bending finger joints,1.0,1
+redness of finger joints,inability to lie down,1.0,1
+redness of finger joints,back of neck snaps on stooping,1.0,1
+redness of finger joints,frequent waking with a start,1.0,1
+redness of finger joints,boring from body outward,1.0,1
+frequent waking with a start,rheumatic endocarditis,1.0,1
+frequent waking with a start,gasping respiration,1.0,1
+frequent waking with a start,stitches in muscles,1.0,1
+frequent waking with a start,painful stiffness of muscles of neck,1.0,1
+frequent waking with a start,severe stitches in internal muscles of forearm,1.0,1
+frequent waking with a start,redness of finger joints,1.0,1
+frequent waking with a start,boring pain at elbow,1.0,1
+frequent waking with a start,swelling of finger joints,1.0,1
+frequent waking with a start,oppressed respiration,1.0,1
+frequent waking with a start,spasms of acute cardiac pain,1.0,1
+frequent waking with a start,drawing stitches in hands,1.0,1
+frequent waking with a start,drawing stitches in forearms,1.0,1
+frequent waking with a start,tension of cervical muscles,1.0,1
+frequent waking with a start,painful sensation of stiffness in left side of neck,1.0,1
+frequent waking with a start,cardiac symptoms,1.0,1
+frequent waking with a start,every excitement increases condition,1.0,1
+frequent waking with a start,fibrous deposits on valves of heart,1.0,1
+frequent waking with a start,feeling of lameness from right knee to hip,1.0,1
+frequent waking with a start,trembling in all the limbs,1.0,1
+frequent waking with a start,muscular twitching about left shoulder joint,1.0,1
+frequent waking with a start,especially right side,1.0,1
+frequent waking with a start,feels as if suffocated,1.0,1
+frequent waking with a start,valvular insufficiency,1.0,1
+frequent waking with a start,dull stitch in right lumbar muscles,1.0,1
+frequent waking with a start,metastasis to heart of rheumatism of lumbar region,1.0,1
+frequent waking with a start,worse on bending head,1.0,1
+frequent waking with a start,stinging pressing in precordial region,1.0,1
+frequent waking with a start,cramp-like pain in ball of thumb,1.0,1
+frequent waking with a start,awakens with trembling,1.0,1
+frequent waking with a start,pain in upper arms with chills,1.0,1
+frequent waking with a start,pain,1.0,1
+frequent waking with a start,awakens in a fright,1.0,1
+frequent waking with a start,induration,1.0,1
+frequent waking with a start,loud blowing with each beat,1.0,1
+frequent waking with a start,awakens with fear,1.0,1
+frequent waking with a start,waking with sense of suffocation,1.0,1
+frequent waking with a start,drawing pain from lower portion of right foot to thigh,1.0,1
+frequent waking with a start,tension on bending finger joints,1.0,1
+frequent waking with a start,inability to lie down,1.0,1
+frequent waking with a start,back of neck snaps on stooping,1.0,1
+frequent waking with a start,boring from body outward,1.0,1
+pain in upper arms with chills,rheumatic endocarditis,1.0,1
+pain in upper arms with chills,gasping respiration,1.0,1
+pain in upper arms with chills,stitches in muscles,1.0,1
+pain in upper arms with chills,painful stiffness of muscles of neck,1.0,1
+pain in upper arms with chills,severe stitches in internal muscles of forearm,1.0,1
+pain in upper arms with chills,redness of finger joints,1.0,1
+pain in upper arms with chills,boring pain at elbow,1.0,1
+pain in upper arms with chills,swelling of finger joints,1.0,1
+pain in upper arms with chills,oppressed respiration,1.0,1
+pain in upper arms with chills,spasms of acute cardiac pain,1.0,1
+pain in upper arms with chills,drawing stitches in hands,1.0,1
+pain in upper arms with chills,drawing stitches in forearms,1.0,1
+pain in upper arms with chills,tension of cervical muscles,1.0,1
+pain in upper arms with chills,painful sensation of stiffness in left side of neck,1.0,1
+pain in upper arms with chills,cardiac symptoms,1.0,1
+pain in upper arms with chills,every excitement increases condition,1.0,1
+pain in upper arms with chills,fibrous deposits on valves of heart,1.0,1
+pain in upper arms with chills,feeling of lameness from right knee to hip,1.0,1
+pain in upper arms with chills,trembling in all the limbs,1.0,1
+pain in upper arms with chills,muscular twitching about left shoulder joint,1.0,1
+pain in upper arms with chills,especially right side,1.0,1
+pain in upper arms with chills,feels as if suffocated,1.0,1
+pain in upper arms with chills,valvular insufficiency,1.0,1
+pain in upper arms with chills,dull stitch in right lumbar muscles,1.0,1
+pain in upper arms with chills,metastasis to heart of rheumatism of lumbar region,1.0,1
+pain in upper arms with chills,worse on bending head,1.0,1
+pain in upper arms with chills,stinging pressing in precordial region,1.0,1
+pain in upper arms with chills,cramp-like pain in ball of thumb,1.0,1
+pain in upper arms with chills,awakens with trembling,1.0,1
+pain in upper arms with chills,pain,1.0,1
+pain in upper arms with chills,awakens in a fright,1.0,1
+pain in upper arms with chills,induration,1.0,1
+pain in upper arms with chills,loud blowing with each beat,1.0,1
+pain in upper arms with chills,awakens with fear,1.0,1
+pain in upper arms with chills,waking with sense of suffocation,1.0,1
+pain in upper arms with chills,drawing pain from lower portion of right foot to thigh,1.0,1
+pain in upper arms with chills,tension on bending finger joints,1.0,1
+pain in upper arms with chills,inability to lie down,1.0,1
+pain in upper arms with chills,back of neck snaps on stooping,1.0,1
+pain in upper arms with chills,frequent waking with a start,1.0,1
+pain in upper arms with chills,boring from body outward,1.0,1
+tension on bending finger joints,rheumatic endocarditis,1.0,1
+tension on bending finger joints,gasping respiration,1.0,1
+tension on bending finger joints,stitches in muscles,1.0,1
+tension on bending finger joints,painful stiffness of muscles of neck,1.0,1
+tension on bending finger joints,severe stitches in internal muscles of forearm,1.0,1
+tension on bending finger joints,redness of finger joints,1.0,1
+tension on bending finger joints,boring pain at elbow,1.0,1
+tension on bending finger joints,swelling of finger joints,1.0,1
+tension on bending finger joints,oppressed respiration,1.0,1
+tension on bending finger joints,spasms of acute cardiac pain,1.0,1
+tension on bending finger joints,drawing stitches in hands,1.0,1
+tension on bending finger joints,drawing stitches in forearms,1.0,1
+tension on bending finger joints,tension of cervical muscles,1.0,1
+tension on bending finger joints,painful sensation of stiffness in left side of neck,1.0,1
+tension on bending finger joints,cardiac symptoms,1.0,1
+tension on bending finger joints,every excitement increases condition,1.0,1
+tension on bending finger joints,fibrous deposits on valves of heart,1.0,1
+tension on bending finger joints,feeling of lameness from right knee to hip,1.0,1
+tension on bending finger joints,trembling in all the limbs,1.0,1
+tension on bending finger joints,muscular twitching about left shoulder joint,1.0,1
+tension on bending finger joints,especially right side,1.0,1
+tension on bending finger joints,feels as if suffocated,1.0,1
+tension on bending finger joints,valvular insufficiency,1.0,1
+tension on bending finger joints,dull stitch in right lumbar muscles,1.0,1
+tension on bending finger joints,metastasis to heart of rheumatism of lumbar region,1.0,1
+tension on bending finger joints,worse on bending head,1.0,1
+tension on bending finger joints,stinging pressing in precordial region,1.0,1
+tension on bending finger joints,cramp-like pain in ball of thumb,1.0,1
+tension on bending finger joints,awakens with trembling,1.0,1
+tension on bending finger joints,pain in upper arms with chills,1.0,1
+tension on bending finger joints,pain,1.0,1
+tension on bending finger joints,awakens in a fright,1.0,1
+tension on bending finger joints,induration,1.0,1
+tension on bending finger joints,loud blowing with each beat,1.0,1
+tension on bending finger joints,awakens with fear,1.0,1
+tension on bending finger joints,waking with sense of suffocation,1.0,1
+tension on bending finger joints,drawing pain from lower portion of right foot to thigh,1.0,1
+tension on bending finger joints,inability to lie down,1.0,1
+tension on bending finger joints,back of neck snaps on stooping,1.0,1
+tension on bending finger joints,frequent waking with a start,1.0,1
+tension on bending finger joints,boring from body outward,1.0,1
+painful sensation of stiffness in left side of neck,rheumatic endocarditis,1.0,1
+painful sensation of stiffness in left side of neck,gasping respiration,1.0,1
+painful sensation of stiffness in left side of neck,stitches in muscles,1.0,1
+painful sensation of stiffness in left side of neck,painful stiffness of muscles of neck,1.0,1
+painful sensation of stiffness in left side of neck,severe stitches in internal muscles of forearm,1.0,1
+painful sensation of stiffness in left side of neck,redness of finger joints,1.0,1
+painful sensation of stiffness in left side of neck,boring pain at elbow,1.0,1
+painful sensation of stiffness in left side of neck,swelling of finger joints,1.0,1
+painful sensation of stiffness in left side of neck,oppressed respiration,1.0,1
+painful sensation of stiffness in left side of neck,spasms of acute cardiac pain,1.0,1
+painful sensation of stiffness in left side of neck,drawing stitches in hands,1.0,1
+painful sensation of stiffness in left side of neck,drawing stitches in forearms,1.0,1
+painful sensation of stiffness in left side of neck,tension of cervical muscles,1.0,1
+painful sensation of stiffness in left side of neck,cardiac symptoms,1.0,1
+painful sensation of stiffness in left side of neck,every excitement increases condition,1.0,1
+painful sensation of stiffness in left side of neck,fibrous deposits on valves of heart,1.0,1
+painful sensation of stiffness in left side of neck,feeling of lameness from right knee to hip,1.0,1
+painful sensation of stiffness in left side of neck,trembling in all the limbs,1.0,1
+painful sensation of stiffness in left side of neck,muscular twitching about left shoulder joint,1.0,1
+painful sensation of stiffness in left side of neck,especially right side,1.0,1
+painful sensation of stiffness in left side of neck,feels as if suffocated,1.0,1
+painful sensation of stiffness in left side of neck,valvular insufficiency,1.0,1
+painful sensation of stiffness in left side of neck,dull stitch in right lumbar muscles,1.0,1
+painful sensation of stiffness in left side of neck,metastasis to heart of rheumatism of lumbar region,1.0,1
+painful sensation of stiffness in left side of neck,worse on bending head,1.0,1
+painful sensation of stiffness in left side of neck,stinging pressing in precordial region,1.0,1
+painful sensation of stiffness in left side of neck,cramp-like pain in ball of thumb,1.0,1
+painful sensation of stiffness in left side of neck,awakens with trembling,1.0,1
+painful sensation of stiffness in left side of neck,pain in upper arms with chills,1.0,1
+painful sensation of stiffness in left side of neck,pain,1.0,1
+painful sensation of stiffness in left side of neck,awakens in a fright,1.0,1
+painful sensation of stiffness in left side of neck,induration,1.0,1
+painful sensation of stiffness in left side of neck,loud blowing with each beat,1.0,1
+painful sensation of stiffness in left side of neck,awakens with fear,1.0,1
+painful sensation of stiffness in left side of neck,waking with sense of suffocation,1.0,1
+painful sensation of stiffness in left side of neck,drawing pain from lower portion of right foot to thigh,1.0,1
+painful sensation of stiffness in left side of neck,tension on bending finger joints,1.0,1
+painful sensation of stiffness in left side of neck,inability to lie down,1.0,1
+painful sensation of stiffness in left side of neck,back of neck snaps on stooping,1.0,1
+painful sensation of stiffness in left side of neck,frequent waking with a start,1.0,1
+painful sensation of stiffness in left side of neck,boring from body outward,1.0,1
+tension of cervical muscles,rheumatic endocarditis,1.0,1
+tension of cervical muscles,gasping respiration,1.0,1
+tension of cervical muscles,stitches in muscles,1.0,1
+tension of cervical muscles,painful stiffness of muscles of neck,1.0,1
+tension of cervical muscles,severe stitches in internal muscles of forearm,1.0,1
+tension of cervical muscles,redness of finger joints,1.0,1
+tension of cervical muscles,boring pain at elbow,1.0,1
+tension of cervical muscles,swelling of finger joints,1.0,1
+tension of cervical muscles,oppressed respiration,1.0,1
+tension of cervical muscles,spasms of acute cardiac pain,1.0,1
+tension of cervical muscles,drawing stitches in hands,1.0,1
+tension of cervical muscles,drawing stitches in forearms,1.0,1
+tension of cervical muscles,painful sensation of stiffness in left side of neck,1.0,1
+tension of cervical muscles,cardiac symptoms,1.0,1
+tension of cervical muscles,every excitement increases condition,1.0,1
+tension of cervical muscles,fibrous deposits on valves of heart,1.0,1
+tension of cervical muscles,feeling of lameness from right knee to hip,1.0,1
+tension of cervical muscles,trembling in all the limbs,1.0,1
+tension of cervical muscles,muscular twitching about left shoulder joint,1.0,1
+tension of cervical muscles,especially right side,1.0,1
+tension of cervical muscles,feels as if suffocated,1.0,1
+tension of cervical muscles,valvular insufficiency,1.0,1
+tension of cervical muscles,dull stitch in right lumbar muscles,1.0,1
+tension of cervical muscles,metastasis to heart of rheumatism of lumbar region,1.0,1
+tension of cervical muscles,worse on bending head,1.0,1
+tension of cervical muscles,stinging pressing in precordial region,1.0,1
+tension of cervical muscles,cramp-like pain in ball of thumb,1.0,1
+tension of cervical muscles,awakens with trembling,1.0,1
+tension of cervical muscles,pain in upper arms with chills,1.0,1
+tension of cervical muscles,pain,1.0,1
+tension of cervical muscles,awakens in a fright,1.0,1
+tension of cervical muscles,induration,1.0,1
+tension of cervical muscles,loud blowing with each beat,1.0,1
+tension of cervical muscles,awakens with fear,1.0,1
+tension of cervical muscles,waking with sense of suffocation,1.0,1
+tension of cervical muscles,drawing pain from lower portion of right foot to thigh,1.0,1
+tension of cervical muscles,tension on bending finger joints,1.0,1
+tension of cervical muscles,inability to lie down,1.0,1
+tension of cervical muscles,back of neck snaps on stooping,1.0,1
+tension of cervical muscles,frequent waking with a start,1.0,1
+tension of cervical muscles,boring from body outward,1.0,1
+especially right side,rheumatic endocarditis,1.0,1
+especially right side,gasping respiration,1.0,1
+especially right side,stitches in muscles,1.0,1
+especially right side,painful stiffness of muscles of neck,1.0,1
+especially right side,severe stitches in internal muscles of forearm,1.0,1
+especially right side,redness of finger joints,1.0,1
+especially right side,boring pain at elbow,1.0,1
+especially right side,swelling of finger joints,1.0,1
+especially right side,oppressed respiration,1.0,1
+especially right side,spasms of acute cardiac pain,1.0,1
+especially right side,drawing stitches in hands,1.0,1
+especially right side,drawing stitches in forearms,1.0,1
+especially right side,tension of cervical muscles,1.0,1
+especially right side,painful sensation of stiffness in left side of neck,1.0,1
+especially right side,cardiac symptoms,1.0,1
+especially right side,every excitement increases condition,1.0,1
+especially right side,fibrous deposits on valves of heart,1.0,1
+especially right side,feeling of lameness from right knee to hip,1.0,1
+especially right side,trembling in all the limbs,1.0,1
+especially right side,muscular twitching about left shoulder joint,1.0,1
+especially right side,feels as if suffocated,1.0,1
+especially right side,valvular insufficiency,1.0,1
+especially right side,dull stitch in right lumbar muscles,1.0,1
+especially right side,metastasis to heart of rheumatism of lumbar region,1.0,1
+especially right side,worse on bending head,1.0,1
+especially right side,stinging pressing in precordial region,1.0,1
+especially right side,cramp-like pain in ball of thumb,1.0,1
+especially right side,awakens with trembling,1.0,1
+especially right side,pain in upper arms with chills,1.0,1
+especially right side,pain,1.0,1
+especially right side,awakens in a fright,1.0,1
+especially right side,induration,1.0,1
+especially right side,loud blowing with each beat,1.0,1
+especially right side,awakens with fear,1.0,1
+especially right side,waking with sense of suffocation,1.0,1
+especially right side,drawing pain from lower portion of right foot to thigh,1.0,1
+especially right side,tension on bending finger joints,1.0,1
+especially right side,inability to lie down,1.0,1
+especially right side,back of neck snaps on stooping,1.0,1
+especially right side,frequent waking with a start,1.0,1
+especially right side,boring from body outward,1.0,1
+waking with sense of suffocation,rheumatic endocarditis,1.0,1
+waking with sense of suffocation,gasping respiration,1.0,1
+waking with sense of suffocation,stitches in muscles,1.0,1
+waking with sense of suffocation,painful stiffness of muscles of neck,1.0,1
+waking with sense of suffocation,severe stitches in internal muscles of forearm,1.0,1
+waking with sense of suffocation,redness of finger joints,1.0,1
+waking with sense of suffocation,boring pain at elbow,1.0,1
+waking with sense of suffocation,swelling of finger joints,1.0,1
+waking with sense of suffocation,oppressed respiration,1.0,1
+waking with sense of suffocation,spasms of acute cardiac pain,1.0,1
+waking with sense of suffocation,drawing stitches in hands,1.0,1
+waking with sense of suffocation,drawing stitches in forearms,1.0,1
+waking with sense of suffocation,tension of cervical muscles,1.0,1
+waking with sense of suffocation,painful sensation of stiffness in left side of neck,1.0,1
+waking with sense of suffocation,cardiac symptoms,1.0,1
+waking with sense of suffocation,every excitement increases condition,1.0,1
+waking with sense of suffocation,fibrous deposits on valves of heart,1.0,1
+waking with sense of suffocation,feeling of lameness from right knee to hip,1.0,1
+waking with sense of suffocation,trembling in all the limbs,1.0,1
+waking with sense of suffocation,muscular twitching about left shoulder joint,1.0,1
+waking with sense of suffocation,especially right side,1.0,1
+waking with sense of suffocation,feels as if suffocated,1.0,1
+waking with sense of suffocation,valvular insufficiency,1.0,1
+waking with sense of suffocation,dull stitch in right lumbar muscles,1.0,1
+waking with sense of suffocation,metastasis to heart of rheumatism of lumbar region,1.0,1
+waking with sense of suffocation,worse on bending head,1.0,1
+waking with sense of suffocation,stinging pressing in precordial region,1.0,1
+waking with sense of suffocation,cramp-like pain in ball of thumb,1.0,1
+waking with sense of suffocation,awakens with trembling,1.0,1
+waking with sense of suffocation,pain in upper arms with chills,1.0,1
+waking with sense of suffocation,pain,1.0,1
+waking with sense of suffocation,awakens in a fright,1.0,1
+waking with sense of suffocation,induration,1.0,1
+waking with sense of suffocation,loud blowing with each beat,1.0,1
+waking with sense of suffocation,awakens with fear,1.0,1
+waking with sense of suffocation,drawing pain from lower portion of right foot to thigh,1.0,1
+waking with sense of suffocation,tension on bending finger joints,1.0,1
+waking with sense of suffocation,inability to lie down,1.0,1
+waking with sense of suffocation,back of neck snaps on stooping,1.0,1
+waking with sense of suffocation,frequent waking with a start,1.0,1
+waking with sense of suffocation,boring from body outward,1.0,1
+worse on bending head,rheumatic endocarditis,1.0,1
+worse on bending head,gasping respiration,1.0,1
+worse on bending head,stitches in muscles,1.0,1
+worse on bending head,painful stiffness of muscles of neck,1.0,1
+worse on bending head,severe stitches in internal muscles of forearm,1.0,1
+worse on bending head,redness of finger joints,1.0,1
+worse on bending head,boring pain at elbow,1.0,1
+worse on bending head,swelling of finger joints,1.0,1
+worse on bending head,oppressed respiration,1.0,1
+worse on bending head,spasms of acute cardiac pain,1.0,1
+worse on bending head,drawing stitches in hands,1.0,1
+worse on bending head,drawing stitches in forearms,1.0,1
+worse on bending head,tension of cervical muscles,1.0,1
+worse on bending head,painful sensation of stiffness in left side of neck,1.0,1
+worse on bending head,cardiac symptoms,1.0,1
+worse on bending head,every excitement increases condition,1.0,1
+worse on bending head,fibrous deposits on valves of heart,1.0,1
+worse on bending head,feeling of lameness from right knee to hip,1.0,1
+worse on bending head,trembling in all the limbs,1.0,1
+worse on bending head,muscular twitching about left shoulder joint,1.0,1
+worse on bending head,especially right side,1.0,1
+worse on bending head,feels as if suffocated,1.0,1
+worse on bending head,valvular insufficiency,1.0,1
+worse on bending head,dull stitch in right lumbar muscles,1.0,1
+worse on bending head,metastasis to heart of rheumatism of lumbar region,1.0,1
+worse on bending head,stinging pressing in precordial region,1.0,1
+worse on bending head,cramp-like pain in ball of thumb,1.0,1
+worse on bending head,awakens with trembling,1.0,1
+worse on bending head,pain in upper arms with chills,1.0,1
+worse on bending head,pain,1.0,1
+worse on bending head,awakens in a fright,1.0,1
+worse on bending head,induration,1.0,1
+worse on bending head,loud blowing with each beat,1.0,1
+worse on bending head,awakens with fear,1.0,1
+worse on bending head,waking with sense of suffocation,1.0,1
+worse on bending head,drawing pain from lower portion of right foot to thigh,1.0,1
+worse on bending head,tension on bending finger joints,1.0,1
+worse on bending head,inability to lie down,1.0,1
+worse on bending head,back of neck snaps on stooping,1.0,1
+worse on bending head,frequent waking with a start,1.0,1
+worse on bending head,boring from body outward,1.0,1
+gasping respiration,rheumatic endocarditis,1.0,1
+gasping respiration,stitches in muscles,1.0,1
+gasping respiration,painful stiffness of muscles of neck,1.0,1
+gasping respiration,severe stitches in internal muscles of forearm,1.0,1
+gasping respiration,redness of finger joints,1.0,1
+gasping respiration,boring pain at elbow,1.0,1
+gasping respiration,swelling of finger joints,1.0,1
+gasping respiration,oppressed respiration,1.0,1
+gasping respiration,spasms of acute cardiac pain,1.0,1
+gasping respiration,drawing stitches in hands,1.0,1
+gasping respiration,drawing stitches in forearms,1.0,1
+gasping respiration,tension of cervical muscles,1.0,1
+gasping respiration,painful sensation of stiffness in left side of neck,1.0,1
+gasping respiration,cardiac symptoms,1.0,1
+gasping respiration,every excitement increases condition,1.0,1
+gasping respiration,fibrous deposits on valves of heart,1.0,1
+gasping respiration,feeling of lameness from right knee to hip,1.0,1
+gasping respiration,trembling in all the limbs,1.0,1
+gasping respiration,muscular twitching about left shoulder joint,1.0,1
+gasping respiration,especially right side,1.0,1
+gasping respiration,feels as if suffocated,1.0,1
+gasping respiration,valvular insufficiency,1.0,1
+gasping respiration,dull stitch in right lumbar muscles,1.0,1
+gasping respiration,metastasis to heart of rheumatism of lumbar region,1.0,1
+gasping respiration,worse on bending head,1.0,1
+gasping respiration,stinging pressing in precordial region,1.0,1
+gasping respiration,cramp-like pain in ball of thumb,1.0,1
+gasping respiration,awakens with trembling,1.0,1
+gasping respiration,pain in upper arms with chills,1.0,1
+gasping respiration,pain,1.0,1
+gasping respiration,awakens in a fright,1.0,1
+gasping respiration,induration,1.0,1
+gasping respiration,loud blowing with each beat,1.0,1
+gasping respiration,awakens with fear,1.0,1
+gasping respiration,waking with sense of suffocation,1.0,1
+gasping respiration,drawing pain from lower portion of right foot to thigh,1.0,1
+gasping respiration,tension on bending finger joints,1.0,1
+gasping respiration,inability to lie down,1.0,1
+gasping respiration,back of neck snaps on stooping,1.0,1
+gasping respiration,frequent waking with a start,1.0,1
+gasping respiration,boring from body outward,1.0,1
+trembling in all the limbs,rheumatic endocarditis,1.0,1
+trembling in all the limbs,gasping respiration,1.0,1
+trembling in all the limbs,stitches in muscles,1.0,1
+trembling in all the limbs,painful stiffness of muscles of neck,1.0,1
+trembling in all the limbs,severe stitches in internal muscles of forearm,1.0,1
+trembling in all the limbs,redness of finger joints,1.0,1
+trembling in all the limbs,boring pain at elbow,1.0,1
+trembling in all the limbs,swelling of finger joints,1.0,1
+trembling in all the limbs,oppressed respiration,1.0,1
+trembling in all the limbs,spasms of acute cardiac pain,1.0,1
+trembling in all the limbs,drawing stitches in hands,1.0,1
+trembling in all the limbs,drawing stitches in forearms,1.0,1
+trembling in all the limbs,tension of cervical muscles,1.0,1
+trembling in all the limbs,painful sensation of stiffness in left side of neck,1.0,1
+trembling in all the limbs,cardiac symptoms,1.0,1
+trembling in all the limbs,every excitement increases condition,1.0,1
+trembling in all the limbs,fibrous deposits on valves of heart,1.0,1
+trembling in all the limbs,feeling of lameness from right knee to hip,1.0,1
+trembling in all the limbs,muscular twitching about left shoulder joint,1.0,1
+trembling in all the limbs,especially right side,1.0,1
+trembling in all the limbs,feels as if suffocated,1.0,1
+trembling in all the limbs,valvular insufficiency,1.0,1
+trembling in all the limbs,dull stitch in right lumbar muscles,1.0,1
+trembling in all the limbs,metastasis to heart of rheumatism of lumbar region,1.0,1
+trembling in all the limbs,worse on bending head,1.0,1
+trembling in all the limbs,stinging pressing in precordial region,1.0,1
+trembling in all the limbs,cramp-like pain in ball of thumb,1.0,1
+trembling in all the limbs,awakens with trembling,1.0,1
+trembling in all the limbs,pain in upper arms with chills,1.0,1
+trembling in all the limbs,pain,1.0,1
+trembling in all the limbs,awakens in a fright,1.0,1
+trembling in all the limbs,induration,1.0,1
+trembling in all the limbs,loud blowing with each beat,1.0,1
+trembling in all the limbs,awakens with fear,1.0,1
+trembling in all the limbs,waking with sense of suffocation,1.0,1
+trembling in all the limbs,drawing pain from lower portion of right foot to thigh,1.0,1
+trembling in all the limbs,tension on bending finger joints,1.0,1
+trembling in all the limbs,inability to lie down,1.0,1
+trembling in all the limbs,back of neck snaps on stooping,1.0,1
+trembling in all the limbs,frequent waking with a start,1.0,1
+trembling in all the limbs,boring from body outward,1.0,1
+oppressed respiration,rheumatic endocarditis,1.0,1
+oppressed respiration,gasping respiration,1.0,1
+oppressed respiration,stitches in muscles,1.0,1
+oppressed respiration,painful stiffness of muscles of neck,1.0,1
+oppressed respiration,severe stitches in internal muscles of forearm,1.0,1
+oppressed respiration,redness of finger joints,1.0,1
+oppressed respiration,boring pain at elbow,1.0,1
+oppressed respiration,swelling of finger joints,1.0,1
+oppressed respiration,spasms of acute cardiac pain,1.0,1
+oppressed respiration,drawing stitches in hands,1.0,1
+oppressed respiration,drawing stitches in forearms,1.0,1
+oppressed respiration,tension of cervical muscles,1.0,1
+oppressed respiration,painful sensation of stiffness in left side of neck,1.0,1
+oppressed respiration,cardiac symptoms,1.0,1
+oppressed respiration,every excitement increases condition,1.0,1
+oppressed respiration,fibrous deposits on valves of heart,1.0,1
+oppressed respiration,feeling of lameness from right knee to hip,1.0,1
+oppressed respiration,trembling in all the limbs,1.0,1
+oppressed respiration,muscular twitching about left shoulder joint,1.0,1
+oppressed respiration,especially right side,1.0,1
+oppressed respiration,feels as if suffocated,1.0,1
+oppressed respiration,valvular insufficiency,1.0,1
+oppressed respiration,dull stitch in right lumbar muscles,1.0,1
+oppressed respiration,metastasis to heart of rheumatism of lumbar region,1.0,1
+oppressed respiration,worse on bending head,1.0,1
+oppressed respiration,stinging pressing in precordial region,1.0,1
+oppressed respiration,cramp-like pain in ball of thumb,1.0,1
+oppressed respiration,awakens with trembling,1.0,1
+oppressed respiration,pain in upper arms with chills,1.0,1
+oppressed respiration,pain,1.0,1
+oppressed respiration,awakens in a fright,1.0,1
+oppressed respiration,induration,1.0,1
+oppressed respiration,loud blowing with each beat,1.0,1
+oppressed respiration,awakens with fear,1.0,1
+oppressed respiration,waking with sense of suffocation,1.0,1
+oppressed respiration,drawing pain from lower portion of right foot to thigh,1.0,1
+oppressed respiration,tension on bending finger joints,1.0,1
+oppressed respiration,inability to lie down,1.0,1
+oppressed respiration,back of neck snaps on stooping,1.0,1
+oppressed respiration,frequent waking with a start,1.0,1
+oppressed respiration,boring from body outward,1.0,1
+rheumatic endocarditis,gasping respiration,1.0,1
+rheumatic endocarditis,stitches in muscles,1.0,1
+rheumatic endocarditis,painful stiffness of muscles of neck,1.0,1
+rheumatic endocarditis,severe stitches in internal muscles of forearm,1.0,1
+rheumatic endocarditis,redness of finger joints,1.0,1
+rheumatic endocarditis,boring pain at elbow,1.0,1
+rheumatic endocarditis,swelling of finger joints,1.0,1
+rheumatic endocarditis,oppressed respiration,1.0,1
+rheumatic endocarditis,spasms of acute cardiac pain,1.0,1
+rheumatic endocarditis,drawing stitches in hands,1.0,1
+rheumatic endocarditis,drawing stitches in forearms,1.0,1
+rheumatic endocarditis,tension of cervical muscles,1.0,1
+rheumatic endocarditis,painful sensation of stiffness in left side of neck,1.0,1
+rheumatic endocarditis,cardiac symptoms,1.0,1
+rheumatic endocarditis,every excitement increases condition,1.0,1
+rheumatic endocarditis,fibrous deposits on valves of heart,1.0,1
+rheumatic endocarditis,feeling of lameness from right knee to hip,1.0,1
+rheumatic endocarditis,trembling in all the limbs,1.0,1
+rheumatic endocarditis,muscular twitching about left shoulder joint,1.0,1
+rheumatic endocarditis,especially right side,1.0,1
+rheumatic endocarditis,feels as if suffocated,1.0,1
+rheumatic endocarditis,valvular insufficiency,1.0,1
+rheumatic endocarditis,dull stitch in right lumbar muscles,1.0,1
+rheumatic endocarditis,metastasis to heart of rheumatism of lumbar region,1.0,1
+rheumatic endocarditis,worse on bending head,1.0,1
+rheumatic endocarditis,stinging pressing in precordial region,1.0,1
+rheumatic endocarditis,cramp-like pain in ball of thumb,1.0,1
+rheumatic endocarditis,awakens with trembling,1.0,1
+rheumatic endocarditis,pain in upper arms with chills,1.0,1
+rheumatic endocarditis,pain,1.0,1
+rheumatic endocarditis,awakens in a fright,1.0,1
+rheumatic endocarditis,induration,1.0,1
+rheumatic endocarditis,loud blowing with each beat,1.0,1
+rheumatic endocarditis,awakens with fear,1.0,1
+rheumatic endocarditis,waking with sense of suffocation,1.0,1
+rheumatic endocarditis,drawing pain from lower portion of right foot to thigh,1.0,1
+rheumatic endocarditis,tension on bending finger joints,1.0,1
+rheumatic endocarditis,inability to lie down,1.0,1
+rheumatic endocarditis,back of neck snaps on stooping,1.0,1
+rheumatic endocarditis,frequent waking with a start,1.0,1
+rheumatic endocarditis,boring from body outward,1.0,1
+cardiac symptoms,rheumatic endocarditis,1.0,1
+cardiac symptoms,gasping respiration,1.0,1
+cardiac symptoms,stitches in muscles,1.0,1
+cardiac symptoms,painful stiffness of muscles of neck,1.0,1
+cardiac symptoms,severe stitches in internal muscles of forearm,1.0,1
+cardiac symptoms,redness of finger joints,1.0,1
+cardiac symptoms,boring pain at elbow,1.0,1
+cardiac symptoms,swelling of finger joints,1.0,1
+cardiac symptoms,oppressed respiration,1.0,1
+cardiac symptoms,spasms of acute cardiac pain,1.0,1
+cardiac symptoms,drawing stitches in hands,1.0,1
+cardiac symptoms,drawing stitches in forearms,1.0,1
+cardiac symptoms,tension of cervical muscles,1.0,1
+cardiac symptoms,painful sensation of stiffness in left side of neck,1.0,1
+cardiac symptoms,every excitement increases condition,1.0,1
+cardiac symptoms,fibrous deposits on valves of heart,1.0,1
+cardiac symptoms,feeling of lameness from right knee to hip,1.0,1
+cardiac symptoms,trembling in all the limbs,1.0,1
+cardiac symptoms,muscular twitching about left shoulder joint,1.0,1
+cardiac symptoms,especially right side,1.0,1
+cardiac symptoms,feels as if suffocated,1.0,1
+cardiac symptoms,valvular insufficiency,1.0,1
+cardiac symptoms,dull stitch in right lumbar muscles,1.0,1
+cardiac symptoms,metastasis to heart of rheumatism of lumbar region,1.0,1
+cardiac symptoms,worse on bending head,1.0,1
+cardiac symptoms,stinging pressing in precordial region,1.0,1
+cardiac symptoms,cramp-like pain in ball of thumb,1.0,1
+cardiac symptoms,awakens with trembling,1.0,1
+cardiac symptoms,pain in upper arms with chills,1.0,1
+cardiac symptoms,pain,1.0,1
+cardiac symptoms,awakens in a fright,1.0,1
+cardiac symptoms,induration,1.0,1
+cardiac symptoms,loud blowing with each beat,1.0,1
+cardiac symptoms,awakens with fear,1.0,1
+cardiac symptoms,waking with sense of suffocation,1.0,1
+cardiac symptoms,drawing pain from lower portion of right foot to thigh,1.0,1
+cardiac symptoms,tension on bending finger joints,1.0,1
+cardiac symptoms,inability to lie down,1.0,1
+cardiac symptoms,back of neck snaps on stooping,1.0,1
+cardiac symptoms,frequent waking with a start,1.0,1
+cardiac symptoms,boring from body outward,1.0,1
+painful stiffness of muscles of neck,rheumatic endocarditis,1.0,1
+painful stiffness of muscles of neck,gasping respiration,1.0,1
+painful stiffness of muscles of neck,stitches in muscles,1.0,1
+painful stiffness of muscles of neck,severe stitches in internal muscles of forearm,1.0,1
+painful stiffness of muscles of neck,redness of finger joints,1.0,1
+painful stiffness of muscles of neck,boring pain at elbow,1.0,1
+painful stiffness of muscles of neck,swelling of finger joints,1.0,1
+painful stiffness of muscles of neck,oppressed respiration,1.0,1
+painful stiffness of muscles of neck,spasms of acute cardiac pain,1.0,1
+painful stiffness of muscles of neck,drawing stitches in hands,1.0,1
+painful stiffness of muscles of neck,drawing stitches in forearms,1.0,1
+painful stiffness of muscles of neck,tension of cervical muscles,1.0,1
+painful stiffness of muscles of neck,painful sensation of stiffness in left side of neck,1.0,1
+painful stiffness of muscles of neck,cardiac symptoms,1.0,1
+painful stiffness of muscles of neck,every excitement increases condition,1.0,1
+painful stiffness of muscles of neck,fibrous deposits on valves of heart,1.0,1
+painful stiffness of muscles of neck,feeling of lameness from right knee to hip,1.0,1
+painful stiffness of muscles of neck,trembling in all the limbs,1.0,1
+painful stiffness of muscles of neck,muscular twitching about left shoulder joint,1.0,1
+painful stiffness of muscles of neck,especially right side,1.0,1
+painful stiffness of muscles of neck,feels as if suffocated,1.0,1
+painful stiffness of muscles of neck,valvular insufficiency,1.0,1
+painful stiffness of muscles of neck,dull stitch in right lumbar muscles,1.0,1
+painful stiffness of muscles of neck,metastasis to heart of rheumatism of lumbar region,1.0,1
+painful stiffness of muscles of neck,worse on bending head,1.0,1
+painful stiffness of muscles of neck,stinging pressing in precordial region,1.0,1
+painful stiffness of muscles of neck,cramp-like pain in ball of thumb,1.0,1
+painful stiffness of muscles of neck,awakens with trembling,1.0,1
+painful stiffness of muscles of neck,pain in upper arms with chills,1.0,1
+painful stiffness of muscles of neck,pain,1.0,1
+painful stiffness of muscles of neck,awakens in a fright,1.0,1
+painful stiffness of muscles of neck,induration,1.0,1
+painful stiffness of muscles of neck,loud blowing with each beat,1.0,1
+painful stiffness of muscles of neck,awakens with fear,1.0,1
+painful stiffness of muscles of neck,waking with sense of suffocation,1.0,1
+painful stiffness of muscles of neck,drawing pain from lower portion of right foot to thigh,1.0,1
+painful stiffness of muscles of neck,tension on bending finger joints,1.0,1
+painful stiffness of muscles of neck,inability to lie down,1.0,1
+painful stiffness of muscles of neck,back of neck snaps on stooping,1.0,1
+painful stiffness of muscles of neck,frequent waking with a start,1.0,1
+painful stiffness of muscles of neck,boring from body outward,1.0,1
+every excitement increases condition,rheumatic endocarditis,1.0,1
+every excitement increases condition,gasping respiration,1.0,1
+every excitement increases condition,stitches in muscles,1.0,1
+every excitement increases condition,painful stiffness of muscles of neck,1.0,1
+every excitement increases condition,severe stitches in internal muscles of forearm,1.0,1
+every excitement increases condition,redness of finger joints,1.0,1
+every excitement increases condition,boring pain at elbow,1.0,1
+every excitement increases condition,swelling of finger joints,1.0,1
+every excitement increases condition,oppressed respiration,1.0,1
+every excitement increases condition,spasms of acute cardiac pain,1.0,1
+every excitement increases condition,drawing stitches in hands,1.0,1
+every excitement increases condition,drawing stitches in forearms,1.0,1
+every excitement increases condition,tension of cervical muscles,1.0,1
+every excitement increases condition,painful sensation of stiffness in left side of neck,1.0,1
+every excitement increases condition,cardiac symptoms,1.0,1
+every excitement increases condition,fibrous deposits on valves of heart,1.0,1
+every excitement increases condition,feeling of lameness from right knee to hip,1.0,1
+every excitement increases condition,trembling in all the limbs,1.0,1
+every excitement increases condition,muscular twitching about left shoulder joint,1.0,1
+every excitement increases condition,especially right side,1.0,1
+every excitement increases condition,feels as if suffocated,1.0,1
+every excitement increases condition,valvular insufficiency,1.0,1
+every excitement increases condition,dull stitch in right lumbar muscles,1.0,1
+every excitement increases condition,metastasis to heart of rheumatism of lumbar region,1.0,1
+every excitement increases condition,worse on bending head,1.0,1
+every excitement increases condition,stinging pressing in precordial region,1.0,1
+every excitement increases condition,cramp-like pain in ball of thumb,1.0,1
+every excitement increases condition,awakens with trembling,1.0,1
+every excitement increases condition,pain in upper arms with chills,1.0,1
+every excitement increases condition,pain,1.0,1
+every excitement increases condition,awakens in a fright,1.0,1
+every excitement increases condition,induration,1.0,1
+every excitement increases condition,loud blowing with each beat,1.0,1
+every excitement increases condition,awakens with fear,1.0,1
+every excitement increases condition,waking with sense of suffocation,1.0,1
+every excitement increases condition,drawing pain from lower portion of right foot to thigh,1.0,1
+every excitement increases condition,tension on bending finger joints,1.0,1
+every excitement increases condition,inability to lie down,1.0,1
+every excitement increases condition,back of neck snaps on stooping,1.0,1
+every excitement increases condition,frequent waking with a start,1.0,1
+every excitement increases condition,boring from body outward,1.0,1
+feels as if suffocated,rheumatic endocarditis,1.0,1
+feels as if suffocated,gasping respiration,1.0,1
+feels as if suffocated,stitches in muscles,1.0,1
+feels as if suffocated,painful stiffness of muscles of neck,1.0,1
+feels as if suffocated,severe stitches in internal muscles of forearm,1.0,1
+feels as if suffocated,redness of finger joints,1.0,1
+feels as if suffocated,boring pain at elbow,1.0,1
+feels as if suffocated,swelling of finger joints,1.0,1
+feels as if suffocated,oppressed respiration,1.0,1
+feels as if suffocated,spasms of acute cardiac pain,1.0,1
+feels as if suffocated,drawing stitches in hands,1.0,1
+feels as if suffocated,drawing stitches in forearms,1.0,1
+feels as if suffocated,tension of cervical muscles,1.0,1
+feels as if suffocated,painful sensation of stiffness in left side of neck,1.0,1
+feels as if suffocated,cardiac symptoms,1.0,1
+feels as if suffocated,every excitement increases condition,1.0,1
+feels as if suffocated,fibrous deposits on valves of heart,1.0,1
+feels as if suffocated,feeling of lameness from right knee to hip,1.0,1
+feels as if suffocated,trembling in all the limbs,1.0,1
+feels as if suffocated,muscular twitching about left shoulder joint,1.0,1
+feels as if suffocated,especially right side,1.0,1
+feels as if suffocated,valvular insufficiency,1.0,1
+feels as if suffocated,dull stitch in right lumbar muscles,1.0,1
+feels as if suffocated,metastasis to heart of rheumatism of lumbar region,1.0,1
+feels as if suffocated,worse on bending head,1.0,1
+feels as if suffocated,stinging pressing in precordial region,1.0,1
+feels as if suffocated,cramp-like pain in ball of thumb,1.0,1
+feels as if suffocated,awakens with trembling,1.0,1
+feels as if suffocated,pain in upper arms with chills,1.0,1
+feels as if suffocated,pain,1.0,1
+feels as if suffocated,awakens in a fright,1.0,1
+feels as if suffocated,induration,1.0,1
+feels as if suffocated,loud blowing with each beat,1.0,1
+feels as if suffocated,awakens with fear,1.0,1
+feels as if suffocated,waking with sense of suffocation,1.0,1
+feels as if suffocated,drawing pain from lower portion of right foot to thigh,1.0,1
+feels as if suffocated,tension on bending finger joints,1.0,1
+feels as if suffocated,inability to lie down,1.0,1
+feels as if suffocated,back of neck snaps on stooping,1.0,1
+feels as if suffocated,frequent waking with a start,1.0,1
+feels as if suffocated,boring from body outward,1.0,1
+stinging pressing in precordial region,rheumatic endocarditis,1.0,1
+stinging pressing in precordial region,gasping respiration,1.0,1
+stinging pressing in precordial region,stitches in muscles,1.0,1
+stinging pressing in precordial region,painful stiffness of muscles of neck,1.0,1
+stinging pressing in precordial region,severe stitches in internal muscles of forearm,1.0,1
+stinging pressing in precordial region,redness of finger joints,1.0,1
+stinging pressing in precordial region,boring pain at elbow,1.0,1
+stinging pressing in precordial region,swelling of finger joints,1.0,1
+stinging pressing in precordial region,oppressed respiration,1.0,1
+stinging pressing in precordial region,spasms of acute cardiac pain,1.0,1
+stinging pressing in precordial region,drawing stitches in hands,1.0,1
+stinging pressing in precordial region,drawing stitches in forearms,1.0,1
+stinging pressing in precordial region,tension of cervical muscles,1.0,1
+stinging pressing in precordial region,painful sensation of stiffness in left side of neck,1.0,1
+stinging pressing in precordial region,cardiac symptoms,1.0,1
+stinging pressing in precordial region,every excitement increases condition,1.0,1
+stinging pressing in precordial region,fibrous deposits on valves of heart,1.0,1
+stinging pressing in precordial region,feeling of lameness from right knee to hip,1.0,1
+stinging pressing in precordial region,trembling in all the limbs,1.0,1
+stinging pressing in precordial region,muscular twitching about left shoulder joint,1.0,1
+stinging pressing in precordial region,especially right side,1.0,1
+stinging pressing in precordial region,feels as if suffocated,1.0,1
+stinging pressing in precordial region,valvular insufficiency,1.0,1
+stinging pressing in precordial region,dull stitch in right lumbar muscles,1.0,1
+stinging pressing in precordial region,metastasis to heart of rheumatism of lumbar region,1.0,1
+stinging pressing in precordial region,worse on bending head,1.0,1
+stinging pressing in precordial region,cramp-like pain in ball of thumb,1.0,1
+stinging pressing in precordial region,awakens with trembling,1.0,1
+stinging pressing in precordial region,pain in upper arms with chills,1.0,1
+stinging pressing in precordial region,pain,1.0,1
+stinging pressing in precordial region,awakens in a fright,1.0,1
+stinging pressing in precordial region,induration,1.0,1
+stinging pressing in precordial region,loud blowing with each beat,1.0,1
+stinging pressing in precordial region,awakens with fear,1.0,1
+stinging pressing in precordial region,waking with sense of suffocation,1.0,1
+stinging pressing in precordial region,drawing pain from lower portion of right foot to thigh,1.0,1
+stinging pressing in precordial region,tension on bending finger joints,1.0,1
+stinging pressing in precordial region,inability to lie down,1.0,1
+stinging pressing in precordial region,back of neck snaps on stooping,1.0,1
+stinging pressing in precordial region,frequent waking with a start,1.0,1
+stinging pressing in precordial region,boring from body outward,1.0,1
+fibrous deposits on valves of heart,rheumatic endocarditis,1.0,1
+fibrous deposits on valves of heart,gasping respiration,1.0,1
+fibrous deposits on valves of heart,stitches in muscles,1.0,1
+fibrous deposits on valves of heart,painful stiffness of muscles of neck,1.0,1
+fibrous deposits on valves of heart,severe stitches in internal muscles of forearm,1.0,1
+fibrous deposits on valves of heart,redness of finger joints,1.0,1
+fibrous deposits on valves of heart,boring pain at elbow,1.0,1
+fibrous deposits on valves of heart,swelling of finger joints,1.0,1
+fibrous deposits on valves of heart,oppressed respiration,1.0,1
+fibrous deposits on valves of heart,spasms of acute cardiac pain,1.0,1
+fibrous deposits on valves of heart,drawing stitches in hands,1.0,1
+fibrous deposits on valves of heart,drawing stitches in forearms,1.0,1
+fibrous deposits on valves of heart,tension of cervical muscles,1.0,1
+fibrous deposits on valves of heart,painful sensation of stiffness in left side of neck,1.0,1
+fibrous deposits on valves of heart,cardiac symptoms,1.0,1
+fibrous deposits on valves of heart,every excitement increases condition,1.0,1
+fibrous deposits on valves of heart,feeling of lameness from right knee to hip,1.0,1
+fibrous deposits on valves of heart,trembling in all the limbs,1.0,1
+fibrous deposits on valves of heart,muscular twitching about left shoulder joint,1.0,1
+fibrous deposits on valves of heart,especially right side,1.0,1
+fibrous deposits on valves of heart,feels as if suffocated,1.0,1
+fibrous deposits on valves of heart,valvular insufficiency,1.0,1
+fibrous deposits on valves of heart,dull stitch in right lumbar muscles,1.0,1
+fibrous deposits on valves of heart,metastasis to heart of rheumatism of lumbar region,1.0,1
+fibrous deposits on valves of heart,worse on bending head,1.0,1
+fibrous deposits on valves of heart,stinging pressing in precordial region,1.0,1
+fibrous deposits on valves of heart,cramp-like pain in ball of thumb,1.0,1
+fibrous deposits on valves of heart,awakens with trembling,1.0,1
+fibrous deposits on valves of heart,pain in upper arms with chills,1.0,1
+fibrous deposits on valves of heart,pain,1.0,1
+fibrous deposits on valves of heart,awakens in a fright,1.0,1
+fibrous deposits on valves of heart,induration,1.0,1
+fibrous deposits on valves of heart,loud blowing with each beat,1.0,1
+fibrous deposits on valves of heart,awakens with fear,1.0,1
+fibrous deposits on valves of heart,waking with sense of suffocation,1.0,1
+fibrous deposits on valves of heart,drawing pain from lower portion of right foot to thigh,1.0,1
+fibrous deposits on valves of heart,tension on bending finger joints,1.0,1
+fibrous deposits on valves of heart,inability to lie down,1.0,1
+fibrous deposits on valves of heart,back of neck snaps on stooping,1.0,1
+fibrous deposits on valves of heart,frequent waking with a start,1.0,1
+fibrous deposits on valves of heart,boring from body outward,1.0,1
+pain,rheumatic endocarditis,1.0,1
+pain,gasping respiration,1.0,1
+pain,stitches in muscles,1.0,1
+pain,painful stiffness of muscles of neck,1.0,1
+pain,severe stitches in internal muscles of forearm,1.0,1
+pain,redness of finger joints,1.0,1
+pain,boring pain at elbow,1.0,1
+pain,swelling of finger joints,1.0,1
+pain,oppressed respiration,1.0,1
+pain,spasms of acute cardiac pain,1.0,1
+pain,drawing stitches in hands,1.0,1
+pain,drawing stitches in forearms,1.0,1
+pain,tension of cervical muscles,1.0,1
+pain,painful sensation of stiffness in left side of neck,1.0,1
+pain,cardiac symptoms,1.0,1
+pain,every excitement increases condition,1.0,1
+pain,fibrous deposits on valves of heart,1.0,1
+pain,feeling of lameness from right knee to hip,1.0,1
+pain,trembling in all the limbs,1.0,1
+pain,muscular twitching about left shoulder joint,1.0,1
+pain,especially right side,1.0,1
+pain,feels as if suffocated,1.0,1
+pain,valvular insufficiency,1.0,1
+pain,dull stitch in right lumbar muscles,1.0,1
+pain,metastasis to heart of rheumatism of lumbar region,1.0,1
+pain,worse on bending head,1.0,1
+pain,stinging pressing in precordial region,1.0,1
+pain,cramp-like pain in ball of thumb,1.0,1
+pain,awakens with trembling,1.0,1
+pain,pain in upper arms with chills,1.0,1
+pain,awakens in a fright,1.0,1
+pain,induration,1.0,1
+pain,loud blowing with each beat,1.0,1
+pain,awakens with fear,1.0,1
+pain,waking with sense of suffocation,1.0,1
+pain,drawing pain from lower portion of right foot to thigh,1.0,1
+pain,tension on bending finger joints,1.0,1
+pain,inability to lie down,1.0,1
+pain,back of neck snaps on stooping,1.0,1
+pain,frequent waking with a start,1.0,1
+pain,boring from body outward,1.0,1
+cramp-like pain in ball of thumb,rheumatic endocarditis,1.0,1
+cramp-like pain in ball of thumb,gasping respiration,1.0,1
+cramp-like pain in ball of thumb,stitches in muscles,1.0,1
+cramp-like pain in ball of thumb,painful stiffness of muscles of neck,1.0,1
+cramp-like pain in ball of thumb,severe stitches in internal muscles of forearm,1.0,1
+cramp-like pain in ball of thumb,redness of finger joints,1.0,1
+cramp-like pain in ball of thumb,boring pain at elbow,1.0,1
+cramp-like pain in ball of thumb,swelling of finger joints,1.0,1
+cramp-like pain in ball of thumb,oppressed respiration,1.0,1
+cramp-like pain in ball of thumb,spasms of acute cardiac pain,1.0,1
+cramp-like pain in ball of thumb,drawing stitches in hands,1.0,1
+cramp-like pain in ball of thumb,drawing stitches in forearms,1.0,1
+cramp-like pain in ball of thumb,tension of cervical muscles,1.0,1
+cramp-like pain in ball of thumb,painful sensation of stiffness in left side of neck,1.0,1
+cramp-like pain in ball of thumb,cardiac symptoms,1.0,1
+cramp-like pain in ball of thumb,every excitement increases condition,1.0,1
+cramp-like pain in ball of thumb,fibrous deposits on valves of heart,1.0,1
+cramp-like pain in ball of thumb,feeling of lameness from right knee to hip,1.0,1
+cramp-like pain in ball of thumb,trembling in all the limbs,1.0,1
+cramp-like pain in ball of thumb,muscular twitching about left shoulder joint,1.0,1
+cramp-like pain in ball of thumb,especially right side,1.0,1
+cramp-like pain in ball of thumb,feels as if suffocated,1.0,1
+cramp-like pain in ball of thumb,valvular insufficiency,1.0,1
+cramp-like pain in ball of thumb,dull stitch in right lumbar muscles,1.0,1
+cramp-like pain in ball of thumb,metastasis to heart of rheumatism of lumbar region,1.0,1
+cramp-like pain in ball of thumb,worse on bending head,1.0,1
+cramp-like pain in ball of thumb,stinging pressing in precordial region,1.0,1
+cramp-like pain in ball of thumb,awakens with trembling,1.0,1
+cramp-like pain in ball of thumb,pain in upper arms with chills,1.0,1
+cramp-like pain in ball of thumb,pain,1.0,1
+cramp-like pain in ball of thumb,awakens in a fright,1.0,1
+cramp-like pain in ball of thumb,induration,1.0,1
+cramp-like pain in ball of thumb,loud blowing with each beat,1.0,1
+cramp-like pain in ball of thumb,awakens with fear,1.0,1
+cramp-like pain in ball of thumb,waking with sense of suffocation,1.0,1
+cramp-like pain in ball of thumb,drawing pain from lower portion of right foot to thigh,1.0,1
+cramp-like pain in ball of thumb,tension on bending finger joints,1.0,1
+cramp-like pain in ball of thumb,inability to lie down,1.0,1
+cramp-like pain in ball of thumb,back of neck snaps on stooping,1.0,1
+cramp-like pain in ball of thumb,frequent waking with a start,1.0,1
+cramp-like pain in ball of thumb,boring from body outward,1.0,1
+stitches in muscles,rheumatic endocarditis,1.0,1
+stitches in muscles,gasping respiration,1.0,1
+stitches in muscles,painful stiffness of muscles of neck,1.0,1
+stitches in muscles,severe stitches in internal muscles of forearm,1.0,1
+stitches in muscles,redness of finger joints,1.0,1
+stitches in muscles,boring pain at elbow,1.0,1
+stitches in muscles,swelling of finger joints,1.0,1
+stitches in muscles,oppressed respiration,1.0,1
+stitches in muscles,spasms of acute cardiac pain,1.0,1
+stitches in muscles,drawing stitches in hands,1.0,1
+stitches in muscles,drawing stitches in forearms,1.0,1
+stitches in muscles,tension of cervical muscles,1.0,1
+stitches in muscles,painful sensation of stiffness in left side of neck,1.0,1
+stitches in muscles,cardiac symptoms,1.0,1
+stitches in muscles,every excitement increases condition,1.0,1
+stitches in muscles,fibrous deposits on valves of heart,1.0,1
+stitches in muscles,feeling of lameness from right knee to hip,1.0,1
+stitches in muscles,trembling in all the limbs,1.0,1
+stitches in muscles,muscular twitching about left shoulder joint,1.0,1
+stitches in muscles,especially right side,1.0,1
+stitches in muscles,feels as if suffocated,1.0,1
+stitches in muscles,valvular insufficiency,1.0,1
+stitches in muscles,dull stitch in right lumbar muscles,1.0,1
+stitches in muscles,metastasis to heart of rheumatism of lumbar region,1.0,1
+stitches in muscles,worse on bending head,1.0,1
+stitches in muscles,stinging pressing in precordial region,1.0,1
+stitches in muscles,cramp-like pain in ball of thumb,1.0,1
+stitches in muscles,awakens with trembling,1.0,1
+stitches in muscles,pain in upper arms with chills,1.0,1
+stitches in muscles,pain,1.0,1
+stitches in muscles,awakens in a fright,1.0,1
+stitches in muscles,induration,1.0,1
+stitches in muscles,loud blowing with each beat,1.0,1
+stitches in muscles,awakens with fear,1.0,1
+stitches in muscles,waking with sense of suffocation,1.0,1
+stitches in muscles,drawing pain from lower portion of right foot to thigh,1.0,1
+stitches in muscles,tension on bending finger joints,1.0,1
+stitches in muscles,inability to lie down,1.0,1
+stitches in muscles,back of neck snaps on stooping,1.0,1
+stitches in muscles,frequent waking with a start,1.0,1
+stitches in muscles,boring from body outward,1.0,1
+boring pain at elbow,rheumatic endocarditis,1.0,1
+boring pain at elbow,gasping respiration,1.0,1
+boring pain at elbow,stitches in muscles,1.0,1
+boring pain at elbow,painful stiffness of muscles of neck,1.0,1
+boring pain at elbow,severe stitches in internal muscles of forearm,1.0,1
+boring pain at elbow,redness of finger joints,1.0,1
+boring pain at elbow,swelling of finger joints,1.0,1
+boring pain at elbow,oppressed respiration,1.0,1
+boring pain at elbow,spasms of acute cardiac pain,1.0,1
+boring pain at elbow,drawing stitches in hands,1.0,1
+boring pain at elbow,drawing stitches in forearms,1.0,1
+boring pain at elbow,tension of cervical muscles,1.0,1
+boring pain at elbow,painful sensation of stiffness in left side of neck,1.0,1
+boring pain at elbow,cardiac symptoms,1.0,1
+boring pain at elbow,every excitement increases condition,1.0,1
+boring pain at elbow,fibrous deposits on valves of heart,1.0,1
+boring pain at elbow,feeling of lameness from right knee to hip,1.0,1
+boring pain at elbow,trembling in all the limbs,1.0,1
+boring pain at elbow,muscular twitching about left shoulder joint,1.0,1
+boring pain at elbow,especially right side,1.0,1
+boring pain at elbow,feels as if suffocated,1.0,1
+boring pain at elbow,valvular insufficiency,1.0,1
+boring pain at elbow,dull stitch in right lumbar muscles,1.0,1
+boring pain at elbow,metastasis to heart of rheumatism of lumbar region,1.0,1
+boring pain at elbow,worse on bending head,1.0,1
+boring pain at elbow,stinging pressing in precordial region,1.0,1
+boring pain at elbow,cramp-like pain in ball of thumb,1.0,1
+boring pain at elbow,awakens with trembling,1.0,1
+boring pain at elbow,pain in upper arms with chills,1.0,1
+boring pain at elbow,pain,1.0,1
+boring pain at elbow,awakens in a fright,1.0,1
+boring pain at elbow,induration,1.0,1
+boring pain at elbow,loud blowing with each beat,1.0,1
+boring pain at elbow,awakens with fear,1.0,1
+boring pain at elbow,waking with sense of suffocation,1.0,1
+boring pain at elbow,drawing pain from lower portion of right foot to thigh,1.0,1
+boring pain at elbow,tension on bending finger joints,1.0,1
+boring pain at elbow,inability to lie down,1.0,1
+boring pain at elbow,back of neck snaps on stooping,1.0,1
+boring pain at elbow,frequent waking with a start,1.0,1
+boring pain at elbow,boring from body outward,1.0,1
+drawing stitches in forearms,rheumatic endocarditis,1.0,1
+drawing stitches in forearms,gasping respiration,1.0,1
+drawing stitches in forearms,stitches in muscles,1.0,1
+drawing stitches in forearms,painful stiffness of muscles of neck,1.0,1
+drawing stitches in forearms,severe stitches in internal muscles of forearm,1.0,1
+drawing stitches in forearms,redness of finger joints,1.0,1
+drawing stitches in forearms,boring pain at elbow,1.0,1
+drawing stitches in forearms,swelling of finger joints,1.0,1
+drawing stitches in forearms,oppressed respiration,1.0,1
+drawing stitches in forearms,spasms of acute cardiac pain,1.0,1
+drawing stitches in forearms,drawing stitches in hands,1.0,1
+drawing stitches in forearms,tension of cervical muscles,1.0,1
+drawing stitches in forearms,painful sensation of stiffness in left side of neck,1.0,1
+drawing stitches in forearms,cardiac symptoms,1.0,1
+drawing stitches in forearms,every excitement increases condition,1.0,1
+drawing stitches in forearms,fibrous deposits on valves of heart,1.0,1
+drawing stitches in forearms,feeling of lameness from right knee to hip,1.0,1
+drawing stitches in forearms,trembling in all the limbs,1.0,1
+drawing stitches in forearms,muscular twitching about left shoulder joint,1.0,1
+drawing stitches in forearms,especially right side,1.0,1
+drawing stitches in forearms,feels as if suffocated,1.0,1
+drawing stitches in forearms,valvular insufficiency,1.0,1
+drawing stitches in forearms,dull stitch in right lumbar muscles,1.0,1
+drawing stitches in forearms,metastasis to heart of rheumatism of lumbar region,1.0,1
+drawing stitches in forearms,worse on bending head,1.0,1
+drawing stitches in forearms,stinging pressing in precordial region,1.0,1
+drawing stitches in forearms,cramp-like pain in ball of thumb,1.0,1
+drawing stitches in forearms,awakens with trembling,1.0,1
+drawing stitches in forearms,pain in upper arms with chills,1.0,1
+drawing stitches in forearms,pain,1.0,1
+drawing stitches in forearms,awakens in a fright,1.0,1
+drawing stitches in forearms,induration,1.0,1
+drawing stitches in forearms,loud blowing with each beat,1.0,1
+drawing stitches in forearms,awakens with fear,1.0,1
+drawing stitches in forearms,waking with sense of suffocation,1.0,1
+drawing stitches in forearms,drawing pain from lower portion of right foot to thigh,1.0,1
+drawing stitches in forearms,tension on bending finger joints,1.0,1
+drawing stitches in forearms,inability to lie down,1.0,1
+drawing stitches in forearms,back of neck snaps on stooping,1.0,1
+drawing stitches in forearms,frequent waking with a start,1.0,1
+drawing stitches in forearms,boring from body outward,1.0,1
+drawing pain from lower portion of right foot to thigh,rheumatic endocarditis,1.0,1
+drawing pain from lower portion of right foot to thigh,gasping respiration,1.0,1
+drawing pain from lower portion of right foot to thigh,stitches in muscles,1.0,1
+drawing pain from lower portion of right foot to thigh,painful stiffness of muscles of neck,1.0,1
+drawing pain from lower portion of right foot to thigh,severe stitches in internal muscles of forearm,1.0,1
+drawing pain from lower portion of right foot to thigh,redness of finger joints,1.0,1
+drawing pain from lower portion of right foot to thigh,boring pain at elbow,1.0,1
+drawing pain from lower portion of right foot to thigh,swelling of finger joints,1.0,1
+drawing pain from lower portion of right foot to thigh,oppressed respiration,1.0,1
+drawing pain from lower portion of right foot to thigh,spasms of acute cardiac pain,1.0,1
+drawing pain from lower portion of right foot to thigh,drawing stitches in hands,1.0,1
+drawing pain from lower portion of right foot to thigh,drawing stitches in forearms,1.0,1
+drawing pain from lower portion of right foot to thigh,tension of cervical muscles,1.0,1
+drawing pain from lower portion of right foot to thigh,painful sensation of stiffness in left side of neck,1.0,1
+drawing pain from lower portion of right foot to thigh,cardiac symptoms,1.0,1
+drawing pain from lower portion of right foot to thigh,every excitement increases condition,1.0,1
+drawing pain from lower portion of right foot to thigh,fibrous deposits on valves of heart,1.0,1
+drawing pain from lower portion of right foot to thigh,feeling of lameness from right knee to hip,1.0,1
+drawing pain from lower portion of right foot to thigh,trembling in all the limbs,1.0,1
+drawing pain from lower portion of right foot to thigh,muscular twitching about left shoulder joint,1.0,1
+drawing pain from lower portion of right foot to thigh,especially right side,1.0,1
+drawing pain from lower portion of right foot to thigh,feels as if suffocated,1.0,1
+drawing pain from lower portion of right foot to thigh,valvular insufficiency,1.0,1
+drawing pain from lower portion of right foot to thigh,dull stitch in right lumbar muscles,1.0,1
+drawing pain from lower portion of right foot to thigh,metastasis to heart of rheumatism of lumbar region,1.0,1
+drawing pain from lower portion of right foot to thigh,worse on bending head,1.0,1
+drawing pain from lower portion of right foot to thigh,stinging pressing in precordial region,1.0,1
+drawing pain from lower portion of right foot to thigh,cramp-like pain in ball of thumb,1.0,1
+drawing pain from lower portion of right foot to thigh,awakens with trembling,1.0,1
+drawing pain from lower portion of right foot to thigh,pain in upper arms with chills,1.0,1
+drawing pain from lower portion of right foot to thigh,pain,1.0,1
+drawing pain from lower portion of right foot to thigh,awakens in a fright,1.0,1
+drawing pain from lower portion of right foot to thigh,induration,1.0,1
+drawing pain from lower portion of right foot to thigh,loud blowing with each beat,1.0,1
+drawing pain from lower portion of right foot to thigh,awakens with fear,1.0,1
+drawing pain from lower portion of right foot to thigh,waking with sense of suffocation,1.0,1
+drawing pain from lower portion of right foot to thigh,tension on bending finger joints,1.0,1
+drawing pain from lower portion of right foot to thigh,inability to lie down,1.0,1
+drawing pain from lower portion of right foot to thigh,back of neck snaps on stooping,1.0,1
+drawing pain from lower portion of right foot to thigh,frequent waking with a start,1.0,1
+drawing pain from lower portion of right foot to thigh,boring from body outward,1.0,1
+boring from body outward,rheumatic endocarditis,1.0,1
+boring from body outward,gasping respiration,1.0,1
+boring from body outward,stitches in muscles,1.0,1
+boring from body outward,painful stiffness of muscles of neck,1.0,1
+boring from body outward,severe stitches in internal muscles of forearm,1.0,1
+boring from body outward,redness of finger joints,1.0,1
+boring from body outward,boring pain at elbow,1.0,1
+boring from body outward,swelling of finger joints,1.0,1
+boring from body outward,oppressed respiration,1.0,1
+boring from body outward,spasms of acute cardiac pain,1.0,1
+boring from body outward,drawing stitches in hands,1.0,1
+boring from body outward,drawing stitches in forearms,1.0,1
+boring from body outward,tension of cervical muscles,1.0,1
+boring from body outward,painful sensation of stiffness in left side of neck,1.0,1
+boring from body outward,cardiac symptoms,1.0,1
+boring from body outward,every excitement increases condition,1.0,1
+boring from body outward,fibrous deposits on valves of heart,1.0,1
+boring from body outward,feeling of lameness from right knee to hip,1.0,1
+boring from body outward,trembling in all the limbs,1.0,1
+boring from body outward,muscular twitching about left shoulder joint,1.0,1
+boring from body outward,especially right side,1.0,1
+boring from body outward,feels as if suffocated,1.0,1
+boring from body outward,valvular insufficiency,1.0,1
+boring from body outward,dull stitch in right lumbar muscles,1.0,1
+boring from body outward,metastasis to heart of rheumatism of lumbar region,1.0,1
+boring from body outward,worse on bending head,1.0,1
+boring from body outward,stinging pressing in precordial region,1.0,1
+boring from body outward,cramp-like pain in ball of thumb,1.0,1
+boring from body outward,awakens with trembling,1.0,1
+boring from body outward,pain in upper arms with chills,1.0,1
+boring from body outward,pain,1.0,1
+boring from body outward,awakens in a fright,1.0,1
+boring from body outward,induration,1.0,1
+boring from body outward,loud blowing with each beat,1.0,1
+boring from body outward,awakens with fear,1.0,1
+boring from body outward,waking with sense of suffocation,1.0,1
+boring from body outward,drawing pain from lower portion of right foot to thigh,1.0,1
+boring from body outward,tension on bending finger joints,1.0,1
+boring from body outward,inability to lie down,1.0,1
+boring from body outward,back of neck snaps on stooping,1.0,1
+boring from body outward,frequent waking with a start,1.0,1
+valvular insufficiency,rheumatic endocarditis,1.0,1
+valvular insufficiency,gasping respiration,1.0,1
+valvular insufficiency,stitches in muscles,1.0,1
+valvular insufficiency,painful stiffness of muscles of neck,1.0,1
+valvular insufficiency,severe stitches in internal muscles of forearm,1.0,1
+valvular insufficiency,redness of finger joints,1.0,1
+valvular insufficiency,boring pain at elbow,1.0,1
+valvular insufficiency,swelling of finger joints,1.0,1
+valvular insufficiency,oppressed respiration,1.0,1
+valvular insufficiency,spasms of acute cardiac pain,1.0,1
+valvular insufficiency,drawing stitches in hands,1.0,1
+valvular insufficiency,drawing stitches in forearms,1.0,1
+valvular insufficiency,tension of cervical muscles,1.0,1
+valvular insufficiency,painful sensation of stiffness in left side of neck,1.0,1
+valvular insufficiency,cardiac symptoms,1.0,1
+valvular insufficiency,every excitement increases condition,1.0,1
+valvular insufficiency,fibrous deposits on valves of heart,1.0,1
+valvular insufficiency,feeling of lameness from right knee to hip,1.0,1
+valvular insufficiency,trembling in all the limbs,1.0,1
+valvular insufficiency,muscular twitching about left shoulder joint,1.0,1
+valvular insufficiency,especially right side,1.0,1
+valvular insufficiency,feels as if suffocated,1.0,1
+valvular insufficiency,dull stitch in right lumbar muscles,1.0,1
+valvular insufficiency,metastasis to heart of rheumatism of lumbar region,1.0,1
+valvular insufficiency,worse on bending head,1.0,1
+valvular insufficiency,stinging pressing in precordial region,1.0,1
+valvular insufficiency,cramp-like pain in ball of thumb,1.0,1
+valvular insufficiency,awakens with trembling,1.0,1
+valvular insufficiency,pain in upper arms with chills,1.0,1
+valvular insufficiency,pain,1.0,1
+valvular insufficiency,awakens in a fright,1.0,1
+valvular insufficiency,induration,1.0,1
+valvular insufficiency,loud blowing with each beat,1.0,1
+valvular insufficiency,awakens with fear,1.0,1
+valvular insufficiency,waking with sense of suffocation,1.0,1
+valvular insufficiency,drawing pain from lower portion of right foot to thigh,1.0,1
+valvular insufficiency,tension on bending finger joints,1.0,1
+valvular insufficiency,inability to lie down,1.0,1
+valvular insufficiency,back of neck snaps on stooping,1.0,1
+valvular insufficiency,frequent waking with a start,1.0,1
+valvular insufficiency,boring from body outward,1.0,1
+induration,rheumatic endocarditis,1.0,1
+induration,gasping respiration,1.0,1
+induration,stitches in muscles,1.0,1
+induration,painful stiffness of muscles of neck,1.0,1
+induration,severe stitches in internal muscles of forearm,1.0,1
+induration,redness of finger joints,1.0,1
+induration,boring pain at elbow,1.0,1
+induration,swelling of finger joints,1.0,1
+induration,oppressed respiration,1.0,1
+induration,spasms of acute cardiac pain,1.0,1
+induration,drawing stitches in hands,1.0,1
+induration,drawing stitches in forearms,1.0,1
+induration,tension of cervical muscles,1.0,1
+induration,painful sensation of stiffness in left side of neck,1.0,1
+induration,cardiac symptoms,1.0,1
+induration,every excitement increases condition,1.0,1
+induration,fibrous deposits on valves of heart,1.0,1
+induration,feeling of lameness from right knee to hip,1.0,1
+induration,trembling in all the limbs,1.0,1
+induration,muscular twitching about left shoulder joint,1.0,1
+induration,especially right side,1.0,1
+induration,feels as if suffocated,1.0,1
+induration,valvular insufficiency,1.0,1
+induration,dull stitch in right lumbar muscles,1.0,1
+induration,metastasis to heart of rheumatism of lumbar region,1.0,1
+induration,worse on bending head,1.0,1
+induration,stinging pressing in precordial region,1.0,1
+induration,cramp-like pain in ball of thumb,1.0,1
+induration,awakens with trembling,1.0,1
+induration,pain in upper arms with chills,1.0,1
+induration,pain,1.0,1
+induration,awakens in a fright,1.0,1
+induration,loud blowing with each beat,1.0,1
+induration,awakens with fear,1.0,1
+induration,waking with sense of suffocation,1.0,1
+induration,drawing pain from lower portion of right foot to thigh,1.0,1
+induration,tension on bending finger joints,1.0,1
+induration,inability to lie down,1.0,1
+induration,back of neck snaps on stooping,1.0,1
+induration,frequent waking with a start,1.0,1
+induration,boring from body outward,1.0,1
+inability to lie down,rheumatic endocarditis,1.0,1
+inability to lie down,gasping respiration,1.0,1
+inability to lie down,stitches in muscles,1.0,1
+inability to lie down,painful stiffness of muscles of neck,1.0,1
+inability to lie down,severe stitches in internal muscles of forearm,1.0,1
+inability to lie down,redness of finger joints,1.0,1
+inability to lie down,boring pain at elbow,1.0,1
+inability to lie down,swelling of finger joints,1.0,1
+inability to lie down,oppressed respiration,1.0,1
+inability to lie down,spasms of acute cardiac pain,1.0,1
+inability to lie down,drawing stitches in hands,1.0,1
+inability to lie down,drawing stitches in forearms,1.0,1
+inability to lie down,tension of cervical muscles,1.0,1
+inability to lie down,painful sensation of stiffness in left side of neck,1.0,1
+inability to lie down,cardiac symptoms,1.0,1
+inability to lie down,every excitement increases condition,1.0,1
+inability to lie down,fibrous deposits on valves of heart,1.0,1
+inability to lie down,feeling of lameness from right knee to hip,1.0,1
+inability to lie down,trembling in all the limbs,1.0,1
+inability to lie down,muscular twitching about left shoulder joint,1.0,1
+inability to lie down,especially right side,1.0,1
+inability to lie down,feels as if suffocated,1.0,1
+inability to lie down,valvular insufficiency,1.0,1
+inability to lie down,dull stitch in right lumbar muscles,1.0,1
+inability to lie down,metastasis to heart of rheumatism of lumbar region,1.0,1
+inability to lie down,worse on bending head,1.0,1
+inability to lie down,stinging pressing in precordial region,1.0,1
+inability to lie down,cramp-like pain in ball of thumb,1.0,1
+inability to lie down,awakens with trembling,1.0,1
+inability to lie down,pain in upper arms with chills,1.0,1
+inability to lie down,pain,1.0,1
+inability to lie down,awakens in a fright,1.0,1
+inability to lie down,induration,1.0,1
+inability to lie down,loud blowing with each beat,1.0,1
+inability to lie down,awakens with fear,1.0,1
+inability to lie down,waking with sense of suffocation,1.0,1
+inability to lie down,drawing pain from lower portion of right foot to thigh,1.0,1
+inability to lie down,tension on bending finger joints,1.0,1
+inability to lie down,back of neck snaps on stooping,1.0,1
+inability to lie down,frequent waking with a start,1.0,1
+inability to lie down,boring from body outward,1.0,1
+loud blowing with each beat,rheumatic endocarditis,1.0,1
+loud blowing with each beat,gasping respiration,1.0,1
+loud blowing with each beat,stitches in muscles,1.0,1
+loud blowing with each beat,painful stiffness of muscles of neck,1.0,1
+loud blowing with each beat,severe stitches in internal muscles of forearm,1.0,1
+loud blowing with each beat,redness of finger joints,1.0,1
+loud blowing with each beat,boring pain at elbow,1.0,1
+loud blowing with each beat,swelling of finger joints,1.0,1
+loud blowing with each beat,oppressed respiration,1.0,1
+loud blowing with each beat,spasms of acute cardiac pain,1.0,1
+loud blowing with each beat,drawing stitches in hands,1.0,1
+loud blowing with each beat,drawing stitches in forearms,1.0,1
+loud blowing with each beat,tension of cervical muscles,1.0,1
+loud blowing with each beat,painful sensation of stiffness in left side of neck,1.0,1
+loud blowing with each beat,cardiac symptoms,1.0,1
+loud blowing with each beat,every excitement increases condition,1.0,1
+loud blowing with each beat,fibrous deposits on valves of heart,1.0,1
+loud blowing with each beat,feeling of lameness from right knee to hip,1.0,1
+loud blowing with each beat,trembling in all the limbs,1.0,1
+loud blowing with each beat,muscular twitching about left shoulder joint,1.0,1
+loud blowing with each beat,especially right side,1.0,1
+loud blowing with each beat,feels as if suffocated,1.0,1
+loud blowing with each beat,valvular insufficiency,1.0,1
+loud blowing with each beat,dull stitch in right lumbar muscles,1.0,1
+loud blowing with each beat,metastasis to heart of rheumatism of lumbar region,1.0,1
+loud blowing with each beat,worse on bending head,1.0,1
+loud blowing with each beat,stinging pressing in precordial region,1.0,1
+loud blowing with each beat,cramp-like pain in ball of thumb,1.0,1
+loud blowing with each beat,awakens with trembling,1.0,1
+loud blowing with each beat,pain in upper arms with chills,1.0,1
+loud blowing with each beat,pain,1.0,1
+loud blowing with each beat,awakens in a fright,1.0,1
+loud blowing with each beat,induration,1.0,1
+loud blowing with each beat,awakens with fear,1.0,1
+loud blowing with each beat,waking with sense of suffocation,1.0,1
+loud blowing with each beat,drawing pain from lower portion of right foot to thigh,1.0,1
+loud blowing with each beat,tension on bending finger joints,1.0,1
+loud blowing with each beat,inability to lie down,1.0,1
+loud blowing with each beat,back of neck snaps on stooping,1.0,1
+loud blowing with each beat,frequent waking with a start,1.0,1
+loud blowing with each beat,boring from body outward,1.0,1
+awakens with fear,rheumatic endocarditis,1.0,1
+awakens with fear,gasping respiration,1.0,1
+awakens with fear,stitches in muscles,1.0,1
+awakens with fear,painful stiffness of muscles of neck,1.0,1
+awakens with fear,severe stitches in internal muscles of forearm,1.0,1
+awakens with fear,redness of finger joints,1.0,1
+awakens with fear,boring pain at elbow,1.0,1
+awakens with fear,swelling of finger joints,1.0,1
+awakens with fear,oppressed respiration,1.0,1
+awakens with fear,spasms of acute cardiac pain,1.0,1
+awakens with fear,drawing stitches in hands,1.0,1
+awakens with fear,drawing stitches in forearms,1.0,1
+awakens with fear,tension of cervical muscles,1.0,1
+awakens with fear,painful sensation of stiffness in left side of neck,1.0,1
+awakens with fear,cardiac symptoms,1.0,1
+awakens with fear,every excitement increases condition,1.0,1
+awakens with fear,fibrous deposits on valves of heart,1.0,1
+awakens with fear,feeling of lameness from right knee to hip,1.0,1
+awakens with fear,trembling in all the limbs,1.0,1
+awakens with fear,muscular twitching about left shoulder joint,1.0,1
+awakens with fear,especially right side,1.0,1
+awakens with fear,feels as if suffocated,1.0,1
+awakens with fear,valvular insufficiency,1.0,1
+awakens with fear,dull stitch in right lumbar muscles,1.0,1
+awakens with fear,metastasis to heart of rheumatism of lumbar region,1.0,1
+awakens with fear,worse on bending head,1.0,1
+awakens with fear,stinging pressing in precordial region,1.0,1
+awakens with fear,cramp-like pain in ball of thumb,1.0,1
+awakens with fear,awakens with trembling,1.0,1
+awakens with fear,pain in upper arms with chills,1.0,1
+awakens with fear,pain,1.0,1
+awakens with fear,awakens in a fright,1.0,1
+awakens with fear,induration,1.0,1
+awakens with fear,loud blowing with each beat,1.0,1
+awakens with fear,waking with sense of suffocation,1.0,1
+awakens with fear,drawing pain from lower portion of right foot to thigh,1.0,1
+awakens with fear,tension on bending finger joints,1.0,1
+awakens with fear,inability to lie down,1.0,1
+awakens with fear,back of neck snaps on stooping,1.0,1
+awakens with fear,frequent waking with a start,1.0,1
+awakens with fear,boring from body outward,1.0,1
+spasms of acute cardiac pain,rheumatic endocarditis,1.0,1
+spasms of acute cardiac pain,gasping respiration,1.0,1
+spasms of acute cardiac pain,stitches in muscles,1.0,1
+spasms of acute cardiac pain,painful stiffness of muscles of neck,1.0,1
+spasms of acute cardiac pain,severe stitches in internal muscles of forearm,1.0,1
+spasms of acute cardiac pain,redness of finger joints,1.0,1
+spasms of acute cardiac pain,boring pain at elbow,1.0,1
+spasms of acute cardiac pain,swelling of finger joints,1.0,1
+spasms of acute cardiac pain,oppressed respiration,1.0,1
+spasms of acute cardiac pain,drawing stitches in hands,1.0,1
+spasms of acute cardiac pain,drawing stitches in forearms,1.0,1
+spasms of acute cardiac pain,tension of cervical muscles,1.0,1
+spasms of acute cardiac pain,painful sensation of stiffness in left side of neck,1.0,1
+spasms of acute cardiac pain,cardiac symptoms,1.0,1
+spasms of acute cardiac pain,every excitement increases condition,1.0,1
+spasms of acute cardiac pain,fibrous deposits on valves of heart,1.0,1
+spasms of acute cardiac pain,feeling of lameness from right knee to hip,1.0,1
+spasms of acute cardiac pain,trembling in all the limbs,1.0,1
+spasms of acute cardiac pain,muscular twitching about left shoulder joint,1.0,1
+spasms of acute cardiac pain,especially right side,1.0,1
+spasms of acute cardiac pain,feels as if suffocated,1.0,1
+spasms of acute cardiac pain,valvular insufficiency,1.0,1
+spasms of acute cardiac pain,dull stitch in right lumbar muscles,1.0,1
+spasms of acute cardiac pain,metastasis to heart of rheumatism of lumbar region,1.0,1
+spasms of acute cardiac pain,worse on bending head,1.0,1
+spasms of acute cardiac pain,stinging pressing in precordial region,1.0,1
+spasms of acute cardiac pain,cramp-like pain in ball of thumb,1.0,1
+spasms of acute cardiac pain,awakens with trembling,1.0,1
+spasms of acute cardiac pain,pain in upper arms with chills,1.0,1
+spasms of acute cardiac pain,pain,1.0,1
+spasms of acute cardiac pain,awakens in a fright,1.0,1
+spasms of acute cardiac pain,induration,1.0,1
+spasms of acute cardiac pain,loud blowing with each beat,1.0,1
+spasms of acute cardiac pain,awakens with fear,1.0,1
+spasms of acute cardiac pain,waking with sense of suffocation,1.0,1
+spasms of acute cardiac pain,drawing pain from lower portion of right foot to thigh,1.0,1
+spasms of acute cardiac pain,tension on bending finger joints,1.0,1
+spasms of acute cardiac pain,inability to lie down,1.0,1
+spasms of acute cardiac pain,back of neck snaps on stooping,1.0,1
+spasms of acute cardiac pain,frequent waking with a start,1.0,1
+spasms of acute cardiac pain,boring from body outward,1.0,1
+awakens in a fright,rheumatic endocarditis,1.0,1
+awakens in a fright,gasping respiration,1.0,1
+awakens in a fright,stitches in muscles,1.0,1
+awakens in a fright,painful stiffness of muscles of neck,1.0,1
+awakens in a fright,severe stitches in internal muscles of forearm,1.0,1
+awakens in a fright,redness of finger joints,1.0,1
+awakens in a fright,boring pain at elbow,1.0,1
+awakens in a fright,swelling of finger joints,1.0,1
+awakens in a fright,oppressed respiration,1.0,1
+awakens in a fright,spasms of acute cardiac pain,1.0,1
+awakens in a fright,drawing stitches in hands,1.0,1
+awakens in a fright,drawing stitches in forearms,1.0,1
+awakens in a fright,tension of cervical muscles,1.0,1
+awakens in a fright,painful sensation of stiffness in left side of neck,1.0,1
+awakens in a fright,cardiac symptoms,1.0,1
+awakens in a fright,every excitement increases condition,1.0,1
+awakens in a fright,fibrous deposits on valves of heart,1.0,1
+awakens in a fright,feeling of lameness from right knee to hip,1.0,1
+awakens in a fright,trembling in all the limbs,1.0,1
+awakens in a fright,muscular twitching about left shoulder joint,1.0,1
+awakens in a fright,especially right side,1.0,1
+awakens in a fright,feels as if suffocated,1.0,1
+awakens in a fright,valvular insufficiency,1.0,1
+awakens in a fright,dull stitch in right lumbar muscles,1.0,1
+awakens in a fright,metastasis to heart of rheumatism of lumbar region,1.0,1
+awakens in a fright,worse on bending head,1.0,1
+awakens in a fright,stinging pressing in precordial region,1.0,1
+awakens in a fright,cramp-like pain in ball of thumb,1.0,1
+awakens in a fright,awakens with trembling,1.0,1
+awakens in a fright,pain in upper arms with chills,1.0,1
+awakens in a fright,pain,1.0,1
+awakens in a fright,induration,1.0,1
+awakens in a fright,loud blowing with each beat,1.0,1
+awakens in a fright,awakens with fear,1.0,1
+awakens in a fright,waking with sense of suffocation,1.0,1
+awakens in a fright,drawing pain from lower portion of right foot to thigh,1.0,1
+awakens in a fright,tension on bending finger joints,1.0,1
+awakens in a fright,inability to lie down,1.0,1
+awakens in a fright,back of neck snaps on stooping,1.0,1
+awakens in a fright,frequent waking with a start,1.0,1
+awakens in a fright,boring from body outward,1.0,1
+feeling of lameness from right knee to hip,rheumatic endocarditis,1.0,1
+feeling of lameness from right knee to hip,gasping respiration,1.0,1
+feeling of lameness from right knee to hip,stitches in muscles,1.0,1
+feeling of lameness from right knee to hip,painful stiffness of muscles of neck,1.0,1
+feeling of lameness from right knee to hip,severe stitches in internal muscles of forearm,1.0,1
+feeling of lameness from right knee to hip,redness of finger joints,1.0,1
+feeling of lameness from right knee to hip,boring pain at elbow,1.0,1
+feeling of lameness from right knee to hip,swelling of finger joints,1.0,1
+feeling of lameness from right knee to hip,oppressed respiration,1.0,1
+feeling of lameness from right knee to hip,spasms of acute cardiac pain,1.0,1
+feeling of lameness from right knee to hip,drawing stitches in hands,1.0,1
+feeling of lameness from right knee to hip,drawing stitches in forearms,1.0,1
+feeling of lameness from right knee to hip,tension of cervical muscles,1.0,1
+feeling of lameness from right knee to hip,painful sensation of stiffness in left side of neck,1.0,1
+feeling of lameness from right knee to hip,cardiac symptoms,1.0,1
+feeling of lameness from right knee to hip,every excitement increases condition,1.0,1
+feeling of lameness from right knee to hip,fibrous deposits on valves of heart,1.0,1
+feeling of lameness from right knee to hip,trembling in all the limbs,1.0,1
+feeling of lameness from right knee to hip,muscular twitching about left shoulder joint,1.0,1
+feeling of lameness from right knee to hip,especially right side,1.0,1
+feeling of lameness from right knee to hip,feels as if suffocated,1.0,1
+feeling of lameness from right knee to hip,valvular insufficiency,1.0,1
+feeling of lameness from right knee to hip,dull stitch in right lumbar muscles,1.0,1
+feeling of lameness from right knee to hip,metastasis to heart of rheumatism of lumbar region,1.0,1
+feeling of lameness from right knee to hip,worse on bending head,1.0,1
+feeling of lameness from right knee to hip,stinging pressing in precordial region,1.0,1
+feeling of lameness from right knee to hip,cramp-like pain in ball of thumb,1.0,1
+feeling of lameness from right knee to hip,awakens with trembling,1.0,1
+feeling of lameness from right knee to hip,pain in upper arms with chills,1.0,1
+feeling of lameness from right knee to hip,pain,1.0,1
+feeling of lameness from right knee to hip,awakens in a fright,1.0,1
+feeling of lameness from right knee to hip,induration,1.0,1
+feeling of lameness from right knee to hip,loud blowing with each beat,1.0,1
+feeling of lameness from right knee to hip,awakens with fear,1.0,1
+feeling of lameness from right knee to hip,waking with sense of suffocation,1.0,1
+feeling of lameness from right knee to hip,drawing pain from lower portion of right foot to thigh,1.0,1
+feeling of lameness from right knee to hip,tension on bending finger joints,1.0,1
+feeling of lameness from right knee to hip,inability to lie down,1.0,1
+feeling of lameness from right knee to hip,back of neck snaps on stooping,1.0,1
+feeling of lameness from right knee to hip,frequent waking with a start,1.0,1
+feeling of lameness from right knee to hip,boring from body outward,1.0,1
+muscular twitching about left shoulder joint,rheumatic endocarditis,1.0,1
+muscular twitching about left shoulder joint,gasping respiration,1.0,1
+muscular twitching about left shoulder joint,stitches in muscles,1.0,1
+muscular twitching about left shoulder joint,painful stiffness of muscles of neck,1.0,1
+muscular twitching about left shoulder joint,severe stitches in internal muscles of forearm,1.0,1
+muscular twitching about left shoulder joint,redness of finger joints,1.0,1
+muscular twitching about left shoulder joint,boring pain at elbow,1.0,1
+muscular twitching about left shoulder joint,swelling of finger joints,1.0,1
+muscular twitching about left shoulder joint,oppressed respiration,1.0,1
+muscular twitching about left shoulder joint,spasms of acute cardiac pain,1.0,1
+muscular twitching about left shoulder joint,drawing stitches in hands,1.0,1
+muscular twitching about left shoulder joint,drawing stitches in forearms,1.0,1
+muscular twitching about left shoulder joint,tension of cervical muscles,1.0,1
+muscular twitching about left shoulder joint,painful sensation of stiffness in left side of neck,1.0,1
+muscular twitching about left shoulder joint,cardiac symptoms,1.0,1
+muscular twitching about left shoulder joint,every excitement increases condition,1.0,1
+muscular twitching about left shoulder joint,fibrous deposits on valves of heart,1.0,1
+muscular twitching about left shoulder joint,feeling of lameness from right knee to hip,1.0,1
+muscular twitching about left shoulder joint,trembling in all the limbs,1.0,1
+muscular twitching about left shoulder joint,especially right side,1.0,1
+muscular twitching about left shoulder joint,feels as if suffocated,1.0,1
+muscular twitching about left shoulder joint,valvular insufficiency,1.0,1
+muscular twitching about left shoulder joint,dull stitch in right lumbar muscles,1.0,1
+muscular twitching about left shoulder joint,metastasis to heart of rheumatism of lumbar region,1.0,1
+muscular twitching about left shoulder joint,worse on bending head,1.0,1
+muscular twitching about left shoulder joint,stinging pressing in precordial region,1.0,1
+muscular twitching about left shoulder joint,cramp-like pain in ball of thumb,1.0,1
+muscular twitching about left shoulder joint,awakens with trembling,1.0,1
+muscular twitching about left shoulder joint,pain in upper arms with chills,1.0,1
+muscular twitching about left shoulder joint,pain,1.0,1
+muscular twitching about left shoulder joint,awakens in a fright,1.0,1
+muscular twitching about left shoulder joint,induration,1.0,1
+muscular twitching about left shoulder joint,loud blowing with each beat,1.0,1
+muscular twitching about left shoulder joint,awakens with fear,1.0,1
+muscular twitching about left shoulder joint,waking with sense of suffocation,1.0,1
+muscular twitching about left shoulder joint,drawing pain from lower portion of right foot to thigh,1.0,1
+muscular twitching about left shoulder joint,tension on bending finger joints,1.0,1
+muscular twitching about left shoulder joint,inability to lie down,1.0,1
+muscular twitching about left shoulder joint,back of neck snaps on stooping,1.0,1
+muscular twitching about left shoulder joint,frequent waking with a start,1.0,1
+muscular twitching about left shoulder joint,boring from body outward,1.0,1

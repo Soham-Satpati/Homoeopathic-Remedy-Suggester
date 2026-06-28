@@ -1,0 +1,137 @@
+### Cluster 1 — Symptoms (11)
+Symptom,Frequency
+sweat in axilla,2
+increased appetite,2
+trembling of hands,1
+irregular stool,2
+acne,1
+vomiting tendency,1
+pain and stiffness,3
+recurrent dislocation of right shoulder joint,2
+chilly patient,5
+recurrent common cold with dyspnoea,1
+itching on soles,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+Pulsatilla,11
+Natrum Sulphuricum,3
+Arnica Montana,2
+Ferrum Metallicum,1
+Rhus Toxicodendron,1
+Natrum Carbonicum,1
+Staphysagria,1
+Thuja Occidentalis,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+sweat in axilla,increased appetite,0.5,1
+sweat in axilla,trembling of hands,0.5,1
+sweat in axilla,irregular stool,0.5,1
+sweat in axilla,acne,0.5,1
+sweat in axilla,vomiting tendency,0.5,1
+sweat in axilla,pain and stiffness,0.5,1
+sweat in axilla,recurrent dislocation of right shoulder joint,0.5,1
+sweat in axilla,chilly patient,1.0,2
+sweat in axilla,recurrent common cold with dyspnoea,0.5,1
+sweat in axilla,itching on soles,0.5,1
+increased appetite,sweat in axilla,0.5,1
+increased appetite,trembling of hands,0.5,1
+increased appetite,irregular stool,1.0,2
+increased appetite,acne,0.5,1
+increased appetite,vomiting tendency,0.5,1
+increased appetite,pain and stiffness,0.5,1
+increased appetite,recurrent dislocation of right shoulder joint,0.5,1
+increased appetite,chilly patient,1.0,2
+increased appetite,recurrent common cold with dyspnoea,0.5,1
+increased appetite,itching on soles,0.5,1
+trembling of hands,sweat in axilla,1.0,1
+trembling of hands,increased appetite,1.0,1
+trembling of hands,irregular stool,1.0,1
+trembling of hands,acne,1.0,1
+trembling of hands,vomiting tendency,1.0,1
+trembling of hands,pain and stiffness,1.0,1
+trembling of hands,recurrent dislocation of right shoulder joint,1.0,1
+trembling of hands,chilly patient,1.0,1
+trembling of hands,recurrent common cold with dyspnoea,1.0,1
+trembling of hands,itching on soles,1.0,1
+itching on soles,sweat in axilla,1.0,1
+itching on soles,increased appetite,1.0,1
+itching on soles,trembling of hands,1.0,1
+itching on soles,irregular stool,1.0,1
+itching on soles,acne,1.0,1
+itching on soles,vomiting tendency,1.0,1
+itching on soles,pain and stiffness,1.0,1
+itching on soles,recurrent dislocation of right shoulder joint,1.0,1
+itching on soles,chilly patient,1.0,1
+itching on soles,recurrent common cold with dyspnoea,1.0,1
+irregular stool,sweat in axilla,0.5,1
+irregular stool,increased appetite,1.0,2
+irregular stool,trembling of hands,0.5,1
+irregular stool,acne,0.5,1
+irregular stool,vomiting tendency,0.5,1
+irregular stool,pain and stiffness,0.5,1
+irregular stool,recurrent dislocation of right shoulder joint,0.5,1
+irregular stool,chilly patient,1.0,2
+irregular stool,recurrent common cold with dyspnoea,0.5,1
+irregular stool,itching on soles,0.5,1
+acne,sweat in axilla,1.0,1
+acne,increased appetite,1.0,1
+acne,trembling of hands,1.0,1
+acne,irregular stool,1.0,1
+acne,vomiting tendency,1.0,1
+acne,pain and stiffness,1.0,1
+acne,recurrent dislocation of right shoulder joint,1.0,1
+acne,chilly patient,1.0,1
+acne,recurrent common cold with dyspnoea,1.0,1
+acne,itching on soles,1.0,1
+pain and stiffness,sweat in axilla,0.3333,1
+pain and stiffness,increased appetite,0.3333,1
+pain and stiffness,trembling of hands,0.3333,1
+pain and stiffness,irregular stool,0.3333,1
+pain and stiffness,acne,0.3333,1
+pain and stiffness,vomiting tendency,0.3333,1
+pain and stiffness,recurrent dislocation of right shoulder joint,0.3333,1
+pain and stiffness,chilly patient,0.3333,1
+pain and stiffness,recurrent common cold with dyspnoea,0.3333,1
+pain and stiffness,itching on soles,0.3333,1
+vomiting tendency,sweat in axilla,1.0,1
+vomiting tendency,increased appetite,1.0,1
+vomiting tendency,trembling of hands,1.0,1
+vomiting tendency,irregular stool,1.0,1
+vomiting tendency,acne,1.0,1
+vomiting tendency,pain and stiffness,1.0,1
+vomiting tendency,recurrent dislocation of right shoulder joint,1.0,1
+vomiting tendency,chilly patient,1.0,1
+vomiting tendency,recurrent common cold with dyspnoea,1.0,1
+vomiting tendency,itching on soles,1.0,1
+chilly patient,sweat in axilla,0.4,2
+chilly patient,increased appetite,0.4,2
+chilly patient,trembling of hands,0.2,1
+chilly patient,irregular stool,0.4,2
+chilly patient,acne,0.2,1
+chilly patient,vomiting tendency,0.2,1
+chilly patient,pain and stiffness,0.2,1
+chilly patient,recurrent dislocation of right shoulder joint,0.2,1
+chilly patient,recurrent common cold with dyspnoea,0.2,1
+chilly patient,itching on soles,0.2,1
+recurrent dislocation of right shoulder joint,sweat in axilla,0.5,1
+recurrent dislocation of right shoulder joint,increased appetite,0.5,1
+recurrent dislocation of right shoulder joint,trembling of hands,0.5,1
+recurrent dislocation of right shoulder joint,irregular stool,0.5,1
+recurrent dislocation of right shoulder joint,acne,0.5,1
+recurrent dislocation of right shoulder joint,vomiting tendency,0.5,1
+recurrent dislocation of right shoulder joint,pain and stiffness,0.5,1
+recurrent dislocation of right shoulder joint,chilly patient,0.5,1
+recurrent dislocation of right shoulder joint,recurrent common cold with dyspnoea,0.5,1
+recurrent dislocation of right shoulder joint,itching on soles,0.5,1
+recurrent common cold with dyspnoea,sweat in axilla,1.0,1
+recurrent common cold with dyspnoea,increased appetite,1.0,1
+recurrent common cold with dyspnoea,trembling of hands,1.0,1
+recurrent common cold with dyspnoea,irregular stool,1.0,1
+recurrent common cold with dyspnoea,acne,1.0,1
+recurrent common cold with dyspnoea,vomiting tendency,1.0,1
+recurrent common cold with dyspnoea,pain and stiffness,1.0,1
+recurrent common cold with dyspnoea,recurrent dislocation of right shoulder joint,1.0,1
+recurrent common cold with dyspnoea,chilly patient,1.0,1
+recurrent common cold with dyspnoea,itching on soles,1.0,1

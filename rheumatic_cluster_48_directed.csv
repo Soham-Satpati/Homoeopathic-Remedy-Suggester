@@ -1,0 +1,2126 @@
+### Cluster 48 — Symptoms (46)
+Symptom,Frequency
+joint swelling after fatigue,1
+tender wrist joints,1
+tingling of limbs,1
+swollen small joints,1
+resembles caulophyllum but affects men more,1
+chronic joint stiffness with exacerbations,1
+affinity for small joints of hands,1
+throbbing in liver,1
+beating in liver,1
+boring pains better from stretching,1
+numb fingers,1
+face sensitive,1
+intolerable pain in right wrist,1
+swollen foot joints after walking,1
+tender finger joints,1
+throbbing in right hypochondrium sensitive to pressure,1
+repulsive food,1
+excruciating pain in wrist joints worse at night,1
+spasmodic bowel action,1
+swollen right wrist,1
+beating in right hypochondrium sensitive to pressure,1
+discolored fingers,1
+tearing pain in face from decayed tooth to temples,1
+throbbing pain in kidney region,1
+slightest pressure near little finger causes cries,1
+weakness after weather change,1
+rheumatism from suppressed sweat,1
+rheumatic pains of small joints especially hands,1
+excruciating pain in finger joints worse at night,1
+thighs tremble when raised,1
+warm sweat especially on side lain on,1
+pulling pain in face from decayed tooth to temples,1
+painful liver pressure,1
+numbness of hands,1
+reeling as if drunk,1
+brick dust in urine,1
+chronic joint enlargement,1
+affinity for small joints of feet,1
+tearing epigastric pain with vomiting,1
+bruised pain in sacrum worse lying on side,1
+sour vomiting,3
+giddiness,1
+warm sweat on head,1
+weary knees,1
+pulse 120,1
+motion impossible in right wrist,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+actea spicata,46
+natrum phosphoricum,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+swollen small joints,joint swelling after fatigue,1.0,1
+swollen small joints,tender wrist joints,1.0,1
+swollen small joints,tingling of limbs,1.0,1
+swollen small joints,resembles caulophyllum but affects men more,1.0,1
+swollen small joints,chronic joint stiffness with exacerbations,1.0,1
+swollen small joints,affinity for small joints of hands,1.0,1
+swollen small joints,throbbing in liver,1.0,1
+swollen small joints,beating in liver,1.0,1
+swollen small joints,boring pains better from stretching,1.0,1
+swollen small joints,numb fingers,1.0,1
+swollen small joints,face sensitive,1.0,1
+swollen small joints,intolerable pain in right wrist,1.0,1
+swollen small joints,swollen foot joints after walking,1.0,1
+swollen small joints,tender finger joints,1.0,1
+swollen small joints,throbbing in right hypochondrium sensitive to pressure,1.0,1
+swollen small joints,repulsive food,1.0,1
+swollen small joints,excruciating pain in wrist joints worse at night,1.0,1
+swollen small joints,spasmodic bowel action,1.0,1
+swollen small joints,swollen right wrist,1.0,1
+swollen small joints,beating in right hypochondrium sensitive to pressure,1.0,1
+swollen small joints,discolored fingers,1.0,1
+swollen small joints,tearing pain in face from decayed tooth to temples,1.0,1
+swollen small joints,throbbing pain in kidney region,1.0,1
+swollen small joints,slightest pressure near little finger causes cries,1.0,1
+swollen small joints,weakness after weather change,1.0,1
+swollen small joints,rheumatism from suppressed sweat,1.0,1
+swollen small joints,rheumatic pains of small joints especially hands,1.0,1
+swollen small joints,excruciating pain in finger joints worse at night,1.0,1
+swollen small joints,thighs tremble when raised,1.0,1
+swollen small joints,warm sweat especially on side lain on,1.0,1
+swollen small joints,pulling pain in face from decayed tooth to temples,1.0,1
+swollen small joints,painful liver pressure,1.0,1
+swollen small joints,numbness of hands,1.0,1
+swollen small joints,reeling as if drunk,1.0,1
+swollen small joints,brick dust in urine,1.0,1
+swollen small joints,chronic joint enlargement,1.0,1
+swollen small joints,affinity for small joints of feet,1.0,1
+swollen small joints,tearing epigastric pain with vomiting,1.0,1
+swollen small joints,bruised pain in sacrum worse lying on side,1.0,1
+swollen small joints,sour vomiting,1.0,1
+swollen small joints,giddiness,1.0,1
+swollen small joints,warm sweat on head,1.0,1
+swollen small joints,weary knees,1.0,1
+swollen small joints,pulse 120,1.0,1
+swollen small joints,motion impossible in right wrist,1.0,1
+motion impossible in right wrist,joint swelling after fatigue,1.0,1
+motion impossible in right wrist,tender wrist joints,1.0,1
+motion impossible in right wrist,tingling of limbs,1.0,1
+motion impossible in right wrist,swollen small joints,1.0,1
+motion impossible in right wrist,resembles caulophyllum but affects men more,1.0,1
+motion impossible in right wrist,chronic joint stiffness with exacerbations,1.0,1
+motion impossible in right wrist,affinity for small joints of hands,1.0,1
+motion impossible in right wrist,throbbing in liver,1.0,1
+motion impossible in right wrist,beating in liver,1.0,1
+motion impossible in right wrist,boring pains better from stretching,1.0,1
+motion impossible in right wrist,numb fingers,1.0,1
+motion impossible in right wrist,face sensitive,1.0,1
+motion impossible in right wrist,intolerable pain in right wrist,1.0,1
+motion impossible in right wrist,swollen foot joints after walking,1.0,1
+motion impossible in right wrist,tender finger joints,1.0,1
+motion impossible in right wrist,throbbing in right hypochondrium sensitive to pressure,1.0,1
+motion impossible in right wrist,repulsive food,1.0,1
+motion impossible in right wrist,excruciating pain in wrist joints worse at night,1.0,1
+motion impossible in right wrist,spasmodic bowel action,1.0,1
+motion impossible in right wrist,swollen right wrist,1.0,1
+motion impossible in right wrist,beating in right hypochondrium sensitive to pressure,1.0,1
+motion impossible in right wrist,discolored fingers,1.0,1
+motion impossible in right wrist,tearing pain in face from decayed tooth to temples,1.0,1
+motion impossible in right wrist,throbbing pain in kidney region,1.0,1
+motion impossible in right wrist,slightest pressure near little finger causes cries,1.0,1
+motion impossible in right wrist,weakness after weather change,1.0,1
+motion impossible in right wrist,rheumatism from suppressed sweat,1.0,1
+motion impossible in right wrist,rheumatic pains of small joints especially hands,1.0,1
+motion impossible in right wrist,excruciating pain in finger joints worse at night,1.0,1
+motion impossible in right wrist,thighs tremble when raised,1.0,1
+motion impossible in right wrist,warm sweat especially on side lain on,1.0,1
+motion impossible in right wrist,pulling pain in face from decayed tooth to temples,1.0,1
+motion impossible in right wrist,painful liver pressure,1.0,1
+motion impossible in right wrist,numbness of hands,1.0,1
+motion impossible in right wrist,reeling as if drunk,1.0,1
+motion impossible in right wrist,brick dust in urine,1.0,1
+motion impossible in right wrist,chronic joint enlargement,1.0,1
+motion impossible in right wrist,affinity for small joints of feet,1.0,1
+motion impossible in right wrist,tearing epigastric pain with vomiting,1.0,1
+motion impossible in right wrist,bruised pain in sacrum worse lying on side,1.0,1
+motion impossible in right wrist,sour vomiting,1.0,1
+motion impossible in right wrist,giddiness,1.0,1
+motion impossible in right wrist,warm sweat on head,1.0,1
+motion impossible in right wrist,weary knees,1.0,1
+motion impossible in right wrist,pulse 120,1.0,1
+beating in right hypochondrium sensitive to pressure,joint swelling after fatigue,1.0,1
+beating in right hypochondrium sensitive to pressure,tender wrist joints,1.0,1
+beating in right hypochondrium sensitive to pressure,tingling of limbs,1.0,1
+beating in right hypochondrium sensitive to pressure,swollen small joints,1.0,1
+beating in right hypochondrium sensitive to pressure,resembles caulophyllum but affects men more,1.0,1
+beating in right hypochondrium sensitive to pressure,chronic joint stiffness with exacerbations,1.0,1
+beating in right hypochondrium sensitive to pressure,affinity for small joints of hands,1.0,1
+beating in right hypochondrium sensitive to pressure,throbbing in liver,1.0,1
+beating in right hypochondrium sensitive to pressure,beating in liver,1.0,1
+beating in right hypochondrium sensitive to pressure,boring pains better from stretching,1.0,1
+beating in right hypochondrium sensitive to pressure,numb fingers,1.0,1
+beating in right hypochondrium sensitive to pressure,face sensitive,1.0,1
+beating in right hypochondrium sensitive to pressure,intolerable pain in right wrist,1.0,1
+beating in right hypochondrium sensitive to pressure,swollen foot joints after walking,1.0,1
+beating in right hypochondrium sensitive to pressure,tender finger joints,1.0,1
+beating in right hypochondrium sensitive to pressure,throbbing in right hypochondrium sensitive to pressure,1.0,1
+beating in right hypochondrium sensitive to pressure,repulsive food,1.0,1
+beating in right hypochondrium sensitive to pressure,excruciating pain in wrist joints worse at night,1.0,1
+beating in right hypochondrium sensitive to pressure,spasmodic bowel action,1.0,1
+beating in right hypochondrium sensitive to pressure,swollen right wrist,1.0,1
+beating in right hypochondrium sensitive to pressure,discolored fingers,1.0,1
+beating in right hypochondrium sensitive to pressure,tearing pain in face from decayed tooth to temples,1.0,1
+beating in right hypochondrium sensitive to pressure,throbbing pain in kidney region,1.0,1
+beating in right hypochondrium sensitive to pressure,slightest pressure near little finger causes cries,1.0,1
+beating in right hypochondrium sensitive to pressure,weakness after weather change,1.0,1
+beating in right hypochondrium sensitive to pressure,rheumatism from suppressed sweat,1.0,1
+beating in right hypochondrium sensitive to pressure,rheumatic pains of small joints especially hands,1.0,1
+beating in right hypochondrium sensitive to pressure,excruciating pain in finger joints worse at night,1.0,1
+beating in right hypochondrium sensitive to pressure,thighs tremble when raised,1.0,1
+beating in right hypochondrium sensitive to pressure,warm sweat especially on side lain on,1.0,1
+beating in right hypochondrium sensitive to pressure,pulling pain in face from decayed tooth to temples,1.0,1
+beating in right hypochondrium sensitive to pressure,painful liver pressure,1.0,1
+beating in right hypochondrium sensitive to pressure,numbness of hands,1.0,1
+beating in right hypochondrium sensitive to pressure,reeling as if drunk,1.0,1
+beating in right hypochondrium sensitive to pressure,brick dust in urine,1.0,1
+beating in right hypochondrium sensitive to pressure,chronic joint enlargement,1.0,1
+beating in right hypochondrium sensitive to pressure,affinity for small joints of feet,1.0,1
+beating in right hypochondrium sensitive to pressure,tearing epigastric pain with vomiting,1.0,1
+beating in right hypochondrium sensitive to pressure,bruised pain in sacrum worse lying on side,1.0,1
+beating in right hypochondrium sensitive to pressure,sour vomiting,1.0,1
+beating in right hypochondrium sensitive to pressure,giddiness,1.0,1
+beating in right hypochondrium sensitive to pressure,warm sweat on head,1.0,1
+beating in right hypochondrium sensitive to pressure,weary knees,1.0,1
+beating in right hypochondrium sensitive to pressure,pulse 120,1.0,1
+beating in right hypochondrium sensitive to pressure,motion impossible in right wrist,1.0,1
+tingling of limbs,joint swelling after fatigue,1.0,1
+tingling of limbs,tender wrist joints,1.0,1
+tingling of limbs,swollen small joints,1.0,1
+tingling of limbs,resembles caulophyllum but affects men more,1.0,1
+tingling of limbs,chronic joint stiffness with exacerbations,1.0,1
+tingling of limbs,affinity for small joints of hands,1.0,1
+tingling of limbs,throbbing in liver,1.0,1
+tingling of limbs,beating in liver,1.0,1
+tingling of limbs,boring pains better from stretching,1.0,1
+tingling of limbs,numb fingers,1.0,1
+tingling of limbs,face sensitive,1.0,1
+tingling of limbs,intolerable pain in right wrist,1.0,1
+tingling of limbs,swollen foot joints after walking,1.0,1
+tingling of limbs,tender finger joints,1.0,1
+tingling of limbs,throbbing in right hypochondrium sensitive to pressure,1.0,1
+tingling of limbs,repulsive food,1.0,1
+tingling of limbs,excruciating pain in wrist joints worse at night,1.0,1
+tingling of limbs,spasmodic bowel action,1.0,1
+tingling of limbs,swollen right wrist,1.0,1
+tingling of limbs,beating in right hypochondrium sensitive to pressure,1.0,1
+tingling of limbs,discolored fingers,1.0,1
+tingling of limbs,tearing pain in face from decayed tooth to temples,1.0,1
+tingling of limbs,throbbing pain in kidney region,1.0,1
+tingling of limbs,slightest pressure near little finger causes cries,1.0,1
+tingling of limbs,weakness after weather change,1.0,1
+tingling of limbs,rheumatism from suppressed sweat,1.0,1
+tingling of limbs,rheumatic pains of small joints especially hands,1.0,1
+tingling of limbs,excruciating pain in finger joints worse at night,1.0,1
+tingling of limbs,thighs tremble when raised,1.0,1
+tingling of limbs,warm sweat especially on side lain on,1.0,1
+tingling of limbs,pulling pain in face from decayed tooth to temples,1.0,1
+tingling of limbs,painful liver pressure,1.0,1
+tingling of limbs,numbness of hands,1.0,1
+tingling of limbs,reeling as if drunk,1.0,1
+tingling of limbs,brick dust in urine,1.0,1
+tingling of limbs,chronic joint enlargement,1.0,1
+tingling of limbs,affinity for small joints of feet,1.0,1
+tingling of limbs,tearing epigastric pain with vomiting,1.0,1
+tingling of limbs,bruised pain in sacrum worse lying on side,1.0,1
+tingling of limbs,sour vomiting,1.0,1
+tingling of limbs,giddiness,1.0,1
+tingling of limbs,warm sweat on head,1.0,1
+tingling of limbs,weary knees,1.0,1
+tingling of limbs,pulse 120,1.0,1
+tingling of limbs,motion impossible in right wrist,1.0,1
+numb fingers,joint swelling after fatigue,1.0,1
+numb fingers,tender wrist joints,1.0,1
+numb fingers,tingling of limbs,1.0,1
+numb fingers,swollen small joints,1.0,1
+numb fingers,resembles caulophyllum but affects men more,1.0,1
+numb fingers,chronic joint stiffness with exacerbations,1.0,1
+numb fingers,affinity for small joints of hands,1.0,1
+numb fingers,throbbing in liver,1.0,1
+numb fingers,beating in liver,1.0,1
+numb fingers,boring pains better from stretching,1.0,1
+numb fingers,face sensitive,1.0,1
+numb fingers,intolerable pain in right wrist,1.0,1
+numb fingers,swollen foot joints after walking,1.0,1
+numb fingers,tender finger joints,1.0,1
+numb fingers,throbbing in right hypochondrium sensitive to pressure,1.0,1
+numb fingers,repulsive food,1.0,1
+numb fingers,excruciating pain in wrist joints worse at night,1.0,1
+numb fingers,spasmodic bowel action,1.0,1
+numb fingers,swollen right wrist,1.0,1
+numb fingers,beating in right hypochondrium sensitive to pressure,1.0,1
+numb fingers,discolored fingers,1.0,1
+numb fingers,tearing pain in face from decayed tooth to temples,1.0,1
+numb fingers,throbbing pain in kidney region,1.0,1
+numb fingers,slightest pressure near little finger causes cries,1.0,1
+numb fingers,weakness after weather change,1.0,1
+numb fingers,rheumatism from suppressed sweat,1.0,1
+numb fingers,rheumatic pains of small joints especially hands,1.0,1
+numb fingers,excruciating pain in finger joints worse at night,1.0,1
+numb fingers,thighs tremble when raised,1.0,1
+numb fingers,warm sweat especially on side lain on,1.0,1
+numb fingers,pulling pain in face from decayed tooth to temples,1.0,1
+numb fingers,painful liver pressure,1.0,1
+numb fingers,numbness of hands,1.0,1
+numb fingers,reeling as if drunk,1.0,1
+numb fingers,brick dust in urine,1.0,1
+numb fingers,chronic joint enlargement,1.0,1
+numb fingers,affinity for small joints of feet,1.0,1
+numb fingers,tearing epigastric pain with vomiting,1.0,1
+numb fingers,bruised pain in sacrum worse lying on side,1.0,1
+numb fingers,sour vomiting,1.0,1
+numb fingers,giddiness,1.0,1
+numb fingers,warm sweat on head,1.0,1
+numb fingers,weary knees,1.0,1
+numb fingers,pulse 120,1.0,1
+numb fingers,motion impossible in right wrist,1.0,1
+affinity for small joints of feet,joint swelling after fatigue,1.0,1
+affinity for small joints of feet,tender wrist joints,1.0,1
+affinity for small joints of feet,tingling of limbs,1.0,1
+affinity for small joints of feet,swollen small joints,1.0,1
+affinity for small joints of feet,resembles caulophyllum but affects men more,1.0,1
+affinity for small joints of feet,chronic joint stiffness with exacerbations,1.0,1
+affinity for small joints of feet,affinity for small joints of hands,1.0,1
+affinity for small joints of feet,throbbing in liver,1.0,1
+affinity for small joints of feet,beating in liver,1.0,1
+affinity for small joints of feet,boring pains better from stretching,1.0,1
+affinity for small joints of feet,numb fingers,1.0,1
+affinity for small joints of feet,face sensitive,1.0,1
+affinity for small joints of feet,intolerable pain in right wrist,1.0,1
+affinity for small joints of feet,swollen foot joints after walking,1.0,1
+affinity for small joints of feet,tender finger joints,1.0,1
+affinity for small joints of feet,throbbing in right hypochondrium sensitive to pressure,1.0,1
+affinity for small joints of feet,repulsive food,1.0,1
+affinity for small joints of feet,excruciating pain in wrist joints worse at night,1.0,1
+affinity for small joints of feet,spasmodic bowel action,1.0,1
+affinity for small joints of feet,swollen right wrist,1.0,1
+affinity for small joints of feet,beating in right hypochondrium sensitive to pressure,1.0,1
+affinity for small joints of feet,discolored fingers,1.0,1
+affinity for small joints of feet,tearing pain in face from decayed tooth to temples,1.0,1
+affinity for small joints of feet,throbbing pain in kidney region,1.0,1
+affinity for small joints of feet,slightest pressure near little finger causes cries,1.0,1
+affinity for small joints of feet,weakness after weather change,1.0,1
+affinity for small joints of feet,rheumatism from suppressed sweat,1.0,1
+affinity for small joints of feet,rheumatic pains of small joints especially hands,1.0,1
+affinity for small joints of feet,excruciating pain in finger joints worse at night,1.0,1
+affinity for small joints of feet,thighs tremble when raised,1.0,1
+affinity for small joints of feet,warm sweat especially on side lain on,1.0,1
+affinity for small joints of feet,pulling pain in face from decayed tooth to temples,1.0,1
+affinity for small joints of feet,painful liver pressure,1.0,1
+affinity for small joints of feet,numbness of hands,1.0,1
+affinity for small joints of feet,reeling as if drunk,1.0,1
+affinity for small joints of feet,brick dust in urine,1.0,1
+affinity for small joints of feet,chronic joint enlargement,1.0,1
+affinity for small joints of feet,tearing epigastric pain with vomiting,1.0,1
+affinity for small joints of feet,bruised pain in sacrum worse lying on side,1.0,1
+affinity for small joints of feet,sour vomiting,1.0,1
+affinity for small joints of feet,giddiness,1.0,1
+affinity for small joints of feet,warm sweat on head,1.0,1
+affinity for small joints of feet,weary knees,1.0,1
+affinity for small joints of feet,pulse 120,1.0,1
+affinity for small joints of feet,motion impossible in right wrist,1.0,1
+beating in liver,joint swelling after fatigue,1.0,1
+beating in liver,tender wrist joints,1.0,1
+beating in liver,tingling of limbs,1.0,1
+beating in liver,swollen small joints,1.0,1
+beating in liver,resembles caulophyllum but affects men more,1.0,1
+beating in liver,chronic joint stiffness with exacerbations,1.0,1
+beating in liver,affinity for small joints of hands,1.0,1
+beating in liver,throbbing in liver,1.0,1
+beating in liver,boring pains better from stretching,1.0,1
+beating in liver,numb fingers,1.0,1
+beating in liver,face sensitive,1.0,1
+beating in liver,intolerable pain in right wrist,1.0,1
+beating in liver,swollen foot joints after walking,1.0,1
+beating in liver,tender finger joints,1.0,1
+beating in liver,throbbing in right hypochondrium sensitive to pressure,1.0,1
+beating in liver,repulsive food,1.0,1
+beating in liver,excruciating pain in wrist joints worse at night,1.0,1
+beating in liver,spasmodic bowel action,1.0,1
+beating in liver,swollen right wrist,1.0,1
+beating in liver,beating in right hypochondrium sensitive to pressure,1.0,1
+beating in liver,discolored fingers,1.0,1
+beating in liver,tearing pain in face from decayed tooth to temples,1.0,1
+beating in liver,throbbing pain in kidney region,1.0,1
+beating in liver,slightest pressure near little finger causes cries,1.0,1
+beating in liver,weakness after weather change,1.0,1
+beating in liver,rheumatism from suppressed sweat,1.0,1
+beating in liver,rheumatic pains of small joints especially hands,1.0,1
+beating in liver,excruciating pain in finger joints worse at night,1.0,1
+beating in liver,thighs tremble when raised,1.0,1
+beating in liver,warm sweat especially on side lain on,1.0,1
+beating in liver,pulling pain in face from decayed tooth to temples,1.0,1
+beating in liver,painful liver pressure,1.0,1
+beating in liver,numbness of hands,1.0,1
+beating in liver,reeling as if drunk,1.0,1
+beating in liver,brick dust in urine,1.0,1
+beating in liver,chronic joint enlargement,1.0,1
+beating in liver,affinity for small joints of feet,1.0,1
+beating in liver,tearing epigastric pain with vomiting,1.0,1
+beating in liver,bruised pain in sacrum worse lying on side,1.0,1
+beating in liver,sour vomiting,1.0,1
+beating in liver,giddiness,1.0,1
+beating in liver,warm sweat on head,1.0,1
+beating in liver,weary knees,1.0,1
+beating in liver,pulse 120,1.0,1
+beating in liver,motion impossible in right wrist,1.0,1
+intolerable pain in right wrist,joint swelling after fatigue,1.0,1
+intolerable pain in right wrist,tender wrist joints,1.0,1
+intolerable pain in right wrist,tingling of limbs,1.0,1
+intolerable pain in right wrist,swollen small joints,1.0,1
+intolerable pain in right wrist,resembles caulophyllum but affects men more,1.0,1
+intolerable pain in right wrist,chronic joint stiffness with exacerbations,1.0,1
+intolerable pain in right wrist,affinity for small joints of hands,1.0,1
+intolerable pain in right wrist,throbbing in liver,1.0,1
+intolerable pain in right wrist,beating in liver,1.0,1
+intolerable pain in right wrist,boring pains better from stretching,1.0,1
+intolerable pain in right wrist,numb fingers,1.0,1
+intolerable pain in right wrist,face sensitive,1.0,1
+intolerable pain in right wrist,swollen foot joints after walking,1.0,1
+intolerable pain in right wrist,tender finger joints,1.0,1
+intolerable pain in right wrist,throbbing in right hypochondrium sensitive to pressure,1.0,1
+intolerable pain in right wrist,repulsive food,1.0,1
+intolerable pain in right wrist,excruciating pain in wrist joints worse at night,1.0,1
+intolerable pain in right wrist,spasmodic bowel action,1.0,1
+intolerable pain in right wrist,swollen right wrist,1.0,1
+intolerable pain in right wrist,beating in right hypochondrium sensitive to pressure,1.0,1
+intolerable pain in right wrist,discolored fingers,1.0,1
+intolerable pain in right wrist,tearing pain in face from decayed tooth to temples,1.0,1
+intolerable pain in right wrist,throbbing pain in kidney region,1.0,1
+intolerable pain in right wrist,slightest pressure near little finger causes cries,1.0,1
+intolerable pain in right wrist,weakness after weather change,1.0,1
+intolerable pain in right wrist,rheumatism from suppressed sweat,1.0,1
+intolerable pain in right wrist,rheumatic pains of small joints especially hands,1.0,1
+intolerable pain in right wrist,excruciating pain in finger joints worse at night,1.0,1
+intolerable pain in right wrist,thighs tremble when raised,1.0,1
+intolerable pain in right wrist,warm sweat especially on side lain on,1.0,1
+intolerable pain in right wrist,pulling pain in face from decayed tooth to temples,1.0,1
+intolerable pain in right wrist,painful liver pressure,1.0,1
+intolerable pain in right wrist,numbness of hands,1.0,1
+intolerable pain in right wrist,reeling as if drunk,1.0,1
+intolerable pain in right wrist,brick dust in urine,1.0,1
+intolerable pain in right wrist,chronic joint enlargement,1.0,1
+intolerable pain in right wrist,affinity for small joints of feet,1.0,1
+intolerable pain in right wrist,tearing epigastric pain with vomiting,1.0,1
+intolerable pain in right wrist,bruised pain in sacrum worse lying on side,1.0,1
+intolerable pain in right wrist,sour vomiting,1.0,1
+intolerable pain in right wrist,giddiness,1.0,1
+intolerable pain in right wrist,warm sweat on head,1.0,1
+intolerable pain in right wrist,weary knees,1.0,1
+intolerable pain in right wrist,pulse 120,1.0,1
+intolerable pain in right wrist,motion impossible in right wrist,1.0,1
+swollen foot joints after walking,joint swelling after fatigue,1.0,1
+swollen foot joints after walking,tender wrist joints,1.0,1
+swollen foot joints after walking,tingling of limbs,1.0,1
+swollen foot joints after walking,swollen small joints,1.0,1
+swollen foot joints after walking,resembles caulophyllum but affects men more,1.0,1
+swollen foot joints after walking,chronic joint stiffness with exacerbations,1.0,1
+swollen foot joints after walking,affinity for small joints of hands,1.0,1
+swollen foot joints after walking,throbbing in liver,1.0,1
+swollen foot joints after walking,beating in liver,1.0,1
+swollen foot joints after walking,boring pains better from stretching,1.0,1
+swollen foot joints after walking,numb fingers,1.0,1
+swollen foot joints after walking,face sensitive,1.0,1
+swollen foot joints after walking,intolerable pain in right wrist,1.0,1
+swollen foot joints after walking,tender finger joints,1.0,1
+swollen foot joints after walking,throbbing in right hypochondrium sensitive to pressure,1.0,1
+swollen foot joints after walking,repulsive food,1.0,1
+swollen foot joints after walking,excruciating pain in wrist joints worse at night,1.0,1
+swollen foot joints after walking,spasmodic bowel action,1.0,1
+swollen foot joints after walking,swollen right wrist,1.0,1
+swollen foot joints after walking,beating in right hypochondrium sensitive to pressure,1.0,1
+swollen foot joints after walking,discolored fingers,1.0,1
+swollen foot joints after walking,tearing pain in face from decayed tooth to temples,1.0,1
+swollen foot joints after walking,throbbing pain in kidney region,1.0,1
+swollen foot joints after walking,slightest pressure near little finger causes cries,1.0,1
+swollen foot joints after walking,weakness after weather change,1.0,1
+swollen foot joints after walking,rheumatism from suppressed sweat,1.0,1
+swollen foot joints after walking,rheumatic pains of small joints especially hands,1.0,1
+swollen foot joints after walking,excruciating pain in finger joints worse at night,1.0,1
+swollen foot joints after walking,thighs tremble when raised,1.0,1
+swollen foot joints after walking,warm sweat especially on side lain on,1.0,1
+swollen foot joints after walking,pulling pain in face from decayed tooth to temples,1.0,1
+swollen foot joints after walking,painful liver pressure,1.0,1
+swollen foot joints after walking,numbness of hands,1.0,1
+swollen foot joints after walking,reeling as if drunk,1.0,1
+swollen foot joints after walking,brick dust in urine,1.0,1
+swollen foot joints after walking,chronic joint enlargement,1.0,1
+swollen foot joints after walking,affinity for small joints of feet,1.0,1
+swollen foot joints after walking,tearing epigastric pain with vomiting,1.0,1
+swollen foot joints after walking,bruised pain in sacrum worse lying on side,1.0,1
+swollen foot joints after walking,sour vomiting,1.0,1
+swollen foot joints after walking,giddiness,1.0,1
+swollen foot joints after walking,warm sweat on head,1.0,1
+swollen foot joints after walking,weary knees,1.0,1
+swollen foot joints after walking,pulse 120,1.0,1
+swollen foot joints after walking,motion impossible in right wrist,1.0,1
+resembles caulophyllum but affects men more,joint swelling after fatigue,1.0,1
+resembles caulophyllum but affects men more,tender wrist joints,1.0,1
+resembles caulophyllum but affects men more,tingling of limbs,1.0,1
+resembles caulophyllum but affects men more,swollen small joints,1.0,1
+resembles caulophyllum but affects men more,chronic joint stiffness with exacerbations,1.0,1
+resembles caulophyllum but affects men more,affinity for small joints of hands,1.0,1
+resembles caulophyllum but affects men more,throbbing in liver,1.0,1
+resembles caulophyllum but affects men more,beating in liver,1.0,1
+resembles caulophyllum but affects men more,boring pains better from stretching,1.0,1
+resembles caulophyllum but affects men more,numb fingers,1.0,1
+resembles caulophyllum but affects men more,face sensitive,1.0,1
+resembles caulophyllum but affects men more,intolerable pain in right wrist,1.0,1
+resembles caulophyllum but affects men more,swollen foot joints after walking,1.0,1
+resembles caulophyllum but affects men more,tender finger joints,1.0,1
+resembles caulophyllum but affects men more,throbbing in right hypochondrium sensitive to pressure,1.0,1
+resembles caulophyllum but affects men more,repulsive food,1.0,1
+resembles caulophyllum but affects men more,excruciating pain in wrist joints worse at night,1.0,1
+resembles caulophyllum but affects men more,spasmodic bowel action,1.0,1
+resembles caulophyllum but affects men more,swollen right wrist,1.0,1
+resembles caulophyllum but affects men more,beating in right hypochondrium sensitive to pressure,1.0,1
+resembles caulophyllum but affects men more,discolored fingers,1.0,1
+resembles caulophyllum but affects men more,tearing pain in face from decayed tooth to temples,1.0,1
+resembles caulophyllum but affects men more,throbbing pain in kidney region,1.0,1
+resembles caulophyllum but affects men more,slightest pressure near little finger causes cries,1.0,1
+resembles caulophyllum but affects men more,weakness after weather change,1.0,1
+resembles caulophyllum but affects men more,rheumatism from suppressed sweat,1.0,1
+resembles caulophyllum but affects men more,rheumatic pains of small joints especially hands,1.0,1
+resembles caulophyllum but affects men more,excruciating pain in finger joints worse at night,1.0,1
+resembles caulophyllum but affects men more,thighs tremble when raised,1.0,1
+resembles caulophyllum but affects men more,warm sweat especially on side lain on,1.0,1
+resembles caulophyllum but affects men more,pulling pain in face from decayed tooth to temples,1.0,1
+resembles caulophyllum but affects men more,painful liver pressure,1.0,1
+resembles caulophyllum but affects men more,numbness of hands,1.0,1
+resembles caulophyllum but affects men more,reeling as if drunk,1.0,1
+resembles caulophyllum but affects men more,brick dust in urine,1.0,1
+resembles caulophyllum but affects men more,chronic joint enlargement,1.0,1
+resembles caulophyllum but affects men more,affinity for small joints of feet,1.0,1
+resembles caulophyllum but affects men more,tearing epigastric pain with vomiting,1.0,1
+resembles caulophyllum but affects men more,bruised pain in sacrum worse lying on side,1.0,1
+resembles caulophyllum but affects men more,sour vomiting,1.0,1
+resembles caulophyllum but affects men more,giddiness,1.0,1
+resembles caulophyllum but affects men more,warm sweat on head,1.0,1
+resembles caulophyllum but affects men more,weary knees,1.0,1
+resembles caulophyllum but affects men more,pulse 120,1.0,1
+resembles caulophyllum but affects men more,motion impossible in right wrist,1.0,1
+tearing epigastric pain with vomiting,joint swelling after fatigue,1.0,1
+tearing epigastric pain with vomiting,tender wrist joints,1.0,1
+tearing epigastric pain with vomiting,tingling of limbs,1.0,1
+tearing epigastric pain with vomiting,swollen small joints,1.0,1
+tearing epigastric pain with vomiting,resembles caulophyllum but affects men more,1.0,1
+tearing epigastric pain with vomiting,chronic joint stiffness with exacerbations,1.0,1
+tearing epigastric pain with vomiting,affinity for small joints of hands,1.0,1
+tearing epigastric pain with vomiting,throbbing in liver,1.0,1
+tearing epigastric pain with vomiting,beating in liver,1.0,1
+tearing epigastric pain with vomiting,boring pains better from stretching,1.0,1
+tearing epigastric pain with vomiting,numb fingers,1.0,1
+tearing epigastric pain with vomiting,face sensitive,1.0,1
+tearing epigastric pain with vomiting,intolerable pain in right wrist,1.0,1
+tearing epigastric pain with vomiting,swollen foot joints after walking,1.0,1
+tearing epigastric pain with vomiting,tender finger joints,1.0,1
+tearing epigastric pain with vomiting,throbbing in right hypochondrium sensitive to pressure,1.0,1
+tearing epigastric pain with vomiting,repulsive food,1.0,1
+tearing epigastric pain with vomiting,excruciating pain in wrist joints worse at night,1.0,1
+tearing epigastric pain with vomiting,spasmodic bowel action,1.0,1
+tearing epigastric pain with vomiting,swollen right wrist,1.0,1
+tearing epigastric pain with vomiting,beating in right hypochondrium sensitive to pressure,1.0,1
+tearing epigastric pain with vomiting,discolored fingers,1.0,1
+tearing epigastric pain with vomiting,tearing pain in face from decayed tooth to temples,1.0,1
+tearing epigastric pain with vomiting,throbbing pain in kidney region,1.0,1
+tearing epigastric pain with vomiting,slightest pressure near little finger causes cries,1.0,1
+tearing epigastric pain with vomiting,weakness after weather change,1.0,1
+tearing epigastric pain with vomiting,rheumatism from suppressed sweat,1.0,1
+tearing epigastric pain with vomiting,rheumatic pains of small joints especially hands,1.0,1
+tearing epigastric pain with vomiting,excruciating pain in finger joints worse at night,1.0,1
+tearing epigastric pain with vomiting,thighs tremble when raised,1.0,1
+tearing epigastric pain with vomiting,warm sweat especially on side lain on,1.0,1
+tearing epigastric pain with vomiting,pulling pain in face from decayed tooth to temples,1.0,1
+tearing epigastric pain with vomiting,painful liver pressure,1.0,1
+tearing epigastric pain with vomiting,numbness of hands,1.0,1
+tearing epigastric pain with vomiting,reeling as if drunk,1.0,1
+tearing epigastric pain with vomiting,brick dust in urine,1.0,1
+tearing epigastric pain with vomiting,chronic joint enlargement,1.0,1
+tearing epigastric pain with vomiting,affinity for small joints of feet,1.0,1
+tearing epigastric pain with vomiting,bruised pain in sacrum worse lying on side,1.0,1
+tearing epigastric pain with vomiting,sour vomiting,1.0,1
+tearing epigastric pain with vomiting,giddiness,1.0,1
+tearing epigastric pain with vomiting,warm sweat on head,1.0,1
+tearing epigastric pain with vomiting,weary knees,1.0,1
+tearing epigastric pain with vomiting,pulse 120,1.0,1
+tearing epigastric pain with vomiting,motion impossible in right wrist,1.0,1
+joint swelling after fatigue,tender wrist joints,1.0,1
+joint swelling after fatigue,tingling of limbs,1.0,1
+joint swelling after fatigue,swollen small joints,1.0,1
+joint swelling after fatigue,resembles caulophyllum but affects men more,1.0,1
+joint swelling after fatigue,chronic joint stiffness with exacerbations,1.0,1
+joint swelling after fatigue,affinity for small joints of hands,1.0,1
+joint swelling after fatigue,throbbing in liver,1.0,1
+joint swelling after fatigue,beating in liver,1.0,1
+joint swelling after fatigue,boring pains better from stretching,1.0,1
+joint swelling after fatigue,numb fingers,1.0,1
+joint swelling after fatigue,face sensitive,1.0,1
+joint swelling after fatigue,intolerable pain in right wrist,1.0,1
+joint swelling after fatigue,swollen foot joints after walking,1.0,1
+joint swelling after fatigue,tender finger joints,1.0,1
+joint swelling after fatigue,throbbing in right hypochondrium sensitive to pressure,1.0,1
+joint swelling after fatigue,repulsive food,1.0,1
+joint swelling after fatigue,excruciating pain in wrist joints worse at night,1.0,1
+joint swelling after fatigue,spasmodic bowel action,1.0,1
+joint swelling after fatigue,swollen right wrist,1.0,1
+joint swelling after fatigue,beating in right hypochondrium sensitive to pressure,1.0,1
+joint swelling after fatigue,discolored fingers,1.0,1
+joint swelling after fatigue,tearing pain in face from decayed tooth to temples,1.0,1
+joint swelling after fatigue,throbbing pain in kidney region,1.0,1
+joint swelling after fatigue,slightest pressure near little finger causes cries,1.0,1
+joint swelling after fatigue,weakness after weather change,1.0,1
+joint swelling after fatigue,rheumatism from suppressed sweat,1.0,1
+joint swelling after fatigue,rheumatic pains of small joints especially hands,1.0,1
+joint swelling after fatigue,excruciating pain in finger joints worse at night,1.0,1
+joint swelling after fatigue,thighs tremble when raised,1.0,1
+joint swelling after fatigue,warm sweat especially on side lain on,1.0,1
+joint swelling after fatigue,pulling pain in face from decayed tooth to temples,1.0,1
+joint swelling after fatigue,painful liver pressure,1.0,1
+joint swelling after fatigue,numbness of hands,1.0,1
+joint swelling after fatigue,reeling as if drunk,1.0,1
+joint swelling after fatigue,brick dust in urine,1.0,1
+joint swelling after fatigue,chronic joint enlargement,1.0,1
+joint swelling after fatigue,affinity for small joints of feet,1.0,1
+joint swelling after fatigue,tearing epigastric pain with vomiting,1.0,1
+joint swelling after fatigue,bruised pain in sacrum worse lying on side,1.0,1
+joint swelling after fatigue,sour vomiting,1.0,1
+joint swelling after fatigue,giddiness,1.0,1
+joint swelling after fatigue,warm sweat on head,1.0,1
+joint swelling after fatigue,weary knees,1.0,1
+joint swelling after fatigue,pulse 120,1.0,1
+joint swelling after fatigue,motion impossible in right wrist,1.0,1
+weary knees,joint swelling after fatigue,1.0,1
+weary knees,tender wrist joints,1.0,1
+weary knees,tingling of limbs,1.0,1
+weary knees,swollen small joints,1.0,1
+weary knees,resembles caulophyllum but affects men more,1.0,1
+weary knees,chronic joint stiffness with exacerbations,1.0,1
+weary knees,affinity for small joints of hands,1.0,1
+weary knees,throbbing in liver,1.0,1
+weary knees,beating in liver,1.0,1
+weary knees,boring pains better from stretching,1.0,1
+weary knees,numb fingers,1.0,1
+weary knees,face sensitive,1.0,1
+weary knees,intolerable pain in right wrist,1.0,1
+weary knees,swollen foot joints after walking,1.0,1
+weary knees,tender finger joints,1.0,1
+weary knees,throbbing in right hypochondrium sensitive to pressure,1.0,1
+weary knees,repulsive food,1.0,1
+weary knees,excruciating pain in wrist joints worse at night,1.0,1
+weary knees,spasmodic bowel action,1.0,1
+weary knees,swollen right wrist,1.0,1
+weary knees,beating in right hypochondrium sensitive to pressure,1.0,1
+weary knees,discolored fingers,1.0,1
+weary knees,tearing pain in face from decayed tooth to temples,1.0,1
+weary knees,throbbing pain in kidney region,1.0,1
+weary knees,slightest pressure near little finger causes cries,1.0,1
+weary knees,weakness after weather change,1.0,1
+weary knees,rheumatism from suppressed sweat,1.0,1
+weary knees,rheumatic pains of small joints especially hands,1.0,1
+weary knees,excruciating pain in finger joints worse at night,1.0,1
+weary knees,thighs tremble when raised,1.0,1
+weary knees,warm sweat especially on side lain on,1.0,1
+weary knees,pulling pain in face from decayed tooth to temples,1.0,1
+weary knees,painful liver pressure,1.0,1
+weary knees,numbness of hands,1.0,1
+weary knees,reeling as if drunk,1.0,1
+weary knees,brick dust in urine,1.0,1
+weary knees,chronic joint enlargement,1.0,1
+weary knees,affinity for small joints of feet,1.0,1
+weary knees,tearing epigastric pain with vomiting,1.0,1
+weary knees,bruised pain in sacrum worse lying on side,1.0,1
+weary knees,sour vomiting,1.0,1
+weary knees,giddiness,1.0,1
+weary knees,warm sweat on head,1.0,1
+weary knees,pulse 120,1.0,1
+weary knees,motion impossible in right wrist,1.0,1
+face sensitive,joint swelling after fatigue,1.0,1
+face sensitive,tender wrist joints,1.0,1
+face sensitive,tingling of limbs,1.0,1
+face sensitive,swollen small joints,1.0,1
+face sensitive,resembles caulophyllum but affects men more,1.0,1
+face sensitive,chronic joint stiffness with exacerbations,1.0,1
+face sensitive,affinity for small joints of hands,1.0,1
+face sensitive,throbbing in liver,1.0,1
+face sensitive,beating in liver,1.0,1
+face sensitive,boring pains better from stretching,1.0,1
+face sensitive,numb fingers,1.0,1
+face sensitive,intolerable pain in right wrist,1.0,1
+face sensitive,swollen foot joints after walking,1.0,1
+face sensitive,tender finger joints,1.0,1
+face sensitive,throbbing in right hypochondrium sensitive to pressure,1.0,1
+face sensitive,repulsive food,1.0,1
+face sensitive,excruciating pain in wrist joints worse at night,1.0,1
+face sensitive,spasmodic bowel action,1.0,1
+face sensitive,swollen right wrist,1.0,1
+face sensitive,beating in right hypochondrium sensitive to pressure,1.0,1
+face sensitive,discolored fingers,1.0,1
+face sensitive,tearing pain in face from decayed tooth to temples,1.0,1
+face sensitive,throbbing pain in kidney region,1.0,1
+face sensitive,slightest pressure near little finger causes cries,1.0,1
+face sensitive,weakness after weather change,1.0,1
+face sensitive,rheumatism from suppressed sweat,1.0,1
+face sensitive,rheumatic pains of small joints especially hands,1.0,1
+face sensitive,excruciating pain in finger joints worse at night,1.0,1
+face sensitive,thighs tremble when raised,1.0,1
+face sensitive,warm sweat especially on side lain on,1.0,1
+face sensitive,pulling pain in face from decayed tooth to temples,1.0,1
+face sensitive,painful liver pressure,1.0,1
+face sensitive,numbness of hands,1.0,1
+face sensitive,reeling as if drunk,1.0,1
+face sensitive,brick dust in urine,1.0,1
+face sensitive,chronic joint enlargement,1.0,1
+face sensitive,affinity for small joints of feet,1.0,1
+face sensitive,tearing epigastric pain with vomiting,1.0,1
+face sensitive,bruised pain in sacrum worse lying on side,1.0,1
+face sensitive,sour vomiting,1.0,1
+face sensitive,giddiness,1.0,1
+face sensitive,warm sweat on head,1.0,1
+face sensitive,weary knees,1.0,1
+face sensitive,pulse 120,1.0,1
+face sensitive,motion impossible in right wrist,1.0,1
+warm sweat on head,joint swelling after fatigue,1.0,1
+warm sweat on head,tender wrist joints,1.0,1
+warm sweat on head,tingling of limbs,1.0,1
+warm sweat on head,swollen small joints,1.0,1
+warm sweat on head,resembles caulophyllum but affects men more,1.0,1
+warm sweat on head,chronic joint stiffness with exacerbations,1.0,1
+warm sweat on head,affinity for small joints of hands,1.0,1
+warm sweat on head,throbbing in liver,1.0,1
+warm sweat on head,beating in liver,1.0,1
+warm sweat on head,boring pains better from stretching,1.0,1
+warm sweat on head,numb fingers,1.0,1
+warm sweat on head,face sensitive,1.0,1
+warm sweat on head,intolerable pain in right wrist,1.0,1
+warm sweat on head,swollen foot joints after walking,1.0,1
+warm sweat on head,tender finger joints,1.0,1
+warm sweat on head,throbbing in right hypochondrium sensitive to pressure,1.0,1
+warm sweat on head,repulsive food,1.0,1
+warm sweat on head,excruciating pain in wrist joints worse at night,1.0,1
+warm sweat on head,spasmodic bowel action,1.0,1
+warm sweat on head,swollen right wrist,1.0,1
+warm sweat on head,beating in right hypochondrium sensitive to pressure,1.0,1
+warm sweat on head,discolored fingers,1.0,1
+warm sweat on head,tearing pain in face from decayed tooth to temples,1.0,1
+warm sweat on head,throbbing pain in kidney region,1.0,1
+warm sweat on head,slightest pressure near little finger causes cries,1.0,1
+warm sweat on head,weakness after weather change,1.0,1
+warm sweat on head,rheumatism from suppressed sweat,1.0,1
+warm sweat on head,rheumatic pains of small joints especially hands,1.0,1
+warm sweat on head,excruciating pain in finger joints worse at night,1.0,1
+warm sweat on head,thighs tremble when raised,1.0,1
+warm sweat on head,warm sweat especially on side lain on,1.0,1
+warm sweat on head,pulling pain in face from decayed tooth to temples,1.0,1
+warm sweat on head,painful liver pressure,1.0,1
+warm sweat on head,numbness of hands,1.0,1
+warm sweat on head,reeling as if drunk,1.0,1
+warm sweat on head,brick dust in urine,1.0,1
+warm sweat on head,chronic joint enlargement,1.0,1
+warm sweat on head,affinity for small joints of feet,1.0,1
+warm sweat on head,tearing epigastric pain with vomiting,1.0,1
+warm sweat on head,bruised pain in sacrum worse lying on side,1.0,1
+warm sweat on head,sour vomiting,1.0,1
+warm sweat on head,giddiness,1.0,1
+warm sweat on head,weary knees,1.0,1
+warm sweat on head,pulse 120,1.0,1
+warm sweat on head,motion impossible in right wrist,1.0,1
+boring pains better from stretching,joint swelling after fatigue,1.0,1
+boring pains better from stretching,tender wrist joints,1.0,1
+boring pains better from stretching,tingling of limbs,1.0,1
+boring pains better from stretching,swollen small joints,1.0,1
+boring pains better from stretching,resembles caulophyllum but affects men more,1.0,1
+boring pains better from stretching,chronic joint stiffness with exacerbations,1.0,1
+boring pains better from stretching,affinity for small joints of hands,1.0,1
+boring pains better from stretching,throbbing in liver,1.0,1
+boring pains better from stretching,beating in liver,1.0,1
+boring pains better from stretching,numb fingers,1.0,1
+boring pains better from stretching,face sensitive,1.0,1
+boring pains better from stretching,intolerable pain in right wrist,1.0,1
+boring pains better from stretching,swollen foot joints after walking,1.0,1
+boring pains better from stretching,tender finger joints,1.0,1
+boring pains better from stretching,throbbing in right hypochondrium sensitive to pressure,1.0,1
+boring pains better from stretching,repulsive food,1.0,1
+boring pains better from stretching,excruciating pain in wrist joints worse at night,1.0,1
+boring pains better from stretching,spasmodic bowel action,1.0,1
+boring pains better from stretching,swollen right wrist,1.0,1
+boring pains better from stretching,beating in right hypochondrium sensitive to pressure,1.0,1
+boring pains better from stretching,discolored fingers,1.0,1
+boring pains better from stretching,tearing pain in face from decayed tooth to temples,1.0,1
+boring pains better from stretching,throbbing pain in kidney region,1.0,1
+boring pains better from stretching,slightest pressure near little finger causes cries,1.0,1
+boring pains better from stretching,weakness after weather change,1.0,1
+boring pains better from stretching,rheumatism from suppressed sweat,1.0,1
+boring pains better from stretching,rheumatic pains of small joints especially hands,1.0,1
+boring pains better from stretching,excruciating pain in finger joints worse at night,1.0,1
+boring pains better from stretching,thighs tremble when raised,1.0,1
+boring pains better from stretching,warm sweat especially on side lain on,1.0,1
+boring pains better from stretching,pulling pain in face from decayed tooth to temples,1.0,1
+boring pains better from stretching,painful liver pressure,1.0,1
+boring pains better from stretching,numbness of hands,1.0,1
+boring pains better from stretching,reeling as if drunk,1.0,1
+boring pains better from stretching,brick dust in urine,1.0,1
+boring pains better from stretching,chronic joint enlargement,1.0,1
+boring pains better from stretching,affinity for small joints of feet,1.0,1
+boring pains better from stretching,tearing epigastric pain with vomiting,1.0,1
+boring pains better from stretching,bruised pain in sacrum worse lying on side,1.0,1
+boring pains better from stretching,sour vomiting,1.0,1
+boring pains better from stretching,giddiness,1.0,1
+boring pains better from stretching,warm sweat on head,1.0,1
+boring pains better from stretching,weary knees,1.0,1
+boring pains better from stretching,pulse 120,1.0,1
+boring pains better from stretching,motion impossible in right wrist,1.0,1
+rheumatic pains of small joints especially hands,joint swelling after fatigue,1.0,1
+rheumatic pains of small joints especially hands,tender wrist joints,1.0,1
+rheumatic pains of small joints especially hands,tingling of limbs,1.0,1
+rheumatic pains of small joints especially hands,swollen small joints,1.0,1
+rheumatic pains of small joints especially hands,resembles caulophyllum but affects men more,1.0,1
+rheumatic pains of small joints especially hands,chronic joint stiffness with exacerbations,1.0,1
+rheumatic pains of small joints especially hands,affinity for small joints of hands,1.0,1
+rheumatic pains of small joints especially hands,throbbing in liver,1.0,1
+rheumatic pains of small joints especially hands,beating in liver,1.0,1
+rheumatic pains of small joints especially hands,boring pains better from stretching,1.0,1
+rheumatic pains of small joints especially hands,numb fingers,1.0,1
+rheumatic pains of small joints especially hands,face sensitive,1.0,1
+rheumatic pains of small joints especially hands,intolerable pain in right wrist,1.0,1
+rheumatic pains of small joints especially hands,swollen foot joints after walking,1.0,1
+rheumatic pains of small joints especially hands,tender finger joints,1.0,1
+rheumatic pains of small joints especially hands,throbbing in right hypochondrium sensitive to pressure,1.0,1
+rheumatic pains of small joints especially hands,repulsive food,1.0,1
+rheumatic pains of small joints especially hands,excruciating pain in wrist joints worse at night,1.0,1
+rheumatic pains of small joints especially hands,spasmodic bowel action,1.0,1
+rheumatic pains of small joints especially hands,swollen right wrist,1.0,1
+rheumatic pains of small joints especially hands,beating in right hypochondrium sensitive to pressure,1.0,1
+rheumatic pains of small joints especially hands,discolored fingers,1.0,1
+rheumatic pains of small joints especially hands,tearing pain in face from decayed tooth to temples,1.0,1
+rheumatic pains of small joints especially hands,throbbing pain in kidney region,1.0,1
+rheumatic pains of small joints especially hands,slightest pressure near little finger causes cries,1.0,1
+rheumatic pains of small joints especially hands,weakness after weather change,1.0,1
+rheumatic pains of small joints especially hands,rheumatism from suppressed sweat,1.0,1
+rheumatic pains of small joints especially hands,excruciating pain in finger joints worse at night,1.0,1
+rheumatic pains of small joints especially hands,thighs tremble when raised,1.0,1
+rheumatic pains of small joints especially hands,warm sweat especially on side lain on,1.0,1
+rheumatic pains of small joints especially hands,pulling pain in face from decayed tooth to temples,1.0,1
+rheumatic pains of small joints especially hands,painful liver pressure,1.0,1
+rheumatic pains of small joints especially hands,numbness of hands,1.0,1
+rheumatic pains of small joints especially hands,reeling as if drunk,1.0,1
+rheumatic pains of small joints especially hands,brick dust in urine,1.0,1
+rheumatic pains of small joints especially hands,chronic joint enlargement,1.0,1
+rheumatic pains of small joints especially hands,affinity for small joints of feet,1.0,1
+rheumatic pains of small joints especially hands,tearing epigastric pain with vomiting,1.0,1
+rheumatic pains of small joints especially hands,bruised pain in sacrum worse lying on side,1.0,1
+rheumatic pains of small joints especially hands,sour vomiting,1.0,1
+rheumatic pains of small joints especially hands,giddiness,1.0,1
+rheumatic pains of small joints especially hands,warm sweat on head,1.0,1
+rheumatic pains of small joints especially hands,weary knees,1.0,1
+rheumatic pains of small joints especially hands,pulse 120,1.0,1
+rheumatic pains of small joints especially hands,motion impossible in right wrist,1.0,1
+painful liver pressure,joint swelling after fatigue,1.0,1
+painful liver pressure,tender wrist joints,1.0,1
+painful liver pressure,tingling of limbs,1.0,1
+painful liver pressure,swollen small joints,1.0,1
+painful liver pressure,resembles caulophyllum but affects men more,1.0,1
+painful liver pressure,chronic joint stiffness with exacerbations,1.0,1
+painful liver pressure,affinity for small joints of hands,1.0,1
+painful liver pressure,throbbing in liver,1.0,1
+painful liver pressure,beating in liver,1.0,1
+painful liver pressure,boring pains better from stretching,1.0,1
+painful liver pressure,numb fingers,1.0,1
+painful liver pressure,face sensitive,1.0,1
+painful liver pressure,intolerable pain in right wrist,1.0,1
+painful liver pressure,swollen foot joints after walking,1.0,1
+painful liver pressure,tender finger joints,1.0,1
+painful liver pressure,throbbing in right hypochondrium sensitive to pressure,1.0,1
+painful liver pressure,repulsive food,1.0,1
+painful liver pressure,excruciating pain in wrist joints worse at night,1.0,1
+painful liver pressure,spasmodic bowel action,1.0,1
+painful liver pressure,swollen right wrist,1.0,1
+painful liver pressure,beating in right hypochondrium sensitive to pressure,1.0,1
+painful liver pressure,discolored fingers,1.0,1
+painful liver pressure,tearing pain in face from decayed tooth to temples,1.0,1
+painful liver pressure,throbbing pain in kidney region,1.0,1
+painful liver pressure,slightest pressure near little finger causes cries,1.0,1
+painful liver pressure,weakness after weather change,1.0,1
+painful liver pressure,rheumatism from suppressed sweat,1.0,1
+painful liver pressure,rheumatic pains of small joints especially hands,1.0,1
+painful liver pressure,excruciating pain in finger joints worse at night,1.0,1
+painful liver pressure,thighs tremble when raised,1.0,1
+painful liver pressure,warm sweat especially on side lain on,1.0,1
+painful liver pressure,pulling pain in face from decayed tooth to temples,1.0,1
+painful liver pressure,numbness of hands,1.0,1
+painful liver pressure,reeling as if drunk,1.0,1
+painful liver pressure,brick dust in urine,1.0,1
+painful liver pressure,chronic joint enlargement,1.0,1
+painful liver pressure,affinity for small joints of feet,1.0,1
+painful liver pressure,tearing epigastric pain with vomiting,1.0,1
+painful liver pressure,bruised pain in sacrum worse lying on side,1.0,1
+painful liver pressure,sour vomiting,1.0,1
+painful liver pressure,giddiness,1.0,1
+painful liver pressure,warm sweat on head,1.0,1
+painful liver pressure,weary knees,1.0,1
+painful liver pressure,pulse 120,1.0,1
+painful liver pressure,motion impossible in right wrist,1.0,1
+numbness of hands,joint swelling after fatigue,1.0,1
+numbness of hands,tender wrist joints,1.0,1
+numbness of hands,tingling of limbs,1.0,1
+numbness of hands,swollen small joints,1.0,1
+numbness of hands,resembles caulophyllum but affects men more,1.0,1
+numbness of hands,chronic joint stiffness with exacerbations,1.0,1
+numbness of hands,affinity for small joints of hands,1.0,1
+numbness of hands,throbbing in liver,1.0,1
+numbness of hands,beating in liver,1.0,1
+numbness of hands,boring pains better from stretching,1.0,1
+numbness of hands,numb fingers,1.0,1
+numbness of hands,face sensitive,1.0,1
+numbness of hands,intolerable pain in right wrist,1.0,1
+numbness of hands,swollen foot joints after walking,1.0,1
+numbness of hands,tender finger joints,1.0,1
+numbness of hands,throbbing in right hypochondrium sensitive to pressure,1.0,1
+numbness of hands,repulsive food,1.0,1
+numbness of hands,excruciating pain in wrist joints worse at night,1.0,1
+numbness of hands,spasmodic bowel action,1.0,1
+numbness of hands,swollen right wrist,1.0,1
+numbness of hands,beating in right hypochondrium sensitive to pressure,1.0,1
+numbness of hands,discolored fingers,1.0,1
+numbness of hands,tearing pain in face from decayed tooth to temples,1.0,1
+numbness of hands,throbbing pain in kidney region,1.0,1
+numbness of hands,slightest pressure near little finger causes cries,1.0,1
+numbness of hands,weakness after weather change,1.0,1
+numbness of hands,rheumatism from suppressed sweat,1.0,1
+numbness of hands,rheumatic pains of small joints especially hands,1.0,1
+numbness of hands,excruciating pain in finger joints worse at night,1.0,1
+numbness of hands,thighs tremble when raised,1.0,1
+numbness of hands,warm sweat especially on side lain on,1.0,1
+numbness of hands,pulling pain in face from decayed tooth to temples,1.0,1
+numbness of hands,painful liver pressure,1.0,1
+numbness of hands,reeling as if drunk,1.0,1
+numbness of hands,brick dust in urine,1.0,1
+numbness of hands,chronic joint enlargement,1.0,1
+numbness of hands,affinity for small joints of feet,1.0,1
+numbness of hands,tearing epigastric pain with vomiting,1.0,1
+numbness of hands,bruised pain in sacrum worse lying on side,1.0,1
+numbness of hands,sour vomiting,1.0,1
+numbness of hands,giddiness,1.0,1
+numbness of hands,warm sweat on head,1.0,1
+numbness of hands,weary knees,1.0,1
+numbness of hands,pulse 120,1.0,1
+numbness of hands,motion impossible in right wrist,1.0,1
+spasmodic bowel action,joint swelling after fatigue,1.0,1
+spasmodic bowel action,tender wrist joints,1.0,1
+spasmodic bowel action,tingling of limbs,1.0,1
+spasmodic bowel action,swollen small joints,1.0,1
+spasmodic bowel action,resembles caulophyllum but affects men more,1.0,1
+spasmodic bowel action,chronic joint stiffness with exacerbations,1.0,1
+spasmodic bowel action,affinity for small joints of hands,1.0,1
+spasmodic bowel action,throbbing in liver,1.0,1
+spasmodic bowel action,beating in liver,1.0,1
+spasmodic bowel action,boring pains better from stretching,1.0,1
+spasmodic bowel action,numb fingers,1.0,1
+spasmodic bowel action,face sensitive,1.0,1
+spasmodic bowel action,intolerable pain in right wrist,1.0,1
+spasmodic bowel action,swollen foot joints after walking,1.0,1
+spasmodic bowel action,tender finger joints,1.0,1
+spasmodic bowel action,throbbing in right hypochondrium sensitive to pressure,1.0,1
+spasmodic bowel action,repulsive food,1.0,1
+spasmodic bowel action,excruciating pain in wrist joints worse at night,1.0,1
+spasmodic bowel action,swollen right wrist,1.0,1
+spasmodic bowel action,beating in right hypochondrium sensitive to pressure,1.0,1
+spasmodic bowel action,discolored fingers,1.0,1
+spasmodic bowel action,tearing pain in face from decayed tooth to temples,1.0,1
+spasmodic bowel action,throbbing pain in kidney region,1.0,1
+spasmodic bowel action,slightest pressure near little finger causes cries,1.0,1
+spasmodic bowel action,weakness after weather change,1.0,1
+spasmodic bowel action,rheumatism from suppressed sweat,1.0,1
+spasmodic bowel action,rheumatic pains of small joints especially hands,1.0,1
+spasmodic bowel action,excruciating pain in finger joints worse at night,1.0,1
+spasmodic bowel action,thighs tremble when raised,1.0,1
+spasmodic bowel action,warm sweat especially on side lain on,1.0,1
+spasmodic bowel action,pulling pain in face from decayed tooth to temples,1.0,1
+spasmodic bowel action,painful liver pressure,1.0,1
+spasmodic bowel action,numbness of hands,1.0,1
+spasmodic bowel action,reeling as if drunk,1.0,1
+spasmodic bowel action,brick dust in urine,1.0,1
+spasmodic bowel action,chronic joint enlargement,1.0,1
+spasmodic bowel action,affinity for small joints of feet,1.0,1
+spasmodic bowel action,tearing epigastric pain with vomiting,1.0,1
+spasmodic bowel action,bruised pain in sacrum worse lying on side,1.0,1
+spasmodic bowel action,sour vomiting,1.0,1
+spasmodic bowel action,giddiness,1.0,1
+spasmodic bowel action,warm sweat on head,1.0,1
+spasmodic bowel action,weary knees,1.0,1
+spasmodic bowel action,pulse 120,1.0,1
+spasmodic bowel action,motion impossible in right wrist,1.0,1
+sour vomiting,joint swelling after fatigue,0.5,1
+sour vomiting,tender wrist joints,0.5,1
+sour vomiting,tingling of limbs,0.5,1
+sour vomiting,swollen small joints,0.5,1
+sour vomiting,resembles caulophyllum but affects men more,0.5,1
+sour vomiting,chronic joint stiffness with exacerbations,0.5,1
+sour vomiting,affinity for small joints of hands,0.5,1
+sour vomiting,throbbing in liver,0.5,1
+sour vomiting,beating in liver,0.5,1
+sour vomiting,boring pains better from stretching,0.5,1
+sour vomiting,numb fingers,0.5,1
+sour vomiting,face sensitive,0.5,1
+sour vomiting,intolerable pain in right wrist,0.5,1
+sour vomiting,swollen foot joints after walking,0.5,1
+sour vomiting,tender finger joints,0.5,1
+sour vomiting,throbbing in right hypochondrium sensitive to pressure,0.5,1
+sour vomiting,repulsive food,0.5,1
+sour vomiting,excruciating pain in wrist joints worse at night,0.5,1
+sour vomiting,spasmodic bowel action,0.5,1
+sour vomiting,swollen right wrist,0.5,1
+sour vomiting,beating in right hypochondrium sensitive to pressure,0.5,1
+sour vomiting,discolored fingers,0.5,1
+sour vomiting,tearing pain in face from decayed tooth to temples,0.5,1
+sour vomiting,throbbing pain in kidney region,0.5,1
+sour vomiting,slightest pressure near little finger causes cries,0.5,1
+sour vomiting,weakness after weather change,0.5,1
+sour vomiting,rheumatism from suppressed sweat,0.5,1
+sour vomiting,rheumatic pains of small joints especially hands,0.5,1
+sour vomiting,excruciating pain in finger joints worse at night,0.5,1
+sour vomiting,thighs tremble when raised,0.5,1
+sour vomiting,warm sweat especially on side lain on,0.5,1
+sour vomiting,pulling pain in face from decayed tooth to temples,0.5,1
+sour vomiting,painful liver pressure,0.5,1
+sour vomiting,numbness of hands,0.5,1
+sour vomiting,reeling as if drunk,0.5,1
+sour vomiting,brick dust in urine,0.5,1
+sour vomiting,chronic joint enlargement,0.5,1
+sour vomiting,affinity for small joints of feet,0.5,1
+sour vomiting,tearing epigastric pain with vomiting,0.5,1
+sour vomiting,bruised pain in sacrum worse lying on side,0.5,1
+sour vomiting,giddiness,0.5,1
+sour vomiting,warm sweat on head,0.5,1
+sour vomiting,weary knees,0.5,1
+sour vomiting,pulse 120,0.5,1
+sour vomiting,motion impossible in right wrist,0.5,1
+warm sweat especially on side lain on,joint swelling after fatigue,1.0,1
+warm sweat especially on side lain on,tender wrist joints,1.0,1
+warm sweat especially on side lain on,tingling of limbs,1.0,1
+warm sweat especially on side lain on,swollen small joints,1.0,1
+warm sweat especially on side lain on,resembles caulophyllum but affects men more,1.0,1
+warm sweat especially on side lain on,chronic joint stiffness with exacerbations,1.0,1
+warm sweat especially on side lain on,affinity for small joints of hands,1.0,1
+warm sweat especially on side lain on,throbbing in liver,1.0,1
+warm sweat especially on side lain on,beating in liver,1.0,1
+warm sweat especially on side lain on,boring pains better from stretching,1.0,1
+warm sweat especially on side lain on,numb fingers,1.0,1
+warm sweat especially on side lain on,face sensitive,1.0,1
+warm sweat especially on side lain on,intolerable pain in right wrist,1.0,1
+warm sweat especially on side lain on,swollen foot joints after walking,1.0,1
+warm sweat especially on side lain on,tender finger joints,1.0,1
+warm sweat especially on side lain on,throbbing in right hypochondrium sensitive to pressure,1.0,1
+warm sweat especially on side lain on,repulsive food,1.0,1
+warm sweat especially on side lain on,excruciating pain in wrist joints worse at night,1.0,1
+warm sweat especially on side lain on,spasmodic bowel action,1.0,1
+warm sweat especially on side lain on,swollen right wrist,1.0,1
+warm sweat especially on side lain on,beating in right hypochondrium sensitive to pressure,1.0,1
+warm sweat especially on side lain on,discolored fingers,1.0,1
+warm sweat especially on side lain on,tearing pain in face from decayed tooth to temples,1.0,1
+warm sweat especially on side lain on,throbbing pain in kidney region,1.0,1
+warm sweat especially on side lain on,slightest pressure near little finger causes cries,1.0,1
+warm sweat especially on side lain on,weakness after weather change,1.0,1
+warm sweat especially on side lain on,rheumatism from suppressed sweat,1.0,1
+warm sweat especially on side lain on,rheumatic pains of small joints especially hands,1.0,1
+warm sweat especially on side lain on,excruciating pain in finger joints worse at night,1.0,1
+warm sweat especially on side lain on,thighs tremble when raised,1.0,1
+warm sweat especially on side lain on,pulling pain in face from decayed tooth to temples,1.0,1
+warm sweat especially on side lain on,painful liver pressure,1.0,1
+warm sweat especially on side lain on,numbness of hands,1.0,1
+warm sweat especially on side lain on,reeling as if drunk,1.0,1
+warm sweat especially on side lain on,brick dust in urine,1.0,1
+warm sweat especially on side lain on,chronic joint enlargement,1.0,1
+warm sweat especially on side lain on,affinity for small joints of feet,1.0,1
+warm sweat especially on side lain on,tearing epigastric pain with vomiting,1.0,1
+warm sweat especially on side lain on,bruised pain in sacrum worse lying on side,1.0,1
+warm sweat especially on side lain on,sour vomiting,1.0,1
+warm sweat especially on side lain on,giddiness,1.0,1
+warm sweat especially on side lain on,warm sweat on head,1.0,1
+warm sweat especially on side lain on,weary knees,1.0,1
+warm sweat especially on side lain on,pulse 120,1.0,1
+warm sweat especially on side lain on,motion impossible in right wrist,1.0,1
+chronic joint enlargement,joint swelling after fatigue,1.0,1
+chronic joint enlargement,tender wrist joints,1.0,1
+chronic joint enlargement,tingling of limbs,1.0,1
+chronic joint enlargement,swollen small joints,1.0,1
+chronic joint enlargement,resembles caulophyllum but affects men more,1.0,1
+chronic joint enlargement,chronic joint stiffness with exacerbations,1.0,1
+chronic joint enlargement,affinity for small joints of hands,1.0,1
+chronic joint enlargement,throbbing in liver,1.0,1
+chronic joint enlargement,beating in liver,1.0,1
+chronic joint enlargement,boring pains better from stretching,1.0,1
+chronic joint enlargement,numb fingers,1.0,1
+chronic joint enlargement,face sensitive,1.0,1
+chronic joint enlargement,intolerable pain in right wrist,1.0,1
+chronic joint enlargement,swollen foot joints after walking,1.0,1
+chronic joint enlargement,tender finger joints,1.0,1
+chronic joint enlargement,throbbing in right hypochondrium sensitive to pressure,1.0,1
+chronic joint enlargement,repulsive food,1.0,1
+chronic joint enlargement,excruciating pain in wrist joints worse at night,1.0,1
+chronic joint enlargement,spasmodic bowel action,1.0,1
+chronic joint enlargement,swollen right wrist,1.0,1
+chronic joint enlargement,beating in right hypochondrium sensitive to pressure,1.0,1
+chronic joint enlargement,discolored fingers,1.0,1
+chronic joint enlargement,tearing pain in face from decayed tooth to temples,1.0,1
+chronic joint enlargement,throbbing pain in kidney region,1.0,1
+chronic joint enlargement,slightest pressure near little finger causes cries,1.0,1
+chronic joint enlargement,weakness after weather change,1.0,1
+chronic joint enlargement,rheumatism from suppressed sweat,1.0,1
+chronic joint enlargement,rheumatic pains of small joints especially hands,1.0,1
+chronic joint enlargement,excruciating pain in finger joints worse at night,1.0,1
+chronic joint enlargement,thighs tremble when raised,1.0,1
+chronic joint enlargement,warm sweat especially on side lain on,1.0,1
+chronic joint enlargement,pulling pain in face from decayed tooth to temples,1.0,1
+chronic joint enlargement,painful liver pressure,1.0,1
+chronic joint enlargement,numbness of hands,1.0,1
+chronic joint enlargement,reeling as if drunk,1.0,1
+chronic joint enlargement,brick dust in urine,1.0,1
+chronic joint enlargement,affinity for small joints of feet,1.0,1
+chronic joint enlargement,tearing epigastric pain with vomiting,1.0,1
+chronic joint enlargement,bruised pain in sacrum worse lying on side,1.0,1
+chronic joint enlargement,sour vomiting,1.0,1
+chronic joint enlargement,giddiness,1.0,1
+chronic joint enlargement,warm sweat on head,1.0,1
+chronic joint enlargement,weary knees,1.0,1
+chronic joint enlargement,pulse 120,1.0,1
+chronic joint enlargement,motion impossible in right wrist,1.0,1
+excruciating pain in wrist joints worse at night,joint swelling after fatigue,1.0,1
+excruciating pain in wrist joints worse at night,tender wrist joints,1.0,1
+excruciating pain in wrist joints worse at night,tingling of limbs,1.0,1
+excruciating pain in wrist joints worse at night,swollen small joints,1.0,1
+excruciating pain in wrist joints worse at night,resembles caulophyllum but affects men more,1.0,1
+excruciating pain in wrist joints worse at night,chronic joint stiffness with exacerbations,1.0,1
+excruciating pain in wrist joints worse at night,affinity for small joints of hands,1.0,1
+excruciating pain in wrist joints worse at night,throbbing in liver,1.0,1
+excruciating pain in wrist joints worse at night,beating in liver,1.0,1
+excruciating pain in wrist joints worse at night,boring pains better from stretching,1.0,1
+excruciating pain in wrist joints worse at night,numb fingers,1.0,1
+excruciating pain in wrist joints worse at night,face sensitive,1.0,1
+excruciating pain in wrist joints worse at night,intolerable pain in right wrist,1.0,1
+excruciating pain in wrist joints worse at night,swollen foot joints after walking,1.0,1
+excruciating pain in wrist joints worse at night,tender finger joints,1.0,1
+excruciating pain in wrist joints worse at night,throbbing in right hypochondrium sensitive to pressure,1.0,1
+excruciating pain in wrist joints worse at night,repulsive food,1.0,1
+excruciating pain in wrist joints worse at night,spasmodic bowel action,1.0,1
+excruciating pain in wrist joints worse at night,swollen right wrist,1.0,1
+excruciating pain in wrist joints worse at night,beating in right hypochondrium sensitive to pressure,1.0,1
+excruciating pain in wrist joints worse at night,discolored fingers,1.0,1
+excruciating pain in wrist joints worse at night,tearing pain in face from decayed tooth to temples,1.0,1
+excruciating pain in wrist joints worse at night,throbbing pain in kidney region,1.0,1
+excruciating pain in wrist joints worse at night,slightest pressure near little finger causes cries,1.0,1
+excruciating pain in wrist joints worse at night,weakness after weather change,1.0,1
+excruciating pain in wrist joints worse at night,rheumatism from suppressed sweat,1.0,1
+excruciating pain in wrist joints worse at night,rheumatic pains of small joints especially hands,1.0,1
+excruciating pain in wrist joints worse at night,excruciating pain in finger joints worse at night,1.0,1
+excruciating pain in wrist joints worse at night,thighs tremble when raised,1.0,1
+excruciating pain in wrist joints worse at night,warm sweat especially on side lain on,1.0,1
+excruciating pain in wrist joints worse at night,pulling pain in face from decayed tooth to temples,1.0,1
+excruciating pain in wrist joints worse at night,painful liver pressure,1.0,1
+excruciating pain in wrist joints worse at night,numbness of hands,1.0,1
+excruciating pain in wrist joints worse at night,reeling as if drunk,1.0,1
+excruciating pain in wrist joints worse at night,brick dust in urine,1.0,1
+excruciating pain in wrist joints worse at night,chronic joint enlargement,1.0,1
+excruciating pain in wrist joints worse at night,affinity for small joints of feet,1.0,1
+excruciating pain in wrist joints worse at night,tearing epigastric pain with vomiting,1.0,1
+excruciating pain in wrist joints worse at night,bruised pain in sacrum worse lying on side,1.0,1
+excruciating pain in wrist joints worse at night,sour vomiting,1.0,1
+excruciating pain in wrist joints worse at night,giddiness,1.0,1
+excruciating pain in wrist joints worse at night,warm sweat on head,1.0,1
+excruciating pain in wrist joints worse at night,weary knees,1.0,1
+excruciating pain in wrist joints worse at night,pulse 120,1.0,1
+excruciating pain in wrist joints worse at night,motion impossible in right wrist,1.0,1
+excruciating pain in finger joints worse at night,joint swelling after fatigue,1.0,1
+excruciating pain in finger joints worse at night,tender wrist joints,1.0,1
+excruciating pain in finger joints worse at night,tingling of limbs,1.0,1
+excruciating pain in finger joints worse at night,swollen small joints,1.0,1
+excruciating pain in finger joints worse at night,resembles caulophyllum but affects men more,1.0,1
+excruciating pain in finger joints worse at night,chronic joint stiffness with exacerbations,1.0,1
+excruciating pain in finger joints worse at night,affinity for small joints of hands,1.0,1
+excruciating pain in finger joints worse at night,throbbing in liver,1.0,1
+excruciating pain in finger joints worse at night,beating in liver,1.0,1
+excruciating pain in finger joints worse at night,boring pains better from stretching,1.0,1
+excruciating pain in finger joints worse at night,numb fingers,1.0,1
+excruciating pain in finger joints worse at night,face sensitive,1.0,1
+excruciating pain in finger joints worse at night,intolerable pain in right wrist,1.0,1
+excruciating pain in finger joints worse at night,swollen foot joints after walking,1.0,1
+excruciating pain in finger joints worse at night,tender finger joints,1.0,1
+excruciating pain in finger joints worse at night,throbbing in right hypochondrium sensitive to pressure,1.0,1
+excruciating pain in finger joints worse at night,repulsive food,1.0,1
+excruciating pain in finger joints worse at night,excruciating pain in wrist joints worse at night,1.0,1
+excruciating pain in finger joints worse at night,spasmodic bowel action,1.0,1
+excruciating pain in finger joints worse at night,swollen right wrist,1.0,1
+excruciating pain in finger joints worse at night,beating in right hypochondrium sensitive to pressure,1.0,1
+excruciating pain in finger joints worse at night,discolored fingers,1.0,1
+excruciating pain in finger joints worse at night,tearing pain in face from decayed tooth to temples,1.0,1
+excruciating pain in finger joints worse at night,throbbing pain in kidney region,1.0,1
+excruciating pain in finger joints worse at night,slightest pressure near little finger causes cries,1.0,1
+excruciating pain in finger joints worse at night,weakness after weather change,1.0,1
+excruciating pain in finger joints worse at night,rheumatism from suppressed sweat,1.0,1
+excruciating pain in finger joints worse at night,rheumatic pains of small joints especially hands,1.0,1
+excruciating pain in finger joints worse at night,thighs tremble when raised,1.0,1
+excruciating pain in finger joints worse at night,warm sweat especially on side lain on,1.0,1
+excruciating pain in finger joints worse at night,pulling pain in face from decayed tooth to temples,1.0,1
+excruciating pain in finger joints worse at night,painful liver pressure,1.0,1
+excruciating pain in finger joints worse at night,numbness of hands,1.0,1
+excruciating pain in finger joints worse at night,reeling as if drunk,1.0,1
+excruciating pain in finger joints worse at night,brick dust in urine,1.0,1
+excruciating pain in finger joints worse at night,chronic joint enlargement,1.0,1
+excruciating pain in finger joints worse at night,affinity for small joints of feet,1.0,1
+excruciating pain in finger joints worse at night,tearing epigastric pain with vomiting,1.0,1
+excruciating pain in finger joints worse at night,bruised pain in sacrum worse lying on side,1.0,1
+excruciating pain in finger joints worse at night,sour vomiting,1.0,1
+excruciating pain in finger joints worse at night,giddiness,1.0,1
+excruciating pain in finger joints worse at night,warm sweat on head,1.0,1
+excruciating pain in finger joints worse at night,weary knees,1.0,1
+excruciating pain in finger joints worse at night,pulse 120,1.0,1
+excruciating pain in finger joints worse at night,motion impossible in right wrist,1.0,1
+pulling pain in face from decayed tooth to temples,joint swelling after fatigue,1.0,1
+pulling pain in face from decayed tooth to temples,tender wrist joints,1.0,1
+pulling pain in face from decayed tooth to temples,tingling of limbs,1.0,1
+pulling pain in face from decayed tooth to temples,swollen small joints,1.0,1
+pulling pain in face from decayed tooth to temples,resembles caulophyllum but affects men more,1.0,1
+pulling pain in face from decayed tooth to temples,chronic joint stiffness with exacerbations,1.0,1
+pulling pain in face from decayed tooth to temples,affinity for small joints of hands,1.0,1
+pulling pain in face from decayed tooth to temples,throbbing in liver,1.0,1
+pulling pain in face from decayed tooth to temples,beating in liver,1.0,1
+pulling pain in face from decayed tooth to temples,boring pains better from stretching,1.0,1
+pulling pain in face from decayed tooth to temples,numb fingers,1.0,1
+pulling pain in face from decayed tooth to temples,face sensitive,1.0,1
+pulling pain in face from decayed tooth to temples,intolerable pain in right wrist,1.0,1
+pulling pain in face from decayed tooth to temples,swollen foot joints after walking,1.0,1
+pulling pain in face from decayed tooth to temples,tender finger joints,1.0,1
+pulling pain in face from decayed tooth to temples,throbbing in right hypochondrium sensitive to pressure,1.0,1
+pulling pain in face from decayed tooth to temples,repulsive food,1.0,1
+pulling pain in face from decayed tooth to temples,excruciating pain in wrist joints worse at night,1.0,1
+pulling pain in face from decayed tooth to temples,spasmodic bowel action,1.0,1
+pulling pain in face from decayed tooth to temples,swollen right wrist,1.0,1
+pulling pain in face from decayed tooth to temples,beating in right hypochondrium sensitive to pressure,1.0,1
+pulling pain in face from decayed tooth to temples,discolored fingers,1.0,1
+pulling pain in face from decayed tooth to temples,tearing pain in face from decayed tooth to temples,1.0,1
+pulling pain in face from decayed tooth to temples,throbbing pain in kidney region,1.0,1
+pulling pain in face from decayed tooth to temples,slightest pressure near little finger causes cries,1.0,1
+pulling pain in face from decayed tooth to temples,weakness after weather change,1.0,1
+pulling pain in face from decayed tooth to temples,rheumatism from suppressed sweat,1.0,1
+pulling pain in face from decayed tooth to temples,rheumatic pains of small joints especially hands,1.0,1
+pulling pain in face from decayed tooth to temples,excruciating pain in finger joints worse at night,1.0,1
+pulling pain in face from decayed tooth to temples,thighs tremble when raised,1.0,1
+pulling pain in face from decayed tooth to temples,warm sweat especially on side lain on,1.0,1
+pulling pain in face from decayed tooth to temples,painful liver pressure,1.0,1
+pulling pain in face from decayed tooth to temples,numbness of hands,1.0,1
+pulling pain in face from decayed tooth to temples,reeling as if drunk,1.0,1
+pulling pain in face from decayed tooth to temples,brick dust in urine,1.0,1
+pulling pain in face from decayed tooth to temples,chronic joint enlargement,1.0,1
+pulling pain in face from decayed tooth to temples,affinity for small joints of feet,1.0,1
+pulling pain in face from decayed tooth to temples,tearing epigastric pain with vomiting,1.0,1
+pulling pain in face from decayed tooth to temples,bruised pain in sacrum worse lying on side,1.0,1
+pulling pain in face from decayed tooth to temples,sour vomiting,1.0,1
+pulling pain in face from decayed tooth to temples,giddiness,1.0,1
+pulling pain in face from decayed tooth to temples,warm sweat on head,1.0,1
+pulling pain in face from decayed tooth to temples,weary knees,1.0,1
+pulling pain in face from decayed tooth to temples,pulse 120,1.0,1
+pulling pain in face from decayed tooth to temples,motion impossible in right wrist,1.0,1
+tearing pain in face from decayed tooth to temples,joint swelling after fatigue,1.0,1
+tearing pain in face from decayed tooth to temples,tender wrist joints,1.0,1
+tearing pain in face from decayed tooth to temples,tingling of limbs,1.0,1
+tearing pain in face from decayed tooth to temples,swollen small joints,1.0,1
+tearing pain in face from decayed tooth to temples,resembles caulophyllum but affects men more,1.0,1
+tearing pain in face from decayed tooth to temples,chronic joint stiffness with exacerbations,1.0,1
+tearing pain in face from decayed tooth to temples,affinity for small joints of hands,1.0,1
+tearing pain in face from decayed tooth to temples,throbbing in liver,1.0,1
+tearing pain in face from decayed tooth to temples,beating in liver,1.0,1
+tearing pain in face from decayed tooth to temples,boring pains better from stretching,1.0,1
+tearing pain in face from decayed tooth to temples,numb fingers,1.0,1
+tearing pain in face from decayed tooth to temples,face sensitive,1.0,1
+tearing pain in face from decayed tooth to temples,intolerable pain in right wrist,1.0,1
+tearing pain in face from decayed tooth to temples,swollen foot joints after walking,1.0,1
+tearing pain in face from decayed tooth to temples,tender finger joints,1.0,1
+tearing pain in face from decayed tooth to temples,throbbing in right hypochondrium sensitive to pressure,1.0,1
+tearing pain in face from decayed tooth to temples,repulsive food,1.0,1
+tearing pain in face from decayed tooth to temples,excruciating pain in wrist joints worse at night,1.0,1
+tearing pain in face from decayed tooth to temples,spasmodic bowel action,1.0,1
+tearing pain in face from decayed tooth to temples,swollen right wrist,1.0,1
+tearing pain in face from decayed tooth to temples,beating in right hypochondrium sensitive to pressure,1.0,1
+tearing pain in face from decayed tooth to temples,discolored fingers,1.0,1
+tearing pain in face from decayed tooth to temples,throbbing pain in kidney region,1.0,1
+tearing pain in face from decayed tooth to temples,slightest pressure near little finger causes cries,1.0,1
+tearing pain in face from decayed tooth to temples,weakness after weather change,1.0,1
+tearing pain in face from decayed tooth to temples,rheumatism from suppressed sweat,1.0,1
+tearing pain in face from decayed tooth to temples,rheumatic pains of small joints especially hands,1.0,1
+tearing pain in face from decayed tooth to temples,excruciating pain in finger joints worse at night,1.0,1
+tearing pain in face from decayed tooth to temples,thighs tremble when raised,1.0,1
+tearing pain in face from decayed tooth to temples,warm sweat especially on side lain on,1.0,1
+tearing pain in face from decayed tooth to temples,pulling pain in face from decayed tooth to temples,1.0,1
+tearing pain in face from decayed tooth to temples,painful liver pressure,1.0,1
+tearing pain in face from decayed tooth to temples,numbness of hands,1.0,1
+tearing pain in face from decayed tooth to temples,reeling as if drunk,1.0,1
+tearing pain in face from decayed tooth to temples,brick dust in urine,1.0,1
+tearing pain in face from decayed tooth to temples,chronic joint enlargement,1.0,1
+tearing pain in face from decayed tooth to temples,affinity for small joints of feet,1.0,1
+tearing pain in face from decayed tooth to temples,tearing epigastric pain with vomiting,1.0,1
+tearing pain in face from decayed tooth to temples,bruised pain in sacrum worse lying on side,1.0,1
+tearing pain in face from decayed tooth to temples,sour vomiting,1.0,1
+tearing pain in face from decayed tooth to temples,giddiness,1.0,1
+tearing pain in face from decayed tooth to temples,warm sweat on head,1.0,1
+tearing pain in face from decayed tooth to temples,weary knees,1.0,1
+tearing pain in face from decayed tooth to temples,pulse 120,1.0,1
+tearing pain in face from decayed tooth to temples,motion impossible in right wrist,1.0,1
+thighs tremble when raised,joint swelling after fatigue,1.0,1
+thighs tremble when raised,tender wrist joints,1.0,1
+thighs tremble when raised,tingling of limbs,1.0,1
+thighs tremble when raised,swollen small joints,1.0,1
+thighs tremble when raised,resembles caulophyllum but affects men more,1.0,1
+thighs tremble when raised,chronic joint stiffness with exacerbations,1.0,1
+thighs tremble when raised,affinity for small joints of hands,1.0,1
+thighs tremble when raised,throbbing in liver,1.0,1
+thighs tremble when raised,beating in liver,1.0,1
+thighs tremble when raised,boring pains better from stretching,1.0,1
+thighs tremble when raised,numb fingers,1.0,1
+thighs tremble when raised,face sensitive,1.0,1
+thighs tremble when raised,intolerable pain in right wrist,1.0,1
+thighs tremble when raised,swollen foot joints after walking,1.0,1
+thighs tremble when raised,tender finger joints,1.0,1
+thighs tremble when raised,throbbing in right hypochondrium sensitive to pressure,1.0,1
+thighs tremble when raised,repulsive food,1.0,1
+thighs tremble when raised,excruciating pain in wrist joints worse at night,1.0,1
+thighs tremble when raised,spasmodic bowel action,1.0,1
+thighs tremble when raised,swollen right wrist,1.0,1
+thighs tremble when raised,beating in right hypochondrium sensitive to pressure,1.0,1
+thighs tremble when raised,discolored fingers,1.0,1
+thighs tremble when raised,tearing pain in face from decayed tooth to temples,1.0,1
+thighs tremble when raised,throbbing pain in kidney region,1.0,1
+thighs tremble when raised,slightest pressure near little finger causes cries,1.0,1
+thighs tremble when raised,weakness after weather change,1.0,1
+thighs tremble when raised,rheumatism from suppressed sweat,1.0,1
+thighs tremble when raised,rheumatic pains of small joints especially hands,1.0,1
+thighs tremble when raised,excruciating pain in finger joints worse at night,1.0,1
+thighs tremble when raised,warm sweat especially on side lain on,1.0,1
+thighs tremble when raised,pulling pain in face from decayed tooth to temples,1.0,1
+thighs tremble when raised,painful liver pressure,1.0,1
+thighs tremble when raised,numbness of hands,1.0,1
+thighs tremble when raised,reeling as if drunk,1.0,1
+thighs tremble when raised,brick dust in urine,1.0,1
+thighs tremble when raised,chronic joint enlargement,1.0,1
+thighs tremble when raised,affinity for small joints of feet,1.0,1
+thighs tremble when raised,tearing epigastric pain with vomiting,1.0,1
+thighs tremble when raised,bruised pain in sacrum worse lying on side,1.0,1
+thighs tremble when raised,sour vomiting,1.0,1
+thighs tremble when raised,giddiness,1.0,1
+thighs tremble when raised,warm sweat on head,1.0,1
+thighs tremble when raised,weary knees,1.0,1
+thighs tremble when raised,pulse 120,1.0,1
+thighs tremble when raised,motion impossible in right wrist,1.0,1
+giddiness,joint swelling after fatigue,1.0,1
+giddiness,tender wrist joints,1.0,1
+giddiness,tingling of limbs,1.0,1
+giddiness,swollen small joints,1.0,1
+giddiness,resembles caulophyllum but affects men more,1.0,1
+giddiness,chronic joint stiffness with exacerbations,1.0,1
+giddiness,affinity for small joints of hands,1.0,1
+giddiness,throbbing in liver,1.0,1
+giddiness,beating in liver,1.0,1
+giddiness,boring pains better from stretching,1.0,1
+giddiness,numb fingers,1.0,1
+giddiness,face sensitive,1.0,1
+giddiness,intolerable pain in right wrist,1.0,1
+giddiness,swollen foot joints after walking,1.0,1
+giddiness,tender finger joints,1.0,1
+giddiness,throbbing in right hypochondrium sensitive to pressure,1.0,1
+giddiness,repulsive food,1.0,1
+giddiness,excruciating pain in wrist joints worse at night,1.0,1
+giddiness,spasmodic bowel action,1.0,1
+giddiness,swollen right wrist,1.0,1
+giddiness,beating in right hypochondrium sensitive to pressure,1.0,1
+giddiness,discolored fingers,1.0,1
+giddiness,tearing pain in face from decayed tooth to temples,1.0,1
+giddiness,throbbing pain in kidney region,1.0,1
+giddiness,slightest pressure near little finger causes cries,1.0,1
+giddiness,weakness after weather change,1.0,1
+giddiness,rheumatism from suppressed sweat,1.0,1
+giddiness,rheumatic pains of small joints especially hands,1.0,1
+giddiness,excruciating pain in finger joints worse at night,1.0,1
+giddiness,thighs tremble when raised,1.0,1
+giddiness,warm sweat especially on side lain on,1.0,1
+giddiness,pulling pain in face from decayed tooth to temples,1.0,1
+giddiness,painful liver pressure,1.0,1
+giddiness,numbness of hands,1.0,1
+giddiness,reeling as if drunk,1.0,1
+giddiness,brick dust in urine,1.0,1
+giddiness,chronic joint enlargement,1.0,1
+giddiness,affinity for small joints of feet,1.0,1
+giddiness,tearing epigastric pain with vomiting,1.0,1
+giddiness,bruised pain in sacrum worse lying on side,1.0,1
+giddiness,sour vomiting,1.0,1
+giddiness,warm sweat on head,1.0,1
+giddiness,weary knees,1.0,1
+giddiness,pulse 120,1.0,1
+giddiness,motion impossible in right wrist,1.0,1
+chronic joint stiffness with exacerbations,joint swelling after fatigue,1.0,1
+chronic joint stiffness with exacerbations,tender wrist joints,1.0,1
+chronic joint stiffness with exacerbations,tingling of limbs,1.0,1
+chronic joint stiffness with exacerbations,swollen small joints,1.0,1
+chronic joint stiffness with exacerbations,resembles caulophyllum but affects men more,1.0,1
+chronic joint stiffness with exacerbations,affinity for small joints of hands,1.0,1
+chronic joint stiffness with exacerbations,throbbing in liver,1.0,1
+chronic joint stiffness with exacerbations,beating in liver,1.0,1
+chronic joint stiffness with exacerbations,boring pains better from stretching,1.0,1
+chronic joint stiffness with exacerbations,numb fingers,1.0,1
+chronic joint stiffness with exacerbations,face sensitive,1.0,1
+chronic joint stiffness with exacerbations,intolerable pain in right wrist,1.0,1
+chronic joint stiffness with exacerbations,swollen foot joints after walking,1.0,1
+chronic joint stiffness with exacerbations,tender finger joints,1.0,1
+chronic joint stiffness with exacerbations,throbbing in right hypochondrium sensitive to pressure,1.0,1
+chronic joint stiffness with exacerbations,repulsive food,1.0,1
+chronic joint stiffness with exacerbations,excruciating pain in wrist joints worse at night,1.0,1
+chronic joint stiffness with exacerbations,spasmodic bowel action,1.0,1
+chronic joint stiffness with exacerbations,swollen right wrist,1.0,1
+chronic joint stiffness with exacerbations,beating in right hypochondrium sensitive to pressure,1.0,1
+chronic joint stiffness with exacerbations,discolored fingers,1.0,1
+chronic joint stiffness with exacerbations,tearing pain in face from decayed tooth to temples,1.0,1
+chronic joint stiffness with exacerbations,throbbing pain in kidney region,1.0,1
+chronic joint stiffness with exacerbations,slightest pressure near little finger causes cries,1.0,1
+chronic joint stiffness with exacerbations,weakness after weather change,1.0,1
+chronic joint stiffness with exacerbations,rheumatism from suppressed sweat,1.0,1
+chronic joint stiffness with exacerbations,rheumatic pains of small joints especially hands,1.0,1
+chronic joint stiffness with exacerbations,excruciating pain in finger joints worse at night,1.0,1
+chronic joint stiffness with exacerbations,thighs tremble when raised,1.0,1
+chronic joint stiffness with exacerbations,warm sweat especially on side lain on,1.0,1
+chronic joint stiffness with exacerbations,pulling pain in face from decayed tooth to temples,1.0,1
+chronic joint stiffness with exacerbations,painful liver pressure,1.0,1
+chronic joint stiffness with exacerbations,numbness of hands,1.0,1
+chronic joint stiffness with exacerbations,reeling as if drunk,1.0,1
+chronic joint stiffness with exacerbations,brick dust in urine,1.0,1
+chronic joint stiffness with exacerbations,chronic joint enlargement,1.0,1
+chronic joint stiffness with exacerbations,affinity for small joints of feet,1.0,1
+chronic joint stiffness with exacerbations,tearing epigastric pain with vomiting,1.0,1
+chronic joint stiffness with exacerbations,bruised pain in sacrum worse lying on side,1.0,1
+chronic joint stiffness with exacerbations,sour vomiting,1.0,1
+chronic joint stiffness with exacerbations,giddiness,1.0,1
+chronic joint stiffness with exacerbations,warm sweat on head,1.0,1
+chronic joint stiffness with exacerbations,weary knees,1.0,1
+chronic joint stiffness with exacerbations,pulse 120,1.0,1
+chronic joint stiffness with exacerbations,motion impossible in right wrist,1.0,1
+tender wrist joints,joint swelling after fatigue,1.0,1
+tender wrist joints,tingling of limbs,1.0,1
+tender wrist joints,swollen small joints,1.0,1
+tender wrist joints,resembles caulophyllum but affects men more,1.0,1
+tender wrist joints,chronic joint stiffness with exacerbations,1.0,1
+tender wrist joints,affinity for small joints of hands,1.0,1
+tender wrist joints,throbbing in liver,1.0,1
+tender wrist joints,beating in liver,1.0,1
+tender wrist joints,boring pains better from stretching,1.0,1
+tender wrist joints,numb fingers,1.0,1
+tender wrist joints,face sensitive,1.0,1
+tender wrist joints,intolerable pain in right wrist,1.0,1
+tender wrist joints,swollen foot joints after walking,1.0,1
+tender wrist joints,tender finger joints,1.0,1
+tender wrist joints,throbbing in right hypochondrium sensitive to pressure,1.0,1
+tender wrist joints,repulsive food,1.0,1
+tender wrist joints,excruciating pain in wrist joints worse at night,1.0,1
+tender wrist joints,spasmodic bowel action,1.0,1
+tender wrist joints,swollen right wrist,1.0,1
+tender wrist joints,beating in right hypochondrium sensitive to pressure,1.0,1
+tender wrist joints,discolored fingers,1.0,1
+tender wrist joints,tearing pain in face from decayed tooth to temples,1.0,1
+tender wrist joints,throbbing pain in kidney region,1.0,1
+tender wrist joints,slightest pressure near little finger causes cries,1.0,1
+tender wrist joints,weakness after weather change,1.0,1
+tender wrist joints,rheumatism from suppressed sweat,1.0,1
+tender wrist joints,rheumatic pains of small joints especially hands,1.0,1
+tender wrist joints,excruciating pain in finger joints worse at night,1.0,1
+tender wrist joints,thighs tremble when raised,1.0,1
+tender wrist joints,warm sweat especially on side lain on,1.0,1
+tender wrist joints,pulling pain in face from decayed tooth to temples,1.0,1
+tender wrist joints,painful liver pressure,1.0,1
+tender wrist joints,numbness of hands,1.0,1
+tender wrist joints,reeling as if drunk,1.0,1
+tender wrist joints,brick dust in urine,1.0,1
+tender wrist joints,chronic joint enlargement,1.0,1
+tender wrist joints,affinity for small joints of feet,1.0,1
+tender wrist joints,tearing epigastric pain with vomiting,1.0,1
+tender wrist joints,bruised pain in sacrum worse lying on side,1.0,1
+tender wrist joints,sour vomiting,1.0,1
+tender wrist joints,giddiness,1.0,1
+tender wrist joints,warm sweat on head,1.0,1
+tender wrist joints,weary knees,1.0,1
+tender wrist joints,pulse 120,1.0,1
+tender wrist joints,motion impossible in right wrist,1.0,1
+slightest pressure near little finger causes cries,joint swelling after fatigue,1.0,1
+slightest pressure near little finger causes cries,tender wrist joints,1.0,1
+slightest pressure near little finger causes cries,tingling of limbs,1.0,1
+slightest pressure near little finger causes cries,swollen small joints,1.0,1
+slightest pressure near little finger causes cries,resembles caulophyllum but affects men more,1.0,1
+slightest pressure near little finger causes cries,chronic joint stiffness with exacerbations,1.0,1
+slightest pressure near little finger causes cries,affinity for small joints of hands,1.0,1
+slightest pressure near little finger causes cries,throbbing in liver,1.0,1
+slightest pressure near little finger causes cries,beating in liver,1.0,1
+slightest pressure near little finger causes cries,boring pains better from stretching,1.0,1
+slightest pressure near little finger causes cries,numb fingers,1.0,1
+slightest pressure near little finger causes cries,face sensitive,1.0,1
+slightest pressure near little finger causes cries,intolerable pain in right wrist,1.0,1
+slightest pressure near little finger causes cries,swollen foot joints after walking,1.0,1
+slightest pressure near little finger causes cries,tender finger joints,1.0,1
+slightest pressure near little finger causes cries,throbbing in right hypochondrium sensitive to pressure,1.0,1
+slightest pressure near little finger causes cries,repulsive food,1.0,1
+slightest pressure near little finger causes cries,excruciating pain in wrist joints worse at night,1.0,1
+slightest pressure near little finger causes cries,spasmodic bowel action,1.0,1
+slightest pressure near little finger causes cries,swollen right wrist,1.0,1
+slightest pressure near little finger causes cries,beating in right hypochondrium sensitive to pressure,1.0,1
+slightest pressure near little finger causes cries,discolored fingers,1.0,1
+slightest pressure near little finger causes cries,tearing pain in face from decayed tooth to temples,1.0,1
+slightest pressure near little finger causes cries,throbbing pain in kidney region,1.0,1
+slightest pressure near little finger causes cries,weakness after weather change,1.0,1
+slightest pressure near little finger causes cries,rheumatism from suppressed sweat,1.0,1
+slightest pressure near little finger causes cries,rheumatic pains of small joints especially hands,1.0,1
+slightest pressure near little finger causes cries,excruciating pain in finger joints worse at night,1.0,1
+slightest pressure near little finger causes cries,thighs tremble when raised,1.0,1
+slightest pressure near little finger causes cries,warm sweat especially on side lain on,1.0,1
+slightest pressure near little finger causes cries,pulling pain in face from decayed tooth to temples,1.0,1
+slightest pressure near little finger causes cries,painful liver pressure,1.0,1
+slightest pressure near little finger causes cries,numbness of hands,1.0,1
+slightest pressure near little finger causes cries,reeling as if drunk,1.0,1
+slightest pressure near little finger causes cries,brick dust in urine,1.0,1
+slightest pressure near little finger causes cries,chronic joint enlargement,1.0,1
+slightest pressure near little finger causes cries,affinity for small joints of feet,1.0,1
+slightest pressure near little finger causes cries,tearing epigastric pain with vomiting,1.0,1
+slightest pressure near little finger causes cries,bruised pain in sacrum worse lying on side,1.0,1
+slightest pressure near little finger causes cries,sour vomiting,1.0,1
+slightest pressure near little finger causes cries,giddiness,1.0,1
+slightest pressure near little finger causes cries,warm sweat on head,1.0,1
+slightest pressure near little finger causes cries,weary knees,1.0,1
+slightest pressure near little finger causes cries,pulse 120,1.0,1
+slightest pressure near little finger causes cries,motion impossible in right wrist,1.0,1
+discolored fingers,joint swelling after fatigue,1.0,1
+discolored fingers,tender wrist joints,1.0,1
+discolored fingers,tingling of limbs,1.0,1
+discolored fingers,swollen small joints,1.0,1
+discolored fingers,resembles caulophyllum but affects men more,1.0,1
+discolored fingers,chronic joint stiffness with exacerbations,1.0,1
+discolored fingers,affinity for small joints of hands,1.0,1
+discolored fingers,throbbing in liver,1.0,1
+discolored fingers,beating in liver,1.0,1
+discolored fingers,boring pains better from stretching,1.0,1
+discolored fingers,numb fingers,1.0,1
+discolored fingers,face sensitive,1.0,1
+discolored fingers,intolerable pain in right wrist,1.0,1
+discolored fingers,swollen foot joints after walking,1.0,1
+discolored fingers,tender finger joints,1.0,1
+discolored fingers,throbbing in right hypochondrium sensitive to pressure,1.0,1
+discolored fingers,repulsive food,1.0,1
+discolored fingers,excruciating pain in wrist joints worse at night,1.0,1
+discolored fingers,spasmodic bowel action,1.0,1
+discolored fingers,swollen right wrist,1.0,1
+discolored fingers,beating in right hypochondrium sensitive to pressure,1.0,1
+discolored fingers,tearing pain in face from decayed tooth to temples,1.0,1
+discolored fingers,throbbing pain in kidney region,1.0,1
+discolored fingers,slightest pressure near little finger causes cries,1.0,1
+discolored fingers,weakness after weather change,1.0,1
+discolored fingers,rheumatism from suppressed sweat,1.0,1
+discolored fingers,rheumatic pains of small joints especially hands,1.0,1
+discolored fingers,excruciating pain in finger joints worse at night,1.0,1
+discolored fingers,thighs tremble when raised,1.0,1
+discolored fingers,warm sweat especially on side lain on,1.0,1
+discolored fingers,pulling pain in face from decayed tooth to temples,1.0,1
+discolored fingers,painful liver pressure,1.0,1
+discolored fingers,numbness of hands,1.0,1
+discolored fingers,reeling as if drunk,1.0,1
+discolored fingers,brick dust in urine,1.0,1
+discolored fingers,chronic joint enlargement,1.0,1
+discolored fingers,affinity for small joints of feet,1.0,1
+discolored fingers,tearing epigastric pain with vomiting,1.0,1
+discolored fingers,bruised pain in sacrum worse lying on side,1.0,1
+discolored fingers,sour vomiting,1.0,1
+discolored fingers,giddiness,1.0,1
+discolored fingers,warm sweat on head,1.0,1
+discolored fingers,weary knees,1.0,1
+discolored fingers,pulse 120,1.0,1
+discolored fingers,motion impossible in right wrist,1.0,1
+throbbing in right hypochondrium sensitive to pressure,joint swelling after fatigue,1.0,1
+throbbing in right hypochondrium sensitive to pressure,tender wrist joints,1.0,1
+throbbing in right hypochondrium sensitive to pressure,tingling of limbs,1.0,1
+throbbing in right hypochondrium sensitive to pressure,swollen small joints,1.0,1
+throbbing in right hypochondrium sensitive to pressure,resembles caulophyllum but affects men more,1.0,1
+throbbing in right hypochondrium sensitive to pressure,chronic joint stiffness with exacerbations,1.0,1
+throbbing in right hypochondrium sensitive to pressure,affinity for small joints of hands,1.0,1
+throbbing in right hypochondrium sensitive to pressure,throbbing in liver,1.0,1
+throbbing in right hypochondrium sensitive to pressure,beating in liver,1.0,1
+throbbing in right hypochondrium sensitive to pressure,boring pains better from stretching,1.0,1
+throbbing in right hypochondrium sensitive to pressure,numb fingers,1.0,1
+throbbing in right hypochondrium sensitive to pressure,face sensitive,1.0,1
+throbbing in right hypochondrium sensitive to pressure,intolerable pain in right wrist,1.0,1
+throbbing in right hypochondrium sensitive to pressure,swollen foot joints after walking,1.0,1
+throbbing in right hypochondrium sensitive to pressure,tender finger joints,1.0,1
+throbbing in right hypochondrium sensitive to pressure,repulsive food,1.0,1
+throbbing in right hypochondrium sensitive to pressure,excruciating pain in wrist joints worse at night,1.0,1
+throbbing in right hypochondrium sensitive to pressure,spasmodic bowel action,1.0,1
+throbbing in right hypochondrium sensitive to pressure,swollen right wrist,1.0,1
+throbbing in right hypochondrium sensitive to pressure,beating in right hypochondrium sensitive to pressure,1.0,1
+throbbing in right hypochondrium sensitive to pressure,discolored fingers,1.0,1
+throbbing in right hypochondrium sensitive to pressure,tearing pain in face from decayed tooth to temples,1.0,1
+throbbing in right hypochondrium sensitive to pressure,throbbing pain in kidney region,1.0,1
+throbbing in right hypochondrium sensitive to pressure,slightest pressure near little finger causes cries,1.0,1
+throbbing in right hypochondrium sensitive to pressure,weakness after weather change,1.0,1
+throbbing in right hypochondrium sensitive to pressure,rheumatism from suppressed sweat,1.0,1
+throbbing in right hypochondrium sensitive to pressure,rheumatic pains of small joints especially hands,1.0,1
+throbbing in right hypochondrium sensitive to pressure,excruciating pain in finger joints worse at night,1.0,1
+throbbing in right hypochondrium sensitive to pressure,thighs tremble when raised,1.0,1
+throbbing in right hypochondrium sensitive to pressure,warm sweat especially on side lain on,1.0,1
+throbbing in right hypochondrium sensitive to pressure,pulling pain in face from decayed tooth to temples,1.0,1
+throbbing in right hypochondrium sensitive to pressure,painful liver pressure,1.0,1
+throbbing in right hypochondrium sensitive to pressure,numbness of hands,1.0,1
+throbbing in right hypochondrium sensitive to pressure,reeling as if drunk,1.0,1
+throbbing in right hypochondrium sensitive to pressure,brick dust in urine,1.0,1
+throbbing in right hypochondrium sensitive to pressure,chronic joint enlargement,1.0,1
+throbbing in right hypochondrium sensitive to pressure,affinity for small joints of feet,1.0,1
+throbbing in right hypochondrium sensitive to pressure,tearing epigastric pain with vomiting,1.0,1
+throbbing in right hypochondrium sensitive to pressure,bruised pain in sacrum worse lying on side,1.0,1
+throbbing in right hypochondrium sensitive to pressure,sour vomiting,1.0,1
+throbbing in right hypochondrium sensitive to pressure,giddiness,1.0,1
+throbbing in right hypochondrium sensitive to pressure,warm sweat on head,1.0,1
+throbbing in right hypochondrium sensitive to pressure,weary knees,1.0,1
+throbbing in right hypochondrium sensitive to pressure,pulse 120,1.0,1
+throbbing in right hypochondrium sensitive to pressure,motion impossible in right wrist,1.0,1
+reeling as if drunk,joint swelling after fatigue,1.0,1
+reeling as if drunk,tender wrist joints,1.0,1
+reeling as if drunk,tingling of limbs,1.0,1
+reeling as if drunk,swollen small joints,1.0,1
+reeling as if drunk,resembles caulophyllum but affects men more,1.0,1
+reeling as if drunk,chronic joint stiffness with exacerbations,1.0,1
+reeling as if drunk,affinity for small joints of hands,1.0,1
+reeling as if drunk,throbbing in liver,1.0,1
+reeling as if drunk,beating in liver,1.0,1
+reeling as if drunk,boring pains better from stretching,1.0,1
+reeling as if drunk,numb fingers,1.0,1
+reeling as if drunk,face sensitive,1.0,1
+reeling as if drunk,intolerable pain in right wrist,1.0,1
+reeling as if drunk,swollen foot joints after walking,1.0,1
+reeling as if drunk,tender finger joints,1.0,1
+reeling as if drunk,throbbing in right hypochondrium sensitive to pressure,1.0,1
+reeling as if drunk,repulsive food,1.0,1
+reeling as if drunk,excruciating pain in wrist joints worse at night,1.0,1
+reeling as if drunk,spasmodic bowel action,1.0,1
+reeling as if drunk,swollen right wrist,1.0,1
+reeling as if drunk,beating in right hypochondrium sensitive to pressure,1.0,1
+reeling as if drunk,discolored fingers,1.0,1
+reeling as if drunk,tearing pain in face from decayed tooth to temples,1.0,1
+reeling as if drunk,throbbing pain in kidney region,1.0,1
+reeling as if drunk,slightest pressure near little finger causes cries,1.0,1
+reeling as if drunk,weakness after weather change,1.0,1
+reeling as if drunk,rheumatism from suppressed sweat,1.0,1
+reeling as if drunk,rheumatic pains of small joints especially hands,1.0,1
+reeling as if drunk,excruciating pain in finger joints worse at night,1.0,1
+reeling as if drunk,thighs tremble when raised,1.0,1
+reeling as if drunk,warm sweat especially on side lain on,1.0,1
+reeling as if drunk,pulling pain in face from decayed tooth to temples,1.0,1
+reeling as if drunk,painful liver pressure,1.0,1
+reeling as if drunk,numbness of hands,1.0,1
+reeling as if drunk,brick dust in urine,1.0,1
+reeling as if drunk,chronic joint enlargement,1.0,1
+reeling as if drunk,affinity for small joints of feet,1.0,1
+reeling as if drunk,tearing epigastric pain with vomiting,1.0,1
+reeling as if drunk,bruised pain in sacrum worse lying on side,1.0,1
+reeling as if drunk,sour vomiting,1.0,1
+reeling as if drunk,giddiness,1.0,1
+reeling as if drunk,warm sweat on head,1.0,1
+reeling as if drunk,weary knees,1.0,1
+reeling as if drunk,pulse 120,1.0,1
+reeling as if drunk,motion impossible in right wrist,1.0,1
+swollen right wrist,joint swelling after fatigue,1.0,1
+swollen right wrist,tender wrist joints,1.0,1
+swollen right wrist,tingling of limbs,1.0,1
+swollen right wrist,swollen small joints,1.0,1
+swollen right wrist,resembles caulophyllum but affects men more,1.0,1
+swollen right wrist,chronic joint stiffness with exacerbations,1.0,1
+swollen right wrist,affinity for small joints of hands,1.0,1
+swollen right wrist,throbbing in liver,1.0,1
+swollen right wrist,beating in liver,1.0,1
+swollen right wrist,boring pains better from stretching,1.0,1
+swollen right wrist,numb fingers,1.0,1
+swollen right wrist,face sensitive,1.0,1
+swollen right wrist,intolerable pain in right wrist,1.0,1
+swollen right wrist,swollen foot joints after walking,1.0,1
+swollen right wrist,tender finger joints,1.0,1
+swollen right wrist,throbbing in right hypochondrium sensitive to pressure,1.0,1
+swollen right wrist,repulsive food,1.0,1
+swollen right wrist,excruciating pain in wrist joints worse at night,1.0,1
+swollen right wrist,spasmodic bowel action,1.0,1
+swollen right wrist,beating in right hypochondrium sensitive to pressure,1.0,1
+swollen right wrist,discolored fingers,1.0,1
+swollen right wrist,tearing pain in face from decayed tooth to temples,1.0,1
+swollen right wrist,throbbing pain in kidney region,1.0,1
+swollen right wrist,slightest pressure near little finger causes cries,1.0,1
+swollen right wrist,weakness after weather change,1.0,1
+swollen right wrist,rheumatism from suppressed sweat,1.0,1
+swollen right wrist,rheumatic pains of small joints especially hands,1.0,1
+swollen right wrist,excruciating pain in finger joints worse at night,1.0,1
+swollen right wrist,thighs tremble when raised,1.0,1
+swollen right wrist,warm sweat especially on side lain on,1.0,1
+swollen right wrist,pulling pain in face from decayed tooth to temples,1.0,1
+swollen right wrist,painful liver pressure,1.0,1
+swollen right wrist,numbness of hands,1.0,1
+swollen right wrist,reeling as if drunk,1.0,1
+swollen right wrist,brick dust in urine,1.0,1
+swollen right wrist,chronic joint enlargement,1.0,1
+swollen right wrist,affinity for small joints of feet,1.0,1
+swollen right wrist,tearing epigastric pain with vomiting,1.0,1
+swollen right wrist,bruised pain in sacrum worse lying on side,1.0,1
+swollen right wrist,sour vomiting,1.0,1
+swollen right wrist,giddiness,1.0,1
+swollen right wrist,warm sweat on head,1.0,1
+swollen right wrist,weary knees,1.0,1
+swollen right wrist,pulse 120,1.0,1
+swollen right wrist,motion impossible in right wrist,1.0,1
+bruised pain in sacrum worse lying on side,joint swelling after fatigue,1.0,1
+bruised pain in sacrum worse lying on side,tender wrist joints,1.0,1
+bruised pain in sacrum worse lying on side,tingling of limbs,1.0,1
+bruised pain in sacrum worse lying on side,swollen small joints,1.0,1
+bruised pain in sacrum worse lying on side,resembles caulophyllum but affects men more,1.0,1
+bruised pain in sacrum worse lying on side,chronic joint stiffness with exacerbations,1.0,1
+bruised pain in sacrum worse lying on side,affinity for small joints of hands,1.0,1
+bruised pain in sacrum worse lying on side,throbbing in liver,1.0,1
+bruised pain in sacrum worse lying on side,beating in liver,1.0,1
+bruised pain in sacrum worse lying on side,boring pains better from stretching,1.0,1
+bruised pain in sacrum worse lying on side,numb fingers,1.0,1
+bruised pain in sacrum worse lying on side,face sensitive,1.0,1
+bruised pain in sacrum worse lying on side,intolerable pain in right wrist,1.0,1
+bruised pain in sacrum worse lying on side,swollen foot joints after walking,1.0,1
+bruised pain in sacrum worse lying on side,tender finger joints,1.0,1
+bruised pain in sacrum worse lying on side,throbbing in right hypochondrium sensitive to pressure,1.0,1
+bruised pain in sacrum worse lying on side,repulsive food,1.0,1
+bruised pain in sacrum worse lying on side,excruciating pain in wrist joints worse at night,1.0,1
+bruised pain in sacrum worse lying on side,spasmodic bowel action,1.0,1
+bruised pain in sacrum worse lying on side,swollen right wrist,1.0,1
+bruised pain in sacrum worse lying on side,beating in right hypochondrium sensitive to pressure,1.0,1
+bruised pain in sacrum worse lying on side,discolored fingers,1.0,1
+bruised pain in sacrum worse lying on side,tearing pain in face from decayed tooth to temples,1.0,1
+bruised pain in sacrum worse lying on side,throbbing pain in kidney region,1.0,1
+bruised pain in sacrum worse lying on side,slightest pressure near little finger causes cries,1.0,1
+bruised pain in sacrum worse lying on side,weakness after weather change,1.0,1
+bruised pain in sacrum worse lying on side,rheumatism from suppressed sweat,1.0,1
+bruised pain in sacrum worse lying on side,rheumatic pains of small joints especially hands,1.0,1
+bruised pain in sacrum worse lying on side,excruciating pain in finger joints worse at night,1.0,1
+bruised pain in sacrum worse lying on side,thighs tremble when raised,1.0,1
+bruised pain in sacrum worse lying on side,warm sweat especially on side lain on,1.0,1
+bruised pain in sacrum worse lying on side,pulling pain in face from decayed tooth to temples,1.0,1
+bruised pain in sacrum worse lying on side,painful liver pressure,1.0,1
+bruised pain in sacrum worse lying on side,numbness of hands,1.0,1
+bruised pain in sacrum worse lying on side,reeling as if drunk,1.0,1
+bruised pain in sacrum worse lying on side,brick dust in urine,1.0,1
+bruised pain in sacrum worse lying on side,chronic joint enlargement,1.0,1
+bruised pain in sacrum worse lying on side,affinity for small joints of feet,1.0,1
+bruised pain in sacrum worse lying on side,tearing epigastric pain with vomiting,1.0,1
+bruised pain in sacrum worse lying on side,sour vomiting,1.0,1
+bruised pain in sacrum worse lying on side,giddiness,1.0,1
+bruised pain in sacrum worse lying on side,warm sweat on head,1.0,1
+bruised pain in sacrum worse lying on side,weary knees,1.0,1
+bruised pain in sacrum worse lying on side,pulse 120,1.0,1
+bruised pain in sacrum worse lying on side,motion impossible in right wrist,1.0,1
+repulsive food,joint swelling after fatigue,1.0,1
+repulsive food,tender wrist joints,1.0,1
+repulsive food,tingling of limbs,1.0,1
+repulsive food,swollen small joints,1.0,1
+repulsive food,resembles caulophyllum but affects men more,1.0,1
+repulsive food,chronic joint stiffness with exacerbations,1.0,1
+repulsive food,affinity for small joints of hands,1.0,1
+repulsive food,throbbing in liver,1.0,1
+repulsive food,beating in liver,1.0,1
+repulsive food,boring pains better from stretching,1.0,1
+repulsive food,numb fingers,1.0,1
+repulsive food,face sensitive,1.0,1
+repulsive food,intolerable pain in right wrist,1.0,1
+repulsive food,swollen foot joints after walking,1.0,1
+repulsive food,tender finger joints,1.0,1
+repulsive food,throbbing in right hypochondrium sensitive to pressure,1.0,1
+repulsive food,excruciating pain in wrist joints worse at night,1.0,1
+repulsive food,spasmodic bowel action,1.0,1
+repulsive food,swollen right wrist,1.0,1
+repulsive food,beating in right hypochondrium sensitive to pressure,1.0,1
+repulsive food,discolored fingers,1.0,1
+repulsive food,tearing pain in face from decayed tooth to temples,1.0,1
+repulsive food,throbbing pain in kidney region,1.0,1
+repulsive food,slightest pressure near little finger causes cries,1.0,1
+repulsive food,weakness after weather change,1.0,1
+repulsive food,rheumatism from suppressed sweat,1.0,1
+repulsive food,rheumatic pains of small joints especially hands,1.0,1
+repulsive food,excruciating pain in finger joints worse at night,1.0,1
+repulsive food,thighs tremble when raised,1.0,1
+repulsive food,warm sweat especially on side lain on,1.0,1
+repulsive food,pulling pain in face from decayed tooth to temples,1.0,1
+repulsive food,painful liver pressure,1.0,1
+repulsive food,numbness of hands,1.0,1
+repulsive food,reeling as if drunk,1.0,1
+repulsive food,brick dust in urine,1.0,1
+repulsive food,chronic joint enlargement,1.0,1
+repulsive food,affinity for small joints of feet,1.0,1
+repulsive food,tearing epigastric pain with vomiting,1.0,1
+repulsive food,bruised pain in sacrum worse lying on side,1.0,1
+repulsive food,sour vomiting,1.0,1
+repulsive food,giddiness,1.0,1
+repulsive food,warm sweat on head,1.0,1
+repulsive food,weary knees,1.0,1
+repulsive food,pulse 120,1.0,1
+repulsive food,motion impossible in right wrist,1.0,1
+rheumatism from suppressed sweat,joint swelling after fatigue,1.0,1
+rheumatism from suppressed sweat,tender wrist joints,1.0,1
+rheumatism from suppressed sweat,tingling of limbs,1.0,1
+rheumatism from suppressed sweat,swollen small joints,1.0,1
+rheumatism from suppressed sweat,resembles caulophyllum but affects men more,1.0,1
+rheumatism from suppressed sweat,chronic joint stiffness with exacerbations,1.0,1
+rheumatism from suppressed sweat,affinity for small joints of hands,1.0,1
+rheumatism from suppressed sweat,throbbing in liver,1.0,1
+rheumatism from suppressed sweat,beating in liver,1.0,1
+rheumatism from suppressed sweat,boring pains better from stretching,1.0,1
+rheumatism from suppressed sweat,numb fingers,1.0,1
+rheumatism from suppressed sweat,face sensitive,1.0,1
+rheumatism from suppressed sweat,intolerable pain in right wrist,1.0,1
+rheumatism from suppressed sweat,swollen foot joints after walking,1.0,1
+rheumatism from suppressed sweat,tender finger joints,1.0,1
+rheumatism from suppressed sweat,throbbing in right hypochondrium sensitive to pressure,1.0,1
+rheumatism from suppressed sweat,repulsive food,1.0,1
+rheumatism from suppressed sweat,excruciating pain in wrist joints worse at night,1.0,1
+rheumatism from suppressed sweat,spasmodic bowel action,1.0,1
+rheumatism from suppressed sweat,swollen right wrist,1.0,1
+rheumatism from suppressed sweat,beating in right hypochondrium sensitive to pressure,1.0,1
+rheumatism from suppressed sweat,discolored fingers,1.0,1
+rheumatism from suppressed sweat,tearing pain in face from decayed tooth to temples,1.0,1
+rheumatism from suppressed sweat,throbbing pain in kidney region,1.0,1
+rheumatism from suppressed sweat,slightest pressure near little finger causes cries,1.0,1
+rheumatism from suppressed sweat,weakness after weather change,1.0,1
+rheumatism from suppressed sweat,rheumatic pains of small joints especially hands,1.0,1
+rheumatism from suppressed sweat,excruciating pain in finger joints worse at night,1.0,1
+rheumatism from suppressed sweat,thighs tremble when raised,1.0,1
+rheumatism from suppressed sweat,warm sweat especially on side lain on,1.0,1
+rheumatism from suppressed sweat,pulling pain in face from decayed tooth to temples,1.0,1
+rheumatism from suppressed sweat,painful liver pressure,1.0,1
+rheumatism from suppressed sweat,numbness of hands,1.0,1
+rheumatism from suppressed sweat,reeling as if drunk,1.0,1
+rheumatism from suppressed sweat,brick dust in urine,1.0,1
+rheumatism from suppressed sweat,chronic joint enlargement,1.0,1
+rheumatism from suppressed sweat,affinity for small joints of feet,1.0,1
+rheumatism from suppressed sweat,tearing epigastric pain with vomiting,1.0,1
+rheumatism from suppressed sweat,bruised pain in sacrum worse lying on side,1.0,1
+rheumatism from suppressed sweat,sour vomiting,1.0,1
+rheumatism from suppressed sweat,giddiness,1.0,1
+rheumatism from suppressed sweat,warm sweat on head,1.0,1
+rheumatism from suppressed sweat,weary knees,1.0,1
+rheumatism from suppressed sweat,pulse 120,1.0,1
+rheumatism from suppressed sweat,motion impossible in right wrist,1.0,1
+affinity for small joints of hands,joint swelling after fatigue,1.0,1
+affinity for small joints of hands,tender wrist joints,1.0,1
+affinity for small joints of hands,tingling of limbs,1.0,1
+affinity for small joints of hands,swollen small joints,1.0,1
+affinity for small joints of hands,resembles caulophyllum but affects men more,1.0,1
+affinity for small joints of hands,chronic joint stiffness with exacerbations,1.0,1
+affinity for small joints of hands,throbbing in liver,1.0,1
+affinity for small joints of hands,beating in liver,1.0,1
+affinity for small joints of hands,boring pains better from stretching,1.0,1
+affinity for small joints of hands,numb fingers,1.0,1
+affinity for small joints of hands,face sensitive,1.0,1
+affinity for small joints of hands,intolerable pain in right wrist,1.0,1
+affinity for small joints of hands,swollen foot joints after walking,1.0,1
+affinity for small joints of hands,tender finger joints,1.0,1
+affinity for small joints of hands,throbbing in right hypochondrium sensitive to pressure,1.0,1
+affinity for small joints of hands,repulsive food,1.0,1
+affinity for small joints of hands,excruciating pain in wrist joints worse at night,1.0,1
+affinity for small joints of hands,spasmodic bowel action,1.0,1
+affinity for small joints of hands,swollen right wrist,1.0,1
+affinity for small joints of hands,beating in right hypochondrium sensitive to pressure,1.0,1
+affinity for small joints of hands,discolored fingers,1.0,1
+affinity for small joints of hands,tearing pain in face from decayed tooth to temples,1.0,1
+affinity for small joints of hands,throbbing pain in kidney region,1.0,1
+affinity for small joints of hands,slightest pressure near little finger causes cries,1.0,1
+affinity for small joints of hands,weakness after weather change,1.0,1
+affinity for small joints of hands,rheumatism from suppressed sweat,1.0,1
+affinity for small joints of hands,rheumatic pains of small joints especially hands,1.0,1
+affinity for small joints of hands,excruciating pain in finger joints worse at night,1.0,1
+affinity for small joints of hands,thighs tremble when raised,1.0,1
+affinity for small joints of hands,warm sweat especially on side lain on,1.0,1
+affinity for small joints of hands,pulling pain in face from decayed tooth to temples,1.0,1
+affinity for small joints of hands,painful liver pressure,1.0,1
+affinity for small joints of hands,numbness of hands,1.0,1
+affinity for small joints of hands,reeling as if drunk,1.0,1
+affinity for small joints of hands,brick dust in urine,1.0,1
+affinity for small joints of hands,chronic joint enlargement,1.0,1
+affinity for small joints of hands,affinity for small joints of feet,1.0,1
+affinity for small joints of hands,tearing epigastric pain with vomiting,1.0,1
+affinity for small joints of hands,bruised pain in sacrum worse lying on side,1.0,1
+affinity for small joints of hands,sour vomiting,1.0,1
+affinity for small joints of hands,giddiness,1.0,1
+affinity for small joints of hands,warm sweat on head,1.0,1
+affinity for small joints of hands,weary knees,1.0,1
+affinity for small joints of hands,pulse 120,1.0,1
+affinity for small joints of hands,motion impossible in right wrist,1.0,1
+throbbing in liver,joint swelling after fatigue,1.0,1
+throbbing in liver,tender wrist joints,1.0,1
+throbbing in liver,tingling of limbs,1.0,1
+throbbing in liver,swollen small joints,1.0,1
+throbbing in liver,resembles caulophyllum but affects men more,1.0,1
+throbbing in liver,chronic joint stiffness with exacerbations,1.0,1
+throbbing in liver,affinity for small joints of hands,1.0,1
+throbbing in liver,beating in liver,1.0,1
+throbbing in liver,boring pains better from stretching,1.0,1
+throbbing in liver,numb fingers,1.0,1
+throbbing in liver,face sensitive,1.0,1
+throbbing in liver,intolerable pain in right wrist,1.0,1
+throbbing in liver,swollen foot joints after walking,1.0,1
+throbbing in liver,tender finger joints,1.0,1
+throbbing in liver,throbbing in right hypochondrium sensitive to pressure,1.0,1
+throbbing in liver,repulsive food,1.0,1
+throbbing in liver,excruciating pain in wrist joints worse at night,1.0,1
+throbbing in liver,spasmodic bowel action,1.0,1
+throbbing in liver,swollen right wrist,1.0,1
+throbbing in liver,beating in right hypochondrium sensitive to pressure,1.0,1
+throbbing in liver,discolored fingers,1.0,1
+throbbing in liver,tearing pain in face from decayed tooth to temples,1.0,1
+throbbing in liver,throbbing pain in kidney region,1.0,1
+throbbing in liver,slightest pressure near little finger causes cries,1.0,1
+throbbing in liver,weakness after weather change,1.0,1
+throbbing in liver,rheumatism from suppressed sweat,1.0,1
+throbbing in liver,rheumatic pains of small joints especially hands,1.0,1
+throbbing in liver,excruciating pain in finger joints worse at night,1.0,1
+throbbing in liver,thighs tremble when raised,1.0,1
+throbbing in liver,warm sweat especially on side lain on,1.0,1
+throbbing in liver,pulling pain in face from decayed tooth to temples,1.0,1
+throbbing in liver,painful liver pressure,1.0,1
+throbbing in liver,numbness of hands,1.0,1
+throbbing in liver,reeling as if drunk,1.0,1
+throbbing in liver,brick dust in urine,1.0,1
+throbbing in liver,chronic joint enlargement,1.0,1
+throbbing in liver,affinity for small joints of feet,1.0,1
+throbbing in liver,tearing epigastric pain with vomiting,1.0,1
+throbbing in liver,bruised pain in sacrum worse lying on side,1.0,1
+throbbing in liver,sour vomiting,1.0,1
+throbbing in liver,giddiness,1.0,1
+throbbing in liver,warm sweat on head,1.0,1
+throbbing in liver,weary knees,1.0,1
+throbbing in liver,pulse 120,1.0,1
+throbbing in liver,motion impossible in right wrist,1.0,1
+pulse 120,joint swelling after fatigue,1.0,1
+pulse 120,tender wrist joints,1.0,1
+pulse 120,tingling of limbs,1.0,1
+pulse 120,swollen small joints,1.0,1
+pulse 120,resembles caulophyllum but affects men more,1.0,1
+pulse 120,chronic joint stiffness with exacerbations,1.0,1
+pulse 120,affinity for small joints of hands,1.0,1
+pulse 120,throbbing in liver,1.0,1
+pulse 120,beating in liver,1.0,1
+pulse 120,boring pains better from stretching,1.0,1
+pulse 120,numb fingers,1.0,1
+pulse 120,face sensitive,1.0,1
+pulse 120,intolerable pain in right wrist,1.0,1
+pulse 120,swollen foot joints after walking,1.0,1
+pulse 120,tender finger joints,1.0,1
+pulse 120,throbbing in right hypochondrium sensitive to pressure,1.0,1
+pulse 120,repulsive food,1.0,1
+pulse 120,excruciating pain in wrist joints worse at night,1.0,1
+pulse 120,spasmodic bowel action,1.0,1
+pulse 120,swollen right wrist,1.0,1
+pulse 120,beating in right hypochondrium sensitive to pressure,1.0,1
+pulse 120,discolored fingers,1.0,1
+pulse 120,tearing pain in face from decayed tooth to temples,1.0,1
+pulse 120,throbbing pain in kidney region,1.0,1
+pulse 120,slightest pressure near little finger causes cries,1.0,1
+pulse 120,weakness after weather change,1.0,1
+pulse 120,rheumatism from suppressed sweat,1.0,1
+pulse 120,rheumatic pains of small joints especially hands,1.0,1
+pulse 120,excruciating pain in finger joints worse at night,1.0,1
+pulse 120,thighs tremble when raised,1.0,1
+pulse 120,warm sweat especially on side lain on,1.0,1
+pulse 120,pulling pain in face from decayed tooth to temples,1.0,1
+pulse 120,painful liver pressure,1.0,1
+pulse 120,numbness of hands,1.0,1
+pulse 120,reeling as if drunk,1.0,1
+pulse 120,brick dust in urine,1.0,1
+pulse 120,chronic joint enlargement,1.0,1
+pulse 120,affinity for small joints of feet,1.0,1
+pulse 120,tearing epigastric pain with vomiting,1.0,1
+pulse 120,bruised pain in sacrum worse lying on side,1.0,1
+pulse 120,sour vomiting,1.0,1
+pulse 120,giddiness,1.0,1
+pulse 120,warm sweat on head,1.0,1
+pulse 120,weary knees,1.0,1
+pulse 120,motion impossible in right wrist,1.0,1
+throbbing pain in kidney region,joint swelling after fatigue,1.0,1
+throbbing pain in kidney region,tender wrist joints,1.0,1
+throbbing pain in kidney region,tingling of limbs,1.0,1
+throbbing pain in kidney region,swollen small joints,1.0,1
+throbbing pain in kidney region,resembles caulophyllum but affects men more,1.0,1
+throbbing pain in kidney region,chronic joint stiffness with exacerbations,1.0,1
+throbbing pain in kidney region,affinity for small joints of hands,1.0,1
+throbbing pain in kidney region,throbbing in liver,1.0,1
+throbbing pain in kidney region,beating in liver,1.0,1
+throbbing pain in kidney region,boring pains better from stretching,1.0,1
+throbbing pain in kidney region,numb fingers,1.0,1
+throbbing pain in kidney region,face sensitive,1.0,1
+throbbing pain in kidney region,intolerable pain in right wrist,1.0,1
+throbbing pain in kidney region,swollen foot joints after walking,1.0,1
+throbbing pain in kidney region,tender finger joints,1.0,1
+throbbing pain in kidney region,throbbing in right hypochondrium sensitive to pressure,1.0,1
+throbbing pain in kidney region,repulsive food,1.0,1
+throbbing pain in kidney region,excruciating pain in wrist joints worse at night,1.0,1
+throbbing pain in kidney region,spasmodic bowel action,1.0,1
+throbbing pain in kidney region,swollen right wrist,1.0,1
+throbbing pain in kidney region,beating in right hypochondrium sensitive to pressure,1.0,1
+throbbing pain in kidney region,discolored fingers,1.0,1
+throbbing pain in kidney region,tearing pain in face from decayed tooth to temples,1.0,1
+throbbing pain in kidney region,slightest pressure near little finger causes cries,1.0,1
+throbbing pain in kidney region,weakness after weather change,1.0,1
+throbbing pain in kidney region,rheumatism from suppressed sweat,1.0,1
+throbbing pain in kidney region,rheumatic pains of small joints especially hands,1.0,1
+throbbing pain in kidney region,excruciating pain in finger joints worse at night,1.0,1
+throbbing pain in kidney region,thighs tremble when raised,1.0,1
+throbbing pain in kidney region,warm sweat especially on side lain on,1.0,1
+throbbing pain in kidney region,pulling pain in face from decayed tooth to temples,1.0,1
+throbbing pain in kidney region,painful liver pressure,1.0,1
+throbbing pain in kidney region,numbness of hands,1.0,1
+throbbing pain in kidney region,reeling as if drunk,1.0,1
+throbbing pain in kidney region,brick dust in urine,1.0,1
+throbbing pain in kidney region,chronic joint enlargement,1.0,1
+throbbing pain in kidney region,affinity for small joints of feet,1.0,1
+throbbing pain in kidney region,tearing epigastric pain with vomiting,1.0,1
+throbbing pain in kidney region,bruised pain in sacrum worse lying on side,1.0,1
+throbbing pain in kidney region,sour vomiting,1.0,1
+throbbing pain in kidney region,giddiness,1.0,1
+throbbing pain in kidney region,warm sweat on head,1.0,1
+throbbing pain in kidney region,weary knees,1.0,1
+throbbing pain in kidney region,pulse 120,1.0,1
+throbbing pain in kidney region,motion impossible in right wrist,1.0,1
+weakness after weather change,joint swelling after fatigue,1.0,1
+weakness after weather change,tender wrist joints,1.0,1
+weakness after weather change,tingling of limbs,1.0,1
+weakness after weather change,swollen small joints,1.0,1
+weakness after weather change,resembles caulophyllum but affects men more,1.0,1
+weakness after weather change,chronic joint stiffness with exacerbations,1.0,1
+weakness after weather change,affinity for small joints of hands,1.0,1
+weakness after weather change,throbbing in liver,1.0,1
+weakness after weather change,beating in liver,1.0,1
+weakness after weather change,boring pains better from stretching,1.0,1
+weakness after weather change,numb fingers,1.0,1
+weakness after weather change,face sensitive,1.0,1
+weakness after weather change,intolerable pain in right wrist,1.0,1
+weakness after weather change,swollen foot joints after walking,1.0,1
+weakness after weather change,tender finger joints,1.0,1
+weakness after weather change,throbbing in right hypochondrium sensitive to pressure,1.0,1
+weakness after weather change,repulsive food,1.0,1
+weakness after weather change,excruciating pain in wrist joints worse at night,1.0,1
+weakness after weather change,spasmodic bowel action,1.0,1
+weakness after weather change,swollen right wrist,1.0,1
+weakness after weather change,beating in right hypochondrium sensitive to pressure,1.0,1
+weakness after weather change,discolored fingers,1.0,1
+weakness after weather change,tearing pain in face from decayed tooth to temples,1.0,1
+weakness after weather change,throbbing pain in kidney region,1.0,1
+weakness after weather change,slightest pressure near little finger causes cries,1.0,1
+weakness after weather change,rheumatism from suppressed sweat,1.0,1
+weakness after weather change,rheumatic pains of small joints especially hands,1.0,1
+weakness after weather change,excruciating pain in finger joints worse at night,1.0,1
+weakness after weather change,thighs tremble when raised,1.0,1
+weakness after weather change,warm sweat especially on side lain on,1.0,1
+weakness after weather change,pulling pain in face from decayed tooth to temples,1.0,1
+weakness after weather change,painful liver pressure,1.0,1
+weakness after weather change,numbness of hands,1.0,1
+weakness after weather change,reeling as if drunk,1.0,1
+weakness after weather change,brick dust in urine,1.0,1
+weakness after weather change,chronic joint enlargement,1.0,1
+weakness after weather change,affinity for small joints of feet,1.0,1
+weakness after weather change,tearing epigastric pain with vomiting,1.0,1
+weakness after weather change,bruised pain in sacrum worse lying on side,1.0,1
+weakness after weather change,sour vomiting,1.0,1
+weakness after weather change,giddiness,1.0,1
+weakness after weather change,warm sweat on head,1.0,1
+weakness after weather change,weary knees,1.0,1
+weakness after weather change,pulse 120,1.0,1
+weakness after weather change,motion impossible in right wrist,1.0,1
+brick dust in urine,joint swelling after fatigue,1.0,1
+brick dust in urine,tender wrist joints,1.0,1
+brick dust in urine,tingling of limbs,1.0,1
+brick dust in urine,swollen small joints,1.0,1
+brick dust in urine,resembles caulophyllum but affects men more,1.0,1
+brick dust in urine,chronic joint stiffness with exacerbations,1.0,1
+brick dust in urine,affinity for small joints of hands,1.0,1
+brick dust in urine,throbbing in liver,1.0,1
+brick dust in urine,beating in liver,1.0,1
+brick dust in urine,boring pains better from stretching,1.0,1
+brick dust in urine,numb fingers,1.0,1
+brick dust in urine,face sensitive,1.0,1
+brick dust in urine,intolerable pain in right wrist,1.0,1
+brick dust in urine,swollen foot joints after walking,1.0,1
+brick dust in urine,tender finger joints,1.0,1
+brick dust in urine,throbbing in right hypochondrium sensitive to pressure,1.0,1
+brick dust in urine,repulsive food,1.0,1
+brick dust in urine,excruciating pain in wrist joints worse at night,1.0,1
+brick dust in urine,spasmodic bowel action,1.0,1
+brick dust in urine,swollen right wrist,1.0,1
+brick dust in urine,beating in right hypochondrium sensitive to pressure,1.0,1
+brick dust in urine,discolored fingers,1.0,1
+brick dust in urine,tearing pain in face from decayed tooth to temples,1.0,1
+brick dust in urine,throbbing pain in kidney region,1.0,1
+brick dust in urine,slightest pressure near little finger causes cries,1.0,1
+brick dust in urine,weakness after weather change,1.0,1
+brick dust in urine,rheumatism from suppressed sweat,1.0,1
+brick dust in urine,rheumatic pains of small joints especially hands,1.0,1
+brick dust in urine,excruciating pain in finger joints worse at night,1.0,1
+brick dust in urine,thighs tremble when raised,1.0,1
+brick dust in urine,warm sweat especially on side lain on,1.0,1
+brick dust in urine,pulling pain in face from decayed tooth to temples,1.0,1
+brick dust in urine,painful liver pressure,1.0,1
+brick dust in urine,numbness of hands,1.0,1
+brick dust in urine,reeling as if drunk,1.0,1
+brick dust in urine,chronic joint enlargement,1.0,1
+brick dust in urine,affinity for small joints of feet,1.0,1
+brick dust in urine,tearing epigastric pain with vomiting,1.0,1
+brick dust in urine,bruised pain in sacrum worse lying on side,1.0,1
+brick dust in urine,sour vomiting,1.0,1
+brick dust in urine,giddiness,1.0,1
+brick dust in urine,warm sweat on head,1.0,1
+brick dust in urine,weary knees,1.0,1
+brick dust in urine,pulse 120,1.0,1
+brick dust in urine,motion impossible in right wrist,1.0,1
+tender finger joints,joint swelling after fatigue,1.0,1
+tender finger joints,tender wrist joints,1.0,1
+tender finger joints,tingling of limbs,1.0,1
+tender finger joints,swollen small joints,1.0,1
+tender finger joints,resembles caulophyllum but affects men more,1.0,1
+tender finger joints,chronic joint stiffness with exacerbations,1.0,1
+tender finger joints,affinity for small joints of hands,1.0,1
+tender finger joints,throbbing in liver,1.0,1
+tender finger joints,beating in liver,1.0,1
+tender finger joints,boring pains better from stretching,1.0,1
+tender finger joints,numb fingers,1.0,1
+tender finger joints,face sensitive,1.0,1
+tender finger joints,intolerable pain in right wrist,1.0,1
+tender finger joints,swollen foot joints after walking,1.0,1
+tender finger joints,throbbing in right hypochondrium sensitive to pressure,1.0,1
+tender finger joints,repulsive food,1.0,1
+tender finger joints,excruciating pain in wrist joints worse at night,1.0,1
+tender finger joints,spasmodic bowel action,1.0,1
+tender finger joints,swollen right wrist,1.0,1
+tender finger joints,beating in right hypochondrium sensitive to pressure,1.0,1
+tender finger joints,discolored fingers,1.0,1
+tender finger joints,tearing pain in face from decayed tooth to temples,1.0,1
+tender finger joints,throbbing pain in kidney region,1.0,1
+tender finger joints,slightest pressure near little finger causes cries,1.0,1
+tender finger joints,weakness after weather change,1.0,1
+tender finger joints,rheumatism from suppressed sweat,1.0,1
+tender finger joints,rheumatic pains of small joints especially hands,1.0,1
+tender finger joints,excruciating pain in finger joints worse at night,1.0,1
+tender finger joints,thighs tremble when raised,1.0,1
+tender finger joints,warm sweat especially on side lain on,1.0,1
+tender finger joints,pulling pain in face from decayed tooth to temples,1.0,1
+tender finger joints,painful liver pressure,1.0,1
+tender finger joints,numbness of hands,1.0,1
+tender finger joints,reeling as if drunk,1.0,1
+tender finger joints,brick dust in urine,1.0,1
+tender finger joints,chronic joint enlargement,1.0,1
+tender finger joints,affinity for small joints of feet,1.0,1
+tender finger joints,tearing epigastric pain with vomiting,1.0,1
+tender finger joints,bruised pain in sacrum worse lying on side,1.0,1
+tender finger joints,sour vomiting,1.0,1
+tender finger joints,giddiness,1.0,1
+tender finger joints,warm sweat on head,1.0,1
+tender finger joints,weary knees,1.0,1
+tender finger joints,pulse 120,1.0,1
+tender finger joints,motion impossible in right wrist,1.0,1

@@ -1,0 +1,333 @@
+### Cluster 66 — Symptoms (18)
+Symptom,Frequency
+stinging pain in right arm,1
+burning pains,1
+urticaria,1
+stinging skin,1
+burning pain in right arm,1
+stinging pains,1
+burning pain in knees,1
+gout in heels,1
+acute gout,1
+stinging,1
+gout in toes,1
+rheumatism of right deltoid,1
+rheumatism with urticaria,1
+itching,1
+burning skin,1
+rheumatism alternating with urticaria,1
+gout of wrist,1
+gout in ankles,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+urtica urens,18
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+stinging pains,stinging pain in right arm,1.0,1
+stinging pains,burning pains,1.0,1
+stinging pains,urticaria,1.0,1
+stinging pains,stinging skin,1.0,1
+stinging pains,burning pain in right arm,1.0,1
+stinging pains,burning pain in knees,1.0,1
+stinging pains,gout in heels,1.0,1
+stinging pains,acute gout,1.0,1
+stinging pains,stinging,1.0,1
+stinging pains,gout in toes,1.0,1
+stinging pains,rheumatism of right deltoid,1.0,1
+stinging pains,rheumatism with urticaria,1.0,1
+stinging pains,itching,1.0,1
+stinging pains,burning skin,1.0,1
+stinging pains,rheumatism alternating with urticaria,1.0,1
+stinging pains,gout of wrist,1.0,1
+stinging pains,gout in ankles,1.0,1
+burning pain in knees,stinging pain in right arm,1.0,1
+burning pain in knees,burning pains,1.0,1
+burning pain in knees,urticaria,1.0,1
+burning pain in knees,stinging skin,1.0,1
+burning pain in knees,burning pain in right arm,1.0,1
+burning pain in knees,stinging pains,1.0,1
+burning pain in knees,gout in heels,1.0,1
+burning pain in knees,acute gout,1.0,1
+burning pain in knees,stinging,1.0,1
+burning pain in knees,gout in toes,1.0,1
+burning pain in knees,rheumatism of right deltoid,1.0,1
+burning pain in knees,rheumatism with urticaria,1.0,1
+burning pain in knees,itching,1.0,1
+burning pain in knees,burning skin,1.0,1
+burning pain in knees,rheumatism alternating with urticaria,1.0,1
+burning pain in knees,gout of wrist,1.0,1
+burning pain in knees,gout in ankles,1.0,1
+burning pain in right arm,stinging pain in right arm,1.0,1
+burning pain in right arm,burning pains,1.0,1
+burning pain in right arm,urticaria,1.0,1
+burning pain in right arm,stinging skin,1.0,1
+burning pain in right arm,stinging pains,1.0,1
+burning pain in right arm,burning pain in knees,1.0,1
+burning pain in right arm,gout in heels,1.0,1
+burning pain in right arm,acute gout,1.0,1
+burning pain in right arm,stinging,1.0,1
+burning pain in right arm,gout in toes,1.0,1
+burning pain in right arm,rheumatism of right deltoid,1.0,1
+burning pain in right arm,rheumatism with urticaria,1.0,1
+burning pain in right arm,itching,1.0,1
+burning pain in right arm,burning skin,1.0,1
+burning pain in right arm,rheumatism alternating with urticaria,1.0,1
+burning pain in right arm,gout of wrist,1.0,1
+burning pain in right arm,gout in ankles,1.0,1
+stinging,stinging pain in right arm,1.0,1
+stinging,burning pains,1.0,1
+stinging,urticaria,1.0,1
+stinging,stinging skin,1.0,1
+stinging,burning pain in right arm,1.0,1
+stinging,stinging pains,1.0,1
+stinging,burning pain in knees,1.0,1
+stinging,gout in heels,1.0,1
+stinging,acute gout,1.0,1
+stinging,gout in toes,1.0,1
+stinging,rheumatism of right deltoid,1.0,1
+stinging,rheumatism with urticaria,1.0,1
+stinging,itching,1.0,1
+stinging,burning skin,1.0,1
+stinging,rheumatism alternating with urticaria,1.0,1
+stinging,gout of wrist,1.0,1
+stinging,gout in ankles,1.0,1
+gout in toes,stinging pain in right arm,1.0,1
+gout in toes,burning pains,1.0,1
+gout in toes,urticaria,1.0,1
+gout in toes,stinging skin,1.0,1
+gout in toes,burning pain in right arm,1.0,1
+gout in toes,stinging pains,1.0,1
+gout in toes,burning pain in knees,1.0,1
+gout in toes,gout in heels,1.0,1
+gout in toes,acute gout,1.0,1
+gout in toes,stinging,1.0,1
+gout in toes,rheumatism of right deltoid,1.0,1
+gout in toes,rheumatism with urticaria,1.0,1
+gout in toes,itching,1.0,1
+gout in toes,burning skin,1.0,1
+gout in toes,rheumatism alternating with urticaria,1.0,1
+gout in toes,gout of wrist,1.0,1
+gout in toes,gout in ankles,1.0,1
+stinging pain in right arm,burning pains,1.0,1
+stinging pain in right arm,urticaria,1.0,1
+stinging pain in right arm,stinging skin,1.0,1
+stinging pain in right arm,burning pain in right arm,1.0,1
+stinging pain in right arm,stinging pains,1.0,1
+stinging pain in right arm,burning pain in knees,1.0,1
+stinging pain in right arm,gout in heels,1.0,1
+stinging pain in right arm,acute gout,1.0,1
+stinging pain in right arm,stinging,1.0,1
+stinging pain in right arm,gout in toes,1.0,1
+stinging pain in right arm,rheumatism of right deltoid,1.0,1
+stinging pain in right arm,rheumatism with urticaria,1.0,1
+stinging pain in right arm,itching,1.0,1
+stinging pain in right arm,burning skin,1.0,1
+stinging pain in right arm,rheumatism alternating with urticaria,1.0,1
+stinging pain in right arm,gout of wrist,1.0,1
+stinging pain in right arm,gout in ankles,1.0,1
+burning skin,stinging pain in right arm,1.0,1
+burning skin,burning pains,1.0,1
+burning skin,urticaria,1.0,1
+burning skin,stinging skin,1.0,1
+burning skin,burning pain in right arm,1.0,1
+burning skin,stinging pains,1.0,1
+burning skin,burning pain in knees,1.0,1
+burning skin,gout in heels,1.0,1
+burning skin,acute gout,1.0,1
+burning skin,stinging,1.0,1
+burning skin,gout in toes,1.0,1
+burning skin,rheumatism of right deltoid,1.0,1
+burning skin,rheumatism with urticaria,1.0,1
+burning skin,itching,1.0,1
+burning skin,rheumatism alternating with urticaria,1.0,1
+burning skin,gout of wrist,1.0,1
+burning skin,gout in ankles,1.0,1
+rheumatism with urticaria,stinging pain in right arm,1.0,1
+rheumatism with urticaria,burning pains,1.0,1
+rheumatism with urticaria,urticaria,1.0,1
+rheumatism with urticaria,stinging skin,1.0,1
+rheumatism with urticaria,burning pain in right arm,1.0,1
+rheumatism with urticaria,stinging pains,1.0,1
+rheumatism with urticaria,burning pain in knees,1.0,1
+rheumatism with urticaria,gout in heels,1.0,1
+rheumatism with urticaria,acute gout,1.0,1
+rheumatism with urticaria,stinging,1.0,1
+rheumatism with urticaria,gout in toes,1.0,1
+rheumatism with urticaria,rheumatism of right deltoid,1.0,1
+rheumatism with urticaria,itching,1.0,1
+rheumatism with urticaria,burning skin,1.0,1
+rheumatism with urticaria,rheumatism alternating with urticaria,1.0,1
+rheumatism with urticaria,gout of wrist,1.0,1
+rheumatism with urticaria,gout in ankles,1.0,1
+rheumatism alternating with urticaria,stinging pain in right arm,1.0,1
+rheumatism alternating with urticaria,burning pains,1.0,1
+rheumatism alternating with urticaria,urticaria,1.0,1
+rheumatism alternating with urticaria,stinging skin,1.0,1
+rheumatism alternating with urticaria,burning pain in right arm,1.0,1
+rheumatism alternating with urticaria,stinging pains,1.0,1
+rheumatism alternating with urticaria,burning pain in knees,1.0,1
+rheumatism alternating with urticaria,gout in heels,1.0,1
+rheumatism alternating with urticaria,acute gout,1.0,1
+rheumatism alternating with urticaria,stinging,1.0,1
+rheumatism alternating with urticaria,gout in toes,1.0,1
+rheumatism alternating with urticaria,rheumatism of right deltoid,1.0,1
+rheumatism alternating with urticaria,rheumatism with urticaria,1.0,1
+rheumatism alternating with urticaria,itching,1.0,1
+rheumatism alternating with urticaria,burning skin,1.0,1
+rheumatism alternating with urticaria,gout of wrist,1.0,1
+rheumatism alternating with urticaria,gout in ankles,1.0,1
+gout in heels,stinging pain in right arm,1.0,1
+gout in heels,burning pains,1.0,1
+gout in heels,urticaria,1.0,1
+gout in heels,stinging skin,1.0,1
+gout in heels,burning pain in right arm,1.0,1
+gout in heels,stinging pains,1.0,1
+gout in heels,burning pain in knees,1.0,1
+gout in heels,acute gout,1.0,1
+gout in heels,stinging,1.0,1
+gout in heels,gout in toes,1.0,1
+gout in heels,rheumatism of right deltoid,1.0,1
+gout in heels,rheumatism with urticaria,1.0,1
+gout in heels,itching,1.0,1
+gout in heels,burning skin,1.0,1
+gout in heels,rheumatism alternating with urticaria,1.0,1
+gout in heels,gout of wrist,1.0,1
+gout in heels,gout in ankles,1.0,1
+gout of wrist,stinging pain in right arm,1.0,1
+gout of wrist,burning pains,1.0,1
+gout of wrist,urticaria,1.0,1
+gout of wrist,stinging skin,1.0,1
+gout of wrist,burning pain in right arm,1.0,1
+gout of wrist,stinging pains,1.0,1
+gout of wrist,burning pain in knees,1.0,1
+gout of wrist,gout in heels,1.0,1
+gout of wrist,acute gout,1.0,1
+gout of wrist,stinging,1.0,1
+gout of wrist,gout in toes,1.0,1
+gout of wrist,rheumatism of right deltoid,1.0,1
+gout of wrist,rheumatism with urticaria,1.0,1
+gout of wrist,itching,1.0,1
+gout of wrist,burning skin,1.0,1
+gout of wrist,rheumatism alternating with urticaria,1.0,1
+gout of wrist,gout in ankles,1.0,1
+rheumatism of right deltoid,stinging pain in right arm,1.0,1
+rheumatism of right deltoid,burning pains,1.0,1
+rheumatism of right deltoid,urticaria,1.0,1
+rheumatism of right deltoid,stinging skin,1.0,1
+rheumatism of right deltoid,burning pain in right arm,1.0,1
+rheumatism of right deltoid,stinging pains,1.0,1
+rheumatism of right deltoid,burning pain in knees,1.0,1
+rheumatism of right deltoid,gout in heels,1.0,1
+rheumatism of right deltoid,acute gout,1.0,1
+rheumatism of right deltoid,stinging,1.0,1
+rheumatism of right deltoid,gout in toes,1.0,1
+rheumatism of right deltoid,rheumatism with urticaria,1.0,1
+rheumatism of right deltoid,itching,1.0,1
+rheumatism of right deltoid,burning skin,1.0,1
+rheumatism of right deltoid,rheumatism alternating with urticaria,1.0,1
+rheumatism of right deltoid,gout of wrist,1.0,1
+rheumatism of right deltoid,gout in ankles,1.0,1
+gout in ankles,stinging pain in right arm,1.0,1
+gout in ankles,burning pains,1.0,1
+gout in ankles,urticaria,1.0,1
+gout in ankles,stinging skin,1.0,1
+gout in ankles,burning pain in right arm,1.0,1
+gout in ankles,stinging pains,1.0,1
+gout in ankles,burning pain in knees,1.0,1
+gout in ankles,gout in heels,1.0,1
+gout in ankles,acute gout,1.0,1
+gout in ankles,stinging,1.0,1
+gout in ankles,gout in toes,1.0,1
+gout in ankles,rheumatism of right deltoid,1.0,1
+gout in ankles,rheumatism with urticaria,1.0,1
+gout in ankles,itching,1.0,1
+gout in ankles,burning skin,1.0,1
+gout in ankles,rheumatism alternating with urticaria,1.0,1
+gout in ankles,gout of wrist,1.0,1
+urticaria,stinging pain in right arm,1.0,1
+urticaria,burning pains,1.0,1
+urticaria,stinging skin,1.0,1
+urticaria,burning pain in right arm,1.0,1
+urticaria,stinging pains,1.0,1
+urticaria,burning pain in knees,1.0,1
+urticaria,gout in heels,1.0,1
+urticaria,acute gout,1.0,1
+urticaria,stinging,1.0,1
+urticaria,gout in toes,1.0,1
+urticaria,rheumatism of right deltoid,1.0,1
+urticaria,rheumatism with urticaria,1.0,1
+urticaria,itching,1.0,1
+urticaria,burning skin,1.0,1
+urticaria,rheumatism alternating with urticaria,1.0,1
+urticaria,gout of wrist,1.0,1
+urticaria,gout in ankles,1.0,1
+stinging skin,stinging pain in right arm,1.0,1
+stinging skin,burning pains,1.0,1
+stinging skin,urticaria,1.0,1
+stinging skin,burning pain in right arm,1.0,1
+stinging skin,stinging pains,1.0,1
+stinging skin,burning pain in knees,1.0,1
+stinging skin,gout in heels,1.0,1
+stinging skin,acute gout,1.0,1
+stinging skin,stinging,1.0,1
+stinging skin,gout in toes,1.0,1
+stinging skin,rheumatism of right deltoid,1.0,1
+stinging skin,rheumatism with urticaria,1.0,1
+stinging skin,itching,1.0,1
+stinging skin,burning skin,1.0,1
+stinging skin,rheumatism alternating with urticaria,1.0,1
+stinging skin,gout of wrist,1.0,1
+stinging skin,gout in ankles,1.0,1
+acute gout,stinging pain in right arm,1.0,1
+acute gout,burning pains,1.0,1
+acute gout,urticaria,1.0,1
+acute gout,stinging skin,1.0,1
+acute gout,burning pain in right arm,1.0,1
+acute gout,stinging pains,1.0,1
+acute gout,burning pain in knees,1.0,1
+acute gout,gout in heels,1.0,1
+acute gout,stinging,1.0,1
+acute gout,gout in toes,1.0,1
+acute gout,rheumatism of right deltoid,1.0,1
+acute gout,rheumatism with urticaria,1.0,1
+acute gout,itching,1.0,1
+acute gout,burning skin,1.0,1
+acute gout,rheumatism alternating with urticaria,1.0,1
+acute gout,gout of wrist,1.0,1
+acute gout,gout in ankles,1.0,1
+itching,stinging pain in right arm,1.0,1
+itching,burning pains,1.0,1
+itching,urticaria,1.0,1
+itching,stinging skin,1.0,1
+itching,burning pain in right arm,1.0,1
+itching,stinging pains,1.0,1
+itching,burning pain in knees,1.0,1
+itching,gout in heels,1.0,1
+itching,acute gout,1.0,1
+itching,stinging,1.0,1
+itching,gout in toes,1.0,1
+itching,rheumatism of right deltoid,1.0,1
+itching,rheumatism with urticaria,1.0,1
+itching,burning skin,1.0,1
+itching,rheumatism alternating with urticaria,1.0,1
+itching,gout of wrist,1.0,1
+itching,gout in ankles,1.0,1
+burning pains,stinging pain in right arm,1.0,1
+burning pains,urticaria,1.0,1
+burning pains,stinging skin,1.0,1
+burning pains,burning pain in right arm,1.0,1
+burning pains,stinging pains,1.0,1
+burning pains,burning pain in knees,1.0,1
+burning pains,gout in heels,1.0,1
+burning pains,acute gout,1.0,1
+burning pains,stinging,1.0,1
+burning pains,gout in toes,1.0,1
+burning pains,rheumatism of right deltoid,1.0,1
+burning pains,rheumatism with urticaria,1.0,1
+burning pains,itching,1.0,1
+burning pains,burning skin,1.0,1
+burning pains,rheumatism alternating with urticaria,1.0,1
+burning pains,gout of wrist,1.0,1
+burning pains,gout in ankles,1.0,1

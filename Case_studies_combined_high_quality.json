@@ -1,0 +1,176 @@
+[
+  {
+    "cluster_id": 1,
+    "size": 21,
+    "unique_remedies": 8,
+    "unique_categories": 7,
+    "remedies": [
+      "Pulsatilla",
+      "Arnica Montana",
+      "Natrum Carbonicum",
+      "Ferrum Metallicum",
+      "Rhus Toxicodendron",
+      "Natrum Sulphuricum",
+      "Staphysagria",
+      "Thuja Occidentalis"
+    ],
+    "categories": [
+      "Joints",
+      "General",
+      "Skin",
+      "Respiratory",
+      "Abdomen",
+      "Neurological",
+      "Digestive"
+    ],
+    "symptoms": [
+      {
+        "remedy": "Pulsatilla",
+        "category": "Joints",
+        "symptom": "Recurrent dislocation of right shoulder joint",
+        "area": "Right shoulder",
+        "modalities": "Originally occurred while playing tennis, aggravated during playing, slight swelling with pain"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "Joints",
+        "symptom": "Pain in limbs",
+        "area": "Right hand, limbs",
+        "modalities": "Drawing tensive pain in right hand, shifting rapidly in limbs"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "General",
+        "symptom": "Chilly patient",
+        "area": "General",
+        "modalities": "Amelioration in open air, desires cold food"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "General",
+        "symptom": "Increased appetite",
+        "area": "General",
+        "modalities": "Desires meat, egg, salty, sour, cold food; aversions to fish, milk; aggravation from brinjal"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "General",
+        "symptom": "Profuse sweat",
+        "area": "General",
+        "modalities": "Offensive odor"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "Skin",
+        "symptom": "Acne",
+        "area": "Forehead, cheeks, nape, back",
+        "modalities": "Occasional itching"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "Skin",
+        "symptom": "Itching on soles",
+        "area": "Soles of both legs",
+        "modalities": "Bleeds slightly after scratching"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "Respiratory",
+        "symptom": "Recurrent common cold with dyspnoea",
+        "area": "Respiratory",
+        "modalities": "Aggravated by exposure to cold, symptoms disappear after allopathy"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "Abdomen",
+        "symptom": "Vomiting tendency",
+        "area": "Abdomen",
+        "modalities": "During fever, after rich food"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "Abdomen",
+        "symptom": "Irregular stool",
+        "area": "Abdomen",
+        "modalities": "Hard stool, not clear"
+      },
+      {
+        "remedy": "Pulsatilla",
+        "category": "Neurological",
+        "symptom": "Trembling of hands",
+        "area": "Hands",
+        "modalities": "During fever"
+      },
+      {
+        "remedy": "Arnica Montana",
+        "category": "General",
+        "symptom": "Hot patient",
+        "area": "General",
+        "modalities": "Likes winter and open air, desires sweet, sour, salty, fish, bitter, milk, vegetables, cold drinks, ice cream, meat, egg"
+      },
+      {
+        "remedy": "Arnica Montana",
+        "category": "General",
+        "symptom": "Sweat in axilla",
+        "area": "General",
+        "modalities": "Bad odor in sweat"
+      },
+      {
+        "remedy": "Natrum Carbonicum",
+        "category": "Joints",
+        "symptom": "Tendency for ankle dislocation or sprain",
+        "area": "Ankle",
+        "modalities": "Removed by treatment"
+      },
+      {
+        "remedy": "Ferrum Metallicum",
+        "category": "Joints",
+        "symptom": "Pain and stiffness",
+        "area": "Left shoulder",
+        "modalities": "Persistent despite treatment, partial relief"
+      },
+      {
+        "remedy": "Rhus Toxicodendron",
+        "category": "Joints",
+        "symptom": "Pain and stiffness",
+        "area": "Left shoulder",
+        "modalities": "Persistent despite treatment, partial relief"
+      },
+      {
+        "remedy": "Natrum Sulphuricum",
+        "category": "General",
+        "symptom": "Chilly patient",
+        "area": "General",
+        "modalities": "Tendency to catch cold easily, disturbed sleep due to polyarthralgia"
+      },
+      {
+        "remedy": "Natrum Sulphuricum",
+        "category": "General",
+        "symptom": "Poor appetite",
+        "area": "General",
+        "modalities": "Frequent spells of indigestion, uses allopathic medication, desire for sweet, sour, meat, aversion to milk, intolerance to fish and aquatic vegetables causing dyspepsia and increased articular pain"
+      },
+      {
+        "remedy": "Natrum Sulphuricum",
+        "category": "Digestive",
+        "symptom": "Mucoid stool",
+        "area": "Digestive",
+        "modalities": "Early morning, very offensive"
+      },
+      {
+        "remedy": "Staphysagria",
+        "category": "General",
+        "symptom": "Hot patient",
+        "area": "General",
+        "modalities": "Desires open air, aggravated by lying on left side, ameliorated by lying on right side, good appetite, thirst for 5 liters/day, no dryness"
+      },
+      {
+        "remedy": "Thuja Occidentalis",
+        "category": "General",
+        "symptom": "Chilly patient",
+        "area": "General",
+        "modalities": "Persistent sleeplessness, frightful dreams especially of dead persons"
+      }
+    ]
+  }
+]

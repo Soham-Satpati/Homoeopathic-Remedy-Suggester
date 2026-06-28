@@ -1,0 +1,1531 @@
+### Cluster 60 — Symptoms (39)
+Symptom,Frequency
+rheumatic paralysis of carpal joints,1
+rheumatic paralysis of tarsal joints,1
+has to walk constantly,1
+inflammation of large joints,1
+lameness after sprains of wrists,1
+bones of wrist painful,1
+bruised pain in lumbar vertebrae,1
+bones of back of hand painful,1
+lameness after sprains,1
+rheumatism of right leg with ganglia of tendons in palm,1
+pain as from a blow in coccyx,1
+pain as from a fall in coccyx,1
+wrists feel stiff as if sprained,1
+pain deep seated as if in marrow of bone,1
+hip bones feel bruised,1
+bones of feet sore,1
+pain as from a blow in back,1
+hamstrings feel weak,1
+rheumatism of both feet from heels to toes,1
+pain as if sprained in shoulders,1
+unable to bend due to pains in all joints,1
+pains as from a blow in left elbow joint,1
+rheumatism of right wrist,1
+knees give way when going down stairs,2
+pain as if sprained in nape,1
+rheumatism of right leg,1
+soreness through small bones of hands,1
+cramp-like contractions from thighs to small of back,1
+shooting pains from back down outside of thigh,1
+pain as from a fall in back,1
+lameness after sprains of ankles,1
+sprained pain in ankles,1
+ganglia on sheath of flexor tendons of fourth finger,1
+rheumatic pains in back,2
+constantly changing position,1
+hamstrings feel shortened,1
+aching over both eyes,1
+cannot step heavily upon feet,1
+bruised sprained pains,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+ruta graveolens,39
+mephitis,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+pain deep seated as if in marrow of bone,rheumatic paralysis of carpal joints,1.0,1
+pain deep seated as if in marrow of bone,rheumatic paralysis of tarsal joints,1.0,1
+pain deep seated as if in marrow of bone,has to walk constantly,1.0,1
+pain deep seated as if in marrow of bone,inflammation of large joints,1.0,1
+pain deep seated as if in marrow of bone,lameness after sprains of wrists,1.0,1
+pain deep seated as if in marrow of bone,bones of wrist painful,1.0,1
+pain deep seated as if in marrow of bone,bruised pain in lumbar vertebrae,1.0,1
+pain deep seated as if in marrow of bone,bones of back of hand painful,1.0,1
+pain deep seated as if in marrow of bone,lameness after sprains,1.0,1
+pain deep seated as if in marrow of bone,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+pain deep seated as if in marrow of bone,pain as from a blow in coccyx,1.0,1
+pain deep seated as if in marrow of bone,pain as from a fall in coccyx,1.0,1
+pain deep seated as if in marrow of bone,wrists feel stiff as if sprained,1.0,1
+pain deep seated as if in marrow of bone,hip bones feel bruised,1.0,1
+pain deep seated as if in marrow of bone,bones of feet sore,1.0,1
+pain deep seated as if in marrow of bone,pain as from a blow in back,1.0,1
+pain deep seated as if in marrow of bone,hamstrings feel weak,1.0,1
+pain deep seated as if in marrow of bone,rheumatism of both feet from heels to toes,1.0,1
+pain deep seated as if in marrow of bone,pain as if sprained in shoulders,1.0,1
+pain deep seated as if in marrow of bone,unable to bend due to pains in all joints,1.0,1
+pain deep seated as if in marrow of bone,pains as from a blow in left elbow joint,1.0,1
+pain deep seated as if in marrow of bone,rheumatism of right wrist,1.0,1
+pain deep seated as if in marrow of bone,knees give way when going down stairs,1.0,1
+pain deep seated as if in marrow of bone,pain as if sprained in nape,1.0,1
+pain deep seated as if in marrow of bone,rheumatism of right leg,1.0,1
+pain deep seated as if in marrow of bone,soreness through small bones of hands,1.0,1
+pain deep seated as if in marrow of bone,cramp-like contractions from thighs to small of back,1.0,1
+pain deep seated as if in marrow of bone,shooting pains from back down outside of thigh,1.0,1
+pain deep seated as if in marrow of bone,pain as from a fall in back,1.0,1
+pain deep seated as if in marrow of bone,lameness after sprains of ankles,1.0,1
+pain deep seated as if in marrow of bone,sprained pain in ankles,1.0,1
+pain deep seated as if in marrow of bone,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+pain deep seated as if in marrow of bone,rheumatic pains in back,1.0,1
+pain deep seated as if in marrow of bone,constantly changing position,1.0,1
+pain deep seated as if in marrow of bone,hamstrings feel shortened,1.0,1
+pain deep seated as if in marrow of bone,aching over both eyes,1.0,1
+pain deep seated as if in marrow of bone,cannot step heavily upon feet,1.0,1
+pain deep seated as if in marrow of bone,bruised sprained pains,1.0,1
+pain as from a fall in back,rheumatic paralysis of carpal joints,1.0,1
+pain as from a fall in back,rheumatic paralysis of tarsal joints,1.0,1
+pain as from a fall in back,has to walk constantly,1.0,1
+pain as from a fall in back,inflammation of large joints,1.0,1
+pain as from a fall in back,lameness after sprains of wrists,1.0,1
+pain as from a fall in back,bones of wrist painful,1.0,1
+pain as from a fall in back,bruised pain in lumbar vertebrae,1.0,1
+pain as from a fall in back,bones of back of hand painful,1.0,1
+pain as from a fall in back,lameness after sprains,1.0,1
+pain as from a fall in back,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+pain as from a fall in back,pain as from a blow in coccyx,1.0,1
+pain as from a fall in back,pain as from a fall in coccyx,1.0,1
+pain as from a fall in back,wrists feel stiff as if sprained,1.0,1
+pain as from a fall in back,pain deep seated as if in marrow of bone,1.0,1
+pain as from a fall in back,hip bones feel bruised,1.0,1
+pain as from a fall in back,bones of feet sore,1.0,1
+pain as from a fall in back,pain as from a blow in back,1.0,1
+pain as from a fall in back,hamstrings feel weak,1.0,1
+pain as from a fall in back,rheumatism of both feet from heels to toes,1.0,1
+pain as from a fall in back,pain as if sprained in shoulders,1.0,1
+pain as from a fall in back,unable to bend due to pains in all joints,1.0,1
+pain as from a fall in back,pains as from a blow in left elbow joint,1.0,1
+pain as from a fall in back,rheumatism of right wrist,1.0,1
+pain as from a fall in back,knees give way when going down stairs,1.0,1
+pain as from a fall in back,pain as if sprained in nape,1.0,1
+pain as from a fall in back,rheumatism of right leg,1.0,1
+pain as from a fall in back,soreness through small bones of hands,1.0,1
+pain as from a fall in back,cramp-like contractions from thighs to small of back,1.0,1
+pain as from a fall in back,shooting pains from back down outside of thigh,1.0,1
+pain as from a fall in back,lameness after sprains of ankles,1.0,1
+pain as from a fall in back,sprained pain in ankles,1.0,1
+pain as from a fall in back,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+pain as from a fall in back,rheumatic pains in back,1.0,1
+pain as from a fall in back,constantly changing position,1.0,1
+pain as from a fall in back,hamstrings feel shortened,1.0,1
+pain as from a fall in back,aching over both eyes,1.0,1
+pain as from a fall in back,cannot step heavily upon feet,1.0,1
+pain as from a fall in back,bruised sprained pains,1.0,1
+knees give way when going down stairs,rheumatic paralysis of carpal joints,1.0,1
+knees give way when going down stairs,rheumatic paralysis of tarsal joints,1.0,1
+knees give way when going down stairs,has to walk constantly,1.0,1
+knees give way when going down stairs,inflammation of large joints,1.0,1
+knees give way when going down stairs,lameness after sprains of wrists,1.0,1
+knees give way when going down stairs,bones of wrist painful,1.0,1
+knees give way when going down stairs,bruised pain in lumbar vertebrae,1.0,1
+knees give way when going down stairs,bones of back of hand painful,1.0,1
+knees give way when going down stairs,lameness after sprains,1.0,1
+knees give way when going down stairs,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+knees give way when going down stairs,pain as from a blow in coccyx,1.0,1
+knees give way when going down stairs,pain as from a fall in coccyx,1.0,1
+knees give way when going down stairs,wrists feel stiff as if sprained,1.0,1
+knees give way when going down stairs,pain deep seated as if in marrow of bone,1.0,1
+knees give way when going down stairs,hip bones feel bruised,1.0,1
+knees give way when going down stairs,bones of feet sore,1.0,1
+knees give way when going down stairs,pain as from a blow in back,1.0,1
+knees give way when going down stairs,hamstrings feel weak,1.0,1
+knees give way when going down stairs,rheumatism of both feet from heels to toes,1.0,1
+knees give way when going down stairs,pain as if sprained in shoulders,1.0,1
+knees give way when going down stairs,unable to bend due to pains in all joints,1.0,1
+knees give way when going down stairs,pains as from a blow in left elbow joint,1.0,1
+knees give way when going down stairs,rheumatism of right wrist,1.0,1
+knees give way when going down stairs,pain as if sprained in nape,1.0,1
+knees give way when going down stairs,rheumatism of right leg,1.0,1
+knees give way when going down stairs,soreness through small bones of hands,1.0,1
+knees give way when going down stairs,cramp-like contractions from thighs to small of back,1.0,1
+knees give way when going down stairs,shooting pains from back down outside of thigh,1.0,1
+knees give way when going down stairs,pain as from a fall in back,1.0,1
+knees give way when going down stairs,lameness after sprains of ankles,1.0,1
+knees give way when going down stairs,sprained pain in ankles,1.0,1
+knees give way when going down stairs,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+knees give way when going down stairs,rheumatic pains in back,1.0,1
+knees give way when going down stairs,constantly changing position,1.0,1
+knees give way when going down stairs,hamstrings feel shortened,1.0,1
+knees give way when going down stairs,aching over both eyes,1.0,1
+knees give way when going down stairs,cannot step heavily upon feet,1.0,1
+knees give way when going down stairs,bruised sprained pains,1.0,1
+pain as if sprained in nape,rheumatic paralysis of carpal joints,1.0,1
+pain as if sprained in nape,rheumatic paralysis of tarsal joints,1.0,1
+pain as if sprained in nape,has to walk constantly,1.0,1
+pain as if sprained in nape,inflammation of large joints,1.0,1
+pain as if sprained in nape,lameness after sprains of wrists,1.0,1
+pain as if sprained in nape,bones of wrist painful,1.0,1
+pain as if sprained in nape,bruised pain in lumbar vertebrae,1.0,1
+pain as if sprained in nape,bones of back of hand painful,1.0,1
+pain as if sprained in nape,lameness after sprains,1.0,1
+pain as if sprained in nape,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+pain as if sprained in nape,pain as from a blow in coccyx,1.0,1
+pain as if sprained in nape,pain as from a fall in coccyx,1.0,1
+pain as if sprained in nape,wrists feel stiff as if sprained,1.0,1
+pain as if sprained in nape,pain deep seated as if in marrow of bone,1.0,1
+pain as if sprained in nape,hip bones feel bruised,1.0,1
+pain as if sprained in nape,bones of feet sore,1.0,1
+pain as if sprained in nape,pain as from a blow in back,1.0,1
+pain as if sprained in nape,hamstrings feel weak,1.0,1
+pain as if sprained in nape,rheumatism of both feet from heels to toes,1.0,1
+pain as if sprained in nape,pain as if sprained in shoulders,1.0,1
+pain as if sprained in nape,unable to bend due to pains in all joints,1.0,1
+pain as if sprained in nape,pains as from a blow in left elbow joint,1.0,1
+pain as if sprained in nape,rheumatism of right wrist,1.0,1
+pain as if sprained in nape,knees give way when going down stairs,1.0,1
+pain as if sprained in nape,rheumatism of right leg,1.0,1
+pain as if sprained in nape,soreness through small bones of hands,1.0,1
+pain as if sprained in nape,cramp-like contractions from thighs to small of back,1.0,1
+pain as if sprained in nape,shooting pains from back down outside of thigh,1.0,1
+pain as if sprained in nape,pain as from a fall in back,1.0,1
+pain as if sprained in nape,lameness after sprains of ankles,1.0,1
+pain as if sprained in nape,sprained pain in ankles,1.0,1
+pain as if sprained in nape,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+pain as if sprained in nape,rheumatic pains in back,1.0,1
+pain as if sprained in nape,constantly changing position,1.0,1
+pain as if sprained in nape,hamstrings feel shortened,1.0,1
+pain as if sprained in nape,aching over both eyes,1.0,1
+pain as if sprained in nape,cannot step heavily upon feet,1.0,1
+pain as if sprained in nape,bruised sprained pains,1.0,1
+inflammation of large joints,rheumatic paralysis of carpal joints,1.0,1
+inflammation of large joints,rheumatic paralysis of tarsal joints,1.0,1
+inflammation of large joints,has to walk constantly,1.0,1
+inflammation of large joints,lameness after sprains of wrists,1.0,1
+inflammation of large joints,bones of wrist painful,1.0,1
+inflammation of large joints,bruised pain in lumbar vertebrae,1.0,1
+inflammation of large joints,bones of back of hand painful,1.0,1
+inflammation of large joints,lameness after sprains,1.0,1
+inflammation of large joints,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+inflammation of large joints,pain as from a blow in coccyx,1.0,1
+inflammation of large joints,pain as from a fall in coccyx,1.0,1
+inflammation of large joints,wrists feel stiff as if sprained,1.0,1
+inflammation of large joints,pain deep seated as if in marrow of bone,1.0,1
+inflammation of large joints,hip bones feel bruised,1.0,1
+inflammation of large joints,bones of feet sore,1.0,1
+inflammation of large joints,pain as from a blow in back,1.0,1
+inflammation of large joints,hamstrings feel weak,1.0,1
+inflammation of large joints,rheumatism of both feet from heels to toes,1.0,1
+inflammation of large joints,pain as if sprained in shoulders,1.0,1
+inflammation of large joints,unable to bend due to pains in all joints,1.0,1
+inflammation of large joints,pains as from a blow in left elbow joint,1.0,1
+inflammation of large joints,rheumatism of right wrist,1.0,1
+inflammation of large joints,knees give way when going down stairs,1.0,1
+inflammation of large joints,pain as if sprained in nape,1.0,1
+inflammation of large joints,rheumatism of right leg,1.0,1
+inflammation of large joints,soreness through small bones of hands,1.0,1
+inflammation of large joints,cramp-like contractions from thighs to small of back,1.0,1
+inflammation of large joints,shooting pains from back down outside of thigh,1.0,1
+inflammation of large joints,pain as from a fall in back,1.0,1
+inflammation of large joints,lameness after sprains of ankles,1.0,1
+inflammation of large joints,sprained pain in ankles,1.0,1
+inflammation of large joints,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+inflammation of large joints,rheumatic pains in back,1.0,1
+inflammation of large joints,constantly changing position,1.0,1
+inflammation of large joints,hamstrings feel shortened,1.0,1
+inflammation of large joints,aching over both eyes,1.0,1
+inflammation of large joints,cannot step heavily upon feet,1.0,1
+inflammation of large joints,bruised sprained pains,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,rheumatic paralysis of carpal joints,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,rheumatic paralysis of tarsal joints,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,has to walk constantly,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,inflammation of large joints,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,lameness after sprains of wrists,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,bones of wrist painful,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,bruised pain in lumbar vertebrae,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,bones of back of hand painful,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,lameness after sprains,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,pain as from a blow in coccyx,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,pain as from a fall in coccyx,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,wrists feel stiff as if sprained,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,pain deep seated as if in marrow of bone,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,hip bones feel bruised,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,bones of feet sore,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,pain as from a blow in back,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,hamstrings feel weak,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,rheumatism of both feet from heels to toes,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,pain as if sprained in shoulders,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,unable to bend due to pains in all joints,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,pains as from a blow in left elbow joint,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,rheumatism of right wrist,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,knees give way when going down stairs,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,pain as if sprained in nape,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,rheumatism of right leg,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,soreness through small bones of hands,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,cramp-like contractions from thighs to small of back,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,shooting pains from back down outside of thigh,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,pain as from a fall in back,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,lameness after sprains of ankles,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,sprained pain in ankles,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,rheumatic pains in back,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,constantly changing position,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,hamstrings feel shortened,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,aching over both eyes,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,cannot step heavily upon feet,1.0,1
+rheumatism of right leg with ganglia of tendons in palm,bruised sprained pains,1.0,1
+rheumatic paralysis of carpal joints,rheumatic paralysis of tarsal joints,1.0,1
+rheumatic paralysis of carpal joints,has to walk constantly,1.0,1
+rheumatic paralysis of carpal joints,inflammation of large joints,1.0,1
+rheumatic paralysis of carpal joints,lameness after sprains of wrists,1.0,1
+rheumatic paralysis of carpal joints,bones of wrist painful,1.0,1
+rheumatic paralysis of carpal joints,bruised pain in lumbar vertebrae,1.0,1
+rheumatic paralysis of carpal joints,bones of back of hand painful,1.0,1
+rheumatic paralysis of carpal joints,lameness after sprains,1.0,1
+rheumatic paralysis of carpal joints,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+rheumatic paralysis of carpal joints,pain as from a blow in coccyx,1.0,1
+rheumatic paralysis of carpal joints,pain as from a fall in coccyx,1.0,1
+rheumatic paralysis of carpal joints,wrists feel stiff as if sprained,1.0,1
+rheumatic paralysis of carpal joints,pain deep seated as if in marrow of bone,1.0,1
+rheumatic paralysis of carpal joints,hip bones feel bruised,1.0,1
+rheumatic paralysis of carpal joints,bones of feet sore,1.0,1
+rheumatic paralysis of carpal joints,pain as from a blow in back,1.0,1
+rheumatic paralysis of carpal joints,hamstrings feel weak,1.0,1
+rheumatic paralysis of carpal joints,rheumatism of both feet from heels to toes,1.0,1
+rheumatic paralysis of carpal joints,pain as if sprained in shoulders,1.0,1
+rheumatic paralysis of carpal joints,unable to bend due to pains in all joints,1.0,1
+rheumatic paralysis of carpal joints,pains as from a blow in left elbow joint,1.0,1
+rheumatic paralysis of carpal joints,rheumatism of right wrist,1.0,1
+rheumatic paralysis of carpal joints,knees give way when going down stairs,1.0,1
+rheumatic paralysis of carpal joints,pain as if sprained in nape,1.0,1
+rheumatic paralysis of carpal joints,rheumatism of right leg,1.0,1
+rheumatic paralysis of carpal joints,soreness through small bones of hands,1.0,1
+rheumatic paralysis of carpal joints,cramp-like contractions from thighs to small of back,1.0,1
+rheumatic paralysis of carpal joints,shooting pains from back down outside of thigh,1.0,1
+rheumatic paralysis of carpal joints,pain as from a fall in back,1.0,1
+rheumatic paralysis of carpal joints,lameness after sprains of ankles,1.0,1
+rheumatic paralysis of carpal joints,sprained pain in ankles,1.0,1
+rheumatic paralysis of carpal joints,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+rheumatic paralysis of carpal joints,rheumatic pains in back,1.0,1
+rheumatic paralysis of carpal joints,constantly changing position,1.0,1
+rheumatic paralysis of carpal joints,hamstrings feel shortened,1.0,1
+rheumatic paralysis of carpal joints,aching over both eyes,1.0,1
+rheumatic paralysis of carpal joints,cannot step heavily upon feet,1.0,1
+rheumatic paralysis of carpal joints,bruised sprained pains,1.0,1
+lameness after sprains of ankles,rheumatic paralysis of carpal joints,1.0,1
+lameness after sprains of ankles,rheumatic paralysis of tarsal joints,1.0,1
+lameness after sprains of ankles,has to walk constantly,1.0,1
+lameness after sprains of ankles,inflammation of large joints,1.0,1
+lameness after sprains of ankles,lameness after sprains of wrists,1.0,1
+lameness after sprains of ankles,bones of wrist painful,1.0,1
+lameness after sprains of ankles,bruised pain in lumbar vertebrae,1.0,1
+lameness after sprains of ankles,bones of back of hand painful,1.0,1
+lameness after sprains of ankles,lameness after sprains,1.0,1
+lameness after sprains of ankles,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+lameness after sprains of ankles,pain as from a blow in coccyx,1.0,1
+lameness after sprains of ankles,pain as from a fall in coccyx,1.0,1
+lameness after sprains of ankles,wrists feel stiff as if sprained,1.0,1
+lameness after sprains of ankles,pain deep seated as if in marrow of bone,1.0,1
+lameness after sprains of ankles,hip bones feel bruised,1.0,1
+lameness after sprains of ankles,bones of feet sore,1.0,1
+lameness after sprains of ankles,pain as from a blow in back,1.0,1
+lameness after sprains of ankles,hamstrings feel weak,1.0,1
+lameness after sprains of ankles,rheumatism of both feet from heels to toes,1.0,1
+lameness after sprains of ankles,pain as if sprained in shoulders,1.0,1
+lameness after sprains of ankles,unable to bend due to pains in all joints,1.0,1
+lameness after sprains of ankles,pains as from a blow in left elbow joint,1.0,1
+lameness after sprains of ankles,rheumatism of right wrist,1.0,1
+lameness after sprains of ankles,knees give way when going down stairs,1.0,1
+lameness after sprains of ankles,pain as if sprained in nape,1.0,1
+lameness after sprains of ankles,rheumatism of right leg,1.0,1
+lameness after sprains of ankles,soreness through small bones of hands,1.0,1
+lameness after sprains of ankles,cramp-like contractions from thighs to small of back,1.0,1
+lameness after sprains of ankles,shooting pains from back down outside of thigh,1.0,1
+lameness after sprains of ankles,pain as from a fall in back,1.0,1
+lameness after sprains of ankles,sprained pain in ankles,1.0,1
+lameness after sprains of ankles,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+lameness after sprains of ankles,rheumatic pains in back,1.0,1
+lameness after sprains of ankles,constantly changing position,1.0,1
+lameness after sprains of ankles,hamstrings feel shortened,1.0,1
+lameness after sprains of ankles,aching over both eyes,1.0,1
+lameness after sprains of ankles,cannot step heavily upon feet,1.0,1
+lameness after sprains of ankles,bruised sprained pains,1.0,1
+rheumatism of right wrist,rheumatic paralysis of carpal joints,1.0,1
+rheumatism of right wrist,rheumatic paralysis of tarsal joints,1.0,1
+rheumatism of right wrist,has to walk constantly,1.0,1
+rheumatism of right wrist,inflammation of large joints,1.0,1
+rheumatism of right wrist,lameness after sprains of wrists,1.0,1
+rheumatism of right wrist,bones of wrist painful,1.0,1
+rheumatism of right wrist,bruised pain in lumbar vertebrae,1.0,1
+rheumatism of right wrist,bones of back of hand painful,1.0,1
+rheumatism of right wrist,lameness after sprains,1.0,1
+rheumatism of right wrist,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+rheumatism of right wrist,pain as from a blow in coccyx,1.0,1
+rheumatism of right wrist,pain as from a fall in coccyx,1.0,1
+rheumatism of right wrist,wrists feel stiff as if sprained,1.0,1
+rheumatism of right wrist,pain deep seated as if in marrow of bone,1.0,1
+rheumatism of right wrist,hip bones feel bruised,1.0,1
+rheumatism of right wrist,bones of feet sore,1.0,1
+rheumatism of right wrist,pain as from a blow in back,1.0,1
+rheumatism of right wrist,hamstrings feel weak,1.0,1
+rheumatism of right wrist,rheumatism of both feet from heels to toes,1.0,1
+rheumatism of right wrist,pain as if sprained in shoulders,1.0,1
+rheumatism of right wrist,unable to bend due to pains in all joints,1.0,1
+rheumatism of right wrist,pains as from a blow in left elbow joint,1.0,1
+rheumatism of right wrist,knees give way when going down stairs,1.0,1
+rheumatism of right wrist,pain as if sprained in nape,1.0,1
+rheumatism of right wrist,rheumatism of right leg,1.0,1
+rheumatism of right wrist,soreness through small bones of hands,1.0,1
+rheumatism of right wrist,cramp-like contractions from thighs to small of back,1.0,1
+rheumatism of right wrist,shooting pains from back down outside of thigh,1.0,1
+rheumatism of right wrist,pain as from a fall in back,1.0,1
+rheumatism of right wrist,lameness after sprains of ankles,1.0,1
+rheumatism of right wrist,sprained pain in ankles,1.0,1
+rheumatism of right wrist,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+rheumatism of right wrist,rheumatic pains in back,1.0,1
+rheumatism of right wrist,constantly changing position,1.0,1
+rheumatism of right wrist,hamstrings feel shortened,1.0,1
+rheumatism of right wrist,aching over both eyes,1.0,1
+rheumatism of right wrist,cannot step heavily upon feet,1.0,1
+rheumatism of right wrist,bruised sprained pains,1.0,1
+hamstrings feel shortened,rheumatic paralysis of carpal joints,1.0,1
+hamstrings feel shortened,rheumatic paralysis of tarsal joints,1.0,1
+hamstrings feel shortened,has to walk constantly,1.0,1
+hamstrings feel shortened,inflammation of large joints,1.0,1
+hamstrings feel shortened,lameness after sprains of wrists,1.0,1
+hamstrings feel shortened,bones of wrist painful,1.0,1
+hamstrings feel shortened,bruised pain in lumbar vertebrae,1.0,1
+hamstrings feel shortened,bones of back of hand painful,1.0,1
+hamstrings feel shortened,lameness after sprains,1.0,1
+hamstrings feel shortened,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+hamstrings feel shortened,pain as from a blow in coccyx,1.0,1
+hamstrings feel shortened,pain as from a fall in coccyx,1.0,1
+hamstrings feel shortened,wrists feel stiff as if sprained,1.0,1
+hamstrings feel shortened,pain deep seated as if in marrow of bone,1.0,1
+hamstrings feel shortened,hip bones feel bruised,1.0,1
+hamstrings feel shortened,bones of feet sore,1.0,1
+hamstrings feel shortened,pain as from a blow in back,1.0,1
+hamstrings feel shortened,hamstrings feel weak,1.0,1
+hamstrings feel shortened,rheumatism of both feet from heels to toes,1.0,1
+hamstrings feel shortened,pain as if sprained in shoulders,1.0,1
+hamstrings feel shortened,unable to bend due to pains in all joints,1.0,1
+hamstrings feel shortened,pains as from a blow in left elbow joint,1.0,1
+hamstrings feel shortened,rheumatism of right wrist,1.0,1
+hamstrings feel shortened,knees give way when going down stairs,1.0,1
+hamstrings feel shortened,pain as if sprained in nape,1.0,1
+hamstrings feel shortened,rheumatism of right leg,1.0,1
+hamstrings feel shortened,soreness through small bones of hands,1.0,1
+hamstrings feel shortened,cramp-like contractions from thighs to small of back,1.0,1
+hamstrings feel shortened,shooting pains from back down outside of thigh,1.0,1
+hamstrings feel shortened,pain as from a fall in back,1.0,1
+hamstrings feel shortened,lameness after sprains of ankles,1.0,1
+hamstrings feel shortened,sprained pain in ankles,1.0,1
+hamstrings feel shortened,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+hamstrings feel shortened,rheumatic pains in back,1.0,1
+hamstrings feel shortened,constantly changing position,1.0,1
+hamstrings feel shortened,aching over both eyes,1.0,1
+hamstrings feel shortened,cannot step heavily upon feet,1.0,1
+hamstrings feel shortened,bruised sprained pains,1.0,1
+bones of feet sore,rheumatic paralysis of carpal joints,1.0,1
+bones of feet sore,rheumatic paralysis of tarsal joints,1.0,1
+bones of feet sore,has to walk constantly,1.0,1
+bones of feet sore,inflammation of large joints,1.0,1
+bones of feet sore,lameness after sprains of wrists,1.0,1
+bones of feet sore,bones of wrist painful,1.0,1
+bones of feet sore,bruised pain in lumbar vertebrae,1.0,1
+bones of feet sore,bones of back of hand painful,1.0,1
+bones of feet sore,lameness after sprains,1.0,1
+bones of feet sore,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+bones of feet sore,pain as from a blow in coccyx,1.0,1
+bones of feet sore,pain as from a fall in coccyx,1.0,1
+bones of feet sore,wrists feel stiff as if sprained,1.0,1
+bones of feet sore,pain deep seated as if in marrow of bone,1.0,1
+bones of feet sore,hip bones feel bruised,1.0,1
+bones of feet sore,pain as from a blow in back,1.0,1
+bones of feet sore,hamstrings feel weak,1.0,1
+bones of feet sore,rheumatism of both feet from heels to toes,1.0,1
+bones of feet sore,pain as if sprained in shoulders,1.0,1
+bones of feet sore,unable to bend due to pains in all joints,1.0,1
+bones of feet sore,pains as from a blow in left elbow joint,1.0,1
+bones of feet sore,rheumatism of right wrist,1.0,1
+bones of feet sore,knees give way when going down stairs,1.0,1
+bones of feet sore,pain as if sprained in nape,1.0,1
+bones of feet sore,rheumatism of right leg,1.0,1
+bones of feet sore,soreness through small bones of hands,1.0,1
+bones of feet sore,cramp-like contractions from thighs to small of back,1.0,1
+bones of feet sore,shooting pains from back down outside of thigh,1.0,1
+bones of feet sore,pain as from a fall in back,1.0,1
+bones of feet sore,lameness after sprains of ankles,1.0,1
+bones of feet sore,sprained pain in ankles,1.0,1
+bones of feet sore,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+bones of feet sore,rheumatic pains in back,1.0,1
+bones of feet sore,constantly changing position,1.0,1
+bones of feet sore,hamstrings feel shortened,1.0,1
+bones of feet sore,aching over both eyes,1.0,1
+bones of feet sore,cannot step heavily upon feet,1.0,1
+bones of feet sore,bruised sprained pains,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,rheumatic paralysis of carpal joints,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,rheumatic paralysis of tarsal joints,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,has to walk constantly,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,inflammation of large joints,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,lameness after sprains of wrists,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,bones of wrist painful,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,bruised pain in lumbar vertebrae,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,bones of back of hand painful,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,lameness after sprains,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,pain as from a blow in coccyx,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,pain as from a fall in coccyx,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,wrists feel stiff as if sprained,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,pain deep seated as if in marrow of bone,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,hip bones feel bruised,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,bones of feet sore,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,pain as from a blow in back,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,hamstrings feel weak,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,rheumatism of both feet from heels to toes,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,pain as if sprained in shoulders,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,unable to bend due to pains in all joints,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,pains as from a blow in left elbow joint,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,rheumatism of right wrist,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,knees give way when going down stairs,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,pain as if sprained in nape,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,rheumatism of right leg,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,soreness through small bones of hands,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,cramp-like contractions from thighs to small of back,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,shooting pains from back down outside of thigh,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,pain as from a fall in back,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,lameness after sprains of ankles,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,sprained pain in ankles,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,rheumatic pains in back,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,constantly changing position,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,hamstrings feel shortened,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,aching over both eyes,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,cannot step heavily upon feet,1.0,1
+ganglia on sheath of flexor tendons of fourth finger,bruised sprained pains,1.0,1
+hamstrings feel weak,rheumatic paralysis of carpal joints,1.0,1
+hamstrings feel weak,rheumatic paralysis of tarsal joints,1.0,1
+hamstrings feel weak,has to walk constantly,1.0,1
+hamstrings feel weak,inflammation of large joints,1.0,1
+hamstrings feel weak,lameness after sprains of wrists,1.0,1
+hamstrings feel weak,bones of wrist painful,1.0,1
+hamstrings feel weak,bruised pain in lumbar vertebrae,1.0,1
+hamstrings feel weak,bones of back of hand painful,1.0,1
+hamstrings feel weak,lameness after sprains,1.0,1
+hamstrings feel weak,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+hamstrings feel weak,pain as from a blow in coccyx,1.0,1
+hamstrings feel weak,pain as from a fall in coccyx,1.0,1
+hamstrings feel weak,wrists feel stiff as if sprained,1.0,1
+hamstrings feel weak,pain deep seated as if in marrow of bone,1.0,1
+hamstrings feel weak,hip bones feel bruised,1.0,1
+hamstrings feel weak,bones of feet sore,1.0,1
+hamstrings feel weak,pain as from a blow in back,1.0,1
+hamstrings feel weak,rheumatism of both feet from heels to toes,1.0,1
+hamstrings feel weak,pain as if sprained in shoulders,1.0,1
+hamstrings feel weak,unable to bend due to pains in all joints,1.0,1
+hamstrings feel weak,pains as from a blow in left elbow joint,1.0,1
+hamstrings feel weak,rheumatism of right wrist,1.0,1
+hamstrings feel weak,knees give way when going down stairs,1.0,1
+hamstrings feel weak,pain as if sprained in nape,1.0,1
+hamstrings feel weak,rheumatism of right leg,1.0,1
+hamstrings feel weak,soreness through small bones of hands,1.0,1
+hamstrings feel weak,cramp-like contractions from thighs to small of back,1.0,1
+hamstrings feel weak,shooting pains from back down outside of thigh,1.0,1
+hamstrings feel weak,pain as from a fall in back,1.0,1
+hamstrings feel weak,lameness after sprains of ankles,1.0,1
+hamstrings feel weak,sprained pain in ankles,1.0,1
+hamstrings feel weak,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+hamstrings feel weak,rheumatic pains in back,1.0,1
+hamstrings feel weak,constantly changing position,1.0,1
+hamstrings feel weak,hamstrings feel shortened,1.0,1
+hamstrings feel weak,aching over both eyes,1.0,1
+hamstrings feel weak,cannot step heavily upon feet,1.0,1
+hamstrings feel weak,bruised sprained pains,1.0,1
+has to walk constantly,rheumatic paralysis of carpal joints,1.0,1
+has to walk constantly,rheumatic paralysis of tarsal joints,1.0,1
+has to walk constantly,inflammation of large joints,1.0,1
+has to walk constantly,lameness after sprains of wrists,1.0,1
+has to walk constantly,bones of wrist painful,1.0,1
+has to walk constantly,bruised pain in lumbar vertebrae,1.0,1
+has to walk constantly,bones of back of hand painful,1.0,1
+has to walk constantly,lameness after sprains,1.0,1
+has to walk constantly,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+has to walk constantly,pain as from a blow in coccyx,1.0,1
+has to walk constantly,pain as from a fall in coccyx,1.0,1
+has to walk constantly,wrists feel stiff as if sprained,1.0,1
+has to walk constantly,pain deep seated as if in marrow of bone,1.0,1
+has to walk constantly,hip bones feel bruised,1.0,1
+has to walk constantly,bones of feet sore,1.0,1
+has to walk constantly,pain as from a blow in back,1.0,1
+has to walk constantly,hamstrings feel weak,1.0,1
+has to walk constantly,rheumatism of both feet from heels to toes,1.0,1
+has to walk constantly,pain as if sprained in shoulders,1.0,1
+has to walk constantly,unable to bend due to pains in all joints,1.0,1
+has to walk constantly,pains as from a blow in left elbow joint,1.0,1
+has to walk constantly,rheumatism of right wrist,1.0,1
+has to walk constantly,knees give way when going down stairs,1.0,1
+has to walk constantly,pain as if sprained in nape,1.0,1
+has to walk constantly,rheumatism of right leg,1.0,1
+has to walk constantly,soreness through small bones of hands,1.0,1
+has to walk constantly,cramp-like contractions from thighs to small of back,1.0,1
+has to walk constantly,shooting pains from back down outside of thigh,1.0,1
+has to walk constantly,pain as from a fall in back,1.0,1
+has to walk constantly,lameness after sprains of ankles,1.0,1
+has to walk constantly,sprained pain in ankles,1.0,1
+has to walk constantly,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+has to walk constantly,rheumatic pains in back,1.0,1
+has to walk constantly,constantly changing position,1.0,1
+has to walk constantly,hamstrings feel shortened,1.0,1
+has to walk constantly,aching over both eyes,1.0,1
+has to walk constantly,cannot step heavily upon feet,1.0,1
+has to walk constantly,bruised sprained pains,1.0,1
+sprained pain in ankles,rheumatic paralysis of carpal joints,1.0,1
+sprained pain in ankles,rheumatic paralysis of tarsal joints,1.0,1
+sprained pain in ankles,has to walk constantly,1.0,1
+sprained pain in ankles,inflammation of large joints,1.0,1
+sprained pain in ankles,lameness after sprains of wrists,1.0,1
+sprained pain in ankles,bones of wrist painful,1.0,1
+sprained pain in ankles,bruised pain in lumbar vertebrae,1.0,1
+sprained pain in ankles,bones of back of hand painful,1.0,1
+sprained pain in ankles,lameness after sprains,1.0,1
+sprained pain in ankles,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+sprained pain in ankles,pain as from a blow in coccyx,1.0,1
+sprained pain in ankles,pain as from a fall in coccyx,1.0,1
+sprained pain in ankles,wrists feel stiff as if sprained,1.0,1
+sprained pain in ankles,pain deep seated as if in marrow of bone,1.0,1
+sprained pain in ankles,hip bones feel bruised,1.0,1
+sprained pain in ankles,bones of feet sore,1.0,1
+sprained pain in ankles,pain as from a blow in back,1.0,1
+sprained pain in ankles,hamstrings feel weak,1.0,1
+sprained pain in ankles,rheumatism of both feet from heels to toes,1.0,1
+sprained pain in ankles,pain as if sprained in shoulders,1.0,1
+sprained pain in ankles,unable to bend due to pains in all joints,1.0,1
+sprained pain in ankles,pains as from a blow in left elbow joint,1.0,1
+sprained pain in ankles,rheumatism of right wrist,1.0,1
+sprained pain in ankles,knees give way when going down stairs,1.0,1
+sprained pain in ankles,pain as if sprained in nape,1.0,1
+sprained pain in ankles,rheumatism of right leg,1.0,1
+sprained pain in ankles,soreness through small bones of hands,1.0,1
+sprained pain in ankles,cramp-like contractions from thighs to small of back,1.0,1
+sprained pain in ankles,shooting pains from back down outside of thigh,1.0,1
+sprained pain in ankles,pain as from a fall in back,1.0,1
+sprained pain in ankles,lameness after sprains of ankles,1.0,1
+sprained pain in ankles,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+sprained pain in ankles,rheumatic pains in back,1.0,1
+sprained pain in ankles,constantly changing position,1.0,1
+sprained pain in ankles,hamstrings feel shortened,1.0,1
+sprained pain in ankles,aching over both eyes,1.0,1
+sprained pain in ankles,cannot step heavily upon feet,1.0,1
+sprained pain in ankles,bruised sprained pains,1.0,1
+aching over both eyes,rheumatic paralysis of carpal joints,1.0,1
+aching over both eyes,rheumatic paralysis of tarsal joints,1.0,1
+aching over both eyes,has to walk constantly,1.0,1
+aching over both eyes,inflammation of large joints,1.0,1
+aching over both eyes,lameness after sprains of wrists,1.0,1
+aching over both eyes,bones of wrist painful,1.0,1
+aching over both eyes,bruised pain in lumbar vertebrae,1.0,1
+aching over both eyes,bones of back of hand painful,1.0,1
+aching over both eyes,lameness after sprains,1.0,1
+aching over both eyes,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+aching over both eyes,pain as from a blow in coccyx,1.0,1
+aching over both eyes,pain as from a fall in coccyx,1.0,1
+aching over both eyes,wrists feel stiff as if sprained,1.0,1
+aching over both eyes,pain deep seated as if in marrow of bone,1.0,1
+aching over both eyes,hip bones feel bruised,1.0,1
+aching over both eyes,bones of feet sore,1.0,1
+aching over both eyes,pain as from a blow in back,1.0,1
+aching over both eyes,hamstrings feel weak,1.0,1
+aching over both eyes,rheumatism of both feet from heels to toes,1.0,1
+aching over both eyes,pain as if sprained in shoulders,1.0,1
+aching over both eyes,unable to bend due to pains in all joints,1.0,1
+aching over both eyes,pains as from a blow in left elbow joint,1.0,1
+aching over both eyes,rheumatism of right wrist,1.0,1
+aching over both eyes,knees give way when going down stairs,1.0,1
+aching over both eyes,pain as if sprained in nape,1.0,1
+aching over both eyes,rheumatism of right leg,1.0,1
+aching over both eyes,soreness through small bones of hands,1.0,1
+aching over both eyes,cramp-like contractions from thighs to small of back,1.0,1
+aching over both eyes,shooting pains from back down outside of thigh,1.0,1
+aching over both eyes,pain as from a fall in back,1.0,1
+aching over both eyes,lameness after sprains of ankles,1.0,1
+aching over both eyes,sprained pain in ankles,1.0,1
+aching over both eyes,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+aching over both eyes,rheumatic pains in back,1.0,1
+aching over both eyes,constantly changing position,1.0,1
+aching over both eyes,hamstrings feel shortened,1.0,1
+aching over both eyes,cannot step heavily upon feet,1.0,1
+aching over both eyes,bruised sprained pains,1.0,1
+cannot step heavily upon feet,rheumatic paralysis of carpal joints,1.0,1
+cannot step heavily upon feet,rheumatic paralysis of tarsal joints,1.0,1
+cannot step heavily upon feet,has to walk constantly,1.0,1
+cannot step heavily upon feet,inflammation of large joints,1.0,1
+cannot step heavily upon feet,lameness after sprains of wrists,1.0,1
+cannot step heavily upon feet,bones of wrist painful,1.0,1
+cannot step heavily upon feet,bruised pain in lumbar vertebrae,1.0,1
+cannot step heavily upon feet,bones of back of hand painful,1.0,1
+cannot step heavily upon feet,lameness after sprains,1.0,1
+cannot step heavily upon feet,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+cannot step heavily upon feet,pain as from a blow in coccyx,1.0,1
+cannot step heavily upon feet,pain as from a fall in coccyx,1.0,1
+cannot step heavily upon feet,wrists feel stiff as if sprained,1.0,1
+cannot step heavily upon feet,pain deep seated as if in marrow of bone,1.0,1
+cannot step heavily upon feet,hip bones feel bruised,1.0,1
+cannot step heavily upon feet,bones of feet sore,1.0,1
+cannot step heavily upon feet,pain as from a blow in back,1.0,1
+cannot step heavily upon feet,hamstrings feel weak,1.0,1
+cannot step heavily upon feet,rheumatism of both feet from heels to toes,1.0,1
+cannot step heavily upon feet,pain as if sprained in shoulders,1.0,1
+cannot step heavily upon feet,unable to bend due to pains in all joints,1.0,1
+cannot step heavily upon feet,pains as from a blow in left elbow joint,1.0,1
+cannot step heavily upon feet,rheumatism of right wrist,1.0,1
+cannot step heavily upon feet,knees give way when going down stairs,1.0,1
+cannot step heavily upon feet,pain as if sprained in nape,1.0,1
+cannot step heavily upon feet,rheumatism of right leg,1.0,1
+cannot step heavily upon feet,soreness through small bones of hands,1.0,1
+cannot step heavily upon feet,cramp-like contractions from thighs to small of back,1.0,1
+cannot step heavily upon feet,shooting pains from back down outside of thigh,1.0,1
+cannot step heavily upon feet,pain as from a fall in back,1.0,1
+cannot step heavily upon feet,lameness after sprains of ankles,1.0,1
+cannot step heavily upon feet,sprained pain in ankles,1.0,1
+cannot step heavily upon feet,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+cannot step heavily upon feet,rheumatic pains in back,1.0,1
+cannot step heavily upon feet,constantly changing position,1.0,1
+cannot step heavily upon feet,hamstrings feel shortened,1.0,1
+cannot step heavily upon feet,aching over both eyes,1.0,1
+cannot step heavily upon feet,bruised sprained pains,1.0,1
+lameness after sprains,rheumatic paralysis of carpal joints,1.0,1
+lameness after sprains,rheumatic paralysis of tarsal joints,1.0,1
+lameness after sprains,has to walk constantly,1.0,1
+lameness after sprains,inflammation of large joints,1.0,1
+lameness after sprains,lameness after sprains of wrists,1.0,1
+lameness after sprains,bones of wrist painful,1.0,1
+lameness after sprains,bruised pain in lumbar vertebrae,1.0,1
+lameness after sprains,bones of back of hand painful,1.0,1
+lameness after sprains,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+lameness after sprains,pain as from a blow in coccyx,1.0,1
+lameness after sprains,pain as from a fall in coccyx,1.0,1
+lameness after sprains,wrists feel stiff as if sprained,1.0,1
+lameness after sprains,pain deep seated as if in marrow of bone,1.0,1
+lameness after sprains,hip bones feel bruised,1.0,1
+lameness after sprains,bones of feet sore,1.0,1
+lameness after sprains,pain as from a blow in back,1.0,1
+lameness after sprains,hamstrings feel weak,1.0,1
+lameness after sprains,rheumatism of both feet from heels to toes,1.0,1
+lameness after sprains,pain as if sprained in shoulders,1.0,1
+lameness after sprains,unable to bend due to pains in all joints,1.0,1
+lameness after sprains,pains as from a blow in left elbow joint,1.0,1
+lameness after sprains,rheumatism of right wrist,1.0,1
+lameness after sprains,knees give way when going down stairs,1.0,1
+lameness after sprains,pain as if sprained in nape,1.0,1
+lameness after sprains,rheumatism of right leg,1.0,1
+lameness after sprains,soreness through small bones of hands,1.0,1
+lameness after sprains,cramp-like contractions from thighs to small of back,1.0,1
+lameness after sprains,shooting pains from back down outside of thigh,1.0,1
+lameness after sprains,pain as from a fall in back,1.0,1
+lameness after sprains,lameness after sprains of ankles,1.0,1
+lameness after sprains,sprained pain in ankles,1.0,1
+lameness after sprains,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+lameness after sprains,rheumatic pains in back,1.0,1
+lameness after sprains,constantly changing position,1.0,1
+lameness after sprains,hamstrings feel shortened,1.0,1
+lameness after sprains,aching over both eyes,1.0,1
+lameness after sprains,cannot step heavily upon feet,1.0,1
+lameness after sprains,bruised sprained pains,1.0,1
+wrists feel stiff as if sprained,rheumatic paralysis of carpal joints,1.0,1
+wrists feel stiff as if sprained,rheumatic paralysis of tarsal joints,1.0,1
+wrists feel stiff as if sprained,has to walk constantly,1.0,1
+wrists feel stiff as if sprained,inflammation of large joints,1.0,1
+wrists feel stiff as if sprained,lameness after sprains of wrists,1.0,1
+wrists feel stiff as if sprained,bones of wrist painful,1.0,1
+wrists feel stiff as if sprained,bruised pain in lumbar vertebrae,1.0,1
+wrists feel stiff as if sprained,bones of back of hand painful,1.0,1
+wrists feel stiff as if sprained,lameness after sprains,1.0,1
+wrists feel stiff as if sprained,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+wrists feel stiff as if sprained,pain as from a blow in coccyx,1.0,1
+wrists feel stiff as if sprained,pain as from a fall in coccyx,1.0,1
+wrists feel stiff as if sprained,pain deep seated as if in marrow of bone,1.0,1
+wrists feel stiff as if sprained,hip bones feel bruised,1.0,1
+wrists feel stiff as if sprained,bones of feet sore,1.0,1
+wrists feel stiff as if sprained,pain as from a blow in back,1.0,1
+wrists feel stiff as if sprained,hamstrings feel weak,1.0,1
+wrists feel stiff as if sprained,rheumatism of both feet from heels to toes,1.0,1
+wrists feel stiff as if sprained,pain as if sprained in shoulders,1.0,1
+wrists feel stiff as if sprained,unable to bend due to pains in all joints,1.0,1
+wrists feel stiff as if sprained,pains as from a blow in left elbow joint,1.0,1
+wrists feel stiff as if sprained,rheumatism of right wrist,1.0,1
+wrists feel stiff as if sprained,knees give way when going down stairs,1.0,1
+wrists feel stiff as if sprained,pain as if sprained in nape,1.0,1
+wrists feel stiff as if sprained,rheumatism of right leg,1.0,1
+wrists feel stiff as if sprained,soreness through small bones of hands,1.0,1
+wrists feel stiff as if sprained,cramp-like contractions from thighs to small of back,1.0,1
+wrists feel stiff as if sprained,shooting pains from back down outside of thigh,1.0,1
+wrists feel stiff as if sprained,pain as from a fall in back,1.0,1
+wrists feel stiff as if sprained,lameness after sprains of ankles,1.0,1
+wrists feel stiff as if sprained,sprained pain in ankles,1.0,1
+wrists feel stiff as if sprained,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+wrists feel stiff as if sprained,rheumatic pains in back,1.0,1
+wrists feel stiff as if sprained,constantly changing position,1.0,1
+wrists feel stiff as if sprained,hamstrings feel shortened,1.0,1
+wrists feel stiff as if sprained,aching over both eyes,1.0,1
+wrists feel stiff as if sprained,cannot step heavily upon feet,1.0,1
+wrists feel stiff as if sprained,bruised sprained pains,1.0,1
+pain as if sprained in shoulders,rheumatic paralysis of carpal joints,1.0,1
+pain as if sprained in shoulders,rheumatic paralysis of tarsal joints,1.0,1
+pain as if sprained in shoulders,has to walk constantly,1.0,1
+pain as if sprained in shoulders,inflammation of large joints,1.0,1
+pain as if sprained in shoulders,lameness after sprains of wrists,1.0,1
+pain as if sprained in shoulders,bones of wrist painful,1.0,1
+pain as if sprained in shoulders,bruised pain in lumbar vertebrae,1.0,1
+pain as if sprained in shoulders,bones of back of hand painful,1.0,1
+pain as if sprained in shoulders,lameness after sprains,1.0,1
+pain as if sprained in shoulders,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+pain as if sprained in shoulders,pain as from a blow in coccyx,1.0,1
+pain as if sprained in shoulders,pain as from a fall in coccyx,1.0,1
+pain as if sprained in shoulders,wrists feel stiff as if sprained,1.0,1
+pain as if sprained in shoulders,pain deep seated as if in marrow of bone,1.0,1
+pain as if sprained in shoulders,hip bones feel bruised,1.0,1
+pain as if sprained in shoulders,bones of feet sore,1.0,1
+pain as if sprained in shoulders,pain as from a blow in back,1.0,1
+pain as if sprained in shoulders,hamstrings feel weak,1.0,1
+pain as if sprained in shoulders,rheumatism of both feet from heels to toes,1.0,1
+pain as if sprained in shoulders,unable to bend due to pains in all joints,1.0,1
+pain as if sprained in shoulders,pains as from a blow in left elbow joint,1.0,1
+pain as if sprained in shoulders,rheumatism of right wrist,1.0,1
+pain as if sprained in shoulders,knees give way when going down stairs,1.0,1
+pain as if sprained in shoulders,pain as if sprained in nape,1.0,1
+pain as if sprained in shoulders,rheumatism of right leg,1.0,1
+pain as if sprained in shoulders,soreness through small bones of hands,1.0,1
+pain as if sprained in shoulders,cramp-like contractions from thighs to small of back,1.0,1
+pain as if sprained in shoulders,shooting pains from back down outside of thigh,1.0,1
+pain as if sprained in shoulders,pain as from a fall in back,1.0,1
+pain as if sprained in shoulders,lameness after sprains of ankles,1.0,1
+pain as if sprained in shoulders,sprained pain in ankles,1.0,1
+pain as if sprained in shoulders,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+pain as if sprained in shoulders,rheumatic pains in back,1.0,1
+pain as if sprained in shoulders,constantly changing position,1.0,1
+pain as if sprained in shoulders,hamstrings feel shortened,1.0,1
+pain as if sprained in shoulders,aching over both eyes,1.0,1
+pain as if sprained in shoulders,cannot step heavily upon feet,1.0,1
+pain as if sprained in shoulders,bruised sprained pains,1.0,1
+cramp-like contractions from thighs to small of back,rheumatic paralysis of carpal joints,1.0,1
+cramp-like contractions from thighs to small of back,rheumatic paralysis of tarsal joints,1.0,1
+cramp-like contractions from thighs to small of back,has to walk constantly,1.0,1
+cramp-like contractions from thighs to small of back,inflammation of large joints,1.0,1
+cramp-like contractions from thighs to small of back,lameness after sprains of wrists,1.0,1
+cramp-like contractions from thighs to small of back,bones of wrist painful,1.0,1
+cramp-like contractions from thighs to small of back,bruised pain in lumbar vertebrae,1.0,1
+cramp-like contractions from thighs to small of back,bones of back of hand painful,1.0,1
+cramp-like contractions from thighs to small of back,lameness after sprains,1.0,1
+cramp-like contractions from thighs to small of back,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+cramp-like contractions from thighs to small of back,pain as from a blow in coccyx,1.0,1
+cramp-like contractions from thighs to small of back,pain as from a fall in coccyx,1.0,1
+cramp-like contractions from thighs to small of back,wrists feel stiff as if sprained,1.0,1
+cramp-like contractions from thighs to small of back,pain deep seated as if in marrow of bone,1.0,1
+cramp-like contractions from thighs to small of back,hip bones feel bruised,1.0,1
+cramp-like contractions from thighs to small of back,bones of feet sore,1.0,1
+cramp-like contractions from thighs to small of back,pain as from a blow in back,1.0,1
+cramp-like contractions from thighs to small of back,hamstrings feel weak,1.0,1
+cramp-like contractions from thighs to small of back,rheumatism of both feet from heels to toes,1.0,1
+cramp-like contractions from thighs to small of back,pain as if sprained in shoulders,1.0,1
+cramp-like contractions from thighs to small of back,unable to bend due to pains in all joints,1.0,1
+cramp-like contractions from thighs to small of back,pains as from a blow in left elbow joint,1.0,1
+cramp-like contractions from thighs to small of back,rheumatism of right wrist,1.0,1
+cramp-like contractions from thighs to small of back,knees give way when going down stairs,1.0,1
+cramp-like contractions from thighs to small of back,pain as if sprained in nape,1.0,1
+cramp-like contractions from thighs to small of back,rheumatism of right leg,1.0,1
+cramp-like contractions from thighs to small of back,soreness through small bones of hands,1.0,1
+cramp-like contractions from thighs to small of back,shooting pains from back down outside of thigh,1.0,1
+cramp-like contractions from thighs to small of back,pain as from a fall in back,1.0,1
+cramp-like contractions from thighs to small of back,lameness after sprains of ankles,1.0,1
+cramp-like contractions from thighs to small of back,sprained pain in ankles,1.0,1
+cramp-like contractions from thighs to small of back,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+cramp-like contractions from thighs to small of back,rheumatic pains in back,1.0,1
+cramp-like contractions from thighs to small of back,constantly changing position,1.0,1
+cramp-like contractions from thighs to small of back,hamstrings feel shortened,1.0,1
+cramp-like contractions from thighs to small of back,aching over both eyes,1.0,1
+cramp-like contractions from thighs to small of back,cannot step heavily upon feet,1.0,1
+cramp-like contractions from thighs to small of back,bruised sprained pains,1.0,1
+lameness after sprains of wrists,rheumatic paralysis of carpal joints,1.0,1
+lameness after sprains of wrists,rheumatic paralysis of tarsal joints,1.0,1
+lameness after sprains of wrists,has to walk constantly,1.0,1
+lameness after sprains of wrists,inflammation of large joints,1.0,1
+lameness after sprains of wrists,bones of wrist painful,1.0,1
+lameness after sprains of wrists,bruised pain in lumbar vertebrae,1.0,1
+lameness after sprains of wrists,bones of back of hand painful,1.0,1
+lameness after sprains of wrists,lameness after sprains,1.0,1
+lameness after sprains of wrists,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+lameness after sprains of wrists,pain as from a blow in coccyx,1.0,1
+lameness after sprains of wrists,pain as from a fall in coccyx,1.0,1
+lameness after sprains of wrists,wrists feel stiff as if sprained,1.0,1
+lameness after sprains of wrists,pain deep seated as if in marrow of bone,1.0,1
+lameness after sprains of wrists,hip bones feel bruised,1.0,1
+lameness after sprains of wrists,bones of feet sore,1.0,1
+lameness after sprains of wrists,pain as from a blow in back,1.0,1
+lameness after sprains of wrists,hamstrings feel weak,1.0,1
+lameness after sprains of wrists,rheumatism of both feet from heels to toes,1.0,1
+lameness after sprains of wrists,pain as if sprained in shoulders,1.0,1
+lameness after sprains of wrists,unable to bend due to pains in all joints,1.0,1
+lameness after sprains of wrists,pains as from a blow in left elbow joint,1.0,1
+lameness after sprains of wrists,rheumatism of right wrist,1.0,1
+lameness after sprains of wrists,knees give way when going down stairs,1.0,1
+lameness after sprains of wrists,pain as if sprained in nape,1.0,1
+lameness after sprains of wrists,rheumatism of right leg,1.0,1
+lameness after sprains of wrists,soreness through small bones of hands,1.0,1
+lameness after sprains of wrists,cramp-like contractions from thighs to small of back,1.0,1
+lameness after sprains of wrists,shooting pains from back down outside of thigh,1.0,1
+lameness after sprains of wrists,pain as from a fall in back,1.0,1
+lameness after sprains of wrists,lameness after sprains of ankles,1.0,1
+lameness after sprains of wrists,sprained pain in ankles,1.0,1
+lameness after sprains of wrists,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+lameness after sprains of wrists,rheumatic pains in back,1.0,1
+lameness after sprains of wrists,constantly changing position,1.0,1
+lameness after sprains of wrists,hamstrings feel shortened,1.0,1
+lameness after sprains of wrists,aching over both eyes,1.0,1
+lameness after sprains of wrists,cannot step heavily upon feet,1.0,1
+lameness after sprains of wrists,bruised sprained pains,1.0,1
+rheumatism of right leg,rheumatic paralysis of carpal joints,1.0,1
+rheumatism of right leg,rheumatic paralysis of tarsal joints,1.0,1
+rheumatism of right leg,has to walk constantly,1.0,1
+rheumatism of right leg,inflammation of large joints,1.0,1
+rheumatism of right leg,lameness after sprains of wrists,1.0,1
+rheumatism of right leg,bones of wrist painful,1.0,1
+rheumatism of right leg,bruised pain in lumbar vertebrae,1.0,1
+rheumatism of right leg,bones of back of hand painful,1.0,1
+rheumatism of right leg,lameness after sprains,1.0,1
+rheumatism of right leg,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+rheumatism of right leg,pain as from a blow in coccyx,1.0,1
+rheumatism of right leg,pain as from a fall in coccyx,1.0,1
+rheumatism of right leg,wrists feel stiff as if sprained,1.0,1
+rheumatism of right leg,pain deep seated as if in marrow of bone,1.0,1
+rheumatism of right leg,hip bones feel bruised,1.0,1
+rheumatism of right leg,bones of feet sore,1.0,1
+rheumatism of right leg,pain as from a blow in back,1.0,1
+rheumatism of right leg,hamstrings feel weak,1.0,1
+rheumatism of right leg,rheumatism of both feet from heels to toes,1.0,1
+rheumatism of right leg,pain as if sprained in shoulders,1.0,1
+rheumatism of right leg,unable to bend due to pains in all joints,1.0,1
+rheumatism of right leg,pains as from a blow in left elbow joint,1.0,1
+rheumatism of right leg,rheumatism of right wrist,1.0,1
+rheumatism of right leg,knees give way when going down stairs,1.0,1
+rheumatism of right leg,pain as if sprained in nape,1.0,1
+rheumatism of right leg,soreness through small bones of hands,1.0,1
+rheumatism of right leg,cramp-like contractions from thighs to small of back,1.0,1
+rheumatism of right leg,shooting pains from back down outside of thigh,1.0,1
+rheumatism of right leg,pain as from a fall in back,1.0,1
+rheumatism of right leg,lameness after sprains of ankles,1.0,1
+rheumatism of right leg,sprained pain in ankles,1.0,1
+rheumatism of right leg,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+rheumatism of right leg,rheumatic pains in back,1.0,1
+rheumatism of right leg,constantly changing position,1.0,1
+rheumatism of right leg,hamstrings feel shortened,1.0,1
+rheumatism of right leg,aching over both eyes,1.0,1
+rheumatism of right leg,cannot step heavily upon feet,1.0,1
+rheumatism of right leg,bruised sprained pains,1.0,1
+rheumatic pains in back,rheumatic paralysis of carpal joints,0.5,1
+rheumatic pains in back,rheumatic paralysis of tarsal joints,0.5,1
+rheumatic pains in back,has to walk constantly,0.5,1
+rheumatic pains in back,inflammation of large joints,0.5,1
+rheumatic pains in back,lameness after sprains of wrists,0.5,1
+rheumatic pains in back,bones of wrist painful,0.5,1
+rheumatic pains in back,bruised pain in lumbar vertebrae,0.5,1
+rheumatic pains in back,bones of back of hand painful,0.5,1
+rheumatic pains in back,lameness after sprains,0.5,1
+rheumatic pains in back,rheumatism of right leg with ganglia of tendons in palm,0.5,1
+rheumatic pains in back,pain as from a blow in coccyx,0.5,1
+rheumatic pains in back,pain as from a fall in coccyx,0.5,1
+rheumatic pains in back,wrists feel stiff as if sprained,0.5,1
+rheumatic pains in back,pain deep seated as if in marrow of bone,0.5,1
+rheumatic pains in back,hip bones feel bruised,0.5,1
+rheumatic pains in back,bones of feet sore,0.5,1
+rheumatic pains in back,pain as from a blow in back,0.5,1
+rheumatic pains in back,hamstrings feel weak,0.5,1
+rheumatic pains in back,rheumatism of both feet from heels to toes,0.5,1
+rheumatic pains in back,pain as if sprained in shoulders,0.5,1
+rheumatic pains in back,unable to bend due to pains in all joints,0.5,1
+rheumatic pains in back,pains as from a blow in left elbow joint,0.5,1
+rheumatic pains in back,rheumatism of right wrist,0.5,1
+rheumatic pains in back,knees give way when going down stairs,0.5,1
+rheumatic pains in back,pain as if sprained in nape,0.5,1
+rheumatic pains in back,rheumatism of right leg,0.5,1
+rheumatic pains in back,soreness through small bones of hands,0.5,1
+rheumatic pains in back,cramp-like contractions from thighs to small of back,0.5,1
+rheumatic pains in back,shooting pains from back down outside of thigh,0.5,1
+rheumatic pains in back,pain as from a fall in back,0.5,1
+rheumatic pains in back,lameness after sprains of ankles,0.5,1
+rheumatic pains in back,sprained pain in ankles,0.5,1
+rheumatic pains in back,ganglia on sheath of flexor tendons of fourth finger,0.5,1
+rheumatic pains in back,constantly changing position,0.5,1
+rheumatic pains in back,hamstrings feel shortened,0.5,1
+rheumatic pains in back,aching over both eyes,0.5,1
+rheumatic pains in back,cannot step heavily upon feet,0.5,1
+rheumatic pains in back,bruised sprained pains,0.5,1
+bones of wrist painful,rheumatic paralysis of carpal joints,1.0,1
+bones of wrist painful,rheumatic paralysis of tarsal joints,1.0,1
+bones of wrist painful,has to walk constantly,1.0,1
+bones of wrist painful,inflammation of large joints,1.0,1
+bones of wrist painful,lameness after sprains of wrists,1.0,1
+bones of wrist painful,bruised pain in lumbar vertebrae,1.0,1
+bones of wrist painful,bones of back of hand painful,1.0,1
+bones of wrist painful,lameness after sprains,1.0,1
+bones of wrist painful,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+bones of wrist painful,pain as from a blow in coccyx,1.0,1
+bones of wrist painful,pain as from a fall in coccyx,1.0,1
+bones of wrist painful,wrists feel stiff as if sprained,1.0,1
+bones of wrist painful,pain deep seated as if in marrow of bone,1.0,1
+bones of wrist painful,hip bones feel bruised,1.0,1
+bones of wrist painful,bones of feet sore,1.0,1
+bones of wrist painful,pain as from a blow in back,1.0,1
+bones of wrist painful,hamstrings feel weak,1.0,1
+bones of wrist painful,rheumatism of both feet from heels to toes,1.0,1
+bones of wrist painful,pain as if sprained in shoulders,1.0,1
+bones of wrist painful,unable to bend due to pains in all joints,1.0,1
+bones of wrist painful,pains as from a blow in left elbow joint,1.0,1
+bones of wrist painful,rheumatism of right wrist,1.0,1
+bones of wrist painful,knees give way when going down stairs,1.0,1
+bones of wrist painful,pain as if sprained in nape,1.0,1
+bones of wrist painful,rheumatism of right leg,1.0,1
+bones of wrist painful,soreness through small bones of hands,1.0,1
+bones of wrist painful,cramp-like contractions from thighs to small of back,1.0,1
+bones of wrist painful,shooting pains from back down outside of thigh,1.0,1
+bones of wrist painful,pain as from a fall in back,1.0,1
+bones of wrist painful,lameness after sprains of ankles,1.0,1
+bones of wrist painful,sprained pain in ankles,1.0,1
+bones of wrist painful,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+bones of wrist painful,rheumatic pains in back,1.0,1
+bones of wrist painful,constantly changing position,1.0,1
+bones of wrist painful,hamstrings feel shortened,1.0,1
+bones of wrist painful,aching over both eyes,1.0,1
+bones of wrist painful,cannot step heavily upon feet,1.0,1
+bones of wrist painful,bruised sprained pains,1.0,1
+bones of back of hand painful,rheumatic paralysis of carpal joints,1.0,1
+bones of back of hand painful,rheumatic paralysis of tarsal joints,1.0,1
+bones of back of hand painful,has to walk constantly,1.0,1
+bones of back of hand painful,inflammation of large joints,1.0,1
+bones of back of hand painful,lameness after sprains of wrists,1.0,1
+bones of back of hand painful,bones of wrist painful,1.0,1
+bones of back of hand painful,bruised pain in lumbar vertebrae,1.0,1
+bones of back of hand painful,lameness after sprains,1.0,1
+bones of back of hand painful,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+bones of back of hand painful,pain as from a blow in coccyx,1.0,1
+bones of back of hand painful,pain as from a fall in coccyx,1.0,1
+bones of back of hand painful,wrists feel stiff as if sprained,1.0,1
+bones of back of hand painful,pain deep seated as if in marrow of bone,1.0,1
+bones of back of hand painful,hip bones feel bruised,1.0,1
+bones of back of hand painful,bones of feet sore,1.0,1
+bones of back of hand painful,pain as from a blow in back,1.0,1
+bones of back of hand painful,hamstrings feel weak,1.0,1
+bones of back of hand painful,rheumatism of both feet from heels to toes,1.0,1
+bones of back of hand painful,pain as if sprained in shoulders,1.0,1
+bones of back of hand painful,unable to bend due to pains in all joints,1.0,1
+bones of back of hand painful,pains as from a blow in left elbow joint,1.0,1
+bones of back of hand painful,rheumatism of right wrist,1.0,1
+bones of back of hand painful,knees give way when going down stairs,1.0,1
+bones of back of hand painful,pain as if sprained in nape,1.0,1
+bones of back of hand painful,rheumatism of right leg,1.0,1
+bones of back of hand painful,soreness through small bones of hands,1.0,1
+bones of back of hand painful,cramp-like contractions from thighs to small of back,1.0,1
+bones of back of hand painful,shooting pains from back down outside of thigh,1.0,1
+bones of back of hand painful,pain as from a fall in back,1.0,1
+bones of back of hand painful,lameness after sprains of ankles,1.0,1
+bones of back of hand painful,sprained pain in ankles,1.0,1
+bones of back of hand painful,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+bones of back of hand painful,rheumatic pains in back,1.0,1
+bones of back of hand painful,constantly changing position,1.0,1
+bones of back of hand painful,hamstrings feel shortened,1.0,1
+bones of back of hand painful,aching over both eyes,1.0,1
+bones of back of hand painful,cannot step heavily upon feet,1.0,1
+bones of back of hand painful,bruised sprained pains,1.0,1
+pains as from a blow in left elbow joint,rheumatic paralysis of carpal joints,1.0,1
+pains as from a blow in left elbow joint,rheumatic paralysis of tarsal joints,1.0,1
+pains as from a blow in left elbow joint,has to walk constantly,1.0,1
+pains as from a blow in left elbow joint,inflammation of large joints,1.0,1
+pains as from a blow in left elbow joint,lameness after sprains of wrists,1.0,1
+pains as from a blow in left elbow joint,bones of wrist painful,1.0,1
+pains as from a blow in left elbow joint,bruised pain in lumbar vertebrae,1.0,1
+pains as from a blow in left elbow joint,bones of back of hand painful,1.0,1
+pains as from a blow in left elbow joint,lameness after sprains,1.0,1
+pains as from a blow in left elbow joint,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+pains as from a blow in left elbow joint,pain as from a blow in coccyx,1.0,1
+pains as from a blow in left elbow joint,pain as from a fall in coccyx,1.0,1
+pains as from a blow in left elbow joint,wrists feel stiff as if sprained,1.0,1
+pains as from a blow in left elbow joint,pain deep seated as if in marrow of bone,1.0,1
+pains as from a blow in left elbow joint,hip bones feel bruised,1.0,1
+pains as from a blow in left elbow joint,bones of feet sore,1.0,1
+pains as from a blow in left elbow joint,pain as from a blow in back,1.0,1
+pains as from a blow in left elbow joint,hamstrings feel weak,1.0,1
+pains as from a blow in left elbow joint,rheumatism of both feet from heels to toes,1.0,1
+pains as from a blow in left elbow joint,pain as if sprained in shoulders,1.0,1
+pains as from a blow in left elbow joint,unable to bend due to pains in all joints,1.0,1
+pains as from a blow in left elbow joint,rheumatism of right wrist,1.0,1
+pains as from a blow in left elbow joint,knees give way when going down stairs,1.0,1
+pains as from a blow in left elbow joint,pain as if sprained in nape,1.0,1
+pains as from a blow in left elbow joint,rheumatism of right leg,1.0,1
+pains as from a blow in left elbow joint,soreness through small bones of hands,1.0,1
+pains as from a blow in left elbow joint,cramp-like contractions from thighs to small of back,1.0,1
+pains as from a blow in left elbow joint,shooting pains from back down outside of thigh,1.0,1
+pains as from a blow in left elbow joint,pain as from a fall in back,1.0,1
+pains as from a blow in left elbow joint,lameness after sprains of ankles,1.0,1
+pains as from a blow in left elbow joint,sprained pain in ankles,1.0,1
+pains as from a blow in left elbow joint,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+pains as from a blow in left elbow joint,rheumatic pains in back,1.0,1
+pains as from a blow in left elbow joint,constantly changing position,1.0,1
+pains as from a blow in left elbow joint,hamstrings feel shortened,1.0,1
+pains as from a blow in left elbow joint,aching over both eyes,1.0,1
+pains as from a blow in left elbow joint,cannot step heavily upon feet,1.0,1
+pains as from a blow in left elbow joint,bruised sprained pains,1.0,1
+bruised sprained pains,rheumatic paralysis of carpal joints,1.0,1
+bruised sprained pains,rheumatic paralysis of tarsal joints,1.0,1
+bruised sprained pains,has to walk constantly,1.0,1
+bruised sprained pains,inflammation of large joints,1.0,1
+bruised sprained pains,lameness after sprains of wrists,1.0,1
+bruised sprained pains,bones of wrist painful,1.0,1
+bruised sprained pains,bruised pain in lumbar vertebrae,1.0,1
+bruised sprained pains,bones of back of hand painful,1.0,1
+bruised sprained pains,lameness after sprains,1.0,1
+bruised sprained pains,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+bruised sprained pains,pain as from a blow in coccyx,1.0,1
+bruised sprained pains,pain as from a fall in coccyx,1.0,1
+bruised sprained pains,wrists feel stiff as if sprained,1.0,1
+bruised sprained pains,pain deep seated as if in marrow of bone,1.0,1
+bruised sprained pains,hip bones feel bruised,1.0,1
+bruised sprained pains,bones of feet sore,1.0,1
+bruised sprained pains,pain as from a blow in back,1.0,1
+bruised sprained pains,hamstrings feel weak,1.0,1
+bruised sprained pains,rheumatism of both feet from heels to toes,1.0,1
+bruised sprained pains,pain as if sprained in shoulders,1.0,1
+bruised sprained pains,unable to bend due to pains in all joints,1.0,1
+bruised sprained pains,pains as from a blow in left elbow joint,1.0,1
+bruised sprained pains,rheumatism of right wrist,1.0,1
+bruised sprained pains,knees give way when going down stairs,1.0,1
+bruised sprained pains,pain as if sprained in nape,1.0,1
+bruised sprained pains,rheumatism of right leg,1.0,1
+bruised sprained pains,soreness through small bones of hands,1.0,1
+bruised sprained pains,cramp-like contractions from thighs to small of back,1.0,1
+bruised sprained pains,shooting pains from back down outside of thigh,1.0,1
+bruised sprained pains,pain as from a fall in back,1.0,1
+bruised sprained pains,lameness after sprains of ankles,1.0,1
+bruised sprained pains,sprained pain in ankles,1.0,1
+bruised sprained pains,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+bruised sprained pains,rheumatic pains in back,1.0,1
+bruised sprained pains,constantly changing position,1.0,1
+bruised sprained pains,hamstrings feel shortened,1.0,1
+bruised sprained pains,aching over both eyes,1.0,1
+bruised sprained pains,cannot step heavily upon feet,1.0,1
+rheumatic paralysis of tarsal joints,rheumatic paralysis of carpal joints,1.0,1
+rheumatic paralysis of tarsal joints,has to walk constantly,1.0,1
+rheumatic paralysis of tarsal joints,inflammation of large joints,1.0,1
+rheumatic paralysis of tarsal joints,lameness after sprains of wrists,1.0,1
+rheumatic paralysis of tarsal joints,bones of wrist painful,1.0,1
+rheumatic paralysis of tarsal joints,bruised pain in lumbar vertebrae,1.0,1
+rheumatic paralysis of tarsal joints,bones of back of hand painful,1.0,1
+rheumatic paralysis of tarsal joints,lameness after sprains,1.0,1
+rheumatic paralysis of tarsal joints,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+rheumatic paralysis of tarsal joints,pain as from a blow in coccyx,1.0,1
+rheumatic paralysis of tarsal joints,pain as from a fall in coccyx,1.0,1
+rheumatic paralysis of tarsal joints,wrists feel stiff as if sprained,1.0,1
+rheumatic paralysis of tarsal joints,pain deep seated as if in marrow of bone,1.0,1
+rheumatic paralysis of tarsal joints,hip bones feel bruised,1.0,1
+rheumatic paralysis of tarsal joints,bones of feet sore,1.0,1
+rheumatic paralysis of tarsal joints,pain as from a blow in back,1.0,1
+rheumatic paralysis of tarsal joints,hamstrings feel weak,1.0,1
+rheumatic paralysis of tarsal joints,rheumatism of both feet from heels to toes,1.0,1
+rheumatic paralysis of tarsal joints,pain as if sprained in shoulders,1.0,1
+rheumatic paralysis of tarsal joints,unable to bend due to pains in all joints,1.0,1
+rheumatic paralysis of tarsal joints,pains as from a blow in left elbow joint,1.0,1
+rheumatic paralysis of tarsal joints,rheumatism of right wrist,1.0,1
+rheumatic paralysis of tarsal joints,knees give way when going down stairs,1.0,1
+rheumatic paralysis of tarsal joints,pain as if sprained in nape,1.0,1
+rheumatic paralysis of tarsal joints,rheumatism of right leg,1.0,1
+rheumatic paralysis of tarsal joints,soreness through small bones of hands,1.0,1
+rheumatic paralysis of tarsal joints,cramp-like contractions from thighs to small of back,1.0,1
+rheumatic paralysis of tarsal joints,shooting pains from back down outside of thigh,1.0,1
+rheumatic paralysis of tarsal joints,pain as from a fall in back,1.0,1
+rheumatic paralysis of tarsal joints,lameness after sprains of ankles,1.0,1
+rheumatic paralysis of tarsal joints,sprained pain in ankles,1.0,1
+rheumatic paralysis of tarsal joints,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+rheumatic paralysis of tarsal joints,rheumatic pains in back,1.0,1
+rheumatic paralysis of tarsal joints,constantly changing position,1.0,1
+rheumatic paralysis of tarsal joints,hamstrings feel shortened,1.0,1
+rheumatic paralysis of tarsal joints,aching over both eyes,1.0,1
+rheumatic paralysis of tarsal joints,cannot step heavily upon feet,1.0,1
+rheumatic paralysis of tarsal joints,bruised sprained pains,1.0,1
+pain as from a blow in back,rheumatic paralysis of carpal joints,1.0,1
+pain as from a blow in back,rheumatic paralysis of tarsal joints,1.0,1
+pain as from a blow in back,has to walk constantly,1.0,1
+pain as from a blow in back,inflammation of large joints,1.0,1
+pain as from a blow in back,lameness after sprains of wrists,1.0,1
+pain as from a blow in back,bones of wrist painful,1.0,1
+pain as from a blow in back,bruised pain in lumbar vertebrae,1.0,1
+pain as from a blow in back,bones of back of hand painful,1.0,1
+pain as from a blow in back,lameness after sprains,1.0,1
+pain as from a blow in back,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+pain as from a blow in back,pain as from a blow in coccyx,1.0,1
+pain as from a blow in back,pain as from a fall in coccyx,1.0,1
+pain as from a blow in back,wrists feel stiff as if sprained,1.0,1
+pain as from a blow in back,pain deep seated as if in marrow of bone,1.0,1
+pain as from a blow in back,hip bones feel bruised,1.0,1
+pain as from a blow in back,bones of feet sore,1.0,1
+pain as from a blow in back,hamstrings feel weak,1.0,1
+pain as from a blow in back,rheumatism of both feet from heels to toes,1.0,1
+pain as from a blow in back,pain as if sprained in shoulders,1.0,1
+pain as from a blow in back,unable to bend due to pains in all joints,1.0,1
+pain as from a blow in back,pains as from a blow in left elbow joint,1.0,1
+pain as from a blow in back,rheumatism of right wrist,1.0,1
+pain as from a blow in back,knees give way when going down stairs,1.0,1
+pain as from a blow in back,pain as if sprained in nape,1.0,1
+pain as from a blow in back,rheumatism of right leg,1.0,1
+pain as from a blow in back,soreness through small bones of hands,1.0,1
+pain as from a blow in back,cramp-like contractions from thighs to small of back,1.0,1
+pain as from a blow in back,shooting pains from back down outside of thigh,1.0,1
+pain as from a blow in back,pain as from a fall in back,1.0,1
+pain as from a blow in back,lameness after sprains of ankles,1.0,1
+pain as from a blow in back,sprained pain in ankles,1.0,1
+pain as from a blow in back,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+pain as from a blow in back,rheumatic pains in back,1.0,1
+pain as from a blow in back,constantly changing position,1.0,1
+pain as from a blow in back,hamstrings feel shortened,1.0,1
+pain as from a blow in back,aching over both eyes,1.0,1
+pain as from a blow in back,cannot step heavily upon feet,1.0,1
+pain as from a blow in back,bruised sprained pains,1.0,1
+unable to bend due to pains in all joints,rheumatic paralysis of carpal joints,1.0,1
+unable to bend due to pains in all joints,rheumatic paralysis of tarsal joints,1.0,1
+unable to bend due to pains in all joints,has to walk constantly,1.0,1
+unable to bend due to pains in all joints,inflammation of large joints,1.0,1
+unable to bend due to pains in all joints,lameness after sprains of wrists,1.0,1
+unable to bend due to pains in all joints,bones of wrist painful,1.0,1
+unable to bend due to pains in all joints,bruised pain in lumbar vertebrae,1.0,1
+unable to bend due to pains in all joints,bones of back of hand painful,1.0,1
+unable to bend due to pains in all joints,lameness after sprains,1.0,1
+unable to bend due to pains in all joints,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+unable to bend due to pains in all joints,pain as from a blow in coccyx,1.0,1
+unable to bend due to pains in all joints,pain as from a fall in coccyx,1.0,1
+unable to bend due to pains in all joints,wrists feel stiff as if sprained,1.0,1
+unable to bend due to pains in all joints,pain deep seated as if in marrow of bone,1.0,1
+unable to bend due to pains in all joints,hip bones feel bruised,1.0,1
+unable to bend due to pains in all joints,bones of feet sore,1.0,1
+unable to bend due to pains in all joints,pain as from a blow in back,1.0,1
+unable to bend due to pains in all joints,hamstrings feel weak,1.0,1
+unable to bend due to pains in all joints,rheumatism of both feet from heels to toes,1.0,1
+unable to bend due to pains in all joints,pain as if sprained in shoulders,1.0,1
+unable to bend due to pains in all joints,pains as from a blow in left elbow joint,1.0,1
+unable to bend due to pains in all joints,rheumatism of right wrist,1.0,1
+unable to bend due to pains in all joints,knees give way when going down stairs,1.0,1
+unable to bend due to pains in all joints,pain as if sprained in nape,1.0,1
+unable to bend due to pains in all joints,rheumatism of right leg,1.0,1
+unable to bend due to pains in all joints,soreness through small bones of hands,1.0,1
+unable to bend due to pains in all joints,cramp-like contractions from thighs to small of back,1.0,1
+unable to bend due to pains in all joints,shooting pains from back down outside of thigh,1.0,1
+unable to bend due to pains in all joints,pain as from a fall in back,1.0,1
+unable to bend due to pains in all joints,lameness after sprains of ankles,1.0,1
+unable to bend due to pains in all joints,sprained pain in ankles,1.0,1
+unable to bend due to pains in all joints,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+unable to bend due to pains in all joints,rheumatic pains in back,1.0,1
+unable to bend due to pains in all joints,constantly changing position,1.0,1
+unable to bend due to pains in all joints,hamstrings feel shortened,1.0,1
+unable to bend due to pains in all joints,aching over both eyes,1.0,1
+unable to bend due to pains in all joints,cannot step heavily upon feet,1.0,1
+unable to bend due to pains in all joints,bruised sprained pains,1.0,1
+shooting pains from back down outside of thigh,rheumatic paralysis of carpal joints,1.0,1
+shooting pains from back down outside of thigh,rheumatic paralysis of tarsal joints,1.0,1
+shooting pains from back down outside of thigh,has to walk constantly,1.0,1
+shooting pains from back down outside of thigh,inflammation of large joints,1.0,1
+shooting pains from back down outside of thigh,lameness after sprains of wrists,1.0,1
+shooting pains from back down outside of thigh,bones of wrist painful,1.0,1
+shooting pains from back down outside of thigh,bruised pain in lumbar vertebrae,1.0,1
+shooting pains from back down outside of thigh,bones of back of hand painful,1.0,1
+shooting pains from back down outside of thigh,lameness after sprains,1.0,1
+shooting pains from back down outside of thigh,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+shooting pains from back down outside of thigh,pain as from a blow in coccyx,1.0,1
+shooting pains from back down outside of thigh,pain as from a fall in coccyx,1.0,1
+shooting pains from back down outside of thigh,wrists feel stiff as if sprained,1.0,1
+shooting pains from back down outside of thigh,pain deep seated as if in marrow of bone,1.0,1
+shooting pains from back down outside of thigh,hip bones feel bruised,1.0,1
+shooting pains from back down outside of thigh,bones of feet sore,1.0,1
+shooting pains from back down outside of thigh,pain as from a blow in back,1.0,1
+shooting pains from back down outside of thigh,hamstrings feel weak,1.0,1
+shooting pains from back down outside of thigh,rheumatism of both feet from heels to toes,1.0,1
+shooting pains from back down outside of thigh,pain as if sprained in shoulders,1.0,1
+shooting pains from back down outside of thigh,unable to bend due to pains in all joints,1.0,1
+shooting pains from back down outside of thigh,pains as from a blow in left elbow joint,1.0,1
+shooting pains from back down outside of thigh,rheumatism of right wrist,1.0,1
+shooting pains from back down outside of thigh,knees give way when going down stairs,1.0,1
+shooting pains from back down outside of thigh,pain as if sprained in nape,1.0,1
+shooting pains from back down outside of thigh,rheumatism of right leg,1.0,1
+shooting pains from back down outside of thigh,soreness through small bones of hands,1.0,1
+shooting pains from back down outside of thigh,cramp-like contractions from thighs to small of back,1.0,1
+shooting pains from back down outside of thigh,pain as from a fall in back,1.0,1
+shooting pains from back down outside of thigh,lameness after sprains of ankles,1.0,1
+shooting pains from back down outside of thigh,sprained pain in ankles,1.0,1
+shooting pains from back down outside of thigh,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+shooting pains from back down outside of thigh,rheumatic pains in back,1.0,1
+shooting pains from back down outside of thigh,constantly changing position,1.0,1
+shooting pains from back down outside of thigh,hamstrings feel shortened,1.0,1
+shooting pains from back down outside of thigh,aching over both eyes,1.0,1
+shooting pains from back down outside of thigh,cannot step heavily upon feet,1.0,1
+shooting pains from back down outside of thigh,bruised sprained pains,1.0,1
+hip bones feel bruised,rheumatic paralysis of carpal joints,1.0,1
+hip bones feel bruised,rheumatic paralysis of tarsal joints,1.0,1
+hip bones feel bruised,has to walk constantly,1.0,1
+hip bones feel bruised,inflammation of large joints,1.0,1
+hip bones feel bruised,lameness after sprains of wrists,1.0,1
+hip bones feel bruised,bones of wrist painful,1.0,1
+hip bones feel bruised,bruised pain in lumbar vertebrae,1.0,1
+hip bones feel bruised,bones of back of hand painful,1.0,1
+hip bones feel bruised,lameness after sprains,1.0,1
+hip bones feel bruised,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+hip bones feel bruised,pain as from a blow in coccyx,1.0,1
+hip bones feel bruised,pain as from a fall in coccyx,1.0,1
+hip bones feel bruised,wrists feel stiff as if sprained,1.0,1
+hip bones feel bruised,pain deep seated as if in marrow of bone,1.0,1
+hip bones feel bruised,bones of feet sore,1.0,1
+hip bones feel bruised,pain as from a blow in back,1.0,1
+hip bones feel bruised,hamstrings feel weak,1.0,1
+hip bones feel bruised,rheumatism of both feet from heels to toes,1.0,1
+hip bones feel bruised,pain as if sprained in shoulders,1.0,1
+hip bones feel bruised,unable to bend due to pains in all joints,1.0,1
+hip bones feel bruised,pains as from a blow in left elbow joint,1.0,1
+hip bones feel bruised,rheumatism of right wrist,1.0,1
+hip bones feel bruised,knees give way when going down stairs,1.0,1
+hip bones feel bruised,pain as if sprained in nape,1.0,1
+hip bones feel bruised,rheumatism of right leg,1.0,1
+hip bones feel bruised,soreness through small bones of hands,1.0,1
+hip bones feel bruised,cramp-like contractions from thighs to small of back,1.0,1
+hip bones feel bruised,shooting pains from back down outside of thigh,1.0,1
+hip bones feel bruised,pain as from a fall in back,1.0,1
+hip bones feel bruised,lameness after sprains of ankles,1.0,1
+hip bones feel bruised,sprained pain in ankles,1.0,1
+hip bones feel bruised,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+hip bones feel bruised,rheumatic pains in back,1.0,1
+hip bones feel bruised,constantly changing position,1.0,1
+hip bones feel bruised,hamstrings feel shortened,1.0,1
+hip bones feel bruised,aching over both eyes,1.0,1
+hip bones feel bruised,cannot step heavily upon feet,1.0,1
+hip bones feel bruised,bruised sprained pains,1.0,1
+rheumatism of both feet from heels to toes,rheumatic paralysis of carpal joints,1.0,1
+rheumatism of both feet from heels to toes,rheumatic paralysis of tarsal joints,1.0,1
+rheumatism of both feet from heels to toes,has to walk constantly,1.0,1
+rheumatism of both feet from heels to toes,inflammation of large joints,1.0,1
+rheumatism of both feet from heels to toes,lameness after sprains of wrists,1.0,1
+rheumatism of both feet from heels to toes,bones of wrist painful,1.0,1
+rheumatism of both feet from heels to toes,bruised pain in lumbar vertebrae,1.0,1
+rheumatism of both feet from heels to toes,bones of back of hand painful,1.0,1
+rheumatism of both feet from heels to toes,lameness after sprains,1.0,1
+rheumatism of both feet from heels to toes,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+rheumatism of both feet from heels to toes,pain as from a blow in coccyx,1.0,1
+rheumatism of both feet from heels to toes,pain as from a fall in coccyx,1.0,1
+rheumatism of both feet from heels to toes,wrists feel stiff as if sprained,1.0,1
+rheumatism of both feet from heels to toes,pain deep seated as if in marrow of bone,1.0,1
+rheumatism of both feet from heels to toes,hip bones feel bruised,1.0,1
+rheumatism of both feet from heels to toes,bones of feet sore,1.0,1
+rheumatism of both feet from heels to toes,pain as from a blow in back,1.0,1
+rheumatism of both feet from heels to toes,hamstrings feel weak,1.0,1
+rheumatism of both feet from heels to toes,pain as if sprained in shoulders,1.0,1
+rheumatism of both feet from heels to toes,unable to bend due to pains in all joints,1.0,1
+rheumatism of both feet from heels to toes,pains as from a blow in left elbow joint,1.0,1
+rheumatism of both feet from heels to toes,rheumatism of right wrist,1.0,1
+rheumatism of both feet from heels to toes,knees give way when going down stairs,1.0,1
+rheumatism of both feet from heels to toes,pain as if sprained in nape,1.0,1
+rheumatism of both feet from heels to toes,rheumatism of right leg,1.0,1
+rheumatism of both feet from heels to toes,soreness through small bones of hands,1.0,1
+rheumatism of both feet from heels to toes,cramp-like contractions from thighs to small of back,1.0,1
+rheumatism of both feet from heels to toes,shooting pains from back down outside of thigh,1.0,1
+rheumatism of both feet from heels to toes,pain as from a fall in back,1.0,1
+rheumatism of both feet from heels to toes,lameness after sprains of ankles,1.0,1
+rheumatism of both feet from heels to toes,sprained pain in ankles,1.0,1
+rheumatism of both feet from heels to toes,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+rheumatism of both feet from heels to toes,rheumatic pains in back,1.0,1
+rheumatism of both feet from heels to toes,constantly changing position,1.0,1
+rheumatism of both feet from heels to toes,hamstrings feel shortened,1.0,1
+rheumatism of both feet from heels to toes,aching over both eyes,1.0,1
+rheumatism of both feet from heels to toes,cannot step heavily upon feet,1.0,1
+rheumatism of both feet from heels to toes,bruised sprained pains,1.0,1
+constantly changing position,rheumatic paralysis of carpal joints,1.0,1
+constantly changing position,rheumatic paralysis of tarsal joints,1.0,1
+constantly changing position,has to walk constantly,1.0,1
+constantly changing position,inflammation of large joints,1.0,1
+constantly changing position,lameness after sprains of wrists,1.0,1
+constantly changing position,bones of wrist painful,1.0,1
+constantly changing position,bruised pain in lumbar vertebrae,1.0,1
+constantly changing position,bones of back of hand painful,1.0,1
+constantly changing position,lameness after sprains,1.0,1
+constantly changing position,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+constantly changing position,pain as from a blow in coccyx,1.0,1
+constantly changing position,pain as from a fall in coccyx,1.0,1
+constantly changing position,wrists feel stiff as if sprained,1.0,1
+constantly changing position,pain deep seated as if in marrow of bone,1.0,1
+constantly changing position,hip bones feel bruised,1.0,1
+constantly changing position,bones of feet sore,1.0,1
+constantly changing position,pain as from a blow in back,1.0,1
+constantly changing position,hamstrings feel weak,1.0,1
+constantly changing position,rheumatism of both feet from heels to toes,1.0,1
+constantly changing position,pain as if sprained in shoulders,1.0,1
+constantly changing position,unable to bend due to pains in all joints,1.0,1
+constantly changing position,pains as from a blow in left elbow joint,1.0,1
+constantly changing position,rheumatism of right wrist,1.0,1
+constantly changing position,knees give way when going down stairs,1.0,1
+constantly changing position,pain as if sprained in nape,1.0,1
+constantly changing position,rheumatism of right leg,1.0,1
+constantly changing position,soreness through small bones of hands,1.0,1
+constantly changing position,cramp-like contractions from thighs to small of back,1.0,1
+constantly changing position,shooting pains from back down outside of thigh,1.0,1
+constantly changing position,pain as from a fall in back,1.0,1
+constantly changing position,lameness after sprains of ankles,1.0,1
+constantly changing position,sprained pain in ankles,1.0,1
+constantly changing position,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+constantly changing position,rheumatic pains in back,1.0,1
+constantly changing position,hamstrings feel shortened,1.0,1
+constantly changing position,aching over both eyes,1.0,1
+constantly changing position,cannot step heavily upon feet,1.0,1
+constantly changing position,bruised sprained pains,1.0,1
+pain as from a blow in coccyx,rheumatic paralysis of carpal joints,1.0,1
+pain as from a blow in coccyx,rheumatic paralysis of tarsal joints,1.0,1
+pain as from a blow in coccyx,has to walk constantly,1.0,1
+pain as from a blow in coccyx,inflammation of large joints,1.0,1
+pain as from a blow in coccyx,lameness after sprains of wrists,1.0,1
+pain as from a blow in coccyx,bones of wrist painful,1.0,1
+pain as from a blow in coccyx,bruised pain in lumbar vertebrae,1.0,1
+pain as from a blow in coccyx,bones of back of hand painful,1.0,1
+pain as from a blow in coccyx,lameness after sprains,1.0,1
+pain as from a blow in coccyx,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+pain as from a blow in coccyx,pain as from a fall in coccyx,1.0,1
+pain as from a blow in coccyx,wrists feel stiff as if sprained,1.0,1
+pain as from a blow in coccyx,pain deep seated as if in marrow of bone,1.0,1
+pain as from a blow in coccyx,hip bones feel bruised,1.0,1
+pain as from a blow in coccyx,bones of feet sore,1.0,1
+pain as from a blow in coccyx,pain as from a blow in back,1.0,1
+pain as from a blow in coccyx,hamstrings feel weak,1.0,1
+pain as from a blow in coccyx,rheumatism of both feet from heels to toes,1.0,1
+pain as from a blow in coccyx,pain as if sprained in shoulders,1.0,1
+pain as from a blow in coccyx,unable to bend due to pains in all joints,1.0,1
+pain as from a blow in coccyx,pains as from a blow in left elbow joint,1.0,1
+pain as from a blow in coccyx,rheumatism of right wrist,1.0,1
+pain as from a blow in coccyx,knees give way when going down stairs,1.0,1
+pain as from a blow in coccyx,pain as if sprained in nape,1.0,1
+pain as from a blow in coccyx,rheumatism of right leg,1.0,1
+pain as from a blow in coccyx,soreness through small bones of hands,1.0,1
+pain as from a blow in coccyx,cramp-like contractions from thighs to small of back,1.0,1
+pain as from a blow in coccyx,shooting pains from back down outside of thigh,1.0,1
+pain as from a blow in coccyx,pain as from a fall in back,1.0,1
+pain as from a blow in coccyx,lameness after sprains of ankles,1.0,1
+pain as from a blow in coccyx,sprained pain in ankles,1.0,1
+pain as from a blow in coccyx,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+pain as from a blow in coccyx,rheumatic pains in back,1.0,1
+pain as from a blow in coccyx,constantly changing position,1.0,1
+pain as from a blow in coccyx,hamstrings feel shortened,1.0,1
+pain as from a blow in coccyx,aching over both eyes,1.0,1
+pain as from a blow in coccyx,cannot step heavily upon feet,1.0,1
+pain as from a blow in coccyx,bruised sprained pains,1.0,1
+soreness through small bones of hands,rheumatic paralysis of carpal joints,1.0,1
+soreness through small bones of hands,rheumatic paralysis of tarsal joints,1.0,1
+soreness through small bones of hands,has to walk constantly,1.0,1
+soreness through small bones of hands,inflammation of large joints,1.0,1
+soreness through small bones of hands,lameness after sprains of wrists,1.0,1
+soreness through small bones of hands,bones of wrist painful,1.0,1
+soreness through small bones of hands,bruised pain in lumbar vertebrae,1.0,1
+soreness through small bones of hands,bones of back of hand painful,1.0,1
+soreness through small bones of hands,lameness after sprains,1.0,1
+soreness through small bones of hands,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+soreness through small bones of hands,pain as from a blow in coccyx,1.0,1
+soreness through small bones of hands,pain as from a fall in coccyx,1.0,1
+soreness through small bones of hands,wrists feel stiff as if sprained,1.0,1
+soreness through small bones of hands,pain deep seated as if in marrow of bone,1.0,1
+soreness through small bones of hands,hip bones feel bruised,1.0,1
+soreness through small bones of hands,bones of feet sore,1.0,1
+soreness through small bones of hands,pain as from a blow in back,1.0,1
+soreness through small bones of hands,hamstrings feel weak,1.0,1
+soreness through small bones of hands,rheumatism of both feet from heels to toes,1.0,1
+soreness through small bones of hands,pain as if sprained in shoulders,1.0,1
+soreness through small bones of hands,unable to bend due to pains in all joints,1.0,1
+soreness through small bones of hands,pains as from a blow in left elbow joint,1.0,1
+soreness through small bones of hands,rheumatism of right wrist,1.0,1
+soreness through small bones of hands,knees give way when going down stairs,1.0,1
+soreness through small bones of hands,pain as if sprained in nape,1.0,1
+soreness through small bones of hands,rheumatism of right leg,1.0,1
+soreness through small bones of hands,cramp-like contractions from thighs to small of back,1.0,1
+soreness through small bones of hands,shooting pains from back down outside of thigh,1.0,1
+soreness through small bones of hands,pain as from a fall in back,1.0,1
+soreness through small bones of hands,lameness after sprains of ankles,1.0,1
+soreness through small bones of hands,sprained pain in ankles,1.0,1
+soreness through small bones of hands,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+soreness through small bones of hands,rheumatic pains in back,1.0,1
+soreness through small bones of hands,constantly changing position,1.0,1
+soreness through small bones of hands,hamstrings feel shortened,1.0,1
+soreness through small bones of hands,aching over both eyes,1.0,1
+soreness through small bones of hands,cannot step heavily upon feet,1.0,1
+soreness through small bones of hands,bruised sprained pains,1.0,1
+bruised pain in lumbar vertebrae,rheumatic paralysis of carpal joints,1.0,1
+bruised pain in lumbar vertebrae,rheumatic paralysis of tarsal joints,1.0,1
+bruised pain in lumbar vertebrae,has to walk constantly,1.0,1
+bruised pain in lumbar vertebrae,inflammation of large joints,1.0,1
+bruised pain in lumbar vertebrae,lameness after sprains of wrists,1.0,1
+bruised pain in lumbar vertebrae,bones of wrist painful,1.0,1
+bruised pain in lumbar vertebrae,bones of back of hand painful,1.0,1
+bruised pain in lumbar vertebrae,lameness after sprains,1.0,1
+bruised pain in lumbar vertebrae,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+bruised pain in lumbar vertebrae,pain as from a blow in coccyx,1.0,1
+bruised pain in lumbar vertebrae,pain as from a fall in coccyx,1.0,1
+bruised pain in lumbar vertebrae,wrists feel stiff as if sprained,1.0,1
+bruised pain in lumbar vertebrae,pain deep seated as if in marrow of bone,1.0,1
+bruised pain in lumbar vertebrae,hip bones feel bruised,1.0,1
+bruised pain in lumbar vertebrae,bones of feet sore,1.0,1
+bruised pain in lumbar vertebrae,pain as from a blow in back,1.0,1
+bruised pain in lumbar vertebrae,hamstrings feel weak,1.0,1
+bruised pain in lumbar vertebrae,rheumatism of both feet from heels to toes,1.0,1
+bruised pain in lumbar vertebrae,pain as if sprained in shoulders,1.0,1
+bruised pain in lumbar vertebrae,unable to bend due to pains in all joints,1.0,1
+bruised pain in lumbar vertebrae,pains as from a blow in left elbow joint,1.0,1
+bruised pain in lumbar vertebrae,rheumatism of right wrist,1.0,1
+bruised pain in lumbar vertebrae,knees give way when going down stairs,1.0,1
+bruised pain in lumbar vertebrae,pain as if sprained in nape,1.0,1
+bruised pain in lumbar vertebrae,rheumatism of right leg,1.0,1
+bruised pain in lumbar vertebrae,soreness through small bones of hands,1.0,1
+bruised pain in lumbar vertebrae,cramp-like contractions from thighs to small of back,1.0,1
+bruised pain in lumbar vertebrae,shooting pains from back down outside of thigh,1.0,1
+bruised pain in lumbar vertebrae,pain as from a fall in back,1.0,1
+bruised pain in lumbar vertebrae,lameness after sprains of ankles,1.0,1
+bruised pain in lumbar vertebrae,sprained pain in ankles,1.0,1
+bruised pain in lumbar vertebrae,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+bruised pain in lumbar vertebrae,rheumatic pains in back,1.0,1
+bruised pain in lumbar vertebrae,constantly changing position,1.0,1
+bruised pain in lumbar vertebrae,hamstrings feel shortened,1.0,1
+bruised pain in lumbar vertebrae,aching over both eyes,1.0,1
+bruised pain in lumbar vertebrae,cannot step heavily upon feet,1.0,1
+bruised pain in lumbar vertebrae,bruised sprained pains,1.0,1
+pain as from a fall in coccyx,rheumatic paralysis of carpal joints,1.0,1
+pain as from a fall in coccyx,rheumatic paralysis of tarsal joints,1.0,1
+pain as from a fall in coccyx,has to walk constantly,1.0,1
+pain as from a fall in coccyx,inflammation of large joints,1.0,1
+pain as from a fall in coccyx,lameness after sprains of wrists,1.0,1
+pain as from a fall in coccyx,bones of wrist painful,1.0,1
+pain as from a fall in coccyx,bruised pain in lumbar vertebrae,1.0,1
+pain as from a fall in coccyx,bones of back of hand painful,1.0,1
+pain as from a fall in coccyx,lameness after sprains,1.0,1
+pain as from a fall in coccyx,rheumatism of right leg with ganglia of tendons in palm,1.0,1
+pain as from a fall in coccyx,pain as from a blow in coccyx,1.0,1
+pain as from a fall in coccyx,wrists feel stiff as if sprained,1.0,1
+pain as from a fall in coccyx,pain deep seated as if in marrow of bone,1.0,1
+pain as from a fall in coccyx,hip bones feel bruised,1.0,1
+pain as from a fall in coccyx,bones of feet sore,1.0,1
+pain as from a fall in coccyx,pain as from a blow in back,1.0,1
+pain as from a fall in coccyx,hamstrings feel weak,1.0,1
+pain as from a fall in coccyx,rheumatism of both feet from heels to toes,1.0,1
+pain as from a fall in coccyx,pain as if sprained in shoulders,1.0,1
+pain as from a fall in coccyx,unable to bend due to pains in all joints,1.0,1
+pain as from a fall in coccyx,pains as from a blow in left elbow joint,1.0,1
+pain as from a fall in coccyx,rheumatism of right wrist,1.0,1
+pain as from a fall in coccyx,knees give way when going down stairs,1.0,1
+pain as from a fall in coccyx,pain as if sprained in nape,1.0,1
+pain as from a fall in coccyx,rheumatism of right leg,1.0,1
+pain as from a fall in coccyx,soreness through small bones of hands,1.0,1
+pain as from a fall in coccyx,cramp-like contractions from thighs to small of back,1.0,1
+pain as from a fall in coccyx,shooting pains from back down outside of thigh,1.0,1
+pain as from a fall in coccyx,pain as from a fall in back,1.0,1
+pain as from a fall in coccyx,lameness after sprains of ankles,1.0,1
+pain as from a fall in coccyx,sprained pain in ankles,1.0,1
+pain as from a fall in coccyx,ganglia on sheath of flexor tendons of fourth finger,1.0,1
+pain as from a fall in coccyx,rheumatic pains in back,1.0,1
+pain as from a fall in coccyx,constantly changing position,1.0,1
+pain as from a fall in coccyx,hamstrings feel shortened,1.0,1
+pain as from a fall in coccyx,aching over both eyes,1.0,1
+pain as from a fall in coccyx,cannot step heavily upon feet,1.0,1
+pain as from a fall in coccyx,bruised sprained pains,1.0,1

@@ -1,0 +1,1859 @@
+### Cluster 90 — Symptoms (43)
+Symptom,Frequency
+worse motion,2
+especially elbows,1
+left ischiatic nerve pain from behind forward,1
+rheumatic pains after suppression of foot sweat,1
+tonsils swollen,1
+several joints on right side affected,1
+severe pains in all joints,1
+engorgement subsided,1
+pains shooting,1
+tonsils with white spots,1
+rheumatic pains in little toes,1
+ankle on right side affected,1
+nodes on fingers subsided,1
+canker sores,1
+chronic gonorrheal rheumatism,1
+rheumatic pains in fingers,1
+left ischiatic nerve pain downward to knees,1
+tonsils red,1
+drawing in left calf,1
+acute inflammatory articular rheumatism,1
+nightly pain most agonizing,1
+temporarily improved by hot applications,1
+heat about joints,1
+inflammatory rheumatism followed by plastic iritis,1
+acute piercing pains in knees,1
+parts exquisitely sensitive,1
+worse especially at night,1
+burning pains changing from one place to another,1
+large joints on left side affected,1
+drawing extending into thigh,1
+pains drawing,1
+attacking one or more joints,1
+great swelling,1
+transferred to left arm,1
+pains disappeared,1
+soreness about joints,1
+improved by dry heat,1
+pains drive him out of bed,1
+joints exquisitely sensitive,1
+redness about joints,1
+vertigo with tendency to fall to the right,1
+wrist joint on right side affected,1
+rheumatoid arthritis,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+salicylicum acidum,43
+sticta pulmonaria,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+left ischiatic nerve pain from behind forward,especially elbows,1.0,1
+left ischiatic nerve pain from behind forward,rheumatic pains after suppression of foot sweat,1.0,1
+left ischiatic nerve pain from behind forward,tonsils swollen,1.0,1
+left ischiatic nerve pain from behind forward,several joints on right side affected,1.0,1
+left ischiatic nerve pain from behind forward,severe pains in all joints,1.0,1
+left ischiatic nerve pain from behind forward,engorgement subsided,1.0,1
+left ischiatic nerve pain from behind forward,pains shooting,1.0,1
+left ischiatic nerve pain from behind forward,tonsils with white spots,1.0,1
+left ischiatic nerve pain from behind forward,rheumatic pains in little toes,1.0,1
+left ischiatic nerve pain from behind forward,ankle on right side affected,1.0,1
+left ischiatic nerve pain from behind forward,nodes on fingers subsided,1.0,1
+left ischiatic nerve pain from behind forward,canker sores,1.0,1
+left ischiatic nerve pain from behind forward,chronic gonorrheal rheumatism,1.0,1
+left ischiatic nerve pain from behind forward,rheumatic pains in fingers,1.0,1
+left ischiatic nerve pain from behind forward,left ischiatic nerve pain downward to knees,1.0,1
+left ischiatic nerve pain from behind forward,tonsils red,1.0,1
+left ischiatic nerve pain from behind forward,drawing in left calf,1.0,1
+left ischiatic nerve pain from behind forward,acute inflammatory articular rheumatism,1.0,1
+left ischiatic nerve pain from behind forward,nightly pain most agonizing,1.0,1
+left ischiatic nerve pain from behind forward,temporarily improved by hot applications,1.0,1
+left ischiatic nerve pain from behind forward,heat about joints,1.0,1
+left ischiatic nerve pain from behind forward,inflammatory rheumatism followed by plastic iritis,1.0,1
+left ischiatic nerve pain from behind forward,acute piercing pains in knees,1.0,1
+left ischiatic nerve pain from behind forward,parts exquisitely sensitive,1.0,1
+left ischiatic nerve pain from behind forward,worse especially at night,1.0,1
+left ischiatic nerve pain from behind forward,burning pains changing from one place to another,1.0,1
+left ischiatic nerve pain from behind forward,large joints on left side affected,1.0,1
+left ischiatic nerve pain from behind forward,drawing extending into thigh,1.0,1
+left ischiatic nerve pain from behind forward,pains drawing,1.0,1
+left ischiatic nerve pain from behind forward,attacking one or more joints,1.0,1
+left ischiatic nerve pain from behind forward,great swelling,1.0,1
+left ischiatic nerve pain from behind forward,transferred to left arm,1.0,1
+left ischiatic nerve pain from behind forward,pains disappeared,1.0,1
+left ischiatic nerve pain from behind forward,soreness about joints,1.0,1
+left ischiatic nerve pain from behind forward,improved by dry heat,1.0,1
+left ischiatic nerve pain from behind forward,pains drive him out of bed,1.0,1
+left ischiatic nerve pain from behind forward,joints exquisitely sensitive,1.0,1
+left ischiatic nerve pain from behind forward,redness about joints,1.0,1
+left ischiatic nerve pain from behind forward,vertigo with tendency to fall to the right,1.0,1
+left ischiatic nerve pain from behind forward,wrist joint on right side affected,1.0,1
+left ischiatic nerve pain from behind forward,worse motion,1.0,1
+left ischiatic nerve pain from behind forward,rheumatoid arthritis,1.0,1
+large joints on left side affected,especially elbows,1.0,1
+large joints on left side affected,left ischiatic nerve pain from behind forward,1.0,1
+large joints on left side affected,rheumatic pains after suppression of foot sweat,1.0,1
+large joints on left side affected,tonsils swollen,1.0,1
+large joints on left side affected,several joints on right side affected,1.0,1
+large joints on left side affected,severe pains in all joints,1.0,1
+large joints on left side affected,engorgement subsided,1.0,1
+large joints on left side affected,pains shooting,1.0,1
+large joints on left side affected,tonsils with white spots,1.0,1
+large joints on left side affected,rheumatic pains in little toes,1.0,1
+large joints on left side affected,ankle on right side affected,1.0,1
+large joints on left side affected,nodes on fingers subsided,1.0,1
+large joints on left side affected,canker sores,1.0,1
+large joints on left side affected,chronic gonorrheal rheumatism,1.0,1
+large joints on left side affected,rheumatic pains in fingers,1.0,1
+large joints on left side affected,left ischiatic nerve pain downward to knees,1.0,1
+large joints on left side affected,tonsils red,1.0,1
+large joints on left side affected,drawing in left calf,1.0,1
+large joints on left side affected,acute inflammatory articular rheumatism,1.0,1
+large joints on left side affected,nightly pain most agonizing,1.0,1
+large joints on left side affected,temporarily improved by hot applications,1.0,1
+large joints on left side affected,heat about joints,1.0,1
+large joints on left side affected,inflammatory rheumatism followed by plastic iritis,1.0,1
+large joints on left side affected,acute piercing pains in knees,1.0,1
+large joints on left side affected,parts exquisitely sensitive,1.0,1
+large joints on left side affected,worse especially at night,1.0,1
+large joints on left side affected,burning pains changing from one place to another,1.0,1
+large joints on left side affected,drawing extending into thigh,1.0,1
+large joints on left side affected,pains drawing,1.0,1
+large joints on left side affected,attacking one or more joints,1.0,1
+large joints on left side affected,great swelling,1.0,1
+large joints on left side affected,transferred to left arm,1.0,1
+large joints on left side affected,pains disappeared,1.0,1
+large joints on left side affected,soreness about joints,1.0,1
+large joints on left side affected,improved by dry heat,1.0,1
+large joints on left side affected,pains drive him out of bed,1.0,1
+large joints on left side affected,joints exquisitely sensitive,1.0,1
+large joints on left side affected,redness about joints,1.0,1
+large joints on left side affected,vertigo with tendency to fall to the right,1.0,1
+large joints on left side affected,wrist joint on right side affected,1.0,1
+large joints on left side affected,worse motion,1.0,1
+large joints on left side affected,rheumatoid arthritis,1.0,1
+rheumatoid arthritis,especially elbows,1.0,1
+rheumatoid arthritis,left ischiatic nerve pain from behind forward,1.0,1
+rheumatoid arthritis,rheumatic pains after suppression of foot sweat,1.0,1
+rheumatoid arthritis,tonsils swollen,1.0,1
+rheumatoid arthritis,several joints on right side affected,1.0,1
+rheumatoid arthritis,severe pains in all joints,1.0,1
+rheumatoid arthritis,engorgement subsided,1.0,1
+rheumatoid arthritis,pains shooting,1.0,1
+rheumatoid arthritis,tonsils with white spots,1.0,1
+rheumatoid arthritis,rheumatic pains in little toes,1.0,1
+rheumatoid arthritis,ankle on right side affected,1.0,1
+rheumatoid arthritis,nodes on fingers subsided,1.0,1
+rheumatoid arthritis,canker sores,1.0,1
+rheumatoid arthritis,chronic gonorrheal rheumatism,1.0,1
+rheumatoid arthritis,rheumatic pains in fingers,1.0,1
+rheumatoid arthritis,left ischiatic nerve pain downward to knees,1.0,1
+rheumatoid arthritis,tonsils red,1.0,1
+rheumatoid arthritis,drawing in left calf,1.0,1
+rheumatoid arthritis,acute inflammatory articular rheumatism,1.0,1
+rheumatoid arthritis,nightly pain most agonizing,1.0,1
+rheumatoid arthritis,temporarily improved by hot applications,1.0,1
+rheumatoid arthritis,heat about joints,1.0,1
+rheumatoid arthritis,inflammatory rheumatism followed by plastic iritis,1.0,1
+rheumatoid arthritis,acute piercing pains in knees,1.0,1
+rheumatoid arthritis,parts exquisitely sensitive,1.0,1
+rheumatoid arthritis,worse especially at night,1.0,1
+rheumatoid arthritis,burning pains changing from one place to another,1.0,1
+rheumatoid arthritis,large joints on left side affected,1.0,1
+rheumatoid arthritis,drawing extending into thigh,1.0,1
+rheumatoid arthritis,pains drawing,1.0,1
+rheumatoid arthritis,attacking one or more joints,1.0,1
+rheumatoid arthritis,great swelling,1.0,1
+rheumatoid arthritis,transferred to left arm,1.0,1
+rheumatoid arthritis,pains disappeared,1.0,1
+rheumatoid arthritis,soreness about joints,1.0,1
+rheumatoid arthritis,improved by dry heat,1.0,1
+rheumatoid arthritis,pains drive him out of bed,1.0,1
+rheumatoid arthritis,joints exquisitely sensitive,1.0,1
+rheumatoid arthritis,redness about joints,1.0,1
+rheumatoid arthritis,vertigo with tendency to fall to the right,1.0,1
+rheumatoid arthritis,wrist joint on right side affected,1.0,1
+rheumatoid arthritis,worse motion,1.0,1
+great swelling,especially elbows,1.0,1
+great swelling,left ischiatic nerve pain from behind forward,1.0,1
+great swelling,rheumatic pains after suppression of foot sweat,1.0,1
+great swelling,tonsils swollen,1.0,1
+great swelling,several joints on right side affected,1.0,1
+great swelling,severe pains in all joints,1.0,1
+great swelling,engorgement subsided,1.0,1
+great swelling,pains shooting,1.0,1
+great swelling,tonsils with white spots,1.0,1
+great swelling,rheumatic pains in little toes,1.0,1
+great swelling,ankle on right side affected,1.0,1
+great swelling,nodes on fingers subsided,1.0,1
+great swelling,canker sores,1.0,1
+great swelling,chronic gonorrheal rheumatism,1.0,1
+great swelling,rheumatic pains in fingers,1.0,1
+great swelling,left ischiatic nerve pain downward to knees,1.0,1
+great swelling,tonsils red,1.0,1
+great swelling,drawing in left calf,1.0,1
+great swelling,acute inflammatory articular rheumatism,1.0,1
+great swelling,nightly pain most agonizing,1.0,1
+great swelling,temporarily improved by hot applications,1.0,1
+great swelling,heat about joints,1.0,1
+great swelling,inflammatory rheumatism followed by plastic iritis,1.0,1
+great swelling,acute piercing pains in knees,1.0,1
+great swelling,parts exquisitely sensitive,1.0,1
+great swelling,worse especially at night,1.0,1
+great swelling,burning pains changing from one place to another,1.0,1
+great swelling,large joints on left side affected,1.0,1
+great swelling,drawing extending into thigh,1.0,1
+great swelling,pains drawing,1.0,1
+great swelling,attacking one or more joints,1.0,1
+great swelling,transferred to left arm,1.0,1
+great swelling,pains disappeared,1.0,1
+great swelling,soreness about joints,1.0,1
+great swelling,improved by dry heat,1.0,1
+great swelling,pains drive him out of bed,1.0,1
+great swelling,joints exquisitely sensitive,1.0,1
+great swelling,redness about joints,1.0,1
+great swelling,vertigo with tendency to fall to the right,1.0,1
+great swelling,wrist joint on right side affected,1.0,1
+great swelling,worse motion,1.0,1
+great swelling,rheumatoid arthritis,1.0,1
+several joints on right side affected,especially elbows,1.0,1
+several joints on right side affected,left ischiatic nerve pain from behind forward,1.0,1
+several joints on right side affected,rheumatic pains after suppression of foot sweat,1.0,1
+several joints on right side affected,tonsils swollen,1.0,1
+several joints on right side affected,severe pains in all joints,1.0,1
+several joints on right side affected,engorgement subsided,1.0,1
+several joints on right side affected,pains shooting,1.0,1
+several joints on right side affected,tonsils with white spots,1.0,1
+several joints on right side affected,rheumatic pains in little toes,1.0,1
+several joints on right side affected,ankle on right side affected,1.0,1
+several joints on right side affected,nodes on fingers subsided,1.0,1
+several joints on right side affected,canker sores,1.0,1
+several joints on right side affected,chronic gonorrheal rheumatism,1.0,1
+several joints on right side affected,rheumatic pains in fingers,1.0,1
+several joints on right side affected,left ischiatic nerve pain downward to knees,1.0,1
+several joints on right side affected,tonsils red,1.0,1
+several joints on right side affected,drawing in left calf,1.0,1
+several joints on right side affected,acute inflammatory articular rheumatism,1.0,1
+several joints on right side affected,nightly pain most agonizing,1.0,1
+several joints on right side affected,temporarily improved by hot applications,1.0,1
+several joints on right side affected,heat about joints,1.0,1
+several joints on right side affected,inflammatory rheumatism followed by plastic iritis,1.0,1
+several joints on right side affected,acute piercing pains in knees,1.0,1
+several joints on right side affected,parts exquisitely sensitive,1.0,1
+several joints on right side affected,worse especially at night,1.0,1
+several joints on right side affected,burning pains changing from one place to another,1.0,1
+several joints on right side affected,large joints on left side affected,1.0,1
+several joints on right side affected,drawing extending into thigh,1.0,1
+several joints on right side affected,pains drawing,1.0,1
+several joints on right side affected,attacking one or more joints,1.0,1
+several joints on right side affected,great swelling,1.0,1
+several joints on right side affected,transferred to left arm,1.0,1
+several joints on right side affected,pains disappeared,1.0,1
+several joints on right side affected,soreness about joints,1.0,1
+several joints on right side affected,improved by dry heat,1.0,1
+several joints on right side affected,pains drive him out of bed,1.0,1
+several joints on right side affected,joints exquisitely sensitive,1.0,1
+several joints on right side affected,redness about joints,1.0,1
+several joints on right side affected,vertigo with tendency to fall to the right,1.0,1
+several joints on right side affected,wrist joint on right side affected,1.0,1
+several joints on right side affected,worse motion,1.0,1
+several joints on right side affected,rheumatoid arthritis,1.0,1
+attacking one or more joints,especially elbows,1.0,1
+attacking one or more joints,left ischiatic nerve pain from behind forward,1.0,1
+attacking one or more joints,rheumatic pains after suppression of foot sweat,1.0,1
+attacking one or more joints,tonsils swollen,1.0,1
+attacking one or more joints,several joints on right side affected,1.0,1
+attacking one or more joints,severe pains in all joints,1.0,1
+attacking one or more joints,engorgement subsided,1.0,1
+attacking one or more joints,pains shooting,1.0,1
+attacking one or more joints,tonsils with white spots,1.0,1
+attacking one or more joints,rheumatic pains in little toes,1.0,1
+attacking one or more joints,ankle on right side affected,1.0,1
+attacking one or more joints,nodes on fingers subsided,1.0,1
+attacking one or more joints,canker sores,1.0,1
+attacking one or more joints,chronic gonorrheal rheumatism,1.0,1
+attacking one or more joints,rheumatic pains in fingers,1.0,1
+attacking one or more joints,left ischiatic nerve pain downward to knees,1.0,1
+attacking one or more joints,tonsils red,1.0,1
+attacking one or more joints,drawing in left calf,1.0,1
+attacking one or more joints,acute inflammatory articular rheumatism,1.0,1
+attacking one or more joints,nightly pain most agonizing,1.0,1
+attacking one or more joints,temporarily improved by hot applications,1.0,1
+attacking one or more joints,heat about joints,1.0,1
+attacking one or more joints,inflammatory rheumatism followed by plastic iritis,1.0,1
+attacking one or more joints,acute piercing pains in knees,1.0,1
+attacking one or more joints,parts exquisitely sensitive,1.0,1
+attacking one or more joints,worse especially at night,1.0,1
+attacking one or more joints,burning pains changing from one place to another,1.0,1
+attacking one or more joints,large joints on left side affected,1.0,1
+attacking one or more joints,drawing extending into thigh,1.0,1
+attacking one or more joints,pains drawing,1.0,1
+attacking one or more joints,great swelling,1.0,1
+attacking one or more joints,transferred to left arm,1.0,1
+attacking one or more joints,pains disappeared,1.0,1
+attacking one or more joints,soreness about joints,1.0,1
+attacking one or more joints,improved by dry heat,1.0,1
+attacking one or more joints,pains drive him out of bed,1.0,1
+attacking one or more joints,joints exquisitely sensitive,1.0,1
+attacking one or more joints,redness about joints,1.0,1
+attacking one or more joints,vertigo with tendency to fall to the right,1.0,1
+attacking one or more joints,wrist joint on right side affected,1.0,1
+attacking one or more joints,worse motion,1.0,1
+attacking one or more joints,rheumatoid arthritis,1.0,1
+improved by dry heat,especially elbows,1.0,1
+improved by dry heat,left ischiatic nerve pain from behind forward,1.0,1
+improved by dry heat,rheumatic pains after suppression of foot sweat,1.0,1
+improved by dry heat,tonsils swollen,1.0,1
+improved by dry heat,several joints on right side affected,1.0,1
+improved by dry heat,severe pains in all joints,1.0,1
+improved by dry heat,engorgement subsided,1.0,1
+improved by dry heat,pains shooting,1.0,1
+improved by dry heat,tonsils with white spots,1.0,1
+improved by dry heat,rheumatic pains in little toes,1.0,1
+improved by dry heat,ankle on right side affected,1.0,1
+improved by dry heat,nodes on fingers subsided,1.0,1
+improved by dry heat,canker sores,1.0,1
+improved by dry heat,chronic gonorrheal rheumatism,1.0,1
+improved by dry heat,rheumatic pains in fingers,1.0,1
+improved by dry heat,left ischiatic nerve pain downward to knees,1.0,1
+improved by dry heat,tonsils red,1.0,1
+improved by dry heat,drawing in left calf,1.0,1
+improved by dry heat,acute inflammatory articular rheumatism,1.0,1
+improved by dry heat,nightly pain most agonizing,1.0,1
+improved by dry heat,temporarily improved by hot applications,1.0,1
+improved by dry heat,heat about joints,1.0,1
+improved by dry heat,inflammatory rheumatism followed by plastic iritis,1.0,1
+improved by dry heat,acute piercing pains in knees,1.0,1
+improved by dry heat,parts exquisitely sensitive,1.0,1
+improved by dry heat,worse especially at night,1.0,1
+improved by dry heat,burning pains changing from one place to another,1.0,1
+improved by dry heat,large joints on left side affected,1.0,1
+improved by dry heat,drawing extending into thigh,1.0,1
+improved by dry heat,pains drawing,1.0,1
+improved by dry heat,attacking one or more joints,1.0,1
+improved by dry heat,great swelling,1.0,1
+improved by dry heat,transferred to left arm,1.0,1
+improved by dry heat,pains disappeared,1.0,1
+improved by dry heat,soreness about joints,1.0,1
+improved by dry heat,pains drive him out of bed,1.0,1
+improved by dry heat,joints exquisitely sensitive,1.0,1
+improved by dry heat,redness about joints,1.0,1
+improved by dry heat,vertigo with tendency to fall to the right,1.0,1
+improved by dry heat,wrist joint on right side affected,1.0,1
+improved by dry heat,worse motion,1.0,1
+improved by dry heat,rheumatoid arthritis,1.0,1
+nightly pain most agonizing,especially elbows,1.0,1
+nightly pain most agonizing,left ischiatic nerve pain from behind forward,1.0,1
+nightly pain most agonizing,rheumatic pains after suppression of foot sweat,1.0,1
+nightly pain most agonizing,tonsils swollen,1.0,1
+nightly pain most agonizing,several joints on right side affected,1.0,1
+nightly pain most agonizing,severe pains in all joints,1.0,1
+nightly pain most agonizing,engorgement subsided,1.0,1
+nightly pain most agonizing,pains shooting,1.0,1
+nightly pain most agonizing,tonsils with white spots,1.0,1
+nightly pain most agonizing,rheumatic pains in little toes,1.0,1
+nightly pain most agonizing,ankle on right side affected,1.0,1
+nightly pain most agonizing,nodes on fingers subsided,1.0,1
+nightly pain most agonizing,canker sores,1.0,1
+nightly pain most agonizing,chronic gonorrheal rheumatism,1.0,1
+nightly pain most agonizing,rheumatic pains in fingers,1.0,1
+nightly pain most agonizing,left ischiatic nerve pain downward to knees,1.0,1
+nightly pain most agonizing,tonsils red,1.0,1
+nightly pain most agonizing,drawing in left calf,1.0,1
+nightly pain most agonizing,acute inflammatory articular rheumatism,1.0,1
+nightly pain most agonizing,temporarily improved by hot applications,1.0,1
+nightly pain most agonizing,heat about joints,1.0,1
+nightly pain most agonizing,inflammatory rheumatism followed by plastic iritis,1.0,1
+nightly pain most agonizing,acute piercing pains in knees,1.0,1
+nightly pain most agonizing,parts exquisitely sensitive,1.0,1
+nightly pain most agonizing,worse especially at night,1.0,1
+nightly pain most agonizing,burning pains changing from one place to another,1.0,1
+nightly pain most agonizing,large joints on left side affected,1.0,1
+nightly pain most agonizing,drawing extending into thigh,1.0,1
+nightly pain most agonizing,pains drawing,1.0,1
+nightly pain most agonizing,attacking one or more joints,1.0,1
+nightly pain most agonizing,great swelling,1.0,1
+nightly pain most agonizing,transferred to left arm,1.0,1
+nightly pain most agonizing,pains disappeared,1.0,1
+nightly pain most agonizing,soreness about joints,1.0,1
+nightly pain most agonizing,improved by dry heat,1.0,1
+nightly pain most agonizing,pains drive him out of bed,1.0,1
+nightly pain most agonizing,joints exquisitely sensitive,1.0,1
+nightly pain most agonizing,redness about joints,1.0,1
+nightly pain most agonizing,vertigo with tendency to fall to the right,1.0,1
+nightly pain most agonizing,wrist joint on right side affected,1.0,1
+nightly pain most agonizing,worse motion,1.0,1
+nightly pain most agonizing,rheumatoid arthritis,1.0,1
+joints exquisitely sensitive,especially elbows,1.0,1
+joints exquisitely sensitive,left ischiatic nerve pain from behind forward,1.0,1
+joints exquisitely sensitive,rheumatic pains after suppression of foot sweat,1.0,1
+joints exquisitely sensitive,tonsils swollen,1.0,1
+joints exquisitely sensitive,several joints on right side affected,1.0,1
+joints exquisitely sensitive,severe pains in all joints,1.0,1
+joints exquisitely sensitive,engorgement subsided,1.0,1
+joints exquisitely sensitive,pains shooting,1.0,1
+joints exquisitely sensitive,tonsils with white spots,1.0,1
+joints exquisitely sensitive,rheumatic pains in little toes,1.0,1
+joints exquisitely sensitive,ankle on right side affected,1.0,1
+joints exquisitely sensitive,nodes on fingers subsided,1.0,1
+joints exquisitely sensitive,canker sores,1.0,1
+joints exquisitely sensitive,chronic gonorrheal rheumatism,1.0,1
+joints exquisitely sensitive,rheumatic pains in fingers,1.0,1
+joints exquisitely sensitive,left ischiatic nerve pain downward to knees,1.0,1
+joints exquisitely sensitive,tonsils red,1.0,1
+joints exquisitely sensitive,drawing in left calf,1.0,1
+joints exquisitely sensitive,acute inflammatory articular rheumatism,1.0,1
+joints exquisitely sensitive,nightly pain most agonizing,1.0,1
+joints exquisitely sensitive,temporarily improved by hot applications,1.0,1
+joints exquisitely sensitive,heat about joints,1.0,1
+joints exquisitely sensitive,inflammatory rheumatism followed by plastic iritis,1.0,1
+joints exquisitely sensitive,acute piercing pains in knees,1.0,1
+joints exquisitely sensitive,parts exquisitely sensitive,1.0,1
+joints exquisitely sensitive,worse especially at night,1.0,1
+joints exquisitely sensitive,burning pains changing from one place to another,1.0,1
+joints exquisitely sensitive,large joints on left side affected,1.0,1
+joints exquisitely sensitive,drawing extending into thigh,1.0,1
+joints exquisitely sensitive,pains drawing,1.0,1
+joints exquisitely sensitive,attacking one or more joints,1.0,1
+joints exquisitely sensitive,great swelling,1.0,1
+joints exquisitely sensitive,transferred to left arm,1.0,1
+joints exquisitely sensitive,pains disappeared,1.0,1
+joints exquisitely sensitive,soreness about joints,1.0,1
+joints exquisitely sensitive,improved by dry heat,1.0,1
+joints exquisitely sensitive,pains drive him out of bed,1.0,1
+joints exquisitely sensitive,redness about joints,1.0,1
+joints exquisitely sensitive,vertigo with tendency to fall to the right,1.0,1
+joints exquisitely sensitive,wrist joint on right side affected,1.0,1
+joints exquisitely sensitive,worse motion,1.0,1
+joints exquisitely sensitive,rheumatoid arthritis,1.0,1
+worse motion,especially elbows,0.5,1
+worse motion,left ischiatic nerve pain from behind forward,0.5,1
+worse motion,rheumatic pains after suppression of foot sweat,0.5,1
+worse motion,tonsils swollen,0.5,1
+worse motion,several joints on right side affected,0.5,1
+worse motion,severe pains in all joints,0.5,1
+worse motion,engorgement subsided,0.5,1
+worse motion,pains shooting,0.5,1
+worse motion,tonsils with white spots,0.5,1
+worse motion,rheumatic pains in little toes,0.5,1
+worse motion,ankle on right side affected,0.5,1
+worse motion,nodes on fingers subsided,0.5,1
+worse motion,canker sores,0.5,1
+worse motion,chronic gonorrheal rheumatism,0.5,1
+worse motion,rheumatic pains in fingers,0.5,1
+worse motion,left ischiatic nerve pain downward to knees,0.5,1
+worse motion,tonsils red,0.5,1
+worse motion,drawing in left calf,0.5,1
+worse motion,acute inflammatory articular rheumatism,0.5,1
+worse motion,nightly pain most agonizing,0.5,1
+worse motion,temporarily improved by hot applications,0.5,1
+worse motion,heat about joints,0.5,1
+worse motion,inflammatory rheumatism followed by plastic iritis,0.5,1
+worse motion,acute piercing pains in knees,0.5,1
+worse motion,parts exquisitely sensitive,0.5,1
+worse motion,worse especially at night,0.5,1
+worse motion,burning pains changing from one place to another,0.5,1
+worse motion,large joints on left side affected,0.5,1
+worse motion,drawing extending into thigh,0.5,1
+worse motion,pains drawing,0.5,1
+worse motion,attacking one or more joints,0.5,1
+worse motion,great swelling,0.5,1
+worse motion,transferred to left arm,0.5,1
+worse motion,pains disappeared,0.5,1
+worse motion,soreness about joints,0.5,1
+worse motion,improved by dry heat,0.5,1
+worse motion,pains drive him out of bed,0.5,1
+worse motion,joints exquisitely sensitive,0.5,1
+worse motion,redness about joints,0.5,1
+worse motion,vertigo with tendency to fall to the right,0.5,1
+worse motion,wrist joint on right side affected,0.5,1
+worse motion,rheumatoid arthritis,0.5,1
+acute piercing pains in knees,especially elbows,1.0,1
+acute piercing pains in knees,left ischiatic nerve pain from behind forward,1.0,1
+acute piercing pains in knees,rheumatic pains after suppression of foot sweat,1.0,1
+acute piercing pains in knees,tonsils swollen,1.0,1
+acute piercing pains in knees,several joints on right side affected,1.0,1
+acute piercing pains in knees,severe pains in all joints,1.0,1
+acute piercing pains in knees,engorgement subsided,1.0,1
+acute piercing pains in knees,pains shooting,1.0,1
+acute piercing pains in knees,tonsils with white spots,1.0,1
+acute piercing pains in knees,rheumatic pains in little toes,1.0,1
+acute piercing pains in knees,ankle on right side affected,1.0,1
+acute piercing pains in knees,nodes on fingers subsided,1.0,1
+acute piercing pains in knees,canker sores,1.0,1
+acute piercing pains in knees,chronic gonorrheal rheumatism,1.0,1
+acute piercing pains in knees,rheumatic pains in fingers,1.0,1
+acute piercing pains in knees,left ischiatic nerve pain downward to knees,1.0,1
+acute piercing pains in knees,tonsils red,1.0,1
+acute piercing pains in knees,drawing in left calf,1.0,1
+acute piercing pains in knees,acute inflammatory articular rheumatism,1.0,1
+acute piercing pains in knees,nightly pain most agonizing,1.0,1
+acute piercing pains in knees,temporarily improved by hot applications,1.0,1
+acute piercing pains in knees,heat about joints,1.0,1
+acute piercing pains in knees,inflammatory rheumatism followed by plastic iritis,1.0,1
+acute piercing pains in knees,parts exquisitely sensitive,1.0,1
+acute piercing pains in knees,worse especially at night,1.0,1
+acute piercing pains in knees,burning pains changing from one place to another,1.0,1
+acute piercing pains in knees,large joints on left side affected,1.0,1
+acute piercing pains in knees,drawing extending into thigh,1.0,1
+acute piercing pains in knees,pains drawing,1.0,1
+acute piercing pains in knees,attacking one or more joints,1.0,1
+acute piercing pains in knees,great swelling,1.0,1
+acute piercing pains in knees,transferred to left arm,1.0,1
+acute piercing pains in knees,pains disappeared,1.0,1
+acute piercing pains in knees,soreness about joints,1.0,1
+acute piercing pains in knees,improved by dry heat,1.0,1
+acute piercing pains in knees,pains drive him out of bed,1.0,1
+acute piercing pains in knees,joints exquisitely sensitive,1.0,1
+acute piercing pains in knees,redness about joints,1.0,1
+acute piercing pains in knees,vertigo with tendency to fall to the right,1.0,1
+acute piercing pains in knees,wrist joint on right side affected,1.0,1
+acute piercing pains in knees,worse motion,1.0,1
+acute piercing pains in knees,rheumatoid arthritis,1.0,1
+chronic gonorrheal rheumatism,especially elbows,1.0,1
+chronic gonorrheal rheumatism,left ischiatic nerve pain from behind forward,1.0,1
+chronic gonorrheal rheumatism,rheumatic pains after suppression of foot sweat,1.0,1
+chronic gonorrheal rheumatism,tonsils swollen,1.0,1
+chronic gonorrheal rheumatism,several joints on right side affected,1.0,1
+chronic gonorrheal rheumatism,severe pains in all joints,1.0,1
+chronic gonorrheal rheumatism,engorgement subsided,1.0,1
+chronic gonorrheal rheumatism,pains shooting,1.0,1
+chronic gonorrheal rheumatism,tonsils with white spots,1.0,1
+chronic gonorrheal rheumatism,rheumatic pains in little toes,1.0,1
+chronic gonorrheal rheumatism,ankle on right side affected,1.0,1
+chronic gonorrheal rheumatism,nodes on fingers subsided,1.0,1
+chronic gonorrheal rheumatism,canker sores,1.0,1
+chronic gonorrheal rheumatism,rheumatic pains in fingers,1.0,1
+chronic gonorrheal rheumatism,left ischiatic nerve pain downward to knees,1.0,1
+chronic gonorrheal rheumatism,tonsils red,1.0,1
+chronic gonorrheal rheumatism,drawing in left calf,1.0,1
+chronic gonorrheal rheumatism,acute inflammatory articular rheumatism,1.0,1
+chronic gonorrheal rheumatism,nightly pain most agonizing,1.0,1
+chronic gonorrheal rheumatism,temporarily improved by hot applications,1.0,1
+chronic gonorrheal rheumatism,heat about joints,1.0,1
+chronic gonorrheal rheumatism,inflammatory rheumatism followed by plastic iritis,1.0,1
+chronic gonorrheal rheumatism,acute piercing pains in knees,1.0,1
+chronic gonorrheal rheumatism,parts exquisitely sensitive,1.0,1
+chronic gonorrheal rheumatism,worse especially at night,1.0,1
+chronic gonorrheal rheumatism,burning pains changing from one place to another,1.0,1
+chronic gonorrheal rheumatism,large joints on left side affected,1.0,1
+chronic gonorrheal rheumatism,drawing extending into thigh,1.0,1
+chronic gonorrheal rheumatism,pains drawing,1.0,1
+chronic gonorrheal rheumatism,attacking one or more joints,1.0,1
+chronic gonorrheal rheumatism,great swelling,1.0,1
+chronic gonorrheal rheumatism,transferred to left arm,1.0,1
+chronic gonorrheal rheumatism,pains disappeared,1.0,1
+chronic gonorrheal rheumatism,soreness about joints,1.0,1
+chronic gonorrheal rheumatism,improved by dry heat,1.0,1
+chronic gonorrheal rheumatism,pains drive him out of bed,1.0,1
+chronic gonorrheal rheumatism,joints exquisitely sensitive,1.0,1
+chronic gonorrheal rheumatism,redness about joints,1.0,1
+chronic gonorrheal rheumatism,vertigo with tendency to fall to the right,1.0,1
+chronic gonorrheal rheumatism,wrist joint on right side affected,1.0,1
+chronic gonorrheal rheumatism,worse motion,1.0,1
+chronic gonorrheal rheumatism,rheumatoid arthritis,1.0,1
+soreness about joints,especially elbows,1.0,1
+soreness about joints,left ischiatic nerve pain from behind forward,1.0,1
+soreness about joints,rheumatic pains after suppression of foot sweat,1.0,1
+soreness about joints,tonsils swollen,1.0,1
+soreness about joints,several joints on right side affected,1.0,1
+soreness about joints,severe pains in all joints,1.0,1
+soreness about joints,engorgement subsided,1.0,1
+soreness about joints,pains shooting,1.0,1
+soreness about joints,tonsils with white spots,1.0,1
+soreness about joints,rheumatic pains in little toes,1.0,1
+soreness about joints,ankle on right side affected,1.0,1
+soreness about joints,nodes on fingers subsided,1.0,1
+soreness about joints,canker sores,1.0,1
+soreness about joints,chronic gonorrheal rheumatism,1.0,1
+soreness about joints,rheumatic pains in fingers,1.0,1
+soreness about joints,left ischiatic nerve pain downward to knees,1.0,1
+soreness about joints,tonsils red,1.0,1
+soreness about joints,drawing in left calf,1.0,1
+soreness about joints,acute inflammatory articular rheumatism,1.0,1
+soreness about joints,nightly pain most agonizing,1.0,1
+soreness about joints,temporarily improved by hot applications,1.0,1
+soreness about joints,heat about joints,1.0,1
+soreness about joints,inflammatory rheumatism followed by plastic iritis,1.0,1
+soreness about joints,acute piercing pains in knees,1.0,1
+soreness about joints,parts exquisitely sensitive,1.0,1
+soreness about joints,worse especially at night,1.0,1
+soreness about joints,burning pains changing from one place to another,1.0,1
+soreness about joints,large joints on left side affected,1.0,1
+soreness about joints,drawing extending into thigh,1.0,1
+soreness about joints,pains drawing,1.0,1
+soreness about joints,attacking one or more joints,1.0,1
+soreness about joints,great swelling,1.0,1
+soreness about joints,transferred to left arm,1.0,1
+soreness about joints,pains disappeared,1.0,1
+soreness about joints,improved by dry heat,1.0,1
+soreness about joints,pains drive him out of bed,1.0,1
+soreness about joints,joints exquisitely sensitive,1.0,1
+soreness about joints,redness about joints,1.0,1
+soreness about joints,vertigo with tendency to fall to the right,1.0,1
+soreness about joints,wrist joint on right side affected,1.0,1
+soreness about joints,worse motion,1.0,1
+soreness about joints,rheumatoid arthritis,1.0,1
+tonsils with white spots,especially elbows,1.0,1
+tonsils with white spots,left ischiatic nerve pain from behind forward,1.0,1
+tonsils with white spots,rheumatic pains after suppression of foot sweat,1.0,1
+tonsils with white spots,tonsils swollen,1.0,1
+tonsils with white spots,several joints on right side affected,1.0,1
+tonsils with white spots,severe pains in all joints,1.0,1
+tonsils with white spots,engorgement subsided,1.0,1
+tonsils with white spots,pains shooting,1.0,1
+tonsils with white spots,rheumatic pains in little toes,1.0,1
+tonsils with white spots,ankle on right side affected,1.0,1
+tonsils with white spots,nodes on fingers subsided,1.0,1
+tonsils with white spots,canker sores,1.0,1
+tonsils with white spots,chronic gonorrheal rheumatism,1.0,1
+tonsils with white spots,rheumatic pains in fingers,1.0,1
+tonsils with white spots,left ischiatic nerve pain downward to knees,1.0,1
+tonsils with white spots,tonsils red,1.0,1
+tonsils with white spots,drawing in left calf,1.0,1
+tonsils with white spots,acute inflammatory articular rheumatism,1.0,1
+tonsils with white spots,nightly pain most agonizing,1.0,1
+tonsils with white spots,temporarily improved by hot applications,1.0,1
+tonsils with white spots,heat about joints,1.0,1
+tonsils with white spots,inflammatory rheumatism followed by plastic iritis,1.0,1
+tonsils with white spots,acute piercing pains in knees,1.0,1
+tonsils with white spots,parts exquisitely sensitive,1.0,1
+tonsils with white spots,worse especially at night,1.0,1
+tonsils with white spots,burning pains changing from one place to another,1.0,1
+tonsils with white spots,large joints on left side affected,1.0,1
+tonsils with white spots,drawing extending into thigh,1.0,1
+tonsils with white spots,pains drawing,1.0,1
+tonsils with white spots,attacking one or more joints,1.0,1
+tonsils with white spots,great swelling,1.0,1
+tonsils with white spots,transferred to left arm,1.0,1
+tonsils with white spots,pains disappeared,1.0,1
+tonsils with white spots,soreness about joints,1.0,1
+tonsils with white spots,improved by dry heat,1.0,1
+tonsils with white spots,pains drive him out of bed,1.0,1
+tonsils with white spots,joints exquisitely sensitive,1.0,1
+tonsils with white spots,redness about joints,1.0,1
+tonsils with white spots,vertigo with tendency to fall to the right,1.0,1
+tonsils with white spots,wrist joint on right side affected,1.0,1
+tonsils with white spots,worse motion,1.0,1
+tonsils with white spots,rheumatoid arthritis,1.0,1
+transferred to left arm,especially elbows,1.0,1
+transferred to left arm,left ischiatic nerve pain from behind forward,1.0,1
+transferred to left arm,rheumatic pains after suppression of foot sweat,1.0,1
+transferred to left arm,tonsils swollen,1.0,1
+transferred to left arm,several joints on right side affected,1.0,1
+transferred to left arm,severe pains in all joints,1.0,1
+transferred to left arm,engorgement subsided,1.0,1
+transferred to left arm,pains shooting,1.0,1
+transferred to left arm,tonsils with white spots,1.0,1
+transferred to left arm,rheumatic pains in little toes,1.0,1
+transferred to left arm,ankle on right side affected,1.0,1
+transferred to left arm,nodes on fingers subsided,1.0,1
+transferred to left arm,canker sores,1.0,1
+transferred to left arm,chronic gonorrheal rheumatism,1.0,1
+transferred to left arm,rheumatic pains in fingers,1.0,1
+transferred to left arm,left ischiatic nerve pain downward to knees,1.0,1
+transferred to left arm,tonsils red,1.0,1
+transferred to left arm,drawing in left calf,1.0,1
+transferred to left arm,acute inflammatory articular rheumatism,1.0,1
+transferred to left arm,nightly pain most agonizing,1.0,1
+transferred to left arm,temporarily improved by hot applications,1.0,1
+transferred to left arm,heat about joints,1.0,1
+transferred to left arm,inflammatory rheumatism followed by plastic iritis,1.0,1
+transferred to left arm,acute piercing pains in knees,1.0,1
+transferred to left arm,parts exquisitely sensitive,1.0,1
+transferred to left arm,worse especially at night,1.0,1
+transferred to left arm,burning pains changing from one place to another,1.0,1
+transferred to left arm,large joints on left side affected,1.0,1
+transferred to left arm,drawing extending into thigh,1.0,1
+transferred to left arm,pains drawing,1.0,1
+transferred to left arm,attacking one or more joints,1.0,1
+transferred to left arm,great swelling,1.0,1
+transferred to left arm,pains disappeared,1.0,1
+transferred to left arm,soreness about joints,1.0,1
+transferred to left arm,improved by dry heat,1.0,1
+transferred to left arm,pains drive him out of bed,1.0,1
+transferred to left arm,joints exquisitely sensitive,1.0,1
+transferred to left arm,redness about joints,1.0,1
+transferred to left arm,vertigo with tendency to fall to the right,1.0,1
+transferred to left arm,wrist joint on right side affected,1.0,1
+transferred to left arm,worse motion,1.0,1
+transferred to left arm,rheumatoid arthritis,1.0,1
+pains drive him out of bed,especially elbows,1.0,1
+pains drive him out of bed,left ischiatic nerve pain from behind forward,1.0,1
+pains drive him out of bed,rheumatic pains after suppression of foot sweat,1.0,1
+pains drive him out of bed,tonsils swollen,1.0,1
+pains drive him out of bed,several joints on right side affected,1.0,1
+pains drive him out of bed,severe pains in all joints,1.0,1
+pains drive him out of bed,engorgement subsided,1.0,1
+pains drive him out of bed,pains shooting,1.0,1
+pains drive him out of bed,tonsils with white spots,1.0,1
+pains drive him out of bed,rheumatic pains in little toes,1.0,1
+pains drive him out of bed,ankle on right side affected,1.0,1
+pains drive him out of bed,nodes on fingers subsided,1.0,1
+pains drive him out of bed,canker sores,1.0,1
+pains drive him out of bed,chronic gonorrheal rheumatism,1.0,1
+pains drive him out of bed,rheumatic pains in fingers,1.0,1
+pains drive him out of bed,left ischiatic nerve pain downward to knees,1.0,1
+pains drive him out of bed,tonsils red,1.0,1
+pains drive him out of bed,drawing in left calf,1.0,1
+pains drive him out of bed,acute inflammatory articular rheumatism,1.0,1
+pains drive him out of bed,nightly pain most agonizing,1.0,1
+pains drive him out of bed,temporarily improved by hot applications,1.0,1
+pains drive him out of bed,heat about joints,1.0,1
+pains drive him out of bed,inflammatory rheumatism followed by plastic iritis,1.0,1
+pains drive him out of bed,acute piercing pains in knees,1.0,1
+pains drive him out of bed,parts exquisitely sensitive,1.0,1
+pains drive him out of bed,worse especially at night,1.0,1
+pains drive him out of bed,burning pains changing from one place to another,1.0,1
+pains drive him out of bed,large joints on left side affected,1.0,1
+pains drive him out of bed,drawing extending into thigh,1.0,1
+pains drive him out of bed,pains drawing,1.0,1
+pains drive him out of bed,attacking one or more joints,1.0,1
+pains drive him out of bed,great swelling,1.0,1
+pains drive him out of bed,transferred to left arm,1.0,1
+pains drive him out of bed,pains disappeared,1.0,1
+pains drive him out of bed,soreness about joints,1.0,1
+pains drive him out of bed,improved by dry heat,1.0,1
+pains drive him out of bed,joints exquisitely sensitive,1.0,1
+pains drive him out of bed,redness about joints,1.0,1
+pains drive him out of bed,vertigo with tendency to fall to the right,1.0,1
+pains drive him out of bed,wrist joint on right side affected,1.0,1
+pains drive him out of bed,worse motion,1.0,1
+pains drive him out of bed,rheumatoid arthritis,1.0,1
+severe pains in all joints,especially elbows,1.0,1
+severe pains in all joints,left ischiatic nerve pain from behind forward,1.0,1
+severe pains in all joints,rheumatic pains after suppression of foot sweat,1.0,1
+severe pains in all joints,tonsils swollen,1.0,1
+severe pains in all joints,several joints on right side affected,1.0,1
+severe pains in all joints,engorgement subsided,1.0,1
+severe pains in all joints,pains shooting,1.0,1
+severe pains in all joints,tonsils with white spots,1.0,1
+severe pains in all joints,rheumatic pains in little toes,1.0,1
+severe pains in all joints,ankle on right side affected,1.0,1
+severe pains in all joints,nodes on fingers subsided,1.0,1
+severe pains in all joints,canker sores,1.0,1
+severe pains in all joints,chronic gonorrheal rheumatism,1.0,1
+severe pains in all joints,rheumatic pains in fingers,1.0,1
+severe pains in all joints,left ischiatic nerve pain downward to knees,1.0,1
+severe pains in all joints,tonsils red,1.0,1
+severe pains in all joints,drawing in left calf,1.0,1
+severe pains in all joints,acute inflammatory articular rheumatism,1.0,1
+severe pains in all joints,nightly pain most agonizing,1.0,1
+severe pains in all joints,temporarily improved by hot applications,1.0,1
+severe pains in all joints,heat about joints,1.0,1
+severe pains in all joints,inflammatory rheumatism followed by plastic iritis,1.0,1
+severe pains in all joints,acute piercing pains in knees,1.0,1
+severe pains in all joints,parts exquisitely sensitive,1.0,1
+severe pains in all joints,worse especially at night,1.0,1
+severe pains in all joints,burning pains changing from one place to another,1.0,1
+severe pains in all joints,large joints on left side affected,1.0,1
+severe pains in all joints,drawing extending into thigh,1.0,1
+severe pains in all joints,pains drawing,1.0,1
+severe pains in all joints,attacking one or more joints,1.0,1
+severe pains in all joints,great swelling,1.0,1
+severe pains in all joints,transferred to left arm,1.0,1
+severe pains in all joints,pains disappeared,1.0,1
+severe pains in all joints,soreness about joints,1.0,1
+severe pains in all joints,improved by dry heat,1.0,1
+severe pains in all joints,pains drive him out of bed,1.0,1
+severe pains in all joints,joints exquisitely sensitive,1.0,1
+severe pains in all joints,redness about joints,1.0,1
+severe pains in all joints,vertigo with tendency to fall to the right,1.0,1
+severe pains in all joints,wrist joint on right side affected,1.0,1
+severe pains in all joints,worse motion,1.0,1
+severe pains in all joints,rheumatoid arthritis,1.0,1
+nodes on fingers subsided,especially elbows,1.0,1
+nodes on fingers subsided,left ischiatic nerve pain from behind forward,1.0,1
+nodes on fingers subsided,rheumatic pains after suppression of foot sweat,1.0,1
+nodes on fingers subsided,tonsils swollen,1.0,1
+nodes on fingers subsided,several joints on right side affected,1.0,1
+nodes on fingers subsided,severe pains in all joints,1.0,1
+nodes on fingers subsided,engorgement subsided,1.0,1
+nodes on fingers subsided,pains shooting,1.0,1
+nodes on fingers subsided,tonsils with white spots,1.0,1
+nodes on fingers subsided,rheumatic pains in little toes,1.0,1
+nodes on fingers subsided,ankle on right side affected,1.0,1
+nodes on fingers subsided,canker sores,1.0,1
+nodes on fingers subsided,chronic gonorrheal rheumatism,1.0,1
+nodes on fingers subsided,rheumatic pains in fingers,1.0,1
+nodes on fingers subsided,left ischiatic nerve pain downward to knees,1.0,1
+nodes on fingers subsided,tonsils red,1.0,1
+nodes on fingers subsided,drawing in left calf,1.0,1
+nodes on fingers subsided,acute inflammatory articular rheumatism,1.0,1
+nodes on fingers subsided,nightly pain most agonizing,1.0,1
+nodes on fingers subsided,temporarily improved by hot applications,1.0,1
+nodes on fingers subsided,heat about joints,1.0,1
+nodes on fingers subsided,inflammatory rheumatism followed by plastic iritis,1.0,1
+nodes on fingers subsided,acute piercing pains in knees,1.0,1
+nodes on fingers subsided,parts exquisitely sensitive,1.0,1
+nodes on fingers subsided,worse especially at night,1.0,1
+nodes on fingers subsided,burning pains changing from one place to another,1.0,1
+nodes on fingers subsided,large joints on left side affected,1.0,1
+nodes on fingers subsided,drawing extending into thigh,1.0,1
+nodes on fingers subsided,pains drawing,1.0,1
+nodes on fingers subsided,attacking one or more joints,1.0,1
+nodes on fingers subsided,great swelling,1.0,1
+nodes on fingers subsided,transferred to left arm,1.0,1
+nodes on fingers subsided,pains disappeared,1.0,1
+nodes on fingers subsided,soreness about joints,1.0,1
+nodes on fingers subsided,improved by dry heat,1.0,1
+nodes on fingers subsided,pains drive him out of bed,1.0,1
+nodes on fingers subsided,joints exquisitely sensitive,1.0,1
+nodes on fingers subsided,redness about joints,1.0,1
+nodes on fingers subsided,vertigo with tendency to fall to the right,1.0,1
+nodes on fingers subsided,wrist joint on right side affected,1.0,1
+nodes on fingers subsided,worse motion,1.0,1
+nodes on fingers subsided,rheumatoid arthritis,1.0,1
+parts exquisitely sensitive,especially elbows,1.0,1
+parts exquisitely sensitive,left ischiatic nerve pain from behind forward,1.0,1
+parts exquisitely sensitive,rheumatic pains after suppression of foot sweat,1.0,1
+parts exquisitely sensitive,tonsils swollen,1.0,1
+parts exquisitely sensitive,several joints on right side affected,1.0,1
+parts exquisitely sensitive,severe pains in all joints,1.0,1
+parts exquisitely sensitive,engorgement subsided,1.0,1
+parts exquisitely sensitive,pains shooting,1.0,1
+parts exquisitely sensitive,tonsils with white spots,1.0,1
+parts exquisitely sensitive,rheumatic pains in little toes,1.0,1
+parts exquisitely sensitive,ankle on right side affected,1.0,1
+parts exquisitely sensitive,nodes on fingers subsided,1.0,1
+parts exquisitely sensitive,canker sores,1.0,1
+parts exquisitely sensitive,chronic gonorrheal rheumatism,1.0,1
+parts exquisitely sensitive,rheumatic pains in fingers,1.0,1
+parts exquisitely sensitive,left ischiatic nerve pain downward to knees,1.0,1
+parts exquisitely sensitive,tonsils red,1.0,1
+parts exquisitely sensitive,drawing in left calf,1.0,1
+parts exquisitely sensitive,acute inflammatory articular rheumatism,1.0,1
+parts exquisitely sensitive,nightly pain most agonizing,1.0,1
+parts exquisitely sensitive,temporarily improved by hot applications,1.0,1
+parts exquisitely sensitive,heat about joints,1.0,1
+parts exquisitely sensitive,inflammatory rheumatism followed by plastic iritis,1.0,1
+parts exquisitely sensitive,acute piercing pains in knees,1.0,1
+parts exquisitely sensitive,worse especially at night,1.0,1
+parts exquisitely sensitive,burning pains changing from one place to another,1.0,1
+parts exquisitely sensitive,large joints on left side affected,1.0,1
+parts exquisitely sensitive,drawing extending into thigh,1.0,1
+parts exquisitely sensitive,pains drawing,1.0,1
+parts exquisitely sensitive,attacking one or more joints,1.0,1
+parts exquisitely sensitive,great swelling,1.0,1
+parts exquisitely sensitive,transferred to left arm,1.0,1
+parts exquisitely sensitive,pains disappeared,1.0,1
+parts exquisitely sensitive,soreness about joints,1.0,1
+parts exquisitely sensitive,improved by dry heat,1.0,1
+parts exquisitely sensitive,pains drive him out of bed,1.0,1
+parts exquisitely sensitive,joints exquisitely sensitive,1.0,1
+parts exquisitely sensitive,redness about joints,1.0,1
+parts exquisitely sensitive,vertigo with tendency to fall to the right,1.0,1
+parts exquisitely sensitive,wrist joint on right side affected,1.0,1
+parts exquisitely sensitive,worse motion,1.0,1
+parts exquisitely sensitive,rheumatoid arthritis,1.0,1
+heat about joints,especially elbows,1.0,1
+heat about joints,left ischiatic nerve pain from behind forward,1.0,1
+heat about joints,rheumatic pains after suppression of foot sweat,1.0,1
+heat about joints,tonsils swollen,1.0,1
+heat about joints,several joints on right side affected,1.0,1
+heat about joints,severe pains in all joints,1.0,1
+heat about joints,engorgement subsided,1.0,1
+heat about joints,pains shooting,1.0,1
+heat about joints,tonsils with white spots,1.0,1
+heat about joints,rheumatic pains in little toes,1.0,1
+heat about joints,ankle on right side affected,1.0,1
+heat about joints,nodes on fingers subsided,1.0,1
+heat about joints,canker sores,1.0,1
+heat about joints,chronic gonorrheal rheumatism,1.0,1
+heat about joints,rheumatic pains in fingers,1.0,1
+heat about joints,left ischiatic nerve pain downward to knees,1.0,1
+heat about joints,tonsils red,1.0,1
+heat about joints,drawing in left calf,1.0,1
+heat about joints,acute inflammatory articular rheumatism,1.0,1
+heat about joints,nightly pain most agonizing,1.0,1
+heat about joints,temporarily improved by hot applications,1.0,1
+heat about joints,inflammatory rheumatism followed by plastic iritis,1.0,1
+heat about joints,acute piercing pains in knees,1.0,1
+heat about joints,parts exquisitely sensitive,1.0,1
+heat about joints,worse especially at night,1.0,1
+heat about joints,burning pains changing from one place to another,1.0,1
+heat about joints,large joints on left side affected,1.0,1
+heat about joints,drawing extending into thigh,1.0,1
+heat about joints,pains drawing,1.0,1
+heat about joints,attacking one or more joints,1.0,1
+heat about joints,great swelling,1.0,1
+heat about joints,transferred to left arm,1.0,1
+heat about joints,pains disappeared,1.0,1
+heat about joints,soreness about joints,1.0,1
+heat about joints,improved by dry heat,1.0,1
+heat about joints,pains drive him out of bed,1.0,1
+heat about joints,joints exquisitely sensitive,1.0,1
+heat about joints,redness about joints,1.0,1
+heat about joints,vertigo with tendency to fall to the right,1.0,1
+heat about joints,wrist joint on right side affected,1.0,1
+heat about joints,worse motion,1.0,1
+heat about joints,rheumatoid arthritis,1.0,1
+inflammatory rheumatism followed by plastic iritis,especially elbows,1.0,1
+inflammatory rheumatism followed by plastic iritis,left ischiatic nerve pain from behind forward,1.0,1
+inflammatory rheumatism followed by plastic iritis,rheumatic pains after suppression of foot sweat,1.0,1
+inflammatory rheumatism followed by plastic iritis,tonsils swollen,1.0,1
+inflammatory rheumatism followed by plastic iritis,several joints on right side affected,1.0,1
+inflammatory rheumatism followed by plastic iritis,severe pains in all joints,1.0,1
+inflammatory rheumatism followed by plastic iritis,engorgement subsided,1.0,1
+inflammatory rheumatism followed by plastic iritis,pains shooting,1.0,1
+inflammatory rheumatism followed by plastic iritis,tonsils with white spots,1.0,1
+inflammatory rheumatism followed by plastic iritis,rheumatic pains in little toes,1.0,1
+inflammatory rheumatism followed by plastic iritis,ankle on right side affected,1.0,1
+inflammatory rheumatism followed by plastic iritis,nodes on fingers subsided,1.0,1
+inflammatory rheumatism followed by plastic iritis,canker sores,1.0,1
+inflammatory rheumatism followed by plastic iritis,chronic gonorrheal rheumatism,1.0,1
+inflammatory rheumatism followed by plastic iritis,rheumatic pains in fingers,1.0,1
+inflammatory rheumatism followed by plastic iritis,left ischiatic nerve pain downward to knees,1.0,1
+inflammatory rheumatism followed by plastic iritis,tonsils red,1.0,1
+inflammatory rheumatism followed by plastic iritis,drawing in left calf,1.0,1
+inflammatory rheumatism followed by plastic iritis,acute inflammatory articular rheumatism,1.0,1
+inflammatory rheumatism followed by plastic iritis,nightly pain most agonizing,1.0,1
+inflammatory rheumatism followed by plastic iritis,temporarily improved by hot applications,1.0,1
+inflammatory rheumatism followed by plastic iritis,heat about joints,1.0,1
+inflammatory rheumatism followed by plastic iritis,acute piercing pains in knees,1.0,1
+inflammatory rheumatism followed by plastic iritis,parts exquisitely sensitive,1.0,1
+inflammatory rheumatism followed by plastic iritis,worse especially at night,1.0,1
+inflammatory rheumatism followed by plastic iritis,burning pains changing from one place to another,1.0,1
+inflammatory rheumatism followed by plastic iritis,large joints on left side affected,1.0,1
+inflammatory rheumatism followed by plastic iritis,drawing extending into thigh,1.0,1
+inflammatory rheumatism followed by plastic iritis,pains drawing,1.0,1
+inflammatory rheumatism followed by plastic iritis,attacking one or more joints,1.0,1
+inflammatory rheumatism followed by plastic iritis,great swelling,1.0,1
+inflammatory rheumatism followed by plastic iritis,transferred to left arm,1.0,1
+inflammatory rheumatism followed by plastic iritis,pains disappeared,1.0,1
+inflammatory rheumatism followed by plastic iritis,soreness about joints,1.0,1
+inflammatory rheumatism followed by plastic iritis,improved by dry heat,1.0,1
+inflammatory rheumatism followed by plastic iritis,pains drive him out of bed,1.0,1
+inflammatory rheumatism followed by plastic iritis,joints exquisitely sensitive,1.0,1
+inflammatory rheumatism followed by plastic iritis,redness about joints,1.0,1
+inflammatory rheumatism followed by plastic iritis,vertigo with tendency to fall to the right,1.0,1
+inflammatory rheumatism followed by plastic iritis,wrist joint on right side affected,1.0,1
+inflammatory rheumatism followed by plastic iritis,worse motion,1.0,1
+inflammatory rheumatism followed by plastic iritis,rheumatoid arthritis,1.0,1
+rheumatic pains in fingers,especially elbows,1.0,1
+rheumatic pains in fingers,left ischiatic nerve pain from behind forward,1.0,1
+rheumatic pains in fingers,rheumatic pains after suppression of foot sweat,1.0,1
+rheumatic pains in fingers,tonsils swollen,1.0,1
+rheumatic pains in fingers,several joints on right side affected,1.0,1
+rheumatic pains in fingers,severe pains in all joints,1.0,1
+rheumatic pains in fingers,engorgement subsided,1.0,1
+rheumatic pains in fingers,pains shooting,1.0,1
+rheumatic pains in fingers,tonsils with white spots,1.0,1
+rheumatic pains in fingers,rheumatic pains in little toes,1.0,1
+rheumatic pains in fingers,ankle on right side affected,1.0,1
+rheumatic pains in fingers,nodes on fingers subsided,1.0,1
+rheumatic pains in fingers,canker sores,1.0,1
+rheumatic pains in fingers,chronic gonorrheal rheumatism,1.0,1
+rheumatic pains in fingers,left ischiatic nerve pain downward to knees,1.0,1
+rheumatic pains in fingers,tonsils red,1.0,1
+rheumatic pains in fingers,drawing in left calf,1.0,1
+rheumatic pains in fingers,acute inflammatory articular rheumatism,1.0,1
+rheumatic pains in fingers,nightly pain most agonizing,1.0,1
+rheumatic pains in fingers,temporarily improved by hot applications,1.0,1
+rheumatic pains in fingers,heat about joints,1.0,1
+rheumatic pains in fingers,inflammatory rheumatism followed by plastic iritis,1.0,1
+rheumatic pains in fingers,acute piercing pains in knees,1.0,1
+rheumatic pains in fingers,parts exquisitely sensitive,1.0,1
+rheumatic pains in fingers,worse especially at night,1.0,1
+rheumatic pains in fingers,burning pains changing from one place to another,1.0,1
+rheumatic pains in fingers,large joints on left side affected,1.0,1
+rheumatic pains in fingers,drawing extending into thigh,1.0,1
+rheumatic pains in fingers,pains drawing,1.0,1
+rheumatic pains in fingers,attacking one or more joints,1.0,1
+rheumatic pains in fingers,great swelling,1.0,1
+rheumatic pains in fingers,transferred to left arm,1.0,1
+rheumatic pains in fingers,pains disappeared,1.0,1
+rheumatic pains in fingers,soreness about joints,1.0,1
+rheumatic pains in fingers,improved by dry heat,1.0,1
+rheumatic pains in fingers,pains drive him out of bed,1.0,1
+rheumatic pains in fingers,joints exquisitely sensitive,1.0,1
+rheumatic pains in fingers,redness about joints,1.0,1
+rheumatic pains in fingers,vertigo with tendency to fall to the right,1.0,1
+rheumatic pains in fingers,wrist joint on right side affected,1.0,1
+rheumatic pains in fingers,worse motion,1.0,1
+rheumatic pains in fingers,rheumatoid arthritis,1.0,1
+tonsils swollen,especially elbows,1.0,1
+tonsils swollen,left ischiatic nerve pain from behind forward,1.0,1
+tonsils swollen,rheumatic pains after suppression of foot sweat,1.0,1
+tonsils swollen,several joints on right side affected,1.0,1
+tonsils swollen,severe pains in all joints,1.0,1
+tonsils swollen,engorgement subsided,1.0,1
+tonsils swollen,pains shooting,1.0,1
+tonsils swollen,tonsils with white spots,1.0,1
+tonsils swollen,rheumatic pains in little toes,1.0,1
+tonsils swollen,ankle on right side affected,1.0,1
+tonsils swollen,nodes on fingers subsided,1.0,1
+tonsils swollen,canker sores,1.0,1
+tonsils swollen,chronic gonorrheal rheumatism,1.0,1
+tonsils swollen,rheumatic pains in fingers,1.0,1
+tonsils swollen,left ischiatic nerve pain downward to knees,1.0,1
+tonsils swollen,tonsils red,1.0,1
+tonsils swollen,drawing in left calf,1.0,1
+tonsils swollen,acute inflammatory articular rheumatism,1.0,1
+tonsils swollen,nightly pain most agonizing,1.0,1
+tonsils swollen,temporarily improved by hot applications,1.0,1
+tonsils swollen,heat about joints,1.0,1
+tonsils swollen,inflammatory rheumatism followed by plastic iritis,1.0,1
+tonsils swollen,acute piercing pains in knees,1.0,1
+tonsils swollen,parts exquisitely sensitive,1.0,1
+tonsils swollen,worse especially at night,1.0,1
+tonsils swollen,burning pains changing from one place to another,1.0,1
+tonsils swollen,large joints on left side affected,1.0,1
+tonsils swollen,drawing extending into thigh,1.0,1
+tonsils swollen,pains drawing,1.0,1
+tonsils swollen,attacking one or more joints,1.0,1
+tonsils swollen,great swelling,1.0,1
+tonsils swollen,transferred to left arm,1.0,1
+tonsils swollen,pains disappeared,1.0,1
+tonsils swollen,soreness about joints,1.0,1
+tonsils swollen,improved by dry heat,1.0,1
+tonsils swollen,pains drive him out of bed,1.0,1
+tonsils swollen,joints exquisitely sensitive,1.0,1
+tonsils swollen,redness about joints,1.0,1
+tonsils swollen,vertigo with tendency to fall to the right,1.0,1
+tonsils swollen,wrist joint on right side affected,1.0,1
+tonsils swollen,worse motion,1.0,1
+tonsils swollen,rheumatoid arthritis,1.0,1
+pains disappeared,especially elbows,1.0,1
+pains disappeared,left ischiatic nerve pain from behind forward,1.0,1
+pains disappeared,rheumatic pains after suppression of foot sweat,1.0,1
+pains disappeared,tonsils swollen,1.0,1
+pains disappeared,several joints on right side affected,1.0,1
+pains disappeared,severe pains in all joints,1.0,1
+pains disappeared,engorgement subsided,1.0,1
+pains disappeared,pains shooting,1.0,1
+pains disappeared,tonsils with white spots,1.0,1
+pains disappeared,rheumatic pains in little toes,1.0,1
+pains disappeared,ankle on right side affected,1.0,1
+pains disappeared,nodes on fingers subsided,1.0,1
+pains disappeared,canker sores,1.0,1
+pains disappeared,chronic gonorrheal rheumatism,1.0,1
+pains disappeared,rheumatic pains in fingers,1.0,1
+pains disappeared,left ischiatic nerve pain downward to knees,1.0,1
+pains disappeared,tonsils red,1.0,1
+pains disappeared,drawing in left calf,1.0,1
+pains disappeared,acute inflammatory articular rheumatism,1.0,1
+pains disappeared,nightly pain most agonizing,1.0,1
+pains disappeared,temporarily improved by hot applications,1.0,1
+pains disappeared,heat about joints,1.0,1
+pains disappeared,inflammatory rheumatism followed by plastic iritis,1.0,1
+pains disappeared,acute piercing pains in knees,1.0,1
+pains disappeared,parts exquisitely sensitive,1.0,1
+pains disappeared,worse especially at night,1.0,1
+pains disappeared,burning pains changing from one place to another,1.0,1
+pains disappeared,large joints on left side affected,1.0,1
+pains disappeared,drawing extending into thigh,1.0,1
+pains disappeared,pains drawing,1.0,1
+pains disappeared,attacking one or more joints,1.0,1
+pains disappeared,great swelling,1.0,1
+pains disappeared,transferred to left arm,1.0,1
+pains disappeared,soreness about joints,1.0,1
+pains disappeared,improved by dry heat,1.0,1
+pains disappeared,pains drive him out of bed,1.0,1
+pains disappeared,joints exquisitely sensitive,1.0,1
+pains disappeared,redness about joints,1.0,1
+pains disappeared,vertigo with tendency to fall to the right,1.0,1
+pains disappeared,wrist joint on right side affected,1.0,1
+pains disappeared,worse motion,1.0,1
+pains disappeared,rheumatoid arthritis,1.0,1
+especially elbows,left ischiatic nerve pain from behind forward,1.0,1
+especially elbows,rheumatic pains after suppression of foot sweat,1.0,1
+especially elbows,tonsils swollen,1.0,1
+especially elbows,several joints on right side affected,1.0,1
+especially elbows,severe pains in all joints,1.0,1
+especially elbows,engorgement subsided,1.0,1
+especially elbows,pains shooting,1.0,1
+especially elbows,tonsils with white spots,1.0,1
+especially elbows,rheumatic pains in little toes,1.0,1
+especially elbows,ankle on right side affected,1.0,1
+especially elbows,nodes on fingers subsided,1.0,1
+especially elbows,canker sores,1.0,1
+especially elbows,chronic gonorrheal rheumatism,1.0,1
+especially elbows,rheumatic pains in fingers,1.0,1
+especially elbows,left ischiatic nerve pain downward to knees,1.0,1
+especially elbows,tonsils red,1.0,1
+especially elbows,drawing in left calf,1.0,1
+especially elbows,acute inflammatory articular rheumatism,1.0,1
+especially elbows,nightly pain most agonizing,1.0,1
+especially elbows,temporarily improved by hot applications,1.0,1
+especially elbows,heat about joints,1.0,1
+especially elbows,inflammatory rheumatism followed by plastic iritis,1.0,1
+especially elbows,acute piercing pains in knees,1.0,1
+especially elbows,parts exquisitely sensitive,1.0,1
+especially elbows,worse especially at night,1.0,1
+especially elbows,burning pains changing from one place to another,1.0,1
+especially elbows,large joints on left side affected,1.0,1
+especially elbows,drawing extending into thigh,1.0,1
+especially elbows,pains drawing,1.0,1
+especially elbows,attacking one or more joints,1.0,1
+especially elbows,great swelling,1.0,1
+especially elbows,transferred to left arm,1.0,1
+especially elbows,pains disappeared,1.0,1
+especially elbows,soreness about joints,1.0,1
+especially elbows,improved by dry heat,1.0,1
+especially elbows,pains drive him out of bed,1.0,1
+especially elbows,joints exquisitely sensitive,1.0,1
+especially elbows,redness about joints,1.0,1
+especially elbows,vertigo with tendency to fall to the right,1.0,1
+especially elbows,wrist joint on right side affected,1.0,1
+especially elbows,worse motion,1.0,1
+especially elbows,rheumatoid arthritis,1.0,1
+worse especially at night,especially elbows,1.0,1
+worse especially at night,left ischiatic nerve pain from behind forward,1.0,1
+worse especially at night,rheumatic pains after suppression of foot sweat,1.0,1
+worse especially at night,tonsils swollen,1.0,1
+worse especially at night,several joints on right side affected,1.0,1
+worse especially at night,severe pains in all joints,1.0,1
+worse especially at night,engorgement subsided,1.0,1
+worse especially at night,pains shooting,1.0,1
+worse especially at night,tonsils with white spots,1.0,1
+worse especially at night,rheumatic pains in little toes,1.0,1
+worse especially at night,ankle on right side affected,1.0,1
+worse especially at night,nodes on fingers subsided,1.0,1
+worse especially at night,canker sores,1.0,1
+worse especially at night,chronic gonorrheal rheumatism,1.0,1
+worse especially at night,rheumatic pains in fingers,1.0,1
+worse especially at night,left ischiatic nerve pain downward to knees,1.0,1
+worse especially at night,tonsils red,1.0,1
+worse especially at night,drawing in left calf,1.0,1
+worse especially at night,acute inflammatory articular rheumatism,1.0,1
+worse especially at night,nightly pain most agonizing,1.0,1
+worse especially at night,temporarily improved by hot applications,1.0,1
+worse especially at night,heat about joints,1.0,1
+worse especially at night,inflammatory rheumatism followed by plastic iritis,1.0,1
+worse especially at night,acute piercing pains in knees,1.0,1
+worse especially at night,parts exquisitely sensitive,1.0,1
+worse especially at night,burning pains changing from one place to another,1.0,1
+worse especially at night,large joints on left side affected,1.0,1
+worse especially at night,drawing extending into thigh,1.0,1
+worse especially at night,pains drawing,1.0,1
+worse especially at night,attacking one or more joints,1.0,1
+worse especially at night,great swelling,1.0,1
+worse especially at night,transferred to left arm,1.0,1
+worse especially at night,pains disappeared,1.0,1
+worse especially at night,soreness about joints,1.0,1
+worse especially at night,improved by dry heat,1.0,1
+worse especially at night,pains drive him out of bed,1.0,1
+worse especially at night,joints exquisitely sensitive,1.0,1
+worse especially at night,redness about joints,1.0,1
+worse especially at night,vertigo with tendency to fall to the right,1.0,1
+worse especially at night,wrist joint on right side affected,1.0,1
+worse especially at night,worse motion,1.0,1
+worse especially at night,rheumatoid arthritis,1.0,1
+drawing extending into thigh,especially elbows,1.0,1
+drawing extending into thigh,left ischiatic nerve pain from behind forward,1.0,1
+drawing extending into thigh,rheumatic pains after suppression of foot sweat,1.0,1
+drawing extending into thigh,tonsils swollen,1.0,1
+drawing extending into thigh,several joints on right side affected,1.0,1
+drawing extending into thigh,severe pains in all joints,1.0,1
+drawing extending into thigh,engorgement subsided,1.0,1
+drawing extending into thigh,pains shooting,1.0,1
+drawing extending into thigh,tonsils with white spots,1.0,1
+drawing extending into thigh,rheumatic pains in little toes,1.0,1
+drawing extending into thigh,ankle on right side affected,1.0,1
+drawing extending into thigh,nodes on fingers subsided,1.0,1
+drawing extending into thigh,canker sores,1.0,1
+drawing extending into thigh,chronic gonorrheal rheumatism,1.0,1
+drawing extending into thigh,rheumatic pains in fingers,1.0,1
+drawing extending into thigh,left ischiatic nerve pain downward to knees,1.0,1
+drawing extending into thigh,tonsils red,1.0,1
+drawing extending into thigh,drawing in left calf,1.0,1
+drawing extending into thigh,acute inflammatory articular rheumatism,1.0,1
+drawing extending into thigh,nightly pain most agonizing,1.0,1
+drawing extending into thigh,temporarily improved by hot applications,1.0,1
+drawing extending into thigh,heat about joints,1.0,1
+drawing extending into thigh,inflammatory rheumatism followed by plastic iritis,1.0,1
+drawing extending into thigh,acute piercing pains in knees,1.0,1
+drawing extending into thigh,parts exquisitely sensitive,1.0,1
+drawing extending into thigh,worse especially at night,1.0,1
+drawing extending into thigh,burning pains changing from one place to another,1.0,1
+drawing extending into thigh,large joints on left side affected,1.0,1
+drawing extending into thigh,pains drawing,1.0,1
+drawing extending into thigh,attacking one or more joints,1.0,1
+drawing extending into thigh,great swelling,1.0,1
+drawing extending into thigh,transferred to left arm,1.0,1
+drawing extending into thigh,pains disappeared,1.0,1
+drawing extending into thigh,soreness about joints,1.0,1
+drawing extending into thigh,improved by dry heat,1.0,1
+drawing extending into thigh,pains drive him out of bed,1.0,1
+drawing extending into thigh,joints exquisitely sensitive,1.0,1
+drawing extending into thigh,redness about joints,1.0,1
+drawing extending into thigh,vertigo with tendency to fall to the right,1.0,1
+drawing extending into thigh,wrist joint on right side affected,1.0,1
+drawing extending into thigh,worse motion,1.0,1
+drawing extending into thigh,rheumatoid arthritis,1.0,1
+left ischiatic nerve pain downward to knees,especially elbows,1.0,1
+left ischiatic nerve pain downward to knees,left ischiatic nerve pain from behind forward,1.0,1
+left ischiatic nerve pain downward to knees,rheumatic pains after suppression of foot sweat,1.0,1
+left ischiatic nerve pain downward to knees,tonsils swollen,1.0,1
+left ischiatic nerve pain downward to knees,several joints on right side affected,1.0,1
+left ischiatic nerve pain downward to knees,severe pains in all joints,1.0,1
+left ischiatic nerve pain downward to knees,engorgement subsided,1.0,1
+left ischiatic nerve pain downward to knees,pains shooting,1.0,1
+left ischiatic nerve pain downward to knees,tonsils with white spots,1.0,1
+left ischiatic nerve pain downward to knees,rheumatic pains in little toes,1.0,1
+left ischiatic nerve pain downward to knees,ankle on right side affected,1.0,1
+left ischiatic nerve pain downward to knees,nodes on fingers subsided,1.0,1
+left ischiatic nerve pain downward to knees,canker sores,1.0,1
+left ischiatic nerve pain downward to knees,chronic gonorrheal rheumatism,1.0,1
+left ischiatic nerve pain downward to knees,rheumatic pains in fingers,1.0,1
+left ischiatic nerve pain downward to knees,tonsils red,1.0,1
+left ischiatic nerve pain downward to knees,drawing in left calf,1.0,1
+left ischiatic nerve pain downward to knees,acute inflammatory articular rheumatism,1.0,1
+left ischiatic nerve pain downward to knees,nightly pain most agonizing,1.0,1
+left ischiatic nerve pain downward to knees,temporarily improved by hot applications,1.0,1
+left ischiatic nerve pain downward to knees,heat about joints,1.0,1
+left ischiatic nerve pain downward to knees,inflammatory rheumatism followed by plastic iritis,1.0,1
+left ischiatic nerve pain downward to knees,acute piercing pains in knees,1.0,1
+left ischiatic nerve pain downward to knees,parts exquisitely sensitive,1.0,1
+left ischiatic nerve pain downward to knees,worse especially at night,1.0,1
+left ischiatic nerve pain downward to knees,burning pains changing from one place to another,1.0,1
+left ischiatic nerve pain downward to knees,large joints on left side affected,1.0,1
+left ischiatic nerve pain downward to knees,drawing extending into thigh,1.0,1
+left ischiatic nerve pain downward to knees,pains drawing,1.0,1
+left ischiatic nerve pain downward to knees,attacking one or more joints,1.0,1
+left ischiatic nerve pain downward to knees,great swelling,1.0,1
+left ischiatic nerve pain downward to knees,transferred to left arm,1.0,1
+left ischiatic nerve pain downward to knees,pains disappeared,1.0,1
+left ischiatic nerve pain downward to knees,soreness about joints,1.0,1
+left ischiatic nerve pain downward to knees,improved by dry heat,1.0,1
+left ischiatic nerve pain downward to knees,pains drive him out of bed,1.0,1
+left ischiatic nerve pain downward to knees,joints exquisitely sensitive,1.0,1
+left ischiatic nerve pain downward to knees,redness about joints,1.0,1
+left ischiatic nerve pain downward to knees,vertigo with tendency to fall to the right,1.0,1
+left ischiatic nerve pain downward to knees,wrist joint on right side affected,1.0,1
+left ischiatic nerve pain downward to knees,worse motion,1.0,1
+left ischiatic nerve pain downward to knees,rheumatoid arthritis,1.0,1
+rheumatic pains after suppression of foot sweat,especially elbows,1.0,1
+rheumatic pains after suppression of foot sweat,left ischiatic nerve pain from behind forward,1.0,1
+rheumatic pains after suppression of foot sweat,tonsils swollen,1.0,1
+rheumatic pains after suppression of foot sweat,several joints on right side affected,1.0,1
+rheumatic pains after suppression of foot sweat,severe pains in all joints,1.0,1
+rheumatic pains after suppression of foot sweat,engorgement subsided,1.0,1
+rheumatic pains after suppression of foot sweat,pains shooting,1.0,1
+rheumatic pains after suppression of foot sweat,tonsils with white spots,1.0,1
+rheumatic pains after suppression of foot sweat,rheumatic pains in little toes,1.0,1
+rheumatic pains after suppression of foot sweat,ankle on right side affected,1.0,1
+rheumatic pains after suppression of foot sweat,nodes on fingers subsided,1.0,1
+rheumatic pains after suppression of foot sweat,canker sores,1.0,1
+rheumatic pains after suppression of foot sweat,chronic gonorrheal rheumatism,1.0,1
+rheumatic pains after suppression of foot sweat,rheumatic pains in fingers,1.0,1
+rheumatic pains after suppression of foot sweat,left ischiatic nerve pain downward to knees,1.0,1
+rheumatic pains after suppression of foot sweat,tonsils red,1.0,1
+rheumatic pains after suppression of foot sweat,drawing in left calf,1.0,1
+rheumatic pains after suppression of foot sweat,acute inflammatory articular rheumatism,1.0,1
+rheumatic pains after suppression of foot sweat,nightly pain most agonizing,1.0,1
+rheumatic pains after suppression of foot sweat,temporarily improved by hot applications,1.0,1
+rheumatic pains after suppression of foot sweat,heat about joints,1.0,1
+rheumatic pains after suppression of foot sweat,inflammatory rheumatism followed by plastic iritis,1.0,1
+rheumatic pains after suppression of foot sweat,acute piercing pains in knees,1.0,1
+rheumatic pains after suppression of foot sweat,parts exquisitely sensitive,1.0,1
+rheumatic pains after suppression of foot sweat,worse especially at night,1.0,1
+rheumatic pains after suppression of foot sweat,burning pains changing from one place to another,1.0,1
+rheumatic pains after suppression of foot sweat,large joints on left side affected,1.0,1
+rheumatic pains after suppression of foot sweat,drawing extending into thigh,1.0,1
+rheumatic pains after suppression of foot sweat,pains drawing,1.0,1
+rheumatic pains after suppression of foot sweat,attacking one or more joints,1.0,1
+rheumatic pains after suppression of foot sweat,great swelling,1.0,1
+rheumatic pains after suppression of foot sweat,transferred to left arm,1.0,1
+rheumatic pains after suppression of foot sweat,pains disappeared,1.0,1
+rheumatic pains after suppression of foot sweat,soreness about joints,1.0,1
+rheumatic pains after suppression of foot sweat,improved by dry heat,1.0,1
+rheumatic pains after suppression of foot sweat,pains drive him out of bed,1.0,1
+rheumatic pains after suppression of foot sweat,joints exquisitely sensitive,1.0,1
+rheumatic pains after suppression of foot sweat,redness about joints,1.0,1
+rheumatic pains after suppression of foot sweat,vertigo with tendency to fall to the right,1.0,1
+rheumatic pains after suppression of foot sweat,wrist joint on right side affected,1.0,1
+rheumatic pains after suppression of foot sweat,worse motion,1.0,1
+rheumatic pains after suppression of foot sweat,rheumatoid arthritis,1.0,1
+pains shooting,especially elbows,1.0,1
+pains shooting,left ischiatic nerve pain from behind forward,1.0,1
+pains shooting,rheumatic pains after suppression of foot sweat,1.0,1
+pains shooting,tonsils swollen,1.0,1
+pains shooting,several joints on right side affected,1.0,1
+pains shooting,severe pains in all joints,1.0,1
+pains shooting,engorgement subsided,1.0,1
+pains shooting,tonsils with white spots,1.0,1
+pains shooting,rheumatic pains in little toes,1.0,1
+pains shooting,ankle on right side affected,1.0,1
+pains shooting,nodes on fingers subsided,1.0,1
+pains shooting,canker sores,1.0,1
+pains shooting,chronic gonorrheal rheumatism,1.0,1
+pains shooting,rheumatic pains in fingers,1.0,1
+pains shooting,left ischiatic nerve pain downward to knees,1.0,1
+pains shooting,tonsils red,1.0,1
+pains shooting,drawing in left calf,1.0,1
+pains shooting,acute inflammatory articular rheumatism,1.0,1
+pains shooting,nightly pain most agonizing,1.0,1
+pains shooting,temporarily improved by hot applications,1.0,1
+pains shooting,heat about joints,1.0,1
+pains shooting,inflammatory rheumatism followed by plastic iritis,1.0,1
+pains shooting,acute piercing pains in knees,1.0,1
+pains shooting,parts exquisitely sensitive,1.0,1
+pains shooting,worse especially at night,1.0,1
+pains shooting,burning pains changing from one place to another,1.0,1
+pains shooting,large joints on left side affected,1.0,1
+pains shooting,drawing extending into thigh,1.0,1
+pains shooting,pains drawing,1.0,1
+pains shooting,attacking one or more joints,1.0,1
+pains shooting,great swelling,1.0,1
+pains shooting,transferred to left arm,1.0,1
+pains shooting,pains disappeared,1.0,1
+pains shooting,soreness about joints,1.0,1
+pains shooting,improved by dry heat,1.0,1
+pains shooting,pains drive him out of bed,1.0,1
+pains shooting,joints exquisitely sensitive,1.0,1
+pains shooting,redness about joints,1.0,1
+pains shooting,vertigo with tendency to fall to the right,1.0,1
+pains shooting,wrist joint on right side affected,1.0,1
+pains shooting,worse motion,1.0,1
+pains shooting,rheumatoid arthritis,1.0,1
+temporarily improved by hot applications,especially elbows,1.0,1
+temporarily improved by hot applications,left ischiatic nerve pain from behind forward,1.0,1
+temporarily improved by hot applications,rheumatic pains after suppression of foot sweat,1.0,1
+temporarily improved by hot applications,tonsils swollen,1.0,1
+temporarily improved by hot applications,several joints on right side affected,1.0,1
+temporarily improved by hot applications,severe pains in all joints,1.0,1
+temporarily improved by hot applications,engorgement subsided,1.0,1
+temporarily improved by hot applications,pains shooting,1.0,1
+temporarily improved by hot applications,tonsils with white spots,1.0,1
+temporarily improved by hot applications,rheumatic pains in little toes,1.0,1
+temporarily improved by hot applications,ankle on right side affected,1.0,1
+temporarily improved by hot applications,nodes on fingers subsided,1.0,1
+temporarily improved by hot applications,canker sores,1.0,1
+temporarily improved by hot applications,chronic gonorrheal rheumatism,1.0,1
+temporarily improved by hot applications,rheumatic pains in fingers,1.0,1
+temporarily improved by hot applications,left ischiatic nerve pain downward to knees,1.0,1
+temporarily improved by hot applications,tonsils red,1.0,1
+temporarily improved by hot applications,drawing in left calf,1.0,1
+temporarily improved by hot applications,acute inflammatory articular rheumatism,1.0,1
+temporarily improved by hot applications,nightly pain most agonizing,1.0,1
+temporarily improved by hot applications,heat about joints,1.0,1
+temporarily improved by hot applications,inflammatory rheumatism followed by plastic iritis,1.0,1
+temporarily improved by hot applications,acute piercing pains in knees,1.0,1
+temporarily improved by hot applications,parts exquisitely sensitive,1.0,1
+temporarily improved by hot applications,worse especially at night,1.0,1
+temporarily improved by hot applications,burning pains changing from one place to another,1.0,1
+temporarily improved by hot applications,large joints on left side affected,1.0,1
+temporarily improved by hot applications,drawing extending into thigh,1.0,1
+temporarily improved by hot applications,pains drawing,1.0,1
+temporarily improved by hot applications,attacking one or more joints,1.0,1
+temporarily improved by hot applications,great swelling,1.0,1
+temporarily improved by hot applications,transferred to left arm,1.0,1
+temporarily improved by hot applications,pains disappeared,1.0,1
+temporarily improved by hot applications,soreness about joints,1.0,1
+temporarily improved by hot applications,improved by dry heat,1.0,1
+temporarily improved by hot applications,pains drive him out of bed,1.0,1
+temporarily improved by hot applications,joints exquisitely sensitive,1.0,1
+temporarily improved by hot applications,redness about joints,1.0,1
+temporarily improved by hot applications,vertigo with tendency to fall to the right,1.0,1
+temporarily improved by hot applications,wrist joint on right side affected,1.0,1
+temporarily improved by hot applications,worse motion,1.0,1
+temporarily improved by hot applications,rheumatoid arthritis,1.0,1
+redness about joints,especially elbows,1.0,1
+redness about joints,left ischiatic nerve pain from behind forward,1.0,1
+redness about joints,rheumatic pains after suppression of foot sweat,1.0,1
+redness about joints,tonsils swollen,1.0,1
+redness about joints,several joints on right side affected,1.0,1
+redness about joints,severe pains in all joints,1.0,1
+redness about joints,engorgement subsided,1.0,1
+redness about joints,pains shooting,1.0,1
+redness about joints,tonsils with white spots,1.0,1
+redness about joints,rheumatic pains in little toes,1.0,1
+redness about joints,ankle on right side affected,1.0,1
+redness about joints,nodes on fingers subsided,1.0,1
+redness about joints,canker sores,1.0,1
+redness about joints,chronic gonorrheal rheumatism,1.0,1
+redness about joints,rheumatic pains in fingers,1.0,1
+redness about joints,left ischiatic nerve pain downward to knees,1.0,1
+redness about joints,tonsils red,1.0,1
+redness about joints,drawing in left calf,1.0,1
+redness about joints,acute inflammatory articular rheumatism,1.0,1
+redness about joints,nightly pain most agonizing,1.0,1
+redness about joints,temporarily improved by hot applications,1.0,1
+redness about joints,heat about joints,1.0,1
+redness about joints,inflammatory rheumatism followed by plastic iritis,1.0,1
+redness about joints,acute piercing pains in knees,1.0,1
+redness about joints,parts exquisitely sensitive,1.0,1
+redness about joints,worse especially at night,1.0,1
+redness about joints,burning pains changing from one place to another,1.0,1
+redness about joints,large joints on left side affected,1.0,1
+redness about joints,drawing extending into thigh,1.0,1
+redness about joints,pains drawing,1.0,1
+redness about joints,attacking one or more joints,1.0,1
+redness about joints,great swelling,1.0,1
+redness about joints,transferred to left arm,1.0,1
+redness about joints,pains disappeared,1.0,1
+redness about joints,soreness about joints,1.0,1
+redness about joints,improved by dry heat,1.0,1
+redness about joints,pains drive him out of bed,1.0,1
+redness about joints,joints exquisitely sensitive,1.0,1
+redness about joints,vertigo with tendency to fall to the right,1.0,1
+redness about joints,wrist joint on right side affected,1.0,1
+redness about joints,worse motion,1.0,1
+redness about joints,rheumatoid arthritis,1.0,1
+engorgement subsided,especially elbows,1.0,1
+engorgement subsided,left ischiatic nerve pain from behind forward,1.0,1
+engorgement subsided,rheumatic pains after suppression of foot sweat,1.0,1
+engorgement subsided,tonsils swollen,1.0,1
+engorgement subsided,several joints on right side affected,1.0,1
+engorgement subsided,severe pains in all joints,1.0,1
+engorgement subsided,pains shooting,1.0,1
+engorgement subsided,tonsils with white spots,1.0,1
+engorgement subsided,rheumatic pains in little toes,1.0,1
+engorgement subsided,ankle on right side affected,1.0,1
+engorgement subsided,nodes on fingers subsided,1.0,1
+engorgement subsided,canker sores,1.0,1
+engorgement subsided,chronic gonorrheal rheumatism,1.0,1
+engorgement subsided,rheumatic pains in fingers,1.0,1
+engorgement subsided,left ischiatic nerve pain downward to knees,1.0,1
+engorgement subsided,tonsils red,1.0,1
+engorgement subsided,drawing in left calf,1.0,1
+engorgement subsided,acute inflammatory articular rheumatism,1.0,1
+engorgement subsided,nightly pain most agonizing,1.0,1
+engorgement subsided,temporarily improved by hot applications,1.0,1
+engorgement subsided,heat about joints,1.0,1
+engorgement subsided,inflammatory rheumatism followed by plastic iritis,1.0,1
+engorgement subsided,acute piercing pains in knees,1.0,1
+engorgement subsided,parts exquisitely sensitive,1.0,1
+engorgement subsided,worse especially at night,1.0,1
+engorgement subsided,burning pains changing from one place to another,1.0,1
+engorgement subsided,large joints on left side affected,1.0,1
+engorgement subsided,drawing extending into thigh,1.0,1
+engorgement subsided,pains drawing,1.0,1
+engorgement subsided,attacking one or more joints,1.0,1
+engorgement subsided,great swelling,1.0,1
+engorgement subsided,transferred to left arm,1.0,1
+engorgement subsided,pains disappeared,1.0,1
+engorgement subsided,soreness about joints,1.0,1
+engorgement subsided,improved by dry heat,1.0,1
+engorgement subsided,pains drive him out of bed,1.0,1
+engorgement subsided,joints exquisitely sensitive,1.0,1
+engorgement subsided,redness about joints,1.0,1
+engorgement subsided,vertigo with tendency to fall to the right,1.0,1
+engorgement subsided,wrist joint on right side affected,1.0,1
+engorgement subsided,worse motion,1.0,1
+engorgement subsided,rheumatoid arthritis,1.0,1
+tonsils red,especially elbows,1.0,1
+tonsils red,left ischiatic nerve pain from behind forward,1.0,1
+tonsils red,rheumatic pains after suppression of foot sweat,1.0,1
+tonsils red,tonsils swollen,1.0,1
+tonsils red,several joints on right side affected,1.0,1
+tonsils red,severe pains in all joints,1.0,1
+tonsils red,engorgement subsided,1.0,1
+tonsils red,pains shooting,1.0,1
+tonsils red,tonsils with white spots,1.0,1
+tonsils red,rheumatic pains in little toes,1.0,1
+tonsils red,ankle on right side affected,1.0,1
+tonsils red,nodes on fingers subsided,1.0,1
+tonsils red,canker sores,1.0,1
+tonsils red,chronic gonorrheal rheumatism,1.0,1
+tonsils red,rheumatic pains in fingers,1.0,1
+tonsils red,left ischiatic nerve pain downward to knees,1.0,1
+tonsils red,drawing in left calf,1.0,1
+tonsils red,acute inflammatory articular rheumatism,1.0,1
+tonsils red,nightly pain most agonizing,1.0,1
+tonsils red,temporarily improved by hot applications,1.0,1
+tonsils red,heat about joints,1.0,1
+tonsils red,inflammatory rheumatism followed by plastic iritis,1.0,1
+tonsils red,acute piercing pains in knees,1.0,1
+tonsils red,parts exquisitely sensitive,1.0,1
+tonsils red,worse especially at night,1.0,1
+tonsils red,burning pains changing from one place to another,1.0,1
+tonsils red,large joints on left side affected,1.0,1
+tonsils red,drawing extending into thigh,1.0,1
+tonsils red,pains drawing,1.0,1
+tonsils red,attacking one or more joints,1.0,1
+tonsils red,great swelling,1.0,1
+tonsils red,transferred to left arm,1.0,1
+tonsils red,pains disappeared,1.0,1
+tonsils red,soreness about joints,1.0,1
+tonsils red,improved by dry heat,1.0,1
+tonsils red,pains drive him out of bed,1.0,1
+tonsils red,joints exquisitely sensitive,1.0,1
+tonsils red,redness about joints,1.0,1
+tonsils red,vertigo with tendency to fall to the right,1.0,1
+tonsils red,wrist joint on right side affected,1.0,1
+tonsils red,worse motion,1.0,1
+tonsils red,rheumatoid arthritis,1.0,1
+rheumatic pains in little toes,especially elbows,1.0,1
+rheumatic pains in little toes,left ischiatic nerve pain from behind forward,1.0,1
+rheumatic pains in little toes,rheumatic pains after suppression of foot sweat,1.0,1
+rheumatic pains in little toes,tonsils swollen,1.0,1
+rheumatic pains in little toes,several joints on right side affected,1.0,1
+rheumatic pains in little toes,severe pains in all joints,1.0,1
+rheumatic pains in little toes,engorgement subsided,1.0,1
+rheumatic pains in little toes,pains shooting,1.0,1
+rheumatic pains in little toes,tonsils with white spots,1.0,1
+rheumatic pains in little toes,ankle on right side affected,1.0,1
+rheumatic pains in little toes,nodes on fingers subsided,1.0,1
+rheumatic pains in little toes,canker sores,1.0,1
+rheumatic pains in little toes,chronic gonorrheal rheumatism,1.0,1
+rheumatic pains in little toes,rheumatic pains in fingers,1.0,1
+rheumatic pains in little toes,left ischiatic nerve pain downward to knees,1.0,1
+rheumatic pains in little toes,tonsils red,1.0,1
+rheumatic pains in little toes,drawing in left calf,1.0,1
+rheumatic pains in little toes,acute inflammatory articular rheumatism,1.0,1
+rheumatic pains in little toes,nightly pain most agonizing,1.0,1
+rheumatic pains in little toes,temporarily improved by hot applications,1.0,1
+rheumatic pains in little toes,heat about joints,1.0,1
+rheumatic pains in little toes,inflammatory rheumatism followed by plastic iritis,1.0,1
+rheumatic pains in little toes,acute piercing pains in knees,1.0,1
+rheumatic pains in little toes,parts exquisitely sensitive,1.0,1
+rheumatic pains in little toes,worse especially at night,1.0,1
+rheumatic pains in little toes,burning pains changing from one place to another,1.0,1
+rheumatic pains in little toes,large joints on left side affected,1.0,1
+rheumatic pains in little toes,drawing extending into thigh,1.0,1
+rheumatic pains in little toes,pains drawing,1.0,1
+rheumatic pains in little toes,attacking one or more joints,1.0,1
+rheumatic pains in little toes,great swelling,1.0,1
+rheumatic pains in little toes,transferred to left arm,1.0,1
+rheumatic pains in little toes,pains disappeared,1.0,1
+rheumatic pains in little toes,soreness about joints,1.0,1
+rheumatic pains in little toes,improved by dry heat,1.0,1
+rheumatic pains in little toes,pains drive him out of bed,1.0,1
+rheumatic pains in little toes,joints exquisitely sensitive,1.0,1
+rheumatic pains in little toes,redness about joints,1.0,1
+rheumatic pains in little toes,vertigo with tendency to fall to the right,1.0,1
+rheumatic pains in little toes,wrist joint on right side affected,1.0,1
+rheumatic pains in little toes,worse motion,1.0,1
+rheumatic pains in little toes,rheumatoid arthritis,1.0,1
+ankle on right side affected,especially elbows,1.0,1
+ankle on right side affected,left ischiatic nerve pain from behind forward,1.0,1
+ankle on right side affected,rheumatic pains after suppression of foot sweat,1.0,1
+ankle on right side affected,tonsils swollen,1.0,1
+ankle on right side affected,several joints on right side affected,1.0,1
+ankle on right side affected,severe pains in all joints,1.0,1
+ankle on right side affected,engorgement subsided,1.0,1
+ankle on right side affected,pains shooting,1.0,1
+ankle on right side affected,tonsils with white spots,1.0,1
+ankle on right side affected,rheumatic pains in little toes,1.0,1
+ankle on right side affected,nodes on fingers subsided,1.0,1
+ankle on right side affected,canker sores,1.0,1
+ankle on right side affected,chronic gonorrheal rheumatism,1.0,1
+ankle on right side affected,rheumatic pains in fingers,1.0,1
+ankle on right side affected,left ischiatic nerve pain downward to knees,1.0,1
+ankle on right side affected,tonsils red,1.0,1
+ankle on right side affected,drawing in left calf,1.0,1
+ankle on right side affected,acute inflammatory articular rheumatism,1.0,1
+ankle on right side affected,nightly pain most agonizing,1.0,1
+ankle on right side affected,temporarily improved by hot applications,1.0,1
+ankle on right side affected,heat about joints,1.0,1
+ankle on right side affected,inflammatory rheumatism followed by plastic iritis,1.0,1
+ankle on right side affected,acute piercing pains in knees,1.0,1
+ankle on right side affected,parts exquisitely sensitive,1.0,1
+ankle on right side affected,worse especially at night,1.0,1
+ankle on right side affected,burning pains changing from one place to another,1.0,1
+ankle on right side affected,large joints on left side affected,1.0,1
+ankle on right side affected,drawing extending into thigh,1.0,1
+ankle on right side affected,pains drawing,1.0,1
+ankle on right side affected,attacking one or more joints,1.0,1
+ankle on right side affected,great swelling,1.0,1
+ankle on right side affected,transferred to left arm,1.0,1
+ankle on right side affected,pains disappeared,1.0,1
+ankle on right side affected,soreness about joints,1.0,1
+ankle on right side affected,improved by dry heat,1.0,1
+ankle on right side affected,pains drive him out of bed,1.0,1
+ankle on right side affected,joints exquisitely sensitive,1.0,1
+ankle on right side affected,redness about joints,1.0,1
+ankle on right side affected,vertigo with tendency to fall to the right,1.0,1
+ankle on right side affected,wrist joint on right side affected,1.0,1
+ankle on right side affected,worse motion,1.0,1
+ankle on right side affected,rheumatoid arthritis,1.0,1
+vertigo with tendency to fall to the right,especially elbows,1.0,1
+vertigo with tendency to fall to the right,left ischiatic nerve pain from behind forward,1.0,1
+vertigo with tendency to fall to the right,rheumatic pains after suppression of foot sweat,1.0,1
+vertigo with tendency to fall to the right,tonsils swollen,1.0,1
+vertigo with tendency to fall to the right,several joints on right side affected,1.0,1
+vertigo with tendency to fall to the right,severe pains in all joints,1.0,1
+vertigo with tendency to fall to the right,engorgement subsided,1.0,1
+vertigo with tendency to fall to the right,pains shooting,1.0,1
+vertigo with tendency to fall to the right,tonsils with white spots,1.0,1
+vertigo with tendency to fall to the right,rheumatic pains in little toes,1.0,1
+vertigo with tendency to fall to the right,ankle on right side affected,1.0,1
+vertigo with tendency to fall to the right,nodes on fingers subsided,1.0,1
+vertigo with tendency to fall to the right,canker sores,1.0,1
+vertigo with tendency to fall to the right,chronic gonorrheal rheumatism,1.0,1
+vertigo with tendency to fall to the right,rheumatic pains in fingers,1.0,1
+vertigo with tendency to fall to the right,left ischiatic nerve pain downward to knees,1.0,1
+vertigo with tendency to fall to the right,tonsils red,1.0,1
+vertigo with tendency to fall to the right,drawing in left calf,1.0,1
+vertigo with tendency to fall to the right,acute inflammatory articular rheumatism,1.0,1
+vertigo with tendency to fall to the right,nightly pain most agonizing,1.0,1
+vertigo with tendency to fall to the right,temporarily improved by hot applications,1.0,1
+vertigo with tendency to fall to the right,heat about joints,1.0,1
+vertigo with tendency to fall to the right,inflammatory rheumatism followed by plastic iritis,1.0,1
+vertigo with tendency to fall to the right,acute piercing pains in knees,1.0,1
+vertigo with tendency to fall to the right,parts exquisitely sensitive,1.0,1
+vertigo with tendency to fall to the right,worse especially at night,1.0,1
+vertigo with tendency to fall to the right,burning pains changing from one place to another,1.0,1
+vertigo with tendency to fall to the right,large joints on left side affected,1.0,1
+vertigo with tendency to fall to the right,drawing extending into thigh,1.0,1
+vertigo with tendency to fall to the right,pains drawing,1.0,1
+vertigo with tendency to fall to the right,attacking one or more joints,1.0,1
+vertigo with tendency to fall to the right,great swelling,1.0,1
+vertigo with tendency to fall to the right,transferred to left arm,1.0,1
+vertigo with tendency to fall to the right,pains disappeared,1.0,1
+vertigo with tendency to fall to the right,soreness about joints,1.0,1
+vertigo with tendency to fall to the right,improved by dry heat,1.0,1
+vertigo with tendency to fall to the right,pains drive him out of bed,1.0,1
+vertigo with tendency to fall to the right,joints exquisitely sensitive,1.0,1
+vertigo with tendency to fall to the right,redness about joints,1.0,1
+vertigo with tendency to fall to the right,wrist joint on right side affected,1.0,1
+vertigo with tendency to fall to the right,worse motion,1.0,1
+vertigo with tendency to fall to the right,rheumatoid arthritis,1.0,1
+burning pains changing from one place to another,especially elbows,1.0,1
+burning pains changing from one place to another,left ischiatic nerve pain from behind forward,1.0,1
+burning pains changing from one place to another,rheumatic pains after suppression of foot sweat,1.0,1
+burning pains changing from one place to another,tonsils swollen,1.0,1
+burning pains changing from one place to another,several joints on right side affected,1.0,1
+burning pains changing from one place to another,severe pains in all joints,1.0,1
+burning pains changing from one place to another,engorgement subsided,1.0,1
+burning pains changing from one place to another,pains shooting,1.0,1
+burning pains changing from one place to another,tonsils with white spots,1.0,1
+burning pains changing from one place to another,rheumatic pains in little toes,1.0,1
+burning pains changing from one place to another,ankle on right side affected,1.0,1
+burning pains changing from one place to another,nodes on fingers subsided,1.0,1
+burning pains changing from one place to another,canker sores,1.0,1
+burning pains changing from one place to another,chronic gonorrheal rheumatism,1.0,1
+burning pains changing from one place to another,rheumatic pains in fingers,1.0,1
+burning pains changing from one place to another,left ischiatic nerve pain downward to knees,1.0,1
+burning pains changing from one place to another,tonsils red,1.0,1
+burning pains changing from one place to another,drawing in left calf,1.0,1
+burning pains changing from one place to another,acute inflammatory articular rheumatism,1.0,1
+burning pains changing from one place to another,nightly pain most agonizing,1.0,1
+burning pains changing from one place to another,temporarily improved by hot applications,1.0,1
+burning pains changing from one place to another,heat about joints,1.0,1
+burning pains changing from one place to another,inflammatory rheumatism followed by plastic iritis,1.0,1
+burning pains changing from one place to another,acute piercing pains in knees,1.0,1
+burning pains changing from one place to another,parts exquisitely sensitive,1.0,1
+burning pains changing from one place to another,worse especially at night,1.0,1
+burning pains changing from one place to another,large joints on left side affected,1.0,1
+burning pains changing from one place to another,drawing extending into thigh,1.0,1
+burning pains changing from one place to another,pains drawing,1.0,1
+burning pains changing from one place to another,attacking one or more joints,1.0,1
+burning pains changing from one place to another,great swelling,1.0,1
+burning pains changing from one place to another,transferred to left arm,1.0,1
+burning pains changing from one place to another,pains disappeared,1.0,1
+burning pains changing from one place to another,soreness about joints,1.0,1
+burning pains changing from one place to another,improved by dry heat,1.0,1
+burning pains changing from one place to another,pains drive him out of bed,1.0,1
+burning pains changing from one place to another,joints exquisitely sensitive,1.0,1
+burning pains changing from one place to another,redness about joints,1.0,1
+burning pains changing from one place to another,vertigo with tendency to fall to the right,1.0,1
+burning pains changing from one place to another,wrist joint on right side affected,1.0,1
+burning pains changing from one place to another,worse motion,1.0,1
+burning pains changing from one place to another,rheumatoid arthritis,1.0,1
+canker sores,especially elbows,1.0,1
+canker sores,left ischiatic nerve pain from behind forward,1.0,1
+canker sores,rheumatic pains after suppression of foot sweat,1.0,1
+canker sores,tonsils swollen,1.0,1
+canker sores,several joints on right side affected,1.0,1
+canker sores,severe pains in all joints,1.0,1
+canker sores,engorgement subsided,1.0,1
+canker sores,pains shooting,1.0,1
+canker sores,tonsils with white spots,1.0,1
+canker sores,rheumatic pains in little toes,1.0,1
+canker sores,ankle on right side affected,1.0,1
+canker sores,nodes on fingers subsided,1.0,1
+canker sores,chronic gonorrheal rheumatism,1.0,1
+canker sores,rheumatic pains in fingers,1.0,1
+canker sores,left ischiatic nerve pain downward to knees,1.0,1
+canker sores,tonsils red,1.0,1
+canker sores,drawing in left calf,1.0,1
+canker sores,acute inflammatory articular rheumatism,1.0,1
+canker sores,nightly pain most agonizing,1.0,1
+canker sores,temporarily improved by hot applications,1.0,1
+canker sores,heat about joints,1.0,1
+canker sores,inflammatory rheumatism followed by plastic iritis,1.0,1
+canker sores,acute piercing pains in knees,1.0,1
+canker sores,parts exquisitely sensitive,1.0,1
+canker sores,worse especially at night,1.0,1
+canker sores,burning pains changing from one place to another,1.0,1
+canker sores,large joints on left side affected,1.0,1
+canker sores,drawing extending into thigh,1.0,1
+canker sores,pains drawing,1.0,1
+canker sores,attacking one or more joints,1.0,1
+canker sores,great swelling,1.0,1
+canker sores,transferred to left arm,1.0,1
+canker sores,pains disappeared,1.0,1
+canker sores,soreness about joints,1.0,1
+canker sores,improved by dry heat,1.0,1
+canker sores,pains drive him out of bed,1.0,1
+canker sores,joints exquisitely sensitive,1.0,1
+canker sores,redness about joints,1.0,1
+canker sores,vertigo with tendency to fall to the right,1.0,1
+canker sores,wrist joint on right side affected,1.0,1
+canker sores,worse motion,1.0,1
+canker sores,rheumatoid arthritis,1.0,1
+acute inflammatory articular rheumatism,especially elbows,1.0,1
+acute inflammatory articular rheumatism,left ischiatic nerve pain from behind forward,1.0,1
+acute inflammatory articular rheumatism,rheumatic pains after suppression of foot sweat,1.0,1
+acute inflammatory articular rheumatism,tonsils swollen,1.0,1
+acute inflammatory articular rheumatism,several joints on right side affected,1.0,1
+acute inflammatory articular rheumatism,severe pains in all joints,1.0,1
+acute inflammatory articular rheumatism,engorgement subsided,1.0,1
+acute inflammatory articular rheumatism,pains shooting,1.0,1
+acute inflammatory articular rheumatism,tonsils with white spots,1.0,1
+acute inflammatory articular rheumatism,rheumatic pains in little toes,1.0,1
+acute inflammatory articular rheumatism,ankle on right side affected,1.0,1
+acute inflammatory articular rheumatism,nodes on fingers subsided,1.0,1
+acute inflammatory articular rheumatism,canker sores,1.0,1
+acute inflammatory articular rheumatism,chronic gonorrheal rheumatism,1.0,1
+acute inflammatory articular rheumatism,rheumatic pains in fingers,1.0,1
+acute inflammatory articular rheumatism,left ischiatic nerve pain downward to knees,1.0,1
+acute inflammatory articular rheumatism,tonsils red,1.0,1
+acute inflammatory articular rheumatism,drawing in left calf,1.0,1
+acute inflammatory articular rheumatism,nightly pain most agonizing,1.0,1
+acute inflammatory articular rheumatism,temporarily improved by hot applications,1.0,1
+acute inflammatory articular rheumatism,heat about joints,1.0,1
+acute inflammatory articular rheumatism,inflammatory rheumatism followed by plastic iritis,1.0,1
+acute inflammatory articular rheumatism,acute piercing pains in knees,1.0,1
+acute inflammatory articular rheumatism,parts exquisitely sensitive,1.0,1
+acute inflammatory articular rheumatism,worse especially at night,1.0,1
+acute inflammatory articular rheumatism,burning pains changing from one place to another,1.0,1
+acute inflammatory articular rheumatism,large joints on left side affected,1.0,1
+acute inflammatory articular rheumatism,drawing extending into thigh,1.0,1
+acute inflammatory articular rheumatism,pains drawing,1.0,1
+acute inflammatory articular rheumatism,attacking one or more joints,1.0,1
+acute inflammatory articular rheumatism,great swelling,1.0,1
+acute inflammatory articular rheumatism,transferred to left arm,1.0,1
+acute inflammatory articular rheumatism,pains disappeared,1.0,1
+acute inflammatory articular rheumatism,soreness about joints,1.0,1
+acute inflammatory articular rheumatism,improved by dry heat,1.0,1
+acute inflammatory articular rheumatism,pains drive him out of bed,1.0,1
+acute inflammatory articular rheumatism,joints exquisitely sensitive,1.0,1
+acute inflammatory articular rheumatism,redness about joints,1.0,1
+acute inflammatory articular rheumatism,vertigo with tendency to fall to the right,1.0,1
+acute inflammatory articular rheumatism,wrist joint on right side affected,1.0,1
+acute inflammatory articular rheumatism,worse motion,1.0,1
+acute inflammatory articular rheumatism,rheumatoid arthritis,1.0,1
+pains drawing,especially elbows,1.0,1
+pains drawing,left ischiatic nerve pain from behind forward,1.0,1
+pains drawing,rheumatic pains after suppression of foot sweat,1.0,1
+pains drawing,tonsils swollen,1.0,1
+pains drawing,several joints on right side affected,1.0,1
+pains drawing,severe pains in all joints,1.0,1
+pains drawing,engorgement subsided,1.0,1
+pains drawing,pains shooting,1.0,1
+pains drawing,tonsils with white spots,1.0,1
+pains drawing,rheumatic pains in little toes,1.0,1
+pains drawing,ankle on right side affected,1.0,1
+pains drawing,nodes on fingers subsided,1.0,1
+pains drawing,canker sores,1.0,1
+pains drawing,chronic gonorrheal rheumatism,1.0,1
+pains drawing,rheumatic pains in fingers,1.0,1
+pains drawing,left ischiatic nerve pain downward to knees,1.0,1
+pains drawing,tonsils red,1.0,1
+pains drawing,drawing in left calf,1.0,1
+pains drawing,acute inflammatory articular rheumatism,1.0,1
+pains drawing,nightly pain most agonizing,1.0,1
+pains drawing,temporarily improved by hot applications,1.0,1
+pains drawing,heat about joints,1.0,1
+pains drawing,inflammatory rheumatism followed by plastic iritis,1.0,1
+pains drawing,acute piercing pains in knees,1.0,1
+pains drawing,parts exquisitely sensitive,1.0,1
+pains drawing,worse especially at night,1.0,1
+pains drawing,burning pains changing from one place to another,1.0,1
+pains drawing,large joints on left side affected,1.0,1
+pains drawing,drawing extending into thigh,1.0,1
+pains drawing,attacking one or more joints,1.0,1
+pains drawing,great swelling,1.0,1
+pains drawing,transferred to left arm,1.0,1
+pains drawing,pains disappeared,1.0,1
+pains drawing,soreness about joints,1.0,1
+pains drawing,improved by dry heat,1.0,1
+pains drawing,pains drive him out of bed,1.0,1
+pains drawing,joints exquisitely sensitive,1.0,1
+pains drawing,redness about joints,1.0,1
+pains drawing,vertigo with tendency to fall to the right,1.0,1
+pains drawing,wrist joint on right side affected,1.0,1
+pains drawing,worse motion,1.0,1
+pains drawing,rheumatoid arthritis,1.0,1
+drawing in left calf,especially elbows,1.0,1
+drawing in left calf,left ischiatic nerve pain from behind forward,1.0,1
+drawing in left calf,rheumatic pains after suppression of foot sweat,1.0,1
+drawing in left calf,tonsils swollen,1.0,1
+drawing in left calf,several joints on right side affected,1.0,1
+drawing in left calf,severe pains in all joints,1.0,1
+drawing in left calf,engorgement subsided,1.0,1
+drawing in left calf,pains shooting,1.0,1
+drawing in left calf,tonsils with white spots,1.0,1
+drawing in left calf,rheumatic pains in little toes,1.0,1
+drawing in left calf,ankle on right side affected,1.0,1
+drawing in left calf,nodes on fingers subsided,1.0,1
+drawing in left calf,canker sores,1.0,1
+drawing in left calf,chronic gonorrheal rheumatism,1.0,1
+drawing in left calf,rheumatic pains in fingers,1.0,1
+drawing in left calf,left ischiatic nerve pain downward to knees,1.0,1
+drawing in left calf,tonsils red,1.0,1
+drawing in left calf,acute inflammatory articular rheumatism,1.0,1
+drawing in left calf,nightly pain most agonizing,1.0,1
+drawing in left calf,temporarily improved by hot applications,1.0,1
+drawing in left calf,heat about joints,1.0,1
+drawing in left calf,inflammatory rheumatism followed by plastic iritis,1.0,1
+drawing in left calf,acute piercing pains in knees,1.0,1
+drawing in left calf,parts exquisitely sensitive,1.0,1
+drawing in left calf,worse especially at night,1.0,1
+drawing in left calf,burning pains changing from one place to another,1.0,1
+drawing in left calf,large joints on left side affected,1.0,1
+drawing in left calf,drawing extending into thigh,1.0,1
+drawing in left calf,pains drawing,1.0,1
+drawing in left calf,attacking one or more joints,1.0,1
+drawing in left calf,great swelling,1.0,1
+drawing in left calf,transferred to left arm,1.0,1
+drawing in left calf,pains disappeared,1.0,1
+drawing in left calf,soreness about joints,1.0,1
+drawing in left calf,improved by dry heat,1.0,1
+drawing in left calf,pains drive him out of bed,1.0,1
+drawing in left calf,joints exquisitely sensitive,1.0,1
+drawing in left calf,redness about joints,1.0,1
+drawing in left calf,vertigo with tendency to fall to the right,1.0,1
+drawing in left calf,wrist joint on right side affected,1.0,1
+drawing in left calf,worse motion,1.0,1
+drawing in left calf,rheumatoid arthritis,1.0,1
+wrist joint on right side affected,especially elbows,1.0,1
+wrist joint on right side affected,left ischiatic nerve pain from behind forward,1.0,1
+wrist joint on right side affected,rheumatic pains after suppression of foot sweat,1.0,1
+wrist joint on right side affected,tonsils swollen,1.0,1
+wrist joint on right side affected,several joints on right side affected,1.0,1
+wrist joint on right side affected,severe pains in all joints,1.0,1
+wrist joint on right side affected,engorgement subsided,1.0,1
+wrist joint on right side affected,pains shooting,1.0,1
+wrist joint on right side affected,tonsils with white spots,1.0,1
+wrist joint on right side affected,rheumatic pains in little toes,1.0,1
+wrist joint on right side affected,ankle on right side affected,1.0,1
+wrist joint on right side affected,nodes on fingers subsided,1.0,1
+wrist joint on right side affected,canker sores,1.0,1
+wrist joint on right side affected,chronic gonorrheal rheumatism,1.0,1
+wrist joint on right side affected,rheumatic pains in fingers,1.0,1
+wrist joint on right side affected,left ischiatic nerve pain downward to knees,1.0,1
+wrist joint on right side affected,tonsils red,1.0,1
+wrist joint on right side affected,drawing in left calf,1.0,1
+wrist joint on right side affected,acute inflammatory articular rheumatism,1.0,1
+wrist joint on right side affected,nightly pain most agonizing,1.0,1
+wrist joint on right side affected,temporarily improved by hot applications,1.0,1
+wrist joint on right side affected,heat about joints,1.0,1
+wrist joint on right side affected,inflammatory rheumatism followed by plastic iritis,1.0,1
+wrist joint on right side affected,acute piercing pains in knees,1.0,1
+wrist joint on right side affected,parts exquisitely sensitive,1.0,1
+wrist joint on right side affected,worse especially at night,1.0,1
+wrist joint on right side affected,burning pains changing from one place to another,1.0,1
+wrist joint on right side affected,large joints on left side affected,1.0,1
+wrist joint on right side affected,drawing extending into thigh,1.0,1
+wrist joint on right side affected,pains drawing,1.0,1
+wrist joint on right side affected,attacking one or more joints,1.0,1
+wrist joint on right side affected,great swelling,1.0,1
+wrist joint on right side affected,transferred to left arm,1.0,1
+wrist joint on right side affected,pains disappeared,1.0,1
+wrist joint on right side affected,soreness about joints,1.0,1
+wrist joint on right side affected,improved by dry heat,1.0,1
+wrist joint on right side affected,pains drive him out of bed,1.0,1
+wrist joint on right side affected,joints exquisitely sensitive,1.0,1
+wrist joint on right side affected,redness about joints,1.0,1
+wrist joint on right side affected,vertigo with tendency to fall to the right,1.0,1
+wrist joint on right side affected,worse motion,1.0,1
+wrist joint on right side affected,rheumatoid arthritis,1.0,1

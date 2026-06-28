@@ -1,0 +1,1530 @@
+### Cluster 19 — Symptoms (39)
+Symptom,Frequency
+parts better by hard pressure,1
+pain in sides of chest as if bruised,1
+small of back pain as from heavy load,1
+aching in shoulder,1
+small of back pain as after long stooping,1
+drawing pain on side of spine,1
+shooting pains in nape of neck,1
+patients who lost normal body fluids,1
+drawing pain in nape,1
+pain in right knee up to thigh,1
+compatible with calc. phos.,1
+sensitiveness of spine to touch,1
+hard red swelling of joints,3
+paralytic tearing pains in arm bones,2
+other hand warm,1
+eye becomes inflamed,1
+shoulder pain worse from least pressure,1
+pressure as from stone between scapulae,1
+lame drawing in small of back,2
+small of back pain like a cramp,1
+violent pain in eye daily 8-9 a.m.,1
+intense wave-like pain,2
+sensation in thigh bone as if periosteum scraped,1
+parts affected sensitive to touch,1
+aching in scapulae,1
+remittent fever,1
+limbs feel as if after long walk,1
+complementary to ferrum,1
+stitches in left side of back,1
+small of back pain worse from motion,1
+unendurable pain in small of back,1
+rheumatic pain in face muscles,1
+tensive pain in small of back,1
+intermittent fever,1
+eye symptoms disappear at noon,1
+headache from draft of air,1
+one hand cold,1
+darting tearing pain in limbs,2
+compatible with ferrum,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+cinchona officinalis,39
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+small of back pain as from heavy load,parts better by hard pressure,1.0,1
+small of back pain as from heavy load,pain in sides of chest as if bruised,1.0,1
+small of back pain as from heavy load,aching in shoulder,1.0,1
+small of back pain as from heavy load,small of back pain as after long stooping,1.0,1
+small of back pain as from heavy load,drawing pain on side of spine,1.0,1
+small of back pain as from heavy load,shooting pains in nape of neck,1.0,1
+small of back pain as from heavy load,patients who lost normal body fluids,1.0,1
+small of back pain as from heavy load,drawing pain in nape,1.0,1
+small of back pain as from heavy load,pain in right knee up to thigh,1.0,1
+small of back pain as from heavy load,compatible with calc. phos.,1.0,1
+small of back pain as from heavy load,sensitiveness of spine to touch,1.0,1
+small of back pain as from heavy load,hard red swelling of joints,1.0,1
+small of back pain as from heavy load,paralytic tearing pains in arm bones,1.0,1
+small of back pain as from heavy load,other hand warm,1.0,1
+small of back pain as from heavy load,eye becomes inflamed,1.0,1
+small of back pain as from heavy load,shoulder pain worse from least pressure,1.0,1
+small of back pain as from heavy load,pressure as from stone between scapulae,1.0,1
+small of back pain as from heavy load,lame drawing in small of back,1.0,1
+small of back pain as from heavy load,small of back pain like a cramp,1.0,1
+small of back pain as from heavy load,violent pain in eye daily 8-9 a.m.,1.0,1
+small of back pain as from heavy load,intense wave-like pain,1.0,1
+small of back pain as from heavy load,sensation in thigh bone as if periosteum scraped,1.0,1
+small of back pain as from heavy load,parts affected sensitive to touch,1.0,1
+small of back pain as from heavy load,aching in scapulae,1.0,1
+small of back pain as from heavy load,remittent fever,1.0,1
+small of back pain as from heavy load,limbs feel as if after long walk,1.0,1
+small of back pain as from heavy load,complementary to ferrum,1.0,1
+small of back pain as from heavy load,stitches in left side of back,1.0,1
+small of back pain as from heavy load,small of back pain worse from motion,1.0,1
+small of back pain as from heavy load,unendurable pain in small of back,1.0,1
+small of back pain as from heavy load,rheumatic pain in face muscles,1.0,1
+small of back pain as from heavy load,tensive pain in small of back,1.0,1
+small of back pain as from heavy load,intermittent fever,1.0,1
+small of back pain as from heavy load,eye symptoms disappear at noon,1.0,1
+small of back pain as from heavy load,headache from draft of air,1.0,1
+small of back pain as from heavy load,one hand cold,1.0,1
+small of back pain as from heavy load,darting tearing pain in limbs,1.0,1
+small of back pain as from heavy load,compatible with ferrum,1.0,1
+compatible with calc. phos.,parts better by hard pressure,1.0,1
+compatible with calc. phos.,pain in sides of chest as if bruised,1.0,1
+compatible with calc. phos.,small of back pain as from heavy load,1.0,1
+compatible with calc. phos.,aching in shoulder,1.0,1
+compatible with calc. phos.,small of back pain as after long stooping,1.0,1
+compatible with calc. phos.,drawing pain on side of spine,1.0,1
+compatible with calc. phos.,shooting pains in nape of neck,1.0,1
+compatible with calc. phos.,patients who lost normal body fluids,1.0,1
+compatible with calc. phos.,drawing pain in nape,1.0,1
+compatible with calc. phos.,pain in right knee up to thigh,1.0,1
+compatible with calc. phos.,sensitiveness of spine to touch,1.0,1
+compatible with calc. phos.,hard red swelling of joints,1.0,1
+compatible with calc. phos.,paralytic tearing pains in arm bones,1.0,1
+compatible with calc. phos.,other hand warm,1.0,1
+compatible with calc. phos.,eye becomes inflamed,1.0,1
+compatible with calc. phos.,shoulder pain worse from least pressure,1.0,1
+compatible with calc. phos.,pressure as from stone between scapulae,1.0,1
+compatible with calc. phos.,lame drawing in small of back,1.0,1
+compatible with calc. phos.,small of back pain like a cramp,1.0,1
+compatible with calc. phos.,violent pain in eye daily 8-9 a.m.,1.0,1
+compatible with calc. phos.,intense wave-like pain,1.0,1
+compatible with calc. phos.,sensation in thigh bone as if periosteum scraped,1.0,1
+compatible with calc. phos.,parts affected sensitive to touch,1.0,1
+compatible with calc. phos.,aching in scapulae,1.0,1
+compatible with calc. phos.,remittent fever,1.0,1
+compatible with calc. phos.,limbs feel as if after long walk,1.0,1
+compatible with calc. phos.,complementary to ferrum,1.0,1
+compatible with calc. phos.,stitches in left side of back,1.0,1
+compatible with calc. phos.,small of back pain worse from motion,1.0,1
+compatible with calc. phos.,unendurable pain in small of back,1.0,1
+compatible with calc. phos.,rheumatic pain in face muscles,1.0,1
+compatible with calc. phos.,tensive pain in small of back,1.0,1
+compatible with calc. phos.,intermittent fever,1.0,1
+compatible with calc. phos.,eye symptoms disappear at noon,1.0,1
+compatible with calc. phos.,headache from draft of air,1.0,1
+compatible with calc. phos.,one hand cold,1.0,1
+compatible with calc. phos.,darting tearing pain in limbs,1.0,1
+compatible with calc. phos.,compatible with ferrum,1.0,1
+paralytic tearing pains in arm bones,parts better by hard pressure,1.0,1
+paralytic tearing pains in arm bones,pain in sides of chest as if bruised,1.0,1
+paralytic tearing pains in arm bones,small of back pain as from heavy load,1.0,1
+paralytic tearing pains in arm bones,aching in shoulder,1.0,1
+paralytic tearing pains in arm bones,small of back pain as after long stooping,1.0,1
+paralytic tearing pains in arm bones,drawing pain on side of spine,1.0,1
+paralytic tearing pains in arm bones,shooting pains in nape of neck,1.0,1
+paralytic tearing pains in arm bones,patients who lost normal body fluids,1.0,1
+paralytic tearing pains in arm bones,drawing pain in nape,1.0,1
+paralytic tearing pains in arm bones,pain in right knee up to thigh,1.0,1
+paralytic tearing pains in arm bones,compatible with calc. phos.,1.0,1
+paralytic tearing pains in arm bones,sensitiveness of spine to touch,1.0,1
+paralytic tearing pains in arm bones,hard red swelling of joints,1.0,1
+paralytic tearing pains in arm bones,other hand warm,1.0,1
+paralytic tearing pains in arm bones,eye becomes inflamed,1.0,1
+paralytic tearing pains in arm bones,shoulder pain worse from least pressure,1.0,1
+paralytic tearing pains in arm bones,pressure as from stone between scapulae,1.0,1
+paralytic tearing pains in arm bones,lame drawing in small of back,1.0,1
+paralytic tearing pains in arm bones,small of back pain like a cramp,1.0,1
+paralytic tearing pains in arm bones,violent pain in eye daily 8-9 a.m.,1.0,1
+paralytic tearing pains in arm bones,intense wave-like pain,1.0,1
+paralytic tearing pains in arm bones,sensation in thigh bone as if periosteum scraped,1.0,1
+paralytic tearing pains in arm bones,parts affected sensitive to touch,1.0,1
+paralytic tearing pains in arm bones,aching in scapulae,1.0,1
+paralytic tearing pains in arm bones,remittent fever,1.0,1
+paralytic tearing pains in arm bones,limbs feel as if after long walk,1.0,1
+paralytic tearing pains in arm bones,complementary to ferrum,1.0,1
+paralytic tearing pains in arm bones,stitches in left side of back,1.0,1
+paralytic tearing pains in arm bones,small of back pain worse from motion,1.0,1
+paralytic tearing pains in arm bones,unendurable pain in small of back,1.0,1
+paralytic tearing pains in arm bones,rheumatic pain in face muscles,1.0,1
+paralytic tearing pains in arm bones,tensive pain in small of back,1.0,1
+paralytic tearing pains in arm bones,intermittent fever,1.0,1
+paralytic tearing pains in arm bones,eye symptoms disappear at noon,1.0,1
+paralytic tearing pains in arm bones,headache from draft of air,1.0,1
+paralytic tearing pains in arm bones,one hand cold,1.0,1
+paralytic tearing pains in arm bones,darting tearing pain in limbs,1.0,1
+paralytic tearing pains in arm bones,compatible with ferrum,1.0,1
+pressure as from stone between scapulae,parts better by hard pressure,1.0,1
+pressure as from stone between scapulae,pain in sides of chest as if bruised,1.0,1
+pressure as from stone between scapulae,small of back pain as from heavy load,1.0,1
+pressure as from stone between scapulae,aching in shoulder,1.0,1
+pressure as from stone between scapulae,small of back pain as after long stooping,1.0,1
+pressure as from stone between scapulae,drawing pain on side of spine,1.0,1
+pressure as from stone between scapulae,shooting pains in nape of neck,1.0,1
+pressure as from stone between scapulae,patients who lost normal body fluids,1.0,1
+pressure as from stone between scapulae,drawing pain in nape,1.0,1
+pressure as from stone between scapulae,pain in right knee up to thigh,1.0,1
+pressure as from stone between scapulae,compatible with calc. phos.,1.0,1
+pressure as from stone between scapulae,sensitiveness of spine to touch,1.0,1
+pressure as from stone between scapulae,hard red swelling of joints,1.0,1
+pressure as from stone between scapulae,paralytic tearing pains in arm bones,1.0,1
+pressure as from stone between scapulae,other hand warm,1.0,1
+pressure as from stone between scapulae,eye becomes inflamed,1.0,1
+pressure as from stone between scapulae,shoulder pain worse from least pressure,1.0,1
+pressure as from stone between scapulae,lame drawing in small of back,1.0,1
+pressure as from stone between scapulae,small of back pain like a cramp,1.0,1
+pressure as from stone between scapulae,violent pain in eye daily 8-9 a.m.,1.0,1
+pressure as from stone between scapulae,intense wave-like pain,1.0,1
+pressure as from stone between scapulae,sensation in thigh bone as if periosteum scraped,1.0,1
+pressure as from stone between scapulae,parts affected sensitive to touch,1.0,1
+pressure as from stone between scapulae,aching in scapulae,1.0,1
+pressure as from stone between scapulae,remittent fever,1.0,1
+pressure as from stone between scapulae,limbs feel as if after long walk,1.0,1
+pressure as from stone between scapulae,complementary to ferrum,1.0,1
+pressure as from stone between scapulae,stitches in left side of back,1.0,1
+pressure as from stone between scapulae,small of back pain worse from motion,1.0,1
+pressure as from stone between scapulae,unendurable pain in small of back,1.0,1
+pressure as from stone between scapulae,rheumatic pain in face muscles,1.0,1
+pressure as from stone between scapulae,tensive pain in small of back,1.0,1
+pressure as from stone between scapulae,intermittent fever,1.0,1
+pressure as from stone between scapulae,eye symptoms disappear at noon,1.0,1
+pressure as from stone between scapulae,headache from draft of air,1.0,1
+pressure as from stone between scapulae,one hand cold,1.0,1
+pressure as from stone between scapulae,darting tearing pain in limbs,1.0,1
+pressure as from stone between scapulae,compatible with ferrum,1.0,1
+sensitiveness of spine to touch,parts better by hard pressure,1.0,1
+sensitiveness of spine to touch,pain in sides of chest as if bruised,1.0,1
+sensitiveness of spine to touch,small of back pain as from heavy load,1.0,1
+sensitiveness of spine to touch,aching in shoulder,1.0,1
+sensitiveness of spine to touch,small of back pain as after long stooping,1.0,1
+sensitiveness of spine to touch,drawing pain on side of spine,1.0,1
+sensitiveness of spine to touch,shooting pains in nape of neck,1.0,1
+sensitiveness of spine to touch,patients who lost normal body fluids,1.0,1
+sensitiveness of spine to touch,drawing pain in nape,1.0,1
+sensitiveness of spine to touch,pain in right knee up to thigh,1.0,1
+sensitiveness of spine to touch,compatible with calc. phos.,1.0,1
+sensitiveness of spine to touch,hard red swelling of joints,1.0,1
+sensitiveness of spine to touch,paralytic tearing pains in arm bones,1.0,1
+sensitiveness of spine to touch,other hand warm,1.0,1
+sensitiveness of spine to touch,eye becomes inflamed,1.0,1
+sensitiveness of spine to touch,shoulder pain worse from least pressure,1.0,1
+sensitiveness of spine to touch,pressure as from stone between scapulae,1.0,1
+sensitiveness of spine to touch,lame drawing in small of back,1.0,1
+sensitiveness of spine to touch,small of back pain like a cramp,1.0,1
+sensitiveness of spine to touch,violent pain in eye daily 8-9 a.m.,1.0,1
+sensitiveness of spine to touch,intense wave-like pain,1.0,1
+sensitiveness of spine to touch,sensation in thigh bone as if periosteum scraped,1.0,1
+sensitiveness of spine to touch,parts affected sensitive to touch,1.0,1
+sensitiveness of spine to touch,aching in scapulae,1.0,1
+sensitiveness of spine to touch,remittent fever,1.0,1
+sensitiveness of spine to touch,limbs feel as if after long walk,1.0,1
+sensitiveness of spine to touch,complementary to ferrum,1.0,1
+sensitiveness of spine to touch,stitches in left side of back,1.0,1
+sensitiveness of spine to touch,small of back pain worse from motion,1.0,1
+sensitiveness of spine to touch,unendurable pain in small of back,1.0,1
+sensitiveness of spine to touch,rheumatic pain in face muscles,1.0,1
+sensitiveness of spine to touch,tensive pain in small of back,1.0,1
+sensitiveness of spine to touch,intermittent fever,1.0,1
+sensitiveness of spine to touch,eye symptoms disappear at noon,1.0,1
+sensitiveness of spine to touch,headache from draft of air,1.0,1
+sensitiveness of spine to touch,one hand cold,1.0,1
+sensitiveness of spine to touch,darting tearing pain in limbs,1.0,1
+sensitiveness of spine to touch,compatible with ferrum,1.0,1
+intense wave-like pain,parts better by hard pressure,1.0,1
+intense wave-like pain,pain in sides of chest as if bruised,1.0,1
+intense wave-like pain,small of back pain as from heavy load,1.0,1
+intense wave-like pain,aching in shoulder,1.0,1
+intense wave-like pain,small of back pain as after long stooping,1.0,1
+intense wave-like pain,drawing pain on side of spine,1.0,1
+intense wave-like pain,shooting pains in nape of neck,1.0,1
+intense wave-like pain,patients who lost normal body fluids,1.0,1
+intense wave-like pain,drawing pain in nape,1.0,1
+intense wave-like pain,pain in right knee up to thigh,1.0,1
+intense wave-like pain,compatible with calc. phos.,1.0,1
+intense wave-like pain,sensitiveness of spine to touch,1.0,1
+intense wave-like pain,hard red swelling of joints,1.0,1
+intense wave-like pain,paralytic tearing pains in arm bones,1.0,1
+intense wave-like pain,other hand warm,1.0,1
+intense wave-like pain,eye becomes inflamed,1.0,1
+intense wave-like pain,shoulder pain worse from least pressure,1.0,1
+intense wave-like pain,pressure as from stone between scapulae,1.0,1
+intense wave-like pain,lame drawing in small of back,1.0,1
+intense wave-like pain,small of back pain like a cramp,1.0,1
+intense wave-like pain,violent pain in eye daily 8-9 a.m.,1.0,1
+intense wave-like pain,sensation in thigh bone as if periosteum scraped,1.0,1
+intense wave-like pain,parts affected sensitive to touch,1.0,1
+intense wave-like pain,aching in scapulae,1.0,1
+intense wave-like pain,remittent fever,1.0,1
+intense wave-like pain,limbs feel as if after long walk,1.0,1
+intense wave-like pain,complementary to ferrum,1.0,1
+intense wave-like pain,stitches in left side of back,1.0,1
+intense wave-like pain,small of back pain worse from motion,1.0,1
+intense wave-like pain,unendurable pain in small of back,1.0,1
+intense wave-like pain,rheumatic pain in face muscles,1.0,1
+intense wave-like pain,tensive pain in small of back,1.0,1
+intense wave-like pain,intermittent fever,1.0,1
+intense wave-like pain,eye symptoms disappear at noon,1.0,1
+intense wave-like pain,headache from draft of air,1.0,1
+intense wave-like pain,one hand cold,1.0,1
+intense wave-like pain,darting tearing pain in limbs,1.0,1
+intense wave-like pain,compatible with ferrum,1.0,1
+sensation in thigh bone as if periosteum scraped,parts better by hard pressure,1.0,1
+sensation in thigh bone as if periosteum scraped,pain in sides of chest as if bruised,1.0,1
+sensation in thigh bone as if periosteum scraped,small of back pain as from heavy load,1.0,1
+sensation in thigh bone as if periosteum scraped,aching in shoulder,1.0,1
+sensation in thigh bone as if periosteum scraped,small of back pain as after long stooping,1.0,1
+sensation in thigh bone as if periosteum scraped,drawing pain on side of spine,1.0,1
+sensation in thigh bone as if periosteum scraped,shooting pains in nape of neck,1.0,1
+sensation in thigh bone as if periosteum scraped,patients who lost normal body fluids,1.0,1
+sensation in thigh bone as if periosteum scraped,drawing pain in nape,1.0,1
+sensation in thigh bone as if periosteum scraped,pain in right knee up to thigh,1.0,1
+sensation in thigh bone as if periosteum scraped,compatible with calc. phos.,1.0,1
+sensation in thigh bone as if periosteum scraped,sensitiveness of spine to touch,1.0,1
+sensation in thigh bone as if periosteum scraped,hard red swelling of joints,1.0,1
+sensation in thigh bone as if periosteum scraped,paralytic tearing pains in arm bones,1.0,1
+sensation in thigh bone as if periosteum scraped,other hand warm,1.0,1
+sensation in thigh bone as if periosteum scraped,eye becomes inflamed,1.0,1
+sensation in thigh bone as if periosteum scraped,shoulder pain worse from least pressure,1.0,1
+sensation in thigh bone as if periosteum scraped,pressure as from stone between scapulae,1.0,1
+sensation in thigh bone as if periosteum scraped,lame drawing in small of back,1.0,1
+sensation in thigh bone as if periosteum scraped,small of back pain like a cramp,1.0,1
+sensation in thigh bone as if periosteum scraped,violent pain in eye daily 8-9 a.m.,1.0,1
+sensation in thigh bone as if periosteum scraped,intense wave-like pain,1.0,1
+sensation in thigh bone as if periosteum scraped,parts affected sensitive to touch,1.0,1
+sensation in thigh bone as if periosteum scraped,aching in scapulae,1.0,1
+sensation in thigh bone as if periosteum scraped,remittent fever,1.0,1
+sensation in thigh bone as if periosteum scraped,limbs feel as if after long walk,1.0,1
+sensation in thigh bone as if periosteum scraped,complementary to ferrum,1.0,1
+sensation in thigh bone as if periosteum scraped,stitches in left side of back,1.0,1
+sensation in thigh bone as if periosteum scraped,small of back pain worse from motion,1.0,1
+sensation in thigh bone as if periosteum scraped,unendurable pain in small of back,1.0,1
+sensation in thigh bone as if periosteum scraped,rheumatic pain in face muscles,1.0,1
+sensation in thigh bone as if periosteum scraped,tensive pain in small of back,1.0,1
+sensation in thigh bone as if periosteum scraped,intermittent fever,1.0,1
+sensation in thigh bone as if periosteum scraped,eye symptoms disappear at noon,1.0,1
+sensation in thigh bone as if periosteum scraped,headache from draft of air,1.0,1
+sensation in thigh bone as if periosteum scraped,one hand cold,1.0,1
+sensation in thigh bone as if periosteum scraped,darting tearing pain in limbs,1.0,1
+sensation in thigh bone as if periosteum scraped,compatible with ferrum,1.0,1
+headache from draft of air,parts better by hard pressure,1.0,1
+headache from draft of air,pain in sides of chest as if bruised,1.0,1
+headache from draft of air,small of back pain as from heavy load,1.0,1
+headache from draft of air,aching in shoulder,1.0,1
+headache from draft of air,small of back pain as after long stooping,1.0,1
+headache from draft of air,drawing pain on side of spine,1.0,1
+headache from draft of air,shooting pains in nape of neck,1.0,1
+headache from draft of air,patients who lost normal body fluids,1.0,1
+headache from draft of air,drawing pain in nape,1.0,1
+headache from draft of air,pain in right knee up to thigh,1.0,1
+headache from draft of air,compatible with calc. phos.,1.0,1
+headache from draft of air,sensitiveness of spine to touch,1.0,1
+headache from draft of air,hard red swelling of joints,1.0,1
+headache from draft of air,paralytic tearing pains in arm bones,1.0,1
+headache from draft of air,other hand warm,1.0,1
+headache from draft of air,eye becomes inflamed,1.0,1
+headache from draft of air,shoulder pain worse from least pressure,1.0,1
+headache from draft of air,pressure as from stone between scapulae,1.0,1
+headache from draft of air,lame drawing in small of back,1.0,1
+headache from draft of air,small of back pain like a cramp,1.0,1
+headache from draft of air,violent pain in eye daily 8-9 a.m.,1.0,1
+headache from draft of air,intense wave-like pain,1.0,1
+headache from draft of air,sensation in thigh bone as if periosteum scraped,1.0,1
+headache from draft of air,parts affected sensitive to touch,1.0,1
+headache from draft of air,aching in scapulae,1.0,1
+headache from draft of air,remittent fever,1.0,1
+headache from draft of air,limbs feel as if after long walk,1.0,1
+headache from draft of air,complementary to ferrum,1.0,1
+headache from draft of air,stitches in left side of back,1.0,1
+headache from draft of air,small of back pain worse from motion,1.0,1
+headache from draft of air,unendurable pain in small of back,1.0,1
+headache from draft of air,rheumatic pain in face muscles,1.0,1
+headache from draft of air,tensive pain in small of back,1.0,1
+headache from draft of air,intermittent fever,1.0,1
+headache from draft of air,eye symptoms disappear at noon,1.0,1
+headache from draft of air,one hand cold,1.0,1
+headache from draft of air,darting tearing pain in limbs,1.0,1
+headache from draft of air,compatible with ferrum,1.0,1
+violent pain in eye daily 8-9 a.m.,parts better by hard pressure,1.0,1
+violent pain in eye daily 8-9 a.m.,pain in sides of chest as if bruised,1.0,1
+violent pain in eye daily 8-9 a.m.,small of back pain as from heavy load,1.0,1
+violent pain in eye daily 8-9 a.m.,aching in shoulder,1.0,1
+violent pain in eye daily 8-9 a.m.,small of back pain as after long stooping,1.0,1
+violent pain in eye daily 8-9 a.m.,drawing pain on side of spine,1.0,1
+violent pain in eye daily 8-9 a.m.,shooting pains in nape of neck,1.0,1
+violent pain in eye daily 8-9 a.m.,patients who lost normal body fluids,1.0,1
+violent pain in eye daily 8-9 a.m.,drawing pain in nape,1.0,1
+violent pain in eye daily 8-9 a.m.,pain in right knee up to thigh,1.0,1
+violent pain in eye daily 8-9 a.m.,compatible with calc. phos.,1.0,1
+violent pain in eye daily 8-9 a.m.,sensitiveness of spine to touch,1.0,1
+violent pain in eye daily 8-9 a.m.,hard red swelling of joints,1.0,1
+violent pain in eye daily 8-9 a.m.,paralytic tearing pains in arm bones,1.0,1
+violent pain in eye daily 8-9 a.m.,other hand warm,1.0,1
+violent pain in eye daily 8-9 a.m.,eye becomes inflamed,1.0,1
+violent pain in eye daily 8-9 a.m.,shoulder pain worse from least pressure,1.0,1
+violent pain in eye daily 8-9 a.m.,pressure as from stone between scapulae,1.0,1
+violent pain in eye daily 8-9 a.m.,lame drawing in small of back,1.0,1
+violent pain in eye daily 8-9 a.m.,small of back pain like a cramp,1.0,1
+violent pain in eye daily 8-9 a.m.,intense wave-like pain,1.0,1
+violent pain in eye daily 8-9 a.m.,sensation in thigh bone as if periosteum scraped,1.0,1
+violent pain in eye daily 8-9 a.m.,parts affected sensitive to touch,1.0,1
+violent pain in eye daily 8-9 a.m.,aching in scapulae,1.0,1
+violent pain in eye daily 8-9 a.m.,remittent fever,1.0,1
+violent pain in eye daily 8-9 a.m.,limbs feel as if after long walk,1.0,1
+violent pain in eye daily 8-9 a.m.,complementary to ferrum,1.0,1
+violent pain in eye daily 8-9 a.m.,stitches in left side of back,1.0,1
+violent pain in eye daily 8-9 a.m.,small of back pain worse from motion,1.0,1
+violent pain in eye daily 8-9 a.m.,unendurable pain in small of back,1.0,1
+violent pain in eye daily 8-9 a.m.,rheumatic pain in face muscles,1.0,1
+violent pain in eye daily 8-9 a.m.,tensive pain in small of back,1.0,1
+violent pain in eye daily 8-9 a.m.,intermittent fever,1.0,1
+violent pain in eye daily 8-9 a.m.,eye symptoms disappear at noon,1.0,1
+violent pain in eye daily 8-9 a.m.,headache from draft of air,1.0,1
+violent pain in eye daily 8-9 a.m.,one hand cold,1.0,1
+violent pain in eye daily 8-9 a.m.,darting tearing pain in limbs,1.0,1
+violent pain in eye daily 8-9 a.m.,compatible with ferrum,1.0,1
+pain in sides of chest as if bruised,parts better by hard pressure,1.0,1
+pain in sides of chest as if bruised,small of back pain as from heavy load,1.0,1
+pain in sides of chest as if bruised,aching in shoulder,1.0,1
+pain in sides of chest as if bruised,small of back pain as after long stooping,1.0,1
+pain in sides of chest as if bruised,drawing pain on side of spine,1.0,1
+pain in sides of chest as if bruised,shooting pains in nape of neck,1.0,1
+pain in sides of chest as if bruised,patients who lost normal body fluids,1.0,1
+pain in sides of chest as if bruised,drawing pain in nape,1.0,1
+pain in sides of chest as if bruised,pain in right knee up to thigh,1.0,1
+pain in sides of chest as if bruised,compatible with calc. phos.,1.0,1
+pain in sides of chest as if bruised,sensitiveness of spine to touch,1.0,1
+pain in sides of chest as if bruised,hard red swelling of joints,1.0,1
+pain in sides of chest as if bruised,paralytic tearing pains in arm bones,1.0,1
+pain in sides of chest as if bruised,other hand warm,1.0,1
+pain in sides of chest as if bruised,eye becomes inflamed,1.0,1
+pain in sides of chest as if bruised,shoulder pain worse from least pressure,1.0,1
+pain in sides of chest as if bruised,pressure as from stone between scapulae,1.0,1
+pain in sides of chest as if bruised,lame drawing in small of back,1.0,1
+pain in sides of chest as if bruised,small of back pain like a cramp,1.0,1
+pain in sides of chest as if bruised,violent pain in eye daily 8-9 a.m.,1.0,1
+pain in sides of chest as if bruised,intense wave-like pain,1.0,1
+pain in sides of chest as if bruised,sensation in thigh bone as if periosteum scraped,1.0,1
+pain in sides of chest as if bruised,parts affected sensitive to touch,1.0,1
+pain in sides of chest as if bruised,aching in scapulae,1.0,1
+pain in sides of chest as if bruised,remittent fever,1.0,1
+pain in sides of chest as if bruised,limbs feel as if after long walk,1.0,1
+pain in sides of chest as if bruised,complementary to ferrum,1.0,1
+pain in sides of chest as if bruised,stitches in left side of back,1.0,1
+pain in sides of chest as if bruised,small of back pain worse from motion,1.0,1
+pain in sides of chest as if bruised,unendurable pain in small of back,1.0,1
+pain in sides of chest as if bruised,rheumatic pain in face muscles,1.0,1
+pain in sides of chest as if bruised,tensive pain in small of back,1.0,1
+pain in sides of chest as if bruised,intermittent fever,1.0,1
+pain in sides of chest as if bruised,eye symptoms disappear at noon,1.0,1
+pain in sides of chest as if bruised,headache from draft of air,1.0,1
+pain in sides of chest as if bruised,one hand cold,1.0,1
+pain in sides of chest as if bruised,darting tearing pain in limbs,1.0,1
+pain in sides of chest as if bruised,compatible with ferrum,1.0,1
+complementary to ferrum,parts better by hard pressure,1.0,1
+complementary to ferrum,pain in sides of chest as if bruised,1.0,1
+complementary to ferrum,small of back pain as from heavy load,1.0,1
+complementary to ferrum,aching in shoulder,1.0,1
+complementary to ferrum,small of back pain as after long stooping,1.0,1
+complementary to ferrum,drawing pain on side of spine,1.0,1
+complementary to ferrum,shooting pains in nape of neck,1.0,1
+complementary to ferrum,patients who lost normal body fluids,1.0,1
+complementary to ferrum,drawing pain in nape,1.0,1
+complementary to ferrum,pain in right knee up to thigh,1.0,1
+complementary to ferrum,compatible with calc. phos.,1.0,1
+complementary to ferrum,sensitiveness of spine to touch,1.0,1
+complementary to ferrum,hard red swelling of joints,1.0,1
+complementary to ferrum,paralytic tearing pains in arm bones,1.0,1
+complementary to ferrum,other hand warm,1.0,1
+complementary to ferrum,eye becomes inflamed,1.0,1
+complementary to ferrum,shoulder pain worse from least pressure,1.0,1
+complementary to ferrum,pressure as from stone between scapulae,1.0,1
+complementary to ferrum,lame drawing in small of back,1.0,1
+complementary to ferrum,small of back pain like a cramp,1.0,1
+complementary to ferrum,violent pain in eye daily 8-9 a.m.,1.0,1
+complementary to ferrum,intense wave-like pain,1.0,1
+complementary to ferrum,sensation in thigh bone as if periosteum scraped,1.0,1
+complementary to ferrum,parts affected sensitive to touch,1.0,1
+complementary to ferrum,aching in scapulae,1.0,1
+complementary to ferrum,remittent fever,1.0,1
+complementary to ferrum,limbs feel as if after long walk,1.0,1
+complementary to ferrum,stitches in left side of back,1.0,1
+complementary to ferrum,small of back pain worse from motion,1.0,1
+complementary to ferrum,unendurable pain in small of back,1.0,1
+complementary to ferrum,rheumatic pain in face muscles,1.0,1
+complementary to ferrum,tensive pain in small of back,1.0,1
+complementary to ferrum,intermittent fever,1.0,1
+complementary to ferrum,eye symptoms disappear at noon,1.0,1
+complementary to ferrum,headache from draft of air,1.0,1
+complementary to ferrum,one hand cold,1.0,1
+complementary to ferrum,darting tearing pain in limbs,1.0,1
+complementary to ferrum,compatible with ferrum,1.0,1
+unendurable pain in small of back,parts better by hard pressure,1.0,1
+unendurable pain in small of back,pain in sides of chest as if bruised,1.0,1
+unendurable pain in small of back,small of back pain as from heavy load,1.0,1
+unendurable pain in small of back,aching in shoulder,1.0,1
+unendurable pain in small of back,small of back pain as after long stooping,1.0,1
+unendurable pain in small of back,drawing pain on side of spine,1.0,1
+unendurable pain in small of back,shooting pains in nape of neck,1.0,1
+unendurable pain in small of back,patients who lost normal body fluids,1.0,1
+unendurable pain in small of back,drawing pain in nape,1.0,1
+unendurable pain in small of back,pain in right knee up to thigh,1.0,1
+unendurable pain in small of back,compatible with calc. phos.,1.0,1
+unendurable pain in small of back,sensitiveness of spine to touch,1.0,1
+unendurable pain in small of back,hard red swelling of joints,1.0,1
+unendurable pain in small of back,paralytic tearing pains in arm bones,1.0,1
+unendurable pain in small of back,other hand warm,1.0,1
+unendurable pain in small of back,eye becomes inflamed,1.0,1
+unendurable pain in small of back,shoulder pain worse from least pressure,1.0,1
+unendurable pain in small of back,pressure as from stone between scapulae,1.0,1
+unendurable pain in small of back,lame drawing in small of back,1.0,1
+unendurable pain in small of back,small of back pain like a cramp,1.0,1
+unendurable pain in small of back,violent pain in eye daily 8-9 a.m.,1.0,1
+unendurable pain in small of back,intense wave-like pain,1.0,1
+unendurable pain in small of back,sensation in thigh bone as if periosteum scraped,1.0,1
+unendurable pain in small of back,parts affected sensitive to touch,1.0,1
+unendurable pain in small of back,aching in scapulae,1.0,1
+unendurable pain in small of back,remittent fever,1.0,1
+unendurable pain in small of back,limbs feel as if after long walk,1.0,1
+unendurable pain in small of back,complementary to ferrum,1.0,1
+unendurable pain in small of back,stitches in left side of back,1.0,1
+unendurable pain in small of back,small of back pain worse from motion,1.0,1
+unendurable pain in small of back,rheumatic pain in face muscles,1.0,1
+unendurable pain in small of back,tensive pain in small of back,1.0,1
+unendurable pain in small of back,intermittent fever,1.0,1
+unendurable pain in small of back,eye symptoms disappear at noon,1.0,1
+unendurable pain in small of back,headache from draft of air,1.0,1
+unendurable pain in small of back,one hand cold,1.0,1
+unendurable pain in small of back,darting tearing pain in limbs,1.0,1
+unendurable pain in small of back,compatible with ferrum,1.0,1
+drawing pain on side of spine,parts better by hard pressure,1.0,1
+drawing pain on side of spine,pain in sides of chest as if bruised,1.0,1
+drawing pain on side of spine,small of back pain as from heavy load,1.0,1
+drawing pain on side of spine,aching in shoulder,1.0,1
+drawing pain on side of spine,small of back pain as after long stooping,1.0,1
+drawing pain on side of spine,shooting pains in nape of neck,1.0,1
+drawing pain on side of spine,patients who lost normal body fluids,1.0,1
+drawing pain on side of spine,drawing pain in nape,1.0,1
+drawing pain on side of spine,pain in right knee up to thigh,1.0,1
+drawing pain on side of spine,compatible with calc. phos.,1.0,1
+drawing pain on side of spine,sensitiveness of spine to touch,1.0,1
+drawing pain on side of spine,hard red swelling of joints,1.0,1
+drawing pain on side of spine,paralytic tearing pains in arm bones,1.0,1
+drawing pain on side of spine,other hand warm,1.0,1
+drawing pain on side of spine,eye becomes inflamed,1.0,1
+drawing pain on side of spine,shoulder pain worse from least pressure,1.0,1
+drawing pain on side of spine,pressure as from stone between scapulae,1.0,1
+drawing pain on side of spine,lame drawing in small of back,1.0,1
+drawing pain on side of spine,small of back pain like a cramp,1.0,1
+drawing pain on side of spine,violent pain in eye daily 8-9 a.m.,1.0,1
+drawing pain on side of spine,intense wave-like pain,1.0,1
+drawing pain on side of spine,sensation in thigh bone as if periosteum scraped,1.0,1
+drawing pain on side of spine,parts affected sensitive to touch,1.0,1
+drawing pain on side of spine,aching in scapulae,1.0,1
+drawing pain on side of spine,remittent fever,1.0,1
+drawing pain on side of spine,limbs feel as if after long walk,1.0,1
+drawing pain on side of spine,complementary to ferrum,1.0,1
+drawing pain on side of spine,stitches in left side of back,1.0,1
+drawing pain on side of spine,small of back pain worse from motion,1.0,1
+drawing pain on side of spine,unendurable pain in small of back,1.0,1
+drawing pain on side of spine,rheumatic pain in face muscles,1.0,1
+drawing pain on side of spine,tensive pain in small of back,1.0,1
+drawing pain on side of spine,intermittent fever,1.0,1
+drawing pain on side of spine,eye symptoms disappear at noon,1.0,1
+drawing pain on side of spine,headache from draft of air,1.0,1
+drawing pain on side of spine,one hand cold,1.0,1
+drawing pain on side of spine,darting tearing pain in limbs,1.0,1
+drawing pain on side of spine,compatible with ferrum,1.0,1
+parts affected sensitive to touch,parts better by hard pressure,1.0,1
+parts affected sensitive to touch,pain in sides of chest as if bruised,1.0,1
+parts affected sensitive to touch,small of back pain as from heavy load,1.0,1
+parts affected sensitive to touch,aching in shoulder,1.0,1
+parts affected sensitive to touch,small of back pain as after long stooping,1.0,1
+parts affected sensitive to touch,drawing pain on side of spine,1.0,1
+parts affected sensitive to touch,shooting pains in nape of neck,1.0,1
+parts affected sensitive to touch,patients who lost normal body fluids,1.0,1
+parts affected sensitive to touch,drawing pain in nape,1.0,1
+parts affected sensitive to touch,pain in right knee up to thigh,1.0,1
+parts affected sensitive to touch,compatible with calc. phos.,1.0,1
+parts affected sensitive to touch,sensitiveness of spine to touch,1.0,1
+parts affected sensitive to touch,hard red swelling of joints,1.0,1
+parts affected sensitive to touch,paralytic tearing pains in arm bones,1.0,1
+parts affected sensitive to touch,other hand warm,1.0,1
+parts affected sensitive to touch,eye becomes inflamed,1.0,1
+parts affected sensitive to touch,shoulder pain worse from least pressure,1.0,1
+parts affected sensitive to touch,pressure as from stone between scapulae,1.0,1
+parts affected sensitive to touch,lame drawing in small of back,1.0,1
+parts affected sensitive to touch,small of back pain like a cramp,1.0,1
+parts affected sensitive to touch,violent pain in eye daily 8-9 a.m.,1.0,1
+parts affected sensitive to touch,intense wave-like pain,1.0,1
+parts affected sensitive to touch,sensation in thigh bone as if periosteum scraped,1.0,1
+parts affected sensitive to touch,aching in scapulae,1.0,1
+parts affected sensitive to touch,remittent fever,1.0,1
+parts affected sensitive to touch,limbs feel as if after long walk,1.0,1
+parts affected sensitive to touch,complementary to ferrum,1.0,1
+parts affected sensitive to touch,stitches in left side of back,1.0,1
+parts affected sensitive to touch,small of back pain worse from motion,1.0,1
+parts affected sensitive to touch,unendurable pain in small of back,1.0,1
+parts affected sensitive to touch,rheumatic pain in face muscles,1.0,1
+parts affected sensitive to touch,tensive pain in small of back,1.0,1
+parts affected sensitive to touch,intermittent fever,1.0,1
+parts affected sensitive to touch,eye symptoms disappear at noon,1.0,1
+parts affected sensitive to touch,headache from draft of air,1.0,1
+parts affected sensitive to touch,one hand cold,1.0,1
+parts affected sensitive to touch,darting tearing pain in limbs,1.0,1
+parts affected sensitive to touch,compatible with ferrum,1.0,1
+stitches in left side of back,parts better by hard pressure,1.0,1
+stitches in left side of back,pain in sides of chest as if bruised,1.0,1
+stitches in left side of back,small of back pain as from heavy load,1.0,1
+stitches in left side of back,aching in shoulder,1.0,1
+stitches in left side of back,small of back pain as after long stooping,1.0,1
+stitches in left side of back,drawing pain on side of spine,1.0,1
+stitches in left side of back,shooting pains in nape of neck,1.0,1
+stitches in left side of back,patients who lost normal body fluids,1.0,1
+stitches in left side of back,drawing pain in nape,1.0,1
+stitches in left side of back,pain in right knee up to thigh,1.0,1
+stitches in left side of back,compatible with calc. phos.,1.0,1
+stitches in left side of back,sensitiveness of spine to touch,1.0,1
+stitches in left side of back,hard red swelling of joints,1.0,1
+stitches in left side of back,paralytic tearing pains in arm bones,1.0,1
+stitches in left side of back,other hand warm,1.0,1
+stitches in left side of back,eye becomes inflamed,1.0,1
+stitches in left side of back,shoulder pain worse from least pressure,1.0,1
+stitches in left side of back,pressure as from stone between scapulae,1.0,1
+stitches in left side of back,lame drawing in small of back,1.0,1
+stitches in left side of back,small of back pain like a cramp,1.0,1
+stitches in left side of back,violent pain in eye daily 8-9 a.m.,1.0,1
+stitches in left side of back,intense wave-like pain,1.0,1
+stitches in left side of back,sensation in thigh bone as if periosteum scraped,1.0,1
+stitches in left side of back,parts affected sensitive to touch,1.0,1
+stitches in left side of back,aching in scapulae,1.0,1
+stitches in left side of back,remittent fever,1.0,1
+stitches in left side of back,limbs feel as if after long walk,1.0,1
+stitches in left side of back,complementary to ferrum,1.0,1
+stitches in left side of back,small of back pain worse from motion,1.0,1
+stitches in left side of back,unendurable pain in small of back,1.0,1
+stitches in left side of back,rheumatic pain in face muscles,1.0,1
+stitches in left side of back,tensive pain in small of back,1.0,1
+stitches in left side of back,intermittent fever,1.0,1
+stitches in left side of back,eye symptoms disappear at noon,1.0,1
+stitches in left side of back,headache from draft of air,1.0,1
+stitches in left side of back,one hand cold,1.0,1
+stitches in left side of back,darting tearing pain in limbs,1.0,1
+stitches in left side of back,compatible with ferrum,1.0,1
+small of back pain worse from motion,parts better by hard pressure,1.0,1
+small of back pain worse from motion,pain in sides of chest as if bruised,1.0,1
+small of back pain worse from motion,small of back pain as from heavy load,1.0,1
+small of back pain worse from motion,aching in shoulder,1.0,1
+small of back pain worse from motion,small of back pain as after long stooping,1.0,1
+small of back pain worse from motion,drawing pain on side of spine,1.0,1
+small of back pain worse from motion,shooting pains in nape of neck,1.0,1
+small of back pain worse from motion,patients who lost normal body fluids,1.0,1
+small of back pain worse from motion,drawing pain in nape,1.0,1
+small of back pain worse from motion,pain in right knee up to thigh,1.0,1
+small of back pain worse from motion,compatible with calc. phos.,1.0,1
+small of back pain worse from motion,sensitiveness of spine to touch,1.0,1
+small of back pain worse from motion,hard red swelling of joints,1.0,1
+small of back pain worse from motion,paralytic tearing pains in arm bones,1.0,1
+small of back pain worse from motion,other hand warm,1.0,1
+small of back pain worse from motion,eye becomes inflamed,1.0,1
+small of back pain worse from motion,shoulder pain worse from least pressure,1.0,1
+small of back pain worse from motion,pressure as from stone between scapulae,1.0,1
+small of back pain worse from motion,lame drawing in small of back,1.0,1
+small of back pain worse from motion,small of back pain like a cramp,1.0,1
+small of back pain worse from motion,violent pain in eye daily 8-9 a.m.,1.0,1
+small of back pain worse from motion,intense wave-like pain,1.0,1
+small of back pain worse from motion,sensation in thigh bone as if periosteum scraped,1.0,1
+small of back pain worse from motion,parts affected sensitive to touch,1.0,1
+small of back pain worse from motion,aching in scapulae,1.0,1
+small of back pain worse from motion,remittent fever,1.0,1
+small of back pain worse from motion,limbs feel as if after long walk,1.0,1
+small of back pain worse from motion,complementary to ferrum,1.0,1
+small of back pain worse from motion,stitches in left side of back,1.0,1
+small of back pain worse from motion,unendurable pain in small of back,1.0,1
+small of back pain worse from motion,rheumatic pain in face muscles,1.0,1
+small of back pain worse from motion,tensive pain in small of back,1.0,1
+small of back pain worse from motion,intermittent fever,1.0,1
+small of back pain worse from motion,eye symptoms disappear at noon,1.0,1
+small of back pain worse from motion,headache from draft of air,1.0,1
+small of back pain worse from motion,one hand cold,1.0,1
+small of back pain worse from motion,darting tearing pain in limbs,1.0,1
+small of back pain worse from motion,compatible with ferrum,1.0,1
+rheumatic pain in face muscles,parts better by hard pressure,1.0,1
+rheumatic pain in face muscles,pain in sides of chest as if bruised,1.0,1
+rheumatic pain in face muscles,small of back pain as from heavy load,1.0,1
+rheumatic pain in face muscles,aching in shoulder,1.0,1
+rheumatic pain in face muscles,small of back pain as after long stooping,1.0,1
+rheumatic pain in face muscles,drawing pain on side of spine,1.0,1
+rheumatic pain in face muscles,shooting pains in nape of neck,1.0,1
+rheumatic pain in face muscles,patients who lost normal body fluids,1.0,1
+rheumatic pain in face muscles,drawing pain in nape,1.0,1
+rheumatic pain in face muscles,pain in right knee up to thigh,1.0,1
+rheumatic pain in face muscles,compatible with calc. phos.,1.0,1
+rheumatic pain in face muscles,sensitiveness of spine to touch,1.0,1
+rheumatic pain in face muscles,hard red swelling of joints,1.0,1
+rheumatic pain in face muscles,paralytic tearing pains in arm bones,1.0,1
+rheumatic pain in face muscles,other hand warm,1.0,1
+rheumatic pain in face muscles,eye becomes inflamed,1.0,1
+rheumatic pain in face muscles,shoulder pain worse from least pressure,1.0,1
+rheumatic pain in face muscles,pressure as from stone between scapulae,1.0,1
+rheumatic pain in face muscles,lame drawing in small of back,1.0,1
+rheumatic pain in face muscles,small of back pain like a cramp,1.0,1
+rheumatic pain in face muscles,violent pain in eye daily 8-9 a.m.,1.0,1
+rheumatic pain in face muscles,intense wave-like pain,1.0,1
+rheumatic pain in face muscles,sensation in thigh bone as if periosteum scraped,1.0,1
+rheumatic pain in face muscles,parts affected sensitive to touch,1.0,1
+rheumatic pain in face muscles,aching in scapulae,1.0,1
+rheumatic pain in face muscles,remittent fever,1.0,1
+rheumatic pain in face muscles,limbs feel as if after long walk,1.0,1
+rheumatic pain in face muscles,complementary to ferrum,1.0,1
+rheumatic pain in face muscles,stitches in left side of back,1.0,1
+rheumatic pain in face muscles,small of back pain worse from motion,1.0,1
+rheumatic pain in face muscles,unendurable pain in small of back,1.0,1
+rheumatic pain in face muscles,tensive pain in small of back,1.0,1
+rheumatic pain in face muscles,intermittent fever,1.0,1
+rheumatic pain in face muscles,eye symptoms disappear at noon,1.0,1
+rheumatic pain in face muscles,headache from draft of air,1.0,1
+rheumatic pain in face muscles,one hand cold,1.0,1
+rheumatic pain in face muscles,darting tearing pain in limbs,1.0,1
+rheumatic pain in face muscles,compatible with ferrum,1.0,1
+hard red swelling of joints,parts better by hard pressure,1.0,1
+hard red swelling of joints,pain in sides of chest as if bruised,1.0,1
+hard red swelling of joints,small of back pain as from heavy load,1.0,1
+hard red swelling of joints,aching in shoulder,1.0,1
+hard red swelling of joints,small of back pain as after long stooping,1.0,1
+hard red swelling of joints,drawing pain on side of spine,1.0,1
+hard red swelling of joints,shooting pains in nape of neck,1.0,1
+hard red swelling of joints,patients who lost normal body fluids,1.0,1
+hard red swelling of joints,drawing pain in nape,1.0,1
+hard red swelling of joints,pain in right knee up to thigh,1.0,1
+hard red swelling of joints,compatible with calc. phos.,1.0,1
+hard red swelling of joints,sensitiveness of spine to touch,1.0,1
+hard red swelling of joints,paralytic tearing pains in arm bones,1.0,1
+hard red swelling of joints,other hand warm,1.0,1
+hard red swelling of joints,eye becomes inflamed,1.0,1
+hard red swelling of joints,shoulder pain worse from least pressure,1.0,1
+hard red swelling of joints,pressure as from stone between scapulae,1.0,1
+hard red swelling of joints,lame drawing in small of back,1.0,1
+hard red swelling of joints,small of back pain like a cramp,1.0,1
+hard red swelling of joints,violent pain in eye daily 8-9 a.m.,1.0,1
+hard red swelling of joints,intense wave-like pain,1.0,1
+hard red swelling of joints,sensation in thigh bone as if periosteum scraped,1.0,1
+hard red swelling of joints,parts affected sensitive to touch,1.0,1
+hard red swelling of joints,aching in scapulae,1.0,1
+hard red swelling of joints,remittent fever,1.0,1
+hard red swelling of joints,limbs feel as if after long walk,1.0,1
+hard red swelling of joints,complementary to ferrum,1.0,1
+hard red swelling of joints,stitches in left side of back,1.0,1
+hard red swelling of joints,small of back pain worse from motion,1.0,1
+hard red swelling of joints,unendurable pain in small of back,1.0,1
+hard red swelling of joints,rheumatic pain in face muscles,1.0,1
+hard red swelling of joints,tensive pain in small of back,1.0,1
+hard red swelling of joints,intermittent fever,1.0,1
+hard red swelling of joints,eye symptoms disappear at noon,1.0,1
+hard red swelling of joints,headache from draft of air,1.0,1
+hard red swelling of joints,one hand cold,1.0,1
+hard red swelling of joints,darting tearing pain in limbs,1.0,1
+hard red swelling of joints,compatible with ferrum,1.0,1
+remittent fever,parts better by hard pressure,1.0,1
+remittent fever,pain in sides of chest as if bruised,1.0,1
+remittent fever,small of back pain as from heavy load,1.0,1
+remittent fever,aching in shoulder,1.0,1
+remittent fever,small of back pain as after long stooping,1.0,1
+remittent fever,drawing pain on side of spine,1.0,1
+remittent fever,shooting pains in nape of neck,1.0,1
+remittent fever,patients who lost normal body fluids,1.0,1
+remittent fever,drawing pain in nape,1.0,1
+remittent fever,pain in right knee up to thigh,1.0,1
+remittent fever,compatible with calc. phos.,1.0,1
+remittent fever,sensitiveness of spine to touch,1.0,1
+remittent fever,hard red swelling of joints,1.0,1
+remittent fever,paralytic tearing pains in arm bones,1.0,1
+remittent fever,other hand warm,1.0,1
+remittent fever,eye becomes inflamed,1.0,1
+remittent fever,shoulder pain worse from least pressure,1.0,1
+remittent fever,pressure as from stone between scapulae,1.0,1
+remittent fever,lame drawing in small of back,1.0,1
+remittent fever,small of back pain like a cramp,1.0,1
+remittent fever,violent pain in eye daily 8-9 a.m.,1.0,1
+remittent fever,intense wave-like pain,1.0,1
+remittent fever,sensation in thigh bone as if periosteum scraped,1.0,1
+remittent fever,parts affected sensitive to touch,1.0,1
+remittent fever,aching in scapulae,1.0,1
+remittent fever,limbs feel as if after long walk,1.0,1
+remittent fever,complementary to ferrum,1.0,1
+remittent fever,stitches in left side of back,1.0,1
+remittent fever,small of back pain worse from motion,1.0,1
+remittent fever,unendurable pain in small of back,1.0,1
+remittent fever,rheumatic pain in face muscles,1.0,1
+remittent fever,tensive pain in small of back,1.0,1
+remittent fever,intermittent fever,1.0,1
+remittent fever,eye symptoms disappear at noon,1.0,1
+remittent fever,headache from draft of air,1.0,1
+remittent fever,one hand cold,1.0,1
+remittent fever,darting tearing pain in limbs,1.0,1
+remittent fever,compatible with ferrum,1.0,1
+tensive pain in small of back,parts better by hard pressure,1.0,1
+tensive pain in small of back,pain in sides of chest as if bruised,1.0,1
+tensive pain in small of back,small of back pain as from heavy load,1.0,1
+tensive pain in small of back,aching in shoulder,1.0,1
+tensive pain in small of back,small of back pain as after long stooping,1.0,1
+tensive pain in small of back,drawing pain on side of spine,1.0,1
+tensive pain in small of back,shooting pains in nape of neck,1.0,1
+tensive pain in small of back,patients who lost normal body fluids,1.0,1
+tensive pain in small of back,drawing pain in nape,1.0,1
+tensive pain in small of back,pain in right knee up to thigh,1.0,1
+tensive pain in small of back,compatible with calc. phos.,1.0,1
+tensive pain in small of back,sensitiveness of spine to touch,1.0,1
+tensive pain in small of back,hard red swelling of joints,1.0,1
+tensive pain in small of back,paralytic tearing pains in arm bones,1.0,1
+tensive pain in small of back,other hand warm,1.0,1
+tensive pain in small of back,eye becomes inflamed,1.0,1
+tensive pain in small of back,shoulder pain worse from least pressure,1.0,1
+tensive pain in small of back,pressure as from stone between scapulae,1.0,1
+tensive pain in small of back,lame drawing in small of back,1.0,1
+tensive pain in small of back,small of back pain like a cramp,1.0,1
+tensive pain in small of back,violent pain in eye daily 8-9 a.m.,1.0,1
+tensive pain in small of back,intense wave-like pain,1.0,1
+tensive pain in small of back,sensation in thigh bone as if periosteum scraped,1.0,1
+tensive pain in small of back,parts affected sensitive to touch,1.0,1
+tensive pain in small of back,aching in scapulae,1.0,1
+tensive pain in small of back,remittent fever,1.0,1
+tensive pain in small of back,limbs feel as if after long walk,1.0,1
+tensive pain in small of back,complementary to ferrum,1.0,1
+tensive pain in small of back,stitches in left side of back,1.0,1
+tensive pain in small of back,small of back pain worse from motion,1.0,1
+tensive pain in small of back,unendurable pain in small of back,1.0,1
+tensive pain in small of back,rheumatic pain in face muscles,1.0,1
+tensive pain in small of back,intermittent fever,1.0,1
+tensive pain in small of back,eye symptoms disappear at noon,1.0,1
+tensive pain in small of back,headache from draft of air,1.0,1
+tensive pain in small of back,one hand cold,1.0,1
+tensive pain in small of back,darting tearing pain in limbs,1.0,1
+tensive pain in small of back,compatible with ferrum,1.0,1
+lame drawing in small of back,parts better by hard pressure,1.0,1
+lame drawing in small of back,pain in sides of chest as if bruised,1.0,1
+lame drawing in small of back,small of back pain as from heavy load,1.0,1
+lame drawing in small of back,aching in shoulder,1.0,1
+lame drawing in small of back,small of back pain as after long stooping,1.0,1
+lame drawing in small of back,drawing pain on side of spine,1.0,1
+lame drawing in small of back,shooting pains in nape of neck,1.0,1
+lame drawing in small of back,patients who lost normal body fluids,1.0,1
+lame drawing in small of back,drawing pain in nape,1.0,1
+lame drawing in small of back,pain in right knee up to thigh,1.0,1
+lame drawing in small of back,compatible with calc. phos.,1.0,1
+lame drawing in small of back,sensitiveness of spine to touch,1.0,1
+lame drawing in small of back,hard red swelling of joints,1.0,1
+lame drawing in small of back,paralytic tearing pains in arm bones,1.0,1
+lame drawing in small of back,other hand warm,1.0,1
+lame drawing in small of back,eye becomes inflamed,1.0,1
+lame drawing in small of back,shoulder pain worse from least pressure,1.0,1
+lame drawing in small of back,pressure as from stone between scapulae,1.0,1
+lame drawing in small of back,small of back pain like a cramp,1.0,1
+lame drawing in small of back,violent pain in eye daily 8-9 a.m.,1.0,1
+lame drawing in small of back,intense wave-like pain,1.0,1
+lame drawing in small of back,sensation in thigh bone as if periosteum scraped,1.0,1
+lame drawing in small of back,parts affected sensitive to touch,1.0,1
+lame drawing in small of back,aching in scapulae,1.0,1
+lame drawing in small of back,remittent fever,1.0,1
+lame drawing in small of back,limbs feel as if after long walk,1.0,1
+lame drawing in small of back,complementary to ferrum,1.0,1
+lame drawing in small of back,stitches in left side of back,1.0,1
+lame drawing in small of back,small of back pain worse from motion,1.0,1
+lame drawing in small of back,unendurable pain in small of back,1.0,1
+lame drawing in small of back,rheumatic pain in face muscles,1.0,1
+lame drawing in small of back,tensive pain in small of back,1.0,1
+lame drawing in small of back,intermittent fever,1.0,1
+lame drawing in small of back,eye symptoms disappear at noon,1.0,1
+lame drawing in small of back,headache from draft of air,1.0,1
+lame drawing in small of back,one hand cold,1.0,1
+lame drawing in small of back,darting tearing pain in limbs,1.0,1
+lame drawing in small of back,compatible with ferrum,1.0,1
+eye symptoms disappear at noon,parts better by hard pressure,1.0,1
+eye symptoms disappear at noon,pain in sides of chest as if bruised,1.0,1
+eye symptoms disappear at noon,small of back pain as from heavy load,1.0,1
+eye symptoms disappear at noon,aching in shoulder,1.0,1
+eye symptoms disappear at noon,small of back pain as after long stooping,1.0,1
+eye symptoms disappear at noon,drawing pain on side of spine,1.0,1
+eye symptoms disappear at noon,shooting pains in nape of neck,1.0,1
+eye symptoms disappear at noon,patients who lost normal body fluids,1.0,1
+eye symptoms disappear at noon,drawing pain in nape,1.0,1
+eye symptoms disappear at noon,pain in right knee up to thigh,1.0,1
+eye symptoms disappear at noon,compatible with calc. phos.,1.0,1
+eye symptoms disappear at noon,sensitiveness of spine to touch,1.0,1
+eye symptoms disappear at noon,hard red swelling of joints,1.0,1
+eye symptoms disappear at noon,paralytic tearing pains in arm bones,1.0,1
+eye symptoms disappear at noon,other hand warm,1.0,1
+eye symptoms disappear at noon,eye becomes inflamed,1.0,1
+eye symptoms disappear at noon,shoulder pain worse from least pressure,1.0,1
+eye symptoms disappear at noon,pressure as from stone between scapulae,1.0,1
+eye symptoms disappear at noon,lame drawing in small of back,1.0,1
+eye symptoms disappear at noon,small of back pain like a cramp,1.0,1
+eye symptoms disappear at noon,violent pain in eye daily 8-9 a.m.,1.0,1
+eye symptoms disappear at noon,intense wave-like pain,1.0,1
+eye symptoms disappear at noon,sensation in thigh bone as if periosteum scraped,1.0,1
+eye symptoms disappear at noon,parts affected sensitive to touch,1.0,1
+eye symptoms disappear at noon,aching in scapulae,1.0,1
+eye symptoms disappear at noon,remittent fever,1.0,1
+eye symptoms disappear at noon,limbs feel as if after long walk,1.0,1
+eye symptoms disappear at noon,complementary to ferrum,1.0,1
+eye symptoms disappear at noon,stitches in left side of back,1.0,1
+eye symptoms disappear at noon,small of back pain worse from motion,1.0,1
+eye symptoms disappear at noon,unendurable pain in small of back,1.0,1
+eye symptoms disappear at noon,rheumatic pain in face muscles,1.0,1
+eye symptoms disappear at noon,tensive pain in small of back,1.0,1
+eye symptoms disappear at noon,intermittent fever,1.0,1
+eye symptoms disappear at noon,headache from draft of air,1.0,1
+eye symptoms disappear at noon,one hand cold,1.0,1
+eye symptoms disappear at noon,darting tearing pain in limbs,1.0,1
+eye symptoms disappear at noon,compatible with ferrum,1.0,1
+aching in shoulder,parts better by hard pressure,1.0,1
+aching in shoulder,pain in sides of chest as if bruised,1.0,1
+aching in shoulder,small of back pain as from heavy load,1.0,1
+aching in shoulder,small of back pain as after long stooping,1.0,1
+aching in shoulder,drawing pain on side of spine,1.0,1
+aching in shoulder,shooting pains in nape of neck,1.0,1
+aching in shoulder,patients who lost normal body fluids,1.0,1
+aching in shoulder,drawing pain in nape,1.0,1
+aching in shoulder,pain in right knee up to thigh,1.0,1
+aching in shoulder,compatible with calc. phos.,1.0,1
+aching in shoulder,sensitiveness of spine to touch,1.0,1
+aching in shoulder,hard red swelling of joints,1.0,1
+aching in shoulder,paralytic tearing pains in arm bones,1.0,1
+aching in shoulder,other hand warm,1.0,1
+aching in shoulder,eye becomes inflamed,1.0,1
+aching in shoulder,shoulder pain worse from least pressure,1.0,1
+aching in shoulder,pressure as from stone between scapulae,1.0,1
+aching in shoulder,lame drawing in small of back,1.0,1
+aching in shoulder,small of back pain like a cramp,1.0,1
+aching in shoulder,violent pain in eye daily 8-9 a.m.,1.0,1
+aching in shoulder,intense wave-like pain,1.0,1
+aching in shoulder,sensation in thigh bone as if periosteum scraped,1.0,1
+aching in shoulder,parts affected sensitive to touch,1.0,1
+aching in shoulder,aching in scapulae,1.0,1
+aching in shoulder,remittent fever,1.0,1
+aching in shoulder,limbs feel as if after long walk,1.0,1
+aching in shoulder,complementary to ferrum,1.0,1
+aching in shoulder,stitches in left side of back,1.0,1
+aching in shoulder,small of back pain worse from motion,1.0,1
+aching in shoulder,unendurable pain in small of back,1.0,1
+aching in shoulder,rheumatic pain in face muscles,1.0,1
+aching in shoulder,tensive pain in small of back,1.0,1
+aching in shoulder,intermittent fever,1.0,1
+aching in shoulder,eye symptoms disappear at noon,1.0,1
+aching in shoulder,headache from draft of air,1.0,1
+aching in shoulder,one hand cold,1.0,1
+aching in shoulder,darting tearing pain in limbs,1.0,1
+aching in shoulder,compatible with ferrum,1.0,1
+patients who lost normal body fluids,parts better by hard pressure,1.0,1
+patients who lost normal body fluids,pain in sides of chest as if bruised,1.0,1
+patients who lost normal body fluids,small of back pain as from heavy load,1.0,1
+patients who lost normal body fluids,aching in shoulder,1.0,1
+patients who lost normal body fluids,small of back pain as after long stooping,1.0,1
+patients who lost normal body fluids,drawing pain on side of spine,1.0,1
+patients who lost normal body fluids,shooting pains in nape of neck,1.0,1
+patients who lost normal body fluids,drawing pain in nape,1.0,1
+patients who lost normal body fluids,pain in right knee up to thigh,1.0,1
+patients who lost normal body fluids,compatible with calc. phos.,1.0,1
+patients who lost normal body fluids,sensitiveness of spine to touch,1.0,1
+patients who lost normal body fluids,hard red swelling of joints,1.0,1
+patients who lost normal body fluids,paralytic tearing pains in arm bones,1.0,1
+patients who lost normal body fluids,other hand warm,1.0,1
+patients who lost normal body fluids,eye becomes inflamed,1.0,1
+patients who lost normal body fluids,shoulder pain worse from least pressure,1.0,1
+patients who lost normal body fluids,pressure as from stone between scapulae,1.0,1
+patients who lost normal body fluids,lame drawing in small of back,1.0,1
+patients who lost normal body fluids,small of back pain like a cramp,1.0,1
+patients who lost normal body fluids,violent pain in eye daily 8-9 a.m.,1.0,1
+patients who lost normal body fluids,intense wave-like pain,1.0,1
+patients who lost normal body fluids,sensation in thigh bone as if periosteum scraped,1.0,1
+patients who lost normal body fluids,parts affected sensitive to touch,1.0,1
+patients who lost normal body fluids,aching in scapulae,1.0,1
+patients who lost normal body fluids,remittent fever,1.0,1
+patients who lost normal body fluids,limbs feel as if after long walk,1.0,1
+patients who lost normal body fluids,complementary to ferrum,1.0,1
+patients who lost normal body fluids,stitches in left side of back,1.0,1
+patients who lost normal body fluids,small of back pain worse from motion,1.0,1
+patients who lost normal body fluids,unendurable pain in small of back,1.0,1
+patients who lost normal body fluids,rheumatic pain in face muscles,1.0,1
+patients who lost normal body fluids,tensive pain in small of back,1.0,1
+patients who lost normal body fluids,intermittent fever,1.0,1
+patients who lost normal body fluids,eye symptoms disappear at noon,1.0,1
+patients who lost normal body fluids,headache from draft of air,1.0,1
+patients who lost normal body fluids,one hand cold,1.0,1
+patients who lost normal body fluids,darting tearing pain in limbs,1.0,1
+patients who lost normal body fluids,compatible with ferrum,1.0,1
+aching in scapulae,parts better by hard pressure,1.0,1
+aching in scapulae,pain in sides of chest as if bruised,1.0,1
+aching in scapulae,small of back pain as from heavy load,1.0,1
+aching in scapulae,aching in shoulder,1.0,1
+aching in scapulae,small of back pain as after long stooping,1.0,1
+aching in scapulae,drawing pain on side of spine,1.0,1
+aching in scapulae,shooting pains in nape of neck,1.0,1
+aching in scapulae,patients who lost normal body fluids,1.0,1
+aching in scapulae,drawing pain in nape,1.0,1
+aching in scapulae,pain in right knee up to thigh,1.0,1
+aching in scapulae,compatible with calc. phos.,1.0,1
+aching in scapulae,sensitiveness of spine to touch,1.0,1
+aching in scapulae,hard red swelling of joints,1.0,1
+aching in scapulae,paralytic tearing pains in arm bones,1.0,1
+aching in scapulae,other hand warm,1.0,1
+aching in scapulae,eye becomes inflamed,1.0,1
+aching in scapulae,shoulder pain worse from least pressure,1.0,1
+aching in scapulae,pressure as from stone between scapulae,1.0,1
+aching in scapulae,lame drawing in small of back,1.0,1
+aching in scapulae,small of back pain like a cramp,1.0,1
+aching in scapulae,violent pain in eye daily 8-9 a.m.,1.0,1
+aching in scapulae,intense wave-like pain,1.0,1
+aching in scapulae,sensation in thigh bone as if periosteum scraped,1.0,1
+aching in scapulae,parts affected sensitive to touch,1.0,1
+aching in scapulae,remittent fever,1.0,1
+aching in scapulae,limbs feel as if after long walk,1.0,1
+aching in scapulae,complementary to ferrum,1.0,1
+aching in scapulae,stitches in left side of back,1.0,1
+aching in scapulae,small of back pain worse from motion,1.0,1
+aching in scapulae,unendurable pain in small of back,1.0,1
+aching in scapulae,rheumatic pain in face muscles,1.0,1
+aching in scapulae,tensive pain in small of back,1.0,1
+aching in scapulae,intermittent fever,1.0,1
+aching in scapulae,eye symptoms disappear at noon,1.0,1
+aching in scapulae,headache from draft of air,1.0,1
+aching in scapulae,one hand cold,1.0,1
+aching in scapulae,darting tearing pain in limbs,1.0,1
+aching in scapulae,compatible with ferrum,1.0,1
+intermittent fever,parts better by hard pressure,1.0,1
+intermittent fever,pain in sides of chest as if bruised,1.0,1
+intermittent fever,small of back pain as from heavy load,1.0,1
+intermittent fever,aching in shoulder,1.0,1
+intermittent fever,small of back pain as after long stooping,1.0,1
+intermittent fever,drawing pain on side of spine,1.0,1
+intermittent fever,shooting pains in nape of neck,1.0,1
+intermittent fever,patients who lost normal body fluids,1.0,1
+intermittent fever,drawing pain in nape,1.0,1
+intermittent fever,pain in right knee up to thigh,1.0,1
+intermittent fever,compatible with calc. phos.,1.0,1
+intermittent fever,sensitiveness of spine to touch,1.0,1
+intermittent fever,hard red swelling of joints,1.0,1
+intermittent fever,paralytic tearing pains in arm bones,1.0,1
+intermittent fever,other hand warm,1.0,1
+intermittent fever,eye becomes inflamed,1.0,1
+intermittent fever,shoulder pain worse from least pressure,1.0,1
+intermittent fever,pressure as from stone between scapulae,1.0,1
+intermittent fever,lame drawing in small of back,1.0,1
+intermittent fever,small of back pain like a cramp,1.0,1
+intermittent fever,violent pain in eye daily 8-9 a.m.,1.0,1
+intermittent fever,intense wave-like pain,1.0,1
+intermittent fever,sensation in thigh bone as if periosteum scraped,1.0,1
+intermittent fever,parts affected sensitive to touch,1.0,1
+intermittent fever,aching in scapulae,1.0,1
+intermittent fever,remittent fever,1.0,1
+intermittent fever,limbs feel as if after long walk,1.0,1
+intermittent fever,complementary to ferrum,1.0,1
+intermittent fever,stitches in left side of back,1.0,1
+intermittent fever,small of back pain worse from motion,1.0,1
+intermittent fever,unendurable pain in small of back,1.0,1
+intermittent fever,rheumatic pain in face muscles,1.0,1
+intermittent fever,tensive pain in small of back,1.0,1
+intermittent fever,eye symptoms disappear at noon,1.0,1
+intermittent fever,headache from draft of air,1.0,1
+intermittent fever,one hand cold,1.0,1
+intermittent fever,darting tearing pain in limbs,1.0,1
+intermittent fever,compatible with ferrum,1.0,1
+parts better by hard pressure,pain in sides of chest as if bruised,1.0,1
+parts better by hard pressure,small of back pain as from heavy load,1.0,1
+parts better by hard pressure,aching in shoulder,1.0,1
+parts better by hard pressure,small of back pain as after long stooping,1.0,1
+parts better by hard pressure,drawing pain on side of spine,1.0,1
+parts better by hard pressure,shooting pains in nape of neck,1.0,1
+parts better by hard pressure,patients who lost normal body fluids,1.0,1
+parts better by hard pressure,drawing pain in nape,1.0,1
+parts better by hard pressure,pain in right knee up to thigh,1.0,1
+parts better by hard pressure,compatible with calc. phos.,1.0,1
+parts better by hard pressure,sensitiveness of spine to touch,1.0,1
+parts better by hard pressure,hard red swelling of joints,1.0,1
+parts better by hard pressure,paralytic tearing pains in arm bones,1.0,1
+parts better by hard pressure,other hand warm,1.0,1
+parts better by hard pressure,eye becomes inflamed,1.0,1
+parts better by hard pressure,shoulder pain worse from least pressure,1.0,1
+parts better by hard pressure,pressure as from stone between scapulae,1.0,1
+parts better by hard pressure,lame drawing in small of back,1.0,1
+parts better by hard pressure,small of back pain like a cramp,1.0,1
+parts better by hard pressure,violent pain in eye daily 8-9 a.m.,1.0,1
+parts better by hard pressure,intense wave-like pain,1.0,1
+parts better by hard pressure,sensation in thigh bone as if periosteum scraped,1.0,1
+parts better by hard pressure,parts affected sensitive to touch,1.0,1
+parts better by hard pressure,aching in scapulae,1.0,1
+parts better by hard pressure,remittent fever,1.0,1
+parts better by hard pressure,limbs feel as if after long walk,1.0,1
+parts better by hard pressure,complementary to ferrum,1.0,1
+parts better by hard pressure,stitches in left side of back,1.0,1
+parts better by hard pressure,small of back pain worse from motion,1.0,1
+parts better by hard pressure,unendurable pain in small of back,1.0,1
+parts better by hard pressure,rheumatic pain in face muscles,1.0,1
+parts better by hard pressure,tensive pain in small of back,1.0,1
+parts better by hard pressure,intermittent fever,1.0,1
+parts better by hard pressure,eye symptoms disappear at noon,1.0,1
+parts better by hard pressure,headache from draft of air,1.0,1
+parts better by hard pressure,one hand cold,1.0,1
+parts better by hard pressure,darting tearing pain in limbs,1.0,1
+parts better by hard pressure,compatible with ferrum,1.0,1
+shoulder pain worse from least pressure,parts better by hard pressure,1.0,1
+shoulder pain worse from least pressure,pain in sides of chest as if bruised,1.0,1
+shoulder pain worse from least pressure,small of back pain as from heavy load,1.0,1
+shoulder pain worse from least pressure,aching in shoulder,1.0,1
+shoulder pain worse from least pressure,small of back pain as after long stooping,1.0,1
+shoulder pain worse from least pressure,drawing pain on side of spine,1.0,1
+shoulder pain worse from least pressure,shooting pains in nape of neck,1.0,1
+shoulder pain worse from least pressure,patients who lost normal body fluids,1.0,1
+shoulder pain worse from least pressure,drawing pain in nape,1.0,1
+shoulder pain worse from least pressure,pain in right knee up to thigh,1.0,1
+shoulder pain worse from least pressure,compatible with calc. phos.,1.0,1
+shoulder pain worse from least pressure,sensitiveness of spine to touch,1.0,1
+shoulder pain worse from least pressure,hard red swelling of joints,1.0,1
+shoulder pain worse from least pressure,paralytic tearing pains in arm bones,1.0,1
+shoulder pain worse from least pressure,other hand warm,1.0,1
+shoulder pain worse from least pressure,eye becomes inflamed,1.0,1
+shoulder pain worse from least pressure,pressure as from stone between scapulae,1.0,1
+shoulder pain worse from least pressure,lame drawing in small of back,1.0,1
+shoulder pain worse from least pressure,small of back pain like a cramp,1.0,1
+shoulder pain worse from least pressure,violent pain in eye daily 8-9 a.m.,1.0,1
+shoulder pain worse from least pressure,intense wave-like pain,1.0,1
+shoulder pain worse from least pressure,sensation in thigh bone as if periosteum scraped,1.0,1
+shoulder pain worse from least pressure,parts affected sensitive to touch,1.0,1
+shoulder pain worse from least pressure,aching in scapulae,1.0,1
+shoulder pain worse from least pressure,remittent fever,1.0,1
+shoulder pain worse from least pressure,limbs feel as if after long walk,1.0,1
+shoulder pain worse from least pressure,complementary to ferrum,1.0,1
+shoulder pain worse from least pressure,stitches in left side of back,1.0,1
+shoulder pain worse from least pressure,small of back pain worse from motion,1.0,1
+shoulder pain worse from least pressure,unendurable pain in small of back,1.0,1
+shoulder pain worse from least pressure,rheumatic pain in face muscles,1.0,1
+shoulder pain worse from least pressure,tensive pain in small of back,1.0,1
+shoulder pain worse from least pressure,intermittent fever,1.0,1
+shoulder pain worse from least pressure,eye symptoms disappear at noon,1.0,1
+shoulder pain worse from least pressure,headache from draft of air,1.0,1
+shoulder pain worse from least pressure,one hand cold,1.0,1
+shoulder pain worse from least pressure,darting tearing pain in limbs,1.0,1
+shoulder pain worse from least pressure,compatible with ferrum,1.0,1
+one hand cold,parts better by hard pressure,1.0,1
+one hand cold,pain in sides of chest as if bruised,1.0,1
+one hand cold,small of back pain as from heavy load,1.0,1
+one hand cold,aching in shoulder,1.0,1
+one hand cold,small of back pain as after long stooping,1.0,1
+one hand cold,drawing pain on side of spine,1.0,1
+one hand cold,shooting pains in nape of neck,1.0,1
+one hand cold,patients who lost normal body fluids,1.0,1
+one hand cold,drawing pain in nape,1.0,1
+one hand cold,pain in right knee up to thigh,1.0,1
+one hand cold,compatible with calc. phos.,1.0,1
+one hand cold,sensitiveness of spine to touch,1.0,1
+one hand cold,hard red swelling of joints,1.0,1
+one hand cold,paralytic tearing pains in arm bones,1.0,1
+one hand cold,other hand warm,1.0,1
+one hand cold,eye becomes inflamed,1.0,1
+one hand cold,shoulder pain worse from least pressure,1.0,1
+one hand cold,pressure as from stone between scapulae,1.0,1
+one hand cold,lame drawing in small of back,1.0,1
+one hand cold,small of back pain like a cramp,1.0,1
+one hand cold,violent pain in eye daily 8-9 a.m.,1.0,1
+one hand cold,intense wave-like pain,1.0,1
+one hand cold,sensation in thigh bone as if periosteum scraped,1.0,1
+one hand cold,parts affected sensitive to touch,1.0,1
+one hand cold,aching in scapulae,1.0,1
+one hand cold,remittent fever,1.0,1
+one hand cold,limbs feel as if after long walk,1.0,1
+one hand cold,complementary to ferrum,1.0,1
+one hand cold,stitches in left side of back,1.0,1
+one hand cold,small of back pain worse from motion,1.0,1
+one hand cold,unendurable pain in small of back,1.0,1
+one hand cold,rheumatic pain in face muscles,1.0,1
+one hand cold,tensive pain in small of back,1.0,1
+one hand cold,intermittent fever,1.0,1
+one hand cold,eye symptoms disappear at noon,1.0,1
+one hand cold,headache from draft of air,1.0,1
+one hand cold,darting tearing pain in limbs,1.0,1
+one hand cold,compatible with ferrum,1.0,1
+compatible with ferrum,parts better by hard pressure,1.0,1
+compatible with ferrum,pain in sides of chest as if bruised,1.0,1
+compatible with ferrum,small of back pain as from heavy load,1.0,1
+compatible with ferrum,aching in shoulder,1.0,1
+compatible with ferrum,small of back pain as after long stooping,1.0,1
+compatible with ferrum,drawing pain on side of spine,1.0,1
+compatible with ferrum,shooting pains in nape of neck,1.0,1
+compatible with ferrum,patients who lost normal body fluids,1.0,1
+compatible with ferrum,drawing pain in nape,1.0,1
+compatible with ferrum,pain in right knee up to thigh,1.0,1
+compatible with ferrum,compatible with calc. phos.,1.0,1
+compatible with ferrum,sensitiveness of spine to touch,1.0,1
+compatible with ferrum,hard red swelling of joints,1.0,1
+compatible with ferrum,paralytic tearing pains in arm bones,1.0,1
+compatible with ferrum,other hand warm,1.0,1
+compatible with ferrum,eye becomes inflamed,1.0,1
+compatible with ferrum,shoulder pain worse from least pressure,1.0,1
+compatible with ferrum,pressure as from stone between scapulae,1.0,1
+compatible with ferrum,lame drawing in small of back,1.0,1
+compatible with ferrum,small of back pain like a cramp,1.0,1
+compatible with ferrum,violent pain in eye daily 8-9 a.m.,1.0,1
+compatible with ferrum,intense wave-like pain,1.0,1
+compatible with ferrum,sensation in thigh bone as if periosteum scraped,1.0,1
+compatible with ferrum,parts affected sensitive to touch,1.0,1
+compatible with ferrum,aching in scapulae,1.0,1
+compatible with ferrum,remittent fever,1.0,1
+compatible with ferrum,limbs feel as if after long walk,1.0,1
+compatible with ferrum,complementary to ferrum,1.0,1
+compatible with ferrum,stitches in left side of back,1.0,1
+compatible with ferrum,small of back pain worse from motion,1.0,1
+compatible with ferrum,unendurable pain in small of back,1.0,1
+compatible with ferrum,rheumatic pain in face muscles,1.0,1
+compatible with ferrum,tensive pain in small of back,1.0,1
+compatible with ferrum,intermittent fever,1.0,1
+compatible with ferrum,eye symptoms disappear at noon,1.0,1
+compatible with ferrum,headache from draft of air,1.0,1
+compatible with ferrum,one hand cold,1.0,1
+compatible with ferrum,darting tearing pain in limbs,1.0,1
+limbs feel as if after long walk,parts better by hard pressure,1.0,1
+limbs feel as if after long walk,pain in sides of chest as if bruised,1.0,1
+limbs feel as if after long walk,small of back pain as from heavy load,1.0,1
+limbs feel as if after long walk,aching in shoulder,1.0,1
+limbs feel as if after long walk,small of back pain as after long stooping,1.0,1
+limbs feel as if after long walk,drawing pain on side of spine,1.0,1
+limbs feel as if after long walk,shooting pains in nape of neck,1.0,1
+limbs feel as if after long walk,patients who lost normal body fluids,1.0,1
+limbs feel as if after long walk,drawing pain in nape,1.0,1
+limbs feel as if after long walk,pain in right knee up to thigh,1.0,1
+limbs feel as if after long walk,compatible with calc. phos.,1.0,1
+limbs feel as if after long walk,sensitiveness of spine to touch,1.0,1
+limbs feel as if after long walk,hard red swelling of joints,1.0,1
+limbs feel as if after long walk,paralytic tearing pains in arm bones,1.0,1
+limbs feel as if after long walk,other hand warm,1.0,1
+limbs feel as if after long walk,eye becomes inflamed,1.0,1
+limbs feel as if after long walk,shoulder pain worse from least pressure,1.0,1
+limbs feel as if after long walk,pressure as from stone between scapulae,1.0,1
+limbs feel as if after long walk,lame drawing in small of back,1.0,1
+limbs feel as if after long walk,small of back pain like a cramp,1.0,1
+limbs feel as if after long walk,violent pain in eye daily 8-9 a.m.,1.0,1
+limbs feel as if after long walk,intense wave-like pain,1.0,1
+limbs feel as if after long walk,sensation in thigh bone as if periosteum scraped,1.0,1
+limbs feel as if after long walk,parts affected sensitive to touch,1.0,1
+limbs feel as if after long walk,aching in scapulae,1.0,1
+limbs feel as if after long walk,remittent fever,1.0,1
+limbs feel as if after long walk,complementary to ferrum,1.0,1
+limbs feel as if after long walk,stitches in left side of back,1.0,1
+limbs feel as if after long walk,small of back pain worse from motion,1.0,1
+limbs feel as if after long walk,unendurable pain in small of back,1.0,1
+limbs feel as if after long walk,rheumatic pain in face muscles,1.0,1
+limbs feel as if after long walk,tensive pain in small of back,1.0,1
+limbs feel as if after long walk,intermittent fever,1.0,1
+limbs feel as if after long walk,eye symptoms disappear at noon,1.0,1
+limbs feel as if after long walk,headache from draft of air,1.0,1
+limbs feel as if after long walk,one hand cold,1.0,1
+limbs feel as if after long walk,darting tearing pain in limbs,1.0,1
+limbs feel as if after long walk,compatible with ferrum,1.0,1
+small of back pain as after long stooping,parts better by hard pressure,1.0,1
+small of back pain as after long stooping,pain in sides of chest as if bruised,1.0,1
+small of back pain as after long stooping,small of back pain as from heavy load,1.0,1
+small of back pain as after long stooping,aching in shoulder,1.0,1
+small of back pain as after long stooping,drawing pain on side of spine,1.0,1
+small of back pain as after long stooping,shooting pains in nape of neck,1.0,1
+small of back pain as after long stooping,patients who lost normal body fluids,1.0,1
+small of back pain as after long stooping,drawing pain in nape,1.0,1
+small of back pain as after long stooping,pain in right knee up to thigh,1.0,1
+small of back pain as after long stooping,compatible with calc. phos.,1.0,1
+small of back pain as after long stooping,sensitiveness of spine to touch,1.0,1
+small of back pain as after long stooping,hard red swelling of joints,1.0,1
+small of back pain as after long stooping,paralytic tearing pains in arm bones,1.0,1
+small of back pain as after long stooping,other hand warm,1.0,1
+small of back pain as after long stooping,eye becomes inflamed,1.0,1
+small of back pain as after long stooping,shoulder pain worse from least pressure,1.0,1
+small of back pain as after long stooping,pressure as from stone between scapulae,1.0,1
+small of back pain as after long stooping,lame drawing in small of back,1.0,1
+small of back pain as after long stooping,small of back pain like a cramp,1.0,1
+small of back pain as after long stooping,violent pain in eye daily 8-9 a.m.,1.0,1
+small of back pain as after long stooping,intense wave-like pain,1.0,1
+small of back pain as after long stooping,sensation in thigh bone as if periosteum scraped,1.0,1
+small of back pain as after long stooping,parts affected sensitive to touch,1.0,1
+small of back pain as after long stooping,aching in scapulae,1.0,1
+small of back pain as after long stooping,remittent fever,1.0,1
+small of back pain as after long stooping,limbs feel as if after long walk,1.0,1
+small of back pain as after long stooping,complementary to ferrum,1.0,1
+small of back pain as after long stooping,stitches in left side of back,1.0,1
+small of back pain as after long stooping,small of back pain worse from motion,1.0,1
+small of back pain as after long stooping,unendurable pain in small of back,1.0,1
+small of back pain as after long stooping,rheumatic pain in face muscles,1.0,1
+small of back pain as after long stooping,tensive pain in small of back,1.0,1
+small of back pain as after long stooping,intermittent fever,1.0,1
+small of back pain as after long stooping,eye symptoms disappear at noon,1.0,1
+small of back pain as after long stooping,headache from draft of air,1.0,1
+small of back pain as after long stooping,one hand cold,1.0,1
+small of back pain as after long stooping,darting tearing pain in limbs,1.0,1
+small of back pain as after long stooping,compatible with ferrum,1.0,1
+shooting pains in nape of neck,parts better by hard pressure,1.0,1
+shooting pains in nape of neck,pain in sides of chest as if bruised,1.0,1
+shooting pains in nape of neck,small of back pain as from heavy load,1.0,1
+shooting pains in nape of neck,aching in shoulder,1.0,1
+shooting pains in nape of neck,small of back pain as after long stooping,1.0,1
+shooting pains in nape of neck,drawing pain on side of spine,1.0,1
+shooting pains in nape of neck,patients who lost normal body fluids,1.0,1
+shooting pains in nape of neck,drawing pain in nape,1.0,1
+shooting pains in nape of neck,pain in right knee up to thigh,1.0,1
+shooting pains in nape of neck,compatible with calc. phos.,1.0,1
+shooting pains in nape of neck,sensitiveness of spine to touch,1.0,1
+shooting pains in nape of neck,hard red swelling of joints,1.0,1
+shooting pains in nape of neck,paralytic tearing pains in arm bones,1.0,1
+shooting pains in nape of neck,other hand warm,1.0,1
+shooting pains in nape of neck,eye becomes inflamed,1.0,1
+shooting pains in nape of neck,shoulder pain worse from least pressure,1.0,1
+shooting pains in nape of neck,pressure as from stone between scapulae,1.0,1
+shooting pains in nape of neck,lame drawing in small of back,1.0,1
+shooting pains in nape of neck,small of back pain like a cramp,1.0,1
+shooting pains in nape of neck,violent pain in eye daily 8-9 a.m.,1.0,1
+shooting pains in nape of neck,intense wave-like pain,1.0,1
+shooting pains in nape of neck,sensation in thigh bone as if periosteum scraped,1.0,1
+shooting pains in nape of neck,parts affected sensitive to touch,1.0,1
+shooting pains in nape of neck,aching in scapulae,1.0,1
+shooting pains in nape of neck,remittent fever,1.0,1
+shooting pains in nape of neck,limbs feel as if after long walk,1.0,1
+shooting pains in nape of neck,complementary to ferrum,1.0,1
+shooting pains in nape of neck,stitches in left side of back,1.0,1
+shooting pains in nape of neck,small of back pain worse from motion,1.0,1
+shooting pains in nape of neck,unendurable pain in small of back,1.0,1
+shooting pains in nape of neck,rheumatic pain in face muscles,1.0,1
+shooting pains in nape of neck,tensive pain in small of back,1.0,1
+shooting pains in nape of neck,intermittent fever,1.0,1
+shooting pains in nape of neck,eye symptoms disappear at noon,1.0,1
+shooting pains in nape of neck,headache from draft of air,1.0,1
+shooting pains in nape of neck,one hand cold,1.0,1
+shooting pains in nape of neck,darting tearing pain in limbs,1.0,1
+shooting pains in nape of neck,compatible with ferrum,1.0,1
+pain in right knee up to thigh,parts better by hard pressure,1.0,1
+pain in right knee up to thigh,pain in sides of chest as if bruised,1.0,1
+pain in right knee up to thigh,small of back pain as from heavy load,1.0,1
+pain in right knee up to thigh,aching in shoulder,1.0,1
+pain in right knee up to thigh,small of back pain as after long stooping,1.0,1
+pain in right knee up to thigh,drawing pain on side of spine,1.0,1
+pain in right knee up to thigh,shooting pains in nape of neck,1.0,1
+pain in right knee up to thigh,patients who lost normal body fluids,1.0,1
+pain in right knee up to thigh,drawing pain in nape,1.0,1
+pain in right knee up to thigh,compatible with calc. phos.,1.0,1
+pain in right knee up to thigh,sensitiveness of spine to touch,1.0,1
+pain in right knee up to thigh,hard red swelling of joints,1.0,1
+pain in right knee up to thigh,paralytic tearing pains in arm bones,1.0,1
+pain in right knee up to thigh,other hand warm,1.0,1
+pain in right knee up to thigh,eye becomes inflamed,1.0,1
+pain in right knee up to thigh,shoulder pain worse from least pressure,1.0,1
+pain in right knee up to thigh,pressure as from stone between scapulae,1.0,1
+pain in right knee up to thigh,lame drawing in small of back,1.0,1
+pain in right knee up to thigh,small of back pain like a cramp,1.0,1
+pain in right knee up to thigh,violent pain in eye daily 8-9 a.m.,1.0,1
+pain in right knee up to thigh,intense wave-like pain,1.0,1
+pain in right knee up to thigh,sensation in thigh bone as if periosteum scraped,1.0,1
+pain in right knee up to thigh,parts affected sensitive to touch,1.0,1
+pain in right knee up to thigh,aching in scapulae,1.0,1
+pain in right knee up to thigh,remittent fever,1.0,1
+pain in right knee up to thigh,limbs feel as if after long walk,1.0,1
+pain in right knee up to thigh,complementary to ferrum,1.0,1
+pain in right knee up to thigh,stitches in left side of back,1.0,1
+pain in right knee up to thigh,small of back pain worse from motion,1.0,1
+pain in right knee up to thigh,unendurable pain in small of back,1.0,1
+pain in right knee up to thigh,rheumatic pain in face muscles,1.0,1
+pain in right knee up to thigh,tensive pain in small of back,1.0,1
+pain in right knee up to thigh,intermittent fever,1.0,1
+pain in right knee up to thigh,eye symptoms disappear at noon,1.0,1
+pain in right knee up to thigh,headache from draft of air,1.0,1
+pain in right knee up to thigh,one hand cold,1.0,1
+pain in right knee up to thigh,darting tearing pain in limbs,1.0,1
+pain in right knee up to thigh,compatible with ferrum,1.0,1
+other hand warm,parts better by hard pressure,1.0,1
+other hand warm,pain in sides of chest as if bruised,1.0,1
+other hand warm,small of back pain as from heavy load,1.0,1
+other hand warm,aching in shoulder,1.0,1
+other hand warm,small of back pain as after long stooping,1.0,1
+other hand warm,drawing pain on side of spine,1.0,1
+other hand warm,shooting pains in nape of neck,1.0,1
+other hand warm,patients who lost normal body fluids,1.0,1
+other hand warm,drawing pain in nape,1.0,1
+other hand warm,pain in right knee up to thigh,1.0,1
+other hand warm,compatible with calc. phos.,1.0,1
+other hand warm,sensitiveness of spine to touch,1.0,1
+other hand warm,hard red swelling of joints,1.0,1
+other hand warm,paralytic tearing pains in arm bones,1.0,1
+other hand warm,eye becomes inflamed,1.0,1
+other hand warm,shoulder pain worse from least pressure,1.0,1
+other hand warm,pressure as from stone between scapulae,1.0,1
+other hand warm,lame drawing in small of back,1.0,1
+other hand warm,small of back pain like a cramp,1.0,1
+other hand warm,violent pain in eye daily 8-9 a.m.,1.0,1
+other hand warm,intense wave-like pain,1.0,1
+other hand warm,sensation in thigh bone as if periosteum scraped,1.0,1
+other hand warm,parts affected sensitive to touch,1.0,1
+other hand warm,aching in scapulae,1.0,1
+other hand warm,remittent fever,1.0,1
+other hand warm,limbs feel as if after long walk,1.0,1
+other hand warm,complementary to ferrum,1.0,1
+other hand warm,stitches in left side of back,1.0,1
+other hand warm,small of back pain worse from motion,1.0,1
+other hand warm,unendurable pain in small of back,1.0,1
+other hand warm,rheumatic pain in face muscles,1.0,1
+other hand warm,tensive pain in small of back,1.0,1
+other hand warm,intermittent fever,1.0,1
+other hand warm,eye symptoms disappear at noon,1.0,1
+other hand warm,headache from draft of air,1.0,1
+other hand warm,one hand cold,1.0,1
+other hand warm,darting tearing pain in limbs,1.0,1
+other hand warm,compatible with ferrum,1.0,1
+eye becomes inflamed,parts better by hard pressure,1.0,1
+eye becomes inflamed,pain in sides of chest as if bruised,1.0,1
+eye becomes inflamed,small of back pain as from heavy load,1.0,1
+eye becomes inflamed,aching in shoulder,1.0,1
+eye becomes inflamed,small of back pain as after long stooping,1.0,1
+eye becomes inflamed,drawing pain on side of spine,1.0,1
+eye becomes inflamed,shooting pains in nape of neck,1.0,1
+eye becomes inflamed,patients who lost normal body fluids,1.0,1
+eye becomes inflamed,drawing pain in nape,1.0,1
+eye becomes inflamed,pain in right knee up to thigh,1.0,1
+eye becomes inflamed,compatible with calc. phos.,1.0,1
+eye becomes inflamed,sensitiveness of spine to touch,1.0,1
+eye becomes inflamed,hard red swelling of joints,1.0,1
+eye becomes inflamed,paralytic tearing pains in arm bones,1.0,1
+eye becomes inflamed,other hand warm,1.0,1
+eye becomes inflamed,shoulder pain worse from least pressure,1.0,1
+eye becomes inflamed,pressure as from stone between scapulae,1.0,1
+eye becomes inflamed,lame drawing in small of back,1.0,1
+eye becomes inflamed,small of back pain like a cramp,1.0,1
+eye becomes inflamed,violent pain in eye daily 8-9 a.m.,1.0,1
+eye becomes inflamed,intense wave-like pain,1.0,1
+eye becomes inflamed,sensation in thigh bone as if periosteum scraped,1.0,1
+eye becomes inflamed,parts affected sensitive to touch,1.0,1
+eye becomes inflamed,aching in scapulae,1.0,1
+eye becomes inflamed,remittent fever,1.0,1
+eye becomes inflamed,limbs feel as if after long walk,1.0,1
+eye becomes inflamed,complementary to ferrum,1.0,1
+eye becomes inflamed,stitches in left side of back,1.0,1
+eye becomes inflamed,small of back pain worse from motion,1.0,1
+eye becomes inflamed,unendurable pain in small of back,1.0,1
+eye becomes inflamed,rheumatic pain in face muscles,1.0,1
+eye becomes inflamed,tensive pain in small of back,1.0,1
+eye becomes inflamed,intermittent fever,1.0,1
+eye becomes inflamed,eye symptoms disappear at noon,1.0,1
+eye becomes inflamed,headache from draft of air,1.0,1
+eye becomes inflamed,one hand cold,1.0,1
+eye becomes inflamed,darting tearing pain in limbs,1.0,1
+eye becomes inflamed,compatible with ferrum,1.0,1
+darting tearing pain in limbs,parts better by hard pressure,1.0,1
+darting tearing pain in limbs,pain in sides of chest as if bruised,1.0,1
+darting tearing pain in limbs,small of back pain as from heavy load,1.0,1
+darting tearing pain in limbs,aching in shoulder,1.0,1
+darting tearing pain in limbs,small of back pain as after long stooping,1.0,1
+darting tearing pain in limbs,drawing pain on side of spine,1.0,1
+darting tearing pain in limbs,shooting pains in nape of neck,1.0,1
+darting tearing pain in limbs,patients who lost normal body fluids,1.0,1
+darting tearing pain in limbs,drawing pain in nape,1.0,1
+darting tearing pain in limbs,pain in right knee up to thigh,1.0,1
+darting tearing pain in limbs,compatible with calc. phos.,1.0,1
+darting tearing pain in limbs,sensitiveness of spine to touch,1.0,1
+darting tearing pain in limbs,hard red swelling of joints,1.0,1
+darting tearing pain in limbs,paralytic tearing pains in arm bones,1.0,1
+darting tearing pain in limbs,other hand warm,1.0,1
+darting tearing pain in limbs,eye becomes inflamed,1.0,1
+darting tearing pain in limbs,shoulder pain worse from least pressure,1.0,1
+darting tearing pain in limbs,pressure as from stone between scapulae,1.0,1
+darting tearing pain in limbs,lame drawing in small of back,1.0,1
+darting tearing pain in limbs,small of back pain like a cramp,1.0,1
+darting tearing pain in limbs,violent pain in eye daily 8-9 a.m.,1.0,1
+darting tearing pain in limbs,intense wave-like pain,1.0,1
+darting tearing pain in limbs,sensation in thigh bone as if periosteum scraped,1.0,1
+darting tearing pain in limbs,parts affected sensitive to touch,1.0,1
+darting tearing pain in limbs,aching in scapulae,1.0,1
+darting tearing pain in limbs,remittent fever,1.0,1
+darting tearing pain in limbs,limbs feel as if after long walk,1.0,1
+darting tearing pain in limbs,complementary to ferrum,1.0,1
+darting tearing pain in limbs,stitches in left side of back,1.0,1
+darting tearing pain in limbs,small of back pain worse from motion,1.0,1
+darting tearing pain in limbs,unendurable pain in small of back,1.0,1
+darting tearing pain in limbs,rheumatic pain in face muscles,1.0,1
+darting tearing pain in limbs,tensive pain in small of back,1.0,1
+darting tearing pain in limbs,intermittent fever,1.0,1
+darting tearing pain in limbs,eye symptoms disappear at noon,1.0,1
+darting tearing pain in limbs,headache from draft of air,1.0,1
+darting tearing pain in limbs,one hand cold,1.0,1
+darting tearing pain in limbs,compatible with ferrum,1.0,1
+small of back pain like a cramp,parts better by hard pressure,1.0,1
+small of back pain like a cramp,pain in sides of chest as if bruised,1.0,1
+small of back pain like a cramp,small of back pain as from heavy load,1.0,1
+small of back pain like a cramp,aching in shoulder,1.0,1
+small of back pain like a cramp,small of back pain as after long stooping,1.0,1
+small of back pain like a cramp,drawing pain on side of spine,1.0,1
+small of back pain like a cramp,shooting pains in nape of neck,1.0,1
+small of back pain like a cramp,patients who lost normal body fluids,1.0,1
+small of back pain like a cramp,drawing pain in nape,1.0,1
+small of back pain like a cramp,pain in right knee up to thigh,1.0,1
+small of back pain like a cramp,compatible with calc. phos.,1.0,1
+small of back pain like a cramp,sensitiveness of spine to touch,1.0,1
+small of back pain like a cramp,hard red swelling of joints,1.0,1
+small of back pain like a cramp,paralytic tearing pains in arm bones,1.0,1
+small of back pain like a cramp,other hand warm,1.0,1
+small of back pain like a cramp,eye becomes inflamed,1.0,1
+small of back pain like a cramp,shoulder pain worse from least pressure,1.0,1
+small of back pain like a cramp,pressure as from stone between scapulae,1.0,1
+small of back pain like a cramp,lame drawing in small of back,1.0,1
+small of back pain like a cramp,violent pain in eye daily 8-9 a.m.,1.0,1
+small of back pain like a cramp,intense wave-like pain,1.0,1
+small of back pain like a cramp,sensation in thigh bone as if periosteum scraped,1.0,1
+small of back pain like a cramp,parts affected sensitive to touch,1.0,1
+small of back pain like a cramp,aching in scapulae,1.0,1
+small of back pain like a cramp,remittent fever,1.0,1
+small of back pain like a cramp,limbs feel as if after long walk,1.0,1
+small of back pain like a cramp,complementary to ferrum,1.0,1
+small of back pain like a cramp,stitches in left side of back,1.0,1
+small of back pain like a cramp,small of back pain worse from motion,1.0,1
+small of back pain like a cramp,unendurable pain in small of back,1.0,1
+small of back pain like a cramp,rheumatic pain in face muscles,1.0,1
+small of back pain like a cramp,tensive pain in small of back,1.0,1
+small of back pain like a cramp,intermittent fever,1.0,1
+small of back pain like a cramp,eye symptoms disappear at noon,1.0,1
+small of back pain like a cramp,headache from draft of air,1.0,1
+small of back pain like a cramp,one hand cold,1.0,1
+small of back pain like a cramp,darting tearing pain in limbs,1.0,1
+small of back pain like a cramp,compatible with ferrum,1.0,1
+drawing pain in nape,parts better by hard pressure,1.0,1
+drawing pain in nape,pain in sides of chest as if bruised,1.0,1
+drawing pain in nape,small of back pain as from heavy load,1.0,1
+drawing pain in nape,aching in shoulder,1.0,1
+drawing pain in nape,small of back pain as after long stooping,1.0,1
+drawing pain in nape,drawing pain on side of spine,1.0,1
+drawing pain in nape,shooting pains in nape of neck,1.0,1
+drawing pain in nape,patients who lost normal body fluids,1.0,1
+drawing pain in nape,pain in right knee up to thigh,1.0,1
+drawing pain in nape,compatible with calc. phos.,1.0,1
+drawing pain in nape,sensitiveness of spine to touch,1.0,1
+drawing pain in nape,hard red swelling of joints,1.0,1
+drawing pain in nape,paralytic tearing pains in arm bones,1.0,1
+drawing pain in nape,other hand warm,1.0,1
+drawing pain in nape,eye becomes inflamed,1.0,1
+drawing pain in nape,shoulder pain worse from least pressure,1.0,1
+drawing pain in nape,pressure as from stone between scapulae,1.0,1
+drawing pain in nape,lame drawing in small of back,1.0,1
+drawing pain in nape,small of back pain like a cramp,1.0,1
+drawing pain in nape,violent pain in eye daily 8-9 a.m.,1.0,1
+drawing pain in nape,intense wave-like pain,1.0,1
+drawing pain in nape,sensation in thigh bone as if periosteum scraped,1.0,1
+drawing pain in nape,parts affected sensitive to touch,1.0,1
+drawing pain in nape,aching in scapulae,1.0,1
+drawing pain in nape,remittent fever,1.0,1
+drawing pain in nape,limbs feel as if after long walk,1.0,1
+drawing pain in nape,complementary to ferrum,1.0,1
+drawing pain in nape,stitches in left side of back,1.0,1
+drawing pain in nape,small of back pain worse from motion,1.0,1
+drawing pain in nape,unendurable pain in small of back,1.0,1
+drawing pain in nape,rheumatic pain in face muscles,1.0,1
+drawing pain in nape,tensive pain in small of back,1.0,1
+drawing pain in nape,intermittent fever,1.0,1
+drawing pain in nape,eye symptoms disappear at noon,1.0,1
+drawing pain in nape,headache from draft of air,1.0,1
+drawing pain in nape,one hand cold,1.0,1
+drawing pain in nape,darting tearing pain in limbs,1.0,1
+drawing pain in nape,compatible with ferrum,1.0,1

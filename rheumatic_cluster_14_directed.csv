@@ -1,0 +1,58 @@
+### Cluster 14 — Symptoms (7)
+Symptom,Frequency
+rheumatism with hard swellings,1
+bony growths,1
+hard nodes in fingers,1
+gouty pain in toes,1
+tearing pain in elbows,1
+rheumatic pains with hard swellings,1
+hard swollen joints,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+calcarea fluorica,7
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+tearing pain in elbows,rheumatism with hard swellings,1.0,1
+tearing pain in elbows,bony growths,1.0,1
+tearing pain in elbows,hard nodes in fingers,1.0,1
+tearing pain in elbows,gouty pain in toes,1.0,1
+tearing pain in elbows,rheumatic pains with hard swellings,1.0,1
+tearing pain in elbows,hard swollen joints,1.0,1
+rheumatism with hard swellings,bony growths,1.0,1
+rheumatism with hard swellings,hard nodes in fingers,1.0,1
+rheumatism with hard swellings,gouty pain in toes,1.0,1
+rheumatism with hard swellings,tearing pain in elbows,1.0,1
+rheumatism with hard swellings,rheumatic pains with hard swellings,1.0,1
+rheumatism with hard swellings,hard swollen joints,1.0,1
+gouty pain in toes,rheumatism with hard swellings,1.0,1
+gouty pain in toes,bony growths,1.0,1
+gouty pain in toes,hard nodes in fingers,1.0,1
+gouty pain in toes,tearing pain in elbows,1.0,1
+gouty pain in toes,rheumatic pains with hard swellings,1.0,1
+gouty pain in toes,hard swollen joints,1.0,1
+hard swollen joints,rheumatism with hard swellings,1.0,1
+hard swollen joints,bony growths,1.0,1
+hard swollen joints,hard nodes in fingers,1.0,1
+hard swollen joints,gouty pain in toes,1.0,1
+hard swollen joints,tearing pain in elbows,1.0,1
+hard swollen joints,rheumatic pains with hard swellings,1.0,1
+bony growths,rheumatism with hard swellings,1.0,1
+bony growths,hard nodes in fingers,1.0,1
+bony growths,gouty pain in toes,1.0,1
+bony growths,tearing pain in elbows,1.0,1
+bony growths,rheumatic pains with hard swellings,1.0,1
+bony growths,hard swollen joints,1.0,1
+rheumatic pains with hard swellings,rheumatism with hard swellings,1.0,1
+rheumatic pains with hard swellings,bony growths,1.0,1
+rheumatic pains with hard swellings,hard nodes in fingers,1.0,1
+rheumatic pains with hard swellings,gouty pain in toes,1.0,1
+rheumatic pains with hard swellings,tearing pain in elbows,1.0,1
+rheumatic pains with hard swellings,hard swollen joints,1.0,1
+hard nodes in fingers,rheumatism with hard swellings,1.0,1
+hard nodes in fingers,bony growths,1.0,1
+hard nodes in fingers,gouty pain in toes,1.0,1
+hard nodes in fingers,tearing pain in elbows,1.0,1
+hard nodes in fingers,rheumatic pains with hard swellings,1.0,1
+hard nodes in fingers,hard swollen joints,1.0,1

@@ -1,0 +1,208 @@
+### Cluster 70 — Symptoms (14)
+Symptom,Frequency
+pain in back worse at night,1
+oppression at heart,1
+stinging in elbow joint,1
+stinging in soles of feet,1
+pains in knees,2
+cracking of vertebrae on bending head,1
+extending to thighs,1
+rheumatic pains worse at night,2
+aversion to open air,1
+worse in cold damp weather,1
+skin eruptions,2
+palpitation worse at night,1
+cracked skin,1
+rough dry skin,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+petroleum,14
+palladium,1
+phytolacca,1
+rhus toxicodendron,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+cracking of vertebrae on bending head,pain in back worse at night,1.0,1
+cracking of vertebrae on bending head,oppression at heart,1.0,1
+cracking of vertebrae on bending head,stinging in elbow joint,1.0,1
+cracking of vertebrae on bending head,stinging in soles of feet,1.0,1
+cracking of vertebrae on bending head,pains in knees,1.0,1
+cracking of vertebrae on bending head,extending to thighs,1.0,1
+cracking of vertebrae on bending head,rheumatic pains worse at night,1.0,1
+cracking of vertebrae on bending head,aversion to open air,1.0,1
+cracking of vertebrae on bending head,worse in cold damp weather,1.0,1
+cracking of vertebrae on bending head,skin eruptions,1.0,1
+cracking of vertebrae on bending head,palpitation worse at night,1.0,1
+cracking of vertebrae on bending head,cracked skin,1.0,1
+cracking of vertebrae on bending head,rough dry skin,1.0,1
+skin eruptions,pain in back worse at night,0.5,1
+skin eruptions,oppression at heart,0.5,1
+skin eruptions,stinging in elbow joint,0.5,1
+skin eruptions,stinging in soles of feet,0.5,1
+skin eruptions,pains in knees,0.5,1
+skin eruptions,cracking of vertebrae on bending head,0.5,1
+skin eruptions,extending to thighs,0.5,1
+skin eruptions,rheumatic pains worse at night,0.5,1
+skin eruptions,aversion to open air,0.5,1
+skin eruptions,worse in cold damp weather,0.5,1
+skin eruptions,palpitation worse at night,0.5,1
+skin eruptions,cracked skin,0.5,1
+skin eruptions,rough dry skin,0.5,1
+rheumatic pains worse at night,pain in back worse at night,0.5,1
+rheumatic pains worse at night,oppression at heart,0.5,1
+rheumatic pains worse at night,stinging in elbow joint,0.5,1
+rheumatic pains worse at night,stinging in soles of feet,0.5,1
+rheumatic pains worse at night,pains in knees,0.5,1
+rheumatic pains worse at night,cracking of vertebrae on bending head,0.5,1
+rheumatic pains worse at night,extending to thighs,0.5,1
+rheumatic pains worse at night,aversion to open air,0.5,1
+rheumatic pains worse at night,worse in cold damp weather,0.5,1
+rheumatic pains worse at night,skin eruptions,0.5,1
+rheumatic pains worse at night,palpitation worse at night,0.5,1
+rheumatic pains worse at night,cracked skin,0.5,1
+rheumatic pains worse at night,rough dry skin,0.5,1
+cracked skin,pain in back worse at night,1.0,1
+cracked skin,oppression at heart,1.0,1
+cracked skin,stinging in elbow joint,1.0,1
+cracked skin,stinging in soles of feet,1.0,1
+cracked skin,pains in knees,1.0,1
+cracked skin,cracking of vertebrae on bending head,1.0,1
+cracked skin,extending to thighs,1.0,1
+cracked skin,rheumatic pains worse at night,1.0,1
+cracked skin,aversion to open air,1.0,1
+cracked skin,worse in cold damp weather,1.0,1
+cracked skin,skin eruptions,1.0,1
+cracked skin,palpitation worse at night,1.0,1
+cracked skin,rough dry skin,1.0,1
+stinging in elbow joint,pain in back worse at night,1.0,1
+stinging in elbow joint,oppression at heart,1.0,1
+stinging in elbow joint,stinging in soles of feet,1.0,1
+stinging in elbow joint,pains in knees,1.0,1
+stinging in elbow joint,cracking of vertebrae on bending head,1.0,1
+stinging in elbow joint,extending to thighs,1.0,1
+stinging in elbow joint,rheumatic pains worse at night,1.0,1
+stinging in elbow joint,aversion to open air,1.0,1
+stinging in elbow joint,worse in cold damp weather,1.0,1
+stinging in elbow joint,skin eruptions,1.0,1
+stinging in elbow joint,palpitation worse at night,1.0,1
+stinging in elbow joint,cracked skin,1.0,1
+stinging in elbow joint,rough dry skin,1.0,1
+extending to thighs,pain in back worse at night,1.0,1
+extending to thighs,oppression at heart,1.0,1
+extending to thighs,stinging in elbow joint,1.0,1
+extending to thighs,stinging in soles of feet,1.0,1
+extending to thighs,pains in knees,1.0,1
+extending to thighs,cracking of vertebrae on bending head,1.0,1
+extending to thighs,rheumatic pains worse at night,1.0,1
+extending to thighs,aversion to open air,1.0,1
+extending to thighs,worse in cold damp weather,1.0,1
+extending to thighs,skin eruptions,1.0,1
+extending to thighs,palpitation worse at night,1.0,1
+extending to thighs,cracked skin,1.0,1
+extending to thighs,rough dry skin,1.0,1
+stinging in soles of feet,pain in back worse at night,1.0,1
+stinging in soles of feet,oppression at heart,1.0,1
+stinging in soles of feet,stinging in elbow joint,1.0,1
+stinging in soles of feet,pains in knees,1.0,1
+stinging in soles of feet,cracking of vertebrae on bending head,1.0,1
+stinging in soles of feet,extending to thighs,1.0,1
+stinging in soles of feet,rheumatic pains worse at night,1.0,1
+stinging in soles of feet,aversion to open air,1.0,1
+stinging in soles of feet,worse in cold damp weather,1.0,1
+stinging in soles of feet,skin eruptions,1.0,1
+stinging in soles of feet,palpitation worse at night,1.0,1
+stinging in soles of feet,cracked skin,1.0,1
+stinging in soles of feet,rough dry skin,1.0,1
+palpitation worse at night,pain in back worse at night,1.0,1
+palpitation worse at night,oppression at heart,1.0,1
+palpitation worse at night,stinging in elbow joint,1.0,1
+palpitation worse at night,stinging in soles of feet,1.0,1
+palpitation worse at night,pains in knees,1.0,1
+palpitation worse at night,cracking of vertebrae on bending head,1.0,1
+palpitation worse at night,extending to thighs,1.0,1
+palpitation worse at night,rheumatic pains worse at night,1.0,1
+palpitation worse at night,aversion to open air,1.0,1
+palpitation worse at night,worse in cold damp weather,1.0,1
+palpitation worse at night,skin eruptions,1.0,1
+palpitation worse at night,cracked skin,1.0,1
+palpitation worse at night,rough dry skin,1.0,1
+pain in back worse at night,oppression at heart,1.0,1
+pain in back worse at night,stinging in elbow joint,1.0,1
+pain in back worse at night,stinging in soles of feet,1.0,1
+pain in back worse at night,pains in knees,1.0,1
+pain in back worse at night,cracking of vertebrae on bending head,1.0,1
+pain in back worse at night,extending to thighs,1.0,1
+pain in back worse at night,rheumatic pains worse at night,1.0,1
+pain in back worse at night,aversion to open air,1.0,1
+pain in back worse at night,worse in cold damp weather,1.0,1
+pain in back worse at night,skin eruptions,1.0,1
+pain in back worse at night,palpitation worse at night,1.0,1
+pain in back worse at night,cracked skin,1.0,1
+pain in back worse at night,rough dry skin,1.0,1
+worse in cold damp weather,pain in back worse at night,1.0,1
+worse in cold damp weather,oppression at heart,1.0,1
+worse in cold damp weather,stinging in elbow joint,1.0,1
+worse in cold damp weather,stinging in soles of feet,1.0,1
+worse in cold damp weather,pains in knees,1.0,1
+worse in cold damp weather,cracking of vertebrae on bending head,1.0,1
+worse in cold damp weather,extending to thighs,1.0,1
+worse in cold damp weather,rheumatic pains worse at night,1.0,1
+worse in cold damp weather,aversion to open air,1.0,1
+worse in cold damp weather,skin eruptions,1.0,1
+worse in cold damp weather,palpitation worse at night,1.0,1
+worse in cold damp weather,cracked skin,1.0,1
+worse in cold damp weather,rough dry skin,1.0,1
+aversion to open air,pain in back worse at night,1.0,1
+aversion to open air,oppression at heart,1.0,1
+aversion to open air,stinging in elbow joint,1.0,1
+aversion to open air,stinging in soles of feet,1.0,1
+aversion to open air,pains in knees,1.0,1
+aversion to open air,cracking of vertebrae on bending head,1.0,1
+aversion to open air,extending to thighs,1.0,1
+aversion to open air,rheumatic pains worse at night,1.0,1
+aversion to open air,worse in cold damp weather,1.0,1
+aversion to open air,skin eruptions,1.0,1
+aversion to open air,palpitation worse at night,1.0,1
+aversion to open air,cracked skin,1.0,1
+aversion to open air,rough dry skin,1.0,1
+rough dry skin,pain in back worse at night,1.0,1
+rough dry skin,oppression at heart,1.0,1
+rough dry skin,stinging in elbow joint,1.0,1
+rough dry skin,stinging in soles of feet,1.0,1
+rough dry skin,pains in knees,1.0,1
+rough dry skin,cracking of vertebrae on bending head,1.0,1
+rough dry skin,extending to thighs,1.0,1
+rough dry skin,rheumatic pains worse at night,1.0,1
+rough dry skin,aversion to open air,1.0,1
+rough dry skin,worse in cold damp weather,1.0,1
+rough dry skin,skin eruptions,1.0,1
+rough dry skin,palpitation worse at night,1.0,1
+rough dry skin,cracked skin,1.0,1
+oppression at heart,pain in back worse at night,1.0,1
+oppression at heart,stinging in elbow joint,1.0,1
+oppression at heart,stinging in soles of feet,1.0,1
+oppression at heart,pains in knees,1.0,1
+oppression at heart,cracking of vertebrae on bending head,1.0,1
+oppression at heart,extending to thighs,1.0,1
+oppression at heart,rheumatic pains worse at night,1.0,1
+oppression at heart,aversion to open air,1.0,1
+oppression at heart,worse in cold damp weather,1.0,1
+oppression at heart,skin eruptions,1.0,1
+oppression at heart,palpitation worse at night,1.0,1
+oppression at heart,cracked skin,1.0,1
+oppression at heart,rough dry skin,1.0,1
+pains in knees,pain in back worse at night,0.5,1
+pains in knees,oppression at heart,0.5,1
+pains in knees,stinging in elbow joint,0.5,1
+pains in knees,stinging in soles of feet,0.5,1
+pains in knees,cracking of vertebrae on bending head,0.5,1
+pains in knees,extending to thighs,0.5,1
+pains in knees,rheumatic pains worse at night,0.5,1
+pains in knees,aversion to open air,0.5,1
+pains in knees,worse in cold damp weather,0.5,1
+pains in knees,skin eruptions,0.5,1
+pains in knees,palpitation worse at night,0.5,1
+pains in knees,cracked skin,0.5,1
+pains in knees,rough dry skin,0.5,1

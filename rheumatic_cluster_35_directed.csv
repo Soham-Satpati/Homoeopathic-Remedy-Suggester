@@ -1,0 +1,109 @@
+### Cluster 35 — Symptoms (10)
+Symptom,Frequency
+pain better absolute rest,1
+hot swollen feet,1
+great thirst for large quantities,1
+back pain better lying on painful side,1
+stiff neck worse motion,1
+rheumatism worse from motion,1
+tearing pain in shoulders worse lifting,1
+dryness of mucous membranes,1
+red hot joints,1
+swollen elbows,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+bryonia alba,10
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+hot swollen feet,pain better absolute rest,1.0,1
+hot swollen feet,great thirst for large quantities,1.0,1
+hot swollen feet,back pain better lying on painful side,1.0,1
+hot swollen feet,stiff neck worse motion,1.0,1
+hot swollen feet,rheumatism worse from motion,1.0,1
+hot swollen feet,tearing pain in shoulders worse lifting,1.0,1
+hot swollen feet,dryness of mucous membranes,1.0,1
+hot swollen feet,red hot joints,1.0,1
+hot swollen feet,swollen elbows,1.0,1
+back pain better lying on painful side,pain better absolute rest,1.0,1
+back pain better lying on painful side,hot swollen feet,1.0,1
+back pain better lying on painful side,great thirst for large quantities,1.0,1
+back pain better lying on painful side,stiff neck worse motion,1.0,1
+back pain better lying on painful side,rheumatism worse from motion,1.0,1
+back pain better lying on painful side,tearing pain in shoulders worse lifting,1.0,1
+back pain better lying on painful side,dryness of mucous membranes,1.0,1
+back pain better lying on painful side,red hot joints,1.0,1
+back pain better lying on painful side,swollen elbows,1.0,1
+red hot joints,pain better absolute rest,1.0,1
+red hot joints,hot swollen feet,1.0,1
+red hot joints,great thirst for large quantities,1.0,1
+red hot joints,back pain better lying on painful side,1.0,1
+red hot joints,stiff neck worse motion,1.0,1
+red hot joints,rheumatism worse from motion,1.0,1
+red hot joints,tearing pain in shoulders worse lifting,1.0,1
+red hot joints,dryness of mucous membranes,1.0,1
+red hot joints,swollen elbows,1.0,1
+pain better absolute rest,hot swollen feet,1.0,1
+pain better absolute rest,great thirst for large quantities,1.0,1
+pain better absolute rest,back pain better lying on painful side,1.0,1
+pain better absolute rest,stiff neck worse motion,1.0,1
+pain better absolute rest,rheumatism worse from motion,1.0,1
+pain better absolute rest,tearing pain in shoulders worse lifting,1.0,1
+pain better absolute rest,dryness of mucous membranes,1.0,1
+pain better absolute rest,red hot joints,1.0,1
+pain better absolute rest,swollen elbows,1.0,1
+stiff neck worse motion,pain better absolute rest,1.0,1
+stiff neck worse motion,hot swollen feet,1.0,1
+stiff neck worse motion,great thirst for large quantities,1.0,1
+stiff neck worse motion,back pain better lying on painful side,1.0,1
+stiff neck worse motion,rheumatism worse from motion,1.0,1
+stiff neck worse motion,tearing pain in shoulders worse lifting,1.0,1
+stiff neck worse motion,dryness of mucous membranes,1.0,1
+stiff neck worse motion,red hot joints,1.0,1
+stiff neck worse motion,swollen elbows,1.0,1
+tearing pain in shoulders worse lifting,pain better absolute rest,1.0,1
+tearing pain in shoulders worse lifting,hot swollen feet,1.0,1
+tearing pain in shoulders worse lifting,great thirst for large quantities,1.0,1
+tearing pain in shoulders worse lifting,back pain better lying on painful side,1.0,1
+tearing pain in shoulders worse lifting,stiff neck worse motion,1.0,1
+tearing pain in shoulders worse lifting,rheumatism worse from motion,1.0,1
+tearing pain in shoulders worse lifting,dryness of mucous membranes,1.0,1
+tearing pain in shoulders worse lifting,red hot joints,1.0,1
+tearing pain in shoulders worse lifting,swollen elbows,1.0,1
+swollen elbows,pain better absolute rest,1.0,1
+swollen elbows,hot swollen feet,1.0,1
+swollen elbows,great thirst for large quantities,1.0,1
+swollen elbows,back pain better lying on painful side,1.0,1
+swollen elbows,stiff neck worse motion,1.0,1
+swollen elbows,rheumatism worse from motion,1.0,1
+swollen elbows,tearing pain in shoulders worse lifting,1.0,1
+swollen elbows,dryness of mucous membranes,1.0,1
+swollen elbows,red hot joints,1.0,1
+rheumatism worse from motion,pain better absolute rest,1.0,1
+rheumatism worse from motion,hot swollen feet,1.0,1
+rheumatism worse from motion,great thirst for large quantities,1.0,1
+rheumatism worse from motion,back pain better lying on painful side,1.0,1
+rheumatism worse from motion,stiff neck worse motion,1.0,1
+rheumatism worse from motion,tearing pain in shoulders worse lifting,1.0,1
+rheumatism worse from motion,dryness of mucous membranes,1.0,1
+rheumatism worse from motion,red hot joints,1.0,1
+rheumatism worse from motion,swollen elbows,1.0,1
+dryness of mucous membranes,pain better absolute rest,1.0,1
+dryness of mucous membranes,hot swollen feet,1.0,1
+dryness of mucous membranes,great thirst for large quantities,1.0,1
+dryness of mucous membranes,back pain better lying on painful side,1.0,1
+dryness of mucous membranes,stiff neck worse motion,1.0,1
+dryness of mucous membranes,rheumatism worse from motion,1.0,1
+dryness of mucous membranes,tearing pain in shoulders worse lifting,1.0,1
+dryness of mucous membranes,red hot joints,1.0,1
+dryness of mucous membranes,swollen elbows,1.0,1
+great thirst for large quantities,pain better absolute rest,1.0,1
+great thirst for large quantities,hot swollen feet,1.0,1
+great thirst for large quantities,back pain better lying on painful side,1.0,1
+great thirst for large quantities,stiff neck worse motion,1.0,1
+great thirst for large quantities,rheumatism worse from motion,1.0,1
+great thirst for large quantities,tearing pain in shoulders worse lifting,1.0,1
+great thirst for large quantities,dryness of mucous membranes,1.0,1
+great thirst for large quantities,red hot joints,1.0,1
+great thirst for large quantities,swollen elbows,1.0,1

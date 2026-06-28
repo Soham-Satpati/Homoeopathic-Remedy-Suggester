@@ -1,0 +1,110 @@
+### Cluster 84 — Symptoms (10)
+Symptom,Frequency
+worse standing,2
+aching pain extending to leg,1
+aching pain extending to thigh,1
+uterine hemorrhages,1
+aching pain extending to foot,1
+profuse menses,1
+hemorrhages,1
+aching pain in left hip joint,1
+rheumatism of left hip joint,1
+aching pain extending to knee,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+trillium,10
+valeriana,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+aching pain extending to leg,aching pain extending to thigh,1.0,1
+aching pain extending to leg,uterine hemorrhages,1.0,1
+aching pain extending to leg,aching pain extending to foot,1.0,1
+aching pain extending to leg,profuse menses,1.0,1
+aching pain extending to leg,hemorrhages,1.0,1
+aching pain extending to leg,aching pain in left hip joint,1.0,1
+aching pain extending to leg,rheumatism of left hip joint,1.0,1
+aching pain extending to leg,worse standing,1.0,1
+aching pain extending to leg,aching pain extending to knee,1.0,1
+rheumatism of left hip joint,aching pain extending to leg,1.0,1
+rheumatism of left hip joint,aching pain extending to thigh,1.0,1
+rheumatism of left hip joint,uterine hemorrhages,1.0,1
+rheumatism of left hip joint,aching pain extending to foot,1.0,1
+rheumatism of left hip joint,profuse menses,1.0,1
+rheumatism of left hip joint,hemorrhages,1.0,1
+rheumatism of left hip joint,aching pain in left hip joint,1.0,1
+rheumatism of left hip joint,worse standing,1.0,1
+rheumatism of left hip joint,aching pain extending to knee,1.0,1
+hemorrhages,aching pain extending to leg,1.0,1
+hemorrhages,aching pain extending to thigh,1.0,1
+hemorrhages,uterine hemorrhages,1.0,1
+hemorrhages,aching pain extending to foot,1.0,1
+hemorrhages,profuse menses,1.0,1
+hemorrhages,aching pain in left hip joint,1.0,1
+hemorrhages,rheumatism of left hip joint,1.0,1
+hemorrhages,worse standing,1.0,1
+hemorrhages,aching pain extending to knee,1.0,1
+aching pain extending to thigh,aching pain extending to leg,1.0,1
+aching pain extending to thigh,uterine hemorrhages,1.0,1
+aching pain extending to thigh,aching pain extending to foot,1.0,1
+aching pain extending to thigh,profuse menses,1.0,1
+aching pain extending to thigh,hemorrhages,1.0,1
+aching pain extending to thigh,aching pain in left hip joint,1.0,1
+aching pain extending to thigh,rheumatism of left hip joint,1.0,1
+aching pain extending to thigh,worse standing,1.0,1
+aching pain extending to thigh,aching pain extending to knee,1.0,1
+aching pain in left hip joint,aching pain extending to leg,1.0,1
+aching pain in left hip joint,aching pain extending to thigh,1.0,1
+aching pain in left hip joint,uterine hemorrhages,1.0,1
+aching pain in left hip joint,aching pain extending to foot,1.0,1
+aching pain in left hip joint,profuse menses,1.0,1
+aching pain in left hip joint,hemorrhages,1.0,1
+aching pain in left hip joint,rheumatism of left hip joint,1.0,1
+aching pain in left hip joint,worse standing,1.0,1
+aching pain in left hip joint,aching pain extending to knee,1.0,1
+aching pain extending to knee,aching pain extending to leg,1.0,1
+aching pain extending to knee,aching pain extending to thigh,1.0,1
+aching pain extending to knee,uterine hemorrhages,1.0,1
+aching pain extending to knee,aching pain extending to foot,1.0,1
+aching pain extending to knee,profuse menses,1.0,1
+aching pain extending to knee,hemorrhages,1.0,1
+aching pain extending to knee,aching pain in left hip joint,1.0,1
+aching pain extending to knee,rheumatism of left hip joint,1.0,1
+aching pain extending to knee,worse standing,1.0,1
+profuse menses,aching pain extending to leg,1.0,1
+profuse menses,aching pain extending to thigh,1.0,1
+profuse menses,uterine hemorrhages,1.0,1
+profuse menses,aching pain extending to foot,1.0,1
+profuse menses,hemorrhages,1.0,1
+profuse menses,aching pain in left hip joint,1.0,1
+profuse menses,rheumatism of left hip joint,1.0,1
+profuse menses,worse standing,1.0,1
+profuse menses,aching pain extending to knee,1.0,1
+worse standing,aching pain extending to leg,0.5,1
+worse standing,aching pain extending to thigh,0.5,1
+worse standing,uterine hemorrhages,0.5,1
+worse standing,aching pain extending to foot,0.5,1
+worse standing,profuse menses,0.5,1
+worse standing,hemorrhages,0.5,1
+worse standing,aching pain in left hip joint,0.5,1
+worse standing,rheumatism of left hip joint,0.5,1
+worse standing,aching pain extending to knee,0.5,1
+uterine hemorrhages,aching pain extending to leg,1.0,1
+uterine hemorrhages,aching pain extending to thigh,1.0,1
+uterine hemorrhages,aching pain extending to foot,1.0,1
+uterine hemorrhages,profuse menses,1.0,1
+uterine hemorrhages,hemorrhages,1.0,1
+uterine hemorrhages,aching pain in left hip joint,1.0,1
+uterine hemorrhages,rheumatism of left hip joint,1.0,1
+uterine hemorrhages,worse standing,1.0,1
+uterine hemorrhages,aching pain extending to knee,1.0,1
+aching pain extending to foot,aching pain extending to leg,1.0,1
+aching pain extending to foot,aching pain extending to thigh,1.0,1
+aching pain extending to foot,uterine hemorrhages,1.0,1
+aching pain extending to foot,profuse menses,1.0,1
+aching pain extending to foot,hemorrhages,1.0,1
+aching pain extending to foot,aching pain in left hip joint,1.0,1
+aching pain extending to foot,rheumatism of left hip joint,1.0,1
+aching pain extending to foot,worse standing,1.0,1
+aching pain extending to foot,aching pain extending to knee,1.0,1

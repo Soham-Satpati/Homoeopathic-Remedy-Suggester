@@ -1,0 +1,909 @@
+### Cluster 38 — Symptoms (30)
+Symptom,Frequency
+ankle greatly swollen,1
+rheumatic pains in right deltoid,1
+severe shooting pains down legs,1
+steady almost unbearable pain about foot,1
+pain in right shoulder sensitive to touch,1
+pains in knees worse at night,1
+steady almost unbearable pain about ankle,1
+crick in neck,1
+fingers contracted by acute articular rheumatism,1
+copious sweat that does not give relief,1
+pain in right shoulder better from gentle motion,1
+severe shooting pains in knees,1
+violent pain in upper arm of a drawing tearing nature,3
+knees lame and swollen,2
+wrists lame and swollen,2
+shooting pain through ankle,1
+dead feeling in right hand,1
+violent pain in right shoulder,1
+soft full pulse,1
+very valuable in acute articular or inflammatory rheumatic fever,2
+ankle sensitive to touch,1
+joints pale red,1
+very severe congestive headache,1
+one joint after another affected,1
+acute inflammatory swelling of right shoulder,1
+joints puffy,1
+crick in back,1
+shooting pain up inside of leg,1
+pains in knees worse by motion,1
+great throbbing in head,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+ferrum phosphoricum,30
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+very valuable in acute articular or inflammatory rheumatic fever,ankle greatly swollen,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,rheumatic pains in right deltoid,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,severe shooting pains down legs,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,steady almost unbearable pain about foot,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,pain in right shoulder sensitive to touch,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,pains in knees worse at night,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,steady almost unbearable pain about ankle,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,crick in neck,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,fingers contracted by acute articular rheumatism,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,copious sweat that does not give relief,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,pain in right shoulder better from gentle motion,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,severe shooting pains in knees,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,violent pain in upper arm of a drawing tearing nature,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,knees lame and swollen,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,wrists lame and swollen,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,shooting pain through ankle,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,dead feeling in right hand,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,violent pain in right shoulder,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,soft full pulse,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,ankle sensitive to touch,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,joints pale red,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,very severe congestive headache,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,one joint after another affected,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,acute inflammatory swelling of right shoulder,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,joints puffy,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,crick in back,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,shooting pain up inside of leg,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,pains in knees worse by motion,1.0,1
+very valuable in acute articular or inflammatory rheumatic fever,great throbbing in head,1.0,1
+crick in neck,ankle greatly swollen,1.0,1
+crick in neck,rheumatic pains in right deltoid,1.0,1
+crick in neck,severe shooting pains down legs,1.0,1
+crick in neck,steady almost unbearable pain about foot,1.0,1
+crick in neck,pain in right shoulder sensitive to touch,1.0,1
+crick in neck,pains in knees worse at night,1.0,1
+crick in neck,steady almost unbearable pain about ankle,1.0,1
+crick in neck,fingers contracted by acute articular rheumatism,1.0,1
+crick in neck,copious sweat that does not give relief,1.0,1
+crick in neck,pain in right shoulder better from gentle motion,1.0,1
+crick in neck,severe shooting pains in knees,1.0,1
+crick in neck,violent pain in upper arm of a drawing tearing nature,1.0,1
+crick in neck,knees lame and swollen,1.0,1
+crick in neck,wrists lame and swollen,1.0,1
+crick in neck,shooting pain through ankle,1.0,1
+crick in neck,dead feeling in right hand,1.0,1
+crick in neck,violent pain in right shoulder,1.0,1
+crick in neck,soft full pulse,1.0,1
+crick in neck,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+crick in neck,ankle sensitive to touch,1.0,1
+crick in neck,joints pale red,1.0,1
+crick in neck,very severe congestive headache,1.0,1
+crick in neck,one joint after another affected,1.0,1
+crick in neck,acute inflammatory swelling of right shoulder,1.0,1
+crick in neck,joints puffy,1.0,1
+crick in neck,crick in back,1.0,1
+crick in neck,shooting pain up inside of leg,1.0,1
+crick in neck,pains in knees worse by motion,1.0,1
+crick in neck,great throbbing in head,1.0,1
+severe shooting pains down legs,ankle greatly swollen,1.0,1
+severe shooting pains down legs,rheumatic pains in right deltoid,1.0,1
+severe shooting pains down legs,steady almost unbearable pain about foot,1.0,1
+severe shooting pains down legs,pain in right shoulder sensitive to touch,1.0,1
+severe shooting pains down legs,pains in knees worse at night,1.0,1
+severe shooting pains down legs,steady almost unbearable pain about ankle,1.0,1
+severe shooting pains down legs,crick in neck,1.0,1
+severe shooting pains down legs,fingers contracted by acute articular rheumatism,1.0,1
+severe shooting pains down legs,copious sweat that does not give relief,1.0,1
+severe shooting pains down legs,pain in right shoulder better from gentle motion,1.0,1
+severe shooting pains down legs,severe shooting pains in knees,1.0,1
+severe shooting pains down legs,violent pain in upper arm of a drawing tearing nature,1.0,1
+severe shooting pains down legs,knees lame and swollen,1.0,1
+severe shooting pains down legs,wrists lame and swollen,1.0,1
+severe shooting pains down legs,shooting pain through ankle,1.0,1
+severe shooting pains down legs,dead feeling in right hand,1.0,1
+severe shooting pains down legs,violent pain in right shoulder,1.0,1
+severe shooting pains down legs,soft full pulse,1.0,1
+severe shooting pains down legs,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+severe shooting pains down legs,ankle sensitive to touch,1.0,1
+severe shooting pains down legs,joints pale red,1.0,1
+severe shooting pains down legs,very severe congestive headache,1.0,1
+severe shooting pains down legs,one joint after another affected,1.0,1
+severe shooting pains down legs,acute inflammatory swelling of right shoulder,1.0,1
+severe shooting pains down legs,joints puffy,1.0,1
+severe shooting pains down legs,crick in back,1.0,1
+severe shooting pains down legs,shooting pain up inside of leg,1.0,1
+severe shooting pains down legs,pains in knees worse by motion,1.0,1
+severe shooting pains down legs,great throbbing in head,1.0,1
+pain in right shoulder sensitive to touch,ankle greatly swollen,1.0,1
+pain in right shoulder sensitive to touch,rheumatic pains in right deltoid,1.0,1
+pain in right shoulder sensitive to touch,severe shooting pains down legs,1.0,1
+pain in right shoulder sensitive to touch,steady almost unbearable pain about foot,1.0,1
+pain in right shoulder sensitive to touch,pains in knees worse at night,1.0,1
+pain in right shoulder sensitive to touch,steady almost unbearable pain about ankle,1.0,1
+pain in right shoulder sensitive to touch,crick in neck,1.0,1
+pain in right shoulder sensitive to touch,fingers contracted by acute articular rheumatism,1.0,1
+pain in right shoulder sensitive to touch,copious sweat that does not give relief,1.0,1
+pain in right shoulder sensitive to touch,pain in right shoulder better from gentle motion,1.0,1
+pain in right shoulder sensitive to touch,severe shooting pains in knees,1.0,1
+pain in right shoulder sensitive to touch,violent pain in upper arm of a drawing tearing nature,1.0,1
+pain in right shoulder sensitive to touch,knees lame and swollen,1.0,1
+pain in right shoulder sensitive to touch,wrists lame and swollen,1.0,1
+pain in right shoulder sensitive to touch,shooting pain through ankle,1.0,1
+pain in right shoulder sensitive to touch,dead feeling in right hand,1.0,1
+pain in right shoulder sensitive to touch,violent pain in right shoulder,1.0,1
+pain in right shoulder sensitive to touch,soft full pulse,1.0,1
+pain in right shoulder sensitive to touch,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+pain in right shoulder sensitive to touch,ankle sensitive to touch,1.0,1
+pain in right shoulder sensitive to touch,joints pale red,1.0,1
+pain in right shoulder sensitive to touch,very severe congestive headache,1.0,1
+pain in right shoulder sensitive to touch,one joint after another affected,1.0,1
+pain in right shoulder sensitive to touch,acute inflammatory swelling of right shoulder,1.0,1
+pain in right shoulder sensitive to touch,joints puffy,1.0,1
+pain in right shoulder sensitive to touch,crick in back,1.0,1
+pain in right shoulder sensitive to touch,shooting pain up inside of leg,1.0,1
+pain in right shoulder sensitive to touch,pains in knees worse by motion,1.0,1
+pain in right shoulder sensitive to touch,great throbbing in head,1.0,1
+shooting pain up inside of leg,ankle greatly swollen,1.0,1
+shooting pain up inside of leg,rheumatic pains in right deltoid,1.0,1
+shooting pain up inside of leg,severe shooting pains down legs,1.0,1
+shooting pain up inside of leg,steady almost unbearable pain about foot,1.0,1
+shooting pain up inside of leg,pain in right shoulder sensitive to touch,1.0,1
+shooting pain up inside of leg,pains in knees worse at night,1.0,1
+shooting pain up inside of leg,steady almost unbearable pain about ankle,1.0,1
+shooting pain up inside of leg,crick in neck,1.0,1
+shooting pain up inside of leg,fingers contracted by acute articular rheumatism,1.0,1
+shooting pain up inside of leg,copious sweat that does not give relief,1.0,1
+shooting pain up inside of leg,pain in right shoulder better from gentle motion,1.0,1
+shooting pain up inside of leg,severe shooting pains in knees,1.0,1
+shooting pain up inside of leg,violent pain in upper arm of a drawing tearing nature,1.0,1
+shooting pain up inside of leg,knees lame and swollen,1.0,1
+shooting pain up inside of leg,wrists lame and swollen,1.0,1
+shooting pain up inside of leg,shooting pain through ankle,1.0,1
+shooting pain up inside of leg,dead feeling in right hand,1.0,1
+shooting pain up inside of leg,violent pain in right shoulder,1.0,1
+shooting pain up inside of leg,soft full pulse,1.0,1
+shooting pain up inside of leg,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+shooting pain up inside of leg,ankle sensitive to touch,1.0,1
+shooting pain up inside of leg,joints pale red,1.0,1
+shooting pain up inside of leg,very severe congestive headache,1.0,1
+shooting pain up inside of leg,one joint after another affected,1.0,1
+shooting pain up inside of leg,acute inflammatory swelling of right shoulder,1.0,1
+shooting pain up inside of leg,joints puffy,1.0,1
+shooting pain up inside of leg,crick in back,1.0,1
+shooting pain up inside of leg,pains in knees worse by motion,1.0,1
+shooting pain up inside of leg,great throbbing in head,1.0,1
+severe shooting pains in knees,ankle greatly swollen,1.0,1
+severe shooting pains in knees,rheumatic pains in right deltoid,1.0,1
+severe shooting pains in knees,severe shooting pains down legs,1.0,1
+severe shooting pains in knees,steady almost unbearable pain about foot,1.0,1
+severe shooting pains in knees,pain in right shoulder sensitive to touch,1.0,1
+severe shooting pains in knees,pains in knees worse at night,1.0,1
+severe shooting pains in knees,steady almost unbearable pain about ankle,1.0,1
+severe shooting pains in knees,crick in neck,1.0,1
+severe shooting pains in knees,fingers contracted by acute articular rheumatism,1.0,1
+severe shooting pains in knees,copious sweat that does not give relief,1.0,1
+severe shooting pains in knees,pain in right shoulder better from gentle motion,1.0,1
+severe shooting pains in knees,violent pain in upper arm of a drawing tearing nature,1.0,1
+severe shooting pains in knees,knees lame and swollen,1.0,1
+severe shooting pains in knees,wrists lame and swollen,1.0,1
+severe shooting pains in knees,shooting pain through ankle,1.0,1
+severe shooting pains in knees,dead feeling in right hand,1.0,1
+severe shooting pains in knees,violent pain in right shoulder,1.0,1
+severe shooting pains in knees,soft full pulse,1.0,1
+severe shooting pains in knees,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+severe shooting pains in knees,ankle sensitive to touch,1.0,1
+severe shooting pains in knees,joints pale red,1.0,1
+severe shooting pains in knees,very severe congestive headache,1.0,1
+severe shooting pains in knees,one joint after another affected,1.0,1
+severe shooting pains in knees,acute inflammatory swelling of right shoulder,1.0,1
+severe shooting pains in knees,joints puffy,1.0,1
+severe shooting pains in knees,crick in back,1.0,1
+severe shooting pains in knees,shooting pain up inside of leg,1.0,1
+severe shooting pains in knees,pains in knees worse by motion,1.0,1
+severe shooting pains in knees,great throbbing in head,1.0,1
+violent pain in right shoulder,ankle greatly swollen,1.0,1
+violent pain in right shoulder,rheumatic pains in right deltoid,1.0,1
+violent pain in right shoulder,severe shooting pains down legs,1.0,1
+violent pain in right shoulder,steady almost unbearable pain about foot,1.0,1
+violent pain in right shoulder,pain in right shoulder sensitive to touch,1.0,1
+violent pain in right shoulder,pains in knees worse at night,1.0,1
+violent pain in right shoulder,steady almost unbearable pain about ankle,1.0,1
+violent pain in right shoulder,crick in neck,1.0,1
+violent pain in right shoulder,fingers contracted by acute articular rheumatism,1.0,1
+violent pain in right shoulder,copious sweat that does not give relief,1.0,1
+violent pain in right shoulder,pain in right shoulder better from gentle motion,1.0,1
+violent pain in right shoulder,severe shooting pains in knees,1.0,1
+violent pain in right shoulder,violent pain in upper arm of a drawing tearing nature,1.0,1
+violent pain in right shoulder,knees lame and swollen,1.0,1
+violent pain in right shoulder,wrists lame and swollen,1.0,1
+violent pain in right shoulder,shooting pain through ankle,1.0,1
+violent pain in right shoulder,dead feeling in right hand,1.0,1
+violent pain in right shoulder,soft full pulse,1.0,1
+violent pain in right shoulder,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+violent pain in right shoulder,ankle sensitive to touch,1.0,1
+violent pain in right shoulder,joints pale red,1.0,1
+violent pain in right shoulder,very severe congestive headache,1.0,1
+violent pain in right shoulder,one joint after another affected,1.0,1
+violent pain in right shoulder,acute inflammatory swelling of right shoulder,1.0,1
+violent pain in right shoulder,joints puffy,1.0,1
+violent pain in right shoulder,crick in back,1.0,1
+violent pain in right shoulder,shooting pain up inside of leg,1.0,1
+violent pain in right shoulder,pains in knees worse by motion,1.0,1
+violent pain in right shoulder,great throbbing in head,1.0,1
+ankle sensitive to touch,ankle greatly swollen,1.0,1
+ankle sensitive to touch,rheumatic pains in right deltoid,1.0,1
+ankle sensitive to touch,severe shooting pains down legs,1.0,1
+ankle sensitive to touch,steady almost unbearable pain about foot,1.0,1
+ankle sensitive to touch,pain in right shoulder sensitive to touch,1.0,1
+ankle sensitive to touch,pains in knees worse at night,1.0,1
+ankle sensitive to touch,steady almost unbearable pain about ankle,1.0,1
+ankle sensitive to touch,crick in neck,1.0,1
+ankle sensitive to touch,fingers contracted by acute articular rheumatism,1.0,1
+ankle sensitive to touch,copious sweat that does not give relief,1.0,1
+ankle sensitive to touch,pain in right shoulder better from gentle motion,1.0,1
+ankle sensitive to touch,severe shooting pains in knees,1.0,1
+ankle sensitive to touch,violent pain in upper arm of a drawing tearing nature,1.0,1
+ankle sensitive to touch,knees lame and swollen,1.0,1
+ankle sensitive to touch,wrists lame and swollen,1.0,1
+ankle sensitive to touch,shooting pain through ankle,1.0,1
+ankle sensitive to touch,dead feeling in right hand,1.0,1
+ankle sensitive to touch,violent pain in right shoulder,1.0,1
+ankle sensitive to touch,soft full pulse,1.0,1
+ankle sensitive to touch,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+ankle sensitive to touch,joints pale red,1.0,1
+ankle sensitive to touch,very severe congestive headache,1.0,1
+ankle sensitive to touch,one joint after another affected,1.0,1
+ankle sensitive to touch,acute inflammatory swelling of right shoulder,1.0,1
+ankle sensitive to touch,joints puffy,1.0,1
+ankle sensitive to touch,crick in back,1.0,1
+ankle sensitive to touch,shooting pain up inside of leg,1.0,1
+ankle sensitive to touch,pains in knees worse by motion,1.0,1
+ankle sensitive to touch,great throbbing in head,1.0,1
+joints pale red,ankle greatly swollen,1.0,1
+joints pale red,rheumatic pains in right deltoid,1.0,1
+joints pale red,severe shooting pains down legs,1.0,1
+joints pale red,steady almost unbearable pain about foot,1.0,1
+joints pale red,pain in right shoulder sensitive to touch,1.0,1
+joints pale red,pains in knees worse at night,1.0,1
+joints pale red,steady almost unbearable pain about ankle,1.0,1
+joints pale red,crick in neck,1.0,1
+joints pale red,fingers contracted by acute articular rheumatism,1.0,1
+joints pale red,copious sweat that does not give relief,1.0,1
+joints pale red,pain in right shoulder better from gentle motion,1.0,1
+joints pale red,severe shooting pains in knees,1.0,1
+joints pale red,violent pain in upper arm of a drawing tearing nature,1.0,1
+joints pale red,knees lame and swollen,1.0,1
+joints pale red,wrists lame and swollen,1.0,1
+joints pale red,shooting pain through ankle,1.0,1
+joints pale red,dead feeling in right hand,1.0,1
+joints pale red,violent pain in right shoulder,1.0,1
+joints pale red,soft full pulse,1.0,1
+joints pale red,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+joints pale red,ankle sensitive to touch,1.0,1
+joints pale red,very severe congestive headache,1.0,1
+joints pale red,one joint after another affected,1.0,1
+joints pale red,acute inflammatory swelling of right shoulder,1.0,1
+joints pale red,joints puffy,1.0,1
+joints pale red,crick in back,1.0,1
+joints pale red,shooting pain up inside of leg,1.0,1
+joints pale red,pains in knees worse by motion,1.0,1
+joints pale red,great throbbing in head,1.0,1
+great throbbing in head,ankle greatly swollen,1.0,1
+great throbbing in head,rheumatic pains in right deltoid,1.0,1
+great throbbing in head,severe shooting pains down legs,1.0,1
+great throbbing in head,steady almost unbearable pain about foot,1.0,1
+great throbbing in head,pain in right shoulder sensitive to touch,1.0,1
+great throbbing in head,pains in knees worse at night,1.0,1
+great throbbing in head,steady almost unbearable pain about ankle,1.0,1
+great throbbing in head,crick in neck,1.0,1
+great throbbing in head,fingers contracted by acute articular rheumatism,1.0,1
+great throbbing in head,copious sweat that does not give relief,1.0,1
+great throbbing in head,pain in right shoulder better from gentle motion,1.0,1
+great throbbing in head,severe shooting pains in knees,1.0,1
+great throbbing in head,violent pain in upper arm of a drawing tearing nature,1.0,1
+great throbbing in head,knees lame and swollen,1.0,1
+great throbbing in head,wrists lame and swollen,1.0,1
+great throbbing in head,shooting pain through ankle,1.0,1
+great throbbing in head,dead feeling in right hand,1.0,1
+great throbbing in head,violent pain in right shoulder,1.0,1
+great throbbing in head,soft full pulse,1.0,1
+great throbbing in head,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+great throbbing in head,ankle sensitive to touch,1.0,1
+great throbbing in head,joints pale red,1.0,1
+great throbbing in head,very severe congestive headache,1.0,1
+great throbbing in head,one joint after another affected,1.0,1
+great throbbing in head,acute inflammatory swelling of right shoulder,1.0,1
+great throbbing in head,joints puffy,1.0,1
+great throbbing in head,crick in back,1.0,1
+great throbbing in head,shooting pain up inside of leg,1.0,1
+great throbbing in head,pains in knees worse by motion,1.0,1
+ankle greatly swollen,rheumatic pains in right deltoid,1.0,1
+ankle greatly swollen,severe shooting pains down legs,1.0,1
+ankle greatly swollen,steady almost unbearable pain about foot,1.0,1
+ankle greatly swollen,pain in right shoulder sensitive to touch,1.0,1
+ankle greatly swollen,pains in knees worse at night,1.0,1
+ankle greatly swollen,steady almost unbearable pain about ankle,1.0,1
+ankle greatly swollen,crick in neck,1.0,1
+ankle greatly swollen,fingers contracted by acute articular rheumatism,1.0,1
+ankle greatly swollen,copious sweat that does not give relief,1.0,1
+ankle greatly swollen,pain in right shoulder better from gentle motion,1.0,1
+ankle greatly swollen,severe shooting pains in knees,1.0,1
+ankle greatly swollen,violent pain in upper arm of a drawing tearing nature,1.0,1
+ankle greatly swollen,knees lame and swollen,1.0,1
+ankle greatly swollen,wrists lame and swollen,1.0,1
+ankle greatly swollen,shooting pain through ankle,1.0,1
+ankle greatly swollen,dead feeling in right hand,1.0,1
+ankle greatly swollen,violent pain in right shoulder,1.0,1
+ankle greatly swollen,soft full pulse,1.0,1
+ankle greatly swollen,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+ankle greatly swollen,ankle sensitive to touch,1.0,1
+ankle greatly swollen,joints pale red,1.0,1
+ankle greatly swollen,very severe congestive headache,1.0,1
+ankle greatly swollen,one joint after another affected,1.0,1
+ankle greatly swollen,acute inflammatory swelling of right shoulder,1.0,1
+ankle greatly swollen,joints puffy,1.0,1
+ankle greatly swollen,crick in back,1.0,1
+ankle greatly swollen,shooting pain up inside of leg,1.0,1
+ankle greatly swollen,pains in knees worse by motion,1.0,1
+ankle greatly swollen,great throbbing in head,1.0,1
+one joint after another affected,ankle greatly swollen,1.0,1
+one joint after another affected,rheumatic pains in right deltoid,1.0,1
+one joint after another affected,severe shooting pains down legs,1.0,1
+one joint after another affected,steady almost unbearable pain about foot,1.0,1
+one joint after another affected,pain in right shoulder sensitive to touch,1.0,1
+one joint after another affected,pains in knees worse at night,1.0,1
+one joint after another affected,steady almost unbearable pain about ankle,1.0,1
+one joint after another affected,crick in neck,1.0,1
+one joint after another affected,fingers contracted by acute articular rheumatism,1.0,1
+one joint after another affected,copious sweat that does not give relief,1.0,1
+one joint after another affected,pain in right shoulder better from gentle motion,1.0,1
+one joint after another affected,severe shooting pains in knees,1.0,1
+one joint after another affected,violent pain in upper arm of a drawing tearing nature,1.0,1
+one joint after another affected,knees lame and swollen,1.0,1
+one joint after another affected,wrists lame and swollen,1.0,1
+one joint after another affected,shooting pain through ankle,1.0,1
+one joint after another affected,dead feeling in right hand,1.0,1
+one joint after another affected,violent pain in right shoulder,1.0,1
+one joint after another affected,soft full pulse,1.0,1
+one joint after another affected,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+one joint after another affected,ankle sensitive to touch,1.0,1
+one joint after another affected,joints pale red,1.0,1
+one joint after another affected,very severe congestive headache,1.0,1
+one joint after another affected,acute inflammatory swelling of right shoulder,1.0,1
+one joint after another affected,joints puffy,1.0,1
+one joint after another affected,crick in back,1.0,1
+one joint after another affected,shooting pain up inside of leg,1.0,1
+one joint after another affected,pains in knees worse by motion,1.0,1
+one joint after another affected,great throbbing in head,1.0,1
+wrists lame and swollen,ankle greatly swollen,1.0,1
+wrists lame and swollen,rheumatic pains in right deltoid,1.0,1
+wrists lame and swollen,severe shooting pains down legs,1.0,1
+wrists lame and swollen,steady almost unbearable pain about foot,1.0,1
+wrists lame and swollen,pain in right shoulder sensitive to touch,1.0,1
+wrists lame and swollen,pains in knees worse at night,1.0,1
+wrists lame and swollen,steady almost unbearable pain about ankle,1.0,1
+wrists lame and swollen,crick in neck,1.0,1
+wrists lame and swollen,fingers contracted by acute articular rheumatism,1.0,1
+wrists lame and swollen,copious sweat that does not give relief,1.0,1
+wrists lame and swollen,pain in right shoulder better from gentle motion,1.0,1
+wrists lame and swollen,severe shooting pains in knees,1.0,1
+wrists lame and swollen,violent pain in upper arm of a drawing tearing nature,1.0,1
+wrists lame and swollen,knees lame and swollen,1.0,1
+wrists lame and swollen,shooting pain through ankle,1.0,1
+wrists lame and swollen,dead feeling in right hand,1.0,1
+wrists lame and swollen,violent pain in right shoulder,1.0,1
+wrists lame and swollen,soft full pulse,1.0,1
+wrists lame and swollen,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+wrists lame and swollen,ankle sensitive to touch,1.0,1
+wrists lame and swollen,joints pale red,1.0,1
+wrists lame and swollen,very severe congestive headache,1.0,1
+wrists lame and swollen,one joint after another affected,1.0,1
+wrists lame and swollen,acute inflammatory swelling of right shoulder,1.0,1
+wrists lame and swollen,joints puffy,1.0,1
+wrists lame and swollen,crick in back,1.0,1
+wrists lame and swollen,shooting pain up inside of leg,1.0,1
+wrists lame and swollen,pains in knees worse by motion,1.0,1
+wrists lame and swollen,great throbbing in head,1.0,1
+copious sweat that does not give relief,ankle greatly swollen,1.0,1
+copious sweat that does not give relief,rheumatic pains in right deltoid,1.0,1
+copious sweat that does not give relief,severe shooting pains down legs,1.0,1
+copious sweat that does not give relief,steady almost unbearable pain about foot,1.0,1
+copious sweat that does not give relief,pain in right shoulder sensitive to touch,1.0,1
+copious sweat that does not give relief,pains in knees worse at night,1.0,1
+copious sweat that does not give relief,steady almost unbearable pain about ankle,1.0,1
+copious sweat that does not give relief,crick in neck,1.0,1
+copious sweat that does not give relief,fingers contracted by acute articular rheumatism,1.0,1
+copious sweat that does not give relief,pain in right shoulder better from gentle motion,1.0,1
+copious sweat that does not give relief,severe shooting pains in knees,1.0,1
+copious sweat that does not give relief,violent pain in upper arm of a drawing tearing nature,1.0,1
+copious sweat that does not give relief,knees lame and swollen,1.0,1
+copious sweat that does not give relief,wrists lame and swollen,1.0,1
+copious sweat that does not give relief,shooting pain through ankle,1.0,1
+copious sweat that does not give relief,dead feeling in right hand,1.0,1
+copious sweat that does not give relief,violent pain in right shoulder,1.0,1
+copious sweat that does not give relief,soft full pulse,1.0,1
+copious sweat that does not give relief,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+copious sweat that does not give relief,ankle sensitive to touch,1.0,1
+copious sweat that does not give relief,joints pale red,1.0,1
+copious sweat that does not give relief,very severe congestive headache,1.0,1
+copious sweat that does not give relief,one joint after another affected,1.0,1
+copious sweat that does not give relief,acute inflammatory swelling of right shoulder,1.0,1
+copious sweat that does not give relief,joints puffy,1.0,1
+copious sweat that does not give relief,crick in back,1.0,1
+copious sweat that does not give relief,shooting pain up inside of leg,1.0,1
+copious sweat that does not give relief,pains in knees worse by motion,1.0,1
+copious sweat that does not give relief,great throbbing in head,1.0,1
+steady almost unbearable pain about ankle,ankle greatly swollen,1.0,1
+steady almost unbearable pain about ankle,rheumatic pains in right deltoid,1.0,1
+steady almost unbearable pain about ankle,severe shooting pains down legs,1.0,1
+steady almost unbearable pain about ankle,steady almost unbearable pain about foot,1.0,1
+steady almost unbearable pain about ankle,pain in right shoulder sensitive to touch,1.0,1
+steady almost unbearable pain about ankle,pains in knees worse at night,1.0,1
+steady almost unbearable pain about ankle,crick in neck,1.0,1
+steady almost unbearable pain about ankle,fingers contracted by acute articular rheumatism,1.0,1
+steady almost unbearable pain about ankle,copious sweat that does not give relief,1.0,1
+steady almost unbearable pain about ankle,pain in right shoulder better from gentle motion,1.0,1
+steady almost unbearable pain about ankle,severe shooting pains in knees,1.0,1
+steady almost unbearable pain about ankle,violent pain in upper arm of a drawing tearing nature,1.0,1
+steady almost unbearable pain about ankle,knees lame and swollen,1.0,1
+steady almost unbearable pain about ankle,wrists lame and swollen,1.0,1
+steady almost unbearable pain about ankle,shooting pain through ankle,1.0,1
+steady almost unbearable pain about ankle,dead feeling in right hand,1.0,1
+steady almost unbearable pain about ankle,violent pain in right shoulder,1.0,1
+steady almost unbearable pain about ankle,soft full pulse,1.0,1
+steady almost unbearable pain about ankle,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+steady almost unbearable pain about ankle,ankle sensitive to touch,1.0,1
+steady almost unbearable pain about ankle,joints pale red,1.0,1
+steady almost unbearable pain about ankle,very severe congestive headache,1.0,1
+steady almost unbearable pain about ankle,one joint after another affected,1.0,1
+steady almost unbearable pain about ankle,acute inflammatory swelling of right shoulder,1.0,1
+steady almost unbearable pain about ankle,joints puffy,1.0,1
+steady almost unbearable pain about ankle,crick in back,1.0,1
+steady almost unbearable pain about ankle,shooting pain up inside of leg,1.0,1
+steady almost unbearable pain about ankle,pains in knees worse by motion,1.0,1
+steady almost unbearable pain about ankle,great throbbing in head,1.0,1
+very severe congestive headache,ankle greatly swollen,1.0,1
+very severe congestive headache,rheumatic pains in right deltoid,1.0,1
+very severe congestive headache,severe shooting pains down legs,1.0,1
+very severe congestive headache,steady almost unbearable pain about foot,1.0,1
+very severe congestive headache,pain in right shoulder sensitive to touch,1.0,1
+very severe congestive headache,pains in knees worse at night,1.0,1
+very severe congestive headache,steady almost unbearable pain about ankle,1.0,1
+very severe congestive headache,crick in neck,1.0,1
+very severe congestive headache,fingers contracted by acute articular rheumatism,1.0,1
+very severe congestive headache,copious sweat that does not give relief,1.0,1
+very severe congestive headache,pain in right shoulder better from gentle motion,1.0,1
+very severe congestive headache,severe shooting pains in knees,1.0,1
+very severe congestive headache,violent pain in upper arm of a drawing tearing nature,1.0,1
+very severe congestive headache,knees lame and swollen,1.0,1
+very severe congestive headache,wrists lame and swollen,1.0,1
+very severe congestive headache,shooting pain through ankle,1.0,1
+very severe congestive headache,dead feeling in right hand,1.0,1
+very severe congestive headache,violent pain in right shoulder,1.0,1
+very severe congestive headache,soft full pulse,1.0,1
+very severe congestive headache,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+very severe congestive headache,ankle sensitive to touch,1.0,1
+very severe congestive headache,joints pale red,1.0,1
+very severe congestive headache,one joint after another affected,1.0,1
+very severe congestive headache,acute inflammatory swelling of right shoulder,1.0,1
+very severe congestive headache,joints puffy,1.0,1
+very severe congestive headache,crick in back,1.0,1
+very severe congestive headache,shooting pain up inside of leg,1.0,1
+very severe congestive headache,pains in knees worse by motion,1.0,1
+very severe congestive headache,great throbbing in head,1.0,1
+rheumatic pains in right deltoid,ankle greatly swollen,1.0,1
+rheumatic pains in right deltoid,severe shooting pains down legs,1.0,1
+rheumatic pains in right deltoid,steady almost unbearable pain about foot,1.0,1
+rheumatic pains in right deltoid,pain in right shoulder sensitive to touch,1.0,1
+rheumatic pains in right deltoid,pains in knees worse at night,1.0,1
+rheumatic pains in right deltoid,steady almost unbearable pain about ankle,1.0,1
+rheumatic pains in right deltoid,crick in neck,1.0,1
+rheumatic pains in right deltoid,fingers contracted by acute articular rheumatism,1.0,1
+rheumatic pains in right deltoid,copious sweat that does not give relief,1.0,1
+rheumatic pains in right deltoid,pain in right shoulder better from gentle motion,1.0,1
+rheumatic pains in right deltoid,severe shooting pains in knees,1.0,1
+rheumatic pains in right deltoid,violent pain in upper arm of a drawing tearing nature,1.0,1
+rheumatic pains in right deltoid,knees lame and swollen,1.0,1
+rheumatic pains in right deltoid,wrists lame and swollen,1.0,1
+rheumatic pains in right deltoid,shooting pain through ankle,1.0,1
+rheumatic pains in right deltoid,dead feeling in right hand,1.0,1
+rheumatic pains in right deltoid,violent pain in right shoulder,1.0,1
+rheumatic pains in right deltoid,soft full pulse,1.0,1
+rheumatic pains in right deltoid,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+rheumatic pains in right deltoid,ankle sensitive to touch,1.0,1
+rheumatic pains in right deltoid,joints pale red,1.0,1
+rheumatic pains in right deltoid,very severe congestive headache,1.0,1
+rheumatic pains in right deltoid,one joint after another affected,1.0,1
+rheumatic pains in right deltoid,acute inflammatory swelling of right shoulder,1.0,1
+rheumatic pains in right deltoid,joints puffy,1.0,1
+rheumatic pains in right deltoid,crick in back,1.0,1
+rheumatic pains in right deltoid,shooting pain up inside of leg,1.0,1
+rheumatic pains in right deltoid,pains in knees worse by motion,1.0,1
+rheumatic pains in right deltoid,great throbbing in head,1.0,1
+acute inflammatory swelling of right shoulder,ankle greatly swollen,1.0,1
+acute inflammatory swelling of right shoulder,rheumatic pains in right deltoid,1.0,1
+acute inflammatory swelling of right shoulder,severe shooting pains down legs,1.0,1
+acute inflammatory swelling of right shoulder,steady almost unbearable pain about foot,1.0,1
+acute inflammatory swelling of right shoulder,pain in right shoulder sensitive to touch,1.0,1
+acute inflammatory swelling of right shoulder,pains in knees worse at night,1.0,1
+acute inflammatory swelling of right shoulder,steady almost unbearable pain about ankle,1.0,1
+acute inflammatory swelling of right shoulder,crick in neck,1.0,1
+acute inflammatory swelling of right shoulder,fingers contracted by acute articular rheumatism,1.0,1
+acute inflammatory swelling of right shoulder,copious sweat that does not give relief,1.0,1
+acute inflammatory swelling of right shoulder,pain in right shoulder better from gentle motion,1.0,1
+acute inflammatory swelling of right shoulder,severe shooting pains in knees,1.0,1
+acute inflammatory swelling of right shoulder,violent pain in upper arm of a drawing tearing nature,1.0,1
+acute inflammatory swelling of right shoulder,knees lame and swollen,1.0,1
+acute inflammatory swelling of right shoulder,wrists lame and swollen,1.0,1
+acute inflammatory swelling of right shoulder,shooting pain through ankle,1.0,1
+acute inflammatory swelling of right shoulder,dead feeling in right hand,1.0,1
+acute inflammatory swelling of right shoulder,violent pain in right shoulder,1.0,1
+acute inflammatory swelling of right shoulder,soft full pulse,1.0,1
+acute inflammatory swelling of right shoulder,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+acute inflammatory swelling of right shoulder,ankle sensitive to touch,1.0,1
+acute inflammatory swelling of right shoulder,joints pale red,1.0,1
+acute inflammatory swelling of right shoulder,very severe congestive headache,1.0,1
+acute inflammatory swelling of right shoulder,one joint after another affected,1.0,1
+acute inflammatory swelling of right shoulder,joints puffy,1.0,1
+acute inflammatory swelling of right shoulder,crick in back,1.0,1
+acute inflammatory swelling of right shoulder,shooting pain up inside of leg,1.0,1
+acute inflammatory swelling of right shoulder,pains in knees worse by motion,1.0,1
+acute inflammatory swelling of right shoulder,great throbbing in head,1.0,1
+joints puffy,ankle greatly swollen,1.0,1
+joints puffy,rheumatic pains in right deltoid,1.0,1
+joints puffy,severe shooting pains down legs,1.0,1
+joints puffy,steady almost unbearable pain about foot,1.0,1
+joints puffy,pain in right shoulder sensitive to touch,1.0,1
+joints puffy,pains in knees worse at night,1.0,1
+joints puffy,steady almost unbearable pain about ankle,1.0,1
+joints puffy,crick in neck,1.0,1
+joints puffy,fingers contracted by acute articular rheumatism,1.0,1
+joints puffy,copious sweat that does not give relief,1.0,1
+joints puffy,pain in right shoulder better from gentle motion,1.0,1
+joints puffy,severe shooting pains in knees,1.0,1
+joints puffy,violent pain in upper arm of a drawing tearing nature,1.0,1
+joints puffy,knees lame and swollen,1.0,1
+joints puffy,wrists lame and swollen,1.0,1
+joints puffy,shooting pain through ankle,1.0,1
+joints puffy,dead feeling in right hand,1.0,1
+joints puffy,violent pain in right shoulder,1.0,1
+joints puffy,soft full pulse,1.0,1
+joints puffy,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+joints puffy,ankle sensitive to touch,1.0,1
+joints puffy,joints pale red,1.0,1
+joints puffy,very severe congestive headache,1.0,1
+joints puffy,one joint after another affected,1.0,1
+joints puffy,acute inflammatory swelling of right shoulder,1.0,1
+joints puffy,crick in back,1.0,1
+joints puffy,shooting pain up inside of leg,1.0,1
+joints puffy,pains in knees worse by motion,1.0,1
+joints puffy,great throbbing in head,1.0,1
+pains in knees worse by motion,ankle greatly swollen,1.0,1
+pains in knees worse by motion,rheumatic pains in right deltoid,1.0,1
+pains in knees worse by motion,severe shooting pains down legs,1.0,1
+pains in knees worse by motion,steady almost unbearable pain about foot,1.0,1
+pains in knees worse by motion,pain in right shoulder sensitive to touch,1.0,1
+pains in knees worse by motion,pains in knees worse at night,1.0,1
+pains in knees worse by motion,steady almost unbearable pain about ankle,1.0,1
+pains in knees worse by motion,crick in neck,1.0,1
+pains in knees worse by motion,fingers contracted by acute articular rheumatism,1.0,1
+pains in knees worse by motion,copious sweat that does not give relief,1.0,1
+pains in knees worse by motion,pain in right shoulder better from gentle motion,1.0,1
+pains in knees worse by motion,severe shooting pains in knees,1.0,1
+pains in knees worse by motion,violent pain in upper arm of a drawing tearing nature,1.0,1
+pains in knees worse by motion,knees lame and swollen,1.0,1
+pains in knees worse by motion,wrists lame and swollen,1.0,1
+pains in knees worse by motion,shooting pain through ankle,1.0,1
+pains in knees worse by motion,dead feeling in right hand,1.0,1
+pains in knees worse by motion,violent pain in right shoulder,1.0,1
+pains in knees worse by motion,soft full pulse,1.0,1
+pains in knees worse by motion,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+pains in knees worse by motion,ankle sensitive to touch,1.0,1
+pains in knees worse by motion,joints pale red,1.0,1
+pains in knees worse by motion,very severe congestive headache,1.0,1
+pains in knees worse by motion,one joint after another affected,1.0,1
+pains in knees worse by motion,acute inflammatory swelling of right shoulder,1.0,1
+pains in knees worse by motion,joints puffy,1.0,1
+pains in knees worse by motion,crick in back,1.0,1
+pains in knees worse by motion,shooting pain up inside of leg,1.0,1
+pains in knees worse by motion,great throbbing in head,1.0,1
+pain in right shoulder better from gentle motion,ankle greatly swollen,1.0,1
+pain in right shoulder better from gentle motion,rheumatic pains in right deltoid,1.0,1
+pain in right shoulder better from gentle motion,severe shooting pains down legs,1.0,1
+pain in right shoulder better from gentle motion,steady almost unbearable pain about foot,1.0,1
+pain in right shoulder better from gentle motion,pain in right shoulder sensitive to touch,1.0,1
+pain in right shoulder better from gentle motion,pains in knees worse at night,1.0,1
+pain in right shoulder better from gentle motion,steady almost unbearable pain about ankle,1.0,1
+pain in right shoulder better from gentle motion,crick in neck,1.0,1
+pain in right shoulder better from gentle motion,fingers contracted by acute articular rheumatism,1.0,1
+pain in right shoulder better from gentle motion,copious sweat that does not give relief,1.0,1
+pain in right shoulder better from gentle motion,severe shooting pains in knees,1.0,1
+pain in right shoulder better from gentle motion,violent pain in upper arm of a drawing tearing nature,1.0,1
+pain in right shoulder better from gentle motion,knees lame and swollen,1.0,1
+pain in right shoulder better from gentle motion,wrists lame and swollen,1.0,1
+pain in right shoulder better from gentle motion,shooting pain through ankle,1.0,1
+pain in right shoulder better from gentle motion,dead feeling in right hand,1.0,1
+pain in right shoulder better from gentle motion,violent pain in right shoulder,1.0,1
+pain in right shoulder better from gentle motion,soft full pulse,1.0,1
+pain in right shoulder better from gentle motion,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+pain in right shoulder better from gentle motion,ankle sensitive to touch,1.0,1
+pain in right shoulder better from gentle motion,joints pale red,1.0,1
+pain in right shoulder better from gentle motion,very severe congestive headache,1.0,1
+pain in right shoulder better from gentle motion,one joint after another affected,1.0,1
+pain in right shoulder better from gentle motion,acute inflammatory swelling of right shoulder,1.0,1
+pain in right shoulder better from gentle motion,joints puffy,1.0,1
+pain in right shoulder better from gentle motion,crick in back,1.0,1
+pain in right shoulder better from gentle motion,shooting pain up inside of leg,1.0,1
+pain in right shoulder better from gentle motion,pains in knees worse by motion,1.0,1
+pain in right shoulder better from gentle motion,great throbbing in head,1.0,1
+crick in back,ankle greatly swollen,1.0,1
+crick in back,rheumatic pains in right deltoid,1.0,1
+crick in back,severe shooting pains down legs,1.0,1
+crick in back,steady almost unbearable pain about foot,1.0,1
+crick in back,pain in right shoulder sensitive to touch,1.0,1
+crick in back,pains in knees worse at night,1.0,1
+crick in back,steady almost unbearable pain about ankle,1.0,1
+crick in back,crick in neck,1.0,1
+crick in back,fingers contracted by acute articular rheumatism,1.0,1
+crick in back,copious sweat that does not give relief,1.0,1
+crick in back,pain in right shoulder better from gentle motion,1.0,1
+crick in back,severe shooting pains in knees,1.0,1
+crick in back,violent pain in upper arm of a drawing tearing nature,1.0,1
+crick in back,knees lame and swollen,1.0,1
+crick in back,wrists lame and swollen,1.0,1
+crick in back,shooting pain through ankle,1.0,1
+crick in back,dead feeling in right hand,1.0,1
+crick in back,violent pain in right shoulder,1.0,1
+crick in back,soft full pulse,1.0,1
+crick in back,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+crick in back,ankle sensitive to touch,1.0,1
+crick in back,joints pale red,1.0,1
+crick in back,very severe congestive headache,1.0,1
+crick in back,one joint after another affected,1.0,1
+crick in back,acute inflammatory swelling of right shoulder,1.0,1
+crick in back,joints puffy,1.0,1
+crick in back,shooting pain up inside of leg,1.0,1
+crick in back,pains in knees worse by motion,1.0,1
+crick in back,great throbbing in head,1.0,1
+violent pain in upper arm of a drawing tearing nature,ankle greatly swollen,1.0,1
+violent pain in upper arm of a drawing tearing nature,rheumatic pains in right deltoid,1.0,1
+violent pain in upper arm of a drawing tearing nature,severe shooting pains down legs,1.0,1
+violent pain in upper arm of a drawing tearing nature,steady almost unbearable pain about foot,1.0,1
+violent pain in upper arm of a drawing tearing nature,pain in right shoulder sensitive to touch,1.0,1
+violent pain in upper arm of a drawing tearing nature,pains in knees worse at night,1.0,1
+violent pain in upper arm of a drawing tearing nature,steady almost unbearable pain about ankle,1.0,1
+violent pain in upper arm of a drawing tearing nature,crick in neck,1.0,1
+violent pain in upper arm of a drawing tearing nature,fingers contracted by acute articular rheumatism,1.0,1
+violent pain in upper arm of a drawing tearing nature,copious sweat that does not give relief,1.0,1
+violent pain in upper arm of a drawing tearing nature,pain in right shoulder better from gentle motion,1.0,1
+violent pain in upper arm of a drawing tearing nature,severe shooting pains in knees,1.0,1
+violent pain in upper arm of a drawing tearing nature,knees lame and swollen,1.0,1
+violent pain in upper arm of a drawing tearing nature,wrists lame and swollen,1.0,1
+violent pain in upper arm of a drawing tearing nature,shooting pain through ankle,1.0,1
+violent pain in upper arm of a drawing tearing nature,dead feeling in right hand,1.0,1
+violent pain in upper arm of a drawing tearing nature,violent pain in right shoulder,1.0,1
+violent pain in upper arm of a drawing tearing nature,soft full pulse,1.0,1
+violent pain in upper arm of a drawing tearing nature,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+violent pain in upper arm of a drawing tearing nature,ankle sensitive to touch,1.0,1
+violent pain in upper arm of a drawing tearing nature,joints pale red,1.0,1
+violent pain in upper arm of a drawing tearing nature,very severe congestive headache,1.0,1
+violent pain in upper arm of a drawing tearing nature,one joint after another affected,1.0,1
+violent pain in upper arm of a drawing tearing nature,acute inflammatory swelling of right shoulder,1.0,1
+violent pain in upper arm of a drawing tearing nature,joints puffy,1.0,1
+violent pain in upper arm of a drawing tearing nature,crick in back,1.0,1
+violent pain in upper arm of a drawing tearing nature,shooting pain up inside of leg,1.0,1
+violent pain in upper arm of a drawing tearing nature,pains in knees worse by motion,1.0,1
+violent pain in upper arm of a drawing tearing nature,great throbbing in head,1.0,1
+pains in knees worse at night,ankle greatly swollen,1.0,1
+pains in knees worse at night,rheumatic pains in right deltoid,1.0,1
+pains in knees worse at night,severe shooting pains down legs,1.0,1
+pains in knees worse at night,steady almost unbearable pain about foot,1.0,1
+pains in knees worse at night,pain in right shoulder sensitive to touch,1.0,1
+pains in knees worse at night,steady almost unbearable pain about ankle,1.0,1
+pains in knees worse at night,crick in neck,1.0,1
+pains in knees worse at night,fingers contracted by acute articular rheumatism,1.0,1
+pains in knees worse at night,copious sweat that does not give relief,1.0,1
+pains in knees worse at night,pain in right shoulder better from gentle motion,1.0,1
+pains in knees worse at night,severe shooting pains in knees,1.0,1
+pains in knees worse at night,violent pain in upper arm of a drawing tearing nature,1.0,1
+pains in knees worse at night,knees lame and swollen,1.0,1
+pains in knees worse at night,wrists lame and swollen,1.0,1
+pains in knees worse at night,shooting pain through ankle,1.0,1
+pains in knees worse at night,dead feeling in right hand,1.0,1
+pains in knees worse at night,violent pain in right shoulder,1.0,1
+pains in knees worse at night,soft full pulse,1.0,1
+pains in knees worse at night,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+pains in knees worse at night,ankle sensitive to touch,1.0,1
+pains in knees worse at night,joints pale red,1.0,1
+pains in knees worse at night,very severe congestive headache,1.0,1
+pains in knees worse at night,one joint after another affected,1.0,1
+pains in knees worse at night,acute inflammatory swelling of right shoulder,1.0,1
+pains in knees worse at night,joints puffy,1.0,1
+pains in knees worse at night,crick in back,1.0,1
+pains in knees worse at night,shooting pain up inside of leg,1.0,1
+pains in knees worse at night,pains in knees worse by motion,1.0,1
+pains in knees worse at night,great throbbing in head,1.0,1
+knees lame and swollen,ankle greatly swollen,1.0,1
+knees lame and swollen,rheumatic pains in right deltoid,1.0,1
+knees lame and swollen,severe shooting pains down legs,1.0,1
+knees lame and swollen,steady almost unbearable pain about foot,1.0,1
+knees lame and swollen,pain in right shoulder sensitive to touch,1.0,1
+knees lame and swollen,pains in knees worse at night,1.0,1
+knees lame and swollen,steady almost unbearable pain about ankle,1.0,1
+knees lame and swollen,crick in neck,1.0,1
+knees lame and swollen,fingers contracted by acute articular rheumatism,1.0,1
+knees lame and swollen,copious sweat that does not give relief,1.0,1
+knees lame and swollen,pain in right shoulder better from gentle motion,1.0,1
+knees lame and swollen,severe shooting pains in knees,1.0,1
+knees lame and swollen,violent pain in upper arm of a drawing tearing nature,1.0,1
+knees lame and swollen,wrists lame and swollen,1.0,1
+knees lame and swollen,shooting pain through ankle,1.0,1
+knees lame and swollen,dead feeling in right hand,1.0,1
+knees lame and swollen,violent pain in right shoulder,1.0,1
+knees lame and swollen,soft full pulse,1.0,1
+knees lame and swollen,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+knees lame and swollen,ankle sensitive to touch,1.0,1
+knees lame and swollen,joints pale red,1.0,1
+knees lame and swollen,very severe congestive headache,1.0,1
+knees lame and swollen,one joint after another affected,1.0,1
+knees lame and swollen,acute inflammatory swelling of right shoulder,1.0,1
+knees lame and swollen,joints puffy,1.0,1
+knees lame and swollen,crick in back,1.0,1
+knees lame and swollen,shooting pain up inside of leg,1.0,1
+knees lame and swollen,pains in knees worse by motion,1.0,1
+knees lame and swollen,great throbbing in head,1.0,1
+shooting pain through ankle,ankle greatly swollen,1.0,1
+shooting pain through ankle,rheumatic pains in right deltoid,1.0,1
+shooting pain through ankle,severe shooting pains down legs,1.0,1
+shooting pain through ankle,steady almost unbearable pain about foot,1.0,1
+shooting pain through ankle,pain in right shoulder sensitive to touch,1.0,1
+shooting pain through ankle,pains in knees worse at night,1.0,1
+shooting pain through ankle,steady almost unbearable pain about ankle,1.0,1
+shooting pain through ankle,crick in neck,1.0,1
+shooting pain through ankle,fingers contracted by acute articular rheumatism,1.0,1
+shooting pain through ankle,copious sweat that does not give relief,1.0,1
+shooting pain through ankle,pain in right shoulder better from gentle motion,1.0,1
+shooting pain through ankle,severe shooting pains in knees,1.0,1
+shooting pain through ankle,violent pain in upper arm of a drawing tearing nature,1.0,1
+shooting pain through ankle,knees lame and swollen,1.0,1
+shooting pain through ankle,wrists lame and swollen,1.0,1
+shooting pain through ankle,dead feeling in right hand,1.0,1
+shooting pain through ankle,violent pain in right shoulder,1.0,1
+shooting pain through ankle,soft full pulse,1.0,1
+shooting pain through ankle,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+shooting pain through ankle,ankle sensitive to touch,1.0,1
+shooting pain through ankle,joints pale red,1.0,1
+shooting pain through ankle,very severe congestive headache,1.0,1
+shooting pain through ankle,one joint after another affected,1.0,1
+shooting pain through ankle,acute inflammatory swelling of right shoulder,1.0,1
+shooting pain through ankle,joints puffy,1.0,1
+shooting pain through ankle,crick in back,1.0,1
+shooting pain through ankle,shooting pain up inside of leg,1.0,1
+shooting pain through ankle,pains in knees worse by motion,1.0,1
+shooting pain through ankle,great throbbing in head,1.0,1
+dead feeling in right hand,ankle greatly swollen,1.0,1
+dead feeling in right hand,rheumatic pains in right deltoid,1.0,1
+dead feeling in right hand,severe shooting pains down legs,1.0,1
+dead feeling in right hand,steady almost unbearable pain about foot,1.0,1
+dead feeling in right hand,pain in right shoulder sensitive to touch,1.0,1
+dead feeling in right hand,pains in knees worse at night,1.0,1
+dead feeling in right hand,steady almost unbearable pain about ankle,1.0,1
+dead feeling in right hand,crick in neck,1.0,1
+dead feeling in right hand,fingers contracted by acute articular rheumatism,1.0,1
+dead feeling in right hand,copious sweat that does not give relief,1.0,1
+dead feeling in right hand,pain in right shoulder better from gentle motion,1.0,1
+dead feeling in right hand,severe shooting pains in knees,1.0,1
+dead feeling in right hand,violent pain in upper arm of a drawing tearing nature,1.0,1
+dead feeling in right hand,knees lame and swollen,1.0,1
+dead feeling in right hand,wrists lame and swollen,1.0,1
+dead feeling in right hand,shooting pain through ankle,1.0,1
+dead feeling in right hand,violent pain in right shoulder,1.0,1
+dead feeling in right hand,soft full pulse,1.0,1
+dead feeling in right hand,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+dead feeling in right hand,ankle sensitive to touch,1.0,1
+dead feeling in right hand,joints pale red,1.0,1
+dead feeling in right hand,very severe congestive headache,1.0,1
+dead feeling in right hand,one joint after another affected,1.0,1
+dead feeling in right hand,acute inflammatory swelling of right shoulder,1.0,1
+dead feeling in right hand,joints puffy,1.0,1
+dead feeling in right hand,crick in back,1.0,1
+dead feeling in right hand,shooting pain up inside of leg,1.0,1
+dead feeling in right hand,pains in knees worse by motion,1.0,1
+dead feeling in right hand,great throbbing in head,1.0,1
+fingers contracted by acute articular rheumatism,ankle greatly swollen,1.0,1
+fingers contracted by acute articular rheumatism,rheumatic pains in right deltoid,1.0,1
+fingers contracted by acute articular rheumatism,severe shooting pains down legs,1.0,1
+fingers contracted by acute articular rheumatism,steady almost unbearable pain about foot,1.0,1
+fingers contracted by acute articular rheumatism,pain in right shoulder sensitive to touch,1.0,1
+fingers contracted by acute articular rheumatism,pains in knees worse at night,1.0,1
+fingers contracted by acute articular rheumatism,steady almost unbearable pain about ankle,1.0,1
+fingers contracted by acute articular rheumatism,crick in neck,1.0,1
+fingers contracted by acute articular rheumatism,copious sweat that does not give relief,1.0,1
+fingers contracted by acute articular rheumatism,pain in right shoulder better from gentle motion,1.0,1
+fingers contracted by acute articular rheumatism,severe shooting pains in knees,1.0,1
+fingers contracted by acute articular rheumatism,violent pain in upper arm of a drawing tearing nature,1.0,1
+fingers contracted by acute articular rheumatism,knees lame and swollen,1.0,1
+fingers contracted by acute articular rheumatism,wrists lame and swollen,1.0,1
+fingers contracted by acute articular rheumatism,shooting pain through ankle,1.0,1
+fingers contracted by acute articular rheumatism,dead feeling in right hand,1.0,1
+fingers contracted by acute articular rheumatism,violent pain in right shoulder,1.0,1
+fingers contracted by acute articular rheumatism,soft full pulse,1.0,1
+fingers contracted by acute articular rheumatism,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+fingers contracted by acute articular rheumatism,ankle sensitive to touch,1.0,1
+fingers contracted by acute articular rheumatism,joints pale red,1.0,1
+fingers contracted by acute articular rheumatism,very severe congestive headache,1.0,1
+fingers contracted by acute articular rheumatism,one joint after another affected,1.0,1
+fingers contracted by acute articular rheumatism,acute inflammatory swelling of right shoulder,1.0,1
+fingers contracted by acute articular rheumatism,joints puffy,1.0,1
+fingers contracted by acute articular rheumatism,crick in back,1.0,1
+fingers contracted by acute articular rheumatism,shooting pain up inside of leg,1.0,1
+fingers contracted by acute articular rheumatism,pains in knees worse by motion,1.0,1
+fingers contracted by acute articular rheumatism,great throbbing in head,1.0,1
+steady almost unbearable pain about foot,ankle greatly swollen,1.0,1
+steady almost unbearable pain about foot,rheumatic pains in right deltoid,1.0,1
+steady almost unbearable pain about foot,severe shooting pains down legs,1.0,1
+steady almost unbearable pain about foot,pain in right shoulder sensitive to touch,1.0,1
+steady almost unbearable pain about foot,pains in knees worse at night,1.0,1
+steady almost unbearable pain about foot,steady almost unbearable pain about ankle,1.0,1
+steady almost unbearable pain about foot,crick in neck,1.0,1
+steady almost unbearable pain about foot,fingers contracted by acute articular rheumatism,1.0,1
+steady almost unbearable pain about foot,copious sweat that does not give relief,1.0,1
+steady almost unbearable pain about foot,pain in right shoulder better from gentle motion,1.0,1
+steady almost unbearable pain about foot,severe shooting pains in knees,1.0,1
+steady almost unbearable pain about foot,violent pain in upper arm of a drawing tearing nature,1.0,1
+steady almost unbearable pain about foot,knees lame and swollen,1.0,1
+steady almost unbearable pain about foot,wrists lame and swollen,1.0,1
+steady almost unbearable pain about foot,shooting pain through ankle,1.0,1
+steady almost unbearable pain about foot,dead feeling in right hand,1.0,1
+steady almost unbearable pain about foot,violent pain in right shoulder,1.0,1
+steady almost unbearable pain about foot,soft full pulse,1.0,1
+steady almost unbearable pain about foot,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+steady almost unbearable pain about foot,ankle sensitive to touch,1.0,1
+steady almost unbearable pain about foot,joints pale red,1.0,1
+steady almost unbearable pain about foot,very severe congestive headache,1.0,1
+steady almost unbearable pain about foot,one joint after another affected,1.0,1
+steady almost unbearable pain about foot,acute inflammatory swelling of right shoulder,1.0,1
+steady almost unbearable pain about foot,joints puffy,1.0,1
+steady almost unbearable pain about foot,crick in back,1.0,1
+steady almost unbearable pain about foot,shooting pain up inside of leg,1.0,1
+steady almost unbearable pain about foot,pains in knees worse by motion,1.0,1
+steady almost unbearable pain about foot,great throbbing in head,1.0,1
+soft full pulse,ankle greatly swollen,1.0,1
+soft full pulse,rheumatic pains in right deltoid,1.0,1
+soft full pulse,severe shooting pains down legs,1.0,1
+soft full pulse,steady almost unbearable pain about foot,1.0,1
+soft full pulse,pain in right shoulder sensitive to touch,1.0,1
+soft full pulse,pains in knees worse at night,1.0,1
+soft full pulse,steady almost unbearable pain about ankle,1.0,1
+soft full pulse,crick in neck,1.0,1
+soft full pulse,fingers contracted by acute articular rheumatism,1.0,1
+soft full pulse,copious sweat that does not give relief,1.0,1
+soft full pulse,pain in right shoulder better from gentle motion,1.0,1
+soft full pulse,severe shooting pains in knees,1.0,1
+soft full pulse,violent pain in upper arm of a drawing tearing nature,1.0,1
+soft full pulse,knees lame and swollen,1.0,1
+soft full pulse,wrists lame and swollen,1.0,1
+soft full pulse,shooting pain through ankle,1.0,1
+soft full pulse,dead feeling in right hand,1.0,1
+soft full pulse,violent pain in right shoulder,1.0,1
+soft full pulse,very valuable in acute articular or inflammatory rheumatic fever,1.0,1
+soft full pulse,ankle sensitive to touch,1.0,1
+soft full pulse,joints pale red,1.0,1
+soft full pulse,very severe congestive headache,1.0,1
+soft full pulse,one joint after another affected,1.0,1
+soft full pulse,acute inflammatory swelling of right shoulder,1.0,1
+soft full pulse,joints puffy,1.0,1
+soft full pulse,crick in back,1.0,1
+soft full pulse,shooting pain up inside of leg,1.0,1
+soft full pulse,pains in knees worse by motion,1.0,1
+soft full pulse,great throbbing in head,1.0,1

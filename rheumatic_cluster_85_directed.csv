@@ -1,0 +1,74 @@
+### Cluster 85 — Symptoms (8)
+Symptom,Frequency
+cramp-like jerking in arms,1
+pain in thighs,1
+insomnia,1
+rheumatic tearing pains,1
+improved by walking,1
+nervousness,1
+cramp-like jerking in legs,1
+neuralgic pains in limbs,2
+
+### Top Remedies
+Remedy,Symptoms_Covered
+valeriana,8
+osmium,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+pain in thighs,cramp-like jerking in arms,1.0,1
+pain in thighs,insomnia,1.0,1
+pain in thighs,rheumatic tearing pains,1.0,1
+pain in thighs,improved by walking,1.0,1
+pain in thighs,nervousness,1.0,1
+pain in thighs,cramp-like jerking in legs,1.0,1
+pain in thighs,neuralgic pains in limbs,1.0,1
+nervousness,cramp-like jerking in arms,1.0,1
+nervousness,pain in thighs,1.0,1
+nervousness,insomnia,1.0,1
+nervousness,rheumatic tearing pains,1.0,1
+nervousness,improved by walking,1.0,1
+nervousness,cramp-like jerking in legs,1.0,1
+nervousness,neuralgic pains in limbs,1.0,1
+cramp-like jerking in arms,pain in thighs,1.0,1
+cramp-like jerking in arms,insomnia,1.0,1
+cramp-like jerking in arms,rheumatic tearing pains,1.0,1
+cramp-like jerking in arms,improved by walking,1.0,1
+cramp-like jerking in arms,nervousness,1.0,1
+cramp-like jerking in arms,cramp-like jerking in legs,1.0,1
+cramp-like jerking in arms,neuralgic pains in limbs,1.0,1
+improved by walking,cramp-like jerking in arms,1.0,1
+improved by walking,pain in thighs,1.0,1
+improved by walking,insomnia,1.0,1
+improved by walking,rheumatic tearing pains,1.0,1
+improved by walking,nervousness,1.0,1
+improved by walking,cramp-like jerking in legs,1.0,1
+improved by walking,neuralgic pains in limbs,1.0,1
+insomnia,cramp-like jerking in arms,1.0,1
+insomnia,pain in thighs,1.0,1
+insomnia,rheumatic tearing pains,1.0,1
+insomnia,improved by walking,1.0,1
+insomnia,nervousness,1.0,1
+insomnia,cramp-like jerking in legs,1.0,1
+insomnia,neuralgic pains in limbs,1.0,1
+neuralgic pains in limbs,cramp-like jerking in arms,0.5,1
+neuralgic pains in limbs,pain in thighs,0.5,1
+neuralgic pains in limbs,insomnia,0.5,1
+neuralgic pains in limbs,rheumatic tearing pains,0.5,1
+neuralgic pains in limbs,improved by walking,0.5,1
+neuralgic pains in limbs,nervousness,0.5,1
+neuralgic pains in limbs,cramp-like jerking in legs,0.5,1
+cramp-like jerking in legs,cramp-like jerking in arms,1.0,1
+cramp-like jerking in legs,pain in thighs,1.0,1
+cramp-like jerking in legs,insomnia,1.0,1
+cramp-like jerking in legs,rheumatic tearing pains,1.0,1
+cramp-like jerking in legs,improved by walking,1.0,1
+cramp-like jerking in legs,nervousness,1.0,1
+cramp-like jerking in legs,neuralgic pains in limbs,1.0,1
+rheumatic tearing pains,cramp-like jerking in arms,1.0,1
+rheumatic tearing pains,pain in thighs,1.0,1
+rheumatic tearing pains,insomnia,1.0,1
+rheumatic tearing pains,improved by walking,1.0,1
+rheumatic tearing pains,nervousness,1.0,1
+rheumatic tearing pains,cramp-like jerking in legs,1.0,1
+rheumatic tearing pains,neuralgic pains in limbs,1.0,1

@@ -1,0 +1,34 @@
+### Cluster 77 — Symptoms (5)
+Symptom,Frequency
+time distortion,1
+disorientation,1
+rheumatism with mental confusion,1
+exaggerated sensations,1
+rheumatic pains with numbness,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+cannabis indica,5
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+time distortion,disorientation,1.0,1
+time distortion,rheumatism with mental confusion,1.0,1
+time distortion,exaggerated sensations,1.0,1
+time distortion,rheumatic pains with numbness,1.0,1
+rheumatism with mental confusion,time distortion,1.0,1
+rheumatism with mental confusion,disorientation,1.0,1
+rheumatism with mental confusion,exaggerated sensations,1.0,1
+rheumatism with mental confusion,rheumatic pains with numbness,1.0,1
+disorientation,time distortion,1.0,1
+disorientation,rheumatism with mental confusion,1.0,1
+disorientation,exaggerated sensations,1.0,1
+disorientation,rheumatic pains with numbness,1.0,1
+rheumatic pains with numbness,time distortion,1.0,1
+rheumatic pains with numbness,disorientation,1.0,1
+rheumatic pains with numbness,rheumatism with mental confusion,1.0,1
+rheumatic pains with numbness,exaggerated sensations,1.0,1
+exaggerated sensations,time distortion,1.0,1
+exaggerated sensations,disorientation,1.0,1
+exaggerated sensations,rheumatism with mental confusion,1.0,1
+exaggerated sensations,rheumatic pains with numbness,1.0,1

@@ -1,0 +1,2128 @@
+### Cluster 10 — Symptoms (46)
+Symptom,Frequency
+pain in sacrum,4
+rheumatic arthritis of joints of fingers,1
+flatulency with much rolling,1
+piercing pain in left hip and small of back,1
+compelling him to move constantly,1
+cracking of joints in arthritis,1
+causing excruciating pain,1
+nephritis,1
+pains suddenly go to heart,1
+pain in hip causing him to move frequently,1
+uric acid deposits in finger joints,1
+complaints from eating food grown in damp places,1
+sciatica when getting up or sitting down or turning in bed,1
+stiffness of knee,1
+piercing pains on humerus,1
+piercing as from knives between scapulae,1
+pain in left hip as after lying in a bad position,1
+pain in right hip joint,1
+piercing pains in left axilla,1
+piercing pains fingers and under nails,1
+awakens him at night,1
+stitches in nape of neck,1
+rheumatic pains in limbs associated with gastric symptoms,1
+complaints from living in damp places,1
+cannot lie on either side,1
+sycosis,1
+piercing pains back of hand,1
+impossible to continue walking,1
+pressure in left side of back near lumbar region,1
+making it very difficult to ascend or sit down or get up,1
+bruised pain in small of back and sacrum,1
+piercing pains palm of right hand,1
+irritable liver with stitches in liver,1
+sudden stitch in left hip,1
+no relief in any position,1
+flexors of hands painful when grasping anything,1
+gastric complaints with much acidity,1
+gout in feet in acute or chronic conditions,1
+fingers swollen and stiff,1
+soreness up and down spine and neck,1
+marked dyspnoea during damp cloudy weather,1
+dirty greenish-grey or greenish-brown coating on back of tongue,1
+piercing pain only during rest,1
+pain in hip extending to knee,1
+pains in limbs compelling him to change position frequently,1
+constant shifting of position,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+natrum sulphuricum,46
+tellurium,1
+sulphur,1
+syphilinum,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+stiffness of knee,rheumatic arthritis of joints of fingers,1.0,1
+stiffness of knee,flatulency with much rolling,1.0,1
+stiffness of knee,piercing pain in left hip and small of back,1.0,1
+stiffness of knee,compelling him to move constantly,1.0,1
+stiffness of knee,cracking of joints in arthritis,1.0,1
+stiffness of knee,causing excruciating pain,1.0,1
+stiffness of knee,nephritis,1.0,1
+stiffness of knee,pains suddenly go to heart,1.0,1
+stiffness of knee,pain in hip causing him to move frequently,1.0,1
+stiffness of knee,uric acid deposits in finger joints,1.0,1
+stiffness of knee,complaints from eating food grown in damp places,1.0,1
+stiffness of knee,sciatica when getting up or sitting down or turning in bed,1.0,1
+stiffness of knee,piercing pains on humerus,1.0,1
+stiffness of knee,piercing as from knives between scapulae,1.0,1
+stiffness of knee,pain in left hip as after lying in a bad position,1.0,1
+stiffness of knee,pain in right hip joint,1.0,1
+stiffness of knee,piercing pains in left axilla,1.0,1
+stiffness of knee,piercing pains fingers and under nails,1.0,1
+stiffness of knee,awakens him at night,1.0,1
+stiffness of knee,stitches in nape of neck,1.0,1
+stiffness of knee,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+stiffness of knee,complaints from living in damp places,1.0,1
+stiffness of knee,cannot lie on either side,1.0,1
+stiffness of knee,sycosis,1.0,1
+stiffness of knee,pain in sacrum,1.0,1
+stiffness of knee,piercing pains back of hand,1.0,1
+stiffness of knee,impossible to continue walking,1.0,1
+stiffness of knee,pressure in left side of back near lumbar region,1.0,1
+stiffness of knee,making it very difficult to ascend or sit down or get up,1.0,1
+stiffness of knee,bruised pain in small of back and sacrum,1.0,1
+stiffness of knee,piercing pains palm of right hand,1.0,1
+stiffness of knee,irritable liver with stitches in liver,1.0,1
+stiffness of knee,sudden stitch in left hip,1.0,1
+stiffness of knee,no relief in any position,1.0,1
+stiffness of knee,flexors of hands painful when grasping anything,1.0,1
+stiffness of knee,gastric complaints with much acidity,1.0,1
+stiffness of knee,gout in feet in acute or chronic conditions,1.0,1
+stiffness of knee,fingers swollen and stiff,1.0,1
+stiffness of knee,soreness up and down spine and neck,1.0,1
+stiffness of knee,marked dyspnoea during damp cloudy weather,1.0,1
+stiffness of knee,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+stiffness of knee,piercing pain only during rest,1.0,1
+stiffness of knee,pain in hip extending to knee,1.0,1
+stiffness of knee,pains in limbs compelling him to change position frequently,1.0,1
+stiffness of knee,constant shifting of position,1.0,1
+irritable liver with stitches in liver,rheumatic arthritis of joints of fingers,1.0,1
+irritable liver with stitches in liver,flatulency with much rolling,1.0,1
+irritable liver with stitches in liver,piercing pain in left hip and small of back,1.0,1
+irritable liver with stitches in liver,compelling him to move constantly,1.0,1
+irritable liver with stitches in liver,cracking of joints in arthritis,1.0,1
+irritable liver with stitches in liver,causing excruciating pain,1.0,1
+irritable liver with stitches in liver,nephritis,1.0,1
+irritable liver with stitches in liver,pains suddenly go to heart,1.0,1
+irritable liver with stitches in liver,pain in hip causing him to move frequently,1.0,1
+irritable liver with stitches in liver,uric acid deposits in finger joints,1.0,1
+irritable liver with stitches in liver,complaints from eating food grown in damp places,1.0,1
+irritable liver with stitches in liver,sciatica when getting up or sitting down or turning in bed,1.0,1
+irritable liver with stitches in liver,stiffness of knee,1.0,1
+irritable liver with stitches in liver,piercing pains on humerus,1.0,1
+irritable liver with stitches in liver,piercing as from knives between scapulae,1.0,1
+irritable liver with stitches in liver,pain in left hip as after lying in a bad position,1.0,1
+irritable liver with stitches in liver,pain in right hip joint,1.0,1
+irritable liver with stitches in liver,piercing pains in left axilla,1.0,1
+irritable liver with stitches in liver,piercing pains fingers and under nails,1.0,1
+irritable liver with stitches in liver,awakens him at night,1.0,1
+irritable liver with stitches in liver,stitches in nape of neck,1.0,1
+irritable liver with stitches in liver,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+irritable liver with stitches in liver,complaints from living in damp places,1.0,1
+irritable liver with stitches in liver,cannot lie on either side,1.0,1
+irritable liver with stitches in liver,sycosis,1.0,1
+irritable liver with stitches in liver,pain in sacrum,1.0,1
+irritable liver with stitches in liver,piercing pains back of hand,1.0,1
+irritable liver with stitches in liver,impossible to continue walking,1.0,1
+irritable liver with stitches in liver,pressure in left side of back near lumbar region,1.0,1
+irritable liver with stitches in liver,making it very difficult to ascend or sit down or get up,1.0,1
+irritable liver with stitches in liver,bruised pain in small of back and sacrum,1.0,1
+irritable liver with stitches in liver,piercing pains palm of right hand,1.0,1
+irritable liver with stitches in liver,sudden stitch in left hip,1.0,1
+irritable liver with stitches in liver,no relief in any position,1.0,1
+irritable liver with stitches in liver,flexors of hands painful when grasping anything,1.0,1
+irritable liver with stitches in liver,gastric complaints with much acidity,1.0,1
+irritable liver with stitches in liver,gout in feet in acute or chronic conditions,1.0,1
+irritable liver with stitches in liver,fingers swollen and stiff,1.0,1
+irritable liver with stitches in liver,soreness up and down spine and neck,1.0,1
+irritable liver with stitches in liver,marked dyspnoea during damp cloudy weather,1.0,1
+irritable liver with stitches in liver,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+irritable liver with stitches in liver,piercing pain only during rest,1.0,1
+irritable liver with stitches in liver,pain in hip extending to knee,1.0,1
+irritable liver with stitches in liver,pains in limbs compelling him to change position frequently,1.0,1
+irritable liver with stitches in liver,constant shifting of position,1.0,1
+making it very difficult to ascend or sit down or get up,rheumatic arthritis of joints of fingers,1.0,1
+making it very difficult to ascend or sit down or get up,flatulency with much rolling,1.0,1
+making it very difficult to ascend or sit down or get up,piercing pain in left hip and small of back,1.0,1
+making it very difficult to ascend or sit down or get up,compelling him to move constantly,1.0,1
+making it very difficult to ascend or sit down or get up,cracking of joints in arthritis,1.0,1
+making it very difficult to ascend or sit down or get up,causing excruciating pain,1.0,1
+making it very difficult to ascend or sit down or get up,nephritis,1.0,1
+making it very difficult to ascend or sit down or get up,pains suddenly go to heart,1.0,1
+making it very difficult to ascend or sit down or get up,pain in hip causing him to move frequently,1.0,1
+making it very difficult to ascend or sit down or get up,uric acid deposits in finger joints,1.0,1
+making it very difficult to ascend or sit down or get up,complaints from eating food grown in damp places,1.0,1
+making it very difficult to ascend or sit down or get up,sciatica when getting up or sitting down or turning in bed,1.0,1
+making it very difficult to ascend or sit down or get up,stiffness of knee,1.0,1
+making it very difficult to ascend or sit down or get up,piercing pains on humerus,1.0,1
+making it very difficult to ascend or sit down or get up,piercing as from knives between scapulae,1.0,1
+making it very difficult to ascend or sit down or get up,pain in left hip as after lying in a bad position,1.0,1
+making it very difficult to ascend or sit down or get up,pain in right hip joint,1.0,1
+making it very difficult to ascend or sit down or get up,piercing pains in left axilla,1.0,1
+making it very difficult to ascend or sit down or get up,piercing pains fingers and under nails,1.0,1
+making it very difficult to ascend or sit down or get up,awakens him at night,1.0,1
+making it very difficult to ascend or sit down or get up,stitches in nape of neck,1.0,1
+making it very difficult to ascend or sit down or get up,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+making it very difficult to ascend or sit down or get up,complaints from living in damp places,1.0,1
+making it very difficult to ascend or sit down or get up,cannot lie on either side,1.0,1
+making it very difficult to ascend or sit down or get up,sycosis,1.0,1
+making it very difficult to ascend or sit down or get up,pain in sacrum,1.0,1
+making it very difficult to ascend or sit down or get up,piercing pains back of hand,1.0,1
+making it very difficult to ascend or sit down or get up,impossible to continue walking,1.0,1
+making it very difficult to ascend or sit down or get up,pressure in left side of back near lumbar region,1.0,1
+making it very difficult to ascend or sit down or get up,bruised pain in small of back and sacrum,1.0,1
+making it very difficult to ascend or sit down or get up,piercing pains palm of right hand,1.0,1
+making it very difficult to ascend or sit down or get up,irritable liver with stitches in liver,1.0,1
+making it very difficult to ascend or sit down or get up,sudden stitch in left hip,1.0,1
+making it very difficult to ascend or sit down or get up,no relief in any position,1.0,1
+making it very difficult to ascend or sit down or get up,flexors of hands painful when grasping anything,1.0,1
+making it very difficult to ascend or sit down or get up,gastric complaints with much acidity,1.0,1
+making it very difficult to ascend or sit down or get up,gout in feet in acute or chronic conditions,1.0,1
+making it very difficult to ascend or sit down or get up,fingers swollen and stiff,1.0,1
+making it very difficult to ascend or sit down or get up,soreness up and down spine and neck,1.0,1
+making it very difficult to ascend or sit down or get up,marked dyspnoea during damp cloudy weather,1.0,1
+making it very difficult to ascend or sit down or get up,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+making it very difficult to ascend or sit down or get up,piercing pain only during rest,1.0,1
+making it very difficult to ascend or sit down or get up,pain in hip extending to knee,1.0,1
+making it very difficult to ascend or sit down or get up,pains in limbs compelling him to change position frequently,1.0,1
+making it very difficult to ascend or sit down or get up,constant shifting of position,1.0,1
+marked dyspnoea during damp cloudy weather,rheumatic arthritis of joints of fingers,1.0,1
+marked dyspnoea during damp cloudy weather,flatulency with much rolling,1.0,1
+marked dyspnoea during damp cloudy weather,piercing pain in left hip and small of back,1.0,1
+marked dyspnoea during damp cloudy weather,compelling him to move constantly,1.0,1
+marked dyspnoea during damp cloudy weather,cracking of joints in arthritis,1.0,1
+marked dyspnoea during damp cloudy weather,causing excruciating pain,1.0,1
+marked dyspnoea during damp cloudy weather,nephritis,1.0,1
+marked dyspnoea during damp cloudy weather,pains suddenly go to heart,1.0,1
+marked dyspnoea during damp cloudy weather,pain in hip causing him to move frequently,1.0,1
+marked dyspnoea during damp cloudy weather,uric acid deposits in finger joints,1.0,1
+marked dyspnoea during damp cloudy weather,complaints from eating food grown in damp places,1.0,1
+marked dyspnoea during damp cloudy weather,sciatica when getting up or sitting down or turning in bed,1.0,1
+marked dyspnoea during damp cloudy weather,stiffness of knee,1.0,1
+marked dyspnoea during damp cloudy weather,piercing pains on humerus,1.0,1
+marked dyspnoea during damp cloudy weather,piercing as from knives between scapulae,1.0,1
+marked dyspnoea during damp cloudy weather,pain in left hip as after lying in a bad position,1.0,1
+marked dyspnoea during damp cloudy weather,pain in right hip joint,1.0,1
+marked dyspnoea during damp cloudy weather,piercing pains in left axilla,1.0,1
+marked dyspnoea during damp cloudy weather,piercing pains fingers and under nails,1.0,1
+marked dyspnoea during damp cloudy weather,awakens him at night,1.0,1
+marked dyspnoea during damp cloudy weather,stitches in nape of neck,1.0,1
+marked dyspnoea during damp cloudy weather,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+marked dyspnoea during damp cloudy weather,complaints from living in damp places,1.0,1
+marked dyspnoea during damp cloudy weather,cannot lie on either side,1.0,1
+marked dyspnoea during damp cloudy weather,sycosis,1.0,1
+marked dyspnoea during damp cloudy weather,pain in sacrum,1.0,1
+marked dyspnoea during damp cloudy weather,piercing pains back of hand,1.0,1
+marked dyspnoea during damp cloudy weather,impossible to continue walking,1.0,1
+marked dyspnoea during damp cloudy weather,pressure in left side of back near lumbar region,1.0,1
+marked dyspnoea during damp cloudy weather,making it very difficult to ascend or sit down or get up,1.0,1
+marked dyspnoea during damp cloudy weather,bruised pain in small of back and sacrum,1.0,1
+marked dyspnoea during damp cloudy weather,piercing pains palm of right hand,1.0,1
+marked dyspnoea during damp cloudy weather,irritable liver with stitches in liver,1.0,1
+marked dyspnoea during damp cloudy weather,sudden stitch in left hip,1.0,1
+marked dyspnoea during damp cloudy weather,no relief in any position,1.0,1
+marked dyspnoea during damp cloudy weather,flexors of hands painful when grasping anything,1.0,1
+marked dyspnoea during damp cloudy weather,gastric complaints with much acidity,1.0,1
+marked dyspnoea during damp cloudy weather,gout in feet in acute or chronic conditions,1.0,1
+marked dyspnoea during damp cloudy weather,fingers swollen and stiff,1.0,1
+marked dyspnoea during damp cloudy weather,soreness up and down spine and neck,1.0,1
+marked dyspnoea during damp cloudy weather,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+marked dyspnoea during damp cloudy weather,piercing pain only during rest,1.0,1
+marked dyspnoea during damp cloudy weather,pain in hip extending to knee,1.0,1
+marked dyspnoea during damp cloudy weather,pains in limbs compelling him to change position frequently,1.0,1
+marked dyspnoea during damp cloudy weather,constant shifting of position,1.0,1
+pain in sacrum,rheumatic arthritis of joints of fingers,0.25,1
+pain in sacrum,flatulency with much rolling,0.25,1
+pain in sacrum,piercing pain in left hip and small of back,0.25,1
+pain in sacrum,compelling him to move constantly,0.25,1
+pain in sacrum,cracking of joints in arthritis,0.25,1
+pain in sacrum,causing excruciating pain,0.25,1
+pain in sacrum,nephritis,0.25,1
+pain in sacrum,pains suddenly go to heart,0.25,1
+pain in sacrum,pain in hip causing him to move frequently,0.25,1
+pain in sacrum,uric acid deposits in finger joints,0.25,1
+pain in sacrum,complaints from eating food grown in damp places,0.25,1
+pain in sacrum,sciatica when getting up or sitting down or turning in bed,0.25,1
+pain in sacrum,stiffness of knee,0.25,1
+pain in sacrum,piercing pains on humerus,0.25,1
+pain in sacrum,piercing as from knives between scapulae,0.25,1
+pain in sacrum,pain in left hip as after lying in a bad position,0.25,1
+pain in sacrum,pain in right hip joint,0.25,1
+pain in sacrum,piercing pains in left axilla,0.25,1
+pain in sacrum,piercing pains fingers and under nails,0.25,1
+pain in sacrum,awakens him at night,0.25,1
+pain in sacrum,stitches in nape of neck,0.25,1
+pain in sacrum,rheumatic pains in limbs associated with gastric symptoms,0.25,1
+pain in sacrum,complaints from living in damp places,0.25,1
+pain in sacrum,cannot lie on either side,0.25,1
+pain in sacrum,sycosis,0.25,1
+pain in sacrum,piercing pains back of hand,0.25,1
+pain in sacrum,impossible to continue walking,0.25,1
+pain in sacrum,pressure in left side of back near lumbar region,0.25,1
+pain in sacrum,making it very difficult to ascend or sit down or get up,0.25,1
+pain in sacrum,bruised pain in small of back and sacrum,0.25,1
+pain in sacrum,piercing pains palm of right hand,0.25,1
+pain in sacrum,irritable liver with stitches in liver,0.25,1
+pain in sacrum,sudden stitch in left hip,0.25,1
+pain in sacrum,no relief in any position,0.25,1
+pain in sacrum,flexors of hands painful when grasping anything,0.25,1
+pain in sacrum,gastric complaints with much acidity,0.25,1
+pain in sacrum,gout in feet in acute or chronic conditions,0.25,1
+pain in sacrum,fingers swollen and stiff,0.25,1
+pain in sacrum,soreness up and down spine and neck,0.25,1
+pain in sacrum,marked dyspnoea during damp cloudy weather,0.25,1
+pain in sacrum,dirty greenish-grey or greenish-brown coating on back of tongue,0.25,1
+pain in sacrum,piercing pain only during rest,0.25,1
+pain in sacrum,pain in hip extending to knee,0.25,1
+pain in sacrum,pains in limbs compelling him to change position frequently,0.25,1
+pain in sacrum,constant shifting of position,0.25,1
+piercing pains fingers and under nails,rheumatic arthritis of joints of fingers,1.0,1
+piercing pains fingers and under nails,flatulency with much rolling,1.0,1
+piercing pains fingers and under nails,piercing pain in left hip and small of back,1.0,1
+piercing pains fingers and under nails,compelling him to move constantly,1.0,1
+piercing pains fingers and under nails,cracking of joints in arthritis,1.0,1
+piercing pains fingers and under nails,causing excruciating pain,1.0,1
+piercing pains fingers and under nails,nephritis,1.0,1
+piercing pains fingers and under nails,pains suddenly go to heart,1.0,1
+piercing pains fingers and under nails,pain in hip causing him to move frequently,1.0,1
+piercing pains fingers and under nails,uric acid deposits in finger joints,1.0,1
+piercing pains fingers and under nails,complaints from eating food grown in damp places,1.0,1
+piercing pains fingers and under nails,sciatica when getting up or sitting down or turning in bed,1.0,1
+piercing pains fingers and under nails,stiffness of knee,1.0,1
+piercing pains fingers and under nails,piercing pains on humerus,1.0,1
+piercing pains fingers and under nails,piercing as from knives between scapulae,1.0,1
+piercing pains fingers and under nails,pain in left hip as after lying in a bad position,1.0,1
+piercing pains fingers and under nails,pain in right hip joint,1.0,1
+piercing pains fingers and under nails,piercing pains in left axilla,1.0,1
+piercing pains fingers and under nails,awakens him at night,1.0,1
+piercing pains fingers and under nails,stitches in nape of neck,1.0,1
+piercing pains fingers and under nails,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+piercing pains fingers and under nails,complaints from living in damp places,1.0,1
+piercing pains fingers and under nails,cannot lie on either side,1.0,1
+piercing pains fingers and under nails,sycosis,1.0,1
+piercing pains fingers and under nails,pain in sacrum,1.0,1
+piercing pains fingers and under nails,piercing pains back of hand,1.0,1
+piercing pains fingers and under nails,impossible to continue walking,1.0,1
+piercing pains fingers and under nails,pressure in left side of back near lumbar region,1.0,1
+piercing pains fingers and under nails,making it very difficult to ascend or sit down or get up,1.0,1
+piercing pains fingers and under nails,bruised pain in small of back and sacrum,1.0,1
+piercing pains fingers and under nails,piercing pains palm of right hand,1.0,1
+piercing pains fingers and under nails,irritable liver with stitches in liver,1.0,1
+piercing pains fingers and under nails,sudden stitch in left hip,1.0,1
+piercing pains fingers and under nails,no relief in any position,1.0,1
+piercing pains fingers and under nails,flexors of hands painful when grasping anything,1.0,1
+piercing pains fingers and under nails,gastric complaints with much acidity,1.0,1
+piercing pains fingers and under nails,gout in feet in acute or chronic conditions,1.0,1
+piercing pains fingers and under nails,fingers swollen and stiff,1.0,1
+piercing pains fingers and under nails,soreness up and down spine and neck,1.0,1
+piercing pains fingers and under nails,marked dyspnoea during damp cloudy weather,1.0,1
+piercing pains fingers and under nails,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+piercing pains fingers and under nails,piercing pain only during rest,1.0,1
+piercing pains fingers and under nails,pain in hip extending to knee,1.0,1
+piercing pains fingers and under nails,pains in limbs compelling him to change position frequently,1.0,1
+piercing pains fingers and under nails,constant shifting of position,1.0,1
+nephritis,rheumatic arthritis of joints of fingers,1.0,1
+nephritis,flatulency with much rolling,1.0,1
+nephritis,piercing pain in left hip and small of back,1.0,1
+nephritis,compelling him to move constantly,1.0,1
+nephritis,cracking of joints in arthritis,1.0,1
+nephritis,causing excruciating pain,1.0,1
+nephritis,pains suddenly go to heart,1.0,1
+nephritis,pain in hip causing him to move frequently,1.0,1
+nephritis,uric acid deposits in finger joints,1.0,1
+nephritis,complaints from eating food grown in damp places,1.0,1
+nephritis,sciatica when getting up or sitting down or turning in bed,1.0,1
+nephritis,stiffness of knee,1.0,1
+nephritis,piercing pains on humerus,1.0,1
+nephritis,piercing as from knives between scapulae,1.0,1
+nephritis,pain in left hip as after lying in a bad position,1.0,1
+nephritis,pain in right hip joint,1.0,1
+nephritis,piercing pains in left axilla,1.0,1
+nephritis,piercing pains fingers and under nails,1.0,1
+nephritis,awakens him at night,1.0,1
+nephritis,stitches in nape of neck,1.0,1
+nephritis,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+nephritis,complaints from living in damp places,1.0,1
+nephritis,cannot lie on either side,1.0,1
+nephritis,sycosis,1.0,1
+nephritis,pain in sacrum,1.0,1
+nephritis,piercing pains back of hand,1.0,1
+nephritis,impossible to continue walking,1.0,1
+nephritis,pressure in left side of back near lumbar region,1.0,1
+nephritis,making it very difficult to ascend or sit down or get up,1.0,1
+nephritis,bruised pain in small of back and sacrum,1.0,1
+nephritis,piercing pains palm of right hand,1.0,1
+nephritis,irritable liver with stitches in liver,1.0,1
+nephritis,sudden stitch in left hip,1.0,1
+nephritis,no relief in any position,1.0,1
+nephritis,flexors of hands painful when grasping anything,1.0,1
+nephritis,gastric complaints with much acidity,1.0,1
+nephritis,gout in feet in acute or chronic conditions,1.0,1
+nephritis,fingers swollen and stiff,1.0,1
+nephritis,soreness up and down spine and neck,1.0,1
+nephritis,marked dyspnoea during damp cloudy weather,1.0,1
+nephritis,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+nephritis,piercing pain only during rest,1.0,1
+nephritis,pain in hip extending to knee,1.0,1
+nephritis,pains in limbs compelling him to change position frequently,1.0,1
+nephritis,constant shifting of position,1.0,1
+piercing pains on humerus,rheumatic arthritis of joints of fingers,1.0,1
+piercing pains on humerus,flatulency with much rolling,1.0,1
+piercing pains on humerus,piercing pain in left hip and small of back,1.0,1
+piercing pains on humerus,compelling him to move constantly,1.0,1
+piercing pains on humerus,cracking of joints in arthritis,1.0,1
+piercing pains on humerus,causing excruciating pain,1.0,1
+piercing pains on humerus,nephritis,1.0,1
+piercing pains on humerus,pains suddenly go to heart,1.0,1
+piercing pains on humerus,pain in hip causing him to move frequently,1.0,1
+piercing pains on humerus,uric acid deposits in finger joints,1.0,1
+piercing pains on humerus,complaints from eating food grown in damp places,1.0,1
+piercing pains on humerus,sciatica when getting up or sitting down or turning in bed,1.0,1
+piercing pains on humerus,stiffness of knee,1.0,1
+piercing pains on humerus,piercing as from knives between scapulae,1.0,1
+piercing pains on humerus,pain in left hip as after lying in a bad position,1.0,1
+piercing pains on humerus,pain in right hip joint,1.0,1
+piercing pains on humerus,piercing pains in left axilla,1.0,1
+piercing pains on humerus,piercing pains fingers and under nails,1.0,1
+piercing pains on humerus,awakens him at night,1.0,1
+piercing pains on humerus,stitches in nape of neck,1.0,1
+piercing pains on humerus,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+piercing pains on humerus,complaints from living in damp places,1.0,1
+piercing pains on humerus,cannot lie on either side,1.0,1
+piercing pains on humerus,sycosis,1.0,1
+piercing pains on humerus,pain in sacrum,1.0,1
+piercing pains on humerus,piercing pains back of hand,1.0,1
+piercing pains on humerus,impossible to continue walking,1.0,1
+piercing pains on humerus,pressure in left side of back near lumbar region,1.0,1
+piercing pains on humerus,making it very difficult to ascend or sit down or get up,1.0,1
+piercing pains on humerus,bruised pain in small of back and sacrum,1.0,1
+piercing pains on humerus,piercing pains palm of right hand,1.0,1
+piercing pains on humerus,irritable liver with stitches in liver,1.0,1
+piercing pains on humerus,sudden stitch in left hip,1.0,1
+piercing pains on humerus,no relief in any position,1.0,1
+piercing pains on humerus,flexors of hands painful when grasping anything,1.0,1
+piercing pains on humerus,gastric complaints with much acidity,1.0,1
+piercing pains on humerus,gout in feet in acute or chronic conditions,1.0,1
+piercing pains on humerus,fingers swollen and stiff,1.0,1
+piercing pains on humerus,soreness up and down spine and neck,1.0,1
+piercing pains on humerus,marked dyspnoea during damp cloudy weather,1.0,1
+piercing pains on humerus,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+piercing pains on humerus,piercing pain only during rest,1.0,1
+piercing pains on humerus,pain in hip extending to knee,1.0,1
+piercing pains on humerus,pains in limbs compelling him to change position frequently,1.0,1
+piercing pains on humerus,constant shifting of position,1.0,1
+cracking of joints in arthritis,rheumatic arthritis of joints of fingers,1.0,1
+cracking of joints in arthritis,flatulency with much rolling,1.0,1
+cracking of joints in arthritis,piercing pain in left hip and small of back,1.0,1
+cracking of joints in arthritis,compelling him to move constantly,1.0,1
+cracking of joints in arthritis,causing excruciating pain,1.0,1
+cracking of joints in arthritis,nephritis,1.0,1
+cracking of joints in arthritis,pains suddenly go to heart,1.0,1
+cracking of joints in arthritis,pain in hip causing him to move frequently,1.0,1
+cracking of joints in arthritis,uric acid deposits in finger joints,1.0,1
+cracking of joints in arthritis,complaints from eating food grown in damp places,1.0,1
+cracking of joints in arthritis,sciatica when getting up or sitting down or turning in bed,1.0,1
+cracking of joints in arthritis,stiffness of knee,1.0,1
+cracking of joints in arthritis,piercing pains on humerus,1.0,1
+cracking of joints in arthritis,piercing as from knives between scapulae,1.0,1
+cracking of joints in arthritis,pain in left hip as after lying in a bad position,1.0,1
+cracking of joints in arthritis,pain in right hip joint,1.0,1
+cracking of joints in arthritis,piercing pains in left axilla,1.0,1
+cracking of joints in arthritis,piercing pains fingers and under nails,1.0,1
+cracking of joints in arthritis,awakens him at night,1.0,1
+cracking of joints in arthritis,stitches in nape of neck,1.0,1
+cracking of joints in arthritis,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+cracking of joints in arthritis,complaints from living in damp places,1.0,1
+cracking of joints in arthritis,cannot lie on either side,1.0,1
+cracking of joints in arthritis,sycosis,1.0,1
+cracking of joints in arthritis,pain in sacrum,1.0,1
+cracking of joints in arthritis,piercing pains back of hand,1.0,1
+cracking of joints in arthritis,impossible to continue walking,1.0,1
+cracking of joints in arthritis,pressure in left side of back near lumbar region,1.0,1
+cracking of joints in arthritis,making it very difficult to ascend or sit down or get up,1.0,1
+cracking of joints in arthritis,bruised pain in small of back and sacrum,1.0,1
+cracking of joints in arthritis,piercing pains palm of right hand,1.0,1
+cracking of joints in arthritis,irritable liver with stitches in liver,1.0,1
+cracking of joints in arthritis,sudden stitch in left hip,1.0,1
+cracking of joints in arthritis,no relief in any position,1.0,1
+cracking of joints in arthritis,flexors of hands painful when grasping anything,1.0,1
+cracking of joints in arthritis,gastric complaints with much acidity,1.0,1
+cracking of joints in arthritis,gout in feet in acute or chronic conditions,1.0,1
+cracking of joints in arthritis,fingers swollen and stiff,1.0,1
+cracking of joints in arthritis,soreness up and down spine and neck,1.0,1
+cracking of joints in arthritis,marked dyspnoea during damp cloudy weather,1.0,1
+cracking of joints in arthritis,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+cracking of joints in arthritis,piercing pain only during rest,1.0,1
+cracking of joints in arthritis,pain in hip extending to knee,1.0,1
+cracking of joints in arthritis,pains in limbs compelling him to change position frequently,1.0,1
+cracking of joints in arthritis,constant shifting of position,1.0,1
+impossible to continue walking,rheumatic arthritis of joints of fingers,1.0,1
+impossible to continue walking,flatulency with much rolling,1.0,1
+impossible to continue walking,piercing pain in left hip and small of back,1.0,1
+impossible to continue walking,compelling him to move constantly,1.0,1
+impossible to continue walking,cracking of joints in arthritis,1.0,1
+impossible to continue walking,causing excruciating pain,1.0,1
+impossible to continue walking,nephritis,1.0,1
+impossible to continue walking,pains suddenly go to heart,1.0,1
+impossible to continue walking,pain in hip causing him to move frequently,1.0,1
+impossible to continue walking,uric acid deposits in finger joints,1.0,1
+impossible to continue walking,complaints from eating food grown in damp places,1.0,1
+impossible to continue walking,sciatica when getting up or sitting down or turning in bed,1.0,1
+impossible to continue walking,stiffness of knee,1.0,1
+impossible to continue walking,piercing pains on humerus,1.0,1
+impossible to continue walking,piercing as from knives between scapulae,1.0,1
+impossible to continue walking,pain in left hip as after lying in a bad position,1.0,1
+impossible to continue walking,pain in right hip joint,1.0,1
+impossible to continue walking,piercing pains in left axilla,1.0,1
+impossible to continue walking,piercing pains fingers and under nails,1.0,1
+impossible to continue walking,awakens him at night,1.0,1
+impossible to continue walking,stitches in nape of neck,1.0,1
+impossible to continue walking,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+impossible to continue walking,complaints from living in damp places,1.0,1
+impossible to continue walking,cannot lie on either side,1.0,1
+impossible to continue walking,sycosis,1.0,1
+impossible to continue walking,pain in sacrum,1.0,1
+impossible to continue walking,piercing pains back of hand,1.0,1
+impossible to continue walking,pressure in left side of back near lumbar region,1.0,1
+impossible to continue walking,making it very difficult to ascend or sit down or get up,1.0,1
+impossible to continue walking,bruised pain in small of back and sacrum,1.0,1
+impossible to continue walking,piercing pains palm of right hand,1.0,1
+impossible to continue walking,irritable liver with stitches in liver,1.0,1
+impossible to continue walking,sudden stitch in left hip,1.0,1
+impossible to continue walking,no relief in any position,1.0,1
+impossible to continue walking,flexors of hands painful when grasping anything,1.0,1
+impossible to continue walking,gastric complaints with much acidity,1.0,1
+impossible to continue walking,gout in feet in acute or chronic conditions,1.0,1
+impossible to continue walking,fingers swollen and stiff,1.0,1
+impossible to continue walking,soreness up and down spine and neck,1.0,1
+impossible to continue walking,marked dyspnoea during damp cloudy weather,1.0,1
+impossible to continue walking,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+impossible to continue walking,piercing pain only during rest,1.0,1
+impossible to continue walking,pain in hip extending to knee,1.0,1
+impossible to continue walking,pains in limbs compelling him to change position frequently,1.0,1
+impossible to continue walking,constant shifting of position,1.0,1
+gastric complaints with much acidity,rheumatic arthritis of joints of fingers,1.0,1
+gastric complaints with much acidity,flatulency with much rolling,1.0,1
+gastric complaints with much acidity,piercing pain in left hip and small of back,1.0,1
+gastric complaints with much acidity,compelling him to move constantly,1.0,1
+gastric complaints with much acidity,cracking of joints in arthritis,1.0,1
+gastric complaints with much acidity,causing excruciating pain,1.0,1
+gastric complaints with much acidity,nephritis,1.0,1
+gastric complaints with much acidity,pains suddenly go to heart,1.0,1
+gastric complaints with much acidity,pain in hip causing him to move frequently,1.0,1
+gastric complaints with much acidity,uric acid deposits in finger joints,1.0,1
+gastric complaints with much acidity,complaints from eating food grown in damp places,1.0,1
+gastric complaints with much acidity,sciatica when getting up or sitting down or turning in bed,1.0,1
+gastric complaints with much acidity,stiffness of knee,1.0,1
+gastric complaints with much acidity,piercing pains on humerus,1.0,1
+gastric complaints with much acidity,piercing as from knives between scapulae,1.0,1
+gastric complaints with much acidity,pain in left hip as after lying in a bad position,1.0,1
+gastric complaints with much acidity,pain in right hip joint,1.0,1
+gastric complaints with much acidity,piercing pains in left axilla,1.0,1
+gastric complaints with much acidity,piercing pains fingers and under nails,1.0,1
+gastric complaints with much acidity,awakens him at night,1.0,1
+gastric complaints with much acidity,stitches in nape of neck,1.0,1
+gastric complaints with much acidity,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+gastric complaints with much acidity,complaints from living in damp places,1.0,1
+gastric complaints with much acidity,cannot lie on either side,1.0,1
+gastric complaints with much acidity,sycosis,1.0,1
+gastric complaints with much acidity,pain in sacrum,1.0,1
+gastric complaints with much acidity,piercing pains back of hand,1.0,1
+gastric complaints with much acidity,impossible to continue walking,1.0,1
+gastric complaints with much acidity,pressure in left side of back near lumbar region,1.0,1
+gastric complaints with much acidity,making it very difficult to ascend or sit down or get up,1.0,1
+gastric complaints with much acidity,bruised pain in small of back and sacrum,1.0,1
+gastric complaints with much acidity,piercing pains palm of right hand,1.0,1
+gastric complaints with much acidity,irritable liver with stitches in liver,1.0,1
+gastric complaints with much acidity,sudden stitch in left hip,1.0,1
+gastric complaints with much acidity,no relief in any position,1.0,1
+gastric complaints with much acidity,flexors of hands painful when grasping anything,1.0,1
+gastric complaints with much acidity,gout in feet in acute or chronic conditions,1.0,1
+gastric complaints with much acidity,fingers swollen and stiff,1.0,1
+gastric complaints with much acidity,soreness up and down spine and neck,1.0,1
+gastric complaints with much acidity,marked dyspnoea during damp cloudy weather,1.0,1
+gastric complaints with much acidity,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+gastric complaints with much acidity,piercing pain only during rest,1.0,1
+gastric complaints with much acidity,pain in hip extending to knee,1.0,1
+gastric complaints with much acidity,pains in limbs compelling him to change position frequently,1.0,1
+gastric complaints with much acidity,constant shifting of position,1.0,1
+pressure in left side of back near lumbar region,rheumatic arthritis of joints of fingers,1.0,1
+pressure in left side of back near lumbar region,flatulency with much rolling,1.0,1
+pressure in left side of back near lumbar region,piercing pain in left hip and small of back,1.0,1
+pressure in left side of back near lumbar region,compelling him to move constantly,1.0,1
+pressure in left side of back near lumbar region,cracking of joints in arthritis,1.0,1
+pressure in left side of back near lumbar region,causing excruciating pain,1.0,1
+pressure in left side of back near lumbar region,nephritis,1.0,1
+pressure in left side of back near lumbar region,pains suddenly go to heart,1.0,1
+pressure in left side of back near lumbar region,pain in hip causing him to move frequently,1.0,1
+pressure in left side of back near lumbar region,uric acid deposits in finger joints,1.0,1
+pressure in left side of back near lumbar region,complaints from eating food grown in damp places,1.0,1
+pressure in left side of back near lumbar region,sciatica when getting up or sitting down or turning in bed,1.0,1
+pressure in left side of back near lumbar region,stiffness of knee,1.0,1
+pressure in left side of back near lumbar region,piercing pains on humerus,1.0,1
+pressure in left side of back near lumbar region,piercing as from knives between scapulae,1.0,1
+pressure in left side of back near lumbar region,pain in left hip as after lying in a bad position,1.0,1
+pressure in left side of back near lumbar region,pain in right hip joint,1.0,1
+pressure in left side of back near lumbar region,piercing pains in left axilla,1.0,1
+pressure in left side of back near lumbar region,piercing pains fingers and under nails,1.0,1
+pressure in left side of back near lumbar region,awakens him at night,1.0,1
+pressure in left side of back near lumbar region,stitches in nape of neck,1.0,1
+pressure in left side of back near lumbar region,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+pressure in left side of back near lumbar region,complaints from living in damp places,1.0,1
+pressure in left side of back near lumbar region,cannot lie on either side,1.0,1
+pressure in left side of back near lumbar region,sycosis,1.0,1
+pressure in left side of back near lumbar region,pain in sacrum,1.0,1
+pressure in left side of back near lumbar region,piercing pains back of hand,1.0,1
+pressure in left side of back near lumbar region,impossible to continue walking,1.0,1
+pressure in left side of back near lumbar region,making it very difficult to ascend or sit down or get up,1.0,1
+pressure in left side of back near lumbar region,bruised pain in small of back and sacrum,1.0,1
+pressure in left side of back near lumbar region,piercing pains palm of right hand,1.0,1
+pressure in left side of back near lumbar region,irritable liver with stitches in liver,1.0,1
+pressure in left side of back near lumbar region,sudden stitch in left hip,1.0,1
+pressure in left side of back near lumbar region,no relief in any position,1.0,1
+pressure in left side of back near lumbar region,flexors of hands painful when grasping anything,1.0,1
+pressure in left side of back near lumbar region,gastric complaints with much acidity,1.0,1
+pressure in left side of back near lumbar region,gout in feet in acute or chronic conditions,1.0,1
+pressure in left side of back near lumbar region,fingers swollen and stiff,1.0,1
+pressure in left side of back near lumbar region,soreness up and down spine and neck,1.0,1
+pressure in left side of back near lumbar region,marked dyspnoea during damp cloudy weather,1.0,1
+pressure in left side of back near lumbar region,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+pressure in left side of back near lumbar region,piercing pain only during rest,1.0,1
+pressure in left side of back near lumbar region,pain in hip extending to knee,1.0,1
+pressure in left side of back near lumbar region,pains in limbs compelling him to change position frequently,1.0,1
+pressure in left side of back near lumbar region,constant shifting of position,1.0,1
+pain in right hip joint,rheumatic arthritis of joints of fingers,1.0,1
+pain in right hip joint,flatulency with much rolling,1.0,1
+pain in right hip joint,piercing pain in left hip and small of back,1.0,1
+pain in right hip joint,compelling him to move constantly,1.0,1
+pain in right hip joint,cracking of joints in arthritis,1.0,1
+pain in right hip joint,causing excruciating pain,1.0,1
+pain in right hip joint,nephritis,1.0,1
+pain in right hip joint,pains suddenly go to heart,1.0,1
+pain in right hip joint,pain in hip causing him to move frequently,1.0,1
+pain in right hip joint,uric acid deposits in finger joints,1.0,1
+pain in right hip joint,complaints from eating food grown in damp places,1.0,1
+pain in right hip joint,sciatica when getting up or sitting down or turning in bed,1.0,1
+pain in right hip joint,stiffness of knee,1.0,1
+pain in right hip joint,piercing pains on humerus,1.0,1
+pain in right hip joint,piercing as from knives between scapulae,1.0,1
+pain in right hip joint,pain in left hip as after lying in a bad position,1.0,1
+pain in right hip joint,piercing pains in left axilla,1.0,1
+pain in right hip joint,piercing pains fingers and under nails,1.0,1
+pain in right hip joint,awakens him at night,1.0,1
+pain in right hip joint,stitches in nape of neck,1.0,1
+pain in right hip joint,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+pain in right hip joint,complaints from living in damp places,1.0,1
+pain in right hip joint,cannot lie on either side,1.0,1
+pain in right hip joint,sycosis,1.0,1
+pain in right hip joint,pain in sacrum,1.0,1
+pain in right hip joint,piercing pains back of hand,1.0,1
+pain in right hip joint,impossible to continue walking,1.0,1
+pain in right hip joint,pressure in left side of back near lumbar region,1.0,1
+pain in right hip joint,making it very difficult to ascend or sit down or get up,1.0,1
+pain in right hip joint,bruised pain in small of back and sacrum,1.0,1
+pain in right hip joint,piercing pains palm of right hand,1.0,1
+pain in right hip joint,irritable liver with stitches in liver,1.0,1
+pain in right hip joint,sudden stitch in left hip,1.0,1
+pain in right hip joint,no relief in any position,1.0,1
+pain in right hip joint,flexors of hands painful when grasping anything,1.0,1
+pain in right hip joint,gastric complaints with much acidity,1.0,1
+pain in right hip joint,gout in feet in acute or chronic conditions,1.0,1
+pain in right hip joint,fingers swollen and stiff,1.0,1
+pain in right hip joint,soreness up and down spine and neck,1.0,1
+pain in right hip joint,marked dyspnoea during damp cloudy weather,1.0,1
+pain in right hip joint,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+pain in right hip joint,piercing pain only during rest,1.0,1
+pain in right hip joint,pain in hip extending to knee,1.0,1
+pain in right hip joint,pains in limbs compelling him to change position frequently,1.0,1
+pain in right hip joint,constant shifting of position,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,rheumatic arthritis of joints of fingers,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,flatulency with much rolling,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,piercing pain in left hip and small of back,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,compelling him to move constantly,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,cracking of joints in arthritis,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,causing excruciating pain,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,nephritis,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,pains suddenly go to heart,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,pain in hip causing him to move frequently,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,uric acid deposits in finger joints,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,complaints from eating food grown in damp places,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,sciatica when getting up or sitting down or turning in bed,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,stiffness of knee,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,piercing pains on humerus,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,piercing as from knives between scapulae,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,pain in left hip as after lying in a bad position,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,pain in right hip joint,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,piercing pains in left axilla,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,piercing pains fingers and under nails,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,awakens him at night,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,stitches in nape of neck,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,complaints from living in damp places,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,cannot lie on either side,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,sycosis,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,pain in sacrum,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,piercing pains back of hand,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,impossible to continue walking,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,pressure in left side of back near lumbar region,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,making it very difficult to ascend or sit down or get up,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,bruised pain in small of back and sacrum,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,piercing pains palm of right hand,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,irritable liver with stitches in liver,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,sudden stitch in left hip,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,no relief in any position,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,flexors of hands painful when grasping anything,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,gastric complaints with much acidity,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,gout in feet in acute or chronic conditions,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,fingers swollen and stiff,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,soreness up and down spine and neck,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,marked dyspnoea during damp cloudy weather,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,piercing pain only during rest,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,pain in hip extending to knee,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,pains in limbs compelling him to change position frequently,1.0,1
+dirty greenish-grey or greenish-brown coating on back of tongue,constant shifting of position,1.0,1
+complaints from eating food grown in damp places,rheumatic arthritis of joints of fingers,1.0,1
+complaints from eating food grown in damp places,flatulency with much rolling,1.0,1
+complaints from eating food grown in damp places,piercing pain in left hip and small of back,1.0,1
+complaints from eating food grown in damp places,compelling him to move constantly,1.0,1
+complaints from eating food grown in damp places,cracking of joints in arthritis,1.0,1
+complaints from eating food grown in damp places,causing excruciating pain,1.0,1
+complaints from eating food grown in damp places,nephritis,1.0,1
+complaints from eating food grown in damp places,pains suddenly go to heart,1.0,1
+complaints from eating food grown in damp places,pain in hip causing him to move frequently,1.0,1
+complaints from eating food grown in damp places,uric acid deposits in finger joints,1.0,1
+complaints from eating food grown in damp places,sciatica when getting up or sitting down or turning in bed,1.0,1
+complaints from eating food grown in damp places,stiffness of knee,1.0,1
+complaints from eating food grown in damp places,piercing pains on humerus,1.0,1
+complaints from eating food grown in damp places,piercing as from knives between scapulae,1.0,1
+complaints from eating food grown in damp places,pain in left hip as after lying in a bad position,1.0,1
+complaints from eating food grown in damp places,pain in right hip joint,1.0,1
+complaints from eating food grown in damp places,piercing pains in left axilla,1.0,1
+complaints from eating food grown in damp places,piercing pains fingers and under nails,1.0,1
+complaints from eating food grown in damp places,awakens him at night,1.0,1
+complaints from eating food grown in damp places,stitches in nape of neck,1.0,1
+complaints from eating food grown in damp places,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+complaints from eating food grown in damp places,complaints from living in damp places,1.0,1
+complaints from eating food grown in damp places,cannot lie on either side,1.0,1
+complaints from eating food grown in damp places,sycosis,1.0,1
+complaints from eating food grown in damp places,pain in sacrum,1.0,1
+complaints from eating food grown in damp places,piercing pains back of hand,1.0,1
+complaints from eating food grown in damp places,impossible to continue walking,1.0,1
+complaints from eating food grown in damp places,pressure in left side of back near lumbar region,1.0,1
+complaints from eating food grown in damp places,making it very difficult to ascend or sit down or get up,1.0,1
+complaints from eating food grown in damp places,bruised pain in small of back and sacrum,1.0,1
+complaints from eating food grown in damp places,piercing pains palm of right hand,1.0,1
+complaints from eating food grown in damp places,irritable liver with stitches in liver,1.0,1
+complaints from eating food grown in damp places,sudden stitch in left hip,1.0,1
+complaints from eating food grown in damp places,no relief in any position,1.0,1
+complaints from eating food grown in damp places,flexors of hands painful when grasping anything,1.0,1
+complaints from eating food grown in damp places,gastric complaints with much acidity,1.0,1
+complaints from eating food grown in damp places,gout in feet in acute or chronic conditions,1.0,1
+complaints from eating food grown in damp places,fingers swollen and stiff,1.0,1
+complaints from eating food grown in damp places,soreness up and down spine and neck,1.0,1
+complaints from eating food grown in damp places,marked dyspnoea during damp cloudy weather,1.0,1
+complaints from eating food grown in damp places,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+complaints from eating food grown in damp places,piercing pain only during rest,1.0,1
+complaints from eating food grown in damp places,pain in hip extending to knee,1.0,1
+complaints from eating food grown in damp places,pains in limbs compelling him to change position frequently,1.0,1
+complaints from eating food grown in damp places,constant shifting of position,1.0,1
+pain in hip causing him to move frequently,rheumatic arthritis of joints of fingers,1.0,1
+pain in hip causing him to move frequently,flatulency with much rolling,1.0,1
+pain in hip causing him to move frequently,piercing pain in left hip and small of back,1.0,1
+pain in hip causing him to move frequently,compelling him to move constantly,1.0,1
+pain in hip causing him to move frequently,cracking of joints in arthritis,1.0,1
+pain in hip causing him to move frequently,causing excruciating pain,1.0,1
+pain in hip causing him to move frequently,nephritis,1.0,1
+pain in hip causing him to move frequently,pains suddenly go to heart,1.0,1
+pain in hip causing him to move frequently,uric acid deposits in finger joints,1.0,1
+pain in hip causing him to move frequently,complaints from eating food grown in damp places,1.0,1
+pain in hip causing him to move frequently,sciatica when getting up or sitting down or turning in bed,1.0,1
+pain in hip causing him to move frequently,stiffness of knee,1.0,1
+pain in hip causing him to move frequently,piercing pains on humerus,1.0,1
+pain in hip causing him to move frequently,piercing as from knives between scapulae,1.0,1
+pain in hip causing him to move frequently,pain in left hip as after lying in a bad position,1.0,1
+pain in hip causing him to move frequently,pain in right hip joint,1.0,1
+pain in hip causing him to move frequently,piercing pains in left axilla,1.0,1
+pain in hip causing him to move frequently,piercing pains fingers and under nails,1.0,1
+pain in hip causing him to move frequently,awakens him at night,1.0,1
+pain in hip causing him to move frequently,stitches in nape of neck,1.0,1
+pain in hip causing him to move frequently,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+pain in hip causing him to move frequently,complaints from living in damp places,1.0,1
+pain in hip causing him to move frequently,cannot lie on either side,1.0,1
+pain in hip causing him to move frequently,sycosis,1.0,1
+pain in hip causing him to move frequently,pain in sacrum,1.0,1
+pain in hip causing him to move frequently,piercing pains back of hand,1.0,1
+pain in hip causing him to move frequently,impossible to continue walking,1.0,1
+pain in hip causing him to move frequently,pressure in left side of back near lumbar region,1.0,1
+pain in hip causing him to move frequently,making it very difficult to ascend or sit down or get up,1.0,1
+pain in hip causing him to move frequently,bruised pain in small of back and sacrum,1.0,1
+pain in hip causing him to move frequently,piercing pains palm of right hand,1.0,1
+pain in hip causing him to move frequently,irritable liver with stitches in liver,1.0,1
+pain in hip causing him to move frequently,sudden stitch in left hip,1.0,1
+pain in hip causing him to move frequently,no relief in any position,1.0,1
+pain in hip causing him to move frequently,flexors of hands painful when grasping anything,1.0,1
+pain in hip causing him to move frequently,gastric complaints with much acidity,1.0,1
+pain in hip causing him to move frequently,gout in feet in acute or chronic conditions,1.0,1
+pain in hip causing him to move frequently,fingers swollen and stiff,1.0,1
+pain in hip causing him to move frequently,soreness up and down spine and neck,1.0,1
+pain in hip causing him to move frequently,marked dyspnoea during damp cloudy weather,1.0,1
+pain in hip causing him to move frequently,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+pain in hip causing him to move frequently,piercing pain only during rest,1.0,1
+pain in hip causing him to move frequently,pain in hip extending to knee,1.0,1
+pain in hip causing him to move frequently,pains in limbs compelling him to change position frequently,1.0,1
+pain in hip causing him to move frequently,constant shifting of position,1.0,1
+uric acid deposits in finger joints,rheumatic arthritis of joints of fingers,1.0,1
+uric acid deposits in finger joints,flatulency with much rolling,1.0,1
+uric acid deposits in finger joints,piercing pain in left hip and small of back,1.0,1
+uric acid deposits in finger joints,compelling him to move constantly,1.0,1
+uric acid deposits in finger joints,cracking of joints in arthritis,1.0,1
+uric acid deposits in finger joints,causing excruciating pain,1.0,1
+uric acid deposits in finger joints,nephritis,1.0,1
+uric acid deposits in finger joints,pains suddenly go to heart,1.0,1
+uric acid deposits in finger joints,pain in hip causing him to move frequently,1.0,1
+uric acid deposits in finger joints,complaints from eating food grown in damp places,1.0,1
+uric acid deposits in finger joints,sciatica when getting up or sitting down or turning in bed,1.0,1
+uric acid deposits in finger joints,stiffness of knee,1.0,1
+uric acid deposits in finger joints,piercing pains on humerus,1.0,1
+uric acid deposits in finger joints,piercing as from knives between scapulae,1.0,1
+uric acid deposits in finger joints,pain in left hip as after lying in a bad position,1.0,1
+uric acid deposits in finger joints,pain in right hip joint,1.0,1
+uric acid deposits in finger joints,piercing pains in left axilla,1.0,1
+uric acid deposits in finger joints,piercing pains fingers and under nails,1.0,1
+uric acid deposits in finger joints,awakens him at night,1.0,1
+uric acid deposits in finger joints,stitches in nape of neck,1.0,1
+uric acid deposits in finger joints,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+uric acid deposits in finger joints,complaints from living in damp places,1.0,1
+uric acid deposits in finger joints,cannot lie on either side,1.0,1
+uric acid deposits in finger joints,sycosis,1.0,1
+uric acid deposits in finger joints,pain in sacrum,1.0,1
+uric acid deposits in finger joints,piercing pains back of hand,1.0,1
+uric acid deposits in finger joints,impossible to continue walking,1.0,1
+uric acid deposits in finger joints,pressure in left side of back near lumbar region,1.0,1
+uric acid deposits in finger joints,making it very difficult to ascend or sit down or get up,1.0,1
+uric acid deposits in finger joints,bruised pain in small of back and sacrum,1.0,1
+uric acid deposits in finger joints,piercing pains palm of right hand,1.0,1
+uric acid deposits in finger joints,irritable liver with stitches in liver,1.0,1
+uric acid deposits in finger joints,sudden stitch in left hip,1.0,1
+uric acid deposits in finger joints,no relief in any position,1.0,1
+uric acid deposits in finger joints,flexors of hands painful when grasping anything,1.0,1
+uric acid deposits in finger joints,gastric complaints with much acidity,1.0,1
+uric acid deposits in finger joints,gout in feet in acute or chronic conditions,1.0,1
+uric acid deposits in finger joints,fingers swollen and stiff,1.0,1
+uric acid deposits in finger joints,soreness up and down spine and neck,1.0,1
+uric acid deposits in finger joints,marked dyspnoea during damp cloudy weather,1.0,1
+uric acid deposits in finger joints,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+uric acid deposits in finger joints,piercing pain only during rest,1.0,1
+uric acid deposits in finger joints,pain in hip extending to knee,1.0,1
+uric acid deposits in finger joints,pains in limbs compelling him to change position frequently,1.0,1
+uric acid deposits in finger joints,constant shifting of position,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,rheumatic arthritis of joints of fingers,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,flatulency with much rolling,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,piercing pain in left hip and small of back,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,compelling him to move constantly,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,cracking of joints in arthritis,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,causing excruciating pain,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,nephritis,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,pains suddenly go to heart,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,pain in hip causing him to move frequently,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,uric acid deposits in finger joints,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,complaints from eating food grown in damp places,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,sciatica when getting up or sitting down or turning in bed,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,stiffness of knee,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,piercing pains on humerus,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,piercing as from knives between scapulae,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,pain in left hip as after lying in a bad position,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,pain in right hip joint,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,piercing pains in left axilla,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,piercing pains fingers and under nails,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,awakens him at night,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,stitches in nape of neck,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,complaints from living in damp places,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,cannot lie on either side,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,sycosis,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,pain in sacrum,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,piercing pains back of hand,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,impossible to continue walking,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,pressure in left side of back near lumbar region,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,making it very difficult to ascend or sit down or get up,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,bruised pain in small of back and sacrum,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,piercing pains palm of right hand,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,irritable liver with stitches in liver,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,sudden stitch in left hip,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,no relief in any position,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,flexors of hands painful when grasping anything,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,gastric complaints with much acidity,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,gout in feet in acute or chronic conditions,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,fingers swollen and stiff,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,soreness up and down spine and neck,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,marked dyspnoea during damp cloudy weather,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,piercing pain only during rest,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,pain in hip extending to knee,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,pains in limbs compelling him to change position frequently,1.0,1
+rheumatic pains in limbs associated with gastric symptoms,constant shifting of position,1.0,1
+rheumatic arthritis of joints of fingers,flatulency with much rolling,1.0,1
+rheumatic arthritis of joints of fingers,piercing pain in left hip and small of back,1.0,1
+rheumatic arthritis of joints of fingers,compelling him to move constantly,1.0,1
+rheumatic arthritis of joints of fingers,cracking of joints in arthritis,1.0,1
+rheumatic arthritis of joints of fingers,causing excruciating pain,1.0,1
+rheumatic arthritis of joints of fingers,nephritis,1.0,1
+rheumatic arthritis of joints of fingers,pains suddenly go to heart,1.0,1
+rheumatic arthritis of joints of fingers,pain in hip causing him to move frequently,1.0,1
+rheumatic arthritis of joints of fingers,uric acid deposits in finger joints,1.0,1
+rheumatic arthritis of joints of fingers,complaints from eating food grown in damp places,1.0,1
+rheumatic arthritis of joints of fingers,sciatica when getting up or sitting down or turning in bed,1.0,1
+rheumatic arthritis of joints of fingers,stiffness of knee,1.0,1
+rheumatic arthritis of joints of fingers,piercing pains on humerus,1.0,1
+rheumatic arthritis of joints of fingers,piercing as from knives between scapulae,1.0,1
+rheumatic arthritis of joints of fingers,pain in left hip as after lying in a bad position,1.0,1
+rheumatic arthritis of joints of fingers,pain in right hip joint,1.0,1
+rheumatic arthritis of joints of fingers,piercing pains in left axilla,1.0,1
+rheumatic arthritis of joints of fingers,piercing pains fingers and under nails,1.0,1
+rheumatic arthritis of joints of fingers,awakens him at night,1.0,1
+rheumatic arthritis of joints of fingers,stitches in nape of neck,1.0,1
+rheumatic arthritis of joints of fingers,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+rheumatic arthritis of joints of fingers,complaints from living in damp places,1.0,1
+rheumatic arthritis of joints of fingers,cannot lie on either side,1.0,1
+rheumatic arthritis of joints of fingers,sycosis,1.0,1
+rheumatic arthritis of joints of fingers,pain in sacrum,1.0,1
+rheumatic arthritis of joints of fingers,piercing pains back of hand,1.0,1
+rheumatic arthritis of joints of fingers,impossible to continue walking,1.0,1
+rheumatic arthritis of joints of fingers,pressure in left side of back near lumbar region,1.0,1
+rheumatic arthritis of joints of fingers,making it very difficult to ascend or sit down or get up,1.0,1
+rheumatic arthritis of joints of fingers,bruised pain in small of back and sacrum,1.0,1
+rheumatic arthritis of joints of fingers,piercing pains palm of right hand,1.0,1
+rheumatic arthritis of joints of fingers,irritable liver with stitches in liver,1.0,1
+rheumatic arthritis of joints of fingers,sudden stitch in left hip,1.0,1
+rheumatic arthritis of joints of fingers,no relief in any position,1.0,1
+rheumatic arthritis of joints of fingers,flexors of hands painful when grasping anything,1.0,1
+rheumatic arthritis of joints of fingers,gastric complaints with much acidity,1.0,1
+rheumatic arthritis of joints of fingers,gout in feet in acute or chronic conditions,1.0,1
+rheumatic arthritis of joints of fingers,fingers swollen and stiff,1.0,1
+rheumatic arthritis of joints of fingers,soreness up and down spine and neck,1.0,1
+rheumatic arthritis of joints of fingers,marked dyspnoea during damp cloudy weather,1.0,1
+rheumatic arthritis of joints of fingers,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+rheumatic arthritis of joints of fingers,piercing pain only during rest,1.0,1
+rheumatic arthritis of joints of fingers,pain in hip extending to knee,1.0,1
+rheumatic arthritis of joints of fingers,pains in limbs compelling him to change position frequently,1.0,1
+rheumatic arthritis of joints of fingers,constant shifting of position,1.0,1
+awakens him at night,rheumatic arthritis of joints of fingers,1.0,1
+awakens him at night,flatulency with much rolling,1.0,1
+awakens him at night,piercing pain in left hip and small of back,1.0,1
+awakens him at night,compelling him to move constantly,1.0,1
+awakens him at night,cracking of joints in arthritis,1.0,1
+awakens him at night,causing excruciating pain,1.0,1
+awakens him at night,nephritis,1.0,1
+awakens him at night,pains suddenly go to heart,1.0,1
+awakens him at night,pain in hip causing him to move frequently,1.0,1
+awakens him at night,uric acid deposits in finger joints,1.0,1
+awakens him at night,complaints from eating food grown in damp places,1.0,1
+awakens him at night,sciatica when getting up or sitting down or turning in bed,1.0,1
+awakens him at night,stiffness of knee,1.0,1
+awakens him at night,piercing pains on humerus,1.0,1
+awakens him at night,piercing as from knives between scapulae,1.0,1
+awakens him at night,pain in left hip as after lying in a bad position,1.0,1
+awakens him at night,pain in right hip joint,1.0,1
+awakens him at night,piercing pains in left axilla,1.0,1
+awakens him at night,piercing pains fingers and under nails,1.0,1
+awakens him at night,stitches in nape of neck,1.0,1
+awakens him at night,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+awakens him at night,complaints from living in damp places,1.0,1
+awakens him at night,cannot lie on either side,1.0,1
+awakens him at night,sycosis,1.0,1
+awakens him at night,pain in sacrum,1.0,1
+awakens him at night,piercing pains back of hand,1.0,1
+awakens him at night,impossible to continue walking,1.0,1
+awakens him at night,pressure in left side of back near lumbar region,1.0,1
+awakens him at night,making it very difficult to ascend or sit down or get up,1.0,1
+awakens him at night,bruised pain in small of back and sacrum,1.0,1
+awakens him at night,piercing pains palm of right hand,1.0,1
+awakens him at night,irritable liver with stitches in liver,1.0,1
+awakens him at night,sudden stitch in left hip,1.0,1
+awakens him at night,no relief in any position,1.0,1
+awakens him at night,flexors of hands painful when grasping anything,1.0,1
+awakens him at night,gastric complaints with much acidity,1.0,1
+awakens him at night,gout in feet in acute or chronic conditions,1.0,1
+awakens him at night,fingers swollen and stiff,1.0,1
+awakens him at night,soreness up and down spine and neck,1.0,1
+awakens him at night,marked dyspnoea during damp cloudy weather,1.0,1
+awakens him at night,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+awakens him at night,piercing pain only during rest,1.0,1
+awakens him at night,pain in hip extending to knee,1.0,1
+awakens him at night,pains in limbs compelling him to change position frequently,1.0,1
+awakens him at night,constant shifting of position,1.0,1
+stitches in nape of neck,rheumatic arthritis of joints of fingers,1.0,1
+stitches in nape of neck,flatulency with much rolling,1.0,1
+stitches in nape of neck,piercing pain in left hip and small of back,1.0,1
+stitches in nape of neck,compelling him to move constantly,1.0,1
+stitches in nape of neck,cracking of joints in arthritis,1.0,1
+stitches in nape of neck,causing excruciating pain,1.0,1
+stitches in nape of neck,nephritis,1.0,1
+stitches in nape of neck,pains suddenly go to heart,1.0,1
+stitches in nape of neck,pain in hip causing him to move frequently,1.0,1
+stitches in nape of neck,uric acid deposits in finger joints,1.0,1
+stitches in nape of neck,complaints from eating food grown in damp places,1.0,1
+stitches in nape of neck,sciatica when getting up or sitting down or turning in bed,1.0,1
+stitches in nape of neck,stiffness of knee,1.0,1
+stitches in nape of neck,piercing pains on humerus,1.0,1
+stitches in nape of neck,piercing as from knives between scapulae,1.0,1
+stitches in nape of neck,pain in left hip as after lying in a bad position,1.0,1
+stitches in nape of neck,pain in right hip joint,1.0,1
+stitches in nape of neck,piercing pains in left axilla,1.0,1
+stitches in nape of neck,piercing pains fingers and under nails,1.0,1
+stitches in nape of neck,awakens him at night,1.0,1
+stitches in nape of neck,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+stitches in nape of neck,complaints from living in damp places,1.0,1
+stitches in nape of neck,cannot lie on either side,1.0,1
+stitches in nape of neck,sycosis,1.0,1
+stitches in nape of neck,pain in sacrum,1.0,1
+stitches in nape of neck,piercing pains back of hand,1.0,1
+stitches in nape of neck,impossible to continue walking,1.0,1
+stitches in nape of neck,pressure in left side of back near lumbar region,1.0,1
+stitches in nape of neck,making it very difficult to ascend or sit down or get up,1.0,1
+stitches in nape of neck,bruised pain in small of back and sacrum,1.0,1
+stitches in nape of neck,piercing pains palm of right hand,1.0,1
+stitches in nape of neck,irritable liver with stitches in liver,1.0,1
+stitches in nape of neck,sudden stitch in left hip,1.0,1
+stitches in nape of neck,no relief in any position,1.0,1
+stitches in nape of neck,flexors of hands painful when grasping anything,1.0,1
+stitches in nape of neck,gastric complaints with much acidity,1.0,1
+stitches in nape of neck,gout in feet in acute or chronic conditions,1.0,1
+stitches in nape of neck,fingers swollen and stiff,1.0,1
+stitches in nape of neck,soreness up and down spine and neck,1.0,1
+stitches in nape of neck,marked dyspnoea during damp cloudy weather,1.0,1
+stitches in nape of neck,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+stitches in nape of neck,piercing pain only during rest,1.0,1
+stitches in nape of neck,pain in hip extending to knee,1.0,1
+stitches in nape of neck,pains in limbs compelling him to change position frequently,1.0,1
+stitches in nape of neck,constant shifting of position,1.0,1
+piercing pains in left axilla,rheumatic arthritis of joints of fingers,1.0,1
+piercing pains in left axilla,flatulency with much rolling,1.0,1
+piercing pains in left axilla,piercing pain in left hip and small of back,1.0,1
+piercing pains in left axilla,compelling him to move constantly,1.0,1
+piercing pains in left axilla,cracking of joints in arthritis,1.0,1
+piercing pains in left axilla,causing excruciating pain,1.0,1
+piercing pains in left axilla,nephritis,1.0,1
+piercing pains in left axilla,pains suddenly go to heart,1.0,1
+piercing pains in left axilla,pain in hip causing him to move frequently,1.0,1
+piercing pains in left axilla,uric acid deposits in finger joints,1.0,1
+piercing pains in left axilla,complaints from eating food grown in damp places,1.0,1
+piercing pains in left axilla,sciatica when getting up or sitting down or turning in bed,1.0,1
+piercing pains in left axilla,stiffness of knee,1.0,1
+piercing pains in left axilla,piercing pains on humerus,1.0,1
+piercing pains in left axilla,piercing as from knives between scapulae,1.0,1
+piercing pains in left axilla,pain in left hip as after lying in a bad position,1.0,1
+piercing pains in left axilla,pain in right hip joint,1.0,1
+piercing pains in left axilla,piercing pains fingers and under nails,1.0,1
+piercing pains in left axilla,awakens him at night,1.0,1
+piercing pains in left axilla,stitches in nape of neck,1.0,1
+piercing pains in left axilla,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+piercing pains in left axilla,complaints from living in damp places,1.0,1
+piercing pains in left axilla,cannot lie on either side,1.0,1
+piercing pains in left axilla,sycosis,1.0,1
+piercing pains in left axilla,pain in sacrum,1.0,1
+piercing pains in left axilla,piercing pains back of hand,1.0,1
+piercing pains in left axilla,impossible to continue walking,1.0,1
+piercing pains in left axilla,pressure in left side of back near lumbar region,1.0,1
+piercing pains in left axilla,making it very difficult to ascend or sit down or get up,1.0,1
+piercing pains in left axilla,bruised pain in small of back and sacrum,1.0,1
+piercing pains in left axilla,piercing pains palm of right hand,1.0,1
+piercing pains in left axilla,irritable liver with stitches in liver,1.0,1
+piercing pains in left axilla,sudden stitch in left hip,1.0,1
+piercing pains in left axilla,no relief in any position,1.0,1
+piercing pains in left axilla,flexors of hands painful when grasping anything,1.0,1
+piercing pains in left axilla,gastric complaints with much acidity,1.0,1
+piercing pains in left axilla,gout in feet in acute or chronic conditions,1.0,1
+piercing pains in left axilla,fingers swollen and stiff,1.0,1
+piercing pains in left axilla,soreness up and down spine and neck,1.0,1
+piercing pains in left axilla,marked dyspnoea during damp cloudy weather,1.0,1
+piercing pains in left axilla,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+piercing pains in left axilla,piercing pain only during rest,1.0,1
+piercing pains in left axilla,pain in hip extending to knee,1.0,1
+piercing pains in left axilla,pains in limbs compelling him to change position frequently,1.0,1
+piercing pains in left axilla,constant shifting of position,1.0,1
+flexors of hands painful when grasping anything,rheumatic arthritis of joints of fingers,1.0,1
+flexors of hands painful when grasping anything,flatulency with much rolling,1.0,1
+flexors of hands painful when grasping anything,piercing pain in left hip and small of back,1.0,1
+flexors of hands painful when grasping anything,compelling him to move constantly,1.0,1
+flexors of hands painful when grasping anything,cracking of joints in arthritis,1.0,1
+flexors of hands painful when grasping anything,causing excruciating pain,1.0,1
+flexors of hands painful when grasping anything,nephritis,1.0,1
+flexors of hands painful when grasping anything,pains suddenly go to heart,1.0,1
+flexors of hands painful when grasping anything,pain in hip causing him to move frequently,1.0,1
+flexors of hands painful when grasping anything,uric acid deposits in finger joints,1.0,1
+flexors of hands painful when grasping anything,complaints from eating food grown in damp places,1.0,1
+flexors of hands painful when grasping anything,sciatica when getting up or sitting down or turning in bed,1.0,1
+flexors of hands painful when grasping anything,stiffness of knee,1.0,1
+flexors of hands painful when grasping anything,piercing pains on humerus,1.0,1
+flexors of hands painful when grasping anything,piercing as from knives between scapulae,1.0,1
+flexors of hands painful when grasping anything,pain in left hip as after lying in a bad position,1.0,1
+flexors of hands painful when grasping anything,pain in right hip joint,1.0,1
+flexors of hands painful when grasping anything,piercing pains in left axilla,1.0,1
+flexors of hands painful when grasping anything,piercing pains fingers and under nails,1.0,1
+flexors of hands painful when grasping anything,awakens him at night,1.0,1
+flexors of hands painful when grasping anything,stitches in nape of neck,1.0,1
+flexors of hands painful when grasping anything,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+flexors of hands painful when grasping anything,complaints from living in damp places,1.0,1
+flexors of hands painful when grasping anything,cannot lie on either side,1.0,1
+flexors of hands painful when grasping anything,sycosis,1.0,1
+flexors of hands painful when grasping anything,pain in sacrum,1.0,1
+flexors of hands painful when grasping anything,piercing pains back of hand,1.0,1
+flexors of hands painful when grasping anything,impossible to continue walking,1.0,1
+flexors of hands painful when grasping anything,pressure in left side of back near lumbar region,1.0,1
+flexors of hands painful when grasping anything,making it very difficult to ascend or sit down or get up,1.0,1
+flexors of hands painful when grasping anything,bruised pain in small of back and sacrum,1.0,1
+flexors of hands painful when grasping anything,piercing pains palm of right hand,1.0,1
+flexors of hands painful when grasping anything,irritable liver with stitches in liver,1.0,1
+flexors of hands painful when grasping anything,sudden stitch in left hip,1.0,1
+flexors of hands painful when grasping anything,no relief in any position,1.0,1
+flexors of hands painful when grasping anything,gastric complaints with much acidity,1.0,1
+flexors of hands painful when grasping anything,gout in feet in acute or chronic conditions,1.0,1
+flexors of hands painful when grasping anything,fingers swollen and stiff,1.0,1
+flexors of hands painful when grasping anything,soreness up and down spine and neck,1.0,1
+flexors of hands painful when grasping anything,marked dyspnoea during damp cloudy weather,1.0,1
+flexors of hands painful when grasping anything,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+flexors of hands painful when grasping anything,piercing pain only during rest,1.0,1
+flexors of hands painful when grasping anything,pain in hip extending to knee,1.0,1
+flexors of hands painful when grasping anything,pains in limbs compelling him to change position frequently,1.0,1
+flexors of hands painful when grasping anything,constant shifting of position,1.0,1
+soreness up and down spine and neck,rheumatic arthritis of joints of fingers,1.0,1
+soreness up and down spine and neck,flatulency with much rolling,1.0,1
+soreness up and down spine and neck,piercing pain in left hip and small of back,1.0,1
+soreness up and down spine and neck,compelling him to move constantly,1.0,1
+soreness up and down spine and neck,cracking of joints in arthritis,1.0,1
+soreness up and down spine and neck,causing excruciating pain,1.0,1
+soreness up and down spine and neck,nephritis,1.0,1
+soreness up and down spine and neck,pains suddenly go to heart,1.0,1
+soreness up and down spine and neck,pain in hip causing him to move frequently,1.0,1
+soreness up and down spine and neck,uric acid deposits in finger joints,1.0,1
+soreness up and down spine and neck,complaints from eating food grown in damp places,1.0,1
+soreness up and down spine and neck,sciatica when getting up or sitting down or turning in bed,1.0,1
+soreness up and down spine and neck,stiffness of knee,1.0,1
+soreness up and down spine and neck,piercing pains on humerus,1.0,1
+soreness up and down spine and neck,piercing as from knives between scapulae,1.0,1
+soreness up and down spine and neck,pain in left hip as after lying in a bad position,1.0,1
+soreness up and down spine and neck,pain in right hip joint,1.0,1
+soreness up and down spine and neck,piercing pains in left axilla,1.0,1
+soreness up and down spine and neck,piercing pains fingers and under nails,1.0,1
+soreness up and down spine and neck,awakens him at night,1.0,1
+soreness up and down spine and neck,stitches in nape of neck,1.0,1
+soreness up and down spine and neck,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+soreness up and down spine and neck,complaints from living in damp places,1.0,1
+soreness up and down spine and neck,cannot lie on either side,1.0,1
+soreness up and down spine and neck,sycosis,1.0,1
+soreness up and down spine and neck,pain in sacrum,1.0,1
+soreness up and down spine and neck,piercing pains back of hand,1.0,1
+soreness up and down spine and neck,impossible to continue walking,1.0,1
+soreness up and down spine and neck,pressure in left side of back near lumbar region,1.0,1
+soreness up and down spine and neck,making it very difficult to ascend or sit down or get up,1.0,1
+soreness up and down spine and neck,bruised pain in small of back and sacrum,1.0,1
+soreness up and down spine and neck,piercing pains palm of right hand,1.0,1
+soreness up and down spine and neck,irritable liver with stitches in liver,1.0,1
+soreness up and down spine and neck,sudden stitch in left hip,1.0,1
+soreness up and down spine and neck,no relief in any position,1.0,1
+soreness up and down spine and neck,flexors of hands painful when grasping anything,1.0,1
+soreness up and down spine and neck,gastric complaints with much acidity,1.0,1
+soreness up and down spine and neck,gout in feet in acute or chronic conditions,1.0,1
+soreness up and down spine and neck,fingers swollen and stiff,1.0,1
+soreness up and down spine and neck,marked dyspnoea during damp cloudy weather,1.0,1
+soreness up and down spine and neck,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+soreness up and down spine and neck,piercing pain only during rest,1.0,1
+soreness up and down spine and neck,pain in hip extending to knee,1.0,1
+soreness up and down spine and neck,pains in limbs compelling him to change position frequently,1.0,1
+soreness up and down spine and neck,constant shifting of position,1.0,1
+pains in limbs compelling him to change position frequently,rheumatic arthritis of joints of fingers,1.0,1
+pains in limbs compelling him to change position frequently,flatulency with much rolling,1.0,1
+pains in limbs compelling him to change position frequently,piercing pain in left hip and small of back,1.0,1
+pains in limbs compelling him to change position frequently,compelling him to move constantly,1.0,1
+pains in limbs compelling him to change position frequently,cracking of joints in arthritis,1.0,1
+pains in limbs compelling him to change position frequently,causing excruciating pain,1.0,1
+pains in limbs compelling him to change position frequently,nephritis,1.0,1
+pains in limbs compelling him to change position frequently,pains suddenly go to heart,1.0,1
+pains in limbs compelling him to change position frequently,pain in hip causing him to move frequently,1.0,1
+pains in limbs compelling him to change position frequently,uric acid deposits in finger joints,1.0,1
+pains in limbs compelling him to change position frequently,complaints from eating food grown in damp places,1.0,1
+pains in limbs compelling him to change position frequently,sciatica when getting up or sitting down or turning in bed,1.0,1
+pains in limbs compelling him to change position frequently,stiffness of knee,1.0,1
+pains in limbs compelling him to change position frequently,piercing pains on humerus,1.0,1
+pains in limbs compelling him to change position frequently,piercing as from knives between scapulae,1.0,1
+pains in limbs compelling him to change position frequently,pain in left hip as after lying in a bad position,1.0,1
+pains in limbs compelling him to change position frequently,pain in right hip joint,1.0,1
+pains in limbs compelling him to change position frequently,piercing pains in left axilla,1.0,1
+pains in limbs compelling him to change position frequently,piercing pains fingers and under nails,1.0,1
+pains in limbs compelling him to change position frequently,awakens him at night,1.0,1
+pains in limbs compelling him to change position frequently,stitches in nape of neck,1.0,1
+pains in limbs compelling him to change position frequently,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+pains in limbs compelling him to change position frequently,complaints from living in damp places,1.0,1
+pains in limbs compelling him to change position frequently,cannot lie on either side,1.0,1
+pains in limbs compelling him to change position frequently,sycosis,1.0,1
+pains in limbs compelling him to change position frequently,pain in sacrum,1.0,1
+pains in limbs compelling him to change position frequently,piercing pains back of hand,1.0,1
+pains in limbs compelling him to change position frequently,impossible to continue walking,1.0,1
+pains in limbs compelling him to change position frequently,pressure in left side of back near lumbar region,1.0,1
+pains in limbs compelling him to change position frequently,making it very difficult to ascend or sit down or get up,1.0,1
+pains in limbs compelling him to change position frequently,bruised pain in small of back and sacrum,1.0,1
+pains in limbs compelling him to change position frequently,piercing pains palm of right hand,1.0,1
+pains in limbs compelling him to change position frequently,irritable liver with stitches in liver,1.0,1
+pains in limbs compelling him to change position frequently,sudden stitch in left hip,1.0,1
+pains in limbs compelling him to change position frequently,no relief in any position,1.0,1
+pains in limbs compelling him to change position frequently,flexors of hands painful when grasping anything,1.0,1
+pains in limbs compelling him to change position frequently,gastric complaints with much acidity,1.0,1
+pains in limbs compelling him to change position frequently,gout in feet in acute or chronic conditions,1.0,1
+pains in limbs compelling him to change position frequently,fingers swollen and stiff,1.0,1
+pains in limbs compelling him to change position frequently,soreness up and down spine and neck,1.0,1
+pains in limbs compelling him to change position frequently,marked dyspnoea during damp cloudy weather,1.0,1
+pains in limbs compelling him to change position frequently,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+pains in limbs compelling him to change position frequently,piercing pain only during rest,1.0,1
+pains in limbs compelling him to change position frequently,pain in hip extending to knee,1.0,1
+pains in limbs compelling him to change position frequently,constant shifting of position,1.0,1
+sycosis,rheumatic arthritis of joints of fingers,1.0,1
+sycosis,flatulency with much rolling,1.0,1
+sycosis,piercing pain in left hip and small of back,1.0,1
+sycosis,compelling him to move constantly,1.0,1
+sycosis,cracking of joints in arthritis,1.0,1
+sycosis,causing excruciating pain,1.0,1
+sycosis,nephritis,1.0,1
+sycosis,pains suddenly go to heart,1.0,1
+sycosis,pain in hip causing him to move frequently,1.0,1
+sycosis,uric acid deposits in finger joints,1.0,1
+sycosis,complaints from eating food grown in damp places,1.0,1
+sycosis,sciatica when getting up or sitting down or turning in bed,1.0,1
+sycosis,stiffness of knee,1.0,1
+sycosis,piercing pains on humerus,1.0,1
+sycosis,piercing as from knives between scapulae,1.0,1
+sycosis,pain in left hip as after lying in a bad position,1.0,1
+sycosis,pain in right hip joint,1.0,1
+sycosis,piercing pains in left axilla,1.0,1
+sycosis,piercing pains fingers and under nails,1.0,1
+sycosis,awakens him at night,1.0,1
+sycosis,stitches in nape of neck,1.0,1
+sycosis,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+sycosis,complaints from living in damp places,1.0,1
+sycosis,cannot lie on either side,1.0,1
+sycosis,pain in sacrum,1.0,1
+sycosis,piercing pains back of hand,1.0,1
+sycosis,impossible to continue walking,1.0,1
+sycosis,pressure in left side of back near lumbar region,1.0,1
+sycosis,making it very difficult to ascend or sit down or get up,1.0,1
+sycosis,bruised pain in small of back and sacrum,1.0,1
+sycosis,piercing pains palm of right hand,1.0,1
+sycosis,irritable liver with stitches in liver,1.0,1
+sycosis,sudden stitch in left hip,1.0,1
+sycosis,no relief in any position,1.0,1
+sycosis,flexors of hands painful when grasping anything,1.0,1
+sycosis,gastric complaints with much acidity,1.0,1
+sycosis,gout in feet in acute or chronic conditions,1.0,1
+sycosis,fingers swollen and stiff,1.0,1
+sycosis,soreness up and down spine and neck,1.0,1
+sycosis,marked dyspnoea during damp cloudy weather,1.0,1
+sycosis,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+sycosis,piercing pain only during rest,1.0,1
+sycosis,pain in hip extending to knee,1.0,1
+sycosis,pains in limbs compelling him to change position frequently,1.0,1
+sycosis,constant shifting of position,1.0,1
+piercing pain only during rest,rheumatic arthritis of joints of fingers,1.0,1
+piercing pain only during rest,flatulency with much rolling,1.0,1
+piercing pain only during rest,piercing pain in left hip and small of back,1.0,1
+piercing pain only during rest,compelling him to move constantly,1.0,1
+piercing pain only during rest,cracking of joints in arthritis,1.0,1
+piercing pain only during rest,causing excruciating pain,1.0,1
+piercing pain only during rest,nephritis,1.0,1
+piercing pain only during rest,pains suddenly go to heart,1.0,1
+piercing pain only during rest,pain in hip causing him to move frequently,1.0,1
+piercing pain only during rest,uric acid deposits in finger joints,1.0,1
+piercing pain only during rest,complaints from eating food grown in damp places,1.0,1
+piercing pain only during rest,sciatica when getting up or sitting down or turning in bed,1.0,1
+piercing pain only during rest,stiffness of knee,1.0,1
+piercing pain only during rest,piercing pains on humerus,1.0,1
+piercing pain only during rest,piercing as from knives between scapulae,1.0,1
+piercing pain only during rest,pain in left hip as after lying in a bad position,1.0,1
+piercing pain only during rest,pain in right hip joint,1.0,1
+piercing pain only during rest,piercing pains in left axilla,1.0,1
+piercing pain only during rest,piercing pains fingers and under nails,1.0,1
+piercing pain only during rest,awakens him at night,1.0,1
+piercing pain only during rest,stitches in nape of neck,1.0,1
+piercing pain only during rest,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+piercing pain only during rest,complaints from living in damp places,1.0,1
+piercing pain only during rest,cannot lie on either side,1.0,1
+piercing pain only during rest,sycosis,1.0,1
+piercing pain only during rest,pain in sacrum,1.0,1
+piercing pain only during rest,piercing pains back of hand,1.0,1
+piercing pain only during rest,impossible to continue walking,1.0,1
+piercing pain only during rest,pressure in left side of back near lumbar region,1.0,1
+piercing pain only during rest,making it very difficult to ascend or sit down or get up,1.0,1
+piercing pain only during rest,bruised pain in small of back and sacrum,1.0,1
+piercing pain only during rest,piercing pains palm of right hand,1.0,1
+piercing pain only during rest,irritable liver with stitches in liver,1.0,1
+piercing pain only during rest,sudden stitch in left hip,1.0,1
+piercing pain only during rest,no relief in any position,1.0,1
+piercing pain only during rest,flexors of hands painful when grasping anything,1.0,1
+piercing pain only during rest,gastric complaints with much acidity,1.0,1
+piercing pain only during rest,gout in feet in acute or chronic conditions,1.0,1
+piercing pain only during rest,fingers swollen and stiff,1.0,1
+piercing pain only during rest,soreness up and down spine and neck,1.0,1
+piercing pain only during rest,marked dyspnoea during damp cloudy weather,1.0,1
+piercing pain only during rest,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+piercing pain only during rest,pain in hip extending to knee,1.0,1
+piercing pain only during rest,pains in limbs compelling him to change position frequently,1.0,1
+piercing pain only during rest,constant shifting of position,1.0,1
+piercing as from knives between scapulae,rheumatic arthritis of joints of fingers,1.0,1
+piercing as from knives between scapulae,flatulency with much rolling,1.0,1
+piercing as from knives between scapulae,piercing pain in left hip and small of back,1.0,1
+piercing as from knives between scapulae,compelling him to move constantly,1.0,1
+piercing as from knives between scapulae,cracking of joints in arthritis,1.0,1
+piercing as from knives between scapulae,causing excruciating pain,1.0,1
+piercing as from knives between scapulae,nephritis,1.0,1
+piercing as from knives between scapulae,pains suddenly go to heart,1.0,1
+piercing as from knives between scapulae,pain in hip causing him to move frequently,1.0,1
+piercing as from knives between scapulae,uric acid deposits in finger joints,1.0,1
+piercing as from knives between scapulae,complaints from eating food grown in damp places,1.0,1
+piercing as from knives between scapulae,sciatica when getting up or sitting down or turning in bed,1.0,1
+piercing as from knives between scapulae,stiffness of knee,1.0,1
+piercing as from knives between scapulae,piercing pains on humerus,1.0,1
+piercing as from knives between scapulae,pain in left hip as after lying in a bad position,1.0,1
+piercing as from knives between scapulae,pain in right hip joint,1.0,1
+piercing as from knives between scapulae,piercing pains in left axilla,1.0,1
+piercing as from knives between scapulae,piercing pains fingers and under nails,1.0,1
+piercing as from knives between scapulae,awakens him at night,1.0,1
+piercing as from knives between scapulae,stitches in nape of neck,1.0,1
+piercing as from knives between scapulae,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+piercing as from knives between scapulae,complaints from living in damp places,1.0,1
+piercing as from knives between scapulae,cannot lie on either side,1.0,1
+piercing as from knives between scapulae,sycosis,1.0,1
+piercing as from knives between scapulae,pain in sacrum,1.0,1
+piercing as from knives between scapulae,piercing pains back of hand,1.0,1
+piercing as from knives between scapulae,impossible to continue walking,1.0,1
+piercing as from knives between scapulae,pressure in left side of back near lumbar region,1.0,1
+piercing as from knives between scapulae,making it very difficult to ascend or sit down or get up,1.0,1
+piercing as from knives between scapulae,bruised pain in small of back and sacrum,1.0,1
+piercing as from knives between scapulae,piercing pains palm of right hand,1.0,1
+piercing as from knives between scapulae,irritable liver with stitches in liver,1.0,1
+piercing as from knives between scapulae,sudden stitch in left hip,1.0,1
+piercing as from knives between scapulae,no relief in any position,1.0,1
+piercing as from knives between scapulae,flexors of hands painful when grasping anything,1.0,1
+piercing as from knives between scapulae,gastric complaints with much acidity,1.0,1
+piercing as from knives between scapulae,gout in feet in acute or chronic conditions,1.0,1
+piercing as from knives between scapulae,fingers swollen and stiff,1.0,1
+piercing as from knives between scapulae,soreness up and down spine and neck,1.0,1
+piercing as from knives between scapulae,marked dyspnoea during damp cloudy weather,1.0,1
+piercing as from knives between scapulae,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+piercing as from knives between scapulae,piercing pain only during rest,1.0,1
+piercing as from knives between scapulae,pain in hip extending to knee,1.0,1
+piercing as from knives between scapulae,pains in limbs compelling him to change position frequently,1.0,1
+piercing as from knives between scapulae,constant shifting of position,1.0,1
+cannot lie on either side,rheumatic arthritis of joints of fingers,1.0,1
+cannot lie on either side,flatulency with much rolling,1.0,1
+cannot lie on either side,piercing pain in left hip and small of back,1.0,1
+cannot lie on either side,compelling him to move constantly,1.0,1
+cannot lie on either side,cracking of joints in arthritis,1.0,1
+cannot lie on either side,causing excruciating pain,1.0,1
+cannot lie on either side,nephritis,1.0,1
+cannot lie on either side,pains suddenly go to heart,1.0,1
+cannot lie on either side,pain in hip causing him to move frequently,1.0,1
+cannot lie on either side,uric acid deposits in finger joints,1.0,1
+cannot lie on either side,complaints from eating food grown in damp places,1.0,1
+cannot lie on either side,sciatica when getting up or sitting down or turning in bed,1.0,1
+cannot lie on either side,stiffness of knee,1.0,1
+cannot lie on either side,piercing pains on humerus,1.0,1
+cannot lie on either side,piercing as from knives between scapulae,1.0,1
+cannot lie on either side,pain in left hip as after lying in a bad position,1.0,1
+cannot lie on either side,pain in right hip joint,1.0,1
+cannot lie on either side,piercing pains in left axilla,1.0,1
+cannot lie on either side,piercing pains fingers and under nails,1.0,1
+cannot lie on either side,awakens him at night,1.0,1
+cannot lie on either side,stitches in nape of neck,1.0,1
+cannot lie on either side,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+cannot lie on either side,complaints from living in damp places,1.0,1
+cannot lie on either side,sycosis,1.0,1
+cannot lie on either side,pain in sacrum,1.0,1
+cannot lie on either side,piercing pains back of hand,1.0,1
+cannot lie on either side,impossible to continue walking,1.0,1
+cannot lie on either side,pressure in left side of back near lumbar region,1.0,1
+cannot lie on either side,making it very difficult to ascend or sit down or get up,1.0,1
+cannot lie on either side,bruised pain in small of back and sacrum,1.0,1
+cannot lie on either side,piercing pains palm of right hand,1.0,1
+cannot lie on either side,irritable liver with stitches in liver,1.0,1
+cannot lie on either side,sudden stitch in left hip,1.0,1
+cannot lie on either side,no relief in any position,1.0,1
+cannot lie on either side,flexors of hands painful when grasping anything,1.0,1
+cannot lie on either side,gastric complaints with much acidity,1.0,1
+cannot lie on either side,gout in feet in acute or chronic conditions,1.0,1
+cannot lie on either side,fingers swollen and stiff,1.0,1
+cannot lie on either side,soreness up and down spine and neck,1.0,1
+cannot lie on either side,marked dyspnoea during damp cloudy weather,1.0,1
+cannot lie on either side,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+cannot lie on either side,piercing pain only during rest,1.0,1
+cannot lie on either side,pain in hip extending to knee,1.0,1
+cannot lie on either side,pains in limbs compelling him to change position frequently,1.0,1
+cannot lie on either side,constant shifting of position,1.0,1
+pain in left hip as after lying in a bad position,rheumatic arthritis of joints of fingers,1.0,1
+pain in left hip as after lying in a bad position,flatulency with much rolling,1.0,1
+pain in left hip as after lying in a bad position,piercing pain in left hip and small of back,1.0,1
+pain in left hip as after lying in a bad position,compelling him to move constantly,1.0,1
+pain in left hip as after lying in a bad position,cracking of joints in arthritis,1.0,1
+pain in left hip as after lying in a bad position,causing excruciating pain,1.0,1
+pain in left hip as after lying in a bad position,nephritis,1.0,1
+pain in left hip as after lying in a bad position,pains suddenly go to heart,1.0,1
+pain in left hip as after lying in a bad position,pain in hip causing him to move frequently,1.0,1
+pain in left hip as after lying in a bad position,uric acid deposits in finger joints,1.0,1
+pain in left hip as after lying in a bad position,complaints from eating food grown in damp places,1.0,1
+pain in left hip as after lying in a bad position,sciatica when getting up or sitting down or turning in bed,1.0,1
+pain in left hip as after lying in a bad position,stiffness of knee,1.0,1
+pain in left hip as after lying in a bad position,piercing pains on humerus,1.0,1
+pain in left hip as after lying in a bad position,piercing as from knives between scapulae,1.0,1
+pain in left hip as after lying in a bad position,pain in right hip joint,1.0,1
+pain in left hip as after lying in a bad position,piercing pains in left axilla,1.0,1
+pain in left hip as after lying in a bad position,piercing pains fingers and under nails,1.0,1
+pain in left hip as after lying in a bad position,awakens him at night,1.0,1
+pain in left hip as after lying in a bad position,stitches in nape of neck,1.0,1
+pain in left hip as after lying in a bad position,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+pain in left hip as after lying in a bad position,complaints from living in damp places,1.0,1
+pain in left hip as after lying in a bad position,cannot lie on either side,1.0,1
+pain in left hip as after lying in a bad position,sycosis,1.0,1
+pain in left hip as after lying in a bad position,pain in sacrum,1.0,1
+pain in left hip as after lying in a bad position,piercing pains back of hand,1.0,1
+pain in left hip as after lying in a bad position,impossible to continue walking,1.0,1
+pain in left hip as after lying in a bad position,pressure in left side of back near lumbar region,1.0,1
+pain in left hip as after lying in a bad position,making it very difficult to ascend or sit down or get up,1.0,1
+pain in left hip as after lying in a bad position,bruised pain in small of back and sacrum,1.0,1
+pain in left hip as after lying in a bad position,piercing pains palm of right hand,1.0,1
+pain in left hip as after lying in a bad position,irritable liver with stitches in liver,1.0,1
+pain in left hip as after lying in a bad position,sudden stitch in left hip,1.0,1
+pain in left hip as after lying in a bad position,no relief in any position,1.0,1
+pain in left hip as after lying in a bad position,flexors of hands painful when grasping anything,1.0,1
+pain in left hip as after lying in a bad position,gastric complaints with much acidity,1.0,1
+pain in left hip as after lying in a bad position,gout in feet in acute or chronic conditions,1.0,1
+pain in left hip as after lying in a bad position,fingers swollen and stiff,1.0,1
+pain in left hip as after lying in a bad position,soreness up and down spine and neck,1.0,1
+pain in left hip as after lying in a bad position,marked dyspnoea during damp cloudy weather,1.0,1
+pain in left hip as after lying in a bad position,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+pain in left hip as after lying in a bad position,piercing pain only during rest,1.0,1
+pain in left hip as after lying in a bad position,pain in hip extending to knee,1.0,1
+pain in left hip as after lying in a bad position,pains in limbs compelling him to change position frequently,1.0,1
+pain in left hip as after lying in a bad position,constant shifting of position,1.0,1
+bruised pain in small of back and sacrum,rheumatic arthritis of joints of fingers,1.0,1
+bruised pain in small of back and sacrum,flatulency with much rolling,1.0,1
+bruised pain in small of back and sacrum,piercing pain in left hip and small of back,1.0,1
+bruised pain in small of back and sacrum,compelling him to move constantly,1.0,1
+bruised pain in small of back and sacrum,cracking of joints in arthritis,1.0,1
+bruised pain in small of back and sacrum,causing excruciating pain,1.0,1
+bruised pain in small of back and sacrum,nephritis,1.0,1
+bruised pain in small of back and sacrum,pains suddenly go to heart,1.0,1
+bruised pain in small of back and sacrum,pain in hip causing him to move frequently,1.0,1
+bruised pain in small of back and sacrum,uric acid deposits in finger joints,1.0,1
+bruised pain in small of back and sacrum,complaints from eating food grown in damp places,1.0,1
+bruised pain in small of back and sacrum,sciatica when getting up or sitting down or turning in bed,1.0,1
+bruised pain in small of back and sacrum,stiffness of knee,1.0,1
+bruised pain in small of back and sacrum,piercing pains on humerus,1.0,1
+bruised pain in small of back and sacrum,piercing as from knives between scapulae,1.0,1
+bruised pain in small of back and sacrum,pain in left hip as after lying in a bad position,1.0,1
+bruised pain in small of back and sacrum,pain in right hip joint,1.0,1
+bruised pain in small of back and sacrum,piercing pains in left axilla,1.0,1
+bruised pain in small of back and sacrum,piercing pains fingers and under nails,1.0,1
+bruised pain in small of back and sacrum,awakens him at night,1.0,1
+bruised pain in small of back and sacrum,stitches in nape of neck,1.0,1
+bruised pain in small of back and sacrum,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+bruised pain in small of back and sacrum,complaints from living in damp places,1.0,1
+bruised pain in small of back and sacrum,cannot lie on either side,1.0,1
+bruised pain in small of back and sacrum,sycosis,1.0,1
+bruised pain in small of back and sacrum,pain in sacrum,1.0,1
+bruised pain in small of back and sacrum,piercing pains back of hand,1.0,1
+bruised pain in small of back and sacrum,impossible to continue walking,1.0,1
+bruised pain in small of back and sacrum,pressure in left side of back near lumbar region,1.0,1
+bruised pain in small of back and sacrum,making it very difficult to ascend or sit down or get up,1.0,1
+bruised pain in small of back and sacrum,piercing pains palm of right hand,1.0,1
+bruised pain in small of back and sacrum,irritable liver with stitches in liver,1.0,1
+bruised pain in small of back and sacrum,sudden stitch in left hip,1.0,1
+bruised pain in small of back and sacrum,no relief in any position,1.0,1
+bruised pain in small of back and sacrum,flexors of hands painful when grasping anything,1.0,1
+bruised pain in small of back and sacrum,gastric complaints with much acidity,1.0,1
+bruised pain in small of back and sacrum,gout in feet in acute or chronic conditions,1.0,1
+bruised pain in small of back and sacrum,fingers swollen and stiff,1.0,1
+bruised pain in small of back and sacrum,soreness up and down spine and neck,1.0,1
+bruised pain in small of back and sacrum,marked dyspnoea during damp cloudy weather,1.0,1
+bruised pain in small of back and sacrum,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+bruised pain in small of back and sacrum,piercing pain only during rest,1.0,1
+bruised pain in small of back and sacrum,pain in hip extending to knee,1.0,1
+bruised pain in small of back and sacrum,pains in limbs compelling him to change position frequently,1.0,1
+bruised pain in small of back and sacrum,constant shifting of position,1.0,1
+fingers swollen and stiff,rheumatic arthritis of joints of fingers,1.0,1
+fingers swollen and stiff,flatulency with much rolling,1.0,1
+fingers swollen and stiff,piercing pain in left hip and small of back,1.0,1
+fingers swollen and stiff,compelling him to move constantly,1.0,1
+fingers swollen and stiff,cracking of joints in arthritis,1.0,1
+fingers swollen and stiff,causing excruciating pain,1.0,1
+fingers swollen and stiff,nephritis,1.0,1
+fingers swollen and stiff,pains suddenly go to heart,1.0,1
+fingers swollen and stiff,pain in hip causing him to move frequently,1.0,1
+fingers swollen and stiff,uric acid deposits in finger joints,1.0,1
+fingers swollen and stiff,complaints from eating food grown in damp places,1.0,1
+fingers swollen and stiff,sciatica when getting up or sitting down or turning in bed,1.0,1
+fingers swollen and stiff,stiffness of knee,1.0,1
+fingers swollen and stiff,piercing pains on humerus,1.0,1
+fingers swollen and stiff,piercing as from knives between scapulae,1.0,1
+fingers swollen and stiff,pain in left hip as after lying in a bad position,1.0,1
+fingers swollen and stiff,pain in right hip joint,1.0,1
+fingers swollen and stiff,piercing pains in left axilla,1.0,1
+fingers swollen and stiff,piercing pains fingers and under nails,1.0,1
+fingers swollen and stiff,awakens him at night,1.0,1
+fingers swollen and stiff,stitches in nape of neck,1.0,1
+fingers swollen and stiff,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+fingers swollen and stiff,complaints from living in damp places,1.0,1
+fingers swollen and stiff,cannot lie on either side,1.0,1
+fingers swollen and stiff,sycosis,1.0,1
+fingers swollen and stiff,pain in sacrum,1.0,1
+fingers swollen and stiff,piercing pains back of hand,1.0,1
+fingers swollen and stiff,impossible to continue walking,1.0,1
+fingers swollen and stiff,pressure in left side of back near lumbar region,1.0,1
+fingers swollen and stiff,making it very difficult to ascend or sit down or get up,1.0,1
+fingers swollen and stiff,bruised pain in small of back and sacrum,1.0,1
+fingers swollen and stiff,piercing pains palm of right hand,1.0,1
+fingers swollen and stiff,irritable liver with stitches in liver,1.0,1
+fingers swollen and stiff,sudden stitch in left hip,1.0,1
+fingers swollen and stiff,no relief in any position,1.0,1
+fingers swollen and stiff,flexors of hands painful when grasping anything,1.0,1
+fingers swollen and stiff,gastric complaints with much acidity,1.0,1
+fingers swollen and stiff,gout in feet in acute or chronic conditions,1.0,1
+fingers swollen and stiff,soreness up and down spine and neck,1.0,1
+fingers swollen and stiff,marked dyspnoea during damp cloudy weather,1.0,1
+fingers swollen and stiff,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+fingers swollen and stiff,piercing pain only during rest,1.0,1
+fingers swollen and stiff,pain in hip extending to knee,1.0,1
+fingers swollen and stiff,pains in limbs compelling him to change position frequently,1.0,1
+fingers swollen and stiff,constant shifting of position,1.0,1
+gout in feet in acute or chronic conditions,rheumatic arthritis of joints of fingers,1.0,1
+gout in feet in acute or chronic conditions,flatulency with much rolling,1.0,1
+gout in feet in acute or chronic conditions,piercing pain in left hip and small of back,1.0,1
+gout in feet in acute or chronic conditions,compelling him to move constantly,1.0,1
+gout in feet in acute or chronic conditions,cracking of joints in arthritis,1.0,1
+gout in feet in acute or chronic conditions,causing excruciating pain,1.0,1
+gout in feet in acute or chronic conditions,nephritis,1.0,1
+gout in feet in acute or chronic conditions,pains suddenly go to heart,1.0,1
+gout in feet in acute or chronic conditions,pain in hip causing him to move frequently,1.0,1
+gout in feet in acute or chronic conditions,uric acid deposits in finger joints,1.0,1
+gout in feet in acute or chronic conditions,complaints from eating food grown in damp places,1.0,1
+gout in feet in acute or chronic conditions,sciatica when getting up or sitting down or turning in bed,1.0,1
+gout in feet in acute or chronic conditions,stiffness of knee,1.0,1
+gout in feet in acute or chronic conditions,piercing pains on humerus,1.0,1
+gout in feet in acute or chronic conditions,piercing as from knives between scapulae,1.0,1
+gout in feet in acute or chronic conditions,pain in left hip as after lying in a bad position,1.0,1
+gout in feet in acute or chronic conditions,pain in right hip joint,1.0,1
+gout in feet in acute or chronic conditions,piercing pains in left axilla,1.0,1
+gout in feet in acute or chronic conditions,piercing pains fingers and under nails,1.0,1
+gout in feet in acute or chronic conditions,awakens him at night,1.0,1
+gout in feet in acute or chronic conditions,stitches in nape of neck,1.0,1
+gout in feet in acute or chronic conditions,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+gout in feet in acute or chronic conditions,complaints from living in damp places,1.0,1
+gout in feet in acute or chronic conditions,cannot lie on either side,1.0,1
+gout in feet in acute or chronic conditions,sycosis,1.0,1
+gout in feet in acute or chronic conditions,pain in sacrum,1.0,1
+gout in feet in acute or chronic conditions,piercing pains back of hand,1.0,1
+gout in feet in acute or chronic conditions,impossible to continue walking,1.0,1
+gout in feet in acute or chronic conditions,pressure in left side of back near lumbar region,1.0,1
+gout in feet in acute or chronic conditions,making it very difficult to ascend or sit down or get up,1.0,1
+gout in feet in acute or chronic conditions,bruised pain in small of back and sacrum,1.0,1
+gout in feet in acute or chronic conditions,piercing pains palm of right hand,1.0,1
+gout in feet in acute or chronic conditions,irritable liver with stitches in liver,1.0,1
+gout in feet in acute or chronic conditions,sudden stitch in left hip,1.0,1
+gout in feet in acute or chronic conditions,no relief in any position,1.0,1
+gout in feet in acute or chronic conditions,flexors of hands painful when grasping anything,1.0,1
+gout in feet in acute or chronic conditions,gastric complaints with much acidity,1.0,1
+gout in feet in acute or chronic conditions,fingers swollen and stiff,1.0,1
+gout in feet in acute or chronic conditions,soreness up and down spine and neck,1.0,1
+gout in feet in acute or chronic conditions,marked dyspnoea during damp cloudy weather,1.0,1
+gout in feet in acute or chronic conditions,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+gout in feet in acute or chronic conditions,piercing pain only during rest,1.0,1
+gout in feet in acute or chronic conditions,pain in hip extending to knee,1.0,1
+gout in feet in acute or chronic conditions,pains in limbs compelling him to change position frequently,1.0,1
+gout in feet in acute or chronic conditions,constant shifting of position,1.0,1
+piercing pains palm of right hand,rheumatic arthritis of joints of fingers,1.0,1
+piercing pains palm of right hand,flatulency with much rolling,1.0,1
+piercing pains palm of right hand,piercing pain in left hip and small of back,1.0,1
+piercing pains palm of right hand,compelling him to move constantly,1.0,1
+piercing pains palm of right hand,cracking of joints in arthritis,1.0,1
+piercing pains palm of right hand,causing excruciating pain,1.0,1
+piercing pains palm of right hand,nephritis,1.0,1
+piercing pains palm of right hand,pains suddenly go to heart,1.0,1
+piercing pains palm of right hand,pain in hip causing him to move frequently,1.0,1
+piercing pains palm of right hand,uric acid deposits in finger joints,1.0,1
+piercing pains palm of right hand,complaints from eating food grown in damp places,1.0,1
+piercing pains palm of right hand,sciatica when getting up or sitting down or turning in bed,1.0,1
+piercing pains palm of right hand,stiffness of knee,1.0,1
+piercing pains palm of right hand,piercing pains on humerus,1.0,1
+piercing pains palm of right hand,piercing as from knives between scapulae,1.0,1
+piercing pains palm of right hand,pain in left hip as after lying in a bad position,1.0,1
+piercing pains palm of right hand,pain in right hip joint,1.0,1
+piercing pains palm of right hand,piercing pains in left axilla,1.0,1
+piercing pains palm of right hand,piercing pains fingers and under nails,1.0,1
+piercing pains palm of right hand,awakens him at night,1.0,1
+piercing pains palm of right hand,stitches in nape of neck,1.0,1
+piercing pains palm of right hand,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+piercing pains palm of right hand,complaints from living in damp places,1.0,1
+piercing pains palm of right hand,cannot lie on either side,1.0,1
+piercing pains palm of right hand,sycosis,1.0,1
+piercing pains palm of right hand,pain in sacrum,1.0,1
+piercing pains palm of right hand,piercing pains back of hand,1.0,1
+piercing pains palm of right hand,impossible to continue walking,1.0,1
+piercing pains palm of right hand,pressure in left side of back near lumbar region,1.0,1
+piercing pains palm of right hand,making it very difficult to ascend or sit down or get up,1.0,1
+piercing pains palm of right hand,bruised pain in small of back and sacrum,1.0,1
+piercing pains palm of right hand,irritable liver with stitches in liver,1.0,1
+piercing pains palm of right hand,sudden stitch in left hip,1.0,1
+piercing pains palm of right hand,no relief in any position,1.0,1
+piercing pains palm of right hand,flexors of hands painful when grasping anything,1.0,1
+piercing pains palm of right hand,gastric complaints with much acidity,1.0,1
+piercing pains palm of right hand,gout in feet in acute or chronic conditions,1.0,1
+piercing pains palm of right hand,fingers swollen and stiff,1.0,1
+piercing pains palm of right hand,soreness up and down spine and neck,1.0,1
+piercing pains palm of right hand,marked dyspnoea during damp cloudy weather,1.0,1
+piercing pains palm of right hand,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+piercing pains palm of right hand,piercing pain only during rest,1.0,1
+piercing pains palm of right hand,pain in hip extending to knee,1.0,1
+piercing pains palm of right hand,pains in limbs compelling him to change position frequently,1.0,1
+piercing pains palm of right hand,constant shifting of position,1.0,1
+sciatica when getting up or sitting down or turning in bed,rheumatic arthritis of joints of fingers,1.0,1
+sciatica when getting up or sitting down or turning in bed,flatulency with much rolling,1.0,1
+sciatica when getting up or sitting down or turning in bed,piercing pain in left hip and small of back,1.0,1
+sciatica when getting up or sitting down or turning in bed,compelling him to move constantly,1.0,1
+sciatica when getting up or sitting down or turning in bed,cracking of joints in arthritis,1.0,1
+sciatica when getting up or sitting down or turning in bed,causing excruciating pain,1.0,1
+sciatica when getting up or sitting down or turning in bed,nephritis,1.0,1
+sciatica when getting up or sitting down or turning in bed,pains suddenly go to heart,1.0,1
+sciatica when getting up or sitting down or turning in bed,pain in hip causing him to move frequently,1.0,1
+sciatica when getting up or sitting down or turning in bed,uric acid deposits in finger joints,1.0,1
+sciatica when getting up or sitting down or turning in bed,complaints from eating food grown in damp places,1.0,1
+sciatica when getting up or sitting down or turning in bed,stiffness of knee,1.0,1
+sciatica when getting up or sitting down or turning in bed,piercing pains on humerus,1.0,1
+sciatica when getting up or sitting down or turning in bed,piercing as from knives between scapulae,1.0,1
+sciatica when getting up or sitting down or turning in bed,pain in left hip as after lying in a bad position,1.0,1
+sciatica when getting up or sitting down or turning in bed,pain in right hip joint,1.0,1
+sciatica when getting up or sitting down or turning in bed,piercing pains in left axilla,1.0,1
+sciatica when getting up or sitting down or turning in bed,piercing pains fingers and under nails,1.0,1
+sciatica when getting up or sitting down or turning in bed,awakens him at night,1.0,1
+sciatica when getting up or sitting down or turning in bed,stitches in nape of neck,1.0,1
+sciatica when getting up or sitting down or turning in bed,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+sciatica when getting up or sitting down or turning in bed,complaints from living in damp places,1.0,1
+sciatica when getting up or sitting down or turning in bed,cannot lie on either side,1.0,1
+sciatica when getting up or sitting down or turning in bed,sycosis,1.0,1
+sciatica when getting up or sitting down or turning in bed,pain in sacrum,1.0,1
+sciatica when getting up or sitting down or turning in bed,piercing pains back of hand,1.0,1
+sciatica when getting up or sitting down or turning in bed,impossible to continue walking,1.0,1
+sciatica when getting up or sitting down or turning in bed,pressure in left side of back near lumbar region,1.0,1
+sciatica when getting up or sitting down or turning in bed,making it very difficult to ascend or sit down or get up,1.0,1
+sciatica when getting up or sitting down or turning in bed,bruised pain in small of back and sacrum,1.0,1
+sciatica when getting up or sitting down or turning in bed,piercing pains palm of right hand,1.0,1
+sciatica when getting up or sitting down or turning in bed,irritable liver with stitches in liver,1.0,1
+sciatica when getting up or sitting down or turning in bed,sudden stitch in left hip,1.0,1
+sciatica when getting up or sitting down or turning in bed,no relief in any position,1.0,1
+sciatica when getting up or sitting down or turning in bed,flexors of hands painful when grasping anything,1.0,1
+sciatica when getting up or sitting down or turning in bed,gastric complaints with much acidity,1.0,1
+sciatica when getting up or sitting down or turning in bed,gout in feet in acute or chronic conditions,1.0,1
+sciatica when getting up or sitting down or turning in bed,fingers swollen and stiff,1.0,1
+sciatica when getting up or sitting down or turning in bed,soreness up and down spine and neck,1.0,1
+sciatica when getting up or sitting down or turning in bed,marked dyspnoea during damp cloudy weather,1.0,1
+sciatica when getting up or sitting down or turning in bed,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+sciatica when getting up or sitting down or turning in bed,piercing pain only during rest,1.0,1
+sciatica when getting up or sitting down or turning in bed,pain in hip extending to knee,1.0,1
+sciatica when getting up or sitting down or turning in bed,pains in limbs compelling him to change position frequently,1.0,1
+sciatica when getting up or sitting down or turning in bed,constant shifting of position,1.0,1
+constant shifting of position,rheumatic arthritis of joints of fingers,1.0,1
+constant shifting of position,flatulency with much rolling,1.0,1
+constant shifting of position,piercing pain in left hip and small of back,1.0,1
+constant shifting of position,compelling him to move constantly,1.0,1
+constant shifting of position,cracking of joints in arthritis,1.0,1
+constant shifting of position,causing excruciating pain,1.0,1
+constant shifting of position,nephritis,1.0,1
+constant shifting of position,pains suddenly go to heart,1.0,1
+constant shifting of position,pain in hip causing him to move frequently,1.0,1
+constant shifting of position,uric acid deposits in finger joints,1.0,1
+constant shifting of position,complaints from eating food grown in damp places,1.0,1
+constant shifting of position,sciatica when getting up or sitting down or turning in bed,1.0,1
+constant shifting of position,stiffness of knee,1.0,1
+constant shifting of position,piercing pains on humerus,1.0,1
+constant shifting of position,piercing as from knives between scapulae,1.0,1
+constant shifting of position,pain in left hip as after lying in a bad position,1.0,1
+constant shifting of position,pain in right hip joint,1.0,1
+constant shifting of position,piercing pains in left axilla,1.0,1
+constant shifting of position,piercing pains fingers and under nails,1.0,1
+constant shifting of position,awakens him at night,1.0,1
+constant shifting of position,stitches in nape of neck,1.0,1
+constant shifting of position,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+constant shifting of position,complaints from living in damp places,1.0,1
+constant shifting of position,cannot lie on either side,1.0,1
+constant shifting of position,sycosis,1.0,1
+constant shifting of position,pain in sacrum,1.0,1
+constant shifting of position,piercing pains back of hand,1.0,1
+constant shifting of position,impossible to continue walking,1.0,1
+constant shifting of position,pressure in left side of back near lumbar region,1.0,1
+constant shifting of position,making it very difficult to ascend or sit down or get up,1.0,1
+constant shifting of position,bruised pain in small of back and sacrum,1.0,1
+constant shifting of position,piercing pains palm of right hand,1.0,1
+constant shifting of position,irritable liver with stitches in liver,1.0,1
+constant shifting of position,sudden stitch in left hip,1.0,1
+constant shifting of position,no relief in any position,1.0,1
+constant shifting of position,flexors of hands painful when grasping anything,1.0,1
+constant shifting of position,gastric complaints with much acidity,1.0,1
+constant shifting of position,gout in feet in acute or chronic conditions,1.0,1
+constant shifting of position,fingers swollen and stiff,1.0,1
+constant shifting of position,soreness up and down spine and neck,1.0,1
+constant shifting of position,marked dyspnoea during damp cloudy weather,1.0,1
+constant shifting of position,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+constant shifting of position,piercing pain only during rest,1.0,1
+constant shifting of position,pain in hip extending to knee,1.0,1
+constant shifting of position,pains in limbs compelling him to change position frequently,1.0,1
+complaints from living in damp places,rheumatic arthritis of joints of fingers,1.0,1
+complaints from living in damp places,flatulency with much rolling,1.0,1
+complaints from living in damp places,piercing pain in left hip and small of back,1.0,1
+complaints from living in damp places,compelling him to move constantly,1.0,1
+complaints from living in damp places,cracking of joints in arthritis,1.0,1
+complaints from living in damp places,causing excruciating pain,1.0,1
+complaints from living in damp places,nephritis,1.0,1
+complaints from living in damp places,pains suddenly go to heart,1.0,1
+complaints from living in damp places,pain in hip causing him to move frequently,1.0,1
+complaints from living in damp places,uric acid deposits in finger joints,1.0,1
+complaints from living in damp places,complaints from eating food grown in damp places,1.0,1
+complaints from living in damp places,sciatica when getting up or sitting down or turning in bed,1.0,1
+complaints from living in damp places,stiffness of knee,1.0,1
+complaints from living in damp places,piercing pains on humerus,1.0,1
+complaints from living in damp places,piercing as from knives between scapulae,1.0,1
+complaints from living in damp places,pain in left hip as after lying in a bad position,1.0,1
+complaints from living in damp places,pain in right hip joint,1.0,1
+complaints from living in damp places,piercing pains in left axilla,1.0,1
+complaints from living in damp places,piercing pains fingers and under nails,1.0,1
+complaints from living in damp places,awakens him at night,1.0,1
+complaints from living in damp places,stitches in nape of neck,1.0,1
+complaints from living in damp places,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+complaints from living in damp places,cannot lie on either side,1.0,1
+complaints from living in damp places,sycosis,1.0,1
+complaints from living in damp places,pain in sacrum,1.0,1
+complaints from living in damp places,piercing pains back of hand,1.0,1
+complaints from living in damp places,impossible to continue walking,1.0,1
+complaints from living in damp places,pressure in left side of back near lumbar region,1.0,1
+complaints from living in damp places,making it very difficult to ascend or sit down or get up,1.0,1
+complaints from living in damp places,bruised pain in small of back and sacrum,1.0,1
+complaints from living in damp places,piercing pains palm of right hand,1.0,1
+complaints from living in damp places,irritable liver with stitches in liver,1.0,1
+complaints from living in damp places,sudden stitch in left hip,1.0,1
+complaints from living in damp places,no relief in any position,1.0,1
+complaints from living in damp places,flexors of hands painful when grasping anything,1.0,1
+complaints from living in damp places,gastric complaints with much acidity,1.0,1
+complaints from living in damp places,gout in feet in acute or chronic conditions,1.0,1
+complaints from living in damp places,fingers swollen and stiff,1.0,1
+complaints from living in damp places,soreness up and down spine and neck,1.0,1
+complaints from living in damp places,marked dyspnoea during damp cloudy weather,1.0,1
+complaints from living in damp places,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+complaints from living in damp places,piercing pain only during rest,1.0,1
+complaints from living in damp places,pain in hip extending to knee,1.0,1
+complaints from living in damp places,pains in limbs compelling him to change position frequently,1.0,1
+complaints from living in damp places,constant shifting of position,1.0,1
+pains suddenly go to heart,rheumatic arthritis of joints of fingers,1.0,1
+pains suddenly go to heart,flatulency with much rolling,1.0,1
+pains suddenly go to heart,piercing pain in left hip and small of back,1.0,1
+pains suddenly go to heart,compelling him to move constantly,1.0,1
+pains suddenly go to heart,cracking of joints in arthritis,1.0,1
+pains suddenly go to heart,causing excruciating pain,1.0,1
+pains suddenly go to heart,nephritis,1.0,1
+pains suddenly go to heart,pain in hip causing him to move frequently,1.0,1
+pains suddenly go to heart,uric acid deposits in finger joints,1.0,1
+pains suddenly go to heart,complaints from eating food grown in damp places,1.0,1
+pains suddenly go to heart,sciatica when getting up or sitting down or turning in bed,1.0,1
+pains suddenly go to heart,stiffness of knee,1.0,1
+pains suddenly go to heart,piercing pains on humerus,1.0,1
+pains suddenly go to heart,piercing as from knives between scapulae,1.0,1
+pains suddenly go to heart,pain in left hip as after lying in a bad position,1.0,1
+pains suddenly go to heart,pain in right hip joint,1.0,1
+pains suddenly go to heart,piercing pains in left axilla,1.0,1
+pains suddenly go to heart,piercing pains fingers and under nails,1.0,1
+pains suddenly go to heart,awakens him at night,1.0,1
+pains suddenly go to heart,stitches in nape of neck,1.0,1
+pains suddenly go to heart,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+pains suddenly go to heart,complaints from living in damp places,1.0,1
+pains suddenly go to heart,cannot lie on either side,1.0,1
+pains suddenly go to heart,sycosis,1.0,1
+pains suddenly go to heart,pain in sacrum,1.0,1
+pains suddenly go to heart,piercing pains back of hand,1.0,1
+pains suddenly go to heart,impossible to continue walking,1.0,1
+pains suddenly go to heart,pressure in left side of back near lumbar region,1.0,1
+pains suddenly go to heart,making it very difficult to ascend or sit down or get up,1.0,1
+pains suddenly go to heart,bruised pain in small of back and sacrum,1.0,1
+pains suddenly go to heart,piercing pains palm of right hand,1.0,1
+pains suddenly go to heart,irritable liver with stitches in liver,1.0,1
+pains suddenly go to heart,sudden stitch in left hip,1.0,1
+pains suddenly go to heart,no relief in any position,1.0,1
+pains suddenly go to heart,flexors of hands painful when grasping anything,1.0,1
+pains suddenly go to heart,gastric complaints with much acidity,1.0,1
+pains suddenly go to heart,gout in feet in acute or chronic conditions,1.0,1
+pains suddenly go to heart,fingers swollen and stiff,1.0,1
+pains suddenly go to heart,soreness up and down spine and neck,1.0,1
+pains suddenly go to heart,marked dyspnoea during damp cloudy weather,1.0,1
+pains suddenly go to heart,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+pains suddenly go to heart,piercing pain only during rest,1.0,1
+pains suddenly go to heart,pain in hip extending to knee,1.0,1
+pains suddenly go to heart,pains in limbs compelling him to change position frequently,1.0,1
+pains suddenly go to heart,constant shifting of position,1.0,1
+pain in hip extending to knee,rheumatic arthritis of joints of fingers,1.0,1
+pain in hip extending to knee,flatulency with much rolling,1.0,1
+pain in hip extending to knee,piercing pain in left hip and small of back,1.0,1
+pain in hip extending to knee,compelling him to move constantly,1.0,1
+pain in hip extending to knee,cracking of joints in arthritis,1.0,1
+pain in hip extending to knee,causing excruciating pain,1.0,1
+pain in hip extending to knee,nephritis,1.0,1
+pain in hip extending to knee,pains suddenly go to heart,1.0,1
+pain in hip extending to knee,pain in hip causing him to move frequently,1.0,1
+pain in hip extending to knee,uric acid deposits in finger joints,1.0,1
+pain in hip extending to knee,complaints from eating food grown in damp places,1.0,1
+pain in hip extending to knee,sciatica when getting up or sitting down or turning in bed,1.0,1
+pain in hip extending to knee,stiffness of knee,1.0,1
+pain in hip extending to knee,piercing pains on humerus,1.0,1
+pain in hip extending to knee,piercing as from knives between scapulae,1.0,1
+pain in hip extending to knee,pain in left hip as after lying in a bad position,1.0,1
+pain in hip extending to knee,pain in right hip joint,1.0,1
+pain in hip extending to knee,piercing pains in left axilla,1.0,1
+pain in hip extending to knee,piercing pains fingers and under nails,1.0,1
+pain in hip extending to knee,awakens him at night,1.0,1
+pain in hip extending to knee,stitches in nape of neck,1.0,1
+pain in hip extending to knee,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+pain in hip extending to knee,complaints from living in damp places,1.0,1
+pain in hip extending to knee,cannot lie on either side,1.0,1
+pain in hip extending to knee,sycosis,1.0,1
+pain in hip extending to knee,pain in sacrum,1.0,1
+pain in hip extending to knee,piercing pains back of hand,1.0,1
+pain in hip extending to knee,impossible to continue walking,1.0,1
+pain in hip extending to knee,pressure in left side of back near lumbar region,1.0,1
+pain in hip extending to knee,making it very difficult to ascend or sit down or get up,1.0,1
+pain in hip extending to knee,bruised pain in small of back and sacrum,1.0,1
+pain in hip extending to knee,piercing pains palm of right hand,1.0,1
+pain in hip extending to knee,irritable liver with stitches in liver,1.0,1
+pain in hip extending to knee,sudden stitch in left hip,1.0,1
+pain in hip extending to knee,no relief in any position,1.0,1
+pain in hip extending to knee,flexors of hands painful when grasping anything,1.0,1
+pain in hip extending to knee,gastric complaints with much acidity,1.0,1
+pain in hip extending to knee,gout in feet in acute or chronic conditions,1.0,1
+pain in hip extending to knee,fingers swollen and stiff,1.0,1
+pain in hip extending to knee,soreness up and down spine and neck,1.0,1
+pain in hip extending to knee,marked dyspnoea during damp cloudy weather,1.0,1
+pain in hip extending to knee,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+pain in hip extending to knee,piercing pain only during rest,1.0,1
+pain in hip extending to knee,pains in limbs compelling him to change position frequently,1.0,1
+pain in hip extending to knee,constant shifting of position,1.0,1
+flatulency with much rolling,rheumatic arthritis of joints of fingers,1.0,1
+flatulency with much rolling,piercing pain in left hip and small of back,1.0,1
+flatulency with much rolling,compelling him to move constantly,1.0,1
+flatulency with much rolling,cracking of joints in arthritis,1.0,1
+flatulency with much rolling,causing excruciating pain,1.0,1
+flatulency with much rolling,nephritis,1.0,1
+flatulency with much rolling,pains suddenly go to heart,1.0,1
+flatulency with much rolling,pain in hip causing him to move frequently,1.0,1
+flatulency with much rolling,uric acid deposits in finger joints,1.0,1
+flatulency with much rolling,complaints from eating food grown in damp places,1.0,1
+flatulency with much rolling,sciatica when getting up or sitting down or turning in bed,1.0,1
+flatulency with much rolling,stiffness of knee,1.0,1
+flatulency with much rolling,piercing pains on humerus,1.0,1
+flatulency with much rolling,piercing as from knives between scapulae,1.0,1
+flatulency with much rolling,pain in left hip as after lying in a bad position,1.0,1
+flatulency with much rolling,pain in right hip joint,1.0,1
+flatulency with much rolling,piercing pains in left axilla,1.0,1
+flatulency with much rolling,piercing pains fingers and under nails,1.0,1
+flatulency with much rolling,awakens him at night,1.0,1
+flatulency with much rolling,stitches in nape of neck,1.0,1
+flatulency with much rolling,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+flatulency with much rolling,complaints from living in damp places,1.0,1
+flatulency with much rolling,cannot lie on either side,1.0,1
+flatulency with much rolling,sycosis,1.0,1
+flatulency with much rolling,pain in sacrum,1.0,1
+flatulency with much rolling,piercing pains back of hand,1.0,1
+flatulency with much rolling,impossible to continue walking,1.0,1
+flatulency with much rolling,pressure in left side of back near lumbar region,1.0,1
+flatulency with much rolling,making it very difficult to ascend or sit down or get up,1.0,1
+flatulency with much rolling,bruised pain in small of back and sacrum,1.0,1
+flatulency with much rolling,piercing pains palm of right hand,1.0,1
+flatulency with much rolling,irritable liver with stitches in liver,1.0,1
+flatulency with much rolling,sudden stitch in left hip,1.0,1
+flatulency with much rolling,no relief in any position,1.0,1
+flatulency with much rolling,flexors of hands painful when grasping anything,1.0,1
+flatulency with much rolling,gastric complaints with much acidity,1.0,1
+flatulency with much rolling,gout in feet in acute or chronic conditions,1.0,1
+flatulency with much rolling,fingers swollen and stiff,1.0,1
+flatulency with much rolling,soreness up and down spine and neck,1.0,1
+flatulency with much rolling,marked dyspnoea during damp cloudy weather,1.0,1
+flatulency with much rolling,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+flatulency with much rolling,piercing pain only during rest,1.0,1
+flatulency with much rolling,pain in hip extending to knee,1.0,1
+flatulency with much rolling,pains in limbs compelling him to change position frequently,1.0,1
+flatulency with much rolling,constant shifting of position,1.0,1
+piercing pain in left hip and small of back,rheumatic arthritis of joints of fingers,1.0,1
+piercing pain in left hip and small of back,flatulency with much rolling,1.0,1
+piercing pain in left hip and small of back,compelling him to move constantly,1.0,1
+piercing pain in left hip and small of back,cracking of joints in arthritis,1.0,1
+piercing pain in left hip and small of back,causing excruciating pain,1.0,1
+piercing pain in left hip and small of back,nephritis,1.0,1
+piercing pain in left hip and small of back,pains suddenly go to heart,1.0,1
+piercing pain in left hip and small of back,pain in hip causing him to move frequently,1.0,1
+piercing pain in left hip and small of back,uric acid deposits in finger joints,1.0,1
+piercing pain in left hip and small of back,complaints from eating food grown in damp places,1.0,1
+piercing pain in left hip and small of back,sciatica when getting up or sitting down or turning in bed,1.0,1
+piercing pain in left hip and small of back,stiffness of knee,1.0,1
+piercing pain in left hip and small of back,piercing pains on humerus,1.0,1
+piercing pain in left hip and small of back,piercing as from knives between scapulae,1.0,1
+piercing pain in left hip and small of back,pain in left hip as after lying in a bad position,1.0,1
+piercing pain in left hip and small of back,pain in right hip joint,1.0,1
+piercing pain in left hip and small of back,piercing pains in left axilla,1.0,1
+piercing pain in left hip and small of back,piercing pains fingers and under nails,1.0,1
+piercing pain in left hip and small of back,awakens him at night,1.0,1
+piercing pain in left hip and small of back,stitches in nape of neck,1.0,1
+piercing pain in left hip and small of back,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+piercing pain in left hip and small of back,complaints from living in damp places,1.0,1
+piercing pain in left hip and small of back,cannot lie on either side,1.0,1
+piercing pain in left hip and small of back,sycosis,1.0,1
+piercing pain in left hip and small of back,pain in sacrum,1.0,1
+piercing pain in left hip and small of back,piercing pains back of hand,1.0,1
+piercing pain in left hip and small of back,impossible to continue walking,1.0,1
+piercing pain in left hip and small of back,pressure in left side of back near lumbar region,1.0,1
+piercing pain in left hip and small of back,making it very difficult to ascend or sit down or get up,1.0,1
+piercing pain in left hip and small of back,bruised pain in small of back and sacrum,1.0,1
+piercing pain in left hip and small of back,piercing pains palm of right hand,1.0,1
+piercing pain in left hip and small of back,irritable liver with stitches in liver,1.0,1
+piercing pain in left hip and small of back,sudden stitch in left hip,1.0,1
+piercing pain in left hip and small of back,no relief in any position,1.0,1
+piercing pain in left hip and small of back,flexors of hands painful when grasping anything,1.0,1
+piercing pain in left hip and small of back,gastric complaints with much acidity,1.0,1
+piercing pain in left hip and small of back,gout in feet in acute or chronic conditions,1.0,1
+piercing pain in left hip and small of back,fingers swollen and stiff,1.0,1
+piercing pain in left hip and small of back,soreness up and down spine and neck,1.0,1
+piercing pain in left hip and small of back,marked dyspnoea during damp cloudy weather,1.0,1
+piercing pain in left hip and small of back,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+piercing pain in left hip and small of back,piercing pain only during rest,1.0,1
+piercing pain in left hip and small of back,pain in hip extending to knee,1.0,1
+piercing pain in left hip and small of back,pains in limbs compelling him to change position frequently,1.0,1
+piercing pain in left hip and small of back,constant shifting of position,1.0,1
+sudden stitch in left hip,rheumatic arthritis of joints of fingers,1.0,1
+sudden stitch in left hip,flatulency with much rolling,1.0,1
+sudden stitch in left hip,piercing pain in left hip and small of back,1.0,1
+sudden stitch in left hip,compelling him to move constantly,1.0,1
+sudden stitch in left hip,cracking of joints in arthritis,1.0,1
+sudden stitch in left hip,causing excruciating pain,1.0,1
+sudden stitch in left hip,nephritis,1.0,1
+sudden stitch in left hip,pains suddenly go to heart,1.0,1
+sudden stitch in left hip,pain in hip causing him to move frequently,1.0,1
+sudden stitch in left hip,uric acid deposits in finger joints,1.0,1
+sudden stitch in left hip,complaints from eating food grown in damp places,1.0,1
+sudden stitch in left hip,sciatica when getting up or sitting down or turning in bed,1.0,1
+sudden stitch in left hip,stiffness of knee,1.0,1
+sudden stitch in left hip,piercing pains on humerus,1.0,1
+sudden stitch in left hip,piercing as from knives between scapulae,1.0,1
+sudden stitch in left hip,pain in left hip as after lying in a bad position,1.0,1
+sudden stitch in left hip,pain in right hip joint,1.0,1
+sudden stitch in left hip,piercing pains in left axilla,1.0,1
+sudden stitch in left hip,piercing pains fingers and under nails,1.0,1
+sudden stitch in left hip,awakens him at night,1.0,1
+sudden stitch in left hip,stitches in nape of neck,1.0,1
+sudden stitch in left hip,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+sudden stitch in left hip,complaints from living in damp places,1.0,1
+sudden stitch in left hip,cannot lie on either side,1.0,1
+sudden stitch in left hip,sycosis,1.0,1
+sudden stitch in left hip,pain in sacrum,1.0,1
+sudden stitch in left hip,piercing pains back of hand,1.0,1
+sudden stitch in left hip,impossible to continue walking,1.0,1
+sudden stitch in left hip,pressure in left side of back near lumbar region,1.0,1
+sudden stitch in left hip,making it very difficult to ascend or sit down or get up,1.0,1
+sudden stitch in left hip,bruised pain in small of back and sacrum,1.0,1
+sudden stitch in left hip,piercing pains palm of right hand,1.0,1
+sudden stitch in left hip,irritable liver with stitches in liver,1.0,1
+sudden stitch in left hip,no relief in any position,1.0,1
+sudden stitch in left hip,flexors of hands painful when grasping anything,1.0,1
+sudden stitch in left hip,gastric complaints with much acidity,1.0,1
+sudden stitch in left hip,gout in feet in acute or chronic conditions,1.0,1
+sudden stitch in left hip,fingers swollen and stiff,1.0,1
+sudden stitch in left hip,soreness up and down spine and neck,1.0,1
+sudden stitch in left hip,marked dyspnoea during damp cloudy weather,1.0,1
+sudden stitch in left hip,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+sudden stitch in left hip,piercing pain only during rest,1.0,1
+sudden stitch in left hip,pain in hip extending to knee,1.0,1
+sudden stitch in left hip,pains in limbs compelling him to change position frequently,1.0,1
+sudden stitch in left hip,constant shifting of position,1.0,1
+piercing pains back of hand,rheumatic arthritis of joints of fingers,1.0,1
+piercing pains back of hand,flatulency with much rolling,1.0,1
+piercing pains back of hand,piercing pain in left hip and small of back,1.0,1
+piercing pains back of hand,compelling him to move constantly,1.0,1
+piercing pains back of hand,cracking of joints in arthritis,1.0,1
+piercing pains back of hand,causing excruciating pain,1.0,1
+piercing pains back of hand,nephritis,1.0,1
+piercing pains back of hand,pains suddenly go to heart,1.0,1
+piercing pains back of hand,pain in hip causing him to move frequently,1.0,1
+piercing pains back of hand,uric acid deposits in finger joints,1.0,1
+piercing pains back of hand,complaints from eating food grown in damp places,1.0,1
+piercing pains back of hand,sciatica when getting up or sitting down or turning in bed,1.0,1
+piercing pains back of hand,stiffness of knee,1.0,1
+piercing pains back of hand,piercing pains on humerus,1.0,1
+piercing pains back of hand,piercing as from knives between scapulae,1.0,1
+piercing pains back of hand,pain in left hip as after lying in a bad position,1.0,1
+piercing pains back of hand,pain in right hip joint,1.0,1
+piercing pains back of hand,piercing pains in left axilla,1.0,1
+piercing pains back of hand,piercing pains fingers and under nails,1.0,1
+piercing pains back of hand,awakens him at night,1.0,1
+piercing pains back of hand,stitches in nape of neck,1.0,1
+piercing pains back of hand,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+piercing pains back of hand,complaints from living in damp places,1.0,1
+piercing pains back of hand,cannot lie on either side,1.0,1
+piercing pains back of hand,sycosis,1.0,1
+piercing pains back of hand,pain in sacrum,1.0,1
+piercing pains back of hand,impossible to continue walking,1.0,1
+piercing pains back of hand,pressure in left side of back near lumbar region,1.0,1
+piercing pains back of hand,making it very difficult to ascend or sit down or get up,1.0,1
+piercing pains back of hand,bruised pain in small of back and sacrum,1.0,1
+piercing pains back of hand,piercing pains palm of right hand,1.0,1
+piercing pains back of hand,irritable liver with stitches in liver,1.0,1
+piercing pains back of hand,sudden stitch in left hip,1.0,1
+piercing pains back of hand,no relief in any position,1.0,1
+piercing pains back of hand,flexors of hands painful when grasping anything,1.0,1
+piercing pains back of hand,gastric complaints with much acidity,1.0,1
+piercing pains back of hand,gout in feet in acute or chronic conditions,1.0,1
+piercing pains back of hand,fingers swollen and stiff,1.0,1
+piercing pains back of hand,soreness up and down spine and neck,1.0,1
+piercing pains back of hand,marked dyspnoea during damp cloudy weather,1.0,1
+piercing pains back of hand,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+piercing pains back of hand,piercing pain only during rest,1.0,1
+piercing pains back of hand,pain in hip extending to knee,1.0,1
+piercing pains back of hand,pains in limbs compelling him to change position frequently,1.0,1
+piercing pains back of hand,constant shifting of position,1.0,1
+compelling him to move constantly,rheumatic arthritis of joints of fingers,1.0,1
+compelling him to move constantly,flatulency with much rolling,1.0,1
+compelling him to move constantly,piercing pain in left hip and small of back,1.0,1
+compelling him to move constantly,cracking of joints in arthritis,1.0,1
+compelling him to move constantly,causing excruciating pain,1.0,1
+compelling him to move constantly,nephritis,1.0,1
+compelling him to move constantly,pains suddenly go to heart,1.0,1
+compelling him to move constantly,pain in hip causing him to move frequently,1.0,1
+compelling him to move constantly,uric acid deposits in finger joints,1.0,1
+compelling him to move constantly,complaints from eating food grown in damp places,1.0,1
+compelling him to move constantly,sciatica when getting up or sitting down or turning in bed,1.0,1
+compelling him to move constantly,stiffness of knee,1.0,1
+compelling him to move constantly,piercing pains on humerus,1.0,1
+compelling him to move constantly,piercing as from knives between scapulae,1.0,1
+compelling him to move constantly,pain in left hip as after lying in a bad position,1.0,1
+compelling him to move constantly,pain in right hip joint,1.0,1
+compelling him to move constantly,piercing pains in left axilla,1.0,1
+compelling him to move constantly,piercing pains fingers and under nails,1.0,1
+compelling him to move constantly,awakens him at night,1.0,1
+compelling him to move constantly,stitches in nape of neck,1.0,1
+compelling him to move constantly,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+compelling him to move constantly,complaints from living in damp places,1.0,1
+compelling him to move constantly,cannot lie on either side,1.0,1
+compelling him to move constantly,sycosis,1.0,1
+compelling him to move constantly,pain in sacrum,1.0,1
+compelling him to move constantly,piercing pains back of hand,1.0,1
+compelling him to move constantly,impossible to continue walking,1.0,1
+compelling him to move constantly,pressure in left side of back near lumbar region,1.0,1
+compelling him to move constantly,making it very difficult to ascend or sit down or get up,1.0,1
+compelling him to move constantly,bruised pain in small of back and sacrum,1.0,1
+compelling him to move constantly,piercing pains palm of right hand,1.0,1
+compelling him to move constantly,irritable liver with stitches in liver,1.0,1
+compelling him to move constantly,sudden stitch in left hip,1.0,1
+compelling him to move constantly,no relief in any position,1.0,1
+compelling him to move constantly,flexors of hands painful when grasping anything,1.0,1
+compelling him to move constantly,gastric complaints with much acidity,1.0,1
+compelling him to move constantly,gout in feet in acute or chronic conditions,1.0,1
+compelling him to move constantly,fingers swollen and stiff,1.0,1
+compelling him to move constantly,soreness up and down spine and neck,1.0,1
+compelling him to move constantly,marked dyspnoea during damp cloudy weather,1.0,1
+compelling him to move constantly,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+compelling him to move constantly,piercing pain only during rest,1.0,1
+compelling him to move constantly,pain in hip extending to knee,1.0,1
+compelling him to move constantly,pains in limbs compelling him to change position frequently,1.0,1
+compelling him to move constantly,constant shifting of position,1.0,1
+no relief in any position,rheumatic arthritis of joints of fingers,1.0,1
+no relief in any position,flatulency with much rolling,1.0,1
+no relief in any position,piercing pain in left hip and small of back,1.0,1
+no relief in any position,compelling him to move constantly,1.0,1
+no relief in any position,cracking of joints in arthritis,1.0,1
+no relief in any position,causing excruciating pain,1.0,1
+no relief in any position,nephritis,1.0,1
+no relief in any position,pains suddenly go to heart,1.0,1
+no relief in any position,pain in hip causing him to move frequently,1.0,1
+no relief in any position,uric acid deposits in finger joints,1.0,1
+no relief in any position,complaints from eating food grown in damp places,1.0,1
+no relief in any position,sciatica when getting up or sitting down or turning in bed,1.0,1
+no relief in any position,stiffness of knee,1.0,1
+no relief in any position,piercing pains on humerus,1.0,1
+no relief in any position,piercing as from knives between scapulae,1.0,1
+no relief in any position,pain in left hip as after lying in a bad position,1.0,1
+no relief in any position,pain in right hip joint,1.0,1
+no relief in any position,piercing pains in left axilla,1.0,1
+no relief in any position,piercing pains fingers and under nails,1.0,1
+no relief in any position,awakens him at night,1.0,1
+no relief in any position,stitches in nape of neck,1.0,1
+no relief in any position,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+no relief in any position,complaints from living in damp places,1.0,1
+no relief in any position,cannot lie on either side,1.0,1
+no relief in any position,sycosis,1.0,1
+no relief in any position,pain in sacrum,1.0,1
+no relief in any position,piercing pains back of hand,1.0,1
+no relief in any position,impossible to continue walking,1.0,1
+no relief in any position,pressure in left side of back near lumbar region,1.0,1
+no relief in any position,making it very difficult to ascend or sit down or get up,1.0,1
+no relief in any position,bruised pain in small of back and sacrum,1.0,1
+no relief in any position,piercing pains palm of right hand,1.0,1
+no relief in any position,irritable liver with stitches in liver,1.0,1
+no relief in any position,sudden stitch in left hip,1.0,1
+no relief in any position,flexors of hands painful when grasping anything,1.0,1
+no relief in any position,gastric complaints with much acidity,1.0,1
+no relief in any position,gout in feet in acute or chronic conditions,1.0,1
+no relief in any position,fingers swollen and stiff,1.0,1
+no relief in any position,soreness up and down spine and neck,1.0,1
+no relief in any position,marked dyspnoea during damp cloudy weather,1.0,1
+no relief in any position,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+no relief in any position,piercing pain only during rest,1.0,1
+no relief in any position,pain in hip extending to knee,1.0,1
+no relief in any position,pains in limbs compelling him to change position frequently,1.0,1
+no relief in any position,constant shifting of position,1.0,1
+causing excruciating pain,rheumatic arthritis of joints of fingers,1.0,1
+causing excruciating pain,flatulency with much rolling,1.0,1
+causing excruciating pain,piercing pain in left hip and small of back,1.0,1
+causing excruciating pain,compelling him to move constantly,1.0,1
+causing excruciating pain,cracking of joints in arthritis,1.0,1
+causing excruciating pain,nephritis,1.0,1
+causing excruciating pain,pains suddenly go to heart,1.0,1
+causing excruciating pain,pain in hip causing him to move frequently,1.0,1
+causing excruciating pain,uric acid deposits in finger joints,1.0,1
+causing excruciating pain,complaints from eating food grown in damp places,1.0,1
+causing excruciating pain,sciatica when getting up or sitting down or turning in bed,1.0,1
+causing excruciating pain,stiffness of knee,1.0,1
+causing excruciating pain,piercing pains on humerus,1.0,1
+causing excruciating pain,piercing as from knives between scapulae,1.0,1
+causing excruciating pain,pain in left hip as after lying in a bad position,1.0,1
+causing excruciating pain,pain in right hip joint,1.0,1
+causing excruciating pain,piercing pains in left axilla,1.0,1
+causing excruciating pain,piercing pains fingers and under nails,1.0,1
+causing excruciating pain,awakens him at night,1.0,1
+causing excruciating pain,stitches in nape of neck,1.0,1
+causing excruciating pain,rheumatic pains in limbs associated with gastric symptoms,1.0,1
+causing excruciating pain,complaints from living in damp places,1.0,1
+causing excruciating pain,cannot lie on either side,1.0,1
+causing excruciating pain,sycosis,1.0,1
+causing excruciating pain,pain in sacrum,1.0,1
+causing excruciating pain,piercing pains back of hand,1.0,1
+causing excruciating pain,impossible to continue walking,1.0,1
+causing excruciating pain,pressure in left side of back near lumbar region,1.0,1
+causing excruciating pain,making it very difficult to ascend or sit down or get up,1.0,1
+causing excruciating pain,bruised pain in small of back and sacrum,1.0,1
+causing excruciating pain,piercing pains palm of right hand,1.0,1
+causing excruciating pain,irritable liver with stitches in liver,1.0,1
+causing excruciating pain,sudden stitch in left hip,1.0,1
+causing excruciating pain,no relief in any position,1.0,1
+causing excruciating pain,flexors of hands painful when grasping anything,1.0,1
+causing excruciating pain,gastric complaints with much acidity,1.0,1
+causing excruciating pain,gout in feet in acute or chronic conditions,1.0,1
+causing excruciating pain,fingers swollen and stiff,1.0,1
+causing excruciating pain,soreness up and down spine and neck,1.0,1
+causing excruciating pain,marked dyspnoea during damp cloudy weather,1.0,1
+causing excruciating pain,dirty greenish-grey or greenish-brown coating on back of tongue,1.0,1
+causing excruciating pain,piercing pain only during rest,1.0,1
+causing excruciating pain,pain in hip extending to knee,1.0,1
+causing excruciating pain,pains in limbs compelling him to change position frequently,1.0,1
+causing excruciating pain,constant shifting of position,1.0,1

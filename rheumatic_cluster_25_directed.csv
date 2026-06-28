@@ -1,0 +1,45 @@
+### Cluster 25 — Symptoms (6)
+Symptom,Frequency
+rheumatic troubles with sharp pains,2
+sharp stitching pains worse at night,3
+sharp stitching pains in arms,1
+sharp stitching pains in back,1
+compare causticum rhus tox,1
+sharp stitching pains in legs,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+kali carbonicum,6
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+rheumatic troubles with sharp pains,sharp stitching pains worse at night,1.0,1
+rheumatic troubles with sharp pains,sharp stitching pains in arms,1.0,1
+rheumatic troubles with sharp pains,sharp stitching pains in back,1.0,1
+rheumatic troubles with sharp pains,compare causticum rhus tox,1.0,1
+rheumatic troubles with sharp pains,sharp stitching pains in legs,1.0,1
+sharp stitching pains in legs,rheumatic troubles with sharp pains,1.0,1
+sharp stitching pains in legs,sharp stitching pains worse at night,1.0,1
+sharp stitching pains in legs,sharp stitching pains in arms,1.0,1
+sharp stitching pains in legs,sharp stitching pains in back,1.0,1
+sharp stitching pains in legs,compare causticum rhus tox,1.0,1
+sharp stitching pains in arms,rheumatic troubles with sharp pains,1.0,1
+sharp stitching pains in arms,sharp stitching pains worse at night,1.0,1
+sharp stitching pains in arms,sharp stitching pains in back,1.0,1
+sharp stitching pains in arms,compare causticum rhus tox,1.0,1
+sharp stitching pains in arms,sharp stitching pains in legs,1.0,1
+sharp stitching pains in back,rheumatic troubles with sharp pains,1.0,1
+sharp stitching pains in back,sharp stitching pains worse at night,1.0,1
+sharp stitching pains in back,sharp stitching pains in arms,1.0,1
+sharp stitching pains in back,compare causticum rhus tox,1.0,1
+sharp stitching pains in back,sharp stitching pains in legs,1.0,1
+sharp stitching pains worse at night,rheumatic troubles with sharp pains,1.0,1
+sharp stitching pains worse at night,sharp stitching pains in arms,1.0,1
+sharp stitching pains worse at night,sharp stitching pains in back,1.0,1
+sharp stitching pains worse at night,compare causticum rhus tox,1.0,1
+sharp stitching pains worse at night,sharp stitching pains in legs,1.0,1
+compare causticum rhus tox,rheumatic troubles with sharp pains,1.0,1
+compare causticum rhus tox,sharp stitching pains worse at night,1.0,1
+compare causticum rhus tox,sharp stitching pains in arms,1.0,1
+compare causticum rhus tox,sharp stitching pains in back,1.0,1
+compare causticum rhus tox,sharp stitching pains in legs,1.0,1

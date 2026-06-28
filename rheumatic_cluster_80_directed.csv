@@ -1,0 +1,1378 @@
+### Cluster 80 — Symptoms (37)
+Symptom,Frequency
+dull steady pain above innominata to rectum,1
+stitches from sacrum to loins,1
+weary calves,1
+cannot distinguish feces from flatus,1
+heaviness in sacral region worse sitting,1
+dull sticking under shoulder blades,1
+hemorrhoids protrude like grapes,1
+cracking in cervical vertebrae on motion,1
+bruised pain in back as after stooping,1
+heaviness in head,1
+weak ankles,1
+severe kidney pain,1
+lumbago alternating with frontal headache,1
+uncertain stool,1
+weak joints with abdominal disturbances,1
+fullness in back worse wet weather,1
+protruding hemorrhoids,1
+outward pressing pain in back,1
+lumbago with lower bowel disturbances,1
+weak wrist joint,1
+pressive sensation in right kidney,1
+throbbing in back worse wet weather,1
+painful soles,1
+pain in right wrist joint,1
+pressing in sacral region worse sitting,1
+sensation of plug between symphysis pubis and os coccyx,1
+weariness of limbs,1
+great toes feel sprained,1
+differs from aesculus in hemorrhoid character,1
+differs from aesculus in aggravations,1
+warm feet,1
+coccyx pain as if fallen on,1
+creeping in sacrum to coccyx,1
+heaviness in right arm,1
+painful weariness of limbs,1
+itching in back worse wet weather,1
+drawing in right kidney,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+aloes socotrina,37
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+heaviness in right arm,dull steady pain above innominata to rectum,1.0,1
+heaviness in right arm,stitches from sacrum to loins,1.0,1
+heaviness in right arm,weary calves,1.0,1
+heaviness in right arm,cannot distinguish feces from flatus,1.0,1
+heaviness in right arm,heaviness in sacral region worse sitting,1.0,1
+heaviness in right arm,dull sticking under shoulder blades,1.0,1
+heaviness in right arm,hemorrhoids protrude like grapes,1.0,1
+heaviness in right arm,cracking in cervical vertebrae on motion,1.0,1
+heaviness in right arm,bruised pain in back as after stooping,1.0,1
+heaviness in right arm,heaviness in head,1.0,1
+heaviness in right arm,weak ankles,1.0,1
+heaviness in right arm,severe kidney pain,1.0,1
+heaviness in right arm,lumbago alternating with frontal headache,1.0,1
+heaviness in right arm,uncertain stool,1.0,1
+heaviness in right arm,weak joints with abdominal disturbances,1.0,1
+heaviness in right arm,fullness in back worse wet weather,1.0,1
+heaviness in right arm,protruding hemorrhoids,1.0,1
+heaviness in right arm,outward pressing pain in back,1.0,1
+heaviness in right arm,lumbago with lower bowel disturbances,1.0,1
+heaviness in right arm,weak wrist joint,1.0,1
+heaviness in right arm,pressive sensation in right kidney,1.0,1
+heaviness in right arm,throbbing in back worse wet weather,1.0,1
+heaviness in right arm,painful soles,1.0,1
+heaviness in right arm,pain in right wrist joint,1.0,1
+heaviness in right arm,pressing in sacral region worse sitting,1.0,1
+heaviness in right arm,sensation of plug between symphysis pubis and os coccyx,1.0,1
+heaviness in right arm,weariness of limbs,1.0,1
+heaviness in right arm,great toes feel sprained,1.0,1
+heaviness in right arm,differs from aesculus in hemorrhoid character,1.0,1
+heaviness in right arm,differs from aesculus in aggravations,1.0,1
+heaviness in right arm,warm feet,1.0,1
+heaviness in right arm,coccyx pain as if fallen on,1.0,1
+heaviness in right arm,creeping in sacrum to coccyx,1.0,1
+heaviness in right arm,painful weariness of limbs,1.0,1
+heaviness in right arm,itching in back worse wet weather,1.0,1
+heaviness in right arm,drawing in right kidney,1.0,1
+cracking in cervical vertebrae on motion,dull steady pain above innominata to rectum,1.0,1
+cracking in cervical vertebrae on motion,stitches from sacrum to loins,1.0,1
+cracking in cervical vertebrae on motion,weary calves,1.0,1
+cracking in cervical vertebrae on motion,cannot distinguish feces from flatus,1.0,1
+cracking in cervical vertebrae on motion,heaviness in sacral region worse sitting,1.0,1
+cracking in cervical vertebrae on motion,dull sticking under shoulder blades,1.0,1
+cracking in cervical vertebrae on motion,hemorrhoids protrude like grapes,1.0,1
+cracking in cervical vertebrae on motion,bruised pain in back as after stooping,1.0,1
+cracking in cervical vertebrae on motion,heaviness in head,1.0,1
+cracking in cervical vertebrae on motion,weak ankles,1.0,1
+cracking in cervical vertebrae on motion,severe kidney pain,1.0,1
+cracking in cervical vertebrae on motion,lumbago alternating with frontal headache,1.0,1
+cracking in cervical vertebrae on motion,uncertain stool,1.0,1
+cracking in cervical vertebrae on motion,weak joints with abdominal disturbances,1.0,1
+cracking in cervical vertebrae on motion,fullness in back worse wet weather,1.0,1
+cracking in cervical vertebrae on motion,protruding hemorrhoids,1.0,1
+cracking in cervical vertebrae on motion,outward pressing pain in back,1.0,1
+cracking in cervical vertebrae on motion,lumbago with lower bowel disturbances,1.0,1
+cracking in cervical vertebrae on motion,weak wrist joint,1.0,1
+cracking in cervical vertebrae on motion,pressive sensation in right kidney,1.0,1
+cracking in cervical vertebrae on motion,throbbing in back worse wet weather,1.0,1
+cracking in cervical vertebrae on motion,painful soles,1.0,1
+cracking in cervical vertebrae on motion,pain in right wrist joint,1.0,1
+cracking in cervical vertebrae on motion,pressing in sacral region worse sitting,1.0,1
+cracking in cervical vertebrae on motion,sensation of plug between symphysis pubis and os coccyx,1.0,1
+cracking in cervical vertebrae on motion,weariness of limbs,1.0,1
+cracking in cervical vertebrae on motion,great toes feel sprained,1.0,1
+cracking in cervical vertebrae on motion,differs from aesculus in hemorrhoid character,1.0,1
+cracking in cervical vertebrae on motion,differs from aesculus in aggravations,1.0,1
+cracking in cervical vertebrae on motion,warm feet,1.0,1
+cracking in cervical vertebrae on motion,coccyx pain as if fallen on,1.0,1
+cracking in cervical vertebrae on motion,creeping in sacrum to coccyx,1.0,1
+cracking in cervical vertebrae on motion,heaviness in right arm,1.0,1
+cracking in cervical vertebrae on motion,painful weariness of limbs,1.0,1
+cracking in cervical vertebrae on motion,itching in back worse wet weather,1.0,1
+cracking in cervical vertebrae on motion,drawing in right kidney,1.0,1
+heaviness in head,dull steady pain above innominata to rectum,1.0,1
+heaviness in head,stitches from sacrum to loins,1.0,1
+heaviness in head,weary calves,1.0,1
+heaviness in head,cannot distinguish feces from flatus,1.0,1
+heaviness in head,heaviness in sacral region worse sitting,1.0,1
+heaviness in head,dull sticking under shoulder blades,1.0,1
+heaviness in head,hemorrhoids protrude like grapes,1.0,1
+heaviness in head,cracking in cervical vertebrae on motion,1.0,1
+heaviness in head,bruised pain in back as after stooping,1.0,1
+heaviness in head,weak ankles,1.0,1
+heaviness in head,severe kidney pain,1.0,1
+heaviness in head,lumbago alternating with frontal headache,1.0,1
+heaviness in head,uncertain stool,1.0,1
+heaviness in head,weak joints with abdominal disturbances,1.0,1
+heaviness in head,fullness in back worse wet weather,1.0,1
+heaviness in head,protruding hemorrhoids,1.0,1
+heaviness in head,outward pressing pain in back,1.0,1
+heaviness in head,lumbago with lower bowel disturbances,1.0,1
+heaviness in head,weak wrist joint,1.0,1
+heaviness in head,pressive sensation in right kidney,1.0,1
+heaviness in head,throbbing in back worse wet weather,1.0,1
+heaviness in head,painful soles,1.0,1
+heaviness in head,pain in right wrist joint,1.0,1
+heaviness in head,pressing in sacral region worse sitting,1.0,1
+heaviness in head,sensation of plug between symphysis pubis and os coccyx,1.0,1
+heaviness in head,weariness of limbs,1.0,1
+heaviness in head,great toes feel sprained,1.0,1
+heaviness in head,differs from aesculus in hemorrhoid character,1.0,1
+heaviness in head,differs from aesculus in aggravations,1.0,1
+heaviness in head,warm feet,1.0,1
+heaviness in head,coccyx pain as if fallen on,1.0,1
+heaviness in head,creeping in sacrum to coccyx,1.0,1
+heaviness in head,heaviness in right arm,1.0,1
+heaviness in head,painful weariness of limbs,1.0,1
+heaviness in head,itching in back worse wet weather,1.0,1
+heaviness in head,drawing in right kidney,1.0,1
+weary calves,dull steady pain above innominata to rectum,1.0,1
+weary calves,stitches from sacrum to loins,1.0,1
+weary calves,cannot distinguish feces from flatus,1.0,1
+weary calves,heaviness in sacral region worse sitting,1.0,1
+weary calves,dull sticking under shoulder blades,1.0,1
+weary calves,hemorrhoids protrude like grapes,1.0,1
+weary calves,cracking in cervical vertebrae on motion,1.0,1
+weary calves,bruised pain in back as after stooping,1.0,1
+weary calves,heaviness in head,1.0,1
+weary calves,weak ankles,1.0,1
+weary calves,severe kidney pain,1.0,1
+weary calves,lumbago alternating with frontal headache,1.0,1
+weary calves,uncertain stool,1.0,1
+weary calves,weak joints with abdominal disturbances,1.0,1
+weary calves,fullness in back worse wet weather,1.0,1
+weary calves,protruding hemorrhoids,1.0,1
+weary calves,outward pressing pain in back,1.0,1
+weary calves,lumbago with lower bowel disturbances,1.0,1
+weary calves,weak wrist joint,1.0,1
+weary calves,pressive sensation in right kidney,1.0,1
+weary calves,throbbing in back worse wet weather,1.0,1
+weary calves,painful soles,1.0,1
+weary calves,pain in right wrist joint,1.0,1
+weary calves,pressing in sacral region worse sitting,1.0,1
+weary calves,sensation of plug between symphysis pubis and os coccyx,1.0,1
+weary calves,weariness of limbs,1.0,1
+weary calves,great toes feel sprained,1.0,1
+weary calves,differs from aesculus in hemorrhoid character,1.0,1
+weary calves,differs from aesculus in aggravations,1.0,1
+weary calves,warm feet,1.0,1
+weary calves,coccyx pain as if fallen on,1.0,1
+weary calves,creeping in sacrum to coccyx,1.0,1
+weary calves,heaviness in right arm,1.0,1
+weary calves,painful weariness of limbs,1.0,1
+weary calves,itching in back worse wet weather,1.0,1
+weary calves,drawing in right kidney,1.0,1
+differs from aesculus in hemorrhoid character,dull steady pain above innominata to rectum,1.0,1
+differs from aesculus in hemorrhoid character,stitches from sacrum to loins,1.0,1
+differs from aesculus in hemorrhoid character,weary calves,1.0,1
+differs from aesculus in hemorrhoid character,cannot distinguish feces from flatus,1.0,1
+differs from aesculus in hemorrhoid character,heaviness in sacral region worse sitting,1.0,1
+differs from aesculus in hemorrhoid character,dull sticking under shoulder blades,1.0,1
+differs from aesculus in hemorrhoid character,hemorrhoids protrude like grapes,1.0,1
+differs from aesculus in hemorrhoid character,cracking in cervical vertebrae on motion,1.0,1
+differs from aesculus in hemorrhoid character,bruised pain in back as after stooping,1.0,1
+differs from aesculus in hemorrhoid character,heaviness in head,1.0,1
+differs from aesculus in hemorrhoid character,weak ankles,1.0,1
+differs from aesculus in hemorrhoid character,severe kidney pain,1.0,1
+differs from aesculus in hemorrhoid character,lumbago alternating with frontal headache,1.0,1
+differs from aesculus in hemorrhoid character,uncertain stool,1.0,1
+differs from aesculus in hemorrhoid character,weak joints with abdominal disturbances,1.0,1
+differs from aesculus in hemorrhoid character,fullness in back worse wet weather,1.0,1
+differs from aesculus in hemorrhoid character,protruding hemorrhoids,1.0,1
+differs from aesculus in hemorrhoid character,outward pressing pain in back,1.0,1
+differs from aesculus in hemorrhoid character,lumbago with lower bowel disturbances,1.0,1
+differs from aesculus in hemorrhoid character,weak wrist joint,1.0,1
+differs from aesculus in hemorrhoid character,pressive sensation in right kidney,1.0,1
+differs from aesculus in hemorrhoid character,throbbing in back worse wet weather,1.0,1
+differs from aesculus in hemorrhoid character,painful soles,1.0,1
+differs from aesculus in hemorrhoid character,pain in right wrist joint,1.0,1
+differs from aesculus in hemorrhoid character,pressing in sacral region worse sitting,1.0,1
+differs from aesculus in hemorrhoid character,sensation of plug between symphysis pubis and os coccyx,1.0,1
+differs from aesculus in hemorrhoid character,weariness of limbs,1.0,1
+differs from aesculus in hemorrhoid character,great toes feel sprained,1.0,1
+differs from aesculus in hemorrhoid character,differs from aesculus in aggravations,1.0,1
+differs from aesculus in hemorrhoid character,warm feet,1.0,1
+differs from aesculus in hemorrhoid character,coccyx pain as if fallen on,1.0,1
+differs from aesculus in hemorrhoid character,creeping in sacrum to coccyx,1.0,1
+differs from aesculus in hemorrhoid character,heaviness in right arm,1.0,1
+differs from aesculus in hemorrhoid character,painful weariness of limbs,1.0,1
+differs from aesculus in hemorrhoid character,itching in back worse wet weather,1.0,1
+differs from aesculus in hemorrhoid character,drawing in right kidney,1.0,1
+outward pressing pain in back,dull steady pain above innominata to rectum,1.0,1
+outward pressing pain in back,stitches from sacrum to loins,1.0,1
+outward pressing pain in back,weary calves,1.0,1
+outward pressing pain in back,cannot distinguish feces from flatus,1.0,1
+outward pressing pain in back,heaviness in sacral region worse sitting,1.0,1
+outward pressing pain in back,dull sticking under shoulder blades,1.0,1
+outward pressing pain in back,hemorrhoids protrude like grapes,1.0,1
+outward pressing pain in back,cracking in cervical vertebrae on motion,1.0,1
+outward pressing pain in back,bruised pain in back as after stooping,1.0,1
+outward pressing pain in back,heaviness in head,1.0,1
+outward pressing pain in back,weak ankles,1.0,1
+outward pressing pain in back,severe kidney pain,1.0,1
+outward pressing pain in back,lumbago alternating with frontal headache,1.0,1
+outward pressing pain in back,uncertain stool,1.0,1
+outward pressing pain in back,weak joints with abdominal disturbances,1.0,1
+outward pressing pain in back,fullness in back worse wet weather,1.0,1
+outward pressing pain in back,protruding hemorrhoids,1.0,1
+outward pressing pain in back,lumbago with lower bowel disturbances,1.0,1
+outward pressing pain in back,weak wrist joint,1.0,1
+outward pressing pain in back,pressive sensation in right kidney,1.0,1
+outward pressing pain in back,throbbing in back worse wet weather,1.0,1
+outward pressing pain in back,painful soles,1.0,1
+outward pressing pain in back,pain in right wrist joint,1.0,1
+outward pressing pain in back,pressing in sacral region worse sitting,1.0,1
+outward pressing pain in back,sensation of plug between symphysis pubis and os coccyx,1.0,1
+outward pressing pain in back,weariness of limbs,1.0,1
+outward pressing pain in back,great toes feel sprained,1.0,1
+outward pressing pain in back,differs from aesculus in hemorrhoid character,1.0,1
+outward pressing pain in back,differs from aesculus in aggravations,1.0,1
+outward pressing pain in back,warm feet,1.0,1
+outward pressing pain in back,coccyx pain as if fallen on,1.0,1
+outward pressing pain in back,creeping in sacrum to coccyx,1.0,1
+outward pressing pain in back,heaviness in right arm,1.0,1
+outward pressing pain in back,painful weariness of limbs,1.0,1
+outward pressing pain in back,itching in back worse wet weather,1.0,1
+outward pressing pain in back,drawing in right kidney,1.0,1
+painful weariness of limbs,dull steady pain above innominata to rectum,1.0,1
+painful weariness of limbs,stitches from sacrum to loins,1.0,1
+painful weariness of limbs,weary calves,1.0,1
+painful weariness of limbs,cannot distinguish feces from flatus,1.0,1
+painful weariness of limbs,heaviness in sacral region worse sitting,1.0,1
+painful weariness of limbs,dull sticking under shoulder blades,1.0,1
+painful weariness of limbs,hemorrhoids protrude like grapes,1.0,1
+painful weariness of limbs,cracking in cervical vertebrae on motion,1.0,1
+painful weariness of limbs,bruised pain in back as after stooping,1.0,1
+painful weariness of limbs,heaviness in head,1.0,1
+painful weariness of limbs,weak ankles,1.0,1
+painful weariness of limbs,severe kidney pain,1.0,1
+painful weariness of limbs,lumbago alternating with frontal headache,1.0,1
+painful weariness of limbs,uncertain stool,1.0,1
+painful weariness of limbs,weak joints with abdominal disturbances,1.0,1
+painful weariness of limbs,fullness in back worse wet weather,1.0,1
+painful weariness of limbs,protruding hemorrhoids,1.0,1
+painful weariness of limbs,outward pressing pain in back,1.0,1
+painful weariness of limbs,lumbago with lower bowel disturbances,1.0,1
+painful weariness of limbs,weak wrist joint,1.0,1
+painful weariness of limbs,pressive sensation in right kidney,1.0,1
+painful weariness of limbs,throbbing in back worse wet weather,1.0,1
+painful weariness of limbs,painful soles,1.0,1
+painful weariness of limbs,pain in right wrist joint,1.0,1
+painful weariness of limbs,pressing in sacral region worse sitting,1.0,1
+painful weariness of limbs,sensation of plug between symphysis pubis and os coccyx,1.0,1
+painful weariness of limbs,weariness of limbs,1.0,1
+painful weariness of limbs,great toes feel sprained,1.0,1
+painful weariness of limbs,differs from aesculus in hemorrhoid character,1.0,1
+painful weariness of limbs,differs from aesculus in aggravations,1.0,1
+painful weariness of limbs,warm feet,1.0,1
+painful weariness of limbs,coccyx pain as if fallen on,1.0,1
+painful weariness of limbs,creeping in sacrum to coccyx,1.0,1
+painful weariness of limbs,heaviness in right arm,1.0,1
+painful weariness of limbs,itching in back worse wet weather,1.0,1
+painful weariness of limbs,drawing in right kidney,1.0,1
+uncertain stool,dull steady pain above innominata to rectum,1.0,1
+uncertain stool,stitches from sacrum to loins,1.0,1
+uncertain stool,weary calves,1.0,1
+uncertain stool,cannot distinguish feces from flatus,1.0,1
+uncertain stool,heaviness in sacral region worse sitting,1.0,1
+uncertain stool,dull sticking under shoulder blades,1.0,1
+uncertain stool,hemorrhoids protrude like grapes,1.0,1
+uncertain stool,cracking in cervical vertebrae on motion,1.0,1
+uncertain stool,bruised pain in back as after stooping,1.0,1
+uncertain stool,heaviness in head,1.0,1
+uncertain stool,weak ankles,1.0,1
+uncertain stool,severe kidney pain,1.0,1
+uncertain stool,lumbago alternating with frontal headache,1.0,1
+uncertain stool,weak joints with abdominal disturbances,1.0,1
+uncertain stool,fullness in back worse wet weather,1.0,1
+uncertain stool,protruding hemorrhoids,1.0,1
+uncertain stool,outward pressing pain in back,1.0,1
+uncertain stool,lumbago with lower bowel disturbances,1.0,1
+uncertain stool,weak wrist joint,1.0,1
+uncertain stool,pressive sensation in right kidney,1.0,1
+uncertain stool,throbbing in back worse wet weather,1.0,1
+uncertain stool,painful soles,1.0,1
+uncertain stool,pain in right wrist joint,1.0,1
+uncertain stool,pressing in sacral region worse sitting,1.0,1
+uncertain stool,sensation of plug between symphysis pubis and os coccyx,1.0,1
+uncertain stool,weariness of limbs,1.0,1
+uncertain stool,great toes feel sprained,1.0,1
+uncertain stool,differs from aesculus in hemorrhoid character,1.0,1
+uncertain stool,differs from aesculus in aggravations,1.0,1
+uncertain stool,warm feet,1.0,1
+uncertain stool,coccyx pain as if fallen on,1.0,1
+uncertain stool,creeping in sacrum to coccyx,1.0,1
+uncertain stool,heaviness in right arm,1.0,1
+uncertain stool,painful weariness of limbs,1.0,1
+uncertain stool,itching in back worse wet weather,1.0,1
+uncertain stool,drawing in right kidney,1.0,1
+throbbing in back worse wet weather,dull steady pain above innominata to rectum,1.0,1
+throbbing in back worse wet weather,stitches from sacrum to loins,1.0,1
+throbbing in back worse wet weather,weary calves,1.0,1
+throbbing in back worse wet weather,cannot distinguish feces from flatus,1.0,1
+throbbing in back worse wet weather,heaviness in sacral region worse sitting,1.0,1
+throbbing in back worse wet weather,dull sticking under shoulder blades,1.0,1
+throbbing in back worse wet weather,hemorrhoids protrude like grapes,1.0,1
+throbbing in back worse wet weather,cracking in cervical vertebrae on motion,1.0,1
+throbbing in back worse wet weather,bruised pain in back as after stooping,1.0,1
+throbbing in back worse wet weather,heaviness in head,1.0,1
+throbbing in back worse wet weather,weak ankles,1.0,1
+throbbing in back worse wet weather,severe kidney pain,1.0,1
+throbbing in back worse wet weather,lumbago alternating with frontal headache,1.0,1
+throbbing in back worse wet weather,uncertain stool,1.0,1
+throbbing in back worse wet weather,weak joints with abdominal disturbances,1.0,1
+throbbing in back worse wet weather,fullness in back worse wet weather,1.0,1
+throbbing in back worse wet weather,protruding hemorrhoids,1.0,1
+throbbing in back worse wet weather,outward pressing pain in back,1.0,1
+throbbing in back worse wet weather,lumbago with lower bowel disturbances,1.0,1
+throbbing in back worse wet weather,weak wrist joint,1.0,1
+throbbing in back worse wet weather,pressive sensation in right kidney,1.0,1
+throbbing in back worse wet weather,painful soles,1.0,1
+throbbing in back worse wet weather,pain in right wrist joint,1.0,1
+throbbing in back worse wet weather,pressing in sacral region worse sitting,1.0,1
+throbbing in back worse wet weather,sensation of plug between symphysis pubis and os coccyx,1.0,1
+throbbing in back worse wet weather,weariness of limbs,1.0,1
+throbbing in back worse wet weather,great toes feel sprained,1.0,1
+throbbing in back worse wet weather,differs from aesculus in hemorrhoid character,1.0,1
+throbbing in back worse wet weather,differs from aesculus in aggravations,1.0,1
+throbbing in back worse wet weather,warm feet,1.0,1
+throbbing in back worse wet weather,coccyx pain as if fallen on,1.0,1
+throbbing in back worse wet weather,creeping in sacrum to coccyx,1.0,1
+throbbing in back worse wet weather,heaviness in right arm,1.0,1
+throbbing in back worse wet weather,painful weariness of limbs,1.0,1
+throbbing in back worse wet weather,itching in back worse wet weather,1.0,1
+throbbing in back worse wet weather,drawing in right kidney,1.0,1
+creeping in sacrum to coccyx,dull steady pain above innominata to rectum,1.0,1
+creeping in sacrum to coccyx,stitches from sacrum to loins,1.0,1
+creeping in sacrum to coccyx,weary calves,1.0,1
+creeping in sacrum to coccyx,cannot distinguish feces from flatus,1.0,1
+creeping in sacrum to coccyx,heaviness in sacral region worse sitting,1.0,1
+creeping in sacrum to coccyx,dull sticking under shoulder blades,1.0,1
+creeping in sacrum to coccyx,hemorrhoids protrude like grapes,1.0,1
+creeping in sacrum to coccyx,cracking in cervical vertebrae on motion,1.0,1
+creeping in sacrum to coccyx,bruised pain in back as after stooping,1.0,1
+creeping in sacrum to coccyx,heaviness in head,1.0,1
+creeping in sacrum to coccyx,weak ankles,1.0,1
+creeping in sacrum to coccyx,severe kidney pain,1.0,1
+creeping in sacrum to coccyx,lumbago alternating with frontal headache,1.0,1
+creeping in sacrum to coccyx,uncertain stool,1.0,1
+creeping in sacrum to coccyx,weak joints with abdominal disturbances,1.0,1
+creeping in sacrum to coccyx,fullness in back worse wet weather,1.0,1
+creeping in sacrum to coccyx,protruding hemorrhoids,1.0,1
+creeping in sacrum to coccyx,outward pressing pain in back,1.0,1
+creeping in sacrum to coccyx,lumbago with lower bowel disturbances,1.0,1
+creeping in sacrum to coccyx,weak wrist joint,1.0,1
+creeping in sacrum to coccyx,pressive sensation in right kidney,1.0,1
+creeping in sacrum to coccyx,throbbing in back worse wet weather,1.0,1
+creeping in sacrum to coccyx,painful soles,1.0,1
+creeping in sacrum to coccyx,pain in right wrist joint,1.0,1
+creeping in sacrum to coccyx,pressing in sacral region worse sitting,1.0,1
+creeping in sacrum to coccyx,sensation of plug between symphysis pubis and os coccyx,1.0,1
+creeping in sacrum to coccyx,weariness of limbs,1.0,1
+creeping in sacrum to coccyx,great toes feel sprained,1.0,1
+creeping in sacrum to coccyx,differs from aesculus in hemorrhoid character,1.0,1
+creeping in sacrum to coccyx,differs from aesculus in aggravations,1.0,1
+creeping in sacrum to coccyx,warm feet,1.0,1
+creeping in sacrum to coccyx,coccyx pain as if fallen on,1.0,1
+creeping in sacrum to coccyx,heaviness in right arm,1.0,1
+creeping in sacrum to coccyx,painful weariness of limbs,1.0,1
+creeping in sacrum to coccyx,itching in back worse wet weather,1.0,1
+creeping in sacrum to coccyx,drawing in right kidney,1.0,1
+fullness in back worse wet weather,dull steady pain above innominata to rectum,1.0,1
+fullness in back worse wet weather,stitches from sacrum to loins,1.0,1
+fullness in back worse wet weather,weary calves,1.0,1
+fullness in back worse wet weather,cannot distinguish feces from flatus,1.0,1
+fullness in back worse wet weather,heaviness in sacral region worse sitting,1.0,1
+fullness in back worse wet weather,dull sticking under shoulder blades,1.0,1
+fullness in back worse wet weather,hemorrhoids protrude like grapes,1.0,1
+fullness in back worse wet weather,cracking in cervical vertebrae on motion,1.0,1
+fullness in back worse wet weather,bruised pain in back as after stooping,1.0,1
+fullness in back worse wet weather,heaviness in head,1.0,1
+fullness in back worse wet weather,weak ankles,1.0,1
+fullness in back worse wet weather,severe kidney pain,1.0,1
+fullness in back worse wet weather,lumbago alternating with frontal headache,1.0,1
+fullness in back worse wet weather,uncertain stool,1.0,1
+fullness in back worse wet weather,weak joints with abdominal disturbances,1.0,1
+fullness in back worse wet weather,protruding hemorrhoids,1.0,1
+fullness in back worse wet weather,outward pressing pain in back,1.0,1
+fullness in back worse wet weather,lumbago with lower bowel disturbances,1.0,1
+fullness in back worse wet weather,weak wrist joint,1.0,1
+fullness in back worse wet weather,pressive sensation in right kidney,1.0,1
+fullness in back worse wet weather,throbbing in back worse wet weather,1.0,1
+fullness in back worse wet weather,painful soles,1.0,1
+fullness in back worse wet weather,pain in right wrist joint,1.0,1
+fullness in back worse wet weather,pressing in sacral region worse sitting,1.0,1
+fullness in back worse wet weather,sensation of plug between symphysis pubis and os coccyx,1.0,1
+fullness in back worse wet weather,weariness of limbs,1.0,1
+fullness in back worse wet weather,great toes feel sprained,1.0,1
+fullness in back worse wet weather,differs from aesculus in hemorrhoid character,1.0,1
+fullness in back worse wet weather,differs from aesculus in aggravations,1.0,1
+fullness in back worse wet weather,warm feet,1.0,1
+fullness in back worse wet weather,coccyx pain as if fallen on,1.0,1
+fullness in back worse wet weather,creeping in sacrum to coccyx,1.0,1
+fullness in back worse wet weather,heaviness in right arm,1.0,1
+fullness in back worse wet weather,painful weariness of limbs,1.0,1
+fullness in back worse wet weather,itching in back worse wet weather,1.0,1
+fullness in back worse wet weather,drawing in right kidney,1.0,1
+weak wrist joint,dull steady pain above innominata to rectum,1.0,1
+weak wrist joint,stitches from sacrum to loins,1.0,1
+weak wrist joint,weary calves,1.0,1
+weak wrist joint,cannot distinguish feces from flatus,1.0,1
+weak wrist joint,heaviness in sacral region worse sitting,1.0,1
+weak wrist joint,dull sticking under shoulder blades,1.0,1
+weak wrist joint,hemorrhoids protrude like grapes,1.0,1
+weak wrist joint,cracking in cervical vertebrae on motion,1.0,1
+weak wrist joint,bruised pain in back as after stooping,1.0,1
+weak wrist joint,heaviness in head,1.0,1
+weak wrist joint,weak ankles,1.0,1
+weak wrist joint,severe kidney pain,1.0,1
+weak wrist joint,lumbago alternating with frontal headache,1.0,1
+weak wrist joint,uncertain stool,1.0,1
+weak wrist joint,weak joints with abdominal disturbances,1.0,1
+weak wrist joint,fullness in back worse wet weather,1.0,1
+weak wrist joint,protruding hemorrhoids,1.0,1
+weak wrist joint,outward pressing pain in back,1.0,1
+weak wrist joint,lumbago with lower bowel disturbances,1.0,1
+weak wrist joint,pressive sensation in right kidney,1.0,1
+weak wrist joint,throbbing in back worse wet weather,1.0,1
+weak wrist joint,painful soles,1.0,1
+weak wrist joint,pain in right wrist joint,1.0,1
+weak wrist joint,pressing in sacral region worse sitting,1.0,1
+weak wrist joint,sensation of plug between symphysis pubis and os coccyx,1.0,1
+weak wrist joint,weariness of limbs,1.0,1
+weak wrist joint,great toes feel sprained,1.0,1
+weak wrist joint,differs from aesculus in hemorrhoid character,1.0,1
+weak wrist joint,differs from aesculus in aggravations,1.0,1
+weak wrist joint,warm feet,1.0,1
+weak wrist joint,coccyx pain as if fallen on,1.0,1
+weak wrist joint,creeping in sacrum to coccyx,1.0,1
+weak wrist joint,heaviness in right arm,1.0,1
+weak wrist joint,painful weariness of limbs,1.0,1
+weak wrist joint,itching in back worse wet weather,1.0,1
+weak wrist joint,drawing in right kidney,1.0,1
+bruised pain in back as after stooping,dull steady pain above innominata to rectum,1.0,1
+bruised pain in back as after stooping,stitches from sacrum to loins,1.0,1
+bruised pain in back as after stooping,weary calves,1.0,1
+bruised pain in back as after stooping,cannot distinguish feces from flatus,1.0,1
+bruised pain in back as after stooping,heaviness in sacral region worse sitting,1.0,1
+bruised pain in back as after stooping,dull sticking under shoulder blades,1.0,1
+bruised pain in back as after stooping,hemorrhoids protrude like grapes,1.0,1
+bruised pain in back as after stooping,cracking in cervical vertebrae on motion,1.0,1
+bruised pain in back as after stooping,heaviness in head,1.0,1
+bruised pain in back as after stooping,weak ankles,1.0,1
+bruised pain in back as after stooping,severe kidney pain,1.0,1
+bruised pain in back as after stooping,lumbago alternating with frontal headache,1.0,1
+bruised pain in back as after stooping,uncertain stool,1.0,1
+bruised pain in back as after stooping,weak joints with abdominal disturbances,1.0,1
+bruised pain in back as after stooping,fullness in back worse wet weather,1.0,1
+bruised pain in back as after stooping,protruding hemorrhoids,1.0,1
+bruised pain in back as after stooping,outward pressing pain in back,1.0,1
+bruised pain in back as after stooping,lumbago with lower bowel disturbances,1.0,1
+bruised pain in back as after stooping,weak wrist joint,1.0,1
+bruised pain in back as after stooping,pressive sensation in right kidney,1.0,1
+bruised pain in back as after stooping,throbbing in back worse wet weather,1.0,1
+bruised pain in back as after stooping,painful soles,1.0,1
+bruised pain in back as after stooping,pain in right wrist joint,1.0,1
+bruised pain in back as after stooping,pressing in sacral region worse sitting,1.0,1
+bruised pain in back as after stooping,sensation of plug between symphysis pubis and os coccyx,1.0,1
+bruised pain in back as after stooping,weariness of limbs,1.0,1
+bruised pain in back as after stooping,great toes feel sprained,1.0,1
+bruised pain in back as after stooping,differs from aesculus in hemorrhoid character,1.0,1
+bruised pain in back as after stooping,differs from aesculus in aggravations,1.0,1
+bruised pain in back as after stooping,warm feet,1.0,1
+bruised pain in back as after stooping,coccyx pain as if fallen on,1.0,1
+bruised pain in back as after stooping,creeping in sacrum to coccyx,1.0,1
+bruised pain in back as after stooping,heaviness in right arm,1.0,1
+bruised pain in back as after stooping,painful weariness of limbs,1.0,1
+bruised pain in back as after stooping,itching in back worse wet weather,1.0,1
+bruised pain in back as after stooping,drawing in right kidney,1.0,1
+differs from aesculus in aggravations,dull steady pain above innominata to rectum,1.0,1
+differs from aesculus in aggravations,stitches from sacrum to loins,1.0,1
+differs from aesculus in aggravations,weary calves,1.0,1
+differs from aesculus in aggravations,cannot distinguish feces from flatus,1.0,1
+differs from aesculus in aggravations,heaviness in sacral region worse sitting,1.0,1
+differs from aesculus in aggravations,dull sticking under shoulder blades,1.0,1
+differs from aesculus in aggravations,hemorrhoids protrude like grapes,1.0,1
+differs from aesculus in aggravations,cracking in cervical vertebrae on motion,1.0,1
+differs from aesculus in aggravations,bruised pain in back as after stooping,1.0,1
+differs from aesculus in aggravations,heaviness in head,1.0,1
+differs from aesculus in aggravations,weak ankles,1.0,1
+differs from aesculus in aggravations,severe kidney pain,1.0,1
+differs from aesculus in aggravations,lumbago alternating with frontal headache,1.0,1
+differs from aesculus in aggravations,uncertain stool,1.0,1
+differs from aesculus in aggravations,weak joints with abdominal disturbances,1.0,1
+differs from aesculus in aggravations,fullness in back worse wet weather,1.0,1
+differs from aesculus in aggravations,protruding hemorrhoids,1.0,1
+differs from aesculus in aggravations,outward pressing pain in back,1.0,1
+differs from aesculus in aggravations,lumbago with lower bowel disturbances,1.0,1
+differs from aesculus in aggravations,weak wrist joint,1.0,1
+differs from aesculus in aggravations,pressive sensation in right kidney,1.0,1
+differs from aesculus in aggravations,throbbing in back worse wet weather,1.0,1
+differs from aesculus in aggravations,painful soles,1.0,1
+differs from aesculus in aggravations,pain in right wrist joint,1.0,1
+differs from aesculus in aggravations,pressing in sacral region worse sitting,1.0,1
+differs from aesculus in aggravations,sensation of plug between symphysis pubis and os coccyx,1.0,1
+differs from aesculus in aggravations,weariness of limbs,1.0,1
+differs from aesculus in aggravations,great toes feel sprained,1.0,1
+differs from aesculus in aggravations,differs from aesculus in hemorrhoid character,1.0,1
+differs from aesculus in aggravations,warm feet,1.0,1
+differs from aesculus in aggravations,coccyx pain as if fallen on,1.0,1
+differs from aesculus in aggravations,creeping in sacrum to coccyx,1.0,1
+differs from aesculus in aggravations,heaviness in right arm,1.0,1
+differs from aesculus in aggravations,painful weariness of limbs,1.0,1
+differs from aesculus in aggravations,itching in back worse wet weather,1.0,1
+differs from aesculus in aggravations,drawing in right kidney,1.0,1
+stitches from sacrum to loins,dull steady pain above innominata to rectum,1.0,1
+stitches from sacrum to loins,weary calves,1.0,1
+stitches from sacrum to loins,cannot distinguish feces from flatus,1.0,1
+stitches from sacrum to loins,heaviness in sacral region worse sitting,1.0,1
+stitches from sacrum to loins,dull sticking under shoulder blades,1.0,1
+stitches from sacrum to loins,hemorrhoids protrude like grapes,1.0,1
+stitches from sacrum to loins,cracking in cervical vertebrae on motion,1.0,1
+stitches from sacrum to loins,bruised pain in back as after stooping,1.0,1
+stitches from sacrum to loins,heaviness in head,1.0,1
+stitches from sacrum to loins,weak ankles,1.0,1
+stitches from sacrum to loins,severe kidney pain,1.0,1
+stitches from sacrum to loins,lumbago alternating with frontal headache,1.0,1
+stitches from sacrum to loins,uncertain stool,1.0,1
+stitches from sacrum to loins,weak joints with abdominal disturbances,1.0,1
+stitches from sacrum to loins,fullness in back worse wet weather,1.0,1
+stitches from sacrum to loins,protruding hemorrhoids,1.0,1
+stitches from sacrum to loins,outward pressing pain in back,1.0,1
+stitches from sacrum to loins,lumbago with lower bowel disturbances,1.0,1
+stitches from sacrum to loins,weak wrist joint,1.0,1
+stitches from sacrum to loins,pressive sensation in right kidney,1.0,1
+stitches from sacrum to loins,throbbing in back worse wet weather,1.0,1
+stitches from sacrum to loins,painful soles,1.0,1
+stitches from sacrum to loins,pain in right wrist joint,1.0,1
+stitches from sacrum to loins,pressing in sacral region worse sitting,1.0,1
+stitches from sacrum to loins,sensation of plug between symphysis pubis and os coccyx,1.0,1
+stitches from sacrum to loins,weariness of limbs,1.0,1
+stitches from sacrum to loins,great toes feel sprained,1.0,1
+stitches from sacrum to loins,differs from aesculus in hemorrhoid character,1.0,1
+stitches from sacrum to loins,differs from aesculus in aggravations,1.0,1
+stitches from sacrum to loins,warm feet,1.0,1
+stitches from sacrum to loins,coccyx pain as if fallen on,1.0,1
+stitches from sacrum to loins,creeping in sacrum to coccyx,1.0,1
+stitches from sacrum to loins,heaviness in right arm,1.0,1
+stitches from sacrum to loins,painful weariness of limbs,1.0,1
+stitches from sacrum to loins,itching in back worse wet weather,1.0,1
+stitches from sacrum to loins,drawing in right kidney,1.0,1
+weariness of limbs,dull steady pain above innominata to rectum,1.0,1
+weariness of limbs,stitches from sacrum to loins,1.0,1
+weariness of limbs,weary calves,1.0,1
+weariness of limbs,cannot distinguish feces from flatus,1.0,1
+weariness of limbs,heaviness in sacral region worse sitting,1.0,1
+weariness of limbs,dull sticking under shoulder blades,1.0,1
+weariness of limbs,hemorrhoids protrude like grapes,1.0,1
+weariness of limbs,cracking in cervical vertebrae on motion,1.0,1
+weariness of limbs,bruised pain in back as after stooping,1.0,1
+weariness of limbs,heaviness in head,1.0,1
+weariness of limbs,weak ankles,1.0,1
+weariness of limbs,severe kidney pain,1.0,1
+weariness of limbs,lumbago alternating with frontal headache,1.0,1
+weariness of limbs,uncertain stool,1.0,1
+weariness of limbs,weak joints with abdominal disturbances,1.0,1
+weariness of limbs,fullness in back worse wet weather,1.0,1
+weariness of limbs,protruding hemorrhoids,1.0,1
+weariness of limbs,outward pressing pain in back,1.0,1
+weariness of limbs,lumbago with lower bowel disturbances,1.0,1
+weariness of limbs,weak wrist joint,1.0,1
+weariness of limbs,pressive sensation in right kidney,1.0,1
+weariness of limbs,throbbing in back worse wet weather,1.0,1
+weariness of limbs,painful soles,1.0,1
+weariness of limbs,pain in right wrist joint,1.0,1
+weariness of limbs,pressing in sacral region worse sitting,1.0,1
+weariness of limbs,sensation of plug between symphysis pubis and os coccyx,1.0,1
+weariness of limbs,great toes feel sprained,1.0,1
+weariness of limbs,differs from aesculus in hemorrhoid character,1.0,1
+weariness of limbs,differs from aesculus in aggravations,1.0,1
+weariness of limbs,warm feet,1.0,1
+weariness of limbs,coccyx pain as if fallen on,1.0,1
+weariness of limbs,creeping in sacrum to coccyx,1.0,1
+weariness of limbs,heaviness in right arm,1.0,1
+weariness of limbs,painful weariness of limbs,1.0,1
+weariness of limbs,itching in back worse wet weather,1.0,1
+weariness of limbs,drawing in right kidney,1.0,1
+hemorrhoids protrude like grapes,dull steady pain above innominata to rectum,1.0,1
+hemorrhoids protrude like grapes,stitches from sacrum to loins,1.0,1
+hemorrhoids protrude like grapes,weary calves,1.0,1
+hemorrhoids protrude like grapes,cannot distinguish feces from flatus,1.0,1
+hemorrhoids protrude like grapes,heaviness in sacral region worse sitting,1.0,1
+hemorrhoids protrude like grapes,dull sticking under shoulder blades,1.0,1
+hemorrhoids protrude like grapes,cracking in cervical vertebrae on motion,1.0,1
+hemorrhoids protrude like grapes,bruised pain in back as after stooping,1.0,1
+hemorrhoids protrude like grapes,heaviness in head,1.0,1
+hemorrhoids protrude like grapes,weak ankles,1.0,1
+hemorrhoids protrude like grapes,severe kidney pain,1.0,1
+hemorrhoids protrude like grapes,lumbago alternating with frontal headache,1.0,1
+hemorrhoids protrude like grapes,uncertain stool,1.0,1
+hemorrhoids protrude like grapes,weak joints with abdominal disturbances,1.0,1
+hemorrhoids protrude like grapes,fullness in back worse wet weather,1.0,1
+hemorrhoids protrude like grapes,protruding hemorrhoids,1.0,1
+hemorrhoids protrude like grapes,outward pressing pain in back,1.0,1
+hemorrhoids protrude like grapes,lumbago with lower bowel disturbances,1.0,1
+hemorrhoids protrude like grapes,weak wrist joint,1.0,1
+hemorrhoids protrude like grapes,pressive sensation in right kidney,1.0,1
+hemorrhoids protrude like grapes,throbbing in back worse wet weather,1.0,1
+hemorrhoids protrude like grapes,painful soles,1.0,1
+hemorrhoids protrude like grapes,pain in right wrist joint,1.0,1
+hemorrhoids protrude like grapes,pressing in sacral region worse sitting,1.0,1
+hemorrhoids protrude like grapes,sensation of plug between symphysis pubis and os coccyx,1.0,1
+hemorrhoids protrude like grapes,weariness of limbs,1.0,1
+hemorrhoids protrude like grapes,great toes feel sprained,1.0,1
+hemorrhoids protrude like grapes,differs from aesculus in hemorrhoid character,1.0,1
+hemorrhoids protrude like grapes,differs from aesculus in aggravations,1.0,1
+hemorrhoids protrude like grapes,warm feet,1.0,1
+hemorrhoids protrude like grapes,coccyx pain as if fallen on,1.0,1
+hemorrhoids protrude like grapes,creeping in sacrum to coccyx,1.0,1
+hemorrhoids protrude like grapes,heaviness in right arm,1.0,1
+hemorrhoids protrude like grapes,painful weariness of limbs,1.0,1
+hemorrhoids protrude like grapes,itching in back worse wet weather,1.0,1
+hemorrhoids protrude like grapes,drawing in right kidney,1.0,1
+heaviness in sacral region worse sitting,dull steady pain above innominata to rectum,1.0,1
+heaviness in sacral region worse sitting,stitches from sacrum to loins,1.0,1
+heaviness in sacral region worse sitting,weary calves,1.0,1
+heaviness in sacral region worse sitting,cannot distinguish feces from flatus,1.0,1
+heaviness in sacral region worse sitting,dull sticking under shoulder blades,1.0,1
+heaviness in sacral region worse sitting,hemorrhoids protrude like grapes,1.0,1
+heaviness in sacral region worse sitting,cracking in cervical vertebrae on motion,1.0,1
+heaviness in sacral region worse sitting,bruised pain in back as after stooping,1.0,1
+heaviness in sacral region worse sitting,heaviness in head,1.0,1
+heaviness in sacral region worse sitting,weak ankles,1.0,1
+heaviness in sacral region worse sitting,severe kidney pain,1.0,1
+heaviness in sacral region worse sitting,lumbago alternating with frontal headache,1.0,1
+heaviness in sacral region worse sitting,uncertain stool,1.0,1
+heaviness in sacral region worse sitting,weak joints with abdominal disturbances,1.0,1
+heaviness in sacral region worse sitting,fullness in back worse wet weather,1.0,1
+heaviness in sacral region worse sitting,protruding hemorrhoids,1.0,1
+heaviness in sacral region worse sitting,outward pressing pain in back,1.0,1
+heaviness in sacral region worse sitting,lumbago with lower bowel disturbances,1.0,1
+heaviness in sacral region worse sitting,weak wrist joint,1.0,1
+heaviness in sacral region worse sitting,pressive sensation in right kidney,1.0,1
+heaviness in sacral region worse sitting,throbbing in back worse wet weather,1.0,1
+heaviness in sacral region worse sitting,painful soles,1.0,1
+heaviness in sacral region worse sitting,pain in right wrist joint,1.0,1
+heaviness in sacral region worse sitting,pressing in sacral region worse sitting,1.0,1
+heaviness in sacral region worse sitting,sensation of plug between symphysis pubis and os coccyx,1.0,1
+heaviness in sacral region worse sitting,weariness of limbs,1.0,1
+heaviness in sacral region worse sitting,great toes feel sprained,1.0,1
+heaviness in sacral region worse sitting,differs from aesculus in hemorrhoid character,1.0,1
+heaviness in sacral region worse sitting,differs from aesculus in aggravations,1.0,1
+heaviness in sacral region worse sitting,warm feet,1.0,1
+heaviness in sacral region worse sitting,coccyx pain as if fallen on,1.0,1
+heaviness in sacral region worse sitting,creeping in sacrum to coccyx,1.0,1
+heaviness in sacral region worse sitting,heaviness in right arm,1.0,1
+heaviness in sacral region worse sitting,painful weariness of limbs,1.0,1
+heaviness in sacral region worse sitting,itching in back worse wet weather,1.0,1
+heaviness in sacral region worse sitting,drawing in right kidney,1.0,1
+painful soles,dull steady pain above innominata to rectum,1.0,1
+painful soles,stitches from sacrum to loins,1.0,1
+painful soles,weary calves,1.0,1
+painful soles,cannot distinguish feces from flatus,1.0,1
+painful soles,heaviness in sacral region worse sitting,1.0,1
+painful soles,dull sticking under shoulder blades,1.0,1
+painful soles,hemorrhoids protrude like grapes,1.0,1
+painful soles,cracking in cervical vertebrae on motion,1.0,1
+painful soles,bruised pain in back as after stooping,1.0,1
+painful soles,heaviness in head,1.0,1
+painful soles,weak ankles,1.0,1
+painful soles,severe kidney pain,1.0,1
+painful soles,lumbago alternating with frontal headache,1.0,1
+painful soles,uncertain stool,1.0,1
+painful soles,weak joints with abdominal disturbances,1.0,1
+painful soles,fullness in back worse wet weather,1.0,1
+painful soles,protruding hemorrhoids,1.0,1
+painful soles,outward pressing pain in back,1.0,1
+painful soles,lumbago with lower bowel disturbances,1.0,1
+painful soles,weak wrist joint,1.0,1
+painful soles,pressive sensation in right kidney,1.0,1
+painful soles,throbbing in back worse wet weather,1.0,1
+painful soles,pain in right wrist joint,1.0,1
+painful soles,pressing in sacral region worse sitting,1.0,1
+painful soles,sensation of plug between symphysis pubis and os coccyx,1.0,1
+painful soles,weariness of limbs,1.0,1
+painful soles,great toes feel sprained,1.0,1
+painful soles,differs from aesculus in hemorrhoid character,1.0,1
+painful soles,differs from aesculus in aggravations,1.0,1
+painful soles,warm feet,1.0,1
+painful soles,coccyx pain as if fallen on,1.0,1
+painful soles,creeping in sacrum to coccyx,1.0,1
+painful soles,heaviness in right arm,1.0,1
+painful soles,painful weariness of limbs,1.0,1
+painful soles,itching in back worse wet weather,1.0,1
+painful soles,drawing in right kidney,1.0,1
+great toes feel sprained,dull steady pain above innominata to rectum,1.0,1
+great toes feel sprained,stitches from sacrum to loins,1.0,1
+great toes feel sprained,weary calves,1.0,1
+great toes feel sprained,cannot distinguish feces from flatus,1.0,1
+great toes feel sprained,heaviness in sacral region worse sitting,1.0,1
+great toes feel sprained,dull sticking under shoulder blades,1.0,1
+great toes feel sprained,hemorrhoids protrude like grapes,1.0,1
+great toes feel sprained,cracking in cervical vertebrae on motion,1.0,1
+great toes feel sprained,bruised pain in back as after stooping,1.0,1
+great toes feel sprained,heaviness in head,1.0,1
+great toes feel sprained,weak ankles,1.0,1
+great toes feel sprained,severe kidney pain,1.0,1
+great toes feel sprained,lumbago alternating with frontal headache,1.0,1
+great toes feel sprained,uncertain stool,1.0,1
+great toes feel sprained,weak joints with abdominal disturbances,1.0,1
+great toes feel sprained,fullness in back worse wet weather,1.0,1
+great toes feel sprained,protruding hemorrhoids,1.0,1
+great toes feel sprained,outward pressing pain in back,1.0,1
+great toes feel sprained,lumbago with lower bowel disturbances,1.0,1
+great toes feel sprained,weak wrist joint,1.0,1
+great toes feel sprained,pressive sensation in right kidney,1.0,1
+great toes feel sprained,throbbing in back worse wet weather,1.0,1
+great toes feel sprained,painful soles,1.0,1
+great toes feel sprained,pain in right wrist joint,1.0,1
+great toes feel sprained,pressing in sacral region worse sitting,1.0,1
+great toes feel sprained,sensation of plug between symphysis pubis and os coccyx,1.0,1
+great toes feel sprained,weariness of limbs,1.0,1
+great toes feel sprained,differs from aesculus in hemorrhoid character,1.0,1
+great toes feel sprained,differs from aesculus in aggravations,1.0,1
+great toes feel sprained,warm feet,1.0,1
+great toes feel sprained,coccyx pain as if fallen on,1.0,1
+great toes feel sprained,creeping in sacrum to coccyx,1.0,1
+great toes feel sprained,heaviness in right arm,1.0,1
+great toes feel sprained,painful weariness of limbs,1.0,1
+great toes feel sprained,itching in back worse wet weather,1.0,1
+great toes feel sprained,drawing in right kidney,1.0,1
+lumbago with lower bowel disturbances,dull steady pain above innominata to rectum,1.0,1
+lumbago with lower bowel disturbances,stitches from sacrum to loins,1.0,1
+lumbago with lower bowel disturbances,weary calves,1.0,1
+lumbago with lower bowel disturbances,cannot distinguish feces from flatus,1.0,1
+lumbago with lower bowel disturbances,heaviness in sacral region worse sitting,1.0,1
+lumbago with lower bowel disturbances,dull sticking under shoulder blades,1.0,1
+lumbago with lower bowel disturbances,hemorrhoids protrude like grapes,1.0,1
+lumbago with lower bowel disturbances,cracking in cervical vertebrae on motion,1.0,1
+lumbago with lower bowel disturbances,bruised pain in back as after stooping,1.0,1
+lumbago with lower bowel disturbances,heaviness in head,1.0,1
+lumbago with lower bowel disturbances,weak ankles,1.0,1
+lumbago with lower bowel disturbances,severe kidney pain,1.0,1
+lumbago with lower bowel disturbances,lumbago alternating with frontal headache,1.0,1
+lumbago with lower bowel disturbances,uncertain stool,1.0,1
+lumbago with lower bowel disturbances,weak joints with abdominal disturbances,1.0,1
+lumbago with lower bowel disturbances,fullness in back worse wet weather,1.0,1
+lumbago with lower bowel disturbances,protruding hemorrhoids,1.0,1
+lumbago with lower bowel disturbances,outward pressing pain in back,1.0,1
+lumbago with lower bowel disturbances,weak wrist joint,1.0,1
+lumbago with lower bowel disturbances,pressive sensation in right kidney,1.0,1
+lumbago with lower bowel disturbances,throbbing in back worse wet weather,1.0,1
+lumbago with lower bowel disturbances,painful soles,1.0,1
+lumbago with lower bowel disturbances,pain in right wrist joint,1.0,1
+lumbago with lower bowel disturbances,pressing in sacral region worse sitting,1.0,1
+lumbago with lower bowel disturbances,sensation of plug between symphysis pubis and os coccyx,1.0,1
+lumbago with lower bowel disturbances,weariness of limbs,1.0,1
+lumbago with lower bowel disturbances,great toes feel sprained,1.0,1
+lumbago with lower bowel disturbances,differs from aesculus in hemorrhoid character,1.0,1
+lumbago with lower bowel disturbances,differs from aesculus in aggravations,1.0,1
+lumbago with lower bowel disturbances,warm feet,1.0,1
+lumbago with lower bowel disturbances,coccyx pain as if fallen on,1.0,1
+lumbago with lower bowel disturbances,creeping in sacrum to coccyx,1.0,1
+lumbago with lower bowel disturbances,heaviness in right arm,1.0,1
+lumbago with lower bowel disturbances,painful weariness of limbs,1.0,1
+lumbago with lower bowel disturbances,itching in back worse wet weather,1.0,1
+lumbago with lower bowel disturbances,drawing in right kidney,1.0,1
+weak ankles,dull steady pain above innominata to rectum,1.0,1
+weak ankles,stitches from sacrum to loins,1.0,1
+weak ankles,weary calves,1.0,1
+weak ankles,cannot distinguish feces from flatus,1.0,1
+weak ankles,heaviness in sacral region worse sitting,1.0,1
+weak ankles,dull sticking under shoulder blades,1.0,1
+weak ankles,hemorrhoids protrude like grapes,1.0,1
+weak ankles,cracking in cervical vertebrae on motion,1.0,1
+weak ankles,bruised pain in back as after stooping,1.0,1
+weak ankles,heaviness in head,1.0,1
+weak ankles,severe kidney pain,1.0,1
+weak ankles,lumbago alternating with frontal headache,1.0,1
+weak ankles,uncertain stool,1.0,1
+weak ankles,weak joints with abdominal disturbances,1.0,1
+weak ankles,fullness in back worse wet weather,1.0,1
+weak ankles,protruding hemorrhoids,1.0,1
+weak ankles,outward pressing pain in back,1.0,1
+weak ankles,lumbago with lower bowel disturbances,1.0,1
+weak ankles,weak wrist joint,1.0,1
+weak ankles,pressive sensation in right kidney,1.0,1
+weak ankles,throbbing in back worse wet weather,1.0,1
+weak ankles,painful soles,1.0,1
+weak ankles,pain in right wrist joint,1.0,1
+weak ankles,pressing in sacral region worse sitting,1.0,1
+weak ankles,sensation of plug between symphysis pubis and os coccyx,1.0,1
+weak ankles,weariness of limbs,1.0,1
+weak ankles,great toes feel sprained,1.0,1
+weak ankles,differs from aesculus in hemorrhoid character,1.0,1
+weak ankles,differs from aesculus in aggravations,1.0,1
+weak ankles,warm feet,1.0,1
+weak ankles,coccyx pain as if fallen on,1.0,1
+weak ankles,creeping in sacrum to coccyx,1.0,1
+weak ankles,heaviness in right arm,1.0,1
+weak ankles,painful weariness of limbs,1.0,1
+weak ankles,itching in back worse wet weather,1.0,1
+weak ankles,drawing in right kidney,1.0,1
+sensation of plug between symphysis pubis and os coccyx,dull steady pain above innominata to rectum,1.0,1
+sensation of plug between symphysis pubis and os coccyx,stitches from sacrum to loins,1.0,1
+sensation of plug between symphysis pubis and os coccyx,weary calves,1.0,1
+sensation of plug between symphysis pubis and os coccyx,cannot distinguish feces from flatus,1.0,1
+sensation of plug between symphysis pubis and os coccyx,heaviness in sacral region worse sitting,1.0,1
+sensation of plug between symphysis pubis and os coccyx,dull sticking under shoulder blades,1.0,1
+sensation of plug between symphysis pubis and os coccyx,hemorrhoids protrude like grapes,1.0,1
+sensation of plug between symphysis pubis and os coccyx,cracking in cervical vertebrae on motion,1.0,1
+sensation of plug between symphysis pubis and os coccyx,bruised pain in back as after stooping,1.0,1
+sensation of plug between symphysis pubis and os coccyx,heaviness in head,1.0,1
+sensation of plug between symphysis pubis and os coccyx,weak ankles,1.0,1
+sensation of plug between symphysis pubis and os coccyx,severe kidney pain,1.0,1
+sensation of plug between symphysis pubis and os coccyx,lumbago alternating with frontal headache,1.0,1
+sensation of plug between symphysis pubis and os coccyx,uncertain stool,1.0,1
+sensation of plug between symphysis pubis and os coccyx,weak joints with abdominal disturbances,1.0,1
+sensation of plug between symphysis pubis and os coccyx,fullness in back worse wet weather,1.0,1
+sensation of plug between symphysis pubis and os coccyx,protruding hemorrhoids,1.0,1
+sensation of plug between symphysis pubis and os coccyx,outward pressing pain in back,1.0,1
+sensation of plug between symphysis pubis and os coccyx,lumbago with lower bowel disturbances,1.0,1
+sensation of plug between symphysis pubis and os coccyx,weak wrist joint,1.0,1
+sensation of plug between symphysis pubis and os coccyx,pressive sensation in right kidney,1.0,1
+sensation of plug between symphysis pubis and os coccyx,throbbing in back worse wet weather,1.0,1
+sensation of plug between symphysis pubis and os coccyx,painful soles,1.0,1
+sensation of plug between symphysis pubis and os coccyx,pain in right wrist joint,1.0,1
+sensation of plug between symphysis pubis and os coccyx,pressing in sacral region worse sitting,1.0,1
+sensation of plug between symphysis pubis and os coccyx,weariness of limbs,1.0,1
+sensation of plug between symphysis pubis and os coccyx,great toes feel sprained,1.0,1
+sensation of plug between symphysis pubis and os coccyx,differs from aesculus in hemorrhoid character,1.0,1
+sensation of plug between symphysis pubis and os coccyx,differs from aesculus in aggravations,1.0,1
+sensation of plug between symphysis pubis and os coccyx,warm feet,1.0,1
+sensation of plug between symphysis pubis and os coccyx,coccyx pain as if fallen on,1.0,1
+sensation of plug between symphysis pubis and os coccyx,creeping in sacrum to coccyx,1.0,1
+sensation of plug between symphysis pubis and os coccyx,heaviness in right arm,1.0,1
+sensation of plug between symphysis pubis and os coccyx,painful weariness of limbs,1.0,1
+sensation of plug between symphysis pubis and os coccyx,itching in back worse wet weather,1.0,1
+sensation of plug between symphysis pubis and os coccyx,drawing in right kidney,1.0,1
+pain in right wrist joint,dull steady pain above innominata to rectum,1.0,1
+pain in right wrist joint,stitches from sacrum to loins,1.0,1
+pain in right wrist joint,weary calves,1.0,1
+pain in right wrist joint,cannot distinguish feces from flatus,1.0,1
+pain in right wrist joint,heaviness in sacral region worse sitting,1.0,1
+pain in right wrist joint,dull sticking under shoulder blades,1.0,1
+pain in right wrist joint,hemorrhoids protrude like grapes,1.0,1
+pain in right wrist joint,cracking in cervical vertebrae on motion,1.0,1
+pain in right wrist joint,bruised pain in back as after stooping,1.0,1
+pain in right wrist joint,heaviness in head,1.0,1
+pain in right wrist joint,weak ankles,1.0,1
+pain in right wrist joint,severe kidney pain,1.0,1
+pain in right wrist joint,lumbago alternating with frontal headache,1.0,1
+pain in right wrist joint,uncertain stool,1.0,1
+pain in right wrist joint,weak joints with abdominal disturbances,1.0,1
+pain in right wrist joint,fullness in back worse wet weather,1.0,1
+pain in right wrist joint,protruding hemorrhoids,1.0,1
+pain in right wrist joint,outward pressing pain in back,1.0,1
+pain in right wrist joint,lumbago with lower bowel disturbances,1.0,1
+pain in right wrist joint,weak wrist joint,1.0,1
+pain in right wrist joint,pressive sensation in right kidney,1.0,1
+pain in right wrist joint,throbbing in back worse wet weather,1.0,1
+pain in right wrist joint,painful soles,1.0,1
+pain in right wrist joint,pressing in sacral region worse sitting,1.0,1
+pain in right wrist joint,sensation of plug between symphysis pubis and os coccyx,1.0,1
+pain in right wrist joint,weariness of limbs,1.0,1
+pain in right wrist joint,great toes feel sprained,1.0,1
+pain in right wrist joint,differs from aesculus in hemorrhoid character,1.0,1
+pain in right wrist joint,differs from aesculus in aggravations,1.0,1
+pain in right wrist joint,warm feet,1.0,1
+pain in right wrist joint,coccyx pain as if fallen on,1.0,1
+pain in right wrist joint,creeping in sacrum to coccyx,1.0,1
+pain in right wrist joint,heaviness in right arm,1.0,1
+pain in right wrist joint,painful weariness of limbs,1.0,1
+pain in right wrist joint,itching in back worse wet weather,1.0,1
+pain in right wrist joint,drawing in right kidney,1.0,1
+drawing in right kidney,dull steady pain above innominata to rectum,1.0,1
+drawing in right kidney,stitches from sacrum to loins,1.0,1
+drawing in right kidney,weary calves,1.0,1
+drawing in right kidney,cannot distinguish feces from flatus,1.0,1
+drawing in right kidney,heaviness in sacral region worse sitting,1.0,1
+drawing in right kidney,dull sticking under shoulder blades,1.0,1
+drawing in right kidney,hemorrhoids protrude like grapes,1.0,1
+drawing in right kidney,cracking in cervical vertebrae on motion,1.0,1
+drawing in right kidney,bruised pain in back as after stooping,1.0,1
+drawing in right kidney,heaviness in head,1.0,1
+drawing in right kidney,weak ankles,1.0,1
+drawing in right kidney,severe kidney pain,1.0,1
+drawing in right kidney,lumbago alternating with frontal headache,1.0,1
+drawing in right kidney,uncertain stool,1.0,1
+drawing in right kidney,weak joints with abdominal disturbances,1.0,1
+drawing in right kidney,fullness in back worse wet weather,1.0,1
+drawing in right kidney,protruding hemorrhoids,1.0,1
+drawing in right kidney,outward pressing pain in back,1.0,1
+drawing in right kidney,lumbago with lower bowel disturbances,1.0,1
+drawing in right kidney,weak wrist joint,1.0,1
+drawing in right kidney,pressive sensation in right kidney,1.0,1
+drawing in right kidney,throbbing in back worse wet weather,1.0,1
+drawing in right kidney,painful soles,1.0,1
+drawing in right kidney,pain in right wrist joint,1.0,1
+drawing in right kidney,pressing in sacral region worse sitting,1.0,1
+drawing in right kidney,sensation of plug between symphysis pubis and os coccyx,1.0,1
+drawing in right kidney,weariness of limbs,1.0,1
+drawing in right kidney,great toes feel sprained,1.0,1
+drawing in right kidney,differs from aesculus in hemorrhoid character,1.0,1
+drawing in right kidney,differs from aesculus in aggravations,1.0,1
+drawing in right kidney,warm feet,1.0,1
+drawing in right kidney,coccyx pain as if fallen on,1.0,1
+drawing in right kidney,creeping in sacrum to coccyx,1.0,1
+drawing in right kidney,heaviness in right arm,1.0,1
+drawing in right kidney,painful weariness of limbs,1.0,1
+drawing in right kidney,itching in back worse wet weather,1.0,1
+pressing in sacral region worse sitting,dull steady pain above innominata to rectum,1.0,1
+pressing in sacral region worse sitting,stitches from sacrum to loins,1.0,1
+pressing in sacral region worse sitting,weary calves,1.0,1
+pressing in sacral region worse sitting,cannot distinguish feces from flatus,1.0,1
+pressing in sacral region worse sitting,heaviness in sacral region worse sitting,1.0,1
+pressing in sacral region worse sitting,dull sticking under shoulder blades,1.0,1
+pressing in sacral region worse sitting,hemorrhoids protrude like grapes,1.0,1
+pressing in sacral region worse sitting,cracking in cervical vertebrae on motion,1.0,1
+pressing in sacral region worse sitting,bruised pain in back as after stooping,1.0,1
+pressing in sacral region worse sitting,heaviness in head,1.0,1
+pressing in sacral region worse sitting,weak ankles,1.0,1
+pressing in sacral region worse sitting,severe kidney pain,1.0,1
+pressing in sacral region worse sitting,lumbago alternating with frontal headache,1.0,1
+pressing in sacral region worse sitting,uncertain stool,1.0,1
+pressing in sacral region worse sitting,weak joints with abdominal disturbances,1.0,1
+pressing in sacral region worse sitting,fullness in back worse wet weather,1.0,1
+pressing in sacral region worse sitting,protruding hemorrhoids,1.0,1
+pressing in sacral region worse sitting,outward pressing pain in back,1.0,1
+pressing in sacral region worse sitting,lumbago with lower bowel disturbances,1.0,1
+pressing in sacral region worse sitting,weak wrist joint,1.0,1
+pressing in sacral region worse sitting,pressive sensation in right kidney,1.0,1
+pressing in sacral region worse sitting,throbbing in back worse wet weather,1.0,1
+pressing in sacral region worse sitting,painful soles,1.0,1
+pressing in sacral region worse sitting,pain in right wrist joint,1.0,1
+pressing in sacral region worse sitting,sensation of plug between symphysis pubis and os coccyx,1.0,1
+pressing in sacral region worse sitting,weariness of limbs,1.0,1
+pressing in sacral region worse sitting,great toes feel sprained,1.0,1
+pressing in sacral region worse sitting,differs from aesculus in hemorrhoid character,1.0,1
+pressing in sacral region worse sitting,differs from aesculus in aggravations,1.0,1
+pressing in sacral region worse sitting,warm feet,1.0,1
+pressing in sacral region worse sitting,coccyx pain as if fallen on,1.0,1
+pressing in sacral region worse sitting,creeping in sacrum to coccyx,1.0,1
+pressing in sacral region worse sitting,heaviness in right arm,1.0,1
+pressing in sacral region worse sitting,painful weariness of limbs,1.0,1
+pressing in sacral region worse sitting,itching in back worse wet weather,1.0,1
+pressing in sacral region worse sitting,drawing in right kidney,1.0,1
+lumbago alternating with frontal headache,dull steady pain above innominata to rectum,1.0,1
+lumbago alternating with frontal headache,stitches from sacrum to loins,1.0,1
+lumbago alternating with frontal headache,weary calves,1.0,1
+lumbago alternating with frontal headache,cannot distinguish feces from flatus,1.0,1
+lumbago alternating with frontal headache,heaviness in sacral region worse sitting,1.0,1
+lumbago alternating with frontal headache,dull sticking under shoulder blades,1.0,1
+lumbago alternating with frontal headache,hemorrhoids protrude like grapes,1.0,1
+lumbago alternating with frontal headache,cracking in cervical vertebrae on motion,1.0,1
+lumbago alternating with frontal headache,bruised pain in back as after stooping,1.0,1
+lumbago alternating with frontal headache,heaviness in head,1.0,1
+lumbago alternating with frontal headache,weak ankles,1.0,1
+lumbago alternating with frontal headache,severe kidney pain,1.0,1
+lumbago alternating with frontal headache,uncertain stool,1.0,1
+lumbago alternating with frontal headache,weak joints with abdominal disturbances,1.0,1
+lumbago alternating with frontal headache,fullness in back worse wet weather,1.0,1
+lumbago alternating with frontal headache,protruding hemorrhoids,1.0,1
+lumbago alternating with frontal headache,outward pressing pain in back,1.0,1
+lumbago alternating with frontal headache,lumbago with lower bowel disturbances,1.0,1
+lumbago alternating with frontal headache,weak wrist joint,1.0,1
+lumbago alternating with frontal headache,pressive sensation in right kidney,1.0,1
+lumbago alternating with frontal headache,throbbing in back worse wet weather,1.0,1
+lumbago alternating with frontal headache,painful soles,1.0,1
+lumbago alternating with frontal headache,pain in right wrist joint,1.0,1
+lumbago alternating with frontal headache,pressing in sacral region worse sitting,1.0,1
+lumbago alternating with frontal headache,sensation of plug between symphysis pubis and os coccyx,1.0,1
+lumbago alternating with frontal headache,weariness of limbs,1.0,1
+lumbago alternating with frontal headache,great toes feel sprained,1.0,1
+lumbago alternating with frontal headache,differs from aesculus in hemorrhoid character,1.0,1
+lumbago alternating with frontal headache,differs from aesculus in aggravations,1.0,1
+lumbago alternating with frontal headache,warm feet,1.0,1
+lumbago alternating with frontal headache,coccyx pain as if fallen on,1.0,1
+lumbago alternating with frontal headache,creeping in sacrum to coccyx,1.0,1
+lumbago alternating with frontal headache,heaviness in right arm,1.0,1
+lumbago alternating with frontal headache,painful weariness of limbs,1.0,1
+lumbago alternating with frontal headache,itching in back worse wet weather,1.0,1
+lumbago alternating with frontal headache,drawing in right kidney,1.0,1
+itching in back worse wet weather,dull steady pain above innominata to rectum,1.0,1
+itching in back worse wet weather,stitches from sacrum to loins,1.0,1
+itching in back worse wet weather,weary calves,1.0,1
+itching in back worse wet weather,cannot distinguish feces from flatus,1.0,1
+itching in back worse wet weather,heaviness in sacral region worse sitting,1.0,1
+itching in back worse wet weather,dull sticking under shoulder blades,1.0,1
+itching in back worse wet weather,hemorrhoids protrude like grapes,1.0,1
+itching in back worse wet weather,cracking in cervical vertebrae on motion,1.0,1
+itching in back worse wet weather,bruised pain in back as after stooping,1.0,1
+itching in back worse wet weather,heaviness in head,1.0,1
+itching in back worse wet weather,weak ankles,1.0,1
+itching in back worse wet weather,severe kidney pain,1.0,1
+itching in back worse wet weather,lumbago alternating with frontal headache,1.0,1
+itching in back worse wet weather,uncertain stool,1.0,1
+itching in back worse wet weather,weak joints with abdominal disturbances,1.0,1
+itching in back worse wet weather,fullness in back worse wet weather,1.0,1
+itching in back worse wet weather,protruding hemorrhoids,1.0,1
+itching in back worse wet weather,outward pressing pain in back,1.0,1
+itching in back worse wet weather,lumbago with lower bowel disturbances,1.0,1
+itching in back worse wet weather,weak wrist joint,1.0,1
+itching in back worse wet weather,pressive sensation in right kidney,1.0,1
+itching in back worse wet weather,throbbing in back worse wet weather,1.0,1
+itching in back worse wet weather,painful soles,1.0,1
+itching in back worse wet weather,pain in right wrist joint,1.0,1
+itching in back worse wet weather,pressing in sacral region worse sitting,1.0,1
+itching in back worse wet weather,sensation of plug between symphysis pubis and os coccyx,1.0,1
+itching in back worse wet weather,weariness of limbs,1.0,1
+itching in back worse wet weather,great toes feel sprained,1.0,1
+itching in back worse wet weather,differs from aesculus in hemorrhoid character,1.0,1
+itching in back worse wet weather,differs from aesculus in aggravations,1.0,1
+itching in back worse wet weather,warm feet,1.0,1
+itching in back worse wet weather,coccyx pain as if fallen on,1.0,1
+itching in back worse wet weather,creeping in sacrum to coccyx,1.0,1
+itching in back worse wet weather,heaviness in right arm,1.0,1
+itching in back worse wet weather,painful weariness of limbs,1.0,1
+itching in back worse wet weather,drawing in right kidney,1.0,1
+weak joints with abdominal disturbances,dull steady pain above innominata to rectum,1.0,1
+weak joints with abdominal disturbances,stitches from sacrum to loins,1.0,1
+weak joints with abdominal disturbances,weary calves,1.0,1
+weak joints with abdominal disturbances,cannot distinguish feces from flatus,1.0,1
+weak joints with abdominal disturbances,heaviness in sacral region worse sitting,1.0,1
+weak joints with abdominal disturbances,dull sticking under shoulder blades,1.0,1
+weak joints with abdominal disturbances,hemorrhoids protrude like grapes,1.0,1
+weak joints with abdominal disturbances,cracking in cervical vertebrae on motion,1.0,1
+weak joints with abdominal disturbances,bruised pain in back as after stooping,1.0,1
+weak joints with abdominal disturbances,heaviness in head,1.0,1
+weak joints with abdominal disturbances,weak ankles,1.0,1
+weak joints with abdominal disturbances,severe kidney pain,1.0,1
+weak joints with abdominal disturbances,lumbago alternating with frontal headache,1.0,1
+weak joints with abdominal disturbances,uncertain stool,1.0,1
+weak joints with abdominal disturbances,fullness in back worse wet weather,1.0,1
+weak joints with abdominal disturbances,protruding hemorrhoids,1.0,1
+weak joints with abdominal disturbances,outward pressing pain in back,1.0,1
+weak joints with abdominal disturbances,lumbago with lower bowel disturbances,1.0,1
+weak joints with abdominal disturbances,weak wrist joint,1.0,1
+weak joints with abdominal disturbances,pressive sensation in right kidney,1.0,1
+weak joints with abdominal disturbances,throbbing in back worse wet weather,1.0,1
+weak joints with abdominal disturbances,painful soles,1.0,1
+weak joints with abdominal disturbances,pain in right wrist joint,1.0,1
+weak joints with abdominal disturbances,pressing in sacral region worse sitting,1.0,1
+weak joints with abdominal disturbances,sensation of plug between symphysis pubis and os coccyx,1.0,1
+weak joints with abdominal disturbances,weariness of limbs,1.0,1
+weak joints with abdominal disturbances,great toes feel sprained,1.0,1
+weak joints with abdominal disturbances,differs from aesculus in hemorrhoid character,1.0,1
+weak joints with abdominal disturbances,differs from aesculus in aggravations,1.0,1
+weak joints with abdominal disturbances,warm feet,1.0,1
+weak joints with abdominal disturbances,coccyx pain as if fallen on,1.0,1
+weak joints with abdominal disturbances,creeping in sacrum to coccyx,1.0,1
+weak joints with abdominal disturbances,heaviness in right arm,1.0,1
+weak joints with abdominal disturbances,painful weariness of limbs,1.0,1
+weak joints with abdominal disturbances,itching in back worse wet weather,1.0,1
+weak joints with abdominal disturbances,drawing in right kidney,1.0,1
+pressive sensation in right kidney,dull steady pain above innominata to rectum,1.0,1
+pressive sensation in right kidney,stitches from sacrum to loins,1.0,1
+pressive sensation in right kidney,weary calves,1.0,1
+pressive sensation in right kidney,cannot distinguish feces from flatus,1.0,1
+pressive sensation in right kidney,heaviness in sacral region worse sitting,1.0,1
+pressive sensation in right kidney,dull sticking under shoulder blades,1.0,1
+pressive sensation in right kidney,hemorrhoids protrude like grapes,1.0,1
+pressive sensation in right kidney,cracking in cervical vertebrae on motion,1.0,1
+pressive sensation in right kidney,bruised pain in back as after stooping,1.0,1
+pressive sensation in right kidney,heaviness in head,1.0,1
+pressive sensation in right kidney,weak ankles,1.0,1
+pressive sensation in right kidney,severe kidney pain,1.0,1
+pressive sensation in right kidney,lumbago alternating with frontal headache,1.0,1
+pressive sensation in right kidney,uncertain stool,1.0,1
+pressive sensation in right kidney,weak joints with abdominal disturbances,1.0,1
+pressive sensation in right kidney,fullness in back worse wet weather,1.0,1
+pressive sensation in right kidney,protruding hemorrhoids,1.0,1
+pressive sensation in right kidney,outward pressing pain in back,1.0,1
+pressive sensation in right kidney,lumbago with lower bowel disturbances,1.0,1
+pressive sensation in right kidney,weak wrist joint,1.0,1
+pressive sensation in right kidney,throbbing in back worse wet weather,1.0,1
+pressive sensation in right kidney,painful soles,1.0,1
+pressive sensation in right kidney,pain in right wrist joint,1.0,1
+pressive sensation in right kidney,pressing in sacral region worse sitting,1.0,1
+pressive sensation in right kidney,sensation of plug between symphysis pubis and os coccyx,1.0,1
+pressive sensation in right kidney,weariness of limbs,1.0,1
+pressive sensation in right kidney,great toes feel sprained,1.0,1
+pressive sensation in right kidney,differs from aesculus in hemorrhoid character,1.0,1
+pressive sensation in right kidney,differs from aesculus in aggravations,1.0,1
+pressive sensation in right kidney,warm feet,1.0,1
+pressive sensation in right kidney,coccyx pain as if fallen on,1.0,1
+pressive sensation in right kidney,creeping in sacrum to coccyx,1.0,1
+pressive sensation in right kidney,heaviness in right arm,1.0,1
+pressive sensation in right kidney,painful weariness of limbs,1.0,1
+pressive sensation in right kidney,itching in back worse wet weather,1.0,1
+pressive sensation in right kidney,drawing in right kidney,1.0,1
+dull sticking under shoulder blades,dull steady pain above innominata to rectum,1.0,1
+dull sticking under shoulder blades,stitches from sacrum to loins,1.0,1
+dull sticking under shoulder blades,weary calves,1.0,1
+dull sticking under shoulder blades,cannot distinguish feces from flatus,1.0,1
+dull sticking under shoulder blades,heaviness in sacral region worse sitting,1.0,1
+dull sticking under shoulder blades,hemorrhoids protrude like grapes,1.0,1
+dull sticking under shoulder blades,cracking in cervical vertebrae on motion,1.0,1
+dull sticking under shoulder blades,bruised pain in back as after stooping,1.0,1
+dull sticking under shoulder blades,heaviness in head,1.0,1
+dull sticking under shoulder blades,weak ankles,1.0,1
+dull sticking under shoulder blades,severe kidney pain,1.0,1
+dull sticking under shoulder blades,lumbago alternating with frontal headache,1.0,1
+dull sticking under shoulder blades,uncertain stool,1.0,1
+dull sticking under shoulder blades,weak joints with abdominal disturbances,1.0,1
+dull sticking under shoulder blades,fullness in back worse wet weather,1.0,1
+dull sticking under shoulder blades,protruding hemorrhoids,1.0,1
+dull sticking under shoulder blades,outward pressing pain in back,1.0,1
+dull sticking under shoulder blades,lumbago with lower bowel disturbances,1.0,1
+dull sticking under shoulder blades,weak wrist joint,1.0,1
+dull sticking under shoulder blades,pressive sensation in right kidney,1.0,1
+dull sticking under shoulder blades,throbbing in back worse wet weather,1.0,1
+dull sticking under shoulder blades,painful soles,1.0,1
+dull sticking under shoulder blades,pain in right wrist joint,1.0,1
+dull sticking under shoulder blades,pressing in sacral region worse sitting,1.0,1
+dull sticking under shoulder blades,sensation of plug between symphysis pubis and os coccyx,1.0,1
+dull sticking under shoulder blades,weariness of limbs,1.0,1
+dull sticking under shoulder blades,great toes feel sprained,1.0,1
+dull sticking under shoulder blades,differs from aesculus in hemorrhoid character,1.0,1
+dull sticking under shoulder blades,differs from aesculus in aggravations,1.0,1
+dull sticking under shoulder blades,warm feet,1.0,1
+dull sticking under shoulder blades,coccyx pain as if fallen on,1.0,1
+dull sticking under shoulder blades,creeping in sacrum to coccyx,1.0,1
+dull sticking under shoulder blades,heaviness in right arm,1.0,1
+dull sticking under shoulder blades,painful weariness of limbs,1.0,1
+dull sticking under shoulder blades,itching in back worse wet weather,1.0,1
+dull sticking under shoulder blades,drawing in right kidney,1.0,1
+coccyx pain as if fallen on,dull steady pain above innominata to rectum,1.0,1
+coccyx pain as if fallen on,stitches from sacrum to loins,1.0,1
+coccyx pain as if fallen on,weary calves,1.0,1
+coccyx pain as if fallen on,cannot distinguish feces from flatus,1.0,1
+coccyx pain as if fallen on,heaviness in sacral region worse sitting,1.0,1
+coccyx pain as if fallen on,dull sticking under shoulder blades,1.0,1
+coccyx pain as if fallen on,hemorrhoids protrude like grapes,1.0,1
+coccyx pain as if fallen on,cracking in cervical vertebrae on motion,1.0,1
+coccyx pain as if fallen on,bruised pain in back as after stooping,1.0,1
+coccyx pain as if fallen on,heaviness in head,1.0,1
+coccyx pain as if fallen on,weak ankles,1.0,1
+coccyx pain as if fallen on,severe kidney pain,1.0,1
+coccyx pain as if fallen on,lumbago alternating with frontal headache,1.0,1
+coccyx pain as if fallen on,uncertain stool,1.0,1
+coccyx pain as if fallen on,weak joints with abdominal disturbances,1.0,1
+coccyx pain as if fallen on,fullness in back worse wet weather,1.0,1
+coccyx pain as if fallen on,protruding hemorrhoids,1.0,1
+coccyx pain as if fallen on,outward pressing pain in back,1.0,1
+coccyx pain as if fallen on,lumbago with lower bowel disturbances,1.0,1
+coccyx pain as if fallen on,weak wrist joint,1.0,1
+coccyx pain as if fallen on,pressive sensation in right kidney,1.0,1
+coccyx pain as if fallen on,throbbing in back worse wet weather,1.0,1
+coccyx pain as if fallen on,painful soles,1.0,1
+coccyx pain as if fallen on,pain in right wrist joint,1.0,1
+coccyx pain as if fallen on,pressing in sacral region worse sitting,1.0,1
+coccyx pain as if fallen on,sensation of plug between symphysis pubis and os coccyx,1.0,1
+coccyx pain as if fallen on,weariness of limbs,1.0,1
+coccyx pain as if fallen on,great toes feel sprained,1.0,1
+coccyx pain as if fallen on,differs from aesculus in hemorrhoid character,1.0,1
+coccyx pain as if fallen on,differs from aesculus in aggravations,1.0,1
+coccyx pain as if fallen on,warm feet,1.0,1
+coccyx pain as if fallen on,creeping in sacrum to coccyx,1.0,1
+coccyx pain as if fallen on,heaviness in right arm,1.0,1
+coccyx pain as if fallen on,painful weariness of limbs,1.0,1
+coccyx pain as if fallen on,itching in back worse wet weather,1.0,1
+coccyx pain as if fallen on,drawing in right kidney,1.0,1
+protruding hemorrhoids,dull steady pain above innominata to rectum,1.0,1
+protruding hemorrhoids,stitches from sacrum to loins,1.0,1
+protruding hemorrhoids,weary calves,1.0,1
+protruding hemorrhoids,cannot distinguish feces from flatus,1.0,1
+protruding hemorrhoids,heaviness in sacral region worse sitting,1.0,1
+protruding hemorrhoids,dull sticking under shoulder blades,1.0,1
+protruding hemorrhoids,hemorrhoids protrude like grapes,1.0,1
+protruding hemorrhoids,cracking in cervical vertebrae on motion,1.0,1
+protruding hemorrhoids,bruised pain in back as after stooping,1.0,1
+protruding hemorrhoids,heaviness in head,1.0,1
+protruding hemorrhoids,weak ankles,1.0,1
+protruding hemorrhoids,severe kidney pain,1.0,1
+protruding hemorrhoids,lumbago alternating with frontal headache,1.0,1
+protruding hemorrhoids,uncertain stool,1.0,1
+protruding hemorrhoids,weak joints with abdominal disturbances,1.0,1
+protruding hemorrhoids,fullness in back worse wet weather,1.0,1
+protruding hemorrhoids,outward pressing pain in back,1.0,1
+protruding hemorrhoids,lumbago with lower bowel disturbances,1.0,1
+protruding hemorrhoids,weak wrist joint,1.0,1
+protruding hemorrhoids,pressive sensation in right kidney,1.0,1
+protruding hemorrhoids,throbbing in back worse wet weather,1.0,1
+protruding hemorrhoids,painful soles,1.0,1
+protruding hemorrhoids,pain in right wrist joint,1.0,1
+protruding hemorrhoids,pressing in sacral region worse sitting,1.0,1
+protruding hemorrhoids,sensation of plug between symphysis pubis and os coccyx,1.0,1
+protruding hemorrhoids,weariness of limbs,1.0,1
+protruding hemorrhoids,great toes feel sprained,1.0,1
+protruding hemorrhoids,differs from aesculus in hemorrhoid character,1.0,1
+protruding hemorrhoids,differs from aesculus in aggravations,1.0,1
+protruding hemorrhoids,warm feet,1.0,1
+protruding hemorrhoids,coccyx pain as if fallen on,1.0,1
+protruding hemorrhoids,creeping in sacrum to coccyx,1.0,1
+protruding hemorrhoids,heaviness in right arm,1.0,1
+protruding hemorrhoids,painful weariness of limbs,1.0,1
+protruding hemorrhoids,itching in back worse wet weather,1.0,1
+protruding hemorrhoids,drawing in right kidney,1.0,1
+dull steady pain above innominata to rectum,stitches from sacrum to loins,1.0,1
+dull steady pain above innominata to rectum,weary calves,1.0,1
+dull steady pain above innominata to rectum,cannot distinguish feces from flatus,1.0,1
+dull steady pain above innominata to rectum,heaviness in sacral region worse sitting,1.0,1
+dull steady pain above innominata to rectum,dull sticking under shoulder blades,1.0,1
+dull steady pain above innominata to rectum,hemorrhoids protrude like grapes,1.0,1
+dull steady pain above innominata to rectum,cracking in cervical vertebrae on motion,1.0,1
+dull steady pain above innominata to rectum,bruised pain in back as after stooping,1.0,1
+dull steady pain above innominata to rectum,heaviness in head,1.0,1
+dull steady pain above innominata to rectum,weak ankles,1.0,1
+dull steady pain above innominata to rectum,severe kidney pain,1.0,1
+dull steady pain above innominata to rectum,lumbago alternating with frontal headache,1.0,1
+dull steady pain above innominata to rectum,uncertain stool,1.0,1
+dull steady pain above innominata to rectum,weak joints with abdominal disturbances,1.0,1
+dull steady pain above innominata to rectum,fullness in back worse wet weather,1.0,1
+dull steady pain above innominata to rectum,protruding hemorrhoids,1.0,1
+dull steady pain above innominata to rectum,outward pressing pain in back,1.0,1
+dull steady pain above innominata to rectum,lumbago with lower bowel disturbances,1.0,1
+dull steady pain above innominata to rectum,weak wrist joint,1.0,1
+dull steady pain above innominata to rectum,pressive sensation in right kidney,1.0,1
+dull steady pain above innominata to rectum,throbbing in back worse wet weather,1.0,1
+dull steady pain above innominata to rectum,painful soles,1.0,1
+dull steady pain above innominata to rectum,pain in right wrist joint,1.0,1
+dull steady pain above innominata to rectum,pressing in sacral region worse sitting,1.0,1
+dull steady pain above innominata to rectum,sensation of plug between symphysis pubis and os coccyx,1.0,1
+dull steady pain above innominata to rectum,weariness of limbs,1.0,1
+dull steady pain above innominata to rectum,great toes feel sprained,1.0,1
+dull steady pain above innominata to rectum,differs from aesculus in hemorrhoid character,1.0,1
+dull steady pain above innominata to rectum,differs from aesculus in aggravations,1.0,1
+dull steady pain above innominata to rectum,warm feet,1.0,1
+dull steady pain above innominata to rectum,coccyx pain as if fallen on,1.0,1
+dull steady pain above innominata to rectum,creeping in sacrum to coccyx,1.0,1
+dull steady pain above innominata to rectum,heaviness in right arm,1.0,1
+dull steady pain above innominata to rectum,painful weariness of limbs,1.0,1
+dull steady pain above innominata to rectum,itching in back worse wet weather,1.0,1
+dull steady pain above innominata to rectum,drawing in right kidney,1.0,1
+cannot distinguish feces from flatus,dull steady pain above innominata to rectum,1.0,1
+cannot distinguish feces from flatus,stitches from sacrum to loins,1.0,1
+cannot distinguish feces from flatus,weary calves,1.0,1
+cannot distinguish feces from flatus,heaviness in sacral region worse sitting,1.0,1
+cannot distinguish feces from flatus,dull sticking under shoulder blades,1.0,1
+cannot distinguish feces from flatus,hemorrhoids protrude like grapes,1.0,1
+cannot distinguish feces from flatus,cracking in cervical vertebrae on motion,1.0,1
+cannot distinguish feces from flatus,bruised pain in back as after stooping,1.0,1
+cannot distinguish feces from flatus,heaviness in head,1.0,1
+cannot distinguish feces from flatus,weak ankles,1.0,1
+cannot distinguish feces from flatus,severe kidney pain,1.0,1
+cannot distinguish feces from flatus,lumbago alternating with frontal headache,1.0,1
+cannot distinguish feces from flatus,uncertain stool,1.0,1
+cannot distinguish feces from flatus,weak joints with abdominal disturbances,1.0,1
+cannot distinguish feces from flatus,fullness in back worse wet weather,1.0,1
+cannot distinguish feces from flatus,protruding hemorrhoids,1.0,1
+cannot distinguish feces from flatus,outward pressing pain in back,1.0,1
+cannot distinguish feces from flatus,lumbago with lower bowel disturbances,1.0,1
+cannot distinguish feces from flatus,weak wrist joint,1.0,1
+cannot distinguish feces from flatus,pressive sensation in right kidney,1.0,1
+cannot distinguish feces from flatus,throbbing in back worse wet weather,1.0,1
+cannot distinguish feces from flatus,painful soles,1.0,1
+cannot distinguish feces from flatus,pain in right wrist joint,1.0,1
+cannot distinguish feces from flatus,pressing in sacral region worse sitting,1.0,1
+cannot distinguish feces from flatus,sensation of plug between symphysis pubis and os coccyx,1.0,1
+cannot distinguish feces from flatus,weariness of limbs,1.0,1
+cannot distinguish feces from flatus,great toes feel sprained,1.0,1
+cannot distinguish feces from flatus,differs from aesculus in hemorrhoid character,1.0,1
+cannot distinguish feces from flatus,differs from aesculus in aggravations,1.0,1
+cannot distinguish feces from flatus,warm feet,1.0,1
+cannot distinguish feces from flatus,coccyx pain as if fallen on,1.0,1
+cannot distinguish feces from flatus,creeping in sacrum to coccyx,1.0,1
+cannot distinguish feces from flatus,heaviness in right arm,1.0,1
+cannot distinguish feces from flatus,painful weariness of limbs,1.0,1
+cannot distinguish feces from flatus,itching in back worse wet weather,1.0,1
+cannot distinguish feces from flatus,drawing in right kidney,1.0,1
+severe kidney pain,dull steady pain above innominata to rectum,1.0,1
+severe kidney pain,stitches from sacrum to loins,1.0,1
+severe kidney pain,weary calves,1.0,1
+severe kidney pain,cannot distinguish feces from flatus,1.0,1
+severe kidney pain,heaviness in sacral region worse sitting,1.0,1
+severe kidney pain,dull sticking under shoulder blades,1.0,1
+severe kidney pain,hemorrhoids protrude like grapes,1.0,1
+severe kidney pain,cracking in cervical vertebrae on motion,1.0,1
+severe kidney pain,bruised pain in back as after stooping,1.0,1
+severe kidney pain,heaviness in head,1.0,1
+severe kidney pain,weak ankles,1.0,1
+severe kidney pain,lumbago alternating with frontal headache,1.0,1
+severe kidney pain,uncertain stool,1.0,1
+severe kidney pain,weak joints with abdominal disturbances,1.0,1
+severe kidney pain,fullness in back worse wet weather,1.0,1
+severe kidney pain,protruding hemorrhoids,1.0,1
+severe kidney pain,outward pressing pain in back,1.0,1
+severe kidney pain,lumbago with lower bowel disturbances,1.0,1
+severe kidney pain,weak wrist joint,1.0,1
+severe kidney pain,pressive sensation in right kidney,1.0,1
+severe kidney pain,throbbing in back worse wet weather,1.0,1
+severe kidney pain,painful soles,1.0,1
+severe kidney pain,pain in right wrist joint,1.0,1
+severe kidney pain,pressing in sacral region worse sitting,1.0,1
+severe kidney pain,sensation of plug between symphysis pubis and os coccyx,1.0,1
+severe kidney pain,weariness of limbs,1.0,1
+severe kidney pain,great toes feel sprained,1.0,1
+severe kidney pain,differs from aesculus in hemorrhoid character,1.0,1
+severe kidney pain,differs from aesculus in aggravations,1.0,1
+severe kidney pain,warm feet,1.0,1
+severe kidney pain,coccyx pain as if fallen on,1.0,1
+severe kidney pain,creeping in sacrum to coccyx,1.0,1
+severe kidney pain,heaviness in right arm,1.0,1
+severe kidney pain,painful weariness of limbs,1.0,1
+severe kidney pain,itching in back worse wet weather,1.0,1
+severe kidney pain,drawing in right kidney,1.0,1
+warm feet,dull steady pain above innominata to rectum,1.0,1
+warm feet,stitches from sacrum to loins,1.0,1
+warm feet,weary calves,1.0,1
+warm feet,cannot distinguish feces from flatus,1.0,1
+warm feet,heaviness in sacral region worse sitting,1.0,1
+warm feet,dull sticking under shoulder blades,1.0,1
+warm feet,hemorrhoids protrude like grapes,1.0,1
+warm feet,cracking in cervical vertebrae on motion,1.0,1
+warm feet,bruised pain in back as after stooping,1.0,1
+warm feet,heaviness in head,1.0,1
+warm feet,weak ankles,1.0,1
+warm feet,severe kidney pain,1.0,1
+warm feet,lumbago alternating with frontal headache,1.0,1
+warm feet,uncertain stool,1.0,1
+warm feet,weak joints with abdominal disturbances,1.0,1
+warm feet,fullness in back worse wet weather,1.0,1
+warm feet,protruding hemorrhoids,1.0,1
+warm feet,outward pressing pain in back,1.0,1
+warm feet,lumbago with lower bowel disturbances,1.0,1
+warm feet,weak wrist joint,1.0,1
+warm feet,pressive sensation in right kidney,1.0,1
+warm feet,throbbing in back worse wet weather,1.0,1
+warm feet,painful soles,1.0,1
+warm feet,pain in right wrist joint,1.0,1
+warm feet,pressing in sacral region worse sitting,1.0,1
+warm feet,sensation of plug between symphysis pubis and os coccyx,1.0,1
+warm feet,weariness of limbs,1.0,1
+warm feet,great toes feel sprained,1.0,1
+warm feet,differs from aesculus in hemorrhoid character,1.0,1
+warm feet,differs from aesculus in aggravations,1.0,1
+warm feet,coccyx pain as if fallen on,1.0,1
+warm feet,creeping in sacrum to coccyx,1.0,1
+warm feet,heaviness in right arm,1.0,1
+warm feet,painful weariness of limbs,1.0,1
+warm feet,itching in back worse wet weather,1.0,1
+warm feet,drawing in right kidney,1.0,1

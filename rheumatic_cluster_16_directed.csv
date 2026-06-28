@@ -1,0 +1,178 @@
+### Cluster 16 — Symptoms (13)
+Symptom,Frequency
+sudden catch in lumbar region,1
+violent pains in tips of fingers,1
+aversion to heat,1
+rheumatic conditions in cachectic individuals,1
+restlessness with great debility,1
+kink in lumbar region,1
+aversion to being covered,1
+purpura hemorrhagica,2
+cramps in hands,1
+affects joints of lower extremities,1
+cachectic females,1
+intense icy coldness of skin,1
+painful swelling of fingers,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+secale cornutum,13
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+aversion to being covered,sudden catch in lumbar region,1.0,1
+aversion to being covered,violent pains in tips of fingers,1.0,1
+aversion to being covered,aversion to heat,1.0,1
+aversion to being covered,rheumatic conditions in cachectic individuals,1.0,1
+aversion to being covered,restlessness with great debility,1.0,1
+aversion to being covered,kink in lumbar region,1.0,1
+aversion to being covered,purpura hemorrhagica,1.0,1
+aversion to being covered,cramps in hands,1.0,1
+aversion to being covered,affects joints of lower extremities,1.0,1
+aversion to being covered,cachectic females,1.0,1
+aversion to being covered,intense icy coldness of skin,1.0,1
+aversion to being covered,painful swelling of fingers,1.0,1
+intense icy coldness of skin,sudden catch in lumbar region,1.0,1
+intense icy coldness of skin,violent pains in tips of fingers,1.0,1
+intense icy coldness of skin,aversion to heat,1.0,1
+intense icy coldness of skin,rheumatic conditions in cachectic individuals,1.0,1
+intense icy coldness of skin,restlessness with great debility,1.0,1
+intense icy coldness of skin,kink in lumbar region,1.0,1
+intense icy coldness of skin,aversion to being covered,1.0,1
+intense icy coldness of skin,purpura hemorrhagica,1.0,1
+intense icy coldness of skin,cramps in hands,1.0,1
+intense icy coldness of skin,affects joints of lower extremities,1.0,1
+intense icy coldness of skin,cachectic females,1.0,1
+intense icy coldness of skin,painful swelling of fingers,1.0,1
+aversion to heat,sudden catch in lumbar region,1.0,1
+aversion to heat,violent pains in tips of fingers,1.0,1
+aversion to heat,rheumatic conditions in cachectic individuals,1.0,1
+aversion to heat,restlessness with great debility,1.0,1
+aversion to heat,kink in lumbar region,1.0,1
+aversion to heat,aversion to being covered,1.0,1
+aversion to heat,purpura hemorrhagica,1.0,1
+aversion to heat,cramps in hands,1.0,1
+aversion to heat,affects joints of lower extremities,1.0,1
+aversion to heat,cachectic females,1.0,1
+aversion to heat,intense icy coldness of skin,1.0,1
+aversion to heat,painful swelling of fingers,1.0,1
+sudden catch in lumbar region,violent pains in tips of fingers,1.0,1
+sudden catch in lumbar region,aversion to heat,1.0,1
+sudden catch in lumbar region,rheumatic conditions in cachectic individuals,1.0,1
+sudden catch in lumbar region,restlessness with great debility,1.0,1
+sudden catch in lumbar region,kink in lumbar region,1.0,1
+sudden catch in lumbar region,aversion to being covered,1.0,1
+sudden catch in lumbar region,purpura hemorrhagica,1.0,1
+sudden catch in lumbar region,cramps in hands,1.0,1
+sudden catch in lumbar region,affects joints of lower extremities,1.0,1
+sudden catch in lumbar region,cachectic females,1.0,1
+sudden catch in lumbar region,intense icy coldness of skin,1.0,1
+sudden catch in lumbar region,painful swelling of fingers,1.0,1
+painful swelling of fingers,sudden catch in lumbar region,1.0,1
+painful swelling of fingers,violent pains in tips of fingers,1.0,1
+painful swelling of fingers,aversion to heat,1.0,1
+painful swelling of fingers,rheumatic conditions in cachectic individuals,1.0,1
+painful swelling of fingers,restlessness with great debility,1.0,1
+painful swelling of fingers,kink in lumbar region,1.0,1
+painful swelling of fingers,aversion to being covered,1.0,1
+painful swelling of fingers,purpura hemorrhagica,1.0,1
+painful swelling of fingers,cramps in hands,1.0,1
+painful swelling of fingers,affects joints of lower extremities,1.0,1
+painful swelling of fingers,cachectic females,1.0,1
+painful swelling of fingers,intense icy coldness of skin,1.0,1
+restlessness with great debility,sudden catch in lumbar region,1.0,1
+restlessness with great debility,violent pains in tips of fingers,1.0,1
+restlessness with great debility,aversion to heat,1.0,1
+restlessness with great debility,rheumatic conditions in cachectic individuals,1.0,1
+restlessness with great debility,kink in lumbar region,1.0,1
+restlessness with great debility,aversion to being covered,1.0,1
+restlessness with great debility,purpura hemorrhagica,1.0,1
+restlessness with great debility,cramps in hands,1.0,1
+restlessness with great debility,affects joints of lower extremities,1.0,1
+restlessness with great debility,cachectic females,1.0,1
+restlessness with great debility,intense icy coldness of skin,1.0,1
+restlessness with great debility,painful swelling of fingers,1.0,1
+cachectic females,sudden catch in lumbar region,1.0,1
+cachectic females,violent pains in tips of fingers,1.0,1
+cachectic females,aversion to heat,1.0,1
+cachectic females,rheumatic conditions in cachectic individuals,1.0,1
+cachectic females,restlessness with great debility,1.0,1
+cachectic females,kink in lumbar region,1.0,1
+cachectic females,aversion to being covered,1.0,1
+cachectic females,purpura hemorrhagica,1.0,1
+cachectic females,cramps in hands,1.0,1
+cachectic females,affects joints of lower extremities,1.0,1
+cachectic females,intense icy coldness of skin,1.0,1
+cachectic females,painful swelling of fingers,1.0,1
+purpura hemorrhagica,sudden catch in lumbar region,1.0,1
+purpura hemorrhagica,violent pains in tips of fingers,1.0,1
+purpura hemorrhagica,aversion to heat,1.0,1
+purpura hemorrhagica,rheumatic conditions in cachectic individuals,1.0,1
+purpura hemorrhagica,restlessness with great debility,1.0,1
+purpura hemorrhagica,kink in lumbar region,1.0,1
+purpura hemorrhagica,aversion to being covered,1.0,1
+purpura hemorrhagica,cramps in hands,1.0,1
+purpura hemorrhagica,affects joints of lower extremities,1.0,1
+purpura hemorrhagica,cachectic females,1.0,1
+purpura hemorrhagica,intense icy coldness of skin,1.0,1
+purpura hemorrhagica,painful swelling of fingers,1.0,1
+cramps in hands,sudden catch in lumbar region,1.0,1
+cramps in hands,violent pains in tips of fingers,1.0,1
+cramps in hands,aversion to heat,1.0,1
+cramps in hands,rheumatic conditions in cachectic individuals,1.0,1
+cramps in hands,restlessness with great debility,1.0,1
+cramps in hands,kink in lumbar region,1.0,1
+cramps in hands,aversion to being covered,1.0,1
+cramps in hands,purpura hemorrhagica,1.0,1
+cramps in hands,affects joints of lower extremities,1.0,1
+cramps in hands,cachectic females,1.0,1
+cramps in hands,intense icy coldness of skin,1.0,1
+cramps in hands,painful swelling of fingers,1.0,1
+affects joints of lower extremities,sudden catch in lumbar region,1.0,1
+affects joints of lower extremities,violent pains in tips of fingers,1.0,1
+affects joints of lower extremities,aversion to heat,1.0,1
+affects joints of lower extremities,rheumatic conditions in cachectic individuals,1.0,1
+affects joints of lower extremities,restlessness with great debility,1.0,1
+affects joints of lower extremities,kink in lumbar region,1.0,1
+affects joints of lower extremities,aversion to being covered,1.0,1
+affects joints of lower extremities,purpura hemorrhagica,1.0,1
+affects joints of lower extremities,cramps in hands,1.0,1
+affects joints of lower extremities,cachectic females,1.0,1
+affects joints of lower extremities,intense icy coldness of skin,1.0,1
+affects joints of lower extremities,painful swelling of fingers,1.0,1
+rheumatic conditions in cachectic individuals,sudden catch in lumbar region,1.0,1
+rheumatic conditions in cachectic individuals,violent pains in tips of fingers,1.0,1
+rheumatic conditions in cachectic individuals,aversion to heat,1.0,1
+rheumatic conditions in cachectic individuals,restlessness with great debility,1.0,1
+rheumatic conditions in cachectic individuals,kink in lumbar region,1.0,1
+rheumatic conditions in cachectic individuals,aversion to being covered,1.0,1
+rheumatic conditions in cachectic individuals,purpura hemorrhagica,1.0,1
+rheumatic conditions in cachectic individuals,cramps in hands,1.0,1
+rheumatic conditions in cachectic individuals,affects joints of lower extremities,1.0,1
+rheumatic conditions in cachectic individuals,cachectic females,1.0,1
+rheumatic conditions in cachectic individuals,intense icy coldness of skin,1.0,1
+rheumatic conditions in cachectic individuals,painful swelling of fingers,1.0,1
+kink in lumbar region,sudden catch in lumbar region,1.0,1
+kink in lumbar region,violent pains in tips of fingers,1.0,1
+kink in lumbar region,aversion to heat,1.0,1
+kink in lumbar region,rheumatic conditions in cachectic individuals,1.0,1
+kink in lumbar region,restlessness with great debility,1.0,1
+kink in lumbar region,aversion to being covered,1.0,1
+kink in lumbar region,purpura hemorrhagica,1.0,1
+kink in lumbar region,cramps in hands,1.0,1
+kink in lumbar region,affects joints of lower extremities,1.0,1
+kink in lumbar region,cachectic females,1.0,1
+kink in lumbar region,intense icy coldness of skin,1.0,1
+kink in lumbar region,painful swelling of fingers,1.0,1
+violent pains in tips of fingers,sudden catch in lumbar region,1.0,1
+violent pains in tips of fingers,aversion to heat,1.0,1
+violent pains in tips of fingers,rheumatic conditions in cachectic individuals,1.0,1
+violent pains in tips of fingers,restlessness with great debility,1.0,1
+violent pains in tips of fingers,kink in lumbar region,1.0,1
+violent pains in tips of fingers,aversion to being covered,1.0,1
+violent pains in tips of fingers,purpura hemorrhagica,1.0,1
+violent pains in tips of fingers,cramps in hands,1.0,1
+violent pains in tips of fingers,affects joints of lower extremities,1.0,1
+violent pains in tips of fingers,cachectic females,1.0,1
+violent pains in tips of fingers,intense icy coldness of skin,1.0,1
+violent pains in tips of fingers,painful swelling of fingers,1.0,1

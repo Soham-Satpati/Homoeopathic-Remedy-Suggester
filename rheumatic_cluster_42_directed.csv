@@ -1,0 +1,1858 @@
+### Cluster 42 — Symptoms (43)
+Symptom,Frequency
+rheumatism of ankles with complete loss of power,1
+stitching pain at apex comes and goes quickly,1
+lack of power in legs,1
+rheumatic pains in calves,1
+aching as if in bones all night preventing sleep,1
+cold yet throws off covers and wants to be fanned,1
+pains in crural and sciatic nerves of left side,1
+contractive pains across scapulae passing down spine,1
+rheumatism of wrists with complete loss of power,1
+marked by much disturbance and irritability of the nervous system,1
+lameness and stiffness of larger joints,1
+lame back lumbar and sacral extending down legs,1
+intense pain in heart radiating to different parts of left chest,1
+cracking in joints especially elbows,1
+pains shooting when sitting still,1
+shooting pains in left wrist,1
+easily startled at the least sound,1
+aching pain in legs with inability to keep still in bed,1
+right knee painful red and swollen,1
+chronic rheumatic pains in cold damp weather,1
+sensation as if left hand were swollen,1
+produces tension involuntary tension,1
+nerves quiver tingle tremble and cause spasms,1
+dull pain in heart and left arm,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,1
+pains are intolerable tensive shooting neuralgic,1
+rheumatic pains here and there,1
+sensation as if flexor muscles were too short,1
+drawing in cords of neck causing desire to throw head back,1
+drawing under knees and in ankles,1
+rheumatic pains in extremities of extreme severity,1
+tenderness and stiffness of muscles of back extending whole length,1
+swelling and inflammation of right great toe,1
+aching in hips and knee joints making walking difficult,1
+pain in neck and between scapulae running to either shoulder to lumbar region,1
+agonizing pains across and through both shoulders,1
+nerves are easily shocked,1
+drawing shoulders back tightly as if bones would be crushed,1
+acute pains in tendo achillis,1
+cramping pains in first and second fingers of right hand,1
+restlessness better by clutching the hands very tightly,1
+tension in lumbar region extending down posterior thighs,1
+soreness of ball of foot under the toes,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+medorrhinum,43
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+soreness of ball of foot under the toes,rheumatism of ankles with complete loss of power,1.0,1
+soreness of ball of foot under the toes,stitching pain at apex comes and goes quickly,1.0,1
+soreness of ball of foot under the toes,lack of power in legs,1.0,1
+soreness of ball of foot under the toes,rheumatic pains in calves,1.0,1
+soreness of ball of foot under the toes,aching as if in bones all night preventing sleep,1.0,1
+soreness of ball of foot under the toes,cold yet throws off covers and wants to be fanned,1.0,1
+soreness of ball of foot under the toes,pains in crural and sciatic nerves of left side,1.0,1
+soreness of ball of foot under the toes,contractive pains across scapulae passing down spine,1.0,1
+soreness of ball of foot under the toes,rheumatism of wrists with complete loss of power,1.0,1
+soreness of ball of foot under the toes,marked by much disturbance and irritability of the nervous system,1.0,1
+soreness of ball of foot under the toes,lameness and stiffness of larger joints,1.0,1
+soreness of ball of foot under the toes,lame back lumbar and sacral extending down legs,1.0,1
+soreness of ball of foot under the toes,intense pain in heart radiating to different parts of left chest,1.0,1
+soreness of ball of foot under the toes,cracking in joints especially elbows,1.0,1
+soreness of ball of foot under the toes,pains shooting when sitting still,1.0,1
+soreness of ball of foot under the toes,shooting pains in left wrist,1.0,1
+soreness of ball of foot under the toes,easily startled at the least sound,1.0,1
+soreness of ball of foot under the toes,aching pain in legs with inability to keep still in bed,1.0,1
+soreness of ball of foot under the toes,right knee painful red and swollen,1.0,1
+soreness of ball of foot under the toes,chronic rheumatic pains in cold damp weather,1.0,1
+soreness of ball of foot under the toes,sensation as if left hand were swollen,1.0,1
+soreness of ball of foot under the toes,produces tension involuntary tension,1.0,1
+soreness of ball of foot under the toes,nerves quiver tingle tremble and cause spasms,1.0,1
+soreness of ball of foot under the toes,dull pain in heart and left arm,1.0,1
+soreness of ball of foot under the toes,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+soreness of ball of foot under the toes,pains are intolerable tensive shooting neuralgic,1.0,1
+soreness of ball of foot under the toes,rheumatic pains here and there,1.0,1
+soreness of ball of foot under the toes,sensation as if flexor muscles were too short,1.0,1
+soreness of ball of foot under the toes,drawing in cords of neck causing desire to throw head back,1.0,1
+soreness of ball of foot under the toes,drawing under knees and in ankles,1.0,1
+soreness of ball of foot under the toes,rheumatic pains in extremities of extreme severity,1.0,1
+soreness of ball of foot under the toes,tenderness and stiffness of muscles of back extending whole length,1.0,1
+soreness of ball of foot under the toes,swelling and inflammation of right great toe,1.0,1
+soreness of ball of foot under the toes,aching in hips and knee joints making walking difficult,1.0,1
+soreness of ball of foot under the toes,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+soreness of ball of foot under the toes,agonizing pains across and through both shoulders,1.0,1
+soreness of ball of foot under the toes,nerves are easily shocked,1.0,1
+soreness of ball of foot under the toes,drawing shoulders back tightly as if bones would be crushed,1.0,1
+soreness of ball of foot under the toes,acute pains in tendo achillis,1.0,1
+soreness of ball of foot under the toes,cramping pains in first and second fingers of right hand,1.0,1
+soreness of ball of foot under the toes,restlessness better by clutching the hands very tightly,1.0,1
+soreness of ball of foot under the toes,tension in lumbar region extending down posterior thighs,1.0,1
+sensation as if flexor muscles were too short,rheumatism of ankles with complete loss of power,1.0,1
+sensation as if flexor muscles were too short,stitching pain at apex comes and goes quickly,1.0,1
+sensation as if flexor muscles were too short,lack of power in legs,1.0,1
+sensation as if flexor muscles were too short,rheumatic pains in calves,1.0,1
+sensation as if flexor muscles were too short,aching as if in bones all night preventing sleep,1.0,1
+sensation as if flexor muscles were too short,cold yet throws off covers and wants to be fanned,1.0,1
+sensation as if flexor muscles were too short,pains in crural and sciatic nerves of left side,1.0,1
+sensation as if flexor muscles were too short,contractive pains across scapulae passing down spine,1.0,1
+sensation as if flexor muscles were too short,rheumatism of wrists with complete loss of power,1.0,1
+sensation as if flexor muscles were too short,marked by much disturbance and irritability of the nervous system,1.0,1
+sensation as if flexor muscles were too short,lameness and stiffness of larger joints,1.0,1
+sensation as if flexor muscles were too short,lame back lumbar and sacral extending down legs,1.0,1
+sensation as if flexor muscles were too short,intense pain in heart radiating to different parts of left chest,1.0,1
+sensation as if flexor muscles were too short,cracking in joints especially elbows,1.0,1
+sensation as if flexor muscles were too short,pains shooting when sitting still,1.0,1
+sensation as if flexor muscles were too short,shooting pains in left wrist,1.0,1
+sensation as if flexor muscles were too short,easily startled at the least sound,1.0,1
+sensation as if flexor muscles were too short,aching pain in legs with inability to keep still in bed,1.0,1
+sensation as if flexor muscles were too short,right knee painful red and swollen,1.0,1
+sensation as if flexor muscles were too short,chronic rheumatic pains in cold damp weather,1.0,1
+sensation as if flexor muscles were too short,sensation as if left hand were swollen,1.0,1
+sensation as if flexor muscles were too short,produces tension involuntary tension,1.0,1
+sensation as if flexor muscles were too short,nerves quiver tingle tremble and cause spasms,1.0,1
+sensation as if flexor muscles were too short,dull pain in heart and left arm,1.0,1
+sensation as if flexor muscles were too short,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+sensation as if flexor muscles were too short,pains are intolerable tensive shooting neuralgic,1.0,1
+sensation as if flexor muscles were too short,rheumatic pains here and there,1.0,1
+sensation as if flexor muscles were too short,drawing in cords of neck causing desire to throw head back,1.0,1
+sensation as if flexor muscles were too short,drawing under knees and in ankles,1.0,1
+sensation as if flexor muscles were too short,rheumatic pains in extremities of extreme severity,1.0,1
+sensation as if flexor muscles were too short,tenderness and stiffness of muscles of back extending whole length,1.0,1
+sensation as if flexor muscles were too short,swelling and inflammation of right great toe,1.0,1
+sensation as if flexor muscles were too short,aching in hips and knee joints making walking difficult,1.0,1
+sensation as if flexor muscles were too short,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+sensation as if flexor muscles were too short,agonizing pains across and through both shoulders,1.0,1
+sensation as if flexor muscles were too short,nerves are easily shocked,1.0,1
+sensation as if flexor muscles were too short,drawing shoulders back tightly as if bones would be crushed,1.0,1
+sensation as if flexor muscles were too short,acute pains in tendo achillis,1.0,1
+sensation as if flexor muscles were too short,cramping pains in first and second fingers of right hand,1.0,1
+sensation as if flexor muscles were too short,restlessness better by clutching the hands very tightly,1.0,1
+sensation as if flexor muscles were too short,tension in lumbar region extending down posterior thighs,1.0,1
+sensation as if flexor muscles were too short,soreness of ball of foot under the toes,1.0,1
+shooting pains in left wrist,rheumatism of ankles with complete loss of power,1.0,1
+shooting pains in left wrist,stitching pain at apex comes and goes quickly,1.0,1
+shooting pains in left wrist,lack of power in legs,1.0,1
+shooting pains in left wrist,rheumatic pains in calves,1.0,1
+shooting pains in left wrist,aching as if in bones all night preventing sleep,1.0,1
+shooting pains in left wrist,cold yet throws off covers and wants to be fanned,1.0,1
+shooting pains in left wrist,pains in crural and sciatic nerves of left side,1.0,1
+shooting pains in left wrist,contractive pains across scapulae passing down spine,1.0,1
+shooting pains in left wrist,rheumatism of wrists with complete loss of power,1.0,1
+shooting pains in left wrist,marked by much disturbance and irritability of the nervous system,1.0,1
+shooting pains in left wrist,lameness and stiffness of larger joints,1.0,1
+shooting pains in left wrist,lame back lumbar and sacral extending down legs,1.0,1
+shooting pains in left wrist,intense pain in heart radiating to different parts of left chest,1.0,1
+shooting pains in left wrist,cracking in joints especially elbows,1.0,1
+shooting pains in left wrist,pains shooting when sitting still,1.0,1
+shooting pains in left wrist,easily startled at the least sound,1.0,1
+shooting pains in left wrist,aching pain in legs with inability to keep still in bed,1.0,1
+shooting pains in left wrist,right knee painful red and swollen,1.0,1
+shooting pains in left wrist,chronic rheumatic pains in cold damp weather,1.0,1
+shooting pains in left wrist,sensation as if left hand were swollen,1.0,1
+shooting pains in left wrist,produces tension involuntary tension,1.0,1
+shooting pains in left wrist,nerves quiver tingle tremble and cause spasms,1.0,1
+shooting pains in left wrist,dull pain in heart and left arm,1.0,1
+shooting pains in left wrist,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+shooting pains in left wrist,pains are intolerable tensive shooting neuralgic,1.0,1
+shooting pains in left wrist,rheumatic pains here and there,1.0,1
+shooting pains in left wrist,sensation as if flexor muscles were too short,1.0,1
+shooting pains in left wrist,drawing in cords of neck causing desire to throw head back,1.0,1
+shooting pains in left wrist,drawing under knees and in ankles,1.0,1
+shooting pains in left wrist,rheumatic pains in extremities of extreme severity,1.0,1
+shooting pains in left wrist,tenderness and stiffness of muscles of back extending whole length,1.0,1
+shooting pains in left wrist,swelling and inflammation of right great toe,1.0,1
+shooting pains in left wrist,aching in hips and knee joints making walking difficult,1.0,1
+shooting pains in left wrist,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+shooting pains in left wrist,agonizing pains across and through both shoulders,1.0,1
+shooting pains in left wrist,nerves are easily shocked,1.0,1
+shooting pains in left wrist,drawing shoulders back tightly as if bones would be crushed,1.0,1
+shooting pains in left wrist,acute pains in tendo achillis,1.0,1
+shooting pains in left wrist,cramping pains in first and second fingers of right hand,1.0,1
+shooting pains in left wrist,restlessness better by clutching the hands very tightly,1.0,1
+shooting pains in left wrist,tension in lumbar region extending down posterior thighs,1.0,1
+shooting pains in left wrist,soreness of ball of foot under the toes,1.0,1
+pains in crural and sciatic nerves of left side,rheumatism of ankles with complete loss of power,1.0,1
+pains in crural and sciatic nerves of left side,stitching pain at apex comes and goes quickly,1.0,1
+pains in crural and sciatic nerves of left side,lack of power in legs,1.0,1
+pains in crural and sciatic nerves of left side,rheumatic pains in calves,1.0,1
+pains in crural and sciatic nerves of left side,aching as if in bones all night preventing sleep,1.0,1
+pains in crural and sciatic nerves of left side,cold yet throws off covers and wants to be fanned,1.0,1
+pains in crural and sciatic nerves of left side,contractive pains across scapulae passing down spine,1.0,1
+pains in crural and sciatic nerves of left side,rheumatism of wrists with complete loss of power,1.0,1
+pains in crural and sciatic nerves of left side,marked by much disturbance and irritability of the nervous system,1.0,1
+pains in crural and sciatic nerves of left side,lameness and stiffness of larger joints,1.0,1
+pains in crural and sciatic nerves of left side,lame back lumbar and sacral extending down legs,1.0,1
+pains in crural and sciatic nerves of left side,intense pain in heart radiating to different parts of left chest,1.0,1
+pains in crural and sciatic nerves of left side,cracking in joints especially elbows,1.0,1
+pains in crural and sciatic nerves of left side,pains shooting when sitting still,1.0,1
+pains in crural and sciatic nerves of left side,shooting pains in left wrist,1.0,1
+pains in crural and sciatic nerves of left side,easily startled at the least sound,1.0,1
+pains in crural and sciatic nerves of left side,aching pain in legs with inability to keep still in bed,1.0,1
+pains in crural and sciatic nerves of left side,right knee painful red and swollen,1.0,1
+pains in crural and sciatic nerves of left side,chronic rheumatic pains in cold damp weather,1.0,1
+pains in crural and sciatic nerves of left side,sensation as if left hand were swollen,1.0,1
+pains in crural and sciatic nerves of left side,produces tension involuntary tension,1.0,1
+pains in crural and sciatic nerves of left side,nerves quiver tingle tremble and cause spasms,1.0,1
+pains in crural and sciatic nerves of left side,dull pain in heart and left arm,1.0,1
+pains in crural and sciatic nerves of left side,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+pains in crural and sciatic nerves of left side,pains are intolerable tensive shooting neuralgic,1.0,1
+pains in crural and sciatic nerves of left side,rheumatic pains here and there,1.0,1
+pains in crural and sciatic nerves of left side,sensation as if flexor muscles were too short,1.0,1
+pains in crural and sciatic nerves of left side,drawing in cords of neck causing desire to throw head back,1.0,1
+pains in crural and sciatic nerves of left side,drawing under knees and in ankles,1.0,1
+pains in crural and sciatic nerves of left side,rheumatic pains in extremities of extreme severity,1.0,1
+pains in crural and sciatic nerves of left side,tenderness and stiffness of muscles of back extending whole length,1.0,1
+pains in crural and sciatic nerves of left side,swelling and inflammation of right great toe,1.0,1
+pains in crural and sciatic nerves of left side,aching in hips and knee joints making walking difficult,1.0,1
+pains in crural and sciatic nerves of left side,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+pains in crural and sciatic nerves of left side,agonizing pains across and through both shoulders,1.0,1
+pains in crural and sciatic nerves of left side,nerves are easily shocked,1.0,1
+pains in crural and sciatic nerves of left side,drawing shoulders back tightly as if bones would be crushed,1.0,1
+pains in crural and sciatic nerves of left side,acute pains in tendo achillis,1.0,1
+pains in crural and sciatic nerves of left side,cramping pains in first and second fingers of right hand,1.0,1
+pains in crural and sciatic nerves of left side,restlessness better by clutching the hands very tightly,1.0,1
+pains in crural and sciatic nerves of left side,tension in lumbar region extending down posterior thighs,1.0,1
+pains in crural and sciatic nerves of left side,soreness of ball of foot under the toes,1.0,1
+contractive pains across scapulae passing down spine,rheumatism of ankles with complete loss of power,1.0,1
+contractive pains across scapulae passing down spine,stitching pain at apex comes and goes quickly,1.0,1
+contractive pains across scapulae passing down spine,lack of power in legs,1.0,1
+contractive pains across scapulae passing down spine,rheumatic pains in calves,1.0,1
+contractive pains across scapulae passing down spine,aching as if in bones all night preventing sleep,1.0,1
+contractive pains across scapulae passing down spine,cold yet throws off covers and wants to be fanned,1.0,1
+contractive pains across scapulae passing down spine,pains in crural and sciatic nerves of left side,1.0,1
+contractive pains across scapulae passing down spine,rheumatism of wrists with complete loss of power,1.0,1
+contractive pains across scapulae passing down spine,marked by much disturbance and irritability of the nervous system,1.0,1
+contractive pains across scapulae passing down spine,lameness and stiffness of larger joints,1.0,1
+contractive pains across scapulae passing down spine,lame back lumbar and sacral extending down legs,1.0,1
+contractive pains across scapulae passing down spine,intense pain in heart radiating to different parts of left chest,1.0,1
+contractive pains across scapulae passing down spine,cracking in joints especially elbows,1.0,1
+contractive pains across scapulae passing down spine,pains shooting when sitting still,1.0,1
+contractive pains across scapulae passing down spine,shooting pains in left wrist,1.0,1
+contractive pains across scapulae passing down spine,easily startled at the least sound,1.0,1
+contractive pains across scapulae passing down spine,aching pain in legs with inability to keep still in bed,1.0,1
+contractive pains across scapulae passing down spine,right knee painful red and swollen,1.0,1
+contractive pains across scapulae passing down spine,chronic rheumatic pains in cold damp weather,1.0,1
+contractive pains across scapulae passing down spine,sensation as if left hand were swollen,1.0,1
+contractive pains across scapulae passing down spine,produces tension involuntary tension,1.0,1
+contractive pains across scapulae passing down spine,nerves quiver tingle tremble and cause spasms,1.0,1
+contractive pains across scapulae passing down spine,dull pain in heart and left arm,1.0,1
+contractive pains across scapulae passing down spine,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+contractive pains across scapulae passing down spine,pains are intolerable tensive shooting neuralgic,1.0,1
+contractive pains across scapulae passing down spine,rheumatic pains here and there,1.0,1
+contractive pains across scapulae passing down spine,sensation as if flexor muscles were too short,1.0,1
+contractive pains across scapulae passing down spine,drawing in cords of neck causing desire to throw head back,1.0,1
+contractive pains across scapulae passing down spine,drawing under knees and in ankles,1.0,1
+contractive pains across scapulae passing down spine,rheumatic pains in extremities of extreme severity,1.0,1
+contractive pains across scapulae passing down spine,tenderness and stiffness of muscles of back extending whole length,1.0,1
+contractive pains across scapulae passing down spine,swelling and inflammation of right great toe,1.0,1
+contractive pains across scapulae passing down spine,aching in hips and knee joints making walking difficult,1.0,1
+contractive pains across scapulae passing down spine,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+contractive pains across scapulae passing down spine,agonizing pains across and through both shoulders,1.0,1
+contractive pains across scapulae passing down spine,nerves are easily shocked,1.0,1
+contractive pains across scapulae passing down spine,drawing shoulders back tightly as if bones would be crushed,1.0,1
+contractive pains across scapulae passing down spine,acute pains in tendo achillis,1.0,1
+contractive pains across scapulae passing down spine,cramping pains in first and second fingers of right hand,1.0,1
+contractive pains across scapulae passing down spine,restlessness better by clutching the hands very tightly,1.0,1
+contractive pains across scapulae passing down spine,tension in lumbar region extending down posterior thighs,1.0,1
+contractive pains across scapulae passing down spine,soreness of ball of foot under the toes,1.0,1
+stitching pain at apex comes and goes quickly,rheumatism of ankles with complete loss of power,1.0,1
+stitching pain at apex comes and goes quickly,lack of power in legs,1.0,1
+stitching pain at apex comes and goes quickly,rheumatic pains in calves,1.0,1
+stitching pain at apex comes and goes quickly,aching as if in bones all night preventing sleep,1.0,1
+stitching pain at apex comes and goes quickly,cold yet throws off covers and wants to be fanned,1.0,1
+stitching pain at apex comes and goes quickly,pains in crural and sciatic nerves of left side,1.0,1
+stitching pain at apex comes and goes quickly,contractive pains across scapulae passing down spine,1.0,1
+stitching pain at apex comes and goes quickly,rheumatism of wrists with complete loss of power,1.0,1
+stitching pain at apex comes and goes quickly,marked by much disturbance and irritability of the nervous system,1.0,1
+stitching pain at apex comes and goes quickly,lameness and stiffness of larger joints,1.0,1
+stitching pain at apex comes and goes quickly,lame back lumbar and sacral extending down legs,1.0,1
+stitching pain at apex comes and goes quickly,intense pain in heart radiating to different parts of left chest,1.0,1
+stitching pain at apex comes and goes quickly,cracking in joints especially elbows,1.0,1
+stitching pain at apex comes and goes quickly,pains shooting when sitting still,1.0,1
+stitching pain at apex comes and goes quickly,shooting pains in left wrist,1.0,1
+stitching pain at apex comes and goes quickly,easily startled at the least sound,1.0,1
+stitching pain at apex comes and goes quickly,aching pain in legs with inability to keep still in bed,1.0,1
+stitching pain at apex comes and goes quickly,right knee painful red and swollen,1.0,1
+stitching pain at apex comes and goes quickly,chronic rheumatic pains in cold damp weather,1.0,1
+stitching pain at apex comes and goes quickly,sensation as if left hand were swollen,1.0,1
+stitching pain at apex comes and goes quickly,produces tension involuntary tension,1.0,1
+stitching pain at apex comes and goes quickly,nerves quiver tingle tremble and cause spasms,1.0,1
+stitching pain at apex comes and goes quickly,dull pain in heart and left arm,1.0,1
+stitching pain at apex comes and goes quickly,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+stitching pain at apex comes and goes quickly,pains are intolerable tensive shooting neuralgic,1.0,1
+stitching pain at apex comes and goes quickly,rheumatic pains here and there,1.0,1
+stitching pain at apex comes and goes quickly,sensation as if flexor muscles were too short,1.0,1
+stitching pain at apex comes and goes quickly,drawing in cords of neck causing desire to throw head back,1.0,1
+stitching pain at apex comes and goes quickly,drawing under knees and in ankles,1.0,1
+stitching pain at apex comes and goes quickly,rheumatic pains in extremities of extreme severity,1.0,1
+stitching pain at apex comes and goes quickly,tenderness and stiffness of muscles of back extending whole length,1.0,1
+stitching pain at apex comes and goes quickly,swelling and inflammation of right great toe,1.0,1
+stitching pain at apex comes and goes quickly,aching in hips and knee joints making walking difficult,1.0,1
+stitching pain at apex comes and goes quickly,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+stitching pain at apex comes and goes quickly,agonizing pains across and through both shoulders,1.0,1
+stitching pain at apex comes and goes quickly,nerves are easily shocked,1.0,1
+stitching pain at apex comes and goes quickly,drawing shoulders back tightly as if bones would be crushed,1.0,1
+stitching pain at apex comes and goes quickly,acute pains in tendo achillis,1.0,1
+stitching pain at apex comes and goes quickly,cramping pains in first and second fingers of right hand,1.0,1
+stitching pain at apex comes and goes quickly,restlessness better by clutching the hands very tightly,1.0,1
+stitching pain at apex comes and goes quickly,tension in lumbar region extending down posterior thighs,1.0,1
+stitching pain at apex comes and goes quickly,soreness of ball of foot under the toes,1.0,1
+cracking in joints especially elbows,rheumatism of ankles with complete loss of power,1.0,1
+cracking in joints especially elbows,stitching pain at apex comes and goes quickly,1.0,1
+cracking in joints especially elbows,lack of power in legs,1.0,1
+cracking in joints especially elbows,rheumatic pains in calves,1.0,1
+cracking in joints especially elbows,aching as if in bones all night preventing sleep,1.0,1
+cracking in joints especially elbows,cold yet throws off covers and wants to be fanned,1.0,1
+cracking in joints especially elbows,pains in crural and sciatic nerves of left side,1.0,1
+cracking in joints especially elbows,contractive pains across scapulae passing down spine,1.0,1
+cracking in joints especially elbows,rheumatism of wrists with complete loss of power,1.0,1
+cracking in joints especially elbows,marked by much disturbance and irritability of the nervous system,1.0,1
+cracking in joints especially elbows,lameness and stiffness of larger joints,1.0,1
+cracking in joints especially elbows,lame back lumbar and sacral extending down legs,1.0,1
+cracking in joints especially elbows,intense pain in heart radiating to different parts of left chest,1.0,1
+cracking in joints especially elbows,pains shooting when sitting still,1.0,1
+cracking in joints especially elbows,shooting pains in left wrist,1.0,1
+cracking in joints especially elbows,easily startled at the least sound,1.0,1
+cracking in joints especially elbows,aching pain in legs with inability to keep still in bed,1.0,1
+cracking in joints especially elbows,right knee painful red and swollen,1.0,1
+cracking in joints especially elbows,chronic rheumatic pains in cold damp weather,1.0,1
+cracking in joints especially elbows,sensation as if left hand were swollen,1.0,1
+cracking in joints especially elbows,produces tension involuntary tension,1.0,1
+cracking in joints especially elbows,nerves quiver tingle tremble and cause spasms,1.0,1
+cracking in joints especially elbows,dull pain in heart and left arm,1.0,1
+cracking in joints especially elbows,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+cracking in joints especially elbows,pains are intolerable tensive shooting neuralgic,1.0,1
+cracking in joints especially elbows,rheumatic pains here and there,1.0,1
+cracking in joints especially elbows,sensation as if flexor muscles were too short,1.0,1
+cracking in joints especially elbows,drawing in cords of neck causing desire to throw head back,1.0,1
+cracking in joints especially elbows,drawing under knees and in ankles,1.0,1
+cracking in joints especially elbows,rheumatic pains in extremities of extreme severity,1.0,1
+cracking in joints especially elbows,tenderness and stiffness of muscles of back extending whole length,1.0,1
+cracking in joints especially elbows,swelling and inflammation of right great toe,1.0,1
+cracking in joints especially elbows,aching in hips and knee joints making walking difficult,1.0,1
+cracking in joints especially elbows,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+cracking in joints especially elbows,agonizing pains across and through both shoulders,1.0,1
+cracking in joints especially elbows,nerves are easily shocked,1.0,1
+cracking in joints especially elbows,drawing shoulders back tightly as if bones would be crushed,1.0,1
+cracking in joints especially elbows,acute pains in tendo achillis,1.0,1
+cracking in joints especially elbows,cramping pains in first and second fingers of right hand,1.0,1
+cracking in joints especially elbows,restlessness better by clutching the hands very tightly,1.0,1
+cracking in joints especially elbows,tension in lumbar region extending down posterior thighs,1.0,1
+cracking in joints especially elbows,soreness of ball of foot under the toes,1.0,1
+pains are intolerable tensive shooting neuralgic,rheumatism of ankles with complete loss of power,1.0,1
+pains are intolerable tensive shooting neuralgic,stitching pain at apex comes and goes quickly,1.0,1
+pains are intolerable tensive shooting neuralgic,lack of power in legs,1.0,1
+pains are intolerable tensive shooting neuralgic,rheumatic pains in calves,1.0,1
+pains are intolerable tensive shooting neuralgic,aching as if in bones all night preventing sleep,1.0,1
+pains are intolerable tensive shooting neuralgic,cold yet throws off covers and wants to be fanned,1.0,1
+pains are intolerable tensive shooting neuralgic,pains in crural and sciatic nerves of left side,1.0,1
+pains are intolerable tensive shooting neuralgic,contractive pains across scapulae passing down spine,1.0,1
+pains are intolerable tensive shooting neuralgic,rheumatism of wrists with complete loss of power,1.0,1
+pains are intolerable tensive shooting neuralgic,marked by much disturbance and irritability of the nervous system,1.0,1
+pains are intolerable tensive shooting neuralgic,lameness and stiffness of larger joints,1.0,1
+pains are intolerable tensive shooting neuralgic,lame back lumbar and sacral extending down legs,1.0,1
+pains are intolerable tensive shooting neuralgic,intense pain in heart radiating to different parts of left chest,1.0,1
+pains are intolerable tensive shooting neuralgic,cracking in joints especially elbows,1.0,1
+pains are intolerable tensive shooting neuralgic,pains shooting when sitting still,1.0,1
+pains are intolerable tensive shooting neuralgic,shooting pains in left wrist,1.0,1
+pains are intolerable tensive shooting neuralgic,easily startled at the least sound,1.0,1
+pains are intolerable tensive shooting neuralgic,aching pain in legs with inability to keep still in bed,1.0,1
+pains are intolerable tensive shooting neuralgic,right knee painful red and swollen,1.0,1
+pains are intolerable tensive shooting neuralgic,chronic rheumatic pains in cold damp weather,1.0,1
+pains are intolerable tensive shooting neuralgic,sensation as if left hand were swollen,1.0,1
+pains are intolerable tensive shooting neuralgic,produces tension involuntary tension,1.0,1
+pains are intolerable tensive shooting neuralgic,nerves quiver tingle tremble and cause spasms,1.0,1
+pains are intolerable tensive shooting neuralgic,dull pain in heart and left arm,1.0,1
+pains are intolerable tensive shooting neuralgic,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+pains are intolerable tensive shooting neuralgic,rheumatic pains here and there,1.0,1
+pains are intolerable tensive shooting neuralgic,sensation as if flexor muscles were too short,1.0,1
+pains are intolerable tensive shooting neuralgic,drawing in cords of neck causing desire to throw head back,1.0,1
+pains are intolerable tensive shooting neuralgic,drawing under knees and in ankles,1.0,1
+pains are intolerable tensive shooting neuralgic,rheumatic pains in extremities of extreme severity,1.0,1
+pains are intolerable tensive shooting neuralgic,tenderness and stiffness of muscles of back extending whole length,1.0,1
+pains are intolerable tensive shooting neuralgic,swelling and inflammation of right great toe,1.0,1
+pains are intolerable tensive shooting neuralgic,aching in hips and knee joints making walking difficult,1.0,1
+pains are intolerable tensive shooting neuralgic,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+pains are intolerable tensive shooting neuralgic,agonizing pains across and through both shoulders,1.0,1
+pains are intolerable tensive shooting neuralgic,nerves are easily shocked,1.0,1
+pains are intolerable tensive shooting neuralgic,drawing shoulders back tightly as if bones would be crushed,1.0,1
+pains are intolerable tensive shooting neuralgic,acute pains in tendo achillis,1.0,1
+pains are intolerable tensive shooting neuralgic,cramping pains in first and second fingers of right hand,1.0,1
+pains are intolerable tensive shooting neuralgic,restlessness better by clutching the hands very tightly,1.0,1
+pains are intolerable tensive shooting neuralgic,tension in lumbar region extending down posterior thighs,1.0,1
+pains are intolerable tensive shooting neuralgic,soreness of ball of foot under the toes,1.0,1
+lack of power in legs,rheumatism of ankles with complete loss of power,1.0,1
+lack of power in legs,stitching pain at apex comes and goes quickly,1.0,1
+lack of power in legs,rheumatic pains in calves,1.0,1
+lack of power in legs,aching as if in bones all night preventing sleep,1.0,1
+lack of power in legs,cold yet throws off covers and wants to be fanned,1.0,1
+lack of power in legs,pains in crural and sciatic nerves of left side,1.0,1
+lack of power in legs,contractive pains across scapulae passing down spine,1.0,1
+lack of power in legs,rheumatism of wrists with complete loss of power,1.0,1
+lack of power in legs,marked by much disturbance and irritability of the nervous system,1.0,1
+lack of power in legs,lameness and stiffness of larger joints,1.0,1
+lack of power in legs,lame back lumbar and sacral extending down legs,1.0,1
+lack of power in legs,intense pain in heart radiating to different parts of left chest,1.0,1
+lack of power in legs,cracking in joints especially elbows,1.0,1
+lack of power in legs,pains shooting when sitting still,1.0,1
+lack of power in legs,shooting pains in left wrist,1.0,1
+lack of power in legs,easily startled at the least sound,1.0,1
+lack of power in legs,aching pain in legs with inability to keep still in bed,1.0,1
+lack of power in legs,right knee painful red and swollen,1.0,1
+lack of power in legs,chronic rheumatic pains in cold damp weather,1.0,1
+lack of power in legs,sensation as if left hand were swollen,1.0,1
+lack of power in legs,produces tension involuntary tension,1.0,1
+lack of power in legs,nerves quiver tingle tremble and cause spasms,1.0,1
+lack of power in legs,dull pain in heart and left arm,1.0,1
+lack of power in legs,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+lack of power in legs,pains are intolerable tensive shooting neuralgic,1.0,1
+lack of power in legs,rheumatic pains here and there,1.0,1
+lack of power in legs,sensation as if flexor muscles were too short,1.0,1
+lack of power in legs,drawing in cords of neck causing desire to throw head back,1.0,1
+lack of power in legs,drawing under knees and in ankles,1.0,1
+lack of power in legs,rheumatic pains in extremities of extreme severity,1.0,1
+lack of power in legs,tenderness and stiffness of muscles of back extending whole length,1.0,1
+lack of power in legs,swelling and inflammation of right great toe,1.0,1
+lack of power in legs,aching in hips and knee joints making walking difficult,1.0,1
+lack of power in legs,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+lack of power in legs,agonizing pains across and through both shoulders,1.0,1
+lack of power in legs,nerves are easily shocked,1.0,1
+lack of power in legs,drawing shoulders back tightly as if bones would be crushed,1.0,1
+lack of power in legs,acute pains in tendo achillis,1.0,1
+lack of power in legs,cramping pains in first and second fingers of right hand,1.0,1
+lack of power in legs,restlessness better by clutching the hands very tightly,1.0,1
+lack of power in legs,tension in lumbar region extending down posterior thighs,1.0,1
+lack of power in legs,soreness of ball of foot under the toes,1.0,1
+lame back lumbar and sacral extending down legs,rheumatism of ankles with complete loss of power,1.0,1
+lame back lumbar and sacral extending down legs,stitching pain at apex comes and goes quickly,1.0,1
+lame back lumbar and sacral extending down legs,lack of power in legs,1.0,1
+lame back lumbar and sacral extending down legs,rheumatic pains in calves,1.0,1
+lame back lumbar and sacral extending down legs,aching as if in bones all night preventing sleep,1.0,1
+lame back lumbar and sacral extending down legs,cold yet throws off covers and wants to be fanned,1.0,1
+lame back lumbar and sacral extending down legs,pains in crural and sciatic nerves of left side,1.0,1
+lame back lumbar and sacral extending down legs,contractive pains across scapulae passing down spine,1.0,1
+lame back lumbar and sacral extending down legs,rheumatism of wrists with complete loss of power,1.0,1
+lame back lumbar and sacral extending down legs,marked by much disturbance and irritability of the nervous system,1.0,1
+lame back lumbar and sacral extending down legs,lameness and stiffness of larger joints,1.0,1
+lame back lumbar and sacral extending down legs,intense pain in heart radiating to different parts of left chest,1.0,1
+lame back lumbar and sacral extending down legs,cracking in joints especially elbows,1.0,1
+lame back lumbar and sacral extending down legs,pains shooting when sitting still,1.0,1
+lame back lumbar and sacral extending down legs,shooting pains in left wrist,1.0,1
+lame back lumbar and sacral extending down legs,easily startled at the least sound,1.0,1
+lame back lumbar and sacral extending down legs,aching pain in legs with inability to keep still in bed,1.0,1
+lame back lumbar and sacral extending down legs,right knee painful red and swollen,1.0,1
+lame back lumbar and sacral extending down legs,chronic rheumatic pains in cold damp weather,1.0,1
+lame back lumbar and sacral extending down legs,sensation as if left hand were swollen,1.0,1
+lame back lumbar and sacral extending down legs,produces tension involuntary tension,1.0,1
+lame back lumbar and sacral extending down legs,nerves quiver tingle tremble and cause spasms,1.0,1
+lame back lumbar and sacral extending down legs,dull pain in heart and left arm,1.0,1
+lame back lumbar and sacral extending down legs,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+lame back lumbar and sacral extending down legs,pains are intolerable tensive shooting neuralgic,1.0,1
+lame back lumbar and sacral extending down legs,rheumatic pains here and there,1.0,1
+lame back lumbar and sacral extending down legs,sensation as if flexor muscles were too short,1.0,1
+lame back lumbar and sacral extending down legs,drawing in cords of neck causing desire to throw head back,1.0,1
+lame back lumbar and sacral extending down legs,drawing under knees and in ankles,1.0,1
+lame back lumbar and sacral extending down legs,rheumatic pains in extremities of extreme severity,1.0,1
+lame back lumbar and sacral extending down legs,tenderness and stiffness of muscles of back extending whole length,1.0,1
+lame back lumbar and sacral extending down legs,swelling and inflammation of right great toe,1.0,1
+lame back lumbar and sacral extending down legs,aching in hips and knee joints making walking difficult,1.0,1
+lame back lumbar and sacral extending down legs,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+lame back lumbar and sacral extending down legs,agonizing pains across and through both shoulders,1.0,1
+lame back lumbar and sacral extending down legs,nerves are easily shocked,1.0,1
+lame back lumbar and sacral extending down legs,drawing shoulders back tightly as if bones would be crushed,1.0,1
+lame back lumbar and sacral extending down legs,acute pains in tendo achillis,1.0,1
+lame back lumbar and sacral extending down legs,cramping pains in first and second fingers of right hand,1.0,1
+lame back lumbar and sacral extending down legs,restlessness better by clutching the hands very tightly,1.0,1
+lame back lumbar and sacral extending down legs,tension in lumbar region extending down posterior thighs,1.0,1
+lame back lumbar and sacral extending down legs,soreness of ball of foot under the toes,1.0,1
+cramping pains in first and second fingers of right hand,rheumatism of ankles with complete loss of power,1.0,1
+cramping pains in first and second fingers of right hand,stitching pain at apex comes and goes quickly,1.0,1
+cramping pains in first and second fingers of right hand,lack of power in legs,1.0,1
+cramping pains in first and second fingers of right hand,rheumatic pains in calves,1.0,1
+cramping pains in first and second fingers of right hand,aching as if in bones all night preventing sleep,1.0,1
+cramping pains in first and second fingers of right hand,cold yet throws off covers and wants to be fanned,1.0,1
+cramping pains in first and second fingers of right hand,pains in crural and sciatic nerves of left side,1.0,1
+cramping pains in first and second fingers of right hand,contractive pains across scapulae passing down spine,1.0,1
+cramping pains in first and second fingers of right hand,rheumatism of wrists with complete loss of power,1.0,1
+cramping pains in first and second fingers of right hand,marked by much disturbance and irritability of the nervous system,1.0,1
+cramping pains in first and second fingers of right hand,lameness and stiffness of larger joints,1.0,1
+cramping pains in first and second fingers of right hand,lame back lumbar and sacral extending down legs,1.0,1
+cramping pains in first and second fingers of right hand,intense pain in heart radiating to different parts of left chest,1.0,1
+cramping pains in first and second fingers of right hand,cracking in joints especially elbows,1.0,1
+cramping pains in first and second fingers of right hand,pains shooting when sitting still,1.0,1
+cramping pains in first and second fingers of right hand,shooting pains in left wrist,1.0,1
+cramping pains in first and second fingers of right hand,easily startled at the least sound,1.0,1
+cramping pains in first and second fingers of right hand,aching pain in legs with inability to keep still in bed,1.0,1
+cramping pains in first and second fingers of right hand,right knee painful red and swollen,1.0,1
+cramping pains in first and second fingers of right hand,chronic rheumatic pains in cold damp weather,1.0,1
+cramping pains in first and second fingers of right hand,sensation as if left hand were swollen,1.0,1
+cramping pains in first and second fingers of right hand,produces tension involuntary tension,1.0,1
+cramping pains in first and second fingers of right hand,nerves quiver tingle tremble and cause spasms,1.0,1
+cramping pains in first and second fingers of right hand,dull pain in heart and left arm,1.0,1
+cramping pains in first and second fingers of right hand,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+cramping pains in first and second fingers of right hand,pains are intolerable tensive shooting neuralgic,1.0,1
+cramping pains in first and second fingers of right hand,rheumatic pains here and there,1.0,1
+cramping pains in first and second fingers of right hand,sensation as if flexor muscles were too short,1.0,1
+cramping pains in first and second fingers of right hand,drawing in cords of neck causing desire to throw head back,1.0,1
+cramping pains in first and second fingers of right hand,drawing under knees and in ankles,1.0,1
+cramping pains in first and second fingers of right hand,rheumatic pains in extremities of extreme severity,1.0,1
+cramping pains in first and second fingers of right hand,tenderness and stiffness of muscles of back extending whole length,1.0,1
+cramping pains in first and second fingers of right hand,swelling and inflammation of right great toe,1.0,1
+cramping pains in first and second fingers of right hand,aching in hips and knee joints making walking difficult,1.0,1
+cramping pains in first and second fingers of right hand,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+cramping pains in first and second fingers of right hand,agonizing pains across and through both shoulders,1.0,1
+cramping pains in first and second fingers of right hand,nerves are easily shocked,1.0,1
+cramping pains in first and second fingers of right hand,drawing shoulders back tightly as if bones would be crushed,1.0,1
+cramping pains in first and second fingers of right hand,acute pains in tendo achillis,1.0,1
+cramping pains in first and second fingers of right hand,restlessness better by clutching the hands very tightly,1.0,1
+cramping pains in first and second fingers of right hand,tension in lumbar region extending down posterior thighs,1.0,1
+cramping pains in first and second fingers of right hand,soreness of ball of foot under the toes,1.0,1
+nerves are easily shocked,rheumatism of ankles with complete loss of power,1.0,1
+nerves are easily shocked,stitching pain at apex comes and goes quickly,1.0,1
+nerves are easily shocked,lack of power in legs,1.0,1
+nerves are easily shocked,rheumatic pains in calves,1.0,1
+nerves are easily shocked,aching as if in bones all night preventing sleep,1.0,1
+nerves are easily shocked,cold yet throws off covers and wants to be fanned,1.0,1
+nerves are easily shocked,pains in crural and sciatic nerves of left side,1.0,1
+nerves are easily shocked,contractive pains across scapulae passing down spine,1.0,1
+nerves are easily shocked,rheumatism of wrists with complete loss of power,1.0,1
+nerves are easily shocked,marked by much disturbance and irritability of the nervous system,1.0,1
+nerves are easily shocked,lameness and stiffness of larger joints,1.0,1
+nerves are easily shocked,lame back lumbar and sacral extending down legs,1.0,1
+nerves are easily shocked,intense pain in heart radiating to different parts of left chest,1.0,1
+nerves are easily shocked,cracking in joints especially elbows,1.0,1
+nerves are easily shocked,pains shooting when sitting still,1.0,1
+nerves are easily shocked,shooting pains in left wrist,1.0,1
+nerves are easily shocked,easily startled at the least sound,1.0,1
+nerves are easily shocked,aching pain in legs with inability to keep still in bed,1.0,1
+nerves are easily shocked,right knee painful red and swollen,1.0,1
+nerves are easily shocked,chronic rheumatic pains in cold damp weather,1.0,1
+nerves are easily shocked,sensation as if left hand were swollen,1.0,1
+nerves are easily shocked,produces tension involuntary tension,1.0,1
+nerves are easily shocked,nerves quiver tingle tremble and cause spasms,1.0,1
+nerves are easily shocked,dull pain in heart and left arm,1.0,1
+nerves are easily shocked,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+nerves are easily shocked,pains are intolerable tensive shooting neuralgic,1.0,1
+nerves are easily shocked,rheumatic pains here and there,1.0,1
+nerves are easily shocked,sensation as if flexor muscles were too short,1.0,1
+nerves are easily shocked,drawing in cords of neck causing desire to throw head back,1.0,1
+nerves are easily shocked,drawing under knees and in ankles,1.0,1
+nerves are easily shocked,rheumatic pains in extremities of extreme severity,1.0,1
+nerves are easily shocked,tenderness and stiffness of muscles of back extending whole length,1.0,1
+nerves are easily shocked,swelling and inflammation of right great toe,1.0,1
+nerves are easily shocked,aching in hips and knee joints making walking difficult,1.0,1
+nerves are easily shocked,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+nerves are easily shocked,agonizing pains across and through both shoulders,1.0,1
+nerves are easily shocked,drawing shoulders back tightly as if bones would be crushed,1.0,1
+nerves are easily shocked,acute pains in tendo achillis,1.0,1
+nerves are easily shocked,cramping pains in first and second fingers of right hand,1.0,1
+nerves are easily shocked,restlessness better by clutching the hands very tightly,1.0,1
+nerves are easily shocked,tension in lumbar region extending down posterior thighs,1.0,1
+nerves are easily shocked,soreness of ball of foot under the toes,1.0,1
+rheumatic pains in extremities of extreme severity,rheumatism of ankles with complete loss of power,1.0,1
+rheumatic pains in extremities of extreme severity,stitching pain at apex comes and goes quickly,1.0,1
+rheumatic pains in extremities of extreme severity,lack of power in legs,1.0,1
+rheumatic pains in extremities of extreme severity,rheumatic pains in calves,1.0,1
+rheumatic pains in extremities of extreme severity,aching as if in bones all night preventing sleep,1.0,1
+rheumatic pains in extremities of extreme severity,cold yet throws off covers and wants to be fanned,1.0,1
+rheumatic pains in extremities of extreme severity,pains in crural and sciatic nerves of left side,1.0,1
+rheumatic pains in extremities of extreme severity,contractive pains across scapulae passing down spine,1.0,1
+rheumatic pains in extremities of extreme severity,rheumatism of wrists with complete loss of power,1.0,1
+rheumatic pains in extremities of extreme severity,marked by much disturbance and irritability of the nervous system,1.0,1
+rheumatic pains in extremities of extreme severity,lameness and stiffness of larger joints,1.0,1
+rheumatic pains in extremities of extreme severity,lame back lumbar and sacral extending down legs,1.0,1
+rheumatic pains in extremities of extreme severity,intense pain in heart radiating to different parts of left chest,1.0,1
+rheumatic pains in extremities of extreme severity,cracking in joints especially elbows,1.0,1
+rheumatic pains in extremities of extreme severity,pains shooting when sitting still,1.0,1
+rheumatic pains in extremities of extreme severity,shooting pains in left wrist,1.0,1
+rheumatic pains in extremities of extreme severity,easily startled at the least sound,1.0,1
+rheumatic pains in extremities of extreme severity,aching pain in legs with inability to keep still in bed,1.0,1
+rheumatic pains in extremities of extreme severity,right knee painful red and swollen,1.0,1
+rheumatic pains in extremities of extreme severity,chronic rheumatic pains in cold damp weather,1.0,1
+rheumatic pains in extremities of extreme severity,sensation as if left hand were swollen,1.0,1
+rheumatic pains in extremities of extreme severity,produces tension involuntary tension,1.0,1
+rheumatic pains in extremities of extreme severity,nerves quiver tingle tremble and cause spasms,1.0,1
+rheumatic pains in extremities of extreme severity,dull pain in heart and left arm,1.0,1
+rheumatic pains in extremities of extreme severity,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+rheumatic pains in extremities of extreme severity,pains are intolerable tensive shooting neuralgic,1.0,1
+rheumatic pains in extremities of extreme severity,rheumatic pains here and there,1.0,1
+rheumatic pains in extremities of extreme severity,sensation as if flexor muscles were too short,1.0,1
+rheumatic pains in extremities of extreme severity,drawing in cords of neck causing desire to throw head back,1.0,1
+rheumatic pains in extremities of extreme severity,drawing under knees and in ankles,1.0,1
+rheumatic pains in extremities of extreme severity,tenderness and stiffness of muscles of back extending whole length,1.0,1
+rheumatic pains in extremities of extreme severity,swelling and inflammation of right great toe,1.0,1
+rheumatic pains in extremities of extreme severity,aching in hips and knee joints making walking difficult,1.0,1
+rheumatic pains in extremities of extreme severity,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+rheumatic pains in extremities of extreme severity,agonizing pains across and through both shoulders,1.0,1
+rheumatic pains in extremities of extreme severity,nerves are easily shocked,1.0,1
+rheumatic pains in extremities of extreme severity,drawing shoulders back tightly as if bones would be crushed,1.0,1
+rheumatic pains in extremities of extreme severity,acute pains in tendo achillis,1.0,1
+rheumatic pains in extremities of extreme severity,cramping pains in first and second fingers of right hand,1.0,1
+rheumatic pains in extremities of extreme severity,restlessness better by clutching the hands very tightly,1.0,1
+rheumatic pains in extremities of extreme severity,tension in lumbar region extending down posterior thighs,1.0,1
+rheumatic pains in extremities of extreme severity,soreness of ball of foot under the toes,1.0,1
+dull pain in heart and left arm,rheumatism of ankles with complete loss of power,1.0,1
+dull pain in heart and left arm,stitching pain at apex comes and goes quickly,1.0,1
+dull pain in heart and left arm,lack of power in legs,1.0,1
+dull pain in heart and left arm,rheumatic pains in calves,1.0,1
+dull pain in heart and left arm,aching as if in bones all night preventing sleep,1.0,1
+dull pain in heart and left arm,cold yet throws off covers and wants to be fanned,1.0,1
+dull pain in heart and left arm,pains in crural and sciatic nerves of left side,1.0,1
+dull pain in heart and left arm,contractive pains across scapulae passing down spine,1.0,1
+dull pain in heart and left arm,rheumatism of wrists with complete loss of power,1.0,1
+dull pain in heart and left arm,marked by much disturbance and irritability of the nervous system,1.0,1
+dull pain in heart and left arm,lameness and stiffness of larger joints,1.0,1
+dull pain in heart and left arm,lame back lumbar and sacral extending down legs,1.0,1
+dull pain in heart and left arm,intense pain in heart radiating to different parts of left chest,1.0,1
+dull pain in heart and left arm,cracking in joints especially elbows,1.0,1
+dull pain in heart and left arm,pains shooting when sitting still,1.0,1
+dull pain in heart and left arm,shooting pains in left wrist,1.0,1
+dull pain in heart and left arm,easily startled at the least sound,1.0,1
+dull pain in heart and left arm,aching pain in legs with inability to keep still in bed,1.0,1
+dull pain in heart and left arm,right knee painful red and swollen,1.0,1
+dull pain in heart and left arm,chronic rheumatic pains in cold damp weather,1.0,1
+dull pain in heart and left arm,sensation as if left hand were swollen,1.0,1
+dull pain in heart and left arm,produces tension involuntary tension,1.0,1
+dull pain in heart and left arm,nerves quiver tingle tremble and cause spasms,1.0,1
+dull pain in heart and left arm,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+dull pain in heart and left arm,pains are intolerable tensive shooting neuralgic,1.0,1
+dull pain in heart and left arm,rheumatic pains here and there,1.0,1
+dull pain in heart and left arm,sensation as if flexor muscles were too short,1.0,1
+dull pain in heart and left arm,drawing in cords of neck causing desire to throw head back,1.0,1
+dull pain in heart and left arm,drawing under knees and in ankles,1.0,1
+dull pain in heart and left arm,rheumatic pains in extremities of extreme severity,1.0,1
+dull pain in heart and left arm,tenderness and stiffness of muscles of back extending whole length,1.0,1
+dull pain in heart and left arm,swelling and inflammation of right great toe,1.0,1
+dull pain in heart and left arm,aching in hips and knee joints making walking difficult,1.0,1
+dull pain in heart and left arm,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+dull pain in heart and left arm,agonizing pains across and through both shoulders,1.0,1
+dull pain in heart and left arm,nerves are easily shocked,1.0,1
+dull pain in heart and left arm,drawing shoulders back tightly as if bones would be crushed,1.0,1
+dull pain in heart and left arm,acute pains in tendo achillis,1.0,1
+dull pain in heart and left arm,cramping pains in first and second fingers of right hand,1.0,1
+dull pain in heart and left arm,restlessness better by clutching the hands very tightly,1.0,1
+dull pain in heart and left arm,tension in lumbar region extending down posterior thighs,1.0,1
+dull pain in heart and left arm,soreness of ball of foot under the toes,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,rheumatism of ankles with complete loss of power,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,stitching pain at apex comes and goes quickly,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,lack of power in legs,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,rheumatic pains in calves,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,aching as if in bones all night preventing sleep,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,cold yet throws off covers and wants to be fanned,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,pains in crural and sciatic nerves of left side,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,contractive pains across scapulae passing down spine,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,rheumatism of wrists with complete loss of power,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,marked by much disturbance and irritability of the nervous system,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,lameness and stiffness of larger joints,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,lame back lumbar and sacral extending down legs,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,intense pain in heart radiating to different parts of left chest,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,cracking in joints especially elbows,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,pains shooting when sitting still,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,shooting pains in left wrist,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,easily startled at the least sound,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,aching pain in legs with inability to keep still in bed,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,right knee painful red and swollen,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,chronic rheumatic pains in cold damp weather,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,sensation as if left hand were swollen,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,produces tension involuntary tension,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,nerves quiver tingle tremble and cause spasms,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,dull pain in heart and left arm,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,pains are intolerable tensive shooting neuralgic,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,rheumatic pains here and there,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,sensation as if flexor muscles were too short,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,drawing in cords of neck causing desire to throw head back,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,drawing under knees and in ankles,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,rheumatic pains in extremities of extreme severity,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,tenderness and stiffness of muscles of back extending whole length,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,swelling and inflammation of right great toe,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,aching in hips and knee joints making walking difficult,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,agonizing pains across and through both shoulders,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,nerves are easily shocked,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,drawing shoulders back tightly as if bones would be crushed,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,acute pains in tendo achillis,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,cramping pains in first and second fingers of right hand,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,restlessness better by clutching the hands very tightly,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,tension in lumbar region extending down posterior thighs,1.0,1
+drawing pain in sternomastoid muscle drawing chin firmly down to chest,soreness of ball of foot under the toes,1.0,1
+rheumatic pains here and there,rheumatism of ankles with complete loss of power,1.0,1
+rheumatic pains here and there,stitching pain at apex comes and goes quickly,1.0,1
+rheumatic pains here and there,lack of power in legs,1.0,1
+rheumatic pains here and there,rheumatic pains in calves,1.0,1
+rheumatic pains here and there,aching as if in bones all night preventing sleep,1.0,1
+rheumatic pains here and there,cold yet throws off covers and wants to be fanned,1.0,1
+rheumatic pains here and there,pains in crural and sciatic nerves of left side,1.0,1
+rheumatic pains here and there,contractive pains across scapulae passing down spine,1.0,1
+rheumatic pains here and there,rheumatism of wrists with complete loss of power,1.0,1
+rheumatic pains here and there,marked by much disturbance and irritability of the nervous system,1.0,1
+rheumatic pains here and there,lameness and stiffness of larger joints,1.0,1
+rheumatic pains here and there,lame back lumbar and sacral extending down legs,1.0,1
+rheumatic pains here and there,intense pain in heart radiating to different parts of left chest,1.0,1
+rheumatic pains here and there,cracking in joints especially elbows,1.0,1
+rheumatic pains here and there,pains shooting when sitting still,1.0,1
+rheumatic pains here and there,shooting pains in left wrist,1.0,1
+rheumatic pains here and there,easily startled at the least sound,1.0,1
+rheumatic pains here and there,aching pain in legs with inability to keep still in bed,1.0,1
+rheumatic pains here and there,right knee painful red and swollen,1.0,1
+rheumatic pains here and there,chronic rheumatic pains in cold damp weather,1.0,1
+rheumatic pains here and there,sensation as if left hand were swollen,1.0,1
+rheumatic pains here and there,produces tension involuntary tension,1.0,1
+rheumatic pains here and there,nerves quiver tingle tremble and cause spasms,1.0,1
+rheumatic pains here and there,dull pain in heart and left arm,1.0,1
+rheumatic pains here and there,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+rheumatic pains here and there,pains are intolerable tensive shooting neuralgic,1.0,1
+rheumatic pains here and there,sensation as if flexor muscles were too short,1.0,1
+rheumatic pains here and there,drawing in cords of neck causing desire to throw head back,1.0,1
+rheumatic pains here and there,drawing under knees and in ankles,1.0,1
+rheumatic pains here and there,rheumatic pains in extremities of extreme severity,1.0,1
+rheumatic pains here and there,tenderness and stiffness of muscles of back extending whole length,1.0,1
+rheumatic pains here and there,swelling and inflammation of right great toe,1.0,1
+rheumatic pains here and there,aching in hips and knee joints making walking difficult,1.0,1
+rheumatic pains here and there,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+rheumatic pains here and there,agonizing pains across and through both shoulders,1.0,1
+rheumatic pains here and there,nerves are easily shocked,1.0,1
+rheumatic pains here and there,drawing shoulders back tightly as if bones would be crushed,1.0,1
+rheumatic pains here and there,acute pains in tendo achillis,1.0,1
+rheumatic pains here and there,cramping pains in first and second fingers of right hand,1.0,1
+rheumatic pains here and there,restlessness better by clutching the hands very tightly,1.0,1
+rheumatic pains here and there,tension in lumbar region extending down posterior thighs,1.0,1
+rheumatic pains here and there,soreness of ball of foot under the toes,1.0,1
+rheumatism of wrists with complete loss of power,rheumatism of ankles with complete loss of power,1.0,1
+rheumatism of wrists with complete loss of power,stitching pain at apex comes and goes quickly,1.0,1
+rheumatism of wrists with complete loss of power,lack of power in legs,1.0,1
+rheumatism of wrists with complete loss of power,rheumatic pains in calves,1.0,1
+rheumatism of wrists with complete loss of power,aching as if in bones all night preventing sleep,1.0,1
+rheumatism of wrists with complete loss of power,cold yet throws off covers and wants to be fanned,1.0,1
+rheumatism of wrists with complete loss of power,pains in crural and sciatic nerves of left side,1.0,1
+rheumatism of wrists with complete loss of power,contractive pains across scapulae passing down spine,1.0,1
+rheumatism of wrists with complete loss of power,marked by much disturbance and irritability of the nervous system,1.0,1
+rheumatism of wrists with complete loss of power,lameness and stiffness of larger joints,1.0,1
+rheumatism of wrists with complete loss of power,lame back lumbar and sacral extending down legs,1.0,1
+rheumatism of wrists with complete loss of power,intense pain in heart radiating to different parts of left chest,1.0,1
+rheumatism of wrists with complete loss of power,cracking in joints especially elbows,1.0,1
+rheumatism of wrists with complete loss of power,pains shooting when sitting still,1.0,1
+rheumatism of wrists with complete loss of power,shooting pains in left wrist,1.0,1
+rheumatism of wrists with complete loss of power,easily startled at the least sound,1.0,1
+rheumatism of wrists with complete loss of power,aching pain in legs with inability to keep still in bed,1.0,1
+rheumatism of wrists with complete loss of power,right knee painful red and swollen,1.0,1
+rheumatism of wrists with complete loss of power,chronic rheumatic pains in cold damp weather,1.0,1
+rheumatism of wrists with complete loss of power,sensation as if left hand were swollen,1.0,1
+rheumatism of wrists with complete loss of power,produces tension involuntary tension,1.0,1
+rheumatism of wrists with complete loss of power,nerves quiver tingle tremble and cause spasms,1.0,1
+rheumatism of wrists with complete loss of power,dull pain in heart and left arm,1.0,1
+rheumatism of wrists with complete loss of power,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+rheumatism of wrists with complete loss of power,pains are intolerable tensive shooting neuralgic,1.0,1
+rheumatism of wrists with complete loss of power,rheumatic pains here and there,1.0,1
+rheumatism of wrists with complete loss of power,sensation as if flexor muscles were too short,1.0,1
+rheumatism of wrists with complete loss of power,drawing in cords of neck causing desire to throw head back,1.0,1
+rheumatism of wrists with complete loss of power,drawing under knees and in ankles,1.0,1
+rheumatism of wrists with complete loss of power,rheumatic pains in extremities of extreme severity,1.0,1
+rheumatism of wrists with complete loss of power,tenderness and stiffness of muscles of back extending whole length,1.0,1
+rheumatism of wrists with complete loss of power,swelling and inflammation of right great toe,1.0,1
+rheumatism of wrists with complete loss of power,aching in hips and knee joints making walking difficult,1.0,1
+rheumatism of wrists with complete loss of power,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+rheumatism of wrists with complete loss of power,agonizing pains across and through both shoulders,1.0,1
+rheumatism of wrists with complete loss of power,nerves are easily shocked,1.0,1
+rheumatism of wrists with complete loss of power,drawing shoulders back tightly as if bones would be crushed,1.0,1
+rheumatism of wrists with complete loss of power,acute pains in tendo achillis,1.0,1
+rheumatism of wrists with complete loss of power,cramping pains in first and second fingers of right hand,1.0,1
+rheumatism of wrists with complete loss of power,restlessness better by clutching the hands very tightly,1.0,1
+rheumatism of wrists with complete loss of power,tension in lumbar region extending down posterior thighs,1.0,1
+rheumatism of wrists with complete loss of power,soreness of ball of foot under the toes,1.0,1
+easily startled at the least sound,rheumatism of ankles with complete loss of power,1.0,1
+easily startled at the least sound,stitching pain at apex comes and goes quickly,1.0,1
+easily startled at the least sound,lack of power in legs,1.0,1
+easily startled at the least sound,rheumatic pains in calves,1.0,1
+easily startled at the least sound,aching as if in bones all night preventing sleep,1.0,1
+easily startled at the least sound,cold yet throws off covers and wants to be fanned,1.0,1
+easily startled at the least sound,pains in crural and sciatic nerves of left side,1.0,1
+easily startled at the least sound,contractive pains across scapulae passing down spine,1.0,1
+easily startled at the least sound,rheumatism of wrists with complete loss of power,1.0,1
+easily startled at the least sound,marked by much disturbance and irritability of the nervous system,1.0,1
+easily startled at the least sound,lameness and stiffness of larger joints,1.0,1
+easily startled at the least sound,lame back lumbar and sacral extending down legs,1.0,1
+easily startled at the least sound,intense pain in heart radiating to different parts of left chest,1.0,1
+easily startled at the least sound,cracking in joints especially elbows,1.0,1
+easily startled at the least sound,pains shooting when sitting still,1.0,1
+easily startled at the least sound,shooting pains in left wrist,1.0,1
+easily startled at the least sound,aching pain in legs with inability to keep still in bed,1.0,1
+easily startled at the least sound,right knee painful red and swollen,1.0,1
+easily startled at the least sound,chronic rheumatic pains in cold damp weather,1.0,1
+easily startled at the least sound,sensation as if left hand were swollen,1.0,1
+easily startled at the least sound,produces tension involuntary tension,1.0,1
+easily startled at the least sound,nerves quiver tingle tremble and cause spasms,1.0,1
+easily startled at the least sound,dull pain in heart and left arm,1.0,1
+easily startled at the least sound,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+easily startled at the least sound,pains are intolerable tensive shooting neuralgic,1.0,1
+easily startled at the least sound,rheumatic pains here and there,1.0,1
+easily startled at the least sound,sensation as if flexor muscles were too short,1.0,1
+easily startled at the least sound,drawing in cords of neck causing desire to throw head back,1.0,1
+easily startled at the least sound,drawing under knees and in ankles,1.0,1
+easily startled at the least sound,rheumatic pains in extremities of extreme severity,1.0,1
+easily startled at the least sound,tenderness and stiffness of muscles of back extending whole length,1.0,1
+easily startled at the least sound,swelling and inflammation of right great toe,1.0,1
+easily startled at the least sound,aching in hips and knee joints making walking difficult,1.0,1
+easily startled at the least sound,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+easily startled at the least sound,agonizing pains across and through both shoulders,1.0,1
+easily startled at the least sound,nerves are easily shocked,1.0,1
+easily startled at the least sound,drawing shoulders back tightly as if bones would be crushed,1.0,1
+easily startled at the least sound,acute pains in tendo achillis,1.0,1
+easily startled at the least sound,cramping pains in first and second fingers of right hand,1.0,1
+easily startled at the least sound,restlessness better by clutching the hands very tightly,1.0,1
+easily startled at the least sound,tension in lumbar region extending down posterior thighs,1.0,1
+easily startled at the least sound,soreness of ball of foot under the toes,1.0,1
+nerves quiver tingle tremble and cause spasms,rheumatism of ankles with complete loss of power,1.0,1
+nerves quiver tingle tremble and cause spasms,stitching pain at apex comes and goes quickly,1.0,1
+nerves quiver tingle tremble and cause spasms,lack of power in legs,1.0,1
+nerves quiver tingle tremble and cause spasms,rheumatic pains in calves,1.0,1
+nerves quiver tingle tremble and cause spasms,aching as if in bones all night preventing sleep,1.0,1
+nerves quiver tingle tremble and cause spasms,cold yet throws off covers and wants to be fanned,1.0,1
+nerves quiver tingle tremble and cause spasms,pains in crural and sciatic nerves of left side,1.0,1
+nerves quiver tingle tremble and cause spasms,contractive pains across scapulae passing down spine,1.0,1
+nerves quiver tingle tremble and cause spasms,rheumatism of wrists with complete loss of power,1.0,1
+nerves quiver tingle tremble and cause spasms,marked by much disturbance and irritability of the nervous system,1.0,1
+nerves quiver tingle tremble and cause spasms,lameness and stiffness of larger joints,1.0,1
+nerves quiver tingle tremble and cause spasms,lame back lumbar and sacral extending down legs,1.0,1
+nerves quiver tingle tremble and cause spasms,intense pain in heart radiating to different parts of left chest,1.0,1
+nerves quiver tingle tremble and cause spasms,cracking in joints especially elbows,1.0,1
+nerves quiver tingle tremble and cause spasms,pains shooting when sitting still,1.0,1
+nerves quiver tingle tremble and cause spasms,shooting pains in left wrist,1.0,1
+nerves quiver tingle tremble and cause spasms,easily startled at the least sound,1.0,1
+nerves quiver tingle tremble and cause spasms,aching pain in legs with inability to keep still in bed,1.0,1
+nerves quiver tingle tremble and cause spasms,right knee painful red and swollen,1.0,1
+nerves quiver tingle tremble and cause spasms,chronic rheumatic pains in cold damp weather,1.0,1
+nerves quiver tingle tremble and cause spasms,sensation as if left hand were swollen,1.0,1
+nerves quiver tingle tremble and cause spasms,produces tension involuntary tension,1.0,1
+nerves quiver tingle tremble and cause spasms,dull pain in heart and left arm,1.0,1
+nerves quiver tingle tremble and cause spasms,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+nerves quiver tingle tremble and cause spasms,pains are intolerable tensive shooting neuralgic,1.0,1
+nerves quiver tingle tremble and cause spasms,rheumatic pains here and there,1.0,1
+nerves quiver tingle tremble and cause spasms,sensation as if flexor muscles were too short,1.0,1
+nerves quiver tingle tremble and cause spasms,drawing in cords of neck causing desire to throw head back,1.0,1
+nerves quiver tingle tremble and cause spasms,drawing under knees and in ankles,1.0,1
+nerves quiver tingle tremble and cause spasms,rheumatic pains in extremities of extreme severity,1.0,1
+nerves quiver tingle tremble and cause spasms,tenderness and stiffness of muscles of back extending whole length,1.0,1
+nerves quiver tingle tremble and cause spasms,swelling and inflammation of right great toe,1.0,1
+nerves quiver tingle tremble and cause spasms,aching in hips and knee joints making walking difficult,1.0,1
+nerves quiver tingle tremble and cause spasms,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+nerves quiver tingle tremble and cause spasms,agonizing pains across and through both shoulders,1.0,1
+nerves quiver tingle tremble and cause spasms,nerves are easily shocked,1.0,1
+nerves quiver tingle tremble and cause spasms,drawing shoulders back tightly as if bones would be crushed,1.0,1
+nerves quiver tingle tremble and cause spasms,acute pains in tendo achillis,1.0,1
+nerves quiver tingle tremble and cause spasms,cramping pains in first and second fingers of right hand,1.0,1
+nerves quiver tingle tremble and cause spasms,restlessness better by clutching the hands very tightly,1.0,1
+nerves quiver tingle tremble and cause spasms,tension in lumbar region extending down posterior thighs,1.0,1
+nerves quiver tingle tremble and cause spasms,soreness of ball of foot under the toes,1.0,1
+restlessness better by clutching the hands very tightly,rheumatism of ankles with complete loss of power,1.0,1
+restlessness better by clutching the hands very tightly,stitching pain at apex comes and goes quickly,1.0,1
+restlessness better by clutching the hands very tightly,lack of power in legs,1.0,1
+restlessness better by clutching the hands very tightly,rheumatic pains in calves,1.0,1
+restlessness better by clutching the hands very tightly,aching as if in bones all night preventing sleep,1.0,1
+restlessness better by clutching the hands very tightly,cold yet throws off covers and wants to be fanned,1.0,1
+restlessness better by clutching the hands very tightly,pains in crural and sciatic nerves of left side,1.0,1
+restlessness better by clutching the hands very tightly,contractive pains across scapulae passing down spine,1.0,1
+restlessness better by clutching the hands very tightly,rheumatism of wrists with complete loss of power,1.0,1
+restlessness better by clutching the hands very tightly,marked by much disturbance and irritability of the nervous system,1.0,1
+restlessness better by clutching the hands very tightly,lameness and stiffness of larger joints,1.0,1
+restlessness better by clutching the hands very tightly,lame back lumbar and sacral extending down legs,1.0,1
+restlessness better by clutching the hands very tightly,intense pain in heart radiating to different parts of left chest,1.0,1
+restlessness better by clutching the hands very tightly,cracking in joints especially elbows,1.0,1
+restlessness better by clutching the hands very tightly,pains shooting when sitting still,1.0,1
+restlessness better by clutching the hands very tightly,shooting pains in left wrist,1.0,1
+restlessness better by clutching the hands very tightly,easily startled at the least sound,1.0,1
+restlessness better by clutching the hands very tightly,aching pain in legs with inability to keep still in bed,1.0,1
+restlessness better by clutching the hands very tightly,right knee painful red and swollen,1.0,1
+restlessness better by clutching the hands very tightly,chronic rheumatic pains in cold damp weather,1.0,1
+restlessness better by clutching the hands very tightly,sensation as if left hand were swollen,1.0,1
+restlessness better by clutching the hands very tightly,produces tension involuntary tension,1.0,1
+restlessness better by clutching the hands very tightly,nerves quiver tingle tremble and cause spasms,1.0,1
+restlessness better by clutching the hands very tightly,dull pain in heart and left arm,1.0,1
+restlessness better by clutching the hands very tightly,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+restlessness better by clutching the hands very tightly,pains are intolerable tensive shooting neuralgic,1.0,1
+restlessness better by clutching the hands very tightly,rheumatic pains here and there,1.0,1
+restlessness better by clutching the hands very tightly,sensation as if flexor muscles were too short,1.0,1
+restlessness better by clutching the hands very tightly,drawing in cords of neck causing desire to throw head back,1.0,1
+restlessness better by clutching the hands very tightly,drawing under knees and in ankles,1.0,1
+restlessness better by clutching the hands very tightly,rheumatic pains in extremities of extreme severity,1.0,1
+restlessness better by clutching the hands very tightly,tenderness and stiffness of muscles of back extending whole length,1.0,1
+restlessness better by clutching the hands very tightly,swelling and inflammation of right great toe,1.0,1
+restlessness better by clutching the hands very tightly,aching in hips and knee joints making walking difficult,1.0,1
+restlessness better by clutching the hands very tightly,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+restlessness better by clutching the hands very tightly,agonizing pains across and through both shoulders,1.0,1
+restlessness better by clutching the hands very tightly,nerves are easily shocked,1.0,1
+restlessness better by clutching the hands very tightly,drawing shoulders back tightly as if bones would be crushed,1.0,1
+restlessness better by clutching the hands very tightly,acute pains in tendo achillis,1.0,1
+restlessness better by clutching the hands very tightly,cramping pains in first and second fingers of right hand,1.0,1
+restlessness better by clutching the hands very tightly,tension in lumbar region extending down posterior thighs,1.0,1
+restlessness better by clutching the hands very tightly,soreness of ball of foot under the toes,1.0,1
+drawing in cords of neck causing desire to throw head back,rheumatism of ankles with complete loss of power,1.0,1
+drawing in cords of neck causing desire to throw head back,stitching pain at apex comes and goes quickly,1.0,1
+drawing in cords of neck causing desire to throw head back,lack of power in legs,1.0,1
+drawing in cords of neck causing desire to throw head back,rheumatic pains in calves,1.0,1
+drawing in cords of neck causing desire to throw head back,aching as if in bones all night preventing sleep,1.0,1
+drawing in cords of neck causing desire to throw head back,cold yet throws off covers and wants to be fanned,1.0,1
+drawing in cords of neck causing desire to throw head back,pains in crural and sciatic nerves of left side,1.0,1
+drawing in cords of neck causing desire to throw head back,contractive pains across scapulae passing down spine,1.0,1
+drawing in cords of neck causing desire to throw head back,rheumatism of wrists with complete loss of power,1.0,1
+drawing in cords of neck causing desire to throw head back,marked by much disturbance and irritability of the nervous system,1.0,1
+drawing in cords of neck causing desire to throw head back,lameness and stiffness of larger joints,1.0,1
+drawing in cords of neck causing desire to throw head back,lame back lumbar and sacral extending down legs,1.0,1
+drawing in cords of neck causing desire to throw head back,intense pain in heart radiating to different parts of left chest,1.0,1
+drawing in cords of neck causing desire to throw head back,cracking in joints especially elbows,1.0,1
+drawing in cords of neck causing desire to throw head back,pains shooting when sitting still,1.0,1
+drawing in cords of neck causing desire to throw head back,shooting pains in left wrist,1.0,1
+drawing in cords of neck causing desire to throw head back,easily startled at the least sound,1.0,1
+drawing in cords of neck causing desire to throw head back,aching pain in legs with inability to keep still in bed,1.0,1
+drawing in cords of neck causing desire to throw head back,right knee painful red and swollen,1.0,1
+drawing in cords of neck causing desire to throw head back,chronic rheumatic pains in cold damp weather,1.0,1
+drawing in cords of neck causing desire to throw head back,sensation as if left hand were swollen,1.0,1
+drawing in cords of neck causing desire to throw head back,produces tension involuntary tension,1.0,1
+drawing in cords of neck causing desire to throw head back,nerves quiver tingle tremble and cause spasms,1.0,1
+drawing in cords of neck causing desire to throw head back,dull pain in heart and left arm,1.0,1
+drawing in cords of neck causing desire to throw head back,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+drawing in cords of neck causing desire to throw head back,pains are intolerable tensive shooting neuralgic,1.0,1
+drawing in cords of neck causing desire to throw head back,rheumatic pains here and there,1.0,1
+drawing in cords of neck causing desire to throw head back,sensation as if flexor muscles were too short,1.0,1
+drawing in cords of neck causing desire to throw head back,drawing under knees and in ankles,1.0,1
+drawing in cords of neck causing desire to throw head back,rheumatic pains in extremities of extreme severity,1.0,1
+drawing in cords of neck causing desire to throw head back,tenderness and stiffness of muscles of back extending whole length,1.0,1
+drawing in cords of neck causing desire to throw head back,swelling and inflammation of right great toe,1.0,1
+drawing in cords of neck causing desire to throw head back,aching in hips and knee joints making walking difficult,1.0,1
+drawing in cords of neck causing desire to throw head back,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+drawing in cords of neck causing desire to throw head back,agonizing pains across and through both shoulders,1.0,1
+drawing in cords of neck causing desire to throw head back,nerves are easily shocked,1.0,1
+drawing in cords of neck causing desire to throw head back,drawing shoulders back tightly as if bones would be crushed,1.0,1
+drawing in cords of neck causing desire to throw head back,acute pains in tendo achillis,1.0,1
+drawing in cords of neck causing desire to throw head back,cramping pains in first and second fingers of right hand,1.0,1
+drawing in cords of neck causing desire to throw head back,restlessness better by clutching the hands very tightly,1.0,1
+drawing in cords of neck causing desire to throw head back,tension in lumbar region extending down posterior thighs,1.0,1
+drawing in cords of neck causing desire to throw head back,soreness of ball of foot under the toes,1.0,1
+aching in hips and knee joints making walking difficult,rheumatism of ankles with complete loss of power,1.0,1
+aching in hips and knee joints making walking difficult,stitching pain at apex comes and goes quickly,1.0,1
+aching in hips and knee joints making walking difficult,lack of power in legs,1.0,1
+aching in hips and knee joints making walking difficult,rheumatic pains in calves,1.0,1
+aching in hips and knee joints making walking difficult,aching as if in bones all night preventing sleep,1.0,1
+aching in hips and knee joints making walking difficult,cold yet throws off covers and wants to be fanned,1.0,1
+aching in hips and knee joints making walking difficult,pains in crural and sciatic nerves of left side,1.0,1
+aching in hips and knee joints making walking difficult,contractive pains across scapulae passing down spine,1.0,1
+aching in hips and knee joints making walking difficult,rheumatism of wrists with complete loss of power,1.0,1
+aching in hips and knee joints making walking difficult,marked by much disturbance and irritability of the nervous system,1.0,1
+aching in hips and knee joints making walking difficult,lameness and stiffness of larger joints,1.0,1
+aching in hips and knee joints making walking difficult,lame back lumbar and sacral extending down legs,1.0,1
+aching in hips and knee joints making walking difficult,intense pain in heart radiating to different parts of left chest,1.0,1
+aching in hips and knee joints making walking difficult,cracking in joints especially elbows,1.0,1
+aching in hips and knee joints making walking difficult,pains shooting when sitting still,1.0,1
+aching in hips and knee joints making walking difficult,shooting pains in left wrist,1.0,1
+aching in hips and knee joints making walking difficult,easily startled at the least sound,1.0,1
+aching in hips and knee joints making walking difficult,aching pain in legs with inability to keep still in bed,1.0,1
+aching in hips and knee joints making walking difficult,right knee painful red and swollen,1.0,1
+aching in hips and knee joints making walking difficult,chronic rheumatic pains in cold damp weather,1.0,1
+aching in hips and knee joints making walking difficult,sensation as if left hand were swollen,1.0,1
+aching in hips and knee joints making walking difficult,produces tension involuntary tension,1.0,1
+aching in hips and knee joints making walking difficult,nerves quiver tingle tremble and cause spasms,1.0,1
+aching in hips and knee joints making walking difficult,dull pain in heart and left arm,1.0,1
+aching in hips and knee joints making walking difficult,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+aching in hips and knee joints making walking difficult,pains are intolerable tensive shooting neuralgic,1.0,1
+aching in hips and knee joints making walking difficult,rheumatic pains here and there,1.0,1
+aching in hips and knee joints making walking difficult,sensation as if flexor muscles were too short,1.0,1
+aching in hips and knee joints making walking difficult,drawing in cords of neck causing desire to throw head back,1.0,1
+aching in hips and knee joints making walking difficult,drawing under knees and in ankles,1.0,1
+aching in hips and knee joints making walking difficult,rheumatic pains in extremities of extreme severity,1.0,1
+aching in hips and knee joints making walking difficult,tenderness and stiffness of muscles of back extending whole length,1.0,1
+aching in hips and knee joints making walking difficult,swelling and inflammation of right great toe,1.0,1
+aching in hips and knee joints making walking difficult,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+aching in hips and knee joints making walking difficult,agonizing pains across and through both shoulders,1.0,1
+aching in hips and knee joints making walking difficult,nerves are easily shocked,1.0,1
+aching in hips and knee joints making walking difficult,drawing shoulders back tightly as if bones would be crushed,1.0,1
+aching in hips and knee joints making walking difficult,acute pains in tendo achillis,1.0,1
+aching in hips and knee joints making walking difficult,cramping pains in first and second fingers of right hand,1.0,1
+aching in hips and knee joints making walking difficult,restlessness better by clutching the hands very tightly,1.0,1
+aching in hips and knee joints making walking difficult,tension in lumbar region extending down posterior thighs,1.0,1
+aching in hips and knee joints making walking difficult,soreness of ball of foot under the toes,1.0,1
+marked by much disturbance and irritability of the nervous system,rheumatism of ankles with complete loss of power,1.0,1
+marked by much disturbance and irritability of the nervous system,stitching pain at apex comes and goes quickly,1.0,1
+marked by much disturbance and irritability of the nervous system,lack of power in legs,1.0,1
+marked by much disturbance and irritability of the nervous system,rheumatic pains in calves,1.0,1
+marked by much disturbance and irritability of the nervous system,aching as if in bones all night preventing sleep,1.0,1
+marked by much disturbance and irritability of the nervous system,cold yet throws off covers and wants to be fanned,1.0,1
+marked by much disturbance and irritability of the nervous system,pains in crural and sciatic nerves of left side,1.0,1
+marked by much disturbance and irritability of the nervous system,contractive pains across scapulae passing down spine,1.0,1
+marked by much disturbance and irritability of the nervous system,rheumatism of wrists with complete loss of power,1.0,1
+marked by much disturbance and irritability of the nervous system,lameness and stiffness of larger joints,1.0,1
+marked by much disturbance and irritability of the nervous system,lame back lumbar and sacral extending down legs,1.0,1
+marked by much disturbance and irritability of the nervous system,intense pain in heart radiating to different parts of left chest,1.0,1
+marked by much disturbance and irritability of the nervous system,cracking in joints especially elbows,1.0,1
+marked by much disturbance and irritability of the nervous system,pains shooting when sitting still,1.0,1
+marked by much disturbance and irritability of the nervous system,shooting pains in left wrist,1.0,1
+marked by much disturbance and irritability of the nervous system,easily startled at the least sound,1.0,1
+marked by much disturbance and irritability of the nervous system,aching pain in legs with inability to keep still in bed,1.0,1
+marked by much disturbance and irritability of the nervous system,right knee painful red and swollen,1.0,1
+marked by much disturbance and irritability of the nervous system,chronic rheumatic pains in cold damp weather,1.0,1
+marked by much disturbance and irritability of the nervous system,sensation as if left hand were swollen,1.0,1
+marked by much disturbance and irritability of the nervous system,produces tension involuntary tension,1.0,1
+marked by much disturbance and irritability of the nervous system,nerves quiver tingle tremble and cause spasms,1.0,1
+marked by much disturbance and irritability of the nervous system,dull pain in heart and left arm,1.0,1
+marked by much disturbance and irritability of the nervous system,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+marked by much disturbance and irritability of the nervous system,pains are intolerable tensive shooting neuralgic,1.0,1
+marked by much disturbance and irritability of the nervous system,rheumatic pains here and there,1.0,1
+marked by much disturbance and irritability of the nervous system,sensation as if flexor muscles were too short,1.0,1
+marked by much disturbance and irritability of the nervous system,drawing in cords of neck causing desire to throw head back,1.0,1
+marked by much disturbance and irritability of the nervous system,drawing under knees and in ankles,1.0,1
+marked by much disturbance and irritability of the nervous system,rheumatic pains in extremities of extreme severity,1.0,1
+marked by much disturbance and irritability of the nervous system,tenderness and stiffness of muscles of back extending whole length,1.0,1
+marked by much disturbance and irritability of the nervous system,swelling and inflammation of right great toe,1.0,1
+marked by much disturbance and irritability of the nervous system,aching in hips and knee joints making walking difficult,1.0,1
+marked by much disturbance and irritability of the nervous system,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+marked by much disturbance and irritability of the nervous system,agonizing pains across and through both shoulders,1.0,1
+marked by much disturbance and irritability of the nervous system,nerves are easily shocked,1.0,1
+marked by much disturbance and irritability of the nervous system,drawing shoulders back tightly as if bones would be crushed,1.0,1
+marked by much disturbance and irritability of the nervous system,acute pains in tendo achillis,1.0,1
+marked by much disturbance and irritability of the nervous system,cramping pains in first and second fingers of right hand,1.0,1
+marked by much disturbance and irritability of the nervous system,restlessness better by clutching the hands very tightly,1.0,1
+marked by much disturbance and irritability of the nervous system,tension in lumbar region extending down posterior thighs,1.0,1
+marked by much disturbance and irritability of the nervous system,soreness of ball of foot under the toes,1.0,1
+pains shooting when sitting still,rheumatism of ankles with complete loss of power,1.0,1
+pains shooting when sitting still,stitching pain at apex comes and goes quickly,1.0,1
+pains shooting when sitting still,lack of power in legs,1.0,1
+pains shooting when sitting still,rheumatic pains in calves,1.0,1
+pains shooting when sitting still,aching as if in bones all night preventing sleep,1.0,1
+pains shooting when sitting still,cold yet throws off covers and wants to be fanned,1.0,1
+pains shooting when sitting still,pains in crural and sciatic nerves of left side,1.0,1
+pains shooting when sitting still,contractive pains across scapulae passing down spine,1.0,1
+pains shooting when sitting still,rheumatism of wrists with complete loss of power,1.0,1
+pains shooting when sitting still,marked by much disturbance and irritability of the nervous system,1.0,1
+pains shooting when sitting still,lameness and stiffness of larger joints,1.0,1
+pains shooting when sitting still,lame back lumbar and sacral extending down legs,1.0,1
+pains shooting when sitting still,intense pain in heart radiating to different parts of left chest,1.0,1
+pains shooting when sitting still,cracking in joints especially elbows,1.0,1
+pains shooting when sitting still,shooting pains in left wrist,1.0,1
+pains shooting when sitting still,easily startled at the least sound,1.0,1
+pains shooting when sitting still,aching pain in legs with inability to keep still in bed,1.0,1
+pains shooting when sitting still,right knee painful red and swollen,1.0,1
+pains shooting when sitting still,chronic rheumatic pains in cold damp weather,1.0,1
+pains shooting when sitting still,sensation as if left hand were swollen,1.0,1
+pains shooting when sitting still,produces tension involuntary tension,1.0,1
+pains shooting when sitting still,nerves quiver tingle tremble and cause spasms,1.0,1
+pains shooting when sitting still,dull pain in heart and left arm,1.0,1
+pains shooting when sitting still,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+pains shooting when sitting still,pains are intolerable tensive shooting neuralgic,1.0,1
+pains shooting when sitting still,rheumatic pains here and there,1.0,1
+pains shooting when sitting still,sensation as if flexor muscles were too short,1.0,1
+pains shooting when sitting still,drawing in cords of neck causing desire to throw head back,1.0,1
+pains shooting when sitting still,drawing under knees and in ankles,1.0,1
+pains shooting when sitting still,rheumatic pains in extremities of extreme severity,1.0,1
+pains shooting when sitting still,tenderness and stiffness of muscles of back extending whole length,1.0,1
+pains shooting when sitting still,swelling and inflammation of right great toe,1.0,1
+pains shooting when sitting still,aching in hips and knee joints making walking difficult,1.0,1
+pains shooting when sitting still,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+pains shooting when sitting still,agonizing pains across and through both shoulders,1.0,1
+pains shooting when sitting still,nerves are easily shocked,1.0,1
+pains shooting when sitting still,drawing shoulders back tightly as if bones would be crushed,1.0,1
+pains shooting when sitting still,acute pains in tendo achillis,1.0,1
+pains shooting when sitting still,cramping pains in first and second fingers of right hand,1.0,1
+pains shooting when sitting still,restlessness better by clutching the hands very tightly,1.0,1
+pains shooting when sitting still,tension in lumbar region extending down posterior thighs,1.0,1
+pains shooting when sitting still,soreness of ball of foot under the toes,1.0,1
+drawing under knees and in ankles,rheumatism of ankles with complete loss of power,1.0,1
+drawing under knees and in ankles,stitching pain at apex comes and goes quickly,1.0,1
+drawing under knees and in ankles,lack of power in legs,1.0,1
+drawing under knees and in ankles,rheumatic pains in calves,1.0,1
+drawing under knees and in ankles,aching as if in bones all night preventing sleep,1.0,1
+drawing under knees and in ankles,cold yet throws off covers and wants to be fanned,1.0,1
+drawing under knees and in ankles,pains in crural and sciatic nerves of left side,1.0,1
+drawing under knees and in ankles,contractive pains across scapulae passing down spine,1.0,1
+drawing under knees and in ankles,rheumatism of wrists with complete loss of power,1.0,1
+drawing under knees and in ankles,marked by much disturbance and irritability of the nervous system,1.0,1
+drawing under knees and in ankles,lameness and stiffness of larger joints,1.0,1
+drawing under knees and in ankles,lame back lumbar and sacral extending down legs,1.0,1
+drawing under knees and in ankles,intense pain in heart radiating to different parts of left chest,1.0,1
+drawing under knees and in ankles,cracking in joints especially elbows,1.0,1
+drawing under knees and in ankles,pains shooting when sitting still,1.0,1
+drawing under knees and in ankles,shooting pains in left wrist,1.0,1
+drawing under knees and in ankles,easily startled at the least sound,1.0,1
+drawing under knees and in ankles,aching pain in legs with inability to keep still in bed,1.0,1
+drawing under knees and in ankles,right knee painful red and swollen,1.0,1
+drawing under knees and in ankles,chronic rheumatic pains in cold damp weather,1.0,1
+drawing under knees and in ankles,sensation as if left hand were swollen,1.0,1
+drawing under knees and in ankles,produces tension involuntary tension,1.0,1
+drawing under knees and in ankles,nerves quiver tingle tremble and cause spasms,1.0,1
+drawing under knees and in ankles,dull pain in heart and left arm,1.0,1
+drawing under knees and in ankles,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+drawing under knees and in ankles,pains are intolerable tensive shooting neuralgic,1.0,1
+drawing under knees and in ankles,rheumatic pains here and there,1.0,1
+drawing under knees and in ankles,sensation as if flexor muscles were too short,1.0,1
+drawing under knees and in ankles,drawing in cords of neck causing desire to throw head back,1.0,1
+drawing under knees and in ankles,rheumatic pains in extremities of extreme severity,1.0,1
+drawing under knees and in ankles,tenderness and stiffness of muscles of back extending whole length,1.0,1
+drawing under knees and in ankles,swelling and inflammation of right great toe,1.0,1
+drawing under knees and in ankles,aching in hips and knee joints making walking difficult,1.0,1
+drawing under knees and in ankles,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+drawing under knees and in ankles,agonizing pains across and through both shoulders,1.0,1
+drawing under knees and in ankles,nerves are easily shocked,1.0,1
+drawing under knees and in ankles,drawing shoulders back tightly as if bones would be crushed,1.0,1
+drawing under knees and in ankles,acute pains in tendo achillis,1.0,1
+drawing under knees and in ankles,cramping pains in first and second fingers of right hand,1.0,1
+drawing under knees and in ankles,restlessness better by clutching the hands very tightly,1.0,1
+drawing under knees and in ankles,tension in lumbar region extending down posterior thighs,1.0,1
+drawing under knees and in ankles,soreness of ball of foot under the toes,1.0,1
+aching pain in legs with inability to keep still in bed,rheumatism of ankles with complete loss of power,1.0,1
+aching pain in legs with inability to keep still in bed,stitching pain at apex comes and goes quickly,1.0,1
+aching pain in legs with inability to keep still in bed,lack of power in legs,1.0,1
+aching pain in legs with inability to keep still in bed,rheumatic pains in calves,1.0,1
+aching pain in legs with inability to keep still in bed,aching as if in bones all night preventing sleep,1.0,1
+aching pain in legs with inability to keep still in bed,cold yet throws off covers and wants to be fanned,1.0,1
+aching pain in legs with inability to keep still in bed,pains in crural and sciatic nerves of left side,1.0,1
+aching pain in legs with inability to keep still in bed,contractive pains across scapulae passing down spine,1.0,1
+aching pain in legs with inability to keep still in bed,rheumatism of wrists with complete loss of power,1.0,1
+aching pain in legs with inability to keep still in bed,marked by much disturbance and irritability of the nervous system,1.0,1
+aching pain in legs with inability to keep still in bed,lameness and stiffness of larger joints,1.0,1
+aching pain in legs with inability to keep still in bed,lame back lumbar and sacral extending down legs,1.0,1
+aching pain in legs with inability to keep still in bed,intense pain in heart radiating to different parts of left chest,1.0,1
+aching pain in legs with inability to keep still in bed,cracking in joints especially elbows,1.0,1
+aching pain in legs with inability to keep still in bed,pains shooting when sitting still,1.0,1
+aching pain in legs with inability to keep still in bed,shooting pains in left wrist,1.0,1
+aching pain in legs with inability to keep still in bed,easily startled at the least sound,1.0,1
+aching pain in legs with inability to keep still in bed,right knee painful red and swollen,1.0,1
+aching pain in legs with inability to keep still in bed,chronic rheumatic pains in cold damp weather,1.0,1
+aching pain in legs with inability to keep still in bed,sensation as if left hand were swollen,1.0,1
+aching pain in legs with inability to keep still in bed,produces tension involuntary tension,1.0,1
+aching pain in legs with inability to keep still in bed,nerves quiver tingle tremble and cause spasms,1.0,1
+aching pain in legs with inability to keep still in bed,dull pain in heart and left arm,1.0,1
+aching pain in legs with inability to keep still in bed,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+aching pain in legs with inability to keep still in bed,pains are intolerable tensive shooting neuralgic,1.0,1
+aching pain in legs with inability to keep still in bed,rheumatic pains here and there,1.0,1
+aching pain in legs with inability to keep still in bed,sensation as if flexor muscles were too short,1.0,1
+aching pain in legs with inability to keep still in bed,drawing in cords of neck causing desire to throw head back,1.0,1
+aching pain in legs with inability to keep still in bed,drawing under knees and in ankles,1.0,1
+aching pain in legs with inability to keep still in bed,rheumatic pains in extremities of extreme severity,1.0,1
+aching pain in legs with inability to keep still in bed,tenderness and stiffness of muscles of back extending whole length,1.0,1
+aching pain in legs with inability to keep still in bed,swelling and inflammation of right great toe,1.0,1
+aching pain in legs with inability to keep still in bed,aching in hips and knee joints making walking difficult,1.0,1
+aching pain in legs with inability to keep still in bed,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+aching pain in legs with inability to keep still in bed,agonizing pains across and through both shoulders,1.0,1
+aching pain in legs with inability to keep still in bed,nerves are easily shocked,1.0,1
+aching pain in legs with inability to keep still in bed,drawing shoulders back tightly as if bones would be crushed,1.0,1
+aching pain in legs with inability to keep still in bed,acute pains in tendo achillis,1.0,1
+aching pain in legs with inability to keep still in bed,cramping pains in first and second fingers of right hand,1.0,1
+aching pain in legs with inability to keep still in bed,restlessness better by clutching the hands very tightly,1.0,1
+aching pain in legs with inability to keep still in bed,tension in lumbar region extending down posterior thighs,1.0,1
+aching pain in legs with inability to keep still in bed,soreness of ball of foot under the toes,1.0,1
+drawing shoulders back tightly as if bones would be crushed,rheumatism of ankles with complete loss of power,1.0,1
+drawing shoulders back tightly as if bones would be crushed,stitching pain at apex comes and goes quickly,1.0,1
+drawing shoulders back tightly as if bones would be crushed,lack of power in legs,1.0,1
+drawing shoulders back tightly as if bones would be crushed,rheumatic pains in calves,1.0,1
+drawing shoulders back tightly as if bones would be crushed,aching as if in bones all night preventing sleep,1.0,1
+drawing shoulders back tightly as if bones would be crushed,cold yet throws off covers and wants to be fanned,1.0,1
+drawing shoulders back tightly as if bones would be crushed,pains in crural and sciatic nerves of left side,1.0,1
+drawing shoulders back tightly as if bones would be crushed,contractive pains across scapulae passing down spine,1.0,1
+drawing shoulders back tightly as if bones would be crushed,rheumatism of wrists with complete loss of power,1.0,1
+drawing shoulders back tightly as if bones would be crushed,marked by much disturbance and irritability of the nervous system,1.0,1
+drawing shoulders back tightly as if bones would be crushed,lameness and stiffness of larger joints,1.0,1
+drawing shoulders back tightly as if bones would be crushed,lame back lumbar and sacral extending down legs,1.0,1
+drawing shoulders back tightly as if bones would be crushed,intense pain in heart radiating to different parts of left chest,1.0,1
+drawing shoulders back tightly as if bones would be crushed,cracking in joints especially elbows,1.0,1
+drawing shoulders back tightly as if bones would be crushed,pains shooting when sitting still,1.0,1
+drawing shoulders back tightly as if bones would be crushed,shooting pains in left wrist,1.0,1
+drawing shoulders back tightly as if bones would be crushed,easily startled at the least sound,1.0,1
+drawing shoulders back tightly as if bones would be crushed,aching pain in legs with inability to keep still in bed,1.0,1
+drawing shoulders back tightly as if bones would be crushed,right knee painful red and swollen,1.0,1
+drawing shoulders back tightly as if bones would be crushed,chronic rheumatic pains in cold damp weather,1.0,1
+drawing shoulders back tightly as if bones would be crushed,sensation as if left hand were swollen,1.0,1
+drawing shoulders back tightly as if bones would be crushed,produces tension involuntary tension,1.0,1
+drawing shoulders back tightly as if bones would be crushed,nerves quiver tingle tremble and cause spasms,1.0,1
+drawing shoulders back tightly as if bones would be crushed,dull pain in heart and left arm,1.0,1
+drawing shoulders back tightly as if bones would be crushed,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+drawing shoulders back tightly as if bones would be crushed,pains are intolerable tensive shooting neuralgic,1.0,1
+drawing shoulders back tightly as if bones would be crushed,rheumatic pains here and there,1.0,1
+drawing shoulders back tightly as if bones would be crushed,sensation as if flexor muscles were too short,1.0,1
+drawing shoulders back tightly as if bones would be crushed,drawing in cords of neck causing desire to throw head back,1.0,1
+drawing shoulders back tightly as if bones would be crushed,drawing under knees and in ankles,1.0,1
+drawing shoulders back tightly as if bones would be crushed,rheumatic pains in extremities of extreme severity,1.0,1
+drawing shoulders back tightly as if bones would be crushed,tenderness and stiffness of muscles of back extending whole length,1.0,1
+drawing shoulders back tightly as if bones would be crushed,swelling and inflammation of right great toe,1.0,1
+drawing shoulders back tightly as if bones would be crushed,aching in hips and knee joints making walking difficult,1.0,1
+drawing shoulders back tightly as if bones would be crushed,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+drawing shoulders back tightly as if bones would be crushed,agonizing pains across and through both shoulders,1.0,1
+drawing shoulders back tightly as if bones would be crushed,nerves are easily shocked,1.0,1
+drawing shoulders back tightly as if bones would be crushed,acute pains in tendo achillis,1.0,1
+drawing shoulders back tightly as if bones would be crushed,cramping pains in first and second fingers of right hand,1.0,1
+drawing shoulders back tightly as if bones would be crushed,restlessness better by clutching the hands very tightly,1.0,1
+drawing shoulders back tightly as if bones would be crushed,tension in lumbar region extending down posterior thighs,1.0,1
+drawing shoulders back tightly as if bones would be crushed,soreness of ball of foot under the toes,1.0,1
+acute pains in tendo achillis,rheumatism of ankles with complete loss of power,1.0,1
+acute pains in tendo achillis,stitching pain at apex comes and goes quickly,1.0,1
+acute pains in tendo achillis,lack of power in legs,1.0,1
+acute pains in tendo achillis,rheumatic pains in calves,1.0,1
+acute pains in tendo achillis,aching as if in bones all night preventing sleep,1.0,1
+acute pains in tendo achillis,cold yet throws off covers and wants to be fanned,1.0,1
+acute pains in tendo achillis,pains in crural and sciatic nerves of left side,1.0,1
+acute pains in tendo achillis,contractive pains across scapulae passing down spine,1.0,1
+acute pains in tendo achillis,rheumatism of wrists with complete loss of power,1.0,1
+acute pains in tendo achillis,marked by much disturbance and irritability of the nervous system,1.0,1
+acute pains in tendo achillis,lameness and stiffness of larger joints,1.0,1
+acute pains in tendo achillis,lame back lumbar and sacral extending down legs,1.0,1
+acute pains in tendo achillis,intense pain in heart radiating to different parts of left chest,1.0,1
+acute pains in tendo achillis,cracking in joints especially elbows,1.0,1
+acute pains in tendo achillis,pains shooting when sitting still,1.0,1
+acute pains in tendo achillis,shooting pains in left wrist,1.0,1
+acute pains in tendo achillis,easily startled at the least sound,1.0,1
+acute pains in tendo achillis,aching pain in legs with inability to keep still in bed,1.0,1
+acute pains in tendo achillis,right knee painful red and swollen,1.0,1
+acute pains in tendo achillis,chronic rheumatic pains in cold damp weather,1.0,1
+acute pains in tendo achillis,sensation as if left hand were swollen,1.0,1
+acute pains in tendo achillis,produces tension involuntary tension,1.0,1
+acute pains in tendo achillis,nerves quiver tingle tremble and cause spasms,1.0,1
+acute pains in tendo achillis,dull pain in heart and left arm,1.0,1
+acute pains in tendo achillis,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+acute pains in tendo achillis,pains are intolerable tensive shooting neuralgic,1.0,1
+acute pains in tendo achillis,rheumatic pains here and there,1.0,1
+acute pains in tendo achillis,sensation as if flexor muscles were too short,1.0,1
+acute pains in tendo achillis,drawing in cords of neck causing desire to throw head back,1.0,1
+acute pains in tendo achillis,drawing under knees and in ankles,1.0,1
+acute pains in tendo achillis,rheumatic pains in extremities of extreme severity,1.0,1
+acute pains in tendo achillis,tenderness and stiffness of muscles of back extending whole length,1.0,1
+acute pains in tendo achillis,swelling and inflammation of right great toe,1.0,1
+acute pains in tendo achillis,aching in hips and knee joints making walking difficult,1.0,1
+acute pains in tendo achillis,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+acute pains in tendo achillis,agonizing pains across and through both shoulders,1.0,1
+acute pains in tendo achillis,nerves are easily shocked,1.0,1
+acute pains in tendo achillis,drawing shoulders back tightly as if bones would be crushed,1.0,1
+acute pains in tendo achillis,cramping pains in first and second fingers of right hand,1.0,1
+acute pains in tendo achillis,restlessness better by clutching the hands very tightly,1.0,1
+acute pains in tendo achillis,tension in lumbar region extending down posterior thighs,1.0,1
+acute pains in tendo achillis,soreness of ball of foot under the toes,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,rheumatism of ankles with complete loss of power,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,stitching pain at apex comes and goes quickly,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,lack of power in legs,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,rheumatic pains in calves,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,aching as if in bones all night preventing sleep,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,cold yet throws off covers and wants to be fanned,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,pains in crural and sciatic nerves of left side,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,contractive pains across scapulae passing down spine,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,rheumatism of wrists with complete loss of power,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,marked by much disturbance and irritability of the nervous system,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,lameness and stiffness of larger joints,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,lame back lumbar and sacral extending down legs,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,intense pain in heart radiating to different parts of left chest,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,cracking in joints especially elbows,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,pains shooting when sitting still,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,shooting pains in left wrist,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,easily startled at the least sound,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,aching pain in legs with inability to keep still in bed,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,right knee painful red and swollen,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,chronic rheumatic pains in cold damp weather,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,sensation as if left hand were swollen,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,produces tension involuntary tension,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,nerves quiver tingle tremble and cause spasms,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,dull pain in heart and left arm,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,pains are intolerable tensive shooting neuralgic,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,rheumatic pains here and there,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,sensation as if flexor muscles were too short,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,drawing in cords of neck causing desire to throw head back,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,drawing under knees and in ankles,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,rheumatic pains in extremities of extreme severity,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,tenderness and stiffness of muscles of back extending whole length,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,swelling and inflammation of right great toe,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,aching in hips and knee joints making walking difficult,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,agonizing pains across and through both shoulders,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,nerves are easily shocked,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,drawing shoulders back tightly as if bones would be crushed,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,acute pains in tendo achillis,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,cramping pains in first and second fingers of right hand,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,restlessness better by clutching the hands very tightly,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,tension in lumbar region extending down posterior thighs,1.0,1
+pain in neck and between scapulae running to either shoulder to lumbar region,soreness of ball of foot under the toes,1.0,1
+lameness and stiffness of larger joints,rheumatism of ankles with complete loss of power,1.0,1
+lameness and stiffness of larger joints,stitching pain at apex comes and goes quickly,1.0,1
+lameness and stiffness of larger joints,lack of power in legs,1.0,1
+lameness and stiffness of larger joints,rheumatic pains in calves,1.0,1
+lameness and stiffness of larger joints,aching as if in bones all night preventing sleep,1.0,1
+lameness and stiffness of larger joints,cold yet throws off covers and wants to be fanned,1.0,1
+lameness and stiffness of larger joints,pains in crural and sciatic nerves of left side,1.0,1
+lameness and stiffness of larger joints,contractive pains across scapulae passing down spine,1.0,1
+lameness and stiffness of larger joints,rheumatism of wrists with complete loss of power,1.0,1
+lameness and stiffness of larger joints,marked by much disturbance and irritability of the nervous system,1.0,1
+lameness and stiffness of larger joints,lame back lumbar and sacral extending down legs,1.0,1
+lameness and stiffness of larger joints,intense pain in heart radiating to different parts of left chest,1.0,1
+lameness and stiffness of larger joints,cracking in joints especially elbows,1.0,1
+lameness and stiffness of larger joints,pains shooting when sitting still,1.0,1
+lameness and stiffness of larger joints,shooting pains in left wrist,1.0,1
+lameness and stiffness of larger joints,easily startled at the least sound,1.0,1
+lameness and stiffness of larger joints,aching pain in legs with inability to keep still in bed,1.0,1
+lameness and stiffness of larger joints,right knee painful red and swollen,1.0,1
+lameness and stiffness of larger joints,chronic rheumatic pains in cold damp weather,1.0,1
+lameness and stiffness of larger joints,sensation as if left hand were swollen,1.0,1
+lameness and stiffness of larger joints,produces tension involuntary tension,1.0,1
+lameness and stiffness of larger joints,nerves quiver tingle tremble and cause spasms,1.0,1
+lameness and stiffness of larger joints,dull pain in heart and left arm,1.0,1
+lameness and stiffness of larger joints,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+lameness and stiffness of larger joints,pains are intolerable tensive shooting neuralgic,1.0,1
+lameness and stiffness of larger joints,rheumatic pains here and there,1.0,1
+lameness and stiffness of larger joints,sensation as if flexor muscles were too short,1.0,1
+lameness and stiffness of larger joints,drawing in cords of neck causing desire to throw head back,1.0,1
+lameness and stiffness of larger joints,drawing under knees and in ankles,1.0,1
+lameness and stiffness of larger joints,rheumatic pains in extremities of extreme severity,1.0,1
+lameness and stiffness of larger joints,tenderness and stiffness of muscles of back extending whole length,1.0,1
+lameness and stiffness of larger joints,swelling and inflammation of right great toe,1.0,1
+lameness and stiffness of larger joints,aching in hips and knee joints making walking difficult,1.0,1
+lameness and stiffness of larger joints,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+lameness and stiffness of larger joints,agonizing pains across and through both shoulders,1.0,1
+lameness and stiffness of larger joints,nerves are easily shocked,1.0,1
+lameness and stiffness of larger joints,drawing shoulders back tightly as if bones would be crushed,1.0,1
+lameness and stiffness of larger joints,acute pains in tendo achillis,1.0,1
+lameness and stiffness of larger joints,cramping pains in first and second fingers of right hand,1.0,1
+lameness and stiffness of larger joints,restlessness better by clutching the hands very tightly,1.0,1
+lameness and stiffness of larger joints,tension in lumbar region extending down posterior thighs,1.0,1
+lameness and stiffness of larger joints,soreness of ball of foot under the toes,1.0,1
+chronic rheumatic pains in cold damp weather,rheumatism of ankles with complete loss of power,1.0,1
+chronic rheumatic pains in cold damp weather,stitching pain at apex comes and goes quickly,1.0,1
+chronic rheumatic pains in cold damp weather,lack of power in legs,1.0,1
+chronic rheumatic pains in cold damp weather,rheumatic pains in calves,1.0,1
+chronic rheumatic pains in cold damp weather,aching as if in bones all night preventing sleep,1.0,1
+chronic rheumatic pains in cold damp weather,cold yet throws off covers and wants to be fanned,1.0,1
+chronic rheumatic pains in cold damp weather,pains in crural and sciatic nerves of left side,1.0,1
+chronic rheumatic pains in cold damp weather,contractive pains across scapulae passing down spine,1.0,1
+chronic rheumatic pains in cold damp weather,rheumatism of wrists with complete loss of power,1.0,1
+chronic rheumatic pains in cold damp weather,marked by much disturbance and irritability of the nervous system,1.0,1
+chronic rheumatic pains in cold damp weather,lameness and stiffness of larger joints,1.0,1
+chronic rheumatic pains in cold damp weather,lame back lumbar and sacral extending down legs,1.0,1
+chronic rheumatic pains in cold damp weather,intense pain in heart radiating to different parts of left chest,1.0,1
+chronic rheumatic pains in cold damp weather,cracking in joints especially elbows,1.0,1
+chronic rheumatic pains in cold damp weather,pains shooting when sitting still,1.0,1
+chronic rheumatic pains in cold damp weather,shooting pains in left wrist,1.0,1
+chronic rheumatic pains in cold damp weather,easily startled at the least sound,1.0,1
+chronic rheumatic pains in cold damp weather,aching pain in legs with inability to keep still in bed,1.0,1
+chronic rheumatic pains in cold damp weather,right knee painful red and swollen,1.0,1
+chronic rheumatic pains in cold damp weather,sensation as if left hand were swollen,1.0,1
+chronic rheumatic pains in cold damp weather,produces tension involuntary tension,1.0,1
+chronic rheumatic pains in cold damp weather,nerves quiver tingle tremble and cause spasms,1.0,1
+chronic rheumatic pains in cold damp weather,dull pain in heart and left arm,1.0,1
+chronic rheumatic pains in cold damp weather,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+chronic rheumatic pains in cold damp weather,pains are intolerable tensive shooting neuralgic,1.0,1
+chronic rheumatic pains in cold damp weather,rheumatic pains here and there,1.0,1
+chronic rheumatic pains in cold damp weather,sensation as if flexor muscles were too short,1.0,1
+chronic rheumatic pains in cold damp weather,drawing in cords of neck causing desire to throw head back,1.0,1
+chronic rheumatic pains in cold damp weather,drawing under knees and in ankles,1.0,1
+chronic rheumatic pains in cold damp weather,rheumatic pains in extremities of extreme severity,1.0,1
+chronic rheumatic pains in cold damp weather,tenderness and stiffness of muscles of back extending whole length,1.0,1
+chronic rheumatic pains in cold damp weather,swelling and inflammation of right great toe,1.0,1
+chronic rheumatic pains in cold damp weather,aching in hips and knee joints making walking difficult,1.0,1
+chronic rheumatic pains in cold damp weather,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+chronic rheumatic pains in cold damp weather,agonizing pains across and through both shoulders,1.0,1
+chronic rheumatic pains in cold damp weather,nerves are easily shocked,1.0,1
+chronic rheumatic pains in cold damp weather,drawing shoulders back tightly as if bones would be crushed,1.0,1
+chronic rheumatic pains in cold damp weather,acute pains in tendo achillis,1.0,1
+chronic rheumatic pains in cold damp weather,cramping pains in first and second fingers of right hand,1.0,1
+chronic rheumatic pains in cold damp weather,restlessness better by clutching the hands very tightly,1.0,1
+chronic rheumatic pains in cold damp weather,tension in lumbar region extending down posterior thighs,1.0,1
+chronic rheumatic pains in cold damp weather,soreness of ball of foot under the toes,1.0,1
+tenderness and stiffness of muscles of back extending whole length,rheumatism of ankles with complete loss of power,1.0,1
+tenderness and stiffness of muscles of back extending whole length,stitching pain at apex comes and goes quickly,1.0,1
+tenderness and stiffness of muscles of back extending whole length,lack of power in legs,1.0,1
+tenderness and stiffness of muscles of back extending whole length,rheumatic pains in calves,1.0,1
+tenderness and stiffness of muscles of back extending whole length,aching as if in bones all night preventing sleep,1.0,1
+tenderness and stiffness of muscles of back extending whole length,cold yet throws off covers and wants to be fanned,1.0,1
+tenderness and stiffness of muscles of back extending whole length,pains in crural and sciatic nerves of left side,1.0,1
+tenderness and stiffness of muscles of back extending whole length,contractive pains across scapulae passing down spine,1.0,1
+tenderness and stiffness of muscles of back extending whole length,rheumatism of wrists with complete loss of power,1.0,1
+tenderness and stiffness of muscles of back extending whole length,marked by much disturbance and irritability of the nervous system,1.0,1
+tenderness and stiffness of muscles of back extending whole length,lameness and stiffness of larger joints,1.0,1
+tenderness and stiffness of muscles of back extending whole length,lame back lumbar and sacral extending down legs,1.0,1
+tenderness and stiffness of muscles of back extending whole length,intense pain in heart radiating to different parts of left chest,1.0,1
+tenderness and stiffness of muscles of back extending whole length,cracking in joints especially elbows,1.0,1
+tenderness and stiffness of muscles of back extending whole length,pains shooting when sitting still,1.0,1
+tenderness and stiffness of muscles of back extending whole length,shooting pains in left wrist,1.0,1
+tenderness and stiffness of muscles of back extending whole length,easily startled at the least sound,1.0,1
+tenderness and stiffness of muscles of back extending whole length,aching pain in legs with inability to keep still in bed,1.0,1
+tenderness and stiffness of muscles of back extending whole length,right knee painful red and swollen,1.0,1
+tenderness and stiffness of muscles of back extending whole length,chronic rheumatic pains in cold damp weather,1.0,1
+tenderness and stiffness of muscles of back extending whole length,sensation as if left hand were swollen,1.0,1
+tenderness and stiffness of muscles of back extending whole length,produces tension involuntary tension,1.0,1
+tenderness and stiffness of muscles of back extending whole length,nerves quiver tingle tremble and cause spasms,1.0,1
+tenderness and stiffness of muscles of back extending whole length,dull pain in heart and left arm,1.0,1
+tenderness and stiffness of muscles of back extending whole length,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+tenderness and stiffness of muscles of back extending whole length,pains are intolerable tensive shooting neuralgic,1.0,1
+tenderness and stiffness of muscles of back extending whole length,rheumatic pains here and there,1.0,1
+tenderness and stiffness of muscles of back extending whole length,sensation as if flexor muscles were too short,1.0,1
+tenderness and stiffness of muscles of back extending whole length,drawing in cords of neck causing desire to throw head back,1.0,1
+tenderness and stiffness of muscles of back extending whole length,drawing under knees and in ankles,1.0,1
+tenderness and stiffness of muscles of back extending whole length,rheumatic pains in extremities of extreme severity,1.0,1
+tenderness and stiffness of muscles of back extending whole length,swelling and inflammation of right great toe,1.0,1
+tenderness and stiffness of muscles of back extending whole length,aching in hips and knee joints making walking difficult,1.0,1
+tenderness and stiffness of muscles of back extending whole length,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+tenderness and stiffness of muscles of back extending whole length,agonizing pains across and through both shoulders,1.0,1
+tenderness and stiffness of muscles of back extending whole length,nerves are easily shocked,1.0,1
+tenderness and stiffness of muscles of back extending whole length,drawing shoulders back tightly as if bones would be crushed,1.0,1
+tenderness and stiffness of muscles of back extending whole length,acute pains in tendo achillis,1.0,1
+tenderness and stiffness of muscles of back extending whole length,cramping pains in first and second fingers of right hand,1.0,1
+tenderness and stiffness of muscles of back extending whole length,restlessness better by clutching the hands very tightly,1.0,1
+tenderness and stiffness of muscles of back extending whole length,tension in lumbar region extending down posterior thighs,1.0,1
+tenderness and stiffness of muscles of back extending whole length,soreness of ball of foot under the toes,1.0,1
+rheumatic pains in calves,rheumatism of ankles with complete loss of power,1.0,1
+rheumatic pains in calves,stitching pain at apex comes and goes quickly,1.0,1
+rheumatic pains in calves,lack of power in legs,1.0,1
+rheumatic pains in calves,aching as if in bones all night preventing sleep,1.0,1
+rheumatic pains in calves,cold yet throws off covers and wants to be fanned,1.0,1
+rheumatic pains in calves,pains in crural and sciatic nerves of left side,1.0,1
+rheumatic pains in calves,contractive pains across scapulae passing down spine,1.0,1
+rheumatic pains in calves,rheumatism of wrists with complete loss of power,1.0,1
+rheumatic pains in calves,marked by much disturbance and irritability of the nervous system,1.0,1
+rheumatic pains in calves,lameness and stiffness of larger joints,1.0,1
+rheumatic pains in calves,lame back lumbar and sacral extending down legs,1.0,1
+rheumatic pains in calves,intense pain in heart radiating to different parts of left chest,1.0,1
+rheumatic pains in calves,cracking in joints especially elbows,1.0,1
+rheumatic pains in calves,pains shooting when sitting still,1.0,1
+rheumatic pains in calves,shooting pains in left wrist,1.0,1
+rheumatic pains in calves,easily startled at the least sound,1.0,1
+rheumatic pains in calves,aching pain in legs with inability to keep still in bed,1.0,1
+rheumatic pains in calves,right knee painful red and swollen,1.0,1
+rheumatic pains in calves,chronic rheumatic pains in cold damp weather,1.0,1
+rheumatic pains in calves,sensation as if left hand were swollen,1.0,1
+rheumatic pains in calves,produces tension involuntary tension,1.0,1
+rheumatic pains in calves,nerves quiver tingle tremble and cause spasms,1.0,1
+rheumatic pains in calves,dull pain in heart and left arm,1.0,1
+rheumatic pains in calves,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+rheumatic pains in calves,pains are intolerable tensive shooting neuralgic,1.0,1
+rheumatic pains in calves,rheumatic pains here and there,1.0,1
+rheumatic pains in calves,sensation as if flexor muscles were too short,1.0,1
+rheumatic pains in calves,drawing in cords of neck causing desire to throw head back,1.0,1
+rheumatic pains in calves,drawing under knees and in ankles,1.0,1
+rheumatic pains in calves,rheumatic pains in extremities of extreme severity,1.0,1
+rheumatic pains in calves,tenderness and stiffness of muscles of back extending whole length,1.0,1
+rheumatic pains in calves,swelling and inflammation of right great toe,1.0,1
+rheumatic pains in calves,aching in hips and knee joints making walking difficult,1.0,1
+rheumatic pains in calves,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+rheumatic pains in calves,agonizing pains across and through both shoulders,1.0,1
+rheumatic pains in calves,nerves are easily shocked,1.0,1
+rheumatic pains in calves,drawing shoulders back tightly as if bones would be crushed,1.0,1
+rheumatic pains in calves,acute pains in tendo achillis,1.0,1
+rheumatic pains in calves,cramping pains in first and second fingers of right hand,1.0,1
+rheumatic pains in calves,restlessness better by clutching the hands very tightly,1.0,1
+rheumatic pains in calves,tension in lumbar region extending down posterior thighs,1.0,1
+rheumatic pains in calves,soreness of ball of foot under the toes,1.0,1
+swelling and inflammation of right great toe,rheumatism of ankles with complete loss of power,1.0,1
+swelling and inflammation of right great toe,stitching pain at apex comes and goes quickly,1.0,1
+swelling and inflammation of right great toe,lack of power in legs,1.0,1
+swelling and inflammation of right great toe,rheumatic pains in calves,1.0,1
+swelling and inflammation of right great toe,aching as if in bones all night preventing sleep,1.0,1
+swelling and inflammation of right great toe,cold yet throws off covers and wants to be fanned,1.0,1
+swelling and inflammation of right great toe,pains in crural and sciatic nerves of left side,1.0,1
+swelling and inflammation of right great toe,contractive pains across scapulae passing down spine,1.0,1
+swelling and inflammation of right great toe,rheumatism of wrists with complete loss of power,1.0,1
+swelling and inflammation of right great toe,marked by much disturbance and irritability of the nervous system,1.0,1
+swelling and inflammation of right great toe,lameness and stiffness of larger joints,1.0,1
+swelling and inflammation of right great toe,lame back lumbar and sacral extending down legs,1.0,1
+swelling and inflammation of right great toe,intense pain in heart radiating to different parts of left chest,1.0,1
+swelling and inflammation of right great toe,cracking in joints especially elbows,1.0,1
+swelling and inflammation of right great toe,pains shooting when sitting still,1.0,1
+swelling and inflammation of right great toe,shooting pains in left wrist,1.0,1
+swelling and inflammation of right great toe,easily startled at the least sound,1.0,1
+swelling and inflammation of right great toe,aching pain in legs with inability to keep still in bed,1.0,1
+swelling and inflammation of right great toe,right knee painful red and swollen,1.0,1
+swelling and inflammation of right great toe,chronic rheumatic pains in cold damp weather,1.0,1
+swelling and inflammation of right great toe,sensation as if left hand were swollen,1.0,1
+swelling and inflammation of right great toe,produces tension involuntary tension,1.0,1
+swelling and inflammation of right great toe,nerves quiver tingle tremble and cause spasms,1.0,1
+swelling and inflammation of right great toe,dull pain in heart and left arm,1.0,1
+swelling and inflammation of right great toe,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+swelling and inflammation of right great toe,pains are intolerable tensive shooting neuralgic,1.0,1
+swelling and inflammation of right great toe,rheumatic pains here and there,1.0,1
+swelling and inflammation of right great toe,sensation as if flexor muscles were too short,1.0,1
+swelling and inflammation of right great toe,drawing in cords of neck causing desire to throw head back,1.0,1
+swelling and inflammation of right great toe,drawing under knees and in ankles,1.0,1
+swelling and inflammation of right great toe,rheumatic pains in extremities of extreme severity,1.0,1
+swelling and inflammation of right great toe,tenderness and stiffness of muscles of back extending whole length,1.0,1
+swelling and inflammation of right great toe,aching in hips and knee joints making walking difficult,1.0,1
+swelling and inflammation of right great toe,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+swelling and inflammation of right great toe,agonizing pains across and through both shoulders,1.0,1
+swelling and inflammation of right great toe,nerves are easily shocked,1.0,1
+swelling and inflammation of right great toe,drawing shoulders back tightly as if bones would be crushed,1.0,1
+swelling and inflammation of right great toe,acute pains in tendo achillis,1.0,1
+swelling and inflammation of right great toe,cramping pains in first and second fingers of right hand,1.0,1
+swelling and inflammation of right great toe,restlessness better by clutching the hands very tightly,1.0,1
+swelling and inflammation of right great toe,tension in lumbar region extending down posterior thighs,1.0,1
+swelling and inflammation of right great toe,soreness of ball of foot under the toes,1.0,1
+right knee painful red and swollen,rheumatism of ankles with complete loss of power,1.0,1
+right knee painful red and swollen,stitching pain at apex comes and goes quickly,1.0,1
+right knee painful red and swollen,lack of power in legs,1.0,1
+right knee painful red and swollen,rheumatic pains in calves,1.0,1
+right knee painful red and swollen,aching as if in bones all night preventing sleep,1.0,1
+right knee painful red and swollen,cold yet throws off covers and wants to be fanned,1.0,1
+right knee painful red and swollen,pains in crural and sciatic nerves of left side,1.0,1
+right knee painful red and swollen,contractive pains across scapulae passing down spine,1.0,1
+right knee painful red and swollen,rheumatism of wrists with complete loss of power,1.0,1
+right knee painful red and swollen,marked by much disturbance and irritability of the nervous system,1.0,1
+right knee painful red and swollen,lameness and stiffness of larger joints,1.0,1
+right knee painful red and swollen,lame back lumbar and sacral extending down legs,1.0,1
+right knee painful red and swollen,intense pain in heart radiating to different parts of left chest,1.0,1
+right knee painful red and swollen,cracking in joints especially elbows,1.0,1
+right knee painful red and swollen,pains shooting when sitting still,1.0,1
+right knee painful red and swollen,shooting pains in left wrist,1.0,1
+right knee painful red and swollen,easily startled at the least sound,1.0,1
+right knee painful red and swollen,aching pain in legs with inability to keep still in bed,1.0,1
+right knee painful red and swollen,chronic rheumatic pains in cold damp weather,1.0,1
+right knee painful red and swollen,sensation as if left hand were swollen,1.0,1
+right knee painful red and swollen,produces tension involuntary tension,1.0,1
+right knee painful red and swollen,nerves quiver tingle tremble and cause spasms,1.0,1
+right knee painful red and swollen,dull pain in heart and left arm,1.0,1
+right knee painful red and swollen,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+right knee painful red and swollen,pains are intolerable tensive shooting neuralgic,1.0,1
+right knee painful red and swollen,rheumatic pains here and there,1.0,1
+right knee painful red and swollen,sensation as if flexor muscles were too short,1.0,1
+right knee painful red and swollen,drawing in cords of neck causing desire to throw head back,1.0,1
+right knee painful red and swollen,drawing under knees and in ankles,1.0,1
+right knee painful red and swollen,rheumatic pains in extremities of extreme severity,1.0,1
+right knee painful red and swollen,tenderness and stiffness of muscles of back extending whole length,1.0,1
+right knee painful red and swollen,swelling and inflammation of right great toe,1.0,1
+right knee painful red and swollen,aching in hips and knee joints making walking difficult,1.0,1
+right knee painful red and swollen,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+right knee painful red and swollen,agonizing pains across and through both shoulders,1.0,1
+right knee painful red and swollen,nerves are easily shocked,1.0,1
+right knee painful red and swollen,drawing shoulders back tightly as if bones would be crushed,1.0,1
+right knee painful red and swollen,acute pains in tendo achillis,1.0,1
+right knee painful red and swollen,cramping pains in first and second fingers of right hand,1.0,1
+right knee painful red and swollen,restlessness better by clutching the hands very tightly,1.0,1
+right knee painful red and swollen,tension in lumbar region extending down posterior thighs,1.0,1
+right knee painful red and swollen,soreness of ball of foot under the toes,1.0,1
+intense pain in heart radiating to different parts of left chest,rheumatism of ankles with complete loss of power,1.0,1
+intense pain in heart radiating to different parts of left chest,stitching pain at apex comes and goes quickly,1.0,1
+intense pain in heart radiating to different parts of left chest,lack of power in legs,1.0,1
+intense pain in heart radiating to different parts of left chest,rheumatic pains in calves,1.0,1
+intense pain in heart radiating to different parts of left chest,aching as if in bones all night preventing sleep,1.0,1
+intense pain in heart radiating to different parts of left chest,cold yet throws off covers and wants to be fanned,1.0,1
+intense pain in heart radiating to different parts of left chest,pains in crural and sciatic nerves of left side,1.0,1
+intense pain in heart radiating to different parts of left chest,contractive pains across scapulae passing down spine,1.0,1
+intense pain in heart radiating to different parts of left chest,rheumatism of wrists with complete loss of power,1.0,1
+intense pain in heart radiating to different parts of left chest,marked by much disturbance and irritability of the nervous system,1.0,1
+intense pain in heart radiating to different parts of left chest,lameness and stiffness of larger joints,1.0,1
+intense pain in heart radiating to different parts of left chest,lame back lumbar and sacral extending down legs,1.0,1
+intense pain in heart radiating to different parts of left chest,cracking in joints especially elbows,1.0,1
+intense pain in heart radiating to different parts of left chest,pains shooting when sitting still,1.0,1
+intense pain in heart radiating to different parts of left chest,shooting pains in left wrist,1.0,1
+intense pain in heart radiating to different parts of left chest,easily startled at the least sound,1.0,1
+intense pain in heart radiating to different parts of left chest,aching pain in legs with inability to keep still in bed,1.0,1
+intense pain in heart radiating to different parts of left chest,right knee painful red and swollen,1.0,1
+intense pain in heart radiating to different parts of left chest,chronic rheumatic pains in cold damp weather,1.0,1
+intense pain in heart radiating to different parts of left chest,sensation as if left hand were swollen,1.0,1
+intense pain in heart radiating to different parts of left chest,produces tension involuntary tension,1.0,1
+intense pain in heart radiating to different parts of left chest,nerves quiver tingle tremble and cause spasms,1.0,1
+intense pain in heart radiating to different parts of left chest,dull pain in heart and left arm,1.0,1
+intense pain in heart radiating to different parts of left chest,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+intense pain in heart radiating to different parts of left chest,pains are intolerable tensive shooting neuralgic,1.0,1
+intense pain in heart radiating to different parts of left chest,rheumatic pains here and there,1.0,1
+intense pain in heart radiating to different parts of left chest,sensation as if flexor muscles were too short,1.0,1
+intense pain in heart radiating to different parts of left chest,drawing in cords of neck causing desire to throw head back,1.0,1
+intense pain in heart radiating to different parts of left chest,drawing under knees and in ankles,1.0,1
+intense pain in heart radiating to different parts of left chest,rheumatic pains in extremities of extreme severity,1.0,1
+intense pain in heart radiating to different parts of left chest,tenderness and stiffness of muscles of back extending whole length,1.0,1
+intense pain in heart radiating to different parts of left chest,swelling and inflammation of right great toe,1.0,1
+intense pain in heart radiating to different parts of left chest,aching in hips and knee joints making walking difficult,1.0,1
+intense pain in heart radiating to different parts of left chest,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+intense pain in heart radiating to different parts of left chest,agonizing pains across and through both shoulders,1.0,1
+intense pain in heart radiating to different parts of left chest,nerves are easily shocked,1.0,1
+intense pain in heart radiating to different parts of left chest,drawing shoulders back tightly as if bones would be crushed,1.0,1
+intense pain in heart radiating to different parts of left chest,acute pains in tendo achillis,1.0,1
+intense pain in heart radiating to different parts of left chest,cramping pains in first and second fingers of right hand,1.0,1
+intense pain in heart radiating to different parts of left chest,restlessness better by clutching the hands very tightly,1.0,1
+intense pain in heart radiating to different parts of left chest,tension in lumbar region extending down posterior thighs,1.0,1
+intense pain in heart radiating to different parts of left chest,soreness of ball of foot under the toes,1.0,1
+tension in lumbar region extending down posterior thighs,rheumatism of ankles with complete loss of power,1.0,1
+tension in lumbar region extending down posterior thighs,stitching pain at apex comes and goes quickly,1.0,1
+tension in lumbar region extending down posterior thighs,lack of power in legs,1.0,1
+tension in lumbar region extending down posterior thighs,rheumatic pains in calves,1.0,1
+tension in lumbar region extending down posterior thighs,aching as if in bones all night preventing sleep,1.0,1
+tension in lumbar region extending down posterior thighs,cold yet throws off covers and wants to be fanned,1.0,1
+tension in lumbar region extending down posterior thighs,pains in crural and sciatic nerves of left side,1.0,1
+tension in lumbar region extending down posterior thighs,contractive pains across scapulae passing down spine,1.0,1
+tension in lumbar region extending down posterior thighs,rheumatism of wrists with complete loss of power,1.0,1
+tension in lumbar region extending down posterior thighs,marked by much disturbance and irritability of the nervous system,1.0,1
+tension in lumbar region extending down posterior thighs,lameness and stiffness of larger joints,1.0,1
+tension in lumbar region extending down posterior thighs,lame back lumbar and sacral extending down legs,1.0,1
+tension in lumbar region extending down posterior thighs,intense pain in heart radiating to different parts of left chest,1.0,1
+tension in lumbar region extending down posterior thighs,cracking in joints especially elbows,1.0,1
+tension in lumbar region extending down posterior thighs,pains shooting when sitting still,1.0,1
+tension in lumbar region extending down posterior thighs,shooting pains in left wrist,1.0,1
+tension in lumbar region extending down posterior thighs,easily startled at the least sound,1.0,1
+tension in lumbar region extending down posterior thighs,aching pain in legs with inability to keep still in bed,1.0,1
+tension in lumbar region extending down posterior thighs,right knee painful red and swollen,1.0,1
+tension in lumbar region extending down posterior thighs,chronic rheumatic pains in cold damp weather,1.0,1
+tension in lumbar region extending down posterior thighs,sensation as if left hand were swollen,1.0,1
+tension in lumbar region extending down posterior thighs,produces tension involuntary tension,1.0,1
+tension in lumbar region extending down posterior thighs,nerves quiver tingle tremble and cause spasms,1.0,1
+tension in lumbar region extending down posterior thighs,dull pain in heart and left arm,1.0,1
+tension in lumbar region extending down posterior thighs,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+tension in lumbar region extending down posterior thighs,pains are intolerable tensive shooting neuralgic,1.0,1
+tension in lumbar region extending down posterior thighs,rheumatic pains here and there,1.0,1
+tension in lumbar region extending down posterior thighs,sensation as if flexor muscles were too short,1.0,1
+tension in lumbar region extending down posterior thighs,drawing in cords of neck causing desire to throw head back,1.0,1
+tension in lumbar region extending down posterior thighs,drawing under knees and in ankles,1.0,1
+tension in lumbar region extending down posterior thighs,rheumatic pains in extremities of extreme severity,1.0,1
+tension in lumbar region extending down posterior thighs,tenderness and stiffness of muscles of back extending whole length,1.0,1
+tension in lumbar region extending down posterior thighs,swelling and inflammation of right great toe,1.0,1
+tension in lumbar region extending down posterior thighs,aching in hips and knee joints making walking difficult,1.0,1
+tension in lumbar region extending down posterior thighs,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+tension in lumbar region extending down posterior thighs,agonizing pains across and through both shoulders,1.0,1
+tension in lumbar region extending down posterior thighs,nerves are easily shocked,1.0,1
+tension in lumbar region extending down posterior thighs,drawing shoulders back tightly as if bones would be crushed,1.0,1
+tension in lumbar region extending down posterior thighs,acute pains in tendo achillis,1.0,1
+tension in lumbar region extending down posterior thighs,cramping pains in first and second fingers of right hand,1.0,1
+tension in lumbar region extending down posterior thighs,restlessness better by clutching the hands very tightly,1.0,1
+tension in lumbar region extending down posterior thighs,soreness of ball of foot under the toes,1.0,1
+rheumatism of ankles with complete loss of power,stitching pain at apex comes and goes quickly,1.0,1
+rheumatism of ankles with complete loss of power,lack of power in legs,1.0,1
+rheumatism of ankles with complete loss of power,rheumatic pains in calves,1.0,1
+rheumatism of ankles with complete loss of power,aching as if in bones all night preventing sleep,1.0,1
+rheumatism of ankles with complete loss of power,cold yet throws off covers and wants to be fanned,1.0,1
+rheumatism of ankles with complete loss of power,pains in crural and sciatic nerves of left side,1.0,1
+rheumatism of ankles with complete loss of power,contractive pains across scapulae passing down spine,1.0,1
+rheumatism of ankles with complete loss of power,rheumatism of wrists with complete loss of power,1.0,1
+rheumatism of ankles with complete loss of power,marked by much disturbance and irritability of the nervous system,1.0,1
+rheumatism of ankles with complete loss of power,lameness and stiffness of larger joints,1.0,1
+rheumatism of ankles with complete loss of power,lame back lumbar and sacral extending down legs,1.0,1
+rheumatism of ankles with complete loss of power,intense pain in heart radiating to different parts of left chest,1.0,1
+rheumatism of ankles with complete loss of power,cracking in joints especially elbows,1.0,1
+rheumatism of ankles with complete loss of power,pains shooting when sitting still,1.0,1
+rheumatism of ankles with complete loss of power,shooting pains in left wrist,1.0,1
+rheumatism of ankles with complete loss of power,easily startled at the least sound,1.0,1
+rheumatism of ankles with complete loss of power,aching pain in legs with inability to keep still in bed,1.0,1
+rheumatism of ankles with complete loss of power,right knee painful red and swollen,1.0,1
+rheumatism of ankles with complete loss of power,chronic rheumatic pains in cold damp weather,1.0,1
+rheumatism of ankles with complete loss of power,sensation as if left hand were swollen,1.0,1
+rheumatism of ankles with complete loss of power,produces tension involuntary tension,1.0,1
+rheumatism of ankles with complete loss of power,nerves quiver tingle tremble and cause spasms,1.0,1
+rheumatism of ankles with complete loss of power,dull pain in heart and left arm,1.0,1
+rheumatism of ankles with complete loss of power,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+rheumatism of ankles with complete loss of power,pains are intolerable tensive shooting neuralgic,1.0,1
+rheumatism of ankles with complete loss of power,rheumatic pains here and there,1.0,1
+rheumatism of ankles with complete loss of power,sensation as if flexor muscles were too short,1.0,1
+rheumatism of ankles with complete loss of power,drawing in cords of neck causing desire to throw head back,1.0,1
+rheumatism of ankles with complete loss of power,drawing under knees and in ankles,1.0,1
+rheumatism of ankles with complete loss of power,rheumatic pains in extremities of extreme severity,1.0,1
+rheumatism of ankles with complete loss of power,tenderness and stiffness of muscles of back extending whole length,1.0,1
+rheumatism of ankles with complete loss of power,swelling and inflammation of right great toe,1.0,1
+rheumatism of ankles with complete loss of power,aching in hips and knee joints making walking difficult,1.0,1
+rheumatism of ankles with complete loss of power,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+rheumatism of ankles with complete loss of power,agonizing pains across and through both shoulders,1.0,1
+rheumatism of ankles with complete loss of power,nerves are easily shocked,1.0,1
+rheumatism of ankles with complete loss of power,drawing shoulders back tightly as if bones would be crushed,1.0,1
+rheumatism of ankles with complete loss of power,acute pains in tendo achillis,1.0,1
+rheumatism of ankles with complete loss of power,cramping pains in first and second fingers of right hand,1.0,1
+rheumatism of ankles with complete loss of power,restlessness better by clutching the hands very tightly,1.0,1
+rheumatism of ankles with complete loss of power,tension in lumbar region extending down posterior thighs,1.0,1
+rheumatism of ankles with complete loss of power,soreness of ball of foot under the toes,1.0,1
+agonizing pains across and through both shoulders,rheumatism of ankles with complete loss of power,1.0,1
+agonizing pains across and through both shoulders,stitching pain at apex comes and goes quickly,1.0,1
+agonizing pains across and through both shoulders,lack of power in legs,1.0,1
+agonizing pains across and through both shoulders,rheumatic pains in calves,1.0,1
+agonizing pains across and through both shoulders,aching as if in bones all night preventing sleep,1.0,1
+agonizing pains across and through both shoulders,cold yet throws off covers and wants to be fanned,1.0,1
+agonizing pains across and through both shoulders,pains in crural and sciatic nerves of left side,1.0,1
+agonizing pains across and through both shoulders,contractive pains across scapulae passing down spine,1.0,1
+agonizing pains across and through both shoulders,rheumatism of wrists with complete loss of power,1.0,1
+agonizing pains across and through both shoulders,marked by much disturbance and irritability of the nervous system,1.0,1
+agonizing pains across and through both shoulders,lameness and stiffness of larger joints,1.0,1
+agonizing pains across and through both shoulders,lame back lumbar and sacral extending down legs,1.0,1
+agonizing pains across and through both shoulders,intense pain in heart radiating to different parts of left chest,1.0,1
+agonizing pains across and through both shoulders,cracking in joints especially elbows,1.0,1
+agonizing pains across and through both shoulders,pains shooting when sitting still,1.0,1
+agonizing pains across and through both shoulders,shooting pains in left wrist,1.0,1
+agonizing pains across and through both shoulders,easily startled at the least sound,1.0,1
+agonizing pains across and through both shoulders,aching pain in legs with inability to keep still in bed,1.0,1
+agonizing pains across and through both shoulders,right knee painful red and swollen,1.0,1
+agonizing pains across and through both shoulders,chronic rheumatic pains in cold damp weather,1.0,1
+agonizing pains across and through both shoulders,sensation as if left hand were swollen,1.0,1
+agonizing pains across and through both shoulders,produces tension involuntary tension,1.0,1
+agonizing pains across and through both shoulders,nerves quiver tingle tremble and cause spasms,1.0,1
+agonizing pains across and through both shoulders,dull pain in heart and left arm,1.0,1
+agonizing pains across and through both shoulders,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+agonizing pains across and through both shoulders,pains are intolerable tensive shooting neuralgic,1.0,1
+agonizing pains across and through both shoulders,rheumatic pains here and there,1.0,1
+agonizing pains across and through both shoulders,sensation as if flexor muscles were too short,1.0,1
+agonizing pains across and through both shoulders,drawing in cords of neck causing desire to throw head back,1.0,1
+agonizing pains across and through both shoulders,drawing under knees and in ankles,1.0,1
+agonizing pains across and through both shoulders,rheumatic pains in extremities of extreme severity,1.0,1
+agonizing pains across and through both shoulders,tenderness and stiffness of muscles of back extending whole length,1.0,1
+agonizing pains across and through both shoulders,swelling and inflammation of right great toe,1.0,1
+agonizing pains across and through both shoulders,aching in hips and knee joints making walking difficult,1.0,1
+agonizing pains across and through both shoulders,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+agonizing pains across and through both shoulders,nerves are easily shocked,1.0,1
+agonizing pains across and through both shoulders,drawing shoulders back tightly as if bones would be crushed,1.0,1
+agonizing pains across and through both shoulders,acute pains in tendo achillis,1.0,1
+agonizing pains across and through both shoulders,cramping pains in first and second fingers of right hand,1.0,1
+agonizing pains across and through both shoulders,restlessness better by clutching the hands very tightly,1.0,1
+agonizing pains across and through both shoulders,tension in lumbar region extending down posterior thighs,1.0,1
+agonizing pains across and through both shoulders,soreness of ball of foot under the toes,1.0,1
+produces tension involuntary tension,rheumatism of ankles with complete loss of power,1.0,1
+produces tension involuntary tension,stitching pain at apex comes and goes quickly,1.0,1
+produces tension involuntary tension,lack of power in legs,1.0,1
+produces tension involuntary tension,rheumatic pains in calves,1.0,1
+produces tension involuntary tension,aching as if in bones all night preventing sleep,1.0,1
+produces tension involuntary tension,cold yet throws off covers and wants to be fanned,1.0,1
+produces tension involuntary tension,pains in crural and sciatic nerves of left side,1.0,1
+produces tension involuntary tension,contractive pains across scapulae passing down spine,1.0,1
+produces tension involuntary tension,rheumatism of wrists with complete loss of power,1.0,1
+produces tension involuntary tension,marked by much disturbance and irritability of the nervous system,1.0,1
+produces tension involuntary tension,lameness and stiffness of larger joints,1.0,1
+produces tension involuntary tension,lame back lumbar and sacral extending down legs,1.0,1
+produces tension involuntary tension,intense pain in heart radiating to different parts of left chest,1.0,1
+produces tension involuntary tension,cracking in joints especially elbows,1.0,1
+produces tension involuntary tension,pains shooting when sitting still,1.0,1
+produces tension involuntary tension,shooting pains in left wrist,1.0,1
+produces tension involuntary tension,easily startled at the least sound,1.0,1
+produces tension involuntary tension,aching pain in legs with inability to keep still in bed,1.0,1
+produces tension involuntary tension,right knee painful red and swollen,1.0,1
+produces tension involuntary tension,chronic rheumatic pains in cold damp weather,1.0,1
+produces tension involuntary tension,sensation as if left hand were swollen,1.0,1
+produces tension involuntary tension,nerves quiver tingle tremble and cause spasms,1.0,1
+produces tension involuntary tension,dull pain in heart and left arm,1.0,1
+produces tension involuntary tension,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+produces tension involuntary tension,pains are intolerable tensive shooting neuralgic,1.0,1
+produces tension involuntary tension,rheumatic pains here and there,1.0,1
+produces tension involuntary tension,sensation as if flexor muscles were too short,1.0,1
+produces tension involuntary tension,drawing in cords of neck causing desire to throw head back,1.0,1
+produces tension involuntary tension,drawing under knees and in ankles,1.0,1
+produces tension involuntary tension,rheumatic pains in extremities of extreme severity,1.0,1
+produces tension involuntary tension,tenderness and stiffness of muscles of back extending whole length,1.0,1
+produces tension involuntary tension,swelling and inflammation of right great toe,1.0,1
+produces tension involuntary tension,aching in hips and knee joints making walking difficult,1.0,1
+produces tension involuntary tension,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+produces tension involuntary tension,agonizing pains across and through both shoulders,1.0,1
+produces tension involuntary tension,nerves are easily shocked,1.0,1
+produces tension involuntary tension,drawing shoulders back tightly as if bones would be crushed,1.0,1
+produces tension involuntary tension,acute pains in tendo achillis,1.0,1
+produces tension involuntary tension,cramping pains in first and second fingers of right hand,1.0,1
+produces tension involuntary tension,restlessness better by clutching the hands very tightly,1.0,1
+produces tension involuntary tension,tension in lumbar region extending down posterior thighs,1.0,1
+produces tension involuntary tension,soreness of ball of foot under the toes,1.0,1
+aching as if in bones all night preventing sleep,rheumatism of ankles with complete loss of power,1.0,1
+aching as if in bones all night preventing sleep,stitching pain at apex comes and goes quickly,1.0,1
+aching as if in bones all night preventing sleep,lack of power in legs,1.0,1
+aching as if in bones all night preventing sleep,rheumatic pains in calves,1.0,1
+aching as if in bones all night preventing sleep,cold yet throws off covers and wants to be fanned,1.0,1
+aching as if in bones all night preventing sleep,pains in crural and sciatic nerves of left side,1.0,1
+aching as if in bones all night preventing sleep,contractive pains across scapulae passing down spine,1.0,1
+aching as if in bones all night preventing sleep,rheumatism of wrists with complete loss of power,1.0,1
+aching as if in bones all night preventing sleep,marked by much disturbance and irritability of the nervous system,1.0,1
+aching as if in bones all night preventing sleep,lameness and stiffness of larger joints,1.0,1
+aching as if in bones all night preventing sleep,lame back lumbar and sacral extending down legs,1.0,1
+aching as if in bones all night preventing sleep,intense pain in heart radiating to different parts of left chest,1.0,1
+aching as if in bones all night preventing sleep,cracking in joints especially elbows,1.0,1
+aching as if in bones all night preventing sleep,pains shooting when sitting still,1.0,1
+aching as if in bones all night preventing sleep,shooting pains in left wrist,1.0,1
+aching as if in bones all night preventing sleep,easily startled at the least sound,1.0,1
+aching as if in bones all night preventing sleep,aching pain in legs with inability to keep still in bed,1.0,1
+aching as if in bones all night preventing sleep,right knee painful red and swollen,1.0,1
+aching as if in bones all night preventing sleep,chronic rheumatic pains in cold damp weather,1.0,1
+aching as if in bones all night preventing sleep,sensation as if left hand were swollen,1.0,1
+aching as if in bones all night preventing sleep,produces tension involuntary tension,1.0,1
+aching as if in bones all night preventing sleep,nerves quiver tingle tremble and cause spasms,1.0,1
+aching as if in bones all night preventing sleep,dull pain in heart and left arm,1.0,1
+aching as if in bones all night preventing sleep,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+aching as if in bones all night preventing sleep,pains are intolerable tensive shooting neuralgic,1.0,1
+aching as if in bones all night preventing sleep,rheumatic pains here and there,1.0,1
+aching as if in bones all night preventing sleep,sensation as if flexor muscles were too short,1.0,1
+aching as if in bones all night preventing sleep,drawing in cords of neck causing desire to throw head back,1.0,1
+aching as if in bones all night preventing sleep,drawing under knees and in ankles,1.0,1
+aching as if in bones all night preventing sleep,rheumatic pains in extremities of extreme severity,1.0,1
+aching as if in bones all night preventing sleep,tenderness and stiffness of muscles of back extending whole length,1.0,1
+aching as if in bones all night preventing sleep,swelling and inflammation of right great toe,1.0,1
+aching as if in bones all night preventing sleep,aching in hips and knee joints making walking difficult,1.0,1
+aching as if in bones all night preventing sleep,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+aching as if in bones all night preventing sleep,agonizing pains across and through both shoulders,1.0,1
+aching as if in bones all night preventing sleep,nerves are easily shocked,1.0,1
+aching as if in bones all night preventing sleep,drawing shoulders back tightly as if bones would be crushed,1.0,1
+aching as if in bones all night preventing sleep,acute pains in tendo achillis,1.0,1
+aching as if in bones all night preventing sleep,cramping pains in first and second fingers of right hand,1.0,1
+aching as if in bones all night preventing sleep,restlessness better by clutching the hands very tightly,1.0,1
+aching as if in bones all night preventing sleep,tension in lumbar region extending down posterior thighs,1.0,1
+aching as if in bones all night preventing sleep,soreness of ball of foot under the toes,1.0,1
+sensation as if left hand were swollen,rheumatism of ankles with complete loss of power,1.0,1
+sensation as if left hand were swollen,stitching pain at apex comes and goes quickly,1.0,1
+sensation as if left hand were swollen,lack of power in legs,1.0,1
+sensation as if left hand were swollen,rheumatic pains in calves,1.0,1
+sensation as if left hand were swollen,aching as if in bones all night preventing sleep,1.0,1
+sensation as if left hand were swollen,cold yet throws off covers and wants to be fanned,1.0,1
+sensation as if left hand were swollen,pains in crural and sciatic nerves of left side,1.0,1
+sensation as if left hand were swollen,contractive pains across scapulae passing down spine,1.0,1
+sensation as if left hand were swollen,rheumatism of wrists with complete loss of power,1.0,1
+sensation as if left hand were swollen,marked by much disturbance and irritability of the nervous system,1.0,1
+sensation as if left hand were swollen,lameness and stiffness of larger joints,1.0,1
+sensation as if left hand were swollen,lame back lumbar and sacral extending down legs,1.0,1
+sensation as if left hand were swollen,intense pain in heart radiating to different parts of left chest,1.0,1
+sensation as if left hand were swollen,cracking in joints especially elbows,1.0,1
+sensation as if left hand were swollen,pains shooting when sitting still,1.0,1
+sensation as if left hand were swollen,shooting pains in left wrist,1.0,1
+sensation as if left hand were swollen,easily startled at the least sound,1.0,1
+sensation as if left hand were swollen,aching pain in legs with inability to keep still in bed,1.0,1
+sensation as if left hand were swollen,right knee painful red and swollen,1.0,1
+sensation as if left hand were swollen,chronic rheumatic pains in cold damp weather,1.0,1
+sensation as if left hand were swollen,produces tension involuntary tension,1.0,1
+sensation as if left hand were swollen,nerves quiver tingle tremble and cause spasms,1.0,1
+sensation as if left hand were swollen,dull pain in heart and left arm,1.0,1
+sensation as if left hand were swollen,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+sensation as if left hand were swollen,pains are intolerable tensive shooting neuralgic,1.0,1
+sensation as if left hand were swollen,rheumatic pains here and there,1.0,1
+sensation as if left hand were swollen,sensation as if flexor muscles were too short,1.0,1
+sensation as if left hand were swollen,drawing in cords of neck causing desire to throw head back,1.0,1
+sensation as if left hand were swollen,drawing under knees and in ankles,1.0,1
+sensation as if left hand were swollen,rheumatic pains in extremities of extreme severity,1.0,1
+sensation as if left hand were swollen,tenderness and stiffness of muscles of back extending whole length,1.0,1
+sensation as if left hand were swollen,swelling and inflammation of right great toe,1.0,1
+sensation as if left hand were swollen,aching in hips and knee joints making walking difficult,1.0,1
+sensation as if left hand were swollen,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+sensation as if left hand were swollen,agonizing pains across and through both shoulders,1.0,1
+sensation as if left hand were swollen,nerves are easily shocked,1.0,1
+sensation as if left hand were swollen,drawing shoulders back tightly as if bones would be crushed,1.0,1
+sensation as if left hand were swollen,acute pains in tendo achillis,1.0,1
+sensation as if left hand were swollen,cramping pains in first and second fingers of right hand,1.0,1
+sensation as if left hand were swollen,restlessness better by clutching the hands very tightly,1.0,1
+sensation as if left hand were swollen,tension in lumbar region extending down posterior thighs,1.0,1
+sensation as if left hand were swollen,soreness of ball of foot under the toes,1.0,1
+cold yet throws off covers and wants to be fanned,rheumatism of ankles with complete loss of power,1.0,1
+cold yet throws off covers and wants to be fanned,stitching pain at apex comes and goes quickly,1.0,1
+cold yet throws off covers and wants to be fanned,lack of power in legs,1.0,1
+cold yet throws off covers and wants to be fanned,rheumatic pains in calves,1.0,1
+cold yet throws off covers and wants to be fanned,aching as if in bones all night preventing sleep,1.0,1
+cold yet throws off covers and wants to be fanned,pains in crural and sciatic nerves of left side,1.0,1
+cold yet throws off covers and wants to be fanned,contractive pains across scapulae passing down spine,1.0,1
+cold yet throws off covers and wants to be fanned,rheumatism of wrists with complete loss of power,1.0,1
+cold yet throws off covers and wants to be fanned,marked by much disturbance and irritability of the nervous system,1.0,1
+cold yet throws off covers and wants to be fanned,lameness and stiffness of larger joints,1.0,1
+cold yet throws off covers and wants to be fanned,lame back lumbar and sacral extending down legs,1.0,1
+cold yet throws off covers and wants to be fanned,intense pain in heart radiating to different parts of left chest,1.0,1
+cold yet throws off covers and wants to be fanned,cracking in joints especially elbows,1.0,1
+cold yet throws off covers and wants to be fanned,pains shooting when sitting still,1.0,1
+cold yet throws off covers and wants to be fanned,shooting pains in left wrist,1.0,1
+cold yet throws off covers and wants to be fanned,easily startled at the least sound,1.0,1
+cold yet throws off covers and wants to be fanned,aching pain in legs with inability to keep still in bed,1.0,1
+cold yet throws off covers and wants to be fanned,right knee painful red and swollen,1.0,1
+cold yet throws off covers and wants to be fanned,chronic rheumatic pains in cold damp weather,1.0,1
+cold yet throws off covers and wants to be fanned,sensation as if left hand were swollen,1.0,1
+cold yet throws off covers and wants to be fanned,produces tension involuntary tension,1.0,1
+cold yet throws off covers and wants to be fanned,nerves quiver tingle tremble and cause spasms,1.0,1
+cold yet throws off covers and wants to be fanned,dull pain in heart and left arm,1.0,1
+cold yet throws off covers and wants to be fanned,drawing pain in sternomastoid muscle drawing chin firmly down to chest,1.0,1
+cold yet throws off covers and wants to be fanned,pains are intolerable tensive shooting neuralgic,1.0,1
+cold yet throws off covers and wants to be fanned,rheumatic pains here and there,1.0,1
+cold yet throws off covers and wants to be fanned,sensation as if flexor muscles were too short,1.0,1
+cold yet throws off covers and wants to be fanned,drawing in cords of neck causing desire to throw head back,1.0,1
+cold yet throws off covers and wants to be fanned,drawing under knees and in ankles,1.0,1
+cold yet throws off covers and wants to be fanned,rheumatic pains in extremities of extreme severity,1.0,1
+cold yet throws off covers and wants to be fanned,tenderness and stiffness of muscles of back extending whole length,1.0,1
+cold yet throws off covers and wants to be fanned,swelling and inflammation of right great toe,1.0,1
+cold yet throws off covers and wants to be fanned,aching in hips and knee joints making walking difficult,1.0,1
+cold yet throws off covers and wants to be fanned,pain in neck and between scapulae running to either shoulder to lumbar region,1.0,1
+cold yet throws off covers and wants to be fanned,agonizing pains across and through both shoulders,1.0,1
+cold yet throws off covers and wants to be fanned,nerves are easily shocked,1.0,1
+cold yet throws off covers and wants to be fanned,drawing shoulders back tightly as if bones would be crushed,1.0,1
+cold yet throws off covers and wants to be fanned,acute pains in tendo achillis,1.0,1
+cold yet throws off covers and wants to be fanned,cramping pains in first and second fingers of right hand,1.0,1
+cold yet throws off covers and wants to be fanned,restlessness better by clutching the hands very tightly,1.0,1
+cold yet throws off covers and wants to be fanned,tension in lumbar region extending down posterior thighs,1.0,1
+cold yet throws off covers and wants to be fanned,soreness of ball of foot under the toes,1.0,1

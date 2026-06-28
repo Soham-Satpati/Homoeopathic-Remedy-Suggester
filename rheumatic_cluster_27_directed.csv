@@ -1,0 +1,299 @@
+### Cluster 27 — Symptoms (17)
+Symptom,Frequency
+joints feel stiff,2
+soreness at lower cervical vertebrae,1
+feels tired all the time,1
+knee joints crack,1
+rheumatic pain in right arm,1
+shooting pains from acetabulum to knee,1
+severe pain between scapulae,1
+surface cool covered with cold clammy sweat,1
+flying pains in fingers palms and forearms,1
+marked emaciation,1
+neuralgic pains from axilla to little finger,1
+pains in joints and left side,1
+neck stiff and sore,1
+soreness extending down to joints even with and under both scapulae,1
+worse in shoulder and wrist,1
+lower limbs are heavy,1
+restless cannot sit still without effort,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+natrum arsenicatum,17
+cimicifuga,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+flying pains in fingers palms and forearms,soreness at lower cervical vertebrae,1.0,1
+flying pains in fingers palms and forearms,feels tired all the time,1.0,1
+flying pains in fingers palms and forearms,knee joints crack,1.0,1
+flying pains in fingers palms and forearms,rheumatic pain in right arm,1.0,1
+flying pains in fingers palms and forearms,shooting pains from acetabulum to knee,1.0,1
+flying pains in fingers palms and forearms,joints feel stiff,1.0,1
+flying pains in fingers palms and forearms,severe pain between scapulae,1.0,1
+flying pains in fingers palms and forearms,surface cool covered with cold clammy sweat,1.0,1
+flying pains in fingers palms and forearms,marked emaciation,1.0,1
+flying pains in fingers palms and forearms,neuralgic pains from axilla to little finger,1.0,1
+flying pains in fingers palms and forearms,pains in joints and left side,1.0,1
+flying pains in fingers palms and forearms,neck stiff and sore,1.0,1
+flying pains in fingers palms and forearms,soreness extending down to joints even with and under both scapulae,1.0,1
+flying pains in fingers palms and forearms,worse in shoulder and wrist,1.0,1
+flying pains in fingers palms and forearms,lower limbs are heavy,1.0,1
+flying pains in fingers palms and forearms,restless cannot sit still without effort,1.0,1
+restless cannot sit still without effort,soreness at lower cervical vertebrae,1.0,1
+restless cannot sit still without effort,feels tired all the time,1.0,1
+restless cannot sit still without effort,knee joints crack,1.0,1
+restless cannot sit still without effort,rheumatic pain in right arm,1.0,1
+restless cannot sit still without effort,shooting pains from acetabulum to knee,1.0,1
+restless cannot sit still without effort,joints feel stiff,1.0,1
+restless cannot sit still without effort,severe pain between scapulae,1.0,1
+restless cannot sit still without effort,surface cool covered with cold clammy sweat,1.0,1
+restless cannot sit still without effort,flying pains in fingers palms and forearms,1.0,1
+restless cannot sit still without effort,marked emaciation,1.0,1
+restless cannot sit still without effort,neuralgic pains from axilla to little finger,1.0,1
+restless cannot sit still without effort,pains in joints and left side,1.0,1
+restless cannot sit still without effort,neck stiff and sore,1.0,1
+restless cannot sit still without effort,soreness extending down to joints even with and under both scapulae,1.0,1
+restless cannot sit still without effort,worse in shoulder and wrist,1.0,1
+restless cannot sit still without effort,lower limbs are heavy,1.0,1
+joints feel stiff,soreness at lower cervical vertebrae,0.5,1
+joints feel stiff,feels tired all the time,0.5,1
+joints feel stiff,knee joints crack,0.5,1
+joints feel stiff,rheumatic pain in right arm,0.5,1
+joints feel stiff,shooting pains from acetabulum to knee,0.5,1
+joints feel stiff,severe pain between scapulae,0.5,1
+joints feel stiff,surface cool covered with cold clammy sweat,0.5,1
+joints feel stiff,flying pains in fingers palms and forearms,0.5,1
+joints feel stiff,marked emaciation,0.5,1
+joints feel stiff,neuralgic pains from axilla to little finger,0.5,1
+joints feel stiff,pains in joints and left side,0.5,1
+joints feel stiff,neck stiff and sore,0.5,1
+joints feel stiff,soreness extending down to joints even with and under both scapulae,0.5,1
+joints feel stiff,worse in shoulder and wrist,0.5,1
+joints feel stiff,lower limbs are heavy,0.5,1
+joints feel stiff,restless cannot sit still without effort,0.5,1
+knee joints crack,soreness at lower cervical vertebrae,1.0,1
+knee joints crack,feels tired all the time,1.0,1
+knee joints crack,rheumatic pain in right arm,1.0,1
+knee joints crack,shooting pains from acetabulum to knee,1.0,1
+knee joints crack,joints feel stiff,1.0,1
+knee joints crack,severe pain between scapulae,1.0,1
+knee joints crack,surface cool covered with cold clammy sweat,1.0,1
+knee joints crack,flying pains in fingers palms and forearms,1.0,1
+knee joints crack,marked emaciation,1.0,1
+knee joints crack,neuralgic pains from axilla to little finger,1.0,1
+knee joints crack,pains in joints and left side,1.0,1
+knee joints crack,neck stiff and sore,1.0,1
+knee joints crack,soreness extending down to joints even with and under both scapulae,1.0,1
+knee joints crack,worse in shoulder and wrist,1.0,1
+knee joints crack,lower limbs are heavy,1.0,1
+knee joints crack,restless cannot sit still without effort,1.0,1
+shooting pains from acetabulum to knee,soreness at lower cervical vertebrae,1.0,1
+shooting pains from acetabulum to knee,feels tired all the time,1.0,1
+shooting pains from acetabulum to knee,knee joints crack,1.0,1
+shooting pains from acetabulum to knee,rheumatic pain in right arm,1.0,1
+shooting pains from acetabulum to knee,joints feel stiff,1.0,1
+shooting pains from acetabulum to knee,severe pain between scapulae,1.0,1
+shooting pains from acetabulum to knee,surface cool covered with cold clammy sweat,1.0,1
+shooting pains from acetabulum to knee,flying pains in fingers palms and forearms,1.0,1
+shooting pains from acetabulum to knee,marked emaciation,1.0,1
+shooting pains from acetabulum to knee,neuralgic pains from axilla to little finger,1.0,1
+shooting pains from acetabulum to knee,pains in joints and left side,1.0,1
+shooting pains from acetabulum to knee,neck stiff and sore,1.0,1
+shooting pains from acetabulum to knee,soreness extending down to joints even with and under both scapulae,1.0,1
+shooting pains from acetabulum to knee,worse in shoulder and wrist,1.0,1
+shooting pains from acetabulum to knee,lower limbs are heavy,1.0,1
+shooting pains from acetabulum to knee,restless cannot sit still without effort,1.0,1
+pains in joints and left side,soreness at lower cervical vertebrae,1.0,1
+pains in joints and left side,feels tired all the time,1.0,1
+pains in joints and left side,knee joints crack,1.0,1
+pains in joints and left side,rheumatic pain in right arm,1.0,1
+pains in joints and left side,shooting pains from acetabulum to knee,1.0,1
+pains in joints and left side,joints feel stiff,1.0,1
+pains in joints and left side,severe pain between scapulae,1.0,1
+pains in joints and left side,surface cool covered with cold clammy sweat,1.0,1
+pains in joints and left side,flying pains in fingers palms and forearms,1.0,1
+pains in joints and left side,marked emaciation,1.0,1
+pains in joints and left side,neuralgic pains from axilla to little finger,1.0,1
+pains in joints and left side,neck stiff and sore,1.0,1
+pains in joints and left side,soreness extending down to joints even with and under both scapulae,1.0,1
+pains in joints and left side,worse in shoulder and wrist,1.0,1
+pains in joints and left side,lower limbs are heavy,1.0,1
+pains in joints and left side,restless cannot sit still without effort,1.0,1
+marked emaciation,soreness at lower cervical vertebrae,1.0,1
+marked emaciation,feels tired all the time,1.0,1
+marked emaciation,knee joints crack,1.0,1
+marked emaciation,rheumatic pain in right arm,1.0,1
+marked emaciation,shooting pains from acetabulum to knee,1.0,1
+marked emaciation,joints feel stiff,1.0,1
+marked emaciation,severe pain between scapulae,1.0,1
+marked emaciation,surface cool covered with cold clammy sweat,1.0,1
+marked emaciation,flying pains in fingers palms and forearms,1.0,1
+marked emaciation,neuralgic pains from axilla to little finger,1.0,1
+marked emaciation,pains in joints and left side,1.0,1
+marked emaciation,neck stiff and sore,1.0,1
+marked emaciation,soreness extending down to joints even with and under both scapulae,1.0,1
+marked emaciation,worse in shoulder and wrist,1.0,1
+marked emaciation,lower limbs are heavy,1.0,1
+marked emaciation,restless cannot sit still without effort,1.0,1
+rheumatic pain in right arm,soreness at lower cervical vertebrae,1.0,1
+rheumatic pain in right arm,feels tired all the time,1.0,1
+rheumatic pain in right arm,knee joints crack,1.0,1
+rheumatic pain in right arm,shooting pains from acetabulum to knee,1.0,1
+rheumatic pain in right arm,joints feel stiff,1.0,1
+rheumatic pain in right arm,severe pain between scapulae,1.0,1
+rheumatic pain in right arm,surface cool covered with cold clammy sweat,1.0,1
+rheumatic pain in right arm,flying pains in fingers palms and forearms,1.0,1
+rheumatic pain in right arm,marked emaciation,1.0,1
+rheumatic pain in right arm,neuralgic pains from axilla to little finger,1.0,1
+rheumatic pain in right arm,pains in joints and left side,1.0,1
+rheumatic pain in right arm,neck stiff and sore,1.0,1
+rheumatic pain in right arm,soreness extending down to joints even with and under both scapulae,1.0,1
+rheumatic pain in right arm,worse in shoulder and wrist,1.0,1
+rheumatic pain in right arm,lower limbs are heavy,1.0,1
+rheumatic pain in right arm,restless cannot sit still without effort,1.0,1
+feels tired all the time,soreness at lower cervical vertebrae,1.0,1
+feels tired all the time,knee joints crack,1.0,1
+feels tired all the time,rheumatic pain in right arm,1.0,1
+feels tired all the time,shooting pains from acetabulum to knee,1.0,1
+feels tired all the time,joints feel stiff,1.0,1
+feels tired all the time,severe pain between scapulae,1.0,1
+feels tired all the time,surface cool covered with cold clammy sweat,1.0,1
+feels tired all the time,flying pains in fingers palms and forearms,1.0,1
+feels tired all the time,marked emaciation,1.0,1
+feels tired all the time,neuralgic pains from axilla to little finger,1.0,1
+feels tired all the time,pains in joints and left side,1.0,1
+feels tired all the time,neck stiff and sore,1.0,1
+feels tired all the time,soreness extending down to joints even with and under both scapulae,1.0,1
+feels tired all the time,worse in shoulder and wrist,1.0,1
+feels tired all the time,lower limbs are heavy,1.0,1
+feels tired all the time,restless cannot sit still without effort,1.0,1
+surface cool covered with cold clammy sweat,soreness at lower cervical vertebrae,1.0,1
+surface cool covered with cold clammy sweat,feels tired all the time,1.0,1
+surface cool covered with cold clammy sweat,knee joints crack,1.0,1
+surface cool covered with cold clammy sweat,rheumatic pain in right arm,1.0,1
+surface cool covered with cold clammy sweat,shooting pains from acetabulum to knee,1.0,1
+surface cool covered with cold clammy sweat,joints feel stiff,1.0,1
+surface cool covered with cold clammy sweat,severe pain between scapulae,1.0,1
+surface cool covered with cold clammy sweat,flying pains in fingers palms and forearms,1.0,1
+surface cool covered with cold clammy sweat,marked emaciation,1.0,1
+surface cool covered with cold clammy sweat,neuralgic pains from axilla to little finger,1.0,1
+surface cool covered with cold clammy sweat,pains in joints and left side,1.0,1
+surface cool covered with cold clammy sweat,neck stiff and sore,1.0,1
+surface cool covered with cold clammy sweat,soreness extending down to joints even with and under both scapulae,1.0,1
+surface cool covered with cold clammy sweat,worse in shoulder and wrist,1.0,1
+surface cool covered with cold clammy sweat,lower limbs are heavy,1.0,1
+surface cool covered with cold clammy sweat,restless cannot sit still without effort,1.0,1
+worse in shoulder and wrist,soreness at lower cervical vertebrae,1.0,1
+worse in shoulder and wrist,feels tired all the time,1.0,1
+worse in shoulder and wrist,knee joints crack,1.0,1
+worse in shoulder and wrist,rheumatic pain in right arm,1.0,1
+worse in shoulder and wrist,shooting pains from acetabulum to knee,1.0,1
+worse in shoulder and wrist,joints feel stiff,1.0,1
+worse in shoulder and wrist,severe pain between scapulae,1.0,1
+worse in shoulder and wrist,surface cool covered with cold clammy sweat,1.0,1
+worse in shoulder and wrist,flying pains in fingers palms and forearms,1.0,1
+worse in shoulder and wrist,marked emaciation,1.0,1
+worse in shoulder and wrist,neuralgic pains from axilla to little finger,1.0,1
+worse in shoulder and wrist,pains in joints and left side,1.0,1
+worse in shoulder and wrist,neck stiff and sore,1.0,1
+worse in shoulder and wrist,soreness extending down to joints even with and under both scapulae,1.0,1
+worse in shoulder and wrist,lower limbs are heavy,1.0,1
+worse in shoulder and wrist,restless cannot sit still without effort,1.0,1
+lower limbs are heavy,soreness at lower cervical vertebrae,1.0,1
+lower limbs are heavy,feels tired all the time,1.0,1
+lower limbs are heavy,knee joints crack,1.0,1
+lower limbs are heavy,rheumatic pain in right arm,1.0,1
+lower limbs are heavy,shooting pains from acetabulum to knee,1.0,1
+lower limbs are heavy,joints feel stiff,1.0,1
+lower limbs are heavy,severe pain between scapulae,1.0,1
+lower limbs are heavy,surface cool covered with cold clammy sweat,1.0,1
+lower limbs are heavy,flying pains in fingers palms and forearms,1.0,1
+lower limbs are heavy,marked emaciation,1.0,1
+lower limbs are heavy,neuralgic pains from axilla to little finger,1.0,1
+lower limbs are heavy,pains in joints and left side,1.0,1
+lower limbs are heavy,neck stiff and sore,1.0,1
+lower limbs are heavy,soreness extending down to joints even with and under both scapulae,1.0,1
+lower limbs are heavy,worse in shoulder and wrist,1.0,1
+lower limbs are heavy,restless cannot sit still without effort,1.0,1
+severe pain between scapulae,soreness at lower cervical vertebrae,1.0,1
+severe pain between scapulae,feels tired all the time,1.0,1
+severe pain between scapulae,knee joints crack,1.0,1
+severe pain between scapulae,rheumatic pain in right arm,1.0,1
+severe pain between scapulae,shooting pains from acetabulum to knee,1.0,1
+severe pain between scapulae,joints feel stiff,1.0,1
+severe pain between scapulae,surface cool covered with cold clammy sweat,1.0,1
+severe pain between scapulae,flying pains in fingers palms and forearms,1.0,1
+severe pain between scapulae,marked emaciation,1.0,1
+severe pain between scapulae,neuralgic pains from axilla to little finger,1.0,1
+severe pain between scapulae,pains in joints and left side,1.0,1
+severe pain between scapulae,neck stiff and sore,1.0,1
+severe pain between scapulae,soreness extending down to joints even with and under both scapulae,1.0,1
+severe pain between scapulae,worse in shoulder and wrist,1.0,1
+severe pain between scapulae,lower limbs are heavy,1.0,1
+severe pain between scapulae,restless cannot sit still without effort,1.0,1
+soreness at lower cervical vertebrae,feels tired all the time,1.0,1
+soreness at lower cervical vertebrae,knee joints crack,1.0,1
+soreness at lower cervical vertebrae,rheumatic pain in right arm,1.0,1
+soreness at lower cervical vertebrae,shooting pains from acetabulum to knee,1.0,1
+soreness at lower cervical vertebrae,joints feel stiff,1.0,1
+soreness at lower cervical vertebrae,severe pain between scapulae,1.0,1
+soreness at lower cervical vertebrae,surface cool covered with cold clammy sweat,1.0,1
+soreness at lower cervical vertebrae,flying pains in fingers palms and forearms,1.0,1
+soreness at lower cervical vertebrae,marked emaciation,1.0,1
+soreness at lower cervical vertebrae,neuralgic pains from axilla to little finger,1.0,1
+soreness at lower cervical vertebrae,pains in joints and left side,1.0,1
+soreness at lower cervical vertebrae,neck stiff and sore,1.0,1
+soreness at lower cervical vertebrae,soreness extending down to joints even with and under both scapulae,1.0,1
+soreness at lower cervical vertebrae,worse in shoulder and wrist,1.0,1
+soreness at lower cervical vertebrae,lower limbs are heavy,1.0,1
+soreness at lower cervical vertebrae,restless cannot sit still without effort,1.0,1
+soreness extending down to joints even with and under both scapulae,soreness at lower cervical vertebrae,1.0,1
+soreness extending down to joints even with and under both scapulae,feels tired all the time,1.0,1
+soreness extending down to joints even with and under both scapulae,knee joints crack,1.0,1
+soreness extending down to joints even with and under both scapulae,rheumatic pain in right arm,1.0,1
+soreness extending down to joints even with and under both scapulae,shooting pains from acetabulum to knee,1.0,1
+soreness extending down to joints even with and under both scapulae,joints feel stiff,1.0,1
+soreness extending down to joints even with and under both scapulae,severe pain between scapulae,1.0,1
+soreness extending down to joints even with and under both scapulae,surface cool covered with cold clammy sweat,1.0,1
+soreness extending down to joints even with and under both scapulae,flying pains in fingers palms and forearms,1.0,1
+soreness extending down to joints even with and under both scapulae,marked emaciation,1.0,1
+soreness extending down to joints even with and under both scapulae,neuralgic pains from axilla to little finger,1.0,1
+soreness extending down to joints even with and under both scapulae,pains in joints and left side,1.0,1
+soreness extending down to joints even with and under both scapulae,neck stiff and sore,1.0,1
+soreness extending down to joints even with and under both scapulae,worse in shoulder and wrist,1.0,1
+soreness extending down to joints even with and under both scapulae,lower limbs are heavy,1.0,1
+soreness extending down to joints even with and under both scapulae,restless cannot sit still without effort,1.0,1
+neck stiff and sore,soreness at lower cervical vertebrae,1.0,1
+neck stiff and sore,feels tired all the time,1.0,1
+neck stiff and sore,knee joints crack,1.0,1
+neck stiff and sore,rheumatic pain in right arm,1.0,1
+neck stiff and sore,shooting pains from acetabulum to knee,1.0,1
+neck stiff and sore,joints feel stiff,1.0,1
+neck stiff and sore,severe pain between scapulae,1.0,1
+neck stiff and sore,surface cool covered with cold clammy sweat,1.0,1
+neck stiff and sore,flying pains in fingers palms and forearms,1.0,1
+neck stiff and sore,marked emaciation,1.0,1
+neck stiff and sore,neuralgic pains from axilla to little finger,1.0,1
+neck stiff and sore,pains in joints and left side,1.0,1
+neck stiff and sore,soreness extending down to joints even with and under both scapulae,1.0,1
+neck stiff and sore,worse in shoulder and wrist,1.0,1
+neck stiff and sore,lower limbs are heavy,1.0,1
+neck stiff and sore,restless cannot sit still without effort,1.0,1
+neuralgic pains from axilla to little finger,soreness at lower cervical vertebrae,1.0,1
+neuralgic pains from axilla to little finger,feels tired all the time,1.0,1
+neuralgic pains from axilla to little finger,knee joints crack,1.0,1
+neuralgic pains from axilla to little finger,rheumatic pain in right arm,1.0,1
+neuralgic pains from axilla to little finger,shooting pains from acetabulum to knee,1.0,1
+neuralgic pains from axilla to little finger,joints feel stiff,1.0,1
+neuralgic pains from axilla to little finger,severe pain between scapulae,1.0,1
+neuralgic pains from axilla to little finger,surface cool covered with cold clammy sweat,1.0,1
+neuralgic pains from axilla to little finger,flying pains in fingers palms and forearms,1.0,1
+neuralgic pains from axilla to little finger,marked emaciation,1.0,1
+neuralgic pains from axilla to little finger,pains in joints and left side,1.0,1
+neuralgic pains from axilla to little finger,neck stiff and sore,1.0,1
+neuralgic pains from axilla to little finger,soreness extending down to joints even with and under both scapulae,1.0,1
+neuralgic pains from axilla to little finger,worse in shoulder and wrist,1.0,1
+neuralgic pains from axilla to little finger,lower limbs are heavy,1.0,1
+neuralgic pains from axilla to little finger,restless cannot sit still without effort,1.0,1

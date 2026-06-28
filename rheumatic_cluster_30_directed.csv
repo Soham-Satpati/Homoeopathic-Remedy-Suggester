@@ -1,0 +1,178 @@
+### Cluster 30 — Symptoms (13)
+Symptom,Frequency
+violent hiccough,1
+rheumatic pains from knees downward,1
+tearing and shooting in limbs,1
+cracking with wrenching pain in nape of neck,1
+rheumatic pains in elbows extending to hands and fingers,1
+cracking with wrenching pain in nape of neck when moving head back and forth,1
+hacking cough causes pain in head,1
+headache,1
+stitches in left heel,1
+cracking of cervical vertebra on moving head,1
+stitches in right patella,1
+pain in shoulders as if sprained,1
+pain in neck as from a sprain,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+niccolum,13
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+cracking with wrenching pain in nape of neck when moving head back and forth,violent hiccough,1.0,1
+cracking with wrenching pain in nape of neck when moving head back and forth,rheumatic pains from knees downward,1.0,1
+cracking with wrenching pain in nape of neck when moving head back and forth,tearing and shooting in limbs,1.0,1
+cracking with wrenching pain in nape of neck when moving head back and forth,cracking with wrenching pain in nape of neck,1.0,1
+cracking with wrenching pain in nape of neck when moving head back and forth,rheumatic pains in elbows extending to hands and fingers,1.0,1
+cracking with wrenching pain in nape of neck when moving head back and forth,hacking cough causes pain in head,1.0,1
+cracking with wrenching pain in nape of neck when moving head back and forth,headache,1.0,1
+cracking with wrenching pain in nape of neck when moving head back and forth,stitches in left heel,1.0,1
+cracking with wrenching pain in nape of neck when moving head back and forth,cracking of cervical vertebra on moving head,1.0,1
+cracking with wrenching pain in nape of neck when moving head back and forth,stitches in right patella,1.0,1
+cracking with wrenching pain in nape of neck when moving head back and forth,pain in shoulders as if sprained,1.0,1
+cracking with wrenching pain in nape of neck when moving head back and forth,pain in neck as from a sprain,1.0,1
+pain in shoulders as if sprained,violent hiccough,1.0,1
+pain in shoulders as if sprained,rheumatic pains from knees downward,1.0,1
+pain in shoulders as if sprained,tearing and shooting in limbs,1.0,1
+pain in shoulders as if sprained,cracking with wrenching pain in nape of neck,1.0,1
+pain in shoulders as if sprained,rheumatic pains in elbows extending to hands and fingers,1.0,1
+pain in shoulders as if sprained,cracking with wrenching pain in nape of neck when moving head back and forth,1.0,1
+pain in shoulders as if sprained,hacking cough causes pain in head,1.0,1
+pain in shoulders as if sprained,headache,1.0,1
+pain in shoulders as if sprained,stitches in left heel,1.0,1
+pain in shoulders as if sprained,cracking of cervical vertebra on moving head,1.0,1
+pain in shoulders as if sprained,stitches in right patella,1.0,1
+pain in shoulders as if sprained,pain in neck as from a sprain,1.0,1
+cracking of cervical vertebra on moving head,violent hiccough,1.0,1
+cracking of cervical vertebra on moving head,rheumatic pains from knees downward,1.0,1
+cracking of cervical vertebra on moving head,tearing and shooting in limbs,1.0,1
+cracking of cervical vertebra on moving head,cracking with wrenching pain in nape of neck,1.0,1
+cracking of cervical vertebra on moving head,rheumatic pains in elbows extending to hands and fingers,1.0,1
+cracking of cervical vertebra on moving head,cracking with wrenching pain in nape of neck when moving head back and forth,1.0,1
+cracking of cervical vertebra on moving head,hacking cough causes pain in head,1.0,1
+cracking of cervical vertebra on moving head,headache,1.0,1
+cracking of cervical vertebra on moving head,stitches in left heel,1.0,1
+cracking of cervical vertebra on moving head,stitches in right patella,1.0,1
+cracking of cervical vertebra on moving head,pain in shoulders as if sprained,1.0,1
+cracking of cervical vertebra on moving head,pain in neck as from a sprain,1.0,1
+cracking with wrenching pain in nape of neck,violent hiccough,1.0,1
+cracking with wrenching pain in nape of neck,rheumatic pains from knees downward,1.0,1
+cracking with wrenching pain in nape of neck,tearing and shooting in limbs,1.0,1
+cracking with wrenching pain in nape of neck,rheumatic pains in elbows extending to hands and fingers,1.0,1
+cracking with wrenching pain in nape of neck,cracking with wrenching pain in nape of neck when moving head back and forth,1.0,1
+cracking with wrenching pain in nape of neck,hacking cough causes pain in head,1.0,1
+cracking with wrenching pain in nape of neck,headache,1.0,1
+cracking with wrenching pain in nape of neck,stitches in left heel,1.0,1
+cracking with wrenching pain in nape of neck,cracking of cervical vertebra on moving head,1.0,1
+cracking with wrenching pain in nape of neck,stitches in right patella,1.0,1
+cracking with wrenching pain in nape of neck,pain in shoulders as if sprained,1.0,1
+cracking with wrenching pain in nape of neck,pain in neck as from a sprain,1.0,1
+stitches in right patella,violent hiccough,1.0,1
+stitches in right patella,rheumatic pains from knees downward,1.0,1
+stitches in right patella,tearing and shooting in limbs,1.0,1
+stitches in right patella,cracking with wrenching pain in nape of neck,1.0,1
+stitches in right patella,rheumatic pains in elbows extending to hands and fingers,1.0,1
+stitches in right patella,cracking with wrenching pain in nape of neck when moving head back and forth,1.0,1
+stitches in right patella,hacking cough causes pain in head,1.0,1
+stitches in right patella,headache,1.0,1
+stitches in right patella,stitches in left heel,1.0,1
+stitches in right patella,cracking of cervical vertebra on moving head,1.0,1
+stitches in right patella,pain in shoulders as if sprained,1.0,1
+stitches in right patella,pain in neck as from a sprain,1.0,1
+stitches in left heel,violent hiccough,1.0,1
+stitches in left heel,rheumatic pains from knees downward,1.0,1
+stitches in left heel,tearing and shooting in limbs,1.0,1
+stitches in left heel,cracking with wrenching pain in nape of neck,1.0,1
+stitches in left heel,rheumatic pains in elbows extending to hands and fingers,1.0,1
+stitches in left heel,cracking with wrenching pain in nape of neck when moving head back and forth,1.0,1
+stitches in left heel,hacking cough causes pain in head,1.0,1
+stitches in left heel,headache,1.0,1
+stitches in left heel,cracking of cervical vertebra on moving head,1.0,1
+stitches in left heel,stitches in right patella,1.0,1
+stitches in left heel,pain in shoulders as if sprained,1.0,1
+stitches in left heel,pain in neck as from a sprain,1.0,1
+rheumatic pains in elbows extending to hands and fingers,violent hiccough,1.0,1
+rheumatic pains in elbows extending to hands and fingers,rheumatic pains from knees downward,1.0,1
+rheumatic pains in elbows extending to hands and fingers,tearing and shooting in limbs,1.0,1
+rheumatic pains in elbows extending to hands and fingers,cracking with wrenching pain in nape of neck,1.0,1
+rheumatic pains in elbows extending to hands and fingers,cracking with wrenching pain in nape of neck when moving head back and forth,1.0,1
+rheumatic pains in elbows extending to hands and fingers,hacking cough causes pain in head,1.0,1
+rheumatic pains in elbows extending to hands and fingers,headache,1.0,1
+rheumatic pains in elbows extending to hands and fingers,stitches in left heel,1.0,1
+rheumatic pains in elbows extending to hands and fingers,cracking of cervical vertebra on moving head,1.0,1
+rheumatic pains in elbows extending to hands and fingers,stitches in right patella,1.0,1
+rheumatic pains in elbows extending to hands and fingers,pain in shoulders as if sprained,1.0,1
+rheumatic pains in elbows extending to hands and fingers,pain in neck as from a sprain,1.0,1
+rheumatic pains from knees downward,violent hiccough,1.0,1
+rheumatic pains from knees downward,tearing and shooting in limbs,1.0,1
+rheumatic pains from knees downward,cracking with wrenching pain in nape of neck,1.0,1
+rheumatic pains from knees downward,rheumatic pains in elbows extending to hands and fingers,1.0,1
+rheumatic pains from knees downward,cracking with wrenching pain in nape of neck when moving head back and forth,1.0,1
+rheumatic pains from knees downward,hacking cough causes pain in head,1.0,1
+rheumatic pains from knees downward,headache,1.0,1
+rheumatic pains from knees downward,stitches in left heel,1.0,1
+rheumatic pains from knees downward,cracking of cervical vertebra on moving head,1.0,1
+rheumatic pains from knees downward,stitches in right patella,1.0,1
+rheumatic pains from knees downward,pain in shoulders as if sprained,1.0,1
+rheumatic pains from knees downward,pain in neck as from a sprain,1.0,1
+tearing and shooting in limbs,violent hiccough,1.0,1
+tearing and shooting in limbs,rheumatic pains from knees downward,1.0,1
+tearing and shooting in limbs,cracking with wrenching pain in nape of neck,1.0,1
+tearing and shooting in limbs,rheumatic pains in elbows extending to hands and fingers,1.0,1
+tearing and shooting in limbs,cracking with wrenching pain in nape of neck when moving head back and forth,1.0,1
+tearing and shooting in limbs,hacking cough causes pain in head,1.0,1
+tearing and shooting in limbs,headache,1.0,1
+tearing and shooting in limbs,stitches in left heel,1.0,1
+tearing and shooting in limbs,cracking of cervical vertebra on moving head,1.0,1
+tearing and shooting in limbs,stitches in right patella,1.0,1
+tearing and shooting in limbs,pain in shoulders as if sprained,1.0,1
+tearing and shooting in limbs,pain in neck as from a sprain,1.0,1
+headache,violent hiccough,1.0,1
+headache,rheumatic pains from knees downward,1.0,1
+headache,tearing and shooting in limbs,1.0,1
+headache,cracking with wrenching pain in nape of neck,1.0,1
+headache,rheumatic pains in elbows extending to hands and fingers,1.0,1
+headache,cracking with wrenching pain in nape of neck when moving head back and forth,1.0,1
+headache,hacking cough causes pain in head,1.0,1
+headache,stitches in left heel,1.0,1
+headache,cracking of cervical vertebra on moving head,1.0,1
+headache,stitches in right patella,1.0,1
+headache,pain in shoulders as if sprained,1.0,1
+headache,pain in neck as from a sprain,1.0,1
+violent hiccough,rheumatic pains from knees downward,1.0,1
+violent hiccough,tearing and shooting in limbs,1.0,1
+violent hiccough,cracking with wrenching pain in nape of neck,1.0,1
+violent hiccough,rheumatic pains in elbows extending to hands and fingers,1.0,1
+violent hiccough,cracking with wrenching pain in nape of neck when moving head back and forth,1.0,1
+violent hiccough,hacking cough causes pain in head,1.0,1
+violent hiccough,headache,1.0,1
+violent hiccough,stitches in left heel,1.0,1
+violent hiccough,cracking of cervical vertebra on moving head,1.0,1
+violent hiccough,stitches in right patella,1.0,1
+violent hiccough,pain in shoulders as if sprained,1.0,1
+violent hiccough,pain in neck as from a sprain,1.0,1
+pain in neck as from a sprain,violent hiccough,1.0,1
+pain in neck as from a sprain,rheumatic pains from knees downward,1.0,1
+pain in neck as from a sprain,tearing and shooting in limbs,1.0,1
+pain in neck as from a sprain,cracking with wrenching pain in nape of neck,1.0,1
+pain in neck as from a sprain,rheumatic pains in elbows extending to hands and fingers,1.0,1
+pain in neck as from a sprain,cracking with wrenching pain in nape of neck when moving head back and forth,1.0,1
+pain in neck as from a sprain,hacking cough causes pain in head,1.0,1
+pain in neck as from a sprain,headache,1.0,1
+pain in neck as from a sprain,stitches in left heel,1.0,1
+pain in neck as from a sprain,cracking of cervical vertebra on moving head,1.0,1
+pain in neck as from a sprain,stitches in right patella,1.0,1
+pain in neck as from a sprain,pain in shoulders as if sprained,1.0,1
+hacking cough causes pain in head,violent hiccough,1.0,1
+hacking cough causes pain in head,rheumatic pains from knees downward,1.0,1
+hacking cough causes pain in head,tearing and shooting in limbs,1.0,1
+hacking cough causes pain in head,cracking with wrenching pain in nape of neck,1.0,1
+hacking cough causes pain in head,rheumatic pains in elbows extending to hands and fingers,1.0,1
+hacking cough causes pain in head,cracking with wrenching pain in nape of neck when moving head back and forth,1.0,1
+hacking cough causes pain in head,headache,1.0,1
+hacking cough causes pain in head,stitches in left heel,1.0,1
+hacking cough causes pain in head,cracking of cervical vertebra on moving head,1.0,1
+hacking cough causes pain in head,stitches in right patella,1.0,1
+hacking cough causes pain in head,pain in shoulders as if sprained,1.0,1
+hacking cough causes pain in head,pain in neck as from a sprain,1.0,1

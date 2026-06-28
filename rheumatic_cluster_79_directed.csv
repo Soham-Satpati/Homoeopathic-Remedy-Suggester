@@ -1,0 +1,34 @@
+### Cluster 79 — Symptoms (5)
+Symptom,Frequency
+garlic-like odor of secretions,1
+sensitive spine,1
+sciatica worse at night,1
+worse when lying,1
+sciatica worse when lying,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+tellurium,5
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+garlic-like odor of secretions,sensitive spine,1.0,1
+garlic-like odor of secretions,sciatica worse at night,1.0,1
+garlic-like odor of secretions,worse when lying,1.0,1
+garlic-like odor of secretions,sciatica worse when lying,1.0,1
+worse when lying,garlic-like odor of secretions,1.0,1
+worse when lying,sensitive spine,1.0,1
+worse when lying,sciatica worse at night,1.0,1
+worse when lying,sciatica worse when lying,1.0,1
+sciatica worse at night,garlic-like odor of secretions,1.0,1
+sciatica worse at night,sensitive spine,1.0,1
+sciatica worse at night,worse when lying,1.0,1
+sciatica worse at night,sciatica worse when lying,1.0,1
+sciatica worse when lying,garlic-like odor of secretions,1.0,1
+sciatica worse when lying,sensitive spine,1.0,1
+sciatica worse when lying,sciatica worse at night,1.0,1
+sciatica worse when lying,worse when lying,1.0,1
+sensitive spine,garlic-like odor of secretions,1.0,1
+sensitive spine,sciatica worse at night,1.0,1
+sensitive spine,worse when lying,1.0,1
+sensitive spine,sciatica worse when lying,1.0,1

@@ -1,0 +1,370 @@
+### Cluster 63 — Symptoms (19)
+Symptom,Frequency
+inability to think or to perform any mental labour,1
+tendency to sprain the ankle,1
+unsteady walk,1
+hollow of knee painful on motion,1
+muscles of cords of knee on tension,1
+legs and feet very heavy,1
+rheumatic pain of shoulder arms and elbows,1
+drawing pains in elbow,1
+pressing pain on shoulders,1
+cracking of cervical vertebrae on moving head,1
+exhaustion from mental exertion,1
+sense of tension,1
+pale face with blue rings about eyes,1
+debility from any exertion,1
+headaches from slightest mental exertion,1
+jerking pains in lower limbs,1
+backache after violent walking,1
+rigidity and drawing in back,1
+intolerable melancholy and apprehension,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+natrum carbonicum,19
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+legs and feet very heavy,inability to think or to perform any mental labour,1.0,1
+legs and feet very heavy,tendency to sprain the ankle,1.0,1
+legs and feet very heavy,unsteady walk,1.0,1
+legs and feet very heavy,hollow of knee painful on motion,1.0,1
+legs and feet very heavy,muscles of cords of knee on tension,1.0,1
+legs and feet very heavy,rheumatic pain of shoulder arms and elbows,1.0,1
+legs and feet very heavy,drawing pains in elbow,1.0,1
+legs and feet very heavy,pressing pain on shoulders,1.0,1
+legs and feet very heavy,cracking of cervical vertebrae on moving head,1.0,1
+legs and feet very heavy,exhaustion from mental exertion,1.0,1
+legs and feet very heavy,sense of tension,1.0,1
+legs and feet very heavy,pale face with blue rings about eyes,1.0,1
+legs and feet very heavy,debility from any exertion,1.0,1
+legs and feet very heavy,headaches from slightest mental exertion,1.0,1
+legs and feet very heavy,jerking pains in lower limbs,1.0,1
+legs and feet very heavy,backache after violent walking,1.0,1
+legs and feet very heavy,rigidity and drawing in back,1.0,1
+legs and feet very heavy,intolerable melancholy and apprehension,1.0,1
+drawing pains in elbow,inability to think or to perform any mental labour,1.0,1
+drawing pains in elbow,tendency to sprain the ankle,1.0,1
+drawing pains in elbow,unsteady walk,1.0,1
+drawing pains in elbow,hollow of knee painful on motion,1.0,1
+drawing pains in elbow,muscles of cords of knee on tension,1.0,1
+drawing pains in elbow,legs and feet very heavy,1.0,1
+drawing pains in elbow,rheumatic pain of shoulder arms and elbows,1.0,1
+drawing pains in elbow,pressing pain on shoulders,1.0,1
+drawing pains in elbow,cracking of cervical vertebrae on moving head,1.0,1
+drawing pains in elbow,exhaustion from mental exertion,1.0,1
+drawing pains in elbow,sense of tension,1.0,1
+drawing pains in elbow,pale face with blue rings about eyes,1.0,1
+drawing pains in elbow,debility from any exertion,1.0,1
+drawing pains in elbow,headaches from slightest mental exertion,1.0,1
+drawing pains in elbow,jerking pains in lower limbs,1.0,1
+drawing pains in elbow,backache after violent walking,1.0,1
+drawing pains in elbow,rigidity and drawing in back,1.0,1
+drawing pains in elbow,intolerable melancholy and apprehension,1.0,1
+cracking of cervical vertebrae on moving head,inability to think or to perform any mental labour,1.0,1
+cracking of cervical vertebrae on moving head,tendency to sprain the ankle,1.0,1
+cracking of cervical vertebrae on moving head,unsteady walk,1.0,1
+cracking of cervical vertebrae on moving head,hollow of knee painful on motion,1.0,1
+cracking of cervical vertebrae on moving head,muscles of cords of knee on tension,1.0,1
+cracking of cervical vertebrae on moving head,legs and feet very heavy,1.0,1
+cracking of cervical vertebrae on moving head,rheumatic pain of shoulder arms and elbows,1.0,1
+cracking of cervical vertebrae on moving head,drawing pains in elbow,1.0,1
+cracking of cervical vertebrae on moving head,pressing pain on shoulders,1.0,1
+cracking of cervical vertebrae on moving head,exhaustion from mental exertion,1.0,1
+cracking of cervical vertebrae on moving head,sense of tension,1.0,1
+cracking of cervical vertebrae on moving head,pale face with blue rings about eyes,1.0,1
+cracking of cervical vertebrae on moving head,debility from any exertion,1.0,1
+cracking of cervical vertebrae on moving head,headaches from slightest mental exertion,1.0,1
+cracking of cervical vertebrae on moving head,jerking pains in lower limbs,1.0,1
+cracking of cervical vertebrae on moving head,backache after violent walking,1.0,1
+cracking of cervical vertebrae on moving head,rigidity and drawing in back,1.0,1
+cracking of cervical vertebrae on moving head,intolerable melancholy and apprehension,1.0,1
+headaches from slightest mental exertion,inability to think or to perform any mental labour,1.0,1
+headaches from slightest mental exertion,tendency to sprain the ankle,1.0,1
+headaches from slightest mental exertion,unsteady walk,1.0,1
+headaches from slightest mental exertion,hollow of knee painful on motion,1.0,1
+headaches from slightest mental exertion,muscles of cords of knee on tension,1.0,1
+headaches from slightest mental exertion,legs and feet very heavy,1.0,1
+headaches from slightest mental exertion,rheumatic pain of shoulder arms and elbows,1.0,1
+headaches from slightest mental exertion,drawing pains in elbow,1.0,1
+headaches from slightest mental exertion,pressing pain on shoulders,1.0,1
+headaches from slightest mental exertion,cracking of cervical vertebrae on moving head,1.0,1
+headaches from slightest mental exertion,exhaustion from mental exertion,1.0,1
+headaches from slightest mental exertion,sense of tension,1.0,1
+headaches from slightest mental exertion,pale face with blue rings about eyes,1.0,1
+headaches from slightest mental exertion,debility from any exertion,1.0,1
+headaches from slightest mental exertion,jerking pains in lower limbs,1.0,1
+headaches from slightest mental exertion,backache after violent walking,1.0,1
+headaches from slightest mental exertion,rigidity and drawing in back,1.0,1
+headaches from slightest mental exertion,intolerable melancholy and apprehension,1.0,1
+rigidity and drawing in back,inability to think or to perform any mental labour,1.0,1
+rigidity and drawing in back,tendency to sprain the ankle,1.0,1
+rigidity and drawing in back,unsteady walk,1.0,1
+rigidity and drawing in back,hollow of knee painful on motion,1.0,1
+rigidity and drawing in back,muscles of cords of knee on tension,1.0,1
+rigidity and drawing in back,legs and feet very heavy,1.0,1
+rigidity and drawing in back,rheumatic pain of shoulder arms and elbows,1.0,1
+rigidity and drawing in back,drawing pains in elbow,1.0,1
+rigidity and drawing in back,pressing pain on shoulders,1.0,1
+rigidity and drawing in back,cracking of cervical vertebrae on moving head,1.0,1
+rigidity and drawing in back,exhaustion from mental exertion,1.0,1
+rigidity and drawing in back,sense of tension,1.0,1
+rigidity and drawing in back,pale face with blue rings about eyes,1.0,1
+rigidity and drawing in back,debility from any exertion,1.0,1
+rigidity and drawing in back,headaches from slightest mental exertion,1.0,1
+rigidity and drawing in back,jerking pains in lower limbs,1.0,1
+rigidity and drawing in back,backache after violent walking,1.0,1
+rigidity and drawing in back,intolerable melancholy and apprehension,1.0,1
+jerking pains in lower limbs,inability to think or to perform any mental labour,1.0,1
+jerking pains in lower limbs,tendency to sprain the ankle,1.0,1
+jerking pains in lower limbs,unsteady walk,1.0,1
+jerking pains in lower limbs,hollow of knee painful on motion,1.0,1
+jerking pains in lower limbs,muscles of cords of knee on tension,1.0,1
+jerking pains in lower limbs,legs and feet very heavy,1.0,1
+jerking pains in lower limbs,rheumatic pain of shoulder arms and elbows,1.0,1
+jerking pains in lower limbs,drawing pains in elbow,1.0,1
+jerking pains in lower limbs,pressing pain on shoulders,1.0,1
+jerking pains in lower limbs,cracking of cervical vertebrae on moving head,1.0,1
+jerking pains in lower limbs,exhaustion from mental exertion,1.0,1
+jerking pains in lower limbs,sense of tension,1.0,1
+jerking pains in lower limbs,pale face with blue rings about eyes,1.0,1
+jerking pains in lower limbs,debility from any exertion,1.0,1
+jerking pains in lower limbs,headaches from slightest mental exertion,1.0,1
+jerking pains in lower limbs,backache after violent walking,1.0,1
+jerking pains in lower limbs,rigidity and drawing in back,1.0,1
+jerking pains in lower limbs,intolerable melancholy and apprehension,1.0,1
+rheumatic pain of shoulder arms and elbows,inability to think or to perform any mental labour,1.0,1
+rheumatic pain of shoulder arms and elbows,tendency to sprain the ankle,1.0,1
+rheumatic pain of shoulder arms and elbows,unsteady walk,1.0,1
+rheumatic pain of shoulder arms and elbows,hollow of knee painful on motion,1.0,1
+rheumatic pain of shoulder arms and elbows,muscles of cords of knee on tension,1.0,1
+rheumatic pain of shoulder arms and elbows,legs and feet very heavy,1.0,1
+rheumatic pain of shoulder arms and elbows,drawing pains in elbow,1.0,1
+rheumatic pain of shoulder arms and elbows,pressing pain on shoulders,1.0,1
+rheumatic pain of shoulder arms and elbows,cracking of cervical vertebrae on moving head,1.0,1
+rheumatic pain of shoulder arms and elbows,exhaustion from mental exertion,1.0,1
+rheumatic pain of shoulder arms and elbows,sense of tension,1.0,1
+rheumatic pain of shoulder arms and elbows,pale face with blue rings about eyes,1.0,1
+rheumatic pain of shoulder arms and elbows,debility from any exertion,1.0,1
+rheumatic pain of shoulder arms and elbows,headaches from slightest mental exertion,1.0,1
+rheumatic pain of shoulder arms and elbows,jerking pains in lower limbs,1.0,1
+rheumatic pain of shoulder arms and elbows,backache after violent walking,1.0,1
+rheumatic pain of shoulder arms and elbows,rigidity and drawing in back,1.0,1
+rheumatic pain of shoulder arms and elbows,intolerable melancholy and apprehension,1.0,1
+pressing pain on shoulders,inability to think or to perform any mental labour,1.0,1
+pressing pain on shoulders,tendency to sprain the ankle,1.0,1
+pressing pain on shoulders,unsteady walk,1.0,1
+pressing pain on shoulders,hollow of knee painful on motion,1.0,1
+pressing pain on shoulders,muscles of cords of knee on tension,1.0,1
+pressing pain on shoulders,legs and feet very heavy,1.0,1
+pressing pain on shoulders,rheumatic pain of shoulder arms and elbows,1.0,1
+pressing pain on shoulders,drawing pains in elbow,1.0,1
+pressing pain on shoulders,cracking of cervical vertebrae on moving head,1.0,1
+pressing pain on shoulders,exhaustion from mental exertion,1.0,1
+pressing pain on shoulders,sense of tension,1.0,1
+pressing pain on shoulders,pale face with blue rings about eyes,1.0,1
+pressing pain on shoulders,debility from any exertion,1.0,1
+pressing pain on shoulders,headaches from slightest mental exertion,1.0,1
+pressing pain on shoulders,jerking pains in lower limbs,1.0,1
+pressing pain on shoulders,backache after violent walking,1.0,1
+pressing pain on shoulders,rigidity and drawing in back,1.0,1
+pressing pain on shoulders,intolerable melancholy and apprehension,1.0,1
+exhaustion from mental exertion,inability to think or to perform any mental labour,1.0,1
+exhaustion from mental exertion,tendency to sprain the ankle,1.0,1
+exhaustion from mental exertion,unsteady walk,1.0,1
+exhaustion from mental exertion,hollow of knee painful on motion,1.0,1
+exhaustion from mental exertion,muscles of cords of knee on tension,1.0,1
+exhaustion from mental exertion,legs and feet very heavy,1.0,1
+exhaustion from mental exertion,rheumatic pain of shoulder arms and elbows,1.0,1
+exhaustion from mental exertion,drawing pains in elbow,1.0,1
+exhaustion from mental exertion,pressing pain on shoulders,1.0,1
+exhaustion from mental exertion,cracking of cervical vertebrae on moving head,1.0,1
+exhaustion from mental exertion,sense of tension,1.0,1
+exhaustion from mental exertion,pale face with blue rings about eyes,1.0,1
+exhaustion from mental exertion,debility from any exertion,1.0,1
+exhaustion from mental exertion,headaches from slightest mental exertion,1.0,1
+exhaustion from mental exertion,jerking pains in lower limbs,1.0,1
+exhaustion from mental exertion,backache after violent walking,1.0,1
+exhaustion from mental exertion,rigidity and drawing in back,1.0,1
+exhaustion from mental exertion,intolerable melancholy and apprehension,1.0,1
+pale face with blue rings about eyes,inability to think or to perform any mental labour,1.0,1
+pale face with blue rings about eyes,tendency to sprain the ankle,1.0,1
+pale face with blue rings about eyes,unsteady walk,1.0,1
+pale face with blue rings about eyes,hollow of knee painful on motion,1.0,1
+pale face with blue rings about eyes,muscles of cords of knee on tension,1.0,1
+pale face with blue rings about eyes,legs and feet very heavy,1.0,1
+pale face with blue rings about eyes,rheumatic pain of shoulder arms and elbows,1.0,1
+pale face with blue rings about eyes,drawing pains in elbow,1.0,1
+pale face with blue rings about eyes,pressing pain on shoulders,1.0,1
+pale face with blue rings about eyes,cracking of cervical vertebrae on moving head,1.0,1
+pale face with blue rings about eyes,exhaustion from mental exertion,1.0,1
+pale face with blue rings about eyes,sense of tension,1.0,1
+pale face with blue rings about eyes,debility from any exertion,1.0,1
+pale face with blue rings about eyes,headaches from slightest mental exertion,1.0,1
+pale face with blue rings about eyes,jerking pains in lower limbs,1.0,1
+pale face with blue rings about eyes,backache after violent walking,1.0,1
+pale face with blue rings about eyes,rigidity and drawing in back,1.0,1
+pale face with blue rings about eyes,intolerable melancholy and apprehension,1.0,1
+unsteady walk,inability to think or to perform any mental labour,1.0,1
+unsteady walk,tendency to sprain the ankle,1.0,1
+unsteady walk,hollow of knee painful on motion,1.0,1
+unsteady walk,muscles of cords of knee on tension,1.0,1
+unsteady walk,legs and feet very heavy,1.0,1
+unsteady walk,rheumatic pain of shoulder arms and elbows,1.0,1
+unsteady walk,drawing pains in elbow,1.0,1
+unsteady walk,pressing pain on shoulders,1.0,1
+unsteady walk,cracking of cervical vertebrae on moving head,1.0,1
+unsteady walk,exhaustion from mental exertion,1.0,1
+unsteady walk,sense of tension,1.0,1
+unsteady walk,pale face with blue rings about eyes,1.0,1
+unsteady walk,debility from any exertion,1.0,1
+unsteady walk,headaches from slightest mental exertion,1.0,1
+unsteady walk,jerking pains in lower limbs,1.0,1
+unsteady walk,backache after violent walking,1.0,1
+unsteady walk,rigidity and drawing in back,1.0,1
+unsteady walk,intolerable melancholy and apprehension,1.0,1
+intolerable melancholy and apprehension,inability to think or to perform any mental labour,1.0,1
+intolerable melancholy and apprehension,tendency to sprain the ankle,1.0,1
+intolerable melancholy and apprehension,unsteady walk,1.0,1
+intolerable melancholy and apprehension,hollow of knee painful on motion,1.0,1
+intolerable melancholy and apprehension,muscles of cords of knee on tension,1.0,1
+intolerable melancholy and apprehension,legs and feet very heavy,1.0,1
+intolerable melancholy and apprehension,rheumatic pain of shoulder arms and elbows,1.0,1
+intolerable melancholy and apprehension,drawing pains in elbow,1.0,1
+intolerable melancholy and apprehension,pressing pain on shoulders,1.0,1
+intolerable melancholy and apprehension,cracking of cervical vertebrae on moving head,1.0,1
+intolerable melancholy and apprehension,exhaustion from mental exertion,1.0,1
+intolerable melancholy and apprehension,sense of tension,1.0,1
+intolerable melancholy and apprehension,pale face with blue rings about eyes,1.0,1
+intolerable melancholy and apprehension,debility from any exertion,1.0,1
+intolerable melancholy and apprehension,headaches from slightest mental exertion,1.0,1
+intolerable melancholy and apprehension,jerking pains in lower limbs,1.0,1
+intolerable melancholy and apprehension,backache after violent walking,1.0,1
+intolerable melancholy and apprehension,rigidity and drawing in back,1.0,1
+debility from any exertion,inability to think or to perform any mental labour,1.0,1
+debility from any exertion,tendency to sprain the ankle,1.0,1
+debility from any exertion,unsteady walk,1.0,1
+debility from any exertion,hollow of knee painful on motion,1.0,1
+debility from any exertion,muscles of cords of knee on tension,1.0,1
+debility from any exertion,legs and feet very heavy,1.0,1
+debility from any exertion,rheumatic pain of shoulder arms and elbows,1.0,1
+debility from any exertion,drawing pains in elbow,1.0,1
+debility from any exertion,pressing pain on shoulders,1.0,1
+debility from any exertion,cracking of cervical vertebrae on moving head,1.0,1
+debility from any exertion,exhaustion from mental exertion,1.0,1
+debility from any exertion,sense of tension,1.0,1
+debility from any exertion,pale face with blue rings about eyes,1.0,1
+debility from any exertion,headaches from slightest mental exertion,1.0,1
+debility from any exertion,jerking pains in lower limbs,1.0,1
+debility from any exertion,backache after violent walking,1.0,1
+debility from any exertion,rigidity and drawing in back,1.0,1
+debility from any exertion,intolerable melancholy and apprehension,1.0,1
+inability to think or to perform any mental labour,tendency to sprain the ankle,1.0,1
+inability to think or to perform any mental labour,unsteady walk,1.0,1
+inability to think or to perform any mental labour,hollow of knee painful on motion,1.0,1
+inability to think or to perform any mental labour,muscles of cords of knee on tension,1.0,1
+inability to think or to perform any mental labour,legs and feet very heavy,1.0,1
+inability to think or to perform any mental labour,rheumatic pain of shoulder arms and elbows,1.0,1
+inability to think or to perform any mental labour,drawing pains in elbow,1.0,1
+inability to think or to perform any mental labour,pressing pain on shoulders,1.0,1
+inability to think or to perform any mental labour,cracking of cervical vertebrae on moving head,1.0,1
+inability to think or to perform any mental labour,exhaustion from mental exertion,1.0,1
+inability to think or to perform any mental labour,sense of tension,1.0,1
+inability to think or to perform any mental labour,pale face with blue rings about eyes,1.0,1
+inability to think or to perform any mental labour,debility from any exertion,1.0,1
+inability to think or to perform any mental labour,headaches from slightest mental exertion,1.0,1
+inability to think or to perform any mental labour,jerking pains in lower limbs,1.0,1
+inability to think or to perform any mental labour,backache after violent walking,1.0,1
+inability to think or to perform any mental labour,rigidity and drawing in back,1.0,1
+inability to think or to perform any mental labour,intolerable melancholy and apprehension,1.0,1
+tendency to sprain the ankle,inability to think or to perform any mental labour,1.0,1
+tendency to sprain the ankle,unsteady walk,1.0,1
+tendency to sprain the ankle,hollow of knee painful on motion,1.0,1
+tendency to sprain the ankle,muscles of cords of knee on tension,1.0,1
+tendency to sprain the ankle,legs and feet very heavy,1.0,1
+tendency to sprain the ankle,rheumatic pain of shoulder arms and elbows,1.0,1
+tendency to sprain the ankle,drawing pains in elbow,1.0,1
+tendency to sprain the ankle,pressing pain on shoulders,1.0,1
+tendency to sprain the ankle,cracking of cervical vertebrae on moving head,1.0,1
+tendency to sprain the ankle,exhaustion from mental exertion,1.0,1
+tendency to sprain the ankle,sense of tension,1.0,1
+tendency to sprain the ankle,pale face with blue rings about eyes,1.0,1
+tendency to sprain the ankle,debility from any exertion,1.0,1
+tendency to sprain the ankle,headaches from slightest mental exertion,1.0,1
+tendency to sprain the ankle,jerking pains in lower limbs,1.0,1
+tendency to sprain the ankle,backache after violent walking,1.0,1
+tendency to sprain the ankle,rigidity and drawing in back,1.0,1
+tendency to sprain the ankle,intolerable melancholy and apprehension,1.0,1
+sense of tension,inability to think or to perform any mental labour,1.0,1
+sense of tension,tendency to sprain the ankle,1.0,1
+sense of tension,unsteady walk,1.0,1
+sense of tension,hollow of knee painful on motion,1.0,1
+sense of tension,muscles of cords of knee on tension,1.0,1
+sense of tension,legs and feet very heavy,1.0,1
+sense of tension,rheumatic pain of shoulder arms and elbows,1.0,1
+sense of tension,drawing pains in elbow,1.0,1
+sense of tension,pressing pain on shoulders,1.0,1
+sense of tension,cracking of cervical vertebrae on moving head,1.0,1
+sense of tension,exhaustion from mental exertion,1.0,1
+sense of tension,pale face with blue rings about eyes,1.0,1
+sense of tension,debility from any exertion,1.0,1
+sense of tension,headaches from slightest mental exertion,1.0,1
+sense of tension,jerking pains in lower limbs,1.0,1
+sense of tension,backache after violent walking,1.0,1
+sense of tension,rigidity and drawing in back,1.0,1
+sense of tension,intolerable melancholy and apprehension,1.0,1
+backache after violent walking,inability to think or to perform any mental labour,1.0,1
+backache after violent walking,tendency to sprain the ankle,1.0,1
+backache after violent walking,unsteady walk,1.0,1
+backache after violent walking,hollow of knee painful on motion,1.0,1
+backache after violent walking,muscles of cords of knee on tension,1.0,1
+backache after violent walking,legs and feet very heavy,1.0,1
+backache after violent walking,rheumatic pain of shoulder arms and elbows,1.0,1
+backache after violent walking,drawing pains in elbow,1.0,1
+backache after violent walking,pressing pain on shoulders,1.0,1
+backache after violent walking,cracking of cervical vertebrae on moving head,1.0,1
+backache after violent walking,exhaustion from mental exertion,1.0,1
+backache after violent walking,sense of tension,1.0,1
+backache after violent walking,pale face with blue rings about eyes,1.0,1
+backache after violent walking,debility from any exertion,1.0,1
+backache after violent walking,headaches from slightest mental exertion,1.0,1
+backache after violent walking,jerking pains in lower limbs,1.0,1
+backache after violent walking,rigidity and drawing in back,1.0,1
+backache after violent walking,intolerable melancholy and apprehension,1.0,1
+muscles of cords of knee on tension,inability to think or to perform any mental labour,1.0,1
+muscles of cords of knee on tension,tendency to sprain the ankle,1.0,1
+muscles of cords of knee on tension,unsteady walk,1.0,1
+muscles of cords of knee on tension,hollow of knee painful on motion,1.0,1
+muscles of cords of knee on tension,legs and feet very heavy,1.0,1
+muscles of cords of knee on tension,rheumatic pain of shoulder arms and elbows,1.0,1
+muscles of cords of knee on tension,drawing pains in elbow,1.0,1
+muscles of cords of knee on tension,pressing pain on shoulders,1.0,1
+muscles of cords of knee on tension,cracking of cervical vertebrae on moving head,1.0,1
+muscles of cords of knee on tension,exhaustion from mental exertion,1.0,1
+muscles of cords of knee on tension,sense of tension,1.0,1
+muscles of cords of knee on tension,pale face with blue rings about eyes,1.0,1
+muscles of cords of knee on tension,debility from any exertion,1.0,1
+muscles of cords of knee on tension,headaches from slightest mental exertion,1.0,1
+muscles of cords of knee on tension,jerking pains in lower limbs,1.0,1
+muscles of cords of knee on tension,backache after violent walking,1.0,1
+muscles of cords of knee on tension,rigidity and drawing in back,1.0,1
+muscles of cords of knee on tension,intolerable melancholy and apprehension,1.0,1
+hollow of knee painful on motion,inability to think or to perform any mental labour,1.0,1
+hollow of knee painful on motion,tendency to sprain the ankle,1.0,1
+hollow of knee painful on motion,unsteady walk,1.0,1
+hollow of knee painful on motion,muscles of cords of knee on tension,1.0,1
+hollow of knee painful on motion,legs and feet very heavy,1.0,1
+hollow of knee painful on motion,rheumatic pain of shoulder arms and elbows,1.0,1
+hollow of knee painful on motion,drawing pains in elbow,1.0,1
+hollow of knee painful on motion,pressing pain on shoulders,1.0,1
+hollow of knee painful on motion,cracking of cervical vertebrae on moving head,1.0,1
+hollow of knee painful on motion,exhaustion from mental exertion,1.0,1
+hollow of knee painful on motion,sense of tension,1.0,1
+hollow of knee painful on motion,pale face with blue rings about eyes,1.0,1
+hollow of knee painful on motion,debility from any exertion,1.0,1
+hollow of knee painful on motion,headaches from slightest mental exertion,1.0,1
+hollow of knee painful on motion,jerking pains in lower limbs,1.0,1
+hollow of knee painful on motion,backache after violent walking,1.0,1
+hollow of knee painful on motion,rigidity and drawing in back,1.0,1
+hollow of knee painful on motion,intolerable melancholy and apprehension,1.0,1

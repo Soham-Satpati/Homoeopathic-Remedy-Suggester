@@ -1,0 +1,178 @@
+### Cluster 7 — Symptoms (13)
+Symptom,Frequency
+pain as if a nail had grown into flesh of right great toe,1
+ingrowing toe nails,1
+tingling and feeling as if the part were going to sleep when sitting,1
+better morning,1
+rheumatic lameness of upper arm as far as elbow,1
+over-sensitive and remedies do not act well,1
+in old people or children,1
+emaciated children,1
+sudden cutting pain in muscles of forearm,1
+rheumatic pains mostly in bones and joints,2
+drawing and tearing pain in whole arm,1
+seat worms,1
+polypi of mucous surfaces,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+marum verum,13
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+tingling and feeling as if the part were going to sleep when sitting,pain as if a nail had grown into flesh of right great toe,1.0,1
+tingling and feeling as if the part were going to sleep when sitting,ingrowing toe nails,1.0,1
+tingling and feeling as if the part were going to sleep when sitting,better morning,1.0,1
+tingling and feeling as if the part were going to sleep when sitting,rheumatic lameness of upper arm as far as elbow,1.0,1
+tingling and feeling as if the part were going to sleep when sitting,over-sensitive and remedies do not act well,1.0,1
+tingling and feeling as if the part were going to sleep when sitting,in old people or children,1.0,1
+tingling and feeling as if the part were going to sleep when sitting,emaciated children,1.0,1
+tingling and feeling as if the part were going to sleep when sitting,sudden cutting pain in muscles of forearm,1.0,1
+tingling and feeling as if the part were going to sleep when sitting,rheumatic pains mostly in bones and joints,1.0,1
+tingling and feeling as if the part were going to sleep when sitting,drawing and tearing pain in whole arm,1.0,1
+tingling and feeling as if the part were going to sleep when sitting,seat worms,1.0,1
+tingling and feeling as if the part were going to sleep when sitting,polypi of mucous surfaces,1.0,1
+drawing and tearing pain in whole arm,pain as if a nail had grown into flesh of right great toe,1.0,1
+drawing and tearing pain in whole arm,ingrowing toe nails,1.0,1
+drawing and tearing pain in whole arm,tingling and feeling as if the part were going to sleep when sitting,1.0,1
+drawing and tearing pain in whole arm,better morning,1.0,1
+drawing and tearing pain in whole arm,rheumatic lameness of upper arm as far as elbow,1.0,1
+drawing and tearing pain in whole arm,over-sensitive and remedies do not act well,1.0,1
+drawing and tearing pain in whole arm,in old people or children,1.0,1
+drawing and tearing pain in whole arm,emaciated children,1.0,1
+drawing and tearing pain in whole arm,sudden cutting pain in muscles of forearm,1.0,1
+drawing and tearing pain in whole arm,rheumatic pains mostly in bones and joints,1.0,1
+drawing and tearing pain in whole arm,seat worms,1.0,1
+drawing and tearing pain in whole arm,polypi of mucous surfaces,1.0,1
+polypi of mucous surfaces,pain as if a nail had grown into flesh of right great toe,1.0,1
+polypi of mucous surfaces,ingrowing toe nails,1.0,1
+polypi of mucous surfaces,tingling and feeling as if the part were going to sleep when sitting,1.0,1
+polypi of mucous surfaces,better morning,1.0,1
+polypi of mucous surfaces,rheumatic lameness of upper arm as far as elbow,1.0,1
+polypi of mucous surfaces,over-sensitive and remedies do not act well,1.0,1
+polypi of mucous surfaces,in old people or children,1.0,1
+polypi of mucous surfaces,emaciated children,1.0,1
+polypi of mucous surfaces,sudden cutting pain in muscles of forearm,1.0,1
+polypi of mucous surfaces,rheumatic pains mostly in bones and joints,1.0,1
+polypi of mucous surfaces,drawing and tearing pain in whole arm,1.0,1
+polypi of mucous surfaces,seat worms,1.0,1
+seat worms,pain as if a nail had grown into flesh of right great toe,1.0,1
+seat worms,ingrowing toe nails,1.0,1
+seat worms,tingling and feeling as if the part were going to sleep when sitting,1.0,1
+seat worms,better morning,1.0,1
+seat worms,rheumatic lameness of upper arm as far as elbow,1.0,1
+seat worms,over-sensitive and remedies do not act well,1.0,1
+seat worms,in old people or children,1.0,1
+seat worms,emaciated children,1.0,1
+seat worms,sudden cutting pain in muscles of forearm,1.0,1
+seat worms,rheumatic pains mostly in bones and joints,1.0,1
+seat worms,drawing and tearing pain in whole arm,1.0,1
+seat worms,polypi of mucous surfaces,1.0,1
+pain as if a nail had grown into flesh of right great toe,ingrowing toe nails,1.0,1
+pain as if a nail had grown into flesh of right great toe,tingling and feeling as if the part were going to sleep when sitting,1.0,1
+pain as if a nail had grown into flesh of right great toe,better morning,1.0,1
+pain as if a nail had grown into flesh of right great toe,rheumatic lameness of upper arm as far as elbow,1.0,1
+pain as if a nail had grown into flesh of right great toe,over-sensitive and remedies do not act well,1.0,1
+pain as if a nail had grown into flesh of right great toe,in old people or children,1.0,1
+pain as if a nail had grown into flesh of right great toe,emaciated children,1.0,1
+pain as if a nail had grown into flesh of right great toe,sudden cutting pain in muscles of forearm,1.0,1
+pain as if a nail had grown into flesh of right great toe,rheumatic pains mostly in bones and joints,1.0,1
+pain as if a nail had grown into flesh of right great toe,drawing and tearing pain in whole arm,1.0,1
+pain as if a nail had grown into flesh of right great toe,seat worms,1.0,1
+pain as if a nail had grown into flesh of right great toe,polypi of mucous surfaces,1.0,1
+in old people or children,pain as if a nail had grown into flesh of right great toe,1.0,1
+in old people or children,ingrowing toe nails,1.0,1
+in old people or children,tingling and feeling as if the part were going to sleep when sitting,1.0,1
+in old people or children,better morning,1.0,1
+in old people or children,rheumatic lameness of upper arm as far as elbow,1.0,1
+in old people or children,over-sensitive and remedies do not act well,1.0,1
+in old people or children,emaciated children,1.0,1
+in old people or children,sudden cutting pain in muscles of forearm,1.0,1
+in old people or children,rheumatic pains mostly in bones and joints,1.0,1
+in old people or children,drawing and tearing pain in whole arm,1.0,1
+in old people or children,seat worms,1.0,1
+in old people or children,polypi of mucous surfaces,1.0,1
+emaciated children,pain as if a nail had grown into flesh of right great toe,1.0,1
+emaciated children,ingrowing toe nails,1.0,1
+emaciated children,tingling and feeling as if the part were going to sleep when sitting,1.0,1
+emaciated children,better morning,1.0,1
+emaciated children,rheumatic lameness of upper arm as far as elbow,1.0,1
+emaciated children,over-sensitive and remedies do not act well,1.0,1
+emaciated children,in old people or children,1.0,1
+emaciated children,sudden cutting pain in muscles of forearm,1.0,1
+emaciated children,rheumatic pains mostly in bones and joints,1.0,1
+emaciated children,drawing and tearing pain in whole arm,1.0,1
+emaciated children,seat worms,1.0,1
+emaciated children,polypi of mucous surfaces,1.0,1
+over-sensitive and remedies do not act well,pain as if a nail had grown into flesh of right great toe,1.0,1
+over-sensitive and remedies do not act well,ingrowing toe nails,1.0,1
+over-sensitive and remedies do not act well,tingling and feeling as if the part were going to sleep when sitting,1.0,1
+over-sensitive and remedies do not act well,better morning,1.0,1
+over-sensitive and remedies do not act well,rheumatic lameness of upper arm as far as elbow,1.0,1
+over-sensitive and remedies do not act well,in old people or children,1.0,1
+over-sensitive and remedies do not act well,emaciated children,1.0,1
+over-sensitive and remedies do not act well,sudden cutting pain in muscles of forearm,1.0,1
+over-sensitive and remedies do not act well,rheumatic pains mostly in bones and joints,1.0,1
+over-sensitive and remedies do not act well,drawing and tearing pain in whole arm,1.0,1
+over-sensitive and remedies do not act well,seat worms,1.0,1
+over-sensitive and remedies do not act well,polypi of mucous surfaces,1.0,1
+sudden cutting pain in muscles of forearm,pain as if a nail had grown into flesh of right great toe,1.0,1
+sudden cutting pain in muscles of forearm,ingrowing toe nails,1.0,1
+sudden cutting pain in muscles of forearm,tingling and feeling as if the part were going to sleep when sitting,1.0,1
+sudden cutting pain in muscles of forearm,better morning,1.0,1
+sudden cutting pain in muscles of forearm,rheumatic lameness of upper arm as far as elbow,1.0,1
+sudden cutting pain in muscles of forearm,over-sensitive and remedies do not act well,1.0,1
+sudden cutting pain in muscles of forearm,in old people or children,1.0,1
+sudden cutting pain in muscles of forearm,emaciated children,1.0,1
+sudden cutting pain in muscles of forearm,rheumatic pains mostly in bones and joints,1.0,1
+sudden cutting pain in muscles of forearm,drawing and tearing pain in whole arm,1.0,1
+sudden cutting pain in muscles of forearm,seat worms,1.0,1
+sudden cutting pain in muscles of forearm,polypi of mucous surfaces,1.0,1
+better morning,pain as if a nail had grown into flesh of right great toe,1.0,1
+better morning,ingrowing toe nails,1.0,1
+better morning,tingling and feeling as if the part were going to sleep when sitting,1.0,1
+better morning,rheumatic lameness of upper arm as far as elbow,1.0,1
+better morning,over-sensitive and remedies do not act well,1.0,1
+better morning,in old people or children,1.0,1
+better morning,emaciated children,1.0,1
+better morning,sudden cutting pain in muscles of forearm,1.0,1
+better morning,rheumatic pains mostly in bones and joints,1.0,1
+better morning,drawing and tearing pain in whole arm,1.0,1
+better morning,seat worms,1.0,1
+better morning,polypi of mucous surfaces,1.0,1
+ingrowing toe nails,pain as if a nail had grown into flesh of right great toe,1.0,1
+ingrowing toe nails,tingling and feeling as if the part were going to sleep when sitting,1.0,1
+ingrowing toe nails,better morning,1.0,1
+ingrowing toe nails,rheumatic lameness of upper arm as far as elbow,1.0,1
+ingrowing toe nails,over-sensitive and remedies do not act well,1.0,1
+ingrowing toe nails,in old people or children,1.0,1
+ingrowing toe nails,emaciated children,1.0,1
+ingrowing toe nails,sudden cutting pain in muscles of forearm,1.0,1
+ingrowing toe nails,rheumatic pains mostly in bones and joints,1.0,1
+ingrowing toe nails,drawing and tearing pain in whole arm,1.0,1
+ingrowing toe nails,seat worms,1.0,1
+ingrowing toe nails,polypi of mucous surfaces,1.0,1
+rheumatic pains mostly in bones and joints,pain as if a nail had grown into flesh of right great toe,1.0,1
+rheumatic pains mostly in bones and joints,ingrowing toe nails,1.0,1
+rheumatic pains mostly in bones and joints,tingling and feeling as if the part were going to sleep when sitting,1.0,1
+rheumatic pains mostly in bones and joints,better morning,1.0,1
+rheumatic pains mostly in bones and joints,rheumatic lameness of upper arm as far as elbow,1.0,1
+rheumatic pains mostly in bones and joints,over-sensitive and remedies do not act well,1.0,1
+rheumatic pains mostly in bones and joints,in old people or children,1.0,1
+rheumatic pains mostly in bones and joints,emaciated children,1.0,1
+rheumatic pains mostly in bones and joints,sudden cutting pain in muscles of forearm,1.0,1
+rheumatic pains mostly in bones and joints,drawing and tearing pain in whole arm,1.0,1
+rheumatic pains mostly in bones and joints,seat worms,1.0,1
+rheumatic pains mostly in bones and joints,polypi of mucous surfaces,1.0,1
+rheumatic lameness of upper arm as far as elbow,pain as if a nail had grown into flesh of right great toe,1.0,1
+rheumatic lameness of upper arm as far as elbow,ingrowing toe nails,1.0,1
+rheumatic lameness of upper arm as far as elbow,tingling and feeling as if the part were going to sleep when sitting,1.0,1
+rheumatic lameness of upper arm as far as elbow,better morning,1.0,1
+rheumatic lameness of upper arm as far as elbow,over-sensitive and remedies do not act well,1.0,1
+rheumatic lameness of upper arm as far as elbow,in old people or children,1.0,1
+rheumatic lameness of upper arm as far as elbow,emaciated children,1.0,1
+rheumatic lameness of upper arm as far as elbow,sudden cutting pain in muscles of forearm,1.0,1
+rheumatic lameness of upper arm as far as elbow,rheumatic pains mostly in bones and joints,1.0,1
+rheumatic lameness of upper arm as far as elbow,drawing and tearing pain in whole arm,1.0,1
+rheumatic lameness of upper arm as far as elbow,seat worms,1.0,1
+rheumatic lameness of upper arm as far as elbow,polypi of mucous surfaces,1.0,1

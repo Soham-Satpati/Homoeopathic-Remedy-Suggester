@@ -1,0 +1,793 @@
+### Cluster 3 — Symptoms (28)
+Symptom,Frequency
+aching,1
+dull aching,1
+sharp shooting pains in inner side of forearm,1
+syphilis,1
+itching on exposure to cold air,1
+sycotic origin,1
+pulsating,1
+aching pains in right leg,1
+pains in right elbow,1
+sharp shooting pains from middle third of humerus to fingers,1
+much pain,1
+sharp shooting pains in upper third of forearm,1
+sharp shooting pains in both arms,1
+mercurialization,1
+extending across the face,1
+periosteal affections of the malar bones,1
+affections of the larynx,1
+very large rheumatic node on the olecranon,1
+distressing aching in long bones,1
+itching of the skin on extremities,1
+distressing aching with nodes,1
+hoarseness,1
+pains in left lower anterior third of leg,1
+gonorrheal origin,1
+much soreness,1
+pains in right leg,1
+periostitis with rheumatic nodes on tibia,1
+chronic periosteal rheumatic states,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+stillingia,28
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+dull aching,aching,1.0,1
+dull aching,sharp shooting pains in inner side of forearm,1.0,1
+dull aching,syphilis,1.0,1
+dull aching,itching on exposure to cold air,1.0,1
+dull aching,sycotic origin,1.0,1
+dull aching,pulsating,1.0,1
+dull aching,aching pains in right leg,1.0,1
+dull aching,pains in right elbow,1.0,1
+dull aching,sharp shooting pains from middle third of humerus to fingers,1.0,1
+dull aching,much pain,1.0,1
+dull aching,sharp shooting pains in upper third of forearm,1.0,1
+dull aching,sharp shooting pains in both arms,1.0,1
+dull aching,mercurialization,1.0,1
+dull aching,extending across the face,1.0,1
+dull aching,periosteal affections of the malar bones,1.0,1
+dull aching,affections of the larynx,1.0,1
+dull aching,very large rheumatic node on the olecranon,1.0,1
+dull aching,distressing aching in long bones,1.0,1
+dull aching,itching of the skin on extremities,1.0,1
+dull aching,distressing aching with nodes,1.0,1
+dull aching,hoarseness,1.0,1
+dull aching,pains in left lower anterior third of leg,1.0,1
+dull aching,gonorrheal origin,1.0,1
+dull aching,much soreness,1.0,1
+dull aching,pains in right leg,1.0,1
+dull aching,periostitis with rheumatic nodes on tibia,1.0,1
+dull aching,chronic periosteal rheumatic states,1.0,1
+gonorrheal origin,aching,1.0,1
+gonorrheal origin,dull aching,1.0,1
+gonorrheal origin,sharp shooting pains in inner side of forearm,1.0,1
+gonorrheal origin,syphilis,1.0,1
+gonorrheal origin,itching on exposure to cold air,1.0,1
+gonorrheal origin,sycotic origin,1.0,1
+gonorrheal origin,pulsating,1.0,1
+gonorrheal origin,aching pains in right leg,1.0,1
+gonorrheal origin,pains in right elbow,1.0,1
+gonorrheal origin,sharp shooting pains from middle third of humerus to fingers,1.0,1
+gonorrheal origin,much pain,1.0,1
+gonorrheal origin,sharp shooting pains in upper third of forearm,1.0,1
+gonorrheal origin,sharp shooting pains in both arms,1.0,1
+gonorrheal origin,mercurialization,1.0,1
+gonorrheal origin,extending across the face,1.0,1
+gonorrheal origin,periosteal affections of the malar bones,1.0,1
+gonorrheal origin,affections of the larynx,1.0,1
+gonorrheal origin,very large rheumatic node on the olecranon,1.0,1
+gonorrheal origin,distressing aching in long bones,1.0,1
+gonorrheal origin,itching of the skin on extremities,1.0,1
+gonorrheal origin,distressing aching with nodes,1.0,1
+gonorrheal origin,hoarseness,1.0,1
+gonorrheal origin,pains in left lower anterior third of leg,1.0,1
+gonorrheal origin,much soreness,1.0,1
+gonorrheal origin,pains in right leg,1.0,1
+gonorrheal origin,periostitis with rheumatic nodes on tibia,1.0,1
+gonorrheal origin,chronic periosteal rheumatic states,1.0,1
+pains in left lower anterior third of leg,aching,1.0,1
+pains in left lower anterior third of leg,dull aching,1.0,1
+pains in left lower anterior third of leg,sharp shooting pains in inner side of forearm,1.0,1
+pains in left lower anterior third of leg,syphilis,1.0,1
+pains in left lower anterior third of leg,itching on exposure to cold air,1.0,1
+pains in left lower anterior third of leg,sycotic origin,1.0,1
+pains in left lower anterior third of leg,pulsating,1.0,1
+pains in left lower anterior third of leg,aching pains in right leg,1.0,1
+pains in left lower anterior third of leg,pains in right elbow,1.0,1
+pains in left lower anterior third of leg,sharp shooting pains from middle third of humerus to fingers,1.0,1
+pains in left lower anterior third of leg,much pain,1.0,1
+pains in left lower anterior third of leg,sharp shooting pains in upper third of forearm,1.0,1
+pains in left lower anterior third of leg,sharp shooting pains in both arms,1.0,1
+pains in left lower anterior third of leg,mercurialization,1.0,1
+pains in left lower anterior third of leg,extending across the face,1.0,1
+pains in left lower anterior third of leg,periosteal affections of the malar bones,1.0,1
+pains in left lower anterior third of leg,affections of the larynx,1.0,1
+pains in left lower anterior third of leg,very large rheumatic node on the olecranon,1.0,1
+pains in left lower anterior third of leg,distressing aching in long bones,1.0,1
+pains in left lower anterior third of leg,itching of the skin on extremities,1.0,1
+pains in left lower anterior third of leg,distressing aching with nodes,1.0,1
+pains in left lower anterior third of leg,hoarseness,1.0,1
+pains in left lower anterior third of leg,gonorrheal origin,1.0,1
+pains in left lower anterior third of leg,much soreness,1.0,1
+pains in left lower anterior third of leg,pains in right leg,1.0,1
+pains in left lower anterior third of leg,periostitis with rheumatic nodes on tibia,1.0,1
+pains in left lower anterior third of leg,chronic periosteal rheumatic states,1.0,1
+extending across the face,aching,1.0,1
+extending across the face,dull aching,1.0,1
+extending across the face,sharp shooting pains in inner side of forearm,1.0,1
+extending across the face,syphilis,1.0,1
+extending across the face,itching on exposure to cold air,1.0,1
+extending across the face,sycotic origin,1.0,1
+extending across the face,pulsating,1.0,1
+extending across the face,aching pains in right leg,1.0,1
+extending across the face,pains in right elbow,1.0,1
+extending across the face,sharp shooting pains from middle third of humerus to fingers,1.0,1
+extending across the face,much pain,1.0,1
+extending across the face,sharp shooting pains in upper third of forearm,1.0,1
+extending across the face,sharp shooting pains in both arms,1.0,1
+extending across the face,mercurialization,1.0,1
+extending across the face,periosteal affections of the malar bones,1.0,1
+extending across the face,affections of the larynx,1.0,1
+extending across the face,very large rheumatic node on the olecranon,1.0,1
+extending across the face,distressing aching in long bones,1.0,1
+extending across the face,itching of the skin on extremities,1.0,1
+extending across the face,distressing aching with nodes,1.0,1
+extending across the face,hoarseness,1.0,1
+extending across the face,pains in left lower anterior third of leg,1.0,1
+extending across the face,gonorrheal origin,1.0,1
+extending across the face,much soreness,1.0,1
+extending across the face,pains in right leg,1.0,1
+extending across the face,periostitis with rheumatic nodes on tibia,1.0,1
+extending across the face,chronic periosteal rheumatic states,1.0,1
+distressing aching with nodes,aching,1.0,1
+distressing aching with nodes,dull aching,1.0,1
+distressing aching with nodes,sharp shooting pains in inner side of forearm,1.0,1
+distressing aching with nodes,syphilis,1.0,1
+distressing aching with nodes,itching on exposure to cold air,1.0,1
+distressing aching with nodes,sycotic origin,1.0,1
+distressing aching with nodes,pulsating,1.0,1
+distressing aching with nodes,aching pains in right leg,1.0,1
+distressing aching with nodes,pains in right elbow,1.0,1
+distressing aching with nodes,sharp shooting pains from middle third of humerus to fingers,1.0,1
+distressing aching with nodes,much pain,1.0,1
+distressing aching with nodes,sharp shooting pains in upper third of forearm,1.0,1
+distressing aching with nodes,sharp shooting pains in both arms,1.0,1
+distressing aching with nodes,mercurialization,1.0,1
+distressing aching with nodes,extending across the face,1.0,1
+distressing aching with nodes,periosteal affections of the malar bones,1.0,1
+distressing aching with nodes,affections of the larynx,1.0,1
+distressing aching with nodes,very large rheumatic node on the olecranon,1.0,1
+distressing aching with nodes,distressing aching in long bones,1.0,1
+distressing aching with nodes,itching of the skin on extremities,1.0,1
+distressing aching with nodes,hoarseness,1.0,1
+distressing aching with nodes,pains in left lower anterior third of leg,1.0,1
+distressing aching with nodes,gonorrheal origin,1.0,1
+distressing aching with nodes,much soreness,1.0,1
+distressing aching with nodes,pains in right leg,1.0,1
+distressing aching with nodes,periostitis with rheumatic nodes on tibia,1.0,1
+distressing aching with nodes,chronic periosteal rheumatic states,1.0,1
+itching on exposure to cold air,aching,1.0,1
+itching on exposure to cold air,dull aching,1.0,1
+itching on exposure to cold air,sharp shooting pains in inner side of forearm,1.0,1
+itching on exposure to cold air,syphilis,1.0,1
+itching on exposure to cold air,sycotic origin,1.0,1
+itching on exposure to cold air,pulsating,1.0,1
+itching on exposure to cold air,aching pains in right leg,1.0,1
+itching on exposure to cold air,pains in right elbow,1.0,1
+itching on exposure to cold air,sharp shooting pains from middle third of humerus to fingers,1.0,1
+itching on exposure to cold air,much pain,1.0,1
+itching on exposure to cold air,sharp shooting pains in upper third of forearm,1.0,1
+itching on exposure to cold air,sharp shooting pains in both arms,1.0,1
+itching on exposure to cold air,mercurialization,1.0,1
+itching on exposure to cold air,extending across the face,1.0,1
+itching on exposure to cold air,periosteal affections of the malar bones,1.0,1
+itching on exposure to cold air,affections of the larynx,1.0,1
+itching on exposure to cold air,very large rheumatic node on the olecranon,1.0,1
+itching on exposure to cold air,distressing aching in long bones,1.0,1
+itching on exposure to cold air,itching of the skin on extremities,1.0,1
+itching on exposure to cold air,distressing aching with nodes,1.0,1
+itching on exposure to cold air,hoarseness,1.0,1
+itching on exposure to cold air,pains in left lower anterior third of leg,1.0,1
+itching on exposure to cold air,gonorrheal origin,1.0,1
+itching on exposure to cold air,much soreness,1.0,1
+itching on exposure to cold air,pains in right leg,1.0,1
+itching on exposure to cold air,periostitis with rheumatic nodes on tibia,1.0,1
+itching on exposure to cold air,chronic periosteal rheumatic states,1.0,1
+aching,dull aching,1.0,1
+aching,sharp shooting pains in inner side of forearm,1.0,1
+aching,syphilis,1.0,1
+aching,itching on exposure to cold air,1.0,1
+aching,sycotic origin,1.0,1
+aching,pulsating,1.0,1
+aching,aching pains in right leg,1.0,1
+aching,pains in right elbow,1.0,1
+aching,sharp shooting pains from middle third of humerus to fingers,1.0,1
+aching,much pain,1.0,1
+aching,sharp shooting pains in upper third of forearm,1.0,1
+aching,sharp shooting pains in both arms,1.0,1
+aching,mercurialization,1.0,1
+aching,extending across the face,1.0,1
+aching,periosteal affections of the malar bones,1.0,1
+aching,affections of the larynx,1.0,1
+aching,very large rheumatic node on the olecranon,1.0,1
+aching,distressing aching in long bones,1.0,1
+aching,itching of the skin on extremities,1.0,1
+aching,distressing aching with nodes,1.0,1
+aching,hoarseness,1.0,1
+aching,pains in left lower anterior third of leg,1.0,1
+aching,gonorrheal origin,1.0,1
+aching,much soreness,1.0,1
+aching,pains in right leg,1.0,1
+aching,periostitis with rheumatic nodes on tibia,1.0,1
+aching,chronic periosteal rheumatic states,1.0,1
+distressing aching in long bones,aching,1.0,1
+distressing aching in long bones,dull aching,1.0,1
+distressing aching in long bones,sharp shooting pains in inner side of forearm,1.0,1
+distressing aching in long bones,syphilis,1.0,1
+distressing aching in long bones,itching on exposure to cold air,1.0,1
+distressing aching in long bones,sycotic origin,1.0,1
+distressing aching in long bones,pulsating,1.0,1
+distressing aching in long bones,aching pains in right leg,1.0,1
+distressing aching in long bones,pains in right elbow,1.0,1
+distressing aching in long bones,sharp shooting pains from middle third of humerus to fingers,1.0,1
+distressing aching in long bones,much pain,1.0,1
+distressing aching in long bones,sharp shooting pains in upper third of forearm,1.0,1
+distressing aching in long bones,sharp shooting pains in both arms,1.0,1
+distressing aching in long bones,mercurialization,1.0,1
+distressing aching in long bones,extending across the face,1.0,1
+distressing aching in long bones,periosteal affections of the malar bones,1.0,1
+distressing aching in long bones,affections of the larynx,1.0,1
+distressing aching in long bones,very large rheumatic node on the olecranon,1.0,1
+distressing aching in long bones,itching of the skin on extremities,1.0,1
+distressing aching in long bones,distressing aching with nodes,1.0,1
+distressing aching in long bones,hoarseness,1.0,1
+distressing aching in long bones,pains in left lower anterior third of leg,1.0,1
+distressing aching in long bones,gonorrheal origin,1.0,1
+distressing aching in long bones,much soreness,1.0,1
+distressing aching in long bones,pains in right leg,1.0,1
+distressing aching in long bones,periostitis with rheumatic nodes on tibia,1.0,1
+distressing aching in long bones,chronic periosteal rheumatic states,1.0,1
+very large rheumatic node on the olecranon,aching,1.0,1
+very large rheumatic node on the olecranon,dull aching,1.0,1
+very large rheumatic node on the olecranon,sharp shooting pains in inner side of forearm,1.0,1
+very large rheumatic node on the olecranon,syphilis,1.0,1
+very large rheumatic node on the olecranon,itching on exposure to cold air,1.0,1
+very large rheumatic node on the olecranon,sycotic origin,1.0,1
+very large rheumatic node on the olecranon,pulsating,1.0,1
+very large rheumatic node on the olecranon,aching pains in right leg,1.0,1
+very large rheumatic node on the olecranon,pains in right elbow,1.0,1
+very large rheumatic node on the olecranon,sharp shooting pains from middle third of humerus to fingers,1.0,1
+very large rheumatic node on the olecranon,much pain,1.0,1
+very large rheumatic node on the olecranon,sharp shooting pains in upper third of forearm,1.0,1
+very large rheumatic node on the olecranon,sharp shooting pains in both arms,1.0,1
+very large rheumatic node on the olecranon,mercurialization,1.0,1
+very large rheumatic node on the olecranon,extending across the face,1.0,1
+very large rheumatic node on the olecranon,periosteal affections of the malar bones,1.0,1
+very large rheumatic node on the olecranon,affections of the larynx,1.0,1
+very large rheumatic node on the olecranon,distressing aching in long bones,1.0,1
+very large rheumatic node on the olecranon,itching of the skin on extremities,1.0,1
+very large rheumatic node on the olecranon,distressing aching with nodes,1.0,1
+very large rheumatic node on the olecranon,hoarseness,1.0,1
+very large rheumatic node on the olecranon,pains in left lower anterior third of leg,1.0,1
+very large rheumatic node on the olecranon,gonorrheal origin,1.0,1
+very large rheumatic node on the olecranon,much soreness,1.0,1
+very large rheumatic node on the olecranon,pains in right leg,1.0,1
+very large rheumatic node on the olecranon,periostitis with rheumatic nodes on tibia,1.0,1
+very large rheumatic node on the olecranon,chronic periosteal rheumatic states,1.0,1
+affections of the larynx,aching,1.0,1
+affections of the larynx,dull aching,1.0,1
+affections of the larynx,sharp shooting pains in inner side of forearm,1.0,1
+affections of the larynx,syphilis,1.0,1
+affections of the larynx,itching on exposure to cold air,1.0,1
+affections of the larynx,sycotic origin,1.0,1
+affections of the larynx,pulsating,1.0,1
+affections of the larynx,aching pains in right leg,1.0,1
+affections of the larynx,pains in right elbow,1.0,1
+affections of the larynx,sharp shooting pains from middle third of humerus to fingers,1.0,1
+affections of the larynx,much pain,1.0,1
+affections of the larynx,sharp shooting pains in upper third of forearm,1.0,1
+affections of the larynx,sharp shooting pains in both arms,1.0,1
+affections of the larynx,mercurialization,1.0,1
+affections of the larynx,extending across the face,1.0,1
+affections of the larynx,periosteal affections of the malar bones,1.0,1
+affections of the larynx,very large rheumatic node on the olecranon,1.0,1
+affections of the larynx,distressing aching in long bones,1.0,1
+affections of the larynx,itching of the skin on extremities,1.0,1
+affections of the larynx,distressing aching with nodes,1.0,1
+affections of the larynx,hoarseness,1.0,1
+affections of the larynx,pains in left lower anterior third of leg,1.0,1
+affections of the larynx,gonorrheal origin,1.0,1
+affections of the larynx,much soreness,1.0,1
+affections of the larynx,pains in right leg,1.0,1
+affections of the larynx,periostitis with rheumatic nodes on tibia,1.0,1
+affections of the larynx,chronic periosteal rheumatic states,1.0,1
+chronic periosteal rheumatic states,aching,1.0,1
+chronic periosteal rheumatic states,dull aching,1.0,1
+chronic periosteal rheumatic states,sharp shooting pains in inner side of forearm,1.0,1
+chronic periosteal rheumatic states,syphilis,1.0,1
+chronic periosteal rheumatic states,itching on exposure to cold air,1.0,1
+chronic periosteal rheumatic states,sycotic origin,1.0,1
+chronic periosteal rheumatic states,pulsating,1.0,1
+chronic periosteal rheumatic states,aching pains in right leg,1.0,1
+chronic periosteal rheumatic states,pains in right elbow,1.0,1
+chronic periosteal rheumatic states,sharp shooting pains from middle third of humerus to fingers,1.0,1
+chronic periosteal rheumatic states,much pain,1.0,1
+chronic periosteal rheumatic states,sharp shooting pains in upper third of forearm,1.0,1
+chronic periosteal rheumatic states,sharp shooting pains in both arms,1.0,1
+chronic periosteal rheumatic states,mercurialization,1.0,1
+chronic periosteal rheumatic states,extending across the face,1.0,1
+chronic periosteal rheumatic states,periosteal affections of the malar bones,1.0,1
+chronic periosteal rheumatic states,affections of the larynx,1.0,1
+chronic periosteal rheumatic states,very large rheumatic node on the olecranon,1.0,1
+chronic periosteal rheumatic states,distressing aching in long bones,1.0,1
+chronic periosteal rheumatic states,itching of the skin on extremities,1.0,1
+chronic periosteal rheumatic states,distressing aching with nodes,1.0,1
+chronic periosteal rheumatic states,hoarseness,1.0,1
+chronic periosteal rheumatic states,pains in left lower anterior third of leg,1.0,1
+chronic periosteal rheumatic states,gonorrheal origin,1.0,1
+chronic periosteal rheumatic states,much soreness,1.0,1
+chronic periosteal rheumatic states,pains in right leg,1.0,1
+chronic periosteal rheumatic states,periostitis with rheumatic nodes on tibia,1.0,1
+sharp shooting pains in both arms,aching,1.0,1
+sharp shooting pains in both arms,dull aching,1.0,1
+sharp shooting pains in both arms,sharp shooting pains in inner side of forearm,1.0,1
+sharp shooting pains in both arms,syphilis,1.0,1
+sharp shooting pains in both arms,itching on exposure to cold air,1.0,1
+sharp shooting pains in both arms,sycotic origin,1.0,1
+sharp shooting pains in both arms,pulsating,1.0,1
+sharp shooting pains in both arms,aching pains in right leg,1.0,1
+sharp shooting pains in both arms,pains in right elbow,1.0,1
+sharp shooting pains in both arms,sharp shooting pains from middle third of humerus to fingers,1.0,1
+sharp shooting pains in both arms,much pain,1.0,1
+sharp shooting pains in both arms,sharp shooting pains in upper third of forearm,1.0,1
+sharp shooting pains in both arms,mercurialization,1.0,1
+sharp shooting pains in both arms,extending across the face,1.0,1
+sharp shooting pains in both arms,periosteal affections of the malar bones,1.0,1
+sharp shooting pains in both arms,affections of the larynx,1.0,1
+sharp shooting pains in both arms,very large rheumatic node on the olecranon,1.0,1
+sharp shooting pains in both arms,distressing aching in long bones,1.0,1
+sharp shooting pains in both arms,itching of the skin on extremities,1.0,1
+sharp shooting pains in both arms,distressing aching with nodes,1.0,1
+sharp shooting pains in both arms,hoarseness,1.0,1
+sharp shooting pains in both arms,pains in left lower anterior third of leg,1.0,1
+sharp shooting pains in both arms,gonorrheal origin,1.0,1
+sharp shooting pains in both arms,much soreness,1.0,1
+sharp shooting pains in both arms,pains in right leg,1.0,1
+sharp shooting pains in both arms,periostitis with rheumatic nodes on tibia,1.0,1
+sharp shooting pains in both arms,chronic periosteal rheumatic states,1.0,1
+much pain,aching,1.0,1
+much pain,dull aching,1.0,1
+much pain,sharp shooting pains in inner side of forearm,1.0,1
+much pain,syphilis,1.0,1
+much pain,itching on exposure to cold air,1.0,1
+much pain,sycotic origin,1.0,1
+much pain,pulsating,1.0,1
+much pain,aching pains in right leg,1.0,1
+much pain,pains in right elbow,1.0,1
+much pain,sharp shooting pains from middle third of humerus to fingers,1.0,1
+much pain,sharp shooting pains in upper third of forearm,1.0,1
+much pain,sharp shooting pains in both arms,1.0,1
+much pain,mercurialization,1.0,1
+much pain,extending across the face,1.0,1
+much pain,periosteal affections of the malar bones,1.0,1
+much pain,affections of the larynx,1.0,1
+much pain,very large rheumatic node on the olecranon,1.0,1
+much pain,distressing aching in long bones,1.0,1
+much pain,itching of the skin on extremities,1.0,1
+much pain,distressing aching with nodes,1.0,1
+much pain,hoarseness,1.0,1
+much pain,pains in left lower anterior third of leg,1.0,1
+much pain,gonorrheal origin,1.0,1
+much pain,much soreness,1.0,1
+much pain,pains in right leg,1.0,1
+much pain,periostitis with rheumatic nodes on tibia,1.0,1
+much pain,chronic periosteal rheumatic states,1.0,1
+sharp shooting pains in upper third of forearm,aching,1.0,1
+sharp shooting pains in upper third of forearm,dull aching,1.0,1
+sharp shooting pains in upper third of forearm,sharp shooting pains in inner side of forearm,1.0,1
+sharp shooting pains in upper third of forearm,syphilis,1.0,1
+sharp shooting pains in upper third of forearm,itching on exposure to cold air,1.0,1
+sharp shooting pains in upper third of forearm,sycotic origin,1.0,1
+sharp shooting pains in upper third of forearm,pulsating,1.0,1
+sharp shooting pains in upper third of forearm,aching pains in right leg,1.0,1
+sharp shooting pains in upper third of forearm,pains in right elbow,1.0,1
+sharp shooting pains in upper third of forearm,sharp shooting pains from middle third of humerus to fingers,1.0,1
+sharp shooting pains in upper third of forearm,much pain,1.0,1
+sharp shooting pains in upper third of forearm,sharp shooting pains in both arms,1.0,1
+sharp shooting pains in upper third of forearm,mercurialization,1.0,1
+sharp shooting pains in upper third of forearm,extending across the face,1.0,1
+sharp shooting pains in upper third of forearm,periosteal affections of the malar bones,1.0,1
+sharp shooting pains in upper third of forearm,affections of the larynx,1.0,1
+sharp shooting pains in upper third of forearm,very large rheumatic node on the olecranon,1.0,1
+sharp shooting pains in upper third of forearm,distressing aching in long bones,1.0,1
+sharp shooting pains in upper third of forearm,itching of the skin on extremities,1.0,1
+sharp shooting pains in upper third of forearm,distressing aching with nodes,1.0,1
+sharp shooting pains in upper third of forearm,hoarseness,1.0,1
+sharp shooting pains in upper third of forearm,pains in left lower anterior third of leg,1.0,1
+sharp shooting pains in upper third of forearm,gonorrheal origin,1.0,1
+sharp shooting pains in upper third of forearm,much soreness,1.0,1
+sharp shooting pains in upper third of forearm,pains in right leg,1.0,1
+sharp shooting pains in upper third of forearm,periostitis with rheumatic nodes on tibia,1.0,1
+sharp shooting pains in upper third of forearm,chronic periosteal rheumatic states,1.0,1
+mercurialization,aching,1.0,1
+mercurialization,dull aching,1.0,1
+mercurialization,sharp shooting pains in inner side of forearm,1.0,1
+mercurialization,syphilis,1.0,1
+mercurialization,itching on exposure to cold air,1.0,1
+mercurialization,sycotic origin,1.0,1
+mercurialization,pulsating,1.0,1
+mercurialization,aching pains in right leg,1.0,1
+mercurialization,pains in right elbow,1.0,1
+mercurialization,sharp shooting pains from middle third of humerus to fingers,1.0,1
+mercurialization,much pain,1.0,1
+mercurialization,sharp shooting pains in upper third of forearm,1.0,1
+mercurialization,sharp shooting pains in both arms,1.0,1
+mercurialization,extending across the face,1.0,1
+mercurialization,periosteal affections of the malar bones,1.0,1
+mercurialization,affections of the larynx,1.0,1
+mercurialization,very large rheumatic node on the olecranon,1.0,1
+mercurialization,distressing aching in long bones,1.0,1
+mercurialization,itching of the skin on extremities,1.0,1
+mercurialization,distressing aching with nodes,1.0,1
+mercurialization,hoarseness,1.0,1
+mercurialization,pains in left lower anterior third of leg,1.0,1
+mercurialization,gonorrheal origin,1.0,1
+mercurialization,much soreness,1.0,1
+mercurialization,pains in right leg,1.0,1
+mercurialization,periostitis with rheumatic nodes on tibia,1.0,1
+mercurialization,chronic periosteal rheumatic states,1.0,1
+syphilis,aching,1.0,1
+syphilis,dull aching,1.0,1
+syphilis,sharp shooting pains in inner side of forearm,1.0,1
+syphilis,itching on exposure to cold air,1.0,1
+syphilis,sycotic origin,1.0,1
+syphilis,pulsating,1.0,1
+syphilis,aching pains in right leg,1.0,1
+syphilis,pains in right elbow,1.0,1
+syphilis,sharp shooting pains from middle third of humerus to fingers,1.0,1
+syphilis,much pain,1.0,1
+syphilis,sharp shooting pains in upper third of forearm,1.0,1
+syphilis,sharp shooting pains in both arms,1.0,1
+syphilis,mercurialization,1.0,1
+syphilis,extending across the face,1.0,1
+syphilis,periosteal affections of the malar bones,1.0,1
+syphilis,affections of the larynx,1.0,1
+syphilis,very large rheumatic node on the olecranon,1.0,1
+syphilis,distressing aching in long bones,1.0,1
+syphilis,itching of the skin on extremities,1.0,1
+syphilis,distressing aching with nodes,1.0,1
+syphilis,hoarseness,1.0,1
+syphilis,pains in left lower anterior third of leg,1.0,1
+syphilis,gonorrheal origin,1.0,1
+syphilis,much soreness,1.0,1
+syphilis,pains in right leg,1.0,1
+syphilis,periostitis with rheumatic nodes on tibia,1.0,1
+syphilis,chronic periosteal rheumatic states,1.0,1
+much soreness,aching,1.0,1
+much soreness,dull aching,1.0,1
+much soreness,sharp shooting pains in inner side of forearm,1.0,1
+much soreness,syphilis,1.0,1
+much soreness,itching on exposure to cold air,1.0,1
+much soreness,sycotic origin,1.0,1
+much soreness,pulsating,1.0,1
+much soreness,aching pains in right leg,1.0,1
+much soreness,pains in right elbow,1.0,1
+much soreness,sharp shooting pains from middle third of humerus to fingers,1.0,1
+much soreness,much pain,1.0,1
+much soreness,sharp shooting pains in upper third of forearm,1.0,1
+much soreness,sharp shooting pains in both arms,1.0,1
+much soreness,mercurialization,1.0,1
+much soreness,extending across the face,1.0,1
+much soreness,periosteal affections of the malar bones,1.0,1
+much soreness,affections of the larynx,1.0,1
+much soreness,very large rheumatic node on the olecranon,1.0,1
+much soreness,distressing aching in long bones,1.0,1
+much soreness,itching of the skin on extremities,1.0,1
+much soreness,distressing aching with nodes,1.0,1
+much soreness,hoarseness,1.0,1
+much soreness,pains in left lower anterior third of leg,1.0,1
+much soreness,gonorrheal origin,1.0,1
+much soreness,pains in right leg,1.0,1
+much soreness,periostitis with rheumatic nodes on tibia,1.0,1
+much soreness,chronic periosteal rheumatic states,1.0,1
+aching pains in right leg,aching,1.0,1
+aching pains in right leg,dull aching,1.0,1
+aching pains in right leg,sharp shooting pains in inner side of forearm,1.0,1
+aching pains in right leg,syphilis,1.0,1
+aching pains in right leg,itching on exposure to cold air,1.0,1
+aching pains in right leg,sycotic origin,1.0,1
+aching pains in right leg,pulsating,1.0,1
+aching pains in right leg,pains in right elbow,1.0,1
+aching pains in right leg,sharp shooting pains from middle third of humerus to fingers,1.0,1
+aching pains in right leg,much pain,1.0,1
+aching pains in right leg,sharp shooting pains in upper third of forearm,1.0,1
+aching pains in right leg,sharp shooting pains in both arms,1.0,1
+aching pains in right leg,mercurialization,1.0,1
+aching pains in right leg,extending across the face,1.0,1
+aching pains in right leg,periosteal affections of the malar bones,1.0,1
+aching pains in right leg,affections of the larynx,1.0,1
+aching pains in right leg,very large rheumatic node on the olecranon,1.0,1
+aching pains in right leg,distressing aching in long bones,1.0,1
+aching pains in right leg,itching of the skin on extremities,1.0,1
+aching pains in right leg,distressing aching with nodes,1.0,1
+aching pains in right leg,hoarseness,1.0,1
+aching pains in right leg,pains in left lower anterior third of leg,1.0,1
+aching pains in right leg,gonorrheal origin,1.0,1
+aching pains in right leg,much soreness,1.0,1
+aching pains in right leg,pains in right leg,1.0,1
+aching pains in right leg,periostitis with rheumatic nodes on tibia,1.0,1
+aching pains in right leg,chronic periosteal rheumatic states,1.0,1
+periosteal affections of the malar bones,aching,1.0,1
+periosteal affections of the malar bones,dull aching,1.0,1
+periosteal affections of the malar bones,sharp shooting pains in inner side of forearm,1.0,1
+periosteal affections of the malar bones,syphilis,1.0,1
+periosteal affections of the malar bones,itching on exposure to cold air,1.0,1
+periosteal affections of the malar bones,sycotic origin,1.0,1
+periosteal affections of the malar bones,pulsating,1.0,1
+periosteal affections of the malar bones,aching pains in right leg,1.0,1
+periosteal affections of the malar bones,pains in right elbow,1.0,1
+periosteal affections of the malar bones,sharp shooting pains from middle third of humerus to fingers,1.0,1
+periosteal affections of the malar bones,much pain,1.0,1
+periosteal affections of the malar bones,sharp shooting pains in upper third of forearm,1.0,1
+periosteal affections of the malar bones,sharp shooting pains in both arms,1.0,1
+periosteal affections of the malar bones,mercurialization,1.0,1
+periosteal affections of the malar bones,extending across the face,1.0,1
+periosteal affections of the malar bones,affections of the larynx,1.0,1
+periosteal affections of the malar bones,very large rheumatic node on the olecranon,1.0,1
+periosteal affections of the malar bones,distressing aching in long bones,1.0,1
+periosteal affections of the malar bones,itching of the skin on extremities,1.0,1
+periosteal affections of the malar bones,distressing aching with nodes,1.0,1
+periosteal affections of the malar bones,hoarseness,1.0,1
+periosteal affections of the malar bones,pains in left lower anterior third of leg,1.0,1
+periosteal affections of the malar bones,gonorrheal origin,1.0,1
+periosteal affections of the malar bones,much soreness,1.0,1
+periosteal affections of the malar bones,pains in right leg,1.0,1
+periosteal affections of the malar bones,periostitis with rheumatic nodes on tibia,1.0,1
+periosteal affections of the malar bones,chronic periosteal rheumatic states,1.0,1
+sycotic origin,aching,1.0,1
+sycotic origin,dull aching,1.0,1
+sycotic origin,sharp shooting pains in inner side of forearm,1.0,1
+sycotic origin,syphilis,1.0,1
+sycotic origin,itching on exposure to cold air,1.0,1
+sycotic origin,pulsating,1.0,1
+sycotic origin,aching pains in right leg,1.0,1
+sycotic origin,pains in right elbow,1.0,1
+sycotic origin,sharp shooting pains from middle third of humerus to fingers,1.0,1
+sycotic origin,much pain,1.0,1
+sycotic origin,sharp shooting pains in upper third of forearm,1.0,1
+sycotic origin,sharp shooting pains in both arms,1.0,1
+sycotic origin,mercurialization,1.0,1
+sycotic origin,extending across the face,1.0,1
+sycotic origin,periosteal affections of the malar bones,1.0,1
+sycotic origin,affections of the larynx,1.0,1
+sycotic origin,very large rheumatic node on the olecranon,1.0,1
+sycotic origin,distressing aching in long bones,1.0,1
+sycotic origin,itching of the skin on extremities,1.0,1
+sycotic origin,distressing aching with nodes,1.0,1
+sycotic origin,hoarseness,1.0,1
+sycotic origin,pains in left lower anterior third of leg,1.0,1
+sycotic origin,gonorrheal origin,1.0,1
+sycotic origin,much soreness,1.0,1
+sycotic origin,pains in right leg,1.0,1
+sycotic origin,periostitis with rheumatic nodes on tibia,1.0,1
+sycotic origin,chronic periosteal rheumatic states,1.0,1
+pulsating,aching,1.0,1
+pulsating,dull aching,1.0,1
+pulsating,sharp shooting pains in inner side of forearm,1.0,1
+pulsating,syphilis,1.0,1
+pulsating,itching on exposure to cold air,1.0,1
+pulsating,sycotic origin,1.0,1
+pulsating,aching pains in right leg,1.0,1
+pulsating,pains in right elbow,1.0,1
+pulsating,sharp shooting pains from middle third of humerus to fingers,1.0,1
+pulsating,much pain,1.0,1
+pulsating,sharp shooting pains in upper third of forearm,1.0,1
+pulsating,sharp shooting pains in both arms,1.0,1
+pulsating,mercurialization,1.0,1
+pulsating,extending across the face,1.0,1
+pulsating,periosteal affections of the malar bones,1.0,1
+pulsating,affections of the larynx,1.0,1
+pulsating,very large rheumatic node on the olecranon,1.0,1
+pulsating,distressing aching in long bones,1.0,1
+pulsating,itching of the skin on extremities,1.0,1
+pulsating,distressing aching with nodes,1.0,1
+pulsating,hoarseness,1.0,1
+pulsating,pains in left lower anterior third of leg,1.0,1
+pulsating,gonorrheal origin,1.0,1
+pulsating,much soreness,1.0,1
+pulsating,pains in right leg,1.0,1
+pulsating,periostitis with rheumatic nodes on tibia,1.0,1
+pulsating,chronic periosteal rheumatic states,1.0,1
+sharp shooting pains in inner side of forearm,aching,1.0,1
+sharp shooting pains in inner side of forearm,dull aching,1.0,1
+sharp shooting pains in inner side of forearm,syphilis,1.0,1
+sharp shooting pains in inner side of forearm,itching on exposure to cold air,1.0,1
+sharp shooting pains in inner side of forearm,sycotic origin,1.0,1
+sharp shooting pains in inner side of forearm,pulsating,1.0,1
+sharp shooting pains in inner side of forearm,aching pains in right leg,1.0,1
+sharp shooting pains in inner side of forearm,pains in right elbow,1.0,1
+sharp shooting pains in inner side of forearm,sharp shooting pains from middle third of humerus to fingers,1.0,1
+sharp shooting pains in inner side of forearm,much pain,1.0,1
+sharp shooting pains in inner side of forearm,sharp shooting pains in upper third of forearm,1.0,1
+sharp shooting pains in inner side of forearm,sharp shooting pains in both arms,1.0,1
+sharp shooting pains in inner side of forearm,mercurialization,1.0,1
+sharp shooting pains in inner side of forearm,extending across the face,1.0,1
+sharp shooting pains in inner side of forearm,periosteal affections of the malar bones,1.0,1
+sharp shooting pains in inner side of forearm,affections of the larynx,1.0,1
+sharp shooting pains in inner side of forearm,very large rheumatic node on the olecranon,1.0,1
+sharp shooting pains in inner side of forearm,distressing aching in long bones,1.0,1
+sharp shooting pains in inner side of forearm,itching of the skin on extremities,1.0,1
+sharp shooting pains in inner side of forearm,distressing aching with nodes,1.0,1
+sharp shooting pains in inner side of forearm,hoarseness,1.0,1
+sharp shooting pains in inner side of forearm,pains in left lower anterior third of leg,1.0,1
+sharp shooting pains in inner side of forearm,gonorrheal origin,1.0,1
+sharp shooting pains in inner side of forearm,much soreness,1.0,1
+sharp shooting pains in inner side of forearm,pains in right leg,1.0,1
+sharp shooting pains in inner side of forearm,periostitis with rheumatic nodes on tibia,1.0,1
+sharp shooting pains in inner side of forearm,chronic periosteal rheumatic states,1.0,1
+pains in right elbow,aching,1.0,1
+pains in right elbow,dull aching,1.0,1
+pains in right elbow,sharp shooting pains in inner side of forearm,1.0,1
+pains in right elbow,syphilis,1.0,1
+pains in right elbow,itching on exposure to cold air,1.0,1
+pains in right elbow,sycotic origin,1.0,1
+pains in right elbow,pulsating,1.0,1
+pains in right elbow,aching pains in right leg,1.0,1
+pains in right elbow,sharp shooting pains from middle third of humerus to fingers,1.0,1
+pains in right elbow,much pain,1.0,1
+pains in right elbow,sharp shooting pains in upper third of forearm,1.0,1
+pains in right elbow,sharp shooting pains in both arms,1.0,1
+pains in right elbow,mercurialization,1.0,1
+pains in right elbow,extending across the face,1.0,1
+pains in right elbow,periosteal affections of the malar bones,1.0,1
+pains in right elbow,affections of the larynx,1.0,1
+pains in right elbow,very large rheumatic node on the olecranon,1.0,1
+pains in right elbow,distressing aching in long bones,1.0,1
+pains in right elbow,itching of the skin on extremities,1.0,1
+pains in right elbow,distressing aching with nodes,1.0,1
+pains in right elbow,hoarseness,1.0,1
+pains in right elbow,pains in left lower anterior third of leg,1.0,1
+pains in right elbow,gonorrheal origin,1.0,1
+pains in right elbow,much soreness,1.0,1
+pains in right elbow,pains in right leg,1.0,1
+pains in right elbow,periostitis with rheumatic nodes on tibia,1.0,1
+pains in right elbow,chronic periosteal rheumatic states,1.0,1
+sharp shooting pains from middle third of humerus to fingers,aching,1.0,1
+sharp shooting pains from middle third of humerus to fingers,dull aching,1.0,1
+sharp shooting pains from middle third of humerus to fingers,sharp shooting pains in inner side of forearm,1.0,1
+sharp shooting pains from middle third of humerus to fingers,syphilis,1.0,1
+sharp shooting pains from middle third of humerus to fingers,itching on exposure to cold air,1.0,1
+sharp shooting pains from middle third of humerus to fingers,sycotic origin,1.0,1
+sharp shooting pains from middle third of humerus to fingers,pulsating,1.0,1
+sharp shooting pains from middle third of humerus to fingers,aching pains in right leg,1.0,1
+sharp shooting pains from middle third of humerus to fingers,pains in right elbow,1.0,1
+sharp shooting pains from middle third of humerus to fingers,much pain,1.0,1
+sharp shooting pains from middle third of humerus to fingers,sharp shooting pains in upper third of forearm,1.0,1
+sharp shooting pains from middle third of humerus to fingers,sharp shooting pains in both arms,1.0,1
+sharp shooting pains from middle third of humerus to fingers,mercurialization,1.0,1
+sharp shooting pains from middle third of humerus to fingers,extending across the face,1.0,1
+sharp shooting pains from middle third of humerus to fingers,periosteal affections of the malar bones,1.0,1
+sharp shooting pains from middle third of humerus to fingers,affections of the larynx,1.0,1
+sharp shooting pains from middle third of humerus to fingers,very large rheumatic node on the olecranon,1.0,1
+sharp shooting pains from middle third of humerus to fingers,distressing aching in long bones,1.0,1
+sharp shooting pains from middle third of humerus to fingers,itching of the skin on extremities,1.0,1
+sharp shooting pains from middle third of humerus to fingers,distressing aching with nodes,1.0,1
+sharp shooting pains from middle third of humerus to fingers,hoarseness,1.0,1
+sharp shooting pains from middle third of humerus to fingers,pains in left lower anterior third of leg,1.0,1
+sharp shooting pains from middle third of humerus to fingers,gonorrheal origin,1.0,1
+sharp shooting pains from middle third of humerus to fingers,much soreness,1.0,1
+sharp shooting pains from middle third of humerus to fingers,pains in right leg,1.0,1
+sharp shooting pains from middle third of humerus to fingers,periostitis with rheumatic nodes on tibia,1.0,1
+sharp shooting pains from middle third of humerus to fingers,chronic periosteal rheumatic states,1.0,1
+hoarseness,aching,1.0,1
+hoarseness,dull aching,1.0,1
+hoarseness,sharp shooting pains in inner side of forearm,1.0,1
+hoarseness,syphilis,1.0,1
+hoarseness,itching on exposure to cold air,1.0,1
+hoarseness,sycotic origin,1.0,1
+hoarseness,pulsating,1.0,1
+hoarseness,aching pains in right leg,1.0,1
+hoarseness,pains in right elbow,1.0,1
+hoarseness,sharp shooting pains from middle third of humerus to fingers,1.0,1
+hoarseness,much pain,1.0,1
+hoarseness,sharp shooting pains in upper third of forearm,1.0,1
+hoarseness,sharp shooting pains in both arms,1.0,1
+hoarseness,mercurialization,1.0,1
+hoarseness,extending across the face,1.0,1
+hoarseness,periosteal affections of the malar bones,1.0,1
+hoarseness,affections of the larynx,1.0,1
+hoarseness,very large rheumatic node on the olecranon,1.0,1
+hoarseness,distressing aching in long bones,1.0,1
+hoarseness,itching of the skin on extremities,1.0,1
+hoarseness,distressing aching with nodes,1.0,1
+hoarseness,pains in left lower anterior third of leg,1.0,1
+hoarseness,gonorrheal origin,1.0,1
+hoarseness,much soreness,1.0,1
+hoarseness,pains in right leg,1.0,1
+hoarseness,periostitis with rheumatic nodes on tibia,1.0,1
+hoarseness,chronic periosteal rheumatic states,1.0,1
+periostitis with rheumatic nodes on tibia,aching,1.0,1
+periostitis with rheumatic nodes on tibia,dull aching,1.0,1
+periostitis with rheumatic nodes on tibia,sharp shooting pains in inner side of forearm,1.0,1
+periostitis with rheumatic nodes on tibia,syphilis,1.0,1
+periostitis with rheumatic nodes on tibia,itching on exposure to cold air,1.0,1
+periostitis with rheumatic nodes on tibia,sycotic origin,1.0,1
+periostitis with rheumatic nodes on tibia,pulsating,1.0,1
+periostitis with rheumatic nodes on tibia,aching pains in right leg,1.0,1
+periostitis with rheumatic nodes on tibia,pains in right elbow,1.0,1
+periostitis with rheumatic nodes on tibia,sharp shooting pains from middle third of humerus to fingers,1.0,1
+periostitis with rheumatic nodes on tibia,much pain,1.0,1
+periostitis with rheumatic nodes on tibia,sharp shooting pains in upper third of forearm,1.0,1
+periostitis with rheumatic nodes on tibia,sharp shooting pains in both arms,1.0,1
+periostitis with rheumatic nodes on tibia,mercurialization,1.0,1
+periostitis with rheumatic nodes on tibia,extending across the face,1.0,1
+periostitis with rheumatic nodes on tibia,periosteal affections of the malar bones,1.0,1
+periostitis with rheumatic nodes on tibia,affections of the larynx,1.0,1
+periostitis with rheumatic nodes on tibia,very large rheumatic node on the olecranon,1.0,1
+periostitis with rheumatic nodes on tibia,distressing aching in long bones,1.0,1
+periostitis with rheumatic nodes on tibia,itching of the skin on extremities,1.0,1
+periostitis with rheumatic nodes on tibia,distressing aching with nodes,1.0,1
+periostitis with rheumatic nodes on tibia,hoarseness,1.0,1
+periostitis with rheumatic nodes on tibia,pains in left lower anterior third of leg,1.0,1
+periostitis with rheumatic nodes on tibia,gonorrheal origin,1.0,1
+periostitis with rheumatic nodes on tibia,much soreness,1.0,1
+periostitis with rheumatic nodes on tibia,pains in right leg,1.0,1
+periostitis with rheumatic nodes on tibia,chronic periosteal rheumatic states,1.0,1
+itching of the skin on extremities,aching,1.0,1
+itching of the skin on extremities,dull aching,1.0,1
+itching of the skin on extremities,sharp shooting pains in inner side of forearm,1.0,1
+itching of the skin on extremities,syphilis,1.0,1
+itching of the skin on extremities,itching on exposure to cold air,1.0,1
+itching of the skin on extremities,sycotic origin,1.0,1
+itching of the skin on extremities,pulsating,1.0,1
+itching of the skin on extremities,aching pains in right leg,1.0,1
+itching of the skin on extremities,pains in right elbow,1.0,1
+itching of the skin on extremities,sharp shooting pains from middle third of humerus to fingers,1.0,1
+itching of the skin on extremities,much pain,1.0,1
+itching of the skin on extremities,sharp shooting pains in upper third of forearm,1.0,1
+itching of the skin on extremities,sharp shooting pains in both arms,1.0,1
+itching of the skin on extremities,mercurialization,1.0,1
+itching of the skin on extremities,extending across the face,1.0,1
+itching of the skin on extremities,periosteal affections of the malar bones,1.0,1
+itching of the skin on extremities,affections of the larynx,1.0,1
+itching of the skin on extremities,very large rheumatic node on the olecranon,1.0,1
+itching of the skin on extremities,distressing aching in long bones,1.0,1
+itching of the skin on extremities,distressing aching with nodes,1.0,1
+itching of the skin on extremities,hoarseness,1.0,1
+itching of the skin on extremities,pains in left lower anterior third of leg,1.0,1
+itching of the skin on extremities,gonorrheal origin,1.0,1
+itching of the skin on extremities,much soreness,1.0,1
+itching of the skin on extremities,pains in right leg,1.0,1
+itching of the skin on extremities,periostitis with rheumatic nodes on tibia,1.0,1
+itching of the skin on extremities,chronic periosteal rheumatic states,1.0,1
+pains in right leg,aching,1.0,1
+pains in right leg,dull aching,1.0,1
+pains in right leg,sharp shooting pains in inner side of forearm,1.0,1
+pains in right leg,syphilis,1.0,1
+pains in right leg,itching on exposure to cold air,1.0,1
+pains in right leg,sycotic origin,1.0,1
+pains in right leg,pulsating,1.0,1
+pains in right leg,aching pains in right leg,1.0,1
+pains in right leg,pains in right elbow,1.0,1
+pains in right leg,sharp shooting pains from middle third of humerus to fingers,1.0,1
+pains in right leg,much pain,1.0,1
+pains in right leg,sharp shooting pains in upper third of forearm,1.0,1
+pains in right leg,sharp shooting pains in both arms,1.0,1
+pains in right leg,mercurialization,1.0,1
+pains in right leg,extending across the face,1.0,1
+pains in right leg,periosteal affections of the malar bones,1.0,1
+pains in right leg,affections of the larynx,1.0,1
+pains in right leg,very large rheumatic node on the olecranon,1.0,1
+pains in right leg,distressing aching in long bones,1.0,1
+pains in right leg,itching of the skin on extremities,1.0,1
+pains in right leg,distressing aching with nodes,1.0,1
+pains in right leg,hoarseness,1.0,1
+pains in right leg,pains in left lower anterior third of leg,1.0,1
+pains in right leg,gonorrheal origin,1.0,1
+pains in right leg,much soreness,1.0,1
+pains in right leg,periostitis with rheumatic nodes on tibia,1.0,1
+pains in right leg,chronic periosteal rheumatic states,1.0,1

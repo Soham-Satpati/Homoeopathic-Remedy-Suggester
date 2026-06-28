@@ -1,0 +1,58 @@
+### Cluster 64 — Symptoms (7)
+Symptom,Frequency
+nervous restlessness,1
+worse from wine,1
+rheumatic affections,1
+twitching,1
+pressing pain in head,1
+restlessness in legs,1
+burning along spine,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+zincum,7
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+nervous restlessness,worse from wine,1.0,1
+nervous restlessness,rheumatic affections,1.0,1
+nervous restlessness,twitching,1.0,1
+nervous restlessness,pressing pain in head,1.0,1
+nervous restlessness,restlessness in legs,1.0,1
+nervous restlessness,burning along spine,1.0,1
+twitching,nervous restlessness,1.0,1
+twitching,worse from wine,1.0,1
+twitching,rheumatic affections,1.0,1
+twitching,pressing pain in head,1.0,1
+twitching,restlessness in legs,1.0,1
+twitching,burning along spine,1.0,1
+burning along spine,nervous restlessness,1.0,1
+burning along spine,worse from wine,1.0,1
+burning along spine,rheumatic affections,1.0,1
+burning along spine,twitching,1.0,1
+burning along spine,pressing pain in head,1.0,1
+burning along spine,restlessness in legs,1.0,1
+restlessness in legs,nervous restlessness,1.0,1
+restlessness in legs,worse from wine,1.0,1
+restlessness in legs,rheumatic affections,1.0,1
+restlessness in legs,twitching,1.0,1
+restlessness in legs,pressing pain in head,1.0,1
+restlessness in legs,burning along spine,1.0,1
+pressing pain in head,nervous restlessness,1.0,1
+pressing pain in head,worse from wine,1.0,1
+pressing pain in head,rheumatic affections,1.0,1
+pressing pain in head,twitching,1.0,1
+pressing pain in head,restlessness in legs,1.0,1
+pressing pain in head,burning along spine,1.0,1
+rheumatic affections,nervous restlessness,1.0,1
+rheumatic affections,worse from wine,1.0,1
+rheumatic affections,twitching,1.0,1
+rheumatic affections,pressing pain in head,1.0,1
+rheumatic affections,restlessness in legs,1.0,1
+rheumatic affections,burning along spine,1.0,1
+worse from wine,nervous restlessness,1.0,1
+worse from wine,rheumatic affections,1.0,1
+worse from wine,twitching,1.0,1
+worse from wine,pressing pain in head,1.0,1
+worse from wine,restlessness in legs,1.0,1
+worse from wine,burning along spine,1.0,1

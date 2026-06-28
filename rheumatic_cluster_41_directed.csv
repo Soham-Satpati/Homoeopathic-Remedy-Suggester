@@ -1,0 +1,2126 @@
+### Cluster 41 — Symptoms (46)
+Symptom,Frequency
+neck muscles seem swollen,1
+knee joint very painful,1
+sciatic neuralgia of right side,1
+spine painful on pressure,1
+periodic pain in back,1
+heaviness of all limbs,1
+back pain extends to head,1
+hands cold,1
+symptoms occur at same hour daily,1
+intermittent neuralgia of supraorbital nerve,2
+compare with pulsatilla in erratic pains,1
+palpitation after slight exercise,1
+painful enlargement of spleen,1
+perfectly developed fever,1
+profuse debilitating sweats,4
+sensitiveness of last cervical vertebra,1
+face anxious,1
+perfectly developed sweat,1
+perfectly developed chill,1
+rheumatic pain in right shoulder,3
+fear of impending evil,1
+joints exquisitely sensitive to touch,1
+compare with stannum in supraorbital neuralgia,1
+remitting fever,1
+back pain returns about midnight,1
+buzzing in ears,1
+joints painful,1
+fever with ankle pain,1
+aching in joints,1
+knee joint much swollen,1
+ankle pain after taking cold,1
+intermitting fever,1
+neck muscles stiff,1
+whirling in head like mill wheel,1
+ankles swollen,1
+inflammatory articular rheumatism,2
+violent pains in lateral neck muscles at 4 p.m.,1
+acute rheumatic pain in left ankle joint,2
+paralysis of limbs,1
+aching of limbs,1
+profuse sweat with ankle pain,1
+cold sweat on hands,1
+right wrist painful on motion,1
+cutting pain in feet during chill,1
+sensitiveness of first dorsal vertebra,1
+first three dorsal vertebrae sensitive to touch,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+chininum sulphuricum,46
+medorrhinum,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+aching in joints,neck muscles seem swollen,1.0,1
+aching in joints,knee joint very painful,1.0,1
+aching in joints,sciatic neuralgia of right side,1.0,1
+aching in joints,spine painful on pressure,1.0,1
+aching in joints,periodic pain in back,1.0,1
+aching in joints,heaviness of all limbs,1.0,1
+aching in joints,back pain extends to head,1.0,1
+aching in joints,hands cold,1.0,1
+aching in joints,symptoms occur at same hour daily,1.0,1
+aching in joints,intermittent neuralgia of supraorbital nerve,1.0,1
+aching in joints,compare with pulsatilla in erratic pains,1.0,1
+aching in joints,palpitation after slight exercise,1.0,1
+aching in joints,painful enlargement of spleen,1.0,1
+aching in joints,perfectly developed fever,1.0,1
+aching in joints,profuse debilitating sweats,1.0,1
+aching in joints,sensitiveness of last cervical vertebra,1.0,1
+aching in joints,face anxious,1.0,1
+aching in joints,perfectly developed sweat,1.0,1
+aching in joints,perfectly developed chill,1.0,1
+aching in joints,rheumatic pain in right shoulder,1.0,1
+aching in joints,fear of impending evil,1.0,1
+aching in joints,joints exquisitely sensitive to touch,1.0,1
+aching in joints,compare with stannum in supraorbital neuralgia,1.0,1
+aching in joints,remitting fever,1.0,1
+aching in joints,back pain returns about midnight,1.0,1
+aching in joints,buzzing in ears,1.0,1
+aching in joints,joints painful,1.0,1
+aching in joints,fever with ankle pain,1.0,1
+aching in joints,knee joint much swollen,1.0,1
+aching in joints,ankle pain after taking cold,1.0,1
+aching in joints,intermitting fever,1.0,1
+aching in joints,neck muscles stiff,1.0,1
+aching in joints,whirling in head like mill wheel,1.0,1
+aching in joints,ankles swollen,1.0,1
+aching in joints,inflammatory articular rheumatism,1.0,1
+aching in joints,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+aching in joints,acute rheumatic pain in left ankle joint,1.0,1
+aching in joints,paralysis of limbs,1.0,1
+aching in joints,aching of limbs,1.0,1
+aching in joints,profuse sweat with ankle pain,1.0,1
+aching in joints,cold sweat on hands,1.0,1
+aching in joints,right wrist painful on motion,1.0,1
+aching in joints,cutting pain in feet during chill,1.0,1
+aching in joints,sensitiveness of first dorsal vertebra,1.0,1
+aching in joints,first three dorsal vertebrae sensitive to touch,1.0,1
+face anxious,neck muscles seem swollen,1.0,1
+face anxious,knee joint very painful,1.0,1
+face anxious,sciatic neuralgia of right side,1.0,1
+face anxious,spine painful on pressure,1.0,1
+face anxious,periodic pain in back,1.0,1
+face anxious,heaviness of all limbs,1.0,1
+face anxious,back pain extends to head,1.0,1
+face anxious,hands cold,1.0,1
+face anxious,symptoms occur at same hour daily,1.0,1
+face anxious,intermittent neuralgia of supraorbital nerve,1.0,1
+face anxious,compare with pulsatilla in erratic pains,1.0,1
+face anxious,palpitation after slight exercise,1.0,1
+face anxious,painful enlargement of spleen,1.0,1
+face anxious,perfectly developed fever,1.0,1
+face anxious,profuse debilitating sweats,1.0,1
+face anxious,sensitiveness of last cervical vertebra,1.0,1
+face anxious,perfectly developed sweat,1.0,1
+face anxious,perfectly developed chill,1.0,1
+face anxious,rheumatic pain in right shoulder,1.0,1
+face anxious,fear of impending evil,1.0,1
+face anxious,joints exquisitely sensitive to touch,1.0,1
+face anxious,compare with stannum in supraorbital neuralgia,1.0,1
+face anxious,remitting fever,1.0,1
+face anxious,back pain returns about midnight,1.0,1
+face anxious,buzzing in ears,1.0,1
+face anxious,joints painful,1.0,1
+face anxious,fever with ankle pain,1.0,1
+face anxious,aching in joints,1.0,1
+face anxious,knee joint much swollen,1.0,1
+face anxious,ankle pain after taking cold,1.0,1
+face anxious,intermitting fever,1.0,1
+face anxious,neck muscles stiff,1.0,1
+face anxious,whirling in head like mill wheel,1.0,1
+face anxious,ankles swollen,1.0,1
+face anxious,inflammatory articular rheumatism,1.0,1
+face anxious,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+face anxious,acute rheumatic pain in left ankle joint,1.0,1
+face anxious,paralysis of limbs,1.0,1
+face anxious,aching of limbs,1.0,1
+face anxious,profuse sweat with ankle pain,1.0,1
+face anxious,cold sweat on hands,1.0,1
+face anxious,right wrist painful on motion,1.0,1
+face anxious,cutting pain in feet during chill,1.0,1
+face anxious,sensitiveness of first dorsal vertebra,1.0,1
+face anxious,first three dorsal vertebrae sensitive to touch,1.0,1
+intermittent neuralgia of supraorbital nerve,neck muscles seem swollen,1.0,1
+intermittent neuralgia of supraorbital nerve,knee joint very painful,1.0,1
+intermittent neuralgia of supraorbital nerve,sciatic neuralgia of right side,1.0,1
+intermittent neuralgia of supraorbital nerve,spine painful on pressure,1.0,1
+intermittent neuralgia of supraorbital nerve,periodic pain in back,1.0,1
+intermittent neuralgia of supraorbital nerve,heaviness of all limbs,1.0,1
+intermittent neuralgia of supraorbital nerve,back pain extends to head,1.0,1
+intermittent neuralgia of supraorbital nerve,hands cold,1.0,1
+intermittent neuralgia of supraorbital nerve,symptoms occur at same hour daily,1.0,1
+intermittent neuralgia of supraorbital nerve,compare with pulsatilla in erratic pains,1.0,1
+intermittent neuralgia of supraorbital nerve,palpitation after slight exercise,1.0,1
+intermittent neuralgia of supraorbital nerve,painful enlargement of spleen,1.0,1
+intermittent neuralgia of supraorbital nerve,perfectly developed fever,1.0,1
+intermittent neuralgia of supraorbital nerve,profuse debilitating sweats,1.0,1
+intermittent neuralgia of supraorbital nerve,sensitiveness of last cervical vertebra,1.0,1
+intermittent neuralgia of supraorbital nerve,face anxious,1.0,1
+intermittent neuralgia of supraorbital nerve,perfectly developed sweat,1.0,1
+intermittent neuralgia of supraorbital nerve,perfectly developed chill,1.0,1
+intermittent neuralgia of supraorbital nerve,rheumatic pain in right shoulder,1.0,1
+intermittent neuralgia of supraorbital nerve,fear of impending evil,1.0,1
+intermittent neuralgia of supraorbital nerve,joints exquisitely sensitive to touch,1.0,1
+intermittent neuralgia of supraorbital nerve,compare with stannum in supraorbital neuralgia,1.0,1
+intermittent neuralgia of supraorbital nerve,remitting fever,1.0,1
+intermittent neuralgia of supraorbital nerve,back pain returns about midnight,1.0,1
+intermittent neuralgia of supraorbital nerve,buzzing in ears,1.0,1
+intermittent neuralgia of supraorbital nerve,joints painful,1.0,1
+intermittent neuralgia of supraorbital nerve,fever with ankle pain,1.0,1
+intermittent neuralgia of supraorbital nerve,aching in joints,1.0,1
+intermittent neuralgia of supraorbital nerve,knee joint much swollen,1.0,1
+intermittent neuralgia of supraorbital nerve,ankle pain after taking cold,1.0,1
+intermittent neuralgia of supraorbital nerve,intermitting fever,1.0,1
+intermittent neuralgia of supraorbital nerve,neck muscles stiff,1.0,1
+intermittent neuralgia of supraorbital nerve,whirling in head like mill wheel,1.0,1
+intermittent neuralgia of supraorbital nerve,ankles swollen,1.0,1
+intermittent neuralgia of supraorbital nerve,inflammatory articular rheumatism,1.0,1
+intermittent neuralgia of supraorbital nerve,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+intermittent neuralgia of supraorbital nerve,acute rheumatic pain in left ankle joint,1.0,1
+intermittent neuralgia of supraorbital nerve,paralysis of limbs,1.0,1
+intermittent neuralgia of supraorbital nerve,aching of limbs,1.0,1
+intermittent neuralgia of supraorbital nerve,profuse sweat with ankle pain,1.0,1
+intermittent neuralgia of supraorbital nerve,cold sweat on hands,1.0,1
+intermittent neuralgia of supraorbital nerve,right wrist painful on motion,1.0,1
+intermittent neuralgia of supraorbital nerve,cutting pain in feet during chill,1.0,1
+intermittent neuralgia of supraorbital nerve,sensitiveness of first dorsal vertebra,1.0,1
+intermittent neuralgia of supraorbital nerve,first three dorsal vertebrae sensitive to touch,1.0,1
+profuse sweat with ankle pain,neck muscles seem swollen,1.0,1
+profuse sweat with ankle pain,knee joint very painful,1.0,1
+profuse sweat with ankle pain,sciatic neuralgia of right side,1.0,1
+profuse sweat with ankle pain,spine painful on pressure,1.0,1
+profuse sweat with ankle pain,periodic pain in back,1.0,1
+profuse sweat with ankle pain,heaviness of all limbs,1.0,1
+profuse sweat with ankle pain,back pain extends to head,1.0,1
+profuse sweat with ankle pain,hands cold,1.0,1
+profuse sweat with ankle pain,symptoms occur at same hour daily,1.0,1
+profuse sweat with ankle pain,intermittent neuralgia of supraorbital nerve,1.0,1
+profuse sweat with ankle pain,compare with pulsatilla in erratic pains,1.0,1
+profuse sweat with ankle pain,palpitation after slight exercise,1.0,1
+profuse sweat with ankle pain,painful enlargement of spleen,1.0,1
+profuse sweat with ankle pain,perfectly developed fever,1.0,1
+profuse sweat with ankle pain,profuse debilitating sweats,1.0,1
+profuse sweat with ankle pain,sensitiveness of last cervical vertebra,1.0,1
+profuse sweat with ankle pain,face anxious,1.0,1
+profuse sweat with ankle pain,perfectly developed sweat,1.0,1
+profuse sweat with ankle pain,perfectly developed chill,1.0,1
+profuse sweat with ankle pain,rheumatic pain in right shoulder,1.0,1
+profuse sweat with ankle pain,fear of impending evil,1.0,1
+profuse sweat with ankle pain,joints exquisitely sensitive to touch,1.0,1
+profuse sweat with ankle pain,compare with stannum in supraorbital neuralgia,1.0,1
+profuse sweat with ankle pain,remitting fever,1.0,1
+profuse sweat with ankle pain,back pain returns about midnight,1.0,1
+profuse sweat with ankle pain,buzzing in ears,1.0,1
+profuse sweat with ankle pain,joints painful,1.0,1
+profuse sweat with ankle pain,fever with ankle pain,1.0,1
+profuse sweat with ankle pain,aching in joints,1.0,1
+profuse sweat with ankle pain,knee joint much swollen,1.0,1
+profuse sweat with ankle pain,ankle pain after taking cold,1.0,1
+profuse sweat with ankle pain,intermitting fever,1.0,1
+profuse sweat with ankle pain,neck muscles stiff,1.0,1
+profuse sweat with ankle pain,whirling in head like mill wheel,1.0,1
+profuse sweat with ankle pain,ankles swollen,1.0,1
+profuse sweat with ankle pain,inflammatory articular rheumatism,1.0,1
+profuse sweat with ankle pain,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+profuse sweat with ankle pain,acute rheumatic pain in left ankle joint,1.0,1
+profuse sweat with ankle pain,paralysis of limbs,1.0,1
+profuse sweat with ankle pain,aching of limbs,1.0,1
+profuse sweat with ankle pain,cold sweat on hands,1.0,1
+profuse sweat with ankle pain,right wrist painful on motion,1.0,1
+profuse sweat with ankle pain,cutting pain in feet during chill,1.0,1
+profuse sweat with ankle pain,sensitiveness of first dorsal vertebra,1.0,1
+profuse sweat with ankle pain,first three dorsal vertebrae sensitive to touch,1.0,1
+aching of limbs,neck muscles seem swollen,1.0,1
+aching of limbs,knee joint very painful,1.0,1
+aching of limbs,sciatic neuralgia of right side,1.0,1
+aching of limbs,spine painful on pressure,1.0,1
+aching of limbs,periodic pain in back,1.0,1
+aching of limbs,heaviness of all limbs,1.0,1
+aching of limbs,back pain extends to head,1.0,1
+aching of limbs,hands cold,1.0,1
+aching of limbs,symptoms occur at same hour daily,1.0,1
+aching of limbs,intermittent neuralgia of supraorbital nerve,1.0,1
+aching of limbs,compare with pulsatilla in erratic pains,1.0,1
+aching of limbs,palpitation after slight exercise,1.0,1
+aching of limbs,painful enlargement of spleen,1.0,1
+aching of limbs,perfectly developed fever,1.0,1
+aching of limbs,profuse debilitating sweats,1.0,1
+aching of limbs,sensitiveness of last cervical vertebra,1.0,1
+aching of limbs,face anxious,1.0,1
+aching of limbs,perfectly developed sweat,1.0,1
+aching of limbs,perfectly developed chill,1.0,1
+aching of limbs,rheumatic pain in right shoulder,1.0,1
+aching of limbs,fear of impending evil,1.0,1
+aching of limbs,joints exquisitely sensitive to touch,1.0,1
+aching of limbs,compare with stannum in supraorbital neuralgia,1.0,1
+aching of limbs,remitting fever,1.0,1
+aching of limbs,back pain returns about midnight,1.0,1
+aching of limbs,buzzing in ears,1.0,1
+aching of limbs,joints painful,1.0,1
+aching of limbs,fever with ankle pain,1.0,1
+aching of limbs,aching in joints,1.0,1
+aching of limbs,knee joint much swollen,1.0,1
+aching of limbs,ankle pain after taking cold,1.0,1
+aching of limbs,intermitting fever,1.0,1
+aching of limbs,neck muscles stiff,1.0,1
+aching of limbs,whirling in head like mill wheel,1.0,1
+aching of limbs,ankles swollen,1.0,1
+aching of limbs,inflammatory articular rheumatism,1.0,1
+aching of limbs,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+aching of limbs,acute rheumatic pain in left ankle joint,1.0,1
+aching of limbs,paralysis of limbs,1.0,1
+aching of limbs,profuse sweat with ankle pain,1.0,1
+aching of limbs,cold sweat on hands,1.0,1
+aching of limbs,right wrist painful on motion,1.0,1
+aching of limbs,cutting pain in feet during chill,1.0,1
+aching of limbs,sensitiveness of first dorsal vertebra,1.0,1
+aching of limbs,first three dorsal vertebrae sensitive to touch,1.0,1
+intermitting fever,neck muscles seem swollen,1.0,1
+intermitting fever,knee joint very painful,1.0,1
+intermitting fever,sciatic neuralgia of right side,1.0,1
+intermitting fever,spine painful on pressure,1.0,1
+intermitting fever,periodic pain in back,1.0,1
+intermitting fever,heaviness of all limbs,1.0,1
+intermitting fever,back pain extends to head,1.0,1
+intermitting fever,hands cold,1.0,1
+intermitting fever,symptoms occur at same hour daily,1.0,1
+intermitting fever,intermittent neuralgia of supraorbital nerve,1.0,1
+intermitting fever,compare with pulsatilla in erratic pains,1.0,1
+intermitting fever,palpitation after slight exercise,1.0,1
+intermitting fever,painful enlargement of spleen,1.0,1
+intermitting fever,perfectly developed fever,1.0,1
+intermitting fever,profuse debilitating sweats,1.0,1
+intermitting fever,sensitiveness of last cervical vertebra,1.0,1
+intermitting fever,face anxious,1.0,1
+intermitting fever,perfectly developed sweat,1.0,1
+intermitting fever,perfectly developed chill,1.0,1
+intermitting fever,rheumatic pain in right shoulder,1.0,1
+intermitting fever,fear of impending evil,1.0,1
+intermitting fever,joints exquisitely sensitive to touch,1.0,1
+intermitting fever,compare with stannum in supraorbital neuralgia,1.0,1
+intermitting fever,remitting fever,1.0,1
+intermitting fever,back pain returns about midnight,1.0,1
+intermitting fever,buzzing in ears,1.0,1
+intermitting fever,joints painful,1.0,1
+intermitting fever,fever with ankle pain,1.0,1
+intermitting fever,aching in joints,1.0,1
+intermitting fever,knee joint much swollen,1.0,1
+intermitting fever,ankle pain after taking cold,1.0,1
+intermitting fever,neck muscles stiff,1.0,1
+intermitting fever,whirling in head like mill wheel,1.0,1
+intermitting fever,ankles swollen,1.0,1
+intermitting fever,inflammatory articular rheumatism,1.0,1
+intermitting fever,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+intermitting fever,acute rheumatic pain in left ankle joint,1.0,1
+intermitting fever,paralysis of limbs,1.0,1
+intermitting fever,aching of limbs,1.0,1
+intermitting fever,profuse sweat with ankle pain,1.0,1
+intermitting fever,cold sweat on hands,1.0,1
+intermitting fever,right wrist painful on motion,1.0,1
+intermitting fever,cutting pain in feet during chill,1.0,1
+intermitting fever,sensitiveness of first dorsal vertebra,1.0,1
+intermitting fever,first three dorsal vertebrae sensitive to touch,1.0,1
+heaviness of all limbs,neck muscles seem swollen,1.0,1
+heaviness of all limbs,knee joint very painful,1.0,1
+heaviness of all limbs,sciatic neuralgia of right side,1.0,1
+heaviness of all limbs,spine painful on pressure,1.0,1
+heaviness of all limbs,periodic pain in back,1.0,1
+heaviness of all limbs,back pain extends to head,1.0,1
+heaviness of all limbs,hands cold,1.0,1
+heaviness of all limbs,symptoms occur at same hour daily,1.0,1
+heaviness of all limbs,intermittent neuralgia of supraorbital nerve,1.0,1
+heaviness of all limbs,compare with pulsatilla in erratic pains,1.0,1
+heaviness of all limbs,palpitation after slight exercise,1.0,1
+heaviness of all limbs,painful enlargement of spleen,1.0,1
+heaviness of all limbs,perfectly developed fever,1.0,1
+heaviness of all limbs,profuse debilitating sweats,1.0,1
+heaviness of all limbs,sensitiveness of last cervical vertebra,1.0,1
+heaviness of all limbs,face anxious,1.0,1
+heaviness of all limbs,perfectly developed sweat,1.0,1
+heaviness of all limbs,perfectly developed chill,1.0,1
+heaviness of all limbs,rheumatic pain in right shoulder,1.0,1
+heaviness of all limbs,fear of impending evil,1.0,1
+heaviness of all limbs,joints exquisitely sensitive to touch,1.0,1
+heaviness of all limbs,compare with stannum in supraorbital neuralgia,1.0,1
+heaviness of all limbs,remitting fever,1.0,1
+heaviness of all limbs,back pain returns about midnight,1.0,1
+heaviness of all limbs,buzzing in ears,1.0,1
+heaviness of all limbs,joints painful,1.0,1
+heaviness of all limbs,fever with ankle pain,1.0,1
+heaviness of all limbs,aching in joints,1.0,1
+heaviness of all limbs,knee joint much swollen,1.0,1
+heaviness of all limbs,ankle pain after taking cold,1.0,1
+heaviness of all limbs,intermitting fever,1.0,1
+heaviness of all limbs,neck muscles stiff,1.0,1
+heaviness of all limbs,whirling in head like mill wheel,1.0,1
+heaviness of all limbs,ankles swollen,1.0,1
+heaviness of all limbs,inflammatory articular rheumatism,1.0,1
+heaviness of all limbs,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+heaviness of all limbs,acute rheumatic pain in left ankle joint,1.0,1
+heaviness of all limbs,paralysis of limbs,1.0,1
+heaviness of all limbs,aching of limbs,1.0,1
+heaviness of all limbs,profuse sweat with ankle pain,1.0,1
+heaviness of all limbs,cold sweat on hands,1.0,1
+heaviness of all limbs,right wrist painful on motion,1.0,1
+heaviness of all limbs,cutting pain in feet during chill,1.0,1
+heaviness of all limbs,sensitiveness of first dorsal vertebra,1.0,1
+heaviness of all limbs,first three dorsal vertebrae sensitive to touch,1.0,1
+perfectly developed chill,neck muscles seem swollen,1.0,1
+perfectly developed chill,knee joint very painful,1.0,1
+perfectly developed chill,sciatic neuralgia of right side,1.0,1
+perfectly developed chill,spine painful on pressure,1.0,1
+perfectly developed chill,periodic pain in back,1.0,1
+perfectly developed chill,heaviness of all limbs,1.0,1
+perfectly developed chill,back pain extends to head,1.0,1
+perfectly developed chill,hands cold,1.0,1
+perfectly developed chill,symptoms occur at same hour daily,1.0,1
+perfectly developed chill,intermittent neuralgia of supraorbital nerve,1.0,1
+perfectly developed chill,compare with pulsatilla in erratic pains,1.0,1
+perfectly developed chill,palpitation after slight exercise,1.0,1
+perfectly developed chill,painful enlargement of spleen,1.0,1
+perfectly developed chill,perfectly developed fever,1.0,1
+perfectly developed chill,profuse debilitating sweats,1.0,1
+perfectly developed chill,sensitiveness of last cervical vertebra,1.0,1
+perfectly developed chill,face anxious,1.0,1
+perfectly developed chill,perfectly developed sweat,1.0,1
+perfectly developed chill,rheumatic pain in right shoulder,1.0,1
+perfectly developed chill,fear of impending evil,1.0,1
+perfectly developed chill,joints exquisitely sensitive to touch,1.0,1
+perfectly developed chill,compare with stannum in supraorbital neuralgia,1.0,1
+perfectly developed chill,remitting fever,1.0,1
+perfectly developed chill,back pain returns about midnight,1.0,1
+perfectly developed chill,buzzing in ears,1.0,1
+perfectly developed chill,joints painful,1.0,1
+perfectly developed chill,fever with ankle pain,1.0,1
+perfectly developed chill,aching in joints,1.0,1
+perfectly developed chill,knee joint much swollen,1.0,1
+perfectly developed chill,ankle pain after taking cold,1.0,1
+perfectly developed chill,intermitting fever,1.0,1
+perfectly developed chill,neck muscles stiff,1.0,1
+perfectly developed chill,whirling in head like mill wheel,1.0,1
+perfectly developed chill,ankles swollen,1.0,1
+perfectly developed chill,inflammatory articular rheumatism,1.0,1
+perfectly developed chill,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+perfectly developed chill,acute rheumatic pain in left ankle joint,1.0,1
+perfectly developed chill,paralysis of limbs,1.0,1
+perfectly developed chill,aching of limbs,1.0,1
+perfectly developed chill,profuse sweat with ankle pain,1.0,1
+perfectly developed chill,cold sweat on hands,1.0,1
+perfectly developed chill,right wrist painful on motion,1.0,1
+perfectly developed chill,cutting pain in feet during chill,1.0,1
+perfectly developed chill,sensitiveness of first dorsal vertebra,1.0,1
+perfectly developed chill,first three dorsal vertebrae sensitive to touch,1.0,1
+knee joint very painful,neck muscles seem swollen,1.0,1
+knee joint very painful,sciatic neuralgia of right side,1.0,1
+knee joint very painful,spine painful on pressure,1.0,1
+knee joint very painful,periodic pain in back,1.0,1
+knee joint very painful,heaviness of all limbs,1.0,1
+knee joint very painful,back pain extends to head,1.0,1
+knee joint very painful,hands cold,1.0,1
+knee joint very painful,symptoms occur at same hour daily,1.0,1
+knee joint very painful,intermittent neuralgia of supraorbital nerve,1.0,1
+knee joint very painful,compare with pulsatilla in erratic pains,1.0,1
+knee joint very painful,palpitation after slight exercise,1.0,1
+knee joint very painful,painful enlargement of spleen,1.0,1
+knee joint very painful,perfectly developed fever,1.0,1
+knee joint very painful,profuse debilitating sweats,1.0,1
+knee joint very painful,sensitiveness of last cervical vertebra,1.0,1
+knee joint very painful,face anxious,1.0,1
+knee joint very painful,perfectly developed sweat,1.0,1
+knee joint very painful,perfectly developed chill,1.0,1
+knee joint very painful,rheumatic pain in right shoulder,1.0,1
+knee joint very painful,fear of impending evil,1.0,1
+knee joint very painful,joints exquisitely sensitive to touch,1.0,1
+knee joint very painful,compare with stannum in supraorbital neuralgia,1.0,1
+knee joint very painful,remitting fever,1.0,1
+knee joint very painful,back pain returns about midnight,1.0,1
+knee joint very painful,buzzing in ears,1.0,1
+knee joint very painful,joints painful,1.0,1
+knee joint very painful,fever with ankle pain,1.0,1
+knee joint very painful,aching in joints,1.0,1
+knee joint very painful,knee joint much swollen,1.0,1
+knee joint very painful,ankle pain after taking cold,1.0,1
+knee joint very painful,intermitting fever,1.0,1
+knee joint very painful,neck muscles stiff,1.0,1
+knee joint very painful,whirling in head like mill wheel,1.0,1
+knee joint very painful,ankles swollen,1.0,1
+knee joint very painful,inflammatory articular rheumatism,1.0,1
+knee joint very painful,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+knee joint very painful,acute rheumatic pain in left ankle joint,1.0,1
+knee joint very painful,paralysis of limbs,1.0,1
+knee joint very painful,aching of limbs,1.0,1
+knee joint very painful,profuse sweat with ankle pain,1.0,1
+knee joint very painful,cold sweat on hands,1.0,1
+knee joint very painful,right wrist painful on motion,1.0,1
+knee joint very painful,cutting pain in feet during chill,1.0,1
+knee joint very painful,sensitiveness of first dorsal vertebra,1.0,1
+knee joint very painful,first three dorsal vertebrae sensitive to touch,1.0,1
+joints painful,neck muscles seem swollen,1.0,1
+joints painful,knee joint very painful,1.0,1
+joints painful,sciatic neuralgia of right side,1.0,1
+joints painful,spine painful on pressure,1.0,1
+joints painful,periodic pain in back,1.0,1
+joints painful,heaviness of all limbs,1.0,1
+joints painful,back pain extends to head,1.0,1
+joints painful,hands cold,1.0,1
+joints painful,symptoms occur at same hour daily,1.0,1
+joints painful,intermittent neuralgia of supraorbital nerve,1.0,1
+joints painful,compare with pulsatilla in erratic pains,1.0,1
+joints painful,palpitation after slight exercise,1.0,1
+joints painful,painful enlargement of spleen,1.0,1
+joints painful,perfectly developed fever,1.0,1
+joints painful,profuse debilitating sweats,1.0,1
+joints painful,sensitiveness of last cervical vertebra,1.0,1
+joints painful,face anxious,1.0,1
+joints painful,perfectly developed sweat,1.0,1
+joints painful,perfectly developed chill,1.0,1
+joints painful,rheumatic pain in right shoulder,1.0,1
+joints painful,fear of impending evil,1.0,1
+joints painful,joints exquisitely sensitive to touch,1.0,1
+joints painful,compare with stannum in supraorbital neuralgia,1.0,1
+joints painful,remitting fever,1.0,1
+joints painful,back pain returns about midnight,1.0,1
+joints painful,buzzing in ears,1.0,1
+joints painful,fever with ankle pain,1.0,1
+joints painful,aching in joints,1.0,1
+joints painful,knee joint much swollen,1.0,1
+joints painful,ankle pain after taking cold,1.0,1
+joints painful,intermitting fever,1.0,1
+joints painful,neck muscles stiff,1.0,1
+joints painful,whirling in head like mill wheel,1.0,1
+joints painful,ankles swollen,1.0,1
+joints painful,inflammatory articular rheumatism,1.0,1
+joints painful,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+joints painful,acute rheumatic pain in left ankle joint,1.0,1
+joints painful,paralysis of limbs,1.0,1
+joints painful,aching of limbs,1.0,1
+joints painful,profuse sweat with ankle pain,1.0,1
+joints painful,cold sweat on hands,1.0,1
+joints painful,right wrist painful on motion,1.0,1
+joints painful,cutting pain in feet during chill,1.0,1
+joints painful,sensitiveness of first dorsal vertebra,1.0,1
+joints painful,first three dorsal vertebrae sensitive to touch,1.0,1
+ankles swollen,neck muscles seem swollen,1.0,1
+ankles swollen,knee joint very painful,1.0,1
+ankles swollen,sciatic neuralgia of right side,1.0,1
+ankles swollen,spine painful on pressure,1.0,1
+ankles swollen,periodic pain in back,1.0,1
+ankles swollen,heaviness of all limbs,1.0,1
+ankles swollen,back pain extends to head,1.0,1
+ankles swollen,hands cold,1.0,1
+ankles swollen,symptoms occur at same hour daily,1.0,1
+ankles swollen,intermittent neuralgia of supraorbital nerve,1.0,1
+ankles swollen,compare with pulsatilla in erratic pains,1.0,1
+ankles swollen,palpitation after slight exercise,1.0,1
+ankles swollen,painful enlargement of spleen,1.0,1
+ankles swollen,perfectly developed fever,1.0,1
+ankles swollen,profuse debilitating sweats,1.0,1
+ankles swollen,sensitiveness of last cervical vertebra,1.0,1
+ankles swollen,face anxious,1.0,1
+ankles swollen,perfectly developed sweat,1.0,1
+ankles swollen,perfectly developed chill,1.0,1
+ankles swollen,rheumatic pain in right shoulder,1.0,1
+ankles swollen,fear of impending evil,1.0,1
+ankles swollen,joints exquisitely sensitive to touch,1.0,1
+ankles swollen,compare with stannum in supraorbital neuralgia,1.0,1
+ankles swollen,remitting fever,1.0,1
+ankles swollen,back pain returns about midnight,1.0,1
+ankles swollen,buzzing in ears,1.0,1
+ankles swollen,joints painful,1.0,1
+ankles swollen,fever with ankle pain,1.0,1
+ankles swollen,aching in joints,1.0,1
+ankles swollen,knee joint much swollen,1.0,1
+ankles swollen,ankle pain after taking cold,1.0,1
+ankles swollen,intermitting fever,1.0,1
+ankles swollen,neck muscles stiff,1.0,1
+ankles swollen,whirling in head like mill wheel,1.0,1
+ankles swollen,inflammatory articular rheumatism,1.0,1
+ankles swollen,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+ankles swollen,acute rheumatic pain in left ankle joint,1.0,1
+ankles swollen,paralysis of limbs,1.0,1
+ankles swollen,aching of limbs,1.0,1
+ankles swollen,profuse sweat with ankle pain,1.0,1
+ankles swollen,cold sweat on hands,1.0,1
+ankles swollen,right wrist painful on motion,1.0,1
+ankles swollen,cutting pain in feet during chill,1.0,1
+ankles swollen,sensitiveness of first dorsal vertebra,1.0,1
+ankles swollen,first three dorsal vertebrae sensitive to touch,1.0,1
+rheumatic pain in right shoulder,neck muscles seem swollen,0.5,1
+rheumatic pain in right shoulder,knee joint very painful,0.5,1
+rheumatic pain in right shoulder,sciatic neuralgia of right side,0.5,1
+rheumatic pain in right shoulder,spine painful on pressure,0.5,1
+rheumatic pain in right shoulder,periodic pain in back,0.5,1
+rheumatic pain in right shoulder,heaviness of all limbs,0.5,1
+rheumatic pain in right shoulder,back pain extends to head,0.5,1
+rheumatic pain in right shoulder,hands cold,0.5,1
+rheumatic pain in right shoulder,symptoms occur at same hour daily,0.5,1
+rheumatic pain in right shoulder,intermittent neuralgia of supraorbital nerve,0.5,1
+rheumatic pain in right shoulder,compare with pulsatilla in erratic pains,0.5,1
+rheumatic pain in right shoulder,palpitation after slight exercise,0.5,1
+rheumatic pain in right shoulder,painful enlargement of spleen,0.5,1
+rheumatic pain in right shoulder,perfectly developed fever,0.5,1
+rheumatic pain in right shoulder,profuse debilitating sweats,0.5,1
+rheumatic pain in right shoulder,sensitiveness of last cervical vertebra,0.5,1
+rheumatic pain in right shoulder,face anxious,0.5,1
+rheumatic pain in right shoulder,perfectly developed sweat,0.5,1
+rheumatic pain in right shoulder,perfectly developed chill,0.5,1
+rheumatic pain in right shoulder,fear of impending evil,0.5,1
+rheumatic pain in right shoulder,joints exquisitely sensitive to touch,0.5,1
+rheumatic pain in right shoulder,compare with stannum in supraorbital neuralgia,0.5,1
+rheumatic pain in right shoulder,remitting fever,0.5,1
+rheumatic pain in right shoulder,back pain returns about midnight,0.5,1
+rheumatic pain in right shoulder,buzzing in ears,0.5,1
+rheumatic pain in right shoulder,joints painful,0.5,1
+rheumatic pain in right shoulder,fever with ankle pain,0.5,1
+rheumatic pain in right shoulder,aching in joints,0.5,1
+rheumatic pain in right shoulder,knee joint much swollen,0.5,1
+rheumatic pain in right shoulder,ankle pain after taking cold,0.5,1
+rheumatic pain in right shoulder,intermitting fever,0.5,1
+rheumatic pain in right shoulder,neck muscles stiff,0.5,1
+rheumatic pain in right shoulder,whirling in head like mill wheel,0.5,1
+rheumatic pain in right shoulder,ankles swollen,0.5,1
+rheumatic pain in right shoulder,inflammatory articular rheumatism,0.5,1
+rheumatic pain in right shoulder,violent pains in lateral neck muscles at 4 p.m.,0.5,1
+rheumatic pain in right shoulder,acute rheumatic pain in left ankle joint,0.5,1
+rheumatic pain in right shoulder,paralysis of limbs,0.5,1
+rheumatic pain in right shoulder,aching of limbs,0.5,1
+rheumatic pain in right shoulder,profuse sweat with ankle pain,0.5,1
+rheumatic pain in right shoulder,cold sweat on hands,0.5,1
+rheumatic pain in right shoulder,right wrist painful on motion,0.5,1
+rheumatic pain in right shoulder,cutting pain in feet during chill,0.5,1
+rheumatic pain in right shoulder,sensitiveness of first dorsal vertebra,0.5,1
+rheumatic pain in right shoulder,first three dorsal vertebrae sensitive to touch,0.5,1
+spine painful on pressure,neck muscles seem swollen,1.0,1
+spine painful on pressure,knee joint very painful,1.0,1
+spine painful on pressure,sciatic neuralgia of right side,1.0,1
+spine painful on pressure,periodic pain in back,1.0,1
+spine painful on pressure,heaviness of all limbs,1.0,1
+spine painful on pressure,back pain extends to head,1.0,1
+spine painful on pressure,hands cold,1.0,1
+spine painful on pressure,symptoms occur at same hour daily,1.0,1
+spine painful on pressure,intermittent neuralgia of supraorbital nerve,1.0,1
+spine painful on pressure,compare with pulsatilla in erratic pains,1.0,1
+spine painful on pressure,palpitation after slight exercise,1.0,1
+spine painful on pressure,painful enlargement of spleen,1.0,1
+spine painful on pressure,perfectly developed fever,1.0,1
+spine painful on pressure,profuse debilitating sweats,1.0,1
+spine painful on pressure,sensitiveness of last cervical vertebra,1.0,1
+spine painful on pressure,face anxious,1.0,1
+spine painful on pressure,perfectly developed sweat,1.0,1
+spine painful on pressure,perfectly developed chill,1.0,1
+spine painful on pressure,rheumatic pain in right shoulder,1.0,1
+spine painful on pressure,fear of impending evil,1.0,1
+spine painful on pressure,joints exquisitely sensitive to touch,1.0,1
+spine painful on pressure,compare with stannum in supraorbital neuralgia,1.0,1
+spine painful on pressure,remitting fever,1.0,1
+spine painful on pressure,back pain returns about midnight,1.0,1
+spine painful on pressure,buzzing in ears,1.0,1
+spine painful on pressure,joints painful,1.0,1
+spine painful on pressure,fever with ankle pain,1.0,1
+spine painful on pressure,aching in joints,1.0,1
+spine painful on pressure,knee joint much swollen,1.0,1
+spine painful on pressure,ankle pain after taking cold,1.0,1
+spine painful on pressure,intermitting fever,1.0,1
+spine painful on pressure,neck muscles stiff,1.0,1
+spine painful on pressure,whirling in head like mill wheel,1.0,1
+spine painful on pressure,ankles swollen,1.0,1
+spine painful on pressure,inflammatory articular rheumatism,1.0,1
+spine painful on pressure,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+spine painful on pressure,acute rheumatic pain in left ankle joint,1.0,1
+spine painful on pressure,paralysis of limbs,1.0,1
+spine painful on pressure,aching of limbs,1.0,1
+spine painful on pressure,profuse sweat with ankle pain,1.0,1
+spine painful on pressure,cold sweat on hands,1.0,1
+spine painful on pressure,right wrist painful on motion,1.0,1
+spine painful on pressure,cutting pain in feet during chill,1.0,1
+spine painful on pressure,sensitiveness of first dorsal vertebra,1.0,1
+spine painful on pressure,first three dorsal vertebrae sensitive to touch,1.0,1
+compare with pulsatilla in erratic pains,neck muscles seem swollen,1.0,1
+compare with pulsatilla in erratic pains,knee joint very painful,1.0,1
+compare with pulsatilla in erratic pains,sciatic neuralgia of right side,1.0,1
+compare with pulsatilla in erratic pains,spine painful on pressure,1.0,1
+compare with pulsatilla in erratic pains,periodic pain in back,1.0,1
+compare with pulsatilla in erratic pains,heaviness of all limbs,1.0,1
+compare with pulsatilla in erratic pains,back pain extends to head,1.0,1
+compare with pulsatilla in erratic pains,hands cold,1.0,1
+compare with pulsatilla in erratic pains,symptoms occur at same hour daily,1.0,1
+compare with pulsatilla in erratic pains,intermittent neuralgia of supraorbital nerve,1.0,1
+compare with pulsatilla in erratic pains,palpitation after slight exercise,1.0,1
+compare with pulsatilla in erratic pains,painful enlargement of spleen,1.0,1
+compare with pulsatilla in erratic pains,perfectly developed fever,1.0,1
+compare with pulsatilla in erratic pains,profuse debilitating sweats,1.0,1
+compare with pulsatilla in erratic pains,sensitiveness of last cervical vertebra,1.0,1
+compare with pulsatilla in erratic pains,face anxious,1.0,1
+compare with pulsatilla in erratic pains,perfectly developed sweat,1.0,1
+compare with pulsatilla in erratic pains,perfectly developed chill,1.0,1
+compare with pulsatilla in erratic pains,rheumatic pain in right shoulder,1.0,1
+compare with pulsatilla in erratic pains,fear of impending evil,1.0,1
+compare with pulsatilla in erratic pains,joints exquisitely sensitive to touch,1.0,1
+compare with pulsatilla in erratic pains,compare with stannum in supraorbital neuralgia,1.0,1
+compare with pulsatilla in erratic pains,remitting fever,1.0,1
+compare with pulsatilla in erratic pains,back pain returns about midnight,1.0,1
+compare with pulsatilla in erratic pains,buzzing in ears,1.0,1
+compare with pulsatilla in erratic pains,joints painful,1.0,1
+compare with pulsatilla in erratic pains,fever with ankle pain,1.0,1
+compare with pulsatilla in erratic pains,aching in joints,1.0,1
+compare with pulsatilla in erratic pains,knee joint much swollen,1.0,1
+compare with pulsatilla in erratic pains,ankle pain after taking cold,1.0,1
+compare with pulsatilla in erratic pains,intermitting fever,1.0,1
+compare with pulsatilla in erratic pains,neck muscles stiff,1.0,1
+compare with pulsatilla in erratic pains,whirling in head like mill wheel,1.0,1
+compare with pulsatilla in erratic pains,ankles swollen,1.0,1
+compare with pulsatilla in erratic pains,inflammatory articular rheumatism,1.0,1
+compare with pulsatilla in erratic pains,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+compare with pulsatilla in erratic pains,acute rheumatic pain in left ankle joint,1.0,1
+compare with pulsatilla in erratic pains,paralysis of limbs,1.0,1
+compare with pulsatilla in erratic pains,aching of limbs,1.0,1
+compare with pulsatilla in erratic pains,profuse sweat with ankle pain,1.0,1
+compare with pulsatilla in erratic pains,cold sweat on hands,1.0,1
+compare with pulsatilla in erratic pains,right wrist painful on motion,1.0,1
+compare with pulsatilla in erratic pains,cutting pain in feet during chill,1.0,1
+compare with pulsatilla in erratic pains,sensitiveness of first dorsal vertebra,1.0,1
+compare with pulsatilla in erratic pains,first three dorsal vertebrae sensitive to touch,1.0,1
+perfectly developed fever,neck muscles seem swollen,1.0,1
+perfectly developed fever,knee joint very painful,1.0,1
+perfectly developed fever,sciatic neuralgia of right side,1.0,1
+perfectly developed fever,spine painful on pressure,1.0,1
+perfectly developed fever,periodic pain in back,1.0,1
+perfectly developed fever,heaviness of all limbs,1.0,1
+perfectly developed fever,back pain extends to head,1.0,1
+perfectly developed fever,hands cold,1.0,1
+perfectly developed fever,symptoms occur at same hour daily,1.0,1
+perfectly developed fever,intermittent neuralgia of supraorbital nerve,1.0,1
+perfectly developed fever,compare with pulsatilla in erratic pains,1.0,1
+perfectly developed fever,palpitation after slight exercise,1.0,1
+perfectly developed fever,painful enlargement of spleen,1.0,1
+perfectly developed fever,profuse debilitating sweats,1.0,1
+perfectly developed fever,sensitiveness of last cervical vertebra,1.0,1
+perfectly developed fever,face anxious,1.0,1
+perfectly developed fever,perfectly developed sweat,1.0,1
+perfectly developed fever,perfectly developed chill,1.0,1
+perfectly developed fever,rheumatic pain in right shoulder,1.0,1
+perfectly developed fever,fear of impending evil,1.0,1
+perfectly developed fever,joints exquisitely sensitive to touch,1.0,1
+perfectly developed fever,compare with stannum in supraorbital neuralgia,1.0,1
+perfectly developed fever,remitting fever,1.0,1
+perfectly developed fever,back pain returns about midnight,1.0,1
+perfectly developed fever,buzzing in ears,1.0,1
+perfectly developed fever,joints painful,1.0,1
+perfectly developed fever,fever with ankle pain,1.0,1
+perfectly developed fever,aching in joints,1.0,1
+perfectly developed fever,knee joint much swollen,1.0,1
+perfectly developed fever,ankle pain after taking cold,1.0,1
+perfectly developed fever,intermitting fever,1.0,1
+perfectly developed fever,neck muscles stiff,1.0,1
+perfectly developed fever,whirling in head like mill wheel,1.0,1
+perfectly developed fever,ankles swollen,1.0,1
+perfectly developed fever,inflammatory articular rheumatism,1.0,1
+perfectly developed fever,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+perfectly developed fever,acute rheumatic pain in left ankle joint,1.0,1
+perfectly developed fever,paralysis of limbs,1.0,1
+perfectly developed fever,aching of limbs,1.0,1
+perfectly developed fever,profuse sweat with ankle pain,1.0,1
+perfectly developed fever,cold sweat on hands,1.0,1
+perfectly developed fever,right wrist painful on motion,1.0,1
+perfectly developed fever,cutting pain in feet during chill,1.0,1
+perfectly developed fever,sensitiveness of first dorsal vertebra,1.0,1
+perfectly developed fever,first three dorsal vertebrae sensitive to touch,1.0,1
+perfectly developed sweat,neck muscles seem swollen,1.0,1
+perfectly developed sweat,knee joint very painful,1.0,1
+perfectly developed sweat,sciatic neuralgia of right side,1.0,1
+perfectly developed sweat,spine painful on pressure,1.0,1
+perfectly developed sweat,periodic pain in back,1.0,1
+perfectly developed sweat,heaviness of all limbs,1.0,1
+perfectly developed sweat,back pain extends to head,1.0,1
+perfectly developed sweat,hands cold,1.0,1
+perfectly developed sweat,symptoms occur at same hour daily,1.0,1
+perfectly developed sweat,intermittent neuralgia of supraorbital nerve,1.0,1
+perfectly developed sweat,compare with pulsatilla in erratic pains,1.0,1
+perfectly developed sweat,palpitation after slight exercise,1.0,1
+perfectly developed sweat,painful enlargement of spleen,1.0,1
+perfectly developed sweat,perfectly developed fever,1.0,1
+perfectly developed sweat,profuse debilitating sweats,1.0,1
+perfectly developed sweat,sensitiveness of last cervical vertebra,1.0,1
+perfectly developed sweat,face anxious,1.0,1
+perfectly developed sweat,perfectly developed chill,1.0,1
+perfectly developed sweat,rheumatic pain in right shoulder,1.0,1
+perfectly developed sweat,fear of impending evil,1.0,1
+perfectly developed sweat,joints exquisitely sensitive to touch,1.0,1
+perfectly developed sweat,compare with stannum in supraorbital neuralgia,1.0,1
+perfectly developed sweat,remitting fever,1.0,1
+perfectly developed sweat,back pain returns about midnight,1.0,1
+perfectly developed sweat,buzzing in ears,1.0,1
+perfectly developed sweat,joints painful,1.0,1
+perfectly developed sweat,fever with ankle pain,1.0,1
+perfectly developed sweat,aching in joints,1.0,1
+perfectly developed sweat,knee joint much swollen,1.0,1
+perfectly developed sweat,ankle pain after taking cold,1.0,1
+perfectly developed sweat,intermitting fever,1.0,1
+perfectly developed sweat,neck muscles stiff,1.0,1
+perfectly developed sweat,whirling in head like mill wheel,1.0,1
+perfectly developed sweat,ankles swollen,1.0,1
+perfectly developed sweat,inflammatory articular rheumatism,1.0,1
+perfectly developed sweat,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+perfectly developed sweat,acute rheumatic pain in left ankle joint,1.0,1
+perfectly developed sweat,paralysis of limbs,1.0,1
+perfectly developed sweat,aching of limbs,1.0,1
+perfectly developed sweat,profuse sweat with ankle pain,1.0,1
+perfectly developed sweat,cold sweat on hands,1.0,1
+perfectly developed sweat,right wrist painful on motion,1.0,1
+perfectly developed sweat,cutting pain in feet during chill,1.0,1
+perfectly developed sweat,sensitiveness of first dorsal vertebra,1.0,1
+perfectly developed sweat,first three dorsal vertebrae sensitive to touch,1.0,1
+inflammatory articular rheumatism,neck muscles seem swollen,1.0,1
+inflammatory articular rheumatism,knee joint very painful,1.0,1
+inflammatory articular rheumatism,sciatic neuralgia of right side,1.0,1
+inflammatory articular rheumatism,spine painful on pressure,1.0,1
+inflammatory articular rheumatism,periodic pain in back,1.0,1
+inflammatory articular rheumatism,heaviness of all limbs,1.0,1
+inflammatory articular rheumatism,back pain extends to head,1.0,1
+inflammatory articular rheumatism,hands cold,1.0,1
+inflammatory articular rheumatism,symptoms occur at same hour daily,1.0,1
+inflammatory articular rheumatism,intermittent neuralgia of supraorbital nerve,1.0,1
+inflammatory articular rheumatism,compare with pulsatilla in erratic pains,1.0,1
+inflammatory articular rheumatism,palpitation after slight exercise,1.0,1
+inflammatory articular rheumatism,painful enlargement of spleen,1.0,1
+inflammatory articular rheumatism,perfectly developed fever,1.0,1
+inflammatory articular rheumatism,profuse debilitating sweats,1.0,1
+inflammatory articular rheumatism,sensitiveness of last cervical vertebra,1.0,1
+inflammatory articular rheumatism,face anxious,1.0,1
+inflammatory articular rheumatism,perfectly developed sweat,1.0,1
+inflammatory articular rheumatism,perfectly developed chill,1.0,1
+inflammatory articular rheumatism,rheumatic pain in right shoulder,1.0,1
+inflammatory articular rheumatism,fear of impending evil,1.0,1
+inflammatory articular rheumatism,joints exquisitely sensitive to touch,1.0,1
+inflammatory articular rheumatism,compare with stannum in supraorbital neuralgia,1.0,1
+inflammatory articular rheumatism,remitting fever,1.0,1
+inflammatory articular rheumatism,back pain returns about midnight,1.0,1
+inflammatory articular rheumatism,buzzing in ears,1.0,1
+inflammatory articular rheumatism,joints painful,1.0,1
+inflammatory articular rheumatism,fever with ankle pain,1.0,1
+inflammatory articular rheumatism,aching in joints,1.0,1
+inflammatory articular rheumatism,knee joint much swollen,1.0,1
+inflammatory articular rheumatism,ankle pain after taking cold,1.0,1
+inflammatory articular rheumatism,intermitting fever,1.0,1
+inflammatory articular rheumatism,neck muscles stiff,1.0,1
+inflammatory articular rheumatism,whirling in head like mill wheel,1.0,1
+inflammatory articular rheumatism,ankles swollen,1.0,1
+inflammatory articular rheumatism,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+inflammatory articular rheumatism,acute rheumatic pain in left ankle joint,1.0,1
+inflammatory articular rheumatism,paralysis of limbs,1.0,1
+inflammatory articular rheumatism,aching of limbs,1.0,1
+inflammatory articular rheumatism,profuse sweat with ankle pain,1.0,1
+inflammatory articular rheumatism,cold sweat on hands,1.0,1
+inflammatory articular rheumatism,right wrist painful on motion,1.0,1
+inflammatory articular rheumatism,cutting pain in feet during chill,1.0,1
+inflammatory articular rheumatism,sensitiveness of first dorsal vertebra,1.0,1
+inflammatory articular rheumatism,first three dorsal vertebrae sensitive to touch,1.0,1
+ankle pain after taking cold,neck muscles seem swollen,1.0,1
+ankle pain after taking cold,knee joint very painful,1.0,1
+ankle pain after taking cold,sciatic neuralgia of right side,1.0,1
+ankle pain after taking cold,spine painful on pressure,1.0,1
+ankle pain after taking cold,periodic pain in back,1.0,1
+ankle pain after taking cold,heaviness of all limbs,1.0,1
+ankle pain after taking cold,back pain extends to head,1.0,1
+ankle pain after taking cold,hands cold,1.0,1
+ankle pain after taking cold,symptoms occur at same hour daily,1.0,1
+ankle pain after taking cold,intermittent neuralgia of supraorbital nerve,1.0,1
+ankle pain after taking cold,compare with pulsatilla in erratic pains,1.0,1
+ankle pain after taking cold,palpitation after slight exercise,1.0,1
+ankle pain after taking cold,painful enlargement of spleen,1.0,1
+ankle pain after taking cold,perfectly developed fever,1.0,1
+ankle pain after taking cold,profuse debilitating sweats,1.0,1
+ankle pain after taking cold,sensitiveness of last cervical vertebra,1.0,1
+ankle pain after taking cold,face anxious,1.0,1
+ankle pain after taking cold,perfectly developed sweat,1.0,1
+ankle pain after taking cold,perfectly developed chill,1.0,1
+ankle pain after taking cold,rheumatic pain in right shoulder,1.0,1
+ankle pain after taking cold,fear of impending evil,1.0,1
+ankle pain after taking cold,joints exquisitely sensitive to touch,1.0,1
+ankle pain after taking cold,compare with stannum in supraorbital neuralgia,1.0,1
+ankle pain after taking cold,remitting fever,1.0,1
+ankle pain after taking cold,back pain returns about midnight,1.0,1
+ankle pain after taking cold,buzzing in ears,1.0,1
+ankle pain after taking cold,joints painful,1.0,1
+ankle pain after taking cold,fever with ankle pain,1.0,1
+ankle pain after taking cold,aching in joints,1.0,1
+ankle pain after taking cold,knee joint much swollen,1.0,1
+ankle pain after taking cold,intermitting fever,1.0,1
+ankle pain after taking cold,neck muscles stiff,1.0,1
+ankle pain after taking cold,whirling in head like mill wheel,1.0,1
+ankle pain after taking cold,ankles swollen,1.0,1
+ankle pain after taking cold,inflammatory articular rheumatism,1.0,1
+ankle pain after taking cold,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+ankle pain after taking cold,acute rheumatic pain in left ankle joint,1.0,1
+ankle pain after taking cold,paralysis of limbs,1.0,1
+ankle pain after taking cold,aching of limbs,1.0,1
+ankle pain after taking cold,profuse sweat with ankle pain,1.0,1
+ankle pain after taking cold,cold sweat on hands,1.0,1
+ankle pain after taking cold,right wrist painful on motion,1.0,1
+ankle pain after taking cold,cutting pain in feet during chill,1.0,1
+ankle pain after taking cold,sensitiveness of first dorsal vertebra,1.0,1
+ankle pain after taking cold,first three dorsal vertebrae sensitive to touch,1.0,1
+neck muscles stiff,neck muscles seem swollen,1.0,1
+neck muscles stiff,knee joint very painful,1.0,1
+neck muscles stiff,sciatic neuralgia of right side,1.0,1
+neck muscles stiff,spine painful on pressure,1.0,1
+neck muscles stiff,periodic pain in back,1.0,1
+neck muscles stiff,heaviness of all limbs,1.0,1
+neck muscles stiff,back pain extends to head,1.0,1
+neck muscles stiff,hands cold,1.0,1
+neck muscles stiff,symptoms occur at same hour daily,1.0,1
+neck muscles stiff,intermittent neuralgia of supraorbital nerve,1.0,1
+neck muscles stiff,compare with pulsatilla in erratic pains,1.0,1
+neck muscles stiff,palpitation after slight exercise,1.0,1
+neck muscles stiff,painful enlargement of spleen,1.0,1
+neck muscles stiff,perfectly developed fever,1.0,1
+neck muscles stiff,profuse debilitating sweats,1.0,1
+neck muscles stiff,sensitiveness of last cervical vertebra,1.0,1
+neck muscles stiff,face anxious,1.0,1
+neck muscles stiff,perfectly developed sweat,1.0,1
+neck muscles stiff,perfectly developed chill,1.0,1
+neck muscles stiff,rheumatic pain in right shoulder,1.0,1
+neck muscles stiff,fear of impending evil,1.0,1
+neck muscles stiff,joints exquisitely sensitive to touch,1.0,1
+neck muscles stiff,compare with stannum in supraorbital neuralgia,1.0,1
+neck muscles stiff,remitting fever,1.0,1
+neck muscles stiff,back pain returns about midnight,1.0,1
+neck muscles stiff,buzzing in ears,1.0,1
+neck muscles stiff,joints painful,1.0,1
+neck muscles stiff,fever with ankle pain,1.0,1
+neck muscles stiff,aching in joints,1.0,1
+neck muscles stiff,knee joint much swollen,1.0,1
+neck muscles stiff,ankle pain after taking cold,1.0,1
+neck muscles stiff,intermitting fever,1.0,1
+neck muscles stiff,whirling in head like mill wheel,1.0,1
+neck muscles stiff,ankles swollen,1.0,1
+neck muscles stiff,inflammatory articular rheumatism,1.0,1
+neck muscles stiff,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+neck muscles stiff,acute rheumatic pain in left ankle joint,1.0,1
+neck muscles stiff,paralysis of limbs,1.0,1
+neck muscles stiff,aching of limbs,1.0,1
+neck muscles stiff,profuse sweat with ankle pain,1.0,1
+neck muscles stiff,cold sweat on hands,1.0,1
+neck muscles stiff,right wrist painful on motion,1.0,1
+neck muscles stiff,cutting pain in feet during chill,1.0,1
+neck muscles stiff,sensitiveness of first dorsal vertebra,1.0,1
+neck muscles stiff,first three dorsal vertebrae sensitive to touch,1.0,1
+back pain extends to head,neck muscles seem swollen,1.0,1
+back pain extends to head,knee joint very painful,1.0,1
+back pain extends to head,sciatic neuralgia of right side,1.0,1
+back pain extends to head,spine painful on pressure,1.0,1
+back pain extends to head,periodic pain in back,1.0,1
+back pain extends to head,heaviness of all limbs,1.0,1
+back pain extends to head,hands cold,1.0,1
+back pain extends to head,symptoms occur at same hour daily,1.0,1
+back pain extends to head,intermittent neuralgia of supraorbital nerve,1.0,1
+back pain extends to head,compare with pulsatilla in erratic pains,1.0,1
+back pain extends to head,palpitation after slight exercise,1.0,1
+back pain extends to head,painful enlargement of spleen,1.0,1
+back pain extends to head,perfectly developed fever,1.0,1
+back pain extends to head,profuse debilitating sweats,1.0,1
+back pain extends to head,sensitiveness of last cervical vertebra,1.0,1
+back pain extends to head,face anxious,1.0,1
+back pain extends to head,perfectly developed sweat,1.0,1
+back pain extends to head,perfectly developed chill,1.0,1
+back pain extends to head,rheumatic pain in right shoulder,1.0,1
+back pain extends to head,fear of impending evil,1.0,1
+back pain extends to head,joints exquisitely sensitive to touch,1.0,1
+back pain extends to head,compare with stannum in supraorbital neuralgia,1.0,1
+back pain extends to head,remitting fever,1.0,1
+back pain extends to head,back pain returns about midnight,1.0,1
+back pain extends to head,buzzing in ears,1.0,1
+back pain extends to head,joints painful,1.0,1
+back pain extends to head,fever with ankle pain,1.0,1
+back pain extends to head,aching in joints,1.0,1
+back pain extends to head,knee joint much swollen,1.0,1
+back pain extends to head,ankle pain after taking cold,1.0,1
+back pain extends to head,intermitting fever,1.0,1
+back pain extends to head,neck muscles stiff,1.0,1
+back pain extends to head,whirling in head like mill wheel,1.0,1
+back pain extends to head,ankles swollen,1.0,1
+back pain extends to head,inflammatory articular rheumatism,1.0,1
+back pain extends to head,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+back pain extends to head,acute rheumatic pain in left ankle joint,1.0,1
+back pain extends to head,paralysis of limbs,1.0,1
+back pain extends to head,aching of limbs,1.0,1
+back pain extends to head,profuse sweat with ankle pain,1.0,1
+back pain extends to head,cold sweat on hands,1.0,1
+back pain extends to head,right wrist painful on motion,1.0,1
+back pain extends to head,cutting pain in feet during chill,1.0,1
+back pain extends to head,sensitiveness of first dorsal vertebra,1.0,1
+back pain extends to head,first three dorsal vertebrae sensitive to touch,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,neck muscles seem swollen,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,knee joint very painful,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,sciatic neuralgia of right side,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,spine painful on pressure,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,periodic pain in back,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,heaviness of all limbs,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,back pain extends to head,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,hands cold,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,symptoms occur at same hour daily,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,intermittent neuralgia of supraorbital nerve,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,compare with pulsatilla in erratic pains,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,palpitation after slight exercise,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,painful enlargement of spleen,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,perfectly developed fever,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,profuse debilitating sweats,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,sensitiveness of last cervical vertebra,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,face anxious,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,perfectly developed sweat,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,perfectly developed chill,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,rheumatic pain in right shoulder,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,fear of impending evil,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,joints exquisitely sensitive to touch,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,compare with stannum in supraorbital neuralgia,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,remitting fever,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,back pain returns about midnight,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,buzzing in ears,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,joints painful,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,fever with ankle pain,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,aching in joints,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,knee joint much swollen,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,ankle pain after taking cold,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,intermitting fever,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,neck muscles stiff,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,whirling in head like mill wheel,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,ankles swollen,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,inflammatory articular rheumatism,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,acute rheumatic pain in left ankle joint,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,paralysis of limbs,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,aching of limbs,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,profuse sweat with ankle pain,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,cold sweat on hands,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,right wrist painful on motion,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,cutting pain in feet during chill,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,sensitiveness of first dorsal vertebra,1.0,1
+violent pains in lateral neck muscles at 4 p.m.,first three dorsal vertebrae sensitive to touch,1.0,1
+neck muscles seem swollen,knee joint very painful,1.0,1
+neck muscles seem swollen,sciatic neuralgia of right side,1.0,1
+neck muscles seem swollen,spine painful on pressure,1.0,1
+neck muscles seem swollen,periodic pain in back,1.0,1
+neck muscles seem swollen,heaviness of all limbs,1.0,1
+neck muscles seem swollen,back pain extends to head,1.0,1
+neck muscles seem swollen,hands cold,1.0,1
+neck muscles seem swollen,symptoms occur at same hour daily,1.0,1
+neck muscles seem swollen,intermittent neuralgia of supraorbital nerve,1.0,1
+neck muscles seem swollen,compare with pulsatilla in erratic pains,1.0,1
+neck muscles seem swollen,palpitation after slight exercise,1.0,1
+neck muscles seem swollen,painful enlargement of spleen,1.0,1
+neck muscles seem swollen,perfectly developed fever,1.0,1
+neck muscles seem swollen,profuse debilitating sweats,1.0,1
+neck muscles seem swollen,sensitiveness of last cervical vertebra,1.0,1
+neck muscles seem swollen,face anxious,1.0,1
+neck muscles seem swollen,perfectly developed sweat,1.0,1
+neck muscles seem swollen,perfectly developed chill,1.0,1
+neck muscles seem swollen,rheumatic pain in right shoulder,1.0,1
+neck muscles seem swollen,fear of impending evil,1.0,1
+neck muscles seem swollen,joints exquisitely sensitive to touch,1.0,1
+neck muscles seem swollen,compare with stannum in supraorbital neuralgia,1.0,1
+neck muscles seem swollen,remitting fever,1.0,1
+neck muscles seem swollen,back pain returns about midnight,1.0,1
+neck muscles seem swollen,buzzing in ears,1.0,1
+neck muscles seem swollen,joints painful,1.0,1
+neck muscles seem swollen,fever with ankle pain,1.0,1
+neck muscles seem swollen,aching in joints,1.0,1
+neck muscles seem swollen,knee joint much swollen,1.0,1
+neck muscles seem swollen,ankle pain after taking cold,1.0,1
+neck muscles seem swollen,intermitting fever,1.0,1
+neck muscles seem swollen,neck muscles stiff,1.0,1
+neck muscles seem swollen,whirling in head like mill wheel,1.0,1
+neck muscles seem swollen,ankles swollen,1.0,1
+neck muscles seem swollen,inflammatory articular rheumatism,1.0,1
+neck muscles seem swollen,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+neck muscles seem swollen,acute rheumatic pain in left ankle joint,1.0,1
+neck muscles seem swollen,paralysis of limbs,1.0,1
+neck muscles seem swollen,aching of limbs,1.0,1
+neck muscles seem swollen,profuse sweat with ankle pain,1.0,1
+neck muscles seem swollen,cold sweat on hands,1.0,1
+neck muscles seem swollen,right wrist painful on motion,1.0,1
+neck muscles seem swollen,cutting pain in feet during chill,1.0,1
+neck muscles seem swollen,sensitiveness of first dorsal vertebra,1.0,1
+neck muscles seem swollen,first three dorsal vertebrae sensitive to touch,1.0,1
+periodic pain in back,neck muscles seem swollen,1.0,1
+periodic pain in back,knee joint very painful,1.0,1
+periodic pain in back,sciatic neuralgia of right side,1.0,1
+periodic pain in back,spine painful on pressure,1.0,1
+periodic pain in back,heaviness of all limbs,1.0,1
+periodic pain in back,back pain extends to head,1.0,1
+periodic pain in back,hands cold,1.0,1
+periodic pain in back,symptoms occur at same hour daily,1.0,1
+periodic pain in back,intermittent neuralgia of supraorbital nerve,1.0,1
+periodic pain in back,compare with pulsatilla in erratic pains,1.0,1
+periodic pain in back,palpitation after slight exercise,1.0,1
+periodic pain in back,painful enlargement of spleen,1.0,1
+periodic pain in back,perfectly developed fever,1.0,1
+periodic pain in back,profuse debilitating sweats,1.0,1
+periodic pain in back,sensitiveness of last cervical vertebra,1.0,1
+periodic pain in back,face anxious,1.0,1
+periodic pain in back,perfectly developed sweat,1.0,1
+periodic pain in back,perfectly developed chill,1.0,1
+periodic pain in back,rheumatic pain in right shoulder,1.0,1
+periodic pain in back,fear of impending evil,1.0,1
+periodic pain in back,joints exquisitely sensitive to touch,1.0,1
+periodic pain in back,compare with stannum in supraorbital neuralgia,1.0,1
+periodic pain in back,remitting fever,1.0,1
+periodic pain in back,back pain returns about midnight,1.0,1
+periodic pain in back,buzzing in ears,1.0,1
+periodic pain in back,joints painful,1.0,1
+periodic pain in back,fever with ankle pain,1.0,1
+periodic pain in back,aching in joints,1.0,1
+periodic pain in back,knee joint much swollen,1.0,1
+periodic pain in back,ankle pain after taking cold,1.0,1
+periodic pain in back,intermitting fever,1.0,1
+periodic pain in back,neck muscles stiff,1.0,1
+periodic pain in back,whirling in head like mill wheel,1.0,1
+periodic pain in back,ankles swollen,1.0,1
+periodic pain in back,inflammatory articular rheumatism,1.0,1
+periodic pain in back,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+periodic pain in back,acute rheumatic pain in left ankle joint,1.0,1
+periodic pain in back,paralysis of limbs,1.0,1
+periodic pain in back,aching of limbs,1.0,1
+periodic pain in back,profuse sweat with ankle pain,1.0,1
+periodic pain in back,cold sweat on hands,1.0,1
+periodic pain in back,right wrist painful on motion,1.0,1
+periodic pain in back,cutting pain in feet during chill,1.0,1
+periodic pain in back,sensitiveness of first dorsal vertebra,1.0,1
+periodic pain in back,first three dorsal vertebrae sensitive to touch,1.0,1
+whirling in head like mill wheel,neck muscles seem swollen,1.0,1
+whirling in head like mill wheel,knee joint very painful,1.0,1
+whirling in head like mill wheel,sciatic neuralgia of right side,1.0,1
+whirling in head like mill wheel,spine painful on pressure,1.0,1
+whirling in head like mill wheel,periodic pain in back,1.0,1
+whirling in head like mill wheel,heaviness of all limbs,1.0,1
+whirling in head like mill wheel,back pain extends to head,1.0,1
+whirling in head like mill wheel,hands cold,1.0,1
+whirling in head like mill wheel,symptoms occur at same hour daily,1.0,1
+whirling in head like mill wheel,intermittent neuralgia of supraorbital nerve,1.0,1
+whirling in head like mill wheel,compare with pulsatilla in erratic pains,1.0,1
+whirling in head like mill wheel,palpitation after slight exercise,1.0,1
+whirling in head like mill wheel,painful enlargement of spleen,1.0,1
+whirling in head like mill wheel,perfectly developed fever,1.0,1
+whirling in head like mill wheel,profuse debilitating sweats,1.0,1
+whirling in head like mill wheel,sensitiveness of last cervical vertebra,1.0,1
+whirling in head like mill wheel,face anxious,1.0,1
+whirling in head like mill wheel,perfectly developed sweat,1.0,1
+whirling in head like mill wheel,perfectly developed chill,1.0,1
+whirling in head like mill wheel,rheumatic pain in right shoulder,1.0,1
+whirling in head like mill wheel,fear of impending evil,1.0,1
+whirling in head like mill wheel,joints exquisitely sensitive to touch,1.0,1
+whirling in head like mill wheel,compare with stannum in supraorbital neuralgia,1.0,1
+whirling in head like mill wheel,remitting fever,1.0,1
+whirling in head like mill wheel,back pain returns about midnight,1.0,1
+whirling in head like mill wheel,buzzing in ears,1.0,1
+whirling in head like mill wheel,joints painful,1.0,1
+whirling in head like mill wheel,fever with ankle pain,1.0,1
+whirling in head like mill wheel,aching in joints,1.0,1
+whirling in head like mill wheel,knee joint much swollen,1.0,1
+whirling in head like mill wheel,ankle pain after taking cold,1.0,1
+whirling in head like mill wheel,intermitting fever,1.0,1
+whirling in head like mill wheel,neck muscles stiff,1.0,1
+whirling in head like mill wheel,ankles swollen,1.0,1
+whirling in head like mill wheel,inflammatory articular rheumatism,1.0,1
+whirling in head like mill wheel,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+whirling in head like mill wheel,acute rheumatic pain in left ankle joint,1.0,1
+whirling in head like mill wheel,paralysis of limbs,1.0,1
+whirling in head like mill wheel,aching of limbs,1.0,1
+whirling in head like mill wheel,profuse sweat with ankle pain,1.0,1
+whirling in head like mill wheel,cold sweat on hands,1.0,1
+whirling in head like mill wheel,right wrist painful on motion,1.0,1
+whirling in head like mill wheel,cutting pain in feet during chill,1.0,1
+whirling in head like mill wheel,sensitiveness of first dorsal vertebra,1.0,1
+whirling in head like mill wheel,first three dorsal vertebrae sensitive to touch,1.0,1
+symptoms occur at same hour daily,neck muscles seem swollen,1.0,1
+symptoms occur at same hour daily,knee joint very painful,1.0,1
+symptoms occur at same hour daily,sciatic neuralgia of right side,1.0,1
+symptoms occur at same hour daily,spine painful on pressure,1.0,1
+symptoms occur at same hour daily,periodic pain in back,1.0,1
+symptoms occur at same hour daily,heaviness of all limbs,1.0,1
+symptoms occur at same hour daily,back pain extends to head,1.0,1
+symptoms occur at same hour daily,hands cold,1.0,1
+symptoms occur at same hour daily,intermittent neuralgia of supraorbital nerve,1.0,1
+symptoms occur at same hour daily,compare with pulsatilla in erratic pains,1.0,1
+symptoms occur at same hour daily,palpitation after slight exercise,1.0,1
+symptoms occur at same hour daily,painful enlargement of spleen,1.0,1
+symptoms occur at same hour daily,perfectly developed fever,1.0,1
+symptoms occur at same hour daily,profuse debilitating sweats,1.0,1
+symptoms occur at same hour daily,sensitiveness of last cervical vertebra,1.0,1
+symptoms occur at same hour daily,face anxious,1.0,1
+symptoms occur at same hour daily,perfectly developed sweat,1.0,1
+symptoms occur at same hour daily,perfectly developed chill,1.0,1
+symptoms occur at same hour daily,rheumatic pain in right shoulder,1.0,1
+symptoms occur at same hour daily,fear of impending evil,1.0,1
+symptoms occur at same hour daily,joints exquisitely sensitive to touch,1.0,1
+symptoms occur at same hour daily,compare with stannum in supraorbital neuralgia,1.0,1
+symptoms occur at same hour daily,remitting fever,1.0,1
+symptoms occur at same hour daily,back pain returns about midnight,1.0,1
+symptoms occur at same hour daily,buzzing in ears,1.0,1
+symptoms occur at same hour daily,joints painful,1.0,1
+symptoms occur at same hour daily,fever with ankle pain,1.0,1
+symptoms occur at same hour daily,aching in joints,1.0,1
+symptoms occur at same hour daily,knee joint much swollen,1.0,1
+symptoms occur at same hour daily,ankle pain after taking cold,1.0,1
+symptoms occur at same hour daily,intermitting fever,1.0,1
+symptoms occur at same hour daily,neck muscles stiff,1.0,1
+symptoms occur at same hour daily,whirling in head like mill wheel,1.0,1
+symptoms occur at same hour daily,ankles swollen,1.0,1
+symptoms occur at same hour daily,inflammatory articular rheumatism,1.0,1
+symptoms occur at same hour daily,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+symptoms occur at same hour daily,acute rheumatic pain in left ankle joint,1.0,1
+symptoms occur at same hour daily,paralysis of limbs,1.0,1
+symptoms occur at same hour daily,aching of limbs,1.0,1
+symptoms occur at same hour daily,profuse sweat with ankle pain,1.0,1
+symptoms occur at same hour daily,cold sweat on hands,1.0,1
+symptoms occur at same hour daily,right wrist painful on motion,1.0,1
+symptoms occur at same hour daily,cutting pain in feet during chill,1.0,1
+symptoms occur at same hour daily,sensitiveness of first dorsal vertebra,1.0,1
+symptoms occur at same hour daily,first three dorsal vertebrae sensitive to touch,1.0,1
+cutting pain in feet during chill,neck muscles seem swollen,1.0,1
+cutting pain in feet during chill,knee joint very painful,1.0,1
+cutting pain in feet during chill,sciatic neuralgia of right side,1.0,1
+cutting pain in feet during chill,spine painful on pressure,1.0,1
+cutting pain in feet during chill,periodic pain in back,1.0,1
+cutting pain in feet during chill,heaviness of all limbs,1.0,1
+cutting pain in feet during chill,back pain extends to head,1.0,1
+cutting pain in feet during chill,hands cold,1.0,1
+cutting pain in feet during chill,symptoms occur at same hour daily,1.0,1
+cutting pain in feet during chill,intermittent neuralgia of supraorbital nerve,1.0,1
+cutting pain in feet during chill,compare with pulsatilla in erratic pains,1.0,1
+cutting pain in feet during chill,palpitation after slight exercise,1.0,1
+cutting pain in feet during chill,painful enlargement of spleen,1.0,1
+cutting pain in feet during chill,perfectly developed fever,1.0,1
+cutting pain in feet during chill,profuse debilitating sweats,1.0,1
+cutting pain in feet during chill,sensitiveness of last cervical vertebra,1.0,1
+cutting pain in feet during chill,face anxious,1.0,1
+cutting pain in feet during chill,perfectly developed sweat,1.0,1
+cutting pain in feet during chill,perfectly developed chill,1.0,1
+cutting pain in feet during chill,rheumatic pain in right shoulder,1.0,1
+cutting pain in feet during chill,fear of impending evil,1.0,1
+cutting pain in feet during chill,joints exquisitely sensitive to touch,1.0,1
+cutting pain in feet during chill,compare with stannum in supraorbital neuralgia,1.0,1
+cutting pain in feet during chill,remitting fever,1.0,1
+cutting pain in feet during chill,back pain returns about midnight,1.0,1
+cutting pain in feet during chill,buzzing in ears,1.0,1
+cutting pain in feet during chill,joints painful,1.0,1
+cutting pain in feet during chill,fever with ankle pain,1.0,1
+cutting pain in feet during chill,aching in joints,1.0,1
+cutting pain in feet during chill,knee joint much swollen,1.0,1
+cutting pain in feet during chill,ankle pain after taking cold,1.0,1
+cutting pain in feet during chill,intermitting fever,1.0,1
+cutting pain in feet during chill,neck muscles stiff,1.0,1
+cutting pain in feet during chill,whirling in head like mill wheel,1.0,1
+cutting pain in feet during chill,ankles swollen,1.0,1
+cutting pain in feet during chill,inflammatory articular rheumatism,1.0,1
+cutting pain in feet during chill,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+cutting pain in feet during chill,acute rheumatic pain in left ankle joint,1.0,1
+cutting pain in feet during chill,paralysis of limbs,1.0,1
+cutting pain in feet during chill,aching of limbs,1.0,1
+cutting pain in feet during chill,profuse sweat with ankle pain,1.0,1
+cutting pain in feet during chill,cold sweat on hands,1.0,1
+cutting pain in feet during chill,right wrist painful on motion,1.0,1
+cutting pain in feet during chill,sensitiveness of first dorsal vertebra,1.0,1
+cutting pain in feet during chill,first three dorsal vertebrae sensitive to touch,1.0,1
+fear of impending evil,neck muscles seem swollen,1.0,1
+fear of impending evil,knee joint very painful,1.0,1
+fear of impending evil,sciatic neuralgia of right side,1.0,1
+fear of impending evil,spine painful on pressure,1.0,1
+fear of impending evil,periodic pain in back,1.0,1
+fear of impending evil,heaviness of all limbs,1.0,1
+fear of impending evil,back pain extends to head,1.0,1
+fear of impending evil,hands cold,1.0,1
+fear of impending evil,symptoms occur at same hour daily,1.0,1
+fear of impending evil,intermittent neuralgia of supraorbital nerve,1.0,1
+fear of impending evil,compare with pulsatilla in erratic pains,1.0,1
+fear of impending evil,palpitation after slight exercise,1.0,1
+fear of impending evil,painful enlargement of spleen,1.0,1
+fear of impending evil,perfectly developed fever,1.0,1
+fear of impending evil,profuse debilitating sweats,1.0,1
+fear of impending evil,sensitiveness of last cervical vertebra,1.0,1
+fear of impending evil,face anxious,1.0,1
+fear of impending evil,perfectly developed sweat,1.0,1
+fear of impending evil,perfectly developed chill,1.0,1
+fear of impending evil,rheumatic pain in right shoulder,1.0,1
+fear of impending evil,joints exquisitely sensitive to touch,1.0,1
+fear of impending evil,compare with stannum in supraorbital neuralgia,1.0,1
+fear of impending evil,remitting fever,1.0,1
+fear of impending evil,back pain returns about midnight,1.0,1
+fear of impending evil,buzzing in ears,1.0,1
+fear of impending evil,joints painful,1.0,1
+fear of impending evil,fever with ankle pain,1.0,1
+fear of impending evil,aching in joints,1.0,1
+fear of impending evil,knee joint much swollen,1.0,1
+fear of impending evil,ankle pain after taking cold,1.0,1
+fear of impending evil,intermitting fever,1.0,1
+fear of impending evil,neck muscles stiff,1.0,1
+fear of impending evil,whirling in head like mill wheel,1.0,1
+fear of impending evil,ankles swollen,1.0,1
+fear of impending evil,inflammatory articular rheumatism,1.0,1
+fear of impending evil,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+fear of impending evil,acute rheumatic pain in left ankle joint,1.0,1
+fear of impending evil,paralysis of limbs,1.0,1
+fear of impending evil,aching of limbs,1.0,1
+fear of impending evil,profuse sweat with ankle pain,1.0,1
+fear of impending evil,cold sweat on hands,1.0,1
+fear of impending evil,right wrist painful on motion,1.0,1
+fear of impending evil,cutting pain in feet during chill,1.0,1
+fear of impending evil,sensitiveness of first dorsal vertebra,1.0,1
+fear of impending evil,first three dorsal vertebrae sensitive to touch,1.0,1
+joints exquisitely sensitive to touch,neck muscles seem swollen,1.0,1
+joints exquisitely sensitive to touch,knee joint very painful,1.0,1
+joints exquisitely sensitive to touch,sciatic neuralgia of right side,1.0,1
+joints exquisitely sensitive to touch,spine painful on pressure,1.0,1
+joints exquisitely sensitive to touch,periodic pain in back,1.0,1
+joints exquisitely sensitive to touch,heaviness of all limbs,1.0,1
+joints exquisitely sensitive to touch,back pain extends to head,1.0,1
+joints exquisitely sensitive to touch,hands cold,1.0,1
+joints exquisitely sensitive to touch,symptoms occur at same hour daily,1.0,1
+joints exquisitely sensitive to touch,intermittent neuralgia of supraorbital nerve,1.0,1
+joints exquisitely sensitive to touch,compare with pulsatilla in erratic pains,1.0,1
+joints exquisitely sensitive to touch,palpitation after slight exercise,1.0,1
+joints exquisitely sensitive to touch,painful enlargement of spleen,1.0,1
+joints exquisitely sensitive to touch,perfectly developed fever,1.0,1
+joints exquisitely sensitive to touch,profuse debilitating sweats,1.0,1
+joints exquisitely sensitive to touch,sensitiveness of last cervical vertebra,1.0,1
+joints exquisitely sensitive to touch,face anxious,1.0,1
+joints exquisitely sensitive to touch,perfectly developed sweat,1.0,1
+joints exquisitely sensitive to touch,perfectly developed chill,1.0,1
+joints exquisitely sensitive to touch,rheumatic pain in right shoulder,1.0,1
+joints exquisitely sensitive to touch,fear of impending evil,1.0,1
+joints exquisitely sensitive to touch,compare with stannum in supraorbital neuralgia,1.0,1
+joints exquisitely sensitive to touch,remitting fever,1.0,1
+joints exquisitely sensitive to touch,back pain returns about midnight,1.0,1
+joints exquisitely sensitive to touch,buzzing in ears,1.0,1
+joints exquisitely sensitive to touch,joints painful,1.0,1
+joints exquisitely sensitive to touch,fever with ankle pain,1.0,1
+joints exquisitely sensitive to touch,aching in joints,1.0,1
+joints exquisitely sensitive to touch,knee joint much swollen,1.0,1
+joints exquisitely sensitive to touch,ankle pain after taking cold,1.0,1
+joints exquisitely sensitive to touch,intermitting fever,1.0,1
+joints exquisitely sensitive to touch,neck muscles stiff,1.0,1
+joints exquisitely sensitive to touch,whirling in head like mill wheel,1.0,1
+joints exquisitely sensitive to touch,ankles swollen,1.0,1
+joints exquisitely sensitive to touch,inflammatory articular rheumatism,1.0,1
+joints exquisitely sensitive to touch,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+joints exquisitely sensitive to touch,acute rheumatic pain in left ankle joint,1.0,1
+joints exquisitely sensitive to touch,paralysis of limbs,1.0,1
+joints exquisitely sensitive to touch,aching of limbs,1.0,1
+joints exquisitely sensitive to touch,profuse sweat with ankle pain,1.0,1
+joints exquisitely sensitive to touch,cold sweat on hands,1.0,1
+joints exquisitely sensitive to touch,right wrist painful on motion,1.0,1
+joints exquisitely sensitive to touch,cutting pain in feet during chill,1.0,1
+joints exquisitely sensitive to touch,sensitiveness of first dorsal vertebra,1.0,1
+joints exquisitely sensitive to touch,first three dorsal vertebrae sensitive to touch,1.0,1
+sensitiveness of last cervical vertebra,neck muscles seem swollen,1.0,1
+sensitiveness of last cervical vertebra,knee joint very painful,1.0,1
+sensitiveness of last cervical vertebra,sciatic neuralgia of right side,1.0,1
+sensitiveness of last cervical vertebra,spine painful on pressure,1.0,1
+sensitiveness of last cervical vertebra,periodic pain in back,1.0,1
+sensitiveness of last cervical vertebra,heaviness of all limbs,1.0,1
+sensitiveness of last cervical vertebra,back pain extends to head,1.0,1
+sensitiveness of last cervical vertebra,hands cold,1.0,1
+sensitiveness of last cervical vertebra,symptoms occur at same hour daily,1.0,1
+sensitiveness of last cervical vertebra,intermittent neuralgia of supraorbital nerve,1.0,1
+sensitiveness of last cervical vertebra,compare with pulsatilla in erratic pains,1.0,1
+sensitiveness of last cervical vertebra,palpitation after slight exercise,1.0,1
+sensitiveness of last cervical vertebra,painful enlargement of spleen,1.0,1
+sensitiveness of last cervical vertebra,perfectly developed fever,1.0,1
+sensitiveness of last cervical vertebra,profuse debilitating sweats,1.0,1
+sensitiveness of last cervical vertebra,face anxious,1.0,1
+sensitiveness of last cervical vertebra,perfectly developed sweat,1.0,1
+sensitiveness of last cervical vertebra,perfectly developed chill,1.0,1
+sensitiveness of last cervical vertebra,rheumatic pain in right shoulder,1.0,1
+sensitiveness of last cervical vertebra,fear of impending evil,1.0,1
+sensitiveness of last cervical vertebra,joints exquisitely sensitive to touch,1.0,1
+sensitiveness of last cervical vertebra,compare with stannum in supraorbital neuralgia,1.0,1
+sensitiveness of last cervical vertebra,remitting fever,1.0,1
+sensitiveness of last cervical vertebra,back pain returns about midnight,1.0,1
+sensitiveness of last cervical vertebra,buzzing in ears,1.0,1
+sensitiveness of last cervical vertebra,joints painful,1.0,1
+sensitiveness of last cervical vertebra,fever with ankle pain,1.0,1
+sensitiveness of last cervical vertebra,aching in joints,1.0,1
+sensitiveness of last cervical vertebra,knee joint much swollen,1.0,1
+sensitiveness of last cervical vertebra,ankle pain after taking cold,1.0,1
+sensitiveness of last cervical vertebra,intermitting fever,1.0,1
+sensitiveness of last cervical vertebra,neck muscles stiff,1.0,1
+sensitiveness of last cervical vertebra,whirling in head like mill wheel,1.0,1
+sensitiveness of last cervical vertebra,ankles swollen,1.0,1
+sensitiveness of last cervical vertebra,inflammatory articular rheumatism,1.0,1
+sensitiveness of last cervical vertebra,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+sensitiveness of last cervical vertebra,acute rheumatic pain in left ankle joint,1.0,1
+sensitiveness of last cervical vertebra,paralysis of limbs,1.0,1
+sensitiveness of last cervical vertebra,aching of limbs,1.0,1
+sensitiveness of last cervical vertebra,profuse sweat with ankle pain,1.0,1
+sensitiveness of last cervical vertebra,cold sweat on hands,1.0,1
+sensitiveness of last cervical vertebra,right wrist painful on motion,1.0,1
+sensitiveness of last cervical vertebra,cutting pain in feet during chill,1.0,1
+sensitiveness of last cervical vertebra,sensitiveness of first dorsal vertebra,1.0,1
+sensitiveness of last cervical vertebra,first three dorsal vertebrae sensitive to touch,1.0,1
+acute rheumatic pain in left ankle joint,neck muscles seem swollen,1.0,1
+acute rheumatic pain in left ankle joint,knee joint very painful,1.0,1
+acute rheumatic pain in left ankle joint,sciatic neuralgia of right side,1.0,1
+acute rheumatic pain in left ankle joint,spine painful on pressure,1.0,1
+acute rheumatic pain in left ankle joint,periodic pain in back,1.0,1
+acute rheumatic pain in left ankle joint,heaviness of all limbs,1.0,1
+acute rheumatic pain in left ankle joint,back pain extends to head,1.0,1
+acute rheumatic pain in left ankle joint,hands cold,1.0,1
+acute rheumatic pain in left ankle joint,symptoms occur at same hour daily,1.0,1
+acute rheumatic pain in left ankle joint,intermittent neuralgia of supraorbital nerve,1.0,1
+acute rheumatic pain in left ankle joint,compare with pulsatilla in erratic pains,1.0,1
+acute rheumatic pain in left ankle joint,palpitation after slight exercise,1.0,1
+acute rheumatic pain in left ankle joint,painful enlargement of spleen,1.0,1
+acute rheumatic pain in left ankle joint,perfectly developed fever,1.0,1
+acute rheumatic pain in left ankle joint,profuse debilitating sweats,1.0,1
+acute rheumatic pain in left ankle joint,sensitiveness of last cervical vertebra,1.0,1
+acute rheumatic pain in left ankle joint,face anxious,1.0,1
+acute rheumatic pain in left ankle joint,perfectly developed sweat,1.0,1
+acute rheumatic pain in left ankle joint,perfectly developed chill,1.0,1
+acute rheumatic pain in left ankle joint,rheumatic pain in right shoulder,1.0,1
+acute rheumatic pain in left ankle joint,fear of impending evil,1.0,1
+acute rheumatic pain in left ankle joint,joints exquisitely sensitive to touch,1.0,1
+acute rheumatic pain in left ankle joint,compare with stannum in supraorbital neuralgia,1.0,1
+acute rheumatic pain in left ankle joint,remitting fever,1.0,1
+acute rheumatic pain in left ankle joint,back pain returns about midnight,1.0,1
+acute rheumatic pain in left ankle joint,buzzing in ears,1.0,1
+acute rheumatic pain in left ankle joint,joints painful,1.0,1
+acute rheumatic pain in left ankle joint,fever with ankle pain,1.0,1
+acute rheumatic pain in left ankle joint,aching in joints,1.0,1
+acute rheumatic pain in left ankle joint,knee joint much swollen,1.0,1
+acute rheumatic pain in left ankle joint,ankle pain after taking cold,1.0,1
+acute rheumatic pain in left ankle joint,intermitting fever,1.0,1
+acute rheumatic pain in left ankle joint,neck muscles stiff,1.0,1
+acute rheumatic pain in left ankle joint,whirling in head like mill wheel,1.0,1
+acute rheumatic pain in left ankle joint,ankles swollen,1.0,1
+acute rheumatic pain in left ankle joint,inflammatory articular rheumatism,1.0,1
+acute rheumatic pain in left ankle joint,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+acute rheumatic pain in left ankle joint,paralysis of limbs,1.0,1
+acute rheumatic pain in left ankle joint,aching of limbs,1.0,1
+acute rheumatic pain in left ankle joint,profuse sweat with ankle pain,1.0,1
+acute rheumatic pain in left ankle joint,cold sweat on hands,1.0,1
+acute rheumatic pain in left ankle joint,right wrist painful on motion,1.0,1
+acute rheumatic pain in left ankle joint,cutting pain in feet during chill,1.0,1
+acute rheumatic pain in left ankle joint,sensitiveness of first dorsal vertebra,1.0,1
+acute rheumatic pain in left ankle joint,first three dorsal vertebrae sensitive to touch,1.0,1
+cold sweat on hands,neck muscles seem swollen,1.0,1
+cold sweat on hands,knee joint very painful,1.0,1
+cold sweat on hands,sciatic neuralgia of right side,1.0,1
+cold sweat on hands,spine painful on pressure,1.0,1
+cold sweat on hands,periodic pain in back,1.0,1
+cold sweat on hands,heaviness of all limbs,1.0,1
+cold sweat on hands,back pain extends to head,1.0,1
+cold sweat on hands,hands cold,1.0,1
+cold sweat on hands,symptoms occur at same hour daily,1.0,1
+cold sweat on hands,intermittent neuralgia of supraorbital nerve,1.0,1
+cold sweat on hands,compare with pulsatilla in erratic pains,1.0,1
+cold sweat on hands,palpitation after slight exercise,1.0,1
+cold sweat on hands,painful enlargement of spleen,1.0,1
+cold sweat on hands,perfectly developed fever,1.0,1
+cold sweat on hands,profuse debilitating sweats,1.0,1
+cold sweat on hands,sensitiveness of last cervical vertebra,1.0,1
+cold sweat on hands,face anxious,1.0,1
+cold sweat on hands,perfectly developed sweat,1.0,1
+cold sweat on hands,perfectly developed chill,1.0,1
+cold sweat on hands,rheumatic pain in right shoulder,1.0,1
+cold sweat on hands,fear of impending evil,1.0,1
+cold sweat on hands,joints exquisitely sensitive to touch,1.0,1
+cold sweat on hands,compare with stannum in supraorbital neuralgia,1.0,1
+cold sweat on hands,remitting fever,1.0,1
+cold sweat on hands,back pain returns about midnight,1.0,1
+cold sweat on hands,buzzing in ears,1.0,1
+cold sweat on hands,joints painful,1.0,1
+cold sweat on hands,fever with ankle pain,1.0,1
+cold sweat on hands,aching in joints,1.0,1
+cold sweat on hands,knee joint much swollen,1.0,1
+cold sweat on hands,ankle pain after taking cold,1.0,1
+cold sweat on hands,intermitting fever,1.0,1
+cold sweat on hands,neck muscles stiff,1.0,1
+cold sweat on hands,whirling in head like mill wheel,1.0,1
+cold sweat on hands,ankles swollen,1.0,1
+cold sweat on hands,inflammatory articular rheumatism,1.0,1
+cold sweat on hands,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+cold sweat on hands,acute rheumatic pain in left ankle joint,1.0,1
+cold sweat on hands,paralysis of limbs,1.0,1
+cold sweat on hands,aching of limbs,1.0,1
+cold sweat on hands,profuse sweat with ankle pain,1.0,1
+cold sweat on hands,right wrist painful on motion,1.0,1
+cold sweat on hands,cutting pain in feet during chill,1.0,1
+cold sweat on hands,sensitiveness of first dorsal vertebra,1.0,1
+cold sweat on hands,first three dorsal vertebrae sensitive to touch,1.0,1
+profuse debilitating sweats,neck muscles seem swollen,1.0,1
+profuse debilitating sweats,knee joint very painful,1.0,1
+profuse debilitating sweats,sciatic neuralgia of right side,1.0,1
+profuse debilitating sweats,spine painful on pressure,1.0,1
+profuse debilitating sweats,periodic pain in back,1.0,1
+profuse debilitating sweats,heaviness of all limbs,1.0,1
+profuse debilitating sweats,back pain extends to head,1.0,1
+profuse debilitating sweats,hands cold,1.0,1
+profuse debilitating sweats,symptoms occur at same hour daily,1.0,1
+profuse debilitating sweats,intermittent neuralgia of supraorbital nerve,1.0,1
+profuse debilitating sweats,compare with pulsatilla in erratic pains,1.0,1
+profuse debilitating sweats,palpitation after slight exercise,1.0,1
+profuse debilitating sweats,painful enlargement of spleen,1.0,1
+profuse debilitating sweats,perfectly developed fever,1.0,1
+profuse debilitating sweats,sensitiveness of last cervical vertebra,1.0,1
+profuse debilitating sweats,face anxious,1.0,1
+profuse debilitating sweats,perfectly developed sweat,1.0,1
+profuse debilitating sweats,perfectly developed chill,1.0,1
+profuse debilitating sweats,rheumatic pain in right shoulder,1.0,1
+profuse debilitating sweats,fear of impending evil,1.0,1
+profuse debilitating sweats,joints exquisitely sensitive to touch,1.0,1
+profuse debilitating sweats,compare with stannum in supraorbital neuralgia,1.0,1
+profuse debilitating sweats,remitting fever,1.0,1
+profuse debilitating sweats,back pain returns about midnight,1.0,1
+profuse debilitating sweats,buzzing in ears,1.0,1
+profuse debilitating sweats,joints painful,1.0,1
+profuse debilitating sweats,fever with ankle pain,1.0,1
+profuse debilitating sweats,aching in joints,1.0,1
+profuse debilitating sweats,knee joint much swollen,1.0,1
+profuse debilitating sweats,ankle pain after taking cold,1.0,1
+profuse debilitating sweats,intermitting fever,1.0,1
+profuse debilitating sweats,neck muscles stiff,1.0,1
+profuse debilitating sweats,whirling in head like mill wheel,1.0,1
+profuse debilitating sweats,ankles swollen,1.0,1
+profuse debilitating sweats,inflammatory articular rheumatism,1.0,1
+profuse debilitating sweats,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+profuse debilitating sweats,acute rheumatic pain in left ankle joint,1.0,1
+profuse debilitating sweats,paralysis of limbs,1.0,1
+profuse debilitating sweats,aching of limbs,1.0,1
+profuse debilitating sweats,profuse sweat with ankle pain,1.0,1
+profuse debilitating sweats,cold sweat on hands,1.0,1
+profuse debilitating sweats,right wrist painful on motion,1.0,1
+profuse debilitating sweats,cutting pain in feet during chill,1.0,1
+profuse debilitating sweats,sensitiveness of first dorsal vertebra,1.0,1
+profuse debilitating sweats,first three dorsal vertebrae sensitive to touch,1.0,1
+sensitiveness of first dorsal vertebra,neck muscles seem swollen,1.0,1
+sensitiveness of first dorsal vertebra,knee joint very painful,1.0,1
+sensitiveness of first dorsal vertebra,sciatic neuralgia of right side,1.0,1
+sensitiveness of first dorsal vertebra,spine painful on pressure,1.0,1
+sensitiveness of first dorsal vertebra,periodic pain in back,1.0,1
+sensitiveness of first dorsal vertebra,heaviness of all limbs,1.0,1
+sensitiveness of first dorsal vertebra,back pain extends to head,1.0,1
+sensitiveness of first dorsal vertebra,hands cold,1.0,1
+sensitiveness of first dorsal vertebra,symptoms occur at same hour daily,1.0,1
+sensitiveness of first dorsal vertebra,intermittent neuralgia of supraorbital nerve,1.0,1
+sensitiveness of first dorsal vertebra,compare with pulsatilla in erratic pains,1.0,1
+sensitiveness of first dorsal vertebra,palpitation after slight exercise,1.0,1
+sensitiveness of first dorsal vertebra,painful enlargement of spleen,1.0,1
+sensitiveness of first dorsal vertebra,perfectly developed fever,1.0,1
+sensitiveness of first dorsal vertebra,profuse debilitating sweats,1.0,1
+sensitiveness of first dorsal vertebra,sensitiveness of last cervical vertebra,1.0,1
+sensitiveness of first dorsal vertebra,face anxious,1.0,1
+sensitiveness of first dorsal vertebra,perfectly developed sweat,1.0,1
+sensitiveness of first dorsal vertebra,perfectly developed chill,1.0,1
+sensitiveness of first dorsal vertebra,rheumatic pain in right shoulder,1.0,1
+sensitiveness of first dorsal vertebra,fear of impending evil,1.0,1
+sensitiveness of first dorsal vertebra,joints exquisitely sensitive to touch,1.0,1
+sensitiveness of first dorsal vertebra,compare with stannum in supraorbital neuralgia,1.0,1
+sensitiveness of first dorsal vertebra,remitting fever,1.0,1
+sensitiveness of first dorsal vertebra,back pain returns about midnight,1.0,1
+sensitiveness of first dorsal vertebra,buzzing in ears,1.0,1
+sensitiveness of first dorsal vertebra,joints painful,1.0,1
+sensitiveness of first dorsal vertebra,fever with ankle pain,1.0,1
+sensitiveness of first dorsal vertebra,aching in joints,1.0,1
+sensitiveness of first dorsal vertebra,knee joint much swollen,1.0,1
+sensitiveness of first dorsal vertebra,ankle pain after taking cold,1.0,1
+sensitiveness of first dorsal vertebra,intermitting fever,1.0,1
+sensitiveness of first dorsal vertebra,neck muscles stiff,1.0,1
+sensitiveness of first dorsal vertebra,whirling in head like mill wheel,1.0,1
+sensitiveness of first dorsal vertebra,ankles swollen,1.0,1
+sensitiveness of first dorsal vertebra,inflammatory articular rheumatism,1.0,1
+sensitiveness of first dorsal vertebra,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+sensitiveness of first dorsal vertebra,acute rheumatic pain in left ankle joint,1.0,1
+sensitiveness of first dorsal vertebra,paralysis of limbs,1.0,1
+sensitiveness of first dorsal vertebra,aching of limbs,1.0,1
+sensitiveness of first dorsal vertebra,profuse sweat with ankle pain,1.0,1
+sensitiveness of first dorsal vertebra,cold sweat on hands,1.0,1
+sensitiveness of first dorsal vertebra,right wrist painful on motion,1.0,1
+sensitiveness of first dorsal vertebra,cutting pain in feet during chill,1.0,1
+sensitiveness of first dorsal vertebra,first three dorsal vertebrae sensitive to touch,1.0,1
+fever with ankle pain,neck muscles seem swollen,1.0,1
+fever with ankle pain,knee joint very painful,1.0,1
+fever with ankle pain,sciatic neuralgia of right side,1.0,1
+fever with ankle pain,spine painful on pressure,1.0,1
+fever with ankle pain,periodic pain in back,1.0,1
+fever with ankle pain,heaviness of all limbs,1.0,1
+fever with ankle pain,back pain extends to head,1.0,1
+fever with ankle pain,hands cold,1.0,1
+fever with ankle pain,symptoms occur at same hour daily,1.0,1
+fever with ankle pain,intermittent neuralgia of supraorbital nerve,1.0,1
+fever with ankle pain,compare with pulsatilla in erratic pains,1.0,1
+fever with ankle pain,palpitation after slight exercise,1.0,1
+fever with ankle pain,painful enlargement of spleen,1.0,1
+fever with ankle pain,perfectly developed fever,1.0,1
+fever with ankle pain,profuse debilitating sweats,1.0,1
+fever with ankle pain,sensitiveness of last cervical vertebra,1.0,1
+fever with ankle pain,face anxious,1.0,1
+fever with ankle pain,perfectly developed sweat,1.0,1
+fever with ankle pain,perfectly developed chill,1.0,1
+fever with ankle pain,rheumatic pain in right shoulder,1.0,1
+fever with ankle pain,fear of impending evil,1.0,1
+fever with ankle pain,joints exquisitely sensitive to touch,1.0,1
+fever with ankle pain,compare with stannum in supraorbital neuralgia,1.0,1
+fever with ankle pain,remitting fever,1.0,1
+fever with ankle pain,back pain returns about midnight,1.0,1
+fever with ankle pain,buzzing in ears,1.0,1
+fever with ankle pain,joints painful,1.0,1
+fever with ankle pain,aching in joints,1.0,1
+fever with ankle pain,knee joint much swollen,1.0,1
+fever with ankle pain,ankle pain after taking cold,1.0,1
+fever with ankle pain,intermitting fever,1.0,1
+fever with ankle pain,neck muscles stiff,1.0,1
+fever with ankle pain,whirling in head like mill wheel,1.0,1
+fever with ankle pain,ankles swollen,1.0,1
+fever with ankle pain,inflammatory articular rheumatism,1.0,1
+fever with ankle pain,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+fever with ankle pain,acute rheumatic pain in left ankle joint,1.0,1
+fever with ankle pain,paralysis of limbs,1.0,1
+fever with ankle pain,aching of limbs,1.0,1
+fever with ankle pain,profuse sweat with ankle pain,1.0,1
+fever with ankle pain,cold sweat on hands,1.0,1
+fever with ankle pain,right wrist painful on motion,1.0,1
+fever with ankle pain,cutting pain in feet during chill,1.0,1
+fever with ankle pain,sensitiveness of first dorsal vertebra,1.0,1
+fever with ankle pain,first three dorsal vertebrae sensitive to touch,1.0,1
+palpitation after slight exercise,neck muscles seem swollen,1.0,1
+palpitation after slight exercise,knee joint very painful,1.0,1
+palpitation after slight exercise,sciatic neuralgia of right side,1.0,1
+palpitation after slight exercise,spine painful on pressure,1.0,1
+palpitation after slight exercise,periodic pain in back,1.0,1
+palpitation after slight exercise,heaviness of all limbs,1.0,1
+palpitation after slight exercise,back pain extends to head,1.0,1
+palpitation after slight exercise,hands cold,1.0,1
+palpitation after slight exercise,symptoms occur at same hour daily,1.0,1
+palpitation after slight exercise,intermittent neuralgia of supraorbital nerve,1.0,1
+palpitation after slight exercise,compare with pulsatilla in erratic pains,1.0,1
+palpitation after slight exercise,painful enlargement of spleen,1.0,1
+palpitation after slight exercise,perfectly developed fever,1.0,1
+palpitation after slight exercise,profuse debilitating sweats,1.0,1
+palpitation after slight exercise,sensitiveness of last cervical vertebra,1.0,1
+palpitation after slight exercise,face anxious,1.0,1
+palpitation after slight exercise,perfectly developed sweat,1.0,1
+palpitation after slight exercise,perfectly developed chill,1.0,1
+palpitation after slight exercise,rheumatic pain in right shoulder,1.0,1
+palpitation after slight exercise,fear of impending evil,1.0,1
+palpitation after slight exercise,joints exquisitely sensitive to touch,1.0,1
+palpitation after slight exercise,compare with stannum in supraorbital neuralgia,1.0,1
+palpitation after slight exercise,remitting fever,1.0,1
+palpitation after slight exercise,back pain returns about midnight,1.0,1
+palpitation after slight exercise,buzzing in ears,1.0,1
+palpitation after slight exercise,joints painful,1.0,1
+palpitation after slight exercise,fever with ankle pain,1.0,1
+palpitation after slight exercise,aching in joints,1.0,1
+palpitation after slight exercise,knee joint much swollen,1.0,1
+palpitation after slight exercise,ankle pain after taking cold,1.0,1
+palpitation after slight exercise,intermitting fever,1.0,1
+palpitation after slight exercise,neck muscles stiff,1.0,1
+palpitation after slight exercise,whirling in head like mill wheel,1.0,1
+palpitation after slight exercise,ankles swollen,1.0,1
+palpitation after slight exercise,inflammatory articular rheumatism,1.0,1
+palpitation after slight exercise,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+palpitation after slight exercise,acute rheumatic pain in left ankle joint,1.0,1
+palpitation after slight exercise,paralysis of limbs,1.0,1
+palpitation after slight exercise,aching of limbs,1.0,1
+palpitation after slight exercise,profuse sweat with ankle pain,1.0,1
+palpitation after slight exercise,cold sweat on hands,1.0,1
+palpitation after slight exercise,right wrist painful on motion,1.0,1
+palpitation after slight exercise,cutting pain in feet during chill,1.0,1
+palpitation after slight exercise,sensitiveness of first dorsal vertebra,1.0,1
+palpitation after slight exercise,first three dorsal vertebrae sensitive to touch,1.0,1
+right wrist painful on motion,neck muscles seem swollen,1.0,1
+right wrist painful on motion,knee joint very painful,1.0,1
+right wrist painful on motion,sciatic neuralgia of right side,1.0,1
+right wrist painful on motion,spine painful on pressure,1.0,1
+right wrist painful on motion,periodic pain in back,1.0,1
+right wrist painful on motion,heaviness of all limbs,1.0,1
+right wrist painful on motion,back pain extends to head,1.0,1
+right wrist painful on motion,hands cold,1.0,1
+right wrist painful on motion,symptoms occur at same hour daily,1.0,1
+right wrist painful on motion,intermittent neuralgia of supraorbital nerve,1.0,1
+right wrist painful on motion,compare with pulsatilla in erratic pains,1.0,1
+right wrist painful on motion,palpitation after slight exercise,1.0,1
+right wrist painful on motion,painful enlargement of spleen,1.0,1
+right wrist painful on motion,perfectly developed fever,1.0,1
+right wrist painful on motion,profuse debilitating sweats,1.0,1
+right wrist painful on motion,sensitiveness of last cervical vertebra,1.0,1
+right wrist painful on motion,face anxious,1.0,1
+right wrist painful on motion,perfectly developed sweat,1.0,1
+right wrist painful on motion,perfectly developed chill,1.0,1
+right wrist painful on motion,rheumatic pain in right shoulder,1.0,1
+right wrist painful on motion,fear of impending evil,1.0,1
+right wrist painful on motion,joints exquisitely sensitive to touch,1.0,1
+right wrist painful on motion,compare with stannum in supraorbital neuralgia,1.0,1
+right wrist painful on motion,remitting fever,1.0,1
+right wrist painful on motion,back pain returns about midnight,1.0,1
+right wrist painful on motion,buzzing in ears,1.0,1
+right wrist painful on motion,joints painful,1.0,1
+right wrist painful on motion,fever with ankle pain,1.0,1
+right wrist painful on motion,aching in joints,1.0,1
+right wrist painful on motion,knee joint much swollen,1.0,1
+right wrist painful on motion,ankle pain after taking cold,1.0,1
+right wrist painful on motion,intermitting fever,1.0,1
+right wrist painful on motion,neck muscles stiff,1.0,1
+right wrist painful on motion,whirling in head like mill wheel,1.0,1
+right wrist painful on motion,ankles swollen,1.0,1
+right wrist painful on motion,inflammatory articular rheumatism,1.0,1
+right wrist painful on motion,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+right wrist painful on motion,acute rheumatic pain in left ankle joint,1.0,1
+right wrist painful on motion,paralysis of limbs,1.0,1
+right wrist painful on motion,aching of limbs,1.0,1
+right wrist painful on motion,profuse sweat with ankle pain,1.0,1
+right wrist painful on motion,cold sweat on hands,1.0,1
+right wrist painful on motion,cutting pain in feet during chill,1.0,1
+right wrist painful on motion,sensitiveness of first dorsal vertebra,1.0,1
+right wrist painful on motion,first three dorsal vertebrae sensitive to touch,1.0,1
+compare with stannum in supraorbital neuralgia,neck muscles seem swollen,1.0,1
+compare with stannum in supraorbital neuralgia,knee joint very painful,1.0,1
+compare with stannum in supraorbital neuralgia,sciatic neuralgia of right side,1.0,1
+compare with stannum in supraorbital neuralgia,spine painful on pressure,1.0,1
+compare with stannum in supraorbital neuralgia,periodic pain in back,1.0,1
+compare with stannum in supraorbital neuralgia,heaviness of all limbs,1.0,1
+compare with stannum in supraorbital neuralgia,back pain extends to head,1.0,1
+compare with stannum in supraorbital neuralgia,hands cold,1.0,1
+compare with stannum in supraorbital neuralgia,symptoms occur at same hour daily,1.0,1
+compare with stannum in supraorbital neuralgia,intermittent neuralgia of supraorbital nerve,1.0,1
+compare with stannum in supraorbital neuralgia,compare with pulsatilla in erratic pains,1.0,1
+compare with stannum in supraorbital neuralgia,palpitation after slight exercise,1.0,1
+compare with stannum in supraorbital neuralgia,painful enlargement of spleen,1.0,1
+compare with stannum in supraorbital neuralgia,perfectly developed fever,1.0,1
+compare with stannum in supraorbital neuralgia,profuse debilitating sweats,1.0,1
+compare with stannum in supraorbital neuralgia,sensitiveness of last cervical vertebra,1.0,1
+compare with stannum in supraorbital neuralgia,face anxious,1.0,1
+compare with stannum in supraorbital neuralgia,perfectly developed sweat,1.0,1
+compare with stannum in supraorbital neuralgia,perfectly developed chill,1.0,1
+compare with stannum in supraorbital neuralgia,rheumatic pain in right shoulder,1.0,1
+compare with stannum in supraorbital neuralgia,fear of impending evil,1.0,1
+compare with stannum in supraorbital neuralgia,joints exquisitely sensitive to touch,1.0,1
+compare with stannum in supraorbital neuralgia,remitting fever,1.0,1
+compare with stannum in supraorbital neuralgia,back pain returns about midnight,1.0,1
+compare with stannum in supraorbital neuralgia,buzzing in ears,1.0,1
+compare with stannum in supraorbital neuralgia,joints painful,1.0,1
+compare with stannum in supraorbital neuralgia,fever with ankle pain,1.0,1
+compare with stannum in supraorbital neuralgia,aching in joints,1.0,1
+compare with stannum in supraorbital neuralgia,knee joint much swollen,1.0,1
+compare with stannum in supraorbital neuralgia,ankle pain after taking cold,1.0,1
+compare with stannum in supraorbital neuralgia,intermitting fever,1.0,1
+compare with stannum in supraorbital neuralgia,neck muscles stiff,1.0,1
+compare with stannum in supraorbital neuralgia,whirling in head like mill wheel,1.0,1
+compare with stannum in supraorbital neuralgia,ankles swollen,1.0,1
+compare with stannum in supraorbital neuralgia,inflammatory articular rheumatism,1.0,1
+compare with stannum in supraorbital neuralgia,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+compare with stannum in supraorbital neuralgia,acute rheumatic pain in left ankle joint,1.0,1
+compare with stannum in supraorbital neuralgia,paralysis of limbs,1.0,1
+compare with stannum in supraorbital neuralgia,aching of limbs,1.0,1
+compare with stannum in supraorbital neuralgia,profuse sweat with ankle pain,1.0,1
+compare with stannum in supraorbital neuralgia,cold sweat on hands,1.0,1
+compare with stannum in supraorbital neuralgia,right wrist painful on motion,1.0,1
+compare with stannum in supraorbital neuralgia,cutting pain in feet during chill,1.0,1
+compare with stannum in supraorbital neuralgia,sensitiveness of first dorsal vertebra,1.0,1
+compare with stannum in supraorbital neuralgia,first three dorsal vertebrae sensitive to touch,1.0,1
+hands cold,neck muscles seem swollen,1.0,1
+hands cold,knee joint very painful,1.0,1
+hands cold,sciatic neuralgia of right side,1.0,1
+hands cold,spine painful on pressure,1.0,1
+hands cold,periodic pain in back,1.0,1
+hands cold,heaviness of all limbs,1.0,1
+hands cold,back pain extends to head,1.0,1
+hands cold,symptoms occur at same hour daily,1.0,1
+hands cold,intermittent neuralgia of supraorbital nerve,1.0,1
+hands cold,compare with pulsatilla in erratic pains,1.0,1
+hands cold,palpitation after slight exercise,1.0,1
+hands cold,painful enlargement of spleen,1.0,1
+hands cold,perfectly developed fever,1.0,1
+hands cold,profuse debilitating sweats,1.0,1
+hands cold,sensitiveness of last cervical vertebra,1.0,1
+hands cold,face anxious,1.0,1
+hands cold,perfectly developed sweat,1.0,1
+hands cold,perfectly developed chill,1.0,1
+hands cold,rheumatic pain in right shoulder,1.0,1
+hands cold,fear of impending evil,1.0,1
+hands cold,joints exquisitely sensitive to touch,1.0,1
+hands cold,compare with stannum in supraorbital neuralgia,1.0,1
+hands cold,remitting fever,1.0,1
+hands cold,back pain returns about midnight,1.0,1
+hands cold,buzzing in ears,1.0,1
+hands cold,joints painful,1.0,1
+hands cold,fever with ankle pain,1.0,1
+hands cold,aching in joints,1.0,1
+hands cold,knee joint much swollen,1.0,1
+hands cold,ankle pain after taking cold,1.0,1
+hands cold,intermitting fever,1.0,1
+hands cold,neck muscles stiff,1.0,1
+hands cold,whirling in head like mill wheel,1.0,1
+hands cold,ankles swollen,1.0,1
+hands cold,inflammatory articular rheumatism,1.0,1
+hands cold,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+hands cold,acute rheumatic pain in left ankle joint,1.0,1
+hands cold,paralysis of limbs,1.0,1
+hands cold,aching of limbs,1.0,1
+hands cold,profuse sweat with ankle pain,1.0,1
+hands cold,cold sweat on hands,1.0,1
+hands cold,right wrist painful on motion,1.0,1
+hands cold,cutting pain in feet during chill,1.0,1
+hands cold,sensitiveness of first dorsal vertebra,1.0,1
+hands cold,first three dorsal vertebrae sensitive to touch,1.0,1
+remitting fever,neck muscles seem swollen,1.0,1
+remitting fever,knee joint very painful,1.0,1
+remitting fever,sciatic neuralgia of right side,1.0,1
+remitting fever,spine painful on pressure,1.0,1
+remitting fever,periodic pain in back,1.0,1
+remitting fever,heaviness of all limbs,1.0,1
+remitting fever,back pain extends to head,1.0,1
+remitting fever,hands cold,1.0,1
+remitting fever,symptoms occur at same hour daily,1.0,1
+remitting fever,intermittent neuralgia of supraorbital nerve,1.0,1
+remitting fever,compare with pulsatilla in erratic pains,1.0,1
+remitting fever,palpitation after slight exercise,1.0,1
+remitting fever,painful enlargement of spleen,1.0,1
+remitting fever,perfectly developed fever,1.0,1
+remitting fever,profuse debilitating sweats,1.0,1
+remitting fever,sensitiveness of last cervical vertebra,1.0,1
+remitting fever,face anxious,1.0,1
+remitting fever,perfectly developed sweat,1.0,1
+remitting fever,perfectly developed chill,1.0,1
+remitting fever,rheumatic pain in right shoulder,1.0,1
+remitting fever,fear of impending evil,1.0,1
+remitting fever,joints exquisitely sensitive to touch,1.0,1
+remitting fever,compare with stannum in supraorbital neuralgia,1.0,1
+remitting fever,back pain returns about midnight,1.0,1
+remitting fever,buzzing in ears,1.0,1
+remitting fever,joints painful,1.0,1
+remitting fever,fever with ankle pain,1.0,1
+remitting fever,aching in joints,1.0,1
+remitting fever,knee joint much swollen,1.0,1
+remitting fever,ankle pain after taking cold,1.0,1
+remitting fever,intermitting fever,1.0,1
+remitting fever,neck muscles stiff,1.0,1
+remitting fever,whirling in head like mill wheel,1.0,1
+remitting fever,ankles swollen,1.0,1
+remitting fever,inflammatory articular rheumatism,1.0,1
+remitting fever,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+remitting fever,acute rheumatic pain in left ankle joint,1.0,1
+remitting fever,paralysis of limbs,1.0,1
+remitting fever,aching of limbs,1.0,1
+remitting fever,profuse sweat with ankle pain,1.0,1
+remitting fever,cold sweat on hands,1.0,1
+remitting fever,right wrist painful on motion,1.0,1
+remitting fever,cutting pain in feet during chill,1.0,1
+remitting fever,sensitiveness of first dorsal vertebra,1.0,1
+remitting fever,first three dorsal vertebrae sensitive to touch,1.0,1
+buzzing in ears,neck muscles seem swollen,1.0,1
+buzzing in ears,knee joint very painful,1.0,1
+buzzing in ears,sciatic neuralgia of right side,1.0,1
+buzzing in ears,spine painful on pressure,1.0,1
+buzzing in ears,periodic pain in back,1.0,1
+buzzing in ears,heaviness of all limbs,1.0,1
+buzzing in ears,back pain extends to head,1.0,1
+buzzing in ears,hands cold,1.0,1
+buzzing in ears,symptoms occur at same hour daily,1.0,1
+buzzing in ears,intermittent neuralgia of supraorbital nerve,1.0,1
+buzzing in ears,compare with pulsatilla in erratic pains,1.0,1
+buzzing in ears,palpitation after slight exercise,1.0,1
+buzzing in ears,painful enlargement of spleen,1.0,1
+buzzing in ears,perfectly developed fever,1.0,1
+buzzing in ears,profuse debilitating sweats,1.0,1
+buzzing in ears,sensitiveness of last cervical vertebra,1.0,1
+buzzing in ears,face anxious,1.0,1
+buzzing in ears,perfectly developed sweat,1.0,1
+buzzing in ears,perfectly developed chill,1.0,1
+buzzing in ears,rheumatic pain in right shoulder,1.0,1
+buzzing in ears,fear of impending evil,1.0,1
+buzzing in ears,joints exquisitely sensitive to touch,1.0,1
+buzzing in ears,compare with stannum in supraorbital neuralgia,1.0,1
+buzzing in ears,remitting fever,1.0,1
+buzzing in ears,back pain returns about midnight,1.0,1
+buzzing in ears,joints painful,1.0,1
+buzzing in ears,fever with ankle pain,1.0,1
+buzzing in ears,aching in joints,1.0,1
+buzzing in ears,knee joint much swollen,1.0,1
+buzzing in ears,ankle pain after taking cold,1.0,1
+buzzing in ears,intermitting fever,1.0,1
+buzzing in ears,neck muscles stiff,1.0,1
+buzzing in ears,whirling in head like mill wheel,1.0,1
+buzzing in ears,ankles swollen,1.0,1
+buzzing in ears,inflammatory articular rheumatism,1.0,1
+buzzing in ears,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+buzzing in ears,acute rheumatic pain in left ankle joint,1.0,1
+buzzing in ears,paralysis of limbs,1.0,1
+buzzing in ears,aching of limbs,1.0,1
+buzzing in ears,profuse sweat with ankle pain,1.0,1
+buzzing in ears,cold sweat on hands,1.0,1
+buzzing in ears,right wrist painful on motion,1.0,1
+buzzing in ears,cutting pain in feet during chill,1.0,1
+buzzing in ears,sensitiveness of first dorsal vertebra,1.0,1
+buzzing in ears,first three dorsal vertebrae sensitive to touch,1.0,1
+sciatic neuralgia of right side,neck muscles seem swollen,1.0,1
+sciatic neuralgia of right side,knee joint very painful,1.0,1
+sciatic neuralgia of right side,spine painful on pressure,1.0,1
+sciatic neuralgia of right side,periodic pain in back,1.0,1
+sciatic neuralgia of right side,heaviness of all limbs,1.0,1
+sciatic neuralgia of right side,back pain extends to head,1.0,1
+sciatic neuralgia of right side,hands cold,1.0,1
+sciatic neuralgia of right side,symptoms occur at same hour daily,1.0,1
+sciatic neuralgia of right side,intermittent neuralgia of supraorbital nerve,1.0,1
+sciatic neuralgia of right side,compare with pulsatilla in erratic pains,1.0,1
+sciatic neuralgia of right side,palpitation after slight exercise,1.0,1
+sciatic neuralgia of right side,painful enlargement of spleen,1.0,1
+sciatic neuralgia of right side,perfectly developed fever,1.0,1
+sciatic neuralgia of right side,profuse debilitating sweats,1.0,1
+sciatic neuralgia of right side,sensitiveness of last cervical vertebra,1.0,1
+sciatic neuralgia of right side,face anxious,1.0,1
+sciatic neuralgia of right side,perfectly developed sweat,1.0,1
+sciatic neuralgia of right side,perfectly developed chill,1.0,1
+sciatic neuralgia of right side,rheumatic pain in right shoulder,1.0,1
+sciatic neuralgia of right side,fear of impending evil,1.0,1
+sciatic neuralgia of right side,joints exquisitely sensitive to touch,1.0,1
+sciatic neuralgia of right side,compare with stannum in supraorbital neuralgia,1.0,1
+sciatic neuralgia of right side,remitting fever,1.0,1
+sciatic neuralgia of right side,back pain returns about midnight,1.0,1
+sciatic neuralgia of right side,buzzing in ears,1.0,1
+sciatic neuralgia of right side,joints painful,1.0,1
+sciatic neuralgia of right side,fever with ankle pain,1.0,1
+sciatic neuralgia of right side,aching in joints,1.0,1
+sciatic neuralgia of right side,knee joint much swollen,1.0,1
+sciatic neuralgia of right side,ankle pain after taking cold,1.0,1
+sciatic neuralgia of right side,intermitting fever,1.0,1
+sciatic neuralgia of right side,neck muscles stiff,1.0,1
+sciatic neuralgia of right side,whirling in head like mill wheel,1.0,1
+sciatic neuralgia of right side,ankles swollen,1.0,1
+sciatic neuralgia of right side,inflammatory articular rheumatism,1.0,1
+sciatic neuralgia of right side,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+sciatic neuralgia of right side,acute rheumatic pain in left ankle joint,1.0,1
+sciatic neuralgia of right side,paralysis of limbs,1.0,1
+sciatic neuralgia of right side,aching of limbs,1.0,1
+sciatic neuralgia of right side,profuse sweat with ankle pain,1.0,1
+sciatic neuralgia of right side,cold sweat on hands,1.0,1
+sciatic neuralgia of right side,right wrist painful on motion,1.0,1
+sciatic neuralgia of right side,cutting pain in feet during chill,1.0,1
+sciatic neuralgia of right side,sensitiveness of first dorsal vertebra,1.0,1
+sciatic neuralgia of right side,first three dorsal vertebrae sensitive to touch,1.0,1
+knee joint much swollen,neck muscles seem swollen,1.0,1
+knee joint much swollen,knee joint very painful,1.0,1
+knee joint much swollen,sciatic neuralgia of right side,1.0,1
+knee joint much swollen,spine painful on pressure,1.0,1
+knee joint much swollen,periodic pain in back,1.0,1
+knee joint much swollen,heaviness of all limbs,1.0,1
+knee joint much swollen,back pain extends to head,1.0,1
+knee joint much swollen,hands cold,1.0,1
+knee joint much swollen,symptoms occur at same hour daily,1.0,1
+knee joint much swollen,intermittent neuralgia of supraorbital nerve,1.0,1
+knee joint much swollen,compare with pulsatilla in erratic pains,1.0,1
+knee joint much swollen,palpitation after slight exercise,1.0,1
+knee joint much swollen,painful enlargement of spleen,1.0,1
+knee joint much swollen,perfectly developed fever,1.0,1
+knee joint much swollen,profuse debilitating sweats,1.0,1
+knee joint much swollen,sensitiveness of last cervical vertebra,1.0,1
+knee joint much swollen,face anxious,1.0,1
+knee joint much swollen,perfectly developed sweat,1.0,1
+knee joint much swollen,perfectly developed chill,1.0,1
+knee joint much swollen,rheumatic pain in right shoulder,1.0,1
+knee joint much swollen,fear of impending evil,1.0,1
+knee joint much swollen,joints exquisitely sensitive to touch,1.0,1
+knee joint much swollen,compare with stannum in supraorbital neuralgia,1.0,1
+knee joint much swollen,remitting fever,1.0,1
+knee joint much swollen,back pain returns about midnight,1.0,1
+knee joint much swollen,buzzing in ears,1.0,1
+knee joint much swollen,joints painful,1.0,1
+knee joint much swollen,fever with ankle pain,1.0,1
+knee joint much swollen,aching in joints,1.0,1
+knee joint much swollen,ankle pain after taking cold,1.0,1
+knee joint much swollen,intermitting fever,1.0,1
+knee joint much swollen,neck muscles stiff,1.0,1
+knee joint much swollen,whirling in head like mill wheel,1.0,1
+knee joint much swollen,ankles swollen,1.0,1
+knee joint much swollen,inflammatory articular rheumatism,1.0,1
+knee joint much swollen,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+knee joint much swollen,acute rheumatic pain in left ankle joint,1.0,1
+knee joint much swollen,paralysis of limbs,1.0,1
+knee joint much swollen,aching of limbs,1.0,1
+knee joint much swollen,profuse sweat with ankle pain,1.0,1
+knee joint much swollen,cold sweat on hands,1.0,1
+knee joint much swollen,right wrist painful on motion,1.0,1
+knee joint much swollen,cutting pain in feet during chill,1.0,1
+knee joint much swollen,sensitiveness of first dorsal vertebra,1.0,1
+knee joint much swollen,first three dorsal vertebrae sensitive to touch,1.0,1
+first three dorsal vertebrae sensitive to touch,neck muscles seem swollen,1.0,1
+first three dorsal vertebrae sensitive to touch,knee joint very painful,1.0,1
+first three dorsal vertebrae sensitive to touch,sciatic neuralgia of right side,1.0,1
+first three dorsal vertebrae sensitive to touch,spine painful on pressure,1.0,1
+first three dorsal vertebrae sensitive to touch,periodic pain in back,1.0,1
+first three dorsal vertebrae sensitive to touch,heaviness of all limbs,1.0,1
+first three dorsal vertebrae sensitive to touch,back pain extends to head,1.0,1
+first three dorsal vertebrae sensitive to touch,hands cold,1.0,1
+first three dorsal vertebrae sensitive to touch,symptoms occur at same hour daily,1.0,1
+first three dorsal vertebrae sensitive to touch,intermittent neuralgia of supraorbital nerve,1.0,1
+first three dorsal vertebrae sensitive to touch,compare with pulsatilla in erratic pains,1.0,1
+first three dorsal vertebrae sensitive to touch,palpitation after slight exercise,1.0,1
+first three dorsal vertebrae sensitive to touch,painful enlargement of spleen,1.0,1
+first three dorsal vertebrae sensitive to touch,perfectly developed fever,1.0,1
+first three dorsal vertebrae sensitive to touch,profuse debilitating sweats,1.0,1
+first three dorsal vertebrae sensitive to touch,sensitiveness of last cervical vertebra,1.0,1
+first three dorsal vertebrae sensitive to touch,face anxious,1.0,1
+first three dorsal vertebrae sensitive to touch,perfectly developed sweat,1.0,1
+first three dorsal vertebrae sensitive to touch,perfectly developed chill,1.0,1
+first three dorsal vertebrae sensitive to touch,rheumatic pain in right shoulder,1.0,1
+first three dorsal vertebrae sensitive to touch,fear of impending evil,1.0,1
+first three dorsal vertebrae sensitive to touch,joints exquisitely sensitive to touch,1.0,1
+first three dorsal vertebrae sensitive to touch,compare with stannum in supraorbital neuralgia,1.0,1
+first three dorsal vertebrae sensitive to touch,remitting fever,1.0,1
+first three dorsal vertebrae sensitive to touch,back pain returns about midnight,1.0,1
+first three dorsal vertebrae sensitive to touch,buzzing in ears,1.0,1
+first three dorsal vertebrae sensitive to touch,joints painful,1.0,1
+first three dorsal vertebrae sensitive to touch,fever with ankle pain,1.0,1
+first three dorsal vertebrae sensitive to touch,aching in joints,1.0,1
+first three dorsal vertebrae sensitive to touch,knee joint much swollen,1.0,1
+first three dorsal vertebrae sensitive to touch,ankle pain after taking cold,1.0,1
+first three dorsal vertebrae sensitive to touch,intermitting fever,1.0,1
+first three dorsal vertebrae sensitive to touch,neck muscles stiff,1.0,1
+first three dorsal vertebrae sensitive to touch,whirling in head like mill wheel,1.0,1
+first three dorsal vertebrae sensitive to touch,ankles swollen,1.0,1
+first three dorsal vertebrae sensitive to touch,inflammatory articular rheumatism,1.0,1
+first three dorsal vertebrae sensitive to touch,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+first three dorsal vertebrae sensitive to touch,acute rheumatic pain in left ankle joint,1.0,1
+first three dorsal vertebrae sensitive to touch,paralysis of limbs,1.0,1
+first three dorsal vertebrae sensitive to touch,aching of limbs,1.0,1
+first three dorsal vertebrae sensitive to touch,profuse sweat with ankle pain,1.0,1
+first three dorsal vertebrae sensitive to touch,cold sweat on hands,1.0,1
+first three dorsal vertebrae sensitive to touch,right wrist painful on motion,1.0,1
+first three dorsal vertebrae sensitive to touch,cutting pain in feet during chill,1.0,1
+first three dorsal vertebrae sensitive to touch,sensitiveness of first dorsal vertebra,1.0,1
+back pain returns about midnight,neck muscles seem swollen,1.0,1
+back pain returns about midnight,knee joint very painful,1.0,1
+back pain returns about midnight,sciatic neuralgia of right side,1.0,1
+back pain returns about midnight,spine painful on pressure,1.0,1
+back pain returns about midnight,periodic pain in back,1.0,1
+back pain returns about midnight,heaviness of all limbs,1.0,1
+back pain returns about midnight,back pain extends to head,1.0,1
+back pain returns about midnight,hands cold,1.0,1
+back pain returns about midnight,symptoms occur at same hour daily,1.0,1
+back pain returns about midnight,intermittent neuralgia of supraorbital nerve,1.0,1
+back pain returns about midnight,compare with pulsatilla in erratic pains,1.0,1
+back pain returns about midnight,palpitation after slight exercise,1.0,1
+back pain returns about midnight,painful enlargement of spleen,1.0,1
+back pain returns about midnight,perfectly developed fever,1.0,1
+back pain returns about midnight,profuse debilitating sweats,1.0,1
+back pain returns about midnight,sensitiveness of last cervical vertebra,1.0,1
+back pain returns about midnight,face anxious,1.0,1
+back pain returns about midnight,perfectly developed sweat,1.0,1
+back pain returns about midnight,perfectly developed chill,1.0,1
+back pain returns about midnight,rheumatic pain in right shoulder,1.0,1
+back pain returns about midnight,fear of impending evil,1.0,1
+back pain returns about midnight,joints exquisitely sensitive to touch,1.0,1
+back pain returns about midnight,compare with stannum in supraorbital neuralgia,1.0,1
+back pain returns about midnight,remitting fever,1.0,1
+back pain returns about midnight,buzzing in ears,1.0,1
+back pain returns about midnight,joints painful,1.0,1
+back pain returns about midnight,fever with ankle pain,1.0,1
+back pain returns about midnight,aching in joints,1.0,1
+back pain returns about midnight,knee joint much swollen,1.0,1
+back pain returns about midnight,ankle pain after taking cold,1.0,1
+back pain returns about midnight,intermitting fever,1.0,1
+back pain returns about midnight,neck muscles stiff,1.0,1
+back pain returns about midnight,whirling in head like mill wheel,1.0,1
+back pain returns about midnight,ankles swollen,1.0,1
+back pain returns about midnight,inflammatory articular rheumatism,1.0,1
+back pain returns about midnight,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+back pain returns about midnight,acute rheumatic pain in left ankle joint,1.0,1
+back pain returns about midnight,paralysis of limbs,1.0,1
+back pain returns about midnight,aching of limbs,1.0,1
+back pain returns about midnight,profuse sweat with ankle pain,1.0,1
+back pain returns about midnight,cold sweat on hands,1.0,1
+back pain returns about midnight,right wrist painful on motion,1.0,1
+back pain returns about midnight,cutting pain in feet during chill,1.0,1
+back pain returns about midnight,sensitiveness of first dorsal vertebra,1.0,1
+back pain returns about midnight,first three dorsal vertebrae sensitive to touch,1.0,1
+painful enlargement of spleen,neck muscles seem swollen,1.0,1
+painful enlargement of spleen,knee joint very painful,1.0,1
+painful enlargement of spleen,sciatic neuralgia of right side,1.0,1
+painful enlargement of spleen,spine painful on pressure,1.0,1
+painful enlargement of spleen,periodic pain in back,1.0,1
+painful enlargement of spleen,heaviness of all limbs,1.0,1
+painful enlargement of spleen,back pain extends to head,1.0,1
+painful enlargement of spleen,hands cold,1.0,1
+painful enlargement of spleen,symptoms occur at same hour daily,1.0,1
+painful enlargement of spleen,intermittent neuralgia of supraorbital nerve,1.0,1
+painful enlargement of spleen,compare with pulsatilla in erratic pains,1.0,1
+painful enlargement of spleen,palpitation after slight exercise,1.0,1
+painful enlargement of spleen,perfectly developed fever,1.0,1
+painful enlargement of spleen,profuse debilitating sweats,1.0,1
+painful enlargement of spleen,sensitiveness of last cervical vertebra,1.0,1
+painful enlargement of spleen,face anxious,1.0,1
+painful enlargement of spleen,perfectly developed sweat,1.0,1
+painful enlargement of spleen,perfectly developed chill,1.0,1
+painful enlargement of spleen,rheumatic pain in right shoulder,1.0,1
+painful enlargement of spleen,fear of impending evil,1.0,1
+painful enlargement of spleen,joints exquisitely sensitive to touch,1.0,1
+painful enlargement of spleen,compare with stannum in supraorbital neuralgia,1.0,1
+painful enlargement of spleen,remitting fever,1.0,1
+painful enlargement of spleen,back pain returns about midnight,1.0,1
+painful enlargement of spleen,buzzing in ears,1.0,1
+painful enlargement of spleen,joints painful,1.0,1
+painful enlargement of spleen,fever with ankle pain,1.0,1
+painful enlargement of spleen,aching in joints,1.0,1
+painful enlargement of spleen,knee joint much swollen,1.0,1
+painful enlargement of spleen,ankle pain after taking cold,1.0,1
+painful enlargement of spleen,intermitting fever,1.0,1
+painful enlargement of spleen,neck muscles stiff,1.0,1
+painful enlargement of spleen,whirling in head like mill wheel,1.0,1
+painful enlargement of spleen,ankles swollen,1.0,1
+painful enlargement of spleen,inflammatory articular rheumatism,1.0,1
+painful enlargement of spleen,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+painful enlargement of spleen,acute rheumatic pain in left ankle joint,1.0,1
+painful enlargement of spleen,paralysis of limbs,1.0,1
+painful enlargement of spleen,aching of limbs,1.0,1
+painful enlargement of spleen,profuse sweat with ankle pain,1.0,1
+painful enlargement of spleen,cold sweat on hands,1.0,1
+painful enlargement of spleen,right wrist painful on motion,1.0,1
+painful enlargement of spleen,cutting pain in feet during chill,1.0,1
+painful enlargement of spleen,sensitiveness of first dorsal vertebra,1.0,1
+painful enlargement of spleen,first three dorsal vertebrae sensitive to touch,1.0,1
+paralysis of limbs,neck muscles seem swollen,1.0,1
+paralysis of limbs,knee joint very painful,1.0,1
+paralysis of limbs,sciatic neuralgia of right side,1.0,1
+paralysis of limbs,spine painful on pressure,1.0,1
+paralysis of limbs,periodic pain in back,1.0,1
+paralysis of limbs,heaviness of all limbs,1.0,1
+paralysis of limbs,back pain extends to head,1.0,1
+paralysis of limbs,hands cold,1.0,1
+paralysis of limbs,symptoms occur at same hour daily,1.0,1
+paralysis of limbs,intermittent neuralgia of supraorbital nerve,1.0,1
+paralysis of limbs,compare with pulsatilla in erratic pains,1.0,1
+paralysis of limbs,palpitation after slight exercise,1.0,1
+paralysis of limbs,painful enlargement of spleen,1.0,1
+paralysis of limbs,perfectly developed fever,1.0,1
+paralysis of limbs,profuse debilitating sweats,1.0,1
+paralysis of limbs,sensitiveness of last cervical vertebra,1.0,1
+paralysis of limbs,face anxious,1.0,1
+paralysis of limbs,perfectly developed sweat,1.0,1
+paralysis of limbs,perfectly developed chill,1.0,1
+paralysis of limbs,rheumatic pain in right shoulder,1.0,1
+paralysis of limbs,fear of impending evil,1.0,1
+paralysis of limbs,joints exquisitely sensitive to touch,1.0,1
+paralysis of limbs,compare with stannum in supraorbital neuralgia,1.0,1
+paralysis of limbs,remitting fever,1.0,1
+paralysis of limbs,back pain returns about midnight,1.0,1
+paralysis of limbs,buzzing in ears,1.0,1
+paralysis of limbs,joints painful,1.0,1
+paralysis of limbs,fever with ankle pain,1.0,1
+paralysis of limbs,aching in joints,1.0,1
+paralysis of limbs,knee joint much swollen,1.0,1
+paralysis of limbs,ankle pain after taking cold,1.0,1
+paralysis of limbs,intermitting fever,1.0,1
+paralysis of limbs,neck muscles stiff,1.0,1
+paralysis of limbs,whirling in head like mill wheel,1.0,1
+paralysis of limbs,ankles swollen,1.0,1
+paralysis of limbs,inflammatory articular rheumatism,1.0,1
+paralysis of limbs,violent pains in lateral neck muscles at 4 p.m.,1.0,1
+paralysis of limbs,acute rheumatic pain in left ankle joint,1.0,1
+paralysis of limbs,aching of limbs,1.0,1
+paralysis of limbs,profuse sweat with ankle pain,1.0,1
+paralysis of limbs,cold sweat on hands,1.0,1
+paralysis of limbs,right wrist painful on motion,1.0,1
+paralysis of limbs,cutting pain in feet during chill,1.0,1
+paralysis of limbs,sensitiveness of first dorsal vertebra,1.0,1
+paralysis of limbs,first three dorsal vertebrae sensitive to touch,1.0,1

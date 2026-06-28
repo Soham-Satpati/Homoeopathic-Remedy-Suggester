@@ -1,0 +1,585 @@
+### Cluster 13 — Symptoms (24)
+Symptom,Frequency
+pressing pain in right tibia,1
+rheumatic pain in scapular muscles,1
+pain and stiffness of nape cervical muscles,1
+pains in periosteum of long bones especially tibia,1
+constricted sensations in different parts,1
+violent nightly pains in bones of the feet,1
+neuralgic pains in different parts come quickly and leave the part numb,1
+stiffness on right side of nape of neck,1
+twitching pain from hip joint to knee,1
+right hip joint feels sprained on walking,1
+violent pain in tibia as if periosteum were torn off,1
+ophthalmia after the abuse of mercury,1
+neuralgia especially after operations on the eye,1
+apprehensiveness as if expecting bad news,1
+deep-seated pains as if in periosteum,1
+pain in shoulder joint as if torn asunder,1
+hypochondriacal and despondent,1
+pain deep in bones of thigh and legs,1
+cracking in right knee upon rising,1
+burning sensations especially in throat,1
+violent stitches in toes of right foot,1
+rheumatic pain in right scapula,1
+violent tearing in ball of left little toe,1
+drawing pains in legs,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+mezereum,24
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+hypochondriacal and despondent,pressing pain in right tibia,1.0,1
+hypochondriacal and despondent,rheumatic pain in scapular muscles,1.0,1
+hypochondriacal and despondent,pain and stiffness of nape cervical muscles,1.0,1
+hypochondriacal and despondent,pains in periosteum of long bones especially tibia,1.0,1
+hypochondriacal and despondent,constricted sensations in different parts,1.0,1
+hypochondriacal and despondent,violent nightly pains in bones of the feet,1.0,1
+hypochondriacal and despondent,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+hypochondriacal and despondent,stiffness on right side of nape of neck,1.0,1
+hypochondriacal and despondent,twitching pain from hip joint to knee,1.0,1
+hypochondriacal and despondent,right hip joint feels sprained on walking,1.0,1
+hypochondriacal and despondent,violent pain in tibia as if periosteum were torn off,1.0,1
+hypochondriacal and despondent,ophthalmia after the abuse of mercury,1.0,1
+hypochondriacal and despondent,neuralgia especially after operations on the eye,1.0,1
+hypochondriacal and despondent,apprehensiveness as if expecting bad news,1.0,1
+hypochondriacal and despondent,deep-seated pains as if in periosteum,1.0,1
+hypochondriacal and despondent,pain in shoulder joint as if torn asunder,1.0,1
+hypochondriacal and despondent,pain deep in bones of thigh and legs,1.0,1
+hypochondriacal and despondent,cracking in right knee upon rising,1.0,1
+hypochondriacal and despondent,burning sensations especially in throat,1.0,1
+hypochondriacal and despondent,violent stitches in toes of right foot,1.0,1
+hypochondriacal and despondent,rheumatic pain in right scapula,1.0,1
+hypochondriacal and despondent,violent tearing in ball of left little toe,1.0,1
+hypochondriacal and despondent,drawing pains in legs,1.0,1
+pains in periosteum of long bones especially tibia,pressing pain in right tibia,1.0,1
+pains in periosteum of long bones especially tibia,rheumatic pain in scapular muscles,1.0,1
+pains in periosteum of long bones especially tibia,pain and stiffness of nape cervical muscles,1.0,1
+pains in periosteum of long bones especially tibia,constricted sensations in different parts,1.0,1
+pains in periosteum of long bones especially tibia,violent nightly pains in bones of the feet,1.0,1
+pains in periosteum of long bones especially tibia,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+pains in periosteum of long bones especially tibia,stiffness on right side of nape of neck,1.0,1
+pains in periosteum of long bones especially tibia,twitching pain from hip joint to knee,1.0,1
+pains in periosteum of long bones especially tibia,right hip joint feels sprained on walking,1.0,1
+pains in periosteum of long bones especially tibia,violent pain in tibia as if periosteum were torn off,1.0,1
+pains in periosteum of long bones especially tibia,ophthalmia after the abuse of mercury,1.0,1
+pains in periosteum of long bones especially tibia,neuralgia especially after operations on the eye,1.0,1
+pains in periosteum of long bones especially tibia,apprehensiveness as if expecting bad news,1.0,1
+pains in periosteum of long bones especially tibia,deep-seated pains as if in periosteum,1.0,1
+pains in periosteum of long bones especially tibia,pain in shoulder joint as if torn asunder,1.0,1
+pains in periosteum of long bones especially tibia,hypochondriacal and despondent,1.0,1
+pains in periosteum of long bones especially tibia,pain deep in bones of thigh and legs,1.0,1
+pains in periosteum of long bones especially tibia,cracking in right knee upon rising,1.0,1
+pains in periosteum of long bones especially tibia,burning sensations especially in throat,1.0,1
+pains in periosteum of long bones especially tibia,violent stitches in toes of right foot,1.0,1
+pains in periosteum of long bones especially tibia,rheumatic pain in right scapula,1.0,1
+pains in periosteum of long bones especially tibia,violent tearing in ball of left little toe,1.0,1
+pains in periosteum of long bones especially tibia,drawing pains in legs,1.0,1
+pressing pain in right tibia,rheumatic pain in scapular muscles,1.0,1
+pressing pain in right tibia,pain and stiffness of nape cervical muscles,1.0,1
+pressing pain in right tibia,pains in periosteum of long bones especially tibia,1.0,1
+pressing pain in right tibia,constricted sensations in different parts,1.0,1
+pressing pain in right tibia,violent nightly pains in bones of the feet,1.0,1
+pressing pain in right tibia,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+pressing pain in right tibia,stiffness on right side of nape of neck,1.0,1
+pressing pain in right tibia,twitching pain from hip joint to knee,1.0,1
+pressing pain in right tibia,right hip joint feels sprained on walking,1.0,1
+pressing pain in right tibia,violent pain in tibia as if periosteum were torn off,1.0,1
+pressing pain in right tibia,ophthalmia after the abuse of mercury,1.0,1
+pressing pain in right tibia,neuralgia especially after operations on the eye,1.0,1
+pressing pain in right tibia,apprehensiveness as if expecting bad news,1.0,1
+pressing pain in right tibia,deep-seated pains as if in periosteum,1.0,1
+pressing pain in right tibia,pain in shoulder joint as if torn asunder,1.0,1
+pressing pain in right tibia,hypochondriacal and despondent,1.0,1
+pressing pain in right tibia,pain deep in bones of thigh and legs,1.0,1
+pressing pain in right tibia,cracking in right knee upon rising,1.0,1
+pressing pain in right tibia,burning sensations especially in throat,1.0,1
+pressing pain in right tibia,violent stitches in toes of right foot,1.0,1
+pressing pain in right tibia,rheumatic pain in right scapula,1.0,1
+pressing pain in right tibia,violent tearing in ball of left little toe,1.0,1
+pressing pain in right tibia,drawing pains in legs,1.0,1
+twitching pain from hip joint to knee,pressing pain in right tibia,1.0,1
+twitching pain from hip joint to knee,rheumatic pain in scapular muscles,1.0,1
+twitching pain from hip joint to knee,pain and stiffness of nape cervical muscles,1.0,1
+twitching pain from hip joint to knee,pains in periosteum of long bones especially tibia,1.0,1
+twitching pain from hip joint to knee,constricted sensations in different parts,1.0,1
+twitching pain from hip joint to knee,violent nightly pains in bones of the feet,1.0,1
+twitching pain from hip joint to knee,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+twitching pain from hip joint to knee,stiffness on right side of nape of neck,1.0,1
+twitching pain from hip joint to knee,right hip joint feels sprained on walking,1.0,1
+twitching pain from hip joint to knee,violent pain in tibia as if periosteum were torn off,1.0,1
+twitching pain from hip joint to knee,ophthalmia after the abuse of mercury,1.0,1
+twitching pain from hip joint to knee,neuralgia especially after operations on the eye,1.0,1
+twitching pain from hip joint to knee,apprehensiveness as if expecting bad news,1.0,1
+twitching pain from hip joint to knee,deep-seated pains as if in periosteum,1.0,1
+twitching pain from hip joint to knee,pain in shoulder joint as if torn asunder,1.0,1
+twitching pain from hip joint to knee,hypochondriacal and despondent,1.0,1
+twitching pain from hip joint to knee,pain deep in bones of thigh and legs,1.0,1
+twitching pain from hip joint to knee,cracking in right knee upon rising,1.0,1
+twitching pain from hip joint to knee,burning sensations especially in throat,1.0,1
+twitching pain from hip joint to knee,violent stitches in toes of right foot,1.0,1
+twitching pain from hip joint to knee,rheumatic pain in right scapula,1.0,1
+twitching pain from hip joint to knee,violent tearing in ball of left little toe,1.0,1
+twitching pain from hip joint to knee,drawing pains in legs,1.0,1
+rheumatic pain in scapular muscles,pressing pain in right tibia,1.0,1
+rheumatic pain in scapular muscles,pain and stiffness of nape cervical muscles,1.0,1
+rheumatic pain in scapular muscles,pains in periosteum of long bones especially tibia,1.0,1
+rheumatic pain in scapular muscles,constricted sensations in different parts,1.0,1
+rheumatic pain in scapular muscles,violent nightly pains in bones of the feet,1.0,1
+rheumatic pain in scapular muscles,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+rheumatic pain in scapular muscles,stiffness on right side of nape of neck,1.0,1
+rheumatic pain in scapular muscles,twitching pain from hip joint to knee,1.0,1
+rheumatic pain in scapular muscles,right hip joint feels sprained on walking,1.0,1
+rheumatic pain in scapular muscles,violent pain in tibia as if periosteum were torn off,1.0,1
+rheumatic pain in scapular muscles,ophthalmia after the abuse of mercury,1.0,1
+rheumatic pain in scapular muscles,neuralgia especially after operations on the eye,1.0,1
+rheumatic pain in scapular muscles,apprehensiveness as if expecting bad news,1.0,1
+rheumatic pain in scapular muscles,deep-seated pains as if in periosteum,1.0,1
+rheumatic pain in scapular muscles,pain in shoulder joint as if torn asunder,1.0,1
+rheumatic pain in scapular muscles,hypochondriacal and despondent,1.0,1
+rheumatic pain in scapular muscles,pain deep in bones of thigh and legs,1.0,1
+rheumatic pain in scapular muscles,cracking in right knee upon rising,1.0,1
+rheumatic pain in scapular muscles,burning sensations especially in throat,1.0,1
+rheumatic pain in scapular muscles,violent stitches in toes of right foot,1.0,1
+rheumatic pain in scapular muscles,rheumatic pain in right scapula,1.0,1
+rheumatic pain in scapular muscles,violent tearing in ball of left little toe,1.0,1
+rheumatic pain in scapular muscles,drawing pains in legs,1.0,1
+drawing pains in legs,pressing pain in right tibia,1.0,1
+drawing pains in legs,rheumatic pain in scapular muscles,1.0,1
+drawing pains in legs,pain and stiffness of nape cervical muscles,1.0,1
+drawing pains in legs,pains in periosteum of long bones especially tibia,1.0,1
+drawing pains in legs,constricted sensations in different parts,1.0,1
+drawing pains in legs,violent nightly pains in bones of the feet,1.0,1
+drawing pains in legs,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+drawing pains in legs,stiffness on right side of nape of neck,1.0,1
+drawing pains in legs,twitching pain from hip joint to knee,1.0,1
+drawing pains in legs,right hip joint feels sprained on walking,1.0,1
+drawing pains in legs,violent pain in tibia as if periosteum were torn off,1.0,1
+drawing pains in legs,ophthalmia after the abuse of mercury,1.0,1
+drawing pains in legs,neuralgia especially after operations on the eye,1.0,1
+drawing pains in legs,apprehensiveness as if expecting bad news,1.0,1
+drawing pains in legs,deep-seated pains as if in periosteum,1.0,1
+drawing pains in legs,pain in shoulder joint as if torn asunder,1.0,1
+drawing pains in legs,hypochondriacal and despondent,1.0,1
+drawing pains in legs,pain deep in bones of thigh and legs,1.0,1
+drawing pains in legs,cracking in right knee upon rising,1.0,1
+drawing pains in legs,burning sensations especially in throat,1.0,1
+drawing pains in legs,violent stitches in toes of right foot,1.0,1
+drawing pains in legs,rheumatic pain in right scapula,1.0,1
+drawing pains in legs,violent tearing in ball of left little toe,1.0,1
+ophthalmia after the abuse of mercury,pressing pain in right tibia,1.0,1
+ophthalmia after the abuse of mercury,rheumatic pain in scapular muscles,1.0,1
+ophthalmia after the abuse of mercury,pain and stiffness of nape cervical muscles,1.0,1
+ophthalmia after the abuse of mercury,pains in periosteum of long bones especially tibia,1.0,1
+ophthalmia after the abuse of mercury,constricted sensations in different parts,1.0,1
+ophthalmia after the abuse of mercury,violent nightly pains in bones of the feet,1.0,1
+ophthalmia after the abuse of mercury,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+ophthalmia after the abuse of mercury,stiffness on right side of nape of neck,1.0,1
+ophthalmia after the abuse of mercury,twitching pain from hip joint to knee,1.0,1
+ophthalmia after the abuse of mercury,right hip joint feels sprained on walking,1.0,1
+ophthalmia after the abuse of mercury,violent pain in tibia as if periosteum were torn off,1.0,1
+ophthalmia after the abuse of mercury,neuralgia especially after operations on the eye,1.0,1
+ophthalmia after the abuse of mercury,apprehensiveness as if expecting bad news,1.0,1
+ophthalmia after the abuse of mercury,deep-seated pains as if in periosteum,1.0,1
+ophthalmia after the abuse of mercury,pain in shoulder joint as if torn asunder,1.0,1
+ophthalmia after the abuse of mercury,hypochondriacal and despondent,1.0,1
+ophthalmia after the abuse of mercury,pain deep in bones of thigh and legs,1.0,1
+ophthalmia after the abuse of mercury,cracking in right knee upon rising,1.0,1
+ophthalmia after the abuse of mercury,burning sensations especially in throat,1.0,1
+ophthalmia after the abuse of mercury,violent stitches in toes of right foot,1.0,1
+ophthalmia after the abuse of mercury,rheumatic pain in right scapula,1.0,1
+ophthalmia after the abuse of mercury,violent tearing in ball of left little toe,1.0,1
+ophthalmia after the abuse of mercury,drawing pains in legs,1.0,1
+violent tearing in ball of left little toe,pressing pain in right tibia,1.0,1
+violent tearing in ball of left little toe,rheumatic pain in scapular muscles,1.0,1
+violent tearing in ball of left little toe,pain and stiffness of nape cervical muscles,1.0,1
+violent tearing in ball of left little toe,pains in periosteum of long bones especially tibia,1.0,1
+violent tearing in ball of left little toe,constricted sensations in different parts,1.0,1
+violent tearing in ball of left little toe,violent nightly pains in bones of the feet,1.0,1
+violent tearing in ball of left little toe,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+violent tearing in ball of left little toe,stiffness on right side of nape of neck,1.0,1
+violent tearing in ball of left little toe,twitching pain from hip joint to knee,1.0,1
+violent tearing in ball of left little toe,right hip joint feels sprained on walking,1.0,1
+violent tearing in ball of left little toe,violent pain in tibia as if periosteum were torn off,1.0,1
+violent tearing in ball of left little toe,ophthalmia after the abuse of mercury,1.0,1
+violent tearing in ball of left little toe,neuralgia especially after operations on the eye,1.0,1
+violent tearing in ball of left little toe,apprehensiveness as if expecting bad news,1.0,1
+violent tearing in ball of left little toe,deep-seated pains as if in periosteum,1.0,1
+violent tearing in ball of left little toe,pain in shoulder joint as if torn asunder,1.0,1
+violent tearing in ball of left little toe,hypochondriacal and despondent,1.0,1
+violent tearing in ball of left little toe,pain deep in bones of thigh and legs,1.0,1
+violent tearing in ball of left little toe,cracking in right knee upon rising,1.0,1
+violent tearing in ball of left little toe,burning sensations especially in throat,1.0,1
+violent tearing in ball of left little toe,violent stitches in toes of right foot,1.0,1
+violent tearing in ball of left little toe,rheumatic pain in right scapula,1.0,1
+violent tearing in ball of left little toe,drawing pains in legs,1.0,1
+right hip joint feels sprained on walking,pressing pain in right tibia,1.0,1
+right hip joint feels sprained on walking,rheumatic pain in scapular muscles,1.0,1
+right hip joint feels sprained on walking,pain and stiffness of nape cervical muscles,1.0,1
+right hip joint feels sprained on walking,pains in periosteum of long bones especially tibia,1.0,1
+right hip joint feels sprained on walking,constricted sensations in different parts,1.0,1
+right hip joint feels sprained on walking,violent nightly pains in bones of the feet,1.0,1
+right hip joint feels sprained on walking,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+right hip joint feels sprained on walking,stiffness on right side of nape of neck,1.0,1
+right hip joint feels sprained on walking,twitching pain from hip joint to knee,1.0,1
+right hip joint feels sprained on walking,violent pain in tibia as if periosteum were torn off,1.0,1
+right hip joint feels sprained on walking,ophthalmia after the abuse of mercury,1.0,1
+right hip joint feels sprained on walking,neuralgia especially after operations on the eye,1.0,1
+right hip joint feels sprained on walking,apprehensiveness as if expecting bad news,1.0,1
+right hip joint feels sprained on walking,deep-seated pains as if in periosteum,1.0,1
+right hip joint feels sprained on walking,pain in shoulder joint as if torn asunder,1.0,1
+right hip joint feels sprained on walking,hypochondriacal and despondent,1.0,1
+right hip joint feels sprained on walking,pain deep in bones of thigh and legs,1.0,1
+right hip joint feels sprained on walking,cracking in right knee upon rising,1.0,1
+right hip joint feels sprained on walking,burning sensations especially in throat,1.0,1
+right hip joint feels sprained on walking,violent stitches in toes of right foot,1.0,1
+right hip joint feels sprained on walking,rheumatic pain in right scapula,1.0,1
+right hip joint feels sprained on walking,violent tearing in ball of left little toe,1.0,1
+right hip joint feels sprained on walking,drawing pains in legs,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,pressing pain in right tibia,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,rheumatic pain in scapular muscles,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,pain and stiffness of nape cervical muscles,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,pains in periosteum of long bones especially tibia,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,constricted sensations in different parts,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,violent nightly pains in bones of the feet,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,stiffness on right side of nape of neck,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,twitching pain from hip joint to knee,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,right hip joint feels sprained on walking,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,violent pain in tibia as if periosteum were torn off,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,ophthalmia after the abuse of mercury,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,neuralgia especially after operations on the eye,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,apprehensiveness as if expecting bad news,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,deep-seated pains as if in periosteum,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,pain in shoulder joint as if torn asunder,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,hypochondriacal and despondent,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,pain deep in bones of thigh and legs,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,cracking in right knee upon rising,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,burning sensations especially in throat,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,violent stitches in toes of right foot,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,rheumatic pain in right scapula,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,violent tearing in ball of left little toe,1.0,1
+neuralgic pains in different parts come quickly and leave the part numb,drawing pains in legs,1.0,1
+violent stitches in toes of right foot,pressing pain in right tibia,1.0,1
+violent stitches in toes of right foot,rheumatic pain in scapular muscles,1.0,1
+violent stitches in toes of right foot,pain and stiffness of nape cervical muscles,1.0,1
+violent stitches in toes of right foot,pains in periosteum of long bones especially tibia,1.0,1
+violent stitches in toes of right foot,constricted sensations in different parts,1.0,1
+violent stitches in toes of right foot,violent nightly pains in bones of the feet,1.0,1
+violent stitches in toes of right foot,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+violent stitches in toes of right foot,stiffness on right side of nape of neck,1.0,1
+violent stitches in toes of right foot,twitching pain from hip joint to knee,1.0,1
+violent stitches in toes of right foot,right hip joint feels sprained on walking,1.0,1
+violent stitches in toes of right foot,violent pain in tibia as if periosteum were torn off,1.0,1
+violent stitches in toes of right foot,ophthalmia after the abuse of mercury,1.0,1
+violent stitches in toes of right foot,neuralgia especially after operations on the eye,1.0,1
+violent stitches in toes of right foot,apprehensiveness as if expecting bad news,1.0,1
+violent stitches in toes of right foot,deep-seated pains as if in periosteum,1.0,1
+violent stitches in toes of right foot,pain in shoulder joint as if torn asunder,1.0,1
+violent stitches in toes of right foot,hypochondriacal and despondent,1.0,1
+violent stitches in toes of right foot,pain deep in bones of thigh and legs,1.0,1
+violent stitches in toes of right foot,cracking in right knee upon rising,1.0,1
+violent stitches in toes of right foot,burning sensations especially in throat,1.0,1
+violent stitches in toes of right foot,rheumatic pain in right scapula,1.0,1
+violent stitches in toes of right foot,violent tearing in ball of left little toe,1.0,1
+violent stitches in toes of right foot,drawing pains in legs,1.0,1
+deep-seated pains as if in periosteum,pressing pain in right tibia,1.0,1
+deep-seated pains as if in periosteum,rheumatic pain in scapular muscles,1.0,1
+deep-seated pains as if in periosteum,pain and stiffness of nape cervical muscles,1.0,1
+deep-seated pains as if in periosteum,pains in periosteum of long bones especially tibia,1.0,1
+deep-seated pains as if in periosteum,constricted sensations in different parts,1.0,1
+deep-seated pains as if in periosteum,violent nightly pains in bones of the feet,1.0,1
+deep-seated pains as if in periosteum,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+deep-seated pains as if in periosteum,stiffness on right side of nape of neck,1.0,1
+deep-seated pains as if in periosteum,twitching pain from hip joint to knee,1.0,1
+deep-seated pains as if in periosteum,right hip joint feels sprained on walking,1.0,1
+deep-seated pains as if in periosteum,violent pain in tibia as if periosteum were torn off,1.0,1
+deep-seated pains as if in periosteum,ophthalmia after the abuse of mercury,1.0,1
+deep-seated pains as if in periosteum,neuralgia especially after operations on the eye,1.0,1
+deep-seated pains as if in periosteum,apprehensiveness as if expecting bad news,1.0,1
+deep-seated pains as if in periosteum,pain in shoulder joint as if torn asunder,1.0,1
+deep-seated pains as if in periosteum,hypochondriacal and despondent,1.0,1
+deep-seated pains as if in periosteum,pain deep in bones of thigh and legs,1.0,1
+deep-seated pains as if in periosteum,cracking in right knee upon rising,1.0,1
+deep-seated pains as if in periosteum,burning sensations especially in throat,1.0,1
+deep-seated pains as if in periosteum,violent stitches in toes of right foot,1.0,1
+deep-seated pains as if in periosteum,rheumatic pain in right scapula,1.0,1
+deep-seated pains as if in periosteum,violent tearing in ball of left little toe,1.0,1
+deep-seated pains as if in periosteum,drawing pains in legs,1.0,1
+cracking in right knee upon rising,pressing pain in right tibia,1.0,1
+cracking in right knee upon rising,rheumatic pain in scapular muscles,1.0,1
+cracking in right knee upon rising,pain and stiffness of nape cervical muscles,1.0,1
+cracking in right knee upon rising,pains in periosteum of long bones especially tibia,1.0,1
+cracking in right knee upon rising,constricted sensations in different parts,1.0,1
+cracking in right knee upon rising,violent nightly pains in bones of the feet,1.0,1
+cracking in right knee upon rising,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+cracking in right knee upon rising,stiffness on right side of nape of neck,1.0,1
+cracking in right knee upon rising,twitching pain from hip joint to knee,1.0,1
+cracking in right knee upon rising,right hip joint feels sprained on walking,1.0,1
+cracking in right knee upon rising,violent pain in tibia as if periosteum were torn off,1.0,1
+cracking in right knee upon rising,ophthalmia after the abuse of mercury,1.0,1
+cracking in right knee upon rising,neuralgia especially after operations on the eye,1.0,1
+cracking in right knee upon rising,apprehensiveness as if expecting bad news,1.0,1
+cracking in right knee upon rising,deep-seated pains as if in periosteum,1.0,1
+cracking in right knee upon rising,pain in shoulder joint as if torn asunder,1.0,1
+cracking in right knee upon rising,hypochondriacal and despondent,1.0,1
+cracking in right knee upon rising,pain deep in bones of thigh and legs,1.0,1
+cracking in right knee upon rising,burning sensations especially in throat,1.0,1
+cracking in right knee upon rising,violent stitches in toes of right foot,1.0,1
+cracking in right knee upon rising,rheumatic pain in right scapula,1.0,1
+cracking in right knee upon rising,violent tearing in ball of left little toe,1.0,1
+cracking in right knee upon rising,drawing pains in legs,1.0,1
+apprehensiveness as if expecting bad news,pressing pain in right tibia,1.0,1
+apprehensiveness as if expecting bad news,rheumatic pain in scapular muscles,1.0,1
+apprehensiveness as if expecting bad news,pain and stiffness of nape cervical muscles,1.0,1
+apprehensiveness as if expecting bad news,pains in periosteum of long bones especially tibia,1.0,1
+apprehensiveness as if expecting bad news,constricted sensations in different parts,1.0,1
+apprehensiveness as if expecting bad news,violent nightly pains in bones of the feet,1.0,1
+apprehensiveness as if expecting bad news,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+apprehensiveness as if expecting bad news,stiffness on right side of nape of neck,1.0,1
+apprehensiveness as if expecting bad news,twitching pain from hip joint to knee,1.0,1
+apprehensiveness as if expecting bad news,right hip joint feels sprained on walking,1.0,1
+apprehensiveness as if expecting bad news,violent pain in tibia as if periosteum were torn off,1.0,1
+apprehensiveness as if expecting bad news,ophthalmia after the abuse of mercury,1.0,1
+apprehensiveness as if expecting bad news,neuralgia especially after operations on the eye,1.0,1
+apprehensiveness as if expecting bad news,deep-seated pains as if in periosteum,1.0,1
+apprehensiveness as if expecting bad news,pain in shoulder joint as if torn asunder,1.0,1
+apprehensiveness as if expecting bad news,hypochondriacal and despondent,1.0,1
+apprehensiveness as if expecting bad news,pain deep in bones of thigh and legs,1.0,1
+apprehensiveness as if expecting bad news,cracking in right knee upon rising,1.0,1
+apprehensiveness as if expecting bad news,burning sensations especially in throat,1.0,1
+apprehensiveness as if expecting bad news,violent stitches in toes of right foot,1.0,1
+apprehensiveness as if expecting bad news,rheumatic pain in right scapula,1.0,1
+apprehensiveness as if expecting bad news,violent tearing in ball of left little toe,1.0,1
+apprehensiveness as if expecting bad news,drawing pains in legs,1.0,1
+pain deep in bones of thigh and legs,pressing pain in right tibia,1.0,1
+pain deep in bones of thigh and legs,rheumatic pain in scapular muscles,1.0,1
+pain deep in bones of thigh and legs,pain and stiffness of nape cervical muscles,1.0,1
+pain deep in bones of thigh and legs,pains in periosteum of long bones especially tibia,1.0,1
+pain deep in bones of thigh and legs,constricted sensations in different parts,1.0,1
+pain deep in bones of thigh and legs,violent nightly pains in bones of the feet,1.0,1
+pain deep in bones of thigh and legs,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+pain deep in bones of thigh and legs,stiffness on right side of nape of neck,1.0,1
+pain deep in bones of thigh and legs,twitching pain from hip joint to knee,1.0,1
+pain deep in bones of thigh and legs,right hip joint feels sprained on walking,1.0,1
+pain deep in bones of thigh and legs,violent pain in tibia as if periosteum were torn off,1.0,1
+pain deep in bones of thigh and legs,ophthalmia after the abuse of mercury,1.0,1
+pain deep in bones of thigh and legs,neuralgia especially after operations on the eye,1.0,1
+pain deep in bones of thigh and legs,apprehensiveness as if expecting bad news,1.0,1
+pain deep in bones of thigh and legs,deep-seated pains as if in periosteum,1.0,1
+pain deep in bones of thigh and legs,pain in shoulder joint as if torn asunder,1.0,1
+pain deep in bones of thigh and legs,hypochondriacal and despondent,1.0,1
+pain deep in bones of thigh and legs,cracking in right knee upon rising,1.0,1
+pain deep in bones of thigh and legs,burning sensations especially in throat,1.0,1
+pain deep in bones of thigh and legs,violent stitches in toes of right foot,1.0,1
+pain deep in bones of thigh and legs,rheumatic pain in right scapula,1.0,1
+pain deep in bones of thigh and legs,violent tearing in ball of left little toe,1.0,1
+pain deep in bones of thigh and legs,drawing pains in legs,1.0,1
+rheumatic pain in right scapula,pressing pain in right tibia,1.0,1
+rheumatic pain in right scapula,rheumatic pain in scapular muscles,1.0,1
+rheumatic pain in right scapula,pain and stiffness of nape cervical muscles,1.0,1
+rheumatic pain in right scapula,pains in periosteum of long bones especially tibia,1.0,1
+rheumatic pain in right scapula,constricted sensations in different parts,1.0,1
+rheumatic pain in right scapula,violent nightly pains in bones of the feet,1.0,1
+rheumatic pain in right scapula,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+rheumatic pain in right scapula,stiffness on right side of nape of neck,1.0,1
+rheumatic pain in right scapula,twitching pain from hip joint to knee,1.0,1
+rheumatic pain in right scapula,right hip joint feels sprained on walking,1.0,1
+rheumatic pain in right scapula,violent pain in tibia as if periosteum were torn off,1.0,1
+rheumatic pain in right scapula,ophthalmia after the abuse of mercury,1.0,1
+rheumatic pain in right scapula,neuralgia especially after operations on the eye,1.0,1
+rheumatic pain in right scapula,apprehensiveness as if expecting bad news,1.0,1
+rheumatic pain in right scapula,deep-seated pains as if in periosteum,1.0,1
+rheumatic pain in right scapula,pain in shoulder joint as if torn asunder,1.0,1
+rheumatic pain in right scapula,hypochondriacal and despondent,1.0,1
+rheumatic pain in right scapula,pain deep in bones of thigh and legs,1.0,1
+rheumatic pain in right scapula,cracking in right knee upon rising,1.0,1
+rheumatic pain in right scapula,burning sensations especially in throat,1.0,1
+rheumatic pain in right scapula,violent stitches in toes of right foot,1.0,1
+rheumatic pain in right scapula,violent tearing in ball of left little toe,1.0,1
+rheumatic pain in right scapula,drawing pains in legs,1.0,1
+violent nightly pains in bones of the feet,pressing pain in right tibia,1.0,1
+violent nightly pains in bones of the feet,rheumatic pain in scapular muscles,1.0,1
+violent nightly pains in bones of the feet,pain and stiffness of nape cervical muscles,1.0,1
+violent nightly pains in bones of the feet,pains in periosteum of long bones especially tibia,1.0,1
+violent nightly pains in bones of the feet,constricted sensations in different parts,1.0,1
+violent nightly pains in bones of the feet,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+violent nightly pains in bones of the feet,stiffness on right side of nape of neck,1.0,1
+violent nightly pains in bones of the feet,twitching pain from hip joint to knee,1.0,1
+violent nightly pains in bones of the feet,right hip joint feels sprained on walking,1.0,1
+violent nightly pains in bones of the feet,violent pain in tibia as if periosteum were torn off,1.0,1
+violent nightly pains in bones of the feet,ophthalmia after the abuse of mercury,1.0,1
+violent nightly pains in bones of the feet,neuralgia especially after operations on the eye,1.0,1
+violent nightly pains in bones of the feet,apprehensiveness as if expecting bad news,1.0,1
+violent nightly pains in bones of the feet,deep-seated pains as if in periosteum,1.0,1
+violent nightly pains in bones of the feet,pain in shoulder joint as if torn asunder,1.0,1
+violent nightly pains in bones of the feet,hypochondriacal and despondent,1.0,1
+violent nightly pains in bones of the feet,pain deep in bones of thigh and legs,1.0,1
+violent nightly pains in bones of the feet,cracking in right knee upon rising,1.0,1
+violent nightly pains in bones of the feet,burning sensations especially in throat,1.0,1
+violent nightly pains in bones of the feet,violent stitches in toes of right foot,1.0,1
+violent nightly pains in bones of the feet,rheumatic pain in right scapula,1.0,1
+violent nightly pains in bones of the feet,violent tearing in ball of left little toe,1.0,1
+violent nightly pains in bones of the feet,drawing pains in legs,1.0,1
+constricted sensations in different parts,pressing pain in right tibia,1.0,1
+constricted sensations in different parts,rheumatic pain in scapular muscles,1.0,1
+constricted sensations in different parts,pain and stiffness of nape cervical muscles,1.0,1
+constricted sensations in different parts,pains in periosteum of long bones especially tibia,1.0,1
+constricted sensations in different parts,violent nightly pains in bones of the feet,1.0,1
+constricted sensations in different parts,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+constricted sensations in different parts,stiffness on right side of nape of neck,1.0,1
+constricted sensations in different parts,twitching pain from hip joint to knee,1.0,1
+constricted sensations in different parts,right hip joint feels sprained on walking,1.0,1
+constricted sensations in different parts,violent pain in tibia as if periosteum were torn off,1.0,1
+constricted sensations in different parts,ophthalmia after the abuse of mercury,1.0,1
+constricted sensations in different parts,neuralgia especially after operations on the eye,1.0,1
+constricted sensations in different parts,apprehensiveness as if expecting bad news,1.0,1
+constricted sensations in different parts,deep-seated pains as if in periosteum,1.0,1
+constricted sensations in different parts,pain in shoulder joint as if torn asunder,1.0,1
+constricted sensations in different parts,hypochondriacal and despondent,1.0,1
+constricted sensations in different parts,pain deep in bones of thigh and legs,1.0,1
+constricted sensations in different parts,cracking in right knee upon rising,1.0,1
+constricted sensations in different parts,burning sensations especially in throat,1.0,1
+constricted sensations in different parts,violent stitches in toes of right foot,1.0,1
+constricted sensations in different parts,rheumatic pain in right scapula,1.0,1
+constricted sensations in different parts,violent tearing in ball of left little toe,1.0,1
+constricted sensations in different parts,drawing pains in legs,1.0,1
+violent pain in tibia as if periosteum were torn off,pressing pain in right tibia,1.0,1
+violent pain in tibia as if periosteum were torn off,rheumatic pain in scapular muscles,1.0,1
+violent pain in tibia as if periosteum were torn off,pain and stiffness of nape cervical muscles,1.0,1
+violent pain in tibia as if periosteum were torn off,pains in periosteum of long bones especially tibia,1.0,1
+violent pain in tibia as if periosteum were torn off,constricted sensations in different parts,1.0,1
+violent pain in tibia as if periosteum were torn off,violent nightly pains in bones of the feet,1.0,1
+violent pain in tibia as if periosteum were torn off,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+violent pain in tibia as if periosteum were torn off,stiffness on right side of nape of neck,1.0,1
+violent pain in tibia as if periosteum were torn off,twitching pain from hip joint to knee,1.0,1
+violent pain in tibia as if periosteum were torn off,right hip joint feels sprained on walking,1.0,1
+violent pain in tibia as if periosteum were torn off,ophthalmia after the abuse of mercury,1.0,1
+violent pain in tibia as if periosteum were torn off,neuralgia especially after operations on the eye,1.0,1
+violent pain in tibia as if periosteum were torn off,apprehensiveness as if expecting bad news,1.0,1
+violent pain in tibia as if periosteum were torn off,deep-seated pains as if in periosteum,1.0,1
+violent pain in tibia as if periosteum were torn off,pain in shoulder joint as if torn asunder,1.0,1
+violent pain in tibia as if periosteum were torn off,hypochondriacal and despondent,1.0,1
+violent pain in tibia as if periosteum were torn off,pain deep in bones of thigh and legs,1.0,1
+violent pain in tibia as if periosteum were torn off,cracking in right knee upon rising,1.0,1
+violent pain in tibia as if periosteum were torn off,burning sensations especially in throat,1.0,1
+violent pain in tibia as if periosteum were torn off,violent stitches in toes of right foot,1.0,1
+violent pain in tibia as if periosteum were torn off,rheumatic pain in right scapula,1.0,1
+violent pain in tibia as if periosteum were torn off,violent tearing in ball of left little toe,1.0,1
+violent pain in tibia as if periosteum were torn off,drawing pains in legs,1.0,1
+neuralgia especially after operations on the eye,pressing pain in right tibia,1.0,1
+neuralgia especially after operations on the eye,rheumatic pain in scapular muscles,1.0,1
+neuralgia especially after operations on the eye,pain and stiffness of nape cervical muscles,1.0,1
+neuralgia especially after operations on the eye,pains in periosteum of long bones especially tibia,1.0,1
+neuralgia especially after operations on the eye,constricted sensations in different parts,1.0,1
+neuralgia especially after operations on the eye,violent nightly pains in bones of the feet,1.0,1
+neuralgia especially after operations on the eye,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+neuralgia especially after operations on the eye,stiffness on right side of nape of neck,1.0,1
+neuralgia especially after operations on the eye,twitching pain from hip joint to knee,1.0,1
+neuralgia especially after operations on the eye,right hip joint feels sprained on walking,1.0,1
+neuralgia especially after operations on the eye,violent pain in tibia as if periosteum were torn off,1.0,1
+neuralgia especially after operations on the eye,ophthalmia after the abuse of mercury,1.0,1
+neuralgia especially after operations on the eye,apprehensiveness as if expecting bad news,1.0,1
+neuralgia especially after operations on the eye,deep-seated pains as if in periosteum,1.0,1
+neuralgia especially after operations on the eye,pain in shoulder joint as if torn asunder,1.0,1
+neuralgia especially after operations on the eye,hypochondriacal and despondent,1.0,1
+neuralgia especially after operations on the eye,pain deep in bones of thigh and legs,1.0,1
+neuralgia especially after operations on the eye,cracking in right knee upon rising,1.0,1
+neuralgia especially after operations on the eye,burning sensations especially in throat,1.0,1
+neuralgia especially after operations on the eye,violent stitches in toes of right foot,1.0,1
+neuralgia especially after operations on the eye,rheumatic pain in right scapula,1.0,1
+neuralgia especially after operations on the eye,violent tearing in ball of left little toe,1.0,1
+neuralgia especially after operations on the eye,drawing pains in legs,1.0,1
+stiffness on right side of nape of neck,pressing pain in right tibia,1.0,1
+stiffness on right side of nape of neck,rheumatic pain in scapular muscles,1.0,1
+stiffness on right side of nape of neck,pain and stiffness of nape cervical muscles,1.0,1
+stiffness on right side of nape of neck,pains in periosteum of long bones especially tibia,1.0,1
+stiffness on right side of nape of neck,constricted sensations in different parts,1.0,1
+stiffness on right side of nape of neck,violent nightly pains in bones of the feet,1.0,1
+stiffness on right side of nape of neck,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+stiffness on right side of nape of neck,twitching pain from hip joint to knee,1.0,1
+stiffness on right side of nape of neck,right hip joint feels sprained on walking,1.0,1
+stiffness on right side of nape of neck,violent pain in tibia as if periosteum were torn off,1.0,1
+stiffness on right side of nape of neck,ophthalmia after the abuse of mercury,1.0,1
+stiffness on right side of nape of neck,neuralgia especially after operations on the eye,1.0,1
+stiffness on right side of nape of neck,apprehensiveness as if expecting bad news,1.0,1
+stiffness on right side of nape of neck,deep-seated pains as if in periosteum,1.0,1
+stiffness on right side of nape of neck,pain in shoulder joint as if torn asunder,1.0,1
+stiffness on right side of nape of neck,hypochondriacal and despondent,1.0,1
+stiffness on right side of nape of neck,pain deep in bones of thigh and legs,1.0,1
+stiffness on right side of nape of neck,cracking in right knee upon rising,1.0,1
+stiffness on right side of nape of neck,burning sensations especially in throat,1.0,1
+stiffness on right side of nape of neck,violent stitches in toes of right foot,1.0,1
+stiffness on right side of nape of neck,rheumatic pain in right scapula,1.0,1
+stiffness on right side of nape of neck,violent tearing in ball of left little toe,1.0,1
+stiffness on right side of nape of neck,drawing pains in legs,1.0,1
+pain and stiffness of nape cervical muscles,pressing pain in right tibia,1.0,1
+pain and stiffness of nape cervical muscles,rheumatic pain in scapular muscles,1.0,1
+pain and stiffness of nape cervical muscles,pains in periosteum of long bones especially tibia,1.0,1
+pain and stiffness of nape cervical muscles,constricted sensations in different parts,1.0,1
+pain and stiffness of nape cervical muscles,violent nightly pains in bones of the feet,1.0,1
+pain and stiffness of nape cervical muscles,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+pain and stiffness of nape cervical muscles,stiffness on right side of nape of neck,1.0,1
+pain and stiffness of nape cervical muscles,twitching pain from hip joint to knee,1.0,1
+pain and stiffness of nape cervical muscles,right hip joint feels sprained on walking,1.0,1
+pain and stiffness of nape cervical muscles,violent pain in tibia as if periosteum were torn off,1.0,1
+pain and stiffness of nape cervical muscles,ophthalmia after the abuse of mercury,1.0,1
+pain and stiffness of nape cervical muscles,neuralgia especially after operations on the eye,1.0,1
+pain and stiffness of nape cervical muscles,apprehensiveness as if expecting bad news,1.0,1
+pain and stiffness of nape cervical muscles,deep-seated pains as if in periosteum,1.0,1
+pain and stiffness of nape cervical muscles,pain in shoulder joint as if torn asunder,1.0,1
+pain and stiffness of nape cervical muscles,hypochondriacal and despondent,1.0,1
+pain and stiffness of nape cervical muscles,pain deep in bones of thigh and legs,1.0,1
+pain and stiffness of nape cervical muscles,cracking in right knee upon rising,1.0,1
+pain and stiffness of nape cervical muscles,burning sensations especially in throat,1.0,1
+pain and stiffness of nape cervical muscles,violent stitches in toes of right foot,1.0,1
+pain and stiffness of nape cervical muscles,rheumatic pain in right scapula,1.0,1
+pain and stiffness of nape cervical muscles,violent tearing in ball of left little toe,1.0,1
+pain and stiffness of nape cervical muscles,drawing pains in legs,1.0,1
+pain in shoulder joint as if torn asunder,pressing pain in right tibia,1.0,1
+pain in shoulder joint as if torn asunder,rheumatic pain in scapular muscles,1.0,1
+pain in shoulder joint as if torn asunder,pain and stiffness of nape cervical muscles,1.0,1
+pain in shoulder joint as if torn asunder,pains in periosteum of long bones especially tibia,1.0,1
+pain in shoulder joint as if torn asunder,constricted sensations in different parts,1.0,1
+pain in shoulder joint as if torn asunder,violent nightly pains in bones of the feet,1.0,1
+pain in shoulder joint as if torn asunder,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+pain in shoulder joint as if torn asunder,stiffness on right side of nape of neck,1.0,1
+pain in shoulder joint as if torn asunder,twitching pain from hip joint to knee,1.0,1
+pain in shoulder joint as if torn asunder,right hip joint feels sprained on walking,1.0,1
+pain in shoulder joint as if torn asunder,violent pain in tibia as if periosteum were torn off,1.0,1
+pain in shoulder joint as if torn asunder,ophthalmia after the abuse of mercury,1.0,1
+pain in shoulder joint as if torn asunder,neuralgia especially after operations on the eye,1.0,1
+pain in shoulder joint as if torn asunder,apprehensiveness as if expecting bad news,1.0,1
+pain in shoulder joint as if torn asunder,deep-seated pains as if in periosteum,1.0,1
+pain in shoulder joint as if torn asunder,hypochondriacal and despondent,1.0,1
+pain in shoulder joint as if torn asunder,pain deep in bones of thigh and legs,1.0,1
+pain in shoulder joint as if torn asunder,cracking in right knee upon rising,1.0,1
+pain in shoulder joint as if torn asunder,burning sensations especially in throat,1.0,1
+pain in shoulder joint as if torn asunder,violent stitches in toes of right foot,1.0,1
+pain in shoulder joint as if torn asunder,rheumatic pain in right scapula,1.0,1
+pain in shoulder joint as if torn asunder,violent tearing in ball of left little toe,1.0,1
+pain in shoulder joint as if torn asunder,drawing pains in legs,1.0,1
+burning sensations especially in throat,pressing pain in right tibia,1.0,1
+burning sensations especially in throat,rheumatic pain in scapular muscles,1.0,1
+burning sensations especially in throat,pain and stiffness of nape cervical muscles,1.0,1
+burning sensations especially in throat,pains in periosteum of long bones especially tibia,1.0,1
+burning sensations especially in throat,constricted sensations in different parts,1.0,1
+burning sensations especially in throat,violent nightly pains in bones of the feet,1.0,1
+burning sensations especially in throat,neuralgic pains in different parts come quickly and leave the part numb,1.0,1
+burning sensations especially in throat,stiffness on right side of nape of neck,1.0,1
+burning sensations especially in throat,twitching pain from hip joint to knee,1.0,1
+burning sensations especially in throat,right hip joint feels sprained on walking,1.0,1
+burning sensations especially in throat,violent pain in tibia as if periosteum were torn off,1.0,1
+burning sensations especially in throat,ophthalmia after the abuse of mercury,1.0,1
+burning sensations especially in throat,neuralgia especially after operations on the eye,1.0,1
+burning sensations especially in throat,apprehensiveness as if expecting bad news,1.0,1
+burning sensations especially in throat,deep-seated pains as if in periosteum,1.0,1
+burning sensations especially in throat,pain in shoulder joint as if torn asunder,1.0,1
+burning sensations especially in throat,hypochondriacal and despondent,1.0,1
+burning sensations especially in throat,pain deep in bones of thigh and legs,1.0,1
+burning sensations especially in throat,cracking in right knee upon rising,1.0,1
+burning sensations especially in throat,violent stitches in toes of right foot,1.0,1
+burning sensations especially in throat,rheumatic pain in right scapula,1.0,1
+burning sensations especially in throat,violent tearing in ball of left little toe,1.0,1
+burning sensations especially in throat,drawing pains in legs,1.0,1

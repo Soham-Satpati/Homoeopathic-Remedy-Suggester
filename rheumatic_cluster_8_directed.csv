@@ -1,0 +1,207 @@
+### Cluster 8 — Symptoms (14)
+Symptom,Frequency
+tearing pains in all limbs,3
+eyelids could not be opened until rubbed,1
+shooting in left forehead and temple,1
+better by cold and pressure,2
+aching pain in nape of neck,1
+oppressive contractions in cardiac region,1
+at times cannot raise eyelids,1
+repeated palpitation of heart with oppression after stooping,1
+rheumatic aching in forehead,1
+tension and heaviness in head,1
+peculiar undulating and throbbing motion in cardiac region,1
+vertigo on stooping,1
+eyelids seem paralyzed,1
+weakness of upper lids,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+mercurialis perennis,14
+spigelia,1
+aconitum napellus,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+at times cannot raise eyelids,eyelids could not be opened until rubbed,1.0,1
+at times cannot raise eyelids,shooting in left forehead and temple,1.0,1
+at times cannot raise eyelids,better by cold and pressure,1.0,1
+at times cannot raise eyelids,aching pain in nape of neck,1.0,1
+at times cannot raise eyelids,tearing pains in all limbs,1.0,1
+at times cannot raise eyelids,oppressive contractions in cardiac region,1.0,1
+at times cannot raise eyelids,repeated palpitation of heart with oppression after stooping,1.0,1
+at times cannot raise eyelids,rheumatic aching in forehead,1.0,1
+at times cannot raise eyelids,tension and heaviness in head,1.0,1
+at times cannot raise eyelids,peculiar undulating and throbbing motion in cardiac region,1.0,1
+at times cannot raise eyelids,vertigo on stooping,1.0,1
+at times cannot raise eyelids,eyelids seem paralyzed,1.0,1
+at times cannot raise eyelids,weakness of upper lids,1.0,1
+vertigo on stooping,eyelids could not be opened until rubbed,1.0,1
+vertigo on stooping,shooting in left forehead and temple,1.0,1
+vertigo on stooping,better by cold and pressure,1.0,1
+vertigo on stooping,aching pain in nape of neck,1.0,1
+vertigo on stooping,tearing pains in all limbs,1.0,1
+vertigo on stooping,oppressive contractions in cardiac region,1.0,1
+vertigo on stooping,at times cannot raise eyelids,1.0,1
+vertigo on stooping,repeated palpitation of heart with oppression after stooping,1.0,1
+vertigo on stooping,rheumatic aching in forehead,1.0,1
+vertigo on stooping,tension and heaviness in head,1.0,1
+vertigo on stooping,peculiar undulating and throbbing motion in cardiac region,1.0,1
+vertigo on stooping,eyelids seem paralyzed,1.0,1
+vertigo on stooping,weakness of upper lids,1.0,1
+aching pain in nape of neck,eyelids could not be opened until rubbed,1.0,1
+aching pain in nape of neck,shooting in left forehead and temple,1.0,1
+aching pain in nape of neck,better by cold and pressure,1.0,1
+aching pain in nape of neck,tearing pains in all limbs,1.0,1
+aching pain in nape of neck,oppressive contractions in cardiac region,1.0,1
+aching pain in nape of neck,at times cannot raise eyelids,1.0,1
+aching pain in nape of neck,repeated palpitation of heart with oppression after stooping,1.0,1
+aching pain in nape of neck,rheumatic aching in forehead,1.0,1
+aching pain in nape of neck,tension and heaviness in head,1.0,1
+aching pain in nape of neck,peculiar undulating and throbbing motion in cardiac region,1.0,1
+aching pain in nape of neck,vertigo on stooping,1.0,1
+aching pain in nape of neck,eyelids seem paralyzed,1.0,1
+aching pain in nape of neck,weakness of upper lids,1.0,1
+tearing pains in all limbs,eyelids could not be opened until rubbed,0.3333,1
+tearing pains in all limbs,shooting in left forehead and temple,0.3333,1
+tearing pains in all limbs,better by cold and pressure,0.3333,1
+tearing pains in all limbs,aching pain in nape of neck,0.3333,1
+tearing pains in all limbs,oppressive contractions in cardiac region,0.3333,1
+tearing pains in all limbs,at times cannot raise eyelids,0.3333,1
+tearing pains in all limbs,repeated palpitation of heart with oppression after stooping,0.3333,1
+tearing pains in all limbs,rheumatic aching in forehead,0.3333,1
+tearing pains in all limbs,tension and heaviness in head,0.3333,1
+tearing pains in all limbs,peculiar undulating and throbbing motion in cardiac region,0.3333,1
+tearing pains in all limbs,vertigo on stooping,0.3333,1
+tearing pains in all limbs,eyelids seem paralyzed,0.3333,1
+tearing pains in all limbs,weakness of upper lids,0.3333,1
+peculiar undulating and throbbing motion in cardiac region,eyelids could not be opened until rubbed,1.0,1
+peculiar undulating and throbbing motion in cardiac region,shooting in left forehead and temple,1.0,1
+peculiar undulating and throbbing motion in cardiac region,better by cold and pressure,1.0,1
+peculiar undulating and throbbing motion in cardiac region,aching pain in nape of neck,1.0,1
+peculiar undulating and throbbing motion in cardiac region,tearing pains in all limbs,1.0,1
+peculiar undulating and throbbing motion in cardiac region,oppressive contractions in cardiac region,1.0,1
+peculiar undulating and throbbing motion in cardiac region,at times cannot raise eyelids,1.0,1
+peculiar undulating and throbbing motion in cardiac region,repeated palpitation of heart with oppression after stooping,1.0,1
+peculiar undulating and throbbing motion in cardiac region,rheumatic aching in forehead,1.0,1
+peculiar undulating and throbbing motion in cardiac region,tension and heaviness in head,1.0,1
+peculiar undulating and throbbing motion in cardiac region,vertigo on stooping,1.0,1
+peculiar undulating and throbbing motion in cardiac region,eyelids seem paralyzed,1.0,1
+peculiar undulating and throbbing motion in cardiac region,weakness of upper lids,1.0,1
+eyelids could not be opened until rubbed,shooting in left forehead and temple,1.0,1
+eyelids could not be opened until rubbed,better by cold and pressure,1.0,1
+eyelids could not be opened until rubbed,aching pain in nape of neck,1.0,1
+eyelids could not be opened until rubbed,tearing pains in all limbs,1.0,1
+eyelids could not be opened until rubbed,oppressive contractions in cardiac region,1.0,1
+eyelids could not be opened until rubbed,at times cannot raise eyelids,1.0,1
+eyelids could not be opened until rubbed,repeated palpitation of heart with oppression after stooping,1.0,1
+eyelids could not be opened until rubbed,rheumatic aching in forehead,1.0,1
+eyelids could not be opened until rubbed,tension and heaviness in head,1.0,1
+eyelids could not be opened until rubbed,peculiar undulating and throbbing motion in cardiac region,1.0,1
+eyelids could not be opened until rubbed,vertigo on stooping,1.0,1
+eyelids could not be opened until rubbed,eyelids seem paralyzed,1.0,1
+eyelids could not be opened until rubbed,weakness of upper lids,1.0,1
+shooting in left forehead and temple,eyelids could not be opened until rubbed,1.0,1
+shooting in left forehead and temple,better by cold and pressure,1.0,1
+shooting in left forehead and temple,aching pain in nape of neck,1.0,1
+shooting in left forehead and temple,tearing pains in all limbs,1.0,1
+shooting in left forehead and temple,oppressive contractions in cardiac region,1.0,1
+shooting in left forehead and temple,at times cannot raise eyelids,1.0,1
+shooting in left forehead and temple,repeated palpitation of heart with oppression after stooping,1.0,1
+shooting in left forehead and temple,rheumatic aching in forehead,1.0,1
+shooting in left forehead and temple,tension and heaviness in head,1.0,1
+shooting in left forehead and temple,peculiar undulating and throbbing motion in cardiac region,1.0,1
+shooting in left forehead and temple,vertigo on stooping,1.0,1
+shooting in left forehead and temple,eyelids seem paralyzed,1.0,1
+shooting in left forehead and temple,weakness of upper lids,1.0,1
+better by cold and pressure,eyelids could not be opened until rubbed,1.0,1
+better by cold and pressure,shooting in left forehead and temple,1.0,1
+better by cold and pressure,aching pain in nape of neck,1.0,1
+better by cold and pressure,tearing pains in all limbs,1.0,1
+better by cold and pressure,oppressive contractions in cardiac region,1.0,1
+better by cold and pressure,at times cannot raise eyelids,1.0,1
+better by cold and pressure,repeated palpitation of heart with oppression after stooping,1.0,1
+better by cold and pressure,rheumatic aching in forehead,1.0,1
+better by cold and pressure,tension and heaviness in head,1.0,1
+better by cold and pressure,peculiar undulating and throbbing motion in cardiac region,1.0,1
+better by cold and pressure,vertigo on stooping,1.0,1
+better by cold and pressure,eyelids seem paralyzed,1.0,1
+better by cold and pressure,weakness of upper lids,1.0,1
+oppressive contractions in cardiac region,eyelids could not be opened until rubbed,1.0,1
+oppressive contractions in cardiac region,shooting in left forehead and temple,1.0,1
+oppressive contractions in cardiac region,better by cold and pressure,1.0,1
+oppressive contractions in cardiac region,aching pain in nape of neck,1.0,1
+oppressive contractions in cardiac region,tearing pains in all limbs,1.0,1
+oppressive contractions in cardiac region,at times cannot raise eyelids,1.0,1
+oppressive contractions in cardiac region,repeated palpitation of heart with oppression after stooping,1.0,1
+oppressive contractions in cardiac region,rheumatic aching in forehead,1.0,1
+oppressive contractions in cardiac region,tension and heaviness in head,1.0,1
+oppressive contractions in cardiac region,peculiar undulating and throbbing motion in cardiac region,1.0,1
+oppressive contractions in cardiac region,vertigo on stooping,1.0,1
+oppressive contractions in cardiac region,eyelids seem paralyzed,1.0,1
+oppressive contractions in cardiac region,weakness of upper lids,1.0,1
+rheumatic aching in forehead,eyelids could not be opened until rubbed,1.0,1
+rheumatic aching in forehead,shooting in left forehead and temple,1.0,1
+rheumatic aching in forehead,better by cold and pressure,1.0,1
+rheumatic aching in forehead,aching pain in nape of neck,1.0,1
+rheumatic aching in forehead,tearing pains in all limbs,1.0,1
+rheumatic aching in forehead,oppressive contractions in cardiac region,1.0,1
+rheumatic aching in forehead,at times cannot raise eyelids,1.0,1
+rheumatic aching in forehead,repeated palpitation of heart with oppression after stooping,1.0,1
+rheumatic aching in forehead,tension and heaviness in head,1.0,1
+rheumatic aching in forehead,peculiar undulating and throbbing motion in cardiac region,1.0,1
+rheumatic aching in forehead,vertigo on stooping,1.0,1
+rheumatic aching in forehead,eyelids seem paralyzed,1.0,1
+rheumatic aching in forehead,weakness of upper lids,1.0,1
+tension and heaviness in head,eyelids could not be opened until rubbed,1.0,1
+tension and heaviness in head,shooting in left forehead and temple,1.0,1
+tension and heaviness in head,better by cold and pressure,1.0,1
+tension and heaviness in head,aching pain in nape of neck,1.0,1
+tension and heaviness in head,tearing pains in all limbs,1.0,1
+tension and heaviness in head,oppressive contractions in cardiac region,1.0,1
+tension and heaviness in head,at times cannot raise eyelids,1.0,1
+tension and heaviness in head,repeated palpitation of heart with oppression after stooping,1.0,1
+tension and heaviness in head,rheumatic aching in forehead,1.0,1
+tension and heaviness in head,peculiar undulating and throbbing motion in cardiac region,1.0,1
+tension and heaviness in head,vertigo on stooping,1.0,1
+tension and heaviness in head,eyelids seem paralyzed,1.0,1
+tension and heaviness in head,weakness of upper lids,1.0,1
+eyelids seem paralyzed,eyelids could not be opened until rubbed,1.0,1
+eyelids seem paralyzed,shooting in left forehead and temple,1.0,1
+eyelids seem paralyzed,better by cold and pressure,1.0,1
+eyelids seem paralyzed,aching pain in nape of neck,1.0,1
+eyelids seem paralyzed,tearing pains in all limbs,1.0,1
+eyelids seem paralyzed,oppressive contractions in cardiac region,1.0,1
+eyelids seem paralyzed,at times cannot raise eyelids,1.0,1
+eyelids seem paralyzed,repeated palpitation of heart with oppression after stooping,1.0,1
+eyelids seem paralyzed,rheumatic aching in forehead,1.0,1
+eyelids seem paralyzed,tension and heaviness in head,1.0,1
+eyelids seem paralyzed,peculiar undulating and throbbing motion in cardiac region,1.0,1
+eyelids seem paralyzed,vertigo on stooping,1.0,1
+eyelids seem paralyzed,weakness of upper lids,1.0,1
+weakness of upper lids,eyelids could not be opened until rubbed,1.0,1
+weakness of upper lids,shooting in left forehead and temple,1.0,1
+weakness of upper lids,better by cold and pressure,1.0,1
+weakness of upper lids,aching pain in nape of neck,1.0,1
+weakness of upper lids,tearing pains in all limbs,1.0,1
+weakness of upper lids,oppressive contractions in cardiac region,1.0,1
+weakness of upper lids,at times cannot raise eyelids,1.0,1
+weakness of upper lids,repeated palpitation of heart with oppression after stooping,1.0,1
+weakness of upper lids,rheumatic aching in forehead,1.0,1
+weakness of upper lids,tension and heaviness in head,1.0,1
+weakness of upper lids,peculiar undulating and throbbing motion in cardiac region,1.0,1
+weakness of upper lids,vertigo on stooping,1.0,1
+weakness of upper lids,eyelids seem paralyzed,1.0,1
+repeated palpitation of heart with oppression after stooping,eyelids could not be opened until rubbed,1.0,1
+repeated palpitation of heart with oppression after stooping,shooting in left forehead and temple,1.0,1
+repeated palpitation of heart with oppression after stooping,better by cold and pressure,1.0,1
+repeated palpitation of heart with oppression after stooping,aching pain in nape of neck,1.0,1
+repeated palpitation of heart with oppression after stooping,tearing pains in all limbs,1.0,1
+repeated palpitation of heart with oppression after stooping,oppressive contractions in cardiac region,1.0,1
+repeated palpitation of heart with oppression after stooping,at times cannot raise eyelids,1.0,1
+repeated palpitation of heart with oppression after stooping,rheumatic aching in forehead,1.0,1
+repeated palpitation of heart with oppression after stooping,tension and heaviness in head,1.0,1
+repeated palpitation of heart with oppression after stooping,peculiar undulating and throbbing motion in cardiac region,1.0,1
+repeated palpitation of heart with oppression after stooping,vertigo on stooping,1.0,1
+repeated palpitation of heart with oppression after stooping,eyelids seem paralyzed,1.0,1
+repeated palpitation of heart with oppression after stooping,weakness of upper lids,1.0,1

@@ -1,0 +1,139 @@
+### Cluster 87 — Symptoms (12)
+Symptom,Frequency
+stitching pain in knees,5
+burning in bladder,1
+urinary irritation,1
+rheumatic pains with burning,2
+constant urging to urinate,1
+burning pain in legs,1
+rheumatism with burning pains,2
+burning pain in arms,2
+burning pain in lumbar region,1
+stiff joints worse cold,4
+homesickness,1
+burning in throat,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+cantharides,10
+capsicum,7
+bryonia alba,1
+cactus grandiflorus,1
+cannabis indica,1
+camphora,1
+calcarea phosphorica,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+urinary irritation,stitching pain in knees,1.0,1
+urinary irritation,burning in bladder,1.0,1
+urinary irritation,rheumatic pains with burning,1.0,1
+urinary irritation,constant urging to urinate,1.0,1
+urinary irritation,burning pain in legs,1.0,1
+urinary irritation,rheumatism with burning pains,1.0,1
+urinary irritation,burning pain in arms,1.0,1
+urinary irritation,burning pain in lumbar region,1.0,1
+urinary irritation,stiff joints worse cold,1.0,1
+burning pain in legs,stitching pain in knees,1.0,1
+burning pain in legs,burning in bladder,1.0,1
+burning pain in legs,urinary irritation,1.0,1
+burning pain in legs,rheumatic pains with burning,1.0,1
+burning pain in legs,constant urging to urinate,1.0,1
+burning pain in legs,rheumatism with burning pains,1.0,1
+burning pain in legs,burning pain in arms,1.0,1
+burning pain in legs,burning pain in lumbar region,1.0,1
+burning pain in legs,stiff joints worse cold,1.0,1
+burning in throat,stitching pain in knees,1.0,1
+burning in throat,rheumatic pains with burning,1.0,1
+burning in throat,rheumatism with burning pains,1.0,1
+burning in throat,homesickness,1.0,1
+burning in throat,burning pain in arms,1.0,1
+burning in throat,stiff joints worse cold,1.0,1
+stiff joints worse cold,stitching pain in knees,0.5,2
+stiff joints worse cold,burning in bladder,0.25,1
+stiff joints worse cold,urinary irritation,0.25,1
+stiff joints worse cold,rheumatic pains with burning,0.5,2
+stiff joints worse cold,constant urging to urinate,0.25,1
+stiff joints worse cold,burning pain in legs,0.25,1
+stiff joints worse cold,rheumatism with burning pains,0.5,2
+stiff joints worse cold,homesickness,0.25,1
+stiff joints worse cold,burning in throat,0.25,1
+stiff joints worse cold,burning pain in arms,0.5,2
+stiff joints worse cold,burning pain in lumbar region,0.25,1
+rheumatic pains with burning,stitching pain in knees,1.0,2
+rheumatic pains with burning,burning in bladder,0.5,1
+rheumatic pains with burning,urinary irritation,0.5,1
+rheumatic pains with burning,constant urging to urinate,0.5,1
+rheumatic pains with burning,burning pain in legs,0.5,1
+rheumatic pains with burning,rheumatism with burning pains,1.0,2
+rheumatic pains with burning,homesickness,0.5,1
+rheumatic pains with burning,burning in throat,0.5,1
+rheumatic pains with burning,burning pain in arms,1.0,2
+rheumatic pains with burning,burning pain in lumbar region,0.5,1
+rheumatic pains with burning,stiff joints worse cold,1.0,2
+burning in bladder,stitching pain in knees,1.0,1
+burning in bladder,urinary irritation,1.0,1
+burning in bladder,rheumatic pains with burning,1.0,1
+burning in bladder,constant urging to urinate,1.0,1
+burning in bladder,burning pain in legs,1.0,1
+burning in bladder,rheumatism with burning pains,1.0,1
+burning in bladder,burning pain in arms,1.0,1
+burning in bladder,burning pain in lumbar region,1.0,1
+burning in bladder,stiff joints worse cold,1.0,1
+rheumatism with burning pains,stitching pain in knees,1.0,2
+rheumatism with burning pains,burning in bladder,0.5,1
+rheumatism with burning pains,urinary irritation,0.5,1
+rheumatism with burning pains,rheumatic pains with burning,1.0,2
+rheumatism with burning pains,constant urging to urinate,0.5,1
+rheumatism with burning pains,burning pain in legs,0.5,1
+rheumatism with burning pains,homesickness,0.5,1
+rheumatism with burning pains,burning in throat,0.5,1
+rheumatism with burning pains,burning pain in arms,1.0,2
+rheumatism with burning pains,burning pain in lumbar region,0.5,1
+rheumatism with burning pains,stiff joints worse cold,1.0,2
+burning pain in arms,stitching pain in knees,1.0,2
+burning pain in arms,burning in bladder,0.5,1
+burning pain in arms,urinary irritation,0.5,1
+burning pain in arms,rheumatic pains with burning,1.0,2
+burning pain in arms,constant urging to urinate,0.5,1
+burning pain in arms,burning pain in legs,0.5,1
+burning pain in arms,rheumatism with burning pains,1.0,2
+burning pain in arms,homesickness,0.5,1
+burning pain in arms,burning in throat,0.5,1
+burning pain in arms,burning pain in lumbar region,0.5,1
+burning pain in arms,stiff joints worse cold,1.0,2
+constant urging to urinate,stitching pain in knees,1.0,1
+constant urging to urinate,burning in bladder,1.0,1
+constant urging to urinate,urinary irritation,1.0,1
+constant urging to urinate,rheumatic pains with burning,1.0,1
+constant urging to urinate,burning pain in legs,1.0,1
+constant urging to urinate,rheumatism with burning pains,1.0,1
+constant urging to urinate,burning pain in arms,1.0,1
+constant urging to urinate,burning pain in lumbar region,1.0,1
+constant urging to urinate,stiff joints worse cold,1.0,1
+burning pain in lumbar region,stitching pain in knees,1.0,1
+burning pain in lumbar region,burning in bladder,1.0,1
+burning pain in lumbar region,urinary irritation,1.0,1
+burning pain in lumbar region,rheumatic pains with burning,1.0,1
+burning pain in lumbar region,constant urging to urinate,1.0,1
+burning pain in lumbar region,burning pain in legs,1.0,1
+burning pain in lumbar region,rheumatism with burning pains,1.0,1
+burning pain in lumbar region,burning pain in arms,1.0,1
+burning pain in lumbar region,stiff joints worse cold,1.0,1
+homesickness,stitching pain in knees,1.0,1
+homesickness,rheumatic pains with burning,1.0,1
+homesickness,rheumatism with burning pains,1.0,1
+homesickness,burning in throat,1.0,1
+homesickness,burning pain in arms,1.0,1
+homesickness,stiff joints worse cold,1.0,1
+stitching pain in knees,burning in bladder,0.2,1
+stitching pain in knees,urinary irritation,0.2,1
+stitching pain in knees,rheumatic pains with burning,0.4,2
+stitching pain in knees,constant urging to urinate,0.2,1
+stitching pain in knees,burning pain in legs,0.2,1
+stitching pain in knees,rheumatism with burning pains,0.4,2
+stitching pain in knees,homesickness,0.2,1
+stitching pain in knees,burning in throat,0.2,1
+stitching pain in knees,burning pain in arms,0.4,2
+stitching pain in knees,burning pain in lumbar region,0.2,1
+stitching pain in knees,stiff joints worse cold,0.4,2

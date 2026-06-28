@@ -1,0 +1,109 @@
+### Cluster 1 — Symptoms (10)
+Symptom,Frequency
+pulling sensation after pressure,1
+sensation in right shoulder as if pressed by weight,1
+pain in forenoon,1
+limping from cord-like sensation,1
+feeling over right kidney as if pressed hard,1
+pain shifts to foot,1
+pain shifts to left leg below knee,1
+pain shifts to ankle,1
+cord-like sensation around leg between hips and knees,1
+aching legs,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+ammonium bromidum,10
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+aching legs,pulling sensation after pressure,1.0,1
+aching legs,sensation in right shoulder as if pressed by weight,1.0,1
+aching legs,pain in forenoon,1.0,1
+aching legs,limping from cord-like sensation,1.0,1
+aching legs,feeling over right kidney as if pressed hard,1.0,1
+aching legs,pain shifts to foot,1.0,1
+aching legs,pain shifts to left leg below knee,1.0,1
+aching legs,pain shifts to ankle,1.0,1
+aching legs,cord-like sensation around leg between hips and knees,1.0,1
+sensation in right shoulder as if pressed by weight,pulling sensation after pressure,1.0,1
+sensation in right shoulder as if pressed by weight,pain in forenoon,1.0,1
+sensation in right shoulder as if pressed by weight,limping from cord-like sensation,1.0,1
+sensation in right shoulder as if pressed by weight,feeling over right kidney as if pressed hard,1.0,1
+sensation in right shoulder as if pressed by weight,pain shifts to foot,1.0,1
+sensation in right shoulder as if pressed by weight,pain shifts to left leg below knee,1.0,1
+sensation in right shoulder as if pressed by weight,pain shifts to ankle,1.0,1
+sensation in right shoulder as if pressed by weight,cord-like sensation around leg between hips and knees,1.0,1
+sensation in right shoulder as if pressed by weight,aching legs,1.0,1
+limping from cord-like sensation,pulling sensation after pressure,1.0,1
+limping from cord-like sensation,sensation in right shoulder as if pressed by weight,1.0,1
+limping from cord-like sensation,pain in forenoon,1.0,1
+limping from cord-like sensation,feeling over right kidney as if pressed hard,1.0,1
+limping from cord-like sensation,pain shifts to foot,1.0,1
+limping from cord-like sensation,pain shifts to left leg below knee,1.0,1
+limping from cord-like sensation,pain shifts to ankle,1.0,1
+limping from cord-like sensation,cord-like sensation around leg between hips and knees,1.0,1
+limping from cord-like sensation,aching legs,1.0,1
+pulling sensation after pressure,sensation in right shoulder as if pressed by weight,1.0,1
+pulling sensation after pressure,pain in forenoon,1.0,1
+pulling sensation after pressure,limping from cord-like sensation,1.0,1
+pulling sensation after pressure,feeling over right kidney as if pressed hard,1.0,1
+pulling sensation after pressure,pain shifts to foot,1.0,1
+pulling sensation after pressure,pain shifts to left leg below knee,1.0,1
+pulling sensation after pressure,pain shifts to ankle,1.0,1
+pulling sensation after pressure,cord-like sensation around leg between hips and knees,1.0,1
+pulling sensation after pressure,aching legs,1.0,1
+pain shifts to foot,pulling sensation after pressure,1.0,1
+pain shifts to foot,sensation in right shoulder as if pressed by weight,1.0,1
+pain shifts to foot,pain in forenoon,1.0,1
+pain shifts to foot,limping from cord-like sensation,1.0,1
+pain shifts to foot,feeling over right kidney as if pressed hard,1.0,1
+pain shifts to foot,pain shifts to left leg below knee,1.0,1
+pain shifts to foot,pain shifts to ankle,1.0,1
+pain shifts to foot,cord-like sensation around leg between hips and knees,1.0,1
+pain shifts to foot,aching legs,1.0,1
+pain shifts to ankle,pulling sensation after pressure,1.0,1
+pain shifts to ankle,sensation in right shoulder as if pressed by weight,1.0,1
+pain shifts to ankle,pain in forenoon,1.0,1
+pain shifts to ankle,limping from cord-like sensation,1.0,1
+pain shifts to ankle,feeling over right kidney as if pressed hard,1.0,1
+pain shifts to ankle,pain shifts to foot,1.0,1
+pain shifts to ankle,pain shifts to left leg below knee,1.0,1
+pain shifts to ankle,cord-like sensation around leg between hips and knees,1.0,1
+pain shifts to ankle,aching legs,1.0,1
+cord-like sensation around leg between hips and knees,pulling sensation after pressure,1.0,1
+cord-like sensation around leg between hips and knees,sensation in right shoulder as if pressed by weight,1.0,1
+cord-like sensation around leg between hips and knees,pain in forenoon,1.0,1
+cord-like sensation around leg between hips and knees,limping from cord-like sensation,1.0,1
+cord-like sensation around leg between hips and knees,feeling over right kidney as if pressed hard,1.0,1
+cord-like sensation around leg between hips and knees,pain shifts to foot,1.0,1
+cord-like sensation around leg between hips and knees,pain shifts to left leg below knee,1.0,1
+cord-like sensation around leg between hips and knees,pain shifts to ankle,1.0,1
+cord-like sensation around leg between hips and knees,aching legs,1.0,1
+pain in forenoon,pulling sensation after pressure,1.0,1
+pain in forenoon,sensation in right shoulder as if pressed by weight,1.0,1
+pain in forenoon,limping from cord-like sensation,1.0,1
+pain in forenoon,feeling over right kidney as if pressed hard,1.0,1
+pain in forenoon,pain shifts to foot,1.0,1
+pain in forenoon,pain shifts to left leg below knee,1.0,1
+pain in forenoon,pain shifts to ankle,1.0,1
+pain in forenoon,cord-like sensation around leg between hips and knees,1.0,1
+pain in forenoon,aching legs,1.0,1
+pain shifts to left leg below knee,pulling sensation after pressure,1.0,1
+pain shifts to left leg below knee,sensation in right shoulder as if pressed by weight,1.0,1
+pain shifts to left leg below knee,pain in forenoon,1.0,1
+pain shifts to left leg below knee,limping from cord-like sensation,1.0,1
+pain shifts to left leg below knee,feeling over right kidney as if pressed hard,1.0,1
+pain shifts to left leg below knee,pain shifts to foot,1.0,1
+pain shifts to left leg below knee,pain shifts to ankle,1.0,1
+pain shifts to left leg below knee,cord-like sensation around leg between hips and knees,1.0,1
+pain shifts to left leg below knee,aching legs,1.0,1
+feeling over right kidney as if pressed hard,pulling sensation after pressure,1.0,1
+feeling over right kidney as if pressed hard,sensation in right shoulder as if pressed by weight,1.0,1
+feeling over right kidney as if pressed hard,pain in forenoon,1.0,1
+feeling over right kidney as if pressed hard,limping from cord-like sensation,1.0,1
+feeling over right kidney as if pressed hard,pain shifts to foot,1.0,1
+feeling over right kidney as if pressed hard,pain shifts to left leg below knee,1.0,1
+feeling over right kidney as if pressed hard,pain shifts to ankle,1.0,1
+feeling over right kidney as if pressed hard,cord-like sensation around leg between hips and knees,1.0,1
+feeling over right kidney as if pressed hard,aching legs,1.0,1

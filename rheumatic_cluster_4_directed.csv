@@ -1,0 +1,205 @@
+### Cluster 4 — Symptoms (14)
+Symptom,Frequency
+restlessness and tension in thighs,1
+paralytic drawing and tearing in limbs,1
+must move for relief,1
+as from an electric shock,1
+tearing pains in shoulders arms wrists and hands,1
+stitches in heart taking away breath,1
+rheumatic pain worse from motion,1
+rheumatic pain in shoulder joint extending down to hand,1
+palpitation of heart with cardiac pain going off with motion,1
+bruised pain above and in small of back and both hips,1
+stitches tearing and burning in small of back,1
+contractive spasmodic pain in small of back,1
+twitching tearing in hips,1
+jerking from heel through whole body,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+magnesia muriatica,14
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+stitches tearing and burning in small of back,restlessness and tension in thighs,1.0,1
+stitches tearing and burning in small of back,paralytic drawing and tearing in limbs,1.0,1
+stitches tearing and burning in small of back,must move for relief,1.0,1
+stitches tearing and burning in small of back,as from an electric shock,1.0,1
+stitches tearing and burning in small of back,tearing pains in shoulders arms wrists and hands,1.0,1
+stitches tearing and burning in small of back,stitches in heart taking away breath,1.0,1
+stitches tearing and burning in small of back,rheumatic pain worse from motion,1.0,1
+stitches tearing and burning in small of back,rheumatic pain in shoulder joint extending down to hand,1.0,1
+stitches tearing and burning in small of back,palpitation of heart with cardiac pain going off with motion,1.0,1
+stitches tearing and burning in small of back,bruised pain above and in small of back and both hips,1.0,1
+stitches tearing and burning in small of back,contractive spasmodic pain in small of back,1.0,1
+stitches tearing and burning in small of back,twitching tearing in hips,1.0,1
+stitches tearing and burning in small of back,jerking from heel through whole body,1.0,1
+tearing pains in shoulders arms wrists and hands,restlessness and tension in thighs,1.0,1
+tearing pains in shoulders arms wrists and hands,paralytic drawing and tearing in limbs,1.0,1
+tearing pains in shoulders arms wrists and hands,must move for relief,1.0,1
+tearing pains in shoulders arms wrists and hands,as from an electric shock,1.0,1
+tearing pains in shoulders arms wrists and hands,stitches in heart taking away breath,1.0,1
+tearing pains in shoulders arms wrists and hands,rheumatic pain worse from motion,1.0,1
+tearing pains in shoulders arms wrists and hands,rheumatic pain in shoulder joint extending down to hand,1.0,1
+tearing pains in shoulders arms wrists and hands,palpitation of heart with cardiac pain going off with motion,1.0,1
+tearing pains in shoulders arms wrists and hands,bruised pain above and in small of back and both hips,1.0,1
+tearing pains in shoulders arms wrists and hands,stitches tearing and burning in small of back,1.0,1
+tearing pains in shoulders arms wrists and hands,contractive spasmodic pain in small of back,1.0,1
+tearing pains in shoulders arms wrists and hands,twitching tearing in hips,1.0,1
+tearing pains in shoulders arms wrists and hands,jerking from heel through whole body,1.0,1
+rheumatic pain worse from motion,restlessness and tension in thighs,1.0,1
+rheumatic pain worse from motion,paralytic drawing and tearing in limbs,1.0,1
+rheumatic pain worse from motion,must move for relief,1.0,1
+rheumatic pain worse from motion,as from an electric shock,1.0,1
+rheumatic pain worse from motion,tearing pains in shoulders arms wrists and hands,1.0,1
+rheumatic pain worse from motion,stitches in heart taking away breath,1.0,1
+rheumatic pain worse from motion,rheumatic pain in shoulder joint extending down to hand,1.0,1
+rheumatic pain worse from motion,palpitation of heart with cardiac pain going off with motion,1.0,1
+rheumatic pain worse from motion,bruised pain above and in small of back and both hips,1.0,1
+rheumatic pain worse from motion,stitches tearing and burning in small of back,1.0,1
+rheumatic pain worse from motion,contractive spasmodic pain in small of back,1.0,1
+rheumatic pain worse from motion,twitching tearing in hips,1.0,1
+rheumatic pain worse from motion,jerking from heel through whole body,1.0,1
+jerking from heel through whole body,restlessness and tension in thighs,1.0,1
+jerking from heel through whole body,paralytic drawing and tearing in limbs,1.0,1
+jerking from heel through whole body,must move for relief,1.0,1
+jerking from heel through whole body,as from an electric shock,1.0,1
+jerking from heel through whole body,tearing pains in shoulders arms wrists and hands,1.0,1
+jerking from heel through whole body,stitches in heart taking away breath,1.0,1
+jerking from heel through whole body,rheumatic pain worse from motion,1.0,1
+jerking from heel through whole body,rheumatic pain in shoulder joint extending down to hand,1.0,1
+jerking from heel through whole body,palpitation of heart with cardiac pain going off with motion,1.0,1
+jerking from heel through whole body,bruised pain above and in small of back and both hips,1.0,1
+jerking from heel through whole body,stitches tearing and burning in small of back,1.0,1
+jerking from heel through whole body,contractive spasmodic pain in small of back,1.0,1
+jerking from heel through whole body,twitching tearing in hips,1.0,1
+must move for relief,restlessness and tension in thighs,1.0,1
+must move for relief,paralytic drawing and tearing in limbs,1.0,1
+must move for relief,as from an electric shock,1.0,1
+must move for relief,tearing pains in shoulders arms wrists and hands,1.0,1
+must move for relief,stitches in heart taking away breath,1.0,1
+must move for relief,rheumatic pain worse from motion,1.0,1
+must move for relief,rheumatic pain in shoulder joint extending down to hand,1.0,1
+must move for relief,palpitation of heart with cardiac pain going off with motion,1.0,1
+must move for relief,bruised pain above and in small of back and both hips,1.0,1
+must move for relief,stitches tearing and burning in small of back,1.0,1
+must move for relief,contractive spasmodic pain in small of back,1.0,1
+must move for relief,twitching tearing in hips,1.0,1
+must move for relief,jerking from heel through whole body,1.0,1
+paralytic drawing and tearing in limbs,restlessness and tension in thighs,1.0,1
+paralytic drawing and tearing in limbs,must move for relief,1.0,1
+paralytic drawing and tearing in limbs,as from an electric shock,1.0,1
+paralytic drawing and tearing in limbs,tearing pains in shoulders arms wrists and hands,1.0,1
+paralytic drawing and tearing in limbs,stitches in heart taking away breath,1.0,1
+paralytic drawing and tearing in limbs,rheumatic pain worse from motion,1.0,1
+paralytic drawing and tearing in limbs,rheumatic pain in shoulder joint extending down to hand,1.0,1
+paralytic drawing and tearing in limbs,palpitation of heart with cardiac pain going off with motion,1.0,1
+paralytic drawing and tearing in limbs,bruised pain above and in small of back and both hips,1.0,1
+paralytic drawing and tearing in limbs,stitches tearing and burning in small of back,1.0,1
+paralytic drawing and tearing in limbs,contractive spasmodic pain in small of back,1.0,1
+paralytic drawing and tearing in limbs,twitching tearing in hips,1.0,1
+paralytic drawing and tearing in limbs,jerking from heel through whole body,1.0,1
+stitches in heart taking away breath,restlessness and tension in thighs,1.0,1
+stitches in heart taking away breath,paralytic drawing and tearing in limbs,1.0,1
+stitches in heart taking away breath,must move for relief,1.0,1
+stitches in heart taking away breath,as from an electric shock,1.0,1
+stitches in heart taking away breath,tearing pains in shoulders arms wrists and hands,1.0,1
+stitches in heart taking away breath,rheumatic pain worse from motion,1.0,1
+stitches in heart taking away breath,rheumatic pain in shoulder joint extending down to hand,1.0,1
+stitches in heart taking away breath,palpitation of heart with cardiac pain going off with motion,1.0,1
+stitches in heart taking away breath,bruised pain above and in small of back and both hips,1.0,1
+stitches in heart taking away breath,stitches tearing and burning in small of back,1.0,1
+stitches in heart taking away breath,contractive spasmodic pain in small of back,1.0,1
+stitches in heart taking away breath,twitching tearing in hips,1.0,1
+stitches in heart taking away breath,jerking from heel through whole body,1.0,1
+restlessness and tension in thighs,paralytic drawing and tearing in limbs,1.0,1
+restlessness and tension in thighs,must move for relief,1.0,1
+restlessness and tension in thighs,as from an electric shock,1.0,1
+restlessness and tension in thighs,tearing pains in shoulders arms wrists and hands,1.0,1
+restlessness and tension in thighs,stitches in heart taking away breath,1.0,1
+restlessness and tension in thighs,rheumatic pain worse from motion,1.0,1
+restlessness and tension in thighs,rheumatic pain in shoulder joint extending down to hand,1.0,1
+restlessness and tension in thighs,palpitation of heart with cardiac pain going off with motion,1.0,1
+restlessness and tension in thighs,bruised pain above and in small of back and both hips,1.0,1
+restlessness and tension in thighs,stitches tearing and burning in small of back,1.0,1
+restlessness and tension in thighs,contractive spasmodic pain in small of back,1.0,1
+restlessness and tension in thighs,twitching tearing in hips,1.0,1
+restlessness and tension in thighs,jerking from heel through whole body,1.0,1
+bruised pain above and in small of back and both hips,restlessness and tension in thighs,1.0,1
+bruised pain above and in small of back and both hips,paralytic drawing and tearing in limbs,1.0,1
+bruised pain above and in small of back and both hips,must move for relief,1.0,1
+bruised pain above and in small of back and both hips,as from an electric shock,1.0,1
+bruised pain above and in small of back and both hips,tearing pains in shoulders arms wrists and hands,1.0,1
+bruised pain above and in small of back and both hips,stitches in heart taking away breath,1.0,1
+bruised pain above and in small of back and both hips,rheumatic pain worse from motion,1.0,1
+bruised pain above and in small of back and both hips,rheumatic pain in shoulder joint extending down to hand,1.0,1
+bruised pain above and in small of back and both hips,palpitation of heart with cardiac pain going off with motion,1.0,1
+bruised pain above and in small of back and both hips,stitches tearing and burning in small of back,1.0,1
+bruised pain above and in small of back and both hips,contractive spasmodic pain in small of back,1.0,1
+bruised pain above and in small of back and both hips,twitching tearing in hips,1.0,1
+bruised pain above and in small of back and both hips,jerking from heel through whole body,1.0,1
+palpitation of heart with cardiac pain going off with motion,restlessness and tension in thighs,1.0,1
+palpitation of heart with cardiac pain going off with motion,paralytic drawing and tearing in limbs,1.0,1
+palpitation of heart with cardiac pain going off with motion,must move for relief,1.0,1
+palpitation of heart with cardiac pain going off with motion,as from an electric shock,1.0,1
+palpitation of heart with cardiac pain going off with motion,tearing pains in shoulders arms wrists and hands,1.0,1
+palpitation of heart with cardiac pain going off with motion,stitches in heart taking away breath,1.0,1
+palpitation of heart with cardiac pain going off with motion,rheumatic pain worse from motion,1.0,1
+palpitation of heart with cardiac pain going off with motion,rheumatic pain in shoulder joint extending down to hand,1.0,1
+palpitation of heart with cardiac pain going off with motion,bruised pain above and in small of back and both hips,1.0,1
+palpitation of heart with cardiac pain going off with motion,stitches tearing and burning in small of back,1.0,1
+palpitation of heart with cardiac pain going off with motion,contractive spasmodic pain in small of back,1.0,1
+palpitation of heart with cardiac pain going off with motion,twitching tearing in hips,1.0,1
+palpitation of heart with cardiac pain going off with motion,jerking from heel through whole body,1.0,1
+twitching tearing in hips,restlessness and tension in thighs,1.0,1
+twitching tearing in hips,paralytic drawing and tearing in limbs,1.0,1
+twitching tearing in hips,must move for relief,1.0,1
+twitching tearing in hips,as from an electric shock,1.0,1
+twitching tearing in hips,tearing pains in shoulders arms wrists and hands,1.0,1
+twitching tearing in hips,stitches in heart taking away breath,1.0,1
+twitching tearing in hips,rheumatic pain worse from motion,1.0,1
+twitching tearing in hips,rheumatic pain in shoulder joint extending down to hand,1.0,1
+twitching tearing in hips,palpitation of heart with cardiac pain going off with motion,1.0,1
+twitching tearing in hips,bruised pain above and in small of back and both hips,1.0,1
+twitching tearing in hips,stitches tearing and burning in small of back,1.0,1
+twitching tearing in hips,contractive spasmodic pain in small of back,1.0,1
+twitching tearing in hips,jerking from heel through whole body,1.0,1
+contractive spasmodic pain in small of back,restlessness and tension in thighs,1.0,1
+contractive spasmodic pain in small of back,paralytic drawing and tearing in limbs,1.0,1
+contractive spasmodic pain in small of back,must move for relief,1.0,1
+contractive spasmodic pain in small of back,as from an electric shock,1.0,1
+contractive spasmodic pain in small of back,tearing pains in shoulders arms wrists and hands,1.0,1
+contractive spasmodic pain in small of back,stitches in heart taking away breath,1.0,1
+contractive spasmodic pain in small of back,rheumatic pain worse from motion,1.0,1
+contractive spasmodic pain in small of back,rheumatic pain in shoulder joint extending down to hand,1.0,1
+contractive spasmodic pain in small of back,palpitation of heart with cardiac pain going off with motion,1.0,1
+contractive spasmodic pain in small of back,bruised pain above and in small of back and both hips,1.0,1
+contractive spasmodic pain in small of back,stitches tearing and burning in small of back,1.0,1
+contractive spasmodic pain in small of back,twitching tearing in hips,1.0,1
+contractive spasmodic pain in small of back,jerking from heel through whole body,1.0,1
+rheumatic pain in shoulder joint extending down to hand,restlessness and tension in thighs,1.0,1
+rheumatic pain in shoulder joint extending down to hand,paralytic drawing and tearing in limbs,1.0,1
+rheumatic pain in shoulder joint extending down to hand,must move for relief,1.0,1
+rheumatic pain in shoulder joint extending down to hand,as from an electric shock,1.0,1
+rheumatic pain in shoulder joint extending down to hand,tearing pains in shoulders arms wrists and hands,1.0,1
+rheumatic pain in shoulder joint extending down to hand,stitches in heart taking away breath,1.0,1
+rheumatic pain in shoulder joint extending down to hand,rheumatic pain worse from motion,1.0,1
+rheumatic pain in shoulder joint extending down to hand,palpitation of heart with cardiac pain going off with motion,1.0,1
+rheumatic pain in shoulder joint extending down to hand,bruised pain above and in small of back and both hips,1.0,1
+rheumatic pain in shoulder joint extending down to hand,stitches tearing and burning in small of back,1.0,1
+rheumatic pain in shoulder joint extending down to hand,contractive spasmodic pain in small of back,1.0,1
+rheumatic pain in shoulder joint extending down to hand,twitching tearing in hips,1.0,1
+rheumatic pain in shoulder joint extending down to hand,jerking from heel through whole body,1.0,1
+as from an electric shock,restlessness and tension in thighs,1.0,1
+as from an electric shock,paralytic drawing and tearing in limbs,1.0,1
+as from an electric shock,must move for relief,1.0,1
+as from an electric shock,tearing pains in shoulders arms wrists and hands,1.0,1
+as from an electric shock,stitches in heart taking away breath,1.0,1
+as from an electric shock,rheumatic pain worse from motion,1.0,1
+as from an electric shock,rheumatic pain in shoulder joint extending down to hand,1.0,1
+as from an electric shock,palpitation of heart with cardiac pain going off with motion,1.0,1
+as from an electric shock,bruised pain above and in small of back and both hips,1.0,1
+as from an electric shock,stitches tearing and burning in small of back,1.0,1
+as from an electric shock,contractive spasmodic pain in small of back,1.0,1
+as from an electric shock,twitching tearing in hips,1.0,1
+as from an electric shock,jerking from heel through whole body,1.0,1

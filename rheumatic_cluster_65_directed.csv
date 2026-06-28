@@ -1,0 +1,47 @@
+### Cluster 65 — Symptoms (6)
+Symptom,Frequency
+stinging in finger joints,3
+worse in cold weather,1
+rheumatic pains about heart,1
+as if broken,1
+burning sensations,1
+desire for cold drinks,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+phosphorus,6
+plumbum,1
+phosphoric acid,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+as if broken,worse in cold weather,1.0,1
+as if broken,rheumatic pains about heart,1.0,1
+as if broken,burning sensations,1.0,1
+as if broken,stinging in finger joints,1.0,1
+as if broken,desire for cold drinks,1.0,1
+desire for cold drinks,worse in cold weather,1.0,1
+desire for cold drinks,rheumatic pains about heart,1.0,1
+desire for cold drinks,as if broken,1.0,1
+desire for cold drinks,burning sensations,1.0,1
+desire for cold drinks,stinging in finger joints,1.0,1
+stinging in finger joints,worse in cold weather,0.3333,1
+stinging in finger joints,rheumatic pains about heart,0.3333,1
+stinging in finger joints,as if broken,0.3333,1
+stinging in finger joints,burning sensations,0.3333,1
+stinging in finger joints,desire for cold drinks,0.3333,1
+rheumatic pains about heart,worse in cold weather,1.0,1
+rheumatic pains about heart,as if broken,1.0,1
+rheumatic pains about heart,burning sensations,1.0,1
+rheumatic pains about heart,stinging in finger joints,1.0,1
+rheumatic pains about heart,desire for cold drinks,1.0,1
+burning sensations,worse in cold weather,1.0,1
+burning sensations,rheumatic pains about heart,1.0,1
+burning sensations,as if broken,1.0,1
+burning sensations,stinging in finger joints,1.0,1
+burning sensations,desire for cold drinks,1.0,1
+worse in cold weather,rheumatic pains about heart,1.0,1
+worse in cold weather,as if broken,1.0,1
+worse in cold weather,burning sensations,1.0,1
+worse in cold weather,stinging in finger joints,1.0,1
+worse in cold weather,desire for cold drinks,1.0,1

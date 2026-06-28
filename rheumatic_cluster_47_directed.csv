@@ -1,0 +1,370 @@
+### Cluster 47 — Symptoms (19)
+Symptom,Frequency
+right wrist and left ankle weak,1
+right big toe pains,1
+rheumatic pains in finger joints,1
+rheumatic aching in wrists,1
+drawing pain in left deltoid mornings,1
+rheumatic arthritis especially joints of fingers,1
+contraction of extensor muscles of back of arm,1
+gastric derangement with much acidity,1
+crick in both sides of neck,1
+yellow creamy coating in back part of mouth and soft palate,1
+crepitation in synovial membranes,1
+pain in knees ankles shins,1
+pains about base of heart,1
+pain in sacrolumbar articulation left side,1
+hamstrings stiff on rising,1
+pain in hollow and ball of foot,1
+pressing spot causes pain down thighs to knee,1
+sour eructations,1
+drawing pains in inside of thighs,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+natrum phosphoricum,19
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+sour eructations,right wrist and left ankle weak,1.0,1
+sour eructations,right big toe pains,1.0,1
+sour eructations,rheumatic pains in finger joints,1.0,1
+sour eructations,rheumatic aching in wrists,1.0,1
+sour eructations,drawing pain in left deltoid mornings,1.0,1
+sour eructations,rheumatic arthritis especially joints of fingers,1.0,1
+sour eructations,contraction of extensor muscles of back of arm,1.0,1
+sour eructations,gastric derangement with much acidity,1.0,1
+sour eructations,crick in both sides of neck,1.0,1
+sour eructations,yellow creamy coating in back part of mouth and soft palate,1.0,1
+sour eructations,crepitation in synovial membranes,1.0,1
+sour eructations,pain in knees ankles shins,1.0,1
+sour eructations,pains about base of heart,1.0,1
+sour eructations,pain in sacrolumbar articulation left side,1.0,1
+sour eructations,hamstrings stiff on rising,1.0,1
+sour eructations,pain in hollow and ball of foot,1.0,1
+sour eructations,pressing spot causes pain down thighs to knee,1.0,1
+sour eructations,drawing pains in inside of thighs,1.0,1
+right big toe pains,right wrist and left ankle weak,1.0,1
+right big toe pains,rheumatic pains in finger joints,1.0,1
+right big toe pains,rheumatic aching in wrists,1.0,1
+right big toe pains,drawing pain in left deltoid mornings,1.0,1
+right big toe pains,rheumatic arthritis especially joints of fingers,1.0,1
+right big toe pains,contraction of extensor muscles of back of arm,1.0,1
+right big toe pains,gastric derangement with much acidity,1.0,1
+right big toe pains,crick in both sides of neck,1.0,1
+right big toe pains,yellow creamy coating in back part of mouth and soft palate,1.0,1
+right big toe pains,crepitation in synovial membranes,1.0,1
+right big toe pains,pain in knees ankles shins,1.0,1
+right big toe pains,pains about base of heart,1.0,1
+right big toe pains,pain in sacrolumbar articulation left side,1.0,1
+right big toe pains,hamstrings stiff on rising,1.0,1
+right big toe pains,pain in hollow and ball of foot,1.0,1
+right big toe pains,pressing spot causes pain down thighs to knee,1.0,1
+right big toe pains,sour eructations,1.0,1
+right big toe pains,drawing pains in inside of thighs,1.0,1
+right wrist and left ankle weak,right big toe pains,1.0,1
+right wrist and left ankle weak,rheumatic pains in finger joints,1.0,1
+right wrist and left ankle weak,rheumatic aching in wrists,1.0,1
+right wrist and left ankle weak,drawing pain in left deltoid mornings,1.0,1
+right wrist and left ankle weak,rheumatic arthritis especially joints of fingers,1.0,1
+right wrist and left ankle weak,contraction of extensor muscles of back of arm,1.0,1
+right wrist and left ankle weak,gastric derangement with much acidity,1.0,1
+right wrist and left ankle weak,crick in both sides of neck,1.0,1
+right wrist and left ankle weak,yellow creamy coating in back part of mouth and soft palate,1.0,1
+right wrist and left ankle weak,crepitation in synovial membranes,1.0,1
+right wrist and left ankle weak,pain in knees ankles shins,1.0,1
+right wrist and left ankle weak,pains about base of heart,1.0,1
+right wrist and left ankle weak,pain in sacrolumbar articulation left side,1.0,1
+right wrist and left ankle weak,hamstrings stiff on rising,1.0,1
+right wrist and left ankle weak,pain in hollow and ball of foot,1.0,1
+right wrist and left ankle weak,pressing spot causes pain down thighs to knee,1.0,1
+right wrist and left ankle weak,sour eructations,1.0,1
+right wrist and left ankle weak,drawing pains in inside of thighs,1.0,1
+contraction of extensor muscles of back of arm,right wrist and left ankle weak,1.0,1
+contraction of extensor muscles of back of arm,right big toe pains,1.0,1
+contraction of extensor muscles of back of arm,rheumatic pains in finger joints,1.0,1
+contraction of extensor muscles of back of arm,rheumatic aching in wrists,1.0,1
+contraction of extensor muscles of back of arm,drawing pain in left deltoid mornings,1.0,1
+contraction of extensor muscles of back of arm,rheumatic arthritis especially joints of fingers,1.0,1
+contraction of extensor muscles of back of arm,gastric derangement with much acidity,1.0,1
+contraction of extensor muscles of back of arm,crick in both sides of neck,1.0,1
+contraction of extensor muscles of back of arm,yellow creamy coating in back part of mouth and soft palate,1.0,1
+contraction of extensor muscles of back of arm,crepitation in synovial membranes,1.0,1
+contraction of extensor muscles of back of arm,pain in knees ankles shins,1.0,1
+contraction of extensor muscles of back of arm,pains about base of heart,1.0,1
+contraction of extensor muscles of back of arm,pain in sacrolumbar articulation left side,1.0,1
+contraction of extensor muscles of back of arm,hamstrings stiff on rising,1.0,1
+contraction of extensor muscles of back of arm,pain in hollow and ball of foot,1.0,1
+contraction of extensor muscles of back of arm,pressing spot causes pain down thighs to knee,1.0,1
+contraction of extensor muscles of back of arm,sour eructations,1.0,1
+contraction of extensor muscles of back of arm,drawing pains in inside of thighs,1.0,1
+pressing spot causes pain down thighs to knee,right wrist and left ankle weak,1.0,1
+pressing spot causes pain down thighs to knee,right big toe pains,1.0,1
+pressing spot causes pain down thighs to knee,rheumatic pains in finger joints,1.0,1
+pressing spot causes pain down thighs to knee,rheumatic aching in wrists,1.0,1
+pressing spot causes pain down thighs to knee,drawing pain in left deltoid mornings,1.0,1
+pressing spot causes pain down thighs to knee,rheumatic arthritis especially joints of fingers,1.0,1
+pressing spot causes pain down thighs to knee,contraction of extensor muscles of back of arm,1.0,1
+pressing spot causes pain down thighs to knee,gastric derangement with much acidity,1.0,1
+pressing spot causes pain down thighs to knee,crick in both sides of neck,1.0,1
+pressing spot causes pain down thighs to knee,yellow creamy coating in back part of mouth and soft palate,1.0,1
+pressing spot causes pain down thighs to knee,crepitation in synovial membranes,1.0,1
+pressing spot causes pain down thighs to knee,pain in knees ankles shins,1.0,1
+pressing spot causes pain down thighs to knee,pains about base of heart,1.0,1
+pressing spot causes pain down thighs to knee,pain in sacrolumbar articulation left side,1.0,1
+pressing spot causes pain down thighs to knee,hamstrings stiff on rising,1.0,1
+pressing spot causes pain down thighs to knee,pain in hollow and ball of foot,1.0,1
+pressing spot causes pain down thighs to knee,sour eructations,1.0,1
+pressing spot causes pain down thighs to knee,drawing pains in inside of thighs,1.0,1
+crick in both sides of neck,right wrist and left ankle weak,1.0,1
+crick in both sides of neck,right big toe pains,1.0,1
+crick in both sides of neck,rheumatic pains in finger joints,1.0,1
+crick in both sides of neck,rheumatic aching in wrists,1.0,1
+crick in both sides of neck,drawing pain in left deltoid mornings,1.0,1
+crick in both sides of neck,rheumatic arthritis especially joints of fingers,1.0,1
+crick in both sides of neck,contraction of extensor muscles of back of arm,1.0,1
+crick in both sides of neck,gastric derangement with much acidity,1.0,1
+crick in both sides of neck,yellow creamy coating in back part of mouth and soft palate,1.0,1
+crick in both sides of neck,crepitation in synovial membranes,1.0,1
+crick in both sides of neck,pain in knees ankles shins,1.0,1
+crick in both sides of neck,pains about base of heart,1.0,1
+crick in both sides of neck,pain in sacrolumbar articulation left side,1.0,1
+crick in both sides of neck,hamstrings stiff on rising,1.0,1
+crick in both sides of neck,pain in hollow and ball of foot,1.0,1
+crick in both sides of neck,pressing spot causes pain down thighs to knee,1.0,1
+crick in both sides of neck,sour eructations,1.0,1
+crick in both sides of neck,drawing pains in inside of thighs,1.0,1
+drawing pain in left deltoid mornings,right wrist and left ankle weak,1.0,1
+drawing pain in left deltoid mornings,right big toe pains,1.0,1
+drawing pain in left deltoid mornings,rheumatic pains in finger joints,1.0,1
+drawing pain in left deltoid mornings,rheumatic aching in wrists,1.0,1
+drawing pain in left deltoid mornings,rheumatic arthritis especially joints of fingers,1.0,1
+drawing pain in left deltoid mornings,contraction of extensor muscles of back of arm,1.0,1
+drawing pain in left deltoid mornings,gastric derangement with much acidity,1.0,1
+drawing pain in left deltoid mornings,crick in both sides of neck,1.0,1
+drawing pain in left deltoid mornings,yellow creamy coating in back part of mouth and soft palate,1.0,1
+drawing pain in left deltoid mornings,crepitation in synovial membranes,1.0,1
+drawing pain in left deltoid mornings,pain in knees ankles shins,1.0,1
+drawing pain in left deltoid mornings,pains about base of heart,1.0,1
+drawing pain in left deltoid mornings,pain in sacrolumbar articulation left side,1.0,1
+drawing pain in left deltoid mornings,hamstrings stiff on rising,1.0,1
+drawing pain in left deltoid mornings,pain in hollow and ball of foot,1.0,1
+drawing pain in left deltoid mornings,pressing spot causes pain down thighs to knee,1.0,1
+drawing pain in left deltoid mornings,sour eructations,1.0,1
+drawing pain in left deltoid mornings,drawing pains in inside of thighs,1.0,1
+gastric derangement with much acidity,right wrist and left ankle weak,1.0,1
+gastric derangement with much acidity,right big toe pains,1.0,1
+gastric derangement with much acidity,rheumatic pains in finger joints,1.0,1
+gastric derangement with much acidity,rheumatic aching in wrists,1.0,1
+gastric derangement with much acidity,drawing pain in left deltoid mornings,1.0,1
+gastric derangement with much acidity,rheumatic arthritis especially joints of fingers,1.0,1
+gastric derangement with much acidity,contraction of extensor muscles of back of arm,1.0,1
+gastric derangement with much acidity,crick in both sides of neck,1.0,1
+gastric derangement with much acidity,yellow creamy coating in back part of mouth and soft palate,1.0,1
+gastric derangement with much acidity,crepitation in synovial membranes,1.0,1
+gastric derangement with much acidity,pain in knees ankles shins,1.0,1
+gastric derangement with much acidity,pains about base of heart,1.0,1
+gastric derangement with much acidity,pain in sacrolumbar articulation left side,1.0,1
+gastric derangement with much acidity,hamstrings stiff on rising,1.0,1
+gastric derangement with much acidity,pain in hollow and ball of foot,1.0,1
+gastric derangement with much acidity,pressing spot causes pain down thighs to knee,1.0,1
+gastric derangement with much acidity,sour eructations,1.0,1
+gastric derangement with much acidity,drawing pains in inside of thighs,1.0,1
+pains about base of heart,right wrist and left ankle weak,1.0,1
+pains about base of heart,right big toe pains,1.0,1
+pains about base of heart,rheumatic pains in finger joints,1.0,1
+pains about base of heart,rheumatic aching in wrists,1.0,1
+pains about base of heart,drawing pain in left deltoid mornings,1.0,1
+pains about base of heart,rheumatic arthritis especially joints of fingers,1.0,1
+pains about base of heart,contraction of extensor muscles of back of arm,1.0,1
+pains about base of heart,gastric derangement with much acidity,1.0,1
+pains about base of heart,crick in both sides of neck,1.0,1
+pains about base of heart,yellow creamy coating in back part of mouth and soft palate,1.0,1
+pains about base of heart,crepitation in synovial membranes,1.0,1
+pains about base of heart,pain in knees ankles shins,1.0,1
+pains about base of heart,pain in sacrolumbar articulation left side,1.0,1
+pains about base of heart,hamstrings stiff on rising,1.0,1
+pains about base of heart,pain in hollow and ball of foot,1.0,1
+pains about base of heart,pressing spot causes pain down thighs to knee,1.0,1
+pains about base of heart,sour eructations,1.0,1
+pains about base of heart,drawing pains in inside of thighs,1.0,1
+pain in hollow and ball of foot,right wrist and left ankle weak,1.0,1
+pain in hollow and ball of foot,right big toe pains,1.0,1
+pain in hollow and ball of foot,rheumatic pains in finger joints,1.0,1
+pain in hollow and ball of foot,rheumatic aching in wrists,1.0,1
+pain in hollow and ball of foot,drawing pain in left deltoid mornings,1.0,1
+pain in hollow and ball of foot,rheumatic arthritis especially joints of fingers,1.0,1
+pain in hollow and ball of foot,contraction of extensor muscles of back of arm,1.0,1
+pain in hollow and ball of foot,gastric derangement with much acidity,1.0,1
+pain in hollow and ball of foot,crick in both sides of neck,1.0,1
+pain in hollow and ball of foot,yellow creamy coating in back part of mouth and soft palate,1.0,1
+pain in hollow and ball of foot,crepitation in synovial membranes,1.0,1
+pain in hollow and ball of foot,pain in knees ankles shins,1.0,1
+pain in hollow and ball of foot,pains about base of heart,1.0,1
+pain in hollow and ball of foot,pain in sacrolumbar articulation left side,1.0,1
+pain in hollow and ball of foot,hamstrings stiff on rising,1.0,1
+pain in hollow and ball of foot,pressing spot causes pain down thighs to knee,1.0,1
+pain in hollow and ball of foot,sour eructations,1.0,1
+pain in hollow and ball of foot,drawing pains in inside of thighs,1.0,1
+hamstrings stiff on rising,right wrist and left ankle weak,1.0,1
+hamstrings stiff on rising,right big toe pains,1.0,1
+hamstrings stiff on rising,rheumatic pains in finger joints,1.0,1
+hamstrings stiff on rising,rheumatic aching in wrists,1.0,1
+hamstrings stiff on rising,drawing pain in left deltoid mornings,1.0,1
+hamstrings stiff on rising,rheumatic arthritis especially joints of fingers,1.0,1
+hamstrings stiff on rising,contraction of extensor muscles of back of arm,1.0,1
+hamstrings stiff on rising,gastric derangement with much acidity,1.0,1
+hamstrings stiff on rising,crick in both sides of neck,1.0,1
+hamstrings stiff on rising,yellow creamy coating in back part of mouth and soft palate,1.0,1
+hamstrings stiff on rising,crepitation in synovial membranes,1.0,1
+hamstrings stiff on rising,pain in knees ankles shins,1.0,1
+hamstrings stiff on rising,pains about base of heart,1.0,1
+hamstrings stiff on rising,pain in sacrolumbar articulation left side,1.0,1
+hamstrings stiff on rising,pain in hollow and ball of foot,1.0,1
+hamstrings stiff on rising,pressing spot causes pain down thighs to knee,1.0,1
+hamstrings stiff on rising,sour eructations,1.0,1
+hamstrings stiff on rising,drawing pains in inside of thighs,1.0,1
+drawing pains in inside of thighs,right wrist and left ankle weak,1.0,1
+drawing pains in inside of thighs,right big toe pains,1.0,1
+drawing pains in inside of thighs,rheumatic pains in finger joints,1.0,1
+drawing pains in inside of thighs,rheumatic aching in wrists,1.0,1
+drawing pains in inside of thighs,drawing pain in left deltoid mornings,1.0,1
+drawing pains in inside of thighs,rheumatic arthritis especially joints of fingers,1.0,1
+drawing pains in inside of thighs,contraction of extensor muscles of back of arm,1.0,1
+drawing pains in inside of thighs,gastric derangement with much acidity,1.0,1
+drawing pains in inside of thighs,crick in both sides of neck,1.0,1
+drawing pains in inside of thighs,yellow creamy coating in back part of mouth and soft palate,1.0,1
+drawing pains in inside of thighs,crepitation in synovial membranes,1.0,1
+drawing pains in inside of thighs,pain in knees ankles shins,1.0,1
+drawing pains in inside of thighs,pains about base of heart,1.0,1
+drawing pains in inside of thighs,pain in sacrolumbar articulation left side,1.0,1
+drawing pains in inside of thighs,hamstrings stiff on rising,1.0,1
+drawing pains in inside of thighs,pain in hollow and ball of foot,1.0,1
+drawing pains in inside of thighs,pressing spot causes pain down thighs to knee,1.0,1
+drawing pains in inside of thighs,sour eructations,1.0,1
+crepitation in synovial membranes,right wrist and left ankle weak,1.0,1
+crepitation in synovial membranes,right big toe pains,1.0,1
+crepitation in synovial membranes,rheumatic pains in finger joints,1.0,1
+crepitation in synovial membranes,rheumatic aching in wrists,1.0,1
+crepitation in synovial membranes,drawing pain in left deltoid mornings,1.0,1
+crepitation in synovial membranes,rheumatic arthritis especially joints of fingers,1.0,1
+crepitation in synovial membranes,contraction of extensor muscles of back of arm,1.0,1
+crepitation in synovial membranes,gastric derangement with much acidity,1.0,1
+crepitation in synovial membranes,crick in both sides of neck,1.0,1
+crepitation in synovial membranes,yellow creamy coating in back part of mouth and soft palate,1.0,1
+crepitation in synovial membranes,pain in knees ankles shins,1.0,1
+crepitation in synovial membranes,pains about base of heart,1.0,1
+crepitation in synovial membranes,pain in sacrolumbar articulation left side,1.0,1
+crepitation in synovial membranes,hamstrings stiff on rising,1.0,1
+crepitation in synovial membranes,pain in hollow and ball of foot,1.0,1
+crepitation in synovial membranes,pressing spot causes pain down thighs to knee,1.0,1
+crepitation in synovial membranes,sour eructations,1.0,1
+crepitation in synovial membranes,drawing pains in inside of thighs,1.0,1
+rheumatic arthritis especially joints of fingers,right wrist and left ankle weak,1.0,1
+rheumatic arthritis especially joints of fingers,right big toe pains,1.0,1
+rheumatic arthritis especially joints of fingers,rheumatic pains in finger joints,1.0,1
+rheumatic arthritis especially joints of fingers,rheumatic aching in wrists,1.0,1
+rheumatic arthritis especially joints of fingers,drawing pain in left deltoid mornings,1.0,1
+rheumatic arthritis especially joints of fingers,contraction of extensor muscles of back of arm,1.0,1
+rheumatic arthritis especially joints of fingers,gastric derangement with much acidity,1.0,1
+rheumatic arthritis especially joints of fingers,crick in both sides of neck,1.0,1
+rheumatic arthritis especially joints of fingers,yellow creamy coating in back part of mouth and soft palate,1.0,1
+rheumatic arthritis especially joints of fingers,crepitation in synovial membranes,1.0,1
+rheumatic arthritis especially joints of fingers,pain in knees ankles shins,1.0,1
+rheumatic arthritis especially joints of fingers,pains about base of heart,1.0,1
+rheumatic arthritis especially joints of fingers,pain in sacrolumbar articulation left side,1.0,1
+rheumatic arthritis especially joints of fingers,hamstrings stiff on rising,1.0,1
+rheumatic arthritis especially joints of fingers,pain in hollow and ball of foot,1.0,1
+rheumatic arthritis especially joints of fingers,pressing spot causes pain down thighs to knee,1.0,1
+rheumatic arthritis especially joints of fingers,sour eructations,1.0,1
+rheumatic arthritis especially joints of fingers,drawing pains in inside of thighs,1.0,1
+yellow creamy coating in back part of mouth and soft palate,right wrist and left ankle weak,1.0,1
+yellow creamy coating in back part of mouth and soft palate,right big toe pains,1.0,1
+yellow creamy coating in back part of mouth and soft palate,rheumatic pains in finger joints,1.0,1
+yellow creamy coating in back part of mouth and soft palate,rheumatic aching in wrists,1.0,1
+yellow creamy coating in back part of mouth and soft palate,drawing pain in left deltoid mornings,1.0,1
+yellow creamy coating in back part of mouth and soft palate,rheumatic arthritis especially joints of fingers,1.0,1
+yellow creamy coating in back part of mouth and soft palate,contraction of extensor muscles of back of arm,1.0,1
+yellow creamy coating in back part of mouth and soft palate,gastric derangement with much acidity,1.0,1
+yellow creamy coating in back part of mouth and soft palate,crick in both sides of neck,1.0,1
+yellow creamy coating in back part of mouth and soft palate,crepitation in synovial membranes,1.0,1
+yellow creamy coating in back part of mouth and soft palate,pain in knees ankles shins,1.0,1
+yellow creamy coating in back part of mouth and soft palate,pains about base of heart,1.0,1
+yellow creamy coating in back part of mouth and soft palate,pain in sacrolumbar articulation left side,1.0,1
+yellow creamy coating in back part of mouth and soft palate,hamstrings stiff on rising,1.0,1
+yellow creamy coating in back part of mouth and soft palate,pain in hollow and ball of foot,1.0,1
+yellow creamy coating in back part of mouth and soft palate,pressing spot causes pain down thighs to knee,1.0,1
+yellow creamy coating in back part of mouth and soft palate,sour eructations,1.0,1
+yellow creamy coating in back part of mouth and soft palate,drawing pains in inside of thighs,1.0,1
+pain in knees ankles shins,right wrist and left ankle weak,1.0,1
+pain in knees ankles shins,right big toe pains,1.0,1
+pain in knees ankles shins,rheumatic pains in finger joints,1.0,1
+pain in knees ankles shins,rheumatic aching in wrists,1.0,1
+pain in knees ankles shins,drawing pain in left deltoid mornings,1.0,1
+pain in knees ankles shins,rheumatic arthritis especially joints of fingers,1.0,1
+pain in knees ankles shins,contraction of extensor muscles of back of arm,1.0,1
+pain in knees ankles shins,gastric derangement with much acidity,1.0,1
+pain in knees ankles shins,crick in both sides of neck,1.0,1
+pain in knees ankles shins,yellow creamy coating in back part of mouth and soft palate,1.0,1
+pain in knees ankles shins,crepitation in synovial membranes,1.0,1
+pain in knees ankles shins,pains about base of heart,1.0,1
+pain in knees ankles shins,pain in sacrolumbar articulation left side,1.0,1
+pain in knees ankles shins,hamstrings stiff on rising,1.0,1
+pain in knees ankles shins,pain in hollow and ball of foot,1.0,1
+pain in knees ankles shins,pressing spot causes pain down thighs to knee,1.0,1
+pain in knees ankles shins,sour eructations,1.0,1
+pain in knees ankles shins,drawing pains in inside of thighs,1.0,1
+pain in sacrolumbar articulation left side,right wrist and left ankle weak,1.0,1
+pain in sacrolumbar articulation left side,right big toe pains,1.0,1
+pain in sacrolumbar articulation left side,rheumatic pains in finger joints,1.0,1
+pain in sacrolumbar articulation left side,rheumatic aching in wrists,1.0,1
+pain in sacrolumbar articulation left side,drawing pain in left deltoid mornings,1.0,1
+pain in sacrolumbar articulation left side,rheumatic arthritis especially joints of fingers,1.0,1
+pain in sacrolumbar articulation left side,contraction of extensor muscles of back of arm,1.0,1
+pain in sacrolumbar articulation left side,gastric derangement with much acidity,1.0,1
+pain in sacrolumbar articulation left side,crick in both sides of neck,1.0,1
+pain in sacrolumbar articulation left side,yellow creamy coating in back part of mouth and soft palate,1.0,1
+pain in sacrolumbar articulation left side,crepitation in synovial membranes,1.0,1
+pain in sacrolumbar articulation left side,pain in knees ankles shins,1.0,1
+pain in sacrolumbar articulation left side,pains about base of heart,1.0,1
+pain in sacrolumbar articulation left side,hamstrings stiff on rising,1.0,1
+pain in sacrolumbar articulation left side,pain in hollow and ball of foot,1.0,1
+pain in sacrolumbar articulation left side,pressing spot causes pain down thighs to knee,1.0,1
+pain in sacrolumbar articulation left side,sour eructations,1.0,1
+pain in sacrolumbar articulation left side,drawing pains in inside of thighs,1.0,1
+rheumatic aching in wrists,right wrist and left ankle weak,1.0,1
+rheumatic aching in wrists,right big toe pains,1.0,1
+rheumatic aching in wrists,rheumatic pains in finger joints,1.0,1
+rheumatic aching in wrists,drawing pain in left deltoid mornings,1.0,1
+rheumatic aching in wrists,rheumatic arthritis especially joints of fingers,1.0,1
+rheumatic aching in wrists,contraction of extensor muscles of back of arm,1.0,1
+rheumatic aching in wrists,gastric derangement with much acidity,1.0,1
+rheumatic aching in wrists,crick in both sides of neck,1.0,1
+rheumatic aching in wrists,yellow creamy coating in back part of mouth and soft palate,1.0,1
+rheumatic aching in wrists,crepitation in synovial membranes,1.0,1
+rheumatic aching in wrists,pain in knees ankles shins,1.0,1
+rheumatic aching in wrists,pains about base of heart,1.0,1
+rheumatic aching in wrists,pain in sacrolumbar articulation left side,1.0,1
+rheumatic aching in wrists,hamstrings stiff on rising,1.0,1
+rheumatic aching in wrists,pain in hollow and ball of foot,1.0,1
+rheumatic aching in wrists,pressing spot causes pain down thighs to knee,1.0,1
+rheumatic aching in wrists,sour eructations,1.0,1
+rheumatic aching in wrists,drawing pains in inside of thighs,1.0,1
+rheumatic pains in finger joints,right wrist and left ankle weak,1.0,1
+rheumatic pains in finger joints,right big toe pains,1.0,1
+rheumatic pains in finger joints,rheumatic aching in wrists,1.0,1
+rheumatic pains in finger joints,drawing pain in left deltoid mornings,1.0,1
+rheumatic pains in finger joints,rheumatic arthritis especially joints of fingers,1.0,1
+rheumatic pains in finger joints,contraction of extensor muscles of back of arm,1.0,1
+rheumatic pains in finger joints,gastric derangement with much acidity,1.0,1
+rheumatic pains in finger joints,crick in both sides of neck,1.0,1
+rheumatic pains in finger joints,yellow creamy coating in back part of mouth and soft palate,1.0,1
+rheumatic pains in finger joints,crepitation in synovial membranes,1.0,1
+rheumatic pains in finger joints,pain in knees ankles shins,1.0,1
+rheumatic pains in finger joints,pains about base of heart,1.0,1
+rheumatic pains in finger joints,pain in sacrolumbar articulation left side,1.0,1
+rheumatic pains in finger joints,hamstrings stiff on rising,1.0,1
+rheumatic pains in finger joints,pain in hollow and ball of foot,1.0,1
+rheumatic pains in finger joints,pressing spot causes pain down thighs to knee,1.0,1
+rheumatic pains in finger joints,sour eructations,1.0,1
+rheumatic pains in finger joints,drawing pains in inside of thighs,1.0,1

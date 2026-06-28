@@ -1,0 +1,1379 @@
+### Cluster 73 — Symptoms (37)
+Symptom,Frequency
+syphilitic rheumatism,2
+after mercurial treatment of syphilis,1
+stitches in back through into chest,1
+tips of fingers feel bruised,1
+rheumatism after mercury,1
+wrenching excruciating pains in knees,1
+tips of fingers feel sore,1
+rheumatic pains in joints after gonorrhea,1
+painful pressure on breast bone,1
+gonorrhea suppressed by mercury,1
+worse during damp weather,1
+suppressed gonorrheal discharge,1
+arthritic tubercles in lungs,1
+cracks on skin of hands,1
+extreme emaciation,1
+rheumatism of lower limbs,1
+rheumatic pains at night in feet,1
+severe wrenching pain on each side of patella,1
+worse after cold bathing,1
+bone pains after suppressed gonorrhea,1
+sweat on forehead during evening,1
+stitches in joints of arms,1
+gonorrhea suppressed by wet weather,1
+deep antisyphilitic,1
+from least motion,1
+knees hot,1
+severe rheumatism,1
+worse when touched,1
+severe rheumatic pains in limbs,1
+after suppressed gonorrhea,1
+gonorrhea suppressed by cold,1
+short tearing pains in one place then another,1
+bone pains severe after mercury,2
+knees tender to touch,1
+gouty pains in lower limbs,1
+gouty conditions with renal calculi,1
+antisycotic,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+sarsaparilla,37
+syphilinum,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+sweat on forehead during evening,syphilitic rheumatism,1.0,1
+sweat on forehead during evening,after mercurial treatment of syphilis,1.0,1
+sweat on forehead during evening,stitches in back through into chest,1.0,1
+sweat on forehead during evening,tips of fingers feel bruised,1.0,1
+sweat on forehead during evening,rheumatism after mercury,1.0,1
+sweat on forehead during evening,wrenching excruciating pains in knees,1.0,1
+sweat on forehead during evening,tips of fingers feel sore,1.0,1
+sweat on forehead during evening,rheumatic pains in joints after gonorrhea,1.0,1
+sweat on forehead during evening,painful pressure on breast bone,1.0,1
+sweat on forehead during evening,gonorrhea suppressed by mercury,1.0,1
+sweat on forehead during evening,worse during damp weather,1.0,1
+sweat on forehead during evening,suppressed gonorrheal discharge,1.0,1
+sweat on forehead during evening,arthritic tubercles in lungs,1.0,1
+sweat on forehead during evening,cracks on skin of hands,1.0,1
+sweat on forehead during evening,extreme emaciation,1.0,1
+sweat on forehead during evening,rheumatism of lower limbs,1.0,1
+sweat on forehead during evening,rheumatic pains at night in feet,1.0,1
+sweat on forehead during evening,severe wrenching pain on each side of patella,1.0,1
+sweat on forehead during evening,worse after cold bathing,1.0,1
+sweat on forehead during evening,bone pains after suppressed gonorrhea,1.0,1
+sweat on forehead during evening,stitches in joints of arms,1.0,1
+sweat on forehead during evening,gonorrhea suppressed by wet weather,1.0,1
+sweat on forehead during evening,deep antisyphilitic,1.0,1
+sweat on forehead during evening,from least motion,1.0,1
+sweat on forehead during evening,knees hot,1.0,1
+sweat on forehead during evening,severe rheumatism,1.0,1
+sweat on forehead during evening,worse when touched,1.0,1
+sweat on forehead during evening,severe rheumatic pains in limbs,1.0,1
+sweat on forehead during evening,after suppressed gonorrhea,1.0,1
+sweat on forehead during evening,gonorrhea suppressed by cold,1.0,1
+sweat on forehead during evening,short tearing pains in one place then another,1.0,1
+sweat on forehead during evening,bone pains severe after mercury,1.0,1
+sweat on forehead during evening,knees tender to touch,1.0,1
+sweat on forehead during evening,gouty pains in lower limbs,1.0,1
+sweat on forehead during evening,gouty conditions with renal calculi,1.0,1
+sweat on forehead during evening,antisycotic,1.0,1
+cracks on skin of hands,syphilitic rheumatism,1.0,1
+cracks on skin of hands,after mercurial treatment of syphilis,1.0,1
+cracks on skin of hands,stitches in back through into chest,1.0,1
+cracks on skin of hands,tips of fingers feel bruised,1.0,1
+cracks on skin of hands,rheumatism after mercury,1.0,1
+cracks on skin of hands,wrenching excruciating pains in knees,1.0,1
+cracks on skin of hands,tips of fingers feel sore,1.0,1
+cracks on skin of hands,rheumatic pains in joints after gonorrhea,1.0,1
+cracks on skin of hands,painful pressure on breast bone,1.0,1
+cracks on skin of hands,gonorrhea suppressed by mercury,1.0,1
+cracks on skin of hands,worse during damp weather,1.0,1
+cracks on skin of hands,suppressed gonorrheal discharge,1.0,1
+cracks on skin of hands,arthritic tubercles in lungs,1.0,1
+cracks on skin of hands,extreme emaciation,1.0,1
+cracks on skin of hands,rheumatism of lower limbs,1.0,1
+cracks on skin of hands,rheumatic pains at night in feet,1.0,1
+cracks on skin of hands,severe wrenching pain on each side of patella,1.0,1
+cracks on skin of hands,worse after cold bathing,1.0,1
+cracks on skin of hands,bone pains after suppressed gonorrhea,1.0,1
+cracks on skin of hands,sweat on forehead during evening,1.0,1
+cracks on skin of hands,stitches in joints of arms,1.0,1
+cracks on skin of hands,gonorrhea suppressed by wet weather,1.0,1
+cracks on skin of hands,deep antisyphilitic,1.0,1
+cracks on skin of hands,from least motion,1.0,1
+cracks on skin of hands,knees hot,1.0,1
+cracks on skin of hands,severe rheumatism,1.0,1
+cracks on skin of hands,worse when touched,1.0,1
+cracks on skin of hands,severe rheumatic pains in limbs,1.0,1
+cracks on skin of hands,after suppressed gonorrhea,1.0,1
+cracks on skin of hands,gonorrhea suppressed by cold,1.0,1
+cracks on skin of hands,short tearing pains in one place then another,1.0,1
+cracks on skin of hands,bone pains severe after mercury,1.0,1
+cracks on skin of hands,knees tender to touch,1.0,1
+cracks on skin of hands,gouty pains in lower limbs,1.0,1
+cracks on skin of hands,gouty conditions with renal calculi,1.0,1
+cracks on skin of hands,antisycotic,1.0,1
+severe rheumatic pains in limbs,syphilitic rheumatism,1.0,1
+severe rheumatic pains in limbs,after mercurial treatment of syphilis,1.0,1
+severe rheumatic pains in limbs,stitches in back through into chest,1.0,1
+severe rheumatic pains in limbs,tips of fingers feel bruised,1.0,1
+severe rheumatic pains in limbs,rheumatism after mercury,1.0,1
+severe rheumatic pains in limbs,wrenching excruciating pains in knees,1.0,1
+severe rheumatic pains in limbs,tips of fingers feel sore,1.0,1
+severe rheumatic pains in limbs,rheumatic pains in joints after gonorrhea,1.0,1
+severe rheumatic pains in limbs,painful pressure on breast bone,1.0,1
+severe rheumatic pains in limbs,gonorrhea suppressed by mercury,1.0,1
+severe rheumatic pains in limbs,worse during damp weather,1.0,1
+severe rheumatic pains in limbs,suppressed gonorrheal discharge,1.0,1
+severe rheumatic pains in limbs,arthritic tubercles in lungs,1.0,1
+severe rheumatic pains in limbs,cracks on skin of hands,1.0,1
+severe rheumatic pains in limbs,extreme emaciation,1.0,1
+severe rheumatic pains in limbs,rheumatism of lower limbs,1.0,1
+severe rheumatic pains in limbs,rheumatic pains at night in feet,1.0,1
+severe rheumatic pains in limbs,severe wrenching pain on each side of patella,1.0,1
+severe rheumatic pains in limbs,worse after cold bathing,1.0,1
+severe rheumatic pains in limbs,bone pains after suppressed gonorrhea,1.0,1
+severe rheumatic pains in limbs,sweat on forehead during evening,1.0,1
+severe rheumatic pains in limbs,stitches in joints of arms,1.0,1
+severe rheumatic pains in limbs,gonorrhea suppressed by wet weather,1.0,1
+severe rheumatic pains in limbs,deep antisyphilitic,1.0,1
+severe rheumatic pains in limbs,from least motion,1.0,1
+severe rheumatic pains in limbs,knees hot,1.0,1
+severe rheumatic pains in limbs,severe rheumatism,1.0,1
+severe rheumatic pains in limbs,worse when touched,1.0,1
+severe rheumatic pains in limbs,after suppressed gonorrhea,1.0,1
+severe rheumatic pains in limbs,gonorrhea suppressed by cold,1.0,1
+severe rheumatic pains in limbs,short tearing pains in one place then another,1.0,1
+severe rheumatic pains in limbs,bone pains severe after mercury,1.0,1
+severe rheumatic pains in limbs,knees tender to touch,1.0,1
+severe rheumatic pains in limbs,gouty pains in lower limbs,1.0,1
+severe rheumatic pains in limbs,gouty conditions with renal calculi,1.0,1
+severe rheumatic pains in limbs,antisycotic,1.0,1
+stitches in back through into chest,syphilitic rheumatism,1.0,1
+stitches in back through into chest,after mercurial treatment of syphilis,1.0,1
+stitches in back through into chest,tips of fingers feel bruised,1.0,1
+stitches in back through into chest,rheumatism after mercury,1.0,1
+stitches in back through into chest,wrenching excruciating pains in knees,1.0,1
+stitches in back through into chest,tips of fingers feel sore,1.0,1
+stitches in back through into chest,rheumatic pains in joints after gonorrhea,1.0,1
+stitches in back through into chest,painful pressure on breast bone,1.0,1
+stitches in back through into chest,gonorrhea suppressed by mercury,1.0,1
+stitches in back through into chest,worse during damp weather,1.0,1
+stitches in back through into chest,suppressed gonorrheal discharge,1.0,1
+stitches in back through into chest,arthritic tubercles in lungs,1.0,1
+stitches in back through into chest,cracks on skin of hands,1.0,1
+stitches in back through into chest,extreme emaciation,1.0,1
+stitches in back through into chest,rheumatism of lower limbs,1.0,1
+stitches in back through into chest,rheumatic pains at night in feet,1.0,1
+stitches in back through into chest,severe wrenching pain on each side of patella,1.0,1
+stitches in back through into chest,worse after cold bathing,1.0,1
+stitches in back through into chest,bone pains after suppressed gonorrhea,1.0,1
+stitches in back through into chest,sweat on forehead during evening,1.0,1
+stitches in back through into chest,stitches in joints of arms,1.0,1
+stitches in back through into chest,gonorrhea suppressed by wet weather,1.0,1
+stitches in back through into chest,deep antisyphilitic,1.0,1
+stitches in back through into chest,from least motion,1.0,1
+stitches in back through into chest,knees hot,1.0,1
+stitches in back through into chest,severe rheumatism,1.0,1
+stitches in back through into chest,worse when touched,1.0,1
+stitches in back through into chest,severe rheumatic pains in limbs,1.0,1
+stitches in back through into chest,after suppressed gonorrhea,1.0,1
+stitches in back through into chest,gonorrhea suppressed by cold,1.0,1
+stitches in back through into chest,short tearing pains in one place then another,1.0,1
+stitches in back through into chest,bone pains severe after mercury,1.0,1
+stitches in back through into chest,knees tender to touch,1.0,1
+stitches in back through into chest,gouty pains in lower limbs,1.0,1
+stitches in back through into chest,gouty conditions with renal calculi,1.0,1
+stitches in back through into chest,antisycotic,1.0,1
+knees tender to touch,syphilitic rheumatism,1.0,1
+knees tender to touch,after mercurial treatment of syphilis,1.0,1
+knees tender to touch,stitches in back through into chest,1.0,1
+knees tender to touch,tips of fingers feel bruised,1.0,1
+knees tender to touch,rheumatism after mercury,1.0,1
+knees tender to touch,wrenching excruciating pains in knees,1.0,1
+knees tender to touch,tips of fingers feel sore,1.0,1
+knees tender to touch,rheumatic pains in joints after gonorrhea,1.0,1
+knees tender to touch,painful pressure on breast bone,1.0,1
+knees tender to touch,gonorrhea suppressed by mercury,1.0,1
+knees tender to touch,worse during damp weather,1.0,1
+knees tender to touch,suppressed gonorrheal discharge,1.0,1
+knees tender to touch,arthritic tubercles in lungs,1.0,1
+knees tender to touch,cracks on skin of hands,1.0,1
+knees tender to touch,extreme emaciation,1.0,1
+knees tender to touch,rheumatism of lower limbs,1.0,1
+knees tender to touch,rheumatic pains at night in feet,1.0,1
+knees tender to touch,severe wrenching pain on each side of patella,1.0,1
+knees tender to touch,worse after cold bathing,1.0,1
+knees tender to touch,bone pains after suppressed gonorrhea,1.0,1
+knees tender to touch,sweat on forehead during evening,1.0,1
+knees tender to touch,stitches in joints of arms,1.0,1
+knees tender to touch,gonorrhea suppressed by wet weather,1.0,1
+knees tender to touch,deep antisyphilitic,1.0,1
+knees tender to touch,from least motion,1.0,1
+knees tender to touch,knees hot,1.0,1
+knees tender to touch,severe rheumatism,1.0,1
+knees tender to touch,worse when touched,1.0,1
+knees tender to touch,severe rheumatic pains in limbs,1.0,1
+knees tender to touch,after suppressed gonorrhea,1.0,1
+knees tender to touch,gonorrhea suppressed by cold,1.0,1
+knees tender to touch,short tearing pains in one place then another,1.0,1
+knees tender to touch,bone pains severe after mercury,1.0,1
+knees tender to touch,gouty pains in lower limbs,1.0,1
+knees tender to touch,gouty conditions with renal calculi,1.0,1
+knees tender to touch,antisycotic,1.0,1
+rheumatism after mercury,syphilitic rheumatism,1.0,1
+rheumatism after mercury,after mercurial treatment of syphilis,1.0,1
+rheumatism after mercury,stitches in back through into chest,1.0,1
+rheumatism after mercury,tips of fingers feel bruised,1.0,1
+rheumatism after mercury,wrenching excruciating pains in knees,1.0,1
+rheumatism after mercury,tips of fingers feel sore,1.0,1
+rheumatism after mercury,rheumatic pains in joints after gonorrhea,1.0,1
+rheumatism after mercury,painful pressure on breast bone,1.0,1
+rheumatism after mercury,gonorrhea suppressed by mercury,1.0,1
+rheumatism after mercury,worse during damp weather,1.0,1
+rheumatism after mercury,suppressed gonorrheal discharge,1.0,1
+rheumatism after mercury,arthritic tubercles in lungs,1.0,1
+rheumatism after mercury,cracks on skin of hands,1.0,1
+rheumatism after mercury,extreme emaciation,1.0,1
+rheumatism after mercury,rheumatism of lower limbs,1.0,1
+rheumatism after mercury,rheumatic pains at night in feet,1.0,1
+rheumatism after mercury,severe wrenching pain on each side of patella,1.0,1
+rheumatism after mercury,worse after cold bathing,1.0,1
+rheumatism after mercury,bone pains after suppressed gonorrhea,1.0,1
+rheumatism after mercury,sweat on forehead during evening,1.0,1
+rheumatism after mercury,stitches in joints of arms,1.0,1
+rheumatism after mercury,gonorrhea suppressed by wet weather,1.0,1
+rheumatism after mercury,deep antisyphilitic,1.0,1
+rheumatism after mercury,from least motion,1.0,1
+rheumatism after mercury,knees hot,1.0,1
+rheumatism after mercury,severe rheumatism,1.0,1
+rheumatism after mercury,worse when touched,1.0,1
+rheumatism after mercury,severe rheumatic pains in limbs,1.0,1
+rheumatism after mercury,after suppressed gonorrhea,1.0,1
+rheumatism after mercury,gonorrhea suppressed by cold,1.0,1
+rheumatism after mercury,short tearing pains in one place then another,1.0,1
+rheumatism after mercury,bone pains severe after mercury,1.0,1
+rheumatism after mercury,knees tender to touch,1.0,1
+rheumatism after mercury,gouty pains in lower limbs,1.0,1
+rheumatism after mercury,gouty conditions with renal calculi,1.0,1
+rheumatism after mercury,antisycotic,1.0,1
+painful pressure on breast bone,syphilitic rheumatism,1.0,1
+painful pressure on breast bone,after mercurial treatment of syphilis,1.0,1
+painful pressure on breast bone,stitches in back through into chest,1.0,1
+painful pressure on breast bone,tips of fingers feel bruised,1.0,1
+painful pressure on breast bone,rheumatism after mercury,1.0,1
+painful pressure on breast bone,wrenching excruciating pains in knees,1.0,1
+painful pressure on breast bone,tips of fingers feel sore,1.0,1
+painful pressure on breast bone,rheumatic pains in joints after gonorrhea,1.0,1
+painful pressure on breast bone,gonorrhea suppressed by mercury,1.0,1
+painful pressure on breast bone,worse during damp weather,1.0,1
+painful pressure on breast bone,suppressed gonorrheal discharge,1.0,1
+painful pressure on breast bone,arthritic tubercles in lungs,1.0,1
+painful pressure on breast bone,cracks on skin of hands,1.0,1
+painful pressure on breast bone,extreme emaciation,1.0,1
+painful pressure on breast bone,rheumatism of lower limbs,1.0,1
+painful pressure on breast bone,rheumatic pains at night in feet,1.0,1
+painful pressure on breast bone,severe wrenching pain on each side of patella,1.0,1
+painful pressure on breast bone,worse after cold bathing,1.0,1
+painful pressure on breast bone,bone pains after suppressed gonorrhea,1.0,1
+painful pressure on breast bone,sweat on forehead during evening,1.0,1
+painful pressure on breast bone,stitches in joints of arms,1.0,1
+painful pressure on breast bone,gonorrhea suppressed by wet weather,1.0,1
+painful pressure on breast bone,deep antisyphilitic,1.0,1
+painful pressure on breast bone,from least motion,1.0,1
+painful pressure on breast bone,knees hot,1.0,1
+painful pressure on breast bone,severe rheumatism,1.0,1
+painful pressure on breast bone,worse when touched,1.0,1
+painful pressure on breast bone,severe rheumatic pains in limbs,1.0,1
+painful pressure on breast bone,after suppressed gonorrhea,1.0,1
+painful pressure on breast bone,gonorrhea suppressed by cold,1.0,1
+painful pressure on breast bone,short tearing pains in one place then another,1.0,1
+painful pressure on breast bone,bone pains severe after mercury,1.0,1
+painful pressure on breast bone,knees tender to touch,1.0,1
+painful pressure on breast bone,gouty pains in lower limbs,1.0,1
+painful pressure on breast bone,gouty conditions with renal calculi,1.0,1
+painful pressure on breast bone,antisycotic,1.0,1
+suppressed gonorrheal discharge,syphilitic rheumatism,1.0,1
+suppressed gonorrheal discharge,after mercurial treatment of syphilis,1.0,1
+suppressed gonorrheal discharge,stitches in back through into chest,1.0,1
+suppressed gonorrheal discharge,tips of fingers feel bruised,1.0,1
+suppressed gonorrheal discharge,rheumatism after mercury,1.0,1
+suppressed gonorrheal discharge,wrenching excruciating pains in knees,1.0,1
+suppressed gonorrheal discharge,tips of fingers feel sore,1.0,1
+suppressed gonorrheal discharge,rheumatic pains in joints after gonorrhea,1.0,1
+suppressed gonorrheal discharge,painful pressure on breast bone,1.0,1
+suppressed gonorrheal discharge,gonorrhea suppressed by mercury,1.0,1
+suppressed gonorrheal discharge,worse during damp weather,1.0,1
+suppressed gonorrheal discharge,arthritic tubercles in lungs,1.0,1
+suppressed gonorrheal discharge,cracks on skin of hands,1.0,1
+suppressed gonorrheal discharge,extreme emaciation,1.0,1
+suppressed gonorrheal discharge,rheumatism of lower limbs,1.0,1
+suppressed gonorrheal discharge,rheumatic pains at night in feet,1.0,1
+suppressed gonorrheal discharge,severe wrenching pain on each side of patella,1.0,1
+suppressed gonorrheal discharge,worse after cold bathing,1.0,1
+suppressed gonorrheal discharge,bone pains after suppressed gonorrhea,1.0,1
+suppressed gonorrheal discharge,sweat on forehead during evening,1.0,1
+suppressed gonorrheal discharge,stitches in joints of arms,1.0,1
+suppressed gonorrheal discharge,gonorrhea suppressed by wet weather,1.0,1
+suppressed gonorrheal discharge,deep antisyphilitic,1.0,1
+suppressed gonorrheal discharge,from least motion,1.0,1
+suppressed gonorrheal discharge,knees hot,1.0,1
+suppressed gonorrheal discharge,severe rheumatism,1.0,1
+suppressed gonorrheal discharge,worse when touched,1.0,1
+suppressed gonorrheal discharge,severe rheumatic pains in limbs,1.0,1
+suppressed gonorrheal discharge,after suppressed gonorrhea,1.0,1
+suppressed gonorrheal discharge,gonorrhea suppressed by cold,1.0,1
+suppressed gonorrheal discharge,short tearing pains in one place then another,1.0,1
+suppressed gonorrheal discharge,bone pains severe after mercury,1.0,1
+suppressed gonorrheal discharge,knees tender to touch,1.0,1
+suppressed gonorrheal discharge,gouty pains in lower limbs,1.0,1
+suppressed gonorrheal discharge,gouty conditions with renal calculi,1.0,1
+suppressed gonorrheal discharge,antisycotic,1.0,1
+rheumatic pains in joints after gonorrhea,syphilitic rheumatism,1.0,1
+rheumatic pains in joints after gonorrhea,after mercurial treatment of syphilis,1.0,1
+rheumatic pains in joints after gonorrhea,stitches in back through into chest,1.0,1
+rheumatic pains in joints after gonorrhea,tips of fingers feel bruised,1.0,1
+rheumatic pains in joints after gonorrhea,rheumatism after mercury,1.0,1
+rheumatic pains in joints after gonorrhea,wrenching excruciating pains in knees,1.0,1
+rheumatic pains in joints after gonorrhea,tips of fingers feel sore,1.0,1
+rheumatic pains in joints after gonorrhea,painful pressure on breast bone,1.0,1
+rheumatic pains in joints after gonorrhea,gonorrhea suppressed by mercury,1.0,1
+rheumatic pains in joints after gonorrhea,worse during damp weather,1.0,1
+rheumatic pains in joints after gonorrhea,suppressed gonorrheal discharge,1.0,1
+rheumatic pains in joints after gonorrhea,arthritic tubercles in lungs,1.0,1
+rheumatic pains in joints after gonorrhea,cracks on skin of hands,1.0,1
+rheumatic pains in joints after gonorrhea,extreme emaciation,1.0,1
+rheumatic pains in joints after gonorrhea,rheumatism of lower limbs,1.0,1
+rheumatic pains in joints after gonorrhea,rheumatic pains at night in feet,1.0,1
+rheumatic pains in joints after gonorrhea,severe wrenching pain on each side of patella,1.0,1
+rheumatic pains in joints after gonorrhea,worse after cold bathing,1.0,1
+rheumatic pains in joints after gonorrhea,bone pains after suppressed gonorrhea,1.0,1
+rheumatic pains in joints after gonorrhea,sweat on forehead during evening,1.0,1
+rheumatic pains in joints after gonorrhea,stitches in joints of arms,1.0,1
+rheumatic pains in joints after gonorrhea,gonorrhea suppressed by wet weather,1.0,1
+rheumatic pains in joints after gonorrhea,deep antisyphilitic,1.0,1
+rheumatic pains in joints after gonorrhea,from least motion,1.0,1
+rheumatic pains in joints after gonorrhea,knees hot,1.0,1
+rheumatic pains in joints after gonorrhea,severe rheumatism,1.0,1
+rheumatic pains in joints after gonorrhea,worse when touched,1.0,1
+rheumatic pains in joints after gonorrhea,severe rheumatic pains in limbs,1.0,1
+rheumatic pains in joints after gonorrhea,after suppressed gonorrhea,1.0,1
+rheumatic pains in joints after gonorrhea,gonorrhea suppressed by cold,1.0,1
+rheumatic pains in joints after gonorrhea,short tearing pains in one place then another,1.0,1
+rheumatic pains in joints after gonorrhea,bone pains severe after mercury,1.0,1
+rheumatic pains in joints after gonorrhea,knees tender to touch,1.0,1
+rheumatic pains in joints after gonorrhea,gouty pains in lower limbs,1.0,1
+rheumatic pains in joints after gonorrhea,gouty conditions with renal calculi,1.0,1
+rheumatic pains in joints after gonorrhea,antisycotic,1.0,1
+severe rheumatism,syphilitic rheumatism,1.0,1
+severe rheumatism,after mercurial treatment of syphilis,1.0,1
+severe rheumatism,stitches in back through into chest,1.0,1
+severe rheumatism,tips of fingers feel bruised,1.0,1
+severe rheumatism,rheumatism after mercury,1.0,1
+severe rheumatism,wrenching excruciating pains in knees,1.0,1
+severe rheumatism,tips of fingers feel sore,1.0,1
+severe rheumatism,rheumatic pains in joints after gonorrhea,1.0,1
+severe rheumatism,painful pressure on breast bone,1.0,1
+severe rheumatism,gonorrhea suppressed by mercury,1.0,1
+severe rheumatism,worse during damp weather,1.0,1
+severe rheumatism,suppressed gonorrheal discharge,1.0,1
+severe rheumatism,arthritic tubercles in lungs,1.0,1
+severe rheumatism,cracks on skin of hands,1.0,1
+severe rheumatism,extreme emaciation,1.0,1
+severe rheumatism,rheumatism of lower limbs,1.0,1
+severe rheumatism,rheumatic pains at night in feet,1.0,1
+severe rheumatism,severe wrenching pain on each side of patella,1.0,1
+severe rheumatism,worse after cold bathing,1.0,1
+severe rheumatism,bone pains after suppressed gonorrhea,1.0,1
+severe rheumatism,sweat on forehead during evening,1.0,1
+severe rheumatism,stitches in joints of arms,1.0,1
+severe rheumatism,gonorrhea suppressed by wet weather,1.0,1
+severe rheumatism,deep antisyphilitic,1.0,1
+severe rheumatism,from least motion,1.0,1
+severe rheumatism,knees hot,1.0,1
+severe rheumatism,worse when touched,1.0,1
+severe rheumatism,severe rheumatic pains in limbs,1.0,1
+severe rheumatism,after suppressed gonorrhea,1.0,1
+severe rheumatism,gonorrhea suppressed by cold,1.0,1
+severe rheumatism,short tearing pains in one place then another,1.0,1
+severe rheumatism,bone pains severe after mercury,1.0,1
+severe rheumatism,knees tender to touch,1.0,1
+severe rheumatism,gouty pains in lower limbs,1.0,1
+severe rheumatism,gouty conditions with renal calculi,1.0,1
+severe rheumatism,antisycotic,1.0,1
+gouty pains in lower limbs,syphilitic rheumatism,1.0,1
+gouty pains in lower limbs,after mercurial treatment of syphilis,1.0,1
+gouty pains in lower limbs,stitches in back through into chest,1.0,1
+gouty pains in lower limbs,tips of fingers feel bruised,1.0,1
+gouty pains in lower limbs,rheumatism after mercury,1.0,1
+gouty pains in lower limbs,wrenching excruciating pains in knees,1.0,1
+gouty pains in lower limbs,tips of fingers feel sore,1.0,1
+gouty pains in lower limbs,rheumatic pains in joints after gonorrhea,1.0,1
+gouty pains in lower limbs,painful pressure on breast bone,1.0,1
+gouty pains in lower limbs,gonorrhea suppressed by mercury,1.0,1
+gouty pains in lower limbs,worse during damp weather,1.0,1
+gouty pains in lower limbs,suppressed gonorrheal discharge,1.0,1
+gouty pains in lower limbs,arthritic tubercles in lungs,1.0,1
+gouty pains in lower limbs,cracks on skin of hands,1.0,1
+gouty pains in lower limbs,extreme emaciation,1.0,1
+gouty pains in lower limbs,rheumatism of lower limbs,1.0,1
+gouty pains in lower limbs,rheumatic pains at night in feet,1.0,1
+gouty pains in lower limbs,severe wrenching pain on each side of patella,1.0,1
+gouty pains in lower limbs,worse after cold bathing,1.0,1
+gouty pains in lower limbs,bone pains after suppressed gonorrhea,1.0,1
+gouty pains in lower limbs,sweat on forehead during evening,1.0,1
+gouty pains in lower limbs,stitches in joints of arms,1.0,1
+gouty pains in lower limbs,gonorrhea suppressed by wet weather,1.0,1
+gouty pains in lower limbs,deep antisyphilitic,1.0,1
+gouty pains in lower limbs,from least motion,1.0,1
+gouty pains in lower limbs,knees hot,1.0,1
+gouty pains in lower limbs,severe rheumatism,1.0,1
+gouty pains in lower limbs,worse when touched,1.0,1
+gouty pains in lower limbs,severe rheumatic pains in limbs,1.0,1
+gouty pains in lower limbs,after suppressed gonorrhea,1.0,1
+gouty pains in lower limbs,gonorrhea suppressed by cold,1.0,1
+gouty pains in lower limbs,short tearing pains in one place then another,1.0,1
+gouty pains in lower limbs,bone pains severe after mercury,1.0,1
+gouty pains in lower limbs,knees tender to touch,1.0,1
+gouty pains in lower limbs,gouty conditions with renal calculi,1.0,1
+gouty pains in lower limbs,antisycotic,1.0,1
+antisycotic,syphilitic rheumatism,1.0,1
+antisycotic,after mercurial treatment of syphilis,1.0,1
+antisycotic,stitches in back through into chest,1.0,1
+antisycotic,tips of fingers feel bruised,1.0,1
+antisycotic,rheumatism after mercury,1.0,1
+antisycotic,wrenching excruciating pains in knees,1.0,1
+antisycotic,tips of fingers feel sore,1.0,1
+antisycotic,rheumatic pains in joints after gonorrhea,1.0,1
+antisycotic,painful pressure on breast bone,1.0,1
+antisycotic,gonorrhea suppressed by mercury,1.0,1
+antisycotic,worse during damp weather,1.0,1
+antisycotic,suppressed gonorrheal discharge,1.0,1
+antisycotic,arthritic tubercles in lungs,1.0,1
+antisycotic,cracks on skin of hands,1.0,1
+antisycotic,extreme emaciation,1.0,1
+antisycotic,rheumatism of lower limbs,1.0,1
+antisycotic,rheumatic pains at night in feet,1.0,1
+antisycotic,severe wrenching pain on each side of patella,1.0,1
+antisycotic,worse after cold bathing,1.0,1
+antisycotic,bone pains after suppressed gonorrhea,1.0,1
+antisycotic,sweat on forehead during evening,1.0,1
+antisycotic,stitches in joints of arms,1.0,1
+antisycotic,gonorrhea suppressed by wet weather,1.0,1
+antisycotic,deep antisyphilitic,1.0,1
+antisycotic,from least motion,1.0,1
+antisycotic,knees hot,1.0,1
+antisycotic,severe rheumatism,1.0,1
+antisycotic,worse when touched,1.0,1
+antisycotic,severe rheumatic pains in limbs,1.0,1
+antisycotic,after suppressed gonorrhea,1.0,1
+antisycotic,gonorrhea suppressed by cold,1.0,1
+antisycotic,short tearing pains in one place then another,1.0,1
+antisycotic,bone pains severe after mercury,1.0,1
+antisycotic,knees tender to touch,1.0,1
+antisycotic,gouty pains in lower limbs,1.0,1
+antisycotic,gouty conditions with renal calculi,1.0,1
+extreme emaciation,syphilitic rheumatism,1.0,1
+extreme emaciation,after mercurial treatment of syphilis,1.0,1
+extreme emaciation,stitches in back through into chest,1.0,1
+extreme emaciation,tips of fingers feel bruised,1.0,1
+extreme emaciation,rheumatism after mercury,1.0,1
+extreme emaciation,wrenching excruciating pains in knees,1.0,1
+extreme emaciation,tips of fingers feel sore,1.0,1
+extreme emaciation,rheumatic pains in joints after gonorrhea,1.0,1
+extreme emaciation,painful pressure on breast bone,1.0,1
+extreme emaciation,gonorrhea suppressed by mercury,1.0,1
+extreme emaciation,worse during damp weather,1.0,1
+extreme emaciation,suppressed gonorrheal discharge,1.0,1
+extreme emaciation,arthritic tubercles in lungs,1.0,1
+extreme emaciation,cracks on skin of hands,1.0,1
+extreme emaciation,rheumatism of lower limbs,1.0,1
+extreme emaciation,rheumatic pains at night in feet,1.0,1
+extreme emaciation,severe wrenching pain on each side of patella,1.0,1
+extreme emaciation,worse after cold bathing,1.0,1
+extreme emaciation,bone pains after suppressed gonorrhea,1.0,1
+extreme emaciation,sweat on forehead during evening,1.0,1
+extreme emaciation,stitches in joints of arms,1.0,1
+extreme emaciation,gonorrhea suppressed by wet weather,1.0,1
+extreme emaciation,deep antisyphilitic,1.0,1
+extreme emaciation,from least motion,1.0,1
+extreme emaciation,knees hot,1.0,1
+extreme emaciation,severe rheumatism,1.0,1
+extreme emaciation,worse when touched,1.0,1
+extreme emaciation,severe rheumatic pains in limbs,1.0,1
+extreme emaciation,after suppressed gonorrhea,1.0,1
+extreme emaciation,gonorrhea suppressed by cold,1.0,1
+extreme emaciation,short tearing pains in one place then another,1.0,1
+extreme emaciation,bone pains severe after mercury,1.0,1
+extreme emaciation,knees tender to touch,1.0,1
+extreme emaciation,gouty pains in lower limbs,1.0,1
+extreme emaciation,gouty conditions with renal calculi,1.0,1
+extreme emaciation,antisycotic,1.0,1
+worse when touched,syphilitic rheumatism,1.0,1
+worse when touched,after mercurial treatment of syphilis,1.0,1
+worse when touched,stitches in back through into chest,1.0,1
+worse when touched,tips of fingers feel bruised,1.0,1
+worse when touched,rheumatism after mercury,1.0,1
+worse when touched,wrenching excruciating pains in knees,1.0,1
+worse when touched,tips of fingers feel sore,1.0,1
+worse when touched,rheumatic pains in joints after gonorrhea,1.0,1
+worse when touched,painful pressure on breast bone,1.0,1
+worse when touched,gonorrhea suppressed by mercury,1.0,1
+worse when touched,worse during damp weather,1.0,1
+worse when touched,suppressed gonorrheal discharge,1.0,1
+worse when touched,arthritic tubercles in lungs,1.0,1
+worse when touched,cracks on skin of hands,1.0,1
+worse when touched,extreme emaciation,1.0,1
+worse when touched,rheumatism of lower limbs,1.0,1
+worse when touched,rheumatic pains at night in feet,1.0,1
+worse when touched,severe wrenching pain on each side of patella,1.0,1
+worse when touched,worse after cold bathing,1.0,1
+worse when touched,bone pains after suppressed gonorrhea,1.0,1
+worse when touched,sweat on forehead during evening,1.0,1
+worse when touched,stitches in joints of arms,1.0,1
+worse when touched,gonorrhea suppressed by wet weather,1.0,1
+worse when touched,deep antisyphilitic,1.0,1
+worse when touched,from least motion,1.0,1
+worse when touched,knees hot,1.0,1
+worse when touched,severe rheumatism,1.0,1
+worse when touched,severe rheumatic pains in limbs,1.0,1
+worse when touched,after suppressed gonorrhea,1.0,1
+worse when touched,gonorrhea suppressed by cold,1.0,1
+worse when touched,short tearing pains in one place then another,1.0,1
+worse when touched,bone pains severe after mercury,1.0,1
+worse when touched,knees tender to touch,1.0,1
+worse when touched,gouty pains in lower limbs,1.0,1
+worse when touched,gouty conditions with renal calculi,1.0,1
+worse when touched,antisycotic,1.0,1
+wrenching excruciating pains in knees,syphilitic rheumatism,1.0,1
+wrenching excruciating pains in knees,after mercurial treatment of syphilis,1.0,1
+wrenching excruciating pains in knees,stitches in back through into chest,1.0,1
+wrenching excruciating pains in knees,tips of fingers feel bruised,1.0,1
+wrenching excruciating pains in knees,rheumatism after mercury,1.0,1
+wrenching excruciating pains in knees,tips of fingers feel sore,1.0,1
+wrenching excruciating pains in knees,rheumatic pains in joints after gonorrhea,1.0,1
+wrenching excruciating pains in knees,painful pressure on breast bone,1.0,1
+wrenching excruciating pains in knees,gonorrhea suppressed by mercury,1.0,1
+wrenching excruciating pains in knees,worse during damp weather,1.0,1
+wrenching excruciating pains in knees,suppressed gonorrheal discharge,1.0,1
+wrenching excruciating pains in knees,arthritic tubercles in lungs,1.0,1
+wrenching excruciating pains in knees,cracks on skin of hands,1.0,1
+wrenching excruciating pains in knees,extreme emaciation,1.0,1
+wrenching excruciating pains in knees,rheumatism of lower limbs,1.0,1
+wrenching excruciating pains in knees,rheumatic pains at night in feet,1.0,1
+wrenching excruciating pains in knees,severe wrenching pain on each side of patella,1.0,1
+wrenching excruciating pains in knees,worse after cold bathing,1.0,1
+wrenching excruciating pains in knees,bone pains after suppressed gonorrhea,1.0,1
+wrenching excruciating pains in knees,sweat on forehead during evening,1.0,1
+wrenching excruciating pains in knees,stitches in joints of arms,1.0,1
+wrenching excruciating pains in knees,gonorrhea suppressed by wet weather,1.0,1
+wrenching excruciating pains in knees,deep antisyphilitic,1.0,1
+wrenching excruciating pains in knees,from least motion,1.0,1
+wrenching excruciating pains in knees,knees hot,1.0,1
+wrenching excruciating pains in knees,severe rheumatism,1.0,1
+wrenching excruciating pains in knees,worse when touched,1.0,1
+wrenching excruciating pains in knees,severe rheumatic pains in limbs,1.0,1
+wrenching excruciating pains in knees,after suppressed gonorrhea,1.0,1
+wrenching excruciating pains in knees,gonorrhea suppressed by cold,1.0,1
+wrenching excruciating pains in knees,short tearing pains in one place then another,1.0,1
+wrenching excruciating pains in knees,bone pains severe after mercury,1.0,1
+wrenching excruciating pains in knees,knees tender to touch,1.0,1
+wrenching excruciating pains in knees,gouty pains in lower limbs,1.0,1
+wrenching excruciating pains in knees,gouty conditions with renal calculi,1.0,1
+wrenching excruciating pains in knees,antisycotic,1.0,1
+syphilitic rheumatism,after mercurial treatment of syphilis,0.5,1
+syphilitic rheumatism,stitches in back through into chest,0.5,1
+syphilitic rheumatism,tips of fingers feel bruised,0.5,1
+syphilitic rheumatism,rheumatism after mercury,0.5,1
+syphilitic rheumatism,wrenching excruciating pains in knees,0.5,1
+syphilitic rheumatism,tips of fingers feel sore,0.5,1
+syphilitic rheumatism,rheumatic pains in joints after gonorrhea,0.5,1
+syphilitic rheumatism,painful pressure on breast bone,0.5,1
+syphilitic rheumatism,gonorrhea suppressed by mercury,0.5,1
+syphilitic rheumatism,worse during damp weather,0.5,1
+syphilitic rheumatism,suppressed gonorrheal discharge,0.5,1
+syphilitic rheumatism,arthritic tubercles in lungs,0.5,1
+syphilitic rheumatism,cracks on skin of hands,0.5,1
+syphilitic rheumatism,extreme emaciation,0.5,1
+syphilitic rheumatism,rheumatism of lower limbs,0.5,1
+syphilitic rheumatism,rheumatic pains at night in feet,0.5,1
+syphilitic rheumatism,severe wrenching pain on each side of patella,0.5,1
+syphilitic rheumatism,worse after cold bathing,0.5,1
+syphilitic rheumatism,bone pains after suppressed gonorrhea,0.5,1
+syphilitic rheumatism,sweat on forehead during evening,0.5,1
+syphilitic rheumatism,stitches in joints of arms,0.5,1
+syphilitic rheumatism,gonorrhea suppressed by wet weather,0.5,1
+syphilitic rheumatism,deep antisyphilitic,0.5,1
+syphilitic rheumatism,from least motion,0.5,1
+syphilitic rheumatism,knees hot,0.5,1
+syphilitic rheumatism,severe rheumatism,0.5,1
+syphilitic rheumatism,worse when touched,0.5,1
+syphilitic rheumatism,severe rheumatic pains in limbs,0.5,1
+syphilitic rheumatism,after suppressed gonorrhea,0.5,1
+syphilitic rheumatism,gonorrhea suppressed by cold,0.5,1
+syphilitic rheumatism,short tearing pains in one place then another,0.5,1
+syphilitic rheumatism,bone pains severe after mercury,0.5,1
+syphilitic rheumatism,knees tender to touch,0.5,1
+syphilitic rheumatism,gouty pains in lower limbs,0.5,1
+syphilitic rheumatism,gouty conditions with renal calculi,0.5,1
+syphilitic rheumatism,antisycotic,0.5,1
+stitches in joints of arms,syphilitic rheumatism,1.0,1
+stitches in joints of arms,after mercurial treatment of syphilis,1.0,1
+stitches in joints of arms,stitches in back through into chest,1.0,1
+stitches in joints of arms,tips of fingers feel bruised,1.0,1
+stitches in joints of arms,rheumatism after mercury,1.0,1
+stitches in joints of arms,wrenching excruciating pains in knees,1.0,1
+stitches in joints of arms,tips of fingers feel sore,1.0,1
+stitches in joints of arms,rheumatic pains in joints after gonorrhea,1.0,1
+stitches in joints of arms,painful pressure on breast bone,1.0,1
+stitches in joints of arms,gonorrhea suppressed by mercury,1.0,1
+stitches in joints of arms,worse during damp weather,1.0,1
+stitches in joints of arms,suppressed gonorrheal discharge,1.0,1
+stitches in joints of arms,arthritic tubercles in lungs,1.0,1
+stitches in joints of arms,cracks on skin of hands,1.0,1
+stitches in joints of arms,extreme emaciation,1.0,1
+stitches in joints of arms,rheumatism of lower limbs,1.0,1
+stitches in joints of arms,rheumatic pains at night in feet,1.0,1
+stitches in joints of arms,severe wrenching pain on each side of patella,1.0,1
+stitches in joints of arms,worse after cold bathing,1.0,1
+stitches in joints of arms,bone pains after suppressed gonorrhea,1.0,1
+stitches in joints of arms,sweat on forehead during evening,1.0,1
+stitches in joints of arms,gonorrhea suppressed by wet weather,1.0,1
+stitches in joints of arms,deep antisyphilitic,1.0,1
+stitches in joints of arms,from least motion,1.0,1
+stitches in joints of arms,knees hot,1.0,1
+stitches in joints of arms,severe rheumatism,1.0,1
+stitches in joints of arms,worse when touched,1.0,1
+stitches in joints of arms,severe rheumatic pains in limbs,1.0,1
+stitches in joints of arms,after suppressed gonorrhea,1.0,1
+stitches in joints of arms,gonorrhea suppressed by cold,1.0,1
+stitches in joints of arms,short tearing pains in one place then another,1.0,1
+stitches in joints of arms,bone pains severe after mercury,1.0,1
+stitches in joints of arms,knees tender to touch,1.0,1
+stitches in joints of arms,gouty pains in lower limbs,1.0,1
+stitches in joints of arms,gouty conditions with renal calculi,1.0,1
+stitches in joints of arms,antisycotic,1.0,1
+rheumatism of lower limbs,syphilitic rheumatism,1.0,1
+rheumatism of lower limbs,after mercurial treatment of syphilis,1.0,1
+rheumatism of lower limbs,stitches in back through into chest,1.0,1
+rheumatism of lower limbs,tips of fingers feel bruised,1.0,1
+rheumatism of lower limbs,rheumatism after mercury,1.0,1
+rheumatism of lower limbs,wrenching excruciating pains in knees,1.0,1
+rheumatism of lower limbs,tips of fingers feel sore,1.0,1
+rheumatism of lower limbs,rheumatic pains in joints after gonorrhea,1.0,1
+rheumatism of lower limbs,painful pressure on breast bone,1.0,1
+rheumatism of lower limbs,gonorrhea suppressed by mercury,1.0,1
+rheumatism of lower limbs,worse during damp weather,1.0,1
+rheumatism of lower limbs,suppressed gonorrheal discharge,1.0,1
+rheumatism of lower limbs,arthritic tubercles in lungs,1.0,1
+rheumatism of lower limbs,cracks on skin of hands,1.0,1
+rheumatism of lower limbs,extreme emaciation,1.0,1
+rheumatism of lower limbs,rheumatic pains at night in feet,1.0,1
+rheumatism of lower limbs,severe wrenching pain on each side of patella,1.0,1
+rheumatism of lower limbs,worse after cold bathing,1.0,1
+rheumatism of lower limbs,bone pains after suppressed gonorrhea,1.0,1
+rheumatism of lower limbs,sweat on forehead during evening,1.0,1
+rheumatism of lower limbs,stitches in joints of arms,1.0,1
+rheumatism of lower limbs,gonorrhea suppressed by wet weather,1.0,1
+rheumatism of lower limbs,deep antisyphilitic,1.0,1
+rheumatism of lower limbs,from least motion,1.0,1
+rheumatism of lower limbs,knees hot,1.0,1
+rheumatism of lower limbs,severe rheumatism,1.0,1
+rheumatism of lower limbs,worse when touched,1.0,1
+rheumatism of lower limbs,severe rheumatic pains in limbs,1.0,1
+rheumatism of lower limbs,after suppressed gonorrhea,1.0,1
+rheumatism of lower limbs,gonorrhea suppressed by cold,1.0,1
+rheumatism of lower limbs,short tearing pains in one place then another,1.0,1
+rheumatism of lower limbs,bone pains severe after mercury,1.0,1
+rheumatism of lower limbs,knees tender to touch,1.0,1
+rheumatism of lower limbs,gouty pains in lower limbs,1.0,1
+rheumatism of lower limbs,gouty conditions with renal calculi,1.0,1
+rheumatism of lower limbs,antisycotic,1.0,1
+arthritic tubercles in lungs,syphilitic rheumatism,1.0,1
+arthritic tubercles in lungs,after mercurial treatment of syphilis,1.0,1
+arthritic tubercles in lungs,stitches in back through into chest,1.0,1
+arthritic tubercles in lungs,tips of fingers feel bruised,1.0,1
+arthritic tubercles in lungs,rheumatism after mercury,1.0,1
+arthritic tubercles in lungs,wrenching excruciating pains in knees,1.0,1
+arthritic tubercles in lungs,tips of fingers feel sore,1.0,1
+arthritic tubercles in lungs,rheumatic pains in joints after gonorrhea,1.0,1
+arthritic tubercles in lungs,painful pressure on breast bone,1.0,1
+arthritic tubercles in lungs,gonorrhea suppressed by mercury,1.0,1
+arthritic tubercles in lungs,worse during damp weather,1.0,1
+arthritic tubercles in lungs,suppressed gonorrheal discharge,1.0,1
+arthritic tubercles in lungs,cracks on skin of hands,1.0,1
+arthritic tubercles in lungs,extreme emaciation,1.0,1
+arthritic tubercles in lungs,rheumatism of lower limbs,1.0,1
+arthritic tubercles in lungs,rheumatic pains at night in feet,1.0,1
+arthritic tubercles in lungs,severe wrenching pain on each side of patella,1.0,1
+arthritic tubercles in lungs,worse after cold bathing,1.0,1
+arthritic tubercles in lungs,bone pains after suppressed gonorrhea,1.0,1
+arthritic tubercles in lungs,sweat on forehead during evening,1.0,1
+arthritic tubercles in lungs,stitches in joints of arms,1.0,1
+arthritic tubercles in lungs,gonorrhea suppressed by wet weather,1.0,1
+arthritic tubercles in lungs,deep antisyphilitic,1.0,1
+arthritic tubercles in lungs,from least motion,1.0,1
+arthritic tubercles in lungs,knees hot,1.0,1
+arthritic tubercles in lungs,severe rheumatism,1.0,1
+arthritic tubercles in lungs,worse when touched,1.0,1
+arthritic tubercles in lungs,severe rheumatic pains in limbs,1.0,1
+arthritic tubercles in lungs,after suppressed gonorrhea,1.0,1
+arthritic tubercles in lungs,gonorrhea suppressed by cold,1.0,1
+arthritic tubercles in lungs,short tearing pains in one place then another,1.0,1
+arthritic tubercles in lungs,bone pains severe after mercury,1.0,1
+arthritic tubercles in lungs,knees tender to touch,1.0,1
+arthritic tubercles in lungs,gouty pains in lower limbs,1.0,1
+arthritic tubercles in lungs,gouty conditions with renal calculi,1.0,1
+arthritic tubercles in lungs,antisycotic,1.0,1
+tips of fingers feel sore,syphilitic rheumatism,1.0,1
+tips of fingers feel sore,after mercurial treatment of syphilis,1.0,1
+tips of fingers feel sore,stitches in back through into chest,1.0,1
+tips of fingers feel sore,tips of fingers feel bruised,1.0,1
+tips of fingers feel sore,rheumatism after mercury,1.0,1
+tips of fingers feel sore,wrenching excruciating pains in knees,1.0,1
+tips of fingers feel sore,rheumatic pains in joints after gonorrhea,1.0,1
+tips of fingers feel sore,painful pressure on breast bone,1.0,1
+tips of fingers feel sore,gonorrhea suppressed by mercury,1.0,1
+tips of fingers feel sore,worse during damp weather,1.0,1
+tips of fingers feel sore,suppressed gonorrheal discharge,1.0,1
+tips of fingers feel sore,arthritic tubercles in lungs,1.0,1
+tips of fingers feel sore,cracks on skin of hands,1.0,1
+tips of fingers feel sore,extreme emaciation,1.0,1
+tips of fingers feel sore,rheumatism of lower limbs,1.0,1
+tips of fingers feel sore,rheumatic pains at night in feet,1.0,1
+tips of fingers feel sore,severe wrenching pain on each side of patella,1.0,1
+tips of fingers feel sore,worse after cold bathing,1.0,1
+tips of fingers feel sore,bone pains after suppressed gonorrhea,1.0,1
+tips of fingers feel sore,sweat on forehead during evening,1.0,1
+tips of fingers feel sore,stitches in joints of arms,1.0,1
+tips of fingers feel sore,gonorrhea suppressed by wet weather,1.0,1
+tips of fingers feel sore,deep antisyphilitic,1.0,1
+tips of fingers feel sore,from least motion,1.0,1
+tips of fingers feel sore,knees hot,1.0,1
+tips of fingers feel sore,severe rheumatism,1.0,1
+tips of fingers feel sore,worse when touched,1.0,1
+tips of fingers feel sore,severe rheumatic pains in limbs,1.0,1
+tips of fingers feel sore,after suppressed gonorrhea,1.0,1
+tips of fingers feel sore,gonorrhea suppressed by cold,1.0,1
+tips of fingers feel sore,short tearing pains in one place then another,1.0,1
+tips of fingers feel sore,bone pains severe after mercury,1.0,1
+tips of fingers feel sore,knees tender to touch,1.0,1
+tips of fingers feel sore,gouty pains in lower limbs,1.0,1
+tips of fingers feel sore,gouty conditions with renal calculi,1.0,1
+tips of fingers feel sore,antisycotic,1.0,1
+worse after cold bathing,syphilitic rheumatism,1.0,1
+worse after cold bathing,after mercurial treatment of syphilis,1.0,1
+worse after cold bathing,stitches in back through into chest,1.0,1
+worse after cold bathing,tips of fingers feel bruised,1.0,1
+worse after cold bathing,rheumatism after mercury,1.0,1
+worse after cold bathing,wrenching excruciating pains in knees,1.0,1
+worse after cold bathing,tips of fingers feel sore,1.0,1
+worse after cold bathing,rheumatic pains in joints after gonorrhea,1.0,1
+worse after cold bathing,painful pressure on breast bone,1.0,1
+worse after cold bathing,gonorrhea suppressed by mercury,1.0,1
+worse after cold bathing,worse during damp weather,1.0,1
+worse after cold bathing,suppressed gonorrheal discharge,1.0,1
+worse after cold bathing,arthritic tubercles in lungs,1.0,1
+worse after cold bathing,cracks on skin of hands,1.0,1
+worse after cold bathing,extreme emaciation,1.0,1
+worse after cold bathing,rheumatism of lower limbs,1.0,1
+worse after cold bathing,rheumatic pains at night in feet,1.0,1
+worse after cold bathing,severe wrenching pain on each side of patella,1.0,1
+worse after cold bathing,bone pains after suppressed gonorrhea,1.0,1
+worse after cold bathing,sweat on forehead during evening,1.0,1
+worse after cold bathing,stitches in joints of arms,1.0,1
+worse after cold bathing,gonorrhea suppressed by wet weather,1.0,1
+worse after cold bathing,deep antisyphilitic,1.0,1
+worse after cold bathing,from least motion,1.0,1
+worse after cold bathing,knees hot,1.0,1
+worse after cold bathing,severe rheumatism,1.0,1
+worse after cold bathing,worse when touched,1.0,1
+worse after cold bathing,severe rheumatic pains in limbs,1.0,1
+worse after cold bathing,after suppressed gonorrhea,1.0,1
+worse after cold bathing,gonorrhea suppressed by cold,1.0,1
+worse after cold bathing,short tearing pains in one place then another,1.0,1
+worse after cold bathing,bone pains severe after mercury,1.0,1
+worse after cold bathing,knees tender to touch,1.0,1
+worse after cold bathing,gouty pains in lower limbs,1.0,1
+worse after cold bathing,gouty conditions with renal calculi,1.0,1
+worse after cold bathing,antisycotic,1.0,1
+bone pains severe after mercury,syphilitic rheumatism,1.0,1
+bone pains severe after mercury,after mercurial treatment of syphilis,1.0,1
+bone pains severe after mercury,stitches in back through into chest,1.0,1
+bone pains severe after mercury,tips of fingers feel bruised,1.0,1
+bone pains severe after mercury,rheumatism after mercury,1.0,1
+bone pains severe after mercury,wrenching excruciating pains in knees,1.0,1
+bone pains severe after mercury,tips of fingers feel sore,1.0,1
+bone pains severe after mercury,rheumatic pains in joints after gonorrhea,1.0,1
+bone pains severe after mercury,painful pressure on breast bone,1.0,1
+bone pains severe after mercury,gonorrhea suppressed by mercury,1.0,1
+bone pains severe after mercury,worse during damp weather,1.0,1
+bone pains severe after mercury,suppressed gonorrheal discharge,1.0,1
+bone pains severe after mercury,arthritic tubercles in lungs,1.0,1
+bone pains severe after mercury,cracks on skin of hands,1.0,1
+bone pains severe after mercury,extreme emaciation,1.0,1
+bone pains severe after mercury,rheumatism of lower limbs,1.0,1
+bone pains severe after mercury,rheumatic pains at night in feet,1.0,1
+bone pains severe after mercury,severe wrenching pain on each side of patella,1.0,1
+bone pains severe after mercury,worse after cold bathing,1.0,1
+bone pains severe after mercury,bone pains after suppressed gonorrhea,1.0,1
+bone pains severe after mercury,sweat on forehead during evening,1.0,1
+bone pains severe after mercury,stitches in joints of arms,1.0,1
+bone pains severe after mercury,gonorrhea suppressed by wet weather,1.0,1
+bone pains severe after mercury,deep antisyphilitic,1.0,1
+bone pains severe after mercury,from least motion,1.0,1
+bone pains severe after mercury,knees hot,1.0,1
+bone pains severe after mercury,severe rheumatism,1.0,1
+bone pains severe after mercury,worse when touched,1.0,1
+bone pains severe after mercury,severe rheumatic pains in limbs,1.0,1
+bone pains severe after mercury,after suppressed gonorrhea,1.0,1
+bone pains severe after mercury,gonorrhea suppressed by cold,1.0,1
+bone pains severe after mercury,short tearing pains in one place then another,1.0,1
+bone pains severe after mercury,knees tender to touch,1.0,1
+bone pains severe after mercury,gouty pains in lower limbs,1.0,1
+bone pains severe after mercury,gouty conditions with renal calculi,1.0,1
+bone pains severe after mercury,antisycotic,1.0,1
+severe wrenching pain on each side of patella,syphilitic rheumatism,1.0,1
+severe wrenching pain on each side of patella,after mercurial treatment of syphilis,1.0,1
+severe wrenching pain on each side of patella,stitches in back through into chest,1.0,1
+severe wrenching pain on each side of patella,tips of fingers feel bruised,1.0,1
+severe wrenching pain on each side of patella,rheumatism after mercury,1.0,1
+severe wrenching pain on each side of patella,wrenching excruciating pains in knees,1.0,1
+severe wrenching pain on each side of patella,tips of fingers feel sore,1.0,1
+severe wrenching pain on each side of patella,rheumatic pains in joints after gonorrhea,1.0,1
+severe wrenching pain on each side of patella,painful pressure on breast bone,1.0,1
+severe wrenching pain on each side of patella,gonorrhea suppressed by mercury,1.0,1
+severe wrenching pain on each side of patella,worse during damp weather,1.0,1
+severe wrenching pain on each side of patella,suppressed gonorrheal discharge,1.0,1
+severe wrenching pain on each side of patella,arthritic tubercles in lungs,1.0,1
+severe wrenching pain on each side of patella,cracks on skin of hands,1.0,1
+severe wrenching pain on each side of patella,extreme emaciation,1.0,1
+severe wrenching pain on each side of patella,rheumatism of lower limbs,1.0,1
+severe wrenching pain on each side of patella,rheumatic pains at night in feet,1.0,1
+severe wrenching pain on each side of patella,worse after cold bathing,1.0,1
+severe wrenching pain on each side of patella,bone pains after suppressed gonorrhea,1.0,1
+severe wrenching pain on each side of patella,sweat on forehead during evening,1.0,1
+severe wrenching pain on each side of patella,stitches in joints of arms,1.0,1
+severe wrenching pain on each side of patella,gonorrhea suppressed by wet weather,1.0,1
+severe wrenching pain on each side of patella,deep antisyphilitic,1.0,1
+severe wrenching pain on each side of patella,from least motion,1.0,1
+severe wrenching pain on each side of patella,knees hot,1.0,1
+severe wrenching pain on each side of patella,severe rheumatism,1.0,1
+severe wrenching pain on each side of patella,worse when touched,1.0,1
+severe wrenching pain on each side of patella,severe rheumatic pains in limbs,1.0,1
+severe wrenching pain on each side of patella,after suppressed gonorrhea,1.0,1
+severe wrenching pain on each side of patella,gonorrhea suppressed by cold,1.0,1
+severe wrenching pain on each side of patella,short tearing pains in one place then another,1.0,1
+severe wrenching pain on each side of patella,bone pains severe after mercury,1.0,1
+severe wrenching pain on each side of patella,knees tender to touch,1.0,1
+severe wrenching pain on each side of patella,gouty pains in lower limbs,1.0,1
+severe wrenching pain on each side of patella,gouty conditions with renal calculi,1.0,1
+severe wrenching pain on each side of patella,antisycotic,1.0,1
+knees hot,syphilitic rheumatism,1.0,1
+knees hot,after mercurial treatment of syphilis,1.0,1
+knees hot,stitches in back through into chest,1.0,1
+knees hot,tips of fingers feel bruised,1.0,1
+knees hot,rheumatism after mercury,1.0,1
+knees hot,wrenching excruciating pains in knees,1.0,1
+knees hot,tips of fingers feel sore,1.0,1
+knees hot,rheumatic pains in joints after gonorrhea,1.0,1
+knees hot,painful pressure on breast bone,1.0,1
+knees hot,gonorrhea suppressed by mercury,1.0,1
+knees hot,worse during damp weather,1.0,1
+knees hot,suppressed gonorrheal discharge,1.0,1
+knees hot,arthritic tubercles in lungs,1.0,1
+knees hot,cracks on skin of hands,1.0,1
+knees hot,extreme emaciation,1.0,1
+knees hot,rheumatism of lower limbs,1.0,1
+knees hot,rheumatic pains at night in feet,1.0,1
+knees hot,severe wrenching pain on each side of patella,1.0,1
+knees hot,worse after cold bathing,1.0,1
+knees hot,bone pains after suppressed gonorrhea,1.0,1
+knees hot,sweat on forehead during evening,1.0,1
+knees hot,stitches in joints of arms,1.0,1
+knees hot,gonorrhea suppressed by wet weather,1.0,1
+knees hot,deep antisyphilitic,1.0,1
+knees hot,from least motion,1.0,1
+knees hot,severe rheumatism,1.0,1
+knees hot,worse when touched,1.0,1
+knees hot,severe rheumatic pains in limbs,1.0,1
+knees hot,after suppressed gonorrhea,1.0,1
+knees hot,gonorrhea suppressed by cold,1.0,1
+knees hot,short tearing pains in one place then another,1.0,1
+knees hot,bone pains severe after mercury,1.0,1
+knees hot,knees tender to touch,1.0,1
+knees hot,gouty pains in lower limbs,1.0,1
+knees hot,gouty conditions with renal calculi,1.0,1
+knees hot,antisycotic,1.0,1
+gouty conditions with renal calculi,syphilitic rheumatism,1.0,1
+gouty conditions with renal calculi,after mercurial treatment of syphilis,1.0,1
+gouty conditions with renal calculi,stitches in back through into chest,1.0,1
+gouty conditions with renal calculi,tips of fingers feel bruised,1.0,1
+gouty conditions with renal calculi,rheumatism after mercury,1.0,1
+gouty conditions with renal calculi,wrenching excruciating pains in knees,1.0,1
+gouty conditions with renal calculi,tips of fingers feel sore,1.0,1
+gouty conditions with renal calculi,rheumatic pains in joints after gonorrhea,1.0,1
+gouty conditions with renal calculi,painful pressure on breast bone,1.0,1
+gouty conditions with renal calculi,gonorrhea suppressed by mercury,1.0,1
+gouty conditions with renal calculi,worse during damp weather,1.0,1
+gouty conditions with renal calculi,suppressed gonorrheal discharge,1.0,1
+gouty conditions with renal calculi,arthritic tubercles in lungs,1.0,1
+gouty conditions with renal calculi,cracks on skin of hands,1.0,1
+gouty conditions with renal calculi,extreme emaciation,1.0,1
+gouty conditions with renal calculi,rheumatism of lower limbs,1.0,1
+gouty conditions with renal calculi,rheumatic pains at night in feet,1.0,1
+gouty conditions with renal calculi,severe wrenching pain on each side of patella,1.0,1
+gouty conditions with renal calculi,worse after cold bathing,1.0,1
+gouty conditions with renal calculi,bone pains after suppressed gonorrhea,1.0,1
+gouty conditions with renal calculi,sweat on forehead during evening,1.0,1
+gouty conditions with renal calculi,stitches in joints of arms,1.0,1
+gouty conditions with renal calculi,gonorrhea suppressed by wet weather,1.0,1
+gouty conditions with renal calculi,deep antisyphilitic,1.0,1
+gouty conditions with renal calculi,from least motion,1.0,1
+gouty conditions with renal calculi,knees hot,1.0,1
+gouty conditions with renal calculi,severe rheumatism,1.0,1
+gouty conditions with renal calculi,worse when touched,1.0,1
+gouty conditions with renal calculi,severe rheumatic pains in limbs,1.0,1
+gouty conditions with renal calculi,after suppressed gonorrhea,1.0,1
+gouty conditions with renal calculi,gonorrhea suppressed by cold,1.0,1
+gouty conditions with renal calculi,short tearing pains in one place then another,1.0,1
+gouty conditions with renal calculi,bone pains severe after mercury,1.0,1
+gouty conditions with renal calculi,knees tender to touch,1.0,1
+gouty conditions with renal calculi,gouty pains in lower limbs,1.0,1
+gouty conditions with renal calculi,antisycotic,1.0,1
+rheumatic pains at night in feet,syphilitic rheumatism,1.0,1
+rheumatic pains at night in feet,after mercurial treatment of syphilis,1.0,1
+rheumatic pains at night in feet,stitches in back through into chest,1.0,1
+rheumatic pains at night in feet,tips of fingers feel bruised,1.0,1
+rheumatic pains at night in feet,rheumatism after mercury,1.0,1
+rheumatic pains at night in feet,wrenching excruciating pains in knees,1.0,1
+rheumatic pains at night in feet,tips of fingers feel sore,1.0,1
+rheumatic pains at night in feet,rheumatic pains in joints after gonorrhea,1.0,1
+rheumatic pains at night in feet,painful pressure on breast bone,1.0,1
+rheumatic pains at night in feet,gonorrhea suppressed by mercury,1.0,1
+rheumatic pains at night in feet,worse during damp weather,1.0,1
+rheumatic pains at night in feet,suppressed gonorrheal discharge,1.0,1
+rheumatic pains at night in feet,arthritic tubercles in lungs,1.0,1
+rheumatic pains at night in feet,cracks on skin of hands,1.0,1
+rheumatic pains at night in feet,extreme emaciation,1.0,1
+rheumatic pains at night in feet,rheumatism of lower limbs,1.0,1
+rheumatic pains at night in feet,severe wrenching pain on each side of patella,1.0,1
+rheumatic pains at night in feet,worse after cold bathing,1.0,1
+rheumatic pains at night in feet,bone pains after suppressed gonorrhea,1.0,1
+rheumatic pains at night in feet,sweat on forehead during evening,1.0,1
+rheumatic pains at night in feet,stitches in joints of arms,1.0,1
+rheumatic pains at night in feet,gonorrhea suppressed by wet weather,1.0,1
+rheumatic pains at night in feet,deep antisyphilitic,1.0,1
+rheumatic pains at night in feet,from least motion,1.0,1
+rheumatic pains at night in feet,knees hot,1.0,1
+rheumatic pains at night in feet,severe rheumatism,1.0,1
+rheumatic pains at night in feet,worse when touched,1.0,1
+rheumatic pains at night in feet,severe rheumatic pains in limbs,1.0,1
+rheumatic pains at night in feet,after suppressed gonorrhea,1.0,1
+rheumatic pains at night in feet,gonorrhea suppressed by cold,1.0,1
+rheumatic pains at night in feet,short tearing pains in one place then another,1.0,1
+rheumatic pains at night in feet,bone pains severe after mercury,1.0,1
+rheumatic pains at night in feet,knees tender to touch,1.0,1
+rheumatic pains at night in feet,gouty pains in lower limbs,1.0,1
+rheumatic pains at night in feet,gouty conditions with renal calculi,1.0,1
+rheumatic pains at night in feet,antisycotic,1.0,1
+after suppressed gonorrhea,syphilitic rheumatism,1.0,1
+after suppressed gonorrhea,after mercurial treatment of syphilis,1.0,1
+after suppressed gonorrhea,stitches in back through into chest,1.0,1
+after suppressed gonorrhea,tips of fingers feel bruised,1.0,1
+after suppressed gonorrhea,rheumatism after mercury,1.0,1
+after suppressed gonorrhea,wrenching excruciating pains in knees,1.0,1
+after suppressed gonorrhea,tips of fingers feel sore,1.0,1
+after suppressed gonorrhea,rheumatic pains in joints after gonorrhea,1.0,1
+after suppressed gonorrhea,painful pressure on breast bone,1.0,1
+after suppressed gonorrhea,gonorrhea suppressed by mercury,1.0,1
+after suppressed gonorrhea,worse during damp weather,1.0,1
+after suppressed gonorrhea,suppressed gonorrheal discharge,1.0,1
+after suppressed gonorrhea,arthritic tubercles in lungs,1.0,1
+after suppressed gonorrhea,cracks on skin of hands,1.0,1
+after suppressed gonorrhea,extreme emaciation,1.0,1
+after suppressed gonorrhea,rheumatism of lower limbs,1.0,1
+after suppressed gonorrhea,rheumatic pains at night in feet,1.0,1
+after suppressed gonorrhea,severe wrenching pain on each side of patella,1.0,1
+after suppressed gonorrhea,worse after cold bathing,1.0,1
+after suppressed gonorrhea,bone pains after suppressed gonorrhea,1.0,1
+after suppressed gonorrhea,sweat on forehead during evening,1.0,1
+after suppressed gonorrhea,stitches in joints of arms,1.0,1
+after suppressed gonorrhea,gonorrhea suppressed by wet weather,1.0,1
+after suppressed gonorrhea,deep antisyphilitic,1.0,1
+after suppressed gonorrhea,from least motion,1.0,1
+after suppressed gonorrhea,knees hot,1.0,1
+after suppressed gonorrhea,severe rheumatism,1.0,1
+after suppressed gonorrhea,worse when touched,1.0,1
+after suppressed gonorrhea,severe rheumatic pains in limbs,1.0,1
+after suppressed gonorrhea,gonorrhea suppressed by cold,1.0,1
+after suppressed gonorrhea,short tearing pains in one place then another,1.0,1
+after suppressed gonorrhea,bone pains severe after mercury,1.0,1
+after suppressed gonorrhea,knees tender to touch,1.0,1
+after suppressed gonorrhea,gouty pains in lower limbs,1.0,1
+after suppressed gonorrhea,gouty conditions with renal calculi,1.0,1
+after suppressed gonorrhea,antisycotic,1.0,1
+gonorrhea suppressed by mercury,syphilitic rheumatism,1.0,1
+gonorrhea suppressed by mercury,after mercurial treatment of syphilis,1.0,1
+gonorrhea suppressed by mercury,stitches in back through into chest,1.0,1
+gonorrhea suppressed by mercury,tips of fingers feel bruised,1.0,1
+gonorrhea suppressed by mercury,rheumatism after mercury,1.0,1
+gonorrhea suppressed by mercury,wrenching excruciating pains in knees,1.0,1
+gonorrhea suppressed by mercury,tips of fingers feel sore,1.0,1
+gonorrhea suppressed by mercury,rheumatic pains in joints after gonorrhea,1.0,1
+gonorrhea suppressed by mercury,painful pressure on breast bone,1.0,1
+gonorrhea suppressed by mercury,worse during damp weather,1.0,1
+gonorrhea suppressed by mercury,suppressed gonorrheal discharge,1.0,1
+gonorrhea suppressed by mercury,arthritic tubercles in lungs,1.0,1
+gonorrhea suppressed by mercury,cracks on skin of hands,1.0,1
+gonorrhea suppressed by mercury,extreme emaciation,1.0,1
+gonorrhea suppressed by mercury,rheumatism of lower limbs,1.0,1
+gonorrhea suppressed by mercury,rheumatic pains at night in feet,1.0,1
+gonorrhea suppressed by mercury,severe wrenching pain on each side of patella,1.0,1
+gonorrhea suppressed by mercury,worse after cold bathing,1.0,1
+gonorrhea suppressed by mercury,bone pains after suppressed gonorrhea,1.0,1
+gonorrhea suppressed by mercury,sweat on forehead during evening,1.0,1
+gonorrhea suppressed by mercury,stitches in joints of arms,1.0,1
+gonorrhea suppressed by mercury,gonorrhea suppressed by wet weather,1.0,1
+gonorrhea suppressed by mercury,deep antisyphilitic,1.0,1
+gonorrhea suppressed by mercury,from least motion,1.0,1
+gonorrhea suppressed by mercury,knees hot,1.0,1
+gonorrhea suppressed by mercury,severe rheumatism,1.0,1
+gonorrhea suppressed by mercury,worse when touched,1.0,1
+gonorrhea suppressed by mercury,severe rheumatic pains in limbs,1.0,1
+gonorrhea suppressed by mercury,after suppressed gonorrhea,1.0,1
+gonorrhea suppressed by mercury,gonorrhea suppressed by cold,1.0,1
+gonorrhea suppressed by mercury,short tearing pains in one place then another,1.0,1
+gonorrhea suppressed by mercury,bone pains severe after mercury,1.0,1
+gonorrhea suppressed by mercury,knees tender to touch,1.0,1
+gonorrhea suppressed by mercury,gouty pains in lower limbs,1.0,1
+gonorrhea suppressed by mercury,gouty conditions with renal calculi,1.0,1
+gonorrhea suppressed by mercury,antisycotic,1.0,1
+gonorrhea suppressed by wet weather,syphilitic rheumatism,1.0,1
+gonorrhea suppressed by wet weather,after mercurial treatment of syphilis,1.0,1
+gonorrhea suppressed by wet weather,stitches in back through into chest,1.0,1
+gonorrhea suppressed by wet weather,tips of fingers feel bruised,1.0,1
+gonorrhea suppressed by wet weather,rheumatism after mercury,1.0,1
+gonorrhea suppressed by wet weather,wrenching excruciating pains in knees,1.0,1
+gonorrhea suppressed by wet weather,tips of fingers feel sore,1.0,1
+gonorrhea suppressed by wet weather,rheumatic pains in joints after gonorrhea,1.0,1
+gonorrhea suppressed by wet weather,painful pressure on breast bone,1.0,1
+gonorrhea suppressed by wet weather,gonorrhea suppressed by mercury,1.0,1
+gonorrhea suppressed by wet weather,worse during damp weather,1.0,1
+gonorrhea suppressed by wet weather,suppressed gonorrheal discharge,1.0,1
+gonorrhea suppressed by wet weather,arthritic tubercles in lungs,1.0,1
+gonorrhea suppressed by wet weather,cracks on skin of hands,1.0,1
+gonorrhea suppressed by wet weather,extreme emaciation,1.0,1
+gonorrhea suppressed by wet weather,rheumatism of lower limbs,1.0,1
+gonorrhea suppressed by wet weather,rheumatic pains at night in feet,1.0,1
+gonorrhea suppressed by wet weather,severe wrenching pain on each side of patella,1.0,1
+gonorrhea suppressed by wet weather,worse after cold bathing,1.0,1
+gonorrhea suppressed by wet weather,bone pains after suppressed gonorrhea,1.0,1
+gonorrhea suppressed by wet weather,sweat on forehead during evening,1.0,1
+gonorrhea suppressed by wet weather,stitches in joints of arms,1.0,1
+gonorrhea suppressed by wet weather,deep antisyphilitic,1.0,1
+gonorrhea suppressed by wet weather,from least motion,1.0,1
+gonorrhea suppressed by wet weather,knees hot,1.0,1
+gonorrhea suppressed by wet weather,severe rheumatism,1.0,1
+gonorrhea suppressed by wet weather,worse when touched,1.0,1
+gonorrhea suppressed by wet weather,severe rheumatic pains in limbs,1.0,1
+gonorrhea suppressed by wet weather,after suppressed gonorrhea,1.0,1
+gonorrhea suppressed by wet weather,gonorrhea suppressed by cold,1.0,1
+gonorrhea suppressed by wet weather,short tearing pains in one place then another,1.0,1
+gonorrhea suppressed by wet weather,bone pains severe after mercury,1.0,1
+gonorrhea suppressed by wet weather,knees tender to touch,1.0,1
+gonorrhea suppressed by wet weather,gouty pains in lower limbs,1.0,1
+gonorrhea suppressed by wet weather,gouty conditions with renal calculi,1.0,1
+gonorrhea suppressed by wet weather,antisycotic,1.0,1
+after mercurial treatment of syphilis,syphilitic rheumatism,1.0,1
+after mercurial treatment of syphilis,stitches in back through into chest,1.0,1
+after mercurial treatment of syphilis,tips of fingers feel bruised,1.0,1
+after mercurial treatment of syphilis,rheumatism after mercury,1.0,1
+after mercurial treatment of syphilis,wrenching excruciating pains in knees,1.0,1
+after mercurial treatment of syphilis,tips of fingers feel sore,1.0,1
+after mercurial treatment of syphilis,rheumatic pains in joints after gonorrhea,1.0,1
+after mercurial treatment of syphilis,painful pressure on breast bone,1.0,1
+after mercurial treatment of syphilis,gonorrhea suppressed by mercury,1.0,1
+after mercurial treatment of syphilis,worse during damp weather,1.0,1
+after mercurial treatment of syphilis,suppressed gonorrheal discharge,1.0,1
+after mercurial treatment of syphilis,arthritic tubercles in lungs,1.0,1
+after mercurial treatment of syphilis,cracks on skin of hands,1.0,1
+after mercurial treatment of syphilis,extreme emaciation,1.0,1
+after mercurial treatment of syphilis,rheumatism of lower limbs,1.0,1
+after mercurial treatment of syphilis,rheumatic pains at night in feet,1.0,1
+after mercurial treatment of syphilis,severe wrenching pain on each side of patella,1.0,1
+after mercurial treatment of syphilis,worse after cold bathing,1.0,1
+after mercurial treatment of syphilis,bone pains after suppressed gonorrhea,1.0,1
+after mercurial treatment of syphilis,sweat on forehead during evening,1.0,1
+after mercurial treatment of syphilis,stitches in joints of arms,1.0,1
+after mercurial treatment of syphilis,gonorrhea suppressed by wet weather,1.0,1
+after mercurial treatment of syphilis,deep antisyphilitic,1.0,1
+after mercurial treatment of syphilis,from least motion,1.0,1
+after mercurial treatment of syphilis,knees hot,1.0,1
+after mercurial treatment of syphilis,severe rheumatism,1.0,1
+after mercurial treatment of syphilis,worse when touched,1.0,1
+after mercurial treatment of syphilis,severe rheumatic pains in limbs,1.0,1
+after mercurial treatment of syphilis,after suppressed gonorrhea,1.0,1
+after mercurial treatment of syphilis,gonorrhea suppressed by cold,1.0,1
+after mercurial treatment of syphilis,short tearing pains in one place then another,1.0,1
+after mercurial treatment of syphilis,bone pains severe after mercury,1.0,1
+after mercurial treatment of syphilis,knees tender to touch,1.0,1
+after mercurial treatment of syphilis,gouty pains in lower limbs,1.0,1
+after mercurial treatment of syphilis,gouty conditions with renal calculi,1.0,1
+after mercurial treatment of syphilis,antisycotic,1.0,1
+worse during damp weather,syphilitic rheumatism,1.0,1
+worse during damp weather,after mercurial treatment of syphilis,1.0,1
+worse during damp weather,stitches in back through into chest,1.0,1
+worse during damp weather,tips of fingers feel bruised,1.0,1
+worse during damp weather,rheumatism after mercury,1.0,1
+worse during damp weather,wrenching excruciating pains in knees,1.0,1
+worse during damp weather,tips of fingers feel sore,1.0,1
+worse during damp weather,rheumatic pains in joints after gonorrhea,1.0,1
+worse during damp weather,painful pressure on breast bone,1.0,1
+worse during damp weather,gonorrhea suppressed by mercury,1.0,1
+worse during damp weather,suppressed gonorrheal discharge,1.0,1
+worse during damp weather,arthritic tubercles in lungs,1.0,1
+worse during damp weather,cracks on skin of hands,1.0,1
+worse during damp weather,extreme emaciation,1.0,1
+worse during damp weather,rheumatism of lower limbs,1.0,1
+worse during damp weather,rheumatic pains at night in feet,1.0,1
+worse during damp weather,severe wrenching pain on each side of patella,1.0,1
+worse during damp weather,worse after cold bathing,1.0,1
+worse during damp weather,bone pains after suppressed gonorrhea,1.0,1
+worse during damp weather,sweat on forehead during evening,1.0,1
+worse during damp weather,stitches in joints of arms,1.0,1
+worse during damp weather,gonorrhea suppressed by wet weather,1.0,1
+worse during damp weather,deep antisyphilitic,1.0,1
+worse during damp weather,from least motion,1.0,1
+worse during damp weather,knees hot,1.0,1
+worse during damp weather,severe rheumatism,1.0,1
+worse during damp weather,worse when touched,1.0,1
+worse during damp weather,severe rheumatic pains in limbs,1.0,1
+worse during damp weather,after suppressed gonorrhea,1.0,1
+worse during damp weather,gonorrhea suppressed by cold,1.0,1
+worse during damp weather,short tearing pains in one place then another,1.0,1
+worse during damp weather,bone pains severe after mercury,1.0,1
+worse during damp weather,knees tender to touch,1.0,1
+worse during damp weather,gouty pains in lower limbs,1.0,1
+worse during damp weather,gouty conditions with renal calculi,1.0,1
+worse during damp weather,antisycotic,1.0,1
+bone pains after suppressed gonorrhea,syphilitic rheumatism,1.0,1
+bone pains after suppressed gonorrhea,after mercurial treatment of syphilis,1.0,1
+bone pains after suppressed gonorrhea,stitches in back through into chest,1.0,1
+bone pains after suppressed gonorrhea,tips of fingers feel bruised,1.0,1
+bone pains after suppressed gonorrhea,rheumatism after mercury,1.0,1
+bone pains after suppressed gonorrhea,wrenching excruciating pains in knees,1.0,1
+bone pains after suppressed gonorrhea,tips of fingers feel sore,1.0,1
+bone pains after suppressed gonorrhea,rheumatic pains in joints after gonorrhea,1.0,1
+bone pains after suppressed gonorrhea,painful pressure on breast bone,1.0,1
+bone pains after suppressed gonorrhea,gonorrhea suppressed by mercury,1.0,1
+bone pains after suppressed gonorrhea,worse during damp weather,1.0,1
+bone pains after suppressed gonorrhea,suppressed gonorrheal discharge,1.0,1
+bone pains after suppressed gonorrhea,arthritic tubercles in lungs,1.0,1
+bone pains after suppressed gonorrhea,cracks on skin of hands,1.0,1
+bone pains after suppressed gonorrhea,extreme emaciation,1.0,1
+bone pains after suppressed gonorrhea,rheumatism of lower limbs,1.0,1
+bone pains after suppressed gonorrhea,rheumatic pains at night in feet,1.0,1
+bone pains after suppressed gonorrhea,severe wrenching pain on each side of patella,1.0,1
+bone pains after suppressed gonorrhea,worse after cold bathing,1.0,1
+bone pains after suppressed gonorrhea,sweat on forehead during evening,1.0,1
+bone pains after suppressed gonorrhea,stitches in joints of arms,1.0,1
+bone pains after suppressed gonorrhea,gonorrhea suppressed by wet weather,1.0,1
+bone pains after suppressed gonorrhea,deep antisyphilitic,1.0,1
+bone pains after suppressed gonorrhea,from least motion,1.0,1
+bone pains after suppressed gonorrhea,knees hot,1.0,1
+bone pains after suppressed gonorrhea,severe rheumatism,1.0,1
+bone pains after suppressed gonorrhea,worse when touched,1.0,1
+bone pains after suppressed gonorrhea,severe rheumatic pains in limbs,1.0,1
+bone pains after suppressed gonorrhea,after suppressed gonorrhea,1.0,1
+bone pains after suppressed gonorrhea,gonorrhea suppressed by cold,1.0,1
+bone pains after suppressed gonorrhea,short tearing pains in one place then another,1.0,1
+bone pains after suppressed gonorrhea,bone pains severe after mercury,1.0,1
+bone pains after suppressed gonorrhea,knees tender to touch,1.0,1
+bone pains after suppressed gonorrhea,gouty pains in lower limbs,1.0,1
+bone pains after suppressed gonorrhea,gouty conditions with renal calculi,1.0,1
+bone pains after suppressed gonorrhea,antisycotic,1.0,1
+deep antisyphilitic,syphilitic rheumatism,1.0,1
+deep antisyphilitic,after mercurial treatment of syphilis,1.0,1
+deep antisyphilitic,stitches in back through into chest,1.0,1
+deep antisyphilitic,tips of fingers feel bruised,1.0,1
+deep antisyphilitic,rheumatism after mercury,1.0,1
+deep antisyphilitic,wrenching excruciating pains in knees,1.0,1
+deep antisyphilitic,tips of fingers feel sore,1.0,1
+deep antisyphilitic,rheumatic pains in joints after gonorrhea,1.0,1
+deep antisyphilitic,painful pressure on breast bone,1.0,1
+deep antisyphilitic,gonorrhea suppressed by mercury,1.0,1
+deep antisyphilitic,worse during damp weather,1.0,1
+deep antisyphilitic,suppressed gonorrheal discharge,1.0,1
+deep antisyphilitic,arthritic tubercles in lungs,1.0,1
+deep antisyphilitic,cracks on skin of hands,1.0,1
+deep antisyphilitic,extreme emaciation,1.0,1
+deep antisyphilitic,rheumatism of lower limbs,1.0,1
+deep antisyphilitic,rheumatic pains at night in feet,1.0,1
+deep antisyphilitic,severe wrenching pain on each side of patella,1.0,1
+deep antisyphilitic,worse after cold bathing,1.0,1
+deep antisyphilitic,bone pains after suppressed gonorrhea,1.0,1
+deep antisyphilitic,sweat on forehead during evening,1.0,1
+deep antisyphilitic,stitches in joints of arms,1.0,1
+deep antisyphilitic,gonorrhea suppressed by wet weather,1.0,1
+deep antisyphilitic,from least motion,1.0,1
+deep antisyphilitic,knees hot,1.0,1
+deep antisyphilitic,severe rheumatism,1.0,1
+deep antisyphilitic,worse when touched,1.0,1
+deep antisyphilitic,severe rheumatic pains in limbs,1.0,1
+deep antisyphilitic,after suppressed gonorrhea,1.0,1
+deep antisyphilitic,gonorrhea suppressed by cold,1.0,1
+deep antisyphilitic,short tearing pains in one place then another,1.0,1
+deep antisyphilitic,bone pains severe after mercury,1.0,1
+deep antisyphilitic,knees tender to touch,1.0,1
+deep antisyphilitic,gouty pains in lower limbs,1.0,1
+deep antisyphilitic,gouty conditions with renal calculi,1.0,1
+deep antisyphilitic,antisycotic,1.0,1
+from least motion,syphilitic rheumatism,1.0,1
+from least motion,after mercurial treatment of syphilis,1.0,1
+from least motion,stitches in back through into chest,1.0,1
+from least motion,tips of fingers feel bruised,1.0,1
+from least motion,rheumatism after mercury,1.0,1
+from least motion,wrenching excruciating pains in knees,1.0,1
+from least motion,tips of fingers feel sore,1.0,1
+from least motion,rheumatic pains in joints after gonorrhea,1.0,1
+from least motion,painful pressure on breast bone,1.0,1
+from least motion,gonorrhea suppressed by mercury,1.0,1
+from least motion,worse during damp weather,1.0,1
+from least motion,suppressed gonorrheal discharge,1.0,1
+from least motion,arthritic tubercles in lungs,1.0,1
+from least motion,cracks on skin of hands,1.0,1
+from least motion,extreme emaciation,1.0,1
+from least motion,rheumatism of lower limbs,1.0,1
+from least motion,rheumatic pains at night in feet,1.0,1
+from least motion,severe wrenching pain on each side of patella,1.0,1
+from least motion,worse after cold bathing,1.0,1
+from least motion,bone pains after suppressed gonorrhea,1.0,1
+from least motion,sweat on forehead during evening,1.0,1
+from least motion,stitches in joints of arms,1.0,1
+from least motion,gonorrhea suppressed by wet weather,1.0,1
+from least motion,deep antisyphilitic,1.0,1
+from least motion,knees hot,1.0,1
+from least motion,severe rheumatism,1.0,1
+from least motion,worse when touched,1.0,1
+from least motion,severe rheumatic pains in limbs,1.0,1
+from least motion,after suppressed gonorrhea,1.0,1
+from least motion,gonorrhea suppressed by cold,1.0,1
+from least motion,short tearing pains in one place then another,1.0,1
+from least motion,bone pains severe after mercury,1.0,1
+from least motion,knees tender to touch,1.0,1
+from least motion,gouty pains in lower limbs,1.0,1
+from least motion,gouty conditions with renal calculi,1.0,1
+from least motion,antisycotic,1.0,1
+tips of fingers feel bruised,syphilitic rheumatism,1.0,1
+tips of fingers feel bruised,after mercurial treatment of syphilis,1.0,1
+tips of fingers feel bruised,stitches in back through into chest,1.0,1
+tips of fingers feel bruised,rheumatism after mercury,1.0,1
+tips of fingers feel bruised,wrenching excruciating pains in knees,1.0,1
+tips of fingers feel bruised,tips of fingers feel sore,1.0,1
+tips of fingers feel bruised,rheumatic pains in joints after gonorrhea,1.0,1
+tips of fingers feel bruised,painful pressure on breast bone,1.0,1
+tips of fingers feel bruised,gonorrhea suppressed by mercury,1.0,1
+tips of fingers feel bruised,worse during damp weather,1.0,1
+tips of fingers feel bruised,suppressed gonorrheal discharge,1.0,1
+tips of fingers feel bruised,arthritic tubercles in lungs,1.0,1
+tips of fingers feel bruised,cracks on skin of hands,1.0,1
+tips of fingers feel bruised,extreme emaciation,1.0,1
+tips of fingers feel bruised,rheumatism of lower limbs,1.0,1
+tips of fingers feel bruised,rheumatic pains at night in feet,1.0,1
+tips of fingers feel bruised,severe wrenching pain on each side of patella,1.0,1
+tips of fingers feel bruised,worse after cold bathing,1.0,1
+tips of fingers feel bruised,bone pains after suppressed gonorrhea,1.0,1
+tips of fingers feel bruised,sweat on forehead during evening,1.0,1
+tips of fingers feel bruised,stitches in joints of arms,1.0,1
+tips of fingers feel bruised,gonorrhea suppressed by wet weather,1.0,1
+tips of fingers feel bruised,deep antisyphilitic,1.0,1
+tips of fingers feel bruised,from least motion,1.0,1
+tips of fingers feel bruised,knees hot,1.0,1
+tips of fingers feel bruised,severe rheumatism,1.0,1
+tips of fingers feel bruised,worse when touched,1.0,1
+tips of fingers feel bruised,severe rheumatic pains in limbs,1.0,1
+tips of fingers feel bruised,after suppressed gonorrhea,1.0,1
+tips of fingers feel bruised,gonorrhea suppressed by cold,1.0,1
+tips of fingers feel bruised,short tearing pains in one place then another,1.0,1
+tips of fingers feel bruised,bone pains severe after mercury,1.0,1
+tips of fingers feel bruised,knees tender to touch,1.0,1
+tips of fingers feel bruised,gouty pains in lower limbs,1.0,1
+tips of fingers feel bruised,gouty conditions with renal calculi,1.0,1
+tips of fingers feel bruised,antisycotic,1.0,1
+gonorrhea suppressed by cold,syphilitic rheumatism,1.0,1
+gonorrhea suppressed by cold,after mercurial treatment of syphilis,1.0,1
+gonorrhea suppressed by cold,stitches in back through into chest,1.0,1
+gonorrhea suppressed by cold,tips of fingers feel bruised,1.0,1
+gonorrhea suppressed by cold,rheumatism after mercury,1.0,1
+gonorrhea suppressed by cold,wrenching excruciating pains in knees,1.0,1
+gonorrhea suppressed by cold,tips of fingers feel sore,1.0,1
+gonorrhea suppressed by cold,rheumatic pains in joints after gonorrhea,1.0,1
+gonorrhea suppressed by cold,painful pressure on breast bone,1.0,1
+gonorrhea suppressed by cold,gonorrhea suppressed by mercury,1.0,1
+gonorrhea suppressed by cold,worse during damp weather,1.0,1
+gonorrhea suppressed by cold,suppressed gonorrheal discharge,1.0,1
+gonorrhea suppressed by cold,arthritic tubercles in lungs,1.0,1
+gonorrhea suppressed by cold,cracks on skin of hands,1.0,1
+gonorrhea suppressed by cold,extreme emaciation,1.0,1
+gonorrhea suppressed by cold,rheumatism of lower limbs,1.0,1
+gonorrhea suppressed by cold,rheumatic pains at night in feet,1.0,1
+gonorrhea suppressed by cold,severe wrenching pain on each side of patella,1.0,1
+gonorrhea suppressed by cold,worse after cold bathing,1.0,1
+gonorrhea suppressed by cold,bone pains after suppressed gonorrhea,1.0,1
+gonorrhea suppressed by cold,sweat on forehead during evening,1.0,1
+gonorrhea suppressed by cold,stitches in joints of arms,1.0,1
+gonorrhea suppressed by cold,gonorrhea suppressed by wet weather,1.0,1
+gonorrhea suppressed by cold,deep antisyphilitic,1.0,1
+gonorrhea suppressed by cold,from least motion,1.0,1
+gonorrhea suppressed by cold,knees hot,1.0,1
+gonorrhea suppressed by cold,severe rheumatism,1.0,1
+gonorrhea suppressed by cold,worse when touched,1.0,1
+gonorrhea suppressed by cold,severe rheumatic pains in limbs,1.0,1
+gonorrhea suppressed by cold,after suppressed gonorrhea,1.0,1
+gonorrhea suppressed by cold,short tearing pains in one place then another,1.0,1
+gonorrhea suppressed by cold,bone pains severe after mercury,1.0,1
+gonorrhea suppressed by cold,knees tender to touch,1.0,1
+gonorrhea suppressed by cold,gouty pains in lower limbs,1.0,1
+gonorrhea suppressed by cold,gouty conditions with renal calculi,1.0,1
+gonorrhea suppressed by cold,antisycotic,1.0,1
+short tearing pains in one place then another,syphilitic rheumatism,1.0,1
+short tearing pains in one place then another,after mercurial treatment of syphilis,1.0,1
+short tearing pains in one place then another,stitches in back through into chest,1.0,1
+short tearing pains in one place then another,tips of fingers feel bruised,1.0,1
+short tearing pains in one place then another,rheumatism after mercury,1.0,1
+short tearing pains in one place then another,wrenching excruciating pains in knees,1.0,1
+short tearing pains in one place then another,tips of fingers feel sore,1.0,1
+short tearing pains in one place then another,rheumatic pains in joints after gonorrhea,1.0,1
+short tearing pains in one place then another,painful pressure on breast bone,1.0,1
+short tearing pains in one place then another,gonorrhea suppressed by mercury,1.0,1
+short tearing pains in one place then another,worse during damp weather,1.0,1
+short tearing pains in one place then another,suppressed gonorrheal discharge,1.0,1
+short tearing pains in one place then another,arthritic tubercles in lungs,1.0,1
+short tearing pains in one place then another,cracks on skin of hands,1.0,1
+short tearing pains in one place then another,extreme emaciation,1.0,1
+short tearing pains in one place then another,rheumatism of lower limbs,1.0,1
+short tearing pains in one place then another,rheumatic pains at night in feet,1.0,1
+short tearing pains in one place then another,severe wrenching pain on each side of patella,1.0,1
+short tearing pains in one place then another,worse after cold bathing,1.0,1
+short tearing pains in one place then another,bone pains after suppressed gonorrhea,1.0,1
+short tearing pains in one place then another,sweat on forehead during evening,1.0,1
+short tearing pains in one place then another,stitches in joints of arms,1.0,1
+short tearing pains in one place then another,gonorrhea suppressed by wet weather,1.0,1
+short tearing pains in one place then another,deep antisyphilitic,1.0,1
+short tearing pains in one place then another,from least motion,1.0,1
+short tearing pains in one place then another,knees hot,1.0,1
+short tearing pains in one place then another,severe rheumatism,1.0,1
+short tearing pains in one place then another,worse when touched,1.0,1
+short tearing pains in one place then another,severe rheumatic pains in limbs,1.0,1
+short tearing pains in one place then another,after suppressed gonorrhea,1.0,1
+short tearing pains in one place then another,gonorrhea suppressed by cold,1.0,1
+short tearing pains in one place then another,bone pains severe after mercury,1.0,1
+short tearing pains in one place then another,knees tender to touch,1.0,1
+short tearing pains in one place then another,gouty pains in lower limbs,1.0,1
+short tearing pains in one place then another,gouty conditions with renal calculi,1.0,1
+short tearing pains in one place then another,antisycotic,1.0,1

@@ -1,0 +1,586 @@
+### Cluster 89 — Symptoms (24)
+Symptom,Frequency
+uneasy aching about the heart,1
+peculiar oppression,1
+rheumatic drawing pains in all limbs,1
+sensation of choking,1
+shooting about precordial region,1
+grasps the throat with hand,1
+sensation of awful heat through body,1
+cutting in nape,1
+aching in nape,1
+aching in ankles lower part of thighs wrist and shoulder joints,1
+shooting pain from inner and upper angles of left scapula to front of chest,1
+drawing shooting in left elbow,1
+sensation of great weight on chest,1
+uneasy distress through mind and body,1
+drawing tearing in lower part of tendo achillis,1
+rheumatic pains in shoulder joints,2
+uneasy distress around heart,1
+drawing lacerating in various parts of right arm,1
+sensation of a hot iron in chest,1
+pain near heart extending to left scapula,1
+rheumatic pains in muscles of scapula,1
+shooting pains down the legs,1
+depressed feeling,1
+pains especially anteriorly in thighs,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+naja,24
+mercurius iodatus ruber,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+sensation of awful heat through body,uneasy aching about the heart,1.0,1
+sensation of awful heat through body,peculiar oppression,1.0,1
+sensation of awful heat through body,rheumatic drawing pains in all limbs,1.0,1
+sensation of awful heat through body,sensation of choking,1.0,1
+sensation of awful heat through body,shooting about precordial region,1.0,1
+sensation of awful heat through body,grasps the throat with hand,1.0,1
+sensation of awful heat through body,cutting in nape,1.0,1
+sensation of awful heat through body,aching in nape,1.0,1
+sensation of awful heat through body,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+sensation of awful heat through body,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+sensation of awful heat through body,drawing shooting in left elbow,1.0,1
+sensation of awful heat through body,sensation of great weight on chest,1.0,1
+sensation of awful heat through body,uneasy distress through mind and body,1.0,1
+sensation of awful heat through body,drawing tearing in lower part of tendo achillis,1.0,1
+sensation of awful heat through body,rheumatic pains in shoulder joints,1.0,1
+sensation of awful heat through body,uneasy distress around heart,1.0,1
+sensation of awful heat through body,drawing lacerating in various parts of right arm,1.0,1
+sensation of awful heat through body,sensation of a hot iron in chest,1.0,1
+sensation of awful heat through body,pain near heart extending to left scapula,1.0,1
+sensation of awful heat through body,rheumatic pains in muscles of scapula,1.0,1
+sensation of awful heat through body,shooting pains down the legs,1.0,1
+sensation of awful heat through body,depressed feeling,1.0,1
+sensation of awful heat through body,pains especially anteriorly in thighs,1.0,1
+drawing lacerating in various parts of right arm,uneasy aching about the heart,1.0,1
+drawing lacerating in various parts of right arm,peculiar oppression,1.0,1
+drawing lacerating in various parts of right arm,rheumatic drawing pains in all limbs,1.0,1
+drawing lacerating in various parts of right arm,sensation of choking,1.0,1
+drawing lacerating in various parts of right arm,shooting about precordial region,1.0,1
+drawing lacerating in various parts of right arm,grasps the throat with hand,1.0,1
+drawing lacerating in various parts of right arm,sensation of awful heat through body,1.0,1
+drawing lacerating in various parts of right arm,cutting in nape,1.0,1
+drawing lacerating in various parts of right arm,aching in nape,1.0,1
+drawing lacerating in various parts of right arm,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+drawing lacerating in various parts of right arm,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+drawing lacerating in various parts of right arm,drawing shooting in left elbow,1.0,1
+drawing lacerating in various parts of right arm,sensation of great weight on chest,1.0,1
+drawing lacerating in various parts of right arm,uneasy distress through mind and body,1.0,1
+drawing lacerating in various parts of right arm,drawing tearing in lower part of tendo achillis,1.0,1
+drawing lacerating in various parts of right arm,rheumatic pains in shoulder joints,1.0,1
+drawing lacerating in various parts of right arm,uneasy distress around heart,1.0,1
+drawing lacerating in various parts of right arm,sensation of a hot iron in chest,1.0,1
+drawing lacerating in various parts of right arm,pain near heart extending to left scapula,1.0,1
+drawing lacerating in various parts of right arm,rheumatic pains in muscles of scapula,1.0,1
+drawing lacerating in various parts of right arm,shooting pains down the legs,1.0,1
+drawing lacerating in various parts of right arm,depressed feeling,1.0,1
+drawing lacerating in various parts of right arm,pains especially anteriorly in thighs,1.0,1
+peculiar oppression,uneasy aching about the heart,1.0,1
+peculiar oppression,rheumatic drawing pains in all limbs,1.0,1
+peculiar oppression,sensation of choking,1.0,1
+peculiar oppression,shooting about precordial region,1.0,1
+peculiar oppression,grasps the throat with hand,1.0,1
+peculiar oppression,sensation of awful heat through body,1.0,1
+peculiar oppression,cutting in nape,1.0,1
+peculiar oppression,aching in nape,1.0,1
+peculiar oppression,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+peculiar oppression,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+peculiar oppression,drawing shooting in left elbow,1.0,1
+peculiar oppression,sensation of great weight on chest,1.0,1
+peculiar oppression,uneasy distress through mind and body,1.0,1
+peculiar oppression,drawing tearing in lower part of tendo achillis,1.0,1
+peculiar oppression,rheumatic pains in shoulder joints,1.0,1
+peculiar oppression,uneasy distress around heart,1.0,1
+peculiar oppression,drawing lacerating in various parts of right arm,1.0,1
+peculiar oppression,sensation of a hot iron in chest,1.0,1
+peculiar oppression,pain near heart extending to left scapula,1.0,1
+peculiar oppression,rheumatic pains in muscles of scapula,1.0,1
+peculiar oppression,shooting pains down the legs,1.0,1
+peculiar oppression,depressed feeling,1.0,1
+peculiar oppression,pains especially anteriorly in thighs,1.0,1
+rheumatic pains in muscles of scapula,uneasy aching about the heart,1.0,1
+rheumatic pains in muscles of scapula,peculiar oppression,1.0,1
+rheumatic pains in muscles of scapula,rheumatic drawing pains in all limbs,1.0,1
+rheumatic pains in muscles of scapula,sensation of choking,1.0,1
+rheumatic pains in muscles of scapula,shooting about precordial region,1.0,1
+rheumatic pains in muscles of scapula,grasps the throat with hand,1.0,1
+rheumatic pains in muscles of scapula,sensation of awful heat through body,1.0,1
+rheumatic pains in muscles of scapula,cutting in nape,1.0,1
+rheumatic pains in muscles of scapula,aching in nape,1.0,1
+rheumatic pains in muscles of scapula,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+rheumatic pains in muscles of scapula,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+rheumatic pains in muscles of scapula,drawing shooting in left elbow,1.0,1
+rheumatic pains in muscles of scapula,sensation of great weight on chest,1.0,1
+rheumatic pains in muscles of scapula,uneasy distress through mind and body,1.0,1
+rheumatic pains in muscles of scapula,drawing tearing in lower part of tendo achillis,1.0,1
+rheumatic pains in muscles of scapula,rheumatic pains in shoulder joints,1.0,1
+rheumatic pains in muscles of scapula,uneasy distress around heart,1.0,1
+rheumatic pains in muscles of scapula,drawing lacerating in various parts of right arm,1.0,1
+rheumatic pains in muscles of scapula,sensation of a hot iron in chest,1.0,1
+rheumatic pains in muscles of scapula,pain near heart extending to left scapula,1.0,1
+rheumatic pains in muscles of scapula,shooting pains down the legs,1.0,1
+rheumatic pains in muscles of scapula,depressed feeling,1.0,1
+rheumatic pains in muscles of scapula,pains especially anteriorly in thighs,1.0,1
+pain near heart extending to left scapula,uneasy aching about the heart,1.0,1
+pain near heart extending to left scapula,peculiar oppression,1.0,1
+pain near heart extending to left scapula,rheumatic drawing pains in all limbs,1.0,1
+pain near heart extending to left scapula,sensation of choking,1.0,1
+pain near heart extending to left scapula,shooting about precordial region,1.0,1
+pain near heart extending to left scapula,grasps the throat with hand,1.0,1
+pain near heart extending to left scapula,sensation of awful heat through body,1.0,1
+pain near heart extending to left scapula,cutting in nape,1.0,1
+pain near heart extending to left scapula,aching in nape,1.0,1
+pain near heart extending to left scapula,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+pain near heart extending to left scapula,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+pain near heart extending to left scapula,drawing shooting in left elbow,1.0,1
+pain near heart extending to left scapula,sensation of great weight on chest,1.0,1
+pain near heart extending to left scapula,uneasy distress through mind and body,1.0,1
+pain near heart extending to left scapula,drawing tearing in lower part of tendo achillis,1.0,1
+pain near heart extending to left scapula,rheumatic pains in shoulder joints,1.0,1
+pain near heart extending to left scapula,uneasy distress around heart,1.0,1
+pain near heart extending to left scapula,drawing lacerating in various parts of right arm,1.0,1
+pain near heart extending to left scapula,sensation of a hot iron in chest,1.0,1
+pain near heart extending to left scapula,rheumatic pains in muscles of scapula,1.0,1
+pain near heart extending to left scapula,shooting pains down the legs,1.0,1
+pain near heart extending to left scapula,depressed feeling,1.0,1
+pain near heart extending to left scapula,pains especially anteriorly in thighs,1.0,1
+shooting about precordial region,uneasy aching about the heart,1.0,1
+shooting about precordial region,peculiar oppression,1.0,1
+shooting about precordial region,rheumatic drawing pains in all limbs,1.0,1
+shooting about precordial region,sensation of choking,1.0,1
+shooting about precordial region,grasps the throat with hand,1.0,1
+shooting about precordial region,sensation of awful heat through body,1.0,1
+shooting about precordial region,cutting in nape,1.0,1
+shooting about precordial region,aching in nape,1.0,1
+shooting about precordial region,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+shooting about precordial region,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+shooting about precordial region,drawing shooting in left elbow,1.0,1
+shooting about precordial region,sensation of great weight on chest,1.0,1
+shooting about precordial region,uneasy distress through mind and body,1.0,1
+shooting about precordial region,drawing tearing in lower part of tendo achillis,1.0,1
+shooting about precordial region,rheumatic pains in shoulder joints,1.0,1
+shooting about precordial region,uneasy distress around heart,1.0,1
+shooting about precordial region,drawing lacerating in various parts of right arm,1.0,1
+shooting about precordial region,sensation of a hot iron in chest,1.0,1
+shooting about precordial region,pain near heart extending to left scapula,1.0,1
+shooting about precordial region,rheumatic pains in muscles of scapula,1.0,1
+shooting about precordial region,shooting pains down the legs,1.0,1
+shooting about precordial region,depressed feeling,1.0,1
+shooting about precordial region,pains especially anteriorly in thighs,1.0,1
+aching in nape,uneasy aching about the heart,1.0,1
+aching in nape,peculiar oppression,1.0,1
+aching in nape,rheumatic drawing pains in all limbs,1.0,1
+aching in nape,sensation of choking,1.0,1
+aching in nape,shooting about precordial region,1.0,1
+aching in nape,grasps the throat with hand,1.0,1
+aching in nape,sensation of awful heat through body,1.0,1
+aching in nape,cutting in nape,1.0,1
+aching in nape,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+aching in nape,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+aching in nape,drawing shooting in left elbow,1.0,1
+aching in nape,sensation of great weight on chest,1.0,1
+aching in nape,uneasy distress through mind and body,1.0,1
+aching in nape,drawing tearing in lower part of tendo achillis,1.0,1
+aching in nape,rheumatic pains in shoulder joints,1.0,1
+aching in nape,uneasy distress around heart,1.0,1
+aching in nape,drawing lacerating in various parts of right arm,1.0,1
+aching in nape,sensation of a hot iron in chest,1.0,1
+aching in nape,pain near heart extending to left scapula,1.0,1
+aching in nape,rheumatic pains in muscles of scapula,1.0,1
+aching in nape,shooting pains down the legs,1.0,1
+aching in nape,depressed feeling,1.0,1
+aching in nape,pains especially anteriorly in thighs,1.0,1
+uneasy distress through mind and body,uneasy aching about the heart,1.0,1
+uneasy distress through mind and body,peculiar oppression,1.0,1
+uneasy distress through mind and body,rheumatic drawing pains in all limbs,1.0,1
+uneasy distress through mind and body,sensation of choking,1.0,1
+uneasy distress through mind and body,shooting about precordial region,1.0,1
+uneasy distress through mind and body,grasps the throat with hand,1.0,1
+uneasy distress through mind and body,sensation of awful heat through body,1.0,1
+uneasy distress through mind and body,cutting in nape,1.0,1
+uneasy distress through mind and body,aching in nape,1.0,1
+uneasy distress through mind and body,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+uneasy distress through mind and body,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+uneasy distress through mind and body,drawing shooting in left elbow,1.0,1
+uneasy distress through mind and body,sensation of great weight on chest,1.0,1
+uneasy distress through mind and body,drawing tearing in lower part of tendo achillis,1.0,1
+uneasy distress through mind and body,rheumatic pains in shoulder joints,1.0,1
+uneasy distress through mind and body,uneasy distress around heart,1.0,1
+uneasy distress through mind and body,drawing lacerating in various parts of right arm,1.0,1
+uneasy distress through mind and body,sensation of a hot iron in chest,1.0,1
+uneasy distress through mind and body,pain near heart extending to left scapula,1.0,1
+uneasy distress through mind and body,rheumatic pains in muscles of scapula,1.0,1
+uneasy distress through mind and body,shooting pains down the legs,1.0,1
+uneasy distress through mind and body,depressed feeling,1.0,1
+uneasy distress through mind and body,pains especially anteriorly in thighs,1.0,1
+sensation of great weight on chest,uneasy aching about the heart,1.0,1
+sensation of great weight on chest,peculiar oppression,1.0,1
+sensation of great weight on chest,rheumatic drawing pains in all limbs,1.0,1
+sensation of great weight on chest,sensation of choking,1.0,1
+sensation of great weight on chest,shooting about precordial region,1.0,1
+sensation of great weight on chest,grasps the throat with hand,1.0,1
+sensation of great weight on chest,sensation of awful heat through body,1.0,1
+sensation of great weight on chest,cutting in nape,1.0,1
+sensation of great weight on chest,aching in nape,1.0,1
+sensation of great weight on chest,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+sensation of great weight on chest,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+sensation of great weight on chest,drawing shooting in left elbow,1.0,1
+sensation of great weight on chest,uneasy distress through mind and body,1.0,1
+sensation of great weight on chest,drawing tearing in lower part of tendo achillis,1.0,1
+sensation of great weight on chest,rheumatic pains in shoulder joints,1.0,1
+sensation of great weight on chest,uneasy distress around heart,1.0,1
+sensation of great weight on chest,drawing lacerating in various parts of right arm,1.0,1
+sensation of great weight on chest,sensation of a hot iron in chest,1.0,1
+sensation of great weight on chest,pain near heart extending to left scapula,1.0,1
+sensation of great weight on chest,rheumatic pains in muscles of scapula,1.0,1
+sensation of great weight on chest,shooting pains down the legs,1.0,1
+sensation of great weight on chest,depressed feeling,1.0,1
+sensation of great weight on chest,pains especially anteriorly in thighs,1.0,1
+uneasy distress around heart,uneasy aching about the heart,1.0,1
+uneasy distress around heart,peculiar oppression,1.0,1
+uneasy distress around heart,rheumatic drawing pains in all limbs,1.0,1
+uneasy distress around heart,sensation of choking,1.0,1
+uneasy distress around heart,shooting about precordial region,1.0,1
+uneasy distress around heart,grasps the throat with hand,1.0,1
+uneasy distress around heart,sensation of awful heat through body,1.0,1
+uneasy distress around heart,cutting in nape,1.0,1
+uneasy distress around heart,aching in nape,1.0,1
+uneasy distress around heart,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+uneasy distress around heart,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+uneasy distress around heart,drawing shooting in left elbow,1.0,1
+uneasy distress around heart,sensation of great weight on chest,1.0,1
+uneasy distress around heart,uneasy distress through mind and body,1.0,1
+uneasy distress around heart,drawing tearing in lower part of tendo achillis,1.0,1
+uneasy distress around heart,rheumatic pains in shoulder joints,1.0,1
+uneasy distress around heart,drawing lacerating in various parts of right arm,1.0,1
+uneasy distress around heart,sensation of a hot iron in chest,1.0,1
+uneasy distress around heart,pain near heart extending to left scapula,1.0,1
+uneasy distress around heart,rheumatic pains in muscles of scapula,1.0,1
+uneasy distress around heart,shooting pains down the legs,1.0,1
+uneasy distress around heart,depressed feeling,1.0,1
+uneasy distress around heart,pains especially anteriorly in thighs,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,uneasy aching about the heart,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,peculiar oppression,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,rheumatic drawing pains in all limbs,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,sensation of choking,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,shooting about precordial region,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,grasps the throat with hand,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,sensation of awful heat through body,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,cutting in nape,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,aching in nape,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,drawing shooting in left elbow,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,sensation of great weight on chest,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,uneasy distress through mind and body,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,drawing tearing in lower part of tendo achillis,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,rheumatic pains in shoulder joints,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,uneasy distress around heart,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,drawing lacerating in various parts of right arm,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,sensation of a hot iron in chest,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,pain near heart extending to left scapula,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,rheumatic pains in muscles of scapula,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,shooting pains down the legs,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,depressed feeling,1.0,1
+aching in ankles lower part of thighs wrist and shoulder joints,pains especially anteriorly in thighs,1.0,1
+sensation of a hot iron in chest,uneasy aching about the heart,1.0,1
+sensation of a hot iron in chest,peculiar oppression,1.0,1
+sensation of a hot iron in chest,rheumatic drawing pains in all limbs,1.0,1
+sensation of a hot iron in chest,sensation of choking,1.0,1
+sensation of a hot iron in chest,shooting about precordial region,1.0,1
+sensation of a hot iron in chest,grasps the throat with hand,1.0,1
+sensation of a hot iron in chest,sensation of awful heat through body,1.0,1
+sensation of a hot iron in chest,cutting in nape,1.0,1
+sensation of a hot iron in chest,aching in nape,1.0,1
+sensation of a hot iron in chest,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+sensation of a hot iron in chest,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+sensation of a hot iron in chest,drawing shooting in left elbow,1.0,1
+sensation of a hot iron in chest,sensation of great weight on chest,1.0,1
+sensation of a hot iron in chest,uneasy distress through mind and body,1.0,1
+sensation of a hot iron in chest,drawing tearing in lower part of tendo achillis,1.0,1
+sensation of a hot iron in chest,rheumatic pains in shoulder joints,1.0,1
+sensation of a hot iron in chest,uneasy distress around heart,1.0,1
+sensation of a hot iron in chest,drawing lacerating in various parts of right arm,1.0,1
+sensation of a hot iron in chest,pain near heart extending to left scapula,1.0,1
+sensation of a hot iron in chest,rheumatic pains in muscles of scapula,1.0,1
+sensation of a hot iron in chest,shooting pains down the legs,1.0,1
+sensation of a hot iron in chest,depressed feeling,1.0,1
+sensation of a hot iron in chest,pains especially anteriorly in thighs,1.0,1
+sensation of choking,uneasy aching about the heart,1.0,1
+sensation of choking,peculiar oppression,1.0,1
+sensation of choking,rheumatic drawing pains in all limbs,1.0,1
+sensation of choking,shooting about precordial region,1.0,1
+sensation of choking,grasps the throat with hand,1.0,1
+sensation of choking,sensation of awful heat through body,1.0,1
+sensation of choking,cutting in nape,1.0,1
+sensation of choking,aching in nape,1.0,1
+sensation of choking,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+sensation of choking,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+sensation of choking,drawing shooting in left elbow,1.0,1
+sensation of choking,sensation of great weight on chest,1.0,1
+sensation of choking,uneasy distress through mind and body,1.0,1
+sensation of choking,drawing tearing in lower part of tendo achillis,1.0,1
+sensation of choking,rheumatic pains in shoulder joints,1.0,1
+sensation of choking,uneasy distress around heart,1.0,1
+sensation of choking,drawing lacerating in various parts of right arm,1.0,1
+sensation of choking,sensation of a hot iron in chest,1.0,1
+sensation of choking,pain near heart extending to left scapula,1.0,1
+sensation of choking,rheumatic pains in muscles of scapula,1.0,1
+sensation of choking,shooting pains down the legs,1.0,1
+sensation of choking,depressed feeling,1.0,1
+sensation of choking,pains especially anteriorly in thighs,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,uneasy aching about the heart,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,peculiar oppression,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,rheumatic drawing pains in all limbs,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,sensation of choking,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,shooting about precordial region,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,grasps the throat with hand,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,sensation of awful heat through body,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,cutting in nape,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,aching in nape,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,drawing shooting in left elbow,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,sensation of great weight on chest,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,uneasy distress through mind and body,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,drawing tearing in lower part of tendo achillis,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,rheumatic pains in shoulder joints,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,uneasy distress around heart,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,drawing lacerating in various parts of right arm,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,sensation of a hot iron in chest,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,pain near heart extending to left scapula,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,rheumatic pains in muscles of scapula,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,shooting pains down the legs,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,depressed feeling,1.0,1
+shooting pain from inner and upper angles of left scapula to front of chest,pains especially anteriorly in thighs,1.0,1
+drawing tearing in lower part of tendo achillis,uneasy aching about the heart,1.0,1
+drawing tearing in lower part of tendo achillis,peculiar oppression,1.0,1
+drawing tearing in lower part of tendo achillis,rheumatic drawing pains in all limbs,1.0,1
+drawing tearing in lower part of tendo achillis,sensation of choking,1.0,1
+drawing tearing in lower part of tendo achillis,shooting about precordial region,1.0,1
+drawing tearing in lower part of tendo achillis,grasps the throat with hand,1.0,1
+drawing tearing in lower part of tendo achillis,sensation of awful heat through body,1.0,1
+drawing tearing in lower part of tendo achillis,cutting in nape,1.0,1
+drawing tearing in lower part of tendo achillis,aching in nape,1.0,1
+drawing tearing in lower part of tendo achillis,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+drawing tearing in lower part of tendo achillis,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+drawing tearing in lower part of tendo achillis,drawing shooting in left elbow,1.0,1
+drawing tearing in lower part of tendo achillis,sensation of great weight on chest,1.0,1
+drawing tearing in lower part of tendo achillis,uneasy distress through mind and body,1.0,1
+drawing tearing in lower part of tendo achillis,rheumatic pains in shoulder joints,1.0,1
+drawing tearing in lower part of tendo achillis,uneasy distress around heart,1.0,1
+drawing tearing in lower part of tendo achillis,drawing lacerating in various parts of right arm,1.0,1
+drawing tearing in lower part of tendo achillis,sensation of a hot iron in chest,1.0,1
+drawing tearing in lower part of tendo achillis,pain near heart extending to left scapula,1.0,1
+drawing tearing in lower part of tendo achillis,rheumatic pains in muscles of scapula,1.0,1
+drawing tearing in lower part of tendo achillis,shooting pains down the legs,1.0,1
+drawing tearing in lower part of tendo achillis,depressed feeling,1.0,1
+drawing tearing in lower part of tendo achillis,pains especially anteriorly in thighs,1.0,1
+rheumatic pains in shoulder joints,uneasy aching about the heart,0.5,1
+rheumatic pains in shoulder joints,peculiar oppression,0.5,1
+rheumatic pains in shoulder joints,rheumatic drawing pains in all limbs,0.5,1
+rheumatic pains in shoulder joints,sensation of choking,0.5,1
+rheumatic pains in shoulder joints,shooting about precordial region,0.5,1
+rheumatic pains in shoulder joints,grasps the throat with hand,0.5,1
+rheumatic pains in shoulder joints,sensation of awful heat through body,0.5,1
+rheumatic pains in shoulder joints,cutting in nape,0.5,1
+rheumatic pains in shoulder joints,aching in nape,0.5,1
+rheumatic pains in shoulder joints,aching in ankles lower part of thighs wrist and shoulder joints,0.5,1
+rheumatic pains in shoulder joints,shooting pain from inner and upper angles of left scapula to front of chest,0.5,1
+rheumatic pains in shoulder joints,drawing shooting in left elbow,0.5,1
+rheumatic pains in shoulder joints,sensation of great weight on chest,0.5,1
+rheumatic pains in shoulder joints,uneasy distress through mind and body,0.5,1
+rheumatic pains in shoulder joints,drawing tearing in lower part of tendo achillis,0.5,1
+rheumatic pains in shoulder joints,uneasy distress around heart,0.5,1
+rheumatic pains in shoulder joints,drawing lacerating in various parts of right arm,0.5,1
+rheumatic pains in shoulder joints,sensation of a hot iron in chest,0.5,1
+rheumatic pains in shoulder joints,pain near heart extending to left scapula,0.5,1
+rheumatic pains in shoulder joints,rheumatic pains in muscles of scapula,0.5,1
+rheumatic pains in shoulder joints,shooting pains down the legs,0.5,1
+rheumatic pains in shoulder joints,depressed feeling,0.5,1
+rheumatic pains in shoulder joints,pains especially anteriorly in thighs,0.5,1
+rheumatic drawing pains in all limbs,uneasy aching about the heart,1.0,1
+rheumatic drawing pains in all limbs,peculiar oppression,1.0,1
+rheumatic drawing pains in all limbs,sensation of choking,1.0,1
+rheumatic drawing pains in all limbs,shooting about precordial region,1.0,1
+rheumatic drawing pains in all limbs,grasps the throat with hand,1.0,1
+rheumatic drawing pains in all limbs,sensation of awful heat through body,1.0,1
+rheumatic drawing pains in all limbs,cutting in nape,1.0,1
+rheumatic drawing pains in all limbs,aching in nape,1.0,1
+rheumatic drawing pains in all limbs,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+rheumatic drawing pains in all limbs,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+rheumatic drawing pains in all limbs,drawing shooting in left elbow,1.0,1
+rheumatic drawing pains in all limbs,sensation of great weight on chest,1.0,1
+rheumatic drawing pains in all limbs,uneasy distress through mind and body,1.0,1
+rheumatic drawing pains in all limbs,drawing tearing in lower part of tendo achillis,1.0,1
+rheumatic drawing pains in all limbs,rheumatic pains in shoulder joints,1.0,1
+rheumatic drawing pains in all limbs,uneasy distress around heart,1.0,1
+rheumatic drawing pains in all limbs,drawing lacerating in various parts of right arm,1.0,1
+rheumatic drawing pains in all limbs,sensation of a hot iron in chest,1.0,1
+rheumatic drawing pains in all limbs,pain near heart extending to left scapula,1.0,1
+rheumatic drawing pains in all limbs,rheumatic pains in muscles of scapula,1.0,1
+rheumatic drawing pains in all limbs,shooting pains down the legs,1.0,1
+rheumatic drawing pains in all limbs,depressed feeling,1.0,1
+rheumatic drawing pains in all limbs,pains especially anteriorly in thighs,1.0,1
+drawing shooting in left elbow,uneasy aching about the heart,1.0,1
+drawing shooting in left elbow,peculiar oppression,1.0,1
+drawing shooting in left elbow,rheumatic drawing pains in all limbs,1.0,1
+drawing shooting in left elbow,sensation of choking,1.0,1
+drawing shooting in left elbow,shooting about precordial region,1.0,1
+drawing shooting in left elbow,grasps the throat with hand,1.0,1
+drawing shooting in left elbow,sensation of awful heat through body,1.0,1
+drawing shooting in left elbow,cutting in nape,1.0,1
+drawing shooting in left elbow,aching in nape,1.0,1
+drawing shooting in left elbow,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+drawing shooting in left elbow,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+drawing shooting in left elbow,sensation of great weight on chest,1.0,1
+drawing shooting in left elbow,uneasy distress through mind and body,1.0,1
+drawing shooting in left elbow,drawing tearing in lower part of tendo achillis,1.0,1
+drawing shooting in left elbow,rheumatic pains in shoulder joints,1.0,1
+drawing shooting in left elbow,uneasy distress around heart,1.0,1
+drawing shooting in left elbow,drawing lacerating in various parts of right arm,1.0,1
+drawing shooting in left elbow,sensation of a hot iron in chest,1.0,1
+drawing shooting in left elbow,pain near heart extending to left scapula,1.0,1
+drawing shooting in left elbow,rheumatic pains in muscles of scapula,1.0,1
+drawing shooting in left elbow,shooting pains down the legs,1.0,1
+drawing shooting in left elbow,depressed feeling,1.0,1
+drawing shooting in left elbow,pains especially anteriorly in thighs,1.0,1
+shooting pains down the legs,uneasy aching about the heart,1.0,1
+shooting pains down the legs,peculiar oppression,1.0,1
+shooting pains down the legs,rheumatic drawing pains in all limbs,1.0,1
+shooting pains down the legs,sensation of choking,1.0,1
+shooting pains down the legs,shooting about precordial region,1.0,1
+shooting pains down the legs,grasps the throat with hand,1.0,1
+shooting pains down the legs,sensation of awful heat through body,1.0,1
+shooting pains down the legs,cutting in nape,1.0,1
+shooting pains down the legs,aching in nape,1.0,1
+shooting pains down the legs,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+shooting pains down the legs,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+shooting pains down the legs,drawing shooting in left elbow,1.0,1
+shooting pains down the legs,sensation of great weight on chest,1.0,1
+shooting pains down the legs,uneasy distress through mind and body,1.0,1
+shooting pains down the legs,drawing tearing in lower part of tendo achillis,1.0,1
+shooting pains down the legs,rheumatic pains in shoulder joints,1.0,1
+shooting pains down the legs,uneasy distress around heart,1.0,1
+shooting pains down the legs,drawing lacerating in various parts of right arm,1.0,1
+shooting pains down the legs,sensation of a hot iron in chest,1.0,1
+shooting pains down the legs,pain near heart extending to left scapula,1.0,1
+shooting pains down the legs,rheumatic pains in muscles of scapula,1.0,1
+shooting pains down the legs,depressed feeling,1.0,1
+shooting pains down the legs,pains especially anteriorly in thighs,1.0,1
+depressed feeling,uneasy aching about the heart,1.0,1
+depressed feeling,peculiar oppression,1.0,1
+depressed feeling,rheumatic drawing pains in all limbs,1.0,1
+depressed feeling,sensation of choking,1.0,1
+depressed feeling,shooting about precordial region,1.0,1
+depressed feeling,grasps the throat with hand,1.0,1
+depressed feeling,sensation of awful heat through body,1.0,1
+depressed feeling,cutting in nape,1.0,1
+depressed feeling,aching in nape,1.0,1
+depressed feeling,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+depressed feeling,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+depressed feeling,drawing shooting in left elbow,1.0,1
+depressed feeling,sensation of great weight on chest,1.0,1
+depressed feeling,uneasy distress through mind and body,1.0,1
+depressed feeling,drawing tearing in lower part of tendo achillis,1.0,1
+depressed feeling,rheumatic pains in shoulder joints,1.0,1
+depressed feeling,uneasy distress around heart,1.0,1
+depressed feeling,drawing lacerating in various parts of right arm,1.0,1
+depressed feeling,sensation of a hot iron in chest,1.0,1
+depressed feeling,pain near heart extending to left scapula,1.0,1
+depressed feeling,rheumatic pains in muscles of scapula,1.0,1
+depressed feeling,shooting pains down the legs,1.0,1
+depressed feeling,pains especially anteriorly in thighs,1.0,1
+grasps the throat with hand,uneasy aching about the heart,1.0,1
+grasps the throat with hand,peculiar oppression,1.0,1
+grasps the throat with hand,rheumatic drawing pains in all limbs,1.0,1
+grasps the throat with hand,sensation of choking,1.0,1
+grasps the throat with hand,shooting about precordial region,1.0,1
+grasps the throat with hand,sensation of awful heat through body,1.0,1
+grasps the throat with hand,cutting in nape,1.0,1
+grasps the throat with hand,aching in nape,1.0,1
+grasps the throat with hand,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+grasps the throat with hand,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+grasps the throat with hand,drawing shooting in left elbow,1.0,1
+grasps the throat with hand,sensation of great weight on chest,1.0,1
+grasps the throat with hand,uneasy distress through mind and body,1.0,1
+grasps the throat with hand,drawing tearing in lower part of tendo achillis,1.0,1
+grasps the throat with hand,rheumatic pains in shoulder joints,1.0,1
+grasps the throat with hand,uneasy distress around heart,1.0,1
+grasps the throat with hand,drawing lacerating in various parts of right arm,1.0,1
+grasps the throat with hand,sensation of a hot iron in chest,1.0,1
+grasps the throat with hand,pain near heart extending to left scapula,1.0,1
+grasps the throat with hand,rheumatic pains in muscles of scapula,1.0,1
+grasps the throat with hand,shooting pains down the legs,1.0,1
+grasps the throat with hand,depressed feeling,1.0,1
+grasps the throat with hand,pains especially anteriorly in thighs,1.0,1
+pains especially anteriorly in thighs,uneasy aching about the heart,1.0,1
+pains especially anteriorly in thighs,peculiar oppression,1.0,1
+pains especially anteriorly in thighs,rheumatic drawing pains in all limbs,1.0,1
+pains especially anteriorly in thighs,sensation of choking,1.0,1
+pains especially anteriorly in thighs,shooting about precordial region,1.0,1
+pains especially anteriorly in thighs,grasps the throat with hand,1.0,1
+pains especially anteriorly in thighs,sensation of awful heat through body,1.0,1
+pains especially anteriorly in thighs,cutting in nape,1.0,1
+pains especially anteriorly in thighs,aching in nape,1.0,1
+pains especially anteriorly in thighs,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+pains especially anteriorly in thighs,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+pains especially anteriorly in thighs,drawing shooting in left elbow,1.0,1
+pains especially anteriorly in thighs,sensation of great weight on chest,1.0,1
+pains especially anteriorly in thighs,uneasy distress through mind and body,1.0,1
+pains especially anteriorly in thighs,drawing tearing in lower part of tendo achillis,1.0,1
+pains especially anteriorly in thighs,rheumatic pains in shoulder joints,1.0,1
+pains especially anteriorly in thighs,uneasy distress around heart,1.0,1
+pains especially anteriorly in thighs,drawing lacerating in various parts of right arm,1.0,1
+pains especially anteriorly in thighs,sensation of a hot iron in chest,1.0,1
+pains especially anteriorly in thighs,pain near heart extending to left scapula,1.0,1
+pains especially anteriorly in thighs,rheumatic pains in muscles of scapula,1.0,1
+pains especially anteriorly in thighs,shooting pains down the legs,1.0,1
+pains especially anteriorly in thighs,depressed feeling,1.0,1
+uneasy aching about the heart,peculiar oppression,1.0,1
+uneasy aching about the heart,rheumatic drawing pains in all limbs,1.0,1
+uneasy aching about the heart,sensation of choking,1.0,1
+uneasy aching about the heart,shooting about precordial region,1.0,1
+uneasy aching about the heart,grasps the throat with hand,1.0,1
+uneasy aching about the heart,sensation of awful heat through body,1.0,1
+uneasy aching about the heart,cutting in nape,1.0,1
+uneasy aching about the heart,aching in nape,1.0,1
+uneasy aching about the heart,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+uneasy aching about the heart,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+uneasy aching about the heart,drawing shooting in left elbow,1.0,1
+uneasy aching about the heart,sensation of great weight on chest,1.0,1
+uneasy aching about the heart,uneasy distress through mind and body,1.0,1
+uneasy aching about the heart,drawing tearing in lower part of tendo achillis,1.0,1
+uneasy aching about the heart,rheumatic pains in shoulder joints,1.0,1
+uneasy aching about the heart,uneasy distress around heart,1.0,1
+uneasy aching about the heart,drawing lacerating in various parts of right arm,1.0,1
+uneasy aching about the heart,sensation of a hot iron in chest,1.0,1
+uneasy aching about the heart,pain near heart extending to left scapula,1.0,1
+uneasy aching about the heart,rheumatic pains in muscles of scapula,1.0,1
+uneasy aching about the heart,shooting pains down the legs,1.0,1
+uneasy aching about the heart,depressed feeling,1.0,1
+uneasy aching about the heart,pains especially anteriorly in thighs,1.0,1
+cutting in nape,uneasy aching about the heart,1.0,1
+cutting in nape,peculiar oppression,1.0,1
+cutting in nape,rheumatic drawing pains in all limbs,1.0,1
+cutting in nape,sensation of choking,1.0,1
+cutting in nape,shooting about precordial region,1.0,1
+cutting in nape,grasps the throat with hand,1.0,1
+cutting in nape,sensation of awful heat through body,1.0,1
+cutting in nape,aching in nape,1.0,1
+cutting in nape,aching in ankles lower part of thighs wrist and shoulder joints,1.0,1
+cutting in nape,shooting pain from inner and upper angles of left scapula to front of chest,1.0,1
+cutting in nape,drawing shooting in left elbow,1.0,1
+cutting in nape,sensation of great weight on chest,1.0,1
+cutting in nape,uneasy distress through mind and body,1.0,1
+cutting in nape,drawing tearing in lower part of tendo achillis,1.0,1
+cutting in nape,rheumatic pains in shoulder joints,1.0,1
+cutting in nape,uneasy distress around heart,1.0,1
+cutting in nape,drawing lacerating in various parts of right arm,1.0,1
+cutting in nape,sensation of a hot iron in chest,1.0,1
+cutting in nape,pain near heart extending to left scapula,1.0,1
+cutting in nape,rheumatic pains in muscles of scapula,1.0,1
+cutting in nape,shooting pains down the legs,1.0,1
+cutting in nape,depressed feeling,1.0,1
+cutting in nape,pains especially anteriorly in thighs,1.0,1

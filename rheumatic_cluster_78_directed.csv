@@ -1,0 +1,111 @@
+### Cluster 78 — Symptoms (10)
+Symptom,Frequency
+severe pain in bones of arms,1
+pain in spine,2
+severe pains in bones,1
+syphilitic affections,1
+neuralgia,1
+ulcerations,1
+severe pain in bones of legs,1
+better during day,2
+severe pain in back,1
+bone pains,3
+
+### Top Remedies
+Remedy,Symptoms_Covered
+syphilinum,10
+tellurium,1
+calcarea phosphorica,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+severe pain in bones of arms,pain in spine,1.0,1
+severe pain in bones of arms,severe pains in bones,1.0,1
+severe pain in bones of arms,syphilitic affections,1.0,1
+severe pain in bones of arms,neuralgia,1.0,1
+severe pain in bones of arms,ulcerations,1.0,1
+severe pain in bones of arms,severe pain in bones of legs,1.0,1
+severe pain in bones of arms,better during day,1.0,1
+severe pain in bones of arms,severe pain in back,1.0,1
+severe pain in bones of arms,bone pains,1.0,1
+neuralgia,severe pain in bones of arms,1.0,1
+neuralgia,pain in spine,1.0,1
+neuralgia,severe pains in bones,1.0,1
+neuralgia,syphilitic affections,1.0,1
+neuralgia,ulcerations,1.0,1
+neuralgia,severe pain in bones of legs,1.0,1
+neuralgia,better during day,1.0,1
+neuralgia,severe pain in back,1.0,1
+neuralgia,bone pains,1.0,1
+ulcerations,severe pain in bones of arms,1.0,1
+ulcerations,pain in spine,1.0,1
+ulcerations,severe pains in bones,1.0,1
+ulcerations,syphilitic affections,1.0,1
+ulcerations,neuralgia,1.0,1
+ulcerations,severe pain in bones of legs,1.0,1
+ulcerations,better during day,1.0,1
+ulcerations,severe pain in back,1.0,1
+ulcerations,bone pains,1.0,1
+bone pains,severe pain in bones of arms,0.5,1
+bone pains,pain in spine,0.5,1
+bone pains,severe pains in bones,0.5,1
+bone pains,syphilitic affections,0.5,1
+bone pains,neuralgia,0.5,1
+bone pains,ulcerations,0.5,1
+bone pains,severe pain in bones of legs,0.5,1
+bone pains,better during day,0.5,1
+bone pains,severe pain in back,0.5,1
+severe pain in bones of legs,severe pain in bones of arms,1.0,1
+severe pain in bones of legs,pain in spine,1.0,1
+severe pain in bones of legs,severe pains in bones,1.0,1
+severe pain in bones of legs,syphilitic affections,1.0,1
+severe pain in bones of legs,neuralgia,1.0,1
+severe pain in bones of legs,ulcerations,1.0,1
+severe pain in bones of legs,better during day,1.0,1
+severe pain in bones of legs,severe pain in back,1.0,1
+severe pain in bones of legs,bone pains,1.0,1
+syphilitic affections,severe pain in bones of arms,1.0,1
+syphilitic affections,pain in spine,1.0,1
+syphilitic affections,severe pains in bones,1.0,1
+syphilitic affections,neuralgia,1.0,1
+syphilitic affections,ulcerations,1.0,1
+syphilitic affections,severe pain in bones of legs,1.0,1
+syphilitic affections,better during day,1.0,1
+syphilitic affections,severe pain in back,1.0,1
+syphilitic affections,bone pains,1.0,1
+better during day,severe pain in bones of arms,1.0,1
+better during day,pain in spine,1.0,1
+better during day,severe pains in bones,1.0,1
+better during day,syphilitic affections,1.0,1
+better during day,neuralgia,1.0,1
+better during day,ulcerations,1.0,1
+better during day,severe pain in bones of legs,1.0,1
+better during day,severe pain in back,1.0,1
+better during day,bone pains,1.0,1
+pain in spine,severe pain in bones of arms,0.5,1
+pain in spine,severe pains in bones,0.5,1
+pain in spine,syphilitic affections,0.5,1
+pain in spine,neuralgia,0.5,1
+pain in spine,ulcerations,0.5,1
+pain in spine,severe pain in bones of legs,0.5,1
+pain in spine,better during day,0.5,1
+pain in spine,severe pain in back,0.5,1
+pain in spine,bone pains,0.5,1
+severe pains in bones,severe pain in bones of arms,1.0,1
+severe pains in bones,pain in spine,1.0,1
+severe pains in bones,syphilitic affections,1.0,1
+severe pains in bones,neuralgia,1.0,1
+severe pains in bones,ulcerations,1.0,1
+severe pains in bones,severe pain in bones of legs,1.0,1
+severe pains in bones,better during day,1.0,1
+severe pains in bones,severe pain in back,1.0,1
+severe pains in bones,bone pains,1.0,1
+severe pain in back,severe pain in bones of arms,1.0,1
+severe pain in back,pain in spine,1.0,1
+severe pain in back,severe pains in bones,1.0,1
+severe pain in back,syphilitic affections,1.0,1
+severe pain in back,neuralgia,1.0,1
+severe pain in back,ulcerations,1.0,1
+severe pain in back,severe pain in bones of legs,1.0,1
+severe pain in back,better during day,1.0,1
+severe pain in back,bone pains,1.0,1

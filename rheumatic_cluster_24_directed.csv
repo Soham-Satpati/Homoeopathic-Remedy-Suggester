@@ -1,0 +1,2821 @@
+### Cluster 24 — Symptoms (53)
+Symptom,Frequency
+gouty swellings without gouty dyscrasia,1
+occasional jerking toward hip joint,1
+redness of feet,1
+stitches from shoulder to elbow,1
+enlarged lymphatic glands,1
+cracking in right shoulder joint from motion,1
+neuralgia of teeth,1
+chronic rheumatic affections,1
+sprained pain in left metatarsal bones,1
+cracking of joints after inflammation,1
+stabbing piercing pain in metatarsal bones when walking,2
+inability to walk,1
+dislocated pain in right loin,1
+pains returning at regular intervals,1
+shoulder pain worse during damp cold weather,1
+shoulder pain worse after midnight,1
+inflammation of left sciatic nerve from cold exposure,1
+belching improves symptoms,1
+severe stitches from shoulder to elbow,1
+gout of hands,2
+severe pains in hips,1
+tearing in all limbs,1
+slight fever or absent fever,1
+jerking pains,1
+stitches from shoulder to wrist,1
+pain in loins,1
+bruised pain in soles,1
+dislocated pain in right knee,1
+difficult breathing,1
+movements impeded,1
+quick recovery from acute articular manifestations,1
+frequent exacerbations,1
+shoulder pain with every weather change,1
+chronic sciatica in right leg,1
+tensive feeling in small of back,1
+jerking stitches in right shoulder,2
+chronic rheumatism with frequent attacks,1
+belching of sour flatus,1
+hot expiration,1
+severe pains from slightest motion,1
+cracking in ankle joint,1
+stitching pains,3
+flying pains,1
+jerking stitching pains in limbs,2
+sensation as if heavy load on back between shoulders,1
+jerking flying stitches in wrists,2
+jerking flying stitches in finger joints,2
+rheumatism lingers and relapses regularly,1
+tearing pain in right elbow,1
+small of back pain worse by going upstairs,1
+severe pains in knees,1
+rheumatic pains in neck,1
+violent headache,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+carboneum sulphuratum,53
+urtica urens,1
+ranunculus bulbosus,1
+bryonia alba,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+gout of hands,gouty swellings without gouty dyscrasia,0.5,1
+gout of hands,occasional jerking toward hip joint,0.5,1
+gout of hands,redness of feet,0.5,1
+gout of hands,stitches from shoulder to elbow,0.5,1
+gout of hands,enlarged lymphatic glands,0.5,1
+gout of hands,cracking in right shoulder joint from motion,0.5,1
+gout of hands,neuralgia of teeth,0.5,1
+gout of hands,chronic rheumatic affections,0.5,1
+gout of hands,sprained pain in left metatarsal bones,0.5,1
+gout of hands,cracking of joints after inflammation,0.5,1
+gout of hands,stabbing piercing pain in metatarsal bones when walking,0.5,1
+gout of hands,inability to walk,0.5,1
+gout of hands,dislocated pain in right loin,0.5,1
+gout of hands,pains returning at regular intervals,0.5,1
+gout of hands,shoulder pain worse during damp cold weather,0.5,1
+gout of hands,shoulder pain worse after midnight,0.5,1
+gout of hands,inflammation of left sciatic nerve from cold exposure,0.5,1
+gout of hands,belching improves symptoms,0.5,1
+gout of hands,severe stitches from shoulder to elbow,0.5,1
+gout of hands,severe pains in hips,0.5,1
+gout of hands,tearing in all limbs,0.5,1
+gout of hands,slight fever or absent fever,0.5,1
+gout of hands,jerking pains,0.5,1
+gout of hands,stitches from shoulder to wrist,0.5,1
+gout of hands,pain in loins,0.5,1
+gout of hands,bruised pain in soles,0.5,1
+gout of hands,dislocated pain in right knee,0.5,1
+gout of hands,difficult breathing,0.5,1
+gout of hands,movements impeded,0.5,1
+gout of hands,quick recovery from acute articular manifestations,0.5,1
+gout of hands,frequent exacerbations,0.5,1
+gout of hands,shoulder pain with every weather change,0.5,1
+gout of hands,chronic sciatica in right leg,0.5,1
+gout of hands,tensive feeling in small of back,0.5,1
+gout of hands,jerking stitches in right shoulder,0.5,1
+gout of hands,chronic rheumatism with frequent attacks,0.5,1
+gout of hands,belching of sour flatus,0.5,1
+gout of hands,hot expiration,0.5,1
+gout of hands,severe pains from slightest motion,0.5,1
+gout of hands,cracking in ankle joint,0.5,1
+gout of hands,stitching pains,0.5,1
+gout of hands,flying pains,0.5,1
+gout of hands,jerking stitching pains in limbs,0.5,1
+gout of hands,sensation as if heavy load on back between shoulders,0.5,1
+gout of hands,jerking flying stitches in wrists,0.5,1
+gout of hands,jerking flying stitches in finger joints,0.5,1
+gout of hands,rheumatism lingers and relapses regularly,0.5,1
+gout of hands,tearing pain in right elbow,0.5,1
+gout of hands,small of back pain worse by going upstairs,0.5,1
+gout of hands,severe pains in knees,0.5,1
+gout of hands,rheumatic pains in neck,0.5,1
+gout of hands,violent headache,0.5,1
+chronic sciatica in right leg,gouty swellings without gouty dyscrasia,1.0,1
+chronic sciatica in right leg,occasional jerking toward hip joint,1.0,1
+chronic sciatica in right leg,redness of feet,1.0,1
+chronic sciatica in right leg,stitches from shoulder to elbow,1.0,1
+chronic sciatica in right leg,enlarged lymphatic glands,1.0,1
+chronic sciatica in right leg,cracking in right shoulder joint from motion,1.0,1
+chronic sciatica in right leg,neuralgia of teeth,1.0,1
+chronic sciatica in right leg,chronic rheumatic affections,1.0,1
+chronic sciatica in right leg,sprained pain in left metatarsal bones,1.0,1
+chronic sciatica in right leg,cracking of joints after inflammation,1.0,1
+chronic sciatica in right leg,stabbing piercing pain in metatarsal bones when walking,1.0,1
+chronic sciatica in right leg,inability to walk,1.0,1
+chronic sciatica in right leg,dislocated pain in right loin,1.0,1
+chronic sciatica in right leg,pains returning at regular intervals,1.0,1
+chronic sciatica in right leg,shoulder pain worse during damp cold weather,1.0,1
+chronic sciatica in right leg,shoulder pain worse after midnight,1.0,1
+chronic sciatica in right leg,inflammation of left sciatic nerve from cold exposure,1.0,1
+chronic sciatica in right leg,belching improves symptoms,1.0,1
+chronic sciatica in right leg,severe stitches from shoulder to elbow,1.0,1
+chronic sciatica in right leg,gout of hands,1.0,1
+chronic sciatica in right leg,severe pains in hips,1.0,1
+chronic sciatica in right leg,tearing in all limbs,1.0,1
+chronic sciatica in right leg,slight fever or absent fever,1.0,1
+chronic sciatica in right leg,jerking pains,1.0,1
+chronic sciatica in right leg,stitches from shoulder to wrist,1.0,1
+chronic sciatica in right leg,pain in loins,1.0,1
+chronic sciatica in right leg,bruised pain in soles,1.0,1
+chronic sciatica in right leg,dislocated pain in right knee,1.0,1
+chronic sciatica in right leg,difficult breathing,1.0,1
+chronic sciatica in right leg,movements impeded,1.0,1
+chronic sciatica in right leg,quick recovery from acute articular manifestations,1.0,1
+chronic sciatica in right leg,frequent exacerbations,1.0,1
+chronic sciatica in right leg,shoulder pain with every weather change,1.0,1
+chronic sciatica in right leg,tensive feeling in small of back,1.0,1
+chronic sciatica in right leg,jerking stitches in right shoulder,1.0,1
+chronic sciatica in right leg,chronic rheumatism with frequent attacks,1.0,1
+chronic sciatica in right leg,belching of sour flatus,1.0,1
+chronic sciatica in right leg,hot expiration,1.0,1
+chronic sciatica in right leg,severe pains from slightest motion,1.0,1
+chronic sciatica in right leg,cracking in ankle joint,1.0,1
+chronic sciatica in right leg,stitching pains,1.0,1
+chronic sciatica in right leg,flying pains,1.0,1
+chronic sciatica in right leg,jerking stitching pains in limbs,1.0,1
+chronic sciatica in right leg,sensation as if heavy load on back between shoulders,1.0,1
+chronic sciatica in right leg,jerking flying stitches in wrists,1.0,1
+chronic sciatica in right leg,jerking flying stitches in finger joints,1.0,1
+chronic sciatica in right leg,rheumatism lingers and relapses regularly,1.0,1
+chronic sciatica in right leg,tearing pain in right elbow,1.0,1
+chronic sciatica in right leg,small of back pain worse by going upstairs,1.0,1
+chronic sciatica in right leg,severe pains in knees,1.0,1
+chronic sciatica in right leg,rheumatic pains in neck,1.0,1
+chronic sciatica in right leg,violent headache,1.0,1
+gouty swellings without gouty dyscrasia,occasional jerking toward hip joint,1.0,1
+gouty swellings without gouty dyscrasia,redness of feet,1.0,1
+gouty swellings without gouty dyscrasia,stitches from shoulder to elbow,1.0,1
+gouty swellings without gouty dyscrasia,enlarged lymphatic glands,1.0,1
+gouty swellings without gouty dyscrasia,cracking in right shoulder joint from motion,1.0,1
+gouty swellings without gouty dyscrasia,neuralgia of teeth,1.0,1
+gouty swellings without gouty dyscrasia,chronic rheumatic affections,1.0,1
+gouty swellings without gouty dyscrasia,sprained pain in left metatarsal bones,1.0,1
+gouty swellings without gouty dyscrasia,cracking of joints after inflammation,1.0,1
+gouty swellings without gouty dyscrasia,stabbing piercing pain in metatarsal bones when walking,1.0,1
+gouty swellings without gouty dyscrasia,inability to walk,1.0,1
+gouty swellings without gouty dyscrasia,dislocated pain in right loin,1.0,1
+gouty swellings without gouty dyscrasia,pains returning at regular intervals,1.0,1
+gouty swellings without gouty dyscrasia,shoulder pain worse during damp cold weather,1.0,1
+gouty swellings without gouty dyscrasia,shoulder pain worse after midnight,1.0,1
+gouty swellings without gouty dyscrasia,inflammation of left sciatic nerve from cold exposure,1.0,1
+gouty swellings without gouty dyscrasia,belching improves symptoms,1.0,1
+gouty swellings without gouty dyscrasia,severe stitches from shoulder to elbow,1.0,1
+gouty swellings without gouty dyscrasia,gout of hands,1.0,1
+gouty swellings without gouty dyscrasia,severe pains in hips,1.0,1
+gouty swellings without gouty dyscrasia,tearing in all limbs,1.0,1
+gouty swellings without gouty dyscrasia,slight fever or absent fever,1.0,1
+gouty swellings without gouty dyscrasia,jerking pains,1.0,1
+gouty swellings without gouty dyscrasia,stitches from shoulder to wrist,1.0,1
+gouty swellings without gouty dyscrasia,pain in loins,1.0,1
+gouty swellings without gouty dyscrasia,bruised pain in soles,1.0,1
+gouty swellings without gouty dyscrasia,dislocated pain in right knee,1.0,1
+gouty swellings without gouty dyscrasia,difficult breathing,1.0,1
+gouty swellings without gouty dyscrasia,movements impeded,1.0,1
+gouty swellings without gouty dyscrasia,quick recovery from acute articular manifestations,1.0,1
+gouty swellings without gouty dyscrasia,frequent exacerbations,1.0,1
+gouty swellings without gouty dyscrasia,shoulder pain with every weather change,1.0,1
+gouty swellings without gouty dyscrasia,chronic sciatica in right leg,1.0,1
+gouty swellings without gouty dyscrasia,tensive feeling in small of back,1.0,1
+gouty swellings without gouty dyscrasia,jerking stitches in right shoulder,1.0,1
+gouty swellings without gouty dyscrasia,chronic rheumatism with frequent attacks,1.0,1
+gouty swellings without gouty dyscrasia,belching of sour flatus,1.0,1
+gouty swellings without gouty dyscrasia,hot expiration,1.0,1
+gouty swellings without gouty dyscrasia,severe pains from slightest motion,1.0,1
+gouty swellings without gouty dyscrasia,cracking in ankle joint,1.0,1
+gouty swellings without gouty dyscrasia,stitching pains,1.0,1
+gouty swellings without gouty dyscrasia,flying pains,1.0,1
+gouty swellings without gouty dyscrasia,jerking stitching pains in limbs,1.0,1
+gouty swellings without gouty dyscrasia,sensation as if heavy load on back between shoulders,1.0,1
+gouty swellings without gouty dyscrasia,jerking flying stitches in wrists,1.0,1
+gouty swellings without gouty dyscrasia,jerking flying stitches in finger joints,1.0,1
+gouty swellings without gouty dyscrasia,rheumatism lingers and relapses regularly,1.0,1
+gouty swellings without gouty dyscrasia,tearing pain in right elbow,1.0,1
+gouty swellings without gouty dyscrasia,small of back pain worse by going upstairs,1.0,1
+gouty swellings without gouty dyscrasia,severe pains in knees,1.0,1
+gouty swellings without gouty dyscrasia,rheumatic pains in neck,1.0,1
+gouty swellings without gouty dyscrasia,violent headache,1.0,1
+cracking of joints after inflammation,gouty swellings without gouty dyscrasia,1.0,1
+cracking of joints after inflammation,occasional jerking toward hip joint,1.0,1
+cracking of joints after inflammation,redness of feet,1.0,1
+cracking of joints after inflammation,stitches from shoulder to elbow,1.0,1
+cracking of joints after inflammation,enlarged lymphatic glands,1.0,1
+cracking of joints after inflammation,cracking in right shoulder joint from motion,1.0,1
+cracking of joints after inflammation,neuralgia of teeth,1.0,1
+cracking of joints after inflammation,chronic rheumatic affections,1.0,1
+cracking of joints after inflammation,sprained pain in left metatarsal bones,1.0,1
+cracking of joints after inflammation,stabbing piercing pain in metatarsal bones when walking,1.0,1
+cracking of joints after inflammation,inability to walk,1.0,1
+cracking of joints after inflammation,dislocated pain in right loin,1.0,1
+cracking of joints after inflammation,pains returning at regular intervals,1.0,1
+cracking of joints after inflammation,shoulder pain worse during damp cold weather,1.0,1
+cracking of joints after inflammation,shoulder pain worse after midnight,1.0,1
+cracking of joints after inflammation,inflammation of left sciatic nerve from cold exposure,1.0,1
+cracking of joints after inflammation,belching improves symptoms,1.0,1
+cracking of joints after inflammation,severe stitches from shoulder to elbow,1.0,1
+cracking of joints after inflammation,gout of hands,1.0,1
+cracking of joints after inflammation,severe pains in hips,1.0,1
+cracking of joints after inflammation,tearing in all limbs,1.0,1
+cracking of joints after inflammation,slight fever or absent fever,1.0,1
+cracking of joints after inflammation,jerking pains,1.0,1
+cracking of joints after inflammation,stitches from shoulder to wrist,1.0,1
+cracking of joints after inflammation,pain in loins,1.0,1
+cracking of joints after inflammation,bruised pain in soles,1.0,1
+cracking of joints after inflammation,dislocated pain in right knee,1.0,1
+cracking of joints after inflammation,difficult breathing,1.0,1
+cracking of joints after inflammation,movements impeded,1.0,1
+cracking of joints after inflammation,quick recovery from acute articular manifestations,1.0,1
+cracking of joints after inflammation,frequent exacerbations,1.0,1
+cracking of joints after inflammation,shoulder pain with every weather change,1.0,1
+cracking of joints after inflammation,chronic sciatica in right leg,1.0,1
+cracking of joints after inflammation,tensive feeling in small of back,1.0,1
+cracking of joints after inflammation,jerking stitches in right shoulder,1.0,1
+cracking of joints after inflammation,chronic rheumatism with frequent attacks,1.0,1
+cracking of joints after inflammation,belching of sour flatus,1.0,1
+cracking of joints after inflammation,hot expiration,1.0,1
+cracking of joints after inflammation,severe pains from slightest motion,1.0,1
+cracking of joints after inflammation,cracking in ankle joint,1.0,1
+cracking of joints after inflammation,stitching pains,1.0,1
+cracking of joints after inflammation,flying pains,1.0,1
+cracking of joints after inflammation,jerking stitching pains in limbs,1.0,1
+cracking of joints after inflammation,sensation as if heavy load on back between shoulders,1.0,1
+cracking of joints after inflammation,jerking flying stitches in wrists,1.0,1
+cracking of joints after inflammation,jerking flying stitches in finger joints,1.0,1
+cracking of joints after inflammation,rheumatism lingers and relapses regularly,1.0,1
+cracking of joints after inflammation,tearing pain in right elbow,1.0,1
+cracking of joints after inflammation,small of back pain worse by going upstairs,1.0,1
+cracking of joints after inflammation,severe pains in knees,1.0,1
+cracking of joints after inflammation,rheumatic pains in neck,1.0,1
+cracking of joints after inflammation,violent headache,1.0,1
+jerking stitches in right shoulder,gouty swellings without gouty dyscrasia,1.0,1
+jerking stitches in right shoulder,occasional jerking toward hip joint,1.0,1
+jerking stitches in right shoulder,redness of feet,1.0,1
+jerking stitches in right shoulder,stitches from shoulder to elbow,1.0,1
+jerking stitches in right shoulder,enlarged lymphatic glands,1.0,1
+jerking stitches in right shoulder,cracking in right shoulder joint from motion,1.0,1
+jerking stitches in right shoulder,neuralgia of teeth,1.0,1
+jerking stitches in right shoulder,chronic rheumatic affections,1.0,1
+jerking stitches in right shoulder,sprained pain in left metatarsal bones,1.0,1
+jerking stitches in right shoulder,cracking of joints after inflammation,1.0,1
+jerking stitches in right shoulder,stabbing piercing pain in metatarsal bones when walking,1.0,1
+jerking stitches in right shoulder,inability to walk,1.0,1
+jerking stitches in right shoulder,dislocated pain in right loin,1.0,1
+jerking stitches in right shoulder,pains returning at regular intervals,1.0,1
+jerking stitches in right shoulder,shoulder pain worse during damp cold weather,1.0,1
+jerking stitches in right shoulder,shoulder pain worse after midnight,1.0,1
+jerking stitches in right shoulder,inflammation of left sciatic nerve from cold exposure,1.0,1
+jerking stitches in right shoulder,belching improves symptoms,1.0,1
+jerking stitches in right shoulder,severe stitches from shoulder to elbow,1.0,1
+jerking stitches in right shoulder,gout of hands,1.0,1
+jerking stitches in right shoulder,severe pains in hips,1.0,1
+jerking stitches in right shoulder,tearing in all limbs,1.0,1
+jerking stitches in right shoulder,slight fever or absent fever,1.0,1
+jerking stitches in right shoulder,jerking pains,1.0,1
+jerking stitches in right shoulder,stitches from shoulder to wrist,1.0,1
+jerking stitches in right shoulder,pain in loins,1.0,1
+jerking stitches in right shoulder,bruised pain in soles,1.0,1
+jerking stitches in right shoulder,dislocated pain in right knee,1.0,1
+jerking stitches in right shoulder,difficult breathing,1.0,1
+jerking stitches in right shoulder,movements impeded,1.0,1
+jerking stitches in right shoulder,quick recovery from acute articular manifestations,1.0,1
+jerking stitches in right shoulder,frequent exacerbations,1.0,1
+jerking stitches in right shoulder,shoulder pain with every weather change,1.0,1
+jerking stitches in right shoulder,chronic sciatica in right leg,1.0,1
+jerking stitches in right shoulder,tensive feeling in small of back,1.0,1
+jerking stitches in right shoulder,chronic rheumatism with frequent attacks,1.0,1
+jerking stitches in right shoulder,belching of sour flatus,1.0,1
+jerking stitches in right shoulder,hot expiration,1.0,1
+jerking stitches in right shoulder,severe pains from slightest motion,1.0,1
+jerking stitches in right shoulder,cracking in ankle joint,1.0,1
+jerking stitches in right shoulder,stitching pains,1.0,1
+jerking stitches in right shoulder,flying pains,1.0,1
+jerking stitches in right shoulder,jerking stitching pains in limbs,1.0,1
+jerking stitches in right shoulder,sensation as if heavy load on back between shoulders,1.0,1
+jerking stitches in right shoulder,jerking flying stitches in wrists,1.0,1
+jerking stitches in right shoulder,jerking flying stitches in finger joints,1.0,1
+jerking stitches in right shoulder,rheumatism lingers and relapses regularly,1.0,1
+jerking stitches in right shoulder,tearing pain in right elbow,1.0,1
+jerking stitches in right shoulder,small of back pain worse by going upstairs,1.0,1
+jerking stitches in right shoulder,severe pains in knees,1.0,1
+jerking stitches in right shoulder,rheumatic pains in neck,1.0,1
+jerking stitches in right shoulder,violent headache,1.0,1
+tearing pain in right elbow,gouty swellings without gouty dyscrasia,1.0,1
+tearing pain in right elbow,occasional jerking toward hip joint,1.0,1
+tearing pain in right elbow,redness of feet,1.0,1
+tearing pain in right elbow,stitches from shoulder to elbow,1.0,1
+tearing pain in right elbow,enlarged lymphatic glands,1.0,1
+tearing pain in right elbow,cracking in right shoulder joint from motion,1.0,1
+tearing pain in right elbow,neuralgia of teeth,1.0,1
+tearing pain in right elbow,chronic rheumatic affections,1.0,1
+tearing pain in right elbow,sprained pain in left metatarsal bones,1.0,1
+tearing pain in right elbow,cracking of joints after inflammation,1.0,1
+tearing pain in right elbow,stabbing piercing pain in metatarsal bones when walking,1.0,1
+tearing pain in right elbow,inability to walk,1.0,1
+tearing pain in right elbow,dislocated pain in right loin,1.0,1
+tearing pain in right elbow,pains returning at regular intervals,1.0,1
+tearing pain in right elbow,shoulder pain worse during damp cold weather,1.0,1
+tearing pain in right elbow,shoulder pain worse after midnight,1.0,1
+tearing pain in right elbow,inflammation of left sciatic nerve from cold exposure,1.0,1
+tearing pain in right elbow,belching improves symptoms,1.0,1
+tearing pain in right elbow,severe stitches from shoulder to elbow,1.0,1
+tearing pain in right elbow,gout of hands,1.0,1
+tearing pain in right elbow,severe pains in hips,1.0,1
+tearing pain in right elbow,tearing in all limbs,1.0,1
+tearing pain in right elbow,slight fever or absent fever,1.0,1
+tearing pain in right elbow,jerking pains,1.0,1
+tearing pain in right elbow,stitches from shoulder to wrist,1.0,1
+tearing pain in right elbow,pain in loins,1.0,1
+tearing pain in right elbow,bruised pain in soles,1.0,1
+tearing pain in right elbow,dislocated pain in right knee,1.0,1
+tearing pain in right elbow,difficult breathing,1.0,1
+tearing pain in right elbow,movements impeded,1.0,1
+tearing pain in right elbow,quick recovery from acute articular manifestations,1.0,1
+tearing pain in right elbow,frequent exacerbations,1.0,1
+tearing pain in right elbow,shoulder pain with every weather change,1.0,1
+tearing pain in right elbow,chronic sciatica in right leg,1.0,1
+tearing pain in right elbow,tensive feeling in small of back,1.0,1
+tearing pain in right elbow,jerking stitches in right shoulder,1.0,1
+tearing pain in right elbow,chronic rheumatism with frequent attacks,1.0,1
+tearing pain in right elbow,belching of sour flatus,1.0,1
+tearing pain in right elbow,hot expiration,1.0,1
+tearing pain in right elbow,severe pains from slightest motion,1.0,1
+tearing pain in right elbow,cracking in ankle joint,1.0,1
+tearing pain in right elbow,stitching pains,1.0,1
+tearing pain in right elbow,flying pains,1.0,1
+tearing pain in right elbow,jerking stitching pains in limbs,1.0,1
+tearing pain in right elbow,sensation as if heavy load on back between shoulders,1.0,1
+tearing pain in right elbow,jerking flying stitches in wrists,1.0,1
+tearing pain in right elbow,jerking flying stitches in finger joints,1.0,1
+tearing pain in right elbow,rheumatism lingers and relapses regularly,1.0,1
+tearing pain in right elbow,small of back pain worse by going upstairs,1.0,1
+tearing pain in right elbow,severe pains in knees,1.0,1
+tearing pain in right elbow,rheumatic pains in neck,1.0,1
+tearing pain in right elbow,violent headache,1.0,1
+small of back pain worse by going upstairs,gouty swellings without gouty dyscrasia,1.0,1
+small of back pain worse by going upstairs,occasional jerking toward hip joint,1.0,1
+small of back pain worse by going upstairs,redness of feet,1.0,1
+small of back pain worse by going upstairs,stitches from shoulder to elbow,1.0,1
+small of back pain worse by going upstairs,enlarged lymphatic glands,1.0,1
+small of back pain worse by going upstairs,cracking in right shoulder joint from motion,1.0,1
+small of back pain worse by going upstairs,neuralgia of teeth,1.0,1
+small of back pain worse by going upstairs,chronic rheumatic affections,1.0,1
+small of back pain worse by going upstairs,sprained pain in left metatarsal bones,1.0,1
+small of back pain worse by going upstairs,cracking of joints after inflammation,1.0,1
+small of back pain worse by going upstairs,stabbing piercing pain in metatarsal bones when walking,1.0,1
+small of back pain worse by going upstairs,inability to walk,1.0,1
+small of back pain worse by going upstairs,dislocated pain in right loin,1.0,1
+small of back pain worse by going upstairs,pains returning at regular intervals,1.0,1
+small of back pain worse by going upstairs,shoulder pain worse during damp cold weather,1.0,1
+small of back pain worse by going upstairs,shoulder pain worse after midnight,1.0,1
+small of back pain worse by going upstairs,inflammation of left sciatic nerve from cold exposure,1.0,1
+small of back pain worse by going upstairs,belching improves symptoms,1.0,1
+small of back pain worse by going upstairs,severe stitches from shoulder to elbow,1.0,1
+small of back pain worse by going upstairs,gout of hands,1.0,1
+small of back pain worse by going upstairs,severe pains in hips,1.0,1
+small of back pain worse by going upstairs,tearing in all limbs,1.0,1
+small of back pain worse by going upstairs,slight fever or absent fever,1.0,1
+small of back pain worse by going upstairs,jerking pains,1.0,1
+small of back pain worse by going upstairs,stitches from shoulder to wrist,1.0,1
+small of back pain worse by going upstairs,pain in loins,1.0,1
+small of back pain worse by going upstairs,bruised pain in soles,1.0,1
+small of back pain worse by going upstairs,dislocated pain in right knee,1.0,1
+small of back pain worse by going upstairs,difficult breathing,1.0,1
+small of back pain worse by going upstairs,movements impeded,1.0,1
+small of back pain worse by going upstairs,quick recovery from acute articular manifestations,1.0,1
+small of back pain worse by going upstairs,frequent exacerbations,1.0,1
+small of back pain worse by going upstairs,shoulder pain with every weather change,1.0,1
+small of back pain worse by going upstairs,chronic sciatica in right leg,1.0,1
+small of back pain worse by going upstairs,tensive feeling in small of back,1.0,1
+small of back pain worse by going upstairs,jerking stitches in right shoulder,1.0,1
+small of back pain worse by going upstairs,chronic rheumatism with frequent attacks,1.0,1
+small of back pain worse by going upstairs,belching of sour flatus,1.0,1
+small of back pain worse by going upstairs,hot expiration,1.0,1
+small of back pain worse by going upstairs,severe pains from slightest motion,1.0,1
+small of back pain worse by going upstairs,cracking in ankle joint,1.0,1
+small of back pain worse by going upstairs,stitching pains,1.0,1
+small of back pain worse by going upstairs,flying pains,1.0,1
+small of back pain worse by going upstairs,jerking stitching pains in limbs,1.0,1
+small of back pain worse by going upstairs,sensation as if heavy load on back between shoulders,1.0,1
+small of back pain worse by going upstairs,jerking flying stitches in wrists,1.0,1
+small of back pain worse by going upstairs,jerking flying stitches in finger joints,1.0,1
+small of back pain worse by going upstairs,rheumatism lingers and relapses regularly,1.0,1
+small of back pain worse by going upstairs,tearing pain in right elbow,1.0,1
+small of back pain worse by going upstairs,severe pains in knees,1.0,1
+small of back pain worse by going upstairs,rheumatic pains in neck,1.0,1
+small of back pain worse by going upstairs,violent headache,1.0,1
+redness of feet,gouty swellings without gouty dyscrasia,1.0,1
+redness of feet,occasional jerking toward hip joint,1.0,1
+redness of feet,stitches from shoulder to elbow,1.0,1
+redness of feet,enlarged lymphatic glands,1.0,1
+redness of feet,cracking in right shoulder joint from motion,1.0,1
+redness of feet,neuralgia of teeth,1.0,1
+redness of feet,chronic rheumatic affections,1.0,1
+redness of feet,sprained pain in left metatarsal bones,1.0,1
+redness of feet,cracking of joints after inflammation,1.0,1
+redness of feet,stabbing piercing pain in metatarsal bones when walking,1.0,1
+redness of feet,inability to walk,1.0,1
+redness of feet,dislocated pain in right loin,1.0,1
+redness of feet,pains returning at regular intervals,1.0,1
+redness of feet,shoulder pain worse during damp cold weather,1.0,1
+redness of feet,shoulder pain worse after midnight,1.0,1
+redness of feet,inflammation of left sciatic nerve from cold exposure,1.0,1
+redness of feet,belching improves symptoms,1.0,1
+redness of feet,severe stitches from shoulder to elbow,1.0,1
+redness of feet,gout of hands,1.0,1
+redness of feet,severe pains in hips,1.0,1
+redness of feet,tearing in all limbs,1.0,1
+redness of feet,slight fever or absent fever,1.0,1
+redness of feet,jerking pains,1.0,1
+redness of feet,stitches from shoulder to wrist,1.0,1
+redness of feet,pain in loins,1.0,1
+redness of feet,bruised pain in soles,1.0,1
+redness of feet,dislocated pain in right knee,1.0,1
+redness of feet,difficult breathing,1.0,1
+redness of feet,movements impeded,1.0,1
+redness of feet,quick recovery from acute articular manifestations,1.0,1
+redness of feet,frequent exacerbations,1.0,1
+redness of feet,shoulder pain with every weather change,1.0,1
+redness of feet,chronic sciatica in right leg,1.0,1
+redness of feet,tensive feeling in small of back,1.0,1
+redness of feet,jerking stitches in right shoulder,1.0,1
+redness of feet,chronic rheumatism with frequent attacks,1.0,1
+redness of feet,belching of sour flatus,1.0,1
+redness of feet,hot expiration,1.0,1
+redness of feet,severe pains from slightest motion,1.0,1
+redness of feet,cracking in ankle joint,1.0,1
+redness of feet,stitching pains,1.0,1
+redness of feet,flying pains,1.0,1
+redness of feet,jerking stitching pains in limbs,1.0,1
+redness of feet,sensation as if heavy load on back between shoulders,1.0,1
+redness of feet,jerking flying stitches in wrists,1.0,1
+redness of feet,jerking flying stitches in finger joints,1.0,1
+redness of feet,rheumatism lingers and relapses regularly,1.0,1
+redness of feet,tearing pain in right elbow,1.0,1
+redness of feet,small of back pain worse by going upstairs,1.0,1
+redness of feet,severe pains in knees,1.0,1
+redness of feet,rheumatic pains in neck,1.0,1
+redness of feet,violent headache,1.0,1
+pain in loins,gouty swellings without gouty dyscrasia,1.0,1
+pain in loins,occasional jerking toward hip joint,1.0,1
+pain in loins,redness of feet,1.0,1
+pain in loins,stitches from shoulder to elbow,1.0,1
+pain in loins,enlarged lymphatic glands,1.0,1
+pain in loins,cracking in right shoulder joint from motion,1.0,1
+pain in loins,neuralgia of teeth,1.0,1
+pain in loins,chronic rheumatic affections,1.0,1
+pain in loins,sprained pain in left metatarsal bones,1.0,1
+pain in loins,cracking of joints after inflammation,1.0,1
+pain in loins,stabbing piercing pain in metatarsal bones when walking,1.0,1
+pain in loins,inability to walk,1.0,1
+pain in loins,dislocated pain in right loin,1.0,1
+pain in loins,pains returning at regular intervals,1.0,1
+pain in loins,shoulder pain worse during damp cold weather,1.0,1
+pain in loins,shoulder pain worse after midnight,1.0,1
+pain in loins,inflammation of left sciatic nerve from cold exposure,1.0,1
+pain in loins,belching improves symptoms,1.0,1
+pain in loins,severe stitches from shoulder to elbow,1.0,1
+pain in loins,gout of hands,1.0,1
+pain in loins,severe pains in hips,1.0,1
+pain in loins,tearing in all limbs,1.0,1
+pain in loins,slight fever or absent fever,1.0,1
+pain in loins,jerking pains,1.0,1
+pain in loins,stitches from shoulder to wrist,1.0,1
+pain in loins,bruised pain in soles,1.0,1
+pain in loins,dislocated pain in right knee,1.0,1
+pain in loins,difficult breathing,1.0,1
+pain in loins,movements impeded,1.0,1
+pain in loins,quick recovery from acute articular manifestations,1.0,1
+pain in loins,frequent exacerbations,1.0,1
+pain in loins,shoulder pain with every weather change,1.0,1
+pain in loins,chronic sciatica in right leg,1.0,1
+pain in loins,tensive feeling in small of back,1.0,1
+pain in loins,jerking stitches in right shoulder,1.0,1
+pain in loins,chronic rheumatism with frequent attacks,1.0,1
+pain in loins,belching of sour flatus,1.0,1
+pain in loins,hot expiration,1.0,1
+pain in loins,severe pains from slightest motion,1.0,1
+pain in loins,cracking in ankle joint,1.0,1
+pain in loins,stitching pains,1.0,1
+pain in loins,flying pains,1.0,1
+pain in loins,jerking stitching pains in limbs,1.0,1
+pain in loins,sensation as if heavy load on back between shoulders,1.0,1
+pain in loins,jerking flying stitches in wrists,1.0,1
+pain in loins,jerking flying stitches in finger joints,1.0,1
+pain in loins,rheumatism lingers and relapses regularly,1.0,1
+pain in loins,tearing pain in right elbow,1.0,1
+pain in loins,small of back pain worse by going upstairs,1.0,1
+pain in loins,severe pains in knees,1.0,1
+pain in loins,rheumatic pains in neck,1.0,1
+pain in loins,violent headache,1.0,1
+severe pains in knees,gouty swellings without gouty dyscrasia,1.0,1
+severe pains in knees,occasional jerking toward hip joint,1.0,1
+severe pains in knees,redness of feet,1.0,1
+severe pains in knees,stitches from shoulder to elbow,1.0,1
+severe pains in knees,enlarged lymphatic glands,1.0,1
+severe pains in knees,cracking in right shoulder joint from motion,1.0,1
+severe pains in knees,neuralgia of teeth,1.0,1
+severe pains in knees,chronic rheumatic affections,1.0,1
+severe pains in knees,sprained pain in left metatarsal bones,1.0,1
+severe pains in knees,cracking of joints after inflammation,1.0,1
+severe pains in knees,stabbing piercing pain in metatarsal bones when walking,1.0,1
+severe pains in knees,inability to walk,1.0,1
+severe pains in knees,dislocated pain in right loin,1.0,1
+severe pains in knees,pains returning at regular intervals,1.0,1
+severe pains in knees,shoulder pain worse during damp cold weather,1.0,1
+severe pains in knees,shoulder pain worse after midnight,1.0,1
+severe pains in knees,inflammation of left sciatic nerve from cold exposure,1.0,1
+severe pains in knees,belching improves symptoms,1.0,1
+severe pains in knees,severe stitches from shoulder to elbow,1.0,1
+severe pains in knees,gout of hands,1.0,1
+severe pains in knees,severe pains in hips,1.0,1
+severe pains in knees,tearing in all limbs,1.0,1
+severe pains in knees,slight fever or absent fever,1.0,1
+severe pains in knees,jerking pains,1.0,1
+severe pains in knees,stitches from shoulder to wrist,1.0,1
+severe pains in knees,pain in loins,1.0,1
+severe pains in knees,bruised pain in soles,1.0,1
+severe pains in knees,dislocated pain in right knee,1.0,1
+severe pains in knees,difficult breathing,1.0,1
+severe pains in knees,movements impeded,1.0,1
+severe pains in knees,quick recovery from acute articular manifestations,1.0,1
+severe pains in knees,frequent exacerbations,1.0,1
+severe pains in knees,shoulder pain with every weather change,1.0,1
+severe pains in knees,chronic sciatica in right leg,1.0,1
+severe pains in knees,tensive feeling in small of back,1.0,1
+severe pains in knees,jerking stitches in right shoulder,1.0,1
+severe pains in knees,chronic rheumatism with frequent attacks,1.0,1
+severe pains in knees,belching of sour flatus,1.0,1
+severe pains in knees,hot expiration,1.0,1
+severe pains in knees,severe pains from slightest motion,1.0,1
+severe pains in knees,cracking in ankle joint,1.0,1
+severe pains in knees,stitching pains,1.0,1
+severe pains in knees,flying pains,1.0,1
+severe pains in knees,jerking stitching pains in limbs,1.0,1
+severe pains in knees,sensation as if heavy load on back between shoulders,1.0,1
+severe pains in knees,jerking flying stitches in wrists,1.0,1
+severe pains in knees,jerking flying stitches in finger joints,1.0,1
+severe pains in knees,rheumatism lingers and relapses regularly,1.0,1
+severe pains in knees,tearing pain in right elbow,1.0,1
+severe pains in knees,small of back pain worse by going upstairs,1.0,1
+severe pains in knees,rheumatic pains in neck,1.0,1
+severe pains in knees,violent headache,1.0,1
+cracking in ankle joint,gouty swellings without gouty dyscrasia,1.0,1
+cracking in ankle joint,occasional jerking toward hip joint,1.0,1
+cracking in ankle joint,redness of feet,1.0,1
+cracking in ankle joint,stitches from shoulder to elbow,1.0,1
+cracking in ankle joint,enlarged lymphatic glands,1.0,1
+cracking in ankle joint,cracking in right shoulder joint from motion,1.0,1
+cracking in ankle joint,neuralgia of teeth,1.0,1
+cracking in ankle joint,chronic rheumatic affections,1.0,1
+cracking in ankle joint,sprained pain in left metatarsal bones,1.0,1
+cracking in ankle joint,cracking of joints after inflammation,1.0,1
+cracking in ankle joint,stabbing piercing pain in metatarsal bones when walking,1.0,1
+cracking in ankle joint,inability to walk,1.0,1
+cracking in ankle joint,dislocated pain in right loin,1.0,1
+cracking in ankle joint,pains returning at regular intervals,1.0,1
+cracking in ankle joint,shoulder pain worse during damp cold weather,1.0,1
+cracking in ankle joint,shoulder pain worse after midnight,1.0,1
+cracking in ankle joint,inflammation of left sciatic nerve from cold exposure,1.0,1
+cracking in ankle joint,belching improves symptoms,1.0,1
+cracking in ankle joint,severe stitches from shoulder to elbow,1.0,1
+cracking in ankle joint,gout of hands,1.0,1
+cracking in ankle joint,severe pains in hips,1.0,1
+cracking in ankle joint,tearing in all limbs,1.0,1
+cracking in ankle joint,slight fever or absent fever,1.0,1
+cracking in ankle joint,jerking pains,1.0,1
+cracking in ankle joint,stitches from shoulder to wrist,1.0,1
+cracking in ankle joint,pain in loins,1.0,1
+cracking in ankle joint,bruised pain in soles,1.0,1
+cracking in ankle joint,dislocated pain in right knee,1.0,1
+cracking in ankle joint,difficult breathing,1.0,1
+cracking in ankle joint,movements impeded,1.0,1
+cracking in ankle joint,quick recovery from acute articular manifestations,1.0,1
+cracking in ankle joint,frequent exacerbations,1.0,1
+cracking in ankle joint,shoulder pain with every weather change,1.0,1
+cracking in ankle joint,chronic sciatica in right leg,1.0,1
+cracking in ankle joint,tensive feeling in small of back,1.0,1
+cracking in ankle joint,jerking stitches in right shoulder,1.0,1
+cracking in ankle joint,chronic rheumatism with frequent attacks,1.0,1
+cracking in ankle joint,belching of sour flatus,1.0,1
+cracking in ankle joint,hot expiration,1.0,1
+cracking in ankle joint,severe pains from slightest motion,1.0,1
+cracking in ankle joint,stitching pains,1.0,1
+cracking in ankle joint,flying pains,1.0,1
+cracking in ankle joint,jerking stitching pains in limbs,1.0,1
+cracking in ankle joint,sensation as if heavy load on back between shoulders,1.0,1
+cracking in ankle joint,jerking flying stitches in wrists,1.0,1
+cracking in ankle joint,jerking flying stitches in finger joints,1.0,1
+cracking in ankle joint,rheumatism lingers and relapses regularly,1.0,1
+cracking in ankle joint,tearing pain in right elbow,1.0,1
+cracking in ankle joint,small of back pain worse by going upstairs,1.0,1
+cracking in ankle joint,severe pains in knees,1.0,1
+cracking in ankle joint,rheumatic pains in neck,1.0,1
+cracking in ankle joint,violent headache,1.0,1
+rheumatic pains in neck,gouty swellings without gouty dyscrasia,1.0,1
+rheumatic pains in neck,occasional jerking toward hip joint,1.0,1
+rheumatic pains in neck,redness of feet,1.0,1
+rheumatic pains in neck,stitches from shoulder to elbow,1.0,1
+rheumatic pains in neck,enlarged lymphatic glands,1.0,1
+rheumatic pains in neck,cracking in right shoulder joint from motion,1.0,1
+rheumatic pains in neck,neuralgia of teeth,1.0,1
+rheumatic pains in neck,chronic rheumatic affections,1.0,1
+rheumatic pains in neck,sprained pain in left metatarsal bones,1.0,1
+rheumatic pains in neck,cracking of joints after inflammation,1.0,1
+rheumatic pains in neck,stabbing piercing pain in metatarsal bones when walking,1.0,1
+rheumatic pains in neck,inability to walk,1.0,1
+rheumatic pains in neck,dislocated pain in right loin,1.0,1
+rheumatic pains in neck,pains returning at regular intervals,1.0,1
+rheumatic pains in neck,shoulder pain worse during damp cold weather,1.0,1
+rheumatic pains in neck,shoulder pain worse after midnight,1.0,1
+rheumatic pains in neck,inflammation of left sciatic nerve from cold exposure,1.0,1
+rheumatic pains in neck,belching improves symptoms,1.0,1
+rheumatic pains in neck,severe stitches from shoulder to elbow,1.0,1
+rheumatic pains in neck,gout of hands,1.0,1
+rheumatic pains in neck,severe pains in hips,1.0,1
+rheumatic pains in neck,tearing in all limbs,1.0,1
+rheumatic pains in neck,slight fever or absent fever,1.0,1
+rheumatic pains in neck,jerking pains,1.0,1
+rheumatic pains in neck,stitches from shoulder to wrist,1.0,1
+rheumatic pains in neck,pain in loins,1.0,1
+rheumatic pains in neck,bruised pain in soles,1.0,1
+rheumatic pains in neck,dislocated pain in right knee,1.0,1
+rheumatic pains in neck,difficult breathing,1.0,1
+rheumatic pains in neck,movements impeded,1.0,1
+rheumatic pains in neck,quick recovery from acute articular manifestations,1.0,1
+rheumatic pains in neck,frequent exacerbations,1.0,1
+rheumatic pains in neck,shoulder pain with every weather change,1.0,1
+rheumatic pains in neck,chronic sciatica in right leg,1.0,1
+rheumatic pains in neck,tensive feeling in small of back,1.0,1
+rheumatic pains in neck,jerking stitches in right shoulder,1.0,1
+rheumatic pains in neck,chronic rheumatism with frequent attacks,1.0,1
+rheumatic pains in neck,belching of sour flatus,1.0,1
+rheumatic pains in neck,hot expiration,1.0,1
+rheumatic pains in neck,severe pains from slightest motion,1.0,1
+rheumatic pains in neck,cracking in ankle joint,1.0,1
+rheumatic pains in neck,stitching pains,1.0,1
+rheumatic pains in neck,flying pains,1.0,1
+rheumatic pains in neck,jerking stitching pains in limbs,1.0,1
+rheumatic pains in neck,sensation as if heavy load on back between shoulders,1.0,1
+rheumatic pains in neck,jerking flying stitches in wrists,1.0,1
+rheumatic pains in neck,jerking flying stitches in finger joints,1.0,1
+rheumatic pains in neck,rheumatism lingers and relapses regularly,1.0,1
+rheumatic pains in neck,tearing pain in right elbow,1.0,1
+rheumatic pains in neck,small of back pain worse by going upstairs,1.0,1
+rheumatic pains in neck,severe pains in knees,1.0,1
+rheumatic pains in neck,violent headache,1.0,1
+stabbing piercing pain in metatarsal bones when walking,gouty swellings without gouty dyscrasia,1.0,1
+stabbing piercing pain in metatarsal bones when walking,occasional jerking toward hip joint,1.0,1
+stabbing piercing pain in metatarsal bones when walking,redness of feet,1.0,1
+stabbing piercing pain in metatarsal bones when walking,stitches from shoulder to elbow,1.0,1
+stabbing piercing pain in metatarsal bones when walking,enlarged lymphatic glands,1.0,1
+stabbing piercing pain in metatarsal bones when walking,cracking in right shoulder joint from motion,1.0,1
+stabbing piercing pain in metatarsal bones when walking,neuralgia of teeth,1.0,1
+stabbing piercing pain in metatarsal bones when walking,chronic rheumatic affections,1.0,1
+stabbing piercing pain in metatarsal bones when walking,sprained pain in left metatarsal bones,1.0,1
+stabbing piercing pain in metatarsal bones when walking,cracking of joints after inflammation,1.0,1
+stabbing piercing pain in metatarsal bones when walking,inability to walk,1.0,1
+stabbing piercing pain in metatarsal bones when walking,dislocated pain in right loin,1.0,1
+stabbing piercing pain in metatarsal bones when walking,pains returning at regular intervals,1.0,1
+stabbing piercing pain in metatarsal bones when walking,shoulder pain worse during damp cold weather,1.0,1
+stabbing piercing pain in metatarsal bones when walking,shoulder pain worse after midnight,1.0,1
+stabbing piercing pain in metatarsal bones when walking,inflammation of left sciatic nerve from cold exposure,1.0,1
+stabbing piercing pain in metatarsal bones when walking,belching improves symptoms,1.0,1
+stabbing piercing pain in metatarsal bones when walking,severe stitches from shoulder to elbow,1.0,1
+stabbing piercing pain in metatarsal bones when walking,gout of hands,1.0,1
+stabbing piercing pain in metatarsal bones when walking,severe pains in hips,1.0,1
+stabbing piercing pain in metatarsal bones when walking,tearing in all limbs,1.0,1
+stabbing piercing pain in metatarsal bones when walking,slight fever or absent fever,1.0,1
+stabbing piercing pain in metatarsal bones when walking,jerking pains,1.0,1
+stabbing piercing pain in metatarsal bones when walking,stitches from shoulder to wrist,1.0,1
+stabbing piercing pain in metatarsal bones when walking,pain in loins,1.0,1
+stabbing piercing pain in metatarsal bones when walking,bruised pain in soles,1.0,1
+stabbing piercing pain in metatarsal bones when walking,dislocated pain in right knee,1.0,1
+stabbing piercing pain in metatarsal bones when walking,difficult breathing,1.0,1
+stabbing piercing pain in metatarsal bones when walking,movements impeded,1.0,1
+stabbing piercing pain in metatarsal bones when walking,quick recovery from acute articular manifestations,1.0,1
+stabbing piercing pain in metatarsal bones when walking,frequent exacerbations,1.0,1
+stabbing piercing pain in metatarsal bones when walking,shoulder pain with every weather change,1.0,1
+stabbing piercing pain in metatarsal bones when walking,chronic sciatica in right leg,1.0,1
+stabbing piercing pain in metatarsal bones when walking,tensive feeling in small of back,1.0,1
+stabbing piercing pain in metatarsal bones when walking,jerking stitches in right shoulder,1.0,1
+stabbing piercing pain in metatarsal bones when walking,chronic rheumatism with frequent attacks,1.0,1
+stabbing piercing pain in metatarsal bones when walking,belching of sour flatus,1.0,1
+stabbing piercing pain in metatarsal bones when walking,hot expiration,1.0,1
+stabbing piercing pain in metatarsal bones when walking,severe pains from slightest motion,1.0,1
+stabbing piercing pain in metatarsal bones when walking,cracking in ankle joint,1.0,1
+stabbing piercing pain in metatarsal bones when walking,stitching pains,1.0,1
+stabbing piercing pain in metatarsal bones when walking,flying pains,1.0,1
+stabbing piercing pain in metatarsal bones when walking,jerking stitching pains in limbs,1.0,1
+stabbing piercing pain in metatarsal bones when walking,sensation as if heavy load on back between shoulders,1.0,1
+stabbing piercing pain in metatarsal bones when walking,jerking flying stitches in wrists,1.0,1
+stabbing piercing pain in metatarsal bones when walking,jerking flying stitches in finger joints,1.0,1
+stabbing piercing pain in metatarsal bones when walking,rheumatism lingers and relapses regularly,1.0,1
+stabbing piercing pain in metatarsal bones when walking,tearing pain in right elbow,1.0,1
+stabbing piercing pain in metatarsal bones when walking,small of back pain worse by going upstairs,1.0,1
+stabbing piercing pain in metatarsal bones when walking,severe pains in knees,1.0,1
+stabbing piercing pain in metatarsal bones when walking,rheumatic pains in neck,1.0,1
+stabbing piercing pain in metatarsal bones when walking,violent headache,1.0,1
+inflammation of left sciatic nerve from cold exposure,gouty swellings without gouty dyscrasia,1.0,1
+inflammation of left sciatic nerve from cold exposure,occasional jerking toward hip joint,1.0,1
+inflammation of left sciatic nerve from cold exposure,redness of feet,1.0,1
+inflammation of left sciatic nerve from cold exposure,stitches from shoulder to elbow,1.0,1
+inflammation of left sciatic nerve from cold exposure,enlarged lymphatic glands,1.0,1
+inflammation of left sciatic nerve from cold exposure,cracking in right shoulder joint from motion,1.0,1
+inflammation of left sciatic nerve from cold exposure,neuralgia of teeth,1.0,1
+inflammation of left sciatic nerve from cold exposure,chronic rheumatic affections,1.0,1
+inflammation of left sciatic nerve from cold exposure,sprained pain in left metatarsal bones,1.0,1
+inflammation of left sciatic nerve from cold exposure,cracking of joints after inflammation,1.0,1
+inflammation of left sciatic nerve from cold exposure,stabbing piercing pain in metatarsal bones when walking,1.0,1
+inflammation of left sciatic nerve from cold exposure,inability to walk,1.0,1
+inflammation of left sciatic nerve from cold exposure,dislocated pain in right loin,1.0,1
+inflammation of left sciatic nerve from cold exposure,pains returning at regular intervals,1.0,1
+inflammation of left sciatic nerve from cold exposure,shoulder pain worse during damp cold weather,1.0,1
+inflammation of left sciatic nerve from cold exposure,shoulder pain worse after midnight,1.0,1
+inflammation of left sciatic nerve from cold exposure,belching improves symptoms,1.0,1
+inflammation of left sciatic nerve from cold exposure,severe stitches from shoulder to elbow,1.0,1
+inflammation of left sciatic nerve from cold exposure,gout of hands,1.0,1
+inflammation of left sciatic nerve from cold exposure,severe pains in hips,1.0,1
+inflammation of left sciatic nerve from cold exposure,tearing in all limbs,1.0,1
+inflammation of left sciatic nerve from cold exposure,slight fever or absent fever,1.0,1
+inflammation of left sciatic nerve from cold exposure,jerking pains,1.0,1
+inflammation of left sciatic nerve from cold exposure,stitches from shoulder to wrist,1.0,1
+inflammation of left sciatic nerve from cold exposure,pain in loins,1.0,1
+inflammation of left sciatic nerve from cold exposure,bruised pain in soles,1.0,1
+inflammation of left sciatic nerve from cold exposure,dislocated pain in right knee,1.0,1
+inflammation of left sciatic nerve from cold exposure,difficult breathing,1.0,1
+inflammation of left sciatic nerve from cold exposure,movements impeded,1.0,1
+inflammation of left sciatic nerve from cold exposure,quick recovery from acute articular manifestations,1.0,1
+inflammation of left sciatic nerve from cold exposure,frequent exacerbations,1.0,1
+inflammation of left sciatic nerve from cold exposure,shoulder pain with every weather change,1.0,1
+inflammation of left sciatic nerve from cold exposure,chronic sciatica in right leg,1.0,1
+inflammation of left sciatic nerve from cold exposure,tensive feeling in small of back,1.0,1
+inflammation of left sciatic nerve from cold exposure,jerking stitches in right shoulder,1.0,1
+inflammation of left sciatic nerve from cold exposure,chronic rheumatism with frequent attacks,1.0,1
+inflammation of left sciatic nerve from cold exposure,belching of sour flatus,1.0,1
+inflammation of left sciatic nerve from cold exposure,hot expiration,1.0,1
+inflammation of left sciatic nerve from cold exposure,severe pains from slightest motion,1.0,1
+inflammation of left sciatic nerve from cold exposure,cracking in ankle joint,1.0,1
+inflammation of left sciatic nerve from cold exposure,stitching pains,1.0,1
+inflammation of left sciatic nerve from cold exposure,flying pains,1.0,1
+inflammation of left sciatic nerve from cold exposure,jerking stitching pains in limbs,1.0,1
+inflammation of left sciatic nerve from cold exposure,sensation as if heavy load on back between shoulders,1.0,1
+inflammation of left sciatic nerve from cold exposure,jerking flying stitches in wrists,1.0,1
+inflammation of left sciatic nerve from cold exposure,jerking flying stitches in finger joints,1.0,1
+inflammation of left sciatic nerve from cold exposure,rheumatism lingers and relapses regularly,1.0,1
+inflammation of left sciatic nerve from cold exposure,tearing pain in right elbow,1.0,1
+inflammation of left sciatic nerve from cold exposure,small of back pain worse by going upstairs,1.0,1
+inflammation of left sciatic nerve from cold exposure,severe pains in knees,1.0,1
+inflammation of left sciatic nerve from cold exposure,rheumatic pains in neck,1.0,1
+inflammation of left sciatic nerve from cold exposure,violent headache,1.0,1
+jerking pains,gouty swellings without gouty dyscrasia,1.0,1
+jerking pains,occasional jerking toward hip joint,1.0,1
+jerking pains,redness of feet,1.0,1
+jerking pains,stitches from shoulder to elbow,1.0,1
+jerking pains,enlarged lymphatic glands,1.0,1
+jerking pains,cracking in right shoulder joint from motion,1.0,1
+jerking pains,neuralgia of teeth,1.0,1
+jerking pains,chronic rheumatic affections,1.0,1
+jerking pains,sprained pain in left metatarsal bones,1.0,1
+jerking pains,cracking of joints after inflammation,1.0,1
+jerking pains,stabbing piercing pain in metatarsal bones when walking,1.0,1
+jerking pains,inability to walk,1.0,1
+jerking pains,dislocated pain in right loin,1.0,1
+jerking pains,pains returning at regular intervals,1.0,1
+jerking pains,shoulder pain worse during damp cold weather,1.0,1
+jerking pains,shoulder pain worse after midnight,1.0,1
+jerking pains,inflammation of left sciatic nerve from cold exposure,1.0,1
+jerking pains,belching improves symptoms,1.0,1
+jerking pains,severe stitches from shoulder to elbow,1.0,1
+jerking pains,gout of hands,1.0,1
+jerking pains,severe pains in hips,1.0,1
+jerking pains,tearing in all limbs,1.0,1
+jerking pains,slight fever or absent fever,1.0,1
+jerking pains,stitches from shoulder to wrist,1.0,1
+jerking pains,pain in loins,1.0,1
+jerking pains,bruised pain in soles,1.0,1
+jerking pains,dislocated pain in right knee,1.0,1
+jerking pains,difficult breathing,1.0,1
+jerking pains,movements impeded,1.0,1
+jerking pains,quick recovery from acute articular manifestations,1.0,1
+jerking pains,frequent exacerbations,1.0,1
+jerking pains,shoulder pain with every weather change,1.0,1
+jerking pains,chronic sciatica in right leg,1.0,1
+jerking pains,tensive feeling in small of back,1.0,1
+jerking pains,jerking stitches in right shoulder,1.0,1
+jerking pains,chronic rheumatism with frequent attacks,1.0,1
+jerking pains,belching of sour flatus,1.0,1
+jerking pains,hot expiration,1.0,1
+jerking pains,severe pains from slightest motion,1.0,1
+jerking pains,cracking in ankle joint,1.0,1
+jerking pains,stitching pains,1.0,1
+jerking pains,flying pains,1.0,1
+jerking pains,jerking stitching pains in limbs,1.0,1
+jerking pains,sensation as if heavy load on back between shoulders,1.0,1
+jerking pains,jerking flying stitches in wrists,1.0,1
+jerking pains,jerking flying stitches in finger joints,1.0,1
+jerking pains,rheumatism lingers and relapses regularly,1.0,1
+jerking pains,tearing pain in right elbow,1.0,1
+jerking pains,small of back pain worse by going upstairs,1.0,1
+jerking pains,severe pains in knees,1.0,1
+jerking pains,rheumatic pains in neck,1.0,1
+jerking pains,violent headache,1.0,1
+neuralgia of teeth,gouty swellings without gouty dyscrasia,1.0,1
+neuralgia of teeth,occasional jerking toward hip joint,1.0,1
+neuralgia of teeth,redness of feet,1.0,1
+neuralgia of teeth,stitches from shoulder to elbow,1.0,1
+neuralgia of teeth,enlarged lymphatic glands,1.0,1
+neuralgia of teeth,cracking in right shoulder joint from motion,1.0,1
+neuralgia of teeth,chronic rheumatic affections,1.0,1
+neuralgia of teeth,sprained pain in left metatarsal bones,1.0,1
+neuralgia of teeth,cracking of joints after inflammation,1.0,1
+neuralgia of teeth,stabbing piercing pain in metatarsal bones when walking,1.0,1
+neuralgia of teeth,inability to walk,1.0,1
+neuralgia of teeth,dislocated pain in right loin,1.0,1
+neuralgia of teeth,pains returning at regular intervals,1.0,1
+neuralgia of teeth,shoulder pain worse during damp cold weather,1.0,1
+neuralgia of teeth,shoulder pain worse after midnight,1.0,1
+neuralgia of teeth,inflammation of left sciatic nerve from cold exposure,1.0,1
+neuralgia of teeth,belching improves symptoms,1.0,1
+neuralgia of teeth,severe stitches from shoulder to elbow,1.0,1
+neuralgia of teeth,gout of hands,1.0,1
+neuralgia of teeth,severe pains in hips,1.0,1
+neuralgia of teeth,tearing in all limbs,1.0,1
+neuralgia of teeth,slight fever or absent fever,1.0,1
+neuralgia of teeth,jerking pains,1.0,1
+neuralgia of teeth,stitches from shoulder to wrist,1.0,1
+neuralgia of teeth,pain in loins,1.0,1
+neuralgia of teeth,bruised pain in soles,1.0,1
+neuralgia of teeth,dislocated pain in right knee,1.0,1
+neuralgia of teeth,difficult breathing,1.0,1
+neuralgia of teeth,movements impeded,1.0,1
+neuralgia of teeth,quick recovery from acute articular manifestations,1.0,1
+neuralgia of teeth,frequent exacerbations,1.0,1
+neuralgia of teeth,shoulder pain with every weather change,1.0,1
+neuralgia of teeth,chronic sciatica in right leg,1.0,1
+neuralgia of teeth,tensive feeling in small of back,1.0,1
+neuralgia of teeth,jerking stitches in right shoulder,1.0,1
+neuralgia of teeth,chronic rheumatism with frequent attacks,1.0,1
+neuralgia of teeth,belching of sour flatus,1.0,1
+neuralgia of teeth,hot expiration,1.0,1
+neuralgia of teeth,severe pains from slightest motion,1.0,1
+neuralgia of teeth,cracking in ankle joint,1.0,1
+neuralgia of teeth,stitching pains,1.0,1
+neuralgia of teeth,flying pains,1.0,1
+neuralgia of teeth,jerking stitching pains in limbs,1.0,1
+neuralgia of teeth,sensation as if heavy load on back between shoulders,1.0,1
+neuralgia of teeth,jerking flying stitches in wrists,1.0,1
+neuralgia of teeth,jerking flying stitches in finger joints,1.0,1
+neuralgia of teeth,rheumatism lingers and relapses regularly,1.0,1
+neuralgia of teeth,tearing pain in right elbow,1.0,1
+neuralgia of teeth,small of back pain worse by going upstairs,1.0,1
+neuralgia of teeth,severe pains in knees,1.0,1
+neuralgia of teeth,rheumatic pains in neck,1.0,1
+neuralgia of teeth,violent headache,1.0,1
+stitches from shoulder to elbow,gouty swellings without gouty dyscrasia,1.0,1
+stitches from shoulder to elbow,occasional jerking toward hip joint,1.0,1
+stitches from shoulder to elbow,redness of feet,1.0,1
+stitches from shoulder to elbow,enlarged lymphatic glands,1.0,1
+stitches from shoulder to elbow,cracking in right shoulder joint from motion,1.0,1
+stitches from shoulder to elbow,neuralgia of teeth,1.0,1
+stitches from shoulder to elbow,chronic rheumatic affections,1.0,1
+stitches from shoulder to elbow,sprained pain in left metatarsal bones,1.0,1
+stitches from shoulder to elbow,cracking of joints after inflammation,1.0,1
+stitches from shoulder to elbow,stabbing piercing pain in metatarsal bones when walking,1.0,1
+stitches from shoulder to elbow,inability to walk,1.0,1
+stitches from shoulder to elbow,dislocated pain in right loin,1.0,1
+stitches from shoulder to elbow,pains returning at regular intervals,1.0,1
+stitches from shoulder to elbow,shoulder pain worse during damp cold weather,1.0,1
+stitches from shoulder to elbow,shoulder pain worse after midnight,1.0,1
+stitches from shoulder to elbow,inflammation of left sciatic nerve from cold exposure,1.0,1
+stitches from shoulder to elbow,belching improves symptoms,1.0,1
+stitches from shoulder to elbow,severe stitches from shoulder to elbow,1.0,1
+stitches from shoulder to elbow,gout of hands,1.0,1
+stitches from shoulder to elbow,severe pains in hips,1.0,1
+stitches from shoulder to elbow,tearing in all limbs,1.0,1
+stitches from shoulder to elbow,slight fever or absent fever,1.0,1
+stitches from shoulder to elbow,jerking pains,1.0,1
+stitches from shoulder to elbow,stitches from shoulder to wrist,1.0,1
+stitches from shoulder to elbow,pain in loins,1.0,1
+stitches from shoulder to elbow,bruised pain in soles,1.0,1
+stitches from shoulder to elbow,dislocated pain in right knee,1.0,1
+stitches from shoulder to elbow,difficult breathing,1.0,1
+stitches from shoulder to elbow,movements impeded,1.0,1
+stitches from shoulder to elbow,quick recovery from acute articular manifestations,1.0,1
+stitches from shoulder to elbow,frequent exacerbations,1.0,1
+stitches from shoulder to elbow,shoulder pain with every weather change,1.0,1
+stitches from shoulder to elbow,chronic sciatica in right leg,1.0,1
+stitches from shoulder to elbow,tensive feeling in small of back,1.0,1
+stitches from shoulder to elbow,jerking stitches in right shoulder,1.0,1
+stitches from shoulder to elbow,chronic rheumatism with frequent attacks,1.0,1
+stitches from shoulder to elbow,belching of sour flatus,1.0,1
+stitches from shoulder to elbow,hot expiration,1.0,1
+stitches from shoulder to elbow,severe pains from slightest motion,1.0,1
+stitches from shoulder to elbow,cracking in ankle joint,1.0,1
+stitches from shoulder to elbow,stitching pains,1.0,1
+stitches from shoulder to elbow,flying pains,1.0,1
+stitches from shoulder to elbow,jerking stitching pains in limbs,1.0,1
+stitches from shoulder to elbow,sensation as if heavy load on back between shoulders,1.0,1
+stitches from shoulder to elbow,jerking flying stitches in wrists,1.0,1
+stitches from shoulder to elbow,jerking flying stitches in finger joints,1.0,1
+stitches from shoulder to elbow,rheumatism lingers and relapses regularly,1.0,1
+stitches from shoulder to elbow,tearing pain in right elbow,1.0,1
+stitches from shoulder to elbow,small of back pain worse by going upstairs,1.0,1
+stitches from shoulder to elbow,severe pains in knees,1.0,1
+stitches from shoulder to elbow,rheumatic pains in neck,1.0,1
+stitches from shoulder to elbow,violent headache,1.0,1
+pains returning at regular intervals,gouty swellings without gouty dyscrasia,1.0,1
+pains returning at regular intervals,occasional jerking toward hip joint,1.0,1
+pains returning at regular intervals,redness of feet,1.0,1
+pains returning at regular intervals,stitches from shoulder to elbow,1.0,1
+pains returning at regular intervals,enlarged lymphatic glands,1.0,1
+pains returning at regular intervals,cracking in right shoulder joint from motion,1.0,1
+pains returning at regular intervals,neuralgia of teeth,1.0,1
+pains returning at regular intervals,chronic rheumatic affections,1.0,1
+pains returning at regular intervals,sprained pain in left metatarsal bones,1.0,1
+pains returning at regular intervals,cracking of joints after inflammation,1.0,1
+pains returning at regular intervals,stabbing piercing pain in metatarsal bones when walking,1.0,1
+pains returning at regular intervals,inability to walk,1.0,1
+pains returning at regular intervals,dislocated pain in right loin,1.0,1
+pains returning at regular intervals,shoulder pain worse during damp cold weather,1.0,1
+pains returning at regular intervals,shoulder pain worse after midnight,1.0,1
+pains returning at regular intervals,inflammation of left sciatic nerve from cold exposure,1.0,1
+pains returning at regular intervals,belching improves symptoms,1.0,1
+pains returning at regular intervals,severe stitches from shoulder to elbow,1.0,1
+pains returning at regular intervals,gout of hands,1.0,1
+pains returning at regular intervals,severe pains in hips,1.0,1
+pains returning at regular intervals,tearing in all limbs,1.0,1
+pains returning at regular intervals,slight fever or absent fever,1.0,1
+pains returning at regular intervals,jerking pains,1.0,1
+pains returning at regular intervals,stitches from shoulder to wrist,1.0,1
+pains returning at regular intervals,pain in loins,1.0,1
+pains returning at regular intervals,bruised pain in soles,1.0,1
+pains returning at regular intervals,dislocated pain in right knee,1.0,1
+pains returning at regular intervals,difficult breathing,1.0,1
+pains returning at regular intervals,movements impeded,1.0,1
+pains returning at regular intervals,quick recovery from acute articular manifestations,1.0,1
+pains returning at regular intervals,frequent exacerbations,1.0,1
+pains returning at regular intervals,shoulder pain with every weather change,1.0,1
+pains returning at regular intervals,chronic sciatica in right leg,1.0,1
+pains returning at regular intervals,tensive feeling in small of back,1.0,1
+pains returning at regular intervals,jerking stitches in right shoulder,1.0,1
+pains returning at regular intervals,chronic rheumatism with frequent attacks,1.0,1
+pains returning at regular intervals,belching of sour flatus,1.0,1
+pains returning at regular intervals,hot expiration,1.0,1
+pains returning at regular intervals,severe pains from slightest motion,1.0,1
+pains returning at regular intervals,cracking in ankle joint,1.0,1
+pains returning at regular intervals,stitching pains,1.0,1
+pains returning at regular intervals,flying pains,1.0,1
+pains returning at regular intervals,jerking stitching pains in limbs,1.0,1
+pains returning at regular intervals,sensation as if heavy load on back between shoulders,1.0,1
+pains returning at regular intervals,jerking flying stitches in wrists,1.0,1
+pains returning at regular intervals,jerking flying stitches in finger joints,1.0,1
+pains returning at regular intervals,rheumatism lingers and relapses regularly,1.0,1
+pains returning at regular intervals,tearing pain in right elbow,1.0,1
+pains returning at regular intervals,small of back pain worse by going upstairs,1.0,1
+pains returning at regular intervals,severe pains in knees,1.0,1
+pains returning at regular intervals,rheumatic pains in neck,1.0,1
+pains returning at regular intervals,violent headache,1.0,1
+difficult breathing,gouty swellings without gouty dyscrasia,1.0,1
+difficult breathing,occasional jerking toward hip joint,1.0,1
+difficult breathing,redness of feet,1.0,1
+difficult breathing,stitches from shoulder to elbow,1.0,1
+difficult breathing,enlarged lymphatic glands,1.0,1
+difficult breathing,cracking in right shoulder joint from motion,1.0,1
+difficult breathing,neuralgia of teeth,1.0,1
+difficult breathing,chronic rheumatic affections,1.0,1
+difficult breathing,sprained pain in left metatarsal bones,1.0,1
+difficult breathing,cracking of joints after inflammation,1.0,1
+difficult breathing,stabbing piercing pain in metatarsal bones when walking,1.0,1
+difficult breathing,inability to walk,1.0,1
+difficult breathing,dislocated pain in right loin,1.0,1
+difficult breathing,pains returning at regular intervals,1.0,1
+difficult breathing,shoulder pain worse during damp cold weather,1.0,1
+difficult breathing,shoulder pain worse after midnight,1.0,1
+difficult breathing,inflammation of left sciatic nerve from cold exposure,1.0,1
+difficult breathing,belching improves symptoms,1.0,1
+difficult breathing,severe stitches from shoulder to elbow,1.0,1
+difficult breathing,gout of hands,1.0,1
+difficult breathing,severe pains in hips,1.0,1
+difficult breathing,tearing in all limbs,1.0,1
+difficult breathing,slight fever or absent fever,1.0,1
+difficult breathing,jerking pains,1.0,1
+difficult breathing,stitches from shoulder to wrist,1.0,1
+difficult breathing,pain in loins,1.0,1
+difficult breathing,bruised pain in soles,1.0,1
+difficult breathing,dislocated pain in right knee,1.0,1
+difficult breathing,movements impeded,1.0,1
+difficult breathing,quick recovery from acute articular manifestations,1.0,1
+difficult breathing,frequent exacerbations,1.0,1
+difficult breathing,shoulder pain with every weather change,1.0,1
+difficult breathing,chronic sciatica in right leg,1.0,1
+difficult breathing,tensive feeling in small of back,1.0,1
+difficult breathing,jerking stitches in right shoulder,1.0,1
+difficult breathing,chronic rheumatism with frequent attacks,1.0,1
+difficult breathing,belching of sour flatus,1.0,1
+difficult breathing,hot expiration,1.0,1
+difficult breathing,severe pains from slightest motion,1.0,1
+difficult breathing,cracking in ankle joint,1.0,1
+difficult breathing,stitching pains,1.0,1
+difficult breathing,flying pains,1.0,1
+difficult breathing,jerking stitching pains in limbs,1.0,1
+difficult breathing,sensation as if heavy load on back between shoulders,1.0,1
+difficult breathing,jerking flying stitches in wrists,1.0,1
+difficult breathing,jerking flying stitches in finger joints,1.0,1
+difficult breathing,rheumatism lingers and relapses regularly,1.0,1
+difficult breathing,tearing pain in right elbow,1.0,1
+difficult breathing,small of back pain worse by going upstairs,1.0,1
+difficult breathing,severe pains in knees,1.0,1
+difficult breathing,rheumatic pains in neck,1.0,1
+difficult breathing,violent headache,1.0,1
+chronic rheumatism with frequent attacks,gouty swellings without gouty dyscrasia,1.0,1
+chronic rheumatism with frequent attacks,occasional jerking toward hip joint,1.0,1
+chronic rheumatism with frequent attacks,redness of feet,1.0,1
+chronic rheumatism with frequent attacks,stitches from shoulder to elbow,1.0,1
+chronic rheumatism with frequent attacks,enlarged lymphatic glands,1.0,1
+chronic rheumatism with frequent attacks,cracking in right shoulder joint from motion,1.0,1
+chronic rheumatism with frequent attacks,neuralgia of teeth,1.0,1
+chronic rheumatism with frequent attacks,chronic rheumatic affections,1.0,1
+chronic rheumatism with frequent attacks,sprained pain in left metatarsal bones,1.0,1
+chronic rheumatism with frequent attacks,cracking of joints after inflammation,1.0,1
+chronic rheumatism with frequent attacks,stabbing piercing pain in metatarsal bones when walking,1.0,1
+chronic rheumatism with frequent attacks,inability to walk,1.0,1
+chronic rheumatism with frequent attacks,dislocated pain in right loin,1.0,1
+chronic rheumatism with frequent attacks,pains returning at regular intervals,1.0,1
+chronic rheumatism with frequent attacks,shoulder pain worse during damp cold weather,1.0,1
+chronic rheumatism with frequent attacks,shoulder pain worse after midnight,1.0,1
+chronic rheumatism with frequent attacks,inflammation of left sciatic nerve from cold exposure,1.0,1
+chronic rheumatism with frequent attacks,belching improves symptoms,1.0,1
+chronic rheumatism with frequent attacks,severe stitches from shoulder to elbow,1.0,1
+chronic rheumatism with frequent attacks,gout of hands,1.0,1
+chronic rheumatism with frequent attacks,severe pains in hips,1.0,1
+chronic rheumatism with frequent attacks,tearing in all limbs,1.0,1
+chronic rheumatism with frequent attacks,slight fever or absent fever,1.0,1
+chronic rheumatism with frequent attacks,jerking pains,1.0,1
+chronic rheumatism with frequent attacks,stitches from shoulder to wrist,1.0,1
+chronic rheumatism with frequent attacks,pain in loins,1.0,1
+chronic rheumatism with frequent attacks,bruised pain in soles,1.0,1
+chronic rheumatism with frequent attacks,dislocated pain in right knee,1.0,1
+chronic rheumatism with frequent attacks,difficult breathing,1.0,1
+chronic rheumatism with frequent attacks,movements impeded,1.0,1
+chronic rheumatism with frequent attacks,quick recovery from acute articular manifestations,1.0,1
+chronic rheumatism with frequent attacks,frequent exacerbations,1.0,1
+chronic rheumatism with frequent attacks,shoulder pain with every weather change,1.0,1
+chronic rheumatism with frequent attacks,chronic sciatica in right leg,1.0,1
+chronic rheumatism with frequent attacks,tensive feeling in small of back,1.0,1
+chronic rheumatism with frequent attacks,jerking stitches in right shoulder,1.0,1
+chronic rheumatism with frequent attacks,belching of sour flatus,1.0,1
+chronic rheumatism with frequent attacks,hot expiration,1.0,1
+chronic rheumatism with frequent attacks,severe pains from slightest motion,1.0,1
+chronic rheumatism with frequent attacks,cracking in ankle joint,1.0,1
+chronic rheumatism with frequent attacks,stitching pains,1.0,1
+chronic rheumatism with frequent attacks,flying pains,1.0,1
+chronic rheumatism with frequent attacks,jerking stitching pains in limbs,1.0,1
+chronic rheumatism with frequent attacks,sensation as if heavy load on back between shoulders,1.0,1
+chronic rheumatism with frequent attacks,jerking flying stitches in wrists,1.0,1
+chronic rheumatism with frequent attacks,jerking flying stitches in finger joints,1.0,1
+chronic rheumatism with frequent attacks,rheumatism lingers and relapses regularly,1.0,1
+chronic rheumatism with frequent attacks,tearing pain in right elbow,1.0,1
+chronic rheumatism with frequent attacks,small of back pain worse by going upstairs,1.0,1
+chronic rheumatism with frequent attacks,severe pains in knees,1.0,1
+chronic rheumatism with frequent attacks,rheumatic pains in neck,1.0,1
+chronic rheumatism with frequent attacks,violent headache,1.0,1
+belching of sour flatus,gouty swellings without gouty dyscrasia,1.0,1
+belching of sour flatus,occasional jerking toward hip joint,1.0,1
+belching of sour flatus,redness of feet,1.0,1
+belching of sour flatus,stitches from shoulder to elbow,1.0,1
+belching of sour flatus,enlarged lymphatic glands,1.0,1
+belching of sour flatus,cracking in right shoulder joint from motion,1.0,1
+belching of sour flatus,neuralgia of teeth,1.0,1
+belching of sour flatus,chronic rheumatic affections,1.0,1
+belching of sour flatus,sprained pain in left metatarsal bones,1.0,1
+belching of sour flatus,cracking of joints after inflammation,1.0,1
+belching of sour flatus,stabbing piercing pain in metatarsal bones when walking,1.0,1
+belching of sour flatus,inability to walk,1.0,1
+belching of sour flatus,dislocated pain in right loin,1.0,1
+belching of sour flatus,pains returning at regular intervals,1.0,1
+belching of sour flatus,shoulder pain worse during damp cold weather,1.0,1
+belching of sour flatus,shoulder pain worse after midnight,1.0,1
+belching of sour flatus,inflammation of left sciatic nerve from cold exposure,1.0,1
+belching of sour flatus,belching improves symptoms,1.0,1
+belching of sour flatus,severe stitches from shoulder to elbow,1.0,1
+belching of sour flatus,gout of hands,1.0,1
+belching of sour flatus,severe pains in hips,1.0,1
+belching of sour flatus,tearing in all limbs,1.0,1
+belching of sour flatus,slight fever or absent fever,1.0,1
+belching of sour flatus,jerking pains,1.0,1
+belching of sour flatus,stitches from shoulder to wrist,1.0,1
+belching of sour flatus,pain in loins,1.0,1
+belching of sour flatus,bruised pain in soles,1.0,1
+belching of sour flatus,dislocated pain in right knee,1.0,1
+belching of sour flatus,difficult breathing,1.0,1
+belching of sour flatus,movements impeded,1.0,1
+belching of sour flatus,quick recovery from acute articular manifestations,1.0,1
+belching of sour flatus,frequent exacerbations,1.0,1
+belching of sour flatus,shoulder pain with every weather change,1.0,1
+belching of sour flatus,chronic sciatica in right leg,1.0,1
+belching of sour flatus,tensive feeling in small of back,1.0,1
+belching of sour flatus,jerking stitches in right shoulder,1.0,1
+belching of sour flatus,chronic rheumatism with frequent attacks,1.0,1
+belching of sour flatus,hot expiration,1.0,1
+belching of sour flatus,severe pains from slightest motion,1.0,1
+belching of sour flatus,cracking in ankle joint,1.0,1
+belching of sour flatus,stitching pains,1.0,1
+belching of sour flatus,flying pains,1.0,1
+belching of sour flatus,jerking stitching pains in limbs,1.0,1
+belching of sour flatus,sensation as if heavy load on back between shoulders,1.0,1
+belching of sour flatus,jerking flying stitches in wrists,1.0,1
+belching of sour flatus,jerking flying stitches in finger joints,1.0,1
+belching of sour flatus,rheumatism lingers and relapses regularly,1.0,1
+belching of sour flatus,tearing pain in right elbow,1.0,1
+belching of sour flatus,small of back pain worse by going upstairs,1.0,1
+belching of sour flatus,severe pains in knees,1.0,1
+belching of sour flatus,rheumatic pains in neck,1.0,1
+belching of sour flatus,violent headache,1.0,1
+belching improves symptoms,gouty swellings without gouty dyscrasia,1.0,1
+belching improves symptoms,occasional jerking toward hip joint,1.0,1
+belching improves symptoms,redness of feet,1.0,1
+belching improves symptoms,stitches from shoulder to elbow,1.0,1
+belching improves symptoms,enlarged lymphatic glands,1.0,1
+belching improves symptoms,cracking in right shoulder joint from motion,1.0,1
+belching improves symptoms,neuralgia of teeth,1.0,1
+belching improves symptoms,chronic rheumatic affections,1.0,1
+belching improves symptoms,sprained pain in left metatarsal bones,1.0,1
+belching improves symptoms,cracking of joints after inflammation,1.0,1
+belching improves symptoms,stabbing piercing pain in metatarsal bones when walking,1.0,1
+belching improves symptoms,inability to walk,1.0,1
+belching improves symptoms,dislocated pain in right loin,1.0,1
+belching improves symptoms,pains returning at regular intervals,1.0,1
+belching improves symptoms,shoulder pain worse during damp cold weather,1.0,1
+belching improves symptoms,shoulder pain worse after midnight,1.0,1
+belching improves symptoms,inflammation of left sciatic nerve from cold exposure,1.0,1
+belching improves symptoms,severe stitches from shoulder to elbow,1.0,1
+belching improves symptoms,gout of hands,1.0,1
+belching improves symptoms,severe pains in hips,1.0,1
+belching improves symptoms,tearing in all limbs,1.0,1
+belching improves symptoms,slight fever or absent fever,1.0,1
+belching improves symptoms,jerking pains,1.0,1
+belching improves symptoms,stitches from shoulder to wrist,1.0,1
+belching improves symptoms,pain in loins,1.0,1
+belching improves symptoms,bruised pain in soles,1.0,1
+belching improves symptoms,dislocated pain in right knee,1.0,1
+belching improves symptoms,difficult breathing,1.0,1
+belching improves symptoms,movements impeded,1.0,1
+belching improves symptoms,quick recovery from acute articular manifestations,1.0,1
+belching improves symptoms,frequent exacerbations,1.0,1
+belching improves symptoms,shoulder pain with every weather change,1.0,1
+belching improves symptoms,chronic sciatica in right leg,1.0,1
+belching improves symptoms,tensive feeling in small of back,1.0,1
+belching improves symptoms,jerking stitches in right shoulder,1.0,1
+belching improves symptoms,chronic rheumatism with frequent attacks,1.0,1
+belching improves symptoms,belching of sour flatus,1.0,1
+belching improves symptoms,hot expiration,1.0,1
+belching improves symptoms,severe pains from slightest motion,1.0,1
+belching improves symptoms,cracking in ankle joint,1.0,1
+belching improves symptoms,stitching pains,1.0,1
+belching improves symptoms,flying pains,1.0,1
+belching improves symptoms,jerking stitching pains in limbs,1.0,1
+belching improves symptoms,sensation as if heavy load on back between shoulders,1.0,1
+belching improves symptoms,jerking flying stitches in wrists,1.0,1
+belching improves symptoms,jerking flying stitches in finger joints,1.0,1
+belching improves symptoms,rheumatism lingers and relapses regularly,1.0,1
+belching improves symptoms,tearing pain in right elbow,1.0,1
+belching improves symptoms,small of back pain worse by going upstairs,1.0,1
+belching improves symptoms,severe pains in knees,1.0,1
+belching improves symptoms,rheumatic pains in neck,1.0,1
+belching improves symptoms,violent headache,1.0,1
+flying pains,gouty swellings without gouty dyscrasia,1.0,1
+flying pains,occasional jerking toward hip joint,1.0,1
+flying pains,redness of feet,1.0,1
+flying pains,stitches from shoulder to elbow,1.0,1
+flying pains,enlarged lymphatic glands,1.0,1
+flying pains,cracking in right shoulder joint from motion,1.0,1
+flying pains,neuralgia of teeth,1.0,1
+flying pains,chronic rheumatic affections,1.0,1
+flying pains,sprained pain in left metatarsal bones,1.0,1
+flying pains,cracking of joints after inflammation,1.0,1
+flying pains,stabbing piercing pain in metatarsal bones when walking,1.0,1
+flying pains,inability to walk,1.0,1
+flying pains,dislocated pain in right loin,1.0,1
+flying pains,pains returning at regular intervals,1.0,1
+flying pains,shoulder pain worse during damp cold weather,1.0,1
+flying pains,shoulder pain worse after midnight,1.0,1
+flying pains,inflammation of left sciatic nerve from cold exposure,1.0,1
+flying pains,belching improves symptoms,1.0,1
+flying pains,severe stitches from shoulder to elbow,1.0,1
+flying pains,gout of hands,1.0,1
+flying pains,severe pains in hips,1.0,1
+flying pains,tearing in all limbs,1.0,1
+flying pains,slight fever or absent fever,1.0,1
+flying pains,jerking pains,1.0,1
+flying pains,stitches from shoulder to wrist,1.0,1
+flying pains,pain in loins,1.0,1
+flying pains,bruised pain in soles,1.0,1
+flying pains,dislocated pain in right knee,1.0,1
+flying pains,difficult breathing,1.0,1
+flying pains,movements impeded,1.0,1
+flying pains,quick recovery from acute articular manifestations,1.0,1
+flying pains,frequent exacerbations,1.0,1
+flying pains,shoulder pain with every weather change,1.0,1
+flying pains,chronic sciatica in right leg,1.0,1
+flying pains,tensive feeling in small of back,1.0,1
+flying pains,jerking stitches in right shoulder,1.0,1
+flying pains,chronic rheumatism with frequent attacks,1.0,1
+flying pains,belching of sour flatus,1.0,1
+flying pains,hot expiration,1.0,1
+flying pains,severe pains from slightest motion,1.0,1
+flying pains,cracking in ankle joint,1.0,1
+flying pains,stitching pains,1.0,1
+flying pains,jerking stitching pains in limbs,1.0,1
+flying pains,sensation as if heavy load on back between shoulders,1.0,1
+flying pains,jerking flying stitches in wrists,1.0,1
+flying pains,jerking flying stitches in finger joints,1.0,1
+flying pains,rheumatism lingers and relapses regularly,1.0,1
+flying pains,tearing pain in right elbow,1.0,1
+flying pains,small of back pain worse by going upstairs,1.0,1
+flying pains,severe pains in knees,1.0,1
+flying pains,rheumatic pains in neck,1.0,1
+flying pains,violent headache,1.0,1
+bruised pain in soles,gouty swellings without gouty dyscrasia,1.0,1
+bruised pain in soles,occasional jerking toward hip joint,1.0,1
+bruised pain in soles,redness of feet,1.0,1
+bruised pain in soles,stitches from shoulder to elbow,1.0,1
+bruised pain in soles,enlarged lymphatic glands,1.0,1
+bruised pain in soles,cracking in right shoulder joint from motion,1.0,1
+bruised pain in soles,neuralgia of teeth,1.0,1
+bruised pain in soles,chronic rheumatic affections,1.0,1
+bruised pain in soles,sprained pain in left metatarsal bones,1.0,1
+bruised pain in soles,cracking of joints after inflammation,1.0,1
+bruised pain in soles,stabbing piercing pain in metatarsal bones when walking,1.0,1
+bruised pain in soles,inability to walk,1.0,1
+bruised pain in soles,dislocated pain in right loin,1.0,1
+bruised pain in soles,pains returning at regular intervals,1.0,1
+bruised pain in soles,shoulder pain worse during damp cold weather,1.0,1
+bruised pain in soles,shoulder pain worse after midnight,1.0,1
+bruised pain in soles,inflammation of left sciatic nerve from cold exposure,1.0,1
+bruised pain in soles,belching improves symptoms,1.0,1
+bruised pain in soles,severe stitches from shoulder to elbow,1.0,1
+bruised pain in soles,gout of hands,1.0,1
+bruised pain in soles,severe pains in hips,1.0,1
+bruised pain in soles,tearing in all limbs,1.0,1
+bruised pain in soles,slight fever or absent fever,1.0,1
+bruised pain in soles,jerking pains,1.0,1
+bruised pain in soles,stitches from shoulder to wrist,1.0,1
+bruised pain in soles,pain in loins,1.0,1
+bruised pain in soles,dislocated pain in right knee,1.0,1
+bruised pain in soles,difficult breathing,1.0,1
+bruised pain in soles,movements impeded,1.0,1
+bruised pain in soles,quick recovery from acute articular manifestations,1.0,1
+bruised pain in soles,frequent exacerbations,1.0,1
+bruised pain in soles,shoulder pain with every weather change,1.0,1
+bruised pain in soles,chronic sciatica in right leg,1.0,1
+bruised pain in soles,tensive feeling in small of back,1.0,1
+bruised pain in soles,jerking stitches in right shoulder,1.0,1
+bruised pain in soles,chronic rheumatism with frequent attacks,1.0,1
+bruised pain in soles,belching of sour flatus,1.0,1
+bruised pain in soles,hot expiration,1.0,1
+bruised pain in soles,severe pains from slightest motion,1.0,1
+bruised pain in soles,cracking in ankle joint,1.0,1
+bruised pain in soles,stitching pains,1.0,1
+bruised pain in soles,flying pains,1.0,1
+bruised pain in soles,jerking stitching pains in limbs,1.0,1
+bruised pain in soles,sensation as if heavy load on back between shoulders,1.0,1
+bruised pain in soles,jerking flying stitches in wrists,1.0,1
+bruised pain in soles,jerking flying stitches in finger joints,1.0,1
+bruised pain in soles,rheumatism lingers and relapses regularly,1.0,1
+bruised pain in soles,tearing pain in right elbow,1.0,1
+bruised pain in soles,small of back pain worse by going upstairs,1.0,1
+bruised pain in soles,severe pains in knees,1.0,1
+bruised pain in soles,rheumatic pains in neck,1.0,1
+bruised pain in soles,violent headache,1.0,1
+movements impeded,gouty swellings without gouty dyscrasia,1.0,1
+movements impeded,occasional jerking toward hip joint,1.0,1
+movements impeded,redness of feet,1.0,1
+movements impeded,stitches from shoulder to elbow,1.0,1
+movements impeded,enlarged lymphatic glands,1.0,1
+movements impeded,cracking in right shoulder joint from motion,1.0,1
+movements impeded,neuralgia of teeth,1.0,1
+movements impeded,chronic rheumatic affections,1.0,1
+movements impeded,sprained pain in left metatarsal bones,1.0,1
+movements impeded,cracking of joints after inflammation,1.0,1
+movements impeded,stabbing piercing pain in metatarsal bones when walking,1.0,1
+movements impeded,inability to walk,1.0,1
+movements impeded,dislocated pain in right loin,1.0,1
+movements impeded,pains returning at regular intervals,1.0,1
+movements impeded,shoulder pain worse during damp cold weather,1.0,1
+movements impeded,shoulder pain worse after midnight,1.0,1
+movements impeded,inflammation of left sciatic nerve from cold exposure,1.0,1
+movements impeded,belching improves symptoms,1.0,1
+movements impeded,severe stitches from shoulder to elbow,1.0,1
+movements impeded,gout of hands,1.0,1
+movements impeded,severe pains in hips,1.0,1
+movements impeded,tearing in all limbs,1.0,1
+movements impeded,slight fever or absent fever,1.0,1
+movements impeded,jerking pains,1.0,1
+movements impeded,stitches from shoulder to wrist,1.0,1
+movements impeded,pain in loins,1.0,1
+movements impeded,bruised pain in soles,1.0,1
+movements impeded,dislocated pain in right knee,1.0,1
+movements impeded,difficult breathing,1.0,1
+movements impeded,quick recovery from acute articular manifestations,1.0,1
+movements impeded,frequent exacerbations,1.0,1
+movements impeded,shoulder pain with every weather change,1.0,1
+movements impeded,chronic sciatica in right leg,1.0,1
+movements impeded,tensive feeling in small of back,1.0,1
+movements impeded,jerking stitches in right shoulder,1.0,1
+movements impeded,chronic rheumatism with frequent attacks,1.0,1
+movements impeded,belching of sour flatus,1.0,1
+movements impeded,hot expiration,1.0,1
+movements impeded,severe pains from slightest motion,1.0,1
+movements impeded,cracking in ankle joint,1.0,1
+movements impeded,stitching pains,1.0,1
+movements impeded,flying pains,1.0,1
+movements impeded,jerking stitching pains in limbs,1.0,1
+movements impeded,sensation as if heavy load on back between shoulders,1.0,1
+movements impeded,jerking flying stitches in wrists,1.0,1
+movements impeded,jerking flying stitches in finger joints,1.0,1
+movements impeded,rheumatism lingers and relapses regularly,1.0,1
+movements impeded,tearing pain in right elbow,1.0,1
+movements impeded,small of back pain worse by going upstairs,1.0,1
+movements impeded,severe pains in knees,1.0,1
+movements impeded,rheumatic pains in neck,1.0,1
+movements impeded,violent headache,1.0,1
+dislocated pain in right knee,gouty swellings without gouty dyscrasia,1.0,1
+dislocated pain in right knee,occasional jerking toward hip joint,1.0,1
+dislocated pain in right knee,redness of feet,1.0,1
+dislocated pain in right knee,stitches from shoulder to elbow,1.0,1
+dislocated pain in right knee,enlarged lymphatic glands,1.0,1
+dislocated pain in right knee,cracking in right shoulder joint from motion,1.0,1
+dislocated pain in right knee,neuralgia of teeth,1.0,1
+dislocated pain in right knee,chronic rheumatic affections,1.0,1
+dislocated pain in right knee,sprained pain in left metatarsal bones,1.0,1
+dislocated pain in right knee,cracking of joints after inflammation,1.0,1
+dislocated pain in right knee,stabbing piercing pain in metatarsal bones when walking,1.0,1
+dislocated pain in right knee,inability to walk,1.0,1
+dislocated pain in right knee,dislocated pain in right loin,1.0,1
+dislocated pain in right knee,pains returning at regular intervals,1.0,1
+dislocated pain in right knee,shoulder pain worse during damp cold weather,1.0,1
+dislocated pain in right knee,shoulder pain worse after midnight,1.0,1
+dislocated pain in right knee,inflammation of left sciatic nerve from cold exposure,1.0,1
+dislocated pain in right knee,belching improves symptoms,1.0,1
+dislocated pain in right knee,severe stitches from shoulder to elbow,1.0,1
+dislocated pain in right knee,gout of hands,1.0,1
+dislocated pain in right knee,severe pains in hips,1.0,1
+dislocated pain in right knee,tearing in all limbs,1.0,1
+dislocated pain in right knee,slight fever or absent fever,1.0,1
+dislocated pain in right knee,jerking pains,1.0,1
+dislocated pain in right knee,stitches from shoulder to wrist,1.0,1
+dislocated pain in right knee,pain in loins,1.0,1
+dislocated pain in right knee,bruised pain in soles,1.0,1
+dislocated pain in right knee,difficult breathing,1.0,1
+dislocated pain in right knee,movements impeded,1.0,1
+dislocated pain in right knee,quick recovery from acute articular manifestations,1.0,1
+dislocated pain in right knee,frequent exacerbations,1.0,1
+dislocated pain in right knee,shoulder pain with every weather change,1.0,1
+dislocated pain in right knee,chronic sciatica in right leg,1.0,1
+dislocated pain in right knee,tensive feeling in small of back,1.0,1
+dislocated pain in right knee,jerking stitches in right shoulder,1.0,1
+dislocated pain in right knee,chronic rheumatism with frequent attacks,1.0,1
+dislocated pain in right knee,belching of sour flatus,1.0,1
+dislocated pain in right knee,hot expiration,1.0,1
+dislocated pain in right knee,severe pains from slightest motion,1.0,1
+dislocated pain in right knee,cracking in ankle joint,1.0,1
+dislocated pain in right knee,stitching pains,1.0,1
+dislocated pain in right knee,flying pains,1.0,1
+dislocated pain in right knee,jerking stitching pains in limbs,1.0,1
+dislocated pain in right knee,sensation as if heavy load on back between shoulders,1.0,1
+dislocated pain in right knee,jerking flying stitches in wrists,1.0,1
+dislocated pain in right knee,jerking flying stitches in finger joints,1.0,1
+dislocated pain in right knee,rheumatism lingers and relapses regularly,1.0,1
+dislocated pain in right knee,tearing pain in right elbow,1.0,1
+dislocated pain in right knee,small of back pain worse by going upstairs,1.0,1
+dislocated pain in right knee,severe pains in knees,1.0,1
+dislocated pain in right knee,rheumatic pains in neck,1.0,1
+dislocated pain in right knee,violent headache,1.0,1
+enlarged lymphatic glands,gouty swellings without gouty dyscrasia,1.0,1
+enlarged lymphatic glands,occasional jerking toward hip joint,1.0,1
+enlarged lymphatic glands,redness of feet,1.0,1
+enlarged lymphatic glands,stitches from shoulder to elbow,1.0,1
+enlarged lymphatic glands,cracking in right shoulder joint from motion,1.0,1
+enlarged lymphatic glands,neuralgia of teeth,1.0,1
+enlarged lymphatic glands,chronic rheumatic affections,1.0,1
+enlarged lymphatic glands,sprained pain in left metatarsal bones,1.0,1
+enlarged lymphatic glands,cracking of joints after inflammation,1.0,1
+enlarged lymphatic glands,stabbing piercing pain in metatarsal bones when walking,1.0,1
+enlarged lymphatic glands,inability to walk,1.0,1
+enlarged lymphatic glands,dislocated pain in right loin,1.0,1
+enlarged lymphatic glands,pains returning at regular intervals,1.0,1
+enlarged lymphatic glands,shoulder pain worse during damp cold weather,1.0,1
+enlarged lymphatic glands,shoulder pain worse after midnight,1.0,1
+enlarged lymphatic glands,inflammation of left sciatic nerve from cold exposure,1.0,1
+enlarged lymphatic glands,belching improves symptoms,1.0,1
+enlarged lymphatic glands,severe stitches from shoulder to elbow,1.0,1
+enlarged lymphatic glands,gout of hands,1.0,1
+enlarged lymphatic glands,severe pains in hips,1.0,1
+enlarged lymphatic glands,tearing in all limbs,1.0,1
+enlarged lymphatic glands,slight fever or absent fever,1.0,1
+enlarged lymphatic glands,jerking pains,1.0,1
+enlarged lymphatic glands,stitches from shoulder to wrist,1.0,1
+enlarged lymphatic glands,pain in loins,1.0,1
+enlarged lymphatic glands,bruised pain in soles,1.0,1
+enlarged lymphatic glands,dislocated pain in right knee,1.0,1
+enlarged lymphatic glands,difficult breathing,1.0,1
+enlarged lymphatic glands,movements impeded,1.0,1
+enlarged lymphatic glands,quick recovery from acute articular manifestations,1.0,1
+enlarged lymphatic glands,frequent exacerbations,1.0,1
+enlarged lymphatic glands,shoulder pain with every weather change,1.0,1
+enlarged lymphatic glands,chronic sciatica in right leg,1.0,1
+enlarged lymphatic glands,tensive feeling in small of back,1.0,1
+enlarged lymphatic glands,jerking stitches in right shoulder,1.0,1
+enlarged lymphatic glands,chronic rheumatism with frequent attacks,1.0,1
+enlarged lymphatic glands,belching of sour flatus,1.0,1
+enlarged lymphatic glands,hot expiration,1.0,1
+enlarged lymphatic glands,severe pains from slightest motion,1.0,1
+enlarged lymphatic glands,cracking in ankle joint,1.0,1
+enlarged lymphatic glands,stitching pains,1.0,1
+enlarged lymphatic glands,flying pains,1.0,1
+enlarged lymphatic glands,jerking stitching pains in limbs,1.0,1
+enlarged lymphatic glands,sensation as if heavy load on back between shoulders,1.0,1
+enlarged lymphatic glands,jerking flying stitches in wrists,1.0,1
+enlarged lymphatic glands,jerking flying stitches in finger joints,1.0,1
+enlarged lymphatic glands,rheumatism lingers and relapses regularly,1.0,1
+enlarged lymphatic glands,tearing pain in right elbow,1.0,1
+enlarged lymphatic glands,small of back pain worse by going upstairs,1.0,1
+enlarged lymphatic glands,severe pains in knees,1.0,1
+enlarged lymphatic glands,rheumatic pains in neck,1.0,1
+enlarged lymphatic glands,violent headache,1.0,1
+jerking flying stitches in wrists,gouty swellings without gouty dyscrasia,1.0,1
+jerking flying stitches in wrists,occasional jerking toward hip joint,1.0,1
+jerking flying stitches in wrists,redness of feet,1.0,1
+jerking flying stitches in wrists,stitches from shoulder to elbow,1.0,1
+jerking flying stitches in wrists,enlarged lymphatic glands,1.0,1
+jerking flying stitches in wrists,cracking in right shoulder joint from motion,1.0,1
+jerking flying stitches in wrists,neuralgia of teeth,1.0,1
+jerking flying stitches in wrists,chronic rheumatic affections,1.0,1
+jerking flying stitches in wrists,sprained pain in left metatarsal bones,1.0,1
+jerking flying stitches in wrists,cracking of joints after inflammation,1.0,1
+jerking flying stitches in wrists,stabbing piercing pain in metatarsal bones when walking,1.0,1
+jerking flying stitches in wrists,inability to walk,1.0,1
+jerking flying stitches in wrists,dislocated pain in right loin,1.0,1
+jerking flying stitches in wrists,pains returning at regular intervals,1.0,1
+jerking flying stitches in wrists,shoulder pain worse during damp cold weather,1.0,1
+jerking flying stitches in wrists,shoulder pain worse after midnight,1.0,1
+jerking flying stitches in wrists,inflammation of left sciatic nerve from cold exposure,1.0,1
+jerking flying stitches in wrists,belching improves symptoms,1.0,1
+jerking flying stitches in wrists,severe stitches from shoulder to elbow,1.0,1
+jerking flying stitches in wrists,gout of hands,1.0,1
+jerking flying stitches in wrists,severe pains in hips,1.0,1
+jerking flying stitches in wrists,tearing in all limbs,1.0,1
+jerking flying stitches in wrists,slight fever or absent fever,1.0,1
+jerking flying stitches in wrists,jerking pains,1.0,1
+jerking flying stitches in wrists,stitches from shoulder to wrist,1.0,1
+jerking flying stitches in wrists,pain in loins,1.0,1
+jerking flying stitches in wrists,bruised pain in soles,1.0,1
+jerking flying stitches in wrists,dislocated pain in right knee,1.0,1
+jerking flying stitches in wrists,difficult breathing,1.0,1
+jerking flying stitches in wrists,movements impeded,1.0,1
+jerking flying stitches in wrists,quick recovery from acute articular manifestations,1.0,1
+jerking flying stitches in wrists,frequent exacerbations,1.0,1
+jerking flying stitches in wrists,shoulder pain with every weather change,1.0,1
+jerking flying stitches in wrists,chronic sciatica in right leg,1.0,1
+jerking flying stitches in wrists,tensive feeling in small of back,1.0,1
+jerking flying stitches in wrists,jerking stitches in right shoulder,1.0,1
+jerking flying stitches in wrists,chronic rheumatism with frequent attacks,1.0,1
+jerking flying stitches in wrists,belching of sour flatus,1.0,1
+jerking flying stitches in wrists,hot expiration,1.0,1
+jerking flying stitches in wrists,severe pains from slightest motion,1.0,1
+jerking flying stitches in wrists,cracking in ankle joint,1.0,1
+jerking flying stitches in wrists,stitching pains,1.0,1
+jerking flying stitches in wrists,flying pains,1.0,1
+jerking flying stitches in wrists,jerking stitching pains in limbs,1.0,1
+jerking flying stitches in wrists,sensation as if heavy load on back between shoulders,1.0,1
+jerking flying stitches in wrists,jerking flying stitches in finger joints,1.0,1
+jerking flying stitches in wrists,rheumatism lingers and relapses regularly,1.0,1
+jerking flying stitches in wrists,tearing pain in right elbow,1.0,1
+jerking flying stitches in wrists,small of back pain worse by going upstairs,1.0,1
+jerking flying stitches in wrists,severe pains in knees,1.0,1
+jerking flying stitches in wrists,rheumatic pains in neck,1.0,1
+jerking flying stitches in wrists,violent headache,1.0,1
+violent headache,gouty swellings without gouty dyscrasia,1.0,1
+violent headache,occasional jerking toward hip joint,1.0,1
+violent headache,redness of feet,1.0,1
+violent headache,stitches from shoulder to elbow,1.0,1
+violent headache,enlarged lymphatic glands,1.0,1
+violent headache,cracking in right shoulder joint from motion,1.0,1
+violent headache,neuralgia of teeth,1.0,1
+violent headache,chronic rheumatic affections,1.0,1
+violent headache,sprained pain in left metatarsal bones,1.0,1
+violent headache,cracking of joints after inflammation,1.0,1
+violent headache,stabbing piercing pain in metatarsal bones when walking,1.0,1
+violent headache,inability to walk,1.0,1
+violent headache,dislocated pain in right loin,1.0,1
+violent headache,pains returning at regular intervals,1.0,1
+violent headache,shoulder pain worse during damp cold weather,1.0,1
+violent headache,shoulder pain worse after midnight,1.0,1
+violent headache,inflammation of left sciatic nerve from cold exposure,1.0,1
+violent headache,belching improves symptoms,1.0,1
+violent headache,severe stitches from shoulder to elbow,1.0,1
+violent headache,gout of hands,1.0,1
+violent headache,severe pains in hips,1.0,1
+violent headache,tearing in all limbs,1.0,1
+violent headache,slight fever or absent fever,1.0,1
+violent headache,jerking pains,1.0,1
+violent headache,stitches from shoulder to wrist,1.0,1
+violent headache,pain in loins,1.0,1
+violent headache,bruised pain in soles,1.0,1
+violent headache,dislocated pain in right knee,1.0,1
+violent headache,difficult breathing,1.0,1
+violent headache,movements impeded,1.0,1
+violent headache,quick recovery from acute articular manifestations,1.0,1
+violent headache,frequent exacerbations,1.0,1
+violent headache,shoulder pain with every weather change,1.0,1
+violent headache,chronic sciatica in right leg,1.0,1
+violent headache,tensive feeling in small of back,1.0,1
+violent headache,jerking stitches in right shoulder,1.0,1
+violent headache,chronic rheumatism with frequent attacks,1.0,1
+violent headache,belching of sour flatus,1.0,1
+violent headache,hot expiration,1.0,1
+violent headache,severe pains from slightest motion,1.0,1
+violent headache,cracking in ankle joint,1.0,1
+violent headache,stitching pains,1.0,1
+violent headache,flying pains,1.0,1
+violent headache,jerking stitching pains in limbs,1.0,1
+violent headache,sensation as if heavy load on back between shoulders,1.0,1
+violent headache,jerking flying stitches in wrists,1.0,1
+violent headache,jerking flying stitches in finger joints,1.0,1
+violent headache,rheumatism lingers and relapses regularly,1.0,1
+violent headache,tearing pain in right elbow,1.0,1
+violent headache,small of back pain worse by going upstairs,1.0,1
+violent headache,severe pains in knees,1.0,1
+violent headache,rheumatic pains in neck,1.0,1
+tearing in all limbs,gouty swellings without gouty dyscrasia,1.0,1
+tearing in all limbs,occasional jerking toward hip joint,1.0,1
+tearing in all limbs,redness of feet,1.0,1
+tearing in all limbs,stitches from shoulder to elbow,1.0,1
+tearing in all limbs,enlarged lymphatic glands,1.0,1
+tearing in all limbs,cracking in right shoulder joint from motion,1.0,1
+tearing in all limbs,neuralgia of teeth,1.0,1
+tearing in all limbs,chronic rheumatic affections,1.0,1
+tearing in all limbs,sprained pain in left metatarsal bones,1.0,1
+tearing in all limbs,cracking of joints after inflammation,1.0,1
+tearing in all limbs,stabbing piercing pain in metatarsal bones when walking,1.0,1
+tearing in all limbs,inability to walk,1.0,1
+tearing in all limbs,dislocated pain in right loin,1.0,1
+tearing in all limbs,pains returning at regular intervals,1.0,1
+tearing in all limbs,shoulder pain worse during damp cold weather,1.0,1
+tearing in all limbs,shoulder pain worse after midnight,1.0,1
+tearing in all limbs,inflammation of left sciatic nerve from cold exposure,1.0,1
+tearing in all limbs,belching improves symptoms,1.0,1
+tearing in all limbs,severe stitches from shoulder to elbow,1.0,1
+tearing in all limbs,gout of hands,1.0,1
+tearing in all limbs,severe pains in hips,1.0,1
+tearing in all limbs,slight fever or absent fever,1.0,1
+tearing in all limbs,jerking pains,1.0,1
+tearing in all limbs,stitches from shoulder to wrist,1.0,1
+tearing in all limbs,pain in loins,1.0,1
+tearing in all limbs,bruised pain in soles,1.0,1
+tearing in all limbs,dislocated pain in right knee,1.0,1
+tearing in all limbs,difficult breathing,1.0,1
+tearing in all limbs,movements impeded,1.0,1
+tearing in all limbs,quick recovery from acute articular manifestations,1.0,1
+tearing in all limbs,frequent exacerbations,1.0,1
+tearing in all limbs,shoulder pain with every weather change,1.0,1
+tearing in all limbs,chronic sciatica in right leg,1.0,1
+tearing in all limbs,tensive feeling in small of back,1.0,1
+tearing in all limbs,jerking stitches in right shoulder,1.0,1
+tearing in all limbs,chronic rheumatism with frequent attacks,1.0,1
+tearing in all limbs,belching of sour flatus,1.0,1
+tearing in all limbs,hot expiration,1.0,1
+tearing in all limbs,severe pains from slightest motion,1.0,1
+tearing in all limbs,cracking in ankle joint,1.0,1
+tearing in all limbs,stitching pains,1.0,1
+tearing in all limbs,flying pains,1.0,1
+tearing in all limbs,jerking stitching pains in limbs,1.0,1
+tearing in all limbs,sensation as if heavy load on back between shoulders,1.0,1
+tearing in all limbs,jerking flying stitches in wrists,1.0,1
+tearing in all limbs,jerking flying stitches in finger joints,1.0,1
+tearing in all limbs,rheumatism lingers and relapses regularly,1.0,1
+tearing in all limbs,tearing pain in right elbow,1.0,1
+tearing in all limbs,small of back pain worse by going upstairs,1.0,1
+tearing in all limbs,severe pains in knees,1.0,1
+tearing in all limbs,rheumatic pains in neck,1.0,1
+tearing in all limbs,violent headache,1.0,1
+jerking flying stitches in finger joints,gouty swellings without gouty dyscrasia,1.0,1
+jerking flying stitches in finger joints,occasional jerking toward hip joint,1.0,1
+jerking flying stitches in finger joints,redness of feet,1.0,1
+jerking flying stitches in finger joints,stitches from shoulder to elbow,1.0,1
+jerking flying stitches in finger joints,enlarged lymphatic glands,1.0,1
+jerking flying stitches in finger joints,cracking in right shoulder joint from motion,1.0,1
+jerking flying stitches in finger joints,neuralgia of teeth,1.0,1
+jerking flying stitches in finger joints,chronic rheumatic affections,1.0,1
+jerking flying stitches in finger joints,sprained pain in left metatarsal bones,1.0,1
+jerking flying stitches in finger joints,cracking of joints after inflammation,1.0,1
+jerking flying stitches in finger joints,stabbing piercing pain in metatarsal bones when walking,1.0,1
+jerking flying stitches in finger joints,inability to walk,1.0,1
+jerking flying stitches in finger joints,dislocated pain in right loin,1.0,1
+jerking flying stitches in finger joints,pains returning at regular intervals,1.0,1
+jerking flying stitches in finger joints,shoulder pain worse during damp cold weather,1.0,1
+jerking flying stitches in finger joints,shoulder pain worse after midnight,1.0,1
+jerking flying stitches in finger joints,inflammation of left sciatic nerve from cold exposure,1.0,1
+jerking flying stitches in finger joints,belching improves symptoms,1.0,1
+jerking flying stitches in finger joints,severe stitches from shoulder to elbow,1.0,1
+jerking flying stitches in finger joints,gout of hands,1.0,1
+jerking flying stitches in finger joints,severe pains in hips,1.0,1
+jerking flying stitches in finger joints,tearing in all limbs,1.0,1
+jerking flying stitches in finger joints,slight fever or absent fever,1.0,1
+jerking flying stitches in finger joints,jerking pains,1.0,1
+jerking flying stitches in finger joints,stitches from shoulder to wrist,1.0,1
+jerking flying stitches in finger joints,pain in loins,1.0,1
+jerking flying stitches in finger joints,bruised pain in soles,1.0,1
+jerking flying stitches in finger joints,dislocated pain in right knee,1.0,1
+jerking flying stitches in finger joints,difficult breathing,1.0,1
+jerking flying stitches in finger joints,movements impeded,1.0,1
+jerking flying stitches in finger joints,quick recovery from acute articular manifestations,1.0,1
+jerking flying stitches in finger joints,frequent exacerbations,1.0,1
+jerking flying stitches in finger joints,shoulder pain with every weather change,1.0,1
+jerking flying stitches in finger joints,chronic sciatica in right leg,1.0,1
+jerking flying stitches in finger joints,tensive feeling in small of back,1.0,1
+jerking flying stitches in finger joints,jerking stitches in right shoulder,1.0,1
+jerking flying stitches in finger joints,chronic rheumatism with frequent attacks,1.0,1
+jerking flying stitches in finger joints,belching of sour flatus,1.0,1
+jerking flying stitches in finger joints,hot expiration,1.0,1
+jerking flying stitches in finger joints,severe pains from slightest motion,1.0,1
+jerking flying stitches in finger joints,cracking in ankle joint,1.0,1
+jerking flying stitches in finger joints,stitching pains,1.0,1
+jerking flying stitches in finger joints,flying pains,1.0,1
+jerking flying stitches in finger joints,jerking stitching pains in limbs,1.0,1
+jerking flying stitches in finger joints,sensation as if heavy load on back between shoulders,1.0,1
+jerking flying stitches in finger joints,jerking flying stitches in wrists,1.0,1
+jerking flying stitches in finger joints,rheumatism lingers and relapses regularly,1.0,1
+jerking flying stitches in finger joints,tearing pain in right elbow,1.0,1
+jerking flying stitches in finger joints,small of back pain worse by going upstairs,1.0,1
+jerking flying stitches in finger joints,severe pains in knees,1.0,1
+jerking flying stitches in finger joints,rheumatic pains in neck,1.0,1
+jerking flying stitches in finger joints,violent headache,1.0,1
+tensive feeling in small of back,gouty swellings without gouty dyscrasia,1.0,1
+tensive feeling in small of back,occasional jerking toward hip joint,1.0,1
+tensive feeling in small of back,redness of feet,1.0,1
+tensive feeling in small of back,stitches from shoulder to elbow,1.0,1
+tensive feeling in small of back,enlarged lymphatic glands,1.0,1
+tensive feeling in small of back,cracking in right shoulder joint from motion,1.0,1
+tensive feeling in small of back,neuralgia of teeth,1.0,1
+tensive feeling in small of back,chronic rheumatic affections,1.0,1
+tensive feeling in small of back,sprained pain in left metatarsal bones,1.0,1
+tensive feeling in small of back,cracking of joints after inflammation,1.0,1
+tensive feeling in small of back,stabbing piercing pain in metatarsal bones when walking,1.0,1
+tensive feeling in small of back,inability to walk,1.0,1
+tensive feeling in small of back,dislocated pain in right loin,1.0,1
+tensive feeling in small of back,pains returning at regular intervals,1.0,1
+tensive feeling in small of back,shoulder pain worse during damp cold weather,1.0,1
+tensive feeling in small of back,shoulder pain worse after midnight,1.0,1
+tensive feeling in small of back,inflammation of left sciatic nerve from cold exposure,1.0,1
+tensive feeling in small of back,belching improves symptoms,1.0,1
+tensive feeling in small of back,severe stitches from shoulder to elbow,1.0,1
+tensive feeling in small of back,gout of hands,1.0,1
+tensive feeling in small of back,severe pains in hips,1.0,1
+tensive feeling in small of back,tearing in all limbs,1.0,1
+tensive feeling in small of back,slight fever or absent fever,1.0,1
+tensive feeling in small of back,jerking pains,1.0,1
+tensive feeling in small of back,stitches from shoulder to wrist,1.0,1
+tensive feeling in small of back,pain in loins,1.0,1
+tensive feeling in small of back,bruised pain in soles,1.0,1
+tensive feeling in small of back,dislocated pain in right knee,1.0,1
+tensive feeling in small of back,difficult breathing,1.0,1
+tensive feeling in small of back,movements impeded,1.0,1
+tensive feeling in small of back,quick recovery from acute articular manifestations,1.0,1
+tensive feeling in small of back,frequent exacerbations,1.0,1
+tensive feeling in small of back,shoulder pain with every weather change,1.0,1
+tensive feeling in small of back,chronic sciatica in right leg,1.0,1
+tensive feeling in small of back,jerking stitches in right shoulder,1.0,1
+tensive feeling in small of back,chronic rheumatism with frequent attacks,1.0,1
+tensive feeling in small of back,belching of sour flatus,1.0,1
+tensive feeling in small of back,hot expiration,1.0,1
+tensive feeling in small of back,severe pains from slightest motion,1.0,1
+tensive feeling in small of back,cracking in ankle joint,1.0,1
+tensive feeling in small of back,stitching pains,1.0,1
+tensive feeling in small of back,flying pains,1.0,1
+tensive feeling in small of back,jerking stitching pains in limbs,1.0,1
+tensive feeling in small of back,sensation as if heavy load on back between shoulders,1.0,1
+tensive feeling in small of back,jerking flying stitches in wrists,1.0,1
+tensive feeling in small of back,jerking flying stitches in finger joints,1.0,1
+tensive feeling in small of back,rheumatism lingers and relapses regularly,1.0,1
+tensive feeling in small of back,tearing pain in right elbow,1.0,1
+tensive feeling in small of back,small of back pain worse by going upstairs,1.0,1
+tensive feeling in small of back,severe pains in knees,1.0,1
+tensive feeling in small of back,rheumatic pains in neck,1.0,1
+tensive feeling in small of back,violent headache,1.0,1
+hot expiration,gouty swellings without gouty dyscrasia,1.0,1
+hot expiration,occasional jerking toward hip joint,1.0,1
+hot expiration,redness of feet,1.0,1
+hot expiration,stitches from shoulder to elbow,1.0,1
+hot expiration,enlarged lymphatic glands,1.0,1
+hot expiration,cracking in right shoulder joint from motion,1.0,1
+hot expiration,neuralgia of teeth,1.0,1
+hot expiration,chronic rheumatic affections,1.0,1
+hot expiration,sprained pain in left metatarsal bones,1.0,1
+hot expiration,cracking of joints after inflammation,1.0,1
+hot expiration,stabbing piercing pain in metatarsal bones when walking,1.0,1
+hot expiration,inability to walk,1.0,1
+hot expiration,dislocated pain in right loin,1.0,1
+hot expiration,pains returning at regular intervals,1.0,1
+hot expiration,shoulder pain worse during damp cold weather,1.0,1
+hot expiration,shoulder pain worse after midnight,1.0,1
+hot expiration,inflammation of left sciatic nerve from cold exposure,1.0,1
+hot expiration,belching improves symptoms,1.0,1
+hot expiration,severe stitches from shoulder to elbow,1.0,1
+hot expiration,gout of hands,1.0,1
+hot expiration,severe pains in hips,1.0,1
+hot expiration,tearing in all limbs,1.0,1
+hot expiration,slight fever or absent fever,1.0,1
+hot expiration,jerking pains,1.0,1
+hot expiration,stitches from shoulder to wrist,1.0,1
+hot expiration,pain in loins,1.0,1
+hot expiration,bruised pain in soles,1.0,1
+hot expiration,dislocated pain in right knee,1.0,1
+hot expiration,difficult breathing,1.0,1
+hot expiration,movements impeded,1.0,1
+hot expiration,quick recovery from acute articular manifestations,1.0,1
+hot expiration,frequent exacerbations,1.0,1
+hot expiration,shoulder pain with every weather change,1.0,1
+hot expiration,chronic sciatica in right leg,1.0,1
+hot expiration,tensive feeling in small of back,1.0,1
+hot expiration,jerking stitches in right shoulder,1.0,1
+hot expiration,chronic rheumatism with frequent attacks,1.0,1
+hot expiration,belching of sour flatus,1.0,1
+hot expiration,severe pains from slightest motion,1.0,1
+hot expiration,cracking in ankle joint,1.0,1
+hot expiration,stitching pains,1.0,1
+hot expiration,flying pains,1.0,1
+hot expiration,jerking stitching pains in limbs,1.0,1
+hot expiration,sensation as if heavy load on back between shoulders,1.0,1
+hot expiration,jerking flying stitches in wrists,1.0,1
+hot expiration,jerking flying stitches in finger joints,1.0,1
+hot expiration,rheumatism lingers and relapses regularly,1.0,1
+hot expiration,tearing pain in right elbow,1.0,1
+hot expiration,small of back pain worse by going upstairs,1.0,1
+hot expiration,severe pains in knees,1.0,1
+hot expiration,rheumatic pains in neck,1.0,1
+hot expiration,violent headache,1.0,1
+severe pains in hips,gouty swellings without gouty dyscrasia,1.0,1
+severe pains in hips,occasional jerking toward hip joint,1.0,1
+severe pains in hips,redness of feet,1.0,1
+severe pains in hips,stitches from shoulder to elbow,1.0,1
+severe pains in hips,enlarged lymphatic glands,1.0,1
+severe pains in hips,cracking in right shoulder joint from motion,1.0,1
+severe pains in hips,neuralgia of teeth,1.0,1
+severe pains in hips,chronic rheumatic affections,1.0,1
+severe pains in hips,sprained pain in left metatarsal bones,1.0,1
+severe pains in hips,cracking of joints after inflammation,1.0,1
+severe pains in hips,stabbing piercing pain in metatarsal bones when walking,1.0,1
+severe pains in hips,inability to walk,1.0,1
+severe pains in hips,dislocated pain in right loin,1.0,1
+severe pains in hips,pains returning at regular intervals,1.0,1
+severe pains in hips,shoulder pain worse during damp cold weather,1.0,1
+severe pains in hips,shoulder pain worse after midnight,1.0,1
+severe pains in hips,inflammation of left sciatic nerve from cold exposure,1.0,1
+severe pains in hips,belching improves symptoms,1.0,1
+severe pains in hips,severe stitches from shoulder to elbow,1.0,1
+severe pains in hips,gout of hands,1.0,1
+severe pains in hips,tearing in all limbs,1.0,1
+severe pains in hips,slight fever or absent fever,1.0,1
+severe pains in hips,jerking pains,1.0,1
+severe pains in hips,stitches from shoulder to wrist,1.0,1
+severe pains in hips,pain in loins,1.0,1
+severe pains in hips,bruised pain in soles,1.0,1
+severe pains in hips,dislocated pain in right knee,1.0,1
+severe pains in hips,difficult breathing,1.0,1
+severe pains in hips,movements impeded,1.0,1
+severe pains in hips,quick recovery from acute articular manifestations,1.0,1
+severe pains in hips,frequent exacerbations,1.0,1
+severe pains in hips,shoulder pain with every weather change,1.0,1
+severe pains in hips,chronic sciatica in right leg,1.0,1
+severe pains in hips,tensive feeling in small of back,1.0,1
+severe pains in hips,jerking stitches in right shoulder,1.0,1
+severe pains in hips,chronic rheumatism with frequent attacks,1.0,1
+severe pains in hips,belching of sour flatus,1.0,1
+severe pains in hips,hot expiration,1.0,1
+severe pains in hips,severe pains from slightest motion,1.0,1
+severe pains in hips,cracking in ankle joint,1.0,1
+severe pains in hips,stitching pains,1.0,1
+severe pains in hips,flying pains,1.0,1
+severe pains in hips,jerking stitching pains in limbs,1.0,1
+severe pains in hips,sensation as if heavy load on back between shoulders,1.0,1
+severe pains in hips,jerking flying stitches in wrists,1.0,1
+severe pains in hips,jerking flying stitches in finger joints,1.0,1
+severe pains in hips,rheumatism lingers and relapses regularly,1.0,1
+severe pains in hips,tearing pain in right elbow,1.0,1
+severe pains in hips,small of back pain worse by going upstairs,1.0,1
+severe pains in hips,severe pains in knees,1.0,1
+severe pains in hips,rheumatic pains in neck,1.0,1
+severe pains in hips,violent headache,1.0,1
+chronic rheumatic affections,gouty swellings without gouty dyscrasia,1.0,1
+chronic rheumatic affections,occasional jerking toward hip joint,1.0,1
+chronic rheumatic affections,redness of feet,1.0,1
+chronic rheumatic affections,stitches from shoulder to elbow,1.0,1
+chronic rheumatic affections,enlarged lymphatic glands,1.0,1
+chronic rheumatic affections,cracking in right shoulder joint from motion,1.0,1
+chronic rheumatic affections,neuralgia of teeth,1.0,1
+chronic rheumatic affections,sprained pain in left metatarsal bones,1.0,1
+chronic rheumatic affections,cracking of joints after inflammation,1.0,1
+chronic rheumatic affections,stabbing piercing pain in metatarsal bones when walking,1.0,1
+chronic rheumatic affections,inability to walk,1.0,1
+chronic rheumatic affections,dislocated pain in right loin,1.0,1
+chronic rheumatic affections,pains returning at regular intervals,1.0,1
+chronic rheumatic affections,shoulder pain worse during damp cold weather,1.0,1
+chronic rheumatic affections,shoulder pain worse after midnight,1.0,1
+chronic rheumatic affections,inflammation of left sciatic nerve from cold exposure,1.0,1
+chronic rheumatic affections,belching improves symptoms,1.0,1
+chronic rheumatic affections,severe stitches from shoulder to elbow,1.0,1
+chronic rheumatic affections,gout of hands,1.0,1
+chronic rheumatic affections,severe pains in hips,1.0,1
+chronic rheumatic affections,tearing in all limbs,1.0,1
+chronic rheumatic affections,slight fever or absent fever,1.0,1
+chronic rheumatic affections,jerking pains,1.0,1
+chronic rheumatic affections,stitches from shoulder to wrist,1.0,1
+chronic rheumatic affections,pain in loins,1.0,1
+chronic rheumatic affections,bruised pain in soles,1.0,1
+chronic rheumatic affections,dislocated pain in right knee,1.0,1
+chronic rheumatic affections,difficult breathing,1.0,1
+chronic rheumatic affections,movements impeded,1.0,1
+chronic rheumatic affections,quick recovery from acute articular manifestations,1.0,1
+chronic rheumatic affections,frequent exacerbations,1.0,1
+chronic rheumatic affections,shoulder pain with every weather change,1.0,1
+chronic rheumatic affections,chronic sciatica in right leg,1.0,1
+chronic rheumatic affections,tensive feeling in small of back,1.0,1
+chronic rheumatic affections,jerking stitches in right shoulder,1.0,1
+chronic rheumatic affections,chronic rheumatism with frequent attacks,1.0,1
+chronic rheumatic affections,belching of sour flatus,1.0,1
+chronic rheumatic affections,hot expiration,1.0,1
+chronic rheumatic affections,severe pains from slightest motion,1.0,1
+chronic rheumatic affections,cracking in ankle joint,1.0,1
+chronic rheumatic affections,stitching pains,1.0,1
+chronic rheumatic affections,flying pains,1.0,1
+chronic rheumatic affections,jerking stitching pains in limbs,1.0,1
+chronic rheumatic affections,sensation as if heavy load on back between shoulders,1.0,1
+chronic rheumatic affections,jerking flying stitches in wrists,1.0,1
+chronic rheumatic affections,jerking flying stitches in finger joints,1.0,1
+chronic rheumatic affections,rheumatism lingers and relapses regularly,1.0,1
+chronic rheumatic affections,tearing pain in right elbow,1.0,1
+chronic rheumatic affections,small of back pain worse by going upstairs,1.0,1
+chronic rheumatic affections,severe pains in knees,1.0,1
+chronic rheumatic affections,rheumatic pains in neck,1.0,1
+chronic rheumatic affections,violent headache,1.0,1
+stitching pains,gouty swellings without gouty dyscrasia,0.3333,1
+stitching pains,occasional jerking toward hip joint,0.3333,1
+stitching pains,redness of feet,0.3333,1
+stitching pains,stitches from shoulder to elbow,0.3333,1
+stitching pains,enlarged lymphatic glands,0.3333,1
+stitching pains,cracking in right shoulder joint from motion,0.3333,1
+stitching pains,neuralgia of teeth,0.3333,1
+stitching pains,chronic rheumatic affections,0.3333,1
+stitching pains,sprained pain in left metatarsal bones,0.3333,1
+stitching pains,cracking of joints after inflammation,0.3333,1
+stitching pains,stabbing piercing pain in metatarsal bones when walking,0.3333,1
+stitching pains,inability to walk,0.3333,1
+stitching pains,dislocated pain in right loin,0.3333,1
+stitching pains,pains returning at regular intervals,0.3333,1
+stitching pains,shoulder pain worse during damp cold weather,0.3333,1
+stitching pains,shoulder pain worse after midnight,0.3333,1
+stitching pains,inflammation of left sciatic nerve from cold exposure,0.3333,1
+stitching pains,belching improves symptoms,0.3333,1
+stitching pains,severe stitches from shoulder to elbow,0.3333,1
+stitching pains,gout of hands,0.3333,1
+stitching pains,severe pains in hips,0.3333,1
+stitching pains,tearing in all limbs,0.3333,1
+stitching pains,slight fever or absent fever,0.3333,1
+stitching pains,jerking pains,0.3333,1
+stitching pains,stitches from shoulder to wrist,0.3333,1
+stitching pains,pain in loins,0.3333,1
+stitching pains,bruised pain in soles,0.3333,1
+stitching pains,dislocated pain in right knee,0.3333,1
+stitching pains,difficult breathing,0.3333,1
+stitching pains,movements impeded,0.3333,1
+stitching pains,quick recovery from acute articular manifestations,0.3333,1
+stitching pains,frequent exacerbations,0.3333,1
+stitching pains,shoulder pain with every weather change,0.3333,1
+stitching pains,chronic sciatica in right leg,0.3333,1
+stitching pains,tensive feeling in small of back,0.3333,1
+stitching pains,jerking stitches in right shoulder,0.3333,1
+stitching pains,chronic rheumatism with frequent attacks,0.3333,1
+stitching pains,belching of sour flatus,0.3333,1
+stitching pains,hot expiration,0.3333,1
+stitching pains,severe pains from slightest motion,0.3333,1
+stitching pains,cracking in ankle joint,0.3333,1
+stitching pains,flying pains,0.3333,1
+stitching pains,jerking stitching pains in limbs,0.3333,1
+stitching pains,sensation as if heavy load on back between shoulders,0.3333,1
+stitching pains,jerking flying stitches in wrists,0.3333,1
+stitching pains,jerking flying stitches in finger joints,0.3333,1
+stitching pains,rheumatism lingers and relapses regularly,0.3333,1
+stitching pains,tearing pain in right elbow,0.3333,1
+stitching pains,small of back pain worse by going upstairs,0.3333,1
+stitching pains,severe pains in knees,0.3333,1
+stitching pains,rheumatic pains in neck,0.3333,1
+stitching pains,violent headache,0.3333,1
+rheumatism lingers and relapses regularly,gouty swellings without gouty dyscrasia,1.0,1
+rheumatism lingers and relapses regularly,occasional jerking toward hip joint,1.0,1
+rheumatism lingers and relapses regularly,redness of feet,1.0,1
+rheumatism lingers and relapses regularly,stitches from shoulder to elbow,1.0,1
+rheumatism lingers and relapses regularly,enlarged lymphatic glands,1.0,1
+rheumatism lingers and relapses regularly,cracking in right shoulder joint from motion,1.0,1
+rheumatism lingers and relapses regularly,neuralgia of teeth,1.0,1
+rheumatism lingers and relapses regularly,chronic rheumatic affections,1.0,1
+rheumatism lingers and relapses regularly,sprained pain in left metatarsal bones,1.0,1
+rheumatism lingers and relapses regularly,cracking of joints after inflammation,1.0,1
+rheumatism lingers and relapses regularly,stabbing piercing pain in metatarsal bones when walking,1.0,1
+rheumatism lingers and relapses regularly,inability to walk,1.0,1
+rheumatism lingers and relapses regularly,dislocated pain in right loin,1.0,1
+rheumatism lingers and relapses regularly,pains returning at regular intervals,1.0,1
+rheumatism lingers and relapses regularly,shoulder pain worse during damp cold weather,1.0,1
+rheumatism lingers and relapses regularly,shoulder pain worse after midnight,1.0,1
+rheumatism lingers and relapses regularly,inflammation of left sciatic nerve from cold exposure,1.0,1
+rheumatism lingers and relapses regularly,belching improves symptoms,1.0,1
+rheumatism lingers and relapses regularly,severe stitches from shoulder to elbow,1.0,1
+rheumatism lingers and relapses regularly,gout of hands,1.0,1
+rheumatism lingers and relapses regularly,severe pains in hips,1.0,1
+rheumatism lingers and relapses regularly,tearing in all limbs,1.0,1
+rheumatism lingers and relapses regularly,slight fever or absent fever,1.0,1
+rheumatism lingers and relapses regularly,jerking pains,1.0,1
+rheumatism lingers and relapses regularly,stitches from shoulder to wrist,1.0,1
+rheumatism lingers and relapses regularly,pain in loins,1.0,1
+rheumatism lingers and relapses regularly,bruised pain in soles,1.0,1
+rheumatism lingers and relapses regularly,dislocated pain in right knee,1.0,1
+rheumatism lingers and relapses regularly,difficult breathing,1.0,1
+rheumatism lingers and relapses regularly,movements impeded,1.0,1
+rheumatism lingers and relapses regularly,quick recovery from acute articular manifestations,1.0,1
+rheumatism lingers and relapses regularly,frequent exacerbations,1.0,1
+rheumatism lingers and relapses regularly,shoulder pain with every weather change,1.0,1
+rheumatism lingers and relapses regularly,chronic sciatica in right leg,1.0,1
+rheumatism lingers and relapses regularly,tensive feeling in small of back,1.0,1
+rheumatism lingers and relapses regularly,jerking stitches in right shoulder,1.0,1
+rheumatism lingers and relapses regularly,chronic rheumatism with frequent attacks,1.0,1
+rheumatism lingers and relapses regularly,belching of sour flatus,1.0,1
+rheumatism lingers and relapses regularly,hot expiration,1.0,1
+rheumatism lingers and relapses regularly,severe pains from slightest motion,1.0,1
+rheumatism lingers and relapses regularly,cracking in ankle joint,1.0,1
+rheumatism lingers and relapses regularly,stitching pains,1.0,1
+rheumatism lingers and relapses regularly,flying pains,1.0,1
+rheumatism lingers and relapses regularly,jerking stitching pains in limbs,1.0,1
+rheumatism lingers and relapses regularly,sensation as if heavy load on back between shoulders,1.0,1
+rheumatism lingers and relapses regularly,jerking flying stitches in wrists,1.0,1
+rheumatism lingers and relapses regularly,jerking flying stitches in finger joints,1.0,1
+rheumatism lingers and relapses regularly,tearing pain in right elbow,1.0,1
+rheumatism lingers and relapses regularly,small of back pain worse by going upstairs,1.0,1
+rheumatism lingers and relapses regularly,severe pains in knees,1.0,1
+rheumatism lingers and relapses regularly,rheumatic pains in neck,1.0,1
+rheumatism lingers and relapses regularly,violent headache,1.0,1
+quick recovery from acute articular manifestations,gouty swellings without gouty dyscrasia,1.0,1
+quick recovery from acute articular manifestations,occasional jerking toward hip joint,1.0,1
+quick recovery from acute articular manifestations,redness of feet,1.0,1
+quick recovery from acute articular manifestations,stitches from shoulder to elbow,1.0,1
+quick recovery from acute articular manifestations,enlarged lymphatic glands,1.0,1
+quick recovery from acute articular manifestations,cracking in right shoulder joint from motion,1.0,1
+quick recovery from acute articular manifestations,neuralgia of teeth,1.0,1
+quick recovery from acute articular manifestations,chronic rheumatic affections,1.0,1
+quick recovery from acute articular manifestations,sprained pain in left metatarsal bones,1.0,1
+quick recovery from acute articular manifestations,cracking of joints after inflammation,1.0,1
+quick recovery from acute articular manifestations,stabbing piercing pain in metatarsal bones when walking,1.0,1
+quick recovery from acute articular manifestations,inability to walk,1.0,1
+quick recovery from acute articular manifestations,dislocated pain in right loin,1.0,1
+quick recovery from acute articular manifestations,pains returning at regular intervals,1.0,1
+quick recovery from acute articular manifestations,shoulder pain worse during damp cold weather,1.0,1
+quick recovery from acute articular manifestations,shoulder pain worse after midnight,1.0,1
+quick recovery from acute articular manifestations,inflammation of left sciatic nerve from cold exposure,1.0,1
+quick recovery from acute articular manifestations,belching improves symptoms,1.0,1
+quick recovery from acute articular manifestations,severe stitches from shoulder to elbow,1.0,1
+quick recovery from acute articular manifestations,gout of hands,1.0,1
+quick recovery from acute articular manifestations,severe pains in hips,1.0,1
+quick recovery from acute articular manifestations,tearing in all limbs,1.0,1
+quick recovery from acute articular manifestations,slight fever or absent fever,1.0,1
+quick recovery from acute articular manifestations,jerking pains,1.0,1
+quick recovery from acute articular manifestations,stitches from shoulder to wrist,1.0,1
+quick recovery from acute articular manifestations,pain in loins,1.0,1
+quick recovery from acute articular manifestations,bruised pain in soles,1.0,1
+quick recovery from acute articular manifestations,dislocated pain in right knee,1.0,1
+quick recovery from acute articular manifestations,difficult breathing,1.0,1
+quick recovery from acute articular manifestations,movements impeded,1.0,1
+quick recovery from acute articular manifestations,frequent exacerbations,1.0,1
+quick recovery from acute articular manifestations,shoulder pain with every weather change,1.0,1
+quick recovery from acute articular manifestations,chronic sciatica in right leg,1.0,1
+quick recovery from acute articular manifestations,tensive feeling in small of back,1.0,1
+quick recovery from acute articular manifestations,jerking stitches in right shoulder,1.0,1
+quick recovery from acute articular manifestations,chronic rheumatism with frequent attacks,1.0,1
+quick recovery from acute articular manifestations,belching of sour flatus,1.0,1
+quick recovery from acute articular manifestations,hot expiration,1.0,1
+quick recovery from acute articular manifestations,severe pains from slightest motion,1.0,1
+quick recovery from acute articular manifestations,cracking in ankle joint,1.0,1
+quick recovery from acute articular manifestations,stitching pains,1.0,1
+quick recovery from acute articular manifestations,flying pains,1.0,1
+quick recovery from acute articular manifestations,jerking stitching pains in limbs,1.0,1
+quick recovery from acute articular manifestations,sensation as if heavy load on back between shoulders,1.0,1
+quick recovery from acute articular manifestations,jerking flying stitches in wrists,1.0,1
+quick recovery from acute articular manifestations,jerking flying stitches in finger joints,1.0,1
+quick recovery from acute articular manifestations,rheumatism lingers and relapses regularly,1.0,1
+quick recovery from acute articular manifestations,tearing pain in right elbow,1.0,1
+quick recovery from acute articular manifestations,small of back pain worse by going upstairs,1.0,1
+quick recovery from acute articular manifestations,severe pains in knees,1.0,1
+quick recovery from acute articular manifestations,rheumatic pains in neck,1.0,1
+quick recovery from acute articular manifestations,violent headache,1.0,1
+jerking stitching pains in limbs,gouty swellings without gouty dyscrasia,1.0,1
+jerking stitching pains in limbs,occasional jerking toward hip joint,1.0,1
+jerking stitching pains in limbs,redness of feet,1.0,1
+jerking stitching pains in limbs,stitches from shoulder to elbow,1.0,1
+jerking stitching pains in limbs,enlarged lymphatic glands,1.0,1
+jerking stitching pains in limbs,cracking in right shoulder joint from motion,1.0,1
+jerking stitching pains in limbs,neuralgia of teeth,1.0,1
+jerking stitching pains in limbs,chronic rheumatic affections,1.0,1
+jerking stitching pains in limbs,sprained pain in left metatarsal bones,1.0,1
+jerking stitching pains in limbs,cracking of joints after inflammation,1.0,1
+jerking stitching pains in limbs,stabbing piercing pain in metatarsal bones when walking,1.0,1
+jerking stitching pains in limbs,inability to walk,1.0,1
+jerking stitching pains in limbs,dislocated pain in right loin,1.0,1
+jerking stitching pains in limbs,pains returning at regular intervals,1.0,1
+jerking stitching pains in limbs,shoulder pain worse during damp cold weather,1.0,1
+jerking stitching pains in limbs,shoulder pain worse after midnight,1.0,1
+jerking stitching pains in limbs,inflammation of left sciatic nerve from cold exposure,1.0,1
+jerking stitching pains in limbs,belching improves symptoms,1.0,1
+jerking stitching pains in limbs,severe stitches from shoulder to elbow,1.0,1
+jerking stitching pains in limbs,gout of hands,1.0,1
+jerking stitching pains in limbs,severe pains in hips,1.0,1
+jerking stitching pains in limbs,tearing in all limbs,1.0,1
+jerking stitching pains in limbs,slight fever or absent fever,1.0,1
+jerking stitching pains in limbs,jerking pains,1.0,1
+jerking stitching pains in limbs,stitches from shoulder to wrist,1.0,1
+jerking stitching pains in limbs,pain in loins,1.0,1
+jerking stitching pains in limbs,bruised pain in soles,1.0,1
+jerking stitching pains in limbs,dislocated pain in right knee,1.0,1
+jerking stitching pains in limbs,difficult breathing,1.0,1
+jerking stitching pains in limbs,movements impeded,1.0,1
+jerking stitching pains in limbs,quick recovery from acute articular manifestations,1.0,1
+jerking stitching pains in limbs,frequent exacerbations,1.0,1
+jerking stitching pains in limbs,shoulder pain with every weather change,1.0,1
+jerking stitching pains in limbs,chronic sciatica in right leg,1.0,1
+jerking stitching pains in limbs,tensive feeling in small of back,1.0,1
+jerking stitching pains in limbs,jerking stitches in right shoulder,1.0,1
+jerking stitching pains in limbs,chronic rheumatism with frequent attacks,1.0,1
+jerking stitching pains in limbs,belching of sour flatus,1.0,1
+jerking stitching pains in limbs,hot expiration,1.0,1
+jerking stitching pains in limbs,severe pains from slightest motion,1.0,1
+jerking stitching pains in limbs,cracking in ankle joint,1.0,1
+jerking stitching pains in limbs,stitching pains,1.0,1
+jerking stitching pains in limbs,flying pains,1.0,1
+jerking stitching pains in limbs,sensation as if heavy load on back between shoulders,1.0,1
+jerking stitching pains in limbs,jerking flying stitches in wrists,1.0,1
+jerking stitching pains in limbs,jerking flying stitches in finger joints,1.0,1
+jerking stitching pains in limbs,rheumatism lingers and relapses regularly,1.0,1
+jerking stitching pains in limbs,tearing pain in right elbow,1.0,1
+jerking stitching pains in limbs,small of back pain worse by going upstairs,1.0,1
+jerking stitching pains in limbs,severe pains in knees,1.0,1
+jerking stitching pains in limbs,rheumatic pains in neck,1.0,1
+jerking stitching pains in limbs,violent headache,1.0,1
+slight fever or absent fever,gouty swellings without gouty dyscrasia,1.0,1
+slight fever or absent fever,occasional jerking toward hip joint,1.0,1
+slight fever or absent fever,redness of feet,1.0,1
+slight fever or absent fever,stitches from shoulder to elbow,1.0,1
+slight fever or absent fever,enlarged lymphatic glands,1.0,1
+slight fever or absent fever,cracking in right shoulder joint from motion,1.0,1
+slight fever or absent fever,neuralgia of teeth,1.0,1
+slight fever or absent fever,chronic rheumatic affections,1.0,1
+slight fever or absent fever,sprained pain in left metatarsal bones,1.0,1
+slight fever or absent fever,cracking of joints after inflammation,1.0,1
+slight fever or absent fever,stabbing piercing pain in metatarsal bones when walking,1.0,1
+slight fever or absent fever,inability to walk,1.0,1
+slight fever or absent fever,dislocated pain in right loin,1.0,1
+slight fever or absent fever,pains returning at regular intervals,1.0,1
+slight fever or absent fever,shoulder pain worse during damp cold weather,1.0,1
+slight fever or absent fever,shoulder pain worse after midnight,1.0,1
+slight fever or absent fever,inflammation of left sciatic nerve from cold exposure,1.0,1
+slight fever or absent fever,belching improves symptoms,1.0,1
+slight fever or absent fever,severe stitches from shoulder to elbow,1.0,1
+slight fever or absent fever,gout of hands,1.0,1
+slight fever or absent fever,severe pains in hips,1.0,1
+slight fever or absent fever,tearing in all limbs,1.0,1
+slight fever or absent fever,jerking pains,1.0,1
+slight fever or absent fever,stitches from shoulder to wrist,1.0,1
+slight fever or absent fever,pain in loins,1.0,1
+slight fever or absent fever,bruised pain in soles,1.0,1
+slight fever or absent fever,dislocated pain in right knee,1.0,1
+slight fever or absent fever,difficult breathing,1.0,1
+slight fever or absent fever,movements impeded,1.0,1
+slight fever or absent fever,quick recovery from acute articular manifestations,1.0,1
+slight fever or absent fever,frequent exacerbations,1.0,1
+slight fever or absent fever,shoulder pain with every weather change,1.0,1
+slight fever or absent fever,chronic sciatica in right leg,1.0,1
+slight fever or absent fever,tensive feeling in small of back,1.0,1
+slight fever or absent fever,jerking stitches in right shoulder,1.0,1
+slight fever or absent fever,chronic rheumatism with frequent attacks,1.0,1
+slight fever or absent fever,belching of sour flatus,1.0,1
+slight fever or absent fever,hot expiration,1.0,1
+slight fever or absent fever,severe pains from slightest motion,1.0,1
+slight fever or absent fever,cracking in ankle joint,1.0,1
+slight fever or absent fever,stitching pains,1.0,1
+slight fever or absent fever,flying pains,1.0,1
+slight fever or absent fever,jerking stitching pains in limbs,1.0,1
+slight fever or absent fever,sensation as if heavy load on back between shoulders,1.0,1
+slight fever or absent fever,jerking flying stitches in wrists,1.0,1
+slight fever or absent fever,jerking flying stitches in finger joints,1.0,1
+slight fever or absent fever,rheumatism lingers and relapses regularly,1.0,1
+slight fever or absent fever,tearing pain in right elbow,1.0,1
+slight fever or absent fever,small of back pain worse by going upstairs,1.0,1
+slight fever or absent fever,severe pains in knees,1.0,1
+slight fever or absent fever,rheumatic pains in neck,1.0,1
+slight fever or absent fever,violent headache,1.0,1
+sprained pain in left metatarsal bones,gouty swellings without gouty dyscrasia,1.0,1
+sprained pain in left metatarsal bones,occasional jerking toward hip joint,1.0,1
+sprained pain in left metatarsal bones,redness of feet,1.0,1
+sprained pain in left metatarsal bones,stitches from shoulder to elbow,1.0,1
+sprained pain in left metatarsal bones,enlarged lymphatic glands,1.0,1
+sprained pain in left metatarsal bones,cracking in right shoulder joint from motion,1.0,1
+sprained pain in left metatarsal bones,neuralgia of teeth,1.0,1
+sprained pain in left metatarsal bones,chronic rheumatic affections,1.0,1
+sprained pain in left metatarsal bones,cracking of joints after inflammation,1.0,1
+sprained pain in left metatarsal bones,stabbing piercing pain in metatarsal bones when walking,1.0,1
+sprained pain in left metatarsal bones,inability to walk,1.0,1
+sprained pain in left metatarsal bones,dislocated pain in right loin,1.0,1
+sprained pain in left metatarsal bones,pains returning at regular intervals,1.0,1
+sprained pain in left metatarsal bones,shoulder pain worse during damp cold weather,1.0,1
+sprained pain in left metatarsal bones,shoulder pain worse after midnight,1.0,1
+sprained pain in left metatarsal bones,inflammation of left sciatic nerve from cold exposure,1.0,1
+sprained pain in left metatarsal bones,belching improves symptoms,1.0,1
+sprained pain in left metatarsal bones,severe stitches from shoulder to elbow,1.0,1
+sprained pain in left metatarsal bones,gout of hands,1.0,1
+sprained pain in left metatarsal bones,severe pains in hips,1.0,1
+sprained pain in left metatarsal bones,tearing in all limbs,1.0,1
+sprained pain in left metatarsal bones,slight fever or absent fever,1.0,1
+sprained pain in left metatarsal bones,jerking pains,1.0,1
+sprained pain in left metatarsal bones,stitches from shoulder to wrist,1.0,1
+sprained pain in left metatarsal bones,pain in loins,1.0,1
+sprained pain in left metatarsal bones,bruised pain in soles,1.0,1
+sprained pain in left metatarsal bones,dislocated pain in right knee,1.0,1
+sprained pain in left metatarsal bones,difficult breathing,1.0,1
+sprained pain in left metatarsal bones,movements impeded,1.0,1
+sprained pain in left metatarsal bones,quick recovery from acute articular manifestations,1.0,1
+sprained pain in left metatarsal bones,frequent exacerbations,1.0,1
+sprained pain in left metatarsal bones,shoulder pain with every weather change,1.0,1
+sprained pain in left metatarsal bones,chronic sciatica in right leg,1.0,1
+sprained pain in left metatarsal bones,tensive feeling in small of back,1.0,1
+sprained pain in left metatarsal bones,jerking stitches in right shoulder,1.0,1
+sprained pain in left metatarsal bones,chronic rheumatism with frequent attacks,1.0,1
+sprained pain in left metatarsal bones,belching of sour flatus,1.0,1
+sprained pain in left metatarsal bones,hot expiration,1.0,1
+sprained pain in left metatarsal bones,severe pains from slightest motion,1.0,1
+sprained pain in left metatarsal bones,cracking in ankle joint,1.0,1
+sprained pain in left metatarsal bones,stitching pains,1.0,1
+sprained pain in left metatarsal bones,flying pains,1.0,1
+sprained pain in left metatarsal bones,jerking stitching pains in limbs,1.0,1
+sprained pain in left metatarsal bones,sensation as if heavy load on back between shoulders,1.0,1
+sprained pain in left metatarsal bones,jerking flying stitches in wrists,1.0,1
+sprained pain in left metatarsal bones,jerking flying stitches in finger joints,1.0,1
+sprained pain in left metatarsal bones,rheumatism lingers and relapses regularly,1.0,1
+sprained pain in left metatarsal bones,tearing pain in right elbow,1.0,1
+sprained pain in left metatarsal bones,small of back pain worse by going upstairs,1.0,1
+sprained pain in left metatarsal bones,severe pains in knees,1.0,1
+sprained pain in left metatarsal bones,rheumatic pains in neck,1.0,1
+sprained pain in left metatarsal bones,violent headache,1.0,1
+shoulder pain worse after midnight,gouty swellings without gouty dyscrasia,1.0,1
+shoulder pain worse after midnight,occasional jerking toward hip joint,1.0,1
+shoulder pain worse after midnight,redness of feet,1.0,1
+shoulder pain worse after midnight,stitches from shoulder to elbow,1.0,1
+shoulder pain worse after midnight,enlarged lymphatic glands,1.0,1
+shoulder pain worse after midnight,cracking in right shoulder joint from motion,1.0,1
+shoulder pain worse after midnight,neuralgia of teeth,1.0,1
+shoulder pain worse after midnight,chronic rheumatic affections,1.0,1
+shoulder pain worse after midnight,sprained pain in left metatarsal bones,1.0,1
+shoulder pain worse after midnight,cracking of joints after inflammation,1.0,1
+shoulder pain worse after midnight,stabbing piercing pain in metatarsal bones when walking,1.0,1
+shoulder pain worse after midnight,inability to walk,1.0,1
+shoulder pain worse after midnight,dislocated pain in right loin,1.0,1
+shoulder pain worse after midnight,pains returning at regular intervals,1.0,1
+shoulder pain worse after midnight,shoulder pain worse during damp cold weather,1.0,1
+shoulder pain worse after midnight,inflammation of left sciatic nerve from cold exposure,1.0,1
+shoulder pain worse after midnight,belching improves symptoms,1.0,1
+shoulder pain worse after midnight,severe stitches from shoulder to elbow,1.0,1
+shoulder pain worse after midnight,gout of hands,1.0,1
+shoulder pain worse after midnight,severe pains in hips,1.0,1
+shoulder pain worse after midnight,tearing in all limbs,1.0,1
+shoulder pain worse after midnight,slight fever or absent fever,1.0,1
+shoulder pain worse after midnight,jerking pains,1.0,1
+shoulder pain worse after midnight,stitches from shoulder to wrist,1.0,1
+shoulder pain worse after midnight,pain in loins,1.0,1
+shoulder pain worse after midnight,bruised pain in soles,1.0,1
+shoulder pain worse after midnight,dislocated pain in right knee,1.0,1
+shoulder pain worse after midnight,difficult breathing,1.0,1
+shoulder pain worse after midnight,movements impeded,1.0,1
+shoulder pain worse after midnight,quick recovery from acute articular manifestations,1.0,1
+shoulder pain worse after midnight,frequent exacerbations,1.0,1
+shoulder pain worse after midnight,shoulder pain with every weather change,1.0,1
+shoulder pain worse after midnight,chronic sciatica in right leg,1.0,1
+shoulder pain worse after midnight,tensive feeling in small of back,1.0,1
+shoulder pain worse after midnight,jerking stitches in right shoulder,1.0,1
+shoulder pain worse after midnight,chronic rheumatism with frequent attacks,1.0,1
+shoulder pain worse after midnight,belching of sour flatus,1.0,1
+shoulder pain worse after midnight,hot expiration,1.0,1
+shoulder pain worse after midnight,severe pains from slightest motion,1.0,1
+shoulder pain worse after midnight,cracking in ankle joint,1.0,1
+shoulder pain worse after midnight,stitching pains,1.0,1
+shoulder pain worse after midnight,flying pains,1.0,1
+shoulder pain worse after midnight,jerking stitching pains in limbs,1.0,1
+shoulder pain worse after midnight,sensation as if heavy load on back between shoulders,1.0,1
+shoulder pain worse after midnight,jerking flying stitches in wrists,1.0,1
+shoulder pain worse after midnight,jerking flying stitches in finger joints,1.0,1
+shoulder pain worse after midnight,rheumatism lingers and relapses regularly,1.0,1
+shoulder pain worse after midnight,tearing pain in right elbow,1.0,1
+shoulder pain worse after midnight,small of back pain worse by going upstairs,1.0,1
+shoulder pain worse after midnight,severe pains in knees,1.0,1
+shoulder pain worse after midnight,rheumatic pains in neck,1.0,1
+shoulder pain worse after midnight,violent headache,1.0,1
+frequent exacerbations,gouty swellings without gouty dyscrasia,1.0,1
+frequent exacerbations,occasional jerking toward hip joint,1.0,1
+frequent exacerbations,redness of feet,1.0,1
+frequent exacerbations,stitches from shoulder to elbow,1.0,1
+frequent exacerbations,enlarged lymphatic glands,1.0,1
+frequent exacerbations,cracking in right shoulder joint from motion,1.0,1
+frequent exacerbations,neuralgia of teeth,1.0,1
+frequent exacerbations,chronic rheumatic affections,1.0,1
+frequent exacerbations,sprained pain in left metatarsal bones,1.0,1
+frequent exacerbations,cracking of joints after inflammation,1.0,1
+frequent exacerbations,stabbing piercing pain in metatarsal bones when walking,1.0,1
+frequent exacerbations,inability to walk,1.0,1
+frequent exacerbations,dislocated pain in right loin,1.0,1
+frequent exacerbations,pains returning at regular intervals,1.0,1
+frequent exacerbations,shoulder pain worse during damp cold weather,1.0,1
+frequent exacerbations,shoulder pain worse after midnight,1.0,1
+frequent exacerbations,inflammation of left sciatic nerve from cold exposure,1.0,1
+frequent exacerbations,belching improves symptoms,1.0,1
+frequent exacerbations,severe stitches from shoulder to elbow,1.0,1
+frequent exacerbations,gout of hands,1.0,1
+frequent exacerbations,severe pains in hips,1.0,1
+frequent exacerbations,tearing in all limbs,1.0,1
+frequent exacerbations,slight fever or absent fever,1.0,1
+frequent exacerbations,jerking pains,1.0,1
+frequent exacerbations,stitches from shoulder to wrist,1.0,1
+frequent exacerbations,pain in loins,1.0,1
+frequent exacerbations,bruised pain in soles,1.0,1
+frequent exacerbations,dislocated pain in right knee,1.0,1
+frequent exacerbations,difficult breathing,1.0,1
+frequent exacerbations,movements impeded,1.0,1
+frequent exacerbations,quick recovery from acute articular manifestations,1.0,1
+frequent exacerbations,shoulder pain with every weather change,1.0,1
+frequent exacerbations,chronic sciatica in right leg,1.0,1
+frequent exacerbations,tensive feeling in small of back,1.0,1
+frequent exacerbations,jerking stitches in right shoulder,1.0,1
+frequent exacerbations,chronic rheumatism with frequent attacks,1.0,1
+frequent exacerbations,belching of sour flatus,1.0,1
+frequent exacerbations,hot expiration,1.0,1
+frequent exacerbations,severe pains from slightest motion,1.0,1
+frequent exacerbations,cracking in ankle joint,1.0,1
+frequent exacerbations,stitching pains,1.0,1
+frequent exacerbations,flying pains,1.0,1
+frequent exacerbations,jerking stitching pains in limbs,1.0,1
+frequent exacerbations,sensation as if heavy load on back between shoulders,1.0,1
+frequent exacerbations,jerking flying stitches in wrists,1.0,1
+frequent exacerbations,jerking flying stitches in finger joints,1.0,1
+frequent exacerbations,rheumatism lingers and relapses regularly,1.0,1
+frequent exacerbations,tearing pain in right elbow,1.0,1
+frequent exacerbations,small of back pain worse by going upstairs,1.0,1
+frequent exacerbations,severe pains in knees,1.0,1
+frequent exacerbations,rheumatic pains in neck,1.0,1
+frequent exacerbations,violent headache,1.0,1
+stitches from shoulder to wrist,gouty swellings without gouty dyscrasia,1.0,1
+stitches from shoulder to wrist,occasional jerking toward hip joint,1.0,1
+stitches from shoulder to wrist,redness of feet,1.0,1
+stitches from shoulder to wrist,stitches from shoulder to elbow,1.0,1
+stitches from shoulder to wrist,enlarged lymphatic glands,1.0,1
+stitches from shoulder to wrist,cracking in right shoulder joint from motion,1.0,1
+stitches from shoulder to wrist,neuralgia of teeth,1.0,1
+stitches from shoulder to wrist,chronic rheumatic affections,1.0,1
+stitches from shoulder to wrist,sprained pain in left metatarsal bones,1.0,1
+stitches from shoulder to wrist,cracking of joints after inflammation,1.0,1
+stitches from shoulder to wrist,stabbing piercing pain in metatarsal bones when walking,1.0,1
+stitches from shoulder to wrist,inability to walk,1.0,1
+stitches from shoulder to wrist,dislocated pain in right loin,1.0,1
+stitches from shoulder to wrist,pains returning at regular intervals,1.0,1
+stitches from shoulder to wrist,shoulder pain worse during damp cold weather,1.0,1
+stitches from shoulder to wrist,shoulder pain worse after midnight,1.0,1
+stitches from shoulder to wrist,inflammation of left sciatic nerve from cold exposure,1.0,1
+stitches from shoulder to wrist,belching improves symptoms,1.0,1
+stitches from shoulder to wrist,severe stitches from shoulder to elbow,1.0,1
+stitches from shoulder to wrist,gout of hands,1.0,1
+stitches from shoulder to wrist,severe pains in hips,1.0,1
+stitches from shoulder to wrist,tearing in all limbs,1.0,1
+stitches from shoulder to wrist,slight fever or absent fever,1.0,1
+stitches from shoulder to wrist,jerking pains,1.0,1
+stitches from shoulder to wrist,pain in loins,1.0,1
+stitches from shoulder to wrist,bruised pain in soles,1.0,1
+stitches from shoulder to wrist,dislocated pain in right knee,1.0,1
+stitches from shoulder to wrist,difficult breathing,1.0,1
+stitches from shoulder to wrist,movements impeded,1.0,1
+stitches from shoulder to wrist,quick recovery from acute articular manifestations,1.0,1
+stitches from shoulder to wrist,frequent exacerbations,1.0,1
+stitches from shoulder to wrist,shoulder pain with every weather change,1.0,1
+stitches from shoulder to wrist,chronic sciatica in right leg,1.0,1
+stitches from shoulder to wrist,tensive feeling in small of back,1.0,1
+stitches from shoulder to wrist,jerking stitches in right shoulder,1.0,1
+stitches from shoulder to wrist,chronic rheumatism with frequent attacks,1.0,1
+stitches from shoulder to wrist,belching of sour flatus,1.0,1
+stitches from shoulder to wrist,hot expiration,1.0,1
+stitches from shoulder to wrist,severe pains from slightest motion,1.0,1
+stitches from shoulder to wrist,cracking in ankle joint,1.0,1
+stitches from shoulder to wrist,stitching pains,1.0,1
+stitches from shoulder to wrist,flying pains,1.0,1
+stitches from shoulder to wrist,jerking stitching pains in limbs,1.0,1
+stitches from shoulder to wrist,sensation as if heavy load on back between shoulders,1.0,1
+stitches from shoulder to wrist,jerking flying stitches in wrists,1.0,1
+stitches from shoulder to wrist,jerking flying stitches in finger joints,1.0,1
+stitches from shoulder to wrist,rheumatism lingers and relapses regularly,1.0,1
+stitches from shoulder to wrist,tearing pain in right elbow,1.0,1
+stitches from shoulder to wrist,small of back pain worse by going upstairs,1.0,1
+stitches from shoulder to wrist,severe pains in knees,1.0,1
+stitches from shoulder to wrist,rheumatic pains in neck,1.0,1
+stitches from shoulder to wrist,violent headache,1.0,1
+severe pains from slightest motion,gouty swellings without gouty dyscrasia,1.0,1
+severe pains from slightest motion,occasional jerking toward hip joint,1.0,1
+severe pains from slightest motion,redness of feet,1.0,1
+severe pains from slightest motion,stitches from shoulder to elbow,1.0,1
+severe pains from slightest motion,enlarged lymphatic glands,1.0,1
+severe pains from slightest motion,cracking in right shoulder joint from motion,1.0,1
+severe pains from slightest motion,neuralgia of teeth,1.0,1
+severe pains from slightest motion,chronic rheumatic affections,1.0,1
+severe pains from slightest motion,sprained pain in left metatarsal bones,1.0,1
+severe pains from slightest motion,cracking of joints after inflammation,1.0,1
+severe pains from slightest motion,stabbing piercing pain in metatarsal bones when walking,1.0,1
+severe pains from slightest motion,inability to walk,1.0,1
+severe pains from slightest motion,dislocated pain in right loin,1.0,1
+severe pains from slightest motion,pains returning at regular intervals,1.0,1
+severe pains from slightest motion,shoulder pain worse during damp cold weather,1.0,1
+severe pains from slightest motion,shoulder pain worse after midnight,1.0,1
+severe pains from slightest motion,inflammation of left sciatic nerve from cold exposure,1.0,1
+severe pains from slightest motion,belching improves symptoms,1.0,1
+severe pains from slightest motion,severe stitches from shoulder to elbow,1.0,1
+severe pains from slightest motion,gout of hands,1.0,1
+severe pains from slightest motion,severe pains in hips,1.0,1
+severe pains from slightest motion,tearing in all limbs,1.0,1
+severe pains from slightest motion,slight fever or absent fever,1.0,1
+severe pains from slightest motion,jerking pains,1.0,1
+severe pains from slightest motion,stitches from shoulder to wrist,1.0,1
+severe pains from slightest motion,pain in loins,1.0,1
+severe pains from slightest motion,bruised pain in soles,1.0,1
+severe pains from slightest motion,dislocated pain in right knee,1.0,1
+severe pains from slightest motion,difficult breathing,1.0,1
+severe pains from slightest motion,movements impeded,1.0,1
+severe pains from slightest motion,quick recovery from acute articular manifestations,1.0,1
+severe pains from slightest motion,frequent exacerbations,1.0,1
+severe pains from slightest motion,shoulder pain with every weather change,1.0,1
+severe pains from slightest motion,chronic sciatica in right leg,1.0,1
+severe pains from slightest motion,tensive feeling in small of back,1.0,1
+severe pains from slightest motion,jerking stitches in right shoulder,1.0,1
+severe pains from slightest motion,chronic rheumatism with frequent attacks,1.0,1
+severe pains from slightest motion,belching of sour flatus,1.0,1
+severe pains from slightest motion,hot expiration,1.0,1
+severe pains from slightest motion,cracking in ankle joint,1.0,1
+severe pains from slightest motion,stitching pains,1.0,1
+severe pains from slightest motion,flying pains,1.0,1
+severe pains from slightest motion,jerking stitching pains in limbs,1.0,1
+severe pains from slightest motion,sensation as if heavy load on back between shoulders,1.0,1
+severe pains from slightest motion,jerking flying stitches in wrists,1.0,1
+severe pains from slightest motion,jerking flying stitches in finger joints,1.0,1
+severe pains from slightest motion,rheumatism lingers and relapses regularly,1.0,1
+severe pains from slightest motion,tearing pain in right elbow,1.0,1
+severe pains from slightest motion,small of back pain worse by going upstairs,1.0,1
+severe pains from slightest motion,severe pains in knees,1.0,1
+severe pains from slightest motion,rheumatic pains in neck,1.0,1
+severe pains from slightest motion,violent headache,1.0,1
+severe stitches from shoulder to elbow,gouty swellings without gouty dyscrasia,1.0,1
+severe stitches from shoulder to elbow,occasional jerking toward hip joint,1.0,1
+severe stitches from shoulder to elbow,redness of feet,1.0,1
+severe stitches from shoulder to elbow,stitches from shoulder to elbow,1.0,1
+severe stitches from shoulder to elbow,enlarged lymphatic glands,1.0,1
+severe stitches from shoulder to elbow,cracking in right shoulder joint from motion,1.0,1
+severe stitches from shoulder to elbow,neuralgia of teeth,1.0,1
+severe stitches from shoulder to elbow,chronic rheumatic affections,1.0,1
+severe stitches from shoulder to elbow,sprained pain in left metatarsal bones,1.0,1
+severe stitches from shoulder to elbow,cracking of joints after inflammation,1.0,1
+severe stitches from shoulder to elbow,stabbing piercing pain in metatarsal bones when walking,1.0,1
+severe stitches from shoulder to elbow,inability to walk,1.0,1
+severe stitches from shoulder to elbow,dislocated pain in right loin,1.0,1
+severe stitches from shoulder to elbow,pains returning at regular intervals,1.0,1
+severe stitches from shoulder to elbow,shoulder pain worse during damp cold weather,1.0,1
+severe stitches from shoulder to elbow,shoulder pain worse after midnight,1.0,1
+severe stitches from shoulder to elbow,inflammation of left sciatic nerve from cold exposure,1.0,1
+severe stitches from shoulder to elbow,belching improves symptoms,1.0,1
+severe stitches from shoulder to elbow,gout of hands,1.0,1
+severe stitches from shoulder to elbow,severe pains in hips,1.0,1
+severe stitches from shoulder to elbow,tearing in all limbs,1.0,1
+severe stitches from shoulder to elbow,slight fever or absent fever,1.0,1
+severe stitches from shoulder to elbow,jerking pains,1.0,1
+severe stitches from shoulder to elbow,stitches from shoulder to wrist,1.0,1
+severe stitches from shoulder to elbow,pain in loins,1.0,1
+severe stitches from shoulder to elbow,bruised pain in soles,1.0,1
+severe stitches from shoulder to elbow,dislocated pain in right knee,1.0,1
+severe stitches from shoulder to elbow,difficult breathing,1.0,1
+severe stitches from shoulder to elbow,movements impeded,1.0,1
+severe stitches from shoulder to elbow,quick recovery from acute articular manifestations,1.0,1
+severe stitches from shoulder to elbow,frequent exacerbations,1.0,1
+severe stitches from shoulder to elbow,shoulder pain with every weather change,1.0,1
+severe stitches from shoulder to elbow,chronic sciatica in right leg,1.0,1
+severe stitches from shoulder to elbow,tensive feeling in small of back,1.0,1
+severe stitches from shoulder to elbow,jerking stitches in right shoulder,1.0,1
+severe stitches from shoulder to elbow,chronic rheumatism with frequent attacks,1.0,1
+severe stitches from shoulder to elbow,belching of sour flatus,1.0,1
+severe stitches from shoulder to elbow,hot expiration,1.0,1
+severe stitches from shoulder to elbow,severe pains from slightest motion,1.0,1
+severe stitches from shoulder to elbow,cracking in ankle joint,1.0,1
+severe stitches from shoulder to elbow,stitching pains,1.0,1
+severe stitches from shoulder to elbow,flying pains,1.0,1
+severe stitches from shoulder to elbow,jerking stitching pains in limbs,1.0,1
+severe stitches from shoulder to elbow,sensation as if heavy load on back between shoulders,1.0,1
+severe stitches from shoulder to elbow,jerking flying stitches in wrists,1.0,1
+severe stitches from shoulder to elbow,jerking flying stitches in finger joints,1.0,1
+severe stitches from shoulder to elbow,rheumatism lingers and relapses regularly,1.0,1
+severe stitches from shoulder to elbow,tearing pain in right elbow,1.0,1
+severe stitches from shoulder to elbow,small of back pain worse by going upstairs,1.0,1
+severe stitches from shoulder to elbow,severe pains in knees,1.0,1
+severe stitches from shoulder to elbow,rheumatic pains in neck,1.0,1
+severe stitches from shoulder to elbow,violent headache,1.0,1
+occasional jerking toward hip joint,gouty swellings without gouty dyscrasia,1.0,1
+occasional jerking toward hip joint,redness of feet,1.0,1
+occasional jerking toward hip joint,stitches from shoulder to elbow,1.0,1
+occasional jerking toward hip joint,enlarged lymphatic glands,1.0,1
+occasional jerking toward hip joint,cracking in right shoulder joint from motion,1.0,1
+occasional jerking toward hip joint,neuralgia of teeth,1.0,1
+occasional jerking toward hip joint,chronic rheumatic affections,1.0,1
+occasional jerking toward hip joint,sprained pain in left metatarsal bones,1.0,1
+occasional jerking toward hip joint,cracking of joints after inflammation,1.0,1
+occasional jerking toward hip joint,stabbing piercing pain in metatarsal bones when walking,1.0,1
+occasional jerking toward hip joint,inability to walk,1.0,1
+occasional jerking toward hip joint,dislocated pain in right loin,1.0,1
+occasional jerking toward hip joint,pains returning at regular intervals,1.0,1
+occasional jerking toward hip joint,shoulder pain worse during damp cold weather,1.0,1
+occasional jerking toward hip joint,shoulder pain worse after midnight,1.0,1
+occasional jerking toward hip joint,inflammation of left sciatic nerve from cold exposure,1.0,1
+occasional jerking toward hip joint,belching improves symptoms,1.0,1
+occasional jerking toward hip joint,severe stitches from shoulder to elbow,1.0,1
+occasional jerking toward hip joint,gout of hands,1.0,1
+occasional jerking toward hip joint,severe pains in hips,1.0,1
+occasional jerking toward hip joint,tearing in all limbs,1.0,1
+occasional jerking toward hip joint,slight fever or absent fever,1.0,1
+occasional jerking toward hip joint,jerking pains,1.0,1
+occasional jerking toward hip joint,stitches from shoulder to wrist,1.0,1
+occasional jerking toward hip joint,pain in loins,1.0,1
+occasional jerking toward hip joint,bruised pain in soles,1.0,1
+occasional jerking toward hip joint,dislocated pain in right knee,1.0,1
+occasional jerking toward hip joint,difficult breathing,1.0,1
+occasional jerking toward hip joint,movements impeded,1.0,1
+occasional jerking toward hip joint,quick recovery from acute articular manifestations,1.0,1
+occasional jerking toward hip joint,frequent exacerbations,1.0,1
+occasional jerking toward hip joint,shoulder pain with every weather change,1.0,1
+occasional jerking toward hip joint,chronic sciatica in right leg,1.0,1
+occasional jerking toward hip joint,tensive feeling in small of back,1.0,1
+occasional jerking toward hip joint,jerking stitches in right shoulder,1.0,1
+occasional jerking toward hip joint,chronic rheumatism with frequent attacks,1.0,1
+occasional jerking toward hip joint,belching of sour flatus,1.0,1
+occasional jerking toward hip joint,hot expiration,1.0,1
+occasional jerking toward hip joint,severe pains from slightest motion,1.0,1
+occasional jerking toward hip joint,cracking in ankle joint,1.0,1
+occasional jerking toward hip joint,stitching pains,1.0,1
+occasional jerking toward hip joint,flying pains,1.0,1
+occasional jerking toward hip joint,jerking stitching pains in limbs,1.0,1
+occasional jerking toward hip joint,sensation as if heavy load on back between shoulders,1.0,1
+occasional jerking toward hip joint,jerking flying stitches in wrists,1.0,1
+occasional jerking toward hip joint,jerking flying stitches in finger joints,1.0,1
+occasional jerking toward hip joint,rheumatism lingers and relapses regularly,1.0,1
+occasional jerking toward hip joint,tearing pain in right elbow,1.0,1
+occasional jerking toward hip joint,small of back pain worse by going upstairs,1.0,1
+occasional jerking toward hip joint,severe pains in knees,1.0,1
+occasional jerking toward hip joint,rheumatic pains in neck,1.0,1
+occasional jerking toward hip joint,violent headache,1.0,1
+cracking in right shoulder joint from motion,gouty swellings without gouty dyscrasia,1.0,1
+cracking in right shoulder joint from motion,occasional jerking toward hip joint,1.0,1
+cracking in right shoulder joint from motion,redness of feet,1.0,1
+cracking in right shoulder joint from motion,stitches from shoulder to elbow,1.0,1
+cracking in right shoulder joint from motion,enlarged lymphatic glands,1.0,1
+cracking in right shoulder joint from motion,neuralgia of teeth,1.0,1
+cracking in right shoulder joint from motion,chronic rheumatic affections,1.0,1
+cracking in right shoulder joint from motion,sprained pain in left metatarsal bones,1.0,1
+cracking in right shoulder joint from motion,cracking of joints after inflammation,1.0,1
+cracking in right shoulder joint from motion,stabbing piercing pain in metatarsal bones when walking,1.0,1
+cracking in right shoulder joint from motion,inability to walk,1.0,1
+cracking in right shoulder joint from motion,dislocated pain in right loin,1.0,1
+cracking in right shoulder joint from motion,pains returning at regular intervals,1.0,1
+cracking in right shoulder joint from motion,shoulder pain worse during damp cold weather,1.0,1
+cracking in right shoulder joint from motion,shoulder pain worse after midnight,1.0,1
+cracking in right shoulder joint from motion,inflammation of left sciatic nerve from cold exposure,1.0,1
+cracking in right shoulder joint from motion,belching improves symptoms,1.0,1
+cracking in right shoulder joint from motion,severe stitches from shoulder to elbow,1.0,1
+cracking in right shoulder joint from motion,gout of hands,1.0,1
+cracking in right shoulder joint from motion,severe pains in hips,1.0,1
+cracking in right shoulder joint from motion,tearing in all limbs,1.0,1
+cracking in right shoulder joint from motion,slight fever or absent fever,1.0,1
+cracking in right shoulder joint from motion,jerking pains,1.0,1
+cracking in right shoulder joint from motion,stitches from shoulder to wrist,1.0,1
+cracking in right shoulder joint from motion,pain in loins,1.0,1
+cracking in right shoulder joint from motion,bruised pain in soles,1.0,1
+cracking in right shoulder joint from motion,dislocated pain in right knee,1.0,1
+cracking in right shoulder joint from motion,difficult breathing,1.0,1
+cracking in right shoulder joint from motion,movements impeded,1.0,1
+cracking in right shoulder joint from motion,quick recovery from acute articular manifestations,1.0,1
+cracking in right shoulder joint from motion,frequent exacerbations,1.0,1
+cracking in right shoulder joint from motion,shoulder pain with every weather change,1.0,1
+cracking in right shoulder joint from motion,chronic sciatica in right leg,1.0,1
+cracking in right shoulder joint from motion,tensive feeling in small of back,1.0,1
+cracking in right shoulder joint from motion,jerking stitches in right shoulder,1.0,1
+cracking in right shoulder joint from motion,chronic rheumatism with frequent attacks,1.0,1
+cracking in right shoulder joint from motion,belching of sour flatus,1.0,1
+cracking in right shoulder joint from motion,hot expiration,1.0,1
+cracking in right shoulder joint from motion,severe pains from slightest motion,1.0,1
+cracking in right shoulder joint from motion,cracking in ankle joint,1.0,1
+cracking in right shoulder joint from motion,stitching pains,1.0,1
+cracking in right shoulder joint from motion,flying pains,1.0,1
+cracking in right shoulder joint from motion,jerking stitching pains in limbs,1.0,1
+cracking in right shoulder joint from motion,sensation as if heavy load on back between shoulders,1.0,1
+cracking in right shoulder joint from motion,jerking flying stitches in wrists,1.0,1
+cracking in right shoulder joint from motion,jerking flying stitches in finger joints,1.0,1
+cracking in right shoulder joint from motion,rheumatism lingers and relapses regularly,1.0,1
+cracking in right shoulder joint from motion,tearing pain in right elbow,1.0,1
+cracking in right shoulder joint from motion,small of back pain worse by going upstairs,1.0,1
+cracking in right shoulder joint from motion,severe pains in knees,1.0,1
+cracking in right shoulder joint from motion,rheumatic pains in neck,1.0,1
+cracking in right shoulder joint from motion,violent headache,1.0,1
+sensation as if heavy load on back between shoulders,gouty swellings without gouty dyscrasia,1.0,1
+sensation as if heavy load on back between shoulders,occasional jerking toward hip joint,1.0,1
+sensation as if heavy load on back between shoulders,redness of feet,1.0,1
+sensation as if heavy load on back between shoulders,stitches from shoulder to elbow,1.0,1
+sensation as if heavy load on back between shoulders,enlarged lymphatic glands,1.0,1
+sensation as if heavy load on back between shoulders,cracking in right shoulder joint from motion,1.0,1
+sensation as if heavy load on back between shoulders,neuralgia of teeth,1.0,1
+sensation as if heavy load on back between shoulders,chronic rheumatic affections,1.0,1
+sensation as if heavy load on back between shoulders,sprained pain in left metatarsal bones,1.0,1
+sensation as if heavy load on back between shoulders,cracking of joints after inflammation,1.0,1
+sensation as if heavy load on back between shoulders,stabbing piercing pain in metatarsal bones when walking,1.0,1
+sensation as if heavy load on back between shoulders,inability to walk,1.0,1
+sensation as if heavy load on back between shoulders,dislocated pain in right loin,1.0,1
+sensation as if heavy load on back between shoulders,pains returning at regular intervals,1.0,1
+sensation as if heavy load on back between shoulders,shoulder pain worse during damp cold weather,1.0,1
+sensation as if heavy load on back between shoulders,shoulder pain worse after midnight,1.0,1
+sensation as if heavy load on back between shoulders,inflammation of left sciatic nerve from cold exposure,1.0,1
+sensation as if heavy load on back between shoulders,belching improves symptoms,1.0,1
+sensation as if heavy load on back between shoulders,severe stitches from shoulder to elbow,1.0,1
+sensation as if heavy load on back between shoulders,gout of hands,1.0,1
+sensation as if heavy load on back between shoulders,severe pains in hips,1.0,1
+sensation as if heavy load on back between shoulders,tearing in all limbs,1.0,1
+sensation as if heavy load on back between shoulders,slight fever or absent fever,1.0,1
+sensation as if heavy load on back between shoulders,jerking pains,1.0,1
+sensation as if heavy load on back between shoulders,stitches from shoulder to wrist,1.0,1
+sensation as if heavy load on back between shoulders,pain in loins,1.0,1
+sensation as if heavy load on back between shoulders,bruised pain in soles,1.0,1
+sensation as if heavy load on back between shoulders,dislocated pain in right knee,1.0,1
+sensation as if heavy load on back between shoulders,difficult breathing,1.0,1
+sensation as if heavy load on back between shoulders,movements impeded,1.0,1
+sensation as if heavy load on back between shoulders,quick recovery from acute articular manifestations,1.0,1
+sensation as if heavy load on back between shoulders,frequent exacerbations,1.0,1
+sensation as if heavy load on back between shoulders,shoulder pain with every weather change,1.0,1
+sensation as if heavy load on back between shoulders,chronic sciatica in right leg,1.0,1
+sensation as if heavy load on back between shoulders,tensive feeling in small of back,1.0,1
+sensation as if heavy load on back between shoulders,jerking stitches in right shoulder,1.0,1
+sensation as if heavy load on back between shoulders,chronic rheumatism with frequent attacks,1.0,1
+sensation as if heavy load on back between shoulders,belching of sour flatus,1.0,1
+sensation as if heavy load on back between shoulders,hot expiration,1.0,1
+sensation as if heavy load on back between shoulders,severe pains from slightest motion,1.0,1
+sensation as if heavy load on back between shoulders,cracking in ankle joint,1.0,1
+sensation as if heavy load on back between shoulders,stitching pains,1.0,1
+sensation as if heavy load on back between shoulders,flying pains,1.0,1
+sensation as if heavy load on back between shoulders,jerking stitching pains in limbs,1.0,1
+sensation as if heavy load on back between shoulders,jerking flying stitches in wrists,1.0,1
+sensation as if heavy load on back between shoulders,jerking flying stitches in finger joints,1.0,1
+sensation as if heavy load on back between shoulders,rheumatism lingers and relapses regularly,1.0,1
+sensation as if heavy load on back between shoulders,tearing pain in right elbow,1.0,1
+sensation as if heavy load on back between shoulders,small of back pain worse by going upstairs,1.0,1
+sensation as if heavy load on back between shoulders,severe pains in knees,1.0,1
+sensation as if heavy load on back between shoulders,rheumatic pains in neck,1.0,1
+sensation as if heavy load on back between shoulders,violent headache,1.0,1
+inability to walk,gouty swellings without gouty dyscrasia,1.0,1
+inability to walk,occasional jerking toward hip joint,1.0,1
+inability to walk,redness of feet,1.0,1
+inability to walk,stitches from shoulder to elbow,1.0,1
+inability to walk,enlarged lymphatic glands,1.0,1
+inability to walk,cracking in right shoulder joint from motion,1.0,1
+inability to walk,neuralgia of teeth,1.0,1
+inability to walk,chronic rheumatic affections,1.0,1
+inability to walk,sprained pain in left metatarsal bones,1.0,1
+inability to walk,cracking of joints after inflammation,1.0,1
+inability to walk,stabbing piercing pain in metatarsal bones when walking,1.0,1
+inability to walk,dislocated pain in right loin,1.0,1
+inability to walk,pains returning at regular intervals,1.0,1
+inability to walk,shoulder pain worse during damp cold weather,1.0,1
+inability to walk,shoulder pain worse after midnight,1.0,1
+inability to walk,inflammation of left sciatic nerve from cold exposure,1.0,1
+inability to walk,belching improves symptoms,1.0,1
+inability to walk,severe stitches from shoulder to elbow,1.0,1
+inability to walk,gout of hands,1.0,1
+inability to walk,severe pains in hips,1.0,1
+inability to walk,tearing in all limbs,1.0,1
+inability to walk,slight fever or absent fever,1.0,1
+inability to walk,jerking pains,1.0,1
+inability to walk,stitches from shoulder to wrist,1.0,1
+inability to walk,pain in loins,1.0,1
+inability to walk,bruised pain in soles,1.0,1
+inability to walk,dislocated pain in right knee,1.0,1
+inability to walk,difficult breathing,1.0,1
+inability to walk,movements impeded,1.0,1
+inability to walk,quick recovery from acute articular manifestations,1.0,1
+inability to walk,frequent exacerbations,1.0,1
+inability to walk,shoulder pain with every weather change,1.0,1
+inability to walk,chronic sciatica in right leg,1.0,1
+inability to walk,tensive feeling in small of back,1.0,1
+inability to walk,jerking stitches in right shoulder,1.0,1
+inability to walk,chronic rheumatism with frequent attacks,1.0,1
+inability to walk,belching of sour flatus,1.0,1
+inability to walk,hot expiration,1.0,1
+inability to walk,severe pains from slightest motion,1.0,1
+inability to walk,cracking in ankle joint,1.0,1
+inability to walk,stitching pains,1.0,1
+inability to walk,flying pains,1.0,1
+inability to walk,jerking stitching pains in limbs,1.0,1
+inability to walk,sensation as if heavy load on back between shoulders,1.0,1
+inability to walk,jerking flying stitches in wrists,1.0,1
+inability to walk,jerking flying stitches in finger joints,1.0,1
+inability to walk,rheumatism lingers and relapses regularly,1.0,1
+inability to walk,tearing pain in right elbow,1.0,1
+inability to walk,small of back pain worse by going upstairs,1.0,1
+inability to walk,severe pains in knees,1.0,1
+inability to walk,rheumatic pains in neck,1.0,1
+inability to walk,violent headache,1.0,1
+shoulder pain with every weather change,gouty swellings without gouty dyscrasia,1.0,1
+shoulder pain with every weather change,occasional jerking toward hip joint,1.0,1
+shoulder pain with every weather change,redness of feet,1.0,1
+shoulder pain with every weather change,stitches from shoulder to elbow,1.0,1
+shoulder pain with every weather change,enlarged lymphatic glands,1.0,1
+shoulder pain with every weather change,cracking in right shoulder joint from motion,1.0,1
+shoulder pain with every weather change,neuralgia of teeth,1.0,1
+shoulder pain with every weather change,chronic rheumatic affections,1.0,1
+shoulder pain with every weather change,sprained pain in left metatarsal bones,1.0,1
+shoulder pain with every weather change,cracking of joints after inflammation,1.0,1
+shoulder pain with every weather change,stabbing piercing pain in metatarsal bones when walking,1.0,1
+shoulder pain with every weather change,inability to walk,1.0,1
+shoulder pain with every weather change,dislocated pain in right loin,1.0,1
+shoulder pain with every weather change,pains returning at regular intervals,1.0,1
+shoulder pain with every weather change,shoulder pain worse during damp cold weather,1.0,1
+shoulder pain with every weather change,shoulder pain worse after midnight,1.0,1
+shoulder pain with every weather change,inflammation of left sciatic nerve from cold exposure,1.0,1
+shoulder pain with every weather change,belching improves symptoms,1.0,1
+shoulder pain with every weather change,severe stitches from shoulder to elbow,1.0,1
+shoulder pain with every weather change,gout of hands,1.0,1
+shoulder pain with every weather change,severe pains in hips,1.0,1
+shoulder pain with every weather change,tearing in all limbs,1.0,1
+shoulder pain with every weather change,slight fever or absent fever,1.0,1
+shoulder pain with every weather change,jerking pains,1.0,1
+shoulder pain with every weather change,stitches from shoulder to wrist,1.0,1
+shoulder pain with every weather change,pain in loins,1.0,1
+shoulder pain with every weather change,bruised pain in soles,1.0,1
+shoulder pain with every weather change,dislocated pain in right knee,1.0,1
+shoulder pain with every weather change,difficult breathing,1.0,1
+shoulder pain with every weather change,movements impeded,1.0,1
+shoulder pain with every weather change,quick recovery from acute articular manifestations,1.0,1
+shoulder pain with every weather change,frequent exacerbations,1.0,1
+shoulder pain with every weather change,chronic sciatica in right leg,1.0,1
+shoulder pain with every weather change,tensive feeling in small of back,1.0,1
+shoulder pain with every weather change,jerking stitches in right shoulder,1.0,1
+shoulder pain with every weather change,chronic rheumatism with frequent attacks,1.0,1
+shoulder pain with every weather change,belching of sour flatus,1.0,1
+shoulder pain with every weather change,hot expiration,1.0,1
+shoulder pain with every weather change,severe pains from slightest motion,1.0,1
+shoulder pain with every weather change,cracking in ankle joint,1.0,1
+shoulder pain with every weather change,stitching pains,1.0,1
+shoulder pain with every weather change,flying pains,1.0,1
+shoulder pain with every weather change,jerking stitching pains in limbs,1.0,1
+shoulder pain with every weather change,sensation as if heavy load on back between shoulders,1.0,1
+shoulder pain with every weather change,jerking flying stitches in wrists,1.0,1
+shoulder pain with every weather change,jerking flying stitches in finger joints,1.0,1
+shoulder pain with every weather change,rheumatism lingers and relapses regularly,1.0,1
+shoulder pain with every weather change,tearing pain in right elbow,1.0,1
+shoulder pain with every weather change,small of back pain worse by going upstairs,1.0,1
+shoulder pain with every weather change,severe pains in knees,1.0,1
+shoulder pain with every weather change,rheumatic pains in neck,1.0,1
+shoulder pain with every weather change,violent headache,1.0,1
+shoulder pain worse during damp cold weather,gouty swellings without gouty dyscrasia,1.0,1
+shoulder pain worse during damp cold weather,occasional jerking toward hip joint,1.0,1
+shoulder pain worse during damp cold weather,redness of feet,1.0,1
+shoulder pain worse during damp cold weather,stitches from shoulder to elbow,1.0,1
+shoulder pain worse during damp cold weather,enlarged lymphatic glands,1.0,1
+shoulder pain worse during damp cold weather,cracking in right shoulder joint from motion,1.0,1
+shoulder pain worse during damp cold weather,neuralgia of teeth,1.0,1
+shoulder pain worse during damp cold weather,chronic rheumatic affections,1.0,1
+shoulder pain worse during damp cold weather,sprained pain in left metatarsal bones,1.0,1
+shoulder pain worse during damp cold weather,cracking of joints after inflammation,1.0,1
+shoulder pain worse during damp cold weather,stabbing piercing pain in metatarsal bones when walking,1.0,1
+shoulder pain worse during damp cold weather,inability to walk,1.0,1
+shoulder pain worse during damp cold weather,dislocated pain in right loin,1.0,1
+shoulder pain worse during damp cold weather,pains returning at regular intervals,1.0,1
+shoulder pain worse during damp cold weather,shoulder pain worse after midnight,1.0,1
+shoulder pain worse during damp cold weather,inflammation of left sciatic nerve from cold exposure,1.0,1
+shoulder pain worse during damp cold weather,belching improves symptoms,1.0,1
+shoulder pain worse during damp cold weather,severe stitches from shoulder to elbow,1.0,1
+shoulder pain worse during damp cold weather,gout of hands,1.0,1
+shoulder pain worse during damp cold weather,severe pains in hips,1.0,1
+shoulder pain worse during damp cold weather,tearing in all limbs,1.0,1
+shoulder pain worse during damp cold weather,slight fever or absent fever,1.0,1
+shoulder pain worse during damp cold weather,jerking pains,1.0,1
+shoulder pain worse during damp cold weather,stitches from shoulder to wrist,1.0,1
+shoulder pain worse during damp cold weather,pain in loins,1.0,1
+shoulder pain worse during damp cold weather,bruised pain in soles,1.0,1
+shoulder pain worse during damp cold weather,dislocated pain in right knee,1.0,1
+shoulder pain worse during damp cold weather,difficult breathing,1.0,1
+shoulder pain worse during damp cold weather,movements impeded,1.0,1
+shoulder pain worse during damp cold weather,quick recovery from acute articular manifestations,1.0,1
+shoulder pain worse during damp cold weather,frequent exacerbations,1.0,1
+shoulder pain worse during damp cold weather,shoulder pain with every weather change,1.0,1
+shoulder pain worse during damp cold weather,chronic sciatica in right leg,1.0,1
+shoulder pain worse during damp cold weather,tensive feeling in small of back,1.0,1
+shoulder pain worse during damp cold weather,jerking stitches in right shoulder,1.0,1
+shoulder pain worse during damp cold weather,chronic rheumatism with frequent attacks,1.0,1
+shoulder pain worse during damp cold weather,belching of sour flatus,1.0,1
+shoulder pain worse during damp cold weather,hot expiration,1.0,1
+shoulder pain worse during damp cold weather,severe pains from slightest motion,1.0,1
+shoulder pain worse during damp cold weather,cracking in ankle joint,1.0,1
+shoulder pain worse during damp cold weather,stitching pains,1.0,1
+shoulder pain worse during damp cold weather,flying pains,1.0,1
+shoulder pain worse during damp cold weather,jerking stitching pains in limbs,1.0,1
+shoulder pain worse during damp cold weather,sensation as if heavy load on back between shoulders,1.0,1
+shoulder pain worse during damp cold weather,jerking flying stitches in wrists,1.0,1
+shoulder pain worse during damp cold weather,jerking flying stitches in finger joints,1.0,1
+shoulder pain worse during damp cold weather,rheumatism lingers and relapses regularly,1.0,1
+shoulder pain worse during damp cold weather,tearing pain in right elbow,1.0,1
+shoulder pain worse during damp cold weather,small of back pain worse by going upstairs,1.0,1
+shoulder pain worse during damp cold weather,severe pains in knees,1.0,1
+shoulder pain worse during damp cold weather,rheumatic pains in neck,1.0,1
+shoulder pain worse during damp cold weather,violent headache,1.0,1
+dislocated pain in right loin,gouty swellings without gouty dyscrasia,1.0,1
+dislocated pain in right loin,occasional jerking toward hip joint,1.0,1
+dislocated pain in right loin,redness of feet,1.0,1
+dislocated pain in right loin,stitches from shoulder to elbow,1.0,1
+dislocated pain in right loin,enlarged lymphatic glands,1.0,1
+dislocated pain in right loin,cracking in right shoulder joint from motion,1.0,1
+dislocated pain in right loin,neuralgia of teeth,1.0,1
+dislocated pain in right loin,chronic rheumatic affections,1.0,1
+dislocated pain in right loin,sprained pain in left metatarsal bones,1.0,1
+dislocated pain in right loin,cracking of joints after inflammation,1.0,1
+dislocated pain in right loin,stabbing piercing pain in metatarsal bones when walking,1.0,1
+dislocated pain in right loin,inability to walk,1.0,1
+dislocated pain in right loin,pains returning at regular intervals,1.0,1
+dislocated pain in right loin,shoulder pain worse during damp cold weather,1.0,1
+dislocated pain in right loin,shoulder pain worse after midnight,1.0,1
+dislocated pain in right loin,inflammation of left sciatic nerve from cold exposure,1.0,1
+dislocated pain in right loin,belching improves symptoms,1.0,1
+dislocated pain in right loin,severe stitches from shoulder to elbow,1.0,1
+dislocated pain in right loin,gout of hands,1.0,1
+dislocated pain in right loin,severe pains in hips,1.0,1
+dislocated pain in right loin,tearing in all limbs,1.0,1
+dislocated pain in right loin,slight fever or absent fever,1.0,1
+dislocated pain in right loin,jerking pains,1.0,1
+dislocated pain in right loin,stitches from shoulder to wrist,1.0,1
+dislocated pain in right loin,pain in loins,1.0,1
+dislocated pain in right loin,bruised pain in soles,1.0,1
+dislocated pain in right loin,dislocated pain in right knee,1.0,1
+dislocated pain in right loin,difficult breathing,1.0,1
+dislocated pain in right loin,movements impeded,1.0,1
+dislocated pain in right loin,quick recovery from acute articular manifestations,1.0,1
+dislocated pain in right loin,frequent exacerbations,1.0,1
+dislocated pain in right loin,shoulder pain with every weather change,1.0,1
+dislocated pain in right loin,chronic sciatica in right leg,1.0,1
+dislocated pain in right loin,tensive feeling in small of back,1.0,1
+dislocated pain in right loin,jerking stitches in right shoulder,1.0,1
+dislocated pain in right loin,chronic rheumatism with frequent attacks,1.0,1
+dislocated pain in right loin,belching of sour flatus,1.0,1
+dislocated pain in right loin,hot expiration,1.0,1
+dislocated pain in right loin,severe pains from slightest motion,1.0,1
+dislocated pain in right loin,cracking in ankle joint,1.0,1
+dislocated pain in right loin,stitching pains,1.0,1
+dislocated pain in right loin,flying pains,1.0,1
+dislocated pain in right loin,jerking stitching pains in limbs,1.0,1
+dislocated pain in right loin,sensation as if heavy load on back between shoulders,1.0,1
+dislocated pain in right loin,jerking flying stitches in wrists,1.0,1
+dislocated pain in right loin,jerking flying stitches in finger joints,1.0,1
+dislocated pain in right loin,rheumatism lingers and relapses regularly,1.0,1
+dislocated pain in right loin,tearing pain in right elbow,1.0,1
+dislocated pain in right loin,small of back pain worse by going upstairs,1.0,1
+dislocated pain in right loin,severe pains in knees,1.0,1
+dislocated pain in right loin,rheumatic pains in neck,1.0,1
+dislocated pain in right loin,violent headache,1.0,1
