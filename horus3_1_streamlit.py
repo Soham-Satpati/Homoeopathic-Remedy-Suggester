@@ -334,80 +334,91 @@ def next_patient_id() -> str:
 
 
 # ─────────────────────────────────────────────
-# RAW DATASET LOADER — known symptom set + s2r
-# Reads rheumatic.json & Case_studies_combined.json
-# directly. Same source as Tab 3 cluster logic.
+# UNIFIED DATASET LOADER
+# pkl first → JSON fallback (same source as Tab 3)
+# Both rheumatic.json + Case_studies_combined.json
 # ─────────────────────────────────────────────
 @st.cache_data(show_spinner=False)
-def load_known_symptoms_from_json() -> set:
-    """Return lowercase set of every symptom in the raw JSON datasets."""
-    known = set()
-    for fname in ["rheumatic.json", "Case_studies_combined.json"]:
+def load_all_dataset_symptoms() -> tuple:
+    """
+    Single loader used by Tab 1 (validation) AND Tab 3 (suggestions).
+    Returns (known_set, s2r_dict, source_label).
+
+    Priority:
+      1. pkl files  → symptom_to_remedies already computed
+      2. raw JSONs  → parse same way as SymptomRemedyMatcherTrainer
+    Both sources merged: pkl gives fast lookup; JSON fills gaps.
+    """
+    from collections import Counter as _C
+
+    known: set = set()
+    s2r: dict = defaultdict(dict)
+    sources = []
+
+    # ── Layer 1: pkl files ─────────────────────
+    for fname, label in [
+        ("case_studies_model.pkl", "case_studies"),
+        ("rheumatic_model.pkl",    "rheumatic"),
+    ]:
         if not os.path.exists(fname):
             continue
-        with open(fname, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        for sections in data.values():
-            for section_list in sections.values():
-                for item in section_list:
-                    if isinstance(item, dict):
-                        sym = item.get("symptom", "").strip().lower()
-                        if sym:
-                            known.add(sym)
-    return known
+        try:
+            with open(fname, "rb") as f:
+                d = pickle.load(f)
+            for sym, rem_dict in d.get("symptom_to_remedies", {}).items():
+                sl = sym.strip().lower()
+                known.add(sl)
+                for rem, score in rem_dict.items():
+                    s2r[sl][rem] = max(s2r[sl].get(rem, 0), score)
+            sources.append(fname)
+        except Exception:
+            pass
 
-
-@st.cache_data(show_spinner=False)
-def load_s2r_from_json() -> dict:
-    """
-    Build symptom_to_remedies directly from raw JSONs.
-    Fallback when pkl files are absent — same logic as
-    SymptomRemedyMatcherTrainer in the clustering pipeline.
-    """
-    from collections import Counter as _Counter
+    # ── Layer 2: raw JSON files ────────────────
+    # Always parse JSONs — fills gaps pkl may miss
     all_entries = []
     for fname in ["rheumatic.json", "Case_studies_combined.json"]:
         if not os.path.exists(fname):
             continue
-        with open(fname, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        for remedy, sections in data.items():
-            for section_list in sections.values():
-                for item in section_list:
-                    if isinstance(item, dict):
-                        sym = item.get("symptom", "").strip().lower()
-                        if sym:
-                            all_entries.append((sym, remedy))
-    counts = _Counter(s for s, _ in all_entries)
-    s2r = defaultdict(dict)
+        try:
+            with open(fname, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            for remedy, sections in data.items():
+                for section_list in sections.values():
+                    for item in section_list:
+                        if isinstance(item, dict):
+                            sym = item.get("symptom", "").strip().lower()
+                            if sym:
+                                known.add(sym)
+                                all_entries.append((sym, remedy))
+            sources.append(fname)
+        except Exception:
+            pass
+
+    # Compute JSON-derived scores and merge (max wins)
+    counts = _C(sym for sym, _ in all_entries)
     for sym, rem in all_entries:
-        s2r[sym][rem] = round(1.0 / max(1, counts[sym]), 6)
-    return dict(s2r)
+        score = round(1.0 / max(1, counts[sym]), 6)
+        s2r[sym][rem] = max(s2r[sym].get(rem, 0), score)
+
+    source_label = ", ".join(sources) if sources else "none"
+    return known, dict(s2r), source_label
 
 
-# ─────────────────────────────────────────────
-# ML SYSTEM (pkl preferred; JSON fallback)
-# ─────────────────────────────────────────────
+# Load once at startup — shared by Tab 1 + Tab 3
+_known_symptoms: set = set()
+_s2r_unified: dict = {}
+_dataset_source: str = "none"
+try:
+    _known_symptoms, _s2r_unified, _dataset_source = load_all_dataset_symptoms()
+except Exception:
+    pass
+
+
 @st.cache_resource(show_spinner=False)
 def load_system():
+    """SentenceTransformer + cluster CSVs. s2r now from load_all_dataset_symptoms."""
     model = SentenceTransformer("all-MiniLM-L6-v2")
-    s2r = {}
-    chapters = defaultdict(list)
-    pkl_loaded = False
-
-    for fname in ["case_studies_model.pkl", "rheumatic_model.pkl"]:
-        if os.path.exists(fname):
-            with open(fname, "rb") as f:
-                d = pickle.load(f)
-            for sym, chap in d.get("categories", {}).items():
-                chapters[chap].append(sym)
-            s2r.update(d.get("symptom_to_remedies", {}))
-            pkl_loaded = True
-
-    # Fallback: build s2r straight from raw JSONs
-    if not pkl_loaded:
-        s2r = load_s2r_from_json()
-
     clusters = {}
     for name in ["remedy_modalities", "remedy_area_modalities", "remedy_area"]:
         fpath = f"clusters_{name}.csv"
@@ -415,14 +426,7 @@ def load_system():
             df = pd.read_csv(fpath)
             df["Cluster_ID"] = df["Cluster_ID"].astype(str)
             clusters[name] = df
-
-    return {
-        "model":      model,
-        "s2r":        s2r,
-        "chapters":   dict(chapters),
-        "clusters":   clusters,
-        "pkl_loaded": pkl_loaded,
-    }
+    return {"model": model, "clusters": clusters}
 
 
 system_data = None
@@ -431,25 +435,15 @@ try:
 except Exception:
     pass
 
-# Known-symptom set loaded once at startup
-_known_symptoms: set = set()
-try:
-    _known_symptoms = load_known_symptoms_from_json()
-except Exception:
-    pass
-
 
 def check_symptoms_against_dataset(symptom_list: list) -> tuple:
     """
-    Split symptom_list into (found, missing) against the raw JSON dataset.
-    Exact lowercase-strip match. Does NOT require pkl.
+    Split into (found, missing) using unified known-symptom set.
+    Covers both pkl + JSON sources.
     """
     found, missing = [], []
     for s in symptom_list:
-        if s.strip().lower() in _known_symptoms:
-            found.append(s)
-        else:
-            missing.append(s)
+        (found if s.strip().lower() in _known_symptoms else missing).append(s)
     return found, missing
 
 
@@ -624,8 +618,56 @@ JSON shape (return exactly this, nothing else):
     return json.loads(raw)
 
 
-def gemini_report(patient_id: str, categorised: dict, patient_details: dict = None,
-                  mode: str = "case_studies", extra_label: str = "") -> dict:
+def rank_remedies_from_dataset(categorised: dict, s2r: dict, top_n: int = 10) -> list:
+    """
+    Score every remedy in the dataset by how many patient symptoms it covers.
+    Returns ranked list of dicts:
+      {name, score, symptoms_covered: [symptom_str, ...]}
+    100% dataset-driven — no Gemini involvement.
+    """
+    from collections import defaultdict as _dd
+    remedy_scores = _dd(lambda: {"score": 0.0, "symptoms_covered": []})
+
+    all_syms = [
+        s["symptom"]
+        for k in ("physical", "psychological", "general")
+        for s in categorised.get(k, [])
+    ]
+
+    for sym in all_syms:
+        sym_lower = sym.strip().lower()
+        # exact match first
+        remedies = s2r.get(sym_lower, {})
+        # fuzzy: if no exact, try partial key match
+        if not remedies:
+            for key, val in s2r.items():
+                if sym_lower in key or key in sym_lower:
+                    remedies = val
+                    break
+        for rem, weight in remedies.items():
+            remedy_scores[rem]["score"] += weight
+            remedy_scores[rem]["symptoms_covered"].append(sym)
+
+    ranked = sorted(
+        [{"name": rem, **info} for rem, info in remedy_scores.items()],
+        key=lambda x: -x["score"]
+    )
+    return ranked[:top_n]
+
+
+def gemini_narrate_remedies(
+    patient_id: str,
+    categorised: dict,
+    ranked_remedies: list,
+    patient_details: dict = None,
+    mode: str = "case_studies",
+    extra_label: str = "",
+) -> dict:
+    """
+    Gemini receives the dataset-ranked remedy list.
+    Job: ONLY narrate/explain WHY each remedy fits.
+    Cannot add or remove remedies from the list.
+    """
     lines = []
     for cat in ("physical", "psychological", "general"):
         for s in categorised.get(cat, []):
@@ -633,47 +675,50 @@ def gemini_report(patient_id: str, categorised: dict, patient_details: dict = No
             better = ", ".join(s.get("better", [])) or "—"
             lines.append(f"[{cat.title()}] {s['symptom']} | ↓ {worse} | ↑ {better}")
 
+    remedy_list_str = "\n".join(
+        f"{i+1}. {r['name']} (dataset score={r['score']:.4f}, "
+        f"covers: {', '.join(r['symptoms_covered'][:5])})"
+        for i, r in enumerate(ranked_remedies)
+    )
+
     mode_instruction = (
-        "Use classical case-analysis methodology. Reference the symptom totality, "
-        "miasmatic background, and case studies precedent when justifying the simillimum."
+        "Use classical case-analysis methodology referencing symptom totality and miasmatic background."
         if mode == "case_studies"
         else
-        "Use materia medica drug-picture methodology. Reference keynote symptoms, "
-        "characteristic modalities, and essence of the remedy as described in the materia medica."
+        "Use materia medica drug-picture methodology referencing keynotes and characteristic modalities."
     )
-    system = f"""You are an experienced classical homeopath writing a comprehensive treatment plan.
-{mode_instruction}
 
-Rules:
-- Never suggest dosages, potencies, or repetition schedules — only remedy names.
-- Justify every remedy with specific symptoms from this case.
-- Be clinically precise. Reference the totality, miasm, and modalities.
+    system = f"""You are a classical homeopathic analyst. {mode_instruction}
+
+CRITICAL RULES:
+- The remedies below were ranked by a dataset scoring algorithm. You CANNOT change the order or add new remedies.
+- Your ONLY job is to explain WHY each remedy fits this specific patient's symptoms.
+- Reference actual symptoms from the case for every remedy.
+- Never suggest dosages or potencies.
 - Return ONLY valid JSON, no markdown, no preamble.
 
-JSON shape (return exactly this):
+JSON shape:
 {{
   "primaryRemedy": {{
-    "name": "...",
-    "why": "Detailed paragraph — mind, body, generals, modalities from this patient's symptoms.",
-    "keyIndications": ["specific symptom → remedy keynote", "..."],
-    "followedBy": ["Remedy A", "Remedy B"]
+    "name": "<rank 1 remedy name — copy exactly>",
+    "why": "Clinical paragraph explaining why this remedy fits this case.",
+    "keyIndications": ["patient symptom → this remedy keynote", "..."]
   }},
   "top10Remedies": [
     {{
       "rank": 1,
-      "name": "...",
-      "role": "simillimum|complementary|intercurrent|acute|anti-miasmatic|drainage|constitutional",
-      "rationale": "Why this remedy ranks here — specific symptoms it covers.",
-      "keySymptoms": ["symptom from case → remedy keynote", "..."]
+      "name": "<copy from list>",
+      "role": "simillimum|complementary|intercurrent|acute|anti-miasmatic|constitutional",
+      "rationale": "Why this remedy fits — cite specific patient symptoms.",
+      "keySymptoms": ["patient symptom matched", "..."],
+      "datasetScore": 0.0
     }}
   ],
-  "miasmaticAnalysis": "Paragraph on miasmatic background and how it shapes the prescription.",
-  "caseEssence": "The fundamental disturbance — strange, rare, peculiar features pointing to the simillimum.",
-  "remedyRelationships": "Planned remedy sequence — what follows what, what antidotes what, and why.",
+  "miasmaticAnalysis": "Miasmatic background paragraph.",
+  "caseEssence": "Strange, rare, peculiar features pointing to the simillimum.",
+  "remedyRelationships": "Sequence plan — what follows what and why.",
   "monitoringPoints": ["Observable sign to watch", "..."]
-}}
-
-IMPORTANT: top10Remedies must have exactly 10 entries ranked 1–10. Rank 1 is the simillimum (same as primaryRemedy)."""
+}}"""
 
     patient_context = ""
     if patient_details:
@@ -688,18 +733,60 @@ IMPORTANT: top10Remedies must have exactly 10 entries ranked 1–10. Rank 1 is t
     prompt = (
         f"Patient: {patient_id} {extra_label}\n"
         f"{patient_context}"
-        f"Miasm: {categorised.get('miasm','unknown')}\n"
-        f"Summary: {categorised.get('clinical_summary','')}\n"
-        f"Concomitants: {', '.join(categorised.get('concomitants',[])) or 'none'}\n\n"
-        f"Symptoms:\n" + "\n".join(lines)
+        f"Miasm: {categorised.get('miasm', 'unknown')}\n"
+        f"Summary: {categorised.get('clinical_summary', '')}\n"
+        f"Concomitants: {', '.join(categorised.get('concomitants', [])) or 'none'}\n\n"
+        f"Symptoms:\n" + "\n".join(lines) +
+        f"\n\nDATASET-RANKED REMEDIES (DO NOT CHANGE THIS LIST):\n{remedy_list_str}"
     )
+
     model = genai.GenerativeModel(model_name="gemini-3.1-flash-lite", system_instruction=system)
     response = model.generate_content(
         prompt,
-        generation_config=genai.GenerationConfig(temperature=0.3, max_output_tokens=4000),
+        generation_config=genai.GenerationConfig(temperature=0.2, max_output_tokens=4000),
     )
     raw = response.text.strip().lstrip("```json").lstrip("```").rstrip("```").strip()
-    return json.loads(raw)
+    result = json.loads(raw)
+
+    # Enforce dataset scores into top10Remedies regardless of what Gemini returned
+    name_to_score = {r["name"].lower(): r["score"] for r in ranked_remedies}
+    for entry in result.get("top10Remedies", []):
+        entry["datasetScore"] = round(
+            name_to_score.get(entry.get("name", "").lower(), 0.0), 6
+        )
+    return result
+
+
+def gemini_report(patient_id: str, categorised: dict, patient_details: dict = None,
+                  mode: str = "case_studies", extra_label: str = "") -> dict:
+    """
+    Entry point for all tabs.
+    Step 1: rank remedies purely from dataset (_s2r_unified).
+    Step 2: Gemini narrates WHY — no remedy name invention.
+    """
+    ranked = rank_remedies_from_dataset(categorised, _s2r_unified, top_n=10)
+
+    if not ranked:
+        return {
+            "top10Remedies": [],
+            "primaryRemedy": {
+                "name": "No dataset match",
+                "why": "No remedies found in dataset for these symptoms.",
+                "keyIndications": [],
+            },
+            "miasmaticAnalysis": "",
+            "caseEssence": "No matching symptoms found in loaded datasets.",
+            "remedyRelationships": "",
+            "monitoringPoints": [],
+            "_warning": "No remedies matched in dataset.",
+        }
+
+    return gemini_narrate_remedies(
+        patient_id, categorised, ranked,
+        patient_details=patient_details,
+        mode=mode,
+        extra_label=extra_label,
+    )
 
 
 def gemini_comparative_summary(report_base: dict, report_enhanced: dict) -> str:
@@ -713,13 +800,15 @@ Write a concise clinical paragraph (150-200 words) summarising:
 - Clinical recommendation: does adding the suggested symptoms materially improve the case analysis?
 
 Return plain text only. No JSON. No headers."""
+    base_top10    = [r["name"] for r in report_base.get("top10Remedies", [])]
+    enhanced_top10 = [r["name"] for r in report_enhanced.get("top10Remedies", [])]
     prompt = (
         f"BASE PLAN — Primary: {report_base['primaryRemedy']['name']} | "
         f"Essence: {report_base.get('caseEssence','')}\n"
+        f"Base top-10 (dataset-ranked): {base_top10}\n\n"
         f"ENHANCED PLAN — Primary: {report_enhanced['primaryRemedy']['name']} | "
         f"Essence: {report_enhanced.get('caseEssence','')}\n"
-        f"Base secondary: {[r['name'] for r in report_base.get('secondaryRemedies',[])]}\n"
-        f"Enhanced secondary: {[r['name'] for r in report_enhanced.get('secondaryRemedies',[])]}"
+        f"Enhanced top-10 (dataset-ranked): {enhanced_top10}"
     )
     model = genai.GenerativeModel(model_name="gemini-3.1-flash-lite", system_instruction=system)
     response = model.generate_content(
@@ -961,10 +1050,11 @@ def render_report_column(rpt: dict):
         st.markdown(f"**Simillimum: {pr.get('name','—')}**")
         st.markdown(f'<div style="font-size:0.83rem;color:#444;line-height:1.6">{pr.get("why","")[:400]}…</div>',
                     unsafe_allow_html=True)
-        secs = rpt.get("secondaryRemedies", [])
+        # fallback: show secondary from top10 if old schema
+        secs = [r for r in rpt.get("top10Remedies", [])[1:] if r.get("name")]
         if secs:
             st.markdown('<div class="section-label" style="margin-top:0.75rem">Supporting</div>', unsafe_allow_html=True)
-            for r in secs:
+            for r in secs[:4]:
                 st.markdown(f'<span class="sym-tag">{r["name"]} · {r.get("role","")}</span>', unsafe_allow_html=True)
 
     if rpt.get("caseEssence"):
@@ -1333,7 +1423,7 @@ with tab_intake:
             st.stop()
 
         if not st.session_state.case_saved:
-            top_remedies = [rpt["primaryRemedy"]["name"]] + [r["name"] for r in rpt.get("secondaryRemedies", [])]
+            top_remedies = [r["name"] for r in rpt.get("top10Remedies", [])] or [rpt.get("primaryRemedy", {}).get("name", "")]
             with st.spinner("Saving case to GitHub…"):
                 ok = save_case(pid, {
                     "raw_symptoms":    st.session_state.raw_symptoms,
@@ -1368,6 +1458,19 @@ with tab_intake:
         st.markdown(f'<span class="mode-badge {mode_cls}">{mode_label}</span>', unsafe_allow_html=True)
 
         st.markdown("## Treatment Plan")
+
+        # Dataset source badge — remedies from data, not Gemini
+        n_ds = len(_s2r_unified)
+        warn = rpt.get("_warning", "")
+        if warn:
+            st.warning(f"Warning: {warn}")
+        else:
+            st.markdown(
+                f'<div class="info-box" style="padding:0.5rem 0.9rem;font-size:0.78rem;color:#2a7a2a">'
+                f'Remedies ranked from dataset only ({n_ds} known symptoms). '
+                f'Gemini wrote rationale only — no remedy name invention.</div>',
+                unsafe_allow_html=True,
+            )
 
         if rpt.get("caseEssence"):
             st.markdown(
@@ -1426,10 +1529,10 @@ with tab_intake:
                 f'{indications_html}{followed_html}</div>',
                 unsafe_allow_html=True,
             )
-            secs = rpt.get("secondaryRemedies", [])
+            secs = rpt.get("top10Remedies", [])[1:]
             if secs:
                 st.markdown('<div class="section-label">Supporting remedies</div>', unsafe_allow_html=True)
-                for rem in secs:
+                for rem in secs[:4]:
                     role_badge = f'<span class="remedy-role">{rem.get("role","")}</span>'
                     st.markdown(
                         f'<div class="remedy-card">'
