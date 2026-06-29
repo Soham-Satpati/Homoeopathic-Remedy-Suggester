@@ -1712,6 +1712,8 @@ with tab_future:
     global_sugs  = get_top_suggestions(all_patient_syms, cp_df, top_n=10)
 
     if not per_sym_sugs:
+        st.warning("⚠️ No co-occurring symptoms found for this case. See details below.")
+
         # Explain WHY no suggestions found
         st.markdown("## No Suggestions Found")
 
