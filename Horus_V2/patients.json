@@ -103,5 +103,97 @@
         "analysis_mode": "materia_medica"
       }
     ]
+  },
+  "PT-2026-007": {
+    "details": {},
+    "cases": [
+      {
+        "timestamp": "2026-06-29 08:44",
+        "raw_symptoms": "Patient presented with rheumatic fever of 102°F associated with pain and swelling of the joints and pain in the muscles attached to the affected joints, aggravated by touch and motion. Patient complained of great thirst, constipation, dryness and a constricted sensation in the throat, with throat pain extending to the ears. Urine was scanty, hot, and yellow in color. Patient also reported marked weakness, violent headache, chills, and shivering of the body.\n",
+        "categorised": {
+          "physical": [
+            {
+              "symptom": "Rheumatic joint pain and swelling",
+              "worse": [
+                "touch",
+                "motion"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Constricted sensation in throat with pain extending to ears",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Scanty, hot, yellow urine",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Violent headache",
+              "worse": [],
+              "better": []
+            }
+          ],
+          "psychological": [],
+          "general": [
+            {
+              "symptom": "High fever (102°F) with chills and shivering",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Great thirst",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Marked weakness",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Dryness of mucous membranes",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Constipation",
+              "worse": [],
+              "better": []
+            }
+          ],
+          "miasm": "Psora-Syphilitic",
+          "concomitants": [
+            "Thirst associated with high fever",
+            "Throat pain radiating to ears during rheumatic flare",
+            "Constipation accompanying febrile state"
+          ],
+          "clinical_summary": "An acute inflammatory state characterized by rheumatic fever, intense thirst, and mucous membrane dryness, suggesting a deep-seated inflammatory process with significant systemic exhaustion."
+        },
+        "top_remedies": [
+          "Bryonia",
+          "spongia",
+          "bryonia alba",
+          "Gelsemium",
+          "carboneum sulphuratum",
+          "sabina",
+          "natrum carbonicum",
+          "sanguinaria canadensis",
+          "terebinthina",
+          "Arnica Montana"
+        ],
+        "clinical_notes": "The essence is a state of 'dry, inflammatory constriction' where the patient is forced into absolute stillness by pain, yet driven by an insatiable thirst, reflecting a systemic struggle against a deep-seated inflammatory process.",
+        "patient_details": {
+          "name": "",
+          "age": "",
+          "gender": "",
+          "occupation": "",
+          "contact": ""
+        },
+        "analysis_mode": "case_studies"
+      }
+    ]
   }
 }
