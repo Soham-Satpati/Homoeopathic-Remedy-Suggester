@@ -334,13 +334,67 @@ def next_patient_id() -> str:
 
 
 # ─────────────────────────────────────────────
-# ML SYSTEM (pkl files — optional)
+# RAW DATASET LOADER — known symptom set + s2r
+# Reads rheumatic.json & Case_studies_combined.json
+# directly. Same source as Tab 3 cluster logic.
+# ─────────────────────────────────────────────
+@st.cache_data(show_spinner=False)
+def load_known_symptoms_from_json() -> set:
+    """Return lowercase set of every symptom in the raw JSON datasets."""
+    known = set()
+    for fname in ["rheumatic.json", "Case_studies_combined.json"]:
+        if not os.path.exists(fname):
+            continue
+        with open(fname, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        for sections in data.values():
+            for section_list in sections.values():
+                for item in section_list:
+                    if isinstance(item, dict):
+                        sym = item.get("symptom", "").strip().lower()
+                        if sym:
+                            known.add(sym)
+    return known
+
+
+@st.cache_data(show_spinner=False)
+def load_s2r_from_json() -> dict:
+    """
+    Build symptom_to_remedies directly from raw JSONs.
+    Fallback when pkl files are absent — same logic as
+    SymptomRemedyMatcherTrainer in the clustering pipeline.
+    """
+    from collections import Counter as _Counter
+    all_entries = []
+    for fname in ["rheumatic.json", "Case_studies_combined.json"]:
+        if not os.path.exists(fname):
+            continue
+        with open(fname, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        for remedy, sections in data.items():
+            for section_list in sections.values():
+                for item in section_list:
+                    if isinstance(item, dict):
+                        sym = item.get("symptom", "").strip().lower()
+                        if sym:
+                            all_entries.append((sym, remedy))
+    counts = _Counter(s for s, _ in all_entries)
+    s2r = defaultdict(dict)
+    for sym, rem in all_entries:
+        s2r[sym][rem] = round(1.0 / max(1, counts[sym]), 6)
+    return dict(s2r)
+
+
+# ─────────────────────────────────────────────
+# ML SYSTEM (pkl preferred; JSON fallback)
 # ─────────────────────────────────────────────
 @st.cache_resource(show_spinner=False)
 def load_system():
     model = SentenceTransformer("all-MiniLM-L6-v2")
     s2r = {}
     chapters = defaultdict(list)
+    pkl_loaded = False
+
     for fname in ["case_studies_model.pkl", "rheumatic_model.pkl"]:
         if os.path.exists(fname):
             with open(fname, "rb") as f:
@@ -348,6 +402,12 @@ def load_system():
             for sym, chap in d.get("categories", {}).items():
                 chapters[chap].append(sym)
             s2r.update(d.get("symptom_to_remedies", {}))
+            pkl_loaded = True
+
+    # Fallback: build s2r straight from raw JSONs
+    if not pkl_loaded:
+        s2r = load_s2r_from_json()
+
     clusters = {}
     for name in ["remedy_modalities", "remedy_area_modalities", "remedy_area"]:
         fpath = f"clusters_{name}.csv"
@@ -355,7 +415,14 @@ def load_system():
             df = pd.read_csv(fpath)
             df["Cluster_ID"] = df["Cluster_ID"].astype(str)
             clusters[name] = df
-    return {"model": model, "s2r": s2r, "chapters": dict(chapters), "clusters": clusters}
+
+    return {
+        "model":      model,
+        "s2r":        s2r,
+        "chapters":   dict(chapters),
+        "clusters":   clusters,
+        "pkl_loaded": pkl_loaded,
+    }
 
 
 system_data = None
@@ -363,6 +430,27 @@ try:
     system_data = load_system()
 except Exception:
     pass
+
+# Known-symptom set loaded once at startup
+_known_symptoms: set = set()
+try:
+    _known_symptoms = load_known_symptoms_from_json()
+except Exception:
+    pass
+
+
+def check_symptoms_against_dataset(symptom_list: list) -> tuple:
+    """
+    Split symptom_list into (found, missing) against the raw JSON dataset.
+    Exact lowercase-strip match. Does NOT require pkl.
+    """
+    found, missing = [], []
+    for s in symptom_list:
+        if s.strip().lower() in _known_symptoms:
+            found.append(s)
+        else:
+            missing.append(s)
+    return found, missing
 
 
 # ─────────────────────────────────────────────
@@ -1125,6 +1213,50 @@ with tab_intake:
         mode_label = st.session_state.analysis_mode.replace("_", " ").title()
         mode_cls = "mode-case" if st.session_state.analysis_mode == "case_studies" else "mode-materia"
         st.markdown(f'<span class="mode-badge {mode_cls}">{mode_label}</span>', unsafe_allow_html=True)
+
+        # ── Dataset validation ──────────────────────────────────
+        # Check each AI-extracted symptom against raw JSON datasets
+        all_cat_syms = [
+            s["symptom"]
+            for k in ("physical", "psychological", "general")
+            for s in cat.get(k, [])
+        ]
+        if _known_symptoms and all_cat_syms:
+            ds_found, ds_missing = check_symptoms_against_dataset(all_cat_syms)
+            if ds_missing:
+                missing_tags = " ".join(
+                    f'<span class="sym-tag" style="background:#fff5f5;border-color:#fcc;color:#900">{s}</span>'
+                    for s in ds_missing
+                )
+                found_tags = " ".join(
+                    f'<span class="sym-tag" style="background:#f0fff4;border-color:#9e9;color:#2a5">{s}</span>'
+                    for s in ds_found
+                ) if ds_found else "<span style='color:#aaa'>none</span>"
+                st.markdown(
+                    f'<div class="info-box" style="border-left:3px solid #f0a500;padding-left:1rem;margin-bottom:1rem">'
+                    f'<strong style="color:#b36b00">⚠ Dataset coverage check</strong><br>'
+                    f'<span style="font-size:0.8rem;color:#555">'
+                    f'{len(ds_found)}/{len(all_cat_syms)} symptoms matched the training datasets '
+                    f'(rheumatic.json + Case_studies_combined.json).<br>'
+                    f'Unmatched symptoms are AI-interpreted — not directly in the dataset. '
+                    f'The remedy suggestions for these rely on Gemini reasoning only.</span><br>'
+                    f'<div style="margin-top:6px"><span style="font-size:0.72rem;color:#888;font-weight:600">IN DATASET</span><br>{found_tags}</div>'
+                    f'<div style="margin-top:6px"><span style="font-size:0.72rem;color:#900;font-weight:600">NOT IN DATASET</span><br>{missing_tags}</div>'
+                    f'</div>',
+                    unsafe_allow_html=True,
+                )
+            else:
+                st.markdown(
+                    f'<div style="font-size:0.8rem;color:#2a7a2a;margin-bottom:0.75rem">'
+                    f'✓ All {len(all_cat_syms)} symptoms matched the training datasets.</div>',
+                    unsafe_allow_html=True,
+                )
+        elif not _known_symptoms:
+            st.markdown(
+                '<div style="font-size:0.8rem;color:#aaa;margin-bottom:0.5rem">'
+                'Dataset files not found — symptom coverage check skipped.</div>',
+                unsafe_allow_html=True,
+            )
 
         if cat.get("clinical_summary"):
             st.markdown(
