@@ -370,6 +370,88 @@
           "contact": ""
         },
         "analysis_mode": "case_studies"
+      },
+      {
+        "timestamp": "2026-06-29 06:08",
+        "raw_symptoms": "A 55-year-old man had rheumatic fever with a temperature of 102°F, accompanied by pain and swelling of the joints and pain in the muscles attached to the affected joints, which were aggravated by touch and motion. He experienced great thirst, constipation, dryness and a constricted feeling in the throat, with throat pain extending to the ears. His urine was scanty, hot, and yellow in color. He also suffered from great weakness, violent headache, chill, and shivering of the body.",
+        "categorised": {
+          "physical": [
+            {
+              "symptom": "Arthritis with swelling and pain in joints and attached muscles",
+              "worse": [
+                "touch",
+                "motion"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Throat pain extending to ears with dryness and constriction",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Scanty, hot, yellow urine",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Violent headache",
+              "worse": [],
+              "better": []
+            }
+          ],
+          "psychological": [],
+          "general": [
+            {
+              "symptom": "High fever (102°F) with chill and shivering",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Great thirst",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Great weakness",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Constipation",
+              "worse": [],
+              "better": []
+            }
+          ],
+          "miasm": "Psora-Syphilitic",
+          "concomitants": [
+            "Fever with intense thirst",
+            "Joint pain with throat constriction",
+            "Shivering with violent headache"
+          ],
+          "clinical_summary": "An acute inflammatory state characterized by rheumatic fever, intense thirst, and localized joint inflammation, presenting with a systemic picture of high fever, weakness, and mucous membrane dryness."
+        },
+        "top_remedies": [
+          "Bryonia",
+          "Gelsemium",
+          "carboneum sulphuratum",
+          "sanguinaria canadensis",
+          "spongia",
+          "terebinthina",
+          "Arnica Montana",
+          "Kali Carbonicum",
+          "Colchicum",
+          "ambra grisea"
+        ],
+        "clinical_notes": "The essence is a state of 'dry, hot, and immobile.' The patient's need for absolute stillness to avoid pain, coupled with the intense thirst for cold water and the dryness of all mucous membranes, creates a clear picture of a Bryonia state.",
+        "patient_details": {
+          "name": "",
+          "age": "",
+          "gender": "",
+          "occupation": "",
+          "contact": ""
+        },
+        "analysis_mode": "case_studies"
       }
     ]
   }
