@@ -338,28 +338,22 @@ def next_patient_id() -> str:
 # pkl first → JSON fallback (same source as Tab 3)
 # Both rheumatic.json + Case_studies_combined.json
 # ─────────────────────────────────────────────
-@st.cache_data(show_spinner=False)
+@st.cache_resource(show_spinner=False)
 def load_all_dataset_symptoms() -> tuple:
     """
-    Single loader used by Tab 1 (validation) AND Tab 3 (suggestions).
+    Single loader for Tab 1 remedy ranking + Tab 3 suggestions.
+    cache_resource: safe to call inside Streamlit render context.
     Returns (known_set, s2r_dict, source_label).
-
-    Priority:
-      1. pkl files  → symptom_to_remedies already computed
-      2. raw JSONs  → parse same way as SymptomRemedyMatcherTrainer
-    Both sources merged: pkl gives fast lookup; JSON fills gaps.
+    Merges pkl + JSON; max score wins on collision.
     """
     from collections import Counter as _C
 
     known: set = set()
     s2r: dict = defaultdict(dict)
-    sources = []
+    sources: list = []
 
-    # ── Layer 1: pkl files ─────────────────────
-    for fname, label in [
-        ("case_studies_model.pkl", "case_studies"),
-        ("rheumatic_model.pkl",    "rheumatic"),
-    ]:
+    # Layer 1: pkl files (case_studies + rheumatic)
+    for fname in ["case_studies_model.pkl", "rheumatic_model.pkl"]:
         if not os.path.exists(fname):
             continue
         try:
@@ -374,9 +368,8 @@ def load_all_dataset_symptoms() -> tuple:
         except Exception:
             pass
 
-    # ── Layer 2: raw JSON files ────────────────
-    # Always parse JSONs — fills gaps pkl may miss
-    all_entries = []
+    # Layer 2: raw JSON (always parsed — fills any pkl gaps)
+    all_entries: list = []
     for fname in ["rheumatic.json", "Case_studies_combined.json"]:
         if not os.path.exists(fname):
             continue
@@ -395,24 +388,27 @@ def load_all_dataset_symptoms() -> tuple:
         except Exception:
             pass
 
-    # Compute JSON-derived scores and merge (max wins)
+    # Score and merge JSON entries
     counts = _C(sym for sym, _ in all_entries)
     for sym, rem in all_entries:
         score = round(1.0 / max(1, counts[sym]), 6)
         s2r[sym][rem] = max(s2r[sym].get(rem, 0), score)
 
-    source_label = ", ".join(sources) if sources else "none"
+    source_label = ", ".join(dict.fromkeys(sources)) if sources else "none"
     return known, dict(s2r), source_label
 
 
-# Load once at startup — shared by Tab 1 + Tab 3
+# Module-level refs — populated at first Streamlit render via _ensure_dataset()
 _known_symptoms: set = set()
 _s2r_unified: dict = {}
 _dataset_source: str = "none"
-try:
-    _known_symptoms, _s2r_unified, _dataset_source = load_all_dataset_symptoms()
-except Exception:
-    pass
+
+
+def _ensure_dataset():
+    """Populate module-level dataset refs inside Streamlit render context."""
+    global _known_symptoms, _s2r_unified, _dataset_source
+    if not _s2r_unified:
+        _known_symptoms, _s2r_unified, _dataset_source = load_all_dataset_symptoms()
 
 
 @st.cache_resource(show_spinner=False)
@@ -437,10 +433,8 @@ except Exception:
 
 
 def check_symptoms_against_dataset(symptom_list: list) -> tuple:
-    """
-    Split into (found, missing) using unified known-symptom set.
-    Covers both pkl + JSON sources.
-    """
+    """Split into (found, missing) using unified known-symptom set."""
+    _ensure_dataset()
     found, missing = [], []
     for s in symptom_list:
         (found if s.strip().lower() in _known_symptoms else missing).append(s)
@@ -764,6 +758,7 @@ def gemini_report(patient_id: str, categorised: dict, patient_details: dict = No
     Step 1: rank remedies purely from dataset (_s2r_unified).
     Step 2: Gemini narrates WHY — no remedy name invention.
     """
+    _ensure_dataset()  # guarantee dataset loaded before ranking
     ranked = rank_remedies_from_dataset(categorised, _s2r_unified, top_n=10)
 
     if not ranked:
@@ -1126,6 +1121,7 @@ tab_intake, tab_patients, tab_future = st.tabs(["📋  New Case", "👥  All Pat
 # TAB 1 — INTAKE / CASE WORKFLOW
 # ═══════════════════════════════════════════════════════════════
 with tab_intake:
+    _ensure_dataset()
     STEPS       = ["intake", "analysis", "report"]
     STEP_LABELS = ["Intake", "Categorisation", "Report"]
     step_idx = STEPS.index(st.session_state.step)
@@ -1671,6 +1667,7 @@ with tab_patients:
 # TAB 3 — SYMPTOM SUGGESTIONS (powered by cluster conditional probabilities)
 # ═══════════════════════════════════════════════════════════════
 with tab_future:
+    _ensure_dataset()
     st.markdown("## 🔬 Symptom Suggestions")
 
     # ── Guard: need a categorised case ──────────────────────────
