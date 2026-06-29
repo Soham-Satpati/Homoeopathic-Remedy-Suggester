@@ -1801,11 +1801,11 @@ with tab_future:
 
     st.markdown("---")
 
-    # ── Summary of selected ──────────────────────────────────────
+    # ── Selected summary ────────────────────────────────────────
     n_selected = len(selected)
     if n_selected == 0:
         st.markdown(
-            '<div class="info-box">Select one or more suggested symptoms above to generate a comparative report.</div>',
+            '<div class="info-box">Select symptoms above to add them to the case.</div>',
             unsafe_allow_html=True,
         )
     else:
@@ -1816,8 +1816,7 @@ with tab_future:
             + '</div>',
             unsafe_allow_html=True,
         )
-
-        if st.button("🔬  Generate comparative report", type="primary", use_container_width=True):
+        if st.button("Generate comparative report", type="primary", use_container_width=True):
             pid    = st.session_state.patient_id
             pd_det = st.session_state.patient_details
             mode   = st.session_state.analysis_mode
@@ -1833,33 +1832,34 @@ with tab_future:
                     "avg_prob":     mods.get("avg_prob", 0.0),
                     "triggered_by": mods.get("triggered_by", ""),
                 }
-                enhanced_cat["physical"].append({"symptom": sym, "worse": entry["worse"], "better": entry["better"]})
+                enhanced_cat["physical"].append({
+                    "symptom": sym,
+                    "worse":   entry["worse"],
+                    "better":  entry["better"],
+                })
                 added_list.append(entry)
 
-            col_prog1, col_prog2, col_prog3 = st.columns(3)
-
-            with col_prog1:
-                with st.spinner("Base report…"):
+            col_p1, col_p2, col_p3 = st.columns(3)
+            with col_p1:
+                with st.spinner("Base report..."):
                     try:
                         base_rpt = gemini_report(pid, cat, patient_details=pd_det, mode=mode,
-                                                  extra_label="[BASE — original symptoms]")
+                                                  extra_label="[BASE]")
                         st.session_state.future_report_base = base_rpt
                     except Exception as e:
                         st.error(f"Base report error: {e}")
                         st.stop()
-
-            with col_prog2:
-                with st.spinner("Enhanced report…"):
+            with col_p2:
+                with st.spinner("Enhanced report..."):
                     try:
                         enh_rpt = gemini_report(pid, enhanced_cat, patient_details=pd_det, mode=mode,
-                                                 extra_label="[ENHANCED — with suggested symptoms]")
+                                                 extra_label="[ENHANCED]")
                         st.session_state.future_report_enhanced = enh_rpt
                     except Exception as e:
                         st.error(f"Enhanced report error: {e}")
                         st.stop()
-
-            with col_prog3:
-                with st.spinner("Comparative summary…"):
+            with col_p3:
+                with st.spinner("Comparative summary..."):
                     try:
                         comp = gemini_comparative_summary(
                             st.session_state.future_report_base,
@@ -1870,8 +1870,29 @@ with tab_future:
                     except Exception as e:
                         st.warning(f"Comparative summary skipped: {e}")
                         st.session_state.future_comparative = None
-
             st.rerun()
+
+    # ── Global aggregate section ─────────────────────────────────
+    if global_sugs:
+        with st.expander("Global aggregate — top 10 across all entered symptoms", expanded=False):
+            st.markdown(
+                '<p style="font-size:0.82rem;color:#777">Ranked by average co-occurrence probability across all patient symptoms.</p>',
+                unsafe_allow_html=True,
+            )
+            for i, sug in enumerate(global_sugs, 1):
+                prob_pct = int(sug["avg_prob"] * 100)
+                bar_w    = max(4, prob_pct)
+                st.markdown(
+                    f'<div style="display:flex;align-items:center;gap:10px;padding:5px 0;border-bottom:1px solid #f5f5f5">'
+                    f'<span style="font-size:0.72rem;color:#aaa;min-width:18px">#{i}</span>'
+                    f'<div style="flex:1">'
+                    f'<div style="font-size:0.88rem;color:#111">{sug["symptom"]}</div>'
+                    f'<div class="prob-bar-bg"><div class="prob-bar-fill" style="width:{bar_w}%"></div></div>'
+                    f'<div class="prob-label">avg P = <strong>{prob_pct}%</strong> '
+                    f'· best trigger: <em>{sug.get("triggered_by","")[:50]}</em></div>'
+                    f'</div></div>',
+                    unsafe_allow_html=True,
+                )
 
     # ── Display comparative report ───────────────────────────────
     base_rpt = st.session_state.get("future_report_base")
@@ -1884,13 +1905,12 @@ with tab_future:
         if comp_txt:
             st.markdown(
                 f'<div class="info-box" style="border-left:3px solid #111;padding-left:1rem">'
-                f'<div class="section-label" style="margin-top:0">AI Clinical Commentary</div>'
+                f'<div class="section-label" style="margin-top:0">Clinical Commentary</div>'
                 f'{comp_txt}</div>',
                 unsafe_allow_html=True,
             )
 
         st.markdown("---")
-
         col_a, col_b = st.columns(2)
 
         with col_a:
@@ -1909,12 +1929,10 @@ with tab_future:
                 '<div class="compare-col enhanced">'
                 '<div style="font-size:0.7rem;font-weight:600;letter-spacing:0.1em;'
                 'text-transform:uppercase;color:#2a7a2a;margin-bottom:0.75rem">'
-                '✦ B · With suggested symptoms</div>',
+                'B · With suggested symptoms</div>',
                 unsafe_allow_html=True,
             )
             render_report_column(enh_rpt)
-
-            # Highlight added symptoms
             added_list = st.session_state.get("_future_added_list", [])
             if added_list:
                 st.markdown(
@@ -1924,47 +1942,41 @@ with tab_future:
                     unsafe_allow_html=True,
                 )
                 for s in added_list:
-                    prob_pct = int(s.get("avg_prob", 0) * 100)
+                    prob_pct   = int(s.get("avg_prob", 0) * 100)
                     worse_str  = ", ".join(s.get("worse",  [])) or "—"
                     better_str = ", ".join(s.get("better", [])) or "—"
+                    trigger    = s.get("triggered_by", "")
                     st.markdown(
                         f'<div style="font-size:0.82rem;color:#2a5;margin-bottom:4px">'
                         f'<strong>+ {s["symptom"]}</strong> '
-                        f'<span style="color:#aaa">[{prob_pct}%]</span><br>'
+                        f'<span style="color:#aaa">[{prob_pct}%]</span>'
+                        f'<span style="color:#888;font-size:0.77rem"> · triggered by: {trigger}</span><br>'
                         f'<span style="color:#888;font-size:0.77rem">↓ {worse_str} &nbsp;|&nbsp; ↑ {better_str}</span>'
                         f'</div>',
                         unsafe_allow_html=True,
                     )
             st.markdown('</div>', unsafe_allow_html=True)
 
-        # Detailed expanders
         with st.expander("Full base report details"):
             st.markdown(f'**Miasmatic analysis:** {base_rpt.get("miasmaticAnalysis","")}')
             if base_rpt.get("remedyRelationships"):
                 st.markdown(f'**Remedy sequence:** {base_rpt["remedyRelationships"]}')
-            mon = base_rpt.get("monitoringPoints", [])
-            if mon:
-                st.markdown("**Monitor:**")
-                for pt in mon:
-                    st.markdown(f"- {pt}")
+            for pt in base_rpt.get("monitoringPoints", []):
+                st.markdown(f"- {pt}")
 
         with st.expander("Full enhanced report details"):
             st.markdown(f'**Miasmatic analysis:** {enh_rpt.get("miasmaticAnalysis","")}')
             if enh_rpt.get("remedyRelationships"):
                 st.markdown(f'**Remedy sequence:** {enh_rpt["remedyRelationships"]}')
-            mon = enh_rpt.get("monitoringPoints", [])
-            if mon:
-                st.markdown("**Monitor:**")
-                for pt in mon:
-                    st.markdown(f"- {pt}")
+            for pt in enh_rpt.get("monitoringPoints", []):
+                st.markdown(f"- {pt}")
 
         st.markdown("---")
 
-        # PDF download (comparative)
-        pid      = st.session_state.patient_id
-        pd_det   = st.session_state.patient_details
+        # PDF download
+        pid        = st.session_state.patient_id
+        pd_det     = st.session_state.patient_details
         added_list = st.session_state.get("_future_added_list", [])
-
         try:
             pdf_bytes = build_pdf(
                 pid, cat, base_rpt,
@@ -1974,7 +1986,7 @@ with tab_future:
                 comparative_summary=comp_txt,
             )
             st.download_button(
-                label="↓ Download Comparative PDF",
+                label="Download Comparative PDF",
                 data=pdf_bytes,
                 file_name=f"HoRUS3_{pid}_comparative_{datetime.now().strftime('%Y%m%d')}.pdf",
                 mime="application/pdf",
