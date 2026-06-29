@@ -103,5 +103,102 @@
         "analysis_mode": "case_studies"
       }
     ]
+  },
+  "PT-2026-002": {
+    "details": {},
+    "cases": [
+      {
+        "timestamp": "2026-06-29 08:23",
+        "raw_symptoms": "Patient has been experiencing persistent fatigue for the past six months despite adequate sleep. Patient wakes up with a dull headache and reports low energy throughout the day. Complains of poor digestion with frequent bloating and acidity, especially after consuming spicy or oily foods. Reports constipation with hard stools occurring once every two to three days. Mentally, patient feels increasingly anxious, irritable, and tends to overthink minor issues, particularly during the evening. Sleep is disturbed due to waking around 3–4 a.m., with difficulty falling asleep again. Patient is sensitive to cold weather, with persistently cold hands and feet, and reports that symptoms worsen during the winter season.\n",
+        "categorised": {
+          "physical": [
+            {
+              "symptom": "Dull headache upon waking",
+              "worse": [
+                "waking"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Poor digestion with bloating and acidity",
+              "worse": [
+                "spicy food",
+                "oily food"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Constipation with hard stools",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Cold hands and feet",
+              "worse": [
+                "cold weather",
+                "winter"
+              ],
+              "better": []
+            }
+          ],
+          "psychological": [
+            {
+              "symptom": "Anxiety and irritability",
+              "worse": [
+                "evening"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Overthinking minor issues",
+              "worse": [
+                "evening"
+              ],
+              "better": []
+            }
+          ],
+          "general": [
+            {
+              "symptom": "Persistent fatigue despite adequate sleep",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Disturbed sleep with early morning waking",
+              "worse": [
+                "3-4 a.m."
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Chilly constitution",
+              "worse": [
+                "cold weather",
+                "winter"
+              ],
+              "better": []
+            }
+          ],
+          "miasm": "Psora-Sycotic",
+          "concomitants": [
+            "Early morning waking with anxiety",
+            "Digestive disturbances associated with irritability"
+          ],
+          "clinical_summary": "A chilly, anxious patient presenting with chronic fatigue, digestive sluggishness, and sleep disturbances characterized by early morning waking, suggesting a deep-seated metabolic and nervous exhaustion."
+        },
+        "top_remedies": [
+          "Nux Vomica"
+        ],
+        "clinical_notes": "The fundamental disturbance is a state of 'nervous-metabolic stagnation.' The patient is a high-functioning individual whose nervous system has become hyper-reactive (anxiety/overthinking) while his digestive system has become hypo-reactive (bloating/constipation), creating a cycle of exhaustion that sleep cannot resolve.",
+        "patient_details": {
+          "name": "Soham",
+          "age": "27",
+          "gender": "Male",
+          "occupation": "Research Scholar",
+          "contact": "+91-9051435159"
+        },
+        "analysis_mode": "case_studies"
+      }
+    ]
   }
 }
