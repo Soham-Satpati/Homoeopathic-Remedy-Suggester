@@ -105,7 +105,13 @@
     ]
   },
   "PT-2026-002": {
-    "details": {},
+    "details": {
+      "name": "Soham",
+      "age": "27",
+      "gender": "Male",
+      "occupation": "Research Scholar",
+      "contact": "+91-9051435159"
+    },
     "cases": [
       {
         "timestamp": "2026-06-29 08:23",
