@@ -1305,49 +1305,6 @@ with tab_intake:
         st.markdown(f'<span class="mode-badge {mode_cls}">{mode_label}</span>', unsafe_allow_html=True)
 
         # ── Dataset validation ──────────────────────────────────
-        # Check each AI-extracted symptom against raw JSON datasets
-        all_cat_syms = [
-            s["symptom"]
-            for k in ("physical", "psychological", "general")
-            for s in cat.get(k, [])
-        ]
-        if _known_symptoms and all_cat_syms:
-            ds_found, ds_missing = check_symptoms_against_dataset(all_cat_syms)
-            if ds_missing:
-                missing_tags = " ".join(
-                    f'<span class="sym-tag" style="background:#fff5f5;border-color:#fcc;color:#900">{s}</span>'
-                    for s in ds_missing
-                )
-                found_tags = " ".join(
-                    f'<span class="sym-tag" style="background:#f0fff4;border-color:#9e9;color:#2a5">{s}</span>'
-                    for s in ds_found
-                ) if ds_found else "<span style='color:#aaa'>none</span>"
-                st.markdown(
-                    f'<div class="info-box" style="border-left:3px solid #f0a500;padding-left:1rem;margin-bottom:1rem">'
-                    f'<strong style="color:#b36b00">⚠ Dataset coverage check</strong><br>'
-                    f'<span style="font-size:0.8rem;color:#555">'
-                    f'{len(ds_found)}/{len(all_cat_syms)} symptoms matched the training datasets '
-                    f'(rheumatic.json + Case_studies_combined.json).<br>'
-                    f'Unmatched symptoms are AI-interpreted — not directly in the dataset. '
-                    f'The remedy suggestions for these rely on Gemini reasoning only.</span><br>'
-                    f'<div style="margin-top:6px"><span style="font-size:0.72rem;color:#888;font-weight:600">IN DATASET</span><br>{found_tags}</div>'
-                    f'<div style="margin-top:6px"><span style="font-size:0.72rem;color:#900;font-weight:600">NOT IN DATASET</span><br>{missing_tags}</div>'
-                    f'</div>',
-                    unsafe_allow_html=True,
-                )
-            else:
-                st.markdown(
-                    f'<div style="font-size:0.8rem;color:#2a7a2a;margin-bottom:0.75rem">'
-                    f'✓ All {len(all_cat_syms)} symptoms matched the training datasets.</div>',
-                    unsafe_allow_html=True,
-                )
-        elif not _known_symptoms:
-            st.markdown(
-                '<div style="font-size:0.8rem;color:#aaa;margin-bottom:0.5rem">'
-                'Dataset files not found — symptom coverage check skipped.</div>',
-                unsafe_allow_html=True,
-            )
-
         if cat.get("clinical_summary"):
             st.markdown(
                 f'<div class="info-box" style="border-left:3px solid #111;padding-left:1rem">'
@@ -1458,19 +1415,6 @@ with tab_intake:
         st.markdown(f'<span class="mode-badge {mode_cls}">{mode_label}</span>', unsafe_allow_html=True)
 
         st.markdown("## Treatment Plan")
-
-        # Dataset source badge — remedies from data, not Gemini
-        n_ds = len(_s2r_unified)
-        warn = rpt.get("_warning", "")
-        if warn:
-            st.warning(f"Warning: {warn}")
-        else:
-            st.markdown(
-                f'<div class="info-box" style="padding:0.5rem 0.9rem;font-size:0.78rem;color:#2a7a2a">'
-                f'Remedies ranked from dataset only ({n_ds} known symptoms). '
-                f'Gemini wrote rationale only — no remedy name invention.</div>',
-                unsafe_allow_html=True,
-            )
 
         if rpt.get("caseEssence"):
             st.markdown(
