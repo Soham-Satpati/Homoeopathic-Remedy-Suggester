@@ -193,5 +193,110 @@
         "analysis_mode": "case_studies"
       }
     ]
+  },
+  "PT-2026-005": {
+    "details": {},
+    "cases": [
+      {
+        "timestamp": "2026-06-29 08:35",
+        "raw_symptoms": "Patient complains of recurrent migraine headaches for the past one year, occurring two to three times per month, predominantly over the right side of the head and associated with nausea and sensitivity to bright light. Reports frequent episodes of dizziness on standing quickly and generalized weakness by late afternoon. Appetite is reduced, with occasional craving for sweets, while thirst is low. Patient experiences excessive gas and abdominal discomfort after meals, along with irregular bowel habits alternating between constipation and loose stools. Sleep is restless with frequent dreams, and patient wakes feeling unrefreshed. Mentally, patient reports increased stress, poor concentration, forgetfulness, and irritability, with symptoms aggravated by mental exertion and relieved by rest in a quiet environment.",
+        "categorised": {
+          "physical": [
+            {
+              "symptom": "Right-sided migraine with nausea and photophobia",
+              "worse": [
+                "mental exertion",
+                "bright light"
+              ],
+              "better": [
+                "rest",
+                "quiet environment"
+              ]
+            },
+            {
+              "symptom": "Dizziness on rising quickly",
+              "worse": [
+                "standing quickly"
+              ],
+              "better": [
+                "rest"
+              ]
+            },
+            {
+              "symptom": "Flatulence and abdominal discomfort post-prandial",
+              "worse": [
+                "after meals"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Irregular bowel habits alternating constipation and diarrhea",
+              "worse": [],
+              "better": []
+            }
+          ],
+          "psychological": [
+            {
+              "symptom": "Irritability, poor concentration, and forgetfulness",
+              "worse": [
+                "mental exertion"
+              ],
+              "better": [
+                "rest"
+              ]
+            }
+          ],
+          "general": [
+            {
+              "symptom": "Generalized weakness and fatigue",
+              "worse": [
+                "late afternoon"
+              ],
+              "better": [
+                "rest"
+              ]
+            },
+            {
+              "symptom": "Restless sleep with unrefreshing awakening",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Reduced appetite with craving for sweets and low thirst",
+              "worse": [],
+              "better": []
+            }
+          ],
+          "miasm": "Psoric",
+          "concomitants": [
+            "Nausea with right-sided migraine",
+            "Abdominal bloating with irregular bowel movements",
+            "Mental fatigue with physical weakness"
+          ],
+          "clinical_summary": "A case of right-sided hemicrania and digestive disturbance characterized by mental exhaustion, sensitivity to stimuli, and a lack of vital energy, suggesting a need for remedies covering the Lycopodium or Sepia sphere of action."
+        },
+        "top_remedies": [
+          "lycopodium",
+          "calcarea carbonica",
+          "magnesia carbonica",
+          "aconitum napellus",
+          "ferrum phosphoricum",
+          "bryonia alba",
+          "Arnica Montana",
+          "Kali Carbonicum",
+          "Colchicum",
+          "aloes socotrina"
+        ],
+        "clinical_notes": "The strange, rare, and peculiar feature is the combination of right-sided hemicrania with post-prandial bloating and a specific craving for sweets, coupled with a distinct late-afternoon energy slump. This constellation points directly to the metabolic and hepatic sphere of Lycopodium.",
+        "patient_details": {
+          "name": "",
+          "age": "",
+          "gender": "",
+          "occupation": "",
+          "contact": ""
+        },
+        "analysis_mode": "materia_medica"
+      }
+    ]
   }
 }
