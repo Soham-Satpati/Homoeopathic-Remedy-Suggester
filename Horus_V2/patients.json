@@ -1,1 +1,107 @@
-{}
+{
+  "PT-2026-001": {
+    "details": {},
+    "cases": [
+      {
+        "timestamp": "2026-06-29 08:05",
+        "raw_symptoms": "Patient has been experiencing persistent fatigue for the past six months despite adequate sleep. Patient wakes up with a dull headache and reports low energy throughout the day. Complains of poor digestion with frequent bloating and acidity, especially after consuming spicy or oily foods. Reports constipation with hard stools occurring once every two to three days. Mentally, patient feels increasingly anxious, irritable, and tends to overthink minor issues, particularly during the evening. Sleep is disturbed due to waking around 3–4 a.m., with difficulty falling asleep again. Patient is sensitive to cold weather, with persistently cold hands and feet, and reports that symptoms worsen during the winter season.",
+        "categorised": {
+          "physical": [
+            {
+              "symptom": "Dull morning headache",
+              "worse": [
+                "waking"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Poor digestion with bloating and acidity",
+              "worse": [
+                "spicy food",
+                "oily food"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Constipation with hard stools",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Cold hands and feet",
+              "worse": [
+                "cold weather",
+                "winter"
+              ],
+              "better": []
+            }
+          ],
+          "psychological": [
+            {
+              "symptom": "Anxiety and irritability",
+              "worse": [
+                "evening"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Overthinking minor issues",
+              "worse": [
+                "evening"
+              ],
+              "better": []
+            }
+          ],
+          "general": [
+            {
+              "symptom": "Persistent fatigue despite adequate sleep",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Disturbed sleep",
+              "worse": [
+                "waking 3-4 a.m."
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Chilly constitution",
+              "worse": [
+                "winter"
+              ],
+              "better": []
+            }
+          ],
+          "miasm": "Psora-Tubercular",
+          "concomitants": [
+            "Waking at 3-4 a.m. associated with anxiety and overthinking",
+            "Digestive disturbances associated with low energy"
+          ],
+          "clinical_summary": "A chilly, anxious patient presenting with a tubercular-psoric picture characterized by chronic fatigue, early morning waking, and digestive sluggishness aggravated by dietary indiscretions and cold weather."
+        },
+        "top_remedies": [
+          "niccolum",
+          "calcarea carbonica",
+          "Staphysagria",
+          "bryonia alba",
+          "Arnica Montana",
+          "Kali Carbonicum",
+          "Colchicum",
+          "aconitum napellus",
+          "aloes socotrina",
+          "chamomilla"
+        ],
+        "clinical_notes": "The essence of the case is a high-functioning research scholar suffering from 'nervous exhaustion'—a state where mental overactivity (overthinking) has depleted physical reserves, leading to a morning-aggravated headache and a digestive system that cannot process dietary stress, all occurring within a chilly, tubercular framework.",
+        "patient_details": {
+          "name": "Soham Satpati",
+          "age": "27",
+          "gender": "Male",
+          "occupation": "Research Scholar",
+          "contact": "+91-9051435159"
+        },
+        "analysis_mode": "case_studies"
+      }
+    ]
+  }
+}
