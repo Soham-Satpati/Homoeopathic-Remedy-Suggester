@@ -389,103 +389,59 @@ def load_conditional_probabilities() -> pd.DataFrame | None:
     return None
 
 
-def get_suggestions_per_symptom(
-    patient_symptoms: list,
-    cp_df: pd.DataFrame,
-    top_n: int = 10,
-) -> dict:
-    """
-    Returns dict: { patient_symptom → [top_n suggested {symptom, prob}] }
-    Each patient symptom gets its own top-10 list.
-    """
-    if cp_df is None or not patient_symptoms:
-        return {}
-
-    cp_df["_s1"] = cp_df["Symptom1"].str.strip().str.lower()
-    cp_df["_s2"] = cp_df["Symptom2"].str.strip().str.lower()
-    patient_syms_lower = {s.strip().lower() for s in patient_symptoms if s.strip()}
-
-    result = {}
-    for ps_orig in patient_symptoms:
-        ps = ps_orig.strip().lower()
-        if not ps:
-            continue
-        scores = {}         # candidate_lower → (prob, display_str)
-
-        # Forward: ps is Symptom1
-        for _, row in cp_df[cp_df["_s1"] == ps].iterrows():
-            s2l = row["_s2"]
-            if s2l not in patient_syms_lower:
-                prev = scores.get(s2l, (0, row["Symptom2"]))
-                scores[s2l] = (max(prev[0], float(row["P_B_given_A"])), row["Symptom2"])
-
-        # Reverse: ps is Symptom2
-        for _, row in cp_df[cp_df["_s2"] == ps].iterrows():
-            s1l = row["_s1"]
-            if s1l not in patient_syms_lower:
-                prev = scores.get(s1l, (0, row["Symptom1"]))
-                scores[s1l] = (max(prev[0], float(row["P_A_given_B"])), row["Symptom1"])
-
-        top = sorted(scores.values(), key=lambda x: -x[0])[:top_n]
-        result[ps_orig] = [{"symptom": disp, "prob": round(prob, 4)} for prob, disp in top]
-
-    return result
-
-
 def get_top_suggestions(
-    patient_symptoms: list,
+    patient_symptoms: list[str],
     cp_df: pd.DataFrame,
     top_n: int = 10,
-) -> list:
+) -> list[dict]:
     """
-    Aggregate across all patient symptoms → top_n globally (for comparative report use).
-    Each entry also carries triggered_by = patient symptom with highest contribution.
+    Given a list of patient symptom strings and the conditional probability table,
+    return top_n suggested symptoms with average co-occurrence probability.
+
+    Strategy:
+    - For each patient symptom, find all rows where Symptom1 matches (case-insensitive)
+    - Collect candidate Symptom2 values with their P_B_given_A scores
+    - Average scores for candidates appearing multiple times
+    - Exclude symptoms already in the patient's list
+    - Return top_n sorted by descending avg probability
     """
-    if cp_df is None or not patient_symptoms:
+    if cp_df is None or len(patient_symptoms) == 0:
         return []
 
-    cp_df["_s1"] = cp_df["Symptom1"].str.strip().str.lower()
-    cp_df["_s2"] = cp_df["Symptom2"].str.strip().str.lower()
     patient_syms_lower = {s.strip().lower() for s in patient_symptoms if s.strip()}
 
-    # candidate_lower → {probs:[], display:str, best_trigger:str, best_prob:float}
-    agg = {}
-    for ps_orig in patient_symptoms:
-        ps = ps_orig.strip().lower()
-        if not ps:
-            continue
-        for _, row in cp_df[cp_df["_s1"] == ps].iterrows():
-            s2l = row["_s2"]
-            if s2l in patient_syms_lower:
-                continue
-            p = float(row["P_B_given_A"])
-            if s2l not in agg:
-                agg[s2l] = {"probs": [], "display": row["Symptom2"], "best_trigger": ps_orig, "best_prob": p}
-            agg[s2l]["probs"].append(p)
-            if p > agg[s2l]["best_prob"]:
-                agg[s2l]["best_prob"] = p
-                agg[s2l]["best_trigger"] = ps_orig
+    # Build a lookup: symptom1_lower → list of (symptom2, p_b_given_a)
+    cp_df["_s1"] = cp_df["Symptom1"].str.strip().str.lower()
+    cp_df["_s2"] = cp_df["Symptom2"].str.strip().str.lower()
 
-        for _, row in cp_df[cp_df["_s2"] == ps].iterrows():
-            s1l = row["_s1"]
-            if s1l in patient_syms_lower:
-                continue
-            p = float(row["P_A_given_B"])
-            if s1l not in agg:
-                agg[s1l] = {"probs": [], "display": row["Symptom1"], "best_trigger": ps_orig, "best_prob": p}
-            agg[s1l]["probs"].append(p)
-            if p > agg[s1l]["best_prob"]:
-                agg[s1l]["best_prob"] = p
-                agg[s1l]["best_trigger"] = ps_orig
+    scores: dict[str, list[float]] = defaultdict(list)
+    sym2_display: dict[str, str] = {}  # lower → original display
 
+    for ps in patient_syms_lower:
+        # Direct match: patient symptom is Symptom1
+        matches = cp_df[cp_df["_s1"] == ps]
+        for _, row in matches.iterrows():
+            s2_lower = row["_s2"]
+            if s2_lower not in patient_syms_lower:
+                scores[s2_lower].append(float(row["P_B_given_A"]))
+                sym2_display[s2_lower] = row["Symptom2"]
+
+        # Reverse: patient symptom is Symptom2 → use P_A_given_B
+        rev_matches = cp_df[cp_df["_s2"] == ps]
+        for _, row in rev_matches.iterrows():
+            s1_lower = row["_s1"]
+            if s1_lower not in patient_syms_lower:
+                scores[s1_lower].append(float(row["P_A_given_B"]))
+                sym2_display[s1_lower] = row["Symptom1"]
+
+    # Average and sort
     averaged = [
         {
-            "symptom": v["display"],
-            "avg_prob": round(sum(v["probs"]) / len(v["probs"]), 4),
-            "support": len(v["probs"]),
-            "triggered_by": v["best_trigger"],
+            "symptom": sym2_display.get(k, k),
+            "avg_prob": round(sum(v) / len(v), 4),
+            "support": len(v),  # how many patient symptoms triggered this
         }
-        for v in agg.values()
+        for k, v in scores.items()
     ]
     averaged.sort(key=lambda x: (-x["avg_prob"], -x["support"]))
     return averaged[:top_n]
@@ -570,22 +526,15 @@ JSON shape (return exactly this):
     "keyIndications": ["specific symptom → remedy keynote", "..."],
     "followedBy": ["Remedy A", "Remedy B"]
   }},
-  "top10Remedies": [
-    {{
-      "rank": 1,
-      "name": "...",
-      "role": "simillimum|complementary|intercurrent|acute|anti-miasmatic|drainage|constitutional",
-      "rationale": "Why this remedy ranks here — specific symptoms it covers.",
-      "keySymptoms": ["symptom from case → remedy keynote", "..."]
-    }}
+  "secondaryRemedies": [
+    {{"name": "...", "role": "complementary|intercurrent|acute|anti-miasmatic",
+     "rationale": "Why this remedy fits this case."}}
   ],
   "miasmaticAnalysis": "Paragraph on miasmatic background and how it shapes the prescription.",
   "caseEssence": "The fundamental disturbance — strange, rare, peculiar features pointing to the simillimum.",
   "remedyRelationships": "Planned remedy sequence — what follows what, what antidotes what, and why.",
   "monitoringPoints": ["Observable sign to watch", "..."]
-}}
-
-IMPORTANT: top10Remedies must have exactly 10 entries ranked 1–10. Rank 1 is the simillimum (same as primaryRemedy)."""
+}}"""
 
     patient_context = ""
     if patient_details:
@@ -679,23 +628,21 @@ def build_pdf(patient_id: str, categorised: dict, report: dict,
         if extras:
             patient_line += " · " + " · ".join(extras)
 
-    # FIX: build elems list, pass explicitly to inner fn to avoid closure rebind bug
     elems = [
         Paragraph("HoRUS 3 — Treatment Plan", title_s),
         Paragraph(f"{patient_line} · {datetime.now().strftime('%d %B %Y')}", sub_s),
         HRFlowable(width="100%", thickness=0.5, color=colors.HexColor("#ddd"), spaceAfter=14),
     ]
 
-    def _add_report_section(elems_ref: list, rpt: dict, cat: dict, section_label: str):
-        """Inner fn receives elems_ref explicitly — no closure rebind issue."""
-        elems_ref.append(Paragraph(section_label, h2_s))
-        elems_ref.append(Paragraph("CASE ESSENCE", label_s))
-        elems_ref.append(Paragraph(rpt.get("caseEssence", ""), body_s))
-        elems_ref.append(Paragraph("MIASMATIC PICTURE", label_s))
-        elems_ref.append(Paragraph(rpt.get("miasmaticAnalysis", ""), body_s))
+    def _add_report_section(rpt: dict, cat: dict, section_label: str):
+        elems.append(Paragraph(section_label, h2_s))
+        elems.append(Paragraph("CASE ESSENCE", label_s))
+        elems.append(Paragraph(rpt.get("caseEssence", ""), body_s))
+        elems.append(Paragraph("MIASMATIC PICTURE", label_s))
+        elems.append(Paragraph(rpt.get("miasmaticAnalysis", ""), body_s))
 
         # Symptom table
-        elems_ref.append(Paragraph("SYMPTOM SUMMARY", label_s))
+        elems.append(Paragraph("SYMPTOM SUMMARY", label_s))
         rows = [["Category", "Symptom", "↓ Worse", "↑ Better"]]
         for c in ("physical", "psychological", "general"):
             for s in cat.get(c, []):
@@ -718,82 +665,56 @@ def build_pdf(patient_id: str, categorised: dict, report: dict,
                 ("LEFTPADDING",    (0,0), (-1,-1), 6),
                 ("VALIGN",         (0,0), (-1,-1), "TOP"),
             ]))
-            elems_ref.extend([t, Spacer(1, 14)])
+            elems += [t, Spacer(1, 14)]
 
-        # Top 10 remedies table
-        top10 = rpt.get("top10Remedies", [])
         pr = rpt.get("primaryRemedy", {})
-        elems_ref.append(Paragraph("TOP 10 REMEDIES", label_s))
-        if top10:
-            rem_rows = [["#", "Remedy", "Role", "Key Rationale"]]
-            for i, r in enumerate(top10, 1):
-                rem_rows.append([
-                    str(i),
-                    r.get("name", ""),
-                    r.get("role", ""),
-                    r.get("rationale", "")[:80],
-                ])
-            rt = Table(rem_rows, colWidths=[0.3*inch, 1.4*inch, 1.1*inch, 3.6*inch])
-            rt.setStyle(TableStyle([
-                ("BACKGROUND",     (0,0), (-1,0), colors.HexColor("#111")),
-                ("TEXTCOLOR",      (0,0), (-1,0), colors.white),
-                ("FONTNAME",       (0,0), (-1,0), "Helvetica-Bold"),
-                ("FONTSIZE",       (0,0), (-1,-1), 8),
-                ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.white, colors.HexColor("#f9f9f9")]),
-                ("GRID",           (0,0), (-1,-1), 0.3, colors.HexColor("#ddd")),
-                ("TOPPADDING",     (0,0), (-1,-1), 4),
-                ("BOTTOMPADDING",  (0,0), (-1,-1), 4),
-                ("LEFTPADDING",    (0,0), (-1,-1), 5),
-                ("VALIGN",         (0,0), (-1,-1), "TOP"),
-            ]))
-            elems_ref.extend([rt, Spacer(1, 10)])
-        else:
-            # Fallback: primary + secondary
-            elems_ref.extend([
-                Paragraph("SIMILLIMUM", label_s),
-                Paragraph(pr.get("name", ""), rem_s),
-                Paragraph(pr.get("why", ""), body_s),
-            ])
-
+        elems += [Paragraph("SIMILLIMUM", label_s), Paragraph(pr.get("name",""), rem_s),
+                  Paragraph(pr.get("why",""), body_s)]
         if pr.get("keyIndications"):
-            elems_ref.append(Paragraph("Key indications in this case:", small_s))
+            elems.append(Paragraph("Key indications in this case:", small_s))
             for ind in pr["keyIndications"]:
-                elems_ref.append(Paragraph(f"• {ind}", bullet_s))
+                elems.append(Paragraph(f"• {ind}", bullet_s))
         if pr.get("followedBy"):
-            elems_ref.append(Paragraph(f"Followed well by: {', '.join(pr['followedBy'])}", small_s))
-        elems_ref.append(Spacer(1, 10))
+            elems.append(Paragraph(f"Followed well by: {', '.join(pr['followedBy'])}", small_s))
+        elems.append(Spacer(1, 10))
 
+        for rem in rpt.get("secondaryRemedies", []):
+            elems += [
+                Paragraph("SUPPORTING REMEDIES", label_s),
+                Paragraph(f"{rem['name']}  [{rem.get('role','').upper()}]", rem_s),
+                Paragraph(rem.get("rationale",""), body_s),
+            ]
         if rpt.get("remedyRelationships"):
-            elems_ref.extend([Paragraph("REMEDY SEQUENCE", label_s), Paragraph(rpt["remedyRelationships"], body_s)])
+            elems += [Paragraph("REMEDY SEQUENCE", label_s), Paragraph(rpt["remedyRelationships"], body_s)]
         mon = rpt.get("monitoringPoints", [])
         if mon:
-            elems_ref.append(Paragraph("MONITORING POINTS", label_s))
+            elems.append(Paragraph("MONITORING POINTS", label_s))
             for pt in mon:
-                elems_ref.append(Paragraph(f"• {pt}", bullet_s))
+                elems.append(Paragraph(f"• {pt}", bullet_s))
 
     # Base report
-    _add_report_section(elems, report, categorised, "A. Original Symptom Analysis")
+    _add_report_section(report, categorised, "A. Original Symptom Analysis")
 
     # Enhanced report (if present)
     if report_enhanced and added_symptoms:
-        import copy
-        elems.extend([Spacer(1, 20), HRFlowable(width="100%", thickness=0.5,
-                      color=colors.HexColor("#ddd"), spaceAfter=14)])
+        elems += [Spacer(1, 20), HRFlowable(width="100%", thickness=0.5,
+                  color=colors.HexColor("#ddd"), spaceAfter=14)]
 
+        # Added symptoms list
         elems.append(Paragraph("B. AI-Suggested Additional Symptoms", h2_s))
-        elems.append(Paragraph("Symptoms suggested by cluster model, added by clinician:", small_s))
+        elems.append(Paragraph("The following symptoms were suggested by the cluster model and added by the clinician:", small_s))
         for s in added_symptoms:
             worse  = ", ".join(s.get("worse",  [])) or "—"
             better = ", ".join(s.get("better", [])) or "—"
             prob   = s.get("avg_prob", 0)
-            trigger = s.get("triggered_by", "")
-            trigger_str = f" ← {trigger}" if trigger else ""
             elems.append(Paragraph(
-                f"• {s['symptom']}  [P={prob:.0%}]{trigger_str} | ↓ {worse} | ↑ {better}",
+                f"• {s['symptom']}  [P={prob:.0%}] | ↓ {worse} | ↑ {better}",
                 bullet_s
             ))
         elems.append(Spacer(1, 10))
 
+        # Build enhanced cat (original + added)
+        import copy
         enhanced_cat = copy.deepcopy(categorised)
         for s in added_symptoms:
             enhanced_cat["physical"].append({
@@ -802,21 +723,21 @@ def build_pdf(patient_id: str, categorised: dict, report: dict,
                 "better": s.get("better", []),
             })
 
-        _add_report_section(elems, report_enhanced, enhanced_cat, "C. Enhanced Analysis (with suggested symptoms)")
+        _add_report_section(report_enhanced, enhanced_cat, "C. Enhanced Analysis (with suggested symptoms)")
 
         if comparative_summary:
-            elems.extend([
+            elems += [
                 Spacer(1, 14),
                 HRFlowable(width="100%", thickness=0.5, color=colors.HexColor("#ddd"), spaceAfter=10),
                 Paragraph("D. Comparative Clinical Summary", h2_s),
                 Paragraph(comparative_summary, body_s),
-            ])
+            ]
 
-    elems.extend([
+    elems += [
         Spacer(1, 20),
         HRFlowable(width="100%", thickness=0.3, color=colors.HexColor("#ddd"), spaceAfter=6),
         Paragraph("For clinical reference only. Prescribing decisions rest with the practitioner.", foot_s),
-    ])
+    ]
     doc.build(elems)
     with open(buf.name, "rb") as f:
         return f.read()
@@ -848,37 +769,20 @@ def render_symptom_category(label, symptoms):
 
 
 def render_report_column(rpt: dict):
-    """Render compact report card — top 10 remedies ranked."""
+    """Render a compact report card for comparison columns."""
     pr = rpt.get("primaryRemedy", {})
-    top10 = rpt.get("top10Remedies", [])
-
-    if top10:
-        for r in top10:
-            rank = r.get("rank", "")
-            role_badge = f'<span class="remedy-role">{r.get("role","")}</span>'
-            border = "border-left:3px solid #111;" if rank == 1 else ""
-            st.markdown(
-                f'<div class="remedy-card" style="{border}margin-bottom:5px;padding:0.6rem 0.9rem">'
-                f'<div style="display:flex;align-items:center;gap:6px">'
-                f'<span style="font-size:0.72rem;color:#aaa;min-width:16px">#{rank}</span>'
-                f'<span style="font-size:0.9rem;font-weight:{"600" if rank==1 else "400"};color:#111">'
-                f'{r.get("name","")}</span>{role_badge}</div>'
-                f'<div style="font-size:0.8rem;color:#555;margin-top:3px;line-height:1.5">'
-                f'{r.get("rationale","")[:160]}…</div>'
-                f'</div>',
-                unsafe_allow_html=True,
-            )
-    else:
-        # Fallback if old schema
-        st.markdown(f"**Simillimum: {pr.get('name','—')}**")
-        st.markdown(f'<div style="font-size:0.83rem;color:#444;line-height:1.6">{pr.get("why","")[:400]}…</div>',
-                    unsafe_allow_html=True)
-        secs = rpt.get("secondaryRemedies", [])
-        if secs:
-            st.markdown('<div class="section-label" style="margin-top:0.75rem">Supporting</div>', unsafe_allow_html=True)
-            for r in secs:
-                st.markdown(f'<span class="sym-tag">{r["name"]} · {r.get("role","")}</span>', unsafe_allow_html=True)
-
+    st.markdown(f"**Simillimum: {pr.get('name','—')}**")
+    st.markdown(f'<div style="font-size:0.83rem;color:#444;line-height:1.6">{pr.get("why","")[:400]}…</div>',
+                unsafe_allow_html=True)
+    secs = rpt.get("secondaryRemedies", [])
+    if secs:
+        st.markdown(
+            '<div class="section-label" style="margin-top:0.75rem">Supporting</div>',
+            unsafe_allow_html=True
+        )
+        for r in secs:
+            st.markdown(f'<span class="sym-tag">{r["name"]} <span style="color:#aaa">·</span> {r.get("role","")}</span>',
+                        unsafe_allow_html=True)
     if rpt.get("caseEssence"):
         st.markdown(
             f'<div style="font-size:0.8rem;color:#666;margin-top:0.75rem;font-style:italic">'
@@ -1249,62 +1153,39 @@ with tab_intake:
             st.markdown(f'<p style="font-size:0.9rem;color:#333;line-height:1.7">{rpt["miasmaticAnalysis"]}</p>', unsafe_allow_html=True)
 
         pr = rpt.get("primaryRemedy", {})
-        top10 = rpt.get("top10Remedies", [])
+        st.markdown('<div class="section-label">Simillimum</div>', unsafe_allow_html=True)
 
-        if top10:
-            st.markdown('<div class="section-label">Top 10 Remedies</div>', unsafe_allow_html=True)
-            for r in top10:
-                rank = r.get("rank", "")
-                role_badge = f'<span class="remedy-role">{r.get("role","")}</span>'
-                border = "border-left:3px solid #111;" if rank == 1 else ""
-                key_syms = r.get("keySymptoms", [])
-                key_html = ""
-                if key_syms:
-                    key_html = (
-                        '<ul style="margin:0.3rem 0 0 1rem;padding:0;font-size:0.82rem;color:#555">'
-                        + "".join(f"<li>{k}</li>" for k in key_syms[:3])
-                        + "</ul>"
-                    )
+        followed_html = ""
+        if pr.get("followedBy"):
+            followed_html = f'<div class="remedy-meta">Followed well by: {", ".join(pr["followedBy"])}</div>'
+
+        indications_html = ""
+        if pr.get("keyIndications"):
+            items = "".join(f"<li>{i}</li>" for i in pr["keyIndications"])
+            indications_html = (
+                f'<div class="remedy-meta" style="margin-top:0.6rem"><strong>Key indications in this case</strong>'
+                f'<ul style="margin:0.3rem 0 0 1rem;padding:0;font-size:0.85rem;color:#444">{items}</ul></div>'
+            )
+
+        st.markdown(
+            f'<div class="remedy-card remedy-primary">'
+            f'<div class="remedy-name">{pr.get("name","")}</div>'
+            f'<div class="remedy-rationale">{pr.get("why","")}</div>'
+            f'{indications_html}{followed_html}</div>',
+            unsafe_allow_html=True,
+        )
+
+        secs = rpt.get("secondaryRemedies", [])
+        if secs:
+            st.markdown('<div class="section-label">Supporting remedies</div>', unsafe_allow_html=True)
+            for rem in secs:
+                role_badge = f'<span class="remedy-role">{rem.get("role","")}</span>'
                 st.markdown(
-                    f'<div class="remedy-card" style="{border}margin-bottom:6px">'
-                    f'<div style="display:flex;align-items:center;gap:8px">'
-                    f'<span style="font-size:0.75rem;color:#aaa;min-width:20px;font-weight:600">#{rank}</span>'
-                    f'<span class="remedy-name" style="margin:0">{r.get("name","")}</span>{role_badge}</div>'
-                    f'<div class="remedy-rationale">{r.get("rationale","")}</div>'
-                    f'{key_html}</div>',
+                    f'<div class="remedy-card">'
+                    f'<div class="remedy-name">{rem["name"]}{role_badge}</div>'
+                    f'<div class="remedy-rationale">{rem.get("rationale","")}</div></div>',
                     unsafe_allow_html=True,
                 )
-        else:
-            # Fallback: old schema
-            st.markdown('<div class="section-label">Simillimum</div>', unsafe_allow_html=True)
-            followed_html = ""
-            if pr.get("followedBy"):
-                followed_html = f'<div class="remedy-meta">Followed well by: {", ".join(pr["followedBy"])}</div>'
-            indications_html = ""
-            if pr.get("keyIndications"):
-                items = "".join(f"<li>{i}</li>" for i in pr["keyIndications"])
-                indications_html = (
-                    f'<div class="remedy-meta" style="margin-top:0.6rem"><strong>Key indications</strong>'
-                    f'<ul style="margin:0.3rem 0 0 1rem;padding:0;font-size:0.85rem;color:#444">{items}</ul></div>'
-                )
-            st.markdown(
-                f'<div class="remedy-card remedy-primary">'
-                f'<div class="remedy-name">{pr.get("name","")}</div>'
-                f'<div class="remedy-rationale">{pr.get("why","")}</div>'
-                f'{indications_html}{followed_html}</div>',
-                unsafe_allow_html=True,
-            )
-            secs = rpt.get("secondaryRemedies", [])
-            if secs:
-                st.markdown('<div class="section-label">Supporting remedies</div>', unsafe_allow_html=True)
-                for rem in secs:
-                    role_badge = f'<span class="remedy-role">{rem.get("role","")}</span>'
-                    st.markdown(
-                        f'<div class="remedy-card">'
-                        f'<div class="remedy-name">{rem["name"]}{role_badge}</div>'
-                        f'<div class="remedy-rationale">{rem.get("rationale","")}</div></div>',
-                        unsafe_allow_html=True,
-                    )
 
         if rpt.get("remedyRelationships"):
             st.markdown('<div class="section-label">Remedy sequence & relationships</div>', unsafe_allow_html=True)
@@ -1531,12 +1412,11 @@ with tab_future:
         st.info("No symptoms found in the current case.")
         st.stop()
 
-    # ── Compute suggestions: both per-symptom AND global aggregate ──
-    per_sym_sugs = get_suggestions_per_symptom(all_patient_syms, cp_df, top_n=10)
-    global_sugs  = get_top_suggestions(all_patient_syms, cp_df, top_n=10)
+    # ── Compute top-10 suggestions ──────────────────────────────
+    suggestions = get_top_suggestions(all_patient_syms, cp_df, top_n=10)
 
-    if not per_sym_sugs:
-        st.info("No co-occurring symptoms found in cluster data.")
+    if not suggestions:
+        st.info("No co-occurring symptoms found in the cluster data for the current case symptoms.")
         st.stop()
 
     # ── Show current case symptoms as reference ─────────────────
@@ -1547,81 +1427,71 @@ with tab_future:
     st.markdown("---")
     st.markdown(
         '<p style="font-size:0.85rem;color:#777;margin-bottom:1.25rem">'
-        'Top 10 co-occurring symptoms shown per entered symptom. '
-        'Select clinically relevant ones, add modalities, then generate comparative report.</p>',
+        'Symptoms below co-occur with your patient\'s symptoms in the remedy cluster data. '
+        'Select those clinically relevant, add modalities, then generate a comparative report.</p>',
         unsafe_allow_html=True,
     )
 
-    # ── Per-symptom suggestion groups ────────────────────────────
-    selected: dict = st.session_state.future_selected  # {symptom_str: {worse:[], better:[]}}
+    # ── Suggestion cards ────────────────────────────────────────
+    selected: dict = st.session_state.future_selected  # {symptom: {worse:[], better:[]}}
 
-    # Build flat global index for checkbox keys (unique across all groups)
-    global_idx = 0
+    for idx, sug in enumerate(suggestions):
+        sym       = sug["symptom"]
+        prob      = sug["avg_prob"]
+        support   = sug["support"]
+        is_sel    = sym in selected
+        card_cls  = "sug-card selected" if is_sel else "sug-card"
+        prob_pct  = int(prob * 100)
+        bar_w     = max(4, prob_pct)
 
-    for ps_orig in all_patient_syms:
-        sug_list = per_sym_sugs.get(ps_orig, [])
-        if not sug_list:
-            continue
+        col_check, col_body = st.columns([0.06, 0.94])
 
-        st.markdown(
-            f'<div style="font-size:0.75rem;font-weight:600;letter-spacing:0.08em;'
-            f'text-transform:uppercase;color:#555;margin:1.25rem 0 0.5rem 0;'
-            f'border-bottom:1px solid #eee;padding-bottom:4px">'
-            f'Triggered by: <span style="color:#111">{ps_orig}</span></div>',
-            unsafe_allow_html=True,
-        )
+        with col_check:
+            checked = st.checkbox("", value=is_sel, key=f"sug_check_{idx}", label_visibility="collapsed")
+            if checked and sym not in selected:
+                selected[sym] = {"worse": [], "better": []}
+                st.session_state.future_selected = selected
+                st.rerun()
+            elif not checked and sym in selected:
+                del selected[sym]
+                st.session_state.future_selected = selected
+                st.rerun()
 
-        for sug in sug_list:
-            sym      = sug["symptom"]
-            prob     = sug["prob"]
-            is_sel   = sym in selected
-            prob_pct = int(prob * 100)
-            bar_w    = max(4, prob_pct)
-            card_cls = "sug-card selected" if is_sel else "sug-card"
-            ck_key   = f"sug_check_{global_idx}"
-            global_idx += 1
+        with col_body:
+            st.markdown(
+                f'<div class="{card_cls}">'
+                f'<div style="flex:1">'
+                f'<div style="font-size:0.92rem;font-weight:{"600" if is_sel else "400"};color:#111">{sym}</div>'
+                f'<div class="prob-bar-bg"><div class="prob-bar-fill" style="width:{bar_w}%"></div></div>'
+                f'<div class="prob-label">Co-occurrence probability: <strong>{prob_pct}%</strong>'
+                f' &nbsp;·&nbsp; triggered by {support} patient symptom(s)</div>'
+                f'</div></div>',
+                unsafe_allow_html=True,
+            )
 
-            col_check, col_body = st.columns([0.06, 0.94])
-
-            with col_check:
-                checked = st.checkbox("", value=is_sel, key=ck_key, label_visibility="collapsed")
-                if checked and sym not in selected:
-                    selected[sym] = {"worse": [], "better": [], "triggered_by": ps_orig, "avg_prob": prob}
-                    st.session_state.future_selected = selected
-                    st.rerun()
-                elif not checked and sym in selected:
-                    del selected[sym]
-                    st.session_state.future_selected = selected
-                    st.rerun()
-
-            with col_body:
-                st.markdown(
-                    f'<div class="{card_cls}">'
-                    f'<div style="flex:1">'
-                    f'<div style="font-size:0.9rem;font-weight:{"600" if is_sel else "400"};color:#111">{sym}</div>'
-                    f'<div class="prob-bar-bg"><div class="prob-bar-fill" style="width:{bar_w}%"></div></div>'
-                    f'<div class="prob-label">P(this | <em>{ps_orig[:40]}</em>) = <strong>{prob_pct}%</strong></div>'
-                    f'</div></div>',
-                    unsafe_allow_html=True,
-                )
-
-                if is_sel:
-                    m_col1, m_col2 = st.columns(2)
-                    w_key = f"worse_g{global_idx}"
-                    b_key = f"better_g{global_idx}"
-                    with m_col1:
-                        worse_val = st.text_input(
-                            "↓ Worse", value=", ".join(selected[sym].get("worse", [])),
-                            key=w_key, placeholder="e.g. cold, motion, night",
-                        )
-                        selected[sym]["worse"] = [x.strip() for x in worse_val.split(",") if x.strip()]
-                    with m_col2:
-                        better_val = st.text_input(
-                            "↑ Better", value=", ".join(selected[sym].get("better", [])),
-                            key=b_key, placeholder="e.g. warmth, rest, pressure",
-                        )
-                        selected[sym]["better"] = [x.strip() for x in better_val.split(",") if x.strip()]
-                    st.session_state.future_selected = selected
+            # Modality inputs shown only when selected
+            if is_sel:
+                m_col1, m_col2 = st.columns(2)
+                with m_col1:
+                    worse_val = st.text_input(
+                        "↓ Worse (comma-separated)",
+                        value=", ".join(selected[sym].get("worse", [])),
+                        key=f"worse_{idx}",
+                        placeholder="e.g. cold, motion, night",
+                        label_visibility="visible",
+                    )
+                    selected[sym]["worse"] = [x.strip() for x in worse_val.split(",") if x.strip()]
+                with m_col2:
+                    better_val = st.text_input(
+                        "↑ Better (comma-separated)",
+                        value=", ".join(selected[sym].get("better", [])),
+                        key=f"better_{idx}",
+                        placeholder="e.g. warmth, rest, pressure",
+                        label_visibility="visible",
+                    )
+                    selected[sym]["better"] = [x.strip() for x in better_val.split(",") if x.strip()]
+                # Persist updated modalities
+                st.session_state.future_selected = selected
 
     st.markdown("---")
 
@@ -1642,20 +1512,22 @@ with tab_future:
         )
 
         if st.button("🔬  Generate comparative report", type="primary", use_container_width=True):
-            pid    = st.session_state.patient_id
+            pid = st.session_state.patient_id
             pd_det = st.session_state.patient_details
             mode   = st.session_state.analysis_mode
 
+            # Build enhanced categorised dict (original + added symptoms)
             import copy
             enhanced_cat = copy.deepcopy(cat)
             added_list = []
             for sym, mods in selected.items():
+                # Find probability for this symptom
+                prob_val = next((s["avg_prob"] for s in suggestions if s["symptom"] == sym), 0.0)
                 entry = {
-                    "symptom":      sym,
-                    "worse":        mods.get("worse", []),
-                    "better":       mods.get("better", []),
-                    "avg_prob":     mods.get("avg_prob", 0.0),
-                    "triggered_by": mods.get("triggered_by", ""),
+                    "symptom": sym,
+                    "worse":   mods.get("worse", []),
+                    "better":  mods.get("better", []),
+                    "avg_prob": prob_val,
                 }
                 enhanced_cat["physical"].append({"symptom": sym, "worse": entry["worse"], "better": entry["better"]})
                 added_list.append(entry)
