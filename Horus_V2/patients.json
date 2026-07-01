@@ -195,5 +195,140 @@
         "analysis_mode": "case_studies"
       }
     ]
+  },
+  "PT-2026-008": {
+    "details": {},
+    "cases": [
+      {
+        "timestamp": "2026-07-01 09:58",
+        "raw_symptoms": "The patient, a 55-year-old man, presented with **rheumatic fever** and a **high fever of 102°F**, accompanied by **pain and swelling of the joints** with soreness of the muscles attached to the affected joints, which was **aggravated by touch and movement**. He experienced **intense thirst**, **constipation**, **dryness and a constricted sensation in the throat**, with **throat pain radiating to the ears**. His **urine was scanty, hot, and yellow in color**. He also complained of **marked weakness**, **violent headache**, **chills**, and **shivering of the whole body**.\n",
+        "categorised": {
+          "physical": [
+            {
+              "symptom": "Rheumatic joint pain and swelling",
+              "worse": [
+                "touch",
+                "movement"
+              ],
+              "better": [
+                "rest"
+              ]
+            },
+            {
+              "symptom": "Soreness of muscles attached to joints",
+              "worse": [
+                "movement"
+              ],
+              "better": [
+                "rest"
+              ]
+            },
+            {
+              "symptom": "Dryness and constricted sensation in throat",
+              "worse": [
+                "swallowing"
+              ],
+              "better": [
+                "cold drinks"
+              ]
+            },
+            {
+              "symptom": "Throat pain radiating to ears",
+              "worse": [
+                "swallowing"
+              ],
+              "better": [
+                "none"
+              ]
+            },
+            {
+              "symptom": "Scanty, hot, yellow urine",
+              "worse": [
+                "none"
+              ],
+              "better": [
+                "none"
+              ]
+            },
+            {
+              "symptom": "Violent headache",
+              "worse": [
+                "movement"
+              ],
+              "better": [
+                "pressure"
+              ]
+            }
+          ],
+          "psychological": [
+            {
+              "symptom": "Marked weakness and prostration",
+              "worse": [
+                "exertion"
+              ],
+              "better": [
+                "rest"
+              ]
+            }
+          ],
+          "general": [
+            {
+              "symptom": "High fever (102°F) with chills and shivering",
+              "worse": [
+                "motion"
+              ],
+              "better": [
+                "rest"
+              ]
+            },
+            {
+              "symptom": "Intense thirst",
+              "worse": [
+                "none"
+              ],
+              "better": [
+                "none"
+              ]
+            },
+            {
+              "symptom": "Constipation",
+              "worse": [
+                "none"
+              ],
+              "better": [
+                "none"
+              ]
+            }
+          ],
+          "miasm": "Psoric-Syphilitic",
+          "concomitants": [
+            "Throat pain radiating to ears during rheumatic fever",
+            "Constipation associated with high fever and intense thirst"
+          ],
+          "clinical_summary": "A 55-year-old male presenting with acute rheumatic fever characterized by intense thirst, marked physical prostration, and joint inflammation aggravated by motion, suggesting a deep-seated inflammatory state requiring urgent homeopathic intervention."
+        },
+        "top_remedies": [
+          "spongia",
+          "Bryonia",
+          "Gelsemium",
+          "carboneum sulphuratum",
+          "aconitum napellus",
+          "ferrum phosphoricum",
+          "sanguinaria canadensis",
+          "terebinthina",
+          "Arnica Montana",
+          "Kali Carbonicum"
+        ],
+        "clinical_notes": "The strange, rare, and peculiar feature is the specific radiation of throat pain to the ears during an acute rheumatic episode, coupled with the intense thirst and the need for absolute rest due to extreme physical prostration.",
+        "patient_details": {
+          "name": "",
+          "age": "",
+          "gender": "",
+          "occupation": "",
+          "contact": ""
+        },
+        "analysis_mode": "case_studies"
+      }
+    ]
   }
 }
