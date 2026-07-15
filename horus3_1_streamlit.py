@@ -55,16 +55,37 @@ st.set_page_config(
 # ─────────────────────────────────────────────
 st.markdown("""
 <style>
+    /* ── FORCE LIGHT THEME ── */
+    :root { color-scheme: light; }
+    .stApp, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {
+        background: #ffffff !important; color: #111 !important;
+    }
+    [data-testid="stSidebar"] { background: #f7f7f7 !important; color: #111 !important; }
+    .stApp p, .stApp li, .stApp label, .stApp span, .stApp div,
+    .stMarkdown, .stMarkdown p { color: #111; }
+    h1, h2, h4, h5, h6 { color: #111 !important; }
+    .stTextInput input, .stTextArea textarea,
+    div[data-baseweb="select"] > div, div[data-baseweb="input"] > div {
+        background: #ffffff !important; color: #111 !important;
+    }
+    div[data-baseweb="popover"], ul[data-testid="stSelectboxVirtualDropdown"],
+    div[data-baseweb="menu"], li[role="option"] {
+        background: #ffffff !important; color: #111 !important;
+    }
+    .streamlit-expanderHeader, details, summary { background: #ffffff !important; color: #111 !important; }
+    [data-testid="stExpander"] { background: #ffffff !important; border-color: #e0e0e0 !important; }
+
     #MainMenu, footer, header { visibility: hidden; }
     .block-container { padding: 2.5rem 2rem 4rem; max-width: 860px; }
-    html, body, [class*="css"] { font-family: 'Inter', -apple-system, sans-serif; }
-    h1 { font-size: 1.5rem !important; font-weight: 500 !important; letter-spacing: -0.02em; }
-    h2 { font-size: 1.1rem !important; font-weight: 500 !important; margin-top: 2rem !important; }
-    h3 { font-size: 0.95rem !important; font-weight: 500 !important; color: #555 !important; }
+    html, body, [class*="css"] { font-family: 'Inter', -apple-system, sans-serif; font-size: 17px; }
+    .stApp p, .stMarkdown p { font-size: 1.02rem; line-height: 1.7; }
+    h1 { font-size: 1.9rem !important; font-weight: 500 !important; letter-spacing: -0.02em; }
+    h2 { font-size: 1.4rem !important; font-weight: 500 !important; margin-top: 2rem !important; }
+    h3 { font-size: 1.15rem !important; font-weight: 500 !important; color: #555 !important; }
     .stButton > button {
         border: 1px solid #d0d0d0 !important; background: white !important;
         color: #111 !important; border-radius: 6px !important;
-        font-size: 0.85rem !important; padding: 0.45rem 1.1rem !important;
+        font-size: 1rem !important; padding: 0.5rem 1.2rem !important;
         transition: background 0.15s, border-color 0.15s;
     }
     .stButton > button:hover { background: #f5f5f5 !important; border-color: #aaa !important; }
@@ -74,13 +95,14 @@ st.markdown("""
     .stButton > button[kind="primary"]:hover { background: #333 !important; }
     .stTextInput > div > div > input, .stTextArea textarea {
         border: 1px solid #d0d0d0 !important; border-radius: 6px !important;
-        font-size: 0.9rem !important;
+        font-size: 1.05rem !important;
     }
     .stTextArea textarea { min-height: 180px !important; line-height: 1.7 !important; }
     .step-pill {
-        display: inline-block; font-size: 0.7rem; font-weight: 500;
-        letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 10px;
+        display: inline-block; font-size: 0.85rem; font-weight: 500;
+        letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 12px;
         border-radius: 20px; border: 1px solid #d0d0d0; color: #555; margin-bottom: 0.75rem;
+        background: white;
     }
     .step-pill.active { background: #111; color: white; border-color: #111; }
     .remedy-card {
@@ -88,63 +110,63 @@ st.markdown("""
         padding: 1.1rem 1.3rem; margin-bottom: 0.75rem; background: white;
     }
     .remedy-primary { border-left: 3px solid #111; }
-    .remedy-name { font-size: 1rem; font-weight: 500; margin-bottom: 0.3rem; }
+    .remedy-name { font-size: 1.15rem; font-weight: 500; margin-bottom: 0.3rem; color: #111; }
     .remedy-role {
-        display: inline-block; font-size: 0.7rem; padding: 2px 8px;
+        display: inline-block; font-size: 0.85rem; padding: 3px 10px;
         border-radius: 20px; background: #f0f0f0; color: #444;
         margin-left: 8px; text-transform: capitalize;
     }
-    .remedy-rationale { font-size: 0.88rem; color: #444; line-height: 1.65; margin-top: 0.5rem; }
-    .remedy-meta { font-size: 0.8rem; color: #777; margin-top: 0.5rem; }
+    .remedy-rationale { font-size: 1rem; color: #444; line-height: 1.7; margin-top: 0.5rem; }
+    .remedy-meta { font-size: 0.92rem; color: #777; margin-top: 0.5rem; }
     .sym-tag {
-        display: inline-block; font-size: 0.8rem; padding: 3px 10px;
+        display: inline-block; font-size: 0.92rem; padding: 4px 12px;
         border-radius: 4px; margin: 3px; background: #f5f5f5;
         color: #333; border: 1px solid #e0e0e0;
     }
     .sym-worse { background: #fff5f5; border-color: #fcc; color: #900; }
     .sym-better { background: #f0fff4; border-color: #9e9; color: #2a5; }
     .section-label {
-        font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em;
+        font-size: 0.85rem; font-weight: 600; letter-spacing: 0.1em;
         text-transform: uppercase; color: #888;
         margin-bottom: 0.6rem; margin-top: 1.5rem;
     }
     hr { border: none; border-top: 1px solid #eee; margin: 1.5rem 0; }
     .patient-badge {
-        font-size: 0.75rem; color: #888; border: 1px solid #e8e8e8;
-        border-radius: 4px; padding: 3px 10px;
-        display: inline-block; margin-bottom: 1rem;
+        font-size: 0.9rem; color: #888; border: 1px solid #e8e8e8;
+        border-radius: 4px; padding: 4px 12px;
+        display: inline-block; margin-bottom: 1rem; background: white;
     }
     .info-box {
         background: #f9f9f9; border: 1px solid #eee; border-radius: 6px;
-        padding: 0.9rem 1.1rem; font-size: 0.85rem; color: #555;
-        line-height: 1.65; margin: 0.75rem 0;
+        padding: 0.9rem 1.1rem; font-size: 1rem; color: #555;
+        line-height: 1.7; margin: 0.75rem 0;
     }
     .monitor-item {
-        font-size: 0.88rem; color: #333; padding: 0.4rem 0;
-        border-bottom: 1px solid #f0f0f0; line-height: 1.55;
+        font-size: 1rem; color: #333; padding: 0.45rem 0;
+        border-bottom: 1px solid #f0f0f0; line-height: 1.6;
     }
     .monitor-item:last-child { border-bottom: none; }
-    .streamlit-expanderHeader { font-size: 0.88rem !important; }
-    div[data-baseweb="select"] { font-size: 0.88rem !important; }
+    .streamlit-expanderHeader { font-size: 1rem !important; }
+    div[data-baseweb="select"] { font-size: 1rem !important; }
     .patient-card {
         border: 1px solid #e8e8e8; border-radius: 8px;
         padding: 1rem 1.2rem; margin-bottom: 0.6rem; background: #fafafa;
     }
     .patient-card:hover { border-color: #bbb; background: white; }
-    .patient-name { font-size: 1rem; font-weight: 500; color: #111; }
-    .patient-meta { font-size: 0.78rem; color: #888; margin-top: 2px; }
+    .patient-name { font-size: 1.15rem; font-weight: 500; color: #111; }
+    .patient-meta { font-size: 0.9rem; color: #888; margin-top: 2px; }
     .case-timeline {
         border-left: 2px solid #e0e0e0; padding-left: 1rem; margin-top: 0.5rem;
     }
     .case-entry {
         position: relative; padding: 0.5rem 0;
-        border-bottom: 1px solid #f5f5f5; font-size: 0.85rem;
+        border-bottom: 1px solid #f5f5f5; font-size: 0.98rem;
     }
     .case-entry:last-child { border-bottom: none; }
-    .case-date { font-size: 0.75rem; color: #999; margin-bottom: 2px; }
+    .case-date { font-size: 0.88rem; color: #999; margin-bottom: 2px; }
     .mode-badge {
-        display: inline-block; font-size: 0.72rem; font-weight: 600;
-        letter-spacing: 0.06em; text-transform: uppercase; padding: 3px 10px;
+        display: inline-block; font-size: 0.85rem; font-weight: 600;
+        letter-spacing: 0.06em; text-transform: uppercase; padding: 4px 12px;
         border-radius: 4px; margin-bottom: 0.75rem;
     }
     .mode-case { background: #e8f4fd; color: #1565c0; border: 1px solid #bbdefb; }
@@ -153,12 +175,12 @@ st.markdown("""
         display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 0.75rem;
     }
     .detail-chip {
-        font-size: 0.8rem; color: #444; background: #f5f5f5;
-        border: 1px solid #e5e5e5; border-radius: 4px; padding: 3px 10px;
+        font-size: 0.92rem; color: #444; background: #f5f5f5;
+        border: 1px solid #e5e5e5; border-radius: 4px; padding: 4px 12px;
     }
     .save-success {
-        font-size: 0.8rem; color: #2a7a2a; background: #f0fff4;
-        border: 1px solid #9e9; border-radius: 4px; padding: 4px 10px;
+        font-size: 0.92rem; color: #2a7a2a; background: #f0fff4;
+        border: 1px solid #9e9; border-radius: 4px; padding: 5px 12px;
         display: inline-block;
     }
     /* Future symptoms tab */
@@ -176,7 +198,7 @@ st.markdown("""
         background: #111; border-radius: 4px; height: 6px;
     }
     .prob-label {
-        font-size: 0.72rem; color: #888; margin-top: 2px;
+        font-size: 0.85rem; color: #888; margin-top: 2px;
     }
     .diff-added { color: #2a7a2a; font-weight: 500; }
     .diff-neutral { color: #555; }
@@ -1013,8 +1035,8 @@ def render_symptom_category(label, symptoms):
         if better: mod += f'<div style="margin-top:2px">↑ {better}</div>'
         st.markdown(
             f'<div class="remedy-card" style="padding:0.75rem 1rem;margin-bottom:6px">'
-            f'<div style="font-size:0.9rem;font-weight:500;color:#111">{s["symptom"]}</div>'
-            f'<div style="font-size:0.8rem;color:#888">{mod}</div></div>',
+            f'<div style="font-size:1.02rem;font-weight:500;color:#111">{s["symptom"]}</div>'
+            f'<div style="font-size:0.92rem;color:#888">{mod}</div></div>',
             unsafe_allow_html=True,
         )
 
@@ -1032,10 +1054,10 @@ def render_report_column(rpt: dict):
             st.markdown(
                 f'<div class="remedy-card" style="{border}margin-bottom:5px;padding:0.6rem 0.9rem">'
                 f'<div style="display:flex;align-items:center;gap:6px">'
-                f'<span style="font-size:0.72rem;color:#aaa;min-width:16px">#{rank}</span>'
-                f'<span style="font-size:0.9rem;font-weight:{"600" if rank==1 else "400"};color:#111">'
+                f'<span style="font-size:0.85rem;color:#aaa;min-width:18px">#{rank}</span>'
+                f'<span style="font-size:1.02rem;font-weight:{"600" if rank==1 else "400"};color:#111">'
                 f'{r.get("name","")}</span>{role_badge}</div>'
-                f'<div style="font-size:0.8rem;color:#555;margin-top:3px;line-height:1.5">'
+                f'<div style="font-size:0.92rem;color:#555;margin-top:3px;line-height:1.5">'
                 f'{r.get("rationale","")[:160]}…</div>'
                 f'</div>',
                 unsafe_allow_html=True,
@@ -1043,7 +1065,7 @@ def render_report_column(rpt: dict):
     else:
         # Fallback if old schema
         st.markdown(f"**Simillimum: {pr.get('name','—')}**")
-        st.markdown(f'<div style="font-size:0.83rem;color:#444;line-height:1.6">{pr.get("why","")[:400]}…</div>',
+        st.markdown(f'<div style="font-size:0.95rem;color:#444;line-height:1.65">{pr.get("why","")[:400]}…</div>',
                     unsafe_allow_html=True)
         # fallback: show secondary from top10 if old schema
         secs = [r for r in rpt.get("top10Remedies", [])[1:] if r.get("name")]
@@ -1573,7 +1595,7 @@ with tab_patients:
             q = search_q.strip().lower()
             patient_rows = [r for r in patient_rows if q in r["pid"].lower() or q in r["name"].lower()]
 
-        st.markdown(f'<p style="font-size:0.8rem;color:#888;margin-bottom:1rem">{len(patient_rows)} patient(s) found</p>', unsafe_allow_html=True)
+        st.markdown(f'<p style="font-size:0.92rem;color:#888;margin-bottom:1rem">{len(patient_rows)} patient(s) found</p>', unsafe_allow_html=True)
 
         for row in patient_rows:
             pid  = row["pid"]
@@ -1632,7 +1654,7 @@ with tab_patients:
                         st.markdown(
                             f'<div class="case-entry">'
                             f'<div class="case-date">{case.get("timestamp","—")} &nbsp;{mode_badge}</div>'
-                            f'<div style="font-size:0.9rem;font-weight:500;color:#111">{primary}{secondary_html}</div>'
+                            f'<div style="font-size:1.02rem;font-weight:500;color:#111">{primary}{secondary_html}</div>'
                             f'{notes_html}</div>',
                             unsafe_allow_html=True,
                         )
@@ -1875,7 +1897,7 @@ with tab_future:
                 st.markdown(
                     f'<div class="{card_cls}">'
                     f'<div style="flex:1">'
-                    f'<div style="font-size:0.9rem;font-weight:{"600" if is_sel else "400"};color:#111">{sym}</div>'
+                    f'<div style="font-size:1.02rem;font-weight:{"600" if is_sel else "400"};color:#111">{sym}</div>'
                     f'<div class="prob-bar-bg"><div class="prob-bar-fill" style="width:{bar_w}%"></div></div>'
                     f'<div class="prob-label">P(this | <em>{ps_orig[:40]}</em>) = <strong>{prob_pct}%</strong></div>'
                     f'</div></div>',
