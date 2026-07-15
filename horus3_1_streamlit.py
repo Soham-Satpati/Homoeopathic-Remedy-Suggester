@@ -55,158 +55,193 @@ st.set_page_config(
 # ─────────────────────────────────────────────
 st.markdown("""
 <style>
-    /* ── FORCE LIGHT THEME ── */
+    /* ── LIGHT THEME · Soft Slate-Blue Palette ──
+       bg: #f6f8fb | surface: #ffffff | ink: #1e293b | muted: #64748b
+       accent: #2563eb | accent-soft: #eff6ff | border: #dbe3ee            */
     :root { color-scheme: light; }
     .stApp, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {
-        background: #ffffff !important; color: #111 !important;
+        background: #f6f8fb !important; color: #1e293b !important;
     }
-    [data-testid="stSidebar"] { background: #f7f7f7 !important; color: #111 !important; }
+    [data-testid="stSidebar"] { background: #eef2f7 !important; color: #1e293b !important; }
     .stApp p, .stApp li, .stApp label, .stApp span, .stApp div,
-    .stMarkdown, .stMarkdown p { color: #111; }
-    h1, h2, h4, h5, h6 { color: #111 !important; }
+    .stMarkdown, .stMarkdown p { color: #1e293b; }
+    h1, h2, h4, h5, h6 { color: #1e293b !important; }
+
+    /* Text selection always readable */
+    ::selection { background: #bfdbfe !important; color: #1e293b !important; }
+    ::-moz-selection { background: #bfdbfe !important; color: #1e293b !important; }
+
+    /* Inputs & dropdowns stay light with dark text */
     .stTextInput input, .stTextArea textarea,
     div[data-baseweb="select"] > div, div[data-baseweb="input"] > div {
-        background: #ffffff !important; color: #111 !important;
+        background: #ffffff !important; color: #1e293b !important;
     }
     div[data-baseweb="popover"], ul[data-testid="stSelectboxVirtualDropdown"],
-    div[data-baseweb="menu"], li[role="option"] {
-        background: #ffffff !important; color: #111 !important;
+    div[data-baseweb="menu"] { background: #ffffff !important; }
+    li[role="option"] { background: #ffffff !important; color: #1e293b !important; font-size: 1.05rem !important; }
+    li[role="option"]:hover, li[role="option"][aria-selected="true"] {
+        background: #eff6ff !important; color: #1d4ed8 !important;
     }
-    .streamlit-expanderHeader, details, summary { background: #ffffff !important; color: #111 !important; }
-    [data-testid="stExpander"] { background: #ffffff !important; border-color: #e0e0e0 !important; }
+    .streamlit-expanderHeader, details, summary { background: #ffffff !important; color: #1e293b !important; }
+    [data-testid="stExpander"] {
+        background: #ffffff !important; border: 1px solid #dbe3ee !important; border-radius: 8px !important;
+    }
+    [data-testid="stExpander"]:hover { border-color: #93c5fd !important; }
 
     #MainMenu, footer, header { visibility: hidden; }
-    .block-container { padding: 2.5rem 2rem 4rem; max-width: 860px; }
-    html, body, [class*="css"] { font-family: 'Inter', -apple-system, sans-serif; font-size: 17px; }
-    .stApp p, .stMarkdown p { font-size: 1.02rem; line-height: 1.7; }
-    h1 { font-size: 1.9rem !important; font-weight: 500 !important; letter-spacing: -0.02em; }
-    h2 { font-size: 1.4rem !important; font-weight: 500 !important; margin-top: 2rem !important; }
-    h3 { font-size: 1.15rem !important; font-weight: 500 !important; color: #555 !important; }
+    .block-container { padding: 2.5rem 2rem 4rem; max-width: 880px; }
+    html, body, [class*="css"] { font-family: 'Inter', -apple-system, sans-serif; font-size: 19px; }
+    .stApp p, .stMarkdown p { font-size: 1.1rem; line-height: 1.75; }
+    h1 { font-size: 2.2rem !important; font-weight: 600 !important; letter-spacing: -0.02em; }
+    h2 { font-size: 1.6rem !important; font-weight: 600 !important; margin-top: 2rem !important; }
+    h3 { font-size: 1.3rem !important; font-weight: 500 !important; color: #475569 !important; }
+
     .stButton > button {
-        border: 1px solid #d0d0d0 !important; background: white !important;
-        color: #111 !important; border-radius: 6px !important;
-        font-size: 1rem !important; padding: 0.5rem 1.2rem !important;
-        transition: background 0.15s, border-color 0.15s;
+        border: 1px solid #cbd5e1 !important; background: #ffffff !important;
+        color: #1e293b !important; border-radius: 8px !important;
+        font-size: 1.1rem !important; padding: 0.6rem 1.4rem !important;
+        transition: background 0.15s, border-color 0.15s, color 0.15s;
     }
-    .stButton > button:hover { background: #f5f5f5 !important; border-color: #aaa !important; }
+    .stButton > button:hover {
+        background: #eff6ff !important; border-color: #2563eb !important; color: #1d4ed8 !important;
+    }
     .stButton > button[kind="primary"] {
-        background: #111 !important; color: white !important; border-color: #111 !important;
+        background: #2563eb !important; color: #ffffff !important; border-color: #2563eb !important;
     }
-    .stButton > button[kind="primary"]:hover { background: #333 !important; }
+    .stButton > button[kind="primary"]:hover {
+        background: #1d4ed8 !important; color: #ffffff !important;
+    }
     .stTextInput > div > div > input, .stTextArea textarea {
-        border: 1px solid #d0d0d0 !important; border-radius: 6px !important;
-        font-size: 1.05rem !important;
+        border: 1px solid #cbd5e1 !important; border-radius: 8px !important;
+        font-size: 1.15rem !important;
     }
-    .stTextArea textarea { min-height: 180px !important; line-height: 1.7 !important; }
+    .stTextInput input:focus, .stTextArea textarea:focus {
+        border-color: #2563eb !important; box-shadow: 0 0 0 2px #bfdbfe !important;
+    }
+    .stTextArea textarea { min-height: 190px !important; line-height: 1.75 !important; }
+
     .step-pill {
-        display: inline-block; font-size: 0.85rem; font-weight: 500;
-        letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 12px;
-        border-radius: 20px; border: 1px solid #d0d0d0; color: #555; margin-bottom: 0.75rem;
-        background: white;
+        display: inline-block; font-size: 0.95rem; font-weight: 500;
+        letter-spacing: 0.08em; text-transform: uppercase; padding: 5px 14px;
+        border-radius: 20px; border: 1px solid #cbd5e1; color: #475569;
+        margin-bottom: 0.75rem; background: #ffffff;
     }
-    .step-pill.active { background: #111; color: white; border-color: #111; }
+    .step-pill.active { background: #2563eb; color: #ffffff; border-color: #2563eb; }
+
     .remedy-card {
-        border: 1px solid #e0e0e0; border-radius: 8px;
-        padding: 1.1rem 1.3rem; margin-bottom: 0.75rem; background: white;
+        border: 1px solid #dbe3ee; border-radius: 10px;
+        padding: 1.2rem 1.4rem; margin-bottom: 0.8rem; background: #ffffff;
+        transition: border-color 0.15s, box-shadow 0.15s;
     }
-    .remedy-primary { border-left: 3px solid #111; }
-    .remedy-name { font-size: 1.15rem; font-weight: 500; margin-bottom: 0.3rem; color: #111; }
+    .remedy-card:hover { border-color: #93c5fd; box-shadow: 0 2px 10px rgba(37,99,235,0.08); }
+    .remedy-card:hover * { color: inherit; }
+    .remedy-primary { border-left: 4px solid #2563eb; }
+    .remedy-name { font-size: 1.3rem; font-weight: 600; margin-bottom: 0.3rem; color: #1e293b; }
     .remedy-role {
-        display: inline-block; font-size: 0.85rem; padding: 3px 10px;
-        border-radius: 20px; background: #f0f0f0; color: #444;
+        display: inline-block; font-size: 0.95rem; padding: 3px 12px;
+        border-radius: 20px; background: #eff6ff; color: #1d4ed8;
         margin-left: 8px; text-transform: capitalize;
     }
-    .remedy-rationale { font-size: 1rem; color: #444; line-height: 1.7; margin-top: 0.5rem; }
-    .remedy-meta { font-size: 0.92rem; color: #777; margin-top: 0.5rem; }
+    .remedy-rationale { font-size: 1.1rem; color: #334155; line-height: 1.75; margin-top: 0.5rem; }
+    .remedy-meta { font-size: 1rem; color: #64748b; margin-top: 0.5rem; }
+
     .sym-tag {
-        display: inline-block; font-size: 0.92rem; padding: 4px 12px;
-        border-radius: 4px; margin: 3px; background: #f5f5f5;
-        color: #333; border: 1px solid #e0e0e0;
+        display: inline-block; font-size: 1rem; padding: 5px 14px;
+        border-radius: 6px; margin: 3px; background: #eef2f7;
+        color: #334155; border: 1px solid #dbe3ee;
     }
-    .sym-worse { background: #fff5f5; border-color: #fcc; color: #900; }
-    .sym-better { background: #f0fff4; border-color: #9e9; color: #2a5; }
+    .sym-tag:hover { background: #e2e8f0; color: #1e293b; }
+    .sym-worse { background: #fef2f2; border-color: #fecaca; color: #b91c1c; }
+    .sym-worse:hover { background: #fee2e2; color: #991b1b; }
+    .sym-better { background: #f0fdf4; border-color: #bbf7d0; color: #15803d; }
+    .sym-better:hover { background: #dcfce7; color: #166534; }
+
     .section-label {
-        font-size: 0.85rem; font-weight: 600; letter-spacing: 0.1em;
-        text-transform: uppercase; color: #888;
+        font-size: 0.95rem; font-weight: 600; letter-spacing: 0.1em;
+        text-transform: uppercase; color: #64748b;
         margin-bottom: 0.6rem; margin-top: 1.5rem;
     }
-    hr { border: none; border-top: 1px solid #eee; margin: 1.5rem 0; }
+    hr { border: none; border-top: 1px solid #e2e8f0; margin: 1.5rem 0; }
     .patient-badge {
-        font-size: 0.9rem; color: #888; border: 1px solid #e8e8e8;
-        border-radius: 4px; padding: 4px 12px;
-        display: inline-block; margin-bottom: 1rem; background: white;
+        font-size: 1rem; color: #475569; border: 1px solid #dbe3ee;
+        border-radius: 6px; padding: 5px 14px;
+        display: inline-block; margin-bottom: 1rem; background: #ffffff;
     }
     .info-box {
-        background: #f9f9f9; border: 1px solid #eee; border-radius: 6px;
-        padding: 0.9rem 1.1rem; font-size: 1rem; color: #555;
-        line-height: 1.7; margin: 0.75rem 0;
+        background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px;
+        padding: 1rem 1.2rem; font-size: 1.1rem; color: #334155;
+        line-height: 1.75; margin: 0.75rem 0;
     }
     .monitor-item {
-        font-size: 1rem; color: #333; padding: 0.45rem 0;
-        border-bottom: 1px solid #f0f0f0; line-height: 1.6;
+        font-size: 1.1rem; color: #334155; padding: 0.5rem 0;
+        border-bottom: 1px solid #e8eef5; line-height: 1.65;
     }
     .monitor-item:last-child { border-bottom: none; }
-    .streamlit-expanderHeader { font-size: 1rem !important; }
-    div[data-baseweb="select"] { font-size: 1rem !important; }
+    .streamlit-expanderHeader { font-size: 1.1rem !important; }
+    div[data-baseweb="select"] { font-size: 1.1rem !important; }
+
     .patient-card {
-        border: 1px solid #e8e8e8; border-radius: 8px;
-        padding: 1rem 1.2rem; margin-bottom: 0.6rem; background: #fafafa;
+        border: 1px solid #dbe3ee; border-radius: 10px;
+        padding: 1.1rem 1.3rem; margin-bottom: 0.6rem; background: #ffffff;
+        transition: border-color 0.15s, background 0.15s, box-shadow 0.15s;
     }
-    .patient-card:hover { border-color: #bbb; background: white; }
-    .patient-name { font-size: 1.15rem; font-weight: 500; color: #111; }
-    .patient-meta { font-size: 0.9rem; color: #888; margin-top: 2px; }
-    .case-timeline {
-        border-left: 2px solid #e0e0e0; padding-left: 1rem; margin-top: 0.5rem;
+    .patient-card:hover {
+        border-color: #93c5fd; background: #f8fbff;
+        box-shadow: 0 2px 10px rgba(37,99,235,0.08);
     }
+    .patient-card:hover .patient-name { color: #1d4ed8; }
+    .patient-name { font-size: 1.3rem; font-weight: 600; color: #1e293b; }
+    .patient-meta { font-size: 1rem; color: #64748b; margin-top: 2px; }
+
+    .case-timeline { border-left: 2px solid #cbd5e1; padding-left: 1rem; margin-top: 0.5rem; }
     .case-entry {
-        position: relative; padding: 0.5rem 0;
-        border-bottom: 1px solid #f5f5f5; font-size: 0.98rem;
+        position: relative; padding: 0.55rem 0;
+        border-bottom: 1px solid #e8eef5; font-size: 1.08rem;
     }
     .case-entry:last-child { border-bottom: none; }
-    .case-date { font-size: 0.88rem; color: #999; margin-bottom: 2px; }
+    .case-date { font-size: 0.98rem; color: #64748b; margin-bottom: 2px; }
+
     .mode-badge {
-        display: inline-block; font-size: 0.85rem; font-weight: 600;
-        letter-spacing: 0.06em; text-transform: uppercase; padding: 4px 12px;
-        border-radius: 4px; margin-bottom: 0.75rem;
+        display: inline-block; font-size: 0.95rem; font-weight: 600;
+        letter-spacing: 0.06em; text-transform: uppercase; padding: 5px 14px;
+        border-radius: 6px; margin-bottom: 0.75rem;
     }
-    .mode-case { background: #e8f4fd; color: #1565c0; border: 1px solid #bbdefb; }
-    .mode-materia { background: #f3e5f5; color: #6a1b9a; border: 1px solid #e1bee7; }
-    .detail-row {
-        display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 0.75rem;
-    }
+    .mode-case { background: #e0f2fe; color: #0369a1; border: 1px solid #bae6fd; }
+    .mode-materia { background: #f3e8ff; color: #7e22ce; border: 1px solid #e9d5ff; }
+
+    .detail-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 0.75rem; }
     .detail-chip {
-        font-size: 0.92rem; color: #444; background: #f5f5f5;
-        border: 1px solid #e5e5e5; border-radius: 4px; padding: 4px 12px;
+        font-size: 1rem; color: #334155; background: #eef2f7;
+        border: 1px solid #dbe3ee; border-radius: 6px; padding: 5px 14px;
     }
+    .detail-chip:hover { background: #e2e8f0; color: #1e293b; }
     .save-success {
-        font-size: 0.92rem; color: #2a7a2a; background: #f0fff4;
-        border: 1px solid #9e9; border-radius: 4px; padding: 5px 12px;
+        font-size: 1rem; color: #15803d; background: #f0fdf4;
+        border: 1px solid #bbf7d0; border-radius: 6px; padding: 6px 14px;
         display: inline-block;
     }
+
     /* Future symptoms tab */
     .sug-card {
-        border: 1px solid #e0e0e0; border-radius: 8px;
-        padding: 0.85rem 1.1rem; margin-bottom: 0.6rem; background: white;
+        border: 1px solid #dbe3ee; border-radius: 10px;
+        padding: 0.95rem 1.2rem; margin-bottom: 0.6rem; background: #ffffff;
         display: flex; align-items: flex-start; gap: 0.75rem;
+        transition: border-color 0.15s, box-shadow 0.15s;
     }
-    .sug-card.selected { border-color: #111; border-left: 3px solid #111; }
-    .prob-bar-bg {
-        background: #f0f0f0; border-radius: 4px; height: 6px;
-        width: 100%; margin-top: 5px;
+    .sug-card:hover { border-color: #93c5fd; box-shadow: 0 2px 10px rgba(37,99,235,0.08); }
+    .sug-card.selected {
+        border-color: #2563eb; border-left: 4px solid #2563eb; background: #f8fbff;
     }
-    .prob-bar-fill {
-        background: #111; border-radius: 4px; height: 6px;
-    }
-    .prob-label {
-        font-size: 0.85rem; color: #888; margin-top: 2px;
-    }
-    .diff-added { color: #2a7a2a; font-weight: 500; }
-    .diff-neutral { color: #555; }
+    .prob-bar-bg { background: #e2e8f0; border-radius: 4px; height: 8px; width: 100%; margin-top: 5px; }
+    .prob-bar-fill { background: #2563eb; border-radius: 4px; height: 8px; }
+    .prob-label { font-size: 0.95rem; color: #64748b; margin-top: 2px; }
+    .diff-added { color: #15803d; font-weight: 500; }
+    .diff-neutral { color: #475569; }
     .compare-col {
-        background: #fafafa; border: 1px solid #eee; border-radius: 8px;
-        padding: 1rem 1.1rem; height: 100%;
+        background: #ffffff; border: 1px solid #dbe3ee; border-radius: 10px;
+        padding: 1.1rem 1.2rem; height: 100%;
     }
-    .compare-col.enhanced { background: #f0fff4; border-color: #c3e6cb; }
+    .compare-col.enhanced { background: #f0fdf4; border-color: #bbf7d0; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -1035,8 +1070,8 @@ def render_symptom_category(label, symptoms):
         if better: mod += f'<div style="margin-top:2px">↑ {better}</div>'
         st.markdown(
             f'<div class="remedy-card" style="padding:0.75rem 1rem;margin-bottom:6px">'
-            f'<div style="font-size:1.02rem;font-weight:500;color:#111">{s["symptom"]}</div>'
-            f'<div style="font-size:0.92rem;color:#888">{mod}</div></div>',
+            f'<div style="font-size:1.15rem;font-weight:600;color:#1e293b">{s["symptom"]}</div>'
+            f'<div style="font-size:1.02rem;color:#64748b">{mod}</div></div>',
             unsafe_allow_html=True,
         )
 
@@ -1050,14 +1085,14 @@ def render_report_column(rpt: dict):
         for r in top10:
             rank = r.get("rank", "")
             role_badge = f'<span class="remedy-role">{r.get("role","")}</span>'
-            border = "border-left:3px solid #111;" if rank == 1 else ""
+            border = "border-left:4px solid #2563eb;" if rank == 1 else ""
             st.markdown(
                 f'<div class="remedy-card" style="{border}margin-bottom:5px;padding:0.6rem 0.9rem">'
                 f'<div style="display:flex;align-items:center;gap:6px">'
-                f'<span style="font-size:0.85rem;color:#aaa;min-width:18px">#{rank}</span>'
-                f'<span style="font-size:1.02rem;font-weight:{"600" if rank==1 else "400"};color:#111">'
+                f'<span style="font-size:0.98rem;color:#94a3b8;min-width:22px">#{rank}</span>'
+                f'<span style="font-size:1.15rem;font-weight:{"600" if rank==1 else "400"};color:#1e293b">'
                 f'{r.get("name","")}</span>{role_badge}</div>'
-                f'<div style="font-size:0.92rem;color:#555;margin-top:3px;line-height:1.5">'
+                f'<div style="font-size:1.02rem;color:#475569;margin-top:3px;line-height:1.5">'
                 f'{r.get("rationale","")[:160]}…</div>'
                 f'</div>',
                 unsafe_allow_html=True,
@@ -1065,7 +1100,7 @@ def render_report_column(rpt: dict):
     else:
         # Fallback if old schema
         st.markdown(f"**Simillimum: {pr.get('name','—')}**")
-        st.markdown(f'<div style="font-size:0.95rem;color:#444;line-height:1.65">{pr.get("why","")[:400]}…</div>',
+        st.markdown(f'<div style="font-size:1.08rem;color:#334155;line-height:1.7">{pr.get("why","")[:400]}…</div>',
                     unsafe_allow_html=True)
         # fallback: show secondary from top10 if old schema
         secs = [r for r in rpt.get("top10Remedies", [])[1:] if r.get("name")]
@@ -1325,7 +1360,7 @@ with tab_intake:
         # ── Dataset validation ──────────────────────────────────
         if cat.get("clinical_summary"):
             st.markdown(
-                f'<div class="info-box" style="border-left:3px solid #111;padding-left:1rem">'
+                f'<div class="info-box" style="border-left:4px solid #2563eb;padding-left:1rem">'
                 f'<strong>Case essence</strong><br>{cat["clinical_summary"]}</div>',
                 unsafe_allow_html=True,
             )
@@ -1436,7 +1471,7 @@ with tab_intake:
 
         if rpt.get("caseEssence"):
             st.markdown(
-                f'<div class="info-box" style="border-left:3px solid #111;padding-left:1rem">'
+                f'<div class="info-box" style="border-left:4px solid #2563eb;padding-left:1rem">'
                 f'<strong>Case essence</strong><br>{rpt["caseEssence"]}</div>',
                 unsafe_allow_html=True,
             )
@@ -1453,7 +1488,7 @@ with tab_intake:
             for r in top10:
                 rank = r.get("rank", "")
                 role_badge = f'<span class="remedy-role">{r.get("role","")}</span>'
-                border = "border-left:3px solid #111;" if rank == 1 else ""
+                border = "border-left:4px solid #2563eb;" if rank == 1 else ""
                 key_syms = r.get("keySymptoms", [])
                 key_html = ""
                 if key_syms:
@@ -1595,7 +1630,7 @@ with tab_patients:
             q = search_q.strip().lower()
             patient_rows = [r for r in patient_rows if q in r["pid"].lower() or q in r["name"].lower()]
 
-        st.markdown(f'<p style="font-size:0.92rem;color:#888;margin-bottom:1rem">{len(patient_rows)} patient(s) found</p>', unsafe_allow_html=True)
+        st.markdown(f'<p style="font-size:1.02rem;color:#64748b;margin-bottom:1rem">{len(patient_rows)} patient(s) found</p>', unsafe_allow_html=True)
 
         for row in patient_rows:
             pid  = row["pid"]
@@ -1610,7 +1645,7 @@ with tab_patients:
 
             with st.expander(f"{'👤 ' + name if name else '🆔'} {pid}"):
                 st.markdown(
-                    f'<div><div style="font-size:1.05rem;font-weight:500;color:#111">{disp}</div>'
+                    f'<div><div style="font-size:1.05rem;font-weight:500;color:#1e293b">{disp}</div>'
                     f'<div class="patient-meta">{meta_str}</div></div>',
                     unsafe_allow_html=True,
                 )
@@ -1654,7 +1689,7 @@ with tab_patients:
                         st.markdown(
                             f'<div class="case-entry">'
                             f'<div class="case-date">{case.get("timestamp","—")} &nbsp;{mode_badge}</div>'
-                            f'<div style="font-size:1.02rem;font-weight:500;color:#111">{primary}{secondary_html}</div>'
+                            f'<div style="font-size:1.15rem;font-weight:600;color:#1e293b">{primary}{secondary_html}</div>'
                             f'{notes_html}</div>',
                             unsafe_allow_html=True,
                         )
@@ -1866,7 +1901,7 @@ with tab_future:
             f'<div style="font-size:0.75rem;font-weight:600;letter-spacing:0.08em;'
             f'text-transform:uppercase;color:#555;margin:1.25rem 0 0.5rem 0;'
             f'border-bottom:1px solid #eee;padding-bottom:4px">'
-            f'Triggered by: <span style="color:#111">{ps_orig}</span></div>',
+            f'Triggered by: <span style="color:#1e293b">{ps_orig}</span></div>',
             unsafe_allow_html=True,
         )
 
@@ -1897,7 +1932,7 @@ with tab_future:
                 st.markdown(
                     f'<div class="{card_cls}">'
                     f'<div style="flex:1">'
-                    f'<div style="font-size:1.02rem;font-weight:{"600" if is_sel else "400"};color:#111">{sym}</div>'
+                    f'<div style="font-size:1.15rem;font-weight:{"600" if is_sel else "400"};color:#1e293b">{sym}</div>'
                     f'<div class="prob-bar-bg"><div class="prob-bar-fill" style="width:{bar_w}%"></div></div>'
                     f'<div class="prob-label">P(this | <em>{ps_orig[:40]}</em>) = <strong>{prob_pct}%</strong></div>'
                     f'</div></div>',
@@ -1933,7 +1968,7 @@ with tab_future:
         )
     else:
         st.markdown(
-            f'<div class="info-box" style="border-left:3px solid #111;padding-left:1rem">'
+            f'<div class="info-box" style="border-left:4px solid #2563eb;padding-left:1rem">'
             f'<strong>{n_selected} symptom(s) selected</strong><br>'
             + " ".join(f'<span class="sym-tag">{s}</span>' for s in selected.keys())
             + '</div>',
@@ -2009,7 +2044,7 @@ with tab_future:
                     f'<div style="display:flex;align-items:center;gap:10px;padding:5px 0;border-bottom:1px solid #f5f5f5">'
                     f'<span style="font-size:0.72rem;color:#aaa;min-width:18px">#{i}</span>'
                     f'<div style="flex:1">'
-                    f'<div style="font-size:0.88rem;color:#111">{sug["symptom"]}</div>'
+                    f'<div style="font-size:0.88rem;color:#1e293b">{sug["symptom"]}</div>'
                     f'<div class="prob-bar-bg"><div class="prob-bar-fill" style="width:{bar_w}%"></div></div>'
                     f'<div class="prob-label">avg P = <strong>{prob_pct}%</strong> '
                     f'· best trigger: <em>{sug.get("triggered_by","")[:50]}</em></div>'
@@ -2027,7 +2062,7 @@ with tab_future:
 
         if comp_txt:
             st.markdown(
-                f'<div class="info-box" style="border-left:3px solid #111;padding-left:1rem">'
+                f'<div class="info-box" style="border-left:4px solid #2563eb;padding-left:1rem">'
                 f'<div class="section-label" style="margin-top:0">Clinical Commentary</div>'
                 f'{comp_txt}</div>',
                 unsafe_allow_html=True,
