@@ -301,14 +301,35 @@ GEMINI_READY = bool(GEMINI_API_KEY)
 # ─────────────────────────────────────────────
 # GITHUB-BACKED PATIENT STORAGE
 # ─────────────────────────────────────────────
+_GH_LAST_ERROR = {"msg": ""}
+
+
 @st.cache_resource(show_spinner=False)
+def _gh_connect(token: str, repo_name: str):
+    """Cached only on success — a failure raises, so the next call retries."""
+    return Github(token.strip()).get_repo(repo_name.strip())
+
+
 def _gh_repo():
     if not GITHUB_TOKEN or not GITHUB_REPO:
+        _GH_LAST_ERROR["msg"] = "GITHUB_TOKEN or GITHUB_REPO secret is empty."
         return None
     try:
-        g = Github(GITHUB_TOKEN)
-        return g.get_repo(GITHUB_REPO)
-    except Exception:
+        repo = _gh_connect(GITHUB_TOKEN, GITHUB_REPO)
+        _GH_LAST_ERROR["msg"] = ""
+        return repo
+    except GithubException as e:
+        msg = (e.data or {}).get("message", str(e)) if isinstance(e.data, dict) else str(e)
+        hints = {
+            401: "the token is invalid or expired — create a new one and update GITHUB_TOKEN.",
+            403: "the token doesn't have permission — give it 'Contents: Read and write' on this repo.",
+            404: f"repo '{GITHUB_REPO}' not found, or the token can't see it — check the "
+                 "'owner/repo' spelling and that the token's repository access includes it.",
+        }
+        _GH_LAST_ERROR["msg"] = f"GitHub {e.status}: {msg} → {hints.get(e.status, 'check the GitHub secrets.')}"
+        return None
+    except Exception as e:
+        _GH_LAST_ERROR["msg"] = f"Could not reach GitHub: {e}"
         return None
 
 
@@ -317,8 +338,9 @@ def load_patients() -> dict:
         return st.session_state.patients_cache
     repo = _gh_repo()
     if repo is None:
-        st.session_state.patients_cache = {}
-        st.session_state.patients_cache_valid = True
+        if not st.session_state.get("_gh_warned"):
+            st.session_state._gh_warned = True
+            st.warning(f"Patient history unavailable — {_GH_LAST_ERROR['msg']}")
         return {}
     try:
         contents = repo.get_contents(GITHUB_FILE_PATH)
@@ -346,7 +368,7 @@ def invalidate_patient_cache():
 def save_patients(patients: dict) -> bool:
     repo = _gh_repo()
     if repo is None:
-        st.error("GitHub not configured — case not saved.")
+        st.error(f"Case not saved — {_GH_LAST_ERROR['msg'] or 'GitHub not configured.'}")
         return False
     payload = json.dumps(patients, indent=2, ensure_ascii=False)
     commit_msg = f"HoRUS3 update — {datetime.now().strftime('%Y-%m-%d %H:%M')}"
