@@ -1,0 +1,103 @@
+{
+  "PT-2026-001": {
+    "details": {},
+    "cases": [
+      {
+        "timestamp": "2026-10-12 22:06",
+        "raw_symptoms": "A patient presents with sudden intense anxiety and restlessness that begins after midnight and peaks around 2–3 a.m., accompanied by a sensation of the heart pounding and a fear that she will die; feels better from open air and walking slowly, worse from warmth and tight clothing; has a marked craving for sweets and ice-cold drinks, yet feels chilly overall and covers herself even in mild weather; there is a tendency to weeping when telling the symptoms, a sense of isolation as if alone in the world, and occasional sharp stitching pains in the left chest that radiate to the left arm, all of which have been worse since a recent emotional shock involving loss.",
+        "categorised": {
+          "physical": [
+            {
+              "symptom": "Palpitations with fear of death",
+              "worse": [
+                "after midnight",
+                "2-3 a.m."
+              ],
+              "better": [
+                "walking slowly"
+              ]
+            },
+            {
+              "symptom": "Sharp stitching pains in left chest radiating to left arm",
+              "worse": [
+                "warmth",
+                "tight clothing"
+              ],
+              "better": [
+                "open air"
+              ]
+            },
+            {
+              "symptom": "Craving for sweets and ice-cold drinks",
+              "worse": [],
+              "better": []
+            }
+          ],
+          "psychological": [
+            {
+              "symptom": "Intense anxiety and restlessness",
+              "worse": [
+                "after midnight",
+                "emotional shock"
+              ],
+              "better": [
+                "open air"
+              ]
+            },
+            {
+              "symptom": "Weeping when recounting symptoms",
+              "worse": [
+                "emotional shock"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Sense of isolation and loneliness",
+              "worse": [],
+              "better": []
+            }
+          ],
+          "general": [
+            {
+              "symptom": "Chilly constitution",
+              "worse": [
+                "mild weather"
+              ],
+              "better": [
+                "covering up"
+              ]
+            }
+          ],
+          "miasm": "Tubercular",
+          "concomitants": [
+            "Anxiety peaking at 2-3 a.m. with fear of death",
+            "Chilly patient craving ice-cold drinks",
+            "Weeping disposition following emotional loss"
+          ],
+          "clinical_summary": "A case of acute anxiety and cardiac distress following emotional shock, characterized by the classic 2-3 a.m. aggravation, a chilly constitution with a paradoxical craving for cold drinks, and a weeping, isolated mental state."
+        },
+        "top_remedies": [
+          "aconitum napellus",
+          "bryonia alba",
+          "carboneum sulphuratum",
+          "ranunculus bulbosus",
+          "chamomilla",
+          "cimicifuga",
+          "ferrum phosphoricum",
+          "iodium",
+          "kali iodatum",
+          "niccolum"
+        ],
+        "clinical_notes": "The strange, rare, and peculiar feature is the combination of a chilly constitution with a strong, paradoxical craving for ice-cold drinks, occurring alongside a 2-3 a.m. cardiac panic state following emotional shock.",
+        "patient_details": {
+          "name": "",
+          "age": "",
+          "gender": "",
+          "occupation": "",
+          "contact": ""
+        },
+        "analysis_mode": "materia_medica"
+      }
+    ]
+  }
+}
