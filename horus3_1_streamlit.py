@@ -27,6 +27,11 @@ import os
 import json
 import base64
 import tempfile
+import hashlib
+import html as _html
+import uuid
+from itertools import combinations
+import streamlit.components.v1 as components
 from collections import defaultdict
 from datetime import datetime
 
@@ -242,6 +247,35 @@ st.markdown("""
         padding: 1.1rem 1.2rem; height: 100%;
     }
     .compare-col.enhanced { background: #f0fdf4; border-color: #bbf7d0; }
+
+    /* Role switch */
+    div[role="radiogroup"] label p { font-size: 1.1rem !important; }
+
+    /* Patient side — Q&A */
+    .qa-card {
+        background: #ffffff; border: 1px solid #dbe3ee; border-radius: 14px;
+        padding: 1.6rem 1.7rem 1.2rem; margin: 0.75rem 0 1rem;
+        box-shadow: 0 2px 14px rgba(30,41,59,0.05);
+    }
+    .qa-step {
+        font-size: 0.95rem; font-weight: 600; letter-spacing: 0.08em;
+        text-transform: uppercase; color: #2563eb; margin-bottom: 0.5rem;
+    }
+    .qa-question { font-size: 1.6rem; font-weight: 600; color: #1e293b; line-height: 1.4; }
+    .qa-hint { font-size: 1.05rem; color: #64748b; margin-top: 0.5rem; line-height: 1.6; }
+    .qa-review-q { font-size: 1rem; font-weight: 600; color: #475569; }
+    .qa-review-a { font-size: 1.1rem; color: #1e293b; line-height: 1.65; margin-top: 2px; }
+    .qa-review-a.empty { color: #94a3b8; font-style: italic; }
+    .qa-done-id {
+        display: inline-block; font-size: 1.8rem; font-weight: 700; color: #1d4ed8;
+        background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px;
+        padding: 0.4rem 1.2rem; margin: 0.6rem 0; letter-spacing: 0.04em;
+    }
+    [data-testid="stAudioInput"] { background: #ffffff !important; border-radius: 10px; }
+    .intake-item {
+        border: 1px solid #dbe3ee; border-radius: 10px; background: #ffffff;
+        padding: 0.8rem 1rem; margin-bottom: 0.5rem;
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -461,11 +495,68 @@ _s2r_unified: dict = {}
 _dataset_source: str = "none"
 
 
+_live_case_count: int = 0
+
+# ── Live learning settings ──
+# Each saved case adds its symptoms → top remedies (rank-weighted) to the
+# remedy index, and its symptom pairs to the co-occurrence clusters.
+LEARN_RANK_WEIGHTS = (0.30, 0.15, 0.10)   # weight added for remedy rank 1, 2, 3
+LIVE_PRIOR_STRENGTH = 10.0                # pseudo-count: how strongly base clusters resist new cases
+
+
+def _learning_payload() -> tuple:
+    """
+    Compact, hashable snapshot of every doctor-saved case:
+    ((sorted symptom tuple), (top-3 remedies tuple)), ...
+    Changes whenever a case is added, so caches keyed on it auto-refresh.
+    """
+    patients = load_patients()
+    out = []
+    for rec in patients.values():
+        cases = rec if isinstance(rec, list) else rec.get("cases", [])
+        for c in cases:
+            cat = c.get("categorised") or {}
+            syms = sorted({
+                s.get("symptom", "").strip().lower()
+                for k in ("physical", "psychological", "general")
+                for s in cat.get(k, [])
+                if isinstance(s, dict) and s.get("symptom", "").strip()
+            })
+            rems = tuple(r for r in (c.get("top_remedies") or [])[:3] if r)
+            if syms:
+                out.append((tuple(syms), rems))
+    return tuple(out)
+
+
+@st.cache_resource(show_spinner=False, max_entries=3)
+def build_live_dataset(payload: tuple) -> tuple:
+    """Base dataset (pkl + JSON) merged with everything learned from saved cases."""
+    base_known, base_s2r, source = load_all_dataset_symptoms()
+    if not payload:
+        return base_known, base_s2r, source, 0
+
+    known = set(base_known)
+    s2r = dict(base_s2r)          # shallow copy; touched entries are copied below
+    touched = set()
+    for syms, rems in payload:
+        for sym in syms:
+            known.add(sym)
+            if sym not in touched:
+                s2r[sym] = dict(base_s2r.get(sym, {}))
+                touched.add(sym)
+            for rank, rem in enumerate(rems):
+                w = LEARN_RANK_WEIGHTS[rank] if rank < len(LEARN_RANK_WEIGHTS) else 0.05
+                s2r[sym][rem] = round(s2r[sym].get(rem, 0.0) + w, 6)
+    label = f"{source} + {len(payload)} saved case(s)"
+    return known, s2r, label, len(payload)
+
+
 def _ensure_dataset():
-    """Populate module-level dataset refs inside Streamlit render context."""
-    global _known_symptoms, _s2r_unified, _dataset_source
+    """Populate module-level dataset refs (base + live-learned) inside Streamlit render context."""
+    global _known_symptoms, _s2r_unified, _dataset_source, _live_case_count
     if not _s2r_unified:
-        _known_symptoms, _s2r_unified, _dataset_source = load_all_dataset_symptoms()
+        _known_symptoms, _s2r_unified, _dataset_source, _live_case_count = \
+            build_live_dataset(_learning_payload())
 
 
 @st.cache_resource(show_spinner=False)
@@ -520,6 +611,58 @@ def load_conditional_probabilities() -> pd.DataFrame | None:
             df.columns = [c.strip() for c in df.columns]
             return df
     return None
+
+
+@st.cache_data(show_spinner=False, max_entries=3)
+def build_live_conditional_probabilities(payload: tuple) -> pd.DataFrame | None:
+    """
+    Base co-occurrence clusters, updated with every saved case.
+
+    For a symptom A seen in n_A saved cases, of which n_AB also had symptom B:
+        P(B|A) = (P_base(B|A) * k + n_AB) / (k + n_A)       k = LIVE_PRIOR_STRENGTH
+    New pairs that only appear in saved cases enter with P_base = 0.
+    """
+    base = load_conditional_probabilities()
+    n_a, n_ab = {}, {}
+    for syms, _ in payload:
+        for s in syms:
+            n_a[s] = n_a.get(s, 0) + 1
+        for a, b in combinations(syms, 2):         # syms are sorted → a < b
+            n_ab[(a, b)] = n_ab.get((a, b), 0) + 1
+    if not n_a:
+        return base
+
+    k = LIVE_PRIOR_STRENGTH
+
+    def cond(prior: float, a: str, b: str) -> float:   # P(b | a)
+        key = (a, b) if a < b else (b, a)
+        return round((prior * k + n_ab.get(key, 0)) / (k + n_a[a]), 6)
+
+    cols = ["Symptom1", "Symptom2", "P_B_given_A", "P_A_given_B"]
+    if base is not None and all(c in base.columns for c in cols):
+        df = base.copy()
+        s1 = df["Symptom1"].astype(str).str.strip().str.lower()
+        s2 = df["Symptom2"].astype(str).str.strip().str.lower()
+        for i in df.index[s1.isin(n_a.keys()) | s2.isin(n_a.keys())]:
+            a, b = s1[i], s2[i]
+            if a in n_a:
+                df.at[i, "P_B_given_A"] = cond(float(df.at[i, "P_B_given_A"]), a, b)
+            if b in n_a:
+                df.at[i, "P_A_given_B"] = cond(float(df.at[i, "P_A_given_B"]), b, a)
+        existing = set(zip(s1, s2)) | set(zip(s2, s1))
+    else:
+        df = pd.DataFrame(columns=cols)
+        existing = set()
+
+    new_rows = [
+        {"Symptom1": a, "Symptom2": b,
+         "P_B_given_A": round(c / (k + n_a[a]), 6),
+         "P_A_given_B": round(c / (k + n_a[b]), 6)}
+        for (a, b), c in n_ab.items() if (a, b) not in existing
+    ]
+    if new_rows:
+        df = pd.concat([df, pd.DataFrame(new_rows)], ignore_index=True)
+    return df if len(df) else None
 
 
 def get_suggestions_per_symptom(
@@ -1118,6 +1261,350 @@ def render_report_column(rpt: dict):
 
 
 # ─────────────────────────────────────────────
+# PATIENT SIDE — voice Q&A intake
+# ─────────────────────────────────────────────
+PATIENT_QUESTIONS = [
+    {"id": "complaint", "label": "Main complaint",
+     "q": "What is the main problem that is troubling you?",
+     "hint": "Describe it in your own words — there are no wrong answers."},
+    {"id": "onset", "label": "Onset",
+     "q": "When did it start, and was anything happening in your life around that time?",
+     "hint": "For example: after an illness, grief, stress, an injury, a change in weather or diet."},
+    {"id": "sensation", "label": "Location & sensation",
+     "q": "Where exactly do you feel it, and what does it feel like?",
+     "hint": "Burning, throbbing, stitching, aching, pressing, numb… Does it move or spread anywhere?"},
+    {"id": "worse", "label": "Worse from",
+     "q": "What makes it worse?",
+     "hint": "Time of day or night, heat or cold, movement, rest, touch, food, weather, emotions…"},
+    {"id": "better", "label": "Better from",
+     "q": "What makes it better?",
+     "hint": "Warmth, cold, pressure, rest, open air, lying down, eating…"},
+    {"id": "mind", "label": "Mind & emotions",
+     "q": "How have you been feeling emotionally lately?",
+     "hint": "Any fears, worries, irritability, sadness, restlessness? Do you prefer company or being alone?"},
+    {"id": "sleep", "label": "Sleep",
+     "q": "How is your sleep?",
+     "hint": "Trouble falling or staying asleep, waking at a certain hour, dreams, sleeping position."},
+    {"id": "appetite", "label": "Appetite, thirst & cravings",
+     "q": "Tell us about your appetite, thirst, and any food cravings or dislikes.",
+     "hint": "Hot or cold drinks, sweet, salty, spicy, sour foods…"},
+    {"id": "thermal", "label": "Temperature",
+     "q": "Are you generally a warm person or a chilly person?",
+     "hint": "How do you react to hot weather, cold weather, fans, blankets?"},
+    {"id": "other", "label": "Other information",
+     "q": "Is there anything else you would like the doctor to know?",
+     "hint": "Other complaints, medicines you take, past illnesses, family history."},
+]
+
+_audio_input = getattr(st, "audio_input", None) or getattr(st, "experimental_audio_input", None)
+
+
+def gemini_transcribe(audio_bytes: bytes, mime: str = "audio/wav") -> str:
+    """Transcribe a spoken answer; non-English speech is translated to English."""
+    model = genai.GenerativeModel(model_name="gemini-3.1-flash-lite")
+    response = model.generate_content(
+        [
+            "Transcribe this patient's spoken answer to a doctor's question. "
+            "If the speech is not in English (e.g. Bengali or Hindi), translate it faithfully into English. "
+            "Return only the transcribed text — no labels, no commentary.",
+            {"mime_type": mime or "audio/wav", "data": audio_bytes},
+        ],
+        generation_config=genai.GenerationConfig(temperature=0.0, max_output_tokens=1500),
+    )
+    return response.text.strip()
+
+
+def gemini_followups(answers_text: str) -> list:
+    """Up to 3 short, patient-friendly follow-up questions for gaps in the answers."""
+    system = (
+        "You help a classical homeopath take a patient's case. Read the patient's answers and return "
+        "ONLY a JSON array (no markdown) of at most 3 short, simple follow-up questions that would "
+        "clarify missing details: modalities (what makes it worse/better), the exact sensation, "
+        "timing, or the emotional state. Use plain, friendly language with no medical jargon. "
+        "Do not repeat questions already answered. If nothing important is missing, return []."
+    )
+    model = genai.GenerativeModel(model_name="gemini-3.1-flash-lite", system_instruction=system)
+    response = model.generate_content(
+        answers_text,
+        generation_config=genai.GenerationConfig(temperature=0.3, max_output_tokens=600),
+    )
+    raw = response.text.strip().lstrip("```json").lstrip("```").rstrip("```").strip()
+    items = json.loads(raw)
+    return [str(q).strip() for q in items if str(q).strip()][:3] if isinstance(items, list) else []
+
+
+def speak_button(text: str):
+    """Small button that reads the question aloud using the browser's speech engine."""
+    # escape "<" so text (incl. AI follow-ups) can never close the <script> tag
+    safe = json.dumps(text).replace("<", "\\u003c").replace(">", "\\u003e")
+    html = (
+        f"""
+        <button id="spk" style="font:500 17px Inter,-apple-system,sans-serif;color:#1d4ed8;
+            background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;padding:8px 16px;cursor:pointer">
+            🔊 Read question aloud</button>
+        <script>
+        document.getElementById("spk").onclick = function() {{
+            const u = new SpeechSynthesisUtterance({safe});
+            u.lang = "en-IN"; u.rate = 0.95;
+            window.speechSynthesis.cancel(); window.speechSynthesis.speak(u);
+        }};
+        </script>
+        """
+    )
+    if hasattr(st, "iframe"):
+        st.iframe(html, height=52)
+    else:
+        components.html(html, height=52)
+
+
+def compose_patient_narrative(questions: list, answers: dict) -> str:
+    parts = []
+    for q in questions:
+        a = answers.get(q["id"], "").strip()
+        if a:
+            parts.append(f"{q['label']}: {a}")
+    return "\n".join(parts)
+
+
+def save_intake(pid: str, details: dict, questions: list, answers: dict) -> bool:
+    """Store a patient-submitted questionnaire for the doctor to review."""
+    invalidate_patient_cache()              # re-read so we don't overwrite others' writes
+    patients = load_patients()
+    rec = patients.setdefault(pid, {"details": {}, "cases": []})
+    if isinstance(rec, list):
+        rec = patients[pid] = {"details": {}, "cases": rec}
+    merged = dict(rec.get("details", {}))
+    merged.update({k: v for k, v in details.items() if v})     # never blank out doctor's data
+    rec["details"] = merged
+    rec.setdefault("intakes", []).append({
+        "id": uuid.uuid4().hex[:8],
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "qa": [{"question": q["q"], "label": q["label"], "answer": answers.get(q["id"], "").strip()}
+               for q in questions],
+        "raw_text": compose_patient_narrative(questions, answers),
+        "status": "pending",
+    })
+    return save_patients(patients)
+
+
+def mark_intake_status(pid: str, intake_id: str, status: str) -> bool:
+    patients = load_patients()
+    rec = patients.get(pid)
+    if not isinstance(rec, dict):
+        return False
+    for it in rec.get("intakes", []):
+        if it.get("id") == intake_id:
+            it["status"] = status
+            it["reviewed_at"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+            return save_patients(patients)
+    return False
+
+
+def pending_intakes(patients: dict) -> list:
+    out = []
+    for pid_, rec in patients.items():
+        if isinstance(rec, dict):
+            for it in rec.get("intakes", []):
+                if it.get("status") == "pending":
+                    out.append((pid_, rec.get("details", {}), it))
+    out.sort(key=lambda x: x[2].get("timestamp", ""), reverse=True)
+    return out
+
+
+def _pt_reset():
+    for k in list(st.session_state.keys()):
+        if k.startswith("pt_"):
+            del st.session_state[k]
+
+
+def render_patient_side():
+    ss = st.session_state
+    ss.setdefault("pt_step", "details")
+    ss.setdefault("pt_idx", 0)
+    ss.setdefault("pt_answers", {})
+    ss.setdefault("pt_questions", [dict(q) for q in PATIENT_QUESTIONS])
+    ss.setdefault("pt_details", {})
+    ss.setdefault("pt_audio_done", [])
+    ss.setdefault("pt_followups_done", False)
+
+    questions = ss.pt_questions
+
+    # ── Step A: about you ────────────────────────────────────
+    if ss.pt_step == "details":
+        st.markdown("## Welcome")
+        st.markdown(
+            '<div class="info-box">Please answer a few questions about your health before you see the doctor. '
+            'You can <strong>speak</strong> your answers using the microphone or <strong>type</strong> them. '
+            'Answer in English, Bengali or Hindi — whatever is most comfortable.</div>',
+            unsafe_allow_html=True,
+        )
+        d = ss.pt_details
+        c1, c2, c3 = st.columns([2, 1, 1])
+        name = c1.text_input("Your full name", value=d.get("name", ""))
+        age = c2.text_input("Age", value=d.get("age", ""))
+        g_opts = ["", "Male", "Female", "Other"]
+        gender = c3.selectbox("Gender", g_opts,
+                              index=g_opts.index(d.get("gender", "")) if d.get("gender", "") in g_opts else 0)
+        c4, c5 = st.columns(2)
+        contact = c4.text_input("Phone number", value=d.get("contact", ""))
+        prev_id = c5.text_input("Patient ID (if you have visited before)", value=d.get("prev_id", ""),
+                                placeholder="e.g. PT-2026-004")
+
+        if st.button("Start questions →", type="primary", use_container_width=True, disabled=not name.strip()):
+            ss.pt_details = {"name": name.strip(), "age": age.strip(), "gender": gender,
+                             "contact": contact.strip(), "prev_id": prev_id.strip().upper()}
+            ss.pt_step = "questions"
+            ss.pt_idx = 0
+            st.rerun()
+        if not name.strip():
+            st.caption("Please enter your name to begin.")
+        return
+
+    # ── Step B: one question at a time ───────────────────────
+    if ss.pt_step == "questions":
+        idx = min(ss.pt_idx, len(questions) - 1)
+        q = questions[idx]
+        tkey = f"pt_ans_{q['id']}"
+        if tkey not in ss:
+            ss[tkey] = ss.pt_answers.get(q["id"], "")
+
+        st.progress((idx + 1) / len(questions))
+        st.markdown(
+            f'<div class="qa-card"><div class="qa-step">Question {idx + 1} of {len(questions)}</div>'
+            f'<div class="qa-question">{_html.escape(q["q"])}</div>'
+            f'<div class="qa-hint">{_html.escape(q.get("hint", ""))}</div></div>',
+            unsafe_allow_html=True,
+        )
+        speak_button(q["q"])
+
+        if _audio_input is not None:
+            audio = _audio_input("🎙️ Tap the microphone and speak your answer", key=f"pt_audio_{q['id']}")
+            if audio is not None:
+                data = audio.getvalue()
+                h = hashlib.md5(data).hexdigest()
+                if h not in ss.pt_audio_done:
+                    with st.spinner("Listening to your answer…"):
+                        try:
+                            text = gemini_transcribe(data, getattr(audio, "type", None) or "audio/wav")
+                            ss[tkey] = (ss.get(tkey, "").strip() + " " + text).strip()
+                        except Exception as e:
+                            st.error(f"Sorry, we couldn't understand the recording — please try again or type. ({e})")
+                    ss.pt_audio_done.append(h)
+        else:
+            st.info("Voice input needs Streamlit 1.40 or newer — please type your answer for now.")
+
+        st.text_area("Your answer (you can edit what was heard)", key=tkey, height=150,
+                     placeholder="Speak using the microphone above, or type here…")
+        ss.pt_answers[q["id"]] = ss.get(tkey, "")
+
+        st.markdown('<div style="margin-top:0.5rem"></div>', unsafe_allow_html=True)
+        b1, b2, b3 = st.columns([1, 1, 2])
+        with b1:
+            if st.button("← Back", use_container_width=True):
+                if idx == 0:
+                    ss.pt_step = "details"
+                else:
+                    ss.pt_idx = idx - 1
+                st.rerun()
+        with b2:
+            if st.button("Skip", use_container_width=True):
+                ss.pt_answers[q["id"]] = ss.pt_answers.get(q["id"], "")
+                ss.pt_idx = idx + 1
+                if ss.pt_idx >= len(questions):
+                    ss.pt_step = "followup"
+                st.rerun()
+        with b3:
+            last = idx == len(questions) - 1
+            if st.button("Next →" if not last else "Continue →", type="primary", use_container_width=True):
+                ss.pt_idx = idx + 1
+                if ss.pt_idx >= len(questions):
+                    ss.pt_step = "followup"
+                st.rerun()
+        return
+
+    # ── Step C: AI follow-up questions (once) ────────────────
+    if ss.pt_step == "followup":
+        if not ss.pt_followups_done:
+            ss.pt_followups_done = True
+            with st.spinner("Checking if the doctor needs a little more detail…"):
+                try:
+                    extra = gemini_followups(compose_patient_narrative(questions, ss.pt_answers))
+                except Exception:
+                    extra = []
+            if extra:
+                start = len(questions)
+                for i, fq in enumerate(extra):
+                    questions.append({"id": f"fu{i}", "label": f"Follow-up {i + 1}", "q": fq,
+                                      "hint": "A short extra question based on your answers."})
+                ss.pt_questions = questions
+                ss.pt_idx = start
+                ss.pt_step = "questions"
+                st.rerun()
+        ss.pt_step = "review"
+        st.rerun()
+
+    # ── Step D: review & submit ──────────────────────────────
+    if ss.pt_step == "review":
+        st.markdown("## Review your answers")
+        st.markdown('<div class="info-box">Please check your answers. Tap <strong>Edit</strong> to change any of them.</div>',
+                    unsafe_allow_html=True)
+        for i, q in enumerate(questions):
+            a = ss.pt_answers.get(q["id"], "").strip()
+            c1, c2 = st.columns([5, 1])
+            with c1:
+                st.markdown(
+                    f'<div class="intake-item"><div class="qa-review-q">{_html.escape(q["q"])}</div>'
+                    f'<div class="qa-review-a{"" if a else " empty"}">{_html.escape(a) if a else "Not answered"}</div></div>',
+                    unsafe_allow_html=True,
+                )
+            with c2:
+                if st.button("Edit", key=f"pt_edit_{q['id']}", use_container_width=True):
+                    ss.pt_idx = i
+                    ss.pt_step = "questions"
+                    st.rerun()
+
+        answered = sum(1 for q in questions if ss.pt_answers.get(q["id"], "").strip())
+        st.markdown('<hr>', unsafe_allow_html=True)
+        if st.button("Submit to doctor ✓", type="primary", use_container_width=True, disabled=answered == 0):
+            d = ss.pt_details
+            patients = load_patients()
+            pid = d.get("prev_id", "")
+            if not pid or pid not in patients:
+                if pid:
+                    st.warning(f"Patient ID {pid} was not found — a new ID has been created for you.")
+                pid = next_patient_id()
+            details = {k: d.get(k, "") for k in ("name", "age", "gender", "contact")}
+            with st.spinner("Sending your answers to the doctor…"):
+                ok = save_intake(pid, details, questions, ss.pt_answers)
+            if ok:
+                _pt_reset()
+                ss.pt_step = "done"
+                ss.pt_done_pid = pid
+                ss.pt_done_name = details.get("name", "")
+                st.rerun()
+            else:
+                st.error("Your answers could not be sent. Please tell the clinic staff.")
+        if answered == 0:
+            st.caption("Please answer at least one question before submitting.")
+        return
+
+    # ── Step E: done ─────────────────────────────────────────
+    if ss.pt_step == "done":
+        st.markdown(f"## Thank you{', ' + ss.get('pt_done_name', '') if ss.get('pt_done_name') else ''}!")
+        st.markdown(
+            '<div class="info-box">Your answers have been sent to the doctor, who will go through them with you '
+            'during your consultation.</div>',
+            unsafe_allow_html=True,
+        )
+        st.markdown("Your patient ID — please keep it for future visits:")
+        st.markdown(f'<div class="qa-done-id">{ss.get("pt_done_pid", "")}</div>', unsafe_allow_html=True)
+        st.markdown('<div style="margin-top:1rem"></div>', unsafe_allow_html=True)
+        if st.button("Start a new questionnaire", use_container_width=True):
+            _pt_reset()
+            st.rerun()
+
+
+# ─────────────────────────────────────────────
 # SESSION STATE
 # ─────────────────────────────────────────────
 defaults = {
@@ -1167,6 +1654,36 @@ st.markdown(
     "Clinical homeopathic intelligence</p>",
     unsafe_allow_html=True,
 )
+
+# ─────────────────────────────────────────────
+# ROLE SWITCH — Doctor / Patient
+# Share  <app-url>/?role=patient  with patients to open the patient side directly.
+# ─────────────────────────────────────────────
+DOCTOR_PIN = _secret("DOCTOR_PIN")
+if "app_role" not in st.session_state:
+    st.session_state.app_role = (
+        "Patient" if str(st.query_params.get("role", "")).lower() == "patient" else "Doctor"
+    )
+st.radio(
+    "Who is using HoRUS?", ["Doctor", "Patient"], key="app_role", horizontal=True,
+    format_func=lambda r: "🩺  Doctor" if r == "Doctor" else "🙋  Patient",
+    label_visibility="collapsed",
+)
+
+if st.session_state.app_role == "Patient":
+    render_patient_side()
+    st.stop()
+
+if DOCTOR_PIN and not st.session_state.get("doctor_unlocked"):
+    st.markdown("## Doctor sign-in")
+    pin = st.text_input("Doctor PIN", type="password")
+    if st.button("Unlock", type="primary"):
+        if pin == DOCTOR_PIN:
+            st.session_state.doctor_unlocked = True
+            st.rerun()
+        else:
+            st.error("Incorrect PIN.")
+    st.stop()
 
 # ─────────────────────────────────────────────
 # MAIN TABS
@@ -1301,6 +1818,35 @@ with tab_intake:
 
         st.markdown('<hr style="margin:1.5rem 0">', unsafe_allow_html=True)
         st.markdown("## Symptoms")
+
+        _pending = pending_intakes(patients_all)
+        with st.expander(f"📥  Patient questionnaires waiting ({len(_pending)})", expanded=bool(_pending)):
+            if st.button("↺ Check for new submissions", key="refresh_intakes"):
+                invalidate_patient_cache()
+                st.rerun()
+            if not _pending:
+                st.caption("No new questionnaires. Patients can fill one in from the Patient side.")
+            for _pid, _det, _it in _pending:
+                _who = _det.get("name") or _pid
+                _n_ans = sum(1 for x in _it.get("qa", []) if x.get("answer"))
+                st.markdown(
+                    f'<div class="intake-item"><div class="patient-name">{_html.escape(_who)} '
+                    f'<span style="color:#94a3b8">· {_pid}</span></div>'
+                    f'<div class="patient-meta">Submitted {_it.get("timestamp", "—")} · {_n_ans} answer(s)</div></div>',
+                    unsafe_allow_html=True,
+                )
+                lc1, lc2 = st.columns([3, 1])
+                with lc1:
+                    if st.button("Load into this case →", key=f"load_intake_{_it['id']}", type="primary"):
+                        st.session_state.patient_id = _pid
+                        st.session_state.patient_details = {**st.session_state.patient_details, **_det}
+                        st.session_state.raw_symptoms = _it.get("raw_text", "")
+                        mark_intake_status(_pid, _it["id"], "loaded")
+                        st.rerun()
+                with lc2:
+                    if st.button("Dismiss", key=f"dismiss_intake_{_it['id']}"):
+                        mark_intake_status(_pid, _it["id"], "dismissed")
+                        st.rerun()
 
         pid = st.session_state.patient_id
         pd_name = st.session_state.patient_details.get("name", "")
@@ -1741,7 +2287,10 @@ with tab_future:
         st.stop()
 
     # ── Load conditional probability table ──────────────────────
-    cp_df = load_conditional_probabilities()
+    _live_payload = _learning_payload()
+    cp_df = build_live_conditional_probabilities(_live_payload)
+    if _live_payload:
+        st.caption(f"Cluster data auto-updated from {len(_live_payload)} saved case(s).")
 
     if cp_df is None:
         st.markdown(
