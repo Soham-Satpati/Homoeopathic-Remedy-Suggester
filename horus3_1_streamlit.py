@@ -1972,7 +1972,7 @@ with tab_intake:
         rpt = st.session_state.report
         cat = st.session_state.categorised
         pid = st.session_state.patient_id
-        pd  = st.session_state.patient_details
+        pt_det  = st.session_state.patient_details
 
         if not rpt:
             st.error("No report found — please go back.")
@@ -1986,22 +1986,22 @@ with tab_intake:
                     "categorised":     cat,
                     "top_remedies":    top_remedies,
                     "clinical_notes":  rpt.get("caseEssence", ""),
-                    "patient_details": pd,
+                    "patient_details": pt_det,
                     "analysis_mode":   st.session_state.analysis_mode,
                 })
-                if pd.get("name") or pd.get("age"):
-                    save_patient_details(pid, pd)
+                if pt_det.get("name") or pt_det.get("age"):
+                    save_patient_details(pid, pt_det)
             if ok:
                 st.session_state.case_saved = True
                 st.markdown('<span class="save-success">✓ Case saved to GitHub</span>', unsafe_allow_html=True)
             else:
                 st.warning("Case could not be saved — check GitHub configuration.")
 
-        pd_name = pd.get("name", "")
+        pd_name = pt_det.get("name", "")
         badge_text = f"{pd_name} · {pid}" if pd_name else f"Patient {pid}"
         extras = []
-        if pd.get("age"):    extras.append(f"Age {pd['age']}")
-        if pd.get("gender"): extras.append(pd["gender"])
+        if pt_det.get("age"):    extras.append(f"Age {pt_det['age']}")
+        if pt_det.get("gender"): extras.append(pt_det["gender"])
         if extras:
             badge_text += " · " + " · ".join(extras)
         st.markdown(
@@ -2108,7 +2108,7 @@ with tab_intake:
                 st.rerun()
         with act2:
             try:
-                pdf_bytes = build_pdf(pid, cat, rpt, patient_details=pd)
+                pdf_bytes = build_pdf(pid, cat, rpt, patient_details=pt_det)
                 st.download_button(
                     label="↓ Download PDF", data=pdf_bytes,
                     file_name=f"HoRUS3_{pid}_{datetime.now().strftime('%Y%m%d')}.pdf",
