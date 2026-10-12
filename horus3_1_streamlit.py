@@ -1093,7 +1093,10 @@ def finalise_categorised(cat: dict, raw_text: str) -> dict:
         causes.append("emotional shock")
     if _re.search(r"\bfright|\bscare[d]?\b|\bterror", raw_l) and not any("fright" in c.lower() for c in causes):
         causes.append("fright")
-    cat["causation"] = list(dict.fromkeys(causes))
+    causes = list(dict.fromkeys(c.strip() for c in causes if c.strip()))
+    low = [c.lower() for c in causes]
+    cat["causation"] = [c for c, l in zip(causes, low)
+                        if not any(l != o and _re.search(rf"\b{_re.escape(l)}\b", o) for o in low)]
     cat["concomitants"] = [c for c in (cat.get("concomitants") or []) if _is_supported(c, raw_stems)]
     cat["unverified"] = unverified
     cat.pop("miasm_detail", None)
@@ -1152,19 +1155,25 @@ def _load_miasm_rubric() -> dict:
 
 def assess_miasm(cat: dict, raw_text: str = "") -> dict:
     rubric = _load_miasm_rubric()
-    items = []
+    items, seen = [], set()
+
+    def _add(label, text):
+        key = text.strip().lower()
+        if key and key not in seen:          # a modality shared by many symptoms counts ONCE
+            seen.add(key)
+            items.append((label, key))
+
     for k in ("physical", "psychological", "general"):
         for s in cat.get(k, []):
             if s.get("unverified"):
                 continue
-            base = s["symptom"].lower()
-            items.append((s["symptom"], base))
+            _add(s["symptom"], s["symptom"])
             for w in s.get("worse", []):
-                items.append((f"{s['symptom']} — worse {w}", f"worse {w.lower()}"))
+                _add(f"worse {w}", f"worse {w}")
             for b in s.get("better", []):
-                items.append((f"{s['symptom']} — better {b}", f"better {b.lower()}"))
+                _add(f"better {b}", f"better {b}")
     for c in cat.get("causation", []):
-        items.append((f"ailments from {c}", c.lower()))
+        _add(f"ailments from {c}", c)
 
     evidence = {m: [] for m in rubric}
     for label, text in items:
@@ -1177,30 +1186,25 @@ def assess_miasm(cat: dict, raw_text: str = "") -> dict:
     ordered = sorted(scores, key=lambda m: -scores[m])
     has_history = bool(_re.search(_HISTORY_HINTS, (raw_text or "").lower()))
 
+    names = {"psora": "Psora", "sycosis": "Sycosis", "syphilis": "Syphilis", "tubercular": "Tubercular"}
+    nm = lambda m: names.get(m, m.title())
     if not ordered or scores[ordered[0]] == 0:
-        label, dominant, secondary = "undetermined", None, []
+        label = "Undetermined"
     else:
-        dominant = ordered[0]
-        top = scores[dominant]
-        secondary = [m for m in ordered[1:] if scores[m] > 0 and scores[m] >= max(1, top * 0.5)]
+        top = scores[ordered[0]]
         tied = [m for m in ordered if scores[m] == top]
+        secondary = [m for m in ordered if m not in tied and scores[m] >= max(2, top * 0.6)]
         if len(tied) > 1:
-            label = "mixed (" + " / ".join(t.title() for t in tied) + ")"
-            secondary = [m for m in secondary if m not in tied]
+            label = "Mixed " + " / ".join(nm(t) for t in tied)
         else:
-            label = dominant.title() + (" with " + ", ".join(m.title() for m in secondary) if secondary else "")
-    if not has_history:
-        label = f"provisional — {label}"
+            label = f"{nm(tied[0])} (predominant)"
+        if secondary:
+            label += ", with " + " and ".join(nm(m) for m in secondary) + " features"
 
-    lines = []
-    for m in ordered:
-        if scores[m]:
-            lines.append(f"{m.title()} ({scores[m]}): " + "; ".join(evidence[m]))
-    note = ("" if has_history else
-            "No chronic, past or family history was given, so this is provisional and based only on the "
-            "presenting picture; confirm it from the patient's history before relying on it.")
-    text = (f"Rubric assessment: {label}. " + (" ".join(f"{l}." for l in lines) if lines else
-            "No rubric keywords matched.") + (f" {note}" if note else ""))
+    text = (f"Provisional: {label} — confirm from chronic, past and family history."
+            if not has_history else f"{label}.")
+    if has_history is False:
+        label = f"Provisional: {label}"
     return {"label": label, "scores": scores, "evidence": evidence, "provisional": not has_history,
             "text": text}
 
@@ -1210,27 +1214,48 @@ CATEGORY_WEIGHTS = {"causation": 3.0, "psychological": 2.0, "general": 1.5, "phy
 MODALITY_WEIGHT  = 0.6      # modality items count a bit less than the symptom itself
 MATCH_TOP_K      = 8        # dataset entries considered per patient item
 MATCH_MIN_SIM    = 0.55     # semantic similarity threshold (0-1)
-CAUSE_MIN_SIM    = 0.70     # causations must match more closely ("grief" ≠ "fright")
+CAUSE_MIN_SIM    = 0.65     # causations must match more closely ("grief" ≠ "fright")
 LEXICAL_MIN_SIM  = 0.34     # fallback threshold when the embedding model is unavailable
 
 
 def _build_query_items(categorised: dict) -> list:
-    """Patient items to match: (label, query_text, weight, group_key)."""
+    """
+    Patient items to match: (label, query_text, weight, group_key).
+    Items sharing a group_key are alternative phrasings of ONE patient feature — a remedy is
+    credited at most once per group. Each modality is its own group, so a modality the parser
+    attached to many symptoms still counts only once.
+    """
     q = []
     for c in categorised.get("causation", []):
-        q.append((f"Ailments from {c}", f"ailments from {c}", CATEGORY_WEIGHTS["causation"], f"cause:{c}"))
+        core = _re.sub(r"^(ailments? from|after|since)\s+", "", c.strip(), flags=_re.I)
+        g = f"cause:{c.lower()}"
+        w = CATEGORY_WEIGHTS["causation"]
+        for text in dict.fromkeys([f"ailments from {core}", core, f"{core}, ailments from"]):
+            q.append((f"Ailments from {core}", text, w, g))
+
+    mod_weight = {}
     for k in ("psychological", "general", "physical"):
         w = CATEGORY_WEIGHTS[k]
         for s in categorised.get(k, []):
             if s.get("unverified"):
                 continue
             sym = s["symptom"].strip()
-            q.append((sym, sym, w, f"{k}:{sym}"))
-            for m in s.get("worse", []):
-                q.append((f"{sym} — worse {m}", f"{sym} worse {m}", w * MODALITY_WEIGHT, f"{k}:{sym}"))
-            for m in s.get("better", []):
-                q.append((f"{sym} — better {m}", f"{sym} better {m}", w * MODALITY_WEIGHT, f"{k}:{sym}"))
-    return q
+            q.append((sym, sym, w, f"{k}:{sym.lower()}"))
+            for pol in ("worse", "better"):
+                for m in s.get(pol, []):
+                    g = f"mod:{pol} {m.strip().lower()}"
+                    mod_weight[g] = max(mod_weight.get(g, 0), w * MODALITY_WEIGHT)
+                    q.append((f"{pol.title()} {m}", f"{pol} {m}", None, g))
+    return [(lab, txt, (wt if wt is not None else mod_weight[g]), g) for lab, txt, wt, g in q]
+
+
+_LEFT, _RIGHT = _re.compile(r"\bleft\b"), _re.compile(r"\bright\b")
+
+
+def _laterality_conflict(patient_text: str, dataset_text: str) -> bool:
+    p, d = patient_text.lower(), dataset_text.lower()
+    return bool((_LEFT.search(p) and _RIGHT.search(d) and not _LEFT.search(d)) or
+                (_RIGHT.search(p) and _LEFT.search(d) and not _RIGHT.search(d)))
 
 
 @st.cache_resource(show_spinner="Indexing dataset symptoms…", max_entries=2)
@@ -1285,24 +1310,27 @@ def rank_remedies_from_dataset(categorised: dict, s2r: dict, top_n: int = 10) ->
     For every patient item (cause / symptom / modality) find matching dataset symptoms,
     then credit each remedy listed under them:
         credit = item_weight × similarity × (remedy score ÷ best score in that rubric)
-    A remedy is credited at most once per patient symptom (best match), so near-duplicate
-    dataset rows can't inflate it. Remedies are ranked by total credit; ties → coverage.
+    × rarity (1 / (1 + ln(number of remedies in that rubric))) so generic rubrics count less.
+    A remedy is credited at most once per patient feature (best match), so near-duplicate
+    dataset rows or repeated modalities can't inflate it. Matches with the opposite body side
+    are rejected. Remedies are ranked by total credit; ties → coverage.
     """
     queries = _build_query_items(categorised)
     if not queries:
         return []
     matches = match_items_to_dataset(queries, s2r)
 
-    # best credit per (remedy, symptom-group)
+    # best credit per (remedy, patient feature)
     best = defaultdict(dict)     # remedy -> group -> (credit, evidence dict)
-    for (label, _qtext, weight, group), hits in zip(queries, matches):
+    for (label, qtext, weight, group), hits in zip(queries, matches):
         for ds_sym, sim in hits:
             rems = s2r.get(ds_sym, {})
-            if not rems:
+            if not rems or _laterality_conflict(qtext, ds_sym):
                 continue
             top = max(rems.values()) or 1.0
+            rarity = 1.0 / (1.0 + np.log(len(rems)))   # generic rubrics ("restlessness") count less
             for rem, sc in rems.items():
-                credit = weight * sim * (sc / top)
+                credit = weight * sim * (sc / top) * rarity
                 prev = best[rem].get(group)
                 if prev is None or credit > prev[0]:
                     best[rem][group] = (credit, {"patient": label, "dataset": ds_sym,
@@ -1694,7 +1722,7 @@ def build_pdf(patient_id: str, categorised: dict, report: dict,
     def _add_report_section(elems_ref: list, rpt: dict, cat: dict, section_label: str):
         """Inner fn receives elems_ref explicitly — no closure rebind issue."""
         elems_ref.append(Paragraph(section_label, h2_s))
-        elems_ref.extend(_red_flag_box(rpt.get("redFlags") or cat.get("red_flags") or []))
+
         elems_ref.append(Paragraph("CASE ESSENCE", label_s))
         elems_ref.append(P(rpt.get("caseEssence", ""), body_s))
         elems_ref.append(Paragraph("MIASM (RUBRIC-BASED)", label_s))
@@ -2557,8 +2585,6 @@ with tab_intake:
                 unsafe_allow_html=True,
             )
 
-        render_red_flags(cat.get("red_flags", []))
-
         if cat.get("causation"):
             st.markdown('<div class="section-label">Causation (ailments from)</div>', unsafe_allow_html=True)
             st.markdown(sym_tags(cat["causation"], "sym-tag sym-worse"), unsafe_allow_html=True)
@@ -2688,7 +2714,6 @@ with tab_intake:
 
         st.markdown("## Treatment Plan")
 
-        render_red_flags(rpt.get("redFlags", []))
         st.caption("Remedies, their order and the miasm are computed from the dataset and rubric. "
                    "The written explanations are AI-generated and filtered.")
         if rpt.get("_removed"):
