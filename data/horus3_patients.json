@@ -1,1 +1,199 @@
-{}
+{
+  "PT-2026-003": {
+    "details": {},
+    "cases": [
+      {
+        "timestamp": "2026-10-12 22:40",
+        "raw_symptoms": "A patient presents with sudden intense anxiety and restlessness that begins after midnight and peaks around 2–3 a.m., accompanied by a sensation of the heart pounding and a fear that she will die; feels better from open air and walking slowly, worse from warmth and tight clothing; has a marked craving for sweets and ice-cold drinks, yet feels chilly overall and covers herself even in mild weather; there is a tendency to weeping when telling the symptoms, a sense of isolation as if alone in the world, and occasional sharp stitching pains in the left chest that radiate to the left arm, all of which have been worse since a recent emotional shock involving loss.",
+        "categorised": {
+          "physical": [
+            {
+              "symptom": "heart pounding",
+              "worse": [
+                "after midnight",
+                "2-3 a.m.",
+                "warmth",
+                "tight clothing"
+              ],
+              "better": [
+                "open air",
+                "walking slowly"
+              ]
+            },
+            {
+              "symptom": "sharp stitching pains in the left chest radiating to the left arm",
+              "worse": [
+                "after midnight",
+                "2-3 a.m.",
+                "warmth",
+                "tight clothing"
+              ],
+              "better": [
+                "open air",
+                "walking slowly"
+              ]
+            }
+          ],
+          "psychological": [
+            {
+              "symptom": "sudden intense anxiety",
+              "worse": [
+                "after midnight",
+                "2-3 a.m.",
+                "warmth",
+                "tight clothing"
+              ],
+              "better": [
+                "open air",
+                "walking slowly"
+              ]
+            },
+            {
+              "symptom": "restlessness",
+              "worse": [
+                "after midnight",
+                "2-3 a.m.",
+                "warmth",
+                "tight clothing"
+              ],
+              "better": [
+                "open air",
+                "walking slowly"
+              ]
+            },
+            {
+              "symptom": "fear that she will die",
+              "worse": [
+                "after midnight",
+                "2-3 a.m.",
+                "warmth",
+                "tight clothing"
+              ],
+              "better": [
+                "open air",
+                "walking slowly"
+              ]
+            },
+            {
+              "symptom": "weeping when telling the symptoms",
+              "worse": [
+                "after midnight",
+                "2-3 a.m.",
+                "warmth",
+                "tight clothing"
+              ],
+              "better": [
+                "open air",
+                "walking slowly"
+              ]
+            },
+            {
+              "symptom": "sense of isolation as if alone in the world",
+              "worse": [
+                "after midnight",
+                "2-3 a.m.",
+                "warmth",
+                "tight clothing"
+              ],
+              "better": [
+                "open air",
+                "walking slowly"
+              ]
+            }
+          ],
+          "general": [
+            {
+              "symptom": "craving for sweets",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "craving for ice-cold drinks",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "chilly overall",
+              "worse": [
+                "mild weather"
+              ],
+              "better": [
+                "covers herself"
+              ]
+            }
+          ],
+          "causation": [
+            "grief from loss",
+            "emotional shock"
+          ],
+          "concomitants": [
+            "heart pounding and fear of death occurring with anxiety and restlessness"
+          ],
+          "clinical_summary": "The patient experiences nocturnal anxiety, restlessness, and cardiac symptoms with a fear of death, improved by open air and slow walking, and worsened by warmth, tight clothing, and a recent emotional shock involving loss.",
+          "unverified": [],
+          "miasm": "Provisional: Psora (predominant), with Tubercular features",
+          "miasm_detail": {
+            "label": "Provisional: Psora (predominant), with Tubercular features",
+            "scores": {
+              "psora": 5,
+              "sycosis": 0,
+              "syphilis": 2,
+              "tubercular": 4
+            },
+            "evidence": {
+              "psora": [
+                "sudden intense anxiety  [anxiety]",
+                "fear that she will die  [fear]",
+                "weeping when telling the symptoms  [weeping]",
+                "craving for sweets  [craving for sweets]",
+                "chilly overall  [chilly]"
+              ],
+              "sycosis": [],
+              "syphilis": [
+                "worse after midnight  [after midnight]",
+                "sense of isolation as if alone in the world  [alone in the world]"
+              ],
+              "tubercular": [
+                "worse warmth  [worse warmth]",
+                "better open air  [better open air]",
+                "restlessness  [restless]",
+                "craving for ice-cold drinks  [cold drinks]"
+              ]
+            },
+            "provisional": true,
+            "text": "Provisional: Psora (predominant), with Tubercular features — confirm from chronic, past and family history."
+          },
+          "red_flags": [
+            {
+              "title": "Possible heart emergency",
+              "advice": "Chest pain or pressure with spreading to the arm/jaw, sweating, breathlessness, palpitations or a sense of impending death can be a heart attack. Arrange urgent medical assessment (ECG and cardiac blood tests) now — before or alongside any homeopathic treatment.",
+              "trigger": "pounding"
+            }
+          ],
+          "_raw_text": "A patient presents with sudden intense anxiety and restlessness that begins after midnight and peaks around 2–3 a.m., accompanied by a sensation of the heart pounding and a fear that she will die; feels better from open air and walking slowly, worse from warmth and tight clothing; has a marked craving for sweets and ice-cold drinks, yet feels chilly overall and covers herself even in mild weather; there is a tendency to weeping when telling the symptoms, a sense of isolation as if alone in the world, and occasional sharp stitching pains in the left chest that radiate to the left arm, all of which have been worse since a recent emotional shock involving loss."
+        },
+        "top_remedies": [
+          "Aconitum Napellus",
+          "Ignatia Amara",
+          "Phosphorus",
+          "Chelidonium",
+          "Spigelia",
+          "Phosphoric Acid",
+          "Stramonium",
+          "Magnesia Carbonica",
+          "Iodium",
+          "Oleander"
+        ],
+        "clinical_notes": "The patient presents with intense anxiety, restlessness, and fear of death following emotional shock and grief, characterized by a specific modality of worsening after midnight and in warmth, and improvement in open air. There is a notable contradiction between the patient's overall chilliness and a craving for ice-cold drinks.",
+        "patient_details": {
+          "name": "",
+          "age": "",
+          "gender": "",
+          "occupation": "",
+          "contact": ""
+        },
+        "analysis_mode": "materia_medica"
+      }
+    ]
+  }
+}
