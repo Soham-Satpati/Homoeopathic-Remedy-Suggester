@@ -991,10 +991,14 @@ Rules:
   Do not merge two different complaints into one, and do not invent symptoms.
 - Split symptoms into physical, psychological, and general (whole-body: temperature, thirst,
   appetite, cravings, sleep, energy).
-- For each symptom record ONLY the modalities stated for it: worse[] and better[]
-  (times of day, temperature, motion, position, food, emotions...). Don't attach a modality
-  to a symptom unless the text links them; if a modality is stated for the whole case,
-  attach it to every symptom it clearly applies to.
+- For each symptom record ONLY the modalities the text links to THAT symptom: worse[] and better[]
+  (times of day, temperature, motion, position, food, emotions...).
+- case_modalities: modalities the text states for the patient or the whole complaint
+  ("all symptoms worse after midnight", "feels better in open air") go here ONCE — do NOT copy
+  them onto every symptom.
+- Read polarity carefully. "Feels chilly even in mild weather" means the patient is chilly
+  (a general symptom) — it does NOT mean "worse from mild weather". Only record worse/better when
+  the text says something makes it worse/better.
 - causation[]: triggers the patient states ("ailments from"), worded precisely. Never drop or
   soften these. If the text mentions grief, loss, bereavement, death of someone, heartbreak,
   fright, shock, anger, humiliation, injury, or a vaccination as a cause, include it
@@ -1009,6 +1013,7 @@ Return ONLY valid JSON — no markdown, no preamble:
   "physical": [{{"symptom": "...", "worse": ["..."], "better": ["..."]}}],
   "psychological": [{{"symptom": "...", "worse": ["..."], "better": ["..."]}}],
   "general": [{{"symptom": "...", "worse": ["..."], "better": ["..."]}}],
+  "case_modalities": {{"worse": ["..."], "better": ["..."]}},
   "causation": ["..."],
   "concomitants": ["..."],
   "clinical_summary": "..."
@@ -1084,6 +1089,26 @@ def finalise_categorised(cat: dict, raw_text: str) -> dict:
                 unverified.append(s["symptom"])
             clean.append(s)
         cat[k] = clean
+
+    # case-wide modalities: validate, then pull out any modality the parser copied onto
+    # most symptoms (it describes the whole case, not each symptom)
+    cm = cat.get("case_modalities") or {}
+    case_mod = {pol: [m for m in (cm.get(pol) or []) if isinstance(m, str) and _is_supported(m, raw_stems)]
+                for pol in ("worse", "better")}
+    syms_all = [s for k in ("physical", "psychological", "general") for s in cat[k]]
+    if len(syms_all) >= 3:
+        for pol in ("worse", "better"):
+            counts = {}
+            for s in syms_all:
+                for m in s[pol]:
+                    counts[m.strip().lower()] = counts.get(m.strip().lower(), 0) + 1
+            spread = {m for m, n in counts.items() if n >= 3 and n >= 0.5 * len(syms_all)}
+            for m in spread:
+                if m not in [x.lower() for x in case_mod[pol]]:
+                    case_mod[pol].append(m)
+            for s in syms_all:
+                s[pol] = [m for m in s[pol] if m.strip().lower() not in spread]
+    cat["case_modalities"] = case_mod
 
     causes = [c for c in (cat.get("causation") or []) if _is_supported(c, raw_stems)]
     if _re.search(r"\bgrie(f|ving)|\bloss\b|bereave|death of|died|passed away|mourning|heartbreak", raw_l) \
@@ -1172,6 +1197,9 @@ def assess_miasm(cat: dict, raw_text: str = "") -> dict:
                 _add(f"worse {w}", f"worse {w}")
             for b in s.get("better", []):
                 _add(f"better {b}", f"better {b}")
+    for pol in ("worse", "better"):
+        for m in (cat.get("case_modalities") or {}).get(pol, []):
+            _add(f"{pol} {m}", f"{pol} {m}")
     for c in cat.get("causation", []):
         _add(f"ailments from {c}", c)
 
@@ -1215,6 +1243,9 @@ MODALITY_WEIGHT  = 0.6      # modality items count a bit less than the symptom i
 MATCH_TOP_K      = 8        # dataset entries considered per patient item
 MATCH_MIN_SIM    = 0.55     # semantic similarity threshold (0-1)
 CAUSE_MIN_SIM    = 0.65     # causations must match more closely ("grief" ≠ "fright")
+COVERAGE_EXPONENT  = 0.5    # score = credit × coverage^0.5 (rewards covering more of the case)
+MIN_SCORE_FRACTION = 0.30   # hide remedies scoring under 30% of the top remedy…
+MIN_REMEDIES_SHOWN = 3      # …but always show at least this many
 LEXICAL_MIN_SIM  = 0.34     # fallback threshold when the embedding model is unavailable
 
 
@@ -1246,10 +1277,38 @@ def _build_query_items(categorised: dict) -> list:
                     g = f"mod:{pol} {m.strip().lower()}"
                     mod_weight[g] = max(mod_weight.get(g, 0), w * MODALITY_WEIGHT)
                     q.append((f"{pol.title()} {m}", f"{pol} {m}", None, g))
+    # whole-case modalities are generals in the classical hierarchy
+    for pol in ("worse", "better"):
+        for m in (categorised.get("case_modalities") or {}).get(pol, []):
+            g = f"mod:{pol} {m.strip().lower()}"
+            mod_weight[g] = max(mod_weight.get(g, 0), CATEGORY_WEIGHTS["general"] * MODALITY_WEIGHT)
+            q.append((f"{pol.title()} {m} (whole case)", f"{pol} {m}", None, g))
     return [(lab, txt, (wt if wt is not None else mod_weight[g]), g) for lab, txt, wt, g in q]
 
 
 _LEFT, _RIGHT = _re.compile(r"\bleft\b"), _re.compile(r"\bright\b")
+
+# A patient modality may only match a dataset entry that is itself a modality.
+_MOD_WORDS = _re.compile(r"\b(worse|better|agg\w*|amel\w*|reliev\w*|improv\w*|after|before|during|while"
+                         r"|on (rising|waking|lying|walking|motion)|from (touch|motion|heat|cold|warm\w*|eating"
+                         r"|pressure|rest|lying|walking))\b")
+_WORSE_W = _re.compile(r"\b(worse|agg\w*|intoleran\w*|cannot bear|can't bear)\b")
+_BETTER_W = _re.compile(r"\b(better|amel\w*|reliev\w*|improv\w*)\b")
+
+
+def _modality_mismatch(group: str, dataset_text: str) -> bool:
+    """Reject modality→symptom matches ('better walking' ≈ 'unsteady walk') and opposite polarity."""
+    if not group.startswith("mod:"):
+        return False
+    d = dataset_text.lower()
+    if not _MOD_WORDS.search(d):
+        return True
+    pol = group[4:].split(" ", 1)[0]
+    if pol == "better" and _WORSE_W.search(d) and not _BETTER_W.search(d):
+        return True
+    if pol == "worse" and _BETTER_W.search(d) and not _WORSE_W.search(d):
+        return True
+    return False
 
 
 def _laterality_conflict(patient_text: str, dataset_text: str) -> bool:
@@ -1325,7 +1384,7 @@ def rank_remedies_from_dataset(categorised: dict, s2r: dict, top_n: int = 10) ->
     for (label, qtext, weight, group), hits in zip(queries, matches):
         for ds_sym, sim in hits:
             rems = s2r.get(ds_sym, {})
-            if not rems or _laterality_conflict(qtext, ds_sym):
+            if not rems or _laterality_conflict(qtext, ds_sym) or _modality_mismatch(group, ds_sym):
                 continue
             top = max(rems.values()) or 1.0
             rarity = 1.0 / (1.0 + np.log(len(rems)))   # generic rubrics ("restlessness") count less
@@ -1339,7 +1398,9 @@ def rank_remedies_from_dataset(categorised: dict, s2r: dict, top_n: int = 10) ->
     n_groups = len({q[3] for q in queries})
     ranked = []
     for rem, groups in best.items():
-        score = sum(c for c, _ in groups.values())
+        credit = sum(c for c, _ in groups.values())
+        # totality: breadth of coverage matters, so one heavy match can't beat many good ones
+        score = credit * (len(groups) ** COVERAGE_EXPONENT)
         evidence = [e for _, e in sorted(groups.values(), key=lambda x: -x[0])]
         ranked.append({
             "name": rem,
@@ -1350,6 +1411,9 @@ def rank_remedies_from_dataset(categorised: dict, s2r: dict, top_n: int = 10) ->
             "evidence": evidence,
         })
     ranked.sort(key=lambda r: (-r["score"], -r["coverage"], r["name"]))
+    if ranked:
+        cutoff = ranked[0]["score"] * MIN_SCORE_FRACTION
+        ranked = [r for i, r in enumerate(ranked) if i < MIN_REMEDIES_SHOWN or r["score"] >= cutoff]
     return ranked[:top_n]
 
 
@@ -1410,6 +1474,8 @@ def _patient_vocab(categorised: dict) -> set:
     words = []
     for c in categorised.get("causation", []):
         words.append(c)
+    for pol in ("worse", "better"):
+        words += (categorised.get("case_modalities") or {}).get(pol, [])
     for k in ("physical", "psychological", "general"):
         for s in categorised.get(k, []):
             if not s.get("unverified"):
@@ -1459,6 +1525,10 @@ def gemini_narrate_remedies(
     lines = []
     for c in categorised.get("causation", []):
         lines.append(f"[Causation] ailments from {c}")
+    _cm = categorised.get("case_modalities") or {}
+    if _cm.get("worse") or _cm.get("better"):
+        lines.append(f"[Whole case] worse: {', '.join(_cm.get('worse', [])) or '—'} | "
+                     f"better: {', '.join(_cm.get('better', [])) or '—'}")
     for cat in ("psychological", "general", "physical"):
         for s in categorised.get(cat, []):
             if s.get("unverified"):
@@ -1733,6 +1803,10 @@ def build_pdf(patient_id: str, categorised: dict, report: dict,
         rows = [[P("Category", head_s), P("Symptom", head_s), P("Worse", head_s), P("Better", head_s)]]
         for c in cat.get("causation", []):
             rows.append([P("Causation"), P(f"Ailments from {c}"), P("—"), P("—")])
+        _cm = cat.get("case_modalities") or {}
+        if _cm.get("worse") or _cm.get("better"):
+            rows.append([P("Whole case"), P("All complaints"),
+                         P(", ".join(_cm.get("worse", [])) or "—"), P(", ".join(_cm.get("better", [])) or "—")])
         for c in ("psychological", "general", "physical"):
             for s in cat.get(c, []):
                 if s.get("unverified"):
@@ -2609,6 +2683,12 @@ with tab_intake:
         render_symptom_category("Physical",      cat.get("physical",      []))
         render_symptom_category("Psychological", cat.get("psychological", []))
         render_symptom_category("General",       cat.get("general",       []))
+        _cm = cat.get("case_modalities") or {}
+        if _cm.get("worse") or _cm.get("better"):
+            st.markdown('<div class="section-label">Whole case modalities</div>', unsafe_allow_html=True)
+            st.markdown(sym_tags([f"↓ {m}" for m in _cm.get("worse", [])], "sym-tag sym-worse") + " " +
+                        sym_tags([f"↑ {m}" for m in _cm.get("better", [])], "sym-tag sym-better"),
+                        unsafe_allow_html=True)
 
         with st.expander("✎  Edit categorised symptoms (optional)"):
             st.caption("Edit symptom text or modalities directly.")
@@ -2636,6 +2716,13 @@ with tab_intake:
             cz = st.text_input("Causation", value=", ".join(cat.get("causation", [])), key="edit_causation",
                                label_visibility="collapsed")
             cat["causation"] = [x.strip() for x in cz.split(",") if x.strip()]
+            st.markdown("**Whole case modalities**")
+            _cm = cat.get("case_modalities") or {}
+            mc1, mc2 = st.columns(2)
+            cw = mc1.text_input("Worse", value=", ".join(_cm.get("worse", [])), key="edit_case_worse")
+            cb = mc2.text_input("Better", value=", ".join(_cm.get("better", [])), key="edit_case_better")
+            cat["case_modalities"] = {"worse": [x.strip() for x in cw.split(",") if x.strip()],
+                                      "better": [x.strip() for x in cb.split(",") if x.strip()]}
             cat["unverified"] = [s["symptom"] for k in ("physical", "psychological", "general")
                                  for s in cat.get(k, []) if s.get("unverified")]
             st.session_state.categorised = refresh_derived(cat)
