@@ -7,6 +7,7 @@ Secrets required (set in Streamlit Cloud → App settings → Secrets):
     GITHUB_TOKEN     = "github_pat_..."   # fine-grained PAT, contents: read+write
     GITHUB_REPO      = "owner/repo-name"
     GITHUB_FILE_PATH = "data/horus3_patients.json"   # path inside the repo
+    GITHUB_BRANCH    = "my-branch"                   # optional — omit to use the repo's default branch
 
 Requirements (requirements.txt):
     streamlit
@@ -291,7 +292,18 @@ def _secret(key: str, fallback: str = "") -> str:
 GEMINI_API_KEY   = _secret("GEMINI_API_KEY")
 GITHUB_TOKEN     = _secret("GITHUB_TOKEN")
 GITHUB_REPO      = _secret("GITHUB_REPO")
-GITHUB_FILE_PATH = _secret("GITHUB_FILE_PATH", "data/horus3_patients.json")
+GITHUB_FILE_PATH = _secret("GITHUB_FILE_PATH", "data/horus3_patients.json").strip().lstrip("/")
+GITHUB_BRANCH    = _secret("GITHUB_BRANCH", "").strip()
+
+
+def _ref_kw() -> dict:
+    """ref= for reads; empty → repo default branch."""
+    return {"ref": GITHUB_BRANCH} if GITHUB_BRANCH else {}
+
+
+def _branch_kw() -> dict:
+    """branch= for writes; empty → repo default branch."""
+    return {"branch": GITHUB_BRANCH} if GITHUB_BRANCH else {}
 
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
@@ -343,21 +355,52 @@ def load_patients() -> dict:
             st.warning(f"Patient history unavailable — {_GH_LAST_ERROR['msg']}")
         return {}
     try:
-        contents = repo.get_contents(GITHUB_FILE_PATH)
-        raw = base64.b64decode(contents.content).decode("utf-8")
-        data = json.loads(raw)
+        contents = repo.get_contents(GITHUB_FILE_PATH, **_ref_kw())
+        if isinstance(contents, list):
+            raise ValueError(f"'{GITHUB_FILE_PATH}' is a folder — GITHUB_FILE_PATH must point to a .json file.")
+        raw = (contents.decoded_content or b"").decode("utf-8-sig")   # utf-8-sig strips a BOM
+        if not raw.strip():
+            data = {}                                                   # empty file → start fresh
+        else:
+            try:
+                data = json.loads(raw)
+            except json.JSONDecodeError as je:
+                st.session_state.gh_file_broken = True
+                lines = raw.splitlines()
+                bad = lines[je.lineno - 1] if 0 < je.lineno <= len(lines) else ""
+                st.error(
+                    f"The patients file **{GITHUB_FILE_PATH}**"
+                    f"{' on branch **' + GITHUB_BRANCH + '**' if GITHUB_BRANCH else ''} is not valid JSON "
+                    f"(line {je.lineno}, column {je.colno}: {je.msg}). Problem line: `{bad[:120]}`  \n"
+                    "Saving is paused so your existing data isn't overwritten. Fix or replace the file "
+                    "on GitHub — an empty file or `{}` is fine for a fresh start."
+                )
+                return {}
+        if not isinstance(data, dict):
+            st.session_state.gh_file_broken = True
+            st.error(f"The patients file **{GITHUB_FILE_PATH}** must contain a JSON object `{{...}}`, "
+                     f"not a {type(data).__name__}. Saving is paused.")
+            return {}
+        st.session_state.gh_file_broken = False
         st.session_state.patients_cache = data
         st.session_state.patients_cache_valid = True
         return data
     except GithubException as e:
+        if e.status == 404 and GITHUB_BRANCH and ("branch" in str(e.data).lower() or "no commit found for the ref" in str(e.data).lower()):
+            st.session_state.gh_file_broken = True
+            st.error(f"Branch '{GITHUB_BRANCH}' not found — check the GITHUB_BRANCH secret. Saving is paused.")
+            return {}
         if e.status == 404:
             st.session_state.patients_cache = {}
             st.session_state.patients_cache_valid = True
             return {}
-        st.warning(f"GitHub read error: {e.data.get('message', e)}")
+        st.session_state.gh_file_broken = True      # unknown state → never overwrite
+        st.warning(f"GitHub read error: {(e.data or {}).get('message', e) if isinstance(e.data, dict) else e} "
+                   "— saving is paused until the file can be read.")
         return {}
     except Exception as e:
-        st.warning(f"Could not load patient history: {e}")
+        st.session_state.gh_file_broken = True      # unknown state → never overwrite
+        st.warning(f"Could not load patient history: {e} — saving is paused until it can be read.")
         return {}
 
 
@@ -370,16 +413,21 @@ def save_patients(patients: dict) -> bool:
     if repo is None:
         st.error(f"Case not saved — {_GH_LAST_ERROR['msg'] or 'GitHub not configured.'}")
         return False
+    if st.session_state.get("gh_file_broken"):
+        st.error("Not saved — the patients file on GitHub couldn't be read, so saving is paused "
+                 "to avoid overwriting it. See the message at the top of the page.")
+        return False
     payload = json.dumps(patients, indent=2, ensure_ascii=False)
     commit_msg = f"HoRUS3 update — {datetime.now().strftime('%Y-%m-%d %H:%M')}"
     try:
         try:
-            existing = repo.get_contents(GITHUB_FILE_PATH)
+            existing = repo.get_contents(GITHUB_FILE_PATH, **_ref_kw())
             repo.update_file(path=GITHUB_FILE_PATH, message=commit_msg,
-                             content=payload, sha=existing.sha)
+                             content=payload, sha=existing.sha, **_branch_kw())
         except GithubException as e:
             if e.status == 404:
-                repo.create_file(path=GITHUB_FILE_PATH, message=commit_msg, content=payload)
+                repo.create_file(path=GITHUB_FILE_PATH, message=commit_msg, content=payload,
+                                 **_branch_kw())
             else:
                 raise
         st.session_state.patients_cache = patients
@@ -392,6 +440,13 @@ def save_patients(patients: dict) -> bool:
 
 def save_case(pid: str, case_data: dict) -> bool:
     patients = load_patients()
+    if st.session_state.get("pid_provisional") and not st.session_state.get("gh_file_broken"):
+        # ID was assigned while history was unreadable — reassign from fresh data
+        st.session_state.pid_provisional = False
+        if pid in patients and pid == st.session_state.get("patient_id"):
+            pid = next_patient_id()
+            st.session_state.patient_id = pid
+            st.info(f"Patient ID changed to {pid} to avoid clashing with an existing record.")
     patients.setdefault(pid, {"details": {}, "cases": []})
     if isinstance(patients[pid], list):
         old_cases = patients[pid]
@@ -792,83 +847,573 @@ def get_top_suggestions(
 # ─────────────────────────────────────────────
 # GEMINI HELPERS
 # ─────────────────────────────────────────────
+# ═════════════════════════════════════════════════════════════════
+# DECISION ENGINE
+#   • Decisions (red flags, symptom matching, remedy ranking, miasm)
+#     are made ONLY by code + the GitHub dataset.
+#   • Gemini is used ONLY to (a) parse free text into symptoms and
+#     (b) explain decisions already made. Its output is validated.
+# ═════════════════════════════════════════════════════════════════
+import re as _re
+
+# Rules appended to every Gemini prompt.
+AGENT_SAFEGUARDS = """
+STRICT SAFEGUARDS (these override everything else):
+1. Use ONLY information explicitly present in the input you are given. Do NOT add symptoms,
+   history, personality traits, causes, diagnoses, test results, or any other detail that is not
+   literally stated. If something is not stated, leave it out — never guess or "fill in".
+2. You do NOT make clinical decisions. Remedy choice, ranking, miasm, and safety flags are decided
+   by the dataset and the program. Never propose, add, remove, reorder, or rename remedies, and never
+   mention any remedy that is not in the list you are given.
+3. Never state potencies, doses, repetition schedules, or medical/diagnostic advice.
+4. Do not use outside knowledge to introduce new facts about the patient. Only explain how the given
+   patient symptoms relate to the given dataset evidence.
+5. If the evidence is thin or contradictory, say so plainly instead of smoothing it over.
+"""
+
+# ── 1. RED-FLAG SCREEN (deterministic) ──────────────────────────
+_RED_FLAG_RULES = [
+    {
+        "title": "Possible heart emergency",
+        "all": [r"\bchest\b|\bprecordi|\bheart\b|\bcardiac\b"],
+        "any": [r"\bpain|\bpressure|\btight|\bsqueez|\bcrush|\bstitch|\bheav"],
+        "plus_any": [r"left arm|\barm\b|\bjaw\b|\bradiat|\bspread|\bsweat|breathless|short(ness)? of breath"
+                     r"|\bfaint|\bpalpitat|\bpounding|fear (that )?(she|he|they|i) (will|would|might) die"
+                     r"|fear of death|fear of dying"],
+        "advice": "Chest pain or pressure with spreading to the arm/jaw, sweating, breathlessness, "
+                  "palpitations or a sense of impending death can be a heart attack. Arrange urgent "
+                  "medical assessment (ECG and cardiac blood tests) now — before or alongside any "
+                  "homeopathic treatment.",
+    },
+    {
+        "title": "Possible stroke",
+        "any": [r"face (droop|drooping)|facial droop|slurred speech|sudden(ly)? (weakness|numbness)"
+                r"|one side of (the )?body|cannot (speak|lift)|sudden (loss of )?vision|worst headache"],
+        "advice": "Sudden one-sided weakness/numbness, facial droop, speech or vision loss, or a sudden "
+                  "worst-ever headache needs emergency care immediately.",
+    },
+    {
+        "title": "Severe breathing difficulty",
+        "any": [r"can'?t breathe|cannot breathe|gasping|blue lips|lips turn(ing)? blue|severe breathless"
+                r"|struggling to breathe|throat (is )?(closing|swelling)"],
+        "advice": "Severe breathlessness, blue lips or throat swelling needs emergency care immediately.",
+    },
+    {
+        "title": "Risk of self-harm",
+        "any": [r"suicid|kill (myself|herself|himself)|end (my|her|his) life|self[- ]harm|want(s)? to die"
+                r"|no reason to live"],
+        "advice": "Thoughts of suicide or self-harm need same-day support from a mental-health "
+                  "professional or crisis line. Do not leave the patient without support.",
+    },
+    {
+        "title": "Serious bleeding",
+        "any": [r"vomit(ing)? blood|blood in (vomit|stool)|black (tarry )?stool|coughing (up )?blood"
+                r"|heavy bleeding|bleeding (in|during) pregnan"],
+        "advice": "Vomiting or coughing blood, black stools or heavy bleeding needs urgent medical care.",
+    },
+    {
+        "title": "Possible meningitis / serious infection",
+        "all": [r"\bfever"],
+        "any": [r"stiff neck|neck stiffness|confus|rash that does not fade|non-blanching|seizure|convuls"
+                r"|unconscious|unresponsive"],
+        "advice": "Fever with neck stiffness, confusion, a non-fading rash or seizures needs emergency care.",
+    },
+    {
+        "title": "Loss of consciousness / seizure",
+        "any": [r"\bseizure|\bconvuls|lost consciousness|loss of consciousness|passed out|\bfaint(ed|ing)\b"],
+        "advice": "Fainting, loss of consciousness or seizures need prompt medical evaluation.",
+    },
+]
+
+
+def detect_red_flags(raw_text: str, categorised: dict | None = None) -> list:
+    """Return [{title, advice, trigger}] for red-flag patterns in the case. Pure code."""
+    parts = [raw_text or ""]
+    if categorised:
+        for k in ("physical", "psychological", "general"):
+            for s in categorised.get(k, []):
+                parts.append(" ".join([s.get("symptom", "")] + s.get("worse", []) + s.get("better", [])))
+        parts.extend(categorised.get("causation", []))
+    text = " ".join(parts).lower()
+
+    flags = []
+    for rule in _RED_FLAG_RULES:
+        ok = all(_re.search(p, text) for p in rule.get("all", []))
+        ok = ok and all(_re.search(p, text) for p in rule.get("any", []))
+        ok = ok and all(_re.search(p, text) for p in rule.get("plus_any", []))
+        if ok:
+            hit = None
+            for p in rule.get("plus_any", []) + rule.get("any", []):
+                m = _re.search(p, text)
+                if m:
+                    hit = m.group(0)
+                    break
+            flags.append({"title": rule["title"], "advice": rule["advice"], "trigger": hit or ""})
+    return flags
+
+
+def render_red_flags(flags: list):
+    if not flags:
+        return
+    items = "".join(
+        f'<li style="margin-bottom:0.4rem"><strong>{_html.escape(f["title"])}.</strong> '
+        f'{_html.escape(f["advice"])}</li>' for f in flags
+    )
+    st.markdown(
+        '<div style="background:#fef2f2;border:2px solid #dc2626;border-radius:10px;'
+        'padding:1rem 1.2rem;margin:0.5rem 0 1rem">'
+        '<div style="font-size:1.25rem;font-weight:700;color:#b91c1c;margin-bottom:0.4rem">'
+        '⚠ Seek urgent medical care</div>'
+        '<div style="color:#7f1d1d;font-size:1.02rem;margin-bottom:0.4rem">'
+        'This case contains warning signs that need conventional medical assessment first. '
+        'HoRUS output must not delay it.</div>'
+        f'<ul style="margin:0 0 0 1.1rem;padding:0;color:#7f1d1d;font-size:1.02rem">{items}</ul></div>',
+        unsafe_allow_html=True,
+    )
+
+
+# ── 2. PARSING (Gemini) + verification ─────────────────────────
 def gemini_categorise(raw_text: str, mode: str = "case_studies") -> dict:
     mode_instruction = (
-        "Focus on symptom totality, constitutional picture, and classical case-taking "
-        "as used in clinical case studies. Emphasise mental generals, physical generals, "
-        "and particulars in that hierarchy."
+        "Order of importance for the case: causation, mental/emotional symptoms, general symptoms, "
+        "then local particulars."
         if mode == "case_studies"
         else
-        "Focus on materia medica keynotes, drug pictures, and characteristic symptoms. "
-        "Emphasise strange-rare-peculiar symptoms, keynote symptoms, and pathognomonic "
-        "features that directly point to specific remedies in the materia medica."
+        "Pay particular attention to keynote-like and strange-rare-peculiar features, "
+        "but still record only what the patient actually said."
     )
-    system = f"""You are a classical homeopathic repertorisation assistant.
+    system = f"""You are a PARSER for a homeopathic case-taking tool. You convert the patient's words
+into structured JSON. You do not analyse, interpret, diagnose, or choose remedies.
 {mode_instruction}
 
-Read the patient's description and return ONLY valid JSON — no markdown, no preamble.
-
 Rules:
-- Split symptoms into physical, psychological, and general categories.
-- For each symptom extract worse[] and better[] modalities.
-- Keep symptom text concise but clinically precise.
-- Identify the dominant miasmatic tendency (psoric / sycotic / syphilitic / tubercular / mixed).
-- List any concomitants (symptoms that appear together).
-- Write a one-sentence clinical_summary capturing the case essence.
-
-JSON shape (return exactly this, nothing else):
+- Every symptom must come directly from the text. Keep the patient's own meaning and key words.
+  Do not merge two different complaints into one, and do not invent symptoms.
+- Split symptoms into physical, psychological, and general (whole-body: temperature, thirst,
+  appetite, cravings, sleep, energy).
+- For each symptom record ONLY the modalities stated for it: worse[] and better[]
+  (times of day, temperature, motion, position, food, emotions...). Don't attach a modality
+  to a symptom unless the text links them; if a modality is stated for the whole case,
+  attach it to every symptom it clearly applies to.
+- causation[]: triggers the patient states ("ailments from"), worded precisely. Never drop or
+  soften these. If the text mentions grief, loss, bereavement, death of someone, heartbreak,
+  fright, shock, anger, humiliation, injury, or a vaccination as a cause, include it
+  (e.g. "grief from loss", "emotional shock"). If a shock involved a loss, record BOTH
+  "grief from loss" and "emotional shock".
+- concomitants[]: only symptoms the text explicitly says occur together.
+- clinical_summary: one sentence restating the most characteristic stated features — nothing new.
+- Do NOT output a miasm, remedy, diagnosis or advice.
+{AGENT_SAFEGUARDS}
+Return ONLY valid JSON — no markdown, no preamble:
 {{
   "physical": [{{"symptom": "...", "worse": ["..."], "better": ["..."]}}],
   "psychological": [{{"symptom": "...", "worse": ["..."], "better": ["..."]}}],
   "general": [{{"symptom": "...", "worse": ["..."], "better": ["..."]}}],
-  "miasm": "...",
+  "causation": ["..."],
   "concomitants": ["..."],
   "clinical_summary": "..."
 }}"""
     model = genai.GenerativeModel(model_name="gemini-3.1-flash-lite", system_instruction=system)
     response = model.generate_content(
-        f"Patient describes: {raw_text}",
-        generation_config=genai.GenerationConfig(temperature=0.2, max_output_tokens=3000),
+        f"Patient's words (parse only):\n{raw_text}",
+        generation_config=genai.GenerationConfig(temperature=0.0, max_output_tokens=3000),
     )
     raw = response.text.strip().lstrip("```json").lstrip("```").rstrip("```").strip()
-    return json.loads(raw)
+    cat = json.loads(raw)
+    return finalise_categorised(cat, raw_text)
+
+
+_STOP = set("""a an the and or of to in on at for with from by as is are was were be been being it its this
+that these those she he they her his their them i my me you your we our has have had having not no
+very more most less least some any all each when then than so such into out up down over under
+again also only just can will would could should may might feel feels feeling felt sensation
+symptom symptoms patient complaint""".split())
+
+
+def _content_stems(text: str) -> set:
+    return {w[:5] for w in _re.findall(r"[a-z]{4,}", (text or "").lower()) if w not in _STOP}
+
+
+# words the parser may legitimately use that won't appear verbatim in the patient's text
+_PARSER_SYNONYMS = {
+    "palpi": {"pound", "racin", "heart", "flutt", "thump", "beati"},
+    "grief": {"loss", "death", "bereav", "mourn", "heart", "died", "passe"},
+    "chill": {"cold", "chill", "cover", "warm"},
+    "thirs": {"drink", "water", "thirs"},
+    "anxie": {"anxio", "worry", "panic", "fear", "nervo"},
+    "insom": {"sleep", "awake", "wake"},
+    "restl": {"restl", "cannot", "still"},
+}
+
+
+def _is_supported(item_text: str, raw_stems: set) -> bool:
+    stems = _content_stems(item_text)
+    if not stems:
+        return True
+    for s in stems:
+        if s in raw_stems:
+            return True
+        if raw_stems & _PARSER_SYNONYMS.get(s, set()):
+            return True
+    return False
+
+
+def finalise_categorised(cat: dict, raw_text: str) -> dict:
+    """
+    Code-side checks on parser output:
+      • drop modalities/causes with no basis in the patient's text,
+      • mark symptoms with no basis as 'unverified' (excluded from ranking),
+      • make sure grief/loss is never lost,
+      • attach the deterministic miasm + red flags.
+    """
+    raw_stems = _content_stems(raw_text)
+    raw_l = (raw_text or "").lower()
+    unverified = []
+    for k in ("physical", "psychological", "general"):
+        clean = []
+        for s in cat.get(k, []) or []:
+            if not isinstance(s, dict) or not str(s.get("symptom", "")).strip():
+                continue
+            s = {
+                "symptom": str(s["symptom"]).strip(),
+                "worse":  [m for m in (s.get("worse") or [])  if _is_supported(m, raw_stems)],
+                "better": [m for m in (s.get("better") or []) if _is_supported(m, raw_stems)],
+            }
+            if not _is_supported(s["symptom"], raw_stems):
+                s["unverified"] = True
+                unverified.append(s["symptom"])
+            clean.append(s)
+        cat[k] = clean
+
+    causes = [c for c in (cat.get("causation") or []) if _is_supported(c, raw_stems)]
+    if _re.search(r"\bgrie(f|ving)|\bloss\b|bereave|death of|died|passed away|mourning|heartbreak", raw_l) \
+            and not any("grief" in c.lower() for c in causes):
+        causes.insert(0, "grief from loss")
+    if _re.search(r"\bshock\b", raw_l) and not any("shock" in c.lower() for c in causes):
+        causes.append("emotional shock")
+    if _re.search(r"\bfright|\bscare[d]?\b|\bterror", raw_l) and not any("fright" in c.lower() for c in causes):
+        causes.append("fright")
+    cat["causation"] = list(dict.fromkeys(causes))
+    cat["concomitants"] = [c for c in (cat.get("concomitants") or []) if _is_supported(c, raw_stems)]
+    cat["unverified"] = unverified
+    cat.pop("miasm_detail", None)
+
+    m = assess_miasm(cat, raw_text)
+    cat["miasm"] = m["label"]
+    cat["miasm_detail"] = m
+    cat["red_flags"] = detect_red_flags(raw_text, cat)
+    cat["_raw_text"] = raw_text
+    return cat
+
+
+def refresh_derived(cat: dict) -> dict:
+    """Recompute code-made decisions (miasm, red flags) after the doctor edits symptoms."""
+    cat = dict(cat)
+    raw = cat.get("_raw_text", "")
+    m = assess_miasm(cat, raw)
+    cat["miasm"], cat["miasm_detail"] = m["label"], m
+    cat["red_flags"] = detect_red_flags(raw, cat)
+    return cat
+
+
+# ── 3. MIASM (deterministic rubric) ─────────────────────────────
+# Keyword rubric after Hahnemann / J.H. Allen / Banerjea. Editable: put a
+# `miasm_rubric.json` ({"psora": ["kw", ...], ...}) in the repo to override.
+_DEFAULT_MIASM_RUBRIC = {
+    "psora": ["anxiety", "anxious", "fear", "apprehens", "palpitat", "itch", "burning", "chilly",
+              "sensitive to cold", "craving for sweets", "desire for sweets", "sweets",
+              "weeping", "sad", "functional", "hunger", "dry skin", "worry"],
+    "sycosis": ["secretive", "jealous", "suspicious", "wart", "growth", "tumour", "tumor", "cyst",
+                "catarrh", "worse damp", "worse wet", "damp weather", "swelling", "stiffness",
+                "obesity", "fixed idea", "hurried", "excess"],
+    "syphilis": ["worse at night", "worse night", "after midnight", "sunset", "ulcer", "destruct",
+                 "suicid", "despair", "alone in the world", "isolation", "forsaken", "bone pain",
+                 "fissure", "deformit", "self-destruct"],
+    "tubercular": ["dissatisf", "change", "travel", "restless", "better open air", "better in open air",
+                   "desire open air", "worse closed room", "worse stuffy", "worse warmth",
+                   "worse warm room", "cold drinks", "cold milk", "smoked meat", "emaciat",
+                   "catches cold", "night sweat", "tired easily", "allerg"],
+}
+_HISTORY_HINTS = r"family history|past history|history of|since childhood|mother had|father had|" \
+                 r"runs in (the )?family|previous(ly)? (treated|had)|vaccinat|recurrent|chronic"
+
+
+@st.cache_data(show_spinner=False)
+def _load_miasm_rubric() -> dict:
+    if os.path.exists("miasm_rubric.json"):
+        try:
+            with open("miasm_rubric.json", encoding="utf-8") as f:
+                d = json.load(f)
+            return {k.lower(): [str(x).lower() for x in v] for k, v in d.items() if isinstance(v, list)}
+        except Exception:
+            pass
+    return _DEFAULT_MIASM_RUBRIC
+
+
+def assess_miasm(cat: dict, raw_text: str = "") -> dict:
+    rubric = _load_miasm_rubric()
+    items = []
+    for k in ("physical", "psychological", "general"):
+        for s in cat.get(k, []):
+            if s.get("unverified"):
+                continue
+            base = s["symptom"].lower()
+            items.append((s["symptom"], base))
+            for w in s.get("worse", []):
+                items.append((f"{s['symptom']} — worse {w}", f"worse {w.lower()}"))
+            for b in s.get("better", []):
+                items.append((f"{s['symptom']} — better {b}", f"better {b.lower()}"))
+    for c in cat.get("causation", []):
+        items.append((f"ailments from {c}", c.lower()))
+
+    evidence = {m: [] for m in rubric}
+    for label, text in items:
+        for miasm, kws in rubric.items():
+            for kw in kws:
+                if _re.search(rf"(?<![a-z]){_re.escape(kw)}", text):   # word-start match: "itch" ≠ "stitching"
+                    evidence[miasm].append(f"{label}  [{kw}]")
+                    break
+    scores = {m: len(v) for m, v in evidence.items()}
+    ordered = sorted(scores, key=lambda m: -scores[m])
+    has_history = bool(_re.search(_HISTORY_HINTS, (raw_text or "").lower()))
+
+    if not ordered or scores[ordered[0]] == 0:
+        label, dominant, secondary = "undetermined", None, []
+    else:
+        dominant = ordered[0]
+        top = scores[dominant]
+        secondary = [m for m in ordered[1:] if scores[m] > 0 and scores[m] >= max(1, top * 0.5)]
+        tied = [m for m in ordered if scores[m] == top]
+        if len(tied) > 1:
+            label = "mixed (" + " / ".join(t.title() for t in tied) + ")"
+            secondary = [m for m in secondary if m not in tied]
+        else:
+            label = dominant.title() + (" with " + ", ".join(m.title() for m in secondary) if secondary else "")
+    if not has_history:
+        label = f"provisional — {label}"
+
+    lines = []
+    for m in ordered:
+        if scores[m]:
+            lines.append(f"{m.title()} ({scores[m]}): " + "; ".join(evidence[m]))
+    note = ("" if has_history else
+            "No chronic, past or family history was given, so this is provisional and based only on the "
+            "presenting picture; confirm it from the patient's history before relying on it.")
+    text = (f"Rubric assessment: {label}. " + (" ".join(f"{l}." for l in lines) if lines else
+            "No rubric keywords matched.") + (f" {note}" if note else ""))
+    return {"label": label, "scores": scores, "evidence": evidence, "provisional": not has_history,
+            "text": text}
+
+
+# ── 4. REMEDY RANKING (dataset only) ────────────────────────────
+CATEGORY_WEIGHTS = {"causation": 3.0, "psychological": 2.0, "general": 1.5, "physical": 1.0}
+MODALITY_WEIGHT  = 0.6      # modality items count a bit less than the symptom itself
+MATCH_TOP_K      = 8        # dataset entries considered per patient item
+MATCH_MIN_SIM    = 0.55     # semantic similarity threshold (0-1)
+CAUSE_MIN_SIM    = 0.70     # causations must match more closely ("grief" ≠ "fright")
+LEXICAL_MIN_SIM  = 0.34     # fallback threshold when the embedding model is unavailable
+
+
+def _build_query_items(categorised: dict) -> list:
+    """Patient items to match: (label, query_text, weight, group_key)."""
+    q = []
+    for c in categorised.get("causation", []):
+        q.append((f"Ailments from {c}", f"ailments from {c}", CATEGORY_WEIGHTS["causation"], f"cause:{c}"))
+    for k in ("psychological", "general", "physical"):
+        w = CATEGORY_WEIGHTS[k]
+        for s in categorised.get(k, []):
+            if s.get("unverified"):
+                continue
+            sym = s["symptom"].strip()
+            q.append((sym, sym, w, f"{k}:{sym}"))
+            for m in s.get("worse", []):
+                q.append((f"{sym} — worse {m}", f"{sym} worse {m}", w * MODALITY_WEIGHT, f"{k}:{sym}"))
+            for m in s.get("better", []):
+                q.append((f"{sym} — better {m}", f"{sym} better {m}", w * MODALITY_WEIGHT, f"{k}:{sym}"))
+    return q
+
+
+@st.cache_resource(show_spinner="Indexing dataset symptoms…", max_entries=2)
+def _dataset_embeddings(_keys: tuple, keys_hash: str):
+    model = (system_data or {}).get("model") if isinstance(system_data, dict) else None
+    if model is None or not hasattr(model, "encode"):
+        return None
+    try:
+        emb = model.encode(list(_keys), batch_size=128, convert_to_numpy=True,
+                           normalize_embeddings=True, show_progress_bar=False)
+        return np.asarray(emb, dtype=np.float32)
+    except Exception:
+        return None
+
+
+def _lexical_sim(a: str, b: str) -> float:
+    sa, sb = _content_stems(a), _content_stems(b)
+    if not sa or not sb:
+        return 0.0
+    return len(sa & sb) / len(sa | sb)
+
+
+def match_items_to_dataset(queries: list, s2r: dict) -> list:
+    """For each query → [(dataset_symptom, similarity)], using embeddings (or lexical fallback)."""
+    keys = tuple(sorted(s2r.keys()))
+    if not keys:
+        return [[] for _ in queries]
+    keys_hash = hashlib.md5("\n".join(keys).encode("utf-8")).hexdigest()
+    emb = _dataset_embeddings(keys, keys_hash)
+    model = (system_data or {}).get("model") if isinstance(system_data, dict) else None
+
+    out = []
+    if emb is not None and model is not None:
+        qv = np.asarray(model.encode([q[1] for q in queries], convert_to_numpy=True,
+                                     normalize_embeddings=True, show_progress_bar=False), dtype=np.float32)
+        sims = qv @ emb.T
+        for q, row in zip(queries, sims):
+            th = CAUSE_MIN_SIM if q[3].startswith("cause:") else MATCH_MIN_SIM
+            idx = np.argsort(-row)[:MATCH_TOP_K]
+            out.append([(keys[i], float(row[i])) for i in idx if row[i] >= th])
+    else:
+        for q in queries:
+            th = LEXICAL_MIN_SIM * (1.4 if q[3].startswith("cause:") else 1.0)
+            scored = sorted(((k, _lexical_sim(q[1], k)) for k in keys), key=lambda x: -x[1])[:MATCH_TOP_K]
+            out.append([(k, s) for k, s in scored if s >= th])
+    return out
 
 
 def rank_remedies_from_dataset(categorised: dict, s2r: dict, top_n: int = 10) -> list:
     """
-    Score every remedy in the dataset by how many patient symptoms it covers.
-    Returns ranked list of dicts:
-      {name, score, symptoms_covered: [symptom_str, ...]}
-    100% dataset-driven — no Gemini involvement.
+    100% dataset-driven repertorisation. No Gemini involvement.
+    For every patient item (cause / symptom / modality) find matching dataset symptoms,
+    then credit each remedy listed under them:
+        credit = item_weight × similarity × (remedy score ÷ best score in that rubric)
+    A remedy is credited at most once per patient symptom (best match), so near-duplicate
+    dataset rows can't inflate it. Remedies are ranked by total credit; ties → coverage.
     """
-    from collections import defaultdict as _dd
-    remedy_scores = _dd(lambda: {"score": 0.0, "symptoms_covered": []})
+    queries = _build_query_items(categorised)
+    if not queries:
+        return []
+    matches = match_items_to_dataset(queries, s2r)
 
-    all_syms = [
-        s["symptom"]
-        for k in ("physical", "psychological", "general")
-        for s in categorised.get(k, [])
-    ]
+    # best credit per (remedy, symptom-group)
+    best = defaultdict(dict)     # remedy -> group -> (credit, evidence dict)
+    for (label, _qtext, weight, group), hits in zip(queries, matches):
+        for ds_sym, sim in hits:
+            rems = s2r.get(ds_sym, {})
+            if not rems:
+                continue
+            top = max(rems.values()) or 1.0
+            for rem, sc in rems.items():
+                credit = weight * sim * (sc / top)
+                prev = best[rem].get(group)
+                if prev is None or credit > prev[0]:
+                    best[rem][group] = (credit, {"patient": label, "dataset": ds_sym,
+                                                 "similarity": round(sim, 3)})
 
-    for sym in all_syms:
-        sym_lower = sym.strip().lower()
-        # exact match first
-        remedies = s2r.get(sym_lower, {})
-        # fuzzy: if no exact, try partial key match
-        if not remedies:
-            for key, val in s2r.items():
-                if sym_lower in key or key in sym_lower:
-                    remedies = val
-                    break
-        for rem, weight in remedies.items():
-            remedy_scores[rem]["score"] += weight
-            remedy_scores[rem]["symptoms_covered"].append(sym)
-
-    ranked = sorted(
-        [{"name": rem, **info} for rem, info in remedy_scores.items()],
-        key=lambda x: -x["score"]
-    )
+    n_groups = len({q[3] for q in queries})
+    ranked = []
+    for rem, groups in best.items():
+        score = sum(c for c, _ in groups.values())
+        evidence = [e for _, e in sorted(groups.values(), key=lambda x: -x[0])]
+        ranked.append({
+            "name": rem,
+            "score": round(score, 6),
+            "coverage": len(groups),
+            "total_items": n_groups,
+            "symptoms_covered": [e["patient"] for e in evidence],
+            "evidence": evidence,
+        })
+    ranked.sort(key=lambda r: (-r["score"], -r["coverage"], r["name"]))
     return ranked[:top_n]
+
+
+# ── 5. EXPLANATION (Gemini) + validation ────────────────────────
+_COMMON_REMEDY_NAMES = {
+    "aconite", "aconitum", "arsenicum", "pulsatilla", "phosphorus", "sulphur", "lycopodium", "sepia",
+    "ignatia", "natrum", "lachesis", "belladonna", "bryonia", "calcarea", "nux vomica", "rhus tox",
+    "tuberculinum", "medorrhinum", "syphilinum", "psorinum", "thuja", "silicea", "graphites",
+    "causticum", "kali", "carcinosin", "staphysagria", "gelsemium", "cactus", "spigelia", "latrodectus",
+    "digitalis", "aurum", "platina", "chamomilla", "cimicifuga", "mercurius", "hepar", "apis",
+    "arnica", "hypericum", "opium", "stramonium", "hyoscyamus", "veratrum", "china", "ferrum",
+    "baryta", "conium", "nitric acid", "phosphoric acid", "argentum", "anacardium", "carbo veg",
+}
+_POTENCY_RE = _re.compile(r"\b\d+\s?(c|ch|x|m|lm|k)\b|\bq\b potency|\bpotenc|\bdos(e|age|ing)\b|"
+                          r"\bmother tincture\b|\brepeat(ed)? (every|after)|\bdrops?\b|\bpills?\b|\bglobules?\b",
+                          _re.I)
+
+
+def _remedy_name_patterns(allowed: list, universe: set) -> list:
+    allowed_l = {a.lower() for a in allowed}
+    allowed_tokens = {t for a in allowed_l for t in a.split()}
+    pats = set()
+    for name in universe | _COMMON_REMEDY_NAMES:
+        n = name.lower().strip()
+        if not n or n in allowed_l or n in allowed_tokens:
+            continue
+        if any(a.startswith(n + " ") or a == n for a in allowed_l):
+            continue                     # short form of an allowed remedy, e.g. "ignatia"
+        first = n.split()[0]
+        if n.count(" ") and first in allowed_tokens:
+            continue                     # e.g. "kali carbonicum" vs allowed "kali iodatum"
+        if len(n) >= 5:
+            pats.add(n)
+        if len(first) >= 6 and first not in allowed_tokens:
+            pats.add(first)
+    return sorted(pats, key=len, reverse=True)
+
+
+def sanitise_text(text: str, banned_patterns: list, removed: list) -> str:
+    """Drop sentences that name a non-listed remedy or give potency/dosage advice."""
+    if not text:
+        return text
+    keep = []
+    for sent in _re.split(r"(?<=[.!?])\s+", str(text)):
+        low = sent.lower()
+        bad = next((p for p in banned_patterns if _re.search(rf"\b{_re.escape(p)}\b", low)), None)
+        if bad:
+            removed.append(f"mentioned '{bad}', which is not in the dataset ranking")
+            continue
+        if _POTENCY_RE.search(sent):
+            removed.append("potency/dosage wording")
+            continue
+        keep.append(sent)
+    return " ".join(keep).strip()
+
+
+def _patient_vocab(categorised: dict) -> set:
+    words = []
+    for c in categorised.get("causation", []):
+        words.append(c)
+    for k in ("physical", "psychological", "general"):
+        for s in categorised.get(k, []):
+            if not s.get("unverified"):
+                words += [s["symptom"]] + s.get("worse", []) + s.get("better", [])
+    return _content_stems(" ".join(words))
+
+
+# generic words that appear in symptoms but don't identify one (ignored by the evidence check)
+_EVIDENCE_IGNORE = {"cover", "worse", "bette", "telli", "since", "makes", "sense", "ailme", "recen",
+                    "sympt", "sudde", "marke", "tende", "occas", "gener", "overa", "inten", "sharp"}
+
+
+def keep_evidenced(text: str, evidence: list, vocab: set, removed: list) -> str:
+    """
+    Drop sentences that cite a patient symptom this remedy did NOT match in the dataset
+    (e.g. claiming 'fear of death' for a remedy whose evidence has no such match).
+    """
+    if not text:
+        return text
+    ev = _content_stems(" ".join(f"{e['patient']} {e['dataset']}" for e in evidence))
+    keep = []
+    for sent in _re.split(r"(?<=[.!?])\s+", str(text)):
+        cited = (_content_stems(sent) & vocab) - _EVIDENCE_IGNORE
+        if cited - ev:
+            removed.append("claims not supported by the remedy's dataset matches")
+            continue
+        keep.append(sent)
+    return " ".join(keep).strip()
+
+
+def _title(name: str) -> str:
+    return " ".join(w if w.isupper() else w.capitalize() for w in str(name).split())
 
 
 def gemini_narrate_remedies(
@@ -880,97 +1425,130 @@ def gemini_narrate_remedies(
     extra_label: str = "",
 ) -> dict:
     """
-    Gemini receives the dataset-ranked remedy list.
-    Job: ONLY narrate/explain WHY each remedy fits.
-    Cannot add or remove remedies from the list.
+    Gemini receives the finished, dataset-ranked list plus the exact evidence behind it.
+    It may ONLY explain. Everything structural is rebuilt from the dataset afterwards.
     """
     lines = []
-    for cat in ("physical", "psychological", "general"):
+    for c in categorised.get("causation", []):
+        lines.append(f"[Causation] ailments from {c}")
+    for cat in ("psychological", "general", "physical"):
         for s in categorised.get(cat, []):
+            if s.get("unverified"):
+                continue
             worse  = ", ".join(s.get("worse",  [])) or "—"
             better = ", ".join(s.get("better", [])) or "—"
-            lines.append(f"[{cat.title()}] {s['symptom']} | ↓ {worse} | ↑ {better}")
+            lines.append(f"[{cat.title()}] {s['symptom']} | worse: {worse} | better: {better}")
 
-    remedy_list_str = "\n".join(
-        f"{i+1}. {r['name']} (dataset score={r['score']:.4f}, "
-        f"covers: {', '.join(r['symptoms_covered'][:5])})"
-        for i, r in enumerate(ranked_remedies)
-    )
+    remedy_blocks = []
+    for i, r in enumerate(ranked_remedies, 1):
+        ev = "; ".join(f"\"{e['patient']}\" ≈ dataset \"{e['dataset']}\" (sim {e['similarity']:.2f})"
+                       for e in r["evidence"][:6])
+        remedy_blocks.append(f"{i}. {r['name']} — covers {r['coverage']}/{r['total_items']} patient symptoms; "
+                             f"evidence: {ev}")
+    remedy_list_str = "\n".join(remedy_blocks)
 
-    mode_instruction = (
-        "Use classical case-analysis methodology referencing symptom totality and miasmatic background."
-        if mode == "case_studies"
-        else
-        "Use materia medica drug-picture methodology referencing keynotes and characteristic modalities."
-    )
+    system = f"""You explain the output of a dataset-driven homeopathic repertorisation program.
+The program has ALREADY decided the remedies, their order, and the miasm. You only write
+clear explanations for the practitioner.
 
-    system = f"""You are a classical homeopathic analyst. {mode_instruction}
-
-CRITICAL RULES:
-- The remedies below were ranked by a dataset scoring algorithm. You CANNOT change the order or add new remedies.
-- Your ONLY job is to explain WHY each remedy fits this specific patient's symptoms.
-- Reference actual symptoms from the case for every remedy.
-- Never suggest dosages or potencies.
-- Return ONLY valid JSON, no markdown, no preamble.
-
-JSON shape:
+How to write:
+- For each remedy, explain in at most 2 sentences why it scored, citing ONLY the evidence pairs
+  listed for it (patient symptom ≈ dataset symptom). Do not cite any other symptom or keynote.
+- If a remedy matched only on a few or weak items, say so.
+- caseEssence: 1–2 sentences naming the most characteristic features FROM THE PATIENT SYMPTOMS LIST,
+  including any causation and any contradictions between them.
+- differentiation: compare ONLY the listed remedies on the patient's own symptoms — which stated
+  symptoms favour #1 over #2 and #3, and which stated symptoms none of them cover well.
+- monitoringPoints: 3–5 of the patient's OWN stated symptoms to observe for change. No vital signs,
+  tests or medical targets.
+{AGENT_SAFEGUARDS}
+Return ONLY valid JSON, no markdown:
 {{
-  "primaryRemedy": {{
-    "name": "<rank 1 remedy name — copy exactly>",
-    "why": "Clinical paragraph explaining why this remedy fits this case.",
-    "keyIndications": ["patient symptom → this remedy keynote", "..."]
-  }},
-  "top10Remedies": [
-    {{
-      "rank": 1,
-      "name": "<copy from list>",
-      "role": "simillimum|complementary|intercurrent|acute|anti-miasmatic|constitutional",
-      "rationale": "Why this remedy fits — cite specific patient symptoms.",
-      "keySymptoms": ["patient symptom matched", "..."],
-      "datasetScore": 0.0
-    }}
-  ],
-  "miasmaticAnalysis": "Miasmatic background paragraph.",
-  "caseEssence": "Strange, rare, peculiar features pointing to the simillimum.",
-  "remedyRelationships": "Sequence plan — what follows what and why.",
-  "monitoringPoints": ["Observable sign to watch", "..."]
+  "caseEssence": "...",
+  "primaryWhy": "...",
+  "rationales": [{{"rank": 1, "rationale": "..."}}],
+  "differentiation": "...",
+  "monitoringPoints": ["..."]
 }}"""
 
-    patient_context = ""
-    if patient_details:
-        parts = []
-        if patient_details.get("name"):       parts.append(f"Name: {patient_details['name']}")
-        if patient_details.get("age"):        parts.append(f"Age: {patient_details['age']}")
-        if patient_details.get("gender"):     parts.append(f"Gender: {patient_details['gender']}")
-        if patient_details.get("occupation"): parts.append(f"Occupation: {patient_details['occupation']}")
-        if parts:
-            patient_context = "Patient details: " + " | ".join(parts) + "\n"
-
     prompt = (
-        f"Patient: {patient_id} {extra_label}\n"
-        f"{patient_context}"
-        f"Miasm: {categorised.get('miasm', 'unknown')}\n"
-        f"Summary: {categorised.get('clinical_summary', '')}\n"
-        f"Concomitants: {', '.join(categorised.get('concomitants', [])) or 'none'}\n\n"
-        f"Symptoms:\n" + "\n".join(lines) +
-        f"\n\nDATASET-RANKED REMEDIES (DO NOT CHANGE THIS LIST):\n{remedy_list_str}"
+        f"Patient: {patient_id} {extra_label}\n\n"
+        f"PATIENT SYMPTOMS (the only facts you may use):\n" + "\n".join(lines) +
+        f"\n\nDATASET-RANKED REMEDIES WITH EVIDENCE (final — do not change):\n{remedy_list_str}"
     )
 
     model = genai.GenerativeModel(model_name="gemini-3.1-flash-lite", system_instruction=system)
     response = model.generate_content(
         prompt,
-        generation_config=genai.GenerationConfig(temperature=0.2, max_output_tokens=4000),
+        generation_config=genai.GenerationConfig(temperature=0.1, max_output_tokens=4000),
     )
     raw = response.text.strip().lstrip("```json").lstrip("```").rstrip("```").strip()
-    result = json.loads(raw)
+    try:
+        g = json.loads(raw)
+    except json.JSONDecodeError:
+        g = {}
+    return assemble_report(categorised, ranked_remedies, g)
 
-    # Enforce dataset scores into top10Remedies regardless of what Gemini returned
-    name_to_score = {r["name"].lower(): r["score"] for r in ranked_remedies}
-    for entry in result.get("top10Remedies", []):
-        entry["datasetScore"] = round(
-            name_to_score.get(entry.get("name", "").lower(), 0.0), 6
-        )
-    return result
+
+def assemble_report(categorised: dict, ranked: list, g: dict) -> dict:
+    """Build the report from the dataset ranking; Gemini text is only slotted in after validation."""
+    _ensure_dataset()
+    universe = {rem for rems in _s2r_unified.values() for rem in rems}
+    banned = _remedy_name_patterns([r["name"] for r in ranked], universe)
+    removed: list = []
+
+    vocab = _patient_vocab(categorised)
+    by_rank = {}
+    for item in g.get("rationales", []) or []:
+        try:
+            by_rank[int(item.get("rank"))] = str(item.get("rationale", ""))
+        except (TypeError, ValueError):
+            continue
+
+    top10 = []
+    for i, r in enumerate(ranked, 1):
+        auto = "Matched in dataset: " + "; ".join(
+            f"{e['patient']} ≈ “{e['dataset']}”" for e in r["evidence"][:3]) + "."
+        text = keep_evidenced(sanitise_text(by_rank.get(i, ""), banned, removed),
+                              r["evidence"], vocab, removed) or auto
+        top10.append({
+            "rank": i,
+            "name": _title(r["name"]),
+            "role": f"covers {r['coverage']}/{r['total_items']}",
+            "rationale": text,
+            "keySymptoms": [e["patient"] for e in r["evidence"][:4]],
+            "evidence": r["evidence"],
+            "datasetScore": r["score"],
+            "coverage": r["coverage"],
+            "totalItems": r["total_items"],
+        })
+
+    pr = ranked[0]
+    primary_why = keep_evidenced(sanitise_text(g.get("primaryWhy", ""), banned, removed),
+                                 pr["evidence"], vocab, removed) or top10[0]["rationale"]
+    mon = [sanitise_text(m, banned, removed) for m in (g.get("monitoringPoints") or [])]
+    mon = [m for m in mon if m and not _re.search(r"heart rate|blood pressure|ecg|pulse|bpm|test", m, _re.I)]
+
+    miasm = categorised.get("miasm_detail") or assess_miasm(categorised)
+    return {
+        "primaryRemedy": {
+            "name": _title(pr["name"]),
+            "why": primary_why,
+            "keyIndications": [f"{e['patient']} → dataset: “{e['dataset']}”" for e in pr["evidence"][:5]],
+        },
+        "top10Remedies": top10,
+        "miasmaticAnalysis": miasm["text"],
+        "miasmLabel": miasm["label"],
+        "caseEssence": sanitise_text(g.get("caseEssence", ""), banned, removed)
+                       or categorised.get("clinical_summary", ""),
+        "remedyRelationships": sanitise_text(g.get("differentiation", ""), banned, removed),
+        "monitoringPoints": mon,
+        "redFlags": categorised.get("red_flags", []),
+        "unverifiedSymptoms": categorised.get("unverified", []),
+        "_removed": sorted(set(removed)),
+        "_method": "Remedies, order, scores and miasm are computed from the dataset and rubric; "
+                   "text explanations are AI-written and filtered.",
+    }
 
 
 def gemini_report(patient_id: str, categorised: dict, patient_details: dict = None,
@@ -978,32 +1556,38 @@ def gemini_report(patient_id: str, categorised: dict, patient_details: dict = No
     """
     Entry point for all tabs.
     Step 1: rank remedies purely from dataset (_s2r_unified).
-    Step 2: Gemini narrates WHY — no remedy name invention.
+    Step 2: Gemini explains — validated and rebuilt around the dataset ranking.
     """
-    _ensure_dataset()  # guarantee dataset loaded before ranking
+    _ensure_dataset()
+    categorised = refresh_derived(categorised)
     ranked = rank_remedies_from_dataset(categorised, _s2r_unified, top_n=10)
 
     if not ranked:
+        miasm = categorised.get("miasm_detail") or assess_miasm(categorised)
         return {
             "top10Remedies": [],
             "primaryRemedy": {
                 "name": "No dataset match",
-                "why": "No remedies found in dataset for these symptoms.",
+                "why": "No remedies in the dataset matched these symptoms closely enough. "
+                       "Rephrase symptoms closer to repertory language or expand the dataset.",
                 "keyIndications": [],
             },
-            "miasmaticAnalysis": "",
-            "caseEssence": "No matching symptoms found in loaded datasets.",
+            "miasmaticAnalysis": miasm["text"],
+            "caseEssence": categorised.get("clinical_summary", ""),
             "remedyRelationships": "",
             "monitoringPoints": [],
+            "redFlags": categorised.get("red_flags", []),
             "_warning": "No remedies matched in dataset.",
         }
 
-    return gemini_narrate_remedies(
-        patient_id, categorised, ranked,
-        patient_details=patient_details,
-        mode=mode,
-        extra_label=extra_label,
-    )
+    try:
+        return gemini_narrate_remedies(
+            patient_id, categorised, ranked,
+            patient_details=patient_details, mode=mode, extra_label=extra_label,
+        )
+    except Exception:
+        # Explanation is optional — the dataset decision stands without it.
+        return assemble_report(categorised, ranked, {})
 
 
 def gemini_comparative_summary(report_base: dict, report_enhanced: dict) -> str:
@@ -1016,7 +1600,10 @@ Write a concise clinical paragraph (150-200 words) summarising:
 - Whether the added symptoms strengthened or changed the prescription
 - Clinical recommendation: does adding the suggested symptoms materially improve the case analysis?
 
+Only compare the remedies named below; never introduce another remedy, potency, dose or new symptom.
+{AGENT_SAFEGUARDS}
 Return plain text only. No JSON. No headers."""
+    system = system.replace("{AGENT_SAFEGUARDS}", AGENT_SAFEGUARDS)
     base_top10    = [r["name"] for r in report_base.get("top10Remedies", [])]
     enhanced_top10 = [r["name"] for r in report_enhanced.get("top10Remedies", [])]
     prompt = (
@@ -1080,23 +1667,52 @@ def build_pdf(patient_id: str, categorised: dict, report: dict,
         HRFlowable(width="100%", thickness=0.5, color=colors.HexColor("#ddd"), spaceAfter=14),
     ]
 
+    cell_s = S("Cl", fontSize=8, textColor=colors.HexColor("#222"), leading=10)
+    head_s = S("Hd", fontSize=8, fontName="Helvetica-Bold", textColor=colors.white, leading=10)
+    flag_t = S("FT", fontSize=12, fontName="Helvetica-Bold", textColor=colors.HexColor("#b91c1c"), spaceAfter=4)
+    flag_b = S("FB", fontSize=9.5, textColor=colors.HexColor("#7f1d1d"), leading=13, spaceAfter=3)
+
+    def P(text, style=None):
+        return Paragraph(_html.escape(str(text or "")), style or cell_s)
+
+    def _red_flag_box(flags: list) -> list:
+        if not flags:
+            return []
+        inner = [Paragraph("SEEK URGENT MEDICAL CARE", flag_t),
+                 Paragraph("This case contains warning signs that need conventional medical assessment first. "
+                           "This plan must not delay it.", flag_b)]
+        inner += [Paragraph(f"<b>{_html.escape(f['title'])}.</b> {_html.escape(f['advice'])}", flag_b) for f in flags]
+        box = Table([[inner]], colWidths=[6.4 * inch])
+        box.setStyle(TableStyle([
+            ("BOX", (0, 0), (-1, -1), 1.5, colors.HexColor("#dc2626")),
+            ("BACKGROUND", (0, 0), (-1, -1), colors.HexColor("#fef2f2")),
+            ("LEFTPADDING", (0, 0), (-1, -1), 10), ("RIGHTPADDING", (0, 0), (-1, -1), 10),
+            ("TOPPADDING", (0, 0), (-1, -1), 8), ("BOTTOMPADDING", (0, 0), (-1, -1), 8),
+        ]))
+        return [box, Spacer(1, 12)]
+
     def _add_report_section(elems_ref: list, rpt: dict, cat: dict, section_label: str):
         """Inner fn receives elems_ref explicitly — no closure rebind issue."""
         elems_ref.append(Paragraph(section_label, h2_s))
+        elems_ref.extend(_red_flag_box(rpt.get("redFlags") or cat.get("red_flags") or []))
         elems_ref.append(Paragraph("CASE ESSENCE", label_s))
-        elems_ref.append(Paragraph(rpt.get("caseEssence", ""), body_s))
-        elems_ref.append(Paragraph("MIASMATIC PICTURE", label_s))
-        elems_ref.append(Paragraph(rpt.get("miasmaticAnalysis", ""), body_s))
+        elems_ref.append(P(rpt.get("caseEssence", ""), body_s))
+        elems_ref.append(Paragraph("MIASM (RUBRIC-BASED)", label_s))
+        elems_ref.append(P(rpt.get("miasmaticAnalysis", ""), body_s))
 
         # Symptom table
         elems_ref.append(Paragraph("SYMPTOM SUMMARY", label_s))
-        rows = [["Category", "Symptom", "↓ Worse", "↑ Better"]]
-        for c in ("physical", "psychological", "general"):
+        rows = [[P("Category", head_s), P("Symptom", head_s), P("Worse", head_s), P("Better", head_s)]]
+        for c in cat.get("causation", []):
+            rows.append([P("Causation"), P(f"Ailments from {c}"), P("—"), P("—")])
+        for c in ("psychological", "general", "physical"):
             for s in cat.get(c, []):
+                if s.get("unverified"):
+                    continue
                 rows.append([
-                    c.title(), s["symptom"][:60],
-                    ", ".join(s.get("worse", []))[:40] or "—",
-                    ", ".join(s.get("better", []))[:40] or "—",
+                    P(c.title()), P(s["symptom"]),
+                    P(", ".join(s.get("worse", [])) or "—"),
+                    P(", ".join(s.get("better", [])) or "—"),
                 ])
         if len(rows) > 1:
             t = Table(rows, colWidths=[1*inch, 2.4*inch, 1.5*inch, 1.5*inch])
@@ -1119,13 +1735,13 @@ def build_pdf(patient_id: str, categorised: dict, report: dict,
         pr = rpt.get("primaryRemedy", {})
         elems_ref.append(Paragraph("TOP 10 REMEDIES", label_s))
         if top10:
-            rem_rows = [["#", "Remedy", "Role", "Key Rationale"]]
+            rem_rows = [[P("#", head_s), P("Remedy", head_s), P("Coverage", head_s), P("Why it ranked", head_s)]]
             for i, r in enumerate(top10, 1):
                 rem_rows.append([
-                    str(i),
-                    r.get("name", ""),
-                    r.get("role", ""),
-                    r.get("rationale", "")[:80],
+                    P(i),
+                    P(r.get("name", "")),
+                    P(r.get("role", "")),
+                    P(r.get("rationale", "")),
                 ])
             rt = Table(rem_rows, colWidths=[0.3*inch, 1.4*inch, 1.1*inch, 3.6*inch])
             rt.setStyle(TableStyle([
@@ -1150,20 +1766,23 @@ def build_pdf(patient_id: str, categorised: dict, report: dict,
             ])
 
         if pr.get("keyIndications"):
-            elems_ref.append(Paragraph("Key indications in this case:", small_s))
+            elems_ref.append(Paragraph("Dataset matches for the top remedy:", small_s))
             for ind in pr["keyIndications"]:
-                elems_ref.append(Paragraph(f"• {ind}", bullet_s))
+                elems_ref.append(P(f"• {ind}", bullet_s))
         if pr.get("followedBy"):
             elems_ref.append(Paragraph(f"Followed well by: {', '.join(pr['followedBy'])}", small_s))
         elems_ref.append(Spacer(1, 10))
 
         if rpt.get("remedyRelationships"):
-            elems_ref.extend([Paragraph("REMEDY SEQUENCE", label_s), Paragraph(rpt["remedyRelationships"], body_s)])
+            elems_ref.extend([Paragraph("HOW THE TOP REMEDIES DIFFER", label_s), P(rpt["remedyRelationships"], body_s)])
         mon = rpt.get("monitoringPoints", [])
         if mon:
             elems_ref.append(Paragraph("MONITORING POINTS", label_s))
             for pt in mon:
-                elems_ref.append(Paragraph(f"• {pt}", bullet_s))
+                elems_ref.append(P(f"• {pt}", bullet_s))
+        elems_ref.append(Paragraph(
+            "Remedies, order, scores and miasm were computed from the HoRUS dataset and rubric; "
+            "explanations are AI-written and filtered.", small_s))
 
     # Base report
     _add_report_section(elems, report, categorised, "A. Original Symptom Analysis")
@@ -1328,7 +1947,8 @@ def gemini_transcribe(audio_bytes: bytes, mime: str = "audio/wav") -> str:
         [
             "Transcribe this patient's spoken answer to a doctor's question. "
             "If the speech is not in English (e.g. Bengali or Hindi), translate it faithfully into English. "
-            "Return only the transcribed text — no labels, no commentary.",
+            "Return only the transcribed text — no labels, no commentary. Do not add, guess, "
+            "summarise or correct anything the patient did not say; mark unclear words as [unclear].",
             {"mime_type": mime or "audio/wav", "data": audio_bytes},
         ],
         generation_config=genai.GenerationConfig(temperature=0.0, max_output_tokens=1500),
@@ -1343,7 +1963,9 @@ def gemini_followups(answers_text: str) -> list:
         "ONLY a JSON array (no markdown) of at most 3 short, simple follow-up questions that would "
         "clarify missing details: modalities (what makes it worse/better), the exact sensation, "
         "timing, or the emotional state. Use plain, friendly language with no medical jargon. "
-        "Do not repeat questions already answered. If nothing important is missing, return []."
+        "Do not repeat questions already answered. If nothing important is missing, return []. "
+        "Ask only about things the patient raised; never suggest a diagnosis, remedy or cause, "
+        "and never put words in the patient's mouth (no leading questions)."
     )
     model = genai.GenerativeModel(model_name="gemini-3.1-flash-lite", system_instruction=system)
     response = model.generate_content(
@@ -1651,6 +2273,8 @@ for k, v in defaults.items():
 
 if not st.session_state.patient_id:
     st.session_state.patient_id = next_patient_id()
+    # an ID chosen while the patients file was unreadable may collide with an existing patient
+    st.session_state.pid_provisional = bool(st.session_state.get("gh_file_broken"))
 
 # ─────────────────────────────────────────────
 # STARTUP CHECKS
@@ -1933,13 +2557,27 @@ with tab_intake:
                 unsafe_allow_html=True,
             )
 
+        render_red_flags(cat.get("red_flags", []))
+
+        if cat.get("causation"):
+            st.markdown('<div class="section-label">Causation (ailments from)</div>', unsafe_allow_html=True)
+            st.markdown(sym_tags(cat["causation"], "sym-tag sym-worse"), unsafe_allow_html=True)
+
         meta_cols = st.columns(2)
         with meta_cols[0]:
             if cat.get("miasm"):
-                st.markdown(f'<span class="sym-tag" style="background:#f0f0f0">Miasm: {cat["miasm"]}</span>', unsafe_allow_html=True)
+                st.markdown(f'<span class="sym-tag">Miasm (rubric): {_html.escape(cat["miasm"])}</span>',
+                            unsafe_allow_html=True)
         with meta_cols[1]:
             if cat.get("concomitants"):
-                st.markdown(f'<span style="font-size:0.8rem;color:#777">Concomitants: {", ".join(cat["concomitants"])}</span>', unsafe_allow_html=True)
+                st.markdown(f'<span style="font-size:1rem;color:#64748b">Concomitants: '
+                            f'{_html.escape(", ".join(cat["concomitants"]))}</span>', unsafe_allow_html=True)
+
+        if cat.get("unverified"):
+            st.warning(
+                "These items could not be found in the patient's words and are **excluded from the analysis** "
+                "unless you keep them below: " + "; ".join(cat["unverified"])
+            )
 
         st.markdown('<div style="margin-top:1rem"></div>', unsafe_allow_html=True)
         render_symptom_category("Physical",      cat.get("physical",      []))
@@ -1956,13 +2594,25 @@ with tab_intake:
                     sym = c1.text_input("Symptom", value=s["symptom"], key=f"edit_{cat_key}_{idx}_sym", label_visibility="collapsed")
                     w   = c2.text_input("↓ Worse",  value=", ".join(s.get("worse",  [])), key=f"edit_{cat_key}_{idx}_w",   label_visibility="collapsed")
                     b   = c3.text_input("↑ Better", value=", ".join(s.get("better", [])), key=f"edit_{cat_key}_{idx}_b",   label_visibility="collapsed")
-                    edited.append({
+                    item = {
                         "symptom": sym,
                         "worse":  [x.strip() for x in w.split(",") if x.strip()],
                         "better": [x.strip() for x in b.split(",") if x.strip()],
-                    })
+                    }
+                    if s.get("unverified"):
+                        keep = st.checkbox(f"Keep “{s['symptom']}” (not found in the patient's words)",
+                                           key=f"edit_{cat_key}_{idx}_keep")
+                        if not keep:
+                            item["unverified"] = True
+                    edited.append(item)
                 cat[cat_key] = edited
-            st.session_state.categorised = cat
+            st.markdown("**Causation (ailments from)**")
+            cz = st.text_input("Causation", value=", ".join(cat.get("causation", [])), key="edit_causation",
+                               label_visibility="collapsed")
+            cat["causation"] = [x.strip() for x in cz.split(",") if x.strip()]
+            cat["unverified"] = [s["symptom"] for k in ("physical", "psychological", "general")
+                                 for s in cat.get(k, []) if s.get("unverified")]
+            st.session_state.categorised = refresh_derived(cat)
 
         st.markdown('<hr style="margin:1.5rem 0">', unsafe_allow_html=True)
         btn_col1, btn_col2 = st.columns([1, 3])
@@ -2011,6 +2661,7 @@ with tab_intake:
                     "patient_details": pt_det,
                     "analysis_mode":   st.session_state.analysis_mode,
                 })
+                pid = st.session_state.patient_id      # may have been reassigned by save_case
                 if pt_det.get("name") or pt_det.get("age"):
                     save_patient_details(pid, pt_det)
             if ok:
@@ -2037,6 +2688,12 @@ with tab_intake:
 
         st.markdown("## Treatment Plan")
 
+        render_red_flags(rpt.get("redFlags", []))
+        st.caption("Remedies, their order and the miasm are computed from the dataset and rubric. "
+                   "The written explanations are AI-generated and filtered.")
+        if rpt.get("_removed"):
+            st.caption("Removed from the AI explanation: " + "; ".join(rpt["_removed"]) + ".")
+
         if rpt.get("caseEssence"):
             st.markdown(
                 f'<div class="info-box" style="border-left:4px solid #2563eb;padding-left:1rem">'
@@ -2045,8 +2702,9 @@ with tab_intake:
             )
 
         if rpt.get("miasmaticAnalysis"):
-            st.markdown('<div class="section-label">Miasmatic picture</div>', unsafe_allow_html=True)
-            st.markdown(f'<p style="font-size:0.9rem;color:#333;line-height:1.7">{rpt["miasmaticAnalysis"]}</p>', unsafe_allow_html=True)
+            st.markdown('<div class="section-label">Miasm (rubric-based)</div>', unsafe_allow_html=True)
+            st.markdown(f'<p style="color:#334155;line-height:1.7">{_html.escape(rpt["miasmaticAnalysis"])}</p>',
+                        unsafe_allow_html=True)
 
         pr = rpt.get("primaryRemedy", {})
         top10 = rpt.get("top10Remedies", [])
@@ -2106,8 +2764,16 @@ with tab_intake:
                         unsafe_allow_html=True,
                     )
 
+        if any(r.get("evidence") for r in top10):
+            with st.expander("🔎  Dataset evidence behind each remedy"):
+                for r in top10:
+                    st.markdown(f"**#{r['rank']} {r['name']}** — score {r.get('datasetScore', 0):.3f}, "
+                                f"covers {r.get('coverage', 0)}/{r.get('totalItems', 0)} patient symptoms")
+                    for e in r.get("evidence", [])[:8]:
+                        st.markdown(f"- {e['patient']}  →  “{e['dataset']}”  (similarity {e['similarity']:.2f})")
+
         if rpt.get("remedyRelationships"):
-            st.markdown('<div class="section-label">Remedy sequence & relationships</div>', unsafe_allow_html=True)
+            st.markdown('<div class="section-label">How the top remedies differ</div>', unsafe_allow_html=True)
             st.markdown(f'<p style="font-size:0.9rem;color:#333;line-height:1.7">{rpt["remedyRelationships"]}</p>', unsafe_allow_html=True)
 
         mon = rpt.get("monitoringPoints", [])
@@ -2187,7 +2853,7 @@ with tab_patients:
             patient_rows.append({
                 "pid": pid, "name": details.get("name", ""), "age": details.get("age", ""),
                 "gender": details.get("gender", ""),
-                "last_visit": cases[-1]["timestamp"] if cases else "—",
+                "last_visit": cases[-1].get("timestamp", "—") if cases else "—",
                 "total_cases": len(cases),
                 "last_remedy": (cases[-1].get("top_remedies", ["—"])[0] if cases else "—"),
                 "last_mode": cases[-1].get("analysis_mode", "") if cases else "",
