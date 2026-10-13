@@ -358,6 +358,61 @@
           "contact": ""
         },
         "analysis_mode": "materia_medica"
+      },
+      {
+        "timestamp": "2026-10-13 12:06",
+        "raw_symptoms": "Epilepsy",
+        "categorised": {
+          "physical": [
+            {
+              "symptom": "Epilepsy",
+              "worse": [],
+              "better": []
+            }
+          ],
+          "psychological": [],
+          "general": [],
+          "case_modalities": {
+            "worse": [],
+            "better": []
+          },
+          "causation": [],
+          "concomitants": [],
+          "clinical_summary": "The patient reports a history of epilepsy.",
+          "unverified": [],
+          "miasm": "Provisional: Undetermined",
+          "miasm_detail": {
+            "label": "Provisional: Undetermined",
+            "scores": {
+              "psora": 0,
+              "sycosis": 0,
+              "syphilis": 0,
+              "tubercular": 0
+            },
+            "evidence": {
+              "psora": [],
+              "sycosis": [],
+              "syphilis": [],
+              "tubercular": []
+            },
+            "provisional": true,
+            "text": "Provisional: Undetermined — confirm from chronic, past and family history."
+          },
+          "red_flags": [],
+          "_raw_text": "Epilepsy"
+        },
+        "top_remedies": [
+          "Cicuta Virosa"
+        ],
+        "clinical_notes": "The patient presents with a single symptom of epilepsy, with no reported modalities or associated factors.",
+        "patient_details": {
+          "name": "Soham Satpati",
+          "age": "",
+          "gender": "",
+          "occupation": "",
+          "contact": ""
+        },
+        "analysis_mode": "materia_medica"
       }
     ]
   }
