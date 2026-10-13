@@ -141,7 +141,11 @@
   },
   "PT-2026-003": {
     "details": {
-      "name": "Research Scholar"
+      "name": "Research Scholar",
+      "age": "",
+      "gender": "",
+      "occupation": "",
+      "contact": ""
     },
     "cases": [
       {
