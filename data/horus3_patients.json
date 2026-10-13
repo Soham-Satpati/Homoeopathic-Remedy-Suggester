@@ -138,5 +138,86 @@
         "analysis_mode": "materia_medica"
       }
     ]
+  },
+  "PT-2026-003": {
+    "details": {
+      "name": "Research Scholar"
+    },
+    "cases": [],
+    "intakes": [
+      {
+        "id": "c5431acd",
+        "timestamp": "2026-10-13 05:43",
+        "qa": [
+          {
+            "question": "What is the main problem that is troubling you?",
+            "label": "Main complaint",
+            "answer": "I have a headache and I am feeling very restless."
+          },
+          {
+            "question": "When did it start, and was anything happening in your life around that time?",
+            "label": "Onset",
+            "answer": ""
+          },
+          {
+            "question": "Where exactly do you feel it, and what does it feel like?",
+            "label": "Location & sensation",
+            "answer": ""
+          },
+          {
+            "question": "What makes it worse?",
+            "label": "Worse from",
+            "answer": ""
+          },
+          {
+            "question": "What makes it better?",
+            "label": "Better from",
+            "answer": ""
+          },
+          {
+            "question": "How have you been feeling emotionally lately?",
+            "label": "Mind & emotions",
+            "answer": ""
+          },
+          {
+            "question": "How is your sleep?",
+            "label": "Sleep",
+            "answer": ""
+          },
+          {
+            "question": "Tell us about your appetite, thirst, and any food cravings or dislikes.",
+            "label": "Appetite, thirst & cravings",
+            "answer": ""
+          },
+          {
+            "question": "Are you generally a warm person or a chilly person?",
+            "label": "Temperature",
+            "answer": ""
+          },
+          {
+            "question": "Is there anything else you would like the doctor to know?",
+            "label": "Other information",
+            "answer": ""
+          },
+          {
+            "question": "Where exactly in your head do you feel the pain?",
+            "label": "Follow-up 1",
+            "answer": ""
+          },
+          {
+            "question": "What does the pain feel like, for example, is it throbbing, pressing, or sharp?",
+            "label": "Follow-up 2",
+            "answer": ""
+          },
+          {
+            "question": "Does anything specific make the headache or your restlessness feel better or worse?",
+            "label": "Follow-up 3",
+            "answer": ""
+          }
+        ],
+        "raw_text": "Main complaint: I have a headache and I am feeling very restless.",
+        "status": "pending"
+      }
+    ]
   }
 }
