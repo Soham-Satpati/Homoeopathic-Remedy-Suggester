@@ -296,7 +296,13 @@
     ]
   },
   "PT-2026-004": {
-    "details": {},
+    "details": {
+      "name": "Soham Satpati",
+      "age": "",
+      "gender": "",
+      "occupation": "",
+      "contact": ""
+    },
     "cases": [
       {
         "timestamp": "2026-10-13 12:06",
