@@ -1238,7 +1238,8 @@ def assess_miasm(cat: dict, raw_text: str = "") -> dict:
 
 
 # ── 4. REMEDY RANKING (dataset only) ────────────────────────────
-CATEGORY_WEIGHTS = {"causation": 3.0, "psychological": 2.0, "general": 1.5, "physical": 1.0}
+CATEGORY_WEIGHTS = {"causation": 0.0,   # 0 = causes are recorded but do not affect ranking
+                    "psychological": 2.0, "general": 1.5, "physical": 1.0}
 MODALITY_WEIGHT  = 0.6      # modality items count a bit less than the symptom itself
 MATCH_TOP_K      = 8        # dataset entries considered per patient item
 MATCH_MIN_SIM    = 0.55     # semantic similarity threshold (0-1)
@@ -1257,7 +1258,7 @@ def _build_query_items(categorised: dict) -> list:
     attached to many symptoms still counts only once.
     """
     q = []
-    for c in categorised.get("causation", []):
+    for c in (categorised.get("causation", []) if CATEGORY_WEIGHTS["causation"] > 0 else []):
         core = _re.sub(r"^(ailments? from|after|since)\s+", "", c.strip(), flags=_re.I)
         g = f"cause:{c.lower()}"
         w = CATEGORY_WEIGHTS["causation"]
@@ -1801,8 +1802,6 @@ def build_pdf(patient_id: str, categorised: dict, report: dict,
         # Symptom table
         elems_ref.append(Paragraph("SYMPTOM SUMMARY", label_s))
         rows = [[P("Category", head_s), P("Symptom", head_s), P("Worse", head_s), P("Better", head_s)]]
-        for c in cat.get("causation", []):
-            rows.append([P("Causation"), P(f"Ailments from {c}"), P("—"), P("—")])
         _cm = cat.get("case_modalities") or {}
         if _cm.get("worse") or _cm.get("better"):
             rows.append([P("Whole case"), P("All complaints"),
@@ -2659,10 +2658,6 @@ with tab_intake:
                 unsafe_allow_html=True,
             )
 
-        if cat.get("causation"):
-            st.markdown('<div class="section-label">Causation (ailments from)</div>', unsafe_allow_html=True)
-            st.markdown(sym_tags(cat["causation"], "sym-tag sym-worse"), unsafe_allow_html=True)
-
         meta_cols = st.columns(2)
         with meta_cols[0]:
             if cat.get("miasm"):
@@ -2712,10 +2707,6 @@ with tab_intake:
                             item["unverified"] = True
                     edited.append(item)
                 cat[cat_key] = edited
-            st.markdown("**Causation (ailments from)**")
-            cz = st.text_input("Causation", value=", ".join(cat.get("causation", [])), key="edit_causation",
-                               label_visibility="collapsed")
-            cat["causation"] = [x.strip() for x in cz.split(",") if x.strip()]
             st.markdown("**Whole case modalities**")
             _cm = cat.get("case_modalities") or {}
             mc1, mc2 = st.columns(2)
