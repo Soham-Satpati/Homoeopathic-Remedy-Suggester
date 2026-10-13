@@ -143,7 +143,77 @@
     "details": {
       "name": "Research Scholar"
     },
-    "cases": [],
+    "cases": [
+      {
+        "timestamp": "2026-10-13 05:44",
+        "raw_symptoms": "Main complaint: I have a headache and I am feeling very restless.",
+        "categorised": {
+          "physical": [
+            {
+              "symptom": "headache",
+              "worse": [],
+              "better": []
+            }
+          ],
+          "psychological": [
+            {
+              "symptom": "restless",
+              "worse": [],
+              "better": []
+            }
+          ],
+          "general": [],
+          "case_modalities": {
+            "worse": [],
+            "better": []
+          },
+          "causation": [],
+          "concomitants": [],
+          "clinical_summary": "The patient reports experiencing a headache accompanied by feelings of restlessness.",
+          "unverified": [],
+          "miasm": "Provisional: Tubercular (predominant)",
+          "miasm_detail": {
+            "label": "Provisional: Tubercular (predominant)",
+            "scores": {
+              "psora": 0,
+              "sycosis": 0,
+              "syphilis": 0,
+              "tubercular": 1
+            },
+            "evidence": {
+              "psora": [],
+              "sycosis": [],
+              "syphilis": [],
+              "tubercular": [
+                "restless  [restless]"
+              ]
+            },
+            "provisional": true,
+            "text": "Provisional: Tubercular (predominant) — confirm from chronic, past and family history."
+          },
+          "red_flags": [],
+          "_raw_text": "Main complaint: I have a headache and I am feeling very restless."
+        },
+        "top_remedies": [
+          "Ammonium Carbonicum",
+          "Niccolum",
+          "Magnesia Carbonica",
+          "Stramonium",
+          "Sticta Pulmonaria",
+          "Zincum",
+          "Causticum"
+        ],
+        "clinical_notes": "The patient presents with a combination of restlessness and headache, with no specific modalities or causative factors reported.",
+        "patient_details": {
+          "name": "Research Scholar",
+          "age": "",
+          "gender": "",
+          "occupation": "",
+          "contact": ""
+        },
+        "analysis_mode": "case_studies"
+      }
+    ],
     "intakes": [
       {
         "id": "c5431acd",
