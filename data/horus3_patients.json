@@ -216,7 +216,8 @@
           }
         ],
         "raw_text": "Main complaint: I have a headache and I am feeling very restless.",
-        "status": "pending"
+        "status": "loaded",
+        "reviewed_at": "2026-10-13 05:43"
       }
     ]
   }
