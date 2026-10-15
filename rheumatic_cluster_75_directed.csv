@@ -1,0 +1,1454 @@
+### Cluster 75 — Symptoms (38)
+Symptom,Frequency
+sexual debility,1
+gouty swelling of finger joints,1
+debauched patients,1
+hard pressure in right upper arm worse motion,1
+tearing in toe joints worse walking,1
+inflammatory rheumatic swelling,1
+prematurely old,1
+rending in joints especially small joints,1
+weak sexual power,1
+hard pressure in right axilla worse touch,1
+fine lancinations in right hip joint,1
+cracking noise in vertebrae,1
+gouty swelling of small joints,1
+tearing in foot joints worse walking,1
+absent-mindedness,1
+stitches left side near sacrum,1
+indifference,1
+rending in toe joints worse walking,1
+swollen thighs toward evening,1
+acute sharp stitches in coccyx,1
+rheumatism in feet,2
+comprehension difficulty,1
+hard pressure in right upper arm worse touch,1
+rheumatism of hands,1
+tearing in joints especially small joints,1
+sticking in great toe,1
+tired thighs toward evening,1
+tearing pain in finger joints,1
+prematurely old patients,1
+fine lancinations in soles,1
+sticking in legs,1
+impatience,1
+pain in left hip better rest,1
+hard pressure in right axilla worse motion,1
+memory loss,1
+rending in foot joints worse walking,1
+prostatic fluid discharge,1
+stitches left side near coccyx,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+agnus castus,38
+manganum,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+tearing in toe joints worse walking,sexual debility,1.0,1
+tearing in toe joints worse walking,gouty swelling of finger joints,1.0,1
+tearing in toe joints worse walking,debauched patients,1.0,1
+tearing in toe joints worse walking,hard pressure in right upper arm worse motion,1.0,1
+tearing in toe joints worse walking,inflammatory rheumatic swelling,1.0,1
+tearing in toe joints worse walking,prematurely old,1.0,1
+tearing in toe joints worse walking,rending in joints especially small joints,1.0,1
+tearing in toe joints worse walking,weak sexual power,1.0,1
+tearing in toe joints worse walking,hard pressure in right axilla worse touch,1.0,1
+tearing in toe joints worse walking,fine lancinations in right hip joint,1.0,1
+tearing in toe joints worse walking,cracking noise in vertebrae,1.0,1
+tearing in toe joints worse walking,gouty swelling of small joints,1.0,1
+tearing in toe joints worse walking,tearing in foot joints worse walking,1.0,1
+tearing in toe joints worse walking,absent-mindedness,1.0,1
+tearing in toe joints worse walking,stitches left side near sacrum,1.0,1
+tearing in toe joints worse walking,indifference,1.0,1
+tearing in toe joints worse walking,rending in toe joints worse walking,1.0,1
+tearing in toe joints worse walking,swollen thighs toward evening,1.0,1
+tearing in toe joints worse walking,acute sharp stitches in coccyx,1.0,1
+tearing in toe joints worse walking,rheumatism in feet,1.0,1
+tearing in toe joints worse walking,comprehension difficulty,1.0,1
+tearing in toe joints worse walking,hard pressure in right upper arm worse touch,1.0,1
+tearing in toe joints worse walking,rheumatism of hands,1.0,1
+tearing in toe joints worse walking,tearing in joints especially small joints,1.0,1
+tearing in toe joints worse walking,sticking in great toe,1.0,1
+tearing in toe joints worse walking,tired thighs toward evening,1.0,1
+tearing in toe joints worse walking,tearing pain in finger joints,1.0,1
+tearing in toe joints worse walking,prematurely old patients,1.0,1
+tearing in toe joints worse walking,fine lancinations in soles,1.0,1
+tearing in toe joints worse walking,sticking in legs,1.0,1
+tearing in toe joints worse walking,impatience,1.0,1
+tearing in toe joints worse walking,pain in left hip better rest,1.0,1
+tearing in toe joints worse walking,hard pressure in right axilla worse motion,1.0,1
+tearing in toe joints worse walking,memory loss,1.0,1
+tearing in toe joints worse walking,rending in foot joints worse walking,1.0,1
+tearing in toe joints worse walking,prostatic fluid discharge,1.0,1
+tearing in toe joints worse walking,stitches left side near coccyx,1.0,1
+rending in foot joints worse walking,sexual debility,1.0,1
+rending in foot joints worse walking,gouty swelling of finger joints,1.0,1
+rending in foot joints worse walking,debauched patients,1.0,1
+rending in foot joints worse walking,hard pressure in right upper arm worse motion,1.0,1
+rending in foot joints worse walking,tearing in toe joints worse walking,1.0,1
+rending in foot joints worse walking,inflammatory rheumatic swelling,1.0,1
+rending in foot joints worse walking,prematurely old,1.0,1
+rending in foot joints worse walking,rending in joints especially small joints,1.0,1
+rending in foot joints worse walking,weak sexual power,1.0,1
+rending in foot joints worse walking,hard pressure in right axilla worse touch,1.0,1
+rending in foot joints worse walking,fine lancinations in right hip joint,1.0,1
+rending in foot joints worse walking,cracking noise in vertebrae,1.0,1
+rending in foot joints worse walking,gouty swelling of small joints,1.0,1
+rending in foot joints worse walking,tearing in foot joints worse walking,1.0,1
+rending in foot joints worse walking,absent-mindedness,1.0,1
+rending in foot joints worse walking,stitches left side near sacrum,1.0,1
+rending in foot joints worse walking,indifference,1.0,1
+rending in foot joints worse walking,rending in toe joints worse walking,1.0,1
+rending in foot joints worse walking,swollen thighs toward evening,1.0,1
+rending in foot joints worse walking,acute sharp stitches in coccyx,1.0,1
+rending in foot joints worse walking,rheumatism in feet,1.0,1
+rending in foot joints worse walking,comprehension difficulty,1.0,1
+rending in foot joints worse walking,hard pressure in right upper arm worse touch,1.0,1
+rending in foot joints worse walking,rheumatism of hands,1.0,1
+rending in foot joints worse walking,tearing in joints especially small joints,1.0,1
+rending in foot joints worse walking,sticking in great toe,1.0,1
+rending in foot joints worse walking,tired thighs toward evening,1.0,1
+rending in foot joints worse walking,tearing pain in finger joints,1.0,1
+rending in foot joints worse walking,prematurely old patients,1.0,1
+rending in foot joints worse walking,fine lancinations in soles,1.0,1
+rending in foot joints worse walking,sticking in legs,1.0,1
+rending in foot joints worse walking,impatience,1.0,1
+rending in foot joints worse walking,pain in left hip better rest,1.0,1
+rending in foot joints worse walking,hard pressure in right axilla worse motion,1.0,1
+rending in foot joints worse walking,memory loss,1.0,1
+rending in foot joints worse walking,prostatic fluid discharge,1.0,1
+rending in foot joints worse walking,stitches left side near coccyx,1.0,1
+indifference,sexual debility,1.0,1
+indifference,gouty swelling of finger joints,1.0,1
+indifference,debauched patients,1.0,1
+indifference,hard pressure in right upper arm worse motion,1.0,1
+indifference,tearing in toe joints worse walking,1.0,1
+indifference,inflammatory rheumatic swelling,1.0,1
+indifference,prematurely old,1.0,1
+indifference,rending in joints especially small joints,1.0,1
+indifference,weak sexual power,1.0,1
+indifference,hard pressure in right axilla worse touch,1.0,1
+indifference,fine lancinations in right hip joint,1.0,1
+indifference,cracking noise in vertebrae,1.0,1
+indifference,gouty swelling of small joints,1.0,1
+indifference,tearing in foot joints worse walking,1.0,1
+indifference,absent-mindedness,1.0,1
+indifference,stitches left side near sacrum,1.0,1
+indifference,rending in toe joints worse walking,1.0,1
+indifference,swollen thighs toward evening,1.0,1
+indifference,acute sharp stitches in coccyx,1.0,1
+indifference,rheumatism in feet,1.0,1
+indifference,comprehension difficulty,1.0,1
+indifference,hard pressure in right upper arm worse touch,1.0,1
+indifference,rheumatism of hands,1.0,1
+indifference,tearing in joints especially small joints,1.0,1
+indifference,sticking in great toe,1.0,1
+indifference,tired thighs toward evening,1.0,1
+indifference,tearing pain in finger joints,1.0,1
+indifference,prematurely old patients,1.0,1
+indifference,fine lancinations in soles,1.0,1
+indifference,sticking in legs,1.0,1
+indifference,impatience,1.0,1
+indifference,pain in left hip better rest,1.0,1
+indifference,hard pressure in right axilla worse motion,1.0,1
+indifference,memory loss,1.0,1
+indifference,rending in foot joints worse walking,1.0,1
+indifference,prostatic fluid discharge,1.0,1
+indifference,stitches left side near coccyx,1.0,1
+inflammatory rheumatic swelling,sexual debility,1.0,1
+inflammatory rheumatic swelling,gouty swelling of finger joints,1.0,1
+inflammatory rheumatic swelling,debauched patients,1.0,1
+inflammatory rheumatic swelling,hard pressure in right upper arm worse motion,1.0,1
+inflammatory rheumatic swelling,tearing in toe joints worse walking,1.0,1
+inflammatory rheumatic swelling,prematurely old,1.0,1
+inflammatory rheumatic swelling,rending in joints especially small joints,1.0,1
+inflammatory rheumatic swelling,weak sexual power,1.0,1
+inflammatory rheumatic swelling,hard pressure in right axilla worse touch,1.0,1
+inflammatory rheumatic swelling,fine lancinations in right hip joint,1.0,1
+inflammatory rheumatic swelling,cracking noise in vertebrae,1.0,1
+inflammatory rheumatic swelling,gouty swelling of small joints,1.0,1
+inflammatory rheumatic swelling,tearing in foot joints worse walking,1.0,1
+inflammatory rheumatic swelling,absent-mindedness,1.0,1
+inflammatory rheumatic swelling,stitches left side near sacrum,1.0,1
+inflammatory rheumatic swelling,indifference,1.0,1
+inflammatory rheumatic swelling,rending in toe joints worse walking,1.0,1
+inflammatory rheumatic swelling,swollen thighs toward evening,1.0,1
+inflammatory rheumatic swelling,acute sharp stitches in coccyx,1.0,1
+inflammatory rheumatic swelling,rheumatism in feet,1.0,1
+inflammatory rheumatic swelling,comprehension difficulty,1.0,1
+inflammatory rheumatic swelling,hard pressure in right upper arm worse touch,1.0,1
+inflammatory rheumatic swelling,rheumatism of hands,1.0,1
+inflammatory rheumatic swelling,tearing in joints especially small joints,1.0,1
+inflammatory rheumatic swelling,sticking in great toe,1.0,1
+inflammatory rheumatic swelling,tired thighs toward evening,1.0,1
+inflammatory rheumatic swelling,tearing pain in finger joints,1.0,1
+inflammatory rheumatic swelling,prematurely old patients,1.0,1
+inflammatory rheumatic swelling,fine lancinations in soles,1.0,1
+inflammatory rheumatic swelling,sticking in legs,1.0,1
+inflammatory rheumatic swelling,impatience,1.0,1
+inflammatory rheumatic swelling,pain in left hip better rest,1.0,1
+inflammatory rheumatic swelling,hard pressure in right axilla worse motion,1.0,1
+inflammatory rheumatic swelling,memory loss,1.0,1
+inflammatory rheumatic swelling,rending in foot joints worse walking,1.0,1
+inflammatory rheumatic swelling,prostatic fluid discharge,1.0,1
+inflammatory rheumatic swelling,stitches left side near coccyx,1.0,1
+cracking noise in vertebrae,sexual debility,1.0,1
+cracking noise in vertebrae,gouty swelling of finger joints,1.0,1
+cracking noise in vertebrae,debauched patients,1.0,1
+cracking noise in vertebrae,hard pressure in right upper arm worse motion,1.0,1
+cracking noise in vertebrae,tearing in toe joints worse walking,1.0,1
+cracking noise in vertebrae,inflammatory rheumatic swelling,1.0,1
+cracking noise in vertebrae,prematurely old,1.0,1
+cracking noise in vertebrae,rending in joints especially small joints,1.0,1
+cracking noise in vertebrae,weak sexual power,1.0,1
+cracking noise in vertebrae,hard pressure in right axilla worse touch,1.0,1
+cracking noise in vertebrae,fine lancinations in right hip joint,1.0,1
+cracking noise in vertebrae,gouty swelling of small joints,1.0,1
+cracking noise in vertebrae,tearing in foot joints worse walking,1.0,1
+cracking noise in vertebrae,absent-mindedness,1.0,1
+cracking noise in vertebrae,stitches left side near sacrum,1.0,1
+cracking noise in vertebrae,indifference,1.0,1
+cracking noise in vertebrae,rending in toe joints worse walking,1.0,1
+cracking noise in vertebrae,swollen thighs toward evening,1.0,1
+cracking noise in vertebrae,acute sharp stitches in coccyx,1.0,1
+cracking noise in vertebrae,rheumatism in feet,1.0,1
+cracking noise in vertebrae,comprehension difficulty,1.0,1
+cracking noise in vertebrae,hard pressure in right upper arm worse touch,1.0,1
+cracking noise in vertebrae,rheumatism of hands,1.0,1
+cracking noise in vertebrae,tearing in joints especially small joints,1.0,1
+cracking noise in vertebrae,sticking in great toe,1.0,1
+cracking noise in vertebrae,tired thighs toward evening,1.0,1
+cracking noise in vertebrae,tearing pain in finger joints,1.0,1
+cracking noise in vertebrae,prematurely old patients,1.0,1
+cracking noise in vertebrae,fine lancinations in soles,1.0,1
+cracking noise in vertebrae,sticking in legs,1.0,1
+cracking noise in vertebrae,impatience,1.0,1
+cracking noise in vertebrae,pain in left hip better rest,1.0,1
+cracking noise in vertebrae,hard pressure in right axilla worse motion,1.0,1
+cracking noise in vertebrae,memory loss,1.0,1
+cracking noise in vertebrae,rending in foot joints worse walking,1.0,1
+cracking noise in vertebrae,prostatic fluid discharge,1.0,1
+cracking noise in vertebrae,stitches left side near coccyx,1.0,1
+impatience,sexual debility,1.0,1
+impatience,gouty swelling of finger joints,1.0,1
+impatience,debauched patients,1.0,1
+impatience,hard pressure in right upper arm worse motion,1.0,1
+impatience,tearing in toe joints worse walking,1.0,1
+impatience,inflammatory rheumatic swelling,1.0,1
+impatience,prematurely old,1.0,1
+impatience,rending in joints especially small joints,1.0,1
+impatience,weak sexual power,1.0,1
+impatience,hard pressure in right axilla worse touch,1.0,1
+impatience,fine lancinations in right hip joint,1.0,1
+impatience,cracking noise in vertebrae,1.0,1
+impatience,gouty swelling of small joints,1.0,1
+impatience,tearing in foot joints worse walking,1.0,1
+impatience,absent-mindedness,1.0,1
+impatience,stitches left side near sacrum,1.0,1
+impatience,indifference,1.0,1
+impatience,rending in toe joints worse walking,1.0,1
+impatience,swollen thighs toward evening,1.0,1
+impatience,acute sharp stitches in coccyx,1.0,1
+impatience,rheumatism in feet,1.0,1
+impatience,comprehension difficulty,1.0,1
+impatience,hard pressure in right upper arm worse touch,1.0,1
+impatience,rheumatism of hands,1.0,1
+impatience,tearing in joints especially small joints,1.0,1
+impatience,sticking in great toe,1.0,1
+impatience,tired thighs toward evening,1.0,1
+impatience,tearing pain in finger joints,1.0,1
+impatience,prematurely old patients,1.0,1
+impatience,fine lancinations in soles,1.0,1
+impatience,sticking in legs,1.0,1
+impatience,pain in left hip better rest,1.0,1
+impatience,hard pressure in right axilla worse motion,1.0,1
+impatience,memory loss,1.0,1
+impatience,rending in foot joints worse walking,1.0,1
+impatience,prostatic fluid discharge,1.0,1
+impatience,stitches left side near coccyx,1.0,1
+rending in toe joints worse walking,sexual debility,1.0,1
+rending in toe joints worse walking,gouty swelling of finger joints,1.0,1
+rending in toe joints worse walking,debauched patients,1.0,1
+rending in toe joints worse walking,hard pressure in right upper arm worse motion,1.0,1
+rending in toe joints worse walking,tearing in toe joints worse walking,1.0,1
+rending in toe joints worse walking,inflammatory rheumatic swelling,1.0,1
+rending in toe joints worse walking,prematurely old,1.0,1
+rending in toe joints worse walking,rending in joints especially small joints,1.0,1
+rending in toe joints worse walking,weak sexual power,1.0,1
+rending in toe joints worse walking,hard pressure in right axilla worse touch,1.0,1
+rending in toe joints worse walking,fine lancinations in right hip joint,1.0,1
+rending in toe joints worse walking,cracking noise in vertebrae,1.0,1
+rending in toe joints worse walking,gouty swelling of small joints,1.0,1
+rending in toe joints worse walking,tearing in foot joints worse walking,1.0,1
+rending in toe joints worse walking,absent-mindedness,1.0,1
+rending in toe joints worse walking,stitches left side near sacrum,1.0,1
+rending in toe joints worse walking,indifference,1.0,1
+rending in toe joints worse walking,swollen thighs toward evening,1.0,1
+rending in toe joints worse walking,acute sharp stitches in coccyx,1.0,1
+rending in toe joints worse walking,rheumatism in feet,1.0,1
+rending in toe joints worse walking,comprehension difficulty,1.0,1
+rending in toe joints worse walking,hard pressure in right upper arm worse touch,1.0,1
+rending in toe joints worse walking,rheumatism of hands,1.0,1
+rending in toe joints worse walking,tearing in joints especially small joints,1.0,1
+rending in toe joints worse walking,sticking in great toe,1.0,1
+rending in toe joints worse walking,tired thighs toward evening,1.0,1
+rending in toe joints worse walking,tearing pain in finger joints,1.0,1
+rending in toe joints worse walking,prematurely old patients,1.0,1
+rending in toe joints worse walking,fine lancinations in soles,1.0,1
+rending in toe joints worse walking,sticking in legs,1.0,1
+rending in toe joints worse walking,impatience,1.0,1
+rending in toe joints worse walking,pain in left hip better rest,1.0,1
+rending in toe joints worse walking,hard pressure in right axilla worse motion,1.0,1
+rending in toe joints worse walking,memory loss,1.0,1
+rending in toe joints worse walking,rending in foot joints worse walking,1.0,1
+rending in toe joints worse walking,prostatic fluid discharge,1.0,1
+rending in toe joints worse walking,stitches left side near coccyx,1.0,1
+tearing pain in finger joints,sexual debility,1.0,1
+tearing pain in finger joints,gouty swelling of finger joints,1.0,1
+tearing pain in finger joints,debauched patients,1.0,1
+tearing pain in finger joints,hard pressure in right upper arm worse motion,1.0,1
+tearing pain in finger joints,tearing in toe joints worse walking,1.0,1
+tearing pain in finger joints,inflammatory rheumatic swelling,1.0,1
+tearing pain in finger joints,prematurely old,1.0,1
+tearing pain in finger joints,rending in joints especially small joints,1.0,1
+tearing pain in finger joints,weak sexual power,1.0,1
+tearing pain in finger joints,hard pressure in right axilla worse touch,1.0,1
+tearing pain in finger joints,fine lancinations in right hip joint,1.0,1
+tearing pain in finger joints,cracking noise in vertebrae,1.0,1
+tearing pain in finger joints,gouty swelling of small joints,1.0,1
+tearing pain in finger joints,tearing in foot joints worse walking,1.0,1
+tearing pain in finger joints,absent-mindedness,1.0,1
+tearing pain in finger joints,stitches left side near sacrum,1.0,1
+tearing pain in finger joints,indifference,1.0,1
+tearing pain in finger joints,rending in toe joints worse walking,1.0,1
+tearing pain in finger joints,swollen thighs toward evening,1.0,1
+tearing pain in finger joints,acute sharp stitches in coccyx,1.0,1
+tearing pain in finger joints,rheumatism in feet,1.0,1
+tearing pain in finger joints,comprehension difficulty,1.0,1
+tearing pain in finger joints,hard pressure in right upper arm worse touch,1.0,1
+tearing pain in finger joints,rheumatism of hands,1.0,1
+tearing pain in finger joints,tearing in joints especially small joints,1.0,1
+tearing pain in finger joints,sticking in great toe,1.0,1
+tearing pain in finger joints,tired thighs toward evening,1.0,1
+tearing pain in finger joints,prematurely old patients,1.0,1
+tearing pain in finger joints,fine lancinations in soles,1.0,1
+tearing pain in finger joints,sticking in legs,1.0,1
+tearing pain in finger joints,impatience,1.0,1
+tearing pain in finger joints,pain in left hip better rest,1.0,1
+tearing pain in finger joints,hard pressure in right axilla worse motion,1.0,1
+tearing pain in finger joints,memory loss,1.0,1
+tearing pain in finger joints,rending in foot joints worse walking,1.0,1
+tearing pain in finger joints,prostatic fluid discharge,1.0,1
+tearing pain in finger joints,stitches left side near coccyx,1.0,1
+fine lancinations in soles,sexual debility,1.0,1
+fine lancinations in soles,gouty swelling of finger joints,1.0,1
+fine lancinations in soles,debauched patients,1.0,1
+fine lancinations in soles,hard pressure in right upper arm worse motion,1.0,1
+fine lancinations in soles,tearing in toe joints worse walking,1.0,1
+fine lancinations in soles,inflammatory rheumatic swelling,1.0,1
+fine lancinations in soles,prematurely old,1.0,1
+fine lancinations in soles,rending in joints especially small joints,1.0,1
+fine lancinations in soles,weak sexual power,1.0,1
+fine lancinations in soles,hard pressure in right axilla worse touch,1.0,1
+fine lancinations in soles,fine lancinations in right hip joint,1.0,1
+fine lancinations in soles,cracking noise in vertebrae,1.0,1
+fine lancinations in soles,gouty swelling of small joints,1.0,1
+fine lancinations in soles,tearing in foot joints worse walking,1.0,1
+fine lancinations in soles,absent-mindedness,1.0,1
+fine lancinations in soles,stitches left side near sacrum,1.0,1
+fine lancinations in soles,indifference,1.0,1
+fine lancinations in soles,rending in toe joints worse walking,1.0,1
+fine lancinations in soles,swollen thighs toward evening,1.0,1
+fine lancinations in soles,acute sharp stitches in coccyx,1.0,1
+fine lancinations in soles,rheumatism in feet,1.0,1
+fine lancinations in soles,comprehension difficulty,1.0,1
+fine lancinations in soles,hard pressure in right upper arm worse touch,1.0,1
+fine lancinations in soles,rheumatism of hands,1.0,1
+fine lancinations in soles,tearing in joints especially small joints,1.0,1
+fine lancinations in soles,sticking in great toe,1.0,1
+fine lancinations in soles,tired thighs toward evening,1.0,1
+fine lancinations in soles,tearing pain in finger joints,1.0,1
+fine lancinations in soles,prematurely old patients,1.0,1
+fine lancinations in soles,sticking in legs,1.0,1
+fine lancinations in soles,impatience,1.0,1
+fine lancinations in soles,pain in left hip better rest,1.0,1
+fine lancinations in soles,hard pressure in right axilla worse motion,1.0,1
+fine lancinations in soles,memory loss,1.0,1
+fine lancinations in soles,rending in foot joints worse walking,1.0,1
+fine lancinations in soles,prostatic fluid discharge,1.0,1
+fine lancinations in soles,stitches left side near coccyx,1.0,1
+rending in joints especially small joints,sexual debility,1.0,1
+rending in joints especially small joints,gouty swelling of finger joints,1.0,1
+rending in joints especially small joints,debauched patients,1.0,1
+rending in joints especially small joints,hard pressure in right upper arm worse motion,1.0,1
+rending in joints especially small joints,tearing in toe joints worse walking,1.0,1
+rending in joints especially small joints,inflammatory rheumatic swelling,1.0,1
+rending in joints especially small joints,prematurely old,1.0,1
+rending in joints especially small joints,weak sexual power,1.0,1
+rending in joints especially small joints,hard pressure in right axilla worse touch,1.0,1
+rending in joints especially small joints,fine lancinations in right hip joint,1.0,1
+rending in joints especially small joints,cracking noise in vertebrae,1.0,1
+rending in joints especially small joints,gouty swelling of small joints,1.0,1
+rending in joints especially small joints,tearing in foot joints worse walking,1.0,1
+rending in joints especially small joints,absent-mindedness,1.0,1
+rending in joints especially small joints,stitches left side near sacrum,1.0,1
+rending in joints especially small joints,indifference,1.0,1
+rending in joints especially small joints,rending in toe joints worse walking,1.0,1
+rending in joints especially small joints,swollen thighs toward evening,1.0,1
+rending in joints especially small joints,acute sharp stitches in coccyx,1.0,1
+rending in joints especially small joints,rheumatism in feet,1.0,1
+rending in joints especially small joints,comprehension difficulty,1.0,1
+rending in joints especially small joints,hard pressure in right upper arm worse touch,1.0,1
+rending in joints especially small joints,rheumatism of hands,1.0,1
+rending in joints especially small joints,tearing in joints especially small joints,1.0,1
+rending in joints especially small joints,sticking in great toe,1.0,1
+rending in joints especially small joints,tired thighs toward evening,1.0,1
+rending in joints especially small joints,tearing pain in finger joints,1.0,1
+rending in joints especially small joints,prematurely old patients,1.0,1
+rending in joints especially small joints,fine lancinations in soles,1.0,1
+rending in joints especially small joints,sticking in legs,1.0,1
+rending in joints especially small joints,impatience,1.0,1
+rending in joints especially small joints,pain in left hip better rest,1.0,1
+rending in joints especially small joints,hard pressure in right axilla worse motion,1.0,1
+rending in joints especially small joints,memory loss,1.0,1
+rending in joints especially small joints,rending in foot joints worse walking,1.0,1
+rending in joints especially small joints,prostatic fluid discharge,1.0,1
+rending in joints especially small joints,stitches left side near coccyx,1.0,1
+fine lancinations in right hip joint,sexual debility,1.0,1
+fine lancinations in right hip joint,gouty swelling of finger joints,1.0,1
+fine lancinations in right hip joint,debauched patients,1.0,1
+fine lancinations in right hip joint,hard pressure in right upper arm worse motion,1.0,1
+fine lancinations in right hip joint,tearing in toe joints worse walking,1.0,1
+fine lancinations in right hip joint,inflammatory rheumatic swelling,1.0,1
+fine lancinations in right hip joint,prematurely old,1.0,1
+fine lancinations in right hip joint,rending in joints especially small joints,1.0,1
+fine lancinations in right hip joint,weak sexual power,1.0,1
+fine lancinations in right hip joint,hard pressure in right axilla worse touch,1.0,1
+fine lancinations in right hip joint,cracking noise in vertebrae,1.0,1
+fine lancinations in right hip joint,gouty swelling of small joints,1.0,1
+fine lancinations in right hip joint,tearing in foot joints worse walking,1.0,1
+fine lancinations in right hip joint,absent-mindedness,1.0,1
+fine lancinations in right hip joint,stitches left side near sacrum,1.0,1
+fine lancinations in right hip joint,indifference,1.0,1
+fine lancinations in right hip joint,rending in toe joints worse walking,1.0,1
+fine lancinations in right hip joint,swollen thighs toward evening,1.0,1
+fine lancinations in right hip joint,acute sharp stitches in coccyx,1.0,1
+fine lancinations in right hip joint,rheumatism in feet,1.0,1
+fine lancinations in right hip joint,comprehension difficulty,1.0,1
+fine lancinations in right hip joint,hard pressure in right upper arm worse touch,1.0,1
+fine lancinations in right hip joint,rheumatism of hands,1.0,1
+fine lancinations in right hip joint,tearing in joints especially small joints,1.0,1
+fine lancinations in right hip joint,sticking in great toe,1.0,1
+fine lancinations in right hip joint,tired thighs toward evening,1.0,1
+fine lancinations in right hip joint,tearing pain in finger joints,1.0,1
+fine lancinations in right hip joint,prematurely old patients,1.0,1
+fine lancinations in right hip joint,fine lancinations in soles,1.0,1
+fine lancinations in right hip joint,sticking in legs,1.0,1
+fine lancinations in right hip joint,impatience,1.0,1
+fine lancinations in right hip joint,pain in left hip better rest,1.0,1
+fine lancinations in right hip joint,hard pressure in right axilla worse motion,1.0,1
+fine lancinations in right hip joint,memory loss,1.0,1
+fine lancinations in right hip joint,rending in foot joints worse walking,1.0,1
+fine lancinations in right hip joint,prostatic fluid discharge,1.0,1
+fine lancinations in right hip joint,stitches left side near coccyx,1.0,1
+hard pressure in right axilla worse touch,sexual debility,1.0,1
+hard pressure in right axilla worse touch,gouty swelling of finger joints,1.0,1
+hard pressure in right axilla worse touch,debauched patients,1.0,1
+hard pressure in right axilla worse touch,hard pressure in right upper arm worse motion,1.0,1
+hard pressure in right axilla worse touch,tearing in toe joints worse walking,1.0,1
+hard pressure in right axilla worse touch,inflammatory rheumatic swelling,1.0,1
+hard pressure in right axilla worse touch,prematurely old,1.0,1
+hard pressure in right axilla worse touch,rending in joints especially small joints,1.0,1
+hard pressure in right axilla worse touch,weak sexual power,1.0,1
+hard pressure in right axilla worse touch,fine lancinations in right hip joint,1.0,1
+hard pressure in right axilla worse touch,cracking noise in vertebrae,1.0,1
+hard pressure in right axilla worse touch,gouty swelling of small joints,1.0,1
+hard pressure in right axilla worse touch,tearing in foot joints worse walking,1.0,1
+hard pressure in right axilla worse touch,absent-mindedness,1.0,1
+hard pressure in right axilla worse touch,stitches left side near sacrum,1.0,1
+hard pressure in right axilla worse touch,indifference,1.0,1
+hard pressure in right axilla worse touch,rending in toe joints worse walking,1.0,1
+hard pressure in right axilla worse touch,swollen thighs toward evening,1.0,1
+hard pressure in right axilla worse touch,acute sharp stitches in coccyx,1.0,1
+hard pressure in right axilla worse touch,rheumatism in feet,1.0,1
+hard pressure in right axilla worse touch,comprehension difficulty,1.0,1
+hard pressure in right axilla worse touch,hard pressure in right upper arm worse touch,1.0,1
+hard pressure in right axilla worse touch,rheumatism of hands,1.0,1
+hard pressure in right axilla worse touch,tearing in joints especially small joints,1.0,1
+hard pressure in right axilla worse touch,sticking in great toe,1.0,1
+hard pressure in right axilla worse touch,tired thighs toward evening,1.0,1
+hard pressure in right axilla worse touch,tearing pain in finger joints,1.0,1
+hard pressure in right axilla worse touch,prematurely old patients,1.0,1
+hard pressure in right axilla worse touch,fine lancinations in soles,1.0,1
+hard pressure in right axilla worse touch,sticking in legs,1.0,1
+hard pressure in right axilla worse touch,impatience,1.0,1
+hard pressure in right axilla worse touch,pain in left hip better rest,1.0,1
+hard pressure in right axilla worse touch,hard pressure in right axilla worse motion,1.0,1
+hard pressure in right axilla worse touch,memory loss,1.0,1
+hard pressure in right axilla worse touch,rending in foot joints worse walking,1.0,1
+hard pressure in right axilla worse touch,prostatic fluid discharge,1.0,1
+hard pressure in right axilla worse touch,stitches left side near coccyx,1.0,1
+tearing in joints especially small joints,sexual debility,1.0,1
+tearing in joints especially small joints,gouty swelling of finger joints,1.0,1
+tearing in joints especially small joints,debauched patients,1.0,1
+tearing in joints especially small joints,hard pressure in right upper arm worse motion,1.0,1
+tearing in joints especially small joints,tearing in toe joints worse walking,1.0,1
+tearing in joints especially small joints,inflammatory rheumatic swelling,1.0,1
+tearing in joints especially small joints,prematurely old,1.0,1
+tearing in joints especially small joints,rending in joints especially small joints,1.0,1
+tearing in joints especially small joints,weak sexual power,1.0,1
+tearing in joints especially small joints,hard pressure in right axilla worse touch,1.0,1
+tearing in joints especially small joints,fine lancinations in right hip joint,1.0,1
+tearing in joints especially small joints,cracking noise in vertebrae,1.0,1
+tearing in joints especially small joints,gouty swelling of small joints,1.0,1
+tearing in joints especially small joints,tearing in foot joints worse walking,1.0,1
+tearing in joints especially small joints,absent-mindedness,1.0,1
+tearing in joints especially small joints,stitches left side near sacrum,1.0,1
+tearing in joints especially small joints,indifference,1.0,1
+tearing in joints especially small joints,rending in toe joints worse walking,1.0,1
+tearing in joints especially small joints,swollen thighs toward evening,1.0,1
+tearing in joints especially small joints,acute sharp stitches in coccyx,1.0,1
+tearing in joints especially small joints,rheumatism in feet,1.0,1
+tearing in joints especially small joints,comprehension difficulty,1.0,1
+tearing in joints especially small joints,hard pressure in right upper arm worse touch,1.0,1
+tearing in joints especially small joints,rheumatism of hands,1.0,1
+tearing in joints especially small joints,sticking in great toe,1.0,1
+tearing in joints especially small joints,tired thighs toward evening,1.0,1
+tearing in joints especially small joints,tearing pain in finger joints,1.0,1
+tearing in joints especially small joints,prematurely old patients,1.0,1
+tearing in joints especially small joints,fine lancinations in soles,1.0,1
+tearing in joints especially small joints,sticking in legs,1.0,1
+tearing in joints especially small joints,impatience,1.0,1
+tearing in joints especially small joints,pain in left hip better rest,1.0,1
+tearing in joints especially small joints,hard pressure in right axilla worse motion,1.0,1
+tearing in joints especially small joints,memory loss,1.0,1
+tearing in joints especially small joints,rending in foot joints worse walking,1.0,1
+tearing in joints especially small joints,prostatic fluid discharge,1.0,1
+tearing in joints especially small joints,stitches left side near coccyx,1.0,1
+tired thighs toward evening,sexual debility,1.0,1
+tired thighs toward evening,gouty swelling of finger joints,1.0,1
+tired thighs toward evening,debauched patients,1.0,1
+tired thighs toward evening,hard pressure in right upper arm worse motion,1.0,1
+tired thighs toward evening,tearing in toe joints worse walking,1.0,1
+tired thighs toward evening,inflammatory rheumatic swelling,1.0,1
+tired thighs toward evening,prematurely old,1.0,1
+tired thighs toward evening,rending in joints especially small joints,1.0,1
+tired thighs toward evening,weak sexual power,1.0,1
+tired thighs toward evening,hard pressure in right axilla worse touch,1.0,1
+tired thighs toward evening,fine lancinations in right hip joint,1.0,1
+tired thighs toward evening,cracking noise in vertebrae,1.0,1
+tired thighs toward evening,gouty swelling of small joints,1.0,1
+tired thighs toward evening,tearing in foot joints worse walking,1.0,1
+tired thighs toward evening,absent-mindedness,1.0,1
+tired thighs toward evening,stitches left side near sacrum,1.0,1
+tired thighs toward evening,indifference,1.0,1
+tired thighs toward evening,rending in toe joints worse walking,1.0,1
+tired thighs toward evening,swollen thighs toward evening,1.0,1
+tired thighs toward evening,acute sharp stitches in coccyx,1.0,1
+tired thighs toward evening,rheumatism in feet,1.0,1
+tired thighs toward evening,comprehension difficulty,1.0,1
+tired thighs toward evening,hard pressure in right upper arm worse touch,1.0,1
+tired thighs toward evening,rheumatism of hands,1.0,1
+tired thighs toward evening,tearing in joints especially small joints,1.0,1
+tired thighs toward evening,sticking in great toe,1.0,1
+tired thighs toward evening,tearing pain in finger joints,1.0,1
+tired thighs toward evening,prematurely old patients,1.0,1
+tired thighs toward evening,fine lancinations in soles,1.0,1
+tired thighs toward evening,sticking in legs,1.0,1
+tired thighs toward evening,impatience,1.0,1
+tired thighs toward evening,pain in left hip better rest,1.0,1
+tired thighs toward evening,hard pressure in right axilla worse motion,1.0,1
+tired thighs toward evening,memory loss,1.0,1
+tired thighs toward evening,rending in foot joints worse walking,1.0,1
+tired thighs toward evening,prostatic fluid discharge,1.0,1
+tired thighs toward evening,stitches left side near coccyx,1.0,1
+hard pressure in right upper arm worse touch,sexual debility,1.0,1
+hard pressure in right upper arm worse touch,gouty swelling of finger joints,1.0,1
+hard pressure in right upper arm worse touch,debauched patients,1.0,1
+hard pressure in right upper arm worse touch,hard pressure in right upper arm worse motion,1.0,1
+hard pressure in right upper arm worse touch,tearing in toe joints worse walking,1.0,1
+hard pressure in right upper arm worse touch,inflammatory rheumatic swelling,1.0,1
+hard pressure in right upper arm worse touch,prematurely old,1.0,1
+hard pressure in right upper arm worse touch,rending in joints especially small joints,1.0,1
+hard pressure in right upper arm worse touch,weak sexual power,1.0,1
+hard pressure in right upper arm worse touch,hard pressure in right axilla worse touch,1.0,1
+hard pressure in right upper arm worse touch,fine lancinations in right hip joint,1.0,1
+hard pressure in right upper arm worse touch,cracking noise in vertebrae,1.0,1
+hard pressure in right upper arm worse touch,gouty swelling of small joints,1.0,1
+hard pressure in right upper arm worse touch,tearing in foot joints worse walking,1.0,1
+hard pressure in right upper arm worse touch,absent-mindedness,1.0,1
+hard pressure in right upper arm worse touch,stitches left side near sacrum,1.0,1
+hard pressure in right upper arm worse touch,indifference,1.0,1
+hard pressure in right upper arm worse touch,rending in toe joints worse walking,1.0,1
+hard pressure in right upper arm worse touch,swollen thighs toward evening,1.0,1
+hard pressure in right upper arm worse touch,acute sharp stitches in coccyx,1.0,1
+hard pressure in right upper arm worse touch,rheumatism in feet,1.0,1
+hard pressure in right upper arm worse touch,comprehension difficulty,1.0,1
+hard pressure in right upper arm worse touch,rheumatism of hands,1.0,1
+hard pressure in right upper arm worse touch,tearing in joints especially small joints,1.0,1
+hard pressure in right upper arm worse touch,sticking in great toe,1.0,1
+hard pressure in right upper arm worse touch,tired thighs toward evening,1.0,1
+hard pressure in right upper arm worse touch,tearing pain in finger joints,1.0,1
+hard pressure in right upper arm worse touch,prematurely old patients,1.0,1
+hard pressure in right upper arm worse touch,fine lancinations in soles,1.0,1
+hard pressure in right upper arm worse touch,sticking in legs,1.0,1
+hard pressure in right upper arm worse touch,impatience,1.0,1
+hard pressure in right upper arm worse touch,pain in left hip better rest,1.0,1
+hard pressure in right upper arm worse touch,hard pressure in right axilla worse motion,1.0,1
+hard pressure in right upper arm worse touch,memory loss,1.0,1
+hard pressure in right upper arm worse touch,rending in foot joints worse walking,1.0,1
+hard pressure in right upper arm worse touch,prostatic fluid discharge,1.0,1
+hard pressure in right upper arm worse touch,stitches left side near coccyx,1.0,1
+weak sexual power,sexual debility,1.0,1
+weak sexual power,gouty swelling of finger joints,1.0,1
+weak sexual power,debauched patients,1.0,1
+weak sexual power,hard pressure in right upper arm worse motion,1.0,1
+weak sexual power,tearing in toe joints worse walking,1.0,1
+weak sexual power,inflammatory rheumatic swelling,1.0,1
+weak sexual power,prematurely old,1.0,1
+weak sexual power,rending in joints especially small joints,1.0,1
+weak sexual power,hard pressure in right axilla worse touch,1.0,1
+weak sexual power,fine lancinations in right hip joint,1.0,1
+weak sexual power,cracking noise in vertebrae,1.0,1
+weak sexual power,gouty swelling of small joints,1.0,1
+weak sexual power,tearing in foot joints worse walking,1.0,1
+weak sexual power,absent-mindedness,1.0,1
+weak sexual power,stitches left side near sacrum,1.0,1
+weak sexual power,indifference,1.0,1
+weak sexual power,rending in toe joints worse walking,1.0,1
+weak sexual power,swollen thighs toward evening,1.0,1
+weak sexual power,acute sharp stitches in coccyx,1.0,1
+weak sexual power,rheumatism in feet,1.0,1
+weak sexual power,comprehension difficulty,1.0,1
+weak sexual power,hard pressure in right upper arm worse touch,1.0,1
+weak sexual power,rheumatism of hands,1.0,1
+weak sexual power,tearing in joints especially small joints,1.0,1
+weak sexual power,sticking in great toe,1.0,1
+weak sexual power,tired thighs toward evening,1.0,1
+weak sexual power,tearing pain in finger joints,1.0,1
+weak sexual power,prematurely old patients,1.0,1
+weak sexual power,fine lancinations in soles,1.0,1
+weak sexual power,sticking in legs,1.0,1
+weak sexual power,impatience,1.0,1
+weak sexual power,pain in left hip better rest,1.0,1
+weak sexual power,hard pressure in right axilla worse motion,1.0,1
+weak sexual power,memory loss,1.0,1
+weak sexual power,rending in foot joints worse walking,1.0,1
+weak sexual power,prostatic fluid discharge,1.0,1
+weak sexual power,stitches left side near coccyx,1.0,1
+tearing in foot joints worse walking,sexual debility,1.0,1
+tearing in foot joints worse walking,gouty swelling of finger joints,1.0,1
+tearing in foot joints worse walking,debauched patients,1.0,1
+tearing in foot joints worse walking,hard pressure in right upper arm worse motion,1.0,1
+tearing in foot joints worse walking,tearing in toe joints worse walking,1.0,1
+tearing in foot joints worse walking,inflammatory rheumatic swelling,1.0,1
+tearing in foot joints worse walking,prematurely old,1.0,1
+tearing in foot joints worse walking,rending in joints especially small joints,1.0,1
+tearing in foot joints worse walking,weak sexual power,1.0,1
+tearing in foot joints worse walking,hard pressure in right axilla worse touch,1.0,1
+tearing in foot joints worse walking,fine lancinations in right hip joint,1.0,1
+tearing in foot joints worse walking,cracking noise in vertebrae,1.0,1
+tearing in foot joints worse walking,gouty swelling of small joints,1.0,1
+tearing in foot joints worse walking,absent-mindedness,1.0,1
+tearing in foot joints worse walking,stitches left side near sacrum,1.0,1
+tearing in foot joints worse walking,indifference,1.0,1
+tearing in foot joints worse walking,rending in toe joints worse walking,1.0,1
+tearing in foot joints worse walking,swollen thighs toward evening,1.0,1
+tearing in foot joints worse walking,acute sharp stitches in coccyx,1.0,1
+tearing in foot joints worse walking,rheumatism in feet,1.0,1
+tearing in foot joints worse walking,comprehension difficulty,1.0,1
+tearing in foot joints worse walking,hard pressure in right upper arm worse touch,1.0,1
+tearing in foot joints worse walking,rheumatism of hands,1.0,1
+tearing in foot joints worse walking,tearing in joints especially small joints,1.0,1
+tearing in foot joints worse walking,sticking in great toe,1.0,1
+tearing in foot joints worse walking,tired thighs toward evening,1.0,1
+tearing in foot joints worse walking,tearing pain in finger joints,1.0,1
+tearing in foot joints worse walking,prematurely old patients,1.0,1
+tearing in foot joints worse walking,fine lancinations in soles,1.0,1
+tearing in foot joints worse walking,sticking in legs,1.0,1
+tearing in foot joints worse walking,impatience,1.0,1
+tearing in foot joints worse walking,pain in left hip better rest,1.0,1
+tearing in foot joints worse walking,hard pressure in right axilla worse motion,1.0,1
+tearing in foot joints worse walking,memory loss,1.0,1
+tearing in foot joints worse walking,rending in foot joints worse walking,1.0,1
+tearing in foot joints worse walking,prostatic fluid discharge,1.0,1
+tearing in foot joints worse walking,stitches left side near coccyx,1.0,1
+swollen thighs toward evening,sexual debility,1.0,1
+swollen thighs toward evening,gouty swelling of finger joints,1.0,1
+swollen thighs toward evening,debauched patients,1.0,1
+swollen thighs toward evening,hard pressure in right upper arm worse motion,1.0,1
+swollen thighs toward evening,tearing in toe joints worse walking,1.0,1
+swollen thighs toward evening,inflammatory rheumatic swelling,1.0,1
+swollen thighs toward evening,prematurely old,1.0,1
+swollen thighs toward evening,rending in joints especially small joints,1.0,1
+swollen thighs toward evening,weak sexual power,1.0,1
+swollen thighs toward evening,hard pressure in right axilla worse touch,1.0,1
+swollen thighs toward evening,fine lancinations in right hip joint,1.0,1
+swollen thighs toward evening,cracking noise in vertebrae,1.0,1
+swollen thighs toward evening,gouty swelling of small joints,1.0,1
+swollen thighs toward evening,tearing in foot joints worse walking,1.0,1
+swollen thighs toward evening,absent-mindedness,1.0,1
+swollen thighs toward evening,stitches left side near sacrum,1.0,1
+swollen thighs toward evening,indifference,1.0,1
+swollen thighs toward evening,rending in toe joints worse walking,1.0,1
+swollen thighs toward evening,acute sharp stitches in coccyx,1.0,1
+swollen thighs toward evening,rheumatism in feet,1.0,1
+swollen thighs toward evening,comprehension difficulty,1.0,1
+swollen thighs toward evening,hard pressure in right upper arm worse touch,1.0,1
+swollen thighs toward evening,rheumatism of hands,1.0,1
+swollen thighs toward evening,tearing in joints especially small joints,1.0,1
+swollen thighs toward evening,sticking in great toe,1.0,1
+swollen thighs toward evening,tired thighs toward evening,1.0,1
+swollen thighs toward evening,tearing pain in finger joints,1.0,1
+swollen thighs toward evening,prematurely old patients,1.0,1
+swollen thighs toward evening,fine lancinations in soles,1.0,1
+swollen thighs toward evening,sticking in legs,1.0,1
+swollen thighs toward evening,impatience,1.0,1
+swollen thighs toward evening,pain in left hip better rest,1.0,1
+swollen thighs toward evening,hard pressure in right axilla worse motion,1.0,1
+swollen thighs toward evening,memory loss,1.0,1
+swollen thighs toward evening,rending in foot joints worse walking,1.0,1
+swollen thighs toward evening,prostatic fluid discharge,1.0,1
+swollen thighs toward evening,stitches left side near coccyx,1.0,1
+prematurely old,sexual debility,1.0,1
+prematurely old,gouty swelling of finger joints,1.0,1
+prematurely old,debauched patients,1.0,1
+prematurely old,hard pressure in right upper arm worse motion,1.0,1
+prematurely old,tearing in toe joints worse walking,1.0,1
+prematurely old,inflammatory rheumatic swelling,1.0,1
+prematurely old,rending in joints especially small joints,1.0,1
+prematurely old,weak sexual power,1.0,1
+prematurely old,hard pressure in right axilla worse touch,1.0,1
+prematurely old,fine lancinations in right hip joint,1.0,1
+prematurely old,cracking noise in vertebrae,1.0,1
+prematurely old,gouty swelling of small joints,1.0,1
+prematurely old,tearing in foot joints worse walking,1.0,1
+prematurely old,absent-mindedness,1.0,1
+prematurely old,stitches left side near sacrum,1.0,1
+prematurely old,indifference,1.0,1
+prematurely old,rending in toe joints worse walking,1.0,1
+prematurely old,swollen thighs toward evening,1.0,1
+prematurely old,acute sharp stitches in coccyx,1.0,1
+prematurely old,rheumatism in feet,1.0,1
+prematurely old,comprehension difficulty,1.0,1
+prematurely old,hard pressure in right upper arm worse touch,1.0,1
+prematurely old,rheumatism of hands,1.0,1
+prematurely old,tearing in joints especially small joints,1.0,1
+prematurely old,sticking in great toe,1.0,1
+prematurely old,tired thighs toward evening,1.0,1
+prematurely old,tearing pain in finger joints,1.0,1
+prematurely old,prematurely old patients,1.0,1
+prematurely old,fine lancinations in soles,1.0,1
+prematurely old,sticking in legs,1.0,1
+prematurely old,impatience,1.0,1
+prematurely old,pain in left hip better rest,1.0,1
+prematurely old,hard pressure in right axilla worse motion,1.0,1
+prematurely old,memory loss,1.0,1
+prematurely old,rending in foot joints worse walking,1.0,1
+prematurely old,prostatic fluid discharge,1.0,1
+prematurely old,stitches left side near coccyx,1.0,1
+gouty swelling of small joints,sexual debility,1.0,1
+gouty swelling of small joints,gouty swelling of finger joints,1.0,1
+gouty swelling of small joints,debauched patients,1.0,1
+gouty swelling of small joints,hard pressure in right upper arm worse motion,1.0,1
+gouty swelling of small joints,tearing in toe joints worse walking,1.0,1
+gouty swelling of small joints,inflammatory rheumatic swelling,1.0,1
+gouty swelling of small joints,prematurely old,1.0,1
+gouty swelling of small joints,rending in joints especially small joints,1.0,1
+gouty swelling of small joints,weak sexual power,1.0,1
+gouty swelling of small joints,hard pressure in right axilla worse touch,1.0,1
+gouty swelling of small joints,fine lancinations in right hip joint,1.0,1
+gouty swelling of small joints,cracking noise in vertebrae,1.0,1
+gouty swelling of small joints,tearing in foot joints worse walking,1.0,1
+gouty swelling of small joints,absent-mindedness,1.0,1
+gouty swelling of small joints,stitches left side near sacrum,1.0,1
+gouty swelling of small joints,indifference,1.0,1
+gouty swelling of small joints,rending in toe joints worse walking,1.0,1
+gouty swelling of small joints,swollen thighs toward evening,1.0,1
+gouty swelling of small joints,acute sharp stitches in coccyx,1.0,1
+gouty swelling of small joints,rheumatism in feet,1.0,1
+gouty swelling of small joints,comprehension difficulty,1.0,1
+gouty swelling of small joints,hard pressure in right upper arm worse touch,1.0,1
+gouty swelling of small joints,rheumatism of hands,1.0,1
+gouty swelling of small joints,tearing in joints especially small joints,1.0,1
+gouty swelling of small joints,sticking in great toe,1.0,1
+gouty swelling of small joints,tired thighs toward evening,1.0,1
+gouty swelling of small joints,tearing pain in finger joints,1.0,1
+gouty swelling of small joints,prematurely old patients,1.0,1
+gouty swelling of small joints,fine lancinations in soles,1.0,1
+gouty swelling of small joints,sticking in legs,1.0,1
+gouty swelling of small joints,impatience,1.0,1
+gouty swelling of small joints,pain in left hip better rest,1.0,1
+gouty swelling of small joints,hard pressure in right axilla worse motion,1.0,1
+gouty swelling of small joints,memory loss,1.0,1
+gouty swelling of small joints,rending in foot joints worse walking,1.0,1
+gouty swelling of small joints,prostatic fluid discharge,1.0,1
+gouty swelling of small joints,stitches left side near coccyx,1.0,1
+gouty swelling of finger joints,sexual debility,1.0,1
+gouty swelling of finger joints,debauched patients,1.0,1
+gouty swelling of finger joints,hard pressure in right upper arm worse motion,1.0,1
+gouty swelling of finger joints,tearing in toe joints worse walking,1.0,1
+gouty swelling of finger joints,inflammatory rheumatic swelling,1.0,1
+gouty swelling of finger joints,prematurely old,1.0,1
+gouty swelling of finger joints,rending in joints especially small joints,1.0,1
+gouty swelling of finger joints,weak sexual power,1.0,1
+gouty swelling of finger joints,hard pressure in right axilla worse touch,1.0,1
+gouty swelling of finger joints,fine lancinations in right hip joint,1.0,1
+gouty swelling of finger joints,cracking noise in vertebrae,1.0,1
+gouty swelling of finger joints,gouty swelling of small joints,1.0,1
+gouty swelling of finger joints,tearing in foot joints worse walking,1.0,1
+gouty swelling of finger joints,absent-mindedness,1.0,1
+gouty swelling of finger joints,stitches left side near sacrum,1.0,1
+gouty swelling of finger joints,indifference,1.0,1
+gouty swelling of finger joints,rending in toe joints worse walking,1.0,1
+gouty swelling of finger joints,swollen thighs toward evening,1.0,1
+gouty swelling of finger joints,acute sharp stitches in coccyx,1.0,1
+gouty swelling of finger joints,rheumatism in feet,1.0,1
+gouty swelling of finger joints,comprehension difficulty,1.0,1
+gouty swelling of finger joints,hard pressure in right upper arm worse touch,1.0,1
+gouty swelling of finger joints,rheumatism of hands,1.0,1
+gouty swelling of finger joints,tearing in joints especially small joints,1.0,1
+gouty swelling of finger joints,sticking in great toe,1.0,1
+gouty swelling of finger joints,tired thighs toward evening,1.0,1
+gouty swelling of finger joints,tearing pain in finger joints,1.0,1
+gouty swelling of finger joints,prematurely old patients,1.0,1
+gouty swelling of finger joints,fine lancinations in soles,1.0,1
+gouty swelling of finger joints,sticking in legs,1.0,1
+gouty swelling of finger joints,impatience,1.0,1
+gouty swelling of finger joints,pain in left hip better rest,1.0,1
+gouty swelling of finger joints,hard pressure in right axilla worse motion,1.0,1
+gouty swelling of finger joints,memory loss,1.0,1
+gouty swelling of finger joints,rending in foot joints worse walking,1.0,1
+gouty swelling of finger joints,prostatic fluid discharge,1.0,1
+gouty swelling of finger joints,stitches left side near coccyx,1.0,1
+prostatic fluid discharge,sexual debility,1.0,1
+prostatic fluid discharge,gouty swelling of finger joints,1.0,1
+prostatic fluid discharge,debauched patients,1.0,1
+prostatic fluid discharge,hard pressure in right upper arm worse motion,1.0,1
+prostatic fluid discharge,tearing in toe joints worse walking,1.0,1
+prostatic fluid discharge,inflammatory rheumatic swelling,1.0,1
+prostatic fluid discharge,prematurely old,1.0,1
+prostatic fluid discharge,rending in joints especially small joints,1.0,1
+prostatic fluid discharge,weak sexual power,1.0,1
+prostatic fluid discharge,hard pressure in right axilla worse touch,1.0,1
+prostatic fluid discharge,fine lancinations in right hip joint,1.0,1
+prostatic fluid discharge,cracking noise in vertebrae,1.0,1
+prostatic fluid discharge,gouty swelling of small joints,1.0,1
+prostatic fluid discharge,tearing in foot joints worse walking,1.0,1
+prostatic fluid discharge,absent-mindedness,1.0,1
+prostatic fluid discharge,stitches left side near sacrum,1.0,1
+prostatic fluid discharge,indifference,1.0,1
+prostatic fluid discharge,rending in toe joints worse walking,1.0,1
+prostatic fluid discharge,swollen thighs toward evening,1.0,1
+prostatic fluid discharge,acute sharp stitches in coccyx,1.0,1
+prostatic fluid discharge,rheumatism in feet,1.0,1
+prostatic fluid discharge,comprehension difficulty,1.0,1
+prostatic fluid discharge,hard pressure in right upper arm worse touch,1.0,1
+prostatic fluid discharge,rheumatism of hands,1.0,1
+prostatic fluid discharge,tearing in joints especially small joints,1.0,1
+prostatic fluid discharge,sticking in great toe,1.0,1
+prostatic fluid discharge,tired thighs toward evening,1.0,1
+prostatic fluid discharge,tearing pain in finger joints,1.0,1
+prostatic fluid discharge,prematurely old patients,1.0,1
+prostatic fluid discharge,fine lancinations in soles,1.0,1
+prostatic fluid discharge,sticking in legs,1.0,1
+prostatic fluid discharge,impatience,1.0,1
+prostatic fluid discharge,pain in left hip better rest,1.0,1
+prostatic fluid discharge,hard pressure in right axilla worse motion,1.0,1
+prostatic fluid discharge,memory loss,1.0,1
+prostatic fluid discharge,rending in foot joints worse walking,1.0,1
+prostatic fluid discharge,stitches left side near coccyx,1.0,1
+absent-mindedness,sexual debility,1.0,1
+absent-mindedness,gouty swelling of finger joints,1.0,1
+absent-mindedness,debauched patients,1.0,1
+absent-mindedness,hard pressure in right upper arm worse motion,1.0,1
+absent-mindedness,tearing in toe joints worse walking,1.0,1
+absent-mindedness,inflammatory rheumatic swelling,1.0,1
+absent-mindedness,prematurely old,1.0,1
+absent-mindedness,rending in joints especially small joints,1.0,1
+absent-mindedness,weak sexual power,1.0,1
+absent-mindedness,hard pressure in right axilla worse touch,1.0,1
+absent-mindedness,fine lancinations in right hip joint,1.0,1
+absent-mindedness,cracking noise in vertebrae,1.0,1
+absent-mindedness,gouty swelling of small joints,1.0,1
+absent-mindedness,tearing in foot joints worse walking,1.0,1
+absent-mindedness,stitches left side near sacrum,1.0,1
+absent-mindedness,indifference,1.0,1
+absent-mindedness,rending in toe joints worse walking,1.0,1
+absent-mindedness,swollen thighs toward evening,1.0,1
+absent-mindedness,acute sharp stitches in coccyx,1.0,1
+absent-mindedness,rheumatism in feet,1.0,1
+absent-mindedness,comprehension difficulty,1.0,1
+absent-mindedness,hard pressure in right upper arm worse touch,1.0,1
+absent-mindedness,rheumatism of hands,1.0,1
+absent-mindedness,tearing in joints especially small joints,1.0,1
+absent-mindedness,sticking in great toe,1.0,1
+absent-mindedness,tired thighs toward evening,1.0,1
+absent-mindedness,tearing pain in finger joints,1.0,1
+absent-mindedness,prematurely old patients,1.0,1
+absent-mindedness,fine lancinations in soles,1.0,1
+absent-mindedness,sticking in legs,1.0,1
+absent-mindedness,impatience,1.0,1
+absent-mindedness,pain in left hip better rest,1.0,1
+absent-mindedness,hard pressure in right axilla worse motion,1.0,1
+absent-mindedness,memory loss,1.0,1
+absent-mindedness,rending in foot joints worse walking,1.0,1
+absent-mindedness,prostatic fluid discharge,1.0,1
+absent-mindedness,stitches left side near coccyx,1.0,1
+hard pressure in right upper arm worse motion,sexual debility,1.0,1
+hard pressure in right upper arm worse motion,gouty swelling of finger joints,1.0,1
+hard pressure in right upper arm worse motion,debauched patients,1.0,1
+hard pressure in right upper arm worse motion,tearing in toe joints worse walking,1.0,1
+hard pressure in right upper arm worse motion,inflammatory rheumatic swelling,1.0,1
+hard pressure in right upper arm worse motion,prematurely old,1.0,1
+hard pressure in right upper arm worse motion,rending in joints especially small joints,1.0,1
+hard pressure in right upper arm worse motion,weak sexual power,1.0,1
+hard pressure in right upper arm worse motion,hard pressure in right axilla worse touch,1.0,1
+hard pressure in right upper arm worse motion,fine lancinations in right hip joint,1.0,1
+hard pressure in right upper arm worse motion,cracking noise in vertebrae,1.0,1
+hard pressure in right upper arm worse motion,gouty swelling of small joints,1.0,1
+hard pressure in right upper arm worse motion,tearing in foot joints worse walking,1.0,1
+hard pressure in right upper arm worse motion,absent-mindedness,1.0,1
+hard pressure in right upper arm worse motion,stitches left side near sacrum,1.0,1
+hard pressure in right upper arm worse motion,indifference,1.0,1
+hard pressure in right upper arm worse motion,rending in toe joints worse walking,1.0,1
+hard pressure in right upper arm worse motion,swollen thighs toward evening,1.0,1
+hard pressure in right upper arm worse motion,acute sharp stitches in coccyx,1.0,1
+hard pressure in right upper arm worse motion,rheumatism in feet,1.0,1
+hard pressure in right upper arm worse motion,comprehension difficulty,1.0,1
+hard pressure in right upper arm worse motion,hard pressure in right upper arm worse touch,1.0,1
+hard pressure in right upper arm worse motion,rheumatism of hands,1.0,1
+hard pressure in right upper arm worse motion,tearing in joints especially small joints,1.0,1
+hard pressure in right upper arm worse motion,sticking in great toe,1.0,1
+hard pressure in right upper arm worse motion,tired thighs toward evening,1.0,1
+hard pressure in right upper arm worse motion,tearing pain in finger joints,1.0,1
+hard pressure in right upper arm worse motion,prematurely old patients,1.0,1
+hard pressure in right upper arm worse motion,fine lancinations in soles,1.0,1
+hard pressure in right upper arm worse motion,sticking in legs,1.0,1
+hard pressure in right upper arm worse motion,impatience,1.0,1
+hard pressure in right upper arm worse motion,pain in left hip better rest,1.0,1
+hard pressure in right upper arm worse motion,hard pressure in right axilla worse motion,1.0,1
+hard pressure in right upper arm worse motion,memory loss,1.0,1
+hard pressure in right upper arm worse motion,rending in foot joints worse walking,1.0,1
+hard pressure in right upper arm worse motion,prostatic fluid discharge,1.0,1
+hard pressure in right upper arm worse motion,stitches left side near coccyx,1.0,1
+stitches left side near coccyx,sexual debility,1.0,1
+stitches left side near coccyx,gouty swelling of finger joints,1.0,1
+stitches left side near coccyx,debauched patients,1.0,1
+stitches left side near coccyx,hard pressure in right upper arm worse motion,1.0,1
+stitches left side near coccyx,tearing in toe joints worse walking,1.0,1
+stitches left side near coccyx,inflammatory rheumatic swelling,1.0,1
+stitches left side near coccyx,prematurely old,1.0,1
+stitches left side near coccyx,rending in joints especially small joints,1.0,1
+stitches left side near coccyx,weak sexual power,1.0,1
+stitches left side near coccyx,hard pressure in right axilla worse touch,1.0,1
+stitches left side near coccyx,fine lancinations in right hip joint,1.0,1
+stitches left side near coccyx,cracking noise in vertebrae,1.0,1
+stitches left side near coccyx,gouty swelling of small joints,1.0,1
+stitches left side near coccyx,tearing in foot joints worse walking,1.0,1
+stitches left side near coccyx,absent-mindedness,1.0,1
+stitches left side near coccyx,stitches left side near sacrum,1.0,1
+stitches left side near coccyx,indifference,1.0,1
+stitches left side near coccyx,rending in toe joints worse walking,1.0,1
+stitches left side near coccyx,swollen thighs toward evening,1.0,1
+stitches left side near coccyx,acute sharp stitches in coccyx,1.0,1
+stitches left side near coccyx,rheumatism in feet,1.0,1
+stitches left side near coccyx,comprehension difficulty,1.0,1
+stitches left side near coccyx,hard pressure in right upper arm worse touch,1.0,1
+stitches left side near coccyx,rheumatism of hands,1.0,1
+stitches left side near coccyx,tearing in joints especially small joints,1.0,1
+stitches left side near coccyx,sticking in great toe,1.0,1
+stitches left side near coccyx,tired thighs toward evening,1.0,1
+stitches left side near coccyx,tearing pain in finger joints,1.0,1
+stitches left side near coccyx,prematurely old patients,1.0,1
+stitches left side near coccyx,fine lancinations in soles,1.0,1
+stitches left side near coccyx,sticking in legs,1.0,1
+stitches left side near coccyx,impatience,1.0,1
+stitches left side near coccyx,pain in left hip better rest,1.0,1
+stitches left side near coccyx,hard pressure in right axilla worse motion,1.0,1
+stitches left side near coccyx,memory loss,1.0,1
+stitches left side near coccyx,rending in foot joints worse walking,1.0,1
+stitches left side near coccyx,prostatic fluid discharge,1.0,1
+acute sharp stitches in coccyx,sexual debility,1.0,1
+acute sharp stitches in coccyx,gouty swelling of finger joints,1.0,1
+acute sharp stitches in coccyx,debauched patients,1.0,1
+acute sharp stitches in coccyx,hard pressure in right upper arm worse motion,1.0,1
+acute sharp stitches in coccyx,tearing in toe joints worse walking,1.0,1
+acute sharp stitches in coccyx,inflammatory rheumatic swelling,1.0,1
+acute sharp stitches in coccyx,prematurely old,1.0,1
+acute sharp stitches in coccyx,rending in joints especially small joints,1.0,1
+acute sharp stitches in coccyx,weak sexual power,1.0,1
+acute sharp stitches in coccyx,hard pressure in right axilla worse touch,1.0,1
+acute sharp stitches in coccyx,fine lancinations in right hip joint,1.0,1
+acute sharp stitches in coccyx,cracking noise in vertebrae,1.0,1
+acute sharp stitches in coccyx,gouty swelling of small joints,1.0,1
+acute sharp stitches in coccyx,tearing in foot joints worse walking,1.0,1
+acute sharp stitches in coccyx,absent-mindedness,1.0,1
+acute sharp stitches in coccyx,stitches left side near sacrum,1.0,1
+acute sharp stitches in coccyx,indifference,1.0,1
+acute sharp stitches in coccyx,rending in toe joints worse walking,1.0,1
+acute sharp stitches in coccyx,swollen thighs toward evening,1.0,1
+acute sharp stitches in coccyx,rheumatism in feet,1.0,1
+acute sharp stitches in coccyx,comprehension difficulty,1.0,1
+acute sharp stitches in coccyx,hard pressure in right upper arm worse touch,1.0,1
+acute sharp stitches in coccyx,rheumatism of hands,1.0,1
+acute sharp stitches in coccyx,tearing in joints especially small joints,1.0,1
+acute sharp stitches in coccyx,sticking in great toe,1.0,1
+acute sharp stitches in coccyx,tired thighs toward evening,1.0,1
+acute sharp stitches in coccyx,tearing pain in finger joints,1.0,1
+acute sharp stitches in coccyx,prematurely old patients,1.0,1
+acute sharp stitches in coccyx,fine lancinations in soles,1.0,1
+acute sharp stitches in coccyx,sticking in legs,1.0,1
+acute sharp stitches in coccyx,impatience,1.0,1
+acute sharp stitches in coccyx,pain in left hip better rest,1.0,1
+acute sharp stitches in coccyx,hard pressure in right axilla worse motion,1.0,1
+acute sharp stitches in coccyx,memory loss,1.0,1
+acute sharp stitches in coccyx,rending in foot joints worse walking,1.0,1
+acute sharp stitches in coccyx,prostatic fluid discharge,1.0,1
+acute sharp stitches in coccyx,stitches left side near coccyx,1.0,1
+rheumatism of hands,sexual debility,1.0,1
+rheumatism of hands,gouty swelling of finger joints,1.0,1
+rheumatism of hands,debauched patients,1.0,1
+rheumatism of hands,hard pressure in right upper arm worse motion,1.0,1
+rheumatism of hands,tearing in toe joints worse walking,1.0,1
+rheumatism of hands,inflammatory rheumatic swelling,1.0,1
+rheumatism of hands,prematurely old,1.0,1
+rheumatism of hands,rending in joints especially small joints,1.0,1
+rheumatism of hands,weak sexual power,1.0,1
+rheumatism of hands,hard pressure in right axilla worse touch,1.0,1
+rheumatism of hands,fine lancinations in right hip joint,1.0,1
+rheumatism of hands,cracking noise in vertebrae,1.0,1
+rheumatism of hands,gouty swelling of small joints,1.0,1
+rheumatism of hands,tearing in foot joints worse walking,1.0,1
+rheumatism of hands,absent-mindedness,1.0,1
+rheumatism of hands,stitches left side near sacrum,1.0,1
+rheumatism of hands,indifference,1.0,1
+rheumatism of hands,rending in toe joints worse walking,1.0,1
+rheumatism of hands,swollen thighs toward evening,1.0,1
+rheumatism of hands,acute sharp stitches in coccyx,1.0,1
+rheumatism of hands,rheumatism in feet,1.0,1
+rheumatism of hands,comprehension difficulty,1.0,1
+rheumatism of hands,hard pressure in right upper arm worse touch,1.0,1
+rheumatism of hands,tearing in joints especially small joints,1.0,1
+rheumatism of hands,sticking in great toe,1.0,1
+rheumatism of hands,tired thighs toward evening,1.0,1
+rheumatism of hands,tearing pain in finger joints,1.0,1
+rheumatism of hands,prematurely old patients,1.0,1
+rheumatism of hands,fine lancinations in soles,1.0,1
+rheumatism of hands,sticking in legs,1.0,1
+rheumatism of hands,impatience,1.0,1
+rheumatism of hands,pain in left hip better rest,1.0,1
+rheumatism of hands,hard pressure in right axilla worse motion,1.0,1
+rheumatism of hands,memory loss,1.0,1
+rheumatism of hands,rending in foot joints worse walking,1.0,1
+rheumatism of hands,prostatic fluid discharge,1.0,1
+rheumatism of hands,stitches left side near coccyx,1.0,1
+sticking in great toe,sexual debility,1.0,1
+sticking in great toe,gouty swelling of finger joints,1.0,1
+sticking in great toe,debauched patients,1.0,1
+sticking in great toe,hard pressure in right upper arm worse motion,1.0,1
+sticking in great toe,tearing in toe joints worse walking,1.0,1
+sticking in great toe,inflammatory rheumatic swelling,1.0,1
+sticking in great toe,prematurely old,1.0,1
+sticking in great toe,rending in joints especially small joints,1.0,1
+sticking in great toe,weak sexual power,1.0,1
+sticking in great toe,hard pressure in right axilla worse touch,1.0,1
+sticking in great toe,fine lancinations in right hip joint,1.0,1
+sticking in great toe,cracking noise in vertebrae,1.0,1
+sticking in great toe,gouty swelling of small joints,1.0,1
+sticking in great toe,tearing in foot joints worse walking,1.0,1
+sticking in great toe,absent-mindedness,1.0,1
+sticking in great toe,stitches left side near sacrum,1.0,1
+sticking in great toe,indifference,1.0,1
+sticking in great toe,rending in toe joints worse walking,1.0,1
+sticking in great toe,swollen thighs toward evening,1.0,1
+sticking in great toe,acute sharp stitches in coccyx,1.0,1
+sticking in great toe,rheumatism in feet,1.0,1
+sticking in great toe,comprehension difficulty,1.0,1
+sticking in great toe,hard pressure in right upper arm worse touch,1.0,1
+sticking in great toe,rheumatism of hands,1.0,1
+sticking in great toe,tearing in joints especially small joints,1.0,1
+sticking in great toe,tired thighs toward evening,1.0,1
+sticking in great toe,tearing pain in finger joints,1.0,1
+sticking in great toe,prematurely old patients,1.0,1
+sticking in great toe,fine lancinations in soles,1.0,1
+sticking in great toe,sticking in legs,1.0,1
+sticking in great toe,impatience,1.0,1
+sticking in great toe,pain in left hip better rest,1.0,1
+sticking in great toe,hard pressure in right axilla worse motion,1.0,1
+sticking in great toe,memory loss,1.0,1
+sticking in great toe,rending in foot joints worse walking,1.0,1
+sticking in great toe,prostatic fluid discharge,1.0,1
+sticking in great toe,stitches left side near coccyx,1.0,1
+hard pressure in right axilla worse motion,sexual debility,1.0,1
+hard pressure in right axilla worse motion,gouty swelling of finger joints,1.0,1
+hard pressure in right axilla worse motion,debauched patients,1.0,1
+hard pressure in right axilla worse motion,hard pressure in right upper arm worse motion,1.0,1
+hard pressure in right axilla worse motion,tearing in toe joints worse walking,1.0,1
+hard pressure in right axilla worse motion,inflammatory rheumatic swelling,1.0,1
+hard pressure in right axilla worse motion,prematurely old,1.0,1
+hard pressure in right axilla worse motion,rending in joints especially small joints,1.0,1
+hard pressure in right axilla worse motion,weak sexual power,1.0,1
+hard pressure in right axilla worse motion,hard pressure in right axilla worse touch,1.0,1
+hard pressure in right axilla worse motion,fine lancinations in right hip joint,1.0,1
+hard pressure in right axilla worse motion,cracking noise in vertebrae,1.0,1
+hard pressure in right axilla worse motion,gouty swelling of small joints,1.0,1
+hard pressure in right axilla worse motion,tearing in foot joints worse walking,1.0,1
+hard pressure in right axilla worse motion,absent-mindedness,1.0,1
+hard pressure in right axilla worse motion,stitches left side near sacrum,1.0,1
+hard pressure in right axilla worse motion,indifference,1.0,1
+hard pressure in right axilla worse motion,rending in toe joints worse walking,1.0,1
+hard pressure in right axilla worse motion,swollen thighs toward evening,1.0,1
+hard pressure in right axilla worse motion,acute sharp stitches in coccyx,1.0,1
+hard pressure in right axilla worse motion,rheumatism in feet,1.0,1
+hard pressure in right axilla worse motion,comprehension difficulty,1.0,1
+hard pressure in right axilla worse motion,hard pressure in right upper arm worse touch,1.0,1
+hard pressure in right axilla worse motion,rheumatism of hands,1.0,1
+hard pressure in right axilla worse motion,tearing in joints especially small joints,1.0,1
+hard pressure in right axilla worse motion,sticking in great toe,1.0,1
+hard pressure in right axilla worse motion,tired thighs toward evening,1.0,1
+hard pressure in right axilla worse motion,tearing pain in finger joints,1.0,1
+hard pressure in right axilla worse motion,prematurely old patients,1.0,1
+hard pressure in right axilla worse motion,fine lancinations in soles,1.0,1
+hard pressure in right axilla worse motion,sticking in legs,1.0,1
+hard pressure in right axilla worse motion,impatience,1.0,1
+hard pressure in right axilla worse motion,pain in left hip better rest,1.0,1
+hard pressure in right axilla worse motion,memory loss,1.0,1
+hard pressure in right axilla worse motion,rending in foot joints worse walking,1.0,1
+hard pressure in right axilla worse motion,prostatic fluid discharge,1.0,1
+hard pressure in right axilla worse motion,stitches left side near coccyx,1.0,1
+memory loss,sexual debility,1.0,1
+memory loss,gouty swelling of finger joints,1.0,1
+memory loss,debauched patients,1.0,1
+memory loss,hard pressure in right upper arm worse motion,1.0,1
+memory loss,tearing in toe joints worse walking,1.0,1
+memory loss,inflammatory rheumatic swelling,1.0,1
+memory loss,prematurely old,1.0,1
+memory loss,rending in joints especially small joints,1.0,1
+memory loss,weak sexual power,1.0,1
+memory loss,hard pressure in right axilla worse touch,1.0,1
+memory loss,fine lancinations in right hip joint,1.0,1
+memory loss,cracking noise in vertebrae,1.0,1
+memory loss,gouty swelling of small joints,1.0,1
+memory loss,tearing in foot joints worse walking,1.0,1
+memory loss,absent-mindedness,1.0,1
+memory loss,stitches left side near sacrum,1.0,1
+memory loss,indifference,1.0,1
+memory loss,rending in toe joints worse walking,1.0,1
+memory loss,swollen thighs toward evening,1.0,1
+memory loss,acute sharp stitches in coccyx,1.0,1
+memory loss,rheumatism in feet,1.0,1
+memory loss,comprehension difficulty,1.0,1
+memory loss,hard pressure in right upper arm worse touch,1.0,1
+memory loss,rheumatism of hands,1.0,1
+memory loss,tearing in joints especially small joints,1.0,1
+memory loss,sticking in great toe,1.0,1
+memory loss,tired thighs toward evening,1.0,1
+memory loss,tearing pain in finger joints,1.0,1
+memory loss,prematurely old patients,1.0,1
+memory loss,fine lancinations in soles,1.0,1
+memory loss,sticking in legs,1.0,1
+memory loss,impatience,1.0,1
+memory loss,pain in left hip better rest,1.0,1
+memory loss,hard pressure in right axilla worse motion,1.0,1
+memory loss,rending in foot joints worse walking,1.0,1
+memory loss,prostatic fluid discharge,1.0,1
+memory loss,stitches left side near coccyx,1.0,1
+sexual debility,gouty swelling of finger joints,1.0,1
+sexual debility,debauched patients,1.0,1
+sexual debility,hard pressure in right upper arm worse motion,1.0,1
+sexual debility,tearing in toe joints worse walking,1.0,1
+sexual debility,inflammatory rheumatic swelling,1.0,1
+sexual debility,prematurely old,1.0,1
+sexual debility,rending in joints especially small joints,1.0,1
+sexual debility,weak sexual power,1.0,1
+sexual debility,hard pressure in right axilla worse touch,1.0,1
+sexual debility,fine lancinations in right hip joint,1.0,1
+sexual debility,cracking noise in vertebrae,1.0,1
+sexual debility,gouty swelling of small joints,1.0,1
+sexual debility,tearing in foot joints worse walking,1.0,1
+sexual debility,absent-mindedness,1.0,1
+sexual debility,stitches left side near sacrum,1.0,1
+sexual debility,indifference,1.0,1
+sexual debility,rending in toe joints worse walking,1.0,1
+sexual debility,swollen thighs toward evening,1.0,1
+sexual debility,acute sharp stitches in coccyx,1.0,1
+sexual debility,rheumatism in feet,1.0,1
+sexual debility,comprehension difficulty,1.0,1
+sexual debility,hard pressure in right upper arm worse touch,1.0,1
+sexual debility,rheumatism of hands,1.0,1
+sexual debility,tearing in joints especially small joints,1.0,1
+sexual debility,sticking in great toe,1.0,1
+sexual debility,tired thighs toward evening,1.0,1
+sexual debility,tearing pain in finger joints,1.0,1
+sexual debility,prematurely old patients,1.0,1
+sexual debility,fine lancinations in soles,1.0,1
+sexual debility,sticking in legs,1.0,1
+sexual debility,impatience,1.0,1
+sexual debility,pain in left hip better rest,1.0,1
+sexual debility,hard pressure in right axilla worse motion,1.0,1
+sexual debility,memory loss,1.0,1
+sexual debility,rending in foot joints worse walking,1.0,1
+sexual debility,prostatic fluid discharge,1.0,1
+sexual debility,stitches left side near coccyx,1.0,1
+rheumatism in feet,sexual debility,0.5,1
+rheumatism in feet,gouty swelling of finger joints,0.5,1
+rheumatism in feet,debauched patients,0.5,1
+rheumatism in feet,hard pressure in right upper arm worse motion,0.5,1
+rheumatism in feet,tearing in toe joints worse walking,0.5,1
+rheumatism in feet,inflammatory rheumatic swelling,0.5,1
+rheumatism in feet,prematurely old,0.5,1
+rheumatism in feet,rending in joints especially small joints,0.5,1
+rheumatism in feet,weak sexual power,0.5,1
+rheumatism in feet,hard pressure in right axilla worse touch,0.5,1
+rheumatism in feet,fine lancinations in right hip joint,0.5,1
+rheumatism in feet,cracking noise in vertebrae,0.5,1
+rheumatism in feet,gouty swelling of small joints,0.5,1
+rheumatism in feet,tearing in foot joints worse walking,0.5,1
+rheumatism in feet,absent-mindedness,0.5,1
+rheumatism in feet,stitches left side near sacrum,0.5,1
+rheumatism in feet,indifference,0.5,1
+rheumatism in feet,rending in toe joints worse walking,0.5,1
+rheumatism in feet,swollen thighs toward evening,0.5,1
+rheumatism in feet,acute sharp stitches in coccyx,0.5,1
+rheumatism in feet,comprehension difficulty,0.5,1
+rheumatism in feet,hard pressure in right upper arm worse touch,0.5,1
+rheumatism in feet,rheumatism of hands,0.5,1
+rheumatism in feet,tearing in joints especially small joints,0.5,1
+rheumatism in feet,sticking in great toe,0.5,1
+rheumatism in feet,tired thighs toward evening,0.5,1
+rheumatism in feet,tearing pain in finger joints,0.5,1
+rheumatism in feet,prematurely old patients,0.5,1
+rheumatism in feet,fine lancinations in soles,0.5,1
+rheumatism in feet,sticking in legs,0.5,1
+rheumatism in feet,impatience,0.5,1
+rheumatism in feet,pain in left hip better rest,0.5,1
+rheumatism in feet,hard pressure in right axilla worse motion,0.5,1
+rheumatism in feet,memory loss,0.5,1
+rheumatism in feet,rending in foot joints worse walking,0.5,1
+rheumatism in feet,prostatic fluid discharge,0.5,1
+rheumatism in feet,stitches left side near coccyx,0.5,1
+debauched patients,sexual debility,1.0,1
+debauched patients,gouty swelling of finger joints,1.0,1
+debauched patients,hard pressure in right upper arm worse motion,1.0,1
+debauched patients,tearing in toe joints worse walking,1.0,1
+debauched patients,inflammatory rheumatic swelling,1.0,1
+debauched patients,prematurely old,1.0,1
+debauched patients,rending in joints especially small joints,1.0,1
+debauched patients,weak sexual power,1.0,1
+debauched patients,hard pressure in right axilla worse touch,1.0,1
+debauched patients,fine lancinations in right hip joint,1.0,1
+debauched patients,cracking noise in vertebrae,1.0,1
+debauched patients,gouty swelling of small joints,1.0,1
+debauched patients,tearing in foot joints worse walking,1.0,1
+debauched patients,absent-mindedness,1.0,1
+debauched patients,stitches left side near sacrum,1.0,1
+debauched patients,indifference,1.0,1
+debauched patients,rending in toe joints worse walking,1.0,1
+debauched patients,swollen thighs toward evening,1.0,1
+debauched patients,acute sharp stitches in coccyx,1.0,1
+debauched patients,rheumatism in feet,1.0,1
+debauched patients,comprehension difficulty,1.0,1
+debauched patients,hard pressure in right upper arm worse touch,1.0,1
+debauched patients,rheumatism of hands,1.0,1
+debauched patients,tearing in joints especially small joints,1.0,1
+debauched patients,sticking in great toe,1.0,1
+debauched patients,tired thighs toward evening,1.0,1
+debauched patients,tearing pain in finger joints,1.0,1
+debauched patients,prematurely old patients,1.0,1
+debauched patients,fine lancinations in soles,1.0,1
+debauched patients,sticking in legs,1.0,1
+debauched patients,impatience,1.0,1
+debauched patients,pain in left hip better rest,1.0,1
+debauched patients,hard pressure in right axilla worse motion,1.0,1
+debauched patients,memory loss,1.0,1
+debauched patients,rending in foot joints worse walking,1.0,1
+debauched patients,prostatic fluid discharge,1.0,1
+debauched patients,stitches left side near coccyx,1.0,1
+sticking in legs,sexual debility,1.0,1
+sticking in legs,gouty swelling of finger joints,1.0,1
+sticking in legs,debauched patients,1.0,1
+sticking in legs,hard pressure in right upper arm worse motion,1.0,1
+sticking in legs,tearing in toe joints worse walking,1.0,1
+sticking in legs,inflammatory rheumatic swelling,1.0,1
+sticking in legs,prematurely old,1.0,1
+sticking in legs,rending in joints especially small joints,1.0,1
+sticking in legs,weak sexual power,1.0,1
+sticking in legs,hard pressure in right axilla worse touch,1.0,1
+sticking in legs,fine lancinations in right hip joint,1.0,1
+sticking in legs,cracking noise in vertebrae,1.0,1
+sticking in legs,gouty swelling of small joints,1.0,1
+sticking in legs,tearing in foot joints worse walking,1.0,1
+sticking in legs,absent-mindedness,1.0,1
+sticking in legs,stitches left side near sacrum,1.0,1
+sticking in legs,indifference,1.0,1
+sticking in legs,rending in toe joints worse walking,1.0,1
+sticking in legs,swollen thighs toward evening,1.0,1
+sticking in legs,acute sharp stitches in coccyx,1.0,1
+sticking in legs,rheumatism in feet,1.0,1
+sticking in legs,comprehension difficulty,1.0,1
+sticking in legs,hard pressure in right upper arm worse touch,1.0,1
+sticking in legs,rheumatism of hands,1.0,1
+sticking in legs,tearing in joints especially small joints,1.0,1
+sticking in legs,sticking in great toe,1.0,1
+sticking in legs,tired thighs toward evening,1.0,1
+sticking in legs,tearing pain in finger joints,1.0,1
+sticking in legs,prematurely old patients,1.0,1
+sticking in legs,fine lancinations in soles,1.0,1
+sticking in legs,impatience,1.0,1
+sticking in legs,pain in left hip better rest,1.0,1
+sticking in legs,hard pressure in right axilla worse motion,1.0,1
+sticking in legs,memory loss,1.0,1
+sticking in legs,rending in foot joints worse walking,1.0,1
+sticking in legs,prostatic fluid discharge,1.0,1
+sticking in legs,stitches left side near coccyx,1.0,1
+prematurely old patients,sexual debility,1.0,1
+prematurely old patients,gouty swelling of finger joints,1.0,1
+prematurely old patients,debauched patients,1.0,1
+prematurely old patients,hard pressure in right upper arm worse motion,1.0,1
+prematurely old patients,tearing in toe joints worse walking,1.0,1
+prematurely old patients,inflammatory rheumatic swelling,1.0,1
+prematurely old patients,prematurely old,1.0,1
+prematurely old patients,rending in joints especially small joints,1.0,1
+prematurely old patients,weak sexual power,1.0,1
+prematurely old patients,hard pressure in right axilla worse touch,1.0,1
+prematurely old patients,fine lancinations in right hip joint,1.0,1
+prematurely old patients,cracking noise in vertebrae,1.0,1
+prematurely old patients,gouty swelling of small joints,1.0,1
+prematurely old patients,tearing in foot joints worse walking,1.0,1
+prematurely old patients,absent-mindedness,1.0,1
+prematurely old patients,stitches left side near sacrum,1.0,1
+prematurely old patients,indifference,1.0,1
+prematurely old patients,rending in toe joints worse walking,1.0,1
+prematurely old patients,swollen thighs toward evening,1.0,1
+prematurely old patients,acute sharp stitches in coccyx,1.0,1
+prematurely old patients,rheumatism in feet,1.0,1
+prematurely old patients,comprehension difficulty,1.0,1
+prematurely old patients,hard pressure in right upper arm worse touch,1.0,1
+prematurely old patients,rheumatism of hands,1.0,1
+prematurely old patients,tearing in joints especially small joints,1.0,1
+prematurely old patients,sticking in great toe,1.0,1
+prematurely old patients,tired thighs toward evening,1.0,1
+prematurely old patients,tearing pain in finger joints,1.0,1
+prematurely old patients,fine lancinations in soles,1.0,1
+prematurely old patients,sticking in legs,1.0,1
+prematurely old patients,impatience,1.0,1
+prematurely old patients,pain in left hip better rest,1.0,1
+prematurely old patients,hard pressure in right axilla worse motion,1.0,1
+prematurely old patients,memory loss,1.0,1
+prematurely old patients,rending in foot joints worse walking,1.0,1
+prematurely old patients,prostatic fluid discharge,1.0,1
+prematurely old patients,stitches left side near coccyx,1.0,1
+comprehension difficulty,sexual debility,1.0,1
+comprehension difficulty,gouty swelling of finger joints,1.0,1
+comprehension difficulty,debauched patients,1.0,1
+comprehension difficulty,hard pressure in right upper arm worse motion,1.0,1
+comprehension difficulty,tearing in toe joints worse walking,1.0,1
+comprehension difficulty,inflammatory rheumatic swelling,1.0,1
+comprehension difficulty,prematurely old,1.0,1
+comprehension difficulty,rending in joints especially small joints,1.0,1
+comprehension difficulty,weak sexual power,1.0,1
+comprehension difficulty,hard pressure in right axilla worse touch,1.0,1
+comprehension difficulty,fine lancinations in right hip joint,1.0,1
+comprehension difficulty,cracking noise in vertebrae,1.0,1
+comprehension difficulty,gouty swelling of small joints,1.0,1
+comprehension difficulty,tearing in foot joints worse walking,1.0,1
+comprehension difficulty,absent-mindedness,1.0,1
+comprehension difficulty,stitches left side near sacrum,1.0,1
+comprehension difficulty,indifference,1.0,1
+comprehension difficulty,rending in toe joints worse walking,1.0,1
+comprehension difficulty,swollen thighs toward evening,1.0,1
+comprehension difficulty,acute sharp stitches in coccyx,1.0,1
+comprehension difficulty,rheumatism in feet,1.0,1
+comprehension difficulty,hard pressure in right upper arm worse touch,1.0,1
+comprehension difficulty,rheumatism of hands,1.0,1
+comprehension difficulty,tearing in joints especially small joints,1.0,1
+comprehension difficulty,sticking in great toe,1.0,1
+comprehension difficulty,tired thighs toward evening,1.0,1
+comprehension difficulty,tearing pain in finger joints,1.0,1
+comprehension difficulty,prematurely old patients,1.0,1
+comprehension difficulty,fine lancinations in soles,1.0,1
+comprehension difficulty,sticking in legs,1.0,1
+comprehension difficulty,impatience,1.0,1
+comprehension difficulty,pain in left hip better rest,1.0,1
+comprehension difficulty,hard pressure in right axilla worse motion,1.0,1
+comprehension difficulty,memory loss,1.0,1
+comprehension difficulty,rending in foot joints worse walking,1.0,1
+comprehension difficulty,prostatic fluid discharge,1.0,1
+comprehension difficulty,stitches left side near coccyx,1.0,1
+pain in left hip better rest,sexual debility,1.0,1
+pain in left hip better rest,gouty swelling of finger joints,1.0,1
+pain in left hip better rest,debauched patients,1.0,1
+pain in left hip better rest,hard pressure in right upper arm worse motion,1.0,1
+pain in left hip better rest,tearing in toe joints worse walking,1.0,1
+pain in left hip better rest,inflammatory rheumatic swelling,1.0,1
+pain in left hip better rest,prematurely old,1.0,1
+pain in left hip better rest,rending in joints especially small joints,1.0,1
+pain in left hip better rest,weak sexual power,1.0,1
+pain in left hip better rest,hard pressure in right axilla worse touch,1.0,1
+pain in left hip better rest,fine lancinations in right hip joint,1.0,1
+pain in left hip better rest,cracking noise in vertebrae,1.0,1
+pain in left hip better rest,gouty swelling of small joints,1.0,1
+pain in left hip better rest,tearing in foot joints worse walking,1.0,1
+pain in left hip better rest,absent-mindedness,1.0,1
+pain in left hip better rest,stitches left side near sacrum,1.0,1
+pain in left hip better rest,indifference,1.0,1
+pain in left hip better rest,rending in toe joints worse walking,1.0,1
+pain in left hip better rest,swollen thighs toward evening,1.0,1
+pain in left hip better rest,acute sharp stitches in coccyx,1.0,1
+pain in left hip better rest,rheumatism in feet,1.0,1
+pain in left hip better rest,comprehension difficulty,1.0,1
+pain in left hip better rest,hard pressure in right upper arm worse touch,1.0,1
+pain in left hip better rest,rheumatism of hands,1.0,1
+pain in left hip better rest,tearing in joints especially small joints,1.0,1
+pain in left hip better rest,sticking in great toe,1.0,1
+pain in left hip better rest,tired thighs toward evening,1.0,1
+pain in left hip better rest,tearing pain in finger joints,1.0,1
+pain in left hip better rest,prematurely old patients,1.0,1
+pain in left hip better rest,fine lancinations in soles,1.0,1
+pain in left hip better rest,sticking in legs,1.0,1
+pain in left hip better rest,impatience,1.0,1
+pain in left hip better rest,hard pressure in right axilla worse motion,1.0,1
+pain in left hip better rest,memory loss,1.0,1
+pain in left hip better rest,rending in foot joints worse walking,1.0,1
+pain in left hip better rest,prostatic fluid discharge,1.0,1
+pain in left hip better rest,stitches left side near coccyx,1.0,1
+stitches left side near sacrum,sexual debility,1.0,1
+stitches left side near sacrum,gouty swelling of finger joints,1.0,1
+stitches left side near sacrum,debauched patients,1.0,1
+stitches left side near sacrum,hard pressure in right upper arm worse motion,1.0,1
+stitches left side near sacrum,tearing in toe joints worse walking,1.0,1
+stitches left side near sacrum,inflammatory rheumatic swelling,1.0,1
+stitches left side near sacrum,prematurely old,1.0,1
+stitches left side near sacrum,rending in joints especially small joints,1.0,1
+stitches left side near sacrum,weak sexual power,1.0,1
+stitches left side near sacrum,hard pressure in right axilla worse touch,1.0,1
+stitches left side near sacrum,fine lancinations in right hip joint,1.0,1
+stitches left side near sacrum,cracking noise in vertebrae,1.0,1
+stitches left side near sacrum,gouty swelling of small joints,1.0,1
+stitches left side near sacrum,tearing in foot joints worse walking,1.0,1
+stitches left side near sacrum,absent-mindedness,1.0,1
+stitches left side near sacrum,indifference,1.0,1
+stitches left side near sacrum,rending in toe joints worse walking,1.0,1
+stitches left side near sacrum,swollen thighs toward evening,1.0,1
+stitches left side near sacrum,acute sharp stitches in coccyx,1.0,1
+stitches left side near sacrum,rheumatism in feet,1.0,1
+stitches left side near sacrum,comprehension difficulty,1.0,1
+stitches left side near sacrum,hard pressure in right upper arm worse touch,1.0,1
+stitches left side near sacrum,rheumatism of hands,1.0,1
+stitches left side near sacrum,tearing in joints especially small joints,1.0,1
+stitches left side near sacrum,sticking in great toe,1.0,1
+stitches left side near sacrum,tired thighs toward evening,1.0,1
+stitches left side near sacrum,tearing pain in finger joints,1.0,1
+stitches left side near sacrum,prematurely old patients,1.0,1
+stitches left side near sacrum,fine lancinations in soles,1.0,1
+stitches left side near sacrum,sticking in legs,1.0,1
+stitches left side near sacrum,impatience,1.0,1
+stitches left side near sacrum,pain in left hip better rest,1.0,1
+stitches left side near sacrum,hard pressure in right axilla worse motion,1.0,1
+stitches left side near sacrum,memory loss,1.0,1
+stitches left side near sacrum,rending in foot joints worse walking,1.0,1
+stitches left side near sacrum,prostatic fluid discharge,1.0,1
+stitches left side near sacrum,stitches left side near coccyx,1.0,1

@@ -1,0 +1,450 @@
+### Cluster 61 — Symptoms (21)
+Symptom,Frequency
+pain in great toe as if it were being pinched,1
+fidgets in legs and arms,1
+extremely sleepy during day,1
+legs become restless as if insensible,1
+rheumatic wandering pains in limbs,1
+rheumatic pains from hips to feet,1
+arthritic pain in heel,1
+pain under the short ribs,1
+left arm very restless,1
+rheumatic colic pain from cold,1
+associated with much pressure and urging to urinate,1
+sleepy even in company,1
+better near warm stove,1
+choking while eating or drinking,1
+rheumatic pains in right arm over deltoid muscle,1
+frequent passing of clear urine,1
+rheumatic pain in region of liver,1
+better by motion,1
+marked lameness with all pains,1
+acute sensitiveness,1
+rush of warmth to various parts,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+mephitis,21
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+pain in great toe as if it were being pinched,fidgets in legs and arms,1.0,1
+pain in great toe as if it were being pinched,extremely sleepy during day,1.0,1
+pain in great toe as if it were being pinched,legs become restless as if insensible,1.0,1
+pain in great toe as if it were being pinched,rheumatic wandering pains in limbs,1.0,1
+pain in great toe as if it were being pinched,rheumatic pains from hips to feet,1.0,1
+pain in great toe as if it were being pinched,arthritic pain in heel,1.0,1
+pain in great toe as if it were being pinched,pain under the short ribs,1.0,1
+pain in great toe as if it were being pinched,left arm very restless,1.0,1
+pain in great toe as if it were being pinched,rheumatic colic pain from cold,1.0,1
+pain in great toe as if it were being pinched,associated with much pressure and urging to urinate,1.0,1
+pain in great toe as if it were being pinched,sleepy even in company,1.0,1
+pain in great toe as if it were being pinched,better near warm stove,1.0,1
+pain in great toe as if it were being pinched,choking while eating or drinking,1.0,1
+pain in great toe as if it were being pinched,rheumatic pains in right arm over deltoid muscle,1.0,1
+pain in great toe as if it were being pinched,frequent passing of clear urine,1.0,1
+pain in great toe as if it were being pinched,rheumatic pain in region of liver,1.0,1
+pain in great toe as if it were being pinched,better by motion,1.0,1
+pain in great toe as if it were being pinched,marked lameness with all pains,1.0,1
+pain in great toe as if it were being pinched,acute sensitiveness,1.0,1
+pain in great toe as if it were being pinched,rush of warmth to various parts,1.0,1
+left arm very restless,pain in great toe as if it were being pinched,1.0,1
+left arm very restless,fidgets in legs and arms,1.0,1
+left arm very restless,extremely sleepy during day,1.0,1
+left arm very restless,legs become restless as if insensible,1.0,1
+left arm very restless,rheumatic wandering pains in limbs,1.0,1
+left arm very restless,rheumatic pains from hips to feet,1.0,1
+left arm very restless,arthritic pain in heel,1.0,1
+left arm very restless,pain under the short ribs,1.0,1
+left arm very restless,rheumatic colic pain from cold,1.0,1
+left arm very restless,associated with much pressure and urging to urinate,1.0,1
+left arm very restless,sleepy even in company,1.0,1
+left arm very restless,better near warm stove,1.0,1
+left arm very restless,choking while eating or drinking,1.0,1
+left arm very restless,rheumatic pains in right arm over deltoid muscle,1.0,1
+left arm very restless,frequent passing of clear urine,1.0,1
+left arm very restless,rheumatic pain in region of liver,1.0,1
+left arm very restless,better by motion,1.0,1
+left arm very restless,marked lameness with all pains,1.0,1
+left arm very restless,acute sensitiveness,1.0,1
+left arm very restless,rush of warmth to various parts,1.0,1
+rheumatic pains in right arm over deltoid muscle,pain in great toe as if it were being pinched,1.0,1
+rheumatic pains in right arm over deltoid muscle,fidgets in legs and arms,1.0,1
+rheumatic pains in right arm over deltoid muscle,extremely sleepy during day,1.0,1
+rheumatic pains in right arm over deltoid muscle,legs become restless as if insensible,1.0,1
+rheumatic pains in right arm over deltoid muscle,rheumatic wandering pains in limbs,1.0,1
+rheumatic pains in right arm over deltoid muscle,rheumatic pains from hips to feet,1.0,1
+rheumatic pains in right arm over deltoid muscle,arthritic pain in heel,1.0,1
+rheumatic pains in right arm over deltoid muscle,pain under the short ribs,1.0,1
+rheumatic pains in right arm over deltoid muscle,left arm very restless,1.0,1
+rheumatic pains in right arm over deltoid muscle,rheumatic colic pain from cold,1.0,1
+rheumatic pains in right arm over deltoid muscle,associated with much pressure and urging to urinate,1.0,1
+rheumatic pains in right arm over deltoid muscle,sleepy even in company,1.0,1
+rheumatic pains in right arm over deltoid muscle,better near warm stove,1.0,1
+rheumatic pains in right arm over deltoid muscle,choking while eating or drinking,1.0,1
+rheumatic pains in right arm over deltoid muscle,frequent passing of clear urine,1.0,1
+rheumatic pains in right arm over deltoid muscle,rheumatic pain in region of liver,1.0,1
+rheumatic pains in right arm over deltoid muscle,better by motion,1.0,1
+rheumatic pains in right arm over deltoid muscle,marked lameness with all pains,1.0,1
+rheumatic pains in right arm over deltoid muscle,acute sensitiveness,1.0,1
+rheumatic pains in right arm over deltoid muscle,rush of warmth to various parts,1.0,1
+better by motion,pain in great toe as if it were being pinched,1.0,1
+better by motion,fidgets in legs and arms,1.0,1
+better by motion,extremely sleepy during day,1.0,1
+better by motion,legs become restless as if insensible,1.0,1
+better by motion,rheumatic wandering pains in limbs,1.0,1
+better by motion,rheumatic pains from hips to feet,1.0,1
+better by motion,arthritic pain in heel,1.0,1
+better by motion,pain under the short ribs,1.0,1
+better by motion,left arm very restless,1.0,1
+better by motion,rheumatic colic pain from cold,1.0,1
+better by motion,associated with much pressure and urging to urinate,1.0,1
+better by motion,sleepy even in company,1.0,1
+better by motion,better near warm stove,1.0,1
+better by motion,choking while eating or drinking,1.0,1
+better by motion,rheumatic pains in right arm over deltoid muscle,1.0,1
+better by motion,frequent passing of clear urine,1.0,1
+better by motion,rheumatic pain in region of liver,1.0,1
+better by motion,marked lameness with all pains,1.0,1
+better by motion,acute sensitiveness,1.0,1
+better by motion,rush of warmth to various parts,1.0,1
+acute sensitiveness,pain in great toe as if it were being pinched,1.0,1
+acute sensitiveness,fidgets in legs and arms,1.0,1
+acute sensitiveness,extremely sleepy during day,1.0,1
+acute sensitiveness,legs become restless as if insensible,1.0,1
+acute sensitiveness,rheumatic wandering pains in limbs,1.0,1
+acute sensitiveness,rheumatic pains from hips to feet,1.0,1
+acute sensitiveness,arthritic pain in heel,1.0,1
+acute sensitiveness,pain under the short ribs,1.0,1
+acute sensitiveness,left arm very restless,1.0,1
+acute sensitiveness,rheumatic colic pain from cold,1.0,1
+acute sensitiveness,associated with much pressure and urging to urinate,1.0,1
+acute sensitiveness,sleepy even in company,1.0,1
+acute sensitiveness,better near warm stove,1.0,1
+acute sensitiveness,choking while eating or drinking,1.0,1
+acute sensitiveness,rheumatic pains in right arm over deltoid muscle,1.0,1
+acute sensitiveness,frequent passing of clear urine,1.0,1
+acute sensitiveness,rheumatic pain in region of liver,1.0,1
+acute sensitiveness,better by motion,1.0,1
+acute sensitiveness,marked lameness with all pains,1.0,1
+acute sensitiveness,rush of warmth to various parts,1.0,1
+rheumatic pains from hips to feet,pain in great toe as if it were being pinched,1.0,1
+rheumatic pains from hips to feet,fidgets in legs and arms,1.0,1
+rheumatic pains from hips to feet,extremely sleepy during day,1.0,1
+rheumatic pains from hips to feet,legs become restless as if insensible,1.0,1
+rheumatic pains from hips to feet,rheumatic wandering pains in limbs,1.0,1
+rheumatic pains from hips to feet,arthritic pain in heel,1.0,1
+rheumatic pains from hips to feet,pain under the short ribs,1.0,1
+rheumatic pains from hips to feet,left arm very restless,1.0,1
+rheumatic pains from hips to feet,rheumatic colic pain from cold,1.0,1
+rheumatic pains from hips to feet,associated with much pressure and urging to urinate,1.0,1
+rheumatic pains from hips to feet,sleepy even in company,1.0,1
+rheumatic pains from hips to feet,better near warm stove,1.0,1
+rheumatic pains from hips to feet,choking while eating or drinking,1.0,1
+rheumatic pains from hips to feet,rheumatic pains in right arm over deltoid muscle,1.0,1
+rheumatic pains from hips to feet,frequent passing of clear urine,1.0,1
+rheumatic pains from hips to feet,rheumatic pain in region of liver,1.0,1
+rheumatic pains from hips to feet,better by motion,1.0,1
+rheumatic pains from hips to feet,marked lameness with all pains,1.0,1
+rheumatic pains from hips to feet,acute sensitiveness,1.0,1
+rheumatic pains from hips to feet,rush of warmth to various parts,1.0,1
+pain under the short ribs,pain in great toe as if it were being pinched,1.0,1
+pain under the short ribs,fidgets in legs and arms,1.0,1
+pain under the short ribs,extremely sleepy during day,1.0,1
+pain under the short ribs,legs become restless as if insensible,1.0,1
+pain under the short ribs,rheumatic wandering pains in limbs,1.0,1
+pain under the short ribs,rheumatic pains from hips to feet,1.0,1
+pain under the short ribs,arthritic pain in heel,1.0,1
+pain under the short ribs,left arm very restless,1.0,1
+pain under the short ribs,rheumatic colic pain from cold,1.0,1
+pain under the short ribs,associated with much pressure and urging to urinate,1.0,1
+pain under the short ribs,sleepy even in company,1.0,1
+pain under the short ribs,better near warm stove,1.0,1
+pain under the short ribs,choking while eating or drinking,1.0,1
+pain under the short ribs,rheumatic pains in right arm over deltoid muscle,1.0,1
+pain under the short ribs,frequent passing of clear urine,1.0,1
+pain under the short ribs,rheumatic pain in region of liver,1.0,1
+pain under the short ribs,better by motion,1.0,1
+pain under the short ribs,marked lameness with all pains,1.0,1
+pain under the short ribs,acute sensitiveness,1.0,1
+pain under the short ribs,rush of warmth to various parts,1.0,1
+associated with much pressure and urging to urinate,pain in great toe as if it were being pinched,1.0,1
+associated with much pressure and urging to urinate,fidgets in legs and arms,1.0,1
+associated with much pressure and urging to urinate,extremely sleepy during day,1.0,1
+associated with much pressure and urging to urinate,legs become restless as if insensible,1.0,1
+associated with much pressure and urging to urinate,rheumatic wandering pains in limbs,1.0,1
+associated with much pressure and urging to urinate,rheumatic pains from hips to feet,1.0,1
+associated with much pressure and urging to urinate,arthritic pain in heel,1.0,1
+associated with much pressure and urging to urinate,pain under the short ribs,1.0,1
+associated with much pressure and urging to urinate,left arm very restless,1.0,1
+associated with much pressure and urging to urinate,rheumatic colic pain from cold,1.0,1
+associated with much pressure and urging to urinate,sleepy even in company,1.0,1
+associated with much pressure and urging to urinate,better near warm stove,1.0,1
+associated with much pressure and urging to urinate,choking while eating or drinking,1.0,1
+associated with much pressure and urging to urinate,rheumatic pains in right arm over deltoid muscle,1.0,1
+associated with much pressure and urging to urinate,frequent passing of clear urine,1.0,1
+associated with much pressure and urging to urinate,rheumatic pain in region of liver,1.0,1
+associated with much pressure and urging to urinate,better by motion,1.0,1
+associated with much pressure and urging to urinate,marked lameness with all pains,1.0,1
+associated with much pressure and urging to urinate,acute sensitiveness,1.0,1
+associated with much pressure and urging to urinate,rush of warmth to various parts,1.0,1
+rush of warmth to various parts,pain in great toe as if it were being pinched,1.0,1
+rush of warmth to various parts,fidgets in legs and arms,1.0,1
+rush of warmth to various parts,extremely sleepy during day,1.0,1
+rush of warmth to various parts,legs become restless as if insensible,1.0,1
+rush of warmth to various parts,rheumatic wandering pains in limbs,1.0,1
+rush of warmth to various parts,rheumatic pains from hips to feet,1.0,1
+rush of warmth to various parts,arthritic pain in heel,1.0,1
+rush of warmth to various parts,pain under the short ribs,1.0,1
+rush of warmth to various parts,left arm very restless,1.0,1
+rush of warmth to various parts,rheumatic colic pain from cold,1.0,1
+rush of warmth to various parts,associated with much pressure and urging to urinate,1.0,1
+rush of warmth to various parts,sleepy even in company,1.0,1
+rush of warmth to various parts,better near warm stove,1.0,1
+rush of warmth to various parts,choking while eating or drinking,1.0,1
+rush of warmth to various parts,rheumatic pains in right arm over deltoid muscle,1.0,1
+rush of warmth to various parts,frequent passing of clear urine,1.0,1
+rush of warmth to various parts,rheumatic pain in region of liver,1.0,1
+rush of warmth to various parts,better by motion,1.0,1
+rush of warmth to various parts,marked lameness with all pains,1.0,1
+rush of warmth to various parts,acute sensitiveness,1.0,1
+rheumatic pain in region of liver,pain in great toe as if it were being pinched,1.0,1
+rheumatic pain in region of liver,fidgets in legs and arms,1.0,1
+rheumatic pain in region of liver,extremely sleepy during day,1.0,1
+rheumatic pain in region of liver,legs become restless as if insensible,1.0,1
+rheumatic pain in region of liver,rheumatic wandering pains in limbs,1.0,1
+rheumatic pain in region of liver,rheumatic pains from hips to feet,1.0,1
+rheumatic pain in region of liver,arthritic pain in heel,1.0,1
+rheumatic pain in region of liver,pain under the short ribs,1.0,1
+rheumatic pain in region of liver,left arm very restless,1.0,1
+rheumatic pain in region of liver,rheumatic colic pain from cold,1.0,1
+rheumatic pain in region of liver,associated with much pressure and urging to urinate,1.0,1
+rheumatic pain in region of liver,sleepy even in company,1.0,1
+rheumatic pain in region of liver,better near warm stove,1.0,1
+rheumatic pain in region of liver,choking while eating or drinking,1.0,1
+rheumatic pain in region of liver,rheumatic pains in right arm over deltoid muscle,1.0,1
+rheumatic pain in region of liver,frequent passing of clear urine,1.0,1
+rheumatic pain in region of liver,better by motion,1.0,1
+rheumatic pain in region of liver,marked lameness with all pains,1.0,1
+rheumatic pain in region of liver,acute sensitiveness,1.0,1
+rheumatic pain in region of liver,rush of warmth to various parts,1.0,1
+rheumatic wandering pains in limbs,pain in great toe as if it were being pinched,1.0,1
+rheumatic wandering pains in limbs,fidgets in legs and arms,1.0,1
+rheumatic wandering pains in limbs,extremely sleepy during day,1.0,1
+rheumatic wandering pains in limbs,legs become restless as if insensible,1.0,1
+rheumatic wandering pains in limbs,rheumatic pains from hips to feet,1.0,1
+rheumatic wandering pains in limbs,arthritic pain in heel,1.0,1
+rheumatic wandering pains in limbs,pain under the short ribs,1.0,1
+rheumatic wandering pains in limbs,left arm very restless,1.0,1
+rheumatic wandering pains in limbs,rheumatic colic pain from cold,1.0,1
+rheumatic wandering pains in limbs,associated with much pressure and urging to urinate,1.0,1
+rheumatic wandering pains in limbs,sleepy even in company,1.0,1
+rheumatic wandering pains in limbs,better near warm stove,1.0,1
+rheumatic wandering pains in limbs,choking while eating or drinking,1.0,1
+rheumatic wandering pains in limbs,rheumatic pains in right arm over deltoid muscle,1.0,1
+rheumatic wandering pains in limbs,frequent passing of clear urine,1.0,1
+rheumatic wandering pains in limbs,rheumatic pain in region of liver,1.0,1
+rheumatic wandering pains in limbs,better by motion,1.0,1
+rheumatic wandering pains in limbs,marked lameness with all pains,1.0,1
+rheumatic wandering pains in limbs,acute sensitiveness,1.0,1
+rheumatic wandering pains in limbs,rush of warmth to various parts,1.0,1
+rheumatic colic pain from cold,pain in great toe as if it were being pinched,1.0,1
+rheumatic colic pain from cold,fidgets in legs and arms,1.0,1
+rheumatic colic pain from cold,extremely sleepy during day,1.0,1
+rheumatic colic pain from cold,legs become restless as if insensible,1.0,1
+rheumatic colic pain from cold,rheumatic wandering pains in limbs,1.0,1
+rheumatic colic pain from cold,rheumatic pains from hips to feet,1.0,1
+rheumatic colic pain from cold,arthritic pain in heel,1.0,1
+rheumatic colic pain from cold,pain under the short ribs,1.0,1
+rheumatic colic pain from cold,left arm very restless,1.0,1
+rheumatic colic pain from cold,associated with much pressure and urging to urinate,1.0,1
+rheumatic colic pain from cold,sleepy even in company,1.0,1
+rheumatic colic pain from cold,better near warm stove,1.0,1
+rheumatic colic pain from cold,choking while eating or drinking,1.0,1
+rheumatic colic pain from cold,rheumatic pains in right arm over deltoid muscle,1.0,1
+rheumatic colic pain from cold,frequent passing of clear urine,1.0,1
+rheumatic colic pain from cold,rheumatic pain in region of liver,1.0,1
+rheumatic colic pain from cold,better by motion,1.0,1
+rheumatic colic pain from cold,marked lameness with all pains,1.0,1
+rheumatic colic pain from cold,acute sensitiveness,1.0,1
+rheumatic colic pain from cold,rush of warmth to various parts,1.0,1
+extremely sleepy during day,pain in great toe as if it were being pinched,1.0,1
+extremely sleepy during day,fidgets in legs and arms,1.0,1
+extremely sleepy during day,legs become restless as if insensible,1.0,1
+extremely sleepy during day,rheumatic wandering pains in limbs,1.0,1
+extremely sleepy during day,rheumatic pains from hips to feet,1.0,1
+extremely sleepy during day,arthritic pain in heel,1.0,1
+extremely sleepy during day,pain under the short ribs,1.0,1
+extremely sleepy during day,left arm very restless,1.0,1
+extremely sleepy during day,rheumatic colic pain from cold,1.0,1
+extremely sleepy during day,associated with much pressure and urging to urinate,1.0,1
+extremely sleepy during day,sleepy even in company,1.0,1
+extremely sleepy during day,better near warm stove,1.0,1
+extremely sleepy during day,choking while eating or drinking,1.0,1
+extremely sleepy during day,rheumatic pains in right arm over deltoid muscle,1.0,1
+extremely sleepy during day,frequent passing of clear urine,1.0,1
+extremely sleepy during day,rheumatic pain in region of liver,1.0,1
+extremely sleepy during day,better by motion,1.0,1
+extremely sleepy during day,marked lameness with all pains,1.0,1
+extremely sleepy during day,acute sensitiveness,1.0,1
+extremely sleepy during day,rush of warmth to various parts,1.0,1
+frequent passing of clear urine,pain in great toe as if it were being pinched,1.0,1
+frequent passing of clear urine,fidgets in legs and arms,1.0,1
+frequent passing of clear urine,extremely sleepy during day,1.0,1
+frequent passing of clear urine,legs become restless as if insensible,1.0,1
+frequent passing of clear urine,rheumatic wandering pains in limbs,1.0,1
+frequent passing of clear urine,rheumatic pains from hips to feet,1.0,1
+frequent passing of clear urine,arthritic pain in heel,1.0,1
+frequent passing of clear urine,pain under the short ribs,1.0,1
+frequent passing of clear urine,left arm very restless,1.0,1
+frequent passing of clear urine,rheumatic colic pain from cold,1.0,1
+frequent passing of clear urine,associated with much pressure and urging to urinate,1.0,1
+frequent passing of clear urine,sleepy even in company,1.0,1
+frequent passing of clear urine,better near warm stove,1.0,1
+frequent passing of clear urine,choking while eating or drinking,1.0,1
+frequent passing of clear urine,rheumatic pains in right arm over deltoid muscle,1.0,1
+frequent passing of clear urine,rheumatic pain in region of liver,1.0,1
+frequent passing of clear urine,better by motion,1.0,1
+frequent passing of clear urine,marked lameness with all pains,1.0,1
+frequent passing of clear urine,acute sensitiveness,1.0,1
+frequent passing of clear urine,rush of warmth to various parts,1.0,1
+better near warm stove,pain in great toe as if it were being pinched,1.0,1
+better near warm stove,fidgets in legs and arms,1.0,1
+better near warm stove,extremely sleepy during day,1.0,1
+better near warm stove,legs become restless as if insensible,1.0,1
+better near warm stove,rheumatic wandering pains in limbs,1.0,1
+better near warm stove,rheumatic pains from hips to feet,1.0,1
+better near warm stove,arthritic pain in heel,1.0,1
+better near warm stove,pain under the short ribs,1.0,1
+better near warm stove,left arm very restless,1.0,1
+better near warm stove,rheumatic colic pain from cold,1.0,1
+better near warm stove,associated with much pressure and urging to urinate,1.0,1
+better near warm stove,sleepy even in company,1.0,1
+better near warm stove,choking while eating or drinking,1.0,1
+better near warm stove,rheumatic pains in right arm over deltoid muscle,1.0,1
+better near warm stove,frequent passing of clear urine,1.0,1
+better near warm stove,rheumatic pain in region of liver,1.0,1
+better near warm stove,better by motion,1.0,1
+better near warm stove,marked lameness with all pains,1.0,1
+better near warm stove,acute sensitiveness,1.0,1
+better near warm stove,rush of warmth to various parts,1.0,1
+legs become restless as if insensible,pain in great toe as if it were being pinched,1.0,1
+legs become restless as if insensible,fidgets in legs and arms,1.0,1
+legs become restless as if insensible,extremely sleepy during day,1.0,1
+legs become restless as if insensible,rheumatic wandering pains in limbs,1.0,1
+legs become restless as if insensible,rheumatic pains from hips to feet,1.0,1
+legs become restless as if insensible,arthritic pain in heel,1.0,1
+legs become restless as if insensible,pain under the short ribs,1.0,1
+legs become restless as if insensible,left arm very restless,1.0,1
+legs become restless as if insensible,rheumatic colic pain from cold,1.0,1
+legs become restless as if insensible,associated with much pressure and urging to urinate,1.0,1
+legs become restless as if insensible,sleepy even in company,1.0,1
+legs become restless as if insensible,better near warm stove,1.0,1
+legs become restless as if insensible,choking while eating or drinking,1.0,1
+legs become restless as if insensible,rheumatic pains in right arm over deltoid muscle,1.0,1
+legs become restless as if insensible,frequent passing of clear urine,1.0,1
+legs become restless as if insensible,rheumatic pain in region of liver,1.0,1
+legs become restless as if insensible,better by motion,1.0,1
+legs become restless as if insensible,marked lameness with all pains,1.0,1
+legs become restless as if insensible,acute sensitiveness,1.0,1
+legs become restless as if insensible,rush of warmth to various parts,1.0,1
+marked lameness with all pains,pain in great toe as if it were being pinched,1.0,1
+marked lameness with all pains,fidgets in legs and arms,1.0,1
+marked lameness with all pains,extremely sleepy during day,1.0,1
+marked lameness with all pains,legs become restless as if insensible,1.0,1
+marked lameness with all pains,rheumatic wandering pains in limbs,1.0,1
+marked lameness with all pains,rheumatic pains from hips to feet,1.0,1
+marked lameness with all pains,arthritic pain in heel,1.0,1
+marked lameness with all pains,pain under the short ribs,1.0,1
+marked lameness with all pains,left arm very restless,1.0,1
+marked lameness with all pains,rheumatic colic pain from cold,1.0,1
+marked lameness with all pains,associated with much pressure and urging to urinate,1.0,1
+marked lameness with all pains,sleepy even in company,1.0,1
+marked lameness with all pains,better near warm stove,1.0,1
+marked lameness with all pains,choking while eating or drinking,1.0,1
+marked lameness with all pains,rheumatic pains in right arm over deltoid muscle,1.0,1
+marked lameness with all pains,frequent passing of clear urine,1.0,1
+marked lameness with all pains,rheumatic pain in region of liver,1.0,1
+marked lameness with all pains,better by motion,1.0,1
+marked lameness with all pains,acute sensitiveness,1.0,1
+marked lameness with all pains,rush of warmth to various parts,1.0,1
+choking while eating or drinking,pain in great toe as if it were being pinched,1.0,1
+choking while eating or drinking,fidgets in legs and arms,1.0,1
+choking while eating or drinking,extremely sleepy during day,1.0,1
+choking while eating or drinking,legs become restless as if insensible,1.0,1
+choking while eating or drinking,rheumatic wandering pains in limbs,1.0,1
+choking while eating or drinking,rheumatic pains from hips to feet,1.0,1
+choking while eating or drinking,arthritic pain in heel,1.0,1
+choking while eating or drinking,pain under the short ribs,1.0,1
+choking while eating or drinking,left arm very restless,1.0,1
+choking while eating or drinking,rheumatic colic pain from cold,1.0,1
+choking while eating or drinking,associated with much pressure and urging to urinate,1.0,1
+choking while eating or drinking,sleepy even in company,1.0,1
+choking while eating or drinking,better near warm stove,1.0,1
+choking while eating or drinking,rheumatic pains in right arm over deltoid muscle,1.0,1
+choking while eating or drinking,frequent passing of clear urine,1.0,1
+choking while eating or drinking,rheumatic pain in region of liver,1.0,1
+choking while eating or drinking,better by motion,1.0,1
+choking while eating or drinking,marked lameness with all pains,1.0,1
+choking while eating or drinking,acute sensitiveness,1.0,1
+choking while eating or drinking,rush of warmth to various parts,1.0,1
+sleepy even in company,pain in great toe as if it were being pinched,1.0,1
+sleepy even in company,fidgets in legs and arms,1.0,1
+sleepy even in company,extremely sleepy during day,1.0,1
+sleepy even in company,legs become restless as if insensible,1.0,1
+sleepy even in company,rheumatic wandering pains in limbs,1.0,1
+sleepy even in company,rheumatic pains from hips to feet,1.0,1
+sleepy even in company,arthritic pain in heel,1.0,1
+sleepy even in company,pain under the short ribs,1.0,1
+sleepy even in company,left arm very restless,1.0,1
+sleepy even in company,rheumatic colic pain from cold,1.0,1
+sleepy even in company,associated with much pressure and urging to urinate,1.0,1
+sleepy even in company,better near warm stove,1.0,1
+sleepy even in company,choking while eating or drinking,1.0,1
+sleepy even in company,rheumatic pains in right arm over deltoid muscle,1.0,1
+sleepy even in company,frequent passing of clear urine,1.0,1
+sleepy even in company,rheumatic pain in region of liver,1.0,1
+sleepy even in company,better by motion,1.0,1
+sleepy even in company,marked lameness with all pains,1.0,1
+sleepy even in company,acute sensitiveness,1.0,1
+sleepy even in company,rush of warmth to various parts,1.0,1
+arthritic pain in heel,pain in great toe as if it were being pinched,1.0,1
+arthritic pain in heel,fidgets in legs and arms,1.0,1
+arthritic pain in heel,extremely sleepy during day,1.0,1
+arthritic pain in heel,legs become restless as if insensible,1.0,1
+arthritic pain in heel,rheumatic wandering pains in limbs,1.0,1
+arthritic pain in heel,rheumatic pains from hips to feet,1.0,1
+arthritic pain in heel,pain under the short ribs,1.0,1
+arthritic pain in heel,left arm very restless,1.0,1
+arthritic pain in heel,rheumatic colic pain from cold,1.0,1
+arthritic pain in heel,associated with much pressure and urging to urinate,1.0,1
+arthritic pain in heel,sleepy even in company,1.0,1
+arthritic pain in heel,better near warm stove,1.0,1
+arthritic pain in heel,choking while eating or drinking,1.0,1
+arthritic pain in heel,rheumatic pains in right arm over deltoid muscle,1.0,1
+arthritic pain in heel,frequent passing of clear urine,1.0,1
+arthritic pain in heel,rheumatic pain in region of liver,1.0,1
+arthritic pain in heel,better by motion,1.0,1
+arthritic pain in heel,marked lameness with all pains,1.0,1
+arthritic pain in heel,acute sensitiveness,1.0,1
+arthritic pain in heel,rush of warmth to various parts,1.0,1
+fidgets in legs and arms,pain in great toe as if it were being pinched,1.0,1
+fidgets in legs and arms,extremely sleepy during day,1.0,1
+fidgets in legs and arms,legs become restless as if insensible,1.0,1
+fidgets in legs and arms,rheumatic wandering pains in limbs,1.0,1
+fidgets in legs and arms,rheumatic pains from hips to feet,1.0,1
+fidgets in legs and arms,arthritic pain in heel,1.0,1
+fidgets in legs and arms,pain under the short ribs,1.0,1
+fidgets in legs and arms,left arm very restless,1.0,1
+fidgets in legs and arms,rheumatic colic pain from cold,1.0,1
+fidgets in legs and arms,associated with much pressure and urging to urinate,1.0,1
+fidgets in legs and arms,sleepy even in company,1.0,1
+fidgets in legs and arms,better near warm stove,1.0,1
+fidgets in legs and arms,choking while eating or drinking,1.0,1
+fidgets in legs and arms,rheumatic pains in right arm over deltoid muscle,1.0,1
+fidgets in legs and arms,frequent passing of clear urine,1.0,1
+fidgets in legs and arms,rheumatic pain in region of liver,1.0,1
+fidgets in legs and arms,better by motion,1.0,1
+fidgets in legs and arms,marked lameness with all pains,1.0,1
+fidgets in legs and arms,acute sensitiveness,1.0,1
+fidgets in legs and arms,rush of warmth to various parts,1.0,1

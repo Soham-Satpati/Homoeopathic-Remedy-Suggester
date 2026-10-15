@@ -1,0 +1,235 @@
+### Cluster 102 — Symptoms (15)
+Symptom,Frequency
+rheumatic inflammation of joints,1
+aching in left arm,1
+rheumatic inflammation of eyes,2
+gouty inflammation of joints,1
+gouty and rheumatic troubles,2
+stitching pain worse by motion,1
+stitching pain in back,1
+aching in nape of neck,1
+gouty inflammation of hands,1
+stitching pain in legs,1
+contractive pain between scapulae,1
+stitching pain between scapulae,1
+compare causticum mercurius rhododendron,1
+stitching pain in right arm,1
+gouty inflammation of feet,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+guaiacum,15
+formica rufa,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+rheumatic inflammation of joints,aching in left arm,1.0,1
+rheumatic inflammation of joints,rheumatic inflammation of eyes,1.0,1
+rheumatic inflammation of joints,gouty inflammation of joints,1.0,1
+rheumatic inflammation of joints,gouty and rheumatic troubles,1.0,1
+rheumatic inflammation of joints,stitching pain worse by motion,1.0,1
+rheumatic inflammation of joints,stitching pain in back,1.0,1
+rheumatic inflammation of joints,aching in nape of neck,1.0,1
+rheumatic inflammation of joints,gouty inflammation of hands,1.0,1
+rheumatic inflammation of joints,stitching pain in legs,1.0,1
+rheumatic inflammation of joints,contractive pain between scapulae,1.0,1
+rheumatic inflammation of joints,stitching pain between scapulae,1.0,1
+rheumatic inflammation of joints,compare causticum mercurius rhododendron,1.0,1
+rheumatic inflammation of joints,stitching pain in right arm,1.0,1
+rheumatic inflammation of joints,gouty inflammation of feet,1.0,1
+rheumatic inflammation of eyes,rheumatic inflammation of joints,0.5,1
+rheumatic inflammation of eyes,aching in left arm,0.5,1
+rheumatic inflammation of eyes,gouty inflammation of joints,0.5,1
+rheumatic inflammation of eyes,gouty and rheumatic troubles,0.5,1
+rheumatic inflammation of eyes,stitching pain worse by motion,0.5,1
+rheumatic inflammation of eyes,stitching pain in back,0.5,1
+rheumatic inflammation of eyes,aching in nape of neck,0.5,1
+rheumatic inflammation of eyes,gouty inflammation of hands,0.5,1
+rheumatic inflammation of eyes,stitching pain in legs,0.5,1
+rheumatic inflammation of eyes,contractive pain between scapulae,0.5,1
+rheumatic inflammation of eyes,stitching pain between scapulae,0.5,1
+rheumatic inflammation of eyes,compare causticum mercurius rhododendron,0.5,1
+rheumatic inflammation of eyes,stitching pain in right arm,0.5,1
+rheumatic inflammation of eyes,gouty inflammation of feet,0.5,1
+gouty inflammation of joints,rheumatic inflammation of joints,1.0,1
+gouty inflammation of joints,aching in left arm,1.0,1
+gouty inflammation of joints,rheumatic inflammation of eyes,1.0,1
+gouty inflammation of joints,gouty and rheumatic troubles,1.0,1
+gouty inflammation of joints,stitching pain worse by motion,1.0,1
+gouty inflammation of joints,stitching pain in back,1.0,1
+gouty inflammation of joints,aching in nape of neck,1.0,1
+gouty inflammation of joints,gouty inflammation of hands,1.0,1
+gouty inflammation of joints,stitching pain in legs,1.0,1
+gouty inflammation of joints,contractive pain between scapulae,1.0,1
+gouty inflammation of joints,stitching pain between scapulae,1.0,1
+gouty inflammation of joints,compare causticum mercurius rhododendron,1.0,1
+gouty inflammation of joints,stitching pain in right arm,1.0,1
+gouty inflammation of joints,gouty inflammation of feet,1.0,1
+stitching pain in right arm,rheumatic inflammation of joints,1.0,1
+stitching pain in right arm,aching in left arm,1.0,1
+stitching pain in right arm,rheumatic inflammation of eyes,1.0,1
+stitching pain in right arm,gouty inflammation of joints,1.0,1
+stitching pain in right arm,gouty and rheumatic troubles,1.0,1
+stitching pain in right arm,stitching pain worse by motion,1.0,1
+stitching pain in right arm,stitching pain in back,1.0,1
+stitching pain in right arm,aching in nape of neck,1.0,1
+stitching pain in right arm,gouty inflammation of hands,1.0,1
+stitching pain in right arm,stitching pain in legs,1.0,1
+stitching pain in right arm,contractive pain between scapulae,1.0,1
+stitching pain in right arm,stitching pain between scapulae,1.0,1
+stitching pain in right arm,compare causticum mercurius rhododendron,1.0,1
+stitching pain in right arm,gouty inflammation of feet,1.0,1
+gouty inflammation of feet,rheumatic inflammation of joints,1.0,1
+gouty inflammation of feet,aching in left arm,1.0,1
+gouty inflammation of feet,rheumatic inflammation of eyes,1.0,1
+gouty inflammation of feet,gouty inflammation of joints,1.0,1
+gouty inflammation of feet,gouty and rheumatic troubles,1.0,1
+gouty inflammation of feet,stitching pain worse by motion,1.0,1
+gouty inflammation of feet,stitching pain in back,1.0,1
+gouty inflammation of feet,aching in nape of neck,1.0,1
+gouty inflammation of feet,gouty inflammation of hands,1.0,1
+gouty inflammation of feet,stitching pain in legs,1.0,1
+gouty inflammation of feet,contractive pain between scapulae,1.0,1
+gouty inflammation of feet,stitching pain between scapulae,1.0,1
+gouty inflammation of feet,compare causticum mercurius rhododendron,1.0,1
+gouty inflammation of feet,stitching pain in right arm,1.0,1
+aching in nape of neck,rheumatic inflammation of joints,1.0,1
+aching in nape of neck,aching in left arm,1.0,1
+aching in nape of neck,rheumatic inflammation of eyes,1.0,1
+aching in nape of neck,gouty inflammation of joints,1.0,1
+aching in nape of neck,gouty and rheumatic troubles,1.0,1
+aching in nape of neck,stitching pain worse by motion,1.0,1
+aching in nape of neck,stitching pain in back,1.0,1
+aching in nape of neck,gouty inflammation of hands,1.0,1
+aching in nape of neck,stitching pain in legs,1.0,1
+aching in nape of neck,contractive pain between scapulae,1.0,1
+aching in nape of neck,stitching pain between scapulae,1.0,1
+aching in nape of neck,compare causticum mercurius rhododendron,1.0,1
+aching in nape of neck,stitching pain in right arm,1.0,1
+aching in nape of neck,gouty inflammation of feet,1.0,1
+contractive pain between scapulae,rheumatic inflammation of joints,1.0,1
+contractive pain between scapulae,aching in left arm,1.0,1
+contractive pain between scapulae,rheumatic inflammation of eyes,1.0,1
+contractive pain between scapulae,gouty inflammation of joints,1.0,1
+contractive pain between scapulae,gouty and rheumatic troubles,1.0,1
+contractive pain between scapulae,stitching pain worse by motion,1.0,1
+contractive pain between scapulae,stitching pain in back,1.0,1
+contractive pain between scapulae,aching in nape of neck,1.0,1
+contractive pain between scapulae,gouty inflammation of hands,1.0,1
+contractive pain between scapulae,stitching pain in legs,1.0,1
+contractive pain between scapulae,stitching pain between scapulae,1.0,1
+contractive pain between scapulae,compare causticum mercurius rhododendron,1.0,1
+contractive pain between scapulae,stitching pain in right arm,1.0,1
+contractive pain between scapulae,gouty inflammation of feet,1.0,1
+aching in left arm,rheumatic inflammation of joints,1.0,1
+aching in left arm,rheumatic inflammation of eyes,1.0,1
+aching in left arm,gouty inflammation of joints,1.0,1
+aching in left arm,gouty and rheumatic troubles,1.0,1
+aching in left arm,stitching pain worse by motion,1.0,1
+aching in left arm,stitching pain in back,1.0,1
+aching in left arm,aching in nape of neck,1.0,1
+aching in left arm,gouty inflammation of hands,1.0,1
+aching in left arm,stitching pain in legs,1.0,1
+aching in left arm,contractive pain between scapulae,1.0,1
+aching in left arm,stitching pain between scapulae,1.0,1
+aching in left arm,compare causticum mercurius rhododendron,1.0,1
+aching in left arm,stitching pain in right arm,1.0,1
+aching in left arm,gouty inflammation of feet,1.0,1
+stitching pain in back,rheumatic inflammation of joints,1.0,1
+stitching pain in back,aching in left arm,1.0,1
+stitching pain in back,rheumatic inflammation of eyes,1.0,1
+stitching pain in back,gouty inflammation of joints,1.0,1
+stitching pain in back,gouty and rheumatic troubles,1.0,1
+stitching pain in back,stitching pain worse by motion,1.0,1
+stitching pain in back,aching in nape of neck,1.0,1
+stitching pain in back,gouty inflammation of hands,1.0,1
+stitching pain in back,stitching pain in legs,1.0,1
+stitching pain in back,contractive pain between scapulae,1.0,1
+stitching pain in back,stitching pain between scapulae,1.0,1
+stitching pain in back,compare causticum mercurius rhododendron,1.0,1
+stitching pain in back,stitching pain in right arm,1.0,1
+stitching pain in back,gouty inflammation of feet,1.0,1
+stitching pain between scapulae,rheumatic inflammation of joints,1.0,1
+stitching pain between scapulae,aching in left arm,1.0,1
+stitching pain between scapulae,rheumatic inflammation of eyes,1.0,1
+stitching pain between scapulae,gouty inflammation of joints,1.0,1
+stitching pain between scapulae,gouty and rheumatic troubles,1.0,1
+stitching pain between scapulae,stitching pain worse by motion,1.0,1
+stitching pain between scapulae,stitching pain in back,1.0,1
+stitching pain between scapulae,aching in nape of neck,1.0,1
+stitching pain between scapulae,gouty inflammation of hands,1.0,1
+stitching pain between scapulae,stitching pain in legs,1.0,1
+stitching pain between scapulae,contractive pain between scapulae,1.0,1
+stitching pain between scapulae,compare causticum mercurius rhododendron,1.0,1
+stitching pain between scapulae,stitching pain in right arm,1.0,1
+stitching pain between scapulae,gouty inflammation of feet,1.0,1
+stitching pain worse by motion,rheumatic inflammation of joints,1.0,1
+stitching pain worse by motion,aching in left arm,1.0,1
+stitching pain worse by motion,rheumatic inflammation of eyes,1.0,1
+stitching pain worse by motion,gouty inflammation of joints,1.0,1
+stitching pain worse by motion,gouty and rheumatic troubles,1.0,1
+stitching pain worse by motion,stitching pain in back,1.0,1
+stitching pain worse by motion,aching in nape of neck,1.0,1
+stitching pain worse by motion,gouty inflammation of hands,1.0,1
+stitching pain worse by motion,stitching pain in legs,1.0,1
+stitching pain worse by motion,contractive pain between scapulae,1.0,1
+stitching pain worse by motion,stitching pain between scapulae,1.0,1
+stitching pain worse by motion,compare causticum mercurius rhododendron,1.0,1
+stitching pain worse by motion,stitching pain in right arm,1.0,1
+stitching pain worse by motion,gouty inflammation of feet,1.0,1
+stitching pain in legs,rheumatic inflammation of joints,1.0,1
+stitching pain in legs,aching in left arm,1.0,1
+stitching pain in legs,rheumatic inflammation of eyes,1.0,1
+stitching pain in legs,gouty inflammation of joints,1.0,1
+stitching pain in legs,gouty and rheumatic troubles,1.0,1
+stitching pain in legs,stitching pain worse by motion,1.0,1
+stitching pain in legs,stitching pain in back,1.0,1
+stitching pain in legs,aching in nape of neck,1.0,1
+stitching pain in legs,gouty inflammation of hands,1.0,1
+stitching pain in legs,contractive pain between scapulae,1.0,1
+stitching pain in legs,stitching pain between scapulae,1.0,1
+stitching pain in legs,compare causticum mercurius rhododendron,1.0,1
+stitching pain in legs,stitching pain in right arm,1.0,1
+stitching pain in legs,gouty inflammation of feet,1.0,1
+compare causticum mercurius rhododendron,rheumatic inflammation of joints,1.0,1
+compare causticum mercurius rhododendron,aching in left arm,1.0,1
+compare causticum mercurius rhododendron,rheumatic inflammation of eyes,1.0,1
+compare causticum mercurius rhododendron,gouty inflammation of joints,1.0,1
+compare causticum mercurius rhododendron,gouty and rheumatic troubles,1.0,1
+compare causticum mercurius rhododendron,stitching pain worse by motion,1.0,1
+compare causticum mercurius rhododendron,stitching pain in back,1.0,1
+compare causticum mercurius rhododendron,aching in nape of neck,1.0,1
+compare causticum mercurius rhododendron,gouty inflammation of hands,1.0,1
+compare causticum mercurius rhododendron,stitching pain in legs,1.0,1
+compare causticum mercurius rhododendron,contractive pain between scapulae,1.0,1
+compare causticum mercurius rhododendron,stitching pain between scapulae,1.0,1
+compare causticum mercurius rhododendron,stitching pain in right arm,1.0,1
+compare causticum mercurius rhododendron,gouty inflammation of feet,1.0,1
+gouty inflammation of hands,rheumatic inflammation of joints,1.0,1
+gouty inflammation of hands,aching in left arm,1.0,1
+gouty inflammation of hands,rheumatic inflammation of eyes,1.0,1
+gouty inflammation of hands,gouty inflammation of joints,1.0,1
+gouty inflammation of hands,gouty and rheumatic troubles,1.0,1
+gouty inflammation of hands,stitching pain worse by motion,1.0,1
+gouty inflammation of hands,stitching pain in back,1.0,1
+gouty inflammation of hands,aching in nape of neck,1.0,1
+gouty inflammation of hands,stitching pain in legs,1.0,1
+gouty inflammation of hands,contractive pain between scapulae,1.0,1
+gouty inflammation of hands,stitching pain between scapulae,1.0,1
+gouty inflammation of hands,compare causticum mercurius rhododendron,1.0,1
+gouty inflammation of hands,stitching pain in right arm,1.0,1
+gouty inflammation of hands,gouty inflammation of feet,1.0,1
+gouty and rheumatic troubles,rheumatic inflammation of joints,1.0,1
+gouty and rheumatic troubles,aching in left arm,1.0,1
+gouty and rheumatic troubles,rheumatic inflammation of eyes,1.0,1
+gouty and rheumatic troubles,gouty inflammation of joints,1.0,1
+gouty and rheumatic troubles,stitching pain worse by motion,1.0,1
+gouty and rheumatic troubles,stitching pain in back,1.0,1
+gouty and rheumatic troubles,aching in nape of neck,1.0,1
+gouty and rheumatic troubles,gouty inflammation of hands,1.0,1
+gouty and rheumatic troubles,stitching pain in legs,1.0,1
+gouty and rheumatic troubles,contractive pain between scapulae,1.0,1
+gouty and rheumatic troubles,stitching pain between scapulae,1.0,1
+gouty and rheumatic troubles,compare causticum mercurius rhododendron,1.0,1
+gouty and rheumatic troubles,stitching pain in right arm,1.0,1
+gouty and rheumatic troubles,gouty inflammation of feet,1.0,1

@@ -1,0 +1,234 @@
+### Cluster 29 — Symptoms (15)
+Symptom,Frequency
+bruised pain worse sitting or standing,1
+especially at night,1
+peculiar sick feeling as of exhaustion,1
+trembling and weakness of feet,1
+great lassitude and soreness in whole body,1
+tension in nape of neck and between shoulders with stitches,1
+rheumatic pains in hip and left femur,1
+sensitiveness to touch,1
+worse morning on rising,1
+rheumatic pains in left elbow and wrist joint,1
+rheumatic pain between shoulders,1
+cracking in tarsal joint at every step,1
+drawing pains,1
+dry warm skin,1
+bruised pain better walking,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+magnesia sulphurica,15
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+tension in nape of neck and between shoulders with stitches,bruised pain worse sitting or standing,1.0,1
+tension in nape of neck and between shoulders with stitches,especially at night,1.0,1
+tension in nape of neck and between shoulders with stitches,peculiar sick feeling as of exhaustion,1.0,1
+tension in nape of neck and between shoulders with stitches,trembling and weakness of feet,1.0,1
+tension in nape of neck and between shoulders with stitches,great lassitude and soreness in whole body,1.0,1
+tension in nape of neck and between shoulders with stitches,rheumatic pains in hip and left femur,1.0,1
+tension in nape of neck and between shoulders with stitches,sensitiveness to touch,1.0,1
+tension in nape of neck and between shoulders with stitches,worse morning on rising,1.0,1
+tension in nape of neck and between shoulders with stitches,rheumatic pains in left elbow and wrist joint,1.0,1
+tension in nape of neck and between shoulders with stitches,rheumatic pain between shoulders,1.0,1
+tension in nape of neck and between shoulders with stitches,cracking in tarsal joint at every step,1.0,1
+tension in nape of neck and between shoulders with stitches,drawing pains,1.0,1
+tension in nape of neck and between shoulders with stitches,dry warm skin,1.0,1
+tension in nape of neck and between shoulders with stitches,bruised pain better walking,1.0,1
+cracking in tarsal joint at every step,bruised pain worse sitting or standing,1.0,1
+cracking in tarsal joint at every step,especially at night,1.0,1
+cracking in tarsal joint at every step,peculiar sick feeling as of exhaustion,1.0,1
+cracking in tarsal joint at every step,trembling and weakness of feet,1.0,1
+cracking in tarsal joint at every step,great lassitude and soreness in whole body,1.0,1
+cracking in tarsal joint at every step,tension in nape of neck and between shoulders with stitches,1.0,1
+cracking in tarsal joint at every step,rheumatic pains in hip and left femur,1.0,1
+cracking in tarsal joint at every step,sensitiveness to touch,1.0,1
+cracking in tarsal joint at every step,worse morning on rising,1.0,1
+cracking in tarsal joint at every step,rheumatic pains in left elbow and wrist joint,1.0,1
+cracking in tarsal joint at every step,rheumatic pain between shoulders,1.0,1
+cracking in tarsal joint at every step,drawing pains,1.0,1
+cracking in tarsal joint at every step,dry warm skin,1.0,1
+cracking in tarsal joint at every step,bruised pain better walking,1.0,1
+trembling and weakness of feet,bruised pain worse sitting or standing,1.0,1
+trembling and weakness of feet,especially at night,1.0,1
+trembling and weakness of feet,peculiar sick feeling as of exhaustion,1.0,1
+trembling and weakness of feet,great lassitude and soreness in whole body,1.0,1
+trembling and weakness of feet,tension in nape of neck and between shoulders with stitches,1.0,1
+trembling and weakness of feet,rheumatic pains in hip and left femur,1.0,1
+trembling and weakness of feet,sensitiveness to touch,1.0,1
+trembling and weakness of feet,worse morning on rising,1.0,1
+trembling and weakness of feet,rheumatic pains in left elbow and wrist joint,1.0,1
+trembling and weakness of feet,rheumatic pain between shoulders,1.0,1
+trembling and weakness of feet,cracking in tarsal joint at every step,1.0,1
+trembling and weakness of feet,drawing pains,1.0,1
+trembling and weakness of feet,dry warm skin,1.0,1
+trembling and weakness of feet,bruised pain better walking,1.0,1
+dry warm skin,bruised pain worse sitting or standing,1.0,1
+dry warm skin,especially at night,1.0,1
+dry warm skin,peculiar sick feeling as of exhaustion,1.0,1
+dry warm skin,trembling and weakness of feet,1.0,1
+dry warm skin,great lassitude and soreness in whole body,1.0,1
+dry warm skin,tension in nape of neck and between shoulders with stitches,1.0,1
+dry warm skin,rheumatic pains in hip and left femur,1.0,1
+dry warm skin,sensitiveness to touch,1.0,1
+dry warm skin,worse morning on rising,1.0,1
+dry warm skin,rheumatic pains in left elbow and wrist joint,1.0,1
+dry warm skin,rheumatic pain between shoulders,1.0,1
+dry warm skin,cracking in tarsal joint at every step,1.0,1
+dry warm skin,drawing pains,1.0,1
+dry warm skin,bruised pain better walking,1.0,1
+rheumatic pains in hip and left femur,bruised pain worse sitting or standing,1.0,1
+rheumatic pains in hip and left femur,especially at night,1.0,1
+rheumatic pains in hip and left femur,peculiar sick feeling as of exhaustion,1.0,1
+rheumatic pains in hip and left femur,trembling and weakness of feet,1.0,1
+rheumatic pains in hip and left femur,great lassitude and soreness in whole body,1.0,1
+rheumatic pains in hip and left femur,tension in nape of neck and between shoulders with stitches,1.0,1
+rheumatic pains in hip and left femur,sensitiveness to touch,1.0,1
+rheumatic pains in hip and left femur,worse morning on rising,1.0,1
+rheumatic pains in hip and left femur,rheumatic pains in left elbow and wrist joint,1.0,1
+rheumatic pains in hip and left femur,rheumatic pain between shoulders,1.0,1
+rheumatic pains in hip and left femur,cracking in tarsal joint at every step,1.0,1
+rheumatic pains in hip and left femur,drawing pains,1.0,1
+rheumatic pains in hip and left femur,dry warm skin,1.0,1
+rheumatic pains in hip and left femur,bruised pain better walking,1.0,1
+bruised pain worse sitting or standing,especially at night,1.0,1
+bruised pain worse sitting or standing,peculiar sick feeling as of exhaustion,1.0,1
+bruised pain worse sitting or standing,trembling and weakness of feet,1.0,1
+bruised pain worse sitting or standing,great lassitude and soreness in whole body,1.0,1
+bruised pain worse sitting or standing,tension in nape of neck and between shoulders with stitches,1.0,1
+bruised pain worse sitting or standing,rheumatic pains in hip and left femur,1.0,1
+bruised pain worse sitting or standing,sensitiveness to touch,1.0,1
+bruised pain worse sitting or standing,worse morning on rising,1.0,1
+bruised pain worse sitting or standing,rheumatic pains in left elbow and wrist joint,1.0,1
+bruised pain worse sitting or standing,rheumatic pain between shoulders,1.0,1
+bruised pain worse sitting or standing,cracking in tarsal joint at every step,1.0,1
+bruised pain worse sitting or standing,drawing pains,1.0,1
+bruised pain worse sitting or standing,dry warm skin,1.0,1
+bruised pain worse sitting or standing,bruised pain better walking,1.0,1
+rheumatic pain between shoulders,bruised pain worse sitting or standing,1.0,1
+rheumatic pain between shoulders,especially at night,1.0,1
+rheumatic pain between shoulders,peculiar sick feeling as of exhaustion,1.0,1
+rheumatic pain between shoulders,trembling and weakness of feet,1.0,1
+rheumatic pain between shoulders,great lassitude and soreness in whole body,1.0,1
+rheumatic pain between shoulders,tension in nape of neck and between shoulders with stitches,1.0,1
+rheumatic pain between shoulders,rheumatic pains in hip and left femur,1.0,1
+rheumatic pain between shoulders,sensitiveness to touch,1.0,1
+rheumatic pain between shoulders,worse morning on rising,1.0,1
+rheumatic pain between shoulders,rheumatic pains in left elbow and wrist joint,1.0,1
+rheumatic pain between shoulders,cracking in tarsal joint at every step,1.0,1
+rheumatic pain between shoulders,drawing pains,1.0,1
+rheumatic pain between shoulders,dry warm skin,1.0,1
+rheumatic pain between shoulders,bruised pain better walking,1.0,1
+especially at night,bruised pain worse sitting or standing,1.0,1
+especially at night,peculiar sick feeling as of exhaustion,1.0,1
+especially at night,trembling and weakness of feet,1.0,1
+especially at night,great lassitude and soreness in whole body,1.0,1
+especially at night,tension in nape of neck and between shoulders with stitches,1.0,1
+especially at night,rheumatic pains in hip and left femur,1.0,1
+especially at night,sensitiveness to touch,1.0,1
+especially at night,worse morning on rising,1.0,1
+especially at night,rheumatic pains in left elbow and wrist joint,1.0,1
+especially at night,rheumatic pain between shoulders,1.0,1
+especially at night,cracking in tarsal joint at every step,1.0,1
+especially at night,drawing pains,1.0,1
+especially at night,dry warm skin,1.0,1
+especially at night,bruised pain better walking,1.0,1
+great lassitude and soreness in whole body,bruised pain worse sitting or standing,1.0,1
+great lassitude and soreness in whole body,especially at night,1.0,1
+great lassitude and soreness in whole body,peculiar sick feeling as of exhaustion,1.0,1
+great lassitude and soreness in whole body,trembling and weakness of feet,1.0,1
+great lassitude and soreness in whole body,tension in nape of neck and between shoulders with stitches,1.0,1
+great lassitude and soreness in whole body,rheumatic pains in hip and left femur,1.0,1
+great lassitude and soreness in whole body,sensitiveness to touch,1.0,1
+great lassitude and soreness in whole body,worse morning on rising,1.0,1
+great lassitude and soreness in whole body,rheumatic pains in left elbow and wrist joint,1.0,1
+great lassitude and soreness in whole body,rheumatic pain between shoulders,1.0,1
+great lassitude and soreness in whole body,cracking in tarsal joint at every step,1.0,1
+great lassitude and soreness in whole body,drawing pains,1.0,1
+great lassitude and soreness in whole body,dry warm skin,1.0,1
+great lassitude and soreness in whole body,bruised pain better walking,1.0,1
+drawing pains,bruised pain worse sitting or standing,1.0,1
+drawing pains,especially at night,1.0,1
+drawing pains,peculiar sick feeling as of exhaustion,1.0,1
+drawing pains,trembling and weakness of feet,1.0,1
+drawing pains,great lassitude and soreness in whole body,1.0,1
+drawing pains,tension in nape of neck and between shoulders with stitches,1.0,1
+drawing pains,rheumatic pains in hip and left femur,1.0,1
+drawing pains,sensitiveness to touch,1.0,1
+drawing pains,worse morning on rising,1.0,1
+drawing pains,rheumatic pains in left elbow and wrist joint,1.0,1
+drawing pains,rheumatic pain between shoulders,1.0,1
+drawing pains,cracking in tarsal joint at every step,1.0,1
+drawing pains,dry warm skin,1.0,1
+drawing pains,bruised pain better walking,1.0,1
+rheumatic pains in left elbow and wrist joint,bruised pain worse sitting or standing,1.0,1
+rheumatic pains in left elbow and wrist joint,especially at night,1.0,1
+rheumatic pains in left elbow and wrist joint,peculiar sick feeling as of exhaustion,1.0,1
+rheumatic pains in left elbow and wrist joint,trembling and weakness of feet,1.0,1
+rheumatic pains in left elbow and wrist joint,great lassitude and soreness in whole body,1.0,1
+rheumatic pains in left elbow and wrist joint,tension in nape of neck and between shoulders with stitches,1.0,1
+rheumatic pains in left elbow and wrist joint,rheumatic pains in hip and left femur,1.0,1
+rheumatic pains in left elbow and wrist joint,sensitiveness to touch,1.0,1
+rheumatic pains in left elbow and wrist joint,worse morning on rising,1.0,1
+rheumatic pains in left elbow and wrist joint,rheumatic pain between shoulders,1.0,1
+rheumatic pains in left elbow and wrist joint,cracking in tarsal joint at every step,1.0,1
+rheumatic pains in left elbow and wrist joint,drawing pains,1.0,1
+rheumatic pains in left elbow and wrist joint,dry warm skin,1.0,1
+rheumatic pains in left elbow and wrist joint,bruised pain better walking,1.0,1
+worse morning on rising,bruised pain worse sitting or standing,1.0,1
+worse morning on rising,especially at night,1.0,1
+worse morning on rising,peculiar sick feeling as of exhaustion,1.0,1
+worse morning on rising,trembling and weakness of feet,1.0,1
+worse morning on rising,great lassitude and soreness in whole body,1.0,1
+worse morning on rising,tension in nape of neck and between shoulders with stitches,1.0,1
+worse morning on rising,rheumatic pains in hip and left femur,1.0,1
+worse morning on rising,sensitiveness to touch,1.0,1
+worse morning on rising,rheumatic pains in left elbow and wrist joint,1.0,1
+worse morning on rising,rheumatic pain between shoulders,1.0,1
+worse morning on rising,cracking in tarsal joint at every step,1.0,1
+worse morning on rising,drawing pains,1.0,1
+worse morning on rising,dry warm skin,1.0,1
+worse morning on rising,bruised pain better walking,1.0,1
+bruised pain better walking,bruised pain worse sitting or standing,1.0,1
+bruised pain better walking,especially at night,1.0,1
+bruised pain better walking,peculiar sick feeling as of exhaustion,1.0,1
+bruised pain better walking,trembling and weakness of feet,1.0,1
+bruised pain better walking,great lassitude and soreness in whole body,1.0,1
+bruised pain better walking,tension in nape of neck and between shoulders with stitches,1.0,1
+bruised pain better walking,rheumatic pains in hip and left femur,1.0,1
+bruised pain better walking,sensitiveness to touch,1.0,1
+bruised pain better walking,worse morning on rising,1.0,1
+bruised pain better walking,rheumatic pains in left elbow and wrist joint,1.0,1
+bruised pain better walking,rheumatic pain between shoulders,1.0,1
+bruised pain better walking,cracking in tarsal joint at every step,1.0,1
+bruised pain better walking,drawing pains,1.0,1
+bruised pain better walking,dry warm skin,1.0,1
+peculiar sick feeling as of exhaustion,bruised pain worse sitting or standing,1.0,1
+peculiar sick feeling as of exhaustion,especially at night,1.0,1
+peculiar sick feeling as of exhaustion,trembling and weakness of feet,1.0,1
+peculiar sick feeling as of exhaustion,great lassitude and soreness in whole body,1.0,1
+peculiar sick feeling as of exhaustion,tension in nape of neck and between shoulders with stitches,1.0,1
+peculiar sick feeling as of exhaustion,rheumatic pains in hip and left femur,1.0,1
+peculiar sick feeling as of exhaustion,sensitiveness to touch,1.0,1
+peculiar sick feeling as of exhaustion,worse morning on rising,1.0,1
+peculiar sick feeling as of exhaustion,rheumatic pains in left elbow and wrist joint,1.0,1
+peculiar sick feeling as of exhaustion,rheumatic pain between shoulders,1.0,1
+peculiar sick feeling as of exhaustion,cracking in tarsal joint at every step,1.0,1
+peculiar sick feeling as of exhaustion,drawing pains,1.0,1
+peculiar sick feeling as of exhaustion,dry warm skin,1.0,1
+peculiar sick feeling as of exhaustion,bruised pain better walking,1.0,1
+sensitiveness to touch,bruised pain worse sitting or standing,1.0,1
+sensitiveness to touch,especially at night,1.0,1
+sensitiveness to touch,peculiar sick feeling as of exhaustion,1.0,1
+sensitiveness to touch,trembling and weakness of feet,1.0,1
+sensitiveness to touch,great lassitude and soreness in whole body,1.0,1
+sensitiveness to touch,tension in nape of neck and between shoulders with stitches,1.0,1
+sensitiveness to touch,rheumatic pains in hip and left femur,1.0,1
+sensitiveness to touch,worse morning on rising,1.0,1
+sensitiveness to touch,rheumatic pains in left elbow and wrist joint,1.0,1
+sensitiveness to touch,rheumatic pain between shoulders,1.0,1
+sensitiveness to touch,cracking in tarsal joint at every step,1.0,1
+sensitiveness to touch,drawing pains,1.0,1
+sensitiveness to touch,dry warm skin,1.0,1
+sensitiveness to touch,bruised pain better walking,1.0,1

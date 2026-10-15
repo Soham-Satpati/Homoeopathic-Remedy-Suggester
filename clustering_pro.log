@@ -1,125 +1,627 @@
-2025-11-13 14:11:37,141 [INFO] Loaded 33 remedies from Case_studies_combined.json
-2025-11-13 14:11:37,145 [INFO] Prepared 117 symptom entries
-2025-11-13 14:11:37,146 [INFO] Model saved to case_studies_model.pkl
-2025-11-13 14:11:37,151 [INFO] Preprocessing features for remedy_modalities
-2025-11-13 14:11:37,165 [INFO] Cached features to cache_features_remedy_modalities.pkl | Shape: (117, 299)
-2025-11-13 14:11:37,165 [INFO] Fitting HDBSCAN (min_cluster_size=6, metric=hamming)
-2025-11-13 14:11:37,207 [INFO] HDBSCAN found 3 clusters + noise
-2025-11-13 14:11:37,213 [INFO] Silhouette Score: 0.368
-2025-11-13 14:11:37,235 [INFO] 3 clusters | 1 high-quality
-2025-11-13 14:11:37,255 [INFO] Saved 117 rows to clusters_remedy_modalities.csv
-2025-11-13 14:11:37,258 [INFO] Loading cached features from cache_features_remedy_modalities.pkl
-2025-11-13 14:11:52,973 [INFO] UMAP plots saved: Case_studies_combined_remedy_modalities_umap.png + .html
-2025-11-13 14:11:52,975 [INFO] Streamlit app generated: streamlit_app.py
-2025-11-13 14:11:52,978 [INFO] Preprocessing features for remedy_area_modalities
-2025-11-13 14:11:52,983 [INFO] Cached features to cache_features_remedy_area_modalities.pkl | Shape: (117, 339)
-2025-11-13 14:11:52,984 [INFO] Fitting HDBSCAN (min_cluster_size=6, metric=hamming)
-2025-11-13 14:11:53,004 [INFO] HDBSCAN found 3 clusters + noise
-2025-11-13 14:11:53,006 [INFO] Silhouette Score: 0.295
-2025-11-13 14:11:53,013 [INFO] 3 clusters | 1 high-quality
-2025-11-13 14:11:53,020 [INFO] Saved 117 rows to clusters_remedy_area_modalities.csv
-2025-11-13 14:11:53,027 [INFO] Loading cached features from cache_features_remedy_area_modalities.pkl
-2025-11-13 14:11:54,126 [INFO] UMAP plots saved: Case_studies_combined_remedy_area_modalities_umap.png + .html
-2025-11-13 14:11:54,128 [INFO] Streamlit app generated: streamlit_app.py
-2025-11-13 14:11:54,156 [INFO] Loaded 125 remedies from rheumatic.json
-2025-11-13 14:11:54,277 [INFO] Prepared 4604 symptom entries
-2025-11-13 14:11:54,286 [INFO] Model saved to rheumatic_model.pkl
-2025-11-13 14:11:54,293 [INFO] Loading cached features from cache_features_remedy_modalities.pkl
-2025-11-13 14:11:54,294 [INFO] Fitting HDBSCAN (min_cluster_size=6, metric=hamming)
-2025-11-13 14:11:54,309 [INFO] HDBSCAN found 3 clusters + noise
-2025-11-13 14:14:45,284 [INFO] Loaded 33 remedies from Case_studies_combined.json
-2025-11-13 14:14:45,287 [INFO] Prepared 117 symptom entries
-2025-11-13 14:14:45,288 [INFO] Model saved to case_studies_model.pkl
-2025-11-13 14:14:45,289 [INFO] Loading cached features from cache_features_remedy_modalities.pkl
-2025-11-13 14:14:45,290 [INFO] Fitting HDBSCAN (min_cluster_size=6, metric=hamming)
-2025-11-13 14:14:45,308 [INFO] HDBSCAN found 3 clusters + noise
-2025-11-13 14:14:45,311 [INFO] Silhouette Score: 0.368
-2025-11-13 14:14:45,316 [INFO] 3 clusters | 1 high-quality
-2025-11-13 14:14:45,326 [INFO] Saved 117 rows to clusters_remedy_modalities.csv
-2025-11-13 14:14:45,331 [INFO] Loading cached features from cache_features_remedy_modalities.pkl
-2025-11-13 14:14:55,029 [INFO] UMAP plots saved: Case_studies_combined_remedy_modalities_umap.png + .html
-2025-11-13 14:14:55,033 [INFO] Streamlit app generated: streamlit_app.py
-2025-11-13 14:14:55,035 [INFO] Loading cached features from cache_features_remedy_area_modalities.pkl
-2025-11-13 14:14:55,036 [INFO] Fitting HDBSCAN (min_cluster_size=6, metric=hamming)
-2025-11-13 14:14:55,058 [INFO] HDBSCAN found 3 clusters + noise
-2025-11-13 14:14:55,062 [INFO] Silhouette Score: 0.295
-2025-11-13 14:14:55,068 [INFO] 3 clusters | 1 high-quality
-2025-11-13 14:14:55,080 [INFO] Saved 117 rows to clusters_remedy_area_modalities.csv
-2025-11-13 14:14:55,090 [INFO] Loading cached features from cache_features_remedy_area_modalities.pkl
-2025-11-13 14:14:55,884 [INFO] UMAP plots saved: Case_studies_combined_remedy_area_modalities_umap.png + .html
-2025-11-13 14:14:55,888 [INFO] Streamlit app generated: streamlit_app.py
-2025-11-13 14:14:55,908 [INFO] Loaded 125 remedies from rheumatic.json
-2025-11-13 14:14:55,927 [INFO] Prepared 4604 symptom entries
-2025-11-13 14:14:56,111 [INFO] Model saved to rheumatic_model.pkl
-2025-11-13 14:14:56,120 [INFO] Loading cached features from cache_features_remedy_modalities.pkl
-2025-11-13 14:14:56,123 [INFO] Fitting HDBSCAN (min_cluster_size=6, metric=hamming)
-2025-11-13 14:14:56,145 [INFO] HDBSCAN found 3 clusters + noise
-2025-11-13 14:16:56,760 [INFO] Loaded 33 remedies from Case_studies_combined.json
-2025-11-13 14:16:56,764 [INFO] Prepared 117 symptom entries
-2025-11-13 14:16:56,772 [INFO] Loading cached features: cache_features_remedy_modalities.pkl
-2025-11-13 14:16:56,773 [INFO] Fitting HDBSCAN (min_cluster_size=6, metric=hamming)
-2025-11-13 14:16:56,795 [INFO] HDBSCAN completed: 3 clusters, 68 noise points
-2025-11-13 14:16:56,806 [INFO] Silhouette Score: 0.368
-2025-11-13 14:16:56,828 [INFO] 3 clusters | 1 high-quality
-2025-11-13 14:16:56,843 [INFO] Loading cached features: cache_features_remedy_modalities.pkl
-2025-11-13 14:19:49,051 [INFO] Loaded 33 remedies from Case_studies_combined.json
-2025-11-13 14:19:49,054 [INFO] Prepared 117 symptom entries
-2025-11-13 14:19:49,055 [INFO] Model saved: case_studies_model.pkl
-2025-11-13 14:19:49,059 [INFO] Loading cached features: cache_features_remedy_modalities.pkl
-2025-11-13 14:19:49,061 [INFO] Fitting HDBSCAN (min_cluster_size=6)
-2025-11-13 14:19:49,081 [INFO] HDBSCAN: 3 clusters, 68 noise points
-2025-11-13 14:19:49,090 [INFO] Silhouette Score: 0.368
-2025-11-13 14:19:49,102 [INFO] 3 clusters | 1 high-quality
-2025-11-13 14:19:49,110 [INFO] Saved 117 rows to clusters_remedy_modalities.csv
-2025-11-13 14:19:49,112 [INFO] Loading cached features: cache_features_remedy_modalities.pkl
-2025-11-13 14:19:59,615 [INFO] Plots saved: Case_studies_combined_remedy_modalities_umap.png + .html
-2025-11-13 14:19:59,617 [INFO] Streamlit app generated: streamlit_app.py
-2025-11-13 14:19:59,618 [INFO] Loading cached features: cache_features_remedy_area_modalities.pkl
-2025-11-13 14:19:59,619 [INFO] Fitting HDBSCAN (min_cluster_size=6)
-2025-11-13 14:19:59,637 [INFO] HDBSCAN: 3 clusters, 57 noise points
-2025-11-13 14:19:59,640 [INFO] Silhouette Score: 0.295
-2025-11-13 14:19:59,644 [INFO] 3 clusters | 1 high-quality
-2025-11-13 14:19:59,650 [INFO] Saved 117 rows to clusters_remedy_area_modalities.csv
-2025-11-13 14:19:59,654 [INFO] Loading cached features: cache_features_remedy_area_modalities.pkl
-2025-11-13 14:20:00,642 [INFO] Plots saved: Case_studies_combined_remedy_area_modalities_umap.png + .html
-2025-11-13 14:20:00,644 [INFO] Streamlit app generated: streamlit_app.py
-2025-11-13 14:20:00,663 [INFO] Loaded 125 remedies from rheumatic.json
-2025-11-13 14:20:00,681 [INFO] Prepared 4604 symptom entries
-2025-11-13 14:20:00,795 [INFO] Model saved: rheumatic_model.pkl
-2025-11-13 14:20:00,799 [INFO] Loading cached features: cache_features_remedy_modalities.pkl
-2025-11-13 14:20:00,801 [INFO] Fitting HDBSCAN (min_cluster_size=6)
-2025-11-13 14:20:00,816 [INFO] HDBSCAN: 3 clusters, 68 noise points
-2025-11-13 14:22:00,449 [INFO] Loaded 33 remedies from Case_studies_combined.json
-2025-11-13 14:22:00,454 [INFO] Prepared 117 symptoms
-2025-11-13 14:22:00,454 [INFO] Model saved: case_studies_model.pkl
-2025-11-13 14:22:00,459 [INFO] Preprocessing: remedy_modalities
-2025-11-13 14:22:00,469 [INFO] Cached: cache_Case_studies_combined_json_remedy_modalities.pkl | Shape: (117, 309)
-2025-11-13 14:22:00,470 [INFO] Fitting HDBSCAN (min_cluster_size=6)
-2025-11-13 14:22:00,496 [INFO] HDBSCAN: 3 clusters, 49 noise
-2025-11-13 14:22:00,502 [INFO] Silhouette: 0.349
-2025-11-13 14:22:00,515 [INFO] 3 clusters | 1 high-quality
-2025-11-13 14:22:00,521 [INFO] Saved 117 rows to clusters_remedy_modalities.csv
-2025-11-13 14:22:00,524 [INFO] Loading cached features: cache_Case_studies_combined_json_remedy_modalities.pkl
-2025-11-13 14:22:10,875 [INFO] Plots saved: Case_studies_combined_remedy_modalities_umap.png + .html
-2025-11-13 14:22:10,880 [INFO] Streamlit app generated
-2025-11-13 14:22:10,883 [INFO] Preprocessing: remedy_area_modalities
-2025-11-13 14:22:10,888 [INFO] Cached: cache_Case_studies_combined_json_remedy_area_modalities.pkl | Shape: (117, 349)
-2025-11-13 14:22:10,890 [INFO] Fitting HDBSCAN (min_cluster_size=6)
-2025-11-13 14:22:10,911 [INFO] HDBSCAN: 3 clusters, 35 noise
-2025-11-13 14:22:10,915 [INFO] Silhouette: 0.273
-2025-11-13 14:22:10,919 [INFO] 3 clusters | 1 high-quality
-2025-11-13 14:22:10,925 [INFO] Saved 117 rows to clusters_remedy_area_modalities.csv
-2025-11-13 14:22:10,928 [INFO] Loading cached features: cache_Case_studies_combined_json_remedy_area_modalities.pkl
-2025-11-13 14:22:12,059 [INFO] Plots saved: Case_studies_combined_remedy_area_modalities_umap.png + .html
-2025-11-13 14:22:12,063 [INFO] Streamlit app generated
-2025-11-13 14:22:12,085 [INFO] Loaded 125 remedies from rheumatic.json
-2025-11-13 14:22:12,211 [INFO] Prepared 4604 symptoms
-2025-11-13 14:22:12,219 [INFO] Model saved: rheumatic_model.pkl
-2025-11-13 14:22:12,227 [INFO] Preprocessing: remedy_modalities
-2025-11-13 14:22:12,300 [INFO] Cached: cache_rheumatic_json_remedy_modalities.pkl | Shape: (4604, 661)
-2025-11-13 14:22:12,302 [INFO] Fitting HDBSCAN (min_cluster_size=6)
-2025-11-13 14:22:26,414 [INFO] HDBSCAN: 120 clusters, 26 noise
-2025-11-13 14:22:26,932 [INFO] Silhouette: 0.893
-2025-11-13 14:22:27,215 [INFO] 120 clusters | 1 high-quality
-2025-11-13 14:22:27,264 [INFO] Saved 4604 rows to clusters_remedy_modalities.csv
-2025-11-13 14:22:27,269 [INFO] Loading cached features: cache_rheumatic_json_remedy_modalities.pkl
+2026-06-29 03:23:25,582 [INFO] 
+============================================================
+2026-06-29 03:23:25,585 [INFO] Processing: Case_studies_combined.json
+2026-06-29 03:23:25,585 [INFO] ============================================================
+2026-06-29 03:23:25,594 [INFO] Loaded 33 remedies from Case_studies_combined.json
+2026-06-29 03:23:25,597 [INFO] Prepared 117 symptom entries
+2026-06-29 03:23:25,598 [INFO] Model saved: case_studies_model.pkl
+2026-06-29 03:23:25,607 [INFO] Running semantic grouping (SentenceTransformer + Ward)...
+2026-06-29 03:23:25,608 [INFO] No device provided, using cpu
+2026-06-29 03:23:25,915 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:25,916 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-29 03:23:25,926 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:26,178 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:26,192 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:26,200 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-29 03:23:26,443 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:26,454 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:26,747 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:26,758 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-06-29 03:23:27,045 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:27,055 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:27,331 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:27,341 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:27,596 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-06-29 03:23:27,853 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:27,864 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:28,309 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-06-29 03:23:28,568 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-29 03:23:28,821 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-29 03:23:29,089 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-29 03:23:29,346 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:29,356 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:29,633 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:29,643 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:29,891 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:29,903 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:30,144 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:30,156 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:30,417 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-29 03:23:30,673 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-29 03:23:30,979 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:30,989 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:31,254 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-06-29 03:23:31,498 [INFO] Semantic grouping: 65 → 45 canonical symptoms
+2026-06-29 03:23:31,498 [INFO] Building directed symptom Knowledge Graph (conditional probabilities)...
+2026-06-29 03:23:31,510 [INFO] KG built — Nodes: 45 | Directed Edges: 526
+2026-06-29 03:23:31,510 [INFO] Running Node2Vec on directed KG...
+2026-06-29 03:23:33,338 [INFO] collecting all words and their counts
+2026-06-29 03:23:33,338 [INFO] PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2026-06-29 03:23:33,367 [INFO] collected 45 word types from a corpus of 246800 raw words and 9000 sentences
+2026-06-29 03:23:33,367 [INFO] Creating a fresh vocabulary
+2026-06-29 03:23:33,415 [INFO] Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 45 unique words (100.00% of original 45, drops 0)', 'datetime': '2026-06-29T03:23:33.368070', 'gensim': '4.4.0', 'python': '3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'prepare_vocab'}
+2026-06-29 03:23:33,416 [INFO] Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 246800 word corpus (100.00% of original 246800, drops 0)', 'datetime': '2026-06-29T03:23:33.416168', 'gensim': '4.4.0', 'python': '3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'prepare_vocab'}
+2026-06-29 03:23:33,416 [INFO] deleting the raw counts dictionary of 45 items
+2026-06-29 03:23:33,417 [INFO] sample=0.001 downsamples 41 most-common words
+2026-06-29 03:23:33,417 [INFO] Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 59381.049314535085 word corpus (24.1%% of prior 246800)', 'datetime': '2026-06-29T03:23:33.417273', 'gensim': '4.4.0', 'python': '3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'prepare_vocab'}
+2026-06-29 03:23:33,418 [INFO] estimated required memory for 45 words and 128 dimensions: 68580 bytes
+2026-06-29 03:23:33,418 [INFO] resetting layer weights
+2026-06-29 03:23:33,418 [INFO] Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2026-06-29T03:23:33.418877', 'gensim': '4.4.0', 'python': '3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'build_vocab'}
+2026-06-29 03:23:33,419 [INFO] Word2Vec lifecycle event {'msg': 'training model with 4 workers on 45 vocabulary and 128 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2026-06-29T03:23:33.419021', 'gensim': '4.4.0', 'python': '3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'train'}
+2026-06-29 03:23:34,009 [INFO] EPOCH 0: training on 246800 raw words (59645 effective words) took 0.6s, 101387 effective words/s
+2026-06-29 03:23:34,527 [INFO] EPOCH 1: training on 246800 raw words (59489 effective words) took 0.5s, 115062 effective words/s
+2026-06-29 03:23:35,217 [INFO] EPOCH 2: training on 246800 raw words (59417 effective words) took 0.7s, 86348 effective words/s
+2026-06-29 03:23:35,898 [INFO] EPOCH 3: training on 246800 raw words (59842 effective words) took 0.7s, 88114 effective words/s
+2026-06-29 03:23:36,516 [INFO] EPOCH 4: training on 246800 raw words (59581 effective words) took 0.6s, 96635 effective words/s
+2026-06-29 03:23:36,516 [INFO] Word2Vec lifecycle event {'msg': 'training on 1234000 raw words (297974 effective words) took 3.1s, 96192 effective words/s', 'datetime': '2026-06-29T03:23:36.516846', 'gensim': '4.4.0', 'python': '3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'train'}
+2026-06-29 03:23:36,517 [INFO] Word2Vec lifecycle event {'params': 'Word2Vec<vocab=45, vector_size=128, alpha=0.025>', 'datetime': '2026-06-29T03:23:36.517007', 'gensim': '4.4.0', 'python': '3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'created'}
+2026-06-29 03:23:36,518 [INFO] Fitting HDBSCAN on Node2Vec embeddings: (45, 128)
+2026-06-29 03:23:36,525 [INFO] HDBSCAN: 2 clusters, 27 noise points
+2026-06-29 03:23:36,529 [INFO] Silhouette score: 0.5114
+2026-06-29 03:23:36,538 [INFO] 2 clusters | 1 high-quality
+2026-06-29 03:23:36,542 [INFO] Conditional probabilities saved: Case_studies_combined_conditional_probabilities.csv
+2026-06-29 03:23:36,546 [INFO] Saved cluster 1 graph: Case_studies_combined_cluster_1_directed.csv
+2026-06-29 03:23:36,548 [INFO] Saved cluster 2 graph: Case_studies_combined_cluster_2_directed.csv
+2026-06-29 03:23:36,553 [INFO] Saved 117 rows to Case_studies_combined_clusters.csv
+2026-06-29 03:23:36,553 [INFO] High-quality clusters saved: Case_studies_combined_high_quality.json
+2026-06-29 03:23:36,553 [INFO] Generating t-SNE of Node2Vec embeddings...
+2026-06-29 03:23:40,911 [INFO] t-SNE saved: Case_studies_combined_tsne.png
+2026-06-29 03:23:40,911 [INFO] Generating global directed KG plot...
+2026-06-29 03:23:43,543 [INFO] Global KG saved: Case_studies_combined_global_kg.png
+2026-06-29 03:23:43,544 [INFO] Generating UMAP interactive plot...
+2026-06-29 03:23:52,796 [INFO] UMAP interactive saved: Case_studies_combined_interactive.html
+2026-06-29 03:23:52,797 [INFO] Streamlit app generated: streamlit_app.py
+2026-06-29 03:23:52,798 [INFO] 
+============================================================
+2026-06-29 03:23:52,798 [INFO] Processing: rheumatic.json
+2026-06-29 03:23:52,798 [INFO] ============================================================
+2026-06-29 03:23:52,816 [INFO] Loaded 125 remedies from rheumatic.json
+2026-06-29 03:23:52,829 [INFO] Prepared 4604 symptom entries
+2026-06-29 03:23:52,834 [INFO] Model saved: rheumatic_model.pkl
+2026-06-29 03:23:52,854 [INFO] Running semantic grouping (SentenceTransformer + Ward)...
+2026-06-29 03:23:52,855 [INFO] No device provided, using cpu
+2026-06-29 03:23:53,175 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:53,187 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:53,444 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:53,453 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:53,455 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-29 03:23:53,701 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:53,711 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:53,970 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:53,980 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-06-29 03:23:54,225 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:54,235 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:54,493 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:54,507 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:54,761 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-06-29 03:23:55,007 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:55,024 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:55,324 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-06-29 03:23:55,572 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-29 03:23:55,820 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-29 03:23:56,069 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-29 03:23:56,315 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:56,326 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:56,571 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:56,582 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:56,825 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:56,836 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:57,087 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:57,098 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:57,351 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-29 03:23:57,603 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-29 03:23:57,884 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 03:23:57,897 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-06-29 03:23:58,152 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-06-29 03:24:10,699 [INFO] Semantic grouping: 3695 → 3637 canonical symptoms
+2026-06-29 03:24:10,703 [INFO] Building directed symptom Knowledge Graph (conditional probabilities)...
+2026-06-29 03:24:12,453 [INFO] KG built — Nodes: 3637 | Directed Edges: 288418
+2026-06-29 03:24:12,459 [INFO] Running Node2Vec on directed KG...
+2026-06-29 03:26:39,279 [INFO] collecting all words and their counts
+2026-06-29 03:26:39,280 [INFO] PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2026-06-29 03:26:39,299 [INFO] PROGRESS: at sentence #10000, processed 299913 words, keeping 3637 word types
+2026-06-29 03:26:39,320 [INFO] PROGRESS: at sentence #20000, processed 599826 words, keeping 3637 word types
+2026-06-29 03:26:39,341 [INFO] PROGRESS: at sentence #30000, processed 899739 words, keeping 3637 word types
+2026-06-29 03:26:39,371 [INFO] PROGRESS: at sentence #40000, processed 1199681 words, keeping 3637 word types
+2026-06-29 03:26:39,406 [INFO] PROGRESS: at sentence #50000, processed 1499594 words, keeping 3637 word types
+2026-06-29 03:26:39,434 [INFO] PROGRESS: at sentence #60000, processed 1799507 words, keeping 3637 word types
+2026-06-29 03:26:39,459 [INFO] PROGRESS: at sentence #70000, processed 2099449 words, keeping 3637 word types
+2026-06-29 03:26:39,484 [INFO] PROGRESS: at sentence #80000, processed 2399362 words, keeping 3637 word types
+2026-06-29 03:26:39,509 [INFO] PROGRESS: at sentence #90000, processed 2699275 words, keeping 3637 word types
+2026-06-29 03:26:39,541 [INFO] PROGRESS: at sentence #100000, processed 2999217 words, keeping 3637 word types
+2026-06-29 03:26:39,564 [INFO] PROGRESS: at sentence #110000, processed 3299101 words, keeping 3637 word types
+2026-06-29 03:26:39,590 [INFO] PROGRESS: at sentence #120000, processed 3599043 words, keeping 3637 word types
+2026-06-29 03:26:39,613 [INFO] PROGRESS: at sentence #130000, processed 3898956 words, keeping 3637 word types
+2026-06-29 03:26:39,638 [INFO] PROGRESS: at sentence #140000, processed 4198898 words, keeping 3637 word types
+2026-06-29 03:26:39,659 [INFO] PROGRESS: at sentence #150000, processed 4498811 words, keeping 3637 word types
+2026-06-29 03:26:39,680 [INFO] PROGRESS: at sentence #160000, processed 4798724 words, keeping 3637 word types
+2026-06-29 03:26:39,701 [INFO] PROGRESS: at sentence #170000, processed 5098637 words, keeping 3637 word types
+2026-06-29 03:26:39,722 [INFO] PROGRESS: at sentence #180000, processed 5398579 words, keeping 3637 word types
+2026-06-29 03:26:39,756 [INFO] PROGRESS: at sentence #190000, processed 5698492 words, keeping 3637 word types
+2026-06-29 03:26:39,794 [INFO] PROGRESS: at sentence #200000, processed 5998405 words, keeping 3637 word types
+2026-06-29 03:26:39,830 [INFO] PROGRESS: at sentence #210000, processed 6298318 words, keeping 3637 word types
+2026-06-29 03:26:39,866 [INFO] PROGRESS: at sentence #220000, processed 6598260 words, keeping 3637 word types
+2026-06-29 03:26:39,903 [INFO] PROGRESS: at sentence #230000, processed 6898173 words, keeping 3637 word types
+2026-06-29 03:26:39,940 [INFO] PROGRESS: at sentence #240000, processed 7198086 words, keeping 3637 word types
+2026-06-29 03:26:39,977 [INFO] PROGRESS: at sentence #250000, processed 7497999 words, keeping 3637 word types
+2026-06-29 03:26:40,015 [INFO] PROGRESS: at sentence #260000, processed 7797941 words, keeping 3637 word types
+2026-06-29 03:26:40,051 [INFO] PROGRESS: at sentence #270000, processed 8097854 words, keeping 3637 word types
+2026-06-29 03:26:40,088 [INFO] PROGRESS: at sentence #280000, processed 8397796 words, keeping 3637 word types
+2026-06-29 03:26:40,129 [INFO] PROGRESS: at sentence #290000, processed 8697709 words, keeping 3637 word types
+2026-06-29 03:26:40,165 [INFO] PROGRESS: at sentence #300000, processed 8997622 words, keeping 3637 word types
+2026-06-29 03:26:40,203 [INFO] PROGRESS: at sentence #310000, processed 9297535 words, keeping 3637 word types
+2026-06-29 03:26:40,239 [INFO] PROGRESS: at sentence #320000, processed 9597448 words, keeping 3637 word types
+2026-06-29 03:26:40,278 [INFO] PROGRESS: at sentence #330000, processed 9897361 words, keeping 3637 word types
+2026-06-29 03:26:40,316 [INFO] PROGRESS: at sentence #340000, processed 10197303 words, keeping 3637 word types
+2026-06-29 03:26:40,353 [INFO] PROGRESS: at sentence #350000, processed 10497216 words, keeping 3637 word types
+2026-06-29 03:26:40,390 [INFO] PROGRESS: at sentence #360000, processed 10797129 words, keeping 3637 word types
+2026-06-29 03:26:40,429 [INFO] PROGRESS: at sentence #370000, processed 11097042 words, keeping 3637 word types
+2026-06-29 03:26:40,467 [INFO] PROGRESS: at sentence #380000, processed 11396984 words, keeping 3637 word types
+2026-06-29 03:26:40,510 [INFO] PROGRESS: at sentence #390000, processed 11696897 words, keeping 3637 word types
+2026-06-29 03:26:40,551 [INFO] PROGRESS: at sentence #400000, processed 11996810 words, keeping 3637 word types
+2026-06-29 03:26:40,592 [INFO] PROGRESS: at sentence #410000, processed 12296752 words, keeping 3637 word types
+2026-06-29 03:26:40,630 [INFO] PROGRESS: at sentence #420000, processed 12596665 words, keeping 3637 word types
+2026-06-29 03:26:40,671 [INFO] PROGRESS: at sentence #430000, processed 12896578 words, keeping 3637 word types
+2026-06-29 03:26:40,709 [INFO] PROGRESS: at sentence #440000, processed 13196491 words, keeping 3637 word types
+2026-06-29 03:26:40,747 [INFO] PROGRESS: at sentence #450000, processed 13496404 words, keeping 3637 word types
+2026-06-29 03:26:40,785 [INFO] PROGRESS: at sentence #460000, processed 13796317 words, keeping 3637 word types
+2026-06-29 03:26:40,842 [INFO] PROGRESS: at sentence #470000, processed 14096259 words, keeping 3637 word types
+2026-06-29 03:26:40,890 [INFO] PROGRESS: at sentence #480000, processed 14396172 words, keeping 3637 word types
+2026-06-29 03:26:40,939 [INFO] PROGRESS: at sentence #490000, processed 14696085 words, keeping 3637 word types
+2026-06-29 03:26:40,987 [INFO] PROGRESS: at sentence #500000, processed 14996027 words, keeping 3637 word types
+2026-06-29 03:26:41,036 [INFO] PROGRESS: at sentence #510000, processed 15295940 words, keeping 3637 word types
+2026-06-29 03:26:41,083 [INFO] PROGRESS: at sentence #520000, processed 15595853 words, keeping 3637 word types
+2026-06-29 03:26:41,130 [INFO] PROGRESS: at sentence #530000, processed 15895766 words, keeping 3637 word types
+2026-06-29 03:26:41,190 [INFO] PROGRESS: at sentence #540000, processed 16195708 words, keeping 3637 word types
+2026-06-29 03:26:41,229 [INFO] PROGRESS: at sentence #550000, processed 16495621 words, keeping 3637 word types
+2026-06-29 03:26:41,266 [INFO] PROGRESS: at sentence #560000, processed 16795534 words, keeping 3637 word types
+2026-06-29 03:26:41,302 [INFO] PROGRESS: at sentence #570000, processed 17095447 words, keeping 3637 word types
+2026-06-29 03:26:41,348 [INFO] PROGRESS: at sentence #580000, processed 17395360 words, keeping 3637 word types
+2026-06-29 03:26:41,385 [INFO] PROGRESS: at sentence #590000, processed 17695302 words, keeping 3637 word types
+2026-06-29 03:26:41,427 [INFO] PROGRESS: at sentence #600000, processed 17995215 words, keeping 3637 word types
+2026-06-29 03:26:41,467 [INFO] PROGRESS: at sentence #610000, processed 18295157 words, keeping 3637 word types
+2026-06-29 03:26:41,515 [INFO] PROGRESS: at sentence #620000, processed 18595070 words, keeping 3637 word types
+2026-06-29 03:26:41,555 [INFO] PROGRESS: at sentence #630000, processed 18894983 words, keeping 3637 word types
+2026-06-29 03:26:41,592 [INFO] PROGRESS: at sentence #640000, processed 19194896 words, keeping 3637 word types
+2026-06-29 03:26:41,628 [INFO] PROGRESS: at sentence #650000, processed 19494809 words, keeping 3637 word types
+2026-06-29 03:26:41,682 [INFO] PROGRESS: at sentence #660000, processed 19794722 words, keeping 3637 word types
+2026-06-29 03:26:41,722 [INFO] PROGRESS: at sentence #670000, processed 20094664 words, keeping 3637 word types
+2026-06-29 03:26:41,769 [INFO] PROGRESS: at sentence #680000, processed 20394577 words, keeping 3637 word types
+2026-06-29 03:26:41,810 [INFO] PROGRESS: at sentence #690000, processed 20694490 words, keeping 3637 word types
+2026-06-29 03:26:41,850 [INFO] PROGRESS: at sentence #700000, processed 20994403 words, keeping 3637 word types
+2026-06-29 03:26:41,895 [INFO] PROGRESS: at sentence #710000, processed 21294316 words, keeping 3637 word types
+2026-06-29 03:26:41,943 [INFO] PROGRESS: at sentence #720000, processed 21594258 words, keeping 3637 word types
+2026-06-29 03:26:41,970 [INFO] collected 3637 word types from a corpus of 21816200 raw words and 727400 sentences
+2026-06-29 03:26:41,970 [INFO] Creating a fresh vocabulary
+2026-06-29 03:26:41,976 [INFO] Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 3637 unique words (100.00% of original 3637, drops 0)', 'datetime': '2026-06-29T03:26:41.976665', 'gensim': '4.4.0', 'python': '3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'prepare_vocab'}
+2026-06-29 03:26:41,976 [INFO] Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 21816200 word corpus (100.00% of original 21816200, drops 0)', 'datetime': '2026-06-29T03:26:41.976864', 'gensim': '4.4.0', 'python': '3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'prepare_vocab'}
+2026-06-29 03:26:41,985 [INFO] deleting the raw counts dictionary of 3637 items
+2026-06-29 03:26:41,986 [INFO] sample=0.001 downsamples 1 most-common words
+2026-06-29 03:26:41,986 [INFO] Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 21795844.143475 word corpus (99.9%% of prior 21816200)', 'datetime': '2026-06-29T03:26:41.986228', 'gensim': '4.4.0', 'python': '3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'prepare_vocab'}
+2026-06-29 03:26:42,006 [INFO] estimated required memory for 3637 words and 128 dimensions: 5542788 bytes
+2026-06-29 03:26:42,007 [INFO] resetting layer weights
+2026-06-29 03:26:42,008 [INFO] Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2026-06-29T03:26:42.008720', 'gensim': '4.4.0', 'python': '3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'build_vocab'}
+2026-06-29 03:26:42,008 [INFO] Word2Vec lifecycle event {'msg': 'training model with 4 workers on 3637 vocabulary and 128 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2026-06-29T03:26:42.008874', 'gensim': '4.4.0', 'python': '3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'train'}
+2026-06-29 03:26:43,010 [INFO] EPOCH 0 - PROGRESS: at 2.08% examples, 452301 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:26:44,011 [INFO] EPOCH 0 - PROGRESS: at 4.04% examples, 440137 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:26:45,011 [INFO] EPOCH 0 - PROGRESS: at 5.79% examples, 420414 words/s, in_qsize 6, out_qsize 2
+2026-06-29 03:26:46,011 [INFO] EPOCH 0 - PROGRESS: at 7.77% examples, 423260 words/s, in_qsize 4, out_qsize 0
+2026-06-29 03:26:47,011 [INFO] EPOCH 0 - PROGRESS: at 9.56% examples, 416868 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:26:48,011 [INFO] EPOCH 0 - PROGRESS: at 11.13% examples, 404134 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:26:49,011 [INFO] EPOCH 0 - PROGRESS: at 12.77% examples, 397443 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:26:50,011 [INFO] EPOCH 0 - PROGRESS: at 14.61% examples, 397946 words/s, in_qsize 7, out_qsize 3
+2026-06-29 03:26:51,011 [INFO] EPOCH 0 - PROGRESS: at 16.58% examples, 401455 words/s, in_qsize 6, out_qsize 1
+2026-06-29 03:26:52,011 [INFO] EPOCH 0 - PROGRESS: at 18.52% examples, 403514 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:26:53,011 [INFO] EPOCH 0 - PROGRESS: at 20.26% examples, 401444 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:26:54,011 [INFO] EPOCH 0 - PROGRESS: at 22.33% examples, 405551 words/s, in_qsize 6, out_qsize 0
+2026-06-29 03:26:55,011 [INFO] EPOCH 0 - PROGRESS: at 24.13% examples, 404491 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:26:56,012 [INFO] EPOCH 0 - PROGRESS: at 25.79% examples, 401517 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:26:57,012 [INFO] EPOCH 0 - PROGRESS: at 27.20% examples, 395231 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:26:58,012 [INFO] EPOCH 0 - PROGRESS: at 29.08% examples, 396167 words/s, in_qsize 8, out_qsize 3
+2026-06-29 03:26:59,012 [INFO] EPOCH 0 - PROGRESS: at 30.99% examples, 397279 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:27:00,012 [INFO] EPOCH 0 - PROGRESS: at 32.80% examples, 397145 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:27:01,012 [INFO] EPOCH 0 - PROGRESS: at 34.46% examples, 395229 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:27:02,012 [INFO] EPOCH 0 - PROGRESS: at 36.45% examples, 397200 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:27:03,013 [INFO] EPOCH 0 - PROGRESS: at 38.23% examples, 396749 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:27:04,013 [INFO] EPOCH 0 - PROGRESS: at 40.10% examples, 397262 words/s, in_qsize 6, out_qsize 3
+2026-06-29 03:27:05,013 [INFO] EPOCH 0 - PROGRESS: at 41.87% examples, 396732 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:27:06,013 [INFO] EPOCH 0 - PROGRESS: at 43.75% examples, 397243 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:27:07,013 [INFO] EPOCH 0 - PROGRESS: at 45.52% examples, 396820 words/s, in_qsize 8, out_qsize 4
+2026-06-29 03:27:08,013 [INFO] EPOCH 0 - PROGRESS: at 47.08% examples, 394641 words/s, in_qsize 6, out_qsize 0
+2026-06-29 03:27:09,013 [INFO] EPOCH 0 - PROGRESS: at 48.61% examples, 392401 words/s, in_qsize 7, out_qsize 2
+2026-06-29 03:27:10,013 [INFO] EPOCH 0 - PROGRESS: at 50.39% examples, 392212 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:27:11,013 [INFO] EPOCH 0 - PROGRESS: at 52.22% examples, 392450 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:27:12,013 [INFO] EPOCH 0 - PROGRESS: at 53.88% examples, 391382 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:27:13,013 [INFO] EPOCH 0 - PROGRESS: at 55.50% examples, 390188 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:27:14,013 [INFO] EPOCH 0 - PROGRESS: at 57.31% examples, 390309 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:27:15,014 [INFO] EPOCH 0 - PROGRESS: at 59.31% examples, 391690 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:27:16,014 [INFO] EPOCH 0 - PROGRESS: at 60.92% examples, 390495 words/s, in_qsize 7, out_qsize 2
+2026-06-29 03:27:17,014 [INFO] EPOCH 0 - PROGRESS: at 62.56% examples, 389537 words/s, in_qsize 7, out_qsize 4
+2026-06-29 03:27:18,014 [INFO] EPOCH 0 - PROGRESS: at 64.52% examples, 390603 words/s, in_qsize 6, out_qsize 0
+2026-06-29 03:27:19,014 [INFO] EPOCH 0 - PROGRESS: at 66.25% examples, 390217 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:27:20,014 [INFO] EPOCH 0 - PROGRESS: at 68.05% examples, 390298 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:27:21,014 [INFO] EPOCH 0 - PROGRESS: at 69.78% examples, 389958 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:27:22,014 [INFO] EPOCH 0 - PROGRESS: at 71.68% examples, 390543 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:27:23,014 [INFO] EPOCH 0 - PROGRESS: at 73.63% examples, 391384 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:27:24,014 [INFO] EPOCH 0 - PROGRESS: at 75.45% examples, 391494 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:27:25,014 [INFO] EPOCH 0 - PROGRESS: at 77.18% examples, 391189 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:27:26,015 [INFO] EPOCH 0 - PROGRESS: at 79.06% examples, 391581 words/s, in_qsize 6, out_qsize 2
+2026-06-29 03:27:27,015 [INFO] EPOCH 0 - PROGRESS: at 80.80% examples, 391301 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:27:28,015 [INFO] EPOCH 0 - PROGRESS: at 82.44% examples, 390600 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:27:29,015 [INFO] EPOCH 0 - PROGRESS: at 84.06% examples, 389787 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:27:30,015 [INFO] EPOCH 0 - PROGRESS: at 85.91% examples, 390037 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:27:31,015 [INFO] EPOCH 0 - PROGRESS: at 87.62% examples, 389703 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:27:32,015 [INFO] EPOCH 0 - PROGRESS: at 89.31% examples, 389263 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:27:33,015 [INFO] EPOCH 0 - PROGRESS: at 90.86% examples, 388272 words/s, in_qsize 6, out_qsize 3
+2026-06-29 03:27:34,015 [INFO] EPOCH 0 - PROGRESS: at 92.52% examples, 387774 words/s, in_qsize 7, out_qsize 2
+2026-06-29 03:27:35,015 [INFO] EPOCH 0 - PROGRESS: at 94.29% examples, 387721 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:27:36,015 [INFO] EPOCH 0 - PROGRESS: at 96.18% examples, 388182 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:27:37,015 [INFO] EPOCH 0 - PROGRESS: at 97.92% examples, 388024 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:27:38,015 [INFO] EPOCH 0 - PROGRESS: at 99.86% examples, 388641 words/s, in_qsize 7, out_qsize 2
+2026-06-29 03:27:38,080 [INFO] EPOCH 0: training on 21816200 raw words (21795619 effective words) took 56.1s, 388722 effective words/s
+2026-06-29 03:27:39,082 [INFO] EPOCH 1 - PROGRESS: at 1.97% examples, 429457 words/s, in_qsize 5, out_qsize 3
+2026-06-29 03:27:40,082 [INFO] EPOCH 1 - PROGRESS: at 3.83% examples, 417860 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:27:41,082 [INFO] EPOCH 1 - PROGRESS: at 5.59% examples, 406087 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:27:42,082 [INFO] EPOCH 1 - PROGRESS: at 7.65% examples, 416560 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:27:43,082 [INFO] EPOCH 1 - PROGRESS: at 9.34% examples, 407020 words/s, in_qsize 8, out_qsize 3
+2026-06-29 03:27:44,082 [INFO] EPOCH 1 - PROGRESS: at 11.05% examples, 401378 words/s, in_qsize 8, out_qsize 4
+2026-06-29 03:27:45,083 [INFO] EPOCH 1 - PROGRESS: at 12.65% examples, 393784 words/s, in_qsize 4, out_qsize 0
+2026-06-29 03:27:46,083 [INFO] EPOCH 1 - PROGRESS: at 14.64% examples, 398966 words/s, in_qsize 6, out_qsize 1
+2026-06-29 03:27:47,083 [INFO] EPOCH 1 - PROGRESS: at 16.59% examples, 401870 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:27:48,083 [INFO] EPOCH 1 - PROGRESS: at 18.26% examples, 397905 words/s, in_qsize 5, out_qsize 1
+2026-06-29 03:27:49,083 [INFO] EPOCH 1 - PROGRESS: at 19.91% examples, 394500 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:27:50,083 [INFO] EPOCH 1 - PROGRESS: at 21.79% examples, 395782 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:27:51,083 [INFO] EPOCH 1 - PROGRESS: at 23.78% examples, 398754 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:27:52,083 [INFO] EPOCH 1 - PROGRESS: at 25.64% examples, 399173 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:27:53,083 [INFO] EPOCH 1 - PROGRESS: at 27.37% examples, 397630 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:27:54,083 [INFO] EPOCH 1 - PROGRESS: at 29.34% examples, 399646 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:27:55,083 [INFO] EPOCH 1 - PROGRESS: at 31.30% examples, 401237 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:27:56,084 [INFO] EPOCH 1 - PROGRESS: at 32.96% examples, 399069 words/s, in_qsize 7, out_qsize 8
+2026-06-29 03:27:57,084 [INFO] EPOCH 1 - PROGRESS: at 34.54% examples, 396213 words/s, in_qsize 7, out_qsize 4
+2026-06-29 03:27:58,085 [INFO] EPOCH 1 - PROGRESS: at 36.13% examples, 393668 words/s, in_qsize 8, out_qsize 4
+2026-06-29 03:27:59,085 [INFO] EPOCH 1 - PROGRESS: at 38.06% examples, 394947 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:28:00,085 [INFO] EPOCH 1 - PROGRESS: at 39.75% examples, 393766 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:28:01,085 [INFO] EPOCH 1 - PROGRESS: at 41.19% examples, 390292 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:28:02,085 [INFO] EPOCH 1 - PROGRESS: at 42.88% examples, 389409 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:28:03,085 [INFO] EPOCH 1 - PROGRESS: at 44.62% examples, 388947 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:28:04,085 [INFO] EPOCH 1 - PROGRESS: at 46.32% examples, 388261 words/s, in_qsize 7, out_qsize 3
+2026-06-29 03:28:05,085 [INFO] EPOCH 1 - PROGRESS: at 48.03% examples, 387690 words/s, in_qsize 6, out_qsize 1
+2026-06-29 03:28:06,085 [INFO] EPOCH 1 - PROGRESS: at 49.91% examples, 388491 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:28:07,085 [INFO] EPOCH 1 - PROGRESS: at 51.65% examples, 388142 words/s, in_qsize 6, out_qsize 1
+2026-06-29 03:28:08,085 [INFO] EPOCH 1 - PROGRESS: at 53.37% examples, 387678 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:28:09,086 [INFO] EPOCH 1 - PROGRESS: at 54.87% examples, 385763 words/s, in_qsize 7, out_qsize 3
+2026-06-29 03:28:10,086 [INFO] EPOCH 1 - PROGRESS: at 56.84% examples, 387085 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:28:11,086 [INFO] EPOCH 1 - PROGRESS: at 58.67% examples, 387487 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:28:12,086 [INFO] EPOCH 1 - PROGRESS: at 60.29% examples, 386455 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:28:13,086 [INFO] EPOCH 1 - PROGRESS: at 61.83% examples, 385008 words/s, in_qsize 6, out_qsize 3
+2026-06-29 03:28:14,086 [INFO] EPOCH 1 - PROGRESS: at 63.81% examples, 386313 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:28:15,086 [INFO] EPOCH 1 - PROGRESS: at 65.77% examples, 387374 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:28:16,086 [INFO] EPOCH 1 - PROGRESS: at 67.37% examples, 386387 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:28:17,087 [INFO] EPOCH 1 - PROGRESS: at 68.96% examples, 385362 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:28:18,087 [INFO] EPOCH 1 - PROGRESS: at 70.74% examples, 385424 words/s, in_qsize 6, out_qsize 3
+2026-06-29 03:28:19,087 [INFO] EPOCH 1 - PROGRESS: at 72.51% examples, 385416 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:28:20,087 [INFO] EPOCH 1 - PROGRESS: at 74.21% examples, 385062 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:28:21,087 [INFO] EPOCH 1 - PROGRESS: at 75.82% examples, 384274 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:28:22,087 [INFO] EPOCH 1 - PROGRESS: at 77.45% examples, 383627 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:28:23,087 [INFO] EPOCH 1 - PROGRESS: at 79.13% examples, 383241 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:28:24,087 [INFO] EPOCH 1 - PROGRESS: at 80.75% examples, 382574 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:28:25,087 [INFO] EPOCH 1 - PROGRESS: at 82.33% examples, 381760 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:28:26,087 [INFO] EPOCH 1 - PROGRESS: at 84.18% examples, 382219 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:28:27,087 [INFO] EPOCH 1 - PROGRESS: at 86.16% examples, 383208 words/s, in_qsize 8, out_qsize 3
+2026-06-29 03:28:28,088 [INFO] EPOCH 1 - PROGRESS: at 87.73% examples, 382391 words/s, in_qsize 7, out_qsize 2
+2026-06-29 03:28:29,088 [INFO] EPOCH 1 - PROGRESS: at 89.27% examples, 381450 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:28:30,088 [INFO] EPOCH 1 - PROGRESS: at 91.09% examples, 381765 words/s, in_qsize 8, out_qsize 3
+2026-06-29 03:28:31,088 [INFO] EPOCH 1 - PROGRESS: at 92.88% examples, 381905 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:28:32,088 [INFO] EPOCH 1 - PROGRESS: at 94.53% examples, 381495 words/s, in_qsize 6, out_qsize 2
+2026-06-29 03:28:33,088 [INFO] EPOCH 1 - PROGRESS: at 96.13% examples, 380914 words/s, in_qsize 6, out_qsize 1
+2026-06-29 03:28:34,088 [INFO] EPOCH 1 - PROGRESS: at 98.10% examples, 381768 words/s, in_qsize 5, out_qsize 2
+2026-06-29 03:28:35,088 [INFO] EPOCH 1 - PROGRESS: at 99.90% examples, 381939 words/s, in_qsize 7, out_qsize 2
+2026-06-29 03:28:35,145 [INFO] EPOCH 1: training on 21816200 raw words (21795783 effective words) took 57.1s, 381962 effective words/s
+2026-06-29 03:28:36,147 [INFO] EPOCH 2 - PROGRESS: at 1.64% examples, 357880 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:28:37,147 [INFO] EPOCH 2 - PROGRESS: at 3.29% examples, 358851 words/s, in_qsize 6, out_qsize 1
+2026-06-29 03:28:38,147 [INFO] EPOCH 2 - PROGRESS: at 5.10% examples, 370610 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:28:39,147 [INFO] EPOCH 2 - PROGRESS: at 6.96% examples, 379257 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:28:40,147 [INFO] EPOCH 2 - PROGRESS: at 8.60% examples, 374989 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:28:41,147 [INFO] EPOCH 2 - PROGRESS: at 10.21% examples, 370701 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:28:42,147 [INFO] EPOCH 2 - PROGRESS: at 12.06% examples, 375379 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:28:43,147 [INFO] EPOCH 2 - PROGRESS: at 13.98% examples, 380817 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:28:44,147 [INFO] EPOCH 2 - PROGRESS: at 15.82% examples, 383026 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:28:45,147 [INFO] EPOCH 2 - PROGRESS: at 17.61% examples, 383809 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:28:46,147 [INFO] EPOCH 2 - PROGRESS: at 19.59% examples, 388173 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:28:47,148 [INFO] EPOCH 2 - PROGRESS: at 21.40% examples, 388592 words/s, in_qsize 3, out_qsize 3
+2026-06-29 03:28:48,148 [INFO] EPOCH 2 - PROGRESS: at 23.06% examples, 386550 words/s, in_qsize 8, out_qsize 3
+2026-06-29 03:28:49,148 [INFO] EPOCH 2 - PROGRESS: at 24.68% examples, 384172 words/s, in_qsize 7, out_qsize 2
+2026-06-29 03:28:50,148 [INFO] EPOCH 2 - PROGRESS: at 26.44% examples, 384158 words/s, in_qsize 5, out_qsize 2
+2026-06-29 03:28:51,148 [INFO] EPOCH 2 - PROGRESS: at 28.39% examples, 386748 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:28:52,148 [INFO] EPOCH 2 - PROGRESS: at 30.12% examples, 386195 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:28:53,148 [INFO] EPOCH 2 - PROGRESS: at 31.86% examples, 385783 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:28:54,148 [INFO] EPOCH 2 - PROGRESS: at 33.81% examples, 387757 words/s, in_qsize 6, out_qsize 1
+2026-06-29 03:28:55,149 [INFO] EPOCH 2 - PROGRESS: at 35.67% examples, 388723 words/s, in_qsize 8, out_qsize 5
+2026-06-29 03:28:56,149 [INFO] EPOCH 2 - PROGRESS: at 37.39% examples, 388027 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:28:57,149 [INFO] EPOCH 2 - PROGRESS: at 39.16% examples, 387949 words/s, in_qsize 6, out_qsize 1
+2026-06-29 03:28:58,149 [INFO] EPOCH 2 - PROGRESS: at 41.09% examples, 389312 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:28:59,149 [INFO] EPOCH 2 - PROGRESS: at 42.98% examples, 390250 words/s, in_qsize 7, out_qsize 2
+2026-06-29 03:29:00,149 [INFO] EPOCH 2 - PROGRESS: at 44.62% examples, 388936 words/s, in_qsize 6, out_qsize 2
+2026-06-29 03:29:01,150 [INFO] EPOCH 2 - PROGRESS: at 46.26% examples, 387786 words/s, in_qsize 8, out_qsize 3
+2026-06-29 03:29:02,150 [INFO] EPOCH 2 - PROGRESS: at 48.12% examples, 388375 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:29:03,150 [INFO] EPOCH 2 - PROGRESS: at 49.85% examples, 388044 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:29:04,150 [INFO] EPOCH 2 - PROGRESS: at 51.56% examples, 387476 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:29:05,150 [INFO] EPOCH 2 - PROGRESS: at 53.21% examples, 386549 words/s, in_qsize 8, out_qsize 8
+2026-06-29 03:29:06,150 [INFO] EPOCH 2 - PROGRESS: at 54.83% examples, 385479 words/s, in_qsize 6, out_qsize 0
+2026-06-29 03:29:07,150 [INFO] EPOCH 2 - PROGRESS: at 56.49% examples, 384721 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:29:08,150 [INFO] EPOCH 2 - PROGRESS: at 58.03% examples, 383216 words/s, in_qsize 5, out_qsize 1
+2026-06-29 03:29:09,150 [INFO] EPOCH 2 - PROGRESS: at 59.74% examples, 382944 words/s, in_qsize 5, out_qsize 0
+2026-06-29 03:29:10,150 [INFO] EPOCH 2 - PROGRESS: at 61.44% examples, 382582 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:29:11,150 [INFO] EPOCH 2 - PROGRESS: at 63.21% examples, 382648 words/s, in_qsize 6, out_qsize 2
+2026-06-29 03:29:12,151 [INFO] EPOCH 2 - PROGRESS: at 64.71% examples, 381127 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:29:13,151 [INFO] EPOCH 2 - PROGRESS: at 66.30% examples, 380222 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:29:14,151 [INFO] EPOCH 2 - PROGRESS: at 68.10% examples, 380529 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:29:15,151 [INFO] EPOCH 2 - PROGRESS: at 69.90% examples, 380834 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:29:16,151 [INFO] EPOCH 2 - PROGRESS: at 71.38% examples, 379403 words/s, in_qsize 6, out_qsize 3
+2026-06-29 03:29:17,151 [INFO] EPOCH 2 - PROGRESS: at 73.02% examples, 378913 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:29:18,151 [INFO] EPOCH 2 - PROGRESS: at 74.80% examples, 379110 words/s, in_qsize 8, out_qsize 3
+2026-06-29 03:29:19,151 [INFO] EPOCH 2 - PROGRESS: at 76.55% examples, 379154 words/s, in_qsize 8, out_qsize 3
+2026-06-29 03:29:20,151 [INFO] EPOCH 2 - PROGRESS: at 78.10% examples, 378247 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:29:21,152 [INFO] EPOCH 2 - PROGRESS: at 79.72% examples, 377672 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:29:22,152 [INFO] EPOCH 2 - PROGRESS: at 81.53% examples, 378035 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:29:23,152 [INFO] EPOCH 2 - PROGRESS: at 83.31% examples, 378271 words/s, in_qsize 6, out_qsize 1
+2026-06-29 03:29:24,152 [INFO] EPOCH 2 - PROGRESS: at 84.90% examples, 377594 words/s, in_qsize 6, out_qsize 2
+2026-06-29 03:29:25,152 [INFO] EPOCH 2 - PROGRESS: at 86.52% examples, 377122 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:29:26,152 [INFO] EPOCH 2 - PROGRESS: at 88.19% examples, 376867 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:29:27,152 [INFO] EPOCH 2 - PROGRESS: at 89.93% examples, 376896 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:29:28,152 [INFO] EPOCH 2 - PROGRESS: at 91.44% examples, 375990 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:29:29,152 [INFO] EPOCH 2 - PROGRESS: at 93.00% examples, 375323 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:29:30,152 [INFO] EPOCH 2 - PROGRESS: at 94.76% examples, 375473 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:29:31,152 [INFO] EPOCH 2 - PROGRESS: at 96.47% examples, 375432 words/s, in_qsize 7, out_qsize 2
+2026-06-29 03:29:32,152 [INFO] EPOCH 2 - PROGRESS: at 98.04% examples, 374844 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:29:33,152 [INFO] EPOCH 2 - PROGRESS: at 99.67% examples, 374518 words/s, in_qsize 4, out_qsize 1
+2026-06-29 03:29:33,324 [INFO] EPOCH 2: training on 21816200 raw words (21795653 effective words) took 58.2s, 374641 effective words/s
+2026-06-29 03:29:34,326 [INFO] EPOCH 3 - PROGRESS: at 1.75% examples, 382388 words/s, in_qsize 7, out_qsize 2
+2026-06-29 03:29:35,326 [INFO] EPOCH 3 - PROGRESS: at 3.42% examples, 372616 words/s, in_qsize 6, out_qsize 1
+2026-06-29 03:29:36,326 [INFO] EPOCH 3 - PROGRESS: at 4.98% examples, 361778 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:29:37,327 [INFO] EPOCH 3 - PROGRESS: at 6.70% examples, 364929 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:29:38,327 [INFO] EPOCH 3 - PROGRESS: at 8.52% examples, 371544 words/s, in_qsize 7, out_qsize 2
+2026-06-29 03:29:39,327 [INFO] EPOCH 3 - PROGRESS: at 10.39% examples, 377483 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:29:40,327 [INFO] EPOCH 3 - PROGRESS: at 11.99% examples, 373182 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:29:41,327 [INFO] EPOCH 3 - PROGRESS: at 13.74% examples, 374326 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:29:42,327 [INFO] EPOCH 3 - PROGRESS: at 15.55% examples, 376528 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:29:43,327 [INFO] EPOCH 3 - PROGRESS: at 17.38% examples, 378684 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:29:44,327 [INFO] EPOCH 3 - PROGRESS: at 18.99% examples, 376302 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:29:45,327 [INFO] EPOCH 3 - PROGRESS: at 20.64% examples, 374838 words/s, in_qsize 7, out_qsize 2
+2026-06-29 03:29:46,327 [INFO] EPOCH 3 - PROGRESS: at 22.41% examples, 375627 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:29:47,327 [INFO] EPOCH 3 - PROGRESS: at 24.26% examples, 377685 words/s, in_qsize 6, out_qsize 0
+2026-06-29 03:29:48,327 [INFO] EPOCH 3 - PROGRESS: at 25.87% examples, 375875 words/s, in_qsize 8, out_qsize 4
+2026-06-29 03:29:49,328 [INFO] EPOCH 3 - PROGRESS: at 27.60% examples, 375937 words/s, in_qsize 6, out_qsize 4
+2026-06-29 03:29:50,328 [INFO] EPOCH 3 - PROGRESS: at 29.34% examples, 376193 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:29:51,328 [INFO] EPOCH 3 - PROGRESS: at 31.18% examples, 377558 words/s, in_qsize 8, out_qsize 3
+2026-06-29 03:29:52,328 [INFO] EPOCH 3 - PROGRESS: at 32.77% examples, 375922 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:29:53,328 [INFO] EPOCH 3 - PROGRESS: at 34.41% examples, 374982 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:29:54,328 [INFO] EPOCH 3 - PROGRESS: at 36.27% examples, 376363 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:29:55,328 [INFO] EPOCH 3 - PROGRESS: at 38.08% examples, 377189 words/s, in_qsize 4, out_qsize 0
+2026-06-29 03:29:56,329 [INFO] EPOCH 3 - PROGRESS: at 39.65% examples, 375710 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:29:57,329 [INFO] EPOCH 3 - PROGRESS: at 41.34% examples, 375413 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:29:58,329 [INFO] EPOCH 3 - PROGRESS: at 43.09% examples, 375604 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:29:59,329 [INFO] EPOCH 3 - PROGRESS: at 44.83% examples, 375748 words/s, in_qsize 8, out_qsize 3
+2026-06-29 03:30:00,329 [INFO] EPOCH 3 - PROGRESS: at 46.32% examples, 373865 words/s, in_qsize 4, out_qsize 1
+2026-06-29 03:30:01,329 [INFO] EPOCH 3 - PROGRESS: at 47.78% examples, 371872 words/s, in_qsize 6, out_qsize 2
+2026-06-29 03:30:02,329 [INFO] EPOCH 3 - PROGRESS: at 49.57% examples, 372557 words/s, in_qsize 8, out_qsize 3
+2026-06-29 03:30:03,329 [INFO] EPOCH 3 - PROGRESS: at 51.39% examples, 373358 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:30:04,329 [INFO] EPOCH 3 - PROGRESS: at 52.98% examples, 372437 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:30:05,329 [INFO] EPOCH 3 - PROGRESS: at 54.60% examples, 371865 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:30:06,330 [INFO] EPOCH 3 - PROGRESS: at 56.38% examples, 372344 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:30:07,330 [INFO] EPOCH 3 - PROGRESS: at 58.30% examples, 373696 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:30:08,330 [INFO] EPOCH 3 - PROGRESS: at 59.90% examples, 372955 words/s, in_qsize 5, out_qsize 2
+2026-06-29 03:30:09,330 [INFO] EPOCH 3 - PROGRESS: at 61.67% examples, 373311 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:30:10,330 [INFO] EPOCH 3 - PROGRESS: at 63.50% examples, 374046 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:30:11,330 [INFO] EPOCH 3 - PROGRESS: at 65.20% examples, 373943 words/s, in_qsize 7, out_qsize 3
+2026-06-29 03:30:12,330 [INFO] EPOCH 3 - PROGRESS: at 66.80% examples, 373305 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:30:13,330 [INFO] EPOCH 3 - PROGRESS: at 68.47% examples, 373066 words/s, in_qsize 5, out_qsize 2
+2026-06-29 03:30:14,330 [INFO] EPOCH 3 - PROGRESS: at 70.21% examples, 373203 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:30:15,330 [INFO] EPOCH 3 - PROGRESS: at 72.04% examples, 373796 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:30:16,330 [INFO] EPOCH 3 - PROGRESS: at 73.64% examples, 373251 words/s, in_qsize 6, out_qsize 2
+2026-06-29 03:30:17,331 [INFO] EPOCH 3 - PROGRESS: at 75.41% examples, 373522 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:30:18,331 [INFO] EPOCH 3 - PROGRESS: at 77.08% examples, 373288 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:30:19,331 [INFO] EPOCH 3 - PROGRESS: at 78.94% examples, 374011 words/s, in_qsize 6, out_qsize 2
+2026-06-29 03:30:20,331 [INFO] EPOCH 3 - PROGRESS: at 80.60% examples, 373720 words/s, in_qsize 5, out_qsize 4
+2026-06-29 03:30:21,331 [INFO] EPOCH 3 - PROGRESS: at 82.17% examples, 373099 words/s, in_qsize 8, out_qsize 3
+2026-06-29 03:30:22,331 [INFO] EPOCH 3 - PROGRESS: at 83.89% examples, 373138 words/s, in_qsize 7, out_qsize 2
+2026-06-29 03:30:23,331 [INFO] EPOCH 3 - PROGRESS: at 85.59% examples, 373068 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:30:24,331 [INFO] EPOCH 3 - PROGRESS: at 87.19% examples, 372599 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:30:25,331 [INFO] EPOCH 3 - PROGRESS: at 88.95% examples, 372815 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:30:26,331 [INFO] EPOCH 3 - PROGRESS: at 90.86% examples, 373639 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:30:27,331 [INFO] EPOCH 3 - PROGRESS: at 92.54% examples, 373483 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:30:28,331 [INFO] EPOCH 3 - PROGRESS: at 94.03% examples, 372595 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:30:29,331 [INFO] EPOCH 3 - PROGRESS: at 95.61% examples, 372106 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:30:30,331 [INFO] EPOCH 3 - PROGRESS: at 97.35% examples, 372205 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:30:31,331 [INFO] EPOCH 3 - PROGRESS: at 99.04% examples, 372133 words/s, in_qsize 6, out_qsize 0
+2026-06-29 03:30:32,199 [INFO] EPOCH 3: training on 21816200 raw words (21795931 effective words) took 58.9s, 370218 effective words/s
+2026-06-29 03:30:33,202 [INFO] EPOCH 4 - PROGRESS: at 1.27% examples, 276219 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:30:34,202 [INFO] EPOCH 4 - PROGRESS: at 3.05% examples, 331935 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:30:35,203 [INFO] EPOCH 4 - PROGRESS: at 4.78% examples, 347244 words/s, in_qsize 8, out_qsize 3
+2026-06-29 03:30:36,203 [INFO] EPOCH 4 - PROGRESS: at 6.37% examples, 346960 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:30:37,203 [INFO] EPOCH 4 - PROGRESS: at 7.99% examples, 348033 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:30:38,203 [INFO] EPOCH 4 - PROGRESS: at 9.79% examples, 355439 words/s, in_qsize 6, out_qsize 0
+2026-06-29 03:30:39,203 [INFO] EPOCH 4 - PROGRESS: at 11.62% examples, 361831 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:30:40,203 [INFO] EPOCH 4 - PROGRESS: at 13.25% examples, 361023 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:30:41,203 [INFO] EPOCH 4 - PROGRESS: at 14.83% examples, 359063 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:30:42,203 [INFO] EPOCH 4 - PROGRESS: at 16.64% examples, 362714 words/s, in_qsize 6, out_qsize 1
+2026-06-29 03:30:43,203 [INFO] EPOCH 4 - PROGRESS: at 18.48% examples, 366057 words/s, in_qsize 7, out_qsize 2
+2026-06-29 03:30:44,203 [INFO] EPOCH 4 - PROGRESS: at 20.16% examples, 366209 words/s, in_qsize 5, out_qsize 0
+2026-06-29 03:30:45,203 [INFO] EPOCH 4 - PROGRESS: at 21.67% examples, 363363 words/s, in_qsize 3, out_qsize 2
+2026-06-29 03:30:46,203 [INFO] EPOCH 4 - PROGRESS: at 23.29% examples, 362598 words/s, in_qsize 8, out_qsize 2
+2026-06-29 03:30:47,203 [INFO] EPOCH 4 - PROGRESS: at 25.13% examples, 365076 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:30:48,203 [INFO] EPOCH 4 - PROGRESS: at 26.57% examples, 361872 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:30:49,204 [INFO] EPOCH 4 - PROGRESS: at 28.12% examples, 360488 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:30:50,204 [INFO] EPOCH 4 - PROGRESS: at 29.72% examples, 359845 words/s, in_qsize 7, out_qsize 5
+2026-06-29 03:30:51,204 [INFO] EPOCH 4 - PROGRESS: at 31.11% examples, 356876 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:30:52,205 [INFO] EPOCH 4 - PROGRESS: at 32.88% examples, 358284 words/s, in_qsize 2, out_qsize 7
+2026-06-29 03:30:53,205 [INFO] EPOCH 4 - PROGRESS: at 34.42% examples, 357163 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:30:54,205 [INFO] EPOCH 4 - PROGRESS: at 35.75% examples, 354177 words/s, in_qsize 6, out_qsize 1
+2026-06-29 03:30:55,205 [INFO] EPOCH 4 - PROGRESS: at 37.47% examples, 354997 words/s, in_qsize 5, out_qsize 0
+2026-06-29 03:30:56,205 [INFO] EPOCH 4 - PROGRESS: at 39.02% examples, 354340 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:30:57,205 [INFO] EPOCH 4 - PROGRESS: at 40.37% examples, 351900 words/s, in_qsize 6, out_qsize 1
+2026-06-29 03:30:58,206 [INFO] EPOCH 4 - PROGRESS: at 42.05% examples, 352433 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:30:59,206 [INFO] EPOCH 4 - PROGRESS: at 43.84% examples, 353842 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:31:00,206 [INFO] EPOCH 4 - PROGRESS: at 45.72% examples, 355836 words/s, in_qsize 8, out_qsize 3
+2026-06-29 03:31:01,206 [INFO] EPOCH 4 - PROGRESS: at 47.66% examples, 358144 words/s, in_qsize 8, out_qsize 4
+2026-06-29 03:31:02,206 [INFO] EPOCH 4 - PROGRESS: at 49.54% examples, 359847 words/s, in_qsize 5, out_qsize 2
+2026-06-29 03:31:03,206 [INFO] EPOCH 4 - PROGRESS: at 51.37% examples, 361142 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:31:04,206 [INFO] EPOCH 4 - PROGRESS: at 53.26% examples, 362713 words/s, in_qsize 7, out_qsize 2
+2026-06-29 03:31:05,206 [INFO] EPOCH 4 - PROGRESS: at 55.17% examples, 364319 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:31:06,206 [INFO] EPOCH 4 - PROGRESS: at 57.06% examples, 365737 words/s, in_qsize 6, out_qsize 1
+2026-06-29 03:31:07,206 [INFO] EPOCH 4 - PROGRESS: at 58.95% examples, 367063 words/s, in_qsize 8, out_qsize 0
+2026-06-29 03:31:08,206 [INFO] EPOCH 4 - PROGRESS: at 60.89% examples, 368603 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:31:09,206 [INFO] EPOCH 4 - PROGRESS: at 62.76% examples, 369683 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:31:10,206 [INFO] EPOCH 4 - PROGRESS: at 64.51% examples, 369956 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:31:11,206 [INFO] EPOCH 4 - PROGRESS: at 66.40% examples, 371066 words/s, in_qsize 8, out_qsize 1
+2026-06-29 03:31:12,206 [INFO] EPOCH 4 - PROGRESS: at 68.41% examples, 372725 words/s, in_qsize 6, out_qsize 3
+2026-06-29 03:31:13,206 [INFO] EPOCH 4 - PROGRESS: at 70.43% examples, 374380 words/s, in_qsize 5, out_qsize 2
+2026-06-29 03:31:14,207 [INFO] EPOCH 4 - PROGRESS: at 72.39% examples, 375631 words/s, in_qsize 6, out_qsize 0
+2026-06-29 03:31:15,207 [INFO] EPOCH 4 - PROGRESS: at 74.37% examples, 376930 words/s, in_qsize 6, out_qsize 0
+2026-06-29 03:31:16,207 [INFO] EPOCH 4 - PROGRESS: at 76.18% examples, 377329 words/s, in_qsize 7, out_qsize 1
+2026-06-29 03:31:17,207 [INFO] EPOCH 4 - PROGRESS: at 78.06% examples, 378064 words/s, in_qsize 6, out_qsize 1
+2026-06-29 03:31:18,207 [INFO] EPOCH 4 - PROGRESS: at 79.95% examples, 378787 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:31:19,207 [INFO] EPOCH 4 - PROGRESS: at 81.96% examples, 380040 words/s, in_qsize 6, out_qsize 4
+2026-06-29 03:31:20,207 [INFO] EPOCH 4 - PROGRESS: at 83.85% examples, 380690 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:31:21,208 [INFO] EPOCH 4 - PROGRESS: at 85.82% examples, 381674 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:31:22,208 [INFO] EPOCH 4 - PROGRESS: at 87.79% examples, 382637 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:31:23,208 [INFO] EPOCH 4 - PROGRESS: at 89.72% examples, 383405 words/s, in_qsize 6, out_qsize 1
+2026-06-29 03:31:24,208 [INFO] EPOCH 4 - PROGRESS: at 91.64% examples, 384071 words/s, in_qsize 6, out_qsize 1
+2026-06-29 03:31:25,208 [INFO] EPOCH 4 - PROGRESS: at 93.60% examples, 384862 words/s, in_qsize 5, out_qsize 4
+2026-06-29 03:31:26,208 [INFO] EPOCH 4 - PROGRESS: at 95.51% examples, 385459 words/s, in_qsize 7, out_qsize 3
+2026-06-29 03:31:27,208 [INFO] EPOCH 4 - PROGRESS: at 97.44% examples, 386116 words/s, in_qsize 7, out_qsize 0
+2026-06-29 03:31:28,208 [INFO] EPOCH 4 - PROGRESS: at 99.37% examples, 386697 words/s, in_qsize 6, out_qsize 3
+2026-06-29 03:31:28,544 [INFO] EPOCH 4: training on 21816200 raw words (21795606 effective words) took 56.3s, 386844 effective words/s
+2026-06-29 03:31:28,545 [INFO] Word2Vec lifecycle event {'msg': 'training on 109081000 raw words (108978592 effective words) took 286.5s, 380331 effective words/s', 'datetime': '2026-06-29T03:31:28.545098', 'gensim': '4.4.0', 'python': '3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'train'}
+2026-06-29 03:31:28,545 [INFO] Word2Vec lifecycle event {'params': 'Word2Vec<vocab=3637, vector_size=128, alpha=0.025>', 'datetime': '2026-06-29T03:31:28.545305', 'gensim': '4.4.0', 'python': '3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'created'}
+2026-06-29 03:31:28,735 [INFO] Fitting HDBSCAN on Node2Vec embeddings: (3637, 128)
+2026-06-29 03:31:30,624 [INFO] HDBSCAN: 107 clusters, 205 noise points
+2026-06-29 03:31:30,748 [INFO] Silhouette score: 0.6319
+2026-06-29 03:31:30,869 [INFO] 107 clusters | 27 high-quality
+2026-06-29 03:31:31,113 [INFO] Conditional probabilities saved: rheumatic_conditional_probabilities.csv
+2026-06-29 03:31:31,118 [INFO] Saved cluster 1 graph: rheumatic_cluster_1_directed.csv
+2026-06-29 03:31:31,121 [INFO] Saved cluster 2 graph: rheumatic_cluster_2_directed.csv
+2026-06-29 03:31:31,127 [INFO] Saved cluster 3 graph: rheumatic_cluster_3_directed.csv
+2026-06-29 03:31:31,132 [INFO] Saved cluster 4 graph: rheumatic_cluster_4_directed.csv
+2026-06-29 03:31:31,135 [INFO] Saved cluster 5 graph: rheumatic_cluster_5_directed.csv
+2026-06-29 03:31:31,137 [INFO] Saved cluster 6 graph: rheumatic_cluster_6_directed.csv
+2026-06-29 03:31:31,142 [INFO] Saved cluster 7 graph: rheumatic_cluster_7_directed.csv
+2026-06-29 03:31:31,145 [INFO] Saved cluster 8 graph: rheumatic_cluster_8_directed.csv
+2026-06-29 03:31:31,147 [INFO] Saved cluster 9 graph: rheumatic_cluster_9_directed.csv
+2026-06-29 03:31:31,156 [INFO] Saved cluster 10 graph: rheumatic_cluster_10_directed.csv
+2026-06-29 03:31:31,159 [INFO] Saved cluster 11 graph: rheumatic_cluster_11_directed.csv
+2026-06-29 03:31:31,162 [INFO] Saved cluster 12 graph: rheumatic_cluster_12_directed.csv
+2026-06-29 03:31:31,166 [INFO] Saved cluster 13 graph: rheumatic_cluster_13_directed.csv
+2026-06-29 03:31:31,169 [INFO] Saved cluster 14 graph: rheumatic_cluster_14_directed.csv
+2026-06-29 03:31:31,175 [INFO] Saved cluster 15 graph: rheumatic_cluster_15_directed.csv
+2026-06-29 03:31:31,180 [INFO] Saved cluster 16 graph: rheumatic_cluster_16_directed.csv
+2026-06-29 03:31:31,231 [INFO] Saved cluster 17 graph: rheumatic_cluster_17_directed.csv
+2026-06-29 03:31:31,244 [INFO] Saved cluster 18 graph: rheumatic_cluster_18_directed.csv
+2026-06-29 03:31:31,253 [INFO] Saved cluster 19 graph: rheumatic_cluster_19_directed.csv
+2026-06-29 03:31:31,257 [INFO] Saved cluster 20 graph: rheumatic_cluster_20_directed.csv
+2026-06-29 03:31:31,280 [INFO] Saved cluster 21 graph: rheumatic_cluster_21_directed.csv
+2026-06-29 03:31:31,284 [INFO] Saved cluster 22 graph: rheumatic_cluster_22_directed.csv
+2026-06-29 03:31:31,393 [INFO] Saved cluster 23 graph: rheumatic_cluster_23_directed.csv
+2026-06-29 03:31:31,407 [INFO] Saved cluster 24 graph: rheumatic_cluster_24_directed.csv
+2026-06-29 03:31:31,411 [INFO] Saved cluster 25 graph: rheumatic_cluster_25_directed.csv
+2026-06-29 03:31:31,427 [INFO] Saved cluster 26 graph: rheumatic_cluster_26_directed.csv
+2026-06-29 03:31:31,433 [INFO] Saved cluster 27 graph: rheumatic_cluster_27_directed.csv
+2026-06-29 03:31:31,436 [INFO] Saved cluster 28 graph: rheumatic_cluster_28_directed.csv
+2026-06-29 03:31:31,439 [INFO] Saved cluster 29 graph: rheumatic_cluster_29_directed.csv
+2026-06-29 03:31:31,442 [INFO] Saved cluster 30 graph: rheumatic_cluster_30_directed.csv
+2026-06-29 03:31:31,456 [INFO] Saved cluster 31 graph: rheumatic_cluster_31_directed.csv
+2026-06-29 03:31:31,501 [INFO] Saved cluster 32 graph: rheumatic_cluster_32_directed.csv
+2026-06-29 03:31:31,529 [INFO] Saved cluster 33 graph: rheumatic_cluster_33_directed.csv
+2026-06-29 03:31:31,544 [INFO] Saved cluster 34 graph: rheumatic_cluster_34_directed.csv
+2026-06-29 03:31:31,547 [INFO] Saved cluster 35 graph: rheumatic_cluster_35_directed.csv
+2026-06-29 03:31:31,555 [INFO] Saved cluster 36 graph: rheumatic_cluster_36_directed.csv
+2026-06-29 03:31:31,563 [INFO] Saved cluster 37 graph: rheumatic_cluster_37_directed.csv
+2026-06-29 03:31:31,568 [INFO] Saved cluster 38 graph: rheumatic_cluster_38_directed.csv
+2026-06-29 03:31:31,573 [INFO] Saved cluster 39 graph: rheumatic_cluster_39_directed.csv
+2026-06-29 03:31:31,578 [INFO] Saved cluster 40 graph: rheumatic_cluster_40_directed.csv
+2026-06-29 03:31:31,587 [INFO] Saved cluster 41 graph: rheumatic_cluster_41_directed.csv
+2026-06-29 03:31:31,596 [INFO] Saved cluster 42 graph: rheumatic_cluster_42_directed.csv
+2026-06-29 03:31:31,598 [INFO] Saved cluster 43 graph: rheumatic_cluster_43_directed.csv
+2026-06-29 03:31:31,606 [INFO] Saved cluster 44 graph: rheumatic_cluster_44_directed.csv
+2026-06-29 03:31:31,664 [INFO] Saved cluster 45 graph: rheumatic_cluster_45_directed.csv
+2026-06-29 03:31:31,675 [INFO] Saved cluster 46 graph: rheumatic_cluster_46_directed.csv
+2026-06-29 03:31:31,679 [INFO] Saved cluster 47 graph: rheumatic_cluster_47_directed.csv
+2026-06-29 03:31:31,689 [INFO] Saved cluster 48 graph: rheumatic_cluster_48_directed.csv
+2026-06-29 03:31:31,692 [INFO] Saved cluster 49 graph: rheumatic_cluster_49_directed.csv
+2026-06-29 03:31:31,731 [INFO] Saved cluster 50 graph: rheumatic_cluster_50_directed.csv
+2026-06-29 03:31:31,746 [INFO] Saved cluster 51 graph: rheumatic_cluster_51_directed.csv
+2026-06-29 03:31:31,752 [INFO] Saved cluster 52 graph: rheumatic_cluster_52_directed.csv
+2026-06-29 03:31:31,756 [INFO] Saved cluster 53 graph: rheumatic_cluster_53_directed.csv
+2026-06-29 03:31:31,775 [INFO] Saved cluster 54 graph: rheumatic_cluster_54_directed.csv
+2026-06-29 03:31:31,790 [INFO] Saved cluster 55 graph: rheumatic_cluster_55_directed.csv
+2026-06-29 03:31:31,798 [INFO] Saved cluster 56 graph: rheumatic_cluster_56_directed.csv
+2026-06-29 03:31:31,804 [INFO] Saved cluster 57 graph: rheumatic_cluster_57_directed.csv
+2026-06-29 03:31:31,859 [INFO] Saved cluster 58 graph: rheumatic_cluster_58_directed.csv
+2026-06-29 03:31:31,867 [INFO] Saved cluster 59 graph: rheumatic_cluster_59_directed.csv
+2026-06-29 03:31:31,875 [INFO] Saved cluster 60 graph: rheumatic_cluster_60_directed.csv
+2026-06-29 03:31:31,881 [INFO] Saved cluster 61 graph: rheumatic_cluster_61_directed.csv
+2026-06-29 03:31:31,884 [INFO] Saved cluster 62 graph: rheumatic_cluster_62_directed.csv
+2026-06-29 03:31:31,887 [INFO] Saved cluster 63 graph: rheumatic_cluster_63_directed.csv
+2026-06-29 03:31:31,890 [INFO] Saved cluster 64 graph: rheumatic_cluster_64_directed.csv
+2026-06-29 03:31:31,893 [INFO] Saved cluster 65 graph: rheumatic_cluster_65_directed.csv
+2026-06-29 03:31:31,896 [INFO] Saved cluster 66 graph: rheumatic_cluster_66_directed.csv
+2026-06-29 03:31:31,906 [INFO] Saved cluster 67 graph: rheumatic_cluster_67_directed.csv
+2026-06-29 03:31:31,909 [INFO] Saved cluster 68 graph: rheumatic_cluster_68_directed.csv
+2026-06-29 03:31:31,912 [INFO] Saved cluster 69 graph: rheumatic_cluster_69_directed.csv
+2026-06-29 03:31:31,915 [INFO] Saved cluster 70 graph: rheumatic_cluster_70_directed.csv
+2026-06-29 03:31:31,919 [INFO] Saved cluster 71 graph: rheumatic_cluster_71_directed.csv
+2026-06-29 03:31:31,922 [INFO] Saved cluster 72 graph: rheumatic_cluster_72_directed.csv
+2026-06-29 03:31:31,928 [INFO] Saved cluster 73 graph: rheumatic_cluster_73_directed.csv
+2026-06-29 03:31:31,931 [INFO] Saved cluster 74 graph: rheumatic_cluster_74_directed.csv
+2026-06-29 03:31:31,939 [INFO] Saved cluster 75 graph: rheumatic_cluster_75_directed.csv
+2026-06-29 03:31:31,945 [INFO] Saved cluster 76 graph: rheumatic_cluster_76_directed.csv
+2026-06-29 03:31:31,947 [INFO] Saved cluster 77 graph: rheumatic_cluster_77_directed.csv
+2026-06-29 03:31:31,950 [INFO] Saved cluster 78 graph: rheumatic_cluster_78_directed.csv
+2026-06-29 03:31:31,952 [INFO] Saved cluster 79 graph: rheumatic_cluster_79_directed.csv
+2026-06-29 03:31:31,958 [INFO] Saved cluster 80 graph: rheumatic_cluster_80_directed.csv
+2026-06-29 03:31:31,975 [INFO] Saved cluster 81 graph: rheumatic_cluster_81_directed.csv
+2026-06-29 03:31:31,988 [INFO] Saved cluster 82 graph: rheumatic_cluster_82_directed.csv
+2026-06-29 03:31:31,991 [INFO] Saved cluster 83 graph: rheumatic_cluster_83_directed.csv
+2026-06-29 03:31:31,994 [INFO] Saved cluster 84 graph: rheumatic_cluster_84_directed.csv
+2026-06-29 03:31:31,997 [INFO] Saved cluster 85 graph: rheumatic_cluster_85_directed.csv
+2026-06-29 03:31:31,999 [INFO] Saved cluster 86 graph: rheumatic_cluster_86_directed.csv
+2026-06-29 03:31:32,002 [INFO] Saved cluster 87 graph: rheumatic_cluster_87_directed.csv
+2026-06-29 03:31:32,004 [INFO] Saved cluster 88 graph: rheumatic_cluster_88_directed.csv
+2026-06-29 03:31:32,009 [INFO] Saved cluster 89 graph: rheumatic_cluster_89_directed.csv
+2026-06-29 03:31:32,016 [INFO] Saved cluster 90 graph: rheumatic_cluster_90_directed.csv
+2026-06-29 03:31:32,028 [INFO] Saved cluster 91 graph: rheumatic_cluster_91_directed.csv
+2026-06-29 03:31:32,039 [INFO] Saved cluster 92 graph: rheumatic_cluster_92_directed.csv
+2026-06-29 03:31:32,045 [INFO] Saved cluster 93 graph: rheumatic_cluster_93_directed.csv
+2026-06-29 03:31:32,048 [INFO] Saved cluster 94 graph: rheumatic_cluster_94_directed.csv
+2026-06-29 03:31:32,051 [INFO] Saved cluster 95 graph: rheumatic_cluster_95_directed.csv
+2026-06-29 03:31:32,053 [INFO] Saved cluster 96 graph: rheumatic_cluster_96_directed.csv
+2026-06-29 03:31:32,056 [INFO] Saved cluster 97 graph: rheumatic_cluster_97_directed.csv
+2026-06-29 03:31:32,058 [INFO] Saved cluster 98 graph: rheumatic_cluster_98_directed.csv
+2026-06-29 03:31:32,060 [INFO] Saved cluster 99 graph: rheumatic_cluster_99_directed.csv
+2026-06-29 03:31:32,065 [INFO] Saved cluster 100 graph: rheumatic_cluster_100_directed.csv
+2026-06-29 03:31:32,069 [INFO] Saved cluster 101 graph: rheumatic_cluster_101_directed.csv
+2026-06-29 03:31:32,072 [INFO] Saved cluster 102 graph: rheumatic_cluster_102_directed.csv
+2026-06-29 03:31:32,075 [INFO] Saved cluster 103 graph: rheumatic_cluster_103_directed.csv
+2026-06-29 03:31:32,077 [INFO] Saved cluster 104 graph: rheumatic_cluster_104_directed.csv
+2026-06-29 03:31:32,079 [INFO] Saved cluster 105 graph: rheumatic_cluster_105_directed.csv
+2026-06-29 03:31:32,081 [INFO] Saved cluster 106 graph: rheumatic_cluster_106_directed.csv
+2026-06-29 03:31:32,084 [INFO] Saved cluster 107 graph: rheumatic_cluster_107_directed.csv
+2026-06-29 03:31:32,122 [INFO] Saved 4604 rows to rheumatic_clusters.csv
+2026-06-29 03:31:32,134 [INFO] High-quality clusters saved: rheumatic_high_quality.json
+2026-06-29 03:31:32,134 [INFO] Generating t-SNE of Node2Vec embeddings...
+2026-06-29 03:32:26,363 [INFO] t-SNE saved: rheumatic_tsne.png
+2026-06-29 03:32:26,363 [INFO] Generating global directed KG plot...
+2026-06-29 03:40:55,645 [INFO] Global KG saved: rheumatic_global_kg.png
+2026-06-29 03:40:55,655 [INFO] Generating UMAP interactive plot...
+2026-06-29 03:41:08,009 [INFO] UMAP interactive saved: rheumatic_interactive.html
+2026-06-29 03:41:08,014 [INFO] Streamlit app generated: streamlit_app.py

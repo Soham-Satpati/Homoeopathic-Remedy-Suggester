@@ -1,0 +1,1033 @@
+### Cluster 40 — Symptoms (32)
+Symptom,Frequency
+pains around left knee as if something were tight,1
+cannot put foot to ground when walking but only when standing,1
+rheumatic pain in shoulders worse at night,1
+pain as from dislocation of shoulder joint when moving it,1
+lax fibres,1
+pain in shoulder,1
+soreness in chest and region of heart,1
+especially suitable for children of irritable disposition,1
+pains neuralgic lightning-like,1
+many neuralgic pains,1
+drawing pains in legs and feet,1
+suitable for dark-haired sensitive people who are spare and thin,1
+suitable for worn out women,1
+must get up and walk,1
+sour smelling,1
+can hardly raise arm,1
+unrefreshing sleep,1
+swelling in bend of knee very painful,1
+knees painful when walking,1
+stitches,1
+more tired in morning than when going to bed,1
+restless,1
+great internal heat at night,1
+pains insupportable during repose,1
+stitch from without inward in precordial region,1
+adapted to children of irritable nervous disposition,1
+no swelling or soreness,1
+much pain in right shoulder,1
+red swelling of fingers,1
+lameness of right arm,1
+feet painful when lying in bed,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+magnesia carbonica,32
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+pain as from dislocation of shoulder joint when moving it,pains around left knee as if something were tight,1.0,1
+pain as from dislocation of shoulder joint when moving it,cannot put foot to ground when walking but only when standing,1.0,1
+pain as from dislocation of shoulder joint when moving it,rheumatic pain in shoulders worse at night,1.0,1
+pain as from dislocation of shoulder joint when moving it,lax fibres,1.0,1
+pain as from dislocation of shoulder joint when moving it,pain in shoulder,1.0,1
+pain as from dislocation of shoulder joint when moving it,soreness in chest and region of heart,1.0,1
+pain as from dislocation of shoulder joint when moving it,especially suitable for children of irritable disposition,1.0,1
+pain as from dislocation of shoulder joint when moving it,pains neuralgic lightning-like,1.0,1
+pain as from dislocation of shoulder joint when moving it,many neuralgic pains,1.0,1
+pain as from dislocation of shoulder joint when moving it,drawing pains in legs and feet,1.0,1
+pain as from dislocation of shoulder joint when moving it,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+pain as from dislocation of shoulder joint when moving it,suitable for worn out women,1.0,1
+pain as from dislocation of shoulder joint when moving it,must get up and walk,1.0,1
+pain as from dislocation of shoulder joint when moving it,sour smelling,1.0,1
+pain as from dislocation of shoulder joint when moving it,can hardly raise arm,1.0,1
+pain as from dislocation of shoulder joint when moving it,unrefreshing sleep,1.0,1
+pain as from dislocation of shoulder joint when moving it,swelling in bend of knee very painful,1.0,1
+pain as from dislocation of shoulder joint when moving it,knees painful when walking,1.0,1
+pain as from dislocation of shoulder joint when moving it,stitches,1.0,1
+pain as from dislocation of shoulder joint when moving it,more tired in morning than when going to bed,1.0,1
+pain as from dislocation of shoulder joint when moving it,restless,1.0,1
+pain as from dislocation of shoulder joint when moving it,great internal heat at night,1.0,1
+pain as from dislocation of shoulder joint when moving it,pains insupportable during repose,1.0,1
+pain as from dislocation of shoulder joint when moving it,stitch from without inward in precordial region,1.0,1
+pain as from dislocation of shoulder joint when moving it,adapted to children of irritable nervous disposition,1.0,1
+pain as from dislocation of shoulder joint when moving it,no swelling or soreness,1.0,1
+pain as from dislocation of shoulder joint when moving it,much pain in right shoulder,1.0,1
+pain as from dislocation of shoulder joint when moving it,red swelling of fingers,1.0,1
+pain as from dislocation of shoulder joint when moving it,lameness of right arm,1.0,1
+pain as from dislocation of shoulder joint when moving it,feet painful when lying in bed,1.0,1
+pain as from dislocation of shoulder joint when moving it,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+knees painful when walking,pains around left knee as if something were tight,1.0,1
+knees painful when walking,cannot put foot to ground when walking but only when standing,1.0,1
+knees painful when walking,rheumatic pain in shoulders worse at night,1.0,1
+knees painful when walking,pain as from dislocation of shoulder joint when moving it,1.0,1
+knees painful when walking,lax fibres,1.0,1
+knees painful when walking,pain in shoulder,1.0,1
+knees painful when walking,soreness in chest and region of heart,1.0,1
+knees painful when walking,especially suitable for children of irritable disposition,1.0,1
+knees painful when walking,pains neuralgic lightning-like,1.0,1
+knees painful when walking,many neuralgic pains,1.0,1
+knees painful when walking,drawing pains in legs and feet,1.0,1
+knees painful when walking,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+knees painful when walking,suitable for worn out women,1.0,1
+knees painful when walking,must get up and walk,1.0,1
+knees painful when walking,sour smelling,1.0,1
+knees painful when walking,can hardly raise arm,1.0,1
+knees painful when walking,unrefreshing sleep,1.0,1
+knees painful when walking,swelling in bend of knee very painful,1.0,1
+knees painful when walking,stitches,1.0,1
+knees painful when walking,more tired in morning than when going to bed,1.0,1
+knees painful when walking,restless,1.0,1
+knees painful when walking,great internal heat at night,1.0,1
+knees painful when walking,pains insupportable during repose,1.0,1
+knees painful when walking,stitch from without inward in precordial region,1.0,1
+knees painful when walking,adapted to children of irritable nervous disposition,1.0,1
+knees painful when walking,no swelling or soreness,1.0,1
+knees painful when walking,much pain in right shoulder,1.0,1
+knees painful when walking,red swelling of fingers,1.0,1
+knees painful when walking,lameness of right arm,1.0,1
+knees painful when walking,feet painful when lying in bed,1.0,1
+knees painful when walking,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+lameness of right arm,pains around left knee as if something were tight,1.0,1
+lameness of right arm,cannot put foot to ground when walking but only when standing,1.0,1
+lameness of right arm,rheumatic pain in shoulders worse at night,1.0,1
+lameness of right arm,pain as from dislocation of shoulder joint when moving it,1.0,1
+lameness of right arm,lax fibres,1.0,1
+lameness of right arm,pain in shoulder,1.0,1
+lameness of right arm,soreness in chest and region of heart,1.0,1
+lameness of right arm,especially suitable for children of irritable disposition,1.0,1
+lameness of right arm,pains neuralgic lightning-like,1.0,1
+lameness of right arm,many neuralgic pains,1.0,1
+lameness of right arm,drawing pains in legs and feet,1.0,1
+lameness of right arm,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+lameness of right arm,suitable for worn out women,1.0,1
+lameness of right arm,must get up and walk,1.0,1
+lameness of right arm,sour smelling,1.0,1
+lameness of right arm,can hardly raise arm,1.0,1
+lameness of right arm,unrefreshing sleep,1.0,1
+lameness of right arm,swelling in bend of knee very painful,1.0,1
+lameness of right arm,knees painful when walking,1.0,1
+lameness of right arm,stitches,1.0,1
+lameness of right arm,more tired in morning than when going to bed,1.0,1
+lameness of right arm,restless,1.0,1
+lameness of right arm,great internal heat at night,1.0,1
+lameness of right arm,pains insupportable during repose,1.0,1
+lameness of right arm,stitch from without inward in precordial region,1.0,1
+lameness of right arm,adapted to children of irritable nervous disposition,1.0,1
+lameness of right arm,no swelling or soreness,1.0,1
+lameness of right arm,much pain in right shoulder,1.0,1
+lameness of right arm,red swelling of fingers,1.0,1
+lameness of right arm,feet painful when lying in bed,1.0,1
+lameness of right arm,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+suitable for worn out women,pains around left knee as if something were tight,1.0,1
+suitable for worn out women,cannot put foot to ground when walking but only when standing,1.0,1
+suitable for worn out women,rheumatic pain in shoulders worse at night,1.0,1
+suitable for worn out women,pain as from dislocation of shoulder joint when moving it,1.0,1
+suitable for worn out women,lax fibres,1.0,1
+suitable for worn out women,pain in shoulder,1.0,1
+suitable for worn out women,soreness in chest and region of heart,1.0,1
+suitable for worn out women,especially suitable for children of irritable disposition,1.0,1
+suitable for worn out women,pains neuralgic lightning-like,1.0,1
+suitable for worn out women,many neuralgic pains,1.0,1
+suitable for worn out women,drawing pains in legs and feet,1.0,1
+suitable for worn out women,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+suitable for worn out women,must get up and walk,1.0,1
+suitable for worn out women,sour smelling,1.0,1
+suitable for worn out women,can hardly raise arm,1.0,1
+suitable for worn out women,unrefreshing sleep,1.0,1
+suitable for worn out women,swelling in bend of knee very painful,1.0,1
+suitable for worn out women,knees painful when walking,1.0,1
+suitable for worn out women,stitches,1.0,1
+suitable for worn out women,more tired in morning than when going to bed,1.0,1
+suitable for worn out women,restless,1.0,1
+suitable for worn out women,great internal heat at night,1.0,1
+suitable for worn out women,pains insupportable during repose,1.0,1
+suitable for worn out women,stitch from without inward in precordial region,1.0,1
+suitable for worn out women,adapted to children of irritable nervous disposition,1.0,1
+suitable for worn out women,no swelling or soreness,1.0,1
+suitable for worn out women,much pain in right shoulder,1.0,1
+suitable for worn out women,red swelling of fingers,1.0,1
+suitable for worn out women,lameness of right arm,1.0,1
+suitable for worn out women,feet painful when lying in bed,1.0,1
+suitable for worn out women,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+pains around left knee as if something were tight,cannot put foot to ground when walking but only when standing,1.0,1
+pains around left knee as if something were tight,rheumatic pain in shoulders worse at night,1.0,1
+pains around left knee as if something were tight,pain as from dislocation of shoulder joint when moving it,1.0,1
+pains around left knee as if something were tight,lax fibres,1.0,1
+pains around left knee as if something were tight,pain in shoulder,1.0,1
+pains around left knee as if something were tight,soreness in chest and region of heart,1.0,1
+pains around left knee as if something were tight,especially suitable for children of irritable disposition,1.0,1
+pains around left knee as if something were tight,pains neuralgic lightning-like,1.0,1
+pains around left knee as if something were tight,many neuralgic pains,1.0,1
+pains around left knee as if something were tight,drawing pains in legs and feet,1.0,1
+pains around left knee as if something were tight,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+pains around left knee as if something were tight,suitable for worn out women,1.0,1
+pains around left knee as if something were tight,must get up and walk,1.0,1
+pains around left knee as if something were tight,sour smelling,1.0,1
+pains around left knee as if something were tight,can hardly raise arm,1.0,1
+pains around left knee as if something were tight,unrefreshing sleep,1.0,1
+pains around left knee as if something were tight,swelling in bend of knee very painful,1.0,1
+pains around left knee as if something were tight,knees painful when walking,1.0,1
+pains around left knee as if something were tight,stitches,1.0,1
+pains around left knee as if something were tight,more tired in morning than when going to bed,1.0,1
+pains around left knee as if something were tight,restless,1.0,1
+pains around left knee as if something were tight,great internal heat at night,1.0,1
+pains around left knee as if something were tight,pains insupportable during repose,1.0,1
+pains around left knee as if something were tight,stitch from without inward in precordial region,1.0,1
+pains around left knee as if something were tight,adapted to children of irritable nervous disposition,1.0,1
+pains around left knee as if something were tight,no swelling or soreness,1.0,1
+pains around left knee as if something were tight,much pain in right shoulder,1.0,1
+pains around left knee as if something were tight,red swelling of fingers,1.0,1
+pains around left knee as if something were tight,lameness of right arm,1.0,1
+pains around left knee as if something were tight,feet painful when lying in bed,1.0,1
+pains around left knee as if something were tight,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+pains neuralgic lightning-like,pains around left knee as if something were tight,1.0,1
+pains neuralgic lightning-like,cannot put foot to ground when walking but only when standing,1.0,1
+pains neuralgic lightning-like,rheumatic pain in shoulders worse at night,1.0,1
+pains neuralgic lightning-like,pain as from dislocation of shoulder joint when moving it,1.0,1
+pains neuralgic lightning-like,lax fibres,1.0,1
+pains neuralgic lightning-like,pain in shoulder,1.0,1
+pains neuralgic lightning-like,soreness in chest and region of heart,1.0,1
+pains neuralgic lightning-like,especially suitable for children of irritable disposition,1.0,1
+pains neuralgic lightning-like,many neuralgic pains,1.0,1
+pains neuralgic lightning-like,drawing pains in legs and feet,1.0,1
+pains neuralgic lightning-like,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+pains neuralgic lightning-like,suitable for worn out women,1.0,1
+pains neuralgic lightning-like,must get up and walk,1.0,1
+pains neuralgic lightning-like,sour smelling,1.0,1
+pains neuralgic lightning-like,can hardly raise arm,1.0,1
+pains neuralgic lightning-like,unrefreshing sleep,1.0,1
+pains neuralgic lightning-like,swelling in bend of knee very painful,1.0,1
+pains neuralgic lightning-like,knees painful when walking,1.0,1
+pains neuralgic lightning-like,stitches,1.0,1
+pains neuralgic lightning-like,more tired in morning than when going to bed,1.0,1
+pains neuralgic lightning-like,restless,1.0,1
+pains neuralgic lightning-like,great internal heat at night,1.0,1
+pains neuralgic lightning-like,pains insupportable during repose,1.0,1
+pains neuralgic lightning-like,stitch from without inward in precordial region,1.0,1
+pains neuralgic lightning-like,adapted to children of irritable nervous disposition,1.0,1
+pains neuralgic lightning-like,no swelling or soreness,1.0,1
+pains neuralgic lightning-like,much pain in right shoulder,1.0,1
+pains neuralgic lightning-like,red swelling of fingers,1.0,1
+pains neuralgic lightning-like,lameness of right arm,1.0,1
+pains neuralgic lightning-like,feet painful when lying in bed,1.0,1
+pains neuralgic lightning-like,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+soreness in chest and region of heart,pains around left knee as if something were tight,1.0,1
+soreness in chest and region of heart,cannot put foot to ground when walking but only when standing,1.0,1
+soreness in chest and region of heart,rheumatic pain in shoulders worse at night,1.0,1
+soreness in chest and region of heart,pain as from dislocation of shoulder joint when moving it,1.0,1
+soreness in chest and region of heart,lax fibres,1.0,1
+soreness in chest and region of heart,pain in shoulder,1.0,1
+soreness in chest and region of heart,especially suitable for children of irritable disposition,1.0,1
+soreness in chest and region of heart,pains neuralgic lightning-like,1.0,1
+soreness in chest and region of heart,many neuralgic pains,1.0,1
+soreness in chest and region of heart,drawing pains in legs and feet,1.0,1
+soreness in chest and region of heart,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+soreness in chest and region of heart,suitable for worn out women,1.0,1
+soreness in chest and region of heart,must get up and walk,1.0,1
+soreness in chest and region of heart,sour smelling,1.0,1
+soreness in chest and region of heart,can hardly raise arm,1.0,1
+soreness in chest and region of heart,unrefreshing sleep,1.0,1
+soreness in chest and region of heart,swelling in bend of knee very painful,1.0,1
+soreness in chest and region of heart,knees painful when walking,1.0,1
+soreness in chest and region of heart,stitches,1.0,1
+soreness in chest and region of heart,more tired in morning than when going to bed,1.0,1
+soreness in chest and region of heart,restless,1.0,1
+soreness in chest and region of heart,great internal heat at night,1.0,1
+soreness in chest and region of heart,pains insupportable during repose,1.0,1
+soreness in chest and region of heart,stitch from without inward in precordial region,1.0,1
+soreness in chest and region of heart,adapted to children of irritable nervous disposition,1.0,1
+soreness in chest and region of heart,no swelling or soreness,1.0,1
+soreness in chest and region of heart,much pain in right shoulder,1.0,1
+soreness in chest and region of heart,red swelling of fingers,1.0,1
+soreness in chest and region of heart,lameness of right arm,1.0,1
+soreness in chest and region of heart,feet painful when lying in bed,1.0,1
+soreness in chest and region of heart,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+restless,pains around left knee as if something were tight,1.0,1
+restless,cannot put foot to ground when walking but only when standing,1.0,1
+restless,rheumatic pain in shoulders worse at night,1.0,1
+restless,pain as from dislocation of shoulder joint when moving it,1.0,1
+restless,lax fibres,1.0,1
+restless,pain in shoulder,1.0,1
+restless,soreness in chest and region of heart,1.0,1
+restless,especially suitable for children of irritable disposition,1.0,1
+restless,pains neuralgic lightning-like,1.0,1
+restless,many neuralgic pains,1.0,1
+restless,drawing pains in legs and feet,1.0,1
+restless,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+restless,suitable for worn out women,1.0,1
+restless,must get up and walk,1.0,1
+restless,sour smelling,1.0,1
+restless,can hardly raise arm,1.0,1
+restless,unrefreshing sleep,1.0,1
+restless,swelling in bend of knee very painful,1.0,1
+restless,knees painful when walking,1.0,1
+restless,stitches,1.0,1
+restless,more tired in morning than when going to bed,1.0,1
+restless,great internal heat at night,1.0,1
+restless,pains insupportable during repose,1.0,1
+restless,stitch from without inward in precordial region,1.0,1
+restless,adapted to children of irritable nervous disposition,1.0,1
+restless,no swelling or soreness,1.0,1
+restless,much pain in right shoulder,1.0,1
+restless,red swelling of fingers,1.0,1
+restless,lameness of right arm,1.0,1
+restless,feet painful when lying in bed,1.0,1
+restless,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+drawing pains in legs and feet,pains around left knee as if something were tight,1.0,1
+drawing pains in legs and feet,cannot put foot to ground when walking but only when standing,1.0,1
+drawing pains in legs and feet,rheumatic pain in shoulders worse at night,1.0,1
+drawing pains in legs and feet,pain as from dislocation of shoulder joint when moving it,1.0,1
+drawing pains in legs and feet,lax fibres,1.0,1
+drawing pains in legs and feet,pain in shoulder,1.0,1
+drawing pains in legs and feet,soreness in chest and region of heart,1.0,1
+drawing pains in legs and feet,especially suitable for children of irritable disposition,1.0,1
+drawing pains in legs and feet,pains neuralgic lightning-like,1.0,1
+drawing pains in legs and feet,many neuralgic pains,1.0,1
+drawing pains in legs and feet,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+drawing pains in legs and feet,suitable for worn out women,1.0,1
+drawing pains in legs and feet,must get up and walk,1.0,1
+drawing pains in legs and feet,sour smelling,1.0,1
+drawing pains in legs and feet,can hardly raise arm,1.0,1
+drawing pains in legs and feet,unrefreshing sleep,1.0,1
+drawing pains in legs and feet,swelling in bend of knee very painful,1.0,1
+drawing pains in legs and feet,knees painful when walking,1.0,1
+drawing pains in legs and feet,stitches,1.0,1
+drawing pains in legs and feet,more tired in morning than when going to bed,1.0,1
+drawing pains in legs and feet,restless,1.0,1
+drawing pains in legs and feet,great internal heat at night,1.0,1
+drawing pains in legs and feet,pains insupportable during repose,1.0,1
+drawing pains in legs and feet,stitch from without inward in precordial region,1.0,1
+drawing pains in legs and feet,adapted to children of irritable nervous disposition,1.0,1
+drawing pains in legs and feet,no swelling or soreness,1.0,1
+drawing pains in legs and feet,much pain in right shoulder,1.0,1
+drawing pains in legs and feet,red swelling of fingers,1.0,1
+drawing pains in legs and feet,lameness of right arm,1.0,1
+drawing pains in legs and feet,feet painful when lying in bed,1.0,1
+drawing pains in legs and feet,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+cannot put foot to ground when walking but only when standing,pains around left knee as if something were tight,1.0,1
+cannot put foot to ground when walking but only when standing,rheumatic pain in shoulders worse at night,1.0,1
+cannot put foot to ground when walking but only when standing,pain as from dislocation of shoulder joint when moving it,1.0,1
+cannot put foot to ground when walking but only when standing,lax fibres,1.0,1
+cannot put foot to ground when walking but only when standing,pain in shoulder,1.0,1
+cannot put foot to ground when walking but only when standing,soreness in chest and region of heart,1.0,1
+cannot put foot to ground when walking but only when standing,especially suitable for children of irritable disposition,1.0,1
+cannot put foot to ground when walking but only when standing,pains neuralgic lightning-like,1.0,1
+cannot put foot to ground when walking but only when standing,many neuralgic pains,1.0,1
+cannot put foot to ground when walking but only when standing,drawing pains in legs and feet,1.0,1
+cannot put foot to ground when walking but only when standing,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+cannot put foot to ground when walking but only when standing,suitable for worn out women,1.0,1
+cannot put foot to ground when walking but only when standing,must get up and walk,1.0,1
+cannot put foot to ground when walking but only when standing,sour smelling,1.0,1
+cannot put foot to ground when walking but only when standing,can hardly raise arm,1.0,1
+cannot put foot to ground when walking but only when standing,unrefreshing sleep,1.0,1
+cannot put foot to ground when walking but only when standing,swelling in bend of knee very painful,1.0,1
+cannot put foot to ground when walking but only when standing,knees painful when walking,1.0,1
+cannot put foot to ground when walking but only when standing,stitches,1.0,1
+cannot put foot to ground when walking but only when standing,more tired in morning than when going to bed,1.0,1
+cannot put foot to ground when walking but only when standing,restless,1.0,1
+cannot put foot to ground when walking but only when standing,great internal heat at night,1.0,1
+cannot put foot to ground when walking but only when standing,pains insupportable during repose,1.0,1
+cannot put foot to ground when walking but only when standing,stitch from without inward in precordial region,1.0,1
+cannot put foot to ground when walking but only when standing,adapted to children of irritable nervous disposition,1.0,1
+cannot put foot to ground when walking but only when standing,no swelling or soreness,1.0,1
+cannot put foot to ground when walking but only when standing,much pain in right shoulder,1.0,1
+cannot put foot to ground when walking but only when standing,red swelling of fingers,1.0,1
+cannot put foot to ground when walking but only when standing,lameness of right arm,1.0,1
+cannot put foot to ground when walking but only when standing,feet painful when lying in bed,1.0,1
+cannot put foot to ground when walking but only when standing,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+more tired in morning than when going to bed,pains around left knee as if something were tight,1.0,1
+more tired in morning than when going to bed,cannot put foot to ground when walking but only when standing,1.0,1
+more tired in morning than when going to bed,rheumatic pain in shoulders worse at night,1.0,1
+more tired in morning than when going to bed,pain as from dislocation of shoulder joint when moving it,1.0,1
+more tired in morning than when going to bed,lax fibres,1.0,1
+more tired in morning than when going to bed,pain in shoulder,1.0,1
+more tired in morning than when going to bed,soreness in chest and region of heart,1.0,1
+more tired in morning than when going to bed,especially suitable for children of irritable disposition,1.0,1
+more tired in morning than when going to bed,pains neuralgic lightning-like,1.0,1
+more tired in morning than when going to bed,many neuralgic pains,1.0,1
+more tired in morning than when going to bed,drawing pains in legs and feet,1.0,1
+more tired in morning than when going to bed,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+more tired in morning than when going to bed,suitable for worn out women,1.0,1
+more tired in morning than when going to bed,must get up and walk,1.0,1
+more tired in morning than when going to bed,sour smelling,1.0,1
+more tired in morning than when going to bed,can hardly raise arm,1.0,1
+more tired in morning than when going to bed,unrefreshing sleep,1.0,1
+more tired in morning than when going to bed,swelling in bend of knee very painful,1.0,1
+more tired in morning than when going to bed,knees painful when walking,1.0,1
+more tired in morning than when going to bed,stitches,1.0,1
+more tired in morning than when going to bed,restless,1.0,1
+more tired in morning than when going to bed,great internal heat at night,1.0,1
+more tired in morning than when going to bed,pains insupportable during repose,1.0,1
+more tired in morning than when going to bed,stitch from without inward in precordial region,1.0,1
+more tired in morning than when going to bed,adapted to children of irritable nervous disposition,1.0,1
+more tired in morning than when going to bed,no swelling or soreness,1.0,1
+more tired in morning than when going to bed,much pain in right shoulder,1.0,1
+more tired in morning than when going to bed,red swelling of fingers,1.0,1
+more tired in morning than when going to bed,lameness of right arm,1.0,1
+more tired in morning than when going to bed,feet painful when lying in bed,1.0,1
+more tired in morning than when going to bed,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+many neuralgic pains,pains around left knee as if something were tight,1.0,1
+many neuralgic pains,cannot put foot to ground when walking but only when standing,1.0,1
+many neuralgic pains,rheumatic pain in shoulders worse at night,1.0,1
+many neuralgic pains,pain as from dislocation of shoulder joint when moving it,1.0,1
+many neuralgic pains,lax fibres,1.0,1
+many neuralgic pains,pain in shoulder,1.0,1
+many neuralgic pains,soreness in chest and region of heart,1.0,1
+many neuralgic pains,especially suitable for children of irritable disposition,1.0,1
+many neuralgic pains,pains neuralgic lightning-like,1.0,1
+many neuralgic pains,drawing pains in legs and feet,1.0,1
+many neuralgic pains,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+many neuralgic pains,suitable for worn out women,1.0,1
+many neuralgic pains,must get up and walk,1.0,1
+many neuralgic pains,sour smelling,1.0,1
+many neuralgic pains,can hardly raise arm,1.0,1
+many neuralgic pains,unrefreshing sleep,1.0,1
+many neuralgic pains,swelling in bend of knee very painful,1.0,1
+many neuralgic pains,knees painful when walking,1.0,1
+many neuralgic pains,stitches,1.0,1
+many neuralgic pains,more tired in morning than when going to bed,1.0,1
+many neuralgic pains,restless,1.0,1
+many neuralgic pains,great internal heat at night,1.0,1
+many neuralgic pains,pains insupportable during repose,1.0,1
+many neuralgic pains,stitch from without inward in precordial region,1.0,1
+many neuralgic pains,adapted to children of irritable nervous disposition,1.0,1
+many neuralgic pains,no swelling or soreness,1.0,1
+many neuralgic pains,much pain in right shoulder,1.0,1
+many neuralgic pains,red swelling of fingers,1.0,1
+many neuralgic pains,lameness of right arm,1.0,1
+many neuralgic pains,feet painful when lying in bed,1.0,1
+many neuralgic pains,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+pain in shoulder,pains around left knee as if something were tight,1.0,1
+pain in shoulder,cannot put foot to ground when walking but only when standing,1.0,1
+pain in shoulder,rheumatic pain in shoulders worse at night,1.0,1
+pain in shoulder,pain as from dislocation of shoulder joint when moving it,1.0,1
+pain in shoulder,lax fibres,1.0,1
+pain in shoulder,soreness in chest and region of heart,1.0,1
+pain in shoulder,especially suitable for children of irritable disposition,1.0,1
+pain in shoulder,pains neuralgic lightning-like,1.0,1
+pain in shoulder,many neuralgic pains,1.0,1
+pain in shoulder,drawing pains in legs and feet,1.0,1
+pain in shoulder,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+pain in shoulder,suitable for worn out women,1.0,1
+pain in shoulder,must get up and walk,1.0,1
+pain in shoulder,sour smelling,1.0,1
+pain in shoulder,can hardly raise arm,1.0,1
+pain in shoulder,unrefreshing sleep,1.0,1
+pain in shoulder,swelling in bend of knee very painful,1.0,1
+pain in shoulder,knees painful when walking,1.0,1
+pain in shoulder,stitches,1.0,1
+pain in shoulder,more tired in morning than when going to bed,1.0,1
+pain in shoulder,restless,1.0,1
+pain in shoulder,great internal heat at night,1.0,1
+pain in shoulder,pains insupportable during repose,1.0,1
+pain in shoulder,stitch from without inward in precordial region,1.0,1
+pain in shoulder,adapted to children of irritable nervous disposition,1.0,1
+pain in shoulder,no swelling or soreness,1.0,1
+pain in shoulder,much pain in right shoulder,1.0,1
+pain in shoulder,red swelling of fingers,1.0,1
+pain in shoulder,lameness of right arm,1.0,1
+pain in shoulder,feet painful when lying in bed,1.0,1
+pain in shoulder,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+must get up and walk,pains around left knee as if something were tight,1.0,1
+must get up and walk,cannot put foot to ground when walking but only when standing,1.0,1
+must get up and walk,rheumatic pain in shoulders worse at night,1.0,1
+must get up and walk,pain as from dislocation of shoulder joint when moving it,1.0,1
+must get up and walk,lax fibres,1.0,1
+must get up and walk,pain in shoulder,1.0,1
+must get up and walk,soreness in chest and region of heart,1.0,1
+must get up and walk,especially suitable for children of irritable disposition,1.0,1
+must get up and walk,pains neuralgic lightning-like,1.0,1
+must get up and walk,many neuralgic pains,1.0,1
+must get up and walk,drawing pains in legs and feet,1.0,1
+must get up and walk,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+must get up and walk,suitable for worn out women,1.0,1
+must get up and walk,sour smelling,1.0,1
+must get up and walk,can hardly raise arm,1.0,1
+must get up and walk,unrefreshing sleep,1.0,1
+must get up and walk,swelling in bend of knee very painful,1.0,1
+must get up and walk,knees painful when walking,1.0,1
+must get up and walk,stitches,1.0,1
+must get up and walk,more tired in morning than when going to bed,1.0,1
+must get up and walk,restless,1.0,1
+must get up and walk,great internal heat at night,1.0,1
+must get up and walk,pains insupportable during repose,1.0,1
+must get up and walk,stitch from without inward in precordial region,1.0,1
+must get up and walk,adapted to children of irritable nervous disposition,1.0,1
+must get up and walk,no swelling or soreness,1.0,1
+must get up and walk,much pain in right shoulder,1.0,1
+must get up and walk,red swelling of fingers,1.0,1
+must get up and walk,lameness of right arm,1.0,1
+must get up and walk,feet painful when lying in bed,1.0,1
+must get up and walk,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+pains insupportable during repose,pains around left knee as if something were tight,1.0,1
+pains insupportable during repose,cannot put foot to ground when walking but only when standing,1.0,1
+pains insupportable during repose,rheumatic pain in shoulders worse at night,1.0,1
+pains insupportable during repose,pain as from dislocation of shoulder joint when moving it,1.0,1
+pains insupportable during repose,lax fibres,1.0,1
+pains insupportable during repose,pain in shoulder,1.0,1
+pains insupportable during repose,soreness in chest and region of heart,1.0,1
+pains insupportable during repose,especially suitable for children of irritable disposition,1.0,1
+pains insupportable during repose,pains neuralgic lightning-like,1.0,1
+pains insupportable during repose,many neuralgic pains,1.0,1
+pains insupportable during repose,drawing pains in legs and feet,1.0,1
+pains insupportable during repose,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+pains insupportable during repose,suitable for worn out women,1.0,1
+pains insupportable during repose,must get up and walk,1.0,1
+pains insupportable during repose,sour smelling,1.0,1
+pains insupportable during repose,can hardly raise arm,1.0,1
+pains insupportable during repose,unrefreshing sleep,1.0,1
+pains insupportable during repose,swelling in bend of knee very painful,1.0,1
+pains insupportable during repose,knees painful when walking,1.0,1
+pains insupportable during repose,stitches,1.0,1
+pains insupportable during repose,more tired in morning than when going to bed,1.0,1
+pains insupportable during repose,restless,1.0,1
+pains insupportable during repose,great internal heat at night,1.0,1
+pains insupportable during repose,stitch from without inward in precordial region,1.0,1
+pains insupportable during repose,adapted to children of irritable nervous disposition,1.0,1
+pains insupportable during repose,no swelling or soreness,1.0,1
+pains insupportable during repose,much pain in right shoulder,1.0,1
+pains insupportable during repose,red swelling of fingers,1.0,1
+pains insupportable during repose,lameness of right arm,1.0,1
+pains insupportable during repose,feet painful when lying in bed,1.0,1
+pains insupportable during repose,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,pains around left knee as if something were tight,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,cannot put foot to ground when walking but only when standing,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,rheumatic pain in shoulders worse at night,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,pain as from dislocation of shoulder joint when moving it,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,lax fibres,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,pain in shoulder,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,soreness in chest and region of heart,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,especially suitable for children of irritable disposition,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,pains neuralgic lightning-like,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,many neuralgic pains,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,drawing pains in legs and feet,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,suitable for worn out women,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,must get up and walk,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,sour smelling,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,can hardly raise arm,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,unrefreshing sleep,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,swelling in bend of knee very painful,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,knees painful when walking,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,stitches,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,more tired in morning than when going to bed,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,restless,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,great internal heat at night,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,pains insupportable during repose,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,stitch from without inward in precordial region,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,adapted to children of irritable nervous disposition,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,no swelling or soreness,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,much pain in right shoulder,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,red swelling of fingers,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,lameness of right arm,1.0,1
+rheumatic pain in shoulders with tingling down fingers prevents least motion,feet painful when lying in bed,1.0,1
+swelling in bend of knee very painful,pains around left knee as if something were tight,1.0,1
+swelling in bend of knee very painful,cannot put foot to ground when walking but only when standing,1.0,1
+swelling in bend of knee very painful,rheumatic pain in shoulders worse at night,1.0,1
+swelling in bend of knee very painful,pain as from dislocation of shoulder joint when moving it,1.0,1
+swelling in bend of knee very painful,lax fibres,1.0,1
+swelling in bend of knee very painful,pain in shoulder,1.0,1
+swelling in bend of knee very painful,soreness in chest and region of heart,1.0,1
+swelling in bend of knee very painful,especially suitable for children of irritable disposition,1.0,1
+swelling in bend of knee very painful,pains neuralgic lightning-like,1.0,1
+swelling in bend of knee very painful,many neuralgic pains,1.0,1
+swelling in bend of knee very painful,drawing pains in legs and feet,1.0,1
+swelling in bend of knee very painful,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+swelling in bend of knee very painful,suitable for worn out women,1.0,1
+swelling in bend of knee very painful,must get up and walk,1.0,1
+swelling in bend of knee very painful,sour smelling,1.0,1
+swelling in bend of knee very painful,can hardly raise arm,1.0,1
+swelling in bend of knee very painful,unrefreshing sleep,1.0,1
+swelling in bend of knee very painful,knees painful when walking,1.0,1
+swelling in bend of knee very painful,stitches,1.0,1
+swelling in bend of knee very painful,more tired in morning than when going to bed,1.0,1
+swelling in bend of knee very painful,restless,1.0,1
+swelling in bend of knee very painful,great internal heat at night,1.0,1
+swelling in bend of knee very painful,pains insupportable during repose,1.0,1
+swelling in bend of knee very painful,stitch from without inward in precordial region,1.0,1
+swelling in bend of knee very painful,adapted to children of irritable nervous disposition,1.0,1
+swelling in bend of knee very painful,no swelling or soreness,1.0,1
+swelling in bend of knee very painful,much pain in right shoulder,1.0,1
+swelling in bend of knee very painful,red swelling of fingers,1.0,1
+swelling in bend of knee very painful,lameness of right arm,1.0,1
+swelling in bend of knee very painful,feet painful when lying in bed,1.0,1
+swelling in bend of knee very painful,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+stitch from without inward in precordial region,pains around left knee as if something were tight,1.0,1
+stitch from without inward in precordial region,cannot put foot to ground when walking but only when standing,1.0,1
+stitch from without inward in precordial region,rheumatic pain in shoulders worse at night,1.0,1
+stitch from without inward in precordial region,pain as from dislocation of shoulder joint when moving it,1.0,1
+stitch from without inward in precordial region,lax fibres,1.0,1
+stitch from without inward in precordial region,pain in shoulder,1.0,1
+stitch from without inward in precordial region,soreness in chest and region of heart,1.0,1
+stitch from without inward in precordial region,especially suitable for children of irritable disposition,1.0,1
+stitch from without inward in precordial region,pains neuralgic lightning-like,1.0,1
+stitch from without inward in precordial region,many neuralgic pains,1.0,1
+stitch from without inward in precordial region,drawing pains in legs and feet,1.0,1
+stitch from without inward in precordial region,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+stitch from without inward in precordial region,suitable for worn out women,1.0,1
+stitch from without inward in precordial region,must get up and walk,1.0,1
+stitch from without inward in precordial region,sour smelling,1.0,1
+stitch from without inward in precordial region,can hardly raise arm,1.0,1
+stitch from without inward in precordial region,unrefreshing sleep,1.0,1
+stitch from without inward in precordial region,swelling in bend of knee very painful,1.0,1
+stitch from without inward in precordial region,knees painful when walking,1.0,1
+stitch from without inward in precordial region,stitches,1.0,1
+stitch from without inward in precordial region,more tired in morning than when going to bed,1.0,1
+stitch from without inward in precordial region,restless,1.0,1
+stitch from without inward in precordial region,great internal heat at night,1.0,1
+stitch from without inward in precordial region,pains insupportable during repose,1.0,1
+stitch from without inward in precordial region,adapted to children of irritable nervous disposition,1.0,1
+stitch from without inward in precordial region,no swelling or soreness,1.0,1
+stitch from without inward in precordial region,much pain in right shoulder,1.0,1
+stitch from without inward in precordial region,red swelling of fingers,1.0,1
+stitch from without inward in precordial region,lameness of right arm,1.0,1
+stitch from without inward in precordial region,feet painful when lying in bed,1.0,1
+stitch from without inward in precordial region,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+adapted to children of irritable nervous disposition,pains around left knee as if something were tight,1.0,1
+adapted to children of irritable nervous disposition,cannot put foot to ground when walking but only when standing,1.0,1
+adapted to children of irritable nervous disposition,rheumatic pain in shoulders worse at night,1.0,1
+adapted to children of irritable nervous disposition,pain as from dislocation of shoulder joint when moving it,1.0,1
+adapted to children of irritable nervous disposition,lax fibres,1.0,1
+adapted to children of irritable nervous disposition,pain in shoulder,1.0,1
+adapted to children of irritable nervous disposition,soreness in chest and region of heart,1.0,1
+adapted to children of irritable nervous disposition,especially suitable for children of irritable disposition,1.0,1
+adapted to children of irritable nervous disposition,pains neuralgic lightning-like,1.0,1
+adapted to children of irritable nervous disposition,many neuralgic pains,1.0,1
+adapted to children of irritable nervous disposition,drawing pains in legs and feet,1.0,1
+adapted to children of irritable nervous disposition,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+adapted to children of irritable nervous disposition,suitable for worn out women,1.0,1
+adapted to children of irritable nervous disposition,must get up and walk,1.0,1
+adapted to children of irritable nervous disposition,sour smelling,1.0,1
+adapted to children of irritable nervous disposition,can hardly raise arm,1.0,1
+adapted to children of irritable nervous disposition,unrefreshing sleep,1.0,1
+adapted to children of irritable nervous disposition,swelling in bend of knee very painful,1.0,1
+adapted to children of irritable nervous disposition,knees painful when walking,1.0,1
+adapted to children of irritable nervous disposition,stitches,1.0,1
+adapted to children of irritable nervous disposition,more tired in morning than when going to bed,1.0,1
+adapted to children of irritable nervous disposition,restless,1.0,1
+adapted to children of irritable nervous disposition,great internal heat at night,1.0,1
+adapted to children of irritable nervous disposition,pains insupportable during repose,1.0,1
+adapted to children of irritable nervous disposition,stitch from without inward in precordial region,1.0,1
+adapted to children of irritable nervous disposition,no swelling or soreness,1.0,1
+adapted to children of irritable nervous disposition,much pain in right shoulder,1.0,1
+adapted to children of irritable nervous disposition,red swelling of fingers,1.0,1
+adapted to children of irritable nervous disposition,lameness of right arm,1.0,1
+adapted to children of irritable nervous disposition,feet painful when lying in bed,1.0,1
+adapted to children of irritable nervous disposition,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+no swelling or soreness,pains around left knee as if something were tight,1.0,1
+no swelling or soreness,cannot put foot to ground when walking but only when standing,1.0,1
+no swelling or soreness,rheumatic pain in shoulders worse at night,1.0,1
+no swelling or soreness,pain as from dislocation of shoulder joint when moving it,1.0,1
+no swelling or soreness,lax fibres,1.0,1
+no swelling or soreness,pain in shoulder,1.0,1
+no swelling or soreness,soreness in chest and region of heart,1.0,1
+no swelling or soreness,especially suitable for children of irritable disposition,1.0,1
+no swelling or soreness,pains neuralgic lightning-like,1.0,1
+no swelling or soreness,many neuralgic pains,1.0,1
+no swelling or soreness,drawing pains in legs and feet,1.0,1
+no swelling or soreness,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+no swelling or soreness,suitable for worn out women,1.0,1
+no swelling or soreness,must get up and walk,1.0,1
+no swelling or soreness,sour smelling,1.0,1
+no swelling or soreness,can hardly raise arm,1.0,1
+no swelling or soreness,unrefreshing sleep,1.0,1
+no swelling or soreness,swelling in bend of knee very painful,1.0,1
+no swelling or soreness,knees painful when walking,1.0,1
+no swelling or soreness,stitches,1.0,1
+no swelling or soreness,more tired in morning than when going to bed,1.0,1
+no swelling or soreness,restless,1.0,1
+no swelling or soreness,great internal heat at night,1.0,1
+no swelling or soreness,pains insupportable during repose,1.0,1
+no swelling or soreness,stitch from without inward in precordial region,1.0,1
+no swelling or soreness,adapted to children of irritable nervous disposition,1.0,1
+no swelling or soreness,much pain in right shoulder,1.0,1
+no swelling or soreness,red swelling of fingers,1.0,1
+no swelling or soreness,lameness of right arm,1.0,1
+no swelling or soreness,feet painful when lying in bed,1.0,1
+no swelling or soreness,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,pains around left knee as if something were tight,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,cannot put foot to ground when walking but only when standing,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,rheumatic pain in shoulders worse at night,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,pain as from dislocation of shoulder joint when moving it,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,lax fibres,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,pain in shoulder,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,soreness in chest and region of heart,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,especially suitable for children of irritable disposition,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,pains neuralgic lightning-like,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,many neuralgic pains,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,drawing pains in legs and feet,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,suitable for worn out women,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,must get up and walk,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,sour smelling,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,can hardly raise arm,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,unrefreshing sleep,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,swelling in bend of knee very painful,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,knees painful when walking,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,stitches,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,more tired in morning than when going to bed,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,restless,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,great internal heat at night,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,pains insupportable during repose,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,stitch from without inward in precordial region,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,adapted to children of irritable nervous disposition,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,no swelling or soreness,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,much pain in right shoulder,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,red swelling of fingers,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,lameness of right arm,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,feet painful when lying in bed,1.0,1
+suitable for dark-haired sensitive people who are spare and thin,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+stitches,pains around left knee as if something were tight,1.0,1
+stitches,cannot put foot to ground when walking but only when standing,1.0,1
+stitches,rheumatic pain in shoulders worse at night,1.0,1
+stitches,pain as from dislocation of shoulder joint when moving it,1.0,1
+stitches,lax fibres,1.0,1
+stitches,pain in shoulder,1.0,1
+stitches,soreness in chest and region of heart,1.0,1
+stitches,especially suitable for children of irritable disposition,1.0,1
+stitches,pains neuralgic lightning-like,1.0,1
+stitches,many neuralgic pains,1.0,1
+stitches,drawing pains in legs and feet,1.0,1
+stitches,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+stitches,suitable for worn out women,1.0,1
+stitches,must get up and walk,1.0,1
+stitches,sour smelling,1.0,1
+stitches,can hardly raise arm,1.0,1
+stitches,unrefreshing sleep,1.0,1
+stitches,swelling in bend of knee very painful,1.0,1
+stitches,knees painful when walking,1.0,1
+stitches,more tired in morning than when going to bed,1.0,1
+stitches,restless,1.0,1
+stitches,great internal heat at night,1.0,1
+stitches,pains insupportable during repose,1.0,1
+stitches,stitch from without inward in precordial region,1.0,1
+stitches,adapted to children of irritable nervous disposition,1.0,1
+stitches,no swelling or soreness,1.0,1
+stitches,much pain in right shoulder,1.0,1
+stitches,red swelling of fingers,1.0,1
+stitches,lameness of right arm,1.0,1
+stitches,feet painful when lying in bed,1.0,1
+stitches,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+much pain in right shoulder,pains around left knee as if something were tight,1.0,1
+much pain in right shoulder,cannot put foot to ground when walking but only when standing,1.0,1
+much pain in right shoulder,rheumatic pain in shoulders worse at night,1.0,1
+much pain in right shoulder,pain as from dislocation of shoulder joint when moving it,1.0,1
+much pain in right shoulder,lax fibres,1.0,1
+much pain in right shoulder,pain in shoulder,1.0,1
+much pain in right shoulder,soreness in chest and region of heart,1.0,1
+much pain in right shoulder,especially suitable for children of irritable disposition,1.0,1
+much pain in right shoulder,pains neuralgic lightning-like,1.0,1
+much pain in right shoulder,many neuralgic pains,1.0,1
+much pain in right shoulder,drawing pains in legs and feet,1.0,1
+much pain in right shoulder,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+much pain in right shoulder,suitable for worn out women,1.0,1
+much pain in right shoulder,must get up and walk,1.0,1
+much pain in right shoulder,sour smelling,1.0,1
+much pain in right shoulder,can hardly raise arm,1.0,1
+much pain in right shoulder,unrefreshing sleep,1.0,1
+much pain in right shoulder,swelling in bend of knee very painful,1.0,1
+much pain in right shoulder,knees painful when walking,1.0,1
+much pain in right shoulder,stitches,1.0,1
+much pain in right shoulder,more tired in morning than when going to bed,1.0,1
+much pain in right shoulder,restless,1.0,1
+much pain in right shoulder,great internal heat at night,1.0,1
+much pain in right shoulder,pains insupportable during repose,1.0,1
+much pain in right shoulder,stitch from without inward in precordial region,1.0,1
+much pain in right shoulder,adapted to children of irritable nervous disposition,1.0,1
+much pain in right shoulder,no swelling or soreness,1.0,1
+much pain in right shoulder,red swelling of fingers,1.0,1
+much pain in right shoulder,lameness of right arm,1.0,1
+much pain in right shoulder,feet painful when lying in bed,1.0,1
+much pain in right shoulder,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+rheumatic pain in shoulders worse at night,pains around left knee as if something were tight,1.0,1
+rheumatic pain in shoulders worse at night,cannot put foot to ground when walking but only when standing,1.0,1
+rheumatic pain in shoulders worse at night,pain as from dislocation of shoulder joint when moving it,1.0,1
+rheumatic pain in shoulders worse at night,lax fibres,1.0,1
+rheumatic pain in shoulders worse at night,pain in shoulder,1.0,1
+rheumatic pain in shoulders worse at night,soreness in chest and region of heart,1.0,1
+rheumatic pain in shoulders worse at night,especially suitable for children of irritable disposition,1.0,1
+rheumatic pain in shoulders worse at night,pains neuralgic lightning-like,1.0,1
+rheumatic pain in shoulders worse at night,many neuralgic pains,1.0,1
+rheumatic pain in shoulders worse at night,drawing pains in legs and feet,1.0,1
+rheumatic pain in shoulders worse at night,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+rheumatic pain in shoulders worse at night,suitable for worn out women,1.0,1
+rheumatic pain in shoulders worse at night,must get up and walk,1.0,1
+rheumatic pain in shoulders worse at night,sour smelling,1.0,1
+rheumatic pain in shoulders worse at night,can hardly raise arm,1.0,1
+rheumatic pain in shoulders worse at night,unrefreshing sleep,1.0,1
+rheumatic pain in shoulders worse at night,swelling in bend of knee very painful,1.0,1
+rheumatic pain in shoulders worse at night,knees painful when walking,1.0,1
+rheumatic pain in shoulders worse at night,stitches,1.0,1
+rheumatic pain in shoulders worse at night,more tired in morning than when going to bed,1.0,1
+rheumatic pain in shoulders worse at night,restless,1.0,1
+rheumatic pain in shoulders worse at night,great internal heat at night,1.0,1
+rheumatic pain in shoulders worse at night,pains insupportable during repose,1.0,1
+rheumatic pain in shoulders worse at night,stitch from without inward in precordial region,1.0,1
+rheumatic pain in shoulders worse at night,adapted to children of irritable nervous disposition,1.0,1
+rheumatic pain in shoulders worse at night,no swelling or soreness,1.0,1
+rheumatic pain in shoulders worse at night,much pain in right shoulder,1.0,1
+rheumatic pain in shoulders worse at night,red swelling of fingers,1.0,1
+rheumatic pain in shoulders worse at night,lameness of right arm,1.0,1
+rheumatic pain in shoulders worse at night,feet painful when lying in bed,1.0,1
+rheumatic pain in shoulders worse at night,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+lax fibres,pains around left knee as if something were tight,1.0,1
+lax fibres,cannot put foot to ground when walking but only when standing,1.0,1
+lax fibres,rheumatic pain in shoulders worse at night,1.0,1
+lax fibres,pain as from dislocation of shoulder joint when moving it,1.0,1
+lax fibres,pain in shoulder,1.0,1
+lax fibres,soreness in chest and region of heart,1.0,1
+lax fibres,especially suitable for children of irritable disposition,1.0,1
+lax fibres,pains neuralgic lightning-like,1.0,1
+lax fibres,many neuralgic pains,1.0,1
+lax fibres,drawing pains in legs and feet,1.0,1
+lax fibres,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+lax fibres,suitable for worn out women,1.0,1
+lax fibres,must get up and walk,1.0,1
+lax fibres,sour smelling,1.0,1
+lax fibres,can hardly raise arm,1.0,1
+lax fibres,unrefreshing sleep,1.0,1
+lax fibres,swelling in bend of knee very painful,1.0,1
+lax fibres,knees painful when walking,1.0,1
+lax fibres,stitches,1.0,1
+lax fibres,more tired in morning than when going to bed,1.0,1
+lax fibres,restless,1.0,1
+lax fibres,great internal heat at night,1.0,1
+lax fibres,pains insupportable during repose,1.0,1
+lax fibres,stitch from without inward in precordial region,1.0,1
+lax fibres,adapted to children of irritable nervous disposition,1.0,1
+lax fibres,no swelling or soreness,1.0,1
+lax fibres,much pain in right shoulder,1.0,1
+lax fibres,red swelling of fingers,1.0,1
+lax fibres,lameness of right arm,1.0,1
+lax fibres,feet painful when lying in bed,1.0,1
+lax fibres,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+great internal heat at night,pains around left knee as if something were tight,1.0,1
+great internal heat at night,cannot put foot to ground when walking but only when standing,1.0,1
+great internal heat at night,rheumatic pain in shoulders worse at night,1.0,1
+great internal heat at night,pain as from dislocation of shoulder joint when moving it,1.0,1
+great internal heat at night,lax fibres,1.0,1
+great internal heat at night,pain in shoulder,1.0,1
+great internal heat at night,soreness in chest and region of heart,1.0,1
+great internal heat at night,especially suitable for children of irritable disposition,1.0,1
+great internal heat at night,pains neuralgic lightning-like,1.0,1
+great internal heat at night,many neuralgic pains,1.0,1
+great internal heat at night,drawing pains in legs and feet,1.0,1
+great internal heat at night,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+great internal heat at night,suitable for worn out women,1.0,1
+great internal heat at night,must get up and walk,1.0,1
+great internal heat at night,sour smelling,1.0,1
+great internal heat at night,can hardly raise arm,1.0,1
+great internal heat at night,unrefreshing sleep,1.0,1
+great internal heat at night,swelling in bend of knee very painful,1.0,1
+great internal heat at night,knees painful when walking,1.0,1
+great internal heat at night,stitches,1.0,1
+great internal heat at night,more tired in morning than when going to bed,1.0,1
+great internal heat at night,restless,1.0,1
+great internal heat at night,pains insupportable during repose,1.0,1
+great internal heat at night,stitch from without inward in precordial region,1.0,1
+great internal heat at night,adapted to children of irritable nervous disposition,1.0,1
+great internal heat at night,no swelling or soreness,1.0,1
+great internal heat at night,much pain in right shoulder,1.0,1
+great internal heat at night,red swelling of fingers,1.0,1
+great internal heat at night,lameness of right arm,1.0,1
+great internal heat at night,feet painful when lying in bed,1.0,1
+great internal heat at night,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+especially suitable for children of irritable disposition,pains around left knee as if something were tight,1.0,1
+especially suitable for children of irritable disposition,cannot put foot to ground when walking but only when standing,1.0,1
+especially suitable for children of irritable disposition,rheumatic pain in shoulders worse at night,1.0,1
+especially suitable for children of irritable disposition,pain as from dislocation of shoulder joint when moving it,1.0,1
+especially suitable for children of irritable disposition,lax fibres,1.0,1
+especially suitable for children of irritable disposition,pain in shoulder,1.0,1
+especially suitable for children of irritable disposition,soreness in chest and region of heart,1.0,1
+especially suitable for children of irritable disposition,pains neuralgic lightning-like,1.0,1
+especially suitable for children of irritable disposition,many neuralgic pains,1.0,1
+especially suitable for children of irritable disposition,drawing pains in legs and feet,1.0,1
+especially suitable for children of irritable disposition,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+especially suitable for children of irritable disposition,suitable for worn out women,1.0,1
+especially suitable for children of irritable disposition,must get up and walk,1.0,1
+especially suitable for children of irritable disposition,sour smelling,1.0,1
+especially suitable for children of irritable disposition,can hardly raise arm,1.0,1
+especially suitable for children of irritable disposition,unrefreshing sleep,1.0,1
+especially suitable for children of irritable disposition,swelling in bend of knee very painful,1.0,1
+especially suitable for children of irritable disposition,knees painful when walking,1.0,1
+especially suitable for children of irritable disposition,stitches,1.0,1
+especially suitable for children of irritable disposition,more tired in morning than when going to bed,1.0,1
+especially suitable for children of irritable disposition,restless,1.0,1
+especially suitable for children of irritable disposition,great internal heat at night,1.0,1
+especially suitable for children of irritable disposition,pains insupportable during repose,1.0,1
+especially suitable for children of irritable disposition,stitch from without inward in precordial region,1.0,1
+especially suitable for children of irritable disposition,adapted to children of irritable nervous disposition,1.0,1
+especially suitable for children of irritable disposition,no swelling or soreness,1.0,1
+especially suitable for children of irritable disposition,much pain in right shoulder,1.0,1
+especially suitable for children of irritable disposition,red swelling of fingers,1.0,1
+especially suitable for children of irritable disposition,lameness of right arm,1.0,1
+especially suitable for children of irritable disposition,feet painful when lying in bed,1.0,1
+especially suitable for children of irritable disposition,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+sour smelling,pains around left knee as if something were tight,1.0,1
+sour smelling,cannot put foot to ground when walking but only when standing,1.0,1
+sour smelling,rheumatic pain in shoulders worse at night,1.0,1
+sour smelling,pain as from dislocation of shoulder joint when moving it,1.0,1
+sour smelling,lax fibres,1.0,1
+sour smelling,pain in shoulder,1.0,1
+sour smelling,soreness in chest and region of heart,1.0,1
+sour smelling,especially suitable for children of irritable disposition,1.0,1
+sour smelling,pains neuralgic lightning-like,1.0,1
+sour smelling,many neuralgic pains,1.0,1
+sour smelling,drawing pains in legs and feet,1.0,1
+sour smelling,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+sour smelling,suitable for worn out women,1.0,1
+sour smelling,must get up and walk,1.0,1
+sour smelling,can hardly raise arm,1.0,1
+sour smelling,unrefreshing sleep,1.0,1
+sour smelling,swelling in bend of knee very painful,1.0,1
+sour smelling,knees painful when walking,1.0,1
+sour smelling,stitches,1.0,1
+sour smelling,more tired in morning than when going to bed,1.0,1
+sour smelling,restless,1.0,1
+sour smelling,great internal heat at night,1.0,1
+sour smelling,pains insupportable during repose,1.0,1
+sour smelling,stitch from without inward in precordial region,1.0,1
+sour smelling,adapted to children of irritable nervous disposition,1.0,1
+sour smelling,no swelling or soreness,1.0,1
+sour smelling,much pain in right shoulder,1.0,1
+sour smelling,red swelling of fingers,1.0,1
+sour smelling,lameness of right arm,1.0,1
+sour smelling,feet painful when lying in bed,1.0,1
+sour smelling,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+feet painful when lying in bed,pains around left knee as if something were tight,1.0,1
+feet painful when lying in bed,cannot put foot to ground when walking but only when standing,1.0,1
+feet painful when lying in bed,rheumatic pain in shoulders worse at night,1.0,1
+feet painful when lying in bed,pain as from dislocation of shoulder joint when moving it,1.0,1
+feet painful when lying in bed,lax fibres,1.0,1
+feet painful when lying in bed,pain in shoulder,1.0,1
+feet painful when lying in bed,soreness in chest and region of heart,1.0,1
+feet painful when lying in bed,especially suitable for children of irritable disposition,1.0,1
+feet painful when lying in bed,pains neuralgic lightning-like,1.0,1
+feet painful when lying in bed,many neuralgic pains,1.0,1
+feet painful when lying in bed,drawing pains in legs and feet,1.0,1
+feet painful when lying in bed,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+feet painful when lying in bed,suitable for worn out women,1.0,1
+feet painful when lying in bed,must get up and walk,1.0,1
+feet painful when lying in bed,sour smelling,1.0,1
+feet painful when lying in bed,can hardly raise arm,1.0,1
+feet painful when lying in bed,unrefreshing sleep,1.0,1
+feet painful when lying in bed,swelling in bend of knee very painful,1.0,1
+feet painful when lying in bed,knees painful when walking,1.0,1
+feet painful when lying in bed,stitches,1.0,1
+feet painful when lying in bed,more tired in morning than when going to bed,1.0,1
+feet painful when lying in bed,restless,1.0,1
+feet painful when lying in bed,great internal heat at night,1.0,1
+feet painful when lying in bed,pains insupportable during repose,1.0,1
+feet painful when lying in bed,stitch from without inward in precordial region,1.0,1
+feet painful when lying in bed,adapted to children of irritable nervous disposition,1.0,1
+feet painful when lying in bed,no swelling or soreness,1.0,1
+feet painful when lying in bed,much pain in right shoulder,1.0,1
+feet painful when lying in bed,red swelling of fingers,1.0,1
+feet painful when lying in bed,lameness of right arm,1.0,1
+feet painful when lying in bed,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+can hardly raise arm,pains around left knee as if something were tight,1.0,1
+can hardly raise arm,cannot put foot to ground when walking but only when standing,1.0,1
+can hardly raise arm,rheumatic pain in shoulders worse at night,1.0,1
+can hardly raise arm,pain as from dislocation of shoulder joint when moving it,1.0,1
+can hardly raise arm,lax fibres,1.0,1
+can hardly raise arm,pain in shoulder,1.0,1
+can hardly raise arm,soreness in chest and region of heart,1.0,1
+can hardly raise arm,especially suitable for children of irritable disposition,1.0,1
+can hardly raise arm,pains neuralgic lightning-like,1.0,1
+can hardly raise arm,many neuralgic pains,1.0,1
+can hardly raise arm,drawing pains in legs and feet,1.0,1
+can hardly raise arm,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+can hardly raise arm,suitable for worn out women,1.0,1
+can hardly raise arm,must get up and walk,1.0,1
+can hardly raise arm,sour smelling,1.0,1
+can hardly raise arm,unrefreshing sleep,1.0,1
+can hardly raise arm,swelling in bend of knee very painful,1.0,1
+can hardly raise arm,knees painful when walking,1.0,1
+can hardly raise arm,stitches,1.0,1
+can hardly raise arm,more tired in morning than when going to bed,1.0,1
+can hardly raise arm,restless,1.0,1
+can hardly raise arm,great internal heat at night,1.0,1
+can hardly raise arm,pains insupportable during repose,1.0,1
+can hardly raise arm,stitch from without inward in precordial region,1.0,1
+can hardly raise arm,adapted to children of irritable nervous disposition,1.0,1
+can hardly raise arm,no swelling or soreness,1.0,1
+can hardly raise arm,much pain in right shoulder,1.0,1
+can hardly raise arm,red swelling of fingers,1.0,1
+can hardly raise arm,lameness of right arm,1.0,1
+can hardly raise arm,feet painful when lying in bed,1.0,1
+can hardly raise arm,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+unrefreshing sleep,pains around left knee as if something were tight,1.0,1
+unrefreshing sleep,cannot put foot to ground when walking but only when standing,1.0,1
+unrefreshing sleep,rheumatic pain in shoulders worse at night,1.0,1
+unrefreshing sleep,pain as from dislocation of shoulder joint when moving it,1.0,1
+unrefreshing sleep,lax fibres,1.0,1
+unrefreshing sleep,pain in shoulder,1.0,1
+unrefreshing sleep,soreness in chest and region of heart,1.0,1
+unrefreshing sleep,especially suitable for children of irritable disposition,1.0,1
+unrefreshing sleep,pains neuralgic lightning-like,1.0,1
+unrefreshing sleep,many neuralgic pains,1.0,1
+unrefreshing sleep,drawing pains in legs and feet,1.0,1
+unrefreshing sleep,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+unrefreshing sleep,suitable for worn out women,1.0,1
+unrefreshing sleep,must get up and walk,1.0,1
+unrefreshing sleep,sour smelling,1.0,1
+unrefreshing sleep,can hardly raise arm,1.0,1
+unrefreshing sleep,swelling in bend of knee very painful,1.0,1
+unrefreshing sleep,knees painful when walking,1.0,1
+unrefreshing sleep,stitches,1.0,1
+unrefreshing sleep,more tired in morning than when going to bed,1.0,1
+unrefreshing sleep,restless,1.0,1
+unrefreshing sleep,great internal heat at night,1.0,1
+unrefreshing sleep,pains insupportable during repose,1.0,1
+unrefreshing sleep,stitch from without inward in precordial region,1.0,1
+unrefreshing sleep,adapted to children of irritable nervous disposition,1.0,1
+unrefreshing sleep,no swelling or soreness,1.0,1
+unrefreshing sleep,much pain in right shoulder,1.0,1
+unrefreshing sleep,red swelling of fingers,1.0,1
+unrefreshing sleep,lameness of right arm,1.0,1
+unrefreshing sleep,feet painful when lying in bed,1.0,1
+unrefreshing sleep,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1
+red swelling of fingers,pains around left knee as if something were tight,1.0,1
+red swelling of fingers,cannot put foot to ground when walking but only when standing,1.0,1
+red swelling of fingers,rheumatic pain in shoulders worse at night,1.0,1
+red swelling of fingers,pain as from dislocation of shoulder joint when moving it,1.0,1
+red swelling of fingers,lax fibres,1.0,1
+red swelling of fingers,pain in shoulder,1.0,1
+red swelling of fingers,soreness in chest and region of heart,1.0,1
+red swelling of fingers,especially suitable for children of irritable disposition,1.0,1
+red swelling of fingers,pains neuralgic lightning-like,1.0,1
+red swelling of fingers,many neuralgic pains,1.0,1
+red swelling of fingers,drawing pains in legs and feet,1.0,1
+red swelling of fingers,suitable for dark-haired sensitive people who are spare and thin,1.0,1
+red swelling of fingers,suitable for worn out women,1.0,1
+red swelling of fingers,must get up and walk,1.0,1
+red swelling of fingers,sour smelling,1.0,1
+red swelling of fingers,can hardly raise arm,1.0,1
+red swelling of fingers,unrefreshing sleep,1.0,1
+red swelling of fingers,swelling in bend of knee very painful,1.0,1
+red swelling of fingers,knees painful when walking,1.0,1
+red swelling of fingers,stitches,1.0,1
+red swelling of fingers,more tired in morning than when going to bed,1.0,1
+red swelling of fingers,restless,1.0,1
+red swelling of fingers,great internal heat at night,1.0,1
+red swelling of fingers,pains insupportable during repose,1.0,1
+red swelling of fingers,stitch from without inward in precordial region,1.0,1
+red swelling of fingers,adapted to children of irritable nervous disposition,1.0,1
+red swelling of fingers,no swelling or soreness,1.0,1
+red swelling of fingers,much pain in right shoulder,1.0,1
+red swelling of fingers,lameness of right arm,1.0,1
+red swelling of fingers,feet painful when lying in bed,1.0,1
+red swelling of fingers,rheumatic pain in shoulders with tingling down fingers prevents least motion,1.0,1

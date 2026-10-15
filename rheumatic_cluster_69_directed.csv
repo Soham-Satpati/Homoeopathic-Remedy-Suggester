@@ -1,0 +1,173 @@
+### Cluster 69 — Symptoms (16)
+Symptom,Frequency
+cramp-like pain in hands,7
+tearing pain in back,8
+rheumatic pains worse in wet weather,1
+rheumatic pains shifting rapidly,1
+sensitivity to weather changes,1
+stinging pain in elbows,6
+sore throat,1
+worse in stormy weather,1
+thirstlessness,1
+rheumatic pains worse before storms,1
+glandular swellings,1
+rheumatic pains worse in cold damp weather,1
+wandering pains,2
+aching in heels,3
+weepiness,1
+general soreness,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+phytolacca,9
+pulsatilla,8
+rhododendron,6
+rhus toxicodendron,5
+plumbum,2
+phosphorus,2
+ranunculus bulbosus,2
+rumex crispus,2
+petroleum,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+sore throat,cramp-like pain in hands,1.0,1
+sore throat,tearing pain in back,1.0,1
+sore throat,rheumatic pains worse in wet weather,1.0,1
+sore throat,stinging pain in elbows,1.0,1
+sore throat,glandular swellings,1.0,1
+sore throat,wandering pains,1.0,1
+sore throat,aching in heels,1.0,1
+sore throat,general soreness,1.0,1
+rheumatic pains shifting rapidly,cramp-like pain in hands,1.0,1
+rheumatic pains shifting rapidly,tearing pain in back,1.0,1
+rheumatic pains shifting rapidly,stinging pain in elbows,1.0,1
+rheumatic pains shifting rapidly,thirstlessness,1.0,1
+rheumatic pains shifting rapidly,wandering pains,1.0,1
+rheumatic pains shifting rapidly,aching in heels,1.0,1
+rheumatic pains shifting rapidly,weepiness,1.0,1
+rheumatic pains worse in cold damp weather,cramp-like pain in hands,1.0,1
+rheumatic pains worse in cold damp weather,tearing pain in back,1.0,1
+rheumatic pains worse in cold damp weather,stinging pain in elbows,1.0,1
+rheumatic pains worse in cold damp weather,aching in heels,1.0,1
+glandular swellings,cramp-like pain in hands,1.0,1
+glandular swellings,tearing pain in back,1.0,1
+glandular swellings,rheumatic pains worse in wet weather,1.0,1
+glandular swellings,stinging pain in elbows,1.0,1
+glandular swellings,sore throat,1.0,1
+glandular swellings,wandering pains,1.0,1
+glandular swellings,aching in heels,1.0,1
+glandular swellings,general soreness,1.0,1
+rheumatic pains worse in wet weather,cramp-like pain in hands,1.0,1
+rheumatic pains worse in wet weather,tearing pain in back,1.0,1
+rheumatic pains worse in wet weather,stinging pain in elbows,1.0,1
+rheumatic pains worse in wet weather,sore throat,1.0,1
+rheumatic pains worse in wet weather,glandular swellings,1.0,1
+rheumatic pains worse in wet weather,wandering pains,1.0,1
+rheumatic pains worse in wet weather,aching in heels,1.0,1
+rheumatic pains worse in wet weather,general soreness,1.0,1
+cramp-like pain in hands,tearing pain in back,0.8571,6
+cramp-like pain in hands,rheumatic pains worse in wet weather,0.1429,1
+cramp-like pain in hands,rheumatic pains shifting rapidly,0.1429,1
+cramp-like pain in hands,sensitivity to weather changes,0.1429,1
+cramp-like pain in hands,stinging pain in elbows,0.5714,4
+cramp-like pain in hands,sore throat,0.1429,1
+cramp-like pain in hands,worse in stormy weather,0.1429,1
+cramp-like pain in hands,thirstlessness,0.1429,1
+cramp-like pain in hands,rheumatic pains worse before storms,0.1429,1
+cramp-like pain in hands,glandular swellings,0.1429,1
+cramp-like pain in hands,rheumatic pains worse in cold damp weather,0.1429,1
+cramp-like pain in hands,wandering pains,0.2857,2
+cramp-like pain in hands,aching in heels,0.4286,3
+cramp-like pain in hands,weepiness,0.1429,1
+cramp-like pain in hands,general soreness,0.1429,1
+worse in stormy weather,cramp-like pain in hands,1.0,1
+worse in stormy weather,tearing pain in back,1.0,1
+worse in stormy weather,sensitivity to weather changes,1.0,1
+worse in stormy weather,stinging pain in elbows,1.0,1
+worse in stormy weather,rheumatic pains worse before storms,1.0,1
+tearing pain in back,cramp-like pain in hands,0.75,6
+tearing pain in back,rheumatic pains worse in wet weather,0.125,1
+tearing pain in back,rheumatic pains shifting rapidly,0.125,1
+tearing pain in back,sensitivity to weather changes,0.125,1
+tearing pain in back,stinging pain in elbows,0.75,6
+tearing pain in back,sore throat,0.125,1
+tearing pain in back,worse in stormy weather,0.125,1
+tearing pain in back,thirstlessness,0.125,1
+tearing pain in back,rheumatic pains worse before storms,0.125,1
+tearing pain in back,glandular swellings,0.125,1
+tearing pain in back,rheumatic pains worse in cold damp weather,0.125,1
+tearing pain in back,wandering pains,0.25,2
+tearing pain in back,aching in heels,0.375,3
+tearing pain in back,weepiness,0.125,1
+tearing pain in back,general soreness,0.125,1
+sensitivity to weather changes,cramp-like pain in hands,1.0,1
+sensitivity to weather changes,tearing pain in back,1.0,1
+sensitivity to weather changes,stinging pain in elbows,1.0,1
+sensitivity to weather changes,worse in stormy weather,1.0,1
+sensitivity to weather changes,rheumatic pains worse before storms,1.0,1
+wandering pains,cramp-like pain in hands,1.0,2
+wandering pains,tearing pain in back,1.0,2
+wandering pains,rheumatic pains worse in wet weather,0.5,1
+wandering pains,rheumatic pains shifting rapidly,0.5,1
+wandering pains,stinging pain in elbows,1.0,2
+wandering pains,sore throat,0.5,1
+wandering pains,thirstlessness,0.5,1
+wandering pains,glandular swellings,0.5,1
+wandering pains,aching in heels,1.0,2
+wandering pains,weepiness,0.5,1
+wandering pains,general soreness,0.5,1
+thirstlessness,cramp-like pain in hands,1.0,1
+thirstlessness,tearing pain in back,1.0,1
+thirstlessness,rheumatic pains shifting rapidly,1.0,1
+thirstlessness,stinging pain in elbows,1.0,1
+thirstlessness,wandering pains,1.0,1
+thirstlessness,aching in heels,1.0,1
+thirstlessness,weepiness,1.0,1
+rheumatic pains worse before storms,cramp-like pain in hands,1.0,1
+rheumatic pains worse before storms,tearing pain in back,1.0,1
+rheumatic pains worse before storms,sensitivity to weather changes,1.0,1
+rheumatic pains worse before storms,stinging pain in elbows,1.0,1
+rheumatic pains worse before storms,worse in stormy weather,1.0,1
+weepiness,cramp-like pain in hands,1.0,1
+weepiness,tearing pain in back,1.0,1
+weepiness,rheumatic pains shifting rapidly,1.0,1
+weepiness,stinging pain in elbows,1.0,1
+weepiness,thirstlessness,1.0,1
+weepiness,wandering pains,1.0,1
+weepiness,aching in heels,1.0,1
+stinging pain in elbows,cramp-like pain in hands,0.6667,4
+stinging pain in elbows,tearing pain in back,1.0,6
+stinging pain in elbows,rheumatic pains worse in wet weather,0.1667,1
+stinging pain in elbows,rheumatic pains shifting rapidly,0.1667,1
+stinging pain in elbows,sensitivity to weather changes,0.1667,1
+stinging pain in elbows,sore throat,0.1667,1
+stinging pain in elbows,worse in stormy weather,0.1667,1
+stinging pain in elbows,thirstlessness,0.1667,1
+stinging pain in elbows,rheumatic pains worse before storms,0.1667,1
+stinging pain in elbows,glandular swellings,0.1667,1
+stinging pain in elbows,rheumatic pains worse in cold damp weather,0.1667,1
+stinging pain in elbows,wandering pains,0.3333,2
+stinging pain in elbows,aching in heels,0.5,3
+stinging pain in elbows,weepiness,0.1667,1
+stinging pain in elbows,general soreness,0.1667,1
+aching in heels,cramp-like pain in hands,1.0,3
+aching in heels,tearing pain in back,1.0,3
+aching in heels,rheumatic pains worse in wet weather,0.3333,1
+aching in heels,rheumatic pains shifting rapidly,0.3333,1
+aching in heels,stinging pain in elbows,1.0,3
+aching in heels,sore throat,0.3333,1
+aching in heels,thirstlessness,0.3333,1
+aching in heels,glandular swellings,0.3333,1
+aching in heels,rheumatic pains worse in cold damp weather,0.3333,1
+aching in heels,wandering pains,0.6667,2
+aching in heels,weepiness,0.3333,1
+aching in heels,general soreness,0.3333,1
+general soreness,cramp-like pain in hands,1.0,1
+general soreness,tearing pain in back,1.0,1
+general soreness,rheumatic pains worse in wet weather,1.0,1
+general soreness,stinging pain in elbows,1.0,1
+general soreness,sore throat,1.0,1
+general soreness,glandular swellings,1.0,1
+general soreness,wandering pains,1.0,1
+general soreness,aching in heels,1.0,1

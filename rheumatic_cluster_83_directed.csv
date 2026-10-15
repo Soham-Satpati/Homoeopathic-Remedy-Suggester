@@ -1,0 +1,409 @@
+### Cluster 83 — Symptoms (20)
+Symptom,Frequency
+gouty finger pains,1
+pressing in head,1
+tearing in elbows,1
+pressive pain in elbows,1
+tearing in toes,1
+tearing in head,1
+tearing in hip joints,1
+stinging in legs,1
+pressive pain in arms,1
+restless legs at night,1
+pain in coccyx as if beaten,1
+tearing in scapulae,1
+stinging in small of back,1
+gouty affections worse in wet weather,1
+rheumatism worse in wet weather,1
+pressive pain in legs,1
+stinging in hands,1
+stitches in head,1
+coryza with watery discharge,1
+tearing in face,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+ammonium muriaticum,20
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+pressive pain in elbows,gouty finger pains,1.0,1
+pressive pain in elbows,pressing in head,1.0,1
+pressive pain in elbows,tearing in elbows,1.0,1
+pressive pain in elbows,tearing in toes,1.0,1
+pressive pain in elbows,tearing in head,1.0,1
+pressive pain in elbows,tearing in hip joints,1.0,1
+pressive pain in elbows,stinging in legs,1.0,1
+pressive pain in elbows,pressive pain in arms,1.0,1
+pressive pain in elbows,restless legs at night,1.0,1
+pressive pain in elbows,pain in coccyx as if beaten,1.0,1
+pressive pain in elbows,tearing in scapulae,1.0,1
+pressive pain in elbows,stinging in small of back,1.0,1
+pressive pain in elbows,gouty affections worse in wet weather,1.0,1
+pressive pain in elbows,rheumatism worse in wet weather,1.0,1
+pressive pain in elbows,pressive pain in legs,1.0,1
+pressive pain in elbows,stinging in hands,1.0,1
+pressive pain in elbows,stitches in head,1.0,1
+pressive pain in elbows,coryza with watery discharge,1.0,1
+pressive pain in elbows,tearing in face,1.0,1
+tearing in scapulae,gouty finger pains,1.0,1
+tearing in scapulae,pressing in head,1.0,1
+tearing in scapulae,tearing in elbows,1.0,1
+tearing in scapulae,pressive pain in elbows,1.0,1
+tearing in scapulae,tearing in toes,1.0,1
+tearing in scapulae,tearing in head,1.0,1
+tearing in scapulae,tearing in hip joints,1.0,1
+tearing in scapulae,stinging in legs,1.0,1
+tearing in scapulae,pressive pain in arms,1.0,1
+tearing in scapulae,restless legs at night,1.0,1
+tearing in scapulae,pain in coccyx as if beaten,1.0,1
+tearing in scapulae,stinging in small of back,1.0,1
+tearing in scapulae,gouty affections worse in wet weather,1.0,1
+tearing in scapulae,rheumatism worse in wet weather,1.0,1
+tearing in scapulae,pressive pain in legs,1.0,1
+tearing in scapulae,stinging in hands,1.0,1
+tearing in scapulae,stitches in head,1.0,1
+tearing in scapulae,coryza with watery discharge,1.0,1
+tearing in scapulae,tearing in face,1.0,1
+tearing in hip joints,gouty finger pains,1.0,1
+tearing in hip joints,pressing in head,1.0,1
+tearing in hip joints,tearing in elbows,1.0,1
+tearing in hip joints,pressive pain in elbows,1.0,1
+tearing in hip joints,tearing in toes,1.0,1
+tearing in hip joints,tearing in head,1.0,1
+tearing in hip joints,stinging in legs,1.0,1
+tearing in hip joints,pressive pain in arms,1.0,1
+tearing in hip joints,restless legs at night,1.0,1
+tearing in hip joints,pain in coccyx as if beaten,1.0,1
+tearing in hip joints,tearing in scapulae,1.0,1
+tearing in hip joints,stinging in small of back,1.0,1
+tearing in hip joints,gouty affections worse in wet weather,1.0,1
+tearing in hip joints,rheumatism worse in wet weather,1.0,1
+tearing in hip joints,pressive pain in legs,1.0,1
+tearing in hip joints,stinging in hands,1.0,1
+tearing in hip joints,stitches in head,1.0,1
+tearing in hip joints,coryza with watery discharge,1.0,1
+tearing in hip joints,tearing in face,1.0,1
+stinging in hands,gouty finger pains,1.0,1
+stinging in hands,pressing in head,1.0,1
+stinging in hands,tearing in elbows,1.0,1
+stinging in hands,pressive pain in elbows,1.0,1
+stinging in hands,tearing in toes,1.0,1
+stinging in hands,tearing in head,1.0,1
+stinging in hands,tearing in hip joints,1.0,1
+stinging in hands,stinging in legs,1.0,1
+stinging in hands,pressive pain in arms,1.0,1
+stinging in hands,restless legs at night,1.0,1
+stinging in hands,pain in coccyx as if beaten,1.0,1
+stinging in hands,tearing in scapulae,1.0,1
+stinging in hands,stinging in small of back,1.0,1
+stinging in hands,gouty affections worse in wet weather,1.0,1
+stinging in hands,rheumatism worse in wet weather,1.0,1
+stinging in hands,pressive pain in legs,1.0,1
+stinging in hands,stitches in head,1.0,1
+stinging in hands,coryza with watery discharge,1.0,1
+stinging in hands,tearing in face,1.0,1
+rheumatism worse in wet weather,gouty finger pains,1.0,1
+rheumatism worse in wet weather,pressing in head,1.0,1
+rheumatism worse in wet weather,tearing in elbows,1.0,1
+rheumatism worse in wet weather,pressive pain in elbows,1.0,1
+rheumatism worse in wet weather,tearing in toes,1.0,1
+rheumatism worse in wet weather,tearing in head,1.0,1
+rheumatism worse in wet weather,tearing in hip joints,1.0,1
+rheumatism worse in wet weather,stinging in legs,1.0,1
+rheumatism worse in wet weather,pressive pain in arms,1.0,1
+rheumatism worse in wet weather,restless legs at night,1.0,1
+rheumatism worse in wet weather,pain in coccyx as if beaten,1.0,1
+rheumatism worse in wet weather,tearing in scapulae,1.0,1
+rheumatism worse in wet weather,stinging in small of back,1.0,1
+rheumatism worse in wet weather,gouty affections worse in wet weather,1.0,1
+rheumatism worse in wet weather,pressive pain in legs,1.0,1
+rheumatism worse in wet weather,stinging in hands,1.0,1
+rheumatism worse in wet weather,stitches in head,1.0,1
+rheumatism worse in wet weather,coryza with watery discharge,1.0,1
+rheumatism worse in wet weather,tearing in face,1.0,1
+stinging in legs,gouty finger pains,1.0,1
+stinging in legs,pressing in head,1.0,1
+stinging in legs,tearing in elbows,1.0,1
+stinging in legs,pressive pain in elbows,1.0,1
+stinging in legs,tearing in toes,1.0,1
+stinging in legs,tearing in head,1.0,1
+stinging in legs,tearing in hip joints,1.0,1
+stinging in legs,pressive pain in arms,1.0,1
+stinging in legs,restless legs at night,1.0,1
+stinging in legs,pain in coccyx as if beaten,1.0,1
+stinging in legs,tearing in scapulae,1.0,1
+stinging in legs,stinging in small of back,1.0,1
+stinging in legs,gouty affections worse in wet weather,1.0,1
+stinging in legs,rheumatism worse in wet weather,1.0,1
+stinging in legs,pressive pain in legs,1.0,1
+stinging in legs,stinging in hands,1.0,1
+stinging in legs,stitches in head,1.0,1
+stinging in legs,coryza with watery discharge,1.0,1
+stinging in legs,tearing in face,1.0,1
+pressive pain in arms,gouty finger pains,1.0,1
+pressive pain in arms,pressing in head,1.0,1
+pressive pain in arms,tearing in elbows,1.0,1
+pressive pain in arms,pressive pain in elbows,1.0,1
+pressive pain in arms,tearing in toes,1.0,1
+pressive pain in arms,tearing in head,1.0,1
+pressive pain in arms,tearing in hip joints,1.0,1
+pressive pain in arms,stinging in legs,1.0,1
+pressive pain in arms,restless legs at night,1.0,1
+pressive pain in arms,pain in coccyx as if beaten,1.0,1
+pressive pain in arms,tearing in scapulae,1.0,1
+pressive pain in arms,stinging in small of back,1.0,1
+pressive pain in arms,gouty affections worse in wet weather,1.0,1
+pressive pain in arms,rheumatism worse in wet weather,1.0,1
+pressive pain in arms,pressive pain in legs,1.0,1
+pressive pain in arms,stinging in hands,1.0,1
+pressive pain in arms,stitches in head,1.0,1
+pressive pain in arms,coryza with watery discharge,1.0,1
+pressive pain in arms,tearing in face,1.0,1
+stitches in head,gouty finger pains,1.0,1
+stitches in head,pressing in head,1.0,1
+stitches in head,tearing in elbows,1.0,1
+stitches in head,pressive pain in elbows,1.0,1
+stitches in head,tearing in toes,1.0,1
+stitches in head,tearing in head,1.0,1
+stitches in head,tearing in hip joints,1.0,1
+stitches in head,stinging in legs,1.0,1
+stitches in head,pressive pain in arms,1.0,1
+stitches in head,restless legs at night,1.0,1
+stitches in head,pain in coccyx as if beaten,1.0,1
+stitches in head,tearing in scapulae,1.0,1
+stitches in head,stinging in small of back,1.0,1
+stitches in head,gouty affections worse in wet weather,1.0,1
+stitches in head,rheumatism worse in wet weather,1.0,1
+stitches in head,pressive pain in legs,1.0,1
+stitches in head,stinging in hands,1.0,1
+stitches in head,coryza with watery discharge,1.0,1
+stitches in head,tearing in face,1.0,1
+restless legs at night,gouty finger pains,1.0,1
+restless legs at night,pressing in head,1.0,1
+restless legs at night,tearing in elbows,1.0,1
+restless legs at night,pressive pain in elbows,1.0,1
+restless legs at night,tearing in toes,1.0,1
+restless legs at night,tearing in head,1.0,1
+restless legs at night,tearing in hip joints,1.0,1
+restless legs at night,stinging in legs,1.0,1
+restless legs at night,pressive pain in arms,1.0,1
+restless legs at night,pain in coccyx as if beaten,1.0,1
+restless legs at night,tearing in scapulae,1.0,1
+restless legs at night,stinging in small of back,1.0,1
+restless legs at night,gouty affections worse in wet weather,1.0,1
+restless legs at night,rheumatism worse in wet weather,1.0,1
+restless legs at night,pressive pain in legs,1.0,1
+restless legs at night,stinging in hands,1.0,1
+restless legs at night,stitches in head,1.0,1
+restless legs at night,coryza with watery discharge,1.0,1
+restless legs at night,tearing in face,1.0,1
+tearing in face,gouty finger pains,1.0,1
+tearing in face,pressing in head,1.0,1
+tearing in face,tearing in elbows,1.0,1
+tearing in face,pressive pain in elbows,1.0,1
+tearing in face,tearing in toes,1.0,1
+tearing in face,tearing in head,1.0,1
+tearing in face,tearing in hip joints,1.0,1
+tearing in face,stinging in legs,1.0,1
+tearing in face,pressive pain in arms,1.0,1
+tearing in face,restless legs at night,1.0,1
+tearing in face,pain in coccyx as if beaten,1.0,1
+tearing in face,tearing in scapulae,1.0,1
+tearing in face,stinging in small of back,1.0,1
+tearing in face,gouty affections worse in wet weather,1.0,1
+tearing in face,rheumatism worse in wet weather,1.0,1
+tearing in face,pressive pain in legs,1.0,1
+tearing in face,stinging in hands,1.0,1
+tearing in face,stitches in head,1.0,1
+tearing in face,coryza with watery discharge,1.0,1
+tearing in toes,gouty finger pains,1.0,1
+tearing in toes,pressing in head,1.0,1
+tearing in toes,tearing in elbows,1.0,1
+tearing in toes,pressive pain in elbows,1.0,1
+tearing in toes,tearing in head,1.0,1
+tearing in toes,tearing in hip joints,1.0,1
+tearing in toes,stinging in legs,1.0,1
+tearing in toes,pressive pain in arms,1.0,1
+tearing in toes,restless legs at night,1.0,1
+tearing in toes,pain in coccyx as if beaten,1.0,1
+tearing in toes,tearing in scapulae,1.0,1
+tearing in toes,stinging in small of back,1.0,1
+tearing in toes,gouty affections worse in wet weather,1.0,1
+tearing in toes,rheumatism worse in wet weather,1.0,1
+tearing in toes,pressive pain in legs,1.0,1
+tearing in toes,stinging in hands,1.0,1
+tearing in toes,stitches in head,1.0,1
+tearing in toes,coryza with watery discharge,1.0,1
+tearing in toes,tearing in face,1.0,1
+tearing in elbows,gouty finger pains,1.0,1
+tearing in elbows,pressing in head,1.0,1
+tearing in elbows,pressive pain in elbows,1.0,1
+tearing in elbows,tearing in toes,1.0,1
+tearing in elbows,tearing in head,1.0,1
+tearing in elbows,tearing in hip joints,1.0,1
+tearing in elbows,stinging in legs,1.0,1
+tearing in elbows,pressive pain in arms,1.0,1
+tearing in elbows,restless legs at night,1.0,1
+tearing in elbows,pain in coccyx as if beaten,1.0,1
+tearing in elbows,tearing in scapulae,1.0,1
+tearing in elbows,stinging in small of back,1.0,1
+tearing in elbows,gouty affections worse in wet weather,1.0,1
+tearing in elbows,rheumatism worse in wet weather,1.0,1
+tearing in elbows,pressive pain in legs,1.0,1
+tearing in elbows,stinging in hands,1.0,1
+tearing in elbows,stitches in head,1.0,1
+tearing in elbows,coryza with watery discharge,1.0,1
+tearing in elbows,tearing in face,1.0,1
+tearing in head,gouty finger pains,1.0,1
+tearing in head,pressing in head,1.0,1
+tearing in head,tearing in elbows,1.0,1
+tearing in head,pressive pain in elbows,1.0,1
+tearing in head,tearing in toes,1.0,1
+tearing in head,tearing in hip joints,1.0,1
+tearing in head,stinging in legs,1.0,1
+tearing in head,pressive pain in arms,1.0,1
+tearing in head,restless legs at night,1.0,1
+tearing in head,pain in coccyx as if beaten,1.0,1
+tearing in head,tearing in scapulae,1.0,1
+tearing in head,stinging in small of back,1.0,1
+tearing in head,gouty affections worse in wet weather,1.0,1
+tearing in head,rheumatism worse in wet weather,1.0,1
+tearing in head,pressive pain in legs,1.0,1
+tearing in head,stinging in hands,1.0,1
+tearing in head,stitches in head,1.0,1
+tearing in head,coryza with watery discharge,1.0,1
+tearing in head,tearing in face,1.0,1
+gouty affections worse in wet weather,gouty finger pains,1.0,1
+gouty affections worse in wet weather,pressing in head,1.0,1
+gouty affections worse in wet weather,tearing in elbows,1.0,1
+gouty affections worse in wet weather,pressive pain in elbows,1.0,1
+gouty affections worse in wet weather,tearing in toes,1.0,1
+gouty affections worse in wet weather,tearing in head,1.0,1
+gouty affections worse in wet weather,tearing in hip joints,1.0,1
+gouty affections worse in wet weather,stinging in legs,1.0,1
+gouty affections worse in wet weather,pressive pain in arms,1.0,1
+gouty affections worse in wet weather,restless legs at night,1.0,1
+gouty affections worse in wet weather,pain in coccyx as if beaten,1.0,1
+gouty affections worse in wet weather,tearing in scapulae,1.0,1
+gouty affections worse in wet weather,stinging in small of back,1.0,1
+gouty affections worse in wet weather,rheumatism worse in wet weather,1.0,1
+gouty affections worse in wet weather,pressive pain in legs,1.0,1
+gouty affections worse in wet weather,stinging in hands,1.0,1
+gouty affections worse in wet weather,stitches in head,1.0,1
+gouty affections worse in wet weather,coryza with watery discharge,1.0,1
+gouty affections worse in wet weather,tearing in face,1.0,1
+gouty finger pains,pressing in head,1.0,1
+gouty finger pains,tearing in elbows,1.0,1
+gouty finger pains,pressive pain in elbows,1.0,1
+gouty finger pains,tearing in toes,1.0,1
+gouty finger pains,tearing in head,1.0,1
+gouty finger pains,tearing in hip joints,1.0,1
+gouty finger pains,stinging in legs,1.0,1
+gouty finger pains,pressive pain in arms,1.0,1
+gouty finger pains,restless legs at night,1.0,1
+gouty finger pains,pain in coccyx as if beaten,1.0,1
+gouty finger pains,tearing in scapulae,1.0,1
+gouty finger pains,stinging in small of back,1.0,1
+gouty finger pains,gouty affections worse in wet weather,1.0,1
+gouty finger pains,rheumatism worse in wet weather,1.0,1
+gouty finger pains,pressive pain in legs,1.0,1
+gouty finger pains,stinging in hands,1.0,1
+gouty finger pains,stitches in head,1.0,1
+gouty finger pains,coryza with watery discharge,1.0,1
+gouty finger pains,tearing in face,1.0,1
+pain in coccyx as if beaten,gouty finger pains,1.0,1
+pain in coccyx as if beaten,pressing in head,1.0,1
+pain in coccyx as if beaten,tearing in elbows,1.0,1
+pain in coccyx as if beaten,pressive pain in elbows,1.0,1
+pain in coccyx as if beaten,tearing in toes,1.0,1
+pain in coccyx as if beaten,tearing in head,1.0,1
+pain in coccyx as if beaten,tearing in hip joints,1.0,1
+pain in coccyx as if beaten,stinging in legs,1.0,1
+pain in coccyx as if beaten,pressive pain in arms,1.0,1
+pain in coccyx as if beaten,restless legs at night,1.0,1
+pain in coccyx as if beaten,tearing in scapulae,1.0,1
+pain in coccyx as if beaten,stinging in small of back,1.0,1
+pain in coccyx as if beaten,gouty affections worse in wet weather,1.0,1
+pain in coccyx as if beaten,rheumatism worse in wet weather,1.0,1
+pain in coccyx as if beaten,pressive pain in legs,1.0,1
+pain in coccyx as if beaten,stinging in hands,1.0,1
+pain in coccyx as if beaten,stitches in head,1.0,1
+pain in coccyx as if beaten,coryza with watery discharge,1.0,1
+pain in coccyx as if beaten,tearing in face,1.0,1
+pressive pain in legs,gouty finger pains,1.0,1
+pressive pain in legs,pressing in head,1.0,1
+pressive pain in legs,tearing in elbows,1.0,1
+pressive pain in legs,pressive pain in elbows,1.0,1
+pressive pain in legs,tearing in toes,1.0,1
+pressive pain in legs,tearing in head,1.0,1
+pressive pain in legs,tearing in hip joints,1.0,1
+pressive pain in legs,stinging in legs,1.0,1
+pressive pain in legs,pressive pain in arms,1.0,1
+pressive pain in legs,restless legs at night,1.0,1
+pressive pain in legs,pain in coccyx as if beaten,1.0,1
+pressive pain in legs,tearing in scapulae,1.0,1
+pressive pain in legs,stinging in small of back,1.0,1
+pressive pain in legs,gouty affections worse in wet weather,1.0,1
+pressive pain in legs,rheumatism worse in wet weather,1.0,1
+pressive pain in legs,stinging in hands,1.0,1
+pressive pain in legs,stitches in head,1.0,1
+pressive pain in legs,coryza with watery discharge,1.0,1
+pressive pain in legs,tearing in face,1.0,1
+pressing in head,gouty finger pains,1.0,1
+pressing in head,tearing in elbows,1.0,1
+pressing in head,pressive pain in elbows,1.0,1
+pressing in head,tearing in toes,1.0,1
+pressing in head,tearing in head,1.0,1
+pressing in head,tearing in hip joints,1.0,1
+pressing in head,stinging in legs,1.0,1
+pressing in head,pressive pain in arms,1.0,1
+pressing in head,restless legs at night,1.0,1
+pressing in head,pain in coccyx as if beaten,1.0,1
+pressing in head,tearing in scapulae,1.0,1
+pressing in head,stinging in small of back,1.0,1
+pressing in head,gouty affections worse in wet weather,1.0,1
+pressing in head,rheumatism worse in wet weather,1.0,1
+pressing in head,pressive pain in legs,1.0,1
+pressing in head,stinging in hands,1.0,1
+pressing in head,stitches in head,1.0,1
+pressing in head,coryza with watery discharge,1.0,1
+pressing in head,tearing in face,1.0,1
+stinging in small of back,gouty finger pains,1.0,1
+stinging in small of back,pressing in head,1.0,1
+stinging in small of back,tearing in elbows,1.0,1
+stinging in small of back,pressive pain in elbows,1.0,1
+stinging in small of back,tearing in toes,1.0,1
+stinging in small of back,tearing in head,1.0,1
+stinging in small of back,tearing in hip joints,1.0,1
+stinging in small of back,stinging in legs,1.0,1
+stinging in small of back,pressive pain in arms,1.0,1
+stinging in small of back,restless legs at night,1.0,1
+stinging in small of back,pain in coccyx as if beaten,1.0,1
+stinging in small of back,tearing in scapulae,1.0,1
+stinging in small of back,gouty affections worse in wet weather,1.0,1
+stinging in small of back,rheumatism worse in wet weather,1.0,1
+stinging in small of back,pressive pain in legs,1.0,1
+stinging in small of back,stinging in hands,1.0,1
+stinging in small of back,stitches in head,1.0,1
+stinging in small of back,coryza with watery discharge,1.0,1
+stinging in small of back,tearing in face,1.0,1
+coryza with watery discharge,gouty finger pains,1.0,1
+coryza with watery discharge,pressing in head,1.0,1
+coryza with watery discharge,tearing in elbows,1.0,1
+coryza with watery discharge,pressive pain in elbows,1.0,1
+coryza with watery discharge,tearing in toes,1.0,1
+coryza with watery discharge,tearing in head,1.0,1
+coryza with watery discharge,tearing in hip joints,1.0,1
+coryza with watery discharge,stinging in legs,1.0,1
+coryza with watery discharge,pressive pain in arms,1.0,1
+coryza with watery discharge,restless legs at night,1.0,1
+coryza with watery discharge,pain in coccyx as if beaten,1.0,1
+coryza with watery discharge,tearing in scapulae,1.0,1
+coryza with watery discharge,stinging in small of back,1.0,1
+coryza with watery discharge,gouty affections worse in wet weather,1.0,1
+coryza with watery discharge,rheumatism worse in wet weather,1.0,1
+coryza with watery discharge,pressive pain in legs,1.0,1
+coryza with watery discharge,stinging in hands,1.0,1
+coryza with watery discharge,stitches in head,1.0,1
+coryza with watery discharge,tearing in face,1.0,1

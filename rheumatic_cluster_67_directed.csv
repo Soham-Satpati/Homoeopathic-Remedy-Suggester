@@ -1,0 +1,2317 @@
+### Cluster 67 — Symptoms (48)
+Symptom,Frequency
+worse walking,3
+dragging sensation from behind forward,1
+much heaviness,1
+sycotic excrescences with burning pain,1
+redness in great toe in gout,1
+obliging to bend back inward,1
+fig warts with burning,1
+pain in thighs when walking,1
+improved by bending backward,1
+much swelling,2
+wandering burning affecting one joint after another,1
+worse hanging hand down,1
+rheumatic gonorrhoea,1
+very sensitive to motion,1
+drawing pains in small of back,1
+paralytic pain in small of back,1
+indescribable uneasiness in lumbar region,1
+stitches in great toe in gout,1
+arthritic tearing with stiffness of wrist joints,1
+painful drawing in joints of toes,1
+tearing pain with pressure in metacarpal bones of both feet,1
+marked weakness,2
+leucorrhea milky,1
+very red shining swelling of parts,1
+great heaviness of part,1
+pain as if sprained in right shoulder joint,1
+excessive pain,1
+arthritic tearing with swelling of wrist joints,1
+arthritic complaints,1
+sharp stitches in heels from within outward,1
+bright shining red,1
+tearing sting in joints,1
+swelling in great toe in gout,1
+paralytic tearing along right upper arm to hand,1
+aching pain worse on motion,1
+arthritic stinging with stiffness of wrist joints,1
+drawing pains extending to pubic region,1
+marked weariness in lumbar region,1
+nervousness so great that music seems to go through bones,1
+fig warts with intense itching,1
+pressing pain in both upper arms near elbow joint,1
+constant pain in small of back,1
+aching pain worse on touch,1
+aching pain in right radius,1
+rheumatism of metatarso-phalangeal joint of great toe,1
+arthritic stinging with swelling of wrist joints,1
+leucorrhea copious,1
+leucorrhea causing itching,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+sabina,48
+trillium,1
+magnesia sulphurica,1
+staphisagria,1
+natrum carbonicum,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+worse walking,dragging sensation from behind forward,0.3333,1
+worse walking,much heaviness,0.3333,1
+worse walking,sycotic excrescences with burning pain,0.3333,1
+worse walking,redness in great toe in gout,0.3333,1
+worse walking,obliging to bend back inward,0.3333,1
+worse walking,fig warts with burning,0.3333,1
+worse walking,pain in thighs when walking,0.3333,1
+worse walking,improved by bending backward,0.3333,1
+worse walking,much swelling,0.3333,1
+worse walking,wandering burning affecting one joint after another,0.3333,1
+worse walking,worse hanging hand down,0.3333,1
+worse walking,rheumatic gonorrhoea,0.3333,1
+worse walking,very sensitive to motion,0.3333,1
+worse walking,drawing pains in small of back,0.3333,1
+worse walking,paralytic pain in small of back,0.3333,1
+worse walking,indescribable uneasiness in lumbar region,0.3333,1
+worse walking,stitches in great toe in gout,0.3333,1
+worse walking,arthritic tearing with stiffness of wrist joints,0.3333,1
+worse walking,painful drawing in joints of toes,0.3333,1
+worse walking,tearing pain with pressure in metacarpal bones of both feet,0.3333,1
+worse walking,marked weakness,0.3333,1
+worse walking,leucorrhea milky,0.3333,1
+worse walking,very red shining swelling of parts,0.3333,1
+worse walking,great heaviness of part,0.3333,1
+worse walking,pain as if sprained in right shoulder joint,0.3333,1
+worse walking,excessive pain,0.3333,1
+worse walking,arthritic tearing with swelling of wrist joints,0.3333,1
+worse walking,arthritic complaints,0.3333,1
+worse walking,sharp stitches in heels from within outward,0.3333,1
+worse walking,bright shining red,0.3333,1
+worse walking,tearing sting in joints,0.3333,1
+worse walking,swelling in great toe in gout,0.3333,1
+worse walking,paralytic tearing along right upper arm to hand,0.3333,1
+worse walking,aching pain worse on motion,0.3333,1
+worse walking,arthritic stinging with stiffness of wrist joints,0.3333,1
+worse walking,drawing pains extending to pubic region,0.3333,1
+worse walking,marked weariness in lumbar region,0.3333,1
+worse walking,nervousness so great that music seems to go through bones,0.3333,1
+worse walking,fig warts with intense itching,0.3333,1
+worse walking,pressing pain in both upper arms near elbow joint,0.3333,1
+worse walking,constant pain in small of back,0.3333,1
+worse walking,aching pain worse on touch,0.3333,1
+worse walking,aching pain in right radius,0.3333,1
+worse walking,rheumatism of metatarso-phalangeal joint of great toe,0.3333,1
+worse walking,arthritic stinging with swelling of wrist joints,0.3333,1
+worse walking,leucorrhea copious,0.3333,1
+worse walking,leucorrhea causing itching,0.3333,1
+dragging sensation from behind forward,much heaviness,1.0,1
+dragging sensation from behind forward,sycotic excrescences with burning pain,1.0,1
+dragging sensation from behind forward,redness in great toe in gout,1.0,1
+dragging sensation from behind forward,obliging to bend back inward,1.0,1
+dragging sensation from behind forward,fig warts with burning,1.0,1
+dragging sensation from behind forward,pain in thighs when walking,1.0,1
+dragging sensation from behind forward,improved by bending backward,1.0,1
+dragging sensation from behind forward,much swelling,1.0,1
+dragging sensation from behind forward,wandering burning affecting one joint after another,1.0,1
+dragging sensation from behind forward,worse hanging hand down,1.0,1
+dragging sensation from behind forward,rheumatic gonorrhoea,1.0,1
+dragging sensation from behind forward,very sensitive to motion,1.0,1
+dragging sensation from behind forward,drawing pains in small of back,1.0,1
+dragging sensation from behind forward,paralytic pain in small of back,1.0,1
+dragging sensation from behind forward,indescribable uneasiness in lumbar region,1.0,1
+dragging sensation from behind forward,stitches in great toe in gout,1.0,1
+dragging sensation from behind forward,arthritic tearing with stiffness of wrist joints,1.0,1
+dragging sensation from behind forward,painful drawing in joints of toes,1.0,1
+dragging sensation from behind forward,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+dragging sensation from behind forward,marked weakness,1.0,1
+dragging sensation from behind forward,leucorrhea milky,1.0,1
+dragging sensation from behind forward,very red shining swelling of parts,1.0,1
+dragging sensation from behind forward,great heaviness of part,1.0,1
+dragging sensation from behind forward,pain as if sprained in right shoulder joint,1.0,1
+dragging sensation from behind forward,excessive pain,1.0,1
+dragging sensation from behind forward,arthritic tearing with swelling of wrist joints,1.0,1
+dragging sensation from behind forward,arthritic complaints,1.0,1
+dragging sensation from behind forward,sharp stitches in heels from within outward,1.0,1
+dragging sensation from behind forward,bright shining red,1.0,1
+dragging sensation from behind forward,tearing sting in joints,1.0,1
+dragging sensation from behind forward,swelling in great toe in gout,1.0,1
+dragging sensation from behind forward,paralytic tearing along right upper arm to hand,1.0,1
+dragging sensation from behind forward,aching pain worse on motion,1.0,1
+dragging sensation from behind forward,arthritic stinging with stiffness of wrist joints,1.0,1
+dragging sensation from behind forward,drawing pains extending to pubic region,1.0,1
+dragging sensation from behind forward,marked weariness in lumbar region,1.0,1
+dragging sensation from behind forward,nervousness so great that music seems to go through bones,1.0,1
+dragging sensation from behind forward,fig warts with intense itching,1.0,1
+dragging sensation from behind forward,pressing pain in both upper arms near elbow joint,1.0,1
+dragging sensation from behind forward,constant pain in small of back,1.0,1
+dragging sensation from behind forward,aching pain worse on touch,1.0,1
+dragging sensation from behind forward,aching pain in right radius,1.0,1
+dragging sensation from behind forward,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+dragging sensation from behind forward,arthritic stinging with swelling of wrist joints,1.0,1
+dragging sensation from behind forward,leucorrhea copious,1.0,1
+dragging sensation from behind forward,worse walking,1.0,1
+dragging sensation from behind forward,leucorrhea causing itching,1.0,1
+paralytic pain in small of back,dragging sensation from behind forward,1.0,1
+paralytic pain in small of back,much heaviness,1.0,1
+paralytic pain in small of back,sycotic excrescences with burning pain,1.0,1
+paralytic pain in small of back,redness in great toe in gout,1.0,1
+paralytic pain in small of back,obliging to bend back inward,1.0,1
+paralytic pain in small of back,fig warts with burning,1.0,1
+paralytic pain in small of back,pain in thighs when walking,1.0,1
+paralytic pain in small of back,improved by bending backward,1.0,1
+paralytic pain in small of back,much swelling,1.0,1
+paralytic pain in small of back,wandering burning affecting one joint after another,1.0,1
+paralytic pain in small of back,worse hanging hand down,1.0,1
+paralytic pain in small of back,rheumatic gonorrhoea,1.0,1
+paralytic pain in small of back,very sensitive to motion,1.0,1
+paralytic pain in small of back,drawing pains in small of back,1.0,1
+paralytic pain in small of back,indescribable uneasiness in lumbar region,1.0,1
+paralytic pain in small of back,stitches in great toe in gout,1.0,1
+paralytic pain in small of back,arthritic tearing with stiffness of wrist joints,1.0,1
+paralytic pain in small of back,painful drawing in joints of toes,1.0,1
+paralytic pain in small of back,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+paralytic pain in small of back,marked weakness,1.0,1
+paralytic pain in small of back,leucorrhea milky,1.0,1
+paralytic pain in small of back,very red shining swelling of parts,1.0,1
+paralytic pain in small of back,great heaviness of part,1.0,1
+paralytic pain in small of back,pain as if sprained in right shoulder joint,1.0,1
+paralytic pain in small of back,excessive pain,1.0,1
+paralytic pain in small of back,arthritic tearing with swelling of wrist joints,1.0,1
+paralytic pain in small of back,arthritic complaints,1.0,1
+paralytic pain in small of back,sharp stitches in heels from within outward,1.0,1
+paralytic pain in small of back,bright shining red,1.0,1
+paralytic pain in small of back,tearing sting in joints,1.0,1
+paralytic pain in small of back,swelling in great toe in gout,1.0,1
+paralytic pain in small of back,paralytic tearing along right upper arm to hand,1.0,1
+paralytic pain in small of back,aching pain worse on motion,1.0,1
+paralytic pain in small of back,arthritic stinging with stiffness of wrist joints,1.0,1
+paralytic pain in small of back,drawing pains extending to pubic region,1.0,1
+paralytic pain in small of back,marked weariness in lumbar region,1.0,1
+paralytic pain in small of back,nervousness so great that music seems to go through bones,1.0,1
+paralytic pain in small of back,fig warts with intense itching,1.0,1
+paralytic pain in small of back,pressing pain in both upper arms near elbow joint,1.0,1
+paralytic pain in small of back,constant pain in small of back,1.0,1
+paralytic pain in small of back,aching pain worse on touch,1.0,1
+paralytic pain in small of back,aching pain in right radius,1.0,1
+paralytic pain in small of back,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+paralytic pain in small of back,arthritic stinging with swelling of wrist joints,1.0,1
+paralytic pain in small of back,leucorrhea copious,1.0,1
+paralytic pain in small of back,worse walking,1.0,1
+paralytic pain in small of back,leucorrhea causing itching,1.0,1
+painful drawing in joints of toes,dragging sensation from behind forward,1.0,1
+painful drawing in joints of toes,much heaviness,1.0,1
+painful drawing in joints of toes,sycotic excrescences with burning pain,1.0,1
+painful drawing in joints of toes,redness in great toe in gout,1.0,1
+painful drawing in joints of toes,obliging to bend back inward,1.0,1
+painful drawing in joints of toes,fig warts with burning,1.0,1
+painful drawing in joints of toes,pain in thighs when walking,1.0,1
+painful drawing in joints of toes,improved by bending backward,1.0,1
+painful drawing in joints of toes,much swelling,1.0,1
+painful drawing in joints of toes,wandering burning affecting one joint after another,1.0,1
+painful drawing in joints of toes,worse hanging hand down,1.0,1
+painful drawing in joints of toes,rheumatic gonorrhoea,1.0,1
+painful drawing in joints of toes,very sensitive to motion,1.0,1
+painful drawing in joints of toes,drawing pains in small of back,1.0,1
+painful drawing in joints of toes,paralytic pain in small of back,1.0,1
+painful drawing in joints of toes,indescribable uneasiness in lumbar region,1.0,1
+painful drawing in joints of toes,stitches in great toe in gout,1.0,1
+painful drawing in joints of toes,arthritic tearing with stiffness of wrist joints,1.0,1
+painful drawing in joints of toes,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+painful drawing in joints of toes,marked weakness,1.0,1
+painful drawing in joints of toes,leucorrhea milky,1.0,1
+painful drawing in joints of toes,very red shining swelling of parts,1.0,1
+painful drawing in joints of toes,great heaviness of part,1.0,1
+painful drawing in joints of toes,pain as if sprained in right shoulder joint,1.0,1
+painful drawing in joints of toes,excessive pain,1.0,1
+painful drawing in joints of toes,arthritic tearing with swelling of wrist joints,1.0,1
+painful drawing in joints of toes,arthritic complaints,1.0,1
+painful drawing in joints of toes,sharp stitches in heels from within outward,1.0,1
+painful drawing in joints of toes,bright shining red,1.0,1
+painful drawing in joints of toes,tearing sting in joints,1.0,1
+painful drawing in joints of toes,swelling in great toe in gout,1.0,1
+painful drawing in joints of toes,paralytic tearing along right upper arm to hand,1.0,1
+painful drawing in joints of toes,aching pain worse on motion,1.0,1
+painful drawing in joints of toes,arthritic stinging with stiffness of wrist joints,1.0,1
+painful drawing in joints of toes,drawing pains extending to pubic region,1.0,1
+painful drawing in joints of toes,marked weariness in lumbar region,1.0,1
+painful drawing in joints of toes,nervousness so great that music seems to go through bones,1.0,1
+painful drawing in joints of toes,fig warts with intense itching,1.0,1
+painful drawing in joints of toes,pressing pain in both upper arms near elbow joint,1.0,1
+painful drawing in joints of toes,constant pain in small of back,1.0,1
+painful drawing in joints of toes,aching pain worse on touch,1.0,1
+painful drawing in joints of toes,aching pain in right radius,1.0,1
+painful drawing in joints of toes,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+painful drawing in joints of toes,arthritic stinging with swelling of wrist joints,1.0,1
+painful drawing in joints of toes,leucorrhea copious,1.0,1
+painful drawing in joints of toes,worse walking,1.0,1
+painful drawing in joints of toes,leucorrhea causing itching,1.0,1
+sharp stitches in heels from within outward,dragging sensation from behind forward,1.0,1
+sharp stitches in heels from within outward,much heaviness,1.0,1
+sharp stitches in heels from within outward,sycotic excrescences with burning pain,1.0,1
+sharp stitches in heels from within outward,redness in great toe in gout,1.0,1
+sharp stitches in heels from within outward,obliging to bend back inward,1.0,1
+sharp stitches in heels from within outward,fig warts with burning,1.0,1
+sharp stitches in heels from within outward,pain in thighs when walking,1.0,1
+sharp stitches in heels from within outward,improved by bending backward,1.0,1
+sharp stitches in heels from within outward,much swelling,1.0,1
+sharp stitches in heels from within outward,wandering burning affecting one joint after another,1.0,1
+sharp stitches in heels from within outward,worse hanging hand down,1.0,1
+sharp stitches in heels from within outward,rheumatic gonorrhoea,1.0,1
+sharp stitches in heels from within outward,very sensitive to motion,1.0,1
+sharp stitches in heels from within outward,drawing pains in small of back,1.0,1
+sharp stitches in heels from within outward,paralytic pain in small of back,1.0,1
+sharp stitches in heels from within outward,indescribable uneasiness in lumbar region,1.0,1
+sharp stitches in heels from within outward,stitches in great toe in gout,1.0,1
+sharp stitches in heels from within outward,arthritic tearing with stiffness of wrist joints,1.0,1
+sharp stitches in heels from within outward,painful drawing in joints of toes,1.0,1
+sharp stitches in heels from within outward,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+sharp stitches in heels from within outward,marked weakness,1.0,1
+sharp stitches in heels from within outward,leucorrhea milky,1.0,1
+sharp stitches in heels from within outward,very red shining swelling of parts,1.0,1
+sharp stitches in heels from within outward,great heaviness of part,1.0,1
+sharp stitches in heels from within outward,pain as if sprained in right shoulder joint,1.0,1
+sharp stitches in heels from within outward,excessive pain,1.0,1
+sharp stitches in heels from within outward,arthritic tearing with swelling of wrist joints,1.0,1
+sharp stitches in heels from within outward,arthritic complaints,1.0,1
+sharp stitches in heels from within outward,bright shining red,1.0,1
+sharp stitches in heels from within outward,tearing sting in joints,1.0,1
+sharp stitches in heels from within outward,swelling in great toe in gout,1.0,1
+sharp stitches in heels from within outward,paralytic tearing along right upper arm to hand,1.0,1
+sharp stitches in heels from within outward,aching pain worse on motion,1.0,1
+sharp stitches in heels from within outward,arthritic stinging with stiffness of wrist joints,1.0,1
+sharp stitches in heels from within outward,drawing pains extending to pubic region,1.0,1
+sharp stitches in heels from within outward,marked weariness in lumbar region,1.0,1
+sharp stitches in heels from within outward,nervousness so great that music seems to go through bones,1.0,1
+sharp stitches in heels from within outward,fig warts with intense itching,1.0,1
+sharp stitches in heels from within outward,pressing pain in both upper arms near elbow joint,1.0,1
+sharp stitches in heels from within outward,constant pain in small of back,1.0,1
+sharp stitches in heels from within outward,aching pain worse on touch,1.0,1
+sharp stitches in heels from within outward,aching pain in right radius,1.0,1
+sharp stitches in heels from within outward,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+sharp stitches in heels from within outward,arthritic stinging with swelling of wrist joints,1.0,1
+sharp stitches in heels from within outward,leucorrhea copious,1.0,1
+sharp stitches in heels from within outward,worse walking,1.0,1
+sharp stitches in heels from within outward,leucorrhea causing itching,1.0,1
+leucorrhea milky,dragging sensation from behind forward,1.0,1
+leucorrhea milky,much heaviness,1.0,1
+leucorrhea milky,sycotic excrescences with burning pain,1.0,1
+leucorrhea milky,redness in great toe in gout,1.0,1
+leucorrhea milky,obliging to bend back inward,1.0,1
+leucorrhea milky,fig warts with burning,1.0,1
+leucorrhea milky,pain in thighs when walking,1.0,1
+leucorrhea milky,improved by bending backward,1.0,1
+leucorrhea milky,much swelling,1.0,1
+leucorrhea milky,wandering burning affecting one joint after another,1.0,1
+leucorrhea milky,worse hanging hand down,1.0,1
+leucorrhea milky,rheumatic gonorrhoea,1.0,1
+leucorrhea milky,very sensitive to motion,1.0,1
+leucorrhea milky,drawing pains in small of back,1.0,1
+leucorrhea milky,paralytic pain in small of back,1.0,1
+leucorrhea milky,indescribable uneasiness in lumbar region,1.0,1
+leucorrhea milky,stitches in great toe in gout,1.0,1
+leucorrhea milky,arthritic tearing with stiffness of wrist joints,1.0,1
+leucorrhea milky,painful drawing in joints of toes,1.0,1
+leucorrhea milky,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+leucorrhea milky,marked weakness,1.0,1
+leucorrhea milky,very red shining swelling of parts,1.0,1
+leucorrhea milky,great heaviness of part,1.0,1
+leucorrhea milky,pain as if sprained in right shoulder joint,1.0,1
+leucorrhea milky,excessive pain,1.0,1
+leucorrhea milky,arthritic tearing with swelling of wrist joints,1.0,1
+leucorrhea milky,arthritic complaints,1.0,1
+leucorrhea milky,sharp stitches in heels from within outward,1.0,1
+leucorrhea milky,bright shining red,1.0,1
+leucorrhea milky,tearing sting in joints,1.0,1
+leucorrhea milky,swelling in great toe in gout,1.0,1
+leucorrhea milky,paralytic tearing along right upper arm to hand,1.0,1
+leucorrhea milky,aching pain worse on motion,1.0,1
+leucorrhea milky,arthritic stinging with stiffness of wrist joints,1.0,1
+leucorrhea milky,drawing pains extending to pubic region,1.0,1
+leucorrhea milky,marked weariness in lumbar region,1.0,1
+leucorrhea milky,nervousness so great that music seems to go through bones,1.0,1
+leucorrhea milky,fig warts with intense itching,1.0,1
+leucorrhea milky,pressing pain in both upper arms near elbow joint,1.0,1
+leucorrhea milky,constant pain in small of back,1.0,1
+leucorrhea milky,aching pain worse on touch,1.0,1
+leucorrhea milky,aching pain in right radius,1.0,1
+leucorrhea milky,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+leucorrhea milky,arthritic stinging with swelling of wrist joints,1.0,1
+leucorrhea milky,leucorrhea copious,1.0,1
+leucorrhea milky,worse walking,1.0,1
+leucorrhea milky,leucorrhea causing itching,1.0,1
+fig warts with burning,dragging sensation from behind forward,1.0,1
+fig warts with burning,much heaviness,1.0,1
+fig warts with burning,sycotic excrescences with burning pain,1.0,1
+fig warts with burning,redness in great toe in gout,1.0,1
+fig warts with burning,obliging to bend back inward,1.0,1
+fig warts with burning,pain in thighs when walking,1.0,1
+fig warts with burning,improved by bending backward,1.0,1
+fig warts with burning,much swelling,1.0,1
+fig warts with burning,wandering burning affecting one joint after another,1.0,1
+fig warts with burning,worse hanging hand down,1.0,1
+fig warts with burning,rheumatic gonorrhoea,1.0,1
+fig warts with burning,very sensitive to motion,1.0,1
+fig warts with burning,drawing pains in small of back,1.0,1
+fig warts with burning,paralytic pain in small of back,1.0,1
+fig warts with burning,indescribable uneasiness in lumbar region,1.0,1
+fig warts with burning,stitches in great toe in gout,1.0,1
+fig warts with burning,arthritic tearing with stiffness of wrist joints,1.0,1
+fig warts with burning,painful drawing in joints of toes,1.0,1
+fig warts with burning,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+fig warts with burning,marked weakness,1.0,1
+fig warts with burning,leucorrhea milky,1.0,1
+fig warts with burning,very red shining swelling of parts,1.0,1
+fig warts with burning,great heaviness of part,1.0,1
+fig warts with burning,pain as if sprained in right shoulder joint,1.0,1
+fig warts with burning,excessive pain,1.0,1
+fig warts with burning,arthritic tearing with swelling of wrist joints,1.0,1
+fig warts with burning,arthritic complaints,1.0,1
+fig warts with burning,sharp stitches in heels from within outward,1.0,1
+fig warts with burning,bright shining red,1.0,1
+fig warts with burning,tearing sting in joints,1.0,1
+fig warts with burning,swelling in great toe in gout,1.0,1
+fig warts with burning,paralytic tearing along right upper arm to hand,1.0,1
+fig warts with burning,aching pain worse on motion,1.0,1
+fig warts with burning,arthritic stinging with stiffness of wrist joints,1.0,1
+fig warts with burning,drawing pains extending to pubic region,1.0,1
+fig warts with burning,marked weariness in lumbar region,1.0,1
+fig warts with burning,nervousness so great that music seems to go through bones,1.0,1
+fig warts with burning,fig warts with intense itching,1.0,1
+fig warts with burning,pressing pain in both upper arms near elbow joint,1.0,1
+fig warts with burning,constant pain in small of back,1.0,1
+fig warts with burning,aching pain worse on touch,1.0,1
+fig warts with burning,aching pain in right radius,1.0,1
+fig warts with burning,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+fig warts with burning,arthritic stinging with swelling of wrist joints,1.0,1
+fig warts with burning,leucorrhea copious,1.0,1
+fig warts with burning,worse walking,1.0,1
+fig warts with burning,leucorrhea causing itching,1.0,1
+rheumatic gonorrhoea,dragging sensation from behind forward,1.0,1
+rheumatic gonorrhoea,much heaviness,1.0,1
+rheumatic gonorrhoea,sycotic excrescences with burning pain,1.0,1
+rheumatic gonorrhoea,redness in great toe in gout,1.0,1
+rheumatic gonorrhoea,obliging to bend back inward,1.0,1
+rheumatic gonorrhoea,fig warts with burning,1.0,1
+rheumatic gonorrhoea,pain in thighs when walking,1.0,1
+rheumatic gonorrhoea,improved by bending backward,1.0,1
+rheumatic gonorrhoea,much swelling,1.0,1
+rheumatic gonorrhoea,wandering burning affecting one joint after another,1.0,1
+rheumatic gonorrhoea,worse hanging hand down,1.0,1
+rheumatic gonorrhoea,very sensitive to motion,1.0,1
+rheumatic gonorrhoea,drawing pains in small of back,1.0,1
+rheumatic gonorrhoea,paralytic pain in small of back,1.0,1
+rheumatic gonorrhoea,indescribable uneasiness in lumbar region,1.0,1
+rheumatic gonorrhoea,stitches in great toe in gout,1.0,1
+rheumatic gonorrhoea,arthritic tearing with stiffness of wrist joints,1.0,1
+rheumatic gonorrhoea,painful drawing in joints of toes,1.0,1
+rheumatic gonorrhoea,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+rheumatic gonorrhoea,marked weakness,1.0,1
+rheumatic gonorrhoea,leucorrhea milky,1.0,1
+rheumatic gonorrhoea,very red shining swelling of parts,1.0,1
+rheumatic gonorrhoea,great heaviness of part,1.0,1
+rheumatic gonorrhoea,pain as if sprained in right shoulder joint,1.0,1
+rheumatic gonorrhoea,excessive pain,1.0,1
+rheumatic gonorrhoea,arthritic tearing with swelling of wrist joints,1.0,1
+rheumatic gonorrhoea,arthritic complaints,1.0,1
+rheumatic gonorrhoea,sharp stitches in heels from within outward,1.0,1
+rheumatic gonorrhoea,bright shining red,1.0,1
+rheumatic gonorrhoea,tearing sting in joints,1.0,1
+rheumatic gonorrhoea,swelling in great toe in gout,1.0,1
+rheumatic gonorrhoea,paralytic tearing along right upper arm to hand,1.0,1
+rheumatic gonorrhoea,aching pain worse on motion,1.0,1
+rheumatic gonorrhoea,arthritic stinging with stiffness of wrist joints,1.0,1
+rheumatic gonorrhoea,drawing pains extending to pubic region,1.0,1
+rheumatic gonorrhoea,marked weariness in lumbar region,1.0,1
+rheumatic gonorrhoea,nervousness so great that music seems to go through bones,1.0,1
+rheumatic gonorrhoea,fig warts with intense itching,1.0,1
+rheumatic gonorrhoea,pressing pain in both upper arms near elbow joint,1.0,1
+rheumatic gonorrhoea,constant pain in small of back,1.0,1
+rheumatic gonorrhoea,aching pain worse on touch,1.0,1
+rheumatic gonorrhoea,aching pain in right radius,1.0,1
+rheumatic gonorrhoea,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+rheumatic gonorrhoea,arthritic stinging with swelling of wrist joints,1.0,1
+rheumatic gonorrhoea,leucorrhea copious,1.0,1
+rheumatic gonorrhoea,worse walking,1.0,1
+rheumatic gonorrhoea,leucorrhea causing itching,1.0,1
+indescribable uneasiness in lumbar region,dragging sensation from behind forward,1.0,1
+indescribable uneasiness in lumbar region,much heaviness,1.0,1
+indescribable uneasiness in lumbar region,sycotic excrescences with burning pain,1.0,1
+indescribable uneasiness in lumbar region,redness in great toe in gout,1.0,1
+indescribable uneasiness in lumbar region,obliging to bend back inward,1.0,1
+indescribable uneasiness in lumbar region,fig warts with burning,1.0,1
+indescribable uneasiness in lumbar region,pain in thighs when walking,1.0,1
+indescribable uneasiness in lumbar region,improved by bending backward,1.0,1
+indescribable uneasiness in lumbar region,much swelling,1.0,1
+indescribable uneasiness in lumbar region,wandering burning affecting one joint after another,1.0,1
+indescribable uneasiness in lumbar region,worse hanging hand down,1.0,1
+indescribable uneasiness in lumbar region,rheumatic gonorrhoea,1.0,1
+indescribable uneasiness in lumbar region,very sensitive to motion,1.0,1
+indescribable uneasiness in lumbar region,drawing pains in small of back,1.0,1
+indescribable uneasiness in lumbar region,paralytic pain in small of back,1.0,1
+indescribable uneasiness in lumbar region,stitches in great toe in gout,1.0,1
+indescribable uneasiness in lumbar region,arthritic tearing with stiffness of wrist joints,1.0,1
+indescribable uneasiness in lumbar region,painful drawing in joints of toes,1.0,1
+indescribable uneasiness in lumbar region,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+indescribable uneasiness in lumbar region,marked weakness,1.0,1
+indescribable uneasiness in lumbar region,leucorrhea milky,1.0,1
+indescribable uneasiness in lumbar region,very red shining swelling of parts,1.0,1
+indescribable uneasiness in lumbar region,great heaviness of part,1.0,1
+indescribable uneasiness in lumbar region,pain as if sprained in right shoulder joint,1.0,1
+indescribable uneasiness in lumbar region,excessive pain,1.0,1
+indescribable uneasiness in lumbar region,arthritic tearing with swelling of wrist joints,1.0,1
+indescribable uneasiness in lumbar region,arthritic complaints,1.0,1
+indescribable uneasiness in lumbar region,sharp stitches in heels from within outward,1.0,1
+indescribable uneasiness in lumbar region,bright shining red,1.0,1
+indescribable uneasiness in lumbar region,tearing sting in joints,1.0,1
+indescribable uneasiness in lumbar region,swelling in great toe in gout,1.0,1
+indescribable uneasiness in lumbar region,paralytic tearing along right upper arm to hand,1.0,1
+indescribable uneasiness in lumbar region,aching pain worse on motion,1.0,1
+indescribable uneasiness in lumbar region,arthritic stinging with stiffness of wrist joints,1.0,1
+indescribable uneasiness in lumbar region,drawing pains extending to pubic region,1.0,1
+indescribable uneasiness in lumbar region,marked weariness in lumbar region,1.0,1
+indescribable uneasiness in lumbar region,nervousness so great that music seems to go through bones,1.0,1
+indescribable uneasiness in lumbar region,fig warts with intense itching,1.0,1
+indescribable uneasiness in lumbar region,pressing pain in both upper arms near elbow joint,1.0,1
+indescribable uneasiness in lumbar region,constant pain in small of back,1.0,1
+indescribable uneasiness in lumbar region,aching pain worse on touch,1.0,1
+indescribable uneasiness in lumbar region,aching pain in right radius,1.0,1
+indescribable uneasiness in lumbar region,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+indescribable uneasiness in lumbar region,arthritic stinging with swelling of wrist joints,1.0,1
+indescribable uneasiness in lumbar region,leucorrhea copious,1.0,1
+indescribable uneasiness in lumbar region,worse walking,1.0,1
+indescribable uneasiness in lumbar region,leucorrhea causing itching,1.0,1
+wandering burning affecting one joint after another,dragging sensation from behind forward,1.0,1
+wandering burning affecting one joint after another,much heaviness,1.0,1
+wandering burning affecting one joint after another,sycotic excrescences with burning pain,1.0,1
+wandering burning affecting one joint after another,redness in great toe in gout,1.0,1
+wandering burning affecting one joint after another,obliging to bend back inward,1.0,1
+wandering burning affecting one joint after another,fig warts with burning,1.0,1
+wandering burning affecting one joint after another,pain in thighs when walking,1.0,1
+wandering burning affecting one joint after another,improved by bending backward,1.0,1
+wandering burning affecting one joint after another,much swelling,1.0,1
+wandering burning affecting one joint after another,worse hanging hand down,1.0,1
+wandering burning affecting one joint after another,rheumatic gonorrhoea,1.0,1
+wandering burning affecting one joint after another,very sensitive to motion,1.0,1
+wandering burning affecting one joint after another,drawing pains in small of back,1.0,1
+wandering burning affecting one joint after another,paralytic pain in small of back,1.0,1
+wandering burning affecting one joint after another,indescribable uneasiness in lumbar region,1.0,1
+wandering burning affecting one joint after another,stitches in great toe in gout,1.0,1
+wandering burning affecting one joint after another,arthritic tearing with stiffness of wrist joints,1.0,1
+wandering burning affecting one joint after another,painful drawing in joints of toes,1.0,1
+wandering burning affecting one joint after another,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+wandering burning affecting one joint after another,marked weakness,1.0,1
+wandering burning affecting one joint after another,leucorrhea milky,1.0,1
+wandering burning affecting one joint after another,very red shining swelling of parts,1.0,1
+wandering burning affecting one joint after another,great heaviness of part,1.0,1
+wandering burning affecting one joint after another,pain as if sprained in right shoulder joint,1.0,1
+wandering burning affecting one joint after another,excessive pain,1.0,1
+wandering burning affecting one joint after another,arthritic tearing with swelling of wrist joints,1.0,1
+wandering burning affecting one joint after another,arthritic complaints,1.0,1
+wandering burning affecting one joint after another,sharp stitches in heels from within outward,1.0,1
+wandering burning affecting one joint after another,bright shining red,1.0,1
+wandering burning affecting one joint after another,tearing sting in joints,1.0,1
+wandering burning affecting one joint after another,swelling in great toe in gout,1.0,1
+wandering burning affecting one joint after another,paralytic tearing along right upper arm to hand,1.0,1
+wandering burning affecting one joint after another,aching pain worse on motion,1.0,1
+wandering burning affecting one joint after another,arthritic stinging with stiffness of wrist joints,1.0,1
+wandering burning affecting one joint after another,drawing pains extending to pubic region,1.0,1
+wandering burning affecting one joint after another,marked weariness in lumbar region,1.0,1
+wandering burning affecting one joint after another,nervousness so great that music seems to go through bones,1.0,1
+wandering burning affecting one joint after another,fig warts with intense itching,1.0,1
+wandering burning affecting one joint after another,pressing pain in both upper arms near elbow joint,1.0,1
+wandering burning affecting one joint after another,constant pain in small of back,1.0,1
+wandering burning affecting one joint after another,aching pain worse on touch,1.0,1
+wandering burning affecting one joint after another,aching pain in right radius,1.0,1
+wandering burning affecting one joint after another,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+wandering burning affecting one joint after another,arthritic stinging with swelling of wrist joints,1.0,1
+wandering burning affecting one joint after another,leucorrhea copious,1.0,1
+wandering burning affecting one joint after another,worse walking,1.0,1
+wandering burning affecting one joint after another,leucorrhea causing itching,1.0,1
+pain as if sprained in right shoulder joint,dragging sensation from behind forward,1.0,1
+pain as if sprained in right shoulder joint,much heaviness,1.0,1
+pain as if sprained in right shoulder joint,sycotic excrescences with burning pain,1.0,1
+pain as if sprained in right shoulder joint,redness in great toe in gout,1.0,1
+pain as if sprained in right shoulder joint,obliging to bend back inward,1.0,1
+pain as if sprained in right shoulder joint,fig warts with burning,1.0,1
+pain as if sprained in right shoulder joint,pain in thighs when walking,1.0,1
+pain as if sprained in right shoulder joint,improved by bending backward,1.0,1
+pain as if sprained in right shoulder joint,much swelling,1.0,1
+pain as if sprained in right shoulder joint,wandering burning affecting one joint after another,1.0,1
+pain as if sprained in right shoulder joint,worse hanging hand down,1.0,1
+pain as if sprained in right shoulder joint,rheumatic gonorrhoea,1.0,1
+pain as if sprained in right shoulder joint,very sensitive to motion,1.0,1
+pain as if sprained in right shoulder joint,drawing pains in small of back,1.0,1
+pain as if sprained in right shoulder joint,paralytic pain in small of back,1.0,1
+pain as if sprained in right shoulder joint,indescribable uneasiness in lumbar region,1.0,1
+pain as if sprained in right shoulder joint,stitches in great toe in gout,1.0,1
+pain as if sprained in right shoulder joint,arthritic tearing with stiffness of wrist joints,1.0,1
+pain as if sprained in right shoulder joint,painful drawing in joints of toes,1.0,1
+pain as if sprained in right shoulder joint,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+pain as if sprained in right shoulder joint,marked weakness,1.0,1
+pain as if sprained in right shoulder joint,leucorrhea milky,1.0,1
+pain as if sprained in right shoulder joint,very red shining swelling of parts,1.0,1
+pain as if sprained in right shoulder joint,great heaviness of part,1.0,1
+pain as if sprained in right shoulder joint,excessive pain,1.0,1
+pain as if sprained in right shoulder joint,arthritic tearing with swelling of wrist joints,1.0,1
+pain as if sprained in right shoulder joint,arthritic complaints,1.0,1
+pain as if sprained in right shoulder joint,sharp stitches in heels from within outward,1.0,1
+pain as if sprained in right shoulder joint,bright shining red,1.0,1
+pain as if sprained in right shoulder joint,tearing sting in joints,1.0,1
+pain as if sprained in right shoulder joint,swelling in great toe in gout,1.0,1
+pain as if sprained in right shoulder joint,paralytic tearing along right upper arm to hand,1.0,1
+pain as if sprained in right shoulder joint,aching pain worse on motion,1.0,1
+pain as if sprained in right shoulder joint,arthritic stinging with stiffness of wrist joints,1.0,1
+pain as if sprained in right shoulder joint,drawing pains extending to pubic region,1.0,1
+pain as if sprained in right shoulder joint,marked weariness in lumbar region,1.0,1
+pain as if sprained in right shoulder joint,nervousness so great that music seems to go through bones,1.0,1
+pain as if sprained in right shoulder joint,fig warts with intense itching,1.0,1
+pain as if sprained in right shoulder joint,pressing pain in both upper arms near elbow joint,1.0,1
+pain as if sprained in right shoulder joint,constant pain in small of back,1.0,1
+pain as if sprained in right shoulder joint,aching pain worse on touch,1.0,1
+pain as if sprained in right shoulder joint,aching pain in right radius,1.0,1
+pain as if sprained in right shoulder joint,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+pain as if sprained in right shoulder joint,arthritic stinging with swelling of wrist joints,1.0,1
+pain as if sprained in right shoulder joint,leucorrhea copious,1.0,1
+pain as if sprained in right shoulder joint,worse walking,1.0,1
+pain as if sprained in right shoulder joint,leucorrhea causing itching,1.0,1
+redness in great toe in gout,dragging sensation from behind forward,1.0,1
+redness in great toe in gout,much heaviness,1.0,1
+redness in great toe in gout,sycotic excrescences with burning pain,1.0,1
+redness in great toe in gout,obliging to bend back inward,1.0,1
+redness in great toe in gout,fig warts with burning,1.0,1
+redness in great toe in gout,pain in thighs when walking,1.0,1
+redness in great toe in gout,improved by bending backward,1.0,1
+redness in great toe in gout,much swelling,1.0,1
+redness in great toe in gout,wandering burning affecting one joint after another,1.0,1
+redness in great toe in gout,worse hanging hand down,1.0,1
+redness in great toe in gout,rheumatic gonorrhoea,1.0,1
+redness in great toe in gout,very sensitive to motion,1.0,1
+redness in great toe in gout,drawing pains in small of back,1.0,1
+redness in great toe in gout,paralytic pain in small of back,1.0,1
+redness in great toe in gout,indescribable uneasiness in lumbar region,1.0,1
+redness in great toe in gout,stitches in great toe in gout,1.0,1
+redness in great toe in gout,arthritic tearing with stiffness of wrist joints,1.0,1
+redness in great toe in gout,painful drawing in joints of toes,1.0,1
+redness in great toe in gout,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+redness in great toe in gout,marked weakness,1.0,1
+redness in great toe in gout,leucorrhea milky,1.0,1
+redness in great toe in gout,very red shining swelling of parts,1.0,1
+redness in great toe in gout,great heaviness of part,1.0,1
+redness in great toe in gout,pain as if sprained in right shoulder joint,1.0,1
+redness in great toe in gout,excessive pain,1.0,1
+redness in great toe in gout,arthritic tearing with swelling of wrist joints,1.0,1
+redness in great toe in gout,arthritic complaints,1.0,1
+redness in great toe in gout,sharp stitches in heels from within outward,1.0,1
+redness in great toe in gout,bright shining red,1.0,1
+redness in great toe in gout,tearing sting in joints,1.0,1
+redness in great toe in gout,swelling in great toe in gout,1.0,1
+redness in great toe in gout,paralytic tearing along right upper arm to hand,1.0,1
+redness in great toe in gout,aching pain worse on motion,1.0,1
+redness in great toe in gout,arthritic stinging with stiffness of wrist joints,1.0,1
+redness in great toe in gout,drawing pains extending to pubic region,1.0,1
+redness in great toe in gout,marked weariness in lumbar region,1.0,1
+redness in great toe in gout,nervousness so great that music seems to go through bones,1.0,1
+redness in great toe in gout,fig warts with intense itching,1.0,1
+redness in great toe in gout,pressing pain in both upper arms near elbow joint,1.0,1
+redness in great toe in gout,constant pain in small of back,1.0,1
+redness in great toe in gout,aching pain worse on touch,1.0,1
+redness in great toe in gout,aching pain in right radius,1.0,1
+redness in great toe in gout,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+redness in great toe in gout,arthritic stinging with swelling of wrist joints,1.0,1
+redness in great toe in gout,leucorrhea copious,1.0,1
+redness in great toe in gout,worse walking,1.0,1
+redness in great toe in gout,leucorrhea causing itching,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,dragging sensation from behind forward,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,much heaviness,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,sycotic excrescences with burning pain,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,redness in great toe in gout,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,obliging to bend back inward,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,fig warts with burning,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,pain in thighs when walking,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,improved by bending backward,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,much swelling,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,wandering burning affecting one joint after another,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,worse hanging hand down,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,rheumatic gonorrhoea,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,very sensitive to motion,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,drawing pains in small of back,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,paralytic pain in small of back,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,indescribable uneasiness in lumbar region,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,stitches in great toe in gout,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,arthritic tearing with stiffness of wrist joints,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,painful drawing in joints of toes,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,marked weakness,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,leucorrhea milky,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,very red shining swelling of parts,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,great heaviness of part,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,pain as if sprained in right shoulder joint,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,excessive pain,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,arthritic tearing with swelling of wrist joints,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,arthritic complaints,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,sharp stitches in heels from within outward,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,bright shining red,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,tearing sting in joints,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,swelling in great toe in gout,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,paralytic tearing along right upper arm to hand,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,aching pain worse on motion,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,arthritic stinging with stiffness of wrist joints,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,drawing pains extending to pubic region,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,marked weariness in lumbar region,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,nervousness so great that music seems to go through bones,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,fig warts with intense itching,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,pressing pain in both upper arms near elbow joint,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,constant pain in small of back,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,aching pain worse on touch,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,aching pain in right radius,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,arthritic stinging with swelling of wrist joints,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,leucorrhea copious,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,worse walking,1.0,1
+rheumatism of metatarso-phalangeal joint of great toe,leucorrhea causing itching,1.0,1
+pain in thighs when walking,dragging sensation from behind forward,1.0,1
+pain in thighs when walking,much heaviness,1.0,1
+pain in thighs when walking,sycotic excrescences with burning pain,1.0,1
+pain in thighs when walking,redness in great toe in gout,1.0,1
+pain in thighs when walking,obliging to bend back inward,1.0,1
+pain in thighs when walking,fig warts with burning,1.0,1
+pain in thighs when walking,improved by bending backward,1.0,1
+pain in thighs when walking,much swelling,1.0,1
+pain in thighs when walking,wandering burning affecting one joint after another,1.0,1
+pain in thighs when walking,worse hanging hand down,1.0,1
+pain in thighs when walking,rheumatic gonorrhoea,1.0,1
+pain in thighs when walking,very sensitive to motion,1.0,1
+pain in thighs when walking,drawing pains in small of back,1.0,1
+pain in thighs when walking,paralytic pain in small of back,1.0,1
+pain in thighs when walking,indescribable uneasiness in lumbar region,1.0,1
+pain in thighs when walking,stitches in great toe in gout,1.0,1
+pain in thighs when walking,arthritic tearing with stiffness of wrist joints,1.0,1
+pain in thighs when walking,painful drawing in joints of toes,1.0,1
+pain in thighs when walking,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+pain in thighs when walking,marked weakness,1.0,1
+pain in thighs when walking,leucorrhea milky,1.0,1
+pain in thighs when walking,very red shining swelling of parts,1.0,1
+pain in thighs when walking,great heaviness of part,1.0,1
+pain in thighs when walking,pain as if sprained in right shoulder joint,1.0,1
+pain in thighs when walking,excessive pain,1.0,1
+pain in thighs when walking,arthritic tearing with swelling of wrist joints,1.0,1
+pain in thighs when walking,arthritic complaints,1.0,1
+pain in thighs when walking,sharp stitches in heels from within outward,1.0,1
+pain in thighs when walking,bright shining red,1.0,1
+pain in thighs when walking,tearing sting in joints,1.0,1
+pain in thighs when walking,swelling in great toe in gout,1.0,1
+pain in thighs when walking,paralytic tearing along right upper arm to hand,1.0,1
+pain in thighs when walking,aching pain worse on motion,1.0,1
+pain in thighs when walking,arthritic stinging with stiffness of wrist joints,1.0,1
+pain in thighs when walking,drawing pains extending to pubic region,1.0,1
+pain in thighs when walking,marked weariness in lumbar region,1.0,1
+pain in thighs when walking,nervousness so great that music seems to go through bones,1.0,1
+pain in thighs when walking,fig warts with intense itching,1.0,1
+pain in thighs when walking,pressing pain in both upper arms near elbow joint,1.0,1
+pain in thighs when walking,constant pain in small of back,1.0,1
+pain in thighs when walking,aching pain worse on touch,1.0,1
+pain in thighs when walking,aching pain in right radius,1.0,1
+pain in thighs when walking,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+pain in thighs when walking,arthritic stinging with swelling of wrist joints,1.0,1
+pain in thighs when walking,leucorrhea copious,1.0,1
+pain in thighs when walking,worse walking,1.0,1
+pain in thighs when walking,leucorrhea causing itching,1.0,1
+very sensitive to motion,dragging sensation from behind forward,1.0,1
+very sensitive to motion,much heaviness,1.0,1
+very sensitive to motion,sycotic excrescences with burning pain,1.0,1
+very sensitive to motion,redness in great toe in gout,1.0,1
+very sensitive to motion,obliging to bend back inward,1.0,1
+very sensitive to motion,fig warts with burning,1.0,1
+very sensitive to motion,pain in thighs when walking,1.0,1
+very sensitive to motion,improved by bending backward,1.0,1
+very sensitive to motion,much swelling,1.0,1
+very sensitive to motion,wandering burning affecting one joint after another,1.0,1
+very sensitive to motion,worse hanging hand down,1.0,1
+very sensitive to motion,rheumatic gonorrhoea,1.0,1
+very sensitive to motion,drawing pains in small of back,1.0,1
+very sensitive to motion,paralytic pain in small of back,1.0,1
+very sensitive to motion,indescribable uneasiness in lumbar region,1.0,1
+very sensitive to motion,stitches in great toe in gout,1.0,1
+very sensitive to motion,arthritic tearing with stiffness of wrist joints,1.0,1
+very sensitive to motion,painful drawing in joints of toes,1.0,1
+very sensitive to motion,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+very sensitive to motion,marked weakness,1.0,1
+very sensitive to motion,leucorrhea milky,1.0,1
+very sensitive to motion,very red shining swelling of parts,1.0,1
+very sensitive to motion,great heaviness of part,1.0,1
+very sensitive to motion,pain as if sprained in right shoulder joint,1.0,1
+very sensitive to motion,excessive pain,1.0,1
+very sensitive to motion,arthritic tearing with swelling of wrist joints,1.0,1
+very sensitive to motion,arthritic complaints,1.0,1
+very sensitive to motion,sharp stitches in heels from within outward,1.0,1
+very sensitive to motion,bright shining red,1.0,1
+very sensitive to motion,tearing sting in joints,1.0,1
+very sensitive to motion,swelling in great toe in gout,1.0,1
+very sensitive to motion,paralytic tearing along right upper arm to hand,1.0,1
+very sensitive to motion,aching pain worse on motion,1.0,1
+very sensitive to motion,arthritic stinging with stiffness of wrist joints,1.0,1
+very sensitive to motion,drawing pains extending to pubic region,1.0,1
+very sensitive to motion,marked weariness in lumbar region,1.0,1
+very sensitive to motion,nervousness so great that music seems to go through bones,1.0,1
+very sensitive to motion,fig warts with intense itching,1.0,1
+very sensitive to motion,pressing pain in both upper arms near elbow joint,1.0,1
+very sensitive to motion,constant pain in small of back,1.0,1
+very sensitive to motion,aching pain worse on touch,1.0,1
+very sensitive to motion,aching pain in right radius,1.0,1
+very sensitive to motion,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+very sensitive to motion,arthritic stinging with swelling of wrist joints,1.0,1
+very sensitive to motion,leucorrhea copious,1.0,1
+very sensitive to motion,worse walking,1.0,1
+very sensitive to motion,leucorrhea causing itching,1.0,1
+tearing sting in joints,dragging sensation from behind forward,1.0,1
+tearing sting in joints,much heaviness,1.0,1
+tearing sting in joints,sycotic excrescences with burning pain,1.0,1
+tearing sting in joints,redness in great toe in gout,1.0,1
+tearing sting in joints,obliging to bend back inward,1.0,1
+tearing sting in joints,fig warts with burning,1.0,1
+tearing sting in joints,pain in thighs when walking,1.0,1
+tearing sting in joints,improved by bending backward,1.0,1
+tearing sting in joints,much swelling,1.0,1
+tearing sting in joints,wandering burning affecting one joint after another,1.0,1
+tearing sting in joints,worse hanging hand down,1.0,1
+tearing sting in joints,rheumatic gonorrhoea,1.0,1
+tearing sting in joints,very sensitive to motion,1.0,1
+tearing sting in joints,drawing pains in small of back,1.0,1
+tearing sting in joints,paralytic pain in small of back,1.0,1
+tearing sting in joints,indescribable uneasiness in lumbar region,1.0,1
+tearing sting in joints,stitches in great toe in gout,1.0,1
+tearing sting in joints,arthritic tearing with stiffness of wrist joints,1.0,1
+tearing sting in joints,painful drawing in joints of toes,1.0,1
+tearing sting in joints,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+tearing sting in joints,marked weakness,1.0,1
+tearing sting in joints,leucorrhea milky,1.0,1
+tearing sting in joints,very red shining swelling of parts,1.0,1
+tearing sting in joints,great heaviness of part,1.0,1
+tearing sting in joints,pain as if sprained in right shoulder joint,1.0,1
+tearing sting in joints,excessive pain,1.0,1
+tearing sting in joints,arthritic tearing with swelling of wrist joints,1.0,1
+tearing sting in joints,arthritic complaints,1.0,1
+tearing sting in joints,sharp stitches in heels from within outward,1.0,1
+tearing sting in joints,bright shining red,1.0,1
+tearing sting in joints,swelling in great toe in gout,1.0,1
+tearing sting in joints,paralytic tearing along right upper arm to hand,1.0,1
+tearing sting in joints,aching pain worse on motion,1.0,1
+tearing sting in joints,arthritic stinging with stiffness of wrist joints,1.0,1
+tearing sting in joints,drawing pains extending to pubic region,1.0,1
+tearing sting in joints,marked weariness in lumbar region,1.0,1
+tearing sting in joints,nervousness so great that music seems to go through bones,1.0,1
+tearing sting in joints,fig warts with intense itching,1.0,1
+tearing sting in joints,pressing pain in both upper arms near elbow joint,1.0,1
+tearing sting in joints,constant pain in small of back,1.0,1
+tearing sting in joints,aching pain worse on touch,1.0,1
+tearing sting in joints,aching pain in right radius,1.0,1
+tearing sting in joints,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+tearing sting in joints,arthritic stinging with swelling of wrist joints,1.0,1
+tearing sting in joints,leucorrhea copious,1.0,1
+tearing sting in joints,worse walking,1.0,1
+tearing sting in joints,leucorrhea causing itching,1.0,1
+drawing pains extending to pubic region,dragging sensation from behind forward,1.0,1
+drawing pains extending to pubic region,much heaviness,1.0,1
+drawing pains extending to pubic region,sycotic excrescences with burning pain,1.0,1
+drawing pains extending to pubic region,redness in great toe in gout,1.0,1
+drawing pains extending to pubic region,obliging to bend back inward,1.0,1
+drawing pains extending to pubic region,fig warts with burning,1.0,1
+drawing pains extending to pubic region,pain in thighs when walking,1.0,1
+drawing pains extending to pubic region,improved by bending backward,1.0,1
+drawing pains extending to pubic region,much swelling,1.0,1
+drawing pains extending to pubic region,wandering burning affecting one joint after another,1.0,1
+drawing pains extending to pubic region,worse hanging hand down,1.0,1
+drawing pains extending to pubic region,rheumatic gonorrhoea,1.0,1
+drawing pains extending to pubic region,very sensitive to motion,1.0,1
+drawing pains extending to pubic region,drawing pains in small of back,1.0,1
+drawing pains extending to pubic region,paralytic pain in small of back,1.0,1
+drawing pains extending to pubic region,indescribable uneasiness in lumbar region,1.0,1
+drawing pains extending to pubic region,stitches in great toe in gout,1.0,1
+drawing pains extending to pubic region,arthritic tearing with stiffness of wrist joints,1.0,1
+drawing pains extending to pubic region,painful drawing in joints of toes,1.0,1
+drawing pains extending to pubic region,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+drawing pains extending to pubic region,marked weakness,1.0,1
+drawing pains extending to pubic region,leucorrhea milky,1.0,1
+drawing pains extending to pubic region,very red shining swelling of parts,1.0,1
+drawing pains extending to pubic region,great heaviness of part,1.0,1
+drawing pains extending to pubic region,pain as if sprained in right shoulder joint,1.0,1
+drawing pains extending to pubic region,excessive pain,1.0,1
+drawing pains extending to pubic region,arthritic tearing with swelling of wrist joints,1.0,1
+drawing pains extending to pubic region,arthritic complaints,1.0,1
+drawing pains extending to pubic region,sharp stitches in heels from within outward,1.0,1
+drawing pains extending to pubic region,bright shining red,1.0,1
+drawing pains extending to pubic region,tearing sting in joints,1.0,1
+drawing pains extending to pubic region,swelling in great toe in gout,1.0,1
+drawing pains extending to pubic region,paralytic tearing along right upper arm to hand,1.0,1
+drawing pains extending to pubic region,aching pain worse on motion,1.0,1
+drawing pains extending to pubic region,arthritic stinging with stiffness of wrist joints,1.0,1
+drawing pains extending to pubic region,marked weariness in lumbar region,1.0,1
+drawing pains extending to pubic region,nervousness so great that music seems to go through bones,1.0,1
+drawing pains extending to pubic region,fig warts with intense itching,1.0,1
+drawing pains extending to pubic region,pressing pain in both upper arms near elbow joint,1.0,1
+drawing pains extending to pubic region,constant pain in small of back,1.0,1
+drawing pains extending to pubic region,aching pain worse on touch,1.0,1
+drawing pains extending to pubic region,aching pain in right radius,1.0,1
+drawing pains extending to pubic region,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+drawing pains extending to pubic region,arthritic stinging with swelling of wrist joints,1.0,1
+drawing pains extending to pubic region,leucorrhea copious,1.0,1
+drawing pains extending to pubic region,worse walking,1.0,1
+drawing pains extending to pubic region,leucorrhea causing itching,1.0,1
+swelling in great toe in gout,dragging sensation from behind forward,1.0,1
+swelling in great toe in gout,much heaviness,1.0,1
+swelling in great toe in gout,sycotic excrescences with burning pain,1.0,1
+swelling in great toe in gout,redness in great toe in gout,1.0,1
+swelling in great toe in gout,obliging to bend back inward,1.0,1
+swelling in great toe in gout,fig warts with burning,1.0,1
+swelling in great toe in gout,pain in thighs when walking,1.0,1
+swelling in great toe in gout,improved by bending backward,1.0,1
+swelling in great toe in gout,much swelling,1.0,1
+swelling in great toe in gout,wandering burning affecting one joint after another,1.0,1
+swelling in great toe in gout,worse hanging hand down,1.0,1
+swelling in great toe in gout,rheumatic gonorrhoea,1.0,1
+swelling in great toe in gout,very sensitive to motion,1.0,1
+swelling in great toe in gout,drawing pains in small of back,1.0,1
+swelling in great toe in gout,paralytic pain in small of back,1.0,1
+swelling in great toe in gout,indescribable uneasiness in lumbar region,1.0,1
+swelling in great toe in gout,stitches in great toe in gout,1.0,1
+swelling in great toe in gout,arthritic tearing with stiffness of wrist joints,1.0,1
+swelling in great toe in gout,painful drawing in joints of toes,1.0,1
+swelling in great toe in gout,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+swelling in great toe in gout,marked weakness,1.0,1
+swelling in great toe in gout,leucorrhea milky,1.0,1
+swelling in great toe in gout,very red shining swelling of parts,1.0,1
+swelling in great toe in gout,great heaviness of part,1.0,1
+swelling in great toe in gout,pain as if sprained in right shoulder joint,1.0,1
+swelling in great toe in gout,excessive pain,1.0,1
+swelling in great toe in gout,arthritic tearing with swelling of wrist joints,1.0,1
+swelling in great toe in gout,arthritic complaints,1.0,1
+swelling in great toe in gout,sharp stitches in heels from within outward,1.0,1
+swelling in great toe in gout,bright shining red,1.0,1
+swelling in great toe in gout,tearing sting in joints,1.0,1
+swelling in great toe in gout,paralytic tearing along right upper arm to hand,1.0,1
+swelling in great toe in gout,aching pain worse on motion,1.0,1
+swelling in great toe in gout,arthritic stinging with stiffness of wrist joints,1.0,1
+swelling in great toe in gout,drawing pains extending to pubic region,1.0,1
+swelling in great toe in gout,marked weariness in lumbar region,1.0,1
+swelling in great toe in gout,nervousness so great that music seems to go through bones,1.0,1
+swelling in great toe in gout,fig warts with intense itching,1.0,1
+swelling in great toe in gout,pressing pain in both upper arms near elbow joint,1.0,1
+swelling in great toe in gout,constant pain in small of back,1.0,1
+swelling in great toe in gout,aching pain worse on touch,1.0,1
+swelling in great toe in gout,aching pain in right radius,1.0,1
+swelling in great toe in gout,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+swelling in great toe in gout,arthritic stinging with swelling of wrist joints,1.0,1
+swelling in great toe in gout,leucorrhea copious,1.0,1
+swelling in great toe in gout,worse walking,1.0,1
+swelling in great toe in gout,leucorrhea causing itching,1.0,1
+worse hanging hand down,dragging sensation from behind forward,1.0,1
+worse hanging hand down,much heaviness,1.0,1
+worse hanging hand down,sycotic excrescences with burning pain,1.0,1
+worse hanging hand down,redness in great toe in gout,1.0,1
+worse hanging hand down,obliging to bend back inward,1.0,1
+worse hanging hand down,fig warts with burning,1.0,1
+worse hanging hand down,pain in thighs when walking,1.0,1
+worse hanging hand down,improved by bending backward,1.0,1
+worse hanging hand down,much swelling,1.0,1
+worse hanging hand down,wandering burning affecting one joint after another,1.0,1
+worse hanging hand down,rheumatic gonorrhoea,1.0,1
+worse hanging hand down,very sensitive to motion,1.0,1
+worse hanging hand down,drawing pains in small of back,1.0,1
+worse hanging hand down,paralytic pain in small of back,1.0,1
+worse hanging hand down,indescribable uneasiness in lumbar region,1.0,1
+worse hanging hand down,stitches in great toe in gout,1.0,1
+worse hanging hand down,arthritic tearing with stiffness of wrist joints,1.0,1
+worse hanging hand down,painful drawing in joints of toes,1.0,1
+worse hanging hand down,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+worse hanging hand down,marked weakness,1.0,1
+worse hanging hand down,leucorrhea milky,1.0,1
+worse hanging hand down,very red shining swelling of parts,1.0,1
+worse hanging hand down,great heaviness of part,1.0,1
+worse hanging hand down,pain as if sprained in right shoulder joint,1.0,1
+worse hanging hand down,excessive pain,1.0,1
+worse hanging hand down,arthritic tearing with swelling of wrist joints,1.0,1
+worse hanging hand down,arthritic complaints,1.0,1
+worse hanging hand down,sharp stitches in heels from within outward,1.0,1
+worse hanging hand down,bright shining red,1.0,1
+worse hanging hand down,tearing sting in joints,1.0,1
+worse hanging hand down,swelling in great toe in gout,1.0,1
+worse hanging hand down,paralytic tearing along right upper arm to hand,1.0,1
+worse hanging hand down,aching pain worse on motion,1.0,1
+worse hanging hand down,arthritic stinging with stiffness of wrist joints,1.0,1
+worse hanging hand down,drawing pains extending to pubic region,1.0,1
+worse hanging hand down,marked weariness in lumbar region,1.0,1
+worse hanging hand down,nervousness so great that music seems to go through bones,1.0,1
+worse hanging hand down,fig warts with intense itching,1.0,1
+worse hanging hand down,pressing pain in both upper arms near elbow joint,1.0,1
+worse hanging hand down,constant pain in small of back,1.0,1
+worse hanging hand down,aching pain worse on touch,1.0,1
+worse hanging hand down,aching pain in right radius,1.0,1
+worse hanging hand down,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+worse hanging hand down,arthritic stinging with swelling of wrist joints,1.0,1
+worse hanging hand down,leucorrhea copious,1.0,1
+worse hanging hand down,worse walking,1.0,1
+worse hanging hand down,leucorrhea causing itching,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,dragging sensation from behind forward,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,much heaviness,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,sycotic excrescences with burning pain,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,redness in great toe in gout,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,obliging to bend back inward,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,fig warts with burning,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,pain in thighs when walking,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,improved by bending backward,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,much swelling,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,wandering burning affecting one joint after another,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,worse hanging hand down,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,rheumatic gonorrhoea,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,very sensitive to motion,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,drawing pains in small of back,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,paralytic pain in small of back,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,indescribable uneasiness in lumbar region,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,stitches in great toe in gout,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,arthritic tearing with stiffness of wrist joints,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,painful drawing in joints of toes,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,marked weakness,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,leucorrhea milky,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,very red shining swelling of parts,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,great heaviness of part,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,pain as if sprained in right shoulder joint,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,excessive pain,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,arthritic tearing with swelling of wrist joints,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,arthritic complaints,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,sharp stitches in heels from within outward,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,bright shining red,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,tearing sting in joints,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,swelling in great toe in gout,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,paralytic tearing along right upper arm to hand,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,aching pain worse on motion,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,arthritic stinging with stiffness of wrist joints,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,drawing pains extending to pubic region,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,marked weariness in lumbar region,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,nervousness so great that music seems to go through bones,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,fig warts with intense itching,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,pressing pain in both upper arms near elbow joint,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,constant pain in small of back,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,aching pain worse on touch,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,aching pain in right radius,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,arthritic stinging with swelling of wrist joints,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,leucorrhea copious,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,worse walking,1.0,1
+tearing pain with pressure in metacarpal bones of both feet,leucorrhea causing itching,1.0,1
+marked weariness in lumbar region,dragging sensation from behind forward,1.0,1
+marked weariness in lumbar region,much heaviness,1.0,1
+marked weariness in lumbar region,sycotic excrescences with burning pain,1.0,1
+marked weariness in lumbar region,redness in great toe in gout,1.0,1
+marked weariness in lumbar region,obliging to bend back inward,1.0,1
+marked weariness in lumbar region,fig warts with burning,1.0,1
+marked weariness in lumbar region,pain in thighs when walking,1.0,1
+marked weariness in lumbar region,improved by bending backward,1.0,1
+marked weariness in lumbar region,much swelling,1.0,1
+marked weariness in lumbar region,wandering burning affecting one joint after another,1.0,1
+marked weariness in lumbar region,worse hanging hand down,1.0,1
+marked weariness in lumbar region,rheumatic gonorrhoea,1.0,1
+marked weariness in lumbar region,very sensitive to motion,1.0,1
+marked weariness in lumbar region,drawing pains in small of back,1.0,1
+marked weariness in lumbar region,paralytic pain in small of back,1.0,1
+marked weariness in lumbar region,indescribable uneasiness in lumbar region,1.0,1
+marked weariness in lumbar region,stitches in great toe in gout,1.0,1
+marked weariness in lumbar region,arthritic tearing with stiffness of wrist joints,1.0,1
+marked weariness in lumbar region,painful drawing in joints of toes,1.0,1
+marked weariness in lumbar region,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+marked weariness in lumbar region,marked weakness,1.0,1
+marked weariness in lumbar region,leucorrhea milky,1.0,1
+marked weariness in lumbar region,very red shining swelling of parts,1.0,1
+marked weariness in lumbar region,great heaviness of part,1.0,1
+marked weariness in lumbar region,pain as if sprained in right shoulder joint,1.0,1
+marked weariness in lumbar region,excessive pain,1.0,1
+marked weariness in lumbar region,arthritic tearing with swelling of wrist joints,1.0,1
+marked weariness in lumbar region,arthritic complaints,1.0,1
+marked weariness in lumbar region,sharp stitches in heels from within outward,1.0,1
+marked weariness in lumbar region,bright shining red,1.0,1
+marked weariness in lumbar region,tearing sting in joints,1.0,1
+marked weariness in lumbar region,swelling in great toe in gout,1.0,1
+marked weariness in lumbar region,paralytic tearing along right upper arm to hand,1.0,1
+marked weariness in lumbar region,aching pain worse on motion,1.0,1
+marked weariness in lumbar region,arthritic stinging with stiffness of wrist joints,1.0,1
+marked weariness in lumbar region,drawing pains extending to pubic region,1.0,1
+marked weariness in lumbar region,nervousness so great that music seems to go through bones,1.0,1
+marked weariness in lumbar region,fig warts with intense itching,1.0,1
+marked weariness in lumbar region,pressing pain in both upper arms near elbow joint,1.0,1
+marked weariness in lumbar region,constant pain in small of back,1.0,1
+marked weariness in lumbar region,aching pain worse on touch,1.0,1
+marked weariness in lumbar region,aching pain in right radius,1.0,1
+marked weariness in lumbar region,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+marked weariness in lumbar region,arthritic stinging with swelling of wrist joints,1.0,1
+marked weariness in lumbar region,leucorrhea copious,1.0,1
+marked weariness in lumbar region,worse walking,1.0,1
+marked weariness in lumbar region,leucorrhea causing itching,1.0,1
+fig warts with intense itching,dragging sensation from behind forward,1.0,1
+fig warts with intense itching,much heaviness,1.0,1
+fig warts with intense itching,sycotic excrescences with burning pain,1.0,1
+fig warts with intense itching,redness in great toe in gout,1.0,1
+fig warts with intense itching,obliging to bend back inward,1.0,1
+fig warts with intense itching,fig warts with burning,1.0,1
+fig warts with intense itching,pain in thighs when walking,1.0,1
+fig warts with intense itching,improved by bending backward,1.0,1
+fig warts with intense itching,much swelling,1.0,1
+fig warts with intense itching,wandering burning affecting one joint after another,1.0,1
+fig warts with intense itching,worse hanging hand down,1.0,1
+fig warts with intense itching,rheumatic gonorrhoea,1.0,1
+fig warts with intense itching,very sensitive to motion,1.0,1
+fig warts with intense itching,drawing pains in small of back,1.0,1
+fig warts with intense itching,paralytic pain in small of back,1.0,1
+fig warts with intense itching,indescribable uneasiness in lumbar region,1.0,1
+fig warts with intense itching,stitches in great toe in gout,1.0,1
+fig warts with intense itching,arthritic tearing with stiffness of wrist joints,1.0,1
+fig warts with intense itching,painful drawing in joints of toes,1.0,1
+fig warts with intense itching,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+fig warts with intense itching,marked weakness,1.0,1
+fig warts with intense itching,leucorrhea milky,1.0,1
+fig warts with intense itching,very red shining swelling of parts,1.0,1
+fig warts with intense itching,great heaviness of part,1.0,1
+fig warts with intense itching,pain as if sprained in right shoulder joint,1.0,1
+fig warts with intense itching,excessive pain,1.0,1
+fig warts with intense itching,arthritic tearing with swelling of wrist joints,1.0,1
+fig warts with intense itching,arthritic complaints,1.0,1
+fig warts with intense itching,sharp stitches in heels from within outward,1.0,1
+fig warts with intense itching,bright shining red,1.0,1
+fig warts with intense itching,tearing sting in joints,1.0,1
+fig warts with intense itching,swelling in great toe in gout,1.0,1
+fig warts with intense itching,paralytic tearing along right upper arm to hand,1.0,1
+fig warts with intense itching,aching pain worse on motion,1.0,1
+fig warts with intense itching,arthritic stinging with stiffness of wrist joints,1.0,1
+fig warts with intense itching,drawing pains extending to pubic region,1.0,1
+fig warts with intense itching,marked weariness in lumbar region,1.0,1
+fig warts with intense itching,nervousness so great that music seems to go through bones,1.0,1
+fig warts with intense itching,pressing pain in both upper arms near elbow joint,1.0,1
+fig warts with intense itching,constant pain in small of back,1.0,1
+fig warts with intense itching,aching pain worse on touch,1.0,1
+fig warts with intense itching,aching pain in right radius,1.0,1
+fig warts with intense itching,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+fig warts with intense itching,arthritic stinging with swelling of wrist joints,1.0,1
+fig warts with intense itching,leucorrhea copious,1.0,1
+fig warts with intense itching,worse walking,1.0,1
+fig warts with intense itching,leucorrhea causing itching,1.0,1
+stitches in great toe in gout,dragging sensation from behind forward,1.0,1
+stitches in great toe in gout,much heaviness,1.0,1
+stitches in great toe in gout,sycotic excrescences with burning pain,1.0,1
+stitches in great toe in gout,redness in great toe in gout,1.0,1
+stitches in great toe in gout,obliging to bend back inward,1.0,1
+stitches in great toe in gout,fig warts with burning,1.0,1
+stitches in great toe in gout,pain in thighs when walking,1.0,1
+stitches in great toe in gout,improved by bending backward,1.0,1
+stitches in great toe in gout,much swelling,1.0,1
+stitches in great toe in gout,wandering burning affecting one joint after another,1.0,1
+stitches in great toe in gout,worse hanging hand down,1.0,1
+stitches in great toe in gout,rheumatic gonorrhoea,1.0,1
+stitches in great toe in gout,very sensitive to motion,1.0,1
+stitches in great toe in gout,drawing pains in small of back,1.0,1
+stitches in great toe in gout,paralytic pain in small of back,1.0,1
+stitches in great toe in gout,indescribable uneasiness in lumbar region,1.0,1
+stitches in great toe in gout,arthritic tearing with stiffness of wrist joints,1.0,1
+stitches in great toe in gout,painful drawing in joints of toes,1.0,1
+stitches in great toe in gout,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+stitches in great toe in gout,marked weakness,1.0,1
+stitches in great toe in gout,leucorrhea milky,1.0,1
+stitches in great toe in gout,very red shining swelling of parts,1.0,1
+stitches in great toe in gout,great heaviness of part,1.0,1
+stitches in great toe in gout,pain as if sprained in right shoulder joint,1.0,1
+stitches in great toe in gout,excessive pain,1.0,1
+stitches in great toe in gout,arthritic tearing with swelling of wrist joints,1.0,1
+stitches in great toe in gout,arthritic complaints,1.0,1
+stitches in great toe in gout,sharp stitches in heels from within outward,1.0,1
+stitches in great toe in gout,bright shining red,1.0,1
+stitches in great toe in gout,tearing sting in joints,1.0,1
+stitches in great toe in gout,swelling in great toe in gout,1.0,1
+stitches in great toe in gout,paralytic tearing along right upper arm to hand,1.0,1
+stitches in great toe in gout,aching pain worse on motion,1.0,1
+stitches in great toe in gout,arthritic stinging with stiffness of wrist joints,1.0,1
+stitches in great toe in gout,drawing pains extending to pubic region,1.0,1
+stitches in great toe in gout,marked weariness in lumbar region,1.0,1
+stitches in great toe in gout,nervousness so great that music seems to go through bones,1.0,1
+stitches in great toe in gout,fig warts with intense itching,1.0,1
+stitches in great toe in gout,pressing pain in both upper arms near elbow joint,1.0,1
+stitches in great toe in gout,constant pain in small of back,1.0,1
+stitches in great toe in gout,aching pain worse on touch,1.0,1
+stitches in great toe in gout,aching pain in right radius,1.0,1
+stitches in great toe in gout,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+stitches in great toe in gout,arthritic stinging with swelling of wrist joints,1.0,1
+stitches in great toe in gout,leucorrhea copious,1.0,1
+stitches in great toe in gout,worse walking,1.0,1
+stitches in great toe in gout,leucorrhea causing itching,1.0,1
+aching pain worse on touch,dragging sensation from behind forward,1.0,1
+aching pain worse on touch,much heaviness,1.0,1
+aching pain worse on touch,sycotic excrescences with burning pain,1.0,1
+aching pain worse on touch,redness in great toe in gout,1.0,1
+aching pain worse on touch,obliging to bend back inward,1.0,1
+aching pain worse on touch,fig warts with burning,1.0,1
+aching pain worse on touch,pain in thighs when walking,1.0,1
+aching pain worse on touch,improved by bending backward,1.0,1
+aching pain worse on touch,much swelling,1.0,1
+aching pain worse on touch,wandering burning affecting one joint after another,1.0,1
+aching pain worse on touch,worse hanging hand down,1.0,1
+aching pain worse on touch,rheumatic gonorrhoea,1.0,1
+aching pain worse on touch,very sensitive to motion,1.0,1
+aching pain worse on touch,drawing pains in small of back,1.0,1
+aching pain worse on touch,paralytic pain in small of back,1.0,1
+aching pain worse on touch,indescribable uneasiness in lumbar region,1.0,1
+aching pain worse on touch,stitches in great toe in gout,1.0,1
+aching pain worse on touch,arthritic tearing with stiffness of wrist joints,1.0,1
+aching pain worse on touch,painful drawing in joints of toes,1.0,1
+aching pain worse on touch,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+aching pain worse on touch,marked weakness,1.0,1
+aching pain worse on touch,leucorrhea milky,1.0,1
+aching pain worse on touch,very red shining swelling of parts,1.0,1
+aching pain worse on touch,great heaviness of part,1.0,1
+aching pain worse on touch,pain as if sprained in right shoulder joint,1.0,1
+aching pain worse on touch,excessive pain,1.0,1
+aching pain worse on touch,arthritic tearing with swelling of wrist joints,1.0,1
+aching pain worse on touch,arthritic complaints,1.0,1
+aching pain worse on touch,sharp stitches in heels from within outward,1.0,1
+aching pain worse on touch,bright shining red,1.0,1
+aching pain worse on touch,tearing sting in joints,1.0,1
+aching pain worse on touch,swelling in great toe in gout,1.0,1
+aching pain worse on touch,paralytic tearing along right upper arm to hand,1.0,1
+aching pain worse on touch,aching pain worse on motion,1.0,1
+aching pain worse on touch,arthritic stinging with stiffness of wrist joints,1.0,1
+aching pain worse on touch,drawing pains extending to pubic region,1.0,1
+aching pain worse on touch,marked weariness in lumbar region,1.0,1
+aching pain worse on touch,nervousness so great that music seems to go through bones,1.0,1
+aching pain worse on touch,fig warts with intense itching,1.0,1
+aching pain worse on touch,pressing pain in both upper arms near elbow joint,1.0,1
+aching pain worse on touch,constant pain in small of back,1.0,1
+aching pain worse on touch,aching pain in right radius,1.0,1
+aching pain worse on touch,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+aching pain worse on touch,arthritic stinging with swelling of wrist joints,1.0,1
+aching pain worse on touch,leucorrhea copious,1.0,1
+aching pain worse on touch,worse walking,1.0,1
+aching pain worse on touch,leucorrhea causing itching,1.0,1
+improved by bending backward,dragging sensation from behind forward,1.0,1
+improved by bending backward,much heaviness,1.0,1
+improved by bending backward,sycotic excrescences with burning pain,1.0,1
+improved by bending backward,redness in great toe in gout,1.0,1
+improved by bending backward,obliging to bend back inward,1.0,1
+improved by bending backward,fig warts with burning,1.0,1
+improved by bending backward,pain in thighs when walking,1.0,1
+improved by bending backward,much swelling,1.0,1
+improved by bending backward,wandering burning affecting one joint after another,1.0,1
+improved by bending backward,worse hanging hand down,1.0,1
+improved by bending backward,rheumatic gonorrhoea,1.0,1
+improved by bending backward,very sensitive to motion,1.0,1
+improved by bending backward,drawing pains in small of back,1.0,1
+improved by bending backward,paralytic pain in small of back,1.0,1
+improved by bending backward,indescribable uneasiness in lumbar region,1.0,1
+improved by bending backward,stitches in great toe in gout,1.0,1
+improved by bending backward,arthritic tearing with stiffness of wrist joints,1.0,1
+improved by bending backward,painful drawing in joints of toes,1.0,1
+improved by bending backward,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+improved by bending backward,marked weakness,1.0,1
+improved by bending backward,leucorrhea milky,1.0,1
+improved by bending backward,very red shining swelling of parts,1.0,1
+improved by bending backward,great heaviness of part,1.0,1
+improved by bending backward,pain as if sprained in right shoulder joint,1.0,1
+improved by bending backward,excessive pain,1.0,1
+improved by bending backward,arthritic tearing with swelling of wrist joints,1.0,1
+improved by bending backward,arthritic complaints,1.0,1
+improved by bending backward,sharp stitches in heels from within outward,1.0,1
+improved by bending backward,bright shining red,1.0,1
+improved by bending backward,tearing sting in joints,1.0,1
+improved by bending backward,swelling in great toe in gout,1.0,1
+improved by bending backward,paralytic tearing along right upper arm to hand,1.0,1
+improved by bending backward,aching pain worse on motion,1.0,1
+improved by bending backward,arthritic stinging with stiffness of wrist joints,1.0,1
+improved by bending backward,drawing pains extending to pubic region,1.0,1
+improved by bending backward,marked weariness in lumbar region,1.0,1
+improved by bending backward,nervousness so great that music seems to go through bones,1.0,1
+improved by bending backward,fig warts with intense itching,1.0,1
+improved by bending backward,pressing pain in both upper arms near elbow joint,1.0,1
+improved by bending backward,constant pain in small of back,1.0,1
+improved by bending backward,aching pain worse on touch,1.0,1
+improved by bending backward,aching pain in right radius,1.0,1
+improved by bending backward,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+improved by bending backward,arthritic stinging with swelling of wrist joints,1.0,1
+improved by bending backward,leucorrhea copious,1.0,1
+improved by bending backward,worse walking,1.0,1
+improved by bending backward,leucorrhea causing itching,1.0,1
+bright shining red,dragging sensation from behind forward,1.0,1
+bright shining red,much heaviness,1.0,1
+bright shining red,sycotic excrescences with burning pain,1.0,1
+bright shining red,redness in great toe in gout,1.0,1
+bright shining red,obliging to bend back inward,1.0,1
+bright shining red,fig warts with burning,1.0,1
+bright shining red,pain in thighs when walking,1.0,1
+bright shining red,improved by bending backward,1.0,1
+bright shining red,much swelling,1.0,1
+bright shining red,wandering burning affecting one joint after another,1.0,1
+bright shining red,worse hanging hand down,1.0,1
+bright shining red,rheumatic gonorrhoea,1.0,1
+bright shining red,very sensitive to motion,1.0,1
+bright shining red,drawing pains in small of back,1.0,1
+bright shining red,paralytic pain in small of back,1.0,1
+bright shining red,indescribable uneasiness in lumbar region,1.0,1
+bright shining red,stitches in great toe in gout,1.0,1
+bright shining red,arthritic tearing with stiffness of wrist joints,1.0,1
+bright shining red,painful drawing in joints of toes,1.0,1
+bright shining red,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+bright shining red,marked weakness,1.0,1
+bright shining red,leucorrhea milky,1.0,1
+bright shining red,very red shining swelling of parts,1.0,1
+bright shining red,great heaviness of part,1.0,1
+bright shining red,pain as if sprained in right shoulder joint,1.0,1
+bright shining red,excessive pain,1.0,1
+bright shining red,arthritic tearing with swelling of wrist joints,1.0,1
+bright shining red,arthritic complaints,1.0,1
+bright shining red,sharp stitches in heels from within outward,1.0,1
+bright shining red,tearing sting in joints,1.0,1
+bright shining red,swelling in great toe in gout,1.0,1
+bright shining red,paralytic tearing along right upper arm to hand,1.0,1
+bright shining red,aching pain worse on motion,1.0,1
+bright shining red,arthritic stinging with stiffness of wrist joints,1.0,1
+bright shining red,drawing pains extending to pubic region,1.0,1
+bright shining red,marked weariness in lumbar region,1.0,1
+bright shining red,nervousness so great that music seems to go through bones,1.0,1
+bright shining red,fig warts with intense itching,1.0,1
+bright shining red,pressing pain in both upper arms near elbow joint,1.0,1
+bright shining red,constant pain in small of back,1.0,1
+bright shining red,aching pain worse on touch,1.0,1
+bright shining red,aching pain in right radius,1.0,1
+bright shining red,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+bright shining red,arthritic stinging with swelling of wrist joints,1.0,1
+bright shining red,leucorrhea copious,1.0,1
+bright shining red,worse walking,1.0,1
+bright shining red,leucorrhea causing itching,1.0,1
+pressing pain in both upper arms near elbow joint,dragging sensation from behind forward,1.0,1
+pressing pain in both upper arms near elbow joint,much heaviness,1.0,1
+pressing pain in both upper arms near elbow joint,sycotic excrescences with burning pain,1.0,1
+pressing pain in both upper arms near elbow joint,redness in great toe in gout,1.0,1
+pressing pain in both upper arms near elbow joint,obliging to bend back inward,1.0,1
+pressing pain in both upper arms near elbow joint,fig warts with burning,1.0,1
+pressing pain in both upper arms near elbow joint,pain in thighs when walking,1.0,1
+pressing pain in both upper arms near elbow joint,improved by bending backward,1.0,1
+pressing pain in both upper arms near elbow joint,much swelling,1.0,1
+pressing pain in both upper arms near elbow joint,wandering burning affecting one joint after another,1.0,1
+pressing pain in both upper arms near elbow joint,worse hanging hand down,1.0,1
+pressing pain in both upper arms near elbow joint,rheumatic gonorrhoea,1.0,1
+pressing pain in both upper arms near elbow joint,very sensitive to motion,1.0,1
+pressing pain in both upper arms near elbow joint,drawing pains in small of back,1.0,1
+pressing pain in both upper arms near elbow joint,paralytic pain in small of back,1.0,1
+pressing pain in both upper arms near elbow joint,indescribable uneasiness in lumbar region,1.0,1
+pressing pain in both upper arms near elbow joint,stitches in great toe in gout,1.0,1
+pressing pain in both upper arms near elbow joint,arthritic tearing with stiffness of wrist joints,1.0,1
+pressing pain in both upper arms near elbow joint,painful drawing in joints of toes,1.0,1
+pressing pain in both upper arms near elbow joint,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+pressing pain in both upper arms near elbow joint,marked weakness,1.0,1
+pressing pain in both upper arms near elbow joint,leucorrhea milky,1.0,1
+pressing pain in both upper arms near elbow joint,very red shining swelling of parts,1.0,1
+pressing pain in both upper arms near elbow joint,great heaviness of part,1.0,1
+pressing pain in both upper arms near elbow joint,pain as if sprained in right shoulder joint,1.0,1
+pressing pain in both upper arms near elbow joint,excessive pain,1.0,1
+pressing pain in both upper arms near elbow joint,arthritic tearing with swelling of wrist joints,1.0,1
+pressing pain in both upper arms near elbow joint,arthritic complaints,1.0,1
+pressing pain in both upper arms near elbow joint,sharp stitches in heels from within outward,1.0,1
+pressing pain in both upper arms near elbow joint,bright shining red,1.0,1
+pressing pain in both upper arms near elbow joint,tearing sting in joints,1.0,1
+pressing pain in both upper arms near elbow joint,swelling in great toe in gout,1.0,1
+pressing pain in both upper arms near elbow joint,paralytic tearing along right upper arm to hand,1.0,1
+pressing pain in both upper arms near elbow joint,aching pain worse on motion,1.0,1
+pressing pain in both upper arms near elbow joint,arthritic stinging with stiffness of wrist joints,1.0,1
+pressing pain in both upper arms near elbow joint,drawing pains extending to pubic region,1.0,1
+pressing pain in both upper arms near elbow joint,marked weariness in lumbar region,1.0,1
+pressing pain in both upper arms near elbow joint,nervousness so great that music seems to go through bones,1.0,1
+pressing pain in both upper arms near elbow joint,fig warts with intense itching,1.0,1
+pressing pain in both upper arms near elbow joint,constant pain in small of back,1.0,1
+pressing pain in both upper arms near elbow joint,aching pain worse on touch,1.0,1
+pressing pain in both upper arms near elbow joint,aching pain in right radius,1.0,1
+pressing pain in both upper arms near elbow joint,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+pressing pain in both upper arms near elbow joint,arthritic stinging with swelling of wrist joints,1.0,1
+pressing pain in both upper arms near elbow joint,leucorrhea copious,1.0,1
+pressing pain in both upper arms near elbow joint,worse walking,1.0,1
+pressing pain in both upper arms near elbow joint,leucorrhea causing itching,1.0,1
+arthritic tearing with stiffness of wrist joints,dragging sensation from behind forward,1.0,1
+arthritic tearing with stiffness of wrist joints,much heaviness,1.0,1
+arthritic tearing with stiffness of wrist joints,sycotic excrescences with burning pain,1.0,1
+arthritic tearing with stiffness of wrist joints,redness in great toe in gout,1.0,1
+arthritic tearing with stiffness of wrist joints,obliging to bend back inward,1.0,1
+arthritic tearing with stiffness of wrist joints,fig warts with burning,1.0,1
+arthritic tearing with stiffness of wrist joints,pain in thighs when walking,1.0,1
+arthritic tearing with stiffness of wrist joints,improved by bending backward,1.0,1
+arthritic tearing with stiffness of wrist joints,much swelling,1.0,1
+arthritic tearing with stiffness of wrist joints,wandering burning affecting one joint after another,1.0,1
+arthritic tearing with stiffness of wrist joints,worse hanging hand down,1.0,1
+arthritic tearing with stiffness of wrist joints,rheumatic gonorrhoea,1.0,1
+arthritic tearing with stiffness of wrist joints,very sensitive to motion,1.0,1
+arthritic tearing with stiffness of wrist joints,drawing pains in small of back,1.0,1
+arthritic tearing with stiffness of wrist joints,paralytic pain in small of back,1.0,1
+arthritic tearing with stiffness of wrist joints,indescribable uneasiness in lumbar region,1.0,1
+arthritic tearing with stiffness of wrist joints,stitches in great toe in gout,1.0,1
+arthritic tearing with stiffness of wrist joints,painful drawing in joints of toes,1.0,1
+arthritic tearing with stiffness of wrist joints,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+arthritic tearing with stiffness of wrist joints,marked weakness,1.0,1
+arthritic tearing with stiffness of wrist joints,leucorrhea milky,1.0,1
+arthritic tearing with stiffness of wrist joints,very red shining swelling of parts,1.0,1
+arthritic tearing with stiffness of wrist joints,great heaviness of part,1.0,1
+arthritic tearing with stiffness of wrist joints,pain as if sprained in right shoulder joint,1.0,1
+arthritic tearing with stiffness of wrist joints,excessive pain,1.0,1
+arthritic tearing with stiffness of wrist joints,arthritic tearing with swelling of wrist joints,1.0,1
+arthritic tearing with stiffness of wrist joints,arthritic complaints,1.0,1
+arthritic tearing with stiffness of wrist joints,sharp stitches in heels from within outward,1.0,1
+arthritic tearing with stiffness of wrist joints,bright shining red,1.0,1
+arthritic tearing with stiffness of wrist joints,tearing sting in joints,1.0,1
+arthritic tearing with stiffness of wrist joints,swelling in great toe in gout,1.0,1
+arthritic tearing with stiffness of wrist joints,paralytic tearing along right upper arm to hand,1.0,1
+arthritic tearing with stiffness of wrist joints,aching pain worse on motion,1.0,1
+arthritic tearing with stiffness of wrist joints,arthritic stinging with stiffness of wrist joints,1.0,1
+arthritic tearing with stiffness of wrist joints,drawing pains extending to pubic region,1.0,1
+arthritic tearing with stiffness of wrist joints,marked weariness in lumbar region,1.0,1
+arthritic tearing with stiffness of wrist joints,nervousness so great that music seems to go through bones,1.0,1
+arthritic tearing with stiffness of wrist joints,fig warts with intense itching,1.0,1
+arthritic tearing with stiffness of wrist joints,pressing pain in both upper arms near elbow joint,1.0,1
+arthritic tearing with stiffness of wrist joints,constant pain in small of back,1.0,1
+arthritic tearing with stiffness of wrist joints,aching pain worse on touch,1.0,1
+arthritic tearing with stiffness of wrist joints,aching pain in right radius,1.0,1
+arthritic tearing with stiffness of wrist joints,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+arthritic tearing with stiffness of wrist joints,arthritic stinging with swelling of wrist joints,1.0,1
+arthritic tearing with stiffness of wrist joints,leucorrhea copious,1.0,1
+arthritic tearing with stiffness of wrist joints,worse walking,1.0,1
+arthritic tearing with stiffness of wrist joints,leucorrhea causing itching,1.0,1
+paralytic tearing along right upper arm to hand,dragging sensation from behind forward,1.0,1
+paralytic tearing along right upper arm to hand,much heaviness,1.0,1
+paralytic tearing along right upper arm to hand,sycotic excrescences with burning pain,1.0,1
+paralytic tearing along right upper arm to hand,redness in great toe in gout,1.0,1
+paralytic tearing along right upper arm to hand,obliging to bend back inward,1.0,1
+paralytic tearing along right upper arm to hand,fig warts with burning,1.0,1
+paralytic tearing along right upper arm to hand,pain in thighs when walking,1.0,1
+paralytic tearing along right upper arm to hand,improved by bending backward,1.0,1
+paralytic tearing along right upper arm to hand,much swelling,1.0,1
+paralytic tearing along right upper arm to hand,wandering burning affecting one joint after another,1.0,1
+paralytic tearing along right upper arm to hand,worse hanging hand down,1.0,1
+paralytic tearing along right upper arm to hand,rheumatic gonorrhoea,1.0,1
+paralytic tearing along right upper arm to hand,very sensitive to motion,1.0,1
+paralytic tearing along right upper arm to hand,drawing pains in small of back,1.0,1
+paralytic tearing along right upper arm to hand,paralytic pain in small of back,1.0,1
+paralytic tearing along right upper arm to hand,indescribable uneasiness in lumbar region,1.0,1
+paralytic tearing along right upper arm to hand,stitches in great toe in gout,1.0,1
+paralytic tearing along right upper arm to hand,arthritic tearing with stiffness of wrist joints,1.0,1
+paralytic tearing along right upper arm to hand,painful drawing in joints of toes,1.0,1
+paralytic tearing along right upper arm to hand,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+paralytic tearing along right upper arm to hand,marked weakness,1.0,1
+paralytic tearing along right upper arm to hand,leucorrhea milky,1.0,1
+paralytic tearing along right upper arm to hand,very red shining swelling of parts,1.0,1
+paralytic tearing along right upper arm to hand,great heaviness of part,1.0,1
+paralytic tearing along right upper arm to hand,pain as if sprained in right shoulder joint,1.0,1
+paralytic tearing along right upper arm to hand,excessive pain,1.0,1
+paralytic tearing along right upper arm to hand,arthritic tearing with swelling of wrist joints,1.0,1
+paralytic tearing along right upper arm to hand,arthritic complaints,1.0,1
+paralytic tearing along right upper arm to hand,sharp stitches in heels from within outward,1.0,1
+paralytic tearing along right upper arm to hand,bright shining red,1.0,1
+paralytic tearing along right upper arm to hand,tearing sting in joints,1.0,1
+paralytic tearing along right upper arm to hand,swelling in great toe in gout,1.0,1
+paralytic tearing along right upper arm to hand,aching pain worse on motion,1.0,1
+paralytic tearing along right upper arm to hand,arthritic stinging with stiffness of wrist joints,1.0,1
+paralytic tearing along right upper arm to hand,drawing pains extending to pubic region,1.0,1
+paralytic tearing along right upper arm to hand,marked weariness in lumbar region,1.0,1
+paralytic tearing along right upper arm to hand,nervousness so great that music seems to go through bones,1.0,1
+paralytic tearing along right upper arm to hand,fig warts with intense itching,1.0,1
+paralytic tearing along right upper arm to hand,pressing pain in both upper arms near elbow joint,1.0,1
+paralytic tearing along right upper arm to hand,constant pain in small of back,1.0,1
+paralytic tearing along right upper arm to hand,aching pain worse on touch,1.0,1
+paralytic tearing along right upper arm to hand,aching pain in right radius,1.0,1
+paralytic tearing along right upper arm to hand,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+paralytic tearing along right upper arm to hand,arthritic stinging with swelling of wrist joints,1.0,1
+paralytic tearing along right upper arm to hand,leucorrhea copious,1.0,1
+paralytic tearing along right upper arm to hand,worse walking,1.0,1
+paralytic tearing along right upper arm to hand,leucorrhea causing itching,1.0,1
+sycotic excrescences with burning pain,dragging sensation from behind forward,1.0,1
+sycotic excrescences with burning pain,much heaviness,1.0,1
+sycotic excrescences with burning pain,redness in great toe in gout,1.0,1
+sycotic excrescences with burning pain,obliging to bend back inward,1.0,1
+sycotic excrescences with burning pain,fig warts with burning,1.0,1
+sycotic excrescences with burning pain,pain in thighs when walking,1.0,1
+sycotic excrescences with burning pain,improved by bending backward,1.0,1
+sycotic excrescences with burning pain,much swelling,1.0,1
+sycotic excrescences with burning pain,wandering burning affecting one joint after another,1.0,1
+sycotic excrescences with burning pain,worse hanging hand down,1.0,1
+sycotic excrescences with burning pain,rheumatic gonorrhoea,1.0,1
+sycotic excrescences with burning pain,very sensitive to motion,1.0,1
+sycotic excrescences with burning pain,drawing pains in small of back,1.0,1
+sycotic excrescences with burning pain,paralytic pain in small of back,1.0,1
+sycotic excrescences with burning pain,indescribable uneasiness in lumbar region,1.0,1
+sycotic excrescences with burning pain,stitches in great toe in gout,1.0,1
+sycotic excrescences with burning pain,arthritic tearing with stiffness of wrist joints,1.0,1
+sycotic excrescences with burning pain,painful drawing in joints of toes,1.0,1
+sycotic excrescences with burning pain,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+sycotic excrescences with burning pain,marked weakness,1.0,1
+sycotic excrescences with burning pain,leucorrhea milky,1.0,1
+sycotic excrescences with burning pain,very red shining swelling of parts,1.0,1
+sycotic excrescences with burning pain,great heaviness of part,1.0,1
+sycotic excrescences with burning pain,pain as if sprained in right shoulder joint,1.0,1
+sycotic excrescences with burning pain,excessive pain,1.0,1
+sycotic excrescences with burning pain,arthritic tearing with swelling of wrist joints,1.0,1
+sycotic excrescences with burning pain,arthritic complaints,1.0,1
+sycotic excrescences with burning pain,sharp stitches in heels from within outward,1.0,1
+sycotic excrescences with burning pain,bright shining red,1.0,1
+sycotic excrescences with burning pain,tearing sting in joints,1.0,1
+sycotic excrescences with burning pain,swelling in great toe in gout,1.0,1
+sycotic excrescences with burning pain,paralytic tearing along right upper arm to hand,1.0,1
+sycotic excrescences with burning pain,aching pain worse on motion,1.0,1
+sycotic excrescences with burning pain,arthritic stinging with stiffness of wrist joints,1.0,1
+sycotic excrescences with burning pain,drawing pains extending to pubic region,1.0,1
+sycotic excrescences with burning pain,marked weariness in lumbar region,1.0,1
+sycotic excrescences with burning pain,nervousness so great that music seems to go through bones,1.0,1
+sycotic excrescences with burning pain,fig warts with intense itching,1.0,1
+sycotic excrescences with burning pain,pressing pain in both upper arms near elbow joint,1.0,1
+sycotic excrescences with burning pain,constant pain in small of back,1.0,1
+sycotic excrescences with burning pain,aching pain worse on touch,1.0,1
+sycotic excrescences with burning pain,aching pain in right radius,1.0,1
+sycotic excrescences with burning pain,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+sycotic excrescences with burning pain,arthritic stinging with swelling of wrist joints,1.0,1
+sycotic excrescences with burning pain,leucorrhea copious,1.0,1
+sycotic excrescences with burning pain,worse walking,1.0,1
+sycotic excrescences with burning pain,leucorrhea causing itching,1.0,1
+marked weakness,dragging sensation from behind forward,0.5,1
+marked weakness,much heaviness,0.5,1
+marked weakness,sycotic excrescences with burning pain,0.5,1
+marked weakness,redness in great toe in gout,0.5,1
+marked weakness,obliging to bend back inward,0.5,1
+marked weakness,fig warts with burning,0.5,1
+marked weakness,pain in thighs when walking,0.5,1
+marked weakness,improved by bending backward,0.5,1
+marked weakness,much swelling,0.5,1
+marked weakness,wandering burning affecting one joint after another,0.5,1
+marked weakness,worse hanging hand down,0.5,1
+marked weakness,rheumatic gonorrhoea,0.5,1
+marked weakness,very sensitive to motion,0.5,1
+marked weakness,drawing pains in small of back,0.5,1
+marked weakness,paralytic pain in small of back,0.5,1
+marked weakness,indescribable uneasiness in lumbar region,0.5,1
+marked weakness,stitches in great toe in gout,0.5,1
+marked weakness,arthritic tearing with stiffness of wrist joints,0.5,1
+marked weakness,painful drawing in joints of toes,0.5,1
+marked weakness,tearing pain with pressure in metacarpal bones of both feet,0.5,1
+marked weakness,leucorrhea milky,0.5,1
+marked weakness,very red shining swelling of parts,0.5,1
+marked weakness,great heaviness of part,0.5,1
+marked weakness,pain as if sprained in right shoulder joint,0.5,1
+marked weakness,excessive pain,0.5,1
+marked weakness,arthritic tearing with swelling of wrist joints,0.5,1
+marked weakness,arthritic complaints,0.5,1
+marked weakness,sharp stitches in heels from within outward,0.5,1
+marked weakness,bright shining red,0.5,1
+marked weakness,tearing sting in joints,0.5,1
+marked weakness,swelling in great toe in gout,0.5,1
+marked weakness,paralytic tearing along right upper arm to hand,0.5,1
+marked weakness,aching pain worse on motion,0.5,1
+marked weakness,arthritic stinging with stiffness of wrist joints,0.5,1
+marked weakness,drawing pains extending to pubic region,0.5,1
+marked weakness,marked weariness in lumbar region,0.5,1
+marked weakness,nervousness so great that music seems to go through bones,0.5,1
+marked weakness,fig warts with intense itching,0.5,1
+marked weakness,pressing pain in both upper arms near elbow joint,0.5,1
+marked weakness,constant pain in small of back,0.5,1
+marked weakness,aching pain worse on touch,0.5,1
+marked weakness,aching pain in right radius,0.5,1
+marked weakness,rheumatism of metatarso-phalangeal joint of great toe,0.5,1
+marked weakness,arthritic stinging with swelling of wrist joints,0.5,1
+marked weakness,leucorrhea copious,0.5,1
+marked weakness,worse walking,0.5,1
+marked weakness,leucorrhea causing itching,0.5,1
+much heaviness,dragging sensation from behind forward,1.0,1
+much heaviness,sycotic excrescences with burning pain,1.0,1
+much heaviness,redness in great toe in gout,1.0,1
+much heaviness,obliging to bend back inward,1.0,1
+much heaviness,fig warts with burning,1.0,1
+much heaviness,pain in thighs when walking,1.0,1
+much heaviness,improved by bending backward,1.0,1
+much heaviness,much swelling,1.0,1
+much heaviness,wandering burning affecting one joint after another,1.0,1
+much heaviness,worse hanging hand down,1.0,1
+much heaviness,rheumatic gonorrhoea,1.0,1
+much heaviness,very sensitive to motion,1.0,1
+much heaviness,drawing pains in small of back,1.0,1
+much heaviness,paralytic pain in small of back,1.0,1
+much heaviness,indescribable uneasiness in lumbar region,1.0,1
+much heaviness,stitches in great toe in gout,1.0,1
+much heaviness,arthritic tearing with stiffness of wrist joints,1.0,1
+much heaviness,painful drawing in joints of toes,1.0,1
+much heaviness,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+much heaviness,marked weakness,1.0,1
+much heaviness,leucorrhea milky,1.0,1
+much heaviness,very red shining swelling of parts,1.0,1
+much heaviness,great heaviness of part,1.0,1
+much heaviness,pain as if sprained in right shoulder joint,1.0,1
+much heaviness,excessive pain,1.0,1
+much heaviness,arthritic tearing with swelling of wrist joints,1.0,1
+much heaviness,arthritic complaints,1.0,1
+much heaviness,sharp stitches in heels from within outward,1.0,1
+much heaviness,bright shining red,1.0,1
+much heaviness,tearing sting in joints,1.0,1
+much heaviness,swelling in great toe in gout,1.0,1
+much heaviness,paralytic tearing along right upper arm to hand,1.0,1
+much heaviness,aching pain worse on motion,1.0,1
+much heaviness,arthritic stinging with stiffness of wrist joints,1.0,1
+much heaviness,drawing pains extending to pubic region,1.0,1
+much heaviness,marked weariness in lumbar region,1.0,1
+much heaviness,nervousness so great that music seems to go through bones,1.0,1
+much heaviness,fig warts with intense itching,1.0,1
+much heaviness,pressing pain in both upper arms near elbow joint,1.0,1
+much heaviness,constant pain in small of back,1.0,1
+much heaviness,aching pain worse on touch,1.0,1
+much heaviness,aching pain in right radius,1.0,1
+much heaviness,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+much heaviness,arthritic stinging with swelling of wrist joints,1.0,1
+much heaviness,leucorrhea copious,1.0,1
+much heaviness,worse walking,1.0,1
+much heaviness,leucorrhea causing itching,1.0,1
+much swelling,dragging sensation from behind forward,0.5,1
+much swelling,much heaviness,0.5,1
+much swelling,sycotic excrescences with burning pain,0.5,1
+much swelling,redness in great toe in gout,0.5,1
+much swelling,obliging to bend back inward,0.5,1
+much swelling,fig warts with burning,0.5,1
+much swelling,pain in thighs when walking,0.5,1
+much swelling,improved by bending backward,0.5,1
+much swelling,wandering burning affecting one joint after another,0.5,1
+much swelling,worse hanging hand down,0.5,1
+much swelling,rheumatic gonorrhoea,0.5,1
+much swelling,very sensitive to motion,0.5,1
+much swelling,drawing pains in small of back,0.5,1
+much swelling,paralytic pain in small of back,0.5,1
+much swelling,indescribable uneasiness in lumbar region,0.5,1
+much swelling,stitches in great toe in gout,0.5,1
+much swelling,arthritic tearing with stiffness of wrist joints,0.5,1
+much swelling,painful drawing in joints of toes,0.5,1
+much swelling,tearing pain with pressure in metacarpal bones of both feet,0.5,1
+much swelling,marked weakness,0.5,1
+much swelling,leucorrhea milky,0.5,1
+much swelling,very red shining swelling of parts,0.5,1
+much swelling,great heaviness of part,0.5,1
+much swelling,pain as if sprained in right shoulder joint,0.5,1
+much swelling,excessive pain,0.5,1
+much swelling,arthritic tearing with swelling of wrist joints,0.5,1
+much swelling,arthritic complaints,0.5,1
+much swelling,sharp stitches in heels from within outward,0.5,1
+much swelling,bright shining red,0.5,1
+much swelling,tearing sting in joints,0.5,1
+much swelling,swelling in great toe in gout,0.5,1
+much swelling,paralytic tearing along right upper arm to hand,0.5,1
+much swelling,aching pain worse on motion,0.5,1
+much swelling,arthritic stinging with stiffness of wrist joints,0.5,1
+much swelling,drawing pains extending to pubic region,0.5,1
+much swelling,marked weariness in lumbar region,0.5,1
+much swelling,nervousness so great that music seems to go through bones,0.5,1
+much swelling,fig warts with intense itching,0.5,1
+much swelling,pressing pain in both upper arms near elbow joint,0.5,1
+much swelling,constant pain in small of back,0.5,1
+much swelling,aching pain worse on touch,0.5,1
+much swelling,aching pain in right radius,0.5,1
+much swelling,rheumatism of metatarso-phalangeal joint of great toe,0.5,1
+much swelling,arthritic stinging with swelling of wrist joints,0.5,1
+much swelling,leucorrhea copious,0.5,1
+much swelling,worse walking,0.5,1
+much swelling,leucorrhea causing itching,0.5,1
+very red shining swelling of parts,dragging sensation from behind forward,1.0,1
+very red shining swelling of parts,much heaviness,1.0,1
+very red shining swelling of parts,sycotic excrescences with burning pain,1.0,1
+very red shining swelling of parts,redness in great toe in gout,1.0,1
+very red shining swelling of parts,obliging to bend back inward,1.0,1
+very red shining swelling of parts,fig warts with burning,1.0,1
+very red shining swelling of parts,pain in thighs when walking,1.0,1
+very red shining swelling of parts,improved by bending backward,1.0,1
+very red shining swelling of parts,much swelling,1.0,1
+very red shining swelling of parts,wandering burning affecting one joint after another,1.0,1
+very red shining swelling of parts,worse hanging hand down,1.0,1
+very red shining swelling of parts,rheumatic gonorrhoea,1.0,1
+very red shining swelling of parts,very sensitive to motion,1.0,1
+very red shining swelling of parts,drawing pains in small of back,1.0,1
+very red shining swelling of parts,paralytic pain in small of back,1.0,1
+very red shining swelling of parts,indescribable uneasiness in lumbar region,1.0,1
+very red shining swelling of parts,stitches in great toe in gout,1.0,1
+very red shining swelling of parts,arthritic tearing with stiffness of wrist joints,1.0,1
+very red shining swelling of parts,painful drawing in joints of toes,1.0,1
+very red shining swelling of parts,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+very red shining swelling of parts,marked weakness,1.0,1
+very red shining swelling of parts,leucorrhea milky,1.0,1
+very red shining swelling of parts,great heaviness of part,1.0,1
+very red shining swelling of parts,pain as if sprained in right shoulder joint,1.0,1
+very red shining swelling of parts,excessive pain,1.0,1
+very red shining swelling of parts,arthritic tearing with swelling of wrist joints,1.0,1
+very red shining swelling of parts,arthritic complaints,1.0,1
+very red shining swelling of parts,sharp stitches in heels from within outward,1.0,1
+very red shining swelling of parts,bright shining red,1.0,1
+very red shining swelling of parts,tearing sting in joints,1.0,1
+very red shining swelling of parts,swelling in great toe in gout,1.0,1
+very red shining swelling of parts,paralytic tearing along right upper arm to hand,1.0,1
+very red shining swelling of parts,aching pain worse on motion,1.0,1
+very red shining swelling of parts,arthritic stinging with stiffness of wrist joints,1.0,1
+very red shining swelling of parts,drawing pains extending to pubic region,1.0,1
+very red shining swelling of parts,marked weariness in lumbar region,1.0,1
+very red shining swelling of parts,nervousness so great that music seems to go through bones,1.0,1
+very red shining swelling of parts,fig warts with intense itching,1.0,1
+very red shining swelling of parts,pressing pain in both upper arms near elbow joint,1.0,1
+very red shining swelling of parts,constant pain in small of back,1.0,1
+very red shining swelling of parts,aching pain worse on touch,1.0,1
+very red shining swelling of parts,aching pain in right radius,1.0,1
+very red shining swelling of parts,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+very red shining swelling of parts,arthritic stinging with swelling of wrist joints,1.0,1
+very red shining swelling of parts,leucorrhea copious,1.0,1
+very red shining swelling of parts,worse walking,1.0,1
+very red shining swelling of parts,leucorrhea causing itching,1.0,1
+aching pain in right radius,dragging sensation from behind forward,1.0,1
+aching pain in right radius,much heaviness,1.0,1
+aching pain in right radius,sycotic excrescences with burning pain,1.0,1
+aching pain in right radius,redness in great toe in gout,1.0,1
+aching pain in right radius,obliging to bend back inward,1.0,1
+aching pain in right radius,fig warts with burning,1.0,1
+aching pain in right radius,pain in thighs when walking,1.0,1
+aching pain in right radius,improved by bending backward,1.0,1
+aching pain in right radius,much swelling,1.0,1
+aching pain in right radius,wandering burning affecting one joint after another,1.0,1
+aching pain in right radius,worse hanging hand down,1.0,1
+aching pain in right radius,rheumatic gonorrhoea,1.0,1
+aching pain in right radius,very sensitive to motion,1.0,1
+aching pain in right radius,drawing pains in small of back,1.0,1
+aching pain in right radius,paralytic pain in small of back,1.0,1
+aching pain in right radius,indescribable uneasiness in lumbar region,1.0,1
+aching pain in right radius,stitches in great toe in gout,1.0,1
+aching pain in right radius,arthritic tearing with stiffness of wrist joints,1.0,1
+aching pain in right radius,painful drawing in joints of toes,1.0,1
+aching pain in right radius,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+aching pain in right radius,marked weakness,1.0,1
+aching pain in right radius,leucorrhea milky,1.0,1
+aching pain in right radius,very red shining swelling of parts,1.0,1
+aching pain in right radius,great heaviness of part,1.0,1
+aching pain in right radius,pain as if sprained in right shoulder joint,1.0,1
+aching pain in right radius,excessive pain,1.0,1
+aching pain in right radius,arthritic tearing with swelling of wrist joints,1.0,1
+aching pain in right radius,arthritic complaints,1.0,1
+aching pain in right radius,sharp stitches in heels from within outward,1.0,1
+aching pain in right radius,bright shining red,1.0,1
+aching pain in right radius,tearing sting in joints,1.0,1
+aching pain in right radius,swelling in great toe in gout,1.0,1
+aching pain in right radius,paralytic tearing along right upper arm to hand,1.0,1
+aching pain in right radius,aching pain worse on motion,1.0,1
+aching pain in right radius,arthritic stinging with stiffness of wrist joints,1.0,1
+aching pain in right radius,drawing pains extending to pubic region,1.0,1
+aching pain in right radius,marked weariness in lumbar region,1.0,1
+aching pain in right radius,nervousness so great that music seems to go through bones,1.0,1
+aching pain in right radius,fig warts with intense itching,1.0,1
+aching pain in right radius,pressing pain in both upper arms near elbow joint,1.0,1
+aching pain in right radius,constant pain in small of back,1.0,1
+aching pain in right radius,aching pain worse on touch,1.0,1
+aching pain in right radius,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+aching pain in right radius,arthritic stinging with swelling of wrist joints,1.0,1
+aching pain in right radius,leucorrhea copious,1.0,1
+aching pain in right radius,worse walking,1.0,1
+aching pain in right radius,leucorrhea causing itching,1.0,1
+arthritic tearing with swelling of wrist joints,dragging sensation from behind forward,1.0,1
+arthritic tearing with swelling of wrist joints,much heaviness,1.0,1
+arthritic tearing with swelling of wrist joints,sycotic excrescences with burning pain,1.0,1
+arthritic tearing with swelling of wrist joints,redness in great toe in gout,1.0,1
+arthritic tearing with swelling of wrist joints,obliging to bend back inward,1.0,1
+arthritic tearing with swelling of wrist joints,fig warts with burning,1.0,1
+arthritic tearing with swelling of wrist joints,pain in thighs when walking,1.0,1
+arthritic tearing with swelling of wrist joints,improved by bending backward,1.0,1
+arthritic tearing with swelling of wrist joints,much swelling,1.0,1
+arthritic tearing with swelling of wrist joints,wandering burning affecting one joint after another,1.0,1
+arthritic tearing with swelling of wrist joints,worse hanging hand down,1.0,1
+arthritic tearing with swelling of wrist joints,rheumatic gonorrhoea,1.0,1
+arthritic tearing with swelling of wrist joints,very sensitive to motion,1.0,1
+arthritic tearing with swelling of wrist joints,drawing pains in small of back,1.0,1
+arthritic tearing with swelling of wrist joints,paralytic pain in small of back,1.0,1
+arthritic tearing with swelling of wrist joints,indescribable uneasiness in lumbar region,1.0,1
+arthritic tearing with swelling of wrist joints,stitches in great toe in gout,1.0,1
+arthritic tearing with swelling of wrist joints,arthritic tearing with stiffness of wrist joints,1.0,1
+arthritic tearing with swelling of wrist joints,painful drawing in joints of toes,1.0,1
+arthritic tearing with swelling of wrist joints,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+arthritic tearing with swelling of wrist joints,marked weakness,1.0,1
+arthritic tearing with swelling of wrist joints,leucorrhea milky,1.0,1
+arthritic tearing with swelling of wrist joints,very red shining swelling of parts,1.0,1
+arthritic tearing with swelling of wrist joints,great heaviness of part,1.0,1
+arthritic tearing with swelling of wrist joints,pain as if sprained in right shoulder joint,1.0,1
+arthritic tearing with swelling of wrist joints,excessive pain,1.0,1
+arthritic tearing with swelling of wrist joints,arthritic complaints,1.0,1
+arthritic tearing with swelling of wrist joints,sharp stitches in heels from within outward,1.0,1
+arthritic tearing with swelling of wrist joints,bright shining red,1.0,1
+arthritic tearing with swelling of wrist joints,tearing sting in joints,1.0,1
+arthritic tearing with swelling of wrist joints,swelling in great toe in gout,1.0,1
+arthritic tearing with swelling of wrist joints,paralytic tearing along right upper arm to hand,1.0,1
+arthritic tearing with swelling of wrist joints,aching pain worse on motion,1.0,1
+arthritic tearing with swelling of wrist joints,arthritic stinging with stiffness of wrist joints,1.0,1
+arthritic tearing with swelling of wrist joints,drawing pains extending to pubic region,1.0,1
+arthritic tearing with swelling of wrist joints,marked weariness in lumbar region,1.0,1
+arthritic tearing with swelling of wrist joints,nervousness so great that music seems to go through bones,1.0,1
+arthritic tearing with swelling of wrist joints,fig warts with intense itching,1.0,1
+arthritic tearing with swelling of wrist joints,pressing pain in both upper arms near elbow joint,1.0,1
+arthritic tearing with swelling of wrist joints,constant pain in small of back,1.0,1
+arthritic tearing with swelling of wrist joints,aching pain worse on touch,1.0,1
+arthritic tearing with swelling of wrist joints,aching pain in right radius,1.0,1
+arthritic tearing with swelling of wrist joints,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+arthritic tearing with swelling of wrist joints,arthritic stinging with swelling of wrist joints,1.0,1
+arthritic tearing with swelling of wrist joints,leucorrhea copious,1.0,1
+arthritic tearing with swelling of wrist joints,worse walking,1.0,1
+arthritic tearing with swelling of wrist joints,leucorrhea causing itching,1.0,1
+excessive pain,dragging sensation from behind forward,1.0,1
+excessive pain,much heaviness,1.0,1
+excessive pain,sycotic excrescences with burning pain,1.0,1
+excessive pain,redness in great toe in gout,1.0,1
+excessive pain,obliging to bend back inward,1.0,1
+excessive pain,fig warts with burning,1.0,1
+excessive pain,pain in thighs when walking,1.0,1
+excessive pain,improved by bending backward,1.0,1
+excessive pain,much swelling,1.0,1
+excessive pain,wandering burning affecting one joint after another,1.0,1
+excessive pain,worse hanging hand down,1.0,1
+excessive pain,rheumatic gonorrhoea,1.0,1
+excessive pain,very sensitive to motion,1.0,1
+excessive pain,drawing pains in small of back,1.0,1
+excessive pain,paralytic pain in small of back,1.0,1
+excessive pain,indescribable uneasiness in lumbar region,1.0,1
+excessive pain,stitches in great toe in gout,1.0,1
+excessive pain,arthritic tearing with stiffness of wrist joints,1.0,1
+excessive pain,painful drawing in joints of toes,1.0,1
+excessive pain,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+excessive pain,marked weakness,1.0,1
+excessive pain,leucorrhea milky,1.0,1
+excessive pain,very red shining swelling of parts,1.0,1
+excessive pain,great heaviness of part,1.0,1
+excessive pain,pain as if sprained in right shoulder joint,1.0,1
+excessive pain,arthritic tearing with swelling of wrist joints,1.0,1
+excessive pain,arthritic complaints,1.0,1
+excessive pain,sharp stitches in heels from within outward,1.0,1
+excessive pain,bright shining red,1.0,1
+excessive pain,tearing sting in joints,1.0,1
+excessive pain,swelling in great toe in gout,1.0,1
+excessive pain,paralytic tearing along right upper arm to hand,1.0,1
+excessive pain,aching pain worse on motion,1.0,1
+excessive pain,arthritic stinging with stiffness of wrist joints,1.0,1
+excessive pain,drawing pains extending to pubic region,1.0,1
+excessive pain,marked weariness in lumbar region,1.0,1
+excessive pain,nervousness so great that music seems to go through bones,1.0,1
+excessive pain,fig warts with intense itching,1.0,1
+excessive pain,pressing pain in both upper arms near elbow joint,1.0,1
+excessive pain,constant pain in small of back,1.0,1
+excessive pain,aching pain worse on touch,1.0,1
+excessive pain,aching pain in right radius,1.0,1
+excessive pain,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+excessive pain,arthritic stinging with swelling of wrist joints,1.0,1
+excessive pain,leucorrhea copious,1.0,1
+excessive pain,worse walking,1.0,1
+excessive pain,leucorrhea causing itching,1.0,1
+arthritic stinging with swelling of wrist joints,dragging sensation from behind forward,1.0,1
+arthritic stinging with swelling of wrist joints,much heaviness,1.0,1
+arthritic stinging with swelling of wrist joints,sycotic excrescences with burning pain,1.0,1
+arthritic stinging with swelling of wrist joints,redness in great toe in gout,1.0,1
+arthritic stinging with swelling of wrist joints,obliging to bend back inward,1.0,1
+arthritic stinging with swelling of wrist joints,fig warts with burning,1.0,1
+arthritic stinging with swelling of wrist joints,pain in thighs when walking,1.0,1
+arthritic stinging with swelling of wrist joints,improved by bending backward,1.0,1
+arthritic stinging with swelling of wrist joints,much swelling,1.0,1
+arthritic stinging with swelling of wrist joints,wandering burning affecting one joint after another,1.0,1
+arthritic stinging with swelling of wrist joints,worse hanging hand down,1.0,1
+arthritic stinging with swelling of wrist joints,rheumatic gonorrhoea,1.0,1
+arthritic stinging with swelling of wrist joints,very sensitive to motion,1.0,1
+arthritic stinging with swelling of wrist joints,drawing pains in small of back,1.0,1
+arthritic stinging with swelling of wrist joints,paralytic pain in small of back,1.0,1
+arthritic stinging with swelling of wrist joints,indescribable uneasiness in lumbar region,1.0,1
+arthritic stinging with swelling of wrist joints,stitches in great toe in gout,1.0,1
+arthritic stinging with swelling of wrist joints,arthritic tearing with stiffness of wrist joints,1.0,1
+arthritic stinging with swelling of wrist joints,painful drawing in joints of toes,1.0,1
+arthritic stinging with swelling of wrist joints,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+arthritic stinging with swelling of wrist joints,marked weakness,1.0,1
+arthritic stinging with swelling of wrist joints,leucorrhea milky,1.0,1
+arthritic stinging with swelling of wrist joints,very red shining swelling of parts,1.0,1
+arthritic stinging with swelling of wrist joints,great heaviness of part,1.0,1
+arthritic stinging with swelling of wrist joints,pain as if sprained in right shoulder joint,1.0,1
+arthritic stinging with swelling of wrist joints,excessive pain,1.0,1
+arthritic stinging with swelling of wrist joints,arthritic tearing with swelling of wrist joints,1.0,1
+arthritic stinging with swelling of wrist joints,arthritic complaints,1.0,1
+arthritic stinging with swelling of wrist joints,sharp stitches in heels from within outward,1.0,1
+arthritic stinging with swelling of wrist joints,bright shining red,1.0,1
+arthritic stinging with swelling of wrist joints,tearing sting in joints,1.0,1
+arthritic stinging with swelling of wrist joints,swelling in great toe in gout,1.0,1
+arthritic stinging with swelling of wrist joints,paralytic tearing along right upper arm to hand,1.0,1
+arthritic stinging with swelling of wrist joints,aching pain worse on motion,1.0,1
+arthritic stinging with swelling of wrist joints,arthritic stinging with stiffness of wrist joints,1.0,1
+arthritic stinging with swelling of wrist joints,drawing pains extending to pubic region,1.0,1
+arthritic stinging with swelling of wrist joints,marked weariness in lumbar region,1.0,1
+arthritic stinging with swelling of wrist joints,nervousness so great that music seems to go through bones,1.0,1
+arthritic stinging with swelling of wrist joints,fig warts with intense itching,1.0,1
+arthritic stinging with swelling of wrist joints,pressing pain in both upper arms near elbow joint,1.0,1
+arthritic stinging with swelling of wrist joints,constant pain in small of back,1.0,1
+arthritic stinging with swelling of wrist joints,aching pain worse on touch,1.0,1
+arthritic stinging with swelling of wrist joints,aching pain in right radius,1.0,1
+arthritic stinging with swelling of wrist joints,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+arthritic stinging with swelling of wrist joints,leucorrhea copious,1.0,1
+arthritic stinging with swelling of wrist joints,worse walking,1.0,1
+arthritic stinging with swelling of wrist joints,leucorrhea causing itching,1.0,1
+arthritic complaints,dragging sensation from behind forward,1.0,1
+arthritic complaints,much heaviness,1.0,1
+arthritic complaints,sycotic excrescences with burning pain,1.0,1
+arthritic complaints,redness in great toe in gout,1.0,1
+arthritic complaints,obliging to bend back inward,1.0,1
+arthritic complaints,fig warts with burning,1.0,1
+arthritic complaints,pain in thighs when walking,1.0,1
+arthritic complaints,improved by bending backward,1.0,1
+arthritic complaints,much swelling,1.0,1
+arthritic complaints,wandering burning affecting one joint after another,1.0,1
+arthritic complaints,worse hanging hand down,1.0,1
+arthritic complaints,rheumatic gonorrhoea,1.0,1
+arthritic complaints,very sensitive to motion,1.0,1
+arthritic complaints,drawing pains in small of back,1.0,1
+arthritic complaints,paralytic pain in small of back,1.0,1
+arthritic complaints,indescribable uneasiness in lumbar region,1.0,1
+arthritic complaints,stitches in great toe in gout,1.0,1
+arthritic complaints,arthritic tearing with stiffness of wrist joints,1.0,1
+arthritic complaints,painful drawing in joints of toes,1.0,1
+arthritic complaints,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+arthritic complaints,marked weakness,1.0,1
+arthritic complaints,leucorrhea milky,1.0,1
+arthritic complaints,very red shining swelling of parts,1.0,1
+arthritic complaints,great heaviness of part,1.0,1
+arthritic complaints,pain as if sprained in right shoulder joint,1.0,1
+arthritic complaints,excessive pain,1.0,1
+arthritic complaints,arthritic tearing with swelling of wrist joints,1.0,1
+arthritic complaints,sharp stitches in heels from within outward,1.0,1
+arthritic complaints,bright shining red,1.0,1
+arthritic complaints,tearing sting in joints,1.0,1
+arthritic complaints,swelling in great toe in gout,1.0,1
+arthritic complaints,paralytic tearing along right upper arm to hand,1.0,1
+arthritic complaints,aching pain worse on motion,1.0,1
+arthritic complaints,arthritic stinging with stiffness of wrist joints,1.0,1
+arthritic complaints,drawing pains extending to pubic region,1.0,1
+arthritic complaints,marked weariness in lumbar region,1.0,1
+arthritic complaints,nervousness so great that music seems to go through bones,1.0,1
+arthritic complaints,fig warts with intense itching,1.0,1
+arthritic complaints,pressing pain in both upper arms near elbow joint,1.0,1
+arthritic complaints,constant pain in small of back,1.0,1
+arthritic complaints,aching pain worse on touch,1.0,1
+arthritic complaints,aching pain in right radius,1.0,1
+arthritic complaints,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+arthritic complaints,arthritic stinging with swelling of wrist joints,1.0,1
+arthritic complaints,leucorrhea copious,1.0,1
+arthritic complaints,worse walking,1.0,1
+arthritic complaints,leucorrhea causing itching,1.0,1
+drawing pains in small of back,dragging sensation from behind forward,1.0,1
+drawing pains in small of back,much heaviness,1.0,1
+drawing pains in small of back,sycotic excrescences with burning pain,1.0,1
+drawing pains in small of back,redness in great toe in gout,1.0,1
+drawing pains in small of back,obliging to bend back inward,1.0,1
+drawing pains in small of back,fig warts with burning,1.0,1
+drawing pains in small of back,pain in thighs when walking,1.0,1
+drawing pains in small of back,improved by bending backward,1.0,1
+drawing pains in small of back,much swelling,1.0,1
+drawing pains in small of back,wandering burning affecting one joint after another,1.0,1
+drawing pains in small of back,worse hanging hand down,1.0,1
+drawing pains in small of back,rheumatic gonorrhoea,1.0,1
+drawing pains in small of back,very sensitive to motion,1.0,1
+drawing pains in small of back,paralytic pain in small of back,1.0,1
+drawing pains in small of back,indescribable uneasiness in lumbar region,1.0,1
+drawing pains in small of back,stitches in great toe in gout,1.0,1
+drawing pains in small of back,arthritic tearing with stiffness of wrist joints,1.0,1
+drawing pains in small of back,painful drawing in joints of toes,1.0,1
+drawing pains in small of back,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+drawing pains in small of back,marked weakness,1.0,1
+drawing pains in small of back,leucorrhea milky,1.0,1
+drawing pains in small of back,very red shining swelling of parts,1.0,1
+drawing pains in small of back,great heaviness of part,1.0,1
+drawing pains in small of back,pain as if sprained in right shoulder joint,1.0,1
+drawing pains in small of back,excessive pain,1.0,1
+drawing pains in small of back,arthritic tearing with swelling of wrist joints,1.0,1
+drawing pains in small of back,arthritic complaints,1.0,1
+drawing pains in small of back,sharp stitches in heels from within outward,1.0,1
+drawing pains in small of back,bright shining red,1.0,1
+drawing pains in small of back,tearing sting in joints,1.0,1
+drawing pains in small of back,swelling in great toe in gout,1.0,1
+drawing pains in small of back,paralytic tearing along right upper arm to hand,1.0,1
+drawing pains in small of back,aching pain worse on motion,1.0,1
+drawing pains in small of back,arthritic stinging with stiffness of wrist joints,1.0,1
+drawing pains in small of back,drawing pains extending to pubic region,1.0,1
+drawing pains in small of back,marked weariness in lumbar region,1.0,1
+drawing pains in small of back,nervousness so great that music seems to go through bones,1.0,1
+drawing pains in small of back,fig warts with intense itching,1.0,1
+drawing pains in small of back,pressing pain in both upper arms near elbow joint,1.0,1
+drawing pains in small of back,constant pain in small of back,1.0,1
+drawing pains in small of back,aching pain worse on touch,1.0,1
+drawing pains in small of back,aching pain in right radius,1.0,1
+drawing pains in small of back,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+drawing pains in small of back,arthritic stinging with swelling of wrist joints,1.0,1
+drawing pains in small of back,leucorrhea copious,1.0,1
+drawing pains in small of back,worse walking,1.0,1
+drawing pains in small of back,leucorrhea causing itching,1.0,1
+constant pain in small of back,dragging sensation from behind forward,1.0,1
+constant pain in small of back,much heaviness,1.0,1
+constant pain in small of back,sycotic excrescences with burning pain,1.0,1
+constant pain in small of back,redness in great toe in gout,1.0,1
+constant pain in small of back,obliging to bend back inward,1.0,1
+constant pain in small of back,fig warts with burning,1.0,1
+constant pain in small of back,pain in thighs when walking,1.0,1
+constant pain in small of back,improved by bending backward,1.0,1
+constant pain in small of back,much swelling,1.0,1
+constant pain in small of back,wandering burning affecting one joint after another,1.0,1
+constant pain in small of back,worse hanging hand down,1.0,1
+constant pain in small of back,rheumatic gonorrhoea,1.0,1
+constant pain in small of back,very sensitive to motion,1.0,1
+constant pain in small of back,drawing pains in small of back,1.0,1
+constant pain in small of back,paralytic pain in small of back,1.0,1
+constant pain in small of back,indescribable uneasiness in lumbar region,1.0,1
+constant pain in small of back,stitches in great toe in gout,1.0,1
+constant pain in small of back,arthritic tearing with stiffness of wrist joints,1.0,1
+constant pain in small of back,painful drawing in joints of toes,1.0,1
+constant pain in small of back,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+constant pain in small of back,marked weakness,1.0,1
+constant pain in small of back,leucorrhea milky,1.0,1
+constant pain in small of back,very red shining swelling of parts,1.0,1
+constant pain in small of back,great heaviness of part,1.0,1
+constant pain in small of back,pain as if sprained in right shoulder joint,1.0,1
+constant pain in small of back,excessive pain,1.0,1
+constant pain in small of back,arthritic tearing with swelling of wrist joints,1.0,1
+constant pain in small of back,arthritic complaints,1.0,1
+constant pain in small of back,sharp stitches in heels from within outward,1.0,1
+constant pain in small of back,bright shining red,1.0,1
+constant pain in small of back,tearing sting in joints,1.0,1
+constant pain in small of back,swelling in great toe in gout,1.0,1
+constant pain in small of back,paralytic tearing along right upper arm to hand,1.0,1
+constant pain in small of back,aching pain worse on motion,1.0,1
+constant pain in small of back,arthritic stinging with stiffness of wrist joints,1.0,1
+constant pain in small of back,drawing pains extending to pubic region,1.0,1
+constant pain in small of back,marked weariness in lumbar region,1.0,1
+constant pain in small of back,nervousness so great that music seems to go through bones,1.0,1
+constant pain in small of back,fig warts with intense itching,1.0,1
+constant pain in small of back,pressing pain in both upper arms near elbow joint,1.0,1
+constant pain in small of back,aching pain worse on touch,1.0,1
+constant pain in small of back,aching pain in right radius,1.0,1
+constant pain in small of back,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+constant pain in small of back,arthritic stinging with swelling of wrist joints,1.0,1
+constant pain in small of back,leucorrhea copious,1.0,1
+constant pain in small of back,worse walking,1.0,1
+constant pain in small of back,leucorrhea causing itching,1.0,1
+leucorrhea causing itching,dragging sensation from behind forward,1.0,1
+leucorrhea causing itching,much heaviness,1.0,1
+leucorrhea causing itching,sycotic excrescences with burning pain,1.0,1
+leucorrhea causing itching,redness in great toe in gout,1.0,1
+leucorrhea causing itching,obliging to bend back inward,1.0,1
+leucorrhea causing itching,fig warts with burning,1.0,1
+leucorrhea causing itching,pain in thighs when walking,1.0,1
+leucorrhea causing itching,improved by bending backward,1.0,1
+leucorrhea causing itching,much swelling,1.0,1
+leucorrhea causing itching,wandering burning affecting one joint after another,1.0,1
+leucorrhea causing itching,worse hanging hand down,1.0,1
+leucorrhea causing itching,rheumatic gonorrhoea,1.0,1
+leucorrhea causing itching,very sensitive to motion,1.0,1
+leucorrhea causing itching,drawing pains in small of back,1.0,1
+leucorrhea causing itching,paralytic pain in small of back,1.0,1
+leucorrhea causing itching,indescribable uneasiness in lumbar region,1.0,1
+leucorrhea causing itching,stitches in great toe in gout,1.0,1
+leucorrhea causing itching,arthritic tearing with stiffness of wrist joints,1.0,1
+leucorrhea causing itching,painful drawing in joints of toes,1.0,1
+leucorrhea causing itching,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+leucorrhea causing itching,marked weakness,1.0,1
+leucorrhea causing itching,leucorrhea milky,1.0,1
+leucorrhea causing itching,very red shining swelling of parts,1.0,1
+leucorrhea causing itching,great heaviness of part,1.0,1
+leucorrhea causing itching,pain as if sprained in right shoulder joint,1.0,1
+leucorrhea causing itching,excessive pain,1.0,1
+leucorrhea causing itching,arthritic tearing with swelling of wrist joints,1.0,1
+leucorrhea causing itching,arthritic complaints,1.0,1
+leucorrhea causing itching,sharp stitches in heels from within outward,1.0,1
+leucorrhea causing itching,bright shining red,1.0,1
+leucorrhea causing itching,tearing sting in joints,1.0,1
+leucorrhea causing itching,swelling in great toe in gout,1.0,1
+leucorrhea causing itching,paralytic tearing along right upper arm to hand,1.0,1
+leucorrhea causing itching,aching pain worse on motion,1.0,1
+leucorrhea causing itching,arthritic stinging with stiffness of wrist joints,1.0,1
+leucorrhea causing itching,drawing pains extending to pubic region,1.0,1
+leucorrhea causing itching,marked weariness in lumbar region,1.0,1
+leucorrhea causing itching,nervousness so great that music seems to go through bones,1.0,1
+leucorrhea causing itching,fig warts with intense itching,1.0,1
+leucorrhea causing itching,pressing pain in both upper arms near elbow joint,1.0,1
+leucorrhea causing itching,constant pain in small of back,1.0,1
+leucorrhea causing itching,aching pain worse on touch,1.0,1
+leucorrhea causing itching,aching pain in right radius,1.0,1
+leucorrhea causing itching,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+leucorrhea causing itching,arthritic stinging with swelling of wrist joints,1.0,1
+leucorrhea causing itching,leucorrhea copious,1.0,1
+leucorrhea causing itching,worse walking,1.0,1
+nervousness so great that music seems to go through bones,dragging sensation from behind forward,1.0,1
+nervousness so great that music seems to go through bones,much heaviness,1.0,1
+nervousness so great that music seems to go through bones,sycotic excrescences with burning pain,1.0,1
+nervousness so great that music seems to go through bones,redness in great toe in gout,1.0,1
+nervousness so great that music seems to go through bones,obliging to bend back inward,1.0,1
+nervousness so great that music seems to go through bones,fig warts with burning,1.0,1
+nervousness so great that music seems to go through bones,pain in thighs when walking,1.0,1
+nervousness so great that music seems to go through bones,improved by bending backward,1.0,1
+nervousness so great that music seems to go through bones,much swelling,1.0,1
+nervousness so great that music seems to go through bones,wandering burning affecting one joint after another,1.0,1
+nervousness so great that music seems to go through bones,worse hanging hand down,1.0,1
+nervousness so great that music seems to go through bones,rheumatic gonorrhoea,1.0,1
+nervousness so great that music seems to go through bones,very sensitive to motion,1.0,1
+nervousness so great that music seems to go through bones,drawing pains in small of back,1.0,1
+nervousness so great that music seems to go through bones,paralytic pain in small of back,1.0,1
+nervousness so great that music seems to go through bones,indescribable uneasiness in lumbar region,1.0,1
+nervousness so great that music seems to go through bones,stitches in great toe in gout,1.0,1
+nervousness so great that music seems to go through bones,arthritic tearing with stiffness of wrist joints,1.0,1
+nervousness so great that music seems to go through bones,painful drawing in joints of toes,1.0,1
+nervousness so great that music seems to go through bones,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+nervousness so great that music seems to go through bones,marked weakness,1.0,1
+nervousness so great that music seems to go through bones,leucorrhea milky,1.0,1
+nervousness so great that music seems to go through bones,very red shining swelling of parts,1.0,1
+nervousness so great that music seems to go through bones,great heaviness of part,1.0,1
+nervousness so great that music seems to go through bones,pain as if sprained in right shoulder joint,1.0,1
+nervousness so great that music seems to go through bones,excessive pain,1.0,1
+nervousness so great that music seems to go through bones,arthritic tearing with swelling of wrist joints,1.0,1
+nervousness so great that music seems to go through bones,arthritic complaints,1.0,1
+nervousness so great that music seems to go through bones,sharp stitches in heels from within outward,1.0,1
+nervousness so great that music seems to go through bones,bright shining red,1.0,1
+nervousness so great that music seems to go through bones,tearing sting in joints,1.0,1
+nervousness so great that music seems to go through bones,swelling in great toe in gout,1.0,1
+nervousness so great that music seems to go through bones,paralytic tearing along right upper arm to hand,1.0,1
+nervousness so great that music seems to go through bones,aching pain worse on motion,1.0,1
+nervousness so great that music seems to go through bones,arthritic stinging with stiffness of wrist joints,1.0,1
+nervousness so great that music seems to go through bones,drawing pains extending to pubic region,1.0,1
+nervousness so great that music seems to go through bones,marked weariness in lumbar region,1.0,1
+nervousness so great that music seems to go through bones,fig warts with intense itching,1.0,1
+nervousness so great that music seems to go through bones,pressing pain in both upper arms near elbow joint,1.0,1
+nervousness so great that music seems to go through bones,constant pain in small of back,1.0,1
+nervousness so great that music seems to go through bones,aching pain worse on touch,1.0,1
+nervousness so great that music seems to go through bones,aching pain in right radius,1.0,1
+nervousness so great that music seems to go through bones,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+nervousness so great that music seems to go through bones,arthritic stinging with swelling of wrist joints,1.0,1
+nervousness so great that music seems to go through bones,leucorrhea copious,1.0,1
+nervousness so great that music seems to go through bones,worse walking,1.0,1
+nervousness so great that music seems to go through bones,leucorrhea causing itching,1.0,1
+leucorrhea copious,dragging sensation from behind forward,1.0,1
+leucorrhea copious,much heaviness,1.0,1
+leucorrhea copious,sycotic excrescences with burning pain,1.0,1
+leucorrhea copious,redness in great toe in gout,1.0,1
+leucorrhea copious,obliging to bend back inward,1.0,1
+leucorrhea copious,fig warts with burning,1.0,1
+leucorrhea copious,pain in thighs when walking,1.0,1
+leucorrhea copious,improved by bending backward,1.0,1
+leucorrhea copious,much swelling,1.0,1
+leucorrhea copious,wandering burning affecting one joint after another,1.0,1
+leucorrhea copious,worse hanging hand down,1.0,1
+leucorrhea copious,rheumatic gonorrhoea,1.0,1
+leucorrhea copious,very sensitive to motion,1.0,1
+leucorrhea copious,drawing pains in small of back,1.0,1
+leucorrhea copious,paralytic pain in small of back,1.0,1
+leucorrhea copious,indescribable uneasiness in lumbar region,1.0,1
+leucorrhea copious,stitches in great toe in gout,1.0,1
+leucorrhea copious,arthritic tearing with stiffness of wrist joints,1.0,1
+leucorrhea copious,painful drawing in joints of toes,1.0,1
+leucorrhea copious,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+leucorrhea copious,marked weakness,1.0,1
+leucorrhea copious,leucorrhea milky,1.0,1
+leucorrhea copious,very red shining swelling of parts,1.0,1
+leucorrhea copious,great heaviness of part,1.0,1
+leucorrhea copious,pain as if sprained in right shoulder joint,1.0,1
+leucorrhea copious,excessive pain,1.0,1
+leucorrhea copious,arthritic tearing with swelling of wrist joints,1.0,1
+leucorrhea copious,arthritic complaints,1.0,1
+leucorrhea copious,sharp stitches in heels from within outward,1.0,1
+leucorrhea copious,bright shining red,1.0,1
+leucorrhea copious,tearing sting in joints,1.0,1
+leucorrhea copious,swelling in great toe in gout,1.0,1
+leucorrhea copious,paralytic tearing along right upper arm to hand,1.0,1
+leucorrhea copious,aching pain worse on motion,1.0,1
+leucorrhea copious,arthritic stinging with stiffness of wrist joints,1.0,1
+leucorrhea copious,drawing pains extending to pubic region,1.0,1
+leucorrhea copious,marked weariness in lumbar region,1.0,1
+leucorrhea copious,nervousness so great that music seems to go through bones,1.0,1
+leucorrhea copious,fig warts with intense itching,1.0,1
+leucorrhea copious,pressing pain in both upper arms near elbow joint,1.0,1
+leucorrhea copious,constant pain in small of back,1.0,1
+leucorrhea copious,aching pain worse on touch,1.0,1
+leucorrhea copious,aching pain in right radius,1.0,1
+leucorrhea copious,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+leucorrhea copious,arthritic stinging with swelling of wrist joints,1.0,1
+leucorrhea copious,worse walking,1.0,1
+leucorrhea copious,leucorrhea causing itching,1.0,1
+great heaviness of part,dragging sensation from behind forward,1.0,1
+great heaviness of part,much heaviness,1.0,1
+great heaviness of part,sycotic excrescences with burning pain,1.0,1
+great heaviness of part,redness in great toe in gout,1.0,1
+great heaviness of part,obliging to bend back inward,1.0,1
+great heaviness of part,fig warts with burning,1.0,1
+great heaviness of part,pain in thighs when walking,1.0,1
+great heaviness of part,improved by bending backward,1.0,1
+great heaviness of part,much swelling,1.0,1
+great heaviness of part,wandering burning affecting one joint after another,1.0,1
+great heaviness of part,worse hanging hand down,1.0,1
+great heaviness of part,rheumatic gonorrhoea,1.0,1
+great heaviness of part,very sensitive to motion,1.0,1
+great heaviness of part,drawing pains in small of back,1.0,1
+great heaviness of part,paralytic pain in small of back,1.0,1
+great heaviness of part,indescribable uneasiness in lumbar region,1.0,1
+great heaviness of part,stitches in great toe in gout,1.0,1
+great heaviness of part,arthritic tearing with stiffness of wrist joints,1.0,1
+great heaviness of part,painful drawing in joints of toes,1.0,1
+great heaviness of part,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+great heaviness of part,marked weakness,1.0,1
+great heaviness of part,leucorrhea milky,1.0,1
+great heaviness of part,very red shining swelling of parts,1.0,1
+great heaviness of part,pain as if sprained in right shoulder joint,1.0,1
+great heaviness of part,excessive pain,1.0,1
+great heaviness of part,arthritic tearing with swelling of wrist joints,1.0,1
+great heaviness of part,arthritic complaints,1.0,1
+great heaviness of part,sharp stitches in heels from within outward,1.0,1
+great heaviness of part,bright shining red,1.0,1
+great heaviness of part,tearing sting in joints,1.0,1
+great heaviness of part,swelling in great toe in gout,1.0,1
+great heaviness of part,paralytic tearing along right upper arm to hand,1.0,1
+great heaviness of part,aching pain worse on motion,1.0,1
+great heaviness of part,arthritic stinging with stiffness of wrist joints,1.0,1
+great heaviness of part,drawing pains extending to pubic region,1.0,1
+great heaviness of part,marked weariness in lumbar region,1.0,1
+great heaviness of part,nervousness so great that music seems to go through bones,1.0,1
+great heaviness of part,fig warts with intense itching,1.0,1
+great heaviness of part,pressing pain in both upper arms near elbow joint,1.0,1
+great heaviness of part,constant pain in small of back,1.0,1
+great heaviness of part,aching pain worse on touch,1.0,1
+great heaviness of part,aching pain in right radius,1.0,1
+great heaviness of part,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+great heaviness of part,arthritic stinging with swelling of wrist joints,1.0,1
+great heaviness of part,leucorrhea copious,1.0,1
+great heaviness of part,worse walking,1.0,1
+great heaviness of part,leucorrhea causing itching,1.0,1
+arthritic stinging with stiffness of wrist joints,dragging sensation from behind forward,1.0,1
+arthritic stinging with stiffness of wrist joints,much heaviness,1.0,1
+arthritic stinging with stiffness of wrist joints,sycotic excrescences with burning pain,1.0,1
+arthritic stinging with stiffness of wrist joints,redness in great toe in gout,1.0,1
+arthritic stinging with stiffness of wrist joints,obliging to bend back inward,1.0,1
+arthritic stinging with stiffness of wrist joints,fig warts with burning,1.0,1
+arthritic stinging with stiffness of wrist joints,pain in thighs when walking,1.0,1
+arthritic stinging with stiffness of wrist joints,improved by bending backward,1.0,1
+arthritic stinging with stiffness of wrist joints,much swelling,1.0,1
+arthritic stinging with stiffness of wrist joints,wandering burning affecting one joint after another,1.0,1
+arthritic stinging with stiffness of wrist joints,worse hanging hand down,1.0,1
+arthritic stinging with stiffness of wrist joints,rheumatic gonorrhoea,1.0,1
+arthritic stinging with stiffness of wrist joints,very sensitive to motion,1.0,1
+arthritic stinging with stiffness of wrist joints,drawing pains in small of back,1.0,1
+arthritic stinging with stiffness of wrist joints,paralytic pain in small of back,1.0,1
+arthritic stinging with stiffness of wrist joints,indescribable uneasiness in lumbar region,1.0,1
+arthritic stinging with stiffness of wrist joints,stitches in great toe in gout,1.0,1
+arthritic stinging with stiffness of wrist joints,arthritic tearing with stiffness of wrist joints,1.0,1
+arthritic stinging with stiffness of wrist joints,painful drawing in joints of toes,1.0,1
+arthritic stinging with stiffness of wrist joints,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+arthritic stinging with stiffness of wrist joints,marked weakness,1.0,1
+arthritic stinging with stiffness of wrist joints,leucorrhea milky,1.0,1
+arthritic stinging with stiffness of wrist joints,very red shining swelling of parts,1.0,1
+arthritic stinging with stiffness of wrist joints,great heaviness of part,1.0,1
+arthritic stinging with stiffness of wrist joints,pain as if sprained in right shoulder joint,1.0,1
+arthritic stinging with stiffness of wrist joints,excessive pain,1.0,1
+arthritic stinging with stiffness of wrist joints,arthritic tearing with swelling of wrist joints,1.0,1
+arthritic stinging with stiffness of wrist joints,arthritic complaints,1.0,1
+arthritic stinging with stiffness of wrist joints,sharp stitches in heels from within outward,1.0,1
+arthritic stinging with stiffness of wrist joints,bright shining red,1.0,1
+arthritic stinging with stiffness of wrist joints,tearing sting in joints,1.0,1
+arthritic stinging with stiffness of wrist joints,swelling in great toe in gout,1.0,1
+arthritic stinging with stiffness of wrist joints,paralytic tearing along right upper arm to hand,1.0,1
+arthritic stinging with stiffness of wrist joints,aching pain worse on motion,1.0,1
+arthritic stinging with stiffness of wrist joints,drawing pains extending to pubic region,1.0,1
+arthritic stinging with stiffness of wrist joints,marked weariness in lumbar region,1.0,1
+arthritic stinging with stiffness of wrist joints,nervousness so great that music seems to go through bones,1.0,1
+arthritic stinging with stiffness of wrist joints,fig warts with intense itching,1.0,1
+arthritic stinging with stiffness of wrist joints,pressing pain in both upper arms near elbow joint,1.0,1
+arthritic stinging with stiffness of wrist joints,constant pain in small of back,1.0,1
+arthritic stinging with stiffness of wrist joints,aching pain worse on touch,1.0,1
+arthritic stinging with stiffness of wrist joints,aching pain in right radius,1.0,1
+arthritic stinging with stiffness of wrist joints,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+arthritic stinging with stiffness of wrist joints,arthritic stinging with swelling of wrist joints,1.0,1
+arthritic stinging with stiffness of wrist joints,leucorrhea copious,1.0,1
+arthritic stinging with stiffness of wrist joints,worse walking,1.0,1
+arthritic stinging with stiffness of wrist joints,leucorrhea causing itching,1.0,1
+obliging to bend back inward,dragging sensation from behind forward,1.0,1
+obliging to bend back inward,much heaviness,1.0,1
+obliging to bend back inward,sycotic excrescences with burning pain,1.0,1
+obliging to bend back inward,redness in great toe in gout,1.0,1
+obliging to bend back inward,fig warts with burning,1.0,1
+obliging to bend back inward,pain in thighs when walking,1.0,1
+obliging to bend back inward,improved by bending backward,1.0,1
+obliging to bend back inward,much swelling,1.0,1
+obliging to bend back inward,wandering burning affecting one joint after another,1.0,1
+obliging to bend back inward,worse hanging hand down,1.0,1
+obliging to bend back inward,rheumatic gonorrhoea,1.0,1
+obliging to bend back inward,very sensitive to motion,1.0,1
+obliging to bend back inward,drawing pains in small of back,1.0,1
+obliging to bend back inward,paralytic pain in small of back,1.0,1
+obliging to bend back inward,indescribable uneasiness in lumbar region,1.0,1
+obliging to bend back inward,stitches in great toe in gout,1.0,1
+obliging to bend back inward,arthritic tearing with stiffness of wrist joints,1.0,1
+obliging to bend back inward,painful drawing in joints of toes,1.0,1
+obliging to bend back inward,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+obliging to bend back inward,marked weakness,1.0,1
+obliging to bend back inward,leucorrhea milky,1.0,1
+obliging to bend back inward,very red shining swelling of parts,1.0,1
+obliging to bend back inward,great heaviness of part,1.0,1
+obliging to bend back inward,pain as if sprained in right shoulder joint,1.0,1
+obliging to bend back inward,excessive pain,1.0,1
+obliging to bend back inward,arthritic tearing with swelling of wrist joints,1.0,1
+obliging to bend back inward,arthritic complaints,1.0,1
+obliging to bend back inward,sharp stitches in heels from within outward,1.0,1
+obliging to bend back inward,bright shining red,1.0,1
+obliging to bend back inward,tearing sting in joints,1.0,1
+obliging to bend back inward,swelling in great toe in gout,1.0,1
+obliging to bend back inward,paralytic tearing along right upper arm to hand,1.0,1
+obliging to bend back inward,aching pain worse on motion,1.0,1
+obliging to bend back inward,arthritic stinging with stiffness of wrist joints,1.0,1
+obliging to bend back inward,drawing pains extending to pubic region,1.0,1
+obliging to bend back inward,marked weariness in lumbar region,1.0,1
+obliging to bend back inward,nervousness so great that music seems to go through bones,1.0,1
+obliging to bend back inward,fig warts with intense itching,1.0,1
+obliging to bend back inward,pressing pain in both upper arms near elbow joint,1.0,1
+obliging to bend back inward,constant pain in small of back,1.0,1
+obliging to bend back inward,aching pain worse on touch,1.0,1
+obliging to bend back inward,aching pain in right radius,1.0,1
+obliging to bend back inward,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+obliging to bend back inward,arthritic stinging with swelling of wrist joints,1.0,1
+obliging to bend back inward,leucorrhea copious,1.0,1
+obliging to bend back inward,worse walking,1.0,1
+obliging to bend back inward,leucorrhea causing itching,1.0,1
+aching pain worse on motion,dragging sensation from behind forward,1.0,1
+aching pain worse on motion,much heaviness,1.0,1
+aching pain worse on motion,sycotic excrescences with burning pain,1.0,1
+aching pain worse on motion,redness in great toe in gout,1.0,1
+aching pain worse on motion,obliging to bend back inward,1.0,1
+aching pain worse on motion,fig warts with burning,1.0,1
+aching pain worse on motion,pain in thighs when walking,1.0,1
+aching pain worse on motion,improved by bending backward,1.0,1
+aching pain worse on motion,much swelling,1.0,1
+aching pain worse on motion,wandering burning affecting one joint after another,1.0,1
+aching pain worse on motion,worse hanging hand down,1.0,1
+aching pain worse on motion,rheumatic gonorrhoea,1.0,1
+aching pain worse on motion,very sensitive to motion,1.0,1
+aching pain worse on motion,drawing pains in small of back,1.0,1
+aching pain worse on motion,paralytic pain in small of back,1.0,1
+aching pain worse on motion,indescribable uneasiness in lumbar region,1.0,1
+aching pain worse on motion,stitches in great toe in gout,1.0,1
+aching pain worse on motion,arthritic tearing with stiffness of wrist joints,1.0,1
+aching pain worse on motion,painful drawing in joints of toes,1.0,1
+aching pain worse on motion,tearing pain with pressure in metacarpal bones of both feet,1.0,1
+aching pain worse on motion,marked weakness,1.0,1
+aching pain worse on motion,leucorrhea milky,1.0,1
+aching pain worse on motion,very red shining swelling of parts,1.0,1
+aching pain worse on motion,great heaviness of part,1.0,1
+aching pain worse on motion,pain as if sprained in right shoulder joint,1.0,1
+aching pain worse on motion,excessive pain,1.0,1
+aching pain worse on motion,arthritic tearing with swelling of wrist joints,1.0,1
+aching pain worse on motion,arthritic complaints,1.0,1
+aching pain worse on motion,sharp stitches in heels from within outward,1.0,1
+aching pain worse on motion,bright shining red,1.0,1
+aching pain worse on motion,tearing sting in joints,1.0,1
+aching pain worse on motion,swelling in great toe in gout,1.0,1
+aching pain worse on motion,paralytic tearing along right upper arm to hand,1.0,1
+aching pain worse on motion,arthritic stinging with stiffness of wrist joints,1.0,1
+aching pain worse on motion,drawing pains extending to pubic region,1.0,1
+aching pain worse on motion,marked weariness in lumbar region,1.0,1
+aching pain worse on motion,nervousness so great that music seems to go through bones,1.0,1
+aching pain worse on motion,fig warts with intense itching,1.0,1
+aching pain worse on motion,pressing pain in both upper arms near elbow joint,1.0,1
+aching pain worse on motion,constant pain in small of back,1.0,1
+aching pain worse on motion,aching pain worse on touch,1.0,1
+aching pain worse on motion,aching pain in right radius,1.0,1
+aching pain worse on motion,rheumatism of metatarso-phalangeal joint of great toe,1.0,1
+aching pain worse on motion,arthritic stinging with swelling of wrist joints,1.0,1
+aching pain worse on motion,leucorrhea copious,1.0,1
+aching pain worse on motion,worse walking,1.0,1
+aching pain worse on motion,leucorrhea causing itching,1.0,1

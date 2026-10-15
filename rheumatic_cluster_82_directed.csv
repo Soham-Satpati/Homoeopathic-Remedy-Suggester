@@ -1,0 +1,3377 @@
+### Cluster 82 — Symptoms (58)
+Symptom,Frequency
+rigid fingers in mornings,1
+swollen feet,2
+swollen ankles,2
+boring in olecranon,1
+weight in right arm,1
+gouty rheumatic affections,1
+rigid arms at night,1
+pain between scapulae,2
+rigid arms when grasping,1
+worse in wet weather,1
+headache with nausea,1
+stitches in soles,1
+stitches in coccyx,1
+restless legs,1
+pressive drawing in small of back at rest,1
+right arm hangs down no use,1
+pressive drawing passes off walking,1
+obstinate coryza,1
+pain in fingers,1
+useful in sedentary elderly women,1
+boring in knees,1
+cramps in right arm drawing backward,1
+rigid fingers at night,1
+gums bleed easily,1
+languor of lower limbs,1
+worse with wet applications,1
+pain in back of hand,1
+dyspnea,1
+useful in scrofulous children,1
+tearing in zygomas,1
+inimical to lachesis,1
+worse in winter,1
+epistaxis,1
+sprained wrist joint pain,1
+pain in nape worse right side,1
+tearing in limbs,1
+sleeping fingers,1
+pain in wrists,1
+legs go to sleep when standing,1
+headache worse in wet weather,2
+cramps in soles,2
+colic with urging to stool,2
+aversion to walking in open air,1
+pressing in stomach,2
+intense coldness in small of back,1
+drawing leg pain,1
+rigid fingers when grasping,1
+pressive drawing in loins at rest,1
+swollen hand,1
+restless feet,1
+tearing shoulder pain,1
+tearing tooth pain,1
+legs go to sleep when lying,1
+rigid arms in mornings,1
+headache worse in winter,1
+bruised shoulder pain,1
+swollen hands when hanging,1
+pain in thumbs,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+ammonium carbonicum,58
+ammonium muriaticum,4
+guaiacum,1
+calcarea carbonica,1
+naja,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+pain in fingers,rigid fingers in mornings,1.0,1
+pain in fingers,swollen feet,1.0,1
+pain in fingers,swollen ankles,1.0,1
+pain in fingers,boring in olecranon,1.0,1
+pain in fingers,weight in right arm,1.0,1
+pain in fingers,gouty rheumatic affections,1.0,1
+pain in fingers,rigid arms at night,1.0,1
+pain in fingers,pain between scapulae,1.0,1
+pain in fingers,rigid arms when grasping,1.0,1
+pain in fingers,worse in wet weather,1.0,1
+pain in fingers,headache with nausea,1.0,1
+pain in fingers,stitches in soles,1.0,1
+pain in fingers,stitches in coccyx,1.0,1
+pain in fingers,restless legs,1.0,1
+pain in fingers,pressive drawing in small of back at rest,1.0,1
+pain in fingers,right arm hangs down no use,1.0,1
+pain in fingers,pressive drawing passes off walking,1.0,1
+pain in fingers,obstinate coryza,1.0,1
+pain in fingers,useful in sedentary elderly women,1.0,1
+pain in fingers,boring in knees,1.0,1
+pain in fingers,cramps in right arm drawing backward,1.0,1
+pain in fingers,rigid fingers at night,1.0,1
+pain in fingers,gums bleed easily,1.0,1
+pain in fingers,languor of lower limbs,1.0,1
+pain in fingers,worse with wet applications,1.0,1
+pain in fingers,pain in back of hand,1.0,1
+pain in fingers,dyspnea,1.0,1
+pain in fingers,useful in scrofulous children,1.0,1
+pain in fingers,tearing in zygomas,1.0,1
+pain in fingers,inimical to lachesis,1.0,1
+pain in fingers,worse in winter,1.0,1
+pain in fingers,epistaxis,1.0,1
+pain in fingers,sprained wrist joint pain,1.0,1
+pain in fingers,pain in nape worse right side,1.0,1
+pain in fingers,tearing in limbs,1.0,1
+pain in fingers,sleeping fingers,1.0,1
+pain in fingers,pain in wrists,1.0,1
+pain in fingers,legs go to sleep when standing,1.0,1
+pain in fingers,headache worse in wet weather,1.0,1
+pain in fingers,cramps in soles,1.0,1
+pain in fingers,colic with urging to stool,1.0,1
+pain in fingers,aversion to walking in open air,1.0,1
+pain in fingers,pressing in stomach,1.0,1
+pain in fingers,intense coldness in small of back,1.0,1
+pain in fingers,drawing leg pain,1.0,1
+pain in fingers,rigid fingers when grasping,1.0,1
+pain in fingers,pressive drawing in loins at rest,1.0,1
+pain in fingers,swollen hand,1.0,1
+pain in fingers,restless feet,1.0,1
+pain in fingers,tearing shoulder pain,1.0,1
+pain in fingers,tearing tooth pain,1.0,1
+pain in fingers,legs go to sleep when lying,1.0,1
+pain in fingers,rigid arms in mornings,1.0,1
+pain in fingers,headache worse in winter,1.0,1
+pain in fingers,bruised shoulder pain,1.0,1
+pain in fingers,swollen hands when hanging,1.0,1
+pain in fingers,pain in thumbs,1.0,1
+swollen hand,rigid fingers in mornings,1.0,1
+swollen hand,swollen feet,1.0,1
+swollen hand,swollen ankles,1.0,1
+swollen hand,boring in olecranon,1.0,1
+swollen hand,weight in right arm,1.0,1
+swollen hand,gouty rheumatic affections,1.0,1
+swollen hand,rigid arms at night,1.0,1
+swollen hand,pain between scapulae,1.0,1
+swollen hand,rigid arms when grasping,1.0,1
+swollen hand,worse in wet weather,1.0,1
+swollen hand,headache with nausea,1.0,1
+swollen hand,stitches in soles,1.0,1
+swollen hand,stitches in coccyx,1.0,1
+swollen hand,restless legs,1.0,1
+swollen hand,pressive drawing in small of back at rest,1.0,1
+swollen hand,right arm hangs down no use,1.0,1
+swollen hand,pressive drawing passes off walking,1.0,1
+swollen hand,obstinate coryza,1.0,1
+swollen hand,pain in fingers,1.0,1
+swollen hand,useful in sedentary elderly women,1.0,1
+swollen hand,boring in knees,1.0,1
+swollen hand,cramps in right arm drawing backward,1.0,1
+swollen hand,rigid fingers at night,1.0,1
+swollen hand,gums bleed easily,1.0,1
+swollen hand,languor of lower limbs,1.0,1
+swollen hand,worse with wet applications,1.0,1
+swollen hand,pain in back of hand,1.0,1
+swollen hand,dyspnea,1.0,1
+swollen hand,useful in scrofulous children,1.0,1
+swollen hand,tearing in zygomas,1.0,1
+swollen hand,inimical to lachesis,1.0,1
+swollen hand,worse in winter,1.0,1
+swollen hand,epistaxis,1.0,1
+swollen hand,sprained wrist joint pain,1.0,1
+swollen hand,pain in nape worse right side,1.0,1
+swollen hand,tearing in limbs,1.0,1
+swollen hand,sleeping fingers,1.0,1
+swollen hand,pain in wrists,1.0,1
+swollen hand,legs go to sleep when standing,1.0,1
+swollen hand,headache worse in wet weather,1.0,1
+swollen hand,cramps in soles,1.0,1
+swollen hand,colic with urging to stool,1.0,1
+swollen hand,aversion to walking in open air,1.0,1
+swollen hand,pressing in stomach,1.0,1
+swollen hand,intense coldness in small of back,1.0,1
+swollen hand,drawing leg pain,1.0,1
+swollen hand,rigid fingers when grasping,1.0,1
+swollen hand,pressive drawing in loins at rest,1.0,1
+swollen hand,restless feet,1.0,1
+swollen hand,tearing shoulder pain,1.0,1
+swollen hand,tearing tooth pain,1.0,1
+swollen hand,legs go to sleep when lying,1.0,1
+swollen hand,rigid arms in mornings,1.0,1
+swollen hand,headache worse in winter,1.0,1
+swollen hand,bruised shoulder pain,1.0,1
+swollen hand,swollen hands when hanging,1.0,1
+swollen hand,pain in thumbs,1.0,1
+sprained wrist joint pain,rigid fingers in mornings,1.0,1
+sprained wrist joint pain,swollen feet,1.0,1
+sprained wrist joint pain,swollen ankles,1.0,1
+sprained wrist joint pain,boring in olecranon,1.0,1
+sprained wrist joint pain,weight in right arm,1.0,1
+sprained wrist joint pain,gouty rheumatic affections,1.0,1
+sprained wrist joint pain,rigid arms at night,1.0,1
+sprained wrist joint pain,pain between scapulae,1.0,1
+sprained wrist joint pain,rigid arms when grasping,1.0,1
+sprained wrist joint pain,worse in wet weather,1.0,1
+sprained wrist joint pain,headache with nausea,1.0,1
+sprained wrist joint pain,stitches in soles,1.0,1
+sprained wrist joint pain,stitches in coccyx,1.0,1
+sprained wrist joint pain,restless legs,1.0,1
+sprained wrist joint pain,pressive drawing in small of back at rest,1.0,1
+sprained wrist joint pain,right arm hangs down no use,1.0,1
+sprained wrist joint pain,pressive drawing passes off walking,1.0,1
+sprained wrist joint pain,obstinate coryza,1.0,1
+sprained wrist joint pain,pain in fingers,1.0,1
+sprained wrist joint pain,useful in sedentary elderly women,1.0,1
+sprained wrist joint pain,boring in knees,1.0,1
+sprained wrist joint pain,cramps in right arm drawing backward,1.0,1
+sprained wrist joint pain,rigid fingers at night,1.0,1
+sprained wrist joint pain,gums bleed easily,1.0,1
+sprained wrist joint pain,languor of lower limbs,1.0,1
+sprained wrist joint pain,worse with wet applications,1.0,1
+sprained wrist joint pain,pain in back of hand,1.0,1
+sprained wrist joint pain,dyspnea,1.0,1
+sprained wrist joint pain,useful in scrofulous children,1.0,1
+sprained wrist joint pain,tearing in zygomas,1.0,1
+sprained wrist joint pain,inimical to lachesis,1.0,1
+sprained wrist joint pain,worse in winter,1.0,1
+sprained wrist joint pain,epistaxis,1.0,1
+sprained wrist joint pain,pain in nape worse right side,1.0,1
+sprained wrist joint pain,tearing in limbs,1.0,1
+sprained wrist joint pain,sleeping fingers,1.0,1
+sprained wrist joint pain,pain in wrists,1.0,1
+sprained wrist joint pain,legs go to sleep when standing,1.0,1
+sprained wrist joint pain,headache worse in wet weather,1.0,1
+sprained wrist joint pain,cramps in soles,1.0,1
+sprained wrist joint pain,colic with urging to stool,1.0,1
+sprained wrist joint pain,aversion to walking in open air,1.0,1
+sprained wrist joint pain,pressing in stomach,1.0,1
+sprained wrist joint pain,intense coldness in small of back,1.0,1
+sprained wrist joint pain,drawing leg pain,1.0,1
+sprained wrist joint pain,rigid fingers when grasping,1.0,1
+sprained wrist joint pain,pressive drawing in loins at rest,1.0,1
+sprained wrist joint pain,swollen hand,1.0,1
+sprained wrist joint pain,restless feet,1.0,1
+sprained wrist joint pain,tearing shoulder pain,1.0,1
+sprained wrist joint pain,tearing tooth pain,1.0,1
+sprained wrist joint pain,legs go to sleep when lying,1.0,1
+sprained wrist joint pain,rigid arms in mornings,1.0,1
+sprained wrist joint pain,headache worse in winter,1.0,1
+sprained wrist joint pain,bruised shoulder pain,1.0,1
+sprained wrist joint pain,swollen hands when hanging,1.0,1
+sprained wrist joint pain,pain in thumbs,1.0,1
+rigid fingers at night,rigid fingers in mornings,1.0,1
+rigid fingers at night,swollen feet,1.0,1
+rigid fingers at night,swollen ankles,1.0,1
+rigid fingers at night,boring in olecranon,1.0,1
+rigid fingers at night,weight in right arm,1.0,1
+rigid fingers at night,gouty rheumatic affections,1.0,1
+rigid fingers at night,rigid arms at night,1.0,1
+rigid fingers at night,pain between scapulae,1.0,1
+rigid fingers at night,rigid arms when grasping,1.0,1
+rigid fingers at night,worse in wet weather,1.0,1
+rigid fingers at night,headache with nausea,1.0,1
+rigid fingers at night,stitches in soles,1.0,1
+rigid fingers at night,stitches in coccyx,1.0,1
+rigid fingers at night,restless legs,1.0,1
+rigid fingers at night,pressive drawing in small of back at rest,1.0,1
+rigid fingers at night,right arm hangs down no use,1.0,1
+rigid fingers at night,pressive drawing passes off walking,1.0,1
+rigid fingers at night,obstinate coryza,1.0,1
+rigid fingers at night,pain in fingers,1.0,1
+rigid fingers at night,useful in sedentary elderly women,1.0,1
+rigid fingers at night,boring in knees,1.0,1
+rigid fingers at night,cramps in right arm drawing backward,1.0,1
+rigid fingers at night,gums bleed easily,1.0,1
+rigid fingers at night,languor of lower limbs,1.0,1
+rigid fingers at night,worse with wet applications,1.0,1
+rigid fingers at night,pain in back of hand,1.0,1
+rigid fingers at night,dyspnea,1.0,1
+rigid fingers at night,useful in scrofulous children,1.0,1
+rigid fingers at night,tearing in zygomas,1.0,1
+rigid fingers at night,inimical to lachesis,1.0,1
+rigid fingers at night,worse in winter,1.0,1
+rigid fingers at night,epistaxis,1.0,1
+rigid fingers at night,sprained wrist joint pain,1.0,1
+rigid fingers at night,pain in nape worse right side,1.0,1
+rigid fingers at night,tearing in limbs,1.0,1
+rigid fingers at night,sleeping fingers,1.0,1
+rigid fingers at night,pain in wrists,1.0,1
+rigid fingers at night,legs go to sleep when standing,1.0,1
+rigid fingers at night,headache worse in wet weather,1.0,1
+rigid fingers at night,cramps in soles,1.0,1
+rigid fingers at night,colic with urging to stool,1.0,1
+rigid fingers at night,aversion to walking in open air,1.0,1
+rigid fingers at night,pressing in stomach,1.0,1
+rigid fingers at night,intense coldness in small of back,1.0,1
+rigid fingers at night,drawing leg pain,1.0,1
+rigid fingers at night,rigid fingers when grasping,1.0,1
+rigid fingers at night,pressive drawing in loins at rest,1.0,1
+rigid fingers at night,swollen hand,1.0,1
+rigid fingers at night,restless feet,1.0,1
+rigid fingers at night,tearing shoulder pain,1.0,1
+rigid fingers at night,tearing tooth pain,1.0,1
+rigid fingers at night,legs go to sleep when lying,1.0,1
+rigid fingers at night,rigid arms in mornings,1.0,1
+rigid fingers at night,headache worse in winter,1.0,1
+rigid fingers at night,bruised shoulder pain,1.0,1
+rigid fingers at night,swollen hands when hanging,1.0,1
+rigid fingers at night,pain in thumbs,1.0,1
+headache worse in winter,rigid fingers in mornings,1.0,1
+headache worse in winter,swollen feet,1.0,1
+headache worse in winter,swollen ankles,1.0,1
+headache worse in winter,boring in olecranon,1.0,1
+headache worse in winter,weight in right arm,1.0,1
+headache worse in winter,gouty rheumatic affections,1.0,1
+headache worse in winter,rigid arms at night,1.0,1
+headache worse in winter,pain between scapulae,1.0,1
+headache worse in winter,rigid arms when grasping,1.0,1
+headache worse in winter,worse in wet weather,1.0,1
+headache worse in winter,headache with nausea,1.0,1
+headache worse in winter,stitches in soles,1.0,1
+headache worse in winter,stitches in coccyx,1.0,1
+headache worse in winter,restless legs,1.0,1
+headache worse in winter,pressive drawing in small of back at rest,1.0,1
+headache worse in winter,right arm hangs down no use,1.0,1
+headache worse in winter,pressive drawing passes off walking,1.0,1
+headache worse in winter,obstinate coryza,1.0,1
+headache worse in winter,pain in fingers,1.0,1
+headache worse in winter,useful in sedentary elderly women,1.0,1
+headache worse in winter,boring in knees,1.0,1
+headache worse in winter,cramps in right arm drawing backward,1.0,1
+headache worse in winter,rigid fingers at night,1.0,1
+headache worse in winter,gums bleed easily,1.0,1
+headache worse in winter,languor of lower limbs,1.0,1
+headache worse in winter,worse with wet applications,1.0,1
+headache worse in winter,pain in back of hand,1.0,1
+headache worse in winter,dyspnea,1.0,1
+headache worse in winter,useful in scrofulous children,1.0,1
+headache worse in winter,tearing in zygomas,1.0,1
+headache worse in winter,inimical to lachesis,1.0,1
+headache worse in winter,worse in winter,1.0,1
+headache worse in winter,epistaxis,1.0,1
+headache worse in winter,sprained wrist joint pain,1.0,1
+headache worse in winter,pain in nape worse right side,1.0,1
+headache worse in winter,tearing in limbs,1.0,1
+headache worse in winter,sleeping fingers,1.0,1
+headache worse in winter,pain in wrists,1.0,1
+headache worse in winter,legs go to sleep when standing,1.0,1
+headache worse in winter,headache worse in wet weather,1.0,1
+headache worse in winter,cramps in soles,1.0,1
+headache worse in winter,colic with urging to stool,1.0,1
+headache worse in winter,aversion to walking in open air,1.0,1
+headache worse in winter,pressing in stomach,1.0,1
+headache worse in winter,intense coldness in small of back,1.0,1
+headache worse in winter,drawing leg pain,1.0,1
+headache worse in winter,rigid fingers when grasping,1.0,1
+headache worse in winter,pressive drawing in loins at rest,1.0,1
+headache worse in winter,swollen hand,1.0,1
+headache worse in winter,restless feet,1.0,1
+headache worse in winter,tearing shoulder pain,1.0,1
+headache worse in winter,tearing tooth pain,1.0,1
+headache worse in winter,legs go to sleep when lying,1.0,1
+headache worse in winter,rigid arms in mornings,1.0,1
+headache worse in winter,bruised shoulder pain,1.0,1
+headache worse in winter,swollen hands when hanging,1.0,1
+headache worse in winter,pain in thumbs,1.0,1
+pressive drawing in loins at rest,rigid fingers in mornings,1.0,1
+pressive drawing in loins at rest,swollen feet,1.0,1
+pressive drawing in loins at rest,swollen ankles,1.0,1
+pressive drawing in loins at rest,boring in olecranon,1.0,1
+pressive drawing in loins at rest,weight in right arm,1.0,1
+pressive drawing in loins at rest,gouty rheumatic affections,1.0,1
+pressive drawing in loins at rest,rigid arms at night,1.0,1
+pressive drawing in loins at rest,pain between scapulae,1.0,1
+pressive drawing in loins at rest,rigid arms when grasping,1.0,1
+pressive drawing in loins at rest,worse in wet weather,1.0,1
+pressive drawing in loins at rest,headache with nausea,1.0,1
+pressive drawing in loins at rest,stitches in soles,1.0,1
+pressive drawing in loins at rest,stitches in coccyx,1.0,1
+pressive drawing in loins at rest,restless legs,1.0,1
+pressive drawing in loins at rest,pressive drawing in small of back at rest,1.0,1
+pressive drawing in loins at rest,right arm hangs down no use,1.0,1
+pressive drawing in loins at rest,pressive drawing passes off walking,1.0,1
+pressive drawing in loins at rest,obstinate coryza,1.0,1
+pressive drawing in loins at rest,pain in fingers,1.0,1
+pressive drawing in loins at rest,useful in sedentary elderly women,1.0,1
+pressive drawing in loins at rest,boring in knees,1.0,1
+pressive drawing in loins at rest,cramps in right arm drawing backward,1.0,1
+pressive drawing in loins at rest,rigid fingers at night,1.0,1
+pressive drawing in loins at rest,gums bleed easily,1.0,1
+pressive drawing in loins at rest,languor of lower limbs,1.0,1
+pressive drawing in loins at rest,worse with wet applications,1.0,1
+pressive drawing in loins at rest,pain in back of hand,1.0,1
+pressive drawing in loins at rest,dyspnea,1.0,1
+pressive drawing in loins at rest,useful in scrofulous children,1.0,1
+pressive drawing in loins at rest,tearing in zygomas,1.0,1
+pressive drawing in loins at rest,inimical to lachesis,1.0,1
+pressive drawing in loins at rest,worse in winter,1.0,1
+pressive drawing in loins at rest,epistaxis,1.0,1
+pressive drawing in loins at rest,sprained wrist joint pain,1.0,1
+pressive drawing in loins at rest,pain in nape worse right side,1.0,1
+pressive drawing in loins at rest,tearing in limbs,1.0,1
+pressive drawing in loins at rest,sleeping fingers,1.0,1
+pressive drawing in loins at rest,pain in wrists,1.0,1
+pressive drawing in loins at rest,legs go to sleep when standing,1.0,1
+pressive drawing in loins at rest,headache worse in wet weather,1.0,1
+pressive drawing in loins at rest,cramps in soles,1.0,1
+pressive drawing in loins at rest,colic with urging to stool,1.0,1
+pressive drawing in loins at rest,aversion to walking in open air,1.0,1
+pressive drawing in loins at rest,pressing in stomach,1.0,1
+pressive drawing in loins at rest,intense coldness in small of back,1.0,1
+pressive drawing in loins at rest,drawing leg pain,1.0,1
+pressive drawing in loins at rest,rigid fingers when grasping,1.0,1
+pressive drawing in loins at rest,swollen hand,1.0,1
+pressive drawing in loins at rest,restless feet,1.0,1
+pressive drawing in loins at rest,tearing shoulder pain,1.0,1
+pressive drawing in loins at rest,tearing tooth pain,1.0,1
+pressive drawing in loins at rest,legs go to sleep when lying,1.0,1
+pressive drawing in loins at rest,rigid arms in mornings,1.0,1
+pressive drawing in loins at rest,headache worse in winter,1.0,1
+pressive drawing in loins at rest,bruised shoulder pain,1.0,1
+pressive drawing in loins at rest,swollen hands when hanging,1.0,1
+pressive drawing in loins at rest,pain in thumbs,1.0,1
+stitches in coccyx,rigid fingers in mornings,1.0,1
+stitches in coccyx,swollen feet,1.0,1
+stitches in coccyx,swollen ankles,1.0,1
+stitches in coccyx,boring in olecranon,1.0,1
+stitches in coccyx,weight in right arm,1.0,1
+stitches in coccyx,gouty rheumatic affections,1.0,1
+stitches in coccyx,rigid arms at night,1.0,1
+stitches in coccyx,pain between scapulae,1.0,1
+stitches in coccyx,rigid arms when grasping,1.0,1
+stitches in coccyx,worse in wet weather,1.0,1
+stitches in coccyx,headache with nausea,1.0,1
+stitches in coccyx,stitches in soles,1.0,1
+stitches in coccyx,restless legs,1.0,1
+stitches in coccyx,pressive drawing in small of back at rest,1.0,1
+stitches in coccyx,right arm hangs down no use,1.0,1
+stitches in coccyx,pressive drawing passes off walking,1.0,1
+stitches in coccyx,obstinate coryza,1.0,1
+stitches in coccyx,pain in fingers,1.0,1
+stitches in coccyx,useful in sedentary elderly women,1.0,1
+stitches in coccyx,boring in knees,1.0,1
+stitches in coccyx,cramps in right arm drawing backward,1.0,1
+stitches in coccyx,rigid fingers at night,1.0,1
+stitches in coccyx,gums bleed easily,1.0,1
+stitches in coccyx,languor of lower limbs,1.0,1
+stitches in coccyx,worse with wet applications,1.0,1
+stitches in coccyx,pain in back of hand,1.0,1
+stitches in coccyx,dyspnea,1.0,1
+stitches in coccyx,useful in scrofulous children,1.0,1
+stitches in coccyx,tearing in zygomas,1.0,1
+stitches in coccyx,inimical to lachesis,1.0,1
+stitches in coccyx,worse in winter,1.0,1
+stitches in coccyx,epistaxis,1.0,1
+stitches in coccyx,sprained wrist joint pain,1.0,1
+stitches in coccyx,pain in nape worse right side,1.0,1
+stitches in coccyx,tearing in limbs,1.0,1
+stitches in coccyx,sleeping fingers,1.0,1
+stitches in coccyx,pain in wrists,1.0,1
+stitches in coccyx,legs go to sleep when standing,1.0,1
+stitches in coccyx,headache worse in wet weather,1.0,1
+stitches in coccyx,cramps in soles,1.0,1
+stitches in coccyx,colic with urging to stool,1.0,1
+stitches in coccyx,aversion to walking in open air,1.0,1
+stitches in coccyx,pressing in stomach,1.0,1
+stitches in coccyx,intense coldness in small of back,1.0,1
+stitches in coccyx,drawing leg pain,1.0,1
+stitches in coccyx,rigid fingers when grasping,1.0,1
+stitches in coccyx,pressive drawing in loins at rest,1.0,1
+stitches in coccyx,swollen hand,1.0,1
+stitches in coccyx,restless feet,1.0,1
+stitches in coccyx,tearing shoulder pain,1.0,1
+stitches in coccyx,tearing tooth pain,1.0,1
+stitches in coccyx,legs go to sleep when lying,1.0,1
+stitches in coccyx,rigid arms in mornings,1.0,1
+stitches in coccyx,headache worse in winter,1.0,1
+stitches in coccyx,bruised shoulder pain,1.0,1
+stitches in coccyx,swollen hands when hanging,1.0,1
+stitches in coccyx,pain in thumbs,1.0,1
+headache with nausea,rigid fingers in mornings,1.0,1
+headache with nausea,swollen feet,1.0,1
+headache with nausea,swollen ankles,1.0,1
+headache with nausea,boring in olecranon,1.0,1
+headache with nausea,weight in right arm,1.0,1
+headache with nausea,gouty rheumatic affections,1.0,1
+headache with nausea,rigid arms at night,1.0,1
+headache with nausea,pain between scapulae,1.0,1
+headache with nausea,rigid arms when grasping,1.0,1
+headache with nausea,worse in wet weather,1.0,1
+headache with nausea,stitches in soles,1.0,1
+headache with nausea,stitches in coccyx,1.0,1
+headache with nausea,restless legs,1.0,1
+headache with nausea,pressive drawing in small of back at rest,1.0,1
+headache with nausea,right arm hangs down no use,1.0,1
+headache with nausea,pressive drawing passes off walking,1.0,1
+headache with nausea,obstinate coryza,1.0,1
+headache with nausea,pain in fingers,1.0,1
+headache with nausea,useful in sedentary elderly women,1.0,1
+headache with nausea,boring in knees,1.0,1
+headache with nausea,cramps in right arm drawing backward,1.0,1
+headache with nausea,rigid fingers at night,1.0,1
+headache with nausea,gums bleed easily,1.0,1
+headache with nausea,languor of lower limbs,1.0,1
+headache with nausea,worse with wet applications,1.0,1
+headache with nausea,pain in back of hand,1.0,1
+headache with nausea,dyspnea,1.0,1
+headache with nausea,useful in scrofulous children,1.0,1
+headache with nausea,tearing in zygomas,1.0,1
+headache with nausea,inimical to lachesis,1.0,1
+headache with nausea,worse in winter,1.0,1
+headache with nausea,epistaxis,1.0,1
+headache with nausea,sprained wrist joint pain,1.0,1
+headache with nausea,pain in nape worse right side,1.0,1
+headache with nausea,tearing in limbs,1.0,1
+headache with nausea,sleeping fingers,1.0,1
+headache with nausea,pain in wrists,1.0,1
+headache with nausea,legs go to sleep when standing,1.0,1
+headache with nausea,headache worse in wet weather,1.0,1
+headache with nausea,cramps in soles,1.0,1
+headache with nausea,colic with urging to stool,1.0,1
+headache with nausea,aversion to walking in open air,1.0,1
+headache with nausea,pressing in stomach,1.0,1
+headache with nausea,intense coldness in small of back,1.0,1
+headache with nausea,drawing leg pain,1.0,1
+headache with nausea,rigid fingers when grasping,1.0,1
+headache with nausea,pressive drawing in loins at rest,1.0,1
+headache with nausea,swollen hand,1.0,1
+headache with nausea,restless feet,1.0,1
+headache with nausea,tearing shoulder pain,1.0,1
+headache with nausea,tearing tooth pain,1.0,1
+headache with nausea,legs go to sleep when lying,1.0,1
+headache with nausea,rigid arms in mornings,1.0,1
+headache with nausea,headache worse in winter,1.0,1
+headache with nausea,bruised shoulder pain,1.0,1
+headache with nausea,swollen hands when hanging,1.0,1
+headache with nausea,pain in thumbs,1.0,1
+weight in right arm,rigid fingers in mornings,1.0,1
+weight in right arm,swollen feet,1.0,1
+weight in right arm,swollen ankles,1.0,1
+weight in right arm,boring in olecranon,1.0,1
+weight in right arm,gouty rheumatic affections,1.0,1
+weight in right arm,rigid arms at night,1.0,1
+weight in right arm,pain between scapulae,1.0,1
+weight in right arm,rigid arms when grasping,1.0,1
+weight in right arm,worse in wet weather,1.0,1
+weight in right arm,headache with nausea,1.0,1
+weight in right arm,stitches in soles,1.0,1
+weight in right arm,stitches in coccyx,1.0,1
+weight in right arm,restless legs,1.0,1
+weight in right arm,pressive drawing in small of back at rest,1.0,1
+weight in right arm,right arm hangs down no use,1.0,1
+weight in right arm,pressive drawing passes off walking,1.0,1
+weight in right arm,obstinate coryza,1.0,1
+weight in right arm,pain in fingers,1.0,1
+weight in right arm,useful in sedentary elderly women,1.0,1
+weight in right arm,boring in knees,1.0,1
+weight in right arm,cramps in right arm drawing backward,1.0,1
+weight in right arm,rigid fingers at night,1.0,1
+weight in right arm,gums bleed easily,1.0,1
+weight in right arm,languor of lower limbs,1.0,1
+weight in right arm,worse with wet applications,1.0,1
+weight in right arm,pain in back of hand,1.0,1
+weight in right arm,dyspnea,1.0,1
+weight in right arm,useful in scrofulous children,1.0,1
+weight in right arm,tearing in zygomas,1.0,1
+weight in right arm,inimical to lachesis,1.0,1
+weight in right arm,worse in winter,1.0,1
+weight in right arm,epistaxis,1.0,1
+weight in right arm,sprained wrist joint pain,1.0,1
+weight in right arm,pain in nape worse right side,1.0,1
+weight in right arm,tearing in limbs,1.0,1
+weight in right arm,sleeping fingers,1.0,1
+weight in right arm,pain in wrists,1.0,1
+weight in right arm,legs go to sleep when standing,1.0,1
+weight in right arm,headache worse in wet weather,1.0,1
+weight in right arm,cramps in soles,1.0,1
+weight in right arm,colic with urging to stool,1.0,1
+weight in right arm,aversion to walking in open air,1.0,1
+weight in right arm,pressing in stomach,1.0,1
+weight in right arm,intense coldness in small of back,1.0,1
+weight in right arm,drawing leg pain,1.0,1
+weight in right arm,rigid fingers when grasping,1.0,1
+weight in right arm,pressive drawing in loins at rest,1.0,1
+weight in right arm,swollen hand,1.0,1
+weight in right arm,restless feet,1.0,1
+weight in right arm,tearing shoulder pain,1.0,1
+weight in right arm,tearing tooth pain,1.0,1
+weight in right arm,legs go to sleep when lying,1.0,1
+weight in right arm,rigid arms in mornings,1.0,1
+weight in right arm,headache worse in winter,1.0,1
+weight in right arm,bruised shoulder pain,1.0,1
+weight in right arm,swollen hands when hanging,1.0,1
+weight in right arm,pain in thumbs,1.0,1
+rigid fingers in mornings,swollen feet,1.0,1
+rigid fingers in mornings,swollen ankles,1.0,1
+rigid fingers in mornings,boring in olecranon,1.0,1
+rigid fingers in mornings,weight in right arm,1.0,1
+rigid fingers in mornings,gouty rheumatic affections,1.0,1
+rigid fingers in mornings,rigid arms at night,1.0,1
+rigid fingers in mornings,pain between scapulae,1.0,1
+rigid fingers in mornings,rigid arms when grasping,1.0,1
+rigid fingers in mornings,worse in wet weather,1.0,1
+rigid fingers in mornings,headache with nausea,1.0,1
+rigid fingers in mornings,stitches in soles,1.0,1
+rigid fingers in mornings,stitches in coccyx,1.0,1
+rigid fingers in mornings,restless legs,1.0,1
+rigid fingers in mornings,pressive drawing in small of back at rest,1.0,1
+rigid fingers in mornings,right arm hangs down no use,1.0,1
+rigid fingers in mornings,pressive drawing passes off walking,1.0,1
+rigid fingers in mornings,obstinate coryza,1.0,1
+rigid fingers in mornings,pain in fingers,1.0,1
+rigid fingers in mornings,useful in sedentary elderly women,1.0,1
+rigid fingers in mornings,boring in knees,1.0,1
+rigid fingers in mornings,cramps in right arm drawing backward,1.0,1
+rigid fingers in mornings,rigid fingers at night,1.0,1
+rigid fingers in mornings,gums bleed easily,1.0,1
+rigid fingers in mornings,languor of lower limbs,1.0,1
+rigid fingers in mornings,worse with wet applications,1.0,1
+rigid fingers in mornings,pain in back of hand,1.0,1
+rigid fingers in mornings,dyspnea,1.0,1
+rigid fingers in mornings,useful in scrofulous children,1.0,1
+rigid fingers in mornings,tearing in zygomas,1.0,1
+rigid fingers in mornings,inimical to lachesis,1.0,1
+rigid fingers in mornings,worse in winter,1.0,1
+rigid fingers in mornings,epistaxis,1.0,1
+rigid fingers in mornings,sprained wrist joint pain,1.0,1
+rigid fingers in mornings,pain in nape worse right side,1.0,1
+rigid fingers in mornings,tearing in limbs,1.0,1
+rigid fingers in mornings,sleeping fingers,1.0,1
+rigid fingers in mornings,pain in wrists,1.0,1
+rigid fingers in mornings,legs go to sleep when standing,1.0,1
+rigid fingers in mornings,headache worse in wet weather,1.0,1
+rigid fingers in mornings,cramps in soles,1.0,1
+rigid fingers in mornings,colic with urging to stool,1.0,1
+rigid fingers in mornings,aversion to walking in open air,1.0,1
+rigid fingers in mornings,pressing in stomach,1.0,1
+rigid fingers in mornings,intense coldness in small of back,1.0,1
+rigid fingers in mornings,drawing leg pain,1.0,1
+rigid fingers in mornings,rigid fingers when grasping,1.0,1
+rigid fingers in mornings,pressive drawing in loins at rest,1.0,1
+rigid fingers in mornings,swollen hand,1.0,1
+rigid fingers in mornings,restless feet,1.0,1
+rigid fingers in mornings,tearing shoulder pain,1.0,1
+rigid fingers in mornings,tearing tooth pain,1.0,1
+rigid fingers in mornings,legs go to sleep when lying,1.0,1
+rigid fingers in mornings,rigid arms in mornings,1.0,1
+rigid fingers in mornings,headache worse in winter,1.0,1
+rigid fingers in mornings,bruised shoulder pain,1.0,1
+rigid fingers in mornings,swollen hands when hanging,1.0,1
+rigid fingers in mornings,pain in thumbs,1.0,1
+useful in sedentary elderly women,rigid fingers in mornings,1.0,1
+useful in sedentary elderly women,swollen feet,1.0,1
+useful in sedentary elderly women,swollen ankles,1.0,1
+useful in sedentary elderly women,boring in olecranon,1.0,1
+useful in sedentary elderly women,weight in right arm,1.0,1
+useful in sedentary elderly women,gouty rheumatic affections,1.0,1
+useful in sedentary elderly women,rigid arms at night,1.0,1
+useful in sedentary elderly women,pain between scapulae,1.0,1
+useful in sedentary elderly women,rigid arms when grasping,1.0,1
+useful in sedentary elderly women,worse in wet weather,1.0,1
+useful in sedentary elderly women,headache with nausea,1.0,1
+useful in sedentary elderly women,stitches in soles,1.0,1
+useful in sedentary elderly women,stitches in coccyx,1.0,1
+useful in sedentary elderly women,restless legs,1.0,1
+useful in sedentary elderly women,pressive drawing in small of back at rest,1.0,1
+useful in sedentary elderly women,right arm hangs down no use,1.0,1
+useful in sedentary elderly women,pressive drawing passes off walking,1.0,1
+useful in sedentary elderly women,obstinate coryza,1.0,1
+useful in sedentary elderly women,pain in fingers,1.0,1
+useful in sedentary elderly women,boring in knees,1.0,1
+useful in sedentary elderly women,cramps in right arm drawing backward,1.0,1
+useful in sedentary elderly women,rigid fingers at night,1.0,1
+useful in sedentary elderly women,gums bleed easily,1.0,1
+useful in sedentary elderly women,languor of lower limbs,1.0,1
+useful in sedentary elderly women,worse with wet applications,1.0,1
+useful in sedentary elderly women,pain in back of hand,1.0,1
+useful in sedentary elderly women,dyspnea,1.0,1
+useful in sedentary elderly women,useful in scrofulous children,1.0,1
+useful in sedentary elderly women,tearing in zygomas,1.0,1
+useful in sedentary elderly women,inimical to lachesis,1.0,1
+useful in sedentary elderly women,worse in winter,1.0,1
+useful in sedentary elderly women,epistaxis,1.0,1
+useful in sedentary elderly women,sprained wrist joint pain,1.0,1
+useful in sedentary elderly women,pain in nape worse right side,1.0,1
+useful in sedentary elderly women,tearing in limbs,1.0,1
+useful in sedentary elderly women,sleeping fingers,1.0,1
+useful in sedentary elderly women,pain in wrists,1.0,1
+useful in sedentary elderly women,legs go to sleep when standing,1.0,1
+useful in sedentary elderly women,headache worse in wet weather,1.0,1
+useful in sedentary elderly women,cramps in soles,1.0,1
+useful in sedentary elderly women,colic with urging to stool,1.0,1
+useful in sedentary elderly women,aversion to walking in open air,1.0,1
+useful in sedentary elderly women,pressing in stomach,1.0,1
+useful in sedentary elderly women,intense coldness in small of back,1.0,1
+useful in sedentary elderly women,drawing leg pain,1.0,1
+useful in sedentary elderly women,rigid fingers when grasping,1.0,1
+useful in sedentary elderly women,pressive drawing in loins at rest,1.0,1
+useful in sedentary elderly women,swollen hand,1.0,1
+useful in sedentary elderly women,restless feet,1.0,1
+useful in sedentary elderly women,tearing shoulder pain,1.0,1
+useful in sedentary elderly women,tearing tooth pain,1.0,1
+useful in sedentary elderly women,legs go to sleep when lying,1.0,1
+useful in sedentary elderly women,rigid arms in mornings,1.0,1
+useful in sedentary elderly women,headache worse in winter,1.0,1
+useful in sedentary elderly women,bruised shoulder pain,1.0,1
+useful in sedentary elderly women,swollen hands when hanging,1.0,1
+useful in sedentary elderly women,pain in thumbs,1.0,1
+tearing in zygomas,rigid fingers in mornings,1.0,1
+tearing in zygomas,swollen feet,1.0,1
+tearing in zygomas,swollen ankles,1.0,1
+tearing in zygomas,boring in olecranon,1.0,1
+tearing in zygomas,weight in right arm,1.0,1
+tearing in zygomas,gouty rheumatic affections,1.0,1
+tearing in zygomas,rigid arms at night,1.0,1
+tearing in zygomas,pain between scapulae,1.0,1
+tearing in zygomas,rigid arms when grasping,1.0,1
+tearing in zygomas,worse in wet weather,1.0,1
+tearing in zygomas,headache with nausea,1.0,1
+tearing in zygomas,stitches in soles,1.0,1
+tearing in zygomas,stitches in coccyx,1.0,1
+tearing in zygomas,restless legs,1.0,1
+tearing in zygomas,pressive drawing in small of back at rest,1.0,1
+tearing in zygomas,right arm hangs down no use,1.0,1
+tearing in zygomas,pressive drawing passes off walking,1.0,1
+tearing in zygomas,obstinate coryza,1.0,1
+tearing in zygomas,pain in fingers,1.0,1
+tearing in zygomas,useful in sedentary elderly women,1.0,1
+tearing in zygomas,boring in knees,1.0,1
+tearing in zygomas,cramps in right arm drawing backward,1.0,1
+tearing in zygomas,rigid fingers at night,1.0,1
+tearing in zygomas,gums bleed easily,1.0,1
+tearing in zygomas,languor of lower limbs,1.0,1
+tearing in zygomas,worse with wet applications,1.0,1
+tearing in zygomas,pain in back of hand,1.0,1
+tearing in zygomas,dyspnea,1.0,1
+tearing in zygomas,useful in scrofulous children,1.0,1
+tearing in zygomas,inimical to lachesis,1.0,1
+tearing in zygomas,worse in winter,1.0,1
+tearing in zygomas,epistaxis,1.0,1
+tearing in zygomas,sprained wrist joint pain,1.0,1
+tearing in zygomas,pain in nape worse right side,1.0,1
+tearing in zygomas,tearing in limbs,1.0,1
+tearing in zygomas,sleeping fingers,1.0,1
+tearing in zygomas,pain in wrists,1.0,1
+tearing in zygomas,legs go to sleep when standing,1.0,1
+tearing in zygomas,headache worse in wet weather,1.0,1
+tearing in zygomas,cramps in soles,1.0,1
+tearing in zygomas,colic with urging to stool,1.0,1
+tearing in zygomas,aversion to walking in open air,1.0,1
+tearing in zygomas,pressing in stomach,1.0,1
+tearing in zygomas,intense coldness in small of back,1.0,1
+tearing in zygomas,drawing leg pain,1.0,1
+tearing in zygomas,rigid fingers when grasping,1.0,1
+tearing in zygomas,pressive drawing in loins at rest,1.0,1
+tearing in zygomas,swollen hand,1.0,1
+tearing in zygomas,restless feet,1.0,1
+tearing in zygomas,tearing shoulder pain,1.0,1
+tearing in zygomas,tearing tooth pain,1.0,1
+tearing in zygomas,legs go to sleep when lying,1.0,1
+tearing in zygomas,rigid arms in mornings,1.0,1
+tearing in zygomas,headache worse in winter,1.0,1
+tearing in zygomas,bruised shoulder pain,1.0,1
+tearing in zygomas,swollen hands when hanging,1.0,1
+tearing in zygomas,pain in thumbs,1.0,1
+pressing in stomach,rigid fingers in mornings,0.5,1
+pressing in stomach,swollen feet,0.5,1
+pressing in stomach,swollen ankles,0.5,1
+pressing in stomach,boring in olecranon,0.5,1
+pressing in stomach,weight in right arm,0.5,1
+pressing in stomach,gouty rheumatic affections,0.5,1
+pressing in stomach,rigid arms at night,0.5,1
+pressing in stomach,pain between scapulae,0.5,1
+pressing in stomach,rigid arms when grasping,0.5,1
+pressing in stomach,worse in wet weather,0.5,1
+pressing in stomach,headache with nausea,0.5,1
+pressing in stomach,stitches in soles,0.5,1
+pressing in stomach,stitches in coccyx,0.5,1
+pressing in stomach,restless legs,0.5,1
+pressing in stomach,pressive drawing in small of back at rest,0.5,1
+pressing in stomach,right arm hangs down no use,0.5,1
+pressing in stomach,pressive drawing passes off walking,0.5,1
+pressing in stomach,obstinate coryza,0.5,1
+pressing in stomach,pain in fingers,0.5,1
+pressing in stomach,useful in sedentary elderly women,0.5,1
+pressing in stomach,boring in knees,0.5,1
+pressing in stomach,cramps in right arm drawing backward,0.5,1
+pressing in stomach,rigid fingers at night,0.5,1
+pressing in stomach,gums bleed easily,0.5,1
+pressing in stomach,languor of lower limbs,0.5,1
+pressing in stomach,worse with wet applications,0.5,1
+pressing in stomach,pain in back of hand,0.5,1
+pressing in stomach,dyspnea,0.5,1
+pressing in stomach,useful in scrofulous children,0.5,1
+pressing in stomach,tearing in zygomas,0.5,1
+pressing in stomach,inimical to lachesis,0.5,1
+pressing in stomach,worse in winter,0.5,1
+pressing in stomach,epistaxis,0.5,1
+pressing in stomach,sprained wrist joint pain,0.5,1
+pressing in stomach,pain in nape worse right side,0.5,1
+pressing in stomach,tearing in limbs,0.5,1
+pressing in stomach,sleeping fingers,0.5,1
+pressing in stomach,pain in wrists,0.5,1
+pressing in stomach,legs go to sleep when standing,0.5,1
+pressing in stomach,headache worse in wet weather,1.0,2
+pressing in stomach,cramps in soles,1.0,2
+pressing in stomach,colic with urging to stool,1.0,2
+pressing in stomach,aversion to walking in open air,0.5,1
+pressing in stomach,intense coldness in small of back,0.5,1
+pressing in stomach,drawing leg pain,0.5,1
+pressing in stomach,rigid fingers when grasping,0.5,1
+pressing in stomach,pressive drawing in loins at rest,0.5,1
+pressing in stomach,swollen hand,0.5,1
+pressing in stomach,restless feet,0.5,1
+pressing in stomach,tearing shoulder pain,0.5,1
+pressing in stomach,tearing tooth pain,0.5,1
+pressing in stomach,legs go to sleep when lying,0.5,1
+pressing in stomach,rigid arms in mornings,0.5,1
+pressing in stomach,headache worse in winter,0.5,1
+pressing in stomach,bruised shoulder pain,0.5,1
+pressing in stomach,swollen hands when hanging,0.5,1
+pressing in stomach,pain in thumbs,0.5,1
+legs go to sleep when lying,rigid fingers in mornings,1.0,1
+legs go to sleep when lying,swollen feet,1.0,1
+legs go to sleep when lying,swollen ankles,1.0,1
+legs go to sleep when lying,boring in olecranon,1.0,1
+legs go to sleep when lying,weight in right arm,1.0,1
+legs go to sleep when lying,gouty rheumatic affections,1.0,1
+legs go to sleep when lying,rigid arms at night,1.0,1
+legs go to sleep when lying,pain between scapulae,1.0,1
+legs go to sleep when lying,rigid arms when grasping,1.0,1
+legs go to sleep when lying,worse in wet weather,1.0,1
+legs go to sleep when lying,headache with nausea,1.0,1
+legs go to sleep when lying,stitches in soles,1.0,1
+legs go to sleep when lying,stitches in coccyx,1.0,1
+legs go to sleep when lying,restless legs,1.0,1
+legs go to sleep when lying,pressive drawing in small of back at rest,1.0,1
+legs go to sleep when lying,right arm hangs down no use,1.0,1
+legs go to sleep when lying,pressive drawing passes off walking,1.0,1
+legs go to sleep when lying,obstinate coryza,1.0,1
+legs go to sleep when lying,pain in fingers,1.0,1
+legs go to sleep when lying,useful in sedentary elderly women,1.0,1
+legs go to sleep when lying,boring in knees,1.0,1
+legs go to sleep when lying,cramps in right arm drawing backward,1.0,1
+legs go to sleep when lying,rigid fingers at night,1.0,1
+legs go to sleep when lying,gums bleed easily,1.0,1
+legs go to sleep when lying,languor of lower limbs,1.0,1
+legs go to sleep when lying,worse with wet applications,1.0,1
+legs go to sleep when lying,pain in back of hand,1.0,1
+legs go to sleep when lying,dyspnea,1.0,1
+legs go to sleep when lying,useful in scrofulous children,1.0,1
+legs go to sleep when lying,tearing in zygomas,1.0,1
+legs go to sleep when lying,inimical to lachesis,1.0,1
+legs go to sleep when lying,worse in winter,1.0,1
+legs go to sleep when lying,epistaxis,1.0,1
+legs go to sleep when lying,sprained wrist joint pain,1.0,1
+legs go to sleep when lying,pain in nape worse right side,1.0,1
+legs go to sleep when lying,tearing in limbs,1.0,1
+legs go to sleep when lying,sleeping fingers,1.0,1
+legs go to sleep when lying,pain in wrists,1.0,1
+legs go to sleep when lying,legs go to sleep when standing,1.0,1
+legs go to sleep when lying,headache worse in wet weather,1.0,1
+legs go to sleep when lying,cramps in soles,1.0,1
+legs go to sleep when lying,colic with urging to stool,1.0,1
+legs go to sleep when lying,aversion to walking in open air,1.0,1
+legs go to sleep when lying,pressing in stomach,1.0,1
+legs go to sleep when lying,intense coldness in small of back,1.0,1
+legs go to sleep when lying,drawing leg pain,1.0,1
+legs go to sleep when lying,rigid fingers when grasping,1.0,1
+legs go to sleep when lying,pressive drawing in loins at rest,1.0,1
+legs go to sleep when lying,swollen hand,1.0,1
+legs go to sleep when lying,restless feet,1.0,1
+legs go to sleep when lying,tearing shoulder pain,1.0,1
+legs go to sleep when lying,tearing tooth pain,1.0,1
+legs go to sleep when lying,rigid arms in mornings,1.0,1
+legs go to sleep when lying,headache worse in winter,1.0,1
+legs go to sleep when lying,bruised shoulder pain,1.0,1
+legs go to sleep when lying,swollen hands when hanging,1.0,1
+legs go to sleep when lying,pain in thumbs,1.0,1
+tearing tooth pain,rigid fingers in mornings,1.0,1
+tearing tooth pain,swollen feet,1.0,1
+tearing tooth pain,swollen ankles,1.0,1
+tearing tooth pain,boring in olecranon,1.0,1
+tearing tooth pain,weight in right arm,1.0,1
+tearing tooth pain,gouty rheumatic affections,1.0,1
+tearing tooth pain,rigid arms at night,1.0,1
+tearing tooth pain,pain between scapulae,1.0,1
+tearing tooth pain,rigid arms when grasping,1.0,1
+tearing tooth pain,worse in wet weather,1.0,1
+tearing tooth pain,headache with nausea,1.0,1
+tearing tooth pain,stitches in soles,1.0,1
+tearing tooth pain,stitches in coccyx,1.0,1
+tearing tooth pain,restless legs,1.0,1
+tearing tooth pain,pressive drawing in small of back at rest,1.0,1
+tearing tooth pain,right arm hangs down no use,1.0,1
+tearing tooth pain,pressive drawing passes off walking,1.0,1
+tearing tooth pain,obstinate coryza,1.0,1
+tearing tooth pain,pain in fingers,1.0,1
+tearing tooth pain,useful in sedentary elderly women,1.0,1
+tearing tooth pain,boring in knees,1.0,1
+tearing tooth pain,cramps in right arm drawing backward,1.0,1
+tearing tooth pain,rigid fingers at night,1.0,1
+tearing tooth pain,gums bleed easily,1.0,1
+tearing tooth pain,languor of lower limbs,1.0,1
+tearing tooth pain,worse with wet applications,1.0,1
+tearing tooth pain,pain in back of hand,1.0,1
+tearing tooth pain,dyspnea,1.0,1
+tearing tooth pain,useful in scrofulous children,1.0,1
+tearing tooth pain,tearing in zygomas,1.0,1
+tearing tooth pain,inimical to lachesis,1.0,1
+tearing tooth pain,worse in winter,1.0,1
+tearing tooth pain,epistaxis,1.0,1
+tearing tooth pain,sprained wrist joint pain,1.0,1
+tearing tooth pain,pain in nape worse right side,1.0,1
+tearing tooth pain,tearing in limbs,1.0,1
+tearing tooth pain,sleeping fingers,1.0,1
+tearing tooth pain,pain in wrists,1.0,1
+tearing tooth pain,legs go to sleep when standing,1.0,1
+tearing tooth pain,headache worse in wet weather,1.0,1
+tearing tooth pain,cramps in soles,1.0,1
+tearing tooth pain,colic with urging to stool,1.0,1
+tearing tooth pain,aversion to walking in open air,1.0,1
+tearing tooth pain,pressing in stomach,1.0,1
+tearing tooth pain,intense coldness in small of back,1.0,1
+tearing tooth pain,drawing leg pain,1.0,1
+tearing tooth pain,rigid fingers when grasping,1.0,1
+tearing tooth pain,pressive drawing in loins at rest,1.0,1
+tearing tooth pain,swollen hand,1.0,1
+tearing tooth pain,restless feet,1.0,1
+tearing tooth pain,tearing shoulder pain,1.0,1
+tearing tooth pain,legs go to sleep when lying,1.0,1
+tearing tooth pain,rigid arms in mornings,1.0,1
+tearing tooth pain,headache worse in winter,1.0,1
+tearing tooth pain,bruised shoulder pain,1.0,1
+tearing tooth pain,swollen hands when hanging,1.0,1
+tearing tooth pain,pain in thumbs,1.0,1
+dyspnea,rigid fingers in mornings,1.0,1
+dyspnea,swollen feet,1.0,1
+dyspnea,swollen ankles,1.0,1
+dyspnea,boring in olecranon,1.0,1
+dyspnea,weight in right arm,1.0,1
+dyspnea,gouty rheumatic affections,1.0,1
+dyspnea,rigid arms at night,1.0,1
+dyspnea,pain between scapulae,1.0,1
+dyspnea,rigid arms when grasping,1.0,1
+dyspnea,worse in wet weather,1.0,1
+dyspnea,headache with nausea,1.0,1
+dyspnea,stitches in soles,1.0,1
+dyspnea,stitches in coccyx,1.0,1
+dyspnea,restless legs,1.0,1
+dyspnea,pressive drawing in small of back at rest,1.0,1
+dyspnea,right arm hangs down no use,1.0,1
+dyspnea,pressive drawing passes off walking,1.0,1
+dyspnea,obstinate coryza,1.0,1
+dyspnea,pain in fingers,1.0,1
+dyspnea,useful in sedentary elderly women,1.0,1
+dyspnea,boring in knees,1.0,1
+dyspnea,cramps in right arm drawing backward,1.0,1
+dyspnea,rigid fingers at night,1.0,1
+dyspnea,gums bleed easily,1.0,1
+dyspnea,languor of lower limbs,1.0,1
+dyspnea,worse with wet applications,1.0,1
+dyspnea,pain in back of hand,1.0,1
+dyspnea,useful in scrofulous children,1.0,1
+dyspnea,tearing in zygomas,1.0,1
+dyspnea,inimical to lachesis,1.0,1
+dyspnea,worse in winter,1.0,1
+dyspnea,epistaxis,1.0,1
+dyspnea,sprained wrist joint pain,1.0,1
+dyspnea,pain in nape worse right side,1.0,1
+dyspnea,tearing in limbs,1.0,1
+dyspnea,sleeping fingers,1.0,1
+dyspnea,pain in wrists,1.0,1
+dyspnea,legs go to sleep when standing,1.0,1
+dyspnea,headache worse in wet weather,1.0,1
+dyspnea,cramps in soles,1.0,1
+dyspnea,colic with urging to stool,1.0,1
+dyspnea,aversion to walking in open air,1.0,1
+dyspnea,pressing in stomach,1.0,1
+dyspnea,intense coldness in small of back,1.0,1
+dyspnea,drawing leg pain,1.0,1
+dyspnea,rigid fingers when grasping,1.0,1
+dyspnea,pressive drawing in loins at rest,1.0,1
+dyspnea,swollen hand,1.0,1
+dyspnea,restless feet,1.0,1
+dyspnea,tearing shoulder pain,1.0,1
+dyspnea,tearing tooth pain,1.0,1
+dyspnea,legs go to sleep when lying,1.0,1
+dyspnea,rigid arms in mornings,1.0,1
+dyspnea,headache worse in winter,1.0,1
+dyspnea,bruised shoulder pain,1.0,1
+dyspnea,swollen hands when hanging,1.0,1
+dyspnea,pain in thumbs,1.0,1
+inimical to lachesis,rigid fingers in mornings,1.0,1
+inimical to lachesis,swollen feet,1.0,1
+inimical to lachesis,swollen ankles,1.0,1
+inimical to lachesis,boring in olecranon,1.0,1
+inimical to lachesis,weight in right arm,1.0,1
+inimical to lachesis,gouty rheumatic affections,1.0,1
+inimical to lachesis,rigid arms at night,1.0,1
+inimical to lachesis,pain between scapulae,1.0,1
+inimical to lachesis,rigid arms when grasping,1.0,1
+inimical to lachesis,worse in wet weather,1.0,1
+inimical to lachesis,headache with nausea,1.0,1
+inimical to lachesis,stitches in soles,1.0,1
+inimical to lachesis,stitches in coccyx,1.0,1
+inimical to lachesis,restless legs,1.0,1
+inimical to lachesis,pressive drawing in small of back at rest,1.0,1
+inimical to lachesis,right arm hangs down no use,1.0,1
+inimical to lachesis,pressive drawing passes off walking,1.0,1
+inimical to lachesis,obstinate coryza,1.0,1
+inimical to lachesis,pain in fingers,1.0,1
+inimical to lachesis,useful in sedentary elderly women,1.0,1
+inimical to lachesis,boring in knees,1.0,1
+inimical to lachesis,cramps in right arm drawing backward,1.0,1
+inimical to lachesis,rigid fingers at night,1.0,1
+inimical to lachesis,gums bleed easily,1.0,1
+inimical to lachesis,languor of lower limbs,1.0,1
+inimical to lachesis,worse with wet applications,1.0,1
+inimical to lachesis,pain in back of hand,1.0,1
+inimical to lachesis,dyspnea,1.0,1
+inimical to lachesis,useful in scrofulous children,1.0,1
+inimical to lachesis,tearing in zygomas,1.0,1
+inimical to lachesis,worse in winter,1.0,1
+inimical to lachesis,epistaxis,1.0,1
+inimical to lachesis,sprained wrist joint pain,1.0,1
+inimical to lachesis,pain in nape worse right side,1.0,1
+inimical to lachesis,tearing in limbs,1.0,1
+inimical to lachesis,sleeping fingers,1.0,1
+inimical to lachesis,pain in wrists,1.0,1
+inimical to lachesis,legs go to sleep when standing,1.0,1
+inimical to lachesis,headache worse in wet weather,1.0,1
+inimical to lachesis,cramps in soles,1.0,1
+inimical to lachesis,colic with urging to stool,1.0,1
+inimical to lachesis,aversion to walking in open air,1.0,1
+inimical to lachesis,pressing in stomach,1.0,1
+inimical to lachesis,intense coldness in small of back,1.0,1
+inimical to lachesis,drawing leg pain,1.0,1
+inimical to lachesis,rigid fingers when grasping,1.0,1
+inimical to lachesis,pressive drawing in loins at rest,1.0,1
+inimical to lachesis,swollen hand,1.0,1
+inimical to lachesis,restless feet,1.0,1
+inimical to lachesis,tearing shoulder pain,1.0,1
+inimical to lachesis,tearing tooth pain,1.0,1
+inimical to lachesis,legs go to sleep when lying,1.0,1
+inimical to lachesis,rigid arms in mornings,1.0,1
+inimical to lachesis,headache worse in winter,1.0,1
+inimical to lachesis,bruised shoulder pain,1.0,1
+inimical to lachesis,swollen hands when hanging,1.0,1
+inimical to lachesis,pain in thumbs,1.0,1
+sleeping fingers,rigid fingers in mornings,1.0,1
+sleeping fingers,swollen feet,1.0,1
+sleeping fingers,swollen ankles,1.0,1
+sleeping fingers,boring in olecranon,1.0,1
+sleeping fingers,weight in right arm,1.0,1
+sleeping fingers,gouty rheumatic affections,1.0,1
+sleeping fingers,rigid arms at night,1.0,1
+sleeping fingers,pain between scapulae,1.0,1
+sleeping fingers,rigid arms when grasping,1.0,1
+sleeping fingers,worse in wet weather,1.0,1
+sleeping fingers,headache with nausea,1.0,1
+sleeping fingers,stitches in soles,1.0,1
+sleeping fingers,stitches in coccyx,1.0,1
+sleeping fingers,restless legs,1.0,1
+sleeping fingers,pressive drawing in small of back at rest,1.0,1
+sleeping fingers,right arm hangs down no use,1.0,1
+sleeping fingers,pressive drawing passes off walking,1.0,1
+sleeping fingers,obstinate coryza,1.0,1
+sleeping fingers,pain in fingers,1.0,1
+sleeping fingers,useful in sedentary elderly women,1.0,1
+sleeping fingers,boring in knees,1.0,1
+sleeping fingers,cramps in right arm drawing backward,1.0,1
+sleeping fingers,rigid fingers at night,1.0,1
+sleeping fingers,gums bleed easily,1.0,1
+sleeping fingers,languor of lower limbs,1.0,1
+sleeping fingers,worse with wet applications,1.0,1
+sleeping fingers,pain in back of hand,1.0,1
+sleeping fingers,dyspnea,1.0,1
+sleeping fingers,useful in scrofulous children,1.0,1
+sleeping fingers,tearing in zygomas,1.0,1
+sleeping fingers,inimical to lachesis,1.0,1
+sleeping fingers,worse in winter,1.0,1
+sleeping fingers,epistaxis,1.0,1
+sleeping fingers,sprained wrist joint pain,1.0,1
+sleeping fingers,pain in nape worse right side,1.0,1
+sleeping fingers,tearing in limbs,1.0,1
+sleeping fingers,pain in wrists,1.0,1
+sleeping fingers,legs go to sleep when standing,1.0,1
+sleeping fingers,headache worse in wet weather,1.0,1
+sleeping fingers,cramps in soles,1.0,1
+sleeping fingers,colic with urging to stool,1.0,1
+sleeping fingers,aversion to walking in open air,1.0,1
+sleeping fingers,pressing in stomach,1.0,1
+sleeping fingers,intense coldness in small of back,1.0,1
+sleeping fingers,drawing leg pain,1.0,1
+sleeping fingers,rigid fingers when grasping,1.0,1
+sleeping fingers,pressive drawing in loins at rest,1.0,1
+sleeping fingers,swollen hand,1.0,1
+sleeping fingers,restless feet,1.0,1
+sleeping fingers,tearing shoulder pain,1.0,1
+sleeping fingers,tearing tooth pain,1.0,1
+sleeping fingers,legs go to sleep when lying,1.0,1
+sleeping fingers,rigid arms in mornings,1.0,1
+sleeping fingers,headache worse in winter,1.0,1
+sleeping fingers,bruised shoulder pain,1.0,1
+sleeping fingers,swollen hands when hanging,1.0,1
+sleeping fingers,pain in thumbs,1.0,1
+pressive drawing in small of back at rest,rigid fingers in mornings,1.0,1
+pressive drawing in small of back at rest,swollen feet,1.0,1
+pressive drawing in small of back at rest,swollen ankles,1.0,1
+pressive drawing in small of back at rest,boring in olecranon,1.0,1
+pressive drawing in small of back at rest,weight in right arm,1.0,1
+pressive drawing in small of back at rest,gouty rheumatic affections,1.0,1
+pressive drawing in small of back at rest,rigid arms at night,1.0,1
+pressive drawing in small of back at rest,pain between scapulae,1.0,1
+pressive drawing in small of back at rest,rigid arms when grasping,1.0,1
+pressive drawing in small of back at rest,worse in wet weather,1.0,1
+pressive drawing in small of back at rest,headache with nausea,1.0,1
+pressive drawing in small of back at rest,stitches in soles,1.0,1
+pressive drawing in small of back at rest,stitches in coccyx,1.0,1
+pressive drawing in small of back at rest,restless legs,1.0,1
+pressive drawing in small of back at rest,right arm hangs down no use,1.0,1
+pressive drawing in small of back at rest,pressive drawing passes off walking,1.0,1
+pressive drawing in small of back at rest,obstinate coryza,1.0,1
+pressive drawing in small of back at rest,pain in fingers,1.0,1
+pressive drawing in small of back at rest,useful in sedentary elderly women,1.0,1
+pressive drawing in small of back at rest,boring in knees,1.0,1
+pressive drawing in small of back at rest,cramps in right arm drawing backward,1.0,1
+pressive drawing in small of back at rest,rigid fingers at night,1.0,1
+pressive drawing in small of back at rest,gums bleed easily,1.0,1
+pressive drawing in small of back at rest,languor of lower limbs,1.0,1
+pressive drawing in small of back at rest,worse with wet applications,1.0,1
+pressive drawing in small of back at rest,pain in back of hand,1.0,1
+pressive drawing in small of back at rest,dyspnea,1.0,1
+pressive drawing in small of back at rest,useful in scrofulous children,1.0,1
+pressive drawing in small of back at rest,tearing in zygomas,1.0,1
+pressive drawing in small of back at rest,inimical to lachesis,1.0,1
+pressive drawing in small of back at rest,worse in winter,1.0,1
+pressive drawing in small of back at rest,epistaxis,1.0,1
+pressive drawing in small of back at rest,sprained wrist joint pain,1.0,1
+pressive drawing in small of back at rest,pain in nape worse right side,1.0,1
+pressive drawing in small of back at rest,tearing in limbs,1.0,1
+pressive drawing in small of back at rest,sleeping fingers,1.0,1
+pressive drawing in small of back at rest,pain in wrists,1.0,1
+pressive drawing in small of back at rest,legs go to sleep when standing,1.0,1
+pressive drawing in small of back at rest,headache worse in wet weather,1.0,1
+pressive drawing in small of back at rest,cramps in soles,1.0,1
+pressive drawing in small of back at rest,colic with urging to stool,1.0,1
+pressive drawing in small of back at rest,aversion to walking in open air,1.0,1
+pressive drawing in small of back at rest,pressing in stomach,1.0,1
+pressive drawing in small of back at rest,intense coldness in small of back,1.0,1
+pressive drawing in small of back at rest,drawing leg pain,1.0,1
+pressive drawing in small of back at rest,rigid fingers when grasping,1.0,1
+pressive drawing in small of back at rest,pressive drawing in loins at rest,1.0,1
+pressive drawing in small of back at rest,swollen hand,1.0,1
+pressive drawing in small of back at rest,restless feet,1.0,1
+pressive drawing in small of back at rest,tearing shoulder pain,1.0,1
+pressive drawing in small of back at rest,tearing tooth pain,1.0,1
+pressive drawing in small of back at rest,legs go to sleep when lying,1.0,1
+pressive drawing in small of back at rest,rigid arms in mornings,1.0,1
+pressive drawing in small of back at rest,headache worse in winter,1.0,1
+pressive drawing in small of back at rest,bruised shoulder pain,1.0,1
+pressive drawing in small of back at rest,swollen hands when hanging,1.0,1
+pressive drawing in small of back at rest,pain in thumbs,1.0,1
+cramps in soles,rigid fingers in mornings,0.5,1
+cramps in soles,swollen feet,0.5,1
+cramps in soles,swollen ankles,0.5,1
+cramps in soles,boring in olecranon,0.5,1
+cramps in soles,weight in right arm,0.5,1
+cramps in soles,gouty rheumatic affections,0.5,1
+cramps in soles,rigid arms at night,0.5,1
+cramps in soles,pain between scapulae,0.5,1
+cramps in soles,rigid arms when grasping,0.5,1
+cramps in soles,worse in wet weather,0.5,1
+cramps in soles,headache with nausea,0.5,1
+cramps in soles,stitches in soles,0.5,1
+cramps in soles,stitches in coccyx,0.5,1
+cramps in soles,restless legs,0.5,1
+cramps in soles,pressive drawing in small of back at rest,0.5,1
+cramps in soles,right arm hangs down no use,0.5,1
+cramps in soles,pressive drawing passes off walking,0.5,1
+cramps in soles,obstinate coryza,0.5,1
+cramps in soles,pain in fingers,0.5,1
+cramps in soles,useful in sedentary elderly women,0.5,1
+cramps in soles,boring in knees,0.5,1
+cramps in soles,cramps in right arm drawing backward,0.5,1
+cramps in soles,rigid fingers at night,0.5,1
+cramps in soles,gums bleed easily,0.5,1
+cramps in soles,languor of lower limbs,0.5,1
+cramps in soles,worse with wet applications,0.5,1
+cramps in soles,pain in back of hand,0.5,1
+cramps in soles,dyspnea,0.5,1
+cramps in soles,useful in scrofulous children,0.5,1
+cramps in soles,tearing in zygomas,0.5,1
+cramps in soles,inimical to lachesis,0.5,1
+cramps in soles,worse in winter,0.5,1
+cramps in soles,epistaxis,0.5,1
+cramps in soles,sprained wrist joint pain,0.5,1
+cramps in soles,pain in nape worse right side,0.5,1
+cramps in soles,tearing in limbs,0.5,1
+cramps in soles,sleeping fingers,0.5,1
+cramps in soles,pain in wrists,0.5,1
+cramps in soles,legs go to sleep when standing,0.5,1
+cramps in soles,headache worse in wet weather,1.0,2
+cramps in soles,colic with urging to stool,1.0,2
+cramps in soles,aversion to walking in open air,0.5,1
+cramps in soles,pressing in stomach,1.0,2
+cramps in soles,intense coldness in small of back,0.5,1
+cramps in soles,drawing leg pain,0.5,1
+cramps in soles,rigid fingers when grasping,0.5,1
+cramps in soles,pressive drawing in loins at rest,0.5,1
+cramps in soles,swollen hand,0.5,1
+cramps in soles,restless feet,0.5,1
+cramps in soles,tearing shoulder pain,0.5,1
+cramps in soles,tearing tooth pain,0.5,1
+cramps in soles,legs go to sleep when lying,0.5,1
+cramps in soles,rigid arms in mornings,0.5,1
+cramps in soles,headache worse in winter,0.5,1
+cramps in soles,bruised shoulder pain,0.5,1
+cramps in soles,swollen hands when hanging,0.5,1
+cramps in soles,pain in thumbs,0.5,1
+swollen feet,rigid fingers in mornings,0.5,1
+swollen feet,swollen ankles,0.5,1
+swollen feet,boring in olecranon,0.5,1
+swollen feet,weight in right arm,0.5,1
+swollen feet,gouty rheumatic affections,0.5,1
+swollen feet,rigid arms at night,0.5,1
+swollen feet,pain between scapulae,0.5,1
+swollen feet,rigid arms when grasping,0.5,1
+swollen feet,worse in wet weather,0.5,1
+swollen feet,headache with nausea,0.5,1
+swollen feet,stitches in soles,0.5,1
+swollen feet,stitches in coccyx,0.5,1
+swollen feet,restless legs,0.5,1
+swollen feet,pressive drawing in small of back at rest,0.5,1
+swollen feet,right arm hangs down no use,0.5,1
+swollen feet,pressive drawing passes off walking,0.5,1
+swollen feet,obstinate coryza,0.5,1
+swollen feet,pain in fingers,0.5,1
+swollen feet,useful in sedentary elderly women,0.5,1
+swollen feet,boring in knees,0.5,1
+swollen feet,cramps in right arm drawing backward,0.5,1
+swollen feet,rigid fingers at night,0.5,1
+swollen feet,gums bleed easily,0.5,1
+swollen feet,languor of lower limbs,0.5,1
+swollen feet,worse with wet applications,0.5,1
+swollen feet,pain in back of hand,0.5,1
+swollen feet,dyspnea,0.5,1
+swollen feet,useful in scrofulous children,0.5,1
+swollen feet,tearing in zygomas,0.5,1
+swollen feet,inimical to lachesis,0.5,1
+swollen feet,worse in winter,0.5,1
+swollen feet,epistaxis,0.5,1
+swollen feet,sprained wrist joint pain,0.5,1
+swollen feet,pain in nape worse right side,0.5,1
+swollen feet,tearing in limbs,0.5,1
+swollen feet,sleeping fingers,0.5,1
+swollen feet,pain in wrists,0.5,1
+swollen feet,legs go to sleep when standing,0.5,1
+swollen feet,headache worse in wet weather,0.5,1
+swollen feet,cramps in soles,0.5,1
+swollen feet,colic with urging to stool,0.5,1
+swollen feet,aversion to walking in open air,0.5,1
+swollen feet,pressing in stomach,0.5,1
+swollen feet,intense coldness in small of back,0.5,1
+swollen feet,drawing leg pain,0.5,1
+swollen feet,rigid fingers when grasping,0.5,1
+swollen feet,pressive drawing in loins at rest,0.5,1
+swollen feet,swollen hand,0.5,1
+swollen feet,restless feet,0.5,1
+swollen feet,tearing shoulder pain,0.5,1
+swollen feet,tearing tooth pain,0.5,1
+swollen feet,legs go to sleep when lying,0.5,1
+swollen feet,rigid arms in mornings,0.5,1
+swollen feet,headache worse in winter,0.5,1
+swollen feet,bruised shoulder pain,0.5,1
+swollen feet,swollen hands when hanging,0.5,1
+swollen feet,pain in thumbs,0.5,1
+intense coldness in small of back,rigid fingers in mornings,1.0,1
+intense coldness in small of back,swollen feet,1.0,1
+intense coldness in small of back,swollen ankles,1.0,1
+intense coldness in small of back,boring in olecranon,1.0,1
+intense coldness in small of back,weight in right arm,1.0,1
+intense coldness in small of back,gouty rheumatic affections,1.0,1
+intense coldness in small of back,rigid arms at night,1.0,1
+intense coldness in small of back,pain between scapulae,1.0,1
+intense coldness in small of back,rigid arms when grasping,1.0,1
+intense coldness in small of back,worse in wet weather,1.0,1
+intense coldness in small of back,headache with nausea,1.0,1
+intense coldness in small of back,stitches in soles,1.0,1
+intense coldness in small of back,stitches in coccyx,1.0,1
+intense coldness in small of back,restless legs,1.0,1
+intense coldness in small of back,pressive drawing in small of back at rest,1.0,1
+intense coldness in small of back,right arm hangs down no use,1.0,1
+intense coldness in small of back,pressive drawing passes off walking,1.0,1
+intense coldness in small of back,obstinate coryza,1.0,1
+intense coldness in small of back,pain in fingers,1.0,1
+intense coldness in small of back,useful in sedentary elderly women,1.0,1
+intense coldness in small of back,boring in knees,1.0,1
+intense coldness in small of back,cramps in right arm drawing backward,1.0,1
+intense coldness in small of back,rigid fingers at night,1.0,1
+intense coldness in small of back,gums bleed easily,1.0,1
+intense coldness in small of back,languor of lower limbs,1.0,1
+intense coldness in small of back,worse with wet applications,1.0,1
+intense coldness in small of back,pain in back of hand,1.0,1
+intense coldness in small of back,dyspnea,1.0,1
+intense coldness in small of back,useful in scrofulous children,1.0,1
+intense coldness in small of back,tearing in zygomas,1.0,1
+intense coldness in small of back,inimical to lachesis,1.0,1
+intense coldness in small of back,worse in winter,1.0,1
+intense coldness in small of back,epistaxis,1.0,1
+intense coldness in small of back,sprained wrist joint pain,1.0,1
+intense coldness in small of back,pain in nape worse right side,1.0,1
+intense coldness in small of back,tearing in limbs,1.0,1
+intense coldness in small of back,sleeping fingers,1.0,1
+intense coldness in small of back,pain in wrists,1.0,1
+intense coldness in small of back,legs go to sleep when standing,1.0,1
+intense coldness in small of back,headache worse in wet weather,1.0,1
+intense coldness in small of back,cramps in soles,1.0,1
+intense coldness in small of back,colic with urging to stool,1.0,1
+intense coldness in small of back,aversion to walking in open air,1.0,1
+intense coldness in small of back,pressing in stomach,1.0,1
+intense coldness in small of back,drawing leg pain,1.0,1
+intense coldness in small of back,rigid fingers when grasping,1.0,1
+intense coldness in small of back,pressive drawing in loins at rest,1.0,1
+intense coldness in small of back,swollen hand,1.0,1
+intense coldness in small of back,restless feet,1.0,1
+intense coldness in small of back,tearing shoulder pain,1.0,1
+intense coldness in small of back,tearing tooth pain,1.0,1
+intense coldness in small of back,legs go to sleep when lying,1.0,1
+intense coldness in small of back,rigid arms in mornings,1.0,1
+intense coldness in small of back,headache worse in winter,1.0,1
+intense coldness in small of back,bruised shoulder pain,1.0,1
+intense coldness in small of back,swollen hands when hanging,1.0,1
+intense coldness in small of back,pain in thumbs,1.0,1
+tearing shoulder pain,rigid fingers in mornings,1.0,1
+tearing shoulder pain,swollen feet,1.0,1
+tearing shoulder pain,swollen ankles,1.0,1
+tearing shoulder pain,boring in olecranon,1.0,1
+tearing shoulder pain,weight in right arm,1.0,1
+tearing shoulder pain,gouty rheumatic affections,1.0,1
+tearing shoulder pain,rigid arms at night,1.0,1
+tearing shoulder pain,pain between scapulae,1.0,1
+tearing shoulder pain,rigid arms when grasping,1.0,1
+tearing shoulder pain,worse in wet weather,1.0,1
+tearing shoulder pain,headache with nausea,1.0,1
+tearing shoulder pain,stitches in soles,1.0,1
+tearing shoulder pain,stitches in coccyx,1.0,1
+tearing shoulder pain,restless legs,1.0,1
+tearing shoulder pain,pressive drawing in small of back at rest,1.0,1
+tearing shoulder pain,right arm hangs down no use,1.0,1
+tearing shoulder pain,pressive drawing passes off walking,1.0,1
+tearing shoulder pain,obstinate coryza,1.0,1
+tearing shoulder pain,pain in fingers,1.0,1
+tearing shoulder pain,useful in sedentary elderly women,1.0,1
+tearing shoulder pain,boring in knees,1.0,1
+tearing shoulder pain,cramps in right arm drawing backward,1.0,1
+tearing shoulder pain,rigid fingers at night,1.0,1
+tearing shoulder pain,gums bleed easily,1.0,1
+tearing shoulder pain,languor of lower limbs,1.0,1
+tearing shoulder pain,worse with wet applications,1.0,1
+tearing shoulder pain,pain in back of hand,1.0,1
+tearing shoulder pain,dyspnea,1.0,1
+tearing shoulder pain,useful in scrofulous children,1.0,1
+tearing shoulder pain,tearing in zygomas,1.0,1
+tearing shoulder pain,inimical to lachesis,1.0,1
+tearing shoulder pain,worse in winter,1.0,1
+tearing shoulder pain,epistaxis,1.0,1
+tearing shoulder pain,sprained wrist joint pain,1.0,1
+tearing shoulder pain,pain in nape worse right side,1.0,1
+tearing shoulder pain,tearing in limbs,1.0,1
+tearing shoulder pain,sleeping fingers,1.0,1
+tearing shoulder pain,pain in wrists,1.0,1
+tearing shoulder pain,legs go to sleep when standing,1.0,1
+tearing shoulder pain,headache worse in wet weather,1.0,1
+tearing shoulder pain,cramps in soles,1.0,1
+tearing shoulder pain,colic with urging to stool,1.0,1
+tearing shoulder pain,aversion to walking in open air,1.0,1
+tearing shoulder pain,pressing in stomach,1.0,1
+tearing shoulder pain,intense coldness in small of back,1.0,1
+tearing shoulder pain,drawing leg pain,1.0,1
+tearing shoulder pain,rigid fingers when grasping,1.0,1
+tearing shoulder pain,pressive drawing in loins at rest,1.0,1
+tearing shoulder pain,swollen hand,1.0,1
+tearing shoulder pain,restless feet,1.0,1
+tearing shoulder pain,tearing tooth pain,1.0,1
+tearing shoulder pain,legs go to sleep when lying,1.0,1
+tearing shoulder pain,rigid arms in mornings,1.0,1
+tearing shoulder pain,headache worse in winter,1.0,1
+tearing shoulder pain,bruised shoulder pain,1.0,1
+tearing shoulder pain,swollen hands when hanging,1.0,1
+tearing shoulder pain,pain in thumbs,1.0,1
+right arm hangs down no use,rigid fingers in mornings,1.0,1
+right arm hangs down no use,swollen feet,1.0,1
+right arm hangs down no use,swollen ankles,1.0,1
+right arm hangs down no use,boring in olecranon,1.0,1
+right arm hangs down no use,weight in right arm,1.0,1
+right arm hangs down no use,gouty rheumatic affections,1.0,1
+right arm hangs down no use,rigid arms at night,1.0,1
+right arm hangs down no use,pain between scapulae,1.0,1
+right arm hangs down no use,rigid arms when grasping,1.0,1
+right arm hangs down no use,worse in wet weather,1.0,1
+right arm hangs down no use,headache with nausea,1.0,1
+right arm hangs down no use,stitches in soles,1.0,1
+right arm hangs down no use,stitches in coccyx,1.0,1
+right arm hangs down no use,restless legs,1.0,1
+right arm hangs down no use,pressive drawing in small of back at rest,1.0,1
+right arm hangs down no use,pressive drawing passes off walking,1.0,1
+right arm hangs down no use,obstinate coryza,1.0,1
+right arm hangs down no use,pain in fingers,1.0,1
+right arm hangs down no use,useful in sedentary elderly women,1.0,1
+right arm hangs down no use,boring in knees,1.0,1
+right arm hangs down no use,cramps in right arm drawing backward,1.0,1
+right arm hangs down no use,rigid fingers at night,1.0,1
+right arm hangs down no use,gums bleed easily,1.0,1
+right arm hangs down no use,languor of lower limbs,1.0,1
+right arm hangs down no use,worse with wet applications,1.0,1
+right arm hangs down no use,pain in back of hand,1.0,1
+right arm hangs down no use,dyspnea,1.0,1
+right arm hangs down no use,useful in scrofulous children,1.0,1
+right arm hangs down no use,tearing in zygomas,1.0,1
+right arm hangs down no use,inimical to lachesis,1.0,1
+right arm hangs down no use,worse in winter,1.0,1
+right arm hangs down no use,epistaxis,1.0,1
+right arm hangs down no use,sprained wrist joint pain,1.0,1
+right arm hangs down no use,pain in nape worse right side,1.0,1
+right arm hangs down no use,tearing in limbs,1.0,1
+right arm hangs down no use,sleeping fingers,1.0,1
+right arm hangs down no use,pain in wrists,1.0,1
+right arm hangs down no use,legs go to sleep when standing,1.0,1
+right arm hangs down no use,headache worse in wet weather,1.0,1
+right arm hangs down no use,cramps in soles,1.0,1
+right arm hangs down no use,colic with urging to stool,1.0,1
+right arm hangs down no use,aversion to walking in open air,1.0,1
+right arm hangs down no use,pressing in stomach,1.0,1
+right arm hangs down no use,intense coldness in small of back,1.0,1
+right arm hangs down no use,drawing leg pain,1.0,1
+right arm hangs down no use,rigid fingers when grasping,1.0,1
+right arm hangs down no use,pressive drawing in loins at rest,1.0,1
+right arm hangs down no use,swollen hand,1.0,1
+right arm hangs down no use,restless feet,1.0,1
+right arm hangs down no use,tearing shoulder pain,1.0,1
+right arm hangs down no use,tearing tooth pain,1.0,1
+right arm hangs down no use,legs go to sleep when lying,1.0,1
+right arm hangs down no use,rigid arms in mornings,1.0,1
+right arm hangs down no use,headache worse in winter,1.0,1
+right arm hangs down no use,bruised shoulder pain,1.0,1
+right arm hangs down no use,swollen hands when hanging,1.0,1
+right arm hangs down no use,pain in thumbs,1.0,1
+boring in olecranon,rigid fingers in mornings,1.0,1
+boring in olecranon,swollen feet,1.0,1
+boring in olecranon,swollen ankles,1.0,1
+boring in olecranon,weight in right arm,1.0,1
+boring in olecranon,gouty rheumatic affections,1.0,1
+boring in olecranon,rigid arms at night,1.0,1
+boring in olecranon,pain between scapulae,1.0,1
+boring in olecranon,rigid arms when grasping,1.0,1
+boring in olecranon,worse in wet weather,1.0,1
+boring in olecranon,headache with nausea,1.0,1
+boring in olecranon,stitches in soles,1.0,1
+boring in olecranon,stitches in coccyx,1.0,1
+boring in olecranon,restless legs,1.0,1
+boring in olecranon,pressive drawing in small of back at rest,1.0,1
+boring in olecranon,right arm hangs down no use,1.0,1
+boring in olecranon,pressive drawing passes off walking,1.0,1
+boring in olecranon,obstinate coryza,1.0,1
+boring in olecranon,pain in fingers,1.0,1
+boring in olecranon,useful in sedentary elderly women,1.0,1
+boring in olecranon,boring in knees,1.0,1
+boring in olecranon,cramps in right arm drawing backward,1.0,1
+boring in olecranon,rigid fingers at night,1.0,1
+boring in olecranon,gums bleed easily,1.0,1
+boring in olecranon,languor of lower limbs,1.0,1
+boring in olecranon,worse with wet applications,1.0,1
+boring in olecranon,pain in back of hand,1.0,1
+boring in olecranon,dyspnea,1.0,1
+boring in olecranon,useful in scrofulous children,1.0,1
+boring in olecranon,tearing in zygomas,1.0,1
+boring in olecranon,inimical to lachesis,1.0,1
+boring in olecranon,worse in winter,1.0,1
+boring in olecranon,epistaxis,1.0,1
+boring in olecranon,sprained wrist joint pain,1.0,1
+boring in olecranon,pain in nape worse right side,1.0,1
+boring in olecranon,tearing in limbs,1.0,1
+boring in olecranon,sleeping fingers,1.0,1
+boring in olecranon,pain in wrists,1.0,1
+boring in olecranon,legs go to sleep when standing,1.0,1
+boring in olecranon,headache worse in wet weather,1.0,1
+boring in olecranon,cramps in soles,1.0,1
+boring in olecranon,colic with urging to stool,1.0,1
+boring in olecranon,aversion to walking in open air,1.0,1
+boring in olecranon,pressing in stomach,1.0,1
+boring in olecranon,intense coldness in small of back,1.0,1
+boring in olecranon,drawing leg pain,1.0,1
+boring in olecranon,rigid fingers when grasping,1.0,1
+boring in olecranon,pressive drawing in loins at rest,1.0,1
+boring in olecranon,swollen hand,1.0,1
+boring in olecranon,restless feet,1.0,1
+boring in olecranon,tearing shoulder pain,1.0,1
+boring in olecranon,tearing tooth pain,1.0,1
+boring in olecranon,legs go to sleep when lying,1.0,1
+boring in olecranon,rigid arms in mornings,1.0,1
+boring in olecranon,headache worse in winter,1.0,1
+boring in olecranon,bruised shoulder pain,1.0,1
+boring in olecranon,swollen hands when hanging,1.0,1
+boring in olecranon,pain in thumbs,1.0,1
+colic with urging to stool,rigid fingers in mornings,0.5,1
+colic with urging to stool,swollen feet,0.5,1
+colic with urging to stool,swollen ankles,0.5,1
+colic with urging to stool,boring in olecranon,0.5,1
+colic with urging to stool,weight in right arm,0.5,1
+colic with urging to stool,gouty rheumatic affections,0.5,1
+colic with urging to stool,rigid arms at night,0.5,1
+colic with urging to stool,pain between scapulae,0.5,1
+colic with urging to stool,rigid arms when grasping,0.5,1
+colic with urging to stool,worse in wet weather,0.5,1
+colic with urging to stool,headache with nausea,0.5,1
+colic with urging to stool,stitches in soles,0.5,1
+colic with urging to stool,stitches in coccyx,0.5,1
+colic with urging to stool,restless legs,0.5,1
+colic with urging to stool,pressive drawing in small of back at rest,0.5,1
+colic with urging to stool,right arm hangs down no use,0.5,1
+colic with urging to stool,pressive drawing passes off walking,0.5,1
+colic with urging to stool,obstinate coryza,0.5,1
+colic with urging to stool,pain in fingers,0.5,1
+colic with urging to stool,useful in sedentary elderly women,0.5,1
+colic with urging to stool,boring in knees,0.5,1
+colic with urging to stool,cramps in right arm drawing backward,0.5,1
+colic with urging to stool,rigid fingers at night,0.5,1
+colic with urging to stool,gums bleed easily,0.5,1
+colic with urging to stool,languor of lower limbs,0.5,1
+colic with urging to stool,worse with wet applications,0.5,1
+colic with urging to stool,pain in back of hand,0.5,1
+colic with urging to stool,dyspnea,0.5,1
+colic with urging to stool,useful in scrofulous children,0.5,1
+colic with urging to stool,tearing in zygomas,0.5,1
+colic with urging to stool,inimical to lachesis,0.5,1
+colic with urging to stool,worse in winter,0.5,1
+colic with urging to stool,epistaxis,0.5,1
+colic with urging to stool,sprained wrist joint pain,0.5,1
+colic with urging to stool,pain in nape worse right side,0.5,1
+colic with urging to stool,tearing in limbs,0.5,1
+colic with urging to stool,sleeping fingers,0.5,1
+colic with urging to stool,pain in wrists,0.5,1
+colic with urging to stool,legs go to sleep when standing,0.5,1
+colic with urging to stool,headache worse in wet weather,1.0,2
+colic with urging to stool,cramps in soles,1.0,2
+colic with urging to stool,aversion to walking in open air,0.5,1
+colic with urging to stool,pressing in stomach,1.0,2
+colic with urging to stool,intense coldness in small of back,0.5,1
+colic with urging to stool,drawing leg pain,0.5,1
+colic with urging to stool,rigid fingers when grasping,0.5,1
+colic with urging to stool,pressive drawing in loins at rest,0.5,1
+colic with urging to stool,swollen hand,0.5,1
+colic with urging to stool,restless feet,0.5,1
+colic with urging to stool,tearing shoulder pain,0.5,1
+colic with urging to stool,tearing tooth pain,0.5,1
+colic with urging to stool,legs go to sleep when lying,0.5,1
+colic with urging to stool,rigid arms in mornings,0.5,1
+colic with urging to stool,headache worse in winter,0.5,1
+colic with urging to stool,bruised shoulder pain,0.5,1
+colic with urging to stool,swollen hands when hanging,0.5,1
+colic with urging to stool,pain in thumbs,0.5,1
+useful in scrofulous children,rigid fingers in mornings,1.0,1
+useful in scrofulous children,swollen feet,1.0,1
+useful in scrofulous children,swollen ankles,1.0,1
+useful in scrofulous children,boring in olecranon,1.0,1
+useful in scrofulous children,weight in right arm,1.0,1
+useful in scrofulous children,gouty rheumatic affections,1.0,1
+useful in scrofulous children,rigid arms at night,1.0,1
+useful in scrofulous children,pain between scapulae,1.0,1
+useful in scrofulous children,rigid arms when grasping,1.0,1
+useful in scrofulous children,worse in wet weather,1.0,1
+useful in scrofulous children,headache with nausea,1.0,1
+useful in scrofulous children,stitches in soles,1.0,1
+useful in scrofulous children,stitches in coccyx,1.0,1
+useful in scrofulous children,restless legs,1.0,1
+useful in scrofulous children,pressive drawing in small of back at rest,1.0,1
+useful in scrofulous children,right arm hangs down no use,1.0,1
+useful in scrofulous children,pressive drawing passes off walking,1.0,1
+useful in scrofulous children,obstinate coryza,1.0,1
+useful in scrofulous children,pain in fingers,1.0,1
+useful in scrofulous children,useful in sedentary elderly women,1.0,1
+useful in scrofulous children,boring in knees,1.0,1
+useful in scrofulous children,cramps in right arm drawing backward,1.0,1
+useful in scrofulous children,rigid fingers at night,1.0,1
+useful in scrofulous children,gums bleed easily,1.0,1
+useful in scrofulous children,languor of lower limbs,1.0,1
+useful in scrofulous children,worse with wet applications,1.0,1
+useful in scrofulous children,pain in back of hand,1.0,1
+useful in scrofulous children,dyspnea,1.0,1
+useful in scrofulous children,tearing in zygomas,1.0,1
+useful in scrofulous children,inimical to lachesis,1.0,1
+useful in scrofulous children,worse in winter,1.0,1
+useful in scrofulous children,epistaxis,1.0,1
+useful in scrofulous children,sprained wrist joint pain,1.0,1
+useful in scrofulous children,pain in nape worse right side,1.0,1
+useful in scrofulous children,tearing in limbs,1.0,1
+useful in scrofulous children,sleeping fingers,1.0,1
+useful in scrofulous children,pain in wrists,1.0,1
+useful in scrofulous children,legs go to sleep when standing,1.0,1
+useful in scrofulous children,headache worse in wet weather,1.0,1
+useful in scrofulous children,cramps in soles,1.0,1
+useful in scrofulous children,colic with urging to stool,1.0,1
+useful in scrofulous children,aversion to walking in open air,1.0,1
+useful in scrofulous children,pressing in stomach,1.0,1
+useful in scrofulous children,intense coldness in small of back,1.0,1
+useful in scrofulous children,drawing leg pain,1.0,1
+useful in scrofulous children,rigid fingers when grasping,1.0,1
+useful in scrofulous children,pressive drawing in loins at rest,1.0,1
+useful in scrofulous children,swollen hand,1.0,1
+useful in scrofulous children,restless feet,1.0,1
+useful in scrofulous children,tearing shoulder pain,1.0,1
+useful in scrofulous children,tearing tooth pain,1.0,1
+useful in scrofulous children,legs go to sleep when lying,1.0,1
+useful in scrofulous children,rigid arms in mornings,1.0,1
+useful in scrofulous children,headache worse in winter,1.0,1
+useful in scrofulous children,bruised shoulder pain,1.0,1
+useful in scrofulous children,swollen hands when hanging,1.0,1
+useful in scrofulous children,pain in thumbs,1.0,1
+rigid arms when grasping,rigid fingers in mornings,1.0,1
+rigid arms when grasping,swollen feet,1.0,1
+rigid arms when grasping,swollen ankles,1.0,1
+rigid arms when grasping,boring in olecranon,1.0,1
+rigid arms when grasping,weight in right arm,1.0,1
+rigid arms when grasping,gouty rheumatic affections,1.0,1
+rigid arms when grasping,rigid arms at night,1.0,1
+rigid arms when grasping,pain between scapulae,1.0,1
+rigid arms when grasping,worse in wet weather,1.0,1
+rigid arms when grasping,headache with nausea,1.0,1
+rigid arms when grasping,stitches in soles,1.0,1
+rigid arms when grasping,stitches in coccyx,1.0,1
+rigid arms when grasping,restless legs,1.0,1
+rigid arms when grasping,pressive drawing in small of back at rest,1.0,1
+rigid arms when grasping,right arm hangs down no use,1.0,1
+rigid arms when grasping,pressive drawing passes off walking,1.0,1
+rigid arms when grasping,obstinate coryza,1.0,1
+rigid arms when grasping,pain in fingers,1.0,1
+rigid arms when grasping,useful in sedentary elderly women,1.0,1
+rigid arms when grasping,boring in knees,1.0,1
+rigid arms when grasping,cramps in right arm drawing backward,1.0,1
+rigid arms when grasping,rigid fingers at night,1.0,1
+rigid arms when grasping,gums bleed easily,1.0,1
+rigid arms when grasping,languor of lower limbs,1.0,1
+rigid arms when grasping,worse with wet applications,1.0,1
+rigid arms when grasping,pain in back of hand,1.0,1
+rigid arms when grasping,dyspnea,1.0,1
+rigid arms when grasping,useful in scrofulous children,1.0,1
+rigid arms when grasping,tearing in zygomas,1.0,1
+rigid arms when grasping,inimical to lachesis,1.0,1
+rigid arms when grasping,worse in winter,1.0,1
+rigid arms when grasping,epistaxis,1.0,1
+rigid arms when grasping,sprained wrist joint pain,1.0,1
+rigid arms when grasping,pain in nape worse right side,1.0,1
+rigid arms when grasping,tearing in limbs,1.0,1
+rigid arms when grasping,sleeping fingers,1.0,1
+rigid arms when grasping,pain in wrists,1.0,1
+rigid arms when grasping,legs go to sleep when standing,1.0,1
+rigid arms when grasping,headache worse in wet weather,1.0,1
+rigid arms when grasping,cramps in soles,1.0,1
+rigid arms when grasping,colic with urging to stool,1.0,1
+rigid arms when grasping,aversion to walking in open air,1.0,1
+rigid arms when grasping,pressing in stomach,1.0,1
+rigid arms when grasping,intense coldness in small of back,1.0,1
+rigid arms when grasping,drawing leg pain,1.0,1
+rigid arms when grasping,rigid fingers when grasping,1.0,1
+rigid arms when grasping,pressive drawing in loins at rest,1.0,1
+rigid arms when grasping,swollen hand,1.0,1
+rigid arms when grasping,restless feet,1.0,1
+rigid arms when grasping,tearing shoulder pain,1.0,1
+rigid arms when grasping,tearing tooth pain,1.0,1
+rigid arms when grasping,legs go to sleep when lying,1.0,1
+rigid arms when grasping,rigid arms in mornings,1.0,1
+rigid arms when grasping,headache worse in winter,1.0,1
+rigid arms when grasping,bruised shoulder pain,1.0,1
+rigid arms when grasping,swollen hands when hanging,1.0,1
+rigid arms when grasping,pain in thumbs,1.0,1
+languor of lower limbs,rigid fingers in mornings,1.0,1
+languor of lower limbs,swollen feet,1.0,1
+languor of lower limbs,swollen ankles,1.0,1
+languor of lower limbs,boring in olecranon,1.0,1
+languor of lower limbs,weight in right arm,1.0,1
+languor of lower limbs,gouty rheumatic affections,1.0,1
+languor of lower limbs,rigid arms at night,1.0,1
+languor of lower limbs,pain between scapulae,1.0,1
+languor of lower limbs,rigid arms when grasping,1.0,1
+languor of lower limbs,worse in wet weather,1.0,1
+languor of lower limbs,headache with nausea,1.0,1
+languor of lower limbs,stitches in soles,1.0,1
+languor of lower limbs,stitches in coccyx,1.0,1
+languor of lower limbs,restless legs,1.0,1
+languor of lower limbs,pressive drawing in small of back at rest,1.0,1
+languor of lower limbs,right arm hangs down no use,1.0,1
+languor of lower limbs,pressive drawing passes off walking,1.0,1
+languor of lower limbs,obstinate coryza,1.0,1
+languor of lower limbs,pain in fingers,1.0,1
+languor of lower limbs,useful in sedentary elderly women,1.0,1
+languor of lower limbs,boring in knees,1.0,1
+languor of lower limbs,cramps in right arm drawing backward,1.0,1
+languor of lower limbs,rigid fingers at night,1.0,1
+languor of lower limbs,gums bleed easily,1.0,1
+languor of lower limbs,worse with wet applications,1.0,1
+languor of lower limbs,pain in back of hand,1.0,1
+languor of lower limbs,dyspnea,1.0,1
+languor of lower limbs,useful in scrofulous children,1.0,1
+languor of lower limbs,tearing in zygomas,1.0,1
+languor of lower limbs,inimical to lachesis,1.0,1
+languor of lower limbs,worse in winter,1.0,1
+languor of lower limbs,epistaxis,1.0,1
+languor of lower limbs,sprained wrist joint pain,1.0,1
+languor of lower limbs,pain in nape worse right side,1.0,1
+languor of lower limbs,tearing in limbs,1.0,1
+languor of lower limbs,sleeping fingers,1.0,1
+languor of lower limbs,pain in wrists,1.0,1
+languor of lower limbs,legs go to sleep when standing,1.0,1
+languor of lower limbs,headache worse in wet weather,1.0,1
+languor of lower limbs,cramps in soles,1.0,1
+languor of lower limbs,colic with urging to stool,1.0,1
+languor of lower limbs,aversion to walking in open air,1.0,1
+languor of lower limbs,pressing in stomach,1.0,1
+languor of lower limbs,intense coldness in small of back,1.0,1
+languor of lower limbs,drawing leg pain,1.0,1
+languor of lower limbs,rigid fingers when grasping,1.0,1
+languor of lower limbs,pressive drawing in loins at rest,1.0,1
+languor of lower limbs,swollen hand,1.0,1
+languor of lower limbs,restless feet,1.0,1
+languor of lower limbs,tearing shoulder pain,1.0,1
+languor of lower limbs,tearing tooth pain,1.0,1
+languor of lower limbs,legs go to sleep when lying,1.0,1
+languor of lower limbs,rigid arms in mornings,1.0,1
+languor of lower limbs,headache worse in winter,1.0,1
+languor of lower limbs,bruised shoulder pain,1.0,1
+languor of lower limbs,swollen hands when hanging,1.0,1
+languor of lower limbs,pain in thumbs,1.0,1
+bruised shoulder pain,rigid fingers in mornings,1.0,1
+bruised shoulder pain,swollen feet,1.0,1
+bruised shoulder pain,swollen ankles,1.0,1
+bruised shoulder pain,boring in olecranon,1.0,1
+bruised shoulder pain,weight in right arm,1.0,1
+bruised shoulder pain,gouty rheumatic affections,1.0,1
+bruised shoulder pain,rigid arms at night,1.0,1
+bruised shoulder pain,pain between scapulae,1.0,1
+bruised shoulder pain,rigid arms when grasping,1.0,1
+bruised shoulder pain,worse in wet weather,1.0,1
+bruised shoulder pain,headache with nausea,1.0,1
+bruised shoulder pain,stitches in soles,1.0,1
+bruised shoulder pain,stitches in coccyx,1.0,1
+bruised shoulder pain,restless legs,1.0,1
+bruised shoulder pain,pressive drawing in small of back at rest,1.0,1
+bruised shoulder pain,right arm hangs down no use,1.0,1
+bruised shoulder pain,pressive drawing passes off walking,1.0,1
+bruised shoulder pain,obstinate coryza,1.0,1
+bruised shoulder pain,pain in fingers,1.0,1
+bruised shoulder pain,useful in sedentary elderly women,1.0,1
+bruised shoulder pain,boring in knees,1.0,1
+bruised shoulder pain,cramps in right arm drawing backward,1.0,1
+bruised shoulder pain,rigid fingers at night,1.0,1
+bruised shoulder pain,gums bleed easily,1.0,1
+bruised shoulder pain,languor of lower limbs,1.0,1
+bruised shoulder pain,worse with wet applications,1.0,1
+bruised shoulder pain,pain in back of hand,1.0,1
+bruised shoulder pain,dyspnea,1.0,1
+bruised shoulder pain,useful in scrofulous children,1.0,1
+bruised shoulder pain,tearing in zygomas,1.0,1
+bruised shoulder pain,inimical to lachesis,1.0,1
+bruised shoulder pain,worse in winter,1.0,1
+bruised shoulder pain,epistaxis,1.0,1
+bruised shoulder pain,sprained wrist joint pain,1.0,1
+bruised shoulder pain,pain in nape worse right side,1.0,1
+bruised shoulder pain,tearing in limbs,1.0,1
+bruised shoulder pain,sleeping fingers,1.0,1
+bruised shoulder pain,pain in wrists,1.0,1
+bruised shoulder pain,legs go to sleep when standing,1.0,1
+bruised shoulder pain,headache worse in wet weather,1.0,1
+bruised shoulder pain,cramps in soles,1.0,1
+bruised shoulder pain,colic with urging to stool,1.0,1
+bruised shoulder pain,aversion to walking in open air,1.0,1
+bruised shoulder pain,pressing in stomach,1.0,1
+bruised shoulder pain,intense coldness in small of back,1.0,1
+bruised shoulder pain,drawing leg pain,1.0,1
+bruised shoulder pain,rigid fingers when grasping,1.0,1
+bruised shoulder pain,pressive drawing in loins at rest,1.0,1
+bruised shoulder pain,swollen hand,1.0,1
+bruised shoulder pain,restless feet,1.0,1
+bruised shoulder pain,tearing shoulder pain,1.0,1
+bruised shoulder pain,tearing tooth pain,1.0,1
+bruised shoulder pain,legs go to sleep when lying,1.0,1
+bruised shoulder pain,rigid arms in mornings,1.0,1
+bruised shoulder pain,headache worse in winter,1.0,1
+bruised shoulder pain,swollen hands when hanging,1.0,1
+bruised shoulder pain,pain in thumbs,1.0,1
+swollen hands when hanging,rigid fingers in mornings,1.0,1
+swollen hands when hanging,swollen feet,1.0,1
+swollen hands when hanging,swollen ankles,1.0,1
+swollen hands when hanging,boring in olecranon,1.0,1
+swollen hands when hanging,weight in right arm,1.0,1
+swollen hands when hanging,gouty rheumatic affections,1.0,1
+swollen hands when hanging,rigid arms at night,1.0,1
+swollen hands when hanging,pain between scapulae,1.0,1
+swollen hands when hanging,rigid arms when grasping,1.0,1
+swollen hands when hanging,worse in wet weather,1.0,1
+swollen hands when hanging,headache with nausea,1.0,1
+swollen hands when hanging,stitches in soles,1.0,1
+swollen hands when hanging,stitches in coccyx,1.0,1
+swollen hands when hanging,restless legs,1.0,1
+swollen hands when hanging,pressive drawing in small of back at rest,1.0,1
+swollen hands when hanging,right arm hangs down no use,1.0,1
+swollen hands when hanging,pressive drawing passes off walking,1.0,1
+swollen hands when hanging,obstinate coryza,1.0,1
+swollen hands when hanging,pain in fingers,1.0,1
+swollen hands when hanging,useful in sedentary elderly women,1.0,1
+swollen hands when hanging,boring in knees,1.0,1
+swollen hands when hanging,cramps in right arm drawing backward,1.0,1
+swollen hands when hanging,rigid fingers at night,1.0,1
+swollen hands when hanging,gums bleed easily,1.0,1
+swollen hands when hanging,languor of lower limbs,1.0,1
+swollen hands when hanging,worse with wet applications,1.0,1
+swollen hands when hanging,pain in back of hand,1.0,1
+swollen hands when hanging,dyspnea,1.0,1
+swollen hands when hanging,useful in scrofulous children,1.0,1
+swollen hands when hanging,tearing in zygomas,1.0,1
+swollen hands when hanging,inimical to lachesis,1.0,1
+swollen hands when hanging,worse in winter,1.0,1
+swollen hands when hanging,epistaxis,1.0,1
+swollen hands when hanging,sprained wrist joint pain,1.0,1
+swollen hands when hanging,pain in nape worse right side,1.0,1
+swollen hands when hanging,tearing in limbs,1.0,1
+swollen hands when hanging,sleeping fingers,1.0,1
+swollen hands when hanging,pain in wrists,1.0,1
+swollen hands when hanging,legs go to sleep when standing,1.0,1
+swollen hands when hanging,headache worse in wet weather,1.0,1
+swollen hands when hanging,cramps in soles,1.0,1
+swollen hands when hanging,colic with urging to stool,1.0,1
+swollen hands when hanging,aversion to walking in open air,1.0,1
+swollen hands when hanging,pressing in stomach,1.0,1
+swollen hands when hanging,intense coldness in small of back,1.0,1
+swollen hands when hanging,drawing leg pain,1.0,1
+swollen hands when hanging,rigid fingers when grasping,1.0,1
+swollen hands when hanging,pressive drawing in loins at rest,1.0,1
+swollen hands when hanging,swollen hand,1.0,1
+swollen hands when hanging,restless feet,1.0,1
+swollen hands when hanging,tearing shoulder pain,1.0,1
+swollen hands when hanging,tearing tooth pain,1.0,1
+swollen hands when hanging,legs go to sleep when lying,1.0,1
+swollen hands when hanging,rigid arms in mornings,1.0,1
+swollen hands when hanging,headache worse in winter,1.0,1
+swollen hands when hanging,bruised shoulder pain,1.0,1
+swollen hands when hanging,pain in thumbs,1.0,1
+gouty rheumatic affections,rigid fingers in mornings,1.0,1
+gouty rheumatic affections,swollen feet,1.0,1
+gouty rheumatic affections,swollen ankles,1.0,1
+gouty rheumatic affections,boring in olecranon,1.0,1
+gouty rheumatic affections,weight in right arm,1.0,1
+gouty rheumatic affections,rigid arms at night,1.0,1
+gouty rheumatic affections,pain between scapulae,1.0,1
+gouty rheumatic affections,rigid arms when grasping,1.0,1
+gouty rheumatic affections,worse in wet weather,1.0,1
+gouty rheumatic affections,headache with nausea,1.0,1
+gouty rheumatic affections,stitches in soles,1.0,1
+gouty rheumatic affections,stitches in coccyx,1.0,1
+gouty rheumatic affections,restless legs,1.0,1
+gouty rheumatic affections,pressive drawing in small of back at rest,1.0,1
+gouty rheumatic affections,right arm hangs down no use,1.0,1
+gouty rheumatic affections,pressive drawing passes off walking,1.0,1
+gouty rheumatic affections,obstinate coryza,1.0,1
+gouty rheumatic affections,pain in fingers,1.0,1
+gouty rheumatic affections,useful in sedentary elderly women,1.0,1
+gouty rheumatic affections,boring in knees,1.0,1
+gouty rheumatic affections,cramps in right arm drawing backward,1.0,1
+gouty rheumatic affections,rigid fingers at night,1.0,1
+gouty rheumatic affections,gums bleed easily,1.0,1
+gouty rheumatic affections,languor of lower limbs,1.0,1
+gouty rheumatic affections,worse with wet applications,1.0,1
+gouty rheumatic affections,pain in back of hand,1.0,1
+gouty rheumatic affections,dyspnea,1.0,1
+gouty rheumatic affections,useful in scrofulous children,1.0,1
+gouty rheumatic affections,tearing in zygomas,1.0,1
+gouty rheumatic affections,inimical to lachesis,1.0,1
+gouty rheumatic affections,worse in winter,1.0,1
+gouty rheumatic affections,epistaxis,1.0,1
+gouty rheumatic affections,sprained wrist joint pain,1.0,1
+gouty rheumatic affections,pain in nape worse right side,1.0,1
+gouty rheumatic affections,tearing in limbs,1.0,1
+gouty rheumatic affections,sleeping fingers,1.0,1
+gouty rheumatic affections,pain in wrists,1.0,1
+gouty rheumatic affections,legs go to sleep when standing,1.0,1
+gouty rheumatic affections,headache worse in wet weather,1.0,1
+gouty rheumatic affections,cramps in soles,1.0,1
+gouty rheumatic affections,colic with urging to stool,1.0,1
+gouty rheumatic affections,aversion to walking in open air,1.0,1
+gouty rheumatic affections,pressing in stomach,1.0,1
+gouty rheumatic affections,intense coldness in small of back,1.0,1
+gouty rheumatic affections,drawing leg pain,1.0,1
+gouty rheumatic affections,rigid fingers when grasping,1.0,1
+gouty rheumatic affections,pressive drawing in loins at rest,1.0,1
+gouty rheumatic affections,swollen hand,1.0,1
+gouty rheumatic affections,restless feet,1.0,1
+gouty rheumatic affections,tearing shoulder pain,1.0,1
+gouty rheumatic affections,tearing tooth pain,1.0,1
+gouty rheumatic affections,legs go to sleep when lying,1.0,1
+gouty rheumatic affections,rigid arms in mornings,1.0,1
+gouty rheumatic affections,headache worse in winter,1.0,1
+gouty rheumatic affections,bruised shoulder pain,1.0,1
+gouty rheumatic affections,swollen hands when hanging,1.0,1
+gouty rheumatic affections,pain in thumbs,1.0,1
+swollen ankles,rigid fingers in mornings,0.5,1
+swollen ankles,swollen feet,0.5,1
+swollen ankles,boring in olecranon,0.5,1
+swollen ankles,weight in right arm,0.5,1
+swollen ankles,gouty rheumatic affections,0.5,1
+swollen ankles,rigid arms at night,0.5,1
+swollen ankles,pain between scapulae,0.5,1
+swollen ankles,rigid arms when grasping,0.5,1
+swollen ankles,worse in wet weather,0.5,1
+swollen ankles,headache with nausea,0.5,1
+swollen ankles,stitches in soles,0.5,1
+swollen ankles,stitches in coccyx,0.5,1
+swollen ankles,restless legs,0.5,1
+swollen ankles,pressive drawing in small of back at rest,0.5,1
+swollen ankles,right arm hangs down no use,0.5,1
+swollen ankles,pressive drawing passes off walking,0.5,1
+swollen ankles,obstinate coryza,0.5,1
+swollen ankles,pain in fingers,0.5,1
+swollen ankles,useful in sedentary elderly women,0.5,1
+swollen ankles,boring in knees,0.5,1
+swollen ankles,cramps in right arm drawing backward,0.5,1
+swollen ankles,rigid fingers at night,0.5,1
+swollen ankles,gums bleed easily,0.5,1
+swollen ankles,languor of lower limbs,0.5,1
+swollen ankles,worse with wet applications,0.5,1
+swollen ankles,pain in back of hand,0.5,1
+swollen ankles,dyspnea,0.5,1
+swollen ankles,useful in scrofulous children,0.5,1
+swollen ankles,tearing in zygomas,0.5,1
+swollen ankles,inimical to lachesis,0.5,1
+swollen ankles,worse in winter,0.5,1
+swollen ankles,epistaxis,0.5,1
+swollen ankles,sprained wrist joint pain,0.5,1
+swollen ankles,pain in nape worse right side,0.5,1
+swollen ankles,tearing in limbs,0.5,1
+swollen ankles,sleeping fingers,0.5,1
+swollen ankles,pain in wrists,0.5,1
+swollen ankles,legs go to sleep when standing,0.5,1
+swollen ankles,headache worse in wet weather,0.5,1
+swollen ankles,cramps in soles,0.5,1
+swollen ankles,colic with urging to stool,0.5,1
+swollen ankles,aversion to walking in open air,0.5,1
+swollen ankles,pressing in stomach,0.5,1
+swollen ankles,intense coldness in small of back,0.5,1
+swollen ankles,drawing leg pain,0.5,1
+swollen ankles,rigid fingers when grasping,0.5,1
+swollen ankles,pressive drawing in loins at rest,0.5,1
+swollen ankles,swollen hand,0.5,1
+swollen ankles,restless feet,0.5,1
+swollen ankles,tearing shoulder pain,0.5,1
+swollen ankles,tearing tooth pain,0.5,1
+swollen ankles,legs go to sleep when lying,0.5,1
+swollen ankles,rigid arms in mornings,0.5,1
+swollen ankles,headache worse in winter,0.5,1
+swollen ankles,bruised shoulder pain,0.5,1
+swollen ankles,swollen hands when hanging,0.5,1
+swollen ankles,pain in thumbs,0.5,1
+boring in knees,rigid fingers in mornings,1.0,1
+boring in knees,swollen feet,1.0,1
+boring in knees,swollen ankles,1.0,1
+boring in knees,boring in olecranon,1.0,1
+boring in knees,weight in right arm,1.0,1
+boring in knees,gouty rheumatic affections,1.0,1
+boring in knees,rigid arms at night,1.0,1
+boring in knees,pain between scapulae,1.0,1
+boring in knees,rigid arms when grasping,1.0,1
+boring in knees,worse in wet weather,1.0,1
+boring in knees,headache with nausea,1.0,1
+boring in knees,stitches in soles,1.0,1
+boring in knees,stitches in coccyx,1.0,1
+boring in knees,restless legs,1.0,1
+boring in knees,pressive drawing in small of back at rest,1.0,1
+boring in knees,right arm hangs down no use,1.0,1
+boring in knees,pressive drawing passes off walking,1.0,1
+boring in knees,obstinate coryza,1.0,1
+boring in knees,pain in fingers,1.0,1
+boring in knees,useful in sedentary elderly women,1.0,1
+boring in knees,cramps in right arm drawing backward,1.0,1
+boring in knees,rigid fingers at night,1.0,1
+boring in knees,gums bleed easily,1.0,1
+boring in knees,languor of lower limbs,1.0,1
+boring in knees,worse with wet applications,1.0,1
+boring in knees,pain in back of hand,1.0,1
+boring in knees,dyspnea,1.0,1
+boring in knees,useful in scrofulous children,1.0,1
+boring in knees,tearing in zygomas,1.0,1
+boring in knees,inimical to lachesis,1.0,1
+boring in knees,worse in winter,1.0,1
+boring in knees,epistaxis,1.0,1
+boring in knees,sprained wrist joint pain,1.0,1
+boring in knees,pain in nape worse right side,1.0,1
+boring in knees,tearing in limbs,1.0,1
+boring in knees,sleeping fingers,1.0,1
+boring in knees,pain in wrists,1.0,1
+boring in knees,legs go to sleep when standing,1.0,1
+boring in knees,headache worse in wet weather,1.0,1
+boring in knees,cramps in soles,1.0,1
+boring in knees,colic with urging to stool,1.0,1
+boring in knees,aversion to walking in open air,1.0,1
+boring in knees,pressing in stomach,1.0,1
+boring in knees,intense coldness in small of back,1.0,1
+boring in knees,drawing leg pain,1.0,1
+boring in knees,rigid fingers when grasping,1.0,1
+boring in knees,pressive drawing in loins at rest,1.0,1
+boring in knees,swollen hand,1.0,1
+boring in knees,restless feet,1.0,1
+boring in knees,tearing shoulder pain,1.0,1
+boring in knees,tearing tooth pain,1.0,1
+boring in knees,legs go to sleep when lying,1.0,1
+boring in knees,rigid arms in mornings,1.0,1
+boring in knees,headache worse in winter,1.0,1
+boring in knees,bruised shoulder pain,1.0,1
+boring in knees,swollen hands when hanging,1.0,1
+boring in knees,pain in thumbs,1.0,1
+cramps in right arm drawing backward,rigid fingers in mornings,1.0,1
+cramps in right arm drawing backward,swollen feet,1.0,1
+cramps in right arm drawing backward,swollen ankles,1.0,1
+cramps in right arm drawing backward,boring in olecranon,1.0,1
+cramps in right arm drawing backward,weight in right arm,1.0,1
+cramps in right arm drawing backward,gouty rheumatic affections,1.0,1
+cramps in right arm drawing backward,rigid arms at night,1.0,1
+cramps in right arm drawing backward,pain between scapulae,1.0,1
+cramps in right arm drawing backward,rigid arms when grasping,1.0,1
+cramps in right arm drawing backward,worse in wet weather,1.0,1
+cramps in right arm drawing backward,headache with nausea,1.0,1
+cramps in right arm drawing backward,stitches in soles,1.0,1
+cramps in right arm drawing backward,stitches in coccyx,1.0,1
+cramps in right arm drawing backward,restless legs,1.0,1
+cramps in right arm drawing backward,pressive drawing in small of back at rest,1.0,1
+cramps in right arm drawing backward,right arm hangs down no use,1.0,1
+cramps in right arm drawing backward,pressive drawing passes off walking,1.0,1
+cramps in right arm drawing backward,obstinate coryza,1.0,1
+cramps in right arm drawing backward,pain in fingers,1.0,1
+cramps in right arm drawing backward,useful in sedentary elderly women,1.0,1
+cramps in right arm drawing backward,boring in knees,1.0,1
+cramps in right arm drawing backward,rigid fingers at night,1.0,1
+cramps in right arm drawing backward,gums bleed easily,1.0,1
+cramps in right arm drawing backward,languor of lower limbs,1.0,1
+cramps in right arm drawing backward,worse with wet applications,1.0,1
+cramps in right arm drawing backward,pain in back of hand,1.0,1
+cramps in right arm drawing backward,dyspnea,1.0,1
+cramps in right arm drawing backward,useful in scrofulous children,1.0,1
+cramps in right arm drawing backward,tearing in zygomas,1.0,1
+cramps in right arm drawing backward,inimical to lachesis,1.0,1
+cramps in right arm drawing backward,worse in winter,1.0,1
+cramps in right arm drawing backward,epistaxis,1.0,1
+cramps in right arm drawing backward,sprained wrist joint pain,1.0,1
+cramps in right arm drawing backward,pain in nape worse right side,1.0,1
+cramps in right arm drawing backward,tearing in limbs,1.0,1
+cramps in right arm drawing backward,sleeping fingers,1.0,1
+cramps in right arm drawing backward,pain in wrists,1.0,1
+cramps in right arm drawing backward,legs go to sleep when standing,1.0,1
+cramps in right arm drawing backward,headache worse in wet weather,1.0,1
+cramps in right arm drawing backward,cramps in soles,1.0,1
+cramps in right arm drawing backward,colic with urging to stool,1.0,1
+cramps in right arm drawing backward,aversion to walking in open air,1.0,1
+cramps in right arm drawing backward,pressing in stomach,1.0,1
+cramps in right arm drawing backward,intense coldness in small of back,1.0,1
+cramps in right arm drawing backward,drawing leg pain,1.0,1
+cramps in right arm drawing backward,rigid fingers when grasping,1.0,1
+cramps in right arm drawing backward,pressive drawing in loins at rest,1.0,1
+cramps in right arm drawing backward,swollen hand,1.0,1
+cramps in right arm drawing backward,restless feet,1.0,1
+cramps in right arm drawing backward,tearing shoulder pain,1.0,1
+cramps in right arm drawing backward,tearing tooth pain,1.0,1
+cramps in right arm drawing backward,legs go to sleep when lying,1.0,1
+cramps in right arm drawing backward,rigid arms in mornings,1.0,1
+cramps in right arm drawing backward,headache worse in winter,1.0,1
+cramps in right arm drawing backward,bruised shoulder pain,1.0,1
+cramps in right arm drawing backward,swollen hands when hanging,1.0,1
+cramps in right arm drawing backward,pain in thumbs,1.0,1
+legs go to sleep when standing,rigid fingers in mornings,1.0,1
+legs go to sleep when standing,swollen feet,1.0,1
+legs go to sleep when standing,swollen ankles,1.0,1
+legs go to sleep when standing,boring in olecranon,1.0,1
+legs go to sleep when standing,weight in right arm,1.0,1
+legs go to sleep when standing,gouty rheumatic affections,1.0,1
+legs go to sleep when standing,rigid arms at night,1.0,1
+legs go to sleep when standing,pain between scapulae,1.0,1
+legs go to sleep when standing,rigid arms when grasping,1.0,1
+legs go to sleep when standing,worse in wet weather,1.0,1
+legs go to sleep when standing,headache with nausea,1.0,1
+legs go to sleep when standing,stitches in soles,1.0,1
+legs go to sleep when standing,stitches in coccyx,1.0,1
+legs go to sleep when standing,restless legs,1.0,1
+legs go to sleep when standing,pressive drawing in small of back at rest,1.0,1
+legs go to sleep when standing,right arm hangs down no use,1.0,1
+legs go to sleep when standing,pressive drawing passes off walking,1.0,1
+legs go to sleep when standing,obstinate coryza,1.0,1
+legs go to sleep when standing,pain in fingers,1.0,1
+legs go to sleep when standing,useful in sedentary elderly women,1.0,1
+legs go to sleep when standing,boring in knees,1.0,1
+legs go to sleep when standing,cramps in right arm drawing backward,1.0,1
+legs go to sleep when standing,rigid fingers at night,1.0,1
+legs go to sleep when standing,gums bleed easily,1.0,1
+legs go to sleep when standing,languor of lower limbs,1.0,1
+legs go to sleep when standing,worse with wet applications,1.0,1
+legs go to sleep when standing,pain in back of hand,1.0,1
+legs go to sleep when standing,dyspnea,1.0,1
+legs go to sleep when standing,useful in scrofulous children,1.0,1
+legs go to sleep when standing,tearing in zygomas,1.0,1
+legs go to sleep when standing,inimical to lachesis,1.0,1
+legs go to sleep when standing,worse in winter,1.0,1
+legs go to sleep when standing,epistaxis,1.0,1
+legs go to sleep when standing,sprained wrist joint pain,1.0,1
+legs go to sleep when standing,pain in nape worse right side,1.0,1
+legs go to sleep when standing,tearing in limbs,1.0,1
+legs go to sleep when standing,sleeping fingers,1.0,1
+legs go to sleep when standing,pain in wrists,1.0,1
+legs go to sleep when standing,headache worse in wet weather,1.0,1
+legs go to sleep when standing,cramps in soles,1.0,1
+legs go to sleep when standing,colic with urging to stool,1.0,1
+legs go to sleep when standing,aversion to walking in open air,1.0,1
+legs go to sleep when standing,pressing in stomach,1.0,1
+legs go to sleep when standing,intense coldness in small of back,1.0,1
+legs go to sleep when standing,drawing leg pain,1.0,1
+legs go to sleep when standing,rigid fingers when grasping,1.0,1
+legs go to sleep when standing,pressive drawing in loins at rest,1.0,1
+legs go to sleep when standing,swollen hand,1.0,1
+legs go to sleep when standing,restless feet,1.0,1
+legs go to sleep when standing,tearing shoulder pain,1.0,1
+legs go to sleep when standing,tearing tooth pain,1.0,1
+legs go to sleep when standing,legs go to sleep when lying,1.0,1
+legs go to sleep when standing,rigid arms in mornings,1.0,1
+legs go to sleep when standing,headache worse in winter,1.0,1
+legs go to sleep when standing,bruised shoulder pain,1.0,1
+legs go to sleep when standing,swollen hands when hanging,1.0,1
+legs go to sleep when standing,pain in thumbs,1.0,1
+drawing leg pain,rigid fingers in mornings,1.0,1
+drawing leg pain,swollen feet,1.0,1
+drawing leg pain,swollen ankles,1.0,1
+drawing leg pain,boring in olecranon,1.0,1
+drawing leg pain,weight in right arm,1.0,1
+drawing leg pain,gouty rheumatic affections,1.0,1
+drawing leg pain,rigid arms at night,1.0,1
+drawing leg pain,pain between scapulae,1.0,1
+drawing leg pain,rigid arms when grasping,1.0,1
+drawing leg pain,worse in wet weather,1.0,1
+drawing leg pain,headache with nausea,1.0,1
+drawing leg pain,stitches in soles,1.0,1
+drawing leg pain,stitches in coccyx,1.0,1
+drawing leg pain,restless legs,1.0,1
+drawing leg pain,pressive drawing in small of back at rest,1.0,1
+drawing leg pain,right arm hangs down no use,1.0,1
+drawing leg pain,pressive drawing passes off walking,1.0,1
+drawing leg pain,obstinate coryza,1.0,1
+drawing leg pain,pain in fingers,1.0,1
+drawing leg pain,useful in sedentary elderly women,1.0,1
+drawing leg pain,boring in knees,1.0,1
+drawing leg pain,cramps in right arm drawing backward,1.0,1
+drawing leg pain,rigid fingers at night,1.0,1
+drawing leg pain,gums bleed easily,1.0,1
+drawing leg pain,languor of lower limbs,1.0,1
+drawing leg pain,worse with wet applications,1.0,1
+drawing leg pain,pain in back of hand,1.0,1
+drawing leg pain,dyspnea,1.0,1
+drawing leg pain,useful in scrofulous children,1.0,1
+drawing leg pain,tearing in zygomas,1.0,1
+drawing leg pain,inimical to lachesis,1.0,1
+drawing leg pain,worse in winter,1.0,1
+drawing leg pain,epistaxis,1.0,1
+drawing leg pain,sprained wrist joint pain,1.0,1
+drawing leg pain,pain in nape worse right side,1.0,1
+drawing leg pain,tearing in limbs,1.0,1
+drawing leg pain,sleeping fingers,1.0,1
+drawing leg pain,pain in wrists,1.0,1
+drawing leg pain,legs go to sleep when standing,1.0,1
+drawing leg pain,headache worse in wet weather,1.0,1
+drawing leg pain,cramps in soles,1.0,1
+drawing leg pain,colic with urging to stool,1.0,1
+drawing leg pain,aversion to walking in open air,1.0,1
+drawing leg pain,pressing in stomach,1.0,1
+drawing leg pain,intense coldness in small of back,1.0,1
+drawing leg pain,rigid fingers when grasping,1.0,1
+drawing leg pain,pressive drawing in loins at rest,1.0,1
+drawing leg pain,swollen hand,1.0,1
+drawing leg pain,restless feet,1.0,1
+drawing leg pain,tearing shoulder pain,1.0,1
+drawing leg pain,tearing tooth pain,1.0,1
+drawing leg pain,legs go to sleep when lying,1.0,1
+drawing leg pain,rigid arms in mornings,1.0,1
+drawing leg pain,headache worse in winter,1.0,1
+drawing leg pain,bruised shoulder pain,1.0,1
+drawing leg pain,swollen hands when hanging,1.0,1
+drawing leg pain,pain in thumbs,1.0,1
+rigid arms in mornings,rigid fingers in mornings,1.0,1
+rigid arms in mornings,swollen feet,1.0,1
+rigid arms in mornings,swollen ankles,1.0,1
+rigid arms in mornings,boring in olecranon,1.0,1
+rigid arms in mornings,weight in right arm,1.0,1
+rigid arms in mornings,gouty rheumatic affections,1.0,1
+rigid arms in mornings,rigid arms at night,1.0,1
+rigid arms in mornings,pain between scapulae,1.0,1
+rigid arms in mornings,rigid arms when grasping,1.0,1
+rigid arms in mornings,worse in wet weather,1.0,1
+rigid arms in mornings,headache with nausea,1.0,1
+rigid arms in mornings,stitches in soles,1.0,1
+rigid arms in mornings,stitches in coccyx,1.0,1
+rigid arms in mornings,restless legs,1.0,1
+rigid arms in mornings,pressive drawing in small of back at rest,1.0,1
+rigid arms in mornings,right arm hangs down no use,1.0,1
+rigid arms in mornings,pressive drawing passes off walking,1.0,1
+rigid arms in mornings,obstinate coryza,1.0,1
+rigid arms in mornings,pain in fingers,1.0,1
+rigid arms in mornings,useful in sedentary elderly women,1.0,1
+rigid arms in mornings,boring in knees,1.0,1
+rigid arms in mornings,cramps in right arm drawing backward,1.0,1
+rigid arms in mornings,rigid fingers at night,1.0,1
+rigid arms in mornings,gums bleed easily,1.0,1
+rigid arms in mornings,languor of lower limbs,1.0,1
+rigid arms in mornings,worse with wet applications,1.0,1
+rigid arms in mornings,pain in back of hand,1.0,1
+rigid arms in mornings,dyspnea,1.0,1
+rigid arms in mornings,useful in scrofulous children,1.0,1
+rigid arms in mornings,tearing in zygomas,1.0,1
+rigid arms in mornings,inimical to lachesis,1.0,1
+rigid arms in mornings,worse in winter,1.0,1
+rigid arms in mornings,epistaxis,1.0,1
+rigid arms in mornings,sprained wrist joint pain,1.0,1
+rigid arms in mornings,pain in nape worse right side,1.0,1
+rigid arms in mornings,tearing in limbs,1.0,1
+rigid arms in mornings,sleeping fingers,1.0,1
+rigid arms in mornings,pain in wrists,1.0,1
+rigid arms in mornings,legs go to sleep when standing,1.0,1
+rigid arms in mornings,headache worse in wet weather,1.0,1
+rigid arms in mornings,cramps in soles,1.0,1
+rigid arms in mornings,colic with urging to stool,1.0,1
+rigid arms in mornings,aversion to walking in open air,1.0,1
+rigid arms in mornings,pressing in stomach,1.0,1
+rigid arms in mornings,intense coldness in small of back,1.0,1
+rigid arms in mornings,drawing leg pain,1.0,1
+rigid arms in mornings,rigid fingers when grasping,1.0,1
+rigid arms in mornings,pressive drawing in loins at rest,1.0,1
+rigid arms in mornings,swollen hand,1.0,1
+rigid arms in mornings,restless feet,1.0,1
+rigid arms in mornings,tearing shoulder pain,1.0,1
+rigid arms in mornings,tearing tooth pain,1.0,1
+rigid arms in mornings,legs go to sleep when lying,1.0,1
+rigid arms in mornings,headache worse in winter,1.0,1
+rigid arms in mornings,bruised shoulder pain,1.0,1
+rigid arms in mornings,swollen hands when hanging,1.0,1
+rigid arms in mornings,pain in thumbs,1.0,1
+tearing in limbs,rigid fingers in mornings,1.0,1
+tearing in limbs,swollen feet,1.0,1
+tearing in limbs,swollen ankles,1.0,1
+tearing in limbs,boring in olecranon,1.0,1
+tearing in limbs,weight in right arm,1.0,1
+tearing in limbs,gouty rheumatic affections,1.0,1
+tearing in limbs,rigid arms at night,1.0,1
+tearing in limbs,pain between scapulae,1.0,1
+tearing in limbs,rigid arms when grasping,1.0,1
+tearing in limbs,worse in wet weather,1.0,1
+tearing in limbs,headache with nausea,1.0,1
+tearing in limbs,stitches in soles,1.0,1
+tearing in limbs,stitches in coccyx,1.0,1
+tearing in limbs,restless legs,1.0,1
+tearing in limbs,pressive drawing in small of back at rest,1.0,1
+tearing in limbs,right arm hangs down no use,1.0,1
+tearing in limbs,pressive drawing passes off walking,1.0,1
+tearing in limbs,obstinate coryza,1.0,1
+tearing in limbs,pain in fingers,1.0,1
+tearing in limbs,useful in sedentary elderly women,1.0,1
+tearing in limbs,boring in knees,1.0,1
+tearing in limbs,cramps in right arm drawing backward,1.0,1
+tearing in limbs,rigid fingers at night,1.0,1
+tearing in limbs,gums bleed easily,1.0,1
+tearing in limbs,languor of lower limbs,1.0,1
+tearing in limbs,worse with wet applications,1.0,1
+tearing in limbs,pain in back of hand,1.0,1
+tearing in limbs,dyspnea,1.0,1
+tearing in limbs,useful in scrofulous children,1.0,1
+tearing in limbs,tearing in zygomas,1.0,1
+tearing in limbs,inimical to lachesis,1.0,1
+tearing in limbs,worse in winter,1.0,1
+tearing in limbs,epistaxis,1.0,1
+tearing in limbs,sprained wrist joint pain,1.0,1
+tearing in limbs,pain in nape worse right side,1.0,1
+tearing in limbs,sleeping fingers,1.0,1
+tearing in limbs,pain in wrists,1.0,1
+tearing in limbs,legs go to sleep when standing,1.0,1
+tearing in limbs,headache worse in wet weather,1.0,1
+tearing in limbs,cramps in soles,1.0,1
+tearing in limbs,colic with urging to stool,1.0,1
+tearing in limbs,aversion to walking in open air,1.0,1
+tearing in limbs,pressing in stomach,1.0,1
+tearing in limbs,intense coldness in small of back,1.0,1
+tearing in limbs,drawing leg pain,1.0,1
+tearing in limbs,rigid fingers when grasping,1.0,1
+tearing in limbs,pressive drawing in loins at rest,1.0,1
+tearing in limbs,swollen hand,1.0,1
+tearing in limbs,restless feet,1.0,1
+tearing in limbs,tearing shoulder pain,1.0,1
+tearing in limbs,tearing tooth pain,1.0,1
+tearing in limbs,legs go to sleep when lying,1.0,1
+tearing in limbs,rigid arms in mornings,1.0,1
+tearing in limbs,headache worse in winter,1.0,1
+tearing in limbs,bruised shoulder pain,1.0,1
+tearing in limbs,swollen hands when hanging,1.0,1
+tearing in limbs,pain in thumbs,1.0,1
+rigid arms at night,rigid fingers in mornings,1.0,1
+rigid arms at night,swollen feet,1.0,1
+rigid arms at night,swollen ankles,1.0,1
+rigid arms at night,boring in olecranon,1.0,1
+rigid arms at night,weight in right arm,1.0,1
+rigid arms at night,gouty rheumatic affections,1.0,1
+rigid arms at night,pain between scapulae,1.0,1
+rigid arms at night,rigid arms when grasping,1.0,1
+rigid arms at night,worse in wet weather,1.0,1
+rigid arms at night,headache with nausea,1.0,1
+rigid arms at night,stitches in soles,1.0,1
+rigid arms at night,stitches in coccyx,1.0,1
+rigid arms at night,restless legs,1.0,1
+rigid arms at night,pressive drawing in small of back at rest,1.0,1
+rigid arms at night,right arm hangs down no use,1.0,1
+rigid arms at night,pressive drawing passes off walking,1.0,1
+rigid arms at night,obstinate coryza,1.0,1
+rigid arms at night,pain in fingers,1.0,1
+rigid arms at night,useful in sedentary elderly women,1.0,1
+rigid arms at night,boring in knees,1.0,1
+rigid arms at night,cramps in right arm drawing backward,1.0,1
+rigid arms at night,rigid fingers at night,1.0,1
+rigid arms at night,gums bleed easily,1.0,1
+rigid arms at night,languor of lower limbs,1.0,1
+rigid arms at night,worse with wet applications,1.0,1
+rigid arms at night,pain in back of hand,1.0,1
+rigid arms at night,dyspnea,1.0,1
+rigid arms at night,useful in scrofulous children,1.0,1
+rigid arms at night,tearing in zygomas,1.0,1
+rigid arms at night,inimical to lachesis,1.0,1
+rigid arms at night,worse in winter,1.0,1
+rigid arms at night,epistaxis,1.0,1
+rigid arms at night,sprained wrist joint pain,1.0,1
+rigid arms at night,pain in nape worse right side,1.0,1
+rigid arms at night,tearing in limbs,1.0,1
+rigid arms at night,sleeping fingers,1.0,1
+rigid arms at night,pain in wrists,1.0,1
+rigid arms at night,legs go to sleep when standing,1.0,1
+rigid arms at night,headache worse in wet weather,1.0,1
+rigid arms at night,cramps in soles,1.0,1
+rigid arms at night,colic with urging to stool,1.0,1
+rigid arms at night,aversion to walking in open air,1.0,1
+rigid arms at night,pressing in stomach,1.0,1
+rigid arms at night,intense coldness in small of back,1.0,1
+rigid arms at night,drawing leg pain,1.0,1
+rigid arms at night,rigid fingers when grasping,1.0,1
+rigid arms at night,pressive drawing in loins at rest,1.0,1
+rigid arms at night,swollen hand,1.0,1
+rigid arms at night,restless feet,1.0,1
+rigid arms at night,tearing shoulder pain,1.0,1
+rigid arms at night,tearing tooth pain,1.0,1
+rigid arms at night,legs go to sleep when lying,1.0,1
+rigid arms at night,rigid arms in mornings,1.0,1
+rigid arms at night,headache worse in winter,1.0,1
+rigid arms at night,bruised shoulder pain,1.0,1
+rigid arms at night,swollen hands when hanging,1.0,1
+rigid arms at night,pain in thumbs,1.0,1
+epistaxis,rigid fingers in mornings,1.0,1
+epistaxis,swollen feet,1.0,1
+epistaxis,swollen ankles,1.0,1
+epistaxis,boring in olecranon,1.0,1
+epistaxis,weight in right arm,1.0,1
+epistaxis,gouty rheumatic affections,1.0,1
+epistaxis,rigid arms at night,1.0,1
+epistaxis,pain between scapulae,1.0,1
+epistaxis,rigid arms when grasping,1.0,1
+epistaxis,worse in wet weather,1.0,1
+epistaxis,headache with nausea,1.0,1
+epistaxis,stitches in soles,1.0,1
+epistaxis,stitches in coccyx,1.0,1
+epistaxis,restless legs,1.0,1
+epistaxis,pressive drawing in small of back at rest,1.0,1
+epistaxis,right arm hangs down no use,1.0,1
+epistaxis,pressive drawing passes off walking,1.0,1
+epistaxis,obstinate coryza,1.0,1
+epistaxis,pain in fingers,1.0,1
+epistaxis,useful in sedentary elderly women,1.0,1
+epistaxis,boring in knees,1.0,1
+epistaxis,cramps in right arm drawing backward,1.0,1
+epistaxis,rigid fingers at night,1.0,1
+epistaxis,gums bleed easily,1.0,1
+epistaxis,languor of lower limbs,1.0,1
+epistaxis,worse with wet applications,1.0,1
+epistaxis,pain in back of hand,1.0,1
+epistaxis,dyspnea,1.0,1
+epistaxis,useful in scrofulous children,1.0,1
+epistaxis,tearing in zygomas,1.0,1
+epistaxis,inimical to lachesis,1.0,1
+epistaxis,worse in winter,1.0,1
+epistaxis,sprained wrist joint pain,1.0,1
+epistaxis,pain in nape worse right side,1.0,1
+epistaxis,tearing in limbs,1.0,1
+epistaxis,sleeping fingers,1.0,1
+epistaxis,pain in wrists,1.0,1
+epistaxis,legs go to sleep when standing,1.0,1
+epistaxis,headache worse in wet weather,1.0,1
+epistaxis,cramps in soles,1.0,1
+epistaxis,colic with urging to stool,1.0,1
+epistaxis,aversion to walking in open air,1.0,1
+epistaxis,pressing in stomach,1.0,1
+epistaxis,intense coldness in small of back,1.0,1
+epistaxis,drawing leg pain,1.0,1
+epistaxis,rigid fingers when grasping,1.0,1
+epistaxis,pressive drawing in loins at rest,1.0,1
+epistaxis,swollen hand,1.0,1
+epistaxis,restless feet,1.0,1
+epistaxis,tearing shoulder pain,1.0,1
+epistaxis,tearing tooth pain,1.0,1
+epistaxis,legs go to sleep when lying,1.0,1
+epistaxis,rigid arms in mornings,1.0,1
+epistaxis,headache worse in winter,1.0,1
+epistaxis,bruised shoulder pain,1.0,1
+epistaxis,swollen hands when hanging,1.0,1
+epistaxis,pain in thumbs,1.0,1
+pain in thumbs,rigid fingers in mornings,1.0,1
+pain in thumbs,swollen feet,1.0,1
+pain in thumbs,swollen ankles,1.0,1
+pain in thumbs,boring in olecranon,1.0,1
+pain in thumbs,weight in right arm,1.0,1
+pain in thumbs,gouty rheumatic affections,1.0,1
+pain in thumbs,rigid arms at night,1.0,1
+pain in thumbs,pain between scapulae,1.0,1
+pain in thumbs,rigid arms when grasping,1.0,1
+pain in thumbs,worse in wet weather,1.0,1
+pain in thumbs,headache with nausea,1.0,1
+pain in thumbs,stitches in soles,1.0,1
+pain in thumbs,stitches in coccyx,1.0,1
+pain in thumbs,restless legs,1.0,1
+pain in thumbs,pressive drawing in small of back at rest,1.0,1
+pain in thumbs,right arm hangs down no use,1.0,1
+pain in thumbs,pressive drawing passes off walking,1.0,1
+pain in thumbs,obstinate coryza,1.0,1
+pain in thumbs,pain in fingers,1.0,1
+pain in thumbs,useful in sedentary elderly women,1.0,1
+pain in thumbs,boring in knees,1.0,1
+pain in thumbs,cramps in right arm drawing backward,1.0,1
+pain in thumbs,rigid fingers at night,1.0,1
+pain in thumbs,gums bleed easily,1.0,1
+pain in thumbs,languor of lower limbs,1.0,1
+pain in thumbs,worse with wet applications,1.0,1
+pain in thumbs,pain in back of hand,1.0,1
+pain in thumbs,dyspnea,1.0,1
+pain in thumbs,useful in scrofulous children,1.0,1
+pain in thumbs,tearing in zygomas,1.0,1
+pain in thumbs,inimical to lachesis,1.0,1
+pain in thumbs,worse in winter,1.0,1
+pain in thumbs,epistaxis,1.0,1
+pain in thumbs,sprained wrist joint pain,1.0,1
+pain in thumbs,pain in nape worse right side,1.0,1
+pain in thumbs,tearing in limbs,1.0,1
+pain in thumbs,sleeping fingers,1.0,1
+pain in thumbs,pain in wrists,1.0,1
+pain in thumbs,legs go to sleep when standing,1.0,1
+pain in thumbs,headache worse in wet weather,1.0,1
+pain in thumbs,cramps in soles,1.0,1
+pain in thumbs,colic with urging to stool,1.0,1
+pain in thumbs,aversion to walking in open air,1.0,1
+pain in thumbs,pressing in stomach,1.0,1
+pain in thumbs,intense coldness in small of back,1.0,1
+pain in thumbs,drawing leg pain,1.0,1
+pain in thumbs,rigid fingers when grasping,1.0,1
+pain in thumbs,pressive drawing in loins at rest,1.0,1
+pain in thumbs,swollen hand,1.0,1
+pain in thumbs,restless feet,1.0,1
+pain in thumbs,tearing shoulder pain,1.0,1
+pain in thumbs,tearing tooth pain,1.0,1
+pain in thumbs,legs go to sleep when lying,1.0,1
+pain in thumbs,rigid arms in mornings,1.0,1
+pain in thumbs,headache worse in winter,1.0,1
+pain in thumbs,bruised shoulder pain,1.0,1
+pain in thumbs,swollen hands when hanging,1.0,1
+worse in wet weather,rigid fingers in mornings,1.0,1
+worse in wet weather,swollen feet,1.0,1
+worse in wet weather,swollen ankles,1.0,1
+worse in wet weather,boring in olecranon,1.0,1
+worse in wet weather,weight in right arm,1.0,1
+worse in wet weather,gouty rheumatic affections,1.0,1
+worse in wet weather,rigid arms at night,1.0,1
+worse in wet weather,pain between scapulae,1.0,1
+worse in wet weather,rigid arms when grasping,1.0,1
+worse in wet weather,headache with nausea,1.0,1
+worse in wet weather,stitches in soles,1.0,1
+worse in wet weather,stitches in coccyx,1.0,1
+worse in wet weather,restless legs,1.0,1
+worse in wet weather,pressive drawing in small of back at rest,1.0,1
+worse in wet weather,right arm hangs down no use,1.0,1
+worse in wet weather,pressive drawing passes off walking,1.0,1
+worse in wet weather,obstinate coryza,1.0,1
+worse in wet weather,pain in fingers,1.0,1
+worse in wet weather,useful in sedentary elderly women,1.0,1
+worse in wet weather,boring in knees,1.0,1
+worse in wet weather,cramps in right arm drawing backward,1.0,1
+worse in wet weather,rigid fingers at night,1.0,1
+worse in wet weather,gums bleed easily,1.0,1
+worse in wet weather,languor of lower limbs,1.0,1
+worse in wet weather,worse with wet applications,1.0,1
+worse in wet weather,pain in back of hand,1.0,1
+worse in wet weather,dyspnea,1.0,1
+worse in wet weather,useful in scrofulous children,1.0,1
+worse in wet weather,tearing in zygomas,1.0,1
+worse in wet weather,inimical to lachesis,1.0,1
+worse in wet weather,worse in winter,1.0,1
+worse in wet weather,epistaxis,1.0,1
+worse in wet weather,sprained wrist joint pain,1.0,1
+worse in wet weather,pain in nape worse right side,1.0,1
+worse in wet weather,tearing in limbs,1.0,1
+worse in wet weather,sleeping fingers,1.0,1
+worse in wet weather,pain in wrists,1.0,1
+worse in wet weather,legs go to sleep when standing,1.0,1
+worse in wet weather,headache worse in wet weather,1.0,1
+worse in wet weather,cramps in soles,1.0,1
+worse in wet weather,colic with urging to stool,1.0,1
+worse in wet weather,aversion to walking in open air,1.0,1
+worse in wet weather,pressing in stomach,1.0,1
+worse in wet weather,intense coldness in small of back,1.0,1
+worse in wet weather,drawing leg pain,1.0,1
+worse in wet weather,rigid fingers when grasping,1.0,1
+worse in wet weather,pressive drawing in loins at rest,1.0,1
+worse in wet weather,swollen hand,1.0,1
+worse in wet weather,restless feet,1.0,1
+worse in wet weather,tearing shoulder pain,1.0,1
+worse in wet weather,tearing tooth pain,1.0,1
+worse in wet weather,legs go to sleep when lying,1.0,1
+worse in wet weather,rigid arms in mornings,1.0,1
+worse in wet weather,headache worse in winter,1.0,1
+worse in wet weather,bruised shoulder pain,1.0,1
+worse in wet weather,swollen hands when hanging,1.0,1
+worse in wet weather,pain in thumbs,1.0,1
+worse in winter,rigid fingers in mornings,1.0,1
+worse in winter,swollen feet,1.0,1
+worse in winter,swollen ankles,1.0,1
+worse in winter,boring in olecranon,1.0,1
+worse in winter,weight in right arm,1.0,1
+worse in winter,gouty rheumatic affections,1.0,1
+worse in winter,rigid arms at night,1.0,1
+worse in winter,pain between scapulae,1.0,1
+worse in winter,rigid arms when grasping,1.0,1
+worse in winter,worse in wet weather,1.0,1
+worse in winter,headache with nausea,1.0,1
+worse in winter,stitches in soles,1.0,1
+worse in winter,stitches in coccyx,1.0,1
+worse in winter,restless legs,1.0,1
+worse in winter,pressive drawing in small of back at rest,1.0,1
+worse in winter,right arm hangs down no use,1.0,1
+worse in winter,pressive drawing passes off walking,1.0,1
+worse in winter,obstinate coryza,1.0,1
+worse in winter,pain in fingers,1.0,1
+worse in winter,useful in sedentary elderly women,1.0,1
+worse in winter,boring in knees,1.0,1
+worse in winter,cramps in right arm drawing backward,1.0,1
+worse in winter,rigid fingers at night,1.0,1
+worse in winter,gums bleed easily,1.0,1
+worse in winter,languor of lower limbs,1.0,1
+worse in winter,worse with wet applications,1.0,1
+worse in winter,pain in back of hand,1.0,1
+worse in winter,dyspnea,1.0,1
+worse in winter,useful in scrofulous children,1.0,1
+worse in winter,tearing in zygomas,1.0,1
+worse in winter,inimical to lachesis,1.0,1
+worse in winter,epistaxis,1.0,1
+worse in winter,sprained wrist joint pain,1.0,1
+worse in winter,pain in nape worse right side,1.0,1
+worse in winter,tearing in limbs,1.0,1
+worse in winter,sleeping fingers,1.0,1
+worse in winter,pain in wrists,1.0,1
+worse in winter,legs go to sleep when standing,1.0,1
+worse in winter,headache worse in wet weather,1.0,1
+worse in winter,cramps in soles,1.0,1
+worse in winter,colic with urging to stool,1.0,1
+worse in winter,aversion to walking in open air,1.0,1
+worse in winter,pressing in stomach,1.0,1
+worse in winter,intense coldness in small of back,1.0,1
+worse in winter,drawing leg pain,1.0,1
+worse in winter,rigid fingers when grasping,1.0,1
+worse in winter,pressive drawing in loins at rest,1.0,1
+worse in winter,swollen hand,1.0,1
+worse in winter,restless feet,1.0,1
+worse in winter,tearing shoulder pain,1.0,1
+worse in winter,tearing tooth pain,1.0,1
+worse in winter,legs go to sleep when lying,1.0,1
+worse in winter,rigid arms in mornings,1.0,1
+worse in winter,headache worse in winter,1.0,1
+worse in winter,bruised shoulder pain,1.0,1
+worse in winter,swollen hands when hanging,1.0,1
+worse in winter,pain in thumbs,1.0,1
+pressive drawing passes off walking,rigid fingers in mornings,1.0,1
+pressive drawing passes off walking,swollen feet,1.0,1
+pressive drawing passes off walking,swollen ankles,1.0,1
+pressive drawing passes off walking,boring in olecranon,1.0,1
+pressive drawing passes off walking,weight in right arm,1.0,1
+pressive drawing passes off walking,gouty rheumatic affections,1.0,1
+pressive drawing passes off walking,rigid arms at night,1.0,1
+pressive drawing passes off walking,pain between scapulae,1.0,1
+pressive drawing passes off walking,rigid arms when grasping,1.0,1
+pressive drawing passes off walking,worse in wet weather,1.0,1
+pressive drawing passes off walking,headache with nausea,1.0,1
+pressive drawing passes off walking,stitches in soles,1.0,1
+pressive drawing passes off walking,stitches in coccyx,1.0,1
+pressive drawing passes off walking,restless legs,1.0,1
+pressive drawing passes off walking,pressive drawing in small of back at rest,1.0,1
+pressive drawing passes off walking,right arm hangs down no use,1.0,1
+pressive drawing passes off walking,obstinate coryza,1.0,1
+pressive drawing passes off walking,pain in fingers,1.0,1
+pressive drawing passes off walking,useful in sedentary elderly women,1.0,1
+pressive drawing passes off walking,boring in knees,1.0,1
+pressive drawing passes off walking,cramps in right arm drawing backward,1.0,1
+pressive drawing passes off walking,rigid fingers at night,1.0,1
+pressive drawing passes off walking,gums bleed easily,1.0,1
+pressive drawing passes off walking,languor of lower limbs,1.0,1
+pressive drawing passes off walking,worse with wet applications,1.0,1
+pressive drawing passes off walking,pain in back of hand,1.0,1
+pressive drawing passes off walking,dyspnea,1.0,1
+pressive drawing passes off walking,useful in scrofulous children,1.0,1
+pressive drawing passes off walking,tearing in zygomas,1.0,1
+pressive drawing passes off walking,inimical to lachesis,1.0,1
+pressive drawing passes off walking,worse in winter,1.0,1
+pressive drawing passes off walking,epistaxis,1.0,1
+pressive drawing passes off walking,sprained wrist joint pain,1.0,1
+pressive drawing passes off walking,pain in nape worse right side,1.0,1
+pressive drawing passes off walking,tearing in limbs,1.0,1
+pressive drawing passes off walking,sleeping fingers,1.0,1
+pressive drawing passes off walking,pain in wrists,1.0,1
+pressive drawing passes off walking,legs go to sleep when standing,1.0,1
+pressive drawing passes off walking,headache worse in wet weather,1.0,1
+pressive drawing passes off walking,cramps in soles,1.0,1
+pressive drawing passes off walking,colic with urging to stool,1.0,1
+pressive drawing passes off walking,aversion to walking in open air,1.0,1
+pressive drawing passes off walking,pressing in stomach,1.0,1
+pressive drawing passes off walking,intense coldness in small of back,1.0,1
+pressive drawing passes off walking,drawing leg pain,1.0,1
+pressive drawing passes off walking,rigid fingers when grasping,1.0,1
+pressive drawing passes off walking,pressive drawing in loins at rest,1.0,1
+pressive drawing passes off walking,swollen hand,1.0,1
+pressive drawing passes off walking,restless feet,1.0,1
+pressive drawing passes off walking,tearing shoulder pain,1.0,1
+pressive drawing passes off walking,tearing tooth pain,1.0,1
+pressive drawing passes off walking,legs go to sleep when lying,1.0,1
+pressive drawing passes off walking,rigid arms in mornings,1.0,1
+pressive drawing passes off walking,headache worse in winter,1.0,1
+pressive drawing passes off walking,bruised shoulder pain,1.0,1
+pressive drawing passes off walking,swollen hands when hanging,1.0,1
+pressive drawing passes off walking,pain in thumbs,1.0,1
+obstinate coryza,rigid fingers in mornings,1.0,1
+obstinate coryza,swollen feet,1.0,1
+obstinate coryza,swollen ankles,1.0,1
+obstinate coryza,boring in olecranon,1.0,1
+obstinate coryza,weight in right arm,1.0,1
+obstinate coryza,gouty rheumatic affections,1.0,1
+obstinate coryza,rigid arms at night,1.0,1
+obstinate coryza,pain between scapulae,1.0,1
+obstinate coryza,rigid arms when grasping,1.0,1
+obstinate coryza,worse in wet weather,1.0,1
+obstinate coryza,headache with nausea,1.0,1
+obstinate coryza,stitches in soles,1.0,1
+obstinate coryza,stitches in coccyx,1.0,1
+obstinate coryza,restless legs,1.0,1
+obstinate coryza,pressive drawing in small of back at rest,1.0,1
+obstinate coryza,right arm hangs down no use,1.0,1
+obstinate coryza,pressive drawing passes off walking,1.0,1
+obstinate coryza,pain in fingers,1.0,1
+obstinate coryza,useful in sedentary elderly women,1.0,1
+obstinate coryza,boring in knees,1.0,1
+obstinate coryza,cramps in right arm drawing backward,1.0,1
+obstinate coryza,rigid fingers at night,1.0,1
+obstinate coryza,gums bleed easily,1.0,1
+obstinate coryza,languor of lower limbs,1.0,1
+obstinate coryza,worse with wet applications,1.0,1
+obstinate coryza,pain in back of hand,1.0,1
+obstinate coryza,dyspnea,1.0,1
+obstinate coryza,useful in scrofulous children,1.0,1
+obstinate coryza,tearing in zygomas,1.0,1
+obstinate coryza,inimical to lachesis,1.0,1
+obstinate coryza,worse in winter,1.0,1
+obstinate coryza,epistaxis,1.0,1
+obstinate coryza,sprained wrist joint pain,1.0,1
+obstinate coryza,pain in nape worse right side,1.0,1
+obstinate coryza,tearing in limbs,1.0,1
+obstinate coryza,sleeping fingers,1.0,1
+obstinate coryza,pain in wrists,1.0,1
+obstinate coryza,legs go to sleep when standing,1.0,1
+obstinate coryza,headache worse in wet weather,1.0,1
+obstinate coryza,cramps in soles,1.0,1
+obstinate coryza,colic with urging to stool,1.0,1
+obstinate coryza,aversion to walking in open air,1.0,1
+obstinate coryza,pressing in stomach,1.0,1
+obstinate coryza,intense coldness in small of back,1.0,1
+obstinate coryza,drawing leg pain,1.0,1
+obstinate coryza,rigid fingers when grasping,1.0,1
+obstinate coryza,pressive drawing in loins at rest,1.0,1
+obstinate coryza,swollen hand,1.0,1
+obstinate coryza,restless feet,1.0,1
+obstinate coryza,tearing shoulder pain,1.0,1
+obstinate coryza,tearing tooth pain,1.0,1
+obstinate coryza,legs go to sleep when lying,1.0,1
+obstinate coryza,rigid arms in mornings,1.0,1
+obstinate coryza,headache worse in winter,1.0,1
+obstinate coryza,bruised shoulder pain,1.0,1
+obstinate coryza,swollen hands when hanging,1.0,1
+obstinate coryza,pain in thumbs,1.0,1
+headache worse in wet weather,rigid fingers in mornings,0.5,1
+headache worse in wet weather,swollen feet,0.5,1
+headache worse in wet weather,swollen ankles,0.5,1
+headache worse in wet weather,boring in olecranon,0.5,1
+headache worse in wet weather,weight in right arm,0.5,1
+headache worse in wet weather,gouty rheumatic affections,0.5,1
+headache worse in wet weather,rigid arms at night,0.5,1
+headache worse in wet weather,pain between scapulae,0.5,1
+headache worse in wet weather,rigid arms when grasping,0.5,1
+headache worse in wet weather,worse in wet weather,0.5,1
+headache worse in wet weather,headache with nausea,0.5,1
+headache worse in wet weather,stitches in soles,0.5,1
+headache worse in wet weather,stitches in coccyx,0.5,1
+headache worse in wet weather,restless legs,0.5,1
+headache worse in wet weather,pressive drawing in small of back at rest,0.5,1
+headache worse in wet weather,right arm hangs down no use,0.5,1
+headache worse in wet weather,pressive drawing passes off walking,0.5,1
+headache worse in wet weather,obstinate coryza,0.5,1
+headache worse in wet weather,pain in fingers,0.5,1
+headache worse in wet weather,useful in sedentary elderly women,0.5,1
+headache worse in wet weather,boring in knees,0.5,1
+headache worse in wet weather,cramps in right arm drawing backward,0.5,1
+headache worse in wet weather,rigid fingers at night,0.5,1
+headache worse in wet weather,gums bleed easily,0.5,1
+headache worse in wet weather,languor of lower limbs,0.5,1
+headache worse in wet weather,worse with wet applications,0.5,1
+headache worse in wet weather,pain in back of hand,0.5,1
+headache worse in wet weather,dyspnea,0.5,1
+headache worse in wet weather,useful in scrofulous children,0.5,1
+headache worse in wet weather,tearing in zygomas,0.5,1
+headache worse in wet weather,inimical to lachesis,0.5,1
+headache worse in wet weather,worse in winter,0.5,1
+headache worse in wet weather,epistaxis,0.5,1
+headache worse in wet weather,sprained wrist joint pain,0.5,1
+headache worse in wet weather,pain in nape worse right side,0.5,1
+headache worse in wet weather,tearing in limbs,0.5,1
+headache worse in wet weather,sleeping fingers,0.5,1
+headache worse in wet weather,pain in wrists,0.5,1
+headache worse in wet weather,legs go to sleep when standing,0.5,1
+headache worse in wet weather,cramps in soles,1.0,2
+headache worse in wet weather,colic with urging to stool,1.0,2
+headache worse in wet weather,aversion to walking in open air,0.5,1
+headache worse in wet weather,pressing in stomach,1.0,2
+headache worse in wet weather,intense coldness in small of back,0.5,1
+headache worse in wet weather,drawing leg pain,0.5,1
+headache worse in wet weather,rigid fingers when grasping,0.5,1
+headache worse in wet weather,pressive drawing in loins at rest,0.5,1
+headache worse in wet weather,swollen hand,0.5,1
+headache worse in wet weather,restless feet,0.5,1
+headache worse in wet weather,tearing shoulder pain,0.5,1
+headache worse in wet weather,tearing tooth pain,0.5,1
+headache worse in wet weather,legs go to sleep when lying,0.5,1
+headache worse in wet weather,rigid arms in mornings,0.5,1
+headache worse in wet weather,headache worse in winter,0.5,1
+headache worse in wet weather,bruised shoulder pain,0.5,1
+headache worse in wet weather,swollen hands when hanging,0.5,1
+headache worse in wet weather,pain in thumbs,0.5,1
+restless feet,rigid fingers in mornings,1.0,1
+restless feet,swollen feet,1.0,1
+restless feet,swollen ankles,1.0,1
+restless feet,boring in olecranon,1.0,1
+restless feet,weight in right arm,1.0,1
+restless feet,gouty rheumatic affections,1.0,1
+restless feet,rigid arms at night,1.0,1
+restless feet,pain between scapulae,1.0,1
+restless feet,rigid arms when grasping,1.0,1
+restless feet,worse in wet weather,1.0,1
+restless feet,headache with nausea,1.0,1
+restless feet,stitches in soles,1.0,1
+restless feet,stitches in coccyx,1.0,1
+restless feet,restless legs,1.0,1
+restless feet,pressive drawing in small of back at rest,1.0,1
+restless feet,right arm hangs down no use,1.0,1
+restless feet,pressive drawing passes off walking,1.0,1
+restless feet,obstinate coryza,1.0,1
+restless feet,pain in fingers,1.0,1
+restless feet,useful in sedentary elderly women,1.0,1
+restless feet,boring in knees,1.0,1
+restless feet,cramps in right arm drawing backward,1.0,1
+restless feet,rigid fingers at night,1.0,1
+restless feet,gums bleed easily,1.0,1
+restless feet,languor of lower limbs,1.0,1
+restless feet,worse with wet applications,1.0,1
+restless feet,pain in back of hand,1.0,1
+restless feet,dyspnea,1.0,1
+restless feet,useful in scrofulous children,1.0,1
+restless feet,tearing in zygomas,1.0,1
+restless feet,inimical to lachesis,1.0,1
+restless feet,worse in winter,1.0,1
+restless feet,epistaxis,1.0,1
+restless feet,sprained wrist joint pain,1.0,1
+restless feet,pain in nape worse right side,1.0,1
+restless feet,tearing in limbs,1.0,1
+restless feet,sleeping fingers,1.0,1
+restless feet,pain in wrists,1.0,1
+restless feet,legs go to sleep when standing,1.0,1
+restless feet,headache worse in wet weather,1.0,1
+restless feet,cramps in soles,1.0,1
+restless feet,colic with urging to stool,1.0,1
+restless feet,aversion to walking in open air,1.0,1
+restless feet,pressing in stomach,1.0,1
+restless feet,intense coldness in small of back,1.0,1
+restless feet,drawing leg pain,1.0,1
+restless feet,rigid fingers when grasping,1.0,1
+restless feet,pressive drawing in loins at rest,1.0,1
+restless feet,swollen hand,1.0,1
+restless feet,tearing shoulder pain,1.0,1
+restless feet,tearing tooth pain,1.0,1
+restless feet,legs go to sleep when lying,1.0,1
+restless feet,rigid arms in mornings,1.0,1
+restless feet,headache worse in winter,1.0,1
+restless feet,bruised shoulder pain,1.0,1
+restless feet,swollen hands when hanging,1.0,1
+restless feet,pain in thumbs,1.0,1
+pain between scapulae,rigid fingers in mornings,0.5,1
+pain between scapulae,swollen feet,0.5,1
+pain between scapulae,swollen ankles,0.5,1
+pain between scapulae,boring in olecranon,0.5,1
+pain between scapulae,weight in right arm,0.5,1
+pain between scapulae,gouty rheumatic affections,0.5,1
+pain between scapulae,rigid arms at night,0.5,1
+pain between scapulae,rigid arms when grasping,0.5,1
+pain between scapulae,worse in wet weather,0.5,1
+pain between scapulae,headache with nausea,0.5,1
+pain between scapulae,stitches in soles,0.5,1
+pain between scapulae,stitches in coccyx,0.5,1
+pain between scapulae,restless legs,0.5,1
+pain between scapulae,pressive drawing in small of back at rest,0.5,1
+pain between scapulae,right arm hangs down no use,0.5,1
+pain between scapulae,pressive drawing passes off walking,0.5,1
+pain between scapulae,obstinate coryza,0.5,1
+pain between scapulae,pain in fingers,0.5,1
+pain between scapulae,useful in sedentary elderly women,0.5,1
+pain between scapulae,boring in knees,0.5,1
+pain between scapulae,cramps in right arm drawing backward,0.5,1
+pain between scapulae,rigid fingers at night,0.5,1
+pain between scapulae,gums bleed easily,0.5,1
+pain between scapulae,languor of lower limbs,0.5,1
+pain between scapulae,worse with wet applications,0.5,1
+pain between scapulae,pain in back of hand,0.5,1
+pain between scapulae,dyspnea,0.5,1
+pain between scapulae,useful in scrofulous children,0.5,1
+pain between scapulae,tearing in zygomas,0.5,1
+pain between scapulae,inimical to lachesis,0.5,1
+pain between scapulae,worse in winter,0.5,1
+pain between scapulae,epistaxis,0.5,1
+pain between scapulae,sprained wrist joint pain,0.5,1
+pain between scapulae,pain in nape worse right side,0.5,1
+pain between scapulae,tearing in limbs,0.5,1
+pain between scapulae,sleeping fingers,0.5,1
+pain between scapulae,pain in wrists,0.5,1
+pain between scapulae,legs go to sleep when standing,0.5,1
+pain between scapulae,headache worse in wet weather,0.5,1
+pain between scapulae,cramps in soles,0.5,1
+pain between scapulae,colic with urging to stool,0.5,1
+pain between scapulae,aversion to walking in open air,0.5,1
+pain between scapulae,pressing in stomach,0.5,1
+pain between scapulae,intense coldness in small of back,0.5,1
+pain between scapulae,drawing leg pain,0.5,1
+pain between scapulae,rigid fingers when grasping,0.5,1
+pain between scapulae,pressive drawing in loins at rest,0.5,1
+pain between scapulae,swollen hand,0.5,1
+pain between scapulae,restless feet,0.5,1
+pain between scapulae,tearing shoulder pain,0.5,1
+pain between scapulae,tearing tooth pain,0.5,1
+pain between scapulae,legs go to sleep when lying,0.5,1
+pain between scapulae,rigid arms in mornings,0.5,1
+pain between scapulae,headache worse in winter,0.5,1
+pain between scapulae,bruised shoulder pain,0.5,1
+pain between scapulae,swollen hands when hanging,0.5,1
+pain between scapulae,pain in thumbs,0.5,1
+stitches in soles,rigid fingers in mornings,1.0,1
+stitches in soles,swollen feet,1.0,1
+stitches in soles,swollen ankles,1.0,1
+stitches in soles,boring in olecranon,1.0,1
+stitches in soles,weight in right arm,1.0,1
+stitches in soles,gouty rheumatic affections,1.0,1
+stitches in soles,rigid arms at night,1.0,1
+stitches in soles,pain between scapulae,1.0,1
+stitches in soles,rigid arms when grasping,1.0,1
+stitches in soles,worse in wet weather,1.0,1
+stitches in soles,headache with nausea,1.0,1
+stitches in soles,stitches in coccyx,1.0,1
+stitches in soles,restless legs,1.0,1
+stitches in soles,pressive drawing in small of back at rest,1.0,1
+stitches in soles,right arm hangs down no use,1.0,1
+stitches in soles,pressive drawing passes off walking,1.0,1
+stitches in soles,obstinate coryza,1.0,1
+stitches in soles,pain in fingers,1.0,1
+stitches in soles,useful in sedentary elderly women,1.0,1
+stitches in soles,boring in knees,1.0,1
+stitches in soles,cramps in right arm drawing backward,1.0,1
+stitches in soles,rigid fingers at night,1.0,1
+stitches in soles,gums bleed easily,1.0,1
+stitches in soles,languor of lower limbs,1.0,1
+stitches in soles,worse with wet applications,1.0,1
+stitches in soles,pain in back of hand,1.0,1
+stitches in soles,dyspnea,1.0,1
+stitches in soles,useful in scrofulous children,1.0,1
+stitches in soles,tearing in zygomas,1.0,1
+stitches in soles,inimical to lachesis,1.0,1
+stitches in soles,worse in winter,1.0,1
+stitches in soles,epistaxis,1.0,1
+stitches in soles,sprained wrist joint pain,1.0,1
+stitches in soles,pain in nape worse right side,1.0,1
+stitches in soles,tearing in limbs,1.0,1
+stitches in soles,sleeping fingers,1.0,1
+stitches in soles,pain in wrists,1.0,1
+stitches in soles,legs go to sleep when standing,1.0,1
+stitches in soles,headache worse in wet weather,1.0,1
+stitches in soles,cramps in soles,1.0,1
+stitches in soles,colic with urging to stool,1.0,1
+stitches in soles,aversion to walking in open air,1.0,1
+stitches in soles,pressing in stomach,1.0,1
+stitches in soles,intense coldness in small of back,1.0,1
+stitches in soles,drawing leg pain,1.0,1
+stitches in soles,rigid fingers when grasping,1.0,1
+stitches in soles,pressive drawing in loins at rest,1.0,1
+stitches in soles,swollen hand,1.0,1
+stitches in soles,restless feet,1.0,1
+stitches in soles,tearing shoulder pain,1.0,1
+stitches in soles,tearing tooth pain,1.0,1
+stitches in soles,legs go to sleep when lying,1.0,1
+stitches in soles,rigid arms in mornings,1.0,1
+stitches in soles,headache worse in winter,1.0,1
+stitches in soles,bruised shoulder pain,1.0,1
+stitches in soles,swollen hands when hanging,1.0,1
+stitches in soles,pain in thumbs,1.0,1
+restless legs,rigid fingers in mornings,1.0,1
+restless legs,swollen feet,1.0,1
+restless legs,swollen ankles,1.0,1
+restless legs,boring in olecranon,1.0,1
+restless legs,weight in right arm,1.0,1
+restless legs,gouty rheumatic affections,1.0,1
+restless legs,rigid arms at night,1.0,1
+restless legs,pain between scapulae,1.0,1
+restless legs,rigid arms when grasping,1.0,1
+restless legs,worse in wet weather,1.0,1
+restless legs,headache with nausea,1.0,1
+restless legs,stitches in soles,1.0,1
+restless legs,stitches in coccyx,1.0,1
+restless legs,pressive drawing in small of back at rest,1.0,1
+restless legs,right arm hangs down no use,1.0,1
+restless legs,pressive drawing passes off walking,1.0,1
+restless legs,obstinate coryza,1.0,1
+restless legs,pain in fingers,1.0,1
+restless legs,useful in sedentary elderly women,1.0,1
+restless legs,boring in knees,1.0,1
+restless legs,cramps in right arm drawing backward,1.0,1
+restless legs,rigid fingers at night,1.0,1
+restless legs,gums bleed easily,1.0,1
+restless legs,languor of lower limbs,1.0,1
+restless legs,worse with wet applications,1.0,1
+restless legs,pain in back of hand,1.0,1
+restless legs,dyspnea,1.0,1
+restless legs,useful in scrofulous children,1.0,1
+restless legs,tearing in zygomas,1.0,1
+restless legs,inimical to lachesis,1.0,1
+restless legs,worse in winter,1.0,1
+restless legs,epistaxis,1.0,1
+restless legs,sprained wrist joint pain,1.0,1
+restless legs,pain in nape worse right side,1.0,1
+restless legs,tearing in limbs,1.0,1
+restless legs,sleeping fingers,1.0,1
+restless legs,pain in wrists,1.0,1
+restless legs,legs go to sleep when standing,1.0,1
+restless legs,headache worse in wet weather,1.0,1
+restless legs,cramps in soles,1.0,1
+restless legs,colic with urging to stool,1.0,1
+restless legs,aversion to walking in open air,1.0,1
+restless legs,pressing in stomach,1.0,1
+restless legs,intense coldness in small of back,1.0,1
+restless legs,drawing leg pain,1.0,1
+restless legs,rigid fingers when grasping,1.0,1
+restless legs,pressive drawing in loins at rest,1.0,1
+restless legs,swollen hand,1.0,1
+restless legs,restless feet,1.0,1
+restless legs,tearing shoulder pain,1.0,1
+restless legs,tearing tooth pain,1.0,1
+restless legs,legs go to sleep when lying,1.0,1
+restless legs,rigid arms in mornings,1.0,1
+restless legs,headache worse in winter,1.0,1
+restless legs,bruised shoulder pain,1.0,1
+restless legs,swollen hands when hanging,1.0,1
+restless legs,pain in thumbs,1.0,1
+pain in nape worse right side,rigid fingers in mornings,1.0,1
+pain in nape worse right side,swollen feet,1.0,1
+pain in nape worse right side,swollen ankles,1.0,1
+pain in nape worse right side,boring in olecranon,1.0,1
+pain in nape worse right side,weight in right arm,1.0,1
+pain in nape worse right side,gouty rheumatic affections,1.0,1
+pain in nape worse right side,rigid arms at night,1.0,1
+pain in nape worse right side,pain between scapulae,1.0,1
+pain in nape worse right side,rigid arms when grasping,1.0,1
+pain in nape worse right side,worse in wet weather,1.0,1
+pain in nape worse right side,headache with nausea,1.0,1
+pain in nape worse right side,stitches in soles,1.0,1
+pain in nape worse right side,stitches in coccyx,1.0,1
+pain in nape worse right side,restless legs,1.0,1
+pain in nape worse right side,pressive drawing in small of back at rest,1.0,1
+pain in nape worse right side,right arm hangs down no use,1.0,1
+pain in nape worse right side,pressive drawing passes off walking,1.0,1
+pain in nape worse right side,obstinate coryza,1.0,1
+pain in nape worse right side,pain in fingers,1.0,1
+pain in nape worse right side,useful in sedentary elderly women,1.0,1
+pain in nape worse right side,boring in knees,1.0,1
+pain in nape worse right side,cramps in right arm drawing backward,1.0,1
+pain in nape worse right side,rigid fingers at night,1.0,1
+pain in nape worse right side,gums bleed easily,1.0,1
+pain in nape worse right side,languor of lower limbs,1.0,1
+pain in nape worse right side,worse with wet applications,1.0,1
+pain in nape worse right side,pain in back of hand,1.0,1
+pain in nape worse right side,dyspnea,1.0,1
+pain in nape worse right side,useful in scrofulous children,1.0,1
+pain in nape worse right side,tearing in zygomas,1.0,1
+pain in nape worse right side,inimical to lachesis,1.0,1
+pain in nape worse right side,worse in winter,1.0,1
+pain in nape worse right side,epistaxis,1.0,1
+pain in nape worse right side,sprained wrist joint pain,1.0,1
+pain in nape worse right side,tearing in limbs,1.0,1
+pain in nape worse right side,sleeping fingers,1.0,1
+pain in nape worse right side,pain in wrists,1.0,1
+pain in nape worse right side,legs go to sleep when standing,1.0,1
+pain in nape worse right side,headache worse in wet weather,1.0,1
+pain in nape worse right side,cramps in soles,1.0,1
+pain in nape worse right side,colic with urging to stool,1.0,1
+pain in nape worse right side,aversion to walking in open air,1.0,1
+pain in nape worse right side,pressing in stomach,1.0,1
+pain in nape worse right side,intense coldness in small of back,1.0,1
+pain in nape worse right side,drawing leg pain,1.0,1
+pain in nape worse right side,rigid fingers when grasping,1.0,1
+pain in nape worse right side,pressive drawing in loins at rest,1.0,1
+pain in nape worse right side,swollen hand,1.0,1
+pain in nape worse right side,restless feet,1.0,1
+pain in nape worse right side,tearing shoulder pain,1.0,1
+pain in nape worse right side,tearing tooth pain,1.0,1
+pain in nape worse right side,legs go to sleep when lying,1.0,1
+pain in nape worse right side,rigid arms in mornings,1.0,1
+pain in nape worse right side,headache worse in winter,1.0,1
+pain in nape worse right side,bruised shoulder pain,1.0,1
+pain in nape worse right side,swollen hands when hanging,1.0,1
+pain in nape worse right side,pain in thumbs,1.0,1
+gums bleed easily,rigid fingers in mornings,1.0,1
+gums bleed easily,swollen feet,1.0,1
+gums bleed easily,swollen ankles,1.0,1
+gums bleed easily,boring in olecranon,1.0,1
+gums bleed easily,weight in right arm,1.0,1
+gums bleed easily,gouty rheumatic affections,1.0,1
+gums bleed easily,rigid arms at night,1.0,1
+gums bleed easily,pain between scapulae,1.0,1
+gums bleed easily,rigid arms when grasping,1.0,1
+gums bleed easily,worse in wet weather,1.0,1
+gums bleed easily,headache with nausea,1.0,1
+gums bleed easily,stitches in soles,1.0,1
+gums bleed easily,stitches in coccyx,1.0,1
+gums bleed easily,restless legs,1.0,1
+gums bleed easily,pressive drawing in small of back at rest,1.0,1
+gums bleed easily,right arm hangs down no use,1.0,1
+gums bleed easily,pressive drawing passes off walking,1.0,1
+gums bleed easily,obstinate coryza,1.0,1
+gums bleed easily,pain in fingers,1.0,1
+gums bleed easily,useful in sedentary elderly women,1.0,1
+gums bleed easily,boring in knees,1.0,1
+gums bleed easily,cramps in right arm drawing backward,1.0,1
+gums bleed easily,rigid fingers at night,1.0,1
+gums bleed easily,languor of lower limbs,1.0,1
+gums bleed easily,worse with wet applications,1.0,1
+gums bleed easily,pain in back of hand,1.0,1
+gums bleed easily,dyspnea,1.0,1
+gums bleed easily,useful in scrofulous children,1.0,1
+gums bleed easily,tearing in zygomas,1.0,1
+gums bleed easily,inimical to lachesis,1.0,1
+gums bleed easily,worse in winter,1.0,1
+gums bleed easily,epistaxis,1.0,1
+gums bleed easily,sprained wrist joint pain,1.0,1
+gums bleed easily,pain in nape worse right side,1.0,1
+gums bleed easily,tearing in limbs,1.0,1
+gums bleed easily,sleeping fingers,1.0,1
+gums bleed easily,pain in wrists,1.0,1
+gums bleed easily,legs go to sleep when standing,1.0,1
+gums bleed easily,headache worse in wet weather,1.0,1
+gums bleed easily,cramps in soles,1.0,1
+gums bleed easily,colic with urging to stool,1.0,1
+gums bleed easily,aversion to walking in open air,1.0,1
+gums bleed easily,pressing in stomach,1.0,1
+gums bleed easily,intense coldness in small of back,1.0,1
+gums bleed easily,drawing leg pain,1.0,1
+gums bleed easily,rigid fingers when grasping,1.0,1
+gums bleed easily,pressive drawing in loins at rest,1.0,1
+gums bleed easily,swollen hand,1.0,1
+gums bleed easily,restless feet,1.0,1
+gums bleed easily,tearing shoulder pain,1.0,1
+gums bleed easily,tearing tooth pain,1.0,1
+gums bleed easily,legs go to sleep when lying,1.0,1
+gums bleed easily,rigid arms in mornings,1.0,1
+gums bleed easily,headache worse in winter,1.0,1
+gums bleed easily,bruised shoulder pain,1.0,1
+gums bleed easily,swollen hands when hanging,1.0,1
+gums bleed easily,pain in thumbs,1.0,1
+aversion to walking in open air,rigid fingers in mornings,1.0,1
+aversion to walking in open air,swollen feet,1.0,1
+aversion to walking in open air,swollen ankles,1.0,1
+aversion to walking in open air,boring in olecranon,1.0,1
+aversion to walking in open air,weight in right arm,1.0,1
+aversion to walking in open air,gouty rheumatic affections,1.0,1
+aversion to walking in open air,rigid arms at night,1.0,1
+aversion to walking in open air,pain between scapulae,1.0,1
+aversion to walking in open air,rigid arms when grasping,1.0,1
+aversion to walking in open air,worse in wet weather,1.0,1
+aversion to walking in open air,headache with nausea,1.0,1
+aversion to walking in open air,stitches in soles,1.0,1
+aversion to walking in open air,stitches in coccyx,1.0,1
+aversion to walking in open air,restless legs,1.0,1
+aversion to walking in open air,pressive drawing in small of back at rest,1.0,1
+aversion to walking in open air,right arm hangs down no use,1.0,1
+aversion to walking in open air,pressive drawing passes off walking,1.0,1
+aversion to walking in open air,obstinate coryza,1.0,1
+aversion to walking in open air,pain in fingers,1.0,1
+aversion to walking in open air,useful in sedentary elderly women,1.0,1
+aversion to walking in open air,boring in knees,1.0,1
+aversion to walking in open air,cramps in right arm drawing backward,1.0,1
+aversion to walking in open air,rigid fingers at night,1.0,1
+aversion to walking in open air,gums bleed easily,1.0,1
+aversion to walking in open air,languor of lower limbs,1.0,1
+aversion to walking in open air,worse with wet applications,1.0,1
+aversion to walking in open air,pain in back of hand,1.0,1
+aversion to walking in open air,dyspnea,1.0,1
+aversion to walking in open air,useful in scrofulous children,1.0,1
+aversion to walking in open air,tearing in zygomas,1.0,1
+aversion to walking in open air,inimical to lachesis,1.0,1
+aversion to walking in open air,worse in winter,1.0,1
+aversion to walking in open air,epistaxis,1.0,1
+aversion to walking in open air,sprained wrist joint pain,1.0,1
+aversion to walking in open air,pain in nape worse right side,1.0,1
+aversion to walking in open air,tearing in limbs,1.0,1
+aversion to walking in open air,sleeping fingers,1.0,1
+aversion to walking in open air,pain in wrists,1.0,1
+aversion to walking in open air,legs go to sleep when standing,1.0,1
+aversion to walking in open air,headache worse in wet weather,1.0,1
+aversion to walking in open air,cramps in soles,1.0,1
+aversion to walking in open air,colic with urging to stool,1.0,1
+aversion to walking in open air,pressing in stomach,1.0,1
+aversion to walking in open air,intense coldness in small of back,1.0,1
+aversion to walking in open air,drawing leg pain,1.0,1
+aversion to walking in open air,rigid fingers when grasping,1.0,1
+aversion to walking in open air,pressive drawing in loins at rest,1.0,1
+aversion to walking in open air,swollen hand,1.0,1
+aversion to walking in open air,restless feet,1.0,1
+aversion to walking in open air,tearing shoulder pain,1.0,1
+aversion to walking in open air,tearing tooth pain,1.0,1
+aversion to walking in open air,legs go to sleep when lying,1.0,1
+aversion to walking in open air,rigid arms in mornings,1.0,1
+aversion to walking in open air,headache worse in winter,1.0,1
+aversion to walking in open air,bruised shoulder pain,1.0,1
+aversion to walking in open air,swollen hands when hanging,1.0,1
+aversion to walking in open air,pain in thumbs,1.0,1
+pain in wrists,rigid fingers in mornings,1.0,1
+pain in wrists,swollen feet,1.0,1
+pain in wrists,swollen ankles,1.0,1
+pain in wrists,boring in olecranon,1.0,1
+pain in wrists,weight in right arm,1.0,1
+pain in wrists,gouty rheumatic affections,1.0,1
+pain in wrists,rigid arms at night,1.0,1
+pain in wrists,pain between scapulae,1.0,1
+pain in wrists,rigid arms when grasping,1.0,1
+pain in wrists,worse in wet weather,1.0,1
+pain in wrists,headache with nausea,1.0,1
+pain in wrists,stitches in soles,1.0,1
+pain in wrists,stitches in coccyx,1.0,1
+pain in wrists,restless legs,1.0,1
+pain in wrists,pressive drawing in small of back at rest,1.0,1
+pain in wrists,right arm hangs down no use,1.0,1
+pain in wrists,pressive drawing passes off walking,1.0,1
+pain in wrists,obstinate coryza,1.0,1
+pain in wrists,pain in fingers,1.0,1
+pain in wrists,useful in sedentary elderly women,1.0,1
+pain in wrists,boring in knees,1.0,1
+pain in wrists,cramps in right arm drawing backward,1.0,1
+pain in wrists,rigid fingers at night,1.0,1
+pain in wrists,gums bleed easily,1.0,1
+pain in wrists,languor of lower limbs,1.0,1
+pain in wrists,worse with wet applications,1.0,1
+pain in wrists,pain in back of hand,1.0,1
+pain in wrists,dyspnea,1.0,1
+pain in wrists,useful in scrofulous children,1.0,1
+pain in wrists,tearing in zygomas,1.0,1
+pain in wrists,inimical to lachesis,1.0,1
+pain in wrists,worse in winter,1.0,1
+pain in wrists,epistaxis,1.0,1
+pain in wrists,sprained wrist joint pain,1.0,1
+pain in wrists,pain in nape worse right side,1.0,1
+pain in wrists,tearing in limbs,1.0,1
+pain in wrists,sleeping fingers,1.0,1
+pain in wrists,legs go to sleep when standing,1.0,1
+pain in wrists,headache worse in wet weather,1.0,1
+pain in wrists,cramps in soles,1.0,1
+pain in wrists,colic with urging to stool,1.0,1
+pain in wrists,aversion to walking in open air,1.0,1
+pain in wrists,pressing in stomach,1.0,1
+pain in wrists,intense coldness in small of back,1.0,1
+pain in wrists,drawing leg pain,1.0,1
+pain in wrists,rigid fingers when grasping,1.0,1
+pain in wrists,pressive drawing in loins at rest,1.0,1
+pain in wrists,swollen hand,1.0,1
+pain in wrists,restless feet,1.0,1
+pain in wrists,tearing shoulder pain,1.0,1
+pain in wrists,tearing tooth pain,1.0,1
+pain in wrists,legs go to sleep when lying,1.0,1
+pain in wrists,rigid arms in mornings,1.0,1
+pain in wrists,headache worse in winter,1.0,1
+pain in wrists,bruised shoulder pain,1.0,1
+pain in wrists,swollen hands when hanging,1.0,1
+pain in wrists,pain in thumbs,1.0,1
+pain in back of hand,rigid fingers in mornings,1.0,1
+pain in back of hand,swollen feet,1.0,1
+pain in back of hand,swollen ankles,1.0,1
+pain in back of hand,boring in olecranon,1.0,1
+pain in back of hand,weight in right arm,1.0,1
+pain in back of hand,gouty rheumatic affections,1.0,1
+pain in back of hand,rigid arms at night,1.0,1
+pain in back of hand,pain between scapulae,1.0,1
+pain in back of hand,rigid arms when grasping,1.0,1
+pain in back of hand,worse in wet weather,1.0,1
+pain in back of hand,headache with nausea,1.0,1
+pain in back of hand,stitches in soles,1.0,1
+pain in back of hand,stitches in coccyx,1.0,1
+pain in back of hand,restless legs,1.0,1
+pain in back of hand,pressive drawing in small of back at rest,1.0,1
+pain in back of hand,right arm hangs down no use,1.0,1
+pain in back of hand,pressive drawing passes off walking,1.0,1
+pain in back of hand,obstinate coryza,1.0,1
+pain in back of hand,pain in fingers,1.0,1
+pain in back of hand,useful in sedentary elderly women,1.0,1
+pain in back of hand,boring in knees,1.0,1
+pain in back of hand,cramps in right arm drawing backward,1.0,1
+pain in back of hand,rigid fingers at night,1.0,1
+pain in back of hand,gums bleed easily,1.0,1
+pain in back of hand,languor of lower limbs,1.0,1
+pain in back of hand,worse with wet applications,1.0,1
+pain in back of hand,dyspnea,1.0,1
+pain in back of hand,useful in scrofulous children,1.0,1
+pain in back of hand,tearing in zygomas,1.0,1
+pain in back of hand,inimical to lachesis,1.0,1
+pain in back of hand,worse in winter,1.0,1
+pain in back of hand,epistaxis,1.0,1
+pain in back of hand,sprained wrist joint pain,1.0,1
+pain in back of hand,pain in nape worse right side,1.0,1
+pain in back of hand,tearing in limbs,1.0,1
+pain in back of hand,sleeping fingers,1.0,1
+pain in back of hand,pain in wrists,1.0,1
+pain in back of hand,legs go to sleep when standing,1.0,1
+pain in back of hand,headache worse in wet weather,1.0,1
+pain in back of hand,cramps in soles,1.0,1
+pain in back of hand,colic with urging to stool,1.0,1
+pain in back of hand,aversion to walking in open air,1.0,1
+pain in back of hand,pressing in stomach,1.0,1
+pain in back of hand,intense coldness in small of back,1.0,1
+pain in back of hand,drawing leg pain,1.0,1
+pain in back of hand,rigid fingers when grasping,1.0,1
+pain in back of hand,pressive drawing in loins at rest,1.0,1
+pain in back of hand,swollen hand,1.0,1
+pain in back of hand,restless feet,1.0,1
+pain in back of hand,tearing shoulder pain,1.0,1
+pain in back of hand,tearing tooth pain,1.0,1
+pain in back of hand,legs go to sleep when lying,1.0,1
+pain in back of hand,rigid arms in mornings,1.0,1
+pain in back of hand,headache worse in winter,1.0,1
+pain in back of hand,bruised shoulder pain,1.0,1
+pain in back of hand,swollen hands when hanging,1.0,1
+pain in back of hand,pain in thumbs,1.0,1
+worse with wet applications,rigid fingers in mornings,1.0,1
+worse with wet applications,swollen feet,1.0,1
+worse with wet applications,swollen ankles,1.0,1
+worse with wet applications,boring in olecranon,1.0,1
+worse with wet applications,weight in right arm,1.0,1
+worse with wet applications,gouty rheumatic affections,1.0,1
+worse with wet applications,rigid arms at night,1.0,1
+worse with wet applications,pain between scapulae,1.0,1
+worse with wet applications,rigid arms when grasping,1.0,1
+worse with wet applications,worse in wet weather,1.0,1
+worse with wet applications,headache with nausea,1.0,1
+worse with wet applications,stitches in soles,1.0,1
+worse with wet applications,stitches in coccyx,1.0,1
+worse with wet applications,restless legs,1.0,1
+worse with wet applications,pressive drawing in small of back at rest,1.0,1
+worse with wet applications,right arm hangs down no use,1.0,1
+worse with wet applications,pressive drawing passes off walking,1.0,1
+worse with wet applications,obstinate coryza,1.0,1
+worse with wet applications,pain in fingers,1.0,1
+worse with wet applications,useful in sedentary elderly women,1.0,1
+worse with wet applications,boring in knees,1.0,1
+worse with wet applications,cramps in right arm drawing backward,1.0,1
+worse with wet applications,rigid fingers at night,1.0,1
+worse with wet applications,gums bleed easily,1.0,1
+worse with wet applications,languor of lower limbs,1.0,1
+worse with wet applications,pain in back of hand,1.0,1
+worse with wet applications,dyspnea,1.0,1
+worse with wet applications,useful in scrofulous children,1.0,1
+worse with wet applications,tearing in zygomas,1.0,1
+worse with wet applications,inimical to lachesis,1.0,1
+worse with wet applications,worse in winter,1.0,1
+worse with wet applications,epistaxis,1.0,1
+worse with wet applications,sprained wrist joint pain,1.0,1
+worse with wet applications,pain in nape worse right side,1.0,1
+worse with wet applications,tearing in limbs,1.0,1
+worse with wet applications,sleeping fingers,1.0,1
+worse with wet applications,pain in wrists,1.0,1
+worse with wet applications,legs go to sleep when standing,1.0,1
+worse with wet applications,headache worse in wet weather,1.0,1
+worse with wet applications,cramps in soles,1.0,1
+worse with wet applications,colic with urging to stool,1.0,1
+worse with wet applications,aversion to walking in open air,1.0,1
+worse with wet applications,pressing in stomach,1.0,1
+worse with wet applications,intense coldness in small of back,1.0,1
+worse with wet applications,drawing leg pain,1.0,1
+worse with wet applications,rigid fingers when grasping,1.0,1
+worse with wet applications,pressive drawing in loins at rest,1.0,1
+worse with wet applications,swollen hand,1.0,1
+worse with wet applications,restless feet,1.0,1
+worse with wet applications,tearing shoulder pain,1.0,1
+worse with wet applications,tearing tooth pain,1.0,1
+worse with wet applications,legs go to sleep when lying,1.0,1
+worse with wet applications,rigid arms in mornings,1.0,1
+worse with wet applications,headache worse in winter,1.0,1
+worse with wet applications,bruised shoulder pain,1.0,1
+worse with wet applications,swollen hands when hanging,1.0,1
+worse with wet applications,pain in thumbs,1.0,1
+rigid fingers when grasping,rigid fingers in mornings,1.0,1
+rigid fingers when grasping,swollen feet,1.0,1
+rigid fingers when grasping,swollen ankles,1.0,1
+rigid fingers when grasping,boring in olecranon,1.0,1
+rigid fingers when grasping,weight in right arm,1.0,1
+rigid fingers when grasping,gouty rheumatic affections,1.0,1
+rigid fingers when grasping,rigid arms at night,1.0,1
+rigid fingers when grasping,pain between scapulae,1.0,1
+rigid fingers when grasping,rigid arms when grasping,1.0,1
+rigid fingers when grasping,worse in wet weather,1.0,1
+rigid fingers when grasping,headache with nausea,1.0,1
+rigid fingers when grasping,stitches in soles,1.0,1
+rigid fingers when grasping,stitches in coccyx,1.0,1
+rigid fingers when grasping,restless legs,1.0,1
+rigid fingers when grasping,pressive drawing in small of back at rest,1.0,1
+rigid fingers when grasping,right arm hangs down no use,1.0,1
+rigid fingers when grasping,pressive drawing passes off walking,1.0,1
+rigid fingers when grasping,obstinate coryza,1.0,1
+rigid fingers when grasping,pain in fingers,1.0,1
+rigid fingers when grasping,useful in sedentary elderly women,1.0,1
+rigid fingers when grasping,boring in knees,1.0,1
+rigid fingers when grasping,cramps in right arm drawing backward,1.0,1
+rigid fingers when grasping,rigid fingers at night,1.0,1
+rigid fingers when grasping,gums bleed easily,1.0,1
+rigid fingers when grasping,languor of lower limbs,1.0,1
+rigid fingers when grasping,worse with wet applications,1.0,1
+rigid fingers when grasping,pain in back of hand,1.0,1
+rigid fingers when grasping,dyspnea,1.0,1
+rigid fingers when grasping,useful in scrofulous children,1.0,1
+rigid fingers when grasping,tearing in zygomas,1.0,1
+rigid fingers when grasping,inimical to lachesis,1.0,1
+rigid fingers when grasping,worse in winter,1.0,1
+rigid fingers when grasping,epistaxis,1.0,1
+rigid fingers when grasping,sprained wrist joint pain,1.0,1
+rigid fingers when grasping,pain in nape worse right side,1.0,1
+rigid fingers when grasping,tearing in limbs,1.0,1
+rigid fingers when grasping,sleeping fingers,1.0,1
+rigid fingers when grasping,pain in wrists,1.0,1
+rigid fingers when grasping,legs go to sleep when standing,1.0,1
+rigid fingers when grasping,headache worse in wet weather,1.0,1
+rigid fingers when grasping,cramps in soles,1.0,1
+rigid fingers when grasping,colic with urging to stool,1.0,1
+rigid fingers when grasping,aversion to walking in open air,1.0,1
+rigid fingers when grasping,pressing in stomach,1.0,1
+rigid fingers when grasping,intense coldness in small of back,1.0,1
+rigid fingers when grasping,drawing leg pain,1.0,1
+rigid fingers when grasping,pressive drawing in loins at rest,1.0,1
+rigid fingers when grasping,swollen hand,1.0,1
+rigid fingers when grasping,restless feet,1.0,1
+rigid fingers when grasping,tearing shoulder pain,1.0,1
+rigid fingers when grasping,tearing tooth pain,1.0,1
+rigid fingers when grasping,legs go to sleep when lying,1.0,1
+rigid fingers when grasping,rigid arms in mornings,1.0,1
+rigid fingers when grasping,headache worse in winter,1.0,1
+rigid fingers when grasping,bruised shoulder pain,1.0,1
+rigid fingers when grasping,swollen hands when hanging,1.0,1
+rigid fingers when grasping,pain in thumbs,1.0,1

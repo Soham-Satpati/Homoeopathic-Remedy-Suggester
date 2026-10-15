@@ -1,0 +1,850 @@
+### Cluster 76 — Symptoms (29)
+Symptom,Frequency
+in boys during puberty,1
+tension in elbow as if too short,1
+stitching pain extending up from external malleolus,1
+arthritis vaga causing one to groan and moan constantly,1
+burning spots about joints,1
+tearing in whole spinal column from above downward,1
+jerking sticking pain above knee,1
+cannot bear weight on heel,1
+inflammation of articulating extremities of bones,1
+twitching of muscles of legs from least motion,1
+tensive drawing stitches in thigh,1
+wandering shifting pains going from joint to joint,1
+voice changing in boys,1
+tensive pain in joints of arms and wrists,1
+gnawing and boring in humerus as if in marrow of bone,1
+stitching pain worse when walking,1
+boring gnawing sensation in marrow of bone,1
+inflammatory swelling of both malleoli with stitching pain,1
+especially if associated with too early but scanty menstruation,1
+red and shining swelling,1
+rheumatic pains extending from shoulder to fingers,1
+rheumatism shifting from joint to joint generally crosswise,1
+worse touch or motion or at night,3
+general anemia,1
+tension and stiffness in legs,1
+drawing and tension in limbs as from shortening of tendons,1
+suitable for chronic rheumatism with anemia,1
+sprained pain in shoulder joint,1
+pain in small of back on bending backward,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+manganum,29
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+boring gnawing sensation in marrow of bone,in boys during puberty,1.0,1
+boring gnawing sensation in marrow of bone,tension in elbow as if too short,1.0,1
+boring gnawing sensation in marrow of bone,stitching pain extending up from external malleolus,1.0,1
+boring gnawing sensation in marrow of bone,arthritis vaga causing one to groan and moan constantly,1.0,1
+boring gnawing sensation in marrow of bone,burning spots about joints,1.0,1
+boring gnawing sensation in marrow of bone,tearing in whole spinal column from above downward,1.0,1
+boring gnawing sensation in marrow of bone,jerking sticking pain above knee,1.0,1
+boring gnawing sensation in marrow of bone,cannot bear weight on heel,1.0,1
+boring gnawing sensation in marrow of bone,inflammation of articulating extremities of bones,1.0,1
+boring gnawing sensation in marrow of bone,twitching of muscles of legs from least motion,1.0,1
+boring gnawing sensation in marrow of bone,tensive drawing stitches in thigh,1.0,1
+boring gnawing sensation in marrow of bone,wandering shifting pains going from joint to joint,1.0,1
+boring gnawing sensation in marrow of bone,voice changing in boys,1.0,1
+boring gnawing sensation in marrow of bone,tensive pain in joints of arms and wrists,1.0,1
+boring gnawing sensation in marrow of bone,gnawing and boring in humerus as if in marrow of bone,1.0,1
+boring gnawing sensation in marrow of bone,stitching pain worse when walking,1.0,1
+boring gnawing sensation in marrow of bone,inflammatory swelling of both malleoli with stitching pain,1.0,1
+boring gnawing sensation in marrow of bone,especially if associated with too early but scanty menstruation,1.0,1
+boring gnawing sensation in marrow of bone,red and shining swelling,1.0,1
+boring gnawing sensation in marrow of bone,rheumatic pains extending from shoulder to fingers,1.0,1
+boring gnawing sensation in marrow of bone,rheumatism shifting from joint to joint generally crosswise,1.0,1
+boring gnawing sensation in marrow of bone,worse touch or motion or at night,1.0,1
+boring gnawing sensation in marrow of bone,general anemia,1.0,1
+boring gnawing sensation in marrow of bone,tension and stiffness in legs,1.0,1
+boring gnawing sensation in marrow of bone,drawing and tension in limbs as from shortening of tendons,1.0,1
+boring gnawing sensation in marrow of bone,suitable for chronic rheumatism with anemia,1.0,1
+boring gnawing sensation in marrow of bone,sprained pain in shoulder joint,1.0,1
+boring gnawing sensation in marrow of bone,pain in small of back on bending backward,1.0,1
+tension and stiffness in legs,in boys during puberty,1.0,1
+tension and stiffness in legs,tension in elbow as if too short,1.0,1
+tension and stiffness in legs,stitching pain extending up from external malleolus,1.0,1
+tension and stiffness in legs,arthritis vaga causing one to groan and moan constantly,1.0,1
+tension and stiffness in legs,burning spots about joints,1.0,1
+tension and stiffness in legs,tearing in whole spinal column from above downward,1.0,1
+tension and stiffness in legs,jerking sticking pain above knee,1.0,1
+tension and stiffness in legs,cannot bear weight on heel,1.0,1
+tension and stiffness in legs,inflammation of articulating extremities of bones,1.0,1
+tension and stiffness in legs,twitching of muscles of legs from least motion,1.0,1
+tension and stiffness in legs,tensive drawing stitches in thigh,1.0,1
+tension and stiffness in legs,wandering shifting pains going from joint to joint,1.0,1
+tension and stiffness in legs,voice changing in boys,1.0,1
+tension and stiffness in legs,tensive pain in joints of arms and wrists,1.0,1
+tension and stiffness in legs,gnawing and boring in humerus as if in marrow of bone,1.0,1
+tension and stiffness in legs,stitching pain worse when walking,1.0,1
+tension and stiffness in legs,boring gnawing sensation in marrow of bone,1.0,1
+tension and stiffness in legs,inflammatory swelling of both malleoli with stitching pain,1.0,1
+tension and stiffness in legs,especially if associated with too early but scanty menstruation,1.0,1
+tension and stiffness in legs,red and shining swelling,1.0,1
+tension and stiffness in legs,rheumatic pains extending from shoulder to fingers,1.0,1
+tension and stiffness in legs,rheumatism shifting from joint to joint generally crosswise,1.0,1
+tension and stiffness in legs,worse touch or motion or at night,1.0,1
+tension and stiffness in legs,general anemia,1.0,1
+tension and stiffness in legs,drawing and tension in limbs as from shortening of tendons,1.0,1
+tension and stiffness in legs,suitable for chronic rheumatism with anemia,1.0,1
+tension and stiffness in legs,sprained pain in shoulder joint,1.0,1
+tension and stiffness in legs,pain in small of back on bending backward,1.0,1
+voice changing in boys,in boys during puberty,1.0,1
+voice changing in boys,tension in elbow as if too short,1.0,1
+voice changing in boys,stitching pain extending up from external malleolus,1.0,1
+voice changing in boys,arthritis vaga causing one to groan and moan constantly,1.0,1
+voice changing in boys,burning spots about joints,1.0,1
+voice changing in boys,tearing in whole spinal column from above downward,1.0,1
+voice changing in boys,jerking sticking pain above knee,1.0,1
+voice changing in boys,cannot bear weight on heel,1.0,1
+voice changing in boys,inflammation of articulating extremities of bones,1.0,1
+voice changing in boys,twitching of muscles of legs from least motion,1.0,1
+voice changing in boys,tensive drawing stitches in thigh,1.0,1
+voice changing in boys,wandering shifting pains going from joint to joint,1.0,1
+voice changing in boys,tensive pain in joints of arms and wrists,1.0,1
+voice changing in boys,gnawing and boring in humerus as if in marrow of bone,1.0,1
+voice changing in boys,stitching pain worse when walking,1.0,1
+voice changing in boys,boring gnawing sensation in marrow of bone,1.0,1
+voice changing in boys,inflammatory swelling of both malleoli with stitching pain,1.0,1
+voice changing in boys,especially if associated with too early but scanty menstruation,1.0,1
+voice changing in boys,red and shining swelling,1.0,1
+voice changing in boys,rheumatic pains extending from shoulder to fingers,1.0,1
+voice changing in boys,rheumatism shifting from joint to joint generally crosswise,1.0,1
+voice changing in boys,worse touch or motion or at night,1.0,1
+voice changing in boys,general anemia,1.0,1
+voice changing in boys,tension and stiffness in legs,1.0,1
+voice changing in boys,drawing and tension in limbs as from shortening of tendons,1.0,1
+voice changing in boys,suitable for chronic rheumatism with anemia,1.0,1
+voice changing in boys,sprained pain in shoulder joint,1.0,1
+voice changing in boys,pain in small of back on bending backward,1.0,1
+rheumatism shifting from joint to joint generally crosswise,in boys during puberty,1.0,1
+rheumatism shifting from joint to joint generally crosswise,tension in elbow as if too short,1.0,1
+rheumatism shifting from joint to joint generally crosswise,stitching pain extending up from external malleolus,1.0,1
+rheumatism shifting from joint to joint generally crosswise,arthritis vaga causing one to groan and moan constantly,1.0,1
+rheumatism shifting from joint to joint generally crosswise,burning spots about joints,1.0,1
+rheumatism shifting from joint to joint generally crosswise,tearing in whole spinal column from above downward,1.0,1
+rheumatism shifting from joint to joint generally crosswise,jerking sticking pain above knee,1.0,1
+rheumatism shifting from joint to joint generally crosswise,cannot bear weight on heel,1.0,1
+rheumatism shifting from joint to joint generally crosswise,inflammation of articulating extremities of bones,1.0,1
+rheumatism shifting from joint to joint generally crosswise,twitching of muscles of legs from least motion,1.0,1
+rheumatism shifting from joint to joint generally crosswise,tensive drawing stitches in thigh,1.0,1
+rheumatism shifting from joint to joint generally crosswise,wandering shifting pains going from joint to joint,1.0,1
+rheumatism shifting from joint to joint generally crosswise,voice changing in boys,1.0,1
+rheumatism shifting from joint to joint generally crosswise,tensive pain in joints of arms and wrists,1.0,1
+rheumatism shifting from joint to joint generally crosswise,gnawing and boring in humerus as if in marrow of bone,1.0,1
+rheumatism shifting from joint to joint generally crosswise,stitching pain worse when walking,1.0,1
+rheumatism shifting from joint to joint generally crosswise,boring gnawing sensation in marrow of bone,1.0,1
+rheumatism shifting from joint to joint generally crosswise,inflammatory swelling of both malleoli with stitching pain,1.0,1
+rheumatism shifting from joint to joint generally crosswise,especially if associated with too early but scanty menstruation,1.0,1
+rheumatism shifting from joint to joint generally crosswise,red and shining swelling,1.0,1
+rheumatism shifting from joint to joint generally crosswise,rheumatic pains extending from shoulder to fingers,1.0,1
+rheumatism shifting from joint to joint generally crosswise,worse touch or motion or at night,1.0,1
+rheumatism shifting from joint to joint generally crosswise,general anemia,1.0,1
+rheumatism shifting from joint to joint generally crosswise,tension and stiffness in legs,1.0,1
+rheumatism shifting from joint to joint generally crosswise,drawing and tension in limbs as from shortening of tendons,1.0,1
+rheumatism shifting from joint to joint generally crosswise,suitable for chronic rheumatism with anemia,1.0,1
+rheumatism shifting from joint to joint generally crosswise,sprained pain in shoulder joint,1.0,1
+rheumatism shifting from joint to joint generally crosswise,pain in small of back on bending backward,1.0,1
+stitching pain extending up from external malleolus,in boys during puberty,1.0,1
+stitching pain extending up from external malleolus,tension in elbow as if too short,1.0,1
+stitching pain extending up from external malleolus,arthritis vaga causing one to groan and moan constantly,1.0,1
+stitching pain extending up from external malleolus,burning spots about joints,1.0,1
+stitching pain extending up from external malleolus,tearing in whole spinal column from above downward,1.0,1
+stitching pain extending up from external malleolus,jerking sticking pain above knee,1.0,1
+stitching pain extending up from external malleolus,cannot bear weight on heel,1.0,1
+stitching pain extending up from external malleolus,inflammation of articulating extremities of bones,1.0,1
+stitching pain extending up from external malleolus,twitching of muscles of legs from least motion,1.0,1
+stitching pain extending up from external malleolus,tensive drawing stitches in thigh,1.0,1
+stitching pain extending up from external malleolus,wandering shifting pains going from joint to joint,1.0,1
+stitching pain extending up from external malleolus,voice changing in boys,1.0,1
+stitching pain extending up from external malleolus,tensive pain in joints of arms and wrists,1.0,1
+stitching pain extending up from external malleolus,gnawing and boring in humerus as if in marrow of bone,1.0,1
+stitching pain extending up from external malleolus,stitching pain worse when walking,1.0,1
+stitching pain extending up from external malleolus,boring gnawing sensation in marrow of bone,1.0,1
+stitching pain extending up from external malleolus,inflammatory swelling of both malleoli with stitching pain,1.0,1
+stitching pain extending up from external malleolus,especially if associated with too early but scanty menstruation,1.0,1
+stitching pain extending up from external malleolus,red and shining swelling,1.0,1
+stitching pain extending up from external malleolus,rheumatic pains extending from shoulder to fingers,1.0,1
+stitching pain extending up from external malleolus,rheumatism shifting from joint to joint generally crosswise,1.0,1
+stitching pain extending up from external malleolus,worse touch or motion or at night,1.0,1
+stitching pain extending up from external malleolus,general anemia,1.0,1
+stitching pain extending up from external malleolus,tension and stiffness in legs,1.0,1
+stitching pain extending up from external malleolus,drawing and tension in limbs as from shortening of tendons,1.0,1
+stitching pain extending up from external malleolus,suitable for chronic rheumatism with anemia,1.0,1
+stitching pain extending up from external malleolus,sprained pain in shoulder joint,1.0,1
+stitching pain extending up from external malleolus,pain in small of back on bending backward,1.0,1
+tensive drawing stitches in thigh,in boys during puberty,1.0,1
+tensive drawing stitches in thigh,tension in elbow as if too short,1.0,1
+tensive drawing stitches in thigh,stitching pain extending up from external malleolus,1.0,1
+tensive drawing stitches in thigh,arthritis vaga causing one to groan and moan constantly,1.0,1
+tensive drawing stitches in thigh,burning spots about joints,1.0,1
+tensive drawing stitches in thigh,tearing in whole spinal column from above downward,1.0,1
+tensive drawing stitches in thigh,jerking sticking pain above knee,1.0,1
+tensive drawing stitches in thigh,cannot bear weight on heel,1.0,1
+tensive drawing stitches in thigh,inflammation of articulating extremities of bones,1.0,1
+tensive drawing stitches in thigh,twitching of muscles of legs from least motion,1.0,1
+tensive drawing stitches in thigh,wandering shifting pains going from joint to joint,1.0,1
+tensive drawing stitches in thigh,voice changing in boys,1.0,1
+tensive drawing stitches in thigh,tensive pain in joints of arms and wrists,1.0,1
+tensive drawing stitches in thigh,gnawing and boring in humerus as if in marrow of bone,1.0,1
+tensive drawing stitches in thigh,stitching pain worse when walking,1.0,1
+tensive drawing stitches in thigh,boring gnawing sensation in marrow of bone,1.0,1
+tensive drawing stitches in thigh,inflammatory swelling of both malleoli with stitching pain,1.0,1
+tensive drawing stitches in thigh,especially if associated with too early but scanty menstruation,1.0,1
+tensive drawing stitches in thigh,red and shining swelling,1.0,1
+tensive drawing stitches in thigh,rheumatic pains extending from shoulder to fingers,1.0,1
+tensive drawing stitches in thigh,rheumatism shifting from joint to joint generally crosswise,1.0,1
+tensive drawing stitches in thigh,worse touch or motion or at night,1.0,1
+tensive drawing stitches in thigh,general anemia,1.0,1
+tensive drawing stitches in thigh,tension and stiffness in legs,1.0,1
+tensive drawing stitches in thigh,drawing and tension in limbs as from shortening of tendons,1.0,1
+tensive drawing stitches in thigh,suitable for chronic rheumatism with anemia,1.0,1
+tensive drawing stitches in thigh,sprained pain in shoulder joint,1.0,1
+tensive drawing stitches in thigh,pain in small of back on bending backward,1.0,1
+tension in elbow as if too short,in boys during puberty,1.0,1
+tension in elbow as if too short,stitching pain extending up from external malleolus,1.0,1
+tension in elbow as if too short,arthritis vaga causing one to groan and moan constantly,1.0,1
+tension in elbow as if too short,burning spots about joints,1.0,1
+tension in elbow as if too short,tearing in whole spinal column from above downward,1.0,1
+tension in elbow as if too short,jerking sticking pain above knee,1.0,1
+tension in elbow as if too short,cannot bear weight on heel,1.0,1
+tension in elbow as if too short,inflammation of articulating extremities of bones,1.0,1
+tension in elbow as if too short,twitching of muscles of legs from least motion,1.0,1
+tension in elbow as if too short,tensive drawing stitches in thigh,1.0,1
+tension in elbow as if too short,wandering shifting pains going from joint to joint,1.0,1
+tension in elbow as if too short,voice changing in boys,1.0,1
+tension in elbow as if too short,tensive pain in joints of arms and wrists,1.0,1
+tension in elbow as if too short,gnawing and boring in humerus as if in marrow of bone,1.0,1
+tension in elbow as if too short,stitching pain worse when walking,1.0,1
+tension in elbow as if too short,boring gnawing sensation in marrow of bone,1.0,1
+tension in elbow as if too short,inflammatory swelling of both malleoli with stitching pain,1.0,1
+tension in elbow as if too short,especially if associated with too early but scanty menstruation,1.0,1
+tension in elbow as if too short,red and shining swelling,1.0,1
+tension in elbow as if too short,rheumatic pains extending from shoulder to fingers,1.0,1
+tension in elbow as if too short,rheumatism shifting from joint to joint generally crosswise,1.0,1
+tension in elbow as if too short,worse touch or motion or at night,1.0,1
+tension in elbow as if too short,general anemia,1.0,1
+tension in elbow as if too short,tension and stiffness in legs,1.0,1
+tension in elbow as if too short,drawing and tension in limbs as from shortening of tendons,1.0,1
+tension in elbow as if too short,suitable for chronic rheumatism with anemia,1.0,1
+tension in elbow as if too short,sprained pain in shoulder joint,1.0,1
+tension in elbow as if too short,pain in small of back on bending backward,1.0,1
+especially if associated with too early but scanty menstruation,in boys during puberty,1.0,1
+especially if associated with too early but scanty menstruation,tension in elbow as if too short,1.0,1
+especially if associated with too early but scanty menstruation,stitching pain extending up from external malleolus,1.0,1
+especially if associated with too early but scanty menstruation,arthritis vaga causing one to groan and moan constantly,1.0,1
+especially if associated with too early but scanty menstruation,burning spots about joints,1.0,1
+especially if associated with too early but scanty menstruation,tearing in whole spinal column from above downward,1.0,1
+especially if associated with too early but scanty menstruation,jerking sticking pain above knee,1.0,1
+especially if associated with too early but scanty menstruation,cannot bear weight on heel,1.0,1
+especially if associated with too early but scanty menstruation,inflammation of articulating extremities of bones,1.0,1
+especially if associated with too early but scanty menstruation,twitching of muscles of legs from least motion,1.0,1
+especially if associated with too early but scanty menstruation,tensive drawing stitches in thigh,1.0,1
+especially if associated with too early but scanty menstruation,wandering shifting pains going from joint to joint,1.0,1
+especially if associated with too early but scanty menstruation,voice changing in boys,1.0,1
+especially if associated with too early but scanty menstruation,tensive pain in joints of arms and wrists,1.0,1
+especially if associated with too early but scanty menstruation,gnawing and boring in humerus as if in marrow of bone,1.0,1
+especially if associated with too early but scanty menstruation,stitching pain worse when walking,1.0,1
+especially if associated with too early but scanty menstruation,boring gnawing sensation in marrow of bone,1.0,1
+especially if associated with too early but scanty menstruation,inflammatory swelling of both malleoli with stitching pain,1.0,1
+especially if associated with too early but scanty menstruation,red and shining swelling,1.0,1
+especially if associated with too early but scanty menstruation,rheumatic pains extending from shoulder to fingers,1.0,1
+especially if associated with too early but scanty menstruation,rheumatism shifting from joint to joint generally crosswise,1.0,1
+especially if associated with too early but scanty menstruation,worse touch or motion or at night,1.0,1
+especially if associated with too early but scanty menstruation,general anemia,1.0,1
+especially if associated with too early but scanty menstruation,tension and stiffness in legs,1.0,1
+especially if associated with too early but scanty menstruation,drawing and tension in limbs as from shortening of tendons,1.0,1
+especially if associated with too early but scanty menstruation,suitable for chronic rheumatism with anemia,1.0,1
+especially if associated with too early but scanty menstruation,sprained pain in shoulder joint,1.0,1
+especially if associated with too early but scanty menstruation,pain in small of back on bending backward,1.0,1
+drawing and tension in limbs as from shortening of tendons,in boys during puberty,1.0,1
+drawing and tension in limbs as from shortening of tendons,tension in elbow as if too short,1.0,1
+drawing and tension in limbs as from shortening of tendons,stitching pain extending up from external malleolus,1.0,1
+drawing and tension in limbs as from shortening of tendons,arthritis vaga causing one to groan and moan constantly,1.0,1
+drawing and tension in limbs as from shortening of tendons,burning spots about joints,1.0,1
+drawing and tension in limbs as from shortening of tendons,tearing in whole spinal column from above downward,1.0,1
+drawing and tension in limbs as from shortening of tendons,jerking sticking pain above knee,1.0,1
+drawing and tension in limbs as from shortening of tendons,cannot bear weight on heel,1.0,1
+drawing and tension in limbs as from shortening of tendons,inflammation of articulating extremities of bones,1.0,1
+drawing and tension in limbs as from shortening of tendons,twitching of muscles of legs from least motion,1.0,1
+drawing and tension in limbs as from shortening of tendons,tensive drawing stitches in thigh,1.0,1
+drawing and tension in limbs as from shortening of tendons,wandering shifting pains going from joint to joint,1.0,1
+drawing and tension in limbs as from shortening of tendons,voice changing in boys,1.0,1
+drawing and tension in limbs as from shortening of tendons,tensive pain in joints of arms and wrists,1.0,1
+drawing and tension in limbs as from shortening of tendons,gnawing and boring in humerus as if in marrow of bone,1.0,1
+drawing and tension in limbs as from shortening of tendons,stitching pain worse when walking,1.0,1
+drawing and tension in limbs as from shortening of tendons,boring gnawing sensation in marrow of bone,1.0,1
+drawing and tension in limbs as from shortening of tendons,inflammatory swelling of both malleoli with stitching pain,1.0,1
+drawing and tension in limbs as from shortening of tendons,especially if associated with too early but scanty menstruation,1.0,1
+drawing and tension in limbs as from shortening of tendons,red and shining swelling,1.0,1
+drawing and tension in limbs as from shortening of tendons,rheumatic pains extending from shoulder to fingers,1.0,1
+drawing and tension in limbs as from shortening of tendons,rheumatism shifting from joint to joint generally crosswise,1.0,1
+drawing and tension in limbs as from shortening of tendons,worse touch or motion or at night,1.0,1
+drawing and tension in limbs as from shortening of tendons,general anemia,1.0,1
+drawing and tension in limbs as from shortening of tendons,tension and stiffness in legs,1.0,1
+drawing and tension in limbs as from shortening of tendons,suitable for chronic rheumatism with anemia,1.0,1
+drawing and tension in limbs as from shortening of tendons,sprained pain in shoulder joint,1.0,1
+drawing and tension in limbs as from shortening of tendons,pain in small of back on bending backward,1.0,1
+burning spots about joints,in boys during puberty,1.0,1
+burning spots about joints,tension in elbow as if too short,1.0,1
+burning spots about joints,stitching pain extending up from external malleolus,1.0,1
+burning spots about joints,arthritis vaga causing one to groan and moan constantly,1.0,1
+burning spots about joints,tearing in whole spinal column from above downward,1.0,1
+burning spots about joints,jerking sticking pain above knee,1.0,1
+burning spots about joints,cannot bear weight on heel,1.0,1
+burning spots about joints,inflammation of articulating extremities of bones,1.0,1
+burning spots about joints,twitching of muscles of legs from least motion,1.0,1
+burning spots about joints,tensive drawing stitches in thigh,1.0,1
+burning spots about joints,wandering shifting pains going from joint to joint,1.0,1
+burning spots about joints,voice changing in boys,1.0,1
+burning spots about joints,tensive pain in joints of arms and wrists,1.0,1
+burning spots about joints,gnawing and boring in humerus as if in marrow of bone,1.0,1
+burning spots about joints,stitching pain worse when walking,1.0,1
+burning spots about joints,boring gnawing sensation in marrow of bone,1.0,1
+burning spots about joints,inflammatory swelling of both malleoli with stitching pain,1.0,1
+burning spots about joints,especially if associated with too early but scanty menstruation,1.0,1
+burning spots about joints,red and shining swelling,1.0,1
+burning spots about joints,rheumatic pains extending from shoulder to fingers,1.0,1
+burning spots about joints,rheumatism shifting from joint to joint generally crosswise,1.0,1
+burning spots about joints,worse touch or motion or at night,1.0,1
+burning spots about joints,general anemia,1.0,1
+burning spots about joints,tension and stiffness in legs,1.0,1
+burning spots about joints,drawing and tension in limbs as from shortening of tendons,1.0,1
+burning spots about joints,suitable for chronic rheumatism with anemia,1.0,1
+burning spots about joints,sprained pain in shoulder joint,1.0,1
+burning spots about joints,pain in small of back on bending backward,1.0,1
+tearing in whole spinal column from above downward,in boys during puberty,1.0,1
+tearing in whole spinal column from above downward,tension in elbow as if too short,1.0,1
+tearing in whole spinal column from above downward,stitching pain extending up from external malleolus,1.0,1
+tearing in whole spinal column from above downward,arthritis vaga causing one to groan and moan constantly,1.0,1
+tearing in whole spinal column from above downward,burning spots about joints,1.0,1
+tearing in whole spinal column from above downward,jerking sticking pain above knee,1.0,1
+tearing in whole spinal column from above downward,cannot bear weight on heel,1.0,1
+tearing in whole spinal column from above downward,inflammation of articulating extremities of bones,1.0,1
+tearing in whole spinal column from above downward,twitching of muscles of legs from least motion,1.0,1
+tearing in whole spinal column from above downward,tensive drawing stitches in thigh,1.0,1
+tearing in whole spinal column from above downward,wandering shifting pains going from joint to joint,1.0,1
+tearing in whole spinal column from above downward,voice changing in boys,1.0,1
+tearing in whole spinal column from above downward,tensive pain in joints of arms and wrists,1.0,1
+tearing in whole spinal column from above downward,gnawing and boring in humerus as if in marrow of bone,1.0,1
+tearing in whole spinal column from above downward,stitching pain worse when walking,1.0,1
+tearing in whole spinal column from above downward,boring gnawing sensation in marrow of bone,1.0,1
+tearing in whole spinal column from above downward,inflammatory swelling of both malleoli with stitching pain,1.0,1
+tearing in whole spinal column from above downward,especially if associated with too early but scanty menstruation,1.0,1
+tearing in whole spinal column from above downward,red and shining swelling,1.0,1
+tearing in whole spinal column from above downward,rheumatic pains extending from shoulder to fingers,1.0,1
+tearing in whole spinal column from above downward,rheumatism shifting from joint to joint generally crosswise,1.0,1
+tearing in whole spinal column from above downward,worse touch or motion or at night,1.0,1
+tearing in whole spinal column from above downward,general anemia,1.0,1
+tearing in whole spinal column from above downward,tension and stiffness in legs,1.0,1
+tearing in whole spinal column from above downward,drawing and tension in limbs as from shortening of tendons,1.0,1
+tearing in whole spinal column from above downward,suitable for chronic rheumatism with anemia,1.0,1
+tearing in whole spinal column from above downward,sprained pain in shoulder joint,1.0,1
+tearing in whole spinal column from above downward,pain in small of back on bending backward,1.0,1
+gnawing and boring in humerus as if in marrow of bone,in boys during puberty,1.0,1
+gnawing and boring in humerus as if in marrow of bone,tension in elbow as if too short,1.0,1
+gnawing and boring in humerus as if in marrow of bone,stitching pain extending up from external malleolus,1.0,1
+gnawing and boring in humerus as if in marrow of bone,arthritis vaga causing one to groan and moan constantly,1.0,1
+gnawing and boring in humerus as if in marrow of bone,burning spots about joints,1.0,1
+gnawing and boring in humerus as if in marrow of bone,tearing in whole spinal column from above downward,1.0,1
+gnawing and boring in humerus as if in marrow of bone,jerking sticking pain above knee,1.0,1
+gnawing and boring in humerus as if in marrow of bone,cannot bear weight on heel,1.0,1
+gnawing and boring in humerus as if in marrow of bone,inflammation of articulating extremities of bones,1.0,1
+gnawing and boring in humerus as if in marrow of bone,twitching of muscles of legs from least motion,1.0,1
+gnawing and boring in humerus as if in marrow of bone,tensive drawing stitches in thigh,1.0,1
+gnawing and boring in humerus as if in marrow of bone,wandering shifting pains going from joint to joint,1.0,1
+gnawing and boring in humerus as if in marrow of bone,voice changing in boys,1.0,1
+gnawing and boring in humerus as if in marrow of bone,tensive pain in joints of arms and wrists,1.0,1
+gnawing and boring in humerus as if in marrow of bone,stitching pain worse when walking,1.0,1
+gnawing and boring in humerus as if in marrow of bone,boring gnawing sensation in marrow of bone,1.0,1
+gnawing and boring in humerus as if in marrow of bone,inflammatory swelling of both malleoli with stitching pain,1.0,1
+gnawing and boring in humerus as if in marrow of bone,especially if associated with too early but scanty menstruation,1.0,1
+gnawing and boring in humerus as if in marrow of bone,red and shining swelling,1.0,1
+gnawing and boring in humerus as if in marrow of bone,rheumatic pains extending from shoulder to fingers,1.0,1
+gnawing and boring in humerus as if in marrow of bone,rheumatism shifting from joint to joint generally crosswise,1.0,1
+gnawing and boring in humerus as if in marrow of bone,worse touch or motion or at night,1.0,1
+gnawing and boring in humerus as if in marrow of bone,general anemia,1.0,1
+gnawing and boring in humerus as if in marrow of bone,tension and stiffness in legs,1.0,1
+gnawing and boring in humerus as if in marrow of bone,drawing and tension in limbs as from shortening of tendons,1.0,1
+gnawing and boring in humerus as if in marrow of bone,suitable for chronic rheumatism with anemia,1.0,1
+gnawing and boring in humerus as if in marrow of bone,sprained pain in shoulder joint,1.0,1
+gnawing and boring in humerus as if in marrow of bone,pain in small of back on bending backward,1.0,1
+red and shining swelling,in boys during puberty,1.0,1
+red and shining swelling,tension in elbow as if too short,1.0,1
+red and shining swelling,stitching pain extending up from external malleolus,1.0,1
+red and shining swelling,arthritis vaga causing one to groan and moan constantly,1.0,1
+red and shining swelling,burning spots about joints,1.0,1
+red and shining swelling,tearing in whole spinal column from above downward,1.0,1
+red and shining swelling,jerking sticking pain above knee,1.0,1
+red and shining swelling,cannot bear weight on heel,1.0,1
+red and shining swelling,inflammation of articulating extremities of bones,1.0,1
+red and shining swelling,twitching of muscles of legs from least motion,1.0,1
+red and shining swelling,tensive drawing stitches in thigh,1.0,1
+red and shining swelling,wandering shifting pains going from joint to joint,1.0,1
+red and shining swelling,voice changing in boys,1.0,1
+red and shining swelling,tensive pain in joints of arms and wrists,1.0,1
+red and shining swelling,gnawing and boring in humerus as if in marrow of bone,1.0,1
+red and shining swelling,stitching pain worse when walking,1.0,1
+red and shining swelling,boring gnawing sensation in marrow of bone,1.0,1
+red and shining swelling,inflammatory swelling of both malleoli with stitching pain,1.0,1
+red and shining swelling,especially if associated with too early but scanty menstruation,1.0,1
+red and shining swelling,rheumatic pains extending from shoulder to fingers,1.0,1
+red and shining swelling,rheumatism shifting from joint to joint generally crosswise,1.0,1
+red and shining swelling,worse touch or motion or at night,1.0,1
+red and shining swelling,general anemia,1.0,1
+red and shining swelling,tension and stiffness in legs,1.0,1
+red and shining swelling,drawing and tension in limbs as from shortening of tendons,1.0,1
+red and shining swelling,suitable for chronic rheumatism with anemia,1.0,1
+red and shining swelling,sprained pain in shoulder joint,1.0,1
+red and shining swelling,pain in small of back on bending backward,1.0,1
+in boys during puberty,tension in elbow as if too short,1.0,1
+in boys during puberty,stitching pain extending up from external malleolus,1.0,1
+in boys during puberty,arthritis vaga causing one to groan and moan constantly,1.0,1
+in boys during puberty,burning spots about joints,1.0,1
+in boys during puberty,tearing in whole spinal column from above downward,1.0,1
+in boys during puberty,jerking sticking pain above knee,1.0,1
+in boys during puberty,cannot bear weight on heel,1.0,1
+in boys during puberty,inflammation of articulating extremities of bones,1.0,1
+in boys during puberty,twitching of muscles of legs from least motion,1.0,1
+in boys during puberty,tensive drawing stitches in thigh,1.0,1
+in boys during puberty,wandering shifting pains going from joint to joint,1.0,1
+in boys during puberty,voice changing in boys,1.0,1
+in boys during puberty,tensive pain in joints of arms and wrists,1.0,1
+in boys during puberty,gnawing and boring in humerus as if in marrow of bone,1.0,1
+in boys during puberty,stitching pain worse when walking,1.0,1
+in boys during puberty,boring gnawing sensation in marrow of bone,1.0,1
+in boys during puberty,inflammatory swelling of both malleoli with stitching pain,1.0,1
+in boys during puberty,especially if associated with too early but scanty menstruation,1.0,1
+in boys during puberty,red and shining swelling,1.0,1
+in boys during puberty,rheumatic pains extending from shoulder to fingers,1.0,1
+in boys during puberty,rheumatism shifting from joint to joint generally crosswise,1.0,1
+in boys during puberty,worse touch or motion or at night,1.0,1
+in boys during puberty,general anemia,1.0,1
+in boys during puberty,tension and stiffness in legs,1.0,1
+in boys during puberty,drawing and tension in limbs as from shortening of tendons,1.0,1
+in boys during puberty,suitable for chronic rheumatism with anemia,1.0,1
+in boys during puberty,sprained pain in shoulder joint,1.0,1
+in boys during puberty,pain in small of back on bending backward,1.0,1
+wandering shifting pains going from joint to joint,in boys during puberty,1.0,1
+wandering shifting pains going from joint to joint,tension in elbow as if too short,1.0,1
+wandering shifting pains going from joint to joint,stitching pain extending up from external malleolus,1.0,1
+wandering shifting pains going from joint to joint,arthritis vaga causing one to groan and moan constantly,1.0,1
+wandering shifting pains going from joint to joint,burning spots about joints,1.0,1
+wandering shifting pains going from joint to joint,tearing in whole spinal column from above downward,1.0,1
+wandering shifting pains going from joint to joint,jerking sticking pain above knee,1.0,1
+wandering shifting pains going from joint to joint,cannot bear weight on heel,1.0,1
+wandering shifting pains going from joint to joint,inflammation of articulating extremities of bones,1.0,1
+wandering shifting pains going from joint to joint,twitching of muscles of legs from least motion,1.0,1
+wandering shifting pains going from joint to joint,tensive drawing stitches in thigh,1.0,1
+wandering shifting pains going from joint to joint,voice changing in boys,1.0,1
+wandering shifting pains going from joint to joint,tensive pain in joints of arms and wrists,1.0,1
+wandering shifting pains going from joint to joint,gnawing and boring in humerus as if in marrow of bone,1.0,1
+wandering shifting pains going from joint to joint,stitching pain worse when walking,1.0,1
+wandering shifting pains going from joint to joint,boring gnawing sensation in marrow of bone,1.0,1
+wandering shifting pains going from joint to joint,inflammatory swelling of both malleoli with stitching pain,1.0,1
+wandering shifting pains going from joint to joint,especially if associated with too early but scanty menstruation,1.0,1
+wandering shifting pains going from joint to joint,red and shining swelling,1.0,1
+wandering shifting pains going from joint to joint,rheumatic pains extending from shoulder to fingers,1.0,1
+wandering shifting pains going from joint to joint,rheumatism shifting from joint to joint generally crosswise,1.0,1
+wandering shifting pains going from joint to joint,worse touch or motion or at night,1.0,1
+wandering shifting pains going from joint to joint,general anemia,1.0,1
+wandering shifting pains going from joint to joint,tension and stiffness in legs,1.0,1
+wandering shifting pains going from joint to joint,drawing and tension in limbs as from shortening of tendons,1.0,1
+wandering shifting pains going from joint to joint,suitable for chronic rheumatism with anemia,1.0,1
+wandering shifting pains going from joint to joint,sprained pain in shoulder joint,1.0,1
+wandering shifting pains going from joint to joint,pain in small of back on bending backward,1.0,1
+inflammatory swelling of both malleoli with stitching pain,in boys during puberty,1.0,1
+inflammatory swelling of both malleoli with stitching pain,tension in elbow as if too short,1.0,1
+inflammatory swelling of both malleoli with stitching pain,stitching pain extending up from external malleolus,1.0,1
+inflammatory swelling of both malleoli with stitching pain,arthritis vaga causing one to groan and moan constantly,1.0,1
+inflammatory swelling of both malleoli with stitching pain,burning spots about joints,1.0,1
+inflammatory swelling of both malleoli with stitching pain,tearing in whole spinal column from above downward,1.0,1
+inflammatory swelling of both malleoli with stitching pain,jerking sticking pain above knee,1.0,1
+inflammatory swelling of both malleoli with stitching pain,cannot bear weight on heel,1.0,1
+inflammatory swelling of both malleoli with stitching pain,inflammation of articulating extremities of bones,1.0,1
+inflammatory swelling of both malleoli with stitching pain,twitching of muscles of legs from least motion,1.0,1
+inflammatory swelling of both malleoli with stitching pain,tensive drawing stitches in thigh,1.0,1
+inflammatory swelling of both malleoli with stitching pain,wandering shifting pains going from joint to joint,1.0,1
+inflammatory swelling of both malleoli with stitching pain,voice changing in boys,1.0,1
+inflammatory swelling of both malleoli with stitching pain,tensive pain in joints of arms and wrists,1.0,1
+inflammatory swelling of both malleoli with stitching pain,gnawing and boring in humerus as if in marrow of bone,1.0,1
+inflammatory swelling of both malleoli with stitching pain,stitching pain worse when walking,1.0,1
+inflammatory swelling of both malleoli with stitching pain,boring gnawing sensation in marrow of bone,1.0,1
+inflammatory swelling of both malleoli with stitching pain,especially if associated with too early but scanty menstruation,1.0,1
+inflammatory swelling of both malleoli with stitching pain,red and shining swelling,1.0,1
+inflammatory swelling of both malleoli with stitching pain,rheumatic pains extending from shoulder to fingers,1.0,1
+inflammatory swelling of both malleoli with stitching pain,rheumatism shifting from joint to joint generally crosswise,1.0,1
+inflammatory swelling of both malleoli with stitching pain,worse touch or motion or at night,1.0,1
+inflammatory swelling of both malleoli with stitching pain,general anemia,1.0,1
+inflammatory swelling of both malleoli with stitching pain,tension and stiffness in legs,1.0,1
+inflammatory swelling of both malleoli with stitching pain,drawing and tension in limbs as from shortening of tendons,1.0,1
+inflammatory swelling of both malleoli with stitching pain,suitable for chronic rheumatism with anemia,1.0,1
+inflammatory swelling of both malleoli with stitching pain,sprained pain in shoulder joint,1.0,1
+inflammatory swelling of both malleoli with stitching pain,pain in small of back on bending backward,1.0,1
+arthritis vaga causing one to groan and moan constantly,in boys during puberty,1.0,1
+arthritis vaga causing one to groan and moan constantly,tension in elbow as if too short,1.0,1
+arthritis vaga causing one to groan and moan constantly,stitching pain extending up from external malleolus,1.0,1
+arthritis vaga causing one to groan and moan constantly,burning spots about joints,1.0,1
+arthritis vaga causing one to groan and moan constantly,tearing in whole spinal column from above downward,1.0,1
+arthritis vaga causing one to groan and moan constantly,jerking sticking pain above knee,1.0,1
+arthritis vaga causing one to groan and moan constantly,cannot bear weight on heel,1.0,1
+arthritis vaga causing one to groan and moan constantly,inflammation of articulating extremities of bones,1.0,1
+arthritis vaga causing one to groan and moan constantly,twitching of muscles of legs from least motion,1.0,1
+arthritis vaga causing one to groan and moan constantly,tensive drawing stitches in thigh,1.0,1
+arthritis vaga causing one to groan and moan constantly,wandering shifting pains going from joint to joint,1.0,1
+arthritis vaga causing one to groan and moan constantly,voice changing in boys,1.0,1
+arthritis vaga causing one to groan and moan constantly,tensive pain in joints of arms and wrists,1.0,1
+arthritis vaga causing one to groan and moan constantly,gnawing and boring in humerus as if in marrow of bone,1.0,1
+arthritis vaga causing one to groan and moan constantly,stitching pain worse when walking,1.0,1
+arthritis vaga causing one to groan and moan constantly,boring gnawing sensation in marrow of bone,1.0,1
+arthritis vaga causing one to groan and moan constantly,inflammatory swelling of both malleoli with stitching pain,1.0,1
+arthritis vaga causing one to groan and moan constantly,especially if associated with too early but scanty menstruation,1.0,1
+arthritis vaga causing one to groan and moan constantly,red and shining swelling,1.0,1
+arthritis vaga causing one to groan and moan constantly,rheumatic pains extending from shoulder to fingers,1.0,1
+arthritis vaga causing one to groan and moan constantly,rheumatism shifting from joint to joint generally crosswise,1.0,1
+arthritis vaga causing one to groan and moan constantly,worse touch or motion or at night,1.0,1
+arthritis vaga causing one to groan and moan constantly,general anemia,1.0,1
+arthritis vaga causing one to groan and moan constantly,tension and stiffness in legs,1.0,1
+arthritis vaga causing one to groan and moan constantly,drawing and tension in limbs as from shortening of tendons,1.0,1
+arthritis vaga causing one to groan and moan constantly,suitable for chronic rheumatism with anemia,1.0,1
+arthritis vaga causing one to groan and moan constantly,sprained pain in shoulder joint,1.0,1
+arthritis vaga causing one to groan and moan constantly,pain in small of back on bending backward,1.0,1
+rheumatic pains extending from shoulder to fingers,in boys during puberty,1.0,1
+rheumatic pains extending from shoulder to fingers,tension in elbow as if too short,1.0,1
+rheumatic pains extending from shoulder to fingers,stitching pain extending up from external malleolus,1.0,1
+rheumatic pains extending from shoulder to fingers,arthritis vaga causing one to groan and moan constantly,1.0,1
+rheumatic pains extending from shoulder to fingers,burning spots about joints,1.0,1
+rheumatic pains extending from shoulder to fingers,tearing in whole spinal column from above downward,1.0,1
+rheumatic pains extending from shoulder to fingers,jerking sticking pain above knee,1.0,1
+rheumatic pains extending from shoulder to fingers,cannot bear weight on heel,1.0,1
+rheumatic pains extending from shoulder to fingers,inflammation of articulating extremities of bones,1.0,1
+rheumatic pains extending from shoulder to fingers,twitching of muscles of legs from least motion,1.0,1
+rheumatic pains extending from shoulder to fingers,tensive drawing stitches in thigh,1.0,1
+rheumatic pains extending from shoulder to fingers,wandering shifting pains going from joint to joint,1.0,1
+rheumatic pains extending from shoulder to fingers,voice changing in boys,1.0,1
+rheumatic pains extending from shoulder to fingers,tensive pain in joints of arms and wrists,1.0,1
+rheumatic pains extending from shoulder to fingers,gnawing and boring in humerus as if in marrow of bone,1.0,1
+rheumatic pains extending from shoulder to fingers,stitching pain worse when walking,1.0,1
+rheumatic pains extending from shoulder to fingers,boring gnawing sensation in marrow of bone,1.0,1
+rheumatic pains extending from shoulder to fingers,inflammatory swelling of both malleoli with stitching pain,1.0,1
+rheumatic pains extending from shoulder to fingers,especially if associated with too early but scanty menstruation,1.0,1
+rheumatic pains extending from shoulder to fingers,red and shining swelling,1.0,1
+rheumatic pains extending from shoulder to fingers,rheumatism shifting from joint to joint generally crosswise,1.0,1
+rheumatic pains extending from shoulder to fingers,worse touch or motion or at night,1.0,1
+rheumatic pains extending from shoulder to fingers,general anemia,1.0,1
+rheumatic pains extending from shoulder to fingers,tension and stiffness in legs,1.0,1
+rheumatic pains extending from shoulder to fingers,drawing and tension in limbs as from shortening of tendons,1.0,1
+rheumatic pains extending from shoulder to fingers,suitable for chronic rheumatism with anemia,1.0,1
+rheumatic pains extending from shoulder to fingers,sprained pain in shoulder joint,1.0,1
+rheumatic pains extending from shoulder to fingers,pain in small of back on bending backward,1.0,1
+worse touch or motion or at night,in boys during puberty,1.0,1
+worse touch or motion or at night,tension in elbow as if too short,1.0,1
+worse touch or motion or at night,stitching pain extending up from external malleolus,1.0,1
+worse touch or motion or at night,arthritis vaga causing one to groan and moan constantly,1.0,1
+worse touch or motion or at night,burning spots about joints,1.0,1
+worse touch or motion or at night,tearing in whole spinal column from above downward,1.0,1
+worse touch or motion or at night,jerking sticking pain above knee,1.0,1
+worse touch or motion or at night,cannot bear weight on heel,1.0,1
+worse touch or motion or at night,inflammation of articulating extremities of bones,1.0,1
+worse touch or motion or at night,twitching of muscles of legs from least motion,1.0,1
+worse touch or motion or at night,tensive drawing stitches in thigh,1.0,1
+worse touch or motion or at night,wandering shifting pains going from joint to joint,1.0,1
+worse touch or motion or at night,voice changing in boys,1.0,1
+worse touch or motion or at night,tensive pain in joints of arms and wrists,1.0,1
+worse touch or motion or at night,gnawing and boring in humerus as if in marrow of bone,1.0,1
+worse touch or motion or at night,stitching pain worse when walking,1.0,1
+worse touch or motion or at night,boring gnawing sensation in marrow of bone,1.0,1
+worse touch or motion or at night,inflammatory swelling of both malleoli with stitching pain,1.0,1
+worse touch or motion or at night,especially if associated with too early but scanty menstruation,1.0,1
+worse touch or motion or at night,red and shining swelling,1.0,1
+worse touch or motion or at night,rheumatic pains extending from shoulder to fingers,1.0,1
+worse touch or motion or at night,rheumatism shifting from joint to joint generally crosswise,1.0,1
+worse touch or motion or at night,general anemia,1.0,1
+worse touch or motion or at night,tension and stiffness in legs,1.0,1
+worse touch or motion or at night,drawing and tension in limbs as from shortening of tendons,1.0,1
+worse touch or motion or at night,suitable for chronic rheumatism with anemia,1.0,1
+worse touch or motion or at night,sprained pain in shoulder joint,1.0,1
+worse touch or motion or at night,pain in small of back on bending backward,1.0,1
+pain in small of back on bending backward,in boys during puberty,1.0,1
+pain in small of back on bending backward,tension in elbow as if too short,1.0,1
+pain in small of back on bending backward,stitching pain extending up from external malleolus,1.0,1
+pain in small of back on bending backward,arthritis vaga causing one to groan and moan constantly,1.0,1
+pain in small of back on bending backward,burning spots about joints,1.0,1
+pain in small of back on bending backward,tearing in whole spinal column from above downward,1.0,1
+pain in small of back on bending backward,jerking sticking pain above knee,1.0,1
+pain in small of back on bending backward,cannot bear weight on heel,1.0,1
+pain in small of back on bending backward,inflammation of articulating extremities of bones,1.0,1
+pain in small of back on bending backward,twitching of muscles of legs from least motion,1.0,1
+pain in small of back on bending backward,tensive drawing stitches in thigh,1.0,1
+pain in small of back on bending backward,wandering shifting pains going from joint to joint,1.0,1
+pain in small of back on bending backward,voice changing in boys,1.0,1
+pain in small of back on bending backward,tensive pain in joints of arms and wrists,1.0,1
+pain in small of back on bending backward,gnawing and boring in humerus as if in marrow of bone,1.0,1
+pain in small of back on bending backward,stitching pain worse when walking,1.0,1
+pain in small of back on bending backward,boring gnawing sensation in marrow of bone,1.0,1
+pain in small of back on bending backward,inflammatory swelling of both malleoli with stitching pain,1.0,1
+pain in small of back on bending backward,especially if associated with too early but scanty menstruation,1.0,1
+pain in small of back on bending backward,red and shining swelling,1.0,1
+pain in small of back on bending backward,rheumatic pains extending from shoulder to fingers,1.0,1
+pain in small of back on bending backward,rheumatism shifting from joint to joint generally crosswise,1.0,1
+pain in small of back on bending backward,worse touch or motion or at night,1.0,1
+pain in small of back on bending backward,general anemia,1.0,1
+pain in small of back on bending backward,tension and stiffness in legs,1.0,1
+pain in small of back on bending backward,drawing and tension in limbs as from shortening of tendons,1.0,1
+pain in small of back on bending backward,suitable for chronic rheumatism with anemia,1.0,1
+pain in small of back on bending backward,sprained pain in shoulder joint,1.0,1
+stitching pain worse when walking,in boys during puberty,1.0,1
+stitching pain worse when walking,tension in elbow as if too short,1.0,1
+stitching pain worse when walking,stitching pain extending up from external malleolus,1.0,1
+stitching pain worse when walking,arthritis vaga causing one to groan and moan constantly,1.0,1
+stitching pain worse when walking,burning spots about joints,1.0,1
+stitching pain worse when walking,tearing in whole spinal column from above downward,1.0,1
+stitching pain worse when walking,jerking sticking pain above knee,1.0,1
+stitching pain worse when walking,cannot bear weight on heel,1.0,1
+stitching pain worse when walking,inflammation of articulating extremities of bones,1.0,1
+stitching pain worse when walking,twitching of muscles of legs from least motion,1.0,1
+stitching pain worse when walking,tensive drawing stitches in thigh,1.0,1
+stitching pain worse when walking,wandering shifting pains going from joint to joint,1.0,1
+stitching pain worse when walking,voice changing in boys,1.0,1
+stitching pain worse when walking,tensive pain in joints of arms and wrists,1.0,1
+stitching pain worse when walking,gnawing and boring in humerus as if in marrow of bone,1.0,1
+stitching pain worse when walking,boring gnawing sensation in marrow of bone,1.0,1
+stitching pain worse when walking,inflammatory swelling of both malleoli with stitching pain,1.0,1
+stitching pain worse when walking,especially if associated with too early but scanty menstruation,1.0,1
+stitching pain worse when walking,red and shining swelling,1.0,1
+stitching pain worse when walking,rheumatic pains extending from shoulder to fingers,1.0,1
+stitching pain worse when walking,rheumatism shifting from joint to joint generally crosswise,1.0,1
+stitching pain worse when walking,worse touch or motion or at night,1.0,1
+stitching pain worse when walking,general anemia,1.0,1
+stitching pain worse when walking,tension and stiffness in legs,1.0,1
+stitching pain worse when walking,drawing and tension in limbs as from shortening of tendons,1.0,1
+stitching pain worse when walking,suitable for chronic rheumatism with anemia,1.0,1
+stitching pain worse when walking,sprained pain in shoulder joint,1.0,1
+stitching pain worse when walking,pain in small of back on bending backward,1.0,1
+jerking sticking pain above knee,in boys during puberty,1.0,1
+jerking sticking pain above knee,tension in elbow as if too short,1.0,1
+jerking sticking pain above knee,stitching pain extending up from external malleolus,1.0,1
+jerking sticking pain above knee,arthritis vaga causing one to groan and moan constantly,1.0,1
+jerking sticking pain above knee,burning spots about joints,1.0,1
+jerking sticking pain above knee,tearing in whole spinal column from above downward,1.0,1
+jerking sticking pain above knee,cannot bear weight on heel,1.0,1
+jerking sticking pain above knee,inflammation of articulating extremities of bones,1.0,1
+jerking sticking pain above knee,twitching of muscles of legs from least motion,1.0,1
+jerking sticking pain above knee,tensive drawing stitches in thigh,1.0,1
+jerking sticking pain above knee,wandering shifting pains going from joint to joint,1.0,1
+jerking sticking pain above knee,voice changing in boys,1.0,1
+jerking sticking pain above knee,tensive pain in joints of arms and wrists,1.0,1
+jerking sticking pain above knee,gnawing and boring in humerus as if in marrow of bone,1.0,1
+jerking sticking pain above knee,stitching pain worse when walking,1.0,1
+jerking sticking pain above knee,boring gnawing sensation in marrow of bone,1.0,1
+jerking sticking pain above knee,inflammatory swelling of both malleoli with stitching pain,1.0,1
+jerking sticking pain above knee,especially if associated with too early but scanty menstruation,1.0,1
+jerking sticking pain above knee,red and shining swelling,1.0,1
+jerking sticking pain above knee,rheumatic pains extending from shoulder to fingers,1.0,1
+jerking sticking pain above knee,rheumatism shifting from joint to joint generally crosswise,1.0,1
+jerking sticking pain above knee,worse touch or motion or at night,1.0,1
+jerking sticking pain above knee,general anemia,1.0,1
+jerking sticking pain above knee,tension and stiffness in legs,1.0,1
+jerking sticking pain above knee,drawing and tension in limbs as from shortening of tendons,1.0,1
+jerking sticking pain above knee,suitable for chronic rheumatism with anemia,1.0,1
+jerking sticking pain above knee,sprained pain in shoulder joint,1.0,1
+jerking sticking pain above knee,pain in small of back on bending backward,1.0,1
+inflammation of articulating extremities of bones,in boys during puberty,1.0,1
+inflammation of articulating extremities of bones,tension in elbow as if too short,1.0,1
+inflammation of articulating extremities of bones,stitching pain extending up from external malleolus,1.0,1
+inflammation of articulating extremities of bones,arthritis vaga causing one to groan and moan constantly,1.0,1
+inflammation of articulating extremities of bones,burning spots about joints,1.0,1
+inflammation of articulating extremities of bones,tearing in whole spinal column from above downward,1.0,1
+inflammation of articulating extremities of bones,jerking sticking pain above knee,1.0,1
+inflammation of articulating extremities of bones,cannot bear weight on heel,1.0,1
+inflammation of articulating extremities of bones,twitching of muscles of legs from least motion,1.0,1
+inflammation of articulating extremities of bones,tensive drawing stitches in thigh,1.0,1
+inflammation of articulating extremities of bones,wandering shifting pains going from joint to joint,1.0,1
+inflammation of articulating extremities of bones,voice changing in boys,1.0,1
+inflammation of articulating extremities of bones,tensive pain in joints of arms and wrists,1.0,1
+inflammation of articulating extremities of bones,gnawing and boring in humerus as if in marrow of bone,1.0,1
+inflammation of articulating extremities of bones,stitching pain worse when walking,1.0,1
+inflammation of articulating extremities of bones,boring gnawing sensation in marrow of bone,1.0,1
+inflammation of articulating extremities of bones,inflammatory swelling of both malleoli with stitching pain,1.0,1
+inflammation of articulating extremities of bones,especially if associated with too early but scanty menstruation,1.0,1
+inflammation of articulating extremities of bones,red and shining swelling,1.0,1
+inflammation of articulating extremities of bones,rheumatic pains extending from shoulder to fingers,1.0,1
+inflammation of articulating extremities of bones,rheumatism shifting from joint to joint generally crosswise,1.0,1
+inflammation of articulating extremities of bones,worse touch or motion or at night,1.0,1
+inflammation of articulating extremities of bones,general anemia,1.0,1
+inflammation of articulating extremities of bones,tension and stiffness in legs,1.0,1
+inflammation of articulating extremities of bones,drawing and tension in limbs as from shortening of tendons,1.0,1
+inflammation of articulating extremities of bones,suitable for chronic rheumatism with anemia,1.0,1
+inflammation of articulating extremities of bones,sprained pain in shoulder joint,1.0,1
+inflammation of articulating extremities of bones,pain in small of back on bending backward,1.0,1
+twitching of muscles of legs from least motion,in boys during puberty,1.0,1
+twitching of muscles of legs from least motion,tension in elbow as if too short,1.0,1
+twitching of muscles of legs from least motion,stitching pain extending up from external malleolus,1.0,1
+twitching of muscles of legs from least motion,arthritis vaga causing one to groan and moan constantly,1.0,1
+twitching of muscles of legs from least motion,burning spots about joints,1.0,1
+twitching of muscles of legs from least motion,tearing in whole spinal column from above downward,1.0,1
+twitching of muscles of legs from least motion,jerking sticking pain above knee,1.0,1
+twitching of muscles of legs from least motion,cannot bear weight on heel,1.0,1
+twitching of muscles of legs from least motion,inflammation of articulating extremities of bones,1.0,1
+twitching of muscles of legs from least motion,tensive drawing stitches in thigh,1.0,1
+twitching of muscles of legs from least motion,wandering shifting pains going from joint to joint,1.0,1
+twitching of muscles of legs from least motion,voice changing in boys,1.0,1
+twitching of muscles of legs from least motion,tensive pain in joints of arms and wrists,1.0,1
+twitching of muscles of legs from least motion,gnawing and boring in humerus as if in marrow of bone,1.0,1
+twitching of muscles of legs from least motion,stitching pain worse when walking,1.0,1
+twitching of muscles of legs from least motion,boring gnawing sensation in marrow of bone,1.0,1
+twitching of muscles of legs from least motion,inflammatory swelling of both malleoli with stitching pain,1.0,1
+twitching of muscles of legs from least motion,especially if associated with too early but scanty menstruation,1.0,1
+twitching of muscles of legs from least motion,red and shining swelling,1.0,1
+twitching of muscles of legs from least motion,rheumatic pains extending from shoulder to fingers,1.0,1
+twitching of muscles of legs from least motion,rheumatism shifting from joint to joint generally crosswise,1.0,1
+twitching of muscles of legs from least motion,worse touch or motion or at night,1.0,1
+twitching of muscles of legs from least motion,general anemia,1.0,1
+twitching of muscles of legs from least motion,tension and stiffness in legs,1.0,1
+twitching of muscles of legs from least motion,drawing and tension in limbs as from shortening of tendons,1.0,1
+twitching of muscles of legs from least motion,suitable for chronic rheumatism with anemia,1.0,1
+twitching of muscles of legs from least motion,sprained pain in shoulder joint,1.0,1
+twitching of muscles of legs from least motion,pain in small of back on bending backward,1.0,1
+sprained pain in shoulder joint,in boys during puberty,1.0,1
+sprained pain in shoulder joint,tension in elbow as if too short,1.0,1
+sprained pain in shoulder joint,stitching pain extending up from external malleolus,1.0,1
+sprained pain in shoulder joint,arthritis vaga causing one to groan and moan constantly,1.0,1
+sprained pain in shoulder joint,burning spots about joints,1.0,1
+sprained pain in shoulder joint,tearing in whole spinal column from above downward,1.0,1
+sprained pain in shoulder joint,jerking sticking pain above knee,1.0,1
+sprained pain in shoulder joint,cannot bear weight on heel,1.0,1
+sprained pain in shoulder joint,inflammation of articulating extremities of bones,1.0,1
+sprained pain in shoulder joint,twitching of muscles of legs from least motion,1.0,1
+sprained pain in shoulder joint,tensive drawing stitches in thigh,1.0,1
+sprained pain in shoulder joint,wandering shifting pains going from joint to joint,1.0,1
+sprained pain in shoulder joint,voice changing in boys,1.0,1
+sprained pain in shoulder joint,tensive pain in joints of arms and wrists,1.0,1
+sprained pain in shoulder joint,gnawing and boring in humerus as if in marrow of bone,1.0,1
+sprained pain in shoulder joint,stitching pain worse when walking,1.0,1
+sprained pain in shoulder joint,boring gnawing sensation in marrow of bone,1.0,1
+sprained pain in shoulder joint,inflammatory swelling of both malleoli with stitching pain,1.0,1
+sprained pain in shoulder joint,especially if associated with too early but scanty menstruation,1.0,1
+sprained pain in shoulder joint,red and shining swelling,1.0,1
+sprained pain in shoulder joint,rheumatic pains extending from shoulder to fingers,1.0,1
+sprained pain in shoulder joint,rheumatism shifting from joint to joint generally crosswise,1.0,1
+sprained pain in shoulder joint,worse touch or motion or at night,1.0,1
+sprained pain in shoulder joint,general anemia,1.0,1
+sprained pain in shoulder joint,tension and stiffness in legs,1.0,1
+sprained pain in shoulder joint,drawing and tension in limbs as from shortening of tendons,1.0,1
+sprained pain in shoulder joint,suitable for chronic rheumatism with anemia,1.0,1
+sprained pain in shoulder joint,pain in small of back on bending backward,1.0,1
+cannot bear weight on heel,in boys during puberty,1.0,1
+cannot bear weight on heel,tension in elbow as if too short,1.0,1
+cannot bear weight on heel,stitching pain extending up from external malleolus,1.0,1
+cannot bear weight on heel,arthritis vaga causing one to groan and moan constantly,1.0,1
+cannot bear weight on heel,burning spots about joints,1.0,1
+cannot bear weight on heel,tearing in whole spinal column from above downward,1.0,1
+cannot bear weight on heel,jerking sticking pain above knee,1.0,1
+cannot bear weight on heel,inflammation of articulating extremities of bones,1.0,1
+cannot bear weight on heel,twitching of muscles of legs from least motion,1.0,1
+cannot bear weight on heel,tensive drawing stitches in thigh,1.0,1
+cannot bear weight on heel,wandering shifting pains going from joint to joint,1.0,1
+cannot bear weight on heel,voice changing in boys,1.0,1
+cannot bear weight on heel,tensive pain in joints of arms and wrists,1.0,1
+cannot bear weight on heel,gnawing and boring in humerus as if in marrow of bone,1.0,1
+cannot bear weight on heel,stitching pain worse when walking,1.0,1
+cannot bear weight on heel,boring gnawing sensation in marrow of bone,1.0,1
+cannot bear weight on heel,inflammatory swelling of both malleoli with stitching pain,1.0,1
+cannot bear weight on heel,especially if associated with too early but scanty menstruation,1.0,1
+cannot bear weight on heel,red and shining swelling,1.0,1
+cannot bear weight on heel,rheumatic pains extending from shoulder to fingers,1.0,1
+cannot bear weight on heel,rheumatism shifting from joint to joint generally crosswise,1.0,1
+cannot bear weight on heel,worse touch or motion or at night,1.0,1
+cannot bear weight on heel,general anemia,1.0,1
+cannot bear weight on heel,tension and stiffness in legs,1.0,1
+cannot bear weight on heel,drawing and tension in limbs as from shortening of tendons,1.0,1
+cannot bear weight on heel,suitable for chronic rheumatism with anemia,1.0,1
+cannot bear weight on heel,sprained pain in shoulder joint,1.0,1
+cannot bear weight on heel,pain in small of back on bending backward,1.0,1
+suitable for chronic rheumatism with anemia,in boys during puberty,1.0,1
+suitable for chronic rheumatism with anemia,tension in elbow as if too short,1.0,1
+suitable for chronic rheumatism with anemia,stitching pain extending up from external malleolus,1.0,1
+suitable for chronic rheumatism with anemia,arthritis vaga causing one to groan and moan constantly,1.0,1
+suitable for chronic rheumatism with anemia,burning spots about joints,1.0,1
+suitable for chronic rheumatism with anemia,tearing in whole spinal column from above downward,1.0,1
+suitable for chronic rheumatism with anemia,jerking sticking pain above knee,1.0,1
+suitable for chronic rheumatism with anemia,cannot bear weight on heel,1.0,1
+suitable for chronic rheumatism with anemia,inflammation of articulating extremities of bones,1.0,1
+suitable for chronic rheumatism with anemia,twitching of muscles of legs from least motion,1.0,1
+suitable for chronic rheumatism with anemia,tensive drawing stitches in thigh,1.0,1
+suitable for chronic rheumatism with anemia,wandering shifting pains going from joint to joint,1.0,1
+suitable for chronic rheumatism with anemia,voice changing in boys,1.0,1
+suitable for chronic rheumatism with anemia,tensive pain in joints of arms and wrists,1.0,1
+suitable for chronic rheumatism with anemia,gnawing and boring in humerus as if in marrow of bone,1.0,1
+suitable for chronic rheumatism with anemia,stitching pain worse when walking,1.0,1
+suitable for chronic rheumatism with anemia,boring gnawing sensation in marrow of bone,1.0,1
+suitable for chronic rheumatism with anemia,inflammatory swelling of both malleoli with stitching pain,1.0,1
+suitable for chronic rheumatism with anemia,especially if associated with too early but scanty menstruation,1.0,1
+suitable for chronic rheumatism with anemia,red and shining swelling,1.0,1
+suitable for chronic rheumatism with anemia,rheumatic pains extending from shoulder to fingers,1.0,1
+suitable for chronic rheumatism with anemia,rheumatism shifting from joint to joint generally crosswise,1.0,1
+suitable for chronic rheumatism with anemia,worse touch or motion or at night,1.0,1
+suitable for chronic rheumatism with anemia,general anemia,1.0,1
+suitable for chronic rheumatism with anemia,tension and stiffness in legs,1.0,1
+suitable for chronic rheumatism with anemia,drawing and tension in limbs as from shortening of tendons,1.0,1
+suitable for chronic rheumatism with anemia,sprained pain in shoulder joint,1.0,1
+suitable for chronic rheumatism with anemia,pain in small of back on bending backward,1.0,1
+tensive pain in joints of arms and wrists,in boys during puberty,1.0,1
+tensive pain in joints of arms and wrists,tension in elbow as if too short,1.0,1
+tensive pain in joints of arms and wrists,stitching pain extending up from external malleolus,1.0,1
+tensive pain in joints of arms and wrists,arthritis vaga causing one to groan and moan constantly,1.0,1
+tensive pain in joints of arms and wrists,burning spots about joints,1.0,1
+tensive pain in joints of arms and wrists,tearing in whole spinal column from above downward,1.0,1
+tensive pain in joints of arms and wrists,jerking sticking pain above knee,1.0,1
+tensive pain in joints of arms and wrists,cannot bear weight on heel,1.0,1
+tensive pain in joints of arms and wrists,inflammation of articulating extremities of bones,1.0,1
+tensive pain in joints of arms and wrists,twitching of muscles of legs from least motion,1.0,1
+tensive pain in joints of arms and wrists,tensive drawing stitches in thigh,1.0,1
+tensive pain in joints of arms and wrists,wandering shifting pains going from joint to joint,1.0,1
+tensive pain in joints of arms and wrists,voice changing in boys,1.0,1
+tensive pain in joints of arms and wrists,gnawing and boring in humerus as if in marrow of bone,1.0,1
+tensive pain in joints of arms and wrists,stitching pain worse when walking,1.0,1
+tensive pain in joints of arms and wrists,boring gnawing sensation in marrow of bone,1.0,1
+tensive pain in joints of arms and wrists,inflammatory swelling of both malleoli with stitching pain,1.0,1
+tensive pain in joints of arms and wrists,especially if associated with too early but scanty menstruation,1.0,1
+tensive pain in joints of arms and wrists,red and shining swelling,1.0,1
+tensive pain in joints of arms and wrists,rheumatic pains extending from shoulder to fingers,1.0,1
+tensive pain in joints of arms and wrists,rheumatism shifting from joint to joint generally crosswise,1.0,1
+tensive pain in joints of arms and wrists,worse touch or motion or at night,1.0,1
+tensive pain in joints of arms and wrists,general anemia,1.0,1
+tensive pain in joints of arms and wrists,tension and stiffness in legs,1.0,1
+tensive pain in joints of arms and wrists,drawing and tension in limbs as from shortening of tendons,1.0,1
+tensive pain in joints of arms and wrists,suitable for chronic rheumatism with anemia,1.0,1
+tensive pain in joints of arms and wrists,sprained pain in shoulder joint,1.0,1
+tensive pain in joints of arms and wrists,pain in small of back on bending backward,1.0,1
+general anemia,in boys during puberty,1.0,1
+general anemia,tension in elbow as if too short,1.0,1
+general anemia,stitching pain extending up from external malleolus,1.0,1
+general anemia,arthritis vaga causing one to groan and moan constantly,1.0,1
+general anemia,burning spots about joints,1.0,1
+general anemia,tearing in whole spinal column from above downward,1.0,1
+general anemia,jerking sticking pain above knee,1.0,1
+general anemia,cannot bear weight on heel,1.0,1
+general anemia,inflammation of articulating extremities of bones,1.0,1
+general anemia,twitching of muscles of legs from least motion,1.0,1
+general anemia,tensive drawing stitches in thigh,1.0,1
+general anemia,wandering shifting pains going from joint to joint,1.0,1
+general anemia,voice changing in boys,1.0,1
+general anemia,tensive pain in joints of arms and wrists,1.0,1
+general anemia,gnawing and boring in humerus as if in marrow of bone,1.0,1
+general anemia,stitching pain worse when walking,1.0,1
+general anemia,boring gnawing sensation in marrow of bone,1.0,1
+general anemia,inflammatory swelling of both malleoli with stitching pain,1.0,1
+general anemia,especially if associated with too early but scanty menstruation,1.0,1
+general anemia,red and shining swelling,1.0,1
+general anemia,rheumatic pains extending from shoulder to fingers,1.0,1
+general anemia,rheumatism shifting from joint to joint generally crosswise,1.0,1
+general anemia,worse touch or motion or at night,1.0,1
+general anemia,tension and stiffness in legs,1.0,1
+general anemia,drawing and tension in limbs as from shortening of tendons,1.0,1
+general anemia,suitable for chronic rheumatism with anemia,1.0,1
+general anemia,sprained pain in shoulder joint,1.0,1
+general anemia,pain in small of back on bending backward,1.0,1

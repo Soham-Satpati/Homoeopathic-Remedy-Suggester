@@ -1,0 +1,1305 @@
+### Cluster 15 — Symptoms (36)
+Symptom,Frequency
+drawing rheumatic pains from side of neck to limbs,1
+jerking of elbows,1
+sharp stitches in joints,1
+jerking in thigh,1
+children under seven years,1
+rheumatic drawing in left tarsus,1
+great rigidity of muscles of neck,1
+starting in sleep,2
+aching drawing pain in right arm above elbow,1
+sharp stitches in right shin bone,1
+cannot bend forward,1
+beginning of inflammation of joints,1
+jerking in knee joints,1
+great rigidity of muscles of back,1
+inflammatory affections of brain,1
+restless motion of head,1
+worse during winter,1
+drawing pains in thighs,1
+pressing pain in left tarsus,1
+restless motion,1
+stitches in forearm,1
+rheumatism of muscles,1
+pain in upper dorsal vertebrae,1
+stinging pains in joints,1
+constrictive rheumatic pain in deltoid muscle,1
+rheumatic pain on top of head,1
+dullness,1
+drawing up of leg in sleep,1
+pain in shoulders,1
+fine sharp stitches in forearm,1
+tearing burning pains from neck to left axilla,1
+drawing laming pains in muscles,1
+jerking of muscles of arms,1
+pain in cervical vertebrae,1
+rheumatic origin,1
+jerking of muscles of thighs,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+stramonium,36
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+jerking of muscles of thighs,drawing rheumatic pains from side of neck to limbs,1.0,1
+jerking of muscles of thighs,jerking of elbows,1.0,1
+jerking of muscles of thighs,sharp stitches in joints,1.0,1
+jerking of muscles of thighs,jerking in thigh,1.0,1
+jerking of muscles of thighs,children under seven years,1.0,1
+jerking of muscles of thighs,rheumatic drawing in left tarsus,1.0,1
+jerking of muscles of thighs,great rigidity of muscles of neck,1.0,1
+jerking of muscles of thighs,starting in sleep,1.0,1
+jerking of muscles of thighs,aching drawing pain in right arm above elbow,1.0,1
+jerking of muscles of thighs,sharp stitches in right shin bone,1.0,1
+jerking of muscles of thighs,cannot bend forward,1.0,1
+jerking of muscles of thighs,beginning of inflammation of joints,1.0,1
+jerking of muscles of thighs,jerking in knee joints,1.0,1
+jerking of muscles of thighs,great rigidity of muscles of back,1.0,1
+jerking of muscles of thighs,inflammatory affections of brain,1.0,1
+jerking of muscles of thighs,restless motion of head,1.0,1
+jerking of muscles of thighs,worse during winter,1.0,1
+jerking of muscles of thighs,drawing pains in thighs,1.0,1
+jerking of muscles of thighs,pressing pain in left tarsus,1.0,1
+jerking of muscles of thighs,restless motion,1.0,1
+jerking of muscles of thighs,stitches in forearm,1.0,1
+jerking of muscles of thighs,rheumatism of muscles,1.0,1
+jerking of muscles of thighs,pain in upper dorsal vertebrae,1.0,1
+jerking of muscles of thighs,stinging pains in joints,1.0,1
+jerking of muscles of thighs,constrictive rheumatic pain in deltoid muscle,1.0,1
+jerking of muscles of thighs,rheumatic pain on top of head,1.0,1
+jerking of muscles of thighs,dullness,1.0,1
+jerking of muscles of thighs,drawing up of leg in sleep,1.0,1
+jerking of muscles of thighs,pain in shoulders,1.0,1
+jerking of muscles of thighs,fine sharp stitches in forearm,1.0,1
+jerking of muscles of thighs,tearing burning pains from neck to left axilla,1.0,1
+jerking of muscles of thighs,drawing laming pains in muscles,1.0,1
+jerking of muscles of thighs,jerking of muscles of arms,1.0,1
+jerking of muscles of thighs,pain in cervical vertebrae,1.0,1
+jerking of muscles of thighs,rheumatic origin,1.0,1
+rheumatic origin,drawing rheumatic pains from side of neck to limbs,1.0,1
+rheumatic origin,jerking of elbows,1.0,1
+rheumatic origin,sharp stitches in joints,1.0,1
+rheumatic origin,jerking in thigh,1.0,1
+rheumatic origin,children under seven years,1.0,1
+rheumatic origin,rheumatic drawing in left tarsus,1.0,1
+rheumatic origin,great rigidity of muscles of neck,1.0,1
+rheumatic origin,starting in sleep,1.0,1
+rheumatic origin,aching drawing pain in right arm above elbow,1.0,1
+rheumatic origin,sharp stitches in right shin bone,1.0,1
+rheumatic origin,cannot bend forward,1.0,1
+rheumatic origin,beginning of inflammation of joints,1.0,1
+rheumatic origin,jerking in knee joints,1.0,1
+rheumatic origin,great rigidity of muscles of back,1.0,1
+rheumatic origin,inflammatory affections of brain,1.0,1
+rheumatic origin,restless motion of head,1.0,1
+rheumatic origin,worse during winter,1.0,1
+rheumatic origin,drawing pains in thighs,1.0,1
+rheumatic origin,pressing pain in left tarsus,1.0,1
+rheumatic origin,restless motion,1.0,1
+rheumatic origin,stitches in forearm,1.0,1
+rheumatic origin,rheumatism of muscles,1.0,1
+rheumatic origin,pain in upper dorsal vertebrae,1.0,1
+rheumatic origin,stinging pains in joints,1.0,1
+rheumatic origin,constrictive rheumatic pain in deltoid muscle,1.0,1
+rheumatic origin,rheumatic pain on top of head,1.0,1
+rheumatic origin,dullness,1.0,1
+rheumatic origin,drawing up of leg in sleep,1.0,1
+rheumatic origin,pain in shoulders,1.0,1
+rheumatic origin,fine sharp stitches in forearm,1.0,1
+rheumatic origin,tearing burning pains from neck to left axilla,1.0,1
+rheumatic origin,drawing laming pains in muscles,1.0,1
+rheumatic origin,jerking of muscles of arms,1.0,1
+rheumatic origin,pain in cervical vertebrae,1.0,1
+rheumatic origin,jerking of muscles of thighs,1.0,1
+stinging pains in joints,drawing rheumatic pains from side of neck to limbs,1.0,1
+stinging pains in joints,jerking of elbows,1.0,1
+stinging pains in joints,sharp stitches in joints,1.0,1
+stinging pains in joints,jerking in thigh,1.0,1
+stinging pains in joints,children under seven years,1.0,1
+stinging pains in joints,rheumatic drawing in left tarsus,1.0,1
+stinging pains in joints,great rigidity of muscles of neck,1.0,1
+stinging pains in joints,starting in sleep,1.0,1
+stinging pains in joints,aching drawing pain in right arm above elbow,1.0,1
+stinging pains in joints,sharp stitches in right shin bone,1.0,1
+stinging pains in joints,cannot bend forward,1.0,1
+stinging pains in joints,beginning of inflammation of joints,1.0,1
+stinging pains in joints,jerking in knee joints,1.0,1
+stinging pains in joints,great rigidity of muscles of back,1.0,1
+stinging pains in joints,inflammatory affections of brain,1.0,1
+stinging pains in joints,restless motion of head,1.0,1
+stinging pains in joints,worse during winter,1.0,1
+stinging pains in joints,drawing pains in thighs,1.0,1
+stinging pains in joints,pressing pain in left tarsus,1.0,1
+stinging pains in joints,restless motion,1.0,1
+stinging pains in joints,stitches in forearm,1.0,1
+stinging pains in joints,rheumatism of muscles,1.0,1
+stinging pains in joints,pain in upper dorsal vertebrae,1.0,1
+stinging pains in joints,constrictive rheumatic pain in deltoid muscle,1.0,1
+stinging pains in joints,rheumatic pain on top of head,1.0,1
+stinging pains in joints,dullness,1.0,1
+stinging pains in joints,drawing up of leg in sleep,1.0,1
+stinging pains in joints,pain in shoulders,1.0,1
+stinging pains in joints,fine sharp stitches in forearm,1.0,1
+stinging pains in joints,tearing burning pains from neck to left axilla,1.0,1
+stinging pains in joints,drawing laming pains in muscles,1.0,1
+stinging pains in joints,jerking of muscles of arms,1.0,1
+stinging pains in joints,pain in cervical vertebrae,1.0,1
+stinging pains in joints,rheumatic origin,1.0,1
+stinging pains in joints,jerking of muscles of thighs,1.0,1
+jerking in knee joints,drawing rheumatic pains from side of neck to limbs,1.0,1
+jerking in knee joints,jerking of elbows,1.0,1
+jerking in knee joints,sharp stitches in joints,1.0,1
+jerking in knee joints,jerking in thigh,1.0,1
+jerking in knee joints,children under seven years,1.0,1
+jerking in knee joints,rheumatic drawing in left tarsus,1.0,1
+jerking in knee joints,great rigidity of muscles of neck,1.0,1
+jerking in knee joints,starting in sleep,1.0,1
+jerking in knee joints,aching drawing pain in right arm above elbow,1.0,1
+jerking in knee joints,sharp stitches in right shin bone,1.0,1
+jerking in knee joints,cannot bend forward,1.0,1
+jerking in knee joints,beginning of inflammation of joints,1.0,1
+jerking in knee joints,great rigidity of muscles of back,1.0,1
+jerking in knee joints,inflammatory affections of brain,1.0,1
+jerking in knee joints,restless motion of head,1.0,1
+jerking in knee joints,worse during winter,1.0,1
+jerking in knee joints,drawing pains in thighs,1.0,1
+jerking in knee joints,pressing pain in left tarsus,1.0,1
+jerking in knee joints,restless motion,1.0,1
+jerking in knee joints,stitches in forearm,1.0,1
+jerking in knee joints,rheumatism of muscles,1.0,1
+jerking in knee joints,pain in upper dorsal vertebrae,1.0,1
+jerking in knee joints,stinging pains in joints,1.0,1
+jerking in knee joints,constrictive rheumatic pain in deltoid muscle,1.0,1
+jerking in knee joints,rheumatic pain on top of head,1.0,1
+jerking in knee joints,dullness,1.0,1
+jerking in knee joints,drawing up of leg in sleep,1.0,1
+jerking in knee joints,pain in shoulders,1.0,1
+jerking in knee joints,fine sharp stitches in forearm,1.0,1
+jerking in knee joints,tearing burning pains from neck to left axilla,1.0,1
+jerking in knee joints,drawing laming pains in muscles,1.0,1
+jerking in knee joints,jerking of muscles of arms,1.0,1
+jerking in knee joints,pain in cervical vertebrae,1.0,1
+jerking in knee joints,rheumatic origin,1.0,1
+jerking in knee joints,jerking of muscles of thighs,1.0,1
+drawing rheumatic pains from side of neck to limbs,jerking of elbows,1.0,1
+drawing rheumatic pains from side of neck to limbs,sharp stitches in joints,1.0,1
+drawing rheumatic pains from side of neck to limbs,jerking in thigh,1.0,1
+drawing rheumatic pains from side of neck to limbs,children under seven years,1.0,1
+drawing rheumatic pains from side of neck to limbs,rheumatic drawing in left tarsus,1.0,1
+drawing rheumatic pains from side of neck to limbs,great rigidity of muscles of neck,1.0,1
+drawing rheumatic pains from side of neck to limbs,starting in sleep,1.0,1
+drawing rheumatic pains from side of neck to limbs,aching drawing pain in right arm above elbow,1.0,1
+drawing rheumatic pains from side of neck to limbs,sharp stitches in right shin bone,1.0,1
+drawing rheumatic pains from side of neck to limbs,cannot bend forward,1.0,1
+drawing rheumatic pains from side of neck to limbs,beginning of inflammation of joints,1.0,1
+drawing rheumatic pains from side of neck to limbs,jerking in knee joints,1.0,1
+drawing rheumatic pains from side of neck to limbs,great rigidity of muscles of back,1.0,1
+drawing rheumatic pains from side of neck to limbs,inflammatory affections of brain,1.0,1
+drawing rheumatic pains from side of neck to limbs,restless motion of head,1.0,1
+drawing rheumatic pains from side of neck to limbs,worse during winter,1.0,1
+drawing rheumatic pains from side of neck to limbs,drawing pains in thighs,1.0,1
+drawing rheumatic pains from side of neck to limbs,pressing pain in left tarsus,1.0,1
+drawing rheumatic pains from side of neck to limbs,restless motion,1.0,1
+drawing rheumatic pains from side of neck to limbs,stitches in forearm,1.0,1
+drawing rheumatic pains from side of neck to limbs,rheumatism of muscles,1.0,1
+drawing rheumatic pains from side of neck to limbs,pain in upper dorsal vertebrae,1.0,1
+drawing rheumatic pains from side of neck to limbs,stinging pains in joints,1.0,1
+drawing rheumatic pains from side of neck to limbs,constrictive rheumatic pain in deltoid muscle,1.0,1
+drawing rheumatic pains from side of neck to limbs,rheumatic pain on top of head,1.0,1
+drawing rheumatic pains from side of neck to limbs,dullness,1.0,1
+drawing rheumatic pains from side of neck to limbs,drawing up of leg in sleep,1.0,1
+drawing rheumatic pains from side of neck to limbs,pain in shoulders,1.0,1
+drawing rheumatic pains from side of neck to limbs,fine sharp stitches in forearm,1.0,1
+drawing rheumatic pains from side of neck to limbs,tearing burning pains from neck to left axilla,1.0,1
+drawing rheumatic pains from side of neck to limbs,drawing laming pains in muscles,1.0,1
+drawing rheumatic pains from side of neck to limbs,jerking of muscles of arms,1.0,1
+drawing rheumatic pains from side of neck to limbs,pain in cervical vertebrae,1.0,1
+drawing rheumatic pains from side of neck to limbs,rheumatic origin,1.0,1
+drawing rheumatic pains from side of neck to limbs,jerking of muscles of thighs,1.0,1
+restless motion,drawing rheumatic pains from side of neck to limbs,1.0,1
+restless motion,jerking of elbows,1.0,1
+restless motion,sharp stitches in joints,1.0,1
+restless motion,jerking in thigh,1.0,1
+restless motion,children under seven years,1.0,1
+restless motion,rheumatic drawing in left tarsus,1.0,1
+restless motion,great rigidity of muscles of neck,1.0,1
+restless motion,starting in sleep,1.0,1
+restless motion,aching drawing pain in right arm above elbow,1.0,1
+restless motion,sharp stitches in right shin bone,1.0,1
+restless motion,cannot bend forward,1.0,1
+restless motion,beginning of inflammation of joints,1.0,1
+restless motion,jerking in knee joints,1.0,1
+restless motion,great rigidity of muscles of back,1.0,1
+restless motion,inflammatory affections of brain,1.0,1
+restless motion,restless motion of head,1.0,1
+restless motion,worse during winter,1.0,1
+restless motion,drawing pains in thighs,1.0,1
+restless motion,pressing pain in left tarsus,1.0,1
+restless motion,stitches in forearm,1.0,1
+restless motion,rheumatism of muscles,1.0,1
+restless motion,pain in upper dorsal vertebrae,1.0,1
+restless motion,stinging pains in joints,1.0,1
+restless motion,constrictive rheumatic pain in deltoid muscle,1.0,1
+restless motion,rheumatic pain on top of head,1.0,1
+restless motion,dullness,1.0,1
+restless motion,drawing up of leg in sleep,1.0,1
+restless motion,pain in shoulders,1.0,1
+restless motion,fine sharp stitches in forearm,1.0,1
+restless motion,tearing burning pains from neck to left axilla,1.0,1
+restless motion,drawing laming pains in muscles,1.0,1
+restless motion,jerking of muscles of arms,1.0,1
+restless motion,pain in cervical vertebrae,1.0,1
+restless motion,rheumatic origin,1.0,1
+restless motion,jerking of muscles of thighs,1.0,1
+pain in upper dorsal vertebrae,drawing rheumatic pains from side of neck to limbs,1.0,1
+pain in upper dorsal vertebrae,jerking of elbows,1.0,1
+pain in upper dorsal vertebrae,sharp stitches in joints,1.0,1
+pain in upper dorsal vertebrae,jerking in thigh,1.0,1
+pain in upper dorsal vertebrae,children under seven years,1.0,1
+pain in upper dorsal vertebrae,rheumatic drawing in left tarsus,1.0,1
+pain in upper dorsal vertebrae,great rigidity of muscles of neck,1.0,1
+pain in upper dorsal vertebrae,starting in sleep,1.0,1
+pain in upper dorsal vertebrae,aching drawing pain in right arm above elbow,1.0,1
+pain in upper dorsal vertebrae,sharp stitches in right shin bone,1.0,1
+pain in upper dorsal vertebrae,cannot bend forward,1.0,1
+pain in upper dorsal vertebrae,beginning of inflammation of joints,1.0,1
+pain in upper dorsal vertebrae,jerking in knee joints,1.0,1
+pain in upper dorsal vertebrae,great rigidity of muscles of back,1.0,1
+pain in upper dorsal vertebrae,inflammatory affections of brain,1.0,1
+pain in upper dorsal vertebrae,restless motion of head,1.0,1
+pain in upper dorsal vertebrae,worse during winter,1.0,1
+pain in upper dorsal vertebrae,drawing pains in thighs,1.0,1
+pain in upper dorsal vertebrae,pressing pain in left tarsus,1.0,1
+pain in upper dorsal vertebrae,restless motion,1.0,1
+pain in upper dorsal vertebrae,stitches in forearm,1.0,1
+pain in upper dorsal vertebrae,rheumatism of muscles,1.0,1
+pain in upper dorsal vertebrae,stinging pains in joints,1.0,1
+pain in upper dorsal vertebrae,constrictive rheumatic pain in deltoid muscle,1.0,1
+pain in upper dorsal vertebrae,rheumatic pain on top of head,1.0,1
+pain in upper dorsal vertebrae,dullness,1.0,1
+pain in upper dorsal vertebrae,drawing up of leg in sleep,1.0,1
+pain in upper dorsal vertebrae,pain in shoulders,1.0,1
+pain in upper dorsal vertebrae,fine sharp stitches in forearm,1.0,1
+pain in upper dorsal vertebrae,tearing burning pains from neck to left axilla,1.0,1
+pain in upper dorsal vertebrae,drawing laming pains in muscles,1.0,1
+pain in upper dorsal vertebrae,jerking of muscles of arms,1.0,1
+pain in upper dorsal vertebrae,pain in cervical vertebrae,1.0,1
+pain in upper dorsal vertebrae,rheumatic origin,1.0,1
+pain in upper dorsal vertebrae,jerking of muscles of thighs,1.0,1
+pressing pain in left tarsus,drawing rheumatic pains from side of neck to limbs,1.0,1
+pressing pain in left tarsus,jerking of elbows,1.0,1
+pressing pain in left tarsus,sharp stitches in joints,1.0,1
+pressing pain in left tarsus,jerking in thigh,1.0,1
+pressing pain in left tarsus,children under seven years,1.0,1
+pressing pain in left tarsus,rheumatic drawing in left tarsus,1.0,1
+pressing pain in left tarsus,great rigidity of muscles of neck,1.0,1
+pressing pain in left tarsus,starting in sleep,1.0,1
+pressing pain in left tarsus,aching drawing pain in right arm above elbow,1.0,1
+pressing pain in left tarsus,sharp stitches in right shin bone,1.0,1
+pressing pain in left tarsus,cannot bend forward,1.0,1
+pressing pain in left tarsus,beginning of inflammation of joints,1.0,1
+pressing pain in left tarsus,jerking in knee joints,1.0,1
+pressing pain in left tarsus,great rigidity of muscles of back,1.0,1
+pressing pain in left tarsus,inflammatory affections of brain,1.0,1
+pressing pain in left tarsus,restless motion of head,1.0,1
+pressing pain in left tarsus,worse during winter,1.0,1
+pressing pain in left tarsus,drawing pains in thighs,1.0,1
+pressing pain in left tarsus,restless motion,1.0,1
+pressing pain in left tarsus,stitches in forearm,1.0,1
+pressing pain in left tarsus,rheumatism of muscles,1.0,1
+pressing pain in left tarsus,pain in upper dorsal vertebrae,1.0,1
+pressing pain in left tarsus,stinging pains in joints,1.0,1
+pressing pain in left tarsus,constrictive rheumatic pain in deltoid muscle,1.0,1
+pressing pain in left tarsus,rheumatic pain on top of head,1.0,1
+pressing pain in left tarsus,dullness,1.0,1
+pressing pain in left tarsus,drawing up of leg in sleep,1.0,1
+pressing pain in left tarsus,pain in shoulders,1.0,1
+pressing pain in left tarsus,fine sharp stitches in forearm,1.0,1
+pressing pain in left tarsus,tearing burning pains from neck to left axilla,1.0,1
+pressing pain in left tarsus,drawing laming pains in muscles,1.0,1
+pressing pain in left tarsus,jerking of muscles of arms,1.0,1
+pressing pain in left tarsus,pain in cervical vertebrae,1.0,1
+pressing pain in left tarsus,rheumatic origin,1.0,1
+pressing pain in left tarsus,jerking of muscles of thighs,1.0,1
+dullness,drawing rheumatic pains from side of neck to limbs,1.0,1
+dullness,jerking of elbows,1.0,1
+dullness,sharp stitches in joints,1.0,1
+dullness,jerking in thigh,1.0,1
+dullness,children under seven years,1.0,1
+dullness,rheumatic drawing in left tarsus,1.0,1
+dullness,great rigidity of muscles of neck,1.0,1
+dullness,starting in sleep,1.0,1
+dullness,aching drawing pain in right arm above elbow,1.0,1
+dullness,sharp stitches in right shin bone,1.0,1
+dullness,cannot bend forward,1.0,1
+dullness,beginning of inflammation of joints,1.0,1
+dullness,jerking in knee joints,1.0,1
+dullness,great rigidity of muscles of back,1.0,1
+dullness,inflammatory affections of brain,1.0,1
+dullness,restless motion of head,1.0,1
+dullness,worse during winter,1.0,1
+dullness,drawing pains in thighs,1.0,1
+dullness,pressing pain in left tarsus,1.0,1
+dullness,restless motion,1.0,1
+dullness,stitches in forearm,1.0,1
+dullness,rheumatism of muscles,1.0,1
+dullness,pain in upper dorsal vertebrae,1.0,1
+dullness,stinging pains in joints,1.0,1
+dullness,constrictive rheumatic pain in deltoid muscle,1.0,1
+dullness,rheumatic pain on top of head,1.0,1
+dullness,drawing up of leg in sleep,1.0,1
+dullness,pain in shoulders,1.0,1
+dullness,fine sharp stitches in forearm,1.0,1
+dullness,tearing burning pains from neck to left axilla,1.0,1
+dullness,drawing laming pains in muscles,1.0,1
+dullness,jerking of muscles of arms,1.0,1
+dullness,pain in cervical vertebrae,1.0,1
+dullness,rheumatic origin,1.0,1
+dullness,jerking of muscles of thighs,1.0,1
+restless motion of head,drawing rheumatic pains from side of neck to limbs,1.0,1
+restless motion of head,jerking of elbows,1.0,1
+restless motion of head,sharp stitches in joints,1.0,1
+restless motion of head,jerking in thigh,1.0,1
+restless motion of head,children under seven years,1.0,1
+restless motion of head,rheumatic drawing in left tarsus,1.0,1
+restless motion of head,great rigidity of muscles of neck,1.0,1
+restless motion of head,starting in sleep,1.0,1
+restless motion of head,aching drawing pain in right arm above elbow,1.0,1
+restless motion of head,sharp stitches in right shin bone,1.0,1
+restless motion of head,cannot bend forward,1.0,1
+restless motion of head,beginning of inflammation of joints,1.0,1
+restless motion of head,jerking in knee joints,1.0,1
+restless motion of head,great rigidity of muscles of back,1.0,1
+restless motion of head,inflammatory affections of brain,1.0,1
+restless motion of head,worse during winter,1.0,1
+restless motion of head,drawing pains in thighs,1.0,1
+restless motion of head,pressing pain in left tarsus,1.0,1
+restless motion of head,restless motion,1.0,1
+restless motion of head,stitches in forearm,1.0,1
+restless motion of head,rheumatism of muscles,1.0,1
+restless motion of head,pain in upper dorsal vertebrae,1.0,1
+restless motion of head,stinging pains in joints,1.0,1
+restless motion of head,constrictive rheumatic pain in deltoid muscle,1.0,1
+restless motion of head,rheumatic pain on top of head,1.0,1
+restless motion of head,dullness,1.0,1
+restless motion of head,drawing up of leg in sleep,1.0,1
+restless motion of head,pain in shoulders,1.0,1
+restless motion of head,fine sharp stitches in forearm,1.0,1
+restless motion of head,tearing burning pains from neck to left axilla,1.0,1
+restless motion of head,drawing laming pains in muscles,1.0,1
+restless motion of head,jerking of muscles of arms,1.0,1
+restless motion of head,pain in cervical vertebrae,1.0,1
+restless motion of head,rheumatic origin,1.0,1
+restless motion of head,jerking of muscles of thighs,1.0,1
+worse during winter,drawing rheumatic pains from side of neck to limbs,1.0,1
+worse during winter,jerking of elbows,1.0,1
+worse during winter,sharp stitches in joints,1.0,1
+worse during winter,jerking in thigh,1.0,1
+worse during winter,children under seven years,1.0,1
+worse during winter,rheumatic drawing in left tarsus,1.0,1
+worse during winter,great rigidity of muscles of neck,1.0,1
+worse during winter,starting in sleep,1.0,1
+worse during winter,aching drawing pain in right arm above elbow,1.0,1
+worse during winter,sharp stitches in right shin bone,1.0,1
+worse during winter,cannot bend forward,1.0,1
+worse during winter,beginning of inflammation of joints,1.0,1
+worse during winter,jerking in knee joints,1.0,1
+worse during winter,great rigidity of muscles of back,1.0,1
+worse during winter,inflammatory affections of brain,1.0,1
+worse during winter,restless motion of head,1.0,1
+worse during winter,drawing pains in thighs,1.0,1
+worse during winter,pressing pain in left tarsus,1.0,1
+worse during winter,restless motion,1.0,1
+worse during winter,stitches in forearm,1.0,1
+worse during winter,rheumatism of muscles,1.0,1
+worse during winter,pain in upper dorsal vertebrae,1.0,1
+worse during winter,stinging pains in joints,1.0,1
+worse during winter,constrictive rheumatic pain in deltoid muscle,1.0,1
+worse during winter,rheumatic pain on top of head,1.0,1
+worse during winter,dullness,1.0,1
+worse during winter,drawing up of leg in sleep,1.0,1
+worse during winter,pain in shoulders,1.0,1
+worse during winter,fine sharp stitches in forearm,1.0,1
+worse during winter,tearing burning pains from neck to left axilla,1.0,1
+worse during winter,drawing laming pains in muscles,1.0,1
+worse during winter,jerking of muscles of arms,1.0,1
+worse during winter,pain in cervical vertebrae,1.0,1
+worse during winter,rheumatic origin,1.0,1
+worse during winter,jerking of muscles of thighs,1.0,1
+sharp stitches in right shin bone,drawing rheumatic pains from side of neck to limbs,1.0,1
+sharp stitches in right shin bone,jerking of elbows,1.0,1
+sharp stitches in right shin bone,sharp stitches in joints,1.0,1
+sharp stitches in right shin bone,jerking in thigh,1.0,1
+sharp stitches in right shin bone,children under seven years,1.0,1
+sharp stitches in right shin bone,rheumatic drawing in left tarsus,1.0,1
+sharp stitches in right shin bone,great rigidity of muscles of neck,1.0,1
+sharp stitches in right shin bone,starting in sleep,1.0,1
+sharp stitches in right shin bone,aching drawing pain in right arm above elbow,1.0,1
+sharp stitches in right shin bone,cannot bend forward,1.0,1
+sharp stitches in right shin bone,beginning of inflammation of joints,1.0,1
+sharp stitches in right shin bone,jerking in knee joints,1.0,1
+sharp stitches in right shin bone,great rigidity of muscles of back,1.0,1
+sharp stitches in right shin bone,inflammatory affections of brain,1.0,1
+sharp stitches in right shin bone,restless motion of head,1.0,1
+sharp stitches in right shin bone,worse during winter,1.0,1
+sharp stitches in right shin bone,drawing pains in thighs,1.0,1
+sharp stitches in right shin bone,pressing pain in left tarsus,1.0,1
+sharp stitches in right shin bone,restless motion,1.0,1
+sharp stitches in right shin bone,stitches in forearm,1.0,1
+sharp stitches in right shin bone,rheumatism of muscles,1.0,1
+sharp stitches in right shin bone,pain in upper dorsal vertebrae,1.0,1
+sharp stitches in right shin bone,stinging pains in joints,1.0,1
+sharp stitches in right shin bone,constrictive rheumatic pain in deltoid muscle,1.0,1
+sharp stitches in right shin bone,rheumatic pain on top of head,1.0,1
+sharp stitches in right shin bone,dullness,1.0,1
+sharp stitches in right shin bone,drawing up of leg in sleep,1.0,1
+sharp stitches in right shin bone,pain in shoulders,1.0,1
+sharp stitches in right shin bone,fine sharp stitches in forearm,1.0,1
+sharp stitches in right shin bone,tearing burning pains from neck to left axilla,1.0,1
+sharp stitches in right shin bone,drawing laming pains in muscles,1.0,1
+sharp stitches in right shin bone,jerking of muscles of arms,1.0,1
+sharp stitches in right shin bone,pain in cervical vertebrae,1.0,1
+sharp stitches in right shin bone,rheumatic origin,1.0,1
+sharp stitches in right shin bone,jerking of muscles of thighs,1.0,1
+jerking in thigh,drawing rheumatic pains from side of neck to limbs,1.0,1
+jerking in thigh,jerking of elbows,1.0,1
+jerking in thigh,sharp stitches in joints,1.0,1
+jerking in thigh,children under seven years,1.0,1
+jerking in thigh,rheumatic drawing in left tarsus,1.0,1
+jerking in thigh,great rigidity of muscles of neck,1.0,1
+jerking in thigh,starting in sleep,1.0,1
+jerking in thigh,aching drawing pain in right arm above elbow,1.0,1
+jerking in thigh,sharp stitches in right shin bone,1.0,1
+jerking in thigh,cannot bend forward,1.0,1
+jerking in thigh,beginning of inflammation of joints,1.0,1
+jerking in thigh,jerking in knee joints,1.0,1
+jerking in thigh,great rigidity of muscles of back,1.0,1
+jerking in thigh,inflammatory affections of brain,1.0,1
+jerking in thigh,restless motion of head,1.0,1
+jerking in thigh,worse during winter,1.0,1
+jerking in thigh,drawing pains in thighs,1.0,1
+jerking in thigh,pressing pain in left tarsus,1.0,1
+jerking in thigh,restless motion,1.0,1
+jerking in thigh,stitches in forearm,1.0,1
+jerking in thigh,rheumatism of muscles,1.0,1
+jerking in thigh,pain in upper dorsal vertebrae,1.0,1
+jerking in thigh,stinging pains in joints,1.0,1
+jerking in thigh,constrictive rheumatic pain in deltoid muscle,1.0,1
+jerking in thigh,rheumatic pain on top of head,1.0,1
+jerking in thigh,dullness,1.0,1
+jerking in thigh,drawing up of leg in sleep,1.0,1
+jerking in thigh,pain in shoulders,1.0,1
+jerking in thigh,fine sharp stitches in forearm,1.0,1
+jerking in thigh,tearing burning pains from neck to left axilla,1.0,1
+jerking in thigh,drawing laming pains in muscles,1.0,1
+jerking in thigh,jerking of muscles of arms,1.0,1
+jerking in thigh,pain in cervical vertebrae,1.0,1
+jerking in thigh,rheumatic origin,1.0,1
+jerking in thigh,jerking of muscles of thighs,1.0,1
+fine sharp stitches in forearm,drawing rheumatic pains from side of neck to limbs,1.0,1
+fine sharp stitches in forearm,jerking of elbows,1.0,1
+fine sharp stitches in forearm,sharp stitches in joints,1.0,1
+fine sharp stitches in forearm,jerking in thigh,1.0,1
+fine sharp stitches in forearm,children under seven years,1.0,1
+fine sharp stitches in forearm,rheumatic drawing in left tarsus,1.0,1
+fine sharp stitches in forearm,great rigidity of muscles of neck,1.0,1
+fine sharp stitches in forearm,starting in sleep,1.0,1
+fine sharp stitches in forearm,aching drawing pain in right arm above elbow,1.0,1
+fine sharp stitches in forearm,sharp stitches in right shin bone,1.0,1
+fine sharp stitches in forearm,cannot bend forward,1.0,1
+fine sharp stitches in forearm,beginning of inflammation of joints,1.0,1
+fine sharp stitches in forearm,jerking in knee joints,1.0,1
+fine sharp stitches in forearm,great rigidity of muscles of back,1.0,1
+fine sharp stitches in forearm,inflammatory affections of brain,1.0,1
+fine sharp stitches in forearm,restless motion of head,1.0,1
+fine sharp stitches in forearm,worse during winter,1.0,1
+fine sharp stitches in forearm,drawing pains in thighs,1.0,1
+fine sharp stitches in forearm,pressing pain in left tarsus,1.0,1
+fine sharp stitches in forearm,restless motion,1.0,1
+fine sharp stitches in forearm,stitches in forearm,1.0,1
+fine sharp stitches in forearm,rheumatism of muscles,1.0,1
+fine sharp stitches in forearm,pain in upper dorsal vertebrae,1.0,1
+fine sharp stitches in forearm,stinging pains in joints,1.0,1
+fine sharp stitches in forearm,constrictive rheumatic pain in deltoid muscle,1.0,1
+fine sharp stitches in forearm,rheumatic pain on top of head,1.0,1
+fine sharp stitches in forearm,dullness,1.0,1
+fine sharp stitches in forearm,drawing up of leg in sleep,1.0,1
+fine sharp stitches in forearm,pain in shoulders,1.0,1
+fine sharp stitches in forearm,tearing burning pains from neck to left axilla,1.0,1
+fine sharp stitches in forearm,drawing laming pains in muscles,1.0,1
+fine sharp stitches in forearm,jerking of muscles of arms,1.0,1
+fine sharp stitches in forearm,pain in cervical vertebrae,1.0,1
+fine sharp stitches in forearm,rheumatic origin,1.0,1
+fine sharp stitches in forearm,jerking of muscles of thighs,1.0,1
+drawing laming pains in muscles,drawing rheumatic pains from side of neck to limbs,1.0,1
+drawing laming pains in muscles,jerking of elbows,1.0,1
+drawing laming pains in muscles,sharp stitches in joints,1.0,1
+drawing laming pains in muscles,jerking in thigh,1.0,1
+drawing laming pains in muscles,children under seven years,1.0,1
+drawing laming pains in muscles,rheumatic drawing in left tarsus,1.0,1
+drawing laming pains in muscles,great rigidity of muscles of neck,1.0,1
+drawing laming pains in muscles,starting in sleep,1.0,1
+drawing laming pains in muscles,aching drawing pain in right arm above elbow,1.0,1
+drawing laming pains in muscles,sharp stitches in right shin bone,1.0,1
+drawing laming pains in muscles,cannot bend forward,1.0,1
+drawing laming pains in muscles,beginning of inflammation of joints,1.0,1
+drawing laming pains in muscles,jerking in knee joints,1.0,1
+drawing laming pains in muscles,great rigidity of muscles of back,1.0,1
+drawing laming pains in muscles,inflammatory affections of brain,1.0,1
+drawing laming pains in muscles,restless motion of head,1.0,1
+drawing laming pains in muscles,worse during winter,1.0,1
+drawing laming pains in muscles,drawing pains in thighs,1.0,1
+drawing laming pains in muscles,pressing pain in left tarsus,1.0,1
+drawing laming pains in muscles,restless motion,1.0,1
+drawing laming pains in muscles,stitches in forearm,1.0,1
+drawing laming pains in muscles,rheumatism of muscles,1.0,1
+drawing laming pains in muscles,pain in upper dorsal vertebrae,1.0,1
+drawing laming pains in muscles,stinging pains in joints,1.0,1
+drawing laming pains in muscles,constrictive rheumatic pain in deltoid muscle,1.0,1
+drawing laming pains in muscles,rheumatic pain on top of head,1.0,1
+drawing laming pains in muscles,dullness,1.0,1
+drawing laming pains in muscles,drawing up of leg in sleep,1.0,1
+drawing laming pains in muscles,pain in shoulders,1.0,1
+drawing laming pains in muscles,fine sharp stitches in forearm,1.0,1
+drawing laming pains in muscles,tearing burning pains from neck to left axilla,1.0,1
+drawing laming pains in muscles,jerking of muscles of arms,1.0,1
+drawing laming pains in muscles,pain in cervical vertebrae,1.0,1
+drawing laming pains in muscles,rheumatic origin,1.0,1
+drawing laming pains in muscles,jerking of muscles of thighs,1.0,1
+inflammatory affections of brain,drawing rheumatic pains from side of neck to limbs,1.0,1
+inflammatory affections of brain,jerking of elbows,1.0,1
+inflammatory affections of brain,sharp stitches in joints,1.0,1
+inflammatory affections of brain,jerking in thigh,1.0,1
+inflammatory affections of brain,children under seven years,1.0,1
+inflammatory affections of brain,rheumatic drawing in left tarsus,1.0,1
+inflammatory affections of brain,great rigidity of muscles of neck,1.0,1
+inflammatory affections of brain,starting in sleep,1.0,1
+inflammatory affections of brain,aching drawing pain in right arm above elbow,1.0,1
+inflammatory affections of brain,sharp stitches in right shin bone,1.0,1
+inflammatory affections of brain,cannot bend forward,1.0,1
+inflammatory affections of brain,beginning of inflammation of joints,1.0,1
+inflammatory affections of brain,jerking in knee joints,1.0,1
+inflammatory affections of brain,great rigidity of muscles of back,1.0,1
+inflammatory affections of brain,restless motion of head,1.0,1
+inflammatory affections of brain,worse during winter,1.0,1
+inflammatory affections of brain,drawing pains in thighs,1.0,1
+inflammatory affections of brain,pressing pain in left tarsus,1.0,1
+inflammatory affections of brain,restless motion,1.0,1
+inflammatory affections of brain,stitches in forearm,1.0,1
+inflammatory affections of brain,rheumatism of muscles,1.0,1
+inflammatory affections of brain,pain in upper dorsal vertebrae,1.0,1
+inflammatory affections of brain,stinging pains in joints,1.0,1
+inflammatory affections of brain,constrictive rheumatic pain in deltoid muscle,1.0,1
+inflammatory affections of brain,rheumatic pain on top of head,1.0,1
+inflammatory affections of brain,dullness,1.0,1
+inflammatory affections of brain,drawing up of leg in sleep,1.0,1
+inflammatory affections of brain,pain in shoulders,1.0,1
+inflammatory affections of brain,fine sharp stitches in forearm,1.0,1
+inflammatory affections of brain,tearing burning pains from neck to left axilla,1.0,1
+inflammatory affections of brain,drawing laming pains in muscles,1.0,1
+inflammatory affections of brain,jerking of muscles of arms,1.0,1
+inflammatory affections of brain,pain in cervical vertebrae,1.0,1
+inflammatory affections of brain,rheumatic origin,1.0,1
+inflammatory affections of brain,jerking of muscles of thighs,1.0,1
+drawing pains in thighs,drawing rheumatic pains from side of neck to limbs,1.0,1
+drawing pains in thighs,jerking of elbows,1.0,1
+drawing pains in thighs,sharp stitches in joints,1.0,1
+drawing pains in thighs,jerking in thigh,1.0,1
+drawing pains in thighs,children under seven years,1.0,1
+drawing pains in thighs,rheumatic drawing in left tarsus,1.0,1
+drawing pains in thighs,great rigidity of muscles of neck,1.0,1
+drawing pains in thighs,starting in sleep,1.0,1
+drawing pains in thighs,aching drawing pain in right arm above elbow,1.0,1
+drawing pains in thighs,sharp stitches in right shin bone,1.0,1
+drawing pains in thighs,cannot bend forward,1.0,1
+drawing pains in thighs,beginning of inflammation of joints,1.0,1
+drawing pains in thighs,jerking in knee joints,1.0,1
+drawing pains in thighs,great rigidity of muscles of back,1.0,1
+drawing pains in thighs,inflammatory affections of brain,1.0,1
+drawing pains in thighs,restless motion of head,1.0,1
+drawing pains in thighs,worse during winter,1.0,1
+drawing pains in thighs,pressing pain in left tarsus,1.0,1
+drawing pains in thighs,restless motion,1.0,1
+drawing pains in thighs,stitches in forearm,1.0,1
+drawing pains in thighs,rheumatism of muscles,1.0,1
+drawing pains in thighs,pain in upper dorsal vertebrae,1.0,1
+drawing pains in thighs,stinging pains in joints,1.0,1
+drawing pains in thighs,constrictive rheumatic pain in deltoid muscle,1.0,1
+drawing pains in thighs,rheumatic pain on top of head,1.0,1
+drawing pains in thighs,dullness,1.0,1
+drawing pains in thighs,drawing up of leg in sleep,1.0,1
+drawing pains in thighs,pain in shoulders,1.0,1
+drawing pains in thighs,fine sharp stitches in forearm,1.0,1
+drawing pains in thighs,tearing burning pains from neck to left axilla,1.0,1
+drawing pains in thighs,drawing laming pains in muscles,1.0,1
+drawing pains in thighs,jerking of muscles of arms,1.0,1
+drawing pains in thighs,pain in cervical vertebrae,1.0,1
+drawing pains in thighs,rheumatic origin,1.0,1
+drawing pains in thighs,jerking of muscles of thighs,1.0,1
+rheumatic drawing in left tarsus,drawing rheumatic pains from side of neck to limbs,1.0,1
+rheumatic drawing in left tarsus,jerking of elbows,1.0,1
+rheumatic drawing in left tarsus,sharp stitches in joints,1.0,1
+rheumatic drawing in left tarsus,jerking in thigh,1.0,1
+rheumatic drawing in left tarsus,children under seven years,1.0,1
+rheumatic drawing in left tarsus,great rigidity of muscles of neck,1.0,1
+rheumatic drawing in left tarsus,starting in sleep,1.0,1
+rheumatic drawing in left tarsus,aching drawing pain in right arm above elbow,1.0,1
+rheumatic drawing in left tarsus,sharp stitches in right shin bone,1.0,1
+rheumatic drawing in left tarsus,cannot bend forward,1.0,1
+rheumatic drawing in left tarsus,beginning of inflammation of joints,1.0,1
+rheumatic drawing in left tarsus,jerking in knee joints,1.0,1
+rheumatic drawing in left tarsus,great rigidity of muscles of back,1.0,1
+rheumatic drawing in left tarsus,inflammatory affections of brain,1.0,1
+rheumatic drawing in left tarsus,restless motion of head,1.0,1
+rheumatic drawing in left tarsus,worse during winter,1.0,1
+rheumatic drawing in left tarsus,drawing pains in thighs,1.0,1
+rheumatic drawing in left tarsus,pressing pain in left tarsus,1.0,1
+rheumatic drawing in left tarsus,restless motion,1.0,1
+rheumatic drawing in left tarsus,stitches in forearm,1.0,1
+rheumatic drawing in left tarsus,rheumatism of muscles,1.0,1
+rheumatic drawing in left tarsus,pain in upper dorsal vertebrae,1.0,1
+rheumatic drawing in left tarsus,stinging pains in joints,1.0,1
+rheumatic drawing in left tarsus,constrictive rheumatic pain in deltoid muscle,1.0,1
+rheumatic drawing in left tarsus,rheumatic pain on top of head,1.0,1
+rheumatic drawing in left tarsus,dullness,1.0,1
+rheumatic drawing in left tarsus,drawing up of leg in sleep,1.0,1
+rheumatic drawing in left tarsus,pain in shoulders,1.0,1
+rheumatic drawing in left tarsus,fine sharp stitches in forearm,1.0,1
+rheumatic drawing in left tarsus,tearing burning pains from neck to left axilla,1.0,1
+rheumatic drawing in left tarsus,drawing laming pains in muscles,1.0,1
+rheumatic drawing in left tarsus,jerking of muscles of arms,1.0,1
+rheumatic drawing in left tarsus,pain in cervical vertebrae,1.0,1
+rheumatic drawing in left tarsus,rheumatic origin,1.0,1
+rheumatic drawing in left tarsus,jerking of muscles of thighs,1.0,1
+tearing burning pains from neck to left axilla,drawing rheumatic pains from side of neck to limbs,1.0,1
+tearing burning pains from neck to left axilla,jerking of elbows,1.0,1
+tearing burning pains from neck to left axilla,sharp stitches in joints,1.0,1
+tearing burning pains from neck to left axilla,jerking in thigh,1.0,1
+tearing burning pains from neck to left axilla,children under seven years,1.0,1
+tearing burning pains from neck to left axilla,rheumatic drawing in left tarsus,1.0,1
+tearing burning pains from neck to left axilla,great rigidity of muscles of neck,1.0,1
+tearing burning pains from neck to left axilla,starting in sleep,1.0,1
+tearing burning pains from neck to left axilla,aching drawing pain in right arm above elbow,1.0,1
+tearing burning pains from neck to left axilla,sharp stitches in right shin bone,1.0,1
+tearing burning pains from neck to left axilla,cannot bend forward,1.0,1
+tearing burning pains from neck to left axilla,beginning of inflammation of joints,1.0,1
+tearing burning pains from neck to left axilla,jerking in knee joints,1.0,1
+tearing burning pains from neck to left axilla,great rigidity of muscles of back,1.0,1
+tearing burning pains from neck to left axilla,inflammatory affections of brain,1.0,1
+tearing burning pains from neck to left axilla,restless motion of head,1.0,1
+tearing burning pains from neck to left axilla,worse during winter,1.0,1
+tearing burning pains from neck to left axilla,drawing pains in thighs,1.0,1
+tearing burning pains from neck to left axilla,pressing pain in left tarsus,1.0,1
+tearing burning pains from neck to left axilla,restless motion,1.0,1
+tearing burning pains from neck to left axilla,stitches in forearm,1.0,1
+tearing burning pains from neck to left axilla,rheumatism of muscles,1.0,1
+tearing burning pains from neck to left axilla,pain in upper dorsal vertebrae,1.0,1
+tearing burning pains from neck to left axilla,stinging pains in joints,1.0,1
+tearing burning pains from neck to left axilla,constrictive rheumatic pain in deltoid muscle,1.0,1
+tearing burning pains from neck to left axilla,rheumatic pain on top of head,1.0,1
+tearing burning pains from neck to left axilla,dullness,1.0,1
+tearing burning pains from neck to left axilla,drawing up of leg in sleep,1.0,1
+tearing burning pains from neck to left axilla,pain in shoulders,1.0,1
+tearing burning pains from neck to left axilla,fine sharp stitches in forearm,1.0,1
+tearing burning pains from neck to left axilla,drawing laming pains in muscles,1.0,1
+tearing burning pains from neck to left axilla,jerking of muscles of arms,1.0,1
+tearing burning pains from neck to left axilla,pain in cervical vertebrae,1.0,1
+tearing burning pains from neck to left axilla,rheumatic origin,1.0,1
+tearing burning pains from neck to left axilla,jerking of muscles of thighs,1.0,1
+jerking of muscles of arms,drawing rheumatic pains from side of neck to limbs,1.0,1
+jerking of muscles of arms,jerking of elbows,1.0,1
+jerking of muscles of arms,sharp stitches in joints,1.0,1
+jerking of muscles of arms,jerking in thigh,1.0,1
+jerking of muscles of arms,children under seven years,1.0,1
+jerking of muscles of arms,rheumatic drawing in left tarsus,1.0,1
+jerking of muscles of arms,great rigidity of muscles of neck,1.0,1
+jerking of muscles of arms,starting in sleep,1.0,1
+jerking of muscles of arms,aching drawing pain in right arm above elbow,1.0,1
+jerking of muscles of arms,sharp stitches in right shin bone,1.0,1
+jerking of muscles of arms,cannot bend forward,1.0,1
+jerking of muscles of arms,beginning of inflammation of joints,1.0,1
+jerking of muscles of arms,jerking in knee joints,1.0,1
+jerking of muscles of arms,great rigidity of muscles of back,1.0,1
+jerking of muscles of arms,inflammatory affections of brain,1.0,1
+jerking of muscles of arms,restless motion of head,1.0,1
+jerking of muscles of arms,worse during winter,1.0,1
+jerking of muscles of arms,drawing pains in thighs,1.0,1
+jerking of muscles of arms,pressing pain in left tarsus,1.0,1
+jerking of muscles of arms,restless motion,1.0,1
+jerking of muscles of arms,stitches in forearm,1.0,1
+jerking of muscles of arms,rheumatism of muscles,1.0,1
+jerking of muscles of arms,pain in upper dorsal vertebrae,1.0,1
+jerking of muscles of arms,stinging pains in joints,1.0,1
+jerking of muscles of arms,constrictive rheumatic pain in deltoid muscle,1.0,1
+jerking of muscles of arms,rheumatic pain on top of head,1.0,1
+jerking of muscles of arms,dullness,1.0,1
+jerking of muscles of arms,drawing up of leg in sleep,1.0,1
+jerking of muscles of arms,pain in shoulders,1.0,1
+jerking of muscles of arms,fine sharp stitches in forearm,1.0,1
+jerking of muscles of arms,tearing burning pains from neck to left axilla,1.0,1
+jerking of muscles of arms,drawing laming pains in muscles,1.0,1
+jerking of muscles of arms,pain in cervical vertebrae,1.0,1
+jerking of muscles of arms,rheumatic origin,1.0,1
+jerking of muscles of arms,jerking of muscles of thighs,1.0,1
+great rigidity of muscles of neck,drawing rheumatic pains from side of neck to limbs,1.0,1
+great rigidity of muscles of neck,jerking of elbows,1.0,1
+great rigidity of muscles of neck,sharp stitches in joints,1.0,1
+great rigidity of muscles of neck,jerking in thigh,1.0,1
+great rigidity of muscles of neck,children under seven years,1.0,1
+great rigidity of muscles of neck,rheumatic drawing in left tarsus,1.0,1
+great rigidity of muscles of neck,starting in sleep,1.0,1
+great rigidity of muscles of neck,aching drawing pain in right arm above elbow,1.0,1
+great rigidity of muscles of neck,sharp stitches in right shin bone,1.0,1
+great rigidity of muscles of neck,cannot bend forward,1.0,1
+great rigidity of muscles of neck,beginning of inflammation of joints,1.0,1
+great rigidity of muscles of neck,jerking in knee joints,1.0,1
+great rigidity of muscles of neck,great rigidity of muscles of back,1.0,1
+great rigidity of muscles of neck,inflammatory affections of brain,1.0,1
+great rigidity of muscles of neck,restless motion of head,1.0,1
+great rigidity of muscles of neck,worse during winter,1.0,1
+great rigidity of muscles of neck,drawing pains in thighs,1.0,1
+great rigidity of muscles of neck,pressing pain in left tarsus,1.0,1
+great rigidity of muscles of neck,restless motion,1.0,1
+great rigidity of muscles of neck,stitches in forearm,1.0,1
+great rigidity of muscles of neck,rheumatism of muscles,1.0,1
+great rigidity of muscles of neck,pain in upper dorsal vertebrae,1.0,1
+great rigidity of muscles of neck,stinging pains in joints,1.0,1
+great rigidity of muscles of neck,constrictive rheumatic pain in deltoid muscle,1.0,1
+great rigidity of muscles of neck,rheumatic pain on top of head,1.0,1
+great rigidity of muscles of neck,dullness,1.0,1
+great rigidity of muscles of neck,drawing up of leg in sleep,1.0,1
+great rigidity of muscles of neck,pain in shoulders,1.0,1
+great rigidity of muscles of neck,fine sharp stitches in forearm,1.0,1
+great rigidity of muscles of neck,tearing burning pains from neck to left axilla,1.0,1
+great rigidity of muscles of neck,drawing laming pains in muscles,1.0,1
+great rigidity of muscles of neck,jerking of muscles of arms,1.0,1
+great rigidity of muscles of neck,pain in cervical vertebrae,1.0,1
+great rigidity of muscles of neck,rheumatic origin,1.0,1
+great rigidity of muscles of neck,jerking of muscles of thighs,1.0,1
+starting in sleep,drawing rheumatic pains from side of neck to limbs,1.0,1
+starting in sleep,jerking of elbows,1.0,1
+starting in sleep,sharp stitches in joints,1.0,1
+starting in sleep,jerking in thigh,1.0,1
+starting in sleep,children under seven years,1.0,1
+starting in sleep,rheumatic drawing in left tarsus,1.0,1
+starting in sleep,great rigidity of muscles of neck,1.0,1
+starting in sleep,aching drawing pain in right arm above elbow,1.0,1
+starting in sleep,sharp stitches in right shin bone,1.0,1
+starting in sleep,cannot bend forward,1.0,1
+starting in sleep,beginning of inflammation of joints,1.0,1
+starting in sleep,jerking in knee joints,1.0,1
+starting in sleep,great rigidity of muscles of back,1.0,1
+starting in sleep,inflammatory affections of brain,1.0,1
+starting in sleep,restless motion of head,1.0,1
+starting in sleep,worse during winter,1.0,1
+starting in sleep,drawing pains in thighs,1.0,1
+starting in sleep,pressing pain in left tarsus,1.0,1
+starting in sleep,restless motion,1.0,1
+starting in sleep,stitches in forearm,1.0,1
+starting in sleep,rheumatism of muscles,1.0,1
+starting in sleep,pain in upper dorsal vertebrae,1.0,1
+starting in sleep,stinging pains in joints,1.0,1
+starting in sleep,constrictive rheumatic pain in deltoid muscle,1.0,1
+starting in sleep,rheumatic pain on top of head,1.0,1
+starting in sleep,dullness,1.0,1
+starting in sleep,drawing up of leg in sleep,1.0,1
+starting in sleep,pain in shoulders,1.0,1
+starting in sleep,fine sharp stitches in forearm,1.0,1
+starting in sleep,tearing burning pains from neck to left axilla,1.0,1
+starting in sleep,drawing laming pains in muscles,1.0,1
+starting in sleep,jerking of muscles of arms,1.0,1
+starting in sleep,pain in cervical vertebrae,1.0,1
+starting in sleep,rheumatic origin,1.0,1
+starting in sleep,jerking of muscles of thighs,1.0,1
+great rigidity of muscles of back,drawing rheumatic pains from side of neck to limbs,1.0,1
+great rigidity of muscles of back,jerking of elbows,1.0,1
+great rigidity of muscles of back,sharp stitches in joints,1.0,1
+great rigidity of muscles of back,jerking in thigh,1.0,1
+great rigidity of muscles of back,children under seven years,1.0,1
+great rigidity of muscles of back,rheumatic drawing in left tarsus,1.0,1
+great rigidity of muscles of back,great rigidity of muscles of neck,1.0,1
+great rigidity of muscles of back,starting in sleep,1.0,1
+great rigidity of muscles of back,aching drawing pain in right arm above elbow,1.0,1
+great rigidity of muscles of back,sharp stitches in right shin bone,1.0,1
+great rigidity of muscles of back,cannot bend forward,1.0,1
+great rigidity of muscles of back,beginning of inflammation of joints,1.0,1
+great rigidity of muscles of back,jerking in knee joints,1.0,1
+great rigidity of muscles of back,inflammatory affections of brain,1.0,1
+great rigidity of muscles of back,restless motion of head,1.0,1
+great rigidity of muscles of back,worse during winter,1.0,1
+great rigidity of muscles of back,drawing pains in thighs,1.0,1
+great rigidity of muscles of back,pressing pain in left tarsus,1.0,1
+great rigidity of muscles of back,restless motion,1.0,1
+great rigidity of muscles of back,stitches in forearm,1.0,1
+great rigidity of muscles of back,rheumatism of muscles,1.0,1
+great rigidity of muscles of back,pain in upper dorsal vertebrae,1.0,1
+great rigidity of muscles of back,stinging pains in joints,1.0,1
+great rigidity of muscles of back,constrictive rheumatic pain in deltoid muscle,1.0,1
+great rigidity of muscles of back,rheumatic pain on top of head,1.0,1
+great rigidity of muscles of back,dullness,1.0,1
+great rigidity of muscles of back,drawing up of leg in sleep,1.0,1
+great rigidity of muscles of back,pain in shoulders,1.0,1
+great rigidity of muscles of back,fine sharp stitches in forearm,1.0,1
+great rigidity of muscles of back,tearing burning pains from neck to left axilla,1.0,1
+great rigidity of muscles of back,drawing laming pains in muscles,1.0,1
+great rigidity of muscles of back,jerking of muscles of arms,1.0,1
+great rigidity of muscles of back,pain in cervical vertebrae,1.0,1
+great rigidity of muscles of back,rheumatic origin,1.0,1
+great rigidity of muscles of back,jerking of muscles of thighs,1.0,1
+children under seven years,drawing rheumatic pains from side of neck to limbs,1.0,1
+children under seven years,jerking of elbows,1.0,1
+children under seven years,sharp stitches in joints,1.0,1
+children under seven years,jerking in thigh,1.0,1
+children under seven years,rheumatic drawing in left tarsus,1.0,1
+children under seven years,great rigidity of muscles of neck,1.0,1
+children under seven years,starting in sleep,1.0,1
+children under seven years,aching drawing pain in right arm above elbow,1.0,1
+children under seven years,sharp stitches in right shin bone,1.0,1
+children under seven years,cannot bend forward,1.0,1
+children under seven years,beginning of inflammation of joints,1.0,1
+children under seven years,jerking in knee joints,1.0,1
+children under seven years,great rigidity of muscles of back,1.0,1
+children under seven years,inflammatory affections of brain,1.0,1
+children under seven years,restless motion of head,1.0,1
+children under seven years,worse during winter,1.0,1
+children under seven years,drawing pains in thighs,1.0,1
+children under seven years,pressing pain in left tarsus,1.0,1
+children under seven years,restless motion,1.0,1
+children under seven years,stitches in forearm,1.0,1
+children under seven years,rheumatism of muscles,1.0,1
+children under seven years,pain in upper dorsal vertebrae,1.0,1
+children under seven years,stinging pains in joints,1.0,1
+children under seven years,constrictive rheumatic pain in deltoid muscle,1.0,1
+children under seven years,rheumatic pain on top of head,1.0,1
+children under seven years,dullness,1.0,1
+children under seven years,drawing up of leg in sleep,1.0,1
+children under seven years,pain in shoulders,1.0,1
+children under seven years,fine sharp stitches in forearm,1.0,1
+children under seven years,tearing burning pains from neck to left axilla,1.0,1
+children under seven years,drawing laming pains in muscles,1.0,1
+children under seven years,jerking of muscles of arms,1.0,1
+children under seven years,pain in cervical vertebrae,1.0,1
+children under seven years,rheumatic origin,1.0,1
+children under seven years,jerking of muscles of thighs,1.0,1
+cannot bend forward,drawing rheumatic pains from side of neck to limbs,1.0,1
+cannot bend forward,jerking of elbows,1.0,1
+cannot bend forward,sharp stitches in joints,1.0,1
+cannot bend forward,jerking in thigh,1.0,1
+cannot bend forward,children under seven years,1.0,1
+cannot bend forward,rheumatic drawing in left tarsus,1.0,1
+cannot bend forward,great rigidity of muscles of neck,1.0,1
+cannot bend forward,starting in sleep,1.0,1
+cannot bend forward,aching drawing pain in right arm above elbow,1.0,1
+cannot bend forward,sharp stitches in right shin bone,1.0,1
+cannot bend forward,beginning of inflammation of joints,1.0,1
+cannot bend forward,jerking in knee joints,1.0,1
+cannot bend forward,great rigidity of muscles of back,1.0,1
+cannot bend forward,inflammatory affections of brain,1.0,1
+cannot bend forward,restless motion of head,1.0,1
+cannot bend forward,worse during winter,1.0,1
+cannot bend forward,drawing pains in thighs,1.0,1
+cannot bend forward,pressing pain in left tarsus,1.0,1
+cannot bend forward,restless motion,1.0,1
+cannot bend forward,stitches in forearm,1.0,1
+cannot bend forward,rheumatism of muscles,1.0,1
+cannot bend forward,pain in upper dorsal vertebrae,1.0,1
+cannot bend forward,stinging pains in joints,1.0,1
+cannot bend forward,constrictive rheumatic pain in deltoid muscle,1.0,1
+cannot bend forward,rheumatic pain on top of head,1.0,1
+cannot bend forward,dullness,1.0,1
+cannot bend forward,drawing up of leg in sleep,1.0,1
+cannot bend forward,pain in shoulders,1.0,1
+cannot bend forward,fine sharp stitches in forearm,1.0,1
+cannot bend forward,tearing burning pains from neck to left axilla,1.0,1
+cannot bend forward,drawing laming pains in muscles,1.0,1
+cannot bend forward,jerking of muscles of arms,1.0,1
+cannot bend forward,pain in cervical vertebrae,1.0,1
+cannot bend forward,rheumatic origin,1.0,1
+cannot bend forward,jerking of muscles of thighs,1.0,1
+pain in cervical vertebrae,drawing rheumatic pains from side of neck to limbs,1.0,1
+pain in cervical vertebrae,jerking of elbows,1.0,1
+pain in cervical vertebrae,sharp stitches in joints,1.0,1
+pain in cervical vertebrae,jerking in thigh,1.0,1
+pain in cervical vertebrae,children under seven years,1.0,1
+pain in cervical vertebrae,rheumatic drawing in left tarsus,1.0,1
+pain in cervical vertebrae,great rigidity of muscles of neck,1.0,1
+pain in cervical vertebrae,starting in sleep,1.0,1
+pain in cervical vertebrae,aching drawing pain in right arm above elbow,1.0,1
+pain in cervical vertebrae,sharp stitches in right shin bone,1.0,1
+pain in cervical vertebrae,cannot bend forward,1.0,1
+pain in cervical vertebrae,beginning of inflammation of joints,1.0,1
+pain in cervical vertebrae,jerking in knee joints,1.0,1
+pain in cervical vertebrae,great rigidity of muscles of back,1.0,1
+pain in cervical vertebrae,inflammatory affections of brain,1.0,1
+pain in cervical vertebrae,restless motion of head,1.0,1
+pain in cervical vertebrae,worse during winter,1.0,1
+pain in cervical vertebrae,drawing pains in thighs,1.0,1
+pain in cervical vertebrae,pressing pain in left tarsus,1.0,1
+pain in cervical vertebrae,restless motion,1.0,1
+pain in cervical vertebrae,stitches in forearm,1.0,1
+pain in cervical vertebrae,rheumatism of muscles,1.0,1
+pain in cervical vertebrae,pain in upper dorsal vertebrae,1.0,1
+pain in cervical vertebrae,stinging pains in joints,1.0,1
+pain in cervical vertebrae,constrictive rheumatic pain in deltoid muscle,1.0,1
+pain in cervical vertebrae,rheumatic pain on top of head,1.0,1
+pain in cervical vertebrae,dullness,1.0,1
+pain in cervical vertebrae,drawing up of leg in sleep,1.0,1
+pain in cervical vertebrae,pain in shoulders,1.0,1
+pain in cervical vertebrae,fine sharp stitches in forearm,1.0,1
+pain in cervical vertebrae,tearing burning pains from neck to left axilla,1.0,1
+pain in cervical vertebrae,drawing laming pains in muscles,1.0,1
+pain in cervical vertebrae,jerking of muscles of arms,1.0,1
+pain in cervical vertebrae,rheumatic origin,1.0,1
+pain in cervical vertebrae,jerking of muscles of thighs,1.0,1
+rheumatism of muscles,drawing rheumatic pains from side of neck to limbs,1.0,1
+rheumatism of muscles,jerking of elbows,1.0,1
+rheumatism of muscles,sharp stitches in joints,1.0,1
+rheumatism of muscles,jerking in thigh,1.0,1
+rheumatism of muscles,children under seven years,1.0,1
+rheumatism of muscles,rheumatic drawing in left tarsus,1.0,1
+rheumatism of muscles,great rigidity of muscles of neck,1.0,1
+rheumatism of muscles,starting in sleep,1.0,1
+rheumatism of muscles,aching drawing pain in right arm above elbow,1.0,1
+rheumatism of muscles,sharp stitches in right shin bone,1.0,1
+rheumatism of muscles,cannot bend forward,1.0,1
+rheumatism of muscles,beginning of inflammation of joints,1.0,1
+rheumatism of muscles,jerking in knee joints,1.0,1
+rheumatism of muscles,great rigidity of muscles of back,1.0,1
+rheumatism of muscles,inflammatory affections of brain,1.0,1
+rheumatism of muscles,restless motion of head,1.0,1
+rheumatism of muscles,worse during winter,1.0,1
+rheumatism of muscles,drawing pains in thighs,1.0,1
+rheumatism of muscles,pressing pain in left tarsus,1.0,1
+rheumatism of muscles,restless motion,1.0,1
+rheumatism of muscles,stitches in forearm,1.0,1
+rheumatism of muscles,pain in upper dorsal vertebrae,1.0,1
+rheumatism of muscles,stinging pains in joints,1.0,1
+rheumatism of muscles,constrictive rheumatic pain in deltoid muscle,1.0,1
+rheumatism of muscles,rheumatic pain on top of head,1.0,1
+rheumatism of muscles,dullness,1.0,1
+rheumatism of muscles,drawing up of leg in sleep,1.0,1
+rheumatism of muscles,pain in shoulders,1.0,1
+rheumatism of muscles,fine sharp stitches in forearm,1.0,1
+rheumatism of muscles,tearing burning pains from neck to left axilla,1.0,1
+rheumatism of muscles,drawing laming pains in muscles,1.0,1
+rheumatism of muscles,jerking of muscles of arms,1.0,1
+rheumatism of muscles,pain in cervical vertebrae,1.0,1
+rheumatism of muscles,rheumatic origin,1.0,1
+rheumatism of muscles,jerking of muscles of thighs,1.0,1
+constrictive rheumatic pain in deltoid muscle,drawing rheumatic pains from side of neck to limbs,1.0,1
+constrictive rheumatic pain in deltoid muscle,jerking of elbows,1.0,1
+constrictive rheumatic pain in deltoid muscle,sharp stitches in joints,1.0,1
+constrictive rheumatic pain in deltoid muscle,jerking in thigh,1.0,1
+constrictive rheumatic pain in deltoid muscle,children under seven years,1.0,1
+constrictive rheumatic pain in deltoid muscle,rheumatic drawing in left tarsus,1.0,1
+constrictive rheumatic pain in deltoid muscle,great rigidity of muscles of neck,1.0,1
+constrictive rheumatic pain in deltoid muscle,starting in sleep,1.0,1
+constrictive rheumatic pain in deltoid muscle,aching drawing pain in right arm above elbow,1.0,1
+constrictive rheumatic pain in deltoid muscle,sharp stitches in right shin bone,1.0,1
+constrictive rheumatic pain in deltoid muscle,cannot bend forward,1.0,1
+constrictive rheumatic pain in deltoid muscle,beginning of inflammation of joints,1.0,1
+constrictive rheumatic pain in deltoid muscle,jerking in knee joints,1.0,1
+constrictive rheumatic pain in deltoid muscle,great rigidity of muscles of back,1.0,1
+constrictive rheumatic pain in deltoid muscle,inflammatory affections of brain,1.0,1
+constrictive rheumatic pain in deltoid muscle,restless motion of head,1.0,1
+constrictive rheumatic pain in deltoid muscle,worse during winter,1.0,1
+constrictive rheumatic pain in deltoid muscle,drawing pains in thighs,1.0,1
+constrictive rheumatic pain in deltoid muscle,pressing pain in left tarsus,1.0,1
+constrictive rheumatic pain in deltoid muscle,restless motion,1.0,1
+constrictive rheumatic pain in deltoid muscle,stitches in forearm,1.0,1
+constrictive rheumatic pain in deltoid muscle,rheumatism of muscles,1.0,1
+constrictive rheumatic pain in deltoid muscle,pain in upper dorsal vertebrae,1.0,1
+constrictive rheumatic pain in deltoid muscle,stinging pains in joints,1.0,1
+constrictive rheumatic pain in deltoid muscle,rheumatic pain on top of head,1.0,1
+constrictive rheumatic pain in deltoid muscle,dullness,1.0,1
+constrictive rheumatic pain in deltoid muscle,drawing up of leg in sleep,1.0,1
+constrictive rheumatic pain in deltoid muscle,pain in shoulders,1.0,1
+constrictive rheumatic pain in deltoid muscle,fine sharp stitches in forearm,1.0,1
+constrictive rheumatic pain in deltoid muscle,tearing burning pains from neck to left axilla,1.0,1
+constrictive rheumatic pain in deltoid muscle,drawing laming pains in muscles,1.0,1
+constrictive rheumatic pain in deltoid muscle,jerking of muscles of arms,1.0,1
+constrictive rheumatic pain in deltoid muscle,pain in cervical vertebrae,1.0,1
+constrictive rheumatic pain in deltoid muscle,rheumatic origin,1.0,1
+constrictive rheumatic pain in deltoid muscle,jerking of muscles of thighs,1.0,1
+beginning of inflammation of joints,drawing rheumatic pains from side of neck to limbs,1.0,1
+beginning of inflammation of joints,jerking of elbows,1.0,1
+beginning of inflammation of joints,sharp stitches in joints,1.0,1
+beginning of inflammation of joints,jerking in thigh,1.0,1
+beginning of inflammation of joints,children under seven years,1.0,1
+beginning of inflammation of joints,rheumatic drawing in left tarsus,1.0,1
+beginning of inflammation of joints,great rigidity of muscles of neck,1.0,1
+beginning of inflammation of joints,starting in sleep,1.0,1
+beginning of inflammation of joints,aching drawing pain in right arm above elbow,1.0,1
+beginning of inflammation of joints,sharp stitches in right shin bone,1.0,1
+beginning of inflammation of joints,cannot bend forward,1.0,1
+beginning of inflammation of joints,jerking in knee joints,1.0,1
+beginning of inflammation of joints,great rigidity of muscles of back,1.0,1
+beginning of inflammation of joints,inflammatory affections of brain,1.0,1
+beginning of inflammation of joints,restless motion of head,1.0,1
+beginning of inflammation of joints,worse during winter,1.0,1
+beginning of inflammation of joints,drawing pains in thighs,1.0,1
+beginning of inflammation of joints,pressing pain in left tarsus,1.0,1
+beginning of inflammation of joints,restless motion,1.0,1
+beginning of inflammation of joints,stitches in forearm,1.0,1
+beginning of inflammation of joints,rheumatism of muscles,1.0,1
+beginning of inflammation of joints,pain in upper dorsal vertebrae,1.0,1
+beginning of inflammation of joints,stinging pains in joints,1.0,1
+beginning of inflammation of joints,constrictive rheumatic pain in deltoid muscle,1.0,1
+beginning of inflammation of joints,rheumatic pain on top of head,1.0,1
+beginning of inflammation of joints,dullness,1.0,1
+beginning of inflammation of joints,drawing up of leg in sleep,1.0,1
+beginning of inflammation of joints,pain in shoulders,1.0,1
+beginning of inflammation of joints,fine sharp stitches in forearm,1.0,1
+beginning of inflammation of joints,tearing burning pains from neck to left axilla,1.0,1
+beginning of inflammation of joints,drawing laming pains in muscles,1.0,1
+beginning of inflammation of joints,jerking of muscles of arms,1.0,1
+beginning of inflammation of joints,pain in cervical vertebrae,1.0,1
+beginning of inflammation of joints,rheumatic origin,1.0,1
+beginning of inflammation of joints,jerking of muscles of thighs,1.0,1
+aching drawing pain in right arm above elbow,drawing rheumatic pains from side of neck to limbs,1.0,1
+aching drawing pain in right arm above elbow,jerking of elbows,1.0,1
+aching drawing pain in right arm above elbow,sharp stitches in joints,1.0,1
+aching drawing pain in right arm above elbow,jerking in thigh,1.0,1
+aching drawing pain in right arm above elbow,children under seven years,1.0,1
+aching drawing pain in right arm above elbow,rheumatic drawing in left tarsus,1.0,1
+aching drawing pain in right arm above elbow,great rigidity of muscles of neck,1.0,1
+aching drawing pain in right arm above elbow,starting in sleep,1.0,1
+aching drawing pain in right arm above elbow,sharp stitches in right shin bone,1.0,1
+aching drawing pain in right arm above elbow,cannot bend forward,1.0,1
+aching drawing pain in right arm above elbow,beginning of inflammation of joints,1.0,1
+aching drawing pain in right arm above elbow,jerking in knee joints,1.0,1
+aching drawing pain in right arm above elbow,great rigidity of muscles of back,1.0,1
+aching drawing pain in right arm above elbow,inflammatory affections of brain,1.0,1
+aching drawing pain in right arm above elbow,restless motion of head,1.0,1
+aching drawing pain in right arm above elbow,worse during winter,1.0,1
+aching drawing pain in right arm above elbow,drawing pains in thighs,1.0,1
+aching drawing pain in right arm above elbow,pressing pain in left tarsus,1.0,1
+aching drawing pain in right arm above elbow,restless motion,1.0,1
+aching drawing pain in right arm above elbow,stitches in forearm,1.0,1
+aching drawing pain in right arm above elbow,rheumatism of muscles,1.0,1
+aching drawing pain in right arm above elbow,pain in upper dorsal vertebrae,1.0,1
+aching drawing pain in right arm above elbow,stinging pains in joints,1.0,1
+aching drawing pain in right arm above elbow,constrictive rheumatic pain in deltoid muscle,1.0,1
+aching drawing pain in right arm above elbow,rheumatic pain on top of head,1.0,1
+aching drawing pain in right arm above elbow,dullness,1.0,1
+aching drawing pain in right arm above elbow,drawing up of leg in sleep,1.0,1
+aching drawing pain in right arm above elbow,pain in shoulders,1.0,1
+aching drawing pain in right arm above elbow,fine sharp stitches in forearm,1.0,1
+aching drawing pain in right arm above elbow,tearing burning pains from neck to left axilla,1.0,1
+aching drawing pain in right arm above elbow,drawing laming pains in muscles,1.0,1
+aching drawing pain in right arm above elbow,jerking of muscles of arms,1.0,1
+aching drawing pain in right arm above elbow,pain in cervical vertebrae,1.0,1
+aching drawing pain in right arm above elbow,rheumatic origin,1.0,1
+aching drawing pain in right arm above elbow,jerking of muscles of thighs,1.0,1
+drawing up of leg in sleep,drawing rheumatic pains from side of neck to limbs,1.0,1
+drawing up of leg in sleep,jerking of elbows,1.0,1
+drawing up of leg in sleep,sharp stitches in joints,1.0,1
+drawing up of leg in sleep,jerking in thigh,1.0,1
+drawing up of leg in sleep,children under seven years,1.0,1
+drawing up of leg in sleep,rheumatic drawing in left tarsus,1.0,1
+drawing up of leg in sleep,great rigidity of muscles of neck,1.0,1
+drawing up of leg in sleep,starting in sleep,1.0,1
+drawing up of leg in sleep,aching drawing pain in right arm above elbow,1.0,1
+drawing up of leg in sleep,sharp stitches in right shin bone,1.0,1
+drawing up of leg in sleep,cannot bend forward,1.0,1
+drawing up of leg in sleep,beginning of inflammation of joints,1.0,1
+drawing up of leg in sleep,jerking in knee joints,1.0,1
+drawing up of leg in sleep,great rigidity of muscles of back,1.0,1
+drawing up of leg in sleep,inflammatory affections of brain,1.0,1
+drawing up of leg in sleep,restless motion of head,1.0,1
+drawing up of leg in sleep,worse during winter,1.0,1
+drawing up of leg in sleep,drawing pains in thighs,1.0,1
+drawing up of leg in sleep,pressing pain in left tarsus,1.0,1
+drawing up of leg in sleep,restless motion,1.0,1
+drawing up of leg in sleep,stitches in forearm,1.0,1
+drawing up of leg in sleep,rheumatism of muscles,1.0,1
+drawing up of leg in sleep,pain in upper dorsal vertebrae,1.0,1
+drawing up of leg in sleep,stinging pains in joints,1.0,1
+drawing up of leg in sleep,constrictive rheumatic pain in deltoid muscle,1.0,1
+drawing up of leg in sleep,rheumatic pain on top of head,1.0,1
+drawing up of leg in sleep,dullness,1.0,1
+drawing up of leg in sleep,pain in shoulders,1.0,1
+drawing up of leg in sleep,fine sharp stitches in forearm,1.0,1
+drawing up of leg in sleep,tearing burning pains from neck to left axilla,1.0,1
+drawing up of leg in sleep,drawing laming pains in muscles,1.0,1
+drawing up of leg in sleep,jerking of muscles of arms,1.0,1
+drawing up of leg in sleep,pain in cervical vertebrae,1.0,1
+drawing up of leg in sleep,rheumatic origin,1.0,1
+drawing up of leg in sleep,jerking of muscles of thighs,1.0,1
+jerking of elbows,drawing rheumatic pains from side of neck to limbs,1.0,1
+jerking of elbows,sharp stitches in joints,1.0,1
+jerking of elbows,jerking in thigh,1.0,1
+jerking of elbows,children under seven years,1.0,1
+jerking of elbows,rheumatic drawing in left tarsus,1.0,1
+jerking of elbows,great rigidity of muscles of neck,1.0,1
+jerking of elbows,starting in sleep,1.0,1
+jerking of elbows,aching drawing pain in right arm above elbow,1.0,1
+jerking of elbows,sharp stitches in right shin bone,1.0,1
+jerking of elbows,cannot bend forward,1.0,1
+jerking of elbows,beginning of inflammation of joints,1.0,1
+jerking of elbows,jerking in knee joints,1.0,1
+jerking of elbows,great rigidity of muscles of back,1.0,1
+jerking of elbows,inflammatory affections of brain,1.0,1
+jerking of elbows,restless motion of head,1.0,1
+jerking of elbows,worse during winter,1.0,1
+jerking of elbows,drawing pains in thighs,1.0,1
+jerking of elbows,pressing pain in left tarsus,1.0,1
+jerking of elbows,restless motion,1.0,1
+jerking of elbows,stitches in forearm,1.0,1
+jerking of elbows,rheumatism of muscles,1.0,1
+jerking of elbows,pain in upper dorsal vertebrae,1.0,1
+jerking of elbows,stinging pains in joints,1.0,1
+jerking of elbows,constrictive rheumatic pain in deltoid muscle,1.0,1
+jerking of elbows,rheumatic pain on top of head,1.0,1
+jerking of elbows,dullness,1.0,1
+jerking of elbows,drawing up of leg in sleep,1.0,1
+jerking of elbows,pain in shoulders,1.0,1
+jerking of elbows,fine sharp stitches in forearm,1.0,1
+jerking of elbows,tearing burning pains from neck to left axilla,1.0,1
+jerking of elbows,drawing laming pains in muscles,1.0,1
+jerking of elbows,jerking of muscles of arms,1.0,1
+jerking of elbows,pain in cervical vertebrae,1.0,1
+jerking of elbows,rheumatic origin,1.0,1
+jerking of elbows,jerking of muscles of thighs,1.0,1
+rheumatic pain on top of head,drawing rheumatic pains from side of neck to limbs,1.0,1
+rheumatic pain on top of head,jerking of elbows,1.0,1
+rheumatic pain on top of head,sharp stitches in joints,1.0,1
+rheumatic pain on top of head,jerking in thigh,1.0,1
+rheumatic pain on top of head,children under seven years,1.0,1
+rheumatic pain on top of head,rheumatic drawing in left tarsus,1.0,1
+rheumatic pain on top of head,great rigidity of muscles of neck,1.0,1
+rheumatic pain on top of head,starting in sleep,1.0,1
+rheumatic pain on top of head,aching drawing pain in right arm above elbow,1.0,1
+rheumatic pain on top of head,sharp stitches in right shin bone,1.0,1
+rheumatic pain on top of head,cannot bend forward,1.0,1
+rheumatic pain on top of head,beginning of inflammation of joints,1.0,1
+rheumatic pain on top of head,jerking in knee joints,1.0,1
+rheumatic pain on top of head,great rigidity of muscles of back,1.0,1
+rheumatic pain on top of head,inflammatory affections of brain,1.0,1
+rheumatic pain on top of head,restless motion of head,1.0,1
+rheumatic pain on top of head,worse during winter,1.0,1
+rheumatic pain on top of head,drawing pains in thighs,1.0,1
+rheumatic pain on top of head,pressing pain in left tarsus,1.0,1
+rheumatic pain on top of head,restless motion,1.0,1
+rheumatic pain on top of head,stitches in forearm,1.0,1
+rheumatic pain on top of head,rheumatism of muscles,1.0,1
+rheumatic pain on top of head,pain in upper dorsal vertebrae,1.0,1
+rheumatic pain on top of head,stinging pains in joints,1.0,1
+rheumatic pain on top of head,constrictive rheumatic pain in deltoid muscle,1.0,1
+rheumatic pain on top of head,dullness,1.0,1
+rheumatic pain on top of head,drawing up of leg in sleep,1.0,1
+rheumatic pain on top of head,pain in shoulders,1.0,1
+rheumatic pain on top of head,fine sharp stitches in forearm,1.0,1
+rheumatic pain on top of head,tearing burning pains from neck to left axilla,1.0,1
+rheumatic pain on top of head,drawing laming pains in muscles,1.0,1
+rheumatic pain on top of head,jerking of muscles of arms,1.0,1
+rheumatic pain on top of head,pain in cervical vertebrae,1.0,1
+rheumatic pain on top of head,rheumatic origin,1.0,1
+rheumatic pain on top of head,jerking of muscles of thighs,1.0,1
+pain in shoulders,drawing rheumatic pains from side of neck to limbs,1.0,1
+pain in shoulders,jerking of elbows,1.0,1
+pain in shoulders,sharp stitches in joints,1.0,1
+pain in shoulders,jerking in thigh,1.0,1
+pain in shoulders,children under seven years,1.0,1
+pain in shoulders,rheumatic drawing in left tarsus,1.0,1
+pain in shoulders,great rigidity of muscles of neck,1.0,1
+pain in shoulders,starting in sleep,1.0,1
+pain in shoulders,aching drawing pain in right arm above elbow,1.0,1
+pain in shoulders,sharp stitches in right shin bone,1.0,1
+pain in shoulders,cannot bend forward,1.0,1
+pain in shoulders,beginning of inflammation of joints,1.0,1
+pain in shoulders,jerking in knee joints,1.0,1
+pain in shoulders,great rigidity of muscles of back,1.0,1
+pain in shoulders,inflammatory affections of brain,1.0,1
+pain in shoulders,restless motion of head,1.0,1
+pain in shoulders,worse during winter,1.0,1
+pain in shoulders,drawing pains in thighs,1.0,1
+pain in shoulders,pressing pain in left tarsus,1.0,1
+pain in shoulders,restless motion,1.0,1
+pain in shoulders,stitches in forearm,1.0,1
+pain in shoulders,rheumatism of muscles,1.0,1
+pain in shoulders,pain in upper dorsal vertebrae,1.0,1
+pain in shoulders,stinging pains in joints,1.0,1
+pain in shoulders,constrictive rheumatic pain in deltoid muscle,1.0,1
+pain in shoulders,rheumatic pain on top of head,1.0,1
+pain in shoulders,dullness,1.0,1
+pain in shoulders,drawing up of leg in sleep,1.0,1
+pain in shoulders,fine sharp stitches in forearm,1.0,1
+pain in shoulders,tearing burning pains from neck to left axilla,1.0,1
+pain in shoulders,drawing laming pains in muscles,1.0,1
+pain in shoulders,jerking of muscles of arms,1.0,1
+pain in shoulders,pain in cervical vertebrae,1.0,1
+pain in shoulders,rheumatic origin,1.0,1
+pain in shoulders,jerking of muscles of thighs,1.0,1
+sharp stitches in joints,drawing rheumatic pains from side of neck to limbs,1.0,1
+sharp stitches in joints,jerking of elbows,1.0,1
+sharp stitches in joints,jerking in thigh,1.0,1
+sharp stitches in joints,children under seven years,1.0,1
+sharp stitches in joints,rheumatic drawing in left tarsus,1.0,1
+sharp stitches in joints,great rigidity of muscles of neck,1.0,1
+sharp stitches in joints,starting in sleep,1.0,1
+sharp stitches in joints,aching drawing pain in right arm above elbow,1.0,1
+sharp stitches in joints,sharp stitches in right shin bone,1.0,1
+sharp stitches in joints,cannot bend forward,1.0,1
+sharp stitches in joints,beginning of inflammation of joints,1.0,1
+sharp stitches in joints,jerking in knee joints,1.0,1
+sharp stitches in joints,great rigidity of muscles of back,1.0,1
+sharp stitches in joints,inflammatory affections of brain,1.0,1
+sharp stitches in joints,restless motion of head,1.0,1
+sharp stitches in joints,worse during winter,1.0,1
+sharp stitches in joints,drawing pains in thighs,1.0,1
+sharp stitches in joints,pressing pain in left tarsus,1.0,1
+sharp stitches in joints,restless motion,1.0,1
+sharp stitches in joints,stitches in forearm,1.0,1
+sharp stitches in joints,rheumatism of muscles,1.0,1
+sharp stitches in joints,pain in upper dorsal vertebrae,1.0,1
+sharp stitches in joints,stinging pains in joints,1.0,1
+sharp stitches in joints,constrictive rheumatic pain in deltoid muscle,1.0,1
+sharp stitches in joints,rheumatic pain on top of head,1.0,1
+sharp stitches in joints,dullness,1.0,1
+sharp stitches in joints,drawing up of leg in sleep,1.0,1
+sharp stitches in joints,pain in shoulders,1.0,1
+sharp stitches in joints,fine sharp stitches in forearm,1.0,1
+sharp stitches in joints,tearing burning pains from neck to left axilla,1.0,1
+sharp stitches in joints,drawing laming pains in muscles,1.0,1
+sharp stitches in joints,jerking of muscles of arms,1.0,1
+sharp stitches in joints,pain in cervical vertebrae,1.0,1
+sharp stitches in joints,rheumatic origin,1.0,1
+sharp stitches in joints,jerking of muscles of thighs,1.0,1
+stitches in forearm,drawing rheumatic pains from side of neck to limbs,1.0,1
+stitches in forearm,jerking of elbows,1.0,1
+stitches in forearm,sharp stitches in joints,1.0,1
+stitches in forearm,jerking in thigh,1.0,1
+stitches in forearm,children under seven years,1.0,1
+stitches in forearm,rheumatic drawing in left tarsus,1.0,1
+stitches in forearm,great rigidity of muscles of neck,1.0,1
+stitches in forearm,starting in sleep,1.0,1
+stitches in forearm,aching drawing pain in right arm above elbow,1.0,1
+stitches in forearm,sharp stitches in right shin bone,1.0,1
+stitches in forearm,cannot bend forward,1.0,1
+stitches in forearm,beginning of inflammation of joints,1.0,1
+stitches in forearm,jerking in knee joints,1.0,1
+stitches in forearm,great rigidity of muscles of back,1.0,1
+stitches in forearm,inflammatory affections of brain,1.0,1
+stitches in forearm,restless motion of head,1.0,1
+stitches in forearm,worse during winter,1.0,1
+stitches in forearm,drawing pains in thighs,1.0,1
+stitches in forearm,pressing pain in left tarsus,1.0,1
+stitches in forearm,restless motion,1.0,1
+stitches in forearm,rheumatism of muscles,1.0,1
+stitches in forearm,pain in upper dorsal vertebrae,1.0,1
+stitches in forearm,stinging pains in joints,1.0,1
+stitches in forearm,constrictive rheumatic pain in deltoid muscle,1.0,1
+stitches in forearm,rheumatic pain on top of head,1.0,1
+stitches in forearm,dullness,1.0,1
+stitches in forearm,drawing up of leg in sleep,1.0,1
+stitches in forearm,pain in shoulders,1.0,1
+stitches in forearm,fine sharp stitches in forearm,1.0,1
+stitches in forearm,tearing burning pains from neck to left axilla,1.0,1
+stitches in forearm,drawing laming pains in muscles,1.0,1
+stitches in forearm,jerking of muscles of arms,1.0,1
+stitches in forearm,pain in cervical vertebrae,1.0,1
+stitches in forearm,rheumatic origin,1.0,1
+stitches in forearm,jerking of muscles of thighs,1.0,1

@@ -1,0 +1,131 @@
+### Cluster 68 — Symptoms (11)
+Symptom,Frequency
+heaviness in arms,2
+boring pain between scapulae,1
+legs give out,1
+mental apathy,1
+weakness after grief,1
+pressing pain as from a weight,1
+stinging pain in coccyx,1
+arms tired,1
+cramp-like pain in feet,1
+aversion to talking,1
+debility,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+phosphoric acid,11
+paris quadrifolia,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+boring pain between scapulae,legs give out,1.0,1
+boring pain between scapulae,mental apathy,1.0,1
+boring pain between scapulae,weakness after grief,1.0,1
+boring pain between scapulae,pressing pain as from a weight,1.0,1
+boring pain between scapulae,stinging pain in coccyx,1.0,1
+boring pain between scapulae,arms tired,1.0,1
+boring pain between scapulae,cramp-like pain in feet,1.0,1
+boring pain between scapulae,aversion to talking,1.0,1
+boring pain between scapulae,heaviness in arms,1.0,1
+boring pain between scapulae,debility,1.0,1
+cramp-like pain in feet,boring pain between scapulae,1.0,1
+cramp-like pain in feet,legs give out,1.0,1
+cramp-like pain in feet,mental apathy,1.0,1
+cramp-like pain in feet,weakness after grief,1.0,1
+cramp-like pain in feet,pressing pain as from a weight,1.0,1
+cramp-like pain in feet,stinging pain in coccyx,1.0,1
+cramp-like pain in feet,arms tired,1.0,1
+cramp-like pain in feet,aversion to talking,1.0,1
+cramp-like pain in feet,heaviness in arms,1.0,1
+cramp-like pain in feet,debility,1.0,1
+weakness after grief,boring pain between scapulae,1.0,1
+weakness after grief,legs give out,1.0,1
+weakness after grief,mental apathy,1.0,1
+weakness after grief,pressing pain as from a weight,1.0,1
+weakness after grief,stinging pain in coccyx,1.0,1
+weakness after grief,arms tired,1.0,1
+weakness after grief,cramp-like pain in feet,1.0,1
+weakness after grief,aversion to talking,1.0,1
+weakness after grief,heaviness in arms,1.0,1
+weakness after grief,debility,1.0,1
+arms tired,boring pain between scapulae,1.0,1
+arms tired,legs give out,1.0,1
+arms tired,mental apathy,1.0,1
+arms tired,weakness after grief,1.0,1
+arms tired,pressing pain as from a weight,1.0,1
+arms tired,stinging pain in coccyx,1.0,1
+arms tired,cramp-like pain in feet,1.0,1
+arms tired,aversion to talking,1.0,1
+arms tired,heaviness in arms,1.0,1
+arms tired,debility,1.0,1
+stinging pain in coccyx,boring pain between scapulae,1.0,1
+stinging pain in coccyx,legs give out,1.0,1
+stinging pain in coccyx,mental apathy,1.0,1
+stinging pain in coccyx,weakness after grief,1.0,1
+stinging pain in coccyx,pressing pain as from a weight,1.0,1
+stinging pain in coccyx,arms tired,1.0,1
+stinging pain in coccyx,cramp-like pain in feet,1.0,1
+stinging pain in coccyx,aversion to talking,1.0,1
+stinging pain in coccyx,heaviness in arms,1.0,1
+stinging pain in coccyx,debility,1.0,1
+aversion to talking,boring pain between scapulae,1.0,1
+aversion to talking,legs give out,1.0,1
+aversion to talking,mental apathy,1.0,1
+aversion to talking,weakness after grief,1.0,1
+aversion to talking,pressing pain as from a weight,1.0,1
+aversion to talking,stinging pain in coccyx,1.0,1
+aversion to talking,arms tired,1.0,1
+aversion to talking,cramp-like pain in feet,1.0,1
+aversion to talking,heaviness in arms,1.0,1
+aversion to talking,debility,1.0,1
+mental apathy,boring pain between scapulae,1.0,1
+mental apathy,legs give out,1.0,1
+mental apathy,weakness after grief,1.0,1
+mental apathy,pressing pain as from a weight,1.0,1
+mental apathy,stinging pain in coccyx,1.0,1
+mental apathy,arms tired,1.0,1
+mental apathy,cramp-like pain in feet,1.0,1
+mental apathy,aversion to talking,1.0,1
+mental apathy,heaviness in arms,1.0,1
+mental apathy,debility,1.0,1
+legs give out,boring pain between scapulae,1.0,1
+legs give out,mental apathy,1.0,1
+legs give out,weakness after grief,1.0,1
+legs give out,pressing pain as from a weight,1.0,1
+legs give out,stinging pain in coccyx,1.0,1
+legs give out,arms tired,1.0,1
+legs give out,cramp-like pain in feet,1.0,1
+legs give out,aversion to talking,1.0,1
+legs give out,heaviness in arms,1.0,1
+legs give out,debility,1.0,1
+pressing pain as from a weight,boring pain between scapulae,1.0,1
+pressing pain as from a weight,legs give out,1.0,1
+pressing pain as from a weight,mental apathy,1.0,1
+pressing pain as from a weight,weakness after grief,1.0,1
+pressing pain as from a weight,stinging pain in coccyx,1.0,1
+pressing pain as from a weight,arms tired,1.0,1
+pressing pain as from a weight,cramp-like pain in feet,1.0,1
+pressing pain as from a weight,aversion to talking,1.0,1
+pressing pain as from a weight,heaviness in arms,1.0,1
+pressing pain as from a weight,debility,1.0,1
+debility,boring pain between scapulae,1.0,1
+debility,legs give out,1.0,1
+debility,mental apathy,1.0,1
+debility,weakness after grief,1.0,1
+debility,pressing pain as from a weight,1.0,1
+debility,stinging pain in coccyx,1.0,1
+debility,arms tired,1.0,1
+debility,cramp-like pain in feet,1.0,1
+debility,aversion to talking,1.0,1
+debility,heaviness in arms,1.0,1
+heaviness in arms,boring pain between scapulae,0.5,1
+heaviness in arms,legs give out,0.5,1
+heaviness in arms,mental apathy,0.5,1
+heaviness in arms,weakness after grief,0.5,1
+heaviness in arms,pressing pain as from a weight,0.5,1
+heaviness in arms,stinging pain in coccyx,0.5,1
+heaviness in arms,arms tired,0.5,1
+heaviness in arms,cramp-like pain in feet,0.5,1
+heaviness in arms,aversion to talking,0.5,1
+heaviness in arms,debility,0.5,1

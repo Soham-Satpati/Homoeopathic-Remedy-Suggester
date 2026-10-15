@@ -1,0 +1,64 @@
+### Cluster 94 — Symptoms (8)
+Symptom,Frequency
+shooting pains in arms,1
+compare rhododendron spigelia,1
+compare kalmia latifolia,1
+shooting pains in back,1
+pains shift suddenly,1
+rheumatic troubles with heart symptoms,2
+heart palpitations,2
+shooting pains in legs,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+kalmia latifolia,7
+lycopus virginicus,3
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+shooting pains in legs,shooting pains in arms,1.0,1
+shooting pains in legs,compare rhododendron spigelia,1.0,1
+shooting pains in legs,shooting pains in back,1.0,1
+shooting pains in legs,pains shift suddenly,1.0,1
+shooting pains in legs,rheumatic troubles with heart symptoms,1.0,1
+shooting pains in legs,heart palpitations,1.0,1
+heart palpitations,shooting pains in arms,0.5,1
+heart palpitations,compare rhododendron spigelia,0.5,1
+heart palpitations,compare kalmia latifolia,0.5,1
+heart palpitations,shooting pains in back,0.5,1
+heart palpitations,pains shift suddenly,0.5,1
+heart palpitations,rheumatic troubles with heart symptoms,1.0,2
+heart palpitations,shooting pains in legs,0.5,1
+compare rhododendron spigelia,shooting pains in arms,1.0,1
+compare rhododendron spigelia,shooting pains in back,1.0,1
+compare rhododendron spigelia,pains shift suddenly,1.0,1
+compare rhododendron spigelia,rheumatic troubles with heart symptoms,1.0,1
+compare rhododendron spigelia,heart palpitations,1.0,1
+compare rhododendron spigelia,shooting pains in legs,1.0,1
+shooting pains in back,shooting pains in arms,1.0,1
+shooting pains in back,compare rhododendron spigelia,1.0,1
+shooting pains in back,pains shift suddenly,1.0,1
+shooting pains in back,rheumatic troubles with heart symptoms,1.0,1
+shooting pains in back,heart palpitations,1.0,1
+shooting pains in back,shooting pains in legs,1.0,1
+compare kalmia latifolia,rheumatic troubles with heart symptoms,1.0,1
+compare kalmia latifolia,heart palpitations,1.0,1
+pains shift suddenly,shooting pains in arms,1.0,1
+pains shift suddenly,compare rhododendron spigelia,1.0,1
+pains shift suddenly,shooting pains in back,1.0,1
+pains shift suddenly,rheumatic troubles with heart symptoms,1.0,1
+pains shift suddenly,heart palpitations,1.0,1
+pains shift suddenly,shooting pains in legs,1.0,1
+shooting pains in arms,compare rhododendron spigelia,1.0,1
+shooting pains in arms,shooting pains in back,1.0,1
+shooting pains in arms,pains shift suddenly,1.0,1
+shooting pains in arms,rheumatic troubles with heart symptoms,1.0,1
+shooting pains in arms,heart palpitations,1.0,1
+shooting pains in arms,shooting pains in legs,1.0,1
+rheumatic troubles with heart symptoms,shooting pains in arms,0.5,1
+rheumatic troubles with heart symptoms,compare rhododendron spigelia,0.5,1
+rheumatic troubles with heart symptoms,compare kalmia latifolia,0.5,1
+rheumatic troubles with heart symptoms,shooting pains in back,0.5,1
+rheumatic troubles with heart symptoms,pains shift suddenly,0.5,1
+rheumatic troubles with heart symptoms,heart palpitations,1.0,2
+rheumatic troubles with heart symptoms,shooting pains in legs,0.5,1

@@ -1,0 +1,794 @@
+### Cluster 39 — Symptoms (28)
+Symptom,Frequency
+cramp-like drawing in hands,2
+boring nose with finger,1
+single small jerking stitches in other hand,2
+noise like water running from throat to abdomen,1
+white about the mouth,1
+tearing jerking pain in middle of spine,2
+intermitting form of rheumatism,1
+drawing tearing pain along whole spine,2
+pain in limbs,1
+distortion of limbs,1
+left leg semi-flexed on abdomen,1
+spasmodic twitching of limbs,2
+convulsion of extensor muscles,1
+lancinating pain in upper spinal column,1
+spasmodic contractions of hands,2
+small of back pain not worse by stooping,1
+cramp-like drawing in arms,2
+pain in loins as after long standing,1
+jerking of limbs,2
+upper arm pain worse from motion,1
+left leg semi-flexed on itself,1
+paralytic pain in left thigh near knee,1
+single small jerking stitches in one hand,2
+boring pinching pains in upper arms,2
+sprained feeling in wrist joint,1
+ravenous hunger,1
+lancinating pain toward right scapula,1
+grinding teeth at night,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+cina,28
+opium,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+grinding teeth at night,cramp-like drawing in hands,1.0,1
+grinding teeth at night,boring nose with finger,1.0,1
+grinding teeth at night,single small jerking stitches in other hand,1.0,1
+grinding teeth at night,noise like water running from throat to abdomen,1.0,1
+grinding teeth at night,white about the mouth,1.0,1
+grinding teeth at night,tearing jerking pain in middle of spine,1.0,1
+grinding teeth at night,intermitting form of rheumatism,1.0,1
+grinding teeth at night,drawing tearing pain along whole spine,1.0,1
+grinding teeth at night,pain in limbs,1.0,1
+grinding teeth at night,distortion of limbs,1.0,1
+grinding teeth at night,left leg semi-flexed on abdomen,1.0,1
+grinding teeth at night,spasmodic twitching of limbs,1.0,1
+grinding teeth at night,convulsion of extensor muscles,1.0,1
+grinding teeth at night,lancinating pain in upper spinal column,1.0,1
+grinding teeth at night,spasmodic contractions of hands,1.0,1
+grinding teeth at night,small of back pain not worse by stooping,1.0,1
+grinding teeth at night,cramp-like drawing in arms,1.0,1
+grinding teeth at night,pain in loins as after long standing,1.0,1
+grinding teeth at night,jerking of limbs,1.0,1
+grinding teeth at night,upper arm pain worse from motion,1.0,1
+grinding teeth at night,left leg semi-flexed on itself,1.0,1
+grinding teeth at night,paralytic pain in left thigh near knee,1.0,1
+grinding teeth at night,single small jerking stitches in one hand,1.0,1
+grinding teeth at night,boring pinching pains in upper arms,1.0,1
+grinding teeth at night,sprained feeling in wrist joint,1.0,1
+grinding teeth at night,ravenous hunger,1.0,1
+grinding teeth at night,lancinating pain toward right scapula,1.0,1
+single small jerking stitches in other hand,cramp-like drawing in hands,1.0,1
+single small jerking stitches in other hand,boring nose with finger,1.0,1
+single small jerking stitches in other hand,noise like water running from throat to abdomen,1.0,1
+single small jerking stitches in other hand,white about the mouth,1.0,1
+single small jerking stitches in other hand,tearing jerking pain in middle of spine,1.0,1
+single small jerking stitches in other hand,intermitting form of rheumatism,1.0,1
+single small jerking stitches in other hand,drawing tearing pain along whole spine,1.0,1
+single small jerking stitches in other hand,pain in limbs,1.0,1
+single small jerking stitches in other hand,distortion of limbs,1.0,1
+single small jerking stitches in other hand,left leg semi-flexed on abdomen,1.0,1
+single small jerking stitches in other hand,spasmodic twitching of limbs,1.0,1
+single small jerking stitches in other hand,convulsion of extensor muscles,1.0,1
+single small jerking stitches in other hand,lancinating pain in upper spinal column,1.0,1
+single small jerking stitches in other hand,spasmodic contractions of hands,1.0,1
+single small jerking stitches in other hand,small of back pain not worse by stooping,1.0,1
+single small jerking stitches in other hand,cramp-like drawing in arms,1.0,1
+single small jerking stitches in other hand,pain in loins as after long standing,1.0,1
+single small jerking stitches in other hand,jerking of limbs,1.0,1
+single small jerking stitches in other hand,upper arm pain worse from motion,1.0,1
+single small jerking stitches in other hand,left leg semi-flexed on itself,1.0,1
+single small jerking stitches in other hand,paralytic pain in left thigh near knee,1.0,1
+single small jerking stitches in other hand,single small jerking stitches in one hand,1.0,1
+single small jerking stitches in other hand,boring pinching pains in upper arms,1.0,1
+single small jerking stitches in other hand,sprained feeling in wrist joint,1.0,1
+single small jerking stitches in other hand,ravenous hunger,1.0,1
+single small jerking stitches in other hand,lancinating pain toward right scapula,1.0,1
+single small jerking stitches in other hand,grinding teeth at night,1.0,1
+cramp-like drawing in hands,boring nose with finger,1.0,1
+cramp-like drawing in hands,single small jerking stitches in other hand,1.0,1
+cramp-like drawing in hands,noise like water running from throat to abdomen,1.0,1
+cramp-like drawing in hands,white about the mouth,1.0,1
+cramp-like drawing in hands,tearing jerking pain in middle of spine,1.0,1
+cramp-like drawing in hands,intermitting form of rheumatism,1.0,1
+cramp-like drawing in hands,drawing tearing pain along whole spine,1.0,1
+cramp-like drawing in hands,pain in limbs,1.0,1
+cramp-like drawing in hands,distortion of limbs,1.0,1
+cramp-like drawing in hands,left leg semi-flexed on abdomen,1.0,1
+cramp-like drawing in hands,spasmodic twitching of limbs,1.0,1
+cramp-like drawing in hands,convulsion of extensor muscles,1.0,1
+cramp-like drawing in hands,lancinating pain in upper spinal column,1.0,1
+cramp-like drawing in hands,spasmodic contractions of hands,1.0,1
+cramp-like drawing in hands,small of back pain not worse by stooping,1.0,1
+cramp-like drawing in hands,cramp-like drawing in arms,1.0,1
+cramp-like drawing in hands,pain in loins as after long standing,1.0,1
+cramp-like drawing in hands,jerking of limbs,1.0,1
+cramp-like drawing in hands,upper arm pain worse from motion,1.0,1
+cramp-like drawing in hands,left leg semi-flexed on itself,1.0,1
+cramp-like drawing in hands,paralytic pain in left thigh near knee,1.0,1
+cramp-like drawing in hands,single small jerking stitches in one hand,1.0,1
+cramp-like drawing in hands,boring pinching pains in upper arms,1.0,1
+cramp-like drawing in hands,sprained feeling in wrist joint,1.0,1
+cramp-like drawing in hands,ravenous hunger,1.0,1
+cramp-like drawing in hands,lancinating pain toward right scapula,1.0,1
+cramp-like drawing in hands,grinding teeth at night,1.0,1
+white about the mouth,cramp-like drawing in hands,1.0,1
+white about the mouth,boring nose with finger,1.0,1
+white about the mouth,single small jerking stitches in other hand,1.0,1
+white about the mouth,noise like water running from throat to abdomen,1.0,1
+white about the mouth,tearing jerking pain in middle of spine,1.0,1
+white about the mouth,intermitting form of rheumatism,1.0,1
+white about the mouth,drawing tearing pain along whole spine,1.0,1
+white about the mouth,pain in limbs,1.0,1
+white about the mouth,distortion of limbs,1.0,1
+white about the mouth,left leg semi-flexed on abdomen,1.0,1
+white about the mouth,spasmodic twitching of limbs,1.0,1
+white about the mouth,convulsion of extensor muscles,1.0,1
+white about the mouth,lancinating pain in upper spinal column,1.0,1
+white about the mouth,spasmodic contractions of hands,1.0,1
+white about the mouth,small of back pain not worse by stooping,1.0,1
+white about the mouth,cramp-like drawing in arms,1.0,1
+white about the mouth,pain in loins as after long standing,1.0,1
+white about the mouth,jerking of limbs,1.0,1
+white about the mouth,upper arm pain worse from motion,1.0,1
+white about the mouth,left leg semi-flexed on itself,1.0,1
+white about the mouth,paralytic pain in left thigh near knee,1.0,1
+white about the mouth,single small jerking stitches in one hand,1.0,1
+white about the mouth,boring pinching pains in upper arms,1.0,1
+white about the mouth,sprained feeling in wrist joint,1.0,1
+white about the mouth,ravenous hunger,1.0,1
+white about the mouth,lancinating pain toward right scapula,1.0,1
+white about the mouth,grinding teeth at night,1.0,1
+distortion of limbs,cramp-like drawing in hands,1.0,1
+distortion of limbs,boring nose with finger,1.0,1
+distortion of limbs,single small jerking stitches in other hand,1.0,1
+distortion of limbs,noise like water running from throat to abdomen,1.0,1
+distortion of limbs,white about the mouth,1.0,1
+distortion of limbs,tearing jerking pain in middle of spine,1.0,1
+distortion of limbs,intermitting form of rheumatism,1.0,1
+distortion of limbs,drawing tearing pain along whole spine,1.0,1
+distortion of limbs,pain in limbs,1.0,1
+distortion of limbs,left leg semi-flexed on abdomen,1.0,1
+distortion of limbs,spasmodic twitching of limbs,1.0,1
+distortion of limbs,convulsion of extensor muscles,1.0,1
+distortion of limbs,lancinating pain in upper spinal column,1.0,1
+distortion of limbs,spasmodic contractions of hands,1.0,1
+distortion of limbs,small of back pain not worse by stooping,1.0,1
+distortion of limbs,cramp-like drawing in arms,1.0,1
+distortion of limbs,pain in loins as after long standing,1.0,1
+distortion of limbs,jerking of limbs,1.0,1
+distortion of limbs,upper arm pain worse from motion,1.0,1
+distortion of limbs,left leg semi-flexed on itself,1.0,1
+distortion of limbs,paralytic pain in left thigh near knee,1.0,1
+distortion of limbs,single small jerking stitches in one hand,1.0,1
+distortion of limbs,boring pinching pains in upper arms,1.0,1
+distortion of limbs,sprained feeling in wrist joint,1.0,1
+distortion of limbs,ravenous hunger,1.0,1
+distortion of limbs,lancinating pain toward right scapula,1.0,1
+distortion of limbs,grinding teeth at night,1.0,1
+lancinating pain toward right scapula,cramp-like drawing in hands,1.0,1
+lancinating pain toward right scapula,boring nose with finger,1.0,1
+lancinating pain toward right scapula,single small jerking stitches in other hand,1.0,1
+lancinating pain toward right scapula,noise like water running from throat to abdomen,1.0,1
+lancinating pain toward right scapula,white about the mouth,1.0,1
+lancinating pain toward right scapula,tearing jerking pain in middle of spine,1.0,1
+lancinating pain toward right scapula,intermitting form of rheumatism,1.0,1
+lancinating pain toward right scapula,drawing tearing pain along whole spine,1.0,1
+lancinating pain toward right scapula,pain in limbs,1.0,1
+lancinating pain toward right scapula,distortion of limbs,1.0,1
+lancinating pain toward right scapula,left leg semi-flexed on abdomen,1.0,1
+lancinating pain toward right scapula,spasmodic twitching of limbs,1.0,1
+lancinating pain toward right scapula,convulsion of extensor muscles,1.0,1
+lancinating pain toward right scapula,lancinating pain in upper spinal column,1.0,1
+lancinating pain toward right scapula,spasmodic contractions of hands,1.0,1
+lancinating pain toward right scapula,small of back pain not worse by stooping,1.0,1
+lancinating pain toward right scapula,cramp-like drawing in arms,1.0,1
+lancinating pain toward right scapula,pain in loins as after long standing,1.0,1
+lancinating pain toward right scapula,jerking of limbs,1.0,1
+lancinating pain toward right scapula,upper arm pain worse from motion,1.0,1
+lancinating pain toward right scapula,left leg semi-flexed on itself,1.0,1
+lancinating pain toward right scapula,paralytic pain in left thigh near knee,1.0,1
+lancinating pain toward right scapula,single small jerking stitches in one hand,1.0,1
+lancinating pain toward right scapula,boring pinching pains in upper arms,1.0,1
+lancinating pain toward right scapula,sprained feeling in wrist joint,1.0,1
+lancinating pain toward right scapula,ravenous hunger,1.0,1
+lancinating pain toward right scapula,grinding teeth at night,1.0,1
+cramp-like drawing in arms,cramp-like drawing in hands,1.0,1
+cramp-like drawing in arms,boring nose with finger,1.0,1
+cramp-like drawing in arms,single small jerking stitches in other hand,1.0,1
+cramp-like drawing in arms,noise like water running from throat to abdomen,1.0,1
+cramp-like drawing in arms,white about the mouth,1.0,1
+cramp-like drawing in arms,tearing jerking pain in middle of spine,1.0,1
+cramp-like drawing in arms,intermitting form of rheumatism,1.0,1
+cramp-like drawing in arms,drawing tearing pain along whole spine,1.0,1
+cramp-like drawing in arms,pain in limbs,1.0,1
+cramp-like drawing in arms,distortion of limbs,1.0,1
+cramp-like drawing in arms,left leg semi-flexed on abdomen,1.0,1
+cramp-like drawing in arms,spasmodic twitching of limbs,1.0,1
+cramp-like drawing in arms,convulsion of extensor muscles,1.0,1
+cramp-like drawing in arms,lancinating pain in upper spinal column,1.0,1
+cramp-like drawing in arms,spasmodic contractions of hands,1.0,1
+cramp-like drawing in arms,small of back pain not worse by stooping,1.0,1
+cramp-like drawing in arms,pain in loins as after long standing,1.0,1
+cramp-like drawing in arms,jerking of limbs,1.0,1
+cramp-like drawing in arms,upper arm pain worse from motion,1.0,1
+cramp-like drawing in arms,left leg semi-flexed on itself,1.0,1
+cramp-like drawing in arms,paralytic pain in left thigh near knee,1.0,1
+cramp-like drawing in arms,single small jerking stitches in one hand,1.0,1
+cramp-like drawing in arms,boring pinching pains in upper arms,1.0,1
+cramp-like drawing in arms,sprained feeling in wrist joint,1.0,1
+cramp-like drawing in arms,ravenous hunger,1.0,1
+cramp-like drawing in arms,lancinating pain toward right scapula,1.0,1
+cramp-like drawing in arms,grinding teeth at night,1.0,1
+sprained feeling in wrist joint,cramp-like drawing in hands,1.0,1
+sprained feeling in wrist joint,boring nose with finger,1.0,1
+sprained feeling in wrist joint,single small jerking stitches in other hand,1.0,1
+sprained feeling in wrist joint,noise like water running from throat to abdomen,1.0,1
+sprained feeling in wrist joint,white about the mouth,1.0,1
+sprained feeling in wrist joint,tearing jerking pain in middle of spine,1.0,1
+sprained feeling in wrist joint,intermitting form of rheumatism,1.0,1
+sprained feeling in wrist joint,drawing tearing pain along whole spine,1.0,1
+sprained feeling in wrist joint,pain in limbs,1.0,1
+sprained feeling in wrist joint,distortion of limbs,1.0,1
+sprained feeling in wrist joint,left leg semi-flexed on abdomen,1.0,1
+sprained feeling in wrist joint,spasmodic twitching of limbs,1.0,1
+sprained feeling in wrist joint,convulsion of extensor muscles,1.0,1
+sprained feeling in wrist joint,lancinating pain in upper spinal column,1.0,1
+sprained feeling in wrist joint,spasmodic contractions of hands,1.0,1
+sprained feeling in wrist joint,small of back pain not worse by stooping,1.0,1
+sprained feeling in wrist joint,cramp-like drawing in arms,1.0,1
+sprained feeling in wrist joint,pain in loins as after long standing,1.0,1
+sprained feeling in wrist joint,jerking of limbs,1.0,1
+sprained feeling in wrist joint,upper arm pain worse from motion,1.0,1
+sprained feeling in wrist joint,left leg semi-flexed on itself,1.0,1
+sprained feeling in wrist joint,paralytic pain in left thigh near knee,1.0,1
+sprained feeling in wrist joint,single small jerking stitches in one hand,1.0,1
+sprained feeling in wrist joint,boring pinching pains in upper arms,1.0,1
+sprained feeling in wrist joint,ravenous hunger,1.0,1
+sprained feeling in wrist joint,lancinating pain toward right scapula,1.0,1
+sprained feeling in wrist joint,grinding teeth at night,1.0,1
+lancinating pain in upper spinal column,cramp-like drawing in hands,1.0,1
+lancinating pain in upper spinal column,boring nose with finger,1.0,1
+lancinating pain in upper spinal column,single small jerking stitches in other hand,1.0,1
+lancinating pain in upper spinal column,noise like water running from throat to abdomen,1.0,1
+lancinating pain in upper spinal column,white about the mouth,1.0,1
+lancinating pain in upper spinal column,tearing jerking pain in middle of spine,1.0,1
+lancinating pain in upper spinal column,intermitting form of rheumatism,1.0,1
+lancinating pain in upper spinal column,drawing tearing pain along whole spine,1.0,1
+lancinating pain in upper spinal column,pain in limbs,1.0,1
+lancinating pain in upper spinal column,distortion of limbs,1.0,1
+lancinating pain in upper spinal column,left leg semi-flexed on abdomen,1.0,1
+lancinating pain in upper spinal column,spasmodic twitching of limbs,1.0,1
+lancinating pain in upper spinal column,convulsion of extensor muscles,1.0,1
+lancinating pain in upper spinal column,spasmodic contractions of hands,1.0,1
+lancinating pain in upper spinal column,small of back pain not worse by stooping,1.0,1
+lancinating pain in upper spinal column,cramp-like drawing in arms,1.0,1
+lancinating pain in upper spinal column,pain in loins as after long standing,1.0,1
+lancinating pain in upper spinal column,jerking of limbs,1.0,1
+lancinating pain in upper spinal column,upper arm pain worse from motion,1.0,1
+lancinating pain in upper spinal column,left leg semi-flexed on itself,1.0,1
+lancinating pain in upper spinal column,paralytic pain in left thigh near knee,1.0,1
+lancinating pain in upper spinal column,single small jerking stitches in one hand,1.0,1
+lancinating pain in upper spinal column,boring pinching pains in upper arms,1.0,1
+lancinating pain in upper spinal column,sprained feeling in wrist joint,1.0,1
+lancinating pain in upper spinal column,ravenous hunger,1.0,1
+lancinating pain in upper spinal column,lancinating pain toward right scapula,1.0,1
+lancinating pain in upper spinal column,grinding teeth at night,1.0,1
+ravenous hunger,cramp-like drawing in hands,1.0,1
+ravenous hunger,boring nose with finger,1.0,1
+ravenous hunger,single small jerking stitches in other hand,1.0,1
+ravenous hunger,noise like water running from throat to abdomen,1.0,1
+ravenous hunger,white about the mouth,1.0,1
+ravenous hunger,tearing jerking pain in middle of spine,1.0,1
+ravenous hunger,intermitting form of rheumatism,1.0,1
+ravenous hunger,drawing tearing pain along whole spine,1.0,1
+ravenous hunger,pain in limbs,1.0,1
+ravenous hunger,distortion of limbs,1.0,1
+ravenous hunger,left leg semi-flexed on abdomen,1.0,1
+ravenous hunger,spasmodic twitching of limbs,1.0,1
+ravenous hunger,convulsion of extensor muscles,1.0,1
+ravenous hunger,lancinating pain in upper spinal column,1.0,1
+ravenous hunger,spasmodic contractions of hands,1.0,1
+ravenous hunger,small of back pain not worse by stooping,1.0,1
+ravenous hunger,cramp-like drawing in arms,1.0,1
+ravenous hunger,pain in loins as after long standing,1.0,1
+ravenous hunger,jerking of limbs,1.0,1
+ravenous hunger,upper arm pain worse from motion,1.0,1
+ravenous hunger,left leg semi-flexed on itself,1.0,1
+ravenous hunger,paralytic pain in left thigh near knee,1.0,1
+ravenous hunger,single small jerking stitches in one hand,1.0,1
+ravenous hunger,boring pinching pains in upper arms,1.0,1
+ravenous hunger,sprained feeling in wrist joint,1.0,1
+ravenous hunger,lancinating pain toward right scapula,1.0,1
+ravenous hunger,grinding teeth at night,1.0,1
+spasmodic contractions of hands,cramp-like drawing in hands,1.0,1
+spasmodic contractions of hands,boring nose with finger,1.0,1
+spasmodic contractions of hands,single small jerking stitches in other hand,1.0,1
+spasmodic contractions of hands,noise like water running from throat to abdomen,1.0,1
+spasmodic contractions of hands,white about the mouth,1.0,1
+spasmodic contractions of hands,tearing jerking pain in middle of spine,1.0,1
+spasmodic contractions of hands,intermitting form of rheumatism,1.0,1
+spasmodic contractions of hands,drawing tearing pain along whole spine,1.0,1
+spasmodic contractions of hands,pain in limbs,1.0,1
+spasmodic contractions of hands,distortion of limbs,1.0,1
+spasmodic contractions of hands,left leg semi-flexed on abdomen,1.0,1
+spasmodic contractions of hands,spasmodic twitching of limbs,1.0,1
+spasmodic contractions of hands,convulsion of extensor muscles,1.0,1
+spasmodic contractions of hands,lancinating pain in upper spinal column,1.0,1
+spasmodic contractions of hands,small of back pain not worse by stooping,1.0,1
+spasmodic contractions of hands,cramp-like drawing in arms,1.0,1
+spasmodic contractions of hands,pain in loins as after long standing,1.0,1
+spasmodic contractions of hands,jerking of limbs,1.0,1
+spasmodic contractions of hands,upper arm pain worse from motion,1.0,1
+spasmodic contractions of hands,left leg semi-flexed on itself,1.0,1
+spasmodic contractions of hands,paralytic pain in left thigh near knee,1.0,1
+spasmodic contractions of hands,single small jerking stitches in one hand,1.0,1
+spasmodic contractions of hands,boring pinching pains in upper arms,1.0,1
+spasmodic contractions of hands,sprained feeling in wrist joint,1.0,1
+spasmodic contractions of hands,ravenous hunger,1.0,1
+spasmodic contractions of hands,lancinating pain toward right scapula,1.0,1
+spasmodic contractions of hands,grinding teeth at night,1.0,1
+spasmodic twitching of limbs,cramp-like drawing in hands,1.0,1
+spasmodic twitching of limbs,boring nose with finger,1.0,1
+spasmodic twitching of limbs,single small jerking stitches in other hand,1.0,1
+spasmodic twitching of limbs,noise like water running from throat to abdomen,1.0,1
+spasmodic twitching of limbs,white about the mouth,1.0,1
+spasmodic twitching of limbs,tearing jerking pain in middle of spine,1.0,1
+spasmodic twitching of limbs,intermitting form of rheumatism,1.0,1
+spasmodic twitching of limbs,drawing tearing pain along whole spine,1.0,1
+spasmodic twitching of limbs,pain in limbs,1.0,1
+spasmodic twitching of limbs,distortion of limbs,1.0,1
+spasmodic twitching of limbs,left leg semi-flexed on abdomen,1.0,1
+spasmodic twitching of limbs,convulsion of extensor muscles,1.0,1
+spasmodic twitching of limbs,lancinating pain in upper spinal column,1.0,1
+spasmodic twitching of limbs,spasmodic contractions of hands,1.0,1
+spasmodic twitching of limbs,small of back pain not worse by stooping,1.0,1
+spasmodic twitching of limbs,cramp-like drawing in arms,1.0,1
+spasmodic twitching of limbs,pain in loins as after long standing,1.0,1
+spasmodic twitching of limbs,jerking of limbs,1.0,1
+spasmodic twitching of limbs,upper arm pain worse from motion,1.0,1
+spasmodic twitching of limbs,left leg semi-flexed on itself,1.0,1
+spasmodic twitching of limbs,paralytic pain in left thigh near knee,1.0,1
+spasmodic twitching of limbs,single small jerking stitches in one hand,1.0,1
+spasmodic twitching of limbs,boring pinching pains in upper arms,1.0,1
+spasmodic twitching of limbs,sprained feeling in wrist joint,1.0,1
+spasmodic twitching of limbs,ravenous hunger,1.0,1
+spasmodic twitching of limbs,lancinating pain toward right scapula,1.0,1
+spasmodic twitching of limbs,grinding teeth at night,1.0,1
+left leg semi-flexed on abdomen,cramp-like drawing in hands,1.0,1
+left leg semi-flexed on abdomen,boring nose with finger,1.0,1
+left leg semi-flexed on abdomen,single small jerking stitches in other hand,1.0,1
+left leg semi-flexed on abdomen,noise like water running from throat to abdomen,1.0,1
+left leg semi-flexed on abdomen,white about the mouth,1.0,1
+left leg semi-flexed on abdomen,tearing jerking pain in middle of spine,1.0,1
+left leg semi-flexed on abdomen,intermitting form of rheumatism,1.0,1
+left leg semi-flexed on abdomen,drawing tearing pain along whole spine,1.0,1
+left leg semi-flexed on abdomen,pain in limbs,1.0,1
+left leg semi-flexed on abdomen,distortion of limbs,1.0,1
+left leg semi-flexed on abdomen,spasmodic twitching of limbs,1.0,1
+left leg semi-flexed on abdomen,convulsion of extensor muscles,1.0,1
+left leg semi-flexed on abdomen,lancinating pain in upper spinal column,1.0,1
+left leg semi-flexed on abdomen,spasmodic contractions of hands,1.0,1
+left leg semi-flexed on abdomen,small of back pain not worse by stooping,1.0,1
+left leg semi-flexed on abdomen,cramp-like drawing in arms,1.0,1
+left leg semi-flexed on abdomen,pain in loins as after long standing,1.0,1
+left leg semi-flexed on abdomen,jerking of limbs,1.0,1
+left leg semi-flexed on abdomen,upper arm pain worse from motion,1.0,1
+left leg semi-flexed on abdomen,left leg semi-flexed on itself,1.0,1
+left leg semi-flexed on abdomen,paralytic pain in left thigh near knee,1.0,1
+left leg semi-flexed on abdomen,single small jerking stitches in one hand,1.0,1
+left leg semi-flexed on abdomen,boring pinching pains in upper arms,1.0,1
+left leg semi-flexed on abdomen,sprained feeling in wrist joint,1.0,1
+left leg semi-flexed on abdomen,ravenous hunger,1.0,1
+left leg semi-flexed on abdomen,lancinating pain toward right scapula,1.0,1
+left leg semi-flexed on abdomen,grinding teeth at night,1.0,1
+tearing jerking pain in middle of spine,cramp-like drawing in hands,1.0,1
+tearing jerking pain in middle of spine,boring nose with finger,1.0,1
+tearing jerking pain in middle of spine,single small jerking stitches in other hand,1.0,1
+tearing jerking pain in middle of spine,noise like water running from throat to abdomen,1.0,1
+tearing jerking pain in middle of spine,white about the mouth,1.0,1
+tearing jerking pain in middle of spine,intermitting form of rheumatism,1.0,1
+tearing jerking pain in middle of spine,drawing tearing pain along whole spine,1.0,1
+tearing jerking pain in middle of spine,pain in limbs,1.0,1
+tearing jerking pain in middle of spine,distortion of limbs,1.0,1
+tearing jerking pain in middle of spine,left leg semi-flexed on abdomen,1.0,1
+tearing jerking pain in middle of spine,spasmodic twitching of limbs,1.0,1
+tearing jerking pain in middle of spine,convulsion of extensor muscles,1.0,1
+tearing jerking pain in middle of spine,lancinating pain in upper spinal column,1.0,1
+tearing jerking pain in middle of spine,spasmodic contractions of hands,1.0,1
+tearing jerking pain in middle of spine,small of back pain not worse by stooping,1.0,1
+tearing jerking pain in middle of spine,cramp-like drawing in arms,1.0,1
+tearing jerking pain in middle of spine,pain in loins as after long standing,1.0,1
+tearing jerking pain in middle of spine,jerking of limbs,1.0,1
+tearing jerking pain in middle of spine,upper arm pain worse from motion,1.0,1
+tearing jerking pain in middle of spine,left leg semi-flexed on itself,1.0,1
+tearing jerking pain in middle of spine,paralytic pain in left thigh near knee,1.0,1
+tearing jerking pain in middle of spine,single small jerking stitches in one hand,1.0,1
+tearing jerking pain in middle of spine,boring pinching pains in upper arms,1.0,1
+tearing jerking pain in middle of spine,sprained feeling in wrist joint,1.0,1
+tearing jerking pain in middle of spine,ravenous hunger,1.0,1
+tearing jerking pain in middle of spine,lancinating pain toward right scapula,1.0,1
+tearing jerking pain in middle of spine,grinding teeth at night,1.0,1
+noise like water running from throat to abdomen,cramp-like drawing in hands,1.0,1
+noise like water running from throat to abdomen,boring nose with finger,1.0,1
+noise like water running from throat to abdomen,single small jerking stitches in other hand,1.0,1
+noise like water running from throat to abdomen,white about the mouth,1.0,1
+noise like water running from throat to abdomen,tearing jerking pain in middle of spine,1.0,1
+noise like water running from throat to abdomen,intermitting form of rheumatism,1.0,1
+noise like water running from throat to abdomen,drawing tearing pain along whole spine,1.0,1
+noise like water running from throat to abdomen,pain in limbs,1.0,1
+noise like water running from throat to abdomen,distortion of limbs,1.0,1
+noise like water running from throat to abdomen,left leg semi-flexed on abdomen,1.0,1
+noise like water running from throat to abdomen,spasmodic twitching of limbs,1.0,1
+noise like water running from throat to abdomen,convulsion of extensor muscles,1.0,1
+noise like water running from throat to abdomen,lancinating pain in upper spinal column,1.0,1
+noise like water running from throat to abdomen,spasmodic contractions of hands,1.0,1
+noise like water running from throat to abdomen,small of back pain not worse by stooping,1.0,1
+noise like water running from throat to abdomen,cramp-like drawing in arms,1.0,1
+noise like water running from throat to abdomen,pain in loins as after long standing,1.0,1
+noise like water running from throat to abdomen,jerking of limbs,1.0,1
+noise like water running from throat to abdomen,upper arm pain worse from motion,1.0,1
+noise like water running from throat to abdomen,left leg semi-flexed on itself,1.0,1
+noise like water running from throat to abdomen,paralytic pain in left thigh near knee,1.0,1
+noise like water running from throat to abdomen,single small jerking stitches in one hand,1.0,1
+noise like water running from throat to abdomen,boring pinching pains in upper arms,1.0,1
+noise like water running from throat to abdomen,sprained feeling in wrist joint,1.0,1
+noise like water running from throat to abdomen,ravenous hunger,1.0,1
+noise like water running from throat to abdomen,lancinating pain toward right scapula,1.0,1
+noise like water running from throat to abdomen,grinding teeth at night,1.0,1
+upper arm pain worse from motion,cramp-like drawing in hands,1.0,1
+upper arm pain worse from motion,boring nose with finger,1.0,1
+upper arm pain worse from motion,single small jerking stitches in other hand,1.0,1
+upper arm pain worse from motion,noise like water running from throat to abdomen,1.0,1
+upper arm pain worse from motion,white about the mouth,1.0,1
+upper arm pain worse from motion,tearing jerking pain in middle of spine,1.0,1
+upper arm pain worse from motion,intermitting form of rheumatism,1.0,1
+upper arm pain worse from motion,drawing tearing pain along whole spine,1.0,1
+upper arm pain worse from motion,pain in limbs,1.0,1
+upper arm pain worse from motion,distortion of limbs,1.0,1
+upper arm pain worse from motion,left leg semi-flexed on abdomen,1.0,1
+upper arm pain worse from motion,spasmodic twitching of limbs,1.0,1
+upper arm pain worse from motion,convulsion of extensor muscles,1.0,1
+upper arm pain worse from motion,lancinating pain in upper spinal column,1.0,1
+upper arm pain worse from motion,spasmodic contractions of hands,1.0,1
+upper arm pain worse from motion,small of back pain not worse by stooping,1.0,1
+upper arm pain worse from motion,cramp-like drawing in arms,1.0,1
+upper arm pain worse from motion,pain in loins as after long standing,1.0,1
+upper arm pain worse from motion,jerking of limbs,1.0,1
+upper arm pain worse from motion,left leg semi-flexed on itself,1.0,1
+upper arm pain worse from motion,paralytic pain in left thigh near knee,1.0,1
+upper arm pain worse from motion,single small jerking stitches in one hand,1.0,1
+upper arm pain worse from motion,boring pinching pains in upper arms,1.0,1
+upper arm pain worse from motion,sprained feeling in wrist joint,1.0,1
+upper arm pain worse from motion,ravenous hunger,1.0,1
+upper arm pain worse from motion,lancinating pain toward right scapula,1.0,1
+upper arm pain worse from motion,grinding teeth at night,1.0,1
+paralytic pain in left thigh near knee,cramp-like drawing in hands,1.0,1
+paralytic pain in left thigh near knee,boring nose with finger,1.0,1
+paralytic pain in left thigh near knee,single small jerking stitches in other hand,1.0,1
+paralytic pain in left thigh near knee,noise like water running from throat to abdomen,1.0,1
+paralytic pain in left thigh near knee,white about the mouth,1.0,1
+paralytic pain in left thigh near knee,tearing jerking pain in middle of spine,1.0,1
+paralytic pain in left thigh near knee,intermitting form of rheumatism,1.0,1
+paralytic pain in left thigh near knee,drawing tearing pain along whole spine,1.0,1
+paralytic pain in left thigh near knee,pain in limbs,1.0,1
+paralytic pain in left thigh near knee,distortion of limbs,1.0,1
+paralytic pain in left thigh near knee,left leg semi-flexed on abdomen,1.0,1
+paralytic pain in left thigh near knee,spasmodic twitching of limbs,1.0,1
+paralytic pain in left thigh near knee,convulsion of extensor muscles,1.0,1
+paralytic pain in left thigh near knee,lancinating pain in upper spinal column,1.0,1
+paralytic pain in left thigh near knee,spasmodic contractions of hands,1.0,1
+paralytic pain in left thigh near knee,small of back pain not worse by stooping,1.0,1
+paralytic pain in left thigh near knee,cramp-like drawing in arms,1.0,1
+paralytic pain in left thigh near knee,pain in loins as after long standing,1.0,1
+paralytic pain in left thigh near knee,jerking of limbs,1.0,1
+paralytic pain in left thigh near knee,upper arm pain worse from motion,1.0,1
+paralytic pain in left thigh near knee,left leg semi-flexed on itself,1.0,1
+paralytic pain in left thigh near knee,single small jerking stitches in one hand,1.0,1
+paralytic pain in left thigh near knee,boring pinching pains in upper arms,1.0,1
+paralytic pain in left thigh near knee,sprained feeling in wrist joint,1.0,1
+paralytic pain in left thigh near knee,ravenous hunger,1.0,1
+paralytic pain in left thigh near knee,lancinating pain toward right scapula,1.0,1
+paralytic pain in left thigh near knee,grinding teeth at night,1.0,1
+drawing tearing pain along whole spine,cramp-like drawing in hands,1.0,1
+drawing tearing pain along whole spine,boring nose with finger,1.0,1
+drawing tearing pain along whole spine,single small jerking stitches in other hand,1.0,1
+drawing tearing pain along whole spine,noise like water running from throat to abdomen,1.0,1
+drawing tearing pain along whole spine,white about the mouth,1.0,1
+drawing tearing pain along whole spine,tearing jerking pain in middle of spine,1.0,1
+drawing tearing pain along whole spine,intermitting form of rheumatism,1.0,1
+drawing tearing pain along whole spine,pain in limbs,1.0,1
+drawing tearing pain along whole spine,distortion of limbs,1.0,1
+drawing tearing pain along whole spine,left leg semi-flexed on abdomen,1.0,1
+drawing tearing pain along whole spine,spasmodic twitching of limbs,1.0,1
+drawing tearing pain along whole spine,convulsion of extensor muscles,1.0,1
+drawing tearing pain along whole spine,lancinating pain in upper spinal column,1.0,1
+drawing tearing pain along whole spine,spasmodic contractions of hands,1.0,1
+drawing tearing pain along whole spine,small of back pain not worse by stooping,1.0,1
+drawing tearing pain along whole spine,cramp-like drawing in arms,1.0,1
+drawing tearing pain along whole spine,pain in loins as after long standing,1.0,1
+drawing tearing pain along whole spine,jerking of limbs,1.0,1
+drawing tearing pain along whole spine,upper arm pain worse from motion,1.0,1
+drawing tearing pain along whole spine,left leg semi-flexed on itself,1.0,1
+drawing tearing pain along whole spine,paralytic pain in left thigh near knee,1.0,1
+drawing tearing pain along whole spine,single small jerking stitches in one hand,1.0,1
+drawing tearing pain along whole spine,boring pinching pains in upper arms,1.0,1
+drawing tearing pain along whole spine,sprained feeling in wrist joint,1.0,1
+drawing tearing pain along whole spine,ravenous hunger,1.0,1
+drawing tearing pain along whole spine,lancinating pain toward right scapula,1.0,1
+drawing tearing pain along whole spine,grinding teeth at night,1.0,1
+intermitting form of rheumatism,cramp-like drawing in hands,1.0,1
+intermitting form of rheumatism,boring nose with finger,1.0,1
+intermitting form of rheumatism,single small jerking stitches in other hand,1.0,1
+intermitting form of rheumatism,noise like water running from throat to abdomen,1.0,1
+intermitting form of rheumatism,white about the mouth,1.0,1
+intermitting form of rheumatism,tearing jerking pain in middle of spine,1.0,1
+intermitting form of rheumatism,drawing tearing pain along whole spine,1.0,1
+intermitting form of rheumatism,pain in limbs,1.0,1
+intermitting form of rheumatism,distortion of limbs,1.0,1
+intermitting form of rheumatism,left leg semi-flexed on abdomen,1.0,1
+intermitting form of rheumatism,spasmodic twitching of limbs,1.0,1
+intermitting form of rheumatism,convulsion of extensor muscles,1.0,1
+intermitting form of rheumatism,lancinating pain in upper spinal column,1.0,1
+intermitting form of rheumatism,spasmodic contractions of hands,1.0,1
+intermitting form of rheumatism,small of back pain not worse by stooping,1.0,1
+intermitting form of rheumatism,cramp-like drawing in arms,1.0,1
+intermitting form of rheumatism,pain in loins as after long standing,1.0,1
+intermitting form of rheumatism,jerking of limbs,1.0,1
+intermitting form of rheumatism,upper arm pain worse from motion,1.0,1
+intermitting form of rheumatism,left leg semi-flexed on itself,1.0,1
+intermitting form of rheumatism,paralytic pain in left thigh near knee,1.0,1
+intermitting form of rheumatism,single small jerking stitches in one hand,1.0,1
+intermitting form of rheumatism,boring pinching pains in upper arms,1.0,1
+intermitting form of rheumatism,sprained feeling in wrist joint,1.0,1
+intermitting form of rheumatism,ravenous hunger,1.0,1
+intermitting form of rheumatism,lancinating pain toward right scapula,1.0,1
+intermitting form of rheumatism,grinding teeth at night,1.0,1
+boring pinching pains in upper arms,cramp-like drawing in hands,1.0,1
+boring pinching pains in upper arms,boring nose with finger,1.0,1
+boring pinching pains in upper arms,single small jerking stitches in other hand,1.0,1
+boring pinching pains in upper arms,noise like water running from throat to abdomen,1.0,1
+boring pinching pains in upper arms,white about the mouth,1.0,1
+boring pinching pains in upper arms,tearing jerking pain in middle of spine,1.0,1
+boring pinching pains in upper arms,intermitting form of rheumatism,1.0,1
+boring pinching pains in upper arms,drawing tearing pain along whole spine,1.0,1
+boring pinching pains in upper arms,pain in limbs,1.0,1
+boring pinching pains in upper arms,distortion of limbs,1.0,1
+boring pinching pains in upper arms,left leg semi-flexed on abdomen,1.0,1
+boring pinching pains in upper arms,spasmodic twitching of limbs,1.0,1
+boring pinching pains in upper arms,convulsion of extensor muscles,1.0,1
+boring pinching pains in upper arms,lancinating pain in upper spinal column,1.0,1
+boring pinching pains in upper arms,spasmodic contractions of hands,1.0,1
+boring pinching pains in upper arms,small of back pain not worse by stooping,1.0,1
+boring pinching pains in upper arms,cramp-like drawing in arms,1.0,1
+boring pinching pains in upper arms,pain in loins as after long standing,1.0,1
+boring pinching pains in upper arms,jerking of limbs,1.0,1
+boring pinching pains in upper arms,upper arm pain worse from motion,1.0,1
+boring pinching pains in upper arms,left leg semi-flexed on itself,1.0,1
+boring pinching pains in upper arms,paralytic pain in left thigh near knee,1.0,1
+boring pinching pains in upper arms,single small jerking stitches in one hand,1.0,1
+boring pinching pains in upper arms,sprained feeling in wrist joint,1.0,1
+boring pinching pains in upper arms,ravenous hunger,1.0,1
+boring pinching pains in upper arms,lancinating pain toward right scapula,1.0,1
+boring pinching pains in upper arms,grinding teeth at night,1.0,1
+boring nose with finger,cramp-like drawing in hands,1.0,1
+boring nose with finger,single small jerking stitches in other hand,1.0,1
+boring nose with finger,noise like water running from throat to abdomen,1.0,1
+boring nose with finger,white about the mouth,1.0,1
+boring nose with finger,tearing jerking pain in middle of spine,1.0,1
+boring nose with finger,intermitting form of rheumatism,1.0,1
+boring nose with finger,drawing tearing pain along whole spine,1.0,1
+boring nose with finger,pain in limbs,1.0,1
+boring nose with finger,distortion of limbs,1.0,1
+boring nose with finger,left leg semi-flexed on abdomen,1.0,1
+boring nose with finger,spasmodic twitching of limbs,1.0,1
+boring nose with finger,convulsion of extensor muscles,1.0,1
+boring nose with finger,lancinating pain in upper spinal column,1.0,1
+boring nose with finger,spasmodic contractions of hands,1.0,1
+boring nose with finger,small of back pain not worse by stooping,1.0,1
+boring nose with finger,cramp-like drawing in arms,1.0,1
+boring nose with finger,pain in loins as after long standing,1.0,1
+boring nose with finger,jerking of limbs,1.0,1
+boring nose with finger,upper arm pain worse from motion,1.0,1
+boring nose with finger,left leg semi-flexed on itself,1.0,1
+boring nose with finger,paralytic pain in left thigh near knee,1.0,1
+boring nose with finger,single small jerking stitches in one hand,1.0,1
+boring nose with finger,boring pinching pains in upper arms,1.0,1
+boring nose with finger,sprained feeling in wrist joint,1.0,1
+boring nose with finger,ravenous hunger,1.0,1
+boring nose with finger,lancinating pain toward right scapula,1.0,1
+boring nose with finger,grinding teeth at night,1.0,1
+pain in loins as after long standing,cramp-like drawing in hands,1.0,1
+pain in loins as after long standing,boring nose with finger,1.0,1
+pain in loins as after long standing,single small jerking stitches in other hand,1.0,1
+pain in loins as after long standing,noise like water running from throat to abdomen,1.0,1
+pain in loins as after long standing,white about the mouth,1.0,1
+pain in loins as after long standing,tearing jerking pain in middle of spine,1.0,1
+pain in loins as after long standing,intermitting form of rheumatism,1.0,1
+pain in loins as after long standing,drawing tearing pain along whole spine,1.0,1
+pain in loins as after long standing,pain in limbs,1.0,1
+pain in loins as after long standing,distortion of limbs,1.0,1
+pain in loins as after long standing,left leg semi-flexed on abdomen,1.0,1
+pain in loins as after long standing,spasmodic twitching of limbs,1.0,1
+pain in loins as after long standing,convulsion of extensor muscles,1.0,1
+pain in loins as after long standing,lancinating pain in upper spinal column,1.0,1
+pain in loins as after long standing,spasmodic contractions of hands,1.0,1
+pain in loins as after long standing,small of back pain not worse by stooping,1.0,1
+pain in loins as after long standing,cramp-like drawing in arms,1.0,1
+pain in loins as after long standing,jerking of limbs,1.0,1
+pain in loins as after long standing,upper arm pain worse from motion,1.0,1
+pain in loins as after long standing,left leg semi-flexed on itself,1.0,1
+pain in loins as after long standing,paralytic pain in left thigh near knee,1.0,1
+pain in loins as after long standing,single small jerking stitches in one hand,1.0,1
+pain in loins as after long standing,boring pinching pains in upper arms,1.0,1
+pain in loins as after long standing,sprained feeling in wrist joint,1.0,1
+pain in loins as after long standing,ravenous hunger,1.0,1
+pain in loins as after long standing,lancinating pain toward right scapula,1.0,1
+pain in loins as after long standing,grinding teeth at night,1.0,1
+small of back pain not worse by stooping,cramp-like drawing in hands,1.0,1
+small of back pain not worse by stooping,boring nose with finger,1.0,1
+small of back pain not worse by stooping,single small jerking stitches in other hand,1.0,1
+small of back pain not worse by stooping,noise like water running from throat to abdomen,1.0,1
+small of back pain not worse by stooping,white about the mouth,1.0,1
+small of back pain not worse by stooping,tearing jerking pain in middle of spine,1.0,1
+small of back pain not worse by stooping,intermitting form of rheumatism,1.0,1
+small of back pain not worse by stooping,drawing tearing pain along whole spine,1.0,1
+small of back pain not worse by stooping,pain in limbs,1.0,1
+small of back pain not worse by stooping,distortion of limbs,1.0,1
+small of back pain not worse by stooping,left leg semi-flexed on abdomen,1.0,1
+small of back pain not worse by stooping,spasmodic twitching of limbs,1.0,1
+small of back pain not worse by stooping,convulsion of extensor muscles,1.0,1
+small of back pain not worse by stooping,lancinating pain in upper spinal column,1.0,1
+small of back pain not worse by stooping,spasmodic contractions of hands,1.0,1
+small of back pain not worse by stooping,cramp-like drawing in arms,1.0,1
+small of back pain not worse by stooping,pain in loins as after long standing,1.0,1
+small of back pain not worse by stooping,jerking of limbs,1.0,1
+small of back pain not worse by stooping,upper arm pain worse from motion,1.0,1
+small of back pain not worse by stooping,left leg semi-flexed on itself,1.0,1
+small of back pain not worse by stooping,paralytic pain in left thigh near knee,1.0,1
+small of back pain not worse by stooping,single small jerking stitches in one hand,1.0,1
+small of back pain not worse by stooping,boring pinching pains in upper arms,1.0,1
+small of back pain not worse by stooping,sprained feeling in wrist joint,1.0,1
+small of back pain not worse by stooping,ravenous hunger,1.0,1
+small of back pain not worse by stooping,lancinating pain toward right scapula,1.0,1
+small of back pain not worse by stooping,grinding teeth at night,1.0,1
+left leg semi-flexed on itself,cramp-like drawing in hands,1.0,1
+left leg semi-flexed on itself,boring nose with finger,1.0,1
+left leg semi-flexed on itself,single small jerking stitches in other hand,1.0,1
+left leg semi-flexed on itself,noise like water running from throat to abdomen,1.0,1
+left leg semi-flexed on itself,white about the mouth,1.0,1
+left leg semi-flexed on itself,tearing jerking pain in middle of spine,1.0,1
+left leg semi-flexed on itself,intermitting form of rheumatism,1.0,1
+left leg semi-flexed on itself,drawing tearing pain along whole spine,1.0,1
+left leg semi-flexed on itself,pain in limbs,1.0,1
+left leg semi-flexed on itself,distortion of limbs,1.0,1
+left leg semi-flexed on itself,left leg semi-flexed on abdomen,1.0,1
+left leg semi-flexed on itself,spasmodic twitching of limbs,1.0,1
+left leg semi-flexed on itself,convulsion of extensor muscles,1.0,1
+left leg semi-flexed on itself,lancinating pain in upper spinal column,1.0,1
+left leg semi-flexed on itself,spasmodic contractions of hands,1.0,1
+left leg semi-flexed on itself,small of back pain not worse by stooping,1.0,1
+left leg semi-flexed on itself,cramp-like drawing in arms,1.0,1
+left leg semi-flexed on itself,pain in loins as after long standing,1.0,1
+left leg semi-flexed on itself,jerking of limbs,1.0,1
+left leg semi-flexed on itself,upper arm pain worse from motion,1.0,1
+left leg semi-flexed on itself,paralytic pain in left thigh near knee,1.0,1
+left leg semi-flexed on itself,single small jerking stitches in one hand,1.0,1
+left leg semi-flexed on itself,boring pinching pains in upper arms,1.0,1
+left leg semi-flexed on itself,sprained feeling in wrist joint,1.0,1
+left leg semi-flexed on itself,ravenous hunger,1.0,1
+left leg semi-flexed on itself,lancinating pain toward right scapula,1.0,1
+left leg semi-flexed on itself,grinding teeth at night,1.0,1
+jerking of limbs,cramp-like drawing in hands,0.5,1
+jerking of limbs,boring nose with finger,0.5,1
+jerking of limbs,single small jerking stitches in other hand,0.5,1
+jerking of limbs,noise like water running from throat to abdomen,0.5,1
+jerking of limbs,white about the mouth,0.5,1
+jerking of limbs,tearing jerking pain in middle of spine,0.5,1
+jerking of limbs,intermitting form of rheumatism,0.5,1
+jerking of limbs,drawing tearing pain along whole spine,0.5,1
+jerking of limbs,pain in limbs,0.5,1
+jerking of limbs,distortion of limbs,0.5,1
+jerking of limbs,left leg semi-flexed on abdomen,0.5,1
+jerking of limbs,spasmodic twitching of limbs,0.5,1
+jerking of limbs,convulsion of extensor muscles,0.5,1
+jerking of limbs,lancinating pain in upper spinal column,0.5,1
+jerking of limbs,spasmodic contractions of hands,0.5,1
+jerking of limbs,small of back pain not worse by stooping,0.5,1
+jerking of limbs,cramp-like drawing in arms,0.5,1
+jerking of limbs,pain in loins as after long standing,0.5,1
+jerking of limbs,upper arm pain worse from motion,0.5,1
+jerking of limbs,left leg semi-flexed on itself,0.5,1
+jerking of limbs,paralytic pain in left thigh near knee,0.5,1
+jerking of limbs,single small jerking stitches in one hand,0.5,1
+jerking of limbs,boring pinching pains in upper arms,0.5,1
+jerking of limbs,sprained feeling in wrist joint,0.5,1
+jerking of limbs,ravenous hunger,0.5,1
+jerking of limbs,lancinating pain toward right scapula,0.5,1
+jerking of limbs,grinding teeth at night,0.5,1
+convulsion of extensor muscles,cramp-like drawing in hands,1.0,1
+convulsion of extensor muscles,boring nose with finger,1.0,1
+convulsion of extensor muscles,single small jerking stitches in other hand,1.0,1
+convulsion of extensor muscles,noise like water running from throat to abdomen,1.0,1
+convulsion of extensor muscles,white about the mouth,1.0,1
+convulsion of extensor muscles,tearing jerking pain in middle of spine,1.0,1
+convulsion of extensor muscles,intermitting form of rheumatism,1.0,1
+convulsion of extensor muscles,drawing tearing pain along whole spine,1.0,1
+convulsion of extensor muscles,pain in limbs,1.0,1
+convulsion of extensor muscles,distortion of limbs,1.0,1
+convulsion of extensor muscles,left leg semi-flexed on abdomen,1.0,1
+convulsion of extensor muscles,spasmodic twitching of limbs,1.0,1
+convulsion of extensor muscles,lancinating pain in upper spinal column,1.0,1
+convulsion of extensor muscles,spasmodic contractions of hands,1.0,1
+convulsion of extensor muscles,small of back pain not worse by stooping,1.0,1
+convulsion of extensor muscles,cramp-like drawing in arms,1.0,1
+convulsion of extensor muscles,pain in loins as after long standing,1.0,1
+convulsion of extensor muscles,jerking of limbs,1.0,1
+convulsion of extensor muscles,upper arm pain worse from motion,1.0,1
+convulsion of extensor muscles,left leg semi-flexed on itself,1.0,1
+convulsion of extensor muscles,paralytic pain in left thigh near knee,1.0,1
+convulsion of extensor muscles,single small jerking stitches in one hand,1.0,1
+convulsion of extensor muscles,boring pinching pains in upper arms,1.0,1
+convulsion of extensor muscles,sprained feeling in wrist joint,1.0,1
+convulsion of extensor muscles,ravenous hunger,1.0,1
+convulsion of extensor muscles,lancinating pain toward right scapula,1.0,1
+convulsion of extensor muscles,grinding teeth at night,1.0,1
+single small jerking stitches in one hand,cramp-like drawing in hands,1.0,1
+single small jerking stitches in one hand,boring nose with finger,1.0,1
+single small jerking stitches in one hand,single small jerking stitches in other hand,1.0,1
+single small jerking stitches in one hand,noise like water running from throat to abdomen,1.0,1
+single small jerking stitches in one hand,white about the mouth,1.0,1
+single small jerking stitches in one hand,tearing jerking pain in middle of spine,1.0,1
+single small jerking stitches in one hand,intermitting form of rheumatism,1.0,1
+single small jerking stitches in one hand,drawing tearing pain along whole spine,1.0,1
+single small jerking stitches in one hand,pain in limbs,1.0,1
+single small jerking stitches in one hand,distortion of limbs,1.0,1
+single small jerking stitches in one hand,left leg semi-flexed on abdomen,1.0,1
+single small jerking stitches in one hand,spasmodic twitching of limbs,1.0,1
+single small jerking stitches in one hand,convulsion of extensor muscles,1.0,1
+single small jerking stitches in one hand,lancinating pain in upper spinal column,1.0,1
+single small jerking stitches in one hand,spasmodic contractions of hands,1.0,1
+single small jerking stitches in one hand,small of back pain not worse by stooping,1.0,1
+single small jerking stitches in one hand,cramp-like drawing in arms,1.0,1
+single small jerking stitches in one hand,pain in loins as after long standing,1.0,1
+single small jerking stitches in one hand,jerking of limbs,1.0,1
+single small jerking stitches in one hand,upper arm pain worse from motion,1.0,1
+single small jerking stitches in one hand,left leg semi-flexed on itself,1.0,1
+single small jerking stitches in one hand,paralytic pain in left thigh near knee,1.0,1
+single small jerking stitches in one hand,boring pinching pains in upper arms,1.0,1
+single small jerking stitches in one hand,sprained feeling in wrist joint,1.0,1
+single small jerking stitches in one hand,ravenous hunger,1.0,1
+single small jerking stitches in one hand,lancinating pain toward right scapula,1.0,1
+single small jerking stitches in one hand,grinding teeth at night,1.0,1
+pain in limbs,cramp-like drawing in hands,1.0,1
+pain in limbs,boring nose with finger,1.0,1
+pain in limbs,single small jerking stitches in other hand,1.0,1
+pain in limbs,noise like water running from throat to abdomen,1.0,1
+pain in limbs,white about the mouth,1.0,1
+pain in limbs,tearing jerking pain in middle of spine,1.0,1
+pain in limbs,intermitting form of rheumatism,1.0,1
+pain in limbs,drawing tearing pain along whole spine,1.0,1
+pain in limbs,distortion of limbs,1.0,1
+pain in limbs,left leg semi-flexed on abdomen,1.0,1
+pain in limbs,spasmodic twitching of limbs,1.0,1
+pain in limbs,convulsion of extensor muscles,1.0,1
+pain in limbs,lancinating pain in upper spinal column,1.0,1
+pain in limbs,spasmodic contractions of hands,1.0,1
+pain in limbs,small of back pain not worse by stooping,1.0,1
+pain in limbs,cramp-like drawing in arms,1.0,1
+pain in limbs,pain in loins as after long standing,1.0,1
+pain in limbs,jerking of limbs,1.0,1
+pain in limbs,upper arm pain worse from motion,1.0,1
+pain in limbs,left leg semi-flexed on itself,1.0,1
+pain in limbs,paralytic pain in left thigh near knee,1.0,1
+pain in limbs,single small jerking stitches in one hand,1.0,1
+pain in limbs,boring pinching pains in upper arms,1.0,1
+pain in limbs,sprained feeling in wrist joint,1.0,1
+pain in limbs,ravenous hunger,1.0,1
+pain in limbs,lancinating pain toward right scapula,1.0,1
+pain in limbs,grinding teeth at night,1.0,1

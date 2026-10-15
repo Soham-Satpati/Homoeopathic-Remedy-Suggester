@@ -1,0 +1,38 @@
+### Cluster 106 — Symptoms (5)
+Symptom,Frequency
+gouty pains in shoulders,5
+gouty pains in arms,5
+gouty pains in legs,5
+rheumatic and gouty affections,6
+gouty swelling of joints,4
+
+### Top Remedies
+Remedy,Symptoms_Covered
+iodium,5
+kali iodatum,5
+ledum palustre,5
+hepar sulphuris,4
+guaiacum,3
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+gouty pains in shoulders,rheumatic and gouty affections,0.6,3
+gouty pains in shoulders,gouty swelling of joints,0.8,4
+gouty pains in shoulders,gouty pains in arms,1.0,5
+gouty pains in shoulders,gouty pains in legs,1.0,5
+gouty pains in legs,rheumatic and gouty affections,0.6,3
+gouty pains in legs,gouty pains in shoulders,1.0,5
+gouty pains in legs,gouty swelling of joints,0.8,4
+gouty pains in legs,gouty pains in arms,1.0,5
+rheumatic and gouty affections,gouty pains in shoulders,1.0,3
+rheumatic and gouty affections,gouty swelling of joints,1.0,3
+rheumatic and gouty affections,gouty pains in arms,1.0,3
+rheumatic and gouty affections,gouty pains in legs,1.0,3
+gouty pains in arms,rheumatic and gouty affections,0.6,3
+gouty pains in arms,gouty pains in shoulders,1.0,5
+gouty pains in arms,gouty swelling of joints,0.8,4
+gouty pains in arms,gouty pains in legs,1.0,5
+gouty swelling of joints,rheumatic and gouty affections,0.75,3
+gouty swelling of joints,gouty pains in shoulders,1.0,4
+gouty swelling of joints,gouty pains in arms,1.0,4
+gouty swelling of joints,gouty pains in legs,1.0,4

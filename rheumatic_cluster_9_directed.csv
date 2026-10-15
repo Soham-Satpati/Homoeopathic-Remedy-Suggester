@@ -1,0 +1,45 @@
+### Cluster 9 — Symptoms (6)
+Symptom,Frequency
+acute pain in left shoulder,1
+pains come in paroxysms,1
+weakness in loins,1
+pains in back extending to thighs,1
+neuralgic pains worse by motion,1
+pains in thighs worse at night,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+oxalic acid,6
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+weakness in loins,acute pain in left shoulder,1.0,1
+weakness in loins,pains come in paroxysms,1.0,1
+weakness in loins,pains in back extending to thighs,1.0,1
+weakness in loins,neuralgic pains worse by motion,1.0,1
+weakness in loins,pains in thighs worse at night,1.0,1
+pains in back extending to thighs,acute pain in left shoulder,1.0,1
+pains in back extending to thighs,pains come in paroxysms,1.0,1
+pains in back extending to thighs,weakness in loins,1.0,1
+pains in back extending to thighs,neuralgic pains worse by motion,1.0,1
+pains in back extending to thighs,pains in thighs worse at night,1.0,1
+acute pain in left shoulder,pains come in paroxysms,1.0,1
+acute pain in left shoulder,weakness in loins,1.0,1
+acute pain in left shoulder,pains in back extending to thighs,1.0,1
+acute pain in left shoulder,neuralgic pains worse by motion,1.0,1
+acute pain in left shoulder,pains in thighs worse at night,1.0,1
+neuralgic pains worse by motion,acute pain in left shoulder,1.0,1
+neuralgic pains worse by motion,pains come in paroxysms,1.0,1
+neuralgic pains worse by motion,weakness in loins,1.0,1
+neuralgic pains worse by motion,pains in back extending to thighs,1.0,1
+neuralgic pains worse by motion,pains in thighs worse at night,1.0,1
+pains come in paroxysms,acute pain in left shoulder,1.0,1
+pains come in paroxysms,weakness in loins,1.0,1
+pains come in paroxysms,pains in back extending to thighs,1.0,1
+pains come in paroxysms,neuralgic pains worse by motion,1.0,1
+pains come in paroxysms,pains in thighs worse at night,1.0,1
+pains in thighs worse at night,acute pain in left shoulder,1.0,1
+pains in thighs worse at night,pains come in paroxysms,1.0,1
+pains in thighs worse at night,weakness in loins,1.0,1
+pains in thighs worse at night,pains in back extending to thighs,1.0,1
+pains in thighs worse at night,neuralgic pains worse by motion,1.0,1

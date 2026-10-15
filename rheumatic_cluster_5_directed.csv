@@ -1,0 +1,493 @@
+### Cluster 5 — Symptoms (22)
+Symptom,Frequency
+rheumatic lameness and pain in right hand,1
+better by active motion,1
+pains come only at rest,1
+dull boring pains in legs,1
+arms stiff and sore worse right,1
+cramp-like pain worse in right,1
+sharp pains in right shoulder,1
+soreness and lameness of all limbs,1
+lameness and stiffness in right shoulder,1
+severe cramp-like pain in lower limbs,1
+lameness and soreness of left shoulder,1
+sharp pains about heart,1
+sticking pain in heart,1
+pain in knee joints,1
+sharp pains taking away breath,1
+cramp-like pain extending to knees feet and toes,1
+rheumatic lameness and pain of either arm,1
+heavy pains in calves,1
+severe pain in sole of left foot,1
+bruised pain over scapular region,1
+sharp pains in back,1
+especially hands and fingers,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+mercurius iodatus flavus,22
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+dull boring pains in legs,rheumatic lameness and pain in right hand,1.0,1
+dull boring pains in legs,better by active motion,1.0,1
+dull boring pains in legs,pains come only at rest,1.0,1
+dull boring pains in legs,arms stiff and sore worse right,1.0,1
+dull boring pains in legs,cramp-like pain worse in right,1.0,1
+dull boring pains in legs,sharp pains in right shoulder,1.0,1
+dull boring pains in legs,soreness and lameness of all limbs,1.0,1
+dull boring pains in legs,lameness and stiffness in right shoulder,1.0,1
+dull boring pains in legs,severe cramp-like pain in lower limbs,1.0,1
+dull boring pains in legs,lameness and soreness of left shoulder,1.0,1
+dull boring pains in legs,sharp pains about heart,1.0,1
+dull boring pains in legs,sticking pain in heart,1.0,1
+dull boring pains in legs,pain in knee joints,1.0,1
+dull boring pains in legs,sharp pains taking away breath,1.0,1
+dull boring pains in legs,cramp-like pain extending to knees feet and toes,1.0,1
+dull boring pains in legs,rheumatic lameness and pain of either arm,1.0,1
+dull boring pains in legs,heavy pains in calves,1.0,1
+dull boring pains in legs,severe pain in sole of left foot,1.0,1
+dull boring pains in legs,bruised pain over scapular region,1.0,1
+dull boring pains in legs,sharp pains in back,1.0,1
+dull boring pains in legs,especially hands and fingers,1.0,1
+especially hands and fingers,rheumatic lameness and pain in right hand,1.0,1
+especially hands and fingers,better by active motion,1.0,1
+especially hands and fingers,pains come only at rest,1.0,1
+especially hands and fingers,dull boring pains in legs,1.0,1
+especially hands and fingers,arms stiff and sore worse right,1.0,1
+especially hands and fingers,cramp-like pain worse in right,1.0,1
+especially hands and fingers,sharp pains in right shoulder,1.0,1
+especially hands and fingers,soreness and lameness of all limbs,1.0,1
+especially hands and fingers,lameness and stiffness in right shoulder,1.0,1
+especially hands and fingers,severe cramp-like pain in lower limbs,1.0,1
+especially hands and fingers,lameness and soreness of left shoulder,1.0,1
+especially hands and fingers,sharp pains about heart,1.0,1
+especially hands and fingers,sticking pain in heart,1.0,1
+especially hands and fingers,pain in knee joints,1.0,1
+especially hands and fingers,sharp pains taking away breath,1.0,1
+especially hands and fingers,cramp-like pain extending to knees feet and toes,1.0,1
+especially hands and fingers,rheumatic lameness and pain of either arm,1.0,1
+especially hands and fingers,heavy pains in calves,1.0,1
+especially hands and fingers,severe pain in sole of left foot,1.0,1
+especially hands and fingers,bruised pain over scapular region,1.0,1
+especially hands and fingers,sharp pains in back,1.0,1
+soreness and lameness of all limbs,rheumatic lameness and pain in right hand,1.0,1
+soreness and lameness of all limbs,better by active motion,1.0,1
+soreness and lameness of all limbs,pains come only at rest,1.0,1
+soreness and lameness of all limbs,dull boring pains in legs,1.0,1
+soreness and lameness of all limbs,arms stiff and sore worse right,1.0,1
+soreness and lameness of all limbs,cramp-like pain worse in right,1.0,1
+soreness and lameness of all limbs,sharp pains in right shoulder,1.0,1
+soreness and lameness of all limbs,lameness and stiffness in right shoulder,1.0,1
+soreness and lameness of all limbs,severe cramp-like pain in lower limbs,1.0,1
+soreness and lameness of all limbs,lameness and soreness of left shoulder,1.0,1
+soreness and lameness of all limbs,sharp pains about heart,1.0,1
+soreness and lameness of all limbs,sticking pain in heart,1.0,1
+soreness and lameness of all limbs,pain in knee joints,1.0,1
+soreness and lameness of all limbs,sharp pains taking away breath,1.0,1
+soreness and lameness of all limbs,cramp-like pain extending to knees feet and toes,1.0,1
+soreness and lameness of all limbs,rheumatic lameness and pain of either arm,1.0,1
+soreness and lameness of all limbs,heavy pains in calves,1.0,1
+soreness and lameness of all limbs,severe pain in sole of left foot,1.0,1
+soreness and lameness of all limbs,bruised pain over scapular region,1.0,1
+soreness and lameness of all limbs,sharp pains in back,1.0,1
+soreness and lameness of all limbs,especially hands and fingers,1.0,1
+rheumatic lameness and pain in right hand,better by active motion,1.0,1
+rheumatic lameness and pain in right hand,pains come only at rest,1.0,1
+rheumatic lameness and pain in right hand,dull boring pains in legs,1.0,1
+rheumatic lameness and pain in right hand,arms stiff and sore worse right,1.0,1
+rheumatic lameness and pain in right hand,cramp-like pain worse in right,1.0,1
+rheumatic lameness and pain in right hand,sharp pains in right shoulder,1.0,1
+rheumatic lameness and pain in right hand,soreness and lameness of all limbs,1.0,1
+rheumatic lameness and pain in right hand,lameness and stiffness in right shoulder,1.0,1
+rheumatic lameness and pain in right hand,severe cramp-like pain in lower limbs,1.0,1
+rheumatic lameness and pain in right hand,lameness and soreness of left shoulder,1.0,1
+rheumatic lameness and pain in right hand,sharp pains about heart,1.0,1
+rheumatic lameness and pain in right hand,sticking pain in heart,1.0,1
+rheumatic lameness and pain in right hand,pain in knee joints,1.0,1
+rheumatic lameness and pain in right hand,sharp pains taking away breath,1.0,1
+rheumatic lameness and pain in right hand,cramp-like pain extending to knees feet and toes,1.0,1
+rheumatic lameness and pain in right hand,rheumatic lameness and pain of either arm,1.0,1
+rheumatic lameness and pain in right hand,heavy pains in calves,1.0,1
+rheumatic lameness and pain in right hand,severe pain in sole of left foot,1.0,1
+rheumatic lameness and pain in right hand,bruised pain over scapular region,1.0,1
+rheumatic lameness and pain in right hand,sharp pains in back,1.0,1
+rheumatic lameness and pain in right hand,especially hands and fingers,1.0,1
+cramp-like pain extending to knees feet and toes,rheumatic lameness and pain in right hand,1.0,1
+cramp-like pain extending to knees feet and toes,better by active motion,1.0,1
+cramp-like pain extending to knees feet and toes,pains come only at rest,1.0,1
+cramp-like pain extending to knees feet and toes,dull boring pains in legs,1.0,1
+cramp-like pain extending to knees feet and toes,arms stiff and sore worse right,1.0,1
+cramp-like pain extending to knees feet and toes,cramp-like pain worse in right,1.0,1
+cramp-like pain extending to knees feet and toes,sharp pains in right shoulder,1.0,1
+cramp-like pain extending to knees feet and toes,soreness and lameness of all limbs,1.0,1
+cramp-like pain extending to knees feet and toes,lameness and stiffness in right shoulder,1.0,1
+cramp-like pain extending to knees feet and toes,severe cramp-like pain in lower limbs,1.0,1
+cramp-like pain extending to knees feet and toes,lameness and soreness of left shoulder,1.0,1
+cramp-like pain extending to knees feet and toes,sharp pains about heart,1.0,1
+cramp-like pain extending to knees feet and toes,sticking pain in heart,1.0,1
+cramp-like pain extending to knees feet and toes,pain in knee joints,1.0,1
+cramp-like pain extending to knees feet and toes,sharp pains taking away breath,1.0,1
+cramp-like pain extending to knees feet and toes,rheumatic lameness and pain of either arm,1.0,1
+cramp-like pain extending to knees feet and toes,heavy pains in calves,1.0,1
+cramp-like pain extending to knees feet and toes,severe pain in sole of left foot,1.0,1
+cramp-like pain extending to knees feet and toes,bruised pain over scapular region,1.0,1
+cramp-like pain extending to knees feet and toes,sharp pains in back,1.0,1
+cramp-like pain extending to knees feet and toes,especially hands and fingers,1.0,1
+pains come only at rest,rheumatic lameness and pain in right hand,1.0,1
+pains come only at rest,better by active motion,1.0,1
+pains come only at rest,dull boring pains in legs,1.0,1
+pains come only at rest,arms stiff and sore worse right,1.0,1
+pains come only at rest,cramp-like pain worse in right,1.0,1
+pains come only at rest,sharp pains in right shoulder,1.0,1
+pains come only at rest,soreness and lameness of all limbs,1.0,1
+pains come only at rest,lameness and stiffness in right shoulder,1.0,1
+pains come only at rest,severe cramp-like pain in lower limbs,1.0,1
+pains come only at rest,lameness and soreness of left shoulder,1.0,1
+pains come only at rest,sharp pains about heart,1.0,1
+pains come only at rest,sticking pain in heart,1.0,1
+pains come only at rest,pain in knee joints,1.0,1
+pains come only at rest,sharp pains taking away breath,1.0,1
+pains come only at rest,cramp-like pain extending to knees feet and toes,1.0,1
+pains come only at rest,rheumatic lameness and pain of either arm,1.0,1
+pains come only at rest,heavy pains in calves,1.0,1
+pains come only at rest,severe pain in sole of left foot,1.0,1
+pains come only at rest,bruised pain over scapular region,1.0,1
+pains come only at rest,sharp pains in back,1.0,1
+pains come only at rest,especially hands and fingers,1.0,1
+sharp pains in back,rheumatic lameness and pain in right hand,1.0,1
+sharp pains in back,better by active motion,1.0,1
+sharp pains in back,pains come only at rest,1.0,1
+sharp pains in back,dull boring pains in legs,1.0,1
+sharp pains in back,arms stiff and sore worse right,1.0,1
+sharp pains in back,cramp-like pain worse in right,1.0,1
+sharp pains in back,sharp pains in right shoulder,1.0,1
+sharp pains in back,soreness and lameness of all limbs,1.0,1
+sharp pains in back,lameness and stiffness in right shoulder,1.0,1
+sharp pains in back,severe cramp-like pain in lower limbs,1.0,1
+sharp pains in back,lameness and soreness of left shoulder,1.0,1
+sharp pains in back,sharp pains about heart,1.0,1
+sharp pains in back,sticking pain in heart,1.0,1
+sharp pains in back,pain in knee joints,1.0,1
+sharp pains in back,sharp pains taking away breath,1.0,1
+sharp pains in back,cramp-like pain extending to knees feet and toes,1.0,1
+sharp pains in back,rheumatic lameness and pain of either arm,1.0,1
+sharp pains in back,heavy pains in calves,1.0,1
+sharp pains in back,severe pain in sole of left foot,1.0,1
+sharp pains in back,bruised pain over scapular region,1.0,1
+sharp pains in back,especially hands and fingers,1.0,1
+severe pain in sole of left foot,rheumatic lameness and pain in right hand,1.0,1
+severe pain in sole of left foot,better by active motion,1.0,1
+severe pain in sole of left foot,pains come only at rest,1.0,1
+severe pain in sole of left foot,dull boring pains in legs,1.0,1
+severe pain in sole of left foot,arms stiff and sore worse right,1.0,1
+severe pain in sole of left foot,cramp-like pain worse in right,1.0,1
+severe pain in sole of left foot,sharp pains in right shoulder,1.0,1
+severe pain in sole of left foot,soreness and lameness of all limbs,1.0,1
+severe pain in sole of left foot,lameness and stiffness in right shoulder,1.0,1
+severe pain in sole of left foot,severe cramp-like pain in lower limbs,1.0,1
+severe pain in sole of left foot,lameness and soreness of left shoulder,1.0,1
+severe pain in sole of left foot,sharp pains about heart,1.0,1
+severe pain in sole of left foot,sticking pain in heart,1.0,1
+severe pain in sole of left foot,pain in knee joints,1.0,1
+severe pain in sole of left foot,sharp pains taking away breath,1.0,1
+severe pain in sole of left foot,cramp-like pain extending to knees feet and toes,1.0,1
+severe pain in sole of left foot,rheumatic lameness and pain of either arm,1.0,1
+severe pain in sole of left foot,heavy pains in calves,1.0,1
+severe pain in sole of left foot,bruised pain over scapular region,1.0,1
+severe pain in sole of left foot,sharp pains in back,1.0,1
+severe pain in sole of left foot,especially hands and fingers,1.0,1
+sticking pain in heart,rheumatic lameness and pain in right hand,1.0,1
+sticking pain in heart,better by active motion,1.0,1
+sticking pain in heart,pains come only at rest,1.0,1
+sticking pain in heart,dull boring pains in legs,1.0,1
+sticking pain in heart,arms stiff and sore worse right,1.0,1
+sticking pain in heart,cramp-like pain worse in right,1.0,1
+sticking pain in heart,sharp pains in right shoulder,1.0,1
+sticking pain in heart,soreness and lameness of all limbs,1.0,1
+sticking pain in heart,lameness and stiffness in right shoulder,1.0,1
+sticking pain in heart,severe cramp-like pain in lower limbs,1.0,1
+sticking pain in heart,lameness and soreness of left shoulder,1.0,1
+sticking pain in heart,sharp pains about heart,1.0,1
+sticking pain in heart,pain in knee joints,1.0,1
+sticking pain in heart,sharp pains taking away breath,1.0,1
+sticking pain in heart,cramp-like pain extending to knees feet and toes,1.0,1
+sticking pain in heart,rheumatic lameness and pain of either arm,1.0,1
+sticking pain in heart,heavy pains in calves,1.0,1
+sticking pain in heart,severe pain in sole of left foot,1.0,1
+sticking pain in heart,bruised pain over scapular region,1.0,1
+sticking pain in heart,sharp pains in back,1.0,1
+sticking pain in heart,especially hands and fingers,1.0,1
+sharp pains taking away breath,rheumatic lameness and pain in right hand,1.0,1
+sharp pains taking away breath,better by active motion,1.0,1
+sharp pains taking away breath,pains come only at rest,1.0,1
+sharp pains taking away breath,dull boring pains in legs,1.0,1
+sharp pains taking away breath,arms stiff and sore worse right,1.0,1
+sharp pains taking away breath,cramp-like pain worse in right,1.0,1
+sharp pains taking away breath,sharp pains in right shoulder,1.0,1
+sharp pains taking away breath,soreness and lameness of all limbs,1.0,1
+sharp pains taking away breath,lameness and stiffness in right shoulder,1.0,1
+sharp pains taking away breath,severe cramp-like pain in lower limbs,1.0,1
+sharp pains taking away breath,lameness and soreness of left shoulder,1.0,1
+sharp pains taking away breath,sharp pains about heart,1.0,1
+sharp pains taking away breath,sticking pain in heart,1.0,1
+sharp pains taking away breath,pain in knee joints,1.0,1
+sharp pains taking away breath,cramp-like pain extending to knees feet and toes,1.0,1
+sharp pains taking away breath,rheumatic lameness and pain of either arm,1.0,1
+sharp pains taking away breath,heavy pains in calves,1.0,1
+sharp pains taking away breath,severe pain in sole of left foot,1.0,1
+sharp pains taking away breath,bruised pain over scapular region,1.0,1
+sharp pains taking away breath,sharp pains in back,1.0,1
+sharp pains taking away breath,especially hands and fingers,1.0,1
+heavy pains in calves,rheumatic lameness and pain in right hand,1.0,1
+heavy pains in calves,better by active motion,1.0,1
+heavy pains in calves,pains come only at rest,1.0,1
+heavy pains in calves,dull boring pains in legs,1.0,1
+heavy pains in calves,arms stiff and sore worse right,1.0,1
+heavy pains in calves,cramp-like pain worse in right,1.0,1
+heavy pains in calves,sharp pains in right shoulder,1.0,1
+heavy pains in calves,soreness and lameness of all limbs,1.0,1
+heavy pains in calves,lameness and stiffness in right shoulder,1.0,1
+heavy pains in calves,severe cramp-like pain in lower limbs,1.0,1
+heavy pains in calves,lameness and soreness of left shoulder,1.0,1
+heavy pains in calves,sharp pains about heart,1.0,1
+heavy pains in calves,sticking pain in heart,1.0,1
+heavy pains in calves,pain in knee joints,1.0,1
+heavy pains in calves,sharp pains taking away breath,1.0,1
+heavy pains in calves,cramp-like pain extending to knees feet and toes,1.0,1
+heavy pains in calves,rheumatic lameness and pain of either arm,1.0,1
+heavy pains in calves,severe pain in sole of left foot,1.0,1
+heavy pains in calves,bruised pain over scapular region,1.0,1
+heavy pains in calves,sharp pains in back,1.0,1
+heavy pains in calves,especially hands and fingers,1.0,1
+sharp pains about heart,rheumatic lameness and pain in right hand,1.0,1
+sharp pains about heart,better by active motion,1.0,1
+sharp pains about heart,pains come only at rest,1.0,1
+sharp pains about heart,dull boring pains in legs,1.0,1
+sharp pains about heart,arms stiff and sore worse right,1.0,1
+sharp pains about heart,cramp-like pain worse in right,1.0,1
+sharp pains about heart,sharp pains in right shoulder,1.0,1
+sharp pains about heart,soreness and lameness of all limbs,1.0,1
+sharp pains about heart,lameness and stiffness in right shoulder,1.0,1
+sharp pains about heart,severe cramp-like pain in lower limbs,1.0,1
+sharp pains about heart,lameness and soreness of left shoulder,1.0,1
+sharp pains about heart,sticking pain in heart,1.0,1
+sharp pains about heart,pain in knee joints,1.0,1
+sharp pains about heart,sharp pains taking away breath,1.0,1
+sharp pains about heart,cramp-like pain extending to knees feet and toes,1.0,1
+sharp pains about heart,rheumatic lameness and pain of either arm,1.0,1
+sharp pains about heart,heavy pains in calves,1.0,1
+sharp pains about heart,severe pain in sole of left foot,1.0,1
+sharp pains about heart,bruised pain over scapular region,1.0,1
+sharp pains about heart,sharp pains in back,1.0,1
+sharp pains about heart,especially hands and fingers,1.0,1
+cramp-like pain worse in right,rheumatic lameness and pain in right hand,1.0,1
+cramp-like pain worse in right,better by active motion,1.0,1
+cramp-like pain worse in right,pains come only at rest,1.0,1
+cramp-like pain worse in right,dull boring pains in legs,1.0,1
+cramp-like pain worse in right,arms stiff and sore worse right,1.0,1
+cramp-like pain worse in right,sharp pains in right shoulder,1.0,1
+cramp-like pain worse in right,soreness and lameness of all limbs,1.0,1
+cramp-like pain worse in right,lameness and stiffness in right shoulder,1.0,1
+cramp-like pain worse in right,severe cramp-like pain in lower limbs,1.0,1
+cramp-like pain worse in right,lameness and soreness of left shoulder,1.0,1
+cramp-like pain worse in right,sharp pains about heart,1.0,1
+cramp-like pain worse in right,sticking pain in heart,1.0,1
+cramp-like pain worse in right,pain in knee joints,1.0,1
+cramp-like pain worse in right,sharp pains taking away breath,1.0,1
+cramp-like pain worse in right,cramp-like pain extending to knees feet and toes,1.0,1
+cramp-like pain worse in right,rheumatic lameness and pain of either arm,1.0,1
+cramp-like pain worse in right,heavy pains in calves,1.0,1
+cramp-like pain worse in right,severe pain in sole of left foot,1.0,1
+cramp-like pain worse in right,bruised pain over scapular region,1.0,1
+cramp-like pain worse in right,sharp pains in back,1.0,1
+cramp-like pain worse in right,especially hands and fingers,1.0,1
+pain in knee joints,rheumatic lameness and pain in right hand,1.0,1
+pain in knee joints,better by active motion,1.0,1
+pain in knee joints,pains come only at rest,1.0,1
+pain in knee joints,dull boring pains in legs,1.0,1
+pain in knee joints,arms stiff and sore worse right,1.0,1
+pain in knee joints,cramp-like pain worse in right,1.0,1
+pain in knee joints,sharp pains in right shoulder,1.0,1
+pain in knee joints,soreness and lameness of all limbs,1.0,1
+pain in knee joints,lameness and stiffness in right shoulder,1.0,1
+pain in knee joints,severe cramp-like pain in lower limbs,1.0,1
+pain in knee joints,lameness and soreness of left shoulder,1.0,1
+pain in knee joints,sharp pains about heart,1.0,1
+pain in knee joints,sticking pain in heart,1.0,1
+pain in knee joints,sharp pains taking away breath,1.0,1
+pain in knee joints,cramp-like pain extending to knees feet and toes,1.0,1
+pain in knee joints,rheumatic lameness and pain of either arm,1.0,1
+pain in knee joints,heavy pains in calves,1.0,1
+pain in knee joints,severe pain in sole of left foot,1.0,1
+pain in knee joints,bruised pain over scapular region,1.0,1
+pain in knee joints,sharp pains in back,1.0,1
+pain in knee joints,especially hands and fingers,1.0,1
+bruised pain over scapular region,rheumatic lameness and pain in right hand,1.0,1
+bruised pain over scapular region,better by active motion,1.0,1
+bruised pain over scapular region,pains come only at rest,1.0,1
+bruised pain over scapular region,dull boring pains in legs,1.0,1
+bruised pain over scapular region,arms stiff and sore worse right,1.0,1
+bruised pain over scapular region,cramp-like pain worse in right,1.0,1
+bruised pain over scapular region,sharp pains in right shoulder,1.0,1
+bruised pain over scapular region,soreness and lameness of all limbs,1.0,1
+bruised pain over scapular region,lameness and stiffness in right shoulder,1.0,1
+bruised pain over scapular region,severe cramp-like pain in lower limbs,1.0,1
+bruised pain over scapular region,lameness and soreness of left shoulder,1.0,1
+bruised pain over scapular region,sharp pains about heart,1.0,1
+bruised pain over scapular region,sticking pain in heart,1.0,1
+bruised pain over scapular region,pain in knee joints,1.0,1
+bruised pain over scapular region,sharp pains taking away breath,1.0,1
+bruised pain over scapular region,cramp-like pain extending to knees feet and toes,1.0,1
+bruised pain over scapular region,rheumatic lameness and pain of either arm,1.0,1
+bruised pain over scapular region,heavy pains in calves,1.0,1
+bruised pain over scapular region,severe pain in sole of left foot,1.0,1
+bruised pain over scapular region,sharp pains in back,1.0,1
+bruised pain over scapular region,especially hands and fingers,1.0,1
+lameness and soreness of left shoulder,rheumatic lameness and pain in right hand,1.0,1
+lameness and soreness of left shoulder,better by active motion,1.0,1
+lameness and soreness of left shoulder,pains come only at rest,1.0,1
+lameness and soreness of left shoulder,dull boring pains in legs,1.0,1
+lameness and soreness of left shoulder,arms stiff and sore worse right,1.0,1
+lameness and soreness of left shoulder,cramp-like pain worse in right,1.0,1
+lameness and soreness of left shoulder,sharp pains in right shoulder,1.0,1
+lameness and soreness of left shoulder,soreness and lameness of all limbs,1.0,1
+lameness and soreness of left shoulder,lameness and stiffness in right shoulder,1.0,1
+lameness and soreness of left shoulder,severe cramp-like pain in lower limbs,1.0,1
+lameness and soreness of left shoulder,sharp pains about heart,1.0,1
+lameness and soreness of left shoulder,sticking pain in heart,1.0,1
+lameness and soreness of left shoulder,pain in knee joints,1.0,1
+lameness and soreness of left shoulder,sharp pains taking away breath,1.0,1
+lameness and soreness of left shoulder,cramp-like pain extending to knees feet and toes,1.0,1
+lameness and soreness of left shoulder,rheumatic lameness and pain of either arm,1.0,1
+lameness and soreness of left shoulder,heavy pains in calves,1.0,1
+lameness and soreness of left shoulder,severe pain in sole of left foot,1.0,1
+lameness and soreness of left shoulder,bruised pain over scapular region,1.0,1
+lameness and soreness of left shoulder,sharp pains in back,1.0,1
+lameness and soreness of left shoulder,especially hands and fingers,1.0,1
+sharp pains in right shoulder,rheumatic lameness and pain in right hand,1.0,1
+sharp pains in right shoulder,better by active motion,1.0,1
+sharp pains in right shoulder,pains come only at rest,1.0,1
+sharp pains in right shoulder,dull boring pains in legs,1.0,1
+sharp pains in right shoulder,arms stiff and sore worse right,1.0,1
+sharp pains in right shoulder,cramp-like pain worse in right,1.0,1
+sharp pains in right shoulder,soreness and lameness of all limbs,1.0,1
+sharp pains in right shoulder,lameness and stiffness in right shoulder,1.0,1
+sharp pains in right shoulder,severe cramp-like pain in lower limbs,1.0,1
+sharp pains in right shoulder,lameness and soreness of left shoulder,1.0,1
+sharp pains in right shoulder,sharp pains about heart,1.0,1
+sharp pains in right shoulder,sticking pain in heart,1.0,1
+sharp pains in right shoulder,pain in knee joints,1.0,1
+sharp pains in right shoulder,sharp pains taking away breath,1.0,1
+sharp pains in right shoulder,cramp-like pain extending to knees feet and toes,1.0,1
+sharp pains in right shoulder,rheumatic lameness and pain of either arm,1.0,1
+sharp pains in right shoulder,heavy pains in calves,1.0,1
+sharp pains in right shoulder,severe pain in sole of left foot,1.0,1
+sharp pains in right shoulder,bruised pain over scapular region,1.0,1
+sharp pains in right shoulder,sharp pains in back,1.0,1
+sharp pains in right shoulder,especially hands and fingers,1.0,1
+severe cramp-like pain in lower limbs,rheumatic lameness and pain in right hand,1.0,1
+severe cramp-like pain in lower limbs,better by active motion,1.0,1
+severe cramp-like pain in lower limbs,pains come only at rest,1.0,1
+severe cramp-like pain in lower limbs,dull boring pains in legs,1.0,1
+severe cramp-like pain in lower limbs,arms stiff and sore worse right,1.0,1
+severe cramp-like pain in lower limbs,cramp-like pain worse in right,1.0,1
+severe cramp-like pain in lower limbs,sharp pains in right shoulder,1.0,1
+severe cramp-like pain in lower limbs,soreness and lameness of all limbs,1.0,1
+severe cramp-like pain in lower limbs,lameness and stiffness in right shoulder,1.0,1
+severe cramp-like pain in lower limbs,lameness and soreness of left shoulder,1.0,1
+severe cramp-like pain in lower limbs,sharp pains about heart,1.0,1
+severe cramp-like pain in lower limbs,sticking pain in heart,1.0,1
+severe cramp-like pain in lower limbs,pain in knee joints,1.0,1
+severe cramp-like pain in lower limbs,sharp pains taking away breath,1.0,1
+severe cramp-like pain in lower limbs,cramp-like pain extending to knees feet and toes,1.0,1
+severe cramp-like pain in lower limbs,rheumatic lameness and pain of either arm,1.0,1
+severe cramp-like pain in lower limbs,heavy pains in calves,1.0,1
+severe cramp-like pain in lower limbs,severe pain in sole of left foot,1.0,1
+severe cramp-like pain in lower limbs,bruised pain over scapular region,1.0,1
+severe cramp-like pain in lower limbs,sharp pains in back,1.0,1
+severe cramp-like pain in lower limbs,especially hands and fingers,1.0,1
+arms stiff and sore worse right,rheumatic lameness and pain in right hand,1.0,1
+arms stiff and sore worse right,better by active motion,1.0,1
+arms stiff and sore worse right,pains come only at rest,1.0,1
+arms stiff and sore worse right,dull boring pains in legs,1.0,1
+arms stiff and sore worse right,cramp-like pain worse in right,1.0,1
+arms stiff and sore worse right,sharp pains in right shoulder,1.0,1
+arms stiff and sore worse right,soreness and lameness of all limbs,1.0,1
+arms stiff and sore worse right,lameness and stiffness in right shoulder,1.0,1
+arms stiff and sore worse right,severe cramp-like pain in lower limbs,1.0,1
+arms stiff and sore worse right,lameness and soreness of left shoulder,1.0,1
+arms stiff and sore worse right,sharp pains about heart,1.0,1
+arms stiff and sore worse right,sticking pain in heart,1.0,1
+arms stiff and sore worse right,pain in knee joints,1.0,1
+arms stiff and sore worse right,sharp pains taking away breath,1.0,1
+arms stiff and sore worse right,cramp-like pain extending to knees feet and toes,1.0,1
+arms stiff and sore worse right,rheumatic lameness and pain of either arm,1.0,1
+arms stiff and sore worse right,heavy pains in calves,1.0,1
+arms stiff and sore worse right,severe pain in sole of left foot,1.0,1
+arms stiff and sore worse right,bruised pain over scapular region,1.0,1
+arms stiff and sore worse right,sharp pains in back,1.0,1
+arms stiff and sore worse right,especially hands and fingers,1.0,1
+lameness and stiffness in right shoulder,rheumatic lameness and pain in right hand,1.0,1
+lameness and stiffness in right shoulder,better by active motion,1.0,1
+lameness and stiffness in right shoulder,pains come only at rest,1.0,1
+lameness and stiffness in right shoulder,dull boring pains in legs,1.0,1
+lameness and stiffness in right shoulder,arms stiff and sore worse right,1.0,1
+lameness and stiffness in right shoulder,cramp-like pain worse in right,1.0,1
+lameness and stiffness in right shoulder,sharp pains in right shoulder,1.0,1
+lameness and stiffness in right shoulder,soreness and lameness of all limbs,1.0,1
+lameness and stiffness in right shoulder,severe cramp-like pain in lower limbs,1.0,1
+lameness and stiffness in right shoulder,lameness and soreness of left shoulder,1.0,1
+lameness and stiffness in right shoulder,sharp pains about heart,1.0,1
+lameness and stiffness in right shoulder,sticking pain in heart,1.0,1
+lameness and stiffness in right shoulder,pain in knee joints,1.0,1
+lameness and stiffness in right shoulder,sharp pains taking away breath,1.0,1
+lameness and stiffness in right shoulder,cramp-like pain extending to knees feet and toes,1.0,1
+lameness and stiffness in right shoulder,rheumatic lameness and pain of either arm,1.0,1
+lameness and stiffness in right shoulder,heavy pains in calves,1.0,1
+lameness and stiffness in right shoulder,severe pain in sole of left foot,1.0,1
+lameness and stiffness in right shoulder,bruised pain over scapular region,1.0,1
+lameness and stiffness in right shoulder,sharp pains in back,1.0,1
+lameness and stiffness in right shoulder,especially hands and fingers,1.0,1
+rheumatic lameness and pain of either arm,rheumatic lameness and pain in right hand,1.0,1
+rheumatic lameness and pain of either arm,better by active motion,1.0,1
+rheumatic lameness and pain of either arm,pains come only at rest,1.0,1
+rheumatic lameness and pain of either arm,dull boring pains in legs,1.0,1
+rheumatic lameness and pain of either arm,arms stiff and sore worse right,1.0,1
+rheumatic lameness and pain of either arm,cramp-like pain worse in right,1.0,1
+rheumatic lameness and pain of either arm,sharp pains in right shoulder,1.0,1
+rheumatic lameness and pain of either arm,soreness and lameness of all limbs,1.0,1
+rheumatic lameness and pain of either arm,lameness and stiffness in right shoulder,1.0,1
+rheumatic lameness and pain of either arm,severe cramp-like pain in lower limbs,1.0,1
+rheumatic lameness and pain of either arm,lameness and soreness of left shoulder,1.0,1
+rheumatic lameness and pain of either arm,sharp pains about heart,1.0,1
+rheumatic lameness and pain of either arm,sticking pain in heart,1.0,1
+rheumatic lameness and pain of either arm,pain in knee joints,1.0,1
+rheumatic lameness and pain of either arm,sharp pains taking away breath,1.0,1
+rheumatic lameness and pain of either arm,cramp-like pain extending to knees feet and toes,1.0,1
+rheumatic lameness and pain of either arm,heavy pains in calves,1.0,1
+rheumatic lameness and pain of either arm,severe pain in sole of left foot,1.0,1
+rheumatic lameness and pain of either arm,bruised pain over scapular region,1.0,1
+rheumatic lameness and pain of either arm,sharp pains in back,1.0,1
+rheumatic lameness and pain of either arm,especially hands and fingers,1.0,1
+better by active motion,rheumatic lameness and pain in right hand,1.0,1
+better by active motion,pains come only at rest,1.0,1
+better by active motion,dull boring pains in legs,1.0,1
+better by active motion,arms stiff and sore worse right,1.0,1
+better by active motion,cramp-like pain worse in right,1.0,1
+better by active motion,sharp pains in right shoulder,1.0,1
+better by active motion,soreness and lameness of all limbs,1.0,1
+better by active motion,lameness and stiffness in right shoulder,1.0,1
+better by active motion,severe cramp-like pain in lower limbs,1.0,1
+better by active motion,lameness and soreness of left shoulder,1.0,1
+better by active motion,sharp pains about heart,1.0,1
+better by active motion,sticking pain in heart,1.0,1
+better by active motion,pain in knee joints,1.0,1
+better by active motion,sharp pains taking away breath,1.0,1
+better by active motion,cramp-like pain extending to knees feet and toes,1.0,1
+better by active motion,rheumatic lameness and pain of either arm,1.0,1
+better by active motion,heavy pains in calves,1.0,1
+better by active motion,severe pain in sole of left foot,1.0,1
+better by active motion,bruised pain over scapular region,1.0,1
+better by active motion,sharp pains in back,1.0,1
+better by active motion,especially hands and fingers,1.0,1

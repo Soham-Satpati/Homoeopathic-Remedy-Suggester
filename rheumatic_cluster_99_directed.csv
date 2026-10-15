@@ -1,0 +1,70 @@
+### Cluster 99 — Symptoms (10)
+Symptom,Frequency
+left-sided pains,2
+compare kali carbonicum sulphur,1
+throat constriction,1
+loquacity,1
+flatulence,1
+rheumatic troubles with right-sided symptoms,2
+compare kali carbonicum nux vomica,1
+jealousy,1
+right-sided pains,2
+aversion to company,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+lachesis,6
+lycopodium,5
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+rheumatic troubles with right-sided symptoms,left-sided pains,0.5,1
+rheumatic troubles with right-sided symptoms,compare kali carbonicum sulphur,0.5,1
+rheumatic troubles with right-sided symptoms,throat constriction,0.5,1
+rheumatic troubles with right-sided symptoms,loquacity,0.5,1
+rheumatic troubles with right-sided symptoms,flatulence,0.5,1
+rheumatic troubles with right-sided symptoms,compare kali carbonicum nux vomica,0.5,1
+rheumatic troubles with right-sided symptoms,jealousy,0.5,1
+rheumatic troubles with right-sided symptoms,right-sided pains,0.5,1
+rheumatic troubles with right-sided symptoms,aversion to company,0.5,1
+right-sided pains,compare kali carbonicum sulphur,1.0,1
+right-sided pains,flatulence,1.0,1
+right-sided pains,rheumatic troubles with right-sided symptoms,1.0,1
+right-sided pains,aversion to company,1.0,1
+compare kali carbonicum sulphur,flatulence,1.0,1
+compare kali carbonicum sulphur,rheumatic troubles with right-sided symptoms,1.0,1
+compare kali carbonicum sulphur,right-sided pains,1.0,1
+compare kali carbonicum sulphur,aversion to company,1.0,1
+aversion to company,compare kali carbonicum sulphur,1.0,1
+aversion to company,flatulence,1.0,1
+aversion to company,rheumatic troubles with right-sided symptoms,1.0,1
+aversion to company,right-sided pains,1.0,1
+throat constriction,left-sided pains,1.0,1
+throat constriction,loquacity,1.0,1
+throat constriction,rheumatic troubles with right-sided symptoms,1.0,1
+throat constriction,compare kali carbonicum nux vomica,1.0,1
+throat constriction,jealousy,1.0,1
+compare kali carbonicum nux vomica,left-sided pains,1.0,1
+compare kali carbonicum nux vomica,throat constriction,1.0,1
+compare kali carbonicum nux vomica,loquacity,1.0,1
+compare kali carbonicum nux vomica,rheumatic troubles with right-sided symptoms,1.0,1
+compare kali carbonicum nux vomica,jealousy,1.0,1
+flatulence,compare kali carbonicum sulphur,1.0,1
+flatulence,rheumatic troubles with right-sided symptoms,1.0,1
+flatulence,right-sided pains,1.0,1
+flatulence,aversion to company,1.0,1
+jealousy,left-sided pains,1.0,1
+jealousy,throat constriction,1.0,1
+jealousy,loquacity,1.0,1
+jealousy,rheumatic troubles with right-sided symptoms,1.0,1
+jealousy,compare kali carbonicum nux vomica,1.0,1
+loquacity,left-sided pains,1.0,1
+loquacity,throat constriction,1.0,1
+loquacity,rheumatic troubles with right-sided symptoms,1.0,1
+loquacity,compare kali carbonicum nux vomica,1.0,1
+loquacity,jealousy,1.0,1
+left-sided pains,throat constriction,1.0,1
+left-sided pains,loquacity,1.0,1
+left-sided pains,rheumatic troubles with right-sided symptoms,1.0,1
+left-sided pains,compare kali carbonicum nux vomica,1.0,1
+left-sided pains,jealousy,1.0,1

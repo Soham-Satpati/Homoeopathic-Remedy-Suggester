@@ -1,0 +1,34 @@
+### Cluster 62 — Symptoms (5)
+Symptom,Frequency
+throat soreness,1
+alternating symptoms,1
+pains alternate sides,2
+compare lac felum,1
+rheumatic troubles with alternating sides,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+lac caninum,5
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+alternating symptoms,throat soreness,1.0,1
+alternating symptoms,pains alternate sides,1.0,1
+alternating symptoms,compare lac felum,1.0,1
+alternating symptoms,rheumatic troubles with alternating sides,1.0,1
+pains alternate sides,throat soreness,1.0,1
+pains alternate sides,alternating symptoms,1.0,1
+pains alternate sides,compare lac felum,1.0,1
+pains alternate sides,rheumatic troubles with alternating sides,1.0,1
+throat soreness,alternating symptoms,1.0,1
+throat soreness,pains alternate sides,1.0,1
+throat soreness,compare lac felum,1.0,1
+throat soreness,rheumatic troubles with alternating sides,1.0,1
+compare lac felum,throat soreness,1.0,1
+compare lac felum,alternating symptoms,1.0,1
+compare lac felum,pains alternate sides,1.0,1
+compare lac felum,rheumatic troubles with alternating sides,1.0,1
+rheumatic troubles with alternating sides,throat soreness,1.0,1
+rheumatic troubles with alternating sides,alternating symptoms,1.0,1
+rheumatic troubles with alternating sides,pains alternate sides,1.0,1
+rheumatic troubles with alternating sides,compare lac felum,1.0,1

@@ -1,0 +1,971 @@
+### Cluster 71 — Symptoms (34)
+Symptom,Frequency
+tearing pains in knees,2
+neuralgic pains in arms,2
+rheumatic conditions,1
+burning,2
+burning in urethra,2
+urinary symptoms,1
+amblyopia,1
+urine scanty,1
+frequent urination,2
+tearing pains in elbows,1
+marked burning,1
+pain in urethra,1
+bruised sensation in legs,3
+neuralgic pains in joints,1
+violent pain in region of kidneys,1
+urine bloody,1
+gouty pains,3
+bruised sensation in arms,2
+better from warmth,2
+bruised sensation in joints,3
+tearing pains in hips,1
+swelling in gouty states,1
+backache,1
+burning sensation in kidneys,1
+pain in kidneys,1
+tearing pains in legs,1
+tearing pains in shoulders,1
+neuralgic pains in legs,1
+pressure in kidneys,1
+urine with odor of violets,1
+gouty complaints,1
+stiffness in joints,1
+pain in joints,1
+rheumatic complaints,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+terebinthina,30
+sulphuricum acidum,9
+urtica urens,2
+cannabis sativa,2
+manganum,1
+palladium,1
+cicuta virosa,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+bruised sensation in legs,tearing pains in knees,0.3333,1
+bruised sensation in legs,neuralgic pains in arms,0.3333,1
+bruised sensation in legs,rheumatic conditions,0.3333,1
+bruised sensation in legs,burning,0.3333,1
+bruised sensation in legs,burning in urethra,0.3333,1
+bruised sensation in legs,urinary symptoms,0.3333,1
+bruised sensation in legs,amblyopia,0.3333,1
+bruised sensation in legs,urine scanty,0.3333,1
+bruised sensation in legs,frequent urination,0.3333,1
+bruised sensation in legs,gouty complaints,0.3333,1
+bruised sensation in legs,tearing pains in elbows,0.3333,1
+bruised sensation in legs,marked burning,0.3333,1
+bruised sensation in legs,pain in urethra,0.3333,1
+bruised sensation in legs,neuralgic pains in joints,0.3333,1
+bruised sensation in legs,violent pain in region of kidneys,0.3333,1
+bruised sensation in legs,stiffness in joints,0.3333,1
+bruised sensation in legs,urine bloody,0.3333,1
+bruised sensation in legs,gouty pains,0.6667,2
+bruised sensation in legs,bruised sensation in arms,0.6667,2
+bruised sensation in legs,better from warmth,0.6667,2
+bruised sensation in legs,bruised sensation in joints,0.6667,2
+bruised sensation in legs,pain in joints,0.3333,1
+bruised sensation in legs,tearing pains in hips,0.3333,1
+bruised sensation in legs,swelling in gouty states,0.3333,1
+bruised sensation in legs,backache,0.3333,1
+bruised sensation in legs,burning sensation in kidneys,0.3333,1
+bruised sensation in legs,pain in kidneys,0.3333,1
+bruised sensation in legs,tearing pains in legs,0.3333,1
+bruised sensation in legs,tearing pains in shoulders,0.3333,1
+bruised sensation in legs,neuralgic pains in legs,0.3333,1
+bruised sensation in legs,pressure in kidneys,0.3333,1
+bruised sensation in legs,urine with odor of violets,0.3333,1
+bruised sensation in legs,rheumatic complaints,0.3333,1
+pain in urethra,tearing pains in knees,1.0,1
+pain in urethra,neuralgic pains in arms,1.0,1
+pain in urethra,rheumatic conditions,1.0,1
+pain in urethra,burning,1.0,1
+pain in urethra,burning in urethra,1.0,1
+pain in urethra,urinary symptoms,1.0,1
+pain in urethra,amblyopia,1.0,1
+pain in urethra,urine scanty,1.0,1
+pain in urethra,frequent urination,1.0,1
+pain in urethra,tearing pains in elbows,1.0,1
+pain in urethra,marked burning,1.0,1
+pain in urethra,bruised sensation in legs,1.0,1
+pain in urethra,neuralgic pains in joints,1.0,1
+pain in urethra,violent pain in region of kidneys,1.0,1
+pain in urethra,urine bloody,1.0,1
+pain in urethra,gouty pains,1.0,1
+pain in urethra,bruised sensation in arms,1.0,1
+pain in urethra,better from warmth,1.0,1
+pain in urethra,bruised sensation in joints,1.0,1
+pain in urethra,tearing pains in hips,1.0,1
+pain in urethra,swelling in gouty states,1.0,1
+pain in urethra,backache,1.0,1
+pain in urethra,burning sensation in kidneys,1.0,1
+pain in urethra,pain in kidneys,1.0,1
+pain in urethra,tearing pains in legs,1.0,1
+pain in urethra,tearing pains in shoulders,1.0,1
+pain in urethra,neuralgic pains in legs,1.0,1
+pain in urethra,pressure in kidneys,1.0,1
+pain in urethra,urine with odor of violets,1.0,1
+marked burning,tearing pains in knees,1.0,1
+marked burning,neuralgic pains in arms,1.0,1
+marked burning,rheumatic conditions,1.0,1
+marked burning,burning,1.0,1
+marked burning,burning in urethra,1.0,1
+marked burning,urinary symptoms,1.0,1
+marked burning,amblyopia,1.0,1
+marked burning,urine scanty,1.0,1
+marked burning,frequent urination,1.0,1
+marked burning,tearing pains in elbows,1.0,1
+marked burning,pain in urethra,1.0,1
+marked burning,bruised sensation in legs,1.0,1
+marked burning,neuralgic pains in joints,1.0,1
+marked burning,violent pain in region of kidneys,1.0,1
+marked burning,urine bloody,1.0,1
+marked burning,gouty pains,1.0,1
+marked burning,bruised sensation in arms,1.0,1
+marked burning,better from warmth,1.0,1
+marked burning,bruised sensation in joints,1.0,1
+marked burning,tearing pains in hips,1.0,1
+marked burning,swelling in gouty states,1.0,1
+marked burning,backache,1.0,1
+marked burning,burning sensation in kidneys,1.0,1
+marked burning,pain in kidneys,1.0,1
+marked burning,tearing pains in legs,1.0,1
+marked burning,tearing pains in shoulders,1.0,1
+marked burning,neuralgic pains in legs,1.0,1
+marked burning,pressure in kidneys,1.0,1
+marked burning,urine with odor of violets,1.0,1
+pain in joints,gouty complaints,1.0,1
+pain in joints,bruised sensation in legs,1.0,1
+pain in joints,stiffness in joints,1.0,1
+pain in joints,gouty pains,1.0,1
+pain in joints,bruised sensation in arms,1.0,1
+pain in joints,better from warmth,1.0,1
+pain in joints,bruised sensation in joints,1.0,1
+pain in joints,rheumatic complaints,1.0,1
+frequent urination,tearing pains in knees,0.5,1
+frequent urination,neuralgic pains in arms,0.5,1
+frequent urination,rheumatic conditions,0.5,1
+frequent urination,burning,0.5,1
+frequent urination,burning in urethra,1.0,2
+frequent urination,urinary symptoms,0.5,1
+frequent urination,amblyopia,0.5,1
+frequent urination,urine scanty,0.5,1
+frequent urination,tearing pains in elbows,0.5,1
+frequent urination,marked burning,0.5,1
+frequent urination,pain in urethra,0.5,1
+frequent urination,bruised sensation in legs,0.5,1
+frequent urination,neuralgic pains in joints,0.5,1
+frequent urination,violent pain in region of kidneys,0.5,1
+frequent urination,urine bloody,0.5,1
+frequent urination,gouty pains,0.5,1
+frequent urination,bruised sensation in arms,0.5,1
+frequent urination,better from warmth,0.5,1
+frequent urination,bruised sensation in joints,0.5,1
+frequent urination,tearing pains in hips,0.5,1
+frequent urination,swelling in gouty states,0.5,1
+frequent urination,backache,0.5,1
+frequent urination,burning sensation in kidneys,0.5,1
+frequent urination,pain in kidneys,0.5,1
+frequent urination,tearing pains in legs,0.5,1
+frequent urination,tearing pains in shoulders,0.5,1
+frequent urination,neuralgic pains in legs,0.5,1
+frequent urination,pressure in kidneys,0.5,1
+frequent urination,urine with odor of violets,0.5,1
+urine with odor of violets,tearing pains in knees,1.0,1
+urine with odor of violets,neuralgic pains in arms,1.0,1
+urine with odor of violets,rheumatic conditions,1.0,1
+urine with odor of violets,burning,1.0,1
+urine with odor of violets,burning in urethra,1.0,1
+urine with odor of violets,urinary symptoms,1.0,1
+urine with odor of violets,amblyopia,1.0,1
+urine with odor of violets,urine scanty,1.0,1
+urine with odor of violets,frequent urination,1.0,1
+urine with odor of violets,tearing pains in elbows,1.0,1
+urine with odor of violets,marked burning,1.0,1
+urine with odor of violets,pain in urethra,1.0,1
+urine with odor of violets,bruised sensation in legs,1.0,1
+urine with odor of violets,neuralgic pains in joints,1.0,1
+urine with odor of violets,violent pain in region of kidneys,1.0,1
+urine with odor of violets,urine bloody,1.0,1
+urine with odor of violets,gouty pains,1.0,1
+urine with odor of violets,bruised sensation in arms,1.0,1
+urine with odor of violets,better from warmth,1.0,1
+urine with odor of violets,bruised sensation in joints,1.0,1
+urine with odor of violets,tearing pains in hips,1.0,1
+urine with odor of violets,swelling in gouty states,1.0,1
+urine with odor of violets,backache,1.0,1
+urine with odor of violets,burning sensation in kidneys,1.0,1
+urine with odor of violets,pain in kidneys,1.0,1
+urine with odor of violets,tearing pains in legs,1.0,1
+urine with odor of violets,tearing pains in shoulders,1.0,1
+urine with odor of violets,neuralgic pains in legs,1.0,1
+urine with odor of violets,pressure in kidneys,1.0,1
+rheumatic complaints,gouty complaints,1.0,1
+rheumatic complaints,bruised sensation in legs,1.0,1
+rheumatic complaints,stiffness in joints,1.0,1
+rheumatic complaints,gouty pains,1.0,1
+rheumatic complaints,bruised sensation in arms,1.0,1
+rheumatic complaints,better from warmth,1.0,1
+rheumatic complaints,bruised sensation in joints,1.0,1
+rheumatic complaints,pain in joints,1.0,1
+neuralgic pains in joints,tearing pains in knees,1.0,1
+neuralgic pains in joints,neuralgic pains in arms,1.0,1
+neuralgic pains in joints,rheumatic conditions,1.0,1
+neuralgic pains in joints,burning,1.0,1
+neuralgic pains in joints,burning in urethra,1.0,1
+neuralgic pains in joints,urinary symptoms,1.0,1
+neuralgic pains in joints,amblyopia,1.0,1
+neuralgic pains in joints,urine scanty,1.0,1
+neuralgic pains in joints,frequent urination,1.0,1
+neuralgic pains in joints,tearing pains in elbows,1.0,1
+neuralgic pains in joints,marked burning,1.0,1
+neuralgic pains in joints,pain in urethra,1.0,1
+neuralgic pains in joints,bruised sensation in legs,1.0,1
+neuralgic pains in joints,violent pain in region of kidneys,1.0,1
+neuralgic pains in joints,urine bloody,1.0,1
+neuralgic pains in joints,gouty pains,1.0,1
+neuralgic pains in joints,bruised sensation in arms,1.0,1
+neuralgic pains in joints,better from warmth,1.0,1
+neuralgic pains in joints,bruised sensation in joints,1.0,1
+neuralgic pains in joints,tearing pains in hips,1.0,1
+neuralgic pains in joints,swelling in gouty states,1.0,1
+neuralgic pains in joints,backache,1.0,1
+neuralgic pains in joints,burning sensation in kidneys,1.0,1
+neuralgic pains in joints,pain in kidneys,1.0,1
+neuralgic pains in joints,tearing pains in legs,1.0,1
+neuralgic pains in joints,tearing pains in shoulders,1.0,1
+neuralgic pains in joints,neuralgic pains in legs,1.0,1
+neuralgic pains in joints,pressure in kidneys,1.0,1
+neuralgic pains in joints,urine with odor of violets,1.0,1
+urine bloody,tearing pains in knees,1.0,1
+urine bloody,neuralgic pains in arms,1.0,1
+urine bloody,rheumatic conditions,1.0,1
+urine bloody,burning,1.0,1
+urine bloody,burning in urethra,1.0,1
+urine bloody,urinary symptoms,1.0,1
+urine bloody,amblyopia,1.0,1
+urine bloody,urine scanty,1.0,1
+urine bloody,frequent urination,1.0,1
+urine bloody,tearing pains in elbows,1.0,1
+urine bloody,marked burning,1.0,1
+urine bloody,pain in urethra,1.0,1
+urine bloody,bruised sensation in legs,1.0,1
+urine bloody,neuralgic pains in joints,1.0,1
+urine bloody,violent pain in region of kidneys,1.0,1
+urine bloody,gouty pains,1.0,1
+urine bloody,bruised sensation in arms,1.0,1
+urine bloody,better from warmth,1.0,1
+urine bloody,bruised sensation in joints,1.0,1
+urine bloody,tearing pains in hips,1.0,1
+urine bloody,swelling in gouty states,1.0,1
+urine bloody,backache,1.0,1
+urine bloody,burning sensation in kidneys,1.0,1
+urine bloody,pain in kidneys,1.0,1
+urine bloody,tearing pains in legs,1.0,1
+urine bloody,tearing pains in shoulders,1.0,1
+urine bloody,neuralgic pains in legs,1.0,1
+urine bloody,pressure in kidneys,1.0,1
+urine bloody,urine with odor of violets,1.0,1
+burning,tearing pains in knees,0.5,1
+burning,neuralgic pains in arms,0.5,1
+burning,rheumatic conditions,0.5,1
+burning,burning in urethra,0.5,1
+burning,urinary symptoms,0.5,1
+burning,amblyopia,0.5,1
+burning,urine scanty,0.5,1
+burning,frequent urination,0.5,1
+burning,tearing pains in elbows,0.5,1
+burning,marked burning,0.5,1
+burning,pain in urethra,0.5,1
+burning,bruised sensation in legs,0.5,1
+burning,neuralgic pains in joints,0.5,1
+burning,violent pain in region of kidneys,0.5,1
+burning,urine bloody,0.5,1
+burning,gouty pains,1.0,2
+burning,bruised sensation in arms,0.5,1
+burning,better from warmth,0.5,1
+burning,bruised sensation in joints,0.5,1
+burning,tearing pains in hips,0.5,1
+burning,swelling in gouty states,0.5,1
+burning,backache,0.5,1
+burning,burning sensation in kidneys,0.5,1
+burning,pain in kidneys,0.5,1
+burning,tearing pains in legs,0.5,1
+burning,tearing pains in shoulders,0.5,1
+burning,neuralgic pains in legs,0.5,1
+burning,pressure in kidneys,0.5,1
+burning,urine with odor of violets,0.5,1
+amblyopia,tearing pains in knees,1.0,1
+amblyopia,neuralgic pains in arms,1.0,1
+amblyopia,rheumatic conditions,1.0,1
+amblyopia,burning,1.0,1
+amblyopia,burning in urethra,1.0,1
+amblyopia,urinary symptoms,1.0,1
+amblyopia,urine scanty,1.0,1
+amblyopia,frequent urination,1.0,1
+amblyopia,tearing pains in elbows,1.0,1
+amblyopia,marked burning,1.0,1
+amblyopia,pain in urethra,1.0,1
+amblyopia,bruised sensation in legs,1.0,1
+amblyopia,neuralgic pains in joints,1.0,1
+amblyopia,violent pain in region of kidneys,1.0,1
+amblyopia,urine bloody,1.0,1
+amblyopia,gouty pains,1.0,1
+amblyopia,bruised sensation in arms,1.0,1
+amblyopia,better from warmth,1.0,1
+amblyopia,bruised sensation in joints,1.0,1
+amblyopia,tearing pains in hips,1.0,1
+amblyopia,swelling in gouty states,1.0,1
+amblyopia,backache,1.0,1
+amblyopia,burning sensation in kidneys,1.0,1
+amblyopia,pain in kidneys,1.0,1
+amblyopia,tearing pains in legs,1.0,1
+amblyopia,tearing pains in shoulders,1.0,1
+amblyopia,neuralgic pains in legs,1.0,1
+amblyopia,pressure in kidneys,1.0,1
+amblyopia,urine with odor of violets,1.0,1
+gouty pains,tearing pains in knees,0.3333,1
+gouty pains,neuralgic pains in arms,0.3333,1
+gouty pains,rheumatic conditions,0.3333,1
+gouty pains,burning,0.6667,2
+gouty pains,burning in urethra,0.3333,1
+gouty pains,urinary symptoms,0.3333,1
+gouty pains,amblyopia,0.3333,1
+gouty pains,urine scanty,0.3333,1
+gouty pains,frequent urination,0.3333,1
+gouty pains,gouty complaints,0.3333,1
+gouty pains,tearing pains in elbows,0.3333,1
+gouty pains,marked burning,0.3333,1
+gouty pains,pain in urethra,0.3333,1
+gouty pains,bruised sensation in legs,0.6667,2
+gouty pains,neuralgic pains in joints,0.3333,1
+gouty pains,violent pain in region of kidneys,0.3333,1
+gouty pains,stiffness in joints,0.3333,1
+gouty pains,urine bloody,0.3333,1
+gouty pains,bruised sensation in arms,0.6667,2
+gouty pains,better from warmth,0.6667,2
+gouty pains,bruised sensation in joints,0.6667,2
+gouty pains,pain in joints,0.3333,1
+gouty pains,tearing pains in hips,0.3333,1
+gouty pains,swelling in gouty states,0.3333,1
+gouty pains,backache,0.3333,1
+gouty pains,burning sensation in kidneys,0.3333,1
+gouty pains,pain in kidneys,0.3333,1
+gouty pains,tearing pains in legs,0.3333,1
+gouty pains,tearing pains in shoulders,0.3333,1
+gouty pains,neuralgic pains in legs,0.3333,1
+gouty pains,pressure in kidneys,0.3333,1
+gouty pains,urine with odor of violets,0.3333,1
+gouty pains,rheumatic complaints,0.3333,1
+tearing pains in legs,tearing pains in knees,1.0,1
+tearing pains in legs,neuralgic pains in arms,1.0,1
+tearing pains in legs,rheumatic conditions,1.0,1
+tearing pains in legs,burning,1.0,1
+tearing pains in legs,burning in urethra,1.0,1
+tearing pains in legs,urinary symptoms,1.0,1
+tearing pains in legs,amblyopia,1.0,1
+tearing pains in legs,urine scanty,1.0,1
+tearing pains in legs,frequent urination,1.0,1
+tearing pains in legs,tearing pains in elbows,1.0,1
+tearing pains in legs,marked burning,1.0,1
+tearing pains in legs,pain in urethra,1.0,1
+tearing pains in legs,bruised sensation in legs,1.0,1
+tearing pains in legs,neuralgic pains in joints,1.0,1
+tearing pains in legs,violent pain in region of kidneys,1.0,1
+tearing pains in legs,urine bloody,1.0,1
+tearing pains in legs,gouty pains,1.0,1
+tearing pains in legs,bruised sensation in arms,1.0,1
+tearing pains in legs,better from warmth,1.0,1
+tearing pains in legs,bruised sensation in joints,1.0,1
+tearing pains in legs,tearing pains in hips,1.0,1
+tearing pains in legs,swelling in gouty states,1.0,1
+tearing pains in legs,backache,1.0,1
+tearing pains in legs,burning sensation in kidneys,1.0,1
+tearing pains in legs,pain in kidneys,1.0,1
+tearing pains in legs,tearing pains in shoulders,1.0,1
+tearing pains in legs,neuralgic pains in legs,1.0,1
+tearing pains in legs,pressure in kidneys,1.0,1
+tearing pains in legs,urine with odor of violets,1.0,1
+backache,tearing pains in knees,1.0,1
+backache,neuralgic pains in arms,1.0,1
+backache,rheumatic conditions,1.0,1
+backache,burning,1.0,1
+backache,burning in urethra,1.0,1
+backache,urinary symptoms,1.0,1
+backache,amblyopia,1.0,1
+backache,urine scanty,1.0,1
+backache,frequent urination,1.0,1
+backache,tearing pains in elbows,1.0,1
+backache,marked burning,1.0,1
+backache,pain in urethra,1.0,1
+backache,bruised sensation in legs,1.0,1
+backache,neuralgic pains in joints,1.0,1
+backache,violent pain in region of kidneys,1.0,1
+backache,urine bloody,1.0,1
+backache,gouty pains,1.0,1
+backache,bruised sensation in arms,1.0,1
+backache,better from warmth,1.0,1
+backache,bruised sensation in joints,1.0,1
+backache,tearing pains in hips,1.0,1
+backache,swelling in gouty states,1.0,1
+backache,burning sensation in kidneys,1.0,1
+backache,pain in kidneys,1.0,1
+backache,tearing pains in legs,1.0,1
+backache,tearing pains in shoulders,1.0,1
+backache,neuralgic pains in legs,1.0,1
+backache,pressure in kidneys,1.0,1
+backache,urine with odor of violets,1.0,1
+burning in urethra,tearing pains in knees,0.5,1
+burning in urethra,neuralgic pains in arms,0.5,1
+burning in urethra,rheumatic conditions,0.5,1
+burning in urethra,burning,0.5,1
+burning in urethra,urinary symptoms,0.5,1
+burning in urethra,amblyopia,0.5,1
+burning in urethra,urine scanty,0.5,1
+burning in urethra,frequent urination,1.0,2
+burning in urethra,tearing pains in elbows,0.5,1
+burning in urethra,marked burning,0.5,1
+burning in urethra,pain in urethra,0.5,1
+burning in urethra,bruised sensation in legs,0.5,1
+burning in urethra,neuralgic pains in joints,0.5,1
+burning in urethra,violent pain in region of kidneys,0.5,1
+burning in urethra,urine bloody,0.5,1
+burning in urethra,gouty pains,0.5,1
+burning in urethra,bruised sensation in arms,0.5,1
+burning in urethra,better from warmth,0.5,1
+burning in urethra,bruised sensation in joints,0.5,1
+burning in urethra,tearing pains in hips,0.5,1
+burning in urethra,swelling in gouty states,0.5,1
+burning in urethra,backache,0.5,1
+burning in urethra,burning sensation in kidneys,0.5,1
+burning in urethra,pain in kidneys,0.5,1
+burning in urethra,tearing pains in legs,0.5,1
+burning in urethra,tearing pains in shoulders,0.5,1
+burning in urethra,neuralgic pains in legs,0.5,1
+burning in urethra,pressure in kidneys,0.5,1
+burning in urethra,urine with odor of violets,0.5,1
+bruised sensation in arms,tearing pains in knees,0.5,1
+bruised sensation in arms,neuralgic pains in arms,0.5,1
+bruised sensation in arms,rheumatic conditions,0.5,1
+bruised sensation in arms,burning,0.5,1
+bruised sensation in arms,burning in urethra,0.5,1
+bruised sensation in arms,urinary symptoms,0.5,1
+bruised sensation in arms,amblyopia,0.5,1
+bruised sensation in arms,urine scanty,0.5,1
+bruised sensation in arms,frequent urination,0.5,1
+bruised sensation in arms,gouty complaints,0.5,1
+bruised sensation in arms,tearing pains in elbows,0.5,1
+bruised sensation in arms,marked burning,0.5,1
+bruised sensation in arms,pain in urethra,0.5,1
+bruised sensation in arms,bruised sensation in legs,1.0,2
+bruised sensation in arms,neuralgic pains in joints,0.5,1
+bruised sensation in arms,violent pain in region of kidneys,0.5,1
+bruised sensation in arms,stiffness in joints,0.5,1
+bruised sensation in arms,urine bloody,0.5,1
+bruised sensation in arms,gouty pains,1.0,2
+bruised sensation in arms,better from warmth,1.0,2
+bruised sensation in arms,bruised sensation in joints,1.0,2
+bruised sensation in arms,pain in joints,0.5,1
+bruised sensation in arms,tearing pains in hips,0.5,1
+bruised sensation in arms,swelling in gouty states,0.5,1
+bruised sensation in arms,backache,0.5,1
+bruised sensation in arms,burning sensation in kidneys,0.5,1
+bruised sensation in arms,pain in kidneys,0.5,1
+bruised sensation in arms,tearing pains in legs,0.5,1
+bruised sensation in arms,tearing pains in shoulders,0.5,1
+bruised sensation in arms,neuralgic pains in legs,0.5,1
+bruised sensation in arms,pressure in kidneys,0.5,1
+bruised sensation in arms,urine with odor of violets,0.5,1
+bruised sensation in arms,rheumatic complaints,0.5,1
+swelling in gouty states,tearing pains in knees,1.0,1
+swelling in gouty states,neuralgic pains in arms,1.0,1
+swelling in gouty states,rheumatic conditions,1.0,1
+swelling in gouty states,burning,1.0,1
+swelling in gouty states,burning in urethra,1.0,1
+swelling in gouty states,urinary symptoms,1.0,1
+swelling in gouty states,amblyopia,1.0,1
+swelling in gouty states,urine scanty,1.0,1
+swelling in gouty states,frequent urination,1.0,1
+swelling in gouty states,tearing pains in elbows,1.0,1
+swelling in gouty states,marked burning,1.0,1
+swelling in gouty states,pain in urethra,1.0,1
+swelling in gouty states,bruised sensation in legs,1.0,1
+swelling in gouty states,neuralgic pains in joints,1.0,1
+swelling in gouty states,violent pain in region of kidneys,1.0,1
+swelling in gouty states,urine bloody,1.0,1
+swelling in gouty states,gouty pains,1.0,1
+swelling in gouty states,bruised sensation in arms,1.0,1
+swelling in gouty states,better from warmth,1.0,1
+swelling in gouty states,bruised sensation in joints,1.0,1
+swelling in gouty states,tearing pains in hips,1.0,1
+swelling in gouty states,backache,1.0,1
+swelling in gouty states,burning sensation in kidneys,1.0,1
+swelling in gouty states,pain in kidneys,1.0,1
+swelling in gouty states,tearing pains in legs,1.0,1
+swelling in gouty states,tearing pains in shoulders,1.0,1
+swelling in gouty states,neuralgic pains in legs,1.0,1
+swelling in gouty states,pressure in kidneys,1.0,1
+swelling in gouty states,urine with odor of violets,1.0,1
+tearing pains in shoulders,tearing pains in knees,1.0,1
+tearing pains in shoulders,neuralgic pains in arms,1.0,1
+tearing pains in shoulders,rheumatic conditions,1.0,1
+tearing pains in shoulders,burning,1.0,1
+tearing pains in shoulders,burning in urethra,1.0,1
+tearing pains in shoulders,urinary symptoms,1.0,1
+tearing pains in shoulders,amblyopia,1.0,1
+tearing pains in shoulders,urine scanty,1.0,1
+tearing pains in shoulders,frequent urination,1.0,1
+tearing pains in shoulders,tearing pains in elbows,1.0,1
+tearing pains in shoulders,marked burning,1.0,1
+tearing pains in shoulders,pain in urethra,1.0,1
+tearing pains in shoulders,bruised sensation in legs,1.0,1
+tearing pains in shoulders,neuralgic pains in joints,1.0,1
+tearing pains in shoulders,violent pain in region of kidneys,1.0,1
+tearing pains in shoulders,urine bloody,1.0,1
+tearing pains in shoulders,gouty pains,1.0,1
+tearing pains in shoulders,bruised sensation in arms,1.0,1
+tearing pains in shoulders,better from warmth,1.0,1
+tearing pains in shoulders,bruised sensation in joints,1.0,1
+tearing pains in shoulders,tearing pains in hips,1.0,1
+tearing pains in shoulders,swelling in gouty states,1.0,1
+tearing pains in shoulders,backache,1.0,1
+tearing pains in shoulders,burning sensation in kidneys,1.0,1
+tearing pains in shoulders,pain in kidneys,1.0,1
+tearing pains in shoulders,tearing pains in legs,1.0,1
+tearing pains in shoulders,neuralgic pains in legs,1.0,1
+tearing pains in shoulders,pressure in kidneys,1.0,1
+tearing pains in shoulders,urine with odor of violets,1.0,1
+pressure in kidneys,tearing pains in knees,1.0,1
+pressure in kidneys,neuralgic pains in arms,1.0,1
+pressure in kidneys,rheumatic conditions,1.0,1
+pressure in kidneys,burning,1.0,1
+pressure in kidneys,burning in urethra,1.0,1
+pressure in kidneys,urinary symptoms,1.0,1
+pressure in kidneys,amblyopia,1.0,1
+pressure in kidneys,urine scanty,1.0,1
+pressure in kidneys,frequent urination,1.0,1
+pressure in kidneys,tearing pains in elbows,1.0,1
+pressure in kidneys,marked burning,1.0,1
+pressure in kidneys,pain in urethra,1.0,1
+pressure in kidneys,bruised sensation in legs,1.0,1
+pressure in kidneys,neuralgic pains in joints,1.0,1
+pressure in kidneys,violent pain in region of kidneys,1.0,1
+pressure in kidneys,urine bloody,1.0,1
+pressure in kidneys,gouty pains,1.0,1
+pressure in kidneys,bruised sensation in arms,1.0,1
+pressure in kidneys,better from warmth,1.0,1
+pressure in kidneys,bruised sensation in joints,1.0,1
+pressure in kidneys,tearing pains in hips,1.0,1
+pressure in kidneys,swelling in gouty states,1.0,1
+pressure in kidneys,backache,1.0,1
+pressure in kidneys,burning sensation in kidneys,1.0,1
+pressure in kidneys,pain in kidneys,1.0,1
+pressure in kidneys,tearing pains in legs,1.0,1
+pressure in kidneys,tearing pains in shoulders,1.0,1
+pressure in kidneys,neuralgic pains in legs,1.0,1
+pressure in kidneys,urine with odor of violets,1.0,1
+urine scanty,tearing pains in knees,1.0,1
+urine scanty,neuralgic pains in arms,1.0,1
+urine scanty,rheumatic conditions,1.0,1
+urine scanty,burning,1.0,1
+urine scanty,burning in urethra,1.0,1
+urine scanty,urinary symptoms,1.0,1
+urine scanty,amblyopia,1.0,1
+urine scanty,frequent urination,1.0,1
+urine scanty,tearing pains in elbows,1.0,1
+urine scanty,marked burning,1.0,1
+urine scanty,pain in urethra,1.0,1
+urine scanty,bruised sensation in legs,1.0,1
+urine scanty,neuralgic pains in joints,1.0,1
+urine scanty,violent pain in region of kidneys,1.0,1
+urine scanty,urine bloody,1.0,1
+urine scanty,gouty pains,1.0,1
+urine scanty,bruised sensation in arms,1.0,1
+urine scanty,better from warmth,1.0,1
+urine scanty,bruised sensation in joints,1.0,1
+urine scanty,tearing pains in hips,1.0,1
+urine scanty,swelling in gouty states,1.0,1
+urine scanty,backache,1.0,1
+urine scanty,burning sensation in kidneys,1.0,1
+urine scanty,pain in kidneys,1.0,1
+urine scanty,tearing pains in legs,1.0,1
+urine scanty,tearing pains in shoulders,1.0,1
+urine scanty,neuralgic pains in legs,1.0,1
+urine scanty,pressure in kidneys,1.0,1
+urine scanty,urine with odor of violets,1.0,1
+tearing pains in hips,tearing pains in knees,1.0,1
+tearing pains in hips,neuralgic pains in arms,1.0,1
+tearing pains in hips,rheumatic conditions,1.0,1
+tearing pains in hips,burning,1.0,1
+tearing pains in hips,burning in urethra,1.0,1
+tearing pains in hips,urinary symptoms,1.0,1
+tearing pains in hips,amblyopia,1.0,1
+tearing pains in hips,urine scanty,1.0,1
+tearing pains in hips,frequent urination,1.0,1
+tearing pains in hips,tearing pains in elbows,1.0,1
+tearing pains in hips,marked burning,1.0,1
+tearing pains in hips,pain in urethra,1.0,1
+tearing pains in hips,bruised sensation in legs,1.0,1
+tearing pains in hips,neuralgic pains in joints,1.0,1
+tearing pains in hips,violent pain in region of kidneys,1.0,1
+tearing pains in hips,urine bloody,1.0,1
+tearing pains in hips,gouty pains,1.0,1
+tearing pains in hips,bruised sensation in arms,1.0,1
+tearing pains in hips,better from warmth,1.0,1
+tearing pains in hips,bruised sensation in joints,1.0,1
+tearing pains in hips,swelling in gouty states,1.0,1
+tearing pains in hips,backache,1.0,1
+tearing pains in hips,burning sensation in kidneys,1.0,1
+tearing pains in hips,pain in kidneys,1.0,1
+tearing pains in hips,tearing pains in legs,1.0,1
+tearing pains in hips,tearing pains in shoulders,1.0,1
+tearing pains in hips,neuralgic pains in legs,1.0,1
+tearing pains in hips,pressure in kidneys,1.0,1
+tearing pains in hips,urine with odor of violets,1.0,1
+violent pain in region of kidneys,tearing pains in knees,1.0,1
+violent pain in region of kidneys,neuralgic pains in arms,1.0,1
+violent pain in region of kidneys,rheumatic conditions,1.0,1
+violent pain in region of kidneys,burning,1.0,1
+violent pain in region of kidneys,burning in urethra,1.0,1
+violent pain in region of kidneys,urinary symptoms,1.0,1
+violent pain in region of kidneys,amblyopia,1.0,1
+violent pain in region of kidneys,urine scanty,1.0,1
+violent pain in region of kidneys,frequent urination,1.0,1
+violent pain in region of kidneys,tearing pains in elbows,1.0,1
+violent pain in region of kidneys,marked burning,1.0,1
+violent pain in region of kidneys,pain in urethra,1.0,1
+violent pain in region of kidneys,bruised sensation in legs,1.0,1
+violent pain in region of kidneys,neuralgic pains in joints,1.0,1
+violent pain in region of kidneys,urine bloody,1.0,1
+violent pain in region of kidneys,gouty pains,1.0,1
+violent pain in region of kidneys,bruised sensation in arms,1.0,1
+violent pain in region of kidneys,better from warmth,1.0,1
+violent pain in region of kidneys,bruised sensation in joints,1.0,1
+violent pain in region of kidneys,tearing pains in hips,1.0,1
+violent pain in region of kidneys,swelling in gouty states,1.0,1
+violent pain in region of kidneys,backache,1.0,1
+violent pain in region of kidneys,burning sensation in kidneys,1.0,1
+violent pain in region of kidneys,pain in kidneys,1.0,1
+violent pain in region of kidneys,tearing pains in legs,1.0,1
+violent pain in region of kidneys,tearing pains in shoulders,1.0,1
+violent pain in region of kidneys,neuralgic pains in legs,1.0,1
+violent pain in region of kidneys,pressure in kidneys,1.0,1
+violent pain in region of kidneys,urine with odor of violets,1.0,1
+burning sensation in kidneys,tearing pains in knees,1.0,1
+burning sensation in kidneys,neuralgic pains in arms,1.0,1
+burning sensation in kidneys,rheumatic conditions,1.0,1
+burning sensation in kidneys,burning,1.0,1
+burning sensation in kidneys,burning in urethra,1.0,1
+burning sensation in kidneys,urinary symptoms,1.0,1
+burning sensation in kidneys,amblyopia,1.0,1
+burning sensation in kidneys,urine scanty,1.0,1
+burning sensation in kidneys,frequent urination,1.0,1
+burning sensation in kidneys,tearing pains in elbows,1.0,1
+burning sensation in kidneys,marked burning,1.0,1
+burning sensation in kidneys,pain in urethra,1.0,1
+burning sensation in kidneys,bruised sensation in legs,1.0,1
+burning sensation in kidneys,neuralgic pains in joints,1.0,1
+burning sensation in kidneys,violent pain in region of kidneys,1.0,1
+burning sensation in kidneys,urine bloody,1.0,1
+burning sensation in kidneys,gouty pains,1.0,1
+burning sensation in kidneys,bruised sensation in arms,1.0,1
+burning sensation in kidneys,better from warmth,1.0,1
+burning sensation in kidneys,bruised sensation in joints,1.0,1
+burning sensation in kidneys,tearing pains in hips,1.0,1
+burning sensation in kidneys,swelling in gouty states,1.0,1
+burning sensation in kidneys,backache,1.0,1
+burning sensation in kidneys,pain in kidneys,1.0,1
+burning sensation in kidneys,tearing pains in legs,1.0,1
+burning sensation in kidneys,tearing pains in shoulders,1.0,1
+burning sensation in kidneys,neuralgic pains in legs,1.0,1
+burning sensation in kidneys,pressure in kidneys,1.0,1
+burning sensation in kidneys,urine with odor of violets,1.0,1
+pain in kidneys,tearing pains in knees,1.0,1
+pain in kidneys,neuralgic pains in arms,1.0,1
+pain in kidneys,rheumatic conditions,1.0,1
+pain in kidneys,burning,1.0,1
+pain in kidneys,burning in urethra,1.0,1
+pain in kidneys,urinary symptoms,1.0,1
+pain in kidneys,amblyopia,1.0,1
+pain in kidneys,urine scanty,1.0,1
+pain in kidneys,frequent urination,1.0,1
+pain in kidneys,tearing pains in elbows,1.0,1
+pain in kidneys,marked burning,1.0,1
+pain in kidneys,pain in urethra,1.0,1
+pain in kidneys,bruised sensation in legs,1.0,1
+pain in kidneys,neuralgic pains in joints,1.0,1
+pain in kidneys,violent pain in region of kidneys,1.0,1
+pain in kidneys,urine bloody,1.0,1
+pain in kidneys,gouty pains,1.0,1
+pain in kidneys,bruised sensation in arms,1.0,1
+pain in kidneys,better from warmth,1.0,1
+pain in kidneys,bruised sensation in joints,1.0,1
+pain in kidneys,tearing pains in hips,1.0,1
+pain in kidneys,swelling in gouty states,1.0,1
+pain in kidneys,backache,1.0,1
+pain in kidneys,burning sensation in kidneys,1.0,1
+pain in kidneys,tearing pains in legs,1.0,1
+pain in kidneys,tearing pains in shoulders,1.0,1
+pain in kidneys,neuralgic pains in legs,1.0,1
+pain in kidneys,pressure in kidneys,1.0,1
+pain in kidneys,urine with odor of violets,1.0,1
+tearing pains in elbows,tearing pains in knees,1.0,1
+tearing pains in elbows,neuralgic pains in arms,1.0,1
+tearing pains in elbows,rheumatic conditions,1.0,1
+tearing pains in elbows,burning,1.0,1
+tearing pains in elbows,burning in urethra,1.0,1
+tearing pains in elbows,urinary symptoms,1.0,1
+tearing pains in elbows,amblyopia,1.0,1
+tearing pains in elbows,urine scanty,1.0,1
+tearing pains in elbows,frequent urination,1.0,1
+tearing pains in elbows,marked burning,1.0,1
+tearing pains in elbows,pain in urethra,1.0,1
+tearing pains in elbows,bruised sensation in legs,1.0,1
+tearing pains in elbows,neuralgic pains in joints,1.0,1
+tearing pains in elbows,violent pain in region of kidneys,1.0,1
+tearing pains in elbows,urine bloody,1.0,1
+tearing pains in elbows,gouty pains,1.0,1
+tearing pains in elbows,bruised sensation in arms,1.0,1
+tearing pains in elbows,better from warmth,1.0,1
+tearing pains in elbows,bruised sensation in joints,1.0,1
+tearing pains in elbows,tearing pains in hips,1.0,1
+tearing pains in elbows,swelling in gouty states,1.0,1
+tearing pains in elbows,backache,1.0,1
+tearing pains in elbows,burning sensation in kidneys,1.0,1
+tearing pains in elbows,pain in kidneys,1.0,1
+tearing pains in elbows,tearing pains in legs,1.0,1
+tearing pains in elbows,tearing pains in shoulders,1.0,1
+tearing pains in elbows,neuralgic pains in legs,1.0,1
+tearing pains in elbows,pressure in kidneys,1.0,1
+tearing pains in elbows,urine with odor of violets,1.0,1
+neuralgic pains in legs,tearing pains in knees,1.0,1
+neuralgic pains in legs,neuralgic pains in arms,1.0,1
+neuralgic pains in legs,rheumatic conditions,1.0,1
+neuralgic pains in legs,burning,1.0,1
+neuralgic pains in legs,burning in urethra,1.0,1
+neuralgic pains in legs,urinary symptoms,1.0,1
+neuralgic pains in legs,amblyopia,1.0,1
+neuralgic pains in legs,urine scanty,1.0,1
+neuralgic pains in legs,frequent urination,1.0,1
+neuralgic pains in legs,tearing pains in elbows,1.0,1
+neuralgic pains in legs,marked burning,1.0,1
+neuralgic pains in legs,pain in urethra,1.0,1
+neuralgic pains in legs,bruised sensation in legs,1.0,1
+neuralgic pains in legs,neuralgic pains in joints,1.0,1
+neuralgic pains in legs,violent pain in region of kidneys,1.0,1
+neuralgic pains in legs,urine bloody,1.0,1
+neuralgic pains in legs,gouty pains,1.0,1
+neuralgic pains in legs,bruised sensation in arms,1.0,1
+neuralgic pains in legs,better from warmth,1.0,1
+neuralgic pains in legs,bruised sensation in joints,1.0,1
+neuralgic pains in legs,tearing pains in hips,1.0,1
+neuralgic pains in legs,swelling in gouty states,1.0,1
+neuralgic pains in legs,backache,1.0,1
+neuralgic pains in legs,burning sensation in kidneys,1.0,1
+neuralgic pains in legs,pain in kidneys,1.0,1
+neuralgic pains in legs,tearing pains in legs,1.0,1
+neuralgic pains in legs,tearing pains in shoulders,1.0,1
+neuralgic pains in legs,pressure in kidneys,1.0,1
+neuralgic pains in legs,urine with odor of violets,1.0,1
+gouty complaints,bruised sensation in legs,1.0,1
+gouty complaints,stiffness in joints,1.0,1
+gouty complaints,gouty pains,1.0,1
+gouty complaints,bruised sensation in arms,1.0,1
+gouty complaints,better from warmth,1.0,1
+gouty complaints,bruised sensation in joints,1.0,1
+gouty complaints,pain in joints,1.0,1
+gouty complaints,rheumatic complaints,1.0,1
+better from warmth,tearing pains in knees,0.5,1
+better from warmth,neuralgic pains in arms,0.5,1
+better from warmth,rheumatic conditions,0.5,1
+better from warmth,burning,0.5,1
+better from warmth,burning in urethra,0.5,1
+better from warmth,urinary symptoms,0.5,1
+better from warmth,amblyopia,0.5,1
+better from warmth,urine scanty,0.5,1
+better from warmth,frequent urination,0.5,1
+better from warmth,gouty complaints,0.5,1
+better from warmth,tearing pains in elbows,0.5,1
+better from warmth,marked burning,0.5,1
+better from warmth,pain in urethra,0.5,1
+better from warmth,bruised sensation in legs,1.0,2
+better from warmth,neuralgic pains in joints,0.5,1
+better from warmth,violent pain in region of kidneys,0.5,1
+better from warmth,stiffness in joints,0.5,1
+better from warmth,urine bloody,0.5,1
+better from warmth,gouty pains,1.0,2
+better from warmth,bruised sensation in arms,1.0,2
+better from warmth,bruised sensation in joints,1.0,2
+better from warmth,pain in joints,0.5,1
+better from warmth,tearing pains in hips,0.5,1
+better from warmth,swelling in gouty states,0.5,1
+better from warmth,backache,0.5,1
+better from warmth,burning sensation in kidneys,0.5,1
+better from warmth,pain in kidneys,0.5,1
+better from warmth,tearing pains in legs,0.5,1
+better from warmth,tearing pains in shoulders,0.5,1
+better from warmth,neuralgic pains in legs,0.5,1
+better from warmth,pressure in kidneys,0.5,1
+better from warmth,urine with odor of violets,0.5,1
+better from warmth,rheumatic complaints,0.5,1
+stiffness in joints,gouty complaints,1.0,1
+stiffness in joints,bruised sensation in legs,1.0,1
+stiffness in joints,gouty pains,1.0,1
+stiffness in joints,bruised sensation in arms,1.0,1
+stiffness in joints,better from warmth,1.0,1
+stiffness in joints,bruised sensation in joints,1.0,1
+stiffness in joints,pain in joints,1.0,1
+stiffness in joints,rheumatic complaints,1.0,1
+urinary symptoms,tearing pains in knees,1.0,1
+urinary symptoms,neuralgic pains in arms,1.0,1
+urinary symptoms,rheumatic conditions,1.0,1
+urinary symptoms,burning,1.0,1
+urinary symptoms,burning in urethra,1.0,1
+urinary symptoms,amblyopia,1.0,1
+urinary symptoms,urine scanty,1.0,1
+urinary symptoms,frequent urination,1.0,1
+urinary symptoms,tearing pains in elbows,1.0,1
+urinary symptoms,marked burning,1.0,1
+urinary symptoms,pain in urethra,1.0,1
+urinary symptoms,bruised sensation in legs,1.0,1
+urinary symptoms,neuralgic pains in joints,1.0,1
+urinary symptoms,violent pain in region of kidneys,1.0,1
+urinary symptoms,urine bloody,1.0,1
+urinary symptoms,gouty pains,1.0,1
+urinary symptoms,bruised sensation in arms,1.0,1
+urinary symptoms,better from warmth,1.0,1
+urinary symptoms,bruised sensation in joints,1.0,1
+urinary symptoms,tearing pains in hips,1.0,1
+urinary symptoms,swelling in gouty states,1.0,1
+urinary symptoms,backache,1.0,1
+urinary symptoms,burning sensation in kidneys,1.0,1
+urinary symptoms,pain in kidneys,1.0,1
+urinary symptoms,tearing pains in legs,1.0,1
+urinary symptoms,tearing pains in shoulders,1.0,1
+urinary symptoms,neuralgic pains in legs,1.0,1
+urinary symptoms,pressure in kidneys,1.0,1
+urinary symptoms,urine with odor of violets,1.0,1
+bruised sensation in joints,tearing pains in knees,0.5,1
+bruised sensation in joints,neuralgic pains in arms,0.5,1
+bruised sensation in joints,rheumatic conditions,0.5,1
+bruised sensation in joints,burning,0.5,1
+bruised sensation in joints,burning in urethra,0.5,1
+bruised sensation in joints,urinary symptoms,0.5,1
+bruised sensation in joints,amblyopia,0.5,1
+bruised sensation in joints,urine scanty,0.5,1
+bruised sensation in joints,frequent urination,0.5,1
+bruised sensation in joints,gouty complaints,0.5,1
+bruised sensation in joints,tearing pains in elbows,0.5,1
+bruised sensation in joints,marked burning,0.5,1
+bruised sensation in joints,pain in urethra,0.5,1
+bruised sensation in joints,bruised sensation in legs,1.0,2
+bruised sensation in joints,neuralgic pains in joints,0.5,1
+bruised sensation in joints,violent pain in region of kidneys,0.5,1
+bruised sensation in joints,stiffness in joints,0.5,1
+bruised sensation in joints,urine bloody,0.5,1
+bruised sensation in joints,gouty pains,1.0,2
+bruised sensation in joints,bruised sensation in arms,1.0,2
+bruised sensation in joints,better from warmth,1.0,2
+bruised sensation in joints,pain in joints,0.5,1
+bruised sensation in joints,tearing pains in hips,0.5,1
+bruised sensation in joints,swelling in gouty states,0.5,1
+bruised sensation in joints,backache,0.5,1
+bruised sensation in joints,burning sensation in kidneys,0.5,1
+bruised sensation in joints,pain in kidneys,0.5,1
+bruised sensation in joints,tearing pains in legs,0.5,1
+bruised sensation in joints,tearing pains in shoulders,0.5,1
+bruised sensation in joints,neuralgic pains in legs,0.5,1
+bruised sensation in joints,pressure in kidneys,0.5,1
+bruised sensation in joints,urine with odor of violets,0.5,1
+bruised sensation in joints,rheumatic complaints,0.5,1
+neuralgic pains in arms,tearing pains in knees,0.5,1
+neuralgic pains in arms,rheumatic conditions,0.5,1
+neuralgic pains in arms,burning,0.5,1
+neuralgic pains in arms,burning in urethra,0.5,1
+neuralgic pains in arms,urinary symptoms,0.5,1
+neuralgic pains in arms,amblyopia,0.5,1
+neuralgic pains in arms,urine scanty,0.5,1
+neuralgic pains in arms,frequent urination,0.5,1
+neuralgic pains in arms,tearing pains in elbows,0.5,1
+neuralgic pains in arms,marked burning,0.5,1
+neuralgic pains in arms,pain in urethra,0.5,1
+neuralgic pains in arms,bruised sensation in legs,0.5,1
+neuralgic pains in arms,neuralgic pains in joints,0.5,1
+neuralgic pains in arms,violent pain in region of kidneys,0.5,1
+neuralgic pains in arms,urine bloody,0.5,1
+neuralgic pains in arms,gouty pains,0.5,1
+neuralgic pains in arms,bruised sensation in arms,0.5,1
+neuralgic pains in arms,better from warmth,0.5,1
+neuralgic pains in arms,bruised sensation in joints,0.5,1
+neuralgic pains in arms,tearing pains in hips,0.5,1
+neuralgic pains in arms,swelling in gouty states,0.5,1
+neuralgic pains in arms,backache,0.5,1
+neuralgic pains in arms,burning sensation in kidneys,0.5,1
+neuralgic pains in arms,pain in kidneys,0.5,1
+neuralgic pains in arms,tearing pains in legs,0.5,1
+neuralgic pains in arms,tearing pains in shoulders,0.5,1
+neuralgic pains in arms,neuralgic pains in legs,0.5,1
+neuralgic pains in arms,pressure in kidneys,0.5,1
+neuralgic pains in arms,urine with odor of violets,0.5,1
+tearing pains in knees,neuralgic pains in arms,0.5,1
+tearing pains in knees,rheumatic conditions,0.5,1
+tearing pains in knees,burning,0.5,1
+tearing pains in knees,burning in urethra,0.5,1
+tearing pains in knees,urinary symptoms,0.5,1
+tearing pains in knees,amblyopia,0.5,1
+tearing pains in knees,urine scanty,0.5,1
+tearing pains in knees,frequent urination,0.5,1
+tearing pains in knees,tearing pains in elbows,0.5,1
+tearing pains in knees,marked burning,0.5,1
+tearing pains in knees,pain in urethra,0.5,1
+tearing pains in knees,bruised sensation in legs,0.5,1
+tearing pains in knees,neuralgic pains in joints,0.5,1
+tearing pains in knees,violent pain in region of kidneys,0.5,1
+tearing pains in knees,urine bloody,0.5,1
+tearing pains in knees,gouty pains,0.5,1
+tearing pains in knees,bruised sensation in arms,0.5,1
+tearing pains in knees,better from warmth,0.5,1
+tearing pains in knees,bruised sensation in joints,0.5,1
+tearing pains in knees,tearing pains in hips,0.5,1
+tearing pains in knees,swelling in gouty states,0.5,1
+tearing pains in knees,backache,0.5,1
+tearing pains in knees,burning sensation in kidneys,0.5,1
+tearing pains in knees,pain in kidneys,0.5,1
+tearing pains in knees,tearing pains in legs,0.5,1
+tearing pains in knees,tearing pains in shoulders,0.5,1
+tearing pains in knees,neuralgic pains in legs,0.5,1
+tearing pains in knees,pressure in kidneys,0.5,1
+tearing pains in knees,urine with odor of violets,0.5,1
+rheumatic conditions,tearing pains in knees,1.0,1
+rheumatic conditions,neuralgic pains in arms,1.0,1
+rheumatic conditions,burning,1.0,1
+rheumatic conditions,burning in urethra,1.0,1
+rheumatic conditions,urinary symptoms,1.0,1
+rheumatic conditions,amblyopia,1.0,1
+rheumatic conditions,urine scanty,1.0,1
+rheumatic conditions,frequent urination,1.0,1
+rheumatic conditions,tearing pains in elbows,1.0,1
+rheumatic conditions,marked burning,1.0,1
+rheumatic conditions,pain in urethra,1.0,1
+rheumatic conditions,bruised sensation in legs,1.0,1
+rheumatic conditions,neuralgic pains in joints,1.0,1
+rheumatic conditions,violent pain in region of kidneys,1.0,1
+rheumatic conditions,urine bloody,1.0,1
+rheumatic conditions,gouty pains,1.0,1
+rheumatic conditions,bruised sensation in arms,1.0,1
+rheumatic conditions,better from warmth,1.0,1
+rheumatic conditions,bruised sensation in joints,1.0,1
+rheumatic conditions,tearing pains in hips,1.0,1
+rheumatic conditions,swelling in gouty states,1.0,1
+rheumatic conditions,backache,1.0,1
+rheumatic conditions,burning sensation in kidneys,1.0,1
+rheumatic conditions,pain in kidneys,1.0,1
+rheumatic conditions,tearing pains in legs,1.0,1
+rheumatic conditions,tearing pains in shoulders,1.0,1
+rheumatic conditions,neuralgic pains in legs,1.0,1
+rheumatic conditions,pressure in kidneys,1.0,1
+rheumatic conditions,urine with odor of violets,1.0,1

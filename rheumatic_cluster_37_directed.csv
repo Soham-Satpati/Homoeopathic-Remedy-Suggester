@@ -1,0 +1,1947 @@
+### Cluster 37 — Symptoms (44)
+Symptom,Frequency
+rigidity with pains,1
+severe pains in loins,1
+severe pains in back,1
+drawing pains in joints of arms,1
+severe drawing in sterno-cleidomastoid muscle,2
+affects wrists,1
+severe drawing in fingers,2
+pain in feet,1
+acrid leucorrhoea,1
+sharp pain in knee joints,1
+has to lift eyelids with hand,1
+oppression of chest with pains,1
+sensation as if uterus were congested,1
+pain in toes,1
+fullness in uterus,1
+severe drawing in wrists,2
+cutting in joints when closing hands,1
+weakening leucorrhoea,1
+pains remain only a short time in one place,1
+very painful menses,1
+knees weak when walking,1
+spasmodic dysmenorrhoea,1
+affects fingers,1
+great heaviness of eyelids,1
+associated with deranged female sexual system,1
+flying pains in arms,1
+rheumatic conditions of small joints,1
+dull pains in lumbar region,1
+menses too soon,1
+fingers very stiff,1
+affects ankles,1
+rheumatism of finger joints,1
+rheumatic conditions of pregnancy,1
+pains shift to another place,1
+affects toes,1
+swelling of wrists,1
+tension in uterus,1
+rheumatism especially of small joints,1
+tremulous weakness over whole body,2
+drawing pains in joints of legs,1
+rheumatic stiffness of nape of neck,2
+rheumatism of wrists,3
+pains shifting to nape of neck,1
+pains shift to nape of neck,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+caulophyllum,44
+viola odorata,1
+ferrum phosphoricum,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+knees weak when walking,rigidity with pains,1.0,1
+knees weak when walking,severe pains in loins,1.0,1
+knees weak when walking,severe pains in back,1.0,1
+knees weak when walking,drawing pains in joints of arms,1.0,1
+knees weak when walking,severe drawing in sterno-cleidomastoid muscle,1.0,1
+knees weak when walking,affects wrists,1.0,1
+knees weak when walking,severe drawing in fingers,1.0,1
+knees weak when walking,pain in feet,1.0,1
+knees weak when walking,acrid leucorrhoea,1.0,1
+knees weak when walking,sharp pain in knee joints,1.0,1
+knees weak when walking,has to lift eyelids with hand,1.0,1
+knees weak when walking,oppression of chest with pains,1.0,1
+knees weak when walking,sensation as if uterus were congested,1.0,1
+knees weak when walking,pain in toes,1.0,1
+knees weak when walking,fullness in uterus,1.0,1
+knees weak when walking,severe drawing in wrists,1.0,1
+knees weak when walking,cutting in joints when closing hands,1.0,1
+knees weak when walking,weakening leucorrhoea,1.0,1
+knees weak when walking,pains remain only a short time in one place,1.0,1
+knees weak when walking,very painful menses,1.0,1
+knees weak when walking,spasmodic dysmenorrhoea,1.0,1
+knees weak when walking,affects fingers,1.0,1
+knees weak when walking,great heaviness of eyelids,1.0,1
+knees weak when walking,associated with deranged female sexual system,1.0,1
+knees weak when walking,flying pains in arms,1.0,1
+knees weak when walking,rheumatic conditions of small joints,1.0,1
+knees weak when walking,dull pains in lumbar region,1.0,1
+knees weak when walking,menses too soon,1.0,1
+knees weak when walking,fingers very stiff,1.0,1
+knees weak when walking,affects ankles,1.0,1
+knees weak when walking,rheumatism of finger joints,1.0,1
+knees weak when walking,rheumatic conditions of pregnancy,1.0,1
+knees weak when walking,pains shift to another place,1.0,1
+knees weak when walking,affects toes,1.0,1
+knees weak when walking,swelling of wrists,1.0,1
+knees weak when walking,tension in uterus,1.0,1
+knees weak when walking,rheumatism especially of small joints,1.0,1
+knees weak when walking,tremulous weakness over whole body,1.0,1
+knees weak when walking,drawing pains in joints of legs,1.0,1
+knees weak when walking,rheumatic stiffness of nape of neck,1.0,1
+knees weak when walking,rheumatism of wrists,1.0,1
+knees weak when walking,pains shifting to nape of neck,1.0,1
+knees weak when walking,pains shift to nape of neck,1.0,1
+rigidity with pains,severe pains in loins,1.0,1
+rigidity with pains,severe pains in back,1.0,1
+rigidity with pains,drawing pains in joints of arms,1.0,1
+rigidity with pains,severe drawing in sterno-cleidomastoid muscle,1.0,1
+rigidity with pains,affects wrists,1.0,1
+rigidity with pains,severe drawing in fingers,1.0,1
+rigidity with pains,pain in feet,1.0,1
+rigidity with pains,acrid leucorrhoea,1.0,1
+rigidity with pains,sharp pain in knee joints,1.0,1
+rigidity with pains,has to lift eyelids with hand,1.0,1
+rigidity with pains,oppression of chest with pains,1.0,1
+rigidity with pains,sensation as if uterus were congested,1.0,1
+rigidity with pains,pain in toes,1.0,1
+rigidity with pains,fullness in uterus,1.0,1
+rigidity with pains,severe drawing in wrists,1.0,1
+rigidity with pains,cutting in joints when closing hands,1.0,1
+rigidity with pains,weakening leucorrhoea,1.0,1
+rigidity with pains,pains remain only a short time in one place,1.0,1
+rigidity with pains,very painful menses,1.0,1
+rigidity with pains,knees weak when walking,1.0,1
+rigidity with pains,spasmodic dysmenorrhoea,1.0,1
+rigidity with pains,affects fingers,1.0,1
+rigidity with pains,great heaviness of eyelids,1.0,1
+rigidity with pains,associated with deranged female sexual system,1.0,1
+rigidity with pains,flying pains in arms,1.0,1
+rigidity with pains,rheumatic conditions of small joints,1.0,1
+rigidity with pains,dull pains in lumbar region,1.0,1
+rigidity with pains,menses too soon,1.0,1
+rigidity with pains,fingers very stiff,1.0,1
+rigidity with pains,affects ankles,1.0,1
+rigidity with pains,rheumatism of finger joints,1.0,1
+rigidity with pains,rheumatic conditions of pregnancy,1.0,1
+rigidity with pains,pains shift to another place,1.0,1
+rigidity with pains,affects toes,1.0,1
+rigidity with pains,swelling of wrists,1.0,1
+rigidity with pains,tension in uterus,1.0,1
+rigidity with pains,rheumatism especially of small joints,1.0,1
+rigidity with pains,tremulous weakness over whole body,1.0,1
+rigidity with pains,drawing pains in joints of legs,1.0,1
+rigidity with pains,rheumatic stiffness of nape of neck,1.0,1
+rigidity with pains,rheumatism of wrists,1.0,1
+rigidity with pains,pains shifting to nape of neck,1.0,1
+rigidity with pains,pains shift to nape of neck,1.0,1
+pain in feet,rigidity with pains,1.0,1
+pain in feet,severe pains in loins,1.0,1
+pain in feet,severe pains in back,1.0,1
+pain in feet,drawing pains in joints of arms,1.0,1
+pain in feet,severe drawing in sterno-cleidomastoid muscle,1.0,1
+pain in feet,affects wrists,1.0,1
+pain in feet,severe drawing in fingers,1.0,1
+pain in feet,acrid leucorrhoea,1.0,1
+pain in feet,sharp pain in knee joints,1.0,1
+pain in feet,has to lift eyelids with hand,1.0,1
+pain in feet,oppression of chest with pains,1.0,1
+pain in feet,sensation as if uterus were congested,1.0,1
+pain in feet,pain in toes,1.0,1
+pain in feet,fullness in uterus,1.0,1
+pain in feet,severe drawing in wrists,1.0,1
+pain in feet,cutting in joints when closing hands,1.0,1
+pain in feet,weakening leucorrhoea,1.0,1
+pain in feet,pains remain only a short time in one place,1.0,1
+pain in feet,very painful menses,1.0,1
+pain in feet,knees weak when walking,1.0,1
+pain in feet,spasmodic dysmenorrhoea,1.0,1
+pain in feet,affects fingers,1.0,1
+pain in feet,great heaviness of eyelids,1.0,1
+pain in feet,associated with deranged female sexual system,1.0,1
+pain in feet,flying pains in arms,1.0,1
+pain in feet,rheumatic conditions of small joints,1.0,1
+pain in feet,dull pains in lumbar region,1.0,1
+pain in feet,menses too soon,1.0,1
+pain in feet,fingers very stiff,1.0,1
+pain in feet,affects ankles,1.0,1
+pain in feet,rheumatism of finger joints,1.0,1
+pain in feet,rheumatic conditions of pregnancy,1.0,1
+pain in feet,pains shift to another place,1.0,1
+pain in feet,affects toes,1.0,1
+pain in feet,swelling of wrists,1.0,1
+pain in feet,tension in uterus,1.0,1
+pain in feet,rheumatism especially of small joints,1.0,1
+pain in feet,tremulous weakness over whole body,1.0,1
+pain in feet,drawing pains in joints of legs,1.0,1
+pain in feet,rheumatic stiffness of nape of neck,1.0,1
+pain in feet,rheumatism of wrists,1.0,1
+pain in feet,pains shifting to nape of neck,1.0,1
+pain in feet,pains shift to nape of neck,1.0,1
+tension in uterus,rigidity with pains,1.0,1
+tension in uterus,severe pains in loins,1.0,1
+tension in uterus,severe pains in back,1.0,1
+tension in uterus,drawing pains in joints of arms,1.0,1
+tension in uterus,severe drawing in sterno-cleidomastoid muscle,1.0,1
+tension in uterus,affects wrists,1.0,1
+tension in uterus,severe drawing in fingers,1.0,1
+tension in uterus,pain in feet,1.0,1
+tension in uterus,acrid leucorrhoea,1.0,1
+tension in uterus,sharp pain in knee joints,1.0,1
+tension in uterus,has to lift eyelids with hand,1.0,1
+tension in uterus,oppression of chest with pains,1.0,1
+tension in uterus,sensation as if uterus were congested,1.0,1
+tension in uterus,pain in toes,1.0,1
+tension in uterus,fullness in uterus,1.0,1
+tension in uterus,severe drawing in wrists,1.0,1
+tension in uterus,cutting in joints when closing hands,1.0,1
+tension in uterus,weakening leucorrhoea,1.0,1
+tension in uterus,pains remain only a short time in one place,1.0,1
+tension in uterus,very painful menses,1.0,1
+tension in uterus,knees weak when walking,1.0,1
+tension in uterus,spasmodic dysmenorrhoea,1.0,1
+tension in uterus,affects fingers,1.0,1
+tension in uterus,great heaviness of eyelids,1.0,1
+tension in uterus,associated with deranged female sexual system,1.0,1
+tension in uterus,flying pains in arms,1.0,1
+tension in uterus,rheumatic conditions of small joints,1.0,1
+tension in uterus,dull pains in lumbar region,1.0,1
+tension in uterus,menses too soon,1.0,1
+tension in uterus,fingers very stiff,1.0,1
+tension in uterus,affects ankles,1.0,1
+tension in uterus,rheumatism of finger joints,1.0,1
+tension in uterus,rheumatic conditions of pregnancy,1.0,1
+tension in uterus,pains shift to another place,1.0,1
+tension in uterus,affects toes,1.0,1
+tension in uterus,swelling of wrists,1.0,1
+tension in uterus,rheumatism especially of small joints,1.0,1
+tension in uterus,tremulous weakness over whole body,1.0,1
+tension in uterus,drawing pains in joints of legs,1.0,1
+tension in uterus,rheumatic stiffness of nape of neck,1.0,1
+tension in uterus,rheumatism of wrists,1.0,1
+tension in uterus,pains shifting to nape of neck,1.0,1
+tension in uterus,pains shift to nape of neck,1.0,1
+pains shift to nape of neck,rigidity with pains,1.0,1
+pains shift to nape of neck,severe pains in loins,1.0,1
+pains shift to nape of neck,severe pains in back,1.0,1
+pains shift to nape of neck,drawing pains in joints of arms,1.0,1
+pains shift to nape of neck,severe drawing in sterno-cleidomastoid muscle,1.0,1
+pains shift to nape of neck,affects wrists,1.0,1
+pains shift to nape of neck,severe drawing in fingers,1.0,1
+pains shift to nape of neck,pain in feet,1.0,1
+pains shift to nape of neck,acrid leucorrhoea,1.0,1
+pains shift to nape of neck,sharp pain in knee joints,1.0,1
+pains shift to nape of neck,has to lift eyelids with hand,1.0,1
+pains shift to nape of neck,oppression of chest with pains,1.0,1
+pains shift to nape of neck,sensation as if uterus were congested,1.0,1
+pains shift to nape of neck,pain in toes,1.0,1
+pains shift to nape of neck,fullness in uterus,1.0,1
+pains shift to nape of neck,severe drawing in wrists,1.0,1
+pains shift to nape of neck,cutting in joints when closing hands,1.0,1
+pains shift to nape of neck,weakening leucorrhoea,1.0,1
+pains shift to nape of neck,pains remain only a short time in one place,1.0,1
+pains shift to nape of neck,very painful menses,1.0,1
+pains shift to nape of neck,knees weak when walking,1.0,1
+pains shift to nape of neck,spasmodic dysmenorrhoea,1.0,1
+pains shift to nape of neck,affects fingers,1.0,1
+pains shift to nape of neck,great heaviness of eyelids,1.0,1
+pains shift to nape of neck,associated with deranged female sexual system,1.0,1
+pains shift to nape of neck,flying pains in arms,1.0,1
+pains shift to nape of neck,rheumatic conditions of small joints,1.0,1
+pains shift to nape of neck,dull pains in lumbar region,1.0,1
+pains shift to nape of neck,menses too soon,1.0,1
+pains shift to nape of neck,fingers very stiff,1.0,1
+pains shift to nape of neck,affects ankles,1.0,1
+pains shift to nape of neck,rheumatism of finger joints,1.0,1
+pains shift to nape of neck,rheumatic conditions of pregnancy,1.0,1
+pains shift to nape of neck,pains shift to another place,1.0,1
+pains shift to nape of neck,affects toes,1.0,1
+pains shift to nape of neck,swelling of wrists,1.0,1
+pains shift to nape of neck,tension in uterus,1.0,1
+pains shift to nape of neck,rheumatism especially of small joints,1.0,1
+pains shift to nape of neck,tremulous weakness over whole body,1.0,1
+pains shift to nape of neck,drawing pains in joints of legs,1.0,1
+pains shift to nape of neck,rheumatic stiffness of nape of neck,1.0,1
+pains shift to nape of neck,rheumatism of wrists,1.0,1
+pains shift to nape of neck,pains shifting to nape of neck,1.0,1
+severe drawing in sterno-cleidomastoid muscle,rigidity with pains,1.0,1
+severe drawing in sterno-cleidomastoid muscle,severe pains in loins,1.0,1
+severe drawing in sterno-cleidomastoid muscle,severe pains in back,1.0,1
+severe drawing in sterno-cleidomastoid muscle,drawing pains in joints of arms,1.0,1
+severe drawing in sterno-cleidomastoid muscle,affects wrists,1.0,1
+severe drawing in sterno-cleidomastoid muscle,severe drawing in fingers,1.0,1
+severe drawing in sterno-cleidomastoid muscle,pain in feet,1.0,1
+severe drawing in sterno-cleidomastoid muscle,acrid leucorrhoea,1.0,1
+severe drawing in sterno-cleidomastoid muscle,sharp pain in knee joints,1.0,1
+severe drawing in sterno-cleidomastoid muscle,has to lift eyelids with hand,1.0,1
+severe drawing in sterno-cleidomastoid muscle,oppression of chest with pains,1.0,1
+severe drawing in sterno-cleidomastoid muscle,sensation as if uterus were congested,1.0,1
+severe drawing in sterno-cleidomastoid muscle,pain in toes,1.0,1
+severe drawing in sterno-cleidomastoid muscle,fullness in uterus,1.0,1
+severe drawing in sterno-cleidomastoid muscle,severe drawing in wrists,1.0,1
+severe drawing in sterno-cleidomastoid muscle,cutting in joints when closing hands,1.0,1
+severe drawing in sterno-cleidomastoid muscle,weakening leucorrhoea,1.0,1
+severe drawing in sterno-cleidomastoid muscle,pains remain only a short time in one place,1.0,1
+severe drawing in sterno-cleidomastoid muscle,very painful menses,1.0,1
+severe drawing in sterno-cleidomastoid muscle,knees weak when walking,1.0,1
+severe drawing in sterno-cleidomastoid muscle,spasmodic dysmenorrhoea,1.0,1
+severe drawing in sterno-cleidomastoid muscle,affects fingers,1.0,1
+severe drawing in sterno-cleidomastoid muscle,great heaviness of eyelids,1.0,1
+severe drawing in sterno-cleidomastoid muscle,associated with deranged female sexual system,1.0,1
+severe drawing in sterno-cleidomastoid muscle,flying pains in arms,1.0,1
+severe drawing in sterno-cleidomastoid muscle,rheumatic conditions of small joints,1.0,1
+severe drawing in sterno-cleidomastoid muscle,dull pains in lumbar region,1.0,1
+severe drawing in sterno-cleidomastoid muscle,menses too soon,1.0,1
+severe drawing in sterno-cleidomastoid muscle,fingers very stiff,1.0,1
+severe drawing in sterno-cleidomastoid muscle,affects ankles,1.0,1
+severe drawing in sterno-cleidomastoid muscle,rheumatism of finger joints,1.0,1
+severe drawing in sterno-cleidomastoid muscle,rheumatic conditions of pregnancy,1.0,1
+severe drawing in sterno-cleidomastoid muscle,pains shift to another place,1.0,1
+severe drawing in sterno-cleidomastoid muscle,affects toes,1.0,1
+severe drawing in sterno-cleidomastoid muscle,swelling of wrists,1.0,1
+severe drawing in sterno-cleidomastoid muscle,tension in uterus,1.0,1
+severe drawing in sterno-cleidomastoid muscle,rheumatism especially of small joints,1.0,1
+severe drawing in sterno-cleidomastoid muscle,tremulous weakness over whole body,1.0,1
+severe drawing in sterno-cleidomastoid muscle,drawing pains in joints of legs,1.0,1
+severe drawing in sterno-cleidomastoid muscle,rheumatic stiffness of nape of neck,1.0,1
+severe drawing in sterno-cleidomastoid muscle,rheumatism of wrists,1.0,1
+severe drawing in sterno-cleidomastoid muscle,pains shifting to nape of neck,1.0,1
+severe drawing in sterno-cleidomastoid muscle,pains shift to nape of neck,1.0,1
+fullness in uterus,rigidity with pains,1.0,1
+fullness in uterus,severe pains in loins,1.0,1
+fullness in uterus,severe pains in back,1.0,1
+fullness in uterus,drawing pains in joints of arms,1.0,1
+fullness in uterus,severe drawing in sterno-cleidomastoid muscle,1.0,1
+fullness in uterus,affects wrists,1.0,1
+fullness in uterus,severe drawing in fingers,1.0,1
+fullness in uterus,pain in feet,1.0,1
+fullness in uterus,acrid leucorrhoea,1.0,1
+fullness in uterus,sharp pain in knee joints,1.0,1
+fullness in uterus,has to lift eyelids with hand,1.0,1
+fullness in uterus,oppression of chest with pains,1.0,1
+fullness in uterus,sensation as if uterus were congested,1.0,1
+fullness in uterus,pain in toes,1.0,1
+fullness in uterus,severe drawing in wrists,1.0,1
+fullness in uterus,cutting in joints when closing hands,1.0,1
+fullness in uterus,weakening leucorrhoea,1.0,1
+fullness in uterus,pains remain only a short time in one place,1.0,1
+fullness in uterus,very painful menses,1.0,1
+fullness in uterus,knees weak when walking,1.0,1
+fullness in uterus,spasmodic dysmenorrhoea,1.0,1
+fullness in uterus,affects fingers,1.0,1
+fullness in uterus,great heaviness of eyelids,1.0,1
+fullness in uterus,associated with deranged female sexual system,1.0,1
+fullness in uterus,flying pains in arms,1.0,1
+fullness in uterus,rheumatic conditions of small joints,1.0,1
+fullness in uterus,dull pains in lumbar region,1.0,1
+fullness in uterus,menses too soon,1.0,1
+fullness in uterus,fingers very stiff,1.0,1
+fullness in uterus,affects ankles,1.0,1
+fullness in uterus,rheumatism of finger joints,1.0,1
+fullness in uterus,rheumatic conditions of pregnancy,1.0,1
+fullness in uterus,pains shift to another place,1.0,1
+fullness in uterus,affects toes,1.0,1
+fullness in uterus,swelling of wrists,1.0,1
+fullness in uterus,tension in uterus,1.0,1
+fullness in uterus,rheumatism especially of small joints,1.0,1
+fullness in uterus,tremulous weakness over whole body,1.0,1
+fullness in uterus,drawing pains in joints of legs,1.0,1
+fullness in uterus,rheumatic stiffness of nape of neck,1.0,1
+fullness in uterus,rheumatism of wrists,1.0,1
+fullness in uterus,pains shifting to nape of neck,1.0,1
+fullness in uterus,pains shift to nape of neck,1.0,1
+rheumatism of wrists,rigidity with pains,0.3333,1
+rheumatism of wrists,severe pains in loins,0.3333,1
+rheumatism of wrists,severe pains in back,0.3333,1
+rheumatism of wrists,drawing pains in joints of arms,0.3333,1
+rheumatism of wrists,severe drawing in sterno-cleidomastoid muscle,0.3333,1
+rheumatism of wrists,affects wrists,0.3333,1
+rheumatism of wrists,severe drawing in fingers,0.3333,1
+rheumatism of wrists,pain in feet,0.3333,1
+rheumatism of wrists,acrid leucorrhoea,0.3333,1
+rheumatism of wrists,sharp pain in knee joints,0.3333,1
+rheumatism of wrists,has to lift eyelids with hand,0.3333,1
+rheumatism of wrists,oppression of chest with pains,0.3333,1
+rheumatism of wrists,sensation as if uterus were congested,0.3333,1
+rheumatism of wrists,pain in toes,0.3333,1
+rheumatism of wrists,fullness in uterus,0.3333,1
+rheumatism of wrists,severe drawing in wrists,0.3333,1
+rheumatism of wrists,cutting in joints when closing hands,0.3333,1
+rheumatism of wrists,weakening leucorrhoea,0.3333,1
+rheumatism of wrists,pains remain only a short time in one place,0.3333,1
+rheumatism of wrists,very painful menses,0.3333,1
+rheumatism of wrists,knees weak when walking,0.3333,1
+rheumatism of wrists,spasmodic dysmenorrhoea,0.3333,1
+rheumatism of wrists,affects fingers,0.3333,1
+rheumatism of wrists,great heaviness of eyelids,0.3333,1
+rheumatism of wrists,associated with deranged female sexual system,0.3333,1
+rheumatism of wrists,flying pains in arms,0.3333,1
+rheumatism of wrists,rheumatic conditions of small joints,0.3333,1
+rheumatism of wrists,dull pains in lumbar region,0.3333,1
+rheumatism of wrists,menses too soon,0.3333,1
+rheumatism of wrists,fingers very stiff,0.3333,1
+rheumatism of wrists,affects ankles,0.3333,1
+rheumatism of wrists,rheumatism of finger joints,0.3333,1
+rheumatism of wrists,rheumatic conditions of pregnancy,0.3333,1
+rheumatism of wrists,pains shift to another place,0.3333,1
+rheumatism of wrists,affects toes,0.3333,1
+rheumatism of wrists,swelling of wrists,0.3333,1
+rheumatism of wrists,tension in uterus,0.3333,1
+rheumatism of wrists,rheumatism especially of small joints,0.3333,1
+rheumatism of wrists,tremulous weakness over whole body,0.3333,1
+rheumatism of wrists,drawing pains in joints of legs,0.3333,1
+rheumatism of wrists,rheumatic stiffness of nape of neck,0.3333,1
+rheumatism of wrists,pains shifting to nape of neck,0.3333,1
+rheumatism of wrists,pains shift to nape of neck,0.3333,1
+cutting in joints when closing hands,rigidity with pains,1.0,1
+cutting in joints when closing hands,severe pains in loins,1.0,1
+cutting in joints when closing hands,severe pains in back,1.0,1
+cutting in joints when closing hands,drawing pains in joints of arms,1.0,1
+cutting in joints when closing hands,severe drawing in sterno-cleidomastoid muscle,1.0,1
+cutting in joints when closing hands,affects wrists,1.0,1
+cutting in joints when closing hands,severe drawing in fingers,1.0,1
+cutting in joints when closing hands,pain in feet,1.0,1
+cutting in joints when closing hands,acrid leucorrhoea,1.0,1
+cutting in joints when closing hands,sharp pain in knee joints,1.0,1
+cutting in joints when closing hands,has to lift eyelids with hand,1.0,1
+cutting in joints when closing hands,oppression of chest with pains,1.0,1
+cutting in joints when closing hands,sensation as if uterus were congested,1.0,1
+cutting in joints when closing hands,pain in toes,1.0,1
+cutting in joints when closing hands,fullness in uterus,1.0,1
+cutting in joints when closing hands,severe drawing in wrists,1.0,1
+cutting in joints when closing hands,weakening leucorrhoea,1.0,1
+cutting in joints when closing hands,pains remain only a short time in one place,1.0,1
+cutting in joints when closing hands,very painful menses,1.0,1
+cutting in joints when closing hands,knees weak when walking,1.0,1
+cutting in joints when closing hands,spasmodic dysmenorrhoea,1.0,1
+cutting in joints when closing hands,affects fingers,1.0,1
+cutting in joints when closing hands,great heaviness of eyelids,1.0,1
+cutting in joints when closing hands,associated with deranged female sexual system,1.0,1
+cutting in joints when closing hands,flying pains in arms,1.0,1
+cutting in joints when closing hands,rheumatic conditions of small joints,1.0,1
+cutting in joints when closing hands,dull pains in lumbar region,1.0,1
+cutting in joints when closing hands,menses too soon,1.0,1
+cutting in joints when closing hands,fingers very stiff,1.0,1
+cutting in joints when closing hands,affects ankles,1.0,1
+cutting in joints when closing hands,rheumatism of finger joints,1.0,1
+cutting in joints when closing hands,rheumatic conditions of pregnancy,1.0,1
+cutting in joints when closing hands,pains shift to another place,1.0,1
+cutting in joints when closing hands,affects toes,1.0,1
+cutting in joints when closing hands,swelling of wrists,1.0,1
+cutting in joints when closing hands,tension in uterus,1.0,1
+cutting in joints when closing hands,rheumatism especially of small joints,1.0,1
+cutting in joints when closing hands,tremulous weakness over whole body,1.0,1
+cutting in joints when closing hands,drawing pains in joints of legs,1.0,1
+cutting in joints when closing hands,rheumatic stiffness of nape of neck,1.0,1
+cutting in joints when closing hands,rheumatism of wrists,1.0,1
+cutting in joints when closing hands,pains shifting to nape of neck,1.0,1
+cutting in joints when closing hands,pains shift to nape of neck,1.0,1
+associated with deranged female sexual system,rigidity with pains,1.0,1
+associated with deranged female sexual system,severe pains in loins,1.0,1
+associated with deranged female sexual system,severe pains in back,1.0,1
+associated with deranged female sexual system,drawing pains in joints of arms,1.0,1
+associated with deranged female sexual system,severe drawing in sterno-cleidomastoid muscle,1.0,1
+associated with deranged female sexual system,affects wrists,1.0,1
+associated with deranged female sexual system,severe drawing in fingers,1.0,1
+associated with deranged female sexual system,pain in feet,1.0,1
+associated with deranged female sexual system,acrid leucorrhoea,1.0,1
+associated with deranged female sexual system,sharp pain in knee joints,1.0,1
+associated with deranged female sexual system,has to lift eyelids with hand,1.0,1
+associated with deranged female sexual system,oppression of chest with pains,1.0,1
+associated with deranged female sexual system,sensation as if uterus were congested,1.0,1
+associated with deranged female sexual system,pain in toes,1.0,1
+associated with deranged female sexual system,fullness in uterus,1.0,1
+associated with deranged female sexual system,severe drawing in wrists,1.0,1
+associated with deranged female sexual system,cutting in joints when closing hands,1.0,1
+associated with deranged female sexual system,weakening leucorrhoea,1.0,1
+associated with deranged female sexual system,pains remain only a short time in one place,1.0,1
+associated with deranged female sexual system,very painful menses,1.0,1
+associated with deranged female sexual system,knees weak when walking,1.0,1
+associated with deranged female sexual system,spasmodic dysmenorrhoea,1.0,1
+associated with deranged female sexual system,affects fingers,1.0,1
+associated with deranged female sexual system,great heaviness of eyelids,1.0,1
+associated with deranged female sexual system,flying pains in arms,1.0,1
+associated with deranged female sexual system,rheumatic conditions of small joints,1.0,1
+associated with deranged female sexual system,dull pains in lumbar region,1.0,1
+associated with deranged female sexual system,menses too soon,1.0,1
+associated with deranged female sexual system,fingers very stiff,1.0,1
+associated with deranged female sexual system,affects ankles,1.0,1
+associated with deranged female sexual system,rheumatism of finger joints,1.0,1
+associated with deranged female sexual system,rheumatic conditions of pregnancy,1.0,1
+associated with deranged female sexual system,pains shift to another place,1.0,1
+associated with deranged female sexual system,affects toes,1.0,1
+associated with deranged female sexual system,swelling of wrists,1.0,1
+associated with deranged female sexual system,tension in uterus,1.0,1
+associated with deranged female sexual system,rheumatism especially of small joints,1.0,1
+associated with deranged female sexual system,tremulous weakness over whole body,1.0,1
+associated with deranged female sexual system,drawing pains in joints of legs,1.0,1
+associated with deranged female sexual system,rheumatic stiffness of nape of neck,1.0,1
+associated with deranged female sexual system,rheumatism of wrists,1.0,1
+associated with deranged female sexual system,pains shifting to nape of neck,1.0,1
+associated with deranged female sexual system,pains shift to nape of neck,1.0,1
+pains remain only a short time in one place,rigidity with pains,1.0,1
+pains remain only a short time in one place,severe pains in loins,1.0,1
+pains remain only a short time in one place,severe pains in back,1.0,1
+pains remain only a short time in one place,drawing pains in joints of arms,1.0,1
+pains remain only a short time in one place,severe drawing in sterno-cleidomastoid muscle,1.0,1
+pains remain only a short time in one place,affects wrists,1.0,1
+pains remain only a short time in one place,severe drawing in fingers,1.0,1
+pains remain only a short time in one place,pain in feet,1.0,1
+pains remain only a short time in one place,acrid leucorrhoea,1.0,1
+pains remain only a short time in one place,sharp pain in knee joints,1.0,1
+pains remain only a short time in one place,has to lift eyelids with hand,1.0,1
+pains remain only a short time in one place,oppression of chest with pains,1.0,1
+pains remain only a short time in one place,sensation as if uterus were congested,1.0,1
+pains remain only a short time in one place,pain in toes,1.0,1
+pains remain only a short time in one place,fullness in uterus,1.0,1
+pains remain only a short time in one place,severe drawing in wrists,1.0,1
+pains remain only a short time in one place,cutting in joints when closing hands,1.0,1
+pains remain only a short time in one place,weakening leucorrhoea,1.0,1
+pains remain only a short time in one place,very painful menses,1.0,1
+pains remain only a short time in one place,knees weak when walking,1.0,1
+pains remain only a short time in one place,spasmodic dysmenorrhoea,1.0,1
+pains remain only a short time in one place,affects fingers,1.0,1
+pains remain only a short time in one place,great heaviness of eyelids,1.0,1
+pains remain only a short time in one place,associated with deranged female sexual system,1.0,1
+pains remain only a short time in one place,flying pains in arms,1.0,1
+pains remain only a short time in one place,rheumatic conditions of small joints,1.0,1
+pains remain only a short time in one place,dull pains in lumbar region,1.0,1
+pains remain only a short time in one place,menses too soon,1.0,1
+pains remain only a short time in one place,fingers very stiff,1.0,1
+pains remain only a short time in one place,affects ankles,1.0,1
+pains remain only a short time in one place,rheumatism of finger joints,1.0,1
+pains remain only a short time in one place,rheumatic conditions of pregnancy,1.0,1
+pains remain only a short time in one place,pains shift to another place,1.0,1
+pains remain only a short time in one place,affects toes,1.0,1
+pains remain only a short time in one place,swelling of wrists,1.0,1
+pains remain only a short time in one place,tension in uterus,1.0,1
+pains remain only a short time in one place,rheumatism especially of small joints,1.0,1
+pains remain only a short time in one place,tremulous weakness over whole body,1.0,1
+pains remain only a short time in one place,drawing pains in joints of legs,1.0,1
+pains remain only a short time in one place,rheumatic stiffness of nape of neck,1.0,1
+pains remain only a short time in one place,rheumatism of wrists,1.0,1
+pains remain only a short time in one place,pains shifting to nape of neck,1.0,1
+pains remain only a short time in one place,pains shift to nape of neck,1.0,1
+rheumatism especially of small joints,rigidity with pains,1.0,1
+rheumatism especially of small joints,severe pains in loins,1.0,1
+rheumatism especially of small joints,severe pains in back,1.0,1
+rheumatism especially of small joints,drawing pains in joints of arms,1.0,1
+rheumatism especially of small joints,severe drawing in sterno-cleidomastoid muscle,1.0,1
+rheumatism especially of small joints,affects wrists,1.0,1
+rheumatism especially of small joints,severe drawing in fingers,1.0,1
+rheumatism especially of small joints,pain in feet,1.0,1
+rheumatism especially of small joints,acrid leucorrhoea,1.0,1
+rheumatism especially of small joints,sharp pain in knee joints,1.0,1
+rheumatism especially of small joints,has to lift eyelids with hand,1.0,1
+rheumatism especially of small joints,oppression of chest with pains,1.0,1
+rheumatism especially of small joints,sensation as if uterus were congested,1.0,1
+rheumatism especially of small joints,pain in toes,1.0,1
+rheumatism especially of small joints,fullness in uterus,1.0,1
+rheumatism especially of small joints,severe drawing in wrists,1.0,1
+rheumatism especially of small joints,cutting in joints when closing hands,1.0,1
+rheumatism especially of small joints,weakening leucorrhoea,1.0,1
+rheumatism especially of small joints,pains remain only a short time in one place,1.0,1
+rheumatism especially of small joints,very painful menses,1.0,1
+rheumatism especially of small joints,knees weak when walking,1.0,1
+rheumatism especially of small joints,spasmodic dysmenorrhoea,1.0,1
+rheumatism especially of small joints,affects fingers,1.0,1
+rheumatism especially of small joints,great heaviness of eyelids,1.0,1
+rheumatism especially of small joints,associated with deranged female sexual system,1.0,1
+rheumatism especially of small joints,flying pains in arms,1.0,1
+rheumatism especially of small joints,rheumatic conditions of small joints,1.0,1
+rheumatism especially of small joints,dull pains in lumbar region,1.0,1
+rheumatism especially of small joints,menses too soon,1.0,1
+rheumatism especially of small joints,fingers very stiff,1.0,1
+rheumatism especially of small joints,affects ankles,1.0,1
+rheumatism especially of small joints,rheumatism of finger joints,1.0,1
+rheumatism especially of small joints,rheumatic conditions of pregnancy,1.0,1
+rheumatism especially of small joints,pains shift to another place,1.0,1
+rheumatism especially of small joints,affects toes,1.0,1
+rheumatism especially of small joints,swelling of wrists,1.0,1
+rheumatism especially of small joints,tension in uterus,1.0,1
+rheumatism especially of small joints,tremulous weakness over whole body,1.0,1
+rheumatism especially of small joints,drawing pains in joints of legs,1.0,1
+rheumatism especially of small joints,rheumatic stiffness of nape of neck,1.0,1
+rheumatism especially of small joints,rheumatism of wrists,1.0,1
+rheumatism especially of small joints,pains shifting to nape of neck,1.0,1
+rheumatism especially of small joints,pains shift to nape of neck,1.0,1
+severe pains in back,rigidity with pains,1.0,1
+severe pains in back,severe pains in loins,1.0,1
+severe pains in back,drawing pains in joints of arms,1.0,1
+severe pains in back,severe drawing in sterno-cleidomastoid muscle,1.0,1
+severe pains in back,affects wrists,1.0,1
+severe pains in back,severe drawing in fingers,1.0,1
+severe pains in back,pain in feet,1.0,1
+severe pains in back,acrid leucorrhoea,1.0,1
+severe pains in back,sharp pain in knee joints,1.0,1
+severe pains in back,has to lift eyelids with hand,1.0,1
+severe pains in back,oppression of chest with pains,1.0,1
+severe pains in back,sensation as if uterus were congested,1.0,1
+severe pains in back,pain in toes,1.0,1
+severe pains in back,fullness in uterus,1.0,1
+severe pains in back,severe drawing in wrists,1.0,1
+severe pains in back,cutting in joints when closing hands,1.0,1
+severe pains in back,weakening leucorrhoea,1.0,1
+severe pains in back,pains remain only a short time in one place,1.0,1
+severe pains in back,very painful menses,1.0,1
+severe pains in back,knees weak when walking,1.0,1
+severe pains in back,spasmodic dysmenorrhoea,1.0,1
+severe pains in back,affects fingers,1.0,1
+severe pains in back,great heaviness of eyelids,1.0,1
+severe pains in back,associated with deranged female sexual system,1.0,1
+severe pains in back,flying pains in arms,1.0,1
+severe pains in back,rheumatic conditions of small joints,1.0,1
+severe pains in back,dull pains in lumbar region,1.0,1
+severe pains in back,menses too soon,1.0,1
+severe pains in back,fingers very stiff,1.0,1
+severe pains in back,affects ankles,1.0,1
+severe pains in back,rheumatism of finger joints,1.0,1
+severe pains in back,rheumatic conditions of pregnancy,1.0,1
+severe pains in back,pains shift to another place,1.0,1
+severe pains in back,affects toes,1.0,1
+severe pains in back,swelling of wrists,1.0,1
+severe pains in back,tension in uterus,1.0,1
+severe pains in back,rheumatism especially of small joints,1.0,1
+severe pains in back,tremulous weakness over whole body,1.0,1
+severe pains in back,drawing pains in joints of legs,1.0,1
+severe pains in back,rheumatic stiffness of nape of neck,1.0,1
+severe pains in back,rheumatism of wrists,1.0,1
+severe pains in back,pains shifting to nape of neck,1.0,1
+severe pains in back,pains shift to nape of neck,1.0,1
+pains shifting to nape of neck,rigidity with pains,1.0,1
+pains shifting to nape of neck,severe pains in loins,1.0,1
+pains shifting to nape of neck,severe pains in back,1.0,1
+pains shifting to nape of neck,drawing pains in joints of arms,1.0,1
+pains shifting to nape of neck,severe drawing in sterno-cleidomastoid muscle,1.0,1
+pains shifting to nape of neck,affects wrists,1.0,1
+pains shifting to nape of neck,severe drawing in fingers,1.0,1
+pains shifting to nape of neck,pain in feet,1.0,1
+pains shifting to nape of neck,acrid leucorrhoea,1.0,1
+pains shifting to nape of neck,sharp pain in knee joints,1.0,1
+pains shifting to nape of neck,has to lift eyelids with hand,1.0,1
+pains shifting to nape of neck,oppression of chest with pains,1.0,1
+pains shifting to nape of neck,sensation as if uterus were congested,1.0,1
+pains shifting to nape of neck,pain in toes,1.0,1
+pains shifting to nape of neck,fullness in uterus,1.0,1
+pains shifting to nape of neck,severe drawing in wrists,1.0,1
+pains shifting to nape of neck,cutting in joints when closing hands,1.0,1
+pains shifting to nape of neck,weakening leucorrhoea,1.0,1
+pains shifting to nape of neck,pains remain only a short time in one place,1.0,1
+pains shifting to nape of neck,very painful menses,1.0,1
+pains shifting to nape of neck,knees weak when walking,1.0,1
+pains shifting to nape of neck,spasmodic dysmenorrhoea,1.0,1
+pains shifting to nape of neck,affects fingers,1.0,1
+pains shifting to nape of neck,great heaviness of eyelids,1.0,1
+pains shifting to nape of neck,associated with deranged female sexual system,1.0,1
+pains shifting to nape of neck,flying pains in arms,1.0,1
+pains shifting to nape of neck,rheumatic conditions of small joints,1.0,1
+pains shifting to nape of neck,dull pains in lumbar region,1.0,1
+pains shifting to nape of neck,menses too soon,1.0,1
+pains shifting to nape of neck,fingers very stiff,1.0,1
+pains shifting to nape of neck,affects ankles,1.0,1
+pains shifting to nape of neck,rheumatism of finger joints,1.0,1
+pains shifting to nape of neck,rheumatic conditions of pregnancy,1.0,1
+pains shifting to nape of neck,pains shift to another place,1.0,1
+pains shifting to nape of neck,affects toes,1.0,1
+pains shifting to nape of neck,swelling of wrists,1.0,1
+pains shifting to nape of neck,tension in uterus,1.0,1
+pains shifting to nape of neck,rheumatism especially of small joints,1.0,1
+pains shifting to nape of neck,tremulous weakness over whole body,1.0,1
+pains shifting to nape of neck,drawing pains in joints of legs,1.0,1
+pains shifting to nape of neck,rheumatic stiffness of nape of neck,1.0,1
+pains shifting to nape of neck,rheumatism of wrists,1.0,1
+pains shifting to nape of neck,pains shift to nape of neck,1.0,1
+flying pains in arms,rigidity with pains,1.0,1
+flying pains in arms,severe pains in loins,1.0,1
+flying pains in arms,severe pains in back,1.0,1
+flying pains in arms,drawing pains in joints of arms,1.0,1
+flying pains in arms,severe drawing in sterno-cleidomastoid muscle,1.0,1
+flying pains in arms,affects wrists,1.0,1
+flying pains in arms,severe drawing in fingers,1.0,1
+flying pains in arms,pain in feet,1.0,1
+flying pains in arms,acrid leucorrhoea,1.0,1
+flying pains in arms,sharp pain in knee joints,1.0,1
+flying pains in arms,has to lift eyelids with hand,1.0,1
+flying pains in arms,oppression of chest with pains,1.0,1
+flying pains in arms,sensation as if uterus were congested,1.0,1
+flying pains in arms,pain in toes,1.0,1
+flying pains in arms,fullness in uterus,1.0,1
+flying pains in arms,severe drawing in wrists,1.0,1
+flying pains in arms,cutting in joints when closing hands,1.0,1
+flying pains in arms,weakening leucorrhoea,1.0,1
+flying pains in arms,pains remain only a short time in one place,1.0,1
+flying pains in arms,very painful menses,1.0,1
+flying pains in arms,knees weak when walking,1.0,1
+flying pains in arms,spasmodic dysmenorrhoea,1.0,1
+flying pains in arms,affects fingers,1.0,1
+flying pains in arms,great heaviness of eyelids,1.0,1
+flying pains in arms,associated with deranged female sexual system,1.0,1
+flying pains in arms,rheumatic conditions of small joints,1.0,1
+flying pains in arms,dull pains in lumbar region,1.0,1
+flying pains in arms,menses too soon,1.0,1
+flying pains in arms,fingers very stiff,1.0,1
+flying pains in arms,affects ankles,1.0,1
+flying pains in arms,rheumatism of finger joints,1.0,1
+flying pains in arms,rheumatic conditions of pregnancy,1.0,1
+flying pains in arms,pains shift to another place,1.0,1
+flying pains in arms,affects toes,1.0,1
+flying pains in arms,swelling of wrists,1.0,1
+flying pains in arms,tension in uterus,1.0,1
+flying pains in arms,rheumatism especially of small joints,1.0,1
+flying pains in arms,tremulous weakness over whole body,1.0,1
+flying pains in arms,drawing pains in joints of legs,1.0,1
+flying pains in arms,rheumatic stiffness of nape of neck,1.0,1
+flying pains in arms,rheumatism of wrists,1.0,1
+flying pains in arms,pains shifting to nape of neck,1.0,1
+flying pains in arms,pains shift to nape of neck,1.0,1
+affects fingers,rigidity with pains,1.0,1
+affects fingers,severe pains in loins,1.0,1
+affects fingers,severe pains in back,1.0,1
+affects fingers,drawing pains in joints of arms,1.0,1
+affects fingers,severe drawing in sterno-cleidomastoid muscle,1.0,1
+affects fingers,affects wrists,1.0,1
+affects fingers,severe drawing in fingers,1.0,1
+affects fingers,pain in feet,1.0,1
+affects fingers,acrid leucorrhoea,1.0,1
+affects fingers,sharp pain in knee joints,1.0,1
+affects fingers,has to lift eyelids with hand,1.0,1
+affects fingers,oppression of chest with pains,1.0,1
+affects fingers,sensation as if uterus were congested,1.0,1
+affects fingers,pain in toes,1.0,1
+affects fingers,fullness in uterus,1.0,1
+affects fingers,severe drawing in wrists,1.0,1
+affects fingers,cutting in joints when closing hands,1.0,1
+affects fingers,weakening leucorrhoea,1.0,1
+affects fingers,pains remain only a short time in one place,1.0,1
+affects fingers,very painful menses,1.0,1
+affects fingers,knees weak when walking,1.0,1
+affects fingers,spasmodic dysmenorrhoea,1.0,1
+affects fingers,great heaviness of eyelids,1.0,1
+affects fingers,associated with deranged female sexual system,1.0,1
+affects fingers,flying pains in arms,1.0,1
+affects fingers,rheumatic conditions of small joints,1.0,1
+affects fingers,dull pains in lumbar region,1.0,1
+affects fingers,menses too soon,1.0,1
+affects fingers,fingers very stiff,1.0,1
+affects fingers,affects ankles,1.0,1
+affects fingers,rheumatism of finger joints,1.0,1
+affects fingers,rheumatic conditions of pregnancy,1.0,1
+affects fingers,pains shift to another place,1.0,1
+affects fingers,affects toes,1.0,1
+affects fingers,swelling of wrists,1.0,1
+affects fingers,tension in uterus,1.0,1
+affects fingers,rheumatism especially of small joints,1.0,1
+affects fingers,tremulous weakness over whole body,1.0,1
+affects fingers,drawing pains in joints of legs,1.0,1
+affects fingers,rheumatic stiffness of nape of neck,1.0,1
+affects fingers,rheumatism of wrists,1.0,1
+affects fingers,pains shifting to nape of neck,1.0,1
+affects fingers,pains shift to nape of neck,1.0,1
+very painful menses,rigidity with pains,1.0,1
+very painful menses,severe pains in loins,1.0,1
+very painful menses,severe pains in back,1.0,1
+very painful menses,drawing pains in joints of arms,1.0,1
+very painful menses,severe drawing in sterno-cleidomastoid muscle,1.0,1
+very painful menses,affects wrists,1.0,1
+very painful menses,severe drawing in fingers,1.0,1
+very painful menses,pain in feet,1.0,1
+very painful menses,acrid leucorrhoea,1.0,1
+very painful menses,sharp pain in knee joints,1.0,1
+very painful menses,has to lift eyelids with hand,1.0,1
+very painful menses,oppression of chest with pains,1.0,1
+very painful menses,sensation as if uterus were congested,1.0,1
+very painful menses,pain in toes,1.0,1
+very painful menses,fullness in uterus,1.0,1
+very painful menses,severe drawing in wrists,1.0,1
+very painful menses,cutting in joints when closing hands,1.0,1
+very painful menses,weakening leucorrhoea,1.0,1
+very painful menses,pains remain only a short time in one place,1.0,1
+very painful menses,knees weak when walking,1.0,1
+very painful menses,spasmodic dysmenorrhoea,1.0,1
+very painful menses,affects fingers,1.0,1
+very painful menses,great heaviness of eyelids,1.0,1
+very painful menses,associated with deranged female sexual system,1.0,1
+very painful menses,flying pains in arms,1.0,1
+very painful menses,rheumatic conditions of small joints,1.0,1
+very painful menses,dull pains in lumbar region,1.0,1
+very painful menses,menses too soon,1.0,1
+very painful menses,fingers very stiff,1.0,1
+very painful menses,affects ankles,1.0,1
+very painful menses,rheumatism of finger joints,1.0,1
+very painful menses,rheumatic conditions of pregnancy,1.0,1
+very painful menses,pains shift to another place,1.0,1
+very painful menses,affects toes,1.0,1
+very painful menses,swelling of wrists,1.0,1
+very painful menses,tension in uterus,1.0,1
+very painful menses,rheumatism especially of small joints,1.0,1
+very painful menses,tremulous weakness over whole body,1.0,1
+very painful menses,drawing pains in joints of legs,1.0,1
+very painful menses,rheumatic stiffness of nape of neck,1.0,1
+very painful menses,rheumatism of wrists,1.0,1
+very painful menses,pains shifting to nape of neck,1.0,1
+very painful menses,pains shift to nape of neck,1.0,1
+severe pains in loins,rigidity with pains,1.0,1
+severe pains in loins,severe pains in back,1.0,1
+severe pains in loins,drawing pains in joints of arms,1.0,1
+severe pains in loins,severe drawing in sterno-cleidomastoid muscle,1.0,1
+severe pains in loins,affects wrists,1.0,1
+severe pains in loins,severe drawing in fingers,1.0,1
+severe pains in loins,pain in feet,1.0,1
+severe pains in loins,acrid leucorrhoea,1.0,1
+severe pains in loins,sharp pain in knee joints,1.0,1
+severe pains in loins,has to lift eyelids with hand,1.0,1
+severe pains in loins,oppression of chest with pains,1.0,1
+severe pains in loins,sensation as if uterus were congested,1.0,1
+severe pains in loins,pain in toes,1.0,1
+severe pains in loins,fullness in uterus,1.0,1
+severe pains in loins,severe drawing in wrists,1.0,1
+severe pains in loins,cutting in joints when closing hands,1.0,1
+severe pains in loins,weakening leucorrhoea,1.0,1
+severe pains in loins,pains remain only a short time in one place,1.0,1
+severe pains in loins,very painful menses,1.0,1
+severe pains in loins,knees weak when walking,1.0,1
+severe pains in loins,spasmodic dysmenorrhoea,1.0,1
+severe pains in loins,affects fingers,1.0,1
+severe pains in loins,great heaviness of eyelids,1.0,1
+severe pains in loins,associated with deranged female sexual system,1.0,1
+severe pains in loins,flying pains in arms,1.0,1
+severe pains in loins,rheumatic conditions of small joints,1.0,1
+severe pains in loins,dull pains in lumbar region,1.0,1
+severe pains in loins,menses too soon,1.0,1
+severe pains in loins,fingers very stiff,1.0,1
+severe pains in loins,affects ankles,1.0,1
+severe pains in loins,rheumatism of finger joints,1.0,1
+severe pains in loins,rheumatic conditions of pregnancy,1.0,1
+severe pains in loins,pains shift to another place,1.0,1
+severe pains in loins,affects toes,1.0,1
+severe pains in loins,swelling of wrists,1.0,1
+severe pains in loins,tension in uterus,1.0,1
+severe pains in loins,rheumatism especially of small joints,1.0,1
+severe pains in loins,tremulous weakness over whole body,1.0,1
+severe pains in loins,drawing pains in joints of legs,1.0,1
+severe pains in loins,rheumatic stiffness of nape of neck,1.0,1
+severe pains in loins,rheumatism of wrists,1.0,1
+severe pains in loins,pains shifting to nape of neck,1.0,1
+severe pains in loins,pains shift to nape of neck,1.0,1
+pains shift to another place,rigidity with pains,1.0,1
+pains shift to another place,severe pains in loins,1.0,1
+pains shift to another place,severe pains in back,1.0,1
+pains shift to another place,drawing pains in joints of arms,1.0,1
+pains shift to another place,severe drawing in sterno-cleidomastoid muscle,1.0,1
+pains shift to another place,affects wrists,1.0,1
+pains shift to another place,severe drawing in fingers,1.0,1
+pains shift to another place,pain in feet,1.0,1
+pains shift to another place,acrid leucorrhoea,1.0,1
+pains shift to another place,sharp pain in knee joints,1.0,1
+pains shift to another place,has to lift eyelids with hand,1.0,1
+pains shift to another place,oppression of chest with pains,1.0,1
+pains shift to another place,sensation as if uterus were congested,1.0,1
+pains shift to another place,pain in toes,1.0,1
+pains shift to another place,fullness in uterus,1.0,1
+pains shift to another place,severe drawing in wrists,1.0,1
+pains shift to another place,cutting in joints when closing hands,1.0,1
+pains shift to another place,weakening leucorrhoea,1.0,1
+pains shift to another place,pains remain only a short time in one place,1.0,1
+pains shift to another place,very painful menses,1.0,1
+pains shift to another place,knees weak when walking,1.0,1
+pains shift to another place,spasmodic dysmenorrhoea,1.0,1
+pains shift to another place,affects fingers,1.0,1
+pains shift to another place,great heaviness of eyelids,1.0,1
+pains shift to another place,associated with deranged female sexual system,1.0,1
+pains shift to another place,flying pains in arms,1.0,1
+pains shift to another place,rheumatic conditions of small joints,1.0,1
+pains shift to another place,dull pains in lumbar region,1.0,1
+pains shift to another place,menses too soon,1.0,1
+pains shift to another place,fingers very stiff,1.0,1
+pains shift to another place,affects ankles,1.0,1
+pains shift to another place,rheumatism of finger joints,1.0,1
+pains shift to another place,rheumatic conditions of pregnancy,1.0,1
+pains shift to another place,affects toes,1.0,1
+pains shift to another place,swelling of wrists,1.0,1
+pains shift to another place,tension in uterus,1.0,1
+pains shift to another place,rheumatism especially of small joints,1.0,1
+pains shift to another place,tremulous weakness over whole body,1.0,1
+pains shift to another place,drawing pains in joints of legs,1.0,1
+pains shift to another place,rheumatic stiffness of nape of neck,1.0,1
+pains shift to another place,rheumatism of wrists,1.0,1
+pains shift to another place,pains shifting to nape of neck,1.0,1
+pains shift to another place,pains shift to nape of neck,1.0,1
+affects wrists,rigidity with pains,1.0,1
+affects wrists,severe pains in loins,1.0,1
+affects wrists,severe pains in back,1.0,1
+affects wrists,drawing pains in joints of arms,1.0,1
+affects wrists,severe drawing in sterno-cleidomastoid muscle,1.0,1
+affects wrists,severe drawing in fingers,1.0,1
+affects wrists,pain in feet,1.0,1
+affects wrists,acrid leucorrhoea,1.0,1
+affects wrists,sharp pain in knee joints,1.0,1
+affects wrists,has to lift eyelids with hand,1.0,1
+affects wrists,oppression of chest with pains,1.0,1
+affects wrists,sensation as if uterus were congested,1.0,1
+affects wrists,pain in toes,1.0,1
+affects wrists,fullness in uterus,1.0,1
+affects wrists,severe drawing in wrists,1.0,1
+affects wrists,cutting in joints when closing hands,1.0,1
+affects wrists,weakening leucorrhoea,1.0,1
+affects wrists,pains remain only a short time in one place,1.0,1
+affects wrists,very painful menses,1.0,1
+affects wrists,knees weak when walking,1.0,1
+affects wrists,spasmodic dysmenorrhoea,1.0,1
+affects wrists,affects fingers,1.0,1
+affects wrists,great heaviness of eyelids,1.0,1
+affects wrists,associated with deranged female sexual system,1.0,1
+affects wrists,flying pains in arms,1.0,1
+affects wrists,rheumatic conditions of small joints,1.0,1
+affects wrists,dull pains in lumbar region,1.0,1
+affects wrists,menses too soon,1.0,1
+affects wrists,fingers very stiff,1.0,1
+affects wrists,affects ankles,1.0,1
+affects wrists,rheumatism of finger joints,1.0,1
+affects wrists,rheumatic conditions of pregnancy,1.0,1
+affects wrists,pains shift to another place,1.0,1
+affects wrists,affects toes,1.0,1
+affects wrists,swelling of wrists,1.0,1
+affects wrists,tension in uterus,1.0,1
+affects wrists,rheumatism especially of small joints,1.0,1
+affects wrists,tremulous weakness over whole body,1.0,1
+affects wrists,drawing pains in joints of legs,1.0,1
+affects wrists,rheumatic stiffness of nape of neck,1.0,1
+affects wrists,rheumatism of wrists,1.0,1
+affects wrists,pains shifting to nape of neck,1.0,1
+affects wrists,pains shift to nape of neck,1.0,1
+rheumatic conditions of small joints,rigidity with pains,1.0,1
+rheumatic conditions of small joints,severe pains in loins,1.0,1
+rheumatic conditions of small joints,severe pains in back,1.0,1
+rheumatic conditions of small joints,drawing pains in joints of arms,1.0,1
+rheumatic conditions of small joints,severe drawing in sterno-cleidomastoid muscle,1.0,1
+rheumatic conditions of small joints,affects wrists,1.0,1
+rheumatic conditions of small joints,severe drawing in fingers,1.0,1
+rheumatic conditions of small joints,pain in feet,1.0,1
+rheumatic conditions of small joints,acrid leucorrhoea,1.0,1
+rheumatic conditions of small joints,sharp pain in knee joints,1.0,1
+rheumatic conditions of small joints,has to lift eyelids with hand,1.0,1
+rheumatic conditions of small joints,oppression of chest with pains,1.0,1
+rheumatic conditions of small joints,sensation as if uterus were congested,1.0,1
+rheumatic conditions of small joints,pain in toes,1.0,1
+rheumatic conditions of small joints,fullness in uterus,1.0,1
+rheumatic conditions of small joints,severe drawing in wrists,1.0,1
+rheumatic conditions of small joints,cutting in joints when closing hands,1.0,1
+rheumatic conditions of small joints,weakening leucorrhoea,1.0,1
+rheumatic conditions of small joints,pains remain only a short time in one place,1.0,1
+rheumatic conditions of small joints,very painful menses,1.0,1
+rheumatic conditions of small joints,knees weak when walking,1.0,1
+rheumatic conditions of small joints,spasmodic dysmenorrhoea,1.0,1
+rheumatic conditions of small joints,affects fingers,1.0,1
+rheumatic conditions of small joints,great heaviness of eyelids,1.0,1
+rheumatic conditions of small joints,associated with deranged female sexual system,1.0,1
+rheumatic conditions of small joints,flying pains in arms,1.0,1
+rheumatic conditions of small joints,dull pains in lumbar region,1.0,1
+rheumatic conditions of small joints,menses too soon,1.0,1
+rheumatic conditions of small joints,fingers very stiff,1.0,1
+rheumatic conditions of small joints,affects ankles,1.0,1
+rheumatic conditions of small joints,rheumatism of finger joints,1.0,1
+rheumatic conditions of small joints,rheumatic conditions of pregnancy,1.0,1
+rheumatic conditions of small joints,pains shift to another place,1.0,1
+rheumatic conditions of small joints,affects toes,1.0,1
+rheumatic conditions of small joints,swelling of wrists,1.0,1
+rheumatic conditions of small joints,tension in uterus,1.0,1
+rheumatic conditions of small joints,rheumatism especially of small joints,1.0,1
+rheumatic conditions of small joints,tremulous weakness over whole body,1.0,1
+rheumatic conditions of small joints,drawing pains in joints of legs,1.0,1
+rheumatic conditions of small joints,rheumatic stiffness of nape of neck,1.0,1
+rheumatic conditions of small joints,rheumatism of wrists,1.0,1
+rheumatic conditions of small joints,pains shifting to nape of neck,1.0,1
+rheumatic conditions of small joints,pains shift to nape of neck,1.0,1
+acrid leucorrhoea,rigidity with pains,1.0,1
+acrid leucorrhoea,severe pains in loins,1.0,1
+acrid leucorrhoea,severe pains in back,1.0,1
+acrid leucorrhoea,drawing pains in joints of arms,1.0,1
+acrid leucorrhoea,severe drawing in sterno-cleidomastoid muscle,1.0,1
+acrid leucorrhoea,affects wrists,1.0,1
+acrid leucorrhoea,severe drawing in fingers,1.0,1
+acrid leucorrhoea,pain in feet,1.0,1
+acrid leucorrhoea,sharp pain in knee joints,1.0,1
+acrid leucorrhoea,has to lift eyelids with hand,1.0,1
+acrid leucorrhoea,oppression of chest with pains,1.0,1
+acrid leucorrhoea,sensation as if uterus were congested,1.0,1
+acrid leucorrhoea,pain in toes,1.0,1
+acrid leucorrhoea,fullness in uterus,1.0,1
+acrid leucorrhoea,severe drawing in wrists,1.0,1
+acrid leucorrhoea,cutting in joints when closing hands,1.0,1
+acrid leucorrhoea,weakening leucorrhoea,1.0,1
+acrid leucorrhoea,pains remain only a short time in one place,1.0,1
+acrid leucorrhoea,very painful menses,1.0,1
+acrid leucorrhoea,knees weak when walking,1.0,1
+acrid leucorrhoea,spasmodic dysmenorrhoea,1.0,1
+acrid leucorrhoea,affects fingers,1.0,1
+acrid leucorrhoea,great heaviness of eyelids,1.0,1
+acrid leucorrhoea,associated with deranged female sexual system,1.0,1
+acrid leucorrhoea,flying pains in arms,1.0,1
+acrid leucorrhoea,rheumatic conditions of small joints,1.0,1
+acrid leucorrhoea,dull pains in lumbar region,1.0,1
+acrid leucorrhoea,menses too soon,1.0,1
+acrid leucorrhoea,fingers very stiff,1.0,1
+acrid leucorrhoea,affects ankles,1.0,1
+acrid leucorrhoea,rheumatism of finger joints,1.0,1
+acrid leucorrhoea,rheumatic conditions of pregnancy,1.0,1
+acrid leucorrhoea,pains shift to another place,1.0,1
+acrid leucorrhoea,affects toes,1.0,1
+acrid leucorrhoea,swelling of wrists,1.0,1
+acrid leucorrhoea,tension in uterus,1.0,1
+acrid leucorrhoea,rheumatism especially of small joints,1.0,1
+acrid leucorrhoea,tremulous weakness over whole body,1.0,1
+acrid leucorrhoea,drawing pains in joints of legs,1.0,1
+acrid leucorrhoea,rheumatic stiffness of nape of neck,1.0,1
+acrid leucorrhoea,rheumatism of wrists,1.0,1
+acrid leucorrhoea,pains shifting to nape of neck,1.0,1
+acrid leucorrhoea,pains shift to nape of neck,1.0,1
+dull pains in lumbar region,rigidity with pains,1.0,1
+dull pains in lumbar region,severe pains in loins,1.0,1
+dull pains in lumbar region,severe pains in back,1.0,1
+dull pains in lumbar region,drawing pains in joints of arms,1.0,1
+dull pains in lumbar region,severe drawing in sterno-cleidomastoid muscle,1.0,1
+dull pains in lumbar region,affects wrists,1.0,1
+dull pains in lumbar region,severe drawing in fingers,1.0,1
+dull pains in lumbar region,pain in feet,1.0,1
+dull pains in lumbar region,acrid leucorrhoea,1.0,1
+dull pains in lumbar region,sharp pain in knee joints,1.0,1
+dull pains in lumbar region,has to lift eyelids with hand,1.0,1
+dull pains in lumbar region,oppression of chest with pains,1.0,1
+dull pains in lumbar region,sensation as if uterus were congested,1.0,1
+dull pains in lumbar region,pain in toes,1.0,1
+dull pains in lumbar region,fullness in uterus,1.0,1
+dull pains in lumbar region,severe drawing in wrists,1.0,1
+dull pains in lumbar region,cutting in joints when closing hands,1.0,1
+dull pains in lumbar region,weakening leucorrhoea,1.0,1
+dull pains in lumbar region,pains remain only a short time in one place,1.0,1
+dull pains in lumbar region,very painful menses,1.0,1
+dull pains in lumbar region,knees weak when walking,1.0,1
+dull pains in lumbar region,spasmodic dysmenorrhoea,1.0,1
+dull pains in lumbar region,affects fingers,1.0,1
+dull pains in lumbar region,great heaviness of eyelids,1.0,1
+dull pains in lumbar region,associated with deranged female sexual system,1.0,1
+dull pains in lumbar region,flying pains in arms,1.0,1
+dull pains in lumbar region,rheumatic conditions of small joints,1.0,1
+dull pains in lumbar region,menses too soon,1.0,1
+dull pains in lumbar region,fingers very stiff,1.0,1
+dull pains in lumbar region,affects ankles,1.0,1
+dull pains in lumbar region,rheumatism of finger joints,1.0,1
+dull pains in lumbar region,rheumatic conditions of pregnancy,1.0,1
+dull pains in lumbar region,pains shift to another place,1.0,1
+dull pains in lumbar region,affects toes,1.0,1
+dull pains in lumbar region,swelling of wrists,1.0,1
+dull pains in lumbar region,tension in uterus,1.0,1
+dull pains in lumbar region,rheumatism especially of small joints,1.0,1
+dull pains in lumbar region,tremulous weakness over whole body,1.0,1
+dull pains in lumbar region,drawing pains in joints of legs,1.0,1
+dull pains in lumbar region,rheumatic stiffness of nape of neck,1.0,1
+dull pains in lumbar region,rheumatism of wrists,1.0,1
+dull pains in lumbar region,pains shifting to nape of neck,1.0,1
+dull pains in lumbar region,pains shift to nape of neck,1.0,1
+tremulous weakness over whole body,rigidity with pains,1.0,1
+tremulous weakness over whole body,severe pains in loins,1.0,1
+tremulous weakness over whole body,severe pains in back,1.0,1
+tremulous weakness over whole body,drawing pains in joints of arms,1.0,1
+tremulous weakness over whole body,severe drawing in sterno-cleidomastoid muscle,1.0,1
+tremulous weakness over whole body,affects wrists,1.0,1
+tremulous weakness over whole body,severe drawing in fingers,1.0,1
+tremulous weakness over whole body,pain in feet,1.0,1
+tremulous weakness over whole body,acrid leucorrhoea,1.0,1
+tremulous weakness over whole body,sharp pain in knee joints,1.0,1
+tremulous weakness over whole body,has to lift eyelids with hand,1.0,1
+tremulous weakness over whole body,oppression of chest with pains,1.0,1
+tremulous weakness over whole body,sensation as if uterus were congested,1.0,1
+tremulous weakness over whole body,pain in toes,1.0,1
+tremulous weakness over whole body,fullness in uterus,1.0,1
+tremulous weakness over whole body,severe drawing in wrists,1.0,1
+tremulous weakness over whole body,cutting in joints when closing hands,1.0,1
+tremulous weakness over whole body,weakening leucorrhoea,1.0,1
+tremulous weakness over whole body,pains remain only a short time in one place,1.0,1
+tremulous weakness over whole body,very painful menses,1.0,1
+tremulous weakness over whole body,knees weak when walking,1.0,1
+tremulous weakness over whole body,spasmodic dysmenorrhoea,1.0,1
+tremulous weakness over whole body,affects fingers,1.0,1
+tremulous weakness over whole body,great heaviness of eyelids,1.0,1
+tremulous weakness over whole body,associated with deranged female sexual system,1.0,1
+tremulous weakness over whole body,flying pains in arms,1.0,1
+tremulous weakness over whole body,rheumatic conditions of small joints,1.0,1
+tremulous weakness over whole body,dull pains in lumbar region,1.0,1
+tremulous weakness over whole body,menses too soon,1.0,1
+tremulous weakness over whole body,fingers very stiff,1.0,1
+tremulous weakness over whole body,affects ankles,1.0,1
+tremulous weakness over whole body,rheumatism of finger joints,1.0,1
+tremulous weakness over whole body,rheumatic conditions of pregnancy,1.0,1
+tremulous weakness over whole body,pains shift to another place,1.0,1
+tremulous weakness over whole body,affects toes,1.0,1
+tremulous weakness over whole body,swelling of wrists,1.0,1
+tremulous weakness over whole body,tension in uterus,1.0,1
+tremulous weakness over whole body,rheumatism especially of small joints,1.0,1
+tremulous weakness over whole body,drawing pains in joints of legs,1.0,1
+tremulous weakness over whole body,rheumatic stiffness of nape of neck,1.0,1
+tremulous weakness over whole body,rheumatism of wrists,1.0,1
+tremulous weakness over whole body,pains shifting to nape of neck,1.0,1
+tremulous weakness over whole body,pains shift to nape of neck,1.0,1
+fingers very stiff,rigidity with pains,1.0,1
+fingers very stiff,severe pains in loins,1.0,1
+fingers very stiff,severe pains in back,1.0,1
+fingers very stiff,drawing pains in joints of arms,1.0,1
+fingers very stiff,severe drawing in sterno-cleidomastoid muscle,1.0,1
+fingers very stiff,affects wrists,1.0,1
+fingers very stiff,severe drawing in fingers,1.0,1
+fingers very stiff,pain in feet,1.0,1
+fingers very stiff,acrid leucorrhoea,1.0,1
+fingers very stiff,sharp pain in knee joints,1.0,1
+fingers very stiff,has to lift eyelids with hand,1.0,1
+fingers very stiff,oppression of chest with pains,1.0,1
+fingers very stiff,sensation as if uterus were congested,1.0,1
+fingers very stiff,pain in toes,1.0,1
+fingers very stiff,fullness in uterus,1.0,1
+fingers very stiff,severe drawing in wrists,1.0,1
+fingers very stiff,cutting in joints when closing hands,1.0,1
+fingers very stiff,weakening leucorrhoea,1.0,1
+fingers very stiff,pains remain only a short time in one place,1.0,1
+fingers very stiff,very painful menses,1.0,1
+fingers very stiff,knees weak when walking,1.0,1
+fingers very stiff,spasmodic dysmenorrhoea,1.0,1
+fingers very stiff,affects fingers,1.0,1
+fingers very stiff,great heaviness of eyelids,1.0,1
+fingers very stiff,associated with deranged female sexual system,1.0,1
+fingers very stiff,flying pains in arms,1.0,1
+fingers very stiff,rheumatic conditions of small joints,1.0,1
+fingers very stiff,dull pains in lumbar region,1.0,1
+fingers very stiff,menses too soon,1.0,1
+fingers very stiff,affects ankles,1.0,1
+fingers very stiff,rheumatism of finger joints,1.0,1
+fingers very stiff,rheumatic conditions of pregnancy,1.0,1
+fingers very stiff,pains shift to another place,1.0,1
+fingers very stiff,affects toes,1.0,1
+fingers very stiff,swelling of wrists,1.0,1
+fingers very stiff,tension in uterus,1.0,1
+fingers very stiff,rheumatism especially of small joints,1.0,1
+fingers very stiff,tremulous weakness over whole body,1.0,1
+fingers very stiff,drawing pains in joints of legs,1.0,1
+fingers very stiff,rheumatic stiffness of nape of neck,1.0,1
+fingers very stiff,rheumatism of wrists,1.0,1
+fingers very stiff,pains shifting to nape of neck,1.0,1
+fingers very stiff,pains shift to nape of neck,1.0,1
+sensation as if uterus were congested,rigidity with pains,1.0,1
+sensation as if uterus were congested,severe pains in loins,1.0,1
+sensation as if uterus were congested,severe pains in back,1.0,1
+sensation as if uterus were congested,drawing pains in joints of arms,1.0,1
+sensation as if uterus were congested,severe drawing in sterno-cleidomastoid muscle,1.0,1
+sensation as if uterus were congested,affects wrists,1.0,1
+sensation as if uterus were congested,severe drawing in fingers,1.0,1
+sensation as if uterus were congested,pain in feet,1.0,1
+sensation as if uterus were congested,acrid leucorrhoea,1.0,1
+sensation as if uterus were congested,sharp pain in knee joints,1.0,1
+sensation as if uterus were congested,has to lift eyelids with hand,1.0,1
+sensation as if uterus were congested,oppression of chest with pains,1.0,1
+sensation as if uterus were congested,pain in toes,1.0,1
+sensation as if uterus were congested,fullness in uterus,1.0,1
+sensation as if uterus were congested,severe drawing in wrists,1.0,1
+sensation as if uterus were congested,cutting in joints when closing hands,1.0,1
+sensation as if uterus were congested,weakening leucorrhoea,1.0,1
+sensation as if uterus were congested,pains remain only a short time in one place,1.0,1
+sensation as if uterus were congested,very painful menses,1.0,1
+sensation as if uterus were congested,knees weak when walking,1.0,1
+sensation as if uterus were congested,spasmodic dysmenorrhoea,1.0,1
+sensation as if uterus were congested,affects fingers,1.0,1
+sensation as if uterus were congested,great heaviness of eyelids,1.0,1
+sensation as if uterus were congested,associated with deranged female sexual system,1.0,1
+sensation as if uterus were congested,flying pains in arms,1.0,1
+sensation as if uterus were congested,rheumatic conditions of small joints,1.0,1
+sensation as if uterus were congested,dull pains in lumbar region,1.0,1
+sensation as if uterus were congested,menses too soon,1.0,1
+sensation as if uterus were congested,fingers very stiff,1.0,1
+sensation as if uterus were congested,affects ankles,1.0,1
+sensation as if uterus were congested,rheumatism of finger joints,1.0,1
+sensation as if uterus were congested,rheumatic conditions of pregnancy,1.0,1
+sensation as if uterus were congested,pains shift to another place,1.0,1
+sensation as if uterus were congested,affects toes,1.0,1
+sensation as if uterus were congested,swelling of wrists,1.0,1
+sensation as if uterus were congested,tension in uterus,1.0,1
+sensation as if uterus were congested,rheumatism especially of small joints,1.0,1
+sensation as if uterus were congested,tremulous weakness over whole body,1.0,1
+sensation as if uterus were congested,drawing pains in joints of legs,1.0,1
+sensation as if uterus were congested,rheumatic stiffness of nape of neck,1.0,1
+sensation as if uterus were congested,rheumatism of wrists,1.0,1
+sensation as if uterus were congested,pains shifting to nape of neck,1.0,1
+sensation as if uterus were congested,pains shift to nape of neck,1.0,1
+affects toes,rigidity with pains,1.0,1
+affects toes,severe pains in loins,1.0,1
+affects toes,severe pains in back,1.0,1
+affects toes,drawing pains in joints of arms,1.0,1
+affects toes,severe drawing in sterno-cleidomastoid muscle,1.0,1
+affects toes,affects wrists,1.0,1
+affects toes,severe drawing in fingers,1.0,1
+affects toes,pain in feet,1.0,1
+affects toes,acrid leucorrhoea,1.0,1
+affects toes,sharp pain in knee joints,1.0,1
+affects toes,has to lift eyelids with hand,1.0,1
+affects toes,oppression of chest with pains,1.0,1
+affects toes,sensation as if uterus were congested,1.0,1
+affects toes,pain in toes,1.0,1
+affects toes,fullness in uterus,1.0,1
+affects toes,severe drawing in wrists,1.0,1
+affects toes,cutting in joints when closing hands,1.0,1
+affects toes,weakening leucorrhoea,1.0,1
+affects toes,pains remain only a short time in one place,1.0,1
+affects toes,very painful menses,1.0,1
+affects toes,knees weak when walking,1.0,1
+affects toes,spasmodic dysmenorrhoea,1.0,1
+affects toes,affects fingers,1.0,1
+affects toes,great heaviness of eyelids,1.0,1
+affects toes,associated with deranged female sexual system,1.0,1
+affects toes,flying pains in arms,1.0,1
+affects toes,rheumatic conditions of small joints,1.0,1
+affects toes,dull pains in lumbar region,1.0,1
+affects toes,menses too soon,1.0,1
+affects toes,fingers very stiff,1.0,1
+affects toes,affects ankles,1.0,1
+affects toes,rheumatism of finger joints,1.0,1
+affects toes,rheumatic conditions of pregnancy,1.0,1
+affects toes,pains shift to another place,1.0,1
+affects toes,swelling of wrists,1.0,1
+affects toes,tension in uterus,1.0,1
+affects toes,rheumatism especially of small joints,1.0,1
+affects toes,tremulous weakness over whole body,1.0,1
+affects toes,drawing pains in joints of legs,1.0,1
+affects toes,rheumatic stiffness of nape of neck,1.0,1
+affects toes,rheumatism of wrists,1.0,1
+affects toes,pains shifting to nape of neck,1.0,1
+affects toes,pains shift to nape of neck,1.0,1
+rheumatic conditions of pregnancy,rigidity with pains,1.0,1
+rheumatic conditions of pregnancy,severe pains in loins,1.0,1
+rheumatic conditions of pregnancy,severe pains in back,1.0,1
+rheumatic conditions of pregnancy,drawing pains in joints of arms,1.0,1
+rheumatic conditions of pregnancy,severe drawing in sterno-cleidomastoid muscle,1.0,1
+rheumatic conditions of pregnancy,affects wrists,1.0,1
+rheumatic conditions of pregnancy,severe drawing in fingers,1.0,1
+rheumatic conditions of pregnancy,pain in feet,1.0,1
+rheumatic conditions of pregnancy,acrid leucorrhoea,1.0,1
+rheumatic conditions of pregnancy,sharp pain in knee joints,1.0,1
+rheumatic conditions of pregnancy,has to lift eyelids with hand,1.0,1
+rheumatic conditions of pregnancy,oppression of chest with pains,1.0,1
+rheumatic conditions of pregnancy,sensation as if uterus were congested,1.0,1
+rheumatic conditions of pregnancy,pain in toes,1.0,1
+rheumatic conditions of pregnancy,fullness in uterus,1.0,1
+rheumatic conditions of pregnancy,severe drawing in wrists,1.0,1
+rheumatic conditions of pregnancy,cutting in joints when closing hands,1.0,1
+rheumatic conditions of pregnancy,weakening leucorrhoea,1.0,1
+rheumatic conditions of pregnancy,pains remain only a short time in one place,1.0,1
+rheumatic conditions of pregnancy,very painful menses,1.0,1
+rheumatic conditions of pregnancy,knees weak when walking,1.0,1
+rheumatic conditions of pregnancy,spasmodic dysmenorrhoea,1.0,1
+rheumatic conditions of pregnancy,affects fingers,1.0,1
+rheumatic conditions of pregnancy,great heaviness of eyelids,1.0,1
+rheumatic conditions of pregnancy,associated with deranged female sexual system,1.0,1
+rheumatic conditions of pregnancy,flying pains in arms,1.0,1
+rheumatic conditions of pregnancy,rheumatic conditions of small joints,1.0,1
+rheumatic conditions of pregnancy,dull pains in lumbar region,1.0,1
+rheumatic conditions of pregnancy,menses too soon,1.0,1
+rheumatic conditions of pregnancy,fingers very stiff,1.0,1
+rheumatic conditions of pregnancy,affects ankles,1.0,1
+rheumatic conditions of pregnancy,rheumatism of finger joints,1.0,1
+rheumatic conditions of pregnancy,pains shift to another place,1.0,1
+rheumatic conditions of pregnancy,affects toes,1.0,1
+rheumatic conditions of pregnancy,swelling of wrists,1.0,1
+rheumatic conditions of pregnancy,tension in uterus,1.0,1
+rheumatic conditions of pregnancy,rheumatism especially of small joints,1.0,1
+rheumatic conditions of pregnancy,tremulous weakness over whole body,1.0,1
+rheumatic conditions of pregnancy,drawing pains in joints of legs,1.0,1
+rheumatic conditions of pregnancy,rheumatic stiffness of nape of neck,1.0,1
+rheumatic conditions of pregnancy,rheumatism of wrists,1.0,1
+rheumatic conditions of pregnancy,pains shifting to nape of neck,1.0,1
+rheumatic conditions of pregnancy,pains shift to nape of neck,1.0,1
+severe drawing in fingers,rigidity with pains,1.0,1
+severe drawing in fingers,severe pains in loins,1.0,1
+severe drawing in fingers,severe pains in back,1.0,1
+severe drawing in fingers,drawing pains in joints of arms,1.0,1
+severe drawing in fingers,severe drawing in sterno-cleidomastoid muscle,1.0,1
+severe drawing in fingers,affects wrists,1.0,1
+severe drawing in fingers,pain in feet,1.0,1
+severe drawing in fingers,acrid leucorrhoea,1.0,1
+severe drawing in fingers,sharp pain in knee joints,1.0,1
+severe drawing in fingers,has to lift eyelids with hand,1.0,1
+severe drawing in fingers,oppression of chest with pains,1.0,1
+severe drawing in fingers,sensation as if uterus were congested,1.0,1
+severe drawing in fingers,pain in toes,1.0,1
+severe drawing in fingers,fullness in uterus,1.0,1
+severe drawing in fingers,severe drawing in wrists,1.0,1
+severe drawing in fingers,cutting in joints when closing hands,1.0,1
+severe drawing in fingers,weakening leucorrhoea,1.0,1
+severe drawing in fingers,pains remain only a short time in one place,1.0,1
+severe drawing in fingers,very painful menses,1.0,1
+severe drawing in fingers,knees weak when walking,1.0,1
+severe drawing in fingers,spasmodic dysmenorrhoea,1.0,1
+severe drawing in fingers,affects fingers,1.0,1
+severe drawing in fingers,great heaviness of eyelids,1.0,1
+severe drawing in fingers,associated with deranged female sexual system,1.0,1
+severe drawing in fingers,flying pains in arms,1.0,1
+severe drawing in fingers,rheumatic conditions of small joints,1.0,1
+severe drawing in fingers,dull pains in lumbar region,1.0,1
+severe drawing in fingers,menses too soon,1.0,1
+severe drawing in fingers,fingers very stiff,1.0,1
+severe drawing in fingers,affects ankles,1.0,1
+severe drawing in fingers,rheumatism of finger joints,1.0,1
+severe drawing in fingers,rheumatic conditions of pregnancy,1.0,1
+severe drawing in fingers,pains shift to another place,1.0,1
+severe drawing in fingers,affects toes,1.0,1
+severe drawing in fingers,swelling of wrists,1.0,1
+severe drawing in fingers,tension in uterus,1.0,1
+severe drawing in fingers,rheumatism especially of small joints,1.0,1
+severe drawing in fingers,tremulous weakness over whole body,1.0,1
+severe drawing in fingers,drawing pains in joints of legs,1.0,1
+severe drawing in fingers,rheumatic stiffness of nape of neck,1.0,1
+severe drawing in fingers,rheumatism of wrists,1.0,1
+severe drawing in fingers,pains shifting to nape of neck,1.0,1
+severe drawing in fingers,pains shift to nape of neck,1.0,1
+oppression of chest with pains,rigidity with pains,1.0,1
+oppression of chest with pains,severe pains in loins,1.0,1
+oppression of chest with pains,severe pains in back,1.0,1
+oppression of chest with pains,drawing pains in joints of arms,1.0,1
+oppression of chest with pains,severe drawing in sterno-cleidomastoid muscle,1.0,1
+oppression of chest with pains,affects wrists,1.0,1
+oppression of chest with pains,severe drawing in fingers,1.0,1
+oppression of chest with pains,pain in feet,1.0,1
+oppression of chest with pains,acrid leucorrhoea,1.0,1
+oppression of chest with pains,sharp pain in knee joints,1.0,1
+oppression of chest with pains,has to lift eyelids with hand,1.0,1
+oppression of chest with pains,sensation as if uterus were congested,1.0,1
+oppression of chest with pains,pain in toes,1.0,1
+oppression of chest with pains,fullness in uterus,1.0,1
+oppression of chest with pains,severe drawing in wrists,1.0,1
+oppression of chest with pains,cutting in joints when closing hands,1.0,1
+oppression of chest with pains,weakening leucorrhoea,1.0,1
+oppression of chest with pains,pains remain only a short time in one place,1.0,1
+oppression of chest with pains,very painful menses,1.0,1
+oppression of chest with pains,knees weak when walking,1.0,1
+oppression of chest with pains,spasmodic dysmenorrhoea,1.0,1
+oppression of chest with pains,affects fingers,1.0,1
+oppression of chest with pains,great heaviness of eyelids,1.0,1
+oppression of chest with pains,associated with deranged female sexual system,1.0,1
+oppression of chest with pains,flying pains in arms,1.0,1
+oppression of chest with pains,rheumatic conditions of small joints,1.0,1
+oppression of chest with pains,dull pains in lumbar region,1.0,1
+oppression of chest with pains,menses too soon,1.0,1
+oppression of chest with pains,fingers very stiff,1.0,1
+oppression of chest with pains,affects ankles,1.0,1
+oppression of chest with pains,rheumatism of finger joints,1.0,1
+oppression of chest with pains,rheumatic conditions of pregnancy,1.0,1
+oppression of chest with pains,pains shift to another place,1.0,1
+oppression of chest with pains,affects toes,1.0,1
+oppression of chest with pains,swelling of wrists,1.0,1
+oppression of chest with pains,tension in uterus,1.0,1
+oppression of chest with pains,rheumatism especially of small joints,1.0,1
+oppression of chest with pains,tremulous weakness over whole body,1.0,1
+oppression of chest with pains,drawing pains in joints of legs,1.0,1
+oppression of chest with pains,rheumatic stiffness of nape of neck,1.0,1
+oppression of chest with pains,rheumatism of wrists,1.0,1
+oppression of chest with pains,pains shifting to nape of neck,1.0,1
+oppression of chest with pains,pains shift to nape of neck,1.0,1
+sharp pain in knee joints,rigidity with pains,1.0,1
+sharp pain in knee joints,severe pains in loins,1.0,1
+sharp pain in knee joints,severe pains in back,1.0,1
+sharp pain in knee joints,drawing pains in joints of arms,1.0,1
+sharp pain in knee joints,severe drawing in sterno-cleidomastoid muscle,1.0,1
+sharp pain in knee joints,affects wrists,1.0,1
+sharp pain in knee joints,severe drawing in fingers,1.0,1
+sharp pain in knee joints,pain in feet,1.0,1
+sharp pain in knee joints,acrid leucorrhoea,1.0,1
+sharp pain in knee joints,has to lift eyelids with hand,1.0,1
+sharp pain in knee joints,oppression of chest with pains,1.0,1
+sharp pain in knee joints,sensation as if uterus were congested,1.0,1
+sharp pain in knee joints,pain in toes,1.0,1
+sharp pain in knee joints,fullness in uterus,1.0,1
+sharp pain in knee joints,severe drawing in wrists,1.0,1
+sharp pain in knee joints,cutting in joints when closing hands,1.0,1
+sharp pain in knee joints,weakening leucorrhoea,1.0,1
+sharp pain in knee joints,pains remain only a short time in one place,1.0,1
+sharp pain in knee joints,very painful menses,1.0,1
+sharp pain in knee joints,knees weak when walking,1.0,1
+sharp pain in knee joints,spasmodic dysmenorrhoea,1.0,1
+sharp pain in knee joints,affects fingers,1.0,1
+sharp pain in knee joints,great heaviness of eyelids,1.0,1
+sharp pain in knee joints,associated with deranged female sexual system,1.0,1
+sharp pain in knee joints,flying pains in arms,1.0,1
+sharp pain in knee joints,rheumatic conditions of small joints,1.0,1
+sharp pain in knee joints,dull pains in lumbar region,1.0,1
+sharp pain in knee joints,menses too soon,1.0,1
+sharp pain in knee joints,fingers very stiff,1.0,1
+sharp pain in knee joints,affects ankles,1.0,1
+sharp pain in knee joints,rheumatism of finger joints,1.0,1
+sharp pain in knee joints,rheumatic conditions of pregnancy,1.0,1
+sharp pain in knee joints,pains shift to another place,1.0,1
+sharp pain in knee joints,affects toes,1.0,1
+sharp pain in knee joints,swelling of wrists,1.0,1
+sharp pain in knee joints,tension in uterus,1.0,1
+sharp pain in knee joints,rheumatism especially of small joints,1.0,1
+sharp pain in knee joints,tremulous weakness over whole body,1.0,1
+sharp pain in knee joints,drawing pains in joints of legs,1.0,1
+sharp pain in knee joints,rheumatic stiffness of nape of neck,1.0,1
+sharp pain in knee joints,rheumatism of wrists,1.0,1
+sharp pain in knee joints,pains shifting to nape of neck,1.0,1
+sharp pain in knee joints,pains shift to nape of neck,1.0,1
+swelling of wrists,rigidity with pains,1.0,1
+swelling of wrists,severe pains in loins,1.0,1
+swelling of wrists,severe pains in back,1.0,1
+swelling of wrists,drawing pains in joints of arms,1.0,1
+swelling of wrists,severe drawing in sterno-cleidomastoid muscle,1.0,1
+swelling of wrists,affects wrists,1.0,1
+swelling of wrists,severe drawing in fingers,1.0,1
+swelling of wrists,pain in feet,1.0,1
+swelling of wrists,acrid leucorrhoea,1.0,1
+swelling of wrists,sharp pain in knee joints,1.0,1
+swelling of wrists,has to lift eyelids with hand,1.0,1
+swelling of wrists,oppression of chest with pains,1.0,1
+swelling of wrists,sensation as if uterus were congested,1.0,1
+swelling of wrists,pain in toes,1.0,1
+swelling of wrists,fullness in uterus,1.0,1
+swelling of wrists,severe drawing in wrists,1.0,1
+swelling of wrists,cutting in joints when closing hands,1.0,1
+swelling of wrists,weakening leucorrhoea,1.0,1
+swelling of wrists,pains remain only a short time in one place,1.0,1
+swelling of wrists,very painful menses,1.0,1
+swelling of wrists,knees weak when walking,1.0,1
+swelling of wrists,spasmodic dysmenorrhoea,1.0,1
+swelling of wrists,affects fingers,1.0,1
+swelling of wrists,great heaviness of eyelids,1.0,1
+swelling of wrists,associated with deranged female sexual system,1.0,1
+swelling of wrists,flying pains in arms,1.0,1
+swelling of wrists,rheumatic conditions of small joints,1.0,1
+swelling of wrists,dull pains in lumbar region,1.0,1
+swelling of wrists,menses too soon,1.0,1
+swelling of wrists,fingers very stiff,1.0,1
+swelling of wrists,affects ankles,1.0,1
+swelling of wrists,rheumatism of finger joints,1.0,1
+swelling of wrists,rheumatic conditions of pregnancy,1.0,1
+swelling of wrists,pains shift to another place,1.0,1
+swelling of wrists,affects toes,1.0,1
+swelling of wrists,tension in uterus,1.0,1
+swelling of wrists,rheumatism especially of small joints,1.0,1
+swelling of wrists,tremulous weakness over whole body,1.0,1
+swelling of wrists,drawing pains in joints of legs,1.0,1
+swelling of wrists,rheumatic stiffness of nape of neck,1.0,1
+swelling of wrists,rheumatism of wrists,1.0,1
+swelling of wrists,pains shifting to nape of neck,1.0,1
+swelling of wrists,pains shift to nape of neck,1.0,1
+weakening leucorrhoea,rigidity with pains,1.0,1
+weakening leucorrhoea,severe pains in loins,1.0,1
+weakening leucorrhoea,severe pains in back,1.0,1
+weakening leucorrhoea,drawing pains in joints of arms,1.0,1
+weakening leucorrhoea,severe drawing in sterno-cleidomastoid muscle,1.0,1
+weakening leucorrhoea,affects wrists,1.0,1
+weakening leucorrhoea,severe drawing in fingers,1.0,1
+weakening leucorrhoea,pain in feet,1.0,1
+weakening leucorrhoea,acrid leucorrhoea,1.0,1
+weakening leucorrhoea,sharp pain in knee joints,1.0,1
+weakening leucorrhoea,has to lift eyelids with hand,1.0,1
+weakening leucorrhoea,oppression of chest with pains,1.0,1
+weakening leucorrhoea,sensation as if uterus were congested,1.0,1
+weakening leucorrhoea,pain in toes,1.0,1
+weakening leucorrhoea,fullness in uterus,1.0,1
+weakening leucorrhoea,severe drawing in wrists,1.0,1
+weakening leucorrhoea,cutting in joints when closing hands,1.0,1
+weakening leucorrhoea,pains remain only a short time in one place,1.0,1
+weakening leucorrhoea,very painful menses,1.0,1
+weakening leucorrhoea,knees weak when walking,1.0,1
+weakening leucorrhoea,spasmodic dysmenorrhoea,1.0,1
+weakening leucorrhoea,affects fingers,1.0,1
+weakening leucorrhoea,great heaviness of eyelids,1.0,1
+weakening leucorrhoea,associated with deranged female sexual system,1.0,1
+weakening leucorrhoea,flying pains in arms,1.0,1
+weakening leucorrhoea,rheumatic conditions of small joints,1.0,1
+weakening leucorrhoea,dull pains in lumbar region,1.0,1
+weakening leucorrhoea,menses too soon,1.0,1
+weakening leucorrhoea,fingers very stiff,1.0,1
+weakening leucorrhoea,affects ankles,1.0,1
+weakening leucorrhoea,rheumatism of finger joints,1.0,1
+weakening leucorrhoea,rheumatic conditions of pregnancy,1.0,1
+weakening leucorrhoea,pains shift to another place,1.0,1
+weakening leucorrhoea,affects toes,1.0,1
+weakening leucorrhoea,swelling of wrists,1.0,1
+weakening leucorrhoea,tension in uterus,1.0,1
+weakening leucorrhoea,rheumatism especially of small joints,1.0,1
+weakening leucorrhoea,tremulous weakness over whole body,1.0,1
+weakening leucorrhoea,drawing pains in joints of legs,1.0,1
+weakening leucorrhoea,rheumatic stiffness of nape of neck,1.0,1
+weakening leucorrhoea,rheumatism of wrists,1.0,1
+weakening leucorrhoea,pains shifting to nape of neck,1.0,1
+weakening leucorrhoea,pains shift to nape of neck,1.0,1
+spasmodic dysmenorrhoea,rigidity with pains,1.0,1
+spasmodic dysmenorrhoea,severe pains in loins,1.0,1
+spasmodic dysmenorrhoea,severe pains in back,1.0,1
+spasmodic dysmenorrhoea,drawing pains in joints of arms,1.0,1
+spasmodic dysmenorrhoea,severe drawing in sterno-cleidomastoid muscle,1.0,1
+spasmodic dysmenorrhoea,affects wrists,1.0,1
+spasmodic dysmenorrhoea,severe drawing in fingers,1.0,1
+spasmodic dysmenorrhoea,pain in feet,1.0,1
+spasmodic dysmenorrhoea,acrid leucorrhoea,1.0,1
+spasmodic dysmenorrhoea,sharp pain in knee joints,1.0,1
+spasmodic dysmenorrhoea,has to lift eyelids with hand,1.0,1
+spasmodic dysmenorrhoea,oppression of chest with pains,1.0,1
+spasmodic dysmenorrhoea,sensation as if uterus were congested,1.0,1
+spasmodic dysmenorrhoea,pain in toes,1.0,1
+spasmodic dysmenorrhoea,fullness in uterus,1.0,1
+spasmodic dysmenorrhoea,severe drawing in wrists,1.0,1
+spasmodic dysmenorrhoea,cutting in joints when closing hands,1.0,1
+spasmodic dysmenorrhoea,weakening leucorrhoea,1.0,1
+spasmodic dysmenorrhoea,pains remain only a short time in one place,1.0,1
+spasmodic dysmenorrhoea,very painful menses,1.0,1
+spasmodic dysmenorrhoea,knees weak when walking,1.0,1
+spasmodic dysmenorrhoea,affects fingers,1.0,1
+spasmodic dysmenorrhoea,great heaviness of eyelids,1.0,1
+spasmodic dysmenorrhoea,associated with deranged female sexual system,1.0,1
+spasmodic dysmenorrhoea,flying pains in arms,1.0,1
+spasmodic dysmenorrhoea,rheumatic conditions of small joints,1.0,1
+spasmodic dysmenorrhoea,dull pains in lumbar region,1.0,1
+spasmodic dysmenorrhoea,menses too soon,1.0,1
+spasmodic dysmenorrhoea,fingers very stiff,1.0,1
+spasmodic dysmenorrhoea,affects ankles,1.0,1
+spasmodic dysmenorrhoea,rheumatism of finger joints,1.0,1
+spasmodic dysmenorrhoea,rheumatic conditions of pregnancy,1.0,1
+spasmodic dysmenorrhoea,pains shift to another place,1.0,1
+spasmodic dysmenorrhoea,affects toes,1.0,1
+spasmodic dysmenorrhoea,swelling of wrists,1.0,1
+spasmodic dysmenorrhoea,tension in uterus,1.0,1
+spasmodic dysmenorrhoea,rheumatism especially of small joints,1.0,1
+spasmodic dysmenorrhoea,tremulous weakness over whole body,1.0,1
+spasmodic dysmenorrhoea,drawing pains in joints of legs,1.0,1
+spasmodic dysmenorrhoea,rheumatic stiffness of nape of neck,1.0,1
+spasmodic dysmenorrhoea,rheumatism of wrists,1.0,1
+spasmodic dysmenorrhoea,pains shifting to nape of neck,1.0,1
+spasmodic dysmenorrhoea,pains shift to nape of neck,1.0,1
+menses too soon,rigidity with pains,1.0,1
+menses too soon,severe pains in loins,1.0,1
+menses too soon,severe pains in back,1.0,1
+menses too soon,drawing pains in joints of arms,1.0,1
+menses too soon,severe drawing in sterno-cleidomastoid muscle,1.0,1
+menses too soon,affects wrists,1.0,1
+menses too soon,severe drawing in fingers,1.0,1
+menses too soon,pain in feet,1.0,1
+menses too soon,acrid leucorrhoea,1.0,1
+menses too soon,sharp pain in knee joints,1.0,1
+menses too soon,has to lift eyelids with hand,1.0,1
+menses too soon,oppression of chest with pains,1.0,1
+menses too soon,sensation as if uterus were congested,1.0,1
+menses too soon,pain in toes,1.0,1
+menses too soon,fullness in uterus,1.0,1
+menses too soon,severe drawing in wrists,1.0,1
+menses too soon,cutting in joints when closing hands,1.0,1
+menses too soon,weakening leucorrhoea,1.0,1
+menses too soon,pains remain only a short time in one place,1.0,1
+menses too soon,very painful menses,1.0,1
+menses too soon,knees weak when walking,1.0,1
+menses too soon,spasmodic dysmenorrhoea,1.0,1
+menses too soon,affects fingers,1.0,1
+menses too soon,great heaviness of eyelids,1.0,1
+menses too soon,associated with deranged female sexual system,1.0,1
+menses too soon,flying pains in arms,1.0,1
+menses too soon,rheumatic conditions of small joints,1.0,1
+menses too soon,dull pains in lumbar region,1.0,1
+menses too soon,fingers very stiff,1.0,1
+menses too soon,affects ankles,1.0,1
+menses too soon,rheumatism of finger joints,1.0,1
+menses too soon,rheumatic conditions of pregnancy,1.0,1
+menses too soon,pains shift to another place,1.0,1
+menses too soon,affects toes,1.0,1
+menses too soon,swelling of wrists,1.0,1
+menses too soon,tension in uterus,1.0,1
+menses too soon,rheumatism especially of small joints,1.0,1
+menses too soon,tremulous weakness over whole body,1.0,1
+menses too soon,drawing pains in joints of legs,1.0,1
+menses too soon,rheumatic stiffness of nape of neck,1.0,1
+menses too soon,rheumatism of wrists,1.0,1
+menses too soon,pains shifting to nape of neck,1.0,1
+menses too soon,pains shift to nape of neck,1.0,1
+severe drawing in wrists,rigidity with pains,1.0,1
+severe drawing in wrists,severe pains in loins,1.0,1
+severe drawing in wrists,severe pains in back,1.0,1
+severe drawing in wrists,drawing pains in joints of arms,1.0,1
+severe drawing in wrists,severe drawing in sterno-cleidomastoid muscle,1.0,1
+severe drawing in wrists,affects wrists,1.0,1
+severe drawing in wrists,severe drawing in fingers,1.0,1
+severe drawing in wrists,pain in feet,1.0,1
+severe drawing in wrists,acrid leucorrhoea,1.0,1
+severe drawing in wrists,sharp pain in knee joints,1.0,1
+severe drawing in wrists,has to lift eyelids with hand,1.0,1
+severe drawing in wrists,oppression of chest with pains,1.0,1
+severe drawing in wrists,sensation as if uterus were congested,1.0,1
+severe drawing in wrists,pain in toes,1.0,1
+severe drawing in wrists,fullness in uterus,1.0,1
+severe drawing in wrists,cutting in joints when closing hands,1.0,1
+severe drawing in wrists,weakening leucorrhoea,1.0,1
+severe drawing in wrists,pains remain only a short time in one place,1.0,1
+severe drawing in wrists,very painful menses,1.0,1
+severe drawing in wrists,knees weak when walking,1.0,1
+severe drawing in wrists,spasmodic dysmenorrhoea,1.0,1
+severe drawing in wrists,affects fingers,1.0,1
+severe drawing in wrists,great heaviness of eyelids,1.0,1
+severe drawing in wrists,associated with deranged female sexual system,1.0,1
+severe drawing in wrists,flying pains in arms,1.0,1
+severe drawing in wrists,rheumatic conditions of small joints,1.0,1
+severe drawing in wrists,dull pains in lumbar region,1.0,1
+severe drawing in wrists,menses too soon,1.0,1
+severe drawing in wrists,fingers very stiff,1.0,1
+severe drawing in wrists,affects ankles,1.0,1
+severe drawing in wrists,rheumatism of finger joints,1.0,1
+severe drawing in wrists,rheumatic conditions of pregnancy,1.0,1
+severe drawing in wrists,pains shift to another place,1.0,1
+severe drawing in wrists,affects toes,1.0,1
+severe drawing in wrists,swelling of wrists,1.0,1
+severe drawing in wrists,tension in uterus,1.0,1
+severe drawing in wrists,rheumatism especially of small joints,1.0,1
+severe drawing in wrists,tremulous weakness over whole body,1.0,1
+severe drawing in wrists,drawing pains in joints of legs,1.0,1
+severe drawing in wrists,rheumatic stiffness of nape of neck,1.0,1
+severe drawing in wrists,rheumatism of wrists,1.0,1
+severe drawing in wrists,pains shifting to nape of neck,1.0,1
+severe drawing in wrists,pains shift to nape of neck,1.0,1
+affects ankles,rigidity with pains,1.0,1
+affects ankles,severe pains in loins,1.0,1
+affects ankles,severe pains in back,1.0,1
+affects ankles,drawing pains in joints of arms,1.0,1
+affects ankles,severe drawing in sterno-cleidomastoid muscle,1.0,1
+affects ankles,affects wrists,1.0,1
+affects ankles,severe drawing in fingers,1.0,1
+affects ankles,pain in feet,1.0,1
+affects ankles,acrid leucorrhoea,1.0,1
+affects ankles,sharp pain in knee joints,1.0,1
+affects ankles,has to lift eyelids with hand,1.0,1
+affects ankles,oppression of chest with pains,1.0,1
+affects ankles,sensation as if uterus were congested,1.0,1
+affects ankles,pain in toes,1.0,1
+affects ankles,fullness in uterus,1.0,1
+affects ankles,severe drawing in wrists,1.0,1
+affects ankles,cutting in joints when closing hands,1.0,1
+affects ankles,weakening leucorrhoea,1.0,1
+affects ankles,pains remain only a short time in one place,1.0,1
+affects ankles,very painful menses,1.0,1
+affects ankles,knees weak when walking,1.0,1
+affects ankles,spasmodic dysmenorrhoea,1.0,1
+affects ankles,affects fingers,1.0,1
+affects ankles,great heaviness of eyelids,1.0,1
+affects ankles,associated with deranged female sexual system,1.0,1
+affects ankles,flying pains in arms,1.0,1
+affects ankles,rheumatic conditions of small joints,1.0,1
+affects ankles,dull pains in lumbar region,1.0,1
+affects ankles,menses too soon,1.0,1
+affects ankles,fingers very stiff,1.0,1
+affects ankles,rheumatism of finger joints,1.0,1
+affects ankles,rheumatic conditions of pregnancy,1.0,1
+affects ankles,pains shift to another place,1.0,1
+affects ankles,affects toes,1.0,1
+affects ankles,swelling of wrists,1.0,1
+affects ankles,tension in uterus,1.0,1
+affects ankles,rheumatism especially of small joints,1.0,1
+affects ankles,tremulous weakness over whole body,1.0,1
+affects ankles,drawing pains in joints of legs,1.0,1
+affects ankles,rheumatic stiffness of nape of neck,1.0,1
+affects ankles,rheumatism of wrists,1.0,1
+affects ankles,pains shifting to nape of neck,1.0,1
+affects ankles,pains shift to nape of neck,1.0,1
+drawing pains in joints of arms,rigidity with pains,1.0,1
+drawing pains in joints of arms,severe pains in loins,1.0,1
+drawing pains in joints of arms,severe pains in back,1.0,1
+drawing pains in joints of arms,severe drawing in sterno-cleidomastoid muscle,1.0,1
+drawing pains in joints of arms,affects wrists,1.0,1
+drawing pains in joints of arms,severe drawing in fingers,1.0,1
+drawing pains in joints of arms,pain in feet,1.0,1
+drawing pains in joints of arms,acrid leucorrhoea,1.0,1
+drawing pains in joints of arms,sharp pain in knee joints,1.0,1
+drawing pains in joints of arms,has to lift eyelids with hand,1.0,1
+drawing pains in joints of arms,oppression of chest with pains,1.0,1
+drawing pains in joints of arms,sensation as if uterus were congested,1.0,1
+drawing pains in joints of arms,pain in toes,1.0,1
+drawing pains in joints of arms,fullness in uterus,1.0,1
+drawing pains in joints of arms,severe drawing in wrists,1.0,1
+drawing pains in joints of arms,cutting in joints when closing hands,1.0,1
+drawing pains in joints of arms,weakening leucorrhoea,1.0,1
+drawing pains in joints of arms,pains remain only a short time in one place,1.0,1
+drawing pains in joints of arms,very painful menses,1.0,1
+drawing pains in joints of arms,knees weak when walking,1.0,1
+drawing pains in joints of arms,spasmodic dysmenorrhoea,1.0,1
+drawing pains in joints of arms,affects fingers,1.0,1
+drawing pains in joints of arms,great heaviness of eyelids,1.0,1
+drawing pains in joints of arms,associated with deranged female sexual system,1.0,1
+drawing pains in joints of arms,flying pains in arms,1.0,1
+drawing pains in joints of arms,rheumatic conditions of small joints,1.0,1
+drawing pains in joints of arms,dull pains in lumbar region,1.0,1
+drawing pains in joints of arms,menses too soon,1.0,1
+drawing pains in joints of arms,fingers very stiff,1.0,1
+drawing pains in joints of arms,affects ankles,1.0,1
+drawing pains in joints of arms,rheumatism of finger joints,1.0,1
+drawing pains in joints of arms,rheumatic conditions of pregnancy,1.0,1
+drawing pains in joints of arms,pains shift to another place,1.0,1
+drawing pains in joints of arms,affects toes,1.0,1
+drawing pains in joints of arms,swelling of wrists,1.0,1
+drawing pains in joints of arms,tension in uterus,1.0,1
+drawing pains in joints of arms,rheumatism especially of small joints,1.0,1
+drawing pains in joints of arms,tremulous weakness over whole body,1.0,1
+drawing pains in joints of arms,drawing pains in joints of legs,1.0,1
+drawing pains in joints of arms,rheumatic stiffness of nape of neck,1.0,1
+drawing pains in joints of arms,rheumatism of wrists,1.0,1
+drawing pains in joints of arms,pains shifting to nape of neck,1.0,1
+drawing pains in joints of arms,pains shift to nape of neck,1.0,1
+great heaviness of eyelids,rigidity with pains,1.0,1
+great heaviness of eyelids,severe pains in loins,1.0,1
+great heaviness of eyelids,severe pains in back,1.0,1
+great heaviness of eyelids,drawing pains in joints of arms,1.0,1
+great heaviness of eyelids,severe drawing in sterno-cleidomastoid muscle,1.0,1
+great heaviness of eyelids,affects wrists,1.0,1
+great heaviness of eyelids,severe drawing in fingers,1.0,1
+great heaviness of eyelids,pain in feet,1.0,1
+great heaviness of eyelids,acrid leucorrhoea,1.0,1
+great heaviness of eyelids,sharp pain in knee joints,1.0,1
+great heaviness of eyelids,has to lift eyelids with hand,1.0,1
+great heaviness of eyelids,oppression of chest with pains,1.0,1
+great heaviness of eyelids,sensation as if uterus were congested,1.0,1
+great heaviness of eyelids,pain in toes,1.0,1
+great heaviness of eyelids,fullness in uterus,1.0,1
+great heaviness of eyelids,severe drawing in wrists,1.0,1
+great heaviness of eyelids,cutting in joints when closing hands,1.0,1
+great heaviness of eyelids,weakening leucorrhoea,1.0,1
+great heaviness of eyelids,pains remain only a short time in one place,1.0,1
+great heaviness of eyelids,very painful menses,1.0,1
+great heaviness of eyelids,knees weak when walking,1.0,1
+great heaviness of eyelids,spasmodic dysmenorrhoea,1.0,1
+great heaviness of eyelids,affects fingers,1.0,1
+great heaviness of eyelids,associated with deranged female sexual system,1.0,1
+great heaviness of eyelids,flying pains in arms,1.0,1
+great heaviness of eyelids,rheumatic conditions of small joints,1.0,1
+great heaviness of eyelids,dull pains in lumbar region,1.0,1
+great heaviness of eyelids,menses too soon,1.0,1
+great heaviness of eyelids,fingers very stiff,1.0,1
+great heaviness of eyelids,affects ankles,1.0,1
+great heaviness of eyelids,rheumatism of finger joints,1.0,1
+great heaviness of eyelids,rheumatic conditions of pregnancy,1.0,1
+great heaviness of eyelids,pains shift to another place,1.0,1
+great heaviness of eyelids,affects toes,1.0,1
+great heaviness of eyelids,swelling of wrists,1.0,1
+great heaviness of eyelids,tension in uterus,1.0,1
+great heaviness of eyelids,rheumatism especially of small joints,1.0,1
+great heaviness of eyelids,tremulous weakness over whole body,1.0,1
+great heaviness of eyelids,drawing pains in joints of legs,1.0,1
+great heaviness of eyelids,rheumatic stiffness of nape of neck,1.0,1
+great heaviness of eyelids,rheumatism of wrists,1.0,1
+great heaviness of eyelids,pains shifting to nape of neck,1.0,1
+great heaviness of eyelids,pains shift to nape of neck,1.0,1
+has to lift eyelids with hand,rigidity with pains,1.0,1
+has to lift eyelids with hand,severe pains in loins,1.0,1
+has to lift eyelids with hand,severe pains in back,1.0,1
+has to lift eyelids with hand,drawing pains in joints of arms,1.0,1
+has to lift eyelids with hand,severe drawing in sterno-cleidomastoid muscle,1.0,1
+has to lift eyelids with hand,affects wrists,1.0,1
+has to lift eyelids with hand,severe drawing in fingers,1.0,1
+has to lift eyelids with hand,pain in feet,1.0,1
+has to lift eyelids with hand,acrid leucorrhoea,1.0,1
+has to lift eyelids with hand,sharp pain in knee joints,1.0,1
+has to lift eyelids with hand,oppression of chest with pains,1.0,1
+has to lift eyelids with hand,sensation as if uterus were congested,1.0,1
+has to lift eyelids with hand,pain in toes,1.0,1
+has to lift eyelids with hand,fullness in uterus,1.0,1
+has to lift eyelids with hand,severe drawing in wrists,1.0,1
+has to lift eyelids with hand,cutting in joints when closing hands,1.0,1
+has to lift eyelids with hand,weakening leucorrhoea,1.0,1
+has to lift eyelids with hand,pains remain only a short time in one place,1.0,1
+has to lift eyelids with hand,very painful menses,1.0,1
+has to lift eyelids with hand,knees weak when walking,1.0,1
+has to lift eyelids with hand,spasmodic dysmenorrhoea,1.0,1
+has to lift eyelids with hand,affects fingers,1.0,1
+has to lift eyelids with hand,great heaviness of eyelids,1.0,1
+has to lift eyelids with hand,associated with deranged female sexual system,1.0,1
+has to lift eyelids with hand,flying pains in arms,1.0,1
+has to lift eyelids with hand,rheumatic conditions of small joints,1.0,1
+has to lift eyelids with hand,dull pains in lumbar region,1.0,1
+has to lift eyelids with hand,menses too soon,1.0,1
+has to lift eyelids with hand,fingers very stiff,1.0,1
+has to lift eyelids with hand,affects ankles,1.0,1
+has to lift eyelids with hand,rheumatism of finger joints,1.0,1
+has to lift eyelids with hand,rheumatic conditions of pregnancy,1.0,1
+has to lift eyelids with hand,pains shift to another place,1.0,1
+has to lift eyelids with hand,affects toes,1.0,1
+has to lift eyelids with hand,swelling of wrists,1.0,1
+has to lift eyelids with hand,tension in uterus,1.0,1
+has to lift eyelids with hand,rheumatism especially of small joints,1.0,1
+has to lift eyelids with hand,tremulous weakness over whole body,1.0,1
+has to lift eyelids with hand,drawing pains in joints of legs,1.0,1
+has to lift eyelids with hand,rheumatic stiffness of nape of neck,1.0,1
+has to lift eyelids with hand,rheumatism of wrists,1.0,1
+has to lift eyelids with hand,pains shifting to nape of neck,1.0,1
+has to lift eyelids with hand,pains shift to nape of neck,1.0,1
+drawing pains in joints of legs,rigidity with pains,1.0,1
+drawing pains in joints of legs,severe pains in loins,1.0,1
+drawing pains in joints of legs,severe pains in back,1.0,1
+drawing pains in joints of legs,drawing pains in joints of arms,1.0,1
+drawing pains in joints of legs,severe drawing in sterno-cleidomastoid muscle,1.0,1
+drawing pains in joints of legs,affects wrists,1.0,1
+drawing pains in joints of legs,severe drawing in fingers,1.0,1
+drawing pains in joints of legs,pain in feet,1.0,1
+drawing pains in joints of legs,acrid leucorrhoea,1.0,1
+drawing pains in joints of legs,sharp pain in knee joints,1.0,1
+drawing pains in joints of legs,has to lift eyelids with hand,1.0,1
+drawing pains in joints of legs,oppression of chest with pains,1.0,1
+drawing pains in joints of legs,sensation as if uterus were congested,1.0,1
+drawing pains in joints of legs,pain in toes,1.0,1
+drawing pains in joints of legs,fullness in uterus,1.0,1
+drawing pains in joints of legs,severe drawing in wrists,1.0,1
+drawing pains in joints of legs,cutting in joints when closing hands,1.0,1
+drawing pains in joints of legs,weakening leucorrhoea,1.0,1
+drawing pains in joints of legs,pains remain only a short time in one place,1.0,1
+drawing pains in joints of legs,very painful menses,1.0,1
+drawing pains in joints of legs,knees weak when walking,1.0,1
+drawing pains in joints of legs,spasmodic dysmenorrhoea,1.0,1
+drawing pains in joints of legs,affects fingers,1.0,1
+drawing pains in joints of legs,great heaviness of eyelids,1.0,1
+drawing pains in joints of legs,associated with deranged female sexual system,1.0,1
+drawing pains in joints of legs,flying pains in arms,1.0,1
+drawing pains in joints of legs,rheumatic conditions of small joints,1.0,1
+drawing pains in joints of legs,dull pains in lumbar region,1.0,1
+drawing pains in joints of legs,menses too soon,1.0,1
+drawing pains in joints of legs,fingers very stiff,1.0,1
+drawing pains in joints of legs,affects ankles,1.0,1
+drawing pains in joints of legs,rheumatism of finger joints,1.0,1
+drawing pains in joints of legs,rheumatic conditions of pregnancy,1.0,1
+drawing pains in joints of legs,pains shift to another place,1.0,1
+drawing pains in joints of legs,affects toes,1.0,1
+drawing pains in joints of legs,swelling of wrists,1.0,1
+drawing pains in joints of legs,tension in uterus,1.0,1
+drawing pains in joints of legs,rheumatism especially of small joints,1.0,1
+drawing pains in joints of legs,tremulous weakness over whole body,1.0,1
+drawing pains in joints of legs,rheumatic stiffness of nape of neck,1.0,1
+drawing pains in joints of legs,rheumatism of wrists,1.0,1
+drawing pains in joints of legs,pains shifting to nape of neck,1.0,1
+drawing pains in joints of legs,pains shift to nape of neck,1.0,1
+pain in toes,rigidity with pains,1.0,1
+pain in toes,severe pains in loins,1.0,1
+pain in toes,severe pains in back,1.0,1
+pain in toes,drawing pains in joints of arms,1.0,1
+pain in toes,severe drawing in sterno-cleidomastoid muscle,1.0,1
+pain in toes,affects wrists,1.0,1
+pain in toes,severe drawing in fingers,1.0,1
+pain in toes,pain in feet,1.0,1
+pain in toes,acrid leucorrhoea,1.0,1
+pain in toes,sharp pain in knee joints,1.0,1
+pain in toes,has to lift eyelids with hand,1.0,1
+pain in toes,oppression of chest with pains,1.0,1
+pain in toes,sensation as if uterus were congested,1.0,1
+pain in toes,fullness in uterus,1.0,1
+pain in toes,severe drawing in wrists,1.0,1
+pain in toes,cutting in joints when closing hands,1.0,1
+pain in toes,weakening leucorrhoea,1.0,1
+pain in toes,pains remain only a short time in one place,1.0,1
+pain in toes,very painful menses,1.0,1
+pain in toes,knees weak when walking,1.0,1
+pain in toes,spasmodic dysmenorrhoea,1.0,1
+pain in toes,affects fingers,1.0,1
+pain in toes,great heaviness of eyelids,1.0,1
+pain in toes,associated with deranged female sexual system,1.0,1
+pain in toes,flying pains in arms,1.0,1
+pain in toes,rheumatic conditions of small joints,1.0,1
+pain in toes,dull pains in lumbar region,1.0,1
+pain in toes,menses too soon,1.0,1
+pain in toes,fingers very stiff,1.0,1
+pain in toes,affects ankles,1.0,1
+pain in toes,rheumatism of finger joints,1.0,1
+pain in toes,rheumatic conditions of pregnancy,1.0,1
+pain in toes,pains shift to another place,1.0,1
+pain in toes,affects toes,1.0,1
+pain in toes,swelling of wrists,1.0,1
+pain in toes,tension in uterus,1.0,1
+pain in toes,rheumatism especially of small joints,1.0,1
+pain in toes,tremulous weakness over whole body,1.0,1
+pain in toes,drawing pains in joints of legs,1.0,1
+pain in toes,rheumatic stiffness of nape of neck,1.0,1
+pain in toes,rheumatism of wrists,1.0,1
+pain in toes,pains shifting to nape of neck,1.0,1
+pain in toes,pains shift to nape of neck,1.0,1
+rheumatism of finger joints,rigidity with pains,1.0,1
+rheumatism of finger joints,severe pains in loins,1.0,1
+rheumatism of finger joints,severe pains in back,1.0,1
+rheumatism of finger joints,drawing pains in joints of arms,1.0,1
+rheumatism of finger joints,severe drawing in sterno-cleidomastoid muscle,1.0,1
+rheumatism of finger joints,affects wrists,1.0,1
+rheumatism of finger joints,severe drawing in fingers,1.0,1
+rheumatism of finger joints,pain in feet,1.0,1
+rheumatism of finger joints,acrid leucorrhoea,1.0,1
+rheumatism of finger joints,sharp pain in knee joints,1.0,1
+rheumatism of finger joints,has to lift eyelids with hand,1.0,1
+rheumatism of finger joints,oppression of chest with pains,1.0,1
+rheumatism of finger joints,sensation as if uterus were congested,1.0,1
+rheumatism of finger joints,pain in toes,1.0,1
+rheumatism of finger joints,fullness in uterus,1.0,1
+rheumatism of finger joints,severe drawing in wrists,1.0,1
+rheumatism of finger joints,cutting in joints when closing hands,1.0,1
+rheumatism of finger joints,weakening leucorrhoea,1.0,1
+rheumatism of finger joints,pains remain only a short time in one place,1.0,1
+rheumatism of finger joints,very painful menses,1.0,1
+rheumatism of finger joints,knees weak when walking,1.0,1
+rheumatism of finger joints,spasmodic dysmenorrhoea,1.0,1
+rheumatism of finger joints,affects fingers,1.0,1
+rheumatism of finger joints,great heaviness of eyelids,1.0,1
+rheumatism of finger joints,associated with deranged female sexual system,1.0,1
+rheumatism of finger joints,flying pains in arms,1.0,1
+rheumatism of finger joints,rheumatic conditions of small joints,1.0,1
+rheumatism of finger joints,dull pains in lumbar region,1.0,1
+rheumatism of finger joints,menses too soon,1.0,1
+rheumatism of finger joints,fingers very stiff,1.0,1
+rheumatism of finger joints,affects ankles,1.0,1
+rheumatism of finger joints,rheumatic conditions of pregnancy,1.0,1
+rheumatism of finger joints,pains shift to another place,1.0,1
+rheumatism of finger joints,affects toes,1.0,1
+rheumatism of finger joints,swelling of wrists,1.0,1
+rheumatism of finger joints,tension in uterus,1.0,1
+rheumatism of finger joints,rheumatism especially of small joints,1.0,1
+rheumatism of finger joints,tremulous weakness over whole body,1.0,1
+rheumatism of finger joints,drawing pains in joints of legs,1.0,1
+rheumatism of finger joints,rheumatic stiffness of nape of neck,1.0,1
+rheumatism of finger joints,rheumatism of wrists,1.0,1
+rheumatism of finger joints,pains shifting to nape of neck,1.0,1
+rheumatism of finger joints,pains shift to nape of neck,1.0,1
+rheumatic stiffness of nape of neck,rigidity with pains,1.0,1
+rheumatic stiffness of nape of neck,severe pains in loins,1.0,1
+rheumatic stiffness of nape of neck,severe pains in back,1.0,1
+rheumatic stiffness of nape of neck,drawing pains in joints of arms,1.0,1
+rheumatic stiffness of nape of neck,severe drawing in sterno-cleidomastoid muscle,1.0,1
+rheumatic stiffness of nape of neck,affects wrists,1.0,1
+rheumatic stiffness of nape of neck,severe drawing in fingers,1.0,1
+rheumatic stiffness of nape of neck,pain in feet,1.0,1
+rheumatic stiffness of nape of neck,acrid leucorrhoea,1.0,1
+rheumatic stiffness of nape of neck,sharp pain in knee joints,1.0,1
+rheumatic stiffness of nape of neck,has to lift eyelids with hand,1.0,1
+rheumatic stiffness of nape of neck,oppression of chest with pains,1.0,1
+rheumatic stiffness of nape of neck,sensation as if uterus were congested,1.0,1
+rheumatic stiffness of nape of neck,pain in toes,1.0,1
+rheumatic stiffness of nape of neck,fullness in uterus,1.0,1
+rheumatic stiffness of nape of neck,severe drawing in wrists,1.0,1
+rheumatic stiffness of nape of neck,cutting in joints when closing hands,1.0,1
+rheumatic stiffness of nape of neck,weakening leucorrhoea,1.0,1
+rheumatic stiffness of nape of neck,pains remain only a short time in one place,1.0,1
+rheumatic stiffness of nape of neck,very painful menses,1.0,1
+rheumatic stiffness of nape of neck,knees weak when walking,1.0,1
+rheumatic stiffness of nape of neck,spasmodic dysmenorrhoea,1.0,1
+rheumatic stiffness of nape of neck,affects fingers,1.0,1
+rheumatic stiffness of nape of neck,great heaviness of eyelids,1.0,1
+rheumatic stiffness of nape of neck,associated with deranged female sexual system,1.0,1
+rheumatic stiffness of nape of neck,flying pains in arms,1.0,1
+rheumatic stiffness of nape of neck,rheumatic conditions of small joints,1.0,1
+rheumatic stiffness of nape of neck,dull pains in lumbar region,1.0,1
+rheumatic stiffness of nape of neck,menses too soon,1.0,1
+rheumatic stiffness of nape of neck,fingers very stiff,1.0,1
+rheumatic stiffness of nape of neck,affects ankles,1.0,1
+rheumatic stiffness of nape of neck,rheumatism of finger joints,1.0,1
+rheumatic stiffness of nape of neck,rheumatic conditions of pregnancy,1.0,1
+rheumatic stiffness of nape of neck,pains shift to another place,1.0,1
+rheumatic stiffness of nape of neck,affects toes,1.0,1
+rheumatic stiffness of nape of neck,swelling of wrists,1.0,1
+rheumatic stiffness of nape of neck,tension in uterus,1.0,1
+rheumatic stiffness of nape of neck,rheumatism especially of small joints,1.0,1
+rheumatic stiffness of nape of neck,tremulous weakness over whole body,1.0,1
+rheumatic stiffness of nape of neck,drawing pains in joints of legs,1.0,1
+rheumatic stiffness of nape of neck,rheumatism of wrists,1.0,1
+rheumatic stiffness of nape of neck,pains shifting to nape of neck,1.0,1
+rheumatic stiffness of nape of neck,pains shift to nape of neck,1.0,1

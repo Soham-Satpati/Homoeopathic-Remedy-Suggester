@@ -1,0 +1,131 @@
+### Cluster 20 — Symptoms (11)
+Symptom,Frequency
+photophobia,2
+chill at 5 p.m.,1
+violent paroxysms of pain in eye,1
+rheumatic affections of sclerotic coat of eye,1
+lachrymation,1
+periodic manifestations,1
+intense pain in eyes,1
+eye pain daily at 5 p.m.,1
+severe neuralgic pain in eye during iritis,2
+iritis with malarial troubles,1
+intense pain around eyes,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+chininum muriaticum,11
+cinchona officinalis,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+rheumatic affections of sclerotic coat of eye,photophobia,1.0,1
+rheumatic affections of sclerotic coat of eye,chill at 5 p.m.,1.0,1
+rheumatic affections of sclerotic coat of eye,violent paroxysms of pain in eye,1.0,1
+rheumatic affections of sclerotic coat of eye,lachrymation,1.0,1
+rheumatic affections of sclerotic coat of eye,periodic manifestations,1.0,1
+rheumatic affections of sclerotic coat of eye,intense pain in eyes,1.0,1
+rheumatic affections of sclerotic coat of eye,eye pain daily at 5 p.m.,1.0,1
+rheumatic affections of sclerotic coat of eye,severe neuralgic pain in eye during iritis,1.0,1
+rheumatic affections of sclerotic coat of eye,iritis with malarial troubles,1.0,1
+rheumatic affections of sclerotic coat of eye,intense pain around eyes,1.0,1
+photophobia,chill at 5 p.m.,0.5,1
+photophobia,violent paroxysms of pain in eye,0.5,1
+photophobia,rheumatic affections of sclerotic coat of eye,0.5,1
+photophobia,lachrymation,0.5,1
+photophobia,periodic manifestations,0.5,1
+photophobia,intense pain in eyes,0.5,1
+photophobia,eye pain daily at 5 p.m.,0.5,1
+photophobia,severe neuralgic pain in eye during iritis,0.5,1
+photophobia,iritis with malarial troubles,0.5,1
+photophobia,intense pain around eyes,0.5,1
+intense pain around eyes,photophobia,1.0,1
+intense pain around eyes,chill at 5 p.m.,1.0,1
+intense pain around eyes,violent paroxysms of pain in eye,1.0,1
+intense pain around eyes,rheumatic affections of sclerotic coat of eye,1.0,1
+intense pain around eyes,lachrymation,1.0,1
+intense pain around eyes,periodic manifestations,1.0,1
+intense pain around eyes,intense pain in eyes,1.0,1
+intense pain around eyes,eye pain daily at 5 p.m.,1.0,1
+intense pain around eyes,severe neuralgic pain in eye during iritis,1.0,1
+intense pain around eyes,iritis with malarial troubles,1.0,1
+severe neuralgic pain in eye during iritis,photophobia,1.0,1
+severe neuralgic pain in eye during iritis,chill at 5 p.m.,1.0,1
+severe neuralgic pain in eye during iritis,violent paroxysms of pain in eye,1.0,1
+severe neuralgic pain in eye during iritis,rheumatic affections of sclerotic coat of eye,1.0,1
+severe neuralgic pain in eye during iritis,lachrymation,1.0,1
+severe neuralgic pain in eye during iritis,periodic manifestations,1.0,1
+severe neuralgic pain in eye during iritis,intense pain in eyes,1.0,1
+severe neuralgic pain in eye during iritis,eye pain daily at 5 p.m.,1.0,1
+severe neuralgic pain in eye during iritis,iritis with malarial troubles,1.0,1
+severe neuralgic pain in eye during iritis,intense pain around eyes,1.0,1
+iritis with malarial troubles,photophobia,1.0,1
+iritis with malarial troubles,chill at 5 p.m.,1.0,1
+iritis with malarial troubles,violent paroxysms of pain in eye,1.0,1
+iritis with malarial troubles,rheumatic affections of sclerotic coat of eye,1.0,1
+iritis with malarial troubles,lachrymation,1.0,1
+iritis with malarial troubles,periodic manifestations,1.0,1
+iritis with malarial troubles,intense pain in eyes,1.0,1
+iritis with malarial troubles,eye pain daily at 5 p.m.,1.0,1
+iritis with malarial troubles,severe neuralgic pain in eye during iritis,1.0,1
+iritis with malarial troubles,intense pain around eyes,1.0,1
+lachrymation,photophobia,1.0,1
+lachrymation,chill at 5 p.m.,1.0,1
+lachrymation,violent paroxysms of pain in eye,1.0,1
+lachrymation,rheumatic affections of sclerotic coat of eye,1.0,1
+lachrymation,periodic manifestations,1.0,1
+lachrymation,intense pain in eyes,1.0,1
+lachrymation,eye pain daily at 5 p.m.,1.0,1
+lachrymation,severe neuralgic pain in eye during iritis,1.0,1
+lachrymation,iritis with malarial troubles,1.0,1
+lachrymation,intense pain around eyes,1.0,1
+intense pain in eyes,photophobia,1.0,1
+intense pain in eyes,chill at 5 p.m.,1.0,1
+intense pain in eyes,violent paroxysms of pain in eye,1.0,1
+intense pain in eyes,rheumatic affections of sclerotic coat of eye,1.0,1
+intense pain in eyes,lachrymation,1.0,1
+intense pain in eyes,periodic manifestations,1.0,1
+intense pain in eyes,eye pain daily at 5 p.m.,1.0,1
+intense pain in eyes,severe neuralgic pain in eye during iritis,1.0,1
+intense pain in eyes,iritis with malarial troubles,1.0,1
+intense pain in eyes,intense pain around eyes,1.0,1
+violent paroxysms of pain in eye,photophobia,1.0,1
+violent paroxysms of pain in eye,chill at 5 p.m.,1.0,1
+violent paroxysms of pain in eye,rheumatic affections of sclerotic coat of eye,1.0,1
+violent paroxysms of pain in eye,lachrymation,1.0,1
+violent paroxysms of pain in eye,periodic manifestations,1.0,1
+violent paroxysms of pain in eye,intense pain in eyes,1.0,1
+violent paroxysms of pain in eye,eye pain daily at 5 p.m.,1.0,1
+violent paroxysms of pain in eye,severe neuralgic pain in eye during iritis,1.0,1
+violent paroxysms of pain in eye,iritis with malarial troubles,1.0,1
+violent paroxysms of pain in eye,intense pain around eyes,1.0,1
+chill at 5 p.m.,photophobia,1.0,1
+chill at 5 p.m.,violent paroxysms of pain in eye,1.0,1
+chill at 5 p.m.,rheumatic affections of sclerotic coat of eye,1.0,1
+chill at 5 p.m.,lachrymation,1.0,1
+chill at 5 p.m.,periodic manifestations,1.0,1
+chill at 5 p.m.,intense pain in eyes,1.0,1
+chill at 5 p.m.,eye pain daily at 5 p.m.,1.0,1
+chill at 5 p.m.,severe neuralgic pain in eye during iritis,1.0,1
+chill at 5 p.m.,iritis with malarial troubles,1.0,1
+chill at 5 p.m.,intense pain around eyes,1.0,1
+eye pain daily at 5 p.m.,photophobia,1.0,1
+eye pain daily at 5 p.m.,chill at 5 p.m.,1.0,1
+eye pain daily at 5 p.m.,violent paroxysms of pain in eye,1.0,1
+eye pain daily at 5 p.m.,rheumatic affections of sclerotic coat of eye,1.0,1
+eye pain daily at 5 p.m.,lachrymation,1.0,1
+eye pain daily at 5 p.m.,periodic manifestations,1.0,1
+eye pain daily at 5 p.m.,intense pain in eyes,1.0,1
+eye pain daily at 5 p.m.,severe neuralgic pain in eye during iritis,1.0,1
+eye pain daily at 5 p.m.,iritis with malarial troubles,1.0,1
+eye pain daily at 5 p.m.,intense pain around eyes,1.0,1
+periodic manifestations,photophobia,1.0,1
+periodic manifestations,chill at 5 p.m.,1.0,1
+periodic manifestations,violent paroxysms of pain in eye,1.0,1
+periodic manifestations,rheumatic affections of sclerotic coat of eye,1.0,1
+periodic manifestations,lachrymation,1.0,1
+periodic manifestations,intense pain in eyes,1.0,1
+periodic manifestations,eye pain daily at 5 p.m.,1.0,1
+periodic manifestations,severe neuralgic pain in eye during iritis,1.0,1
+periodic manifestations,iritis with malarial troubles,1.0,1
+periodic manifestations,intense pain around eyes,1.0,1

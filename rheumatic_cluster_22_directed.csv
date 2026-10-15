@@ -1,0 +1,155 @@
+### Cluster 22 — Symptoms (12)
+Symptom,Frequency
+weakness of limbs,2
+aching pain in knees,1
+palpitation and anxiety,1
+stiffness in arms,2
+vertigo when looking fixedly or looking downward,1
+absence of thought,1
+violent beating of heart,1
+aching in thighs,1
+pain in back and small of back,1
+pressing pain in shoulder,1
+feet as if asleep,1
+cramp-like pains in arms and hands,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+oleander,12
+actea spicata,1
+sulphuricum acidum,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+violent beating of heart,aching pain in knees,1.0,1
+violent beating of heart,palpitation and anxiety,1.0,1
+violent beating of heart,weakness of limbs,1.0,1
+violent beating of heart,stiffness in arms,1.0,1
+violent beating of heart,vertigo when looking fixedly or looking downward,1.0,1
+violent beating of heart,absence of thought,1.0,1
+violent beating of heart,aching in thighs,1.0,1
+violent beating of heart,pain in back and small of back,1.0,1
+violent beating of heart,pressing pain in shoulder,1.0,1
+violent beating of heart,feet as if asleep,1.0,1
+violent beating of heart,cramp-like pains in arms and hands,1.0,1
+feet as if asleep,aching pain in knees,1.0,1
+feet as if asleep,palpitation and anxiety,1.0,1
+feet as if asleep,weakness of limbs,1.0,1
+feet as if asleep,stiffness in arms,1.0,1
+feet as if asleep,vertigo when looking fixedly or looking downward,1.0,1
+feet as if asleep,absence of thought,1.0,1
+feet as if asleep,violent beating of heart,1.0,1
+feet as if asleep,aching in thighs,1.0,1
+feet as if asleep,pain in back and small of back,1.0,1
+feet as if asleep,pressing pain in shoulder,1.0,1
+feet as if asleep,cramp-like pains in arms and hands,1.0,1
+pain in back and small of back,aching pain in knees,1.0,1
+pain in back and small of back,palpitation and anxiety,1.0,1
+pain in back and small of back,weakness of limbs,1.0,1
+pain in back and small of back,stiffness in arms,1.0,1
+pain in back and small of back,vertigo when looking fixedly or looking downward,1.0,1
+pain in back and small of back,absence of thought,1.0,1
+pain in back and small of back,violent beating of heart,1.0,1
+pain in back and small of back,aching in thighs,1.0,1
+pain in back and small of back,pressing pain in shoulder,1.0,1
+pain in back and small of back,feet as if asleep,1.0,1
+pain in back and small of back,cramp-like pains in arms and hands,1.0,1
+aching pain in knees,palpitation and anxiety,1.0,1
+aching pain in knees,weakness of limbs,1.0,1
+aching pain in knees,stiffness in arms,1.0,1
+aching pain in knees,vertigo when looking fixedly or looking downward,1.0,1
+aching pain in knees,absence of thought,1.0,1
+aching pain in knees,violent beating of heart,1.0,1
+aching pain in knees,aching in thighs,1.0,1
+aching pain in knees,pain in back and small of back,1.0,1
+aching pain in knees,pressing pain in shoulder,1.0,1
+aching pain in knees,feet as if asleep,1.0,1
+aching pain in knees,cramp-like pains in arms and hands,1.0,1
+pressing pain in shoulder,aching pain in knees,1.0,1
+pressing pain in shoulder,palpitation and anxiety,1.0,1
+pressing pain in shoulder,weakness of limbs,1.0,1
+pressing pain in shoulder,stiffness in arms,1.0,1
+pressing pain in shoulder,vertigo when looking fixedly or looking downward,1.0,1
+pressing pain in shoulder,absence of thought,1.0,1
+pressing pain in shoulder,violent beating of heart,1.0,1
+pressing pain in shoulder,aching in thighs,1.0,1
+pressing pain in shoulder,pain in back and small of back,1.0,1
+pressing pain in shoulder,feet as if asleep,1.0,1
+pressing pain in shoulder,cramp-like pains in arms and hands,1.0,1
+absence of thought,aching pain in knees,1.0,1
+absence of thought,palpitation and anxiety,1.0,1
+absence of thought,weakness of limbs,1.0,1
+absence of thought,stiffness in arms,1.0,1
+absence of thought,vertigo when looking fixedly or looking downward,1.0,1
+absence of thought,violent beating of heart,1.0,1
+absence of thought,aching in thighs,1.0,1
+absence of thought,pain in back and small of back,1.0,1
+absence of thought,pressing pain in shoulder,1.0,1
+absence of thought,feet as if asleep,1.0,1
+absence of thought,cramp-like pains in arms and hands,1.0,1
+palpitation and anxiety,aching pain in knees,1.0,1
+palpitation and anxiety,weakness of limbs,1.0,1
+palpitation and anxiety,stiffness in arms,1.0,1
+palpitation and anxiety,vertigo when looking fixedly or looking downward,1.0,1
+palpitation and anxiety,absence of thought,1.0,1
+palpitation and anxiety,violent beating of heart,1.0,1
+palpitation and anxiety,aching in thighs,1.0,1
+palpitation and anxiety,pain in back and small of back,1.0,1
+palpitation and anxiety,pressing pain in shoulder,1.0,1
+palpitation and anxiety,feet as if asleep,1.0,1
+palpitation and anxiety,cramp-like pains in arms and hands,1.0,1
+vertigo when looking fixedly or looking downward,aching pain in knees,1.0,1
+vertigo when looking fixedly or looking downward,palpitation and anxiety,1.0,1
+vertigo when looking fixedly or looking downward,weakness of limbs,1.0,1
+vertigo when looking fixedly or looking downward,stiffness in arms,1.0,1
+vertigo when looking fixedly or looking downward,absence of thought,1.0,1
+vertigo when looking fixedly or looking downward,violent beating of heart,1.0,1
+vertigo when looking fixedly or looking downward,aching in thighs,1.0,1
+vertigo when looking fixedly or looking downward,pain in back and small of back,1.0,1
+vertigo when looking fixedly or looking downward,pressing pain in shoulder,1.0,1
+vertigo when looking fixedly or looking downward,feet as if asleep,1.0,1
+vertigo when looking fixedly or looking downward,cramp-like pains in arms and hands,1.0,1
+cramp-like pains in arms and hands,aching pain in knees,1.0,1
+cramp-like pains in arms and hands,palpitation and anxiety,1.0,1
+cramp-like pains in arms and hands,weakness of limbs,1.0,1
+cramp-like pains in arms and hands,stiffness in arms,1.0,1
+cramp-like pains in arms and hands,vertigo when looking fixedly or looking downward,1.0,1
+cramp-like pains in arms and hands,absence of thought,1.0,1
+cramp-like pains in arms and hands,violent beating of heart,1.0,1
+cramp-like pains in arms and hands,aching in thighs,1.0,1
+cramp-like pains in arms and hands,pain in back and small of back,1.0,1
+cramp-like pains in arms and hands,pressing pain in shoulder,1.0,1
+cramp-like pains in arms and hands,feet as if asleep,1.0,1
+weakness of limbs,aching pain in knees,0.5,1
+weakness of limbs,palpitation and anxiety,0.5,1
+weakness of limbs,stiffness in arms,0.5,1
+weakness of limbs,vertigo when looking fixedly or looking downward,0.5,1
+weakness of limbs,absence of thought,0.5,1
+weakness of limbs,violent beating of heart,0.5,1
+weakness of limbs,aching in thighs,0.5,1
+weakness of limbs,pain in back and small of back,0.5,1
+weakness of limbs,pressing pain in shoulder,0.5,1
+weakness of limbs,feet as if asleep,0.5,1
+weakness of limbs,cramp-like pains in arms and hands,0.5,1
+aching in thighs,aching pain in knees,1.0,1
+aching in thighs,palpitation and anxiety,1.0,1
+aching in thighs,weakness of limbs,1.0,1
+aching in thighs,stiffness in arms,1.0,1
+aching in thighs,vertigo when looking fixedly or looking downward,1.0,1
+aching in thighs,absence of thought,1.0,1
+aching in thighs,violent beating of heart,1.0,1
+aching in thighs,pain in back and small of back,1.0,1
+aching in thighs,pressing pain in shoulder,1.0,1
+aching in thighs,feet as if asleep,1.0,1
+aching in thighs,cramp-like pains in arms and hands,1.0,1
+stiffness in arms,aching pain in knees,0.5,1
+stiffness in arms,palpitation and anxiety,0.5,1
+stiffness in arms,weakness of limbs,0.5,1
+stiffness in arms,vertigo when looking fixedly or looking downward,0.5,1
+stiffness in arms,absence of thought,0.5,1
+stiffness in arms,violent beating of heart,0.5,1
+stiffness in arms,aching in thighs,0.5,1
+stiffness in arms,pain in back and small of back,0.5,1
+stiffness in arms,pressing pain in shoulder,0.5,1
+stiffness in arms,feet as if asleep,0.5,1
+stiffness in arms,cramp-like pains in arms and hands,0.5,1

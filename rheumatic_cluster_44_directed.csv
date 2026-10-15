@@ -1,0 +1,1946 @@
+### Cluster 44 — Symptoms (44)
+Symptom,Frequency
+loss of consciousness,2
+cramps in neck muscles,1
+shoulder stitches prevent motion,1
+rheumatism following epileptic convulsion,1
+frequent jerking in fingers,1
+prostration after attack,1
+tetanic stiffness,2
+pain on inner surface of scapula,1
+frequent twitching of muscles,1
+jerking with numbness of limbs,2
+stupid,1
+arthritic pain in nape,1
+lower limb pain worse at night,1
+fearful distortions of limbs,1
+rheumatism following concussion,1
+muscles of neck become hard,1
+sensation of stiffness of limbs,1
+bruised pain on right scapula,1
+difficulty turning head back after turning,1
+muscles of neck contract,1
+numbness of fingers,1
+swelling in left knee,1
+great weakness of legs after slight exercise,2
+trembling of hand,1
+frequent stitches in arm,1
+bruised sensation in forearms,1
+frequent involuntary jerking of muscles,1
+tearing jerking in coccyx,2
+ending pain down to feet,1
+epileptiform convulsions,1
+frequent jerking in arm,1
+excitable,1
+tension in neck muscles,1
+drawing pain in calves,1
+sensation of heaviness of arms,1
+back bent backward like an arch,1
+violent stitches in shoulder,2
+nape pain draws head backward,1
+ending pain in anterior lower limb muscles,1
+trembling of legs,1
+frequent stitches in fingers,1
+great weakness of arms after slight exercise,2
+great weakness after attack,2
+creeping in hands,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+cicuta virosa,44
+actea spicata,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+frequent involuntary jerking of muscles,cramps in neck muscles,1.0,1
+frequent involuntary jerking of muscles,shoulder stitches prevent motion,1.0,1
+frequent involuntary jerking of muscles,rheumatism following epileptic convulsion,1.0,1
+frequent involuntary jerking of muscles,frequent jerking in fingers,1.0,1
+frequent involuntary jerking of muscles,prostration after attack,1.0,1
+frequent involuntary jerking of muscles,tetanic stiffness,1.0,1
+frequent involuntary jerking of muscles,pain on inner surface of scapula,1.0,1
+frequent involuntary jerking of muscles,frequent twitching of muscles,1.0,1
+frequent involuntary jerking of muscles,jerking with numbness of limbs,1.0,1
+frequent involuntary jerking of muscles,stupid,1.0,1
+frequent involuntary jerking of muscles,arthritic pain in nape,1.0,1
+frequent involuntary jerking of muscles,lower limb pain worse at night,1.0,1
+frequent involuntary jerking of muscles,fearful distortions of limbs,1.0,1
+frequent involuntary jerking of muscles,rheumatism following concussion,1.0,1
+frequent involuntary jerking of muscles,muscles of neck become hard,1.0,1
+frequent involuntary jerking of muscles,sensation of stiffness of limbs,1.0,1
+frequent involuntary jerking of muscles,bruised pain on right scapula,1.0,1
+frequent involuntary jerking of muscles,difficulty turning head back after turning,1.0,1
+frequent involuntary jerking of muscles,muscles of neck contract,1.0,1
+frequent involuntary jerking of muscles,numbness of fingers,1.0,1
+frequent involuntary jerking of muscles,swelling in left knee,1.0,1
+frequent involuntary jerking of muscles,great weakness of legs after slight exercise,1.0,1
+frequent involuntary jerking of muscles,trembling of hand,1.0,1
+frequent involuntary jerking of muscles,frequent stitches in arm,1.0,1
+frequent involuntary jerking of muscles,bruised sensation in forearms,1.0,1
+frequent involuntary jerking of muscles,tearing jerking in coccyx,1.0,1
+frequent involuntary jerking of muscles,ending pain down to feet,1.0,1
+frequent involuntary jerking of muscles,epileptiform convulsions,1.0,1
+frequent involuntary jerking of muscles,frequent jerking in arm,1.0,1
+frequent involuntary jerking of muscles,excitable,1.0,1
+frequent involuntary jerking of muscles,tension in neck muscles,1.0,1
+frequent involuntary jerking of muscles,drawing pain in calves,1.0,1
+frequent involuntary jerking of muscles,sensation of heaviness of arms,1.0,1
+frequent involuntary jerking of muscles,loss of consciousness,1.0,1
+frequent involuntary jerking of muscles,back bent backward like an arch,1.0,1
+frequent involuntary jerking of muscles,violent stitches in shoulder,1.0,1
+frequent involuntary jerking of muscles,nape pain draws head backward,1.0,1
+frequent involuntary jerking of muscles,ending pain in anterior lower limb muscles,1.0,1
+frequent involuntary jerking of muscles,trembling of legs,1.0,1
+frequent involuntary jerking of muscles,frequent stitches in fingers,1.0,1
+frequent involuntary jerking of muscles,great weakness of arms after slight exercise,1.0,1
+frequent involuntary jerking of muscles,great weakness after attack,1.0,1
+frequent involuntary jerking of muscles,creeping in hands,1.0,1
+fearful distortions of limbs,cramps in neck muscles,1.0,1
+fearful distortions of limbs,shoulder stitches prevent motion,1.0,1
+fearful distortions of limbs,rheumatism following epileptic convulsion,1.0,1
+fearful distortions of limbs,frequent jerking in fingers,1.0,1
+fearful distortions of limbs,prostration after attack,1.0,1
+fearful distortions of limbs,tetanic stiffness,1.0,1
+fearful distortions of limbs,pain on inner surface of scapula,1.0,1
+fearful distortions of limbs,frequent twitching of muscles,1.0,1
+fearful distortions of limbs,jerking with numbness of limbs,1.0,1
+fearful distortions of limbs,stupid,1.0,1
+fearful distortions of limbs,arthritic pain in nape,1.0,1
+fearful distortions of limbs,lower limb pain worse at night,1.0,1
+fearful distortions of limbs,rheumatism following concussion,1.0,1
+fearful distortions of limbs,muscles of neck become hard,1.0,1
+fearful distortions of limbs,sensation of stiffness of limbs,1.0,1
+fearful distortions of limbs,bruised pain on right scapula,1.0,1
+fearful distortions of limbs,difficulty turning head back after turning,1.0,1
+fearful distortions of limbs,muscles of neck contract,1.0,1
+fearful distortions of limbs,numbness of fingers,1.0,1
+fearful distortions of limbs,swelling in left knee,1.0,1
+fearful distortions of limbs,great weakness of legs after slight exercise,1.0,1
+fearful distortions of limbs,trembling of hand,1.0,1
+fearful distortions of limbs,frequent stitches in arm,1.0,1
+fearful distortions of limbs,bruised sensation in forearms,1.0,1
+fearful distortions of limbs,frequent involuntary jerking of muscles,1.0,1
+fearful distortions of limbs,tearing jerking in coccyx,1.0,1
+fearful distortions of limbs,ending pain down to feet,1.0,1
+fearful distortions of limbs,epileptiform convulsions,1.0,1
+fearful distortions of limbs,frequent jerking in arm,1.0,1
+fearful distortions of limbs,excitable,1.0,1
+fearful distortions of limbs,tension in neck muscles,1.0,1
+fearful distortions of limbs,drawing pain in calves,1.0,1
+fearful distortions of limbs,sensation of heaviness of arms,1.0,1
+fearful distortions of limbs,loss of consciousness,1.0,1
+fearful distortions of limbs,back bent backward like an arch,1.0,1
+fearful distortions of limbs,violent stitches in shoulder,1.0,1
+fearful distortions of limbs,nape pain draws head backward,1.0,1
+fearful distortions of limbs,ending pain in anterior lower limb muscles,1.0,1
+fearful distortions of limbs,trembling of legs,1.0,1
+fearful distortions of limbs,frequent stitches in fingers,1.0,1
+fearful distortions of limbs,great weakness of arms after slight exercise,1.0,1
+fearful distortions of limbs,great weakness after attack,1.0,1
+fearful distortions of limbs,creeping in hands,1.0,1
+bruised sensation in forearms,cramps in neck muscles,1.0,1
+bruised sensation in forearms,shoulder stitches prevent motion,1.0,1
+bruised sensation in forearms,rheumatism following epileptic convulsion,1.0,1
+bruised sensation in forearms,frequent jerking in fingers,1.0,1
+bruised sensation in forearms,prostration after attack,1.0,1
+bruised sensation in forearms,tetanic stiffness,1.0,1
+bruised sensation in forearms,pain on inner surface of scapula,1.0,1
+bruised sensation in forearms,frequent twitching of muscles,1.0,1
+bruised sensation in forearms,jerking with numbness of limbs,1.0,1
+bruised sensation in forearms,stupid,1.0,1
+bruised sensation in forearms,arthritic pain in nape,1.0,1
+bruised sensation in forearms,lower limb pain worse at night,1.0,1
+bruised sensation in forearms,fearful distortions of limbs,1.0,1
+bruised sensation in forearms,rheumatism following concussion,1.0,1
+bruised sensation in forearms,muscles of neck become hard,1.0,1
+bruised sensation in forearms,sensation of stiffness of limbs,1.0,1
+bruised sensation in forearms,bruised pain on right scapula,1.0,1
+bruised sensation in forearms,difficulty turning head back after turning,1.0,1
+bruised sensation in forearms,muscles of neck contract,1.0,1
+bruised sensation in forearms,numbness of fingers,1.0,1
+bruised sensation in forearms,swelling in left knee,1.0,1
+bruised sensation in forearms,great weakness of legs after slight exercise,1.0,1
+bruised sensation in forearms,trembling of hand,1.0,1
+bruised sensation in forearms,frequent stitches in arm,1.0,1
+bruised sensation in forearms,frequent involuntary jerking of muscles,1.0,1
+bruised sensation in forearms,tearing jerking in coccyx,1.0,1
+bruised sensation in forearms,ending pain down to feet,1.0,1
+bruised sensation in forearms,epileptiform convulsions,1.0,1
+bruised sensation in forearms,frequent jerking in arm,1.0,1
+bruised sensation in forearms,excitable,1.0,1
+bruised sensation in forearms,tension in neck muscles,1.0,1
+bruised sensation in forearms,drawing pain in calves,1.0,1
+bruised sensation in forearms,sensation of heaviness of arms,1.0,1
+bruised sensation in forearms,loss of consciousness,1.0,1
+bruised sensation in forearms,back bent backward like an arch,1.0,1
+bruised sensation in forearms,violent stitches in shoulder,1.0,1
+bruised sensation in forearms,nape pain draws head backward,1.0,1
+bruised sensation in forearms,ending pain in anterior lower limb muscles,1.0,1
+bruised sensation in forearms,trembling of legs,1.0,1
+bruised sensation in forearms,frequent stitches in fingers,1.0,1
+bruised sensation in forearms,great weakness of arms after slight exercise,1.0,1
+bruised sensation in forearms,great weakness after attack,1.0,1
+bruised sensation in forearms,creeping in hands,1.0,1
+tearing jerking in coccyx,cramps in neck muscles,1.0,1
+tearing jerking in coccyx,shoulder stitches prevent motion,1.0,1
+tearing jerking in coccyx,rheumatism following epileptic convulsion,1.0,1
+tearing jerking in coccyx,frequent jerking in fingers,1.0,1
+tearing jerking in coccyx,prostration after attack,1.0,1
+tearing jerking in coccyx,tetanic stiffness,1.0,1
+tearing jerking in coccyx,pain on inner surface of scapula,1.0,1
+tearing jerking in coccyx,frequent twitching of muscles,1.0,1
+tearing jerking in coccyx,jerking with numbness of limbs,1.0,1
+tearing jerking in coccyx,stupid,1.0,1
+tearing jerking in coccyx,arthritic pain in nape,1.0,1
+tearing jerking in coccyx,lower limb pain worse at night,1.0,1
+tearing jerking in coccyx,fearful distortions of limbs,1.0,1
+tearing jerking in coccyx,rheumatism following concussion,1.0,1
+tearing jerking in coccyx,muscles of neck become hard,1.0,1
+tearing jerking in coccyx,sensation of stiffness of limbs,1.0,1
+tearing jerking in coccyx,bruised pain on right scapula,1.0,1
+tearing jerking in coccyx,difficulty turning head back after turning,1.0,1
+tearing jerking in coccyx,muscles of neck contract,1.0,1
+tearing jerking in coccyx,numbness of fingers,1.0,1
+tearing jerking in coccyx,swelling in left knee,1.0,1
+tearing jerking in coccyx,great weakness of legs after slight exercise,1.0,1
+tearing jerking in coccyx,trembling of hand,1.0,1
+tearing jerking in coccyx,frequent stitches in arm,1.0,1
+tearing jerking in coccyx,bruised sensation in forearms,1.0,1
+tearing jerking in coccyx,frequent involuntary jerking of muscles,1.0,1
+tearing jerking in coccyx,ending pain down to feet,1.0,1
+tearing jerking in coccyx,epileptiform convulsions,1.0,1
+tearing jerking in coccyx,frequent jerking in arm,1.0,1
+tearing jerking in coccyx,excitable,1.0,1
+tearing jerking in coccyx,tension in neck muscles,1.0,1
+tearing jerking in coccyx,drawing pain in calves,1.0,1
+tearing jerking in coccyx,sensation of heaviness of arms,1.0,1
+tearing jerking in coccyx,loss of consciousness,1.0,1
+tearing jerking in coccyx,back bent backward like an arch,1.0,1
+tearing jerking in coccyx,violent stitches in shoulder,1.0,1
+tearing jerking in coccyx,nape pain draws head backward,1.0,1
+tearing jerking in coccyx,ending pain in anterior lower limb muscles,1.0,1
+tearing jerking in coccyx,trembling of legs,1.0,1
+tearing jerking in coccyx,frequent stitches in fingers,1.0,1
+tearing jerking in coccyx,great weakness of arms after slight exercise,1.0,1
+tearing jerking in coccyx,great weakness after attack,1.0,1
+tearing jerking in coccyx,creeping in hands,1.0,1
+loss of consciousness,cramps in neck muscles,0.5,1
+loss of consciousness,shoulder stitches prevent motion,0.5,1
+loss of consciousness,rheumatism following epileptic convulsion,0.5,1
+loss of consciousness,frequent jerking in fingers,0.5,1
+loss of consciousness,prostration after attack,0.5,1
+loss of consciousness,tetanic stiffness,0.5,1
+loss of consciousness,pain on inner surface of scapula,0.5,1
+loss of consciousness,frequent twitching of muscles,0.5,1
+loss of consciousness,jerking with numbness of limbs,0.5,1
+loss of consciousness,stupid,0.5,1
+loss of consciousness,arthritic pain in nape,0.5,1
+loss of consciousness,lower limb pain worse at night,0.5,1
+loss of consciousness,fearful distortions of limbs,0.5,1
+loss of consciousness,rheumatism following concussion,0.5,1
+loss of consciousness,muscles of neck become hard,0.5,1
+loss of consciousness,sensation of stiffness of limbs,0.5,1
+loss of consciousness,bruised pain on right scapula,0.5,1
+loss of consciousness,difficulty turning head back after turning,0.5,1
+loss of consciousness,muscles of neck contract,0.5,1
+loss of consciousness,numbness of fingers,0.5,1
+loss of consciousness,swelling in left knee,0.5,1
+loss of consciousness,great weakness of legs after slight exercise,0.5,1
+loss of consciousness,trembling of hand,0.5,1
+loss of consciousness,frequent stitches in arm,0.5,1
+loss of consciousness,bruised sensation in forearms,0.5,1
+loss of consciousness,frequent involuntary jerking of muscles,0.5,1
+loss of consciousness,tearing jerking in coccyx,0.5,1
+loss of consciousness,ending pain down to feet,0.5,1
+loss of consciousness,epileptiform convulsions,0.5,1
+loss of consciousness,frequent jerking in arm,0.5,1
+loss of consciousness,excitable,0.5,1
+loss of consciousness,tension in neck muscles,0.5,1
+loss of consciousness,drawing pain in calves,0.5,1
+loss of consciousness,sensation of heaviness of arms,0.5,1
+loss of consciousness,back bent backward like an arch,0.5,1
+loss of consciousness,violent stitches in shoulder,0.5,1
+loss of consciousness,nape pain draws head backward,0.5,1
+loss of consciousness,ending pain in anterior lower limb muscles,0.5,1
+loss of consciousness,trembling of legs,0.5,1
+loss of consciousness,frequent stitches in fingers,0.5,1
+loss of consciousness,great weakness of arms after slight exercise,0.5,1
+loss of consciousness,great weakness after attack,0.5,1
+loss of consciousness,creeping in hands,0.5,1
+creeping in hands,cramps in neck muscles,1.0,1
+creeping in hands,shoulder stitches prevent motion,1.0,1
+creeping in hands,rheumatism following epileptic convulsion,1.0,1
+creeping in hands,frequent jerking in fingers,1.0,1
+creeping in hands,prostration after attack,1.0,1
+creeping in hands,tetanic stiffness,1.0,1
+creeping in hands,pain on inner surface of scapula,1.0,1
+creeping in hands,frequent twitching of muscles,1.0,1
+creeping in hands,jerking with numbness of limbs,1.0,1
+creeping in hands,stupid,1.0,1
+creeping in hands,arthritic pain in nape,1.0,1
+creeping in hands,lower limb pain worse at night,1.0,1
+creeping in hands,fearful distortions of limbs,1.0,1
+creeping in hands,rheumatism following concussion,1.0,1
+creeping in hands,muscles of neck become hard,1.0,1
+creeping in hands,sensation of stiffness of limbs,1.0,1
+creeping in hands,bruised pain on right scapula,1.0,1
+creeping in hands,difficulty turning head back after turning,1.0,1
+creeping in hands,muscles of neck contract,1.0,1
+creeping in hands,numbness of fingers,1.0,1
+creeping in hands,swelling in left knee,1.0,1
+creeping in hands,great weakness of legs after slight exercise,1.0,1
+creeping in hands,trembling of hand,1.0,1
+creeping in hands,frequent stitches in arm,1.0,1
+creeping in hands,bruised sensation in forearms,1.0,1
+creeping in hands,frequent involuntary jerking of muscles,1.0,1
+creeping in hands,tearing jerking in coccyx,1.0,1
+creeping in hands,ending pain down to feet,1.0,1
+creeping in hands,epileptiform convulsions,1.0,1
+creeping in hands,frequent jerking in arm,1.0,1
+creeping in hands,excitable,1.0,1
+creeping in hands,tension in neck muscles,1.0,1
+creeping in hands,drawing pain in calves,1.0,1
+creeping in hands,sensation of heaviness of arms,1.0,1
+creeping in hands,loss of consciousness,1.0,1
+creeping in hands,back bent backward like an arch,1.0,1
+creeping in hands,violent stitches in shoulder,1.0,1
+creeping in hands,nape pain draws head backward,1.0,1
+creeping in hands,ending pain in anterior lower limb muscles,1.0,1
+creeping in hands,trembling of legs,1.0,1
+creeping in hands,frequent stitches in fingers,1.0,1
+creeping in hands,great weakness of arms after slight exercise,1.0,1
+creeping in hands,great weakness after attack,1.0,1
+jerking with numbness of limbs,cramps in neck muscles,1.0,1
+jerking with numbness of limbs,shoulder stitches prevent motion,1.0,1
+jerking with numbness of limbs,rheumatism following epileptic convulsion,1.0,1
+jerking with numbness of limbs,frequent jerking in fingers,1.0,1
+jerking with numbness of limbs,prostration after attack,1.0,1
+jerking with numbness of limbs,tetanic stiffness,1.0,1
+jerking with numbness of limbs,pain on inner surface of scapula,1.0,1
+jerking with numbness of limbs,frequent twitching of muscles,1.0,1
+jerking with numbness of limbs,stupid,1.0,1
+jerking with numbness of limbs,arthritic pain in nape,1.0,1
+jerking with numbness of limbs,lower limb pain worse at night,1.0,1
+jerking with numbness of limbs,fearful distortions of limbs,1.0,1
+jerking with numbness of limbs,rheumatism following concussion,1.0,1
+jerking with numbness of limbs,muscles of neck become hard,1.0,1
+jerking with numbness of limbs,sensation of stiffness of limbs,1.0,1
+jerking with numbness of limbs,bruised pain on right scapula,1.0,1
+jerking with numbness of limbs,difficulty turning head back after turning,1.0,1
+jerking with numbness of limbs,muscles of neck contract,1.0,1
+jerking with numbness of limbs,numbness of fingers,1.0,1
+jerking with numbness of limbs,swelling in left knee,1.0,1
+jerking with numbness of limbs,great weakness of legs after slight exercise,1.0,1
+jerking with numbness of limbs,trembling of hand,1.0,1
+jerking with numbness of limbs,frequent stitches in arm,1.0,1
+jerking with numbness of limbs,bruised sensation in forearms,1.0,1
+jerking with numbness of limbs,frequent involuntary jerking of muscles,1.0,1
+jerking with numbness of limbs,tearing jerking in coccyx,1.0,1
+jerking with numbness of limbs,ending pain down to feet,1.0,1
+jerking with numbness of limbs,epileptiform convulsions,1.0,1
+jerking with numbness of limbs,frequent jerking in arm,1.0,1
+jerking with numbness of limbs,excitable,1.0,1
+jerking with numbness of limbs,tension in neck muscles,1.0,1
+jerking with numbness of limbs,drawing pain in calves,1.0,1
+jerking with numbness of limbs,sensation of heaviness of arms,1.0,1
+jerking with numbness of limbs,loss of consciousness,1.0,1
+jerking with numbness of limbs,back bent backward like an arch,1.0,1
+jerking with numbness of limbs,violent stitches in shoulder,1.0,1
+jerking with numbness of limbs,nape pain draws head backward,1.0,1
+jerking with numbness of limbs,ending pain in anterior lower limb muscles,1.0,1
+jerking with numbness of limbs,trembling of legs,1.0,1
+jerking with numbness of limbs,frequent stitches in fingers,1.0,1
+jerking with numbness of limbs,great weakness of arms after slight exercise,1.0,1
+jerking with numbness of limbs,great weakness after attack,1.0,1
+jerking with numbness of limbs,creeping in hands,1.0,1
+frequent stitches in arm,cramps in neck muscles,1.0,1
+frequent stitches in arm,shoulder stitches prevent motion,1.0,1
+frequent stitches in arm,rheumatism following epileptic convulsion,1.0,1
+frequent stitches in arm,frequent jerking in fingers,1.0,1
+frequent stitches in arm,prostration after attack,1.0,1
+frequent stitches in arm,tetanic stiffness,1.0,1
+frequent stitches in arm,pain on inner surface of scapula,1.0,1
+frequent stitches in arm,frequent twitching of muscles,1.0,1
+frequent stitches in arm,jerking with numbness of limbs,1.0,1
+frequent stitches in arm,stupid,1.0,1
+frequent stitches in arm,arthritic pain in nape,1.0,1
+frequent stitches in arm,lower limb pain worse at night,1.0,1
+frequent stitches in arm,fearful distortions of limbs,1.0,1
+frequent stitches in arm,rheumatism following concussion,1.0,1
+frequent stitches in arm,muscles of neck become hard,1.0,1
+frequent stitches in arm,sensation of stiffness of limbs,1.0,1
+frequent stitches in arm,bruised pain on right scapula,1.0,1
+frequent stitches in arm,difficulty turning head back after turning,1.0,1
+frequent stitches in arm,muscles of neck contract,1.0,1
+frequent stitches in arm,numbness of fingers,1.0,1
+frequent stitches in arm,swelling in left knee,1.0,1
+frequent stitches in arm,great weakness of legs after slight exercise,1.0,1
+frequent stitches in arm,trembling of hand,1.0,1
+frequent stitches in arm,bruised sensation in forearms,1.0,1
+frequent stitches in arm,frequent involuntary jerking of muscles,1.0,1
+frequent stitches in arm,tearing jerking in coccyx,1.0,1
+frequent stitches in arm,ending pain down to feet,1.0,1
+frequent stitches in arm,epileptiform convulsions,1.0,1
+frequent stitches in arm,frequent jerking in arm,1.0,1
+frequent stitches in arm,excitable,1.0,1
+frequent stitches in arm,tension in neck muscles,1.0,1
+frequent stitches in arm,drawing pain in calves,1.0,1
+frequent stitches in arm,sensation of heaviness of arms,1.0,1
+frequent stitches in arm,loss of consciousness,1.0,1
+frequent stitches in arm,back bent backward like an arch,1.0,1
+frequent stitches in arm,violent stitches in shoulder,1.0,1
+frequent stitches in arm,nape pain draws head backward,1.0,1
+frequent stitches in arm,ending pain in anterior lower limb muscles,1.0,1
+frequent stitches in arm,trembling of legs,1.0,1
+frequent stitches in arm,frequent stitches in fingers,1.0,1
+frequent stitches in arm,great weakness of arms after slight exercise,1.0,1
+frequent stitches in arm,great weakness after attack,1.0,1
+frequent stitches in arm,creeping in hands,1.0,1
+drawing pain in calves,cramps in neck muscles,1.0,1
+drawing pain in calves,shoulder stitches prevent motion,1.0,1
+drawing pain in calves,rheumatism following epileptic convulsion,1.0,1
+drawing pain in calves,frequent jerking in fingers,1.0,1
+drawing pain in calves,prostration after attack,1.0,1
+drawing pain in calves,tetanic stiffness,1.0,1
+drawing pain in calves,pain on inner surface of scapula,1.0,1
+drawing pain in calves,frequent twitching of muscles,1.0,1
+drawing pain in calves,jerking with numbness of limbs,1.0,1
+drawing pain in calves,stupid,1.0,1
+drawing pain in calves,arthritic pain in nape,1.0,1
+drawing pain in calves,lower limb pain worse at night,1.0,1
+drawing pain in calves,fearful distortions of limbs,1.0,1
+drawing pain in calves,rheumatism following concussion,1.0,1
+drawing pain in calves,muscles of neck become hard,1.0,1
+drawing pain in calves,sensation of stiffness of limbs,1.0,1
+drawing pain in calves,bruised pain on right scapula,1.0,1
+drawing pain in calves,difficulty turning head back after turning,1.0,1
+drawing pain in calves,muscles of neck contract,1.0,1
+drawing pain in calves,numbness of fingers,1.0,1
+drawing pain in calves,swelling in left knee,1.0,1
+drawing pain in calves,great weakness of legs after slight exercise,1.0,1
+drawing pain in calves,trembling of hand,1.0,1
+drawing pain in calves,frequent stitches in arm,1.0,1
+drawing pain in calves,bruised sensation in forearms,1.0,1
+drawing pain in calves,frequent involuntary jerking of muscles,1.0,1
+drawing pain in calves,tearing jerking in coccyx,1.0,1
+drawing pain in calves,ending pain down to feet,1.0,1
+drawing pain in calves,epileptiform convulsions,1.0,1
+drawing pain in calves,frequent jerking in arm,1.0,1
+drawing pain in calves,excitable,1.0,1
+drawing pain in calves,tension in neck muscles,1.0,1
+drawing pain in calves,sensation of heaviness of arms,1.0,1
+drawing pain in calves,loss of consciousness,1.0,1
+drawing pain in calves,back bent backward like an arch,1.0,1
+drawing pain in calves,violent stitches in shoulder,1.0,1
+drawing pain in calves,nape pain draws head backward,1.0,1
+drawing pain in calves,ending pain in anterior lower limb muscles,1.0,1
+drawing pain in calves,trembling of legs,1.0,1
+drawing pain in calves,frequent stitches in fingers,1.0,1
+drawing pain in calves,great weakness of arms after slight exercise,1.0,1
+drawing pain in calves,great weakness after attack,1.0,1
+drawing pain in calves,creeping in hands,1.0,1
+shoulder stitches prevent motion,cramps in neck muscles,1.0,1
+shoulder stitches prevent motion,rheumatism following epileptic convulsion,1.0,1
+shoulder stitches prevent motion,frequent jerking in fingers,1.0,1
+shoulder stitches prevent motion,prostration after attack,1.0,1
+shoulder stitches prevent motion,tetanic stiffness,1.0,1
+shoulder stitches prevent motion,pain on inner surface of scapula,1.0,1
+shoulder stitches prevent motion,frequent twitching of muscles,1.0,1
+shoulder stitches prevent motion,jerking with numbness of limbs,1.0,1
+shoulder stitches prevent motion,stupid,1.0,1
+shoulder stitches prevent motion,arthritic pain in nape,1.0,1
+shoulder stitches prevent motion,lower limb pain worse at night,1.0,1
+shoulder stitches prevent motion,fearful distortions of limbs,1.0,1
+shoulder stitches prevent motion,rheumatism following concussion,1.0,1
+shoulder stitches prevent motion,muscles of neck become hard,1.0,1
+shoulder stitches prevent motion,sensation of stiffness of limbs,1.0,1
+shoulder stitches prevent motion,bruised pain on right scapula,1.0,1
+shoulder stitches prevent motion,difficulty turning head back after turning,1.0,1
+shoulder stitches prevent motion,muscles of neck contract,1.0,1
+shoulder stitches prevent motion,numbness of fingers,1.0,1
+shoulder stitches prevent motion,swelling in left knee,1.0,1
+shoulder stitches prevent motion,great weakness of legs after slight exercise,1.0,1
+shoulder stitches prevent motion,trembling of hand,1.0,1
+shoulder stitches prevent motion,frequent stitches in arm,1.0,1
+shoulder stitches prevent motion,bruised sensation in forearms,1.0,1
+shoulder stitches prevent motion,frequent involuntary jerking of muscles,1.0,1
+shoulder stitches prevent motion,tearing jerking in coccyx,1.0,1
+shoulder stitches prevent motion,ending pain down to feet,1.0,1
+shoulder stitches prevent motion,epileptiform convulsions,1.0,1
+shoulder stitches prevent motion,frequent jerking in arm,1.0,1
+shoulder stitches prevent motion,excitable,1.0,1
+shoulder stitches prevent motion,tension in neck muscles,1.0,1
+shoulder stitches prevent motion,drawing pain in calves,1.0,1
+shoulder stitches prevent motion,sensation of heaviness of arms,1.0,1
+shoulder stitches prevent motion,loss of consciousness,1.0,1
+shoulder stitches prevent motion,back bent backward like an arch,1.0,1
+shoulder stitches prevent motion,violent stitches in shoulder,1.0,1
+shoulder stitches prevent motion,nape pain draws head backward,1.0,1
+shoulder stitches prevent motion,ending pain in anterior lower limb muscles,1.0,1
+shoulder stitches prevent motion,trembling of legs,1.0,1
+shoulder stitches prevent motion,frequent stitches in fingers,1.0,1
+shoulder stitches prevent motion,great weakness of arms after slight exercise,1.0,1
+shoulder stitches prevent motion,great weakness after attack,1.0,1
+shoulder stitches prevent motion,creeping in hands,1.0,1
+trembling of hand,cramps in neck muscles,1.0,1
+trembling of hand,shoulder stitches prevent motion,1.0,1
+trembling of hand,rheumatism following epileptic convulsion,1.0,1
+trembling of hand,frequent jerking in fingers,1.0,1
+trembling of hand,prostration after attack,1.0,1
+trembling of hand,tetanic stiffness,1.0,1
+trembling of hand,pain on inner surface of scapula,1.0,1
+trembling of hand,frequent twitching of muscles,1.0,1
+trembling of hand,jerking with numbness of limbs,1.0,1
+trembling of hand,stupid,1.0,1
+trembling of hand,arthritic pain in nape,1.0,1
+trembling of hand,lower limb pain worse at night,1.0,1
+trembling of hand,fearful distortions of limbs,1.0,1
+trembling of hand,rheumatism following concussion,1.0,1
+trembling of hand,muscles of neck become hard,1.0,1
+trembling of hand,sensation of stiffness of limbs,1.0,1
+trembling of hand,bruised pain on right scapula,1.0,1
+trembling of hand,difficulty turning head back after turning,1.0,1
+trembling of hand,muscles of neck contract,1.0,1
+trembling of hand,numbness of fingers,1.0,1
+trembling of hand,swelling in left knee,1.0,1
+trembling of hand,great weakness of legs after slight exercise,1.0,1
+trembling of hand,frequent stitches in arm,1.0,1
+trembling of hand,bruised sensation in forearms,1.0,1
+trembling of hand,frequent involuntary jerking of muscles,1.0,1
+trembling of hand,tearing jerking in coccyx,1.0,1
+trembling of hand,ending pain down to feet,1.0,1
+trembling of hand,epileptiform convulsions,1.0,1
+trembling of hand,frequent jerking in arm,1.0,1
+trembling of hand,excitable,1.0,1
+trembling of hand,tension in neck muscles,1.0,1
+trembling of hand,drawing pain in calves,1.0,1
+trembling of hand,sensation of heaviness of arms,1.0,1
+trembling of hand,loss of consciousness,1.0,1
+trembling of hand,back bent backward like an arch,1.0,1
+trembling of hand,violent stitches in shoulder,1.0,1
+trembling of hand,nape pain draws head backward,1.0,1
+trembling of hand,ending pain in anterior lower limb muscles,1.0,1
+trembling of hand,trembling of legs,1.0,1
+trembling of hand,frequent stitches in fingers,1.0,1
+trembling of hand,great weakness of arms after slight exercise,1.0,1
+trembling of hand,great weakness after attack,1.0,1
+trembling of hand,creeping in hands,1.0,1
+epileptiform convulsions,cramps in neck muscles,1.0,1
+epileptiform convulsions,shoulder stitches prevent motion,1.0,1
+epileptiform convulsions,rheumatism following epileptic convulsion,1.0,1
+epileptiform convulsions,frequent jerking in fingers,1.0,1
+epileptiform convulsions,prostration after attack,1.0,1
+epileptiform convulsions,tetanic stiffness,1.0,1
+epileptiform convulsions,pain on inner surface of scapula,1.0,1
+epileptiform convulsions,frequent twitching of muscles,1.0,1
+epileptiform convulsions,jerking with numbness of limbs,1.0,1
+epileptiform convulsions,stupid,1.0,1
+epileptiform convulsions,arthritic pain in nape,1.0,1
+epileptiform convulsions,lower limb pain worse at night,1.0,1
+epileptiform convulsions,fearful distortions of limbs,1.0,1
+epileptiform convulsions,rheumatism following concussion,1.0,1
+epileptiform convulsions,muscles of neck become hard,1.0,1
+epileptiform convulsions,sensation of stiffness of limbs,1.0,1
+epileptiform convulsions,bruised pain on right scapula,1.0,1
+epileptiform convulsions,difficulty turning head back after turning,1.0,1
+epileptiform convulsions,muscles of neck contract,1.0,1
+epileptiform convulsions,numbness of fingers,1.0,1
+epileptiform convulsions,swelling in left knee,1.0,1
+epileptiform convulsions,great weakness of legs after slight exercise,1.0,1
+epileptiform convulsions,trembling of hand,1.0,1
+epileptiform convulsions,frequent stitches in arm,1.0,1
+epileptiform convulsions,bruised sensation in forearms,1.0,1
+epileptiform convulsions,frequent involuntary jerking of muscles,1.0,1
+epileptiform convulsions,tearing jerking in coccyx,1.0,1
+epileptiform convulsions,ending pain down to feet,1.0,1
+epileptiform convulsions,frequent jerking in arm,1.0,1
+epileptiform convulsions,excitable,1.0,1
+epileptiform convulsions,tension in neck muscles,1.0,1
+epileptiform convulsions,drawing pain in calves,1.0,1
+epileptiform convulsions,sensation of heaviness of arms,1.0,1
+epileptiform convulsions,loss of consciousness,1.0,1
+epileptiform convulsions,back bent backward like an arch,1.0,1
+epileptiform convulsions,violent stitches in shoulder,1.0,1
+epileptiform convulsions,nape pain draws head backward,1.0,1
+epileptiform convulsions,ending pain in anterior lower limb muscles,1.0,1
+epileptiform convulsions,trembling of legs,1.0,1
+epileptiform convulsions,frequent stitches in fingers,1.0,1
+epileptiform convulsions,great weakness of arms after slight exercise,1.0,1
+epileptiform convulsions,great weakness after attack,1.0,1
+epileptiform convulsions,creeping in hands,1.0,1
+great weakness of arms after slight exercise,cramps in neck muscles,1.0,1
+great weakness of arms after slight exercise,shoulder stitches prevent motion,1.0,1
+great weakness of arms after slight exercise,rheumatism following epileptic convulsion,1.0,1
+great weakness of arms after slight exercise,frequent jerking in fingers,1.0,1
+great weakness of arms after slight exercise,prostration after attack,1.0,1
+great weakness of arms after slight exercise,tetanic stiffness,1.0,1
+great weakness of arms after slight exercise,pain on inner surface of scapula,1.0,1
+great weakness of arms after slight exercise,frequent twitching of muscles,1.0,1
+great weakness of arms after slight exercise,jerking with numbness of limbs,1.0,1
+great weakness of arms after slight exercise,stupid,1.0,1
+great weakness of arms after slight exercise,arthritic pain in nape,1.0,1
+great weakness of arms after slight exercise,lower limb pain worse at night,1.0,1
+great weakness of arms after slight exercise,fearful distortions of limbs,1.0,1
+great weakness of arms after slight exercise,rheumatism following concussion,1.0,1
+great weakness of arms after slight exercise,muscles of neck become hard,1.0,1
+great weakness of arms after slight exercise,sensation of stiffness of limbs,1.0,1
+great weakness of arms after slight exercise,bruised pain on right scapula,1.0,1
+great weakness of arms after slight exercise,difficulty turning head back after turning,1.0,1
+great weakness of arms after slight exercise,muscles of neck contract,1.0,1
+great weakness of arms after slight exercise,numbness of fingers,1.0,1
+great weakness of arms after slight exercise,swelling in left knee,1.0,1
+great weakness of arms after slight exercise,great weakness of legs after slight exercise,1.0,1
+great weakness of arms after slight exercise,trembling of hand,1.0,1
+great weakness of arms after slight exercise,frequent stitches in arm,1.0,1
+great weakness of arms after slight exercise,bruised sensation in forearms,1.0,1
+great weakness of arms after slight exercise,frequent involuntary jerking of muscles,1.0,1
+great weakness of arms after slight exercise,tearing jerking in coccyx,1.0,1
+great weakness of arms after slight exercise,ending pain down to feet,1.0,1
+great weakness of arms after slight exercise,epileptiform convulsions,1.0,1
+great weakness of arms after slight exercise,frequent jerking in arm,1.0,1
+great weakness of arms after slight exercise,excitable,1.0,1
+great weakness of arms after slight exercise,tension in neck muscles,1.0,1
+great weakness of arms after slight exercise,drawing pain in calves,1.0,1
+great weakness of arms after slight exercise,sensation of heaviness of arms,1.0,1
+great weakness of arms after slight exercise,loss of consciousness,1.0,1
+great weakness of arms after slight exercise,back bent backward like an arch,1.0,1
+great weakness of arms after slight exercise,violent stitches in shoulder,1.0,1
+great weakness of arms after slight exercise,nape pain draws head backward,1.0,1
+great weakness of arms after slight exercise,ending pain in anterior lower limb muscles,1.0,1
+great weakness of arms after slight exercise,trembling of legs,1.0,1
+great weakness of arms after slight exercise,frequent stitches in fingers,1.0,1
+great weakness of arms after slight exercise,great weakness after attack,1.0,1
+great weakness of arms after slight exercise,creeping in hands,1.0,1
+swelling in left knee,cramps in neck muscles,1.0,1
+swelling in left knee,shoulder stitches prevent motion,1.0,1
+swelling in left knee,rheumatism following epileptic convulsion,1.0,1
+swelling in left knee,frequent jerking in fingers,1.0,1
+swelling in left knee,prostration after attack,1.0,1
+swelling in left knee,tetanic stiffness,1.0,1
+swelling in left knee,pain on inner surface of scapula,1.0,1
+swelling in left knee,frequent twitching of muscles,1.0,1
+swelling in left knee,jerking with numbness of limbs,1.0,1
+swelling in left knee,stupid,1.0,1
+swelling in left knee,arthritic pain in nape,1.0,1
+swelling in left knee,lower limb pain worse at night,1.0,1
+swelling in left knee,fearful distortions of limbs,1.0,1
+swelling in left knee,rheumatism following concussion,1.0,1
+swelling in left knee,muscles of neck become hard,1.0,1
+swelling in left knee,sensation of stiffness of limbs,1.0,1
+swelling in left knee,bruised pain on right scapula,1.0,1
+swelling in left knee,difficulty turning head back after turning,1.0,1
+swelling in left knee,muscles of neck contract,1.0,1
+swelling in left knee,numbness of fingers,1.0,1
+swelling in left knee,great weakness of legs after slight exercise,1.0,1
+swelling in left knee,trembling of hand,1.0,1
+swelling in left knee,frequent stitches in arm,1.0,1
+swelling in left knee,bruised sensation in forearms,1.0,1
+swelling in left knee,frequent involuntary jerking of muscles,1.0,1
+swelling in left knee,tearing jerking in coccyx,1.0,1
+swelling in left knee,ending pain down to feet,1.0,1
+swelling in left knee,epileptiform convulsions,1.0,1
+swelling in left knee,frequent jerking in arm,1.0,1
+swelling in left knee,excitable,1.0,1
+swelling in left knee,tension in neck muscles,1.0,1
+swelling in left knee,drawing pain in calves,1.0,1
+swelling in left knee,sensation of heaviness of arms,1.0,1
+swelling in left knee,loss of consciousness,1.0,1
+swelling in left knee,back bent backward like an arch,1.0,1
+swelling in left knee,violent stitches in shoulder,1.0,1
+swelling in left knee,nape pain draws head backward,1.0,1
+swelling in left knee,ending pain in anterior lower limb muscles,1.0,1
+swelling in left knee,trembling of legs,1.0,1
+swelling in left knee,frequent stitches in fingers,1.0,1
+swelling in left knee,great weakness of arms after slight exercise,1.0,1
+swelling in left knee,great weakness after attack,1.0,1
+swelling in left knee,creeping in hands,1.0,1
+frequent jerking in fingers,cramps in neck muscles,1.0,1
+frequent jerking in fingers,shoulder stitches prevent motion,1.0,1
+frequent jerking in fingers,rheumatism following epileptic convulsion,1.0,1
+frequent jerking in fingers,prostration after attack,1.0,1
+frequent jerking in fingers,tetanic stiffness,1.0,1
+frequent jerking in fingers,pain on inner surface of scapula,1.0,1
+frequent jerking in fingers,frequent twitching of muscles,1.0,1
+frequent jerking in fingers,jerking with numbness of limbs,1.0,1
+frequent jerking in fingers,stupid,1.0,1
+frequent jerking in fingers,arthritic pain in nape,1.0,1
+frequent jerking in fingers,lower limb pain worse at night,1.0,1
+frequent jerking in fingers,fearful distortions of limbs,1.0,1
+frequent jerking in fingers,rheumatism following concussion,1.0,1
+frequent jerking in fingers,muscles of neck become hard,1.0,1
+frequent jerking in fingers,sensation of stiffness of limbs,1.0,1
+frequent jerking in fingers,bruised pain on right scapula,1.0,1
+frequent jerking in fingers,difficulty turning head back after turning,1.0,1
+frequent jerking in fingers,muscles of neck contract,1.0,1
+frequent jerking in fingers,numbness of fingers,1.0,1
+frequent jerking in fingers,swelling in left knee,1.0,1
+frequent jerking in fingers,great weakness of legs after slight exercise,1.0,1
+frequent jerking in fingers,trembling of hand,1.0,1
+frequent jerking in fingers,frequent stitches in arm,1.0,1
+frequent jerking in fingers,bruised sensation in forearms,1.0,1
+frequent jerking in fingers,frequent involuntary jerking of muscles,1.0,1
+frequent jerking in fingers,tearing jerking in coccyx,1.0,1
+frequent jerking in fingers,ending pain down to feet,1.0,1
+frequent jerking in fingers,epileptiform convulsions,1.0,1
+frequent jerking in fingers,frequent jerking in arm,1.0,1
+frequent jerking in fingers,excitable,1.0,1
+frequent jerking in fingers,tension in neck muscles,1.0,1
+frequent jerking in fingers,drawing pain in calves,1.0,1
+frequent jerking in fingers,sensation of heaviness of arms,1.0,1
+frequent jerking in fingers,loss of consciousness,1.0,1
+frequent jerking in fingers,back bent backward like an arch,1.0,1
+frequent jerking in fingers,violent stitches in shoulder,1.0,1
+frequent jerking in fingers,nape pain draws head backward,1.0,1
+frequent jerking in fingers,ending pain in anterior lower limb muscles,1.0,1
+frequent jerking in fingers,trembling of legs,1.0,1
+frequent jerking in fingers,frequent stitches in fingers,1.0,1
+frequent jerking in fingers,great weakness of arms after slight exercise,1.0,1
+frequent jerking in fingers,great weakness after attack,1.0,1
+frequent jerking in fingers,creeping in hands,1.0,1
+cramps in neck muscles,shoulder stitches prevent motion,1.0,1
+cramps in neck muscles,rheumatism following epileptic convulsion,1.0,1
+cramps in neck muscles,frequent jerking in fingers,1.0,1
+cramps in neck muscles,prostration after attack,1.0,1
+cramps in neck muscles,tetanic stiffness,1.0,1
+cramps in neck muscles,pain on inner surface of scapula,1.0,1
+cramps in neck muscles,frequent twitching of muscles,1.0,1
+cramps in neck muscles,jerking with numbness of limbs,1.0,1
+cramps in neck muscles,stupid,1.0,1
+cramps in neck muscles,arthritic pain in nape,1.0,1
+cramps in neck muscles,lower limb pain worse at night,1.0,1
+cramps in neck muscles,fearful distortions of limbs,1.0,1
+cramps in neck muscles,rheumatism following concussion,1.0,1
+cramps in neck muscles,muscles of neck become hard,1.0,1
+cramps in neck muscles,sensation of stiffness of limbs,1.0,1
+cramps in neck muscles,bruised pain on right scapula,1.0,1
+cramps in neck muscles,difficulty turning head back after turning,1.0,1
+cramps in neck muscles,muscles of neck contract,1.0,1
+cramps in neck muscles,numbness of fingers,1.0,1
+cramps in neck muscles,swelling in left knee,1.0,1
+cramps in neck muscles,great weakness of legs after slight exercise,1.0,1
+cramps in neck muscles,trembling of hand,1.0,1
+cramps in neck muscles,frequent stitches in arm,1.0,1
+cramps in neck muscles,bruised sensation in forearms,1.0,1
+cramps in neck muscles,frequent involuntary jerking of muscles,1.0,1
+cramps in neck muscles,tearing jerking in coccyx,1.0,1
+cramps in neck muscles,ending pain down to feet,1.0,1
+cramps in neck muscles,epileptiform convulsions,1.0,1
+cramps in neck muscles,frequent jerking in arm,1.0,1
+cramps in neck muscles,excitable,1.0,1
+cramps in neck muscles,tension in neck muscles,1.0,1
+cramps in neck muscles,drawing pain in calves,1.0,1
+cramps in neck muscles,sensation of heaviness of arms,1.0,1
+cramps in neck muscles,loss of consciousness,1.0,1
+cramps in neck muscles,back bent backward like an arch,1.0,1
+cramps in neck muscles,violent stitches in shoulder,1.0,1
+cramps in neck muscles,nape pain draws head backward,1.0,1
+cramps in neck muscles,ending pain in anterior lower limb muscles,1.0,1
+cramps in neck muscles,trembling of legs,1.0,1
+cramps in neck muscles,frequent stitches in fingers,1.0,1
+cramps in neck muscles,great weakness of arms after slight exercise,1.0,1
+cramps in neck muscles,great weakness after attack,1.0,1
+cramps in neck muscles,creeping in hands,1.0,1
+frequent stitches in fingers,cramps in neck muscles,1.0,1
+frequent stitches in fingers,shoulder stitches prevent motion,1.0,1
+frequent stitches in fingers,rheumatism following epileptic convulsion,1.0,1
+frequent stitches in fingers,frequent jerking in fingers,1.0,1
+frequent stitches in fingers,prostration after attack,1.0,1
+frequent stitches in fingers,tetanic stiffness,1.0,1
+frequent stitches in fingers,pain on inner surface of scapula,1.0,1
+frequent stitches in fingers,frequent twitching of muscles,1.0,1
+frequent stitches in fingers,jerking with numbness of limbs,1.0,1
+frequent stitches in fingers,stupid,1.0,1
+frequent stitches in fingers,arthritic pain in nape,1.0,1
+frequent stitches in fingers,lower limb pain worse at night,1.0,1
+frequent stitches in fingers,fearful distortions of limbs,1.0,1
+frequent stitches in fingers,rheumatism following concussion,1.0,1
+frequent stitches in fingers,muscles of neck become hard,1.0,1
+frequent stitches in fingers,sensation of stiffness of limbs,1.0,1
+frequent stitches in fingers,bruised pain on right scapula,1.0,1
+frequent stitches in fingers,difficulty turning head back after turning,1.0,1
+frequent stitches in fingers,muscles of neck contract,1.0,1
+frequent stitches in fingers,numbness of fingers,1.0,1
+frequent stitches in fingers,swelling in left knee,1.0,1
+frequent stitches in fingers,great weakness of legs after slight exercise,1.0,1
+frequent stitches in fingers,trembling of hand,1.0,1
+frequent stitches in fingers,frequent stitches in arm,1.0,1
+frequent stitches in fingers,bruised sensation in forearms,1.0,1
+frequent stitches in fingers,frequent involuntary jerking of muscles,1.0,1
+frequent stitches in fingers,tearing jerking in coccyx,1.0,1
+frequent stitches in fingers,ending pain down to feet,1.0,1
+frequent stitches in fingers,epileptiform convulsions,1.0,1
+frequent stitches in fingers,frequent jerking in arm,1.0,1
+frequent stitches in fingers,excitable,1.0,1
+frequent stitches in fingers,tension in neck muscles,1.0,1
+frequent stitches in fingers,drawing pain in calves,1.0,1
+frequent stitches in fingers,sensation of heaviness of arms,1.0,1
+frequent stitches in fingers,loss of consciousness,1.0,1
+frequent stitches in fingers,back bent backward like an arch,1.0,1
+frequent stitches in fingers,violent stitches in shoulder,1.0,1
+frequent stitches in fingers,nape pain draws head backward,1.0,1
+frequent stitches in fingers,ending pain in anterior lower limb muscles,1.0,1
+frequent stitches in fingers,trembling of legs,1.0,1
+frequent stitches in fingers,great weakness of arms after slight exercise,1.0,1
+frequent stitches in fingers,great weakness after attack,1.0,1
+frequent stitches in fingers,creeping in hands,1.0,1
+back bent backward like an arch,cramps in neck muscles,1.0,1
+back bent backward like an arch,shoulder stitches prevent motion,1.0,1
+back bent backward like an arch,rheumatism following epileptic convulsion,1.0,1
+back bent backward like an arch,frequent jerking in fingers,1.0,1
+back bent backward like an arch,prostration after attack,1.0,1
+back bent backward like an arch,tetanic stiffness,1.0,1
+back bent backward like an arch,pain on inner surface of scapula,1.0,1
+back bent backward like an arch,frequent twitching of muscles,1.0,1
+back bent backward like an arch,jerking with numbness of limbs,1.0,1
+back bent backward like an arch,stupid,1.0,1
+back bent backward like an arch,arthritic pain in nape,1.0,1
+back bent backward like an arch,lower limb pain worse at night,1.0,1
+back bent backward like an arch,fearful distortions of limbs,1.0,1
+back bent backward like an arch,rheumatism following concussion,1.0,1
+back bent backward like an arch,muscles of neck become hard,1.0,1
+back bent backward like an arch,sensation of stiffness of limbs,1.0,1
+back bent backward like an arch,bruised pain on right scapula,1.0,1
+back bent backward like an arch,difficulty turning head back after turning,1.0,1
+back bent backward like an arch,muscles of neck contract,1.0,1
+back bent backward like an arch,numbness of fingers,1.0,1
+back bent backward like an arch,swelling in left knee,1.0,1
+back bent backward like an arch,great weakness of legs after slight exercise,1.0,1
+back bent backward like an arch,trembling of hand,1.0,1
+back bent backward like an arch,frequent stitches in arm,1.0,1
+back bent backward like an arch,bruised sensation in forearms,1.0,1
+back bent backward like an arch,frequent involuntary jerking of muscles,1.0,1
+back bent backward like an arch,tearing jerking in coccyx,1.0,1
+back bent backward like an arch,ending pain down to feet,1.0,1
+back bent backward like an arch,epileptiform convulsions,1.0,1
+back bent backward like an arch,frequent jerking in arm,1.0,1
+back bent backward like an arch,excitable,1.0,1
+back bent backward like an arch,tension in neck muscles,1.0,1
+back bent backward like an arch,drawing pain in calves,1.0,1
+back bent backward like an arch,sensation of heaviness of arms,1.0,1
+back bent backward like an arch,loss of consciousness,1.0,1
+back bent backward like an arch,violent stitches in shoulder,1.0,1
+back bent backward like an arch,nape pain draws head backward,1.0,1
+back bent backward like an arch,ending pain in anterior lower limb muscles,1.0,1
+back bent backward like an arch,trembling of legs,1.0,1
+back bent backward like an arch,frequent stitches in fingers,1.0,1
+back bent backward like an arch,great weakness of arms after slight exercise,1.0,1
+back bent backward like an arch,great weakness after attack,1.0,1
+back bent backward like an arch,creeping in hands,1.0,1
+muscles of neck contract,cramps in neck muscles,1.0,1
+muscles of neck contract,shoulder stitches prevent motion,1.0,1
+muscles of neck contract,rheumatism following epileptic convulsion,1.0,1
+muscles of neck contract,frequent jerking in fingers,1.0,1
+muscles of neck contract,prostration after attack,1.0,1
+muscles of neck contract,tetanic stiffness,1.0,1
+muscles of neck contract,pain on inner surface of scapula,1.0,1
+muscles of neck contract,frequent twitching of muscles,1.0,1
+muscles of neck contract,jerking with numbness of limbs,1.0,1
+muscles of neck contract,stupid,1.0,1
+muscles of neck contract,arthritic pain in nape,1.0,1
+muscles of neck contract,lower limb pain worse at night,1.0,1
+muscles of neck contract,fearful distortions of limbs,1.0,1
+muscles of neck contract,rheumatism following concussion,1.0,1
+muscles of neck contract,muscles of neck become hard,1.0,1
+muscles of neck contract,sensation of stiffness of limbs,1.0,1
+muscles of neck contract,bruised pain on right scapula,1.0,1
+muscles of neck contract,difficulty turning head back after turning,1.0,1
+muscles of neck contract,numbness of fingers,1.0,1
+muscles of neck contract,swelling in left knee,1.0,1
+muscles of neck contract,great weakness of legs after slight exercise,1.0,1
+muscles of neck contract,trembling of hand,1.0,1
+muscles of neck contract,frequent stitches in arm,1.0,1
+muscles of neck contract,bruised sensation in forearms,1.0,1
+muscles of neck contract,frequent involuntary jerking of muscles,1.0,1
+muscles of neck contract,tearing jerking in coccyx,1.0,1
+muscles of neck contract,ending pain down to feet,1.0,1
+muscles of neck contract,epileptiform convulsions,1.0,1
+muscles of neck contract,frequent jerking in arm,1.0,1
+muscles of neck contract,excitable,1.0,1
+muscles of neck contract,tension in neck muscles,1.0,1
+muscles of neck contract,drawing pain in calves,1.0,1
+muscles of neck contract,sensation of heaviness of arms,1.0,1
+muscles of neck contract,loss of consciousness,1.0,1
+muscles of neck contract,back bent backward like an arch,1.0,1
+muscles of neck contract,violent stitches in shoulder,1.0,1
+muscles of neck contract,nape pain draws head backward,1.0,1
+muscles of neck contract,ending pain in anterior lower limb muscles,1.0,1
+muscles of neck contract,trembling of legs,1.0,1
+muscles of neck contract,frequent stitches in fingers,1.0,1
+muscles of neck contract,great weakness of arms after slight exercise,1.0,1
+muscles of neck contract,great weakness after attack,1.0,1
+muscles of neck contract,creeping in hands,1.0,1
+ending pain in anterior lower limb muscles,cramps in neck muscles,1.0,1
+ending pain in anterior lower limb muscles,shoulder stitches prevent motion,1.0,1
+ending pain in anterior lower limb muscles,rheumatism following epileptic convulsion,1.0,1
+ending pain in anterior lower limb muscles,frequent jerking in fingers,1.0,1
+ending pain in anterior lower limb muscles,prostration after attack,1.0,1
+ending pain in anterior lower limb muscles,tetanic stiffness,1.0,1
+ending pain in anterior lower limb muscles,pain on inner surface of scapula,1.0,1
+ending pain in anterior lower limb muscles,frequent twitching of muscles,1.0,1
+ending pain in anterior lower limb muscles,jerking with numbness of limbs,1.0,1
+ending pain in anterior lower limb muscles,stupid,1.0,1
+ending pain in anterior lower limb muscles,arthritic pain in nape,1.0,1
+ending pain in anterior lower limb muscles,lower limb pain worse at night,1.0,1
+ending pain in anterior lower limb muscles,fearful distortions of limbs,1.0,1
+ending pain in anterior lower limb muscles,rheumatism following concussion,1.0,1
+ending pain in anterior lower limb muscles,muscles of neck become hard,1.0,1
+ending pain in anterior lower limb muscles,sensation of stiffness of limbs,1.0,1
+ending pain in anterior lower limb muscles,bruised pain on right scapula,1.0,1
+ending pain in anterior lower limb muscles,difficulty turning head back after turning,1.0,1
+ending pain in anterior lower limb muscles,muscles of neck contract,1.0,1
+ending pain in anterior lower limb muscles,numbness of fingers,1.0,1
+ending pain in anterior lower limb muscles,swelling in left knee,1.0,1
+ending pain in anterior lower limb muscles,great weakness of legs after slight exercise,1.0,1
+ending pain in anterior lower limb muscles,trembling of hand,1.0,1
+ending pain in anterior lower limb muscles,frequent stitches in arm,1.0,1
+ending pain in anterior lower limb muscles,bruised sensation in forearms,1.0,1
+ending pain in anterior lower limb muscles,frequent involuntary jerking of muscles,1.0,1
+ending pain in anterior lower limb muscles,tearing jerking in coccyx,1.0,1
+ending pain in anterior lower limb muscles,ending pain down to feet,1.0,1
+ending pain in anterior lower limb muscles,epileptiform convulsions,1.0,1
+ending pain in anterior lower limb muscles,frequent jerking in arm,1.0,1
+ending pain in anterior lower limb muscles,excitable,1.0,1
+ending pain in anterior lower limb muscles,tension in neck muscles,1.0,1
+ending pain in anterior lower limb muscles,drawing pain in calves,1.0,1
+ending pain in anterior lower limb muscles,sensation of heaviness of arms,1.0,1
+ending pain in anterior lower limb muscles,loss of consciousness,1.0,1
+ending pain in anterior lower limb muscles,back bent backward like an arch,1.0,1
+ending pain in anterior lower limb muscles,violent stitches in shoulder,1.0,1
+ending pain in anterior lower limb muscles,nape pain draws head backward,1.0,1
+ending pain in anterior lower limb muscles,trembling of legs,1.0,1
+ending pain in anterior lower limb muscles,frequent stitches in fingers,1.0,1
+ending pain in anterior lower limb muscles,great weakness of arms after slight exercise,1.0,1
+ending pain in anterior lower limb muscles,great weakness after attack,1.0,1
+ending pain in anterior lower limb muscles,creeping in hands,1.0,1
+tetanic stiffness,cramps in neck muscles,1.0,1
+tetanic stiffness,shoulder stitches prevent motion,1.0,1
+tetanic stiffness,rheumatism following epileptic convulsion,1.0,1
+tetanic stiffness,frequent jerking in fingers,1.0,1
+tetanic stiffness,prostration after attack,1.0,1
+tetanic stiffness,pain on inner surface of scapula,1.0,1
+tetanic stiffness,frequent twitching of muscles,1.0,1
+tetanic stiffness,jerking with numbness of limbs,1.0,1
+tetanic stiffness,stupid,1.0,1
+tetanic stiffness,arthritic pain in nape,1.0,1
+tetanic stiffness,lower limb pain worse at night,1.0,1
+tetanic stiffness,fearful distortions of limbs,1.0,1
+tetanic stiffness,rheumatism following concussion,1.0,1
+tetanic stiffness,muscles of neck become hard,1.0,1
+tetanic stiffness,sensation of stiffness of limbs,1.0,1
+tetanic stiffness,bruised pain on right scapula,1.0,1
+tetanic stiffness,difficulty turning head back after turning,1.0,1
+tetanic stiffness,muscles of neck contract,1.0,1
+tetanic stiffness,numbness of fingers,1.0,1
+tetanic stiffness,swelling in left knee,1.0,1
+tetanic stiffness,great weakness of legs after slight exercise,1.0,1
+tetanic stiffness,trembling of hand,1.0,1
+tetanic stiffness,frequent stitches in arm,1.0,1
+tetanic stiffness,bruised sensation in forearms,1.0,1
+tetanic stiffness,frequent involuntary jerking of muscles,1.0,1
+tetanic stiffness,tearing jerking in coccyx,1.0,1
+tetanic stiffness,ending pain down to feet,1.0,1
+tetanic stiffness,epileptiform convulsions,1.0,1
+tetanic stiffness,frequent jerking in arm,1.0,1
+tetanic stiffness,excitable,1.0,1
+tetanic stiffness,tension in neck muscles,1.0,1
+tetanic stiffness,drawing pain in calves,1.0,1
+tetanic stiffness,sensation of heaviness of arms,1.0,1
+tetanic stiffness,loss of consciousness,1.0,1
+tetanic stiffness,back bent backward like an arch,1.0,1
+tetanic stiffness,violent stitches in shoulder,1.0,1
+tetanic stiffness,nape pain draws head backward,1.0,1
+tetanic stiffness,ending pain in anterior lower limb muscles,1.0,1
+tetanic stiffness,trembling of legs,1.0,1
+tetanic stiffness,frequent stitches in fingers,1.0,1
+tetanic stiffness,great weakness of arms after slight exercise,1.0,1
+tetanic stiffness,great weakness after attack,1.0,1
+tetanic stiffness,creeping in hands,1.0,1
+violent stitches in shoulder,cramps in neck muscles,1.0,1
+violent stitches in shoulder,shoulder stitches prevent motion,1.0,1
+violent stitches in shoulder,rheumatism following epileptic convulsion,1.0,1
+violent stitches in shoulder,frequent jerking in fingers,1.0,1
+violent stitches in shoulder,prostration after attack,1.0,1
+violent stitches in shoulder,tetanic stiffness,1.0,1
+violent stitches in shoulder,pain on inner surface of scapula,1.0,1
+violent stitches in shoulder,frequent twitching of muscles,1.0,1
+violent stitches in shoulder,jerking with numbness of limbs,1.0,1
+violent stitches in shoulder,stupid,1.0,1
+violent stitches in shoulder,arthritic pain in nape,1.0,1
+violent stitches in shoulder,lower limb pain worse at night,1.0,1
+violent stitches in shoulder,fearful distortions of limbs,1.0,1
+violent stitches in shoulder,rheumatism following concussion,1.0,1
+violent stitches in shoulder,muscles of neck become hard,1.0,1
+violent stitches in shoulder,sensation of stiffness of limbs,1.0,1
+violent stitches in shoulder,bruised pain on right scapula,1.0,1
+violent stitches in shoulder,difficulty turning head back after turning,1.0,1
+violent stitches in shoulder,muscles of neck contract,1.0,1
+violent stitches in shoulder,numbness of fingers,1.0,1
+violent stitches in shoulder,swelling in left knee,1.0,1
+violent stitches in shoulder,great weakness of legs after slight exercise,1.0,1
+violent stitches in shoulder,trembling of hand,1.0,1
+violent stitches in shoulder,frequent stitches in arm,1.0,1
+violent stitches in shoulder,bruised sensation in forearms,1.0,1
+violent stitches in shoulder,frequent involuntary jerking of muscles,1.0,1
+violent stitches in shoulder,tearing jerking in coccyx,1.0,1
+violent stitches in shoulder,ending pain down to feet,1.0,1
+violent stitches in shoulder,epileptiform convulsions,1.0,1
+violent stitches in shoulder,frequent jerking in arm,1.0,1
+violent stitches in shoulder,excitable,1.0,1
+violent stitches in shoulder,tension in neck muscles,1.0,1
+violent stitches in shoulder,drawing pain in calves,1.0,1
+violent stitches in shoulder,sensation of heaviness of arms,1.0,1
+violent stitches in shoulder,loss of consciousness,1.0,1
+violent stitches in shoulder,back bent backward like an arch,1.0,1
+violent stitches in shoulder,nape pain draws head backward,1.0,1
+violent stitches in shoulder,ending pain in anterior lower limb muscles,1.0,1
+violent stitches in shoulder,trembling of legs,1.0,1
+violent stitches in shoulder,frequent stitches in fingers,1.0,1
+violent stitches in shoulder,great weakness of arms after slight exercise,1.0,1
+violent stitches in shoulder,great weakness after attack,1.0,1
+violent stitches in shoulder,creeping in hands,1.0,1
+prostration after attack,cramps in neck muscles,1.0,1
+prostration after attack,shoulder stitches prevent motion,1.0,1
+prostration after attack,rheumatism following epileptic convulsion,1.0,1
+prostration after attack,frequent jerking in fingers,1.0,1
+prostration after attack,tetanic stiffness,1.0,1
+prostration after attack,pain on inner surface of scapula,1.0,1
+prostration after attack,frequent twitching of muscles,1.0,1
+prostration after attack,jerking with numbness of limbs,1.0,1
+prostration after attack,stupid,1.0,1
+prostration after attack,arthritic pain in nape,1.0,1
+prostration after attack,lower limb pain worse at night,1.0,1
+prostration after attack,fearful distortions of limbs,1.0,1
+prostration after attack,rheumatism following concussion,1.0,1
+prostration after attack,muscles of neck become hard,1.0,1
+prostration after attack,sensation of stiffness of limbs,1.0,1
+prostration after attack,bruised pain on right scapula,1.0,1
+prostration after attack,difficulty turning head back after turning,1.0,1
+prostration after attack,muscles of neck contract,1.0,1
+prostration after attack,numbness of fingers,1.0,1
+prostration after attack,swelling in left knee,1.0,1
+prostration after attack,great weakness of legs after slight exercise,1.0,1
+prostration after attack,trembling of hand,1.0,1
+prostration after attack,frequent stitches in arm,1.0,1
+prostration after attack,bruised sensation in forearms,1.0,1
+prostration after attack,frequent involuntary jerking of muscles,1.0,1
+prostration after attack,tearing jerking in coccyx,1.0,1
+prostration after attack,ending pain down to feet,1.0,1
+prostration after attack,epileptiform convulsions,1.0,1
+prostration after attack,frequent jerking in arm,1.0,1
+prostration after attack,excitable,1.0,1
+prostration after attack,tension in neck muscles,1.0,1
+prostration after attack,drawing pain in calves,1.0,1
+prostration after attack,sensation of heaviness of arms,1.0,1
+prostration after attack,loss of consciousness,1.0,1
+prostration after attack,back bent backward like an arch,1.0,1
+prostration after attack,violent stitches in shoulder,1.0,1
+prostration after attack,nape pain draws head backward,1.0,1
+prostration after attack,ending pain in anterior lower limb muscles,1.0,1
+prostration after attack,trembling of legs,1.0,1
+prostration after attack,frequent stitches in fingers,1.0,1
+prostration after attack,great weakness of arms after slight exercise,1.0,1
+prostration after attack,great weakness after attack,1.0,1
+prostration after attack,creeping in hands,1.0,1
+ending pain down to feet,cramps in neck muscles,1.0,1
+ending pain down to feet,shoulder stitches prevent motion,1.0,1
+ending pain down to feet,rheumatism following epileptic convulsion,1.0,1
+ending pain down to feet,frequent jerking in fingers,1.0,1
+ending pain down to feet,prostration after attack,1.0,1
+ending pain down to feet,tetanic stiffness,1.0,1
+ending pain down to feet,pain on inner surface of scapula,1.0,1
+ending pain down to feet,frequent twitching of muscles,1.0,1
+ending pain down to feet,jerking with numbness of limbs,1.0,1
+ending pain down to feet,stupid,1.0,1
+ending pain down to feet,arthritic pain in nape,1.0,1
+ending pain down to feet,lower limb pain worse at night,1.0,1
+ending pain down to feet,fearful distortions of limbs,1.0,1
+ending pain down to feet,rheumatism following concussion,1.0,1
+ending pain down to feet,muscles of neck become hard,1.0,1
+ending pain down to feet,sensation of stiffness of limbs,1.0,1
+ending pain down to feet,bruised pain on right scapula,1.0,1
+ending pain down to feet,difficulty turning head back after turning,1.0,1
+ending pain down to feet,muscles of neck contract,1.0,1
+ending pain down to feet,numbness of fingers,1.0,1
+ending pain down to feet,swelling in left knee,1.0,1
+ending pain down to feet,great weakness of legs after slight exercise,1.0,1
+ending pain down to feet,trembling of hand,1.0,1
+ending pain down to feet,frequent stitches in arm,1.0,1
+ending pain down to feet,bruised sensation in forearms,1.0,1
+ending pain down to feet,frequent involuntary jerking of muscles,1.0,1
+ending pain down to feet,tearing jerking in coccyx,1.0,1
+ending pain down to feet,epileptiform convulsions,1.0,1
+ending pain down to feet,frequent jerking in arm,1.0,1
+ending pain down to feet,excitable,1.0,1
+ending pain down to feet,tension in neck muscles,1.0,1
+ending pain down to feet,drawing pain in calves,1.0,1
+ending pain down to feet,sensation of heaviness of arms,1.0,1
+ending pain down to feet,loss of consciousness,1.0,1
+ending pain down to feet,back bent backward like an arch,1.0,1
+ending pain down to feet,violent stitches in shoulder,1.0,1
+ending pain down to feet,nape pain draws head backward,1.0,1
+ending pain down to feet,ending pain in anterior lower limb muscles,1.0,1
+ending pain down to feet,trembling of legs,1.0,1
+ending pain down to feet,frequent stitches in fingers,1.0,1
+ending pain down to feet,great weakness of arms after slight exercise,1.0,1
+ending pain down to feet,great weakness after attack,1.0,1
+ending pain down to feet,creeping in hands,1.0,1
+tension in neck muscles,cramps in neck muscles,1.0,1
+tension in neck muscles,shoulder stitches prevent motion,1.0,1
+tension in neck muscles,rheumatism following epileptic convulsion,1.0,1
+tension in neck muscles,frequent jerking in fingers,1.0,1
+tension in neck muscles,prostration after attack,1.0,1
+tension in neck muscles,tetanic stiffness,1.0,1
+tension in neck muscles,pain on inner surface of scapula,1.0,1
+tension in neck muscles,frequent twitching of muscles,1.0,1
+tension in neck muscles,jerking with numbness of limbs,1.0,1
+tension in neck muscles,stupid,1.0,1
+tension in neck muscles,arthritic pain in nape,1.0,1
+tension in neck muscles,lower limb pain worse at night,1.0,1
+tension in neck muscles,fearful distortions of limbs,1.0,1
+tension in neck muscles,rheumatism following concussion,1.0,1
+tension in neck muscles,muscles of neck become hard,1.0,1
+tension in neck muscles,sensation of stiffness of limbs,1.0,1
+tension in neck muscles,bruised pain on right scapula,1.0,1
+tension in neck muscles,difficulty turning head back after turning,1.0,1
+tension in neck muscles,muscles of neck contract,1.0,1
+tension in neck muscles,numbness of fingers,1.0,1
+tension in neck muscles,swelling in left knee,1.0,1
+tension in neck muscles,great weakness of legs after slight exercise,1.0,1
+tension in neck muscles,trembling of hand,1.0,1
+tension in neck muscles,frequent stitches in arm,1.0,1
+tension in neck muscles,bruised sensation in forearms,1.0,1
+tension in neck muscles,frequent involuntary jerking of muscles,1.0,1
+tension in neck muscles,tearing jerking in coccyx,1.0,1
+tension in neck muscles,ending pain down to feet,1.0,1
+tension in neck muscles,epileptiform convulsions,1.0,1
+tension in neck muscles,frequent jerking in arm,1.0,1
+tension in neck muscles,excitable,1.0,1
+tension in neck muscles,drawing pain in calves,1.0,1
+tension in neck muscles,sensation of heaviness of arms,1.0,1
+tension in neck muscles,loss of consciousness,1.0,1
+tension in neck muscles,back bent backward like an arch,1.0,1
+tension in neck muscles,violent stitches in shoulder,1.0,1
+tension in neck muscles,nape pain draws head backward,1.0,1
+tension in neck muscles,ending pain in anterior lower limb muscles,1.0,1
+tension in neck muscles,trembling of legs,1.0,1
+tension in neck muscles,frequent stitches in fingers,1.0,1
+tension in neck muscles,great weakness of arms after slight exercise,1.0,1
+tension in neck muscles,great weakness after attack,1.0,1
+tension in neck muscles,creeping in hands,1.0,1
+excitable,cramps in neck muscles,1.0,1
+excitable,shoulder stitches prevent motion,1.0,1
+excitable,rheumatism following epileptic convulsion,1.0,1
+excitable,frequent jerking in fingers,1.0,1
+excitable,prostration after attack,1.0,1
+excitable,tetanic stiffness,1.0,1
+excitable,pain on inner surface of scapula,1.0,1
+excitable,frequent twitching of muscles,1.0,1
+excitable,jerking with numbness of limbs,1.0,1
+excitable,stupid,1.0,1
+excitable,arthritic pain in nape,1.0,1
+excitable,lower limb pain worse at night,1.0,1
+excitable,fearful distortions of limbs,1.0,1
+excitable,rheumatism following concussion,1.0,1
+excitable,muscles of neck become hard,1.0,1
+excitable,sensation of stiffness of limbs,1.0,1
+excitable,bruised pain on right scapula,1.0,1
+excitable,difficulty turning head back after turning,1.0,1
+excitable,muscles of neck contract,1.0,1
+excitable,numbness of fingers,1.0,1
+excitable,swelling in left knee,1.0,1
+excitable,great weakness of legs after slight exercise,1.0,1
+excitable,trembling of hand,1.0,1
+excitable,frequent stitches in arm,1.0,1
+excitable,bruised sensation in forearms,1.0,1
+excitable,frequent involuntary jerking of muscles,1.0,1
+excitable,tearing jerking in coccyx,1.0,1
+excitable,ending pain down to feet,1.0,1
+excitable,epileptiform convulsions,1.0,1
+excitable,frequent jerking in arm,1.0,1
+excitable,tension in neck muscles,1.0,1
+excitable,drawing pain in calves,1.0,1
+excitable,sensation of heaviness of arms,1.0,1
+excitable,loss of consciousness,1.0,1
+excitable,back bent backward like an arch,1.0,1
+excitable,violent stitches in shoulder,1.0,1
+excitable,nape pain draws head backward,1.0,1
+excitable,ending pain in anterior lower limb muscles,1.0,1
+excitable,trembling of legs,1.0,1
+excitable,frequent stitches in fingers,1.0,1
+excitable,great weakness of arms after slight exercise,1.0,1
+excitable,great weakness after attack,1.0,1
+excitable,creeping in hands,1.0,1
+numbness of fingers,cramps in neck muscles,1.0,1
+numbness of fingers,shoulder stitches prevent motion,1.0,1
+numbness of fingers,rheumatism following epileptic convulsion,1.0,1
+numbness of fingers,frequent jerking in fingers,1.0,1
+numbness of fingers,prostration after attack,1.0,1
+numbness of fingers,tetanic stiffness,1.0,1
+numbness of fingers,pain on inner surface of scapula,1.0,1
+numbness of fingers,frequent twitching of muscles,1.0,1
+numbness of fingers,jerking with numbness of limbs,1.0,1
+numbness of fingers,stupid,1.0,1
+numbness of fingers,arthritic pain in nape,1.0,1
+numbness of fingers,lower limb pain worse at night,1.0,1
+numbness of fingers,fearful distortions of limbs,1.0,1
+numbness of fingers,rheumatism following concussion,1.0,1
+numbness of fingers,muscles of neck become hard,1.0,1
+numbness of fingers,sensation of stiffness of limbs,1.0,1
+numbness of fingers,bruised pain on right scapula,1.0,1
+numbness of fingers,difficulty turning head back after turning,1.0,1
+numbness of fingers,muscles of neck contract,1.0,1
+numbness of fingers,swelling in left knee,1.0,1
+numbness of fingers,great weakness of legs after slight exercise,1.0,1
+numbness of fingers,trembling of hand,1.0,1
+numbness of fingers,frequent stitches in arm,1.0,1
+numbness of fingers,bruised sensation in forearms,1.0,1
+numbness of fingers,frequent involuntary jerking of muscles,1.0,1
+numbness of fingers,tearing jerking in coccyx,1.0,1
+numbness of fingers,ending pain down to feet,1.0,1
+numbness of fingers,epileptiform convulsions,1.0,1
+numbness of fingers,frequent jerking in arm,1.0,1
+numbness of fingers,excitable,1.0,1
+numbness of fingers,tension in neck muscles,1.0,1
+numbness of fingers,drawing pain in calves,1.0,1
+numbness of fingers,sensation of heaviness of arms,1.0,1
+numbness of fingers,loss of consciousness,1.0,1
+numbness of fingers,back bent backward like an arch,1.0,1
+numbness of fingers,violent stitches in shoulder,1.0,1
+numbness of fingers,nape pain draws head backward,1.0,1
+numbness of fingers,ending pain in anterior lower limb muscles,1.0,1
+numbness of fingers,trembling of legs,1.0,1
+numbness of fingers,frequent stitches in fingers,1.0,1
+numbness of fingers,great weakness of arms after slight exercise,1.0,1
+numbness of fingers,great weakness after attack,1.0,1
+numbness of fingers,creeping in hands,1.0,1
+arthritic pain in nape,cramps in neck muscles,1.0,1
+arthritic pain in nape,shoulder stitches prevent motion,1.0,1
+arthritic pain in nape,rheumatism following epileptic convulsion,1.0,1
+arthritic pain in nape,frequent jerking in fingers,1.0,1
+arthritic pain in nape,prostration after attack,1.0,1
+arthritic pain in nape,tetanic stiffness,1.0,1
+arthritic pain in nape,pain on inner surface of scapula,1.0,1
+arthritic pain in nape,frequent twitching of muscles,1.0,1
+arthritic pain in nape,jerking with numbness of limbs,1.0,1
+arthritic pain in nape,stupid,1.0,1
+arthritic pain in nape,lower limb pain worse at night,1.0,1
+arthritic pain in nape,fearful distortions of limbs,1.0,1
+arthritic pain in nape,rheumatism following concussion,1.0,1
+arthritic pain in nape,muscles of neck become hard,1.0,1
+arthritic pain in nape,sensation of stiffness of limbs,1.0,1
+arthritic pain in nape,bruised pain on right scapula,1.0,1
+arthritic pain in nape,difficulty turning head back after turning,1.0,1
+arthritic pain in nape,muscles of neck contract,1.0,1
+arthritic pain in nape,numbness of fingers,1.0,1
+arthritic pain in nape,swelling in left knee,1.0,1
+arthritic pain in nape,great weakness of legs after slight exercise,1.0,1
+arthritic pain in nape,trembling of hand,1.0,1
+arthritic pain in nape,frequent stitches in arm,1.0,1
+arthritic pain in nape,bruised sensation in forearms,1.0,1
+arthritic pain in nape,frequent involuntary jerking of muscles,1.0,1
+arthritic pain in nape,tearing jerking in coccyx,1.0,1
+arthritic pain in nape,ending pain down to feet,1.0,1
+arthritic pain in nape,epileptiform convulsions,1.0,1
+arthritic pain in nape,frequent jerking in arm,1.0,1
+arthritic pain in nape,excitable,1.0,1
+arthritic pain in nape,tension in neck muscles,1.0,1
+arthritic pain in nape,drawing pain in calves,1.0,1
+arthritic pain in nape,sensation of heaviness of arms,1.0,1
+arthritic pain in nape,loss of consciousness,1.0,1
+arthritic pain in nape,back bent backward like an arch,1.0,1
+arthritic pain in nape,violent stitches in shoulder,1.0,1
+arthritic pain in nape,nape pain draws head backward,1.0,1
+arthritic pain in nape,ending pain in anterior lower limb muscles,1.0,1
+arthritic pain in nape,trembling of legs,1.0,1
+arthritic pain in nape,frequent stitches in fingers,1.0,1
+arthritic pain in nape,great weakness of arms after slight exercise,1.0,1
+arthritic pain in nape,great weakness after attack,1.0,1
+arthritic pain in nape,creeping in hands,1.0,1
+lower limb pain worse at night,cramps in neck muscles,1.0,1
+lower limb pain worse at night,shoulder stitches prevent motion,1.0,1
+lower limb pain worse at night,rheumatism following epileptic convulsion,1.0,1
+lower limb pain worse at night,frequent jerking in fingers,1.0,1
+lower limb pain worse at night,prostration after attack,1.0,1
+lower limb pain worse at night,tetanic stiffness,1.0,1
+lower limb pain worse at night,pain on inner surface of scapula,1.0,1
+lower limb pain worse at night,frequent twitching of muscles,1.0,1
+lower limb pain worse at night,jerking with numbness of limbs,1.0,1
+lower limb pain worse at night,stupid,1.0,1
+lower limb pain worse at night,arthritic pain in nape,1.0,1
+lower limb pain worse at night,fearful distortions of limbs,1.0,1
+lower limb pain worse at night,rheumatism following concussion,1.0,1
+lower limb pain worse at night,muscles of neck become hard,1.0,1
+lower limb pain worse at night,sensation of stiffness of limbs,1.0,1
+lower limb pain worse at night,bruised pain on right scapula,1.0,1
+lower limb pain worse at night,difficulty turning head back after turning,1.0,1
+lower limb pain worse at night,muscles of neck contract,1.0,1
+lower limb pain worse at night,numbness of fingers,1.0,1
+lower limb pain worse at night,swelling in left knee,1.0,1
+lower limb pain worse at night,great weakness of legs after slight exercise,1.0,1
+lower limb pain worse at night,trembling of hand,1.0,1
+lower limb pain worse at night,frequent stitches in arm,1.0,1
+lower limb pain worse at night,bruised sensation in forearms,1.0,1
+lower limb pain worse at night,frequent involuntary jerking of muscles,1.0,1
+lower limb pain worse at night,tearing jerking in coccyx,1.0,1
+lower limb pain worse at night,ending pain down to feet,1.0,1
+lower limb pain worse at night,epileptiform convulsions,1.0,1
+lower limb pain worse at night,frequent jerking in arm,1.0,1
+lower limb pain worse at night,excitable,1.0,1
+lower limb pain worse at night,tension in neck muscles,1.0,1
+lower limb pain worse at night,drawing pain in calves,1.0,1
+lower limb pain worse at night,sensation of heaviness of arms,1.0,1
+lower limb pain worse at night,loss of consciousness,1.0,1
+lower limb pain worse at night,back bent backward like an arch,1.0,1
+lower limb pain worse at night,violent stitches in shoulder,1.0,1
+lower limb pain worse at night,nape pain draws head backward,1.0,1
+lower limb pain worse at night,ending pain in anterior lower limb muscles,1.0,1
+lower limb pain worse at night,trembling of legs,1.0,1
+lower limb pain worse at night,frequent stitches in fingers,1.0,1
+lower limb pain worse at night,great weakness of arms after slight exercise,1.0,1
+lower limb pain worse at night,great weakness after attack,1.0,1
+lower limb pain worse at night,creeping in hands,1.0,1
+frequent twitching of muscles,cramps in neck muscles,1.0,1
+frequent twitching of muscles,shoulder stitches prevent motion,1.0,1
+frequent twitching of muscles,rheumatism following epileptic convulsion,1.0,1
+frequent twitching of muscles,frequent jerking in fingers,1.0,1
+frequent twitching of muscles,prostration after attack,1.0,1
+frequent twitching of muscles,tetanic stiffness,1.0,1
+frequent twitching of muscles,pain on inner surface of scapula,1.0,1
+frequent twitching of muscles,jerking with numbness of limbs,1.0,1
+frequent twitching of muscles,stupid,1.0,1
+frequent twitching of muscles,arthritic pain in nape,1.0,1
+frequent twitching of muscles,lower limb pain worse at night,1.0,1
+frequent twitching of muscles,fearful distortions of limbs,1.0,1
+frequent twitching of muscles,rheumatism following concussion,1.0,1
+frequent twitching of muscles,muscles of neck become hard,1.0,1
+frequent twitching of muscles,sensation of stiffness of limbs,1.0,1
+frequent twitching of muscles,bruised pain on right scapula,1.0,1
+frequent twitching of muscles,difficulty turning head back after turning,1.0,1
+frequent twitching of muscles,muscles of neck contract,1.0,1
+frequent twitching of muscles,numbness of fingers,1.0,1
+frequent twitching of muscles,swelling in left knee,1.0,1
+frequent twitching of muscles,great weakness of legs after slight exercise,1.0,1
+frequent twitching of muscles,trembling of hand,1.0,1
+frequent twitching of muscles,frequent stitches in arm,1.0,1
+frequent twitching of muscles,bruised sensation in forearms,1.0,1
+frequent twitching of muscles,frequent involuntary jerking of muscles,1.0,1
+frequent twitching of muscles,tearing jerking in coccyx,1.0,1
+frequent twitching of muscles,ending pain down to feet,1.0,1
+frequent twitching of muscles,epileptiform convulsions,1.0,1
+frequent twitching of muscles,frequent jerking in arm,1.0,1
+frequent twitching of muscles,excitable,1.0,1
+frequent twitching of muscles,tension in neck muscles,1.0,1
+frequent twitching of muscles,drawing pain in calves,1.0,1
+frequent twitching of muscles,sensation of heaviness of arms,1.0,1
+frequent twitching of muscles,loss of consciousness,1.0,1
+frequent twitching of muscles,back bent backward like an arch,1.0,1
+frequent twitching of muscles,violent stitches in shoulder,1.0,1
+frequent twitching of muscles,nape pain draws head backward,1.0,1
+frequent twitching of muscles,ending pain in anterior lower limb muscles,1.0,1
+frequent twitching of muscles,trembling of legs,1.0,1
+frequent twitching of muscles,frequent stitches in fingers,1.0,1
+frequent twitching of muscles,great weakness of arms after slight exercise,1.0,1
+frequent twitching of muscles,great weakness after attack,1.0,1
+frequent twitching of muscles,creeping in hands,1.0,1
+rheumatism following concussion,cramps in neck muscles,1.0,1
+rheumatism following concussion,shoulder stitches prevent motion,1.0,1
+rheumatism following concussion,rheumatism following epileptic convulsion,1.0,1
+rheumatism following concussion,frequent jerking in fingers,1.0,1
+rheumatism following concussion,prostration after attack,1.0,1
+rheumatism following concussion,tetanic stiffness,1.0,1
+rheumatism following concussion,pain on inner surface of scapula,1.0,1
+rheumatism following concussion,frequent twitching of muscles,1.0,1
+rheumatism following concussion,jerking with numbness of limbs,1.0,1
+rheumatism following concussion,stupid,1.0,1
+rheumatism following concussion,arthritic pain in nape,1.0,1
+rheumatism following concussion,lower limb pain worse at night,1.0,1
+rheumatism following concussion,fearful distortions of limbs,1.0,1
+rheumatism following concussion,muscles of neck become hard,1.0,1
+rheumatism following concussion,sensation of stiffness of limbs,1.0,1
+rheumatism following concussion,bruised pain on right scapula,1.0,1
+rheumatism following concussion,difficulty turning head back after turning,1.0,1
+rheumatism following concussion,muscles of neck contract,1.0,1
+rheumatism following concussion,numbness of fingers,1.0,1
+rheumatism following concussion,swelling in left knee,1.0,1
+rheumatism following concussion,great weakness of legs after slight exercise,1.0,1
+rheumatism following concussion,trembling of hand,1.0,1
+rheumatism following concussion,frequent stitches in arm,1.0,1
+rheumatism following concussion,bruised sensation in forearms,1.0,1
+rheumatism following concussion,frequent involuntary jerking of muscles,1.0,1
+rheumatism following concussion,tearing jerking in coccyx,1.0,1
+rheumatism following concussion,ending pain down to feet,1.0,1
+rheumatism following concussion,epileptiform convulsions,1.0,1
+rheumatism following concussion,frequent jerking in arm,1.0,1
+rheumatism following concussion,excitable,1.0,1
+rheumatism following concussion,tension in neck muscles,1.0,1
+rheumatism following concussion,drawing pain in calves,1.0,1
+rheumatism following concussion,sensation of heaviness of arms,1.0,1
+rheumatism following concussion,loss of consciousness,1.0,1
+rheumatism following concussion,back bent backward like an arch,1.0,1
+rheumatism following concussion,violent stitches in shoulder,1.0,1
+rheumatism following concussion,nape pain draws head backward,1.0,1
+rheumatism following concussion,ending pain in anterior lower limb muscles,1.0,1
+rheumatism following concussion,trembling of legs,1.0,1
+rheumatism following concussion,frequent stitches in fingers,1.0,1
+rheumatism following concussion,great weakness of arms after slight exercise,1.0,1
+rheumatism following concussion,great weakness after attack,1.0,1
+rheumatism following concussion,creeping in hands,1.0,1
+bruised pain on right scapula,cramps in neck muscles,1.0,1
+bruised pain on right scapula,shoulder stitches prevent motion,1.0,1
+bruised pain on right scapula,rheumatism following epileptic convulsion,1.0,1
+bruised pain on right scapula,frequent jerking in fingers,1.0,1
+bruised pain on right scapula,prostration after attack,1.0,1
+bruised pain on right scapula,tetanic stiffness,1.0,1
+bruised pain on right scapula,pain on inner surface of scapula,1.0,1
+bruised pain on right scapula,frequent twitching of muscles,1.0,1
+bruised pain on right scapula,jerking with numbness of limbs,1.0,1
+bruised pain on right scapula,stupid,1.0,1
+bruised pain on right scapula,arthritic pain in nape,1.0,1
+bruised pain on right scapula,lower limb pain worse at night,1.0,1
+bruised pain on right scapula,fearful distortions of limbs,1.0,1
+bruised pain on right scapula,rheumatism following concussion,1.0,1
+bruised pain on right scapula,muscles of neck become hard,1.0,1
+bruised pain on right scapula,sensation of stiffness of limbs,1.0,1
+bruised pain on right scapula,difficulty turning head back after turning,1.0,1
+bruised pain on right scapula,muscles of neck contract,1.0,1
+bruised pain on right scapula,numbness of fingers,1.0,1
+bruised pain on right scapula,swelling in left knee,1.0,1
+bruised pain on right scapula,great weakness of legs after slight exercise,1.0,1
+bruised pain on right scapula,trembling of hand,1.0,1
+bruised pain on right scapula,frequent stitches in arm,1.0,1
+bruised pain on right scapula,bruised sensation in forearms,1.0,1
+bruised pain on right scapula,frequent involuntary jerking of muscles,1.0,1
+bruised pain on right scapula,tearing jerking in coccyx,1.0,1
+bruised pain on right scapula,ending pain down to feet,1.0,1
+bruised pain on right scapula,epileptiform convulsions,1.0,1
+bruised pain on right scapula,frequent jerking in arm,1.0,1
+bruised pain on right scapula,excitable,1.0,1
+bruised pain on right scapula,tension in neck muscles,1.0,1
+bruised pain on right scapula,drawing pain in calves,1.0,1
+bruised pain on right scapula,sensation of heaviness of arms,1.0,1
+bruised pain on right scapula,loss of consciousness,1.0,1
+bruised pain on right scapula,back bent backward like an arch,1.0,1
+bruised pain on right scapula,violent stitches in shoulder,1.0,1
+bruised pain on right scapula,nape pain draws head backward,1.0,1
+bruised pain on right scapula,ending pain in anterior lower limb muscles,1.0,1
+bruised pain on right scapula,trembling of legs,1.0,1
+bruised pain on right scapula,frequent stitches in fingers,1.0,1
+bruised pain on right scapula,great weakness of arms after slight exercise,1.0,1
+bruised pain on right scapula,great weakness after attack,1.0,1
+bruised pain on right scapula,creeping in hands,1.0,1
+sensation of heaviness of arms,cramps in neck muscles,1.0,1
+sensation of heaviness of arms,shoulder stitches prevent motion,1.0,1
+sensation of heaviness of arms,rheumatism following epileptic convulsion,1.0,1
+sensation of heaviness of arms,frequent jerking in fingers,1.0,1
+sensation of heaviness of arms,prostration after attack,1.0,1
+sensation of heaviness of arms,tetanic stiffness,1.0,1
+sensation of heaviness of arms,pain on inner surface of scapula,1.0,1
+sensation of heaviness of arms,frequent twitching of muscles,1.0,1
+sensation of heaviness of arms,jerking with numbness of limbs,1.0,1
+sensation of heaviness of arms,stupid,1.0,1
+sensation of heaviness of arms,arthritic pain in nape,1.0,1
+sensation of heaviness of arms,lower limb pain worse at night,1.0,1
+sensation of heaviness of arms,fearful distortions of limbs,1.0,1
+sensation of heaviness of arms,rheumatism following concussion,1.0,1
+sensation of heaviness of arms,muscles of neck become hard,1.0,1
+sensation of heaviness of arms,sensation of stiffness of limbs,1.0,1
+sensation of heaviness of arms,bruised pain on right scapula,1.0,1
+sensation of heaviness of arms,difficulty turning head back after turning,1.0,1
+sensation of heaviness of arms,muscles of neck contract,1.0,1
+sensation of heaviness of arms,numbness of fingers,1.0,1
+sensation of heaviness of arms,swelling in left knee,1.0,1
+sensation of heaviness of arms,great weakness of legs after slight exercise,1.0,1
+sensation of heaviness of arms,trembling of hand,1.0,1
+sensation of heaviness of arms,frequent stitches in arm,1.0,1
+sensation of heaviness of arms,bruised sensation in forearms,1.0,1
+sensation of heaviness of arms,frequent involuntary jerking of muscles,1.0,1
+sensation of heaviness of arms,tearing jerking in coccyx,1.0,1
+sensation of heaviness of arms,ending pain down to feet,1.0,1
+sensation of heaviness of arms,epileptiform convulsions,1.0,1
+sensation of heaviness of arms,frequent jerking in arm,1.0,1
+sensation of heaviness of arms,excitable,1.0,1
+sensation of heaviness of arms,tension in neck muscles,1.0,1
+sensation of heaviness of arms,drawing pain in calves,1.0,1
+sensation of heaviness of arms,loss of consciousness,1.0,1
+sensation of heaviness of arms,back bent backward like an arch,1.0,1
+sensation of heaviness of arms,violent stitches in shoulder,1.0,1
+sensation of heaviness of arms,nape pain draws head backward,1.0,1
+sensation of heaviness of arms,ending pain in anterior lower limb muscles,1.0,1
+sensation of heaviness of arms,trembling of legs,1.0,1
+sensation of heaviness of arms,frequent stitches in fingers,1.0,1
+sensation of heaviness of arms,great weakness of arms after slight exercise,1.0,1
+sensation of heaviness of arms,great weakness after attack,1.0,1
+sensation of heaviness of arms,creeping in hands,1.0,1
+muscles of neck become hard,cramps in neck muscles,1.0,1
+muscles of neck become hard,shoulder stitches prevent motion,1.0,1
+muscles of neck become hard,rheumatism following epileptic convulsion,1.0,1
+muscles of neck become hard,frequent jerking in fingers,1.0,1
+muscles of neck become hard,prostration after attack,1.0,1
+muscles of neck become hard,tetanic stiffness,1.0,1
+muscles of neck become hard,pain on inner surface of scapula,1.0,1
+muscles of neck become hard,frequent twitching of muscles,1.0,1
+muscles of neck become hard,jerking with numbness of limbs,1.0,1
+muscles of neck become hard,stupid,1.0,1
+muscles of neck become hard,arthritic pain in nape,1.0,1
+muscles of neck become hard,lower limb pain worse at night,1.0,1
+muscles of neck become hard,fearful distortions of limbs,1.0,1
+muscles of neck become hard,rheumatism following concussion,1.0,1
+muscles of neck become hard,sensation of stiffness of limbs,1.0,1
+muscles of neck become hard,bruised pain on right scapula,1.0,1
+muscles of neck become hard,difficulty turning head back after turning,1.0,1
+muscles of neck become hard,muscles of neck contract,1.0,1
+muscles of neck become hard,numbness of fingers,1.0,1
+muscles of neck become hard,swelling in left knee,1.0,1
+muscles of neck become hard,great weakness of legs after slight exercise,1.0,1
+muscles of neck become hard,trembling of hand,1.0,1
+muscles of neck become hard,frequent stitches in arm,1.0,1
+muscles of neck become hard,bruised sensation in forearms,1.0,1
+muscles of neck become hard,frequent involuntary jerking of muscles,1.0,1
+muscles of neck become hard,tearing jerking in coccyx,1.0,1
+muscles of neck become hard,ending pain down to feet,1.0,1
+muscles of neck become hard,epileptiform convulsions,1.0,1
+muscles of neck become hard,frequent jerking in arm,1.0,1
+muscles of neck become hard,excitable,1.0,1
+muscles of neck become hard,tension in neck muscles,1.0,1
+muscles of neck become hard,drawing pain in calves,1.0,1
+muscles of neck become hard,sensation of heaviness of arms,1.0,1
+muscles of neck become hard,loss of consciousness,1.0,1
+muscles of neck become hard,back bent backward like an arch,1.0,1
+muscles of neck become hard,violent stitches in shoulder,1.0,1
+muscles of neck become hard,nape pain draws head backward,1.0,1
+muscles of neck become hard,ending pain in anterior lower limb muscles,1.0,1
+muscles of neck become hard,trembling of legs,1.0,1
+muscles of neck become hard,frequent stitches in fingers,1.0,1
+muscles of neck become hard,great weakness of arms after slight exercise,1.0,1
+muscles of neck become hard,great weakness after attack,1.0,1
+muscles of neck become hard,creeping in hands,1.0,1
+rheumatism following epileptic convulsion,cramps in neck muscles,1.0,1
+rheumatism following epileptic convulsion,shoulder stitches prevent motion,1.0,1
+rheumatism following epileptic convulsion,frequent jerking in fingers,1.0,1
+rheumatism following epileptic convulsion,prostration after attack,1.0,1
+rheumatism following epileptic convulsion,tetanic stiffness,1.0,1
+rheumatism following epileptic convulsion,pain on inner surface of scapula,1.0,1
+rheumatism following epileptic convulsion,frequent twitching of muscles,1.0,1
+rheumatism following epileptic convulsion,jerking with numbness of limbs,1.0,1
+rheumatism following epileptic convulsion,stupid,1.0,1
+rheumatism following epileptic convulsion,arthritic pain in nape,1.0,1
+rheumatism following epileptic convulsion,lower limb pain worse at night,1.0,1
+rheumatism following epileptic convulsion,fearful distortions of limbs,1.0,1
+rheumatism following epileptic convulsion,rheumatism following concussion,1.0,1
+rheumatism following epileptic convulsion,muscles of neck become hard,1.0,1
+rheumatism following epileptic convulsion,sensation of stiffness of limbs,1.0,1
+rheumatism following epileptic convulsion,bruised pain on right scapula,1.0,1
+rheumatism following epileptic convulsion,difficulty turning head back after turning,1.0,1
+rheumatism following epileptic convulsion,muscles of neck contract,1.0,1
+rheumatism following epileptic convulsion,numbness of fingers,1.0,1
+rheumatism following epileptic convulsion,swelling in left knee,1.0,1
+rheumatism following epileptic convulsion,great weakness of legs after slight exercise,1.0,1
+rheumatism following epileptic convulsion,trembling of hand,1.0,1
+rheumatism following epileptic convulsion,frequent stitches in arm,1.0,1
+rheumatism following epileptic convulsion,bruised sensation in forearms,1.0,1
+rheumatism following epileptic convulsion,frequent involuntary jerking of muscles,1.0,1
+rheumatism following epileptic convulsion,tearing jerking in coccyx,1.0,1
+rheumatism following epileptic convulsion,ending pain down to feet,1.0,1
+rheumatism following epileptic convulsion,epileptiform convulsions,1.0,1
+rheumatism following epileptic convulsion,frequent jerking in arm,1.0,1
+rheumatism following epileptic convulsion,excitable,1.0,1
+rheumatism following epileptic convulsion,tension in neck muscles,1.0,1
+rheumatism following epileptic convulsion,drawing pain in calves,1.0,1
+rheumatism following epileptic convulsion,sensation of heaviness of arms,1.0,1
+rheumatism following epileptic convulsion,loss of consciousness,1.0,1
+rheumatism following epileptic convulsion,back bent backward like an arch,1.0,1
+rheumatism following epileptic convulsion,violent stitches in shoulder,1.0,1
+rheumatism following epileptic convulsion,nape pain draws head backward,1.0,1
+rheumatism following epileptic convulsion,ending pain in anterior lower limb muscles,1.0,1
+rheumatism following epileptic convulsion,trembling of legs,1.0,1
+rheumatism following epileptic convulsion,frequent stitches in fingers,1.0,1
+rheumatism following epileptic convulsion,great weakness of arms after slight exercise,1.0,1
+rheumatism following epileptic convulsion,great weakness after attack,1.0,1
+rheumatism following epileptic convulsion,creeping in hands,1.0,1
+frequent jerking in arm,cramps in neck muscles,1.0,1
+frequent jerking in arm,shoulder stitches prevent motion,1.0,1
+frequent jerking in arm,rheumatism following epileptic convulsion,1.0,1
+frequent jerking in arm,frequent jerking in fingers,1.0,1
+frequent jerking in arm,prostration after attack,1.0,1
+frequent jerking in arm,tetanic stiffness,1.0,1
+frequent jerking in arm,pain on inner surface of scapula,1.0,1
+frequent jerking in arm,frequent twitching of muscles,1.0,1
+frequent jerking in arm,jerking with numbness of limbs,1.0,1
+frequent jerking in arm,stupid,1.0,1
+frequent jerking in arm,arthritic pain in nape,1.0,1
+frequent jerking in arm,lower limb pain worse at night,1.0,1
+frequent jerking in arm,fearful distortions of limbs,1.0,1
+frequent jerking in arm,rheumatism following concussion,1.0,1
+frequent jerking in arm,muscles of neck become hard,1.0,1
+frequent jerking in arm,sensation of stiffness of limbs,1.0,1
+frequent jerking in arm,bruised pain on right scapula,1.0,1
+frequent jerking in arm,difficulty turning head back after turning,1.0,1
+frequent jerking in arm,muscles of neck contract,1.0,1
+frequent jerking in arm,numbness of fingers,1.0,1
+frequent jerking in arm,swelling in left knee,1.0,1
+frequent jerking in arm,great weakness of legs after slight exercise,1.0,1
+frequent jerking in arm,trembling of hand,1.0,1
+frequent jerking in arm,frequent stitches in arm,1.0,1
+frequent jerking in arm,bruised sensation in forearms,1.0,1
+frequent jerking in arm,frequent involuntary jerking of muscles,1.0,1
+frequent jerking in arm,tearing jerking in coccyx,1.0,1
+frequent jerking in arm,ending pain down to feet,1.0,1
+frequent jerking in arm,epileptiform convulsions,1.0,1
+frequent jerking in arm,excitable,1.0,1
+frequent jerking in arm,tension in neck muscles,1.0,1
+frequent jerking in arm,drawing pain in calves,1.0,1
+frequent jerking in arm,sensation of heaviness of arms,1.0,1
+frequent jerking in arm,loss of consciousness,1.0,1
+frequent jerking in arm,back bent backward like an arch,1.0,1
+frequent jerking in arm,violent stitches in shoulder,1.0,1
+frequent jerking in arm,nape pain draws head backward,1.0,1
+frequent jerking in arm,ending pain in anterior lower limb muscles,1.0,1
+frequent jerking in arm,trembling of legs,1.0,1
+frequent jerking in arm,frequent stitches in fingers,1.0,1
+frequent jerking in arm,great weakness of arms after slight exercise,1.0,1
+frequent jerking in arm,great weakness after attack,1.0,1
+frequent jerking in arm,creeping in hands,1.0,1
+great weakness after attack,cramps in neck muscles,1.0,1
+great weakness after attack,shoulder stitches prevent motion,1.0,1
+great weakness after attack,rheumatism following epileptic convulsion,1.0,1
+great weakness after attack,frequent jerking in fingers,1.0,1
+great weakness after attack,prostration after attack,1.0,1
+great weakness after attack,tetanic stiffness,1.0,1
+great weakness after attack,pain on inner surface of scapula,1.0,1
+great weakness after attack,frequent twitching of muscles,1.0,1
+great weakness after attack,jerking with numbness of limbs,1.0,1
+great weakness after attack,stupid,1.0,1
+great weakness after attack,arthritic pain in nape,1.0,1
+great weakness after attack,lower limb pain worse at night,1.0,1
+great weakness after attack,fearful distortions of limbs,1.0,1
+great weakness after attack,rheumatism following concussion,1.0,1
+great weakness after attack,muscles of neck become hard,1.0,1
+great weakness after attack,sensation of stiffness of limbs,1.0,1
+great weakness after attack,bruised pain on right scapula,1.0,1
+great weakness after attack,difficulty turning head back after turning,1.0,1
+great weakness after attack,muscles of neck contract,1.0,1
+great weakness after attack,numbness of fingers,1.0,1
+great weakness after attack,swelling in left knee,1.0,1
+great weakness after attack,great weakness of legs after slight exercise,1.0,1
+great weakness after attack,trembling of hand,1.0,1
+great weakness after attack,frequent stitches in arm,1.0,1
+great weakness after attack,bruised sensation in forearms,1.0,1
+great weakness after attack,frequent involuntary jerking of muscles,1.0,1
+great weakness after attack,tearing jerking in coccyx,1.0,1
+great weakness after attack,ending pain down to feet,1.0,1
+great weakness after attack,epileptiform convulsions,1.0,1
+great weakness after attack,frequent jerking in arm,1.0,1
+great weakness after attack,excitable,1.0,1
+great weakness after attack,tension in neck muscles,1.0,1
+great weakness after attack,drawing pain in calves,1.0,1
+great weakness after attack,sensation of heaviness of arms,1.0,1
+great weakness after attack,loss of consciousness,1.0,1
+great weakness after attack,back bent backward like an arch,1.0,1
+great weakness after attack,violent stitches in shoulder,1.0,1
+great weakness after attack,nape pain draws head backward,1.0,1
+great weakness after attack,ending pain in anterior lower limb muscles,1.0,1
+great weakness after attack,trembling of legs,1.0,1
+great weakness after attack,frequent stitches in fingers,1.0,1
+great weakness after attack,great weakness of arms after slight exercise,1.0,1
+great weakness after attack,creeping in hands,1.0,1
+nape pain draws head backward,cramps in neck muscles,1.0,1
+nape pain draws head backward,shoulder stitches prevent motion,1.0,1
+nape pain draws head backward,rheumatism following epileptic convulsion,1.0,1
+nape pain draws head backward,frequent jerking in fingers,1.0,1
+nape pain draws head backward,prostration after attack,1.0,1
+nape pain draws head backward,tetanic stiffness,1.0,1
+nape pain draws head backward,pain on inner surface of scapula,1.0,1
+nape pain draws head backward,frequent twitching of muscles,1.0,1
+nape pain draws head backward,jerking with numbness of limbs,1.0,1
+nape pain draws head backward,stupid,1.0,1
+nape pain draws head backward,arthritic pain in nape,1.0,1
+nape pain draws head backward,lower limb pain worse at night,1.0,1
+nape pain draws head backward,fearful distortions of limbs,1.0,1
+nape pain draws head backward,rheumatism following concussion,1.0,1
+nape pain draws head backward,muscles of neck become hard,1.0,1
+nape pain draws head backward,sensation of stiffness of limbs,1.0,1
+nape pain draws head backward,bruised pain on right scapula,1.0,1
+nape pain draws head backward,difficulty turning head back after turning,1.0,1
+nape pain draws head backward,muscles of neck contract,1.0,1
+nape pain draws head backward,numbness of fingers,1.0,1
+nape pain draws head backward,swelling in left knee,1.0,1
+nape pain draws head backward,great weakness of legs after slight exercise,1.0,1
+nape pain draws head backward,trembling of hand,1.0,1
+nape pain draws head backward,frequent stitches in arm,1.0,1
+nape pain draws head backward,bruised sensation in forearms,1.0,1
+nape pain draws head backward,frequent involuntary jerking of muscles,1.0,1
+nape pain draws head backward,tearing jerking in coccyx,1.0,1
+nape pain draws head backward,ending pain down to feet,1.0,1
+nape pain draws head backward,epileptiform convulsions,1.0,1
+nape pain draws head backward,frequent jerking in arm,1.0,1
+nape pain draws head backward,excitable,1.0,1
+nape pain draws head backward,tension in neck muscles,1.0,1
+nape pain draws head backward,drawing pain in calves,1.0,1
+nape pain draws head backward,sensation of heaviness of arms,1.0,1
+nape pain draws head backward,loss of consciousness,1.0,1
+nape pain draws head backward,back bent backward like an arch,1.0,1
+nape pain draws head backward,violent stitches in shoulder,1.0,1
+nape pain draws head backward,ending pain in anterior lower limb muscles,1.0,1
+nape pain draws head backward,trembling of legs,1.0,1
+nape pain draws head backward,frequent stitches in fingers,1.0,1
+nape pain draws head backward,great weakness of arms after slight exercise,1.0,1
+nape pain draws head backward,great weakness after attack,1.0,1
+nape pain draws head backward,creeping in hands,1.0,1
+trembling of legs,cramps in neck muscles,1.0,1
+trembling of legs,shoulder stitches prevent motion,1.0,1
+trembling of legs,rheumatism following epileptic convulsion,1.0,1
+trembling of legs,frequent jerking in fingers,1.0,1
+trembling of legs,prostration after attack,1.0,1
+trembling of legs,tetanic stiffness,1.0,1
+trembling of legs,pain on inner surface of scapula,1.0,1
+trembling of legs,frequent twitching of muscles,1.0,1
+trembling of legs,jerking with numbness of limbs,1.0,1
+trembling of legs,stupid,1.0,1
+trembling of legs,arthritic pain in nape,1.0,1
+trembling of legs,lower limb pain worse at night,1.0,1
+trembling of legs,fearful distortions of limbs,1.0,1
+trembling of legs,rheumatism following concussion,1.0,1
+trembling of legs,muscles of neck become hard,1.0,1
+trembling of legs,sensation of stiffness of limbs,1.0,1
+trembling of legs,bruised pain on right scapula,1.0,1
+trembling of legs,difficulty turning head back after turning,1.0,1
+trembling of legs,muscles of neck contract,1.0,1
+trembling of legs,numbness of fingers,1.0,1
+trembling of legs,swelling in left knee,1.0,1
+trembling of legs,great weakness of legs after slight exercise,1.0,1
+trembling of legs,trembling of hand,1.0,1
+trembling of legs,frequent stitches in arm,1.0,1
+trembling of legs,bruised sensation in forearms,1.0,1
+trembling of legs,frequent involuntary jerking of muscles,1.0,1
+trembling of legs,tearing jerking in coccyx,1.0,1
+trembling of legs,ending pain down to feet,1.0,1
+trembling of legs,epileptiform convulsions,1.0,1
+trembling of legs,frequent jerking in arm,1.0,1
+trembling of legs,excitable,1.0,1
+trembling of legs,tension in neck muscles,1.0,1
+trembling of legs,drawing pain in calves,1.0,1
+trembling of legs,sensation of heaviness of arms,1.0,1
+trembling of legs,loss of consciousness,1.0,1
+trembling of legs,back bent backward like an arch,1.0,1
+trembling of legs,violent stitches in shoulder,1.0,1
+trembling of legs,nape pain draws head backward,1.0,1
+trembling of legs,ending pain in anterior lower limb muscles,1.0,1
+trembling of legs,frequent stitches in fingers,1.0,1
+trembling of legs,great weakness of arms after slight exercise,1.0,1
+trembling of legs,great weakness after attack,1.0,1
+trembling of legs,creeping in hands,1.0,1
+sensation of stiffness of limbs,cramps in neck muscles,1.0,1
+sensation of stiffness of limbs,shoulder stitches prevent motion,1.0,1
+sensation of stiffness of limbs,rheumatism following epileptic convulsion,1.0,1
+sensation of stiffness of limbs,frequent jerking in fingers,1.0,1
+sensation of stiffness of limbs,prostration after attack,1.0,1
+sensation of stiffness of limbs,tetanic stiffness,1.0,1
+sensation of stiffness of limbs,pain on inner surface of scapula,1.0,1
+sensation of stiffness of limbs,frequent twitching of muscles,1.0,1
+sensation of stiffness of limbs,jerking with numbness of limbs,1.0,1
+sensation of stiffness of limbs,stupid,1.0,1
+sensation of stiffness of limbs,arthritic pain in nape,1.0,1
+sensation of stiffness of limbs,lower limb pain worse at night,1.0,1
+sensation of stiffness of limbs,fearful distortions of limbs,1.0,1
+sensation of stiffness of limbs,rheumatism following concussion,1.0,1
+sensation of stiffness of limbs,muscles of neck become hard,1.0,1
+sensation of stiffness of limbs,bruised pain on right scapula,1.0,1
+sensation of stiffness of limbs,difficulty turning head back after turning,1.0,1
+sensation of stiffness of limbs,muscles of neck contract,1.0,1
+sensation of stiffness of limbs,numbness of fingers,1.0,1
+sensation of stiffness of limbs,swelling in left knee,1.0,1
+sensation of stiffness of limbs,great weakness of legs after slight exercise,1.0,1
+sensation of stiffness of limbs,trembling of hand,1.0,1
+sensation of stiffness of limbs,frequent stitches in arm,1.0,1
+sensation of stiffness of limbs,bruised sensation in forearms,1.0,1
+sensation of stiffness of limbs,frequent involuntary jerking of muscles,1.0,1
+sensation of stiffness of limbs,tearing jerking in coccyx,1.0,1
+sensation of stiffness of limbs,ending pain down to feet,1.0,1
+sensation of stiffness of limbs,epileptiform convulsions,1.0,1
+sensation of stiffness of limbs,frequent jerking in arm,1.0,1
+sensation of stiffness of limbs,excitable,1.0,1
+sensation of stiffness of limbs,tension in neck muscles,1.0,1
+sensation of stiffness of limbs,drawing pain in calves,1.0,1
+sensation of stiffness of limbs,sensation of heaviness of arms,1.0,1
+sensation of stiffness of limbs,loss of consciousness,1.0,1
+sensation of stiffness of limbs,back bent backward like an arch,1.0,1
+sensation of stiffness of limbs,violent stitches in shoulder,1.0,1
+sensation of stiffness of limbs,nape pain draws head backward,1.0,1
+sensation of stiffness of limbs,ending pain in anterior lower limb muscles,1.0,1
+sensation of stiffness of limbs,trembling of legs,1.0,1
+sensation of stiffness of limbs,frequent stitches in fingers,1.0,1
+sensation of stiffness of limbs,great weakness of arms after slight exercise,1.0,1
+sensation of stiffness of limbs,great weakness after attack,1.0,1
+sensation of stiffness of limbs,creeping in hands,1.0,1
+difficulty turning head back after turning,cramps in neck muscles,1.0,1
+difficulty turning head back after turning,shoulder stitches prevent motion,1.0,1
+difficulty turning head back after turning,rheumatism following epileptic convulsion,1.0,1
+difficulty turning head back after turning,frequent jerking in fingers,1.0,1
+difficulty turning head back after turning,prostration after attack,1.0,1
+difficulty turning head back after turning,tetanic stiffness,1.0,1
+difficulty turning head back after turning,pain on inner surface of scapula,1.0,1
+difficulty turning head back after turning,frequent twitching of muscles,1.0,1
+difficulty turning head back after turning,jerking with numbness of limbs,1.0,1
+difficulty turning head back after turning,stupid,1.0,1
+difficulty turning head back after turning,arthritic pain in nape,1.0,1
+difficulty turning head back after turning,lower limb pain worse at night,1.0,1
+difficulty turning head back after turning,fearful distortions of limbs,1.0,1
+difficulty turning head back after turning,rheumatism following concussion,1.0,1
+difficulty turning head back after turning,muscles of neck become hard,1.0,1
+difficulty turning head back after turning,sensation of stiffness of limbs,1.0,1
+difficulty turning head back after turning,bruised pain on right scapula,1.0,1
+difficulty turning head back after turning,muscles of neck contract,1.0,1
+difficulty turning head back after turning,numbness of fingers,1.0,1
+difficulty turning head back after turning,swelling in left knee,1.0,1
+difficulty turning head back after turning,great weakness of legs after slight exercise,1.0,1
+difficulty turning head back after turning,trembling of hand,1.0,1
+difficulty turning head back after turning,frequent stitches in arm,1.0,1
+difficulty turning head back after turning,bruised sensation in forearms,1.0,1
+difficulty turning head back after turning,frequent involuntary jerking of muscles,1.0,1
+difficulty turning head back after turning,tearing jerking in coccyx,1.0,1
+difficulty turning head back after turning,ending pain down to feet,1.0,1
+difficulty turning head back after turning,epileptiform convulsions,1.0,1
+difficulty turning head back after turning,frequent jerking in arm,1.0,1
+difficulty turning head back after turning,excitable,1.0,1
+difficulty turning head back after turning,tension in neck muscles,1.0,1
+difficulty turning head back after turning,drawing pain in calves,1.0,1
+difficulty turning head back after turning,sensation of heaviness of arms,1.0,1
+difficulty turning head back after turning,loss of consciousness,1.0,1
+difficulty turning head back after turning,back bent backward like an arch,1.0,1
+difficulty turning head back after turning,violent stitches in shoulder,1.0,1
+difficulty turning head back after turning,nape pain draws head backward,1.0,1
+difficulty turning head back after turning,ending pain in anterior lower limb muscles,1.0,1
+difficulty turning head back after turning,trembling of legs,1.0,1
+difficulty turning head back after turning,frequent stitches in fingers,1.0,1
+difficulty turning head back after turning,great weakness of arms after slight exercise,1.0,1
+difficulty turning head back after turning,great weakness after attack,1.0,1
+difficulty turning head back after turning,creeping in hands,1.0,1
+stupid,cramps in neck muscles,1.0,1
+stupid,shoulder stitches prevent motion,1.0,1
+stupid,rheumatism following epileptic convulsion,1.0,1
+stupid,frequent jerking in fingers,1.0,1
+stupid,prostration after attack,1.0,1
+stupid,tetanic stiffness,1.0,1
+stupid,pain on inner surface of scapula,1.0,1
+stupid,frequent twitching of muscles,1.0,1
+stupid,jerking with numbness of limbs,1.0,1
+stupid,arthritic pain in nape,1.0,1
+stupid,lower limb pain worse at night,1.0,1
+stupid,fearful distortions of limbs,1.0,1
+stupid,rheumatism following concussion,1.0,1
+stupid,muscles of neck become hard,1.0,1
+stupid,sensation of stiffness of limbs,1.0,1
+stupid,bruised pain on right scapula,1.0,1
+stupid,difficulty turning head back after turning,1.0,1
+stupid,muscles of neck contract,1.0,1
+stupid,numbness of fingers,1.0,1
+stupid,swelling in left knee,1.0,1
+stupid,great weakness of legs after slight exercise,1.0,1
+stupid,trembling of hand,1.0,1
+stupid,frequent stitches in arm,1.0,1
+stupid,bruised sensation in forearms,1.0,1
+stupid,frequent involuntary jerking of muscles,1.0,1
+stupid,tearing jerking in coccyx,1.0,1
+stupid,ending pain down to feet,1.0,1
+stupid,epileptiform convulsions,1.0,1
+stupid,frequent jerking in arm,1.0,1
+stupid,excitable,1.0,1
+stupid,tension in neck muscles,1.0,1
+stupid,drawing pain in calves,1.0,1
+stupid,sensation of heaviness of arms,1.0,1
+stupid,loss of consciousness,1.0,1
+stupid,back bent backward like an arch,1.0,1
+stupid,violent stitches in shoulder,1.0,1
+stupid,nape pain draws head backward,1.0,1
+stupid,ending pain in anterior lower limb muscles,1.0,1
+stupid,trembling of legs,1.0,1
+stupid,frequent stitches in fingers,1.0,1
+stupid,great weakness of arms after slight exercise,1.0,1
+stupid,great weakness after attack,1.0,1
+stupid,creeping in hands,1.0,1
+great weakness of legs after slight exercise,cramps in neck muscles,1.0,1
+great weakness of legs after slight exercise,shoulder stitches prevent motion,1.0,1
+great weakness of legs after slight exercise,rheumatism following epileptic convulsion,1.0,1
+great weakness of legs after slight exercise,frequent jerking in fingers,1.0,1
+great weakness of legs after slight exercise,prostration after attack,1.0,1
+great weakness of legs after slight exercise,tetanic stiffness,1.0,1
+great weakness of legs after slight exercise,pain on inner surface of scapula,1.0,1
+great weakness of legs after slight exercise,frequent twitching of muscles,1.0,1
+great weakness of legs after slight exercise,jerking with numbness of limbs,1.0,1
+great weakness of legs after slight exercise,stupid,1.0,1
+great weakness of legs after slight exercise,arthritic pain in nape,1.0,1
+great weakness of legs after slight exercise,lower limb pain worse at night,1.0,1
+great weakness of legs after slight exercise,fearful distortions of limbs,1.0,1
+great weakness of legs after slight exercise,rheumatism following concussion,1.0,1
+great weakness of legs after slight exercise,muscles of neck become hard,1.0,1
+great weakness of legs after slight exercise,sensation of stiffness of limbs,1.0,1
+great weakness of legs after slight exercise,bruised pain on right scapula,1.0,1
+great weakness of legs after slight exercise,difficulty turning head back after turning,1.0,1
+great weakness of legs after slight exercise,muscles of neck contract,1.0,1
+great weakness of legs after slight exercise,numbness of fingers,1.0,1
+great weakness of legs after slight exercise,swelling in left knee,1.0,1
+great weakness of legs after slight exercise,trembling of hand,1.0,1
+great weakness of legs after slight exercise,frequent stitches in arm,1.0,1
+great weakness of legs after slight exercise,bruised sensation in forearms,1.0,1
+great weakness of legs after slight exercise,frequent involuntary jerking of muscles,1.0,1
+great weakness of legs after slight exercise,tearing jerking in coccyx,1.0,1
+great weakness of legs after slight exercise,ending pain down to feet,1.0,1
+great weakness of legs after slight exercise,epileptiform convulsions,1.0,1
+great weakness of legs after slight exercise,frequent jerking in arm,1.0,1
+great weakness of legs after slight exercise,excitable,1.0,1
+great weakness of legs after slight exercise,tension in neck muscles,1.0,1
+great weakness of legs after slight exercise,drawing pain in calves,1.0,1
+great weakness of legs after slight exercise,sensation of heaviness of arms,1.0,1
+great weakness of legs after slight exercise,loss of consciousness,1.0,1
+great weakness of legs after slight exercise,back bent backward like an arch,1.0,1
+great weakness of legs after slight exercise,violent stitches in shoulder,1.0,1
+great weakness of legs after slight exercise,nape pain draws head backward,1.0,1
+great weakness of legs after slight exercise,ending pain in anterior lower limb muscles,1.0,1
+great weakness of legs after slight exercise,trembling of legs,1.0,1
+great weakness of legs after slight exercise,frequent stitches in fingers,1.0,1
+great weakness of legs after slight exercise,great weakness of arms after slight exercise,1.0,1
+great weakness of legs after slight exercise,great weakness after attack,1.0,1
+great weakness of legs after slight exercise,creeping in hands,1.0,1
+pain on inner surface of scapula,cramps in neck muscles,1.0,1
+pain on inner surface of scapula,shoulder stitches prevent motion,1.0,1
+pain on inner surface of scapula,rheumatism following epileptic convulsion,1.0,1
+pain on inner surface of scapula,frequent jerking in fingers,1.0,1
+pain on inner surface of scapula,prostration after attack,1.0,1
+pain on inner surface of scapula,tetanic stiffness,1.0,1
+pain on inner surface of scapula,frequent twitching of muscles,1.0,1
+pain on inner surface of scapula,jerking with numbness of limbs,1.0,1
+pain on inner surface of scapula,stupid,1.0,1
+pain on inner surface of scapula,arthritic pain in nape,1.0,1
+pain on inner surface of scapula,lower limb pain worse at night,1.0,1
+pain on inner surface of scapula,fearful distortions of limbs,1.0,1
+pain on inner surface of scapula,rheumatism following concussion,1.0,1
+pain on inner surface of scapula,muscles of neck become hard,1.0,1
+pain on inner surface of scapula,sensation of stiffness of limbs,1.0,1
+pain on inner surface of scapula,bruised pain on right scapula,1.0,1
+pain on inner surface of scapula,difficulty turning head back after turning,1.0,1
+pain on inner surface of scapula,muscles of neck contract,1.0,1
+pain on inner surface of scapula,numbness of fingers,1.0,1
+pain on inner surface of scapula,swelling in left knee,1.0,1
+pain on inner surface of scapula,great weakness of legs after slight exercise,1.0,1
+pain on inner surface of scapula,trembling of hand,1.0,1
+pain on inner surface of scapula,frequent stitches in arm,1.0,1
+pain on inner surface of scapula,bruised sensation in forearms,1.0,1
+pain on inner surface of scapula,frequent involuntary jerking of muscles,1.0,1
+pain on inner surface of scapula,tearing jerking in coccyx,1.0,1
+pain on inner surface of scapula,ending pain down to feet,1.0,1
+pain on inner surface of scapula,epileptiform convulsions,1.0,1
+pain on inner surface of scapula,frequent jerking in arm,1.0,1
+pain on inner surface of scapula,excitable,1.0,1
+pain on inner surface of scapula,tension in neck muscles,1.0,1
+pain on inner surface of scapula,drawing pain in calves,1.0,1
+pain on inner surface of scapula,sensation of heaviness of arms,1.0,1
+pain on inner surface of scapula,loss of consciousness,1.0,1
+pain on inner surface of scapula,back bent backward like an arch,1.0,1
+pain on inner surface of scapula,violent stitches in shoulder,1.0,1
+pain on inner surface of scapula,nape pain draws head backward,1.0,1
+pain on inner surface of scapula,ending pain in anterior lower limb muscles,1.0,1
+pain on inner surface of scapula,trembling of legs,1.0,1
+pain on inner surface of scapula,frequent stitches in fingers,1.0,1
+pain on inner surface of scapula,great weakness of arms after slight exercise,1.0,1
+pain on inner surface of scapula,great weakness after attack,1.0,1
+pain on inner surface of scapula,creeping in hands,1.0,1

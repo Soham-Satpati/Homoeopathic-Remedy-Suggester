@@ -1,0 +1,58 @@
+### Cluster 72 — Symptoms (7)
+Symptom,Frequency
+rheumatic pains with constriction,1
+palpitations,1
+constrictive pains,1
+rheumatism with heart symptoms,1
+stiff joints worse rest,1
+fear of heart disease,1
+constriction around heart,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+cactus grandiflorus,7
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+fear of heart disease,rheumatic pains with constriction,1.0,1
+fear of heart disease,palpitations,1.0,1
+fear of heart disease,constrictive pains,1.0,1
+fear of heart disease,rheumatism with heart symptoms,1.0,1
+fear of heart disease,stiff joints worse rest,1.0,1
+fear of heart disease,constriction around heart,1.0,1
+stiff joints worse rest,rheumatic pains with constriction,1.0,1
+stiff joints worse rest,palpitations,1.0,1
+stiff joints worse rest,constrictive pains,1.0,1
+stiff joints worse rest,rheumatism with heart symptoms,1.0,1
+stiff joints worse rest,fear of heart disease,1.0,1
+stiff joints worse rest,constriction around heart,1.0,1
+constrictive pains,rheumatic pains with constriction,1.0,1
+constrictive pains,palpitations,1.0,1
+constrictive pains,rheumatism with heart symptoms,1.0,1
+constrictive pains,stiff joints worse rest,1.0,1
+constrictive pains,fear of heart disease,1.0,1
+constrictive pains,constriction around heart,1.0,1
+constriction around heart,rheumatic pains with constriction,1.0,1
+constriction around heart,palpitations,1.0,1
+constriction around heart,constrictive pains,1.0,1
+constriction around heart,rheumatism with heart symptoms,1.0,1
+constriction around heart,stiff joints worse rest,1.0,1
+constriction around heart,fear of heart disease,1.0,1
+palpitations,rheumatic pains with constriction,1.0,1
+palpitations,constrictive pains,1.0,1
+palpitations,rheumatism with heart symptoms,1.0,1
+palpitations,stiff joints worse rest,1.0,1
+palpitations,fear of heart disease,1.0,1
+palpitations,constriction around heart,1.0,1
+rheumatism with heart symptoms,rheumatic pains with constriction,1.0,1
+rheumatism with heart symptoms,palpitations,1.0,1
+rheumatism with heart symptoms,constrictive pains,1.0,1
+rheumatism with heart symptoms,stiff joints worse rest,1.0,1
+rheumatism with heart symptoms,fear of heart disease,1.0,1
+rheumatism with heart symptoms,constriction around heart,1.0,1
+rheumatic pains with constriction,palpitations,1.0,1
+rheumatic pains with constriction,constrictive pains,1.0,1
+rheumatic pains with constriction,rheumatism with heart symptoms,1.0,1
+rheumatic pains with constriction,stiff joints worse rest,1.0,1
+rheumatic pains with constriction,fear of heart disease,1.0,1
+rheumatic pains with constriction,constriction around heart,1.0,1

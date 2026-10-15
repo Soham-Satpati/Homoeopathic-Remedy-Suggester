@@ -1,0 +1,450 @@
+### Cluster 2 — Symptoms (21)
+Symptom,Frequency
+deep bone pains as if scraped,1
+shooting down in front of thighs,1
+severe stitching during rest,1
+stitches in flesh of arms,1
+stitches in flesh of thighs,1
+intense pains as if inside of bones were scraped,1
+intense pains in all bones,1
+boring tearing in thighs,1
+dryness of mouth,1
+sweat on soles of feet,1
+dryness of throat,1
+paralytic drawing through limbs,1
+pain makes her twist round,1
+shooting up to scapula,1
+severe stitching from motion,1
+intense but transient bruised pain in various parts,1
+stitches in muscles of arms,1
+intense pains in joints,1
+rheumatic pain in hips,1
+pain in right shoulder extending to chest,1
+imagines herself sick,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+sabadilla,21
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+intense pains in all bones,deep bone pains as if scraped,1.0,1
+intense pains in all bones,shooting down in front of thighs,1.0,1
+intense pains in all bones,severe stitching during rest,1.0,1
+intense pains in all bones,stitches in flesh of arms,1.0,1
+intense pains in all bones,stitches in flesh of thighs,1.0,1
+intense pains in all bones,intense pains as if inside of bones were scraped,1.0,1
+intense pains in all bones,boring tearing in thighs,1.0,1
+intense pains in all bones,dryness of mouth,1.0,1
+intense pains in all bones,sweat on soles of feet,1.0,1
+intense pains in all bones,dryness of throat,1.0,1
+intense pains in all bones,paralytic drawing through limbs,1.0,1
+intense pains in all bones,pain makes her twist round,1.0,1
+intense pains in all bones,shooting up to scapula,1.0,1
+intense pains in all bones,severe stitching from motion,1.0,1
+intense pains in all bones,intense but transient bruised pain in various parts,1.0,1
+intense pains in all bones,stitches in muscles of arms,1.0,1
+intense pains in all bones,intense pains in joints,1.0,1
+intense pains in all bones,rheumatic pain in hips,1.0,1
+intense pains in all bones,pain in right shoulder extending to chest,1.0,1
+intense pains in all bones,imagines herself sick,1.0,1
+stitches in muscles of arms,deep bone pains as if scraped,1.0,1
+stitches in muscles of arms,shooting down in front of thighs,1.0,1
+stitches in muscles of arms,severe stitching during rest,1.0,1
+stitches in muscles of arms,stitches in flesh of arms,1.0,1
+stitches in muscles of arms,stitches in flesh of thighs,1.0,1
+stitches in muscles of arms,intense pains as if inside of bones were scraped,1.0,1
+stitches in muscles of arms,intense pains in all bones,1.0,1
+stitches in muscles of arms,boring tearing in thighs,1.0,1
+stitches in muscles of arms,dryness of mouth,1.0,1
+stitches in muscles of arms,sweat on soles of feet,1.0,1
+stitches in muscles of arms,dryness of throat,1.0,1
+stitches in muscles of arms,paralytic drawing through limbs,1.0,1
+stitches in muscles of arms,pain makes her twist round,1.0,1
+stitches in muscles of arms,shooting up to scapula,1.0,1
+stitches in muscles of arms,severe stitching from motion,1.0,1
+stitches in muscles of arms,intense but transient bruised pain in various parts,1.0,1
+stitches in muscles of arms,intense pains in joints,1.0,1
+stitches in muscles of arms,rheumatic pain in hips,1.0,1
+stitches in muscles of arms,pain in right shoulder extending to chest,1.0,1
+stitches in muscles of arms,imagines herself sick,1.0,1
+stitches in flesh of thighs,deep bone pains as if scraped,1.0,1
+stitches in flesh of thighs,shooting down in front of thighs,1.0,1
+stitches in flesh of thighs,severe stitching during rest,1.0,1
+stitches in flesh of thighs,stitches in flesh of arms,1.0,1
+stitches in flesh of thighs,intense pains as if inside of bones were scraped,1.0,1
+stitches in flesh of thighs,intense pains in all bones,1.0,1
+stitches in flesh of thighs,boring tearing in thighs,1.0,1
+stitches in flesh of thighs,dryness of mouth,1.0,1
+stitches in flesh of thighs,sweat on soles of feet,1.0,1
+stitches in flesh of thighs,dryness of throat,1.0,1
+stitches in flesh of thighs,paralytic drawing through limbs,1.0,1
+stitches in flesh of thighs,pain makes her twist round,1.0,1
+stitches in flesh of thighs,shooting up to scapula,1.0,1
+stitches in flesh of thighs,severe stitching from motion,1.0,1
+stitches in flesh of thighs,intense but transient bruised pain in various parts,1.0,1
+stitches in flesh of thighs,stitches in muscles of arms,1.0,1
+stitches in flesh of thighs,intense pains in joints,1.0,1
+stitches in flesh of thighs,rheumatic pain in hips,1.0,1
+stitches in flesh of thighs,pain in right shoulder extending to chest,1.0,1
+stitches in flesh of thighs,imagines herself sick,1.0,1
+deep bone pains as if scraped,shooting down in front of thighs,1.0,1
+deep bone pains as if scraped,severe stitching during rest,1.0,1
+deep bone pains as if scraped,stitches in flesh of arms,1.0,1
+deep bone pains as if scraped,stitches in flesh of thighs,1.0,1
+deep bone pains as if scraped,intense pains as if inside of bones were scraped,1.0,1
+deep bone pains as if scraped,intense pains in all bones,1.0,1
+deep bone pains as if scraped,boring tearing in thighs,1.0,1
+deep bone pains as if scraped,dryness of mouth,1.0,1
+deep bone pains as if scraped,sweat on soles of feet,1.0,1
+deep bone pains as if scraped,dryness of throat,1.0,1
+deep bone pains as if scraped,paralytic drawing through limbs,1.0,1
+deep bone pains as if scraped,pain makes her twist round,1.0,1
+deep bone pains as if scraped,shooting up to scapula,1.0,1
+deep bone pains as if scraped,severe stitching from motion,1.0,1
+deep bone pains as if scraped,intense but transient bruised pain in various parts,1.0,1
+deep bone pains as if scraped,stitches in muscles of arms,1.0,1
+deep bone pains as if scraped,intense pains in joints,1.0,1
+deep bone pains as if scraped,rheumatic pain in hips,1.0,1
+deep bone pains as if scraped,pain in right shoulder extending to chest,1.0,1
+deep bone pains as if scraped,imagines herself sick,1.0,1
+intense pains in joints,deep bone pains as if scraped,1.0,1
+intense pains in joints,shooting down in front of thighs,1.0,1
+intense pains in joints,severe stitching during rest,1.0,1
+intense pains in joints,stitches in flesh of arms,1.0,1
+intense pains in joints,stitches in flesh of thighs,1.0,1
+intense pains in joints,intense pains as if inside of bones were scraped,1.0,1
+intense pains in joints,intense pains in all bones,1.0,1
+intense pains in joints,boring tearing in thighs,1.0,1
+intense pains in joints,dryness of mouth,1.0,1
+intense pains in joints,sweat on soles of feet,1.0,1
+intense pains in joints,dryness of throat,1.0,1
+intense pains in joints,paralytic drawing through limbs,1.0,1
+intense pains in joints,pain makes her twist round,1.0,1
+intense pains in joints,shooting up to scapula,1.0,1
+intense pains in joints,severe stitching from motion,1.0,1
+intense pains in joints,intense but transient bruised pain in various parts,1.0,1
+intense pains in joints,stitches in muscles of arms,1.0,1
+intense pains in joints,rheumatic pain in hips,1.0,1
+intense pains in joints,pain in right shoulder extending to chest,1.0,1
+intense pains in joints,imagines herself sick,1.0,1
+shooting down in front of thighs,deep bone pains as if scraped,1.0,1
+shooting down in front of thighs,severe stitching during rest,1.0,1
+shooting down in front of thighs,stitches in flesh of arms,1.0,1
+shooting down in front of thighs,stitches in flesh of thighs,1.0,1
+shooting down in front of thighs,intense pains as if inside of bones were scraped,1.0,1
+shooting down in front of thighs,intense pains in all bones,1.0,1
+shooting down in front of thighs,boring tearing in thighs,1.0,1
+shooting down in front of thighs,dryness of mouth,1.0,1
+shooting down in front of thighs,sweat on soles of feet,1.0,1
+shooting down in front of thighs,dryness of throat,1.0,1
+shooting down in front of thighs,paralytic drawing through limbs,1.0,1
+shooting down in front of thighs,pain makes her twist round,1.0,1
+shooting down in front of thighs,shooting up to scapula,1.0,1
+shooting down in front of thighs,severe stitching from motion,1.0,1
+shooting down in front of thighs,intense but transient bruised pain in various parts,1.0,1
+shooting down in front of thighs,stitches in muscles of arms,1.0,1
+shooting down in front of thighs,intense pains in joints,1.0,1
+shooting down in front of thighs,rheumatic pain in hips,1.0,1
+shooting down in front of thighs,pain in right shoulder extending to chest,1.0,1
+shooting down in front of thighs,imagines herself sick,1.0,1
+boring tearing in thighs,deep bone pains as if scraped,1.0,1
+boring tearing in thighs,shooting down in front of thighs,1.0,1
+boring tearing in thighs,severe stitching during rest,1.0,1
+boring tearing in thighs,stitches in flesh of arms,1.0,1
+boring tearing in thighs,stitches in flesh of thighs,1.0,1
+boring tearing in thighs,intense pains as if inside of bones were scraped,1.0,1
+boring tearing in thighs,intense pains in all bones,1.0,1
+boring tearing in thighs,dryness of mouth,1.0,1
+boring tearing in thighs,sweat on soles of feet,1.0,1
+boring tearing in thighs,dryness of throat,1.0,1
+boring tearing in thighs,paralytic drawing through limbs,1.0,1
+boring tearing in thighs,pain makes her twist round,1.0,1
+boring tearing in thighs,shooting up to scapula,1.0,1
+boring tearing in thighs,severe stitching from motion,1.0,1
+boring tearing in thighs,intense but transient bruised pain in various parts,1.0,1
+boring tearing in thighs,stitches in muscles of arms,1.0,1
+boring tearing in thighs,intense pains in joints,1.0,1
+boring tearing in thighs,rheumatic pain in hips,1.0,1
+boring tearing in thighs,pain in right shoulder extending to chest,1.0,1
+boring tearing in thighs,imagines herself sick,1.0,1
+pain in right shoulder extending to chest,deep bone pains as if scraped,1.0,1
+pain in right shoulder extending to chest,shooting down in front of thighs,1.0,1
+pain in right shoulder extending to chest,severe stitching during rest,1.0,1
+pain in right shoulder extending to chest,stitches in flesh of arms,1.0,1
+pain in right shoulder extending to chest,stitches in flesh of thighs,1.0,1
+pain in right shoulder extending to chest,intense pains as if inside of bones were scraped,1.0,1
+pain in right shoulder extending to chest,intense pains in all bones,1.0,1
+pain in right shoulder extending to chest,boring tearing in thighs,1.0,1
+pain in right shoulder extending to chest,dryness of mouth,1.0,1
+pain in right shoulder extending to chest,sweat on soles of feet,1.0,1
+pain in right shoulder extending to chest,dryness of throat,1.0,1
+pain in right shoulder extending to chest,paralytic drawing through limbs,1.0,1
+pain in right shoulder extending to chest,pain makes her twist round,1.0,1
+pain in right shoulder extending to chest,shooting up to scapula,1.0,1
+pain in right shoulder extending to chest,severe stitching from motion,1.0,1
+pain in right shoulder extending to chest,intense but transient bruised pain in various parts,1.0,1
+pain in right shoulder extending to chest,stitches in muscles of arms,1.0,1
+pain in right shoulder extending to chest,intense pains in joints,1.0,1
+pain in right shoulder extending to chest,rheumatic pain in hips,1.0,1
+pain in right shoulder extending to chest,imagines herself sick,1.0,1
+imagines herself sick,deep bone pains as if scraped,1.0,1
+imagines herself sick,shooting down in front of thighs,1.0,1
+imagines herself sick,severe stitching during rest,1.0,1
+imagines herself sick,stitches in flesh of arms,1.0,1
+imagines herself sick,stitches in flesh of thighs,1.0,1
+imagines herself sick,intense pains as if inside of bones were scraped,1.0,1
+imagines herself sick,intense pains in all bones,1.0,1
+imagines herself sick,boring tearing in thighs,1.0,1
+imagines herself sick,dryness of mouth,1.0,1
+imagines herself sick,sweat on soles of feet,1.0,1
+imagines herself sick,dryness of throat,1.0,1
+imagines herself sick,paralytic drawing through limbs,1.0,1
+imagines herself sick,pain makes her twist round,1.0,1
+imagines herself sick,shooting up to scapula,1.0,1
+imagines herself sick,severe stitching from motion,1.0,1
+imagines herself sick,intense but transient bruised pain in various parts,1.0,1
+imagines herself sick,stitches in muscles of arms,1.0,1
+imagines herself sick,intense pains in joints,1.0,1
+imagines herself sick,rheumatic pain in hips,1.0,1
+imagines herself sick,pain in right shoulder extending to chest,1.0,1
+severe stitching from motion,deep bone pains as if scraped,1.0,1
+severe stitching from motion,shooting down in front of thighs,1.0,1
+severe stitching from motion,severe stitching during rest,1.0,1
+severe stitching from motion,stitches in flesh of arms,1.0,1
+severe stitching from motion,stitches in flesh of thighs,1.0,1
+severe stitching from motion,intense pains as if inside of bones were scraped,1.0,1
+severe stitching from motion,intense pains in all bones,1.0,1
+severe stitching from motion,boring tearing in thighs,1.0,1
+severe stitching from motion,dryness of mouth,1.0,1
+severe stitching from motion,sweat on soles of feet,1.0,1
+severe stitching from motion,dryness of throat,1.0,1
+severe stitching from motion,paralytic drawing through limbs,1.0,1
+severe stitching from motion,pain makes her twist round,1.0,1
+severe stitching from motion,shooting up to scapula,1.0,1
+severe stitching from motion,intense but transient bruised pain in various parts,1.0,1
+severe stitching from motion,stitches in muscles of arms,1.0,1
+severe stitching from motion,intense pains in joints,1.0,1
+severe stitching from motion,rheumatic pain in hips,1.0,1
+severe stitching from motion,pain in right shoulder extending to chest,1.0,1
+severe stitching from motion,imagines herself sick,1.0,1
+pain makes her twist round,deep bone pains as if scraped,1.0,1
+pain makes her twist round,shooting down in front of thighs,1.0,1
+pain makes her twist round,severe stitching during rest,1.0,1
+pain makes her twist round,stitches in flesh of arms,1.0,1
+pain makes her twist round,stitches in flesh of thighs,1.0,1
+pain makes her twist round,intense pains as if inside of bones were scraped,1.0,1
+pain makes her twist round,intense pains in all bones,1.0,1
+pain makes her twist round,boring tearing in thighs,1.0,1
+pain makes her twist round,dryness of mouth,1.0,1
+pain makes her twist round,sweat on soles of feet,1.0,1
+pain makes her twist round,dryness of throat,1.0,1
+pain makes her twist round,paralytic drawing through limbs,1.0,1
+pain makes her twist round,shooting up to scapula,1.0,1
+pain makes her twist round,severe stitching from motion,1.0,1
+pain makes her twist round,intense but transient bruised pain in various parts,1.0,1
+pain makes her twist round,stitches in muscles of arms,1.0,1
+pain makes her twist round,intense pains in joints,1.0,1
+pain makes her twist round,rheumatic pain in hips,1.0,1
+pain makes her twist round,pain in right shoulder extending to chest,1.0,1
+pain makes her twist round,imagines herself sick,1.0,1
+shooting up to scapula,deep bone pains as if scraped,1.0,1
+shooting up to scapula,shooting down in front of thighs,1.0,1
+shooting up to scapula,severe stitching during rest,1.0,1
+shooting up to scapula,stitches in flesh of arms,1.0,1
+shooting up to scapula,stitches in flesh of thighs,1.0,1
+shooting up to scapula,intense pains as if inside of bones were scraped,1.0,1
+shooting up to scapula,intense pains in all bones,1.0,1
+shooting up to scapula,boring tearing in thighs,1.0,1
+shooting up to scapula,dryness of mouth,1.0,1
+shooting up to scapula,sweat on soles of feet,1.0,1
+shooting up to scapula,dryness of throat,1.0,1
+shooting up to scapula,paralytic drawing through limbs,1.0,1
+shooting up to scapula,pain makes her twist round,1.0,1
+shooting up to scapula,severe stitching from motion,1.0,1
+shooting up to scapula,intense but transient bruised pain in various parts,1.0,1
+shooting up to scapula,stitches in muscles of arms,1.0,1
+shooting up to scapula,intense pains in joints,1.0,1
+shooting up to scapula,rheumatic pain in hips,1.0,1
+shooting up to scapula,pain in right shoulder extending to chest,1.0,1
+shooting up to scapula,imagines herself sick,1.0,1
+severe stitching during rest,deep bone pains as if scraped,1.0,1
+severe stitching during rest,shooting down in front of thighs,1.0,1
+severe stitching during rest,stitches in flesh of arms,1.0,1
+severe stitching during rest,stitches in flesh of thighs,1.0,1
+severe stitching during rest,intense pains as if inside of bones were scraped,1.0,1
+severe stitching during rest,intense pains in all bones,1.0,1
+severe stitching during rest,boring tearing in thighs,1.0,1
+severe stitching during rest,dryness of mouth,1.0,1
+severe stitching during rest,sweat on soles of feet,1.0,1
+severe stitching during rest,dryness of throat,1.0,1
+severe stitching during rest,paralytic drawing through limbs,1.0,1
+severe stitching during rest,pain makes her twist round,1.0,1
+severe stitching during rest,shooting up to scapula,1.0,1
+severe stitching during rest,severe stitching from motion,1.0,1
+severe stitching during rest,intense but transient bruised pain in various parts,1.0,1
+severe stitching during rest,stitches in muscles of arms,1.0,1
+severe stitching during rest,intense pains in joints,1.0,1
+severe stitching during rest,rheumatic pain in hips,1.0,1
+severe stitching during rest,pain in right shoulder extending to chest,1.0,1
+severe stitching during rest,imagines herself sick,1.0,1
+dryness of throat,deep bone pains as if scraped,1.0,1
+dryness of throat,shooting down in front of thighs,1.0,1
+dryness of throat,severe stitching during rest,1.0,1
+dryness of throat,stitches in flesh of arms,1.0,1
+dryness of throat,stitches in flesh of thighs,1.0,1
+dryness of throat,intense pains as if inside of bones were scraped,1.0,1
+dryness of throat,intense pains in all bones,1.0,1
+dryness of throat,boring tearing in thighs,1.0,1
+dryness of throat,dryness of mouth,1.0,1
+dryness of throat,sweat on soles of feet,1.0,1
+dryness of throat,paralytic drawing through limbs,1.0,1
+dryness of throat,pain makes her twist round,1.0,1
+dryness of throat,shooting up to scapula,1.0,1
+dryness of throat,severe stitching from motion,1.0,1
+dryness of throat,intense but transient bruised pain in various parts,1.0,1
+dryness of throat,stitches in muscles of arms,1.0,1
+dryness of throat,intense pains in joints,1.0,1
+dryness of throat,rheumatic pain in hips,1.0,1
+dryness of throat,pain in right shoulder extending to chest,1.0,1
+dryness of throat,imagines herself sick,1.0,1
+intense pains as if inside of bones were scraped,deep bone pains as if scraped,1.0,1
+intense pains as if inside of bones were scraped,shooting down in front of thighs,1.0,1
+intense pains as if inside of bones were scraped,severe stitching during rest,1.0,1
+intense pains as if inside of bones were scraped,stitches in flesh of arms,1.0,1
+intense pains as if inside of bones were scraped,stitches in flesh of thighs,1.0,1
+intense pains as if inside of bones were scraped,intense pains in all bones,1.0,1
+intense pains as if inside of bones were scraped,boring tearing in thighs,1.0,1
+intense pains as if inside of bones were scraped,dryness of mouth,1.0,1
+intense pains as if inside of bones were scraped,sweat on soles of feet,1.0,1
+intense pains as if inside of bones were scraped,dryness of throat,1.0,1
+intense pains as if inside of bones were scraped,paralytic drawing through limbs,1.0,1
+intense pains as if inside of bones were scraped,pain makes her twist round,1.0,1
+intense pains as if inside of bones were scraped,shooting up to scapula,1.0,1
+intense pains as if inside of bones were scraped,severe stitching from motion,1.0,1
+intense pains as if inside of bones were scraped,intense but transient bruised pain in various parts,1.0,1
+intense pains as if inside of bones were scraped,stitches in muscles of arms,1.0,1
+intense pains as if inside of bones were scraped,intense pains in joints,1.0,1
+intense pains as if inside of bones were scraped,rheumatic pain in hips,1.0,1
+intense pains as if inside of bones were scraped,pain in right shoulder extending to chest,1.0,1
+intense pains as if inside of bones were scraped,imagines herself sick,1.0,1
+intense but transient bruised pain in various parts,deep bone pains as if scraped,1.0,1
+intense but transient bruised pain in various parts,shooting down in front of thighs,1.0,1
+intense but transient bruised pain in various parts,severe stitching during rest,1.0,1
+intense but transient bruised pain in various parts,stitches in flesh of arms,1.0,1
+intense but transient bruised pain in various parts,stitches in flesh of thighs,1.0,1
+intense but transient bruised pain in various parts,intense pains as if inside of bones were scraped,1.0,1
+intense but transient bruised pain in various parts,intense pains in all bones,1.0,1
+intense but transient bruised pain in various parts,boring tearing in thighs,1.0,1
+intense but transient bruised pain in various parts,dryness of mouth,1.0,1
+intense but transient bruised pain in various parts,sweat on soles of feet,1.0,1
+intense but transient bruised pain in various parts,dryness of throat,1.0,1
+intense but transient bruised pain in various parts,paralytic drawing through limbs,1.0,1
+intense but transient bruised pain in various parts,pain makes her twist round,1.0,1
+intense but transient bruised pain in various parts,shooting up to scapula,1.0,1
+intense but transient bruised pain in various parts,severe stitching from motion,1.0,1
+intense but transient bruised pain in various parts,stitches in muscles of arms,1.0,1
+intense but transient bruised pain in various parts,intense pains in joints,1.0,1
+intense but transient bruised pain in various parts,rheumatic pain in hips,1.0,1
+intense but transient bruised pain in various parts,pain in right shoulder extending to chest,1.0,1
+intense but transient bruised pain in various parts,imagines herself sick,1.0,1
+stitches in flesh of arms,deep bone pains as if scraped,1.0,1
+stitches in flesh of arms,shooting down in front of thighs,1.0,1
+stitches in flesh of arms,severe stitching during rest,1.0,1
+stitches in flesh of arms,stitches in flesh of thighs,1.0,1
+stitches in flesh of arms,intense pains as if inside of bones were scraped,1.0,1
+stitches in flesh of arms,intense pains in all bones,1.0,1
+stitches in flesh of arms,boring tearing in thighs,1.0,1
+stitches in flesh of arms,dryness of mouth,1.0,1
+stitches in flesh of arms,sweat on soles of feet,1.0,1
+stitches in flesh of arms,dryness of throat,1.0,1
+stitches in flesh of arms,paralytic drawing through limbs,1.0,1
+stitches in flesh of arms,pain makes her twist round,1.0,1
+stitches in flesh of arms,shooting up to scapula,1.0,1
+stitches in flesh of arms,severe stitching from motion,1.0,1
+stitches in flesh of arms,intense but transient bruised pain in various parts,1.0,1
+stitches in flesh of arms,stitches in muscles of arms,1.0,1
+stitches in flesh of arms,intense pains in joints,1.0,1
+stitches in flesh of arms,rheumatic pain in hips,1.0,1
+stitches in flesh of arms,pain in right shoulder extending to chest,1.0,1
+stitches in flesh of arms,imagines herself sick,1.0,1
+dryness of mouth,deep bone pains as if scraped,1.0,1
+dryness of mouth,shooting down in front of thighs,1.0,1
+dryness of mouth,severe stitching during rest,1.0,1
+dryness of mouth,stitches in flesh of arms,1.0,1
+dryness of mouth,stitches in flesh of thighs,1.0,1
+dryness of mouth,intense pains as if inside of bones were scraped,1.0,1
+dryness of mouth,intense pains in all bones,1.0,1
+dryness of mouth,boring tearing in thighs,1.0,1
+dryness of mouth,sweat on soles of feet,1.0,1
+dryness of mouth,dryness of throat,1.0,1
+dryness of mouth,paralytic drawing through limbs,1.0,1
+dryness of mouth,pain makes her twist round,1.0,1
+dryness of mouth,shooting up to scapula,1.0,1
+dryness of mouth,severe stitching from motion,1.0,1
+dryness of mouth,intense but transient bruised pain in various parts,1.0,1
+dryness of mouth,stitches in muscles of arms,1.0,1
+dryness of mouth,intense pains in joints,1.0,1
+dryness of mouth,rheumatic pain in hips,1.0,1
+dryness of mouth,pain in right shoulder extending to chest,1.0,1
+dryness of mouth,imagines herself sick,1.0,1
+rheumatic pain in hips,deep bone pains as if scraped,1.0,1
+rheumatic pain in hips,shooting down in front of thighs,1.0,1
+rheumatic pain in hips,severe stitching during rest,1.0,1
+rheumatic pain in hips,stitches in flesh of arms,1.0,1
+rheumatic pain in hips,stitches in flesh of thighs,1.0,1
+rheumatic pain in hips,intense pains as if inside of bones were scraped,1.0,1
+rheumatic pain in hips,intense pains in all bones,1.0,1
+rheumatic pain in hips,boring tearing in thighs,1.0,1
+rheumatic pain in hips,dryness of mouth,1.0,1
+rheumatic pain in hips,sweat on soles of feet,1.0,1
+rheumatic pain in hips,dryness of throat,1.0,1
+rheumatic pain in hips,paralytic drawing through limbs,1.0,1
+rheumatic pain in hips,pain makes her twist round,1.0,1
+rheumatic pain in hips,shooting up to scapula,1.0,1
+rheumatic pain in hips,severe stitching from motion,1.0,1
+rheumatic pain in hips,intense but transient bruised pain in various parts,1.0,1
+rheumatic pain in hips,stitches in muscles of arms,1.0,1
+rheumatic pain in hips,intense pains in joints,1.0,1
+rheumatic pain in hips,pain in right shoulder extending to chest,1.0,1
+rheumatic pain in hips,imagines herself sick,1.0,1
+paralytic drawing through limbs,deep bone pains as if scraped,1.0,1
+paralytic drawing through limbs,shooting down in front of thighs,1.0,1
+paralytic drawing through limbs,severe stitching during rest,1.0,1
+paralytic drawing through limbs,stitches in flesh of arms,1.0,1
+paralytic drawing through limbs,stitches in flesh of thighs,1.0,1
+paralytic drawing through limbs,intense pains as if inside of bones were scraped,1.0,1
+paralytic drawing through limbs,intense pains in all bones,1.0,1
+paralytic drawing through limbs,boring tearing in thighs,1.0,1
+paralytic drawing through limbs,dryness of mouth,1.0,1
+paralytic drawing through limbs,sweat on soles of feet,1.0,1
+paralytic drawing through limbs,dryness of throat,1.0,1
+paralytic drawing through limbs,pain makes her twist round,1.0,1
+paralytic drawing through limbs,shooting up to scapula,1.0,1
+paralytic drawing through limbs,severe stitching from motion,1.0,1
+paralytic drawing through limbs,intense but transient bruised pain in various parts,1.0,1
+paralytic drawing through limbs,stitches in muscles of arms,1.0,1
+paralytic drawing through limbs,intense pains in joints,1.0,1
+paralytic drawing through limbs,rheumatic pain in hips,1.0,1
+paralytic drawing through limbs,pain in right shoulder extending to chest,1.0,1
+paralytic drawing through limbs,imagines herself sick,1.0,1
+sweat on soles of feet,deep bone pains as if scraped,1.0,1
+sweat on soles of feet,shooting down in front of thighs,1.0,1
+sweat on soles of feet,severe stitching during rest,1.0,1
+sweat on soles of feet,stitches in flesh of arms,1.0,1
+sweat on soles of feet,stitches in flesh of thighs,1.0,1
+sweat on soles of feet,intense pains as if inside of bones were scraped,1.0,1
+sweat on soles of feet,intense pains in all bones,1.0,1
+sweat on soles of feet,boring tearing in thighs,1.0,1
+sweat on soles of feet,dryness of mouth,1.0,1
+sweat on soles of feet,dryness of throat,1.0,1
+sweat on soles of feet,paralytic drawing through limbs,1.0,1
+sweat on soles of feet,pain makes her twist round,1.0,1
+sweat on soles of feet,shooting up to scapula,1.0,1
+sweat on soles of feet,severe stitching from motion,1.0,1
+sweat on soles of feet,intense but transient bruised pain in various parts,1.0,1
+sweat on soles of feet,stitches in muscles of arms,1.0,1
+sweat on soles of feet,intense pains in joints,1.0,1
+sweat on soles of feet,rheumatic pain in hips,1.0,1
+sweat on soles of feet,pain in right shoulder extending to chest,1.0,1
+sweat on soles of feet,imagines herself sick,1.0,1

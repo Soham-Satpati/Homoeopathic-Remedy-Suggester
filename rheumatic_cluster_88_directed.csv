@@ -1,0 +1,205 @@
+### Cluster 88 — Symptoms (14)
+Symptom,Frequency
+feet swollen and tender to touch around ankles,1
+rheumatic pains in left arm when putting on coat,1
+rheumatic affections of feet after washing floor,1
+rheumatic pains now here now there,1
+rheumatic pains in right knee and hip in forenoon,1
+pains from calves up to sacrum,1
+knee joints weak,1
+rheumatic pains alternating in arms and hands legs and feet,1
+mostly muscular,1
+violent tearing on soles and in foot joints,1
+dull aching in middle of os humerus as if it would break,1
+rheumatic pains soreness and stiffness in left arm,1
+aching pains from hips to ankles felt in the bones,1
+insupportable pain and aching in legs toward evening,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+mercurius iodatus ruber,14
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+rheumatic pains in right knee and hip in forenoon,feet swollen and tender to touch around ankles,1.0,1
+rheumatic pains in right knee and hip in forenoon,rheumatic pains in left arm when putting on coat,1.0,1
+rheumatic pains in right knee and hip in forenoon,rheumatic affections of feet after washing floor,1.0,1
+rheumatic pains in right knee and hip in forenoon,rheumatic pains now here now there,1.0,1
+rheumatic pains in right knee and hip in forenoon,pains from calves up to sacrum,1.0,1
+rheumatic pains in right knee and hip in forenoon,knee joints weak,1.0,1
+rheumatic pains in right knee and hip in forenoon,rheumatic pains alternating in arms and hands legs and feet,1.0,1
+rheumatic pains in right knee and hip in forenoon,mostly muscular,1.0,1
+rheumatic pains in right knee and hip in forenoon,violent tearing on soles and in foot joints,1.0,1
+rheumatic pains in right knee and hip in forenoon,dull aching in middle of os humerus as if it would break,1.0,1
+rheumatic pains in right knee and hip in forenoon,rheumatic pains soreness and stiffness in left arm,1.0,1
+rheumatic pains in right knee and hip in forenoon,aching pains from hips to ankles felt in the bones,1.0,1
+rheumatic pains in right knee and hip in forenoon,insupportable pain and aching in legs toward evening,1.0,1
+insupportable pain and aching in legs toward evening,feet swollen and tender to touch around ankles,1.0,1
+insupportable pain and aching in legs toward evening,rheumatic pains in left arm when putting on coat,1.0,1
+insupportable pain and aching in legs toward evening,rheumatic affections of feet after washing floor,1.0,1
+insupportable pain and aching in legs toward evening,rheumatic pains now here now there,1.0,1
+insupportable pain and aching in legs toward evening,rheumatic pains in right knee and hip in forenoon,1.0,1
+insupportable pain and aching in legs toward evening,pains from calves up to sacrum,1.0,1
+insupportable pain and aching in legs toward evening,knee joints weak,1.0,1
+insupportable pain and aching in legs toward evening,rheumatic pains alternating in arms and hands legs and feet,1.0,1
+insupportable pain and aching in legs toward evening,mostly muscular,1.0,1
+insupportable pain and aching in legs toward evening,violent tearing on soles and in foot joints,1.0,1
+insupportable pain and aching in legs toward evening,dull aching in middle of os humerus as if it would break,1.0,1
+insupportable pain and aching in legs toward evening,rheumatic pains soreness and stiffness in left arm,1.0,1
+insupportable pain and aching in legs toward evening,aching pains from hips to ankles felt in the bones,1.0,1
+rheumatic affections of feet after washing floor,feet swollen and tender to touch around ankles,1.0,1
+rheumatic affections of feet after washing floor,rheumatic pains in left arm when putting on coat,1.0,1
+rheumatic affections of feet after washing floor,rheumatic pains now here now there,1.0,1
+rheumatic affections of feet after washing floor,rheumatic pains in right knee and hip in forenoon,1.0,1
+rheumatic affections of feet after washing floor,pains from calves up to sacrum,1.0,1
+rheumatic affections of feet after washing floor,knee joints weak,1.0,1
+rheumatic affections of feet after washing floor,rheumatic pains alternating in arms and hands legs and feet,1.0,1
+rheumatic affections of feet after washing floor,mostly muscular,1.0,1
+rheumatic affections of feet after washing floor,violent tearing on soles and in foot joints,1.0,1
+rheumatic affections of feet after washing floor,dull aching in middle of os humerus as if it would break,1.0,1
+rheumatic affections of feet after washing floor,rheumatic pains soreness and stiffness in left arm,1.0,1
+rheumatic affections of feet after washing floor,aching pains from hips to ankles felt in the bones,1.0,1
+rheumatic affections of feet after washing floor,insupportable pain and aching in legs toward evening,1.0,1
+rheumatic pains in left arm when putting on coat,feet swollen and tender to touch around ankles,1.0,1
+rheumatic pains in left arm when putting on coat,rheumatic affections of feet after washing floor,1.0,1
+rheumatic pains in left arm when putting on coat,rheumatic pains now here now there,1.0,1
+rheumatic pains in left arm when putting on coat,rheumatic pains in right knee and hip in forenoon,1.0,1
+rheumatic pains in left arm when putting on coat,pains from calves up to sacrum,1.0,1
+rheumatic pains in left arm when putting on coat,knee joints weak,1.0,1
+rheumatic pains in left arm when putting on coat,rheumatic pains alternating in arms and hands legs and feet,1.0,1
+rheumatic pains in left arm when putting on coat,mostly muscular,1.0,1
+rheumatic pains in left arm when putting on coat,violent tearing on soles and in foot joints,1.0,1
+rheumatic pains in left arm when putting on coat,dull aching in middle of os humerus as if it would break,1.0,1
+rheumatic pains in left arm when putting on coat,rheumatic pains soreness and stiffness in left arm,1.0,1
+rheumatic pains in left arm when putting on coat,aching pains from hips to ankles felt in the bones,1.0,1
+rheumatic pains in left arm when putting on coat,insupportable pain and aching in legs toward evening,1.0,1
+feet swollen and tender to touch around ankles,rheumatic pains in left arm when putting on coat,1.0,1
+feet swollen and tender to touch around ankles,rheumatic affections of feet after washing floor,1.0,1
+feet swollen and tender to touch around ankles,rheumatic pains now here now there,1.0,1
+feet swollen and tender to touch around ankles,rheumatic pains in right knee and hip in forenoon,1.0,1
+feet swollen and tender to touch around ankles,pains from calves up to sacrum,1.0,1
+feet swollen and tender to touch around ankles,knee joints weak,1.0,1
+feet swollen and tender to touch around ankles,rheumatic pains alternating in arms and hands legs and feet,1.0,1
+feet swollen and tender to touch around ankles,mostly muscular,1.0,1
+feet swollen and tender to touch around ankles,violent tearing on soles and in foot joints,1.0,1
+feet swollen and tender to touch around ankles,dull aching in middle of os humerus as if it would break,1.0,1
+feet swollen and tender to touch around ankles,rheumatic pains soreness and stiffness in left arm,1.0,1
+feet swollen and tender to touch around ankles,aching pains from hips to ankles felt in the bones,1.0,1
+feet swollen and tender to touch around ankles,insupportable pain and aching in legs toward evening,1.0,1
+pains from calves up to sacrum,feet swollen and tender to touch around ankles,1.0,1
+pains from calves up to sacrum,rheumatic pains in left arm when putting on coat,1.0,1
+pains from calves up to sacrum,rheumatic affections of feet after washing floor,1.0,1
+pains from calves up to sacrum,rheumatic pains now here now there,1.0,1
+pains from calves up to sacrum,rheumatic pains in right knee and hip in forenoon,1.0,1
+pains from calves up to sacrum,knee joints weak,1.0,1
+pains from calves up to sacrum,rheumatic pains alternating in arms and hands legs and feet,1.0,1
+pains from calves up to sacrum,mostly muscular,1.0,1
+pains from calves up to sacrum,violent tearing on soles and in foot joints,1.0,1
+pains from calves up to sacrum,dull aching in middle of os humerus as if it would break,1.0,1
+pains from calves up to sacrum,rheumatic pains soreness and stiffness in left arm,1.0,1
+pains from calves up to sacrum,aching pains from hips to ankles felt in the bones,1.0,1
+pains from calves up to sacrum,insupportable pain and aching in legs toward evening,1.0,1
+aching pains from hips to ankles felt in the bones,feet swollen and tender to touch around ankles,1.0,1
+aching pains from hips to ankles felt in the bones,rheumatic pains in left arm when putting on coat,1.0,1
+aching pains from hips to ankles felt in the bones,rheumatic affections of feet after washing floor,1.0,1
+aching pains from hips to ankles felt in the bones,rheumatic pains now here now there,1.0,1
+aching pains from hips to ankles felt in the bones,rheumatic pains in right knee and hip in forenoon,1.0,1
+aching pains from hips to ankles felt in the bones,pains from calves up to sacrum,1.0,1
+aching pains from hips to ankles felt in the bones,knee joints weak,1.0,1
+aching pains from hips to ankles felt in the bones,rheumatic pains alternating in arms and hands legs and feet,1.0,1
+aching pains from hips to ankles felt in the bones,mostly muscular,1.0,1
+aching pains from hips to ankles felt in the bones,violent tearing on soles and in foot joints,1.0,1
+aching pains from hips to ankles felt in the bones,dull aching in middle of os humerus as if it would break,1.0,1
+aching pains from hips to ankles felt in the bones,rheumatic pains soreness and stiffness in left arm,1.0,1
+aching pains from hips to ankles felt in the bones,insupportable pain and aching in legs toward evening,1.0,1
+rheumatic pains soreness and stiffness in left arm,feet swollen and tender to touch around ankles,1.0,1
+rheumatic pains soreness and stiffness in left arm,rheumatic pains in left arm when putting on coat,1.0,1
+rheumatic pains soreness and stiffness in left arm,rheumatic affections of feet after washing floor,1.0,1
+rheumatic pains soreness and stiffness in left arm,rheumatic pains now here now there,1.0,1
+rheumatic pains soreness and stiffness in left arm,rheumatic pains in right knee and hip in forenoon,1.0,1
+rheumatic pains soreness and stiffness in left arm,pains from calves up to sacrum,1.0,1
+rheumatic pains soreness and stiffness in left arm,knee joints weak,1.0,1
+rheumatic pains soreness and stiffness in left arm,rheumatic pains alternating in arms and hands legs and feet,1.0,1
+rheumatic pains soreness and stiffness in left arm,mostly muscular,1.0,1
+rheumatic pains soreness and stiffness in left arm,violent tearing on soles and in foot joints,1.0,1
+rheumatic pains soreness and stiffness in left arm,dull aching in middle of os humerus as if it would break,1.0,1
+rheumatic pains soreness and stiffness in left arm,aching pains from hips to ankles felt in the bones,1.0,1
+rheumatic pains soreness and stiffness in left arm,insupportable pain and aching in legs toward evening,1.0,1
+knee joints weak,feet swollen and tender to touch around ankles,1.0,1
+knee joints weak,rheumatic pains in left arm when putting on coat,1.0,1
+knee joints weak,rheumatic affections of feet after washing floor,1.0,1
+knee joints weak,rheumatic pains now here now there,1.0,1
+knee joints weak,rheumatic pains in right knee and hip in forenoon,1.0,1
+knee joints weak,pains from calves up to sacrum,1.0,1
+knee joints weak,rheumatic pains alternating in arms and hands legs and feet,1.0,1
+knee joints weak,mostly muscular,1.0,1
+knee joints weak,violent tearing on soles and in foot joints,1.0,1
+knee joints weak,dull aching in middle of os humerus as if it would break,1.0,1
+knee joints weak,rheumatic pains soreness and stiffness in left arm,1.0,1
+knee joints weak,aching pains from hips to ankles felt in the bones,1.0,1
+knee joints weak,insupportable pain and aching in legs toward evening,1.0,1
+mostly muscular,feet swollen and tender to touch around ankles,1.0,1
+mostly muscular,rheumatic pains in left arm when putting on coat,1.0,1
+mostly muscular,rheumatic affections of feet after washing floor,1.0,1
+mostly muscular,rheumatic pains now here now there,1.0,1
+mostly muscular,rheumatic pains in right knee and hip in forenoon,1.0,1
+mostly muscular,pains from calves up to sacrum,1.0,1
+mostly muscular,knee joints weak,1.0,1
+mostly muscular,rheumatic pains alternating in arms and hands legs and feet,1.0,1
+mostly muscular,violent tearing on soles and in foot joints,1.0,1
+mostly muscular,dull aching in middle of os humerus as if it would break,1.0,1
+mostly muscular,rheumatic pains soreness and stiffness in left arm,1.0,1
+mostly muscular,aching pains from hips to ankles felt in the bones,1.0,1
+mostly muscular,insupportable pain and aching in legs toward evening,1.0,1
+rheumatic pains now here now there,feet swollen and tender to touch around ankles,1.0,1
+rheumatic pains now here now there,rheumatic pains in left arm when putting on coat,1.0,1
+rheumatic pains now here now there,rheumatic affections of feet after washing floor,1.0,1
+rheumatic pains now here now there,rheumatic pains in right knee and hip in forenoon,1.0,1
+rheumatic pains now here now there,pains from calves up to sacrum,1.0,1
+rheumatic pains now here now there,knee joints weak,1.0,1
+rheumatic pains now here now there,rheumatic pains alternating in arms and hands legs and feet,1.0,1
+rheumatic pains now here now there,mostly muscular,1.0,1
+rheumatic pains now here now there,violent tearing on soles and in foot joints,1.0,1
+rheumatic pains now here now there,dull aching in middle of os humerus as if it would break,1.0,1
+rheumatic pains now here now there,rheumatic pains soreness and stiffness in left arm,1.0,1
+rheumatic pains now here now there,aching pains from hips to ankles felt in the bones,1.0,1
+rheumatic pains now here now there,insupportable pain and aching in legs toward evening,1.0,1
+violent tearing on soles and in foot joints,feet swollen and tender to touch around ankles,1.0,1
+violent tearing on soles and in foot joints,rheumatic pains in left arm when putting on coat,1.0,1
+violent tearing on soles and in foot joints,rheumatic affections of feet after washing floor,1.0,1
+violent tearing on soles and in foot joints,rheumatic pains now here now there,1.0,1
+violent tearing on soles and in foot joints,rheumatic pains in right knee and hip in forenoon,1.0,1
+violent tearing on soles and in foot joints,pains from calves up to sacrum,1.0,1
+violent tearing on soles and in foot joints,knee joints weak,1.0,1
+violent tearing on soles and in foot joints,rheumatic pains alternating in arms and hands legs and feet,1.0,1
+violent tearing on soles and in foot joints,mostly muscular,1.0,1
+violent tearing on soles and in foot joints,dull aching in middle of os humerus as if it would break,1.0,1
+violent tearing on soles and in foot joints,rheumatic pains soreness and stiffness in left arm,1.0,1
+violent tearing on soles and in foot joints,aching pains from hips to ankles felt in the bones,1.0,1
+violent tearing on soles and in foot joints,insupportable pain and aching in legs toward evening,1.0,1
+dull aching in middle of os humerus as if it would break,feet swollen and tender to touch around ankles,1.0,1
+dull aching in middle of os humerus as if it would break,rheumatic pains in left arm when putting on coat,1.0,1
+dull aching in middle of os humerus as if it would break,rheumatic affections of feet after washing floor,1.0,1
+dull aching in middle of os humerus as if it would break,rheumatic pains now here now there,1.0,1
+dull aching in middle of os humerus as if it would break,rheumatic pains in right knee and hip in forenoon,1.0,1
+dull aching in middle of os humerus as if it would break,pains from calves up to sacrum,1.0,1
+dull aching in middle of os humerus as if it would break,knee joints weak,1.0,1
+dull aching in middle of os humerus as if it would break,rheumatic pains alternating in arms and hands legs and feet,1.0,1
+dull aching in middle of os humerus as if it would break,mostly muscular,1.0,1
+dull aching in middle of os humerus as if it would break,violent tearing on soles and in foot joints,1.0,1
+dull aching in middle of os humerus as if it would break,rheumatic pains soreness and stiffness in left arm,1.0,1
+dull aching in middle of os humerus as if it would break,aching pains from hips to ankles felt in the bones,1.0,1
+dull aching in middle of os humerus as if it would break,insupportable pain and aching in legs toward evening,1.0,1
+rheumatic pains alternating in arms and hands legs and feet,feet swollen and tender to touch around ankles,1.0,1
+rheumatic pains alternating in arms and hands legs and feet,rheumatic pains in left arm when putting on coat,1.0,1
+rheumatic pains alternating in arms and hands legs and feet,rheumatic affections of feet after washing floor,1.0,1
+rheumatic pains alternating in arms and hands legs and feet,rheumatic pains now here now there,1.0,1
+rheumatic pains alternating in arms and hands legs and feet,rheumatic pains in right knee and hip in forenoon,1.0,1
+rheumatic pains alternating in arms and hands legs and feet,pains from calves up to sacrum,1.0,1
+rheumatic pains alternating in arms and hands legs and feet,knee joints weak,1.0,1
+rheumatic pains alternating in arms and hands legs and feet,mostly muscular,1.0,1
+rheumatic pains alternating in arms and hands legs and feet,violent tearing on soles and in foot joints,1.0,1
+rheumatic pains alternating in arms and hands legs and feet,dull aching in middle of os humerus as if it would break,1.0,1
+rheumatic pains alternating in arms and hands legs and feet,rheumatic pains soreness and stiffness in left arm,1.0,1
+rheumatic pains alternating in arms and hands legs and feet,aching pains from hips to ankles felt in the bones,1.0,1
+rheumatic pains alternating in arms and hands legs and feet,insupportable pain and aching in legs toward evening,1.0,1

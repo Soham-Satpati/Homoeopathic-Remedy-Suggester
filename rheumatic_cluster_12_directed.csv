@@ -1,0 +1,409 @@
+### Cluster 12 — Symptoms (20)
+Symptom,Frequency
+stitching contractive pain in region of hip joint,1
+coldness of abdomen,1
+stinging pinching cramping pains,1
+pain better by motion and pressure,2
+dull boring stitches in left shoulder blade,1
+warmth of rest of the body,1
+legs spasmodically jerked upward when sitting,1
+tension and paralytic tearing in arms hands and fingers,1
+icy coldness of hands and feet,1
+pain in back when sitting still,1
+bruised pain worse stooping and walking,2
+painful spasmodic jerking of lower limbs in gouty people,1
+apprehension of evil,1
+calcareous deposits in joints,1
+stiffness in muscles of neck and throat,1
+pain disappears on touching it,1
+cramp-like pain in muscles of left forearm extending to palm of hand,1
+muscular twitches in right upper arm,1
+cramp-like pain in muscles of right leg,1
+spasmodic stiffness of arms and fingers,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+menyanthes trifoliata,20
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+coldness of abdomen,stitching contractive pain in region of hip joint,1.0,1
+coldness of abdomen,stinging pinching cramping pains,1.0,1
+coldness of abdomen,pain better by motion and pressure,1.0,1
+coldness of abdomen,dull boring stitches in left shoulder blade,1.0,1
+coldness of abdomen,warmth of rest of the body,1.0,1
+coldness of abdomen,legs spasmodically jerked upward when sitting,1.0,1
+coldness of abdomen,tension and paralytic tearing in arms hands and fingers,1.0,1
+coldness of abdomen,icy coldness of hands and feet,1.0,1
+coldness of abdomen,pain in back when sitting still,1.0,1
+coldness of abdomen,bruised pain worse stooping and walking,1.0,1
+coldness of abdomen,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+coldness of abdomen,apprehension of evil,1.0,1
+coldness of abdomen,calcareous deposits in joints,1.0,1
+coldness of abdomen,stiffness in muscles of neck and throat,1.0,1
+coldness of abdomen,pain disappears on touching it,1.0,1
+coldness of abdomen,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+coldness of abdomen,muscular twitches in right upper arm,1.0,1
+coldness of abdomen,cramp-like pain in muscles of right leg,1.0,1
+coldness of abdomen,spasmodic stiffness of arms and fingers,1.0,1
+pain better by motion and pressure,stitching contractive pain in region of hip joint,1.0,1
+pain better by motion and pressure,coldness of abdomen,1.0,1
+pain better by motion and pressure,stinging pinching cramping pains,1.0,1
+pain better by motion and pressure,dull boring stitches in left shoulder blade,1.0,1
+pain better by motion and pressure,warmth of rest of the body,1.0,1
+pain better by motion and pressure,legs spasmodically jerked upward when sitting,1.0,1
+pain better by motion and pressure,tension and paralytic tearing in arms hands and fingers,1.0,1
+pain better by motion and pressure,icy coldness of hands and feet,1.0,1
+pain better by motion and pressure,pain in back when sitting still,1.0,1
+pain better by motion and pressure,bruised pain worse stooping and walking,1.0,1
+pain better by motion and pressure,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+pain better by motion and pressure,apprehension of evil,1.0,1
+pain better by motion and pressure,calcareous deposits in joints,1.0,1
+pain better by motion and pressure,stiffness in muscles of neck and throat,1.0,1
+pain better by motion and pressure,pain disappears on touching it,1.0,1
+pain better by motion and pressure,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+pain better by motion and pressure,muscular twitches in right upper arm,1.0,1
+pain better by motion and pressure,cramp-like pain in muscles of right leg,1.0,1
+pain better by motion and pressure,spasmodic stiffness of arms and fingers,1.0,1
+legs spasmodically jerked upward when sitting,stitching contractive pain in region of hip joint,1.0,1
+legs spasmodically jerked upward when sitting,coldness of abdomen,1.0,1
+legs spasmodically jerked upward when sitting,stinging pinching cramping pains,1.0,1
+legs spasmodically jerked upward when sitting,pain better by motion and pressure,1.0,1
+legs spasmodically jerked upward when sitting,dull boring stitches in left shoulder blade,1.0,1
+legs spasmodically jerked upward when sitting,warmth of rest of the body,1.0,1
+legs spasmodically jerked upward when sitting,tension and paralytic tearing in arms hands and fingers,1.0,1
+legs spasmodically jerked upward when sitting,icy coldness of hands and feet,1.0,1
+legs spasmodically jerked upward when sitting,pain in back when sitting still,1.0,1
+legs spasmodically jerked upward when sitting,bruised pain worse stooping and walking,1.0,1
+legs spasmodically jerked upward when sitting,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+legs spasmodically jerked upward when sitting,apprehension of evil,1.0,1
+legs spasmodically jerked upward when sitting,calcareous deposits in joints,1.0,1
+legs spasmodically jerked upward when sitting,stiffness in muscles of neck and throat,1.0,1
+legs spasmodically jerked upward when sitting,pain disappears on touching it,1.0,1
+legs spasmodically jerked upward when sitting,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+legs spasmodically jerked upward when sitting,muscular twitches in right upper arm,1.0,1
+legs spasmodically jerked upward when sitting,cramp-like pain in muscles of right leg,1.0,1
+legs spasmodically jerked upward when sitting,spasmodic stiffness of arms and fingers,1.0,1
+dull boring stitches in left shoulder blade,stitching contractive pain in region of hip joint,1.0,1
+dull boring stitches in left shoulder blade,coldness of abdomen,1.0,1
+dull boring stitches in left shoulder blade,stinging pinching cramping pains,1.0,1
+dull boring stitches in left shoulder blade,pain better by motion and pressure,1.0,1
+dull boring stitches in left shoulder blade,warmth of rest of the body,1.0,1
+dull boring stitches in left shoulder blade,legs spasmodically jerked upward when sitting,1.0,1
+dull boring stitches in left shoulder blade,tension and paralytic tearing in arms hands and fingers,1.0,1
+dull boring stitches in left shoulder blade,icy coldness of hands and feet,1.0,1
+dull boring stitches in left shoulder blade,pain in back when sitting still,1.0,1
+dull boring stitches in left shoulder blade,bruised pain worse stooping and walking,1.0,1
+dull boring stitches in left shoulder blade,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+dull boring stitches in left shoulder blade,apprehension of evil,1.0,1
+dull boring stitches in left shoulder blade,calcareous deposits in joints,1.0,1
+dull boring stitches in left shoulder blade,stiffness in muscles of neck and throat,1.0,1
+dull boring stitches in left shoulder blade,pain disappears on touching it,1.0,1
+dull boring stitches in left shoulder blade,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+dull boring stitches in left shoulder blade,muscular twitches in right upper arm,1.0,1
+dull boring stitches in left shoulder blade,cramp-like pain in muscles of right leg,1.0,1
+dull boring stitches in left shoulder blade,spasmodic stiffness of arms and fingers,1.0,1
+warmth of rest of the body,stitching contractive pain in region of hip joint,1.0,1
+warmth of rest of the body,coldness of abdomen,1.0,1
+warmth of rest of the body,stinging pinching cramping pains,1.0,1
+warmth of rest of the body,pain better by motion and pressure,1.0,1
+warmth of rest of the body,dull boring stitches in left shoulder blade,1.0,1
+warmth of rest of the body,legs spasmodically jerked upward when sitting,1.0,1
+warmth of rest of the body,tension and paralytic tearing in arms hands and fingers,1.0,1
+warmth of rest of the body,icy coldness of hands and feet,1.0,1
+warmth of rest of the body,pain in back when sitting still,1.0,1
+warmth of rest of the body,bruised pain worse stooping and walking,1.0,1
+warmth of rest of the body,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+warmth of rest of the body,apprehension of evil,1.0,1
+warmth of rest of the body,calcareous deposits in joints,1.0,1
+warmth of rest of the body,stiffness in muscles of neck and throat,1.0,1
+warmth of rest of the body,pain disappears on touching it,1.0,1
+warmth of rest of the body,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+warmth of rest of the body,muscular twitches in right upper arm,1.0,1
+warmth of rest of the body,cramp-like pain in muscles of right leg,1.0,1
+warmth of rest of the body,spasmodic stiffness of arms and fingers,1.0,1
+tension and paralytic tearing in arms hands and fingers,stitching contractive pain in region of hip joint,1.0,1
+tension and paralytic tearing in arms hands and fingers,coldness of abdomen,1.0,1
+tension and paralytic tearing in arms hands and fingers,stinging pinching cramping pains,1.0,1
+tension and paralytic tearing in arms hands and fingers,pain better by motion and pressure,1.0,1
+tension and paralytic tearing in arms hands and fingers,dull boring stitches in left shoulder blade,1.0,1
+tension and paralytic tearing in arms hands and fingers,warmth of rest of the body,1.0,1
+tension and paralytic tearing in arms hands and fingers,legs spasmodically jerked upward when sitting,1.0,1
+tension and paralytic tearing in arms hands and fingers,icy coldness of hands and feet,1.0,1
+tension and paralytic tearing in arms hands and fingers,pain in back when sitting still,1.0,1
+tension and paralytic tearing in arms hands and fingers,bruised pain worse stooping and walking,1.0,1
+tension and paralytic tearing in arms hands and fingers,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+tension and paralytic tearing in arms hands and fingers,apprehension of evil,1.0,1
+tension and paralytic tearing in arms hands and fingers,calcareous deposits in joints,1.0,1
+tension and paralytic tearing in arms hands and fingers,stiffness in muscles of neck and throat,1.0,1
+tension and paralytic tearing in arms hands and fingers,pain disappears on touching it,1.0,1
+tension and paralytic tearing in arms hands and fingers,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+tension and paralytic tearing in arms hands and fingers,muscular twitches in right upper arm,1.0,1
+tension and paralytic tearing in arms hands and fingers,cramp-like pain in muscles of right leg,1.0,1
+tension and paralytic tearing in arms hands and fingers,spasmodic stiffness of arms and fingers,1.0,1
+stitching contractive pain in region of hip joint,coldness of abdomen,1.0,1
+stitching contractive pain in region of hip joint,stinging pinching cramping pains,1.0,1
+stitching contractive pain in region of hip joint,pain better by motion and pressure,1.0,1
+stitching contractive pain in region of hip joint,dull boring stitches in left shoulder blade,1.0,1
+stitching contractive pain in region of hip joint,warmth of rest of the body,1.0,1
+stitching contractive pain in region of hip joint,legs spasmodically jerked upward when sitting,1.0,1
+stitching contractive pain in region of hip joint,tension and paralytic tearing in arms hands and fingers,1.0,1
+stitching contractive pain in region of hip joint,icy coldness of hands and feet,1.0,1
+stitching contractive pain in region of hip joint,pain in back when sitting still,1.0,1
+stitching contractive pain in region of hip joint,bruised pain worse stooping and walking,1.0,1
+stitching contractive pain in region of hip joint,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+stitching contractive pain in region of hip joint,apprehension of evil,1.0,1
+stitching contractive pain in region of hip joint,calcareous deposits in joints,1.0,1
+stitching contractive pain in region of hip joint,stiffness in muscles of neck and throat,1.0,1
+stitching contractive pain in region of hip joint,pain disappears on touching it,1.0,1
+stitching contractive pain in region of hip joint,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+stitching contractive pain in region of hip joint,muscular twitches in right upper arm,1.0,1
+stitching contractive pain in region of hip joint,cramp-like pain in muscles of right leg,1.0,1
+stitching contractive pain in region of hip joint,spasmodic stiffness of arms and fingers,1.0,1
+cramp-like pain in muscles of right leg,stitching contractive pain in region of hip joint,1.0,1
+cramp-like pain in muscles of right leg,coldness of abdomen,1.0,1
+cramp-like pain in muscles of right leg,stinging pinching cramping pains,1.0,1
+cramp-like pain in muscles of right leg,pain better by motion and pressure,1.0,1
+cramp-like pain in muscles of right leg,dull boring stitches in left shoulder blade,1.0,1
+cramp-like pain in muscles of right leg,warmth of rest of the body,1.0,1
+cramp-like pain in muscles of right leg,legs spasmodically jerked upward when sitting,1.0,1
+cramp-like pain in muscles of right leg,tension and paralytic tearing in arms hands and fingers,1.0,1
+cramp-like pain in muscles of right leg,icy coldness of hands and feet,1.0,1
+cramp-like pain in muscles of right leg,pain in back when sitting still,1.0,1
+cramp-like pain in muscles of right leg,bruised pain worse stooping and walking,1.0,1
+cramp-like pain in muscles of right leg,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+cramp-like pain in muscles of right leg,apprehension of evil,1.0,1
+cramp-like pain in muscles of right leg,calcareous deposits in joints,1.0,1
+cramp-like pain in muscles of right leg,stiffness in muscles of neck and throat,1.0,1
+cramp-like pain in muscles of right leg,pain disappears on touching it,1.0,1
+cramp-like pain in muscles of right leg,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+cramp-like pain in muscles of right leg,muscular twitches in right upper arm,1.0,1
+cramp-like pain in muscles of right leg,spasmodic stiffness of arms and fingers,1.0,1
+pain disappears on touching it,stitching contractive pain in region of hip joint,1.0,1
+pain disappears on touching it,coldness of abdomen,1.0,1
+pain disappears on touching it,stinging pinching cramping pains,1.0,1
+pain disappears on touching it,pain better by motion and pressure,1.0,1
+pain disappears on touching it,dull boring stitches in left shoulder blade,1.0,1
+pain disappears on touching it,warmth of rest of the body,1.0,1
+pain disappears on touching it,legs spasmodically jerked upward when sitting,1.0,1
+pain disappears on touching it,tension and paralytic tearing in arms hands and fingers,1.0,1
+pain disappears on touching it,icy coldness of hands and feet,1.0,1
+pain disappears on touching it,pain in back when sitting still,1.0,1
+pain disappears on touching it,bruised pain worse stooping and walking,1.0,1
+pain disappears on touching it,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+pain disappears on touching it,apprehension of evil,1.0,1
+pain disappears on touching it,calcareous deposits in joints,1.0,1
+pain disappears on touching it,stiffness in muscles of neck and throat,1.0,1
+pain disappears on touching it,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+pain disappears on touching it,muscular twitches in right upper arm,1.0,1
+pain disappears on touching it,cramp-like pain in muscles of right leg,1.0,1
+pain disappears on touching it,spasmodic stiffness of arms and fingers,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,stitching contractive pain in region of hip joint,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,coldness of abdomen,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,stinging pinching cramping pains,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,pain better by motion and pressure,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,dull boring stitches in left shoulder blade,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,warmth of rest of the body,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,legs spasmodically jerked upward when sitting,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,tension and paralytic tearing in arms hands and fingers,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,icy coldness of hands and feet,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,pain in back when sitting still,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,bruised pain worse stooping and walking,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,apprehension of evil,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,calcareous deposits in joints,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,stiffness in muscles of neck and throat,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,pain disappears on touching it,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,muscular twitches in right upper arm,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,cramp-like pain in muscles of right leg,1.0,1
+painful spasmodic jerking of lower limbs in gouty people,spasmodic stiffness of arms and fingers,1.0,1
+apprehension of evil,stitching contractive pain in region of hip joint,1.0,1
+apprehension of evil,coldness of abdomen,1.0,1
+apprehension of evil,stinging pinching cramping pains,1.0,1
+apprehension of evil,pain better by motion and pressure,1.0,1
+apprehension of evil,dull boring stitches in left shoulder blade,1.0,1
+apprehension of evil,warmth of rest of the body,1.0,1
+apprehension of evil,legs spasmodically jerked upward when sitting,1.0,1
+apprehension of evil,tension and paralytic tearing in arms hands and fingers,1.0,1
+apprehension of evil,icy coldness of hands and feet,1.0,1
+apprehension of evil,pain in back when sitting still,1.0,1
+apprehension of evil,bruised pain worse stooping and walking,1.0,1
+apprehension of evil,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+apprehension of evil,calcareous deposits in joints,1.0,1
+apprehension of evil,stiffness in muscles of neck and throat,1.0,1
+apprehension of evil,pain disappears on touching it,1.0,1
+apprehension of evil,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+apprehension of evil,muscular twitches in right upper arm,1.0,1
+apprehension of evil,cramp-like pain in muscles of right leg,1.0,1
+apprehension of evil,spasmodic stiffness of arms and fingers,1.0,1
+pain in back when sitting still,stitching contractive pain in region of hip joint,1.0,1
+pain in back when sitting still,coldness of abdomen,1.0,1
+pain in back when sitting still,stinging pinching cramping pains,1.0,1
+pain in back when sitting still,pain better by motion and pressure,1.0,1
+pain in back when sitting still,dull boring stitches in left shoulder blade,1.0,1
+pain in back when sitting still,warmth of rest of the body,1.0,1
+pain in back when sitting still,legs spasmodically jerked upward when sitting,1.0,1
+pain in back when sitting still,tension and paralytic tearing in arms hands and fingers,1.0,1
+pain in back when sitting still,icy coldness of hands and feet,1.0,1
+pain in back when sitting still,bruised pain worse stooping and walking,1.0,1
+pain in back when sitting still,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+pain in back when sitting still,apprehension of evil,1.0,1
+pain in back when sitting still,calcareous deposits in joints,1.0,1
+pain in back when sitting still,stiffness in muscles of neck and throat,1.0,1
+pain in back when sitting still,pain disappears on touching it,1.0,1
+pain in back when sitting still,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+pain in back when sitting still,muscular twitches in right upper arm,1.0,1
+pain in back when sitting still,cramp-like pain in muscles of right leg,1.0,1
+pain in back when sitting still,spasmodic stiffness of arms and fingers,1.0,1
+stinging pinching cramping pains,stitching contractive pain in region of hip joint,1.0,1
+stinging pinching cramping pains,coldness of abdomen,1.0,1
+stinging pinching cramping pains,pain better by motion and pressure,1.0,1
+stinging pinching cramping pains,dull boring stitches in left shoulder blade,1.0,1
+stinging pinching cramping pains,warmth of rest of the body,1.0,1
+stinging pinching cramping pains,legs spasmodically jerked upward when sitting,1.0,1
+stinging pinching cramping pains,tension and paralytic tearing in arms hands and fingers,1.0,1
+stinging pinching cramping pains,icy coldness of hands and feet,1.0,1
+stinging pinching cramping pains,pain in back when sitting still,1.0,1
+stinging pinching cramping pains,bruised pain worse stooping and walking,1.0,1
+stinging pinching cramping pains,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+stinging pinching cramping pains,apprehension of evil,1.0,1
+stinging pinching cramping pains,calcareous deposits in joints,1.0,1
+stinging pinching cramping pains,stiffness in muscles of neck and throat,1.0,1
+stinging pinching cramping pains,pain disappears on touching it,1.0,1
+stinging pinching cramping pains,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+stinging pinching cramping pains,muscular twitches in right upper arm,1.0,1
+stinging pinching cramping pains,cramp-like pain in muscles of right leg,1.0,1
+stinging pinching cramping pains,spasmodic stiffness of arms and fingers,1.0,1
+bruised pain worse stooping and walking,stitching contractive pain in region of hip joint,1.0,1
+bruised pain worse stooping and walking,coldness of abdomen,1.0,1
+bruised pain worse stooping and walking,stinging pinching cramping pains,1.0,1
+bruised pain worse stooping and walking,pain better by motion and pressure,1.0,1
+bruised pain worse stooping and walking,dull boring stitches in left shoulder blade,1.0,1
+bruised pain worse stooping and walking,warmth of rest of the body,1.0,1
+bruised pain worse stooping and walking,legs spasmodically jerked upward when sitting,1.0,1
+bruised pain worse stooping and walking,tension and paralytic tearing in arms hands and fingers,1.0,1
+bruised pain worse stooping and walking,icy coldness of hands and feet,1.0,1
+bruised pain worse stooping and walking,pain in back when sitting still,1.0,1
+bruised pain worse stooping and walking,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+bruised pain worse stooping and walking,apprehension of evil,1.0,1
+bruised pain worse stooping and walking,calcareous deposits in joints,1.0,1
+bruised pain worse stooping and walking,stiffness in muscles of neck and throat,1.0,1
+bruised pain worse stooping and walking,pain disappears on touching it,1.0,1
+bruised pain worse stooping and walking,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+bruised pain worse stooping and walking,muscular twitches in right upper arm,1.0,1
+bruised pain worse stooping and walking,cramp-like pain in muscles of right leg,1.0,1
+bruised pain worse stooping and walking,spasmodic stiffness of arms and fingers,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,stitching contractive pain in region of hip joint,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,coldness of abdomen,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,stinging pinching cramping pains,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,pain better by motion and pressure,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,dull boring stitches in left shoulder blade,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,warmth of rest of the body,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,legs spasmodically jerked upward when sitting,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,tension and paralytic tearing in arms hands and fingers,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,icy coldness of hands and feet,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,pain in back when sitting still,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,bruised pain worse stooping and walking,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,apprehension of evil,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,calcareous deposits in joints,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,stiffness in muscles of neck and throat,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,pain disappears on touching it,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,muscular twitches in right upper arm,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,cramp-like pain in muscles of right leg,1.0,1
+cramp-like pain in muscles of left forearm extending to palm of hand,spasmodic stiffness of arms and fingers,1.0,1
+muscular twitches in right upper arm,stitching contractive pain in region of hip joint,1.0,1
+muscular twitches in right upper arm,coldness of abdomen,1.0,1
+muscular twitches in right upper arm,stinging pinching cramping pains,1.0,1
+muscular twitches in right upper arm,pain better by motion and pressure,1.0,1
+muscular twitches in right upper arm,dull boring stitches in left shoulder blade,1.0,1
+muscular twitches in right upper arm,warmth of rest of the body,1.0,1
+muscular twitches in right upper arm,legs spasmodically jerked upward when sitting,1.0,1
+muscular twitches in right upper arm,tension and paralytic tearing in arms hands and fingers,1.0,1
+muscular twitches in right upper arm,icy coldness of hands and feet,1.0,1
+muscular twitches in right upper arm,pain in back when sitting still,1.0,1
+muscular twitches in right upper arm,bruised pain worse stooping and walking,1.0,1
+muscular twitches in right upper arm,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+muscular twitches in right upper arm,apprehension of evil,1.0,1
+muscular twitches in right upper arm,calcareous deposits in joints,1.0,1
+muscular twitches in right upper arm,stiffness in muscles of neck and throat,1.0,1
+muscular twitches in right upper arm,pain disappears on touching it,1.0,1
+muscular twitches in right upper arm,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+muscular twitches in right upper arm,cramp-like pain in muscles of right leg,1.0,1
+muscular twitches in right upper arm,spasmodic stiffness of arms and fingers,1.0,1
+spasmodic stiffness of arms and fingers,stitching contractive pain in region of hip joint,1.0,1
+spasmodic stiffness of arms and fingers,coldness of abdomen,1.0,1
+spasmodic stiffness of arms and fingers,stinging pinching cramping pains,1.0,1
+spasmodic stiffness of arms and fingers,pain better by motion and pressure,1.0,1
+spasmodic stiffness of arms and fingers,dull boring stitches in left shoulder blade,1.0,1
+spasmodic stiffness of arms and fingers,warmth of rest of the body,1.0,1
+spasmodic stiffness of arms and fingers,legs spasmodically jerked upward when sitting,1.0,1
+spasmodic stiffness of arms and fingers,tension and paralytic tearing in arms hands and fingers,1.0,1
+spasmodic stiffness of arms and fingers,icy coldness of hands and feet,1.0,1
+spasmodic stiffness of arms and fingers,pain in back when sitting still,1.0,1
+spasmodic stiffness of arms and fingers,bruised pain worse stooping and walking,1.0,1
+spasmodic stiffness of arms and fingers,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+spasmodic stiffness of arms and fingers,apprehension of evil,1.0,1
+spasmodic stiffness of arms and fingers,calcareous deposits in joints,1.0,1
+spasmodic stiffness of arms and fingers,stiffness in muscles of neck and throat,1.0,1
+spasmodic stiffness of arms and fingers,pain disappears on touching it,1.0,1
+spasmodic stiffness of arms and fingers,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+spasmodic stiffness of arms and fingers,muscular twitches in right upper arm,1.0,1
+spasmodic stiffness of arms and fingers,cramp-like pain in muscles of right leg,1.0,1
+calcareous deposits in joints,stitching contractive pain in region of hip joint,1.0,1
+calcareous deposits in joints,coldness of abdomen,1.0,1
+calcareous deposits in joints,stinging pinching cramping pains,1.0,1
+calcareous deposits in joints,pain better by motion and pressure,1.0,1
+calcareous deposits in joints,dull boring stitches in left shoulder blade,1.0,1
+calcareous deposits in joints,warmth of rest of the body,1.0,1
+calcareous deposits in joints,legs spasmodically jerked upward when sitting,1.0,1
+calcareous deposits in joints,tension and paralytic tearing in arms hands and fingers,1.0,1
+calcareous deposits in joints,icy coldness of hands and feet,1.0,1
+calcareous deposits in joints,pain in back when sitting still,1.0,1
+calcareous deposits in joints,bruised pain worse stooping and walking,1.0,1
+calcareous deposits in joints,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+calcareous deposits in joints,apprehension of evil,1.0,1
+calcareous deposits in joints,stiffness in muscles of neck and throat,1.0,1
+calcareous deposits in joints,pain disappears on touching it,1.0,1
+calcareous deposits in joints,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+calcareous deposits in joints,muscular twitches in right upper arm,1.0,1
+calcareous deposits in joints,cramp-like pain in muscles of right leg,1.0,1
+calcareous deposits in joints,spasmodic stiffness of arms and fingers,1.0,1
+icy coldness of hands and feet,stitching contractive pain in region of hip joint,1.0,1
+icy coldness of hands and feet,coldness of abdomen,1.0,1
+icy coldness of hands and feet,stinging pinching cramping pains,1.0,1
+icy coldness of hands and feet,pain better by motion and pressure,1.0,1
+icy coldness of hands and feet,dull boring stitches in left shoulder blade,1.0,1
+icy coldness of hands and feet,warmth of rest of the body,1.0,1
+icy coldness of hands and feet,legs spasmodically jerked upward when sitting,1.0,1
+icy coldness of hands and feet,tension and paralytic tearing in arms hands and fingers,1.0,1
+icy coldness of hands and feet,pain in back when sitting still,1.0,1
+icy coldness of hands and feet,bruised pain worse stooping and walking,1.0,1
+icy coldness of hands and feet,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+icy coldness of hands and feet,apprehension of evil,1.0,1
+icy coldness of hands and feet,calcareous deposits in joints,1.0,1
+icy coldness of hands and feet,stiffness in muscles of neck and throat,1.0,1
+icy coldness of hands and feet,pain disappears on touching it,1.0,1
+icy coldness of hands and feet,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+icy coldness of hands and feet,muscular twitches in right upper arm,1.0,1
+icy coldness of hands and feet,cramp-like pain in muscles of right leg,1.0,1
+icy coldness of hands and feet,spasmodic stiffness of arms and fingers,1.0,1
+stiffness in muscles of neck and throat,stitching contractive pain in region of hip joint,1.0,1
+stiffness in muscles of neck and throat,coldness of abdomen,1.0,1
+stiffness in muscles of neck and throat,stinging pinching cramping pains,1.0,1
+stiffness in muscles of neck and throat,pain better by motion and pressure,1.0,1
+stiffness in muscles of neck and throat,dull boring stitches in left shoulder blade,1.0,1
+stiffness in muscles of neck and throat,warmth of rest of the body,1.0,1
+stiffness in muscles of neck and throat,legs spasmodically jerked upward when sitting,1.0,1
+stiffness in muscles of neck and throat,tension and paralytic tearing in arms hands and fingers,1.0,1
+stiffness in muscles of neck and throat,icy coldness of hands and feet,1.0,1
+stiffness in muscles of neck and throat,pain in back when sitting still,1.0,1
+stiffness in muscles of neck and throat,bruised pain worse stooping and walking,1.0,1
+stiffness in muscles of neck and throat,painful spasmodic jerking of lower limbs in gouty people,1.0,1
+stiffness in muscles of neck and throat,apprehension of evil,1.0,1
+stiffness in muscles of neck and throat,calcareous deposits in joints,1.0,1
+stiffness in muscles of neck and throat,pain disappears on touching it,1.0,1
+stiffness in muscles of neck and throat,cramp-like pain in muscles of left forearm extending to palm of hand,1.0,1
+stiffness in muscles of neck and throat,muscular twitches in right upper arm,1.0,1
+stiffness in muscles of neck and throat,cramp-like pain in muscles of right leg,1.0,1
+stiffness in muscles of neck and throat,spasmodic stiffness of arms and fingers,1.0,1

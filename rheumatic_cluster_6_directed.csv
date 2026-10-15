@@ -1,0 +1,206 @@
+### Cluster 6 — Symptoms (14)
+Symptom,Frequency
+improved at rest,1
+improved from rest,1
+worse evening,2
+soreness in bends of joints,1
+rheumatic conditions following pneumonia,1
+rheumatic conditions following acute bronchitis,1
+worse exercising,1
+rheumatic pain in muscles on side of neck,1
+dull rheumatic pain,1
+worse during motion,1
+worse morning,1
+worse from exercise or motion,1
+convulsive twitching of limbs,1
+convulsive motion of limbs,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+squilla,14
+marum verum,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+convulsive twitching of limbs,improved at rest,1.0,1
+convulsive twitching of limbs,improved from rest,1.0,1
+convulsive twitching of limbs,worse evening,1.0,1
+convulsive twitching of limbs,soreness in bends of joints,1.0,1
+convulsive twitching of limbs,rheumatic conditions following pneumonia,1.0,1
+convulsive twitching of limbs,rheumatic conditions following acute bronchitis,1.0,1
+convulsive twitching of limbs,worse exercising,1.0,1
+convulsive twitching of limbs,rheumatic pain in muscles on side of neck,1.0,1
+convulsive twitching of limbs,dull rheumatic pain,1.0,1
+convulsive twitching of limbs,worse during motion,1.0,1
+convulsive twitching of limbs,worse morning,1.0,1
+convulsive twitching of limbs,worse from exercise or motion,1.0,1
+convulsive twitching of limbs,convulsive motion of limbs,1.0,1
+rheumatic pain in muscles on side of neck,improved at rest,1.0,1
+rheumatic pain in muscles on side of neck,improved from rest,1.0,1
+rheumatic pain in muscles on side of neck,worse evening,1.0,1
+rheumatic pain in muscles on side of neck,soreness in bends of joints,1.0,1
+rheumatic pain in muscles on side of neck,rheumatic conditions following pneumonia,1.0,1
+rheumatic pain in muscles on side of neck,rheumatic conditions following acute bronchitis,1.0,1
+rheumatic pain in muscles on side of neck,worse exercising,1.0,1
+rheumatic pain in muscles on side of neck,dull rheumatic pain,1.0,1
+rheumatic pain in muscles on side of neck,worse during motion,1.0,1
+rheumatic pain in muscles on side of neck,worse morning,1.0,1
+rheumatic pain in muscles on side of neck,worse from exercise or motion,1.0,1
+rheumatic pain in muscles on side of neck,convulsive twitching of limbs,1.0,1
+rheumatic pain in muscles on side of neck,convulsive motion of limbs,1.0,1
+soreness in bends of joints,improved at rest,1.0,1
+soreness in bends of joints,improved from rest,1.0,1
+soreness in bends of joints,worse evening,1.0,1
+soreness in bends of joints,rheumatic conditions following pneumonia,1.0,1
+soreness in bends of joints,rheumatic conditions following acute bronchitis,1.0,1
+soreness in bends of joints,worse exercising,1.0,1
+soreness in bends of joints,rheumatic pain in muscles on side of neck,1.0,1
+soreness in bends of joints,dull rheumatic pain,1.0,1
+soreness in bends of joints,worse during motion,1.0,1
+soreness in bends of joints,worse morning,1.0,1
+soreness in bends of joints,worse from exercise or motion,1.0,1
+soreness in bends of joints,convulsive twitching of limbs,1.0,1
+soreness in bends of joints,convulsive motion of limbs,1.0,1
+improved at rest,improved from rest,1.0,1
+improved at rest,worse evening,1.0,1
+improved at rest,soreness in bends of joints,1.0,1
+improved at rest,rheumatic conditions following pneumonia,1.0,1
+improved at rest,rheumatic conditions following acute bronchitis,1.0,1
+improved at rest,worse exercising,1.0,1
+improved at rest,rheumatic pain in muscles on side of neck,1.0,1
+improved at rest,dull rheumatic pain,1.0,1
+improved at rest,worse during motion,1.0,1
+improved at rest,worse morning,1.0,1
+improved at rest,worse from exercise or motion,1.0,1
+improved at rest,convulsive twitching of limbs,1.0,1
+improved at rest,convulsive motion of limbs,1.0,1
+convulsive motion of limbs,improved at rest,1.0,1
+convulsive motion of limbs,improved from rest,1.0,1
+convulsive motion of limbs,worse evening,1.0,1
+convulsive motion of limbs,soreness in bends of joints,1.0,1
+convulsive motion of limbs,rheumatic conditions following pneumonia,1.0,1
+convulsive motion of limbs,rheumatic conditions following acute bronchitis,1.0,1
+convulsive motion of limbs,worse exercising,1.0,1
+convulsive motion of limbs,rheumatic pain in muscles on side of neck,1.0,1
+convulsive motion of limbs,dull rheumatic pain,1.0,1
+convulsive motion of limbs,worse during motion,1.0,1
+convulsive motion of limbs,worse morning,1.0,1
+convulsive motion of limbs,worse from exercise or motion,1.0,1
+convulsive motion of limbs,convulsive twitching of limbs,1.0,1
+worse exercising,improved at rest,1.0,1
+worse exercising,improved from rest,1.0,1
+worse exercising,worse evening,1.0,1
+worse exercising,soreness in bends of joints,1.0,1
+worse exercising,rheumatic conditions following pneumonia,1.0,1
+worse exercising,rheumatic conditions following acute bronchitis,1.0,1
+worse exercising,rheumatic pain in muscles on side of neck,1.0,1
+worse exercising,dull rheumatic pain,1.0,1
+worse exercising,worse during motion,1.0,1
+worse exercising,worse morning,1.0,1
+worse exercising,worse from exercise or motion,1.0,1
+worse exercising,convulsive twitching of limbs,1.0,1
+worse exercising,convulsive motion of limbs,1.0,1
+worse during motion,improved at rest,1.0,1
+worse during motion,improved from rest,1.0,1
+worse during motion,worse evening,1.0,1
+worse during motion,soreness in bends of joints,1.0,1
+worse during motion,rheumatic conditions following pneumonia,1.0,1
+worse during motion,rheumatic conditions following acute bronchitis,1.0,1
+worse during motion,worse exercising,1.0,1
+worse during motion,rheumatic pain in muscles on side of neck,1.0,1
+worse during motion,dull rheumatic pain,1.0,1
+worse during motion,worse morning,1.0,1
+worse during motion,worse from exercise or motion,1.0,1
+worse during motion,convulsive twitching of limbs,1.0,1
+worse during motion,convulsive motion of limbs,1.0,1
+improved from rest,improved at rest,1.0,1
+improved from rest,worse evening,1.0,1
+improved from rest,soreness in bends of joints,1.0,1
+improved from rest,rheumatic conditions following pneumonia,1.0,1
+improved from rest,rheumatic conditions following acute bronchitis,1.0,1
+improved from rest,worse exercising,1.0,1
+improved from rest,rheumatic pain in muscles on side of neck,1.0,1
+improved from rest,dull rheumatic pain,1.0,1
+improved from rest,worse during motion,1.0,1
+improved from rest,worse morning,1.0,1
+improved from rest,worse from exercise or motion,1.0,1
+improved from rest,convulsive twitching of limbs,1.0,1
+improved from rest,convulsive motion of limbs,1.0,1
+worse morning,improved at rest,1.0,1
+worse morning,improved from rest,1.0,1
+worse morning,worse evening,1.0,1
+worse morning,soreness in bends of joints,1.0,1
+worse morning,rheumatic conditions following pneumonia,1.0,1
+worse morning,rheumatic conditions following acute bronchitis,1.0,1
+worse morning,worse exercising,1.0,1
+worse morning,rheumatic pain in muscles on side of neck,1.0,1
+worse morning,dull rheumatic pain,1.0,1
+worse morning,worse during motion,1.0,1
+worse morning,worse from exercise or motion,1.0,1
+worse morning,convulsive twitching of limbs,1.0,1
+worse morning,convulsive motion of limbs,1.0,1
+dull rheumatic pain,improved at rest,1.0,1
+dull rheumatic pain,improved from rest,1.0,1
+dull rheumatic pain,worse evening,1.0,1
+dull rheumatic pain,soreness in bends of joints,1.0,1
+dull rheumatic pain,rheumatic conditions following pneumonia,1.0,1
+dull rheumatic pain,rheumatic conditions following acute bronchitis,1.0,1
+dull rheumatic pain,worse exercising,1.0,1
+dull rheumatic pain,rheumatic pain in muscles on side of neck,1.0,1
+dull rheumatic pain,worse during motion,1.0,1
+dull rheumatic pain,worse morning,1.0,1
+dull rheumatic pain,worse from exercise or motion,1.0,1
+dull rheumatic pain,convulsive twitching of limbs,1.0,1
+dull rheumatic pain,convulsive motion of limbs,1.0,1
+rheumatic conditions following acute bronchitis,improved at rest,1.0,1
+rheumatic conditions following acute bronchitis,improved from rest,1.0,1
+rheumatic conditions following acute bronchitis,worse evening,1.0,1
+rheumatic conditions following acute bronchitis,soreness in bends of joints,1.0,1
+rheumatic conditions following acute bronchitis,rheumatic conditions following pneumonia,1.0,1
+rheumatic conditions following acute bronchitis,worse exercising,1.0,1
+rheumatic conditions following acute bronchitis,rheumatic pain in muscles on side of neck,1.0,1
+rheumatic conditions following acute bronchitis,dull rheumatic pain,1.0,1
+rheumatic conditions following acute bronchitis,worse during motion,1.0,1
+rheumatic conditions following acute bronchitis,worse morning,1.0,1
+rheumatic conditions following acute bronchitis,worse from exercise or motion,1.0,1
+rheumatic conditions following acute bronchitis,convulsive twitching of limbs,1.0,1
+rheumatic conditions following acute bronchitis,convulsive motion of limbs,1.0,1
+worse evening,improved at rest,0.5,1
+worse evening,improved from rest,0.5,1
+worse evening,soreness in bends of joints,0.5,1
+worse evening,rheumatic conditions following pneumonia,0.5,1
+worse evening,rheumatic conditions following acute bronchitis,0.5,1
+worse evening,worse exercising,0.5,1
+worse evening,rheumatic pain in muscles on side of neck,0.5,1
+worse evening,dull rheumatic pain,0.5,1
+worse evening,worse during motion,0.5,1
+worse evening,worse morning,0.5,1
+worse evening,worse from exercise or motion,0.5,1
+worse evening,convulsive twitching of limbs,0.5,1
+worse evening,convulsive motion of limbs,0.5,1
+worse from exercise or motion,improved at rest,1.0,1
+worse from exercise or motion,improved from rest,1.0,1
+worse from exercise or motion,worse evening,1.0,1
+worse from exercise or motion,soreness in bends of joints,1.0,1
+worse from exercise or motion,rheumatic conditions following pneumonia,1.0,1
+worse from exercise or motion,rheumatic conditions following acute bronchitis,1.0,1
+worse from exercise or motion,worse exercising,1.0,1
+worse from exercise or motion,rheumatic pain in muscles on side of neck,1.0,1
+worse from exercise or motion,dull rheumatic pain,1.0,1
+worse from exercise or motion,worse during motion,1.0,1
+worse from exercise or motion,worse morning,1.0,1
+worse from exercise or motion,convulsive twitching of limbs,1.0,1
+worse from exercise or motion,convulsive motion of limbs,1.0,1
+rheumatic conditions following pneumonia,improved at rest,1.0,1
+rheumatic conditions following pneumonia,improved from rest,1.0,1
+rheumatic conditions following pneumonia,worse evening,1.0,1
+rheumatic conditions following pneumonia,soreness in bends of joints,1.0,1
+rheumatic conditions following pneumonia,rheumatic conditions following acute bronchitis,1.0,1
+rheumatic conditions following pneumonia,worse exercising,1.0,1
+rheumatic conditions following pneumonia,rheumatic pain in muscles on side of neck,1.0,1
+rheumatic conditions following pneumonia,dull rheumatic pain,1.0,1
+rheumatic conditions following pneumonia,worse during motion,1.0,1
+rheumatic conditions following pneumonia,worse morning,1.0,1
+rheumatic conditions following pneumonia,worse from exercise or motion,1.0,1
+rheumatic conditions following pneumonia,convulsive twitching of limbs,1.0,1
+rheumatic conditions following pneumonia,convulsive motion of limbs,1.0,1

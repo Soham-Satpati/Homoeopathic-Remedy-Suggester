@@ -1,0 +1,1456 @@
+### Cluster 59 — Symptoms (38)
+Symptom,Frequency
+gouty nodosities,2
+rheumatism after suppressed gonorrhea,2
+tearing pain in hands,2
+gouty pains in fingers,2
+tearing in left side of back,1
+eyes burn,1
+warts,1
+sticking in left side of back,1
+rheumatism after gonorrhea,1
+fig warts,1
+chronic sclerotitis,1
+sycotic conditions,1
+gouty pains in big toe,1
+stinging pain in left elbow,1
+sweat only on uncovered parts,1
+tearing pains in muscles,1
+jerking pains in muscles,1
+improved by motion,1
+paralytic sensation in right arm,1
+gouty inflammation of tendo achillis,1
+eyes watery,1
+cracking when stretching,1
+iritis,1
+chronic rheumatism of left elbow,1
+episclerotitis,1
+painful pressure in left side of back,1
+pains in heels,1
+aching in knee joints,1
+sclerotitis,1
+cracking in cervical vertebrae,1
+aching in every joint of hands,1
+gouty pains in finger joints,1
+lancinating pain in small of back,1
+rheumatic affections of eyes,1
+worse in damp weather,1
+hydrogenoid constitution,1
+tearing pain in toes,1
+tearing pain in soles,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+thuja,38
+antimonium crudum,2
+agnus castus,1
+sarsaparilla,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+iritis,tearing in left side of back,1.0,1
+iritis,gouty nodosities,1.0,1
+iritis,eyes burn,1.0,1
+iritis,warts,1.0,1
+iritis,sticking in left side of back,1.0,1
+iritis,rheumatism after gonorrhea,1.0,1
+iritis,fig warts,1.0,1
+iritis,chronic sclerotitis,1.0,1
+iritis,rheumatism after suppressed gonorrhea,1.0,1
+iritis,tearing pain in hands,1.0,1
+iritis,sycotic conditions,1.0,1
+iritis,gouty pains in big toe,1.0,1
+iritis,stinging pain in left elbow,1.0,1
+iritis,sweat only on uncovered parts,1.0,1
+iritis,tearing pains in muscles,1.0,1
+iritis,jerking pains in muscles,1.0,1
+iritis,improved by motion,1.0,1
+iritis,paralytic sensation in right arm,1.0,1
+iritis,gouty inflammation of tendo achillis,1.0,1
+iritis,eyes watery,1.0,1
+iritis,cracking when stretching,1.0,1
+iritis,chronic rheumatism of left elbow,1.0,1
+iritis,episclerotitis,1.0,1
+iritis,painful pressure in left side of back,1.0,1
+iritis,pains in heels,1.0,1
+iritis,aching in knee joints,1.0,1
+iritis,sclerotitis,1.0,1
+iritis,gouty pains in fingers,1.0,1
+iritis,cracking in cervical vertebrae,1.0,1
+iritis,aching in every joint of hands,1.0,1
+iritis,gouty pains in finger joints,1.0,1
+iritis,lancinating pain in small of back,1.0,1
+iritis,rheumatic affections of eyes,1.0,1
+iritis,worse in damp weather,1.0,1
+iritis,hydrogenoid constitution,1.0,1
+iritis,tearing pain in toes,1.0,1
+iritis,tearing pain in soles,1.0,1
+rheumatism after suppressed gonorrhea,tearing in left side of back,0.5,1
+rheumatism after suppressed gonorrhea,gouty nodosities,0.5,1
+rheumatism after suppressed gonorrhea,eyes burn,0.5,1
+rheumatism after suppressed gonorrhea,warts,0.5,1
+rheumatism after suppressed gonorrhea,sticking in left side of back,0.5,1
+rheumatism after suppressed gonorrhea,rheumatism after gonorrhea,0.5,1
+rheumatism after suppressed gonorrhea,fig warts,0.5,1
+rheumatism after suppressed gonorrhea,chronic sclerotitis,0.5,1
+rheumatism after suppressed gonorrhea,tearing pain in hands,0.5,1
+rheumatism after suppressed gonorrhea,sycotic conditions,0.5,1
+rheumatism after suppressed gonorrhea,gouty pains in big toe,0.5,1
+rheumatism after suppressed gonorrhea,stinging pain in left elbow,0.5,1
+rheumatism after suppressed gonorrhea,sweat only on uncovered parts,0.5,1
+rheumatism after suppressed gonorrhea,tearing pains in muscles,0.5,1
+rheumatism after suppressed gonorrhea,jerking pains in muscles,0.5,1
+rheumatism after suppressed gonorrhea,improved by motion,0.5,1
+rheumatism after suppressed gonorrhea,paralytic sensation in right arm,0.5,1
+rheumatism after suppressed gonorrhea,gouty inflammation of tendo achillis,0.5,1
+rheumatism after suppressed gonorrhea,eyes watery,0.5,1
+rheumatism after suppressed gonorrhea,cracking when stretching,0.5,1
+rheumatism after suppressed gonorrhea,iritis,0.5,1
+rheumatism after suppressed gonorrhea,chronic rheumatism of left elbow,0.5,1
+rheumatism after suppressed gonorrhea,episclerotitis,0.5,1
+rheumatism after suppressed gonorrhea,painful pressure in left side of back,0.5,1
+rheumatism after suppressed gonorrhea,pains in heels,0.5,1
+rheumatism after suppressed gonorrhea,aching in knee joints,0.5,1
+rheumatism after suppressed gonorrhea,sclerotitis,0.5,1
+rheumatism after suppressed gonorrhea,gouty pains in fingers,0.5,1
+rheumatism after suppressed gonorrhea,cracking in cervical vertebrae,0.5,1
+rheumatism after suppressed gonorrhea,aching in every joint of hands,0.5,1
+rheumatism after suppressed gonorrhea,gouty pains in finger joints,0.5,1
+rheumatism after suppressed gonorrhea,lancinating pain in small of back,0.5,1
+rheumatism after suppressed gonorrhea,rheumatic affections of eyes,0.5,1
+rheumatism after suppressed gonorrhea,worse in damp weather,0.5,1
+rheumatism after suppressed gonorrhea,hydrogenoid constitution,0.5,1
+rheumatism after suppressed gonorrhea,tearing pain in toes,0.5,1
+rheumatism after suppressed gonorrhea,tearing pain in soles,0.5,1
+sclerotitis,tearing in left side of back,1.0,1
+sclerotitis,gouty nodosities,1.0,1
+sclerotitis,eyes burn,1.0,1
+sclerotitis,warts,1.0,1
+sclerotitis,sticking in left side of back,1.0,1
+sclerotitis,rheumatism after gonorrhea,1.0,1
+sclerotitis,fig warts,1.0,1
+sclerotitis,chronic sclerotitis,1.0,1
+sclerotitis,rheumatism after suppressed gonorrhea,1.0,1
+sclerotitis,tearing pain in hands,1.0,1
+sclerotitis,sycotic conditions,1.0,1
+sclerotitis,gouty pains in big toe,1.0,1
+sclerotitis,stinging pain in left elbow,1.0,1
+sclerotitis,sweat only on uncovered parts,1.0,1
+sclerotitis,tearing pains in muscles,1.0,1
+sclerotitis,jerking pains in muscles,1.0,1
+sclerotitis,improved by motion,1.0,1
+sclerotitis,paralytic sensation in right arm,1.0,1
+sclerotitis,gouty inflammation of tendo achillis,1.0,1
+sclerotitis,eyes watery,1.0,1
+sclerotitis,cracking when stretching,1.0,1
+sclerotitis,iritis,1.0,1
+sclerotitis,chronic rheumatism of left elbow,1.0,1
+sclerotitis,episclerotitis,1.0,1
+sclerotitis,painful pressure in left side of back,1.0,1
+sclerotitis,pains in heels,1.0,1
+sclerotitis,aching in knee joints,1.0,1
+sclerotitis,gouty pains in fingers,1.0,1
+sclerotitis,cracking in cervical vertebrae,1.0,1
+sclerotitis,aching in every joint of hands,1.0,1
+sclerotitis,gouty pains in finger joints,1.0,1
+sclerotitis,lancinating pain in small of back,1.0,1
+sclerotitis,rheumatic affections of eyes,1.0,1
+sclerotitis,worse in damp weather,1.0,1
+sclerotitis,hydrogenoid constitution,1.0,1
+sclerotitis,tearing pain in toes,1.0,1
+sclerotitis,tearing pain in soles,1.0,1
+hydrogenoid constitution,tearing in left side of back,1.0,1
+hydrogenoid constitution,gouty nodosities,1.0,1
+hydrogenoid constitution,eyes burn,1.0,1
+hydrogenoid constitution,warts,1.0,1
+hydrogenoid constitution,sticking in left side of back,1.0,1
+hydrogenoid constitution,rheumatism after gonorrhea,1.0,1
+hydrogenoid constitution,fig warts,1.0,1
+hydrogenoid constitution,chronic sclerotitis,1.0,1
+hydrogenoid constitution,rheumatism after suppressed gonorrhea,1.0,1
+hydrogenoid constitution,tearing pain in hands,1.0,1
+hydrogenoid constitution,sycotic conditions,1.0,1
+hydrogenoid constitution,gouty pains in big toe,1.0,1
+hydrogenoid constitution,stinging pain in left elbow,1.0,1
+hydrogenoid constitution,sweat only on uncovered parts,1.0,1
+hydrogenoid constitution,tearing pains in muscles,1.0,1
+hydrogenoid constitution,jerking pains in muscles,1.0,1
+hydrogenoid constitution,improved by motion,1.0,1
+hydrogenoid constitution,paralytic sensation in right arm,1.0,1
+hydrogenoid constitution,gouty inflammation of tendo achillis,1.0,1
+hydrogenoid constitution,eyes watery,1.0,1
+hydrogenoid constitution,cracking when stretching,1.0,1
+hydrogenoid constitution,iritis,1.0,1
+hydrogenoid constitution,chronic rheumatism of left elbow,1.0,1
+hydrogenoid constitution,episclerotitis,1.0,1
+hydrogenoid constitution,painful pressure in left side of back,1.0,1
+hydrogenoid constitution,pains in heels,1.0,1
+hydrogenoid constitution,aching in knee joints,1.0,1
+hydrogenoid constitution,sclerotitis,1.0,1
+hydrogenoid constitution,gouty pains in fingers,1.0,1
+hydrogenoid constitution,cracking in cervical vertebrae,1.0,1
+hydrogenoid constitution,aching in every joint of hands,1.0,1
+hydrogenoid constitution,gouty pains in finger joints,1.0,1
+hydrogenoid constitution,lancinating pain in small of back,1.0,1
+hydrogenoid constitution,rheumatic affections of eyes,1.0,1
+hydrogenoid constitution,worse in damp weather,1.0,1
+hydrogenoid constitution,tearing pain in toes,1.0,1
+hydrogenoid constitution,tearing pain in soles,1.0,1
+stinging pain in left elbow,tearing in left side of back,1.0,1
+stinging pain in left elbow,gouty nodosities,1.0,1
+stinging pain in left elbow,eyes burn,1.0,1
+stinging pain in left elbow,warts,1.0,1
+stinging pain in left elbow,sticking in left side of back,1.0,1
+stinging pain in left elbow,rheumatism after gonorrhea,1.0,1
+stinging pain in left elbow,fig warts,1.0,1
+stinging pain in left elbow,chronic sclerotitis,1.0,1
+stinging pain in left elbow,rheumatism after suppressed gonorrhea,1.0,1
+stinging pain in left elbow,tearing pain in hands,1.0,1
+stinging pain in left elbow,sycotic conditions,1.0,1
+stinging pain in left elbow,gouty pains in big toe,1.0,1
+stinging pain in left elbow,sweat only on uncovered parts,1.0,1
+stinging pain in left elbow,tearing pains in muscles,1.0,1
+stinging pain in left elbow,jerking pains in muscles,1.0,1
+stinging pain in left elbow,improved by motion,1.0,1
+stinging pain in left elbow,paralytic sensation in right arm,1.0,1
+stinging pain in left elbow,gouty inflammation of tendo achillis,1.0,1
+stinging pain in left elbow,eyes watery,1.0,1
+stinging pain in left elbow,cracking when stretching,1.0,1
+stinging pain in left elbow,iritis,1.0,1
+stinging pain in left elbow,chronic rheumatism of left elbow,1.0,1
+stinging pain in left elbow,episclerotitis,1.0,1
+stinging pain in left elbow,painful pressure in left side of back,1.0,1
+stinging pain in left elbow,pains in heels,1.0,1
+stinging pain in left elbow,aching in knee joints,1.0,1
+stinging pain in left elbow,sclerotitis,1.0,1
+stinging pain in left elbow,gouty pains in fingers,1.0,1
+stinging pain in left elbow,cracking in cervical vertebrae,1.0,1
+stinging pain in left elbow,aching in every joint of hands,1.0,1
+stinging pain in left elbow,gouty pains in finger joints,1.0,1
+stinging pain in left elbow,lancinating pain in small of back,1.0,1
+stinging pain in left elbow,rheumatic affections of eyes,1.0,1
+stinging pain in left elbow,worse in damp weather,1.0,1
+stinging pain in left elbow,hydrogenoid constitution,1.0,1
+stinging pain in left elbow,tearing pain in toes,1.0,1
+stinging pain in left elbow,tearing pain in soles,1.0,1
+sticking in left side of back,tearing in left side of back,1.0,1
+sticking in left side of back,gouty nodosities,1.0,1
+sticking in left side of back,eyes burn,1.0,1
+sticking in left side of back,warts,1.0,1
+sticking in left side of back,rheumatism after gonorrhea,1.0,1
+sticking in left side of back,fig warts,1.0,1
+sticking in left side of back,chronic sclerotitis,1.0,1
+sticking in left side of back,rheumatism after suppressed gonorrhea,1.0,1
+sticking in left side of back,tearing pain in hands,1.0,1
+sticking in left side of back,sycotic conditions,1.0,1
+sticking in left side of back,gouty pains in big toe,1.0,1
+sticking in left side of back,stinging pain in left elbow,1.0,1
+sticking in left side of back,sweat only on uncovered parts,1.0,1
+sticking in left side of back,tearing pains in muscles,1.0,1
+sticking in left side of back,jerking pains in muscles,1.0,1
+sticking in left side of back,improved by motion,1.0,1
+sticking in left side of back,paralytic sensation in right arm,1.0,1
+sticking in left side of back,gouty inflammation of tendo achillis,1.0,1
+sticking in left side of back,eyes watery,1.0,1
+sticking in left side of back,cracking when stretching,1.0,1
+sticking in left side of back,iritis,1.0,1
+sticking in left side of back,chronic rheumatism of left elbow,1.0,1
+sticking in left side of back,episclerotitis,1.0,1
+sticking in left side of back,painful pressure in left side of back,1.0,1
+sticking in left side of back,pains in heels,1.0,1
+sticking in left side of back,aching in knee joints,1.0,1
+sticking in left side of back,sclerotitis,1.0,1
+sticking in left side of back,gouty pains in fingers,1.0,1
+sticking in left side of back,cracking in cervical vertebrae,1.0,1
+sticking in left side of back,aching in every joint of hands,1.0,1
+sticking in left side of back,gouty pains in finger joints,1.0,1
+sticking in left side of back,lancinating pain in small of back,1.0,1
+sticking in left side of back,rheumatic affections of eyes,1.0,1
+sticking in left side of back,worse in damp weather,1.0,1
+sticking in left side of back,hydrogenoid constitution,1.0,1
+sticking in left side of back,tearing pain in toes,1.0,1
+sticking in left side of back,tearing pain in soles,1.0,1
+warts,tearing in left side of back,1.0,1
+warts,gouty nodosities,1.0,1
+warts,eyes burn,1.0,1
+warts,sticking in left side of back,1.0,1
+warts,rheumatism after gonorrhea,1.0,1
+warts,fig warts,1.0,1
+warts,chronic sclerotitis,1.0,1
+warts,rheumatism after suppressed gonorrhea,1.0,1
+warts,tearing pain in hands,1.0,1
+warts,sycotic conditions,1.0,1
+warts,gouty pains in big toe,1.0,1
+warts,stinging pain in left elbow,1.0,1
+warts,sweat only on uncovered parts,1.0,1
+warts,tearing pains in muscles,1.0,1
+warts,jerking pains in muscles,1.0,1
+warts,improved by motion,1.0,1
+warts,paralytic sensation in right arm,1.0,1
+warts,gouty inflammation of tendo achillis,1.0,1
+warts,eyes watery,1.0,1
+warts,cracking when stretching,1.0,1
+warts,iritis,1.0,1
+warts,chronic rheumatism of left elbow,1.0,1
+warts,episclerotitis,1.0,1
+warts,painful pressure in left side of back,1.0,1
+warts,pains in heels,1.0,1
+warts,aching in knee joints,1.0,1
+warts,sclerotitis,1.0,1
+warts,gouty pains in fingers,1.0,1
+warts,cracking in cervical vertebrae,1.0,1
+warts,aching in every joint of hands,1.0,1
+warts,gouty pains in finger joints,1.0,1
+warts,lancinating pain in small of back,1.0,1
+warts,rheumatic affections of eyes,1.0,1
+warts,worse in damp weather,1.0,1
+warts,hydrogenoid constitution,1.0,1
+warts,tearing pain in toes,1.0,1
+warts,tearing pain in soles,1.0,1
+aching in knee joints,tearing in left side of back,1.0,1
+aching in knee joints,gouty nodosities,1.0,1
+aching in knee joints,eyes burn,1.0,1
+aching in knee joints,warts,1.0,1
+aching in knee joints,sticking in left side of back,1.0,1
+aching in knee joints,rheumatism after gonorrhea,1.0,1
+aching in knee joints,fig warts,1.0,1
+aching in knee joints,chronic sclerotitis,1.0,1
+aching in knee joints,rheumatism after suppressed gonorrhea,1.0,1
+aching in knee joints,tearing pain in hands,1.0,1
+aching in knee joints,sycotic conditions,1.0,1
+aching in knee joints,gouty pains in big toe,1.0,1
+aching in knee joints,stinging pain in left elbow,1.0,1
+aching in knee joints,sweat only on uncovered parts,1.0,1
+aching in knee joints,tearing pains in muscles,1.0,1
+aching in knee joints,jerking pains in muscles,1.0,1
+aching in knee joints,improved by motion,1.0,1
+aching in knee joints,paralytic sensation in right arm,1.0,1
+aching in knee joints,gouty inflammation of tendo achillis,1.0,1
+aching in knee joints,eyes watery,1.0,1
+aching in knee joints,cracking when stretching,1.0,1
+aching in knee joints,iritis,1.0,1
+aching in knee joints,chronic rheumatism of left elbow,1.0,1
+aching in knee joints,episclerotitis,1.0,1
+aching in knee joints,painful pressure in left side of back,1.0,1
+aching in knee joints,pains in heels,1.0,1
+aching in knee joints,sclerotitis,1.0,1
+aching in knee joints,gouty pains in fingers,1.0,1
+aching in knee joints,cracking in cervical vertebrae,1.0,1
+aching in knee joints,aching in every joint of hands,1.0,1
+aching in knee joints,gouty pains in finger joints,1.0,1
+aching in knee joints,lancinating pain in small of back,1.0,1
+aching in knee joints,rheumatic affections of eyes,1.0,1
+aching in knee joints,worse in damp weather,1.0,1
+aching in knee joints,hydrogenoid constitution,1.0,1
+aching in knee joints,tearing pain in toes,1.0,1
+aching in knee joints,tearing pain in soles,1.0,1
+paralytic sensation in right arm,tearing in left side of back,1.0,1
+paralytic sensation in right arm,gouty nodosities,1.0,1
+paralytic sensation in right arm,eyes burn,1.0,1
+paralytic sensation in right arm,warts,1.0,1
+paralytic sensation in right arm,sticking in left side of back,1.0,1
+paralytic sensation in right arm,rheumatism after gonorrhea,1.0,1
+paralytic sensation in right arm,fig warts,1.0,1
+paralytic sensation in right arm,chronic sclerotitis,1.0,1
+paralytic sensation in right arm,rheumatism after suppressed gonorrhea,1.0,1
+paralytic sensation in right arm,tearing pain in hands,1.0,1
+paralytic sensation in right arm,sycotic conditions,1.0,1
+paralytic sensation in right arm,gouty pains in big toe,1.0,1
+paralytic sensation in right arm,stinging pain in left elbow,1.0,1
+paralytic sensation in right arm,sweat only on uncovered parts,1.0,1
+paralytic sensation in right arm,tearing pains in muscles,1.0,1
+paralytic sensation in right arm,jerking pains in muscles,1.0,1
+paralytic sensation in right arm,improved by motion,1.0,1
+paralytic sensation in right arm,gouty inflammation of tendo achillis,1.0,1
+paralytic sensation in right arm,eyes watery,1.0,1
+paralytic sensation in right arm,cracking when stretching,1.0,1
+paralytic sensation in right arm,iritis,1.0,1
+paralytic sensation in right arm,chronic rheumatism of left elbow,1.0,1
+paralytic sensation in right arm,episclerotitis,1.0,1
+paralytic sensation in right arm,painful pressure in left side of back,1.0,1
+paralytic sensation in right arm,pains in heels,1.0,1
+paralytic sensation in right arm,aching in knee joints,1.0,1
+paralytic sensation in right arm,sclerotitis,1.0,1
+paralytic sensation in right arm,gouty pains in fingers,1.0,1
+paralytic sensation in right arm,cracking in cervical vertebrae,1.0,1
+paralytic sensation in right arm,aching in every joint of hands,1.0,1
+paralytic sensation in right arm,gouty pains in finger joints,1.0,1
+paralytic sensation in right arm,lancinating pain in small of back,1.0,1
+paralytic sensation in right arm,rheumatic affections of eyes,1.0,1
+paralytic sensation in right arm,worse in damp weather,1.0,1
+paralytic sensation in right arm,hydrogenoid constitution,1.0,1
+paralytic sensation in right arm,tearing pain in toes,1.0,1
+paralytic sensation in right arm,tearing pain in soles,1.0,1
+rheumatic affections of eyes,tearing in left side of back,1.0,1
+rheumatic affections of eyes,gouty nodosities,1.0,1
+rheumatic affections of eyes,eyes burn,1.0,1
+rheumatic affections of eyes,warts,1.0,1
+rheumatic affections of eyes,sticking in left side of back,1.0,1
+rheumatic affections of eyes,rheumatism after gonorrhea,1.0,1
+rheumatic affections of eyes,fig warts,1.0,1
+rheumatic affections of eyes,chronic sclerotitis,1.0,1
+rheumatic affections of eyes,rheumatism after suppressed gonorrhea,1.0,1
+rheumatic affections of eyes,tearing pain in hands,1.0,1
+rheumatic affections of eyes,sycotic conditions,1.0,1
+rheumatic affections of eyes,gouty pains in big toe,1.0,1
+rheumatic affections of eyes,stinging pain in left elbow,1.0,1
+rheumatic affections of eyes,sweat only on uncovered parts,1.0,1
+rheumatic affections of eyes,tearing pains in muscles,1.0,1
+rheumatic affections of eyes,jerking pains in muscles,1.0,1
+rheumatic affections of eyes,improved by motion,1.0,1
+rheumatic affections of eyes,paralytic sensation in right arm,1.0,1
+rheumatic affections of eyes,gouty inflammation of tendo achillis,1.0,1
+rheumatic affections of eyes,eyes watery,1.0,1
+rheumatic affections of eyes,cracking when stretching,1.0,1
+rheumatic affections of eyes,iritis,1.0,1
+rheumatic affections of eyes,chronic rheumatism of left elbow,1.0,1
+rheumatic affections of eyes,episclerotitis,1.0,1
+rheumatic affections of eyes,painful pressure in left side of back,1.0,1
+rheumatic affections of eyes,pains in heels,1.0,1
+rheumatic affections of eyes,aching in knee joints,1.0,1
+rheumatic affections of eyes,sclerotitis,1.0,1
+rheumatic affections of eyes,gouty pains in fingers,1.0,1
+rheumatic affections of eyes,cracking in cervical vertebrae,1.0,1
+rheumatic affections of eyes,aching in every joint of hands,1.0,1
+rheumatic affections of eyes,gouty pains in finger joints,1.0,1
+rheumatic affections of eyes,lancinating pain in small of back,1.0,1
+rheumatic affections of eyes,worse in damp weather,1.0,1
+rheumatic affections of eyes,hydrogenoid constitution,1.0,1
+rheumatic affections of eyes,tearing pain in toes,1.0,1
+rheumatic affections of eyes,tearing pain in soles,1.0,1
+pains in heels,tearing in left side of back,1.0,1
+pains in heels,gouty nodosities,1.0,1
+pains in heels,eyes burn,1.0,1
+pains in heels,warts,1.0,1
+pains in heels,sticking in left side of back,1.0,1
+pains in heels,rheumatism after gonorrhea,1.0,1
+pains in heels,fig warts,1.0,1
+pains in heels,chronic sclerotitis,1.0,1
+pains in heels,rheumatism after suppressed gonorrhea,1.0,1
+pains in heels,tearing pain in hands,1.0,1
+pains in heels,sycotic conditions,1.0,1
+pains in heels,gouty pains in big toe,1.0,1
+pains in heels,stinging pain in left elbow,1.0,1
+pains in heels,sweat only on uncovered parts,1.0,1
+pains in heels,tearing pains in muscles,1.0,1
+pains in heels,jerking pains in muscles,1.0,1
+pains in heels,improved by motion,1.0,1
+pains in heels,paralytic sensation in right arm,1.0,1
+pains in heels,gouty inflammation of tendo achillis,1.0,1
+pains in heels,eyes watery,1.0,1
+pains in heels,cracking when stretching,1.0,1
+pains in heels,iritis,1.0,1
+pains in heels,chronic rheumatism of left elbow,1.0,1
+pains in heels,episclerotitis,1.0,1
+pains in heels,painful pressure in left side of back,1.0,1
+pains in heels,aching in knee joints,1.0,1
+pains in heels,sclerotitis,1.0,1
+pains in heels,gouty pains in fingers,1.0,1
+pains in heels,cracking in cervical vertebrae,1.0,1
+pains in heels,aching in every joint of hands,1.0,1
+pains in heels,gouty pains in finger joints,1.0,1
+pains in heels,lancinating pain in small of back,1.0,1
+pains in heels,rheumatic affections of eyes,1.0,1
+pains in heels,worse in damp weather,1.0,1
+pains in heels,hydrogenoid constitution,1.0,1
+pains in heels,tearing pain in toes,1.0,1
+pains in heels,tearing pain in soles,1.0,1
+cracking in cervical vertebrae,tearing in left side of back,1.0,1
+cracking in cervical vertebrae,gouty nodosities,1.0,1
+cracking in cervical vertebrae,eyes burn,1.0,1
+cracking in cervical vertebrae,warts,1.0,1
+cracking in cervical vertebrae,sticking in left side of back,1.0,1
+cracking in cervical vertebrae,rheumatism after gonorrhea,1.0,1
+cracking in cervical vertebrae,fig warts,1.0,1
+cracking in cervical vertebrae,chronic sclerotitis,1.0,1
+cracking in cervical vertebrae,rheumatism after suppressed gonorrhea,1.0,1
+cracking in cervical vertebrae,tearing pain in hands,1.0,1
+cracking in cervical vertebrae,sycotic conditions,1.0,1
+cracking in cervical vertebrae,gouty pains in big toe,1.0,1
+cracking in cervical vertebrae,stinging pain in left elbow,1.0,1
+cracking in cervical vertebrae,sweat only on uncovered parts,1.0,1
+cracking in cervical vertebrae,tearing pains in muscles,1.0,1
+cracking in cervical vertebrae,jerking pains in muscles,1.0,1
+cracking in cervical vertebrae,improved by motion,1.0,1
+cracking in cervical vertebrae,paralytic sensation in right arm,1.0,1
+cracking in cervical vertebrae,gouty inflammation of tendo achillis,1.0,1
+cracking in cervical vertebrae,eyes watery,1.0,1
+cracking in cervical vertebrae,cracking when stretching,1.0,1
+cracking in cervical vertebrae,iritis,1.0,1
+cracking in cervical vertebrae,chronic rheumatism of left elbow,1.0,1
+cracking in cervical vertebrae,episclerotitis,1.0,1
+cracking in cervical vertebrae,painful pressure in left side of back,1.0,1
+cracking in cervical vertebrae,pains in heels,1.0,1
+cracking in cervical vertebrae,aching in knee joints,1.0,1
+cracking in cervical vertebrae,sclerotitis,1.0,1
+cracking in cervical vertebrae,gouty pains in fingers,1.0,1
+cracking in cervical vertebrae,aching in every joint of hands,1.0,1
+cracking in cervical vertebrae,gouty pains in finger joints,1.0,1
+cracking in cervical vertebrae,lancinating pain in small of back,1.0,1
+cracking in cervical vertebrae,rheumatic affections of eyes,1.0,1
+cracking in cervical vertebrae,worse in damp weather,1.0,1
+cracking in cervical vertebrae,hydrogenoid constitution,1.0,1
+cracking in cervical vertebrae,tearing pain in toes,1.0,1
+cracking in cervical vertebrae,tearing pain in soles,1.0,1
+sweat only on uncovered parts,tearing in left side of back,1.0,1
+sweat only on uncovered parts,gouty nodosities,1.0,1
+sweat only on uncovered parts,eyes burn,1.0,1
+sweat only on uncovered parts,warts,1.0,1
+sweat only on uncovered parts,sticking in left side of back,1.0,1
+sweat only on uncovered parts,rheumatism after gonorrhea,1.0,1
+sweat only on uncovered parts,fig warts,1.0,1
+sweat only on uncovered parts,chronic sclerotitis,1.0,1
+sweat only on uncovered parts,rheumatism after suppressed gonorrhea,1.0,1
+sweat only on uncovered parts,tearing pain in hands,1.0,1
+sweat only on uncovered parts,sycotic conditions,1.0,1
+sweat only on uncovered parts,gouty pains in big toe,1.0,1
+sweat only on uncovered parts,stinging pain in left elbow,1.0,1
+sweat only on uncovered parts,tearing pains in muscles,1.0,1
+sweat only on uncovered parts,jerking pains in muscles,1.0,1
+sweat only on uncovered parts,improved by motion,1.0,1
+sweat only on uncovered parts,paralytic sensation in right arm,1.0,1
+sweat only on uncovered parts,gouty inflammation of tendo achillis,1.0,1
+sweat only on uncovered parts,eyes watery,1.0,1
+sweat only on uncovered parts,cracking when stretching,1.0,1
+sweat only on uncovered parts,iritis,1.0,1
+sweat only on uncovered parts,chronic rheumatism of left elbow,1.0,1
+sweat only on uncovered parts,episclerotitis,1.0,1
+sweat only on uncovered parts,painful pressure in left side of back,1.0,1
+sweat only on uncovered parts,pains in heels,1.0,1
+sweat only on uncovered parts,aching in knee joints,1.0,1
+sweat only on uncovered parts,sclerotitis,1.0,1
+sweat only on uncovered parts,gouty pains in fingers,1.0,1
+sweat only on uncovered parts,cracking in cervical vertebrae,1.0,1
+sweat only on uncovered parts,aching in every joint of hands,1.0,1
+sweat only on uncovered parts,gouty pains in finger joints,1.0,1
+sweat only on uncovered parts,lancinating pain in small of back,1.0,1
+sweat only on uncovered parts,rheumatic affections of eyes,1.0,1
+sweat only on uncovered parts,worse in damp weather,1.0,1
+sweat only on uncovered parts,hydrogenoid constitution,1.0,1
+sweat only on uncovered parts,tearing pain in toes,1.0,1
+sweat only on uncovered parts,tearing pain in soles,1.0,1
+chronic sclerotitis,tearing in left side of back,1.0,1
+chronic sclerotitis,gouty nodosities,1.0,1
+chronic sclerotitis,eyes burn,1.0,1
+chronic sclerotitis,warts,1.0,1
+chronic sclerotitis,sticking in left side of back,1.0,1
+chronic sclerotitis,rheumatism after gonorrhea,1.0,1
+chronic sclerotitis,fig warts,1.0,1
+chronic sclerotitis,rheumatism after suppressed gonorrhea,1.0,1
+chronic sclerotitis,tearing pain in hands,1.0,1
+chronic sclerotitis,sycotic conditions,1.0,1
+chronic sclerotitis,gouty pains in big toe,1.0,1
+chronic sclerotitis,stinging pain in left elbow,1.0,1
+chronic sclerotitis,sweat only on uncovered parts,1.0,1
+chronic sclerotitis,tearing pains in muscles,1.0,1
+chronic sclerotitis,jerking pains in muscles,1.0,1
+chronic sclerotitis,improved by motion,1.0,1
+chronic sclerotitis,paralytic sensation in right arm,1.0,1
+chronic sclerotitis,gouty inflammation of tendo achillis,1.0,1
+chronic sclerotitis,eyes watery,1.0,1
+chronic sclerotitis,cracking when stretching,1.0,1
+chronic sclerotitis,iritis,1.0,1
+chronic sclerotitis,chronic rheumatism of left elbow,1.0,1
+chronic sclerotitis,episclerotitis,1.0,1
+chronic sclerotitis,painful pressure in left side of back,1.0,1
+chronic sclerotitis,pains in heels,1.0,1
+chronic sclerotitis,aching in knee joints,1.0,1
+chronic sclerotitis,sclerotitis,1.0,1
+chronic sclerotitis,gouty pains in fingers,1.0,1
+chronic sclerotitis,cracking in cervical vertebrae,1.0,1
+chronic sclerotitis,aching in every joint of hands,1.0,1
+chronic sclerotitis,gouty pains in finger joints,1.0,1
+chronic sclerotitis,lancinating pain in small of back,1.0,1
+chronic sclerotitis,rheumatic affections of eyes,1.0,1
+chronic sclerotitis,worse in damp weather,1.0,1
+chronic sclerotitis,hydrogenoid constitution,1.0,1
+chronic sclerotitis,tearing pain in toes,1.0,1
+chronic sclerotitis,tearing pain in soles,1.0,1
+tearing pain in toes,tearing in left side of back,1.0,1
+tearing pain in toes,gouty nodosities,1.0,1
+tearing pain in toes,eyes burn,1.0,1
+tearing pain in toes,warts,1.0,1
+tearing pain in toes,sticking in left side of back,1.0,1
+tearing pain in toes,rheumatism after gonorrhea,1.0,1
+tearing pain in toes,fig warts,1.0,1
+tearing pain in toes,chronic sclerotitis,1.0,1
+tearing pain in toes,rheumatism after suppressed gonorrhea,1.0,1
+tearing pain in toes,tearing pain in hands,1.0,1
+tearing pain in toes,sycotic conditions,1.0,1
+tearing pain in toes,gouty pains in big toe,1.0,1
+tearing pain in toes,stinging pain in left elbow,1.0,1
+tearing pain in toes,sweat only on uncovered parts,1.0,1
+tearing pain in toes,tearing pains in muscles,1.0,1
+tearing pain in toes,jerking pains in muscles,1.0,1
+tearing pain in toes,improved by motion,1.0,1
+tearing pain in toes,paralytic sensation in right arm,1.0,1
+tearing pain in toes,gouty inflammation of tendo achillis,1.0,1
+tearing pain in toes,eyes watery,1.0,1
+tearing pain in toes,cracking when stretching,1.0,1
+tearing pain in toes,iritis,1.0,1
+tearing pain in toes,chronic rheumatism of left elbow,1.0,1
+tearing pain in toes,episclerotitis,1.0,1
+tearing pain in toes,painful pressure in left side of back,1.0,1
+tearing pain in toes,pains in heels,1.0,1
+tearing pain in toes,aching in knee joints,1.0,1
+tearing pain in toes,sclerotitis,1.0,1
+tearing pain in toes,gouty pains in fingers,1.0,1
+tearing pain in toes,cracking in cervical vertebrae,1.0,1
+tearing pain in toes,aching in every joint of hands,1.0,1
+tearing pain in toes,gouty pains in finger joints,1.0,1
+tearing pain in toes,lancinating pain in small of back,1.0,1
+tearing pain in toes,rheumatic affections of eyes,1.0,1
+tearing pain in toes,worse in damp weather,1.0,1
+tearing pain in toes,hydrogenoid constitution,1.0,1
+tearing pain in toes,tearing pain in soles,1.0,1
+gouty inflammation of tendo achillis,tearing in left side of back,1.0,1
+gouty inflammation of tendo achillis,gouty nodosities,1.0,1
+gouty inflammation of tendo achillis,eyes burn,1.0,1
+gouty inflammation of tendo achillis,warts,1.0,1
+gouty inflammation of tendo achillis,sticking in left side of back,1.0,1
+gouty inflammation of tendo achillis,rheumatism after gonorrhea,1.0,1
+gouty inflammation of tendo achillis,fig warts,1.0,1
+gouty inflammation of tendo achillis,chronic sclerotitis,1.0,1
+gouty inflammation of tendo achillis,rheumatism after suppressed gonorrhea,1.0,1
+gouty inflammation of tendo achillis,tearing pain in hands,1.0,1
+gouty inflammation of tendo achillis,sycotic conditions,1.0,1
+gouty inflammation of tendo achillis,gouty pains in big toe,1.0,1
+gouty inflammation of tendo achillis,stinging pain in left elbow,1.0,1
+gouty inflammation of tendo achillis,sweat only on uncovered parts,1.0,1
+gouty inflammation of tendo achillis,tearing pains in muscles,1.0,1
+gouty inflammation of tendo achillis,jerking pains in muscles,1.0,1
+gouty inflammation of tendo achillis,improved by motion,1.0,1
+gouty inflammation of tendo achillis,paralytic sensation in right arm,1.0,1
+gouty inflammation of tendo achillis,eyes watery,1.0,1
+gouty inflammation of tendo achillis,cracking when stretching,1.0,1
+gouty inflammation of tendo achillis,iritis,1.0,1
+gouty inflammation of tendo achillis,chronic rheumatism of left elbow,1.0,1
+gouty inflammation of tendo achillis,episclerotitis,1.0,1
+gouty inflammation of tendo achillis,painful pressure in left side of back,1.0,1
+gouty inflammation of tendo achillis,pains in heels,1.0,1
+gouty inflammation of tendo achillis,aching in knee joints,1.0,1
+gouty inflammation of tendo achillis,sclerotitis,1.0,1
+gouty inflammation of tendo achillis,gouty pains in fingers,1.0,1
+gouty inflammation of tendo achillis,cracking in cervical vertebrae,1.0,1
+gouty inflammation of tendo achillis,aching in every joint of hands,1.0,1
+gouty inflammation of tendo achillis,gouty pains in finger joints,1.0,1
+gouty inflammation of tendo achillis,lancinating pain in small of back,1.0,1
+gouty inflammation of tendo achillis,rheumatic affections of eyes,1.0,1
+gouty inflammation of tendo achillis,worse in damp weather,1.0,1
+gouty inflammation of tendo achillis,hydrogenoid constitution,1.0,1
+gouty inflammation of tendo achillis,tearing pain in toes,1.0,1
+gouty inflammation of tendo achillis,tearing pain in soles,1.0,1
+painful pressure in left side of back,tearing in left side of back,1.0,1
+painful pressure in left side of back,gouty nodosities,1.0,1
+painful pressure in left side of back,eyes burn,1.0,1
+painful pressure in left side of back,warts,1.0,1
+painful pressure in left side of back,sticking in left side of back,1.0,1
+painful pressure in left side of back,rheumatism after gonorrhea,1.0,1
+painful pressure in left side of back,fig warts,1.0,1
+painful pressure in left side of back,chronic sclerotitis,1.0,1
+painful pressure in left side of back,rheumatism after suppressed gonorrhea,1.0,1
+painful pressure in left side of back,tearing pain in hands,1.0,1
+painful pressure in left side of back,sycotic conditions,1.0,1
+painful pressure in left side of back,gouty pains in big toe,1.0,1
+painful pressure in left side of back,stinging pain in left elbow,1.0,1
+painful pressure in left side of back,sweat only on uncovered parts,1.0,1
+painful pressure in left side of back,tearing pains in muscles,1.0,1
+painful pressure in left side of back,jerking pains in muscles,1.0,1
+painful pressure in left side of back,improved by motion,1.0,1
+painful pressure in left side of back,paralytic sensation in right arm,1.0,1
+painful pressure in left side of back,gouty inflammation of tendo achillis,1.0,1
+painful pressure in left side of back,eyes watery,1.0,1
+painful pressure in left side of back,cracking when stretching,1.0,1
+painful pressure in left side of back,iritis,1.0,1
+painful pressure in left side of back,chronic rheumatism of left elbow,1.0,1
+painful pressure in left side of back,episclerotitis,1.0,1
+painful pressure in left side of back,pains in heels,1.0,1
+painful pressure in left side of back,aching in knee joints,1.0,1
+painful pressure in left side of back,sclerotitis,1.0,1
+painful pressure in left side of back,gouty pains in fingers,1.0,1
+painful pressure in left side of back,cracking in cervical vertebrae,1.0,1
+painful pressure in left side of back,aching in every joint of hands,1.0,1
+painful pressure in left side of back,gouty pains in finger joints,1.0,1
+painful pressure in left side of back,lancinating pain in small of back,1.0,1
+painful pressure in left side of back,rheumatic affections of eyes,1.0,1
+painful pressure in left side of back,worse in damp weather,1.0,1
+painful pressure in left side of back,hydrogenoid constitution,1.0,1
+painful pressure in left side of back,tearing pain in toes,1.0,1
+painful pressure in left side of back,tearing pain in soles,1.0,1
+sycotic conditions,tearing in left side of back,1.0,1
+sycotic conditions,gouty nodosities,1.0,1
+sycotic conditions,eyes burn,1.0,1
+sycotic conditions,warts,1.0,1
+sycotic conditions,sticking in left side of back,1.0,1
+sycotic conditions,rheumatism after gonorrhea,1.0,1
+sycotic conditions,fig warts,1.0,1
+sycotic conditions,chronic sclerotitis,1.0,1
+sycotic conditions,rheumatism after suppressed gonorrhea,1.0,1
+sycotic conditions,tearing pain in hands,1.0,1
+sycotic conditions,gouty pains in big toe,1.0,1
+sycotic conditions,stinging pain in left elbow,1.0,1
+sycotic conditions,sweat only on uncovered parts,1.0,1
+sycotic conditions,tearing pains in muscles,1.0,1
+sycotic conditions,jerking pains in muscles,1.0,1
+sycotic conditions,improved by motion,1.0,1
+sycotic conditions,paralytic sensation in right arm,1.0,1
+sycotic conditions,gouty inflammation of tendo achillis,1.0,1
+sycotic conditions,eyes watery,1.0,1
+sycotic conditions,cracking when stretching,1.0,1
+sycotic conditions,iritis,1.0,1
+sycotic conditions,chronic rheumatism of left elbow,1.0,1
+sycotic conditions,episclerotitis,1.0,1
+sycotic conditions,painful pressure in left side of back,1.0,1
+sycotic conditions,pains in heels,1.0,1
+sycotic conditions,aching in knee joints,1.0,1
+sycotic conditions,sclerotitis,1.0,1
+sycotic conditions,gouty pains in fingers,1.0,1
+sycotic conditions,cracking in cervical vertebrae,1.0,1
+sycotic conditions,aching in every joint of hands,1.0,1
+sycotic conditions,gouty pains in finger joints,1.0,1
+sycotic conditions,lancinating pain in small of back,1.0,1
+sycotic conditions,rheumatic affections of eyes,1.0,1
+sycotic conditions,worse in damp weather,1.0,1
+sycotic conditions,hydrogenoid constitution,1.0,1
+sycotic conditions,tearing pain in toes,1.0,1
+sycotic conditions,tearing pain in soles,1.0,1
+chronic rheumatism of left elbow,tearing in left side of back,1.0,1
+chronic rheumatism of left elbow,gouty nodosities,1.0,1
+chronic rheumatism of left elbow,eyes burn,1.0,1
+chronic rheumatism of left elbow,warts,1.0,1
+chronic rheumatism of left elbow,sticking in left side of back,1.0,1
+chronic rheumatism of left elbow,rheumatism after gonorrhea,1.0,1
+chronic rheumatism of left elbow,fig warts,1.0,1
+chronic rheumatism of left elbow,chronic sclerotitis,1.0,1
+chronic rheumatism of left elbow,rheumatism after suppressed gonorrhea,1.0,1
+chronic rheumatism of left elbow,tearing pain in hands,1.0,1
+chronic rheumatism of left elbow,sycotic conditions,1.0,1
+chronic rheumatism of left elbow,gouty pains in big toe,1.0,1
+chronic rheumatism of left elbow,stinging pain in left elbow,1.0,1
+chronic rheumatism of left elbow,sweat only on uncovered parts,1.0,1
+chronic rheumatism of left elbow,tearing pains in muscles,1.0,1
+chronic rheumatism of left elbow,jerking pains in muscles,1.0,1
+chronic rheumatism of left elbow,improved by motion,1.0,1
+chronic rheumatism of left elbow,paralytic sensation in right arm,1.0,1
+chronic rheumatism of left elbow,gouty inflammation of tendo achillis,1.0,1
+chronic rheumatism of left elbow,eyes watery,1.0,1
+chronic rheumatism of left elbow,cracking when stretching,1.0,1
+chronic rheumatism of left elbow,iritis,1.0,1
+chronic rheumatism of left elbow,episclerotitis,1.0,1
+chronic rheumatism of left elbow,painful pressure in left side of back,1.0,1
+chronic rheumatism of left elbow,pains in heels,1.0,1
+chronic rheumatism of left elbow,aching in knee joints,1.0,1
+chronic rheumatism of left elbow,sclerotitis,1.0,1
+chronic rheumatism of left elbow,gouty pains in fingers,1.0,1
+chronic rheumatism of left elbow,cracking in cervical vertebrae,1.0,1
+chronic rheumatism of left elbow,aching in every joint of hands,1.0,1
+chronic rheumatism of left elbow,gouty pains in finger joints,1.0,1
+chronic rheumatism of left elbow,lancinating pain in small of back,1.0,1
+chronic rheumatism of left elbow,rheumatic affections of eyes,1.0,1
+chronic rheumatism of left elbow,worse in damp weather,1.0,1
+chronic rheumatism of left elbow,hydrogenoid constitution,1.0,1
+chronic rheumatism of left elbow,tearing pain in toes,1.0,1
+chronic rheumatism of left elbow,tearing pain in soles,1.0,1
+tearing pains in muscles,tearing in left side of back,1.0,1
+tearing pains in muscles,gouty nodosities,1.0,1
+tearing pains in muscles,eyes burn,1.0,1
+tearing pains in muscles,warts,1.0,1
+tearing pains in muscles,sticking in left side of back,1.0,1
+tearing pains in muscles,rheumatism after gonorrhea,1.0,1
+tearing pains in muscles,fig warts,1.0,1
+tearing pains in muscles,chronic sclerotitis,1.0,1
+tearing pains in muscles,rheumatism after suppressed gonorrhea,1.0,1
+tearing pains in muscles,tearing pain in hands,1.0,1
+tearing pains in muscles,sycotic conditions,1.0,1
+tearing pains in muscles,gouty pains in big toe,1.0,1
+tearing pains in muscles,stinging pain in left elbow,1.0,1
+tearing pains in muscles,sweat only on uncovered parts,1.0,1
+tearing pains in muscles,jerking pains in muscles,1.0,1
+tearing pains in muscles,improved by motion,1.0,1
+tearing pains in muscles,paralytic sensation in right arm,1.0,1
+tearing pains in muscles,gouty inflammation of tendo achillis,1.0,1
+tearing pains in muscles,eyes watery,1.0,1
+tearing pains in muscles,cracking when stretching,1.0,1
+tearing pains in muscles,iritis,1.0,1
+tearing pains in muscles,chronic rheumatism of left elbow,1.0,1
+tearing pains in muscles,episclerotitis,1.0,1
+tearing pains in muscles,painful pressure in left side of back,1.0,1
+tearing pains in muscles,pains in heels,1.0,1
+tearing pains in muscles,aching in knee joints,1.0,1
+tearing pains in muscles,sclerotitis,1.0,1
+tearing pains in muscles,gouty pains in fingers,1.0,1
+tearing pains in muscles,cracking in cervical vertebrae,1.0,1
+tearing pains in muscles,aching in every joint of hands,1.0,1
+tearing pains in muscles,gouty pains in finger joints,1.0,1
+tearing pains in muscles,lancinating pain in small of back,1.0,1
+tearing pains in muscles,rheumatic affections of eyes,1.0,1
+tearing pains in muscles,worse in damp weather,1.0,1
+tearing pains in muscles,hydrogenoid constitution,1.0,1
+tearing pains in muscles,tearing pain in toes,1.0,1
+tearing pains in muscles,tearing pain in soles,1.0,1
+fig warts,tearing in left side of back,1.0,1
+fig warts,gouty nodosities,1.0,1
+fig warts,eyes burn,1.0,1
+fig warts,warts,1.0,1
+fig warts,sticking in left side of back,1.0,1
+fig warts,rheumatism after gonorrhea,1.0,1
+fig warts,chronic sclerotitis,1.0,1
+fig warts,rheumatism after suppressed gonorrhea,1.0,1
+fig warts,tearing pain in hands,1.0,1
+fig warts,sycotic conditions,1.0,1
+fig warts,gouty pains in big toe,1.0,1
+fig warts,stinging pain in left elbow,1.0,1
+fig warts,sweat only on uncovered parts,1.0,1
+fig warts,tearing pains in muscles,1.0,1
+fig warts,jerking pains in muscles,1.0,1
+fig warts,improved by motion,1.0,1
+fig warts,paralytic sensation in right arm,1.0,1
+fig warts,gouty inflammation of tendo achillis,1.0,1
+fig warts,eyes watery,1.0,1
+fig warts,cracking when stretching,1.0,1
+fig warts,iritis,1.0,1
+fig warts,chronic rheumatism of left elbow,1.0,1
+fig warts,episclerotitis,1.0,1
+fig warts,painful pressure in left side of back,1.0,1
+fig warts,pains in heels,1.0,1
+fig warts,aching in knee joints,1.0,1
+fig warts,sclerotitis,1.0,1
+fig warts,gouty pains in fingers,1.0,1
+fig warts,cracking in cervical vertebrae,1.0,1
+fig warts,aching in every joint of hands,1.0,1
+fig warts,gouty pains in finger joints,1.0,1
+fig warts,lancinating pain in small of back,1.0,1
+fig warts,rheumatic affections of eyes,1.0,1
+fig warts,worse in damp weather,1.0,1
+fig warts,hydrogenoid constitution,1.0,1
+fig warts,tearing pain in toes,1.0,1
+fig warts,tearing pain in soles,1.0,1
+gouty nodosities,tearing in left side of back,0.5,1
+gouty nodosities,eyes burn,0.5,1
+gouty nodosities,warts,0.5,1
+gouty nodosities,sticking in left side of back,0.5,1
+gouty nodosities,rheumatism after gonorrhea,0.5,1
+gouty nodosities,fig warts,0.5,1
+gouty nodosities,chronic sclerotitis,0.5,1
+gouty nodosities,rheumatism after suppressed gonorrhea,0.5,1
+gouty nodosities,tearing pain in hands,0.5,1
+gouty nodosities,sycotic conditions,0.5,1
+gouty nodosities,gouty pains in big toe,0.5,1
+gouty nodosities,stinging pain in left elbow,0.5,1
+gouty nodosities,sweat only on uncovered parts,0.5,1
+gouty nodosities,tearing pains in muscles,0.5,1
+gouty nodosities,jerking pains in muscles,0.5,1
+gouty nodosities,improved by motion,0.5,1
+gouty nodosities,paralytic sensation in right arm,0.5,1
+gouty nodosities,gouty inflammation of tendo achillis,0.5,1
+gouty nodosities,eyes watery,0.5,1
+gouty nodosities,cracking when stretching,0.5,1
+gouty nodosities,iritis,0.5,1
+gouty nodosities,chronic rheumatism of left elbow,0.5,1
+gouty nodosities,episclerotitis,0.5,1
+gouty nodosities,painful pressure in left side of back,0.5,1
+gouty nodosities,pains in heels,0.5,1
+gouty nodosities,aching in knee joints,0.5,1
+gouty nodosities,sclerotitis,0.5,1
+gouty nodosities,gouty pains in fingers,0.5,1
+gouty nodosities,cracking in cervical vertebrae,0.5,1
+gouty nodosities,aching in every joint of hands,0.5,1
+gouty nodosities,gouty pains in finger joints,0.5,1
+gouty nodosities,lancinating pain in small of back,0.5,1
+gouty nodosities,rheumatic affections of eyes,0.5,1
+gouty nodosities,worse in damp weather,0.5,1
+gouty nodosities,hydrogenoid constitution,0.5,1
+gouty nodosities,tearing pain in toes,0.5,1
+gouty nodosities,tearing pain in soles,0.5,1
+aching in every joint of hands,tearing in left side of back,1.0,1
+aching in every joint of hands,gouty nodosities,1.0,1
+aching in every joint of hands,eyes burn,1.0,1
+aching in every joint of hands,warts,1.0,1
+aching in every joint of hands,sticking in left side of back,1.0,1
+aching in every joint of hands,rheumatism after gonorrhea,1.0,1
+aching in every joint of hands,fig warts,1.0,1
+aching in every joint of hands,chronic sclerotitis,1.0,1
+aching in every joint of hands,rheumatism after suppressed gonorrhea,1.0,1
+aching in every joint of hands,tearing pain in hands,1.0,1
+aching in every joint of hands,sycotic conditions,1.0,1
+aching in every joint of hands,gouty pains in big toe,1.0,1
+aching in every joint of hands,stinging pain in left elbow,1.0,1
+aching in every joint of hands,sweat only on uncovered parts,1.0,1
+aching in every joint of hands,tearing pains in muscles,1.0,1
+aching in every joint of hands,jerking pains in muscles,1.0,1
+aching in every joint of hands,improved by motion,1.0,1
+aching in every joint of hands,paralytic sensation in right arm,1.0,1
+aching in every joint of hands,gouty inflammation of tendo achillis,1.0,1
+aching in every joint of hands,eyes watery,1.0,1
+aching in every joint of hands,cracking when stretching,1.0,1
+aching in every joint of hands,iritis,1.0,1
+aching in every joint of hands,chronic rheumatism of left elbow,1.0,1
+aching in every joint of hands,episclerotitis,1.0,1
+aching in every joint of hands,painful pressure in left side of back,1.0,1
+aching in every joint of hands,pains in heels,1.0,1
+aching in every joint of hands,aching in knee joints,1.0,1
+aching in every joint of hands,sclerotitis,1.0,1
+aching in every joint of hands,gouty pains in fingers,1.0,1
+aching in every joint of hands,cracking in cervical vertebrae,1.0,1
+aching in every joint of hands,gouty pains in finger joints,1.0,1
+aching in every joint of hands,lancinating pain in small of back,1.0,1
+aching in every joint of hands,rheumatic affections of eyes,1.0,1
+aching in every joint of hands,worse in damp weather,1.0,1
+aching in every joint of hands,hydrogenoid constitution,1.0,1
+aching in every joint of hands,tearing pain in toes,1.0,1
+aching in every joint of hands,tearing pain in soles,1.0,1
+rheumatism after gonorrhea,tearing in left side of back,1.0,1
+rheumatism after gonorrhea,gouty nodosities,1.0,1
+rheumatism after gonorrhea,eyes burn,1.0,1
+rheumatism after gonorrhea,warts,1.0,1
+rheumatism after gonorrhea,sticking in left side of back,1.0,1
+rheumatism after gonorrhea,fig warts,1.0,1
+rheumatism after gonorrhea,chronic sclerotitis,1.0,1
+rheumatism after gonorrhea,rheumatism after suppressed gonorrhea,1.0,1
+rheumatism after gonorrhea,tearing pain in hands,1.0,1
+rheumatism after gonorrhea,sycotic conditions,1.0,1
+rheumatism after gonorrhea,gouty pains in big toe,1.0,1
+rheumatism after gonorrhea,stinging pain in left elbow,1.0,1
+rheumatism after gonorrhea,sweat only on uncovered parts,1.0,1
+rheumatism after gonorrhea,tearing pains in muscles,1.0,1
+rheumatism after gonorrhea,jerking pains in muscles,1.0,1
+rheumatism after gonorrhea,improved by motion,1.0,1
+rheumatism after gonorrhea,paralytic sensation in right arm,1.0,1
+rheumatism after gonorrhea,gouty inflammation of tendo achillis,1.0,1
+rheumatism after gonorrhea,eyes watery,1.0,1
+rheumatism after gonorrhea,cracking when stretching,1.0,1
+rheumatism after gonorrhea,iritis,1.0,1
+rheumatism after gonorrhea,chronic rheumatism of left elbow,1.0,1
+rheumatism after gonorrhea,episclerotitis,1.0,1
+rheumatism after gonorrhea,painful pressure in left side of back,1.0,1
+rheumatism after gonorrhea,pains in heels,1.0,1
+rheumatism after gonorrhea,aching in knee joints,1.0,1
+rheumatism after gonorrhea,sclerotitis,1.0,1
+rheumatism after gonorrhea,gouty pains in fingers,1.0,1
+rheumatism after gonorrhea,cracking in cervical vertebrae,1.0,1
+rheumatism after gonorrhea,aching in every joint of hands,1.0,1
+rheumatism after gonorrhea,gouty pains in finger joints,1.0,1
+rheumatism after gonorrhea,lancinating pain in small of back,1.0,1
+rheumatism after gonorrhea,rheumatic affections of eyes,1.0,1
+rheumatism after gonorrhea,worse in damp weather,1.0,1
+rheumatism after gonorrhea,hydrogenoid constitution,1.0,1
+rheumatism after gonorrhea,tearing pain in toes,1.0,1
+rheumatism after gonorrhea,tearing pain in soles,1.0,1
+gouty pains in fingers,tearing in left side of back,0.5,1
+gouty pains in fingers,gouty nodosities,0.5,1
+gouty pains in fingers,eyes burn,0.5,1
+gouty pains in fingers,warts,0.5,1
+gouty pains in fingers,sticking in left side of back,0.5,1
+gouty pains in fingers,rheumatism after gonorrhea,0.5,1
+gouty pains in fingers,fig warts,0.5,1
+gouty pains in fingers,chronic sclerotitis,0.5,1
+gouty pains in fingers,rheumatism after suppressed gonorrhea,0.5,1
+gouty pains in fingers,tearing pain in hands,1.0,2
+gouty pains in fingers,sycotic conditions,0.5,1
+gouty pains in fingers,gouty pains in big toe,0.5,1
+gouty pains in fingers,stinging pain in left elbow,0.5,1
+gouty pains in fingers,sweat only on uncovered parts,0.5,1
+gouty pains in fingers,tearing pains in muscles,0.5,1
+gouty pains in fingers,jerking pains in muscles,0.5,1
+gouty pains in fingers,improved by motion,0.5,1
+gouty pains in fingers,paralytic sensation in right arm,0.5,1
+gouty pains in fingers,gouty inflammation of tendo achillis,0.5,1
+gouty pains in fingers,eyes watery,0.5,1
+gouty pains in fingers,cracking when stretching,0.5,1
+gouty pains in fingers,iritis,0.5,1
+gouty pains in fingers,chronic rheumatism of left elbow,0.5,1
+gouty pains in fingers,episclerotitis,0.5,1
+gouty pains in fingers,painful pressure in left side of back,0.5,1
+gouty pains in fingers,pains in heels,0.5,1
+gouty pains in fingers,aching in knee joints,0.5,1
+gouty pains in fingers,sclerotitis,0.5,1
+gouty pains in fingers,cracking in cervical vertebrae,0.5,1
+gouty pains in fingers,aching in every joint of hands,0.5,1
+gouty pains in fingers,gouty pains in finger joints,0.5,1
+gouty pains in fingers,lancinating pain in small of back,0.5,1
+gouty pains in fingers,rheumatic affections of eyes,0.5,1
+gouty pains in fingers,worse in damp weather,0.5,1
+gouty pains in fingers,hydrogenoid constitution,0.5,1
+gouty pains in fingers,tearing pain in toes,0.5,1
+gouty pains in fingers,tearing pain in soles,0.5,1
+episclerotitis,tearing in left side of back,1.0,1
+episclerotitis,gouty nodosities,1.0,1
+episclerotitis,eyes burn,1.0,1
+episclerotitis,warts,1.0,1
+episclerotitis,sticking in left side of back,1.0,1
+episclerotitis,rheumatism after gonorrhea,1.0,1
+episclerotitis,fig warts,1.0,1
+episclerotitis,chronic sclerotitis,1.0,1
+episclerotitis,rheumatism after suppressed gonorrhea,1.0,1
+episclerotitis,tearing pain in hands,1.0,1
+episclerotitis,sycotic conditions,1.0,1
+episclerotitis,gouty pains in big toe,1.0,1
+episclerotitis,stinging pain in left elbow,1.0,1
+episclerotitis,sweat only on uncovered parts,1.0,1
+episclerotitis,tearing pains in muscles,1.0,1
+episclerotitis,jerking pains in muscles,1.0,1
+episclerotitis,improved by motion,1.0,1
+episclerotitis,paralytic sensation in right arm,1.0,1
+episclerotitis,gouty inflammation of tendo achillis,1.0,1
+episclerotitis,eyes watery,1.0,1
+episclerotitis,cracking when stretching,1.0,1
+episclerotitis,iritis,1.0,1
+episclerotitis,chronic rheumatism of left elbow,1.0,1
+episclerotitis,painful pressure in left side of back,1.0,1
+episclerotitis,pains in heels,1.0,1
+episclerotitis,aching in knee joints,1.0,1
+episclerotitis,sclerotitis,1.0,1
+episclerotitis,gouty pains in fingers,1.0,1
+episclerotitis,cracking in cervical vertebrae,1.0,1
+episclerotitis,aching in every joint of hands,1.0,1
+episclerotitis,gouty pains in finger joints,1.0,1
+episclerotitis,lancinating pain in small of back,1.0,1
+episclerotitis,rheumatic affections of eyes,1.0,1
+episclerotitis,worse in damp weather,1.0,1
+episclerotitis,hydrogenoid constitution,1.0,1
+episclerotitis,tearing pain in toes,1.0,1
+episclerotitis,tearing pain in soles,1.0,1
+gouty pains in finger joints,tearing in left side of back,1.0,1
+gouty pains in finger joints,gouty nodosities,1.0,1
+gouty pains in finger joints,eyes burn,1.0,1
+gouty pains in finger joints,warts,1.0,1
+gouty pains in finger joints,sticking in left side of back,1.0,1
+gouty pains in finger joints,rheumatism after gonorrhea,1.0,1
+gouty pains in finger joints,fig warts,1.0,1
+gouty pains in finger joints,chronic sclerotitis,1.0,1
+gouty pains in finger joints,rheumatism after suppressed gonorrhea,1.0,1
+gouty pains in finger joints,tearing pain in hands,1.0,1
+gouty pains in finger joints,sycotic conditions,1.0,1
+gouty pains in finger joints,gouty pains in big toe,1.0,1
+gouty pains in finger joints,stinging pain in left elbow,1.0,1
+gouty pains in finger joints,sweat only on uncovered parts,1.0,1
+gouty pains in finger joints,tearing pains in muscles,1.0,1
+gouty pains in finger joints,jerking pains in muscles,1.0,1
+gouty pains in finger joints,improved by motion,1.0,1
+gouty pains in finger joints,paralytic sensation in right arm,1.0,1
+gouty pains in finger joints,gouty inflammation of tendo achillis,1.0,1
+gouty pains in finger joints,eyes watery,1.0,1
+gouty pains in finger joints,cracking when stretching,1.0,1
+gouty pains in finger joints,iritis,1.0,1
+gouty pains in finger joints,chronic rheumatism of left elbow,1.0,1
+gouty pains in finger joints,episclerotitis,1.0,1
+gouty pains in finger joints,painful pressure in left side of back,1.0,1
+gouty pains in finger joints,pains in heels,1.0,1
+gouty pains in finger joints,aching in knee joints,1.0,1
+gouty pains in finger joints,sclerotitis,1.0,1
+gouty pains in finger joints,gouty pains in fingers,1.0,1
+gouty pains in finger joints,cracking in cervical vertebrae,1.0,1
+gouty pains in finger joints,aching in every joint of hands,1.0,1
+gouty pains in finger joints,lancinating pain in small of back,1.0,1
+gouty pains in finger joints,rheumatic affections of eyes,1.0,1
+gouty pains in finger joints,worse in damp weather,1.0,1
+gouty pains in finger joints,hydrogenoid constitution,1.0,1
+gouty pains in finger joints,tearing pain in toes,1.0,1
+gouty pains in finger joints,tearing pain in soles,1.0,1
+improved by motion,tearing in left side of back,1.0,1
+improved by motion,gouty nodosities,1.0,1
+improved by motion,eyes burn,1.0,1
+improved by motion,warts,1.0,1
+improved by motion,sticking in left side of back,1.0,1
+improved by motion,rheumatism after gonorrhea,1.0,1
+improved by motion,fig warts,1.0,1
+improved by motion,chronic sclerotitis,1.0,1
+improved by motion,rheumatism after suppressed gonorrhea,1.0,1
+improved by motion,tearing pain in hands,1.0,1
+improved by motion,sycotic conditions,1.0,1
+improved by motion,gouty pains in big toe,1.0,1
+improved by motion,stinging pain in left elbow,1.0,1
+improved by motion,sweat only on uncovered parts,1.0,1
+improved by motion,tearing pains in muscles,1.0,1
+improved by motion,jerking pains in muscles,1.0,1
+improved by motion,paralytic sensation in right arm,1.0,1
+improved by motion,gouty inflammation of tendo achillis,1.0,1
+improved by motion,eyes watery,1.0,1
+improved by motion,cracking when stretching,1.0,1
+improved by motion,iritis,1.0,1
+improved by motion,chronic rheumatism of left elbow,1.0,1
+improved by motion,episclerotitis,1.0,1
+improved by motion,painful pressure in left side of back,1.0,1
+improved by motion,pains in heels,1.0,1
+improved by motion,aching in knee joints,1.0,1
+improved by motion,sclerotitis,1.0,1
+improved by motion,gouty pains in fingers,1.0,1
+improved by motion,cracking in cervical vertebrae,1.0,1
+improved by motion,aching in every joint of hands,1.0,1
+improved by motion,gouty pains in finger joints,1.0,1
+improved by motion,lancinating pain in small of back,1.0,1
+improved by motion,rheumatic affections of eyes,1.0,1
+improved by motion,worse in damp weather,1.0,1
+improved by motion,hydrogenoid constitution,1.0,1
+improved by motion,tearing pain in toes,1.0,1
+improved by motion,tearing pain in soles,1.0,1
+gouty pains in big toe,tearing in left side of back,1.0,1
+gouty pains in big toe,gouty nodosities,1.0,1
+gouty pains in big toe,eyes burn,1.0,1
+gouty pains in big toe,warts,1.0,1
+gouty pains in big toe,sticking in left side of back,1.0,1
+gouty pains in big toe,rheumatism after gonorrhea,1.0,1
+gouty pains in big toe,fig warts,1.0,1
+gouty pains in big toe,chronic sclerotitis,1.0,1
+gouty pains in big toe,rheumatism after suppressed gonorrhea,1.0,1
+gouty pains in big toe,tearing pain in hands,1.0,1
+gouty pains in big toe,sycotic conditions,1.0,1
+gouty pains in big toe,stinging pain in left elbow,1.0,1
+gouty pains in big toe,sweat only on uncovered parts,1.0,1
+gouty pains in big toe,tearing pains in muscles,1.0,1
+gouty pains in big toe,jerking pains in muscles,1.0,1
+gouty pains in big toe,improved by motion,1.0,1
+gouty pains in big toe,paralytic sensation in right arm,1.0,1
+gouty pains in big toe,gouty inflammation of tendo achillis,1.0,1
+gouty pains in big toe,eyes watery,1.0,1
+gouty pains in big toe,cracking when stretching,1.0,1
+gouty pains in big toe,iritis,1.0,1
+gouty pains in big toe,chronic rheumatism of left elbow,1.0,1
+gouty pains in big toe,episclerotitis,1.0,1
+gouty pains in big toe,painful pressure in left side of back,1.0,1
+gouty pains in big toe,pains in heels,1.0,1
+gouty pains in big toe,aching in knee joints,1.0,1
+gouty pains in big toe,sclerotitis,1.0,1
+gouty pains in big toe,gouty pains in fingers,1.0,1
+gouty pains in big toe,cracking in cervical vertebrae,1.0,1
+gouty pains in big toe,aching in every joint of hands,1.0,1
+gouty pains in big toe,gouty pains in finger joints,1.0,1
+gouty pains in big toe,lancinating pain in small of back,1.0,1
+gouty pains in big toe,rheumatic affections of eyes,1.0,1
+gouty pains in big toe,worse in damp weather,1.0,1
+gouty pains in big toe,hydrogenoid constitution,1.0,1
+gouty pains in big toe,tearing pain in toes,1.0,1
+gouty pains in big toe,tearing pain in soles,1.0,1
+tearing in left side of back,gouty nodosities,1.0,1
+tearing in left side of back,eyes burn,1.0,1
+tearing in left side of back,warts,1.0,1
+tearing in left side of back,sticking in left side of back,1.0,1
+tearing in left side of back,rheumatism after gonorrhea,1.0,1
+tearing in left side of back,fig warts,1.0,1
+tearing in left side of back,chronic sclerotitis,1.0,1
+tearing in left side of back,rheumatism after suppressed gonorrhea,1.0,1
+tearing in left side of back,tearing pain in hands,1.0,1
+tearing in left side of back,sycotic conditions,1.0,1
+tearing in left side of back,gouty pains in big toe,1.0,1
+tearing in left side of back,stinging pain in left elbow,1.0,1
+tearing in left side of back,sweat only on uncovered parts,1.0,1
+tearing in left side of back,tearing pains in muscles,1.0,1
+tearing in left side of back,jerking pains in muscles,1.0,1
+tearing in left side of back,improved by motion,1.0,1
+tearing in left side of back,paralytic sensation in right arm,1.0,1
+tearing in left side of back,gouty inflammation of tendo achillis,1.0,1
+tearing in left side of back,eyes watery,1.0,1
+tearing in left side of back,cracking when stretching,1.0,1
+tearing in left side of back,iritis,1.0,1
+tearing in left side of back,chronic rheumatism of left elbow,1.0,1
+tearing in left side of back,episclerotitis,1.0,1
+tearing in left side of back,painful pressure in left side of back,1.0,1
+tearing in left side of back,pains in heels,1.0,1
+tearing in left side of back,aching in knee joints,1.0,1
+tearing in left side of back,sclerotitis,1.0,1
+tearing in left side of back,gouty pains in fingers,1.0,1
+tearing in left side of back,cracking in cervical vertebrae,1.0,1
+tearing in left side of back,aching in every joint of hands,1.0,1
+tearing in left side of back,gouty pains in finger joints,1.0,1
+tearing in left side of back,lancinating pain in small of back,1.0,1
+tearing in left side of back,rheumatic affections of eyes,1.0,1
+tearing in left side of back,worse in damp weather,1.0,1
+tearing in left side of back,hydrogenoid constitution,1.0,1
+tearing in left side of back,tearing pain in toes,1.0,1
+tearing in left side of back,tearing pain in soles,1.0,1
+eyes watery,tearing in left side of back,1.0,1
+eyes watery,gouty nodosities,1.0,1
+eyes watery,eyes burn,1.0,1
+eyes watery,warts,1.0,1
+eyes watery,sticking in left side of back,1.0,1
+eyes watery,rheumatism after gonorrhea,1.0,1
+eyes watery,fig warts,1.0,1
+eyes watery,chronic sclerotitis,1.0,1
+eyes watery,rheumatism after suppressed gonorrhea,1.0,1
+eyes watery,tearing pain in hands,1.0,1
+eyes watery,sycotic conditions,1.0,1
+eyes watery,gouty pains in big toe,1.0,1
+eyes watery,stinging pain in left elbow,1.0,1
+eyes watery,sweat only on uncovered parts,1.0,1
+eyes watery,tearing pains in muscles,1.0,1
+eyes watery,jerking pains in muscles,1.0,1
+eyes watery,improved by motion,1.0,1
+eyes watery,paralytic sensation in right arm,1.0,1
+eyes watery,gouty inflammation of tendo achillis,1.0,1
+eyes watery,cracking when stretching,1.0,1
+eyes watery,iritis,1.0,1
+eyes watery,chronic rheumatism of left elbow,1.0,1
+eyes watery,episclerotitis,1.0,1
+eyes watery,painful pressure in left side of back,1.0,1
+eyes watery,pains in heels,1.0,1
+eyes watery,aching in knee joints,1.0,1
+eyes watery,sclerotitis,1.0,1
+eyes watery,gouty pains in fingers,1.0,1
+eyes watery,cracking in cervical vertebrae,1.0,1
+eyes watery,aching in every joint of hands,1.0,1
+eyes watery,gouty pains in finger joints,1.0,1
+eyes watery,lancinating pain in small of back,1.0,1
+eyes watery,rheumatic affections of eyes,1.0,1
+eyes watery,worse in damp weather,1.0,1
+eyes watery,hydrogenoid constitution,1.0,1
+eyes watery,tearing pain in toes,1.0,1
+eyes watery,tearing pain in soles,1.0,1
+jerking pains in muscles,tearing in left side of back,1.0,1
+jerking pains in muscles,gouty nodosities,1.0,1
+jerking pains in muscles,eyes burn,1.0,1
+jerking pains in muscles,warts,1.0,1
+jerking pains in muscles,sticking in left side of back,1.0,1
+jerking pains in muscles,rheumatism after gonorrhea,1.0,1
+jerking pains in muscles,fig warts,1.0,1
+jerking pains in muscles,chronic sclerotitis,1.0,1
+jerking pains in muscles,rheumatism after suppressed gonorrhea,1.0,1
+jerking pains in muscles,tearing pain in hands,1.0,1
+jerking pains in muscles,sycotic conditions,1.0,1
+jerking pains in muscles,gouty pains in big toe,1.0,1
+jerking pains in muscles,stinging pain in left elbow,1.0,1
+jerking pains in muscles,sweat only on uncovered parts,1.0,1
+jerking pains in muscles,tearing pains in muscles,1.0,1
+jerking pains in muscles,improved by motion,1.0,1
+jerking pains in muscles,paralytic sensation in right arm,1.0,1
+jerking pains in muscles,gouty inflammation of tendo achillis,1.0,1
+jerking pains in muscles,eyes watery,1.0,1
+jerking pains in muscles,cracking when stretching,1.0,1
+jerking pains in muscles,iritis,1.0,1
+jerking pains in muscles,chronic rheumatism of left elbow,1.0,1
+jerking pains in muscles,episclerotitis,1.0,1
+jerking pains in muscles,painful pressure in left side of back,1.0,1
+jerking pains in muscles,pains in heels,1.0,1
+jerking pains in muscles,aching in knee joints,1.0,1
+jerking pains in muscles,sclerotitis,1.0,1
+jerking pains in muscles,gouty pains in fingers,1.0,1
+jerking pains in muscles,cracking in cervical vertebrae,1.0,1
+jerking pains in muscles,aching in every joint of hands,1.0,1
+jerking pains in muscles,gouty pains in finger joints,1.0,1
+jerking pains in muscles,lancinating pain in small of back,1.0,1
+jerking pains in muscles,rheumatic affections of eyes,1.0,1
+jerking pains in muscles,worse in damp weather,1.0,1
+jerking pains in muscles,hydrogenoid constitution,1.0,1
+jerking pains in muscles,tearing pain in toes,1.0,1
+jerking pains in muscles,tearing pain in soles,1.0,1
+tearing pain in hands,tearing in left side of back,0.5,1
+tearing pain in hands,gouty nodosities,0.5,1
+tearing pain in hands,eyes burn,0.5,1
+tearing pain in hands,warts,0.5,1
+tearing pain in hands,sticking in left side of back,0.5,1
+tearing pain in hands,rheumatism after gonorrhea,0.5,1
+tearing pain in hands,fig warts,0.5,1
+tearing pain in hands,chronic sclerotitis,0.5,1
+tearing pain in hands,rheumatism after suppressed gonorrhea,0.5,1
+tearing pain in hands,sycotic conditions,0.5,1
+tearing pain in hands,gouty pains in big toe,0.5,1
+tearing pain in hands,stinging pain in left elbow,0.5,1
+tearing pain in hands,sweat only on uncovered parts,0.5,1
+tearing pain in hands,tearing pains in muscles,0.5,1
+tearing pain in hands,jerking pains in muscles,0.5,1
+tearing pain in hands,improved by motion,0.5,1
+tearing pain in hands,paralytic sensation in right arm,0.5,1
+tearing pain in hands,gouty inflammation of tendo achillis,0.5,1
+tearing pain in hands,eyes watery,0.5,1
+tearing pain in hands,cracking when stretching,0.5,1
+tearing pain in hands,iritis,0.5,1
+tearing pain in hands,chronic rheumatism of left elbow,0.5,1
+tearing pain in hands,episclerotitis,0.5,1
+tearing pain in hands,painful pressure in left side of back,0.5,1
+tearing pain in hands,pains in heels,0.5,1
+tearing pain in hands,aching in knee joints,0.5,1
+tearing pain in hands,sclerotitis,0.5,1
+tearing pain in hands,gouty pains in fingers,1.0,2
+tearing pain in hands,cracking in cervical vertebrae,0.5,1
+tearing pain in hands,aching in every joint of hands,0.5,1
+tearing pain in hands,gouty pains in finger joints,0.5,1
+tearing pain in hands,lancinating pain in small of back,0.5,1
+tearing pain in hands,rheumatic affections of eyes,0.5,1
+tearing pain in hands,worse in damp weather,0.5,1
+tearing pain in hands,hydrogenoid constitution,0.5,1
+tearing pain in hands,tearing pain in toes,0.5,1
+tearing pain in hands,tearing pain in soles,0.5,1
+eyes burn,tearing in left side of back,1.0,1
+eyes burn,gouty nodosities,1.0,1
+eyes burn,warts,1.0,1
+eyes burn,sticking in left side of back,1.0,1
+eyes burn,rheumatism after gonorrhea,1.0,1
+eyes burn,fig warts,1.0,1
+eyes burn,chronic sclerotitis,1.0,1
+eyes burn,rheumatism after suppressed gonorrhea,1.0,1
+eyes burn,tearing pain in hands,1.0,1
+eyes burn,sycotic conditions,1.0,1
+eyes burn,gouty pains in big toe,1.0,1
+eyes burn,stinging pain in left elbow,1.0,1
+eyes burn,sweat only on uncovered parts,1.0,1
+eyes burn,tearing pains in muscles,1.0,1
+eyes burn,jerking pains in muscles,1.0,1
+eyes burn,improved by motion,1.0,1
+eyes burn,paralytic sensation in right arm,1.0,1
+eyes burn,gouty inflammation of tendo achillis,1.0,1
+eyes burn,eyes watery,1.0,1
+eyes burn,cracking when stretching,1.0,1
+eyes burn,iritis,1.0,1
+eyes burn,chronic rheumatism of left elbow,1.0,1
+eyes burn,episclerotitis,1.0,1
+eyes burn,painful pressure in left side of back,1.0,1
+eyes burn,pains in heels,1.0,1
+eyes burn,aching in knee joints,1.0,1
+eyes burn,sclerotitis,1.0,1
+eyes burn,gouty pains in fingers,1.0,1
+eyes burn,cracking in cervical vertebrae,1.0,1
+eyes burn,aching in every joint of hands,1.0,1
+eyes burn,gouty pains in finger joints,1.0,1
+eyes burn,lancinating pain in small of back,1.0,1
+eyes burn,rheumatic affections of eyes,1.0,1
+eyes burn,worse in damp weather,1.0,1
+eyes burn,hydrogenoid constitution,1.0,1
+eyes burn,tearing pain in toes,1.0,1
+eyes burn,tearing pain in soles,1.0,1
+lancinating pain in small of back,tearing in left side of back,1.0,1
+lancinating pain in small of back,gouty nodosities,1.0,1
+lancinating pain in small of back,eyes burn,1.0,1
+lancinating pain in small of back,warts,1.0,1
+lancinating pain in small of back,sticking in left side of back,1.0,1
+lancinating pain in small of back,rheumatism after gonorrhea,1.0,1
+lancinating pain in small of back,fig warts,1.0,1
+lancinating pain in small of back,chronic sclerotitis,1.0,1
+lancinating pain in small of back,rheumatism after suppressed gonorrhea,1.0,1
+lancinating pain in small of back,tearing pain in hands,1.0,1
+lancinating pain in small of back,sycotic conditions,1.0,1
+lancinating pain in small of back,gouty pains in big toe,1.0,1
+lancinating pain in small of back,stinging pain in left elbow,1.0,1
+lancinating pain in small of back,sweat only on uncovered parts,1.0,1
+lancinating pain in small of back,tearing pains in muscles,1.0,1
+lancinating pain in small of back,jerking pains in muscles,1.0,1
+lancinating pain in small of back,improved by motion,1.0,1
+lancinating pain in small of back,paralytic sensation in right arm,1.0,1
+lancinating pain in small of back,gouty inflammation of tendo achillis,1.0,1
+lancinating pain in small of back,eyes watery,1.0,1
+lancinating pain in small of back,cracking when stretching,1.0,1
+lancinating pain in small of back,iritis,1.0,1
+lancinating pain in small of back,chronic rheumatism of left elbow,1.0,1
+lancinating pain in small of back,episclerotitis,1.0,1
+lancinating pain in small of back,painful pressure in left side of back,1.0,1
+lancinating pain in small of back,pains in heels,1.0,1
+lancinating pain in small of back,aching in knee joints,1.0,1
+lancinating pain in small of back,sclerotitis,1.0,1
+lancinating pain in small of back,gouty pains in fingers,1.0,1
+lancinating pain in small of back,cracking in cervical vertebrae,1.0,1
+lancinating pain in small of back,aching in every joint of hands,1.0,1
+lancinating pain in small of back,gouty pains in finger joints,1.0,1
+lancinating pain in small of back,rheumatic affections of eyes,1.0,1
+lancinating pain in small of back,worse in damp weather,1.0,1
+lancinating pain in small of back,hydrogenoid constitution,1.0,1
+lancinating pain in small of back,tearing pain in toes,1.0,1
+lancinating pain in small of back,tearing pain in soles,1.0,1
+cracking when stretching,tearing in left side of back,1.0,1
+cracking when stretching,gouty nodosities,1.0,1
+cracking when stretching,eyes burn,1.0,1
+cracking when stretching,warts,1.0,1
+cracking when stretching,sticking in left side of back,1.0,1
+cracking when stretching,rheumatism after gonorrhea,1.0,1
+cracking when stretching,fig warts,1.0,1
+cracking when stretching,chronic sclerotitis,1.0,1
+cracking when stretching,rheumatism after suppressed gonorrhea,1.0,1
+cracking when stretching,tearing pain in hands,1.0,1
+cracking when stretching,sycotic conditions,1.0,1
+cracking when stretching,gouty pains in big toe,1.0,1
+cracking when stretching,stinging pain in left elbow,1.0,1
+cracking when stretching,sweat only on uncovered parts,1.0,1
+cracking when stretching,tearing pains in muscles,1.0,1
+cracking when stretching,jerking pains in muscles,1.0,1
+cracking when stretching,improved by motion,1.0,1
+cracking when stretching,paralytic sensation in right arm,1.0,1
+cracking when stretching,gouty inflammation of tendo achillis,1.0,1
+cracking when stretching,eyes watery,1.0,1
+cracking when stretching,iritis,1.0,1
+cracking when stretching,chronic rheumatism of left elbow,1.0,1
+cracking when stretching,episclerotitis,1.0,1
+cracking when stretching,painful pressure in left side of back,1.0,1
+cracking when stretching,pains in heels,1.0,1
+cracking when stretching,aching in knee joints,1.0,1
+cracking when stretching,sclerotitis,1.0,1
+cracking when stretching,gouty pains in fingers,1.0,1
+cracking when stretching,cracking in cervical vertebrae,1.0,1
+cracking when stretching,aching in every joint of hands,1.0,1
+cracking when stretching,gouty pains in finger joints,1.0,1
+cracking when stretching,lancinating pain in small of back,1.0,1
+cracking when stretching,rheumatic affections of eyes,1.0,1
+cracking when stretching,worse in damp weather,1.0,1
+cracking when stretching,hydrogenoid constitution,1.0,1
+cracking when stretching,tearing pain in toes,1.0,1
+cracking when stretching,tearing pain in soles,1.0,1
+tearing pain in soles,tearing in left side of back,1.0,1
+tearing pain in soles,gouty nodosities,1.0,1
+tearing pain in soles,eyes burn,1.0,1
+tearing pain in soles,warts,1.0,1
+tearing pain in soles,sticking in left side of back,1.0,1
+tearing pain in soles,rheumatism after gonorrhea,1.0,1
+tearing pain in soles,fig warts,1.0,1
+tearing pain in soles,chronic sclerotitis,1.0,1
+tearing pain in soles,rheumatism after suppressed gonorrhea,1.0,1
+tearing pain in soles,tearing pain in hands,1.0,1
+tearing pain in soles,sycotic conditions,1.0,1
+tearing pain in soles,gouty pains in big toe,1.0,1
+tearing pain in soles,stinging pain in left elbow,1.0,1
+tearing pain in soles,sweat only on uncovered parts,1.0,1
+tearing pain in soles,tearing pains in muscles,1.0,1
+tearing pain in soles,jerking pains in muscles,1.0,1
+tearing pain in soles,improved by motion,1.0,1
+tearing pain in soles,paralytic sensation in right arm,1.0,1
+tearing pain in soles,gouty inflammation of tendo achillis,1.0,1
+tearing pain in soles,eyes watery,1.0,1
+tearing pain in soles,cracking when stretching,1.0,1
+tearing pain in soles,iritis,1.0,1
+tearing pain in soles,chronic rheumatism of left elbow,1.0,1
+tearing pain in soles,episclerotitis,1.0,1
+tearing pain in soles,painful pressure in left side of back,1.0,1
+tearing pain in soles,pains in heels,1.0,1
+tearing pain in soles,aching in knee joints,1.0,1
+tearing pain in soles,sclerotitis,1.0,1
+tearing pain in soles,gouty pains in fingers,1.0,1
+tearing pain in soles,cracking in cervical vertebrae,1.0,1
+tearing pain in soles,aching in every joint of hands,1.0,1
+tearing pain in soles,gouty pains in finger joints,1.0,1
+tearing pain in soles,lancinating pain in small of back,1.0,1
+tearing pain in soles,rheumatic affections of eyes,1.0,1
+tearing pain in soles,worse in damp weather,1.0,1
+tearing pain in soles,hydrogenoid constitution,1.0,1
+tearing pain in soles,tearing pain in toes,1.0,1
+worse in damp weather,tearing in left side of back,1.0,1
+worse in damp weather,gouty nodosities,1.0,1
+worse in damp weather,eyes burn,1.0,1
+worse in damp weather,warts,1.0,1
+worse in damp weather,sticking in left side of back,1.0,1
+worse in damp weather,rheumatism after gonorrhea,1.0,1
+worse in damp weather,fig warts,1.0,1
+worse in damp weather,chronic sclerotitis,1.0,1
+worse in damp weather,rheumatism after suppressed gonorrhea,1.0,1
+worse in damp weather,tearing pain in hands,1.0,1
+worse in damp weather,sycotic conditions,1.0,1
+worse in damp weather,gouty pains in big toe,1.0,1
+worse in damp weather,stinging pain in left elbow,1.0,1
+worse in damp weather,sweat only on uncovered parts,1.0,1
+worse in damp weather,tearing pains in muscles,1.0,1
+worse in damp weather,jerking pains in muscles,1.0,1
+worse in damp weather,improved by motion,1.0,1
+worse in damp weather,paralytic sensation in right arm,1.0,1
+worse in damp weather,gouty inflammation of tendo achillis,1.0,1
+worse in damp weather,eyes watery,1.0,1
+worse in damp weather,cracking when stretching,1.0,1
+worse in damp weather,iritis,1.0,1
+worse in damp weather,chronic rheumatism of left elbow,1.0,1
+worse in damp weather,episclerotitis,1.0,1
+worse in damp weather,painful pressure in left side of back,1.0,1
+worse in damp weather,pains in heels,1.0,1
+worse in damp weather,aching in knee joints,1.0,1
+worse in damp weather,sclerotitis,1.0,1
+worse in damp weather,gouty pains in fingers,1.0,1
+worse in damp weather,cracking in cervical vertebrae,1.0,1
+worse in damp weather,aching in every joint of hands,1.0,1
+worse in damp weather,gouty pains in finger joints,1.0,1
+worse in damp weather,lancinating pain in small of back,1.0,1
+worse in damp weather,rheumatic affections of eyes,1.0,1
+worse in damp weather,hydrogenoid constitution,1.0,1
+worse in damp weather,tearing pain in toes,1.0,1
+worse in damp weather,tearing pain in soles,1.0,1

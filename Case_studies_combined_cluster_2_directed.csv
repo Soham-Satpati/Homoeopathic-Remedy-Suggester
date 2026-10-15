@@ -1,0 +1,58 @@
+### Cluster 2 — Symptoms (7)
+Symptom,Frequency
+stoppage of left nose,1
+dysmenorrhoea,1
+occasional throat pain,1
+occasional acidity,1
+giddiness,1
+eruptions on right palm,1
+bronchospasm and cold allergy,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+Arnica Montana,7
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+giddiness,stoppage of left nose,1.0,1
+giddiness,dysmenorrhoea,1.0,1
+giddiness,occasional throat pain,1.0,1
+giddiness,occasional acidity,1.0,1
+giddiness,eruptions on right palm,1.0,1
+giddiness,bronchospasm and cold allergy,1.0,1
+stoppage of left nose,dysmenorrhoea,1.0,1
+stoppage of left nose,occasional throat pain,1.0,1
+stoppage of left nose,occasional acidity,1.0,1
+stoppage of left nose,giddiness,1.0,1
+stoppage of left nose,eruptions on right palm,1.0,1
+stoppage of left nose,bronchospasm and cold allergy,1.0,1
+dysmenorrhoea,stoppage of left nose,1.0,1
+dysmenorrhoea,occasional throat pain,1.0,1
+dysmenorrhoea,occasional acidity,1.0,1
+dysmenorrhoea,giddiness,1.0,1
+dysmenorrhoea,eruptions on right palm,1.0,1
+dysmenorrhoea,bronchospasm and cold allergy,1.0,1
+occasional throat pain,stoppage of left nose,1.0,1
+occasional throat pain,dysmenorrhoea,1.0,1
+occasional throat pain,occasional acidity,1.0,1
+occasional throat pain,giddiness,1.0,1
+occasional throat pain,eruptions on right palm,1.0,1
+occasional throat pain,bronchospasm and cold allergy,1.0,1
+occasional acidity,stoppage of left nose,1.0,1
+occasional acidity,dysmenorrhoea,1.0,1
+occasional acidity,occasional throat pain,1.0,1
+occasional acidity,giddiness,1.0,1
+occasional acidity,eruptions on right palm,1.0,1
+occasional acidity,bronchospasm and cold allergy,1.0,1
+eruptions on right palm,stoppage of left nose,1.0,1
+eruptions on right palm,dysmenorrhoea,1.0,1
+eruptions on right palm,occasional throat pain,1.0,1
+eruptions on right palm,occasional acidity,1.0,1
+eruptions on right palm,giddiness,1.0,1
+eruptions on right palm,bronchospasm and cold allergy,1.0,1
+bronchospasm and cold allergy,stoppage of left nose,1.0,1
+bronchospasm and cold allergy,dysmenorrhoea,1.0,1
+bronchospasm and cold allergy,occasional throat pain,1.0,1
+bronchospasm and cold allergy,occasional acidity,1.0,1
+bronchospasm and cold allergy,giddiness,1.0,1
+bronchospasm and cold allergy,eruptions on right palm,1.0,1

@@ -1,0 +1,34 @@
+### Cluster 49 — Symptoms (5)
+Symptom,Frequency
+cramp-like pains in legs,1
+uterine cramps,1
+rheumatic pains in women,1
+menstrual irregularities,1
+cramp-like pains,2
+
+### Top Remedies
+Remedy,Symptoms_Covered
+viburnum opulus,5
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+menstrual irregularities,cramp-like pains in legs,1.0,1
+menstrual irregularities,uterine cramps,1.0,1
+menstrual irregularities,rheumatic pains in women,1.0,1
+menstrual irregularities,cramp-like pains,1.0,1
+uterine cramps,cramp-like pains in legs,1.0,1
+uterine cramps,rheumatic pains in women,1.0,1
+uterine cramps,menstrual irregularities,1.0,1
+uterine cramps,cramp-like pains,1.0,1
+rheumatic pains in women,cramp-like pains in legs,1.0,1
+rheumatic pains in women,uterine cramps,1.0,1
+rheumatic pains in women,menstrual irregularities,1.0,1
+rheumatic pains in women,cramp-like pains,1.0,1
+cramp-like pains in legs,uterine cramps,1.0,1
+cramp-like pains in legs,rheumatic pains in women,1.0,1
+cramp-like pains in legs,menstrual irregularities,1.0,1
+cramp-like pains in legs,cramp-like pains,1.0,1
+cramp-like pains,cramp-like pains in legs,1.0,1
+cramp-like pains,uterine cramps,1.0,1
+cramp-like pains,rheumatic pains in women,1.0,1
+cramp-like pains,menstrual irregularities,1.0,1

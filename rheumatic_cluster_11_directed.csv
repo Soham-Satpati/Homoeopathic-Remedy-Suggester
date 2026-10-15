@@ -1,0 +1,45 @@
+### Cluster 11 — Symptoms (6)
+Symptom,Frequency
+aching in wrists,1
+rheumatism of upper limbs,1
+rheumatic pains in hands,1
+tension in head,1
+rheumatic pains in right wrist,1
+especially right wrist,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+viola odorata,6
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+tension in head,aching in wrists,1.0,1
+tension in head,rheumatism of upper limbs,1.0,1
+tension in head,rheumatic pains in hands,1.0,1
+tension in head,rheumatic pains in right wrist,1.0,1
+tension in head,especially right wrist,1.0,1
+aching in wrists,rheumatism of upper limbs,1.0,1
+aching in wrists,rheumatic pains in hands,1.0,1
+aching in wrists,tension in head,1.0,1
+aching in wrists,rheumatic pains in right wrist,1.0,1
+aching in wrists,especially right wrist,1.0,1
+rheumatic pains in right wrist,aching in wrists,1.0,1
+rheumatic pains in right wrist,rheumatism of upper limbs,1.0,1
+rheumatic pains in right wrist,rheumatic pains in hands,1.0,1
+rheumatic pains in right wrist,tension in head,1.0,1
+rheumatic pains in right wrist,especially right wrist,1.0,1
+especially right wrist,aching in wrists,1.0,1
+especially right wrist,rheumatism of upper limbs,1.0,1
+especially right wrist,rheumatic pains in hands,1.0,1
+especially right wrist,tension in head,1.0,1
+especially right wrist,rheumatic pains in right wrist,1.0,1
+rheumatism of upper limbs,aching in wrists,1.0,1
+rheumatism of upper limbs,rheumatic pains in hands,1.0,1
+rheumatism of upper limbs,tension in head,1.0,1
+rheumatism of upper limbs,rheumatic pains in right wrist,1.0,1
+rheumatism of upper limbs,especially right wrist,1.0,1
+rheumatic pains in hands,aching in wrists,1.0,1
+rheumatic pains in hands,rheumatism of upper limbs,1.0,1
+rheumatic pains in hands,tension in head,1.0,1
+rheumatic pains in hands,rheumatic pains in right wrist,1.0,1
+rheumatic pains in hands,especially right wrist,1.0,1

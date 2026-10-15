@@ -1,0 +1,92 @@
+### Cluster 86 — Symptoms (11)
+Symptom,Frequency
+delayed healing,1
+weakness in wrists,3
+dissatisfaction,1
+stitching pain in hips,2
+growing pains in legs,1
+rheumatic pains in bones,1
+rheumatism in growing children,1
+rheumatism with urinary symptoms,1
+rheumatic pains with urinary issues,1
+stiffness in lumbar region,1
+contractive pains,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+calcarea phosphorica,7
+cannabis sativa,6
+capsicum,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+rheumatic pains with urinary issues,weakness in wrists,1.0,1
+rheumatic pains with urinary issues,rheumatism with urinary symptoms,1.0,1
+rheumatic pains with urinary issues,stitching pain in hips,1.0,1
+rheumatic pains with urinary issues,stiffness in lumbar region,1.0,1
+rheumatic pains with urinary issues,contractive pains,1.0,1
+stitching pain in hips,delayed healing,0.5,1
+stitching pain in hips,weakness in wrists,1.0,2
+stitching pain in hips,rheumatism with urinary symptoms,0.5,1
+stitching pain in hips,dissatisfaction,0.5,1
+stitching pain in hips,rheumatic pains with urinary issues,0.5,1
+stitching pain in hips,stiffness in lumbar region,0.5,1
+stitching pain in hips,growing pains in legs,0.5,1
+stitching pain in hips,rheumatic pains in bones,0.5,1
+stitching pain in hips,rheumatism in growing children,0.5,1
+stitching pain in hips,contractive pains,0.5,1
+stiffness in lumbar region,weakness in wrists,1.0,1
+stiffness in lumbar region,rheumatism with urinary symptoms,1.0,1
+stiffness in lumbar region,rheumatic pains with urinary issues,1.0,1
+stiffness in lumbar region,stitching pain in hips,1.0,1
+stiffness in lumbar region,contractive pains,1.0,1
+delayed healing,weakness in wrists,1.0,1
+delayed healing,dissatisfaction,1.0,1
+delayed healing,stitching pain in hips,1.0,1
+delayed healing,growing pains in legs,1.0,1
+delayed healing,rheumatic pains in bones,1.0,1
+delayed healing,rheumatism in growing children,1.0,1
+rheumatic pains in bones,delayed healing,1.0,1
+rheumatic pains in bones,weakness in wrists,1.0,1
+rheumatic pains in bones,dissatisfaction,1.0,1
+rheumatic pains in bones,stitching pain in hips,1.0,1
+rheumatic pains in bones,growing pains in legs,1.0,1
+rheumatic pains in bones,rheumatism in growing children,1.0,1
+contractive pains,weakness in wrists,1.0,1
+contractive pains,rheumatism with urinary symptoms,1.0,1
+contractive pains,rheumatic pains with urinary issues,1.0,1
+contractive pains,stitching pain in hips,1.0,1
+contractive pains,stiffness in lumbar region,1.0,1
+dissatisfaction,delayed healing,1.0,1
+dissatisfaction,weakness in wrists,1.0,1
+dissatisfaction,stitching pain in hips,1.0,1
+dissatisfaction,growing pains in legs,1.0,1
+dissatisfaction,rheumatic pains in bones,1.0,1
+dissatisfaction,rheumatism in growing children,1.0,1
+weakness in wrists,delayed healing,0.3333,1
+weakness in wrists,rheumatism with urinary symptoms,0.3333,1
+weakness in wrists,dissatisfaction,0.3333,1
+weakness in wrists,rheumatic pains with urinary issues,0.3333,1
+weakness in wrists,stitching pain in hips,0.6667,2
+weakness in wrists,stiffness in lumbar region,0.3333,1
+weakness in wrists,growing pains in legs,0.3333,1
+weakness in wrists,rheumatic pains in bones,0.3333,1
+weakness in wrists,rheumatism in growing children,0.3333,1
+weakness in wrists,contractive pains,0.3333,1
+rheumatism with urinary symptoms,weakness in wrists,1.0,1
+rheumatism with urinary symptoms,rheumatic pains with urinary issues,1.0,1
+rheumatism with urinary symptoms,stitching pain in hips,1.0,1
+rheumatism with urinary symptoms,stiffness in lumbar region,1.0,1
+rheumatism with urinary symptoms,contractive pains,1.0,1
+rheumatism in growing children,delayed healing,1.0,1
+rheumatism in growing children,weakness in wrists,1.0,1
+rheumatism in growing children,dissatisfaction,1.0,1
+rheumatism in growing children,stitching pain in hips,1.0,1
+rheumatism in growing children,growing pains in legs,1.0,1
+rheumatism in growing children,rheumatic pains in bones,1.0,1
+growing pains in legs,delayed healing,1.0,1
+growing pains in legs,weakness in wrists,1.0,1
+growing pains in legs,dissatisfaction,1.0,1
+growing pains in legs,stitching pain in hips,1.0,1
+growing pains in legs,rheumatic pains in bones,1.0,1
+growing pains in legs,rheumatism in growing children,1.0,1

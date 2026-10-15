@@ -1,0 +1,34 @@
+### Cluster 107 — Symptoms (5)
+Symptom,Frequency
+joints cold to touch,1
+pains ascend upward,1
+coolness of affected parts,1
+compare colchicum rhus tox,1
+pains ascend from feet upward,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+ledum palustre,5
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+joints cold to touch,pains ascend upward,1.0,1
+joints cold to touch,coolness of affected parts,1.0,1
+joints cold to touch,compare colchicum rhus tox,1.0,1
+joints cold to touch,pains ascend from feet upward,1.0,1
+coolness of affected parts,joints cold to touch,1.0,1
+coolness of affected parts,pains ascend upward,1.0,1
+coolness of affected parts,compare colchicum rhus tox,1.0,1
+coolness of affected parts,pains ascend from feet upward,1.0,1
+compare colchicum rhus tox,joints cold to touch,1.0,1
+compare colchicum rhus tox,pains ascend upward,1.0,1
+compare colchicum rhus tox,coolness of affected parts,1.0,1
+compare colchicum rhus tox,pains ascend from feet upward,1.0,1
+pains ascend from feet upward,joints cold to touch,1.0,1
+pains ascend from feet upward,pains ascend upward,1.0,1
+pains ascend from feet upward,coolness of affected parts,1.0,1
+pains ascend from feet upward,compare colchicum rhus tox,1.0,1
+pains ascend upward,joints cold to touch,1.0,1
+pains ascend upward,coolness of affected parts,1.0,1
+pains ascend upward,compare colchicum rhus tox,1.0,1
+pains ascend upward,pains ascend from feet upward,1.0,1

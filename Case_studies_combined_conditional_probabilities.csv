@@ -1,0 +1,264 @@
+Symptom1,Symptom2,Remedies_S1,Remedies_S2,Shared_Remedies,P_B_given_A,P_A_given_B
+increased appetite,irregular stool,2,2,2,1.0,1.0
+stoppage of left nose,dysmenorrhoea,1,1,1,1.0,1.0
+stoppage of left nose,occasional throat pain,1,1,1,1.0,1.0
+stoppage of left nose,occasional acidity,1,1,1,1.0,1.0
+stoppage of left nose,giddiness,1,1,1,1.0,1.0
+stoppage of left nose,eruptions on right palm,1,1,1,1.0,1.0
+stoppage of left nose,bronchospasm and cold allergy,1,1,1,1.0,1.0
+trembling of hands,acne,1,1,1,1.0,1.0
+trembling of hands,vomiting tendency,1,1,1,1.0,1.0
+trembling of hands,recurrent common cold with dyspnoea,1,1,1,1.0,1.0
+trembling of hands,itching on soles,1,1,1,1.0,1.0
+acne,vomiting tendency,1,1,1,1.0,1.0
+acne,recurrent common cold with dyspnoea,1,1,1,1.0,1.0
+acne,itching on soles,1,1,1,1.0,1.0
+disturbed sleep,pain during intercourse,1,1,1,1.0,1.0
+disturbed sleep,blockage of left ear,1,1,1,1.0,1.0
+vomiting tendency,recurrent common cold with dyspnoea,1,1,1,1.0,1.0
+vomiting tendency,itching on soles,1,1,1,1.0,1.0
+pain during intercourse,blockage of left ear,1,1,1,1.0,1.0
+irritability and impulsiveness,dirty tongue and halitosis,1,1,1,1.0,1.0
+dysmenorrhoea,occasional throat pain,1,1,1,1.0,1.0
+dysmenorrhoea,occasional acidity,1,1,1,1.0,1.0
+dysmenorrhoea,giddiness,1,1,1,1.0,1.0
+dysmenorrhoea,eruptions on right palm,1,1,1,1.0,1.0
+dysmenorrhoea,bronchospasm and cold allergy,1,1,1,1.0,1.0
+occasional throat pain,occasional acidity,1,1,1,1.0,1.0
+occasional throat pain,giddiness,1,1,1,1.0,1.0
+occasional throat pain,eruptions on right palm,1,1,1,1.0,1.0
+occasional throat pain,bronchospasm and cold allergy,1,1,1,1.0,1.0
+occasional acidity,giddiness,1,1,1,1.0,1.0
+occasional acidity,eruptions on right palm,1,1,1,1.0,1.0
+occasional acidity,bronchospasm and cold allergy,1,1,1,1.0,1.0
+wind in stomach and abdomen,"numbness and flying, shifting pains",2,2,2,1.0,1.0
+giddiness,eruptions on right palm,1,1,1,1.0,1.0
+giddiness,bronchospasm and cold allergy,1,1,1,1.0,1.0
+recurrent common cold with dyspnoea,itching on soles,1,1,1,1.0,1.0
+eruptions on right palm,bronchospasm and cold allergy,1,1,1,1.0,1.0
+sweat in axilla,suppression of anger and emotions,2,3,2,1.0,0.6667
+dryness and constriction,lack of strength,2,3,2,1.0,0.6667
+dryness and constriction,"scanty, hot, yellow urine",2,3,2,1.0,0.6667
+wind in stomach and abdomen,profuse menstruation,2,3,2,1.0,0.6667
+wind in stomach and abdomen,palpitation and tachycardia,2,3,2,1.0,0.6667
+"numbness and flying, shifting pains",palpitation and tachycardia,2,3,2,1.0,0.6667
+lack of strength,headache at vertex,3,5,3,1.0,0.6
+trembling of hands,irregular stool,1,2,1,1.0,0.5
+trembling of hands,recurrent dislocation of right shoulder joint,1,2,1,1.0,0.5
+acne,recurrent dislocation of right shoulder joint,1,2,1,1.0,0.5
+vomiting tendency,recurrent dislocation of right shoulder joint,1,2,1,1.0,0.5
+irritability and impulsiveness,profuse thirst,1,2,1,1.0,0.5
+dirty tongue and halitosis,profuse thirst,1,2,1,1.0,0.5
+sweat in axilla,chilly patient,2,5,2,1.0,0.4
+dryness and constriction,headache at vertex,2,5,2,1.0,0.4
+increased appetite,chilly patient,2,5,2,1.0,0.4
+addiction to chewing tobacco,chilly patient,2,5,2,1.0,0.4
+irregular stool,chilly patient,2,5,2,1.0,0.4
+wind in stomach and abdomen,headache at vertex,2,5,2,1.0,0.4
+stoppage of left nose,lack of strength,1,3,1,1.0,0.3333
+stoppage of left nose,constipation,1,3,1,1.0,0.3333
+stoppage of left nose,suppression of anger and emotions,1,3,1,1.0,0.3333
+trembling of hands,pain and stiffness,1,3,1,1.0,0.3333
+trembling of hands,profuse menstruation,1,3,1,1.0,0.3333
+trembling of hands,suppression of anger and emotions,1,3,1,1.0,0.3333
+acne,pain and stiffness,1,3,1,1.0,0.3333
+acne,profuse menstruation,1,3,1,1.0,0.3333
+acne,suppression of anger and emotions,1,3,1,1.0,0.3333
+disturbed sleep,suppression of anger and emotions,1,3,1,1.0,0.3333
+disturbed sleep,palpitation and tachycardia,1,3,1,1.0,0.3333
+vomiting tendency,pain and stiffness,1,3,1,1.0,0.3333
+vomiting tendency,profuse menstruation,1,3,1,1.0,0.3333
+vomiting tendency,suppression of anger and emotions,1,3,1,1.0,0.3333
+pain during intercourse,suppression of anger and emotions,1,3,1,1.0,0.3333
+pain during intercourse,palpitation and tachycardia,1,3,1,1.0,0.3333
+irritability and impulsiveness,"scanty, hot, yellow urine",1,3,1,1.0,0.3333
+dysmenorrhoea,suppression of anger and emotions,1,3,1,1.0,0.3333
+occasional throat pain,suppression of anger and emotions,1,3,1,1.0,0.3333
+occasional acidity,suppression of anger and emotions,1,3,1,1.0,0.3333
+wind in stomach and abdomen,debility,2,6,2,1.0,0.3333
+giddiness,suppression of anger and emotions,1,3,1,1.0,0.3333
+dirty tongue and halitosis,"scanty, hot, yellow urine",1,3,1,1.0,0.3333
+blockage of left ear,suppression of anger and emotions,1,3,1,1.0,0.3333
+blockage of left ear,palpitation and tachycardia,1,3,1,1.0,0.3333
+"numbness and flying, shifting pains",debility,2,6,2,1.0,0.3333
+recurrent common cold with dyspnoea,suppression of anger and emotions,1,3,1,1.0,0.3333
+itching on soles,suppression of anger and emotions,1,3,1,1.0,0.3333
+eruptions on right palm,suppression of anger and emotions,1,3,1,1.0,0.3333
+dryness and constriction,rheumatic fever with joint pain and swelling,2,9,2,1.0,0.2222
+stoppage of left nose,headache at vertex,1,5,1,1.0,0.2
+stoppage of left nose,chilly patient,1,5,1,1.0,0.2
+trembling of hands,chilly patient,1,5,1,1.0,0.2
+acne,chilly patient,1,5,1,1.0,0.2
+disturbed sleep,chilly patient,1,5,1,1.0,0.2
+vomiting tendency,chilly patient,1,5,1,1.0,0.2
+pain during intercourse,chilly patient,1,5,1,1.0,0.2
+irritability and impulsiveness,chilly patient,1,5,1,1.0,0.2
+dysmenorrhoea,headache at vertex,1,5,1,1.0,0.2
+dysmenorrhoea,chilly patient,1,5,1,1.0,0.2
+occasional throat pain,headache at vertex,1,5,1,1.0,0.2
+occasional throat pain,chilly patient,1,5,1,1.0,0.2
+occasional acidity,headache at vertex,1,5,1,1.0,0.2
+occasional acidity,chilly patient,1,5,1,1.0,0.2
+giddiness,headache at vertex,1,5,1,1.0,0.2
+giddiness,chilly patient,1,5,1,1.0,0.2
+dirty tongue and halitosis,chilly patient,1,5,1,1.0,0.2
+blockage of left ear,chilly patient,1,5,1,1.0,0.2
+addiction to chewing tobacco,chronic rheumatic arthritis,2,17,2,1.0,0.1176
+stoppage of left nose,chronic rheumatic arthritis,1,17,1,1.0,0.0588
+constipation,desire for sweets,3,2,2,0.6667,1.0
+profuse menstruation,"numbness and flying, shifting pains",3,2,2,0.6667,1.0
+"scanty, hot, yellow urine",profuse thirst,3,2,2,0.6667,1.0
+lack of strength,"scanty, hot, yellow urine",3,3,2,0.6667,0.6667
+profuse menstruation,palpitation and tachycardia,3,3,2,0.6667,0.6667
+profuse menstruation,headache at vertex,3,5,2,0.6667,0.4
+profuse menstruation,debility,3,6,2,0.6667,0.3333
+lack of strength,rheumatic fever with joint pain and swelling,3,9,2,0.6667,0.2222
+lack of strength,chronic rheumatic arthritis,3,17,2,0.6667,0.1176
+chilly patient,suppression of anger and emotions,5,3,3,0.6,1.0
+sweat in axilla,stoppage of left nose,2,1,1,0.5,1.0
+sweat in axilla,trembling of hands,2,1,1,0.5,1.0
+sweat in axilla,acne,2,1,1,0.5,1.0
+sweat in axilla,vomiting tendency,2,1,1,0.5,1.0
+sweat in axilla,dysmenorrhoea,2,1,1,0.5,1.0
+sweat in axilla,occasional throat pain,2,1,1,0.5,1.0
+sweat in axilla,occasional acidity,2,1,1,0.5,1.0
+sweat in axilla,giddiness,2,1,1,0.5,1.0
+sweat in axilla,recurrent common cold with dyspnoea,2,1,1,0.5,1.0
+sweat in axilla,itching on soles,2,1,1,0.5,1.0
+sweat in axilla,eruptions on right palm,2,1,1,0.5,1.0
+sweat in axilla,bronchospasm and cold allergy,2,1,1,0.5,1.0
+increased appetite,trembling of hands,2,1,1,0.5,1.0
+increased appetite,acne,2,1,1,0.5,1.0
+increased appetite,vomiting tendency,2,1,1,0.5,1.0
+increased appetite,irritability and impulsiveness,2,1,1,0.5,1.0
+increased appetite,dirty tongue and halitosis,2,1,1,0.5,1.0
+increased appetite,recurrent common cold with dyspnoea,2,1,1,0.5,1.0
+increased appetite,itching on soles,2,1,1,0.5,1.0
+addiction to chewing tobacco,disturbed sleep,2,1,1,0.5,1.0
+addiction to chewing tobacco,pain during intercourse,2,1,1,0.5,1.0
+addiction to chewing tobacco,irritability and impulsiveness,2,1,1,0.5,1.0
+addiction to chewing tobacco,dirty tongue and halitosis,2,1,1,0.5,1.0
+addiction to chewing tobacco,blockage of left ear,2,1,1,0.5,1.0
+irregular stool,acne,2,1,1,0.5,1.0
+irregular stool,vomiting tendency,2,1,1,0.5,1.0
+irregular stool,irritability and impulsiveness,2,1,1,0.5,1.0
+irregular stool,dirty tongue and halitosis,2,1,1,0.5,1.0
+irregular stool,recurrent common cold with dyspnoea,2,1,1,0.5,1.0
+irregular stool,itching on soles,2,1,1,0.5,1.0
+recurrent dislocation of right shoulder joint,recurrent common cold with dyspnoea,2,1,1,0.5,1.0
+recurrent dislocation of right shoulder joint,itching on soles,2,1,1,0.5,1.0
+sluggish circulation with coldness,arterial blockage,2,1,1,0.5,1.0
+sweat in axilla,increased appetite,2,2,1,0.5,0.5
+sweat in axilla,irregular stool,2,2,1,0.5,0.5
+sweat in axilla,recurrent dislocation of right shoulder joint,2,2,1,0.5,0.5
+dryness and constriction,profuse thirst,2,2,1,0.5,0.5
+increased appetite,addiction to chewing tobacco,2,2,1,0.5,0.5
+increased appetite,recurrent dislocation of right shoulder joint,2,2,1,0.5,0.5
+increased appetite,profuse thirst,2,2,1,0.5,0.5
+addiction to chewing tobacco,irregular stool,2,2,1,0.5,0.5
+addiction to chewing tobacco,profuse thirst,2,2,1,0.5,0.5
+irregular stool,recurrent dislocation of right shoulder joint,2,2,1,0.5,0.5
+irregular stool,profuse thirst,2,2,1,0.5,0.5
+sweat in axilla,lack of strength,2,3,1,0.5,0.3333
+sweat in axilla,constipation,2,3,1,0.5,0.3333
+sweat in axilla,pain and stiffness,2,3,1,0.5,0.3333
+sweat in axilla,profuse menstruation,2,3,1,0.5,0.3333
+increased appetite,pain and stiffness,2,3,1,0.5,0.3333
+increased appetite,profuse menstruation,2,3,1,0.5,0.3333
+increased appetite,"scanty, hot, yellow urine",2,3,1,0.5,0.3333
+increased appetite,suppression of anger and emotions,2,3,1,0.5,0.3333
+addiction to chewing tobacco,"scanty, hot, yellow urine",2,3,1,0.5,0.3333
+addiction to chewing tobacco,suppression of anger and emotions,2,3,1,0.5,0.3333
+addiction to chewing tobacco,palpitation and tachycardia,2,3,1,0.5,0.3333
+irregular stool,pain and stiffness,2,3,1,0.5,0.3333
+irregular stool,profuse menstruation,2,3,1,0.5,0.3333
+irregular stool,"scanty, hot, yellow urine",2,3,1,0.5,0.3333
+irregular stool,suppression of anger and emotions,2,3,1,0.5,0.3333
+recurrent dislocation of right shoulder joint,profuse menstruation,2,3,1,0.5,0.3333
+recurrent dislocation of right shoulder joint,suppression of anger and emotions,2,3,1,0.5,0.3333
+sweat in axilla,headache at vertex,2,5,1,0.5,0.2
+recurrent dislocation of right shoulder joint,chilly patient,2,5,1,0.5,0.2
+increased appetite,rheumatic fever with joint pain and swelling,2,9,1,0.5,0.1111
+addiction to chewing tobacco,rheumatic fever with joint pain and swelling,2,9,1,0.5,0.1111
+irregular stool,rheumatic fever with joint pain and swelling,2,9,1,0.5,0.1111
+sweat in axilla,chronic rheumatic arthritis,2,17,1,0.5,0.0588
+dryness and constriction,chronic rheumatic arthritis,2,17,1,0.5,0.0588
+increased appetite,chronic rheumatic arthritis,2,17,1,0.5,0.0588
+irregular stool,chronic rheumatic arthritis,2,17,1,0.5,0.0588
+chronic rheumatic arthritis,rheumatic fever with joint pain and swelling,17,9,8,0.4706,0.8889
+headache at vertex,"numbness and flying, shifting pains",5,2,2,0.4,1.0
+headache at vertex,"scanty, hot, yellow urine",5,3,2,0.4,0.6667
+headache at vertex,palpitation and tachycardia,5,3,2,0.4,0.6667
+headache at vertex,debility,5,6,2,0.4,0.3333
+lack of strength,dysmenorrhoea,3,1,1,0.3333,1.0
+lack of strength,occasional throat pain,3,1,1,0.3333,1.0
+lack of strength,occasional acidity,3,1,1,0.3333,1.0
+lack of strength,giddiness,3,1,1,0.3333,1.0
+lack of strength,eruptions on right palm,3,1,1,0.3333,1.0
+lack of strength,bronchospasm and cold allergy,3,1,1,0.3333,1.0
+constipation,dysmenorrhoea,3,1,1,0.3333,1.0
+constipation,occasional throat pain,3,1,1,0.3333,1.0
+constipation,occasional acidity,3,1,1,0.3333,1.0
+constipation,giddiness,3,1,1,0.3333,1.0
+constipation,eruptions on right palm,3,1,1,0.3333,1.0
+constipation,bronchospasm and cold allergy,3,1,1,0.3333,1.0
+rheumatic fever with joint pain and swelling,"scanty, hot, yellow urine",9,3,3,0.3333,1.0
+pain and stiffness,recurrent common cold with dyspnoea,3,1,1,0.3333,1.0
+pain and stiffness,itching on soles,3,1,1,0.3333,1.0
+profuse menstruation,recurrent common cold with dyspnoea,3,1,1,0.3333,1.0
+profuse menstruation,itching on soles,3,1,1,0.3333,1.0
+suppression of anger and emotions,bronchospasm and cold allergy,3,1,1,0.3333,1.0
+debility,palpitation and tachycardia,6,3,2,0.3333,0.6667
+lack of strength,profuse thirst,3,2,1,0.3333,0.5
+pain and stiffness,recurrent dislocation of right shoulder joint,3,2,1,0.3333,0.5
+lack of strength,constipation,3,3,1,0.3333,0.3333
+lack of strength,suppression of anger and emotions,3,3,1,0.3333,0.3333
+constipation,suppression of anger and emotions,3,3,1,0.3333,0.3333
+pain and stiffness,profuse menstruation,3,3,1,0.3333,0.3333
+pain and stiffness,suppression of anger and emotions,3,3,1,0.3333,0.3333
+profuse menstruation,suppression of anger and emotions,3,3,1,0.3333,0.3333
+suppression of anger and emotions,palpitation and tachycardia,3,3,1,0.3333,0.3333
+lack of strength,chilly patient,3,5,1,0.3333,0.2
+constipation,headache at vertex,3,5,1,0.3333,0.2
+constipation,chilly patient,3,5,1,0.3333,0.2
+pain and stiffness,chilly patient,3,5,1,0.3333,0.2
+profuse menstruation,chilly patient,3,5,1,0.3333,0.2
+"scanty, hot, yellow urine",chilly patient,3,5,1,0.3333,0.2
+constipation,rheumatic fever with joint pain and swelling,3,9,1,0.3333,0.1111
+chronic rheumatic arthritis,chilly patient,17,5,4,0.2353,0.8
+rheumatic fever with joint pain and swelling,profuse thirst,9,2,2,0.2222,1.0
+rheumatic fever with joint pain and swelling,headache at vertex,9,5,2,0.2222,0.4
+headache at vertex,eruptions on right palm,5,1,1,0.2,1.0
+headache at vertex,bronchospasm and cold allergy,5,1,1,0.2,1.0
+chilly patient,recurrent common cold with dyspnoea,5,1,1,0.2,1.0
+chilly patient,itching on soles,5,1,1,0.2,1.0
+chilly patient,eruptions on right palm,5,1,1,0.2,1.0
+chilly patient,bronchospasm and cold allergy,5,1,1,0.2,1.0
+headache at vertex,profuse thirst,5,2,1,0.2,0.5
+chilly patient,profuse thirst,5,2,1,0.2,0.5
+headache at vertex,suppression of anger and emotions,5,3,1,0.2,0.3333
+chilly patient,palpitation and tachycardia,5,3,1,0.2,0.3333
+headache at vertex,chilly patient,5,5,1,0.2,0.2
+chronic rheumatic arthritis,constipation,17,3,3,0.1765,1.0
+chronic rheumatic arthritis,desire for sweets,17,2,2,0.1176,1.0
+chronic rheumatic arthritis,profuse thirst,17,2,2,0.1176,1.0
+chronic rheumatic arthritis,"scanty, hot, yellow urine",17,3,2,0.1176,0.6667
+chronic rheumatic arthritis,suppression of anger and emotions,17,3,2,0.1176,0.6667
+chronic rheumatic arthritis,headache at vertex,17,5,2,0.1176,0.4
+rheumatic fever with joint pain and swelling,irritability and impulsiveness,9,1,1,0.1111,1.0
+rheumatic fever with joint pain and swelling,dirty tongue and halitosis,9,1,1,0.1111,1.0
+rheumatic fever with joint pain and swelling,desire for sweets,9,2,1,0.1111,0.5
+rheumatic fever with joint pain and swelling,chilly patient,9,5,1,0.1111,0.2
+chronic rheumatic arthritis,disturbed sleep,17,1,1,0.0588,1.0
+chronic rheumatic arthritis,pain during intercourse,17,1,1,0.0588,1.0
+chronic rheumatic arthritis,irritability and impulsiveness,17,1,1,0.0588,1.0
+chronic rheumatic arthritis,dysmenorrhoea,17,1,1,0.0588,1.0
+chronic rheumatic arthritis,occasional throat pain,17,1,1,0.0588,1.0
+chronic rheumatic arthritis,occasional acidity,17,1,1,0.0588,1.0
+chronic rheumatic arthritis,giddiness,17,1,1,0.0588,1.0
+chronic rheumatic arthritis,dirty tongue and halitosis,17,1,1,0.0588,1.0
+chronic rheumatic arthritis,blockage of left ear,17,1,1,0.0588,1.0
+chronic rheumatic arthritis,eruptions on right palm,17,1,1,0.0588,1.0
+chronic rheumatic arthritis,bronchospasm and cold allergy,17,1,1,0.0588,1.0
+chronic rheumatic arthritis,pain and stiffness,17,3,1,0.0588,0.3333
+chronic rheumatic arthritis,palpitation and tachycardia,17,3,1,0.0588,0.3333

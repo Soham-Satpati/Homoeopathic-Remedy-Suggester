@@ -1,0 +1,46 @@
+### Cluster 105 — Symptoms (6)
+Symptom,Frequency
+aching in arms,2
+compare mercurius nux vomica silicea,1
+aching worse at night,3
+rheumatic troubles with great sensitiveness,1
+great sensitiveness to touch,1
+joints sensitive to touch,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+hepar sulphuris,6
+ignatia amara,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+rheumatic troubles with great sensitiveness,compare mercurius nux vomica silicea,1.0,1
+rheumatic troubles with great sensitiveness,aching worse at night,1.0,1
+rheumatic troubles with great sensitiveness,great sensitiveness to touch,1.0,1
+rheumatic troubles with great sensitiveness,joints sensitive to touch,1.0,1
+rheumatic troubles with great sensitiveness,aching in arms,1.0,1
+compare mercurius nux vomica silicea,aching worse at night,1.0,1
+compare mercurius nux vomica silicea,rheumatic troubles with great sensitiveness,1.0,1
+compare mercurius nux vomica silicea,great sensitiveness to touch,1.0,1
+compare mercurius nux vomica silicea,joints sensitive to touch,1.0,1
+compare mercurius nux vomica silicea,aching in arms,1.0,1
+aching in arms,compare mercurius nux vomica silicea,0.5,1
+aching in arms,aching worse at night,0.5,1
+aching in arms,rheumatic troubles with great sensitiveness,0.5,1
+aching in arms,great sensitiveness to touch,0.5,1
+aching in arms,joints sensitive to touch,0.5,1
+great sensitiveness to touch,compare mercurius nux vomica silicea,1.0,1
+great sensitiveness to touch,aching worse at night,1.0,1
+great sensitiveness to touch,rheumatic troubles with great sensitiveness,1.0,1
+great sensitiveness to touch,joints sensitive to touch,1.0,1
+great sensitiveness to touch,aching in arms,1.0,1
+joints sensitive to touch,compare mercurius nux vomica silicea,1.0,1
+joints sensitive to touch,aching worse at night,1.0,1
+joints sensitive to touch,rheumatic troubles with great sensitiveness,1.0,1
+joints sensitive to touch,great sensitiveness to touch,1.0,1
+joints sensitive to touch,aching in arms,1.0,1
+aching worse at night,compare mercurius nux vomica silicea,1.0,1
+aching worse at night,rheumatic troubles with great sensitiveness,1.0,1
+aching worse at night,great sensitiveness to touch,1.0,1
+aching worse at night,joints sensitive to touch,1.0,1
+aching worse at night,aching in arms,1.0,1

@@ -1,0 +1,634 @@
+### Cluster 52 — Symptoms (25)
+Symptom,Frequency
+tarsal joints swollen,1
+sciatica with contractions of hamstrings in chronic cases,1
+all muscles are painful and heavy,1
+stiffness and arthritic swellings,1
+shortening contraction of muscles,1
+great toe red with tearing and stinging,1
+stitches in muscles and joints of hands and fingers,1
+many and varied usually constitutional,1
+children late in learning to walk,1
+painful stiffness of neck,1
+spine oversensitive to touch or pressure,1
+tension and drawing,1
+periodical gout attacks,1
+sprained pain in ankles and knees,1
+lameness in ankle joint,1
+gnawing pains in knee,1
+worse while straightening up,1
+chronic rheumatism of joints,1
+sensation as of a sprain in shoulder joint,1
+pain in back from stooping,1
+painful tension in bends of limbs,1
+drawing pain in right thigh extending to knee,1
+housemaid’s knee,1
+can move finger joints with difficulty,1
+constantly moving limbs,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+natrum muriaticum,25
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+sciatica with contractions of hamstrings in chronic cases,tarsal joints swollen,1.0,1
+sciatica with contractions of hamstrings in chronic cases,all muscles are painful and heavy,1.0,1
+sciatica with contractions of hamstrings in chronic cases,stiffness and arthritic swellings,1.0,1
+sciatica with contractions of hamstrings in chronic cases,shortening contraction of muscles,1.0,1
+sciatica with contractions of hamstrings in chronic cases,great toe red with tearing and stinging,1.0,1
+sciatica with contractions of hamstrings in chronic cases,stitches in muscles and joints of hands and fingers,1.0,1
+sciatica with contractions of hamstrings in chronic cases,many and varied usually constitutional,1.0,1
+sciatica with contractions of hamstrings in chronic cases,children late in learning to walk,1.0,1
+sciatica with contractions of hamstrings in chronic cases,painful stiffness of neck,1.0,1
+sciatica with contractions of hamstrings in chronic cases,spine oversensitive to touch or pressure,1.0,1
+sciatica with contractions of hamstrings in chronic cases,tension and drawing,1.0,1
+sciatica with contractions of hamstrings in chronic cases,periodical gout attacks,1.0,1
+sciatica with contractions of hamstrings in chronic cases,sprained pain in ankles and knees,1.0,1
+sciatica with contractions of hamstrings in chronic cases,lameness in ankle joint,1.0,1
+sciatica with contractions of hamstrings in chronic cases,gnawing pains in knee,1.0,1
+sciatica with contractions of hamstrings in chronic cases,worse while straightening up,1.0,1
+sciatica with contractions of hamstrings in chronic cases,chronic rheumatism of joints,1.0,1
+sciatica with contractions of hamstrings in chronic cases,sensation as of a sprain in shoulder joint,1.0,1
+sciatica with contractions of hamstrings in chronic cases,pain in back from stooping,1.0,1
+sciatica with contractions of hamstrings in chronic cases,painful tension in bends of limbs,1.0,1
+sciatica with contractions of hamstrings in chronic cases,drawing pain in right thigh extending to knee,1.0,1
+sciatica with contractions of hamstrings in chronic cases,housemaid’s knee,1.0,1
+sciatica with contractions of hamstrings in chronic cases,can move finger joints with difficulty,1.0,1
+sciatica with contractions of hamstrings in chronic cases,constantly moving limbs,1.0,1
+painful stiffness of neck,tarsal joints swollen,1.0,1
+painful stiffness of neck,sciatica with contractions of hamstrings in chronic cases,1.0,1
+painful stiffness of neck,all muscles are painful and heavy,1.0,1
+painful stiffness of neck,stiffness and arthritic swellings,1.0,1
+painful stiffness of neck,shortening contraction of muscles,1.0,1
+painful stiffness of neck,great toe red with tearing and stinging,1.0,1
+painful stiffness of neck,stitches in muscles and joints of hands and fingers,1.0,1
+painful stiffness of neck,many and varied usually constitutional,1.0,1
+painful stiffness of neck,children late in learning to walk,1.0,1
+painful stiffness of neck,spine oversensitive to touch or pressure,1.0,1
+painful stiffness of neck,tension and drawing,1.0,1
+painful stiffness of neck,periodical gout attacks,1.0,1
+painful stiffness of neck,sprained pain in ankles and knees,1.0,1
+painful stiffness of neck,lameness in ankle joint,1.0,1
+painful stiffness of neck,gnawing pains in knee,1.0,1
+painful stiffness of neck,worse while straightening up,1.0,1
+painful stiffness of neck,chronic rheumatism of joints,1.0,1
+painful stiffness of neck,sensation as of a sprain in shoulder joint,1.0,1
+painful stiffness of neck,pain in back from stooping,1.0,1
+painful stiffness of neck,painful tension in bends of limbs,1.0,1
+painful stiffness of neck,drawing pain in right thigh extending to knee,1.0,1
+painful stiffness of neck,housemaid’s knee,1.0,1
+painful stiffness of neck,can move finger joints with difficulty,1.0,1
+painful stiffness of neck,constantly moving limbs,1.0,1
+stitches in muscles and joints of hands and fingers,tarsal joints swollen,1.0,1
+stitches in muscles and joints of hands and fingers,sciatica with contractions of hamstrings in chronic cases,1.0,1
+stitches in muscles and joints of hands and fingers,all muscles are painful and heavy,1.0,1
+stitches in muscles and joints of hands and fingers,stiffness and arthritic swellings,1.0,1
+stitches in muscles and joints of hands and fingers,shortening contraction of muscles,1.0,1
+stitches in muscles and joints of hands and fingers,great toe red with tearing and stinging,1.0,1
+stitches in muscles and joints of hands and fingers,many and varied usually constitutional,1.0,1
+stitches in muscles and joints of hands and fingers,children late in learning to walk,1.0,1
+stitches in muscles and joints of hands and fingers,painful stiffness of neck,1.0,1
+stitches in muscles and joints of hands and fingers,spine oversensitive to touch or pressure,1.0,1
+stitches in muscles and joints of hands and fingers,tension and drawing,1.0,1
+stitches in muscles and joints of hands and fingers,periodical gout attacks,1.0,1
+stitches in muscles and joints of hands and fingers,sprained pain in ankles and knees,1.0,1
+stitches in muscles and joints of hands and fingers,lameness in ankle joint,1.0,1
+stitches in muscles and joints of hands and fingers,gnawing pains in knee,1.0,1
+stitches in muscles and joints of hands and fingers,worse while straightening up,1.0,1
+stitches in muscles and joints of hands and fingers,chronic rheumatism of joints,1.0,1
+stitches in muscles and joints of hands and fingers,sensation as of a sprain in shoulder joint,1.0,1
+stitches in muscles and joints of hands and fingers,pain in back from stooping,1.0,1
+stitches in muscles and joints of hands and fingers,painful tension in bends of limbs,1.0,1
+stitches in muscles and joints of hands and fingers,drawing pain in right thigh extending to knee,1.0,1
+stitches in muscles and joints of hands and fingers,housemaid’s knee,1.0,1
+stitches in muscles and joints of hands and fingers,can move finger joints with difficulty,1.0,1
+stitches in muscles and joints of hands and fingers,constantly moving limbs,1.0,1
+periodical gout attacks,tarsal joints swollen,1.0,1
+periodical gout attacks,sciatica with contractions of hamstrings in chronic cases,1.0,1
+periodical gout attacks,all muscles are painful and heavy,1.0,1
+periodical gout attacks,stiffness and arthritic swellings,1.0,1
+periodical gout attacks,shortening contraction of muscles,1.0,1
+periodical gout attacks,great toe red with tearing and stinging,1.0,1
+periodical gout attacks,stitches in muscles and joints of hands and fingers,1.0,1
+periodical gout attacks,many and varied usually constitutional,1.0,1
+periodical gout attacks,children late in learning to walk,1.0,1
+periodical gout attacks,painful stiffness of neck,1.0,1
+periodical gout attacks,spine oversensitive to touch or pressure,1.0,1
+periodical gout attacks,tension and drawing,1.0,1
+periodical gout attacks,sprained pain in ankles and knees,1.0,1
+periodical gout attacks,lameness in ankle joint,1.0,1
+periodical gout attacks,gnawing pains in knee,1.0,1
+periodical gout attacks,worse while straightening up,1.0,1
+periodical gout attacks,chronic rheumatism of joints,1.0,1
+periodical gout attacks,sensation as of a sprain in shoulder joint,1.0,1
+periodical gout attacks,pain in back from stooping,1.0,1
+periodical gout attacks,painful tension in bends of limbs,1.0,1
+periodical gout attacks,drawing pain in right thigh extending to knee,1.0,1
+periodical gout attacks,housemaid’s knee,1.0,1
+periodical gout attacks,can move finger joints with difficulty,1.0,1
+periodical gout attacks,constantly moving limbs,1.0,1
+stiffness and arthritic swellings,tarsal joints swollen,1.0,1
+stiffness and arthritic swellings,sciatica with contractions of hamstrings in chronic cases,1.0,1
+stiffness and arthritic swellings,all muscles are painful and heavy,1.0,1
+stiffness and arthritic swellings,shortening contraction of muscles,1.0,1
+stiffness and arthritic swellings,great toe red with tearing and stinging,1.0,1
+stiffness and arthritic swellings,stitches in muscles and joints of hands and fingers,1.0,1
+stiffness and arthritic swellings,many and varied usually constitutional,1.0,1
+stiffness and arthritic swellings,children late in learning to walk,1.0,1
+stiffness and arthritic swellings,painful stiffness of neck,1.0,1
+stiffness and arthritic swellings,spine oversensitive to touch or pressure,1.0,1
+stiffness and arthritic swellings,tension and drawing,1.0,1
+stiffness and arthritic swellings,periodical gout attacks,1.0,1
+stiffness and arthritic swellings,sprained pain in ankles and knees,1.0,1
+stiffness and arthritic swellings,lameness in ankle joint,1.0,1
+stiffness and arthritic swellings,gnawing pains in knee,1.0,1
+stiffness and arthritic swellings,worse while straightening up,1.0,1
+stiffness and arthritic swellings,chronic rheumatism of joints,1.0,1
+stiffness and arthritic swellings,sensation as of a sprain in shoulder joint,1.0,1
+stiffness and arthritic swellings,pain in back from stooping,1.0,1
+stiffness and arthritic swellings,painful tension in bends of limbs,1.0,1
+stiffness and arthritic swellings,drawing pain in right thigh extending to knee,1.0,1
+stiffness and arthritic swellings,housemaid’s knee,1.0,1
+stiffness and arthritic swellings,can move finger joints with difficulty,1.0,1
+stiffness and arthritic swellings,constantly moving limbs,1.0,1
+sprained pain in ankles and knees,tarsal joints swollen,1.0,1
+sprained pain in ankles and knees,sciatica with contractions of hamstrings in chronic cases,1.0,1
+sprained pain in ankles and knees,all muscles are painful and heavy,1.0,1
+sprained pain in ankles and knees,stiffness and arthritic swellings,1.0,1
+sprained pain in ankles and knees,shortening contraction of muscles,1.0,1
+sprained pain in ankles and knees,great toe red with tearing and stinging,1.0,1
+sprained pain in ankles and knees,stitches in muscles and joints of hands and fingers,1.0,1
+sprained pain in ankles and knees,many and varied usually constitutional,1.0,1
+sprained pain in ankles and knees,children late in learning to walk,1.0,1
+sprained pain in ankles and knees,painful stiffness of neck,1.0,1
+sprained pain in ankles and knees,spine oversensitive to touch or pressure,1.0,1
+sprained pain in ankles and knees,tension and drawing,1.0,1
+sprained pain in ankles and knees,periodical gout attacks,1.0,1
+sprained pain in ankles and knees,lameness in ankle joint,1.0,1
+sprained pain in ankles and knees,gnawing pains in knee,1.0,1
+sprained pain in ankles and knees,worse while straightening up,1.0,1
+sprained pain in ankles and knees,chronic rheumatism of joints,1.0,1
+sprained pain in ankles and knees,sensation as of a sprain in shoulder joint,1.0,1
+sprained pain in ankles and knees,pain in back from stooping,1.0,1
+sprained pain in ankles and knees,painful tension in bends of limbs,1.0,1
+sprained pain in ankles and knees,drawing pain in right thigh extending to knee,1.0,1
+sprained pain in ankles and knees,housemaid’s knee,1.0,1
+sprained pain in ankles and knees,can move finger joints with difficulty,1.0,1
+sprained pain in ankles and knees,constantly moving limbs,1.0,1
+shortening contraction of muscles,tarsal joints swollen,1.0,1
+shortening contraction of muscles,sciatica with contractions of hamstrings in chronic cases,1.0,1
+shortening contraction of muscles,all muscles are painful and heavy,1.0,1
+shortening contraction of muscles,stiffness and arthritic swellings,1.0,1
+shortening contraction of muscles,great toe red with tearing and stinging,1.0,1
+shortening contraction of muscles,stitches in muscles and joints of hands and fingers,1.0,1
+shortening contraction of muscles,many and varied usually constitutional,1.0,1
+shortening contraction of muscles,children late in learning to walk,1.0,1
+shortening contraction of muscles,painful stiffness of neck,1.0,1
+shortening contraction of muscles,spine oversensitive to touch or pressure,1.0,1
+shortening contraction of muscles,tension and drawing,1.0,1
+shortening contraction of muscles,periodical gout attacks,1.0,1
+shortening contraction of muscles,sprained pain in ankles and knees,1.0,1
+shortening contraction of muscles,lameness in ankle joint,1.0,1
+shortening contraction of muscles,gnawing pains in knee,1.0,1
+shortening contraction of muscles,worse while straightening up,1.0,1
+shortening contraction of muscles,chronic rheumatism of joints,1.0,1
+shortening contraction of muscles,sensation as of a sprain in shoulder joint,1.0,1
+shortening contraction of muscles,pain in back from stooping,1.0,1
+shortening contraction of muscles,painful tension in bends of limbs,1.0,1
+shortening contraction of muscles,drawing pain in right thigh extending to knee,1.0,1
+shortening contraction of muscles,housemaid’s knee,1.0,1
+shortening contraction of muscles,can move finger joints with difficulty,1.0,1
+shortening contraction of muscles,constantly moving limbs,1.0,1
+tarsal joints swollen,sciatica with contractions of hamstrings in chronic cases,1.0,1
+tarsal joints swollen,all muscles are painful and heavy,1.0,1
+tarsal joints swollen,stiffness and arthritic swellings,1.0,1
+tarsal joints swollen,shortening contraction of muscles,1.0,1
+tarsal joints swollen,great toe red with tearing and stinging,1.0,1
+tarsal joints swollen,stitches in muscles and joints of hands and fingers,1.0,1
+tarsal joints swollen,many and varied usually constitutional,1.0,1
+tarsal joints swollen,children late in learning to walk,1.0,1
+tarsal joints swollen,painful stiffness of neck,1.0,1
+tarsal joints swollen,spine oversensitive to touch or pressure,1.0,1
+tarsal joints swollen,tension and drawing,1.0,1
+tarsal joints swollen,periodical gout attacks,1.0,1
+tarsal joints swollen,sprained pain in ankles and knees,1.0,1
+tarsal joints swollen,lameness in ankle joint,1.0,1
+tarsal joints swollen,gnawing pains in knee,1.0,1
+tarsal joints swollen,worse while straightening up,1.0,1
+tarsal joints swollen,chronic rheumatism of joints,1.0,1
+tarsal joints swollen,sensation as of a sprain in shoulder joint,1.0,1
+tarsal joints swollen,pain in back from stooping,1.0,1
+tarsal joints swollen,painful tension in bends of limbs,1.0,1
+tarsal joints swollen,drawing pain in right thigh extending to knee,1.0,1
+tarsal joints swollen,housemaid’s knee,1.0,1
+tarsal joints swollen,can move finger joints with difficulty,1.0,1
+tarsal joints swollen,constantly moving limbs,1.0,1
+worse while straightening up,tarsal joints swollen,1.0,1
+worse while straightening up,sciatica with contractions of hamstrings in chronic cases,1.0,1
+worse while straightening up,all muscles are painful and heavy,1.0,1
+worse while straightening up,stiffness and arthritic swellings,1.0,1
+worse while straightening up,shortening contraction of muscles,1.0,1
+worse while straightening up,great toe red with tearing and stinging,1.0,1
+worse while straightening up,stitches in muscles and joints of hands and fingers,1.0,1
+worse while straightening up,many and varied usually constitutional,1.0,1
+worse while straightening up,children late in learning to walk,1.0,1
+worse while straightening up,painful stiffness of neck,1.0,1
+worse while straightening up,spine oversensitive to touch or pressure,1.0,1
+worse while straightening up,tension and drawing,1.0,1
+worse while straightening up,periodical gout attacks,1.0,1
+worse while straightening up,sprained pain in ankles and knees,1.0,1
+worse while straightening up,lameness in ankle joint,1.0,1
+worse while straightening up,gnawing pains in knee,1.0,1
+worse while straightening up,chronic rheumatism of joints,1.0,1
+worse while straightening up,sensation as of a sprain in shoulder joint,1.0,1
+worse while straightening up,pain in back from stooping,1.0,1
+worse while straightening up,painful tension in bends of limbs,1.0,1
+worse while straightening up,drawing pain in right thigh extending to knee,1.0,1
+worse while straightening up,housemaid’s knee,1.0,1
+worse while straightening up,can move finger joints with difficulty,1.0,1
+worse while straightening up,constantly moving limbs,1.0,1
+lameness in ankle joint,tarsal joints swollen,1.0,1
+lameness in ankle joint,sciatica with contractions of hamstrings in chronic cases,1.0,1
+lameness in ankle joint,all muscles are painful and heavy,1.0,1
+lameness in ankle joint,stiffness and arthritic swellings,1.0,1
+lameness in ankle joint,shortening contraction of muscles,1.0,1
+lameness in ankle joint,great toe red with tearing and stinging,1.0,1
+lameness in ankle joint,stitches in muscles and joints of hands and fingers,1.0,1
+lameness in ankle joint,many and varied usually constitutional,1.0,1
+lameness in ankle joint,children late in learning to walk,1.0,1
+lameness in ankle joint,painful stiffness of neck,1.0,1
+lameness in ankle joint,spine oversensitive to touch or pressure,1.0,1
+lameness in ankle joint,tension and drawing,1.0,1
+lameness in ankle joint,periodical gout attacks,1.0,1
+lameness in ankle joint,sprained pain in ankles and knees,1.0,1
+lameness in ankle joint,gnawing pains in knee,1.0,1
+lameness in ankle joint,worse while straightening up,1.0,1
+lameness in ankle joint,chronic rheumatism of joints,1.0,1
+lameness in ankle joint,sensation as of a sprain in shoulder joint,1.0,1
+lameness in ankle joint,pain in back from stooping,1.0,1
+lameness in ankle joint,painful tension in bends of limbs,1.0,1
+lameness in ankle joint,drawing pain in right thigh extending to knee,1.0,1
+lameness in ankle joint,housemaid’s knee,1.0,1
+lameness in ankle joint,can move finger joints with difficulty,1.0,1
+lameness in ankle joint,constantly moving limbs,1.0,1
+all muscles are painful and heavy,tarsal joints swollen,1.0,1
+all muscles are painful and heavy,sciatica with contractions of hamstrings in chronic cases,1.0,1
+all muscles are painful and heavy,stiffness and arthritic swellings,1.0,1
+all muscles are painful and heavy,shortening contraction of muscles,1.0,1
+all muscles are painful and heavy,great toe red with tearing and stinging,1.0,1
+all muscles are painful and heavy,stitches in muscles and joints of hands and fingers,1.0,1
+all muscles are painful and heavy,many and varied usually constitutional,1.0,1
+all muscles are painful and heavy,children late in learning to walk,1.0,1
+all muscles are painful and heavy,painful stiffness of neck,1.0,1
+all muscles are painful and heavy,spine oversensitive to touch or pressure,1.0,1
+all muscles are painful and heavy,tension and drawing,1.0,1
+all muscles are painful and heavy,periodical gout attacks,1.0,1
+all muscles are painful and heavy,sprained pain in ankles and knees,1.0,1
+all muscles are painful and heavy,lameness in ankle joint,1.0,1
+all muscles are painful and heavy,gnawing pains in knee,1.0,1
+all muscles are painful and heavy,worse while straightening up,1.0,1
+all muscles are painful and heavy,chronic rheumatism of joints,1.0,1
+all muscles are painful and heavy,sensation as of a sprain in shoulder joint,1.0,1
+all muscles are painful and heavy,pain in back from stooping,1.0,1
+all muscles are painful and heavy,painful tension in bends of limbs,1.0,1
+all muscles are painful and heavy,drawing pain in right thigh extending to knee,1.0,1
+all muscles are painful and heavy,housemaid’s knee,1.0,1
+all muscles are painful and heavy,can move finger joints with difficulty,1.0,1
+all muscles are painful and heavy,constantly moving limbs,1.0,1
+painful tension in bends of limbs,tarsal joints swollen,1.0,1
+painful tension in bends of limbs,sciatica with contractions of hamstrings in chronic cases,1.0,1
+painful tension in bends of limbs,all muscles are painful and heavy,1.0,1
+painful tension in bends of limbs,stiffness and arthritic swellings,1.0,1
+painful tension in bends of limbs,shortening contraction of muscles,1.0,1
+painful tension in bends of limbs,great toe red with tearing and stinging,1.0,1
+painful tension in bends of limbs,stitches in muscles and joints of hands and fingers,1.0,1
+painful tension in bends of limbs,many and varied usually constitutional,1.0,1
+painful tension in bends of limbs,children late in learning to walk,1.0,1
+painful tension in bends of limbs,painful stiffness of neck,1.0,1
+painful tension in bends of limbs,spine oversensitive to touch or pressure,1.0,1
+painful tension in bends of limbs,tension and drawing,1.0,1
+painful tension in bends of limbs,periodical gout attacks,1.0,1
+painful tension in bends of limbs,sprained pain in ankles and knees,1.0,1
+painful tension in bends of limbs,lameness in ankle joint,1.0,1
+painful tension in bends of limbs,gnawing pains in knee,1.0,1
+painful tension in bends of limbs,worse while straightening up,1.0,1
+painful tension in bends of limbs,chronic rheumatism of joints,1.0,1
+painful tension in bends of limbs,sensation as of a sprain in shoulder joint,1.0,1
+painful tension in bends of limbs,pain in back from stooping,1.0,1
+painful tension in bends of limbs,drawing pain in right thigh extending to knee,1.0,1
+painful tension in bends of limbs,housemaid’s knee,1.0,1
+painful tension in bends of limbs,can move finger joints with difficulty,1.0,1
+painful tension in bends of limbs,constantly moving limbs,1.0,1
+pain in back from stooping,tarsal joints swollen,1.0,1
+pain in back from stooping,sciatica with contractions of hamstrings in chronic cases,1.0,1
+pain in back from stooping,all muscles are painful and heavy,1.0,1
+pain in back from stooping,stiffness and arthritic swellings,1.0,1
+pain in back from stooping,shortening contraction of muscles,1.0,1
+pain in back from stooping,great toe red with tearing and stinging,1.0,1
+pain in back from stooping,stitches in muscles and joints of hands and fingers,1.0,1
+pain in back from stooping,many and varied usually constitutional,1.0,1
+pain in back from stooping,children late in learning to walk,1.0,1
+pain in back from stooping,painful stiffness of neck,1.0,1
+pain in back from stooping,spine oversensitive to touch or pressure,1.0,1
+pain in back from stooping,tension and drawing,1.0,1
+pain in back from stooping,periodical gout attacks,1.0,1
+pain in back from stooping,sprained pain in ankles and knees,1.0,1
+pain in back from stooping,lameness in ankle joint,1.0,1
+pain in back from stooping,gnawing pains in knee,1.0,1
+pain in back from stooping,worse while straightening up,1.0,1
+pain in back from stooping,chronic rheumatism of joints,1.0,1
+pain in back from stooping,sensation as of a sprain in shoulder joint,1.0,1
+pain in back from stooping,painful tension in bends of limbs,1.0,1
+pain in back from stooping,drawing pain in right thigh extending to knee,1.0,1
+pain in back from stooping,housemaid’s knee,1.0,1
+pain in back from stooping,can move finger joints with difficulty,1.0,1
+pain in back from stooping,constantly moving limbs,1.0,1
+drawing pain in right thigh extending to knee,tarsal joints swollen,1.0,1
+drawing pain in right thigh extending to knee,sciatica with contractions of hamstrings in chronic cases,1.0,1
+drawing pain in right thigh extending to knee,all muscles are painful and heavy,1.0,1
+drawing pain in right thigh extending to knee,stiffness and arthritic swellings,1.0,1
+drawing pain in right thigh extending to knee,shortening contraction of muscles,1.0,1
+drawing pain in right thigh extending to knee,great toe red with tearing and stinging,1.0,1
+drawing pain in right thigh extending to knee,stitches in muscles and joints of hands and fingers,1.0,1
+drawing pain in right thigh extending to knee,many and varied usually constitutional,1.0,1
+drawing pain in right thigh extending to knee,children late in learning to walk,1.0,1
+drawing pain in right thigh extending to knee,painful stiffness of neck,1.0,1
+drawing pain in right thigh extending to knee,spine oversensitive to touch or pressure,1.0,1
+drawing pain in right thigh extending to knee,tension and drawing,1.0,1
+drawing pain in right thigh extending to knee,periodical gout attacks,1.0,1
+drawing pain in right thigh extending to knee,sprained pain in ankles and knees,1.0,1
+drawing pain in right thigh extending to knee,lameness in ankle joint,1.0,1
+drawing pain in right thigh extending to knee,gnawing pains in knee,1.0,1
+drawing pain in right thigh extending to knee,worse while straightening up,1.0,1
+drawing pain in right thigh extending to knee,chronic rheumatism of joints,1.0,1
+drawing pain in right thigh extending to knee,sensation as of a sprain in shoulder joint,1.0,1
+drawing pain in right thigh extending to knee,pain in back from stooping,1.0,1
+drawing pain in right thigh extending to knee,painful tension in bends of limbs,1.0,1
+drawing pain in right thigh extending to knee,housemaid’s knee,1.0,1
+drawing pain in right thigh extending to knee,can move finger joints with difficulty,1.0,1
+drawing pain in right thigh extending to knee,constantly moving limbs,1.0,1
+housemaid’s knee,tarsal joints swollen,1.0,1
+housemaid’s knee,sciatica with contractions of hamstrings in chronic cases,1.0,1
+housemaid’s knee,all muscles are painful and heavy,1.0,1
+housemaid’s knee,stiffness and arthritic swellings,1.0,1
+housemaid’s knee,shortening contraction of muscles,1.0,1
+housemaid’s knee,great toe red with tearing and stinging,1.0,1
+housemaid’s knee,stitches in muscles and joints of hands and fingers,1.0,1
+housemaid’s knee,many and varied usually constitutional,1.0,1
+housemaid’s knee,children late in learning to walk,1.0,1
+housemaid’s knee,painful stiffness of neck,1.0,1
+housemaid’s knee,spine oversensitive to touch or pressure,1.0,1
+housemaid’s knee,tension and drawing,1.0,1
+housemaid’s knee,periodical gout attacks,1.0,1
+housemaid’s knee,sprained pain in ankles and knees,1.0,1
+housemaid’s knee,lameness in ankle joint,1.0,1
+housemaid’s knee,gnawing pains in knee,1.0,1
+housemaid’s knee,worse while straightening up,1.0,1
+housemaid’s knee,chronic rheumatism of joints,1.0,1
+housemaid’s knee,sensation as of a sprain in shoulder joint,1.0,1
+housemaid’s knee,pain in back from stooping,1.0,1
+housemaid’s knee,painful tension in bends of limbs,1.0,1
+housemaid’s knee,drawing pain in right thigh extending to knee,1.0,1
+housemaid’s knee,can move finger joints with difficulty,1.0,1
+housemaid’s knee,constantly moving limbs,1.0,1
+many and varied usually constitutional,tarsal joints swollen,1.0,1
+many and varied usually constitutional,sciatica with contractions of hamstrings in chronic cases,1.0,1
+many and varied usually constitutional,all muscles are painful and heavy,1.0,1
+many and varied usually constitutional,stiffness and arthritic swellings,1.0,1
+many and varied usually constitutional,shortening contraction of muscles,1.0,1
+many and varied usually constitutional,great toe red with tearing and stinging,1.0,1
+many and varied usually constitutional,stitches in muscles and joints of hands and fingers,1.0,1
+many and varied usually constitutional,children late in learning to walk,1.0,1
+many and varied usually constitutional,painful stiffness of neck,1.0,1
+many and varied usually constitutional,spine oversensitive to touch or pressure,1.0,1
+many and varied usually constitutional,tension and drawing,1.0,1
+many and varied usually constitutional,periodical gout attacks,1.0,1
+many and varied usually constitutional,sprained pain in ankles and knees,1.0,1
+many and varied usually constitutional,lameness in ankle joint,1.0,1
+many and varied usually constitutional,gnawing pains in knee,1.0,1
+many and varied usually constitutional,worse while straightening up,1.0,1
+many and varied usually constitutional,chronic rheumatism of joints,1.0,1
+many and varied usually constitutional,sensation as of a sprain in shoulder joint,1.0,1
+many and varied usually constitutional,pain in back from stooping,1.0,1
+many and varied usually constitutional,painful tension in bends of limbs,1.0,1
+many and varied usually constitutional,drawing pain in right thigh extending to knee,1.0,1
+many and varied usually constitutional,housemaid’s knee,1.0,1
+many and varied usually constitutional,can move finger joints with difficulty,1.0,1
+many and varied usually constitutional,constantly moving limbs,1.0,1
+gnawing pains in knee,tarsal joints swollen,1.0,1
+gnawing pains in knee,sciatica with contractions of hamstrings in chronic cases,1.0,1
+gnawing pains in knee,all muscles are painful and heavy,1.0,1
+gnawing pains in knee,stiffness and arthritic swellings,1.0,1
+gnawing pains in knee,shortening contraction of muscles,1.0,1
+gnawing pains in knee,great toe red with tearing and stinging,1.0,1
+gnawing pains in knee,stitches in muscles and joints of hands and fingers,1.0,1
+gnawing pains in knee,many and varied usually constitutional,1.0,1
+gnawing pains in knee,children late in learning to walk,1.0,1
+gnawing pains in knee,painful stiffness of neck,1.0,1
+gnawing pains in knee,spine oversensitive to touch or pressure,1.0,1
+gnawing pains in knee,tension and drawing,1.0,1
+gnawing pains in knee,periodical gout attacks,1.0,1
+gnawing pains in knee,sprained pain in ankles and knees,1.0,1
+gnawing pains in knee,lameness in ankle joint,1.0,1
+gnawing pains in knee,worse while straightening up,1.0,1
+gnawing pains in knee,chronic rheumatism of joints,1.0,1
+gnawing pains in knee,sensation as of a sprain in shoulder joint,1.0,1
+gnawing pains in knee,pain in back from stooping,1.0,1
+gnawing pains in knee,painful tension in bends of limbs,1.0,1
+gnawing pains in knee,drawing pain in right thigh extending to knee,1.0,1
+gnawing pains in knee,housemaid’s knee,1.0,1
+gnawing pains in knee,can move finger joints with difficulty,1.0,1
+gnawing pains in knee,constantly moving limbs,1.0,1
+sensation as of a sprain in shoulder joint,tarsal joints swollen,1.0,1
+sensation as of a sprain in shoulder joint,sciatica with contractions of hamstrings in chronic cases,1.0,1
+sensation as of a sprain in shoulder joint,all muscles are painful and heavy,1.0,1
+sensation as of a sprain in shoulder joint,stiffness and arthritic swellings,1.0,1
+sensation as of a sprain in shoulder joint,shortening contraction of muscles,1.0,1
+sensation as of a sprain in shoulder joint,great toe red with tearing and stinging,1.0,1
+sensation as of a sprain in shoulder joint,stitches in muscles and joints of hands and fingers,1.0,1
+sensation as of a sprain in shoulder joint,many and varied usually constitutional,1.0,1
+sensation as of a sprain in shoulder joint,children late in learning to walk,1.0,1
+sensation as of a sprain in shoulder joint,painful stiffness of neck,1.0,1
+sensation as of a sprain in shoulder joint,spine oversensitive to touch or pressure,1.0,1
+sensation as of a sprain in shoulder joint,tension and drawing,1.0,1
+sensation as of a sprain in shoulder joint,periodical gout attacks,1.0,1
+sensation as of a sprain in shoulder joint,sprained pain in ankles and knees,1.0,1
+sensation as of a sprain in shoulder joint,lameness in ankle joint,1.0,1
+sensation as of a sprain in shoulder joint,gnawing pains in knee,1.0,1
+sensation as of a sprain in shoulder joint,worse while straightening up,1.0,1
+sensation as of a sprain in shoulder joint,chronic rheumatism of joints,1.0,1
+sensation as of a sprain in shoulder joint,pain in back from stooping,1.0,1
+sensation as of a sprain in shoulder joint,painful tension in bends of limbs,1.0,1
+sensation as of a sprain in shoulder joint,drawing pain in right thigh extending to knee,1.0,1
+sensation as of a sprain in shoulder joint,housemaid’s knee,1.0,1
+sensation as of a sprain in shoulder joint,can move finger joints with difficulty,1.0,1
+sensation as of a sprain in shoulder joint,constantly moving limbs,1.0,1
+chronic rheumatism of joints,tarsal joints swollen,1.0,1
+chronic rheumatism of joints,sciatica with contractions of hamstrings in chronic cases,1.0,1
+chronic rheumatism of joints,all muscles are painful and heavy,1.0,1
+chronic rheumatism of joints,stiffness and arthritic swellings,1.0,1
+chronic rheumatism of joints,shortening contraction of muscles,1.0,1
+chronic rheumatism of joints,great toe red with tearing and stinging,1.0,1
+chronic rheumatism of joints,stitches in muscles and joints of hands and fingers,1.0,1
+chronic rheumatism of joints,many and varied usually constitutional,1.0,1
+chronic rheumatism of joints,children late in learning to walk,1.0,1
+chronic rheumatism of joints,painful stiffness of neck,1.0,1
+chronic rheumatism of joints,spine oversensitive to touch or pressure,1.0,1
+chronic rheumatism of joints,tension and drawing,1.0,1
+chronic rheumatism of joints,periodical gout attacks,1.0,1
+chronic rheumatism of joints,sprained pain in ankles and knees,1.0,1
+chronic rheumatism of joints,lameness in ankle joint,1.0,1
+chronic rheumatism of joints,gnawing pains in knee,1.0,1
+chronic rheumatism of joints,worse while straightening up,1.0,1
+chronic rheumatism of joints,sensation as of a sprain in shoulder joint,1.0,1
+chronic rheumatism of joints,pain in back from stooping,1.0,1
+chronic rheumatism of joints,painful tension in bends of limbs,1.0,1
+chronic rheumatism of joints,drawing pain in right thigh extending to knee,1.0,1
+chronic rheumatism of joints,housemaid’s knee,1.0,1
+chronic rheumatism of joints,can move finger joints with difficulty,1.0,1
+chronic rheumatism of joints,constantly moving limbs,1.0,1
+constantly moving limbs,tarsal joints swollen,1.0,1
+constantly moving limbs,sciatica with contractions of hamstrings in chronic cases,1.0,1
+constantly moving limbs,all muscles are painful and heavy,1.0,1
+constantly moving limbs,stiffness and arthritic swellings,1.0,1
+constantly moving limbs,shortening contraction of muscles,1.0,1
+constantly moving limbs,great toe red with tearing and stinging,1.0,1
+constantly moving limbs,stitches in muscles and joints of hands and fingers,1.0,1
+constantly moving limbs,many and varied usually constitutional,1.0,1
+constantly moving limbs,children late in learning to walk,1.0,1
+constantly moving limbs,painful stiffness of neck,1.0,1
+constantly moving limbs,spine oversensitive to touch or pressure,1.0,1
+constantly moving limbs,tension and drawing,1.0,1
+constantly moving limbs,periodical gout attacks,1.0,1
+constantly moving limbs,sprained pain in ankles and knees,1.0,1
+constantly moving limbs,lameness in ankle joint,1.0,1
+constantly moving limbs,gnawing pains in knee,1.0,1
+constantly moving limbs,worse while straightening up,1.0,1
+constantly moving limbs,chronic rheumatism of joints,1.0,1
+constantly moving limbs,sensation as of a sprain in shoulder joint,1.0,1
+constantly moving limbs,pain in back from stooping,1.0,1
+constantly moving limbs,painful tension in bends of limbs,1.0,1
+constantly moving limbs,drawing pain in right thigh extending to knee,1.0,1
+constantly moving limbs,housemaid’s knee,1.0,1
+constantly moving limbs,can move finger joints with difficulty,1.0,1
+children late in learning to walk,tarsal joints swollen,1.0,1
+children late in learning to walk,sciatica with contractions of hamstrings in chronic cases,1.0,1
+children late in learning to walk,all muscles are painful and heavy,1.0,1
+children late in learning to walk,stiffness and arthritic swellings,1.0,1
+children late in learning to walk,shortening contraction of muscles,1.0,1
+children late in learning to walk,great toe red with tearing and stinging,1.0,1
+children late in learning to walk,stitches in muscles and joints of hands and fingers,1.0,1
+children late in learning to walk,many and varied usually constitutional,1.0,1
+children late in learning to walk,painful stiffness of neck,1.0,1
+children late in learning to walk,spine oversensitive to touch or pressure,1.0,1
+children late in learning to walk,tension and drawing,1.0,1
+children late in learning to walk,periodical gout attacks,1.0,1
+children late in learning to walk,sprained pain in ankles and knees,1.0,1
+children late in learning to walk,lameness in ankle joint,1.0,1
+children late in learning to walk,gnawing pains in knee,1.0,1
+children late in learning to walk,worse while straightening up,1.0,1
+children late in learning to walk,chronic rheumatism of joints,1.0,1
+children late in learning to walk,sensation as of a sprain in shoulder joint,1.0,1
+children late in learning to walk,pain in back from stooping,1.0,1
+children late in learning to walk,painful tension in bends of limbs,1.0,1
+children late in learning to walk,drawing pain in right thigh extending to knee,1.0,1
+children late in learning to walk,housemaid’s knee,1.0,1
+children late in learning to walk,can move finger joints with difficulty,1.0,1
+children late in learning to walk,constantly moving limbs,1.0,1
+tension and drawing,tarsal joints swollen,1.0,1
+tension and drawing,sciatica with contractions of hamstrings in chronic cases,1.0,1
+tension and drawing,all muscles are painful and heavy,1.0,1
+tension and drawing,stiffness and arthritic swellings,1.0,1
+tension and drawing,shortening contraction of muscles,1.0,1
+tension and drawing,great toe red with tearing and stinging,1.0,1
+tension and drawing,stitches in muscles and joints of hands and fingers,1.0,1
+tension and drawing,many and varied usually constitutional,1.0,1
+tension and drawing,children late in learning to walk,1.0,1
+tension and drawing,painful stiffness of neck,1.0,1
+tension and drawing,spine oversensitive to touch or pressure,1.0,1
+tension and drawing,periodical gout attacks,1.0,1
+tension and drawing,sprained pain in ankles and knees,1.0,1
+tension and drawing,lameness in ankle joint,1.0,1
+tension and drawing,gnawing pains in knee,1.0,1
+tension and drawing,worse while straightening up,1.0,1
+tension and drawing,chronic rheumatism of joints,1.0,1
+tension and drawing,sensation as of a sprain in shoulder joint,1.0,1
+tension and drawing,pain in back from stooping,1.0,1
+tension and drawing,painful tension in bends of limbs,1.0,1
+tension and drawing,drawing pain in right thigh extending to knee,1.0,1
+tension and drawing,housemaid’s knee,1.0,1
+tension and drawing,can move finger joints with difficulty,1.0,1
+tension and drawing,constantly moving limbs,1.0,1
+great toe red with tearing and stinging,tarsal joints swollen,1.0,1
+great toe red with tearing and stinging,sciatica with contractions of hamstrings in chronic cases,1.0,1
+great toe red with tearing and stinging,all muscles are painful and heavy,1.0,1
+great toe red with tearing and stinging,stiffness and arthritic swellings,1.0,1
+great toe red with tearing and stinging,shortening contraction of muscles,1.0,1
+great toe red with tearing and stinging,stitches in muscles and joints of hands and fingers,1.0,1
+great toe red with tearing and stinging,many and varied usually constitutional,1.0,1
+great toe red with tearing and stinging,children late in learning to walk,1.0,1
+great toe red with tearing and stinging,painful stiffness of neck,1.0,1
+great toe red with tearing and stinging,spine oversensitive to touch or pressure,1.0,1
+great toe red with tearing and stinging,tension and drawing,1.0,1
+great toe red with tearing and stinging,periodical gout attacks,1.0,1
+great toe red with tearing and stinging,sprained pain in ankles and knees,1.0,1
+great toe red with tearing and stinging,lameness in ankle joint,1.0,1
+great toe red with tearing and stinging,gnawing pains in knee,1.0,1
+great toe red with tearing and stinging,worse while straightening up,1.0,1
+great toe red with tearing and stinging,chronic rheumatism of joints,1.0,1
+great toe red with tearing and stinging,sensation as of a sprain in shoulder joint,1.0,1
+great toe red with tearing and stinging,pain in back from stooping,1.0,1
+great toe red with tearing and stinging,painful tension in bends of limbs,1.0,1
+great toe red with tearing and stinging,drawing pain in right thigh extending to knee,1.0,1
+great toe red with tearing and stinging,housemaid’s knee,1.0,1
+great toe red with tearing and stinging,can move finger joints with difficulty,1.0,1
+great toe red with tearing and stinging,constantly moving limbs,1.0,1
+spine oversensitive to touch or pressure,tarsal joints swollen,1.0,1
+spine oversensitive to touch or pressure,sciatica with contractions of hamstrings in chronic cases,1.0,1
+spine oversensitive to touch or pressure,all muscles are painful and heavy,1.0,1
+spine oversensitive to touch or pressure,stiffness and arthritic swellings,1.0,1
+spine oversensitive to touch or pressure,shortening contraction of muscles,1.0,1
+spine oversensitive to touch or pressure,great toe red with tearing and stinging,1.0,1
+spine oversensitive to touch or pressure,stitches in muscles and joints of hands and fingers,1.0,1
+spine oversensitive to touch or pressure,many and varied usually constitutional,1.0,1
+spine oversensitive to touch or pressure,children late in learning to walk,1.0,1
+spine oversensitive to touch or pressure,painful stiffness of neck,1.0,1
+spine oversensitive to touch or pressure,tension and drawing,1.0,1
+spine oversensitive to touch or pressure,periodical gout attacks,1.0,1
+spine oversensitive to touch or pressure,sprained pain in ankles and knees,1.0,1
+spine oversensitive to touch or pressure,lameness in ankle joint,1.0,1
+spine oversensitive to touch or pressure,gnawing pains in knee,1.0,1
+spine oversensitive to touch or pressure,worse while straightening up,1.0,1
+spine oversensitive to touch or pressure,chronic rheumatism of joints,1.0,1
+spine oversensitive to touch or pressure,sensation as of a sprain in shoulder joint,1.0,1
+spine oversensitive to touch or pressure,pain in back from stooping,1.0,1
+spine oversensitive to touch or pressure,painful tension in bends of limbs,1.0,1
+spine oversensitive to touch or pressure,drawing pain in right thigh extending to knee,1.0,1
+spine oversensitive to touch or pressure,housemaid’s knee,1.0,1
+spine oversensitive to touch or pressure,can move finger joints with difficulty,1.0,1
+spine oversensitive to touch or pressure,constantly moving limbs,1.0,1
+can move finger joints with difficulty,tarsal joints swollen,1.0,1
+can move finger joints with difficulty,sciatica with contractions of hamstrings in chronic cases,1.0,1
+can move finger joints with difficulty,all muscles are painful and heavy,1.0,1
+can move finger joints with difficulty,stiffness and arthritic swellings,1.0,1
+can move finger joints with difficulty,shortening contraction of muscles,1.0,1
+can move finger joints with difficulty,great toe red with tearing and stinging,1.0,1
+can move finger joints with difficulty,stitches in muscles and joints of hands and fingers,1.0,1
+can move finger joints with difficulty,many and varied usually constitutional,1.0,1
+can move finger joints with difficulty,children late in learning to walk,1.0,1
+can move finger joints with difficulty,painful stiffness of neck,1.0,1
+can move finger joints with difficulty,spine oversensitive to touch or pressure,1.0,1
+can move finger joints with difficulty,tension and drawing,1.0,1
+can move finger joints with difficulty,periodical gout attacks,1.0,1
+can move finger joints with difficulty,sprained pain in ankles and knees,1.0,1
+can move finger joints with difficulty,lameness in ankle joint,1.0,1
+can move finger joints with difficulty,gnawing pains in knee,1.0,1
+can move finger joints with difficulty,worse while straightening up,1.0,1
+can move finger joints with difficulty,chronic rheumatism of joints,1.0,1
+can move finger joints with difficulty,sensation as of a sprain in shoulder joint,1.0,1
+can move finger joints with difficulty,pain in back from stooping,1.0,1
+can move finger joints with difficulty,painful tension in bends of limbs,1.0,1
+can move finger joints with difficulty,drawing pain in right thigh extending to knee,1.0,1
+can move finger joints with difficulty,housemaid’s knee,1.0,1
+can move finger joints with difficulty,constantly moving limbs,1.0,1

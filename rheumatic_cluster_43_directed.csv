@@ -1,0 +1,45 @@
+### Cluster 43 — Symptoms (6)
+Symptom,Frequency
+apathy,1
+oppression in back as from a heavy load,1
+cramp-like pain in thighs,1
+insensibility to external impressions,1
+drawing pains in back,1
+delirium,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+opium,6
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+apathy,oppression in back as from a heavy load,1.0,1
+apathy,cramp-like pain in thighs,1.0,1
+apathy,insensibility to external impressions,1.0,1
+apathy,drawing pains in back,1.0,1
+apathy,delirium,1.0,1
+delirium,apathy,1.0,1
+delirium,oppression in back as from a heavy load,1.0,1
+delirium,cramp-like pain in thighs,1.0,1
+delirium,insensibility to external impressions,1.0,1
+delirium,drawing pains in back,1.0,1
+insensibility to external impressions,apathy,1.0,1
+insensibility to external impressions,oppression in back as from a heavy load,1.0,1
+insensibility to external impressions,cramp-like pain in thighs,1.0,1
+insensibility to external impressions,drawing pains in back,1.0,1
+insensibility to external impressions,delirium,1.0,1
+drawing pains in back,apathy,1.0,1
+drawing pains in back,oppression in back as from a heavy load,1.0,1
+drawing pains in back,cramp-like pain in thighs,1.0,1
+drawing pains in back,insensibility to external impressions,1.0,1
+drawing pains in back,delirium,1.0,1
+cramp-like pain in thighs,apathy,1.0,1
+cramp-like pain in thighs,oppression in back as from a heavy load,1.0,1
+cramp-like pain in thighs,insensibility to external impressions,1.0,1
+cramp-like pain in thighs,drawing pains in back,1.0,1
+cramp-like pain in thighs,delirium,1.0,1
+oppression in back as from a heavy load,apathy,1.0,1
+oppression in back as from a heavy load,cramp-like pain in thighs,1.0,1
+oppression in back as from a heavy load,insensibility to external impressions,1.0,1
+oppression in back as from a heavy load,drawing pains in back,1.0,1
+oppression in back as from a heavy load,delirium,1.0,1

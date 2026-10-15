@@ -1,0 +1,45 @@
+### Cluster 28 — Symptoms (6)
+Symptom,Frequency
+pressive pain in left elbow,1
+boring pain in right shoulder joint,1
+stinging and pressing pains in joints,1
+stinging pain in left ankle,1
+cramp in right thigh,1
+pressive pain in knees,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+oniscus,6
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+stinging and pressing pains in joints,pressive pain in left elbow,1.0,1
+stinging and pressing pains in joints,boring pain in right shoulder joint,1.0,1
+stinging and pressing pains in joints,stinging pain in left ankle,1.0,1
+stinging and pressing pains in joints,cramp in right thigh,1.0,1
+stinging and pressing pains in joints,pressive pain in knees,1.0,1
+boring pain in right shoulder joint,pressive pain in left elbow,1.0,1
+boring pain in right shoulder joint,stinging and pressing pains in joints,1.0,1
+boring pain in right shoulder joint,stinging pain in left ankle,1.0,1
+boring pain in right shoulder joint,cramp in right thigh,1.0,1
+boring pain in right shoulder joint,pressive pain in knees,1.0,1
+pressive pain in knees,pressive pain in left elbow,1.0,1
+pressive pain in knees,boring pain in right shoulder joint,1.0,1
+pressive pain in knees,stinging and pressing pains in joints,1.0,1
+pressive pain in knees,stinging pain in left ankle,1.0,1
+pressive pain in knees,cramp in right thigh,1.0,1
+stinging pain in left ankle,pressive pain in left elbow,1.0,1
+stinging pain in left ankle,boring pain in right shoulder joint,1.0,1
+stinging pain in left ankle,stinging and pressing pains in joints,1.0,1
+stinging pain in left ankle,cramp in right thigh,1.0,1
+stinging pain in left ankle,pressive pain in knees,1.0,1
+cramp in right thigh,pressive pain in left elbow,1.0,1
+cramp in right thigh,boring pain in right shoulder joint,1.0,1
+cramp in right thigh,stinging and pressing pains in joints,1.0,1
+cramp in right thigh,stinging pain in left ankle,1.0,1
+cramp in right thigh,pressive pain in knees,1.0,1
+pressive pain in left elbow,boring pain in right shoulder joint,1.0,1
+pressive pain in left elbow,stinging and pressing pains in joints,1.0,1
+pressive pain in left elbow,stinging pain in left ankle,1.0,1
+pressive pain in left elbow,cramp in right thigh,1.0,1
+pressive pain in left elbow,pressive pain in knees,1.0,1

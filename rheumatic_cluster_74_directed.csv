@@ -1,0 +1,29 @@
+### Cluster 74 — Symptoms (5)
+Symptom,Frequency
+neuralgic pains in left arm,1
+pain in back as from a sprain,1
+cramp-like pains in thighs,2
+sensation as if eyes were drawn back by a string,1
+drawing pains in left arm,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+paris quadrifolia,4
+osmium,2
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+cramp-like pains in thighs,neuralgic pains in left arm,0.5,1
+cramp-like pains in thighs,pain in back as from a sprain,0.5,1
+cramp-like pains in thighs,drawing pains in left arm,0.5,1
+cramp-like pains in thighs,sensation as if eyes were drawn back by a string,0.5,1
+neuralgic pains in left arm,pain in back as from a sprain,1.0,1
+neuralgic pains in left arm,cramp-like pains in thighs,1.0,1
+neuralgic pains in left arm,sensation as if eyes were drawn back by a string,1.0,1
+sensation as if eyes were drawn back by a string,neuralgic pains in left arm,1.0,1
+sensation as if eyes were drawn back by a string,pain in back as from a sprain,1.0,1
+sensation as if eyes were drawn back by a string,cramp-like pains in thighs,1.0,1
+pain in back as from a sprain,neuralgic pains in left arm,1.0,1
+pain in back as from a sprain,cramp-like pains in thighs,1.0,1
+pain in back as from a sprain,sensation as if eyes were drawn back by a string,1.0,1
+drawing pains in left arm,cramp-like pains in thighs,1.0,1

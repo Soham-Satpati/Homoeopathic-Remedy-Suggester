@@ -1,0 +1,74 @@
+### Cluster 53 — Symptoms (8)
+Symptom,Frequency
+stitches in right hip joint,2
+better in motion,1
+rheumatic pains wandering from joint to joint,1
+lower limbs drawn up in bed,1
+rheumatic pains in left shoulder and shoulder blade,1
+compelling him to stay in bed,1
+sticking pains in hip joints during rest,1
+after the administration of large quantities of copaiba for gonorrhoea,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+mercurius corrosivus,8
+natrum muriaticum,1
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+after the administration of large quantities of copaiba for gonorrhoea,better in motion,1.0,1
+after the administration of large quantities of copaiba for gonorrhoea,rheumatic pains wandering from joint to joint,1.0,1
+after the administration of large quantities of copaiba for gonorrhoea,lower limbs drawn up in bed,1.0,1
+after the administration of large quantities of copaiba for gonorrhoea,rheumatic pains in left shoulder and shoulder blade,1.0,1
+after the administration of large quantities of copaiba for gonorrhoea,compelling him to stay in bed,1.0,1
+after the administration of large quantities of copaiba for gonorrhoea,sticking pains in hip joints during rest,1.0,1
+after the administration of large quantities of copaiba for gonorrhoea,stitches in right hip joint,1.0,1
+better in motion,rheumatic pains wandering from joint to joint,1.0,1
+better in motion,lower limbs drawn up in bed,1.0,1
+better in motion,rheumatic pains in left shoulder and shoulder blade,1.0,1
+better in motion,compelling him to stay in bed,1.0,1
+better in motion,sticking pains in hip joints during rest,1.0,1
+better in motion,after the administration of large quantities of copaiba for gonorrhoea,1.0,1
+better in motion,stitches in right hip joint,1.0,1
+compelling him to stay in bed,better in motion,1.0,1
+compelling him to stay in bed,rheumatic pains wandering from joint to joint,1.0,1
+compelling him to stay in bed,lower limbs drawn up in bed,1.0,1
+compelling him to stay in bed,rheumatic pains in left shoulder and shoulder blade,1.0,1
+compelling him to stay in bed,sticking pains in hip joints during rest,1.0,1
+compelling him to stay in bed,after the administration of large quantities of copaiba for gonorrhoea,1.0,1
+compelling him to stay in bed,stitches in right hip joint,1.0,1
+rheumatic pains wandering from joint to joint,better in motion,1.0,1
+rheumatic pains wandering from joint to joint,lower limbs drawn up in bed,1.0,1
+rheumatic pains wandering from joint to joint,rheumatic pains in left shoulder and shoulder blade,1.0,1
+rheumatic pains wandering from joint to joint,compelling him to stay in bed,1.0,1
+rheumatic pains wandering from joint to joint,sticking pains in hip joints during rest,1.0,1
+rheumatic pains wandering from joint to joint,after the administration of large quantities of copaiba for gonorrhoea,1.0,1
+rheumatic pains wandering from joint to joint,stitches in right hip joint,1.0,1
+rheumatic pains in left shoulder and shoulder blade,better in motion,1.0,1
+rheumatic pains in left shoulder and shoulder blade,rheumatic pains wandering from joint to joint,1.0,1
+rheumatic pains in left shoulder and shoulder blade,lower limbs drawn up in bed,1.0,1
+rheumatic pains in left shoulder and shoulder blade,compelling him to stay in bed,1.0,1
+rheumatic pains in left shoulder and shoulder blade,sticking pains in hip joints during rest,1.0,1
+rheumatic pains in left shoulder and shoulder blade,after the administration of large quantities of copaiba for gonorrhoea,1.0,1
+rheumatic pains in left shoulder and shoulder blade,stitches in right hip joint,1.0,1
+sticking pains in hip joints during rest,better in motion,1.0,1
+sticking pains in hip joints during rest,rheumatic pains wandering from joint to joint,1.0,1
+sticking pains in hip joints during rest,lower limbs drawn up in bed,1.0,1
+sticking pains in hip joints during rest,rheumatic pains in left shoulder and shoulder blade,1.0,1
+sticking pains in hip joints during rest,compelling him to stay in bed,1.0,1
+sticking pains in hip joints during rest,after the administration of large quantities of copaiba for gonorrhoea,1.0,1
+sticking pains in hip joints during rest,stitches in right hip joint,1.0,1
+lower limbs drawn up in bed,better in motion,1.0,1
+lower limbs drawn up in bed,rheumatic pains wandering from joint to joint,1.0,1
+lower limbs drawn up in bed,rheumatic pains in left shoulder and shoulder blade,1.0,1
+lower limbs drawn up in bed,compelling him to stay in bed,1.0,1
+lower limbs drawn up in bed,sticking pains in hip joints during rest,1.0,1
+lower limbs drawn up in bed,after the administration of large quantities of copaiba for gonorrhoea,1.0,1
+lower limbs drawn up in bed,stitches in right hip joint,1.0,1
+stitches in right hip joint,better in motion,0.5,1
+stitches in right hip joint,rheumatic pains wandering from joint to joint,0.5,1
+stitches in right hip joint,lower limbs drawn up in bed,0.5,1
+stitches in right hip joint,rheumatic pains in left shoulder and shoulder blade,0.5,1
+stitches in right hip joint,compelling him to stay in bed,0.5,1
+stitches in right hip joint,sticking pains in hip joints during rest,0.5,1
+stitches in right hip joint,after the administration of large quantities of copaiba for gonorrhoea,0.5,1

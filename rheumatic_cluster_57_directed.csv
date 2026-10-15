@@ -1,0 +1,970 @@
+### Cluster 57 — Symptoms (31)
+Symptom,Frequency
+violent rheumatic pains in joints,1
+cramping pains,1
+better by change of position,1
+pains worse in joints,1
+pains in limbs neuralgic rheumatic very severe,1
+spasmodic pains about heart,1
+rheumatic neuralgic pains in right side of face,1
+shooting pains changing places rapidly,1
+rheumatic pains mostly confined to the right side,1
+neuralgic pains shifting darting excoriating in different parts of body,1
+suited to thin emaciated people of a highly nervous type,1
+nightly neuralgic pains now in left leg then in right leg,1
+teeth sensitive,1
+whole trifacial nerve affected,1
+rheumatic headaches,1
+worse after going to bed,1
+usually of dark complexion,1
+excruciating spasmodic pains in sciatic nerve,1
+pains in right leg from hip to ankle,1
+shooting boring shifting and remitting pains in nape,1
+better by heat,1
+during day perfectly well,1
+pains often brought on by standing in cold water,1
+darting about,1
+acute boring darting pains in back,1
+shifting and remittent,1
+headaches better by external applications of warmth,1
+better by warmth of bed,1
+intercostal drawing neuralgic constriction about heart,1
+excruciating shooting stinging shifting intermittent or paroxysmal,1
+pains shift with lightning-like rapidity,1
+
+### Top Remedies
+Remedy,Symptoms_Covered
+magnesia phosphorica,31
+
+### Directed Edges (Conditional Probabilities)
+Source,Target,Weight_P(Target|Source),Shared_Remedies
+intercostal drawing neuralgic constriction about heart,violent rheumatic pains in joints,1.0,1
+intercostal drawing neuralgic constriction about heart,cramping pains,1.0,1
+intercostal drawing neuralgic constriction about heart,better by change of position,1.0,1
+intercostal drawing neuralgic constriction about heart,pains worse in joints,1.0,1
+intercostal drawing neuralgic constriction about heart,pains in limbs neuralgic rheumatic very severe,1.0,1
+intercostal drawing neuralgic constriction about heart,spasmodic pains about heart,1.0,1
+intercostal drawing neuralgic constriction about heart,rheumatic neuralgic pains in right side of face,1.0,1
+intercostal drawing neuralgic constriction about heart,shooting pains changing places rapidly,1.0,1
+intercostal drawing neuralgic constriction about heart,rheumatic pains mostly confined to the right side,1.0,1
+intercostal drawing neuralgic constriction about heart,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+intercostal drawing neuralgic constriction about heart,suited to thin emaciated people of a highly nervous type,1.0,1
+intercostal drawing neuralgic constriction about heart,nightly neuralgic pains now in left leg then in right leg,1.0,1
+intercostal drawing neuralgic constriction about heart,teeth sensitive,1.0,1
+intercostal drawing neuralgic constriction about heart,whole trifacial nerve affected,1.0,1
+intercostal drawing neuralgic constriction about heart,rheumatic headaches,1.0,1
+intercostal drawing neuralgic constriction about heart,worse after going to bed,1.0,1
+intercostal drawing neuralgic constriction about heart,usually of dark complexion,1.0,1
+intercostal drawing neuralgic constriction about heart,excruciating spasmodic pains in sciatic nerve,1.0,1
+intercostal drawing neuralgic constriction about heart,pains in right leg from hip to ankle,1.0,1
+intercostal drawing neuralgic constriction about heart,shooting boring shifting and remitting pains in nape,1.0,1
+intercostal drawing neuralgic constriction about heart,better by heat,1.0,1
+intercostal drawing neuralgic constriction about heart,during day perfectly well,1.0,1
+intercostal drawing neuralgic constriction about heart,pains often brought on by standing in cold water,1.0,1
+intercostal drawing neuralgic constriction about heart,darting about,1.0,1
+intercostal drawing neuralgic constriction about heart,acute boring darting pains in back,1.0,1
+intercostal drawing neuralgic constriction about heart,shifting and remittent,1.0,1
+intercostal drawing neuralgic constriction about heart,headaches better by external applications of warmth,1.0,1
+intercostal drawing neuralgic constriction about heart,better by warmth of bed,1.0,1
+intercostal drawing neuralgic constriction about heart,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+intercostal drawing neuralgic constriction about heart,pains shift with lightning-like rapidity,1.0,1
+teeth sensitive,violent rheumatic pains in joints,1.0,1
+teeth sensitive,cramping pains,1.0,1
+teeth sensitive,better by change of position,1.0,1
+teeth sensitive,pains worse in joints,1.0,1
+teeth sensitive,pains in limbs neuralgic rheumatic very severe,1.0,1
+teeth sensitive,spasmodic pains about heart,1.0,1
+teeth sensitive,rheumatic neuralgic pains in right side of face,1.0,1
+teeth sensitive,shooting pains changing places rapidly,1.0,1
+teeth sensitive,rheumatic pains mostly confined to the right side,1.0,1
+teeth sensitive,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+teeth sensitive,suited to thin emaciated people of a highly nervous type,1.0,1
+teeth sensitive,nightly neuralgic pains now in left leg then in right leg,1.0,1
+teeth sensitive,whole trifacial nerve affected,1.0,1
+teeth sensitive,rheumatic headaches,1.0,1
+teeth sensitive,worse after going to bed,1.0,1
+teeth sensitive,usually of dark complexion,1.0,1
+teeth sensitive,excruciating spasmodic pains in sciatic nerve,1.0,1
+teeth sensitive,pains in right leg from hip to ankle,1.0,1
+teeth sensitive,shooting boring shifting and remitting pains in nape,1.0,1
+teeth sensitive,better by heat,1.0,1
+teeth sensitive,during day perfectly well,1.0,1
+teeth sensitive,pains often brought on by standing in cold water,1.0,1
+teeth sensitive,darting about,1.0,1
+teeth sensitive,acute boring darting pains in back,1.0,1
+teeth sensitive,shifting and remittent,1.0,1
+teeth sensitive,headaches better by external applications of warmth,1.0,1
+teeth sensitive,better by warmth of bed,1.0,1
+teeth sensitive,intercostal drawing neuralgic constriction about heart,1.0,1
+teeth sensitive,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+teeth sensitive,pains shift with lightning-like rapidity,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,violent rheumatic pains in joints,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,cramping pains,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,better by change of position,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,pains worse in joints,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,pains in limbs neuralgic rheumatic very severe,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,spasmodic pains about heart,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,rheumatic neuralgic pains in right side of face,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,shooting pains changing places rapidly,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,rheumatic pains mostly confined to the right side,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,suited to thin emaciated people of a highly nervous type,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,nightly neuralgic pains now in left leg then in right leg,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,teeth sensitive,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,whole trifacial nerve affected,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,rheumatic headaches,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,worse after going to bed,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,usually of dark complexion,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,excruciating spasmodic pains in sciatic nerve,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,pains in right leg from hip to ankle,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,shooting boring shifting and remitting pains in nape,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,better by heat,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,during day perfectly well,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,pains often brought on by standing in cold water,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,darting about,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,acute boring darting pains in back,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,shifting and remittent,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,headaches better by external applications of warmth,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,better by warmth of bed,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,intercostal drawing neuralgic constriction about heart,1.0,1
+excruciating shooting stinging shifting intermittent or paroxysmal,pains shift with lightning-like rapidity,1.0,1
+violent rheumatic pains in joints,cramping pains,1.0,1
+violent rheumatic pains in joints,better by change of position,1.0,1
+violent rheumatic pains in joints,pains worse in joints,1.0,1
+violent rheumatic pains in joints,pains in limbs neuralgic rheumatic very severe,1.0,1
+violent rheumatic pains in joints,spasmodic pains about heart,1.0,1
+violent rheumatic pains in joints,rheumatic neuralgic pains in right side of face,1.0,1
+violent rheumatic pains in joints,shooting pains changing places rapidly,1.0,1
+violent rheumatic pains in joints,rheumatic pains mostly confined to the right side,1.0,1
+violent rheumatic pains in joints,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+violent rheumatic pains in joints,suited to thin emaciated people of a highly nervous type,1.0,1
+violent rheumatic pains in joints,nightly neuralgic pains now in left leg then in right leg,1.0,1
+violent rheumatic pains in joints,teeth sensitive,1.0,1
+violent rheumatic pains in joints,whole trifacial nerve affected,1.0,1
+violent rheumatic pains in joints,rheumatic headaches,1.0,1
+violent rheumatic pains in joints,worse after going to bed,1.0,1
+violent rheumatic pains in joints,usually of dark complexion,1.0,1
+violent rheumatic pains in joints,excruciating spasmodic pains in sciatic nerve,1.0,1
+violent rheumatic pains in joints,pains in right leg from hip to ankle,1.0,1
+violent rheumatic pains in joints,shooting boring shifting and remitting pains in nape,1.0,1
+violent rheumatic pains in joints,better by heat,1.0,1
+violent rheumatic pains in joints,during day perfectly well,1.0,1
+violent rheumatic pains in joints,pains often brought on by standing in cold water,1.0,1
+violent rheumatic pains in joints,darting about,1.0,1
+violent rheumatic pains in joints,acute boring darting pains in back,1.0,1
+violent rheumatic pains in joints,shifting and remittent,1.0,1
+violent rheumatic pains in joints,headaches better by external applications of warmth,1.0,1
+violent rheumatic pains in joints,better by warmth of bed,1.0,1
+violent rheumatic pains in joints,intercostal drawing neuralgic constriction about heart,1.0,1
+violent rheumatic pains in joints,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+violent rheumatic pains in joints,pains shift with lightning-like rapidity,1.0,1
+rheumatic neuralgic pains in right side of face,violent rheumatic pains in joints,1.0,1
+rheumatic neuralgic pains in right side of face,cramping pains,1.0,1
+rheumatic neuralgic pains in right side of face,better by change of position,1.0,1
+rheumatic neuralgic pains in right side of face,pains worse in joints,1.0,1
+rheumatic neuralgic pains in right side of face,pains in limbs neuralgic rheumatic very severe,1.0,1
+rheumatic neuralgic pains in right side of face,spasmodic pains about heart,1.0,1
+rheumatic neuralgic pains in right side of face,shooting pains changing places rapidly,1.0,1
+rheumatic neuralgic pains in right side of face,rheumatic pains mostly confined to the right side,1.0,1
+rheumatic neuralgic pains in right side of face,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+rheumatic neuralgic pains in right side of face,suited to thin emaciated people of a highly nervous type,1.0,1
+rheumatic neuralgic pains in right side of face,nightly neuralgic pains now in left leg then in right leg,1.0,1
+rheumatic neuralgic pains in right side of face,teeth sensitive,1.0,1
+rheumatic neuralgic pains in right side of face,whole trifacial nerve affected,1.0,1
+rheumatic neuralgic pains in right side of face,rheumatic headaches,1.0,1
+rheumatic neuralgic pains in right side of face,worse after going to bed,1.0,1
+rheumatic neuralgic pains in right side of face,usually of dark complexion,1.0,1
+rheumatic neuralgic pains in right side of face,excruciating spasmodic pains in sciatic nerve,1.0,1
+rheumatic neuralgic pains in right side of face,pains in right leg from hip to ankle,1.0,1
+rheumatic neuralgic pains in right side of face,shooting boring shifting and remitting pains in nape,1.0,1
+rheumatic neuralgic pains in right side of face,better by heat,1.0,1
+rheumatic neuralgic pains in right side of face,during day perfectly well,1.0,1
+rheumatic neuralgic pains in right side of face,pains often brought on by standing in cold water,1.0,1
+rheumatic neuralgic pains in right side of face,darting about,1.0,1
+rheumatic neuralgic pains in right side of face,acute boring darting pains in back,1.0,1
+rheumatic neuralgic pains in right side of face,shifting and remittent,1.0,1
+rheumatic neuralgic pains in right side of face,headaches better by external applications of warmth,1.0,1
+rheumatic neuralgic pains in right side of face,better by warmth of bed,1.0,1
+rheumatic neuralgic pains in right side of face,intercostal drawing neuralgic constriction about heart,1.0,1
+rheumatic neuralgic pains in right side of face,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+rheumatic neuralgic pains in right side of face,pains shift with lightning-like rapidity,1.0,1
+shooting boring shifting and remitting pains in nape,violent rheumatic pains in joints,1.0,1
+shooting boring shifting and remitting pains in nape,cramping pains,1.0,1
+shooting boring shifting and remitting pains in nape,better by change of position,1.0,1
+shooting boring shifting and remitting pains in nape,pains worse in joints,1.0,1
+shooting boring shifting and remitting pains in nape,pains in limbs neuralgic rheumatic very severe,1.0,1
+shooting boring shifting and remitting pains in nape,spasmodic pains about heart,1.0,1
+shooting boring shifting and remitting pains in nape,rheumatic neuralgic pains in right side of face,1.0,1
+shooting boring shifting and remitting pains in nape,shooting pains changing places rapidly,1.0,1
+shooting boring shifting and remitting pains in nape,rheumatic pains mostly confined to the right side,1.0,1
+shooting boring shifting and remitting pains in nape,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+shooting boring shifting and remitting pains in nape,suited to thin emaciated people of a highly nervous type,1.0,1
+shooting boring shifting and remitting pains in nape,nightly neuralgic pains now in left leg then in right leg,1.0,1
+shooting boring shifting and remitting pains in nape,teeth sensitive,1.0,1
+shooting boring shifting and remitting pains in nape,whole trifacial nerve affected,1.0,1
+shooting boring shifting and remitting pains in nape,rheumatic headaches,1.0,1
+shooting boring shifting and remitting pains in nape,worse after going to bed,1.0,1
+shooting boring shifting and remitting pains in nape,usually of dark complexion,1.0,1
+shooting boring shifting and remitting pains in nape,excruciating spasmodic pains in sciatic nerve,1.0,1
+shooting boring shifting and remitting pains in nape,pains in right leg from hip to ankle,1.0,1
+shooting boring shifting and remitting pains in nape,better by heat,1.0,1
+shooting boring shifting and remitting pains in nape,during day perfectly well,1.0,1
+shooting boring shifting and remitting pains in nape,pains often brought on by standing in cold water,1.0,1
+shooting boring shifting and remitting pains in nape,darting about,1.0,1
+shooting boring shifting and remitting pains in nape,acute boring darting pains in back,1.0,1
+shooting boring shifting and remitting pains in nape,shifting and remittent,1.0,1
+shooting boring shifting and remitting pains in nape,headaches better by external applications of warmth,1.0,1
+shooting boring shifting and remitting pains in nape,better by warmth of bed,1.0,1
+shooting boring shifting and remitting pains in nape,intercostal drawing neuralgic constriction about heart,1.0,1
+shooting boring shifting and remitting pains in nape,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+shooting boring shifting and remitting pains in nape,pains shift with lightning-like rapidity,1.0,1
+during day perfectly well,violent rheumatic pains in joints,1.0,1
+during day perfectly well,cramping pains,1.0,1
+during day perfectly well,better by change of position,1.0,1
+during day perfectly well,pains worse in joints,1.0,1
+during day perfectly well,pains in limbs neuralgic rheumatic very severe,1.0,1
+during day perfectly well,spasmodic pains about heart,1.0,1
+during day perfectly well,rheumatic neuralgic pains in right side of face,1.0,1
+during day perfectly well,shooting pains changing places rapidly,1.0,1
+during day perfectly well,rheumatic pains mostly confined to the right side,1.0,1
+during day perfectly well,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+during day perfectly well,suited to thin emaciated people of a highly nervous type,1.0,1
+during day perfectly well,nightly neuralgic pains now in left leg then in right leg,1.0,1
+during day perfectly well,teeth sensitive,1.0,1
+during day perfectly well,whole trifacial nerve affected,1.0,1
+during day perfectly well,rheumatic headaches,1.0,1
+during day perfectly well,worse after going to bed,1.0,1
+during day perfectly well,usually of dark complexion,1.0,1
+during day perfectly well,excruciating spasmodic pains in sciatic nerve,1.0,1
+during day perfectly well,pains in right leg from hip to ankle,1.0,1
+during day perfectly well,shooting boring shifting and remitting pains in nape,1.0,1
+during day perfectly well,better by heat,1.0,1
+during day perfectly well,pains often brought on by standing in cold water,1.0,1
+during day perfectly well,darting about,1.0,1
+during day perfectly well,acute boring darting pains in back,1.0,1
+during day perfectly well,shifting and remittent,1.0,1
+during day perfectly well,headaches better by external applications of warmth,1.0,1
+during day perfectly well,better by warmth of bed,1.0,1
+during day perfectly well,intercostal drawing neuralgic constriction about heart,1.0,1
+during day perfectly well,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+during day perfectly well,pains shift with lightning-like rapidity,1.0,1
+rheumatic pains mostly confined to the right side,violent rheumatic pains in joints,1.0,1
+rheumatic pains mostly confined to the right side,cramping pains,1.0,1
+rheumatic pains mostly confined to the right side,better by change of position,1.0,1
+rheumatic pains mostly confined to the right side,pains worse in joints,1.0,1
+rheumatic pains mostly confined to the right side,pains in limbs neuralgic rheumatic very severe,1.0,1
+rheumatic pains mostly confined to the right side,spasmodic pains about heart,1.0,1
+rheumatic pains mostly confined to the right side,rheumatic neuralgic pains in right side of face,1.0,1
+rheumatic pains mostly confined to the right side,shooting pains changing places rapidly,1.0,1
+rheumatic pains mostly confined to the right side,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+rheumatic pains mostly confined to the right side,suited to thin emaciated people of a highly nervous type,1.0,1
+rheumatic pains mostly confined to the right side,nightly neuralgic pains now in left leg then in right leg,1.0,1
+rheumatic pains mostly confined to the right side,teeth sensitive,1.0,1
+rheumatic pains mostly confined to the right side,whole trifacial nerve affected,1.0,1
+rheumatic pains mostly confined to the right side,rheumatic headaches,1.0,1
+rheumatic pains mostly confined to the right side,worse after going to bed,1.0,1
+rheumatic pains mostly confined to the right side,usually of dark complexion,1.0,1
+rheumatic pains mostly confined to the right side,excruciating spasmodic pains in sciatic nerve,1.0,1
+rheumatic pains mostly confined to the right side,pains in right leg from hip to ankle,1.0,1
+rheumatic pains mostly confined to the right side,shooting boring shifting and remitting pains in nape,1.0,1
+rheumatic pains mostly confined to the right side,better by heat,1.0,1
+rheumatic pains mostly confined to the right side,during day perfectly well,1.0,1
+rheumatic pains mostly confined to the right side,pains often brought on by standing in cold water,1.0,1
+rheumatic pains mostly confined to the right side,darting about,1.0,1
+rheumatic pains mostly confined to the right side,acute boring darting pains in back,1.0,1
+rheumatic pains mostly confined to the right side,shifting and remittent,1.0,1
+rheumatic pains mostly confined to the right side,headaches better by external applications of warmth,1.0,1
+rheumatic pains mostly confined to the right side,better by warmth of bed,1.0,1
+rheumatic pains mostly confined to the right side,intercostal drawing neuralgic constriction about heart,1.0,1
+rheumatic pains mostly confined to the right side,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+rheumatic pains mostly confined to the right side,pains shift with lightning-like rapidity,1.0,1
+worse after going to bed,violent rheumatic pains in joints,1.0,1
+worse after going to bed,cramping pains,1.0,1
+worse after going to bed,better by change of position,1.0,1
+worse after going to bed,pains worse in joints,1.0,1
+worse after going to bed,pains in limbs neuralgic rheumatic very severe,1.0,1
+worse after going to bed,spasmodic pains about heart,1.0,1
+worse after going to bed,rheumatic neuralgic pains in right side of face,1.0,1
+worse after going to bed,shooting pains changing places rapidly,1.0,1
+worse after going to bed,rheumatic pains mostly confined to the right side,1.0,1
+worse after going to bed,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+worse after going to bed,suited to thin emaciated people of a highly nervous type,1.0,1
+worse after going to bed,nightly neuralgic pains now in left leg then in right leg,1.0,1
+worse after going to bed,teeth sensitive,1.0,1
+worse after going to bed,whole trifacial nerve affected,1.0,1
+worse after going to bed,rheumatic headaches,1.0,1
+worse after going to bed,usually of dark complexion,1.0,1
+worse after going to bed,excruciating spasmodic pains in sciatic nerve,1.0,1
+worse after going to bed,pains in right leg from hip to ankle,1.0,1
+worse after going to bed,shooting boring shifting and remitting pains in nape,1.0,1
+worse after going to bed,better by heat,1.0,1
+worse after going to bed,during day perfectly well,1.0,1
+worse after going to bed,pains often brought on by standing in cold water,1.0,1
+worse after going to bed,darting about,1.0,1
+worse after going to bed,acute boring darting pains in back,1.0,1
+worse after going to bed,shifting and remittent,1.0,1
+worse after going to bed,headaches better by external applications of warmth,1.0,1
+worse after going to bed,better by warmth of bed,1.0,1
+worse after going to bed,intercostal drawing neuralgic constriction about heart,1.0,1
+worse after going to bed,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+worse after going to bed,pains shift with lightning-like rapidity,1.0,1
+better by warmth of bed,violent rheumatic pains in joints,1.0,1
+better by warmth of bed,cramping pains,1.0,1
+better by warmth of bed,better by change of position,1.0,1
+better by warmth of bed,pains worse in joints,1.0,1
+better by warmth of bed,pains in limbs neuralgic rheumatic very severe,1.0,1
+better by warmth of bed,spasmodic pains about heart,1.0,1
+better by warmth of bed,rheumatic neuralgic pains in right side of face,1.0,1
+better by warmth of bed,shooting pains changing places rapidly,1.0,1
+better by warmth of bed,rheumatic pains mostly confined to the right side,1.0,1
+better by warmth of bed,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+better by warmth of bed,suited to thin emaciated people of a highly nervous type,1.0,1
+better by warmth of bed,nightly neuralgic pains now in left leg then in right leg,1.0,1
+better by warmth of bed,teeth sensitive,1.0,1
+better by warmth of bed,whole trifacial nerve affected,1.0,1
+better by warmth of bed,rheumatic headaches,1.0,1
+better by warmth of bed,worse after going to bed,1.0,1
+better by warmth of bed,usually of dark complexion,1.0,1
+better by warmth of bed,excruciating spasmodic pains in sciatic nerve,1.0,1
+better by warmth of bed,pains in right leg from hip to ankle,1.0,1
+better by warmth of bed,shooting boring shifting and remitting pains in nape,1.0,1
+better by warmth of bed,better by heat,1.0,1
+better by warmth of bed,during day perfectly well,1.0,1
+better by warmth of bed,pains often brought on by standing in cold water,1.0,1
+better by warmth of bed,darting about,1.0,1
+better by warmth of bed,acute boring darting pains in back,1.0,1
+better by warmth of bed,shifting and remittent,1.0,1
+better by warmth of bed,headaches better by external applications of warmth,1.0,1
+better by warmth of bed,intercostal drawing neuralgic constriction about heart,1.0,1
+better by warmth of bed,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+better by warmth of bed,pains shift with lightning-like rapidity,1.0,1
+suited to thin emaciated people of a highly nervous type,violent rheumatic pains in joints,1.0,1
+suited to thin emaciated people of a highly nervous type,cramping pains,1.0,1
+suited to thin emaciated people of a highly nervous type,better by change of position,1.0,1
+suited to thin emaciated people of a highly nervous type,pains worse in joints,1.0,1
+suited to thin emaciated people of a highly nervous type,pains in limbs neuralgic rheumatic very severe,1.0,1
+suited to thin emaciated people of a highly nervous type,spasmodic pains about heart,1.0,1
+suited to thin emaciated people of a highly nervous type,rheumatic neuralgic pains in right side of face,1.0,1
+suited to thin emaciated people of a highly nervous type,shooting pains changing places rapidly,1.0,1
+suited to thin emaciated people of a highly nervous type,rheumatic pains mostly confined to the right side,1.0,1
+suited to thin emaciated people of a highly nervous type,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+suited to thin emaciated people of a highly nervous type,nightly neuralgic pains now in left leg then in right leg,1.0,1
+suited to thin emaciated people of a highly nervous type,teeth sensitive,1.0,1
+suited to thin emaciated people of a highly nervous type,whole trifacial nerve affected,1.0,1
+suited to thin emaciated people of a highly nervous type,rheumatic headaches,1.0,1
+suited to thin emaciated people of a highly nervous type,worse after going to bed,1.0,1
+suited to thin emaciated people of a highly nervous type,usually of dark complexion,1.0,1
+suited to thin emaciated people of a highly nervous type,excruciating spasmodic pains in sciatic nerve,1.0,1
+suited to thin emaciated people of a highly nervous type,pains in right leg from hip to ankle,1.0,1
+suited to thin emaciated people of a highly nervous type,shooting boring shifting and remitting pains in nape,1.0,1
+suited to thin emaciated people of a highly nervous type,better by heat,1.0,1
+suited to thin emaciated people of a highly nervous type,during day perfectly well,1.0,1
+suited to thin emaciated people of a highly nervous type,pains often brought on by standing in cold water,1.0,1
+suited to thin emaciated people of a highly nervous type,darting about,1.0,1
+suited to thin emaciated people of a highly nervous type,acute boring darting pains in back,1.0,1
+suited to thin emaciated people of a highly nervous type,shifting and remittent,1.0,1
+suited to thin emaciated people of a highly nervous type,headaches better by external applications of warmth,1.0,1
+suited to thin emaciated people of a highly nervous type,better by warmth of bed,1.0,1
+suited to thin emaciated people of a highly nervous type,intercostal drawing neuralgic constriction about heart,1.0,1
+suited to thin emaciated people of a highly nervous type,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+suited to thin emaciated people of a highly nervous type,pains shift with lightning-like rapidity,1.0,1
+shooting pains changing places rapidly,violent rheumatic pains in joints,1.0,1
+shooting pains changing places rapidly,cramping pains,1.0,1
+shooting pains changing places rapidly,better by change of position,1.0,1
+shooting pains changing places rapidly,pains worse in joints,1.0,1
+shooting pains changing places rapidly,pains in limbs neuralgic rheumatic very severe,1.0,1
+shooting pains changing places rapidly,spasmodic pains about heart,1.0,1
+shooting pains changing places rapidly,rheumatic neuralgic pains in right side of face,1.0,1
+shooting pains changing places rapidly,rheumatic pains mostly confined to the right side,1.0,1
+shooting pains changing places rapidly,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+shooting pains changing places rapidly,suited to thin emaciated people of a highly nervous type,1.0,1
+shooting pains changing places rapidly,nightly neuralgic pains now in left leg then in right leg,1.0,1
+shooting pains changing places rapidly,teeth sensitive,1.0,1
+shooting pains changing places rapidly,whole trifacial nerve affected,1.0,1
+shooting pains changing places rapidly,rheumatic headaches,1.0,1
+shooting pains changing places rapidly,worse after going to bed,1.0,1
+shooting pains changing places rapidly,usually of dark complexion,1.0,1
+shooting pains changing places rapidly,excruciating spasmodic pains in sciatic nerve,1.0,1
+shooting pains changing places rapidly,pains in right leg from hip to ankle,1.0,1
+shooting pains changing places rapidly,shooting boring shifting and remitting pains in nape,1.0,1
+shooting pains changing places rapidly,better by heat,1.0,1
+shooting pains changing places rapidly,during day perfectly well,1.0,1
+shooting pains changing places rapidly,pains often brought on by standing in cold water,1.0,1
+shooting pains changing places rapidly,darting about,1.0,1
+shooting pains changing places rapidly,acute boring darting pains in back,1.0,1
+shooting pains changing places rapidly,shifting and remittent,1.0,1
+shooting pains changing places rapidly,headaches better by external applications of warmth,1.0,1
+shooting pains changing places rapidly,better by warmth of bed,1.0,1
+shooting pains changing places rapidly,intercostal drawing neuralgic constriction about heart,1.0,1
+shooting pains changing places rapidly,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+shooting pains changing places rapidly,pains shift with lightning-like rapidity,1.0,1
+pains in limbs neuralgic rheumatic very severe,violent rheumatic pains in joints,1.0,1
+pains in limbs neuralgic rheumatic very severe,cramping pains,1.0,1
+pains in limbs neuralgic rheumatic very severe,better by change of position,1.0,1
+pains in limbs neuralgic rheumatic very severe,pains worse in joints,1.0,1
+pains in limbs neuralgic rheumatic very severe,spasmodic pains about heart,1.0,1
+pains in limbs neuralgic rheumatic very severe,rheumatic neuralgic pains in right side of face,1.0,1
+pains in limbs neuralgic rheumatic very severe,shooting pains changing places rapidly,1.0,1
+pains in limbs neuralgic rheumatic very severe,rheumatic pains mostly confined to the right side,1.0,1
+pains in limbs neuralgic rheumatic very severe,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+pains in limbs neuralgic rheumatic very severe,suited to thin emaciated people of a highly nervous type,1.0,1
+pains in limbs neuralgic rheumatic very severe,nightly neuralgic pains now in left leg then in right leg,1.0,1
+pains in limbs neuralgic rheumatic very severe,teeth sensitive,1.0,1
+pains in limbs neuralgic rheumatic very severe,whole trifacial nerve affected,1.0,1
+pains in limbs neuralgic rheumatic very severe,rheumatic headaches,1.0,1
+pains in limbs neuralgic rheumatic very severe,worse after going to bed,1.0,1
+pains in limbs neuralgic rheumatic very severe,usually of dark complexion,1.0,1
+pains in limbs neuralgic rheumatic very severe,excruciating spasmodic pains in sciatic nerve,1.0,1
+pains in limbs neuralgic rheumatic very severe,pains in right leg from hip to ankle,1.0,1
+pains in limbs neuralgic rheumatic very severe,shooting boring shifting and remitting pains in nape,1.0,1
+pains in limbs neuralgic rheumatic very severe,better by heat,1.0,1
+pains in limbs neuralgic rheumatic very severe,during day perfectly well,1.0,1
+pains in limbs neuralgic rheumatic very severe,pains often brought on by standing in cold water,1.0,1
+pains in limbs neuralgic rheumatic very severe,darting about,1.0,1
+pains in limbs neuralgic rheumatic very severe,acute boring darting pains in back,1.0,1
+pains in limbs neuralgic rheumatic very severe,shifting and remittent,1.0,1
+pains in limbs neuralgic rheumatic very severe,headaches better by external applications of warmth,1.0,1
+pains in limbs neuralgic rheumatic very severe,better by warmth of bed,1.0,1
+pains in limbs neuralgic rheumatic very severe,intercostal drawing neuralgic constriction about heart,1.0,1
+pains in limbs neuralgic rheumatic very severe,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+pains in limbs neuralgic rheumatic very severe,pains shift with lightning-like rapidity,1.0,1
+nightly neuralgic pains now in left leg then in right leg,violent rheumatic pains in joints,1.0,1
+nightly neuralgic pains now in left leg then in right leg,cramping pains,1.0,1
+nightly neuralgic pains now in left leg then in right leg,better by change of position,1.0,1
+nightly neuralgic pains now in left leg then in right leg,pains worse in joints,1.0,1
+nightly neuralgic pains now in left leg then in right leg,pains in limbs neuralgic rheumatic very severe,1.0,1
+nightly neuralgic pains now in left leg then in right leg,spasmodic pains about heart,1.0,1
+nightly neuralgic pains now in left leg then in right leg,rheumatic neuralgic pains in right side of face,1.0,1
+nightly neuralgic pains now in left leg then in right leg,shooting pains changing places rapidly,1.0,1
+nightly neuralgic pains now in left leg then in right leg,rheumatic pains mostly confined to the right side,1.0,1
+nightly neuralgic pains now in left leg then in right leg,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+nightly neuralgic pains now in left leg then in right leg,suited to thin emaciated people of a highly nervous type,1.0,1
+nightly neuralgic pains now in left leg then in right leg,teeth sensitive,1.0,1
+nightly neuralgic pains now in left leg then in right leg,whole trifacial nerve affected,1.0,1
+nightly neuralgic pains now in left leg then in right leg,rheumatic headaches,1.0,1
+nightly neuralgic pains now in left leg then in right leg,worse after going to bed,1.0,1
+nightly neuralgic pains now in left leg then in right leg,usually of dark complexion,1.0,1
+nightly neuralgic pains now in left leg then in right leg,excruciating spasmodic pains in sciatic nerve,1.0,1
+nightly neuralgic pains now in left leg then in right leg,pains in right leg from hip to ankle,1.0,1
+nightly neuralgic pains now in left leg then in right leg,shooting boring shifting and remitting pains in nape,1.0,1
+nightly neuralgic pains now in left leg then in right leg,better by heat,1.0,1
+nightly neuralgic pains now in left leg then in right leg,during day perfectly well,1.0,1
+nightly neuralgic pains now in left leg then in right leg,pains often brought on by standing in cold water,1.0,1
+nightly neuralgic pains now in left leg then in right leg,darting about,1.0,1
+nightly neuralgic pains now in left leg then in right leg,acute boring darting pains in back,1.0,1
+nightly neuralgic pains now in left leg then in right leg,shifting and remittent,1.0,1
+nightly neuralgic pains now in left leg then in right leg,headaches better by external applications of warmth,1.0,1
+nightly neuralgic pains now in left leg then in right leg,better by warmth of bed,1.0,1
+nightly neuralgic pains now in left leg then in right leg,intercostal drawing neuralgic constriction about heart,1.0,1
+nightly neuralgic pains now in left leg then in right leg,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+nightly neuralgic pains now in left leg then in right leg,pains shift with lightning-like rapidity,1.0,1
+usually of dark complexion,violent rheumatic pains in joints,1.0,1
+usually of dark complexion,cramping pains,1.0,1
+usually of dark complexion,better by change of position,1.0,1
+usually of dark complexion,pains worse in joints,1.0,1
+usually of dark complexion,pains in limbs neuralgic rheumatic very severe,1.0,1
+usually of dark complexion,spasmodic pains about heart,1.0,1
+usually of dark complexion,rheumatic neuralgic pains in right side of face,1.0,1
+usually of dark complexion,shooting pains changing places rapidly,1.0,1
+usually of dark complexion,rheumatic pains mostly confined to the right side,1.0,1
+usually of dark complexion,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+usually of dark complexion,suited to thin emaciated people of a highly nervous type,1.0,1
+usually of dark complexion,nightly neuralgic pains now in left leg then in right leg,1.0,1
+usually of dark complexion,teeth sensitive,1.0,1
+usually of dark complexion,whole trifacial nerve affected,1.0,1
+usually of dark complexion,rheumatic headaches,1.0,1
+usually of dark complexion,worse after going to bed,1.0,1
+usually of dark complexion,excruciating spasmodic pains in sciatic nerve,1.0,1
+usually of dark complexion,pains in right leg from hip to ankle,1.0,1
+usually of dark complexion,shooting boring shifting and remitting pains in nape,1.0,1
+usually of dark complexion,better by heat,1.0,1
+usually of dark complexion,during day perfectly well,1.0,1
+usually of dark complexion,pains often brought on by standing in cold water,1.0,1
+usually of dark complexion,darting about,1.0,1
+usually of dark complexion,acute boring darting pains in back,1.0,1
+usually of dark complexion,shifting and remittent,1.0,1
+usually of dark complexion,headaches better by external applications of warmth,1.0,1
+usually of dark complexion,better by warmth of bed,1.0,1
+usually of dark complexion,intercostal drawing neuralgic constriction about heart,1.0,1
+usually of dark complexion,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+usually of dark complexion,pains shift with lightning-like rapidity,1.0,1
+pains in right leg from hip to ankle,violent rheumatic pains in joints,1.0,1
+pains in right leg from hip to ankle,cramping pains,1.0,1
+pains in right leg from hip to ankle,better by change of position,1.0,1
+pains in right leg from hip to ankle,pains worse in joints,1.0,1
+pains in right leg from hip to ankle,pains in limbs neuralgic rheumatic very severe,1.0,1
+pains in right leg from hip to ankle,spasmodic pains about heart,1.0,1
+pains in right leg from hip to ankle,rheumatic neuralgic pains in right side of face,1.0,1
+pains in right leg from hip to ankle,shooting pains changing places rapidly,1.0,1
+pains in right leg from hip to ankle,rheumatic pains mostly confined to the right side,1.0,1
+pains in right leg from hip to ankle,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+pains in right leg from hip to ankle,suited to thin emaciated people of a highly nervous type,1.0,1
+pains in right leg from hip to ankle,nightly neuralgic pains now in left leg then in right leg,1.0,1
+pains in right leg from hip to ankle,teeth sensitive,1.0,1
+pains in right leg from hip to ankle,whole trifacial nerve affected,1.0,1
+pains in right leg from hip to ankle,rheumatic headaches,1.0,1
+pains in right leg from hip to ankle,worse after going to bed,1.0,1
+pains in right leg from hip to ankle,usually of dark complexion,1.0,1
+pains in right leg from hip to ankle,excruciating spasmodic pains in sciatic nerve,1.0,1
+pains in right leg from hip to ankle,shooting boring shifting and remitting pains in nape,1.0,1
+pains in right leg from hip to ankle,better by heat,1.0,1
+pains in right leg from hip to ankle,during day perfectly well,1.0,1
+pains in right leg from hip to ankle,pains often brought on by standing in cold water,1.0,1
+pains in right leg from hip to ankle,darting about,1.0,1
+pains in right leg from hip to ankle,acute boring darting pains in back,1.0,1
+pains in right leg from hip to ankle,shifting and remittent,1.0,1
+pains in right leg from hip to ankle,headaches better by external applications of warmth,1.0,1
+pains in right leg from hip to ankle,better by warmth of bed,1.0,1
+pains in right leg from hip to ankle,intercostal drawing neuralgic constriction about heart,1.0,1
+pains in right leg from hip to ankle,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+pains in right leg from hip to ankle,pains shift with lightning-like rapidity,1.0,1
+better by heat,violent rheumatic pains in joints,1.0,1
+better by heat,cramping pains,1.0,1
+better by heat,better by change of position,1.0,1
+better by heat,pains worse in joints,1.0,1
+better by heat,pains in limbs neuralgic rheumatic very severe,1.0,1
+better by heat,spasmodic pains about heart,1.0,1
+better by heat,rheumatic neuralgic pains in right side of face,1.0,1
+better by heat,shooting pains changing places rapidly,1.0,1
+better by heat,rheumatic pains mostly confined to the right side,1.0,1
+better by heat,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+better by heat,suited to thin emaciated people of a highly nervous type,1.0,1
+better by heat,nightly neuralgic pains now in left leg then in right leg,1.0,1
+better by heat,teeth sensitive,1.0,1
+better by heat,whole trifacial nerve affected,1.0,1
+better by heat,rheumatic headaches,1.0,1
+better by heat,worse after going to bed,1.0,1
+better by heat,usually of dark complexion,1.0,1
+better by heat,excruciating spasmodic pains in sciatic nerve,1.0,1
+better by heat,pains in right leg from hip to ankle,1.0,1
+better by heat,shooting boring shifting and remitting pains in nape,1.0,1
+better by heat,during day perfectly well,1.0,1
+better by heat,pains often brought on by standing in cold water,1.0,1
+better by heat,darting about,1.0,1
+better by heat,acute boring darting pains in back,1.0,1
+better by heat,shifting and remittent,1.0,1
+better by heat,headaches better by external applications of warmth,1.0,1
+better by heat,better by warmth of bed,1.0,1
+better by heat,intercostal drawing neuralgic constriction about heart,1.0,1
+better by heat,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+better by heat,pains shift with lightning-like rapidity,1.0,1
+rheumatic headaches,violent rheumatic pains in joints,1.0,1
+rheumatic headaches,cramping pains,1.0,1
+rheumatic headaches,better by change of position,1.0,1
+rheumatic headaches,pains worse in joints,1.0,1
+rheumatic headaches,pains in limbs neuralgic rheumatic very severe,1.0,1
+rheumatic headaches,spasmodic pains about heart,1.0,1
+rheumatic headaches,rheumatic neuralgic pains in right side of face,1.0,1
+rheumatic headaches,shooting pains changing places rapidly,1.0,1
+rheumatic headaches,rheumatic pains mostly confined to the right side,1.0,1
+rheumatic headaches,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+rheumatic headaches,suited to thin emaciated people of a highly nervous type,1.0,1
+rheumatic headaches,nightly neuralgic pains now in left leg then in right leg,1.0,1
+rheumatic headaches,teeth sensitive,1.0,1
+rheumatic headaches,whole trifacial nerve affected,1.0,1
+rheumatic headaches,worse after going to bed,1.0,1
+rheumatic headaches,usually of dark complexion,1.0,1
+rheumatic headaches,excruciating spasmodic pains in sciatic nerve,1.0,1
+rheumatic headaches,pains in right leg from hip to ankle,1.0,1
+rheumatic headaches,shooting boring shifting and remitting pains in nape,1.0,1
+rheumatic headaches,better by heat,1.0,1
+rheumatic headaches,during day perfectly well,1.0,1
+rheumatic headaches,pains often brought on by standing in cold water,1.0,1
+rheumatic headaches,darting about,1.0,1
+rheumatic headaches,acute boring darting pains in back,1.0,1
+rheumatic headaches,shifting and remittent,1.0,1
+rheumatic headaches,headaches better by external applications of warmth,1.0,1
+rheumatic headaches,better by warmth of bed,1.0,1
+rheumatic headaches,intercostal drawing neuralgic constriction about heart,1.0,1
+rheumatic headaches,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+rheumatic headaches,pains shift with lightning-like rapidity,1.0,1
+spasmodic pains about heart,violent rheumatic pains in joints,1.0,1
+spasmodic pains about heart,cramping pains,1.0,1
+spasmodic pains about heart,better by change of position,1.0,1
+spasmodic pains about heart,pains worse in joints,1.0,1
+spasmodic pains about heart,pains in limbs neuralgic rheumatic very severe,1.0,1
+spasmodic pains about heart,rheumatic neuralgic pains in right side of face,1.0,1
+spasmodic pains about heart,shooting pains changing places rapidly,1.0,1
+spasmodic pains about heart,rheumatic pains mostly confined to the right side,1.0,1
+spasmodic pains about heart,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+spasmodic pains about heart,suited to thin emaciated people of a highly nervous type,1.0,1
+spasmodic pains about heart,nightly neuralgic pains now in left leg then in right leg,1.0,1
+spasmodic pains about heart,teeth sensitive,1.0,1
+spasmodic pains about heart,whole trifacial nerve affected,1.0,1
+spasmodic pains about heart,rheumatic headaches,1.0,1
+spasmodic pains about heart,worse after going to bed,1.0,1
+spasmodic pains about heart,usually of dark complexion,1.0,1
+spasmodic pains about heart,excruciating spasmodic pains in sciatic nerve,1.0,1
+spasmodic pains about heart,pains in right leg from hip to ankle,1.0,1
+spasmodic pains about heart,shooting boring shifting and remitting pains in nape,1.0,1
+spasmodic pains about heart,better by heat,1.0,1
+spasmodic pains about heart,during day perfectly well,1.0,1
+spasmodic pains about heart,pains often brought on by standing in cold water,1.0,1
+spasmodic pains about heart,darting about,1.0,1
+spasmodic pains about heart,acute boring darting pains in back,1.0,1
+spasmodic pains about heart,shifting and remittent,1.0,1
+spasmodic pains about heart,headaches better by external applications of warmth,1.0,1
+spasmodic pains about heart,better by warmth of bed,1.0,1
+spasmodic pains about heart,intercostal drawing neuralgic constriction about heart,1.0,1
+spasmodic pains about heart,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+spasmodic pains about heart,pains shift with lightning-like rapidity,1.0,1
+excruciating spasmodic pains in sciatic nerve,violent rheumatic pains in joints,1.0,1
+excruciating spasmodic pains in sciatic nerve,cramping pains,1.0,1
+excruciating spasmodic pains in sciatic nerve,better by change of position,1.0,1
+excruciating spasmodic pains in sciatic nerve,pains worse in joints,1.0,1
+excruciating spasmodic pains in sciatic nerve,pains in limbs neuralgic rheumatic very severe,1.0,1
+excruciating spasmodic pains in sciatic nerve,spasmodic pains about heart,1.0,1
+excruciating spasmodic pains in sciatic nerve,rheumatic neuralgic pains in right side of face,1.0,1
+excruciating spasmodic pains in sciatic nerve,shooting pains changing places rapidly,1.0,1
+excruciating spasmodic pains in sciatic nerve,rheumatic pains mostly confined to the right side,1.0,1
+excruciating spasmodic pains in sciatic nerve,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+excruciating spasmodic pains in sciatic nerve,suited to thin emaciated people of a highly nervous type,1.0,1
+excruciating spasmodic pains in sciatic nerve,nightly neuralgic pains now in left leg then in right leg,1.0,1
+excruciating spasmodic pains in sciatic nerve,teeth sensitive,1.0,1
+excruciating spasmodic pains in sciatic nerve,whole trifacial nerve affected,1.0,1
+excruciating spasmodic pains in sciatic nerve,rheumatic headaches,1.0,1
+excruciating spasmodic pains in sciatic nerve,worse after going to bed,1.0,1
+excruciating spasmodic pains in sciatic nerve,usually of dark complexion,1.0,1
+excruciating spasmodic pains in sciatic nerve,pains in right leg from hip to ankle,1.0,1
+excruciating spasmodic pains in sciatic nerve,shooting boring shifting and remitting pains in nape,1.0,1
+excruciating spasmodic pains in sciatic nerve,better by heat,1.0,1
+excruciating spasmodic pains in sciatic nerve,during day perfectly well,1.0,1
+excruciating spasmodic pains in sciatic nerve,pains often brought on by standing in cold water,1.0,1
+excruciating spasmodic pains in sciatic nerve,darting about,1.0,1
+excruciating spasmodic pains in sciatic nerve,acute boring darting pains in back,1.0,1
+excruciating spasmodic pains in sciatic nerve,shifting and remittent,1.0,1
+excruciating spasmodic pains in sciatic nerve,headaches better by external applications of warmth,1.0,1
+excruciating spasmodic pains in sciatic nerve,better by warmth of bed,1.0,1
+excruciating spasmodic pains in sciatic nerve,intercostal drawing neuralgic constriction about heart,1.0,1
+excruciating spasmodic pains in sciatic nerve,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+excruciating spasmodic pains in sciatic nerve,pains shift with lightning-like rapidity,1.0,1
+pains often brought on by standing in cold water,violent rheumatic pains in joints,1.0,1
+pains often brought on by standing in cold water,cramping pains,1.0,1
+pains often brought on by standing in cold water,better by change of position,1.0,1
+pains often brought on by standing in cold water,pains worse in joints,1.0,1
+pains often brought on by standing in cold water,pains in limbs neuralgic rheumatic very severe,1.0,1
+pains often brought on by standing in cold water,spasmodic pains about heart,1.0,1
+pains often brought on by standing in cold water,rheumatic neuralgic pains in right side of face,1.0,1
+pains often brought on by standing in cold water,shooting pains changing places rapidly,1.0,1
+pains often brought on by standing in cold water,rheumatic pains mostly confined to the right side,1.0,1
+pains often brought on by standing in cold water,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+pains often brought on by standing in cold water,suited to thin emaciated people of a highly nervous type,1.0,1
+pains often brought on by standing in cold water,nightly neuralgic pains now in left leg then in right leg,1.0,1
+pains often brought on by standing in cold water,teeth sensitive,1.0,1
+pains often brought on by standing in cold water,whole trifacial nerve affected,1.0,1
+pains often brought on by standing in cold water,rheumatic headaches,1.0,1
+pains often brought on by standing in cold water,worse after going to bed,1.0,1
+pains often brought on by standing in cold water,usually of dark complexion,1.0,1
+pains often brought on by standing in cold water,excruciating spasmodic pains in sciatic nerve,1.0,1
+pains often brought on by standing in cold water,pains in right leg from hip to ankle,1.0,1
+pains often brought on by standing in cold water,shooting boring shifting and remitting pains in nape,1.0,1
+pains often brought on by standing in cold water,better by heat,1.0,1
+pains often brought on by standing in cold water,during day perfectly well,1.0,1
+pains often brought on by standing in cold water,darting about,1.0,1
+pains often brought on by standing in cold water,acute boring darting pains in back,1.0,1
+pains often brought on by standing in cold water,shifting and remittent,1.0,1
+pains often brought on by standing in cold water,headaches better by external applications of warmth,1.0,1
+pains often brought on by standing in cold water,better by warmth of bed,1.0,1
+pains often brought on by standing in cold water,intercostal drawing neuralgic constriction about heart,1.0,1
+pains often brought on by standing in cold water,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+pains often brought on by standing in cold water,pains shift with lightning-like rapidity,1.0,1
+better by change of position,violent rheumatic pains in joints,1.0,1
+better by change of position,cramping pains,1.0,1
+better by change of position,pains worse in joints,1.0,1
+better by change of position,pains in limbs neuralgic rheumatic very severe,1.0,1
+better by change of position,spasmodic pains about heart,1.0,1
+better by change of position,rheumatic neuralgic pains in right side of face,1.0,1
+better by change of position,shooting pains changing places rapidly,1.0,1
+better by change of position,rheumatic pains mostly confined to the right side,1.0,1
+better by change of position,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+better by change of position,suited to thin emaciated people of a highly nervous type,1.0,1
+better by change of position,nightly neuralgic pains now in left leg then in right leg,1.0,1
+better by change of position,teeth sensitive,1.0,1
+better by change of position,whole trifacial nerve affected,1.0,1
+better by change of position,rheumatic headaches,1.0,1
+better by change of position,worse after going to bed,1.0,1
+better by change of position,usually of dark complexion,1.0,1
+better by change of position,excruciating spasmodic pains in sciatic nerve,1.0,1
+better by change of position,pains in right leg from hip to ankle,1.0,1
+better by change of position,shooting boring shifting and remitting pains in nape,1.0,1
+better by change of position,better by heat,1.0,1
+better by change of position,during day perfectly well,1.0,1
+better by change of position,pains often brought on by standing in cold water,1.0,1
+better by change of position,darting about,1.0,1
+better by change of position,acute boring darting pains in back,1.0,1
+better by change of position,shifting and remittent,1.0,1
+better by change of position,headaches better by external applications of warmth,1.0,1
+better by change of position,better by warmth of bed,1.0,1
+better by change of position,intercostal drawing neuralgic constriction about heart,1.0,1
+better by change of position,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+better by change of position,pains shift with lightning-like rapidity,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,violent rheumatic pains in joints,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,cramping pains,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,better by change of position,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,pains worse in joints,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,pains in limbs neuralgic rheumatic very severe,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,spasmodic pains about heart,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,rheumatic neuralgic pains in right side of face,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,shooting pains changing places rapidly,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,rheumatic pains mostly confined to the right side,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,suited to thin emaciated people of a highly nervous type,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,nightly neuralgic pains now in left leg then in right leg,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,teeth sensitive,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,whole trifacial nerve affected,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,rheumatic headaches,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,worse after going to bed,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,usually of dark complexion,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,excruciating spasmodic pains in sciatic nerve,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,pains in right leg from hip to ankle,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,shooting boring shifting and remitting pains in nape,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,better by heat,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,during day perfectly well,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,pains often brought on by standing in cold water,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,darting about,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,acute boring darting pains in back,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,shifting and remittent,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,headaches better by external applications of warmth,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,better by warmth of bed,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,intercostal drawing neuralgic constriction about heart,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+neuralgic pains shifting darting excoriating in different parts of body,pains shift with lightning-like rapidity,1.0,1
+pains worse in joints,violent rheumatic pains in joints,1.0,1
+pains worse in joints,cramping pains,1.0,1
+pains worse in joints,better by change of position,1.0,1
+pains worse in joints,pains in limbs neuralgic rheumatic very severe,1.0,1
+pains worse in joints,spasmodic pains about heart,1.0,1
+pains worse in joints,rheumatic neuralgic pains in right side of face,1.0,1
+pains worse in joints,shooting pains changing places rapidly,1.0,1
+pains worse in joints,rheumatic pains mostly confined to the right side,1.0,1
+pains worse in joints,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+pains worse in joints,suited to thin emaciated people of a highly nervous type,1.0,1
+pains worse in joints,nightly neuralgic pains now in left leg then in right leg,1.0,1
+pains worse in joints,teeth sensitive,1.0,1
+pains worse in joints,whole trifacial nerve affected,1.0,1
+pains worse in joints,rheumatic headaches,1.0,1
+pains worse in joints,worse after going to bed,1.0,1
+pains worse in joints,usually of dark complexion,1.0,1
+pains worse in joints,excruciating spasmodic pains in sciatic nerve,1.0,1
+pains worse in joints,pains in right leg from hip to ankle,1.0,1
+pains worse in joints,shooting boring shifting and remitting pains in nape,1.0,1
+pains worse in joints,better by heat,1.0,1
+pains worse in joints,during day perfectly well,1.0,1
+pains worse in joints,pains often brought on by standing in cold water,1.0,1
+pains worse in joints,darting about,1.0,1
+pains worse in joints,acute boring darting pains in back,1.0,1
+pains worse in joints,shifting and remittent,1.0,1
+pains worse in joints,headaches better by external applications of warmth,1.0,1
+pains worse in joints,better by warmth of bed,1.0,1
+pains worse in joints,intercostal drawing neuralgic constriction about heart,1.0,1
+pains worse in joints,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+pains worse in joints,pains shift with lightning-like rapidity,1.0,1
+acute boring darting pains in back,violent rheumatic pains in joints,1.0,1
+acute boring darting pains in back,cramping pains,1.0,1
+acute boring darting pains in back,better by change of position,1.0,1
+acute boring darting pains in back,pains worse in joints,1.0,1
+acute boring darting pains in back,pains in limbs neuralgic rheumatic very severe,1.0,1
+acute boring darting pains in back,spasmodic pains about heart,1.0,1
+acute boring darting pains in back,rheumatic neuralgic pains in right side of face,1.0,1
+acute boring darting pains in back,shooting pains changing places rapidly,1.0,1
+acute boring darting pains in back,rheumatic pains mostly confined to the right side,1.0,1
+acute boring darting pains in back,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+acute boring darting pains in back,suited to thin emaciated people of a highly nervous type,1.0,1
+acute boring darting pains in back,nightly neuralgic pains now in left leg then in right leg,1.0,1
+acute boring darting pains in back,teeth sensitive,1.0,1
+acute boring darting pains in back,whole trifacial nerve affected,1.0,1
+acute boring darting pains in back,rheumatic headaches,1.0,1
+acute boring darting pains in back,worse after going to bed,1.0,1
+acute boring darting pains in back,usually of dark complexion,1.0,1
+acute boring darting pains in back,excruciating spasmodic pains in sciatic nerve,1.0,1
+acute boring darting pains in back,pains in right leg from hip to ankle,1.0,1
+acute boring darting pains in back,shooting boring shifting and remitting pains in nape,1.0,1
+acute boring darting pains in back,better by heat,1.0,1
+acute boring darting pains in back,during day perfectly well,1.0,1
+acute boring darting pains in back,pains often brought on by standing in cold water,1.0,1
+acute boring darting pains in back,darting about,1.0,1
+acute boring darting pains in back,shifting and remittent,1.0,1
+acute boring darting pains in back,headaches better by external applications of warmth,1.0,1
+acute boring darting pains in back,better by warmth of bed,1.0,1
+acute boring darting pains in back,intercostal drawing neuralgic constriction about heart,1.0,1
+acute boring darting pains in back,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+acute boring darting pains in back,pains shift with lightning-like rapidity,1.0,1
+cramping pains,violent rheumatic pains in joints,1.0,1
+cramping pains,better by change of position,1.0,1
+cramping pains,pains worse in joints,1.0,1
+cramping pains,pains in limbs neuralgic rheumatic very severe,1.0,1
+cramping pains,spasmodic pains about heart,1.0,1
+cramping pains,rheumatic neuralgic pains in right side of face,1.0,1
+cramping pains,shooting pains changing places rapidly,1.0,1
+cramping pains,rheumatic pains mostly confined to the right side,1.0,1
+cramping pains,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+cramping pains,suited to thin emaciated people of a highly nervous type,1.0,1
+cramping pains,nightly neuralgic pains now in left leg then in right leg,1.0,1
+cramping pains,teeth sensitive,1.0,1
+cramping pains,whole trifacial nerve affected,1.0,1
+cramping pains,rheumatic headaches,1.0,1
+cramping pains,worse after going to bed,1.0,1
+cramping pains,usually of dark complexion,1.0,1
+cramping pains,excruciating spasmodic pains in sciatic nerve,1.0,1
+cramping pains,pains in right leg from hip to ankle,1.0,1
+cramping pains,shooting boring shifting and remitting pains in nape,1.0,1
+cramping pains,better by heat,1.0,1
+cramping pains,during day perfectly well,1.0,1
+cramping pains,pains often brought on by standing in cold water,1.0,1
+cramping pains,darting about,1.0,1
+cramping pains,acute boring darting pains in back,1.0,1
+cramping pains,shifting and remittent,1.0,1
+cramping pains,headaches better by external applications of warmth,1.0,1
+cramping pains,better by warmth of bed,1.0,1
+cramping pains,intercostal drawing neuralgic constriction about heart,1.0,1
+cramping pains,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+cramping pains,pains shift with lightning-like rapidity,1.0,1
+whole trifacial nerve affected,violent rheumatic pains in joints,1.0,1
+whole trifacial nerve affected,cramping pains,1.0,1
+whole trifacial nerve affected,better by change of position,1.0,1
+whole trifacial nerve affected,pains worse in joints,1.0,1
+whole trifacial nerve affected,pains in limbs neuralgic rheumatic very severe,1.0,1
+whole trifacial nerve affected,spasmodic pains about heart,1.0,1
+whole trifacial nerve affected,rheumatic neuralgic pains in right side of face,1.0,1
+whole trifacial nerve affected,shooting pains changing places rapidly,1.0,1
+whole trifacial nerve affected,rheumatic pains mostly confined to the right side,1.0,1
+whole trifacial nerve affected,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+whole trifacial nerve affected,suited to thin emaciated people of a highly nervous type,1.0,1
+whole trifacial nerve affected,nightly neuralgic pains now in left leg then in right leg,1.0,1
+whole trifacial nerve affected,teeth sensitive,1.0,1
+whole trifacial nerve affected,rheumatic headaches,1.0,1
+whole trifacial nerve affected,worse after going to bed,1.0,1
+whole trifacial nerve affected,usually of dark complexion,1.0,1
+whole trifacial nerve affected,excruciating spasmodic pains in sciatic nerve,1.0,1
+whole trifacial nerve affected,pains in right leg from hip to ankle,1.0,1
+whole trifacial nerve affected,shooting boring shifting and remitting pains in nape,1.0,1
+whole trifacial nerve affected,better by heat,1.0,1
+whole trifacial nerve affected,during day perfectly well,1.0,1
+whole trifacial nerve affected,pains often brought on by standing in cold water,1.0,1
+whole trifacial nerve affected,darting about,1.0,1
+whole trifacial nerve affected,acute boring darting pains in back,1.0,1
+whole trifacial nerve affected,shifting and remittent,1.0,1
+whole trifacial nerve affected,headaches better by external applications of warmth,1.0,1
+whole trifacial nerve affected,better by warmth of bed,1.0,1
+whole trifacial nerve affected,intercostal drawing neuralgic constriction about heart,1.0,1
+whole trifacial nerve affected,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+whole trifacial nerve affected,pains shift with lightning-like rapidity,1.0,1
+shifting and remittent,violent rheumatic pains in joints,1.0,1
+shifting and remittent,cramping pains,1.0,1
+shifting and remittent,better by change of position,1.0,1
+shifting and remittent,pains worse in joints,1.0,1
+shifting and remittent,pains in limbs neuralgic rheumatic very severe,1.0,1
+shifting and remittent,spasmodic pains about heart,1.0,1
+shifting and remittent,rheumatic neuralgic pains in right side of face,1.0,1
+shifting and remittent,shooting pains changing places rapidly,1.0,1
+shifting and remittent,rheumatic pains mostly confined to the right side,1.0,1
+shifting and remittent,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+shifting and remittent,suited to thin emaciated people of a highly nervous type,1.0,1
+shifting and remittent,nightly neuralgic pains now in left leg then in right leg,1.0,1
+shifting and remittent,teeth sensitive,1.0,1
+shifting and remittent,whole trifacial nerve affected,1.0,1
+shifting and remittent,rheumatic headaches,1.0,1
+shifting and remittent,worse after going to bed,1.0,1
+shifting and remittent,usually of dark complexion,1.0,1
+shifting and remittent,excruciating spasmodic pains in sciatic nerve,1.0,1
+shifting and remittent,pains in right leg from hip to ankle,1.0,1
+shifting and remittent,shooting boring shifting and remitting pains in nape,1.0,1
+shifting and remittent,better by heat,1.0,1
+shifting and remittent,during day perfectly well,1.0,1
+shifting and remittent,pains often brought on by standing in cold water,1.0,1
+shifting and remittent,darting about,1.0,1
+shifting and remittent,acute boring darting pains in back,1.0,1
+shifting and remittent,headaches better by external applications of warmth,1.0,1
+shifting and remittent,better by warmth of bed,1.0,1
+shifting and remittent,intercostal drawing neuralgic constriction about heart,1.0,1
+shifting and remittent,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+shifting and remittent,pains shift with lightning-like rapidity,1.0,1
+pains shift with lightning-like rapidity,violent rheumatic pains in joints,1.0,1
+pains shift with lightning-like rapidity,cramping pains,1.0,1
+pains shift with lightning-like rapidity,better by change of position,1.0,1
+pains shift with lightning-like rapidity,pains worse in joints,1.0,1
+pains shift with lightning-like rapidity,pains in limbs neuralgic rheumatic very severe,1.0,1
+pains shift with lightning-like rapidity,spasmodic pains about heart,1.0,1
+pains shift with lightning-like rapidity,rheumatic neuralgic pains in right side of face,1.0,1
+pains shift with lightning-like rapidity,shooting pains changing places rapidly,1.0,1
+pains shift with lightning-like rapidity,rheumatic pains mostly confined to the right side,1.0,1
+pains shift with lightning-like rapidity,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+pains shift with lightning-like rapidity,suited to thin emaciated people of a highly nervous type,1.0,1
+pains shift with lightning-like rapidity,nightly neuralgic pains now in left leg then in right leg,1.0,1
+pains shift with lightning-like rapidity,teeth sensitive,1.0,1
+pains shift with lightning-like rapidity,whole trifacial nerve affected,1.0,1
+pains shift with lightning-like rapidity,rheumatic headaches,1.0,1
+pains shift with lightning-like rapidity,worse after going to bed,1.0,1
+pains shift with lightning-like rapidity,usually of dark complexion,1.0,1
+pains shift with lightning-like rapidity,excruciating spasmodic pains in sciatic nerve,1.0,1
+pains shift with lightning-like rapidity,pains in right leg from hip to ankle,1.0,1
+pains shift with lightning-like rapidity,shooting boring shifting and remitting pains in nape,1.0,1
+pains shift with lightning-like rapidity,better by heat,1.0,1
+pains shift with lightning-like rapidity,during day perfectly well,1.0,1
+pains shift with lightning-like rapidity,pains often brought on by standing in cold water,1.0,1
+pains shift with lightning-like rapidity,darting about,1.0,1
+pains shift with lightning-like rapidity,acute boring darting pains in back,1.0,1
+pains shift with lightning-like rapidity,shifting and remittent,1.0,1
+pains shift with lightning-like rapidity,headaches better by external applications of warmth,1.0,1
+pains shift with lightning-like rapidity,better by warmth of bed,1.0,1
+pains shift with lightning-like rapidity,intercostal drawing neuralgic constriction about heart,1.0,1
+pains shift with lightning-like rapidity,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+headaches better by external applications of warmth,violent rheumatic pains in joints,1.0,1
+headaches better by external applications of warmth,cramping pains,1.0,1
+headaches better by external applications of warmth,better by change of position,1.0,1
+headaches better by external applications of warmth,pains worse in joints,1.0,1
+headaches better by external applications of warmth,pains in limbs neuralgic rheumatic very severe,1.0,1
+headaches better by external applications of warmth,spasmodic pains about heart,1.0,1
+headaches better by external applications of warmth,rheumatic neuralgic pains in right side of face,1.0,1
+headaches better by external applications of warmth,shooting pains changing places rapidly,1.0,1
+headaches better by external applications of warmth,rheumatic pains mostly confined to the right side,1.0,1
+headaches better by external applications of warmth,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+headaches better by external applications of warmth,suited to thin emaciated people of a highly nervous type,1.0,1
+headaches better by external applications of warmth,nightly neuralgic pains now in left leg then in right leg,1.0,1
+headaches better by external applications of warmth,teeth sensitive,1.0,1
+headaches better by external applications of warmth,whole trifacial nerve affected,1.0,1
+headaches better by external applications of warmth,rheumatic headaches,1.0,1
+headaches better by external applications of warmth,worse after going to bed,1.0,1
+headaches better by external applications of warmth,usually of dark complexion,1.0,1
+headaches better by external applications of warmth,excruciating spasmodic pains in sciatic nerve,1.0,1
+headaches better by external applications of warmth,pains in right leg from hip to ankle,1.0,1
+headaches better by external applications of warmth,shooting boring shifting and remitting pains in nape,1.0,1
+headaches better by external applications of warmth,better by heat,1.0,1
+headaches better by external applications of warmth,during day perfectly well,1.0,1
+headaches better by external applications of warmth,pains often brought on by standing in cold water,1.0,1
+headaches better by external applications of warmth,darting about,1.0,1
+headaches better by external applications of warmth,acute boring darting pains in back,1.0,1
+headaches better by external applications of warmth,shifting and remittent,1.0,1
+headaches better by external applications of warmth,better by warmth of bed,1.0,1
+headaches better by external applications of warmth,intercostal drawing neuralgic constriction about heart,1.0,1
+headaches better by external applications of warmth,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+headaches better by external applications of warmth,pains shift with lightning-like rapidity,1.0,1
+darting about,violent rheumatic pains in joints,1.0,1
+darting about,cramping pains,1.0,1
+darting about,better by change of position,1.0,1
+darting about,pains worse in joints,1.0,1
+darting about,pains in limbs neuralgic rheumatic very severe,1.0,1
+darting about,spasmodic pains about heart,1.0,1
+darting about,rheumatic neuralgic pains in right side of face,1.0,1
+darting about,shooting pains changing places rapidly,1.0,1
+darting about,rheumatic pains mostly confined to the right side,1.0,1
+darting about,neuralgic pains shifting darting excoriating in different parts of body,1.0,1
+darting about,suited to thin emaciated people of a highly nervous type,1.0,1
+darting about,nightly neuralgic pains now in left leg then in right leg,1.0,1
+darting about,teeth sensitive,1.0,1
+darting about,whole trifacial nerve affected,1.0,1
+darting about,rheumatic headaches,1.0,1
+darting about,worse after going to bed,1.0,1
+darting about,usually of dark complexion,1.0,1
+darting about,excruciating spasmodic pains in sciatic nerve,1.0,1
+darting about,pains in right leg from hip to ankle,1.0,1
+darting about,shooting boring shifting and remitting pains in nape,1.0,1
+darting about,better by heat,1.0,1
+darting about,during day perfectly well,1.0,1
+darting about,pains often brought on by standing in cold water,1.0,1
+darting about,acute boring darting pains in back,1.0,1
+darting about,shifting and remittent,1.0,1
+darting about,headaches better by external applications of warmth,1.0,1
+darting about,better by warmth of bed,1.0,1
+darting about,intercostal drawing neuralgic constriction about heart,1.0,1
+darting about,excruciating shooting stinging shifting intermittent or paroxysmal,1.0,1
+darting about,pains shift with lightning-like rapidity,1.0,1
