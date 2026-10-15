@@ -1,0 +1,334 @@
+{
+  "PT-2026-006": {
+    "details": {},
+    "cases": [
+      {
+        "timestamp": "2026-06-29 08:42",
+        "raw_symptoms": "Patient complains of recurrent migraine headaches for the past one year, occurring two to three times per month, predominantly over the right side of the head and associated with nausea and sensitivity to bright light. Reports frequent episodes of dizziness on standing quickly and generalized weakness by late afternoon. Appetite is reduced, with occasional craving for sweets, while thirst is low. Patient experiences excessive gas and abdominal discomfort after meals, along with irregular bowel habits alternating between constipation and loose stools. Sleep is restless with frequent dreams, and patient wakes feeling unrefreshed. Mentally, patient reports increased stress, poor concentration, forgetfulness, and irritability, with symptoms aggravated by mental exertion and relieved by rest in a quiet environment.",
+        "categorised": {
+          "physical": [
+            {
+              "symptom": "Right-sided migraine with nausea and photophobia",
+              "worse": [
+                "mental exertion",
+                "bright light"
+              ],
+              "better": [
+                "rest",
+                "quiet environment"
+              ]
+            },
+            {
+              "symptom": "Dizziness on rising quickly",
+              "worse": [
+                "standing quickly"
+              ],
+              "better": [
+                "rest"
+              ]
+            },
+            {
+              "symptom": "Flatulence and abdominal discomfort post-prandial",
+              "worse": [
+                "after meals"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Irregular bowel habits alternating constipation and diarrhea",
+              "worse": [],
+              "better": []
+            }
+          ],
+          "psychological": [
+            {
+              "symptom": "Irritability, poor concentration, and forgetfulness",
+              "worse": [
+                "mental exertion"
+              ],
+              "better": [
+                "rest"
+              ]
+            }
+          ],
+          "general": [
+            {
+              "symptom": "Generalized weakness and fatigue",
+              "worse": [
+                "late afternoon"
+              ],
+              "better": [
+                "rest"
+              ]
+            },
+            {
+              "symptom": "Restless sleep with unrefreshing awakening",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Reduced appetite with craving for sweets and low thirst",
+              "worse": [],
+              "better": []
+            }
+          ],
+          "miasm": "Psoric",
+          "concomitants": [
+            "Nausea with right-sided migraine",
+            "Abdominal bloating with irregular bowel habits",
+            "Mental fatigue with physical weakness"
+          ],
+          "clinical_summary": "A case of right-sided hemicrania and digestive disturbance characterized by mental exhaustion and physical weakness, suggesting a need for remedies covering the Lycopodium or Pulsatilla sphere of action."
+        },
+        "top_remedies": [
+          "lycopodium",
+          "calcarea carbonica",
+          "magnesia carbonica",
+          "aconitum napellus",
+          "ferrum phosphoricum",
+          "bryonia alba",
+          "Arnica Montana",
+          "Kali Carbonicum",
+          "Colchicum",
+          "aloes socotrina"
+        ],
+        "clinical_notes": "The essence is a 'right-sided' digestive-headache axis, where the patient's vitality is drained by mental exertion and post-prandial fermentation, leading to a state of chronic fatigue and irritability.",
+        "patient_details": {
+          "name": "",
+          "age": "",
+          "gender": "",
+          "occupation": "",
+          "contact": ""
+        },
+        "analysis_mode": "materia_medica"
+      }
+    ]
+  },
+  "PT-2026-007": {
+    "details": {},
+    "cases": [
+      {
+        "timestamp": "2026-06-29 08:44",
+        "raw_symptoms": "Patient presented with rheumatic fever of 102°F associated with pain and swelling of the joints and pain in the muscles attached to the affected joints, aggravated by touch and motion. Patient complained of great thirst, constipation, dryness and a constricted sensation in the throat, with throat pain extending to the ears. Urine was scanty, hot, and yellow in color. Patient also reported marked weakness, violent headache, chills, and shivering of the body.\n",
+        "categorised": {
+          "physical": [
+            {
+              "symptom": "Rheumatic joint pain and swelling",
+              "worse": [
+                "touch",
+                "motion"
+              ],
+              "better": []
+            },
+            {
+              "symptom": "Constricted sensation in throat with pain extending to ears",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Scanty, hot, yellow urine",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Violent headache",
+              "worse": [],
+              "better": []
+            }
+          ],
+          "psychological": [],
+          "general": [
+            {
+              "symptom": "High fever (102°F) with chills and shivering",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Great thirst",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Marked weakness",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Dryness of mucous membranes",
+              "worse": [],
+              "better": []
+            },
+            {
+              "symptom": "Constipation",
+              "worse": [],
+              "better": []
+            }
+          ],
+          "miasm": "Psora-Syphilitic",
+          "concomitants": [
+            "Thirst associated with high fever",
+            "Throat pain radiating to ears during rheumatic flare",
+            "Constipation accompanying febrile state"
+          ],
+          "clinical_summary": "An acute inflammatory state characterized by rheumatic fever, intense thirst, and mucous membrane dryness, suggesting a deep-seated inflammatory process with significant systemic exhaustion."
+        },
+        "top_remedies": [
+          "Bryonia",
+          "spongia",
+          "bryonia alba",
+          "Gelsemium",
+          "carboneum sulphuratum",
+          "sabina",
+          "natrum carbonicum",
+          "sanguinaria canadensis",
+          "terebinthina",
+          "Arnica Montana"
+        ],
+        "clinical_notes": "The essence is a state of 'dry, inflammatory constriction' where the patient is forced into absolute stillness by pain, yet driven by an insatiable thirst, reflecting a systemic struggle against a deep-seated inflammatory process.",
+        "patient_details": {
+          "name": "",
+          "age": "",
+          "gender": "",
+          "occupation": "",
+          "contact": ""
+        },
+        "analysis_mode": "case_studies"
+      }
+    ]
+  },
+  "PT-2026-008": {
+    "details": {},
+    "cases": [
+      {
+        "timestamp": "2026-07-01 09:58",
+        "raw_symptoms": "The patient, a 55-year-old man, presented with **rheumatic fever** and a **high fever of 102°F**, accompanied by **pain and swelling of the joints** with soreness of the muscles attached to the affected joints, which was **aggravated by touch and movement**. He experienced **intense thirst**, **constipation**, **dryness and a constricted sensation in the throat**, with **throat pain radiating to the ears**. His **urine was scanty, hot, and yellow in color**. He also complained of **marked weakness**, **violent headache**, **chills**, and **shivering of the whole body**.\n",
+        "categorised": {
+          "physical": [
+            {
+              "symptom": "Rheumatic joint pain and swelling",
+              "worse": [
+                "touch",
+                "movement"
+              ],
+              "better": [
+                "rest"
+              ]
+            },
+            {
+              "symptom": "Soreness of muscles attached to joints",
+              "worse": [
+                "movement"
+              ],
+              "better": [
+                "rest"
+              ]
+            },
+            {
+              "symptom": "Dryness and constricted sensation in throat",
+              "worse": [
+                "swallowing"
+              ],
+              "better": [
+                "cold drinks"
+              ]
+            },
+            {
+              "symptom": "Throat pain radiating to ears",
+              "worse": [
+                "swallowing"
+              ],
+              "better": [
+                "none"
+              ]
+            },
+            {
+              "symptom": "Scanty, hot, yellow urine",
+              "worse": [
+                "none"
+              ],
+              "better": [
+                "none"
+              ]
+            },
+            {
+              "symptom": "Violent headache",
+              "worse": [
+                "movement"
+              ],
+              "better": [
+                "pressure"
+              ]
+            }
+          ],
+          "psychological": [
+            {
+              "symptom": "Marked weakness and prostration",
+              "worse": [
+                "exertion"
+              ],
+              "better": [
+                "rest"
+              ]
+            }
+          ],
+          "general": [
+            {
+              "symptom": "High fever (102°F) with chills and shivering",
+              "worse": [
+                "motion"
+              ],
+              "better": [
+                "rest"
+              ]
+            },
+            {
+              "symptom": "Intense thirst",
+              "worse": [
+                "none"
+              ],
+              "better": [
+                "none"
+              ]
+            },
+            {
+              "symptom": "Constipation",
+              "worse": [
+                "none"
+              ],
+              "better": [
+                "none"
+              ]
+            }
+          ],
+          "miasm": "Psoric-Syphilitic",
+          "concomitants": [
+            "Throat pain radiating to ears during rheumatic fever",
+            "Constipation associated with high fever and intense thirst"
+          ],
+          "clinical_summary": "A 55-year-old male presenting with acute rheumatic fever characterized by intense thirst, marked physical prostration, and joint inflammation aggravated by motion, suggesting a deep-seated inflammatory state requiring urgent homeopathic intervention."
+        },
+        "top_remedies": [
+          "spongia",
+          "Bryonia",
+          "Gelsemium",
+          "carboneum sulphuratum",
+          "aconitum napellus",
+          "ferrum phosphoricum",
+          "sanguinaria canadensis",
+          "terebinthina",
+          "Arnica Montana",
+          "Kali Carbonicum"
+        ],
+        "clinical_notes": "The strange, rare, and peculiar feature is the specific radiation of throat pain to the ears during an acute rheumatic episode, coupled with the intense thirst and the need for absolute rest due to extreme physical prostration.",
+        "patient_details": {
+          "name": "",
+          "age": "",
+          "gender": "",
+          "occupation": "",
+          "contact": ""
+        },
+        "analysis_mode": "case_studies"
+      }
+    ]
+  }
+}
