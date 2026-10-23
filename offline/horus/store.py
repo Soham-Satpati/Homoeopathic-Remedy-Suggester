@@ -157,6 +157,50 @@ def _connect(path: Path) -> sqlite3.Connection:
     return con
 
 
+class _Result:
+    """Fully fetched query result, so no cursor outlives the lock."""
+
+    def __init__(self, cur: sqlite3.Cursor):
+        self.rows = cur.fetchall() if cur.description else []
+        self.rowcount = cur.rowcount
+        self.lastrowid = cur.lastrowid
+
+    def __iter__(self):
+        return iter(self.rows)
+
+    def fetchone(self):
+        return self.rows[0] if self.rows else None
+
+    def fetchall(self):
+        return list(self.rows)
+
+
+class _LockedConnection:
+    """One SQLite connection shared by the window, background jobs and the tablet server.
+    Every statement runs under the store's re-entrant lock; ``Session._tx`` holds the same lock
+    for a whole transaction, so another thread's write can never land inside it."""
+
+    def __init__(self, con: sqlite3.Connection, lock: threading.RLock):
+        self._c = con
+        self._lock = lock
+
+    def execute(self, sql: str, params=()) -> _Result:
+        with self._lock:
+            return _Result(self._c.execute(sql, params))
+
+    def executemany(self, sql: str, seq) -> _Result:
+        with self._lock:
+            return _Result(self._c.executemany(sql, seq))
+
+    def backup(self, target: sqlite3.Connection) -> None:
+        with self._lock:
+            self._c.backup(target)
+
+    def close(self) -> None:
+        with self._lock:
+            self._c.close()
+
+
 @dataclass(frozen=True)
 class User:
     id: int
@@ -176,8 +220,8 @@ class Store:
         self.path = Path(path)
         if not self.path.exists():
             raise StoreError(f"No HoRUS database at {self.path}")
-        self._con = _connect(self.path)
         self._lock = threading.RLock()
+        self._con = _LockedConnection(_connect(self.path), self._lock)
         v = int(self._meta("schema_version", "0"))
         if v > SCHEMA_VERSION:
             raise StoreError("This database was created by a newer version of HoRUS.")

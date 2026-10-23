@@ -72,7 +72,7 @@ class KioskPage(QWidget):
         self.q_hint.setStyleSheet("font-size: 13pt;")
         self.answer = QPlainTextEdit()
         self.answer.setStyleSheet("font-size: 15pt;")
-        self.mic = DictateButton(lambda wav, mime: self.ctx.engine.transcribe(wav, mime), "🎙  Speak your answer")
+        self.mic = DictateButton(lambda wav, mime: self.ctx.transcriber.transcribe(wav, mime).strip(), "🎙  Speak your answer")
         self.mic.setStyleSheet(BIG)
         self.mic.text_ready.connect(lambda t: self.answer.appendPlainText(t))
         self.q_busy = Busy("Thinking of any follow-up questions…")

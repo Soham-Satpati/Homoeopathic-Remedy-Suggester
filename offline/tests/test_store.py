@@ -254,3 +254,49 @@ def test_search_and_intake_merge(clinic):
     d = s.get_patient(pid)["details"]
     assert d["age"] == "33" and d["name"] == "Mitra Bose"           # blanks never overwrite
     assert s.list_patients("bose")[0]["pending_intakes"] == 1
+
+
+def test_concurrent_writers_never_lose_or_mix_writes(clinic):
+    """Window, background jobs and the tablet server share one connection. A transaction that
+    fails in one thread must not roll back writes made by another thread meanwhile."""
+    import threading
+    from horus.store import StoreError
+    store, _, s = clinic
+    pid = s.create_patient({"name": "Busy"})
+    errors, done = [], []
+
+    def intakes(n):
+        try:
+            for i in range(n):
+                s.add_intake(pid, {"raw_text": f"t{i}", "qa": []}, source="lan")
+            done.append(n)
+        except Exception as e:           # pragma: no cover - reported below
+            errors.append(e)
+
+    def failing_tx(n):
+        for _ in range(n):
+            try:
+                with s._tx():
+                    s._con.execute("UPDATE patients SET updated_at = 'x' WHERE id = ?", (pid,))
+                    raise StoreError("boom")      # forces ROLLBACK
+            except StoreError:
+                pass
+
+    def cases(n):
+        try:
+            for i in range(n):
+                _add_case(s, pid, str(i))
+            done.append(n)
+        except Exception as e:           # pragma: no cover
+            errors.append(e)
+
+    ts = [threading.Thread(target=intakes, args=(40,)), threading.Thread(target=intakes, args=(40,)),
+          threading.Thread(target=failing_tx, args=(60,)), threading.Thread(target=cases, args=(30,))]
+    for t in ts:
+        t.start()
+    for t in ts:
+        t.join()
+    assert not errors, errors
+    assert len(s.patient_intakes(pid)) == 80
+    assert len(s.list_cases(pid)) == 30
+    assert store.verify_audit_chain()[0]

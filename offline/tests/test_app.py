@@ -1,0 +1,183 @@
+"""Headless UI flows: setup → kiosk intake → inbox → case from intake → patients → settings → lock."""
+
+from __future__ import annotations
+
+import os
+import time
+
+import pytest
+
+os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")
+PySide6 = pytest.importorskip("PySide6")
+
+from PySide6.QtCore import Qt  # noqa: E402
+from PySide6.QtTest import QTest  # noqa: E402
+from PySide6.QtWidgets import QApplication  # noqa: E402
+
+import horus.crypto as crypto  # noqa: E402
+
+
+@pytest.fixture(scope="module")
+def qapp():
+    return QApplication.instance() or QApplication([])
+
+
+@pytest.fixture(autouse=True)
+def dialogs(monkeypatch):
+    """Modal message boxes would block a headless test: record them instead."""
+    shown = []
+    import horus_app.admin, horus_app.case_flow, horus_app.kiosk, horus_app.login, horus_app.main_window, \
+        horus_app.patients, horus_app.setup_wizard, horus_app.voice, horus_app.widgets
+    for mod in (horus_app.admin, horus_app.case_flow, horus_app.kiosk, horus_app.login, horus_app.main_window,
+                horus_app.patients, horus_app.setup_wizard, horus_app.voice, horus_app.widgets):
+        for name in ("error", "info"):
+            if hasattr(mod, name):
+                monkeypatch.setattr(mod, name, lambda *a, _n=name, **k: shown.append((_n, a[1:3])))
+        if hasattr(mod, "confirm"):
+            monkeypatch.setattr(mod, "confirm", lambda *a, **k: True)
+    return shown
+
+
+@pytest.fixture
+def ctx(tmp_path, monkeypatch, qapp):
+    monkeypatch.setattr(crypto, "SCRYPT_N", 2 ** 12)
+    from horus.config import Paths
+    from horus_app.context import AppContext
+    paths = Paths(resources=Paths().resources, user=tmp_path / "user")
+    c = AppContext(paths)
+    c.llm = c.transcriber = None                    # AI off: the structured paths must work alone
+    c.settings.update(ai_enabled=False, backup_on_exit=False)
+    return c
+
+
+def wait(cond, timeout=60):
+    t = time.time()
+    while not cond():
+        QTest.qWait(50)
+        if time.time() - t > timeout:
+            raise TimeoutError
+    return True
+
+
+def test_setup_wizard_creates_clinic_and_shows_recovery_key(ctx):
+    from horus_app.setup_wizard import SetupWizard
+    wiz = SetupWizard(ctx)
+    wiz.edition_group.button(2).setChecked(True)            # Clinic LAN
+    wiz.clinic.setText("Test Clinic")
+    wiz.display.setText("Dr Test")
+    wiz.username.setText("drtest")
+    wiz.pw1.setText("password-123")
+    wiz.pw2.setText("password-123")
+    wiz._create()
+    assert wiz.stack.currentIndex() == 3
+    key = wiz.key_label.text()
+    assert len(key) == 39 and key.count("-") == 7
+    assert ctx.store.edition == "clinic_lan" and ctx.store.clinic_name == "Test Clinic"
+    assert wiz.session.user.role == "admin"
+    assert wiz.pw1.text() == ""                             # password not left in the widget
+
+
+def _signed_in(ctx):
+    from horus.store import Store
+    ctx.store, _ = Store.create(ctx.db_path, edition="clinic", clinic_name="UI", admin_username="admin",
+                                admin_password="password-123")
+    ctx.session = ctx.store.login("admin", "password-123")
+    from horus_app.main_window import MainWindow
+    win = MainWindow(ctx)
+    wait(lambda: ctx.engine is not None)
+    return win
+
+
+def test_kiosk_intake_to_case(ctx, dialogs):
+    win = _signed_in(ctx)
+    s = ctx.session
+
+    # patient fills the questionnaire on the clinic PC
+    win.go("kiosk")
+    k = win.kiosk
+    assert not win.nav.isVisible()
+    k.d_name.setText("Kiosk Patient")
+    k.d_age.setText("52")
+    k._start()
+    answers = {"complaint": "Burning pain in the stomach", "worse": "after midnight",
+               "better": "warm drinks", "thermal": "very chilly, wants to be covered"}
+    for _ in range(len(k.questions)):
+        q = k.questions[k.idx]
+        k.answer.setPlainText(answers.get(q["id"], ""))
+        k._next()
+    assert k.stack.currentIndex() == 2 and "PT-" in k.thanks_id.text()
+    assert len(s.pending_intakes()) == 1
+
+    # leaving kiosk needs the password
+    assert not s.verify_password("wrong-password", "kiosk.exit")
+
+    # doctor opens the inbox and starts a case from it
+    win._leave_kiosk()
+    win.go("intakes")
+    assert win.intakes.list.count() == 1
+    intake = win.intakes.items[0]
+    win._case_from_intake(intake)
+    cf = win.case
+    assert "Burning pain" in cf.words.toPlainText()
+    assert cf.pt_existing.currentData() == intake["patient_id"]
+    cf.tabs.setCurrentIndex(1)
+    cf.st_table.add("physical", {"symptom": "burning pain in the stomach", "worse": ["after midnight"],
+                                 "better": ["warm drinks"]})
+    cf.st_table.add("general", {"symptom": "very chilly", "worse": [], "better": []})
+    cf.st_table.add("psychological", {"symptom": "fear of ghosts", "worse": [], "better": []})
+    cf._read_case()
+    # verified against the intake words: the invented symptom is flagged, the others are not
+    rows = {cf.rv_table.item(r, 2).text(): cf.rv_table.item(r, 0).checkState() for r in range(cf.rv_table.rowCount())}
+    assert rows["fear of ghosts"] == Qt.Unchecked and rows["very chilly"] == Qt.Checked
+    cf._analyse()
+    wait(lambda: cf.steps.currentIndex() == 2)
+    assert cf.rp_saved.text().startswith("✓")
+    assert "fear of ghosts" in cf.rp_view.toPlainText()          # listed under "Not used"
+    assert s.pending_intakes() == []                             # intake marked reviewed
+    case = s.list_cases(intake["patient_id"])[0]
+    assert case["report"]["top10Remedies"] and case["raw_symptoms"].startswith("Main complaint")
+
+    # patients page shows it
+    win.go("patients")
+    assert win.patients.table.rowCount() == 1
+    assert win.patients.table.item(0, 6).text() == "1"
+
+    # suggestions: either the table opens, or the doctor is told there are none (never a hang/crash)
+    cf.steps.setCurrentIndex(2)
+    cf._open_suggestions()
+    assert cf.steps.currentIndex() == 3 or any(t == ("No suggestions",) or t[0] == "No suggestions"
+                                               for _, t in dialogs)
+    win.close()
+
+
+def test_settings_tabs_follow_role_and_backup(ctx, tmp_path):
+    win = _signed_in(ctx)
+    tabs = [win.settings.tabs.tabText(i) for i in range(win.settings.tabs.count())]
+    assert tabs == ["My account", "Backups", "Users", "Clinic & AI", "Audit log"]
+    from horus_app.admin import make_backup
+    ctx.settings["backup_dir"] = str(tmp_path / "bk")
+    p = make_backup(ctx)
+    assert p.exists() and p.suffix == ".horusbak"
+
+    ctx.session.add_user("frontdesk", "Front desk", "staff", "temp-pass-1")
+    ctx.session = ctx.store.login("frontdesk", "temp-pass-1")
+    win.on_signed_in()
+    tabs = [win.settings.tabs.tabText(i) for i in range(win.settings.tabs.count())]
+    assert tabs == ["My account"]
+    assert not win.nav_btns["case"][0].isVisibleTo(win) and not win.nav_btns["intakes"][0].isVisibleTo(win)
+    win.close()
+
+
+def test_unlock_dialog(ctx):
+    win = _signed_in(ctx)
+    from horus_app.login import UnlockDialog
+    d = UnlockDialog(ctx.session)
+    d.pw.setText("nope-nope")
+    d._unlock()
+    assert d.result_kind is None and d.msg.isVisibleTo(d)
+    d.pw.setText("password-123")
+    d._unlock()
+    assert d.result_kind == "unlocked"
+    actions = [e["action"] for e in ctx.session.audit_entries()]
+    assert "screen.unlock.failed" in actions and "screen.unlock" in actions
+    win.close()

@@ -13,7 +13,6 @@ from PySide6.QtWidgets import (QAbstractItemView, QCheckBox, QComboBox, QFileDia
                                QTableWidget, QTableWidgetItem, QTabWidget, QTextBrowser, QVBoxLayout,
                                QWidget)
 
-from horus.llm import LLMUnavailable
 from horus.parsing import SYMPTOM_GROUPS
 
 from .context import AppContext, run_job
@@ -151,7 +150,7 @@ class CaseFlow(QWidget):
         self.words = QPlainTextEdit()
         self.words.setPlaceholderText("e.g. Since her husband died she wakes after midnight with anxiety…")
         wl.addWidget(self.words, 1)
-        self.dictate = DictateButton(lambda wav, mime: self.ctx.engine.transcribe(wav, mime))
+        self.dictate = DictateButton(lambda wav, mime: self.ctx.transcriber.transcribe(wav, mime).strip())
         self.dictate.text_ready.connect(lambda t: self.words.appendPlainText(t))
         self.ai_note = label("", "warnbox")
         wl.addWidget(self.ai_note)
