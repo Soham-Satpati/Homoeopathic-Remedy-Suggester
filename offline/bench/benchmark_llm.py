@@ -174,7 +174,7 @@ def main() -> None:
                          "parsed": {k: pred[k] for k in ("physical", "psychological", "general",
                                                          "case_modalities", "causation")}})
         print(f"  {c['id']:<22} {dt:5.1f}s  sym P/R {s['symptom_precision']}/{s['symptom_recall']}  "
-              f"top1 {'=' if s['top1_same'] else '≠'}  {s['pred_top3']} vs {s['ref_top3']}")
+              f"top1 {'same' if s['top1_same'] else 'diff'}  {s['pred_top3']} vs {s['ref_top3']}")
 
     # explanations on the saved (Gemini) cases
     narr = []

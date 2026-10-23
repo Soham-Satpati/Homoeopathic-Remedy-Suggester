@@ -132,3 +132,44 @@ class RecoveryDialog(QDialog):
             return error(self, "Not reset", str(e))
         info(self, "Password reset", "The password has been reset and you are signed in.")
         self.accept()
+
+
+class UnlockDialog(QDialog):
+    """Lock screen: the same user re-enters their password, or someone else signs in."""
+
+    def __init__(self, session: Session, parent=None):
+        super().__init__(parent)
+        self.session = session
+        self.result_kind = None          # "unlocked" | "switch" | "quit"
+        self.setWindowTitle("HoRUS — locked")
+        self.setMinimumWidth(420)
+        self.setWindowFlag(Qt.WindowCloseButtonHint, False)
+        v = QVBoxLayout(self)
+        v.setContentsMargins(28, 24, 28, 24)
+        v.addWidget(label("Screen locked", "h1"))
+        v.addWidget(label(f"Signed in as {session.user.display_name}. Enter your password to continue.", "muted"))
+        self.pw = QLineEdit()
+        self.pw.setEchoMode(QLineEdit.Password)
+        self.pw.returnPressed.connect(self._unlock)
+        v.addWidget(self.pw)
+        self.msg = label("", "warnbox")
+        self.msg.hide()
+        v.addWidget(self.msg)
+        v.addLayout(row(button("Quit HoRUS", slot=lambda: self._done("quit")),
+                        button("Switch user", slot=lambda: self._done("switch")), None,
+                        button("Unlock", primary=True, slot=self._unlock)))
+
+    def _done(self, kind):
+        self.result_kind = kind
+        self.accept()
+
+    def _unlock(self):
+        if self.session.verify_password(self.pw.text(), "screen.unlock"):
+            self._done("unlocked")
+        else:
+            self.pw.clear()
+            self.msg.setText("Wrong password.")
+            self.msg.show()
+
+    def reject(self):          # Esc does not dismiss the lock screen
+        pass

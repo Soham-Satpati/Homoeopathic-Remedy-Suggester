@@ -22,6 +22,8 @@ jobs:
       run:
         working-directory: offline
     env:
+      PYTHONIOENCODING: utf-8
+      PYTHONUTF8: "1"
       GITHUB_TOKEN: ${{ github.token }}
       HORUS_LLAMA_LOG: ${{ github.workspace }}/llama-server.log
     steps:
