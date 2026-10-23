@@ -22,7 +22,8 @@ class FakeLLM:
         self.replies: list = []
         self.calls: list = []
 
-    def generate(self, prompt, *, system=None, temperature=0.0, max_tokens=1024, json_output=False):
+    def generate(self, prompt, *, system=None, temperature=0.0, max_tokens=1024, json_output=False,
+                 schema=None):
         self.calls.append({"prompt": prompt, "system": system, "temperature": temperature,
                            "max_tokens": max_tokens, "json_output": json_output})
         if not self.replies:

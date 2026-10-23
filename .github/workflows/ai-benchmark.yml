@@ -1,0 +1,65 @@
+name: AI model benchmark
+
+# Scores each candidate local model on HoRUS's real jobs on a Windows CPU machine
+# (4 vCPU, comparable to a mid-range laptop). Results are posted as job annotations.
+on:
+  push:
+    branches: [horus-offline]
+    paths: ["offline/bench/**", "offline/horus/llama.py", "offline/horus/prompts.py",
+            ".github/workflows/ai-benchmark.yml"]
+  workflow_dispatch:
+
+jobs:
+  bench:
+    name: ${{ matrix.llm }}
+    runs-on: windows-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        llm: [qwen3.5-4b, gemma4-e4b, gemma4-e2b, qwen3.5-2b, qwen3-4b-2507]
+    defaults:
+      run:
+        working-directory: offline
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      HORUS_LLAMA_LOG: ${{ github.workspace }}/llama-server.log
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install
+        run: pip install -e . huggingface_hub onnxruntime tokenizers
+      - name: Fetch model + llama-server (Windows CPU build)
+        run: python scripts/fetch_models.py --dest ../models --llm ${{ matrix.llm }} --no-whisper
+      - name: Benchmark
+        shell: bash
+        run: |
+          set +e
+          python bench/benchmark_llm.py --models ../models --out ../bench-${{ matrix.llm }}.json 2>&1 | tee bench.log
+          status=${PIPESTATUS[0]}
+          python - <<'EOF'
+          import json, pathlib
+          p = pathlib.Path("../bench-${{ matrix.llm }}.json")
+          if p.exists():
+              s = json.loads(p.read_text())["summary"]
+              core = {k: s[k] for k in ("model","parse_seconds_median","gen_tokens_per_second","invalid_json",
+                     "symptom_precision","symptom_recall","modality_precision","modality_recall",
+                     "cause_recall","category_agreement","invented_symptoms_total","top1_same",
+                     "top5_overlap","vs_gemini_top5_overlap","rationales_kept_share",
+                     "narration_seconds_median","load_seconds")}
+              print("::notice title=bench ${{ matrix.llm }}::" + json.dumps(core))
+              print("::notice title=followups ${{ matrix.llm }}::" + json.dumps(s["followups"]))
+          EOF
+          if [ $status -ne 0 ]; then
+            grep -E "Error|error|FAILED|Traceback" bench.log | tail -8 | sed 's/^/::error title=bench::/'
+            tail -c 1500 ../llama-server.log 2>/dev/null | tr '\n' ' ' | sed 's/^/::error title=llama-server log::/'
+          fi
+          exit $status
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bench-${{ matrix.llm }}
+          path: bench-${{ matrix.llm }}.json

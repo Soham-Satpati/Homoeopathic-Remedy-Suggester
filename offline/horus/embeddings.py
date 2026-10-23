@@ -49,10 +49,15 @@ class SentenceTransformerEmbedder:
         return np.asarray(emb, dtype=np.float32)
 
 
-def load_embedder(model_dir: Path) -> Embedder | None:
+def load_embedder(model_dir: Path, prefer: str = "auto") -> Embedder | None:
+    """ONNX Runtime first (what the installed app ships), then sentence-transformers."""
     if not (Path(model_dir) / "config.json").exists():
         log.warning("Embedding model not found at %s — using lexical matching", model_dir)
         return None
+    if prefer in ("auto", "onnx"):
+        e = load_onnx_embedder(model_dir)
+        if e is not None or prefer == "onnx":
+            return e
     try:
         return SentenceTransformerEmbedder(model_dir)
     except Exception:
@@ -101,3 +106,68 @@ class DatasetEmbeddingCache:
                     log.warning("Could not write embedding cache %s", path)
         self._mem[tag] = emb
         return emb
+
+
+class OnnxEmbedder:
+    """all-MiniLM-L6-v2 through ONNX Runtime: the same network and pooling as
+    sentence-transformers (mean of token vectors, then L2-normalised) without PyTorch.
+
+    Needs ``onnx/model.onnx`` and ``tokenizer.json`` in the model folder.
+    """
+
+    def __init__(self, model_dir: Path, threads: int = 4):
+        import onnxruntime as ort
+        from tokenizers import Tokenizer
+
+        model_dir = Path(model_dir)
+        self.model_id = f"onnx:{model_dir.name}"
+        tok = Tokenizer.from_file(str(model_dir / "tokenizer.json"))
+        tok.enable_truncation(max_length=_max_seq_len(model_dir))
+        tok.no_padding()
+        self._tok = tok
+        opts = ort.SessionOptions()
+        opts.intra_op_num_threads = threads
+        opts.inter_op_num_threads = 1
+        self._sess = ort.InferenceSession(str(model_dir / "onnx" / "model.onnx"), opts,
+                                          providers=["CPUExecutionProvider"])
+        self._inputs = {i.name for i in self._sess.get_inputs()}
+
+    def encode(self, texts: list[str], batch_size: int = 32) -> np.ndarray:
+        out = []
+        for i in range(0, len(texts), batch_size):
+            enc = self._tok.encode_batch(list(texts[i:i + batch_size]))
+            width = max(len(e.ids) for e in enc)
+            ids = np.zeros((len(enc), width), dtype=np.int64)
+            mask = np.zeros_like(ids)
+            types = np.zeros_like(ids)
+            for j, e in enumerate(enc):
+                ids[j, :len(e.ids)] = e.ids
+                mask[j, :len(e.ids)] = 1
+                types[j, :len(e.type_ids)] = e.type_ids
+            feed = {"input_ids": ids, "attention_mask": mask}
+            if "token_type_ids" in self._inputs:
+                feed["token_type_ids"] = types
+            tokens = self._sess.run(None, feed)[0]                       # (batch, seq, 384)
+            m = mask[..., None].astype(np.float32)
+            pooled = (tokens * m).sum(axis=1) / np.clip(m.sum(axis=1), 1e-9, None)
+            pooled /= np.clip(np.linalg.norm(pooled, axis=1, keepdims=True), 1e-12, None)
+            out.append(pooled.astype(np.float32))
+        return np.vstack(out) if out else np.zeros((0, 384), dtype=np.float32)
+
+
+def _max_seq_len(model_dir: Path) -> int:
+    import json
+    try:
+        return int(json.loads((model_dir / "sentence_bert_config.json").read_text())["max_seq_length"])
+    except (OSError, ValueError, KeyError):
+        return 256
+
+
+def load_onnx_embedder(model_dir: Path) -> Embedder | None:
+    if not (Path(model_dir) / "onnx" / "model.onnx").exists():
+        return None
+    try:
+        return OnnxEmbedder(model_dir)
+    except Exception:
+        log.exception("ONNX embedder failed to load")
+        return None

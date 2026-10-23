@@ -157,3 +157,48 @@ GENERATION = {
     "followups":   (0.3, 600),
     "transcribe":  (0.0, 1500),
 }
+
+
+# JSON schemas for constrained decoding (llama.cpp turns these into a grammar, so a small
+# model cannot emit malformed or runaway output). Shapes match what the prompts ask for.
+_STR = {"type": "string", "maxLength": 240}
+_STRS = {"type": "array", "items": _STR, "maxItems": 12}
+_SYMPTOM = {"type": "object",
+            "properties": {"symptom": _STR, "worse": _STRS, "better": _STRS},
+            "required": ["symptom", "worse", "better"]}
+_SYMPTOMS = {"type": "array", "items": _SYMPTOM, "maxItems": 30}
+
+CATEGORISE_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "physical": _SYMPTOMS,
+        "psychological": _SYMPTOMS,
+        "general": _SYMPTOMS,
+        "case_modalities": {"type": "object", "properties": {"worse": _STRS, "better": _STRS},
+                            "required": ["worse", "better"]},
+        "causation": _STRS,
+        "concomitants": _STRS,
+        "clinical_summary": {"type": "string", "maxLength": 400},
+    },
+    "required": ["physical", "psychological", "general", "case_modalities", "causation",
+                 "concomitants", "clinical_summary"],
+}
+
+_LONG = {"type": "string", "maxLength": 700}
+NARRATE_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "caseEssence": _LONG,
+        "primaryWhy": _LONG,
+        "rationales": {"type": "array", "maxItems": 10, "items": {
+            "type": "object", "properties": {"rank": {"type": "integer"}, "rationale": _LONG},
+            "required": ["rank", "rationale"]}},
+        "differentiation": {"type": "string", "maxLength": 1200},
+        "monitoringPoints": {"type": "array", "items": _STR, "maxItems": 5},
+    },
+    "required": ["caseEssence", "primaryWhy", "rationales", "differentiation", "monitoringPoints"],
+}
+
+FOLLOWUPS_SCHEMA = {"type": "array", "items": {"type": "string", "maxLength": 200}, "maxItems": 3}
+
+SCHEMAS = {"categorise": CATEGORISE_SCHEMA, "narrate": NARRATE_SCHEMA, "followups": FOLLOWUPS_SCHEMA}

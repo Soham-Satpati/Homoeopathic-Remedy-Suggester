@@ -93,7 +93,8 @@ class HorusEngine:
         t, n = prompts.GENERATION["categorise"]
         reply = self.llm.generate(prompts.categorise_prompt(raw_text),
                                   system=prompts.categorise_system(mode),
-                                  temperature=t, max_tokens=n, json_output=True)
+                                  temperature=t, max_tokens=n, json_output=True,
+                                  schema=prompts.SCHEMAS["categorise"])
         cat = parse_json_reply(reply)
         if not isinstance(cat, dict):
             raise ValueError("Parser did not return a JSON object.")
@@ -136,7 +137,8 @@ class HorusEngine:
             t, n = prompts.GENERATION["narrate"]
             reply = self.llm.generate(prompts.narrate_prompt(patient_id, extra_label, lines, remedy_block),
                                       system=prompts.NARRATE_SYSTEM, temperature=t, max_tokens=n,
-                                      json_output=True)
+                                      json_output=True,
+                                  schema=prompts.SCHEMAS["narrate"])
             parsed = parse_json_reply(reply)
             g = parsed if isinstance(parsed, dict) else {}
         except LLMUnavailable:
@@ -204,7 +206,8 @@ class HorusEngine:
         t, n = prompts.GENERATION["followups"]
         try:
             reply = self.llm.generate(answers_text, system=prompts.FOLLOWUPS_SYSTEM,
-                                      temperature=t, max_tokens=n, json_output=True)
+                                      temperature=t, max_tokens=n, json_output=True,
+                                  schema=prompts.SCHEMAS["followups"])
             items = parse_json_reply(reply)
         except LLMUnavailable:
             return []

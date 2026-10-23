@@ -28,9 +28,9 @@ class LLMBackend(Protocol):
     name: str
 
     def generate(self, prompt: str, *, system: str | None = None, temperature: float = 0.0,
-                 max_tokens: int = 1024, json_output: bool = False) -> str:
-        """Return the model's reply. ``json_output`` asks the backend to constrain output to JSON
-        when it can (grammar-constrained decoding); callers still parse defensively."""
+                 max_tokens: int = 1024, json_output: bool = False, schema: dict | None = None) -> str:
+        """Return the model's reply. ``json_output``/``schema`` ask the backend to constrain output
+        (grammar-constrained decoding) when it can; callers still parse defensively."""
         ...
 
 
@@ -46,7 +46,7 @@ class NullLLM:
     name = "none"
 
     def generate(self, prompt: str, *, system: str | None = None, temperature: float = 0.0,
-                 max_tokens: int = 1024, json_output: bool = False) -> str:
+                 max_tokens: int = 1024, json_output: bool = False, schema: dict | None = None) -> str:
         raise LLMUnavailable("No offline language model is installed.")
 
 
