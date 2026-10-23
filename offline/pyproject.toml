@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "horus-offline"
+version = "0.1.0"
+description = "HoRUS offline clinical engine — dataset-driven homeopathic repertorisation that runs without internet."
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "reportlab>=4.2",
+]
+
+[project.optional-dependencies]
+# Semantic symptom matching. Without it the engine uses lexical matching.
+embeddings = ["sentence-transformers>=2.7"]
+# Only needed at build time, to download the bundled models.
+build = ["huggingface_hub>=0.23", "sentence-transformers>=2.7"]
+test = ["pytest>=8", "pypdf>=4"]
+
+[tool.setuptools.packages.find]
+include = ["horus*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

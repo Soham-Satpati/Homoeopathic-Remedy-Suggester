@@ -1,0 +1,6 @@
+# Offline build
+/models/
+offline/**/__pycache__/
+offline/*.egg-info/
+offline/.pytest_cache/
+__pycache__/
