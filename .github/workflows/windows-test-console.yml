@@ -2,10 +2,8 @@ name: Windows test build
 
 # Builds the engine test console for Windows, proves the .exe works (headless self-test
 # with the bundled model, then the real window), and publishes it as a pre-release.
+# Superseded by the full installer build; kept for manual runs only.
 on:
-  push:
-    branches: [horus-offline]
-    paths: ["offline/**", ".github/workflows/windows-test-console.yml"]
   workflow_dispatch:
 
 permissions:

@@ -431,6 +431,17 @@ class Session:
         self._sealer = None
 
     # ── own account ──────────────────────────────────────────────────────
+    def verify_password(self, password: str, purpose: str = "unlock") -> bool:
+        """Re-check the signed-in user's password (screen unlock, leaving kiosk mode)."""
+        row = self._con.execute("SELECT wrapped_dek FROM users WHERE id = ?", (self.user.id,)).fetchone()
+        try:
+            unwrap_with_password(json.loads(row["wrapped_dek"]), password)
+        except WrongSecret:
+            self.audit(f"{purpose}.failed")
+            return False
+        self.audit(purpose)
+        return True
+
     def change_password(self, old: str, new: str) -> None:
         _check_password(new)
         row = self._con.execute("SELECT wrapped_dek FROM users WHERE id = ?", (self.user.id,)).fetchone()

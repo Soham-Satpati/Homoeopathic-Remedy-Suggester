@@ -33,7 +33,7 @@ log = logging.getLogger(__name__)
 
 SERVER_EXE = "llama-server.exe" if sys.platform == "win32" else "llama-server"
 # Flags that differ between llama.cpp releases; dropped (once) if the server rejects them.
-OPTIONAL_ARGS = ["--reasoning-budget", "0", "--no-webui"]
+OPTIONAL_ARGS = ["--reasoning", "off", "--reasoning-budget", "0", "--no-webui"]
 
 
 def physical_cores() -> int:
@@ -98,8 +98,9 @@ class LlamaServer:
     def __init__(self, server_dir: Path, model_path: Path, *, context: int = 8192,
                  threads: int | None = None, startup_timeout: float = 180.0,
                  extra_args: list[str] | None = None):
-        self.server_dir = Path(server_dir)
-        self.model_path = Path(model_path)
+        # absolute: the server runs with its own folder as working directory
+        self.server_dir = Path(server_dir).resolve()
+        self.model_path = Path(model_path).resolve()
         self.name = f"llama.cpp:{self.model_path.stem}"
         self.context = context
         self.threads = threads or physical_cores()
