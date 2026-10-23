@@ -51,7 +51,9 @@ LLM_CANDIDATES = {
 DEFAULT_LLM = os.environ.get("HORUS_LLM", "qwen3.5-4b")
 WHISPER_REPO = os.environ.get("HORUS_WHISPER_REPO", "Systran/faster-whisper-small")
 LLAMA_REPO = "ggml-org/llama.cpp"
-LLAMA_TAG = os.environ.get("HORUS_LLAMA_TAG", "")          # empty → latest release
+# Pinned so every installer ships the same server build. Note: llama.cpp's "latest" release can be
+# a version marker without binaries; builds are the numbered bNNNN releases.
+LLAMA_TAG = os.environ.get("HORUS_LLAMA_TAG", "b11669")
 
 # llama.cpp release asset per platform: plain CPU build (no Vulkan/CUDA/SYCL), x64 or arm64.
 LLAMA_ASSET = {
@@ -124,14 +126,25 @@ def _gh(url: str) -> bytes:
         return r.read()
 
 
+def _llama_release(plat: str) -> tuple[dict, dict]:
+    """(release, asset): the pinned tag if it has a build for this platform, else the newest that does."""
+    base = f"https://api.github.com/repos/{LLAMA_REPO}/releases"
+    candidates = []
+    if LLAMA_TAG:
+        try:
+            candidates.append(json.loads(_gh(f"{base}/tags/{LLAMA_TAG}")))
+        except Exception as e:
+            print(f"Pinned llama.cpp {LLAMA_TAG} unavailable ({e}); searching recent releases")
+    candidates += json.loads(_gh(f"{base}?per_page=40"))
+    for rel in candidates:
+        hits = [a for a in rel.get("assets", []) if re.search(LLAMA_ASSET[plat], a["name"])]
+        if hits:
+            return rel, hits[0]
+    raise SystemExit(f"No llama.cpp release with a {plat} CPU build ({LLAMA_ASSET[plat]})")
+
+
 def fetch_llama_server(dest: Path, plat: str) -> dict:
-    api = f"https://api.github.com/repos/{LLAMA_REPO}/releases/" + (f"tags/{LLAMA_TAG}" if LLAMA_TAG else "latest")
-    rel = json.loads(_gh(api))
-    assets = [a for a in rel["assets"] if re.search(LLAMA_ASSET[plat], a["name"])]
-    if not assets:
-        raise SystemExit(f"No {plat} CPU asset in llama.cpp {rel['tag_name']}: "
-                         f"{[a['name'] for a in rel['assets']]}")
-    asset = assets[0]
+    rel, asset = _llama_release(plat)
     print(f"llama.cpp {rel['tag_name']}: {asset['name']}")
     blob = _gh(asset["browser_download_url"])
     target = dest / "llama-server"

@@ -33,7 +33,14 @@ jobs:
       - name: Install
         run: pip install -e . huggingface_hub onnxruntime tokenizers
       - name: Fetch model + llama-server (Windows CPU build)
-        run: python scripts/fetch_models.py --dest ../models --llm ${{ matrix.llm }} --no-whisper
+        shell: bash
+        run: |
+          set +e
+          python scripts/fetch_models.py --dest ../models --llm ${{ matrix.llm }} --no-whisper 2>&1 | tee fetch.log
+          status=${PIPESTATUS[0]}
+          if [ $status -ne 0 ]; then tail -6 fetch.log | sed 's/^/::error title=fetch::/'; fi
+          grep -E "^llama.cpp |^Wrote " fetch.log | sed 's/^/::notice title=fetch::/'
+          exit $status
       - name: Benchmark
         shell: bash
         run: |
