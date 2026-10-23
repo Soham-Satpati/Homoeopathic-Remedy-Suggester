@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 env:
-  HORUS_LLM: qwen3.5-4b
+  HORUS_LLM: gemma4-e4b
   PYTHONIOENCODING: utf-8
   PYTHONUTF8: "1"
   GITHUB_TOKEN: ${{ github.token }}

@@ -48,7 +48,7 @@ LLM_CANDIDATES = {
                                                                r"(?i)^(?!mmproj|mtp).*\.gguf$"]),
     "qwen3-4b-2507": ("unsloth/Qwen3-4B-Instruct-2507-GGUF", [r"^Qwen3-4B-Instruct-2507-Q4_K_M\.gguf$"]),
 }
-DEFAULT_LLM = os.environ.get("HORUS_LLM", "qwen3.5-4b")
+DEFAULT_LLM = os.environ.get("HORUS_LLM", "gemma4-e4b")
 WHISPER_REPO = os.environ.get("HORUS_WHISPER_REPO", "Systran/faster-whisper-small")
 LLAMA_REPO = "ggml-org/llama.cpp"
 # Pinned so every installer ships the same server build. Note: llama.cpp's "latest" release can be

@@ -11,7 +11,7 @@ The installer is split into parts because the offline AI models are large. **Dow
 
 Windows may show *"Windows protected your PC"* because the installer is not code-signed yet: click **More info → Run anyway**. No administrator rights are needed.
 
-Requirements: Windows 10 (1809+) or 11, 64-bit · 8 GB RAM recommended · about 6 GB free disk space.
+Requirements: Windows 10 (1809+) or 11, 64-bit · 8 GB RAM recommended · about 8 GB free disk space.
 
 ### What's inside
 

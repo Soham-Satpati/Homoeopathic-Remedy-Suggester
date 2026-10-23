@@ -67,7 +67,7 @@ CI runs this on every push (`.github/workflows/windows-installer.yml`). Pushing 
 ```bash
 pip install -e "offline[test]" PySide6-Essentials PySide6-Addons onnxruntime tokenizers faster-whisper \
             huggingface_hub qrcode pyinstaller pefile
-python offline/scripts/fetch_models.py --dest models --llm qwen3.5-4b --embedding onnx
+python offline/scripts/fetch_models.py --dest models --llm gemma4-e4b --embedding onnx
 python -m pytest offline
 python offline/packaging/build_app.py --models models          # → dist/HoRUS/HoRUS.exe
 python offline/packaging/check_deps.py dist/HoRUS                # every DLL shipped or part of Windows
@@ -104,3 +104,26 @@ It measures:
 - **ranking agreement:** how often the remedy ranking from the model's parse matches the ranking from the reference parse
 - **explanations:** what share survive the filters
 - **speed**
+
+### Results and choice
+
+Measured on a 4-vCPU Windows machine, comparable to a mid-range laptop:
+
+| Model (all Apache-2.0) | File | RAM in use | Symptoms found | Invented | Category correct | Explanations kept | Parse | Explain |
+|---|---|---|---|---|---|---|---|---|
+| **Gemma 4 E4B (shipped)** | 4.8 GB | 3.1 GB | 99–100% | 0–1 | 68–86% | 100% | 38–67 s | ~110 s |
+| Gemma 4 E2B | 3.1 GB | 1.6 GB | 98–100% | 1 | 60–74% | 73% | 35–60 s | ~100 s |
+| Qwen3.5-4B | 2.6 GB | — | 92% | 4 | 82% | 65% | 66 s | 160 s |
+| Qwen3-4B-2507 | 2.5 GB | — | 96% | 0 | 84% | 18% | 46 s | 150 s |
+| Qwen3.5-2B | 1.2 GB | — | 87% | 27 | 64% | 50% | 23 s | 60 s |
+
+Where a figure is a range, it spans two runs: all 14 cases, and a separate 4-case run that also measured memory.
+
+Gemma 4 E4B was the most faithful model:
+- it found almost every stated symptom and invented virtually none
+- every explanation it wrote survived the engine's filters
+- it uses about 3 GB of RAM while running
+
+Low agreement on the top-1 remedy across all models reflects granularity: the models split symptoms more finely than the reference parses. It does not reflect invented content. The doctor reviews the symptoms before analysis in any case.
+
+Switching models later only needs `--llm <key>` in `fetch_models.py`; no code changes.
