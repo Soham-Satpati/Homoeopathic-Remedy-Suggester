@@ -48,6 +48,20 @@ def stage_models(models: Path, staging: Path) -> dict:
     return manifest
 
 
+# Visual C++ runtime, deployed app-locally (Microsoft-supported) so llama-server and the speech
+# engine start on PCs without the VC++ redistributable — installing that would need admin rights.
+VC_RUNTIME = ["vcruntime140.dll", "vcruntime140_1.dll", "msvcp140.dll", "msvcp140_1.dll", "msvcp140_2.dll",
+              "vcomp140.dll", "concrt140.dll"]
+
+
+def vc_runtime_dlls() -> list[Path]:
+    if sys.platform != "win32":
+        return []
+    import os
+    sys32 = Path(os.environ.get("SystemRoot", r"C:\Windows")) / "System32"
+    return [sys32 / n for n in VC_RUNTIME if (sys32 / n).exists()]
+
+
 def third_party_notices(dest: Path, manifest: dict) -> None:
     lines = ["HoRUS bundles the following third-party software and models. Each remains under its own",
              "licence, reproduced or referenced below.", ""]
@@ -81,6 +95,12 @@ def main() -> None:
         sys.exit(f"Missing data files: {missing}")
     staging = REPO / "build" / "models-staging"
     manifest = stage_models(args.models, staging)
+    vc = vc_runtime_dlls()
+    if (staging / "llama-server").exists():
+        for dll in vc:
+            if not (staging / "llama-server" / dll.name).exists():
+                shutil.copy2(dll, staging / "llama-server" / dll.name)
+    print("VC++ runtime bundled:", [d.name for d in vc])
     icon = OFFLINE / "packaging" / "horus.ico"
 
     cmd = [
@@ -101,6 +121,8 @@ def main() -> None:
     ]
     for f in DATA_FILES:
         cmd += ["--add-data", f"{REPO / f}{SEP}resources"]
+    for dll in vc:
+        cmd += ["--add-binary", f"{dll}{SEP}."]
     for mod in ("tkinter", "matplotlib", "torch", "torchvision", "sentence_transformers", "transformers",
                 "IPython", "pytest", "scipy", "sklearn", "PySide6.QtWebEngineCore", "PySide6.QtWebEngineWidgets",
                 "PySide6.Qt3DCore", "PySide6.QtQuick", "PySide6.QtQml", "PySide6.QtCharts",
