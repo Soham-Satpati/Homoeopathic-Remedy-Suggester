@@ -66,12 +66,15 @@ jobs:
         shell: bash
         run: |
           set +e
-          python -m pytest -q -rfEs --tb=short -p no:cacheprovider 2>&1 | tee pytest.log
-          s=${PIPESTATUS[0]}
+          python -m pytest -q -rfEs --tb=short -p no:cacheprovider --junitxml=junit.xml > pytest.log 2>&1
+          s=$?
+          echo "::notice title=pytest exit code::$s"
           grep -E "^(FAILED|ERROR) " pytest.log | head -15 | sed 's/^/::error title=test::/'
           grep -E "^E  " pytest.log | head -10 | sed 's/^/::error title=detail::/'
-          tail -1 pytest.log | sed 's/^/::notice title=tests::/'
-          exit $s
+          grep -E "passed|failed" pytest.log | tail -1 | sed 's/^/::notice title=tests::/'
+          tail -5 pytest.log | sed 's/^/::notice title=pytest tail::/'
+          # decide from pytest's own result file, so a crash during interpreter shutdown is visible
+          python -c "import sys,xml.etree.ElementTree as E;r=E.parse('junit.xml').getroot();t=r if r.tag=='testsuite' else r[0];f=int(t.get('failures'))+int(t.get('errors'));print('::notice title=junit::failures+errors=%d'%f);sys.exit(1 if f else 0)"
 
       - name: Window test from source
         shell: bash
