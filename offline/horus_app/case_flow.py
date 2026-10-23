@@ -104,6 +104,8 @@ class CaseFlow(QWidget):
         self.raw = ""
         self.intake_id: str | None = None
         self.case_saved = False
+        self.case_id: int | None = None
+        self.generation = 0           # bumps on every analysis; stale AI results are ignored
         lay = QVBoxLayout(self)
         lay.setContentsMargins(0, 0, 0, 0)
         self.steps = QStackedWidget()
@@ -227,6 +229,10 @@ class CaseFlow(QWidget):
         self.tabs.setCurrentIndex(0 if self.ctx.ai_ready else 1)
 
     def reset(self):
+        self.generation += 1
+        self.case_id = None
+        if hasattr(self, "rp_busy"):
+            self.rp_busy.stop()
         self.cat = self.report = None
         self.raw = ""
         self.intake_id = None
@@ -356,8 +362,9 @@ class CaseFlow(QWidget):
         details = self._patient_details()
         mode = self.mode.currentData()
         self.analyse_btn.setEnabled(False)
-        self.rv_busy.start("Ranking remedies from the dataset" +
-                           (" and writing explanations with the offline AI…" if self.ctx.ai_ready else "…"))
+        self.rv_busy.start("Ranking remedies from the dataset…")
+        self.generation += 1
+        gen = self.generation
 
         def done(res):
             cat2, rpt = res
@@ -365,16 +372,42 @@ class CaseFlow(QWidget):
             self.analyse_btn.setEnabled(True)
             self.cat, self.report = cat2, rpt
             self._show_report()
+            if self.ctx.ai_ready and rpt.get("top10Remedies"):
+                self._narrate(gen, pid, details, mode)
 
         def fail(msg, tb):
             self.rv_busy.stop()
             self.analyse_btn.setEnabled(True)
             error(self, "Analysis failed", msg, tb)
 
-        def work():
+        def work():   # instant: dataset ranking only; explanations follow in the background
             cat2 = engine.refresh(cat)
-            return cat2, engine.report(pid, cat2, patient_details=details, mode=mode)
+            return cat2, engine.report(pid, cat2, patient_details=details, mode=mode, narrate=False)
         run_job(work, done, fail)
+
+    def _narrate(self, gen: int, pid: str, details: dict, mode: str):
+        engine, cat = self.ctx.engine, self.cat
+        self.rp_busy.start("Writing explanations with the offline AI — the ranking above is final…")
+
+        def done(rpt):
+            if gen != self.generation:
+                return                                   # the doctor has moved on
+            self.rp_busy.stop()
+            self.report = rpt
+            self.rp_view.setHtml(report_html(rpt, cat))
+            if self.case_id is not None:
+                try:
+                    self.ctx.session.update_case(self.case_id, {"report": rpt,
+                                                                "clinical_notes": rpt.get("caseEssence", "")})
+                    self.rp_saved.setText(self.rp_saved.text() + " · explanations added")
+                except Exception as e:
+                    error(self, "Explanations not saved", str(e))
+
+        def fail(msg, tb):
+            if gen == self.generation:
+                self.rp_busy.stop()
+                self.rp_saved.setText(self.rp_saved.text() + " · AI explanations unavailable")
+        run_job(lambda: engine.report(pid, cat, patient_details=details, mode=mode), done, fail)
 
     # ════════════════════════════════════════════════════════════════════
     # 3. REPORT
@@ -384,6 +417,8 @@ class CaseFlow(QWidget):
         self.rp_title = label("", "h1")
         self.rp_saved = label("", "muted")
         v.addLayout(row(self.rp_title, None, self.rp_saved))
+        self.rp_busy = Busy()
+        v.addWidget(self.rp_busy)
         self.rp_view = QTextBrowser()
         self.rp_view.setOpenLinks(False)
         v.addWidget(self.rp_view, 1)
@@ -416,7 +451,7 @@ class CaseFlow(QWidget):
                     s.save_patient_details(pid, {**current, **{k: v for k, v in details.items() if v}})
             top = [r["name"] for r in self.report.get("top10Remedies", [])] or \
                   [self.report.get("primaryRemedy", {}).get("name", "")]
-            s.add_case(pid, {
+            self.case_id = s.add_case(pid, {
                 "raw_symptoms": self.raw, "categorised": self.cat, "top_remedies": top,
                 "clinical_notes": self.report.get("caseEssence", ""), "patient_details": details,
                 "analysis_mode": self.mode.currentData(), "report": self.report,

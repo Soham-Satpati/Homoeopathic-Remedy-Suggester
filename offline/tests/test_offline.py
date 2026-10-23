@@ -148,3 +148,13 @@ def test_learning_updates_only_when_cases_change(paths):
     assert live.live_cases == 4 and len(live.s2r) >= base_size
     e.learn_from(copy.deepcopy(pts))
     assert e.dataset is live                       # unchanged input → no rebuild
+
+
+def test_instant_report_skips_the_model(paths, fake_llm):
+    e = make_engine(paths, semantic=False, llm=fake_llm)
+    case = all_cases()[0]
+    cat = e.finalise(copy.deepcopy(case["parsed"]), case["raw"])
+    quick = e.report("P", cat, narrate=False)
+    assert fake_llm.calls == [] and quick["top10Remedies"]
+    no_ai = make_engine(paths, semantic=False).report("P", cat)
+    assert quick == no_ai                     # same as a report with no model at all

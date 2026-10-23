@@ -125,13 +125,16 @@ class HorusEngine:
         return rank_remedies(cat, self._live.s2r, self.embedder, self._emb_cache, top_n=top_n)
 
     def report(self, patient_id: str, categorised: dict, patient_details: dict | None = None,
-               mode: str = "case_studies", extra_label: str = "") -> dict:
-        """Rank from the dataset, then (if a model is available) add filtered explanations."""
+               mode: str = "case_studies", extra_label: str = "", narrate: bool = True) -> dict:
+        """Rank from the dataset, then (if a model is available and ``narrate``) add filtered
+        explanations. ``narrate=False`` returns the instant, dataset-only report."""
         categorised = self.refresh(categorised)
         ranked = self.rank(categorised, top_n=10)
         if not ranked:
             return no_match_report(categorised, self.rubric)
         g: dict = {}
+        if not narrate:
+            return assemble_report(categorised, ranked, g, self._live.remedy_universe, self.rubric)
         try:
             lines, remedy_block = narration_inputs(categorised, ranked)
             t, n = prompts.GENERATION["narrate"]

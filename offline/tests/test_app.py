@@ -181,3 +181,44 @@ def test_unlock_dialog(ctx):
     actions = [e["action"] for e in ctx.session.audit_entries()]
     assert "screen.unlock.failed" in actions and "screen.unlock" in actions
     win.close()
+
+
+def test_report_appears_instantly_then_ai_explanations_fill_in(ctx):
+    """Dataset ranking is shown and saved at once; AI text arrives later and updates the saved case."""
+    import threading
+    from cases import NARRATION_REPLY
+    gate = threading.Event()
+
+    class SlowLLM:
+        name = "slow-fake"
+        _proc = None
+
+        def generate(self, prompt, **kw):
+            gate.wait(20)                              # explanations are slow on a CPU
+            return NARRATION_REPLY
+
+        def stop(self):
+            pass
+
+    win = _signed_in(ctx)
+    ctx.llm = ctx.engine.llm = SlowLLM()
+    ctx.settings["ai_enabled"] = True
+    cf = win.case
+    cf.reset()
+    cf.pt_name.setText("Async Patient")
+    cf.tabs.setCurrentIndex(1)
+    cf.st_table.add("psychological", {"symptom": "weeping alone", "worse": ["evening"], "better": []})
+    cf.st_table.add("general", {"symptom": "craving for salt", "worse": [], "better": []})
+    cf._read_case()
+    cf._analyse()
+    wait(lambda: cf.steps.currentIndex() == 2)
+    first = cf.report["top10Remedies"][0]["rationale"]
+    assert first.startswith("Matched in dataset")              # instant, dataset-only
+    assert cf.rp_saved.text().startswith("✓") and cf.rp_busy.isVisibleTo(cf)
+    pid = cf.pt_existing.currentData()
+    gate.set()
+    wait(lambda: "explanations added" in cf.rp_saved.text())
+    saved = ctx.session.list_cases(pid)[0]["report"]
+    assert saved["_removed"]                                    # filters ran on the AI text
+    assert saved["top10Remedies"][0]["name"] == cf.report["top10Remedies"][0]["name"]   # ranking unchanged
+    win.close()

@@ -664,6 +664,18 @@ class Session:
         self.audit("case.created", pid, f"case={cid}")
         return cid
 
+    def update_case(self, case_id: int, changes: dict) -> None:
+        """Merge ``changes`` into a saved case (e.g. AI explanations that arrived after saving)."""
+        self.require("cases.write")
+        with self._tx():
+            r = self._con.execute("SELECT patient_id, payload FROM cases WHERE id = ?", (case_id,)).fetchone()
+            if r is None:
+                raise StoreError(f"No case {case_id}")
+            payload = {**self.sealer.open(r["payload"], f"cases:{case_id}"), **changes}
+            self._con.execute("UPDATE cases SET payload = ? WHERE id = ?",
+                              (self.sealer.seal(payload, f"cases:{case_id}"), case_id))
+        self.audit("case.updated", r["patient_id"], f"case={case_id}")
+
     def list_cases(self, pid: str) -> list[dict]:
         self.require("cases.read")
         rows = self._con.execute("SELECT c.*, u.display_name AS author FROM cases c LEFT JOIN users u "

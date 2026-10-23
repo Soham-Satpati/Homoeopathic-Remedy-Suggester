@@ -300,3 +300,13 @@ def test_concurrent_writers_never_lose_or_mix_writes(clinic):
     assert len(s.patient_intakes(pid)) == 80
     assert len(s.list_cases(pid)) == 30
     assert store.verify_audit_chain()[0]
+
+
+def test_update_case_merges_and_audits(clinic):
+    _, _, s = clinic
+    pid = s.create_patient({"name": "U"})
+    cid = _add_case(s, pid)
+    s.update_case(cid, {"report": {"caseEssence": "later"}, "clinical_notes": "later"})
+    c = s.list_cases(pid)[0]
+    assert c["report"]["caseEssence"] == "later" and c["top_remedies"] == ["sepia"]
+    assert "case.updated" in [e["action"] for e in s.audit_entries()]
