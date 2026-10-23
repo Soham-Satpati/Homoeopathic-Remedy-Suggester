@@ -120,7 +120,9 @@ def test_parse_json_reply_rejects_garbage():
 
 
 # ── embedding cache ──────────────────────────────────────────────────────────
-def test_embedding_cache_on_disk_gives_identical_results(paths):
+def test_embedding_cache_on_disk_gives_identical_results(paths, tmp_path):
+    from horus.config import Paths
+    paths = Paths(resources=paths.resources, user=tmp_path)     # own cache folder
     case = all_cases()[0]
     first = make_engine(paths, semantic=True, disk_cache=True)
     cat = first.finalise(copy.deepcopy(case["parsed"]), case["raw"])

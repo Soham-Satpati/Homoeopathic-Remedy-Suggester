@@ -322,7 +322,9 @@ def test_ranking_with_real_model_matches_demo(legacy, paths, case):
     from horus.embeddings import load_embedder
     patients = saved_patients()
     reset_legacy_dataset(legacy, patients)
-    legacy.system_data = {"model": SentenceTransformer(str(_real_model_dir())), "clusters": {}}
+    # The engine pins the CPU so every clinic machine ranks identically. Run the demo on the CPU
+    # too: on Apple Silicon it would otherwise pick the GPU (MPS), whose arithmetic differs slightly.
+    legacy.system_data = {"model": SentenceTransformer(str(_real_model_dir()), device="cpu"), "clusters": {}}
     e = HorusEngine(paths, embedder=load_embedder(_real_model_dir()), use_disk_cache=False)
     e.learn_from(patients)
     cat = finalise_categorised(copy.deepcopy(case["parsed"]), case["raw"])

@@ -4,3 +4,5 @@ offline/**/__pycache__/
 offline/*.egg-info/
 offline/.pytest_cache/
 __pycache__/
+dist/
+build/

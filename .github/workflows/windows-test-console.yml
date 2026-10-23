@@ -1,0 +1,110 @@
+name: Windows test build
+
+# Builds the engine test console for Windows, proves the .exe works (headless self-test
+# with the bundled model, then the real window), and publishes it as a pre-release.
+on:
+  push:
+    branches: [horus-offline]
+    paths: ["offline/**", ".github/workflows/windows-test-console.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -e "offline[embeddings,build,test]" pyinstaller
+
+      - name: Cache bundled models
+        uses: actions/cache@v4
+        with:
+          path: models
+          key: models-${{ hashFiles('offline/scripts/fetch_models.py') }}
+
+      - name: Fetch models
+        working-directory: offline
+        run: python scripts/fetch_models.py --dest ../models
+
+      - name: Engine tests (parity with the demo, real model)
+        working-directory: offline
+        shell: bash
+        run: |
+          set +e
+          python -m pytest -q -rfEs --tb=short -p no:cacheprovider 2>&1 | tee pytest.log
+          status=${PIPESTATUS[0]}
+          grep -E "^(FAILED|ERROR) " pytest.log | head -15 | sed 's/^/::error title=test::/'
+          grep -E "^E  " pytest.log | head -15 | sed 's/^/::error title=detail::/'
+          tail -1 pytest.log | sed 's/^/::notice title=tests::/'
+          exit $status
+
+      - name: Build .exe
+        run: python offline/packaging/build_test_console.py
+
+      - name: Self-test the .exe (headless, model required)
+        shell: pwsh
+        run: |
+          $exe = "dist\HoRUS-Offline-Test\HoRUS-Offline-Test.exe"
+          $p = Start-Process $exe -ArgumentList "--selftest","$pwd\selftest","--require-model" -Wait -PassThru
+          $r = Get-Content selftest\selftest.json -Raw | ConvertFrom-Json
+          if ($p.ExitCode -ne 0 -or -not $r.ok) {
+            Write-Output "::error title=selftest::$($r.error)"
+            Get-Content selftest\selftest.json
+            exit 1
+          }
+          $line = ($r.samples.PSObject.Properties | ForEach-Object { "$($_.Name) -> $($_.Value.top -join ', ') | flags: $($_.Value.red_flags -join ', ')" }) -join ' || '
+          Write-Output "::notice title=selftest ($($r.matching))::$line"
+
+      - name: Open the window, analyse a sample, close
+        shell: pwsh
+        run: |
+          $exe = "dist\HoRUS-Offline-Test\HoRUS-Offline-Test.exe"
+          $p = Start-Process $exe -ArgumentList "--gui-smoke","$pwd\guismoke" -Wait -PassThru
+          $r = Get-Content guismoke\guismoke.json -Raw | ConvertFrom-Json
+          if ($p.ExitCode -ne 0 -or -not $r.ok) { Write-Output "::error title=gui::$($r.detail)"; exit 1 }
+          Write-Output "::notice title=gui::$($r.detail)"
+
+      - name: Zip
+        shell: pwsh
+        run: |
+          Copy-Item offline\packaging\README-test-console.txt "dist\HoRUS-Offline-Test\READ ME.txt"
+          Compress-Archive -Path dist\HoRUS-Offline-Test -DestinationPath HoRUS-Offline-Test-windows-x64.zip
+          $mb = [math]::Round((Get-Item HoRUS-Offline-Test-windows-x64.zip).Length / 1MB)
+          Write-Output "::notice title=size::$mb MB"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: HoRUS-Offline-Test-windows-x64
+          path: HoRUS-Offline-Test-windows-x64.zip
+
+      - name: Publish pre-release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: offline-test-${{ github.run_number }}
+          target_commitish: ${{ github.sha }}
+          name: "HoRUS Offline — engine test console (build ${{ github.run_number }})"
+          prerelease: true
+          files: HoRUS-Offline-Test-windows-x64.zip
+          body: |
+            **Test build of step 1 (the offline engine). Not the clinic app.**
+
+            Download `HoRUS-Offline-Test-windows-x64.zip`, unzip it, open the folder and run `HoRUS-Offline-Test.exe`.
+            Windows may warn that the app is from an unknown publisher (it isn't code-signed yet): click **More info → Run anyway**.
+
+            Runs fully offline: the remedy dataset and the symptom-matching model are inside the folder.
+            No patient database, logins or AI parsing yet (steps 2–4).
+
+            Built from ${{ github.sha }}; passed the engine parity tests, a headless self-test and a window smoke test on Windows.
