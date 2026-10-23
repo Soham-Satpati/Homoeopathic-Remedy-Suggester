@@ -316,8 +316,10 @@ def _real_model_dir():
 @pytest.mark.skipif(_real_model_dir() is None, reason="embedding model not fetched (run scripts/fetch_models.py)")
 @pytest.mark.parametrize("case", CASES, ids=CASE_IDS)
 def test_ranking_with_real_model_matches_demo(legacy, paths, case):
-    """The demo's SentenceTransformer and the engine's local-only loader, same weights."""
-    from sentence_transformers import SentenceTransformer
+    """The demo's SentenceTransformer and the engine's local-only loader (ONNX when installed), same weights."""
+    SentenceTransformer = pytest.importorskip("sentence_transformers").SentenceTransformer
+    if not (_real_model_dir() / "model.safetensors").exists():
+        pytest.skip("PyTorch weights not fetched (ONNX-only bundle)")
 
     from horus.embeddings import load_embedder
     patients = saved_patients()
