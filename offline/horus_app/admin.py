@@ -251,7 +251,10 @@ class SettingsPage(QWidget):
 
         llm, wh = self.ctx.llm, self.ctx.transcriber
         ai_txt = (f"Language model: {Path(llm.model_path).name}" if llm else "Language model: not installed") + \
-                 ("\nSpeech model: Whisper (offline)" if wh else "\nSpeech model: not installed")
+                 ("\nSpeech model: Whisper (offline)" if wh else "\nSpeech model: not installed") + \
+                 (f"\nThis computer has {self.ctx.ram_gb:.0f} GB of memory"
+                  + (" — the AI may be slow; 8 GB or more is recommended." if self.ctx.ram_gb < 7.5 else ".")
+                  if getattr(self.ctx, "ram_gb", None) else "")
         self.ai_on = QCheckBox("Use the offline AI (reading free text, explanations, voice, follow-up questions)")
         self.ai_on.setChecked(bool(self.ctx.settings.get("ai_enabled", True)))
         self.ai_on.setEnabled(bool(llm or wh))

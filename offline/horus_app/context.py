@@ -61,6 +61,27 @@ class Job(QRunnable):
 _ACTIVE: set = set()     # keep jobs alive until their signals have fired
 
 
+def total_ram_gb() -> float | None:
+    """Installed memory, for sizing AI defaults (Windows: GlobalMemoryStatusEx)."""
+    try:
+        if os.name == "nt":
+            import ctypes
+
+            class MEMORYSTATUSEX(ctypes.Structure):
+                _fields_ = [("dwLength", ctypes.c_ulong), ("dwMemoryLoad", ctypes.c_ulong),
+                            ("ullTotalPhys", ctypes.c_ulonglong), ("ullAvailPhys", ctypes.c_ulonglong),
+                            ("ullTotalPageFile", ctypes.c_ulonglong), ("ullAvailPageFile", ctypes.c_ulonglong),
+                            ("ullTotalVirtual", ctypes.c_ulonglong), ("ullAvailVirtual", ctypes.c_ulonglong),
+                            ("ullAvailExtendedVirtual", ctypes.c_ulonglong)]
+            m = MEMORYSTATUSEX()
+            m.dwLength = ctypes.sizeof(m)
+            ctypes.windll.kernel32.GlobalMemoryStatusEx(ctypes.byref(m))
+            return m.ullTotalPhys / 2**30
+        return os.sysconf("SC_PAGE_SIZE") * os.sysconf("SC_PHYS_PAGES") / 2**30
+    except Exception:
+        return None
+
+
 def run_job(fn, on_done=None, on_fail=None) -> Job:
     job = Job(fn, on_done, on_fail)
     _ACTIVE.add(job)
@@ -92,10 +113,13 @@ class AppContext:
         return self.paths.user / "settings.json"
 
     def _load_settings(self) -> None:
+        self.ram_gb = total_ram_gb()
         try:
             self.settings.update(json.loads(self.settings_path.read_text(encoding="utf-8")))
         except (OSError, ValueError):
-            pass
+            # first run: on a PC with little memory, start the AI on first use rather than at sign-in
+            if self.ram_gb is not None and self.ram_gb < 7.5:
+                self.settings["ai_preload"] = False
 
     def save_settings(self) -> None:
         tmp = self.settings_path.with_suffix(".tmp")

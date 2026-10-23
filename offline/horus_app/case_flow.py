@@ -577,12 +577,14 @@ class CaseFlow(QWidget):
         engine = self.ctx.engine
         pid = getattr(self, "current_pid", "—")
         base_cat = self.cat
-        self.cmp_busy.start("Analysing with the added symptoms…")
+        self.cmp_busy.start("Analysing with the added symptoms" +
+                            (" and writing a comparison with the offline AI…" if self.ctx.ai_ready else "…"))
 
         def work():
             enh_cat, added = engine.enhanced_case(base_cat, selected)
-            base = engine.report(pid, base_cat, extra_label="[BASE]")
-            enh = engine.report(pid, enh_cat, extra_label="[ENHANCED]")
+            # dataset-only reports (instant); only the short comparative summary uses the AI
+            base = engine.report(pid, base_cat, extra_label="[BASE]", narrate=False)
+            enh = engine.report(pid, enh_cat, extra_label="[ENHANCED]", narrate=False)
             summary = engine.comparative_summary(base, enh)
             return base, enh_cat, enh, added, summary
 
