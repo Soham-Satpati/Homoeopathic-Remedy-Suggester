@@ -10,14 +10,26 @@ on:
   workflow_dispatch:
 
 jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      models: ${{ steps.p.outputs.models }}
+      limit: ${{ steps.p.outputs.limit }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        run: |
+          echo "models=$(jq -c .models offline/bench/run.json)" >> "$GITHUB_OUTPUT"
+          echo "limit=$(jq -r '.limit // 0' offline/bench/run.json)" >> "$GITHUB_OUTPUT"
   bench:
+    needs: plan
     name: ${{ matrix.llm }}
     runs-on: windows-latest
     timeout-minutes: 120
     strategy:
       fail-fast: false
       matrix:
-        llm: [qwen3.5-4b, gemma4-e4b, gemma4-e2b, qwen3.5-2b, qwen3-4b-2507]
+        llm: ${{ fromJSON(needs.plan.outputs.models) }}
     defaults:
       run:
         working-directory: offline
@@ -33,7 +45,7 @@ jobs:
           python-version: "3.11"
           cache: pip
       - name: Install
-        run: pip install -e . huggingface_hub onnxruntime tokenizers
+        run: pip install -e . huggingface_hub onnxruntime tokenizers psutil
       - name: Fetch model + llama-server (Windows CPU build)
         shell: bash
         run: |
@@ -47,7 +59,7 @@ jobs:
         shell: bash
         run: |
           set +e
-          python bench/benchmark_llm.py --models ../models --out ../bench-${{ matrix.llm }}.json 2>&1 | tee bench.log
+          python bench/benchmark_llm.py --models ../models --out ../bench-${{ matrix.llm }}.json --limit ${{ needs.plan.outputs.limit }} 2>&1 | tee bench.log
           status=${PIPESTATUS[0]}
           python - <<'EOF'
           import json, pathlib
@@ -58,7 +70,7 @@ jobs:
                      "symptom_precision","symptom_recall","modality_precision","modality_recall",
                      "cause_recall","category_agreement","invented_symptoms_total","top1_same",
                      "top5_overlap","vs_gemini_top5_overlap","rationales_kept_share",
-                     "narration_seconds_median","load_seconds")}
+                     "narration_seconds_median","load_seconds","memory","model_file_gb")}
               print("::notice title=bench ${{ matrix.llm }}::" + json.dumps(core))
               print("::notice title=followups ${{ matrix.llm }}::" + json.dumps(s["followups"]))
           EOF

@@ -193,6 +193,17 @@ def main() -> None:
     fu = engine.followups(FOLLOWUP_TEXT)
     fu_s = time.time() - t
 
+    mem = {}
+    try:                                   # memory actually used by the AI engine process
+        import psutil
+        mi = psutil.Process(llm._proc.pid).memory_info()
+        mem = {"rss_gb": round(mi.rss / 2**30, 2),
+               "peak_working_set_gb": round(getattr(mi, "peak_wset", 0) / 2**30, 2) or None}
+        vm = psutil.virtual_memory()
+        mem["machine_ram_gb"] = round(vm.total / 2**30, 1)
+    except Exception as e:
+        mem = {"error": str(e)}
+
     def agg(rows, key):
         return mean([r.get(key) for r in rows if r.get("valid")])
 
@@ -214,6 +225,8 @@ def main() -> None:
         "narration_seconds_median": round(statistics.median([n["seconds"] for n in narr]), 1) if narr else None,
         "rationales_kept_share": mean([n["rationales_kept"] / n["remedies"] for n in narr if n["remedies"]]),
         "followups": fu, "followups_seconds": round(fu_s, 1),
+        "memory": mem,
+        "model_file_gb": round(Path(llm.model_path).stat().st_size / 2**30, 2),
     }
     args.out.write_text(json.dumps({"summary": summary, "cases": per_case, "narration": narr}, indent=2))
     llm.stop()
