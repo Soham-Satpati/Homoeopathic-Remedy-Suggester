@@ -30,6 +30,9 @@ WINDOWS = {
     "dwmapi.dll", "wevtapi.dll", "msimg32.dll", "usp10.dll", "virtdisk.dll", "fltlib.dll", "msacm32.dll",
     "dsound.dll", "comsvcs.dll", "mfcore.dll", "mfsensorgroup.dll", "d3dcompiler_47.dll", "api-ms-win-core-synch-l1-2-0.dll",
     "nvcuda.dll", "opencl.dll",          # optional GPU paths, loaded only if present
+    # core OS components (System32 on every Windows 10 1809+ / 11 install)
+    "bcryptprimitives.dll", "combase.dll", "imagehlp.dll", "avicap32.dll", "uiautomationcore.dll",
+    "icuuc.dll", "icuin.dll", "icu.dll",
 }
 
 
