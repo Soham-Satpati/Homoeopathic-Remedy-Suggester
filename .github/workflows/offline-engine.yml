@@ -43,4 +43,13 @@ jobs:
         run: python scripts/fetch_models.py --dest ../models
 
       - name: Parity and offline tests (including real-model parity)
-        run: python -m pytest -q -rs
+        shell: bash
+        run: |
+          set +e
+          python -m pytest -q -rfEs --tb=short -p no:cacheprovider 2>&1 | tee pytest.log
+          status=${PIPESTATUS[0]}
+          # surface failures as annotations (job logs aren't always reachable)
+          grep -E "^(FAILED|ERROR) " pytest.log | head -15 | sed 's/^/::error title=test::/'
+          grep -E "^E  " pytest.log | head -15 | sed 's/^/::error title=detail::/'
+          tail -1 pytest.log | sed 's/^/::notice title=summary::/'
+          exit $status
