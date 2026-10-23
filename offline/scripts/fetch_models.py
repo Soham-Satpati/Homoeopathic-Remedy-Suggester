@@ -76,13 +76,19 @@ def sha256(path: Path) -> str:
 
 
 # ── Hugging Face downloads ───────────────────────────────────────────────────
-def fetch_embedding(dest: Path) -> dict:
+def fetch_embedding(dest: Path, fmt: str = "both") -> dict:
+    """``fmt``: "onnx" (what the installed app uses, no PyTorch weights) or "both"."""
     from huggingface_hub import snapshot_download
     target = dest / EMBEDDING_MODEL_DIRNAME
+    patterns = ["*.json", "*.txt", "1_Pooling/*", "onnx/model.onnx"]
+    if fmt == "both":
+        patterns.append("model.safetensors")
+    elif (target / "model.safetensors").exists():
+        (target / "model.safetensors").unlink()
     snapshot_download(repo_id=EMBEDDING_MODEL_ID, revision=EMBEDDING_REVISION, local_dir=str(target),
-                      allow_patterns=["*.json", "*.txt", "model.safetensors", "1_Pooling/*",
-                                      "onnx/model.onnx"])
-    return {"id": EMBEDDING_MODEL_ID, "revision": EMBEDDING_REVISION, "dir": EMBEDDING_MODEL_DIRNAME}
+                      allow_patterns=patterns)
+    return {"id": EMBEDDING_MODEL_ID, "revision": EMBEDDING_REVISION, "dir": EMBEDDING_MODEL_DIRNAME,
+            "format": fmt}
 
 
 def fetch_llm(dest: Path, key: str) -> dict:
@@ -181,10 +187,13 @@ def write_manifest(dest: Path, parts: dict) -> dict:
     if (dest / "manifest.json").exists():
         old = json.loads((dest / "manifest.json").read_text())
     manifest = {**{k: v for k, v in old.items() if k != "files"}, **parts}
+    for k in ("llm", "llama_server", "whisper"):
+        if k in manifest and k not in parts and not (dest / manifest[k].get("dir", manifest[k].get("file", "-"))).exists():
+            manifest.pop(k)
     manifest["files"] = {str(p.relative_to(dest)).replace(os.sep, "/"): sha256(p)
                          for p in sorted(dest.rglob("*"))
                          if p.is_file() and p.name not in (".gitattributes", "README.md", "manifest.json")
-                         and ".cache" not in p.parts}
+                         and ".cache" not in p.parts and not p.parts[len(dest.parts)].startswith("_")}
     (dest / "manifest.json").write_text(json.dumps(manifest, indent=2))
     return manifest
 
@@ -214,10 +223,11 @@ def main() -> None:
     ap.add_argument("--no-llm", action="store_true", help="skip the language model and llama-server")
     ap.add_argument("--no-whisper", action="store_true")
     ap.add_argument("--platform", default=_platform(), choices=sorted(LLAMA_ASSET))
+    ap.add_argument("--embedding", default="both", choices=["both", "onnx"])
     args = ap.parse_args()
     args.dest.mkdir(parents=True, exist_ok=True)
 
-    parts = {"embedding": fetch_embedding(args.dest)}
+    parts = {"embedding": fetch_embedding(args.dest, args.embedding)}
     if not args.no_llm:
         parts["llm"] = fetch_llm(args.dest, args.llm)
         parts["llama_server"] = fetch_llama_server(args.dest, args.platform)

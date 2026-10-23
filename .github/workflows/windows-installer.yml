@@ -1,0 +1,146 @@
+name: Windows installer
+
+# Builds, tests and (on a version tag) publishes the HoRUS Offline installer for Windows.
+#   push to horus-offline      → build + every check, no release
+#   push tag offline-v*        → build + every check + GitHub release with the installer
+on:
+  push:
+    branches: [horus-offline]
+    tags: ["offline-v*"]
+    paths: ["offline/**", ".github/workflows/windows-installer.yml", "*.pkl", "*.json", "*.csv"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  HORUS_LLM: qwen3.5-4b
+  PYTHONIOENCODING: utf-8
+  PYTHONUTF8: "1"
+  GITHUB_TOKEN: ${{ github.token }}
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install build dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e "offline[test]" PySide6-Essentials PySide6-Addons onnxruntime tokenizers `
+            faster-whisper huggingface_hub qrcode pyinstaller
+
+      - name: Version
+        id: ver
+        shell: bash
+        run: |
+          if [[ "$GITHUB_REF" == refs/tags/offline-v* ]]; then v="${GITHUB_REF#refs/tags/offline-v}"; else v="1.0.0"; fi
+          echo "version=$v" >> "$GITHUB_OUTPUT"
+          echo "::notice title=version::$v"
+
+      - name: Cache models
+        uses: actions/cache@v4
+        with:
+          path: models
+          key: models-win-${{ env.HORUS_LLM }}-${{ hashFiles('offline/scripts/fetch_models.py') }}
+
+      - name: Fetch models (ONNX embeddings, language model, llama.cpp server, Whisper)
+        shell: bash
+        run: |
+          set +e
+          python offline/scripts/fetch_models.py --dest models --llm "$HORUS_LLM" --embedding onnx 2>&1 | tee fetch.log
+          s=${PIPESTATUS[0]}
+          grep -E "^llama.cpp |^Wrote " fetch.log | sed 's/^/::notice title=models::/'
+          [ $s -ne 0 ] && tail -6 fetch.log | sed 's/^/::error title=fetch::/'
+          exit $s
+
+      - name: Engine, store and app tests
+        working-directory: offline
+        shell: bash
+        run: |
+          set +e
+          python -m pytest -q -rfEs --tb=short -p no:cacheprovider 2>&1 | tee pytest.log
+          s=${PIPESTATUS[0]}
+          grep -E "^(FAILED|ERROR) " pytest.log | head -15 | sed 's/^/::error title=test::/'
+          grep -E "^E  " pytest.log | head -10 | sed 's/^/::error title=detail::/'
+          tail -1 pytest.log | sed 's/^/::notice title=tests::/'
+          exit $s
+
+      - name: Window test from source
+        shell: bash
+        run: |
+          python offline/HoRUS.py --gui-smoke gs-src; s=$?
+          python -c "import json;d=json.load(open('gs-src/guismoke.json'));print('::notice title=window (source)::'+str(d.get('detail')))" || true
+          exit $s
+
+      - name: Build HoRUS.exe
+        shell: bash
+        run: |
+          set +e
+          python offline/packaging/build_app.py --models models 2>&1 | tee build.log
+          s=${PIPESTATUS[0]}
+          grep -E "^Built " build.log | sed 's/^/::notice title=build::/'
+          [ $s -ne 0 ] && grep -iE "error|exception" build.log | tail -10 | sed 's/^/::error title=build::/'
+          exit $s
+
+      - name: Self-test the .exe (AI required)
+        shell: pwsh
+        run: |
+          $p = Start-Process "dist\HoRUS\HoRUS.exe" -ArgumentList "--selftest","$pwd\st-exe","--require-ai" -Wait -PassThru
+          python offline/packaging/report_selftest.py st-exe/selftest.json "exe"
+          if ($p.ExitCode -ne 0) { exit 1 }
+
+      - name: Build installer (Inno Setup)
+        shell: pwsh
+        run: |
+          $iscc = "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe"
+          if (-not (Test-Path $iscc)) { choco install innosetup -y --no-progress | Out-Null }
+          & $iscc offline\packaging\horus.iss "/DAppVersion=${{ steps.ver.outputs.version }}" `
+            "/DSourceDir=$pwd\dist\HoRUS" "/DOutputDir=$pwd\installer"
+          if ($LASTEXITCODE -ne 0) { exit 1 }
+          Get-ChildItem installer | ForEach-Object { "::notice title=installer::$($_.Name) $([math]::Round($_.Length/1MB)) MB" }
+
+      - name: Install silently, test the installed app, uninstall
+        shell: pwsh
+        run: |
+          $dir = "C:\HoRUS-install-test"
+          $p = Start-Process "installer\HoRUS-Setup.exe" -ArgumentList "/VERYSILENT","/SUPPRESSMSGBOXES","/NORESTART","/CURRENTUSER","/DIR=$dir" -Wait -PassThru
+          if ($p.ExitCode -ne 0 -or -not (Test-Path "$dir\HoRUS.exe")) { "::error title=install::installer exit $($p.ExitCode)"; exit 1 }
+          $p = Start-Process "$dir\HoRUS.exe" -ArgumentList "--selftest","$pwd\st-installed","--require-ai" -Wait -PassThru
+          python offline/packaging/report_selftest.py st-installed/selftest.json "installed"
+          if ($p.ExitCode -ne 0) { exit 1 }
+          $p = Start-Process "$dir\HoRUS.exe" -ArgumentList "--gui-smoke","$pwd\gs-installed" -Wait -PassThru
+          $g = Get-Content gs-installed\guismoke.json -Raw | ConvertFrom-Json
+          "::notice title=window (installed)::$($g.detail)"
+          if ($p.ExitCode -ne 0) { exit 1 }
+          New-Item -ItemType Directory -Force "$env:LOCALAPPDATA\HoRUS\data" | Out-Null
+          Set-Content "$env:LOCALAPPDATA\HoRUS\data\keep-me.txt" "patient data must survive uninstall"
+          $p = Start-Process "$dir\unins000.exe" -ArgumentList "/VERYSILENT","/SUPPRESSMSGBOXES" -Wait -PassThru
+          Start-Sleep -Seconds 5
+          if (Test-Path "$dir\HoRUS.exe") { "::error title=uninstall::app still present"; exit 1 }
+          if (-not (Test-Path "$env:LOCALAPPDATA\HoRUS\data\keep-me.txt")) { "::error title=uninstall::user data was removed"; exit 1 }
+          "::notice title=uninstall::app removed, patient data kept"
+
+      - name: Checksums
+        shell: bash
+        run: |
+          cd installer && sha256sum * > SHA256SUMS.txt && cat SHA256SUMS.txt | sed 's/^/::notice title=sha256::/'
+
+      - name: Publish release
+        if: startsWith(github.ref, 'refs/tags/offline-v')
+        uses: softprops/action-gh-release@v2
+        with:
+          name: HoRUS Offline ${{ steps.ver.outputs.version }} for Windows
+          make_latest: true
+          files: |
+            installer/HoRUS-Setup.exe
+            installer/HoRUS-Setup-*.bin
+            installer/SHA256SUMS.txt
+          body_path: offline/packaging/RELEASE_NOTES.md

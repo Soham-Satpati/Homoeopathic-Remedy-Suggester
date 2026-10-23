@@ -1,0 +1,17 @@
+HoRUS runs entirely on this computer. Nothing is sent over the internet.
+
+What gets installed
+  - The HoRUS app
+  - The remedy dataset
+  - Offline AI models: a language model for reading cases and writing explanations,
+    a speech model for dictation, and a symptom-matching model (about 4 GB in total)
+
+Requirements
+  - Windows 10 (1809) or Windows 11, 64-bit
+  - 8 GB RAM recommended (4 GB works with the AI switched off)
+  - About 6 GB of free disk space
+
+Patient records are kept encrypted in your Windows user profile and are not removed if
+HoRUS is uninstalled. Back them up from Settings -> Backups.
+
+For clinical reference only. Prescribing decisions rest with the practitioner.
