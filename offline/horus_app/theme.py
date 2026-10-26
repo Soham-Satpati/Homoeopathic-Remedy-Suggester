@@ -17,7 +17,7 @@ WARN_SOFT = "#fffbeb"
 OK = "#15803d"
 OK_SOFT = "#f0fdf4"
 
-QSS = f"""
+_QSS = f"""
 * {{ font-family: "Segoe UI", "Inter", sans-serif; font-size: 10.5pt; color: {INK}; }}
 QMainWindow, QDialog, QWidget#page {{ background: {BG}; }}
 QLabel#h1 {{ font-size: 18pt; font-weight: 600; }}
@@ -56,6 +56,17 @@ QProgressBar {{ border: 1px solid {BORDER}; border-radius: 5px; background: {SUR
     text-align: center; }}
 QProgressBar::chunk {{ background: {ACCENT}; border-radius: 4px; }}
 QStatusBar {{ background: #eef2f7; color: {MUTED}; }}
+QCheckBox {{ spacing: 8px; background: transparent; }}
+QCheckBox::indicator, QTableView::indicator, QListView::indicator {{ width: 18px; height: 18px;
+    border: 2px solid #64748b; border-radius: 4px; background: {SURFACE}; }}
+QCheckBox::indicator:hover, QTableView::indicator:hover {{ border-color: {ACCENT}; }}
+QCheckBox::indicator:checked, QTableView::indicator:checked, QListView::indicator:checked {{
+    background: {ACCENT}; border-color: {ACCENT}; image: url(__CHECK__); }}
+QCheckBox::indicator:disabled {{ border-color: #cbd5e1; background: #f1f5f9; }}
+QSplitter::handle {{ background: {BORDER}; }}
+QSplitter::handle:hover {{ background: #93c5fd; }}
+QSplitter::handle:horizontal {{ width: 6px; }}
+QSplitter::handle:vertical {{ height: 6px; }}
 QToolTip {{ background: {INK}; color: white; border: none; padding: 5px; }}
 """
 
@@ -71,3 +82,14 @@ h2 {{ font-size: 11.5pt; color: #1e3a8a; margin: 16px 0 6px 0; }}
 td {{ padding: 3px 8px 3px 0; vertical-align: top; }}
 th {{ text-align: left; padding: 4px 8px 4px 0; border-bottom: 1px solid {BORDER}; }}
 """
+
+
+def _asset(name: str) -> str:
+    import sys
+    from pathlib import Path
+    base = Path(getattr(sys, "_MEIPASS", "")) / "horus_app" / "assets" if getattr(sys, "frozen", False) \
+        else Path(__file__).resolve().parent / "assets"
+    return (base / name).as_posix()
+
+
+QSS = _QSS.replace("__CHECK__", _asset("check.svg"))

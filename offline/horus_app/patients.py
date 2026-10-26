@@ -159,7 +159,10 @@ class PatientDialog(QDialog):
             cw = QWidget()
             cl = QVBoxLayout(cw)
             cl.addWidget(split, 1)
-            cl.addLayout(row(None, button("Save PDF of this case…", slot=self._case_pdf)))
+            del_case = button("Delete this case…", danger=True, slot=self._delete_case)
+            del_case.setVisible(s.user.can("patients.delete"))
+            cl.addLayout(row(del_case, None, button("Save PDF of this case…", slot=self._case_pdf)))
+            self.cases_tab_index = tabs.count()
             tabs.addTab(cw, f"Cases ({len(self.cases)})")
             if self.case_list.count():
                 self.case_list.setCurrentRow(0)
@@ -237,6 +240,24 @@ class PatientDialog(QDialog):
                 self.ctx.session.audit("pdf.exported", self.pid)
             except Exception as e:
                 error(self, "PDF not saved", str(e))
+
+    def _delete_case(self):
+        c = self._case()
+        if not c:
+            return
+        if not confirm(self, "Delete case",
+                       f"Permanently delete the case of {fmt_ts(c['timestamp'])}?\n\nIts symptoms and remedies "
+                       "are also removed from the learned clusters and remedy weights.", "Delete", danger=True):
+            return
+        try:
+            self.ctx.session.delete_case(c["id"])
+        except Exception as e:
+            return error(self, "Not deleted", str(e))
+        self.cases = [x for x in self.cases if x["id"] != c["id"]]
+        self.case_list.takeItem(self.case_list.currentRow())
+        if not self.case_list.count():
+            self.case_view.setHtml("<p>No cases.</p>")
+        self.ctx.refresh_learning()
 
     def _new_case(self):
         self.new_case.emit(self.pid)

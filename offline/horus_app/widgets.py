@@ -195,3 +195,36 @@ def report_html(report: dict, cat: dict, title: str = "", show_evidence: int = 5
         out.append("<p class='muted'>Filtered from AI text: " + esc("; ".join(report["_removed"])) + "</p>")
     out.append("</body></html>")
     return "".join(out)
+
+
+# ── checkbox cells ───────────────────────────────────────────────────────────
+def check_cell(checked: bool = False, tooltip: str = "", on_toggle=None):
+    """A real, centred QCheckBox for a table cell (item check indicators can be invisible
+    under some Windows styles). Returns (cell widget, checkbox)."""
+    from PySide6.QtWidgets import QCheckBox
+    w = QWidget()
+    lay = QHBoxLayout(w)
+    lay.setContentsMargins(0, 0, 0, 0)
+    lay.setAlignment(Qt.AlignCenter)
+    cb = QCheckBox()
+    cb.setChecked(checked)
+    cb.setCursor(Qt.PointingHandCursor)
+    if tooltip:
+        cb.setToolTip(tooltip)
+        w.setToolTip(tooltip)
+    if on_toggle:
+        cb.toggled.connect(on_toggle)
+    lay.addWidget(cb)
+    w.checkbox = cb
+    return w, cb
+
+
+def cell_checked(table, row: int, col: int = 0) -> bool:
+    w = table.cellWidget(row, col)
+    return bool(w is not None and getattr(w, "checkbox", None) is not None and w.checkbox.isChecked())
+
+
+def set_cell_checked(table, row: int, checked: bool, col: int = 0) -> None:
+    w = table.cellWidget(row, col)
+    if w is not None and getattr(w, "checkbox", None) is not None:
+        w.checkbox.setChecked(checked)

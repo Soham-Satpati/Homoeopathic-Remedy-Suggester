@@ -17,7 +17,8 @@ from horus.parsing import SYMPTOM_GROUPS
 
 from .context import AppContext, run_job
 from .voice import DictateButton
-from .widgets import Busy, button, card, error, esc, label, page, report_html, row
+from .widgets import (Busy, button, card, cell_checked, check_cell, error, esc, label, page, report_html,
+                      row)
 
 GROUP_LABEL = {"psychological": "Mind", "general": "General", "physical": "Physical"}
 MODES = [("case_studies", "Classical totality (causation → mind → generals → particulars)"),
@@ -52,12 +53,10 @@ class SymptomTable(QTableWidget):
         sym = sym or {"symptom": "", "worse": [], "better": []}
         r = self.rowCount()
         self.insertRow(r)
-        use = QTableWidgetItem()
-        use.setFlags(Qt.ItemIsUserCheckable | Qt.ItemIsEnabled)
-        use.setCheckState(Qt.Unchecked if sym.get("unverified") else Qt.Checked)
-        if sym.get("unverified"):
-            use.setToolTip("Not found in the patient's words — tick to use it anyway.")
-        self.setItem(r, 0, use)
+        cell, _cb = check_cell(not sym.get("unverified"),
+                               "Not found in the patient's words — tick to use it anyway."
+                               if sym.get("unverified") else "Untick to leave this symptom out of the ranking.")
+        self.setCellWidget(r, 0, cell)
         combo = QComboBox()
         for g in ("psychological", "general", "physical"):
             combo.addItem(GROUP_LABEL[g], g)
@@ -87,7 +86,7 @@ class SymptomTable(QTableWidget):
                 continue
             s = {"symptom": text, "worse": _split(self.item(r, 3).text() if self.item(r, 3) else ""),
                  "better": _split(self.item(r, 4).text() if self.item(r, 4) else "")}
-            if self.item(r, 0).checkState() != Qt.Checked:
+            if not cell_checked(self, r):
                 s["unverified"] = True
             out[self.cellWidget(r, 1).currentData()].append(s)
         return out
@@ -436,7 +435,8 @@ class CaseFlow(QWidget):
         self._save_case()
 
     def _save_case(self):
-        """Saved on reaching the report, as the demo did; re-analysing saves a new version."""
+        """Saved on reaching the report, as the demo did. Editing the symptoms and analysing again
+        updates the same case, so one consultation is never counted twice in the learned clusters."""
         s = self.ctx.session
         details = self._patient_details()
         try:
@@ -451,12 +451,19 @@ class CaseFlow(QWidget):
                     s.save_patient_details(pid, {**current, **{k: v for k, v in details.items() if v}})
             top = [r["name"] for r in self.report.get("top10Remedies", [])] or \
                   [self.report.get("primaryRemedy", {}).get("name", "")]
-            self.case_id = s.add_case(pid, {
+            payload = {
                 "raw_symptoms": self.raw, "categorised": self.cat, "top_remedies": top,
                 "clinical_notes": self.report.get("caseEssence", ""), "patient_details": details,
                 "analysis_mode": self.mode.currentData(), "report": self.report,
                 "ai_model": getattr(self.ctx.llm, "name", None) if self.ctx.ai_ready else None,
-            })
+                **self._decision_record(),
+            }
+            if self.case_id is not None and getattr(self, "current_pid", None) == pid:
+                s.update_case(self.case_id, payload)
+                verb = "Updated"
+            else:
+                self.case_id = s.add_case(pid, payload)
+                verb = "Saved to"
             if self.intake_id:
                 s.mark_intake(self.intake_id, "reviewed")
                 self.intake_id = None
@@ -464,10 +471,14 @@ class CaseFlow(QWidget):
             self.rp_saved.setText("⚠ Not saved")
             return error(self, "Case not saved", str(e))
         self.current_pid = pid
-        self.rp_saved.setText(f"✓ Saved to {pid} · {datetime.now():%H:%M}")
+        self.rp_saved.setText(f"✓ {verb} {pid} · {datetime.now():%H:%M}")
         self.refresh_patients(select=pid)
         self.ctx.refresh_learning()
         self.saved.emit(pid)
+
+    def _decision_record(self) -> dict:
+        """Which books and weights produced this ranking (filled in by the books feature)."""
+        return {}
 
     def _pdf_name(self, suffix=""):
         pid = getattr(self, "current_pid", "case")
@@ -495,15 +506,22 @@ class CaseFlow(QWidget):
         v.addWidget(label("Symptoms that often occur with this case", "h1"))
         v.addWidget(label("From the symptom co-occurrence clusters. Ask the patient about these; tick the ones "
                           "they confirm, add their modalities, then compare the two analyses.", "muted"))
+        self.sg_learned = label("", "muted")
+        v.addWidget(self.sg_learned)
         split = QSplitter(Qt.Vertical)
         self.sg_table = QTableWidget(0, 6)
         self.sg_table.setHorizontalHeaderLabels(["Confirmed", "Symptom", "Likelihood", "Linked to",
                                                  "Worse from", "Better from"])
         h = self.sg_table.horizontalHeader()
         h.setSectionResizeMode(1, QHeaderView.Stretch)
-        for c in (0, 2):
+        for c in (0, 2, 3):
             h.setSectionResizeMode(c, QHeaderView.ResizeToContents)
+        for c in (4, 5):
+            h.setSectionResizeMode(c, QHeaderView.Interactive)
+            self.sg_table.setColumnWidth(c, 170)
         self.sg_table.verticalHeader().setVisible(False)
+        self.sg_table.setToolTip("Tick what the patient confirms. Type modalities into “Worse from” / "
+                                 "“Better from” (comma-separated) — double-click a cell to edit.")
         split.addWidget(self.sg_table)
         res = QWidget()
         rl = QVBoxLayout(res)
@@ -513,6 +531,7 @@ class CaseFlow(QWidget):
         rl.addWidget(self.cmp_summary)
         two = QSplitter(Qt.Horizontal)
         self.cmp_base, self.cmp_enh = QTextBrowser(), QTextBrowser()
+        self._cmp_placeholders()
         two.addWidget(self.cmp_base)
         two.addWidget(self.cmp_enh)
         rl.addWidget(two, 1)
@@ -520,13 +539,33 @@ class CaseFlow(QWidget):
         split.setSizes([260, 420])
         v.addWidget(split, 1)
         self.cmp_busy = Busy()
+        self.cmp_count = label("No symptoms ticked yet", "muted")
         self.cmp_pdf = button("Save comparative PDF…", slot=self._save_cmp_pdf)
         self.cmp_pdf.setEnabled(False)
+        self.cmp_go = button("Compare analyses", primary=True, slot=self._compare)
+        self.cmp_go.setEnabled(False)
         v.addLayout(row(button("← Back to report", slot=lambda: self.steps.setCurrentIndex(2)), self.cmp_busy,
-                        None, self.cmp_pdf, button("Compare analyses", primary=True, slot=self._compare)))
+                        self.cmp_count, None, self.cmp_pdf, self.cmp_go))
         return w
 
+    def _cmp_placeholders(self):
+        hint = ("<p style='color:#64748b;margin:18px'>{}</p>")
+        self.cmp_base.setHtml(hint.format("<b>A. Original symptoms</b><br>The analysis of the case as entered "
+                                          "appears here after you press <b>Compare analyses</b>."))
+        self.cmp_enh.setHtml(hint.format("<b>B. With confirmed suggestions</b><br>Tick the symptoms the patient "
+                                         "confirms above, then press <b>Compare analyses</b> to see how the "
+                                         "ranking changes."))
+
+    def _update_selected_count(self):
+        n = sum(cell_checked(self.sg_table, r) for r in range(self.sg_table.rowCount()))
+        self.cmp_count.setText(f"{n} symptom(s) ticked" if n else "No symptoms ticked yet")
+        self.cmp_go.setEnabled(n > 0)
+
     def _open_suggestions(self):
+        self.ctx.refresh_learning()
+        n = self.ctx.engine.learned_cases
+        self.sg_learned.setText(f"Clusters are updated with {n} saved case(s) from this clinic." if n else
+                                "No saved cases yet — suggestions come from the books alone.")
         per, top = self.ctx.engine.suggestions(self.cat, top_n=10)
         seen, rows = set(), []
         for x in top:
@@ -541,10 +580,9 @@ class CaseFlow(QWidget):
         for sym, p, trig in rows:
             r = self.sg_table.rowCount()
             self.sg_table.insertRow(r)
-            chk = QTableWidgetItem()
-            chk.setFlags(Qt.ItemIsUserCheckable | Qt.ItemIsEnabled)
-            chk.setCheckState(Qt.Unchecked)
-            self.sg_table.setItem(r, 0, chk)
+            cell, _cb = check_cell(False, "Tick if the patient confirms this symptom.",
+                                   on_toggle=lambda _on: self._update_selected_count())
+            self.sg_table.setCellWidget(r, 0, cell)
             for c, val in ((1, sym), (2, f"{p:.0%}"), (3, trig)):
                 it = QTableWidgetItem(str(val))
                 it.setFlags(Qt.ItemIsEnabled | Qt.ItemIsSelectable)
@@ -557,16 +595,16 @@ class CaseFlow(QWidget):
             error(self, "No suggestions", "No co-occurrence data matched these symptoms. Suggestions appear when "
                   "symptoms are worded like the dataset.")
             return
-        self.cmp_base.clear()
-        self.cmp_enh.clear()
+        self._cmp_placeholders()
         self.cmp_summary.hide()
         self.cmp_pdf.setEnabled(False)
+        self._update_selected_count()
         self.steps.setCurrentIndex(3)
 
     def _compare(self):
         selected = {}
         for r in range(self.sg_table.rowCount()):
-            if self.sg_table.item(r, 0).checkState() == Qt.Checked:
+            if cell_checked(self.sg_table, r):
                 selected[self.sg_table.item(r, 1).text()] = {
                     "worse": _split(self.sg_table.item(r, 4).text()),
                     "better": _split(self.sg_table.item(r, 5).text()),

@@ -676,6 +676,18 @@ class Session:
                               (self.sealer.seal(payload, f"cases:{case_id}"), case_id))
         self.audit("case.updated", r["patient_id"], f"case={case_id}")
 
+    def delete_case(self, case_id: int) -> str | None:
+        """Permanently delete one case. Returns its patient id (None if it did not exist)."""
+        self.require("patients.delete")
+        with self._tx():
+            r = self._con.execute("SELECT patient_id FROM cases WHERE id = ?", (case_id,)).fetchone()
+            if r is None:
+                return None
+            self._con.execute("DELETE FROM cases WHERE id = ?", (case_id,))
+            self._con.execute("UPDATE patients SET updated_at = ? WHERE id = ?", (_now(), r["patient_id"]))
+        self.audit("case.deleted", r["patient_id"], f"case={case_id}")
+        return r["patient_id"]
+
     def list_cases(self, pid: str) -> list[dict]:
         self.require("cases.read")
         rows = self._con.execute("SELECT c.*, u.display_name AS author FROM cases c LEFT JOIN users u "

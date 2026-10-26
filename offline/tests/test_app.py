@@ -127,8 +127,9 @@ def test_kiosk_intake_to_case(ctx, dialogs):
     cf.st_table.add("psychological", {"symptom": "fear of ghosts", "worse": [], "better": []})
     cf._read_case()
     # verified against the intake words: the invented symptom is flagged, the others are not
-    rows = {cf.rv_table.item(r, 2).text(): cf.rv_table.item(r, 0).checkState() for r in range(cf.rv_table.rowCount())}
-    assert rows["fear of ghosts"] == Qt.Unchecked and rows["very chilly"] == Qt.Checked
+    from horus_app.widgets import cell_checked
+    rows = {cf.rv_table.item(r, 2).text(): cell_checked(cf.rv_table, r) for r in range(cf.rv_table.rowCount())}
+    assert rows["fear of ghosts"] is False and rows["very chilly"] is True
     cf._analyse()
     wait(lambda: cf.steps.currentIndex() == 2)
     assert cf.rp_saved.text().startswith("✓")
@@ -221,4 +222,63 @@ def test_report_appears_instantly_then_ai_explanations_fill_in(ctx):
     saved = ctx.session.list_cases(pid)[0]["report"]
     assert saved["_removed"]                                    # filters ran on the AI text
     assert saved["top10Remedies"][0]["name"] == cf.report["top10Remedies"][0]["name"]   # ranking unchanged
+    win.close()
+
+
+def test_suggestion_checkboxes_are_real_and_drive_comparison(ctx):
+    """Regression: the Confirmed column had no visible checkboxes on Windows."""
+    from PySide6.QtWidgets import QCheckBox
+    from horus_app.widgets import cell_checked, set_cell_checked
+    win = _signed_in(ctx)
+    cf = win.case
+    cf.reset()
+    cf.pt_name.setText("Throat Patient")
+    cf.tabs.setCurrentIndex(1)
+    cf.st_table.add("physical", {"symptom": "sore throat", "worse": [], "better": []})
+    cf._read_case()
+    # the review table uses real checkboxes too
+    assert isinstance(cf.rv_table.cellWidget(0, 0).checkbox, QCheckBox) and cell_checked(cf.rv_table, 0)
+    cf._analyse()
+    wait(lambda: cf.steps.currentIndex() == 2)
+    cf._open_suggestions()
+    assert cf.steps.currentIndex() == 3 and cf.sg_table.rowCount() > 0
+    for r in range(cf.sg_table.rowCount()):
+        cb = cf.sg_table.cellWidget(r, 0).checkbox
+        assert isinstance(cb, QCheckBox) and cb.isVisibleTo(cf) and not cb.isChecked()
+    assert not cf.cmp_go.isEnabled()                       # nothing ticked → can't compare
+    set_cell_checked(cf.sg_table, 0, True)
+    cf.sg_table.item(0, 4).setText("night, cold")
+    assert cf.cmp_go.isEnabled() and "1 symptom" in cf.cmp_count.text()
+    cf._compare()
+    wait(lambda: cf.cmp_pdf.isEnabled())
+    added = cf._cmp[1]
+    assert len(added) == 1 and added[0]["worse"] == ["night", "cold"]
+    assert "B. With confirmed suggestions" in cf.cmp_enh.toPlainText()
+    win.close()
+
+
+def test_reanalysis_updates_same_case_and_delete_case_relearns(ctx):
+    win = _signed_in(ctx)
+    cf = win.case
+    cf.reset()
+    cf.pt_name.setText("Twice Patient")
+    cf.tabs.setCurrentIndex(1)
+    cf.st_table.add("physical", {"symptom": "zz unique learning symptom", "worse": [], "better": []})
+    cf._read_case()
+    cf._analyse()
+    wait(lambda: cf.steps.currentIndex() == 2)
+    pid = cf.current_pid
+    cf.steps.setCurrentIndex(1)                                  # "← Edit symptoms" and analyse again
+    cf.rv_table.add("general", {"symptom": "chilly", "worse": [], "better": []})
+    cf._analyse()
+    wait(lambda: cf.rp_saved.text().startswith("✓ Updated"))
+    cases = ctx.session.list_cases(pid)
+    assert len(cases) == 1 and ctx.engine.learned_cases == 1      # one consultation counted once
+    assert "chilly" in [s["symptom"] for s in cases[0]["categorised"]["general"]]
+
+    from horus_app.patients import PatientDialog
+    dlg = PatientDialog(ctx, pid)
+    dlg._delete_case()                                           # confirm() is auto-accepted in tests
+    assert ctx.session.list_cases(pid) == [] and ctx.engine.learned_cases == 0
+    assert "zz unique learning symptom" not in ctx.engine.dataset.s2r
     win.close()

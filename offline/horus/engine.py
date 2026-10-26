@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import copy
 import logging
+import threading
 from datetime import datetime
 from typing import Mapping
 
@@ -48,6 +49,7 @@ class HorusEngine:
         self._base: Dataset = load_base_dataset(paths)
         self._live: Dataset = self._base
         self._payload: tuple = ()
+        self._learn_lock = threading.RLock()
         self._cp_base = _UNSET
         self._cp_key = _UNSET
         self._cp_index: SymptomIndex | None = None
@@ -79,10 +81,11 @@ class HorusEngine:
         implicitly by re-reading GitHub on every render.
         """
         payload = learning_payload(patients)
-        if payload == self._payload:
-            return
-        self._payload = payload
-        self._live = build_live_dataset(self._base, payload)
+        with self._learn_lock:
+            if payload == self._payload:
+                return
+            self._payload = payload
+            self._live = build_live_dataset(self._base, payload)
 
     def check_symptoms(self, symptoms: list) -> tuple:
         return check_symptoms_against_dataset(self._live, symptoms)
@@ -162,14 +165,20 @@ class HorusEngine:
             return ""
 
     # ── symptom suggestions (co-occurrence) ──────────────────────────────
+    @property
+    def learned_cases(self) -> int:
+        return len(self._payload)
+
     def _suggestion_index(self) -> SymptomIndex | None:
         if self._cp_base is _UNSET:
             self._cp_base = load_conditional_probabilities(self.paths)
-        if self._cp_key is _UNSET or self._cp_key != self._payload:
-            cp = build_live_conditional_probabilities(self._cp_base, self._payload)
-            self._cp_index = SymptomIndex(cp) if cp is not None else None
-            self._cp_key = self._payload
-        return self._cp_index
+        with self._learn_lock:
+            payload = self._payload
+            if self._cp_key is _UNSET or self._cp_key != payload:
+                cp = build_live_conditional_probabilities(self._cp_base, payload)
+                self._cp_index = SymptomIndex(cp) if cp is not None else None
+                self._cp_key = payload
+            return self._cp_index
 
     def suggestions(self, categorised: dict, top_n: int = 10) -> tuple[dict, list]:
         """(per-symptom suggestions, global top suggestions) for the case's symptoms."""
