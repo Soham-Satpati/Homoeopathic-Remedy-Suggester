@@ -1,5 +1,11 @@
 ## HoRUS Offline for Windows
 
+### New in 1.3
+
+- **Fixed: HoRUS froze while adding a large book.** Building the symptom clusters for a book of ~18,000 symptoms kept the app busy for about a minute. Books are now added in a separate background process, so the window stays responsive (measured: the app never pauses for more than a fraction of a second while an 18,635-symptom book is added).
+- **Add several books at once.** *Settings → Books & weighting → Add books…* accepts multiple files. Name each book (or untick ones you don't want) and they are added one after another with an overall progress bar. A book that can't be read is reported and the others are still added.
+- **Cancel** while books are being added.
+
 ### New in 1.2
 
 - **Fixed: Settings → Books & weighting stayed on "The books are still loading" forever** if Settings was built before the books finished loading. The tab now fills itself in as soon as they're ready.

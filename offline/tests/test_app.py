@@ -370,18 +370,25 @@ def test_books_tab_fills_in_when_books_finish_loading(ctx, monkeypatch, tmp_path
     assert seen and seen[-1] == 1.0 and not win.st_bar.isVisible()
     assert [b.id for b in tab.editor.books] == ["rheumatic", "case_studies", "guiding_symptoms_1"]
 
-    # add a book: determinate progress in the tab, then it appears in the list
-    src = tmp_path / "extra.json"
+    # add several books at once (one is not a valid book): overall progress, the good one is added,
+    # the bad one is reported, and the import runs in a separate process
+    src = tmp_path / "extra_book.json"
     src.write_text(json.dumps({"remedium novum": {"mind": [
         {"symptom": f"novel symptom {i}", "labels": {"Modalities": "worse at night"}} for i in range(12)]}}))
-    monkeypatch.setattr(dec.QFileDialog, "getOpenFileName", lambda *a, **k: (str(src), ""))
-    monkeypatch.setattr(dec.QInputDialog, "getText", lambda *a, **k: ("Extra Book", True))
+    bad = tmp_path / "not_a_book.json"
+    bad.write_text(json.dumps(["just", "a", "list"]))
+    monkeypatch.setattr(dec.QFileDialog, "getOpenFileNames", lambda *a, **k: ([str(src), str(bad)], ""))
+    monkeypatch.setattr(dec.AddBooksDialog, "exec", lambda self: dec.QDialog.Accepted)
+    monkeypatch.setattr(dec.AddBooksDialog, "items", lambda self: [(src, "Extra Book"), (bad, "Broken")])
+    shown = []
+    monkeypatch.setattr(dec, "info", lambda *a, **k: shown.append(a[2]))
     values = []
     tab.prog_bar.valueChanged.connect(values.append)
     tab._add()
-    assert tab.adding and tab.prog_card.parent() is not None
+    assert tab.adding and tab.prog_card.parent() is not None and tab.cancel_btn.isVisibleTo(tab)
     wait(lambda: not tab.adding and ctx.engine_ready and hasattr(tab, "editor")
          and any(b.title == "Extra Book" for b in tab.editor.books))
+    assert shown and "Extra Book" in shown[-1] and "Broken" in shown[-1] and "Not added" in shown[-1]
     adding = values[:values.index(100) + 1]                # the import: 0 → 100 …
     assert adding == sorted(adding) and adding[0] == 0
     reindex = values[len(adding):]                         # … then indexing the new book: 0 → 100

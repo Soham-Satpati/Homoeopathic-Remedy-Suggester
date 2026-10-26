@@ -171,3 +171,38 @@ def test_book_validation(bad):
     with pytest.raises(BookFormatError):
         validate_book_data(bad)
     assert validate_book_data(BOOK) == {"remedies": 2, "entries": 25}
+
+
+def test_isolated_import_runs_in_child_and_reports_progress(paths, tmp_path):
+    import os
+    from horus.book_worker import import_book_isolated
+    p = Paths(resources=paths.resources, user=tmp_path / "user")
+    src = tmp_path / "b.json"
+    src.write_text(json.dumps(BOOK), encoding="utf-8")
+    steps = []
+    book = import_book_isolated(p, src, "Child Book", progress=lambda f, m: steps.append((f, m, os.getpid())))
+    assert book.title == "Child Book" and book.cooccurrence_path.exists()
+    assert steps and steps[-1][0] == 1.0
+    assert all(pid == os.getpid() for *_x, pid in steps)            # progress delivered in the caller
+
+
+def test_isolated_import_reports_errors_and_can_be_cancelled(paths, tmp_path):
+    from horus.book_worker import BookImportError, ImportCancelled, import_book_isolated, import_books
+    p = Paths(resources=paths.resources, user=tmp_path / "user")
+    bad = tmp_path / "bad.json"
+    bad.write_text("[1, 2]", encoding="utf-8")
+    with pytest.raises(BookImportError, match="JSON object of remedies"):
+        import_book_isolated(p, bad, "Bad")
+    big = tmp_path / "big.json"
+    big.write_text((paths.resources / "Guiding_Symptoms_of_our_Materia_Medica-I.json").read_text(encoding="utf-8"),
+                   encoding="utf-8")
+    started = []
+    with pytest.raises(ImportCancelled):
+        import_book_isolated(p, big, "Big", progress=lambda f, m: started.append(f),
+                             cancelled=lambda: bool(started))      # cancel as soon as it reports
+    assert not list((p.user / "books").glob("*")) if (p.user / "books").exists() else True
+    good = tmp_path / "good.json"
+    good.write_text(json.dumps(BOOK), encoding="utf-8")
+    res = import_books(p, [(bad, "Bad"), (good, "Good One"), (good, "Good Two")])
+    assert [b.title for b in res.added] == ["Good One", "Good Two"] and [f[0] for f in res.failed] == ["Bad"]
+    assert len({b.id for b in res.added}) == 2                      # same file twice → two distinct books

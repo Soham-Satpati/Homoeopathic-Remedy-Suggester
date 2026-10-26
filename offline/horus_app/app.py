@@ -20,7 +20,7 @@ from pathlib import Path
 if not getattr(sys, "frozen", False):
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-APP_VERSION = "1.2.0"
+APP_VERSION = "1.3.0"
 log = logging.getLogger("horus")
 
 
@@ -203,11 +203,34 @@ def selftest(out: Path, require_ai: bool) -> int:
                                                     for i in range(10)]}}
             src = tmp / "selftest_book.json"
             src.write_text(_json.dumps(book), encoding="utf-8")
-            added = import_book(paths, src, "Selftest book")      # clusters built with scikit-learn
+            from horus.book_worker import import_book_isolated
+            added = import_book_isolated(paths, src, "Selftest book")   # child process, scikit-learn
             engine.reload_books()
             return {"books": ids, "added": added.id, "clusters": added.cooccurrence_path.exists(),
                     "symptoms_all_books": len(engine.dataset.s2r)}
         check("books_and_clusters", books)
+
+        def large_book_responsive():
+            """The user's scenario: adding an 18k-symptom book must not freeze the app. Import it in the
+            background exactly as the app does, while the main thread measures its own stalls."""
+            import threading
+            from horus.book_worker import import_book_isolated
+            big = paths.resources / "Guiding_Symptoms_of_our_Materia_Medica-I.json"
+            out, worst, last = {}, [0.0], [time.time()]
+            t = threading.Thread(target=lambda: out.setdefault(
+                "book", import_book_isolated(paths, big, "Large book test")), daemon=True)
+            t0 = time.time()
+            t.start()
+            while t.is_alive():
+                time.sleep(0.05)
+                now = time.time()
+                worst[0] = max(worst[0], now - last[0])
+                last[0] = now
+            assert "book" in out, "import failed"
+            assert worst[0] < 2.0, f"main thread stalled for {worst[0]:.1f}s"
+            return {"symptoms": 18635, "seconds": round(time.time() - t0, 1),
+                    "longest_stall_s": round(worst[0], 2)}
+        check("large_book_import_responsive", large_book_responsive)
 
         def structured_case():
             cat = engine.empty_case()
@@ -309,7 +332,7 @@ def selftest(out: Path, require_ai: bool) -> int:
 
         required = ["models_intact", "embedding_model", "encrypted_store", "structured_case_report_pdf",
                     "lan_tablet_intake", "backup_restore", "books_and_clusters",
-                    "builtin_symptom_index"]
+                    "builtin_symptom_index", "large_book_import_responsive"]
         if require_ai:
             required += ["ai_case_parsing", "ai_explanations", "ai_followups", "speech_model"]
         missing = [k for k in required if not checks.get(k, {}).get("ok")]

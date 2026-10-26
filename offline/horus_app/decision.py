@@ -8,8 +8,9 @@ from PySide6.QtCore import Qt, Signal
 from PySide6.QtWidgets import (QCheckBox, QDialog, QDoubleSpinBox, QFileDialog, QGridLayout, QInputDialog,
                                QScrollArea, QVBoxLayout, QWidget)
 
+from horus.book_worker import import_books
 from horus.books import (CLASSICAL_CATEGORY_WEIGHTS, CLASSICAL_MODALITY_WEIGHT, Book, DecisionConfig,
-                         import_book, remove_book)
+                         remove_book)
 
 from .context import AppContext, run_job
 from .widgets import Busy, button, card, confirm, error, info, label, row
@@ -191,7 +192,10 @@ class BooksSettingsTab(QWidget):
         self.prog_bar = QProgressBar()
         self.prog_bar.setRange(0, 100)
         self.prog_bar.setFormat("%p%")
-        self.prog_card = card(self.prog_title, self.prog_bar, self.prog_msg)
+        self.cancel_btn = button("Cancel", slot=self._cancel)
+        self.cancel_btn.hide()
+        self._cancel_requested = False
+        self.prog_card = card(self.prog_title, self.prog_bar, self.prog_msg, row(None, self.cancel_btn))
         ctx.events.prep_progress.connect(self._prep_progress)
         ctx.events.engine_ready.connect(self._ready)
         self._build()
@@ -260,7 +264,8 @@ class BooksSettingsTab(QWidget):
         scroll.setWidget(self.editor)
         self.v.addWidget(scroll, 1)
         hidden = [b for b in self.ctx.engine.all_books if b.id in self.ctx.engine.hidden_books]
-        add_btn = button("Add a book…", slot=self._add)
+        add_btn = button("Add books…", slot=self._add)
+        add_btn.setToolTip("Add one or more books in the HoRUS JSON format")
         restore = button(f"Restore removed books ({len(hidden)})", slot=self._restore)
         restore.setVisible(bool(hidden))
         save = button("Save as clinic default", primary=True, slot=self._save)
@@ -283,39 +288,75 @@ class BooksSettingsTab(QWidget):
         if self.on_books_changed:
             self.on_books_changed()
 
-    # ── adding a book ────────────────────────────────────────────────────
+    # ── adding books ─────────────────────────────────────────────────────
     def _add(self):
+        """Pick one or more book files, name them, and import them in a separate process (the
+        window stays responsive even for very large books), with overall progress and Cancel."""
         from pathlib import Path
-        path, _ = QFileDialog.getOpenFileName(self, "Choose a book (HoRUS JSON format)", "", "JSON (*.json)")
-        if not path:
+        files, _ = QFileDialog.getOpenFileNames(self, "Choose one or more books (HoRUS JSON format)", "",
+                                                "JSON (*.json)")
+        if not files:
             return
-        title, ok = QInputDialog.getText(self, "Book title", "Name shown in HoRUS:",
-                                         text=Path(path).stem.replace("_", " "))
-        if not ok or not title.strip():
+        dlg = AddBooksDialog([Path(f) for f in files], self)
+        if dlg.exec() != QDialog.Accepted:
+            return
+        items = dlg.items()
+        if not items:
             return
         self.adding = True
-        self._show_progress(f"Adding “{title.strip()}”", 0.0, "Starting…")
+        self._cancel_requested = False
+        n = len(items)
+        self._show_progress(f"Adding {n} book{'s' if n != 1 else ''}", 0.0, "Starting…")
+        self.cancel_btn.show()
+        self.cancel_btn.setEnabled(True)
         paths = self.ctx.paths
+        isolated = getattr(self.ctx, "isolated_book_import", True)
 
-        def done(book):
+        def done(res):
             self.adding = False
+            self.cancel_btn.hide()
             self.ctx.engine.reload_books(self.ctx.engine.hidden_books)
             cfg = DecisionConfig.from_dict(self.ctx.session.decision_config())
-            if cfg.books and book.id not in cfg.books:
-                self.ctx.session.set_decision_config(replace(cfg, books=cfg.books + (book.id,)).to_dict())
+            new_ids = tuple(b.id for b in res.added if not cfg.books or b.id not in cfg.books)
+            if cfg.books and new_ids:
+                self.ctx.session.set_decision_config(replace(cfg, books=cfg.books + new_ids).to_dict())
             self.ctx.engine.set_config(clinic_config(self.ctx))
-            self.ctx.session.audit("book.added", book.id)
-            info(self, "Book added", f"“{book.title}” was added and is now used for ranking. {book.description}\n\n"
-                                     "HoRUS will now index its symptoms for matching (progress at the bottom).")
-            self._changed()                         # → main window re-prepares the books (indexing with progress)
+            for b in res.added:
+                self.ctx.session.audit("book.added", b.id)
+            lines = []
+            if res.added:
+                lines.append("Added and now used for ranking:\n" + "\n".join(
+                    f"  • {b.title} — {b.description.split(';')[0]}" for b in res.added))
+            if res.failed:
+                lines.append("Not added:\n" + "\n".join(f"  • {t}: {m}" for t, m, _d in res.failed))
+            if res.cancelled:
+                lines.append("Cancelled — the remaining books were not added.")
+            if res.added:
+                lines.append("HoRUS will now index the new symptoms for matching (progress at the bottom).")
+            if res.failed and not res.added:
+                error(self, "Books not added", "\n\n".join(lines),
+                      "\n\n".join(f"{t}\n{d}" for t, _m, d in res.failed))
+            else:
+                info(self, "Books", "\n\n".join(lines))
+            if res.added:
+                self._changed()                     # → main window re-indexes (with progress)
+            else:
+                self._build()
 
         def fail(msg, tb):
             self.adding = False
+            self.cancel_btn.hide()
             self._build()
-            error(self, "Book not added", msg, tb)
+            error(self, "Books not added", msg, tb)
 
-        run_job(lambda progress: import_book(paths, Path(path), title.strip(), progress=progress),
+        run_job(lambda progress: import_books(paths, items, progress=progress,
+                                              cancelled=lambda: self._cancel_requested, isolated=isolated),
                 done, fail, self._set_progress)
+
+    def _cancel(self):
+        self._cancel_requested = True
+        self.cancel_btn.setEnabled(False)
+        self.prog_msg.setText("Cancelling…")
 
     # ── deleting / restoring books ───────────────────────────────────────
     def _delete(self, book: Book):
@@ -364,3 +405,53 @@ def _delete_layout(layout):
             item.widget().deleteLater()
         elif item.layout() is not None:
             _delete_layout(item.layout())
+
+
+class AddBooksDialog(QDialog):
+    """Name the chosen books before importing them."""
+
+    def __init__(self, files, parent=None):
+        super().__init__(parent)
+        from PySide6.QtWidgets import QHeaderView, QTableWidget, QTableWidgetItem
+        self.setWindowTitle("Add books")
+        self.resize(760, 360)
+        v = QVBoxLayout(self)
+        v.addWidget(label(f"{len(files)} file(s) chosen. Edit the names shown in HoRUS, untick any you don't "
+                          "want, then press Add. Large books take a few minutes each; you can keep working.",
+                          "muted"))
+        self.table = QTableWidget(len(files), 3)
+        self.table.setHorizontalHeaderLabels(["Add", "Name shown in HoRUS", "File"])
+        h = self.table.horizontalHeader()
+        h.setSectionResizeMode(0, QHeaderView.ResizeToContents)
+        h.setSectionResizeMode(1, QHeaderView.Stretch)
+        h.setSectionResizeMode(2, QHeaderView.ResizeToContents)
+        self.table.verticalHeader().setVisible(False)
+        self.files = list(files)
+        for r, f in enumerate(self.files):
+            from .widgets import check_cell
+            cell, _cb = check_cell(True)
+            self.table.setCellWidget(r, 0, cell)
+            self.table.setItem(r, 1, QTableWidgetItem(f.stem.replace("_", " ").strip()))
+            n = f.stat().st_size if f.exists() else 0
+            size = f"{n / 2**20:.1f} MB" if n >= 2**20 else f"{max(1, round(n / 1024))} KB"
+            it = QTableWidgetItem(f"{f.name}  ({size})")
+            it.setFlags(Qt.ItemIsEnabled)
+            it.setToolTip(str(f))
+            self.table.setItem(r, 2, it)
+        v.addWidget(self.table, 1)
+        self.go = button(f"Add {len(files)} book{'s' if len(files) != 1 else ''}", primary=True, slot=self._ok)
+        v.addLayout(row(None, button("Cancel", slot=self.reject), self.go))
+
+    def items(self):
+        from .widgets import cell_checked
+        out = []
+        for r, f in enumerate(self.files):
+            title = (self.table.item(r, 1).text() if self.table.item(r, 1) else "").strip()
+            if cell_checked(self.table, r) and title:
+                out.append((f, title))
+        return out
+
+    def _ok(self):
+        if not self.items():
+            return error(self, "Add books", "Tick at least one book and give it a name.")
+        self.accept()
