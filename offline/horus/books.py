@@ -207,8 +207,13 @@ def slugify(text: str) -> str:
 def import_book(paths: Paths, source: Path, title: str, progress=None) -> Book:
     """Copy a book into the clinic's book folder and build its co-occurrence clusters."""
     from .clusters import build_cooccurrence
+    def report(f, m):
+        if progress:
+            progress(f, m)
+    report(0.0, "Reading the book…")
     data = json.loads(Path(source).read_text(encoding="utf-8-sig"))
     stats = validate_book_data(data)
+    report(0.03, f"{stats['remedies']} remedies, {stats['entries']:,} symptoms — building clusters…")
     base = paths.user / USER_BOOKS_DIR
     book_id = "user_" + slugify(title)
     n = 2
@@ -222,13 +227,15 @@ def import_book(paths: Paths, source: Path, title: str, progress=None) -> Book:
     tmp.mkdir(parents=True)
     try:
         shutil.copy2(source, tmp / "data.json")
-        cp = build_cooccurrence(data, progress=progress)
+        cp = build_cooccurrence(data, progress=lambda f, m: report(0.05 + 0.9 * f, m))
+        report(0.96, "Saving…")
         cp.to_csv(tmp / "cooccurrence.csv.gz", index=False, compression="gzip")
         meta = {"id": book_id, "title": title.strip() or Path(source).stem, "json": "data.json",
                 "cooccurrence": "cooccurrence.csv.gz", "description": f"{stats['remedies']} remedies, "
                 f"{stats['entries']:,} symptoms; added from {Path(source).name}", **stats}
         (tmp / "book.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")
         tmp.rename(folder)
+        report(1.0, "Book added")
     except Exception:
         shutil.rmtree(tmp, ignore_errors=True)
         raise

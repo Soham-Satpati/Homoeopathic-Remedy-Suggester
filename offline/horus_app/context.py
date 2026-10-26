@@ -32,25 +32,43 @@ DEFAULT_SETTINGS = {
 class _Signals(QObject):
     done = Signal(object)
     failed = Signal(str, str)
+    progress = Signal(float, str)
+
+
+class AppEvents(QObject):
+    """App-wide notifications any screen can listen to."""
+    prep_progress = Signal(float, str)     # loading / indexing books: fraction 0..1, message
+    engine_ready = Signal()                 # books loaded and indexed; every screen can use them
+    books_changed = Signal()                # a book was added, deleted, hidden or restored
 
 
 class Job(QRunnable):
     """Run ``fn`` on the thread pool; ``on_done``/``on_fail`` are called back on the GUI thread."""
 
-    def __init__(self, fn: Callable[[], Any], on_done: Callable[[Any], None] | None = None,
-                 on_fail: Callable[[str, str], None] | None = None):
+    def __init__(self, fn: Callable[..., Any], on_done: Callable[[Any], None] | None = None,
+                 on_fail: Callable[[str, str], None] | None = None,
+                 on_progress: Callable[[float, str], None] | None = None):
         super().__init__()
         self.fn = fn
         self.signals = _Signals()
+        self.with_progress = on_progress is not None
         if on_done:
             self.signals.done.connect(on_done)
         if on_fail:
             self.signals.failed.connect(on_fail)
+        if on_progress:
+            self.signals.progress.connect(on_progress)
         self.setAutoDelete(True)
+
+    def _progress(self, fraction: float, message: str) -> None:
+        try:
+            self.signals.progress.emit(float(fraction), str(message))
+        except RuntimeError:                                # app is shutting down
+            pass
 
     def run(self) -> None:
         try:
-            result = self.fn()
+            result = self.fn(self._progress) if self.with_progress else self.fn()
         except Exception as e:                              # reported to the GUI, logged in full
             log.exception("Background job failed")
             try:
@@ -88,8 +106,10 @@ def total_ram_gb() -> float | None:
         return None
 
 
-def run_job(fn, on_done=None, on_fail=None) -> Job:
-    job = Job(fn, on_done, on_fail)
+def run_job(fn, on_done=None, on_fail=None, on_progress=None) -> Job:
+    """Run ``fn`` in the background. With ``on_progress``, ``fn`` receives a ``progress(fraction,
+    message)`` callable and its reports arrive on the GUI thread."""
+    job = Job(fn, on_done, on_fail, on_progress)
     _ACTIVE.add(job)
     job.signals.done.connect(lambda *_: _ACTIVE.discard(job))
     job.signals.failed.connect(lambda *_: _ACTIVE.discard(job))
@@ -110,6 +130,9 @@ class AppContext:
 
     def __post_init__(self):
         self.paths.user.mkdir(parents=True, exist_ok=True)
+        self.events = AppEvents()
+        self.engine_ready = False                # True once the books are loaded and indexed
+        self.prep_state: tuple[float, str] = (0.0, "Loading books…")
         self._load_settings()
         self._discover_ai()
 

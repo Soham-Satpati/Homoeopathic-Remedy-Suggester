@@ -98,6 +98,13 @@ class MainWindow(QMainWindow):
         self.status = QStatusBar()
         self.setStatusBar(self.status)
         self.st_engine = QLabel("Loading remedy dataset…")
+        from PySide6.QtWidgets import QProgressBar
+        self.st_bar = QProgressBar()
+        self.st_bar.setRange(0, 100)
+        self.st_bar.setFixedWidth(180)
+        self.st_bar.setFormat("%p%")
+        self.st_bar.setTextVisible(True)
+        self.status.addPermanentWidget(self.st_bar)
         self.st_ai = QLabel("")
         self.st_lan = QLabel("")
         for w in (self.st_engine, self.st_ai, self.st_lan):
@@ -112,6 +119,7 @@ class MainWindow(QMainWindow):
         self.settings.restore_requested.connect(self.restore)
         self.settings.lan_toggled.connect(self.set_lan)
         self.settings.books_changed.connect(self._books_changed)
+        self.ctx.events.books_changed.connect(self._books_changed)
         self.settings.account_deleted.connect(self._account_deleted)
         self.restart_setup = False
         self.lan_event.connect(self._on_lan_event)
@@ -194,9 +202,7 @@ class MainWindow(QMainWindow):
             self._apply_clinic_config()
             self.case.refresh_capabilities()
             run_job(self.ctx.refresh_learning)
-            self.st_engine.setText("Preparing the symptom index…")
-            run_job(engine.warm_up, lambda _r: self._update_engine_status(),
-                    lambda m, _tb: self._update_engine_status())
+            self.prepare_books()
             if self.ctx.ai_ready and self.ctx.settings.get("ai_preload", True):
                 self.st_ai.setText("AI: starting…")
                 run_job(self.ctx.llm.start, lambda _r: self._update_ai_status(),
@@ -210,6 +216,9 @@ class MainWindow(QMainWindow):
     def _apply_clinic_config(self):
         from .decision import clinic_config
         if self.ctx.engine is not None and self.ctx.session is not None:
+            hidden = set(self.ctx.session.hidden_books())
+            if hidden != self.ctx.engine.hidden_books:
+                self.ctx.engine.reload_books(hidden)
             self.ctx.engine.set_config(clinic_config(self.ctx))
             self.case.refresh_decision()
 
@@ -221,10 +230,38 @@ class MainWindow(QMainWindow):
         self.st_engine.setText(f"{len(e.config.books)} book(s) · {len(ds.s2r):,} symptoms · "
                                f"{len(ds.remedy_universe)} remedies · matching: {e.matching_mode}")
 
+    def prepare_books(self):
+        """Load and index the selected books in the background, with progress for every screen."""
+        e = self.ctx.engine
+        if e is None:
+            return
+        self.ctx.engine_ready = False
+        self._on_prep(0.0, "Loading books…")
+        self.st_bar.show()
+
+        def done(_r):
+            self.ctx.engine_ready = True
+            self.st_bar.hide()
+            self._update_engine_status()
+            self.ctx.events.engine_ready.emit()
+
+        def fail(msg, tb):
+            self.ctx.engine_ready = True              # the engine still works (lexical matching fallback)
+            self.st_bar.hide()
+            self._update_engine_status()
+            self.ctx.events.engine_ready.emit()
+        run_job(lambda progress: e.warm_up(progress=progress), done, fail, self._on_prep)
+
+    def _on_prep(self, fraction: float, message: str):
+        self.ctx.prep_state = (fraction, message)
+        self.st_engine.setText(message)
+        self.st_bar.setValue(int(fraction * 100))
+        self.ctx.events.prep_progress.emit(fraction, message)
+
     def _books_changed(self):
         self._update_engine_status()
         self.case.refresh_decision()
-        run_job(self.ctx.engine.warm_up, lambda _r: self._update_engine_status())
+        self.prepare_books()
 
     def _update_ai_status(self):
         if not self.ctx.llm and not self.ctx.transcriber:

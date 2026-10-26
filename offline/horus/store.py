@@ -641,6 +641,20 @@ class Session:
                           "ON CONFLICT(key) DO UPDATE SET value = excluded.value", (json.dumps(config),))
         self.audit("settings.decision", detail=json.dumps(config, sort_keys=True)[:900])
 
+    def hidden_books(self) -> list:
+        """Shipped books this clinic has removed from use (they stay installed and can be restored)."""
+        raw = self.store._meta("hidden_books")
+        try:
+            return list(json.loads(raw)) if raw else []
+        except ValueError:
+            return []
+
+    def set_hidden_books(self, ids: list) -> None:
+        self.require("settings")
+        self._con.execute("INSERT INTO meta(key, value) VALUES ('hidden_books', ?) "
+                          "ON CONFLICT(key) DO UPDATE SET value = excluded.value", (json.dumps(sorted(set(ids))),))
+        self.audit("settings.hidden_books", detail=",".join(sorted(set(ids)))[:900])
+
     def rotate_recovery_key(self) -> str:
         """Issue a new recovery key (the old one stops working)."""
         self.require("settings")

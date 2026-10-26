@@ -70,10 +70,19 @@ def ctx(tmp_path, monkeypatch, qapp):
     return c
 
 
+def _pump(ms: int) -> None:
+    """Run the Qt event loop for ``ms``. (QTest.qWait keeps Python's interpreter lock while it waits,
+    which starves the app's background threads; a real event loop releases it, like the app does.)"""
+    from PySide6.QtCore import QEventLoop, QTimer
+    loop = QEventLoop()
+    QTimer.singleShot(ms, loop.quit)
+    loop.exec()
+
+
 def wait(cond, timeout=120):
     t = time.time()
     while not cond():
-        QTest.qWait(50)
+        _pump(50)
         if time.time() - t > timeout:
             raise TimeoutError
     return True
@@ -336,3 +345,61 @@ def test_admin_deletes_own_account_and_sole_user_deletes_clinic(ctx, monkeypatch
     win._account_deleted("clinic", "temp-pass-1", True)
     assert win.restart_setup and not db.exists() and not bk.exists()
     assert ctx.store is None and ctx.session is None
+
+
+def test_books_tab_fills_in_when_books_finish_loading(ctx, monkeypatch, tmp_path):
+    """Regression: the tab was built at sign-in while books were loading and stayed on
+    'still loading' forever. It must show progress, then the editor, without being reopened."""
+    import json
+    from PySide6.QtWidgets import QProgressBar
+    import horus_app.decision as dec
+    from horus.store import Store
+    ctx.store, _ = Store.create(ctx.db_path, edition="clinic", clinic_name="UI", admin_username="admin",
+                                admin_password="password-123")
+    ctx.session = ctx.store.login("admin", "password-123")
+    from horus_app.main_window import MainWindow
+    win = MainWindow(ctx)                                   # settings tabs are built before books are ready
+    tab = next(win.settings.tabs.widget(i) for i in range(win.settings.tabs.count())
+               if win.settings.tabs.tabText(i).startswith("Books"))
+    assert tab.prog_card.parent() is not None and not hasattr(tab, "editor")
+    seen = []
+    ctx.events.prep_progress.connect(lambda f, m: seen.append(f))
+    wait(lambda: ctx.engine_ready)
+    _pump(100)
+    assert hasattr(tab, "editor") and tab.prog_card.parent() is None          # filled in by itself
+    assert seen and seen[-1] == 1.0 and not win.st_bar.isVisible()
+    assert [b.id for b in tab.editor.books] == ["rheumatic", "case_studies", "guiding_symptoms_1"]
+
+    # add a book: determinate progress in the tab, then it appears in the list
+    src = tmp_path / "extra.json"
+    src.write_text(json.dumps({"remedium novum": {"mind": [
+        {"symptom": f"novel symptom {i}", "labels": {"Modalities": "worse at night"}} for i in range(12)]}}))
+    monkeypatch.setattr(dec.QFileDialog, "getOpenFileName", lambda *a, **k: (str(src), ""))
+    monkeypatch.setattr(dec.QInputDialog, "getText", lambda *a, **k: ("Extra Book", True))
+    values = []
+    tab.prog_bar.valueChanged.connect(values.append)
+    tab._add()
+    assert tab.adding and tab.prog_card.parent() is not None
+    wait(lambda: not tab.adding and ctx.engine_ready and hasattr(tab, "editor")
+         and any(b.title == "Extra Book" for b in tab.editor.books))
+    adding = values[:values.index(100) + 1]                # the import: 0 → 100 …
+    assert adding == sorted(adding) and adding[0] == 0
+    reindex = values[len(adding):]                         # … then indexing the new book: 0 → 100
+    assert reindex and reindex == sorted(reindex) and reindex[-1] == 100
+    extra = next(b for b in ctx.engine.books if b.title == "Extra Book")
+    assert extra.id in ctx.engine.config.books
+
+    # delete it (clinic book → removed from disk)
+    tab._delete(extra)
+    wait(lambda: ctx.engine_ready and hasattr(tab, "editor") and all(b.id != extra.id for b in tab.editor.books))
+    assert not extra.json_path.exists() and extra.id not in ctx.engine.config.books
+
+    # delete a shipped book → hidden from this clinic, then restored
+    tab._delete(next(b for b in ctx.engine.books if b.id == "guiding_symptoms_1"))
+    wait(lambda: ctx.engine_ready and "guiding_symptoms_1" not in [b.id for b in tab.editor.books])
+    assert ctx.session.hidden_books() == ["guiding_symptoms_1"]
+    assert "guiding_symptoms_1" not in ctx.engine.config.books
+    tab._restore()
+    wait(lambda: ctx.engine_ready and "guiding_symptoms_1" in [b.id for b in tab.editor.books])
+    assert ctx.session.hidden_books() == [] and "guiding_symptoms_1" in ctx.engine.config.books
+    win.close()

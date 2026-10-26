@@ -44,8 +44,10 @@ class HorusEngine:
         self.llm: LLMBackend = llm or NullLLM()
         self.transcriber: Transcriber = transcriber or NullTranscriber()
         self.rubric = load_miasm_rubric(paths.miasm_rubric_path())
-        self._emb_cache = (DatasetEmbeddingCache(embedder, paths.cache_dir if use_disk_cache else None)
+        self._emb_cache = (DatasetEmbeddingCache(embedder, paths.cache_dir if use_disk_cache else None,
+                                                 seed_dir=paths.models_dir)
                            if embedder is not None else None)
+        self.hidden_books: set = set()
         self._learn_lock = threading.RLock()
         self._payload: tuple = ()
         self._payload_version = 0
@@ -57,10 +59,14 @@ class HorusEngine:
         self.config = (config or DecisionConfig()).resolve(self.books)
 
     # ── books & decision settings ────────────────────────────────────────
-    def reload_books(self) -> None:
-        """Re-scan shipped and clinic-added books (after adding or removing one)."""
+    def reload_books(self, hidden: set | None = None) -> None:
+        """Re-scan shipped and clinic-added books (after adding, deleting or hiding one).
+        ``hidden``: shipped books this clinic has removed from use."""
         with self._learn_lock:
-            self.books: list[Book] = discover_books(self.paths)
+            if hidden is not None:
+                self.hidden_books = set(hidden)
+            self.all_books: list[Book] = discover_books(self.paths)
+            self.books: list[Book] = [b for b in self.all_books if b.id not in self.hidden_books]
             self._bases.clear()
             self._lives.clear()
             self._cp_bases.clear()
@@ -78,32 +84,42 @@ class HorusEngine:
         by_id = {b.id: b for b in self.books}
         return [by_id[i] for i in ids if i in by_id]
 
-    def warm_up(self, config: DecisionConfig | None = None) -> None:
-        """Load the selected books and embed their symptoms now, so the first analysis is fast."""
-        ds = self.dataset_for(config)
+    def warm_up(self, config: DecisionConfig | None = None, progress=None) -> None:
+        """Load the selected books, index their symptoms and build the suggestion clusters now, so the
+        first analysis is fast. ``progress(fraction, message)`` reports how far it has got."""
+        def stage(lo, hi):
+            return (lambda f, m: progress(lo + (hi - lo) * f, m)) if progress else None
+        need = 0
+        ds = self.dataset_for(config, progress=stage(0.0, 0.15))
         if self._emb_cache is not None:
-            self._emb_cache.get(tuple(sorted(ds.s2r)))
+            keys = tuple(sorted(ds.s2r))
+            need = self._emb_cache.missing(keys)
+            self._emb_cache.get(keys, progress=stage(0.15, 0.9) if need else None)
+        if progress:
+            progress(0.9, "Building symptom clusters for suggestions…")
         self._suggestion_index(config)
+        if progress:
+            progress(1.0, "Ready")
 
     def describe(self, config: DecisionConfig | None = None) -> str:
         return self._cfg(config).describe(self.books)
 
-    def _base_for(self, books: tuple) -> Dataset:
+    def _base_for(self, books: tuple, progress=None) -> Dataset:
         with self._learn_lock:
             if books not in self._bases:
                 if len(self._bases) >= 4:
                     self._bases.pop(next(iter(self._bases)))
-                self._bases[books] = load_base_dataset(self.paths, self._book_objs(books))
+                self._bases[books] = load_base_dataset(self.paths, self._book_objs(books), progress=progress)
             return self._bases[books]
 
-    def dataset_for(self, config: DecisionConfig | None = None) -> Dataset:
+    def dataset_for(self, config: DecisionConfig | None = None, progress=None) -> Dataset:
         cfg = self._cfg(config)
         with self._learn_lock:
             key = (cfg.books, self._payload_version, cfg.learned_weight)
             if key not in self._lives:
                 if len(self._lives) >= 6:
                     self._lives.pop(next(iter(self._lives)))
-                self._lives[key] = build_live_dataset(self._base_for(cfg.books), self._payload,
+                self._lives[key] = build_live_dataset(self._base_for(cfg.books, progress), self._payload,
                                                       cfg.learned_weight)
             return self._lives[key]
 

@@ -182,3 +182,44 @@ def test_embedding_cache_only_embeds_new_texts(tmp_path):
     c2 = DatasetEmbeddingCache(emb, tmp_path)               # next start: everything from disk
     c2.get(("delta", "gamma"))
     assert len(emb.seen) == 4
+
+
+def test_warm_up_reports_progress_and_second_start_skips_indexing(paths, tmp_path):
+    from horus.books import DecisionConfig
+    from horus.config import Paths
+    from legacy import FakeEmbedder
+    p = Paths(resources=paths.resources, user=tmp_path)
+    steps = []
+    e = HorusEngine(p, embedder=FakeEmbedder())
+    e.warm_up(progress=lambda f, m: steps.append((round(f, 4), m)))
+    fr = [f for f, _ in steps]
+    assert fr == sorted(fr) and fr[-1] == 1.0
+    assert any("Indexing symptoms" in m for _, m in steps) and any("Loading" in m for _, m in steps)
+    again = []
+    e2 = HorusEngine(p, embedder=FakeEmbedder())                    # next start: index on disk
+    e2.warm_up(progress=lambda f, m: again.append(m))
+    assert not any("Indexing symptoms" in m for m in again)
+
+
+def test_shipped_seed_index_avoids_first_start_indexing(tmp_path):
+    from horus.embeddings import DatasetEmbeddingCache, write_seed
+
+    class Counting:
+        model_id = "seeded"
+        calls = 0
+
+        def encode(self, texts, batch_size=32):
+            Counting.calls += len(texts)
+            from legacy import fake_encode
+            return fake_encode(texts)
+    keys = [f"symptom {i}" for i in range(600)]
+    seed_dir = tmp_path / "models"
+    seed_dir.mkdir()
+    write_seed(Counting(), keys, seed_dir)
+    Counting.calls = 0
+    c = DatasetEmbeddingCache(Counting(), tmp_path / "cache", seed_dir=seed_dir)
+    assert c.missing(keys) == 0
+    v = c.get(tuple(keys))
+    assert Counting.calls == 0 and v.shape == (600, 384)
+    c.get(tuple(keys + ["a new saved-case symptom"]))
+    assert Counting.calls == 1                                       # only the genuinely new text

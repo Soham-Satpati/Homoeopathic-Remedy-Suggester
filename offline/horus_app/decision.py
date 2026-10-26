@@ -39,7 +39,8 @@ class DecisionEditor(QWidget):
 
     changed = Signal()
 
-    def __init__(self, books: list[Book], config: DecisionConfig, parent=None, editable: bool = True):
+    def __init__(self, books: list[Book], config: DecisionConfig, parent=None, editable: bool = True,
+                 on_delete=None):
         super().__init__(parent)
         self.books = books
         v = QVBoxLayout(self)
@@ -63,6 +64,13 @@ class DecisionEditor(QWidget):
             grid.addWidget(cb, i, 0)
             grid.addWidget(desc, i, 1)
             grid.addWidget(w, i, 2)
+            if on_delete is not None:
+                d = button("Delete", danger=True, slot=lambda _=False, book=b: on_delete(book))
+                d.setToolTip("Delete this book from HoRUS" if b.source == "user" else
+                             "Remove this book from use in this clinic (it can be restored later)")
+                d.setEnabled(editable)
+                d.setFixedWidth(90)
+                grid.addWidget(d, i, 3)
             self.book_rows[b.id] = (cb, w)
         grid.setColumnStretch(1, 1)
         n = len(books) + 1
@@ -166,44 +174,101 @@ def clinic_config(ctx: AppContext) -> DecisionConfig:
 
 
 class BooksSettingsTab(QWidget):
-    """Settings → Books & weighting: the clinic default, and adding / removing books."""
+    """Settings → Books & weighting: the clinic default, adding and deleting books.
+
+    Fills itself in as soon as the books are ready (it listens for the app's engine_ready event), and
+    shows live progress while they load, index, or while a new book is being added."""
 
     def __init__(self, ctx: AppContext, on_books_changed=None):
         super().__init__()
+        from PySide6.QtWidgets import QProgressBar
         self.ctx = ctx
         self.on_books_changed = on_books_changed
         self.v = QVBoxLayout(self)
-        self.busy = Busy()
+        self.adding = False
+        self.prog_title = label("", "h2")
+        self.prog_msg = label("", "muted")
+        self.prog_bar = QProgressBar()
+        self.prog_bar.setRange(0, 100)
+        self.prog_bar.setFormat("%p%")
+        self.prog_card = card(self.prog_title, self.prog_bar, self.prog_msg)
+        ctx.events.prep_progress.connect(self._prep_progress)
+        ctx.events.engine_ready.connect(self._ready)
         self._build()
 
-    def _build(self):
+    # ── state ────────────────────────────────────────────────────────────
+    @property
+    def _loading(self) -> bool:
+        return self.ctx.engine is None or not self.ctx.engine_ready
+
+    def _clear(self):
         while self.v.count():
             item = self.v.takeAt(0)
-            if item.widget():
-                item.widget().deleteLater()
-        if self.ctx.engine is None:
-            self.v.addWidget(label("The books are still loading — open this tab again in a moment.", "muted"))
+            w = item.widget()
+            if w is not None and w is not self.prog_card:
+                w.deleteLater()
+            elif w is self.prog_card:
+                w.setParent(None)
+            elif item.layout() is not None:
+                _delete_layout(item.layout())
+
+    def _show_progress(self, title: str, fraction: float, message: str):
+        self._clear()
+        self.prog_title.setText(title)
+        self._set_progress(fraction, message)
+        self.v.addWidget(self.prog_card)
+        self.v.addStretch(1)
+
+    def _set_progress(self, fraction: float, message: str):
+        self.prog_msg.setText(message)
+        self.prog_bar.setValue(int(round(fraction * 100)))
+
+    def _prep_progress(self, fraction: float, message: str):
+        if self.adding:
             return
+        if self.prog_card.parent() is None or self.prog_title.text() != "Preparing the books":
+            self._show_progress("Preparing the books", fraction, message)
+        else:
+            self._set_progress(fraction, message)
+
+    def _ready(self):
+        if not self.adding:
+            self._build()
+
+    def showEvent(self, ev):
+        super().showEvent(ev)
+        if not self.adding and self._loading and self.prog_card.parent() is None:
+            f, m = self.ctx.prep_state
+            self._show_progress("Preparing the books", f, m)
+
+    # ── the editor ───────────────────────────────────────────────────────
+    def _build(self):
+        if self._loading:
+            f, m = self.ctx.prep_state
+            self._show_progress("Preparing the books", f, m)
+            return
+        self._clear()
         can_edit = self.ctx.session.user.can("settings")
         self.v.addWidget(label("Choose which books HoRUS ranks remedies from and how strongly each counts. This "
                                "is the clinic default; doctors can change it for a single case from the New case "
                                "screen. The books and weights used are recorded on every case and its PDF.",
                                "info"))
-        self.editor = DecisionEditor(self.ctx.engine.books, clinic_config(self.ctx), editable=can_edit)
+        self.editor = DecisionEditor(self.ctx.engine.books, clinic_config(self.ctx), editable=can_edit,
+                                     on_delete=self._delete if can_edit else None)
         scroll = QScrollArea()
         scroll.setWidgetResizable(True)
         scroll.setWidget(self.editor)
         self.v.addWidget(scroll, 1)
-        user_books = [b for b in self.ctx.engine.books if b.source == "user"]
+        hidden = [b for b in self.ctx.engine.all_books if b.id in self.ctx.engine.hidden_books]
         add_btn = button("Add a book…", slot=self._add)
-        rem_btn = button("Remove a clinic book…", danger=True, slot=self._remove)
-        rem_btn.setVisible(bool(user_books))
+        restore = button(f"Restore removed books ({len(hidden)})", slot=self._restore)
+        restore.setVisible(bool(hidden))
         save = button("Save as clinic default", primary=True, slot=self._save)
-        for b in (add_btn, rem_btn, save):
+        for b in (add_btn, restore, save):
             b.setEnabled(can_edit)
-        self.v.addLayout(row(add_btn, rem_btn, self.busy, None, save))
+        self.v.addLayout(row(add_btn, restore, None, save))
         if not can_edit:
-            self.v.addWidget(label("Only an administrator can change the clinic default.", "muted"))
+            self.v.addWidget(label("Only an administrator can change books and the clinic default.", "muted"))
 
     def _save(self):
         cfg = self.editor.config()
@@ -211,54 +276,91 @@ class BooksSettingsTab(QWidget):
             return error(self, "Books", "Select at least one book.")
         self.ctx.session.set_decision_config(cfg.to_dict())
         self.ctx.engine.set_config(cfg)
+        self._changed()
         info(self, "Saved", "New cases will use these books and weights.\n\n" + self.ctx.engine.describe(cfg))
 
+    def _changed(self):
+        if self.on_books_changed:
+            self.on_books_changed()
+
+    # ── adding a book ────────────────────────────────────────────────────
     def _add(self):
+        from pathlib import Path
         path, _ = QFileDialog.getOpenFileName(self, "Choose a book (HoRUS JSON format)", "", "JSON (*.json)")
         if not path:
             return
-        from pathlib import Path
-        title, ok = QInputDialog.getText(self, "Book title", "Name shown in HoRUS:", text=Path(path).stem.replace("_", " "))
+        title, ok = QInputDialog.getText(self, "Book title", "Name shown in HoRUS:",
+                                         text=Path(path).stem.replace("_", " "))
         if not ok or not title.strip():
             return
-        self.busy.start("Adding the book and building its symptom clusters… (a large book takes a few minutes)")
+        self.adding = True
+        self._show_progress(f"Adding “{title.strip()}”", 0.0, "Starting…")
         paths = self.ctx.paths
 
         def done(book):
-            self.busy.stop()
-            self.ctx.engine.reload_books()
+            self.adding = False
+            self.ctx.engine.reload_books(self.ctx.engine.hidden_books)
             cfg = DecisionConfig.from_dict(self.ctx.session.decision_config())
             if cfg.books and book.id not in cfg.books:
-                cfg = replace(cfg, books=cfg.books + (book.id,))
-                self.ctx.session.set_decision_config(cfg.to_dict())
-            self.ctx.engine.set_config(DecisionConfig.from_dict(self.ctx.session.decision_config()))
+                self.ctx.session.set_decision_config(replace(cfg, books=cfg.books + (book.id,)).to_dict())
+            self.ctx.engine.set_config(clinic_config(self.ctx))
             self.ctx.session.audit("book.added", book.id)
-            info(self, "Book added", f"“{book.title}” was added and is now used for ranking. {book.description}")
-            self._build()
-            if self.on_books_changed:
-                self.on_books_changed()
+            info(self, "Book added", f"“{book.title}” was added and is now used for ranking. {book.description}\n\n"
+                                     "HoRUS will now index its symptoms for matching (progress at the bottom).")
+            self._changed()                         # → main window re-prepares the books (indexing with progress)
 
         def fail(msg, tb):
-            self.busy.stop()
+            self.adding = False
+            self._build()
             error(self, "Book not added", msg, tb)
-        run_job(lambda: import_book(paths, Path(path), title.strip()), done, fail)
 
-    def _remove(self):
-        books = [b for b in self.ctx.engine.books if b.source == "user"]
-        titles = [b.title for b in books]
-        t, ok = QInputDialog.getItem(self, "Remove a book", "Book added in this clinic:", titles, 0, False)
-        if not ok:
+        run_job(lambda progress: import_book(paths, Path(path), title.strip(), progress=progress),
+                done, fail, self._set_progress)
+
+    # ── deleting / restoring books ───────────────────────────────────────
+    def _delete(self, book: Book):
+        if book.source == "user":
+            text = (f"Delete “{book.title}” permanently? Its file and symptom clusters are removed from this "
+                    "computer. Saved cases keep their results.")
+        else:
+            text = (f"Remove “{book.title}” from use in this clinic? It came with HoRUS, so it stays installed "
+                    "and can be restored later with “Restore removed books”. Saved cases keep their results.")
+        if not confirm(self, "Delete book", text, "Delete", danger=True):
             return
-        book = books[titles.index(t)]
-        if not confirm(self, "Remove book", f"Remove “{book.title}” from HoRUS? Saved cases are kept.", "Remove",
-                       danger=True):
-            return
+        if len(self.ctx.engine.books) == 1:
+            return error(self, "Delete book", "At least one book is needed.")
         try:
-            remove_book(self.ctx.paths, book.id)
+            if book.source == "user":
+                remove_book(self.ctx.paths, book.id)
+                self.ctx.session.audit("book.deleted", book.id)
+            else:
+                self.ctx.session.set_hidden_books(sorted(self.ctx.engine.hidden_books | {book.id}))
+            cfg = DecisionConfig.from_dict(self.ctx.session.decision_config())
+            if cfg.books and book.id in cfg.books:
+                self.ctx.session.set_decision_config(
+                    replace(cfg, books=tuple(b for b in cfg.books if b != book.id)).to_dict())
         except Exception as e:
-            return error(self, "Not removed", str(e))
-        self.ctx.engine.reload_books()
-        self.ctx.session.audit("book.removed", book.id)
-        self._build()
-        if self.on_books_changed:
-            self.on_books_changed()
+            return error(self, "Not deleted", str(e))
+        self.ctx.engine.reload_books(set(self.ctx.session.hidden_books()))
+        self.ctx.engine.set_config(clinic_config(self.ctx))
+        self._changed()
+
+    def _restore(self):
+        restored = set(self.ctx.engine.hidden_books)
+        cfg = DecisionConfig.from_dict(self.ctx.session.decision_config())
+        if cfg.books:
+            self.ctx.session.set_decision_config(
+                replace(cfg, books=cfg.books + tuple(b for b in sorted(restored) if b not in cfg.books)).to_dict())
+        self.ctx.session.set_hidden_books([])
+        self.ctx.engine.reload_books(set())
+        self.ctx.engine.set_config(clinic_config(self.ctx))
+        self._changed()
+
+
+def _delete_layout(layout):
+    while layout.count():
+        item = layout.takeAt(0)
+        if item.widget() is not None:
+            item.widget().deleteLater()
+        elif item.layout() is not None:
+            _delete_layout(item.layout())

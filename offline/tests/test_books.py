@@ -148,8 +148,10 @@ def test_import_and_remove_a_book(paths, tmp_path):
     src = tmp_path / "my_book.json"
     src.write_text(json.dumps(BOOK), encoding="utf-8")
     steps = []
-    book = import_book(p, src, "My Test Book", progress=steps.append)
+    book = import_book(p, src, "My Test Book", progress=lambda f, m: steps.append((f, m)))
     assert book.id.startswith("user_") and book.source == "user" and steps
+    fracs = [f for f, _ in steps]
+    assert fracs == sorted(fracs) and fracs[0] == 0.0 and fracs[-1] == 1.0     # monotonic, 0 → 100%
     assert book.cooccurrence_path.exists()
     e = HorusEngine(p)
     assert book.id in e.config.books

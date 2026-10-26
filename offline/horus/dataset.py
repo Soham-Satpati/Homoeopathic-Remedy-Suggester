@@ -47,7 +47,7 @@ def _legacy_books(paths: Paths) -> list:
     return [b for b in discover_books(paths) if b.id in ("rheumatic", "case_studies")]
 
 
-def load_base_dataset(paths: Paths, books: list | None = None) -> Dataset:
+def load_base_dataset(paths: Paths, books: list | None = None, progress=None) -> Dataset:
     """Merge pkl models + raw JSON of the chosen books; max score wins on collision.
 
     With the two original books this is exactly the demo's ``load_all_dataset_symptoms``
@@ -80,7 +80,10 @@ def load_base_dataset(paths: Paths, books: list | None = None) -> Dataset:
     # Layer 2: raw JSON (always parsed — fills any pkl gaps), demo order: rheumatic, case studies, others
     jorder = {name: i for i, name in enumerate(DATASET_JSONS)}
     all_entries: list = []
-    for b in sorted(books, key=lambda b: jorder.get(b.json_path.name, 99)):
+    ordered = sorted(books, key=lambda b: jorder.get(b.json_path.name, 99))
+    for n, b in enumerate(ordered):
+        if progress:
+            progress(n / max(1, len(ordered)), f"Loading {b.title}…")
         try:
             with open(b.json_path, "r", encoding="utf-8") as f:
                 data = json.load(f)

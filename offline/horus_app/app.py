@@ -20,7 +20,7 @@ from pathlib import Path
 if not getattr(sys, "frozen", False):
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-APP_VERSION = "1.1.0"
+APP_VERSION = "1.2.0"
 log = logging.getLogger("horus")
 
 
@@ -186,6 +186,13 @@ def selftest(out: Path, require_ai: bool) -> int:
         if res:
             checks["encrypted_store"]["info"] = "created, signed in"   # never write keys to the report
 
+        def seed_index():
+            keys = tuple(sorted(engine.dataset.s2r))
+            missing = engine._emb_cache.missing(keys) if engine._emb_cache else len(keys)
+            assert missing == 0, f"{missing} of {len(keys)} shipped symptoms not in the built-in index"
+            return {"indexed_symptoms": len(keys)}
+        check("builtin_symptom_index", seed_index)
+
         def books():
             import json as _json
             from horus.books import import_book
@@ -301,7 +308,8 @@ def selftest(out: Path, require_ai: bool) -> int:
             check("backup_restore", backup)
 
         required = ["models_intact", "embedding_model", "encrypted_store", "structured_case_report_pdf",
-                    "lan_tablet_intake", "backup_restore", "books_and_clusters"]
+                    "lan_tablet_intake", "backup_restore", "books_and_clusters",
+                    "builtin_symptom_index"]
         if require_ai:
             required += ["ai_case_parsing", "ai_explanations", "ai_followups", "speech_model"]
         missing = [k for k in required if not checks.get(k, {}).get("ok")]

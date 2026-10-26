@@ -1,5 +1,12 @@
 ## HoRUS Offline for Windows
 
+### New in 1.2
+
+- **Fixed: Settings → Books & weighting stayed on "The books are still loading" forever** if Settings was built before the books finished loading. The tab now fills itself in as soon as they're ready.
+- **Progress bars** for loading and indexing the books (in the Books tab and the status bar) and for adding a book, with a message for each step.
+- **Much faster first start.** The symptom index for the shipped books is now built into the installer, so HoRUS no longer spends several minutes indexing ~21,000 symptoms the first time it opens.
+- **Delete button on every book.** Books added in the clinic are deleted from the computer; books that came with HoRUS are removed from use and can be brought back with *Restore removed books*. Only administrators can delete books, and every change is recorded in the audit log.
+
 ### New in 1.1
 
 - **Books and decision bias.** Choose which books rank remedies, how strongly each counts, how much this clinic's own saved cases count, and the classical weights for mind, generals, particulars, modalities and causation. Set a clinic default in *Settings → Books & weighting* and change it for a single case from *New case*. The books and weights used are recorded on every case and printed on its PDF.

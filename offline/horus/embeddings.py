@@ -49,6 +49,18 @@ class SentenceTransformerEmbedder:
         return np.asarray(emb, dtype=np.float32)
 
 
+def store_tag(model_id: str) -> str:
+    return hashlib.md5(model_id.encode()).hexdigest()[:12]
+
+
+def write_seed(embedder: Embedder, keys: list[str], folder: Path) -> Path:
+    """Build-time: embed ``keys`` and write the seed index the app loads on first start."""
+    vecs = np.asarray(embedder.encode(list(keys), batch_size=128), dtype=np.float32)
+    path = Path(folder) / f"emb_seed_{store_tag(embedder.model_id)}.npz"
+    np.savez(path, keys=np.array(list(keys), dtype=object).astype(str), vectors=vecs)
+    return path
+
+
 def load_embedder(model_dir: Path, prefer: str = "auto") -> Embedder | None:
     """ONNX Runtime first (what the installed app ships), then sentence-transformers."""
     if not (Path(model_dir) / "config.json").exists():
@@ -73,28 +85,46 @@ class DatasetEmbeddingCache:
     dataset on every start).
     """
 
-    def __init__(self, embedder: Embedder, cache_dir: Path | None):
+    CHUNK = 256
+
+    def __init__(self, embedder: Embedder, cache_dir: Path | None, seed_dir: Path | None = None):
         self.embedder = embedder
         self.cache_dir = cache_dir
         self._index: dict[str, int] = {}
         self._mat = np.zeros((0, 0), dtype=np.float32)
         self._last: tuple[str, np.ndarray] | None = None
         self._lock = __import__("threading").RLock()
-        tag = hashlib.md5(embedder.model_id.encode()).hexdigest()[:12]
-        self._path = cache_dir / f"emb_store_{tag}.npz" if cache_dir else None
-        self._load()
+        self.tag = store_tag(embedder.model_id)
+        self._path = cache_dir / f"emb_store_{self.tag}.npz" if cache_dir else None
+        # an index shipped with the app (built at installer time for the shipped books)
+        if seed_dir is not None:
+            self._merge_file(Path(seed_dir) / f"emb_seed_{self.tag}.npz")
+        if self._path is not None:
+            self._merge_file(self._path)
 
-    def _load(self) -> None:
-        if self._path is None or not self._path.exists():
+    def _merge_file(self, path: Path) -> None:
+        if not path.exists():
             return
         try:
-            with np.load(self._path, allow_pickle=False) as z:
+            with np.load(path, allow_pickle=False) as z:
                 keys, mat = list(z["keys"]), z["vectors"].astype(np.float32)
-            if len(keys) == mat.shape[0]:
-                self._index = {k: i for i, k in enumerate(keys)}
-                self._mat = mat
         except Exception:
-            log.warning("Embedding cache unreadable — rebuilding", exc_info=True)
+            log.warning("Embedding cache %s unreadable — ignoring it", path, exc_info=True)
+            return
+        if len(keys) != mat.shape[0] or not len(keys):
+            return
+        new = [i for i, k in enumerate(keys) if k not in self._index]
+        if not new:
+            return
+        start = len(self._index)
+        add = mat[new]
+        self._mat = add if self._mat.size == 0 else np.vstack([self._mat, add])
+        for j, i in enumerate(new):
+            self._index[keys[i]] = start + j
+
+    def missing(self, keys) -> int:
+        with self._lock:
+            return sum(1 for k in dict.fromkeys(keys) if k not in self._index)
 
     def _save(self) -> None:
         if self._path is None:
@@ -107,23 +137,33 @@ class DatasetEmbeddingCache:
         except OSError:
             log.warning("Could not write embedding cache %s", self._path)
 
-    def get(self, keys: tuple) -> np.ndarray | None:
+    def get(self, keys: tuple, progress=None) -> np.ndarray | None:
+        """Vectors for ``keys`` (in order), embedding any not seen before.
+        ``progress(fraction, message)`` is called while embedding."""
         digest = hashlib.md5("\n".join(keys).encode("utf-8")).hexdigest()
         with self._lock:
             if self._last and self._last[0] == digest:
                 return self._last[1]
             missing = [k for k in dict.fromkeys(keys) if k not in self._index]
             if missing:
+                parts = []
                 try:
-                    new = np.asarray(self.embedder.encode(missing, batch_size=128), dtype=np.float32)
+                    for i in range(0, len(missing), self.CHUNK):
+                        if progress:
+                            progress(i / len(missing), f"Indexing symptoms for matching: {i:,} of {len(missing):,}")
+                        parts.append(np.asarray(self.embedder.encode(missing[i:i + self.CHUNK], batch_size=128),
+                                                dtype=np.float32))
                 except Exception:
                     log.exception("Could not embed dataset — using lexical matching")
                     return None
+                new = np.vstack(parts)
                 start = len(self._index)
                 self._mat = new if self._mat.size == 0 else np.vstack([self._mat, new])
                 for i, k in enumerate(missing):
                     self._index[k] = start + i
                 self._save()
+                if progress:
+                    progress(1.0, f"Indexed {len(missing):,} symptoms")
             emb = self._mat[[self._index[k] for k in keys]]
             self._last = (digest, emb)
             return emb

@@ -69,7 +69,7 @@ def build_cooccurrence(data: dict, top_k: int = 15, progress=None, exclude_chapt
     if len(rows) < 6:
         return pd.DataFrame(columns=COLUMNS)
     if progress:
-        progress("Clustering symptoms…")
+        progress(0.05, f"Clustering {len(rows):,} symptoms (this is the slow part)…")
     labels = cluster_labels(rows)
 
     remedies = defaultdict(set)          # symptom (lower) → remedies listing it anywhere in the book
@@ -85,10 +85,12 @@ def build_cooccurrence(data: dict, top_k: int = 15, progress=None, exclude_chapt
         if lab != -1:
             members[int(lab)].add(low)
     if progress:
-        progress(f"Linking symptoms in {len(members)} clusters…")
+        progress(0.6, f"Linking symptoms in {len(members)} clusters…")
 
     kept: dict[tuple, None] = {}
-    for cid, syms in members.items():
+    for n, (cid, syms) in enumerate(members.items()):
+        if progress and n % 5 == 0:
+            progress(0.6 + 0.35 * n / max(1, len(members)), f"Linking symptoms: cluster {n + 1} of {len(members)}")
         by_rem = defaultdict(set)
         for s in syms:
             for r in remedies[s]:
