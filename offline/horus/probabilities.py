@@ -21,7 +21,37 @@ from .dataset import LIVE_PRIOR_STRENGTH
 CP_COLS = ["Symptom1", "Symptom2", "P_B_given_A", "P_A_given_B"]
 
 
+def _read_table(path) -> pd.DataFrame:
+    """Read .csv or .csv.gz. Gzip is decompressed in one call: pandas' streaming gzip reader
+    takes the interpreter lock for every small chunk and crawls while the UI thread is busy."""
+    import gzip
+    import io
+    from pathlib import Path
+    path = Path(path)
+    if path.suffix == ".gz":
+        return pd.read_csv(io.BytesIO(gzip.decompress(path.read_bytes())))
+    return pd.read_csv(path)
+
+
+def load_book_cooccurrence(books: list) -> pd.DataFrame | None:
+    """Co-occurrence tables of the chosen books, combined (.csv or .csv.gz). A pair that appears
+    in several books keeps one row per book; suggestions take the strongest."""
+    frames = []
+    for b in books:
+        p = getattr(b, "cooccurrence_path", None)
+        if p is None or not p.exists():
+            continue
+        df = _read_table(p)
+        df.columns = [c.strip() for c in df.columns]
+        if all(c in df.columns for c in CP_COLS):
+            frames.append(df)
+    if not frames:
+        return None
+    return frames[0] if len(frames) == 1 else pd.concat(frames, ignore_index=True)
+
+
 def load_conditional_probabilities(paths: Paths) -> pd.DataFrame | None:
+    """The demo's loader: the first table found (kept for reference and parity tests)."""
     for fname in CONDITIONAL_PROB_CANDIDATES:
         fpath = paths.resource(fname)
         if fpath.exists():
@@ -31,19 +61,23 @@ def load_conditional_probabilities(paths: Paths) -> pd.DataFrame | None:
     return None
 
 
-def build_live_conditional_probabilities(base: pd.DataFrame | None, payload) -> pd.DataFrame | None:
+def build_live_conditional_probabilities(base: pd.DataFrame | None, payload,
+                                        weight: float = 1.0) -> pd.DataFrame | None:
     """Base co-occurrence clusters, updated with every saved case.
 
     For a symptom A seen in n_A saved cases, of which n_AB also had symptom B:
         P(B|A) = (P_base(B|A) * k + n_AB) / (k + n_A)       k = LIVE_PRIOR_STRENGTH
     New pairs that only appear in saved cases enter with P_base = 0.
+    ``weight`` scales the saved-case counts (1.0 = as in the demo; 0 = book values only).
     """
     n_a, n_ab = {}, {}
+    if weight == 0:
+        return base
     for syms, _ in payload:
         for s in syms:
-            n_a[s] = n_a.get(s, 0) + 1
+            n_a[s] = n_a.get(s, 0) + weight
         for a, b in combinations(syms, 2):         # syms are sorted → a < b
-            n_ab[(a, b)] = n_ab.get((a, b), 0) + 1
+            n_ab[(a, b)] = n_ab.get((a, b), 0) + weight
     if not n_a:
         return base
 

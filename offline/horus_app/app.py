@@ -20,7 +20,7 @@ from pathlib import Path
 if not getattr(sys, "frozen", False):
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-APP_VERSION = "1.0.0"
+APP_VERSION = "1.1.0"
 log = logging.getLogger("horus")
 
 
@@ -81,29 +81,38 @@ def run_app() -> int:
         QMessageBox.information(None, "HoRUS", "HoRUS is already open on this computer.")
         return 0
 
-    ctx = AppContext(paths)
-    log.info("HoRUS %s starting; data %s; AI %s", APP_VERSION, ctx.db_path,
-             getattr(ctx.llm, "name", "none"))
-    if ctx.open_store() is None:
-        wiz = SetupWizard(ctx)
-        if wiz.exec() != QDialog.Accepted:
-            return 0
-        ctx.session = wiz.session
-        if ctx.session is None:              # restored with the recovery key → sign in normally
+    from PySide6.QtCore import QThreadPool
+    code = 0
+    while True:                                  # loops only when the clinic is deleted → setup again
+        ctx = AppContext(paths)
+        log.info("HoRUS %s starting; data %s; AI %s", APP_VERSION, ctx.db_path,
+                 getattr(ctx.llm, "name", "none"))
+        if ctx.open_store() is None:
+            wiz = SetupWizard(ctx)
+            if wiz.exec() != QDialog.Accepted:
+                break
+            ctx.session = wiz.session
+            if ctx.session is None:              # restored with the recovery key → sign in normally
+                dlg = LoginDialog(ctx.store)
+                if dlg.exec() != QDialog.Accepted:
+                    break
+                ctx.session = dlg.session
+        else:
             dlg = LoginDialog(ctx.store)
             if dlg.exec() != QDialog.Accepted:
-                return 0
+                break
             ctx.session = dlg.session
-    else:
-        dlg = LoginDialog(ctx.store)
-        if dlg.exec() != QDialog.Accepted:
-            return 0
-        ctx.session = dlg.session
 
-    win = MainWindow(ctx)
-    win.show()
-    code = app.exec()
-    ctx.shutdown()
+        win = MainWindow(ctx)
+        win.show()
+        code = app.exec()
+        ctx.shutdown()
+        QThreadPool.globalInstance().waitForDone(15000)
+        restart = win.restart_setup
+        win.deleteLater()
+        if not restart:
+            break
+        app.setQuitOnLastWindowClosed(True)
     lock.unlock()
     return code
 
@@ -176,6 +185,22 @@ def selftest(out: Path, require_ai: bool) -> int:
         store, rkey, s = res or (None, None, None)
         if res:
             checks["encrypted_store"]["info"] = "created, signed in"   # never write keys to the report
+
+        def books():
+            import json as _json
+            from horus.books import import_book
+            ids = [b.id for b in engine.books]
+            assert {"rheumatic", "case_studies", "guiding_symptoms_1"} <= set(ids), ids
+            book = {"remedium probandum": {"mind": [{"symptom": f"selftest symptom {i}",
+                                                     "labels": {"Modalities": "worse at night"}}
+                                                    for i in range(10)]}}
+            src = tmp / "selftest_book.json"
+            src.write_text(_json.dumps(book), encoding="utf-8")
+            added = import_book(paths, src, "Selftest book")      # clusters built with scikit-learn
+            engine.reload_books()
+            return {"books": ids, "added": added.id, "clusters": added.cooccurrence_path.exists(),
+                    "symptoms_all_books": len(engine.dataset.s2r)}
+        check("books_and_clusters", books)
 
         def structured_case():
             cat = engine.empty_case()
@@ -276,7 +301,7 @@ def selftest(out: Path, require_ai: bool) -> int:
             check("backup_restore", backup)
 
         required = ["models_intact", "embedding_model", "encrypted_store", "structured_case_report_pdf",
-                    "lan_tablet_intake", "backup_restore"]
+                    "lan_tablet_intake", "backup_restore", "books_and_clusters"]
         if require_ai:
             required += ["ai_case_parsing", "ai_explanations", "ai_followups", "speech_model"]
         missing = [k for k in required if not checks.get(k, {}).get("ok")]

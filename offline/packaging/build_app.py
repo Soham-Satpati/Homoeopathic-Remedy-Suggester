@@ -23,15 +23,20 @@ REPO = OFFLINE.parent
 SEP = ";" if sys.platform == "win32" else ":"
 NAME = "HoRUS"
 
-DATA_FILES = [
-    "case_studies_model.pkl", "rheumatic_model.pkl",
-    "rheumatic.json", "Case_studies_combined.json",
-    "rheumatic_conditional_probabilities.csv",
-    "Case_studies_combined_conditional_probabilities.csv",
-]
+def data_files() -> list[str]:
+    """books.json plus every file it names (book JSON, pickled index, co-occurrence table)."""
+    books = json.loads((REPO / "books.json").read_text(encoding="utf-8"))["books"]
+    files = ["books.json"]
+    for b in books:
+        files += [b[k] for k in ("json", "pkl", "cooccurrence") if b.get(k)]
+    return files
+
+
+DATA_FILES = data_files()
 
 # Third-party packages whose licence texts ship with the app (THIRD-PARTY-NOTICES.txt).
 NOTICE_PACKAGES = ["PySide6", "PySide6-Essentials", "PySide6-Addons", "shiboken6", "numpy", "pandas", "reportlab",
+                   "scikit-learn", "scipy", "joblib", "threadpoolctl",
                    "cryptography", "onnxruntime", "tokenizers", "faster-whisper", "ctranslate2", "av",
                    "huggingface-hub", "qrcode", "pyinstaller"]
 
@@ -118,13 +123,16 @@ def main() -> None:
         "--hidden-import", "PySide6.QtSvgWidgets",
         "--hidden-import", "PySide6.QtMultimedia",
         "--hidden-import", "horus_app.lan",
+        "--add-data", f"{OFFLINE / 'horus_app' / 'assets'}{SEP}horus_app/assets",
+        "--hidden-import", "sklearn.cluster._hdbscan.hdbscan",      # building clusters for added books
+        "--collect-submodules", "sklearn.cluster",
     ]
     for f in DATA_FILES:
         cmd += ["--add-data", f"{REPO / f}{SEP}resources"]
     for dll in vc:
         cmd += ["--add-binary", f"{dll}{SEP}."]
     for mod in ("tkinter", "matplotlib", "torch", "torchvision", "sentence_transformers", "transformers",
-                "IPython", "pytest", "scipy", "sklearn", "PySide6.QtWebEngineCore", "PySide6.QtWebEngineWidgets",
+                "IPython", "pytest", "PySide6.QtWebEngineCore", "PySide6.QtWebEngineWidgets",
                 "PySide6.Qt3DCore", "PySide6.QtQuick", "PySide6.QtQml", "PySide6.QtCharts",
                 "PySide6.QtDataVisualization", "PySide6.QtPdf"):
         cmd += ["--exclude-module", mod]

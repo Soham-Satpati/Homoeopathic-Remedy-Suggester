@@ -66,46 +66,67 @@ def load_embedder(model_dir: Path, prefer: str = "auto") -> Embedder | None:
 
 
 class DatasetEmbeddingCache:
-    """Embeddings of every dataset symptom, computed once and kept on disk.
+    """Embeddings of dataset symptoms, kept on disk and grown incrementally.
 
-    The demo re-encoded the whole dataset on every app start. Keyed by (model, dataset
-    keys), so a dataset or model change produces a new file.
+    One store per embedding model: every text ever embedded keeps its vector, so switching books
+    or saving a new case only embeds the texts not seen before (the demo re-encoded the whole
+    dataset on every start).
     """
 
     def __init__(self, embedder: Embedder, cache_dir: Path | None):
         self.embedder = embedder
         self.cache_dir = cache_dir
-        self._mem: dict[str, np.ndarray] = {}
+        self._index: dict[str, int] = {}
+        self._mat = np.zeros((0, 0), dtype=np.float32)
+        self._last: tuple[str, np.ndarray] | None = None
+        self._lock = __import__("threading").RLock()
+        tag = hashlib.md5(embedder.model_id.encode()).hexdigest()[:12]
+        self._path = cache_dir / f"emb_store_{tag}.npz" if cache_dir else None
+        self._load()
+
+    def _load(self) -> None:
+        if self._path is None or not self._path.exists():
+            return
+        try:
+            with np.load(self._path, allow_pickle=False) as z:
+                keys, mat = list(z["keys"]), z["vectors"].astype(np.float32)
+            if len(keys) == mat.shape[0]:
+                self._index = {k: i for i, k in enumerate(keys)}
+                self._mat = mat
+        except Exception:
+            log.warning("Embedding cache unreadable — rebuilding", exc_info=True)
+
+    def _save(self) -> None:
+        if self._path is None:
+            return
+        try:
+            keys = np.array(sorted(self._index, key=self._index.get), dtype=object).astype(str)
+            tmp = self._path.with_name(self._path.stem + ".tmp.npz")
+            np.savez(tmp, keys=keys, vectors=self._mat)
+            os.replace(tmp, self._path)
+        except OSError:
+            log.warning("Could not write embedding cache %s", self._path)
 
     def get(self, keys: tuple) -> np.ndarray | None:
         digest = hashlib.md5("\n".join(keys).encode("utf-8")).hexdigest()
-        tag = hashlib.md5(f"{self.embedder.model_id}|{digest}".encode()).hexdigest()[:16]
-        if tag in self._mem:
-            return self._mem[tag]
-        path = self.cache_dir / f"dataset_emb_{tag}.npy" if self.cache_dir else None
-        emb = None
-        if path is not None and path.exists():
-            try:
-                emb = np.load(path)
-                if emb.shape[0] != len(keys):
-                    emb = None
-            except Exception:
-                emb = None
-        if emb is None:
-            try:
-                emb = self.embedder.encode(list(keys), batch_size=128)
-            except Exception:
-                log.exception("Could not embed dataset — using lexical matching")
-                return None
-            if path is not None:
+        with self._lock:
+            if self._last and self._last[0] == digest:
+                return self._last[1]
+            missing = [k for k in dict.fromkeys(keys) if k not in self._index]
+            if missing:
                 try:
-                    tmp = path.with_suffix(".tmp.npy")
-                    np.save(tmp, emb)
-                    os.replace(tmp, path)
-                except OSError:
-                    log.warning("Could not write embedding cache %s", path)
-        self._mem[tag] = emb
-        return emb
+                    new = np.asarray(self.embedder.encode(missing, batch_size=128), dtype=np.float32)
+                except Exception:
+                    log.exception("Could not embed dataset — using lexical matching")
+                    return None
+                start = len(self._index)
+                self._mat = new if self._mat.size == 0 else np.vstack([self._mat, new])
+                for i, k in enumerate(missing):
+                    self._index[k] = start + i
+                self._save()
+            emb = self._mat[[self._index[k] for k in keys]]
+            self._last = (digest, emb)
+            return emb
 
 
 class OnnxEmbedder:

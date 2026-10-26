@@ -33,63 +33,80 @@ class Dataset:
     s2r: dict                   # symptom (lower) -> {remedy: score}
     source: str                 # human-readable list of what was loaded
     live_cases: int = 0         # saved cases merged in
+    origin: dict | None = None  # symptom -> {remedy: frozenset(book ids)}; for book weights
+    books: tuple = ()           # ids of the books loaded
 
     @property
     def remedy_universe(self) -> set:
         return {rem for rems in self.s2r.values() for rem in rems}
 
 
-def load_base_dataset(paths: Paths) -> Dataset:
-    """Merge pkl models + raw JSON; max score wins on collision."""
+def _legacy_books(paths: Paths) -> list:
+    """The two original books, by file name (used when no book list is given)."""
+    from .books import discover_books
+    return [b for b in discover_books(paths) if b.id in ("rheumatic", "case_studies")]
+
+
+def load_base_dataset(paths: Paths, books: list | None = None) -> Dataset:
+    """Merge pkl models + raw JSON of the chosen books; max score wins on collision.
+
+    With the two original books this is exactly the demo's ``load_all_dataset_symptoms``
+    (including its cross-book symptom counts in the JSON layer, and its file order).
+    """
+    books = _legacy_books(paths) if books is None else list(books)
     known: set = set()
     s2r: dict = defaultdict(dict)
+    origin: dict = defaultdict(lambda: defaultdict(set))
     sources: list = []
 
-    # Layer 1: pkl files (case_studies + rheumatic)
-    for fname in MODEL_PICKLES:
-        fpath = paths.resource(fname)
-        if not fpath.exists():
+    # Layer 1: pkl files, in the demo's order (case_studies, then rheumatic, then any other)
+    order = {name: i for i, name in enumerate(MODEL_PICKLES)}
+    for b in sorted((b for b in books if b.pkl_path), key=lambda b: order.get(b.pkl_path.name, 99)):
+        if not b.pkl_path.exists():
             continue
         try:
-            with open(fpath, "rb") as f:
+            with open(b.pkl_path, "rb") as f:
                 d = pickle.load(f)   # trusted: shipped with the app, never user-supplied
             for sym, rem_dict in d.get("symptom_to_remedies", {}).items():
                 sl = sym.strip().lower()
                 known.add(sl)
                 for rem, score in rem_dict.items():
                     s2r[sl][rem] = max(s2r[sl].get(rem, 0), score)
-            sources.append(fname)
+                    origin[sl][rem].add(b.id)
+            sources.append(b.pkl_path.name)
         except Exception:
-            log.exception("Could not read %s", fpath)
+            log.exception("Could not read %s", b.pkl_path)
 
-    # Layer 2: raw JSON (always parsed — fills any pkl gaps)
+    # Layer 2: raw JSON (always parsed — fills any pkl gaps), demo order: rheumatic, case studies, others
+    jorder = {name: i for i, name in enumerate(DATASET_JSONS)}
     all_entries: list = []
-    for fname in DATASET_JSONS:
-        fpath = paths.resource(fname)
-        if not fpath.exists():
-            continue
+    for b in sorted(books, key=lambda b: jorder.get(b.json_path.name, 99)):
         try:
-            with open(fpath, "r", encoding="utf-8") as f:
+            with open(b.json_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
             for remedy, sections in data.items():
-                for section_list in sections.values():
+                for chapter, section_list in sections.items():
+                    if str(chapter).lower() in b.exclude_chapters:
+                        continue
                     for item in section_list:
                         if isinstance(item, dict):
                             sym = item.get("symptom", "").strip().lower()
                             if sym:
                                 known.add(sym)
-                                all_entries.append((sym, remedy))
-            sources.append(fname)
+                                all_entries.append((sym, remedy, b.id))
+            sources.append(b.json_path.name)
         except Exception:
-            log.exception("Could not read %s", fpath)
+            log.exception("Could not read %s", b.json_path)
 
-    counts = Counter(sym for sym, _ in all_entries)
-    for sym, rem in all_entries:
+    counts = Counter(sym for sym, _, _ in all_entries)
+    for sym, rem, bid in all_entries:
         score = round(1.0 / max(1, counts[sym]), 6)
         s2r[sym][rem] = max(s2r[sym].get(rem, 0), score)
+        origin[sym][rem].add(bid)
 
     source_label = ", ".join(dict.fromkeys(sources)) if sources else "none"
-    return Dataset(frozenset(known), dict(s2r), source_label, 0)
+    frozen_origin = {s: {r: frozenset(v) for r, v in rems.items()} for s, rems in origin.items()}
+    return Dataset(frozenset(known), dict(s2r), source_label, 0, frozen_origin, tuple(b.id for b in books))
 
 
 def learning_payload(patients: Mapping) -> LearningPayload:
@@ -115,10 +132,11 @@ def learning_payload(patients: Mapping) -> LearningPayload:
     return tuple(out)
 
 
-def build_live_dataset(base: Dataset, payload: Iterable) -> Dataset:
-    """Base dataset merged with everything learned from saved cases."""
+def build_live_dataset(base: Dataset, payload: Iterable, weight: float = 1.0) -> Dataset:
+    """Base dataset merged with everything learned from saved cases. ``weight`` scales how much the
+    clinic's own cases count (1.0 = as in the demo, 0 = not at all)."""
     payload = tuple(payload)
-    if not payload:
+    if not payload or weight == 0:
         return base
     known = set(base.known)
     s2r = dict(base.s2r)          # shallow copy; touched entries are copied below
@@ -131,9 +149,9 @@ def build_live_dataset(base: Dataset, payload: Iterable) -> Dataset:
                 touched.add(sym)
             for rank, rem in enumerate(rems):
                 w = LEARN_RANK_WEIGHTS[rank] if rank < len(LEARN_RANK_WEIGHTS) else 0.05
-                s2r[sym][rem] = round(s2r[sym].get(rem, 0.0) + w, 6)
+                s2r[sym][rem] = round(s2r[sym].get(rem, 0.0) + w * weight, 6)
     label = f"{base.source} + {len(payload)} saved case(s)"
-    return Dataset(frozenset(known), s2r, label, len(payload))
+    return Dataset(frozenset(known), s2r, label, len(payload), base.origin, base.books)
 
 
 def check_symptoms_against_dataset(dataset: Dataset, symptom_list: list) -> tuple:

@@ -53,9 +53,15 @@ class Job(QRunnable):
             result = self.fn()
         except Exception as e:                              # reported to the GUI, logged in full
             log.exception("Background job failed")
-            self.signals.failed.emit(f"{e}", traceback.format_exc())
+            try:
+                self.signals.failed.emit(f"{e}", traceback.format_exc())
+            except RuntimeError:                            # app is shutting down
+                pass
             return
-        self.signals.done.emit(result)
+        try:
+            self.signals.done.emit(result)
+        except RuntimeError:                                # app is shutting down
+            pass
 
 
 _ACTIVE: set = set()     # keep jobs alive until their signals have fired

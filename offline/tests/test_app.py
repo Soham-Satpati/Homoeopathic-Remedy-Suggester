@@ -23,6 +23,26 @@ def qapp():
 
 
 @pytest.fixture(autouse=True)
+def no_leftover_jobs(qapp):
+    yield
+    from PySide6.QtCore import QEvent, QThreadPool
+    assert QThreadPool.globalInstance().waitForDone(30000), "background jobs still running after the test"
+    for w in QApplication.topLevelWidgets():                # one app per process, like the real thing
+        w.close()
+        w.deleteLater()
+    QApplication.sendPostedEvents(None, QEvent.DeferredDelete)
+    QApplication.processEvents()
+
+
+@pytest.fixture(autouse=True)
+def fast_matching(monkeypatch):
+    """Semantic matching with the stand-in embedder (numpy) instead of word overlap over 20k symptoms."""
+    import horus.embeddings
+    from legacy import FakeEmbedder
+    monkeypatch.setattr(horus.embeddings, "load_embedder", lambda *a, **k: FakeEmbedder())
+
+
+@pytest.fixture(autouse=True)
 def dialogs(monkeypatch):
     """Modal message boxes would block a headless test: record them instead."""
     shown = []
@@ -50,7 +70,7 @@ def ctx(tmp_path, monkeypatch, qapp):
     return c
 
 
-def wait(cond, timeout=60):
+def wait(cond, timeout=120):
     t = time.time()
     while not cond():
         QTest.qWait(50)
@@ -154,7 +174,7 @@ def test_kiosk_intake_to_case(ctx, dialogs):
 def test_settings_tabs_follow_role_and_backup(ctx, tmp_path):
     win = _signed_in(ctx)
     tabs = [win.settings.tabs.tabText(i) for i in range(win.settings.tabs.count())]
-    assert tabs == ["My account", "Backups", "Users", "Clinic & AI", "Audit log"]
+    assert tabs == ["My account", "Backups", "Users", "Books && weighting", "Clinic && AI", "Audit log"]
     from horus_app.admin import make_backup
     ctx.settings["backup_dir"] = str(tmp_path / "bk")
     p = make_backup(ctx)
@@ -282,3 +302,37 @@ def test_reanalysis_updates_same_case_and_delete_case_relearns(ctx):
     assert ctx.session.list_cases(pid) == [] and ctx.engine.learned_cases == 0
     assert "zz unique learning symptom" not in ctx.engine.dataset.s2r
     win.close()
+
+
+def test_admin_deletes_own_account_and_sole_user_deletes_clinic(ctx, monkeypatch):
+    import horus_app.main_window as mw
+    win = _signed_in(ctx)
+    s = ctx.session
+    pid = s.create_patient({"name": "Stays"})
+    # with another admin: only the account goes
+    s.add_user("other", "Other Admin", "admin", "temp-pass-1")
+    win.on_signed_in()
+    assert ctx.session.account_deletion_plan() == "account"
+
+    class FakeLogin:                                      # the next person signs in
+        def __init__(self, store, *a, **k):
+            self.session = store.login("other", "temp-pass-1")
+
+        def exec(self):
+            return mw.QDialog.Accepted
+    monkeypatch.setattr(mw, "LoginDialog", FakeLogin)
+    ctx.session.delete_own_account("password-123")
+    win._account_deleted("account", "", False)
+    assert ctx.session.user.username == "other" and ctx.session.get_patient(pid)
+    assert "admin" not in ctx.store.usernames()
+
+    # the last user deletes the clinic → app restarts into setup
+    ctx.session.set_user_active(ctx.session.list_users()[0]["id"], True)  # no-op for "other"
+    assert ctx.session.account_deletion_plan() == "clinic"
+    ctx.settings["backup_dir"] = str(ctx.paths.user / "bk")
+    from horus_app.admin import make_backup
+    bk = make_backup(ctx)
+    db = ctx.db_path
+    win._account_deleted("clinic", "temp-pass-1", True)
+    assert win.restart_setup and not db.exists() and not bk.exists()
+    assert ctx.store is None and ctx.session is None

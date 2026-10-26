@@ -310,3 +310,67 @@ def test_update_case_merges_and_audits(clinic):
     c = s.list_cases(pid)[0]
     assert c["report"]["caseEssence"] == "later" and c["top_remedies"] == ["sepia"]
     assert "case.updated" in [e["action"] for e in s.audit_entries()]
+
+
+def test_decision_config_is_admin_only_and_audited(clinic):
+    store, _, admin = clinic
+    assert admin.decision_config() == {}
+    admin.set_decision_config({"books": ["rheumatic"], "learned_weight": 0.5})
+    admin.add_user("drc", "Dr C", "doctor", "temp-pass-9")
+    doc = store.login("drc", "temp-pass-9")
+    assert doc.decision_config()["books"] == ["rheumatic"]            # doctors read the clinic default
+    with pytest.raises(PermissionDenied):
+        doc.set_decision_config({})
+    assert "settings.decision" in [e["action"] for e in admin.audit_entries()]
+
+
+def test_admin_self_delete_with_another_admin(clinic):
+    store, _, admin = clinic
+    pid = admin.create_patient({"name": "Kept"})
+    _add_case(admin, pid)
+    admin.add_user("second", "Second Admin", "admin", "temp-pass-1")
+    admin.add_user("desk", "Desk", "staff", "temp-pass-2")
+    assert admin.account_deletion_plan() == "account"
+    with pytest.raises(AuthError):
+        admin.delete_own_account("wrong-password")
+    admin.delete_own_account(PW)
+    with pytest.raises(AuthError):
+        admin.list_patients()                                   # session ended
+    with pytest.raises(AuthError):
+        store.login("admin", PW)                                # cannot sign in again
+    assert "admin" not in store.usernames()
+    s2 = store.login("second", "temp-pass-1")
+    assert [u["username"] for u in s2.list_users()] == ["desk", "second"]
+    assert s2.list_cases(pid)[0]["author"] == "Dr Admin (deleted)"   # authorship kept in records
+    s2.add_user("admin", "New person", "doctor", "temp-pass-3")      # username is free again
+    assert "account.self_deleted" in [e["action"] for e in s2.audit_entries()]
+    assert store.verify_audit_chain()[0]
+
+
+def test_admin_self_delete_blocked_without_another_admin(clinic):
+    _, _, admin = clinic
+    admin.add_user("doc", "Doc", "doctor", "temp-pass-1")
+    assert admin.account_deletion_plan() == "blocked"
+    with pytest.raises(StoreError, match="only administrator"):
+        admin.delete_own_account(PW)
+    admin.add_user("doc2", "Doc2", "doctor", "temp-pass-1")
+    doc = admin.store.login("doc", "temp-pass-1")
+    assert doc.account_deletion_plan() == "blocked"            # non-admins can't use this
+    with pytest.raises(PermissionDenied):
+        doc.delete_own_account("temp-pass-1")
+
+
+def test_sole_user_deletes_the_clinic(tmp_path):
+    store, _ = Store.create(tmp_path / "data" / "h.db", edition="solo", clinic_name="Solo",
+                            admin_username="dr", admin_password=PW)
+    s = store.login("dr", PW)
+    s.create_patient({"name": "Gone"})
+    bk = s.backup(tmp_path / "backups" / "x.horusbak")
+    assert s.account_deletion_plan() == "clinic"
+    with pytest.raises(StoreError):
+        s.delete_own_account(PW)
+    with pytest.raises(AuthError):
+        s.delete_clinic("wrong-password")
+    assert (tmp_path / "data" / "h.db").exists()
+    s.delete_clinic(PW, delete_backups_in=tmp_path / "backups")
+    assert not list((tmp_path / "data").glob("h.db*")) and not bk.exists()

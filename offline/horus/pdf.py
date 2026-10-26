@@ -24,7 +24,8 @@ def build_pdf(patient_id: str, categorised: dict, report: dict,
               report_enhanced: dict = None,
               added_symptoms: list = None,
               comparative_summary: str = None,
-              generated_on: datetime | None = None) -> bytes:
+              generated_on: datetime | None = None,
+              sources_note: str | None = None) -> bytes:
     buf = io.BytesIO()
     doc = SimpleDocTemplate(
         buf, pagesize=A4,
@@ -221,6 +222,8 @@ def build_pdf(patient_id: str, categorised: dict, report: dict,
                 Paragraph(comparative_summary, body_s),
             ])
 
+    if sources_note:
+        elems.extend([Spacer(1, 10), Paragraph("SOURCES AND WEIGHTING", label_s), P(sources_note, small_s)])
     elems.extend([
         Spacer(1, 20),
         HRFlowable(width="100%", thickness=0.3, color=colors.HexColor("#ddd"), spaceAfter=6),

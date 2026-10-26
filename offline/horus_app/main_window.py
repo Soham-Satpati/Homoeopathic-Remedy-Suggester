@@ -111,6 +111,9 @@ class MainWindow(QMainWindow):
         self.kiosk.submitted.connect(self._update_badges)
         self.settings.restore_requested.connect(self.restore)
         self.settings.lan_toggled.connect(self.set_lan)
+        self.settings.books_changed.connect(self._books_changed)
+        self.settings.account_deleted.connect(self._account_deleted)
+        self.restart_setup = False
         self.lan_event.connect(self._on_lan_event)
 
         self._filter = _ActivityFilter(self)
@@ -152,6 +155,7 @@ class MainWindow(QMainWindow):
         self._update_badges()
         self._update_ai_status()
         if self.ctx.engine is not None:
+            self._apply_clinic_config()
             run_job(self.ctx.refresh_learning)
         if self.ctx.store.edition == "clinic_lan" and u.can("intakes.write") and self.ctx.settings.get("lan_auto"):
             self.set_lan(True)
@@ -187,11 +191,12 @@ class MainWindow(QMainWindow):
     def _load_engine(self):
         def done(engine):
             self.ctx.engine = engine
-            self.st_engine.setText(f"Dataset ready · {len(engine.dataset.s2r):,} symptoms · "
-                                   f"{len(engine.dataset.remedy_universe)} remedies · matching: "
-                                   f"{engine.matching_mode}")
+            self._apply_clinic_config()
             self.case.refresh_capabilities()
             run_job(self.ctx.refresh_learning)
+            self.st_engine.setText("Preparing the symptom index…")
+            run_job(engine.warm_up, lambda _r: self._update_engine_status(),
+                    lambda m, _tb: self._update_engine_status())
             if self.ctx.ai_ready and self.ctx.settings.get("ai_preload", True):
                 self.st_ai.setText("AI: starting…")
                 run_job(self.ctx.llm.start, lambda _r: self._update_ai_status(),
@@ -201,6 +206,25 @@ class MainWindow(QMainWindow):
             self.st_engine.setText("Dataset failed to load")
             error(self, "HoRUS could not load its dataset", msg, tb)
         run_job(self.ctx.load_engine, done, fail)
+
+    def _apply_clinic_config(self):
+        from .decision import clinic_config
+        if self.ctx.engine is not None and self.ctx.session is not None:
+            self.ctx.engine.set_config(clinic_config(self.ctx))
+            self.case.refresh_decision()
+
+    def _update_engine_status(self):
+        e = self.ctx.engine
+        if e is None:
+            return
+        ds = e.dataset
+        self.st_engine.setText(f"{len(e.config.books)} book(s) · {len(ds.s2r):,} symptoms · "
+                               f"{len(ds.remedy_universe)} remedies · matching: {e.matching_mode}")
+
+    def _books_changed(self):
+        self._update_engine_status()
+        self.case.refresh_decision()
+        run_job(self.ctx.engine.warm_up, lambda _r: self._update_engine_status())
 
     def _update_ai_status(self):
         if not self.ctx.llm and not self.ctx.transcriber:
@@ -287,7 +311,10 @@ class MainWindow(QMainWindow):
         if self.lan and self.lan.running:
             self.set_lan(False)
         if self.ctx.session:
-            self.ctx.session.logout()
+            try:
+                self.ctx.session.logout()
+            except Exception:
+                pass
 
     def sign_out(self):
         self._backup_on_exit()
@@ -341,6 +368,40 @@ class MainWindow(QMainWindow):
         else:
             self.close()
 
+    def _account_deleted(self, kind: str, password: str, delete_backups: bool):
+        if kind == "account":
+            info(self, "Account deleted", "Your account has been deleted.")
+            self.ctx.session = None
+            self.hide()
+            dlg = LoginDialog(self.ctx.store)
+            if dlg.exec() == QDialog.Accepted and dlg.session:
+                self.ctx.session = dlg.session
+                self.on_signed_in()
+                self.show()
+            else:
+                self._close_quietly()
+            return
+        # the only user: delete the clinic, then start again with first-time setup
+        import shutil
+        if self.lan and self.lan.running:
+            self.set_lan(False)
+        try:
+            self.ctx.session.delete_clinic(password, self.ctx.backup_dir if delete_backups else None)
+        except Exception as e:
+            return error(self, "Not deleted", str(e))
+        for folder in ("books", "lan", "cache"):
+            shutil.rmtree(self.ctx.paths.user / folder, ignore_errors=True)
+        self.ctx.store = self.ctx.session = self.ctx.engine = None
+        info(self, "Clinic deleted", "The clinic has been deleted from this computer. HoRUS will now start the "
+                                     "first-time setup.")
+        self.restart_setup = True
+        self._close_quietly()
+
+    def _close_quietly(self):
+        """Close with no one signed in (so no automatic backup is attempted)."""
+        self.ctx.session = None
+        self.close()
+
     def _backup_on_exit(self):
         s = self.ctx.session
         if s and s.user.can("backup") and self.ctx.settings.get("backup_on_exit", True):
@@ -350,7 +411,12 @@ class MainWindow(QMainWindow):
                 log.exception("Automatic backup failed")
 
     def closeEvent(self, ev):
+        from PySide6.QtCore import QThreadPool
         self._backup_on_exit()
+        self.ctx.shutdown()                            # stops the AI server, so AI jobs end quickly
+        QThreadPool.globalInstance().waitForDone(15000)  # never exit with background work running
         self._end_session()
-        self.ctx.shutdown()
+        self.idle_timer.stop()
+        self.badge_timer.stop()
+        QApplication.instance().removeEventFilter(self._filter)
         super().closeEvent(ev)

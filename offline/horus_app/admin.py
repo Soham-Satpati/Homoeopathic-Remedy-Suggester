@@ -39,6 +39,8 @@ def make_backup(ctx: AppContext, reason: str = "manual") -> Path:
 class SettingsPage(QWidget):
     restore_requested = Signal(Path)
     lan_toggled = Signal(bool)
+    books_changed = Signal()
+    account_deleted = Signal(str, str, bool)       # kind, password (clinic only), delete backups
 
     def __init__(self, ctx: AppContext):
         super().__init__()
@@ -60,8 +62,12 @@ class SettingsPage(QWidget):
             self.tabs.addTab(self._backup_tab(), "Backups")
         if u.can("users.manage"):
             self.tabs.addTab(self._users_tab(), "Users")
+        if u.can("cases.read"):
+            from .decision import BooksSettingsTab
+            self.tabs.addTab(BooksSettingsTab(self.ctx, on_books_changed=self.books_changed.emit),
+                             "Books && weighting")
         if u.can("settings"):
-            self.tabs.addTab(self._clinic_tab(), "Clinic & AI")
+            self.tabs.addTab(self._clinic_tab(), "Clinic && AI")
         if u.can("intakes.write") and self.ctx.store.edition == "clinic_lan":
             self.tabs.addTab(self._lan_tab(), "Tablets (LAN)")
         if u.can("audit.read"):
@@ -75,8 +81,60 @@ class SettingsPage(QWidget):
         v.addWidget(card(label(u.display_name, "h2"), label(f"Username {u.username} · role: {u.role}", "muted"),
                          row(button("Change password…", slot=lambda: ChangePasswordDialog(
                              self.ctx.session, self).exec()), None)))
+        if u.role == "admin":
+            plan = self.ctx.session.account_deletion_plan()
+            text = {"account": "Delete your account. Another administrator keeps running the clinic; cases you "
+                               "wrote stay in the records under your name, marked “(deleted)”.",
+                    "clinic": "You are the only user, so deleting your account deletes this clinic from this "
+                              "computer: every patient, case, intake and setting. This cannot be undone.",
+                    "blocked": "You are the only administrator. To delete your account, first make another "
+                               "user an administrator (Settings → Users)."}[plan]
+            btn = button("Delete my account…", danger=True, slot=lambda: self._delete_account(plan))
+            btn.setEnabled(plan != "blocked")
+            v.addWidget(card(label("Delete my account", "h2"), label(text, "muted"), row(btn, None)))
         v.addStretch(1)
         return w
+
+    def _delete_account(self, plan: str):
+        from PySide6.QtWidgets import QCheckBox
+        dlg = QDialog(self)
+        dlg.setWindowTitle("Delete my account")
+        dlg.setMinimumWidth(520)
+        vv = QVBoxLayout(dlg)
+        if plan == "clinic":
+            vv.addWidget(label("This permanently deletes the clinic from this computer: all patients, cases, "
+                               "intakes, users, books you added and the audit log. HoRUS then starts again "
+                               "with the first-time setup.", "warnbox"))
+            wipe_bk = QCheckBox(f"Also delete the backups in {self.ctx.backup_dir}")
+            wipe_bk.setChecked(True)
+            vv.addWidget(wipe_bk)
+            vv.addWidget(label("Backups copied elsewhere (USB drive, other computers) are not affected — delete "
+                               "those yourself if needed.", "muted"))
+        else:
+            vv.addWidget(label("Your account is deleted and you are signed out. You will not be able to sign in "
+                               "again. Patient records stay with the clinic.", "warnbox"))
+            wipe_bk = None
+        vv.addWidget(label("Type DELETE and your password to confirm."))
+        confirm_txt, pw = QLineEdit(), QLineEdit()
+        confirm_txt.setPlaceholderText("DELETE")
+        pw.setEchoMode(QLineEdit.Password)
+        pw.setPlaceholderText("Your password")
+        vv.addWidget(confirm_txt)
+        vv.addWidget(pw)
+        go = button("Delete permanently", danger=True, slot=dlg.accept)
+        go.setEnabled(False)
+        confirm_txt.textChanged.connect(lambda t: go.setEnabled(t.strip() == "DELETE"))
+        vv.addLayout(row(None, button("Cancel", slot=dlg.reject), go))
+        if dlg.exec() != QDialog.Accepted:
+            return
+        try:
+            if plan == "clinic":
+                self.account_deleted.emit("clinic", pw.text(), bool(wipe_bk and wipe_bk.isChecked()))
+            else:
+                self.ctx.session.delete_own_account(pw.text())
+                self.account_deleted.emit("account", "", False)
+        except Exception as e:
+            error(self, "Not deleted", str(e))
 
     # ── backups ──────────────────────────────────────────────────────────
     def _backup_tab(self) -> QWidget:

@@ -503,7 +503,64 @@ class Session:
         self.require("users.manage")
         return [dict(id=r["id"], username=r["username"], display_name=r["display_name"], role=r["role"],
                      active=bool(r["active"]), last_login=r["last_login"])
-                for r in self._con.execute("SELECT * FROM users ORDER BY username")]
+                for r in self._con.execute("SELECT * FROM users WHERE username NOT LIKE 'deleted~~%' ESCAPE '~' "
+                                           "ORDER BY username")]
+
+    # ── deleting one's own account (administrators) ─────────────────────
+    def account_deletion_plan(self) -> str:
+        """What deleting this account would do:
+        'account' — other users remain and another administrator can run the clinic;
+        'clinic'  — this is the only active user, so the clinic itself would be deleted;
+        'blocked' — other users remain but nobody else is an administrator."""
+        if self.user.role != "admin":
+            return "blocked"
+        others = self._con.execute("SELECT role FROM users WHERE active = 1 AND id != ?",
+                                   (self.user.id,)).fetchall()
+        if not others:
+            return "clinic"
+        return "account" if any(r["role"] == "admin" for r in others) else "blocked"
+
+    def delete_own_account(self, password: str) -> None:
+        """Delete the signed-in administrator's account (another administrator remains).
+
+        The account's copy of the clinic key is destroyed, so it can never sign in again, and the
+        username becomes free. Cases it wrote keep its name, marked "(deleted)", because clinical
+        records must show who wrote them. Ends this session.
+        """
+        if self.user.role != "admin":
+            raise PermissionDenied("Only an administrator can delete their own account here.")
+        plan = self.account_deletion_plan()
+        if plan == "blocked":
+            raise StoreError("You are the only administrator. Make another user an administrator first.")
+        if plan == "clinic":
+            raise StoreError("You are the only user — deleting your account deletes the whole clinic.")
+        if not self.verify_password(password, "account.delete_check"):
+            raise AuthError("Password is wrong.")
+        uid = self.user.id
+        with self._tx():
+            self._con.execute(
+                "UPDATE users SET active = 0, wrapped_dek = '{}', must_change_password = 0, "
+                "username = 'deleted~' || id || '~' || username, display_name = display_name || ' (deleted)' "
+                "WHERE id = ?", (uid,))
+        self.audit("account.self_deleted", str(uid))
+        self._sealer = None
+
+    def delete_clinic(self, password: str, delete_backups_in: Path | None = None) -> None:
+        """The only user deletes their account and with it the whole clinic: the database (patients,
+        cases, intakes, users, audit log) and optionally the backups in ``delete_backups_in``."""
+        if self.account_deletion_plan() != "clinic":
+            raise StoreError("Other users still use this clinic — delete only your own account instead.")
+        if not self.verify_password(password, "clinic.delete_check"):
+            raise AuthError("Password is wrong.")
+        path = self.store.path
+        self._sealer = None
+        self.store.close()
+        for p in (path, Path(str(path) + "-wal"), Path(str(path) + "-shm")):
+            if p.exists():
+                _shred(p)
+        if delete_backups_in is not None and Path(delete_backups_in).exists():
+            for b in iter_backups(delete_backups_in):
+                _shred(b)
 
     def add_user(self, username: str, display_name: str, role: str, temp_password: str) -> int:
         self.require("users.manage")
@@ -569,6 +626,20 @@ class Session:
         self.require("settings")
         self._con.execute("UPDATE meta SET value = ? WHERE key = 'clinic_name'", (name.strip(),))
         self.audit("settings.clinic_name")
+
+    def decision_config(self) -> dict:
+        """Clinic default for books and weighting (not secret; every signed-in user may read it)."""
+        raw = self.store._meta("decision_config")
+        try:
+            return json.loads(raw) if raw else {}
+        except ValueError:
+            return {}
+
+    def set_decision_config(self, config: dict) -> None:
+        self.require("settings")
+        self._con.execute("INSERT INTO meta(key, value) VALUES ('decision_config', ?) "
+                          "ON CONFLICT(key) DO UPDATE SET value = excluded.value", (json.dumps(config),))
+        self.audit("settings.decision", detail=json.dumps(config, sort_keys=True)[:900])
 
     def rotate_recovery_key(self) -> str:
         """Issue a new recovery key (the old one stops working)."""
@@ -828,6 +899,23 @@ class Session:
                 stats["intakes"] += 1
         self.audit("import.demo", detail=json.dumps(stats))
         return stats
+
+
+def _shred(p: Path) -> None:
+    """Overwrite then delete. (Solid-state drives may keep old blocks; the data is encrypted anyway,
+    and its key is gone with the database.)"""
+    try:
+        n = p.stat().st_size
+        with open(p, "r+b") as f:
+            f.write(os.urandom(min(n, 1 << 20)))
+            if n > 1 << 20:
+                f.seek(n - 1)
+                f.write(b"\0")
+            f.flush()
+            os.fsync(f.fileno())
+    except OSError:
+        pass
+    p.unlink(missing_ok=True)
 
 
 def _clean_details(d: dict) -> dict:

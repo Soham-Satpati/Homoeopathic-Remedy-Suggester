@@ -105,6 +105,7 @@ class CaseFlow(QWidget):
         self.case_saved = False
         self.case_id: int | None = None
         self.generation = 0           # bumps on every analysis; stale AI results are ignored
+        self.case_config = None       # per-case books & weighting; None = clinic default
         lay = QVBoxLayout(self)
         lay.setContentsMargins(0, 0, 0, 0)
         self.steps = QStackedWidget()
@@ -140,6 +141,9 @@ class CaseFlow(QWidget):
         for k, t in MODES:
             self.mode.addItem(t, k)
         form.addRow("Analysis", self.mode)
+        self.decision_lbl = label("", "muted")
+        self.decision_btn = button("Change…", slot=self._choose_decision)
+        form.addRow("Books & weighting", row(self.decision_lbl, None, self.decision_btn))
         v.addWidget(card(form))
 
         # words / structured
@@ -230,6 +234,8 @@ class CaseFlow(QWidget):
     def reset(self):
         self.generation += 1
         self.case_id = None
+        self.case_config = None
+        self.refresh_decision()
         if hasattr(self, "rp_busy"):
             self.rp_busy.stop()
         self.cat = self.report = None
@@ -379,9 +385,12 @@ class CaseFlow(QWidget):
             self.analyse_btn.setEnabled(True)
             error(self, "Analysis failed", msg, tb)
 
+        cfg = self.active_config()
+
         def work():   # instant: dataset ranking only; explanations follow in the background
             cat2 = engine.refresh(cat)
-            return cat2, engine.report(pid, cat2, patient_details=details, mode=mode, narrate=False)
+            return cat2, engine.report(pid, cat2, patient_details=details, mode=mode, narrate=False,
+                                       config=cfg)
         run_job(work, done, fail)
 
     def _narrate(self, gen: int, pid: str, details: dict, mode: str):
@@ -406,7 +415,8 @@ class CaseFlow(QWidget):
             if gen == self.generation:
                 self.rp_busy.stop()
                 self.rp_saved.setText(self.rp_saved.text() + " · AI explanations unavailable")
-        run_job(lambda: engine.report(pid, cat, patient_details=details, mode=mode), done, fail)
+        cfg = self.active_config()
+        run_job(lambda: engine.report(pid, cat, patient_details=details, mode=mode, config=cfg), done, fail)
 
     # ════════════════════════════════════════════════════════════════════
     # 3. REPORT
@@ -477,8 +487,41 @@ class CaseFlow(QWidget):
         self.saved.emit(pid)
 
     def _decision_record(self) -> dict:
-        """Which books and weights produced this ranking (filled in by the books feature)."""
-        return {}
+        """Which books and weights produced this ranking — stored with the case."""
+        cfg = self.active_config()
+        if cfg is None:
+            return {}
+        return {"decision": cfg.to_dict(), "sources": self.ctx.engine.describe(cfg)}
+
+    def active_config(self):
+        if self.ctx.engine is None:
+            return None
+        return self.case_config if self.case_config is not None else self.ctx.engine.config
+
+    def refresh_decision(self):
+        if not hasattr(self, "decision_lbl"):
+            return
+        e = self.ctx.engine
+        if e is None:
+            self.decision_lbl.setText("Loading books…")
+            self.decision_btn.setEnabled(False)
+            return
+        self.decision_btn.setEnabled(True)
+        cfg = self.active_config()
+        prefix = "This case" if self.case_config is not None else "Clinic default"
+        n = len(cfg.books)
+        bias = "classical weights" if cfg.is_unbiased else "custom weights"
+        self.decision_lbl.setText(f"{prefix} · {n} book{'s' if n != 1 else ''} · {bias}")
+        self.decision_lbl.setToolTip(e.describe(cfg))
+        self.decision_btn.setToolTip(e.describe(cfg))
+
+    def _choose_decision(self):
+        from .decision import CaseDecisionDialog
+        dlg = CaseDecisionDialog(self.ctx, self.active_config(), self)
+        if dlg.exec():
+            cfg = dlg.editor.config().resolve(self.ctx.engine.books)
+            self.case_config = None if cfg == self.ctx.engine.config else cfg
+            self.refresh_decision()
 
     def _pdf_name(self, suffix=""):
         pid = getattr(self, "current_pid", "case")
@@ -566,7 +609,7 @@ class CaseFlow(QWidget):
         n = self.ctx.engine.learned_cases
         self.sg_learned.setText(f"Clusters are updated with {n} saved case(s) from this clinic." if n else
                                 "No saved cases yet — suggestions come from the books alone.")
-        per, top = self.ctx.engine.suggestions(self.cat, top_n=10)
+        per, top = self.ctx.engine.suggestions(self.cat, top_n=10, config=self.active_config())
         seen, rows = set(), []
         for x in top:
             rows.append((x["symptom"], x["avg_prob"], x["triggered_by"]))
@@ -618,11 +661,13 @@ class CaseFlow(QWidget):
         self.cmp_busy.start("Analysing with the added symptoms" +
                             (" and writing a comparison with the offline AI…" if self.ctx.ai_ready else "…"))
 
+        cfg = self.active_config()
+
         def work():
             enh_cat, added = engine.enhanced_case(base_cat, selected)
             # dataset-only reports (instant); only the short comparative summary uses the AI
-            base = engine.report(pid, base_cat, extra_label="[BASE]", narrate=False)
-            enh = engine.report(pid, enh_cat, extra_label="[ENHANCED]", narrate=False)
+            base = engine.report(pid, base_cat, extra_label="[BASE]", narrate=False, config=cfg)
+            enh = engine.report(pid, enh_cat, extra_label="[ENHANCED]", narrate=False, config=cfg)
             summary = engine.comparative_summary(base, enh)
             return base, enh_cat, enh, added, summary
 

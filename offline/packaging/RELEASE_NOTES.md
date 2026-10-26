@@ -1,5 +1,15 @@
 ## HoRUS Offline for Windows
 
+### New in 1.1
+
+- **Books and decision bias.** Choose which books rank remedies, how strongly each counts, how much this clinic's own saved cases count, and the classical weights for mind, generals, particulars, modalities and causation. Set a clinic default in *Settings → Books & weighting* and change it for a single case from *New case*. The books and weights used are recorded on every case and printed on its PDF.
+- **Hering's Guiding Symptoms, vol. I** added as a third book (45 remedies, about 18,000 symptoms), with its own symptom clusters for suggestions.
+- **Add a book…** imports any book in the HoRUS JSON format and builds its clusters on this computer.
+- **Live clusters.** Symptom suggestions and remedy weights update when a case is saved, and roll back exactly when a case or patient is deleted. Cases can now be deleted individually. Re-analysing a case updates it instead of saving a duplicate.
+- **Suggestions now use every selected book's clusters.** 1.0 (like the online demo) only read the rheumatic book's table.
+- **Delete my account** for administrators. If another administrator remains, only the account is removed; if you are the only user, the clinic is deleted and HoRUS returns to first-time setup.
+- **Fixes:** the tick boxes on the symptom-suggestions and review screens are visible again; a rare crash when closing HoRUS while it was still preparing data.
+
 Clinical homeopathic intelligence that runs entirely on your computer — no internet, no cloud. Patient records are encrypted on the PC.
 
 ### Download and install

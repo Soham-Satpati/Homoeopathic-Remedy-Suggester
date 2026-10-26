@@ -15,6 +15,7 @@ from datetime import datetime
 from typing import Mapping
 
 from . import prompts
+from .books import Book, DecisionConfig, discover_books
 from .config import Paths
 from .dataset import (Dataset, build_live_dataset, check_symptoms_against_dataset,
                       learning_payload, load_base_dataset)
@@ -24,8 +25,7 @@ from .miasm import load_miasm_rubric
 from .parsing import SYMPTOM_GROUPS, empty_case, finalise_categorised, refresh_derived
 from .pdf import build_pdf
 from .probabilities import (SymptomIndex, build_live_conditional_probabilities,
-                            get_suggestions_per_symptom, get_top_suggestions,
-                            load_conditional_probabilities)
+                            get_suggestions_per_symptom, get_top_suggestions, load_book_cooccurrence)
 from .ranking import rank_remedies
 from .report import assemble_report, narration_inputs, no_match_report
 from .safety import detect_red_flags
@@ -38,7 +38,7 @@ _UNSET = object()
 class HorusEngine:
     def __init__(self, paths: Paths, embedder: Embedder | None = None,
                  llm: LLMBackend | None = None, transcriber: Transcriber | None = None,
-                 use_disk_cache: bool = True):
+                 use_disk_cache: bool = True, config: DecisionConfig | None = None):
         self.paths = paths
         self.embedder = embedder
         self.llm: LLMBackend = llm or NullLLM()
@@ -46,13 +46,79 @@ class HorusEngine:
         self.rubric = load_miasm_rubric(paths.miasm_rubric_path())
         self._emb_cache = (DatasetEmbeddingCache(embedder, paths.cache_dir if use_disk_cache else None)
                            if embedder is not None else None)
-        self._base: Dataset = load_base_dataset(paths)
-        self._live: Dataset = self._base
-        self._payload: tuple = ()
         self._learn_lock = threading.RLock()
-        self._cp_base = _UNSET
-        self._cp_key = _UNSET
-        self._cp_index: SymptomIndex | None = None
+        self._payload: tuple = ()
+        self._payload_version = 0
+        self._bases: dict = {}          # books → Dataset
+        self._lives: dict = {}          # (books, payload version, learned weight) → Dataset
+        self._cp_bases: dict = {}       # books → combined co-occurrence table
+        self._cp_indexes: dict = {}     # (books, payload version, learned weight) → SymptomIndex
+        self.reload_books()
+        self.config = (config or DecisionConfig()).resolve(self.books)
+
+    # ── books & decision settings ────────────────────────────────────────
+    def reload_books(self) -> None:
+        """Re-scan shipped and clinic-added books (after adding or removing one)."""
+        with self._learn_lock:
+            self.books: list[Book] = discover_books(self.paths)
+            self._bases.clear()
+            self._lives.clear()
+            self._cp_bases.clear()
+            self._cp_indexes.clear()
+            if hasattr(self, "config"):
+                self.config = self.config.resolve(self.books)
+
+    def set_config(self, config: DecisionConfig) -> None:
+        self.config = config.resolve(self.books)
+
+    def _cfg(self, config: DecisionConfig | None) -> DecisionConfig:
+        return self.config if config is None else config.resolve(self.books)
+
+    def _book_objs(self, ids: tuple) -> list[Book]:
+        by_id = {b.id: b for b in self.books}
+        return [by_id[i] for i in ids if i in by_id]
+
+    def warm_up(self, config: DecisionConfig | None = None) -> None:
+        """Load the selected books and embed their symptoms now, so the first analysis is fast."""
+        ds = self.dataset_for(config)
+        if self._emb_cache is not None:
+            self._emb_cache.get(tuple(sorted(ds.s2r)))
+        self._suggestion_index(config)
+
+    def describe(self, config: DecisionConfig | None = None) -> str:
+        return self._cfg(config).describe(self.books)
+
+    def _base_for(self, books: tuple) -> Dataset:
+        with self._learn_lock:
+            if books not in self._bases:
+                if len(self._bases) >= 4:
+                    self._bases.pop(next(iter(self._bases)))
+                self._bases[books] = load_base_dataset(self.paths, self._book_objs(books))
+            return self._bases[books]
+
+    def dataset_for(self, config: DecisionConfig | None = None) -> Dataset:
+        cfg = self._cfg(config)
+        with self._learn_lock:
+            key = (cfg.books, self._payload_version, cfg.learned_weight)
+            if key not in self._lives:
+                if len(self._lives) >= 6:
+                    self._lives.pop(next(iter(self._lives)))
+                self._lives[key] = build_live_dataset(self._base_for(cfg.books), self._payload,
+                                                      cfg.learned_weight)
+            return self._lives[key]
+
+    @staticmethod
+    def _book_weight_fn(ds: Dataset, cfg: DecisionConfig):
+        """None when every book counts 1.0 (the demo's behaviour)."""
+        weights = {b: cfg.weight_of(b) for b in cfg.books}
+        if all(w == 1.0 for w in weights.values()) or not ds.origin:
+            return None
+        origin = ds.origin
+
+        def bw(sym: str, rem: str) -> float:
+            src = origin.get(sym, {}).get(rem)
+            return max(weights.get(b, 1.0) for b in src) if src else 1.0   # learned-only pairs: 1.0
+        return bw
 
     @classmethod
     def from_defaults(cls, paths: Paths | None = None, llm: LLMBackend | None = None,
@@ -64,7 +130,7 @@ class HorusEngine:
     # ── dataset & live learning ──────────────────────────────────────────
     @property
     def dataset(self) -> Dataset:
-        return self._live
+        return self.dataset_for(None)
 
     @property
     def matching_mode(self) -> str:
@@ -85,10 +151,12 @@ class HorusEngine:
             if payload == self._payload:
                 return
             self._payload = payload
-            self._live = build_live_dataset(self._base, payload)
+            self._payload_version += 1
+            self._lives.clear()
+            self._cp_indexes.clear()
 
-    def check_symptoms(self, symptoms: list) -> tuple:
-        return check_symptoms_against_dataset(self._live, symptoms)
+    def check_symptoms(self, symptoms: list, config: DecisionConfig | None = None) -> tuple:
+        return check_symptoms_against_dataset(self.dataset_for(config), symptoms)
 
     # ── case parsing ─────────────────────────────────────────────────────
     def categorise(self, raw_text: str, mode: str = "case_studies") -> dict:
@@ -124,20 +192,35 @@ class HorusEngine:
         return detect_red_flags(raw_text, cat)
 
     # ── ranking & report ─────────────────────────────────────────────────
-    def rank(self, cat: dict, top_n: int = 10) -> list:
-        return rank_remedies(cat, self._live.s2r, self.embedder, self._emb_cache, top_n=top_n)
+    def rank(self, cat: dict, top_n: int = 10, config: DecisionConfig | None = None) -> list:
+        cfg = self._cfg(config)
+        ds = self.dataset_for(cfg)
+        return rank_remedies(cat, ds.s2r, self.embedder, self._emb_cache, top_n=top_n,
+                             category_weights=cfg.categories, modality_weight=cfg.modality_weight,
+                             book_weight=self._book_weight_fn(ds, cfg))
 
     def report(self, patient_id: str, categorised: dict, patient_details: dict | None = None,
-               mode: str = "case_studies", extra_label: str = "", narrate: bool = True) -> dict:
+               mode: str = "case_studies", extra_label: str = "", narrate: bool = True,
+               config: DecisionConfig | None = None) -> dict:
         """Rank from the dataset, then (if a model is available and ``narrate``) add filtered
-        explanations. ``narrate=False`` returns the instant, dataset-only report."""
+        explanations. ``narrate=False`` returns the instant, dataset-only report.
+        With an explicit ``config`` the report records which books and weights were used."""
+        out = self._report(patient_id, categorised, mode, extra_label, narrate, config)
+        if config is not None:
+            cfg = self._cfg(config)
+            out["_sources"] = cfg.describe(self.books)
+            out["_decision"] = cfg.to_dict()
+        return out
+
+    def _report(self, patient_id, categorised, mode, extra_label, narrate, config) -> dict:
         categorised = self.refresh(categorised)
-        ranked = self.rank(categorised, top_n=10)
+        ranked = self.rank(categorised, top_n=10, config=config)
+        universe = self.dataset_for(config).remedy_universe
         if not ranked:
             return no_match_report(categorised, self.rubric)
         g: dict = {}
         if not narrate:
-            return assemble_report(categorised, ranked, g, self._live.remedy_universe, self.rubric)
+            return assemble_report(categorised, ranked, g, universe, self.rubric)
         try:
             lines, remedy_block = narration_inputs(categorised, ranked)
             t, n = prompts.GENERATION["narrate"]
@@ -152,7 +235,7 @@ class HorusEngine:
         except Exception:
             # Explanation is optional — the dataset decision stands without it.
             log.exception("Narration failed; report built from dataset evidence only")
-        return assemble_report(categorised, ranked, g, self._live.remedy_universe, self.rubric)
+        return assemble_report(categorised, ranked, g, universe, self.rubric)
 
     def comparative_summary(self, report_base: dict, report_enhanced: dict) -> str:
         """Short narrative comparing two plans; empty string when no model is installed."""
@@ -169,21 +252,31 @@ class HorusEngine:
     def learned_cases(self) -> int:
         return len(self._payload)
 
-    def _suggestion_index(self) -> SymptomIndex | None:
-        if self._cp_base is _UNSET:
-            self._cp_base = load_conditional_probabilities(self.paths)
+    def cooccurrence_base(self, config: DecisionConfig | None = None):
+        """Combined co-occurrence table of the selected books (before learning)."""
+        books = self._cfg(config).books
         with self._learn_lock:
-            payload = self._payload
-            if self._cp_key is _UNSET or self._cp_key != payload:
-                cp = build_live_conditional_probabilities(self._cp_base, payload)
-                self._cp_index = SymptomIndex(cp) if cp is not None else None
-                self._cp_key = payload
-            return self._cp_index
+            if books not in self._cp_bases:
+                self._cp_bases[books] = load_book_cooccurrence(self._book_objs(books))
+            return self._cp_bases[books]
 
-    def suggestions(self, categorised: dict, top_n: int = 10) -> tuple[dict, list]:
+    def _suggestion_index(self, config: DecisionConfig | None = None) -> SymptomIndex | None:
+        cfg = self._cfg(config)
+        base = self.cooccurrence_base(cfg)
+        with self._learn_lock:
+            key = (cfg.books, self._payload_version, cfg.learned_weight)
+            if key not in self._cp_indexes:
+                if len(self._cp_indexes) >= 3:
+                    self._cp_indexes.pop(next(iter(self._cp_indexes)))
+                cp = build_live_conditional_probabilities(base, self._payload, cfg.learned_weight)
+                self._cp_indexes[key] = SymptomIndex(cp) if cp is not None else None
+            return self._cp_indexes[key]
+
+    def suggestions(self, categorised: dict, top_n: int = 10,
+                    config: DecisionConfig | None = None) -> tuple[dict, list]:
         """(per-symptom suggestions, global top suggestions) for the case's symptoms."""
         syms = [s["symptom"] for k in SYMPTOM_GROUPS for s in categorised.get(k, [])]
-        index = self._suggestion_index()
+        index = self._suggestion_index(config)
         return (get_suggestions_per_symptom(syms, index, top_n),
                 get_top_suggestions(syms, index, top_n))
 
@@ -235,10 +328,12 @@ class HorusEngine:
     @staticmethod
     def pdf(patient_id: str, categorised: dict, report: dict, patient_details: dict | None = None,
             report_enhanced: dict | None = None, added_symptoms: list | None = None,
-            comparative_summary: str | None = None, generated_on: datetime | None = None) -> bytes:
+            comparative_summary: str | None = None, generated_on: datetime | None = None,
+            sources_note: str | None = None) -> bytes:
         return build_pdf(patient_id, categorised, report, patient_details=patient_details,
                          report_enhanced=report_enhanced, added_symptoms=added_symptoms,
-                         comparative_summary=comparative_summary, generated_on=generated_on)
+                         comparative_summary=comparative_summary, generated_on=generated_on,
+                         sources_note=sources_note or report.get("_sources"))
 
 
 def _structured_text(cat: dict) -> str:

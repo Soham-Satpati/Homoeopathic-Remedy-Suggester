@@ -29,24 +29,27 @@ MIN_REMEDIES_SHOWN = 3       # …but always show at least this many
 LEXICAL_MIN_SIM = 0.34       # fallback threshold when the embedding model is unavailable
 
 
-def build_query_items(categorised: dict) -> list:
+def build_query_items(categorised: dict, category_weights: dict | None = None,
+                      modality_weight: float | None = None) -> list:
     """Patient items to match: (label, query_text, weight, group_key).
 
     Items sharing a group_key are alternative phrasings of ONE patient feature — a remedy is
     credited at most once per group. Each modality is its own group, so a modality attached
     to many symptoms still counts only once.
     """
+    cw = CATEGORY_WEIGHTS if category_weights is None else {**CATEGORY_WEIGHTS, **category_weights}
+    mw = MODALITY_WEIGHT if modality_weight is None else modality_weight
     q = []
-    for c in (categorised.get("causation", []) if CATEGORY_WEIGHTS["causation"] > 0 else []):
+    for c in (categorised.get("causation", []) if cw["causation"] > 0 else []):
         core = re.sub(r"^(ailments? from|after|since)\s+", "", c.strip(), flags=re.I)
         g = f"cause:{c.lower()}"
-        w = CATEGORY_WEIGHTS["causation"]
+        w = cw["causation"]
         for text in dict.fromkeys([f"ailments from {core}", core, f"{core}, ailments from"]):
             q.append((f"Ailments from {core}", text, w, g))
 
     mod_weight = {}
     for k in ("psychological", "general", "physical"):
-        w = CATEGORY_WEIGHTS[k]
+        w = cw[k]
         for s in categorised.get(k, []):
             if s.get("unverified"):
                 continue
@@ -55,13 +58,13 @@ def build_query_items(categorised: dict) -> list:
             for pol in ("worse", "better"):
                 for m in s.get(pol, []):
                     g = f"mod:{pol} {m.strip().lower()}"
-                    mod_weight[g] = max(mod_weight.get(g, 0), w * MODALITY_WEIGHT)
+                    mod_weight[g] = max(mod_weight.get(g, 0), w * mw)
                     q.append((f"{pol.title()} {m}", f"{pol} {m}", None, g))
     # whole-case modalities are generals in the classical hierarchy
     for pol in ("worse", "better"):
         for m in (categorised.get("case_modalities") or {}).get(pol, []):
             g = f"mod:{pol} {m.strip().lower()}"
-            mod_weight[g] = max(mod_weight.get(g, 0), CATEGORY_WEIGHTS["general"] * MODALITY_WEIGHT)
+            mod_weight[g] = max(mod_weight.get(g, 0), cw["general"] * mw)
             q.append((f"{pol.title()} {m} (whole case)", f"{pol} {m}", None, g))
     return [(lab, txt, (wt if wt is not None else mod_weight[g]), g) for lab, txt, wt, g in q]
 
@@ -129,8 +132,13 @@ def match_items_to_dataset(queries: list, s2r: dict, embedder: Embedder | None,
 
 
 def rank_remedies(categorised: dict, s2r: dict, embedder: Embedder | None,
-                  emb_cache: DatasetEmbeddingCache | None, top_n: int = 10) -> list:
-    queries = build_query_items(categorised)
+                  emb_cache: DatasetEmbeddingCache | None, top_n: int = 10, *,
+                  category_weights: dict | None = None, modality_weight: float | None = None,
+                  book_weight=None) -> list:
+    """``book_weight(dataset_symptom, remedy) -> float`` multiplies each match's credit by the weight
+    of the book it came from (None → every book counts 1.0, as in the demo). Items whose category
+    weight is 0 are left out entirely, as the demo does for causation."""
+    queries = [q for q in build_query_items(categorised, category_weights, modality_weight) if q[2] > 0]
     if not queries:
         return []
     matches = match_items_to_dataset(queries, s2r, embedder, emb_cache)
@@ -145,6 +153,11 @@ def rank_remedies(categorised: dict, s2r: dict, embedder: Embedder | None,
             rarity = 1.0 / (1.0 + np.log(len(rems)))   # generic rubrics ("restlessness") count less
             for rem, sc in rems.items():
                 credit = weight * sim * (sc / top) * rarity
+                if book_weight is not None:
+                    bw = book_weight(ds_sym, rem)
+                    if bw <= 0:
+                        continue
+                    credit *= bw
                 prev = best[rem].get(group)
                 if prev is None or credit > prev[0]:
                     best[rem][group] = (credit, {"patient": label, "dataset": ds_sym,

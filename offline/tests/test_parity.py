@@ -229,8 +229,19 @@ def test_comparative_and_followups_match_demo(legacy, gemini, fake_llm, paths):
 
 
 # ── co-occurrence suggestions ────────────────────────────────────────────────
+# The demo loaded only the first co-occurrence file it found (the rheumatic table) and ignored the
+# case-studies table. The engine combines the tables of every selected book; these tests give the
+# demo's functions that same combined table, so they check the algorithm is unchanged.
+@pytest.fixture
+def same_tables(legacy, learned, monkeypatch):
+    _, engine = learned
+    base = engine(False).cooccurrence_base()
+    monkeypatch.setattr(legacy, "load_conditional_probabilities", lambda: base.copy())
+    return base
+
+
 @pytest.mark.parametrize("case", CASES, ids=CASE_IDS)
-def test_suggestions_match_demo(legacy, learned, case):
+def test_suggestions_match_demo(legacy, learned, case, same_tables):
     patients, engine = learned
     legacy.load_patients = lambda: patients
     cp_old = legacy.build_live_conditional_probabilities(legacy._learning_payload())
@@ -242,7 +253,7 @@ def test_suggestions_match_demo(legacy, learned, case):
     assert (new_per, new_top) == (old_per, old_top)
 
 
-def test_suggestions_on_dataset_symptoms(legacy, learned):
+def test_suggestions_on_dataset_symptoms(legacy, learned, same_tables):
     """Real cases rarely use exact dataset wording, so also query with dataset symptoms
     that are guaranteed to have co-occurrence rows."""
     patients, engine = learned
@@ -255,6 +266,16 @@ def test_suggestions_on_dataset_symptoms(legacy, learned):
     new = engine(False).suggestions(cat, 10)
     assert new == old
     assert any(new[0].values()) and new[1], "query should produce suggestions"
+
+
+def test_combined_tables_include_every_selected_book(paths):
+    from horus.probabilities import load_conditional_probabilities
+    e = make_engine(paths, semantic=False)
+    rheum = load_conditional_probabilities(paths)            # what the demo used
+    combined = e.cooccurrence_base()
+    assert len(combined) > len(rheum)                       # case-studies pairs now included
+    assert e.cooccurrence_base(__import__("horus.books", fromlist=["x"]).DecisionConfig.classical(
+        ("rheumatic",))).shape == rheum.shape
 
 
 def test_live_conditional_probabilities_match_demo(legacy, paths):
@@ -327,7 +348,9 @@ def test_ranking_with_real_model_matches_demo(legacy, paths, case):
     # The engine pins the CPU so every clinic machine ranks identically. Run the demo on the CPU
     # too: on Apple Silicon it would otherwise pick the GPU (MPS), whose arithmetic differs slightly.
     legacy.system_data = {"model": SentenceTransformer(str(_real_model_dir()), device="cpu"), "clusters": {}}
-    e = HorusEngine(paths, embedder=load_embedder(_real_model_dir()), use_disk_cache=False)
+    from horus.books import DEMO_BOOK_IDS, DecisionConfig
+    e = HorusEngine(paths, embedder=load_embedder(_real_model_dir()), use_disk_cache=False,
+                    config=DecisionConfig.classical(DEMO_BOOK_IDS))
     e.learn_from(patients)
     cat = finalise_categorised(copy.deepcopy(case["parsed"]), case["raw"])
     old = legacy.rank_remedies_from_dataset(copy.deepcopy(cat), legacy._s2r_unified, top_n=10)

@@ -1,0 +1,17 @@
+{
+  "books": [
+    {"id": "rheumatic", "title": "Rheumatic remedies",
+     "json": "rheumatic.json", "pkl": "rheumatic_model.pkl",
+     "cooccurrence": "rheumatic_conditional_probabilities.csv",
+     "description": "125 remedies with rheumatic indications"},
+    {"id": "case_studies", "title": "Case studies (combined)",
+     "json": "Case_studies_combined.json", "pkl": "case_studies_model.pkl",
+     "cooccurrence": "Case_studies_combined_conditional_probabilities.csv",
+     "description": "33 remedies from clinical case studies"},
+    {"id": "guiding_symptoms_1", "title": "Hering — Guiding Symptoms, vol. I",
+     "json": "Guiding_Symptoms_of_our_Materia_Medica-I.json",
+     "cooccurrence": "Guiding_Symptoms_of_our_Materia_Medica-I_conditional_probabilities.csv.gz",
+     "exclude_chapters": ["relationship"],
+     "description": "Hering's Guiding Symptoms of our Materia Medica, volume I (45 remedies, Abies nigra to Aloe). The 'relationship' chapter (remedy relationships, not symptoms) is left out."}
+  ]
+}

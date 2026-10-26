@@ -127,3 +127,34 @@ Gemma 4 E4B was the most faithful model:
 Low agreement on the top-1 remedy across all models reflects granularity: the models split symptoms more finely than the reference parses. It does not reflect invented content. The doctor reviews the symptoms before analysis in any case.
 
 Switching models later only needs `--llm <key>` in `fetch_models.py`; no code changes.
+
+## Books and decision bias (1.1)
+
+Books are listed in `books.json` at the repository root (shipped with the app). Each entry names:
+- the book JSON
+- an optional pickled index
+- the co-occurrence table used for suggestions
+- optionally, chapters to leave out
+
+Books a clinic adds in the app live in `%LOCALAPPDATA%\HoRUS\books`.
+
+| Book | Remedies | Symptoms | Co-occurrence table |
+|---|---|---|---|
+| Rheumatic remedies | 125 | 4,604 | shipped (original) |
+| Case studies (combined) | 33 | — | shipped (original) |
+| Hering, *Guiding Symptoms* vol. I | 45 | 18,635 (the "relationship" chapter is left out) | generated with `horus/clusters.py` |
+
+`horus/clusters.py` builds a co-occurrence table with the method of the original tables:
+1. Cluster the book's entries with HDBSCAN on remedy and modality features (as in `symptom_clustering_pro.py`).
+2. Within a cluster, P(B|A) = shared remedies ÷ remedies listing A, rounded to 4 places.
+
+On the rheumatic book this reproduces 96% of the original table's pairs, with identical probabilities on 98% of them. For large books, each symptom keeps its 15 strongest partners.
+
+`DecisionConfig` (`horus/books.py`) holds which books are used and every weight:
+- per book (multiplies the credit of matches from that book)
+- saved clinic cases (scales live learning)
+- mind / generals / particulars / modalities / causation
+
+With the demo's two books and every weight at its classical value, ranking is identical to the online demo; `tests/test_parity.py` checks this. The clinic default is stored in the encrypted database: only administrators can change it, and each change is logged in the audit log.
+
+Data note: the Guiding Symptoms JSON contains some non-symptom text from the printed book, such as publication history in "general characteristics". It is kept as supplied. Such lines rarely match a patient's words, but it is worth cleaning at source.

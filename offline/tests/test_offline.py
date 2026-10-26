@@ -127,7 +127,7 @@ def test_embedding_cache_on_disk_gives_identical_results(paths, tmp_path):
     first = make_engine(paths, semantic=True, disk_cache=True)
     cat = first.finalise(copy.deepcopy(case["parsed"]), case["raw"])
     ranked_fresh = first.rank(copy.deepcopy(cat))
-    files = list(paths.cache_dir.glob("dataset_emb_*.npy"))
+    files = list(paths.cache_dir.glob("emb_store_*.npz"))
     assert len(files) == 1
     second = make_engine(paths, semantic=True, disk_cache=True)   # loads from disk
     assert second.rank(copy.deepcopy(cat)) == ranked_fresh
@@ -158,3 +158,27 @@ def test_instant_report_skips_the_model(paths, fake_llm):
     assert fake_llm.calls == [] and quick["top10Remedies"]
     no_ai = make_engine(paths, semantic=False).report("P", cat)
     assert quick == no_ai                     # same as a report with no model at all
+
+
+def test_embedding_cache_only_embeds_new_texts(tmp_path):
+    from horus.embeddings import DatasetEmbeddingCache
+
+    class Counting:
+        model_id = "counting"
+        seen: list = []
+
+        def encode(self, texts, batch_size=32):
+            self.seen.extend(texts)
+            import numpy as np
+            from legacy import fake_encode
+            return fake_encode(texts)
+    emb = Counting()
+    c = DatasetEmbeddingCache(emb, tmp_path)
+    a = c.get(("alpha", "beta", "gamma"))
+    assert emb.seen == ["alpha", "beta", "gamma"]
+    b = c.get(("beta", "delta", "alpha"))                  # new selection / new saved case
+    assert emb.seen[3:] == ["delta"]
+    assert (b[0] == a[1]).all() and (b[2] == a[0]).all()
+    c2 = DatasetEmbeddingCache(emb, tmp_path)               # next start: everything from disk
+    c2.get(("delta", "gamma"))
+    assert len(emb.seen) == 4
