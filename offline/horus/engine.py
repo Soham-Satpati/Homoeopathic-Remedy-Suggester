@@ -328,7 +328,16 @@ class HorusEngine:
             score = x["avg_prob"] * x["support"] ** 0.5 * (1.0 + bonus)
             out.append((score, {**x, "remedies": hits}))
         out.sort(key=lambda t: (-t[0], -t[1]["support"], len(t[1]["symptom"]), t[1]["symptom"]))
-        return [x for _, x in out[:top_n]]
+        # take turns between the patient's symptoms, so one symptom with many links can't fill the list
+        groups: dict = {}
+        for _, x in out:
+            groups.setdefault(x["triggered_by"], []).append(x)
+        picked = []
+        while len(picked) < top_n and any(groups.values()):
+            for g in list(groups):
+                if groups[g] and len(picked) < top_n:
+                    picked.append(groups[g].pop(0))
+        return picked
 
     def _suggestion_resolver(self, index: SymptomIndex, syms: list, config: DecisionConfig | None = None):
         """Production suggestions:

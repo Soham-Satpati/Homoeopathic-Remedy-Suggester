@@ -365,6 +365,12 @@ def test_ranking_with_real_model_matches_demo(legacy, paths, case):
 
 def _ranking_diffs(old: list, new: list, tol: float = 2e-3) -> list:
     out = []
+    # two remedies whose scores tie to rounding may swap places
+    new = list(new)
+    for i in range(len(new) - 1):
+        if (i < len(old) - 1 and new[i]["name"] == old[i + 1]["name"] and new[i + 1]["name"] == old[i]["name"]
+                and abs(float(old[i]["score"]) - float(old[i + 1]["score"])) <= tol * max(1.0, float(old[i]["score"]))):
+            new[i], new[i + 1] = new[i + 1], new[i]
     if [r["name"] for r in old] != [r["name"] for r in new]:
         out.append(f"order demo={[r['name'] for r in old]} app={[r['name'] for r in new]}")
         return out

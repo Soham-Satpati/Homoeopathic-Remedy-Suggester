@@ -113,14 +113,17 @@ def test_headache_case_with_real_model(paths, capsys):
     e = HorusEngine(paths, embedder=load_embedder(_real_model_dir()), use_disk_cache=False)
     per, top = e.suggestions(HEADACHE_CASE)
     ranked = e.rank(HEADACHE_CASE)
+    def show(text):
+        print(text.encode("ascii", "replace").decode())
     with capsys.disabled():
-        print("\n::notice title=headache suggestions::" + " | ".join(
-            f"{x['symptom'][:60]} ({x['avg_prob']:.0%}, {x['triggered_by']} via {x.get('via', '=')[:40]})"
+        show("\n::notice title=headache suggestions::" + " | ".join(
+            f"{x['symptom'][:60]} ({x['avg_prob']:.0%}, {x['triggered_by']} via {x.get('via', '=')[:40]}, {x['remedies']})"
             for x in top))
-        print("::notice title=headache ranking::" + " | ".join(
+        show("::notice title=headache ranking::" + " | ".join(
             f"{r['name']} {r['coverage']}/{r['total_items']}: " + "; ".join(
-                f"{ev['patient']}≈{ev['dataset'][:40]} {ev['similarity']}" for ev in r["evidence"])
+                f"{ev['patient']} ~ {ev['dataset'][:40]} {ev['similarity']}" for ev in r["evidence"])
             for r in ranked))
     assert top and len(top) >= 5
+    assert len({x["triggered_by"] for x in top}) >= 2          # more than one symptom is followed up
     names = [r["name"].casefold() for r in ranked]
     assert len(names) == len(set(names))

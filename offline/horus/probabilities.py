@@ -174,10 +174,17 @@ SHARED_PRIOR = 2.0
 _JUNK = re.compile(r"[\^■□•|\\{}<>~_]|\.{3,}|\b[a-z]\b.*\b[a-z]\b.*\b[a-z]\b")
 
 
+_FRAGMENT = re.compile(r"(and|or|in|at|on|about|across|as|with|from|to|of|a|an|the|but|also|then|which|"
+                       r"who|when|while|after|before|during|for|by|into|under|over|up|set)\b")
+
+
 def looks_like_symptom(text: str) -> bool:
     """Hide scanning debris ("a girl. ^enuresis", "m n'gfit: restless") from suggestions."""
     t = str(text).strip()
     if len(t) < 4 or _JUNK.search(t.lower().replace(" a ", " ")):
+        return False
+    # sub-entries cut from their heading ("in stomach", "and creeping under l. eye", "a man, set")
+    if _FRAGMENT.match(t.lower()) and not t.lower().startswith("as if"):
         return False
     letters = sum(c.isalpha() or c.isspace() for c in t)
     return letters / len(t) >= 0.9
