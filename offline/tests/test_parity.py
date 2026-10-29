@@ -350,7 +350,7 @@ def test_ranking_with_real_model_matches_demo(legacy, paths, case):
     legacy.system_data = {"model": SentenceTransformer(str(_real_model_dir()), device="cpu"), "clusters": {}}
     from horus.books import DEMO_BOOK_IDS, DecisionConfig
     e = HorusEngine(paths, embedder=load_embedder(_real_model_dir()), use_disk_cache=False,
-                    config=DecisionConfig.classical(DEMO_BOOK_IDS))
+                    config=DecisionConfig.classical(DEMO_BOOK_IDS), demo_parity=True)
     e.learn_from(patients)
     cat = finalise_categorised(copy.deepcopy(case["parsed"]), case["raw"])
     old = legacy.rank_remedies_from_dataset(copy.deepcopy(cat), legacy._s2r_unified, top_n=10)

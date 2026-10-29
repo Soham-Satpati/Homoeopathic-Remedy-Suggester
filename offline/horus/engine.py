@@ -26,7 +26,7 @@ from .parsing import SYMPTOM_GROUPS, empty_case, finalise_categorised, refresh_d
 from .pdf import build_pdf
 from .probabilities import (SymptomIndex, build_live_conditional_probabilities,
                             get_suggestions_per_symptom, get_top_suggestions, load_book_cooccurrence)
-from .ranking import rank_remedies
+from .ranking import nearest_symptoms, rank_remedies
 from .report import assemble_report, narration_inputs, no_match_report
 from .safety import detect_red_flags
 
@@ -38,8 +38,13 @@ _UNSET = object()
 class HorusEngine:
     def __init__(self, paths: Paths, embedder: Embedder | None = None,
                  llm: LLMBackend | None = None, transcriber: Transcriber | None = None,
-                 use_disk_cache: bool = True, config: DecisionConfig | None = None):
+                 use_disk_cache: bool = True, config: DecisionConfig | None = None,
+                 demo_parity: bool = False):
+        """``demo_parity=True`` reproduces the online demo exactly (used by the parity tests):
+        remedy names that differ only in capitalisation stay separate, time-of-day modalities may
+        match any time, and suggestions need the exact dataset wording."""
         self.paths = paths
+        self.demo_parity = demo_parity
         self.embedder = embedder
         self.llm: LLMBackend = llm or NullLLM()
         self.transcriber: Transcriber = transcriber or NullTranscriber()
@@ -109,7 +114,8 @@ class HorusEngine:
             if books not in self._bases:
                 if len(self._bases) >= 4:
                     self._bases.pop(next(iter(self._bases)))
-                self._bases[books] = load_base_dataset(self.paths, self._book_objs(books), progress=progress)
+                self._bases[books] = load_base_dataset(self.paths, self._book_objs(books), progress=progress,
+                                                       merge_remedy_names=not self.demo_parity)
             return self._bases[books]
 
     def dataset_for(self, config: DecisionConfig | None = None, progress=None) -> Dataset:
@@ -213,7 +219,8 @@ class HorusEngine:
         ds = self.dataset_for(cfg)
         return rank_remedies(cat, ds.s2r, self.embedder, self._emb_cache, top_n=top_n,
                              category_weights=cfg.categories, modality_weight=cfg.modality_weight,
-                             book_weight=self._book_weight_fn(ds, cfg))
+                             book_weight=self._book_weight_fn(ds, cfg),
+                             strict_times=not self.demo_parity)
 
     def report(self, patient_id: str, categorised: dict, patient_details: dict | None = None,
                mode: str = "case_studies", extra_label: str = "", narrate: bool = True,
@@ -293,8 +300,53 @@ class HorusEngine:
         """(per-symptom suggestions, global top suggestions) for the case's symptoms."""
         syms = [s["symptom"] for k in SYMPTOM_GROUPS for s in categorised.get(k, [])]
         index = self._suggestion_index(config)
-        return (get_suggestions_per_symptom(syms, index, top_n),
-                get_top_suggestions(syms, index, top_n))
+        if self.demo_parity or index is None:
+            return (get_suggestions_per_symptom(syms, index, top_n),
+                    get_top_suggestions(syms, index, top_n))
+        resolve = self._suggestion_resolver(index, syms, config)
+        per = get_suggestions_per_symptom(syms, index, top_n, resolve)
+        pool = get_top_suggestions(syms, index, max(60, top_n * 6), resolve)
+        return per, self._rank_suggestions(categorised, pool, top_n, config)
+
+    def _rank_suggestions(self, categorised: dict, pool: list, top_n: int, config) -> list:
+        """Order suggestions so the ones worth asking about come first: a symptom listed under the
+        case's leading remedies helps confirm or tell them apart. Each suggestion records which of
+        those remedies it points to."""
+        if not pool:
+            return []
+        s2r = self.dataset_for(config).s2r
+        try:
+            leaders = [r["name"] for r in self.rank(categorised, top_n=5, config=config)]
+        except Exception:
+            log.exception("Ranking for suggestions failed")
+            leaders = []
+        out = []
+        for x in pool:
+            rems = s2r.get(x["symptom"].strip().lower(), {})
+            hits = [r for r in leaders if r in rems]
+            bonus = sum(1.0 / (1 + leaders.index(r)) for r in hits)
+            score = x["avg_prob"] * x["support"] ** 0.5 * (1.0 + bonus)
+            out.append((score, {**x, "remedies": hits}))
+        out.sort(key=lambda t: (-t[0], -t[1]["support"], len(t[1]["symptom"]), t[1]["symptom"]))
+        return [x for _, x in out[:top_n]]
+
+    def _suggestion_resolver(self, index: SymptomIndex, syms: list, config: DecisionConfig | None = None):
+        """Production suggestions:
+
+        * each patient symptom is mapped to the closest symptoms the co-occurrence tables contain
+          ("headache in the forehead for ten days" → "pain in forehead"), so suggestions no longer
+          depend on the doctor using the book's exact wording;
+        * links are weighted by how many remedies share them (``probabilities.SHARED_PRIOR``).
+        """
+        s2r = self.dataset_for(config).s2r
+        lows = [s.strip().lower() for s in syms if s.strip()]
+        # every symptom also borrows the links of its close neighbours ("heaviness of head" ←
+        # "heaviness in head", "head heavy"): a single book entry rarely has links worth showing
+        found = nearest_symptoms(list(dict.fromkeys(lows)), index.keys, self.embedder, self._emb_cache)
+        table = {s: ([(s, 1.0)] if index.has(s) else []) + [(k, sim) for k, sim in found.get(s, []) if k != s]
+                 for s in lows}
+        table = {s: [(k, sim, len(s2r.get(k, ())) or 1) for k, sim in v] for s, v in table.items()}
+        return lambda ps: table.get(ps, [])
 
     @property
     def has_cooccurrence_data(self) -> bool:

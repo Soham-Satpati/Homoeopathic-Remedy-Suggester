@@ -100,6 +100,26 @@ def laterality_conflict(patient_text: str, dataset_text: str) -> bool:
                 (_RIGHT.search(p) and _LEFT.search(d) and not _RIGHT.search(d)))
 
 
+_TIMES = {"morning": r"morning|on waking|on rising|\ba\.?m\.?\b", "forenoon": r"forenoon",
+          "noon": r"\bnoon|midday", "afternoon": r"afternoon", "evening": r"evening|twilight",
+          "night": r"night|midnight|\bsleep\b"}
+_TIMES = {k: re.compile(v) for k, v in _TIMES.items()}
+
+
+def _times(text: str) -> set:
+    t = text.lower()
+    found = {k for k, rx in _TIMES.items() if k != "noon" and rx.search(t)}
+    if _TIMES["noon"].search(t.replace("afternoon", "")):
+        found.add("noon")
+    return found
+
+
+def time_conflict(patient_text: str, dataset_text: str) -> bool:
+    """'worse afternoon' must not match 'worse mornings': both name a time of day, none in common."""
+    p, d = _times(patient_text), _times(dataset_text)
+    return bool(p and d and not (p & d))
+
+
 def lexical_sim(a: str, b: str) -> float:
     sa, sb = content_stems(a), content_stems(b)
     if not sa or not sb:
@@ -134,7 +154,7 @@ def match_items_to_dataset(queries: list, s2r: dict, embedder: Embedder | None,
 def rank_remedies(categorised: dict, s2r: dict, embedder: Embedder | None,
                   emb_cache: DatasetEmbeddingCache | None, top_n: int = 10, *,
                   category_weights: dict | None = None, modality_weight: float | None = None,
-                  book_weight=None) -> list:
+                  book_weight=None, strict_times: bool = False) -> list:
     """``book_weight(dataset_symptom, remedy) -> float`` multiplies each match's credit by the weight
     of the book it came from (None → every book counts 1.0, as in the demo). Items whose category
     weight is 0 are left out entirely, as the demo does for causation."""
@@ -148,6 +168,8 @@ def rank_remedies(categorised: dict, s2r: dict, embedder: Embedder | None,
         for ds_sym, sim in hits:
             rems = s2r.get(ds_sym, {})
             if not rems or laterality_conflict(qtext, ds_sym) or modality_mismatch(group, ds_sym):
+                continue
+            if strict_times and time_conflict(qtext, ds_sym):
                 continue
             top = max(rems.values()) or 1.0
             rarity = 1.0 / (1.0 + np.log(len(rems)))   # generic rubrics ("restlessness") count less
@@ -183,3 +205,42 @@ def rank_remedies(categorised: dict, s2r: dict, embedder: Embedder | None,
         cutoff = ranked[0]["score"] * MIN_SCORE_FRACTION
         ranked = [r for i, r in enumerate(ranked) if i < MIN_REMEDIES_SHOWN or r["score"] >= cutoff]
     return ranked[:top_n]
+
+
+SUGGEST_ANCHORS = 3          # table symptoms a free-text patient symptom is mapped to
+SUGGEST_MIN_SIM = 0.62       # how close they must be (embeddings)
+SUGGEST_LEXICAL_MIN = 0.4    # …or with the lexical fallback
+_FILLER = re.compile(r"\b(recurrent|recurring|occasional(ly)?|frequent(ly)?|constant(ly)?|intermittent|"
+                     r"chronic|repeated|mild|slight|some|sometimes|often|(for|since|past|last) (the )?"
+                     r"(past |last )?(\d+|few|several|many|one|two|three|ten) (days?|weeks?|months?|years?))\b")
+
+
+def nearest_symptoms(texts: list, keys: tuple, embedder: Embedder | None,
+                     emb_cache: DatasetEmbeddingCache | None, k: int = SUGGEST_ANCHORS) -> dict:
+    """{text: [(key, similarity), ...]} — the closest ``keys`` to each text, best first."""
+    out = {t: [] for t in texts}
+    if not texts or not keys:
+        return out
+    # "recurrent headache for 10 days" → "headache": frequency and duration words carry no rubric
+    core = {t: (_FILLER.sub(" ", t).strip() or t) for t in texts}
+    emb = emb_cache.get(keys) if (embedder is not None and emb_cache is not None) else None
+    if emb is not None:
+        qv = np.asarray(embedder.encode([core[t] for t in texts]), dtype=np.float32)
+        for t, row in zip(texts, qv @ emb.T):
+            idx = np.argsort(-row)[:k * 3]
+            out[t] = [(keys[i], float(row[i])) for i in idx
+                      if row[i] >= SUGGEST_MIN_SIM and not laterality_conflict(t, keys[i])][:k]
+        return out
+    for t in texts:
+        st = content_stems(core[t])
+        if not st:
+            continue
+        scored = []
+        for key in keys:
+            sk = content_stems(key)
+            if sk and st & sk:
+                scored.append((key, len(st & sk) / len(st | sk)))
+        scored.sort(key=lambda x: (-x[1], x[0]))
+        out[t] = [(key, s) for key, s in scored if s >= SUGGEST_LEXICAL_MIN
+                  and not laterality_conflict(t, key)][:k]
+    return out

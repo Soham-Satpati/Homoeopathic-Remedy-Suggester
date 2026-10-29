@@ -69,10 +69,11 @@ def paths():
     return Paths()
 
 
-def make_engine(paths, semantic: bool, llm=None, disk_cache=False, books=None):
-    """Engine on the demo's two books (the reference for parity) unless ``books`` is given."""
+def make_engine(paths, semantic: bool, llm=None, disk_cache=False, books=None, demo_parity=True):
+    """Engine on the demo's two books (the reference for parity) unless ``books`` is given.
+    ``demo_parity`` (default) reproduces the demo exactly; False gives the production behaviour."""
     from horus.books import DEMO_BOOK_IDS, DecisionConfig
     from horus.engine import HorusEngine
     cfg = DecisionConfig.classical(DEMO_BOOK_IDS if books is None else books)
     return HorusEngine(paths, embedder=FakeEmbedder() if semantic else None, llm=llm, config=cfg,
-                       use_disk_cache=disk_cache)
+                       use_disk_cache=disk_cache, demo_parity=demo_parity)

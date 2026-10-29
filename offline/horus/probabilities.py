@@ -11,6 +11,7 @@ demo visited, in the same order.
 
 from __future__ import annotations
 
+import re
 from itertools import combinations
 
 import pandas as pd
@@ -134,10 +135,58 @@ class SymptomIndex:
         """Forward rows (ps is Symptom1) then reverse rows (ps is Symptom2) — the demo's order."""
         return self.forward.get(ps, []) + self.reverse.get(ps, [])
 
+    def has(self, ps: str) -> bool:
+        return ps in self.forward or ps in self.reverse
+
+    @property
+    def keys(self) -> tuple:
+        """Every symptom that has co-occurrence rows, sorted."""
+        if not hasattr(self, "_keys"):
+            self._keys = tuple(sorted(set(self.forward) | set(self.reverse)))
+        return self._keys
+
+
+def _expanded_rows(index: SymptomIndex, ps: str, resolve):
+    """Rows for one patient symptom: [(other, display, score, via)], plus the table symptoms used.
+
+    Without ``resolve`` (the demo) only the exact symptom text is looked up. With it, each patient
+    symptom is mapped to table symptoms (``resolve(ps) -> [(table_symptom, weight)]``: itself when
+    the tables contain it verbatim, else its closest table symptoms) and their rows are used, each
+    probability multiplied by the weight; ``via`` names the table symptom when it isn't ``ps``."""
+    if resolve is None:
+        return [(o, d, p, None) for o, d, p in index.rows_for(ps)], set()
+    anchors = resolve(ps)
+    out = []
+    for key, sim, n_key in anchors:
+        via = None if key == ps else key
+        for o, d, p in index.rows_for(key):
+            if looks_like_symptom(d):
+                shared = p * n_key               # remedies listing both symptoms
+                out.append((o, d, p * sim * shared / (shared + SHARED_PRIOR), via))
+    return out, {a[0] for a in anchors}
+
+
+# P(B|A) = 100% when A is listed under one remedy only: every other symptom of that remedy gets it.
+# Links are therefore scaled by shared / (shared + 2), shared = remedies listing both symptoms.
+SHARED_PRIOR = 2.0
+
+
+_JUNK = re.compile(r"[\^■□•|\\{}<>~_]|\.{3,}|\b[a-z]\b.*\b[a-z]\b.*\b[a-z]\b")
+
+
+def looks_like_symptom(text: str) -> bool:
+    """Hide scanning debris ("a girl. ^enuresis", "m n'gfit: restless") from suggestions."""
+    t = str(text).strip()
+    if len(t) < 4 or _JUNK.search(t.lower().replace(" a ", " ")):
+        return False
+    letters = sum(c.isalpha() or c.isspace() for c in t)
+    return letters / len(t) >= 0.9
+
 
 def get_suggestions_per_symptom(patient_symptoms: list, index: SymptomIndex | None,
-                                top_n: int = 10) -> dict:
-    """{patient_symptom: [top_n {symptom, prob}]} — each patient symptom gets its own list."""
+                                top_n: int = 10, resolve=None) -> dict:
+    """{patient_symptom: [top_n {symptom, prob}]} — each patient symptom gets its own list.
+    ``resolve``: see ``_expanded_rows`` (None = exact wording only, as in the demo)."""
     if index is None or not patient_symptoms:
         return {}
     patient_syms_lower = {s.strip().lower() for s in patient_symptoms if s.strip()}
@@ -146,37 +195,47 @@ def get_suggestions_per_symptom(patient_symptoms: list, index: SymptomIndex | No
         ps = ps_orig.strip().lower()
         if not ps:
             continue
-        scores = {}         # candidate_lower → (prob, display_str)
-        for other, disp, p in index.rows_for(ps):
-            if other not in patient_syms_lower:
-                prev = scores.get(other, (0, disp))
+        scores = {}         # candidate_lower → (prob, display_str, via)
+        rows, anchors = _expanded_rows(index, ps, resolve)
+        for other, disp, p, via in rows:
+            if other not in patient_syms_lower and other not in anchors:
+                prev = scores.get(other, (0, disp, via))
                 # demo behaviour: max probability, display text of the latest row seen
-                scores[other] = (max(prev[0], p), disp)
+                scores[other] = (max(prev[0], p), disp, via if p >= prev[0] else prev[2])
         top = sorted(scores.values(), key=lambda x: -x[0])[:top_n]
-        result[ps_orig] = [{"symptom": disp, "prob": round(prob, 4)} for prob, disp in top]
+        result[ps_orig] = [{"symptom": disp, "prob": round(prob, 4), **({"via": via} if via else {})}
+                           for prob, disp, via in top]
     return result
 
 
 def get_top_suggestions(patient_symptoms: list, index: SymptomIndex | None,
-                        top_n: int = 10) -> list:
+                        top_n: int = 10, resolve=None) -> list:
     """Aggregate across all patient symptoms → top_n globally, with the strongest trigger."""
     if index is None or not patient_symptoms:
         return []
     patient_syms_lower = {s.strip().lower() for s in patient_symptoms if s.strip()}
     agg = {}
+    expanded = {}
+    for ps_orig in patient_symptoms:
+        ps = ps_orig.strip().lower()
+        if ps and ps not in expanded:
+            expanded[ps] = _expanded_rows(index, ps, resolve)
+    all_anchors = set().union(*(a for _, a in expanded.values())) if expanded else set()
     for ps_orig in patient_symptoms:
         ps = ps_orig.strip().lower()
         if not ps:
             continue
-        for other, disp, p in index.rows_for(ps):
-            if other in patient_syms_lower:
+        for other, disp, p, via in expanded[ps][0]:
+            if other in patient_syms_lower or other in all_anchors:
                 continue
             if other not in agg:
-                agg[other] = {"probs": [], "display": disp, "best_trigger": ps_orig, "best_prob": p}
+                agg[other] = {"probs": [], "display": disp, "best_trigger": ps_orig, "best_prob": p,
+                              "via": via}
             agg[other]["probs"].append(p)
             if p > agg[other]["best_prob"]:
                 agg[other]["best_prob"] = p
                 agg[other]["best_trigger"] = ps_orig
+                agg[other]["via"] = via
 
     averaged = [
         {
@@ -184,8 +243,14 @@ def get_top_suggestions(patient_symptoms: list, index: SymptomIndex | None,
             "avg_prob": round(sum(v["probs"]) / len(v["probs"]), 4),
             "support": len(v["probs"]),
             "triggered_by": v["best_trigger"],
+            **({"via": v["via"]} if v["via"] else {}),
         }
         for v in agg.values()
     ]
-    averaged.sort(key=lambda x: (-x["avg_prob"], -x["support"]))
+    if resolve is None:
+        averaged.sort(key=lambda x: (-x["avg_prob"], -x["support"]))
+    else:
+        # mapped symptoms bring many weak, single-remedy pairs (P = 1.0 when a symptom belongs to one
+        # remedy); a suggestion linked to more of the case comes first
+        averaged.sort(key=lambda x: (-(x["avg_prob"] * x["support"] ** 0.5), -x["support"], x["symptom"]))
     return averaged[:top_n]

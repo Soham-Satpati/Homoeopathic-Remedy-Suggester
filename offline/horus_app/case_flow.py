@@ -553,7 +553,7 @@ class CaseFlow(QWidget):
         v.addWidget(self.sg_learned)
         split = QSplitter(Qt.Vertical)
         self.sg_table = QTableWidget(0, 6)
-        self.sg_table.setHorizontalHeaderLabels(["Confirmed", "Symptom", "Likelihood", "Linked to",
+        self.sg_table.setHorizontalHeaderLabels(["Confirmed", "Symptom", "Strength", "Linked to",
                                                  "Worse from", "Better from"])
         h = self.sg_table.horizontalHeader()
         h.setSectionResizeMode(1, QHeaderView.Stretch)
@@ -612,15 +612,15 @@ class CaseFlow(QWidget):
         per, top = self.ctx.engine.suggestions(self.cat, top_n=10, config=self.active_config())
         seen, rows = set(), []
         for x in top:
-            rows.append((x["symptom"], x["avg_prob"], x["triggered_by"]))
+            rows.append((x["symptom"], x["avg_prob"], x["triggered_by"], x.get("via"), x.get("remedies", [])))
             seen.add(x["symptom"].lower())
         for sym, items in per.items():
             for x in items[:3]:
                 if x["symptom"].lower() not in seen:
-                    rows.append((x["symptom"], x["prob"], sym))
+                    rows.append((x["symptom"], x["prob"], sym, x.get("via"), []))
                     seen.add(x["symptom"].lower())
         self.sg_table.setRowCount(0)
-        for sym, p, trig in rows:
+        for sym, p, trig, via, rems in rows:
             r = self.sg_table.rowCount()
             self.sg_table.insertRow(r)
             cell, _cb = check_cell(False, "Tick if the patient confirms this symptom.",
@@ -631,12 +631,21 @@ class CaseFlow(QWidget):
                 it.setFlags(Qt.ItemIsEnabled | Qt.ItemIsSelectable)
                 if c == 2:
                     it.setData(Qt.UserRole, float(p))
+                if c == 1 and rems:
+                    it.setToolTip("Listed under the case's leading remedies: " + ", ".join(rems))
+                    it.setText(f"{sym}   ·  {', '.join(rems[:2])}")
+                    it.setData(Qt.UserRole, sym)
+                if c == 3 and via:
+                    it.setToolTip(f"“{trig}” was matched to the book symptom “{via}”.")
+                    it.setText(f"{trig}  (≈ {via})")
+                    it.setData(Qt.UserRole, trig)
                 self.sg_table.setItem(r, c, it)
             self.sg_table.setItem(r, 4, QTableWidgetItem(""))
             self.sg_table.setItem(r, 5, QTableWidgetItem(""))
         if not rows:
-            error(self, "No suggestions", "No co-occurrence data matched these symptoms. Suggestions appear when "
-                  "symptoms are worded like the dataset.")
+            error(self, "No suggestions", "None of the selected books has symptoms close enough to this case's "
+                  "symptoms to suggest others. Try describing a symptom with its location and sensation "
+                  "(e.g. “pressing pain in forehead”), or select more books in Books & weighting.")
             return
         self._cmp_placeholders()
         self.cmp_summary.hide()
@@ -648,11 +657,14 @@ class CaseFlow(QWidget):
         selected = {}
         for r in range(self.sg_table.rowCount()):
             if cell_checked(self.sg_table, r):
-                selected[self.sg_table.item(r, 1).text()] = {
+                item = lambda c: self.sg_table.item(r, c)
+                text = lambda c: item(c).data(Qt.UserRole) if isinstance(item(c).data(Qt.UserRole), str) \
+                    else item(c).text()
+                selected[text(1)] = {
                     "worse": _split(self.sg_table.item(r, 4).text()),
                     "better": _split(self.sg_table.item(r, 5).text()),
                     "avg_prob": self.sg_table.item(r, 2).data(Qt.UserRole) or 0.0,
-                    "triggered_by": self.sg_table.item(r, 3).text()}
+                    "triggered_by": text(3)}
         if not selected:
             return error(self, "Nothing selected", "Tick the symptoms the patient confirmed.")
         engine = self.ctx.engine

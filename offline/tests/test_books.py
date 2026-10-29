@@ -156,7 +156,7 @@ def test_import_and_remove_a_book(paths, tmp_path):
     e = HorusEngine(p)
     assert book.id in e.config.books
     cfg = DecisionConfig.classical((book.id,))
-    assert "remedium testum" in e.dataset_for(cfg).remedy_universe
+    assert "Remedium testum" in e.dataset_for(cfg).remedy_universe      # names shown capitalised
     per, top = e.suggestions({"physical": [{"symptom": "zz test mind symptom 1"}]}, config=cfg)
     assert top                                               # its own clusters drive suggestions
     with pytest.raises(ValueError):

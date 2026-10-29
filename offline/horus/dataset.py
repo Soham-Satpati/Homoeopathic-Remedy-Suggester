@@ -35,6 +35,7 @@ class Dataset:
     live_cases: int = 0         # saved cases merged in
     origin: dict | None = None  # symptom -> {remedy: frozenset(book ids)}; for book weights
     books: tuple = ()           # ids of the books loaded
+    merged_names: bool = False  # remedy names unified across capitalisations
 
     @property
     def remedy_universe(self) -> set:
@@ -47,7 +48,45 @@ def _legacy_books(paths: Paths) -> list:
     return [b for b in discover_books(paths) if b.id in ("rheumatic", "case_studies")]
 
 
-def load_base_dataset(paths: Paths, books: list | None = None, progress=None) -> Dataset:
+def remedy_key(name: str) -> str:
+    return " ".join(str(name).split()).casefold()
+
+
+class _RemedyNames:
+    """One display name per remedy, whatever capitalisation each book uses
+    ("Gelsemium" / "gelsemium", "Natrum Muriaticum" / "natrum muriaticum")."""
+
+    def __init__(self, enabled: bool):
+        self.enabled = enabled
+        self.names: dict = {}
+
+    def __call__(self, name: str) -> str:
+        if not self.enabled:
+            return name
+        k = remedy_key(name)
+        cur = self.names.get(k)
+        clean = " ".join(str(name).split())
+        # prefer a capitalised spelling ("Gelsemium" over "gelsemium"), else the first seen
+        if cur is None or (not cur[:1].isupper() and clean[:1].isupper()):
+            self.names[k] = clean if clean[:1].isupper() else (cur or clean[:1].upper() + clean[1:])
+        return self.names[k]
+
+
+def _merge_names(s2r: dict, origin: dict, names: _RemedyNames) -> tuple:
+    """Re-key remedies by their final display name (a capitalised spelling may be met late)."""
+    out, org = {}, {}
+    for sym, rems in s2r.items():
+        d, o = {}, {}
+        for rem, score in rems.items():
+            n = names.names.get(remedy_key(rem), rem)
+            d[n] = max(d.get(n, 0), score)
+            o.setdefault(n, set()).update(origin.get(sym, {}).get(rem, ()))
+        out[sym], org[sym] = d, o
+    return out, org
+
+
+def load_base_dataset(paths: Paths, books: list | None = None, progress=None,
+                      merge_remedy_names: bool = False) -> Dataset:
     """Merge pkl models + raw JSON of the chosen books; max score wins on collision.
 
     With the two original books this is exactly the demo's ``load_all_dataset_symptoms``
@@ -58,6 +97,7 @@ def load_base_dataset(paths: Paths, books: list | None = None, progress=None) ->
     s2r: dict = defaultdict(dict)
     origin: dict = defaultdict(lambda: defaultdict(set))
     sources: list = []
+    canon = _RemedyNames(merge_remedy_names)
 
     # Layer 1: pkl files, in the demo's order (case_studies, then rheumatic, then any other)
     order = {name: i for i, name in enumerate(MODEL_PICKLES)}
@@ -71,6 +111,7 @@ def load_base_dataset(paths: Paths, books: list | None = None, progress=None) ->
                 sl = sym.strip().lower()
                 known.add(sl)
                 for rem, score in rem_dict.items():
+                    rem = canon(rem)
                     s2r[sl][rem] = max(s2r[sl].get(rem, 0), score)
                     origin[sl][rem].add(b.id)
             sources.append(b.pkl_path.name)
@@ -96,7 +137,7 @@ def load_base_dataset(paths: Paths, books: list | None = None, progress=None) ->
                             sym = item.get("symptom", "").strip().lower()
                             if sym:
                                 known.add(sym)
-                                all_entries.append((sym, remedy, b.id))
+                                all_entries.append((sym, canon(remedy), b.id))
             sources.append(b.json_path.name)
         except Exception:
             log.exception("Could not read %s", b.json_path)
@@ -107,9 +148,12 @@ def load_base_dataset(paths: Paths, books: list | None = None, progress=None) ->
         s2r[sym][rem] = max(s2r[sym].get(rem, 0), score)
         origin[sym][rem].add(bid)
 
+    if merge_remedy_names:
+        s2r, origin = _merge_names(s2r, origin, canon)
     source_label = ", ".join(dict.fromkeys(sources)) if sources else "none"
     frozen_origin = {s: {r: frozenset(v) for r, v in rems.items()} for s, rems in origin.items()}
-    return Dataset(frozenset(known), dict(s2r), source_label, 0, frozen_origin, tuple(b.id for b in books))
+    return Dataset(frozenset(known), dict(s2r), source_label, 0, frozen_origin, tuple(b.id for b in books),
+                   merge_remedy_names)
 
 
 def learning_payload(patients: Mapping) -> LearningPayload:
@@ -143,6 +187,7 @@ def build_live_dataset(base: Dataset, payload: Iterable, weight: float = 1.0) ->
         return base
     known = set(base.known)
     s2r = dict(base.s2r)          # shallow copy; touched entries are copied below
+    spelling = {remedy_key(r): r for r in base.remedy_universe} if base.merged_names else {}
     touched = set()
     for syms, rems in payload:
         for sym in syms:
@@ -151,10 +196,11 @@ def build_live_dataset(base: Dataset, payload: Iterable, weight: float = 1.0) ->
                 s2r[sym] = dict(base.s2r.get(sym, {}))
                 touched.add(sym)
             for rank, rem in enumerate(rems):
+                rem = spelling.get(remedy_key(rem), rem)
                 w = LEARN_RANK_WEIGHTS[rank] if rank < len(LEARN_RANK_WEIGHTS) else 0.05
                 s2r[sym][rem] = round(s2r[sym].get(rem, 0.0) + w * weight, 6)
     label = f"{base.source} + {len(payload)} saved case(s)"
-    return Dataset(frozenset(known), s2r, label, len(payload), base.origin, base.books)
+    return Dataset(frozenset(known), s2r, label, len(payload), base.origin, base.books, base.merged_names)
 
 
 def check_symptoms_against_dataset(dataset: Dataset, symptom_list: list) -> tuple:
