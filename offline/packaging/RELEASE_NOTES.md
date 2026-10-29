@@ -1,5 +1,12 @@
 ## HoRUS Offline for Windows
 
+### New in 1.4
+
+- **Symptom suggestions work with your own wording.** Before, suggestions only appeared when a symptom was typed exactly as in the book, so most cases showed *"No suggestions"*. Each symptom is now matched to the closest symptoms in the selected books ("headache in the forehead" ≈ "pain in forehead"), and the table shows what it was matched to.
+- **More useful suggestions first.** Symptoms listed under the case's leading remedies come first, and each one shows the remedy it points to, so you know what to ask about. Weak links (from symptoms found under only one remedy) count less, and scanning debris from the books is hidden.
+- **Fixed: the same remedy could appear twice in the top 10** (e.g. "Aesculus Hippocastanum" and "Aesculus hippocastanum") when books spelled it differently, which also split its score. Remedy names are now merged across books and saved cases.
+- **Fixed: time-of-day modalities matched the wrong time** (e.g. "worse afternoon" ≈ "worse mornings"). Times must now agree.
+
 ### New in 1.3
 
 - **Fixed: HoRUS froze while adding a large book.** Building the symptom clusters for a book of ~18,000 symptoms kept the app busy for about a minute. Books are now added in a separate background process, so the window stays responsive (measured: the app never pauses for more than a fraction of a second while an 18,635-symptom book is added).

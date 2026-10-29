@@ -20,7 +20,7 @@ from pathlib import Path
 if not getattr(sys, "frozen", False):
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-APP_VERSION = "1.3.0"
+APP_VERSION = "1.4.0"
 log = logging.getLogger("horus")
 
 
