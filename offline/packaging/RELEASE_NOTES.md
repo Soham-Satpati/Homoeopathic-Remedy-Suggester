@@ -6,6 +6,7 @@
 - **More useful suggestions first.** Symptoms listed under the case's leading remedies come first, and each one shows the remedy it points to, so you know what to ask about. Weak links (from symptoms found under only one remedy) count less, and scanning debris from the books is hidden.
 - **Fixed: the same remedy could appear twice in the top 10** (e.g. "Aesculus Hippocastanum" and "Aesculus hippocastanum") when books spelled it differently, which also split its score. Remedy names are now merged across books and saved cases.
 - **Fixed: time-of-day modalities matched the wrong time** (e.g. "worse afternoon" ≈ "worse mornings"). Times must now agree.
+- **Tip:** symptoms with their location and sensation ("pressing pain in forehead", "heaviness of head") match the books far better than bare words ("heaviness"). Edit them on the review screen before analysing.
 
 ### New in 1.3
 
