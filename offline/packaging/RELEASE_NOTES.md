@@ -2,15 +2,18 @@
 
 ### New in 1.5
 
-- **All of Hering's Guiding Symptoms (vols. I–III and V–X) are now built in, cleaned.** 338 remedies and about 133,000 symptoms. Every change made to the scanned text is listed, with examples, in `guiding_symptoms_cleaning_report.md`:
+- **All of Hering's Guiding Symptoms (vols. I–III and V–X) are now built in, checked against the printed books and cleaned.** 360 remedies and about 142,000 symptoms. Every change is listed, with examples and book pages, in `guiding_symptoms_cleaning_report.md`:
+  - every symptom was looked up in the scanned book and filed under the remedy it is printed under — about 24,700 had been filed under a neighbouring remedy (e.g. all of Arsenicum album under "Arsenicum hydrogenisatum", Mercurius solubilis under Merc. corrosivus and dulcis, Capsicum under Causticum, Iodium under Inula);
+  - about 5,000 symptoms the extraction had skipped were read from the scanned pages — Bryonia, Hepar sulph., Natrum phos. and sulph., both Ranunculus, Lachnanthes, Lactic acid, the rest of Arnica and Staphisagria, and about 25 smaller remedies;
   - section headings and case headers that had been saved as symptoms ("passive motion", "woman, æt.") removed, along with remedy-relationship chapters and proving-history notes;
   - location lines rejoined to their heading ("pain: in forehead" / "in temples" → "pain in temples");
   - scanning debris removed; "1." read as "l." fixed; "l." / "r." written as left / right; "<" / ">" written as worse / better;
-  - broken remedy names fixed — e.g. "castus" → Agnus castus, vol. III's "palladium" → Caladium seguinum (its real content), "carbonicum" / "muriaticum" rejoined to Ammonium carbonicum / muriaticum; one unidentifiable block removed;
+  - broken remedy names fixed — e.g. "castus" → Agnus castus, vol. III's "palladium" → Caladium seguinum (its real content), "carbonicum" / "muriaticum" rejoined to Ammonium carbonicum / muriaticum; the unreadable block "qisgrsgs" is part of Plumbum;
   - remedy-wide modality labels that had been copied onto every symptom cleared.
 - **Books you added yourself from the raw scans are replaced automatically** by the cleaned built-in volumes (your settings move to them). *Settings → Books & weighting* lists the old copies with a button to delete them.
 - **Symptom suggestions are grouped under each of the patient's symptoms.** Each symptom is a drop-down showing its own details (category, worse, better); open it to see the symptoms that often occur with it, how strongly, and which of the case's leading remedies each points to. Tick, add modalities, compare — as before.
 - **The patient questionnaire shows three questions per screen**, on the clinic PC and on tablets, each with its own answer box and microphone.
+- **Suggestions weigh the evidence across the book.** A symptom that goes with several entries close to the patient's (e.g. with five headache entries in different remedies) now ranks above a line printed beside a single entry, and every symptom of the case gets its share of the case-wide list.
 - Lower memory use for the suggestion tables (about 600 MB less with all books loaded).
 
 ### New in 1.4

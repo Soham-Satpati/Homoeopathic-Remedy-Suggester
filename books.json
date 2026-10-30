@@ -29,7 +29,7 @@
         "Guiding_Symptoms_of_our_Materia_Medica-I",
         "Guiding Symptoms of our Materia Medica-I"
       ],
-      "description": "Hering's Guiding Symptoms of our Materia Medica, volume I: 42 remedies (Abies Nigra to Armoracea Sativa), 17,359 symptoms. Cleaned from the scan — see guiding_symptoms_cleaning_report.md."
+      "description": "Hering's Guiding Symptoms of our Materia Medica, volume I: 43 remedies (Abies Nigra to Armoracea Sativa), 17,367 symptoms. Checked against the scanned book and cleaned — see guiding_symptoms_cleaning_report.md."
     },
     {
       "id": "guiding_symptoms_2",
@@ -44,7 +44,7 @@
         "Guiding_Symptoms_of_our_Materia_Medica-II",
         "Guiding Symptoms of our Materia Medica-II"
       ],
-      "description": "Hering's Guiding Symptoms of our Materia Medica, volume II: 28 remedies (Arnica Montana to Natrum Sulphuricum), 13,242 symptoms. Cleaned from the scan — see guiding_symptoms_cleaning_report.md."
+      "description": "Hering's Guiding Symptoms of our Materia Medica, volume II: 37 remedies (Arnica Montana to Bromium), 13,798 symptoms. Checked against the scanned book and cleaned — see guiding_symptoms_cleaning_report.md."
     },
     {
       "id": "guiding_symptoms_3",
@@ -59,7 +59,7 @@
         "Guiding_Symptoms_of_our_Materia_Medica-III",
         "Guiding Symptoms of our Materia Medica-III"
       ],
-      "description": "Hering's Guiding Symptoms of our Materia Medica, volume III: 27 remedies (Allium Cepa to Chamomilla), 13,346 symptoms. Cleaned from the scan — see guiding_symptoms_cleaning_report.md."
+      "description": "Hering's Guiding Symptoms of our Materia Medica, volume III: 34 remedies (Allium Cepa to Chamomilla), 14,434 symptoms. Checked against the scanned book and cleaned — see guiding_symptoms_cleaning_report.md."
     },
     {
       "id": "guiding_symptoms_5",
@@ -74,7 +74,7 @@
         "Guiding_Symptoms_of_our_Materia_Medica-V",
         "Guiding Symptoms of our Materia Medica-V"
       ],
-      "description": "Hering's Guiding Symptoms of our Materia Medica, volume V: 38 remedies (Cuprum Arsenicum to Natrum Sulphuricum), 14,353 symptoms. Cleaned from the scan — see guiding_symptoms_cleaning_report.md."
+      "description": "Hering's Guiding Symptoms of our Materia Medica, volume V: 50 remedies (Cundurango to Helonias Dioica), 14,769 symptoms. Checked against the scanned book and cleaned — see guiding_symptoms_cleaning_report.md."
     },
     {
       "id": "guiding_symptoms_6",
@@ -89,7 +89,7 @@
         "Guiding_Symptoms_of_our_Materia_Medica-VI",
         "Guiding Symptoms of our Materia Medica-VI"
       ],
-      "description": "Hering's Guiding Symptoms of our Materia Medica, volume VI: 33 remedies (Hippomanes to Lachesis), 16,530 symptoms. Cleaned from the scan — see guiding_symptoms_cleaning_report.md."
+      "description": "Hering's Guiding Symptoms of our Materia Medica, volume VI: 47 remedies (Hepar Sulphuris to Lachesis), 17,521 symptoms. Checked against the scanned book and cleaned — see guiding_symptoms_cleaning_report.md."
     },
     {
       "id": "guiding_symptoms_7",
@@ -104,7 +104,7 @@
         "Guiding_Symptoms_of_our_Materia_Medica-VII",
         "Guiding Symptoms of our Materia Medica-VII"
       ],
-      "description": "Hering's Guiding Symptoms of our Materia Medica, volume VII: 33 remedies (Lactuca Virosa to Natrum Muriaticum), 16,148 symptoms. Cleaned from the scan — see guiding_symptoms_cleaning_report.md."
+      "description": "Hering's Guiding Symptoms of our Materia Medica, volume VII: 44 remedies (Lachnanthes Tinctoria to Natrum Muriaticum), 16,623 symptoms. Checked against the scanned book and cleaned — see guiding_symptoms_cleaning_report.md."
     },
     {
       "id": "guiding_symptoms_8",
@@ -119,7 +119,7 @@
         "Guiding_Symptoms_of_our_Materia_Medica-VIII",
         "Guiding Symptoms of our Materia Medica-VIII"
       ],
-      "description": "Hering's Guiding Symptoms of our Materia Medica, volume VIII: 31 remedies (Niccolum to Pulsatilla), 16,516 symptoms. Cleaned from the scan — see guiding_symptoms_cleaning_report.md."
+      "description": "Hering's Guiding Symptoms of our Materia Medica, volume VIII: 38 remedies (Natrum Phosphoricum to Pulsatilla), 17,354 symptoms. Checked against the scanned book and cleaned — see guiding_symptoms_cleaning_report.md."
     },
     {
       "id": "guiding_symptoms_9",
@@ -134,7 +134,7 @@
         "Guiding_Symptoms_of_our_Materia_Medica-IX",
         "Guiding Symptoms of our Materia Medica-IX"
       ],
-      "description": "Hering's Guiding Symptoms of our Materia Medica, volume IX: 24 remedies (Ratanhia to Stannum), 13,790 symptoms. Cleaned from the scan — see guiding_symptoms_cleaning_report.md."
+      "description": "Hering's Guiding Symptoms of our Materia Medica, volume IX: 29 remedies (Ranunculus Bulbosus to Stannum), 14,164 symptoms. Checked against the scanned book and cleaned — see guiding_symptoms_cleaning_report.md."
     },
     {
       "id": "guiding_symptoms_10",
@@ -149,7 +149,7 @@
         "Guiding_Symptoms_of_our_Materia_Medica-X",
         "Guiding Symptoms of our Materia Medica-X"
       ],
-      "description": "Hering's Guiding Symptoms of our Materia Medica, volume X: 36 remedies (Staphisagria to Zizia), 15,573 symptoms. Cleaned from the scan — see guiding_symptoms_cleaning_report.md."
+      "description": "Hering's Guiding Symptoms of our Materia Medica, volume X: 38 remedies (Staphisagria to Zizia), 15,872 symptoms. Checked against the scanned book and cleaned — see guiding_symptoms_cleaning_report.md."
     }
   ]
 }

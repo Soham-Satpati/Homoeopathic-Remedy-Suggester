@@ -1,17 +1,17 @@
 {
  "volumes": {
   "I": {
-   "remedies_before": 45,
-   "remedies_after": 42,
-   "entries_before": 18635,
-   "entries_after": 17359,
+   "remedies_before": 43,
+   "remedies_after": 43,
+   "entries_before": 18652,
+   "entries_after": 17367,
    "changes": {
     "scanning debris removed": 3450,
     "relationship chapter (not symptoms)": 840,
     "location line rejoined to its heading": 576,
     "\"1.\" read as \"l.\"": 243,
-    "\"<\" / \">\" written as worse / better": 211,
-    "duplicate within remedy": 191,
+    "\"<\" / \">\" written as worse / better": 212,
+    "duplicate within remedy": 200,
     "location line without heading (dropped)": 79,
     "proving history / publication note": 72,
     "case header (e.g. 'woman, æt.')": 52,
@@ -21,290 +21,182 @@
    }
   },
   "II": {
-   "remedies_before": 28,
-   "remedies_after": 28,
-   "entries_before": 14063,
-   "entries_after": 13242,
+   "remedies_before": 37,
+   "remedies_after": 37,
+   "entries_before": 14627,
+   "entries_after": 13798,
    "changes": {
-    "copied 'Modalities' label cleared": 9863,
-    "\"1.\" read as \"l.\"": 402,
-    "relationship chapter (not symptoms)": 314,
-    "\"<\" / \">\" written as worse / better": 272,
-    "scanning debris removed": 219,
+    "copied 'Modalities' label cleared": 9759,
+    "\"1.\" read as \"l.\"": 409,
+    "relationship chapter (not symptoms)": 315,
+    "\"<\" / \">\" written as worse / better": 287,
+    "scanning debris removed": 259,
     "location line rejoined to its heading": 184,
-    "duplicate within remedy": 168,
-    "remedy name or abbreviation": 111,
+    "remedy name or abbreviation": 144,
+    "duplicate within remedy": 138,
     "case header (e.g. 'woman, æt.')": 74,
     "proving history / publication note": 72,
-    "section heading": 53,
+    "section heading": 55,
     "remedy name run into the symptom": 31,
-    "location line without heading (dropped)": 29
+    "location line without heading (dropped)": 30,
+    "empty or too short": 1
    }
   },
   "III": {
-   "remedies_before": 27,
-   "remedies_after": 27,
-   "entries_before": 14364,
-   "entries_after": 13346,
+   "remedies_before": 34,
+   "remedies_after": 34,
+   "entries_before": 15463,
+   "entries_after": 14434,
    "changes": {
-    "copied 'Modalities' label cleared": 11820,
-    "\"<\" / \">\" written as worse / better": 610,
-    "\"1.\" read as \"l.\"": 567,
-    "duplicate within remedy": 410,
-    "relationship chapter (not symptoms)": 272,
-    "scanning debris removed": 199,
-    "remedy name or abbreviation": 113,
-    "case header (e.g. 'woman, æt.')": 83,
+    "copied 'Modalities' label cleared": 11817,
+    "\"<\" / \">\" written as worse / better": 667,
+    "\"1.\" read as \"l.\"": 603,
+    "duplicate within remedy": 430,
+    "relationship chapter (not symptoms)": 282,
+    "scanning debris removed": 247,
+    "remedy name or abbreviation": 89,
+    "case header (e.g. 'woman, æt.')": 84,
     "proving history / publication note": 62,
-    "section heading": 56,
+    "section heading": 59,
     "location line rejoined to its heading": 41,
     "location line without heading (dropped)": 22,
-    "remedy name run into the symptom": 14
+    "remedy name run into the symptom": 16,
+    "empty or too short": 1
    }
   },
   "V": {
-   "remedies_before": 38,
-   "remedies_after": 38,
-   "entries_before": 15217,
-   "entries_after": 14353,
+   "remedies_before": 50,
+   "remedies_after": 50,
+   "entries_before": 15650,
+   "entries_after": 14769,
    "changes": {
-    "copied 'Modalities' label cleared": 12842,
-    "\"<\" / \">\" written as worse / better": 1056,
-    "\"1.\" read as \"l.\"": 669,
-    "duplicate within remedy": 256,
-    "scanning debris removed": 215,
-    "relationship chapter (not symptoms)": 212,
+    "copied 'Modalities' label cleared": 12839,
+    "\"<\" / \">\" written as worse / better": 1081,
+    "\"1.\" read as \"l.\"": 709,
+    "duplicate within remedy": 247,
+    "scanning debris removed": 234,
+    "relationship chapter (not symptoms)": 223,
     "case header (e.g. 'woman, æt.')": 148,
-    "remedy name or abbreviation": 123,
+    "remedy name or abbreviation": 131,
     "location line rejoined to its heading": 93,
-    "section heading": 59,
+    "section heading": 66,
     "proving history / publication note": 46,
-    "remedy name run into the symptom": 21,
+    "remedy name run into the symptom": 22,
     "location line without heading (dropped)": 20
    }
   },
   "VI": {
-   "remedies_before": 33,
-   "remedies_after": 33,
-   "entries_before": 17472,
-   "entries_after": 16530,
+   "remedies_before": 47,
+   "remedies_after": 47,
+   "entries_before": 18473,
+   "entries_after": 17521,
    "changes": {
-    "copied 'Modalities' label cleared": 14718,
-    "\"<\" / \">\" written as worse / better": 1185,
-    "\"1.\" read as \"l.\"": 789,
-    "duplicate within remedy": 327,
-    "scanning debris removed": 284,
+    "copied 'Modalities' label cleared": 14715,
+    "\"<\" / \">\" written as worse / better": 1278,
+    "\"1.\" read as \"l.\"": 833,
+    "scanning debris removed": 345,
+    "duplicate within remedy": 314,
     "location line rejoined to its heading": 195,
-    "case header (e.g. 'woman, æt.')": 179,
-    "relationship chapter (not symptoms)": 149,
-    "remedy name or abbreviation": 138,
-    "section heading": 67,
-    "proving history / publication note": 43,
-    "location line without heading (dropped)": 39,
-    "remedy name run into the symptom": 23
+    "case header (e.g. 'woman, æt.')": 180,
+    "remedy name or abbreviation": 152,
+    "relationship chapter (not symptoms)": 150,
+    "section heading": 70,
+    "proving history / publication note": 44,
+    "location line without heading (dropped)": 40,
+    "remedy name run into the symptom": 23,
+    "empty or too short": 2
    }
   },
   "VII": {
-   "remedies_before": 33,
-   "remedies_after": 33,
-   "entries_before": 17019,
-   "entries_after": 16148,
+   "remedies_before": 44,
+   "remedies_after": 44,
+   "entries_before": 17517,
+   "entries_after": 16623,
    "changes": {
-    "copied 'Modalities' label cleared": 13921,
-    "\"<\" / \">\" written as worse / better": 1272,
-    "\"1.\" read as \"l.\"": 906,
-    "duplicate within remedy": 255,
+    "copied 'Modalities' label cleared": 13725,
+    "\"<\" / \">\" written as worse / better": 1325,
+    "\"1.\" read as \"l.\"": 960,
+    "scanning debris removed": 257,
+    "duplicate within remedy": 249,
     "location line rejoined to its heading": 244,
-    "scanning debris removed": 239,
-    "relationship chapter (not symptoms)": 174,
+    "relationship chapter (not symptoms)": 188,
     "case header (e.g. 'woman, æt.')": 148,
-    "remedy name or abbreviation": 126,
-    "section heading": 70,
+    "remedy name or abbreviation": 138,
+    "section heading": 73,
     "location line without heading (dropped)": 50,
     "proving history / publication note": 48,
     "remedy name run into the symptom": 40
    }
   },
   "VIII": {
-   "remedies_before": 32,
-   "remedies_after": 31,
-   "entries_before": 17500,
-   "entries_after": 16516,
+   "remedies_before": 39,
+   "remedies_after": 38,
+   "entries_before": 18180,
+   "entries_after": 17354,
    "changes": {
-    "copied 'Modalities' label cleared": 14786,
-    "\"<\" / \">\" written as worse / better": 1300,
-    "\"1.\" read as \"l.\"": 628,
-    "scanning debris removed": 346,
+    "copied 'Modalities' label cleared": 14780,
+    "\"<\" / \">\" written as worse / better": 1381,
+    "\"1.\" read as \"l.\"": 687,
+    "scanning debris removed": 400,
     "case header (e.g. 'woman, æt.')": 211,
-    "duplicate within remedy": 163,
-    "relationship chapter (not symptoms)": 151,
-    "location line rejoined to its heading": 133,
-    "remedy name or abbreviation": 92,
-    "section heading": 74,
-    "proving history / publication note": 65,
+    "duplicate within remedy": 165,
+    "relationship chapter (not symptoms)": 156,
+    "location line rejoined to its heading": 132,
+    "remedy name or abbreviation": 93,
+    "section heading": 79,
+    "proving history / publication note": 66,
     "location line without heading (dropped)": 56,
-    "remedy name run into the symptom": 48
+    "remedy name run into the symptom": 49
    }
   },
   "IX": {
-   "remedies_before": 24,
-   "remedies_after": 24,
-   "entries_before": 14461,
-   "entries_after": 13790,
+   "remedies_before": 29,
+   "remedies_after": 29,
+   "entries_before": 14845,
+   "entries_after": 14164,
    "changes": {
-    "copied 'Modalities' label cleared": 11472,
-    "\"<\" / \">\" written as worse / better": 1237,
-    "\"1.\" read as \"l.\"": 684,
-    "scanning debris removed": 250,
+    "copied 'Modalities' label cleared": 11467,
+    "\"<\" / \">\" written as worse / better": 1273,
+    "\"1.\" read as \"l.\"": 722,
+    "scanning debris removed": 267,
     "location line rejoined to its heading": 207,
     "case header (e.g. 'woman, æt.')": 197,
-    "duplicate within remedy": 191,
-    "relationship chapter (not symptoms)": 95,
-    "remedy name or abbreviation": 84,
-    "section heading": 53,
-    "remedy name run into the symptom": 33,
-    "location line without heading (dropped)": 27,
-    "proving history / publication note": 24
+    "duplicate within remedy": 183,
+    "relationship chapter (not symptoms)": 99,
+    "remedy name or abbreviation": 93,
+    "section heading": 55,
+    "remedy name run into the symptom": 44,
+    "location line without heading (dropped)": 29,
+    "proving history / publication note": 24,
+    "empty or too short": 1
    }
   },
   "X": {
-   "remedies_before": 36,
-   "remedies_after": 36,
-   "entries_before": 16379,
-   "entries_after": 15573,
+   "remedies_before": 38,
+   "remedies_after": 38,
+   "entries_before": 16681,
+   "entries_after": 15872,
    "changes": {
-    "copied 'Modalities' label cleared": 12790,
-    "\"1.\" read as \"l.\"": 1221,
-    "\"<\" / \">\" written as worse / better": 1033,
-    "scanning debris removed": 276,
-    "location line rejoined to its heading": 260,
+    "copied 'Modalities' label cleared": 12697,
+    "\"1.\" read as \"l.\"": 1247,
+    "\"<\" / \">\" written as worse / better": 1088,
+    "scanning debris removed": 306,
+    "location line rejoined to its heading": 259,
     "case header (e.g. 'woman, æt.')": 226,
-    "duplicate within remedy": 168,
+    "duplicate within remedy": 169,
     "relationship chapter (not symptoms)": 121,
     "location line without heading (dropped)": 112,
     "remedy name or abbreviation": 73,
-    "section heading": 66,
-    "remedy name run into the symptom": 47,
-    "proving history / publication note": 40
+    "section heading": 67,
+    "remedy name run into the symptom": 48,
+    "proving history / publication note": 40,
+    "empty or too short": 1
    }
   }
  },
- "renamed": [
-  {
-   "volume": "I",
-   "from": "alumina or argilla",
-   "to": "alumina"
-  },
-  {
-   "volume": "I",
-   "from": "antiiracinum",
-   "to": "anthracinum"
-  },
-  {
-   "volume": "I",
-   "from": "carbonicum",
-   "to": "ammonium carbonicum"
-  },
-  {
-   "volume": "I",
-   "from": "castus",
-   "to": "agnus castus"
-  },
-  {
-   "volume": "I",
-   "from": "lacticum acidum",
-   "to": "aceticum acidum"
-  },
-  {
-   "volume": "I",
-   "from": "muriaticum",
-   "to": "ammonium muriaticum"
-  },
-  {
-   "volume": "II",
-   "from": "asaf",
-   "to": "asafoetida"
-  },
-  {
-   "volume": "II",
-   "from": "benzoic acid",
-   "to": "benzoicum acidum"
-  },
-  {
-   "volume": "III",
-   "from": "cadmium sulfuratum cainca",
-   "to": "cadmium sulfuratum"
-  },
-  {
-   "volume": "III",
-   "from": "cantharides capsicum",
-   "to": "cantharides"
-  },
-  {
-   "volume": "III",
-   "from": "cepa",
-   "to": "allium cepa"
-  },
-  {
-   "volume": "III",
-   "from": "palladium",
-   "to": "caladium seguinum"
-  },
-  {
-   "volume": "V",
-   "from": "douchos pruriens",
-   "to": "dolichos pruriens"
-  },
-  {
-   "volume": "VI",
-   "from": "hippoznin",
-   "to": "hippozaeninum"
-  },
-  {
-   "volume": "VI",
-   "from": "hydrocyanic acid",
-   "to": "hydrocyanicum acidum"
-  },
-  {
-   "volume": "VIII",
-   "from": "nitrig acid",
-   "to": "nitricum acidum"
-  },
-  {
-   "volume": "VIII",
-   "from": "picric acid",
-   "to": "picricum acidum"
-  },
-  {
-   "volume": "X",
-   "from": "viola odorata xanthoxylum",
-   "to": "viola odorata"
-  }
- ],
- "dropped_blocks": [
-  {
-   "volume": "VIII",
-   "name": "qisgrsgs",
-   "entries": 172
-  }
- ],
- "merged": [
-  {
-   "volume": "I",
-   "from": "antiiracinum",
-   "into": "anthracinum"
-  },
-  {
-   "volume": "I",
-   "from": "carbonicum",
-   "into": "ammonium carbonicum"
-  },
-  {
-   "volume": "I",
-   "from": "muriaticum",
-   "into": "ammonium muriaticum"
-  }
- ],
+ "renamed": [],
+ "dropped_blocks": [],
+ "merged": [],
  "examples": {
   "proving history / publication note": [
    {
@@ -329,6 +221,16 @@
    },
    {
     "volume": "I",
+    "before": "should be procured from trustworthy chemists",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "introduced by c. hg. see jahr^s manual, p. 19, published in allentown, toxicological symptoms have been collected from several authors",
+    "after": null
+   },
+   {
+    "volume": "I",
     "before": "professors hill and douglas state in their valuable report of provings with actea raeemosa, in the new york quarterly, vol. vii., 1859, p. 450 : \" it produced nausea, vomiting, and much gastric irritation in the six women, while in forty men it was hardly noticed as affecting the stomach in the least",
     "after": null
    },
@@ -340,6 +242,16 @@
    {
     "volume": "I",
     "before": "provings commenced only by hale. ^ sensonilin",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "proved by hahnemann and his school, and published in 1841, in the archives, by stapf",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "later proved by helbig",
     "after": null
    },
    {
@@ -410,26 +322,6 @@
    {
     "volume": "I",
     "before": "old people, hypochondriacal, or suffering from chronic diseases, especially catarrhs",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "introduced by hahnemann in 1827",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "especially proved by his friend, the count de gersdorf, from whom are nearly one-third of the symptoms",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "proved and introduced by i",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "proved by wibmer",
     "after": null
    }
   ],
@@ -560,6 +452,133 @@
     "after": "twitching in both ovarian regions, seems to extend to the back. ulcers on the os tincse"
    }
   ],
+  "section heading": [
+   {
+    "volume": "I",
+    "before": "nausea and vomiting",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "nausea and vomiting",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "sexual organs",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "female sexual organs",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "urinary organs",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "sexual organs",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "trachea and bronchia",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "^ locality and direction",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "heart, pulse and circulation",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "sexual organs",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "trachea and bronchia",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "sexual organs",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "desires, aversions",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "sexual organs",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "nausea and vomiting",
+    "after": null
+   }
+  ],
   "location line without heading (dropped)": [
    {
     "volume": "I",
@@ -589,6 +608,16 @@
    {
     "volume": "I",
     "before": "from cold",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "in attacks",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "in strings",
     "after": null
    },
    {
@@ -673,17 +702,7 @@
    },
    {
     "volume": "I",
-    "before": "from pressure",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "in big toe",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "in left scapula",
+    "before": "in warm room",
     "after": null
    }
   ],
@@ -867,6 +886,16 @@
    },
    {
     "volume": "I",
+    "before": "nose stopped up, more 1. side, with glairy mucus",
+    "after": "nose stopped up, more l. side, with glairy mucus"
+   },
+   {
+    "volume": "I",
+    "before": "better lying on 1. side",
+    "after": "better lying on l. side"
+   },
+   {
+    "volume": "I",
     "before": "better moving slowly about.   tearing and pressure in 1. half of brain",
     "after": "better moving slowly about.   tearing and pressure in l. half of brain"
    },
@@ -917,16 +946,6 @@
    },
    {
     "volume": "I",
-    "before": "nose stopped up, more 1. side, with glairy mucus",
-    "after": "nose stopped up, more l. side, with glairy mucus"
-   },
-   {
-    "volume": "I",
-    "before": "better lying on 1. side",
-    "after": "better lying on l. side"
-   },
-   {
-    "volume": "I",
     "before": "on awaking, so violent a pain in 1. articulation of jaw, he could scarcely open his mouth",
     "after": "on awaking, so violent a pain in l. articulation of jaw, he could scarcely open his mouth"
    },
@@ -941,133 +960,6 @@
     "after": "with urination : spasmodic drawing in l. groin"
    }
   ],
-  "section heading": [
-   {
-    "volume": "I",
-    "before": "passive motion",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "nausea and vomiting",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "sexual organs",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "female sexual organs",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "passive motion",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "trachea and bronchia",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "passive motion",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "^ locality and direction",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "heart, pulse and circulation",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "passive motion",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "passive motion",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "sexual organs",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "passive motion",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "passive motion",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "trachea and bronchia",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "passive motion",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "sexual organs",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "passive motion",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "desires, aversions",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "sexual organs",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "nausea and vomiting",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "nausea and vomiting",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "passive motion",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "nausea and vomiting",
-    "after": null
-   },
-   {
-    "volume": "I",
-    "before": "passive motion",
-    "after": null
-   }
-  ],
   "\"<\" / \">\" written as worse / better": [
    {
     "volume": "I",
@@ -1078,6 +970,11 @@
     "volume": "I",
     "before": "fine stitching in 1. hypochondrium, <c moving and laughing",
     "after": "fine stitching in 1. hypochondrium, worse moving and laughing"
+   },
+   {
+    "volume": "I",
+    "before": "> ' complete loss of sexual desire, penis is small, flaccid and cold",
+    "after": "better ' complete loss of sexual desire, penis is small, flaccid and cold"
    },
    {
     "volume": "I",
@@ -1133,11 +1030,6 @@
     "volume": "I",
     "before": "pain in vertex, < on moving head or stooping, > by pressure",
     "after": "pain in vertex, worse on moving head or stooping, better by pressure"
-   },
-   {
-    "volume": "I",
-    "before": "< from touch",
-    "after": "worse from touch"
    },
    {
     "volume": "I",
@@ -1405,47 +1297,47 @@
    },
    {
     "volume": "II",
-    "before": "artemisia vulgaris",
+    "before": "arsenicum metallicum",
     "after": null
    },
    {
     "volume": "II",
-    "before": "artemisia vulgaris",
+    "before": "arsenicum metallicum",
     "after": null
    },
    {
     "volume": "II",
-    "before": "artemisia vulgaris",
+    "before": "arsenicum metallicum",
     "after": null
    },
    {
     "volume": "II",
-    "before": "artemisia vulgaris",
+    "before": "arsenicum metallicum",
     "after": null
    },
    {
     "volume": "II",
-    "before": "artemisia vulgaris",
+    "before": "arsenicum metallicum",
     "after": null
    },
    {
     "volume": "II",
-    "before": "arum dracontium",
+    "before": "arsenicum metallicum",
     "after": null
    },
    {
     "volume": "II",
-    "before": "arum dracontium",
+    "before": "arsenicum metallicum",
     "after": null
    },
    {
     "volume": "II",
-    "before": "arum maculatum",
+    "before": "arsenicum metallicum",
     "after": null
    },
    {
     "volume": "II",
-    "before": "arum maculatum",
+    "before": "arsenicum metallicum",
     "after": null
    }
   ],
@@ -1576,15 +1468,62 @@
     "after": "several copious, thick mushy stools. idiarrhoea; mushlike yellowish discharges, with rumbling and passing of wind; squeamishness, much thirst; heat in face, and dullness of head; afterwards in the evening, increased appetite. free stools, mostly with tenesmus before and after. pappy, large, 429"
    }
   ],
+  "empty or too short": [
+   {
+    "volume": "II",
+    "before": "see 28",
+    "after": null
+   },
+   {
+    "volume": "III",
+    "before": "see 13",
+    "after": null
+   },
+   {
+    "volume": "VI",
+    "before": "^ -i f",
+    "after": null
+   },
+   {
+    "volume": "VI",
+    "before": "mrs",
+    "after": null
+   },
+   {
+    "volume": "IX",
+    "before": "mrs",
+    "after": null
+   },
+   {
+    "volume": "X",
+    "before": "mrs",
+    "after": null
+   }
+  ],
   "copied 'Modalities' label cleared": [
    {
     "volume": "II",
-    "before": "arnica montana: 'ameliorates with gentle pressure, aggravates with riding' on 100 of 102 entries",
+    "before": "arsenicum album: 'aggravates with midnight, aggravates with out doors, ameliorates with of the pains after the chill, aggravates with motion, ameliorates with carried about quickly, ameliorates with rest and at night, aggravates with sitting bent or stooping, ameliorates with wards, ameliorates with 10th day and following, ameliorates with lying on belly, ameliorates with frofli bending together' on 1683 of 1781 entries",
     "after": null
    },
    {
     "volume": "II",
-    "before": "arsenicum hydrogenisatum: 'aggravates with midnight, aggravates with out doors, ameliorates with of the pains after the chill, aggravates with motion, ameliorates with carried about quickly, ameliorates with rest and at night, aggravates with sitting bent or stooping, ameliorates with wards, ameliorates with 10th day and following, ameliorates with lying on belly, ameliorates with frofli bending together' on 2265 of 2399 entries",
+    "before": "arsenicum hydrogenisatum: 'aggravates with midnight, aggravates with out doors, ameliorates with of the pains after the chill, aggravates with motion, ameliorates with carried about quickly, ameliorates with rest and at night, aggravates with sitting bent or stooping, ameliorates with wards, ameliorates with 10th day and following, ameliorates with lying on belly, ameliorates with frofli bending together' on 462 of 493 entries",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "arsenicum iodatum: 'aggravates with midnight, aggravates with out doors, ameliorates with of the pains after the chill, aggravates with motion, ameliorates with carried about quickly, ameliorates with rest and at night, aggravates with sitting bent or stooping, ameliorates with wards, ameliorates with 10th day and following, ameliorates with lying on belly, ameliorates with frofli bending together' on 121 of 126 entries",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "arsenicum metallicum: 'ameliorates with steam or hot water, aggravates with as day progresses, ameliorates with morning, aggravates with toothache, aggravates with asthma, ameliorates with headache, ameliorates with pain in eyes, ameliorates with growing warm' on 293 of 310 entries",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "arsenicum sulphuratum flavum: 'ameliorates with steam or hot water, aggravates with as day progresses, ameliorates with morning, aggravates with toothache, aggravates with asthma, ameliorates with headache, ameliorates with pain in eyes, ameliorates with growing warm' on 212 of 226 entries",
     "after": null
    },
    {
@@ -1611,22 +1550,1860 @@
     "volume": "II",
     "before": "asparagus officinalis: 'aggravates with most pains, ameliorates with of pains in loins and elsewhere, aggravates with warmth' on 163 of 177 entries",
     "after": null
-   },
-   {
-    "volume": "II",
-    "before": "astacus fluviatilis: 'aggravates with sensitive to air, aggravates with uncovering' on 134 of 139 entries",
-    "after": null
-   },
-   {
-    "volume": "II",
-    "before": "asterias rubens: 'aggravates with female, aggravates with cold damp weather' on 367 of 380 entries",
-    "after": null
-   },
-   {
-    "volume": "II",
-    "before": "aurum metallicum: 'ameliorates with steam or hot water, aggravates with as day progresses, ameliorates with morning, aggravates with toothache, aggravates with asthma, ameliorates with headache, ameliorates with pain in eyes, ameliorates with growing warm' on 1503 of 1597 entries",
-    "after": null
    }
   ]
+ },
+ "pdf_check": {
+  "I": {
+   "remedies_in_book": [
+    "abies nigra",
+    "abrotanum",
+    "absinthium",
+    "acalypha indica",
+    "aceticum acidum",
+    "aconitum napellus",
+    "actea racemosa",
+    "actea spicata",
+    "aesculus glabra",
+    "aesculus hippocastanum",
+    "aethusa cynapium",
+    "agnus castus",
+    "ailanthus glandulosa",
+    "aletris farinosa",
+    "allium sativum",
+    "aloes socotrina",
+    "alumen",
+    "alumina",
+    "amanita",
+    "ambra grisea",
+    "ammonium benzoicum",
+    "ammonium bromidum",
+    "ammonium carbonicum",
+    "ammonium muriaticum",
+    "ammoniacum",
+    "amygdala amara",
+    "amylenum nitrosum",
+    "anacardium occidentale",
+    "anacardium orientale",
+    "anagallis arvensis",
+    "anantherum muricatum",
+    "angustura",
+    "anthracinum",
+    "anthrokokali",
+    "antimonium arsenicosum",
+    "antimonium chloridum",
+    "antimonium crudum",
+    "antimonium sulph auratum",
+    "antimonium tartaricum",
+    "apis",
+    "aphis chenopodii glauci",
+    "apis",
+    "apocynum cannabinum",
+    "argentum metallicum",
+    "argentum nitricum",
+    "armoracea sativa"
+   ],
+   "renamed_or_split": [
+    {
+     "json_name": "alumina or argilla",
+     "book_remedy": "alumina",
+     "entries": 753
+    },
+    {
+     "json_name": "lacticum acidum",
+     "book_remedy": "aceticum acidum",
+     "entries": 260
+    },
+    {
+     "json_name": "aesculus hippocastanum",
+     "book_remedy": "aethusa cynapium",
+     "entries": 247
+    },
+    {
+     "json_name": "castus",
+     "book_remedy": "agnus castus",
+     "entries": 239
+    },
+    {
+     "json_name": "angustura",
+     "book_remedy": "anthracinum",
+     "entries": 237
+    },
+    {
+     "json_name": "alumina or argilla",
+     "book_remedy": "amanita",
+     "entries": 228
+    },
+    {
+     "json_name": "muriaticum",
+     "book_remedy": "ammonium muriaticum",
+     "entries": 127
+    },
+    {
+     "json_name": "aleteris farinosa",
+     "book_remedy": "allium sativum",
+     "entries": 81
+    },
+    {
+     "json_name": "carbonicum",
+     "book_remedy": "ammonium carbonicum",
+     "entries": 80
+    },
+    {
+     "json_name": "anantherum muricatum",
+     "book_remedy": "angustura",
+     "entries": 65
+    },
+    {
+     "json_name": "anacardium orientale",
+     "book_remedy": "anagallis arvensis",
+     "entries": 59
+    },
+    {
+     "json_name": "anacardium orientale",
+     "book_remedy": "anacardium occidentale",
+     "entries": 56
+    },
+    {
+     "json_name": "antiiracinum",
+     "book_remedy": "anthracinum",
+     "entries": 45
+    },
+    {
+     "json_name": "aleteris farinosa",
+     "book_remedy": "aletris farinosa",
+     "entries": 43
+    },
+    {
+     "json_name": "anthracinum",
+     "book_remedy": "anthrokokali",
+     "entries": 37
+    },
+    {
+     "json_name": "aconitum napellus",
+     "book_remedy": "actea racemosa",
+     "entries": 26
+    },
+    {
+     "json_name": "aesculus glabra",
+     "book_remedy": "aesculus hippocastanum",
+     "entries": 26
+    },
+    {
+     "json_name": "amanita",
+     "book_remedy": "ammonium carbonicum",
+     "entries": 1
+    },
+    {
+     "json_name": "amygdala amara",
+     "book_remedy": "amylenum nitrosum",
+     "entries": 1
+    },
+    {
+     "json_name": "antimonium sulph auratum",
+     "book_remedy": "antimonium tartaricum",
+     "entries": 1
+    },
+    {
+     "json_name": "argentum nitricum",
+     "book_remedy": "argentum metallicum",
+     "entries": 1
+    },
+    {
+     "json_name": "lacticum acidum",
+     "book_remedy": "aconitum napellus",
+     "entries": 1
+    }
+   ],
+   "added_from_scan": {
+    "armoracea sativa": {
+     "pages": [
+      518
+     ],
+     "entries": 17
+    }
+   },
+   "json_names_not_in_book": [
+    "aleteris farinosa",
+    "alumina or argilla",
+    "antiiracinum",
+    "carbonicum",
+    "castus",
+    "lacticum acidum",
+    "muriaticum"
+   ],
+   "title_repairs": {
+    "iecdlus hippocastanum": "aesculus hippocastanum",
+    "iethusa cynapium": "aethusa cynapium",
+    "ammonium cakbonicum": "ammonium carbonicum",
+    "angustora": "angustura",
+    "antheokokali": "anthrokokali",
+    "antimonium arsenitum": "antimonium arsenicosum",
+    "t antimonium crudum": "antimonium crudum",
+    "aphis": "apis",
+    "amoracea satita": "armoracea sativa"
+   },
+   "entries_before": 18635,
+   "entries_after": 18652,
+   "remedies_before": 45,
+   "remedies_after": 43
+  },
+  "II": {
+   "remedies_in_book": [
+    "arnica montana",
+    "arsenicum album",
+    "arsenicum hydrogenisatum",
+    "arsenicum iodatum",
+    "arsenicum metallicum",
+    "arsenicum sulphuratum flavum",
+    "artemisia vulgaris",
+    "arum dracontium",
+    "arum maculatum",
+    "arum triphyllum",
+    "arundo mauritanica",
+    "asafoetida",
+    "asarum europaeum",
+    "asclepias syriaca",
+    "asclepias tuberosa",
+    "asimina triloba",
+    "asparagus officinalis",
+    "astacus fluviatilis",
+    "asterias rubens",
+    "atropinum",
+    "atropinum sulphuricum",
+    "aurantium",
+    "aurum metallicum",
+    "aurum muriaticum",
+    "aurum muriaticum natronatum",
+    "badiaga",
+    "baptisia tinctoria",
+    "baryta carbonica",
+    "baryta muriatica",
+    "belladonna",
+    "benzoicum acidum",
+    "berberis",
+    "bismuthum",
+    "borax",
+    "bovista",
+    "brachyglottis repens",
+    "bromium"
+   ],
+   "renamed_or_split": [
+    {
+     "json_name": "arsenicum hydrogenisatum",
+     "book_remedy": "arsenicum album",
+     "entries": 1900
+    },
+    {
+     "json_name": "asaf",
+     "book_remedy": "asafoetida",
+     "entries": 472
+    },
+    {
+     "json_name": "aurum metallicum",
+     "book_remedy": "aurum muriaticum",
+     "entries": 412
+    },
+    {
+     "json_name": "benzoic acid",
+     "book_remedy": "benzoicum acidum",
+     "entries": 352
+    },
+    {
+     "json_name": "aurum metallicum",
+     "book_remedy": "arsenicum metallicum",
+     "entries": 329
+    },
+    {
+     "json_name": "asclepias syriaca",
+     "book_remedy": "asclepias tuberosa",
+     "entries": 296
+    },
+    {
+     "json_name": "aurum metallicum",
+     "book_remedy": "arsenicum sulphuratum flavum",
+     "entries": 238
+    },
+    {
+     "json_name": "natrum sulphuricum",
+     "book_remedy": "atropinum sulphuricum",
+     "entries": 223
+    },
+    {
+     "json_name": "arsenicum hydrogenisatum",
+     "book_remedy": "arsenicum iodatum",
+     "entries": 142
+    },
+    {
+     "json_name": "aurum metallicum",
+     "book_remedy": "aurum muriaticum natronatum",
+     "entries": 86
+    },
+    {
+     "json_name": "natrum sulphuricum",
+     "book_remedy": "atropinum",
+     "entries": 60
+    },
+    {
+     "json_name": "aurum metallicum",
+     "book_remedy": "atropinum",
+     "entries": 1
+    },
+    {
+     "json_name": "baptisia tinctoria",
+     "book_remedy": "baryta carbonica",
+     "entries": 1
+    },
+    {
+     "json_name": "brachyglottis repens",
+     "book_remedy": "bromium",
+     "entries": 1
+    }
+   ],
+   "added_from_scan": {
+    "arnica montana": {
+     "pages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+     ],
+     "entries": 517
+    },
+    "aurantium": {
+     "pages": [
+      269,
+      270
+     ],
+     "entries": 47
+    }
+   },
+   "json_names_not_in_book": [
+    "asaf",
+    "benzoic acid",
+    "natrum sulphuricum"
+   ],
+   "title_repairs": {
+    "arsenicum htdrogenisatum": "arsenicum hydrogenisatum",
+    "arsenicum lodatum": "arsenicum iodatum",
+    "t arsenicum metallicum": "arsenicum metallicum",
+    "t artemisia vulgaris": "artemisia vulgaris",
+    "a um dracontium": "arum dracontium",
+    "asarum eukopae m": "asarum europaeum",
+    "aurum muriaticum natr onatum": "aurum muriaticum natronatum",
+    "bones": "bufones",
+    "beomium": "bromium"
+   },
+   "entries_before": 14063,
+   "entries_after": 14627,
+   "remedies_before": 28,
+   "remedies_after": 37
+  },
+  "III": {
+   "remedies_in_book": [
+    "bryonia alba",
+    "bufones",
+    "cactus grandiflorus",
+    "cadmium sulphuratum",
+    "cainca",
+    "calabar",
+    "caladidm",
+    "caladium seguinum",
+    "calcarea arsenicosa",
+    "calcarea fluorica",
+    "calcarea carbonica",
+    "calcarea phosphorica",
+    "calcarea sulphurica",
+    "calendula",
+    "camphora",
+    "cannabis indica",
+    "cannabis sativa",
+    "cantharides",
+    "capsicum",
+    "carbo animalis",
+    "carbo vegetabilis",
+    "carbolicum acidum",
+    "carboneum sulphuratum",
+    "carduus marianus",
+    "cascarilla",
+    "castanea vesca",
+    "castoreum",
+    "castor equorum",
+    "caulophyllum thalictroides",
+    "causticum",
+    "ceanothus americanus",
+    "cedron",
+    "allium cepa",
+    "cetraria islandica",
+    "chamomilla"
+   ],
+   "renamed_or_split": [
+    {
+     "json_name": "calcarea ostrearum",
+     "book_remedy": "calcarea carbonica",
+     "entries": 2292
+    },
+    {
+     "json_name": "palladium",
+     "book_remedy": "caladium seguinum",
+     "entries": 527
+    },
+    {
+     "json_name": "cepa",
+     "book_remedy": "allium cepa",
+     "entries": 512
+    },
+    {
+     "json_name": "causticum",
+     "book_remedy": "capsicum",
+     "entries": 469
+    },
+    {
+     "json_name": "cantharides capsicum",
+     "book_remedy": "cantharides",
+     "entries": 388
+    },
+    {
+     "json_name": "cadmium sulfuratum cainca",
+     "book_remedy": "cadmium sulphuratum",
+     "entries": 274
+    },
+    {
+     "json_name": "camphora",
+     "book_remedy": "cannabis indica",
+     "entries": 211
+    },
+    {
+     "json_name": "castanea vesca",
+     "book_remedy": "castoreum",
+     "entries": 110
+    },
+    {
+     "json_name": "causticum",
+     "book_remedy": "carbo animalis",
+     "entries": 4
+    },
+    {
+     "json_name": "caulophyllum thalictroides",
+     "book_remedy": "causticum",
+     "entries": 3
+    },
+    {
+     "json_name": "castanea vesca",
+     "book_remedy": "causticum",
+     "entries": 2
+    },
+    {
+     "json_name": "calcarea arsenicosa",
+     "book_remedy": "calcarea fluorica",
+     "entries": 1
+    },
+    {
+     "json_name": "calcarea sulphurica",
+     "book_remedy": "calendula",
+     "entries": 1
+    },
+    {
+     "json_name": "calendula",
+     "book_remedy": "camphora",
+     "entries": 1
+    },
+    {
+     "json_name": "camphora",
+     "book_remedy": "cannabis sativa",
+     "entries": 1
+    },
+    {
+     "json_name": "carduus marianus",
+     "book_remedy": "cascarilla",
+     "entries": 1
+    },
+    {
+     "json_name": "causticum",
+     "book_remedy": "caulophyllum thalictroides",
+     "entries": 1
+    },
+    {
+     "json_name": "cedron",
+     "book_remedy": "chamomilla",
+     "entries": 1
+    },
+    {
+     "json_name": "cepa",
+     "book_remedy": "chamomilla",
+     "entries": 1
+    }
+   ],
+   "added_from_scan": {
+    "bryonia alba": {
+     "pages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+     ],
+     "entries": 972
+    },
+    "cascarilla": {
+     "pages": [
+      399,
+      400
+     ],
+     "entries": 48
+    },
+    "ceanothus americanus": {
+     "pages": [
+      451,
+      452
+     ],
+     "entries": 32
+    },
+    "cetraria islandica": {
+     "pages": [
+      477,
+      478
+     ],
+     "entries": 47
+    }
+   },
+   "json_names_not_in_book": [
+    "cadmium sulfuratum cainca",
+    "calcarea ostrearum",
+    "cantharides capsicum",
+    "cepa",
+    "palladium"
+   ],
+   "title_repairs": {
+    "t calcarea ostrearum": "calcarea ostrearum",
+    "camphor": "camphora",
+    "canthaeides": "cantharides",
+    "carbo ve etabilis": "carbo vegetabilis",
+    "carduos marianus": "carduus marianus"
+   },
+   "entries_before": 14364,
+   "entries_after": 15463,
+   "remedies_before": 27,
+   "remedies_after": 34
+  },
+  "V": {
+   "remedies_in_book": [
+    "cundurango",
+    "cuprum aceticum",
+    "cuprum arsenicosum",
+    "cuprum metallicum",
+    "cuprum sulfuricum",
+    "curare",
+    "cyclamen europaeum",
+    "cypripedium",
+    "daphne odora",
+    "diadema aranea",
+    "digitalis purpurea",
+    "dioscorea villosa",
+    "dolichos pruriens",
+    "doryphora decemlineata",
+    "drosera rotundifolia",
+    "dulcamara",
+    "elaps corallinus",
+    "elaterium",
+    "equisetum hyemale",
+    "erigeron",
+    "eryngium aquaticum",
+    "eucalyptus globulus",
+    "eugenia jambos",
+    "eupatorium perfoliatum",
+    "eupatorium purpureum",
+    "euphorbium",
+    "euphrasia",
+    "ferrum metallicum",
+    "ferrum iodatum",
+    "ferrum muriaticum",
+    "ferrum phosphoricum",
+    "ferrum sulphuricum",
+    "filix mas",
+    "fluoricum acidum",
+    "formica rufa",
+    "gambogia",
+    "gelsemium",
+    "glonoinum",
+    "gnaphalium polycephalum",
+    "gossypium herbaceum",
+    "graphites",
+    "gratiola officinalis",
+    "grindelia robusta",
+    "guaiacum",
+    "guarana",
+    "guarea trichilioides",
+    "gymnocladus canadensis",
+    "hamamelis virginica",
+    "hekla lava",
+    "helleborus",
+    "helonias dioica"
+   ],
+   "renamed_or_split": [
+    {
+     "json_name": "ferrum muriaticum",
+     "book_remedy": "ferrum metallicum",
+     "entries": 948
+    },
+    {
+     "json_name": "formica rufa",
+     "book_remedy": "gambogia",
+     "entries": 310
+    },
+    {
+     "json_name": "ferrum muriaticum",
+     "book_remedy": "ferrum iodatum",
+     "entries": 228
+    },
+    {
+     "json_name": "cuprum arsenicum",
+     "book_remedy": "cuprum arsenicosum",
+     "entries": 202
+    },
+    {
+     "json_name": "douchos pruriens",
+     "book_remedy": "dolichos pruriens",
+     "entries": 152
+    },
+    {
+     "json_name": "natrum sulphuricum",
+     "book_remedy": "ferrum sulphuricum",
+     "entries": 82
+    },
+    {
+     "json_name": "cuprum sulfuricum",
+     "book_remedy": "cyclamen europaeum",
+     "entries": 1
+    },
+    {
+     "json_name": "curare",
+     "book_remedy": "cyclamen europaeum",
+     "entries": 1
+    },
+    {
+     "json_name": "eupatorium perfoliatum",
+     "book_remedy": "eupatorium purpureum",
+     "entries": 1
+    },
+    {
+     "json_name": "eupatorium purpureum",
+     "book_remedy": "euphorbium",
+     "entries": 1
+    },
+    {
+     "json_name": "ferrum phosphoricum",
+     "book_remedy": "fluoricum acidum",
+     "entries": 1
+    },
+    {
+     "json_name": "gelsemium",
+     "book_remedy": "glonoinum",
+     "entries": 1
+    },
+    {
+     "json_name": "gymnocladus canadensis",
+     "book_remedy": "hamamelis virginica",
+     "entries": 1
+    }
+   ],
+   "added_from_scan": {
+    "cundurango": {
+     "pages": [
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "entries": 77
+    },
+    "cuprum aceticum": {
+     "pages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+     ],
+     "entries": 112
+    },
+    "cypripedium": {
+     "pages": [
+      89
+     ],
+     "entries": 25
+    },
+    "equisetum hyemale": {
+     "pages": [
+      215,
+      216
+     ],
+     "entries": 40
+    },
+    "filix mas": {
+     "pages": [
+      336,
+      337
+     ],
+     "entries": 36
+    },
+    "gnaphalium polycephalum": {
+     "pages": [
+      443,
+      444
+     ],
+     "entries": 42
+    },
+    "grindelia robusta": {
+     "pages": [
+      496,
+      497
+     ],
+     "entries": 41
+    },
+    "guarana": {
+     "pages": [
+      507
+     ],
+     "entries": 17
+    },
+    "hekla lava": {
+     "pages": [
+      536,
+      537
+     ],
+     "entries": 43
+    }
+   },
+   "json_names_not_in_book": [
+    "cuprum arsenicum",
+    "douchos pruriens",
+    "natrum sulphuricum"
+   ],
+   "title_repairs": {
+    "cuprum sulfueicum": "cuprum sulfuricum",
+    "cyclamen europ eum": "cyclamen europaeum",
+    "deosera rotundifolia": "drosera rotundifolia",
+    "elaterium s": "elaterium",
+    "eeigeron": "erigeron",
+    "eupatorium peefoliatum": "eupatorium perfoliatum",
+    "feerum muriaticum": "ferrum muriaticum",
+    "fluoeicum acidum": "fluoricum acidum",
+    "hamameli virginica": "hamamelis virginica",
+    "hellebobus": "helleborus"
+   },
+   "entries_before": 15217,
+   "entries_after": 15650,
+   "remedies_before": 38,
+   "remedies_after": 50
+  },
+  "VI": {
+   "remedies_in_book": [
+    "hepar sulphuris",
+    "hippomanes",
+    "hippozaeninum",
+    "hydrastis canadensis",
+    "hydrocotyle asiatica",
+    "hydrocyanicum acidum",
+    "hyoscyamus niger",
+    "hypericum perforatum",
+    "iberis amara",
+    "ictodes foetida",
+    "ignatia",
+    "illicium anisatum",
+    "indigo",
+    "indium metallicum",
+    "inula",
+    "iodoformum",
+    "iodium",
+    "ipecacuanha",
+    "ipomoea",
+    "iridium",
+    "iris versicolor",
+    "jaborandi",
+    "jacaranda caroba",
+    "jacea",
+    "jalapa",
+    "jambos eugenia",
+    "jatropha",
+    "juglans cinerea",
+    "kali arsenicosum",
+    "kali bichromicum",
+    "kali bromatum",
+    "kali carbonicum",
+    "kali cyanatum",
+    "kali ferrocyanatum",
+    "kali iodatum",
+    "kali muriaticum",
+    "kali nitricum",
+    "kali permanganicum",
+    "kali phosphoricum",
+    "kali sulphuricum",
+    "kaolin",
+    "kalmia latifolia",
+    "kobaltum",
+    "kreosotum",
+    "lac caninum",
+    "lac defloratum",
+    "lachesis"
+   ],
+   "renamed_or_split": [
+    {
+     "json_name": "inula",
+     "book_remedy": "iodium",
+     "entries": 867
+    },
+    {
+     "json_name": "hyosciamus niger",
+     "book_remedy": "hyoscyamus niger",
+     "entries": 771
+    },
+    {
+     "json_name": "kali cyanatum",
+     "book_remedy": "kali iodatum",
+     "entries": 590
+    },
+    {
+     "json_name": "hydrocyanic acid",
+     "book_remedy": "hydrocyanicum acidum",
+     "entries": 272
+    },
+    {
+     "json_name": "inula",
+     "book_remedy": "iodoformum",
+     "entries": 179
+    },
+    {
+     "json_name": "hippomanes",
+     "book_remedy": "hippozaeninum",
+     "entries": 143
+    },
+    {
+     "json_name": "jacaranda caroba",
+     "book_remedy": "jacea",
+     "entries": 136
+    },
+    {
+     "json_name": "hippoznin",
+     "book_remedy": "hippozaeninum",
+     "entries": 89
+    },
+    {
+     "json_name": "iberis amara",
+     "book_remedy": "ictodes foetida",
+     "entries": 67
+    },
+    {
+     "json_name": "kali cyanatum",
+     "book_remedy": "kali ferrocyanatum",
+     "entries": 44
+    },
+    {
+     "json_name": "lachesis",
+     "book_remedy": "lac defloratum",
+     "entries": 3
+    },
+    {
+     "json_name": "hydrocyanic acid",
+     "book_remedy": "hyoscyamus niger",
+     "entries": 2
+    },
+    {
+     "json_name": "hyosciamus niger",
+     "book_remedy": "hypericum perforatum",
+     "entries": 1
+    },
+    {
+     "json_name": "hypericum perforatum",
+     "book_remedy": "iberis amara",
+     "entries": 1
+    },
+    {
+     "json_name": "ignatia",
+     "book_remedy": "indium metallicum",
+     "entries": 1
+    },
+    {
+     "json_name": "indium metallicum",
+     "book_remedy": "inula",
+     "entries": 1
+    },
+    {
+     "json_name": "jacaranda caroba",
+     "book_remedy": "kali arsenicosum",
+     "entries": 1
+    },
+    {
+     "json_name": "jambos eugenia",
+     "book_remedy": "juglans cinerea",
+     "entries": 1
+    },
+    {
+     "json_name": "kali muriaticum",
+     "book_remedy": "kali phosphoricum",
+     "entries": 1
+    },
+    {
+     "json_name": "kali phosphoricum",
+     "book_remedy": "kali sulphuricum",
+     "entries": 1
+    },
+    {
+     "json_name": "kali sulphuricum",
+     "book_remedy": "kaolin",
+     "entries": 1
+    },
+    {
+     "json_name": "kalmia latifolia",
+     "book_remedy": "kobaltum",
+     "entries": 1
+    }
+   ],
+   "added_from_scan": {
+    "hepar sulphuris": {
+     "pages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
+     ],
+     "entries": 814
+    },
+    "illicium anisatum": {
+     "pages": [
+      192
+     ],
+     "entries": 24
+    },
+    "ipomoea": {
+     "pages": [
+      273
+     ],
+     "entries": 21
+    },
+    "iridium": {
+     "pages": [
+      274
+     ],
+     "entries": 15
+    },
+    "jalapa": {
+     "pages": [
+      300
+     ],
+     "entries": 32
+    },
+    "kali arsenicosum": {
+     "pages": [
+      319,
+      320,
+      321
+     ],
+     "entries": 36
+    },
+    "kali permanganicum": {
+     "pages": [
+      473
+     ],
+     "entries": 13
+    },
+    "kaolin": {
+     "pages": [
+      487
+     ],
+     "entries": 20
+    },
+    "lac defloratum": {
+     "pages": [
+      558,
+      559,
+      560
+     ],
+     "entries": 26
+    }
+   },
+   "json_names_not_in_book": [
+    "hippoznin",
+    "hydrocyanic acid",
+    "hyosciamus niger"
+   ],
+   "title_repairs": {
+    "hippozienin": "hippozaeninum",
+    "jacaranda caroba s": "jacaranda caroba",
+    "juglans ci erea": "juglans cinerea",
+    "kali beomatum": "kali bromatum",
+    "kali bromatum gs": "kali bromatum",
+    "s kali bromatum": "kali bromatum",
+    "kali caebonicum s": "kali carbonicum",
+    "s kali carbonicum": "kali carbonicum",
+    "kali carbonic qm": "kali carbonicum",
+    "kaij carbonicum": "kali carbonicum",
+    "g kali phosphoricum": "kali phosphoricum",
+    "lac defloeatum": "lac defloratum",
+    "lachesis c": "lachesis",
+    "g lachesis": "lachesis",
+    "c lachesis": "lachesis"
+   },
+   "entries_before": 17472,
+   "entries_after": 18473,
+   "remedies_before": 33,
+   "remedies_after": 47
+  },
+  "VII": {
+   "remedies_in_book": [
+    "lachnanthes tinctoria",
+    "lacticum acidum",
+    "lactuca virosa",
+    "laurocerasus",
+    "ledum palustre",
+    "leptandra",
+    "lilium tigrinum",
+    "lithium carbonicum",
+    "lobelia inflata",
+    "lycopodium",
+    "lycopus virginicus",
+    "lyssin",
+    "magnesia carbonica",
+    "magnesia muriatica",
+    "magnesia phosphorica",
+    "magnesia sulphurica",
+    "mancinella",
+    "manganum",
+    "marum verum",
+    "medorrhinum",
+    "melilotus",
+    "menyanthes trifoliata",
+    "mephitis putorius",
+    "mercurialis perennis",
+    "mercurius",
+    "mercurius corrosivus",
+    "mercurius cyanatus",
+    "mercurius dulcis",
+    "mercurius iodatus flavus",
+    "mercurius iodatus ruber",
+    "mercurius sulphuricus",
+    "mezereum",
+    "millefolium",
+    "mitchella repens",
+    "moschus",
+    "morphinum sulphuricum",
+    "murex purpurea",
+    "muriaticum acidum",
+    "mygale",
+    "myosotis",
+    "myrica cerifera",
+    "myrtus communis",
+    "naja tripudians",
+    "natrum arsenicatum",
+    "natrum carbonicum",
+    "natrum muriaticum"
+   ],
+   "renamed_or_split": [
+    {
+     "json_name": "mercurius corrosivus",
+     "book_remedy": "mercurius",
+     "entries": 1609
+    },
+    {
+     "json_name": "mercurius dulcis",
+     "book_remedy": "mercurius iodatus flavus",
+     "entries": 374
+    },
+    {
+     "json_name": "mercurius dulcis",
+     "book_remedy": "mercurius iodatus ruber",
+     "entries": 233
+    },
+    {
+     "json_name": "manganum",
+     "book_remedy": "marum verum",
+     "entries": 222
+    },
+    {
+     "json_name": "natrum carbonicum",
+     "book_remedy": "natrum arsenicatum",
+     "entries": 213
+    },
+    {
+     "json_name": "natrum carbonicum",
+     "book_remedy": "natrum muriaticum",
+     "entries": 209
+    },
+    {
+     "json_name": "mercurius dulcis",
+     "book_remedy": "mercurius sulphuricus",
+     "entries": 163
+    },
+    {
+     "json_name": "lycopus virginicus",
+     "book_remedy": "lyssin",
+     "entries": 25
+    },
+    {
+     "json_name": "laurocerasus",
+     "book_remedy": "ledum palustre",
+     "entries": 1
+    },
+    {
+     "json_name": "lyssin",
+     "book_remedy": "magnesia carbonica",
+     "entries": 1
+    },
+    {
+     "json_name": "magnesia muriatica",
+     "book_remedy": "magnesia phosphorica",
+     "entries": 1
+    },
+    {
+     "json_name": "magnesia phosphorica",
+     "book_remedy": "mancinella",
+     "entries": 1
+    },
+    {
+     "json_name": "magnesia sulphurica",
+     "book_remedy": "mancinella",
+     "entries": 1
+    },
+    {
+     "json_name": "medorrhinum",
+     "book_remedy": "menyanthes trifoliata",
+     "entries": 1
+    },
+    {
+     "json_name": "menyanthes trifoliata",
+     "book_remedy": "mercurius",
+     "entries": 1
+    },
+    {
+     "json_name": "menyanthes trifoliata",
+     "book_remedy": "mephitis putorius",
+     "entries": 1
+    },
+    {
+     "json_name": "mezereum",
+     "book_remedy": "millefolium",
+     "entries": 1
+    },
+    {
+     "json_name": "millefolium",
+     "book_remedy": "moschus",
+     "entries": 1
+    },
+    {
+     "json_name": "murex purpurea",
+     "book_remedy": "muriaticum acidum",
+     "entries": 1
+    },
+    {
+     "json_name": "muriaticum acidum",
+     "book_remedy": "mygale",
+     "entries": 1
+    }
+   ],
+   "added_from_scan": {
+    "lachnanthes tinctoria": {
+     "pages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+     ],
+     "entries": 161
+    },
+    "lacticum acidum": {
+     "pages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+     ],
+     "entries": 244
+    },
+    "lactuca virosa": {
+     "pages": [
+      36
+     ],
+     "entries": 15
+    },
+    "morphinum sulphuricum": {
+     "pages": [
+      509
+     ],
+     "entries": 22
+    },
+    "mygale": {
+     "pages": [
+      529,
+      530,
+      531
+     ],
+     "entries": 39
+    },
+    "myrtus communis": {
+     "pages": [
+      537
+     ],
+     "entries": 17
+    }
+   },
+   "json_names_not_in_book": [],
+   "title_repairs": {
+    "lauroceeasus": "laurocerasus",
+    "lauhocerasus": "laurocerasus",
+    "s lilium tigrinum": "lilium tigrinum",
+    "lithium carbonicum a": "lithium carbonicum",
+    "s lycopodium": "lycopodium",
+    "menyanthes teifoliata": "menyanthes trifoliata",
+    "mercupvius lodatus flavus": "mercurius iodatus flavus",
+    "mueex purpurea": "murex purpurea",
+    "natrum mueiaticum": "natrum muriaticum",
+    "natrum muriaticdm": "natrum muriaticum"
+   },
+   "entries_before": 17019,
+   "entries_after": 17517,
+   "remedies_before": 33,
+   "remedies_after": 44
+  },
+  "VIII": {
+   "remedies_in_book": [
+    "natrum phosphoricum",
+    "natrum sulphuricum",
+    "niccolum",
+    "nitri spiritus dulcis",
+    "nitricum acidum",
+    "nuphar luteum",
+    "nux moschata",
+    "nux vomica",
+    "oenanthe crocata",
+    "oleander",
+    "oleum animale",
+    "oleum cajeputi",
+    "oleum jecoris aselli",
+    "opium",
+    "origanum",
+    "osmium",
+    "oxalicum acidum",
+    "paeonia",
+    "palladium",
+    "pareira brava",
+    "paris quadrifolia",
+    "petroleum",
+    "petroselinum",
+    "phellandrium",
+    "phosphoricum acidum",
+    "phosphorus",
+    "physostigma",
+    "phytolacca",
+    "picricum acidum",
+    "pix liquida",
+    "plantago major",
+    "platinum",
+    "plumbum",
+    "podophyllum peltatum",
+    "polygonum",
+    "polyporus officinalis",
+    "prunus spinosa",
+    "psorinum",
+    "ptelea trifoliata",
+    "pulsatilla"
+   ],
+   "renamed_or_split": [
+    {
+     "json_name": "nitrig acid",
+     "book_remedy": "nitricum acidum",
+     "entries": 824
+    },
+    {
+     "json_name": "picric acid",
+     "book_remedy": "picricum acidum",
+     "entries": 212
+    },
+    {
+     "json_name": "qisgrsgs",
+     "book_remedy": "plumbum",
+     "entries": 172
+    },
+    {
+     "json_name": "oxalicum acidum",
+     "book_remedy": "paeonia",
+     "entries": 101
+    },
+    {
+     "json_name": "polygonum",
+     "book_remedy": "polyporus officinalis",
+     "entries": 2
+    },
+    {
+     "json_name": "niccolum",
+     "book_remedy": "nitri spiritus dulcis",
+     "entries": 1
+    },
+    {
+     "json_name": "nitrig acid",
+     "book_remedy": "nux moschata",
+     "entries": 1
+    },
+    {
+     "json_name": "nux moschata",
+     "book_remedy": "nux vomica",
+     "entries": 1
+    },
+    {
+     "json_name": "oenanthe crocata",
+     "book_remedy": "oleander",
+     "entries": 1
+    },
+    {
+     "json_name": "opium",
+     "book_remedy": "oxalicum acidum",
+     "entries": 1
+    },
+    {
+     "json_name": "osmium",
+     "book_remedy": "oxalicum acidum",
+     "entries": 1
+    },
+    {
+     "json_name": "palladium",
+     "book_remedy": "pareira brava",
+     "entries": 1
+    },
+    {
+     "json_name": "phellandrium",
+     "book_remedy": "phosphoricum acidum",
+     "entries": 1
+    },
+    {
+     "json_name": "phosphorus",
+     "book_remedy": "phytolacca",
+     "entries": 1
+    },
+    {
+     "json_name": "plantago major",
+     "book_remedy": "platinum",
+     "entries": 1
+    },
+    {
+     "json_name": "polyporus officinalis",
+     "book_remedy": "psorinum",
+     "entries": 1
+    },
+    {
+     "json_name": "psorinum",
+     "book_remedy": "ptelea trifoliata",
+     "entries": 1
+    },
+    {
+     "json_name": "pulsatilla",
+     "book_remedy": "ptelea trifoliata",
+     "entries": 1
+    }
+   ],
+   "added_from_scan": {
+    "natrum phosphoricum": {
+     "pages": [
+      11,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+     ],
+     "entries": 178
+    },
+    "natrum sulphuricum": {
+     "pages": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+     ],
+     "entries": 383
+    },
+    "nuphar luteum": {
+     "pages": [
+      87,
+      88
+     ],
+     "entries": 39
+    },
+    "oleum cajeputi": {
+     "pages": [
+      206
+     ],
+     "entries": 16
+    },
+    "origanum": {
+     "pages": [
+      235
+     ],
+     "entries": 12
+    },
+    "petroselinum": {
+     "pages": [
+      303,
+      304,
+      305
+     ],
+     "entries": 52
+    }
+   },
+   "json_names_not_in_book": [
+    "nitrig acid",
+    "picric acid",
+    "qisgrsgs"
+   ],
+   "title_repairs": {
+    "genanthe crocata": "oenanthe crocata",
+    "oleum jecoris aselll": "oleum jecoris aselli",
+    "prunqs spinosa": "prunus spinosa",
+    "ptelea trifoltata": "ptelea trifoliata"
+   },
+   "entries_before": 17500,
+   "entries_after": 18180,
+   "remedies_before": 32,
+   "remedies_after": 39
+  },
+  "IX": {
+   "remedies_in_book": [
+    "ranunculus bulbosus",
+    "ranunculus sceleratus",
+    "raphanus sativus",
+    "ratanhia",
+    "rheum",
+    "rhododendron",
+    "rhus toxicodendron",
+    "rhus venenata",
+    "robinia",
+    "rumex crispus",
+    "ruta graveolens",
+    "sabadilla",
+    "sabina",
+    "salicylicum acidum",
+    "sambucus nigra",
+    "sanguinaria canadensis",
+    "sarracenia purpurea",
+    "sarsaparilla",
+    "secale cornutum",
+    "selenium",
+    "senecio",
+    "senega",
+    "sepia",
+    "silica",
+    "sinapis nigra et alba",
+    "spigelia",
+    "spongia tosta",
+    "squilla",
+    "stannum"
+   ],
+   "renamed_or_split": [
+    {
+     "json_name": "silicea",
+     "book_remedy": "silica",
+     "entries": 1982
+    },
+    {
+     "json_name": "silicea",
+     "book_remedy": "sinapis nigra et alba",
+     "entries": 278
+    },
+    {
+     "json_name": "rhus toxicodendron",
+     "book_remedy": "rhus venenata",
+     "entries": 126
+    },
+    {
+     "json_name": "secale cornutum",
+     "book_remedy": "selenium",
+     "entries": 3
+    },
+    {
+     "json_name": "sepia",
+     "book_remedy": "silica",
+     "entries": 2
+    },
+    {
+     "json_name": "rhus toxicodendron",
+     "book_remedy": "rhododendron",
+     "entries": 1
+    },
+    {
+     "json_name": "sabadilla",
+     "book_remedy": "sabina",
+     "entries": 1
+    },
+    {
+     "json_name": "sabina",
+     "book_remedy": "sambucus nigra",
+     "entries": 1
+    },
+    {
+     "json_name": "salicylicum acidum",
+     "book_remedy": "sanguinaria canadensis",
+     "entries": 1
+    },
+    {
+     "json_name": "senecio",
+     "book_remedy": "senega",
+     "entries": 1
+    },
+    {
+     "json_name": "spigelia",
+     "book_remedy": "spongia tosta",
+     "entries": 1
+    },
+    {
+     "json_name": "spongia tosta",
+     "book_remedy": "stannum",
+     "entries": 1
+    }
+   ],
+   "added_from_scan": {
+    "ranunculus bulbosus": {
+     "pages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+     ],
+     "entries": 201
+    },
+    "ranunculus sceleratus": {
+     "pages": [
+      20,
+      21,
+      22,
+      23,
+      24
+     ],
+     "entries": 109
+    },
+    "raphanus sativus": {
+     "pages": [
+      25,
+      26,
+      27
+     ],
+     "entries": 74
+    }
+   },
+   "json_names_not_in_book": [
+    "silicea"
+   ],
+   "title_repairs": {
+    "ehododendron": "rhododendron",
+    "silica sinapis nigra et alba": "sinapis nigra et alba"
+   },
+   "entries_before": 14461,
+   "entries_after": 14845,
+   "remedies_before": 24,
+   "remedies_after": 29
+  },
+  "X": {
+   "remedies_in_book": [
+    "staphisagria",
+    "sticta pulmonaria",
+    "stillingia sylvatica",
+    "stramonium",
+    "strontiana carbonica",
+    "sulphur",
+    "sulphuricum acidum",
+    "sumbul",
+    "symphytum",
+    "syphilinum",
+    "tabacum",
+    "taraxacum",
+    "tarentula",
+    "tellurium",
+    "terebinthina",
+    "theridion curassavicum",
+    "thlaspi bursa pastoris",
+    "thuja",
+    "trillium pendulum",
+    "trombidium",
+    "tuberculinum",
+    "uranium nitricum",
+    "urtica urens",
+    "ustilago",
+    "uva ursi",
+    "vaccininum et variolinum",
+    "valeriana",
+    "veratrum album",
+    "veratrum viride",
+    "verbascum thapsus",
+    "vespa",
+    "viburnum opulus",
+    "vinca minor",
+    "viola odorata",
+    "xanthoxylum",
+    "zincum",
+    "zingiber",
+    "zizia"
+   ],
+   "renamed_or_split": [
+    {
+     "json_name": "symphytum",
+     "book_remedy": "syphilinum",
+     "entries": 478
+    },
+    {
+     "json_name": "uva ursi",
+     "book_remedy": "vaccininum et variolinum",
+     "entries": 204
+    },
+    {
+     "json_name": "viola odorata xanthoxylum",
+     "book_remedy": "viola odorata",
+     "entries": 154
+    },
+    {
+     "json_name": "trillium pendulum",
+     "book_remedy": "trombidium",
+     "entries": 75
+    },
+    {
+     "json_name": "urtica urens",
+     "book_remedy": "ustilago",
+     "entries": 2
+    },
+    {
+     "json_name": "zincum",
+     "book_remedy": "zingiber",
+     "entries": 2
+    },
+    {
+     "json_name": "sulphur",
+     "book_remedy": "sulphuricum acidum",
+     "entries": 1
+    },
+    {
+     "json_name": "sulphuricum acidum",
+     "book_remedy": "sumbul",
+     "entries": 1
+    },
+    {
+     "json_name": "sumbul",
+     "book_remedy": "syphilinum",
+     "entries": 1
+    },
+    {
+     "json_name": "taraxacum",
+     "book_remedy": "tarentula",
+     "entries": 1
+    },
+    {
+     "json_name": "tellurium",
+     "book_remedy": "terebinthina",
+     "entries": 1
+    },
+    {
+     "json_name": "verbascum thapsus",
+     "book_remedy": "vespa",
+     "entries": 1
+    },
+    {
+     "json_name": "viola odorata xanthoxylum",
+     "book_remedy": "zincum",
+     "entries": 1
+    },
+    {
+     "json_name": "viola odorata xanthoxylum",
+     "book_remedy": "xanthoxylum",
+     "entries": 1
+    },
+    {
+     "json_name": "zingiber",
+     "book_remedy": "zizia",
+     "entries": 1
+    }
+   ],
+   "added_from_scan": {
+    "staphisagria": {
+     "pages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+     ],
+     "entries": 276
+    },
+    "thlaspi bursa pastoris": {
+     "pages": [
+      313
+     ],
+     "entries": 26
+    }
+   },
+   "json_names_not_in_book": [
+    "viola odorata xanthoxylum"
+   ],
+   "title_repairs": {
+    "sulphueicum acidum": "sulphuricum acidum",
+    "thuja trillium pendulum": "trillium pendulum",
+    "tuberculindm": "tuberculinum",
+    "urtica ueens": "urtica urens",
+    "veratrum vi ride": "veratrum viride",
+    "viburnum opulus g": "viburnum opulus"
+   },
+   "entries_before": 16379,
+   "entries_after": 16681,
+   "remedies_before": 36,
+   "remedies_after": 38
+  }
  }
 }
