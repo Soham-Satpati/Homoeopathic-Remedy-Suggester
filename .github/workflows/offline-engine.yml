@@ -15,7 +15,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [windows-latest, macos-latest, ubuntu-latest]
+        # HoRUS Offline ships for Windows only
+        os: [windows-latest]
     defaults:
       run:
         working-directory: offline

@@ -1,7 +1,9 @@
 """Clean Hering's Guiding Symptoms volumes and install them as shipped HoRUS books.
 
-    python offline/scripts/build_guiding_books.py RAW_FOLDER [REPO_ROOT]
+    python offline/scripts/build_guiding_books.py RAW_FOLDER [REPO_ROOT] [--pdf PDF_FOLDER]
 
+0. with --pdf, ``guiding_pdf.py`` first re-checks every volume against its scanned book
+   (Guiding_Symptoms_of_our_Materia_Medica-I.pdf …): entries re-filed by page, missing pages parsed
 1. ``clean_guiding_symptoms.py`` cleans every volume in RAW_FOLDER (report written next to the books)
 2. each cleaned volume is written to REPO_ROOT, compact
 3. its symptom co-occurrence table is built (``*_conditional_probabilities.csv.gz``)
@@ -40,15 +42,27 @@ def book_entry(vol: str, data: dict) -> dict:
         # clinic-added copies of the uncleaned scan that this cleaned volume replaces
         "replaces": [stem, stem.replace("_", " ")],
         "description": f"Hering's Guiding Symptoms of our Materia Medica, volume {vol}: {len(names)} remedies "
-                       f"({first} to {last}), {n:,} symptoms. Cleaned from the scan — see "
-                       f"guiding_symptoms_cleaning_report.md.",
+                       f"({first} to {last}), {n:,} symptoms. Checked against the scanned book and cleaned — "
+                       f"see guiding_symptoms_cleaning_report.md.",
     }
 
 
-def run(raw: Path, root: Path) -> None:
+def run(raw: Path, root: Path, pdf: Path | None = None) -> None:
     with tempfile.TemporaryDirectory() as tmp:
         tmp = Path(tmp)
-        clean(raw, tmp)
+        check = None
+        if pdf is not None:
+            from guiding_pdf import run as recheck
+            checked = tmp / "checked"
+            check = recheck(raw, pdf, checked)
+            raw = checked
+        rep = clean(raw, tmp)
+        if check:
+            from clean_guiding_symptoms import markdown
+            rep["pdf_check"] = check
+            (tmp / "guiding_symptoms_cleaning_report.json").write_text(
+                json.dumps(rep, ensure_ascii=False, indent=1), encoding="utf-8")
+            (tmp / "guiding_symptoms_cleaning_report.md").write_text(markdown(rep), encoding="utf-8")
         for name in ("guiding_symptoms_cleaning_report.md", "guiding_symptoms_cleaning_report.json"):
             (root / name).write_bytes((tmp / name).read_bytes())
         entries = []
@@ -72,4 +86,10 @@ def run(raw: Path, root: Path) -> None:
 
 
 if __name__ == "__main__":
-    run(Path(sys.argv[1]), Path(sys.argv[2]) if len(sys.argv) > 2 else HERE.parents[1])
+    args = sys.argv[1:]
+    pdf = None
+    if "--pdf" in args:
+        i = args.index("--pdf")
+        pdf = Path(args[i + 1])
+        del args[i:i + 2]
+    run(Path(args[0]), Path(args[1]) if len(args) > 1 else HERE.parents[1], pdf)

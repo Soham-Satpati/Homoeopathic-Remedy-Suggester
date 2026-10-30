@@ -248,6 +248,25 @@ def looks_like_symptom(text: str) -> bool:
     return letters / len(t) >= 0.9
 
 
+def _combined(rows) -> dict:
+    """{candidate: (score, display, via, support)} for one patient symptom's mapped rows.
+
+    Each table symptom the patient symptom was mapped to is one piece of evidence: per mapped
+    symptom the best link counts, and the pieces are combined as a noisy-OR, so a symptom that goes
+    with several of the neighbours ("vertigo" beside five headache entries in different remedies)
+    rises above a line that sits next to one entry in a single proving. ``support`` = how many."""
+    best: dict = {}                       # (candidate, anchor) → (p, display, via)
+    for other, disp, p, via in rows:
+        k = (other, via)
+        if k not in best or p > best[k][0]:
+            best[k] = (p, disp, via)
+    out: dict = {}
+    for (other, _), (p, disp, via) in best.items():
+        miss, d, v, n, top = out.get(other, (1.0, disp, via, 0, 0.0))
+        out[other] = (miss * (1.0 - p), disp if p >= top else d, via if p >= top else v, n + 1, max(top, p))
+    return {o: (1.0 - miss, d, v, n) for o, (miss, d, v, n, _) in out.items()}
+
+
 def get_suggestions_per_symptom(patient_symptoms: list, index: SymptomIndex | None,
                                 top_n: int = 10, resolve=None) -> dict:
     """{patient_symptom: [top_n {symptom, prob}]} — each patient symptom gets its own list.
@@ -260,8 +279,14 @@ def get_suggestions_per_symptom(patient_symptoms: list, index: SymptomIndex | No
         ps = ps_orig.strip().lower()
         if not ps:
             continue
-        scores = {}         # candidate_lower → (prob, display_str, via)
         rows, anchors = _expanded_rows(index, ps, resolve)
+        if resolve is not None:
+            comb = _combined(r for r in rows if r[0] not in patient_syms_lower and r[0] not in anchors)
+            top = sorted(comb.values(), key=lambda x: (-x[0], -x[3], len(x[1]), x[1]))[:top_n]
+            result[ps_orig] = [{"symptom": disp, "prob": round(prob, 4), "support": n,
+                                **({"via": via} if via else {})} for prob, disp, via, n in top]
+            continue
+        scores = {}         # candidate_lower → (prob, display_str, via)
         for other, disp, p, via in rows:
             if other not in patient_syms_lower and other not in anchors:
                 prev = scores.get(other, (0, disp, via))
@@ -275,7 +300,9 @@ def get_suggestions_per_symptom(patient_symptoms: list, index: SymptomIndex | No
 
 def get_top_suggestions(patient_symptoms: list, index: SymptomIndex | None,
                         top_n: int = 10, resolve=None) -> list:
-    """Aggregate across all patient symptoms → top_n globally, with the strongest trigger."""
+    """Aggregate across all patient symptoms → top_n globally, with the strongest trigger.
+    With ``resolve`` each patient symptom keeps its own ``top_n`` best (so one symptom with strong
+    links can't push the others out before they get a turn) and ``support`` counts the evidence."""
     if index is None or not patient_symptoms:
         return []
     patient_syms_lower = {s.strip().lower() for s in patient_symptoms if s.strip()}
@@ -286,6 +313,33 @@ def get_top_suggestions(patient_symptoms: list, index: SymptomIndex | None,
         if ps and ps not in expanded:
             expanded[ps] = _expanded_rows(index, ps, resolve)
     all_anchors = set().union(*(a for _, a in expanded.values())) if expanded else set()
+    if resolve is not None:
+        seen, per_trigger = set(), {}
+        for ps_orig in patient_symptoms:
+            ps = ps_orig.strip().lower()
+            if not ps or ps in seen:
+                continue
+            seen.add(ps)
+            comb = _combined(r for r in expanded[ps][0]
+                             if r[0] not in patient_syms_lower and r[0] not in all_anchors)
+            per_trigger[ps_orig] = comb
+            for other, (p, disp, via, n) in comb.items():
+                a = agg.setdefault(other, {"probs": [], "display": disp, "best_trigger": ps_orig,
+                                           "best_prob": p, "via": via, "support": 0})
+                a["probs"].append(p)
+                a["support"] += n
+                if p > a["best_prob"]:
+                    a.update(best_prob=p, best_trigger=ps_orig, via=via, display=disp)
+        def key(o):
+            v = agg[o]
+            return (-(max(v["probs"]) * v["support"] ** 0.5), -v["support"], v["display"])
+        keep = set()
+        for ps_orig, comb in per_trigger.items():
+            keep.update(sorted((o for o in comb if agg[o]["best_trigger"] == ps_orig), key=key)[:top_n])
+        out = [{"symptom": agg[o]["display"], "avg_prob": round(agg[o]["best_prob"], 4),
+                "support": agg[o]["support"], "triggered_by": agg[o]["best_trigger"],
+                **({"via": agg[o]["via"]} if agg[o]["via"] else {})} for o in sorted(keep, key=key)]
+        return out
     for ps_orig in patient_symptoms:
         ps = ps_orig.strip().lower()
         if not ps:
@@ -312,10 +366,5 @@ def get_top_suggestions(patient_symptoms: list, index: SymptomIndex | None,
         }
         for v in agg.values()
     ]
-    if resolve is None:
-        averaged.sort(key=lambda x: (-x["avg_prob"], -x["support"]))
-    else:
-        # mapped symptoms bring many weak, single-remedy pairs (P = 1.0 when a symptom belongs to one
-        # remedy); a suggestion linked to more of the case comes first
-        averaged.sort(key=lambda x: (-(x["avg_prob"] * x["support"] ** 0.5), -x["support"], x["symptom"]))
+    averaged.sort(key=lambda x: (-x["avg_prob"], -x["support"]))
     return averaged[:top_n]

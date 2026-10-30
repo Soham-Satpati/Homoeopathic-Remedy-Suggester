@@ -33,6 +33,9 @@ FILE = "Guiding_Symptoms_of_our_Materia_Medica-{}.json"
 # ── remedy names ──────────────────────────────────────────────────────────────
 # (volume, name in the scan) → correct name; None drops a block that can't be identified.
 # Every entry was checked against the block's own opening lines (substance, provers, chapters).
+# These only matter when the volumes are cleaned without the scanned books: ``guiding_pdf.py`` (run
+# first by ``build_guiding_books.py --pdf``) re-files every entry by the page it was printed on, which
+# also separates remedies these names can't (several remedies filed under one name).
 RENAME = {
     ("I", "carbonicum"): "ammonium carbonicum",        # "sesquicarbonas… introduced by Hahnemann in 1828";
                                                        # the mind…ears chapters missing from "ammonium carbonicum"
@@ -43,7 +46,8 @@ RENAME = {
     ("I", "alumina or argilla"): "alumina",
     ("II", "asaf"): "asafoetida",
     ("III", "cadmium sulfuratum cainca"): "cadmium sulfuratum",   # "sulphide of cadmium, CdS"
-    ("III", "cantharides capsicum"): "cantharides",    # "Spanish flies"; Capsicum's text is not in the scan
+    ("III", "cantharides capsicum"): "cantharides",    # "Spanish flies"; Capsicum's text is filed under
+                                                       # "causticum" (only the scans can separate it)
     ("III", "cepa"): "allium cepa",
     ("III", "palladium"): "caladium seguinum",         # block opens "Caladium seguinum, proved in Surinam…";
                                                        # the real Palladium is in vol. VIII
@@ -52,8 +56,7 @@ RENAME = {
     ("VI", "hydrocyanic acid"): "hydrocyanicum acidum",
     ("VIII", "nitrig acid"): "nitricum acidum",
     ("VIII", "picric acid"): "picricum acidum",
-    ("VIII", "qisgrsgs"): None,                        # unreadable name; limbs…sensations of a remedy after
-                                                       # Pulsatilla that the scan doesn't identify
+    ("VIII", "qisgrsgs"): "plumbum",                   # a garbled line inside Plumbum (scan pp. 499–505)
     ("II", "benzoic acid"): "benzoicum acidum",
     ("X", "viola odorata xanthoxylum"): "viola odorata",
 }
@@ -289,7 +292,37 @@ def markdown(rep: dict) -> str:
         for e in exs[:8]:
             L.append(f"- ({e['volume']}) “{e['before'][:140]}”" + (f" → “{e['after'][:140]}”" if e["after"] else ""))
         L.append("")
+    if rep.get("pdf_check"):
+        L += pdf_check_markdown(rep["pdf_check"])
     return "\n".join(L)
+
+
+def pdf_check_markdown(chk: dict) -> list:
+    """The re-check against the scanned books (``guiding_pdf.py``)."""
+    L = ["## Checked against the scanned books", "",
+         "Every entry was looked up in the scan (Internet Archive PDF) and re-filed under the remedy whose "
+         "pages it was printed on; pages the extraction had skipped were read from the scan.", "",
+         "| Volume | Remedies | Entries | Re-filed | Added from the scan |", "|---|---|---|---|---|"]
+    for v, r in chk.items():
+        L.append(f"| {v} | {r['remedies_before']} → {r['remedies_after']} | {r['entries_before']:,} → "
+                 f"{r['entries_after']:,} | {sum(x['entries'] for x in r['renamed_or_split']):,} | "
+                 f"{sum(x['entries'] for x in r['added_from_scan'].values()):,} |")
+    for v, r in chk.items():
+        L += ["", f"### Vol. {v}", ""]
+        moved = [x for x in r["renamed_or_split"] if x["entries"] >= 5]
+        if moved:
+            L.append("Re-filed (name in the extracted volume → remedy in the book):")
+            L += [f"- “{x['json_name']}” → **{x['book_remedy']}** ({x['entries']:,} entries)" for x in moved]
+        if r["added_from_scan"]:
+            L.append("")
+            L.append("Read from the scan (pages missing from the extracted volume):")
+            for name, a in r["added_from_scan"].items():
+                pages = a["pages"]
+                span = f"p. {pages[0]}" if len(pages) == 1 else f"pp. {pages[0]}–{pages[-1]}"
+                L.append(f"- **{name}**: {a['entries']:,} entries ({len(pages)} pages, {span})")
+        if r.get("title_repairs"):
+            L += ["", "Title misreadings repaired: " + "; ".join(f"“{a}” → {b}" for a, b in r["title_repairs"].items())]
+    return L
 
 
 if __name__ == "__main__":
