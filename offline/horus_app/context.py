@@ -67,8 +67,9 @@ class Job(QRunnable):
             pass
 
     def run(self) -> None:
+        fn, self.fn = self.fn, None          # don't keep the closure (and what it holds) after running
         try:
-            result = self.fn(self._progress) if self.with_progress else self.fn()
+            result = fn(self._progress) if self.with_progress else fn()
         except Exception as e:                              # reported to the GUI, logged in full
             log.exception("Background job failed")
             try:

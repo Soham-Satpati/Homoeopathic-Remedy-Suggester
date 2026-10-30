@@ -67,7 +67,24 @@ def ctx(tmp_path, monkeypatch, qapp):
     c = AppContext(paths)
     c.llm = c.transcriber = None                    # AI off: the structured paths must work alone
     c.settings.update(ai_enabled=False, backup_on_exit=False)
-    return c
+    yield c
+    # each test's engine holds every shipped book (~500 MB): delete the test's windows and free it,
+    # or the suite needs several GB
+    import gc
+    from PySide6.QtCore import QCoreApplication, QEvent
+    from PySide6.QtWidgets import QApplication
+    QApplication.instance() and QThreadPool_wait()
+    for w in QApplication.topLevelWidgets():
+        w.close()
+        w.deleteLater()
+    QCoreApplication.sendPostedEvents(None, QEvent.DeferredDelete)
+    c.engine = None
+    gc.collect()
+
+
+def QThreadPool_wait():
+    from PySide6.QtCore import QThreadPool
+    QThreadPool.globalInstance().waitForDone(30000)
 
 
 def _pump(ms: int) -> None:
@@ -382,7 +399,7 @@ def test_books_tab_fills_in_when_books_finish_loading(ctx, monkeypatch, tmp_path
     _pump(100)
     assert hasattr(tab, "editor") and tab.prog_card.parent() is None          # filled in by itself
     assert seen and seen[-1] == 1.0 and not win.st_bar.isVisible()
-    assert [b.id for b in tab.editor.books] == ["rheumatic", "case_studies", "guiding_symptoms_1"]
+    assert [b.id for b in tab.editor.books] == [b.id for b in ctx.engine.books] and len(ctx.engine.books) == 11
 
     # add several books at once (one is not a valid book): overall progress, the good one is added,
     # the bad one is reported, and the import runs in a separate process

@@ -52,6 +52,8 @@ class HorusEngine:
         self._emb_cache = (DatasetEmbeddingCache(embedder, paths.cache_dir if use_disk_cache else None,
                                                  seed_dir=paths.models_dir)
                            if embedder is not None else None)
+        if self._emb_cache is not None:
+            self._emb_cache.low_memory = not demo_parity        # no per-lookup copies of the store
         self.hidden_books: set = set()
         self._learn_lock = threading.RLock()
         self._payload: tuple = ()
@@ -102,7 +104,11 @@ class HorusEngine:
         if self._emb_cache is not None:
             keys = tuple(sorted(ds.s2r))
             need = self._emb_cache.missing(keys)
-            self._emb_cache.get(keys, progress=stage(0.15, 0.9) if need else None)
+            prog = stage(0.15, 0.9) if need else None
+            if self._emb_cache.low_memory:
+                self._emb_cache.subset(keys, progress=prog)
+            else:
+                self._emb_cache.get(keys, progress=prog)
         if progress:
             progress(0.9, "Building symptom clusters for suggestions…")
         self._suggestion_index(config)
@@ -126,7 +132,7 @@ class HorusEngine:
         with self._learn_lock:
             key = (cfg.books, self._payload_version, cfg.learned_weight)
             if key not in self._lives:
-                if len(self._lives) >= 6:
+                if len(self._lives) >= 3:
                     self._lives.pop(next(iter(self._lives)))
                 self._lives[key] = build_live_dataset(self._base_for(cfg.books, progress), self._payload,
                                                       cfg.learned_weight)
@@ -292,7 +298,7 @@ class HorusEngine:
         with self._learn_lock:
             key = (cfg.books, self._payload_version, cfg.learned_weight)
             if key not in self._cp_indexes:
-                if len(self._cp_indexes) >= 3:
+                if len(self._cp_indexes) >= 2:
                     self._cp_indexes.pop(next(iter(self._cp_indexes)))
                 cp = build_live_conditional_probabilities(base, self._payload, cfg.learned_weight)
                 self._cp_indexes[key] = SymptomIndex(cp) if cp is not None else None

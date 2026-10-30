@@ -632,10 +632,10 @@ class CaseFlow(QWidget):
             sym = entry["symptom"]
             items = [x for x in per.get(sym, []) if x["symptom"].lower() not in seen]
             parent = QTreeWidgetItem(self.sg_tree)
-            parent.setText(0, f"{sym}  —  {len(items)} suggestion{'s' if len(items) != 1 else ''}"
-                           if items else f"{sym}  —  no linked symptoms in the selected books")
+            kind = GROUP_LABEL.get(group, group.title())
+            parent.setText(0, f"{sym}  ({kind})  —  {len(items)} suggestion{'s' if len(items) != 1 else ''}"
+                           if items else f"{sym}  ({kind})  —  no linked symptoms in the selected books")
             parent.setFont(0, bold)
-            parent.setText(3, GROUP_LABEL.get(group, group.title()))
             parent.setText(4, ", ".join(entry.get("worse", [])))
             parent.setText(5, ", ".join(entry.get("better", [])))
             parent.setToolTip(0, "The patient's symptom as recorded. Its own modalities are shown on the right.")

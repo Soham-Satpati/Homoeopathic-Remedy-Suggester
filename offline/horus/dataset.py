@@ -151,7 +151,9 @@ def load_base_dataset(paths: Paths, books: list | None = None, progress=None,
     if merge_remedy_names:
         s2r, origin = _merge_names(s2r, origin, canon)
     source_label = ", ".join(dict.fromkeys(sources)) if sources else "none"
-    frozen_origin = {s: {r: frozenset(v) for r, v in rems.items()} for s, rems in origin.items()}
+    shared: dict = {}          # one frozenset object per distinct set of books (most are one book)
+    frozen_origin = {s: {r: shared.setdefault(frozenset(v), frozenset(v)) for r, v in rems.items()}
+                     for s, rems in origin.items()}
     return Dataset(frozenset(known), dict(s2r), source_label, 0, frozen_origin, tuple(b.id for b in books),
                    merge_remedy_names)
 

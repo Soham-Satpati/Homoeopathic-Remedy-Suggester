@@ -93,7 +93,9 @@ class DatasetEmbeddingCache:
         self.cache_dir = cache_dir
         self._index: dict[str, int] = {}
         self._mat = np.zeros((0, 0), dtype=np.float32)
-        self._recent: dict = {}         # digest → matrix; the remedy index and the suggestion index
+        self._recent: dict = {}         # digest → matrix (small key sets only; see subset())
+        self._masks: dict = {}
+        self._keys_list: list | None = None
         self._lock = __import__("threading").RLock()
         self.tag = store_tag(embedder.model_id)
         self._path = cache_dir / f"emb_store_{self.tag}.npz" if cache_dir else None
@@ -138,6 +140,59 @@ class DatasetEmbeddingCache:
         except OSError:
             log.warning("Could not write embedding cache %s", self._path)
 
+    def subset(self, keys: tuple, progress=None):
+        """(matrix, mask) without copying: ``matrix`` is the whole store and ``mask`` marks the rows of
+        ``keys``. Embeds any key not seen before. With ten books the store is ~130k × 384; copying
+        it per lookup (as ``get`` does) cost hundreds of megabytes. Returns (None, None) on failure.
+        Row ``i`` of the store is ``self.keys[i]``."""
+        with self._lock:
+            missing = [k for k in dict.fromkeys(keys) if k not in self._index]
+        if missing and self._embed(missing, progress) is None:
+            return None, None
+        with self._lock:
+            sig = (id(keys), len(keys), self._mat.shape[0])
+            hit = self._masks.get(sig)
+            if hit is None or hit[0] is not keys:
+                mask = np.zeros(self._mat.shape[0], dtype=bool)
+                mask[[self._index[k] for k in keys]] = True
+                if len(self._masks) >= 4:
+                    self._masks.pop(next(iter(self._masks)))
+                self._masks[sig] = hit = (keys, mask)
+            return self._mat, hit[1]
+
+    @property
+    def keys(self) -> list:
+        with self._lock:
+            if self._keys_list is None or len(self._keys_list) != len(self._index):
+                self._keys_list = sorted(self._index, key=self._index.get)
+            return self._keys_list
+
+    def _embed(self, missing: list, progress=None):
+        parts = []
+        try:
+            for i in range(0, len(missing), self.CHUNK):
+                if progress:
+                    progress(i / len(missing), f"Indexing symptoms for matching: {i:,} of {len(missing):,}")
+                parts.append(np.asarray(self.embedder.encode(missing[i:i + self.CHUNK], batch_size=128),
+                                        dtype=np.float32))
+        except Exception:
+            log.exception("Could not embed dataset — using lexical matching")
+            return None
+        new = np.vstack(parts)
+        with self._lock:
+            # another thread may have embedded some of these meanwhile: add only what is still new
+            keep = [i for i, k in enumerate(missing) if k not in self._index]
+            if keep:
+                add = new[keep]
+                start = self._mat.shape[0] if self._mat.size else 0
+                self._mat = add if self._mat.size == 0 else np.vstack([self._mat, add])
+                for j, i in enumerate(keep):
+                    self._index[missing[i]] = start + j
+                self._save()
+        if progress:
+            progress(1.0, f"Indexed {len(missing):,} symptoms")
+        return new
+
     def get(self, keys: tuple, progress=None) -> np.ndarray | None:
         """Vectors for ``keys`` (in order), embedding any not seen before.
         ``progress(fraction, message)`` is called while embedding."""
@@ -146,25 +201,8 @@ class DatasetEmbeddingCache:
             if digest in self._recent:
                 return self._recent[digest]
             missing = [k for k in dict.fromkeys(keys) if k not in self._index]
-            if missing:
-                parts = []
-                try:
-                    for i in range(0, len(missing), self.CHUNK):
-                        if progress:
-                            progress(i / len(missing), f"Indexing symptoms for matching: {i:,} of {len(missing):,}")
-                        parts.append(np.asarray(self.embedder.encode(missing[i:i + self.CHUNK], batch_size=128),
-                                                dtype=np.float32))
-                except Exception:
-                    log.exception("Could not embed dataset — using lexical matching")
-                    return None
-                new = np.vstack(parts)
-                start = len(self._index)
-                self._mat = new if self._mat.size == 0 else np.vstack([self._mat, new])
-                for i, k in enumerate(missing):
-                    self._index[k] = start + i
-                self._save()
-                if progress:
-                    progress(1.0, f"Indexed {len(missing):,} symptoms")
+            if missing and self._embed(missing, progress) is None:
+                return None
             emb = self._mat[[self._index[k] for k in keys]]
             if len(self._recent) >= 2:
                 self._recent.pop(next(iter(self._recent)))

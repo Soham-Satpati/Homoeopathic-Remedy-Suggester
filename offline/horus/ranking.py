@@ -127,22 +127,45 @@ def lexical_sim(a: str, b: str) -> float:
     return len(sa & sb) / len(sa | sb)
 
 
+def _top(row: np.ndarray, n: int) -> np.ndarray:
+    """Indices of the n largest values, largest first; ties keep row order (as a stable argsort)."""
+    if n >= len(row):
+        return np.argsort(-row, kind="stable")
+    part = np.argpartition(-row, n)[:n + 1] if n + 1 < len(row) else np.arange(len(row))
+    cut = np.sort(-row[part])[n - 1]                     # the n-th largest value
+    cand = np.flatnonzero(-row <= cut)                   # everything at least as large, in row order
+    return cand[np.argsort(-row[cand], kind="stable")][:n]
+
+
 def match_items_to_dataset(queries: list, s2r: dict, embedder: Embedder | None,
                            emb_cache: DatasetEmbeddingCache | None) -> list:
     """For each query → [(dataset_symptom, similarity)], using embeddings (or lexical fallback)."""
     keys = tuple(sorted(s2r.keys()))
     if not keys:
         return [[] for _ in queries]
-    emb = emb_cache.get(keys) if (embedder is not None and emb_cache is not None) else None
-
     out = []
-    if emb is not None:
+    if embedder is not None and emb_cache is not None and not getattr(emb_cache, "low_memory", False):
+        # the demo's way (parity tests): a matrix of exactly ``keys``, in sorted order
+        emb = emb_cache.get(keys)
+        if emb is not None:
+            qv = np.asarray(embedder.encode([q[1] for q in queries]), dtype=np.float32)
+            sims = qv @ emb.T
+            for q, row in zip(queries, sims):
+                th = CAUSE_MIN_SIM if q[3].startswith("cause:") else MATCH_MIN_SIM
+                idx = np.argsort(-row)[:MATCH_TOP_K]
+                out.append([(keys[i], float(row[i])) for i in idx if row[i] >= th])
+            return out
+    mat, mask = (emb_cache.subset(keys) if (embedder is not None and emb_cache is not None)
+                 else (None, None))
+    if mat is not None:
+        store_keys = emb_cache.keys
         qv = np.asarray(embedder.encode([q[1] for q in queries]), dtype=np.float32)
-        sims = qv @ emb.T
+        sims = qv @ mat.T
+        sims[:, ~mask] = -2.0                     # rows of books not selected
         for q, row in zip(queries, sims):
             th = CAUSE_MIN_SIM if q[3].startswith("cause:") else MATCH_MIN_SIM
-            idx = np.argsort(-row)[:MATCH_TOP_K]
-            out.append([(keys[i], float(row[i])) for i in idx if row[i] >= th])
+            idx = _top(row, MATCH_TOP_K)
+            out.append([(store_keys[i], float(row[i])) for i in idx if row[i] >= th])
     else:
         for q in queries:
             th = LEXICAL_MIN_SIM * (1.4 if q[3].startswith("cause:") else 1.0)
@@ -223,13 +246,17 @@ def nearest_symptoms(texts: list, keys: tuple, embedder: Embedder | None,
         return out
     # "recurrent headache for 10 days" → "headache": frequency and duration words carry no rubric
     core = {t: (_FILLER.sub(" ", t).strip() or t) for t in texts}
-    emb = emb_cache.get(keys) if (embedder is not None and emb_cache is not None) else None
-    if emb is not None:
+    mat, mask = (emb_cache.subset(keys) if (embedder is not None and emb_cache is not None)
+                 else (None, None))
+    if mat is not None:
+        store_keys = emb_cache.keys
         qv = np.asarray(embedder.encode([core[t] for t in texts]), dtype=np.float32)
-        for t, row in zip(texts, qv @ emb.T):
-            idx = np.argsort(-row)[:k * 3]
-            out[t] = [(keys[i], float(row[i])) for i in idx
-                      if row[i] >= SUGGEST_MIN_SIM and not laterality_conflict(t, keys[i])][:k]
+        sims = qv @ mat.T
+        sims[:, ~mask] = -2.0
+        for t, row in zip(texts, sims):
+            idx = _top(row, k * 3)
+            out[t] = [(store_keys[i], float(row[i])) for i in idx
+                      if row[i] >= SUGGEST_MIN_SIM and not laterality_conflict(t, store_keys[i])][:k]
         return out
     for t in texts:
         st = content_stems(core[t])

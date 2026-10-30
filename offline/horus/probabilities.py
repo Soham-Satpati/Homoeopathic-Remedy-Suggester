@@ -100,7 +100,7 @@ def build_live_conditional_probabilities(base: pd.DataFrame | None, payload,
         return round((prior * k + n_ab.get(key, 0)) / (k + n_a[a]), 6)
 
     if base is not None and all(c in base.columns for c in CP_COLS):
-        df = base[CP_COLS].copy()
+        df = base.copy()
         s1, s2 = _lower_col(df["Symptom1"]), _lower_col(df["Symptom2"])
         for i in df.index[s1.isin(n_a.keys()) | s2.isin(n_a.keys())]:
             a, b = s1[i], s2[i]
