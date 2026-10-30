@@ -62,6 +62,15 @@ def write_seed(embedder: Embedder, keys: list[str], folder: Path) -> Path:
     return path
 
 
+def seed_matches(path: Path, keys: list[str]) -> bool:
+    """True if the seed index at ``path`` holds exactly ``keys`` (so it can be reused as is)."""
+    try:
+        with np.load(path, allow_pickle=False) as z:
+            return list(z["keys"]) == list(keys) and z["vectors"].shape[0] == len(keys)
+    except (OSError, ValueError, KeyError):
+        return False
+
+
 def load_embedder(model_dir: Path, prefer: str = "auto") -> Embedder | None:
     """ONNX Runtime first (what the installed app ships), then sentence-transformers."""
     if not (Path(model_dir) / "config.json").exists():
@@ -235,6 +244,18 @@ class OnnxEmbedder:
         self._inputs = {i.name for i in self._sess.get_inputs()}
 
     def encode(self, texts: list[str], batch_size: int = 32) -> np.ndarray:
+        texts = list(texts)
+        if not texts:
+            return np.zeros((0, 384), dtype=np.float32)
+        # Batch texts of similar length together: each batch is padded to its longest text, so
+        # mixing a 3-word symptom with a 120-word one wastes most of the work. Order restored below.
+        order = sorted(range(len(texts)), key=lambda i: len(texts[i]))
+        vecs = self._encode_sorted([texts[i] for i in order], batch_size)
+        out = np.empty_like(vecs)
+        out[np.asarray(order)] = vecs
+        return out
+
+    def _encode_sorted(self, texts: list[str], batch_size: int) -> np.ndarray:
         out = []
         for i in range(0, len(texts), batch_size):
             enc = self._tok.encode_batch(list(texts[i:i + batch_size]))

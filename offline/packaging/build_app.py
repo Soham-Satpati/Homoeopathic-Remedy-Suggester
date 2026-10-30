@@ -67,21 +67,33 @@ def vc_runtime_dlls() -> list[Path]:
     return [sys32 / n for n in VC_RUNTIME if (sys32 / n).exists()]
 
 
-def build_seed_index(staging: Path) -> None:
+def build_seed_index(staging: Path, models: Path | None = None) -> None:
     """Embed every shipped book's symptoms now, so the installed app doesn't spend minutes doing it
-    on first start. The app merges this with its own cache (same model, same keys)."""
+    on first start. The app merges this with its own cache (same model, same keys). A seed already
+    built for the same books (``scripts/build_seed.py`` in CI) is copied instead of re-embedded."""
     import time
+    sys.path.insert(0, str(OFFLINE))
+    from horus.embeddings import OnnxEmbedder, seed_matches, store_tag, write_seed
+    keys = shipped_symptom_keys()
+    embedder = OnnxEmbedder(staging / "all-MiniLM-L6-v2")
+    name = f"emb_seed_{store_tag(embedder.model_id)}.npz"
+    if models is not None and seed_matches(models / name, keys):
+        shutil.copy2(models / name, staging / name)
+        print(f"Seed index: {len(keys):,} symptoms, reused {models / name}")
+        return
+    t = time.time()
+    out = write_seed(embedder, keys, staging)
+    print(f"Seed index: {len(keys):,} symptoms in {time.time() - t:.0f}s → {out.name} "
+          f"({out.stat().st_size / 2**20:.0f} MB)")
+
+
+def shipped_symptom_keys() -> list[str]:
     sys.path.insert(0, str(OFFLINE))
     from horus.books import discover_books
     from horus.config import Paths
     from horus.dataset import load_base_dataset
-    from horus.embeddings import OnnxEmbedder, write_seed
     paths = Paths(resources=REPO, user=REPO / "build" / "seed-user")
-    keys = sorted(load_base_dataset(paths, discover_books(paths)).s2r)
-    t = time.time()
-    out = write_seed(OnnxEmbedder(staging / "all-MiniLM-L6-v2"), keys, staging)
-    print(f"Seed index: {len(keys):,} symptoms in {time.time() - t:.0f}s → {out.name} "
-          f"({out.stat().st_size / 2**20:.0f} MB)")
+    return sorted(load_base_dataset(paths, discover_books(paths)).s2r)
 
 
 def third_party_notices(dest: Path, manifest: dict) -> None:
@@ -117,7 +129,7 @@ def main() -> None:
         sys.exit(f"Missing data files: {missing}")
     staging = REPO / "build" / "models-staging"
     manifest = stage_models(args.models, staging)
-    build_seed_index(staging)
+    build_seed_index(staging, args.models)
     vc = vc_runtime_dlls()
     if (staging / "llama-server").exists():
         for dll in vc:

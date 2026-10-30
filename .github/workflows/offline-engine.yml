@@ -43,6 +43,23 @@ jobs:
       - name: Fetch models and prove they load with networking off
         run: python scripts/fetch_models.py --dest ../models --no-llm --no-whisper
 
+      - name: Cache the symptom index
+        uses: actions/cache@v4
+        with:
+          path: seed
+          key: seed-${{ hashFiles('*.json', 'offline/horus/dataset.py', 'offline/horus/books.py', 'offline/horus/embeddings.py', 'offline/scripts/build_seed.py', 'offline/scripts/fetch_models.py') }}
+
+      - name: Symptom index for the shipped books (embedded once, reused by the tests and the build)
+        shell: bash
+        run: |
+          mkdir -p ../seed
+          cp ../seed/emb_seed_*.npz ../models/ 2>/dev/null || true
+          python scripts/build_seed.py ../models 2>&1 | tee seed.log
+          s=${PIPESTATUS[0]}
+          tail -3 seed.log | sed 's/^/::notice title=symptom index::/'
+          cp ../models/emb_seed_*.npz ../seed/
+          exit $s
+
       - name: Parity and offline tests (including real-model parity)
         shell: bash
         run: |
