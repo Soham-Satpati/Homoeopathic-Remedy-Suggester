@@ -45,10 +45,12 @@ def load_book_cooccurrence(books: list) -> pd.DataFrame | None:
         df = _read_table(p)
         df.columns = [c.strip() for c in df.columns]
         if all(c in df.columns for c in CP_COLS):
-            frames.append(df)
+            frames.append(df[CP_COLS])
     if not frames:
         return None
-    return frames[0] if len(frames) == 1 else pd.concat(frames, ignore_index=True)
+    df = frames[0] if len(frames) == 1 else pd.concat(frames, ignore_index=True)
+    # strings as categories: one copy of each symptom text instead of one per row
+    return df.astype({"Symptom1": "category", "Symptom2": "category"})
 
 
 def load_conditional_probabilities(paths: Paths) -> pd.DataFrame | None:
@@ -60,6 +62,15 @@ def load_conditional_probabilities(paths: Paths) -> pd.DataFrame | None:
             df.columns = [c.strip() for c in df.columns]
             return df
     return None
+
+
+def _lower_col(col: pd.Series) -> pd.Series:
+    """Lower-cased, stripped symptom column; for categories each distinct text is lowered once."""
+    import numpy as np
+    if isinstance(col.dtype, pd.CategoricalDtype):
+        cats = np.array([str(c).strip().lower() for c in col.cat.categories] + [""], dtype=object)
+        return pd.Series(cats[col.cat.codes.to_numpy()], index=col.index)
+    return col.astype(str).str.strip().str.lower()
 
 
 def build_live_conditional_probabilities(base: pd.DataFrame | None, payload,
@@ -89,16 +100,17 @@ def build_live_conditional_probabilities(base: pd.DataFrame | None, payload,
         return round((prior * k + n_ab.get(key, 0)) / (k + n_a[a]), 6)
 
     if base is not None and all(c in base.columns for c in CP_COLS):
-        df = base.copy()
-        s1 = df["Symptom1"].astype(str).str.strip().str.lower()
-        s2 = df["Symptom2"].astype(str).str.strip().str.lower()
+        df = base[CP_COLS].copy()
+        s1, s2 = _lower_col(df["Symptom1"]), _lower_col(df["Symptom2"])
         for i in df.index[s1.isin(n_a.keys()) | s2.isin(n_a.keys())]:
             a, b = s1[i], s2[i]
             if a in n_a:
                 df.at[i, "P_B_given_A"] = cond(float(df.at[i, "P_B_given_A"]), a, b)
             if b in n_a:
                 df.at[i, "P_A_given_B"] = cond(float(df.at[i, "P_A_given_B"]), b, a)
-        existing = set(zip(s1, s2)) | set(zip(s2, s1))
+        # only pairs between symptoms of saved cases can be new
+        both = s1.isin(n_a.keys()) & s2.isin(n_a.keys())
+        existing = set(zip(s1[both], s2[both])) | set(zip(s2[both], s1[both]))
     else:
         df = pd.DataFrame(columns=CP_COLS)
         existing = set()
@@ -114,22 +126,63 @@ def build_live_conditional_probabilities(base: pd.DataFrame | None, payload,
     return df if len(df) else None
 
 
+class _Side:
+    """Rows of one direction (Symptom1 → Symptom2 or back), grouped by symptom, in table order.
+    Read-only mapping: ``side[symptom] -> [(other_lower, other_display, prob), ...]``."""
+
+    def __init__(self, key, other, other_disp, prob, lower: list, display: list):
+        import numpy as np
+        order = np.argsort(key, kind="stable")          # stable: keeps the table's row order per symptom
+        self._key, self._other = key[order], other[order]
+        self._disp, self._prob = other_disp[order], prob[order]
+        self._lower, self._display = lower, display
+        uniq, starts = np.unique(self._key, return_index=True)
+        ends = list(starts[1:]) + [len(self._key)]
+        self._span = {lower[int(k)]: (int(a), int(b)) for k, a, b in zip(uniq, starts, ends)}
+
+    def __contains__(self, k) -> bool:
+        return k in self._span
+
+    def __iter__(self):
+        return iter(self._span)
+
+    def __len__(self) -> int:
+        return len(self._span)
+
+    def get(self, k, default=None):
+        return self[k] if k in self._span else default
+
+    def __getitem__(self, k) -> list:
+        a, b = self._span[k]
+        lo, dp = self._lower, self._display
+        return [(lo[o], dp[d], float(p)) for o, d, p in
+                zip(self._other[a:b].tolist(), self._disp[a:b].tolist(), self._prob[a:b].tolist())]
+
+
 class SymptomIndex:
-    """Row lookup by lower-cased Symptom1 / Symptom2, preserving table order."""
+    """Row lookup by lower-cased Symptom1 / Symptom2, preserving table order.
+
+    Stored as integer-coded numpy arrays (a few bytes per row): the ten shipped books have ~1.6
+    million rows, which as Python tuples took over a gigabyte."""
 
     def __init__(self, cp_df: pd.DataFrame):
-        s1_disp = cp_df["Symptom1"].tolist()
-        s2_disp = cp_df["Symptom2"].tolist()
-        s1 = cp_df["Symptom1"].str.strip().str.lower().tolist()
-        s2 = cp_df["Symptom2"].str.strip().str.lower().tolist()
-        pba = cp_df["P_B_given_A"].astype(float).tolist()
-        pab = cp_df["P_A_given_B"].astype(float).tolist()
+        import numpy as np
+        d1 = cp_df["Symptom1"].astype(str)
+        d2 = cp_df["Symptom2"].astype(str)
+        disp_codes, display = pd.factorize(pd.concat([d1, d2], ignore_index=True), sort=False)
+        display = [str(x) for x in display]
+        low_of_disp = [x.strip().lower() for x in display]
+        low_codes, lower = pd.factorize(pd.Series(low_of_disp), sort=False)
+        lower = [str(x) for x in lower]
+        n = len(cp_df)
+        dc = disp_codes.astype(np.int32)
+        lc = np.asarray(low_codes, dtype=np.int32)[dc]
+        s1d, s2d, s1, s2 = dc[:n], dc[n:], lc[:n], lc[n:]
+        pba = cp_df["P_B_given_A"].astype(float).to_numpy()
+        pab = cp_df["P_A_given_B"].astype(float).to_numpy()
         # forward[ps] = [(other_lower, other_display, P(other|ps)), ...] in row order
-        self.forward: dict = {}
-        self.reverse: dict = {}
-        for i in range(len(s1)):
-            self.forward.setdefault(s1[i], []).append((s2[i], s2_disp[i], pba[i]))
-            self.reverse.setdefault(s2[i], []).append((s1[i], s1_disp[i], pab[i]))
+        self.forward = _Side(s1, s2, s2d, pba, lower, display)
+        self.reverse = _Side(s2, s1, s1d, pab, lower, display)
 
     def rows_for(self, ps: str):
         """Forward rows (ps is Symptom1) then reverse rows (ps is Symptom2) — the demo's order."""
@@ -171,11 +224,14 @@ def _expanded_rows(index: SymptomIndex, ps: str, resolve):
 SHARED_PRIOR = 2.0
 
 
-_JUNK = re.compile(r"[\^■□•|\\{}<>~_]|\.{3,}|\b[a-z]\b.*\b[a-z]\b.*\b[a-z]\b")
+_JUNK = re.compile(r"[\^■□•|\\{}~_]|\.{3,}|\b[b-hj-z]\b.*\b[b-hj-z]\b.*\b[b-hj-z]\b")
 
 
 _FRAGMENT = re.compile(r"(and|or|in|at|on|about|across|as|with|from|to|of|a|an|the|but|also|then|which|"
                        r"who|when|while|after|before|during|for|by|into|under|over|up|set)\b")
+
+
+_CONJ = re.compile(r"(and|or|but|also|then|which|who|set)\b")
 
 
 def looks_like_symptom(text: str) -> bool:
@@ -183,10 +239,12 @@ def looks_like_symptom(text: str) -> bool:
     t = str(text).strip()
     if len(t) < 4 or _JUNK.search(t.lower().replace(" a ", " ")):
         return False
-    # sub-entries cut from their heading ("in stomach", "and creeping under l. eye", "a man, set")
-    if _FRAGMENT.match(t.lower()) and not t.lower().startswith("as if"):
+    # sub-entries cut from their heading ("in stomach", "and creeping under l. eye", "a man, set");
+    # longer entries starting "when…", "during…", "after…" are real symptoms
+    low = t.lower()
+    if _FRAGMENT.match(low) and not low.startswith("as if") and (len(low.split()) <= 4 or _CONJ.match(low)):
         return False
-    letters = sum(c.isalpha() or c.isspace() for c in t)
+    letters = sum(c.isalnum() or c.isspace() or c in ".,;:()'\"-<>!?/" for c in t)
     return letters / len(t) >= 0.9
 
 

@@ -130,10 +130,15 @@ def test_kiosk_intake_to_case(ctx, dialogs):
     k._start()
     answers = {"complaint": "Burning pain in the stomach", "worse": "after midnight",
                "better": "warm drinks", "thermal": "very chilly, wants to be covered"}
-    for _ in range(len(k.questions)):
-        q = k.questions[k.idx]
-        k.answer.setPlainText(answers.get(q["id"], ""))
+    screens = 0
+    while k.stack.currentIndex() == 1:
+        qs = k.page_questions()
+        assert 1 <= len(qs) <= 3 and all(sl["box"].isVisibleTo(k) for sl in k.slots[:len(qs)])
+        for slot, q in zip(k.slots, qs):
+            slot["answer"].setPlainText(answers.get(q["id"], ""))
         k._next()
+        screens += 1
+    assert screens == 4                                     # 10 questions, three per screen
     assert k.stack.currentIndex() == 2 and "PT-" in k.thanks_id.text()
     assert len(s.pending_intakes()) == 1
 
@@ -270,18 +275,27 @@ def test_suggestion_checkboxes_are_real_and_drive_comparison(ctx):
     cf._analyse()
     wait(lambda: cf.steps.currentIndex() == 2)
     cf._open_suggestions()
-    assert cf.steps.currentIndex() == 3 and cf.sg_table.rowCount() > 0
-    for r in range(cf.sg_table.rowCount()):
-        cb = cf.sg_table.cellWidget(r, 0).checkbox
+    tree = cf.sg_tree
+    assert cf.steps.currentIndex() == 3 and tree.topLevelItemCount() == 1
+    parent = tree.topLevelItem(0)                          # the patient's symptom, as a dropdown
+    assert parent.data(0, 0x0100) == "sore throat" and parent.childCount() > 0 and parent.isExpanded()
+    items = cf.sg_items()
+    for it in items:
+        cb = tree.itemWidget(it, 1).checkbox
         assert isinstance(cb, QCheckBox) and cb.isVisibleTo(cf) and not cb.isChecked()
+        assert it.parent() is parent and it.text(2).endswith("%")
+    parent.setExpanded(False)
+    assert not parent.isExpanded()
+    parent.setExpanded(True)
     assert not cf.cmp_go.isEnabled()                       # nothing ticked → can't compare
-    set_cell_checked(cf.sg_table, 0, True)
-    cf.sg_table.item(0, 4).setText("night, cold")
+    tree.itemWidget(items[0], 1).checkbox.setChecked(True)
+    items[0].setText(4, "night, cold")
     assert cf.cmp_go.isEnabled() and "1 symptom" in cf.cmp_count.text()
     cf._compare()
     wait(lambda: cf.cmp_pdf.isEnabled())
     added = cf._cmp[1]
     assert len(added) == 1 and added[0]["worse"] == ["night", "cold"]
+    assert added[0]["triggered_by"] == "sore throat"
     assert "B. With confirmed suggestions" in cf.cmp_enh.toPlainText()
     win.close()
 

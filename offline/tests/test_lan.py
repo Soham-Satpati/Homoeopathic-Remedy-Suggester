@@ -120,3 +120,40 @@ def test_certificate_reused_until_ips_change(tmp_path):
     _, _, f2 = ensure_certificate(tmp_path, ["192.168.1.10"])
     _, _, f3 = ensure_certificate(tmp_path, ["192.168.1.11"])
     assert f1 == f2 != f3
+
+
+def test_tablet_shows_three_questions_per_screen(server):
+    """Drive the tablet page in a real browser: pair, details, 4 screens of ≤3 questions, submit."""
+    pw = pytest.importorskip("playwright.sync_api")
+    from horus.intake import PATIENT_QUESTIONS
+    srv, got = server
+    try:
+        p = pw.sync_playwright().start()
+        browser = p.chromium.launch()
+    except Exception as e:                       # no browser on this machine
+        pytest.skip(f"Chromium not available: {e}")
+    try:
+        page = browser.new_page(ignore_https_errors=True)
+        page.goto(f"https://127.0.0.1:{srv.port}/")
+        page.fill("#pin", srv.pin)
+        page.click("text=Continue")
+        page.fill("#name", "Tablet Patient")
+        page.click("text=Start questions")
+        screens = 0
+        while page.is_visible("#qs"):
+            boxes = page.locator("#qlist textarea")
+            n = boxes.count()
+            assert 1 <= n <= 3
+            for k in range(n):
+                boxes.nth(k).fill(f"answer {screens}-{k}")
+            screens += 1
+            page.click("#nextb")
+            page.wait_for_timeout(150)
+        assert screens == 4 and page.is_visible("#done")
+        # going back keeps answers
+    finally:
+        browser.close()
+        p.stop()
+    details, qa, narrative = got[-1] if isinstance(got[-1], tuple) else (None, got[-1], None)
+    answered = [x for x in (qa or []) if x.get("answer")] if isinstance(qa, list) else []
+    assert len(answered) == len(PATIENT_QUESTIONS)

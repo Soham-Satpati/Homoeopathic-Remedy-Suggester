@@ -26,21 +26,15 @@ def _cat(paths, i=0):
 
 def test_shipped_books_and_default_selection(paths):
     ids = [b.id for b in discover_books(paths)]
-    assert ids == ["rheumatic", "case_studies", GUIDING]
+    assert ids[:3] == ["rheumatic", "case_studies", GUIDING] and len(ids) == 11
     e = HorusEngine(paths)                                   # default: every available book
     assert e.config.books == tuple(ids)
     demo = make_engine(paths, semantic=False)
-    assert len(e.dataset.s2r) > len(demo.dataset.s2r) + 10_000
+    assert len(e.dataset.s2r) > len(demo.dataset.s2r) + 100_000
     assert "Guiding_Symptoms" in e.dataset.source
-    # the "relationship" chapter (remedy relationships, not symptoms) is left out
+    # remedy relationships are not symptoms: the cleaned volumes have no such chapter
     g = json.loads(next(b for b in e.books if b.id == GUIDING).json_path.read_text(encoding="utf-8"))
-    rel = {it["symptom"].strip().lower() for chs in g.values() for ch, items in chs.items()
-           if ch.lower() == "relationship" for it in items if it.get("symptom")}
-    others = {it["symptom"].strip().lower() for chs in g.values() for ch, items in chs.items()
-              if ch.lower() != "relationship" for it in items if it.get("symptom")}
-    only_rel = rel - others
-    guiding_only = e.dataset_for(DecisionConfig.classical((GUIDING,)))
-    assert only_rel and not (only_rel & set(guiding_only.s2r))
+    assert not any(ch.lower() in ("relationship", "relations") for chs in g.values() for ch in chs)
 
 
 def test_unselected_books_never_contribute(paths):

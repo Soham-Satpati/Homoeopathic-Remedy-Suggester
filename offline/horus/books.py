@@ -52,6 +52,9 @@ class Book:
     source: str = "shipped"               # "shipped" | "user"
     description: str = ""
     exclude_chapters: tuple = ()          # chapters that are not symptoms (e.g. remedy relationships)
+    replaces: tuple = ()                  # shipped: names of clinic-added copies this book supersedes
+    aliases: tuple = ()                   # shipped: ids of clinic-added books it superseded here
+    superseded_by: str | None = None      # clinic-added: id of the shipped book that replaces it
 
     @property
     def available(self) -> bool:
@@ -66,8 +69,24 @@ def _resolve(folder: Path, name: str | None) -> Path | None:
     return (folder / name) if name else None
 
 
-def discover_books(paths: Paths) -> list[Book]:
-    """Shipped books (books.json, or the two original books) followed by clinic-added books."""
+def book_key(text: str) -> str:
+    """'Guiding_Symptoms_of_our_Materia_Medica-II' and 'Guiding Symptoms of our Materia Medica-II'
+    → the same key."""
+    return re.sub(r"[^a-z0-9]", "", str(text).lower())
+
+
+def _source_name(meta: dict) -> str:
+    if meta.get("source_file"):
+        return Path(meta["source_file"]).stem
+    m = re.search(r"added from (.+?)(\.json)?$", meta.get("description", ""))
+    return m.group(1) if m else ""
+
+
+def discover_books(paths: Paths, include_superseded: bool = False) -> list[Book]:
+    """Shipped books (books.json, or the two original books) followed by clinic-added books.
+
+    A clinic-added book that a shipped book replaces (e.g. a raw scan of a volume HoRUS now ships
+    cleaned) is left out — or, with ``include_superseded``, listed with ``superseded_by`` set."""
     books: list[Book] = []
     manifest = paths.resource(BOOKS_MANIFEST)
     entries = _FALLBACK_BOOKS
@@ -79,9 +98,13 @@ def discover_books(paths: Paths) -> list[Book]:
     for e in entries:
         b = Book(e["id"], e["title"], paths.resource(e["json"]), _resolve(paths.resources, e.get("pkl")),
                  _resolve(paths.resources, e.get("cooccurrence")), "shipped", e.get("description", ""),
-                 tuple(c.lower() for c in e.get("exclude_chapters", ())))
+                 tuple(c.lower() for c in e.get("exclude_chapters", ())),
+                 tuple(book_key(x) for x in e.get("replaces", ())))
         if b.available:
             books.append(b)
+    replaced_by = {k: b.id for b in books for k in b.replaces}
+    aliases: dict = {}
+    superseded: list[Book] = []
     user_dir = paths.user / USER_BOOKS_DIR
     if user_dir.exists():
         for meta in sorted(user_dir.glob("*/book.json")):
@@ -89,11 +112,24 @@ def discover_books(paths: Paths) -> list[Book]:
                 e = json.loads(meta.read_text(encoding="utf-8"))
                 b = Book(e["id"], e["title"], meta.parent / e["json"], None,
                          _resolve(meta.parent, e.get("cooccurrence")), "user", e.get("description", ""))
-                if b.available and all(x.id != b.id for x in books):
+                if not b.available or any(x.id == b.id for x in books):
+                    continue
+                by = replaced_by.get(book_key(b.title)) or replaced_by.get(book_key(_source_name(e)))
+                if by:
+                    aliases.setdefault(by, []).append(b.id)
+                    superseded.append(replace(b, superseded_by=by))
+                else:
                     books.append(b)
             except (OSError, ValueError, KeyError):
                 continue
-    return books
+    books = [replace(b, aliases=tuple(aliases.get(b.id, ()))) if b.id in aliases else b for b in books]
+    return books + superseded if include_superseded else books
+
+
+def replacing_book(paths: Paths, title: str, source: Path | None = None) -> Book | None:
+    """The shipped book that already contains this book (cleaned), if any."""
+    keys = {book_key(title)} | ({book_key(Path(source).stem)} if source else set())
+    return next((b for b in discover_books(paths) if b.source == "shipped" and keys & set(b.replaces)), None)
 
 
 # ── decision settings ────────────────────────────────────────────────────────
@@ -120,8 +156,13 @@ class DecisionConfig:
     def resolve(self, available: list[Book]) -> "DecisionConfig":
         """Drop books that are not installed; empty selection → all available."""
         ids = [b.id for b in available]
-        chosen = [b for b in self.books if b in ids] if self.books else ids
-        return replace(self, books=tuple(chosen))
+        alias = {a: b.id for b in available for a in b.aliases}     # superseded clinic copy → shipped book
+        mapped = list(dict.fromkeys(alias.get(x, x) for x in self.books))
+        chosen = [b for b in mapped if b in ids] if self.books else ids
+        weights = {}
+        for k, w in self.book_weights:
+            weights.setdefault(alias.get(k, k), w)
+        return replace(self, books=tuple(chosen), book_weights=tuple(sorted(weights.items())))
 
     @property
     def is_unbiased(self) -> bool:
@@ -211,6 +252,10 @@ def import_book(paths: Paths, source: Path, title: str, progress=None) -> Book:
         if progress:
             progress(f, m)
     report(0.0, "Reading the book…")
+    same = replacing_book(paths, title, source)
+    if same is not None:
+        raise BookFormatError(f"HoRUS already includes this book, cleaned: “{same.title}”. "
+                              "It doesn't need to be added again.")
     data = json.loads(Path(source).read_text(encoding="utf-8-sig"))
     stats = validate_book_data(data)
     report(0.03, f"{stats['remedies']} remedies, {stats['entries']:,} symptoms — building clusters…")
@@ -231,7 +276,7 @@ def import_book(paths: Paths, source: Path, title: str, progress=None) -> Book:
         report(0.96, "Saving…")
         cp.to_csv(tmp / "cooccurrence.csv.gz", index=False, compression="gzip")
         meta = {"id": book_id, "title": title.strip() or Path(source).stem, "json": "data.json",
-                "cooccurrence": "cooccurrence.csv.gz", "description": f"{stats['remedies']} remedies, "
+                "cooccurrence": "cooccurrence.csv.gz", "source_file": Path(source).name, "description": f"{stats['remedies']} remedies, "
                 f"{stats['entries']:,} symptoms; added from {Path(source).name}", **stats}
         (tmp / "book.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")
         tmp.rename(folder)

@@ -72,11 +72,11 @@ def build_query_items(categorised: dict, category_weights: dict | None = None,
 _LEFT, _RIGHT = re.compile(r"\bleft\b"), re.compile(r"\bright\b")
 
 # A patient modality may only match a dataset entry that is itself a modality.
-_MOD_WORDS = re.compile(r"\b(worse|better|agg\w*|amel\w*|reliev\w*|improv\w*|after|before|during|while"
+_MOD_WORDS = re.compile(r"[<>]|\b(worse|better|agg\w*|amel\w*|reliev\w*|improv\w*|after|before|during|while"
                         r"|on (rising|waking|lying|walking|motion)|from (touch|motion|heat|cold|warm\w*|eating"
                         r"|pressure|rest|lying|walking))\b")
-_WORSE_W = re.compile(r"\b(worse|agg\w*|intoleran\w*|cannot bear|can't bear)\b")
-_BETTER_W = re.compile(r"\b(better|amel\w*|reliev\w*|improv\w*)\b")
+_WORSE_W = re.compile(r"<|\b(worse|agg\w*|intoleran\w*|cannot bear|can't bear)\b")
+_BETTER_W = re.compile(r">|\b(better|amel\w*|reliev\w*|improv\w*)\b")
 
 
 def modality_mismatch(group: str, dataset_text: str) -> bool:

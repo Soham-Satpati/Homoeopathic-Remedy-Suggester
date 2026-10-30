@@ -28,7 +28,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from typing import Callable
 
-from horus.intake import PATIENT_QUESTIONS, compose_patient_narrative
+from horus.intake import PATIENT_QUESTIONS, QUESTIONS_PER_PAGE, compose_patient_narrative
 
 log = logging.getLogger(__name__)
 SESSION_HOURS = 12
@@ -204,7 +204,8 @@ class _Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         if self.path in ("/", "/index.html"):
-            page = TABLET_PAGE.replace("__QUESTIONS__", json.dumps(PATIENT_QUESTIONS))
+            page = (TABLET_PAGE.replace("__QUESTIONS__", json.dumps(PATIENT_QUESTIONS))
+                    .replace("__PER_PAGE__", str(QUESTIONS_PER_PAGE)))
             self._headers(200, "text/html; charset=utf-8")
             self.wfile.write(page.encode("utf-8"))
         elif self.path == "/api/status":
@@ -253,11 +254,11 @@ TABLET_PAGE = """<!doctype html><html lang="en"><head><meta charset="utf-8">
 main{max-width:720px;margin:0 auto;padding:24px 16px}h1{font-size:26px;margin:0 0 8px}
 .card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:18px;margin:14px 0}
 label{display:block;font-weight:600;margin:12px 0 4px}input,select,textarea{width:100%;font:inherit;padding:10px;
-border:1px solid #cbd5e1;border-radius:8px;background:#fff}textarea{min-height:180px}
+border:1px solid #cbd5e1;border-radius:8px;background:#fff}textarea{min-height:110px}
 button{font:inherit;font-weight:600;padding:12px 22px;border-radius:9px;border:1px solid var(--accent);
 background:var(--accent);color:#fff}button.sec{background:#fff;color:var(--accent)}.row{display:flex;gap:10px;
 justify-content:space-between;margin-top:16px}.muted{color:var(--muted)}.q{font-size:24px;font-weight:600}
-.err{color:#b91c1c;margin-top:8px}.hide{display:none}
+.err{color:#b91c1c;margin-top:8px}.hide{display:none}label.q{font-size:21px;margin:0 0 4px}
 </style></head><body><main>
 <h1>Patient questionnaire</h1>
 <section id="pair" class="card"><p>Please ask the reception for the 6-digit code shown on the clinic computer.</p>
@@ -269,23 +270,31 @@ justify-content:space-between;margin-top:16px}.muted{color:var(--muted)}.q{font-
 <label>Phone</label><input id="contact" inputmode="tel"><label>Patient ID (if you have visited before)</label>
 <input id="prev_id" placeholder="e.g. PT-2026-004">
 <div class="row"><span></span><button onclick="begin()">Start questions</button></div><div id="deterr" class="err"></div></section>
-<section id="qs" class="card hide"><p class="muted" id="prog"></p><p class="q" id="qtext"></p><p class="muted" id="qhint"></p>
-<textarea id="ans"></textarea><div class="row"><button class="sec" onclick="back()">Back</button>
+<section id="qs" class="hide"><p class="muted" id="prog"></p><div id="qlist"></div>
+<div class="row"><button class="sec" onclick="back()">Back</button>
 <button id="nextb" onclick="next()">Next</button></div><div id="qerr" class="err"></div></section>
 <section id="done" class="card hide"><p class="q">Thank you. Your answers have been given to the doctor.</p>
 <p id="pidmsg"></p><div class="row"><span></span><button onclick="again()">Next patient</button></div></section>
 </main><script>
-const Q=__QUESTIONS__;let i=0,ans={};const $=id=>document.getElementById(id);
+const Q=__QUESTIONS__,PER=__PER_PAGE__;let i=0,ans={};const $=id=>document.getElementById(id);
 function show(id){for(const s of ['pair','details','qs','done'])$(s).classList.toggle('hide',s!==id)}
 async function post(url,body){const r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},
  body:JSON.stringify(body),credentials:'same-origin'});let j={};try{j=await r.json()}catch(e){}return [r.ok,j]}
 async function pair(){const [ok,j]=await post('/api/pair',{pin:$('pin').value});if(ok){show('details')}else{$('pairerr').textContent=j.error||'Error'}}
 function begin(){if(!$('name').value.trim()){$('deterr').textContent='Please enter your name.';return}i=0;ans={};show('qs');render()}
-function render(){const q=Q[i];$('prog').textContent='Question '+(i+1)+' of '+Q.length;$('qtext').textContent=q.q;
- $('qhint').textContent=q.hint||'';$('ans').value=ans[q.id]||'';$('nextb').textContent=i===Q.length-1?'Finish':'Next';$('ans').focus()}
-function keep(){ans[Q[i].id]=$('ans').value}
-function back(){keep();if(i>0){i--;render()}}
-async function next(){keep();if(i<Q.length-1){i++;render();return}
+function page(){return Q.slice(i,i+PER)}
+function render(){const qs=page(),last=i+qs.length;
+ $('prog').textContent=(qs.length>1?'Questions '+(i+1)+'–'+last:'Question '+(i+1))+' of '+Q.length;
+ const list=$('qlist');list.textContent='';
+ for(const q of qs){const c=document.createElement('div');c.className='card';
+  const t=document.createElement('label');t.className='q';t.htmlFor='a_'+q.id;t.textContent=q.q;
+  const h=document.createElement('p');h.className='muted';h.textContent=q.hint||'';
+  const a=document.createElement('textarea');a.id='a_'+q.id;a.value=ans[q.id]||'';
+  c.append(t,h,a);list.append(c)}
+ $('nextb').textContent=last>=Q.length?'Finish':'Next';window.scrollTo(0,0);const f=$('a_'+qs[0].id);if(f)f.focus()}
+function keep(){for(const q of page()){const a=$('a_'+q.id);if(a)ans[q.id]=a.value}}
+function back(){keep();if(i>0){i=Math.max(0,i-PER);render()}}
+async function next(){keep();if(i+PER<Q.length){i+=PER;render();return}
  const d={};for(const k of ['name','age','gender','contact','prev_id'])d[k]=$(k).value;
  const [ok,j]=await post('/api/intake',{details:d,answers:ans});
  if(ok){$('pidmsg').textContent='Your patient ID is '+j.patient_id+'. Please keep it for your next visit.';show('done')}

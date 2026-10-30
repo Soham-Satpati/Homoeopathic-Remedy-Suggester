@@ -55,7 +55,8 @@ def store_tag(model_id: str) -> str:
 
 def write_seed(embedder: Embedder, keys: list[str], folder: Path) -> Path:
     """Build-time: embed ``keys`` and write the seed index the app loads on first start."""
-    vecs = np.asarray(embedder.encode(list(keys), batch_size=128), dtype=np.float32)
+    # half precision on disk: halves the installer's share; similarities change by < 0.001
+    vecs = np.asarray(embedder.encode(list(keys), batch_size=128), dtype=np.float32).astype(np.float16)
     path = Path(folder) / f"emb_seed_{store_tag(embedder.model_id)}.npz"
     np.savez(path, keys=np.array(list(keys), dtype=object).astype(str), vectors=vecs)
     return path
@@ -92,7 +93,7 @@ class DatasetEmbeddingCache:
         self.cache_dir = cache_dir
         self._index: dict[str, int] = {}
         self._mat = np.zeros((0, 0), dtype=np.float32)
-        self._last: tuple[str, np.ndarray] | None = None
+        self._recent: dict = {}         # digest → matrix; the remedy index and the suggestion index
         self._lock = __import__("threading").RLock()
         self.tag = store_tag(embedder.model_id)
         self._path = cache_dir / f"emb_store_{self.tag}.npz" if cache_dir else None
@@ -142,8 +143,8 @@ class DatasetEmbeddingCache:
         ``progress(fraction, message)`` is called while embedding."""
         digest = hashlib.md5("\n".join(keys).encode("utf-8")).hexdigest()
         with self._lock:
-            if self._last and self._last[0] == digest:
-                return self._last[1]
+            if digest in self._recent:
+                return self._recent[digest]
             missing = [k for k in dict.fromkeys(keys) if k not in self._index]
             if missing:
                 parts = []
@@ -165,7 +166,9 @@ class DatasetEmbeddingCache:
                 if progress:
                     progress(1.0, f"Indexed {len(missing):,} symptoms")
             emb = self._mat[[self._index[k] for k in keys]]
-            self._last = (digest, emb)
+            if len(self._recent) >= 2:
+                self._recent.pop(next(iter(self._recent)))
+            self._recent[digest] = emb
             return emb
 
 

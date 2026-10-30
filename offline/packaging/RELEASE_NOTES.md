@@ -1,5 +1,18 @@
 ## HoRUS Offline for Windows
 
+### New in 1.5
+
+- **All of Hering's Guiding Symptoms (vols. I–III and V–X) are now built in, cleaned.** 338 remedies and about 133,000 symptoms. Every change made to the scanned text is listed, with examples, in `guiding_symptoms_cleaning_report.md`:
+  - section headings and case headers that had been saved as symptoms ("passive motion", "woman, æt.") removed, along with remedy-relationship chapters and proving-history notes;
+  - location lines rejoined to their heading ("pain: in forehead" / "in temples" → "pain in temples");
+  - scanning debris removed; "1." read as "l." fixed; "l." / "r." written as left / right; "<" / ">" written as worse / better;
+  - broken remedy names fixed — e.g. "castus" → Agnus castus, vol. III's "palladium" → Caladium seguinum (its real content), "carbonicum" / "muriaticum" rejoined to Ammonium carbonicum / muriaticum; one unidentifiable block removed;
+  - remedy-wide modality labels that had been copied onto every symptom cleared.
+- **Books you added yourself from the raw scans are replaced automatically** by the cleaned built-in volumes (your settings move to them). *Settings → Books & weighting* lists the old copies with a button to delete them.
+- **Symptom suggestions are grouped under each of the patient's symptoms.** Each symptom is a drop-down showing its own details (category, worse, better); open it to see the symptoms that often occur with it, how strongly, and which of the case's leading remedies each points to. Tick, add modalities, compare — as before.
+- **The patient questionnaire shows three questions per screen**, on the clinic PC and on tablets, each with its own answer box and microphone.
+- Lower memory use for the suggestion tables (about 600 MB less with all books loaded).
+
 ### New in 1.4
 
 - **Symptom suggestions work with your own wording.** Before, suggestions only appeared when a symptom was typed exactly as in the book, so most cases showed *"No suggestions"*. Each symptom is now matched to the closest symptoms in the selected books ("headache in the forehead" ≈ "pain in forehead"), and the table shows what it was matched to.

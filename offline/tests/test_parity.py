@@ -275,7 +275,7 @@ def test_combined_tables_include_every_selected_book(paths):
     combined = e.cooccurrence_base()
     assert len(combined) > len(rheum)                       # case-studies pairs now included
     assert e.cooccurrence_base(__import__("horus.books", fromlist=["x"]).DecisionConfig.classical(
-        ("rheumatic",))).shape == rheum.shape
+        ("rheumatic",))).shape == rheum[["Symptom1", "Symptom2", "P_B_given_A", "P_A_given_B"]].shape   # the columns suggestions use
 
 
 def test_live_conditional_probabilities_match_demo(legacy, paths):

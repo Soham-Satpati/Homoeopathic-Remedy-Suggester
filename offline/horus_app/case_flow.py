@@ -10,8 +10,8 @@ from pathlib import Path
 from PySide6.QtCore import Qt, Signal
 from PySide6.QtWidgets import (QAbstractItemView, QCheckBox, QComboBox, QFileDialog, QFormLayout,
                                QHeaderView, QLineEdit, QPlainTextEdit, QSplitter, QStackedWidget,
-                               QTableWidget, QTableWidgetItem, QTabWidget, QTextBrowser, QVBoxLayout,
-                               QWidget)
+                               QTableWidget, QTableWidgetItem, QTabWidget, QTextBrowser, QTreeWidget,
+                               QTreeWidgetItem, QVBoxLayout, QWidget)
 
 from horus.parsing import SYMPTOM_GROUPS
 
@@ -21,6 +21,7 @@ from .widgets import (Busy, button, card, cell_checked, check_cell, error, esc, 
                       row)
 
 GROUP_LABEL = {"psychological": "Mind", "general": "General", "physical": "Physical"}
+SG_COLS = ["Symptom", "Confirmed", "Strength", "Points to", "Worse from", "Better from"]
 MODES = [("case_studies", "Classical totality (causation → mind → generals → particulars)"),
          ("keynote", "Keynotes / strange, rare, peculiar")]
 
@@ -552,20 +553,33 @@ class CaseFlow(QWidget):
         self.sg_learned = label("", "muted")
         v.addWidget(self.sg_learned)
         split = QSplitter(Qt.Vertical)
-        self.sg_table = QTableWidget(0, 6)
-        self.sg_table.setHorizontalHeaderLabels(["Confirmed", "Symptom", "Strength", "Linked to",
-                                                 "Worse from", "Better from"])
-        h = self.sg_table.horizontalHeader()
-        h.setSectionResizeMode(1, QHeaderView.Stretch)
-        for c in (0, 2, 3):
+        # one expandable row per patient symptom (with its own details), its suggestions underneath
+        self.sg_tree = QTreeWidget()
+        self.sg_tree.setColumnCount(len(SG_COLS))
+        self.sg_tree.setHeaderLabels(SG_COLS)
+        self.sg_tree.setUniformRowHeights(False)
+        self.sg_tree.setAlternatingRowColors(True)
+        self.sg_tree.setEditTriggers(QAbstractItemView.DoubleClicked | QAbstractItemView.EditKeyPressed |
+                                     QAbstractItemView.SelectedClicked)
+        h = self.sg_tree.header()
+        h.setStretchLastSection(False)
+        h.setSectionResizeMode(0, QHeaderView.Stretch)
+        for c in (1, 2, 3):
             h.setSectionResizeMode(c, QHeaderView.ResizeToContents)
         for c in (4, 5):
             h.setSectionResizeMode(c, QHeaderView.Interactive)
-            self.sg_table.setColumnWidth(c, 170)
-        self.sg_table.verticalHeader().setVisible(False)
-        self.sg_table.setToolTip("Tick what the patient confirms. Type modalities into “Worse from” / "
-                                 "“Better from” (comma-separated) — double-click a cell to edit.")
-        split.addWidget(self.sg_table)
+            self.sg_tree.setColumnWidth(c, 160)
+        self.sg_tree.setToolTip("Open a symptom to see what often occurs with it. Tick what the patient confirms "
+                                "and type its modalities into “Worse from” / “Better from” (comma-separated; "
+                                "double-click to edit).")
+        tools = row(button("Open all", slot=self.sg_tree.expandAll),
+                    button("Close all", slot=self.sg_tree.collapseAll), None)
+        top = QWidget()
+        tl = QVBoxLayout(top)
+        tl.setContentsMargins(0, 0, 0, 0)
+        tl.addLayout(tools)
+        tl.addWidget(self.sg_tree, 1)
+        split.addWidget(top)
         res = QWidget()
         rl = QVBoxLayout(res)
         rl.setContentsMargins(0, 0, 0, 0)
@@ -579,7 +593,7 @@ class CaseFlow(QWidget):
         two.addWidget(self.cmp_enh)
         rl.addWidget(two, 1)
         split.addWidget(res)
-        split.setSizes([260, 420])
+        split.setSizes([340, 380])
         v.addWidget(split, 1)
         self.cmp_busy = Busy()
         self.cmp_count = label("No symptoms ticked yet", "muted")
@@ -600,7 +614,7 @@ class CaseFlow(QWidget):
                                          "ranking changes."))
 
     def _update_selected_count(self):
-        n = sum(cell_checked(self.sg_table, r) for r in range(self.sg_table.rowCount()))
+        n = sum(1 for it in self.sg_items() if self.sg_checked(it))
         self.cmp_count.setText(f"{n} symptom(s) ticked" if n else "No symptoms ticked yet")
         self.cmp_go.setEnabled(n > 0)
 
@@ -609,39 +623,52 @@ class CaseFlow(QWidget):
         n = self.ctx.engine.learned_cases
         self.sg_learned.setText(f"Clusters are updated with {n} saved case(s) from this clinic." if n else
                                 "No saved cases yet — suggestions come from the books alone.")
-        per, top = self.ctx.engine.suggestions(self.cat, top_n=10, config=self.active_config())
-        seen, rows = set(), []
-        for x in top:
-            rows.append((x["symptom"], x["avg_prob"], x["triggered_by"], x.get("via"), x.get("remedies", [])))
-            seen.add(x["symptom"].lower())
-        for sym, items in per.items():
-            for x in items[:3]:
-                if x["symptom"].lower() not in seen:
-                    rows.append((x["symptom"], x["prob"], sym, x.get("via"), []))
-                    seen.add(x["symptom"].lower())
-        self.sg_table.setRowCount(0)
-        for sym, p, trig, via, rems in rows:
-            r = self.sg_table.rowCount()
-            self.sg_table.insertRow(r)
-            cell, _cb = check_cell(False, "Tick if the patient confirms this symptom.",
-                                   on_toggle=lambda _on: self._update_selected_count())
-            self.sg_table.setCellWidget(r, 0, cell)
-            for c, val in ((1, sym), (2, f"{p:.0%}"), (3, trig)):
-                it = QTableWidgetItem(str(val))
-                it.setFlags(Qt.ItemIsEnabled | Qt.ItemIsSelectable)
-                if c == 2:
-                    it.setData(Qt.UserRole, float(p))
-                if c == 1 and rems:
-                    it.setToolTip("Listed under the case's leading remedies: " + ", ".join(rems))
-                    it.setText(f"{sym}   ·  {', '.join(rems[:2])}")
-                    it.setData(Qt.UserRole, sym)
-                if c == 3 and via:
-                    it.setToolTip(f"“{trig}” was matched to the book symptom “{via}”.")
-                    it.setText(f"{trig}  (≈ {via})")
-                    it.setData(Qt.UserRole, trig)
-                self.sg_table.setItem(r, c, it)
-            self.sg_table.setItem(r, 4, QTableWidgetItem(""))
-            self.sg_table.setItem(r, 5, QTableWidgetItem(""))
+        per, _top = self.ctx.engine.suggestions(self.cat, top_n=10, config=self.active_config())
+        self.sg_tree.clear()
+        seen, rows = set(), 0
+        bold = self.sg_tree.font()
+        bold.setBold(True)
+        for group, entry in self._case_symptoms():
+            sym = entry["symptom"]
+            items = [x for x in per.get(sym, []) if x["symptom"].lower() not in seen]
+            parent = QTreeWidgetItem(self.sg_tree)
+            parent.setText(0, f"{sym}  —  {len(items)} suggestion{'s' if len(items) != 1 else ''}"
+                           if items else f"{sym}  —  no linked symptoms in the selected books")
+            parent.setFont(0, bold)
+            parent.setText(3, GROUP_LABEL.get(group, group.title()))
+            parent.setText(4, ", ".join(entry.get("worse", [])))
+            parent.setText(5, ", ".join(entry.get("better", [])))
+            parent.setToolTip(0, "The patient's symptom as recorded. Its own modalities are shown on the right.")
+            parent.setData(0, Qt.UserRole, sym)
+            parent.setFlags(Qt.ItemIsEnabled)
+            for x in items:
+                seen.add(x["symptom"].lower())
+                child = QTreeWidgetItem(parent)
+                child.setText(0, x["symptom"])
+                child.setData(0, Qt.UserRole, x["symptom"])
+                child.setData(2, Qt.UserRole, float(x["prob"]))
+                child.setData(1, Qt.UserRole, sym)                       # triggered by
+                child.setText(2, f"{x['prob']:.0%}")
+                rems = x.get("remedies", [])
+                child.setText(3, ", ".join(rems[:2]) + (" …" if len(rems) > 2 else ""))
+                tip = [f"Often found with “{sym}”"]
+                if x.get("via"):
+                    tip.append(f"matched through the book symptom “{x['via']}”")
+                if rems:
+                    tip.append("listed under the case's leading remedies: " + ", ".join(rems))
+                child.setToolTip(0, "; ".join(tip) + ".")
+                child.setToolTip(3, "Leading remedies of this case that list this symptom")
+                child.setFlags(Qt.ItemIsEnabled | Qt.ItemIsSelectable | Qt.ItemIsEditable)
+                cell, _cb = check_cell(False, "Tick if the patient confirms this symptom.",
+                                       on_toggle=lambda _on: self._update_selected_count())
+                self.sg_tree.setItemWidget(child, 1, cell)
+                rows += 1
+            parent.setExpanded(False)
+        if self.sg_tree.topLevelItemCount():
+            first = next((self.sg_tree.topLevelItem(i) for i in range(self.sg_tree.topLevelItemCount())
+                          if self.sg_tree.topLevelItem(i).childCount()), None)
+            if first is not None:
+                first.setExpanded(True)
         if not rows:
             error(self, "No suggestions", "None of the selected books has symptoms close enough to this case's "
                   "symptoms to suggest others. Try describing a symptom with its location and sensation "
@@ -653,18 +680,32 @@ class CaseFlow(QWidget):
         self._update_selected_count()
         self.steps.setCurrentIndex(3)
 
+    def _case_symptoms(self) -> list:
+        """(group, entry) for every symptom of the case, mind first — the classical order."""
+        return [(g, e) for g in ("psychological", "general", "physical") for e in self.cat.get(g, [])
+                if e.get("symptom", "").strip()]
+
+    def sg_items(self) -> list:
+        """Every suggestion row (children of the patient-symptom rows)."""
+        out = []
+        for i in range(self.sg_tree.topLevelItemCount()):
+            p = self.sg_tree.topLevelItem(i)
+            out.extend(p.child(j) for j in range(p.childCount()))
+        return out
+
+    def sg_checked(self, item) -> bool:
+        w = self.sg_tree.itemWidget(item, 1)
+        return bool(w is not None and w.checkbox.isChecked())
+
     def _compare(self):
         selected = {}
-        for r in range(self.sg_table.rowCount()):
-            if cell_checked(self.sg_table, r):
-                item = lambda c: self.sg_table.item(r, c)
-                text = lambda c: item(c).data(Qt.UserRole) if isinstance(item(c).data(Qt.UserRole), str) \
-                    else item(c).text()
-                selected[text(1)] = {
-                    "worse": _split(self.sg_table.item(r, 4).text()),
-                    "better": _split(self.sg_table.item(r, 5).text()),
-                    "avg_prob": self.sg_table.item(r, 2).data(Qt.UserRole) or 0.0,
-                    "triggered_by": text(3)}
+        for it in self.sg_items():
+            if self.sg_checked(it):
+                selected[it.data(0, Qt.UserRole)] = {
+                    "worse": _split(it.text(4)),
+                    "better": _split(it.text(5)),
+                    "avg_prob": it.data(2, Qt.UserRole) or 0.0,
+                    "triggered_by": it.data(1, Qt.UserRole)}
         if not selected:
             return error(self, "Nothing selected", "Tick the symptoms the patient confirmed.")
         engine = self.ctx.engine

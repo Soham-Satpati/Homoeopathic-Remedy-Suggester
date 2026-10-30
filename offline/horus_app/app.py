@@ -20,7 +20,7 @@ from pathlib import Path
 if not getattr(sys, "frozen", False):
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-APP_VERSION = "1.4.0"
+APP_VERSION = "1.5.0"
 log = logging.getLogger("horus")
 
 
@@ -198,6 +198,7 @@ def selftest(out: Path, require_ai: bool) -> int:
             from horus.books import import_book
             ids = [b.id for b in engine.books]
             assert {"rheumatic", "case_studies", "guiding_symptoms_1"} <= set(ids), ids
+            assert sum(i.startswith("guiding_symptoms_") for i in ids) >= 9, ids     # cleaned vols I–X
             book = {"remedium probandum": {"mind": [{"symptom": f"selftest symptom {i}",
                                                      "labels": {"Modalities": "worse at night"}}
                                                     for i in range(10)]}}
@@ -215,7 +216,9 @@ def selftest(out: Path, require_ai: bool) -> int:
             background exactly as the app does, while the main thread measures its own stalls."""
             import threading
             from horus.book_worker import import_book_isolated
-            big = paths.resources / "Guiding_Symptoms_of_our_Materia_Medica-I.json"
+            # a copy under another name: the shipped volume itself is refused as "already included"
+            big = tmp / "large_book.json"
+            big.write_bytes((paths.resources / "Guiding_Symptoms_of_our_Materia_Medica-I.json").read_bytes())
             out, worst, last = {}, [0.0], [time.time()]
             t = threading.Thread(target=lambda: out.setdefault(
                 "book", import_book_isolated(paths, big, "Large book test")), daemon=True)

@@ -70,7 +70,10 @@ class HorusEngine:
         with self._learn_lock:
             if hidden is not None:
                 self.hidden_books = set(hidden)
-            self.all_books: list[Book] = discover_books(self.paths)
+            found = discover_books(self.paths, include_superseded=True)
+            # clinic-added copies of a book HoRUS now ships cleaned; kept on disk until deleted
+            self.superseded_books: list[Book] = [b for b in found if b.superseded_by]
+            self.all_books: list[Book] = [b for b in found if not b.superseded_by]
             self.books: list[Book] = [b for b in self.all_books if b.id not in self.hidden_books]
             self._bases.clear()
             self._lives.clear()
@@ -304,30 +307,40 @@ class HorusEngine:
             return (get_suggestions_per_symptom(syms, index, top_n),
                     get_top_suggestions(syms, index, top_n))
         resolve = self._suggestion_resolver(index, syms, config)
-        per = get_suggestions_per_symptom(syms, index, top_n, resolve)
-        pool = get_top_suggestions(syms, index, max(60, top_n * 6), resolve)
-        return per, self._rank_suggestions(categorised, pool, top_n, config)
-
-    def _rank_suggestions(self, categorised: dict, pool: list, top_n: int, config) -> list:
-        """Order suggestions so the ones worth asking about come first: a symptom listed under the
-        case's leading remedies helps confirm or tell them apart. Each suggestion records which of
-        those remedies it points to."""
-        if not pool:
-            return []
+        leaders = self._leaders(categorised, config)
         s2r = self.dataset_for(config).s2r
+        per_pool = get_suggestions_per_symptom(syms, index, max(40, top_n * 4), resolve)
+        per = {ps: [x for _, x in self._leader_order(items, "prob", leaders, s2r)][:top_n]
+               for ps, items in per_pool.items()}
+        pool = get_top_suggestions(syms, index, max(60, top_n * 6), resolve)
+        return per, self._rank_suggestions(pool, top_n, leaders, s2r)
+
+    def _leaders(self, categorised: dict, config) -> list:
         try:
-            leaders = [r["name"] for r in self.rank(categorised, top_n=5, config=config)]
+            return [r["name"] for r in self.rank(categorised, top_n=5, config=config)]
         except Exception:
             log.exception("Ranking for suggestions failed")
-            leaders = []
+            return []
+
+    @staticmethod
+    def _leader_order(items: list, prob_key: str, leaders: list, s2r: dict) -> list:
+        """[(score, item + "remedies")], best first: a symptom listed under the case's leading
+        remedies helps confirm or tell them apart, so it is worth asking about first."""
         out = []
-        for x in pool:
+        for x in items:
             rems = s2r.get(x["symptom"].strip().lower(), {})
             hits = [r for r in leaders if r in rems]
             bonus = sum(1.0 / (1 + leaders.index(r)) for r in hits)
-            score = x["avg_prob"] * x["support"] ** 0.5 * (1.0 + bonus)
+            score = x[prob_key] * x.get("support", 1) ** 0.5 * (1.0 + bonus)
             out.append((score, {**x, "remedies": hits}))
-        out.sort(key=lambda t: (-t[0], -t[1]["support"], len(t[1]["symptom"]), t[1]["symptom"]))
+        out.sort(key=lambda t: (-t[0], -t[1].get("support", 1), len(t[1]["symptom"]), t[1]["symptom"]))
+        return out
+
+    def _rank_suggestions(self, pool: list, top_n: int, leaders: list, s2r: dict) -> list:
+        """The case-wide list: leader order, taking turns between the patient's symptoms."""
+        if not pool:
+            return []
+        out = self._leader_order(pool, "avg_prob", leaders, s2r)
         # take turns between the patient's symptoms, so one symptom with many links can't fill the list
         groups: dict = {}
         for _, x in out:

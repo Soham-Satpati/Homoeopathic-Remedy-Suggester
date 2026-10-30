@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+QUESTIONS_PER_PAGE = 3       # questions shown to the patient at once (kiosk and tablet)
+
 PATIENT_QUESTIONS = [
     {"id": "complaint", "label": "Main complaint",
      "q": "What is the main problem that is troubling you?",

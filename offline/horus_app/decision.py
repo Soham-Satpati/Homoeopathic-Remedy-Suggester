@@ -263,6 +263,18 @@ class BooksSettingsTab(QWidget):
         scroll.setWidgetResizable(True)
         scroll.setWidget(self.editor)
         self.v.addWidget(scroll, 1)
+        old = list(getattr(self.ctx.engine, "superseded_books", []))
+        if old:
+            names = {b.id: b.title for b in self.ctx.engine.all_books}
+            text = ("These books you added earlier are now included in HoRUS, cleaned of scanning errors, "
+                    "and the built-in copies are used instead: " +
+                    "; ".join(f"{b.title} → {names.get(b.superseded_by, b.superseded_by)}" for b in old) +
+                    ". Cases and settings that used them now use the built-in copies.")
+            note = label(text, "info")
+            note.setWordWrap(True)
+            self.v.addWidget(note)
+            if can_edit:
+                self.v.addLayout(row(button(f"Delete the old copies ({len(old)})", slot=self._delete_superseded), None))
         hidden = [b for b in self.ctx.engine.all_books if b.id in self.ctx.engine.hidden_books]
         add_btn = button("Add books…", slot=self._add)
         add_btn.setToolTip("Add one or more books in the HoRUS JSON format")
@@ -274,6 +286,28 @@ class BooksSettingsTab(QWidget):
         self.v.addLayout(row(add_btn, restore, None, save))
         if not can_edit:
             self.v.addWidget(label("Only an administrator can change books and the clinic default.", "muted"))
+
+    def _delete_superseded(self):
+        from horus.books import remove_book
+        old = list(self.ctx.engine.superseded_books)
+        if not confirm(self, "Delete old copies", f"Delete the {len(old)} older, uncleaned copies from this "
+                       "computer? The built-in cleaned books stay, and settings that named the old copies are "
+                       "moved to them.", "Delete", danger=True):
+            return
+        saved = self.ctx.session.decision_config()
+        if saved:      # point the clinic default at the built-in books before the old ids disappear
+            self.ctx.session.set_decision_config(
+                DecisionConfig.from_dict(saved).resolve(self.ctx.engine.books).to_dict())
+        for b in old:
+            try:
+                remove_book(self.ctx.paths, b.id)
+                self.ctx.session.audit("book.deleted", f"{b.id} (replaced by {b.superseded_by})")
+            except Exception as e:
+                error(self, "Delete", f"{b.title}: {e}")
+        self.ctx.engine.reload_books(set(self.ctx.session.hidden_books()))
+        self.ctx.engine.set_config(clinic_config(self.ctx))
+        self._changed()
+        self._build()
 
     def _save(self):
         cfg = self.editor.config()
