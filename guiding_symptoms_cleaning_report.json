@@ -1,0 +1,1632 @@
+{
+ "volumes": {
+  "I": {
+   "remedies_before": 45,
+   "remedies_after": 42,
+   "entries_before": 18635,
+   "entries_after": 17359,
+   "changes": {
+    "scanning debris removed": 3450,
+    "relationship chapter (not symptoms)": 840,
+    "location line rejoined to its heading": 576,
+    "\"1.\" read as \"l.\"": 243,
+    "\"<\" / \">\" written as worse / better": 211,
+    "duplicate within remedy": 191,
+    "location line without heading (dropped)": 79,
+    "proving history / publication note": 72,
+    "case header (e.g. 'woman, æt.')": 52,
+    "section heading": 35,
+    "remedy name or abbreviation": 7,
+    "remedy name run into the symptom": 1
+   }
+  },
+  "II": {
+   "remedies_before": 28,
+   "remedies_after": 28,
+   "entries_before": 14063,
+   "entries_after": 13242,
+   "changes": {
+    "copied 'Modalities' label cleared": 9863,
+    "\"1.\" read as \"l.\"": 402,
+    "relationship chapter (not symptoms)": 314,
+    "\"<\" / \">\" written as worse / better": 272,
+    "scanning debris removed": 219,
+    "location line rejoined to its heading": 184,
+    "duplicate within remedy": 168,
+    "remedy name or abbreviation": 111,
+    "case header (e.g. 'woman, æt.')": 74,
+    "proving history / publication note": 72,
+    "section heading": 53,
+    "remedy name run into the symptom": 31,
+    "location line without heading (dropped)": 29
+   }
+  },
+  "III": {
+   "remedies_before": 27,
+   "remedies_after": 27,
+   "entries_before": 14364,
+   "entries_after": 13346,
+   "changes": {
+    "copied 'Modalities' label cleared": 11820,
+    "\"<\" / \">\" written as worse / better": 610,
+    "\"1.\" read as \"l.\"": 567,
+    "duplicate within remedy": 410,
+    "relationship chapter (not symptoms)": 272,
+    "scanning debris removed": 199,
+    "remedy name or abbreviation": 113,
+    "case header (e.g. 'woman, æt.')": 83,
+    "proving history / publication note": 62,
+    "section heading": 56,
+    "location line rejoined to its heading": 41,
+    "location line without heading (dropped)": 22,
+    "remedy name run into the symptom": 14
+   }
+  },
+  "V": {
+   "remedies_before": 38,
+   "remedies_after": 38,
+   "entries_before": 15217,
+   "entries_after": 14353,
+   "changes": {
+    "copied 'Modalities' label cleared": 12842,
+    "\"<\" / \">\" written as worse / better": 1056,
+    "\"1.\" read as \"l.\"": 669,
+    "duplicate within remedy": 256,
+    "scanning debris removed": 215,
+    "relationship chapter (not symptoms)": 212,
+    "case header (e.g. 'woman, æt.')": 148,
+    "remedy name or abbreviation": 123,
+    "location line rejoined to its heading": 93,
+    "section heading": 59,
+    "proving history / publication note": 46,
+    "remedy name run into the symptom": 21,
+    "location line without heading (dropped)": 20
+   }
+  },
+  "VI": {
+   "remedies_before": 33,
+   "remedies_after": 33,
+   "entries_before": 17472,
+   "entries_after": 16530,
+   "changes": {
+    "copied 'Modalities' label cleared": 14718,
+    "\"<\" / \">\" written as worse / better": 1185,
+    "\"1.\" read as \"l.\"": 789,
+    "duplicate within remedy": 327,
+    "scanning debris removed": 284,
+    "location line rejoined to its heading": 195,
+    "case header (e.g. 'woman, æt.')": 179,
+    "relationship chapter (not symptoms)": 149,
+    "remedy name or abbreviation": 138,
+    "section heading": 67,
+    "proving history / publication note": 43,
+    "location line without heading (dropped)": 39,
+    "remedy name run into the symptom": 23
+   }
+  },
+  "VII": {
+   "remedies_before": 33,
+   "remedies_after": 33,
+   "entries_before": 17019,
+   "entries_after": 16148,
+   "changes": {
+    "copied 'Modalities' label cleared": 13921,
+    "\"<\" / \">\" written as worse / better": 1272,
+    "\"1.\" read as \"l.\"": 906,
+    "duplicate within remedy": 255,
+    "location line rejoined to its heading": 244,
+    "scanning debris removed": 239,
+    "relationship chapter (not symptoms)": 174,
+    "case header (e.g. 'woman, æt.')": 148,
+    "remedy name or abbreviation": 126,
+    "section heading": 70,
+    "location line without heading (dropped)": 50,
+    "proving history / publication note": 48,
+    "remedy name run into the symptom": 40
+   }
+  },
+  "VIII": {
+   "remedies_before": 32,
+   "remedies_after": 31,
+   "entries_before": 17500,
+   "entries_after": 16516,
+   "changes": {
+    "copied 'Modalities' label cleared": 14786,
+    "\"<\" / \">\" written as worse / better": 1300,
+    "\"1.\" read as \"l.\"": 628,
+    "scanning debris removed": 346,
+    "case header (e.g. 'woman, æt.')": 211,
+    "duplicate within remedy": 163,
+    "relationship chapter (not symptoms)": 151,
+    "location line rejoined to its heading": 133,
+    "remedy name or abbreviation": 92,
+    "section heading": 74,
+    "proving history / publication note": 65,
+    "location line without heading (dropped)": 56,
+    "remedy name run into the symptom": 48
+   }
+  },
+  "IX": {
+   "remedies_before": 24,
+   "remedies_after": 24,
+   "entries_before": 14461,
+   "entries_after": 13790,
+   "changes": {
+    "copied 'Modalities' label cleared": 11472,
+    "\"<\" / \">\" written as worse / better": 1237,
+    "\"1.\" read as \"l.\"": 684,
+    "scanning debris removed": 250,
+    "location line rejoined to its heading": 207,
+    "case header (e.g. 'woman, æt.')": 197,
+    "duplicate within remedy": 191,
+    "relationship chapter (not symptoms)": 95,
+    "remedy name or abbreviation": 84,
+    "section heading": 53,
+    "remedy name run into the symptom": 33,
+    "location line without heading (dropped)": 27,
+    "proving history / publication note": 24
+   }
+  },
+  "X": {
+   "remedies_before": 36,
+   "remedies_after": 36,
+   "entries_before": 16379,
+   "entries_after": 15573,
+   "changes": {
+    "copied 'Modalities' label cleared": 12790,
+    "\"1.\" read as \"l.\"": 1221,
+    "\"<\" / \">\" written as worse / better": 1033,
+    "scanning debris removed": 276,
+    "location line rejoined to its heading": 260,
+    "case header (e.g. 'woman, æt.')": 226,
+    "duplicate within remedy": 168,
+    "relationship chapter (not symptoms)": 121,
+    "location line without heading (dropped)": 112,
+    "remedy name or abbreviation": 73,
+    "section heading": 66,
+    "remedy name run into the symptom": 47,
+    "proving history / publication note": 40
+   }
+  }
+ },
+ "renamed": [
+  {
+   "volume": "I",
+   "from": "alumina or argilla",
+   "to": "alumina"
+  },
+  {
+   "volume": "I",
+   "from": "antiiracinum",
+   "to": "anthracinum"
+  },
+  {
+   "volume": "I",
+   "from": "carbonicum",
+   "to": "ammonium carbonicum"
+  },
+  {
+   "volume": "I",
+   "from": "castus",
+   "to": "agnus castus"
+  },
+  {
+   "volume": "I",
+   "from": "lacticum acidum",
+   "to": "aceticum acidum"
+  },
+  {
+   "volume": "I",
+   "from": "muriaticum",
+   "to": "ammonium muriaticum"
+  },
+  {
+   "volume": "II",
+   "from": "asaf",
+   "to": "asafoetida"
+  },
+  {
+   "volume": "II",
+   "from": "benzoic acid",
+   "to": "benzoicum acidum"
+  },
+  {
+   "volume": "III",
+   "from": "cadmium sulfuratum cainca",
+   "to": "cadmium sulfuratum"
+  },
+  {
+   "volume": "III",
+   "from": "cantharides capsicum",
+   "to": "cantharides"
+  },
+  {
+   "volume": "III",
+   "from": "cepa",
+   "to": "allium cepa"
+  },
+  {
+   "volume": "III",
+   "from": "palladium",
+   "to": "caladium seguinum"
+  },
+  {
+   "volume": "V",
+   "from": "douchos pruriens",
+   "to": "dolichos pruriens"
+  },
+  {
+   "volume": "VI",
+   "from": "hippoznin",
+   "to": "hippozaeninum"
+  },
+  {
+   "volume": "VI",
+   "from": "hydrocyanic acid",
+   "to": "hydrocyanicum acidum"
+  },
+  {
+   "volume": "VIII",
+   "from": "nitrig acid",
+   "to": "nitricum acidum"
+  },
+  {
+   "volume": "VIII",
+   "from": "picric acid",
+   "to": "picricum acidum"
+  },
+  {
+   "volume": "X",
+   "from": "viola odorata xanthoxylum",
+   "to": "viola odorata"
+  }
+ ],
+ "dropped_blocks": [
+  {
+   "volume": "VIII",
+   "name": "qisgrsgs",
+   "entries": 172
+  }
+ ],
+ "merged": [
+  {
+   "volume": "I",
+   "from": "antiiracinum",
+   "into": "anthracinum"
+  },
+  {
+   "volume": "I",
+   "from": "carbonicum",
+   "into": "ammonium carbonicum"
+  },
+  {
+   "volume": "I",
+   "from": "muriaticum",
+   "into": "ammonium muriaticum"
+  }
+ ],
+ "examples": {
+  "proving history / publication note": [
+   {
+    "volume": "I",
+    "before": "proved by dr. leaman, ohio medical and surgical reporter",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "celebrated as an old popular medicine- introduced into our practice by deventer",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "proved by gatchell on two women",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "the only provings, by gatchell, in medical investigator",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "professors hill and douglas state in their valuable report of provings with actea raeemosa, in the new york quarterly, vol. vii., 1859, p. 450 : \" it produced nausea, vomiting, and much gastric irritation in the six women, while in forty men it was hardly noticed as affecting the stomach in the least",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "proved by petroz and lemercier in france, and macfarlan of philadelphia",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "provings commenced only by hale. ^ sensonilin",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "introduced by dr. p. p. wells, of brooklyn, in 1864, as corresponding to scarlatina, and proved by h. minton and j. t. alley, 1861",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "aloe was most proved by helbig in 1833, and several under his lead",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "the first publication of provings was made by buchner, 1821",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "a complete monography, adding to all the former the provings made in this country with the genuine socotrina, was given by c. hg. in his american provings, 1856, pp. 764 to 862",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "introduced and proved by c. hg., in 1845, with the assistance of drs",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "also proved by dr. jeanes, whose frequently corroborated symptoms are included",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "a full monography was published in the journals, in 1872, and is contained in c. hg's mai",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "used by the old school, but only according to very poor indications",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "hahnemann had proved the pure earth when hartlaub edited a collection of 975 symptoms, obtained from four provers, in his mat",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "the year after, hahnemann published his own observations in stapfs archiv., viz., 215 symptoms, from a much better preparation",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "hartlaub simply purified his preparation by washing it, which never can sufiice, but hahnemann subjected his to red heat",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "in 1835, in the second edition of his chronic diseases, hahnemann gives it place among the antipsorics, adding a few symptoms from dr. bute, and condensing hartlaub's collection to about 900 symptoms",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "boenninghausen published very remarkable cures with the pure metal, in the a. h. z., being guided by the symptoms of the oxide",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "old people, hypochondriacal, or suffering from chronic diseases, especially catarrhs",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "introduced by hahnemann in 1827",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "especially proved by his friend, the count de gersdorf, from whom are nearly one-third of the symptoms",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "proved and introduced by i",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "proved by wibmer",
+    "after": null
+   }
+  ],
+  "scanning debris removed": [
+   {
+    "volume": "I",
+    "before": "terrible distress in the head, generally with some flushing of the face, d dyspepsia",
+    "after": "terrible distress in the head, generally with some flushing of the face, dyspepsia"
+   },
+   {
+    "volume": "I",
+    "before": "cheeks flushed. ^\" gums. : scurvy",
+    "after": "cheeks flushed. \" gums.: scurvy"
+   },
+   {
+    "volume": "I",
+    "before": "total loss of appetite in the morning, craving for food at noon and at night. ^^ eating. ipain after a hearty meal",
+    "after": "total loss of appetite in the morning, craving for food at noon and at night. eating. ipain after a hearty meal"
+   },
+   {
+    "volume": "I",
+    "before": "abstinence from any particular food does not relieve the symptoms, d dyspepsia. ^® belching and vomiting, i acid, eructations",
+    "after": "abstinence from any particular food does not relieve the symptoms, dyspepsia. belching and vomiting, i acid, eructations"
+   },
+   {
+    "volume": "I",
+    "before": "frequent vomiting of food. i belching",
+    "after": "frequent vomiting of food. belching"
+   },
+   {
+    "volume": "I",
+    "before": "^^ scrobiculum and stomach, eating. l severe pain in stomach after i 1 distressing pain in stomach, extending to left side",
+    "after": "scrobiculum and stomach, eating. severe pain in stomach after i 1 distressing pain in stomach, extending to left side"
+   },
+   {
+    "volume": "I",
+    "before": "dyspepsia. distressing constriction just above the pit of stom■ continual ach, as if everything was knotted up, or as if a hard lump of undigested food remained there",
+    "after": "dyspepsia. distressing constriction just above the pit of stom continual ach, as if everything was knotted up, or as if a hard lump of undigested food remained there"
+   },
+   {
+    "volume": "I",
+    "before": "alternate heat and cold. \\ malarial fevers.* i chronic intermittent fever, accompanied by stomachache",
+    "after": "alternate heat and cold. malarial fevers. chronic intermittent fever, accompanied by stomachache"
+   },
+   {
+    "volume": "I",
+    "before": "great anxiety and depression. ^ gastralgia",
+    "after": "great anxiety and depression. gastralgia"
+   },
+   {
+    "volume": "I",
+    "before": "the child is cross and depressed. ^marasmus",
+    "after": "the child is cross and depressed. marasmus"
+   },
+   {
+    "volume": "I",
+    "before": "blue rings around dull looking eyes, d chlorosis",
+    "after": "blue rings around dull looking eyes, chlorosis"
+   },
+   {
+    "volume": "I",
+    "before": "dryness of the inner nose. ■ nosebleed with boys",
+    "after": "dryness of the inner nose. nosebleed with boys"
+   },
+   {
+    "volume": "I",
+    "before": "face wrinkled, old, pale. ^marasmus",
+    "after": "face wrinkled, old, pale. marasmus"
+   },
+   {
+    "volume": "I",
+    "before": "drawing pains in the upper maxilla. \"^ teeth",
+    "after": "drawing pains in the upper maxilla. \" teeth"
+   },
+   {
+    "volume": "I",
+    "before": "drawing and tearing pains in the carious teeth. '^ taste. ■ slimy taste, d gastralgia",
+    "after": "drawing and tearing pains in the carious teeth. ' taste. slimy taste, gastralgia"
+   },
+   {
+    "volume": "I",
+    "before": "craves bread, boiled in milk. ■ appetite very great",
+    "after": "craves bread, boiled in milk. appetite very great"
+   },
+   {
+    "volume": "I",
+    "before": "loss of appetite. ^ gastralgia. ^^ scrobiculum and stomach",
+    "after": "loss of appetite. gastralgia. scrobiculum and stomach"
+   },
+   {
+    "volume": "I",
+    "before": "fullness and bloating in region of stomach. ■ sensation as if the stomach were hanging or swimming in water, with a peculiar feeling of coldness and a dullness to all irritants",
+    "after": "fullness and bloating in region of stomach. sensation as if the stomach were hanging or swimming in water, with a peculiar feeling of coldness and a dullness to all irritants"
+   },
+   {
+    "volume": "I",
+    "before": "pains cutting, gnawing, burning, sometimes contracting and stinging, mostly worse at night, d gastralgia. ■ never entirely free from pain, even in the intervals of the spasms, d gastralgia. ■ disturbed digestion. ^chlorosis",
+    "after": "pains cutting, gnawing, burning, sometimes contracting and stinging, mostly worse at night, gastralgia. never entirely free from pain, even in the intervals of the spasms, gastralgia. disturbed digestion. chlorosis"
+   },
+   {
+    "volume": "I",
+    "before": "weak, sinking feeling in the bowels. ■ frequent colicky pain. ^marasmus. ■ distended abdomen. ^chlorosis",
+    "after": "weak, sinking feeling in the bowels. frequent colicky pain. marasmus. distended abdomen. chlorosis"
+   },
+   {
+    "volume": "I",
+    "before": "marasmus. ^\"^ rectum and stool. matism",
+    "after": "marasmus. \" rectum and stool. matism"
+   },
+   {
+    "volume": "I",
+    "before": "after sudden checking of diarrhoea, rheu- piles appeared and became worse as the rheumatic pains abated, with frequent inclination to stool, hardly anything but blood being passed. ■ constipation ^gastralgia. • destroys worms, especially ascarides",
+    "after": "after sudden checking of diarrhoea, rheu- piles appeared and became worse as the rheumatic pains abated, with frequent inclination to stool, hardly anything but blood being passed. constipation gastralgia. destroys worms, especially ascarides"
+   },
+   {
+    "volume": "I",
+    "before": "marasmus. ■ alternate diarrhoea and constipation. ^marasmus. ■ the food passed undigested",
+    "after": "marasmus. alternate diarrhoea and constipation. marasmus. the food passed undigested"
+   },
+   {
+    "volume": "I",
+    "before": "marasmus. ■ protruding hemorrhoidal tumors, with a burning pain when touched and when pressing",
+    "after": "marasmus. protruding hemorrhoidal tumors, with a burning pain when touched and when pressing"
+   },
+   {
+    "volume": "I",
+    "before": "twitching in both ovarian regions, seems to extend to the back. \\ ulcers on the os tincse",
+    "after": "twitching in both ovarian regions, seems to extend to the back. ulcers on the os tincse"
+   }
+  ],
+  "location line without heading (dropped)": [
+   {
+    "volume": "I",
+    "before": "in the beginning",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "from tobacco smoke",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "from deep inspiration",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "from speaking",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "in the chest",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "from cold",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "in many fevers",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "in sinciput",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "in damp weather",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "from overheating",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "in the evening",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "in the forenoon",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "from walking",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "in the chest",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "extends to neck",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "in chest posteriorly",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "in forearm",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "in evening",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "on sternum",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "from drinking milk",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "in thyroid gland",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "in the morning",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "from pressure",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "in big toe",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "in left scapula",
+    "after": null
+   }
+  ],
+  "location line rejoined to its heading": [
+   {
+    "volume": "I",
+    "before": "at night",
+    "after": "springs out of bed at night"
+   },
+   {
+    "volume": "I",
+    "before": "up the back",
+    "after": "chills up the back"
+   },
+   {
+    "volume": "I",
+    "before": "on account of cold hands and feet",
+    "after": "cannot sleep on account of cold hands and feet"
+   },
+   {
+    "volume": "I",
+    "before": "in joints",
+    "after": "drawing in joints"
+   },
+   {
+    "volume": "I",
+    "before": "from tickling in larynx",
+    "after": "cough from tickling in larynx"
+   },
+   {
+    "volume": "I",
+    "before": "from elongated uvula",
+    "after": "cough from elongated uvula"
+   },
+   {
+    "volume": "I",
+    "before": "from talking or singing",
+    "after": "cough from talking or singing"
+   },
+   {
+    "volume": "I",
+    "before": "beneath fingernails",
+    "after": "gnawing beneath fingernails"
+   },
+   {
+    "volume": "I",
+    "before": "from vulva extending to chest",
+    "after": "stitches from vulva extending to chest"
+   },
+   {
+    "volume": "I",
+    "before": "in extremities",
+    "after": "drawing in extremities"
+   },
+   {
+    "volume": "I",
+    "before": "in malar bone",
+    "after": "tearing in malar bone"
+   },
+   {
+    "volume": "I",
+    "before": "from liver to hip",
+    "after": "tearing from liver to hip"
+   },
+   {
+    "volume": "I",
+    "before": "in thighs and legs",
+    "after": "tearing in thighs and legs"
+   },
+   {
+    "volume": "I",
+    "before": "on knees",
+    "after": "tearing on knees"
+   },
+   {
+    "volume": "I",
+    "before": "in side of neck",
+    "after": "shooting in spleen in side of neck"
+   },
+   {
+    "volume": "I",
+    "before": "in eyelids",
+    "after": "burning in eyelids"
+   },
+   {
+    "volume": "I",
+    "before": "on arms, fingers and elbow",
+    "after": "burning on arms, fingers and elbow"
+   },
+   {
+    "volume": "I",
+    "before": "on thighs",
+    "after": "burning on thighs"
+   },
+   {
+    "volume": "I",
+    "before": "under toes",
+    "after": "burning under toes"
+   },
+   {
+    "volume": "I",
+    "before": "in nates",
+    "after": "numbness in nates"
+   },
+   {
+    "volume": "I",
+    "before": "in groin",
+    "after": "tension in groin"
+   },
+   {
+    "volume": "I",
+    "before": "in left temple up to vertex",
+    "after": "tearing in left temple up to vertex"
+   },
+   {
+    "volume": "I",
+    "before": "in right frontal eminence and behind left ear",
+    "after": "tearing in right frontal eminence and behind left ear"
+   },
+   {
+    "volume": "I",
+    "before": "in male sexual parts",
+    "after": "heat in male sexual parts"
+   },
+   {
+    "volume": "I",
+    "before": "on eyes, difiicult to open",
+    "after": "pressure on eyes, difiicult to open"
+   }
+  ],
+  "\"1.\" read as \"l.\"": [
+   {
+    "volume": "I",
+    "before": "chorea.   constant irregular motions of 1. arm",
+    "after": "chorea.   constant irregular motions of l. arm"
+   },
+   {
+    "volume": "I",
+    "before": "dull pain in r. temple and occiput, followed by dull stitches in forehead and 1. temple",
+    "after": "dull pain in r. temple and occiput, followed by dull stitches in forehead and l. temple"
+   },
+   {
+    "volume": "I",
+    "before": "shooting in 1. parietal bone, later in the right",
+    "after": "shooting in l. parietal bone, later in the right"
+   },
+   {
+    "volume": "I",
+    "before": "sharp shooting in 1. eyeball, sometimes through 1. ear",
+    "after": "sharp shooting in l. eyeball, sometimes through l. ear"
+   },
+   {
+    "volume": "I",
+    "before": "shooting pain in 1. ear and eye, later in r. ear",
+    "after": "shooting pain in l. ear and eye, later in r. ear"
+   },
+   {
+    "volume": "I",
+    "before": "stitches in 1. malar bone",
+    "after": "stitches in l. malar bone"
+   },
+   {
+    "volume": "I",
+    "before": "shooting in 1. side. had lodged in the fauces, causing consomething as ifinclination feeling stant to swallow",
+    "after": "shooting in l. side. had lodged in the fauces, causing consomething as ifinclination feeling stant to swallow"
+   },
+   {
+    "volume": "I",
+    "before": "fine stitching in 1. hypochondrium, worse moving and laughing",
+    "after": "fine stitching in l. hypochondrium, worse moving and laughing"
+   },
+   {
+    "volume": "I",
+    "before": "stitches in 1. side 10 p.m",
+    "after": "stitches in l. side 10 p.m"
+   },
+   {
+    "volume": "I",
+    "before": "headache sometimes in 1. side, worse by walking in open air",
+    "after": "headache sometimes in l. side, worse by walking in open air"
+   },
+   {
+    "volume": "I",
+    "before": "better moving slowly about.   tearing and pressure in 1. half of brain",
+    "after": "better moving slowly about.   tearing and pressure in l. half of brain"
+   },
+   {
+    "volume": "I",
+    "before": "various sensations in 1. half of occipital bone, when seated",
+    "after": "various sensations in l. half of occipital bone, when seated"
+   },
+   {
+    "volume": "I",
+    "before": "hike tetter on a small spot on border of forehead, 1. side",
+    "after": "hike tetter on a small spot on border of forehead, l. side"
+   },
+   {
+    "volume": "I",
+    "before": "yellow, brown, or black spot before the 1. eye",
+    "after": "yellow, brown, or black spot before the l. eye"
+   },
+   {
+    "volume": "I",
+    "before": "black mote before 1. eye",
+    "after": "black mote before l. eye"
+   },
+   {
+    "volume": "I",
+    "before": "jerks and pressing pain in 1. eyeball at all times of the day, and under all conditions",
+    "after": "jerks and pressing pain in l. eyeball at all times of the day, and under all conditions"
+   },
+   {
+    "volume": "I",
+    "before": "as soon as she opens her eyes in the morning, both eyeballs, no matter whether they are fixed upon an object or not, begin to revolve toward the r. and 1. with a velocity of half a second, and this continues the whole day, with but few intermis ions",
+    "after": "as soon as she opens her eyes in the morning, both eyeballs, no matter whether they are fixed upon an object or not, begin to revolve toward the r. and l. with a velocity of half a second, and this continues the whole day, with but few intermis ions"
+   },
+   {
+    "volume": "I",
+    "before": "painful stitches in 1. ear",
+    "after": "painful stitches in l. ear"
+   },
+   {
+    "volume": "I",
+    "before": "itching in 1. external auditory tube, with a stitch in inner ear, as of an ice-cold needle",
+    "after": "itching in l. external auditory tube, with a stitch in inner ear, as of an ice-cold needle"
+   },
+   {
+    "volume": "I",
+    "before": "stitches in 1. mastoid process",
+    "after": "stitches in l. mastoid process"
+   },
+   {
+    "volume": "I",
+    "before": "nose stopped up, more 1. side, with glairy mucus",
+    "after": "nose stopped up, more l. side, with glairy mucus"
+   },
+   {
+    "volume": "I",
+    "before": "better lying on 1. side",
+    "after": "better lying on l. side"
+   },
+   {
+    "volume": "I",
+    "before": "on awaking, so violent a pain in 1. articulation of jaw, he could scarcely open his mouth",
+    "after": "on awaking, so violent a pain in l. articulation of jaw, he could scarcely open his mouth"
+   },
+   {
+    "volume": "I",
+    "before": "pain in 1. hypochondrium, with rumbling in the region of left superior flexure of the colon",
+    "after": "pain in l. hypochondrium, with rumbling in the region of left superior flexure of the colon"
+   },
+   {
+    "volume": "I",
+    "before": "with urination : spasmodic drawing in 1. groin",
+    "after": "with urination : spasmodic drawing in l. groin"
+   }
+  ],
+  "section heading": [
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "nausea and vomiting",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "sexual organs",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "female sexual organs",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "trachea and bronchia",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "^ locality and direction",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "heart, pulse and circulation",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "sexual organs",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "trachea and bronchia",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "sexual organs",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "desires, aversions",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "sexual organs",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "nausea and vomiting",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "nausea and vomiting",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "nausea and vomiting",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "passive motion",
+    "after": null
+   }
+  ],
+  "\"<\" / \">\" written as worse / better": [
+   {
+    "volume": "I",
+    "before": "<< rising from a seat",
+    "after": "worse rising from a seat"
+   },
+   {
+    "volume": "I",
+    "before": "fine stitching in 1. hypochondrium, <c moving and laughing",
+    "after": "fine stitching in 1. hypochondrium, worse moving and laughing"
+   },
+   {
+    "volume": "I",
+    "before": "simaruhece. \" a very poisonous tree introduced from the molucca islands, and cultivated extensively as a shade tree, on account of its rapid growth, straight stem and shady leaves, until it was observed <bo make the month of june, the most healthy in the year, a sickly one, by the stench of its flowers",
+    "after": "simaruhece. \" a very poisonous tree introduced from the molucca islands, and cultivated extensively as a shade tree, on account of its rapid growth, straight stem and shady leaves, until it was observed <bo make the month of june, the most healthy in the year, a sickly one, by the stench of its flowers"
+   },
+   {
+    "volume": "I",
+    "before": "debility from protracted illness.   leucorrhoea. <  prolapsus uteri.   menses too early and too profuse.  prolapsus uteri.   sterility from uterine atony.    pregnancy.   habitual tendency to abortion, sensation of weight in the uterine region, and tendency to prolapsus.   myalgic pains, simulating \" false pains,\" during pregnancy",
+    "after": "debility from protracted illness. leucorrhoea. worse prolapsus uteri. menses too early and too profuse. prolapsus uteri. sterility from uterine atony. pregnancy. habitual tendency to abortion, sensation of weight in the uterine region, and tendency to prolapsus. myalgic pains, simulating \" false pains, \" during pregnancy"
+   },
+   {
+    "volume": "I",
+    "before": "> fleshy people: catarrhs",
+    "after": "better fleshy people: catarrhs"
+   },
+   {
+    "volume": "I",
+    "before": "shooting and boring in the region of the navel, < from pressure.   painfulness in the whole abdomen, especially in the sides and along both sides of the navel, which parts cannot endure being touched",
+    "after": "shooting and boring in the region of the navel, worse from pressure. painfulness in the whole abdomen, especially in the sides and along both sides of the navel, which parts cannot endure being touched"
+   },
+   {
+    "volume": "I",
+    "before": "> turning on r. side",
+    "after": "better turning on r. side"
+   },
+   {
+    "volume": "I",
+    "before": "pain  < morning, on awaking",
+    "after": "pain worse morning, on awaking"
+   },
+   {
+    "volume": "I",
+    "before": "weakness in shoulders, > bending forward",
+    "after": "weakness in shoulders, better bending forward"
+   },
+   {
+    "volume": "I",
+    "before": ">> from motion",
+    "after": "better from motion"
+   },
+   {
+    "volume": "I",
+    "before": "headache sometimes in 1. side, < by walking in open air",
+    "after": "headache sometimes in 1. side, worse by walking in open air"
+   },
+   {
+    "volume": "I",
+    "before": "stupefying tightness in r. temple, > by pressing upon it",
+    "after": "stupefying tightness in r. temple, better by pressing upon it"
+   },
+   {
+    "volume": "I",
+    "before": "pain in vertex, < on moving head or stooping, > by pressure",
+    "after": "pain in vertex, worse on moving head or stooping, better by pressure"
+   },
+   {
+    "volume": "I",
+    "before": "< from touch",
+    "after": "worse from touch"
+   },
+   {
+    "volume": "I",
+    "before": "teeth feel loose and elongated, < from chewing, in open air, evening.   drawing toothache, extending to other parts, as down the larynx, neck, or shoulders",
+    "after": "teeth feel loose and elongated, worse from chewing, in open air, evening. drawing toothache, extending to other parts, as down the larynx, neck, or shoulders"
+   },
+   {
+    "volume": "I",
+    "before": "< evening and night",
+    "after": "worse evening and night"
+   },
+   {
+    "volume": "I",
+    "before": " < evenings",
+    "after": "worse evenings"
+   },
+   {
+    "volume": "I",
+    "before": "< from motion",
+    "after": "worse from motion"
+   },
+   {
+    "volume": "I",
+    "before": "pains  < sitting bent.   pressing in both groins, toward the sexual organs, evenings",
+    "after": "pains worse sitting bent. pressing in both groins, toward the sexual organs, evenings"
+   },
+   {
+    "volume": "I",
+    "before": "<c on alternate days",
+    "after": "worse on alternate days"
+   },
+   {
+    "volume": "I",
+    "before": "> from a short sleep or warm applications",
+    "after": "better from a short sleep or warm applications"
+   },
+   {
+    "volume": "I",
+    "before": "excessive sexual i i frequent and painful erections, < at night.   involuntary emissions, followed by all his old symptoms",
+    "after": "excessive sexual i i frequent and painful erections, worse at night. involuntary emissions, followed by all his old symptoms"
+   },
+   {
+    "volume": "I",
+    "before": "oppression < when sitting stooped",
+    "after": "oppression worse when sitting stooped"
+   },
+   {
+    "volume": "I",
+    "before": "> straightening up, or walking in open air",
+    "after": "better straightening up, or walking in open air"
+   },
+   {
+    "volume": "I",
+    "before": "headache, > lying, <c walking in open air",
+    "after": "headache, better lying, worse walking in open air"
+   }
+  ],
+  "case header (e.g. 'woman, æt.')": [
+   {
+    "volume": "I",
+    "before": "child, get",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "boy, set",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "a child, set",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "thin, spare girl, set",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "girl, set",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "a child, set",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "a man, set",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "man, aet",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "a man, set",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "man, get",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "widow, set",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "girl, set",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "a robust country girl, set",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "man, set",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "a weakly hysteric woman, get",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "a man, aet",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "a strong, well-developed man, set",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "a strong man, set",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "a girl, set",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "next day in bronchia. ■ child, aet",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "a boy, set",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "years. ^bronchial inflammation. iboy, get",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "boy, set",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "girl, set",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "a man, set",
+    "after": null
+   }
+  ],
+  "remedy name or abbreviation": [
+   {
+    "volume": "I",
+    "before": "natr. ars",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "calc. ostr",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "scrof. ophthal",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "art. vulg",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "phosph. ac",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "baryt. carh",
+    "after": null
+   },
+   {
+    "volume": "I",
+    "before": "typhus. ■ lupus",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "arnica montana",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "arsenicum hydrogenisatum",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "arsenicum hydrogenisatum",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "arsenicum hydrogenisatum",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "arsenicum hydrogenisatum",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "arsenicum hydrogenisatum",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "arsenicum hydrogenisatum",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "arsenicum hydrogenisatum",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "arsenicum hydrogenisatum",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "artemisia vulgaris",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "artemisia vulgaris",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "artemisia vulgaris",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "artemisia vulgaris",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "artemisia vulgaris",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "arum dracontium",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "arum dracontium",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "arum maculatum",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "arum maculatum",
+    "after": null
+   }
+  ],
+  "remedy name run into the symptom": [
+   {
+    "volume": "I",
+    "before": "the nut of semecarpus anacardium",
+    "after": "the nut of semecarpus"
+   },
+   {
+    "volume": "II",
+    "before": "bloud moaning, groaning, and weeping, 33 arsenicum",
+    "after": "bloud moaning, groaning, and weeping, 33"
+   },
+   {
+    "volume": "II",
+    "before": "gastritis mucosa in a child.   \"the oedema of the lids, especially the lower one, is not at all lik worse the puffiness of apis or rhus, nor is it dependent upon infiltration of the connective tissue as it may be in rhus, but is associated with the general cacheftic arsenic conditions.\" arsenicum",
+    "after": "gastritis mucosa in a child. \"the oedema of the lids, especially the lower one, is not at all lik worse the puffiness of apis or rhus, nor is it dependent upon infiltration of the connective tissue as it may be in rhus, but is associated with the general cacheftic arsenic conditions.\""
+   },
+   {
+    "volume": "II",
+    "before": "face pale, sallow, distorted, anxious, arsenicum",
+    "after": "face pale, sallow, distorted, anxious"
+   },
+   {
+    "volume": "II",
+    "before": "the most thirst during the sweat, unusual thirst ; heat in mouth rose to such a degree that he arsenicum",
+    "after": "the most thirst during the sweat, unusual thirst; heat in mouth rose to such a degree that he"
+   },
+   {
+    "volume": "II",
+    "before": "absence of menses for a long time, in women of pale, wax- arsenicum",
+    "after": "absence of menses for a long time, in women of pale, wax"
+   },
+   {
+    "volume": "II",
+    "before": "croupous inflammation of larynx, which is sensitive to pressure ;hoarseness by day, dyspnoea and suffocative attacks at night, 63 arsenicum",
+    "after": "croupous inflammation of larynx, which is sensitive to pressure; hoarseness by day, dyspnoea and suffocative attacks at night, 63"
+   },
+   {
+    "volume": "II",
+    "before": "great dyspnoea ; face cyanotic and covered with cold sweat ; great anxiety, 65 arsenicum",
+    "after": "great dyspnoea; face cyanotic and covered with cold sweat; great anxiety, 65"
+   },
+   {
+    "volume": "II",
+    "before": "intermitting b.eats of heart; somewhat irregular and intermit- arsenicum",
+    "after": "intermitting b.eats of heart; somewhat irregular and intermit"
+   },
+   {
+    "volume": "II",
+    "before": "tuberculosisgonarthrocace. ,d ascites, the child is very weak ; the slightest effort seems to exhaust it, such as vomiting, etc. weakness, obliging him to lie down, he feels stronger when doing so. arsenicum",
+    "after": "tuberculosisgonarthrocace., d ascites, the child is very weak; the slightest effort seems to exhaust it, such as vomiting, etc. weakness, obliging him to lie down, he feels stronger when doing so."
+   },
+   {
+    "volume": "II",
+    "before": "heat, with abatement of headache; restless; thirsty; great weariness and sleep, after the heat commences, the pains and other complaints having commenced with the cold state, lessen, or are replaced by new symptoms, during the heat : anxiety, restlessness ; burning intolerable ; arsenicum",
+    "after": "heat, with abatement of headache; restless; thirsty; great weariness and sleep, after the heat commences, the pains and other complaints having commenced with the cold state, lessen, or are replaced by new symptoms, during the heat: anxiety, restlessness; burning intolerable"
+   },
+   {
+    "volume": "II",
+    "before": "itching : in scalp ; on head ; of the face ; in upper lip ; pim- arsenicum",
+    "after": "itching: in scalp; on head; of the face; in upper lip; pim"
+   },
+   {
+    "volume": "II",
+    "before": "memory lively ; remembers things long gone by. 355 belladonna",
+    "after": "memory lively; remembers things long gone by. 355"
+   },
+   {
+    "volume": "II",
+    "before": "objects appear: double, and seem to revolve and run backwards ;upside down or crooked. itriplopia; sees a second dim representation of the object on belladonna",
+    "after": "objects appear: double, and seem to revolve and run backwards; upside down or crooked. itriplopia; sees a second dim representation of the object on"
+   },
+   {
+    "volume": "II",
+    "before": "retinitis in a young lady subject to congestive headaches, always worse in the afternoon ; retina very hazy and cede- belladonna",
+    "after": "retinitis in a young lady subject to congestive headaches, always worse in the afternoon; retina very hazy and cede"
+   },
+   {
+    "volume": "II",
+    "before": "teeth feel \"on lacerating edge.\"; worse in evening. toothache 373 belladonna",
+    "after": "teeth feel \"on lacerating edge.\"; worse in evening. toothache 373"
+   },
+   {
+    "volume": "II",
+    "before": "dryness of roof of mouth, fauces and 375 belladonna",
+    "after": "dryness of roof of mouth, fauces and 375"
+   },
+   {
+    "volume": "II",
+    "before": "at first he pushed away a glass of sugared water, when on be- belladonna",
+    "after": "at first he pushed away a glass of sugared water, when on be"
+   },
+   {
+    "volume": "II",
+    "before": "violent pressing and urging towards genitals, as if everything belladonna",
+    "after": "violent pressing and urging towards genitals, as if everything"
+   },
+   {
+    "volume": "II",
+    "before": "sitting bent forward : feeling as if a hard body pressed from right belladonna",
+    "after": "sitting bent forward: feeling as if a hard body pressed from right"
+   },
+   {
+    "volume": "II",
+    "before": "child cries, refuses to eat, vomits at night ; fever in morning, belladonna",
+    "after": "child cries, refuses to eat, vomits at night; fever in morning"
+   },
+   {
+    "volume": "II",
+    "before": "urticaria: over the whole body, most on inner side of the limbs, none on the face ; sometimes resembling mosquito bites ; itches most mornings and evenings ; scratching feels pleasant ; at times glowing heat, with sweat, then again dullness and shivering over the back ; worse ! after drinking belladonna",
+    "after": "urticaria: over the whole body, most on inner side of the limbs, none on the face; sometimes resembling mosquito bites; itches most mornings and evenings; scratching feels pleasant; at times glowing heat, with sweat, then again dullness and shivering over the back; worse! after drinking"
+   },
+   {
+    "volume": "II",
+    "before": "feeling of drunkenness, dizziness, vacuity, confusion, i heaviness in head, especially in front, with pressure in sinciput, at- berberis",
+    "after": "feeling of drunkenness, dizziness, vacuity, confusion, i heaviness in head, especially in front, with pressure in sinciput, at"
+   },
+   {
+    "volume": "II",
+    "before": "constant troublesome bloatedness of abdomen, with occasional forcible and noisy discharges of flatus, berberis",
+    "after": "constant troublesome bloatedness of abdomen, with occasional forcible and noisy discharges of flatus"
+   },
+   {
+    "volume": "II",
+    "before": "several copious, thick mushy stools. idiarrhoea; mushlike yellowish discharges, with rumbling and passing of wind; squeamishness, much thirst; heat in face, and dullness of head; afterwards in the evening, increased appetite. free stools, mostly with tenesmus before and after. pappy, large, 429 berberis",
+    "after": "several copious, thick mushy stools. idiarrhoea; mushlike yellowish discharges, with rumbling and passing of wind; squeamishness, much thirst; heat in face, and dullness of head; afterwards in the evening, increased appetite. free stools, mostly with tenesmus before and after. pappy, large, 429"
+   }
+  ],
+  "copied 'Modalities' label cleared": [
+   {
+    "volume": "II",
+    "before": "arnica montana: 'ameliorates with gentle pressure, aggravates with riding' on 100 of 102 entries",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "arsenicum hydrogenisatum: 'aggravates with midnight, aggravates with out doors, ameliorates with of the pains after the chill, aggravates with motion, ameliorates with carried about quickly, ameliorates with rest and at night, aggravates with sitting bent or stooping, ameliorates with wards, ameliorates with 10th day and following, ameliorates with lying on belly, ameliorates with frofli bending together' on 2265 of 2399 entries",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "artemisia vulgaris: 'ameliorates with has to sit, aggravates with trismus, aggravates with urination' on 173 of 177 entries",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "asafoetida: 'aggravates with bed, aggravates with day after a seminal emission, ameliorates with rubbing' on 425 of 450 entries",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "asarum europaeum: 'ameliorates with covering, aggravates with night' on 278 of 291 entries",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "asimina triloba: 'ameliorates with of headache' on 78 of 82 entries",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "asparagus officinalis: 'aggravates with most pains, ameliorates with of pains in loins and elsewhere, aggravates with warmth' on 163 of 177 entries",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "astacus fluviatilis: 'aggravates with sensitive to air, aggravates with uncovering' on 134 of 139 entries",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "asterias rubens: 'aggravates with female, aggravates with cold damp weather' on 367 of 380 entries",
+    "after": null
+   },
+   {
+    "volume": "II",
+    "before": "aurum metallicum: 'ameliorates with steam or hot water, aggravates with as day progresses, ameliorates with morning, aggravates with toothache, aggravates with asthma, ameliorates with headache, ameliorates with pain in eyes, ameliorates with growing warm' on 1503 of 1597 entries",
+    "after": null
+   }
+  ]
+ }
+}
