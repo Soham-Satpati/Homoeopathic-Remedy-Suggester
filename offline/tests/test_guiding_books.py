@@ -52,9 +52,17 @@ def test_cleaned_volumes(paths):
         assert bad not in names
     assert names["agnus castus"] == ["I"] and names["caladium seguinum"] == ["III"]
     assert names["palladium"] == ["VIII"]                     # vol. III's "palladium" was Caladium
-    assert names["natrum sulphuricum"] == ["II", "V"]          # split across volumes; merged when loaded
+    # checked against the scanned books: blocks filed under a neighbour's name are separated, and
+    # remedies the extraction skipped are read from the scan
+    assert names["natrum sulphuricum"] == ["VIII"]            # "natrum sulphuricum" in II/V was Atropinum/Ferrum sulph.
+    for rem, vol in (("arsenicum album", "II"), ("bryonia alba", "III"), ("hepar sulphuris", "VI"),
+                     ("mercurius", "VII"), ("capsicum", "III"), ("gambogia", "V"), ("iodium", "VI"),
+                     ("ranunculus bulbosus", "IX"), ("natrum phosphoricum", "VIII"), ("plumbum", "VIII")):
+        assert vol in names[rem], rem
+        n = sum(len(i) for i in _vol(paths, vol)[rem].values())
+        assert n >= 40, (rem, n)
     report = (paths.resources / "guiding_symptoms_cleaning_report.md").read_text(encoding="utf-8")
-    assert "Remedy names" in report and "caladium seguinum" in report
+    assert "Remedy names" in report and "Checked against the scanned books" in report
 
 
 def test_angle_brackets_are_written_out(paths):

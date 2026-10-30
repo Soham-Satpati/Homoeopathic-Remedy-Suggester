@@ -57,7 +57,7 @@ TITLE_FIX = {
     "aurum ffluriatlcum": "aurum muriaticum", "castoreuffl": "castoreum", "cepa allium": "allium cepa",
     "euphorbiuiw": "euphorbium", "ictodes f etida": "ictodes foetida", "ipomcea": "ipomoea",
     "natrum phosphorlcuffl": "natrum phosphoricum", "piconia": "paeonia", "trombidiuffl": "trombidium",
-    "erigerok": "erigeron", "ferrum a": "ferrum metallicum", "mi helleborus": "helleborus",
+    "erigerok": "erigeron", "do petroselinum": "petroselinum", "ferrum a": "ferrum metallicum", "mi helleborus": "helleborus",
     "alburnum opulus": "viburnum opulus", "lyssik": "lyssin", "douchos pruriens": "dolichos pruriens",
     "arnica montana radix": "arnica montana", "mercurius sulphuricus turpethum": "mercurius sulphuricus",
     "arsenicum sulphuratum flayum": "arsenicum sulphuratum flavum", "aceticum acidum": "aceticum acidum",
