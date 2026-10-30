@@ -67,7 +67,7 @@ class Job(QRunnable):
             pass
 
     def run(self) -> None:
-        fn, self.fn = self.fn, None          # don't keep the closure (and what it holds) after running
+        fn = self.fn
         try:
             result = fn(self._progress) if self.with_progress else fn()
         except Exception as e:                              # reported to the GUI, logged in full
@@ -84,6 +84,38 @@ class Job(QRunnable):
 
 
 _ACTIVE: set = set()     # keep jobs alive until their signals have fired
+
+_GC_TIMER = None
+
+
+def collect_garbage_on_gui_thread(app) -> None:
+    """Run Python's cycle collector only on the GUI thread.
+
+    Left automatic, the collector runs in whichever thread happens to allocate — often a background
+    job — and finalising a Qt widget there crashes the process (seen while a book was being added).
+    Collection is cheap: objects alive after start-up are frozen out of it."""
+    global _GC_TIMER
+    import gc
+    from PySide6.QtCore import QTimer
+    if _GC_TIMER is not None:
+        return
+    gc.disable()
+    ticks = [0]
+
+    def tick():
+        ticks[0] += 1
+        gc.collect(2 if ticks[0] % 120 == 0 else 1 if ticks[0] % 10 == 0 else 0)
+    _GC_TIMER = QTimer(app)
+    _GC_TIMER.timeout.connect(tick)
+    _GC_TIMER.start(500)
+
+
+def freeze_long_lived_objects() -> None:
+    """After the books are loaded: move everything alive into the permanent generation, so
+    collections don't walk ~hundreds of thousands of symptom objects each time."""
+    import gc
+    gc.collect()
+    gc.freeze()
 
 
 def total_ram_gb() -> float | None:
@@ -112,8 +144,16 @@ def run_job(fn, on_done=None, on_fail=None, on_progress=None) -> Job:
     message)`` callable and its reports arrive on the GUI thread."""
     job = Job(fn, on_done, on_fail, on_progress)
     _ACTIVE.add(job)
-    job.signals.done.connect(lambda *_: _ACTIVE.discard(job))
-    job.signals.failed.connect(lambda *_: _ACTIVE.discard(job))
+
+    def finished(*_):
+        # on the GUI thread: drop the job's closure here (not on the worker thread, where freeing a
+        # widget it captured would be unsafe). The job and its signal connections form a cycle that
+        # Qt keeps alive, so without this every finished job kept what its closure held (an engine
+        # with every book: hundreds of MB).
+        job.fn = None
+        _ACTIVE.discard(job)
+    job.signals.done.connect(finished)
+    job.signals.failed.connect(finished)
     QThreadPool.globalInstance().start(job)
     return job
 

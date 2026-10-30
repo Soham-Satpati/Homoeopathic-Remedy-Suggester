@@ -61,6 +61,8 @@ def run_app() -> int:
     paths.user.mkdir(parents=True, exist_ok=True)
     log_path = _logging(paths.user)
     app = QApplication(sys.argv)
+    from .context import collect_garbage_on_gui_thread
+    collect_garbage_on_gui_thread(app)
     app.setApplicationName("HoRUS")
     app.setApplicationVersion(APP_VERSION)
     app.setStyleSheet(QSS)
@@ -104,6 +106,8 @@ def run_app() -> int:
             ctx.session = dlg.session
 
         win = MainWindow(ctx)
+        from .context import freeze_long_lived_objects
+        ctx.events.engine_ready.connect(freeze_long_lived_objects)    # books stay loaded: skip them in GC
         win.show()
         code = app.exec()
         ctx.shutdown()
@@ -375,6 +379,8 @@ def gui_smoke(out: Path) -> int:
     from .theme import QSS
 
     app = QApplication(sys.argv)
+    from .context import collect_garbage_on_gui_thread
+    collect_garbage_on_gui_thread(app)
     app.setStyleSheet(QSS)
     paths = Paths()
     _logging(paths.user)

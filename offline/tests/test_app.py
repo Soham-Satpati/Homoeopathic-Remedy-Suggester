@@ -19,7 +19,10 @@ import horus.crypto as crypto  # noqa: E402
 
 @pytest.fixture(scope="module")
 def qapp():
-    return QApplication.instance() or QApplication([])
+    from horus_app.context import collect_garbage_on_gui_thread
+    app = QApplication.instance() or QApplication([])
+    collect_garbage_on_gui_thread(app)          # as the app does
+    return app
 
 
 @pytest.fixture(autouse=True)
@@ -68,23 +71,16 @@ def ctx(tmp_path, monkeypatch, qapp):
     c.llm = c.transcriber = None                    # AI off: the structured paths must work alone
     c.settings.update(ai_enabled=False, backup_on_exit=False)
     yield c
-    # each test's engine holds every shipped book (~500 MB): delete the test's windows and free it,
-    # or the suite needs several GB
+    # each test's engine holds every shipped book (~500 MB): free it before the next test
     import gc
-    from PySide6.QtCore import QCoreApplication, QEvent
-    from PySide6.QtWidgets import QApplication
-    QApplication.instance() and QThreadPool_wait()
-    for w in QApplication.topLevelWidgets():
-        w.close()
-        w.deleteLater()
-    QCoreApplication.sendPostedEvents(None, QEvent.DeferredDelete)
+    from PySide6.QtCore import QThreadPool
+    QThreadPool.globalInstance().waitForDone(30000)
+    _pump(50)
     c.engine = None
     gc.collect()
 
 
-def QThreadPool_wait():
-    from PySide6.QtCore import QThreadPool
-    QThreadPool.globalInstance().waitForDone(30000)
+
 
 
 def _pump(ms: int) -> None:
