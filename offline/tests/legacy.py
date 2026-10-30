@@ -24,11 +24,18 @@ EMB_DIM = 384
 
 
 # ── deterministic stand-in for all-MiniLM-L6-v2 ──────────────────────────────
+_FAKE_CACHE: dict = {}      # text → vector; the shipped books have ~133k symptoms, re-encoded per engine
+
+
 def fake_encode(texts) -> np.ndarray:
     """Hashed character-trigram vectors, L2-normalised. Related phrases score high,
     unrelated ones low, so the semantic matching path is genuinely exercised."""
     out = np.zeros((len(texts), EMB_DIM), dtype=np.float32)
     for i, t in enumerate(texts):
+        hit = _FAKE_CACHE.get(t)
+        if hit is not None:
+            out[i] = hit
+            continue
         for w in str(t).lower().split():
             w = f"#{w}#"
             for j in range(len(w) - 2):
@@ -36,6 +43,7 @@ def fake_encode(texts) -> np.ndarray:
         n = np.linalg.norm(out[i])
         if n:
             out[i] /= n
+        _FAKE_CACHE[t] = out[i].copy()
     return out
 
 
