@@ -14,6 +14,7 @@
 - **Symptom suggestions are grouped under each of the patient's symptoms.** Each symptom is a drop-down showing its own details (category, worse, better); open it to see the symptoms that often occur with it, how strongly, and which of the case's leading remedies each points to. Tick, add modalities, compare — as before.
 - **The patient questionnaire shows three questions per screen**, on the clinic PC and on tablets, each with its own answer box and microphone.
 - **Suggestions weigh the evidence across the book.** A symptom that goes with several entries close to the patient's (e.g. with five headache entries in different remedies) now ranks above a line printed beside a single entry, and every symptom of the case gets its share of the case-wide list.
+- The engine's automated tests now run on Windows only, the platform HoRUS ships for.
 - Lower memory use for the suggestion tables (about 600 MB less with all books loaded).
 
 ### New in 1.4
