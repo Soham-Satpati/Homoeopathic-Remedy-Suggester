@@ -71,11 +71,13 @@ jobs:
       - name: Symptom index for the shipped books (embedded once, reused by the tests and the build)
         shell: bash
         run: |
+          set +e
           mkdir -p seed
           cp seed/emb_seed_*.npz models/ 2>/dev/null || true
           python offline/scripts/build_seed.py models 2>&1 | tee seed.log
           s=${PIPESTATUS[0]}
           tail -3 seed.log | sed 's/^/::notice title=symptom index::/'
+          [ $s -ne 0 ] && tail -12 seed.log | sed 's/^/::error title=symptom index::/' && exit $s
           cp models/emb_seed_*.npz seed/
           exit $s
 
