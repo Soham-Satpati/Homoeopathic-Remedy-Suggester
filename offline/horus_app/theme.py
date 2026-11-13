@@ -1,4 +1,4 @@
-"""Look and feel: the demo's soft slate-blue palette, tuned for a desktop app."""
+"""Look and feel: the demo's soft slate-blue palette, tuned for a macOS desktop app."""
 
 from __future__ import annotations
 
@@ -18,7 +18,7 @@ OK = "#15803d"
 OK_SOFT = "#f0fdf4"
 
 _QSS = f"""
-* {{ font-family: "Segoe UI", "Inter", sans-serif; font-size: 10.5pt; color: {INK}; }}
+* {{ font-family: __FONT__; font-size: 10.5pt; color: {INK}; }}
 QMainWindow, QDialog, QWidget#page {{ background: {BG}; }}
 QLabel#h1 {{ font-size: 18pt; font-weight: 600; }}
 QLabel#h2 {{ font-size: 13pt; font-weight: 600; }}
@@ -71,7 +71,7 @@ QToolTip {{ background: {INK}; color: white; border: none; padding: 5px; }}
 """
 
 REPORT_CSS = f"""
-body {{ font-family: 'Segoe UI', sans-serif; font-size: 10.5pt; color: {INK}; }}
+body {{ font-family: __FONT__; font-size: 10.5pt; color: {INK}; }}
 h1 {{ font-size: 16pt; margin: 0 0 4px 0; }}
 h2 {{ font-size: 11.5pt; color: #1e3a8a; margin: 16px 0 6px 0; }}
 .muted {{ color: {MUTED}; }}
@@ -92,4 +92,18 @@ def _asset(name: str) -> str:
     return (base / name).as_posix()
 
 
-QSS = _QSS.replace("__CHECK__", _asset("check.svg"))
+FONT = '".AppleSystemUIFont", "Helvetica Neue", "Inter", sans-serif'
+# Sizes above were tuned on 96-dpi Windows; macOS draws a point as one logical pixel (72 dpi),
+# so the same numbers look about a fifth smaller. Scale them so text matches the macOS system size.
+PT_SCALE = 1.25        # 10.5 pt → 13 pt, the macOS system text size
+
+
+def css(css: str) -> str:
+    """Scale every NNpt for macOS and fill in the system font (use for inline style sheets too)."""
+    import re
+    css = re.sub(r"(\d+(?:\.\d+)?)pt", lambda m: f"{float(m.group(1)) * PT_SCALE:.1f}pt", css)
+    return css.replace("__FONT__", FONT)
+
+
+QSS = css(_QSS).replace("__CHECK__", _asset("check.svg"))
+REPORT_CSS = css(REPORT_CSS)

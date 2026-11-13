@@ -1,4 +1,16 @@
-## HoRUS Offline Windows Edition
+## HoRUS Offline macOS Edition
+
+The first edition of HoRUS Offline for the Mac: the same app, decisions, encryption and data format as
+the Windows Edition, built for Apple silicon.
+
+- **A native Mac app.** Drag HoRUS to Applications from the disk image; it uses the macOS system font
+  and text sizes, the Dock icon, and keeps its data in `~/Library/Application Support/HoRUS`.
+- **The offline AI runs on the Mac's GPU** (Metal). Reading a case and writing explanations is
+  several times faster than on a laptop CPU. If the GPU can't be used, HoRUS falls back to the CPU.
+- **Microphone permission** is requested the first time you dictate; if it was refused, HoRUS says
+  where to allow it (System Settings → Privacy & Security → Microphone).
+- **Backups move between editions.** A `.horusbak` made by the Windows Edition restores on the Mac.
+- The AI engine is stopped together with HoRUS, even if HoRUS is force-quit.
 
 ### New in 1.5
 
@@ -12,10 +24,10 @@
   - remedy-wide modality labels that had been copied onto every symptom cleared.
 - **Books you added yourself from the raw scans are replaced automatically** by the cleaned built-in volumes (your settings move to them). *Settings → Books & weighting* lists the old copies with a button to delete them.
 - **Symptom suggestions are grouped under each of the patient's symptoms.** Each symptom is a drop-down showing its own details (category, worse, better); open it to see the symptoms that often occur with it, how strongly, and which of the case's leading remedies each points to. Tick, add modalities, compare — as before.
-- **The patient questionnaire shows three questions per screen**, on the clinic PC and on tablets, each with its own answer box and microphone.
+- **The patient questionnaire shows three questions per screen**, on the clinic computer and on tablets, each with its own answer box and microphone.
 - **Suggestions weigh the evidence across the book.** A symptom that goes with several entries close to the patient's (e.g. with five headache entries in different remedies) now ranks above a line printed beside a single entry, and every symptom of the case gets its share of the case-wide list.
 - Faster indexing of added books: symptoms of similar length are processed together (less wasted work on long entries such as the Guiding Symptoms').
-- The engine's automated tests now run on Windows only, the platform HoRUS ships for.
+- The engine's automated tests run on macOS (Apple silicon), the platform this edition ships for.
 - Lower memory use for the suggestion tables (about 600 MB less with all books loaded).
 
 ### New in 1.4
@@ -49,18 +61,21 @@
 - **Delete my account** for administrators. If another administrator remains, only the account is removed; if you are the only user, the clinic is deleted and HoRUS returns to first-time setup.
 - **Fixes:** the tick boxes on the symptom-suggestions and review screens are visible again; a rare crash when closing HoRUS while it was still preparing data.
 
-Clinical homeopathic intelligence that runs entirely on your computer — no internet, no cloud. Patient records are encrypted on the PC.
+Clinical homeopathic intelligence that runs entirely on your Mac — no internet, no cloud. Patient records are encrypted on the Mac.
 
 ### Download and install
 
-The installer is split into parts because the offline AI models are large. **Download every `HoRUS-Setup` file below into the same folder**, then run `HoRUS-Setup.exe`.
+The disk image is split into parts because the offline AI models are large. **Download every `HoRUS-…-macOS-arm64.dmg.part` file below into your Downloads folder**, then open Terminal and run:
 
-- `HoRUS-Setup.exe`
-- `HoRUS-Setup-1.bin`, `HoRUS-Setup-2.bin`, … (all of them)
+```
+cd ~/Downloads && cat HoRUS-*-macOS-arm64.dmg.part* > HoRUS-macOS.dmg && open HoRUS-macOS.dmg
+```
 
-Windows may show *"Windows protected your PC"* because the installer is not code-signed yet: click **More info → Run anyway**. No administrator rights are needed.
+Drag **HoRUS** onto **Applications**. No administrator password is needed.
 
-Requirements: Windows 10 (1809+) or 11, 64-bit · 8 GB RAM recommended · about 8 GB free disk space.
+If macOS says HoRUS can't be opened because it is from an unidentified developer, Control-click HoRUS in Applications and choose **Open** (macOS 15+: *System Settings → Privacy & Security → Open Anyway*). Only needed once.
+
+Requirements: a Mac with Apple silicon (M1 or later) · macOS 13 Ventura or later · 8 GB memory (16 GB recommended) · about 12 GB free disk space while installing (8 GB afterwards).
 
 ### What's inside
 
@@ -74,4 +89,4 @@ Requirements: Windows 10 (1809+) or 11, 64-bit · 8 GB RAM recommended · about 
 
 Choose an edition, create the administrator account, and **save the recovery key** — it is the only way to unlock the records if the administrator password is lost.
 
-Built and verified by an automated pipeline on Windows: engine parity tests, a full self-test of the installed app with the offline AI, a window test, and install/uninstall (patient data is kept on uninstall). See `SHA256SUMS.txt` to verify the downloads.
+Built and verified by an automated pipeline on macOS (Apple silicon): engine parity tests, a check that every library the app links is inside it or part of macOS, a full self-test of the installed app with the offline AI, a window test, and removing the app (patient data is kept). See `SHA256SUMS.txt` to verify the downloads (`shasum -a 256 -c --ignore-missing SHA256SUMS.txt` in the Downloads folder checks the parts).

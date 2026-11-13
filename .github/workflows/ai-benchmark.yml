@@ -1,10 +1,10 @@
 name: AI model benchmark
 
-# Scores each candidate local model on HoRUS's real jobs on a Windows CPU machine
-# (4 vCPU, comparable to a mid-range laptop). Results are posted as job annotations.
+# Scores each candidate local model on HoRUS's real jobs on an Apple silicon Mac (GitHub's
+# macos-15 runner, M1-class). Results are posted as job annotations.
 on:
   push:
-    branches: [horus-offline]
+    branches: [horus-offline-macos]
     paths: ["offline/bench/**", "offline/horus/llama.py", "offline/horus/prompts.py",
             ".github/workflows/ai-benchmark.yml"]
   workflow_dispatch:
@@ -24,7 +24,7 @@ jobs:
   bench:
     needs: plan
     name: ${{ matrix.llm }}
-    runs-on: windows-latest
+    runs-on: macos-15
     timeout-minutes: 120
     strategy:
       fail-fast: false
@@ -46,8 +46,7 @@ jobs:
           cache: pip
       - name: Install
         run: pip install -e . huggingface_hub onnxruntime tokenizers psutil
-      - name: Fetch model + llama-server (Windows CPU build)
-        shell: bash
+      - name: Fetch model + llama-server (macOS Apple silicon build)
         run: |
           set +e
           python scripts/fetch_models.py --dest ../models --llm ${{ matrix.llm }} --no-whisper 2>&1 | tee fetch.log
@@ -56,7 +55,6 @@ jobs:
           grep -E "^llama.cpp |^Wrote " fetch.log | sed 's/^/::notice title=fetch::/'
           exit $status
       - name: Benchmark
-        shell: bash
         run: |
           set +e
           python bench/benchmark_llm.py --models ../models --out ../bench-${{ matrix.llm }}.json --limit ${{ needs.plan.outputs.limit }} 2>&1 | tee bench.log

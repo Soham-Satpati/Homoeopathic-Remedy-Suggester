@@ -4,7 +4,7 @@ Clustering a large book (HDBSCAN over ~18,000 symptoms) holds Python's interpret
 minute; run in a thread, it freezes the window for that long. A child process has its own interpreter,
 so the window stays responsive and the import can be cancelled.
 
-The frozen Windows app must call ``multiprocessing.freeze_support()`` first thing (HoRUS.py does).
+The frozen app must call ``multiprocessing.freeze_support()`` first thing (HoRUS.py does).
 """
 
 from __future__ import annotations

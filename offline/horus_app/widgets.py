@@ -9,7 +9,7 @@ from PySide6.QtCore import Qt
 from PySide6.QtWidgets import (QFrame, QHBoxLayout, QLabel, QMessageBox, QProgressBar, QPushButton,
                                QSizePolicy, QVBoxLayout, QWidget)
 
-from .theme import REPORT_CSS
+from .theme import REPORT_CSS, css
 
 
 def esc(x) -> str:
@@ -160,7 +160,7 @@ def report_html(report: dict, cat: dict, title: str = "", show_evidence: int = 5
     flags = report.get("redFlags") or []
     if flags:
         items = "".join(f"<li><b>{esc(f['title'])}.</b> {esc(f['advice'])}</li>" for f in flags)
-        out.append("<div class='flag'><b style='font-size:12pt'>⚠ Seek urgent medical care</b><br>"
+        out.append("<div class='flag'><b style='" + css("font-size:12pt") + "'>⚠ Seek urgent medical care</b><br>"
                    "This case contains warning signs that need conventional medical assessment first. "
                    f"HoRUS output must not delay it.<ul>{items}</ul></div>")
     if report.get("caseEssence"):
@@ -200,7 +200,7 @@ def report_html(report: dict, cat: dict, title: str = "", show_evidence: int = 5
 # ── checkbox cells ───────────────────────────────────────────────────────────
 def check_cell(checked: bool = False, tooltip: str = "", on_toggle=None):
     """A real, centred QCheckBox for a table cell (item check indicators can be invisible
-    under some Windows styles). Returns (cell widget, checkbox)."""
+    under some platform styles). Returns (cell widget, checkbox)."""
     from PySide6.QtWidgets import QCheckBox
     w = QWidget()
     lay = QHBoxLayout(w)

@@ -14,6 +14,7 @@ from PySide6.QtWidgets import (QAbstractItemView, QCheckBox, QComboBox, QDialog,
 
 from horus.store import EDITIONS, ROLES, StoreError, iter_backups
 
+from .theme import css
 from .context import AppContext
 from .login import ChangePasswordDialog
 from .widgets import button, card, confirm, error, fmt_ts, info, label, page, row
@@ -368,7 +369,7 @@ class SettingsPage(QWidget):
         vv.addWidget(label("Store this key safely, away from this computer. It is shown only once.", "warnbox"))
         k = label(key, wrap=False)
         k.setTextInteractionFlags(Qt.TextSelectableByMouse)
-        k.setStyleSheet("font-family: Consolas, monospace; font-size: 16pt; padding: 12px;")
+        k.setStyleSheet(css("font-family: Menlo, monospace; font-size: 16pt; padding: 12px;"))
         vv.addWidget(k)
         vv.addLayout(row(None, button("Done", primary=True, slot=dlg.accept)))
         dlg.exec()
@@ -407,8 +408,8 @@ class SettingsPage(QWidget):
             img = qrcode.make(lan.urls[0], image_factory=qrcode.image.svg.SvgPathImage, box_size=8)
             self.lan_qr.load(QByteArray(img.to_string()))
             self.lan_qr.show()
-            urls = "<br>".join(f"<b style='font-size:14pt'>{u}</b>" for u in lan.urls)
-            self.lan_urls.setText(f"{urls}<br><br>Pairing code: <b style='font-size:20pt'>{lan.pin}</b>"
+            urls = "<br>".join(f"<b style='{css('font-size:14pt')}'>{u}</b>" for u in lan.urls)
+            self.lan_urls.setText(f"{urls}<br><br>Pairing code: <b style='{css('font-size:20pt')}'>{lan.pin}</b>"
                                   f"<br><br><span style='color:#64748b'>Certificate fingerprint:<br>"
                                   f"{lan.fingerprint[:47]}<br>{lan.fingerprint[48:]}</span>")
         else:

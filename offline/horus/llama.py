@@ -3,12 +3,13 @@
 The server binary and a GGUF model ship with the app. ``LlamaServer`` starts it on demand:
 
 * bound to 127.0.0.1 on a free port, with a random per-launch API key, so neither the
-  network nor other programs on the PC can use it;
+  network nor other programs on the Mac can use it;
 * thinking/reasoning disabled (these jobs need short structured answers, not essays);
 * replies constrained by the JSON schema each job passes (grammar-constrained decoding);
-* on Windows the process joins a Job Object that kills it if HoRUS exits or crashes.
+* on Apple silicon the model runs on the GPU (Metal), with a CPU fallback if Metal is unavailable;
+* a watchdog process ends the server if HoRUS exits or crashes.
 
-Talks to the server with ``urllib`` over the loopback interface — nothing leaves the PC.
+Talks to the server with ``urllib`` over the loopback interface — nothing leaves the Mac.
 """
 
 from __future__ import annotations
@@ -17,6 +18,7 @@ import atexit
 import json
 import logging
 import os
+import platform
 import secrets
 import socket
 import subprocess
@@ -31,7 +33,7 @@ from .llm import LLMUnavailable
 
 log = logging.getLogger(__name__)
 
-SERVER_EXE = "llama-server.exe" if sys.platform == "win32" else "llama-server"
+SERVER_EXE = "llama-server"
 # Flags that differ between llama.cpp releases; dropped (once) if the server rejects them.
 OPTIONAL_ARGS = ["--reasoning", "off", "--reasoning-budget", "0", "--no-webui"]
 
@@ -51,45 +53,28 @@ class _EarlyExit(Exception):
     pass
 
 
-class _WindowsJob:
-    """Kill-on-close Job Object, so llama-server dies with HoRUS even after a crash."""
+def gpu_layers() -> int:
+    """Layers to offload to the GPU. Apple silicon runs the whole model on the GPU through Metal,
+    which is several times faster than its CPU cores; Intel Macs stay on the CPU.
+    ``HORUS_LLAMA_GPU_LAYERS`` overrides (0 = CPU only)."""
+    env = os.environ.get("HORUS_LLAMA_GPU_LAYERS")
+    if env is not None and env.strip().lstrip("-").isdigit():
+        return max(0, int(env))
+    return 99 if sys.platform == "darwin" and platform.machine() == "arm64" else 0
 
-    def __init__(self):
-        import ctypes
-        from ctypes import wintypes
-        k32 = ctypes.WinDLL("kernel32", use_last_error=True)
-        self._k32 = k32
-        k32.CreateJobObjectW.restype = wintypes.HANDLE
-        self.handle = k32.CreateJobObjectW(None, None)
 
-        class IO_COUNTERS(ctypes.Structure):
-            _fields_ = [(n, ctypes.c_ulonglong) for n in (
-                "ReadOperationCount", "WriteOperationCount", "OtherOperationCount",
-                "ReadTransferCount", "WriteTransferCount", "OtherTransferCount")]
-
-        class BASIC(ctypes.Structure):
-            _fields_ = [("PerProcessUserTimeLimit", ctypes.c_int64), ("PerJobUserTimeLimit", ctypes.c_int64),
-                        ("LimitFlags", wintypes.DWORD), ("MinimumWorkingSetSize", ctypes.c_size_t),
-                        ("MaximumWorkingSetSize", ctypes.c_size_t), ("ActiveProcessLimit", wintypes.DWORD),
-                        ("Affinity", ctypes.c_size_t), ("PriorityClass", wintypes.DWORD),
-                        ("SchedulingClass", wintypes.DWORD)]
-
-        class EXTENDED(ctypes.Structure):
-            _fields_ = [("BasicLimitInformation", BASIC), ("IoInfo", IO_COUNTERS),
-                        ("ProcessMemoryLimit", ctypes.c_size_t), ("JobMemoryLimit", ctypes.c_size_t),
-                        ("PeakProcessMemoryUsed", ctypes.c_size_t), ("PeakJobMemoryUsed", ctypes.c_size_t)]
-
-        info = EXTENDED()
-        info.BasicLimitInformation.LimitFlags = 0x2000          # JOB_OBJECT_LIMIT_KILL_ON_JOB_CLOSE
-        k32.SetInformationJobObject(self.handle, 9, ctypes.byref(info), ctypes.sizeof(info))
-
-    def add(self, proc: subprocess.Popen) -> None:
-        import ctypes
-        from ctypes import wintypes
-        self._k32.OpenProcess.restype = wintypes.HANDLE
-        h = self._k32.OpenProcess(0x1F0FFF, False, proc.pid)
-        self._k32.AssignProcessToJobObject(self.handle, h)
-        self._k32.CloseHandle(h)
+def _watchdog(child_pid: int) -> subprocess.Popen | None:
+    """macOS has no kill-on-close Job Objects, so a tiny shell loop ends llama-server if HoRUS
+    exits or crashes without stopping it. It also ends by itself when llama-server stops."""
+    script = ('while kill -0 "$1" 2>/dev/null && kill -0 "$2" 2>/dev/null; do sleep 2; done; '
+              'if kill -0 "$2" 2>/dev/null; then kill "$2" 2>/dev/null; sleep 5; kill -9 "$2" 2>/dev/null; fi')
+    try:
+        return subprocess.Popen(["/bin/sh", "-c", script, "horus-watchdog", str(os.getpid()), str(child_pid)],
+                                stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+                                start_new_session=True)
+    except OSError:
+        log.warning("Could not start the llama-server watchdog", exc_info=True)
+        return None
 
 
 class LlamaServer:
@@ -110,7 +95,8 @@ class LlamaServer:
         self._port = 0
         self._key = ""
         self._lock = threading.Lock()
-        self._job = None
+        self._watchdog: subprocess.Popen | None = None
+        self.gpu_layers = gpu_layers()
         self._atexit = False
         self.last_stats: dict = {}
 
@@ -125,19 +111,25 @@ class LlamaServer:
                 return
             if not self.available:
                 raise LLMUnavailable("The offline AI model is not installed.")
-            try:
-                self._launch(OPTIONAL_ARGS)
-            except _EarlyExit:
-                log.warning("llama-server rejected optional flags; retrying without them")
-                self._launch([])
+            # newest flags + GPU first; then without the GPU, then without the optional flags
+            attempts = [(OPTIONAL_ARGS, self.gpu_layers), (OPTIONAL_ARGS, 0),
+                        ([], self.gpu_layers), ([], 0)]
+            attempts = list(dict.fromkeys((tuple(o), g) for o, g in attempts))
+            for i, (optional, ngl) in enumerate(attempts):
+                try:
+                    self._launch(list(optional), ngl, retry_possible=i + 1 < len(attempts))
+                    self.gpu_layers = ngl
+                    return
+                except _EarlyExit:
+                    log.warning("llama-server stopped at once (flags %s, GPU layers %d); retrying",
+                                bool(optional), ngl)
 
-    def _launch(self, optional: list[str]) -> None:
+    def _launch(self, optional: list[str], ngl: int, retry_possible: bool) -> None:
         self._port, self._key = _free_port(), secrets.token_urlsafe(24)
         cmd = [str(self.server_dir / SERVER_EXE), "-m", str(self.model_path),
                "--host", "127.0.0.1", "--port", str(self._port), "--api-key", self._key,
-               "-c", str(self.context), "-t", str(self.threads), "-ngl", "0",
+               "-c", str(self.context), "-t", str(self.threads), "-ngl", str(ngl),
                "--jinja", "-np", "1", *optional, *self.extra_args]
-        flags = 0x08000000 if sys.platform == "win32" else 0     # CREATE_NO_WINDOW
         log_path = Path(os.environ.get("HORUS_LLAMA_LOG", os.devnull))
         self._log = open(log_path, "ab") if log_path.name != os.devnull else subprocess.DEVNULL
         log.info("Starting %s", " ".join(cmd[:3]))
@@ -146,13 +138,8 @@ class LlamaServer:
             env[var] = os.pathsep.join(p for p in (str(self.server_dir), env.get(var, "")) if p)
         self._proc = subprocess.Popen(cmd, cwd=str(self.server_dir), stdout=self._log,
                                       stderr=subprocess.STDOUT, stdin=subprocess.DEVNULL,
-                                      creationflags=flags, env=env)
-        if sys.platform == "win32":
-            try:
-                self._job = self._job or _WindowsJob()
-                self._job.add(self._proc)
-            except Exception:
-                log.warning("Could not attach llama-server to a job object", exc_info=True)
+                                      env=env)
+        self._watchdog = _watchdog(self._proc.pid)
         if not self._atexit:
             atexit.register(self.stop)
             self._atexit = True
@@ -160,7 +147,7 @@ class LlamaServer:
         deadline = started + self.startup_timeout
         while time.time() < deadline:
             if self._proc.poll() is not None:
-                if optional and time.time() - started < 5:
+                if retry_possible and time.time() - started < 5:
                     raise _EarlyExit()
                 raise LLMUnavailable(f"The AI engine stopped while starting (code {self._proc.returncode}).")
             try:
@@ -174,12 +161,15 @@ class LlamaServer:
 
     def stop(self) -> None:
         proc, self._proc = self._proc, None
+        dog, self._watchdog = self._watchdog, None
         if proc is not None and proc.poll() is None:
             proc.terminate()
             try:
                 proc.wait(timeout=10)
             except subprocess.TimeoutExpired:
                 proc.kill()
+        if dog is not None and dog.poll() is None:
+            dog.kill()
 
     # ── HTTP over loopback ───────────────────────────────────────────────
     def _req(self, method: str, path: str, body: dict | None = None, timeout: float = 5.0) -> dict:
@@ -215,7 +205,7 @@ class LlamaServer:
         except (urllib.error.URLError, OSError) as e:
             raise LLMUnavailable(f"AI engine not reachable: {e}") from e
         usage = out.get("usage") or {}
-        self.last_stats = {"seconds": round(time.time() - t0, 2),
+        self.last_stats = {"seconds": round(time.time() - t0, 2), "gpu_layers": self.gpu_layers,
                            "prompt_tokens": usage.get("prompt_tokens"),
                            "completion_tokens": usage.get("completion_tokens"),
                            "timings": out.get("timings")}

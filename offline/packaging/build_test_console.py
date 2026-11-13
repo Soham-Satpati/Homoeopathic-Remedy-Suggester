@@ -2,10 +2,10 @@
 
     python offline/packaging/build_test_console.py
 
-Produces ``dist/HoRUS-Offline-Test/`` (a folder with ``HoRUS-Offline-Test.exe``) containing
-the engine, the remedy dataset and the embedding model, so it runs with no Python install
-and no internet. Run on the target OS (Windows builds Windows). The build pipeline runs it,
-then the .exe's own ``--selftest`` / ``--gui-smoke`` checks, before publishing.
+Produces ``dist/HoRUS-Offline-Test.app`` containing the engine, the remedy dataset and the
+embedding model, so it runs with no Python install and no internet. Run on a Mac (Apple silicon
+builds Apple silicon). The build pipeline runs it, then the app's own ``--selftest`` /
+``--gui-smoke`` checks, before publishing.
 """
 
 from __future__ import annotations
@@ -17,7 +17,7 @@ import PyInstaller.__main__
 
 OFFLINE = Path(__file__).resolve().parents[1]
 REPO = OFFLINE.parent
-SEP = ";" if sys.platform == "win32" else ":"
+SEP = ":"
 NAME = "HoRUS-Offline-Test"
 
 # Everything the engine reads (see horus/config.py). Only the first conditional-probability
@@ -47,6 +47,8 @@ def main() -> None:
         str(OFFLINE / "testconsole" / "horus_test_console.py"),
         "--name", NAME,
         "--onedir", "--windowed", "--noconfirm", "--clean",
+        "--icon", str(OFFLINE / "packaging" / "horus.icns"),
+        "--osx-bundle-identifier", "com.sohamsatpati.horus.testconsole",
         "--paths", str(OFFLINE),
         "--distpath", str(REPO / "dist"),
         "--workpath", str(REPO / "build"),

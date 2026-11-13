@@ -2,7 +2,7 @@ name: Offline engine
 
 on:
   push:
-    branches: [horus-offline]
+    branches: [horus-offline-macos]
     paths: ["offline/**", "horus3_1_streamlit.py", ".github/workflows/offline-engine.yml"]
   pull_request:
     paths: ["offline/**"]
@@ -15,8 +15,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # HoRUS Offline Windows Edition: tested on Windows only (macOS Edition lives on horus-offline-macos)
-        os: [windows-latest]
+        # HoRUS Offline macOS Edition: Apple silicon (the Windows Edition lives on horus-offline)
+        os: [macos-15]
     defaults:
       run:
         working-directory: offline
@@ -31,7 +31,7 @@ jobs:
       - name: Install engine, test and build dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install torch
           pip install -e ".[embeddings,build,test]" onnxruntime tokenizers
 
       - name: Cache bundled models
@@ -50,7 +50,6 @@ jobs:
           key: seed-${{ hashFiles('*.json', 'offline/horus/dataset.py', 'offline/horus/books.py', 'offline/horus/embeddings.py', 'offline/scripts/build_seed.py', 'offline/scripts/fetch_models.py') }}
 
       - name: Symptom index for the shipped books (embedded once, reused by the tests and the build)
-        shell: bash
         run: |
           set +e
           mkdir -p ../seed
@@ -63,7 +62,6 @@ jobs:
           exit $s
 
       - name: Parity and offline tests (including real-model parity)
-        shell: bash
         run: |
           set +e
           python -m pytest -q -rfEs --tb=short -p no:cacheprovider 2>&1 | tee pytest.log

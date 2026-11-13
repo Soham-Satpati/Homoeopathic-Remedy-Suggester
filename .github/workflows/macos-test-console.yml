@@ -1,0 +1,111 @@
+name: macOS test build
+
+# Builds the engine test console for macOS (Apple silicon), proves the app works (headless
+# self-test with the bundled model, then the real window), and publishes it as a pre-release.
+# Superseded by the full app build; kept for manual runs only.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install torch
+          pip install -e "offline[embeddings,build,test]" pyinstaller
+
+      - name: Cache bundled models
+        uses: actions/cache@v4
+        with:
+          path: models
+          key: models-macos-${{ hashFiles('offline/scripts/fetch_models.py') }}
+
+      - name: Fetch models
+        working-directory: offline
+        run: python scripts/fetch_models.py --dest ../models
+
+      - name: Engine tests (parity with the demo, real model)
+        working-directory: offline
+        run: |
+          set +e
+          python -m pytest -q -rfEs --tb=short -p no:cacheprovider 2>&1 | tee pytest.log
+          status=${PIPESTATUS[0]}
+          grep -E "^(FAILED|ERROR) " pytest.log | head -15 | sed 's/^/::error title=test::/'
+          grep -E "^E  " pytest.log | head -15 | sed 's/^/::error title=detail::/'
+          tail -1 pytest.log | sed 's/^/::notice title=tests::/'
+          exit $status
+
+      - name: Build the app
+        run: |
+          python offline/packaging/build_test_console.py
+          codesign --force --deep --sign - dist/HoRUS-Offline-Test.app
+
+      - name: Self-test the app (headless, model required)
+        run: |
+          set +e
+          dist/HoRUS-Offline-Test.app/Contents/MacOS/HoRUS-Offline-Test --selftest "$PWD/selftest" --require-model
+          s=$?
+          python - <<'EOF'
+          import json
+          r = json.load(open("selftest/selftest.json"))
+          if not r.get("ok"):
+              print(f"::error title=selftest::{r.get('error')}")
+          else:
+              line = " || ".join(f"{k} -> {', '.join(v['top'])} | flags: {', '.join(v['red_flags'])}"
+                                 for k, v in r["samples"].items())
+              print(f"::notice title=selftest ({r.get('matching')})::{line}")
+          EOF
+          exit $s
+
+      - name: Open the window, analyse a sample, close
+        run: |
+          set +e
+          dist/HoRUS-Offline-Test.app/Contents/MacOS/HoRUS-Offline-Test --gui-smoke "$PWD/guismoke"; s=$?
+          python -c "import json;r=json.load(open('guismoke/guismoke.json'));print(('::notice title=gui::' if r.get('ok') else '::error title=gui::')+str(r.get('detail')))"
+          exit $s
+
+      - name: Zip
+        run: |
+          mkdir -p pkg
+          ditto dist/HoRUS-Offline-Test.app pkg/HoRUS-Offline-Test.app
+          cp offline/packaging/README-test-console.txt "pkg/READ ME.txt"
+          ditto -c -k --keepParent pkg HoRUS-Offline-Test-macos-arm64.zip
+          echo "::notice title=size::$(( $(stat -f%z HoRUS-Offline-Test-macos-arm64.zip) / 1048576 )) MB"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: HoRUS-Offline-Test-macos-arm64
+          path: HoRUS-Offline-Test-macos-arm64.zip
+
+      - name: Publish pre-release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: offline-macos-test-${{ github.run_number }}
+          target_commitish: ${{ github.sha }}
+          name: "HoRUS Offline macOS Edition — engine test console (build ${{ github.run_number }})"
+          prerelease: true
+          files: HoRUS-Offline-Test-macos-arm64.zip
+          body: |
+            **Test build of step 1 (the offline engine). Not the clinic app.**
+
+            Download `HoRUS-Offline-Test-macos-arm64.zip` (Apple silicon), open it, and run `HoRUS-Offline-Test.app`.
+            The app isn't notarised yet: the first time, Control-click it and choose **Open**
+            (macOS 15+: System Settings → Privacy & Security → **Open Anyway**).
+
+            Runs fully offline: the remedy dataset and the symptom-matching model are inside the app.
+            No patient database, logins or AI parsing yet (steps 2–4).
+
+            Built from ${{ github.sha }}; passed the engine parity tests, a headless self-test and a window smoke test on macOS.

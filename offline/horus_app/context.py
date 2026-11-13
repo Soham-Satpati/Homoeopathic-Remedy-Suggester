@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import sys
 import traceback
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -119,21 +120,13 @@ def freeze_long_lived_objects() -> None:
 
 
 def total_ram_gb() -> float | None:
-    """Installed memory, for sizing AI defaults (Windows: GlobalMemoryStatusEx)."""
+    """Installed memory, for sizing AI defaults (macOS: sysctl hw.memsize)."""
     try:
-        if os.name == "nt":
-            import ctypes
-
-            class MEMORYSTATUSEX(ctypes.Structure):
-                _fields_ = [("dwLength", ctypes.c_ulong), ("dwMemoryLoad", ctypes.c_ulong),
-                            ("ullTotalPhys", ctypes.c_ulonglong), ("ullAvailPhys", ctypes.c_ulonglong),
-                            ("ullTotalPageFile", ctypes.c_ulonglong), ("ullAvailPageFile", ctypes.c_ulonglong),
-                            ("ullTotalVirtual", ctypes.c_ulonglong), ("ullAvailVirtual", ctypes.c_ulonglong),
-                            ("ullAvailExtendedVirtual", ctypes.c_ulonglong)]
-            m = MEMORYSTATUSEX()
-            m.dwLength = ctypes.sizeof(m)
-            ctypes.windll.kernel32.GlobalMemoryStatusEx(ctypes.byref(m))
-            return m.ullTotalPhys / 2**30
+        if sys.platform == "darwin":
+            import subprocess
+            out = subprocess.run(["/usr/sbin/sysctl", "-n", "hw.memsize"], capture_output=True, text=True,
+                                 timeout=5).stdout
+            return int(out.strip()) / 2**30
         return os.sysconf("SC_PAGE_SIZE") * os.sysconf("SC_PHYS_PAGES") / 2**30
     except Exception:
         return None

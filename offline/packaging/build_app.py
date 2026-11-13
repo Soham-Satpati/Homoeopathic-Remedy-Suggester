@@ -1,17 +1,24 @@
-"""Build the HoRUS desktop app folder with PyInstaller.
+"""Build the HoRUS macOS app bundle with PyInstaller.
 
-    python offline/packaging/build_app.py [--models models]
+    python offline/packaging/build_app.py [--models models] [--version 1.5.0] [--sign IDENTITY]
 
-Produces ``dist/HoRUS/`` containing ``HoRUS.exe`` and ``_internal/resources/`` with the remedy
-dataset and every bundled model (exactly the files listed in ``models/manifest.json``, so
-download caches never ship). Run on the target OS. The installer (horus.iss) packs this folder.
+Produces ``dist/HoRUS.app``. Inside it, ``Contents/Resources/resources/`` holds the remedy dataset
+and every bundled model (exactly the files listed in ``models/manifest.json``, so download caches
+never ship). Run on a Mac of the target architecture (Apple silicon builds Apple silicon).
+
+The bundle is signed afterwards (``sign_app.sh``): ad hoc by default, or with a Developer ID
+identity for distribution. ``build_dmg.py`` then packs it into a disk image.
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import os
+import plistlib
+import re
 import shutil
+import subprocess
 import sys
 from importlib import metadata
 from pathlib import Path
@@ -20,8 +27,10 @@ import PyInstaller.__main__
 
 OFFLINE = Path(__file__).resolve().parents[1]
 REPO = OFFLINE.parent
-SEP = ";" if sys.platform == "win32" else ":"
+SEP = ":"
 NAME = "HoRUS"
+BUNDLE_ID = "com.sohamsatpati.horus"
+MIN_MACOS = "13.0"
 
 def data_files() -> list[str]:
     """books.json plus every file it names (book JSON, pickled index, co-occurrence table)."""
@@ -51,20 +60,6 @@ def stage_models(models: Path, staging: Path) -> dict:
         shutil.copy2(models / rel, dst)
     shutil.copy2(models / "manifest.json", staging / "manifest.json")
     return manifest
-
-
-# Visual C++ runtime, deployed app-locally (Microsoft-supported) so llama-server and the speech
-# engine start on PCs without the VC++ redistributable — installing that would need admin rights.
-VC_RUNTIME = ["vcruntime140.dll", "vcruntime140_1.dll", "msvcp140.dll", "msvcp140_1.dll", "msvcp140_2.dll",
-              "vcomp140.dll", "concrt140.dll"]
-
-
-def vc_runtime_dlls() -> list[Path]:
-    if sys.platform != "win32":
-        return []
-    import os
-    sys32 = Path(os.environ.get("SystemRoot", r"C:\Windows")) / "System32"
-    return [sys32 / n for n in VC_RUNTIME if (sys32 / n).exists()]
 
 
 def build_seed_index(staging: Path, models: Path | None = None) -> None:
@@ -115,14 +110,60 @@ def third_party_notices(dest: Path, manifest: dict) -> None:
             lines.append(f"- {key}: {m.get('repo') or m.get('id')} {m.get('tag', '')} {m.get('file', '')}".rstrip())
     lines += ["", "Language model and speech model licences: Apache-2.0 / MIT, see the model pages on",
               "huggingface.co. llama.cpp: MIT (github.com/ggml-org/llama.cpp). Qt for Python: LGPL-3.0;",
-              "Qt libraries are dynamically linked and can be replaced in the _internal folder."]
+              "Qt libraries are dynamically linked and can be replaced in HoRUS.app/Contents/Frameworks."]
     dest.write_text("\n".join(lines), encoding="utf-8")
+
+
+def app_version() -> str:
+    m = re.search(r'^APP_VERSION = "(.*)"', (OFFLINE / "horus_app" / "app.py").read_text(encoding="utf-8"), re.M)
+    return m.group(1) if m else "0.0.0"
+
+
+def write_info_plist(app: Path, version: str) -> None:
+    """Keys PyInstaller does not set from the command line. Without NSMicrophoneUsageDescription
+    macOS ends the app the moment dictation opens the microphone."""
+    plist = app / "Contents" / "Info.plist"
+    info = plistlib.loads(plist.read_bytes())
+    info.update({
+        "CFBundleName": NAME,
+        "CFBundleDisplayName": NAME,
+        "CFBundleIdentifier": BUNDLE_ID,
+        "CFBundleShortVersionString": version,
+        "CFBundleVersion": version,
+        "LSMinimumSystemVersion": MIN_MACOS,
+        "LSApplicationCategoryType": "public.app-category.medical",
+        "NSHighResolutionCapable": True,
+        "NSRequiresAquaSystemAppearance": True,         # the clinic theme is light-only
+        "NSHumanReadableCopyright": "© Soham Satpati. For clinical reference only.",
+        "NSMicrophoneUsageDescription":
+            "HoRUS transcribes dictated case notes and patients' spoken answers on this Mac. "
+            "Audio never leaves the computer.",
+        "NSLocalNetworkUsageDescription":
+            "In the Clinic LAN edition, tablets on the clinic Wi-Fi send intake questionnaires to HoRUS.",
+    })
+    plist.write_bytes(plistlib.dumps(info))
+
+
+def ensure_executable(app: Path) -> None:
+    """The llama.cpp server is shipped as data; make sure it kept its executable bit."""
+    for srv in app.rglob("llama-server"):
+        if srv.is_file() and not srv.is_symlink():
+            srv.chmod(0o755)
+
+
+def sign(app: Path, identity: str) -> None:
+    subprocess.run(["bash", str(OFFLINE / "packaging" / "sign_app.sh"), str(app), identity], check=True)
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--models", type=Path, default=REPO / "models")
+    ap.add_argument("--version", default=app_version())
+    ap.add_argument("--sign", default=os.environ.get("HORUS_SIGN_IDENTITY", "-"),
+                    help='codesign identity; "-" (default) signs ad hoc')
     args = ap.parse_args()
+    if sys.platform != "darwin":
+        sys.exit("Build the macOS app on a Mac.")
 
     missing = [f for f in DATA_FILES if not (REPO / f).exists()]
     if missing:
@@ -130,23 +171,20 @@ def main() -> None:
     staging = REPO / "build" / "models-staging"
     manifest = stage_models(args.models, staging)
     build_seed_index(staging, args.models)
-    vc = vc_runtime_dlls()
-    if (staging / "llama-server").exists():
-        for dll in vc:
-            if not (staging / "llama-server" / dll.name).exists():
-                shutil.copy2(dll, staging / "llama-server" / dll.name)
-    print("VC++ runtime bundled:", [d.name for d in vc])
-    icon = OFFLINE / "packaging" / "horus.ico"
+    icns = OFFLINE / "packaging" / "horus.icns"
+    png = OFFLINE / "packaging" / "horus.png"
 
     cmd = [
         str(OFFLINE / "HoRUS.py"),
         "--name", NAME, "--onedir", "--windowed", "--noconfirm", "--clean",
-        "--icon", str(icon),
+        "--icon", str(icns),
+        "--osx-bundle-identifier", BUNDLE_ID,
+        "--target-arch", "arm64" if os.uname().machine == "arm64" else "x86_64",
         "--paths", str(OFFLINE),
         "--distpath", str(REPO / "dist"), "--workpath", str(REPO / "build" / "pyi"),
         "--specpath", str(REPO / "build"),
         "--add-data", f"{staging}{SEP}resources/models",
-        "--add-data", f"{icon}{SEP}resources",
+        "--add-data", f"{png}{SEP}resources",
         "--collect-data", "faster_whisper",            # Silero VAD model used to skip silence
         "--collect-binaries", "ctranslate2",
         "--collect-binaries", "onnxruntime",
@@ -159,8 +197,6 @@ def main() -> None:
     ]
     for f in DATA_FILES:
         cmd += ["--add-data", f"{REPO / f}{SEP}resources"]
-    for dll in vc:
-        cmd += ["--add-binary", f"{dll}{SEP}."]
     for mod in ("tkinter", "matplotlib", "torch", "torchvision", "sentence_transformers", "transformers",
                 "IPython", "pytest", "PySide6.QtWebEngineCore", "PySide6.QtWebEngineWidgets",
                 "PySide6.Qt3DCore", "PySide6.QtQuick", "PySide6.QtQml", "PySide6.QtCharts",
@@ -168,11 +204,15 @@ def main() -> None:
         cmd += ["--exclude-module", mod]
     PyInstaller.__main__.run(cmd)
 
-    out = REPO / "dist" / NAME
-    third_party_notices(out / "THIRD-PARTY-NOTICES.txt", manifest)
-    shutil.copy2(OFFLINE / "packaging" / "README.txt", out / "README.txt")
-    size = sum(p.stat().st_size for p in out.rglob("*") if p.is_file()) / 2**30
-    print(f"Built {out} ({size:.2f} GB)")
+    app = REPO / "dist" / f"{NAME}.app"
+    shutil.rmtree(REPO / "dist" / NAME, ignore_errors=True)      # the plain folder; the .app is the product
+    write_info_plist(app, args.version)
+    ensure_executable(app)
+    res = app / "Contents" / "Resources"
+    third_party_notices(res / "THIRD-PARTY-NOTICES.txt", manifest)
+    sign(app, args.sign)
+    size = sum(p.stat().st_size for p in app.rglob("*") if p.is_file() and not p.is_symlink()) / 2**30
+    print(f"Built {app} ({size:.2f} GB, version {args.version}, signed {'ad hoc' if args.sign == '-' else 'Developer ID'})")
 
 
 if __name__ == "__main__":

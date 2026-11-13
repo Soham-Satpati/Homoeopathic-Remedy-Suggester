@@ -4,9 +4,9 @@ Two kinds of location:
 
 * **resources** – read-only data shipped with the app: the remedy datasets, pickled
   models, cluster CSVs, conditional probabilities, the miasm rubric and the bundled
-  embedding model. In a packaged build this is the installer's resource folder; in a
+  embedding model. In a packaged build this is inside HoRUS.app; in a
   source checkout it is the repository root (the same files the demo app uses).
-* **user data** – the patient database, caches and logs, kept in the OS user-data folder.
+* **user data** – the patient database, caches and logs, in ~/Library/Application Support/HoRUS.
 
 Both can be overridden with ``HORUS_RESOURCE_DIR`` / ``HORUS_USER_DIR``.
 """
@@ -49,11 +49,9 @@ def _default_user_dir() -> Path:
     env = os.environ.get("HORUS_USER_DIR")
     if env:
         return Path(env)
-    if sys.platform == "win32":
-        base = Path(os.environ.get("LOCALAPPDATA") or Path.home() / "AppData" / "Local")
-    elif sys.platform == "darwin":
+    if sys.platform == "darwin":                      # ~/Library/Application Support/HoRUS
         base = Path.home() / "Library" / "Application Support"
-    else:
+    else:                                             # Linux: development and tests only
         base = Path(os.environ.get("XDG_DATA_HOME") or Path.home() / ".local" / "share")
     return base / APP_NAME
 

@@ -1,8 +1,8 @@
 """HoRUS desktop app entry point.
 
-    HoRUS.exe                              normal start
-    HoRUS.exe --selftest <out> [--require-ai]   headless end-to-end check (used by the installer build)
-    HoRUS.exe --gui-smoke <out>             open the window, run a case through it, close
+    HoRUS.app/Contents/MacOS/HoRUS                              normal start (or open HoRUS.app)
+    HoRUS.app/Contents/MacOS/HoRUS --selftest <out> [--require-ai]   headless end-to-end check (used by the build)
+    HoRUS.app/Contents/MacOS/HoRUS --gui-smoke <out>             open the window, run a case through it, close
 """
 
 from __future__ import annotations
@@ -25,7 +25,7 @@ log = logging.getLogger("horus")
 
 
 def _streams():
-    # a windowed .exe has no console: libraries that print would crash on None streams
+    # an app opened from Finder has no console: libraries that print would crash on None streams
     if sys.stdout is None:
         sys.stdout = open(os.devnull, "w", encoding="utf-8")
     if sys.stderr is None:
@@ -66,7 +66,7 @@ def run_app() -> int:
     app.setApplicationName("HoRUS")
     app.setApplicationVersion(APP_VERSION)
     app.setStyleSheet(QSS)
-    icon = paths.resources / "horus.ico"
+    icon = paths.resources / "horus.png"          # the Dock icon comes from the bundle's horus.icns
     if icon.exists():
         app.setWindowIcon(QIcon(str(icon)))
 

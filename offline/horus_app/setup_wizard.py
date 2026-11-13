@@ -12,6 +12,7 @@ from PySide6.QtWidgets import (QButtonGroup, QCheckBox, QDialog, QFileDialog, QF
 
 from horus.store import AuthError, Store, StoreError
 
+from .theme import css
 from .context import AppContext
 from .widgets import button, card, error, label, row
 
@@ -45,7 +46,7 @@ class SetupWizard(QDialog):
         v = QVBoxLayout(w)
         v.addWidget(label("Welcome to HoRUS", "h1"))
         v.addWidget(label("Clinical homeopathic intelligence that runs entirely on this computer. "
-                          "Patient records are encrypted on this PC and nothing is sent over the internet.",
+                          "Patient records are encrypted on this Mac and nothing is sent over the internet.",
                           "muted"))
         v.addSpacing(16)
         v.addWidget(card(label("Set up a new clinic", "h2"),
@@ -113,7 +114,7 @@ class SetupWizard(QDialog):
         self.key_label = label("", wrap=False)
         self.key_label.setAlignment(Qt.AlignCenter)
         self.key_label.setTextInteractionFlags(Qt.TextSelectableByMouse)
-        self.key_label.setStyleSheet("font-family: Consolas, monospace; font-size: 17pt; padding: 18px;")
+        self.key_label.setStyleSheet(css("font-family: Menlo, monospace; font-size: 17pt; padding: 18px;"))
         v.addWidget(card(self.key_label))
         v.addLayout(row(button("Copy", slot=lambda: QGuiApplication.clipboard().setText(self._key)),
                         button("Save to a file…", slot=self._save_key), None))

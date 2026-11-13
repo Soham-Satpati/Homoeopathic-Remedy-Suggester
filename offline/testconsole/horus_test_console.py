@@ -1,4 +1,4 @@
-"""HoRUS Offline Windows Edition — engine test console.
+"""HoRUS Offline macOS Edition — engine test console.
 
 A small window for trying the step-1 engine on a laptop: enter a case (or load a sample),
 press Analyse, and see what the engine decides — red flags, miasm, ranked remedies with
@@ -8,7 +8,7 @@ This is a test harness, not the clinic app (that is step 4). There is no patient
 and no AI parser yet, so symptoms are entered in structured form.
 
 Headless check used by the build pipeline:
-    HoRUS-Offline-Test.exe --selftest <out-folder> [--require-model]
+    HoRUS-Offline-Test.app/Contents/MacOS/HoRUS-Offline-Test --selftest <out-folder> [--require-model]
 """
 
 from __future__ import annotations
@@ -29,7 +29,7 @@ if not getattr(sys, "frozen", False):
 from horus import __version__ as ENGINE_VERSION    # noqa: E402
 from horus.config import Paths                     # noqa: E402
 
-APP_TITLE = "HoRUS Offline Windows Edition — Engine Test Console"
+APP_TITLE = "HoRUS Offline macOS Edition — Engine Test Console"
 GROUPS = (("psychological", "Mind & emotions"), ("general", "Generals (whole body)"),
           ("physical", "Physical / local"))
 
@@ -181,10 +181,10 @@ def run_gui(smoke_out: Path | None = None) -> None:
     style = ttk.Style(root)
     if "vista" in style.theme_names():
         style.theme_use("vista")
-    BASE = ("Segoe UI", 10)
-    style.configure("Head.TLabel", font=("Segoe UI Semibold", 11))
+    BASE = ("Helvetica Neue", 13)
+    style.configure("Head.TLabel", font=("Helvetica Neue", 14, "bold"))
     style.configure("Muted.TLabel", foreground="#64748b")
-    style.configure("Accent.TButton", font=("Segoe UI Semibold", 10))
+    style.configure("Accent.TButton", font=("Helvetica Neue", 13, "bold"))
 
     state = {"engine": None, "result": None}
     jobs: queue.Queue = queue.Queue()
@@ -285,13 +285,13 @@ def run_gui(smoke_out: Path | None = None) -> None:
         t.configure(yscrollcommand=sb.set)
         sb.pack(side="right", fill="y")
         t.pack(fill="both", expand=True)
-        t.tag_configure("h1", font=("Segoe UI Semibold", 15), spacing1=4, spacing3=6)
-        t.tag_configure("h2", font=("Segoe UI Semibold", 11), foreground="#1e3a8a", spacing1=12, spacing3=4)
+        t.tag_configure("h1", font=("Helvetica Neue", 20, "bold"), spacing1=4, spacing3=6)
+        t.tag_configure("h2", font=("Helvetica Neue", 14, "bold"), foreground="#1e3a8a", spacing1=12, spacing3=4)
         t.tag_configure("flag", foreground="#7f1d1d", background="#fef2f2", lmargin1=8, lmargin2=8,
                         spacing1=2, spacing3=2)
         t.tag_configure("flaghead", foreground="#b91c1c", background="#fef2f2",
-                        font=("Segoe UI Semibold", 12), lmargin1=8)
-        t.tag_configure("rem", font=("Segoe UI Semibold", 11), spacing1=8)
+                        font=("Helvetica Neue", 16, "bold"), lmargin1=8)
+        t.tag_configure("rem", font=("Helvetica Neue", 14, "bold"), spacing1=8)
         t.tag_configure("muted", foreground="#64748b")
         t.tag_configure("ev", foreground="#334155", lmargin1=22, lmargin2=34)
         t.tag_configure("warn", foreground="#92400e")
@@ -490,6 +490,7 @@ def run_gui(smoke_out: Path | None = None) -> None:
     analyse_btn.configure(command=on_analyse, state="disabled")
     pdf_btn.configure(command=on_pdf)
     clear_btn.configure(command=on_clear)
+    root.bind("<Command-Return>", lambda e: on_analyse())       # ⌘↩ on macOS
     root.bind("<Control-Return>", lambda e: on_analyse())
 
     write(report_txt, [("Load a sample or enter a case, then press Analyse.\n", "muted")])
@@ -501,7 +502,7 @@ def run_gui(smoke_out: Path | None = None) -> None:
 
 
 def main(argv: list[str]) -> int:
-    # A windowed .exe has no console: libraries that print progress would crash on None streams.
+    # An app opened from Finder has no console: libraries that print progress would crash on None streams.
     import os
     if sys.stdout is None:
         sys.stdout = open(os.devnull, "w", encoding="utf-8")

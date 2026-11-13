@@ -1,70 +1,112 @@
-"""Fail if any shipped .exe/.dll imports a DLL that is neither shipped nor part of Windows itself.
+"""Fail if any binary in HoRUS.app links a library that is neither inside the bundle nor part of macOS.
 
-    python check_deps.py <folder> [<folder> …]
+    python check_deps.py dist/HoRUS.app [--arch arm64]
 
-The build machines have Visual Studio installed, so a missing runtime DLL would not show up in
-tests there but would stop the app (or the AI engine) on a clean clinic PC. This reads each PE
-file's import table and checks every imported DLL is either next to it, somewhere in the shipped
-folders, or a DLL that ships with every Windows 10/11 installation.
+The build machines have Homebrew and Xcode installed, so a library picked up from /opt/homebrew or
+/usr/local would not show up in tests there but would stop the app (or the AI engine) on a clinic
+Mac. This reads each Mach-O file's load commands with ``otool`` and checks every linked library is
+either a system library (/usr/lib, /System/Library) or resolves to a file inside the bundle
+(@rpath, @loader_path, @executable_path). It also checks every binary contains the target
+architecture, since one Intel-only library is enough to stop the app on Apple silicon.
 """
 
 from __future__ import annotations
 
+import argparse
+import os
+import subprocess
 import sys
 from pathlib import Path
 
-import pefile
-
-# DLLs present on every Windows 10 (1809+) / 11 installation.
-WINDOWS = {
-    "kernel32.dll", "user32.dll", "gdi32.dll", "advapi32.dll", "shell32.dll", "ole32.dll", "oleaut32.dll",
-    "ws2_32.dll", "bcrypt.dll", "ntdll.dll", "crypt32.dll", "secur32.dll", "shlwapi.dll", "comdlg32.dll",
-    "comctl32.dll", "version.dll", "winmm.dll", "imm32.dll", "dwmapi.dll", "uxtheme.dll", "setupapi.dll",
-    "cfgmgr32.dll", "iphlpapi.dll", "netapi32.dll", "userenv.dll", "wtsapi32.dll", "mpr.dll", "dbghelp.dll",
-    "msvcrt.dll", "ucrtbase.dll", "psapi.dll", "powrprof.dll", "rpcrt4.dll", "mswsock.dll", "dnsapi.dll",
-    "winhttp.dll", "wininet.dll", "d3d11.dll", "d3d12.dll", "dxgi.dll", "d3d9.dll", "dxva2.dll", "mfplat.dll",
-    "mf.dll", "mfreadwrite.dll", "mfuuid.dll", "evr.dll", "opengl32.dll", "glu32.dll", "winspool.drv",
-    "authz.dll", "dwrite.dll", "d2d1.dll", "propsys.dll", "shcore.dll", "wintrust.dll", "ncrypt.dll",
-    "normaliz.dll", "hid.dll", "avrt.dll", "mmdevapi.dll", "ksuser.dll", "wldap32.dll", "dbgeng.dll",
-    "esent.dll", "mscms.dll", "credui.dll", "netutils.dll", "srvcli.dll", "wkscli.dll", "pdh.dll",
-    "dwmapi.dll", "wevtapi.dll", "msimg32.dll", "usp10.dll", "virtdisk.dll", "fltlib.dll", "msacm32.dll",
-    "dsound.dll", "comsvcs.dll", "mfcore.dll", "mfsensorgroup.dll", "d3dcompiler_47.dll", "api-ms-win-core-synch-l1-2-0.dll",
-    "nvcuda.dll", "opencl.dll",          # optional GPU paths, loaded only if present
-    # core OS components (System32 on every Windows 10 1809+ / 11 install)
-    "bcryptprimitives.dll", "combase.dll", "imagehlp.dll", "avicap32.dll", "uiautomationcore.dll",
-    "icuuc.dll", "icuin.dll", "icu.dll",
-}
+SYSTEM_PREFIXES = ("/usr/lib/", "/System/Library/")
+MACHO_MAGIC = {b"\xcf\xfa\xed\xfe", b"\xce\xfa\xed\xfe", b"\xca\xfe\xba\xbe", b"\xbe\xba\xfe\xca"}
+SKIP_SUFFIXES = {".gguf", ".bin", ".json", ".npz", ".csv", ".gz", ".pkl", ".onnx", ".txt", ".py", ".pyc", ".png"}
 
 
-def check(folders: list[Path]) -> list[str]:
-    shipped = {p.name.lower() for f in folders for p in f.rglob("*") if p.suffix.lower() in (".dll", ".pyd", ".exe")}
+def is_macho(p: Path) -> bool:
+    if p.suffix.lower() in SKIP_SUFFIXES or p.is_symlink() or not p.is_file():
+        return False
+    try:
+        with open(p, "rb") as f:
+            return f.read(4) in MACHO_MAGIC
+    except OSError:
+        return False
+
+
+def otool(flag: str, p: Path) -> list[str]:
+    return subprocess.run(["otool", flag, str(p)], capture_output=True, text=True).stdout.splitlines()
+
+
+def linked(p: Path) -> list[str]:
+    lines = otool("-L", p)
+    # universal files print one "<file> (architecture x):" header per slice; skip every header line
+    libs = [ln.strip().split(" (compatibility")[0] for ln in lines if ln.strip() and not ln.rstrip().endswith(":")]
+    return sorted({lib for lib in libs if not lib.endswith("/" + p.name)})   # a dylib lists its own install name
+
+
+def rpaths(p: Path) -> list[str]:
+    out, lines = [], otool("-l", p)
+    for i, ln in enumerate(lines):
+        if ln.strip() == "cmd LC_RPATH":
+            for nxt in lines[i + 1:i + 4]:
+                nxt = nxt.strip()
+                if nxt.startswith("path "):
+                    out.append(nxt[5:].split(" (offset")[0])
+    return out
+
+
+def resolves(lib: str, binary: Path, main_exe_dir: Path) -> bool:
+    def sub(s: str) -> str:
+        return s.replace("@loader_path", str(binary.parent)).replace("@executable_path", str(main_exe_dir))
+    if lib.startswith("@rpath/"):
+        rest = lib[len("@rpath/"):]
+        # the llama.cpp server runs as its own executable: its @executable_path is its own folder
+        for exe_dir in {main_exe_dir, binary.parent}:
+            for rp in rpaths(binary):
+                cand = rp.replace("@loader_path", str(binary.parent)).replace("@executable_path", str(exe_dir))
+                if Path(cand, rest).exists():
+                    return True
+        return False
+    if lib.startswith(("@loader_path", "@executable_path")):
+        return Path(os.path.normpath(sub(lib))).exists() or \
+            Path(os.path.normpath(lib.replace("@executable_path", str(binary.parent)))).exists()
+    return False
+
+
+def archs(p: Path) -> set[str]:
+    r = subprocess.run(["lipo", "-archs", str(p)], capture_output=True, text=True)
+    return set(r.stdout.split())
+
+
+def check(app: Path, arch: str) -> list[str]:
+    main_exe_dir = app / "Contents" / "MacOS"
     problems = []
-    for f in folders:
-        for pe_path in f.rglob("*"):
-            if pe_path.suffix.lower() not in (".exe", ".dll", ".pyd"):
+    for p in app.rglob("*"):
+        if not is_macho(p):
+            continue
+        rel = p.relative_to(app.parent)
+        a = archs(p)
+        if a and arch not in a:
+            problems.append(f"{rel} is built for {', '.join(sorted(a))}, not {arch}")
+        for lib in linked(p):
+            if lib.startswith(SYSTEM_PREFIXES):
                 continue
-            try:
-                pe = pefile.PE(str(pe_path), fast_load=True)
-                pe.parse_data_directories(directories=[pefile.DIRECTORY_ENTRY["IMAGE_DIRECTORY_ENTRY_IMPORT"],
-                                                       pefile.DIRECTORY_ENTRY["IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT"]])
-            except pefile.PEFormatError:
+            if lib.startswith("@") and resolves(lib, p, main_exe_dir):
                 continue
-            delayed = {e.dll.decode().lower() for e in getattr(pe, "DIRECTORY_ENTRY_DELAY_IMPORT", [])}
-            for entry in getattr(pe, "DIRECTORY_ENTRY_IMPORT", []):
-                dll = entry.dll.decode().lower()
-                if dll in shipped or dll in WINDOWS or dll.startswith(("api-ms-win-", "ext-ms-")):
-                    continue
-                if dll in delayed:
-                    continue
-                problems.append(f"{pe_path.relative_to(f.parent)} needs {dll}")
+            problems.append(f"{rel} needs {lib}")
     return sorted(set(problems))
 
 
 if __name__ == "__main__":
-    folders = [Path(a) for a in sys.argv[1:]]
-    issues = check(folders)
+    ap = argparse.ArgumentParser()
+    ap.add_argument("app", type=Path)
+    ap.add_argument("--arch", default=os.uname().machine)
+    args = ap.parse_args()
+    if sys.platform != "darwin":
+        sys.exit("Run on macOS (needs otool and lipo).")
+    issues = check(args.app, args.arch)
     for i in issues:
-        print(f"::error title=missing DLL::{i}")
-    print(f"::notice title=DLL check::{len(issues)} unresolved imports across "
-          f"{sum(1 for f in folders for _ in f.rglob('*.dll'))} DLLs")
+        print(f"::error title=missing library::{i}")
+    n = sum(1 for p in args.app.rglob("*") if is_macho(p))
+    print(f"::notice title=library check::{len(issues)} problems across {n} binaries ({args.arch})")
     sys.exit(1 if issues else 0)

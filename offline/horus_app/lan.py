@@ -1,9 +1,9 @@
-"""Clinic LAN edition: tablets on the clinic Wi-Fi submit intake questionnaires to this PC.
+"""Clinic LAN edition: tablets on the clinic Wi-Fi submit intake questionnaires to this Mac.
 
 No internet is involved: the tablet talks only to this computer over the local network.
 
 Security
-* HTTPS with a certificate generated on this PC for its LAN addresses (the tablet is asked
+* HTTPS with a certificate generated on this Mac for its LAN addresses (the tablet is asked
   to trust it once).
 * Pairing: a 6-digit PIN shown in HoRUS. A paired tablet gets a random session cookie
   (HttpOnly, Secure, SameSite=Strict) valid for 12 hours. Wrong PINs lock that device out
@@ -53,7 +53,7 @@ def lan_addresses() -> list[str]:
 
 
 def ensure_certificate(folder: Path, ips: list[str]) -> tuple[Path, Path, str]:
-    """Self-signed cert for this PC's LAN IPs. Returns (cert, key, SHA-256 fingerprint)."""
+    """Self-signed cert for this Mac's LAN IPs. Returns (cert, key, SHA-256 fingerprint)."""
     from cryptography import x509
     from cryptography.hazmat.primitives import hashes, serialization
     from cryptography.hazmat.primitives.asymmetric import ec
@@ -66,7 +66,7 @@ def ensure_certificate(folder: Path, ips: list[str]) -> tuple[Path, Path, str]:
         if cert.not_valid_after_utc > dt.datetime.now(dt.timezone.utc) + dt.timedelta(days=30):
             return cert_p, key_p, cert.fingerprint(hashes.SHA256()).hex(":").upper()
     key = ec.generate_private_key(ec.SECP256R1())
-    name = x509.Name([x509.NameAttribute(NameOID.COMMON_NAME, "HoRUS clinic PC")])
+    name = x509.Name([x509.NameAttribute(NameOID.COMMON_NAME, "HoRUS clinic Mac")])
     san = [x509.DNSName("localhost")] + [x509.IPAddress(ipaddress.ip_address(ip)) for ip in ips]
     now = dt.datetime.now(dt.timezone.utc)
     cert = (x509.CertificateBuilder().subject_name(name).issuer_name(name).public_key(key.public_key())

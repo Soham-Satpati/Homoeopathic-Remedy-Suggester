@@ -20,7 +20,7 @@ Roles
 
 Editions
     solo        one doctor account (admin role)
-    clinic      several accounts on one PC
+    clinic      several accounts on one Mac
     clinic_lan  as clinic, plus the tablet intake server
 """
 

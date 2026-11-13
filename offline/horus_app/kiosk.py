@@ -1,4 +1,4 @@
-"""Patient self-intake on the clinic PC ("kiosk mode"), ported from the demo's patient side.
+"""Patient self-intake on the clinic Mac ("kiosk mode"), ported from the demo's patient side.
 
 The patient answers three questions per screen (typing or speaking — speech in Bengali, Hindi or
 English is transcribed offline into English), the offline AI may ask up to three follow-up
@@ -14,11 +14,12 @@ from PySide6.QtWidgets import (QComboBox, QDialog, QFormLayout, QFrame, QLineEdi
 
 from horus.intake import PATIENT_QUESTIONS, QUESTIONS_PER_PAGE, compose_patient_narrative
 
+from .theme import css
 from .context import AppContext, run_job
 from .voice import DictateButton
 from .widgets import Busy, button, card, error, label, row
 
-BIG = "font-size: 15pt;"
+BIG = css("font-size: 15pt;")
 
 
 class KioskPage(QWidget):
@@ -67,7 +68,7 @@ class KioskPage(QWidget):
         w = QWidget()
         v = QVBoxLayout(w)
         self.q_progress = label("", "muted")
-        self.q_progress.setStyleSheet("font-size: 13pt;")
+        self.q_progress.setStyleSheet(css("font-size: 13pt;"))
         v.addWidget(self.q_progress)
         inner = QWidget()
         iv = QVBoxLayout(inner)
@@ -79,12 +80,12 @@ class KioskPage(QWidget):
             bv = QVBoxLayout(box)
             text = label("")
             text.setWordWrap(True)
-            text.setStyleSheet("font-size: 16pt; font-weight: 600;")
+            text.setStyleSheet(css("font-size: 16pt; font-weight: 600;"))
             hint = label("", "muted")
             hint.setWordWrap(True)
-            hint.setStyleSheet("font-size: 12pt;")
+            hint.setStyleSheet(css("font-size: 12pt;"))
             ans = QPlainTextEdit()
-            ans.setStyleSheet("font-size: 14pt;")
+            ans.setStyleSheet(css("font-size: 14pt;"))
             ans.setMinimumHeight(70)
             ans.setMaximumHeight(105)           # three questions fit on one screen
             mic = DictateButton(lambda wav, mime: self.ctx.transcriber.transcribe(wav, mime).strip(),
@@ -124,12 +125,12 @@ class KioskPage(QWidget):
         v = QVBoxLayout(w)
         v.addStretch(1)
         t = label("Thank you. Your answers have been given to the doctor.")
-        t.setStyleSheet("font-size: 20pt; font-weight: 600;")
+        t.setStyleSheet(css("font-size: 20pt; font-weight: 600;"))
         t.setAlignment(Qt.AlignCenter)
         v.addWidget(t)
         self.thanks_id = label("", "muted")
         self.thanks_id.setAlignment(Qt.AlignCenter)
-        self.thanks_id.setStyleSheet("font-size: 14pt;")
+        self.thanks_id.setStyleSheet(css("font-size: 14pt;"))
         v.addWidget(self.thanks_id)
         v.addStretch(1)
         nxt = button("Next patient", primary=True, slot=self.reset)

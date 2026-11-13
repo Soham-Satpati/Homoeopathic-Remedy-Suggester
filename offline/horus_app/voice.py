@@ -17,6 +17,34 @@ log = logging.getLogger(__name__)
 MAX_SECONDS = 180
 
 
+
+MIC_DENIED = ("HoRUS is not allowed to use the microphone. Open System Settings → Privacy & Security → "
+              "Microphone, switch HoRUS on, then try again.")
+
+
+def _mic_permission() -> str:
+    """"granted", "denied" or "undetermined" (Qt 6.5+ on macOS; elsewhere always "granted")."""
+    try:
+        from PySide6.QtCore import QCoreApplication, QMicrophonePermission, Qt
+    except ImportError:
+        return "granted"
+    app = QCoreApplication.instance()
+    if app is None:
+        return "granted"
+    st = app.checkPermission(QMicrophonePermission())
+    if st == Qt.PermissionStatus.Denied:
+        return "denied"
+    if st == Qt.PermissionStatus.Undetermined:
+        return "undetermined"
+    return "granted"
+
+
+def _request_mic(done) -> None:
+    from PySide6.QtCore import QCoreApplication, QMicrophonePermission, Qt
+    QCoreApplication.instance().requestPermission(
+        QMicrophonePermission(), lambda perm: done(perm.status() == Qt.PermissionStatus.Granted))
+
+
 class Recorder(QObject):
     level = Signal(float)           # 0..1 input level, for a meter
     stopped = Signal(bytes)         # WAV bytes
@@ -41,6 +69,15 @@ class Recorder(QObject):
         return self._source is not None
 
     def start(self) -> None:
+        # macOS asks the user once (Info.plist carries the reason). Recording without permission
+        # "works" but captures silence, so check first and say how to allow it.
+        status = _mic_permission()
+        if status == "denied":
+            self.failed.emit(MIC_DENIED)
+            return
+        if status == "undetermined":
+            _request_mic(lambda granted: self.start() if granted else self.failed.emit(MIC_DENIED))
+            return
         dev = QMediaDevices.defaultAudioInput()
         if dev.isNull():
             self.failed.emit("No microphone was found.")
@@ -57,7 +94,7 @@ class Recorder(QObject):
         self._io = self._source.start()
         if self._io is None:
             self._source = None
-            self.failed.emit("The microphone could not be opened. Check Windows privacy settings → Microphone.")
+            self.failed.emit(MIC_DENIED)
             return
         self._io.readyRead.connect(self._read)
         self._timer.start(MAX_SECONDS * 1000)

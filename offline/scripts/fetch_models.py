@@ -5,12 +5,12 @@
 Fetches into ``<dest>``:
   all-MiniLM-L6-v2/      symptom-matching embeddings (PyTorch + ONNX weights)
   llm/<file>.gguf        the local language model (choice settled by bench/benchmark_llm.py)
-  llama-server/          llama.cpp's server binary for this platform
+  llama-server/          llama.cpp's server binary for this Mac (Apple silicon or Intel)
   whisper-small/         faster-whisper speech model (speech → English)
   manifest.json          what was fetched, from where, and SHA-256 of every file
 
 then reloads the embedding model with networking disabled to prove the copy is complete.
-The installer build runs this; end users never do.
+The app build runs this; end users never do.
 """
 
 from __future__ import annotations
@@ -55,16 +55,19 @@ LLAMA_REPO = "ggml-org/llama.cpp"
 # a version marker without binaries; builds are the numbered bNNNN releases.
 LLAMA_TAG = os.environ.get("HORUS_LLAMA_TAG", "b11669")
 
-# llama.cpp release asset per platform: plain CPU build (no Vulkan/CUDA/SYCL), x64 or arm64.
+# llama.cpp release asset per platform. macOS builds include Metal (Apple silicon GPU) and the
+# Accelerate CPU path; "linux" is only used to run the tests on a Linux dev machine.
 LLAMA_ASSET = {
-    "win":   r"bin-win-cpu-x64\.zip$",
-    "linux": r"bin-ubuntu-x64\.(zip|tar\.gz)$",
-    "mac":   r"bin-macos-arm64\.(zip|tar\.gz)$",
+    "mac":     r"bin-macos-arm64\.(zip|tar\.gz)$",        # Apple silicon (M1 and later)
+    "mac-x64": r"bin-macos-x64\.(zip|tar\.gz)$",          # Intel Macs
+    "linux":   r"bin-ubuntu-x64\.(zip|tar\.gz)$",
 }
 
 
 def _platform() -> str:
-    return {"win32": "win", "darwin": "mac"}.get(sys.platform, "linux")
+    if sys.platform == "darwin":
+        return "mac" if platform.machine() == "arm64" else "mac-x64"
+    return "linux"
 
 
 def sha256(path: Path) -> str:
@@ -146,7 +149,7 @@ def _llama_release(plat: str) -> tuple[dict, dict]:
         hits = [a for a in rel.get("assets", []) if re.search(LLAMA_ASSET[plat], a["name"])]
         if hits:
             return rel, hits[0]
-    raise SystemExit(f"No llama.cpp release with a {plat} CPU build ({LLAMA_ASSET[plat]})")
+    raise SystemExit(f"No llama.cpp release with a {plat} build ({LLAMA_ASSET[plat]})")
 
 
 def fetch_llama_server(dest: Path, plat: str) -> dict:
@@ -165,18 +168,17 @@ def fetch_llama_server(dest: Path, plat: str) -> dict:
     else:
         with tarfile.open(fileobj=io.BytesIO(blob)) as t:
             t.extractall(staging, filter="data")
-    exe = "llama-server.exe" if plat == "win" else "llama-server"
+    exe = "llama-server"
     found = next(staging.rglob(exe), None)
     if found is None:
         raise SystemExit(f"{exe} not in {asset['name']}")
-    shutil.copytree(found.parent, target)                   # the exe with its DLLs / .so / .dylib
+    shutil.copytree(found.parent, target, symlinks=True)    # the server with its .dylib / .so files
     shutil.rmtree(staging)
-    if plat != "win":
-        (target / exe).chmod(0o755)
+    (target / exe).chmod(0o755)
     # keep only what the server needs: drop the other llama.cpp tools
     for f in target.iterdir():
         if f.is_file() and f.name.startswith("llama-") and f.name not in (exe,) and \
-                not f.suffix.lower() in (".dll", ".so", ".dylib"):
+                not f.suffix.lower() in (".so", ".dylib"):
             f.unlink()
     return {"repo": LLAMA_REPO, "tag": rel["tag_name"], "asset": asset["name"], "dir": "llama-server"}
 
