@@ -41,7 +41,9 @@ def linked(p: Path) -> list[str]:
     lines = otool("-L", p)
     # universal files print one "<file> (architecture x):" header per slice; skip every header line
     libs = [ln.strip().split(" (compatibility")[0] for ln in lines if ln.strip() and not ln.rstrip().endswith(":")]
-    return sorted({lib for lib in libs if not lib.endswith("/" + p.name)})   # a dylib lists its own install name
+    own = otool("-D", p)[1:]                 # a dylib lists its own install name (LC_ID_DYLIB) too
+    own_ids = {ln.strip() for ln in own if ln.strip() and not ln.rstrip().endswith(":")}
+    return sorted({lib for lib in libs if lib not in own_ids and not lib.endswith("/" + p.name)})
 
 
 def rpaths(p: Path) -> list[str]:

@@ -33,6 +33,7 @@ from horus.intake import PATIENT_QUESTIONS, QUESTIONS_PER_PAGE, compose_patient_
 log = logging.getLogger(__name__)
 SESSION_HOURS = 12
 MAX_BODY = 64 * 1024
+DRAIN_LIMIT = 1024 * 1024        # oversized bodies up to this are read and discarded so the client sees the 400
 MAX_FIELD = 4000
 
 
@@ -194,8 +195,23 @@ class _Handler(BaseHTTPRequestHandler):
         return None
 
     def _body(self) -> dict | None:
-        n = int(self.headers.get("Content-Length") or 0)
-        if n <= 0 or n > MAX_BODY:
+        try:
+            n = int(self.headers.get("Content-Length") or 0)
+        except ValueError:
+            n = 0
+        if n > MAX_BODY:
+            # Answering before the client has finished sending makes the client see a reset
+            # connection instead of the 400. Drain modest bodies; drop the connection after huge ones.
+            if n <= DRAIN_LIMIT:
+                left = n
+                while left > 0:
+                    chunk = self.rfile.read(min(left, 65536))
+                    if not chunk:
+                        break
+                    left -= len(chunk)
+            self.close_connection = True
+            return None
+        if n <= 0:
             return None
         try:
             return json.loads(self.rfile.read(n).decode("utf-8"))
