@@ -166,6 +166,12 @@ jobs:
             --version "${{ steps.ver.outputs.version }}" --arch arm64 --sign "$HORUS_SIGN_IDENTITY"
           ls installer | sed 's/^/::notice title=disk image::/'
 
+      - name: Free disk space (the image holds everything from here on)
+        run: |
+          df -h "$GITHUB_WORKSPACE" | tail -1 | awk '{print "::notice title=disk before::"$4" free"}'
+          rm -rf build dist ~/Library/Caches/pip
+          df -h "$GITHUB_WORKSPACE" | tail -1 | awk '{print "::notice title=disk after::"$4" free"}'
+
       - name: Join the parts, install from the image, test the installed app, remove it
         run: |
           set -e
