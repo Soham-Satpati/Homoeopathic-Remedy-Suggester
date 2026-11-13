@@ -34,6 +34,9 @@ while IFS= read -r fw; do
   codesign "${opts[@]}" "$fw"
 done < <(find "$APP/Contents" -type d -name "*.framework" | by_depth)
 
+# signing rewrote the llama.cpp binaries: update their checksums before the bundle seal covers them
+python3 "$HERE/refresh_manifest.py" "$APP"
+
 codesign "${opts[@]}" --entitlements "$ENT" "$APP"
 codesign --verify --deep --strict "$APP"
 echo "Signed $n binaries and $APP ($([ "$ID" = "-" ] && echo "ad hoc" || echo "$ID"))"
