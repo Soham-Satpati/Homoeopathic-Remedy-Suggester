@@ -75,7 +75,7 @@ Drag **HoRUS** onto **Applications**. No administrator password is needed.
 
 If macOS says HoRUS can't be opened because it is from an unidentified developer, Control-click HoRUS in Applications and choose **Open** (macOS 15+: *System Settings → Privacy & Security → Open Anyway*). Only needed once.
 
-Requirements: a Mac with Apple silicon (M1 or later) · macOS 13 Ventura or later · 8 GB memory (16 GB recommended) · about 12 GB free disk space while installing (8 GB afterwards).
+Requirements: a Mac with Apple silicon (M1 or later; Intel Macs are not supported by this download) · macOS 13 Ventura or later · 8 GB memory (16 GB recommended) · about 12 GB free disk space while installing (8 GB afterwards).
 
 ### What's inside
 
