@@ -1,4 +1,4 @@
-## HoRUS Offline for Windows
+## HoRUS Offline Windows Edition
 
 ### New in 1.5
 

@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # HoRUS Offline ships for Windows only
+        # HoRUS Offline Windows Edition: tested on Windows only (macOS Edition lives on horus-offline-macos)
         os: [windows-latest]
     defaults:
       run:

@@ -1,4 +1,4 @@
-HoRUS Offline - Engine Test Console
+HoRUS Offline Windows Edition - Engine Test Console
 ===================================
 
 This is a TEST BUILD of the offline engine (step 1 of 5). It is not the clinic app.

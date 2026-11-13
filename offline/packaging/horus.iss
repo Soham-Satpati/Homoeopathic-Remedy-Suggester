@@ -1,4 +1,4 @@
-; Inno Setup script for HoRUS Offline (Windows x64).
+; Inno Setup script for HoRUS Offline Windows Edition (x64).
 ;   iscc horus.iss /DAppVersion=1.0.0 /DSourceDir=..\..\dist\HoRUS /DOutputDir=..\..\installer
 ; The bundled AI models make the package larger than GitHub's 2 GB per-file limit, so the
 ; installer is split: HoRUS-Setup.exe plus HoRUS-Setup-1.bin, -2.bin... kept in the same folder.
@@ -17,7 +17,7 @@
 AppId={{7E3C4B9A-6F2D-4C1E-9A8B-5D0F2E7C1A43}
 AppName=HoRUS
 AppVersion={#AppVersion}
-AppVerName=HoRUS {#AppVersion}
+AppVerName=HoRUS Offline Windows Edition {#AppVersion}
 AppPublisher=Soham Satpati
 AppComments=Clinical homeopathic intelligence that runs entirely offline.
 DefaultDirName={autopf}\HoRUS
@@ -33,7 +33,7 @@ MinVersion=10.0.17763
 WizardStyle=modern
 SetupIconFile=horus.ico
 UninstallDisplayIcon={app}\HoRUS.exe
-UninstallDisplayName=HoRUS {#AppVersion}
+UninstallDisplayName=HoRUS Offline Windows Edition {#AppVersion}
 OutputDir={#OutputDir}
 OutputBaseFilename=HoRUS-Setup
 Compression=lzma2/normal

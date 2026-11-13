@@ -1,5 +1,5 @@
-HoRUS Offline for Windows
-=========================
+HoRUS Offline Windows Edition
+=============================
 
 Clinical homeopathic intelligence that runs entirely on this computer.
 Nothing is sent over the internet.

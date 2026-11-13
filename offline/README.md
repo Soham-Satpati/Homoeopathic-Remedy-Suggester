@@ -1,6 +1,6 @@
-# HoRUS Offline
+# HoRUS Offline Windows Edition
 
-The offline edition of HoRUS: a Windows desktop app that runs with no internet connection. Patient records are encrypted on the PC, and the AI runs locally. The demo (`horus3_1_streamlit.py`) and its data are untouched; this folder reads the same dataset files from the repository root.
+HoRUS Offline Windows Edition: the offline edition of HoRUS as a Windows desktop app that runs with no internet connection. Patient records are encrypted on the PC, and the AI runs locally. The demo (`horus3_1_streamlit.py`) and its data are untouched; this folder reads the same dataset files from the repository root.
 
 | Step | What | Status |
 |---|---|---|

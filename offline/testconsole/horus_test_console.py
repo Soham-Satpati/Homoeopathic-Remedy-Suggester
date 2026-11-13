@@ -1,4 +1,4 @@
-"""HoRUS Offline — engine test console.
+"""HoRUS Offline Windows Edition — engine test console.
 
 A small window for trying the step-1 engine on a laptop: enter a case (or load a sample),
 press Analyse, and see what the engine decides — red flags, miasm, ranked remedies with
@@ -29,7 +29,7 @@ if not getattr(sys, "frozen", False):
 from horus import __version__ as ENGINE_VERSION    # noqa: E402
 from horus.config import Paths                     # noqa: E402
 
-APP_TITLE = "HoRUS Offline — Engine Test Console"
+APP_TITLE = "HoRUS Offline Windows Edition — Engine Test Console"
 GROUPS = (("psychological", "Mind & emotions"), ("general", "Generals (whole body)"),
           ("physical", "Physical / local"))
 
